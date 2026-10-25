@@ -889,7 +889,7 @@ def main():
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.18.0 corpus (wave-25, F66/F67/F68): the audit \u00a74 "
+            "ADR-037 converter v0.18.0 corpus (wave-25, F69/F70/F71): the audit \u00a74 "
             "text-hygiene + repo-hygiene wave. MS page-bottom furniture is dropped at "
             "source: parse_ms now skips the question-total footer in both printed word "
             "orders ('(Total for Question 7 = 6)' / 'Total marks for Question 7 = 10'), "
@@ -904,12 +904,12 @@ def main():
             "in a continuation row the row-parser mis-attributed) and 2025-06 1CR "
             "9(d)(ii) (printed answer is two hand-drawn isomer structures) are now "
             "linked through the F47 MS-LINK-OVERRIDES ledger with eyeballed verbatim "
-            "transcriptions (canaries C77/C78/C79); 7(d) previously served an EMPTY "
+            "transcriptions (canaries C80/C81/C82); 7(d) previously served an EMPTY "
             "mark-point text. BEL U+0007 control chars (15 numbered-method-step strings) "
-            "are normalized at source in clean_lines + the page_norm anchor index (F67), "
+            "are normalized at source in clean_lines + the page_norm anchor index (F70), "
             "byte-identical to the exporter's stem strip. 57 orphan crop PNGs pruned "
-            "(F68); C76 keeps the tree orphan-free. Canaries C74 (furniture-free corpus) "
-            "and C75 (BEL-free corpus) pin the classes. Serving delta: markPoints on "
+            "(F71); C79 keeps the tree orphan-free. Canaries C77 (furniture-free corpus) "
+            "and C78 (BEL-free corpus) pin the classes. Serving delta: markPoints on "
             "exactly 50 parts across 48 slugs, G-E1-matched against the filed disclosure "
             "2026-10-26-wave25-sec4-hygiene.json; problemMd, solutionMd (authored layer), "
             "marks, choices and spec codes byte-identical everywhere else."

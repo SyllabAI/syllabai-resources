@@ -1,0 +1,251 @@
+#!/usr/bin/env node
+// w9-layer-04.js — Crude Oil & Fractional Distillation (rn_H9chr9BWCfXYW472, 5324ch, 4CH1-4.10/4.7/4.8/4.9)
+const { buildLayer } = require('./w9-common');
+
+buildLayer('rn_H9chr9BWCfXYW472', {
+  primer: {
+    text: 'From Classifying Organic Reactions you already know the three reaction types organic molecules undergo. This note meets the raw material they come from: crude oil, the column that sorts it, the six fractions worth learning by name, and the trends in their properties you must be able to explain.',
+    prerequisiteSubtopic: 'Introduction',
+  },
+  lessons: [
+    {
+      title: 'The mixture and the column that sorts it',
+      sourceHeadings: ['How is crude oil separated?', 'How does fractional distillation work?'],
+      specRefs: ['4CH1-4.7', '4CH1-4.8'],
+      opening: 'Crude oil straight from the ground is a useless jumble, yet its separated parts power the world. This lesson follows the mixture into the fractionating column and explains why each group of molecules leaves where it does.',
+      keyPoints: [
+        'Crude oil is a mixture of hydrocarbons, which makes the crude itself of little direct use.',
+        'The useful groups inside it are called fractions, each containing hydrocarbons of similar chain lengths.',
+        'Fractional distillation separates the fractions because molecules of similar chain length have similar boiling points.',
+        'Crude oil is heated so it vaporises, and the vapours enter a fractionating column that is hot at the bottom and cooler at the top.',
+        'Vapours with high boiling points condense low down the column, while those with lower boiling points rise before condensing near the top.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'Crude oil is a jumble of hydrocarbon molecules. Heating turns it to vapour, and inside a tall column that is hot below and cool above, each group condenses at the height matching its boiling point. Each group of similar molecules settles at its own level.',
+          analogy: 'It is like a climbing wall where climbers rest at the height matching their strength: the weakest climbers of all rise to the cool top, and the strongest barely leave the hot ground.',
+          examPointer: 'Tie every statement to the temperature gradient: hot bottom, cool top, condensation height set by boiling point.',
+        },
+        medium: {
+          restatement: 'Crude oil is a mixture of hydrocarbons whose fractions are groups of similar chain length and therefore similar boiling points. In the industrial process the oil is heated until it vaporises, the vapours rise up a fractionating column with a temperature gradient, high-boiling vapours condense at the hot bottom, and low-boiling vapours climb to condense near the cool top.',
+          analogy: 'Picture a multi-storey car park with the busiest, heaviest vehicles parking on the ground floor and lighter ones driving freely to the top deck; boiling point plays the role of vehicle weight here.',
+          examPointer: 'Quote the two halves of the mechanism, vaporise then condense, and name the gradient direction when explaining why a fraction leaves at a given height.',
+        },
+      },
+      check: [
+        {
+          stem: 'What is crude oil?',
+          misconceptionClass: 'crude oil definition',
+          options: [
+            { key: 'A', text: 'A mixture of hydrocarbons', correct: true, explanation: 'The crude is many hydrocarbon molecules jumbled together, which is why it must be separated before use.', misconception: null },
+            { key: 'B', text: 'A single pure compound', correct: false, explanation: 'A pure compound would need no separation; the whole point is the mixture of many chains.', misconception: 'purity assumed' },
+            { key: 'C', text: 'A mixture of elements', correct: false, explanation: 'The components are compounds of hydrogen and carbon, not free elements.', misconception: 'element mixture claimed' },
+            { key: 'D', text: 'A solution of salts in water', correct: false, explanation: 'Crude oil contains no water or salts; it is hydrocarbons throughout.', misconception: 'aqueous confusion' },
+          ],
+        },
+        {
+          stem: 'Why do molecules of a fraction have similar boiling points?',
+          misconceptionClass: 'fraction property link',
+          options: [
+            { key: 'A', text: 'Because their hydrocarbon chains have similar lengths', correct: true, explanation: 'Chain length sets the boiling point, so similar chains condense together as one fraction.', misconception: null },
+            { key: 'B', text: 'Because they were distilled at the same temperature', correct: false, explanation: 'The condensation temperature is a consequence of chain length, not a rule imposed by the apparatus.', misconception: 'cause reversed' },
+            { key: 'C', text: 'Because they all contain the same number of hydrogen atoms', correct: false, explanation: 'Hydrogen count varies within a fraction; chain length is the organising feature.', misconception: 'hydrogen count blamed' },
+            { key: 'D', text: 'Because fractions are chemically bonded to each other', correct: false, explanation: 'Fractions are physical groups of molecules, joined by nothing stronger than mixing.', misconception: 'bonding imagined' },
+          ],
+        },
+        {
+          stem: 'In the fractionating column, where do vapours with high boiling points condense?',
+          misconceptionClass: 'column geography',
+          options: [
+            { key: 'A', text: 'Near the bottom of the column, where it is hottest', correct: true, explanation: 'High boiling points need the hot lower region before the vapour turns back to liquid.', misconception: null },
+            { key: 'B', text: 'Near the top of the column, where it is coolest', correct: false, explanation: 'The cool top collects low-boiling vapours; high boilers never make the climb.', misconception: 'height inverted' },
+            { key: 'C', text: 'They never condense inside the column at all', correct: false, explanation: 'Every fraction condenses somewhere on the column; height just depends on boiling point.', misconception: 'condensation denied' },
+            { key: 'D', text: 'Halfway up, regardless of boiling point', correct: false, explanation: 'Height tracks boiling point continuously; there is no single fixed floor.', misconception: 'uniform height claimed' },
+          ],
+        },
+        {
+          stem: 'What happens to the crude oil before the vapours enter the column?',
+          misconceptionClass: 'process order',
+          options: [
+            { key: 'A', text: 'It is heated so that it vaporises', correct: true, explanation: 'Vaporising first lets the hydrocarbon vapours rise and separate on the gradient.', misconception: null },
+            { key: 'B', text: 'It is cooled until it solidifies', correct: false, explanation: 'Freezing would stop the separation; heat is what mobilises the molecules.', misconception: 'temperature inverted' },
+            { key: 'C', text: 'It is mixed with water to dilute it', correct: false, explanation: 'No dilution happens; the oil is heated directly before the column.', misconception: 'dilution invented' },
+            { key: 'D', text: 'It is filtered to remove the alkanes', correct: false, explanation: 'Alkanes are exactly what is being separated, not removed as debris.', misconception: 'alkanes mislabeled' },
+          ],
+        },
+        {
+          stem: 'As you move up a fractionating column, what happens to the temperature?',
+          misconceptionClass: 'gradient direction',
+          options: [
+            { key: 'A', text: 'It decreases, so high-boiling compounds leave lower down', correct: true, explanation: 'The exam hint of the note: temperature falls with height, sorting fractions by boiling point.', misconception: null },
+            { key: 'B', text: 'It increases, pushing heavy molecules upward', correct: false, explanation: 'The gradient runs the other way: hot at the base, cool at the top.', misconception: 'gradient inverted' },
+            { key: 'C', text: 'It stays constant from bottom to top', correct: false, explanation: 'A constant temperature would give no separation at all.', misconception: 'flat gradient claimed' },
+            { key: 'D', text: 'It alternates hot and cold in bands', correct: false, explanation: 'The column has one smooth gradient, not alternating zones.', misconception: 'striped gradient imagined' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'The main fractions and their trends',
+      sourceHeadings: ['Properties of the main fractions of crude oil', 'Trend in boiling point of the main fractions'],
+      specRefs: ['4CH1-4.9', '4CH1-4.10'],
+      opening: 'Six fractions carry names and uses you must memorise, and their properties line up in a strict order. This lesson walks the ladder from refinery gas to bitumen and explains every step of the trend.',
+      keyPoints: [
+        'The six main fractions run from refinery gases and gasoline through kerosene and diesel to fuel oil and bitumen.',
+        'Refinery gases serve domestic heating and cooking, gasoline fuels cars, and kerosene flies jets.',
+        'Diesel runs diesel engines, fuel oil powers ships and stations, and bitumen surfaces roads and roofs.',
+        'As chain length grows, boiling point and viscosity rise while the colour darkens and volatility falls.',
+        'The boiling point ladder runs from below 25 degrees for refinery gas to above 350 degrees for bitumen.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'Going down the fraction ladder the chains get longer. Boiling points and thickness climb, the liquids get darker and less eager to evaporate, and the uses move from cooking gas to road tar. Bigger molecules attract each other more strongly, which is what drives every one of these trends.',
+          analogy: 'It is like a row of syrups on a shelf: thin and pale at one end, thick and black at the other, with everything in between graded in the same direction.',
+          examPointer: 'Learn the six names with one use each; the pairing is examinable word for word.',
+        },
+        medium: {
+          restatement: 'Refinery gas, gasoline, kerosene, diesel, fuel oil and bitumen run from tiny chains boiling below room temperature to giant chains boiling above 350 degrees. Increasing chain length raises the attraction between molecules, so boiling point and viscosity climb, colour darkens, and volatility drops as bigger molecules hold on tighter and escape less easily.',
+          analogy: 'The fractions behave like pages of a sticker album from thin loose singles to a thick bound volume: the more material stuck together, the harder it is to pull one piece away or get the whole thing flowing.',
+          examPointer: 'Explain each trend through intermolecular attraction growing with molecular size, and anchor the argument with the carbon ranges from the table.',
+        },
+      },
+      check: [
+        {
+          stem: 'Which fraction is used for surfacing roads and roofs?',
+          misconceptionClass: 'fraction uses recall',
+          options: [
+            { key: 'A', text: 'Bitumen', correct: true, explanation: 'The thickest, darkest fraction is the one applied to roads and roofs.', misconception: null },
+            { key: 'B', text: 'Fuel oil', correct: false, explanation: 'Fuel oil powers ships and power stations; it never surfaces roads.', misconception: 'uses shuffled' },
+            { key: 'C', text: 'Diesel', correct: false, explanation: 'Diesel runs engines; surfacing is bitumen work.', misconception: 'heavy fractions confused' },
+            { key: 'D', text: 'Kerosene', correct: false, explanation: 'Kerosene is jet fuel, far too runny for road surfacing.', misconception: 'light fraction misplaced' },
+          ],
+        },
+        {
+          stem: 'Why does viscosity increase along the fraction ladder?',
+          misconceptionClass: 'viscosity reasoning',
+          options: [
+            { key: 'A', text: 'Longer chains attract each other more, so the liquid flows less easily', correct: true, explanation: 'Greater intermolecular attraction between bigger molecules thickens the liquid.', misconception: null },
+            { key: 'B', text: 'Longer chains are lighter, so they sink and thicken', correct: false, explanation: 'Longer chains are heavier, not lighter, and sinking is not how viscosity works.', misconception: 'mass direction flipped' },
+            { key: 'C', text: 'Because fractions are cooled before collection', correct: false, explanation: 'Cooling is part of the column process, not the cause of the viscosity trend.', misconception: 'process step blamed' },
+            { key: 'D', text: 'Viscosity does not change along the ladder', correct: false, explanation: 'The trend is explicit: flow gets harder as chains grow.', misconception: 'trend denied' },
+          ],
+        },
+        {
+          stem: 'A fraction boils between 150 and 240 degrees Celsius. Which fraction is it?',
+          misconceptionClass: 'boiling point table',
+          options: [
+            { key: 'A', text: 'Kerosene', correct: true, explanation: 'Kerosene sits at 12-16 carbons and boils across 150-240 degrees in the table.', misconception: null },
+            { key: 'B', text: 'Gasoline', correct: false, explanation: 'Gasoline boils at 40-100 degrees, below the stated window.', misconception: 'table row misplaced' },
+            { key: 'C', text: 'Diesel', correct: false, explanation: 'Diesel boils at 220-300 degrees, only touching the top of that window.', misconception: 'neighbour row chosen' },
+            { key: 'D', text: 'Refinery gas', correct: false, explanation: 'Refinery gas boils below 25 degrees, far under the stated range.', misconception: 'light end confused' },
+          ],
+        },
+        {
+          stem: 'What happens to volatility as molecular size increases?',
+          misconceptionClass: 'volatility trend',
+          options: [
+            { key: 'A', text: 'Liquids become less volatile because molecules are held more tightly', correct: true, explanation: 'Stronger attraction between larger molecules makes vaporising harder, lowering volatility.', misconception: null },
+            { key: 'B', text: 'Liquids become more volatile as they get thicker', correct: false, explanation: 'Thicker liquids are the opposite of eager evaporators; the two trends run contrary.', misconception: 'trend inverted' },
+            { key: 'C', text: 'Volatility stays fixed across the fractions', correct: false, explanation: 'Volatility falls steadily with size, matching the rising boiling points.', misconception: 'trend denied' },
+            { key: 'D', text: 'Volatility depends only on the colour of the fraction', correct: false, explanation: 'Colour tracks the same ladder but does not cause volatility.', misconception: 'colour causation' },
+          ],
+        },
+        {
+          stem: 'Which pairing of fraction and use is correct?',
+          misconceptionClass: 'use pairing',
+          options: [
+            { key: 'A', text: 'Kerosene for jet fuel and refinery gas for domestic heating', correct: true, explanation: 'The use table pairs kerosene with aircraft and refinery gas with heating and cooking.', misconception: null },
+            { key: 'B', text: 'Gasoline for ships and fuel oil for cars', correct: false, explanation: 'The pairing is reversed: gasoline fuels cars and fuel oil powers ships.', misconception: 'pairing crossed' },
+            { key: 'C', text: 'Diesel for cooking and refinery gas for trucks', correct: false, explanation: 'Both halves are wrong; diesel engines burn diesel and cooking uses refinery gas.', misconception: 'both mispaired' },
+            { key: 'D', text: 'Bitumen for jet fuel and kerosene for roads', correct: false, explanation: 'This swaps the extreme ends of the ladder, where the properties could not differ more.', misconception: 'extremes swapped' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Why the fractions matter beyond the column',
+      sourceHeadings: ['What are the fractions used for?', 'Uses of Crude Oil Fractions'],
+      specRefs: ['4CH1-4.9'],
+      opening: 'Separated fractions feed transport, heating and the petrochemical industry at large. This lesson gathers the uses into one picture and explains why carbon chemistry can support such a variety of products.',
+      keyPoints: [
+        'Most modern transport runs on oil products, from cars and trains to aircraft.',
+        'Polymers, lubricants, solvents, detergents and adhesives are all obtained from crude oil.',
+        'The industry that turns oil into products underpins modern society and its development.',
+        'Carbon bonds strongly and repeatedly to itself, which lets it build a huge number of organic compounds.',
+        'The spread of fractions and their many products both stem from that bonding versatility of carbon.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'Fractions fuel vehicles and aircraft, and feed factories making plastics, lubricants, solvents, detergents and adhesives. All of this variety comes from carbon bonding strongly to itself in many ways. Every product list you know, from petrol to glue, traces back to that one bonding ability.',
+          analogy: 'Carbon is a master building brick: one brick type, endless models, which is why one barrel of oil supplies both the fuel and the plastic dashboard.',
+          examPointer: 'Quote at least two non-fuel products, such as polymers and solvents, when asked about the importance of oil.',
+        },
+        medium: {
+          restatement: 'The petrochemical industry underpins modern transport and manufacturing: cars, trains and aircraft burn oil-based fuels, while polymers, lubricants, solvents, detergents and adhesives come from the same crude feedstock. The range exists because carbon bonds strongly and repeatedly to itself, generating a huge number of distinct organic compounds.',
+          analogy: 'Crude oil is a combined petrol station and hardware store: the same tank fills the car and stocks the glue, the detergent and the plastic trim, all because carbon chains can be built to any specification.',
+          examPointer: 'Link the breadth of products to carbon bonding in your answer; the phrase strong covalent bonds with itself is the marking idea.',
+        },
+      },
+      check: [
+        {
+          stem: 'Which of these is obtained from crude oil?',
+          misconceptionClass: 'petrochemical products',
+          options: [
+            { key: 'A', text: 'Detergents and solvents', correct: true, explanation: 'The note lists polymers, lubricants, solvents, detergents and adhesives as oil-derived products.', misconception: null },
+            { key: 'B', text: 'Natural gas', correct: false, explanation: 'Natural gas is a separate fossil fuel, not a product distilled from crude oil.', misconception: 'fossil fuels merged' },
+            { key: 'C', text: 'Iron ore', correct: false, explanation: 'Iron ore is mined rock with no connection to oil refining.', misconception: 'mining confused' },
+            { key: 'D', text: 'Limestone', correct: false, explanation: 'Limestone is a carbonate rock, unrelated to the fractions of crude oil.', misconception: 'rocks confused' },
+          ],
+        },
+        {
+          stem: 'What allows carbon to form such a huge number of organic compounds?',
+          misconceptionClass: 'carbon versatility',
+          options: [
+            { key: 'A', text: 'Its ability to form multiple strong covalent bonds with itself', correct: true, explanation: 'Carbon chaining to itself builds skeletons of any length, which multiplies the possible compounds.', misconception: null },
+            { key: 'B', text: 'Its unusually low boiling point', correct: false, explanation: 'Carbon itself is not a liquid here; bonding versatility is the point.', misconception: 'boiling point blamed' },
+            { key: 'C', text: 'Its radioactive behaviour in fuels', correct: false, explanation: 'Radioactivity plays no part in organic chemistry bonding.', misconception: 'nuclear confused with chemical' },
+            { key: 'D', text: 'Its refusal to react with hydrogen', correct: false, explanation: 'Hydrocarbons are defined by carbon-hydrogen bonding, so refusal is the opposite of reality.', misconception: 'reactivity inverted' },
+          ],
+        },
+        {
+          stem: 'Which transport uses are based on oil products?',
+          misconceptionClass: 'transport fuels',
+          options: [
+            { key: 'A', text: 'Cars, trains and aircraft', correct: true, explanation: 'The note lists modern methods of transport from cars to trains to planes as oil-based.', misconception: null },
+            { key: 'B', text: 'Only cars', correct: false, explanation: 'The reach is far wider than cars; aircraft and trains appear in the same sentence.', misconception: 'scope deflated' },
+            { key: 'C', text: 'Only electric trains', correct: false, explanation: 'Electric traction is precisely the case that does not run on oil products here.', misconception: 'electrification confused' },
+            { key: 'D', text: 'No transport, because oil is too viscous', correct: false, explanation: 'Refining solves viscosity by sorting fractions to each engine type.', misconception: 'viscosity objection' },
+          ],
+        },
+        {
+          stem: 'Why is the petrochemical industry described as hugely important?',
+          misconceptionClass: 'industry importance',
+          options: [
+            { key: 'A', text: 'Because modern society runs on its fuels and manufactured products', correct: true, explanation: 'Transport fuels plus polymer and solvent manufacture give the industry its central role.', misconception: null },
+            { key: 'B', text: 'Because it supplies drinking water', correct: false, explanation: 'Water supply is not a petrochemical product in this account.', misconception: 'sector misplaced' },
+            { key: 'C', text: 'Because crude oil is useful exactly as it comes out of the ground', correct: false, explanation: 'The crude itself is not useful; the separated fractions and their products are.', misconception: 'crude usefulness claimed' },
+            { key: 'D', text: 'Because fractions cannot be modified once separated', correct: false, explanation: 'Fractions are routinely cracked and modified, which is the next note topic.', misconception: 'static fractions claimed' },
+          ],
+        },
+        {
+          stem: 'Refinery gas is also known by which other name in the exam hint?',
+          misconceptionClass: 'fraction aliases',
+          options: [
+            { key: 'A', text: 'Liquid petroleum gases', correct: true, explanation: 'The exam hint gives liquid petroleum gases as the alias for refinery gases.', misconception: null },
+            { key: 'B', text: 'Paraffin', correct: false, explanation: 'Paraffin is the alias of kerosene, one rung down the ladder.', misconception: 'alias misassigned' },
+            { key: 'C', text: 'Petrol', correct: false, explanation: 'Petrol is the everyday name for gasoline, not refinery gas.', misconception: 'alias misassigned' },
+            { key: 'D', text: 'Gas oil', correct: false, explanation: 'Gas oil is the alias of diesel, further up the ladder than refinery gas.', misconception: 'alias misassigned' },
+          ],
+        },
+      ],
+    },
+  ],
+  glossary: [
+    { term: 'distillation', definition: 'Separating a liquid mixture by boiling and condensing, using differences in boiling points.', firstLesson: 1 },
+    { term: 'fraction', definition: 'A group of hydrocarbons of similar chain length, and therefore similar boiling points, separated from crude oil.', firstLesson: 1 },
+    { term: 'fractionating column', definition: 'The tall industrial tower, hot at the bottom and cooler at the top, in which crude oil fractions separate.', firstLesson: 1 },
+    { term: 'viscosity', definition: 'A measure of how easily a liquid flows; high viscosity liquids are thick and flow slowly.', firstLesson: 2 },
+    { term: 'volatility', definition: 'The tendency of a substance to turn into vapour; volatile liquids evaporate easily.', firstLesson: 2 },
+  ],
+  workedExample: null,
+});

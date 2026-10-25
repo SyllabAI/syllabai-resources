@@ -1,0 +1,271 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T20:42:55Z",
+ "series": "2021-01",
+ "paper": "1PR",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/1PR; series=2021-01; printed='January 2021; January 2021'; sha256 qp/ms match manifest: True; manifest variant '1PR' == requested '1PR': True",
+   "details": {
+    "qp_sha256": "29edd018de47b0214c113f69eb4ae69e1ddaa6c9aea3ff18103bf340d1bf43b1",
+    "ms_sha256": "15b58e6a9412cfdb38adfc045f0a4a25c094cafac65386d5f0366b5a9700a20d",
+    "registry_paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/1PR"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "12 questions; Σ question totals=110/110; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [
+     14,
+     22,
+     32
+    ],
+    "count_expected": null
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 47 parts (0 disclosed, 47 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "12 asset records cover every table/diagram/grid/apparatus mention: 10 cropped to assets/*.png (150 dpi), 1 remain crop-required; 0 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 0,
+    "crop_stats": {
+     "crops": 10,
+     "pending": 1,
+     "shared": 4
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "FAIL",
+   "summary": "MS linkage 21/47 (45%)",
+   "details": {
+    "unmatched": [
+     "2(b)",
+     "2(c)",
+     "3(b)",
+     "3(c)",
+     "5(c)",
+     "6(b)",
+     "6(c)",
+     "7(a)(i)",
+     "7(a)(ii)",
+     "7(a)(iii)",
+     "7(a)(iv)",
+     "7(a)(v)",
+     "7(b)",
+     "8(b)",
+     "9",
+     "10(b)",
+     "10(c)",
+     "10(d)",
+     "11(a)(i)",
+     "11(a)(ii)",
+     "11(a)(iii)",
+     "11(a)(iv)",
+     "11(b)",
+     "12(a)(i)",
+     "12(a)(ii)",
+     "12(b)"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 47 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 21/21 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 0,
+    "ms_marks_agree": 0,
+    "ms_marks_disagree": []
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "9"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "7(b)",
+   "reason": "figure crop emitted — human verify (assets/asset_7_b_diagram.png)"
+  },
+  {
+   "part": "12(c)(ii)",
+   "reason": "figure crop required (grid, page 30)"
+  },
+  {
+   "part": "2(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "2(c)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(c)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "5(c)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(c)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(iii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(iv)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(v)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "8(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "9",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(c)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(d)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(a)(iii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(a)(iv)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "12(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "12(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "12(b)",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "ocr_pages": [],
+ "source_defects": {
+  "image_only_pages": [
+   14,
+   22,
+   32
+  ],
+  "affected_questions": []
+ },
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 47,
+  "pending_llm": 47,
+  "no_spec_point": 0
+ }
+}

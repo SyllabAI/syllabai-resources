@@ -1,0 +1,59 @@
+{
+  "schema": "sib-evidence-claim-qa/1.2",
+  "script": "SubjectIntelligence/pipeline/sib_evidence_claim_qa.py r2",
+  "law": "every (SRC-*, locator) resolves to the artifact's own pack; every (census.json, path) resolves to the run census annex; quoted fragments bind to the cited excerpts (r1); page or JSONL-line locators verified against pack excerpts (r2); unparseable citations fail closed",
+  "artifacts": [
+    {
+      "artifact_id": "EXP-01",
+      "citations_checked": 33,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "EXP-02",
+      "citations_checked": 42,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "EXP-03",
+      "citations_checked": 35,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "EXP-04",
+      "citations_checked": 39,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "EXP-05",
+      "citations_checked": 24,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "EXP-06",
+      "citations_checked": 27,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "EXP-07",
+      "citations_checked": 28,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "EXP-08",
+      "citations_checked": 25,
+      "violations": [],
+      "violation_count": 0
+    }
+  ],
+  "totals": {
+    "citations_checked": 253,
+    "violations": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-004",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "c15fc29289e3db199474dd9f0d36c90de2531054",
+    "syllabai_pastpapers": "04df741df6185d2f5b6ccefd219244f36e24d40b",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "EXP-01",
+      "filename": "CHEMISTRY_4CH1_EXP-01_CORE_CONCEPT_EXPLANATIONS.md",
+      "evidence_pack": "evidence/EXP-01/evidence_pack.json",
+      "evidence_pack_sha256": "b3764f56ca8318586e2a48ae2d66b29dbf7f8a1857323bd5c3d6e10e315277c4",
+      "artifact_sha256": "10710de10127d315289103da4622c0a514a40e0bf410a956c01f52a226396620",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 33 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-01.qa.json"
+    },
+    {
+      "artifact_id": "EXP-02",
+      "filename": "CHEMISTRY_4CH1_EXP-02_SIMPLE_EXPLANATIONS.md",
+      "evidence_pack": "evidence/EXP-02/evidence_pack.json",
+      "evidence_pack_sha256": "359cb08212d36361f8ff9c3224ef0921f3496caedafa1a1d23de5a4aabccabe6",
+      "artifact_sha256": "3635a3d9da654b03c4a72c4b10a9e4f935e2f3dc1168b23b3c06ea9f389f5e9e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 42 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-02.qa.json"
+    },
+    {
+      "artifact_id": "EXP-03",
+      "filename": "CHEMISTRY_4CH1_EXP-03_DEEP_EXPLANATIONS.md",
+      "evidence_pack": "evidence/EXP-03/evidence_pack.json",
+      "evidence_pack_sha256": "9c7d0a8eefa72c4057cd92a3b8478198d4cc6c3bfcdf618fdbb66ed3d904b357",
+      "artifact_sha256": "6bf3b0966ae381e1f04d475882e90d7f01e633d78ddfc80ec6e611e1fff9223f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 35 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-03.qa.json"
+    },
+    {
+      "artifact_id": "EXP-04",
+      "filename": "CHEMISTRY_4CH1_EXP-04_ALTERNATIVE_EXPLANATIONS.md",
+      "evidence_pack": "evidence/EXP-04/evidence_pack.json",
+      "evidence_pack_sha256": "314021eb3b5486e3304b19d34f3184193b3251708ea24673353a1fe339c2c356",
+      "artifact_sha256": "7cb49a0d86ae512c73bd3fe1d5ef4197b695fba69edfe2e1183d293a535df0ed",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 39 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-04.qa.json"
+    },
+    {
+      "artifact_id": "EXP-05",
+      "filename": "CHEMISTRY_4CH1_EXP-05_ANALOGIES_MENTAL_MODELS.md",
+      "evidence_pack": "evidence/EXP-05/evidence_pack.json",
+      "evidence_pack_sha256": "a95e18159f436a8536baac0747118e56b2c96b30d331f6cd44395794ed05b9d7",
+      "artifact_sha256": "d7bcd95b2511f235470853dc5fa3aa6b3c7f49e6a854018907dc77ee75ccc437",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 24 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-05.qa.json"
+    },
+    {
+      "artifact_id": "EXP-06",
+      "filename": "CHEMISTRY_4CH1_EXP-06_CONCEPTUAL_DISTINCTIONS.md",
+      "evidence_pack": "evidence/EXP-06/evidence_pack.json",
+      "evidence_pack_sha256": "26295969171dc6bcf224e35826d808ec9c837dca1ce0791e689d9ba1da1dddf2",
+      "artifact_sha256": "0a6c1698111218bd6e2df17f18de8b7bc2c07c53e1344db78f2dfb3aef651f9c",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 27 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-06.qa.json"
+    },
+    {
+      "artifact_id": "EXP-07",
+      "filename": "CHEMISTRY_4CH1_EXP-07_WHY_IT_WORKS.md",
+      "evidence_pack": "evidence/EXP-07/evidence_pack.json",
+      "evidence_pack_sha256": "ee6fc60cd47dc9209a8553018867704be118fe6010b77eca1e6e57c37d08793f",
+      "artifact_sha256": "347191579e4c5ec5c67d13a29e46bda69251070d90faf79c78e1e1256c62d298",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 28 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-07.qa.json"
+    },
+    {
+      "artifact_id": "EXP-08",
+      "filename": "CHEMISTRY_4CH1_EXP-08_COMMON_WHY_QUESTIONS.md",
+      "evidence_pack": "evidence/EXP-08/evidence_pack.json",
+      "evidence_pack_sha256": "afb8ea52699d290a154a15b7569b42bde727ef507dfa0901a0fa9678667c48a8",
+      "artifact_sha256": "e0f81b020fc5b9adc24699929579609820372a031a6910c9119e0ae318c51777",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (EXP primaries SRC-SPEC-4CH1 + SRC-BOOK-4CH1-SB1 RESOLVED; 10 failed sources disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r2: 25 citations checked, 0 violations; (SRC-*, locator) incl. JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/EXP-08.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": [
+    "RUN-LEVEL: syllabai-pastpapers revision recorded as the run's read state 04df741d (EXP consumes no pastpapers sources); remote main has since advanced to 29d88249 (images-only lanes, no manifest/pdf changes) — disclosed, not consumed.",
+    "RUN-LEVEL: pipeline increments shipped in this change of record — evidence_pack.py r1 (_jsonl_locate: bounded per-record excerpts from JSONL corpora with line+chunk-id locators; md_query now compiles case-insensitively) and sib_evidence_claim_qa.py r2 (family-general record blocks; .jsonl path + line-locator grammar; quote binding by locator kind). Both disclosed in the BL-008 pass-3 ledger entry.",
+    "RUN-LEVEL: in-turn authoring repairs before run record — (1) pack spec-page plans expanded (p20/p21/p28/p29) after the first claim-QA cycle caught spec anchors cited outside their artifact's pack; (2) EXP-03/04/06/07 bodies re-stamped after quote-binding catches (OCR Roman-numeral 'repair' inside a quote, an uncited quote line x2, and an unparseable 'pp. 20 and 21' locator). All fixes at body/spec level; packs rebuilt deterministically; final claim QA 253 citations / 0 violations.",
+    "RUN-LEVEL: validator emits INFO SIB-ANCH-003 (no curriculum registry supplied to qa; anchor existence not checked) on all 8 artifacts — disclosed; the anchor-registry repair remains the standing queue item (SIB-ANCH-002 class)."
+  ]
+}

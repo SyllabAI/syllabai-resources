@@ -1,0 +1,1707 @@
+{
+ "schema": "syllabai.official-paper-questions.multi-series/0.1",
+ "generated_utc": "2026-10-25T20:44:54Z",
+ "baseline": null,
+ "corpus": "4PH1 1P/1PR/2P/2PR — 53 of 58 census paper dirs, all series in syllabai-pastpapers (Task 16 landing, operator order trace 1a174b2c6305cbfd; 5 dirs dispositioned: 3 archive-gap NO-QP, 1 image-only scan crash, 1 archive mislabel — see LANE-STATUS.md)",
+ "converter": "official_examq_extract.py v0.17.4 (ADR-039) — restored tranche (2254347353) + F67 vertical-lane PUA gate",
+ "series": [
+  {
+   "series": "2019-06",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2019-06:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 54,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 6,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 26/54 (48%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 35
+  },
+  {
+   "series": "2019-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2019-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 9,
+   "parts": 31,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 14/31 (45%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 19
+  },
+  {
+   "series": "2019-06",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2019-06:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 34,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 15/34 (44%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 23
+  },
+  {
+   "series": "2020-01",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 50,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 22/50 (44%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     20,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 33
+  },
+  {
+   "series": "2020-01",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 52,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 7,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 32/52 (62%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 27
+  },
+  {
+   "series": "2020-01",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 31,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 22/31 (71%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 12
+  },
+  {
+   "series": "2020-01",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 33,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 13/33 (39%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 21
+  },
+  {
+   "series": "2020-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 42,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 0,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 25/42 (60%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 17
+  },
+  {
+   "series": "2020-06",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-06:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 13,
+   "parts": 53,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 27/53 (51%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 27
+  },
+  {
+   "series": "2020-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 35,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 25/35 (71%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 11
+  },
+  {
+   "series": "2020-06",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-06:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 36,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 4,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 22/36 (61%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 19
+  },
+  {
+   "series": "2020-11",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-11:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 42,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 0,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 25/42 (60%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 17
+  },
+  {
+   "series": "2021-01",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 50,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 2,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 29/50 (58%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     30,
+     31,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 22
+  },
+  {
+   "series": "2021-01",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 47,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 2,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 21/47 (45%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     14,
+     22,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 28
+  },
+  {
+   "series": "2021-01",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 37,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 18/37 (49%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     23,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 22
+  },
+  {
+   "series": "2021-01",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-01:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 33,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 21/33 (64%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     18,
+     19,
+     20
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 16
+  },
+  {
+   "series": "2021-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 48,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 25/48 (52%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     12
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 29
+  },
+  {
+   "series": "2021-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 7,
+   "parts": 32,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 16/32 (50%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     14,
+     23,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 17
+  },
+  {
+   "series": "2021-11",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-11:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 53,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 33/53 (62%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     30,
+     31,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 23
+  },
+  {
+   "series": "2021-11",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-11:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 37,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 23/37 (62%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     12,
+     18,
+     22,
+     23,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 16
+  },
+  {
+   "series": "2022-01",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-01:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 55,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 4,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 34/55 (62%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     16,
+     22,
+     26,
+     36
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 24
+  },
+  {
+   "series": "2022-01",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-01:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 49,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 27/49 (55%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     30,
+     31,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 25
+  },
+  {
+   "series": "2022-01",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-01:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 9,
+   "parts": 31,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 20/31 (65%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     14,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 14
+  },
+  {
+   "series": "2022-01",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-01:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 30,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 17/30 (57%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     22,
+     23,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 14
+  },
+  {
+   "series": "2022-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 59,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 6,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 42/59 (71%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 22
+  },
+  {
+   "series": "2022-06",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-06:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 49,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 27/49 (55%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     28
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 25
+  },
+  {
+   "series": "2022-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 7,
+   "parts": 31,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 22/31 (71%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     22,
+     23,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 12
+  },
+  {
+   "series": "2022-06",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-06:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 7,
+   "parts": 30,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 19/30 (63%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     22,
+     23,
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 12
+  },
+  {
+   "series": "2023-01",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-01:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 50,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 27/50 (54%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     8,
+     16,
+     24,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 27
+  },
+  {
+   "series": "2023-01",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-01:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 55,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 2,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 26/55 (47%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     30,
+     31,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 32
+  },
+  {
+   "series": "2023-01",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-01:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 28,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 0,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 12/28 (43%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     20
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 16
+  },
+  {
+   "series": "2023-01",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-01:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 34,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 18/34 (53%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     24
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 17
+  },
+  {
+   "series": "2023-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 45,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 2,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 28/45 (62%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 19
+  },
+  {
+   "series": "2023-06",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 46,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 4,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 24/46 (52%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": {
+    "image_only_pages": [
+     8,
+     18,
+     22,
+     32
+    ],
+    "affected_questions": []
+   },
+   "review_queue_items": 27
+  },
+  {
+   "series": "2023-06",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 30,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 21/30 (70%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 11
+  },
+  {
+   "series": "2023-11",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-11:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 49,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 28/49 (57%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 25
+  },
+  {
+   "series": "2023-11",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-11:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 29,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 22/29 (76%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 8
+  },
+  {
+   "series": "2024-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 51,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 4,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 31/51 (61%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 26
+  },
+  {
+   "series": "2024-06",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-06:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 50,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 2,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 29/50 (58%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 24
+  },
+  {
+   "series": "2024-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 33,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 2,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 26/33 (79%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 10
+  },
+  {
+   "series": "2024-06",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-06:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 9,
+   "parts": 30,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 0,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 17/30 (57%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 16
+  },
+  {
+   "series": "2024-11",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-11:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 53,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 32/53 (60%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 21
+  },
+  {
+   "series": "2024-11",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-11:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 35,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 23/35 (66%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 13
+  },
+  {
+   "series": "2025-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 49,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 2,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 28/49 (57%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 24
+  },
+  {
+   "series": "2025-06",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-06:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 43,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 4,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 28/43 (65%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 18
+  },
+  {
+   "series": "2025-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 32,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 2,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 16/32 (50%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 16
+  },
+  {
+   "series": "2025-06",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-06:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 31,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 1,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 19/31 (61%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 12
+  },
+  {
+   "series": "2025-11",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-11:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 50,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 5,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 25/50 (50%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 32
+  },
+  {
+   "series": "2025-11",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-11:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 36,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 16/36 (44%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 23
+  },
+  {
+   "series": "2026-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 46,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 3,
+   "mcq_keyed": 1,
+   "ms_linkage": "MS linkage 24/46 (52%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 27
+  },
+  {
+   "series": "2026-06",
+   "paper": "1PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/1PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "FAIL",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 11,
+   "parts": 47,
+   "marks_total": 110,
+   "marks_expected": 110,
+   "mcq_parts": 6,
+   "mcq_keyed": 3,
+   "ms_linkage": "MS linkage 22/47 (47%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 28
+  },
+  {
+   "series": "2026-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "FAIL",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 27,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 2,
+   "ms_linkage": "MS linkage 15/27 (56%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 14
+  },
+  {
+   "series": "2026-06",
+   "paper": "2PR",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/2PR",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "REVIEW",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 8,
+   "parts": 28,
+   "marks_total": 70,
+   "marks_expected": 70,
+   "mcq_parts": 0,
+   "mcq_keyed": 0,
+   "ms_linkage": "MS linkage 16/28 (57%)",
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   },
+   "source_defects": null,
+   "review_queue_items": 12
+  }
+ ],
+ "landing_disclosure": {
+  "verdict": "LANDED-REVIEW-HEAVY under ADR-039 (fail-closed honesty): every slice passes the structural gates G0/G1/G2-D/G4/G6/G7; the physics MS-table parser wave is open and disclosed — G3 MCQ keying 39 FAIL / 14 PASS (79 of 138 MCQ parts honestly unkeyed, choices as printed, no is_correct emitted) and G5 answer linkage 11 FAIL / 42 REVIEW (936 of 2,171 parts unmatched, solution_md honestly absent; 1,235 linked parts all carry their verbatim MS solution)",
+  "review_queue_by_reason": {
+   "answer not auto-linked to MS": 936,
+   "MCQ key unresolved from MS": 79,
+   "figure crop emitted — human verify": 35,
+   "figure crop required": 30
+  },
+  "spec_tagging": "0/2,171 parts tagged (all honest pending-llm) — the physics spec-label wave is open",
+  "figures": "531 assets (501 crops + 30 crop-required stubs); 65 crops carry review:true pending eyeball (CROP-REVIEW has no 4ph1 homes yet)",
+  "canaries": "C74 (no_pua_served spec=4ph1 + 2 pins), C75 (2P footer law 70), C76 (1P 2023-06 count 12); battery of record 74/74",
+  "cross_diff": null,
+  "cross_diff_note": "the repo parsed/ layer is 4CH1-only — no independent-parse cross-diff exists for 4PH1"
+ },
+ "generalization_findings": [
+  "physics MS text layer is CELL-PER-LINE (vertical) — chemistry's row-shaped parse_ms has nothing to grip; parse_ms_vertical added v0.17.0 (raw layer, header-anchored state machine)",
+  "F67 (v0.17.4): the vertical lane bypassed clean_lines by design and normalize_pua with it — entry append sites stored raw lines; mapped PUA leaked into solution_md on 16 slices; caught by C74 pre-ship, fixed by rebinding ln to its normalized form (indentation preserved)",
+  "QP footer law verified from the archive of record: 1P=110 marks (bare footer, no parentheses), 2P=70 (wrapped) — physics carries a tolerant footer_re (Task 14)",
+  "physics PUA census: 17 distinct PUA codepoints; 5 evidenced in the v0.17.3 tranche (U+F020 space, U+F068 up-arrow, U+F06A/F075 decorative pictograms dropped, U+F070 pi); F06A/F075 drop means pictogram-bearing stems serve text-only (the printed words carry the content)"
+ ]
+}

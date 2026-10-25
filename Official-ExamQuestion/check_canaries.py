@@ -8,7 +8,14 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+# Task 16 landing: spec-lane registry (the v0.16.0 converter pattern; F66 guard) -
+# a canary may carry an optional "spec" field ("4ch1" default | "4ph1");
+# BASE + PAPER_PREFIX re-resolve per canary. Chemistry canaries (no spec field)
+# resolve to exactly the previous literals - behavior bit-identical.
+SPEC_LANES = {"4ch1": ("igcse-chemistry-19", "4CH1"),
+              "4ph1": ("igcse-physics-19", "4PH1")}
 BASE = HERE / "igcse-chemistry-19"
+PAPER_PREFIX = "4CH1"
 
 _solution_stats = {"linked": 0, "mp": 0, "badsum": 0}
 
@@ -31,7 +38,7 @@ cans = json.loads((HERE / "CANARIES.json").read_text())["canaries"]
 fails = []
 
 def load(series, paper="1C"):
-    d = BASE / series / f"4CH1-{paper}"
+    d = BASE / series / f"{PAPER_PREFIX}-{paper}"
     return (json.loads((d / "validation-report.json").read_text()),
             json.loads((d / "topic.json").read_text()))
 
@@ -39,7 +46,7 @@ def load(series, paper="1C"):
 def paper_dirs(series_dir):
     """All paper-variant dirs with outputs under a series dir (1C, 2C, ...)."""
     return sorted(p for p in series_dir.iterdir()
-                  if p.is_dir() and re.match(r"4CH1-[0-9][A-Z]R?$", p.name)
+                  if p.is_dir() and re.match(PAPER_PREFIX + r"-[0-9][A-Z]R?$", p.name)
                   and (p / "topic.json").exists())
 
 def find_part(topic, pn):
@@ -52,6 +59,10 @@ def find_part(topic, pn):
 for c in cans:
     cid, chk = c["id"], c["check"]
     series = c["series"]
+    _lane, _prefix = SPEC_LANES.get(str(c.get("spec", "4ch1")).lower(),
+                                    ("igcse-chemistry-19", "4CH1"))
+    BASE = HERE / _lane
+    PAPER_PREFIX = _prefix
     try:
         if chk in ("part_unkeyed", "part_keyed_to", "question_count"):
             rep, t = load(series, c.get("paper", "1C"))
@@ -172,7 +183,7 @@ for c in cans:
         elif chk == "asset_state":
             # C15–C21 (v0.6): figure-serving semantics pinned per part — the
             # exact resolutions from the crop-review wave must hold forever.
-            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            t = json.loads((BASE / series / f"{PAPER_PREFIX}-{c.get('paper', '1C')}" / "topic.json").read_text())
             assets = [a for q in t["questions"] for p in q["parts"]
                       if p["part_number"] == c["part"] for a in (p.get("assets") or [])]
             if c.get("empty"):
@@ -212,7 +223,7 @@ for c in cans:
                     # ledger keying: 1C keeps the legacy bare series name; other
                     # papers (F34) use '<series>:<paper>' so verdict homes never
                     # collide across variants.
-                    s = d.name if pd.name == "4CH1-1C" else f"{d.name}:{pd.name.split('-')[1]}"
+                    s = d.name if pd.name == f"{PAPER_PREFIX}-1C" else f"{d.name}:{pd.name.split('-')[1]}"
                     t = json.loads((pd / "topic.json").read_text())
                     assets = {a["id"]: a for q in t["questions"] for p in q["parts"]
                               for a in (p.get("assets") or [])}
@@ -259,7 +270,7 @@ for c in cans:
                 if not d.is_dir():
                     continue
                 for pd in paper_dirs(d):
-                    s = d.name if pd.name == "4CH1-1C" else f"{d.name}:{pd.name.split('-')[1]}"
+                    s = d.name if pd.name == f"{PAPER_PREFIX}-1C" else f"{d.name}:{pd.name.split('-')[1]}"
                     t = json.loads((pd / "topic.json").read_text())
                     rep = json.loads((pd / "validation-report.json").read_text())
                     applied = set(rep.get("mcq_keys_applied") or [])
@@ -328,7 +339,7 @@ for c in cans:
             for d in sorted(BASE.iterdir()):
                 if not d.is_dir():
                     continue
-                pd = d / f"4CH1-{paper}"
+                pd = d / f"{PAPER_PREFIX}-{paper}"
                 if not (pd / "topic.json").exists():
                     continue
                 s = d.name
@@ -350,7 +361,7 @@ for c in cans:
             for s, parts in nsp_by_series.items():
                 if not parts:
                     continue
-                t = json.loads((BASE / s / f"4CH1-{paper}" / "topic.json").read_text())
+                t = json.loads((BASE / s / f"{PAPER_PREFIX}-{paper}" / "topic.json").read_text())
                 pn = {p["part_number"] for q in t["questions"] for p in q["parts"]}
                 for part in parts:
                     if part not in pn:
@@ -366,7 +377,7 @@ for c in cans:
         elif chk == "part_linked":
             # C46/C47 (v0.9/F40h+F40i): MS-linkage fixes pinned — the named part
             # must be linked with a non-empty solution block.
-            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            t = json.loads((BASE / series / f"{PAPER_PREFIX}-{c.get('paper', '1C')}" / "topic.json").read_text())
             got = [p for q in t["questions"] for p in q["parts"]
                    if p["part_number"] == c["part"]]
             ok = bool(got) and got[0].get("answer_status") == "linked" \
@@ -377,7 +388,7 @@ for c in cans:
             # C53 (v0.10/F42): the 2019-06 early-MS bare-marker linkage wave —
             # every named part must exist, be linked, and carry a solution block.
             # Doubles as the damage-repair renumber pin (15(b)(i..iii), 11(b)(iii)).
-            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            t = json.loads((BASE / series / f"{PAPER_PREFIX}-{c.get('paper', '1C')}" / "topic.json").read_text())
             ok = True
             for pn in c["parts"]:
                 got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == pn]
@@ -388,7 +399,7 @@ for c in cans:
         elif chk == "part_answer_status":
             # C52 (v0.10/F42): honest-state pins — e.g. 3(d)(ii) stays unmatched
             # because its MS answer cell is a printed image, not text.
-            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            t = json.loads((BASE / series / f"{PAPER_PREFIX}-{c.get('paper', '1C')}" / "topic.json").read_text())
             got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == c["part"]]
             ok = bool(got) and got[0].get("answer_status") == c["expected"]
             if not ok:
@@ -398,7 +409,7 @@ for c in cans:
             # C49/C50/C51 (v0.10/F41): OCR-recovered verbatim pins — the
             # transcribed spans (equation subscripts, table values) must never
             # silently regress to the raw-OCR garble.
-            t = json.loads((BASE / series / f"4CH1-{c.get('paper', '1C')}" / "topic.json").read_text())
+            t = json.loads((BASE / series / f"{PAPER_PREFIX}-{c.get('paper', '1C')}" / "topic.json").read_text())
             if c.get("question") is not None:
                 q = next((q for q in t["questions"] if q["question_number"] == c["question"]), None)
                 text = (q.get("stem_md") or "") if q else ""
@@ -476,7 +487,7 @@ for c in cans:
                         ok = False
             for pin in c.get("pins") or []:
                 t = json.loads((BASE / pin["series"] /
-                                f"4CH1-{pin.get('paper', '1C')}" / "topic.json").read_text())
+                                f"{PAPER_PREFIX}-{pin.get('paper', '1C')}" / "topic.json").read_text())
                 texts = []
                 for q in t["questions"]:
                     for p in q["parts"]:
@@ -496,7 +507,7 @@ for c in cans:
                           f"{pin.get('part')} {pin['contains']!r}")
             print(f"  (topic.json scanned: {n_files}, pins: {len(c.get('pins') or [])})")
         elif chk == "no_ms_furniture_lines":
-            # C74 (v0.18.0/F66): no served solution_md or mark_points text may
+            # C77 (v0.18.0/F69): no served solution_md or mark_points text may
             # carry MS page-bottom furniture — the question-total footer in
             # either printed word order, the paper-total line, the bare
             # 'Total = N' fragment, or the Pearson copyright block + its
@@ -529,7 +540,7 @@ for c in cans:
                                     print(f"  ! {d.name}/{pd.name} {p['part_number']}: MS furniture survived at {m.group(0)[:50]!r}")
             print(f"  (solution/mark-point blocks scanned: {n})")
         elif chk == "no_orphan_assets":
-            # C76 (v0.18.0/F68): every PNG under any slice's assets/ is
+            # C79 (v0.18.0/F71): every PNG under any slice's assets/ is
             # referenced by that slice's topic.json — superseded crops are
             # pruned in the wave that supersedes them (wave-25 pruned the 57
             # pre-existing orphans), never left to accumulate.
@@ -563,7 +574,7 @@ for c in cans:
                 if not d.is_dir():
                     continue
                 for pd in paper_dirs(d):
-                    s = d.name if pd.name == "4CH1-1C" else f"{d.name}:{pd.name.split('-')[1]}"
+                    s = d.name if pd.name == f"{PAPER_PREFIX}-1C" else f"{d.name}:{pd.name.split('-')[1]}"
                     paper = pd.name.split("-")[1]
                     t = json.loads((pd / "topic.json").read_text())
                     assets = {a["id"]: (a, q, p) for q in t["questions"]
@@ -571,7 +582,7 @@ for c in cans:
                     stem_assets = {aid for aid, (a, q, p) in assets.items() if a.get("stem_figure")}
                     spec_ids = set()
                     for skey, e in ledger.items():
-                        want = f"{d.name}/4CH1-{paper}:"
+                        want = f"{d.name}/{PAPER_PREFIX}-{paper}:"
                         if not skey.startswith(want):
                             continue
                         for sf in e.get("stemFigures") or []:

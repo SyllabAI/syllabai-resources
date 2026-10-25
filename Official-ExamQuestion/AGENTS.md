@@ -37,6 +37,10 @@ Official-ExamQuestion/
   CROSS-DIFF.json           marks agreement vs the repo's own parsed/ layer
   igcse-chemistry-19/<series>/4CH1-<paper>/   (1C since the prototype; 2C since v0.8/F34;
                                                 1CR since v0.12 — R-VARIANT tranche 1)
+  igcse-physics-19/<series>/4PH1-<paper>/   SECOND LANE (Task 16, 2026-10-26): 53 slices
+                                                landed REVIEW-HEAVY under ADR-039 — its
+                                                LANE-STATUS.md is the disclosure of record;
+                                                converter lane key `--spec 4ph1` (v0.16.0)
     topic.json              syllabai.official-paper-questions/0.1 (the product)
     questions.md            human-readable render
     validation-report.json  G0–G7 receipts + negative controls + review queue
@@ -240,13 +244,13 @@ displayed formula); the 36-part figure queue fully dispositioned
 (FIGURE-QUEUE.json: 25 cropped + 10 served_via + 12 dismissed with QP-page
 evidence); the ambiguous MCQ 2026-06 1C 1(a) A=D="NH4+" closed at source by the
 F64 choice-script restoration (C72 pins the scripts). The REMAINING OPEN minor
-classes closed by wave-25 (F66/F67/F68, 2026-10-26, converter v0.18.0): the MS
+classes closed by wave-25 (F69/F70/F71, 2026-10-26, converter v0.18.0): the MS
 page-bottom furniture class was measured at 362 lines in 245 corpus text blocks
 (the audit's 57-line single-shape estimate undercounted it — census before
 ship), dropped at source in parse_ms with the three footer-only masquerade
-blocks re-linked through the F47 ledger (50 served mark points cleaned; C74/C77/
-C78/C79); the 15 BEL control-char strings normalized at source (C75); the 57
-orphan crop PNGs pruned (C76). Full report:
+blocks re-linked through the F47 ledger (50 served mark points cleaned; C77/
+C78/C79/C80/C81/C82); the 15 BEL control-char strings normalized at source (C78); the 57
+orphan crop PNGs pruned (C79). Full report:
 `AUDIT-2026-10-25-igcse-chemistry-19.md` (beside this corpus).
 
 ## The v0.5 serving fields (what the frontend / Smart Mark consume)
@@ -451,6 +455,11 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   `STEM-RESTORE.json`); the stem FIGURES remain the open crop tranche (see the
   ledger's tranche flags — ~28 figures/tables + 9 formulae letter-runs).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
+- igcse-physics-19 open waves (F68, Task 16 landing): physics MS-table parser (G3 79 unkeyed /
+  G5 936 unmatched), crop eyeball (65 flagged + 30 stubs → CROP-REVIEW 4ph1 homes), spec-labels
+  (2,171 pending-llm), 2019-06 1P OCR layer (+ the empty-footer-census crash → attribution fix),
+  pastpapers repairs (2023-06 2P mislabel bytes); hub handover NOT started. run_all.sh and
+  make_multiseries_report.py remain chemistry-scoped until generalized.
 - 2C follow-ups (F34 wave): (a) DONE v0.9.0 — the 22 review-queue figure items
   were eyeballed and 17 verdicts recorded in CROP-REVIEW.json under
   `<series>:2C` keys (F40 documents the 9 defect mechanisms behind them);

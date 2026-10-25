@@ -14,12 +14,29 @@
 #   LEGACY — HISTORICAL | RESEARCH / INFERRED
 #
 # Identifier law: `tree_sha` / `blob_sha` are git object ids pinned at
-# syllabai-resources @ f42033e01de382f8962af4944df10655c21baf9a (verifiable with
-# `git cat-file`); of-record sha256/sha1 values are quoted from the repo's own
-# ledgers (books/CATALOG.md, Official-Specifications/igcse-chemistry/spec.json).
+# syllabai-resources @ c15fc29289e3db199474dd9f0d36c90de2531054 (verifiable with
+# `git cat-file`; re-verified at the v1.2.3 book-parse-corpus registration,
+# run SIB-CHEMISTRY_4CH1-RUN-004 — the books/pearson-edexcel/international-gcse/
+# chemistry/4ch1 tree hashes to 5fad9de7… at that revision); of-record sha256/sha1
+# values are quoted from the repo's own ledgers (books/CATALOG.md,
+# Official-Specifications/igcse-chemistry/spec.json).
 
-manifest_version: "1.2.2"
+manifest_version: "1.2.3"
 manifest_history:
+  - version: "1.2.3"
+    date: "2026-10-26"
+    change: "BOOK PARSE CORPUS REGISTRATION of record (BL-008 pass 3, run
+      SIB-CHEMISTRY_4CH1-RUN-004, operator order 'order pass 3 EXP' trace
+      1a174ae7817182b9). The books-plane parse corpus of record for this student
+      book — books/pearson-edexcel/international-gcse/chemistry/4ch1/parsed/
+      edexcel_igcse_chemistry_chunks_v3.jsonl (v3, 1,234 chunks, audit GREEN
+      2026-10-18 per books/CATALOG.md §3.1) — is added as a declared evidence path
+      of SRC-BOOK-4CH1-SB1 with its sha256 pinned, so the EXP family can cite the
+      validated v3 chunk text under the bounded-excerpt law (pack excerpts carry
+      line + chunk-id locators; image-only origin limitations unchanged). SRC-BOOK
+      stays the feeds_families first-mover for EXP; no other source changed; no
+      digest of record changed. Pipeline support: evidence_pack.py r1 (_jsonl_locate)
+      and sib_evidence_claim_qa.py r2 (family-general records + line locators)."
   - version: "1.2.2"
     date: "2026-10-25"
     change: "LOCATOR PRECISION REPAIR of record (BL-008 batch orchestration, run
@@ -116,10 +133,12 @@ sources:
     version: parse v3 (2026-10-18), doc build e6c0db50… (2026-10-20, 29 chapters), CATALOG row 1
     paths:
       - syllabai-resources@books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf
+      - syllabai-resources@books/pearson-edexcel/international-gcse/chemistry/4ch1/parsed/edexcel_igcse_chemistry_chunks_v3.jsonl
       - "ledger: syllabai-resources@books/CATALOG.md (row 1 + §3.1)"
     identifiers:
       tree_sha: 5fad9de78e19de4e0069b9b1063d12f2534eb135
       sha256_of_record_student_book_pdf: d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04
+      sha256_of_record_chunks_v3_jsonl: b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33
       bytes: 54298792
       pages: 383
     coverage: full book text/chunks (v3, 1,234 chunks), 29-chapter spine, VALIDATED, card+shelf live in v2 hub
