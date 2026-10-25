@@ -58,10 +58,14 @@ def cmd_preflight(args) -> int:
               "--library", str(library),
               "--out", str(report)]
              + [f"--repo={r}" for r in args.repo])
+    if not report.exists():
+        _fail("resolver produced no report")
     if rc != 0:
-        print(f"run_build: preflight reports FAILED sources — wave families blocked "
-              f"unless disclosed; inspect {report}")
-        return rc
+        # sources failed — disclosed, and the family gate below decides which
+        # families are blocked. Global failure is not itself a wave abort:
+        # the gate law is per-family primary coverage (PIPELINE.md §5 layer 1).
+        print("run_build: some sources FAILED/PARTIAL — evaluating the per-family "
+              "primary-coverage gate against the report")
     # policy gate: each requested family must have >=1 RESOLVED primary source
     import yaml  # local import; preflight already proved the env
     policy = yaml.safe_load((HERE / "evidence_policy.yaml").read_text(encoding="utf-8"))
@@ -77,12 +81,20 @@ def cmd_preflight(args) -> int:
     if blocked:
         _fail(f"families with NO resolved primary source: {', '.join(blocked)}")
     (run_dir / "preflight").mkdir(parents=True, exist_ok=True)
+    failed_ids = res["summary"]["failed_ids"]
+    partial_ids = res["summary"]["partial_ids"]
     (run_dir / "preflight" / "PREFLIGHT_STATE.txt").write_text(
         f"run_id: {run_id}\nfamilies: {', '.join(fams)}\n"
-        f"resolved_sources: {len(ok_ids)}/{len(res['sources'])}\n"
-        f"gate: PASS (all requested families have >=1 RESOLVED primary source)\n",
+        f"resolved_sources: {res['summary']['resolved']}/{res['summary']['total']}\n"
+        f"gate: PASS (all requested families have >=1 RESOLVED primary source)\n"
+        f"disclosed_failed_sources: {', '.join(failed_ids) if failed_ids else 'none'}\n"
+        f"disclosed_partial_sources: {', '.join(partial_ids) if partial_ids else 'none'}\n"
+        f"law: failures outside the requested families' primary coverage are "
+        f"disclosed, never silently accepted (source_gaps stay disclosed)\n",
         encoding="utf-8")
-    print(f"run_build: preflight PASS for families {', '.join(fams)}")
+    print(f"run_build: preflight PASS for families {', '.join(fams)} "
+          f"({res['summary']['resolved']}/{res['summary']['total']} sources resolved; "
+          f"{len(failed_ids)} failed sources disclosed)")
     return 0
 
 

@@ -64,6 +64,10 @@ def _sha256_file(p: Path) -> str:
     return h.hexdigest()
 
 
+def _sha1_content(p: Path) -> str:
+    return hashlib.sha1(p.read_bytes()).hexdigest()
+
+
 def _sha1_git_style(p: Path) -> str:
     """Git blob sha1 (hash of 'blob <len>\\0' + content) — matches blob_sha ids."""
     data = p.read_bytes()
@@ -96,16 +100,17 @@ def _expand(entry_path: str, repo_root: Path) -> list[Path]:
     return matches
 
 
-def _declared_file_digests(source: dict) -> dict[str, str]:
-    """{algo: hex} for identifier keys that look like single-file of-record digests."""
-    out: dict[str, str] = {}
+def _declared_file_digests(source: dict) -> list[dict]:
+    """[{algo, key, value}] for identifier keys that look like single-file of-record
+    digests. Every declared digest is kept — multiple per algo is normal."""
+    out: list[dict] = []
     for key, val in (source.get("identifiers") or {}).items():
         if not isinstance(val, str):
             continue
         v = val.strip().lower()
         if _SHA_KEY_RE.search(key.lower()) and _DIGEST_RE.fullmatch(v.replace("…", "")):
             algo = "sha256" if "sha256" in key.lower() else "sha1"
-            out[algo] = v
+            out.append({"algo": algo, "key": key, "value": v})
     return out
 
 
@@ -119,44 +124,128 @@ def _git_object_ids(source: dict) -> dict[str, str]:
     return out
 
 
+_POINTER_NOTE_RE = re.compile(r"pointer record|same artifact|root intake copy|arch")
+_POINTER_PREFIX_RE = re.compile(r"^(provenance|ledger):")
+_DIR_DIGEST_CAP = 400          # max member files hashed per resolved directory
+
+
+def _entry_role(raw: str) -> str:
+    """evidence | alternate | pointer — alternates/pointers never demote RESOLVED."""
+    s = raw.strip()
+    if _POINTER_PREFIX_RE.match(s):
+        return "pointer"
+    if _POINTER_NOTE_RE.search(s):
+        return "alternate"
+    return "evidence"
+
+
+def _split_group(raw: str) -> list[str]:
+    """One `paths:` entry may list several files separated by ' + ' (manifest
+    convention); the repo@ prefix appears once and applies to all tokens."""
+    m = _PATH_RE.match(raw.strip())
+    if not m:
+        return []
+    repo, body, note = m.group("repo"), m.group("path"), (m.group("note") or "")
+    body = body.strip()
+    if note:
+        # the trailing note attaches to the LAST token only
+        if body.endswith(")") and "(" in body:
+            body, _, tail = body.rpartition("(")
+            body, note = body.strip(), tail.rstrip(")").strip()
+    tokens = [t.strip() for t in body.split(" + ") if t.strip()]
+    return [f"{repo}@{t}" + (f" ({note})" if (note and i == len(tokens) - 1) else "")
+            for i, t in enumerate(tokens)]
+
+
+def _hash_file_rec(p: Path) -> dict:
+    return {"sha256": _sha256_file(p), "sha1_content": _sha1_content(p),
+            "sha1_blob": _sha1_git_style(p)}
+
+
+def _match_digests(declared: list[dict], h: dict, matched: set) -> None:
+    for d in declared:
+        algo, want = d["algo"], d["value"]
+        candidates = (h.get("sha256"),) if algo == "sha256" else \
+                     (h.get("sha1_content"), h.get("sha1_blob"))
+        if any(g and g == want for g in candidates):
+            matched.add(f"{algo}:{want}")
+
+
 def resolve_source(source: dict, repo_roots: dict[str, Path]) -> dict:
     sid = source.get("id", "?")
     entry_results: list[dict] = []
-    digests = _declared_file_digests(source)
+    declared = _declared_file_digests(source)
     git_ids = _git_object_ids(source)
+    digests = declared  # list form used throughout
 
     matched_digests: set[str] = set()
-    n_files = n_dirs = 0
+    n_required_groups = 0
+    n_resolved_groups = 0
 
     for raw in source.get("paths", []):
-        parsed = _parse_path_entry(raw) if isinstance(raw, str) else None
-        if parsed is None:
+        if not isinstance(raw, str):
+            entry_results.append({"raw": str(raw), "status": "UNPARSEABLE"})
+            continue
+        role = _entry_role(raw)
+        tokens = _split_group(raw)
+        if not tokens:
             entry_results.append({"raw": raw, "status": "UNPARSEABLE"})
             continue
-        repo, rel, _note = parsed
-        root = repo_roots.get(repo)
-        if root is None:
-            entry_results.append({"raw": raw, "status": "REPO_UNAVAILABLE", "repo": repo})
-            continue
-        for cand in _expand(rel, root):
-            rec: dict = {"raw": raw, "repo": repo, "path": str(cand.relative_to(root))}
-            if cand.is_dir():
-                n_dirs += 1
-                rec.update(status="RESOLVED_DIR")
-            elif cand.is_file():
-                n_files += 1
-                rec.update(status="RESOLVED_FILE", sha256=_sha256_file(cand),
-                           git_blob_sha1=_sha1_git_style(cand))
-                for algo, want in digests.items():
-                    got = rec["sha256"] if algo == "sha256" else rec["git_blob_sha1"]
-                    if got == want:
-                        matched_digests.add(f"{algo}:{want}")
-            else:
-                rec.update(status="MISSING")
-            entry_results.append(rec)
+        group_ok = False
+        group_entries: list[dict] = []
+        for tok in tokens:
+            parsed = _parse_path_entry(tok)
+            if parsed is None:
+                continue
+            repo, rel, _note = parsed
+            root = repo_roots.get(repo)
+            if root is None:
+                group_entries.append({"raw": tok, "status": "REPO_UNAVAILABLE", "repo": repo})
+                continue
+            cands = _expand(rel, root)
+            if not cands:
+                group_entries.append({"raw": tok, "status": "MISSING",
+                                      "repo": repo, "path": rel})
+                continue
+            for cand in cands:
+                rec: dict = {"raw": tok, "repo": repo,
+                             "path": str(cand.relative_to(root))}
+                if cand.is_dir():
+                    rec.update(status="RESOLVED_DIR")
+                    if digests:
+                        members = sorted(p for p in cand.rglob("*") if p.is_file())[:_DIR_DIGEST_CAP]
+                        for mem in members:
+                            h = _hash_file_rec(mem)
+                            _match_digests(digests, h, matched_digests)
+                        rec["members_hashed"] = len(members)
+                elif cand.is_file():
+                    rec.update(status="RESOLVED_FILE", **_hash_file_rec(cand))
+                    _match_digests(digests, rec, matched_digests)
+                else:
+                    rec.update(status="MISSING")
+                group_entries.append(rec)
+                if str(rec["status"]).startswith("RESOLVED"):
+                    group_ok = True
+        for g in group_entries:
+            g["role"] = role
+        entry_results.extend(group_entries)
+        if role == "evidence":
+            n_required_groups += 1
+            if group_ok:
+                n_resolved_groups += 1
+        elif group_ok:
+            entry_results.append({"raw": raw, "status": "RESOLVED_ALT", "role": role,
+                                  "note": "pointer/alternate locator resolved"})
+        else:
+            entry_results.append({"raw": raw, "status": "ALT_MISSING_DISCLOSED",
+                                  "role": role,
+                                  "note": "pointer/alternate locator absent — disclosed, "
+                                          "never demotes evidence resolution"})
 
-    # a digest that matched nothing = identity failure (fail-closed)
-    unmatched = [f"{a}:{v}" for a, v in digests.items() if f"{a}:{v}" not in matched_digests]
+    # a declared digest that matched nothing = identity unverified (fail-closed:
+    # the source cannot claim full RESOLVED while an of-record digest is unproven)
+    unmatched = [f"{d['algo']}:{d['value']}" for d in digests
+                 if f"{d['algo']}:{d['value']}" not in matched_digests]
 
     git_checks = []
     for key, obj in git_ids.items():
@@ -165,21 +254,19 @@ def resolve_source(source: dict, repo_roots: dict[str, Path]) -> dict:
         git_checks.append({"identifier": key, "object": obj,
                            "verified": kind is not None, "git_type": kind})
 
-    total_entries = len(entry_results)
-    resolved_entries = sum(1 for e in entry_results if str(e.get("status", "")).startswith("RESOLVED"))
-    if total_entries and resolved_entries == total_entries and not unmatched:
-        status = "RESOLVED"
-    elif resolved_entries:
-        status = "PARTIAL" + (";DIGEST_MISMATCH" if unmatched else "")
+    if n_required_groups == 0 or n_resolved_groups < n_required_groups:
+        status = "FAILED" + (";DIGEST_UNMATCHED" if unmatched else "")
+    elif unmatched:
+        status = "PARTIAL;DIGEST_UNMATCHED"
     else:
-        status = "FAILED" + (";DIGEST_MISMATCH" if unmatched else "")
+        status = "RESOLVED"
 
     return {
         "id": sid,
         "classification": source.get("classification", ""),
         "status": status,
         "entries": entry_results,
-        "digest_verification": {"declared": [f"{a}:{v}" for a, v in digests.items()],
+        "digest_verification": {"declared": [f"{d['algo']}:{d['value']}" for d in digests],
                                  "matched": sorted(matched_digests),
                                  "unmatched": unmatched},
         "git_object_checks": git_checks,

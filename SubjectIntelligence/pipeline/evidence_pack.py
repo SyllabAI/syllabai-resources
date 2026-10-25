@@ -65,15 +65,23 @@ def select_sources(policy: dict, family: str, manifest_sources: list[dict],
             for sid, man in man_by_id.items():
                 if not _match(prefix, sid):
                     continue
+                cls = str(man.get("classification", ""))
+                # LEGACY — HISTORICAL sources can never fill a primary/supplementary
+                # slot (they are historical evidence only, per policy global law);
+                # a prefix collision (e.g. SRC-ER-* matching SRC-ER-4CH0-LEGACY)
+                # demotes them to the legacy role.
+                eff_role = role
+                if cls.startswith("LEGACY") and role in ("primary", "supplementary"):
+                    eff_role = "legacy"
                 res = res_by_id.get(sid)
                 status = (res or {}).get("status", "UNRESOLVED")
-                if role == "primary" and status.startswith("FAILED"):
+                if eff_role == "primary" and status.startswith("FAILED"):
                     blockers.append(f"PRIMARY source {sid} failed preflight ({status})")
                     continue
                 if status.startswith(("FAILED", "UNRESOLVED")):
                     continue
-                selected.append({"source_id": sid, "role": role,
-                                 "classification": man.get("classification", ""),
+                selected.append({"source_id": sid, "role": eff_role,
+                                 "classification": cls,
                                  "title": man.get("title", ""),
                                  "resolution_status": status})
     # dedupe (a source may match several role prefixes; strongest role wins)
@@ -87,7 +95,7 @@ def select_sources(policy: dict, family: str, manifest_sources: list[dict],
 
 
 def _md_locate(path: Path, query: re.Pattern | None, limit: int) -> list[dict]:
-    """Line-window excerpts from markdown/text with line locators."""
+    """Line-window excerpts from markdown/text/YAML/JSON with line locators."""
     text = path.read_text(encoding="utf-8", errors="replace")
     lines = text.split("\n")
     hits: list[int] = []
@@ -156,12 +164,27 @@ def build_pack(library: Path, artifact_id: str, family: str, run_id: str,
         res = res_by_id[sid]
         plan_s = (plan or {}).get(sid, {})
         query = re.compile(plan_s["md_query"]) if plan_s.get("md_query") else None
-        pages = plan_s.get("pdf_pages")
+        f_pages = {f["path_suffix"]: f.get("pdf_pages")
+                   for f in plan_s.get("files", []) if f.get("pdf_pages")}
+        f_query = {f["path_suffix"]: (re.compile(f["md_query"]) if f.get("md_query") else None)
+                   for f in plan_s.get("files", []) if f.get("md_query")}
         files_out, total_chars = [], 0
 
         # candidate files: from the plan (exact) or from resolved entries (bounded)
         if plan_s.get("files"):
-            cands = [(f.get("repo", ""), f["path_suffix"]) for f in plan_s["files"]]
+            cands = []
+            for f in plan_s["files"]:
+                repo = f.get("repo")
+                if not repo:
+                    # inherit the repo from the resolution entries by path match
+                    suffix = f["path_suffix"]
+                    for e in res.get("entries", []):
+                        ep = str(e.get("path", "")).rstrip("/")
+                        if ep and (ep == suffix or ep.endswith(suffix)
+                                   or suffix.endswith(ep) or suffix.startswith(ep + "/")):
+                            repo = e.get("repo")
+                            break
+                cands.append((repo or "", f["path_suffix"]))
         else:
             cands = [(e.get("repo", ""), e.get("path", ""))
                      for e in res.get("entries", [])
@@ -174,9 +197,10 @@ def build_pack(library: Path, artifact_id: str, family: str, run_id: str,
             p = root / rel
             if not p.is_file():
                 continue
-            if p.suffix.lower() in (".md", ".txt"):
-                excerpts = _md_locate(p, query, MAX_EXCERPTS_PER_SOURCE)
+            if p.suffix.lower() in (".md", ".txt", ".yaml", ".yml", ".json"):
+                excerpts = _md_locate(p, f_query.get(rel) or query, MAX_EXCERPTS_PER_SOURCE)
             elif p.suffix.lower() == ".pdf":
+                pages = f_pages.get(rel) or plan_s.get("pdf_pages")
                 excerpts = _pdf_locate(p, pages, MAX_EXCERPTS_PER_SOURCE)
             else:
                 # binary/office: identity-only entry (no text extraction claimed)

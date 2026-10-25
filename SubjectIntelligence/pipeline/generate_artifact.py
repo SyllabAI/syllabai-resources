@@ -38,6 +38,10 @@ REQUIRED_SECTIONS = (
 _DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
+def _bool_arg(v: str) -> bool:
+    return str(v).strip().lower() in ("true", "1", "yes", "y")
+
+
 def _fail(msg: str):
     print(f"generate_artifact: FATAL: {msg}", file=sys.stderr)
     sys.exit(2)
@@ -135,8 +139,8 @@ def main() -> int:
     ap.add_argument("--curriculum-version", required=True)
     ap.add_argument("--research-family", required=True)
     ap.add_argument("--applicability", default="REQUIRED")
-    ap.add_argument("--temporal-current", type=bool, default=True)
-    ap.add_argument("--temporal-legacy", type=bool, default=False)
+    ap.add_argument("--temporal-current", type=_bool_arg, default=True)
+    ap.add_argument("--temporal-legacy", type=_bool_arg, default=False)
     ap.add_argument("--src-specification", action="store_true")
     ap.add_argument("--src-textbook", action="store_true")
     ap.add_argument("--src-question-papers", action="store_true")
