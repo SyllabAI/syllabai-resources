@@ -1,0 +1,156 @@
+# glossary — u3:c19 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: exothermic
+  slug: exothermic
+  definition: "A reaction that gives out heat energy to the surroundings. Products have less chemical energy than reactants; the temperature of the mixture and its surroundings rises; ∆H is negative."
+  ms_accepts: ["gives out heat to the surroundings", "temperature of the surroundings increases", "products have less energy than reactants"]
+  ms_avoids: ["saying heat is destroyed", "confusing 'gives out heat' with 'needs a flame'", "omitting the surroundings from the heat-flow direction"]
+  aliases: ["exothermic reaction", "exothermic reactions"]
+  source: "chem_v3_u3_c19_pdf216_0822"
+- term: endothermic
+  slug: endothermic
+  definition: "A reaction that absorbs heat from the surroundings. Products have more chemical energy than reactants; the temperature of the mixture and its surroundings falls; ∆H is positive."
+  ms_accepts: ["takes in heat from the surroundings", "temperature of the surroundings decreases", "products have more energy than reactants"]
+  ms_avoids: ["claiming every heated reaction is endothermic", "saying cold is added", "omitting the surroundings from the heat-flow direction"]
+  aliases: ["endothermic reaction", "endothermic reactions"]
+  source: "chem_v3_u3_c19_pdf218_0835"
+- term: enthalpy change
+  slug: enthalpy-change
+  definition: "The heat energy taken in or given out during a chemical reaction — the difference between the energy of the products and the reactants. Only the change (∆H) is measurable, never absolute enthalpy."
+  ms_accepts: ["heat energy change of a reaction at constant pressure", "difference in energy between products and reactants", "∆H"]
+  ms_avoids: ["calling it the total energy a substance contains", "quoting ∆H without a sign", "units in J instead of kJ/mol"]
+  aliases: ["∆H", "delta H", "heat energy change"]
+  source: "chem_v3_u3_c19_pdf218_0833"
+- term: stability
+  slug: stability
+  definition: "Describes the relative energies of reactants and products: the more energy a chemical has, the less stable it is. Exothermic products are more stable than the reactants that formed them."
+  ms_accepts: ["more energy means less stable", "products lower in energy are more stable"]
+  ms_avoids: ["equating stability with inertness", "saying unstable substances always decompose"]
+  aliases: ["stable", "more stable", "less stable"]
+  source: "chem_v3_u3_c19_pdf218_0832"
+- term: mole
+  slug: mole
+  definition: "The unit for the amount of a substance. Molar enthalpy changes and bond energies are both quoted per mole, so mole arithmetic from u1:c05 feeds every calculation in this chapter."
+  ms_accepts: ["unit for amount of substance", "6.02 × 10²³ particles", "mass ÷ relative formula mass"]
+  ms_avoids: ["confusing the mole with molarity", "quoting ∆H per gram instead of per mole"]
+  aliases: ["moles", "mol", "amount of substance"]
+  source: "chem_v3_u3_c19_pdf218_0829"
+- term: energy level diagram
+  slug: energy-level-diagram
+  definition: "A chart with energy on the vertical axis and progress of the reaction on the horizontal axis. Reactants and products sit on levels; the arrow and ∆H sign show the direction of the energy change."
+  ms_accepts: ["energy axis labelled", "reactant and product levels", "arrow up for endothermic, down for exothermic"]
+  ms_avoids: ["drawing an unlabelled energy axis", "putting exothermic products above the reactants", "omitting the ∆H sign beside the arrow"]
+  aliases: ["energy level diagrams", "energy profile"]
+  source: "chem_v3_u3_c19_pdf218_0834"
+- term: thermal decomposition
+  slug: thermal-decomposition
+  definition: "Breaking a compound down by heating — an endothermic change that needs the heat supplied continuously. Metal carbonates decompose to the metal oxide and carbon dioxide on heating."
+  ms_accepts: ["decomposition caused by heat", "endothermic because heating continues throughout"]
+  ms_avoids: ["listing it as exothermic because a flame is present", "omitting the products' identity"]
+  aliases: ["thermal decompositions", "decomposition on heating"]
+  source: "chem_v3_u3_c19_pdf219_0836"
+- term: specific heat capacity
+  slug: specific-heat-capacity
+  definition: "The heat needed to raise the temperature of 1 gram of a substance by 1 °C. Water's value is 4.18 J/g/°C; the same quantity governs cooling in the reverse direction."
+  ms_accepts: ["energy to raise 1 g by 1 °C", "4.18 J/g/°C for water", "J g⁻¹ °C⁻¹"]
+  ms_avoids: ["using the mass of fuel instead of water in Q = mc∆T", "claiming it applies only to heating"]
+  aliases: ["shc", "c"]
+  source: "chem_v3_u3_c19_pdf220_0842"
+- term: calorimeter
+  slug: calorimeter
+  definition: "The container a calorimetry experiment runs in — a copper can in the combustion experiment, a polystyrene cup for reactions in solution. Its contents are the known mass that absorbs or releases the heat."
+  ms_accepts: ["vessel holding the substance heated", "copper can or polystyrene cup examples"]
+  ms_avoids: ["calling the spirit burner the calorimeter", "ignoring that the can itself warms up (an error source)"]
+  aliases: ["calorimetry can"]
+  source: "chem_v3_u3_c19_pdf220_0842"
+- term: calorimetry
+  slug: calorimetry
+  definition: "Measuring heat changes by letting a reaction warm or cool a known mass of water, then calculating with Q = mc∆T and dividing by moles for the molar enthalpy change."
+  ms_accepts: ["experiment measuring temperature change of water", "Q = mc∆T applied to a reaction mixture"]
+  ms_avoids: ["describing it without the water-mass step", "forgetting the assumptions (density and shc of water)"]
+  aliases: ["calorimetry experiment", "calorimetry experiments"]
+  source: "chem_v3_u3_c19_pdf220_0843"
+- term: enthalpy change of combustion
+  slug: enthalpy-change-of-combustion
+  definition: "The enthalpy change when 1 mole of a substance is burned completely. Always negative for burning; measured for alcohols with the spirit-burner-and-copper-can experiment."
+  ms_accepts: ["∆H when 1 mol burns", "negative sign with rising temperature evidence"]
+  ms_avoids: ["quoting the heat released in the experiment as the answer", "omitting 'per mole'"]
+  aliases: ["∆Hc", "combustion enthalpy"]
+  source: "chem_v3_u3_c19_pdf221_0848"
+- term: molar enthalpy change
+  slug: molar-enthalpy-change
+  definition: "The heat energy change divided by the number of moles of reactant consumed (∆H = Q ÷ n), in kJ/mol. The moles used must be the limiting reactant's, and the sign follows the temperature trend."
+  ms_accepts: ["Q ÷ n with n in moles", "kJ/mol units", "sign matching exothermic or endothermic direction"]
+  ms_avoids: ["dividing by the excess reactant's moles", "leaving the answer in J", "dropping the sign"]
+  aliases: ["∆H", "molar enthalpy change of reaction/solution/neutralisation"]
+  source: "chem_v3_u3_c19_pdf221_0848"
+- term: incomplete combustion
+  slug: incomplete-combustion
+  definition: "Burning with insufficient oxygen; releases less heat than complete combustion and produces carbon (soot) instead of only carbon dioxide. Seen as a yellow-orange rather than blue flame."
+  ms_accepts: ["less oxygen than needed", "less energy released than complete combustion", "soot/carbon evidence"]
+  ms_avoids: ["saying no combustion happens", "missing the observation-based evidence"]
+  aliases: ["incomplete burning"]
+  source: "chem_v3_u3_c19_pdf222_0853"
+- term: displacement reaction
+  slug: displacement-reaction
+  definition: "A reaction in which a more reactive element takes the place of a less reactive one in a compound (a competition reaction). Zinc displacing copper from copper(II) sulfate is the calorimetry example here."
+  ms_accepts: ["more reactive element displaces a less reactive one", "competition reaction"]
+  ms_avoids: ["calling precipitation a displacement", "forgetting the ionic bookkeeping in the equation"]
+  aliases: ["displacement (competition) reaction", "displacement reactions"]
+  source: "chem_v3_u3_c19_pdf217_0828"
+- term: excess
+  slug: excess
+  definition: "More than enough of a reactant to ensure the other reactant is fully used up. The excess reactant's moles never enter ∆H = Q ÷ n — the limiting reactant's do."
+  ms_accepts: ["more than enough to react everything else", "limiting reactant determines the moles in ∆H = Q/n"]
+  ms_avoids: ["dividing Q by the excess moles", "confusing excess with leftover being wasted entirely"]
+  aliases: ["in excess", "limiting reactant (contrast)"]
+  source: "chem_v3_u3_c19_pdf225_0863"
+- term: dissolving
+  slug: dissolving
+  definition: "A physical process in which a salt's particles separate into water. Depending on the salt it releases heat (exothermic) or absorbs heat (endothermic) — the thermometer decides."
+  ms_accepts: ["physical process, not a chemical reaction", "can be exothermic or endothermic depending on the salt"]
+  ms_avoids: ["calling dissolving a chemical reaction", "assuming all dissolvings cool"]
+  aliases: ["dissolution", "enthalpy change of solution"]
+  source: "chem_v3_u3_c19_pdf226_0865"
+- term: neutralisation
+  slug: neutralisation
+  definition: "The reaction between an alkali and an acid — essentially OH⁻(aq) + H⁺(aq) → H₂O(l). Exothermic; measured here with the two-best-fit-lines graph that also yields an unknown acid concentration."
+  ms_accepts: ["acid + alkali forms salt and water", "H⁺ + OH⁻ → H₂O ionic equation", "exothermic temperature rise"]
+  ms_avoids: ["saying the ionic equation needs spectator ions", "omitting state symbols in the ionic equation"]
+  aliases: ["neutralisation reaction", "neutralisation reactions"]
+  source: "chem_v3_u3_c19_pdf226_0869"
+- term: activation energy
+  slug: activation-energy
+  definition: "The small amount of energy needed to get a reaction started — beginning the bond-breaking in the reactants. Even strongly exothermic reactions need it; a flame is often its source."
+  ms_accepts: ["minimum energy to start a reaction", "needed to begin breaking reactant bonds"]
+  ms_avoids: ["confusing it with the overall ∆H", "saying it changes the final ∆H value"]
+  aliases: ["Ea"]
+  source: "chem_v3_u3_c19_pdf232_0887"
+- term: bond energy
+  slug: bond-energy
+  definition: "The energy needed to break 1 mole of covalent bonds in gaseous molecules, in kJ/mol; the same quantity is released when the bonds form. Quoted values are averages for estimates."
+  ms_accepts: ["energy to break 1 mol of specified bonds in the gas state", "same value released on bond formation", "kJ/mol"]
+  ms_avoids: ["per-molecule interpretation", "applying to ionic compounds", "treating averages as exact values"]
+  aliases: ["bond energies", "bond enthalpy"]
+  source: "chem_v3_u3_c19_pdf229_0876"
+- term: quicklime
+  slug: quicklime
+  definition: "Calcium oxide, CaO. Adding water slakes it — a strongly exothermic reaction producing steam — and the calcium hydroxide formed is called slaked lime."
+  ms_accepts: ["calcium oxide", "slaking gives calcium hydroxide (slaked lime)"]
+  ms_avoids: ["confusing quicklime with limestone (calcium carbonate)", "missing the exothermic character of slaking"]
+  aliases: ["calcium oxide", "slaked lime (product)", "slaking"]
+  source: "chem_v3_u3_c19_pdf216_0823"
+- term: Hess's law
+  slug: hesss-law
+  definition: "The overall heat released or absorbed by a reaction is the same however the reaction is carried out, provided reactants and products are identical — even if the calculated route is imaginary."
+  ms_accepts: ["enthalpy change is route-independent", "same reactants and products give the same ∆H"]
+  ms_avoids: ["claiming real reactions proceed via the imagined bond-breaking route", "quoting it without the condition"]
+  aliases: ["Hess law"]
+  source: "chem_v3_u3_c19_pdf230_0882"
+- term: entropy
+  slug: entropy
+  definition: "A measure of the number of ways the energy in a system can be distributed; greater in more disordered systems. Solids have lower entropy than liquids, liquids lower than gases."
+  ms_accepts: ["measure of disorder / ways of distributing energy", "solid < liquid < gas ordering", "entropy increase drives otherwise unfavourable changes"]
+  ms_avoids: ["defining it as 'randomness' with no energy context", "requiring entropy calculations at this level"]
+  aliases: ["disorder"]
+  source: "chem_v3_u3_c19_pdf232_0887"
