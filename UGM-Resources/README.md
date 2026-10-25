@@ -267,6 +267,21 @@ sign/definedness properties of 1/cos); the 42 fresh non-overlaps are `bodyImport
 converter pre-flight ran 79/79 byte-identity against the lane-8, lane-9 AND lane-10 of-record
 bodies, and the slug law re-proved 35/35 against the lane-9 filenames.
 
+A **two-station candidate lane on the pure-3 plane** (lane 12, CIE 9709 Pure 3 3.4 Differentiation) binds the
+lane to UGM's chain-rule and product-rule stations under the candidate-model import law — neither station is
+whole-imported of record (lane 7 whole-imported introducing-calculus and calculus-of-powers and holds only 7
+chain-rule + 2 product-rule stray alignments), so the lane-12 substrate is overwhelmingly fresh: 40 new-text
+resources in `pure-3-differentiation/` (13 × 3.4.1 standard-derivative work, 12 × 3.4.2 product/quotient,
+15 × 3.4.3 parametric/implicit), including 16 promotions of the lane-10/11 pre-baked "P3 3.4 Differentiation"
+bearing pool — each superseding its stale non-overlap row of record per the to-log-or-not-to-log law — and 1
+cross-course flip by reference (r8931 rides its lane-7 body under `pure-1-differentiation/`). The 29 fresh
+non-overlaps are `bodyImported: false` rows — recorded, never imported, never forced; 3 of them honestly
+re-route lane-10 bearings (r6620, r8134 → 3.5; differentiating-exponentials → no extractable text). The
+3.4.1 list boundary is applied strictly: the power-rule/optimisation corpus of record under lane 7 is rejected
+here with those alignments cited. The converter pre-flight ran 80/80 byte-identity against the lane-8, lane-9,
+lane-10 AND lane-11 of-record bodies; the slug law re-proved 77/80 (3 residuals in constructs absent from the
+lane-12 titles, disclosed in the LEDGER).
+
 ---
  — `T-UGM-ASSETS-1` (2026-10-24)
 

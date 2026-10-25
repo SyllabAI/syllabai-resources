@@ -629,3 +629,48 @@ served bundle PR carries a full disclosure census.
   untouched; file_count 548 → 549). Fleet audits: sha256 1/1, delimiter parity 1/1, fm↔enrichment membership
   28/28 aligned rows (1 fresh + 27 by-reference), primaryPick 2/2 unique, 0 `ugm_id` collisions against lanes
   1–10, all 27 by-reference rows verified against the body map of record.
+
+- **T-UGM-MODE1-12 — UGM mode-1 lane enrichment, Pure 3 Differentiation lane (this run)**: thirteenth landing
+  from the UGM corpus, and the **fourth lane on the pure-3 course plane** (`course: cie-a-level-maths-20-pure-3`)
+  — the **largest fresh-text lane since lane 9**. Target of record: CIE 9709 Pure 3 subtopic 3.4 Differentiation,
+  spec points 3.4.1–3.4.3, verbatim from the hub spine parse (the parse artifacts — the dropped math run on `e`
+  and the duplicated "tan x" in the 3.4.1 title; the dangling "e.g." in the 3.4.2 and 3.4.3 titles — are carried
+  verbatim; no `T-SPECS` repair needed) — no fold fragments. Lane identity named of record by the lane-11
+  bookkeeping next pointer ("next: 3.4 via the lane-11 P3-3.4 routings" @ `b2c31f9d`). Facts file of record:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-3-differentiation.json` (task `T-UGM-MODE1-12`, review_state
+  SUGGESTED). Corpus sweep 855 → 189 candidates (pass-1 title/description + pass-2 section-text, plus the 21
+  pre-baked lane-10/11 "P3 3.4 Differentiation" bearing rows — 11 from lane-10 incl. the two dual "P3 3.4/3.5"
+  routings, 11 from lane-11, odd-one-out recorded in both) → **41 aligned rows** = 40 fresh rows over 40
+  substrate resources (single-code each: 13 × 3.4.1, 12 × 3.4.2, 15 × 3.4.3) + **1 cross-course flip by
+  reference** (r8931 → 3.4.2, the lane-7 non-overlap row whose whole-station body of record lives under
+  `pure-1-differentiation/` — the two-station lane law — flipping under the lane-9 flip law; no one-to-many
+  joins this lane: the lane-7 P1 alignments already hold the tangent/normal/optimisation embodiments) **+ 29
+  fresh non-overlaps recorded by reference only** (`bodyImported: false`; 3 honest re-routings of lane-10
+  bearings: r6620 and r8134 from the dual "P3 3.4/3.5" to 3.5, differentiating-exponentials declined for no
+  extractable sections of record) **+ 119 of-record candidates rejected with reasons** (104 aligned of record
+  under lanes 1–11 — dominated by lane-7's P1-differentiation law — and 15 standing prior non-overlap rows,
+  incl. the two declined bearings odd-one-out and r6843). Of the 21 unique pre-baked bearing rows of record
+  (11 lane-10 rows incl. the two dual "P3 3.4/3.5" routings + 11 lane-11 rows, odd-one-out recorded in both):
+  16 promoted to aligned fresh bodies (7 of the lane-10 rows, 9 of the lane-11 rows), each superseding its
+  stale row of record per the to-log-or-not-to-log law; 5 closed otherwise (2 dual rows re-routed to 3.5, 1
+  declined for no extractable text, 2 declined on the merits). Primary picks of record: r6938 (3.4.1, fresh) /
+  r6530 (3.4.2, fresh) / r8620 (3.4.3, fresh) — the fresh-pick convention holds. Cross-map of record:
+  `undergroundmathematics/resources/derived/cross-map-p3-differentiation.json` + narrative
+  `undergroundmathematics/docs/cross-map-p3-differentiation.md` @ syllabai-experimental 506ea24f8e61cc75c4662f8ebb08cfd2b1d458d4.
+  Text of record: 40 new files under `UGM-Resources/pure-3-differentiation/` (T-UGM-IMPORT-12, below) with
+  `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-12.
+- **T-UGM-IMPORT-12 — UGM text corpus import, Pure 3 Differentiation lane (this run)**: thirteenth landing;
+  the candidate-model law continues (lane-8/9/10/11 shape) with the lane-8 join law for the by-reference rows:
+  40 fresh 3.4-bearing resources, converted from `ugm-clean` through the byte-proven converter (pre-flight:
+  **80/80 byte-identity against the lane-8, lane-9, lane-10 AND lane-11 of-record bodies**), fm planes
+  `curriculum_code: CIE-9709-P3-2023`, `lane: cie-a-level-maths-20-pure-3`, `task: T-UGM-IMPORT-12`,
+  `examProvenance` in the enrichment/cross-map rows = acknowledgement first line verbatim. Filename
+  `{ugm_id}-{title-slug}.md` under the lane-9 slug law (re-proved **77/80** against the lane-8/9/10/11
+  filenames — the three residuals are bare-underscore and command-brace constructs (`p_n` vs `f_k`,
+  `\sqrt{...}` brace-keeping, `^{...}`-brace underscores) whose of-record treatment is internally
+  inconsistent in the source data AND absent from the lane-12 title set; every construct class the lane-12
+  titles exercise is verified against all of-record instances). MANIFEST v13 (lane-12 block appended;
+  lane-1..11 rows + v9 assets untouched; file_count 549 → 589). Fleet audits: sha256 40/40, delimiter parity
+  40/40, fm↔enrichment membership 40/40 fresh rows (both directions), primaryPick 3/3 unique all-fresh,
+  0 `ugm_id` collisions against lanes 1–11, candidate closure exact 189 = 41 + 29 + 119, MANIFEST strictly
+  additive (lanes 1–11 byte-identical).
