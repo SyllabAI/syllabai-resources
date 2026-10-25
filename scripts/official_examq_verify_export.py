@@ -38,15 +38,20 @@ Gates (all fail closed; a gate that cannot prove success is a failure):
         live v2 bundle of record). With --report, the frozen constants must
         ALSO equal the report rows — both are of record; disagreement is a
         hard stop.
-  G-E4  SME prefix byte-identity. Everything before the first official set
-        re-serializes byte-identically under the file law (indent=1,
-        ensure_ascii=False, no trailing newline) — the SME corpus of record is
-        never touched by an official-papers export.
+  G-E4  SME file byte-identity. The staged questions.json re-serializes
+        byte-identically to the bundle of record's questions.json under the
+        file law (indent=1, ensure_ascii=False, no trailing newline) — the
+        SME corpus of record is never touched by an official-papers export.
+        (Two-file law: since the v2 split, IA decision 662654ade0, the SME
+        file IS the whole questions.json and official sets verify against
+        official-papers.json via G-E1.)
 
 Usage:
 
     verify:  official_examq_verify_export.py verify --stage <questions.json> \
-                 --current <bundle-of-record questions.json> \
+                 --stage-official-papers <staged official-papers.json> \
+                 --current <SME questions.json of record> \
+                 --current-official-papers <official-papers.json of record> \
                  [--report <MULTI-SERIES-REPORT.json>] \
                  [--disclosure <scripts/exporter-disclosures/wave.json>] \
                  [--allow-new-official]
@@ -54,7 +59,10 @@ Usage:
     self-test (F-187 acceptance: 4/4 gates refuse on seeded faults):
 
              official_examq_verify_export.py self-test --stage <clean stage> \
-                 --current <bundle of record> [--keep]
+                 --stage-official-papers <clean official-papers stage> \
+                 --current <SME bundle of record> \
+                 --current-official-papers <official-papers.json of record> \
+                 [--keep]
 
   The self-test seeds four faults into copies of the clean stage (undisclosed
   delta, markPoint bump, dropped question, SME-prefix mutation) and requires
@@ -165,7 +173,6 @@ EXPECTED_CENSUS = {
 # extend this table from exporter output alone.
 EXPECTED_MARK_GAPS = {}
 
-FIRST_OFFICIAL_MARKER = b'"topicId": "off_'
 
 
 class GateRefusal(Exception):
@@ -338,22 +345,23 @@ def gate_e3(official_sets, report_path=None):
 
 # ---------------------------------------------------------------- G-E4
 def gate_e4(stage_raw, current_raw):
-    off_cur = current_raw.find(FIRST_OFFICIAL_MARKER)
-    off_stg = stage_raw.find(FIRST_OFFICIAL_MARKER)
-    if off_cur == -1:
-        raise GateRefusal("G-E4", "no official block found in the bundle of record")
-    if off_stg == -1:
-        raise GateRefusal("G-E4", "no official block found in the staged export")
-    if stage_raw[:off_stg] != current_raw[:off_cur]:
-        for i in range(min(off_stg, off_cur)):
+    # Two-file law (v2 IA 662654ade0): the staged questions.json must be a
+    # byte-identical passthrough of the SME bundle of record — the whole file,
+    # since the split made the SME file the whole questions.json. The official
+    # plane's parity is G-E1's law (its bytes may drift in a disclosed wave).
+    if stage_raw != current_raw:
+        n = min(len(stage_raw), len(current_raw))
+        for i in range(n):
             if stage_raw[i] != current_raw[i]:
                 raise GateRefusal(
                     "G-E4",
-                    f"SME prefix diverges at byte {i}: "
-                    f"{current_raw[max(0, i - 60):i + 60]!r} vs {stage_raw[max(0, i - 60):i + 60]!r}")
+                    f"SME file diverges at byte {i}: "
+                    f"{current_raw[max(0, i - 60):i + 60]!r} vs "
+                    f"{stage_raw[max(0, i - 60):i + 60]!r}")
         raise GateRefusal("G-E4",
-                          f"SME prefix length drift: of record {off_cur} bytes vs export {off_stg} bytes")
-    return off_stg
+                          f"SME file length drift: of record {len(current_raw)} bytes "
+                          f"vs export {len(stage_raw)} bytes")
+    return len(current_raw)
 
 
 # ---------------------------------------------------------------- driver
@@ -413,19 +421,23 @@ def check_disclosure(delta_rows, new_rows, disclosure_path, stage_eq_current=Fal
     return sum(len(v) for v in flat["changed"].values())
 
 
-def run_gates(stage_path, current_path, report_path=None, allow_new_official=False, quiet=False,
+def run_gates(stage_path, stage_official_path, current_path, current_official_path,
+              report_path=None, allow_new_official=False, quiet=False,
               disclosure_path=None):
     stage_raw = open(stage_path, "rb").read()
     current_raw = open(current_path, "rb").read()
+    stage_official_raw = open(stage_official_path, "rb").read()
+    current_official_raw = open(current_official_path, "rb").read()
     stage_sets, current_sets = json.loads(stage_raw), json.loads(current_raw)
-    official = [s for s in stage_sets if parse_slug(s.get("slug") or "")]
+    official = [s for s in json.loads(stage_official_raw) if parse_slug(s.get("slug") or "")]
+    current_official = [s for s in json.loads(current_official_raw) if parse_slug(s.get("slug") or "")]
 
     renames = None
     if disclosure_path and os.path.exists(disclosure_path):
         renames = json.load(open(disclosure_path)).get("idRenames")
-    rows, new_rows = gate_e1(stage_sets, current_sets, allow_new_official, renames)
+    rows, new_rows = gate_e1(official, current_official, allow_new_official, renames)
     disclosed_n = (check_disclosure(rows, new_rows, disclosure_path,
-                                    stage_eq_current=(stage_raw == current_raw))
+                                    stage_eq_current=(stage_official_raw == current_official_raw))
                    if disclosure_path else None)
     n_parts, damage_ok = gate_e2(official)
     n_sets, unmapped = gate_e3(official, report_path)
@@ -449,17 +461,19 @@ def run_gates(stage_path, current_path, report_path=None, allow_new_official=Fal
               + (f" ({damage_ok} documented damage gaps honored)" if damage_ok else ""))
         print(f"G-E3 ok: {n_sets} series/paper census constants match "
               f"(official totals {tot_q}Q/{tot_p}P/{tot_m}M; {unmapped} questions unmapped under the anchor law)")
-        print(f"G-E4 ok: SME prefix byte-identical ({prefix_len} bytes)")
+        print(f"G-E4 ok: questions.json byte-identical passthrough ({prefix_len} bytes)")
     return {"delta_rows": rows, "parts": n_parts, "sets": n_sets, "prefix": prefix_len}
 
 
-def self_test(stage_path, current_path, keep=False, allow_new_official=False,
-              disclosure_path=None):
+def self_test(stage_path, stage_official_path, current_path, current_official_path,
+              keep=False, allow_new_official=False, disclosure_path=None):
     """disclosure_path: for a rename-wave stage the clean baseline itself needs
     the id-rename disclosure to pass; faults are then seeded on top of it."""
     stage_sets = json.load(open(stage_path))
+    stage_official_sets = json.load(open(stage_official_path))
     current_sets = json.load(open(current_path))
-    official = [s for s in stage_sets if parse_slug(s.get("slug") or "")]
+    current_official_sets = json.load(open(current_official_path))
+    official = [s for s in stage_official_sets if parse_slug(s.get("slug") or "")]
     # seed targets: one part with markPoints, one non-disclosed field, one series set, one SME set
     mp_part = next(p for s in official for q in s["questions"] for p in q["parts"]
                    if p.get("markPoints"))
@@ -471,28 +485,31 @@ def self_test(stage_path, current_path, keep=False, allow_new_official=False,
         return (json.dumps(sets, indent=1, ensure_ascii=False)).encode()
 
     workdir = tempfile.mkdtemp(prefix="examq-verify-selftest-")
-    # each seed: (gate, description, stage_sets, current_sets) — most seeds touch
-    # only the staged export; seed 3 mutates BOTH files consistently, the
-    # collusive-drift threat that only the frozen census (G-E3) can catch.
+    # each seed: (gate, description, stage_sme, stage_official, cur_sme, cur_official)
+    # — most seeds touch only the staged official file; seed 3 mutates BOTH
+    # official files consistently, the collusive-drift threat that only the
+    # frozen census (G-E3) can catch; seed 4 touches the staged SME file.
     seeds = []
 
     # Seed 1 / G-E1: an UNDISCLOSED field (questionType) drifts in one official part
-    s1 = json.loads(json.dumps(stage_sets))
+    s1 = json.loads(json.dumps(stage_official_sets))
     for s in s1:
         for q in s["questions"]:
             for p in q["parts"]:
                 if p["id"] == type_part["id"]:
                     p["questionType"] = "seed_fault_undefined_type"
-    seeds.append(("G-E1", "undisclosed class: questionType mutated on " + type_part["id"], s1, current_sets))
+    seeds.append(("G-E1", "undisclosed class: questionType mutated on " + type_part["id"],
+                  stage_sets, s1, current_sets, current_official_sets))
 
     # Seed 2 / G-E2: a markPoint award exceeds the part's marks (closure broken)
-    s2 = json.loads(json.dumps(stage_sets))
+    s2 = json.loads(json.dumps(stage_official_sets))
     for s in s2:
         for q in s["questions"]:
             for p in q["parts"]:
                 if p["id"] == mp_part["id"]:
                     p["markPoints"][0]["marks"] += 1
-    seeds.append(("G-E2", f"markPoint bump on {mp_part['id']} (markPoints closure)", s2, current_sets))
+    seeds.append(("G-E2", f"markPoint bump on {mp_part['id']} (markPoints closure)",
+                  stage_sets, s2, current_sets, current_official_sets))
 
     # Seed 3 / G-E3: one question dropped from a series set in BOTH the export
     # and the bundle of record (collusive drift — G-E1 parity holds, G-E2 mark
@@ -501,40 +518,49 @@ def self_test(stage_path, current_path, keep=False, allow_new_official=False,
     # dropped question breaks the disclosed id lattice one gate earlier, a
     # strictly stronger property; without a disclosure the old attribution
     # G-E3 still holds because the lattices match and only the census sees it).
-    s3 = json.loads(json.dumps(stage_sets))
-    c3 = json.loads(json.dumps(current_sets))
+    s3 = json.loads(json.dumps(stage_official_sets))
+    c3 = json.loads(json.dumps(current_official_sets))
     for coll in (s3, c3):
         for s in coll:
             if s["slug"] == seed_set["slug"]:
                 s["questions"].pop()
     seeds.append(("G-E1" if disclosure_path else "G-E3",
                   f"question dropped from {seed_set['slug']} in BOTH export and bundle of record",
-                  s3, c3))
+                  stage_sets, s3, current_sets, c3))
 
-    # Seed 4 / G-E4: the SME prefix is touched (an SME set's name edited)
+    # Seed 4 / G-E4: the SME file is touched (an SME set's name edited)
     s4 = json.loads(json.dumps(stage_sets))
     for s in s4:
         if s["slug"] == sme_slug:
             s["name"] = s["name"] + " (seed fault)"
-    seeds.append(("G-E4", f"SME prefix mutation on {sme_slug}", s4, current_sets))
+    seeds.append(("G-E4", f"SME file mutation on {sme_slug}",
+                  s4, stage_official_sets, current_sets, current_official_sets))
 
     print(f"self-test: clean stage must pass, then 4 seeded faults must be refused "
           f"(workdir {workdir}{' , kept' if keep else ''})")
-    clean = run_gates(stage_path, current_path, quiet=True, allow_new_official=allow_new_official,
+    clean = run_gates(stage_path, stage_official_path, current_path, current_official_path,
+                      quiet=True, allow_new_official=allow_new_official,
                       disclosure_path=disclosure_path)
     print(f"  PASS clean stage (G-E1..G-E4; {clean['parts']} parts, prefix {clean['prefix']}B)")
 
     detected = 0
     failures = []
-    for want_gate, desc, sets, cur in seeds:
+    for want_gate, desc, st_sme, st_off, cu_sme, cu_off in seeds:
         seed_path = os.path.join(workdir, f"seed-{want_gate}-stage.json")
+        seed_off_path = os.path.join(workdir, f"seed-{want_gate}-stage-official.json")
         cur_path = os.path.join(workdir, f"seed-{want_gate}-current.json")
+        cur_off_path = os.path.join(workdir, f"seed-{want_gate}-current-official.json")
         with open(seed_path, "wb") as f:
-            f.write(reserialize(sets))
+            f.write(reserialize(st_sme))
+        with open(seed_off_path, "wb") as f:
+            f.write(reserialize(st_off))
         with open(cur_path, "wb") as f:
-            f.write(reserialize(cur))
+            f.write(reserialize(cu_sme))
+        with open(cur_off_path, "wb") as f:
+            f.write(reserialize(cu_off))
         try:
-            run_gates(seed_path, cur_path, quiet=True, allow_new_official=allow_new_official,
+            run_gates(seed_path, seed_off_path, cur_path, cur_off_path,
+                      quiet=True, allow_new_official=allow_new_official,
                       disclosure_path=disclosure_path)
             print(f"  FAIL seed NOT DETECTED ({desc})")
             failures.append((want_gate, desc, "not detected"))
@@ -561,14 +587,18 @@ def main():
     sub = ap.add_subparsers(dest="mode", required=True)
     v = sub.add_parser("verify", help="verify a staged export against the bundle of record")
     v.add_argument("--stage", required=True)
+    v.add_argument("--stage-official-papers", required=True)
     v.add_argument("--current", required=True)
+    v.add_argument("--current-official-papers", required=True)
     v.add_argument("--report", default=None, help="MULTI-SERIES-REPORT.json to cross-check constants")
     v.add_argument("--disclosure", default=None,
                    help="exporter-disclosures wave census the G-E1 delta census must equal")
     v.add_argument("--allow-new-official", action="store_true")
     t = sub.add_parser("self-test", help="seed 4 faults; every gate must refuse")
     t.add_argument("--stage", required=True)
+    t.add_argument("--stage-official-papers", required=True)
     t.add_argument("--current", required=True)
+    t.add_argument("--current-official-papers", required=True)
     t.add_argument("--keep", action="store_true")
     t.add_argument("--allow-new-official", action="store_true")
     t.add_argument("--disclosure", default=None,
@@ -576,10 +606,12 @@ def main():
     args = ap.parse_args()
     try:
         if args.mode == "verify":
-            run_gates(args.stage, args.current, args.report, args.allow_new_official,
+            run_gates(args.stage, args.stage_official_papers, args.current,
+                      args.current_official_papers, args.report, args.allow_new_official,
                       disclosure_path=args.disclosure)
         else:
-            ok = self_test(args.stage, args.current, args.keep, args.allow_new_official,
+            ok = self_test(args.stage, args.stage_official_papers, args.current,
+                           args.current_official_papers, args.keep, args.allow_new_official,
                            args.disclosure)
             if not ok:
                 sys.exit(1)

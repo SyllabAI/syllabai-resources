@@ -3,8 +3,14 @@
 format (syllabai.sme-exam-questions/1.1 compatible, contract-additive).
 
 Reads  : <repo>/Official-ExamQuestion/igcse-chemistry-19/<series>/4CH1-<paper>/topic.json
-         the CURRENT hub content/igcse-chemistry-19/questions.json (28 SME sets)
-Writes : <out>/content/igcse-chemistry-19/questions.json  (SME sets + official sets)
+         the CURRENT hub content/igcse-chemistry-19/questions.json (28 SME sets —
+         the Exam Questions plane, SME-only since the v2 two-file split,
+         IA decision commit 662654ade0)
+         the CURRENT hub content/igcse-chemistry-19/official-papers.json (54
+         official sets — the Past Papers plane; pass it via the REQUIRED
+         --current-official-papers)
+Writes : <out>/content/igcse-chemistry-19/questions.json        (SME passthrough)
+         <out>/content/igcse-chemistry-19/official-papers.json  (official rebuild)
 Papers : 1C + 2C (16 series each) + 1CR + 2CR (11 R-series each, the F-178
          R-VARIANT tranches). Official slugs: official-4ch1-<paper>-<series>.
 
@@ -20,8 +26,10 @@ closure; F51 adds the data-cut stamping law G-E5):
         sums to the part marks; specPointCodes is a list of strings.
   G-E3  per-slice census (questions/parts/marks) must equal the recorded
         MULTI-SERIES-REPORT constants for BOTH papers (hard stop on drift).
-  G-E4  the SME prefix of the bundle re-serializes byte-identically (the
-        official-papers export never touches the SME corpus of record).
+  G-E4  the staged questions.json re-serializes byte-identically to the SME
+        bundle of record (the official-papers export never touches the SME
+        corpus of record — now proven on the WHOLE file, not just a prefix:
+        since the two-file split the SME file IS the whole questions.json).
   G-E5  the data-cut law (F51; runs first, whenever a manifest is staged):
         the run declares --source-cut main@<40-hex> — the resources commit
         whose corpus it consumes; every consumed staging topics file must be
@@ -625,12 +633,14 @@ def verify_source_cut(topics_dir, source_cut):
           f"declared data cut {source_cut} (modulo the converter header)")
 
 
-def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allow_new_official=False, stem_ledger=None, enrich=None):
-    """G-E1..G-E4 against the bundle of record. topics_src(series, paper) -> topic dict.
+def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path, topics_src, allow_new_official=False, stem_ledger=None, enrich=None):
+    """G-E1..G-E4 against the two-file bundle of record (raw_sme_bytes = the
+    SME-only questions.json, raw_official_bytes = official-papers.json).
+    topics_src(series, paper) -> topic dict.
     allow_new_official: a legitimate append wave may add official sets absent from
-    the bundle of record — their full part ids are disclosed in the 'new' census
-    class (the exporter refuses silently-dropped new sets either way)."""
-    by_slug = {t.get("slug"): t for t in json.loads(raw_bundle_bytes)}
+    the official-papers.json of record — their full part ids are disclosed in the
+    'new' census class (the exporter refuses silently-dropped new sets either way)."""
+    by_slug = {t.get("slug"): t for t in json.loads(raw_official_bytes)}
     # ---- G-E3: census constants (cheap, run first) ----
     n_slices = 0
     for paper in PAPERS:
@@ -766,20 +776,28 @@ def run_gates(out_sets, raw_bundle_bytes, expected_deltas_path, topics_src, allo
                               "namespace change must land in the exporter of record and the "
                               "bundle in the same reviewed PR)")
     print(f"G-E1b ok: set-level identity fields byte-equal on all {n_common} common official sets")
-    # ---- G-E4: the SME prefix is never touched ----
-    first_off = raw_bundle_bytes.find(b'"topicId": "off_')
-    if first_off == -1:
-        raise ExportGateError("G-E4: no official block found in the bundle of record")
-    out_bytes = json.dumps(out_sets, indent=1, ensure_ascii=False).encode()
-    if out_bytes[:first_off] != raw_bundle_bytes[:first_off]:
-        for i in range(first_off):
-            if out_bytes[i] != raw_bundle_bytes[i]:
+    # ---- G-E4: the SME corpus of record is never touched ----
+    # Two-file law (v2 IA 662654ade0): the staged questions.json must be a
+    # byte-identical passthrough of the SME bundle of record — proven on the
+    # WHOLE file (since the split the SME file IS the whole questions.json).
+    # The official rebuild's parity is G-E1's law (census + identity fields);
+    # its bytes may legitimately drift inside a disclosed content wave.
+    sme_sets = [t for t in out_sets if not is_official(t)]
+    out_q_bytes = json.dumps(sme_sets, indent=1, ensure_ascii=False).encode()
+    if out_q_bytes != raw_sme_bytes:
+        n = min(len(out_q_bytes), len(raw_sme_bytes))
+        for i in range(n):
+            if out_q_bytes[i] != raw_sme_bytes[i]:
                 raise ExportGateError(
-                    f"G-E4: SME prefix diverges at byte {i}: "
-                    f"{raw_bundle_bytes[max(0, i - 60):i + 60]!r} vs "
-                    f"{out_bytes[max(0, i - 60):i + 60]!r}")
-        raise ExportGateError("G-E4: SME prefix length drift")
-    print(f"G-E4 ok: SME prefix byte-identical ({first_off} bytes)")
+                    f"G-E4: staged questions.json diverges from the SME bundle of "
+                    f"record at byte {i}: "
+                    f"{raw_sme_bytes[max(0, i - 60):i + 60]!r} vs "
+                    f"{out_q_bytes[max(0, i - 60):i + 60]!r}")
+        raise ExportGateError(
+            f"G-E4: staged questions.json length drift vs the SME bundle of record "
+            f"(of record {len(raw_sme_bytes)} bytes vs staged {len(out_q_bytes)} bytes)")
+    print(f"G-E4 ok: questions.json byte-identical passthrough ({len(raw_sme_bytes)} bytes, "
+          f"{len(sme_sets)} SME sets)")
 
 
 def main():
@@ -787,6 +805,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("out_stage")
     ap.add_argument("current_questions")
+    ap.add_argument("--current-official-papers", required=True,
+                    help="official-papers.json of record (the Past Papers plane, 54 "
+                         "official sets) — the split sibling of the SME-only "
+                         "questions.json (v2 IA decision 662654ade0)")
     ap.add_argument("--topics-dir", default=None,
                     help="dir holding <series>-<paper>.json staging copies of the corpus topics")
     ap.add_argument("--expected-deltas", default=None,
@@ -821,20 +843,35 @@ def main():
 
     raw = open(args.current_questions, "rb").read()
     hub = json.loads(raw)
-    kept = [t for t in hub if not t["slug"].startswith(OFFICIAL_SLUG_PREFIX)]
+    leaked = [t.get("slug") for t in hub if is_official(t)]
+    if leaked:
+        raise ExportGateError(
+            f"input law: questions.json of record still carries {len(leaked)} official "
+            f"set(s) (e.g. {leaked[:3]}) — since the two-file split (v2 IA 662654ade0) "
+            f"official sets live in official-papers.json; pass that file via "
+            f"--current-official-papers")
+    kept = hub
+    raw_op = open(args.current_official_papers, "rb").read()
+    of_strays = [t.get("slug") for t in json.loads(raw_op) if not is_official(t)]
+    if of_strays:
+        raise ExportGateError(
+            f"input law: official-papers.json of record carries non-official set(s) "
+            f"(e.g. {of_strays[:3]}) — it must hold ONLY official sets")
     stem_ledger = load_stem_ledger()
     enrich = load_enrichment_ledger()
     official = [export_series(s, paper, topics_src(s, paper), stem_ledger, enrich)
                 for paper in PAPERS for s in PAPER_SERIES[paper]]
     out = kept + official
 
-    run_gates(out, raw, args.expected_deltas, topics_src, args.allow_new_official,
+    run_gates(out, raw, raw_op, args.expected_deltas, topics_src, args.allow_new_official,
               stem_ledger, enrich)
 
     dest = os.path.join(args.out_stage, "content", "igcse-chemistry-19")
     os.makedirs(dest, exist_ok=True)
     with open(os.path.join(dest, "questions.json"), "wb") as f:
-        f.write(json.dumps(out, indent=1, ensure_ascii=False).encode())
+        f.write(json.dumps(kept, indent=1, ensure_ascii=False).encode())
+    with open(os.path.join(dest, "official-papers.json"), "wb") as f:
+        f.write(json.dumps(official, indent=1, ensure_ascii=False).encode())
     n_sets = len(official)
     n_q = sum(len(t["questions"]) for t in official)
     n_p = sum(len(q["parts"]) for t in official for q in t["questions"])
@@ -880,7 +917,7 @@ def main():
         print(f"manifest staged (importSource.ref stamped to the declared data cut "
               f"{source_cut} — G-E5-proven; note text is the per-wave hardcode of "
               f"record: bump it in the same reviewed PR as the wave)")
-    print(f"written: {dest}/questions.json")
+    print(f"written: {dest}/questions.json + {dest}/official-papers.json")
 
 
 if __name__ == "__main__":

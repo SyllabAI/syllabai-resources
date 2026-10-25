@@ -47,11 +47,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: fetch the hub bundle of record (syllabai-v2 main, public)
+      - name: fetch the hub bundles of record — two-file law (syllabai-v2 main, public)
         run: |
           curl -sfSL -o /tmp/current-questions.json \
             https://raw.githubusercontent.com/SyllabAI/syllabai-v2/main/apps/hub/content/igcse-chemistry-19/questions.json
-          python3 -c "import json; d=json.load(open('/tmp/current-questions.json')); print('bundle of record:', len(d), 'sets')"
+          curl -sfSL -o /tmp/current-official-papers.json \
+            https://raw.githubusercontent.com/SyllabAI/syllabai-v2/main/apps/hub/content/igcse-chemistry-19/official-papers.json
+          python3 -c "import json; q=json.load(open('/tmp/current-questions.json')); p=json.load(open('/tmp/current-official-papers.json')); print('bundles of record:', len(q), 'SME sets +', len(p), 'official sets (two-file law, v2 IA 662654ade0)')"
       - name: stage the corpus topics (v0.10.0 exporter interface — topics/<series>-<paper>.json)
         run: |
           mkdir -p topics
@@ -64,36 +66,45 @@ jobs:
           done
           echo "topics staged: $n"
           test "$n" -eq 54
-      - name: run the exporter of record (v0.13.0 interface; disclosed wave census when one is filed)
+      - name: run the exporter of record (two-file interface — official-papers.json split, v2 IA 662654ade0; disclosed wave census when one is filed)
         run: |
           mkdir -p /tmp/export-stage
           LATEST=$(ls scripts/exporter-disclosures/*.json 2>/dev/null | sort -V | tail -1 || true)
           if [ -n "$LATEST" ]; then
             echo "exporter mode: disclosed wave census ($LATEST)"
             python3 scripts/official_examq_export_hub.py /tmp/export-stage /tmp/current-questions.json \
+              --current-official-papers /tmp/current-official-papers.json \
               --topics-dir topics --expected-deltas "$LATEST" --allow-new-official
           else
             echo "exporter mode: reproducibility no-op (no disclosure of record)"
             python3 scripts/official_examq_export_hub.py /tmp/export-stage /tmp/current-questions.json \
+              --current-official-papers /tmp/current-official-papers.json \
               --topics-dir topics
           fi
-      - name: F-187 G-E1..G-E4 verify against the bundle of record (+ report + disclosure cross-check)
+      - name: F-187 G-E1..G-E4 verify against the two-file bundle of record (+ report + disclosure cross-check)
         run: |
           LATEST=$(ls scripts/exporter-disclosures/*.json 2>/dev/null | sort -V | tail -1 || true)
           if [ -n "$LATEST" ]; then
             python3 scripts/official_examq_verify_export.py verify \
               --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
+              --stage-official-papers /tmp/export-stage/content/igcse-chemistry-19/official-papers.json \
               --current /tmp/current-questions.json \
+              --current-official-papers /tmp/current-official-papers.json \
               --report Official-ExamQuestion/igcse-chemistry-19/MULTI-SERIES-REPORT.json \
               --disclosure "$LATEST" --allow-new-official
           else
             python3 scripts/official_examq_verify_export.py verify \
               --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
+              --stage-official-papers /tmp/export-stage/content/igcse-chemistry-19/official-papers.json \
               --current /tmp/current-questions.json \
+              --current-official-papers /tmp/current-official-papers.json \
               --report Official-ExamQuestion/igcse-chemistry-19/MULTI-SERIES-REPORT.json
           fi
       - name: F-187 seed-fault negative controls (acceptance 4-of-4 refuse)
         run: |
           python3 scripts/official_examq_verify_export.py self-test \
             --stage /tmp/export-stage/content/igcse-chemistry-19/questions.json \
-            --current /tmp/current-questions.json --allow-new-official
+            --stage-official-papers /tmp/export-stage/content/igcse-chemistry-19/official-papers.json \
+            --current /tmp/current-questions.json \
+            --current-official-papers /tmp/current-official-papers.json \
+            --allow-new-official
