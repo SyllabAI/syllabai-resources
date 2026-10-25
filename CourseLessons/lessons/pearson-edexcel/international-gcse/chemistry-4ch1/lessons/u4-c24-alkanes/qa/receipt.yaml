@@ -1,0 +1,107 @@
+stage: S4
+date: "2026-10-26"
+agent: "T-BOOK-057 r0 (session web-c414c074 chat 08b3170a, trace 1a174aa15579a90d)"
+prompt_version: "lesson-prose@2.0.0"
+lint: "PASS"
+trace_id: "1a174aa15579a90d"
+summary: >-
+  u4:c24 Alkanes authored end-to-end S4 8/8 under lesson-prose@2.0.0 standalone
+  voice (r0, no retrofit debt; the third Unit-4 chapter — operator lane order
+  "go: c24", trace 1a174aa15579a90d; standing merge+flip trace 1a1658a2da08e5bd).
+  State reconciliation first: production lessons-index 23/23 packs u1-c01…u4-c23
+  (c23 published by T-BOOK-056); remote resources main advanced 64f45861 → c15fc292
+  (Wave-8 UGM corpus lanes, non-overlapping paths) and v2 main 95ac1c8f → bf3a7fbe
+  (PR #373 T-UGM-HUB-CONSUME-12); gate N re-derived = 24 for this lane.
+  join_set DERIVED at S0-L0 from the printed objectives list SPLIT across TWO
+  chunks — 1080 (typed learning_objectives, carrying the 4.19 and 4.20 bullets,
+  each text-DOUBLED by the parse) and 1081 (typed key_point, carrying the 4.21
+  and 4.22 bullets glued after the saturated-hydrocarbons KEY POINT) — x spine
+  node igcse-chemistry-T4:SUBc = 4.19-4.22 ALL CORE 4+0 (all four non-suffixed,
+  double_award_shared true, papers [1C,2C]) — the THIRD consecutive ALL-CORE pack
+  (c22 6+0; c23 12+0; f-0015 sibling audit run before any superlative claim:
+  u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C;
+  c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3; c20 mixed 7+1;
+  c21 mixed 2+4; c22 ALL-CORE 6+0; c23 ALL-CORE 12+0; c24 ALL-CORE 4+0 — the
+  C-sibling set is trivially EMPTY for this pack, no C-suffixed point anywhere
+  in the join_set). chem_only: false (spine applicability governs).
+  DISCLOSED f-0016 covers (spine-canonical pins, spine node igcse-chemistry-T4:SUBc):
+  (1) 4.21 chunk drops the spine comma ("with up to five carbon atoms in the
+  molecule, and to name" -> chunk "molecule and to name"); (2) 4.22 chunk
+  TRUNCATES the spine tail — chunk bullet ends "limited to mono-substitution"
+  while the spine statement continues "knowledge of reaction mechanisms is not
+  required" (page/column break class; spine-canonical pin; the mechanism-not-
+  required scope is taught in s07 prose). Raw map verified byte-for-byte against
+  a fresh section_map.py derivation BEFORE refinement (fresh == pre-lane
+  committed map: 5 sections, pages [277,279], ref counts 5/1/1/4/5), then
+  refined raw 5 -> authored 8 with receipt-disclosed re-homings mirroring the
+  PRINTED book order: 1083 (homologous-series exam HINT) raw-s01 -> authored-s03
+  (it footnotes the definition bullets taught there); 1087 (equations HINT)
+  raw-s04 -> authored-s07; 1088 raw-s04 -> authored-s05 (see the triple-glued
+  note below); 1089 (not-inert KEY POINT) raw-s04 -> authored-s06; 1090 raw-s05
+  -> authored-s07; 1094 raw-s05 -> authored-s08 (questions close split out,
+  c11-c23 precedent — this is the raw 5 -> authored 8 count delta). NEW
+  structure finding disclosed: the chunk READING order on p278 does not match
+  the printed visual order — chunk 1084 (general-formula heading) is followed
+  in the parse by 1085 (isomers) and 1086 (homologous-series definition +
+  general-formula body), but the printed page runs isomers THEN homologous
+  series THEN the general-formula subsection (verified by 150-dpi page OCR of
+  the PDF of record); the authored section order mirrors the PRINTED book
+  (s02 isomers, s03 homologous series, s04 general formula), not the chunk
+  order. Chunk 1088 is TRIPLE-GLUED (combustion-products HINT head + Figure
+  24.4 boiling-points trend body + chemical-properties/unreactive tail —
+  column-interleave class): chunkRef home s05 by bulk (the trend body is the
+  largest part; c23 1064 bulk-home precedent), its HINT head taught as the
+  s07 exam-hint box, its chemical-properties tail taught as s06 prose.
+  Chunk 1086 SPLIT: chunkRef home s03 (the definition bullets are the bulk),
+  its general-formula tail (n carbons / 2n+2 / C15H32 / -CH2- unit reason)
+  taught as s04 prose (c23 1064/1075 split precedent). FOUR absent display
+  equations RESTORED byte-precise from the PDF of record — the parse drops
+  image-rendered equations (chunk 1090 reads "for example:" with the equation
+  lines lost): CH4(g) + 2O2(g) -> CO2(g) + 2H2O(l); 2C2H6(g) + 7O2(g) ->
+  4CO2(g) + 6H2O(l); 2C2H6(g) + 5O2(g) -> 4CO(g) + 6H2O(l); 2C2H6(g) + 3O2(g)
+  -> 4C(s) + 6H2O(l) — restored via 300-dpi pdftoppm crop + tesseract OCR +
+  ATOM-BALANCE verification on all four (the recipe is filed as f-0026); both
+  incomplete-combustion printed examples use ETHANE, not methane — restored as
+  printed, never silently normalised. OCR repair classes receipt-disclosed:
+  doubled objectives bullets x2 in 1080 (deduped); l/I state-symbol class in
+  1093 (CI2 -> Cl2, HCI -> HCl, CH3CH2CI -> CH3CH2Cl — the equation carried
+  byte-restored as CH3CH3(g) + Cl2(g) -> CH3CH2Cl(g) + HCl(g)); garbles taught
+  in words or OCR-restored from the PDF pages: 1086 "do not really havi i h ih
+  s n ui a ich" -> "do not really have a functional group as they just contain
+  single C-C and C-H bonds, which are the basis of all other organic compounds"
+  (p278 OCR); 1088 "Che a l d ing within the molecules" -> "Chemical properties
+  are dependent on the functional groups and bonding within the molecules"
+  (p279 OCR); 1089 "like neon from a readily undergo two reactions" -> "like
+  neon for example, but they are not very reactive for organic compounds and
+  only really undergo two reactions" (p279 OCR); 1082 displayed-formula column
+  linearized garble (2D structures flattened: "CH4 H—C—H H") -> taught in
+  words; C18H38 garbles ("C;gHss" / "C18H38-") -> C18H38; 1094 spacing drops
+  ("2Write", "3Draw") and stray figure remnant "H" -> questions described as
+  shapes, page-jump-only (licensing law held: NO question-bank text reproduced
+  in s08; the undecane/isomers/ethane-bromine/butane-chlorine items are
+  described as rehearseable shapes only). Figure slots x6 taught in words per
+  the c15-c23 precedent (Fig 24.1 small-alkanes-as-fuels caption; 24.2 branched
+  isomers; 24.3 three smallest alkanes; 24.4 boiling-point graph; 24.5
+  methane-bromine displayed; 24.6 bromopropane isomers). f-0017 print-ref
+  strips -> in-product pointers: Chapter 22 -> u4:c22; Chapter 23 -> u4:c23;
+  Chapter 5/page 41 -> u1:c05/u1:c06; Chapter 16 -> u2:c16; no page-number
+  deflection anywhere in student prose. f-0024 class SELF-CATCH of record: one
+  broken chip ("[omologous series]]" — the '[[h' two-byte drop + a space-slug
+  mistake) was authored into s03 and caught by V6 at first lint, repaired by
+  line surgery before emit; the V6 net demonstrably works on fresh authoring.
+  A SECOND f-0024-class drop ("[[hydrocarbon]]s" -> "[ydrocarbon]]s" in s01)
+  appeared during the front-matter surgery pass and was caught by the fleet
+  sweep + repaired with byte-asserted writes; both drops are the same two-byte
+  loss signature queued for the f-0024 cosmetic lane.
+  Boxes: exam-hint x8 (every section; 1083/1087/1088-head/1092-head
+  census-true, the rest authored per the every-section law); key-point x6
+  (s01 census-true 1081, s06 census-true 1089, s02/s03/s05/s07 authored,
+  disclosed); did-you-know x2 s07 (census-true 1091 + 1093 EXTENSION chunks);
+  worked-example x1 s04 (general-formula application, census-true 1086 tail);
+  prior-knowledge x1 s01 (census-true 1079); cross-curricular x2 (s01 energy,
+  s04 maths — authored); misconception x8 (s01-s08; the s04 entry — the general formula does not fix structure, C4H10 being two compounds — was added post-first-lint to clear the V5 warning);
+  quick-check x8; summary + can-you in s08; safety and maths-skills honestly
+  absent (0 census chunks of either type). The s07 halogenoalkane/mono-substitution naming paragraph (1093 tail census content: x-haloalkane format, 1-/2-bromopropane isomers) was added post-verify to close a content gap found by the chip-set audit. Chip convergence pass: s01 general-formula dropped (taught in s04), s08 carbon-monoxide/hydrocarbon added (recap prose), s04/s05/s06 chips aligned; per-section body chip-set == front-matter list everywhere after repair. Glossary 24 entries, full ms layer
+  (ms_accepts + ms_avoids + chunkRef source), every per-section body chip-set
+  == front-matter list (S0.23). verifier verify_c24_s0.py committed in-repo
+  (f-0023 law) with ALL GREEN at emit time.
