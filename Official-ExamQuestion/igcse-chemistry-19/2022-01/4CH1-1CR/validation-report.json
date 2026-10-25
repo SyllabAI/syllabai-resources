@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-24T08:43:03Z",
+ "generated_utc": "2026-10-25T13:33:54Z",
  "series": "2022-01",
  "paper": "1CR",
  "gates": [
@@ -52,12 +52,12 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "2 asset records cover every table/diagram/grid/apparatus mention: 2 cropped to assets/*.png (150 dpi), 0 remain crop-required; 1 parts without page anchor",
+   "summary": "4 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 0 remain crop-required; 1 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
-     "crops": 2,
+     "crops": 4,
      "pending": 0,
      "shared": 0
     }
@@ -115,6 +115,12 @@
  ],
  "review_queue": [],
  "ocr_pages": [],
+ "wave24": {
+  "choice_script_restored": 2
+ },
+ "wave20": {
+  "stem_figure_stubs": 2
+ },
  "source_defects": {
   "image_only_pages": [
    18,

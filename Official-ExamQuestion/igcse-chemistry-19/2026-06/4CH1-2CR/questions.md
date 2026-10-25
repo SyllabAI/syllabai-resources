@@ -237,6 +237,8 @@ A saturated solution of potassium chloride in 100 g of water is cooled from 80 Â
 
 Name a piece of apparatus that the student could use in step 2 to measure 20 cm3 of water.
 
+![boiling tube of potassium nitrate solution in a beaker of hot water with thermometer â€” official paper figure (qp.pdf p.8)](assets/asset_3_stem_solubility.png)
+
 
 **Mark scheme answer**
 

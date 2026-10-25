@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-24T08:43:04Z",
- "generator": "official_examq_extract.py v0.15.0 (ADR-039) series=2022-01 paper=1CR",
+ "generated_utc": "2026-10-25T13:33:56Z",
+ "generator": "official_examq_extract.py v0.17.0 (ADR-039) series=2022-01 paper=1CR",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2022-01:4CH1/1CR",
  "source": {
   "qp_sha256": "fa9fefbead81a289126d7853f366a2cc603ddcd31a377af2689c2317deea4f31",
@@ -182,12 +182,12 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "HNO3",
+       "text_md": "HNO₃",
        "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "H2O",
+       "text_md": "H₂O",
        "is_correct": false
       },
       {
@@ -1116,7 +1116,22 @@
       }
      ],
      "source_page": 14,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_6_stem_ocimene",
+       "kind": "crop",
+       "mention": "displayed formula of ocimene",
+       "source": "qp.pdf",
+       "page": 14,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_6_stem_ocimene.png",
+       "render": "vector",
+       "text_coverage": 0.23,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-4.26"
      ],
@@ -1403,7 +1418,22 @@
       }
      ],
      "source_page": 19,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_8_stem_zinc-apparatus",
+       "kind": "crop",
+       "mention": "zinc granules and dilute sulfuric acid in a flask on a balance",
+       "source": "qp.pdf",
+       "page": 19,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_8_stem_zinc-apparatus.png",
+       "render": "vector",
+       "text_coverage": 0.057,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-1.25"
      ],

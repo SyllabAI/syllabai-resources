@@ -440,6 +440,8 @@ A teacher uses the reaction between phosphorus and oxygen to calculate the perce
 
 State how the results show that all the oxygen has reacted.
 
+![glass tube full of air with phosphorus on a wire, scale in 0.5 cm3 divisions, standing in water — official paper figure (qp.pdf p.14)](assets/asset_5_stem_phosphorus-apparatus.png)
+
 
 **Mark scheme answer**
 

@@ -10,6 +10,8 @@ The diagram shows the electronic configuration of an atom of an element.
 
 Name the part of the atom that contains the protons and neutrons.
 
+![electronic configuration diagram: nucleus and three shells — official paper figure (qp.pdf p.3)](assets/asset_1_stem_electronic-config.png)
+
 
 **Mark scheme answer**
 
@@ -417,6 +419,8 @@ Calculate the relative formula mass (Mr ) of C5H12 Mr of C5H12 =
 ### 5(a)(iii) [1]
 
 This is the displayed formula of one of the isomers. H H H H H H C C C C C H H H H H H Give the name of this isomer.
+
+![displayed formula of a C5H12 isomer — official paper figure (qp.pdf p.10)](assets/asset_5_stem_isomer-formula.png)
 
 
 **Mark scheme answer**

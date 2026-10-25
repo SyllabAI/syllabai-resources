@@ -199,6 +199,8 @@ State two ways to make the sugar dissolve more quickly. 1 2
 
 Name the process used to obtain pure water from the sugar solution.
 
+![simple distillation apparatus with labelled coolant tubes X — official paper figure (qp.pdf p.6)](assets/asset_3_stem_distillation.png)
+
 
 **Mark scheme answer**
 

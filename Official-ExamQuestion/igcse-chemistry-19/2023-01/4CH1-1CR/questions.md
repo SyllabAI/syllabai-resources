@@ -10,6 +10,8 @@ The diagram shows how the particles are arranged in the three states of matter. 
 
 Use words from the box to identify the changes of state X, Y and Z. condensing cooling crystallising diffusing evaporating freezing heating X Y Z
 
+![particle arrangement in solid, liquid and gas with changes X, Y, Z — official paper figure (qp.pdf p.3)](assets/asset_1_stem_states.png)
+
 
 **Mark scheme answer**
 

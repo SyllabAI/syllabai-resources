@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-24T08:44:01Z",
- "generator": "official_examq_extract.py v0.15.0 (ADR-039) series=2026-06 paper=2CR",
+ "generated_utc": "2026-10-25T13:35:05Z",
+ "generator": "official_examq_extract.py v0.17.0 (ADR-039) series=2026-06 paper=2CR",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2026-06:4CH1/2CR",
  "source": {
   "qp_sha256": "5ee0d5b49eac889dbc2dc3f7894a4dc3eff8c0808e3ee94f9425e27c0169f980",
@@ -520,7 +520,22 @@
       }
      ],
      "source_page": 8,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_3_stem_solubility",
+       "kind": "crop",
+       "mention": "boiling tube of potassium nitrate solution in a beaker of hot water with thermometer",
+       "source": "qp.pdf",
+       "page": 8,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_3_stem_solubility.png",
+       "render": "vector",
+       "text_coverage": 0.163,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [],
      "tagging": "no-spec-point",
      "edit_status": "extracted",

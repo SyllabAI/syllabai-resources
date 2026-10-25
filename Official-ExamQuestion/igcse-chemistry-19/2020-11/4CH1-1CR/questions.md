@@ -887,7 +887,7 @@ Which of these could be the pH of this weak acid?
 
 Which of these is a correct statement about acids?
 
-- **(A)** acids contain OH− ions
+- **(A)** acids contain OH⁻ ions
 - **(B)** acids are electron donors
 - **(C)** acids are proton acceptors
 - **(D)** acids are proton donors  ✔

@@ -747,6 +747,24 @@
    "assertion": "wave-20 Part C (F-W20-3): every SOLUTION-ENRICH.json entry resolves to a real part, carries the authored review state, enriches (differs from) the MS cell - and the corpus topic.json still holds the MS-derived solution (enrichment is export-only, never baked into the data plane) | wave-22: the corpus is COMPLETE - min_entries=2607 (every solution-bearing part of the 54 official sets carries an authored, verifier-clean worked answer); the floor fails if the ledger ever shrinks",
    "check": "solution_enrichment_ledger",
    "min_entries": 2607
+  },
+  {
+   "id": "C72-mcq-choice-scripts-2026-06",
+   "series": "2026-06",
+   "assertion": "wave-24 (F64): the printed MCQ scripts survive extraction — 1(a) A carries a RAISED 4 (distractor) while D is the true ammonium ion; the G8 audit's duplicate-choice ambiguity is closed and pinned byte-exact",
+   "check": "mcq_choices",
+   "paper": "1C",
+   "part": "1(a)",
+   "expect": {
+    "A": "NH⁴⁺",
+    "D": "NH₄⁺"
+   }
+  },
+  {
+   "id": "C73-figure-queue-disposition",
+   "series": "*",
+   "assertion": "wave-24 (G8): FIGURE-QUEUE.json is bidirectionally consistent with the corpus — every cropped/served_via entry resolves to a real asset (on the part, or on a same-question carrier), every dismissal is a real QP-verified decision (nothing UNREVIEWED); the queue is finished when it is empty",
+   "check": "figure_queue"
   }
  ]
 }

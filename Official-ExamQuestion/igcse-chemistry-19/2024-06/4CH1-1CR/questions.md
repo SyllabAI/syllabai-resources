@@ -79,6 +79,8 @@ This question is about methane, CH4 The diagram shows a Bunsen burner that uses 
 
 During combustion, methane reacts with a gas in the air. Give the name of this gas.
 
+![Bunsen burner with flame — official paper figure (qp.pdf p.6)](assets/asset_2_stem_bunsen.png)
+
 
 **Mark scheme answer**
 

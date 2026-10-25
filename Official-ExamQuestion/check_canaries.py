@@ -646,6 +646,67 @@ for c in cans:
             ok = pages == c["pages"]
             if not ok:
                 print(f"  ! {series} {c.get('paper')}: ocr_pages {pages} != {c['pages']}")
+        elif chk == "mcq_choices":
+            # C72 (v0.16.0/F64): the printed MCQ scripts survive extraction —
+            # the 2026-06 1(a) raised-4 distractor must stay distinct from the
+            # true ammonium ion (the audit's duplicate-choice ambiguity).
+            ok = True
+            _, t = load(c["series"], c.get("paper", "1C"))
+            p = find_part(t, c["part"])
+            got = {ch["label"]: ch["text_md"] for ch in (p.get("choices") or [])}
+            for lab, want in (c.get("expect") or {}).items():
+                if got.get(lab) != want:
+                    ok = False
+                    print(f"  ! {c['id']}: {c['part']} {lab} = {got.get(lab)!r}, want {want!r}")
+            print(f"  (pinned choice scripts: {len(c.get('expect') or {})})")
+        elif chk == "figure_queue":
+            # C73 (v0.16.0/G8): FIGURE-QUEUE.json is bidirectionally consistent
+            # with the corpus — every cropped/served_via entry resolves to a
+            # real asset (on the part, or on a same-question carrier), every
+            # dismissal is a real QP-verified decision (nothing UNREVIEWED).
+            ok = True
+            fq = json.loads((HERE / "FIGURE-QUEUE.json").read_text())
+            index = {}
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    paper = pd.name.split("-")[1]
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            slug = p["part_number"].replace("(", "-").replace(")", "")
+                            pid = f"offp_{d.name}_{paper.lower()}_{slug}"
+                            index[pid] = (d.name, paper, p["part_number"],
+                                          {a["id"] for a in (p.get("assets") or [])})
+            n_c = n_s = n_d = 0
+            for e in fq.get("cropped") or []:
+                n_c += 1
+                ent = index.get(e["part"])
+                if ent is None or e["asset"] not in ent[3]:
+                    ok = False
+                    print(f"  ! {c['id']}: cropped {e['part']} lacks asset {e['asset']}")
+            for e in fq.get("served_via") or []:
+                n_s += 1
+                ent = index.get(e["part"])
+                if ent is None:
+                    ok = False
+                    print(f"  ! {c['id']}: served_via {e['part']} not in corpus")
+                    continue
+                carrier_ok = any(s2 == ent[0] and p2 == ent[1]
+                                 and e["asset"] in a2
+                                 and pn2.split("(")[0] == ent[2].split("(")[0]
+                                 for _, s2, p2, pn2, a2 in
+                                 [(k, *index[k]) for k in index])
+                if not carrier_ok:
+                    ok = False
+                    print(f"  ! {c['id']}: served_via {e['part']} no same-question carrier for {e['asset']}")
+            for e in fq.get("dismissed") or []:
+                n_d += 1
+                if str(e.get("why", "")).startswith("UNREVIEWED"):
+                    ok = False
+                    print(f"  ! {c['id']}: dismissed {e['part']} is UNREVIEWED")
+            print(f"  (figure queue: {n_c} cropped / {n_s} served_via / {n_d} dismissed)")
         else:
             ok = False
             print(f"  ! unknown check type {chk}")

@@ -178,10 +178,10 @@ The reaction occurs because chlorine is more reactive than bromine. Bromine is b
 
 Elements in Group 7 react with elements in Group 1 to form ionic compounds. Which pair of ions both have the electronic configuration 2.8.8?
 
-- **(A)** Li+ and Cl–
-- **(B)** K+ and F–
-- **(C)** Li+ and F–
-- **(D)** K+ and Cl–  ✔
+- **(A)** Li⁺ and Cl⁻
+- **(B)** K⁺ and F⁻
+- **(C)** Li⁺ and F⁻
+- **(D)** K⁺ and Cl⁻  ✔
 
 
 **Mark scheme answer**

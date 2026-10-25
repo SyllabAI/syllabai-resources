@@ -176,9 +176,74 @@ or discloses.
 | G5 answers | positional linkage into the MS        | unmatched parts below threshold                      |
 | G6 registry| spec codes exist or are documented    | unknown code without a documented gap                |
 | G7 solutions| verbatim MS block + awardable points | linked part without solution_md; point marks ≠ part marks |
+| G8 post-completion audit | the PRODUCT is good, not just the process | any confirmed defect class without a fix-or-disclose entry (see G8 section) |
 
 Negative controls (N1 mark-bump, N2 one-word paraphrase, N3 fake spec code) run every
 session and MUST be DETECTED 3/3 — otherwise the run is void.
+
+## G8 — POST-COMPLETION AUDIT (mandatory; no course is "done" without it)
+
+When the pipeline finishes for a course, run a full audit of the output BEFORE
+declaring the wave complete — not "gates green, ship it". The G0–G7 gates prove
+the process was followed; G8 proves the PRODUCT is good. Re-run G8 whenever a
+course re-exports (new series, key fixes, crop additions).
+
+### G8 checklist (every item must be run and reported; failures are fix-or-disclose)
+
+1. **Inventory** — set counts match the course spec (e.g. 16/16/11/11); every
+   `topic.json` parses; `paper_info.session`/`code` match the directory; zero
+   duplicate question ids.
+2. **Marks arithmetic** — Σ(part marks) = question total_marks for every
+   question; Σ(questions) = printed paper total (read it from the QP footer,
+   not memory); zero parts with marks ≤ 0; Σ(mark_points) = part marks where
+   mark_points exist.
+3. **MCQ integrity** — exactly one `is_correct` per MCQ part; labels A–D in
+   order; no duplicate choice texts; every adjudication in MCQ-KEYS.json still
+   matches the corpus choices.
+4. **Text hygiene** — scan problem/solution/choices/mark_points/stems/groups
+   for: control chars (note BEL U+0007 from numbered method steps), PUA chars,
+   mojibake (Ã, â€, U+FFFD), Pearson footer lines ("(Total for Question N = M)",
+   "Pearson Edexcel", "DO NOT WRITE") in mark_points, empty fields. Report
+   counts and say which classes are cleaned downstream (exporter) vs user-facing.
+5. **Artwork (the one that always bites)** —
+   a. every referenced asset path exists in the repo tree (0 missing);
+   b. no shipped asset has `review:true` unless its CROP-REVIEW verdict is
+      recorded;
+   c. census CROP-REVIEW verdicts (accepted / stub-accepted / rejected) and
+      list every `stub-accepted` crop that ships to the hub as `crop-required`;
+   d. figure-language sweep: parts containing "diagram|graph|chart|chromatogram|
+      apparatus|displayed formula|dot-and-cross|shown in the" where NO part of
+      the question embeds an image and the text is not a draw/sketch task —
+      EVERY hit goes on a review queue and is checked against the actual QP
+      page (yes/no crop needed). The queue is finished when it is empty, not
+      when it is documented. Ground truth = the QP PDF from syllabai-pastpapers
+      (`past-papers/<spec>/past-papers/<session>/<dir>/qp.pdf`), never memory;
+   e. figure-as-text check: flag problem text containing atom-letter soup
+      ("H H H H C C C…" runs) — a figure was extracted as text instead of
+      cropped.
+6. **Hub propagation** — exported bundle vs corpus: set-for-set counts, marks,
+   asset counts equal; every SOLUTION-ENRICH key's `solutionMd` byte-equal to
+   the hub part's `solutionMd` (the export must serve the authored layer, not
+   the verbatim layer); sample embedded image URLs → HTTP 200.
+7. **Report** — write the audit as a document with: verdict paragraph, PASS
+   table, confirmed defects with paper/question/page evidence, minor defects,
+   honest "not checked" list, prioritized fixes. Save next to the course
+   corpus and reference it from the wave's CHANGELOG/LEDGER entry.
+
+### First G8 (igcse-chemistry-19, 2026-10-25) — baseline results
+
+PASS: inventory (54/54, 0 dups), marks (0 violations), MCQ keys (4/4),
+gates (432/432), hub propagation (2,607/2,607 byte-equal), 424 image URLs 200.
+CONFIRMED defects — ALL CLOSED by wave-24 the same day (F64/F65): 3 missing
+figures cropped (2019-06 1C Q11(b) apparatus, Q12 calorimeter, 2025-06 1C 9(a)
+displayed formula); the 36-part figure queue fully dispositioned
+(FIGURE-QUEUE.json: 25 cropped + 10 served_via + 12 dismissed with QP-page
+evidence); the ambiguous MCQ 2026-06 1C 1(a) A=D="NH4+" closed at source by the
+F64 choice-script restoration (C72 pins the scripts). REMAINING OPEN (honest,
+fix-or-disclose next waves): 57 MS footer lines in mark_points (exporter strips
+at serve time); 16 BEL control chars in stems (exporter-cleaned, never
+user-facing); 58 orphan crops (repo hygiene). Full report:
+`AUDIT-2026-10-25-igcse-chemistry-19.md` (beside this corpus).
 
 ## The v0.5 serving fields (what the frontend / Smart Mark consume)
 

@@ -563,10 +563,10 @@ A sample of vinegar containing 0.0030 mol of CH3COOH is poured into a flask. Cal
 
 Alcohols react with carboxylic acids to form esters. Which alcohol could react to form the ester ethyl propanoate?
 
-- **(A)** CH3OH
-- **(B)** C2H5OH  ✔
-- **(C)** C3H7OH
-- **(D)** C4H9OH
+- **(A)** CH₃OH
+- **(B)** C₂H₅OH  ✔
+- **(C)** C₃H₇OH
+- **(D)** C₄H₉OH
 
 
 **Mark scheme answer**

@@ -267,10 +267,10 @@ What is the total number of atoms in the formula Ca3(PO4)2?
 
 What are the correct charges on the ions in calcium phosphate?
 
-- **(A)** Ca2+ and PO42–
-- **(B)** Ca2+ and PO43–  ✔
-- **(C)** Ca3+ and PO42–
-- **(D)** Ca3+ and PO43–
+- **(A)** Ca²⁺ and PO₄²⁻
+- **(B)** Ca²⁺ and PO₄³⁻  ✔
+- **(C)** Ca³⁺ and PO₄²⁻
+- **(D)** Ca³⁺ and PO₄³⁻
 
 
 **Mark scheme answer**
@@ -769,7 +769,7 @@ This question is about organic compounds.
 
 Draw a dot‑and‑cross diagram of chloroethene. Show only the outer shell electrons.
 
-> 🖼 crop required: diagram (qp.pdf p.20)
+![diagram — official paper figure (qp.pdf p.20)](assets/asset_9_a_i_diagram.png)
 
 
 **Mark scheme answer**

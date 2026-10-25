@@ -889,28 +889,10 @@ def main():
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
         manifest["importSource"]["note"] = (
-            "ADR-037 converter v0.14.1 corpus (wave-22, F62): solution enrichment tranche 2 - "
-            "the corpus is COMPLETE: 1,332 authored SME-style worked answers added "
-            "(SOLUTION-ENRICH.json 1,275 -> 2,607; every solution-bearing part of the 54 "
-            "official sets now carries an authored, verifier-clean worked answer; the 217 "
-            "repair-flagged tranche-1 drafts were re-authored from evidence). The F60/F62 "
-            "value-fidelity review pass is the committed harness "
-            "scripts/official_examq_enrich_verify.py (F-W22-1..5: mark-point furniture/artifact "
-            "strips, case-corrected symbol/label coverage routes, decimal-safe numeric "
-            "tokeniser, M-label evidence reads, uppercase-only marker jargon; full 2,607-entry "
-            "ledger re-verified 0 problems), C71 pins min_entries 2607. Serving delta: "
-            "solutionMd on 1,341 parts (1,332 tranche-2 + 9 tranche-1 repairs) + the F62 "
-            "MCQ re-key of 2020-01 2CR 1(b)(i) to C "
-            "(MCQ-KEYS.json paper-scoped adjudication, converter v0.14.1); MS cells and mark "
-            "points stay corroborated to the MS of record - the C71 authored-vs-marking "
-            "separation is KEPT under the ADR-039 fix-and-disclose doctrine (§7.1 "
-            "adjudication of record, trace 1a16cdc9eda1a645): marking is never "
-            "free-authored, and any graded-value correction arrives only with "
-            "printed-MS or rendered-page evidence, disclosed in the /0.2 provenance "
-            "(edit_status/edits[]/value_trace). Wave-15 UX doctrine governs: "
-            "best learner experience, values never invented. "
-            f"{official_n} official sets (16x1C + 16x2C + R-variants), {n_q} questions, {n_p} parts, all "
-            "spec-tagged.")
+            "ADR-037 converter v0.17.0 corpus (wave-24, F64): the G8 fix wave - the first post-completion audit (G8, igcse-chemistry-19 2026-10-25) found 3 QP-verified missing figures, a 36-part figure-language review queue and 1 ambiguous MCQ; this wave closes all three classes at source. Converter v0.17.0 (F64 choice-script restoration; v0.16.0 was claimed mid-flight by the parallel spec-lane generalization #128 and F64 was rebased onto it): MCQ options re-derived from the PDF span geometry - a small raised span is a superscript, a small lowered span a subscript, floating charge spans picked up geometrically; fail-closed (the rebuilt text must normalize back to the extracted text or the run aborts). 55 choice strings restored across 14 parts (2026-06 1C 1(a) A NH4+ vs D NH4+ was the audit's duplicate-choice ambiguity; corpus-wide the molecular-formula subscripts and ionic charges now print as printed). 26 new figures cropped via the F57/F45 stemFigure+manual_crop ledger path (2019-06 1C Q11(b) apparatus + Q12 calorimeter, 2025-06 1C 9(a) chloroethene stub upgraded, plus 23 queue figures across 20 papers; F65); every rect derived from document geometry (vector band unions / raster ink profiling) and eyeballed against the printed page; the 36-part queue is fully dispositioned in FIGURE-QUEUE.json (24 figures cropped, 12 dismissed with QP-page evidence - draw/recall tasks, printed equations). Serving delta: 40 parts (26 problemMd+assets figure embeds + 14 choices restorations), G-E1-matched against the filed disclosure 2026-10-25-wave24-g8-fixes.json; marks, solutions, mark points and spec codes byte-identical everywhere else."
+            f" Wave-15 UX doctrine governs under ADR-039 fix-and-disclose: best learner "
+            f"experience, values never invented. {official_n} official sets (16x1C + "
+            f"16x2C + R-variants), {n_q} questions, {n_p} parts, all spec-tagged.")
         os.makedirs(args.out_stage, exist_ok=True)
         with open(os.path.join(args.out_stage, "manifest.json"), "wb") as f:
             f.write(json.dumps(manifest, indent=1, ensure_ascii=False).encode())
