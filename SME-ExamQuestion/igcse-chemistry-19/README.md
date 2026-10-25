@@ -14,6 +14,11 @@ operator's documented SME authorization — see `../../LICENSE-DATA.md`
 Questions are attributed to their original Edexcel papers where SME records
 that provenance (per-part `source_paper`).
 
+**T-SME-13 corrective notice:** this corpus carries 12 adjudicated corrections
+(3 marks overstatements + 9 provenance repoints) recorded in `CORRECTIONS.md`
+(same folder). A full re-scrape reintroduces upstream values — re-apply that
+ledger after any re-scrape, before committing.
+
 ## Layout
 
     SME-ExamQuestion/igcse-chemistry-19/
