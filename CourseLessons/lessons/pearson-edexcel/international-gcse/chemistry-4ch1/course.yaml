@@ -402,7 +402,9 @@ spine:
     pages:
     - 207
     - 224
-    section_count: 17
+    learning_objective: "know that chemical reactions in which heat energy is given out are described as exothermic, and those in which heat energy is taken in are described as endothermic; describe simple calorimetry experiments for reactions such as combustion, displacement, dissolving and neutralisation; calculate the heat energy change from a measured temperature change using the expression Q = m c Δ T; calculate the molar enthalpy change (ΔH) from the heat energy change, Q; draw and explain energy level diagrams to represent exothermic and endothermic reactions; know that bond-breaking is an endothermic process and that bond-making is an exothermic process; use bond energies to calculate the enthalpy change during a chemical reaction; practical: investigate temperature changes accompanying some of the following types of change: • salts dissolving in water • neutralisation reactions • displacement reactions • combustion reactions."
+    join_set: ["3.1", "3.2", "3.3", "3.4", "3.5C", "3.6C", "3.7C", "3.8"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — FIVE core shared [1C,2C] (3.1-3.4, 3.8) + 3.5C/3.6C/3.7C chemistry-only [2C] per spine applicability = the course's FIFTH MIXED pack (f-0015 sibling audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3 — no drift); spine-canonical pins (spine node igcse-chemistry-T3:SUBa): 3.3 chunk glyph-form "Q = mc∆T" vs spine spaced "Q = m c Δ T" disclosed, 3.6C chunk "bond breaking"/"bond making" vs spine hyphenated "bond-breaking"/"bond-making" disclosed, 3.7C chunk mid-phrase doubling deduped, 3.8 chunk per-bullet doubling deduped — f-0016 cover law
+    section_count: 20
   - key: u3:c20
     slug: rates-reaction
     title: Rates of reaction
