@@ -1,5 +1,61 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.20.0 — 2026-10-26 · run-004: the maths-B line unions onto the spec-lane architecture (SPECS["4mb1"])
+
+The desk-merge conflict check of PR #110 (trace 1a174ec1255522d9) found the maths-B
+branch (t-oeq-mathsb-tranche1 @ 139ee931) a converter version-line fork: its own
+v0.17.0 (COURSES registry, --course axis, F64-F75 + C72-C74 of the maths line) vs
+this line's v0.19.0 (SPECS registry, --spec axis, F64-F72 + C72-C85 of the
+chem/phys/hygiene line), with colliding ids on both axes. Operator approved the
+reconciliation (trace 1a174f587f822f61). This release IS the union:
+
+- SPECS gains **"4mb1"** — the branch's COURSES payload verbatim (lane
+  igcse-maths-b-16, prefix 4MB1, totals 100 x4, the 'is marks?' footer regex, the
+  66-set footer-verified expect_questions registry, spec_resolution=False for the
+  no-registry G6 posture). The CLI axis migrates --course -> --spec 4mb1.
+- The lane-collided codepoints (F068 up-arrow-vs-eta, F06a drop-vs-phi, F075
+  drop-vs-brace) move to per-lane `pua_overrides` — both lanes' render evidence
+  preserved. The sequence-first pre-pass, the §3.4 control-char census and the
+  implicit-single-part laws are lane-scoped to 4mb1; the detached-'2a' furniture
+  anchor reads the ACTIVE lane's footer regex.
+- Three branch defects fixed and disclosed: the committed F82a ctx corruption
+  (lost '[m'), the maths topic header course_id (stuck on the chemistry default),
+  and chemistry's allowed_gaps leaking into maths reports.
+- The full 66/66 corpus re-emitted under v0.19.0: every set G0-G7 ALL PASS,
+  negative controls detected, and every file byte-identical to the branch corpus
+  of record modulo the five disclosed classes (timestamps, generator version,
+  F-renumber citations, course_id fix, allowed_gaps fix) — zero unexplained
+  deltas; assets byte-identical.
+- Canaries: C86/C87/C88 (renumbered from the branch's C72/C73/C74) join the
+  battery of 86; C87's body adapted to the SPECS registry. The union battery
+  holds 86/86 (chemistry 2020-11 1C and physics 2023-06 1P regenerate
+  byte-identical modulo generated_utc/generator — the lane-scoping is proven).
+
+## 0.17.0-maths-line — 2026-10-25 · the 8 residual loops close the maths-B drain (66/66)
+
+The tranche-2 tail (8 GATE-FAIL residuals, C88 58/8) closes under the operator's
+"8 residual loops" order. Three extraction laws + one OCR tranche:
+
+- **F82a** text-glued QP marks markers (poppler seam-glue class) resolved by the
+  question-level footer sum law as a unique exact-cover assignment; marker stripped
+  from problem_md and source_norm together; every fill disclosed (edits[] + value_trace).
+- **F82b** vector-drawn markers (absent from the text layer entirely) recover from a
+  sha-pinned render+MS marks patch; converter verifies crop hashes, MS equality and the
+  sum law fail-closed. The topic rebuild keeps explicit marks:null (the KeyError writer
+  class is dead).
+- **F83** the singular-mark footer ('is 1 mark') — footer_re accepts marks? on both courses.
+- **F84** numeral-only MS rows (Working cell wrapped): clean_lines keeps column-0 bare
+  numerals in the MS stream; parse_ms honours cur_q+1. G5 2021-06 01 23/33 -> 33/33.
+- **F41 tranche**: prep_ocr_layer_2019mb.py transcribes the three rasterized 2019-01
+  pages (agent vision @600dpi, tesseract draft, MS-arithmetic cross-check, sha-pinned,
+  fail-closed in-converter); Q8/Q9/Q21 (01) and Q17 (01R) recovered whole.
+
+Closing sweep: ALL 66 igcse-maths-b-16 papers G0-G7 ALL PASS under poppler 25.03.0 with
+fresh deterministic extraction (scripts/sweep_maths_b_66.py); chemistry A/B byte-identical
+at every law landing; all 72 canaries hold with C88 moved to 66/0 per LEDGER F82-F84 +
+run-003. EXPECT_QUESTIONS grows the 7 footer-verified entries.
+
+
 ## 0.19.0 — 2026-10-26 · the MS-table parser wave (F72: the vertical marker census closes G5, G3 narrows to 4 structural classes)
 
 The Task 17 corpus census (`physics-intake/ms-forensics/`, all 53 landed 4PH1 slices) proved

@@ -1,0 +1,179 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T22:43:38Z",
+ "series": "2026-06",
+ "paper": "01R",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2026-06:4MB1/01R; series=2026-06; printed='n/a (manifest schema v2 omits it)'; sha256 qp/ms match manifest: True; manifest variant '01R' == requested '01R': True",
+   "details": {
+    "qp_sha256": "b7fb2c14cc9d7555f670c2be5417618997ccf9fe74368b1695cb37329f8eb6b9",
+    "ms_sha256": "67862fdc81048ddee96ee3cd34d8fc5d201acedb9c9c43c200fc2c45d9fa3066",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2026-06:4MB1/01R"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "27 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": 27
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 40 parts (0 disclosed, 40 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "9 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 6 remain crop-required; 20 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 20,
+    "crop_stats": {
+     "crops": 3,
+     "pending": 6,
+     "shared": 2
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 40/40 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 40 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 40/40 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 22 parts, agrees with QP marks on 5",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 22,
+    "ms_marks_agree": 5,
+    "ms_marks_disagree": [
+     "1 (ms=18 qp=2)",
+     "2 (ms=1 qp=2)",
+     "3 (ms=6 qp=2)",
+     "4 (ms=4 qp=2)",
+     "5 (ms=25 qp=2)",
+     "6 (ms=5 qp=3)",
+     "8(a) (ms=54 qp=2)",
+     "9(a) (ms=5 qp=2)",
+     "12 (ms=40 qp=3)",
+     "13 (ms=1 qp=3)",
+     "14(a) (ms=6 qp=2)",
+     "16(b) (ms=6 qp=3)",
+     "17(a) (ms=6 qp=2)",
+     "18 (ms=2 qp=4)",
+     "19 (ms=2 qp=4)",
+     "24(a) (ms=2 qp=3)",
+     "26 (ms=2 qp=6)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "26"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "3",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "6",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "10",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "11",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "18",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "26",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "(corpus)",
+   "reason": "C0 control chars in the QP text layer (277 instances / 8 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 40,
+  "pending_llm": 40,
+  "no_spec_point": 0
+ },
+ "control_char_fallback": {
+  "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
+  "instances": {
+   "0x18": 16,
+   "0x19": 26,
+   "0x1a": 26,
+   "0x1b": 22,
+   "0x1c": 20,
+   "0x1d": 28,
+   "0x1e": 48,
+   "0x1f": 91
+  }
+ }
+}

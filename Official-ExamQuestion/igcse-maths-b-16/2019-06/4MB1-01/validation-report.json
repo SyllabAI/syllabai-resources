@@ -1,0 +1,156 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T22:42:01Z",
+ "series": "2019-06",
+ "paper": "01",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-06:4MB1/01; series=2019-06; printed='June 2019'; sha256 qp/ms match manifest: True; manifest variant '01' == requested '01': True",
+   "details": {
+    "qp_sha256": "84be5ea015c65808b6b93ef232e4f35ba31e0384ee3b9ffa7bc268008b7d46f2",
+    "ms_sha256": "b001c504a9d4f17dcbdd277930ffae3ab663676c7aecd99f2d185b1652d41f3b",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-06:4MB1/01"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "28 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": 28
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 38 parts (0 disclosed, 38 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 3 remain crop-required; 12 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 12,
+    "crop_stats": {
+     "crops": 3,
+     "pending": 3,
+     "shared": 1
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 41/41 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 41 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 41/41 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 11 parts, agrees with QP marks on 5",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 11,
+    "ms_marks_agree": 5,
+    "ms_marks_disagree": [
+     "4 (ms=27 qp=2)",
+     "8 (ms=26 qp=2)",
+     "22 (ms=2 qp=5)",
+     "24(b) (ms=35 qp=3)",
+     "25(b) (ms=9 qp=4)",
+     "27 (ms=1 qp=6)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "27"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "15",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "17(a)",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "22",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "23(a)",
+   "reason": "figure crop emitted — human verify (assets/asset_23_a_diagram.png)"
+  },
+  {
+   "part": "(corpus)",
+   "reason": "C0 control chars in the QP text layer (33 instances / 4 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 41,
+  "pending_llm": 41,
+  "no_spec_point": 0
+ },
+ "control_char_fallback": {
+  "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
+  "instances": {
+   "0x1": 12,
+   "0x11": 2,
+   "0x1d": 5,
+   "0x2": 14
+  }
+ }
+}

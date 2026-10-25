@@ -1,0 +1,137 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T22:42:14Z",
+ "series": "2020-01",
+ "paper": "02",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2020-01:4MB1/02; series=2020-01; printed='January 2020'; sha256 qp/ms match manifest: True; manifest variant '02' == requested '02': True",
+   "details": {
+    "qp_sha256": "b00961390e8b93d5fdfd2253bfd2b235b64d220c4351e27353a6ae8103e03d8b",
+    "ms_sha256": "6d8473b8dc9715f3453621c9e4e1fc29eb83ccd76912578192c47f2ee2e9bf05",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2020-01:4MB1/02"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "12 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": 12
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 37 parts (0 disclosed, 37 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "7 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 1,
+    "crop_stats": {
+     "crops": 3,
+     "pending": 1,
+     "shared": 3
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 37/37 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 37 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 37/37 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 5 parts, agrees with QP marks on 1",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 5,
+    "ms_marks_agree": 1,
+    "ms_marks_disagree": [
+     "3(b) (ms=1 qp=4)",
+     "6(b) (ms=25 qp=2)",
+     "6(g) (ms=2 qp=4)",
+     "10(b) (ms=2 qp=3)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "2(d)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "2(a)",
+   "reason": "figure crop emitted — human verify (assets/asset_2_a_grid.png)"
+  },
+  {
+   "part": "7(b)",
+   "reason": "figure crop required (grid, page 18)"
+  },
+  {
+   "part": "10(a)",
+   "reason": "figure crop emitted — human verify (assets/asset_10_a_diagram.png)"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 37,
+  "pending_llm": 37,
+  "no_spec_point": 0
+ }
+}

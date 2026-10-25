@@ -13,7 +13,8 @@ HERE = Path(__file__).resolve().parent
 # BASE + PAPER_PREFIX re-resolve per canary. Chemistry canaries (no spec field)
 # resolve to exactly the previous literals - behavior bit-identical.
 SPEC_LANES = {"4ch1": ("igcse-chemistry-19", "4CH1"),
-              "4ph1": ("igcse-physics-19", "4PH1")}
+              "4ph1": ("igcse-physics-19", "4PH1"),
+              "4mb1": ("igcse-maths-b-16", "4MB1")}
 BASE = HERE / "igcse-chemistry-19"
 PAPER_PREFIX = "4CH1"
 
@@ -91,6 +92,61 @@ for c in cans:
             keyed = sum(1 for q in t["questions"] for p in q["parts"]
                         if p.get("choices") and any(ch.get("is_correct") for ch in p["choices"]))
             ok = ok and keyed == c["mcq_keyed"]
+        elif chk == "maths_tranche1_gates":
+            # C86 (F74): the first maths-B slice of record — all gates PASS, all
+            # negative controls DETECTED, the §3.4 control-char fallback present
+            # and disclosed, and every part carries a linked solution.
+            rep, t = load(series, c["paper"])  # spec lane 4mb1 rebinds BASE/PAPER_PREFIX
+            ok = all(g["status"] == "PASS" for g in rep["gates"])
+            ok = ok and all(nc.get("detected") for nc in rep.get("negative_controls", []))
+            ok = ok and "control_char_fallback" in rep
+            n_parts = sum(len(q["parts"]) for q in t["questions"])
+            ok = ok and n_parts == c["expected_parts"]
+            ok = ok and all(
+                p.get("solution_md") for q in t["questions"] for p in q["parts"])
+        elif chk == "maths_drain_state":
+            # C88 (F75-F81): the tranche-2 drain state of record - 66 slices
+            # exist, expected_pass all-gates-PASS, expected_failing honestly
+            # disclosed (the 2018-2021 layout tail). Either count moving
+            # without a ledger entry fails.
+            base = HERE / "igcse-maths-b-16"
+            n_pass = n_fail = 0
+            import json as _json
+            for d in sorted(base.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in sorted(d.iterdir()):
+                    if not (pd / "topic.json").exists():
+                        continue
+                    rep = _json.loads((pd / "validation-report.json").read_text())
+                    if all(g["status"] == "PASS" for g in rep["gates"]):
+                        n_pass += 1
+                    else:
+                        n_fail += 1
+            conv = (HERE.parent / "scripts" / "official_examq_extract.py").read_text()
+            ok = (n_pass == c["expected_pass"] and n_fail == c["expected_failing"]
+                  and '"expect_questions"' in conv)
+        elif chk == "course_registry_chemistry_default":
+
+            # C87 (F73): drift guard — the SPECS registry's chemistry entry must
+            # stay identical to the chemistry-of-record defaults (lane, prefix,
+            # totals, the '=' footer regex) and the registry must know all three
+            # lanes; a divergence means a lane entry and the chemistry defaults
+            # drifted apart. (run-004 union: adapted from the branch line's
+            # COURSES assertion — the union migrated --course -> SPECS["4mb1"].)
+            import importlib.util, re as _re
+            spec = importlib.util.spec_from_file_location(
+                "oeq_converter", str(HERE.parent / "scripts" / "official_examq_extract.py"))
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            cfg = mod.SPECS["4ch1"]
+            ok = (cfg["spec_code"] == "4CH1"
+                  and cfg["lane"] == "igcse-chemistry-19"
+                  and cfg["paper_totals"] == {"1C": 110, "2C": 70, "1CR": 110, "2CR": 70}
+                  and _re.fullmatch(cfg["footer_re"], "(Total for Question 12 = 8 marks)") is not None
+                  and sorted(mod.SPECS) == ["4ch1", "4mb1", "4ph1"]
+                  and mod.SPECS["4mb1"]["spec_code"] == "4MB1"
+                  and mod.SPECS["4mb1"]["paper_totals"] == {"01": 100, "02": 100, "01R": 100, "02R": 100})
         elif chk == "negative_controls_all_detected":
             ok = True
             for d in sorted(BASE.iterdir()):

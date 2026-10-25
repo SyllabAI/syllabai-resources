@@ -1,0 +1,171 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T22:43:16Z",
+ "series": "2024-06",
+ "paper": "01R",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2024-06:4MB1/01R; series=2024-06; printed='June 2024'; sha256 qp/ms match manifest: True; manifest variant '01R' == requested '01R': True",
+   "details": {
+    "qp_sha256": "906bb2f5e8881b6a76050cf49127781a8b8118028e3ca392fe9b68ae0b34b016",
+    "ms_sha256": "93fd550da42b2667849620f051482896139fd5c5ea9b89f3bb2ec7502210d9d4",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2024-06:4MB1/01R"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "26 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": 26
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 34 parts (0 disclosed, 34 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "7 asset records cover every table/diagram/grid/apparatus mention: 2 cropped to assets/*.png (150 dpi), 5 remain crop-required; 17 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 17,
+    "crop_stats": {
+     "crops": 2,
+     "pending": 5,
+     "shared": 1
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 35/35 (100%)",
+   "details": {
+    "unmatched": []
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 35 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 35/35 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 12 parts, agrees with QP marks on 1",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 12,
+    "ms_marks_agree": 1,
+    "ms_marks_disagree": [
+     "7 (ms=7 qp=3)",
+     "8 (ms=32 qp=3)",
+     "12 (ms=10 qp=4)",
+     "13 (ms=8 qp=4)",
+     "14 (ms=11 qp=4)",
+     "15 (ms=5 qp=4)",
+     "20(a) (ms=2 qp=3)",
+     "21 (ms=2 qp=5)",
+     "23(b) (ms=3 qp=4)",
+     "24 (ms=7 qp=6)",
+     "25 (ms=2 qp=5)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "21"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "10",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "12",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "13",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "16",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "25",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "(corpus)",
+   "reason": "C0 control chars in the QP text layer (169 instances / 10 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 35,
+  "pending_llm": 35,
+  "no_spec_point": 0
+ },
+ "control_char_fallback": {
+  "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
+  "instances": {
+   "0x17": 2,
+   "0x18": 6,
+   "0x19": 6,
+   "0x1a": 14,
+   "0x1b": 8,
+   "0x1c": 4,
+   "0x1d": 11,
+   "0x1e": 26,
+   "0x1f": 54,
+   "0x8": 38
+  }
+ }
+}
