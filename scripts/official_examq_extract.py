@@ -101,6 +101,10 @@ SPECS = {
         crop_review_legacy=True,
         # spec-labels wave files: unprefixed ('<series>.json' / '<series>-<paper>.json')
         labels_prefixed=False,
+        # v0.17.0: MS text-layer shape. The chemistry MS is a row table (marker
+        # + answer content share a printed row) -> parse_ms. 'row' is the default
+        # for any lane that does not name a layout.
+        ms_layout="row",
     ),
     "4ph1": dict(
         lane="igcse-physics-19",
@@ -129,6 +133,16 @@ SPECS = {
         # physics wave files are spec-namespaced under the shared dirs
         # (spec-labels/4ph1-<series>[-<paper>].json, CROP-REVIEW '4ph1-<series>[:<paper>]')
         labels_prefixed=True,
+        # v0.17.0: the physics MS text layer is a CELL-PER-LINE table — every
+        # cell lands on its own line at indent 0 (marker rows '1', '(a)', '(i)'
+        # bare; marks digits bare; page headers 'Question/number/Answer/Notes/
+        # Marks' one token per line). parse_ms's row regexes have nothing to
+        # grip and clean_lines strips every bare numeral as page furniture, so
+        # the 2024-06 2P probe measured G5 linkage 0%. parse_ms_vertical reads
+        # the RAW layer with its own furniture pass and header-anchored state
+        # machine (chemistry's parse_ms is untouched — bit-identity by
+        # construction).
+        ms_layout="vertical",
     ),
 }
 
@@ -301,6 +315,44 @@ def normalize_pua(s: str) -> str:
         else:
             out.append(c)
     return "".join(out)
+
+
+# ---------------------------------------------------------------- v0.17.0: G0-D cover probes
+# The archive's 2026-10-02 corpus-fix wave (F-A2) staged six wrong Pearson-DAM
+# artifacts as qp.pdf (four 'rms' mark schemes, two 'pef' examiners' reports:
+# 2022-01/2023-01/2023-06 4PH1-1P, 2022-01/2022-06/2023-06 4PH1-2P). Their
+# manifest sha256s faithfully describe those bytes, so the sha check cannot see
+# the defect — only the document's own cover can. G0-D probes the first two
+# pages of each PDF for a foreign cover type. Fail-disclosed: a hit fails G0
+# with the defect class in the summary; a clean probe adds NOTHING to the
+# receipt, so green lanes' validation-reports stay byte-identical (the Task-12
+# no-op standard). Rasterized covers (no text layer, the 2019-06 scans) carry
+# no evidence either way and are skipped.
+MS_COVER_RE = re.compile(r"Mark\s+Scheme", re.I)
+ER_COVER_RE = re.compile(r"Examiners?[\u2019']?\s+Report", re.I)
+QP_COVER_RE = re.compile(
+    r"Question\s+Paper(?!\s+Log\s+Number)|Paper\s+Reference|Instructions\s+Use|"
+    r"Please\s+check\s+the\s+examination\s+details", re.I)
+# NB the (?!\s+Log\s+Number) guard: MS covers print the sister document's
+# "Question Paper Log Number PxxxxxxA" furniture line (the 1P 2023-06 DAM
+# mislabel sailed through the first probe exactly this way). A real QP cover
+# never carries that line.
+
+
+def _cover_text(pdf_path: Path, pages: int = 2) -> str:
+    """First-pages text for the G0-D probe; '' when rasterized/unopenable —
+    no evidence either way, the probe skips (fail-open ONLY on absent text,
+    never on a detected foreign cover)."""
+    try:
+        doc = fitz.open(pdf_path)
+    except Exception:
+        return ""
+    try:
+        return " ".join(doc[i].get_text() for i in range(min(pages, len(doc))))
+    except Exception:
+        return ""
+    finally:
+        doc.close()
 
 
 FURNITURE_SUBS = [
@@ -755,6 +807,145 @@ def parse_ms(ms_lines):
         elif cur is not None:
             entries[cur].append(ln)
     return entries
+
+
+# ---------------------------------------------------------------- stage 3b: MS linkage (vertical lane)
+# v0.17.0 (4ph1): the physics MS text layer is a CELL-PER-LINE table — pdftotext
+# and PyMuPDF both render every table cell on its own line at indent 0, so the
+# row-shaped chemistry parser (parse_ms) has nothing to grip: '1' and '(a)'
+# arrive as bare lines, marks digits are indistinguishable from question
+# numbers by shape alone, and clean_lines strips every bare numeral as page
+# furniture before parse_ms even runs (2024-06 2P: G5 linkage 0%).
+# parse_ms_vertical takes the RAW layer (clean_lines is bypassed for this lane)
+# and runs a header-anchored state machine. Separate function — chemistry's
+# parse_ms is untouched, bit-identity by construction:
+#   page-header run  ('Question' ['number'] 'Answer' 'Notes' 'Marks', one
+#     token per line) ARMS the parser: the next bare-numeral line is the
+#     question-number marker, accepted under the same strictly-ascending law
+#     as parse_ms's _honour_qn (bootstrap at 1, then cur_q or cur_q+1 — a
+#     continuation page's first marks digit can never hijack the sequence);
+#   a bare numeral elsewhere is the MARKS digit of the currently open entry —
+#     layout, not answer: stored in the ms_marks map (first-wins), never
+#     appended to content, never printed in solution_md;
+#   '(a)' alone opens a letter entry; '(i)' alone opens a roman entry under
+#     the same ascending-sequence invariant as the chemistry parser;
+#   'Total for Question N = X marks' is the question footer (skipped);
+#   everything else is content of the open entry (furniture pass drops PMT /
+#     blank / cover matter, which has no open entry and cannot leak).
+MS_HEADER_TOKENS = {"question", "number", "question number", "answer", "notes", "marks"}
+MS_V_TOTAL_RE = re.compile(r"^Total for Question \d{1,2} = \d{1,2} marks$", re.I)
+MS_V_BARE_NUM_RE = re.compile(r"^(\d{1,2})$")
+MS_V_PAREN_LETTER_RE = re.compile(r"^\(([a-h])\)$")
+MS_V_PAREN_ROMAN_RE = re.compile(r"^\((i{1,3}|iv|v|vi{1,3})\)$", re.I)
+# v0.17.0 (1P 2024-06 probe): the same layout family occasionally GLUES the
+# question number and the letter marker onto one row — '3 (a)' (observed once,
+# Q3 of the 1P 2024-06 MS; the 2P sample kept '3' / '(a)' separate). Marker
+# evidence (letter on the row) follows parse_ms._honour_qn gate (a): it wins
+# over the sequence, so a legitimately skipped question number can never
+# derail the file. The letter+roman sibling ('(b) (i)') is added for the same
+# positional family before any future series run needs it.
+MS_V_GLUED_QN_LETTER_RE = re.compile(r"^(\d{1,2})\s+\(([a-h])\)\s*(.*)$")
+MS_V_GLUED_LETTER_ROMAN_RE = re.compile(r"^\(([a-h])\)\s*\((i{1,3}|iv|v|vi{1,3})\)\s*(.*)$", re.I)
+# v0.17.0 (1P 2024-06 probe): roman marker GLUED to its answer content on one
+# row — '(iii) substitution into P = E/t;' (7(b)(iii); the sibling parts kept
+# '(iii)' bare). Same ascending-sequence gate as the bare form: a content line
+# that merely opens with a roman-shaped token can never hijack a marker.
+MS_V_GLUED_ROMAN_CONTENT_RE = re.compile(r"^\((i{1,3}|iv|v|vi{1,3})\)\s+(\S.*)$", re.I)
+
+
+def parse_ms_vertical(ms_lines):
+    """Vertical (cell-per-line) MS layout -> (entries, ms_marks).
+
+    Same key space as parse_ms: (qnum, letter, roman) -> list of raw content
+    lines. ms_marks: (qnum, letter, roman) -> the marks-column digit read for
+    that entry (first-wins; None when the layout withheld it — the G7
+    corroboration is skipped, never guessed)."""
+    entries = {}
+    ms_marks = {}
+    cur_q, cur_letter = None, None
+    cur = None
+    last_roman = {}          # (q, letter) -> ROMAN index of the last marker roman
+    armed = False            # set by a page-header run; consumed by the next bare numeral
+    header_run = []
+    for ln in ms_lines:
+        s = ln.strip()
+        if not s:
+            continue
+        low = s.lower()
+        if low == "pmt" or re.fullmatch(r"BLANK PAGE", s, re.I):
+            continue
+        if low in MS_HEADER_TOKENS:
+            header_run.append(low)
+            if low == "marks" and any(t.startswith("question") for t in header_run):
+                armed = True
+                header_run = []
+            continue
+        header_run = []      # any non-header line breaks the run (armed persists)
+        if MS_V_TOTAL_RE.match(s):
+            continue
+        mnum = MS_V_BARE_NUM_RE.match(s)
+        if mnum:
+            v = int(mnum.group(1))
+            if armed:
+                armed = False
+                # same law as parse_ms._honour_qn gate (b): bootstrap at 1,
+                # then strictly ascending / same-question re-print
+                ok = (cur_q is None and v == 1) or (cur_q is not None and v in (cur_q, cur_q + 1))
+                if ok:
+                    cur_q = v
+                    cur_letter = None
+                    cur = (cur_q, None, None)
+                    entries.setdefault(cur, [])
+                    continue
+            if cur is not None:
+                ms_marks.setdefault(cur, v)   # marks digit: first-wins, never content
+            continue
+        mlet = MS_V_PAREN_LETTER_RE.fullmatch(s)
+        if mlet:
+            cur_letter = mlet.group(1)
+            cur = (cur_q, cur_letter, None)
+            entries.setdefault(cur, [])
+            continue
+        mg = MS_V_GLUED_QN_LETTER_RE.match(s)
+        if mg:
+            armed = False   # the row carries its own question number
+            cur_q = int(mg.group(1))
+            cur_letter = mg.group(2)
+            rest = (mg.group(3) or "").strip()
+            cur = (cur_q, cur_letter, None)
+            entries.setdefault(cur, [rest] if rest else [])
+            continue
+        mgr = MS_V_GLUED_LETTER_ROMAN_RE.match(s)
+        if mgr:
+            cur_letter = mgr.group(1)
+            roman = mgr.group(2).lower()
+            k = (cur_q, cur_letter)
+            expected = last_roman.get(k, -1) + 1
+            rest = (mgr.group(3) or "").strip()
+            if cur_q is not None and ROMAN.index(roman) == expected:
+                cur = (cur_q, cur_letter, roman)
+                last_roman[k] = expected
+                entries.setdefault(cur, [rest] if rest else [])
+            elif cur is not None:
+                entries[cur].append(ln.rstrip())
+            continue
+        mrom = MS_V_PAREN_ROMAN_RE.fullmatch(s)
+        mromc = None if mrom else MS_V_GLUED_ROMAN_CONTENT_RE.match(s)
+        if mrom or mromc:
+            roman = (mrom or mromc).group(1).lower()
+            rest = "" if mrom else mromc.group(2).strip()
+            k = (cur_q, cur_letter)
+            expected = last_roman.get(k, -1) + 1
+            if cur_q is not None and cur_letter and ROMAN.index(roman) == expected:
+                cur = (cur_q, cur_letter, roman)
+                last_roman[k] = expected
+                entries.setdefault(cur, [rest] if rest else [])
+            elif cur is not None:
+                entries[cur].append(ln.rstrip())
+            continue
+        if cur is not None:
+            entries[cur].append(ln.rstrip())
+    return entries, ms_marks
 
 
 # ---------------------------------------------------------------- v0.5: solution emission
@@ -1345,13 +1536,29 @@ def main():
     # (a 2C run over 1CR bytes would otherwise sail through the sha checks).
     manifest_variant = manifest.get("paper", {}).get("paper_number_variant")
     variant_ok = (manifest_variant == paper)
-    identity_ok = sha_ok and variant_ok
+    # ---- v0.17.0 (G0-D): document-type identity probe -----------------------
+    # See the MS_COVER_RE block above: a manifest can attestation-grade the
+    # wrong bytes (F-A2 mislabels are sha-consistent); the cover cannot lie.
+    # Invisible-on-pass: the G0 summary string is extended ONLY on a hit, so
+    # clean slices' validation-reports stay byte-identical.
+    qp_cover = _cover_text(QP_PDF)
+    ms_cover = _cover_text(MS_PDF)
+    doc_type_issue = None
+    if qp_cover and not QP_COVER_RE.search(qp_cover):
+        if MS_COVER_RE.search(qp_cover):
+            doc_type_issue = "qp.pdf prints a mark-scheme cover (archive mislabel: F-A2 wrong-DAM-artifact class)"
+        elif ER_COVER_RE.search(qp_cover):
+            doc_type_issue = "qp.pdf prints an examiners-report cover (archive mislabel: F-A2 wrong-DAM-artifact class)"
+    if doc_type_issue is None and ms_cover and not MS_COVER_RE.search(ms_cover):
+        doc_type_issue = "ms.pdf cover does not print a mark-scheme marker (archive mislabel suspected)"
+    identity_ok = sha_ok and variant_ok and doc_type_issue is None
     paper_id = manifest["paper_id"]
     report["gates"].append({
         "gate": "G0-identity", "status": "PASS" if identity_ok else "FAIL",
         "summary": f"paper_id={paper_id}; series={manifest['series']['normalized']}; "
                    f"printed={manifest['series'].get('printed', 'n/a (manifest schema v2 omits it)')!r}; sha256 qp/ms match manifest: {sha_ok}; "
-                   f"manifest variant {manifest_variant!r} == requested {paper!r}: {variant_ok}",
+                   f"manifest variant {manifest_variant!r} == requested {paper!r}: {variant_ok}"
+                   + (f"; G0-D: {doc_type_issue}" if doc_type_issue else ""),
         "details": {"qp_sha256": qp_sha, "ms_sha256": ms_sha,
                     "registry_paper_id": paper_id}})
     if not identity_ok:
@@ -1433,6 +1640,23 @@ def main():
                     "problem_md": p["problem_md"], "choices": p["choices"],
                     "source_norm": p["source_norm"],
                 })
+        if not questions_parts and seg["stem_lines"]:
+            # v0.17.0: whole-question part — the question printed no letter or
+            # roman parts, so its stem IS the single part (physics 1P 2024-06
+            # Q8: one 6-mark explanation question, marks printed in the footer
+            # only). Inert on chemistry: every chemistry question carries
+            # letter parts (and any marks-less sole part would always have
+            # failed G1 — none ever did).
+            p = finalize_part(seg["stem_lines"])
+            questions_parts.append({
+                "part_number": f"{qnum}",
+                "group": None, "roman": None,
+                "group_stem_md": None, "option_list": None,
+                "marks": p["marks"],
+                "question_type": "multiple_choice" if p["choices"] else "structured",
+                "problem_md": p["problem_md"], "choices": p["choices"],
+                "source_norm": p["source_norm"],
+            })
         doc_questions.append({"question_number": qnum, "printed_total": printed_total,
                               "stem_md": stem_md, "parts": questions_parts,
                               "region_norm": norm(" ".join(region))})
@@ -1467,8 +1691,33 @@ def main():
             emit_question(qn, pt, region[st:end])
     doc_questions.sort(key=lambda q: q["question_number"])
 
+    # ---- v0.17.0: sole-part marks inference (fail-disclosed) -----------------
+    # Some questions print their marks ONLY in the question footer (the sidebar
+    # marks box never reaches the text layer — physics 1P 2024-06 Q8). When a
+    # question has exactly ONE part and that part parsed no marks digit, the
+    # footer total IS the part's marks by arithmetic necessity (the G1 law
+    # itself: parts_sum == printed total). Provably inert on chemistry: a
+    # marks-less sole part means parts_sum 0 != printed > 0, i.e. G1 FAIL — no
+    # chemistry slice ever tripped it. Disclosed in value_trace.marks and in
+    # G1 details; never silent.
+    sole_part_inferred = []
+    for q in doc_questions:
+        if (q["printed_total"] is not None and len(q["parts"]) == 1
+                and q["parts"][0]["marks"] is None):
+            q["parts"][0]["marks"] = q["printed_total"]
+            q["parts"][0]["marks_inferred"] = "inferred:sole-part-printed-footer"
+            sole_part_inferred.append(q["parts"][0]["part_number"])
+
     # ---- MS linkage + MCQ keys ---------------------------------------------
-    ms_entries = parse_ms(clean_lines(MS_TXT.read_text(errors="replace")))
+    # v0.17.0: the vertical lane parses the RAW layer (clean_lines would strip
+    # the bare-numeral markers this layout runs on); chemistry keeps the exact
+    # pre-v0.17 path.
+    if cfg.get("ms_layout") == "vertical":
+        ms_entries, ms_marks_by_key = parse_ms_vertical(
+            MS_TXT.read_text(errors="replace").splitlines())
+    else:
+        ms_entries = parse_ms(clean_lines(MS_TXT.read_text(errors="replace")))
+        ms_marks_by_key = {}
     # ---- v0.8.1 (F37): human-adjudicated MCQ keys, applied pre-emission -----
     # The printed Jan 2020 MS itself misplaces the Q7(a) answer rows: (ii)'s
     # answer block prints under (iii) and a stray (i) rebuttal prints under
@@ -1511,6 +1760,7 @@ def main():
     for q in doc_questions:
         for p in q["parts"]:
             key = (q["question_number"], p["group"], p["roman"])
+            eff_key = key   # v0.17.0: tracks the entry whose block the linkage actually used
             lines = ms_entries.get(key, [])
             if not lines and p["roman"] is not None and p["group"] is None:
                 # v0.10 (F42): the QP prints a bare question-level roman
@@ -1523,6 +1773,7 @@ def main():
                          and k[1] is not None and ms_entries[k]]
                 if len(cands) == 1:
                     lines = ms_entries[cands[0]]
+                    eff_key = cands[0]
             if not lines and p["roman"] is None and p["group"]:
                 # v0.9 (F40h): the printed MS sometimes sub-numbers a part the
                 # QP leaves undivided — Jan 2021 2C prints '1 (b) (i)' for the
@@ -1541,6 +1792,7 @@ def main():
                                    for m in [re.search(r"\s(\d{1,2})\s*$", ln)] if m}
                     if p["marks"] in trail_marks:
                         lines = cand
+                        eff_key = (q["question_number"], p["group"], "i")
             _mk_exact = mcq_key_overrides.get((series, paper, p["part_number"]))
             _mk_legacy = (mcq_key_overrides.get((series, None, p["part_number"]))
                           if _mk_exact is None
@@ -1627,6 +1879,12 @@ def main():
             # v0.5 solution emission (reveal + Smart Mark): verbatim MS block +
             # awardable points; unlinked parts emit nothing (fields stay None)
             p["solution_md"], p["mark_points"], p["_ms_marks"] = build_solution(p, lines, series)
+            if cfg.get("ms_layout") == "vertical":
+                # v0.17.0: the vertical layout carries the marks digit on its own
+                # line — build_solution's tail-scan cannot see it; the vertical
+                # parser's per-entry marks map is the corroboration source
+                # (None when the layout withheld it — G7 skips, never guesses).
+                p["_ms_marks"] = ms_marks_by_key.get(eff_key)
 
     # ---- page anchoring + assets -------------------------------------------
     pdf = fitz.open(QP_PDF)
@@ -1688,152 +1946,6 @@ def main():
                             "kind": "crop-required", "mention": k,
                             "source": "qp.pdf", "page": p["source_page"], "review": True}
                            for k in mentions]
-
-    # ---- v0.16 (F64): MCQ choice script restoration -------------------------
-    # The plain-text option lines flatten print scripts: the 2026-06 1(a)
-    # options printed as NH4(sub) with a raised + and its distractor with a
-    # RAISED 4 both arrive as "NH4+" — a duplicate-choice ambiguity (the
-    # first G8 audit, igcse-chemistry-19, 2026-10-25). The printed page
-    # carries the truth in span geometry: a small RAISED span is a
-    # superscript, a small LOWERED span a subscript, and a floating charge
-    # span ("+" / "−") is picked up geometrically even at full size.
-    # Rebuild every short (formula-length scope guard — options only, never
-    # prose) choice from its row's spans; FAIL CLOSED when the rebuilt text
-    # does not normalize back to the extracted text (scripts stripped, dashes
-    # normalized, whitespace dropped) — a geometry mis-read aborts the slice
-    # instead of shipping a wrong formula. Rows are matched by label + flat
-    # text equality against the extracted line, and the first match at/below
-    # the part's own problem text wins — the same-label-rows-on-one-page
-    # hazard (two questions listing option A on one page) can no longer
-    # cross-contaminate a rebuild.
-    _F64_SUP = {"0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵",
-                "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "+": "⁺", "-": "⁻",
-                "−": "⁻", "–": "⁻", "(": "⁽", ")": "⁾", "n": "ⁿ", "m": "ᵐ",
-                "=": "⁼"}
-    _F64_SUB = {"0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅",
-                "6": "₆", "7": "₇", "8": "₈", "9": "₉", "+": "₊", "-": "₋",
-                "−": "₋", "–": "₋", "(": "₍", ")": "₎", "=": "₌"}
-    _F64_UNSTYLE = {}
-    for _c6, _p6 in list(_F64_SUP.items()) + list(_F64_SUB.items()):
-        _F64_UNSTYLE[_p6] = "-" if _c6 in ("-", "−", "–") else _c6
-    _F64_SCRIPT_MAX = 32          # formula-length scope guard
-    _F64_STYLE_CHARS = frozenset(_F64_SUP.values()) | frozenset(_F64_SUB.values())
-    _F64_LABEL_RE = re.compile(r"^\s*\(?\s*([A-E])\s*[).:]?\s*")
-
-    def _f64_unstyle(s):
-        return "".join(_F64_UNSTYLE.get(ch, ch) for ch in s)
-
-    def _f64_key(s):
-        return re.sub(r"\s+", "", _f64_unstyle(
-            str(s).replace("−", "-").replace("–", "-")).lower())
-
-    def _f64_rows(page):
-        # Visual rows, not dict lines: raised/lowered script spans often land
-        # in their OWN dict line (floating above the option row they belong
-        # to), so lines under-group. Group instead around the option LABEL
-        # anchors by baseline proximity (raised ≈ base − 5.4, lowered ≈
-        # base + 1.8 in the observed 4CH1 layouts; option rows sit 24 pt
-        # apart, so the −9/+6 window cannot reach a neighbouring row).
-        spans = []
-        for blk in page.get_text("dict")["blocks"]:
-            if blk.get("type") != 0:
-                continue
-            for ln in blk.get("lines") or []:
-                for sp in (ln.get("spans") or []):
-                    if sp.get("text", "").strip():
-                        spans.append(sp)
-        anchors = [sp for sp in spans
-                   if _F64_LABEL_RE.match(sp["text"]) and sp["bbox"][0] < 140]
-        rows = []
-        for a in anchors:
-            cand = [sp for sp in spans
-                    if sp is not a and sp["bbox"][0] >= a["bbox"][0] - 2
-                    and -9.0 <= sp["origin"][1] - a["origin"][1] <= 6.0]
-            cand.sort(key=lambda s: (round(s["bbox"][0], 1), s["origin"][1]))
-            rows.append([a] + cand)
-        return rows
-
-    def _f64_rebuild(spans, label):
-        lm = _F64_LABEL_RE.match(spans[0]["text"])
-        if lm is None or lm.group(1) != label:
-            return None
-        texts = [spans[0]["text"][lm.end():]]
-        texts += [sp["text"] for sp in spans[1:]]
-        if not "".join(texts).strip():
-            return None
-        dom = max(sp["size"] for sp in spans)
-        bases = sorted(sp["origin"][1] for sp in spans if sp["size"] >= 0.9 * dom)
-        base = bases[len(bases) // 2]
-        out, prev = [], None
-        for sp, t in zip(spans, texts):
-            if prev is not None and t:
-                gap = sp["bbox"][0] - prev["bbox"][2]
-                if (gap > 0.3 * dom and not out[-1].endswith(" ")
-                        and not t.startswith(" ")):
-                    out.append(" ")
-            small = sp["size"] < 0.82 * dom
-            raised = bool(t) and sp["bbox"][3] <= base - 0.5
-            lowered = bool(t) and sp["origin"][1] >= base + 0.5
-            charge = re.fullmatch(r"[+−-]+", t.strip() or "?") is not None
-            if (small or charge) and raised:
-                out.append("".join(_F64_SUP.get(c, c) for c in t))
-            elif (small or charge) and lowered:
-                out.append("".join(_F64_SUB.get(c, c) for c in t))
-            else:
-                out.append(t)
-            if t:
-                prev = sp
-        return "".join(out).strip()
-
-    n_f64 = 0
-    for _q in doc_questions:
-        for _p in _q["parts"]:
-            if not _p.get("choices"):
-                continue
-            _pg = _p.get("source_page")
-            if not isinstance(_pg, int) or not (1 <= _pg <= len(pdf)):
-                continue
-            _page = pdf[_pg - 1]
-            _rows = _f64_rows(_page)
-            # anchor y of the part's own problem text (same-label disambiguation)
-            _probe = _f64_key(_p.get("problem_md") or "")[:60]
-            _py = 0.0
-            if _probe:
-                for blk in _page.get_text("dict")["blocks"]:
-                    for ln in blk.get("lines") or []:
-                        _t = "".join(sp.get("text", "") for sp in (ln.get("spans") or []))
-                        if _probe in _f64_key(_t):
-                            _py = ln["bbox"][3]
-                            break
-            for _c in _p["choices"]:
-                _md = (_c.get("text_md") or "").strip()
-                if not _md or len(_md) > _F64_SCRIPT_MAX:
-                    continue
-                _want = _f64_key(_md)
-                _cands = []
-                for _spans in _rows:
-                    if not re.match(rf"^\(?\s*{_c['label']}\s*[).:]?\s*",
-                                    _spans[0]["text"]):
-                        continue
-                    _rb = _f64_rebuild(_spans, _c["label"])
-                    if _rb is not None and _f64_key(_rb) == _want:
-                        _cands.append((_spans[0]["bbox"][1], _rb))
-                if not _cands:
-                    continue
-                _below = [c for c in _cands if c[0] >= _py - 1.0]
-                _y, _rb = (_below or _cands)[0]
-                if os.environ.get("EXAMQ_F64_DEBUG"):
-                    print(f"F64DBG p={_p['part_number']} {_c['label']} md={_md!r} "
-                          f"cands={[(round(y,1), r) for y, r in _cands]!r} py={_py:.1f}",
-                          file=sys.stderr)
-                if _rb != _md and any(ch in _F64_STYLE_CHARS for ch in _rb):
-                    # restore only real script restorations — a script-free
-                    # rebuild (pure spacing/kerning artefacts) keeps the
-                    # extracted text verbatim
-                    _c["text_md"] = _rb
-                    n_f64 += 1
-    if n_f64:
-        report.setdefault("wave24", {})["choice_script_restored"] = n_f64
 
     # ---- v0.7 figure crop pass ----------------------------------------------
     # Resolution order per mention (fail-closed; anything unresolved stays a
@@ -2649,7 +2761,8 @@ def main():
             else:
                 _kt = "n/a"
             _p["edit_status"] = "extracted"
-            _p["value_trace"] = {"keys": _kt, "marks": "ms-printed",
+            _p["value_trace"] = {"keys": _kt,
+                                 "marks": _p.pop("marks_inferred", None) or "ms-printed",
                                  "numbers": "source-printed"}
 
     # ---- gates ---------------------------------------------------------------
@@ -2708,6 +2821,11 @@ def main():
         report["review_queue"].append({"part": f"Q{g['question']}", "reason": g["reason"]})
     g1_ok = not g1_bad and not footer_gaps and total == PAPER_TOTAL and count_ok
     g1_review = (not g1_ok) and not unattributed_bad and all(g["attributed"] for g in footer_gaps)
+    _g1_details = {"mismatches": g1_bad, "unattributed": unattributed_bad,
+                   "inferred_totals": inferred_totals, "footer_gaps": footer_gaps,
+                   "image_only_pages": content_img_pages, "count_expected": expect_q}
+    if sole_part_inferred:
+        _g1_details["sole_part_marks_inferred"] = sole_part_inferred   # v0.17.0 disclosure
     report["gates"].append({
         "gate": "G1-structure", "status": "PASS" if g1_ok else ("REVIEW" if g1_review else "FAIL"),
         "summary": (f"{len(doc_questions)} questions; Σ question totals={total}/{PAPER_TOTAL}; "
@@ -2716,9 +2834,7 @@ def main():
                     f"{len(doc_questions)} questions extracted; Σ known totals={total}/{PAPER_TOTAL}; "
                     f"source defects: missing Q{sorted(defective)} (image-only pages "
                     f"{content_img_pages} in archive PDF) — lost content needs human/OCR re-ingest"),
-        "details": {"mismatches": g1_bad, "unattributed": unattributed_bad,
-                    "inferred_totals": inferred_totals, "footer_gaps": footer_gaps,
-                    "image_only_pages": content_img_pages, "count_expected": expect_q}})
+        "details": _g1_details})
     if defective or content_img_pages:
         report["source_defects"] = {"image_only_pages": content_img_pages,
                                     "affected_questions": sorted(defective)}
