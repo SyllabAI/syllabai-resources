@@ -1,6 +1,6 @@
 {
  "manifest_version": 2,
- "version_note": "v10 (T-UGM-IMPORT-9, 2026-10-25): lane-9 block appended (pure-3-algebra, 35 files — the FIRST LANE on the pure-3 course plane: CIE 9709 Pure 3 3.1 Algebra 3.1.1–3.1.6, candidate-model substrate corpus-wide; 47 aligned rows incl. 9 cross-lane by reference, 16 non-overlaps by reference with reasons; lanes 1–8 rows and the v9 assets block carried forward untouched; corpus fleet 479 → 514 files). v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).; v9 (T-UGM-ASSETS-1, 2026-10-24): static-figure assets block appended — 976 files\nunder `UGM-Assets/` (37.7 MB, SHA-256 identity in `UGM-Assets/MANIFEST.json`) + the figure\nmap of record `UGM-Resources/figures-map.json` (1,233 figure occurrences across 275 resources,\nsection-anchored). Text bodies and lanes 1–8 rows are untouched by this task.",
+ "version_note": "v11 (T-UGM-IMPORT-10, 2026-10-25): lane-10 block appended (pure-3-logarithmic-and-exponential-functions, 34 files — the SECOND lane on the pure-3 course plane: CIE 9709 Pure 3 3.2 Logarithmic and exponential functions 3.2.1–3.2.4, dedicated-station substrate from the exp-and-log station (31 of 34) plus 3 strays; 39 aligned rows incl. 5 cross-course by reference, 26 non-overlaps by reference with reasons; lanes 1–9 rows and the v9 assets block carried forward untouched; corpus fleet 514 → 548 files). v10 (T-UGM-IMPORT-9, 2026-10-25): lane-9 block appended (pure-3-algebra, 35 files — the FIRST LANE on the pure-3 course plane: CIE 9709 Pure 3 3.1 Algebra 3.1.1–3.1.6, candidate-model substrate corpus-wide; 47 aligned rows incl. 9 cross-lane by reference, 16 non-overlaps by reference with reasons; lanes 1–8 rows and the v9 assets block carried forward untouched; corpus fleet 479 → 514 files). v8 (T-UGM-IMPORT-8, 2026-10-24): lane-8 block appended (pure-1-integration, 10 files — the strand lane closing the Pure 1 spine: 10 new-text calculus-family resources whose tested skill is 1.8.x, all mapped; UGM's dedicated calculus stations were already fully of record via lanes 5-7, and the 18 further 1.8 rows are cross-lane joins to pure-1-differentiation/ bodies recorded in the enrichment) — lane-1/2/3/4/5/6/7 rows carried forward untouched from v7 (469 files corpus-wide; 479 after this lane).; v9 (T-UGM-ASSETS-1, 2026-10-24): static-figure assets block appended — 976 files\nunder `UGM-Assets/` (37.7 MB, SHA-256 identity in `UGM-Assets/MANIFEST.json`) + the figure\nmap of record `UGM-Resources/figures-map.json` (1,233 figure occurrences across 275 resources,\nsection-anchored). Text bodies and lanes 1–8 rows are untouched by this task.",
  "corpus": "UGM-Resources",
  "source": {
   "site": "undergroundmathematics.org",
@@ -10,8 +10,8 @@
   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 915bfa8c (P2 crawl + ugm-clean)",
   "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
  },
- "built": "2026-10-25T01:37:17+06:00",
- "file_count": 514,
+ "built": "2026-10-24T22:06:39+06:00",
+ "file_count": 548,
  "lanes": [
   {
    "task": "T-UGM-IMPORT-1",
@@ -6123,6 +6123,434 @@
      "resource_type_label": "Package of problems",
      "spec_points": [
       "3.1.3"
+     ],
+     "captured": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "task": "T-UGM-IMPORT-10",
+   "lane_dir": "pure-3-logarithmic-and-exponential-functions",
+   "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment; lane-10 file cie-a-level-maths-20-pure-3-logarithmic-and-exponential-functions.json, task T-UGM-MODE1-10) — this corpus adds the text bodies under the 2026-10-23 operator attestation; SECOND LANE ON THE PURE-3 COURSE PLANE: dedicated-station substrate (the exp-and-log station, 31 of 34 fresh bodies) — 34 fresh 3.2-bearing resources imported as text of record, 26 non-overlaps by reference, 5 cross-course 3.2 mappings by reference to lanes 2/5/6 bodies",
+   "capture_corpus": "syllabai-experimental undergroundmathematics/ @ 980556af (P2 crawl + ugm-clean; cross-map lane 10 in the same commit)",
+   "cross_map_of_record": {
+    "file": "undergroundmathematics/resources/derived/cross-map-log-and-exp.json @ 980556af",
+    "pilot": "P3c log-and-exp cross-map (generalisation lane 10, second pure-3 lane)",
+    "aligned": 39,
+    "resources": 34,
+    "alignmentRows": 39,
+    "nonOverlap": 26,
+    "crossLaneAligned": 5,
+    "routed": 6
+   },
+   "built": "2026-10-24T22:06:39+06:00",
+   "file_count": 34,
+   "files": [
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/proving-laws-of-logs-proving-the-laws-of-logarithms.md",
+     "sha256": "29ca4a72d0d88de3bf45ca805b876984a063f0a7115d4ea52b09ad642b89a725",
+     "ugm_id": "proving-laws-of-logs",
+     "title": "Proving the laws of logarithms",
+     "url": "https://undergroundmathematics.org/exp-and-log/proving-laws-of-logs",
+     "resource_type_label": "Scaffolded task",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r9976-can-we-evaluate-these-log-expressions-without-using-a-calculator.md",
+     "sha256": "73b6fe4ecc61ba4afbe23ad4c2ea0e10429af44f3e5b86d674d4902009b0c5d4",
+     "ugm_id": "r9976",
+     "title": "Can we evaluate  these log expressions without using a calculator?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9976",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7471-can-we-use-the-laws-of-logs-to-find-x-and-y.md",
+     "sha256": "4c631fce991eca8ed93b3b3b1bc54e2bf513258d9f844c80f85ab51efdd86f8c",
+     "ugm_id": "r7471",
+     "title": "Can we use the laws of logs to find $x$ and $y$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7471",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7298-can-we-find-these-log-expressions-in-terms-of-log_9-x.md",
+     "sha256": "1624d5d3e8e39b41ff8cd855cdd8c4922255aacae645fb3370c804148716d65f",
+     "ugm_id": "r7298",
+     "title": "Can we find these log expressions in terms of $\\log_9 x$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7298",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/see-the-power-see-the-power.md",
+     "sha256": "b0b31bae39cb90c4308ef451785124d34ab92920b3bb896ab338f37bbe2ce9c3",
+     "ugm_id": "see-the-power",
+     "title": "See the power",
+     "url": "https://undergroundmathematics.org/exp-and-log/see-the-power",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/calculators1950-1950s-calculators.md",
+     "sha256": "8fe78b5e374fa8f68e982e51c5cc12a2e50f9b26b0a3644e68cd49162b0356f3",
+     "ugm_id": "calculators1950",
+     "title": "1950s calculators",
+     "url": "https://undergroundmathematics.org/exp-and-log/calculators1950",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r9381-can-we-find-bounds-for-log_2-3.md",
+     "sha256": "1d2109e40bee6e2cfc5d69761e3d8dff8bee61f75cc4b68168df6666a2ae5933",
+     "ugm_id": "r9381",
+     "title": "Can we find bounds for $\\log_2 3$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9381",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/log-lattice-logarithm-lattice.md",
+     "sha256": "d890c1d592df3356ea668d20c72663dd059eeb7db20bf0081b4484dfa144ee8f",
+     "ugm_id": "log-lattice",
+     "title": "Logarithm lattice",
+     "url": "https://undergroundmathematics.org/exp-and-log/log-lattice",
+     "resource_type_label": "Fluency exercise",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/log-lineup-logarithm-lineup.md",
+     "sha256": "3db5e4257d83ab860d10bc79d96018cc15e453ff2831645299bec589204236a9",
+     "ugm_id": "log-lineup",
+     "title": "Logarithm lineup",
+     "url": "https://undergroundmathematics.org/exp-and-log/log-lineup",
+     "resource_type_label": "Fluency exercise",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7231-which-is-the-largest-of-these-four-logarithms.md",
+     "sha256": "e2b44882ab50546009a425b2b3838b914b5dd0a3eeba3afbc92a4d0be549ad1c",
+     "ugm_id": "r7231",
+     "title": "Which is the largest of these four logarithms?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7231",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r5080-which-is-the-smallest-of-these-surd-log-and-trig-expressions.md",
+     "sha256": "31d306375d66bdcf421752cc6e4bc2530a883c385829b35d9aa6f7c6a3b3cbd4",
+     "ugm_id": "r5080",
+     "title": "Which is the smallest of these surd, log and trig expressions?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5080",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r9680-which-of-these-four-log-expressions-is-the-smallest.md",
+     "sha256": "1d00d8fe969b3d5657b2821c6604399f8e536df19ca00a4fb787baa3dde127e8",
+     "ugm_id": "r9680",
+     "title": "Which of these four log expressions is the smallest?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9680",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/summing-to-one-summing-to-one.md",
+     "sha256": "3c1fc27350c58d2a0f040d9ca5e027b047ddc7b9fe66228ee6a5f1456a56aeea",
+     "ugm_id": "summing-to-one",
+     "title": "Summing to one",
+     "url": "https://undergroundmathematics.org/exp-and-log/summing-to-one",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/factorial-fragments-factorial-fragments.md",
+     "sha256": "9181a0f12b655a0d2b0b2912e8722d7e866c57cbb1a81a1af062594824e4cd5f",
+     "ugm_id": "factorial-fragments",
+     "title": "Factorial fragments",
+     "url": "https://undergroundmathematics.org/exp-and-log/factorial-fragments",
+     "resource_type_label": "Fluency exercise",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/changing-bases-changing-bases.md",
+     "sha256": "af5acec4f5199137dd769ccc861519f3c44978a2087df93ce10b60313f0c47cf",
+     "ugm_id": "changing-bases",
+     "title": "Changing bases",
+     "url": "https://undergroundmathematics.org/exp-and-log/changing-bases",
+     "resource_type_label": "Package of problems",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r6806-if-yza2-can-we-prove-that-1ay-1az-1a.md",
+     "sha256": "aa2f39afcb75f46672686ac61ce6ce8d0fa2c1754300edbd59e0f52f03372fd1",
+     "ugm_id": "r6806",
+     "title": "If $yz=a^2$, can we prove that $1/(a+y) + 1/(a+z) = 1/a$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r6806",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.1"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/an-irrational-inequality-an-irrational-inequality.md",
+     "sha256": "f50fbf9a88169c6e8aebd11e65410f22f74e07f31df5fa1773a02b66a1bb26c2",
+     "ugm_id": "an-irrational-inequality",
+     "title": "An irrational inequality",
+     "url": "https://undergroundmathematics.org/exp-and-log/an-irrational-inequality",
+     "resource_type_label": "Go and think about it...",
+     "spec_points": [
+      "3.2.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/to-the-limit-to-the-limit.md",
+     "sha256": "724c51bce03d6577319219f7bf73249d85644c9cd70a6450ff4b76c525941230",
+     "ugm_id": "to-the-limit",
+     "title": "To the limit",
+     "url": "https://undergroundmathematics.org/calculus-trig-log/to-the-limit",
+     "resource_type_label": "Scaffolded task",
+     "spec_points": [
+      "3.2.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/to-log-or-not-to-log-to-log-or-not-to-log.md",
+     "sha256": "e2aa6bbc26e0ca9bc49cd28b3f9eeee1c76a74c7d38b67098d75a4f747d61d30",
+     "ugm_id": "to-log-or-not-to-log",
+     "title": "To log or not to log?",
+     "url": "https://undergroundmathematics.org/exp-and-log/to-log-or-not-to-log",
+     "resource_type_label": "Problem requiring decisions",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r9366-can-we-find-a-and-b-as-powers-of-10.md",
+     "sha256": "bd051d7b6b23d8c3ef282b73157f0c42f6c4dd6beb4d5f2ee44d14a094bf8f2d",
+     "ugm_id": "r9366",
+     "title": "Can we find $a$ and $b$ as powers of $10$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9366",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7845-can-we-solve-log_3-x-2-log_x-3-3.md",
+     "sha256": "2fdca7ac451ab596be1eda348259ef2cd4ff14fc9afc3a46e86b3bba5481cd78",
+     "ugm_id": "r7845",
+     "title": "Can we solve $ \\log_3 x + 2 \\log_x 3 = -3$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7845",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r5940-can-we-solve-these-simultaneous-exponential-equations.md",
+     "sha256": "69e537d4955566c06f4f33340d53030620d1f79c7c86d936ebe562801be916a0",
+     "ugm_id": "r5940",
+     "title": "Can we solve these simultaneous exponential equations?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5940",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r5462-can-we-solve-these-three-simultaneous-log-equations.md",
+     "sha256": "7dc422642b8083ff30277382143836411f27d160e03ace50267f0a773cb02843",
+     "ugm_id": "r5462",
+     "title": "Can we solve these three simultaneous log equations?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5462",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r9747-can-we-use-log_{10}-to-find-the-first-digit-of-3{100}.md",
+     "sha256": "1f6e61cd4accaa36e44a18b478a2017bdbbb6b29b75746de196490f338b5df96",
+     "ugm_id": "r9747",
+     "title": "Can we use $\\log_{10}$ to find the first digit of $3^{100}$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r9747",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7015-given-this-log-equation-when-can-a-be-largest.md",
+     "sha256": "ba35d92f4b8bd62dd4cbb265bd005c88b595eb45db9a2c43db1550ba2bb20ce3",
+     "ugm_id": "r7015",
+     "title": "Given this log equation, when can $a$ be largest?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7015",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r6045-how-large-is-2{100}-and-what-is-its-starting-digit.md",
+     "sha256": "fbdbbf7a2e63290195e6c3f41a462df1261dee9eb9928a40a481accfa965274c",
+     "ugm_id": "r6045",
+     "title": "How large is $2^{100}$, and what is its starting digit?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r6045",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7606-how-many-real-roots-does-8x44x2{x2}-have.md",
+     "sha256": "08508f8e062ca49f0ba6b0c74ccaa02b3ea3b5b1722c66e4050af09ccc717424",
+     "ugm_id": "r7606",
+     "title": "How many real roots does $8^x+4=4^x+2^{x+2}$ have?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7606",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r5103-how-many-roots-are-there-to-x8{log_2x}-9{log_3x}-4{log_2x}log_{0.5}{0.25}.md",
+     "sha256": "a76ed405fabfc823674a8ec4bd3aad98c6c9aeb23ef6063a2f0526e725b661cf",
+     "ugm_id": "r5103",
+     "title": "How many roots are there to $x=8^{\\log_2x} -9^{\\log_3x}-4^{\\log_2x}+\\log_{0.5}{0.25}$?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r5103",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7384-when-does-9x-3{x1}-k-have-one-or-more-real-solutions.md",
+     "sha256": "4fa86337b06be1ccfc6a6750c0a9dbf11f168b58be2cc64891f8d6badc195243",
+     "ugm_id": "r7384",
+     "title": "When does $9^x - 3^{x+1} = k$ have one or more real solutions?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r7384",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r6414-when-does-this-inequality-have-a-finite-number-of-integer-solutions.md",
+     "sha256": "0289f590e35c5b9f8c83c4510bd73cb57d96b10264d6a197cb73a891cc5fd439",
+     "ugm_id": "r6414",
+     "title": "When does this inequality have a finite number of integer solutions?",
+     "url": "https://undergroundmathematics.org/exp-and-log/r6414",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/r7077-can-we-prove-these-bounds-for-this-fraction-involving-surds.md",
+     "sha256": "51a41fdd052143202b5b6d58d6277ceb11a7fd631097b2a94eead65c8cfaee04",
+     "ugm_id": "r7077",
+     "title": "Can we prove these bounds for this fraction involving surds?",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/r7077",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/powerful-fractions-powerful-fractions.md",
+     "sha256": "236a300a2b069d47d9227b97ed5394a9778211f880836bb8e0666e1c5af648d2",
+     "ugm_id": "powerful-fractions",
+     "title": "Powerful fractions",
+     "url": "https://undergroundmathematics.org/thinking-about-algebra/powerful-fractions",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "3.2.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/how-far-did-the-earth-move-how-far-did-the-earth-move.md",
+     "sha256": "150d472281138a261f430519fec9d16eda70f815c9997d6555adf628e3911b84",
+     "ugm_id": "how-far-did-the-earth-move",
+     "title": "How far did the earth move?",
+     "url": "https://undergroundmathematics.org/exp-and-log/how-far-did-the-earth-move",
+     "resource_type_label": "Food for thought",
+     "spec_points": [
+      "3.2.4"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-logarithmic-and-exponential-functions/plotting-planets-plotting-the-planets.md",
+     "sha256": "ff159627196eaa788cde6eeaedf418b3e84df58a012e6e03efbb821fc0fa9472",
+     "ugm_id": "plotting-planets",
+     "title": "Plotting the planets",
+     "url": "https://undergroundmathematics.org/exp-and-log/plotting-planets",
+     "resource_type_label": "Rich example",
+     "spec_points": [
+      "3.2.4"
      ],
      "captured": "2026-10-22"
     }

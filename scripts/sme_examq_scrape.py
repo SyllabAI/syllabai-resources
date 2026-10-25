@@ -19,6 +19,12 @@ downloads question images to per-topic assets/, and writes a structured corpus:
 Operator authorization for SME material: see LICENSE-DATA.md ("Amendment
 2026-09-17 — Save My Exams authorization (operator attestation)").
 
+T-SME-13 WARNING: the live corpus carries 12 adjudicated corrections
+(3 marks overstatements + 9 provenance repoints) that exist only in this
+repo — see SME-ExamQuestion/igcse-chemistry-19/CORRECTIONS.md. A full
+re-scrape reintroduces upstream (uncorrected) values; after any re-scrape,
+re-apply that ledger before committing.
+
 Usage:
   sme_examq_scrape.py [--out DIR] [--only SLUG ...] [--limit N] [--delay S]
                       [--skip-assets] [--offline-landing FILE]
@@ -773,6 +779,11 @@ def main():
                     help="use a saved landing.html instead of fetching")
     args = ap.parse_args()
 
+    print("WARNING (T-SME-13): live corpus carries 12 adjudicated corrections "
+          "(3 marks + 9 provenance) - see SME-ExamQuestion/igcse-chemistry-19/"
+          "CORRECTIONS.md; a full re-scrape reintroduces upstream values, "
+          "re-apply that ledger after any re-scrape.", file=sys.stderr)
+
     out_root = Path(args.out)
     disk_state = collect_disk_state(out_root)
     if args.manifest_only:
@@ -880,6 +891,11 @@ operator's documented SME authorization — see `../LICENSE-DATA.md`
 ("Amendment 2026-09-17 — Save My Exams authorization (operator attestation)").
 Questions are attributed to their original Edexcel papers where SME records
 that provenance (per-part `source_paper`).
+
+**T-SME-13 corrective notice:** this corpus carries 12 adjudicated corrections
+(3 marks overstatements + 9 provenance repoints) recorded in `CORRECTIONS.md`
+(same folder). A full re-scrape reintroduces upstream values — re-apply that
+ledger after any re-scrape, before committing.
 
 ## Layout
 
