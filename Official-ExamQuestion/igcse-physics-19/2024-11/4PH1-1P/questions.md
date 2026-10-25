@@ -59,7 +59,17 @@ What type of force does the planet exert on the moon?
 > C is incorrect as any magnetic force would not be
 > strong enough
 > D is incorrect as nuclear forces are short range
-> (c) substitution into given formula; allow use of 3.14, 22/7
+
+- **(1)** Answer B: gravitational
+
+### 1(c) [3]
+
+The planet completes one orbit of the star in a time of 2.5 × 108 s. The radius of the planet’s orbit is 8.7 × 1010 m. Calculate the orbital speed of the planet. Give your answer to two significant figures. orbital speed = m/s
+
+
+**Mark scheme answer**
+
+> substitution into given formula; allow use of 3.14, 22/7
 > for π
 > correct evaluation; −1 for POT error
 > answer given to 2 s.f.; any final value
@@ -70,24 +80,26 @@ What type of force does the planet exert on the moon?
 > orbital speed = 2186.54848… (m/s) allow 2185.44,
 > 2187.4… (m/s)
 > orbital speed = 2200 (m/s) allow 2.2 × 103 (m/s)
-> (d) blue star is hotter (than the Sun); allow blue star is
-> hottest
-> region is further away (from the star); allow region for blue
-> star has larger radius /
-> eq
-> Answer Notes Marks
 
-- **(1)** Answer B: gravitational
-
-### 1(c) [3]
-
-The planet completes one orbit of the star in a time of 2.5 × 108 s. The radius of the planet’s orbit is 8.7 × 1010 m. Calculate the orbital speed of the planet. Give your answer to two significant figures. orbital speed = m/s
+- **(3)** substitution into given formula; allow use of 3.14, 22/7
 
 ### 1(d) [2]
 
 Diagram 2 shows the region around the Sun, a yellow star, where liquid water can exist on the surface of planets. This is because the surface temperature of the planet is between 0 °C and 100 °C. Earth liquid water region Sun Diagram 2 Explain what would happen to the position of the liquid water region if the Sun was replaced with a blue star of the same size.
 
 ![diagram — official paper figure (qp.pdf p.5)](assets/asset_1_d_diagram.png)
+
+
+**Mark scheme answer**
+
+> blue star is hotter (than the Sun); allow blue star is
+> hottest
+> region is further away (from the star); allow region for blue
+> star has larger radius /
+> eq
+> Answer Notes Marks
+
+- **(2)** blue star is hotter (than the Sun); allow blue star is
 
 
 ## Question 2 (14 marks)
@@ -100,21 +112,77 @@ An athlete jumps vertically from the ground.
 
 State the formula linking kinetic energy, mass and speed.
 
+
+**Mark scheme answer**
+
+> kinetic energy = ½ × mass × speed2; allow velocity for speed
+> allow standard symbols
+> e.g. KE = ½ × m × v2
+
+- **(1)** kinetic energy = ½ × mass × speed2; allow velocity for speed
+
 ### 2(a)(ii) [2]
 
 Calculate the athlete’s kinetic energy at a speed of 4.5 m/s. kinetic energy = J
+
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation;
+> e.g.
+> KE = ½ × 85 × 4.52
+> KE = 860 (J) allow 861, 860.6, 860.62,
+> 860.63, 860.625 (J)
+
+- **(2)** substitution;
 
 ### 2(a)(iii) [1]
 
 At the maximum height of the jump, the athlete has a speed of 0 m/s. State the increase in the amount of energy in the athlete’s gravitational potential energy store from the ground to the maximum height of the jump. increase in gravitational potential energy = J
 
+
+**Mark scheme answer**
+
+> identical answer to (ii); expect 860 (J)
+> allow ecf from (ii)
+
+- **(1)** identical answer to (ii); expect 860 (J)
+
 ### 2(a)(iv) [1]
 
 State the formula linking gravitational potential energy, mass, gravitational field strength and height.
 
+
+**Mark scheme answer**
+
+> gravitational potential energy = mass × g × height; allow standard symbols
+> e.g. GPE = m × g × h
+> ignore gravity for g
+
+- **(1)** gravitational potential energy = mass × g × height; allow standard symbols
+
 ### 2(a)(v) [3]
 
 Calculate the maximum height of the athlete’s jump. height = m
+
+
+**Mark scheme answer**
+
+> substitution; allow use of g = 9.8, 9.81
+> allow ecf from (ii) or (iii)
+> rearrangement;
+> evaluation;
+> allow use of v2 = u2 + 2as
+> for full marks
+> e.g.
+> 860 = 85 × 10 × h
+> h = 860 ÷ 850 = 1.0(125) (m)
+> (h =) 1.0 (m) allow 1 (m) if supported by
+> valid working
+> allow 1.00 – 1.03 (m)
+
+- **(3)** substitution; allow use of g = 9.8, 9.81
 
 ### 2(b)(i) [3]
 
@@ -229,18 +297,24 @@ The electrical equipment has a power of 350 W. Calculate the current in the equi
 > e.g.
 > 350 = current × 230 OR current = power / voltage
 > (current =) 1.5 (A) allow 1.52… (A)
-> (c) idea the circuit breaker is faster (at isolating allow circuit breaker is
-> circuit); more sensitive
-> idea the circuit breaker is resettable; allow circuit breaker
-> can be reused / used
-> multiple times
-> Answer Notes Marks
 
 - **(2)** substitution OR rearrangement;
 
 ### 3(c) [2]
 
 Photograph 2 shows a circuit breaker. (Source: © 509531608 / Shutterstock) Photograph 2 Explain the advantages of using a circuit breaker rather than a fuse.
+
+
+**Mark scheme answer**
+
+> idea the circuit breaker is faster (at isolating allow circuit breaker is
+> circuit); more sensitive
+> idea the circuit breaker is resettable; allow circuit breaker
+> can be reused / used
+> multiple times
+> Answer Notes Marks
+
+- **(2)** idea the circuit breaker is faster (at isolating allow circuit breaker is
 
 
 ## Question 4 (11 marks)
@@ -259,7 +333,17 @@ On the graph, give the unit for activity.
 > becquerel(s)/Bq; accept with any prefix (e.g.
 > kBq) or recognisable spelling
 > allow bq, BQ
-> (b) idea that background radiation is always present; allow radiation all around us,
+
+- **(1)** becquerel(s)/Bq; accept with any prefix (e.g.
+
+### 4(b) [2]
+
+Describe what is meant by the term background radiation.
+
+
+**Mark scheme answer**
+
+> idea that background radiation is always present; allow radiation all around us,
 > in the
 > surroundings/environment,
 > everywhere etc.
@@ -273,11 +357,7 @@ On the graph, give the unit for activity.
 > • medical equipment
 > reject CMBR
 
-- **(1)** becquerel(s)/Bq; accept with any prefix (e.g.
-
-### 4(b) [2]
-
-Describe what is meant by the term background radiation.
+- **(2)** idea that background radiation is always present; allow radiation all around us,
 
 ### 4(c)(i) [2]
 
@@ -308,7 +388,19 @@ Use the graph to determine the half‑life of this radioactive sample. half‑li
 > of that activity; 600 and down to 19
 > half-life = 19 (minutes); accept any answer that rounds
 > to 19 (minutes) for 2 marks
-> (d) data point taken from graph;
+
+- **(2)** lines drawn on graph indicating an activity and half e.g. line drawn across from
+
+### 4(d) [4]
+
+The teacher suggests that this formula shows the relationship between activity and time taken. activity × time taken = constant Use data from the graph to determine if this relationship is correct.
+
+![graph — official paper figure (qp.pdf p.10) — shared with asset_4_a_graph_stem](assets/asset_4_a_graph_stem.png)
+
+
+**Mark scheme answer**
+
+> data point taken from graph;
 > constant correctly calculated using data point;
 > constant correctly calculated from a second data
 > point taken from graph;
@@ -319,13 +411,7 @@ Use the graph to determine the half‑life of this radioactive sample. half‑li
 > constants
 > Answer Notes Marks
 
-- **(2)** lines drawn on graph indicating an activity and half e.g. line drawn across from
-
-### 4(d) [4]
-
-The teacher suggests that this formula shows the relationship between activity and time taken. activity × time taken = constant Use data from the graph to determine if this relationship is correct.
-
-![graph — official paper figure (qp.pdf p.10) — shared with asset_4_a_graph_stem](assets/asset_4_a_graph_stem.png)
+- **(4)** data point taken from graph;
 
 
 ## Question 5 (8 marks)
@@ -347,11 +433,35 @@ Draw three field lines on Diagram 1 to show the uniform magnetic field in the sh
 > contradictory field
 > line directions for
 > this mark
-> (b) vertical arrow; allow arrow drawn
+
+- **(2)** at least three horizontal, straight field lines, parallel judge by eye
+
+### 5(b) [2]
+
+Diagram 2 shows a current‑carrying wire in the uniform magnetic field between the poles of a magnet. The arrow on the wire shows the direction of current. Draw another arrow on Diagram 2 to show the direction of the force on the wire. permanent magnet power supply N S current-carrying wire Diagram 2
+
+![diagram — official paper figure (qp.pdf p.12) — shared with 5(a)](assets/asset_5_a_diagram.png)
+
+
+**Mark scheme answer**
+
+> vertical arrow; allow arrow drawn
 > anywhere on
 > diagram
 > downwards; DOP
-> (c) any three from:
+
+- **(2)** vertical arrow; allow arrow drawn
+
+### 5(c) [4]
+
+Diagram 3 shows a rectangular loop of wire carrying a current in a uniform magnetic field. permanent magnet B C N S A D coil + – Diagram 3 Explain why the loop starts to turn but stops when the loop is vertical.
+
+![diagram — official paper figure (qp.pdf p.13)](assets/asset_5_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> any three from:
 > MP1. wire/coil/current has a magnetic field;
 > MP2. field of wire/coil/current interacts with field allow idea that fields
 > of magnet; overlap
@@ -379,19 +489,7 @@ Draw three field lines on Diagram 1 to show the uniform magnetic field in the sh
 > needed
 > Answer Notes Marks
 
-- **(2)** at least three horizontal, straight field lines, parallel judge by eye
-
-### 5(b) [2]
-
-Diagram 2 shows a current‑carrying wire in the uniform magnetic field between the poles of a magnet. The arrow on the wire shows the direction of current. Draw another arrow on Diagram 2 to show the direction of the force on the wire. permanent magnet power supply N S current-carrying wire Diagram 2
-
-![diagram — official paper figure (qp.pdf p.12) — shared with 5(a)](assets/asset_5_a_diagram.png)
-
-### 5(c) [4]
-
-Diagram 3 shows a rectangular loop of wire carrying a current in a uniform magnetic field. permanent magnet B C N S A D coil + – Diagram 3 Explain why the loop starts to turn but stops when the loop is vertical.
-
-![diagram — official paper figure (qp.pdf p.13)](assets/asset_5_c_diagram.png)
+- **(4)** any three from:
 
 
 ## Question 6 (13 marks)
@@ -517,11 +615,32 @@ The diagram shows a submarine at rest underwater.
 
 One of the forces is called upthrust. Give the name of the other force.
 
+
+**Mark scheme answer**
+
+> weight / gravitational (force) / gravitational pull ignore gravity
+> (of Earth);
+
+- **(1)** weight / gravitational (force) / gravitational pull ignore gravity
+
 ### 7(a)(ii) [2]
 
 Draw two arrows on the diagram to represent the vertical forces acting on the submarine.
 
 ![diagram — official paper figure (qp.pdf p.18) — shared with asset_7_a_diagram_stem](assets/asset_7_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> one vertical upwards arrow and one vertical allow if drawn
+> downwards arrow; anywhere on diagram
+> ignore any horizontal
+> arrows
+> ignore labels on arrows
+> two arrows are equal length; DOP
+> judge by eye
+
+- **(2)** one vertical upwards arrow and one vertical allow if drawn
 
 ### 7(b)(i) [1]
 
@@ -629,7 +748,17 @@ Describe the difference between the motion of particles in a transverse wave and
 > wave/energy transfer for longitudinal AND statements of
 > (vibrations/oscillations) are perpendicular to parallel/perpendicular
 > direction of wave/energy transfer for transverse;
-> (b) wavefronts (at whale B) are compressed / allow alternative
+
+- **(2)** both marking points can
+
+### 8(b) [3]
+
+Whale A makes a sound with a constant frequency. This sound is detected by whale B. When whale A swims towards whale B, the frequency of the sound detected by whale B increases. This is known as the Doppler effect. Explain how the Doppler effect causes the frequency of sound detected by whale B to increase.
+
+
+**Mark scheme answer**
+
+> wavefronts (at whale B) are compressed / allow alternative
 > wavelength (at whale B) is smaller; phrases for compressed
 > speed of sound is constant;
 > frequency = speed of sound ÷ wavelength (therefore allow any
@@ -637,7 +766,17 @@ Describe the difference between the motion of particles in a transverse wave and
 > formula
 > allow symbols for
 > formula
-> (c) substitution into speed = frequency × wavelength;
+
+- **(3)** wavefronts (at whale B) are compressed / allow alternative
+
+### 8(c) [3]
+
+Visible light from the Sun reaches whale B. The wavelength of this light is 5.4 × 10–7 m. Calculate the frequency of this light. [speed of light = 3.0 × 108 m/s] frequency = Hz
+
+
+**Mark scheme answer**
+
+> substitution into speed = frequency × wavelength;
 > rearrangement;
 > evaluation; −1 for POT error
 > if no other marks
@@ -652,15 +791,7 @@ Describe the difference between the motion of particles in a transverse wave and
 > reject 5.5 × 1014 (Hz)
 > Answer Notes Marks
 
-- **(2)** both marking points can
-
-### 8(b) [3]
-
-Whale A makes a sound with a constant frequency. This sound is detected by whale B. When whale A swims towards whale B, the frequency of the sound detected by whale B increases. This is known as the Doppler effect. Explain how the Doppler effect causes the frequency of sound detected by whale B to increase.
-
-### 8(c) [3]
-
-Visible light from the Sun reaches whale B. The wavelength of this light is 5.4 × 10–7 m. Calculate the frequency of this light. [speed of light = 3.0 × 108 m/s] frequency = Hz
+- **(3)** substitution into speed = frequency × wavelength;
 
 
 ## Question 9 (12 marks)
@@ -774,17 +905,54 @@ A student investigates energy transfer by conduction in different metals. The st
 
 Give the independent variable in this investigation.
 
+
+**Mark scheme answer**
+
+> metal/material; ignore unqualified “type of rod”
+
+- **(1)** metal/material; ignore unqualified “type of rod”
+
 ### 10(a)(ii) [1]
 
 Give the dependent variable in this investigation.
+
+
+**Mark scheme answer**
+
+> time (taken for coin to fall off); allow how long it takes (for the
+> coin to fall off)
+
+- **(1)** time (taken for coin to fall off); allow how long it takes (for the
 
 ### 10(a)(iii) [2]
 
 A teacher tells the student that their investigation is not valid (a fair test). Give two ways to improve the validity of the student’s investigation. 1 2
 
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. rods the same length; allow a mark for “rods same
+> MP2. rods the same size/volume” if MP1 or MP2 have
+> diameter/thickness/width/area; not been awarded
+> MP3. coins of the same mass;
+> MP4. same mass/amount of wax; allow same type of wax
+
+- **(2)** any two from:
+
 ### 10(a)(iv) [2]
 
 The student improves the validity of their investigation. Describe what the student should do to improve the reliability of their results.
+
+
+**Mark scheme answer**
+
+> repeat the experiment; reject if method modified e.g.
+> testing additional metals
+> calculate the mean (time for each rod); allow calculate the average
+> allow identify/ignore anomalies
+
+- **(2)** repeat the experiment; reject if method modified e.g.
 
 ### 10(b)(i) [3]
 
@@ -843,13 +1011,6 @@ Which of these is the main source of energy in stars?
 > number is too small
 > B is incorrect as the energy release per decay is too small
 > C is incorrect as fusion below Fe-57 is endothermic
-> (b) all numbers written in the correct rows = 4 marks;;;;
-> any three numbers written in the correct rows = 3 marks;;;
-> any two numbers written in the correct rows = 2 marks;;
-> any one number written in the correct row = 1 mark;
-> e.g.
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** Answer D: nuclear fusion
 
@@ -858,4 +1019,17 @@ Which of these is the main source of energy in stars?
 The table lists the stages of development of a star that has a very much larger mass than the Sun. Give the stages in the correct order, using numbers 1 to 5. Stages of development Order number a black hole is formed heavy elements are made in the core of the star the star becomes a red supergiant the star explodes in a supernova the core of the star runs out of hydrogen
 
 ![table — official paper figure (qp.pdf p.29)](assets/asset_11_b_table.png)
+
+
+**Mark scheme answer**
+
+> all numbers written in the correct rows = 4 marks;;;;
+> any three numbers written in the correct rows = 3 marks;;;
+> any two numbers written in the correct rows = 2 marks;;
+> any one number written in the correct row = 1 mark;
+> e.g.
+> Pearson Education Limited. Registered company number 872828
+> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
+
+- **(4)** all numbers written in the correct rows = 4 marks;;;;
 

@@ -20,7 +20,17 @@ Three regions in the HR diagram are labelled P, Q and R. The boxes show the thre
 > one mark for each correct line; reject mark if more
 > than one line drawn
 > from region
-> (b) (a measure of) brightness; allow power,
+
+- **(3)** one mark for each correct line; reject mark if more
+
+### 1(b) [2]
+
+Define the term absolute magnitude.
+
+
+**Mark scheme answer**
+
+> (a measure of) brightness; allow power,
 > luminosity, intensity
 > ignore description of
 > scale for idea of
@@ -32,11 +42,7 @@ Three regions in the HR diagram are labelled P, Q and R. The boxes show the thre
 > distance
 > Answer Notes Marks
 
-- **(3)** one mark for each correct line; reject mark if more
-
-### 1(b) [2]
-
-Define the term absolute magnitude.
+- **(2)** (a measure of) brightness; allow power,
 
 
 ## Question 2 (10 marks)
@@ -59,17 +65,23 @@ The force applied to the wrench is 28 N. Calculate the moment applied by the wre
 > e.g.
 > moment = 28 × 0.15 allow 28 × 15
 > (moment =) 4.2 N m allow 420 N cm
-> (b) allow pivot for nut
-> apply a larger force / eq;
-> apply force further from nut / eq; allow use a longer
-> wrench
-> condone bigger wrench
 
 - **(3)** substitution into moment = force × distance; accept dimensionally
 
 ### 2(b) [2]
 
 State two changes that could be made to increase the size of the moment applied to the nut. 1 2
+
+
+**Mark scheme answer**
+
+> allow pivot for nut
+> apply a larger force / eq;
+> apply force further from nut / eq; allow use a longer
+> wrench
+> condone bigger wrench
+
+- **(2)** allow pivot for nut
 
 ### 2(c)(i) [2]
 
@@ -154,7 +166,19 @@ The photograph shows some of the equipment available to the student. infrared he
 > burn/scald/electrocution; burns from heater,
 > clean up water spillages
 > etc.
-> (b) reject whole response if
+
+- **(6)** any six from: allow marks from
+
+### 3(b) [2]
+
+The student plots a graph to show how the temperature of the water in each bottle varies with time. Draw two curves to show the expected variation in temperature of the black bottle and the silver bottle during the investigation. Label your curves with the colour of each bottle. Temperature Time
+
+![graph — official paper figure (qp.pdf p.10)](assets/asset_3_b_graph.png)
+
+
+**Mark scheme answer**
+
+> reject whole response if
 > both lines show a
 > decrease
 > two lines drawn showing an increase in ignore starting
@@ -168,13 +192,7 @@ The photograph shows some of the equipment available to the student. infrared he
 > line at a later time
 > Answer Notes Marks
 
-- **(6)** any six from: allow marks from
-
-### 3(b) [2]
-
-The student plots a graph to show how the temperature of the water in each bottle varies with time. Draw two curves to show the expected variation in temperature of the black bottle and the silver bottle during the investigation. Label your curves with the colour of each bottle. Temperature Time
-
-![graph — official paper figure (qp.pdf p.10)](assets/asset_3_b_graph.png)
+- **(2)** reject whole response if
 
 
 ## Question 4 (9 marks)
@@ -189,19 +207,45 @@ This question is about electrostatics.
 
 Which of these is the force that causes the rod and the cloth to become charged?
 
-- **(A)** friction
+- **(A)** friction  ✔
 - **(B)** gravitational
 - **(C)** magnetic
 - **(D)** tension
+
+
+**Mark scheme answer**
+
+> A (friction);
+> B is incorrect because gravity is not the
+> force
+> C is incorrect because magnetic is not the
+> force
+> D is incorrect because tension is not the
+> force
+
+- **(1)** Answer A: friction
 
 ### 4(a)(ii) [1]
 
 The polythene rod becomes negatively charged. Which of these statements explains how the rod has become negatively charged?
 
-- **(A)** the rod gains electrons
+- **(A)** the rod gains electrons  ✔
 - **(B)** the rod loses electrons
 - **(C)** the rod gains protons
 - **(D)** the rod loses protons
+
+
+**Mark scheme answer**
+
+> A (the rod gains electrons);
+> B is incorrect because this would produce a
+> positive charge
+> C is incorrect because protons are not
+> transferred
+> D is incorrect because protons are not
+> transferred
+
+- **(1)** Answer A: the rod gains electrons
 
 ### 4(b)(i) [1]
 
@@ -310,7 +354,17 @@ State which wave property determines the pitch of a sound.
 > reject response with
 > more than one
 > quantity/property
-> (b) C chosen; condone E chosen
+
+- **(1)** frequency; ignore unit for
+
+### 5(b) [2]
+
+The bar chart shows the maximum frequency of sound heard by four animals and a human. Frequency in kHz A B C D E Explain which of the bars is most likely to show the results for a human.
+
+
+**Mark scheme answer**
+
+> C chosen; condone E chosen
 > condone ‘C and E’
 > condone ‘C or E’
 > (because) humans can hear up to 20 kHz / accept additional
@@ -319,11 +373,7 @@ State which wave property determines the pitch of a sound.
 > range decreasing with
 > age or hearing loss
 
-- **(1)** frequency; ignore unit for
-
-### 5(b) [2]
-
-The bar chart shows the maximum frequency of sound heard by four animals and a human. Frequency in kHz A B C D E Explain which of the bars is most likely to show the results for a human.
+- **(2)** C chosen; condone E chosen
 
 ### 5(c)(i) [3]
 
@@ -471,7 +521,19 @@ State what is meant by the term renewable energy resource.
 > replaced; used’
 > condone ‘infinite’
 > accept ‘replenished’
-> (b) any four from: condone ‘turns into’,
+
+- **(1)** idea that source will not run out / can be ignore ‘recycled’ or ‘re-
+
+### 7(b) [4]
+
+The diagram shows the design of a HEP station. upper lake tunnel transformer pylon direction of water flow turbine lower lake generator Water flows from the upper lake to the lower lake through the turbine. The turbine is connected to a generator, which generates electricity. Describe the energy transfers involved in generating electricity in the HEP station.
+
+![diagram — official paper figure (qp.pdf p.20)](assets/asset_7_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any four from: condone ‘turns into’,
 > ‘becomes’ etc for
 > ‘transfers’
 > MP1. water has (high) {gravitational potential energy starts as
@@ -495,13 +557,7 @@ State what is meant by the term renewable energy resource.
 > allow transfer of sound
 > (energy)
 
-- **(1)** idea that source will not run out / can be ignore ‘recycled’ or ‘re-
-
-### 7(b) [4]
-
-The diagram shows the design of a HEP station. upper lake tunnel transformer pylon direction of water flow turbine lower lake generator Water flows from the upper lake to the lower lake through the turbine. The turbine is connected to a generator, which generates electricity. Describe the energy transfers involved in generating electricity in the HEP station.
-
-![diagram — official paper figure (qp.pdf p.20)](assets/asset_7_b_diagram.png)
+- **(4)** any four from: condone ‘turns into’,
 
 ### 7(c)(i) [1]
 

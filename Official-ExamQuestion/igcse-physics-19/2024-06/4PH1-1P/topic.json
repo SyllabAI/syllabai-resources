@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:24Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2024-06 paper=1P",
+ "generated_utc": "2026-10-25T22:06:55Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2024-06 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-06:4PH1/1P",
  "source": {
   "qp_sha256": "3c1e2eea09258259ce0ae86d6adf24da26a1320e297317c60f64c272839b8454",
@@ -33,7 +33,15 @@
      "question_type": "structured",
      "problem_md": "Draw a labelled diagram showing the Moon orbiting the Earth.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "labelled diagram showing a moon in circular orbit allow planet for Earth\naround Earth; judge circular by eye\nignore attempts at 3D\ndrawing\nEarth approximately at the centre of the path; allow planet for Earth",
+     "mark_points": [
+      {
+       "id": "2024-06-1-a-i-MP1",
+       "marks": 2,
+       "text_md": "labelled diagram showing a moon in circular orbit allow planet for Earth\naround Earth; judge circular by eye\nignore attempts at 3D\ndrawing\nEarth approximately at the centre of the path; allow planet for Earth"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -51,7 +59,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of the force that causes the Moon to orbit the Earth.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "gravitational (force); allow gravity\nignore weight,\ncentripetal, centrifugal\nreject gravitational\npotential, gravitational\nfield strength",
+     "mark_points": [
+      {
+       "id": "2024-06-1-a-ii-MP1",
+       "marks": 1,
+       "text_md": "gravitational (force); allow gravity\nignore weight,\ncentripetal, centrifugal\nreject gravitational\npotential, gravitational\nfield strength"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -69,7 +85,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of another object that orbits the Earth.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "satellite / space station; allow other suitable\nobject e.g. (rocket)\ndebris etc.\nreject comet",
+     "mark_points": [
+      {
+       "id": "2024-06-1-a-iii-MP1",
+       "marks": 1,
+       "text_md": "satellite / space station; allow other suitable\nobject e.g. (rocket)\ndebris etc.\nreject comet"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -87,7 +111,15 @@
      "question_type": "structured",
      "problem_md": "A planet and a comet both orbit a star. Give a difference between the orbit of a planet and the orbit of a comet.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "planet’s orbit is circular/slightly elliptical but clear comparison\ncomet’s orbit is elliptical/oval; needed\nallow comet orbit is\nmore elliptical\nOR ignore references to\nperiod/length of orbits\nplanet has constant speed but comet has variable allow idea that planet\nspeed; has constant orbital\nradius but comet has\nvariable orbital radius\nAnswer Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-1-b-MP1",
+       "marks": 1,
+       "text_md": "planet’s orbit is circular/slightly elliptical but clear comparison\ncomet’s orbit is elliptical/oval; needed\nallow comet orbit is\nmore elliptical\nOR ignore references to\nperiod/length of orbits\nplanet has constant speed but comet has variable allow idea that planet\nspeed; has constant orbital\nradius but comet has\nvariable orbital radius\nAnswer Marks"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -137,7 +169,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "A (6 protons, 6 neutrons);\nB is not the answer because it is the same isotope\nC is not the answer because it is a different element\nD is not the answer because it is a different element\n(b) B (beta);\nA is not the answer because alpha is a helium nucleus\nC is not the answer because gamma is a high frequency EM wave\nD is not the answer because it is not an electron\n(c) D (neutron);\nA is not the answer because this would decrease the atomic number and\ndecrease the mass number\nB is not the answer because this would increase the atomic number and\nkeep the mass number the same\nC is not the answer because this would keep the atomic number and mass\nnumber the same\n(d) A (90);\nB is not the answer because this is a neutral atom\nC is not the answer because it is a negatively charged ion\nD is not the answer because it is a negatively charged ion\n(e) C (100 Bq);\nA is not the answer because this is 4 half-lives\nB is not the answer because this is 3 half-lives\nD is not the answer because this is 1 half-life\nAnswer Notes Marks",
+     "solution_md": "A (6 protons, 6 neutrons);\nB is not the answer because it is the same isotope\nC is not the answer because it is a different element\nD is not the answer because it is a different element",
      "mark_points": [
       {
        "id": "2024-06-2-a-MP1",
@@ -173,29 +205,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "alpha"
+       "text_md": "alpha",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "beta"
+       "text_md": "beta",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "gamma"
+       "text_md": "gamma",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "neutron"
+       "text_md": "neutron",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (beta);\nA is not the answer because alpha is a helium nucleus\nC is not the answer because gamma is a high frequency EM wave\nD is not the answer because it is not an electron",
+     "mark_points": [
+      {
+       "id": "2024-06-2-b-MP1",
+       "marks": 1,
+       "text_md": "Answer B: beta"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -206,7 +250,15 @@
      "question_type": "structured",
      "problem_md": "A nucleus emits radiation. This causes the mass number to decrease by one. The atomic number stays the same. Which type of radiation does the nucleus emit? A alpha B beta C gamma D neutron",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (neutron);\nA is not the answer because this would decrease the atomic number and\ndecrease the mass number\nB is not the answer because this would increase the atomic number and\nkeep the mass number the same\nC is not the answer because this would keep the atomic number and mass\nnumber the same",
+     "mark_points": [
+      {
+       "id": "2024-06-2-c-MP1",
+       "marks": 1,
+       "text_md": "D (neutron);\nA is not the answer because this would decrease the atomic number and\ndecrease the mass number\nB is not the answer because this would increase the atomic number and\nkeep the mass number the same\nC is not the answer because this would keep the atomic number and mass\nnumber the same"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -226,29 +278,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "90"
+       "text_md": "90",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "92"
+       "text_md": "92",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "146"
+       "text_md": "146",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "238"
+       "text_md": "238",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (90);\nB is not the answer because this is a neutral atom\nC is not the answer because it is a negatively charged ion\nD is not the answer because it is a negatively charged ion",
+     "mark_points": [
+      {
+       "id": "2024-06-2-d-MP1",
+       "marks": 1,
+       "text_md": "Answer A: 90"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -259,7 +323,15 @@
      "question_type": "structured",
      "problem_md": "A radioactive isotope has an initial activity of 400 Bq. The half-life of the isotope is 8 hours. What is the activity of the isotope after 16 hours? A 25 Bq B 50 Bq C 100 Bq D 200 Bq",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (100 Bq);\nA is not the answer because this is 4 half-lives\nB is not the answer because this is 3 half-lives\nD is not the answer because this is 1 half-life\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-2-e-MP1",
+       "marks": 1,
+       "text_md": "C (100 Bq);\nA is not the answer because this is 4 half-lives\nB is not the answer because this is 3 half-lives\nD is not the answer because this is 1 half-life\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -340,12 +412,12 @@
      "problem_md": "Give two differences between the properties of visible light waves and infrared waves. 1 2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "• infrared has longer/higher wavelength; allow RA\n• infrared has lower frequency; allow RA\ncondone infrared has lower\nenergy\n(c) substitution into speed = distance / time;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 1.5 / time\ntime = 1.5 / 3.0 × 108\n(time =) 5.0 × 10−9 (s) allow 5 × 10−9 (s),\n0.000 000 005 (s)\n(d) black is a better/good absorber (of infrared allow RA e.g. white is a\nradiation); poor absorber\nallow white is a\nbetter/good reflector (of\ninfrared radiation)\nidea that more energy/heat transferred to black car allow RA e.g. less\n(in the same time); energy/heat transferred to\nwhite car\nallow black car warms up\nquicker\nblack car absorbs more\nenergy/heat scores 2\nAnswer Notes Marks",
+     "solution_md": "• infrared has longer/higher wavelength; allow RA\n• infrared has lower frequency; allow RA\ncondone infrared has lower\nenergy",
      "mark_points": [
       {
        "id": "2024-06-3-b-ii-MP1",
        "marks": 2,
-       "text_md": "• infrared has longer/higher wavelength; allow RA\n• infrared has lower frequency; allow RA\ncondone infrared has lower\nenergy\n(c) substitution into speed = distance / time;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 1.5 / time\ntime = 1.5 / 3.0 × 108\n(time =) 5.0 × 10−9 (s) allow 5 × 10−9 (s),\n0.000 000 005 (s)\n(d) black is a better/good absorber (of infrared allow RA e.g. white is a\nradiation); poor absorber\nallow white is a\nbetter/good reflector (of\ninfrared radiation)\nidea that more energy/heat transferred to black car allow RA e.g. less\n(in the same time); energy/heat transferred to\nwhite car\nallow black car warms up\nquicker\nblack car absorbs more\nenergy/heat scores 2\nAnswer Notes Marks"
+       "text_md": "• infrared has longer/higher wavelength; allow RA\n• infrared has lower frequency; allow RA\ncondone infrared has lower\nenergy"
       }
      ],
      "source_page": 6,
@@ -365,7 +437,15 @@
      "question_type": "structured",
      "problem_md": "The infrared heating lamps are placed 1.5 m from the car. Calculate the time taken for infrared waves emitted from a lamp to reach the car. [for infrared waves, speed = 3.0 × 108 m/s] time taken = s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into speed = distance / time;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 1.5 / time\ntime = 1.5 / 3.0 × 108\n(time =) 5.0 × 10−9 (s) allow 5 × 10−9 (s),\n0.000 000 005 (s)",
+     "mark_points": [
+      {
+       "id": "2024-06-3-c-MP1",
+       "marks": 3,
+       "text_md": "substitution into speed = distance / time;\nrearrangement;\nevaluation; -1 for POT error\ne.g.\n3.0 × 108 = 1.5 / time\ntime = 1.5 / 3.0 × 108\n(time =) 5.0 × 10−9 (s) allow 5 × 10−9 (s),\n0.000 000 005 (s)"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -383,7 +463,15 @@
      "question_type": "structured",
      "problem_md": "Paint takes less time to harden when it absorbs more energy from infrared radiation. A technician observes that white paint takes more time to harden than black paint. Explain this observation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "black is a better/good absorber (of infrared allow RA e.g. white is a\nradiation); poor absorber\nallow white is a\nbetter/good reflector (of\ninfrared radiation)\nidea that more energy/heat transferred to black car allow RA e.g. less\n(in the same time); energy/heat transferred to\nwhite car\nallow black car warms up\nquicker\nblack car absorbs more\nenergy/heat scores 2\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-3-d-MP1",
+       "marks": 2,
+       "text_md": "black is a better/good absorber (of infrared allow RA e.g. white is a\nradiation); poor absorber\nallow white is a\nbetter/good reflector (of\ninfrared radiation)\nidea that more energy/heat transferred to black car allow RA e.g. less\n(in the same time); energy/heat transferred to\nwhite car\nallow black car warms up\nquicker\nblack car absorbs more\nenergy/heat scores 2\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -416,12 +504,12 @@
      "problem_md": "A main sequence star is created in a collapsing region of a nebula. The table gives different energy stores for the gases in the collapsing nebula, from when the nebula starts to collapse to just before the main sequence star is created. Complete the table by placing ticks (ü) to show whether each energy store increases, decreases or stays the same. Stays the Energy store Increases Decreases same chemical gravitational potential nuclear thermal",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "one mark for each correct row;;;; reject mark for row if\nmore than one tick\ngiven\n(b) mass; ignore size, weight\n(c) any four from: allow RA for all marking\npoints\nMP1. red giant has greater brightness than white allow absolute\ndwarf; magnitude, luminosity,\npower for brightness\nallow red giant emits\nmore light\nMP2. (nuclear) fusion takes place in red giant allow red giant has\n(core) but not in white dwarf (core); more hydrogen\nMP3. red giant is larger than white dwarf; condone red giant has\nmore mass than white\ndwarf\nMP4. red giant has lower (surface) temperature allow red giant is cooler\nthan white dwarf;\nMP5. white dwarf is denser than a red giant;\nMP6. white dwarf has a planetary nebula but a red\ngiant does not;\nAnswer Notes Marks",
+     "solution_md": "one mark for each correct row;;;; reject mark for row if\nmore than one tick\ngiven",
      "mark_points": [
       {
        "id": "2024-06-4-a-MP1",
        "marks": 4,
-       "text_md": "one mark for each correct row;;;; reject mark for row if\nmore than one tick\ngiven\n(b) mass; ignore size, weight\n(c) any four from: allow RA for all marking\npoints\nMP1. red giant has greater brightness than white allow absolute\ndwarf; magnitude, luminosity,\npower for brightness\nallow red giant emits\nmore light\nMP2. (nuclear) fusion takes place in red giant allow red giant has\n(core) but not in white dwarf (core); more hydrogen\nMP3. red giant is larger than white dwarf; condone red giant has\nmore mass than white\ndwarf\nMP4. red giant has lower (surface) temperature allow red giant is cooler\nthan white dwarf;\nMP5. white dwarf is denser than a red giant;\nMP6. white dwarf has a planetary nebula but a red\ngiant does not;\nAnswer Notes Marks"
+       "text_md": "one mark for each correct row;;;; reject mark for row if\nmore than one tick\ngiven"
       }
      ],
      "source_page": 8,
@@ -453,7 +541,15 @@
      "question_type": "structured",
      "problem_md": "At the end of the main sequence stage of a star’s evolution, the star can become a red giant or a red supergiant. Give the property of a star that determines whether it becomes a red giant or a red supergiant.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "mass; ignore size, weight",
+     "mark_points": [
+      {
+       "id": "2024-06-4-b-MP1",
+       "marks": 1,
+       "text_md": "mass; ignore size, weight"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -471,7 +567,15 @@
      "question_type": "structured",
      "problem_md": "A red giant star eventually becomes a white dwarf star. Discuss the differences between a red giant star and a white dwarf star.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from: allow RA for all marking\npoints\nMP1. red giant has greater brightness than white allow absolute\ndwarf; magnitude, luminosity,\npower for brightness\nallow red giant emits\nmore light\nMP2. (nuclear) fusion takes place in red giant allow red giant has\n(core) but not in white dwarf (core); more hydrogen\nMP3. red giant is larger than white dwarf; condone red giant has\nmore mass than white\ndwarf\nMP4. red giant has lower (surface) temperature allow red giant is cooler\nthan white dwarf;\nMP5. white dwarf is denser than a red giant;\nMP6. white dwarf has a planetary nebula but a red\ngiant does not;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-4-c-MP1",
+       "marks": 4,
+       "text_md": "any four from: allow RA for all marking\npoints\nMP1. red giant has greater brightness than white allow absolute\ndwarf; magnitude, luminosity,\npower for brightness\nallow red giant emits\nmore light\nMP2. (nuclear) fusion takes place in red giant allow red giant has\n(core) but not in white dwarf (core); more hydrogen\nMP3. red giant is larger than white dwarf; condone red giant has\nmore mass than white\ndwarf\nMP4. red giant has lower (surface) temperature allow red giant is cooler\nthan white dwarf;\nMP5. white dwarf is denser than a red giant;\nMP6. white dwarf has a planetary nebula but a red\ngiant does not;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -642,12 +746,12 @@
      "problem_md": "Draw two arrows on the field lines in diagram 1 to show the direction of the magnetic field lines.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "arrows drawn on at least two field lines pointing condone if arrows are\ntowards the south pole; not drawn on the\nexisting field lines\nreject if any arrows\npoint away from the\nsouth pole\n(b) B (nickel);\nA is incorrect because copper is not a magnetic\nmaterial\nC is incorrect because plastic is not a magnetic\nmaterial\nD is incorrect because zinc is not a magnetic\nmaterial\n(c) field line spacing/density changes (with distance allow field lines aren’t\nfrom south pole); parallel\nfurther apart field lines shows weaker field scores both marks\nstrength; allow RA\nignore references to\nforces",
+     "solution_md": "arrows drawn on at least two field lines pointing condone if arrows are\ntowards the south pole; not drawn on the\nexisting field lines\nreject if any arrows\npoint away from the\nsouth pole",
      "mark_points": [
       {
        "id": "2024-06-6-a-MP1",
        "marks": 1,
-       "text_md": "arrows drawn on at least two field lines pointing condone if arrows are\ntowards the south pole; not drawn on the\nexisting field lines\nreject if any arrows\npoint away from the\nsouth pole\n(b) B (nickel);\nA is incorrect because copper is not a magnetic\nmaterial\nC is incorrect because plastic is not a magnetic\nmaterial\nD is incorrect because zinc is not a magnetic\nmaterial\n(c) field line spacing/density changes (with distance allow field lines aren’t\nfrom south pole); parallel\nfurther apart field lines shows weaker field scores both marks\nstrength; allow RA\nignore references to\nforces"
+       "text_md": "arrows drawn on at least two field lines pointing condone if arrows are\ntowards the south pole; not drawn on the\nexisting field lines\nreject if any arrows\npoint away from the\nsouth pole"
       }
      ],
      "source_page": 14,
@@ -683,29 +787,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "copper"
+       "text_md": "copper",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "nickel"
+       "text_md": "nickel",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "plastic"
+       "text_md": "plastic",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "zinc"
+       "text_md": "zinc",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (nickel);\nA is incorrect because copper is not a magnetic\nmaterial\nC is incorrect because plastic is not a magnetic\nmaterial\nD is incorrect because zinc is not a magnetic\nmaterial",
+     "mark_points": [
+      {
+       "id": "2024-06-6-b-MP1",
+       "marks": 1,
+       "text_md": "Answer B: nickel"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -716,7 +832,15 @@
      "question_type": "structured",
      "problem_md": "The strength of the magnetic field changes as the distance from the south pole increases. Explain how the magnetic field lines show this.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "field line spacing/density changes (with distance allow field lines aren’t\nfrom south pole); parallel\nfurther apart field lines shows weaker field scores both marks\nstrength; allow RA\nignore references to\nforces",
+     "mark_points": [
+      {
+       "id": "2024-06-6-c-MP1",
+       "marks": 2,
+       "text_md": "field line spacing/density changes (with distance allow field lines aren’t\nfrom south pole); parallel\nfurther apart field lines shows weaker field scores both marks\nstrength; allow RA\nignore references to\nforces"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -945,12 +1069,12 @@
      "problem_md": "Switches 1 and 3 are closed, which turn on lamps 1 and 3. Switch 2 is open. Calculate the current in the mains supply. current = mA",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any attempt to add any currents together;\n(current =) 39 (mA);\n60, 65, 82 (mA) scores 1 mark\nAnswer Notes Marks\n8 any six from:\nMP1. ray A is refracted and changes direction; may be shown on\ndiagram by ray passing\nMP2. ray B is refracted and changes direction; through boundary\nignore reflected rays\nallow 1 mark max. from\nMP1 and MP2 if either\nray is refracted in the\nwrong direction\nMP3. correctly measured angle of incidence for allow 34°-38° for ray A,\neither ray; 58°-62° for ray B\nMP4. correctly calculated angle of refraction for may be shown on\neither ray A or ray B; diagram\nallow ecf from angles of\nincidence\nexpect 24°-28° for A\nand 39°-42° for B\nMP5. water and air have different (optical) condone air having a\ndensities; higher (optical) density\nthan water\nMP6. light travels slower in water than air; allow RA\nMP7. TIR does not happen because water is more ignore calculated values\n(optically) dense than air; of the critical angle as\nnot relevant\nAnswer Notes Marks",
+     "solution_md": "any attempt to add any currents together;\n(current =) 39 (mA);\n60, 65, 82 (mA) scores 1 mark\nAnswer Notes Marks",
      "mark_points": [
       {
        "id": "2024-06-7-c-ii-MP1",
        "marks": 2,
-       "text_md": "any attempt to add any currents together;\n(current =) 39 (mA);\n60, 65, 82 (mA) scores 1 mark\nAnswer Notes Marks\n8 any six from:\nMP1. ray A is refracted and changes direction; may be shown on\ndiagram by ray passing\nMP2. ray B is refracted and changes direction; through boundary\nignore reflected rays\nallow 1 mark max. from\nMP1 and MP2 if either\nray is refracted in the\nwrong direction\nMP3. correctly measured angle of incidence for allow 34°-38° for ray A,\neither ray; 58°-62° for ray B\nMP4. correctly calculated angle of refraction for may be shown on\neither ray A or ray B; diagram\nallow ecf from angles of\nincidence\nexpect 24°-28° for A\nand 39°-42° for B\nMP5. water and air have different (optical) condone air having a\ndensities; higher (optical) density\nthan water\nMP6. light travels slower in water than air; allow RA\nMP7. TIR does not happen because water is more ignore calculated values\n(optically) dense than air; of the critical angle as\nnot relevant\nAnswer Notes Marks"
+       "text_md": "any attempt to add any currents together;\n(current =) 39 (mA);\n60, 65, 82 (mA) scores 1 mark\nAnswer Notes Marks"
       }
      ],
      "source_page": 17,
@@ -987,7 +1111,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows two rays of light, A and B, incident on the boundary between air and water. light source drawn to scale A B air water The refractive index of water is 1.33 Explain the paths of the two rays of light after they strike the boundary between air and water. Include calculations in your answer and draw on the diagram to support your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any six from:\nMP1. ray A is refracted and changes direction; may be shown on\ndiagram by ray passing\nMP2. ray B is refracted and changes direction; through boundary\nignore reflected rays\nallow 1 mark max. from\nMP1 and MP2 if either\nray is refracted in the\nwrong direction\nMP3. correctly measured angle of incidence for allow 34°-38° for ray A,\neither ray; 58°-62° for ray B\nMP4. correctly calculated angle of refraction for may be shown on\neither ray A or ray B; diagram\nallow ecf from angles of\nincidence\nexpect 24°-28° for A\nand 39°-42° for B\nMP5. water and air have different (optical) condone air having a\ndensities; higher (optical) density\nthan water\nMP6. light travels slower in water than air; allow RA\nMP7. TIR does not happen because water is more ignore calculated values\n(optically) dense than air; of the critical angle as\nnot relevant\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-8-MP1",
+       "marks": 6,
+       "text_md": "any six from:\nMP1. ray A is refracted and changes direction; may be shown on\ndiagram by ray passing\nMP2. ray B is refracted and changes direction; through boundary\nignore reflected rays\nallow 1 mark max. from\nMP1 and MP2 if either\nray is refracted in the\nwrong direction\nMP3. correctly measured angle of incidence for allow 34°-38° for ray A,\neither ray; 58°-62° for ray B\nMP4. correctly calculated angle of refraction for may be shown on\neither ray A or ray B; diagram\nallow ecf from angles of\nincidence\nexpect 24°-28° for A\nand 39°-42° for B\nMP5. water and air have different (optical) condone air having a\ndensities; higher (optical) density\nthan water\nMP6. light travels slower in water than air; allow RA\nMP7. TIR does not happen because water is more ignore calculated values\n(optically) dense than air; of the critical angle as\nnot relevant\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
@@ -1028,12 +1160,12 @@
      "problem_md": "During an aeroplane flight, a passenger drinks some water from a plastic bottle. The passenger then replaces the top to seal the bottle, as shown in diagram 1. air water Diagram 1 The air pressure outside the bottle is 80 kPa. State the air pressure inside the bottle just after the bottle has been sealed. air pressure = kPa",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "80 (kPa);\n(b) any two from:\nMP1. pressure (in aeroplane) increases; allow idea that pressure\noutside bottle is greater\nthan inside bottle\nMP2. (resultant) force (inwards) on bottle;\nMP3. idea that decreasing volume (in bottle)\nincreases pressure (in bottle);\n(c) any three from: allow particles / atoms\nfor molecules\nMP1. (direction of) movement of molecules is\nrandom;\nMP2. molecules collide with the (bottle) surface; allow equivalent words\nfor collide e.g. bounce,\nhit etc.\nignore ‘molecules\ncollide’ (with each\nother)\nMP3. exert a force (on the surface);\nMP4. pressure is force on an area; allow if given in formula\nformat\nAnswer Notes Marks",
+     "solution_md": "80 (kPa);",
      "mark_points": [
       {
        "id": "2024-06-9-a-MP1",
        "marks": 1,
-       "text_md": "80 (kPa);\n(b) any two from:\nMP1. pressure (in aeroplane) increases; allow idea that pressure\noutside bottle is greater\nthan inside bottle\nMP2. (resultant) force (inwards) on bottle;\nMP3. idea that decreasing volume (in bottle)\nincreases pressure (in bottle);\n(c) any three from: allow particles / atoms\nfor molecules\nMP1. (direction of) movement of molecules is\nrandom;\nMP2. molecules collide with the (bottle) surface; allow equivalent words\nfor collide e.g. bounce,\nhit etc.\nignore ‘molecules\ncollide’ (with each\nother)\nMP3. exert a force (on the surface);\nMP4. pressure is force on an area; allow if given in formula\nformat\nAnswer Notes Marks"
+       "text_md": "80 (kPa);"
       }
      ],
      "source_page": 20,
@@ -1062,7 +1194,15 @@
      "question_type": "structured",
      "problem_md": "As the aeroplane descends, the air pressure inside the aeroplane changes. When the aeroplane lands, the passenger notices that the plastic bottle has collapsed, as shown in diagram 2. air water Diagram 2 Explain why the bottle has collapsed.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. pressure (in aeroplane) increases; allow idea that pressure\noutside bottle is greater\nthan inside bottle\nMP2. (resultant) force (inwards) on bottle;\nMP3. idea that decreasing volume (in bottle)\nincreases pressure (in bottle);",
+     "mark_points": [
+      {
+       "id": "2024-06-9-b-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. pressure (in aeroplane) increases; allow idea that pressure\noutside bottle is greater\nthan inside bottle\nMP2. (resultant) force (inwards) on bottle;\nMP3. idea that decreasing volume (in bottle)\nincreases pressure (in bottle);"
+      }
+     ],
      "source_page": 21,
      "assets": [
       {
@@ -1092,7 +1232,15 @@
      "question_type": "structured",
      "problem_md": "Explain how gas molecules in the air exert a pressure on the surface of the bottle.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from: allow particles / atoms\nfor molecules\nMP1. (direction of) movement of molecules is\nrandom;\nMP2. molecules collide with the (bottle) surface; allow equivalent words\nfor collide e.g. bounce,\nhit etc.\nignore ‘molecules\ncollide’ (with each\nother)\nMP3. exert a force (on the surface);\nMP4. pressure is force on an area; allow if given in formula\nformat\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-9-c-MP1",
+       "marks": 3,
+       "text_md": "any three from: allow particles / atoms\nfor molecules\nMP1. (direction of) movement of molecules is\nrandom;\nMP2. molecules collide with the (bottle) surface; allow equivalent words\nfor collide e.g. bounce,\nhit etc.\nignore ‘molecules\ncollide’ (with each\nother)\nMP3. exert a force (on the surface);\nMP4. pressure is force on an area; allow if given in formula\nformat\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1434,12 +1582,12 @@
      "problem_md": "The electronic device is connected to the power bank using a long cable. Suggest how using a long cable affects the time taken to recharge the electronic device when compared with a short cable.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that longer cable has more resistance; ignore longer distance\n(so) charging current will be less AND time taken both ideas needed for\nwill increase; the mark\n(c) any four from:\nMP1. determination of total charge needed for 27.8 (Ah) or 100 080 C\nthe week;\nMP2. quantitative comparison to power bank allow 27.8 is greater\ncharge; than 26.8\nallow power bank is\n1 Ah less than needed\nallow ecf from MP1\nMP3. idea that power bank cannot recharge all allow power bank is not\ndevices (from completely flat); suitable/enough\nMP4. idea that devices will not always be allow idea that devices\ncompletely empty when recharged; could be partially\ncharged\nMP5. idea that devices could be used less (which\nwould make them last longer before\nrecharging);\nMP6. idea that other charging facilities might be allow idea that power\navailable; bank could be\nrecharged during trip\nAnswer Notes Marks",
+     "solution_md": "idea that longer cable has more resistance; ignore longer distance\n(so) charging current will be less AND time taken both ideas needed for\nwill increase; the mark",
      "mark_points": [
       {
        "id": "2024-06-11-b-ii-MP1",
        "marks": 2,
-       "text_md": "idea that longer cable has more resistance; ignore longer distance\n(so) charging current will be less AND time taken both ideas needed for\nwill increase; the mark\n(c) any four from:\nMP1. determination of total charge needed for 27.8 (Ah) or 100 080 C\nthe week;\nMP2. quantitative comparison to power bank allow 27.8 is greater\ncharge; than 26.8\nallow power bank is\n1 Ah less than needed\nallow ecf from MP1\nMP3. idea that power bank cannot recharge all allow power bank is not\ndevices (from completely flat); suitable/enough\nMP4. idea that devices will not always be allow idea that devices\ncompletely empty when recharged; could be partially\ncharged\nMP5. idea that devices could be used less (which\nwould make them last longer before\nrecharging);\nMP6. idea that other charging facilities might be allow idea that power\navailable; bank could be\nrecharged during trip\nAnswer Notes Marks"
+       "text_md": "idea that longer cable has more resistance; ignore longer distance\n(so) charging current will be less AND time taken both ideas needed for\nwill increase; the mark"
       }
      ],
      "source_page": 27,
@@ -1459,7 +1607,15 @@
      "question_type": "structured",
      "problem_md": "A student owns three electronic devices. Each electronic device stores a different amount of charge. The table gives some information about the charge stored by the electronic devices and how often they need to be recharged. Charge stored Frequency of Electronic device in Ah recharging A 2.4 once every day B 4.2 once during the week C 6.8 once during the week The power bank stores a maximum charge of 26.8 Ah. The student needs to take these three electronic devices on a school trip for one week. Determine whether the maximum charge of the power bank is enough to recharge the batteries of the three electronic devices during the school trip.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. determination of total charge needed for 27.8 (Ah) or 100 080 C\nthe week;\nMP2. quantitative comparison to power bank allow 27.8 is greater\ncharge; than 26.8\nallow power bank is\n1 Ah less than needed\nallow ecf from MP1\nMP3. idea that power bank cannot recharge all allow power bank is not\ndevices (from completely flat); suitable/enough\nMP4. idea that devices will not always be allow idea that devices\ncompletely empty when recharged; could be partially\ncharged\nMP5. idea that devices could be used less (which\nwould make them last longer before\nrecharging);\nMP6. idea that other charging facilities might be allow idea that power\navailable; bank could be\nrecharged during trip\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-11-c-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. determination of total charge needed for 27.8 (Ah) or 100 080 C\nthe week;\nMP2. quantitative comparison to power bank allow 27.8 is greater\ncharge; than 26.8\nallow power bank is\n1 Ah less than needed\nallow ecf from MP1\nMP3. idea that power bank cannot recharge all allow power bank is not\ndevices (from completely flat); suitable/enough\nMP4. idea that devices will not always be allow idea that devices\ncompletely empty when recharged; could be partially\ncharged\nMP5. idea that devices could be used less (which\nwould make them last longer before\nrecharging);\nMP6. idea that other charging facilities might be allow idea that power\navailable; bank could be\nrecharged during trip\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 28,
      "assets": [
       {
@@ -1504,12 +1660,12 @@
      "problem_md": "By drawing a tangent to the curve, determine the acceleration of the car at a time of 20 s. acceleration = m/s2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "appropriate attempt to draw tangent at 20s on the\ngraph;\nacceleration = gradient; allow if seen explicitly\nor from a clear attempt\nto calculate a gradient\nacceleration in the range 1.00-1.20 (m/s2); scores 3 marks total\nacceleration in the range 1.05-1.15 (m/s2); scores 4 marks total\n(b) distance = area under line; seen explicitly or\nimplied by working\nsuitable method used; allow\n• use of trapeziums\n• rectangles and\ntriangles\n• counting squares\nestimation\ndistance in the range = 3200-4200 (m); scores 3 marks total\ndistance in the range = 3500-4000 (m); scores 4 marks total\ndistance in the range = 3700-3800 (m); scores 5 marks total\n(c) speed/velocity is constant; allow terminal velocity\nidea that driving force of car = air resistance; allow forces are\nbalanced\nresultant force is zero; allow acceleration is\nzero\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "appropriate attempt to draw tangent at 20s on the\ngraph;\nacceleration = gradient; allow if seen explicitly\nor from a clear attempt\nto calculate a gradient\nacceleration in the range 1.00-1.20 (m/s2); scores 3 marks total\nacceleration in the range 1.05-1.15 (m/s2); scores 4 marks total",
      "mark_points": [
       {
        "id": "2024-06-12-a-MP1",
        "marks": 4,
-       "text_md": "appropriate attempt to draw tangent at 20s on the\ngraph;\nacceleration = gradient; allow if seen explicitly\nor from a clear attempt\nto calculate a gradient\nacceleration in the range 1.00-1.20 (m/s2); scores 3 marks total\nacceleration in the range 1.05-1.15 (m/s2); scores 4 marks total\n(b) distance = area under line; seen explicitly or\nimplied by working\nsuitable method used; allow\n• use of trapeziums\n• rectangles and\ntriangles\n• counting squares\nestimation\ndistance in the range = 3200-4200 (m); scores 3 marks total\ndistance in the range = 3500-4000 (m); scores 4 marks total\ndistance in the range = 3700-3800 (m); scores 5 marks total\n(c) speed/velocity is constant; allow terminal velocity\nidea that driving force of car = air resistance; allow forces are\nbalanced\nresultant force is zero; allow acceleration is\nzero\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "appropriate attempt to draw tangent at 20s on the\ngraph;\nacceleration = gradient; allow if seen explicitly\nor from a clear attempt\nto calculate a gradient\nacceleration in the range 1.00-1.20 (m/s2); scores 3 marks total\nacceleration in the range 1.05-1.15 (m/s2); scores 4 marks total"
       }
      ],
      "source_page": 30,
@@ -1529,7 +1685,15 @@
      "question_type": "structured",
      "problem_md": "Determine the distance travelled by the car during the first 80 s of its journey. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "distance = area under line; seen explicitly or\nimplied by working\nsuitable method used; allow\n• use of trapeziums\n• rectangles and\ntriangles\n• counting squares\nestimation\ndistance in the range = 3200-4200 (m); scores 3 marks total\ndistance in the range = 3500-4000 (m); scores 4 marks total\ndistance in the range = 3700-3800 (m); scores 5 marks total",
+     "mark_points": [
+      {
+       "id": "2024-06-12-b-MP1",
+       "marks": 5,
+       "text_md": "distance = area under line; seen explicitly or\nimplied by working\nsuitable method used; allow\n• use of trapeziums\n• rectangles and\ntriangles\n• counting squares\nestimation\ndistance in the range = 3200-4200 (m); scores 3 marks total\ndistance in the range = 3500-4000 (m); scores 4 marks total\ndistance in the range = 3700-3800 (m); scores 5 marks total"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],
@@ -1547,7 +1711,15 @@
      "question_type": "structured",
      "problem_md": "Explain the motion of the car after 80 s.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "speed/velocity is constant; allow terminal velocity\nidea that driving force of car = air resistance; allow forces are\nbalanced\nresultant force is zero; allow acceleration is\nzero\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2024-06-12-c-MP1",
+       "marks": 3,
+       "text_md": "speed/velocity is constant; allow terminal velocity\nidea that driving force of car = air resistance; allow forces are\nbalanced\nresultant force is zero; allow acceleration is\nzero\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],

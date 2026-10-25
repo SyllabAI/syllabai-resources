@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:43:30Z",
+ "generated_utc": "2026-10-25T22:07:03Z",
  "series": "2025-06",
  "paper": "1P",
  "gates": [
@@ -41,19 +41,10 @@
   },
   {
    "gate": "G3-mcq-integrity",
-   "status": "FAIL",
-   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "status": "PASS",
+   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True",
    "details": {
-    "issues": [
-     {
-      "part": "4(b)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "4(c)",
-      "issue": "no keyed correct choice"
-     }
-    ]
+    "issues": []
    }
   },
   {
@@ -72,32 +63,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 28/49 (57%)",
+   "status": "PASS",
+   "summary": "MS linkage 49/49 (100%)",
    "details": {
-    "unmatched": [
-     "1(a)(i)",
-     "1(a)(ii)",
-     "2(a)(i)",
-     "2(a)(ii)",
-     "3(a)(i)",
-     "3(a)(ii)",
-     "3(a)(iii)",
-     "3(a)(iv)",
-     "4(b)",
-     "4(c)",
-     "5",
-     "6(c)",
-     "7(a)(i)",
-     "7(a)(ii)",
-     "7(b)",
-     "8(c)",
-     "9(b)",
-     "10(b)",
-     "11(a)(i)",
-     "11(a)(ii)",
-     "11(a)(iii)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -112,7 +81,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 28/28 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 49/49 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -142,100 +111,8 @@
  ],
  "review_queue": [
   {
-   "part": "4(b)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "4(c)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
    "part": "10(c)(i)",
    "reason": "figure crop emitted — human verify (assets/asset_10_c_i_grid.png)"
-  },
-  {
-   "part": "1(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "1(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(a)(iii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(a)(iv)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "9(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "11(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "11(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "11(a)(iii)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
  "ocr_pages": [],

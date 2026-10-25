@@ -17,7 +17,19 @@ Describe what is meant by elastic behaviour.
 > length;
 > when the load / force is removed; condone mass / weight
 > for load
-> (b) axes labelled “extension” and “load”/”force”; ignore units
+
+- **(2)** idea that material returns to its original shape /
+
+### 1(b) [3]
+
+The material obeys Hooke’s law. Sketch a graph for this material to show that it obeys Hooke’s law as it is stretched. You should label both axes with appropriate physical quantities.
+
+![graph — official paper figure (qp.pdf p.3)](assets/asset_1_b_graph.png)
+
+
+**Mark scheme answer**
+
+> axes labelled “extension” and “load”/”force”; ignore units
 > ignore orientation of
 > axes
 > straight line of positive gradient drawn throughout; judge by eye
@@ -37,13 +49,7 @@ Describe what is meant by elastic behaviour.
 > axis above zero
 > Answer Notes Marks
 
-- **(2)** idea that material returns to its original shape /
-
-### 1(b) [3]
-
-The material obeys Hooke’s law. Sketch a graph for this material to show that it obeys Hooke’s law as it is stretched. You should label both axes with appropriate physical quantities.
-
-![graph — official paper figure (qp.pdf p.3)](assets/asset_1_b_graph.png)
+- **(3)** axes labelled “extension” and “load”/”force”; ignore units
 
 
 ## Question 2 (7 marks)
@@ -66,15 +72,6 @@ Add labels to diagram 1 to show the poles of the bar magnets.
 > ignore attempt at labelling
 > poles on far sides of
 > magnets
-> (b) idea that steel is a hard magnetic material; allow steel keeps its
-> magnetism/magnetic field
-> allow steel is hard to
-> demagnetise
-> (c) any two from: allow equivalent
-> statements
-> MP1. (field) lines are straight;
-> MP2. (field) lines are evenly spaced;
-> MP3. (field) lines are parallel;
 
 - **(1)** N on left pole and S on right pole; allow north for N and south
 
@@ -82,11 +79,32 @@ Add labels to diagram 1 to show the poles of the bar magnets.
 
 The bar magnets are made from steel. Give one reason why steel is a good material for making bar magnets.
 
+
+**Mark scheme answer**
+
+> idea that steel is a hard magnetic material; allow steel keeps its
+> magnetism/magnetic field
+> allow steel is hard to
+> demagnetise
+
+- **(1)** idea that steel is a hard magnetic material; allow steel keeps its
+
 ### 2(c) [2]
 
 Explain how diagram 1 shows a uniform magnetic field.
 
 ![diagram — official paper figure (qp.pdf p.5) — shared with asset_2_c_diagram_stem](assets/asset_2_c_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> any two from: allow equivalent
+> statements
+> MP1. (field) lines are straight;
+> MP2. (field) lines are evenly spaced;
+> MP3. (field) lines are parallel;
+
+- **(2)** any two from: allow equivalent
 
 ### 2(d)(i) [1]
 
@@ -132,9 +150,34 @@ A winch is used to pull a truck along a horizontal road. The winch is connected 
 
 State the formula linking work done, force and distance moved in the direction of the force.
 
+
+**Mark scheme answer**
+
+> work (done) = force × distance (moved in direction of allow standard symbols and
+> force); rearrangements
+> e.g. W = F × s
+> allow d for distance
+
+- **(1)** work (done) = force × distance (moved in direction of allow standard symbols and
+
 ### 3(a)(ii) [3]
 
 Calculate the force that the rope exerts on the truck. force = N
+
+
+**Mark scheme answer**
+
+> substitution; ignore units
+> rearrangement;
+> evaluation; -1 for POT error
+> e.g.
+> 41000 = force × 15
+> force = 41000 / 15
+> (force =) 2700 (N) allow correct answers to
+> more significant figures e.g.
+> 2733.3…(N)
+
+- **(3)** substitution; ignore units
 
 ### 3(b)(i) [3]
 
@@ -191,9 +234,31 @@ A teacher investigates the count rate detected from a radioactive source.
 
 State one source of background radiation.
 
+
+**Mark scheme answer**
+
+> (the) Sun / cosmic rays / rocks / radon (in the air) / reject CMBR
+> weapons testing / food / (named) nuclear disasters allow soil
+> / medical equipment;
+
+- **(1)** (the) Sun / cosmic rays / rocks / radon (in the air) / reject CMBR
+
 ### 4(a)(ii) [4]
 
 Describe how the teacher could measure the count rate from a radioactive source and correct the count rate for background radiation.
+
+
+**Mark scheme answer**
+
+> use of GM tube (and counter, timer); allow radiation detector, Geiger
+> counter for GM tube
+> idea of removing source (from room); e.g. measuring count with source
+> and without source
+> idea of measuring background count several times
+> and calculating mean;
+> subtract background count from readings;
+
+- **(4)** use of GM tube (and counter, timer); allow radiation detector, Geiger
 
 ### 4(b)(i) [2]
 
@@ -258,16 +323,22 @@ When there is not a sheet of lead between the radioactive source and the radiati
 > e.g.
 > (count rate =) 363 (Bq)
 > (lead thickness =) 1.8 (mm) allow 1.7 – 1.9 (mm)
-> (c) gamma;
-> idea that all beta/alpha would be absorbed by lead
-> / only gamma can penetrate through (thin) lead;
-> Answer Notes Marks
 
 - **(2)** calculated value of 75% of initial count rate;
 
 ### 4(c) [2]
 
 The radioactive source emits only one type of radiation. Explain which type of radiation this radioactive source emits.
+
+
+**Mark scheme answer**
+
+> gamma;
+> idea that all beta/alpha would be absorbed by lead
+> / only gamma can penetrate through (thin) lead;
+> Answer Notes Marks
+
+- **(2)** gamma;
 
 
 ## Question 5 (13 marks)
@@ -290,11 +361,36 @@ Which of these does not affect thinking distance?
 > A is incorrect because consumption of alcohol increases reaction time
 > C is incorrect because thinking distance is determined by speed
 > D is incorrect because tiredness increases reaction time
-> (b) B (ice on the road);
+
+- **(1)** Answer B: condition of the road
+
+### 5(b) [1]
+
+Which of these would increase the braking distance of the car?
+
+- **(A)** faster reaction time of driver
+- **(B)** ice on the road  ✔
+- **(C)** more powerful brakes
+- **(D)** tyres with more grip
+
+
+**Mark scheme answer**
+
+> B (ice on the road);
 > A is incorrect because reaction time does not affect braking distance
 > C is incorrect because more powerful brakes would decrease the braking distance
 > D is incorrect because tyres with more grip would decrease the braking distance
-> (c) idea that stopping distance = thinking distance + stated or implied
+
+- **(1)** Answer B: ice on the road
+
+### 5(c) [3]
+
+Determine the stopping distance of the car when the speed of the car is 20 m / s. stopping distance = m
+
+
+**Mark scheme answer**
+
+> idea that stopping distance = thinking distance + stated or implied
 > braking distance;
 > correct reading of either distance; allow 26.0-27.0 (m) for
 > braking distance
@@ -307,20 +403,7 @@ Which of these does not affect thinking distance?
 > thinking distance = 10.0 m / braking distance = 26.5 m
 > stopping distance = (10.0 + 26.5) = 36.5 (m)
 
-- **(1)** Answer B: condition of the road
-
-### 5(b) [1]
-
-Which of these would increase the braking distance of the car?
-
-- **(A)** faster reaction time of driver
-- **(B)** ice on the road
-- **(C)** more powerful brakes
-- **(D)** tyres with more grip
-
-### 5(c) [3]
-
-Determine the stopping distance of the car when the speed of the car is 20 m / s. stopping distance = m
+- **(3)** idea that stopping distance = thinking distance + stated or implied
 
 ### 5(d)(i) [1]
 
@@ -353,7 +436,17 @@ Determine the reaction time of the driver of the car. reaction time = s
 > thinking distance = 15 m when speed = 30 m/s
 > time = distance / speed
 > (time = 15 / 30 =) 0.50 (s)
-> (e) correct braking distance reading from graph; allow 53 seen anywhere
+
+- **(3)** suitable pair of readings taken from graph; i.e. (30,15), (20,10),
+
+### 5(e) [4]
+
+Calculate the mean braking acceleration of the car as it brakes to a stop from an initial speed of 30 m / s. acceleration = m / s2
+
+
+**Mark scheme answer**
+
+> correct braking distance reading from graph; allow 53 seen anywhere
 > in working
 > substitution into v2 = u2 + 2×a×s;
 > rearrangement;
@@ -373,11 +466,7 @@ Determine the reaction time of the driver of the car. reaction time = s
 > (a =) (-)8.5 (m/s2) allow 8.49-8.65
 > Answer Notes Marks
 
-- **(3)** suitable pair of readings taken from graph; i.e. (30,15), (20,10),
-
-### 5(e) [4]
-
-Calculate the mean braking acceleration of the car as it brakes to a stop from an initial speed of 30 m / s. acceleration = m / s2
+- **(4)** correct braking distance reading from graph; allow 53 seen anywhere
 
 
 ## Question 6 (6 marks)
@@ -431,7 +520,19 @@ State the name of the wave behaviour responsible for the path of the ray of ligh
 > spelling
 > reject if spelling implies
 > reflection
-> (c) (total internal) reflection;
+
+- **(1)** refraction; allow recognisable
+
+### 6(c) [3]
+
+Diagram 2 shows the path of the ray of light as it travels through the optical fibre. Diagram 2 Explain the path of the ray of light as it travels through the optical fibre.
+
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> (total internal) reflection;
 > (because) core has higher refractive index than air; allow core is more
 > (optically) dense than
 > air / light travels from a
@@ -441,13 +542,7 @@ State the name of the wave behaviour responsible for the path of the ray of ligh
 > critical angle;
 > Answer Notes Marks
 
-- **(1)** refraction; allow recognisable
-
-### 6(c) [3]
-
-Diagram 2 shows the path of the ray of light as it travels through the optical fibre. Diagram 2 Explain the path of the ray of light as it travels through the optical fibre.
-
-![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_c_diagram.png)
+- **(3)** (total internal) reflection;
 
 
 ## Question 7 (14 marks)
@@ -460,9 +555,24 @@ A student uses the circuit shown in diagram 1 to investigate how the current cha
 
 Give the name of component Y.
 
+
+**Mark scheme answer**
+
+> variable resistor; allow rheostat
+
+- **(1)** variable resistor; allow rheostat
+
 ### 7(a)(ii) [1]
 
 Give a reason why component Y is included in the circuit.
+
+
+**Mark scheme answer**
+
+> idea that it allows the current / voltage (across ignore references to
+> lamp) to be varied; changing resistance
+
+- **(1)** idea that it allows the current / voltage (across ignore references to
 
 ### 7(b)(i) [1]
 
@@ -541,14 +651,6 @@ The student disconnects the cell and reconnects it with its terminals reversed. 
 > through 180° rotation into negative quadrant of
 > graph;
 > curve starts at (0,0) and finishes at (-12,-0.5); DOP
-> (c) any two from: allow description of
-> electron movement for
-> current
-> MP1. idea that current changes direction;
-> MP2. LED only allows current in one direction;
-> MP3. LED will not light up when current in allow RA
-> reverse direction;
-> Answer Notes Marks
 
 - **(2)** curve drawn of similar shape to existing but
 
@@ -557,6 +659,20 @@ The student disconnects the cell and reconnects it with its terminals reversed. 
 The student replaces the filament lamp with a light emitting diode (LED) and replaces the cell with an alternating current (a.c.) power supply, as shown in diagram 2. The student also removes the ammeter and voltmeter from the circuit. component Y Diagram 2 Explain why the LED flashes on and off in this circuit.
 
 ![diagram — official paper figure (qp.pdf p.20)](assets/asset_7_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> any two from: allow description of
+> electron movement for
+> current
+> MP1. idea that current changes direction;
+> MP2. LED only allows current in one direction;
+> MP3. LED will not light up when current in allow RA
+> reverse direction;
+> Answer Notes Marks
+
+- **(2)** any two from: allow description of
 
 
 ## Question 8 (8 marks)
@@ -573,7 +689,17 @@ Explain which of these stars has the highest surface temperature.
 > Rigel;
 > (because) idea that colour depends on surface ignore links between mass
 > temperature; and temperature
-> (b) any six from:
+
+- **(2)** Rigel;
+
+### 8(b) [6]
+
+Discuss the evolution of the stars Rigel and Sirius.
+
+
+**Mark scheme answer**
+
+> any six from:
 > for both stars:
 > MP1. both stars began in a nebula; allow gas/dust cloud for
 > nebula
@@ -592,11 +718,7 @@ Explain which of these stars has the highest surface temperature.
 > dwarf;
 > Answer Notes Marks
 
-- **(2)** Rigel;
-
-### 8(b) [6]
-
-Discuss the evolution of the stars Rigel and Sirius.
+- **(6)** any six from:
 
 
 ## Question 9 (11 marks)
@@ -613,9 +735,23 @@ This question is about waves.
 
 Determine the amplitude of the wave by measuring it with a ruler. amplitude = cm
 
+
+**Mark scheme answer**
+
+> amplitude in the range of 0.8 – 0.9 (cm);
+
+- **(1)** amplitude in the range of 0.8 – 0.9 (cm);
+
 ### 9(a)(ii) [1]
 
 Determine the wavelength of the wave by measuring it with a ruler. wavelength = cm
+
+
+**Mark scheme answer**
+
+> wavelength in the range 3.9 – 4.0 (cm);
+
+- **(1)** wavelength in the range 3.9 – 4.0 (cm);
 
 ### 9(b)(i) [1]
 
@@ -700,7 +836,17 @@ On the axes, sketch how the temperature of the hot water and the temperature of 
 > temperature; reject if intermediate
 > temperature closer to
 > 70 than 5
-> (b) any 4 from:
+
+- **(4)** line decreases from 70;
+
+### 10(b) [4]
+
+Explain why the temperatures of the hot water and the cold water change. You should refer to different types of thermal energy transfer in your answer.
+
+
+**Mark scheme answer**
+
+> any 4 from:
 > MP1. hot water loses energy / cold water gains
 > energy;
 > MP2. (thermal) energy is transferred from hot to allow cold water gains
@@ -714,7 +860,17 @@ On the axes, sketch how the temperature of the hot water and the temperature of 
 > by convection/evaporation/radiation;
 > MP6. little/no (thermal) energy is transferred out
 > through the insulated plastic cup;
-> (c) (energy transfer by) convection/radiation allow reference to
+
+- **(4)** any 4 from:
+
+### 10(c) [3]
+
+Explain how placing a lid on the plastic cup would affect the results.
+
+
+**Mark scheme answer**
+
+> (energy transfer by) convection/radiation allow reference to
 > decreases; evaporation
 > idea that equilibrium temperature will be higher; condone no change to
 > intermediate
@@ -723,15 +879,7 @@ On the axes, sketch how the temperature of the hot water and the temperature of 
 > will be longer;
 > Answer Notes Marks
 
-- **(4)** line decreases from 70;
-
-### 10(b) [4]
-
-Explain why the temperatures of the hot water and the cold water change. You should refer to different types of thermal energy transfer in your answer.
-
-### 10(c) [3]
-
-Explain how placing a lid on the plastic cup would affect the results.
+- **(3)** (energy transfer by) convection/radiation allow reference to
 
 
 ## Question 11 (9 marks)
@@ -741,13 +889,54 @@ Explain how placing a lid on the plastic cup would affect the results.
 
 Explain how the atoms exert a pressure on the walls of the container.
 
+
+**Mark scheme answer**
+
+> idea that atoms collide with (all) walls of the
+> container;
+> force is exerted on walls (during each collision);
+> pressure is force on an area; allow p=F/A
+
+- **(3)** idea that atoms collide with (all) walls of the
+
 ### 11(a)(ii) [2]
 
 Explain why the pressure of the gas in the container decreases as its temperature decreases. The volume of the container does not change.
+
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. particles move slower; allow KE decreases / eq
+> MP2. particles collide with walls less frequently; allow less often, less times
+> per second etc.
+> MP3. force on container decreases; allow particles collide less
+> hard with walls
+
+- **(2)** any two from:
 
 ### 11(b) [4]
 
 Diagram 2 shows a device called a magneto-optical trap (MOT). Physicists use the device to cool gases to extremely low temperatures. The MOT uses laser beams and magnetic fields to trap a small collection of atoms with extremely small kinetic energies. trapped atoms laser beams coils producing magnetic field Diagram 2 Each trapped atom has a mass of 5.0 × 10–27 kg and a mean speed of 73 m / s. Calculate the temperature of the trapped atoms. [mean kinetic energy of an atom = 2.1 × 10–23 × temperature in kelvin] temperature = K
 
 ![diagram — official paper figure (qp.pdf p.31)](assets/asset_11_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> substitution into KE = ½ × m × v2;
+> evaluation of KE;
+> rearrangement of given formula;
+> evaluation of kelvin temperature; allow ecf from incorrect
+> KE
+> e.g.
+> KE = 0.5 × 5.0 × 10-27 × 732
+> KE = 1.3 × 10-23 (J) allow 1.33225 × 10-23 (J)
+> T = KE / 2.1 × 10-23
+> (T =) 0.63 (K) allow answers in the range
+> of 0.61-0.64 (K)
+> Pearson Education Limited. Registered company number 872828
+> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
+
+- **(4)** substitution into KE = ½ × m × v2;
 

@@ -38,7 +38,7 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.18.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.19.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 
 # ---------------------------------------------------------------- spec lanes
 # v0.16.0 generalization: the converter serves one spec lane per run (--spec).
@@ -901,7 +901,9 @@ def parse_ms(ms_lines):
 MS_HEADER_TOKENS = {"question", "number", "question number", "answer", "notes", "marks"}
 MS_V_TOTAL_RE = re.compile(r"^Total for Question \d{1,2} = \d{1,2} marks$", re.I)
 MS_V_BARE_NUM_RE = re.compile(r"^(\d{1,2})$")
-MS_V_PAREN_LETTER_RE = re.compile(r"^\(([a-h])\)$")
+# v0.18.0: inner-space tolerance '(\s*a\s*)' — the corpus census found 4 rows
+# where the letter cell carries stray padding ('(a )' shapes via pdftotext).
+MS_V_PAREN_LETTER_RE = re.compile(r"^\(\s*([a-h])\s*\)$")
 MS_V_PAREN_ROMAN_RE = re.compile(r"^\((i{1,3}|iv|v|vi{1,3})\)$", re.I)
 # v0.17.0 (1P 2024-06 probe): the same layout family occasionally GLUES the
 # question number and the letter marker onto one row — '3 (a)' (observed once,
@@ -917,6 +919,56 @@ MS_V_GLUED_LETTER_ROMAN_RE = re.compile(r"^\(([a-h])\)\s*\((i{1,3}|iv|v|vi{1,3})
 # '(iii)' bare). Same ascending-sequence gate as the bare form: a content line
 # that merely opens with a roman-shaped token can never hijack a marker.
 MS_V_GLUED_ROMAN_CONTENT_RE = re.compile(r"^\((i{1,3}|iv|v|vi{1,3})\)\s+(\S.*)$", re.I)
+# v0.18.0 (MS-table parser wave, 53-slice corpus census receipted in
+# physics-intake/ms-forensics/): three further marker-row families the
+# vertical layer carries that v0.17.4 lost — each proven by census counts
+# over all 53 landed 4PH1 slices before a line of this was written:
+#   triple rows '4 (a)   (i)   A (friction);  [marks]' — qn+letter+roman+
+#     content on ONE row (175 rows). v0.17.4's qn+letter rule fired first and
+#     swallowed the roman marker into the entry's content, so roman parts
+#     never existed and their MCQ answer cells came out polluted.
+#   letter+content rows '(b)   galaxy;   allow named galaxy  [marks]' — the
+#     letter marker with its answer/notes text glued to it (842 rows).
+#     v0.17.4 matched nothing and appended the WHOLE row to the previous
+#     entry's content, losing the letter entry entirely — the single largest
+#     linkage-loss class (2024-06 2P missed 1(b)/2(b)/3(b)/5(b)/7(b) exactly
+#     this way).
+#   qn+content rows '8   any six from:   [marks]' — the question number
+#     glued straight to answer content with NO letter cell (2024-06 1P Q8;
+#     v0.17.4 appended the row to the previous question's last entry and the
+#     whole question vanished). Acceptance is DELIBERATELY strict — ALL of:
+#     the ascending-question law, a trailing marks-column digit (2+ spaces
+#     then 1-2 digits, line-end), and column-0 placement in the RAW line —
+#     because numeric answer lines share the stripped shape ('39 000 = 0.45
+#     × c × 49', '2 marks max.'): 181 of 198 corpus rows in this family are
+#     plain content, and 0 of the indented ones carry the tail signature.
+# Continuation semantics for every glued opener (incl. the v0.17.0 qn+letter
+# form): when the entry key already exists (multi-page continuations re-print
+# the marker row), the row's own content APPENDS to the existing block —
+# v0.17.4's setdefault silently dropped a re-printed marker row's content.
+# parse_ms_vertical is 4ph1-only (ms_layout='vertical'); chemistry's
+# parse_ms never sees any of this — bit-identity by construction.
+MS_V_GLUED_QN_LETTER_ROMAN_RE = re.compile(
+    r"^(\d{1,2})\s+\(([a-h])\)\s+\((i{1,3}|iv|v|vi{1,3})\)\s*(.*)$", re.I)
+MS_V_GLUED_LETTER_CONTENT_RE = re.compile(r"^\(([a-h])\)\s*(\S.*)$", re.I)
+MS_V_GLUED_QN_CONTENT_RE = re.compile(r"^\s{0,3}(\d{1,2})\s+(\S.*)$")  # v0.18.0: up to 3 leading spaces (marker-column tolerance, 2023-01 2P prints tables 1-2 deep)
+MS_V_QN_CONTENT_TAIL_MARKS_RE = re.compile(r"\s{2,}(\d{1,2})\s*$")
+MS_V_GLUED_LETTER_ROMAN_NOPAREN_RE = re.compile(
+    r"^([a-h])\)\s*\((i{1,3}|iv|v|vi{1,3})\)\s*(.*)$", re.I)
+# v0.18.0: the MCQ row-rebuttal lexicon, hoisted from the keying site so the
+# lane split is explicit. _MS_ROW_REBUTTAL_RE carries the v0.17.4 inline text
+# BYTE-EXACT (including the concatenated-branch quirk '\b\b' that makes its
+# final '(is|are) ... incorrect' branch unreachable — chemistry behaviour is
+# frozen, quirks and all; do not 'fix' it). The vertical variant is the sane
+# alternation and adds the 'does not'/'do not' elimination family the physics
+# tables print (2025-11 2P 2(b): 'A does not affect gravitational field
+# strength').
+_MS_ROW_REBUTTAL_RE = re.compile(
+    r"\bis\s+not\b|\bare\s+not\b|\bcannot\s+be\b"
+    r"\b(?:is|are)\s+(?:\w+\s+)?incorrect\b")
+_MS_V_REBUTTAL_RE = re.compile(
+    r"\bis\s+not\b|\bare\s+not\b|\bcannot\s+be\b|\bdoes\s+not\b|\bdo\s+not\b"
+    r"|\b(?:is|are)\s+(?:\w+\s+)?incorrect\b")
 
 
 def parse_ms_vertical(ms_lines):
@@ -976,11 +1028,45 @@ def parse_ms_vertical(ms_lines):
             if cur is not None:
                 ms_marks.setdefault(cur, v)   # marks digit: first-wins, never content
             continue
+        # v0.18.0: letter-only rows carry a marker-column indent gate (<=3
+        # spaces in the raw line). The corpus census: real letter cells sit at
+        # indent 0-2; the ONLY deeper letter-shaped rows are notes-column
+        # WRAPS of a bare paren token — 2020-01 2P prints 'allow ... for
+        # (a)' wrapped so the continuation line is exactly '(a)' at indent
+        # 65, which reset cur_letter and derailed the next roman gate
+        # (3(b)(ii) never opened). Same gate for roman-only rows (poison
+        # wraps at indent 57-70, real markers at 0-2).
         mlet = MS_V_PAREN_LETTER_RE.fullmatch(s)
-        if mlet:
+        if mlet and (len(ln) - len(ln.lstrip())) <= 3:
             cur_letter = mlet.group(1)
             cur = (cur_q, cur_letter, None)
             entries.setdefault(cur, [])
+            continue
+        # v0.18.0: triple row (qn+letter+roman+content) MUST be tested before
+        # the qn+letter rule — that rule would otherwise accept the row with
+        # '(i) content' swallowed into the entry's first content line.
+        # Marker evidence (the full qn+letter+roman tuple printed on the row)
+        # wins over the running sequence, exactly as for the qn+letter form;
+        # the roman itself stays under the ascending-sequence law.
+        mqlr = MS_V_GLUED_QN_LETTER_ROMAN_RE.match(s)
+        if mqlr:
+            armed = False
+            new_q = int(mqlr.group(1))
+            new_letter = mqlr.group(2)
+            roman = mqlr.group(3).lower()
+            k = (new_q, new_letter)
+            expected = last_roman.get(k, -1) + 1
+            rest = (mqlr.group(4) or "").strip()
+            if ROMAN.index(roman) == expected:
+                cur_q, cur_letter = new_q, new_letter
+                cur = (cur_q, cur_letter, roman)
+                last_roman[k] = expected
+                if cur in entries and rest:
+                    entries[cur].append(rest)   # continuation re-print
+                else:
+                    entries.setdefault(cur, [rest] if rest else [])
+            elif cur is not None:
+                entries[cur].append(ln.rstrip())
             continue
         mg = MS_V_GLUED_QN_LETTER_RE.match(s)
         if mg:
@@ -989,7 +1075,11 @@ def parse_ms_vertical(ms_lines):
             cur_letter = mg.group(2)
             rest = (mg.group(3) or "").strip()
             cur = (cur_q, cur_letter, None)
-            entries.setdefault(cur, [rest] if rest else [])
+            if cur in entries:
+                if rest:
+                    entries[cur].append(rest)   # v0.18.0: continuation re-print
+            else:
+                entries[cur] = [rest] if rest else []
             continue
         mgr = MS_V_GLUED_LETTER_ROMAN_RE.match(s)
         if mgr:
@@ -998,13 +1088,92 @@ def parse_ms_vertical(ms_lines):
             k = (cur_q, cur_letter)
             expected = last_roman.get(k, -1) + 1
             rest = (mgr.group(3) or "").strip()
+            lead = len(ln) - len(ln.lstrip())
             if cur_q is not None and ROMAN.index(roman) == expected:
                 cur = (cur_q, cur_letter, roman)
                 last_roman[k] = expected
                 entries.setdefault(cur, [rest] if rest else [])
+            elif cur_q is not None and lead <= 3 and ROMAN.index(roman) == expected - 1 and cur in entries:
+                # v0.18.0: continuation re-print of the marker row on a new
+                # page (same roman again, marker column) — append, never lose
+                cur = (cur_q, cur_letter, roman)
+                if rest:
+                    entries[cur].append(rest)
+            elif cur_q is not None and lead <= 3 and not any(kk[0] == cur_q and kk[1] == cur_letter for kk in entries):
+                # v0.18.0 orphan-roman re-anchor: the letter+roman row is the
+                # FIRST row of its letter family yet carries a roman past (i)
+                # — the (i) row's letter cell was lost upstream (2026-06 2P
+                # prints Q4(c)(ii) with no preceding (c) marker because
+                # pdftotext merged the (c) cell into the (ii) row). A marker
+                # column row (indent <=3) for a fresh letter family can only
+                # be a marker: re-anchor the roman sequence at it. Cross-
+                # reference content ('use (c)(ii) from...') sits at answer-
+                # column indent >=9 and can never fire this.
+                cur = (cur_q, cur_letter, roman)
+                last_roman[k] = ROMAN.index(roman)
+                entries[cur] = [rest] if rest else []
             elif cur is not None:
                 entries[cur].append(ln.rstrip())
             continue
+        # v0.18.0: paren-less letter cell — 'b)   (i)   (Np/Ns) = (Vp/Vs);'
+        # (2019-06 2P Q2(b): pdftotext dropped the opening paren of the letter
+        # cell; exactly 1 row corpus-wide). Sibling of the paren-tolerant form
+        # above, same gates.
+        mgrp = MS_V_GLUED_LETTER_ROMAN_NOPAREN_RE.match(s)
+        if mgrp and cur_q is not None:
+            cur_letter = mgrp.group(1)
+            roman = mgrp.group(2).lower()
+            k = (cur_q, cur_letter)
+            expected = last_roman.get(k, -1) + 1
+            rest = (mgrp.group(3) or "").strip()
+            if ROMAN.index(roman) == expected:
+                cur = (cur_q, cur_letter, roman)
+                last_roman[k] = expected
+                entries[cur] = [rest] if rest else []
+            elif cur is not None:
+                entries[cur].append(ln.rstrip())
+            continue
+        # v0.18.0: letter marker with its content glued to the row. Tested
+        # AFTER the letter+roman rule (which it would otherwise shadow for
+        # '(b) (i) any two from:' rows — the roman IS content shaped '(i ...'
+        # there). Opens the letter entry with the row's own text as its first
+        # content line; a re-printed letter row appends (continuation).
+        mlc = MS_V_GLUED_LETTER_CONTENT_RE.match(s)
+        if mlc and cur_q is not None:
+            cur_letter = mlc.group(1)
+            rest = mlc.group(2).strip()
+            cur = (cur_q, cur_letter, None)
+            if cur in entries:
+                entries[cur].append(rest)
+            else:
+                entries[cur] = [rest]
+            continue
+        # v0.18.0: question number glued straight to content (no letter cell).
+        # Strict triple gate before acceptance — ascending question law AND a
+        # trailing marks-column digit AND column-0 placement in the raw line
+        # (numeric answer lines like '39 000 = 0.45 × c × 49' share the
+        # stripped shape; none of them is column-0 with a tail digit).
+        mqc = MS_V_GLUED_QN_CONTENT_RE.match(ln)
+        if mqc:
+            v = int(mqc.group(1))
+            ok_seq = (cur_q is None and v == 1) or (cur_q is not None and v in (cur_q, cur_q + 1))
+            if ok_seq and MS_V_QN_CONTENT_TAIL_MARKS_RE.search(ln) and (len(ln) - len(ln.lstrip())) <= 3:
+                # v0.18.0: indent <=3 (raw line) replaces the original strict
+                # column-0 — 2023-01 2P prints its tables 1-2 spaces deep and
+                # Q1's whole-question row ('1   electrons;   5') sat at
+                # indent 1. Corpus census of this shape at indent <=3 with a
+                # tail digit: 15/15 rows are real question rows.
+                armed = False
+                cur_q = v
+                cur_letter = None
+                rest = mqc.group(2).strip()
+                cur = (cur_q, None, None)
+                if cur in entries:
+                    if rest:
+                        entries[cur].append(rest)   # continuation re-print
+                else:
+                    entries[cur] = [rest] if rest else []
+                continue
         mrom = MS_V_PAREN_ROMAN_RE.fullmatch(s)
         mromc = None if mrom else MS_V_GLUED_ROMAN_CONTENT_RE.match(s)
         if mrom or mromc:
@@ -1833,6 +2002,11 @@ def main():
         for e in json.loads(ms_link_overrides_path.read_text()).get("entries", []):
             ms_link_overrides[(e["series"], e["paper"], e["part"])] = e
     ms_link_applied = []
+    # v0.19.0: vertical-lane keying refinements. The 4ph1 MS table answers in
+    # shapes the chemistry row-layout never prints; every refinement below is
+    # gated on ms_layout='vertical' so the chemistry lane's keying code path
+    # is untouched bit-for-bit (the Task 12/14/15 bit-identity law).
+    _ms_vertical = cfg.get("ms_layout") == "vertical"
     for q in doc_questions:
         for p in q["parts"]:
             key = (q["question_number"], p["group"], p["roman"])
@@ -1923,15 +2097,40 @@ def main():
                         #  'X cannot be correct as ...' — without it the
                         #  elimination rows counted as ANSWER rows and drowned
                         #  the real 'D - thermometer;' key (G3 unkeyed))
-                        if re.search(r"\bis\s+not\b|\bare\s+not\b|\bcannot\s+be\b"
-                                     r"|\b(?:is|are)\s+(?:\w+\s+)?incorrect\b", s):
+                        # v0.18.0 (vertical lane only): (a) the negative
+                        # lexeme is searched AFTER stripping ALL parenthesized
+                        # spans — answer rows quote choice text that can
+                        # CONTAIN negatives ('B (absorbing material is not a
+                        # continuous variable);' — 2020-01 1P 9(e)(ii)), while
+                        # rebuttal rows carry their negative OUTSIDE any
+                        # parens ('A (P) is incorrect as...' — 2025-11 1P
+                        # 9(b): the parenthesized alias must not mask the
+                        # negative, and a naive first-paren split regressed
+                        # exactly that row on the first battery); (b) the
+                        # lexicon gains 'does not'/'do not' — 2025-11 2P 2(b)
+                        # prints its eliminations as 'A does not affect
+                        # gravitational field strength'.
+                        _neg_text = (re.sub(r"\([^()]*\)", " ", s)
+                                     if _ms_vertical else s)
+                        _neg_re = (_MS_V_REBUTTAL_RE if _ms_vertical
+                                   else _MS_ROW_REBUTTAL_RE)
+                        if _neg_re.search(_neg_text):
                             rebut[hit.group(1)] = rebut.get(hit.group(1), 0) + 1
                         else:
                             ans.append(hit.group(1))
                             ansrow[hit.group(1)] = ansrow.get(hit.group(1), 0) + 1
-                    elif s.strip() in labels:
-                        ans.append(s.strip())
-                        ansrow[s.strip()] = ansrow.get(s.strip(), 0) + 1
+                    elif (re.sub(r"[;.:]+$", "", s.strip()) if _ms_vertical
+                          else s.strip()) in labels:
+                        # v0.18.0 (vertical lane): bare-key rows 'B;' — the
+                        # answer letter printed ALONE with its semicolon
+                        # terminator (2022-01 1P/2P print five keys this way;
+                        # the row-layout lane never does). Trailing ';', '.',
+                        # ':' stripped before the label check; the single-
+                        # distinct-candidate law still governs.
+                        _bk = re.sub(r"[;.:]+$", "", s.strip())
+                        ans.append(_bk)
+                        ansrow[_bk] = ansrow.get(_bk, 0) + 1
+
                 # a printed '<L> is the correct answer ...' statement is
                 # authoritative: key it even if stray note-drift letters leaked in
                 lab = (positives[0] if len(set(positives)) == 1 else
@@ -1940,9 +2139,19 @@ def main():
                 # rebuttal for every option except the correct one — key the sole
                 # un-rebutted option ONLY when corroborated by exactly one answer
                 # row; anything else stays unkeyed for human review
+                # v0.18.0 (vertical lane only): pure-elimination entries — the
+                # MS prints NO answer row at all and rebuts exactly every
+                # option but one (2025-11 2P 2(b): 'A/B/D does not affect...'=
+                # the sole survivor C is the key by explicit elimination of
+                # the complete option set). Deterministic when the rebuttal
+                # set covers all-but-one PRINTED labels and no answer row
+                # exists; anything sparser stays unkeyed.
                 if lab is None:
                     clean = [L for L in sorted(labels) if L not in rebut]
                     if len(clean) == 1 and clean[0] in ansrow and len(ansrow) == 1:
+                        lab = clean[0]
+                    elif (_ms_vertical and len(clean) == 1 and not ans
+                          and len(rebut) == len(labels) - 1):
                         lab = clean[0]
                 if lab is None and not re.search(r"\bis\s+(?:not\s+(?:the\s+)?)?correct\b|\bis\s+incorrect\b", raw):
                     # letters fallback ONLY on note-free entries (a greedy note-strip

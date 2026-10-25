@@ -22,20 +22,60 @@ Which of these do planets orbit?
 > A and C cannot be correct because satellites orbit
 > planets
 > B cannot be correct because comets orbit stars
-> (b) D – universe;
+
+- **(1)** Answer D: a star
+
+### 1(b) [1]
+
+Which of these has the largest diameter?
+
+- **(A)** a galaxy
+- **(B)** the Solar System
+- **(C)** the Sun
+- **(D)** the universe  ✔
+
+
+**Mark scheme answer**
+
+> D – universe;
 > A cannot be correct because there are billions of
 > galaxies in the Universe
 > B and C cannot be correct because there are
 > billions of stars and their solar systems in each
 > galaxy
-> (c) B – moon;
+
+- **(1)** Answer D: the universe
+
+### 1(c) [1]
+
+Which of these has the smallest diameter?
+
+- **(A)** a galaxy
+- **(B)** the Moon  ✔
+- **(C)** a star
+- **(D)** the Solar System
+
+
+**Mark scheme answer**
+
+> B – moon;
 > A cannot be correct as there are billions of stars
 > and their solar systems in each galaxy
 > C cannot be correct because moons orbit planets
 > and those planets orbit stars
 > D cannot be correct because a solar system
 > includes stars planets and moons
-> (d) Earth has a larger mass than the Moon; accept reverse
+
+- **(1)** Answer B: the Moon
+
+### 1(d) [1]
+
+At the surface of the Earth, the gravitational field strength is 10 N/kg. At the surface of the Moon, the gravitational field strength is 1.7 N/kg. Give a reason for the difference in gravitational field strength.
+
+
+**Mark scheme answer**
+
+> Earth has a larger mass than the Moon; accept reverse
 > argument
 > allow Earth has a larger
 > density
@@ -47,29 +87,7 @@ Which of these do planets orbit?
 > (Total for Question 1 = 4 marks)
 > Answer Notes Marks
 
-- **(1)** Answer D: a star
-
-### 1(b) [1]
-
-Which of these has the largest diameter?
-
-- **(A)** a galaxy
-- **(B)** the Solar System
-- **(C)** the Sun
-- **(D)** the universe
-
-### 1(c) [1]
-
-Which of these has the smallest diameter?
-
-- **(A)** a galaxy
-- **(B)** the Moon
-- **(C)** a star
-- **(D)** the Solar System
-
-### 1(d) [1]
-
-At the surface of the Earth, the gravitational field strength is 10 N/kg. At the surface of the Moon, the gravitational field strength is 1.7 N/kg. Give a reason for the difference in gravitational field strength.
+- **(1)** Earth has a larger mass than the Moon; accept reverse
 
 
 ## Question 2 (6 marks)
@@ -84,10 +102,30 @@ Draw a straight line from each electromagnetic wave to its correct use. One has 
 **Mark scheme answer**
 
 > ;;;;
-> (b) skin burns; apply ‘list’ principle
+
+- **(4)** ;;;;
+
+### 2(b) [1]
+
+State a hazard to humans of excessive exposure to infrared waves.
+
+
+**Mark scheme answer**
+
+> skin burns; apply ‘list’ principle
 > allow 'damage to
 > skin cells'
-> (c) reduce time of exposure/
+
+- **(1)** skin burns; apply ‘list’ principle
+
+### 2(c) [1]
+
+State a precaution that would reduce a person’s risk of exposure to ultraviolet waves.
+
+
+**Mark scheme answer**
+
+> reduce time of exposure/
 > increase distance from source/ apply ‘list’ principle
 > introduce more material between source and person;
 > e.g.
@@ -97,15 +135,7 @@ Draw a straight line from each electromagnetic wave to its correct use. One has 
 > (Total for Question 2 = 6 marks)
 > Answer Notes Marks
 
-- **(4)** ;;;;
-
-### 2(b) [1]
-
-State a hazard to humans of excessive exposure to infrared waves.
-
-### 2(c) [1]
-
-State a precaution that would reduce a person’s risk of exposure to ultraviolet waves.
+- **(1)** reduce time of exposure/
 
 
 ## Question 3 (9 marks)
@@ -120,9 +150,23 @@ Add another component to the diagram to measure the voltage of component X.
 
 ![diagram — official paper figure (qp.pdf p.5) — shared with asset_3_a_diagram_stem](assets/asset_3_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> voltmeter in parallel with component X;
+
+- **(1)** voltmeter in parallel with component X;
+
 ### 3(a)(ii) [1]
 
 Give the name of component X.
+
+
+**Mark scheme answer**
+
+> light dependent resistor / LDR;
+
+- **(1)** light dependent resistor / LDR;
 
 ### 3(b)(i) [2]
 
@@ -305,7 +349,17 @@ Complete table 2 by giving the stars in order of increasing surface temperature.
 > condone a mix i.e.
 > Betelgeuse, orange,
 > yellow, Sirius
-> (b) any THREE from
+
+- **(3)** ;;; 1 star in correct place
+
+### 5(b) [3]
+
+A star has a much larger mass than the Sun. Describe the evolution of this star after it has left the main sequence.
+
+
+**Mark scheme answer**
+
+> any THREE from
 > MP1. red supergiant; allow super red giant
 > MP2. supernova;
 > MP3. neutron star;
@@ -314,7 +368,19 @@ Complete table 2 by giving the stars in order of increasing surface temperature.
 > including incorrect
 > stages e.g. dust/gas
 > cloud or protostar
-> (c) any pair of readings from the graph;
+
+- **(3)** any THREE from
+
+### 5(c) [4]
+
+The graph shows the relationship between the peak wavelength of light emitted by a star and the surface temperature of the star. 1000 800 600 Peak wavelength in nm 400 200 0 5 10 15 20 Surface temperature in thousands of K A scientist suggests that the two variables are linked by this formula. peak wavelength × surface temperature = constant Use data from the graph to justify this formula.
+
+![graph — official paper figure (qp.pdf p.11)](assets/asset_5_c_graph.png)
+
+
+**Mark scheme answer**
+
+> any pair of readings from the graph;
 > correct substitution into formula to find constant; allow ECF for this mark
 > alone
 > different pair of readings used correctly to find
@@ -332,17 +398,7 @@ Complete table 2 by giving the stars in order of increasing surface temperature.
 > (Total for Question 5 = 10 marks)
 > Answer Notes Marks
 
-- **(3)** ;;; 1 star in correct place
-
-### 5(b) [3]
-
-A star has a much larger mass than the Sun. Describe the evolution of this star after it has left the main sequence.
-
-### 5(c) [4]
-
-The graph shows the relationship between the peak wavelength of light emitted by a star and the surface temperature of the star. 1000 800 600 Peak wavelength in nm 400 200 0 5 10 15 20 Surface temperature in thousands of K A scientist suggests that the two variables are linked by this formula. peak wavelength × surface temperature = constant Use data from the graph to justify this formula.
-
-![graph — official paper figure (qp.pdf p.11)](assets/asset_5_c_graph.png)
+- **(4)** any pair of readings from the graph;
 
 
 ## Question 6 (15 marks)
@@ -419,7 +475,19 @@ Draw a curve of best fit.
 > third point; max 1 mark for straight
 > line consistent with
 > candidate's plotting
-> (c) any FOUR from:
+
+- **(2)** attempt at fitting first two points and fitting rest of ecf candidate’s
+
+### 6(c) [4]
+
+Diagram 3 shows the loudspeakers connected in series to a cell. Diagram 4 shows the loudspeakers connected in parallel to the same cell. 1.5 V 1.5 V 0.30 A 1.2 A Diagram 3 Diagram 4 Comment on how the total resistance of the loudspeakers in diagram 3 compares with the total resistance of the loudspeakers in diagram 4.
+
+![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> any FOUR from:
 > MP1. for diagram 4, cell voltage no longer shared; accept voltages in
 > parallel are the same
 > accept voltage is
@@ -441,13 +509,7 @@ Draw a curve of best fit.
 > (Total for Question 6 = 15 marks)
 > Answer Notes Marks
 
-- **(2)** attempt at fitting first two points and fitting rest of ecf candidate’s
-
-### 6(c) [4]
-
-Diagram 3 shows the loudspeakers connected in series to a cell. Diagram 4 shows the loudspeakers connected in parallel to the same cell. 1.5 V 1.5 V 0.30 A 1.2 A Diagram 3 Diagram 4 Comment on how the total resistance of the loudspeakers in diagram 3 compares with the total resistance of the loudspeakers in diagram 4.
-
-![diagram — official paper figure (qp.pdf p.15)](assets/asset_6_c_diagram.png)
+- **(4)** any FOUR from:
 
 
 ## Question 7 (11 marks)
@@ -499,12 +561,32 @@ Use the graph to determine the half‑life of radon‑222. half‑life = days
 > down to time axis
 > allow full marks for 3.8-
 > 3.85
-> (c) 4 (for alpha nucleon number);
+
+- **(2)** evidence of graph used correctly; i.e. line drawn across
+
+### 7(c) [3]
+
+Radon‑222 is formed by multiple alpha decays of uranium‑234. Complete the nuclear equation by giving the missing information. 234 92 U → 222Rn + 3 α
+
+
+**Mark scheme answer**
+
+> 4 (for alpha nucleon number);
 > 2 (for alpha proton number);
 > 86 (for Rn proton number); ECF for incorrect alpha
 > proton number then
 > multiplied by 3
-> (d) any TWO from:
+
+- **(3)** 4 (for alpha nucleon number);
+
+### 7(d) [2]
+
+Radon‑222 also emits alpha radiation. Explain the hazard to humans of breathing in air contaminated with radon‑222.
+
+
+**Mark scheme answer**
+
+> any TWO from:
 > MP1. idea of irradiation of internal organs; allow idea that there is
 > no ‘dead skin’ layer for
 > alphas to penetrate
@@ -515,15 +597,7 @@ Use the graph to determine the half‑life of radon‑222. half‑life = days
 > (Total for Question 7 = 11 marks)
 > Answer Notes Marks
 
-- **(2)** evidence of graph used correctly; i.e. line drawn across
-
-### 7(c) [3]
-
-Radon‑222 is formed by multiple alpha decays of uranium‑234. Complete the nuclear equation by giving the missing information. 234 92 U → 222Rn + 3 α
-
-### 7(d) [2]
-
-Radon‑222 also emits alpha radiation. Explain the hazard to humans of breathing in air contaminated with radon‑222.
+- **(2)** any TWO from:
 
 
 ## Question 8 (9 marks)
@@ -534,15 +608,73 @@ Hailstones are small pieces of ice that sometimes fall to the ground during stor
 
 Describe how to determine the density of a hailstone. Assume that hailstones are spherical.
 
+
+**Mark scheme answer**
+
+> any FOUR from: condone reference to
+> letting the ice melt
+> MP1. measure mass;
+> MP2. use (mass) balance; allow scales
+> reject scale
+> MP3. measure diameter;
+> MP4. use ruler/callipers/micrometer;
+> MP5. further experimental detail e.g. use set
+> square against ruler/use callipers in different
+> orientations/fully submerged/avoid splashing;
+> MP6. repeat readings and take average;
+> MP7. use formula to find volume of a sphere e.g.
+> V = 4/3 πr3 ;
+> MP8. use density = mass ÷ volume; allow use of
+> displacement method
+> and measuring cylinder
+> for MP3, MP4, MP7
+
+- **(4)** any FOUR from: condone reference to
+
 ### 8(a)(ii) [3]
 
 The mean volume of a hailstone is 1.1 cm3. The mean mass of a hailstone is 0.94 g. Calculate the mean density of a hailstone. Give the unit. density = unit
+
+
+**Mark scheme answer**
+
+> substitution into equation density = mass ÷ volume; allow use of standard
+> symbols e.g. D = M ÷ V
+> accept ρ for density
+> evaluation; -1 for POT error
+> unit i.e g/cm3; independently marked
+> accept unit matching
+> calculation i.e. if mass
+> converted into kg
+> correct answer = 0.85 g/cm3 accept 0.854 or 0.855
+> e.g. density = mass ÷ volume
+> density = 0.94 ÷ 1.1
+> density = 0.8545…
+> density = 0.85 g/cm3
+
+- **(3)** substitution into equation density = mass ÷ volume; allow use of standard
 
 ### 8(b) [2]
 
 Hailstones can be lifted to the top of clouds. The diagram shows the movement of some hailstones in a cloud. cloud movement of hailstones warm ground Suggest how hailstones are lifted to the top of the cloud by convection.
 
 ![diagram — official paper figure (qp.pdf p.19)](assets/asset_8_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any TWO from: allow ‘cloud’ for ‘air’
+> MP1. warm air rises;
+> MP2. warm air expands; allow air particles
+> spread out
+> reject ‘particles
+> expand’
+> MP3. warm air is less dense than cold air;
+> MP4. a convection current is formed;
+> (Total for Question 8 = 9 marks)
+> Answer Notes Marks
+
+- **(2)** any TWO from: allow ‘cloud’ for ‘air’
 
 
 ## Question 9 (7 marks)
@@ -561,13 +693,33 @@ Describe how the air molecules in the container exert a pressure on its inner wa
 > collisions provide force on walls;
 > force per unit area gives a pressure; formula alone is
 > insufficient
-> (b) any TWO from:
+
+- **(3)** molecules collide with walls; allow particles or
+
+### 9(b) [2]
+
+The container is heated for a long time. Explain what happens to the number of air molecules in the container.
+
+
+**Mark scheme answer**
+
+> any TWO from:
 > MP1. number of molecules in container decreases; allow particles or
 > MP2. increase in temperature increases speed or atoms
 > KE of molecules;
 > MP3. molecules have a high enough speed or KE to
 > escape;
-> (c) any TWO from: accept RA throughout
+
+- **(2)** any TWO from:
+
+### 9(c) [2]
+
+A lid is placed on the hot container. The lid seals the hole and the container is allowed to cool. As the container cools, it collapses. container collapsed with lid container Explain why the container collapses.
+
+
+**Mark scheme answer**
+
+> any TWO from: accept RA throughout
 > MP1. idea fewer collisions per unit time gives accept "lower
 > lower force; frequency of collisions"
 > ignore collisions
@@ -582,15 +734,7 @@ Describe how the air molecules in the container exert a pressure on its inner wa
 > (Total for Question 9 = 7 marks)
 > Answer Notes Marks
 
-- **(3)** molecules collide with walls; allow particles or
-
-### 9(b) [2]
-
-The container is heated for a long time. Explain what happens to the number of air molecules in the container.
-
-### 9(c) [2]
-
-A lid is placed on the hot container. The lid seals the hole and the container is allowed to cool. As the container cools, it collapses. container collapsed with lid container Explain why the container collapses.
+- **(2)** any TWO from: accept RA throughout
 
 
 ## Question 10 (10 marks)
@@ -605,9 +749,35 @@ Diagram 1 shows a trolley seen from above. A copper rod is attached to the front
 
 A voltage is induced in the copper rod as the trolley moves through the magnetic field. Explain why the sign of the voltmeter reading changes as the trolley moves backwards and forwards.
 
+
+**Mark scheme answer**
+
+> any THREE from: condone current for
+> trolley changes direction; voltage
+> induction depends on direction of relative motion; ignore idea induction
+> depending on speed
+> idea that voltage has changed directon (as sign of
+> voltmeter reading depends on direction of
+> voltage);
+> idea that at ends of motion, voltage is zero;
+
+- **(3)** any THREE from: condone current for
+
 ### 10(a)(ii) [1]
 
 Give a reason why the magnitude of the induced voltage might change.
+
+
+**Mark scheme answer**
+
+> speed may change/
+> magnetic field may not be uniform; accept idea that
+> magnetic field may
+> change
+> allow idea of entering
+> or leaving field
+
+- **(1)** speed may change/
 
 ### 10(b)(i) [3]
 
@@ -663,15 +833,46 @@ The thermal energy store of the resistor increases by 2.3 × 10–6 J as energy 
 
 Draw the normal at the point where the direction of travel of the waves meets the side of the boat.
 
+
+**Mark scheme answer**
+
+> line drawn at 90 degrees to side of boat at point where ignore normal inside
+> direction of travel touches boat; boat
+
+- **(1)** line drawn at 90 degrees to side of boat at point where ignore normal inside
+
 ### 11(a)(ii) [1]
 
 Measure the angle of incidence of the water waves. angle of incidence = degrees
+
+
+**Mark scheme answer**
+
+> 66 (degrees); accept in range 64-68
+> degrees
+
+- **(1)** 66 (degrees); accept in range 64-68
 
 ### 11(a)(iii) [3]
 
 Complete the diagram to show the wavefronts after they reflect off the side of the boat.
 
 ![diagram — official paper figure (qp.pdf p.24) — shared with asset_11_a_diagram_stem](assets/asset_11_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> three wavefronts parallel and constant wavelength; by eye;
+> condone different
+> wavelength to
+> incident wavefronts
+> to the right of the normal and above boat surface;
+> correct angle of reflection; by eye;
+> allow ‘reflected ray’
+> if no other mark
+> awarded
+
+- **(3)** three wavefronts parallel and constant wavelength; by eye;
 
 ### 11(b)(i) [2]
 

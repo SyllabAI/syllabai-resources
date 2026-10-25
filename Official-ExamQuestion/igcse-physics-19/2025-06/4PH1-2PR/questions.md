@@ -12,13 +12,56 @@ A flour mill is a factory where flour is produced. The photograph shows some flo
 
 Explain how the flour particles can become charged.
 
+
+**Mark scheme answer**
+
+> idea of rubbing / friction; condone rubbing between
+> particles
+> (causing) transfer of electrons; reject transfer of
+> protons/positive charge
+
+- **(2)** idea of rubbing / friction; condone rubbing between
+
 ### 1(a)(ii) [2]
 
 The charged flour particles move away from each other as they fall from the end of each channel. Complete the passage by writing a suitable word or words in each blank space. Flour particles move away from each other because they have charges. This causes the flour particles to exert forces on each other.
 
+
+**Mark scheme answer**
+
+> like / identical / (the) same / similar; allow equivalent phrases
+> e.g. both have negative
+> (charges)
+> ignore unqualified
+> negative, positive
+> repulsive / repelling / repulsion; allow equivalent phrases
+> ignore opposite
+
+- **(2)** like / identical / (the) same / similar; allow equivalent phrases
+
 ### 1(b) [2]
 
 The dust created by producing flour in a flour mill is dangerous because the dust is flammable. This creates a risk of an explosion. Explain why connecting the metal channels to earth reduces the risk of an explosion in a flour mill.
+
+
+**Mark scheme answer**
+
+> idea that earthing prevents the metal channels / allow idea that
+> particles from becoming charged; {charge/electrons/current}
+> can pass {through the
+> earth wire / to earth /
+> ground}
+> allow idea that
+> channel/particles remain
+> neutral/become
+> discharged
+> prevents a spark from occurring; allow idea that risk of
+> spark is reduced
+> ignore references to
+> explosions
+> Answer Notes Marks
+
+- **(2)** idea that earthing prevents the metal channels / allow idea that
 
 
 ## Question 2 (7 marks)
@@ -143,7 +186,17 @@ Give two advantages of generating electricity using tidal power. 1 2
 > condone can be used at
 > any time
 > MP5. does not produce radioactive waste;
-> (b) any two from: ignore references to cost
+
+- **(2)** any two from: ignore references to cost
+
+### 3(b) [2]
+
+Give two disadvantages of generating electricity using tidal power. 1 2
+
+
+**Mark scheme answer**
+
+> any two from: ignore references to cost
 > MP1. potential impact on wildlife; allow idea that it blocks
 > migration routes, wading
 > bird habitats etc.
@@ -155,10 +208,6 @@ Give two advantages of generating electricity using tidal power. 1 2
 > work if not near the sea
 
 - **(2)** any two from: ignore references to cost
-
-### 3(b) [2]
-
-Give two disadvantages of generating electricity using tidal power. 1 2
 
 ### 3(c)(i) [2]
 
@@ -340,7 +389,19 @@ The ball is in contact with the ground for a time of 6.0 ms. Calculate the force
 > (force =) 0.25 / 0.0060
 > (force =) 42 (N) allow 41-42 (N)
 > direction = upwards
-> (c) any two marks max. from: related to variables
+
+- **(3)** substitution into given formula; allow ecf from (i)
+
+### 5(c) [6]
+
+The coefficient of restitution can be used to determine how high a ball will bounce. The higher the value of the coefficient of restitution, the higher the ball will bounce. Diagram 3 shows a ball being dropped from a height (h1) above the ground. The ball hits the ground and bounces. At the top of its bounce, the ball reaches a height (h2) above the ground. drop position position at top of bounce h1 h2 ground Diagram 3 The coefficient of restitution can be determined using the formula h2 coefficient of restitution = h1 A student decides to do an investigation to compare the coefficient of restitution for different types of ball. Design a method for the student’s investigation. Your answer should include details of • the variables in the investigation • how to obtain accurate measurements • how to obtain reliable results You may add to diagram 3 or draw an additional diagram to help your answer.
+
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_5_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> any two marks max. from: related to variables
 > MP1. independent variable is type of ball; allow material of ball
 > MP2. dependent variable is height of bounce; allow coefficient of
 > restitution
@@ -364,13 +425,7 @@ The ball is in contact with the ground for a time of 6.0 ms. Calculate the force
 > MP10. calculate mean values; allow average for mean
 > Answer Notes Marks
 
-- **(3)** substitution into given formula; allow ecf from (i)
-
-### 5(c) [6]
-
-The coefficient of restitution can be used to determine how high a ball will bounce. The higher the value of the coefficient of restitution, the higher the ball will bounce. Diagram 3 shows a ball being dropped from a height (h1) above the ground. The ball hits the ground and bounces. At the top of its bounce, the ball reaches a height (h2) above the ground. drop position position at top of bounce h1 h2 ground Diagram 3 The coefficient of restitution can be determined using the formula h2 coefficient of restitution = h1 A student decides to do an investigation to compare the coefficient of restitution for different types of ball. Design a method for the student’s investigation. Your answer should include details of • the variables in the investigation • how to obtain accurate measurements • how to obtain reliable results You may add to diagram 3 or draw an additional diagram to help your answer.
-
-![diagram — official paper figure (qp.pdf p.14)](assets/asset_5_c_diagram.png)
+- **(6)** any two marks max. from: related to variables
 
 
 ## Question 6 (10 marks)
@@ -383,17 +438,70 @@ This question is about cosmic microwave background radiation (CMBR) and the Big 
 
 State the formula linking wave speed, frequency and wavelength.
 
+
+**Mark scheme answer**
+
+> (wave) speed = frequency × wavelength; allow standard symbols
+> and rearrangements i.e.
+> λ=v/f
+> allow v, c and s for
+> speed
+
+- **(1)** (wave) speed = frequency × wavelength; allow standard symbols
+
 ### 6(a)(ii) [3]
 
 Show that the mean wavelength of CMBR is about 2 mm. [speed of light = 3.0 × 108 m/s]
+
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> evaluation in mm to at least 2s.f.;
+> e.g.
+> 3.0 × 108 = 1.6 × 1011 × λ
+> λ = 3.0 × 108 / 1.6 × 1011
+> λ = (0.0019 (m) =) 1.9 (mm) allow 1.88, 1.875 (mm)
+> condone 1.87 (mm)
+
+- **(3)** substitution;
 
 ### 6(b) [2]
 
 CMBR was first released after the Big Bang. When CMBR was first released it had a wavelength of about 9 × 10–5 mm, but now it has a wavelength of about 2 mm. Using this information, explain how CMBR supports the Big Bang theory.
 
+
+**Mark scheme answer**
+
+> idea that wavelength has increased (over time); allow wavelength has
+> stretched
+> ignore wavelength has
+> expanded
+> ignore red-shift
+> because Universe is expanding;
+
+- **(2)** idea that wavelength has increased (over time); allow wavelength has
+
 ### 6(c) [4]
 
 Explain how the cosmological red‑shift of galaxies also supports the Big Bang theory.
+
+
+**Mark scheme answer**
+
+> (most galaxies show a) red-shift because they are condone use of stars,
+> moving away (from Earth / each other); planets, objects for
+> galaxies for this
+> marking point only
+> further galaxies show a greater red-shift;
+> further galaxies are travelling (away from Earth) allow faster galaxies
+> faster; have greater red-shift
+> idea that all matter must have originated from a
+> single point;
+> Answer Notes Marks
+
+- **(4)** (most galaxies show a) red-shift because they are condone use of stars,
 
 
 ## Question 7 (10 marks)
@@ -414,15 +522,21 @@ The inside surface of the cup is shiny and silver‑coloured. Explain how the sh
 > a (good) reflector
 > condone surface reflects
 > heat
-> (b) lid traps air; allow steam/gas for air
-> ignore traps heat/energy
-> which reduces/stops convection (currents); allow reduces evaporation
 
 - **(2)** mention of infrared (radiation); allow IR for infrared
 
 ### 7(b) [2]
 
 Explain why a drink in the cup will stay hot for longer when the lid is placed on the cup.
+
+
+**Mark scheme answer**
+
+> lid traps air; allow steam/gas for air
+> ignore traps heat/energy
+> which reduces/stops convection (currents); allow reduces evaporation
+
+- **(2)** lid traps air; allow steam/gas for air
 
 ### 7(c)(i) [1]
 
@@ -494,7 +608,17 @@ Give the maximum frequency of sound that can be heard by humans.
 > i.e. 20 - 20 000 (Hz)
 > allow 20 kHz but
 > matching unit needed
-> (b) evaluation of time period;
+
+- **(1)** 20 000 (Hz); allow if full range given
+
+### 8(b) [4]
+
+Determine if the sound wave displayed on the oscilloscope could be heard by humans.
+
+
+**Mark scheme answer**
+
+> evaluation of time period;
 > use of f = 1/T; allow ecf from incorrect
 > T for this mark only
 > evaluation of frequency;
@@ -508,7 +632,19 @@ Give the maximum frequency of sound that can be heard by humans.
 > f = 1 / 8 × 10−5
 > f = 12 500 (Hz)
 > this is within human hearing range so can be heard
-> (c) A (10 × 10−6 seconds per square, 5 mV per square);
+
+- **(4)** evaluation of time period;
+
+### 8(c) [1]
+
+A student changes the settings of the oscilloscope to alter the displayed wave in these two ways. • increase the amplitude of the wave • only display one time period of the wave on the screen The table shows some possible settings for the oscilloscope. Which row of the table gives the student’s new oscilloscope settings? x direction setting / y direction setting / seconds per square mV per square A 10 × 10–6 5 B 10 × 10–6 20 C 40 × 10–6 5 D 40 × 10–6 20
+
+![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
+
+
+**Mark scheme answer**
+
+> A (10 × 10−6 seconds per square, 5 mV per square);
 > B is incorrect because this will cause the amplitude to decrease
 > C is incorrect because this will cause there to be four waves on the screen
 > D is incorrect because this will cause there to be four waves on the screen and the
@@ -516,15 +652,5 @@ Give the maximum frequency of sound that can be heard by humans.
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(1)** 20 000 (Hz); allow if full range given
-
-### 8(b) [4]
-
-Determine if the sound wave displayed on the oscilloscope could be heard by humans.
-
-### 8(c) [1]
-
-A student changes the settings of the oscilloscope to alter the displayed wave in these two ways. • increase the amplitude of the wave • only display one time period of the wave on the screen The table shows some possible settings for the oscilloscope. Which row of the table gives the student’s new oscilloscope settings? x direction setting / y direction setting / seconds per square mV per square A 10 × 10–6 5 B 10 × 10–6 20 C 40 × 10–6 5 D 40 × 10–6 20
-
-![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
+- **(1)** A (10 × 10−6 seconds per square, 5 mV per square);
 

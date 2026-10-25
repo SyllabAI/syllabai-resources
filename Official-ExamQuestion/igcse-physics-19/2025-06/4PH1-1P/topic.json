@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:31Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2025-06 paper=1P",
+ "generated_utc": "2026-10-25T22:07:04Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2025-06 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-06:4PH1/1P",
  "source": {
   "qp_sha256": "04d05027f1178eb571a4341b2e95482559d7897300b44c2125a9869467c074c7",
@@ -33,7 +33,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking average speed, distance moved and time taken.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(average) speed = distance (travelled) / time allow standard symbols and\n(taken); rearrangements e.g. s = vt\nallow d, D, s, S for distance\nallow s, S, v, V for speed",
+     "mark_points": [
+      {
+       "id": "2025-06-1-a-i-MP1",
+       "marks": 1,
+       "text_md": "(average) speed = distance (travelled) / time allow standard symbols and\n(taken); rearrangements e.g. s = vt\nallow d, D, s, S for distance\nallow s, S, v, V for speed"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -51,7 +59,15 @@
      "question_type": "structured",
      "problem_md": "The puck travels at a constant speed of 2.8 m/s. Calculate the distance moved by the puck in a time of 3.5 s. distance moved = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nrearrangement;\nevaluation;\ne.g.\n2.8 = distance / 3.5\ndistance = 2.8 × 3.5 OR distance = speed × time\n(distance =) 9.8 (m)",
+     "mark_points": [
+      {
+       "id": "2025-06-1-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution;\nrearrangement;\nevaluation;\ne.g.\n2.8 = distance / 3.5\ndistance = 2.8 × 3.5 OR distance = speed × time\n(distance =) 9.8 (m)"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -152,7 +168,15 @@
      "question_type": "structured",
      "problem_md": "Table 1 gives some possible names for object X and object Y. Complete the table by placing one tick (ü) in each row to show which orbital path is correct for each combination of object X and object Y. Each orbital path may be used once, more than once, or not at all. Orbital path Object X Object Y A B C D the Earth the Moon the Sun a comet the Sun the Earth Table 1",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "one mark for each correct row;;; reject mark for row if\nmore than one tick\nshown\nallow alternative\nsymbols instead of ticks\n✓\n✓\n✓",
+     "mark_points": [
+      {
+       "id": "2025-06-2-a-i-MP1",
+       "marks": 3,
+       "text_md": "one mark for each correct row;;; reject mark for row if\nmore than one tick\nshown\nallow alternative\nsymbols instead of ticks\n✓\n✓\n✓"
+      }
+     ],
      "source_page": 7,
      "assets": [
       {
@@ -182,7 +206,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of the force that causes one object to orbit another object in space.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "gravity; allow gravitational\n(force/pull/attraction)\nignore weight,\ncentripetal, g, G\nreject gravitational\nfield strength,\ngravitational potential,\nGPE",
+     "mark_points": [
+      {
+       "id": "2025-06-2-a-ii-MP1",
+       "marks": 1,
+       "text_md": "gravity; allow gravitational\n(force/pull/attraction)\nignore weight,\ncentripetal, g, G\nreject gravitational\nfield strength,\ngravitational potential,\nGPE"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -347,7 +379,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the reading on the voltmeter is 2.1 V.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "components are connected in series; ignore voltmeter is in\nparallel (with the\nresistor)\nvoltages must add up to 6(.0)V; allow voltages must add\nup to battery voltage\nallow 6(.0) − 3.9 = 2.1",
+     "mark_points": [
+      {
+       "id": "2025-06-3-a-i-MP1",
+       "marks": 2,
+       "text_md": "components are connected in series; ignore voltmeter is in\nparallel (with the\nresistor)\nvoltages must add up to 6(.0)V; allow voltages must add\nup to battery voltage\nallow 6(.0) − 3.9 = 2.1"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -365,7 +405,15 @@
      "question_type": "structured",
      "problem_md": "The resistor in the circuit has a resistance of 290 Ω. Calculate the current in the resistor. Use the formula voltage = current × resistance current = A",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct substitution into V = I × R;\nrearrangement; allow ecf from incorrect\nvoltage\nevaluation; allow ecf from incorrect\nvoltage\n0.0206…, 0.0134… (A)\nscores 2 marks\ne.g.\n2.1 = current × 290\ncurrent = 2.1 / 290\n(current =) 0.0072 (A) allow 0.007,\n0.00724… (A)",
+     "mark_points": [
+      {
+       "id": "2025-06-3-a-ii-MP1",
+       "marks": 3,
+       "text_md": "correct substitution into V = I × R;\nrearrangement; allow ecf from incorrect\nvoltage\nevaluation; allow ecf from incorrect\nvoltage\n0.0206…, 0.0134… (A)\nscores 2 marks\ne.g.\n2.1 = current × 290\ncurrent = 2.1 / 290\n(current =) 0.0072 (A) allow 0.007,\n0.00724… (A)"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -383,7 +431,15 @@
      "question_type": "structured",
      "problem_md": "State the reading on the ammeter. ammeter reading = A",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "same answer as (ii); expect 0.0072 (A)\nallow if rounded\ndifferently to (ii) but\nstill consistent",
+     "mark_points": [
+      {
+       "id": "2025-06-3-a-iii-MP1",
+       "marks": 1,
+       "text_md": "same answer as (ii); expect 0.0072 (A)\nallow if rounded\ndifferently to (ii) but\nstill consistent"
+      }
+     ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
@@ -400,7 +456,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the resistance of the thermistor. resistance = Ω",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct substitution into V = I × R; allow ecf from current\nin (ii) or (iii)\nrearrangement; allow dimensionally\ncorrect rearrangement\nusing incorrect voltage\nfor this mark only\ne.g. R = 2.1 / 0.0072\nevaluation;\ne.g.\n3.9 = 0.0072 × R\nR = 3.9 / 0.0072\n(R =) 540 (Ω) allow 557, 542, 541.6…,\n539, 538.5… (Ω)",
+     "mark_points": [
+      {
+       "id": "2025-06-3-a-iv-MP1",
+       "marks": 3,
+       "text_md": "correct substitution into V = I × R; allow ecf from current\nin (ii) or (iii)\nrearrangement; allow dimensionally\ncorrect rearrangement\nusing incorrect voltage\nfor this mark only\ne.g. R = 2.1 / 0.0072\nevaluation;\ne.g.\n3.9 = 0.0072 × R\nR = 3.9 / 0.0072\n(R =) 540 (Ω) allow 557, 542, 541.6…,\n539, 538.5… (Ω)"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -488,12 +552,12 @@
      "problem_md": "In a nuclear reactor, uranium‑235 nuclei are split to produce daughter nuclei and neutrons. State what else is released in nuclear fission that makes the process useful in a nuclear reactor.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(kinetic/thermal/heat) energy; condone nuclear energy\ncondone energy as\ngamma waves\nignore heat, radiation\n(b) A (absorb excess neutrons);\nB is incorrect because neutrons cannot be created\nC is incorrect because fusion does not occur in a\nfission reactor\nD is incorrect because neutrons cannot be split\n(c) C (slow down neutrons);\nA is incorrect because this would not affect the\nrate of fission\nB is incorrect because this would not affect the\nrate of fission\nD is incorrect because faster neutrons would\nreduce the rate of fission",
+     "solution_md": "(kinetic/thermal/heat) energy; condone nuclear energy\ncondone energy as\ngamma waves\nignore heat, radiation",
      "mark_points": [
       {
        "id": "2025-06-4-a-MP1",
        "marks": 1,
-       "text_md": "(kinetic/thermal/heat) energy; condone nuclear energy\ncondone energy as\ngamma waves\nignore heat, radiation\n(b) A (absorb excess neutrons);\nB is incorrect because neutrons cannot be created\nC is incorrect because fusion does not occur in a\nfission reactor\nD is incorrect because neutrons cannot be split\n(c) C (slow down neutrons);\nA is incorrect because this would not affect the\nrate of fission\nB is incorrect because this would not affect the\nrate of fission\nD is incorrect because faster neutrons would\nreduce the rate of fission"
+       "text_md": "(kinetic/thermal/heat) energy; condone nuclear energy\ncondone energy as\ngamma waves\nignore heat, radiation"
       }
      ],
      "source_page": 14,
@@ -515,29 +579,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "absorb excess neutrons"
+       "text_md": "absorb excess neutrons",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "create additional neutrons"
+       "text_md": "create additional neutrons",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "fuse neutrons together"
+       "text_md": "fuse neutrons together",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "split neutrons"
+       "text_md": "split neutrons",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (absorb excess neutrons);\nB is incorrect because neutrons cannot be created\nC is incorrect because fusion does not occur in a\nfission reactor\nD is incorrect because neutrons cannot be split",
+     "mark_points": [
+      {
+       "id": "2025-06-4-b-MP1",
+       "marks": 1,
+       "text_md": "Answer A: absorb excess neutrons"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -550,29 +626,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "change protons into neutrons"
+       "text_md": "change protons into neutrons",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "change neutrons into protons"
+       "text_md": "change neutrons into protons",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "slow down neutrons"
+       "text_md": "slow down neutrons",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "speed up neutrons"
+       "text_md": "speed up neutrons",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (slow down neutrons);\nA is incorrect because this would not affect the\nrate of fission\nB is incorrect because this would not affect the\nrate of fission\nD is incorrect because faster neutrons would\nreduce the rate of fission",
+     "mark_points": [
+      {
+       "id": "2025-06-4-c-MP1",
+       "marks": 1,
+       "text_md": "Answer C: slow down neutrons"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -636,12 +724,12 @@
      "problem_md": "The diagram shows some parts of a nuclear reactor. shielding coolant out reactor vessel coolant in Explain the role of shielding in a nuclear reactor.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that radiation (emitted in the reactor) is allow named harmful\nharmful; effect e.g. cell damage,\ncancer etc.\nshielding absorbs radiation; allow shielding blocks\nradiation\nidea that amount of radiation reaching allow shielding prevents\npeople/workers is less/zero; radiation escaping\nignore protect people\nAnswer Notes Marks\n5 any six from:\nMP1. current/coil has magnetic field; allow coil becomes an\nelectromagnet\nallow current/coil has\nelectromagnetic field\nMP2. interaction between (magnetic) fields; allow (magnetic) fields\noverlap\nignore cutting of field\nignore current interacting\nwith field\nMP3. (produces a) force on coil;\nMP4. brushes allow (sliding) contact between allow idea that brushes\nsplit ring/commutator/coil and wires; allow the coil to spin\nwithout tangling\n(connecting) wires\nallow idea that brushes\nprevent circuit being broken\n/ allow a current to always\nflow\nMP5. split ring/commutator reverses the allow idea of swapping\ndirection of the current (in the coil); negative and positive\ncharges / terminals\nMP6. (which) reverses the direction of the force\non (each side of) the coil;\nMP7. current/force is reversed every half turn\n(when coil is vertical);\nAnswer Notes Marks",
+     "solution_md": "idea that radiation (emitted in the reactor) is allow named harmful\nharmful; effect e.g. cell damage,\ncancer etc.\nshielding absorbs radiation; allow shielding blocks\nradiation\nidea that amount of radiation reaching allow shielding prevents\npeople/workers is less/zero; radiation escaping\nignore protect people\nAnswer Notes Marks",
      "mark_points": [
       {
        "id": "2025-06-4-d-iii-MP1",
        "marks": 3,
-       "text_md": "idea that radiation (emitted in the reactor) is allow named harmful\nharmful; effect e.g. cell damage,\ncancer etc.\nshielding absorbs radiation; allow shielding blocks\nradiation\nidea that amount of radiation reaching allow shielding prevents\npeople/workers is less/zero; radiation escaping\nignore protect people\nAnswer Notes Marks\n5 any six from:\nMP1. current/coil has magnetic field; allow coil becomes an\nelectromagnet\nallow current/coil has\nelectromagnetic field\nMP2. interaction between (magnetic) fields; allow (magnetic) fields\noverlap\nignore cutting of field\nignore current interacting\nwith field\nMP3. (produces a) force on coil;\nMP4. brushes allow (sliding) contact between allow idea that brushes\nsplit ring/commutator/coil and wires; allow the coil to spin\nwithout tangling\n(connecting) wires\nallow idea that brushes\nprevent circuit being broken\n/ allow a current to always\nflow\nMP5. split ring/commutator reverses the allow idea of swapping\ndirection of the current (in the coil); negative and positive\ncharges / terminals\nMP6. (which) reverses the direction of the force\non (each side of) the coil;\nMP7. current/force is reversed every half turn\n(when coil is vertical);\nAnswer Notes Marks"
+       "text_md": "idea that radiation (emitted in the reactor) is allow named harmful\nharmful; effect e.g. cell damage,\ncancer etc.\nshielding absorbs radiation; allow shielding blocks\nradiation\nidea that amount of radiation reaching allow shielding prevents\npeople/workers is less/zero; radiation escaping\nignore protect people\nAnswer Notes Marks"
       }
      ],
      "source_page": 16,
@@ -687,7 +775,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows a simple direct current (d.c.) electric motor. coil magnet magnet split-ring commutator direct current brushes Explain why the coil turns continuously when the motor is connected to a direct current supply. You should refer to the brushes and the split‑ring commutator in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any six from:\nMP1. current/coil has magnetic field; allow coil becomes an\nelectromagnet\nallow current/coil has\nelectromagnetic field\nMP2. interaction between (magnetic) fields; allow (magnetic) fields\noverlap\nignore cutting of field\nignore current interacting\nwith field\nMP3. (produces a) force on coil;\nMP4. brushes allow (sliding) contact between allow idea that brushes\nsplit ring/commutator/coil and wires; allow the coil to spin\nwithout tangling\n(connecting) wires\nallow idea that brushes\nprevent circuit being broken\n/ allow a current to always\nflow\nMP5. split ring/commutator reverses the allow idea of swapping\ndirection of the current (in the coil); negative and positive\ncharges / terminals\nMP6. (which) reverses the direction of the force\non (each side of) the coil;\nMP7. current/force is reversed every half turn\n(when coil is vertical);\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-06-5-MP1",
+       "marks": 6,
+       "text_md": "any six from:\nMP1. current/coil has magnetic field; allow coil becomes an\nelectromagnet\nallow current/coil has\nelectromagnetic field\nMP2. interaction between (magnetic) fields; allow (magnetic) fields\noverlap\nignore cutting of field\nignore current interacting\nwith field\nMP3. (produces a) force on coil;\nMP4. brushes allow (sliding) contact between allow idea that brushes\nsplit ring/commutator/coil and wires; allow the coil to spin\nwithout tangling\n(connecting) wires\nallow idea that brushes\nprevent circuit being broken\n/ allow a current to always\nflow\nMP5. split ring/commutator reverses the allow idea of swapping\ndirection of the current (in the coil); negative and positive\ncharges / terminals\nMP6. (which) reverses the direction of the force\non (each side of) the coil;\nMP7. current/force is reversed every half turn\n(when coil is vertical);\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
@@ -818,12 +914,12 @@
      "problem_md": "Calculate the mean power of student B transferring energy to her gravitational store as she runs up the steps. mean power = W",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution into P = E/t; allow ecf from (i) and\n(ii)\nevaluation;\ne.g.\npower = 3055.2 / 4.63\npower = 660 (W) allow 646 – 671 (W)\n(c) any four from: ignore students are\ncorrect / incorrect\nMP1. not enough data points to make a valid allow idea that more\nconclusion; students/readings are\nneeded\nMP2. idea of testing a greater range of masses;\nMP3. idea of testing masses in between values;\nMP4. idea that there is a general (weak) positive allow power increases\ncorrelation; with mass for the first\ntwo data points\nMP5. idea that one of the data points could be allow any named data\nanomalous; point\nMP6. if first data point considered anomalous then allow power decreases\nthere is a (weak) negative correlation; with increasing mass\nignoring the first data\npoint\nMP7. idea that final three data points suggest that allow final three data\npower could be independent of mass; points have\napproximately same\npower\nMP8. person with greatest mass does not have the allow statement that\ngreatest power; 69kg person has the\ngreatest power\nAnswer Notes Marks",
+     "solution_md": "substitution into P = E/t; allow ecf from (i) and\n(ii)\nevaluation;\ne.g.\npower = 3055.2 / 4.63\npower = 660 (W) allow 646 – 671 (W)",
      "mark_points": [
       {
        "id": "2025-06-6-b-iii-MP1",
        "marks": 2,
-       "text_md": "substitution into P = E/t; allow ecf from (i) and\n(ii)\nevaluation;\ne.g.\npower = 3055.2 / 4.63\npower = 660 (W) allow 646 – 671 (W)\n(c) any four from: ignore students are\ncorrect / incorrect\nMP1. not enough data points to make a valid allow idea that more\nconclusion; students/readings are\nneeded\nMP2. idea of testing a greater range of masses;\nMP3. idea of testing masses in between values;\nMP4. idea that there is a general (weak) positive allow power increases\ncorrelation; with mass for the first\ntwo data points\nMP5. idea that one of the data points could be allow any named data\nanomalous; point\nMP6. if first data point considered anomalous then allow power decreases\nthere is a (weak) negative correlation; with increasing mass\nignoring the first data\npoint\nMP7. idea that final three data points suggest that allow final three data\npower could be independent of mass; points have\napproximately same\npower\nMP8. person with greatest mass does not have the allow statement that\ngreatest power; 69kg person has the\ngreatest power\nAnswer Notes Marks"
+       "text_md": "substitution into P = E/t; allow ecf from (i) and\n(ii)\nevaluation;\ne.g.\npower = 3055.2 / 4.63\npower = 660 (W) allow 646 – 671 (W)"
       }
      ],
      "source_page": 21,
@@ -843,7 +939,15 @@
      "question_type": "structured",
      "problem_md": "The students extend their investigation by calculating the power for students of different masses running up the steps. The graph shows their results. 1000 900 Power 800 in W 700 600 50 60 70 80 90 100 Mass in kg The students conclude that the greater the mass of the person, the greater the power of the person when running up the steps. Comment on the students’ conclusion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from: ignore students are\ncorrect / incorrect\nMP1. not enough data points to make a valid allow idea that more\nconclusion; students/readings are\nneeded\nMP2. idea of testing a greater range of masses;\nMP3. idea of testing masses in between values;\nMP4. idea that there is a general (weak) positive allow power increases\ncorrelation; with mass for the first\ntwo data points\nMP5. idea that one of the data points could be allow any named data\nanomalous; point\nMP6. if first data point considered anomalous then allow power decreases\nthere is a (weak) negative correlation; with increasing mass\nignoring the first data\npoint\nMP7. idea that final three data points suggest that allow final three data\npower could be independent of mass; points have\napproximately same\npower\nMP8. person with greatest mass does not have the allow statement that\ngreatest power; 69kg person has the\ngreatest power\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-06-6-c-MP1",
+       "marks": 4,
+       "text_md": "any four from: ignore students are\ncorrect / incorrect\nMP1. not enough data points to make a valid allow idea that more\nconclusion; students/readings are\nneeded\nMP2. idea of testing a greater range of masses;\nMP3. idea of testing masses in between values;\nMP4. idea that there is a general (weak) positive allow power increases\ncorrelation; with mass for the first\ntwo data points\nMP5. idea that one of the data points could be allow any named data\nanomalous; point\nMP6. if first data point considered anomalous then allow power decreases\nthere is a (weak) negative correlation; with increasing mass\nignoring the first data\npoint\nMP7. idea that final three data points suggest that allow final three data\npower could be independent of mass; points have\napproximately same\npower\nMP8. person with greatest mass does not have the allow statement that\ngreatest power; 69kg person has the\ngreatest power\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 22,
      "assets": [
       {
@@ -887,7 +991,15 @@
      "question_type": "structured",
      "problem_md": "The pressure of the water acts on these bubbles. The diagrams show the forces that cause this pressure. Which diagram correctly shows how the pressure of the water acts on a stationary air bubble? A B C D",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "1\nD; ( )\nA is incorrect because the pressure is not equal\naround the bubble\nB is incorrect because the pressure above the\nbubble is greater than below the bubble\nC is incorrect because the pressure to the right of\nthe bubble is greater than to the left of the bubble",
+     "mark_points": [
+      {
+       "id": "2025-06-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "1\nD; ( )\nA is incorrect because the pressure is not equal\naround the bubble\nB is incorrect because the pressure above the\nbubble is greater than below the bubble\nC is incorrect because the pressure to the right of\nthe bubble is greater than to the left of the bubble"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -917,7 +1029,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows the air bubbles rising to the surface of the water in a container. container water bubbles Explain why the bubbles increase in volume as they get nearer to the surface of the water. Assume that the temperature of the water is the same throughout the container.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pressure decreases as bubbles get nearer to the allow RA\nsurface; allow less pressure at\nsmaller depth\n(because) less (weight of) water above the bubble; allow RA\nallow use of p=ρgh to\njustify why pressure\ndecreases as height\ndecreases\nwith one from:\nvolume is inversely proportional to pressure; allow pressure × volume\n= constant OR\np1V1 = p2V2\nOR condone as pressure\ndecreases volume\nincreases\nforces outside bubble decrease (as pressure\ndecreases), which leads to bubble expanding;",
+     "mark_points": [
+      {
+       "id": "2025-06-7-a-ii-MP1",
+       "marks": 3,
+       "text_md": "pressure decreases as bubbles get nearer to the allow RA\nsurface; allow less pressure at\nsmaller depth\n(because) less (weight of) water above the bubble; allow RA\nallow use of p=ρgh to\njustify why pressure\ndecreases as height\ndecreases\nwith one from:\nvolume is inversely proportional to pressure; allow pressure × volume\n= constant OR\np1V1 = p2V2\nOR condone as pressure\ndecreases volume\nincreases\nforces outside bubble decrease (as pressure\ndecreases), which leads to bubble expanding;"
+      }
+     ],
      "source_page": 24,
      "assets": [
       {
@@ -947,7 +1067,15 @@
      "question_type": "structured",
      "problem_md": "A teacher does a demonstration using an inflated balloon and a board with many sharp nails. balloon board with sharp nails The teacher pushes the balloon onto the board of nails. The balloon does not pop. The teacher then pops the balloon using a single nail. Explain why the balloon does not pop when pushed onto the board of nails.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that board of nails increases the area that\nforce is being applied;\npressure is less with board;\n(for a given force) pressure is inversely proportional allow p = F/A\nto area;\nOR\nidea that force on each nail is less when using board\nof nails;\npressure is less with board;\n(for a given area) pressure is proportional to force; allow p = F/A\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-06-7-b-MP1",
+       "marks": 3,
+       "text_md": "idea that board of nails increases the area that\nforce is being applied;\npressure is less with board;\n(for a given force) pressure is inversely proportional allow p = F/A\nto area;\nOR\nidea that force on each nail is less when using board\nof nails;\npressure is less with board;\n(for a given area) pressure is proportional to force; allow p = F/A\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1046,12 +1174,12 @@
      "problem_md": "The dipper moves up and down with a frequency of 15 Hz. Calculate the speed of the waves. wave speed = m / s",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "conversion of cm to m; allow ÷100 seen anywhere\nsubstitution into v = f × λ; allow ecf from (i)\nevaluation;\nnot converting cm to m\nscores 2 marks max.\ne.g.\n2.0 cm = 0.020 m\nv = 15 × 0.020\n(wave speed =) 0.30 (m/s) allow 0.27 to 0.33 (m/s)\nallow 0.3 (m/s)\n(c) frequency is greater (at point X);\n{wavefronts / peaks / crests} closer together; allow wavefronts more\nbunched up/compressed\nignore wave is\ncompressed\nwavelength decreases;\nwave speed does not change; ignore speed of dipper\nAnswer Notes Marks",
+     "solution_md": "conversion of cm to m; allow ÷100 seen anywhere\nsubstitution into v = f × λ; allow ecf from (i)\nevaluation;\nnot converting cm to m\nscores 2 marks max.\ne.g.\n2.0 cm = 0.020 m\nv = 15 × 0.020\n(wave speed =) 0.30 (m/s) allow 0.27 to 0.33 (m/s)\nallow 0.3 (m/s)",
      "mark_points": [
       {
        "id": "2025-06-8-b-ii-MP1",
        "marks": 3,
-       "text_md": "conversion of cm to m; allow ÷100 seen anywhere\nsubstitution into v = f × λ; allow ecf from (i)\nevaluation;\nnot converting cm to m\nscores 2 marks max.\ne.g.\n2.0 cm = 0.020 m\nv = 15 × 0.020\n(wave speed =) 0.30 (m/s) allow 0.27 to 0.33 (m/s)\nallow 0.3 (m/s)\n(c) frequency is greater (at point X);\n{wavefronts / peaks / crests} closer together; allow wavefronts more\nbunched up/compressed\nignore wave is\ncompressed\nwavelength decreases;\nwave speed does not change; ignore speed of dipper\nAnswer Notes Marks"
+       "text_md": "conversion of cm to m; allow ÷100 seen anywhere\nsubstitution into v = f × λ; allow ecf from (i)\nevaluation;\nnot converting cm to m\nscores 2 marks max.\ne.g.\n2.0 cm = 0.020 m\nv = 15 × 0.020\n(wave speed =) 0.30 (m/s) allow 0.27 to 0.33 (m/s)\nallow 0.3 (m/s)"
       }
      ],
      "source_page": 27,
@@ -1071,7 +1199,15 @@
      "question_type": "structured",
      "problem_md": "The student then makes the dipper move horizontally to the right at constant speed. The dipper continues to move up and down with a frequency of 15 Hz. Diagram 3 shows the surface of the ripple tank, at an instant in time, when viewed from above. horizontal movement of dipper container water wavefront X Diagram 3 Explain how the frequency of the waves arriving at point X compares with the frequency at which the dipper moves up and down.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "frequency is greater (at point X);\n{wavefronts / peaks / crests} closer together; allow wavefronts more\nbunched up/compressed\nignore wave is\ncompressed\nwavelength decreases;\nwave speed does not change; ignore speed of dipper\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-06-8-c-MP1",
+       "marks": 4,
+       "text_md": "frequency is greater (at point X);\n{wavefronts / peaks / crests} closer together; allow wavefronts more\nbunched up/compressed\nignore wave is\ncompressed\nwavelength decreases;\nwave speed does not change; ignore speed of dipper\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 28,
      "assets": [
       {
@@ -1116,12 +1252,12 @@
      "problem_md": "The teacher uses a radiation detector to detect the radiation emitted from the protactinium‑234m. Give the name of a suitable radiation detector.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Geiger-Muller tube; allow GM tube, Geiger-\nMuller (detector), GM\n(detector), Geiger\ncounter\n(b) any two from:\nMP1. increase distance from source; allow stay 2m away,\ndon’t stand too close\nMP2. idea of minimising time of exposure; allow keeping source in\nmetal box (when not in\nuse)\nMP3. not pointing source at teacher/people;\nMP4. handle source with tongs / wear gloves; allow idea of not\ntouching with bare\nhands\nMP5. idea of shielding between teacher and ignore lead vest / coat\nsource;",
+     "solution_md": "Geiger-Muller tube; allow GM tube, Geiger-\nMuller (detector), GM\n(detector), Geiger\ncounter",
      "mark_points": [
       {
        "id": "2025-06-9-a-MP1",
        "marks": 1,
-       "text_md": "Geiger-Muller tube; allow GM tube, Geiger-\nMuller (detector), GM\n(detector), Geiger\ncounter\n(b) any two from:\nMP1. increase distance from source; allow stay 2m away,\ndon’t stand too close\nMP2. idea of minimising time of exposure; allow keeping source in\nmetal box (when not in\nuse)\nMP3. not pointing source at teacher/people;\nMP4. handle source with tongs / wear gloves; allow idea of not\ntouching with bare\nhands\nMP5. idea of shielding between teacher and ignore lead vest / coat\nsource;"
+       "text_md": "Geiger-Muller tube; allow GM tube, Geiger-\nMuller (detector), GM\n(detector), Geiger\ncounter"
       }
      ],
      "source_page": 30,
@@ -1141,7 +1277,15 @@
      "question_type": "structured",
      "problem_md": "Give two safety precautions to minimise the risk of harm to the teacher from the radiation emitted by the protactinium generator. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. increase distance from source; allow stay 2m away,\ndon’t stand too close\nMP2. idea of minimising time of exposure; allow keeping source in\nmetal box (when not in\nuse)\nMP3. not pointing source at teacher/people;\nMP4. handle source with tongs / wear gloves; allow idea of not\ntouching with bare\nhands\nMP5. idea of shielding between teacher and ignore lead vest / coat\nsource;",
+     "mark_points": [
+      {
+       "id": "2025-06-9-b-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. increase distance from source; allow stay 2m away,\ndon’t stand too close\nMP2. idea of minimising time of exposure; allow keeping source in\nmetal box (when not in\nuse)\nMP3. not pointing source at teacher/people;\nMP4. handle source with tongs / wear gloves; allow idea of not\ntouching with bare\nhands\nMP5. idea of shielding between teacher and ignore lead vest / coat\nsource;"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],
@@ -1226,12 +1370,12 @@
      "problem_md": "The student can increase the current in the metal rod up to a maximum of 5.0 A. Suggest why the student should only have the power supply switched on for short periods of time.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two from: ignore comments\nrelating to electric\nshock\nidea that current causes a heating effect; allow rod/wire/power\nsupply might get hot,\nprevents overheating of\nthe rod/wire/power\nsupply\nignore risk of fire\nreduce risk of burns;\nmaintain a constant resistance for the rod;\n(b) evaluation of change in mass;\nconversion of g to kg;\nsubstitution into W = mg; allow ecf from\nincorrect/no unit\nconversion\nallow use of g = 9.8,\n9.81\nevaluation of force; ignore any minus signs\ne.g.\n∆m = 194.95 – 193.80 = 1.15 (g)\n∆m = 0.00115 (kg)\nforce = 0.00115 × 10\n(force =) 0.0115 (N) allow 0.01127,\n0.0112815 (N)",
+     "solution_md": "any two from: ignore comments\nrelating to electric\nshock\nidea that current causes a heating effect; allow rod/wire/power\nsupply might get hot,\nprevents overheating of\nthe rod/wire/power\nsupply\nignore risk of fire\nreduce risk of burns;\nmaintain a constant resistance for the rod;",
      "mark_points": [
       {
        "id": "2025-06-10-a-MP1",
        "marks": 2,
-       "text_md": "any two from: ignore comments\nrelating to electric\nshock\nidea that current causes a heating effect; allow rod/wire/power\nsupply might get hot,\nprevents overheating of\nthe rod/wire/power\nsupply\nignore risk of fire\nreduce risk of burns;\nmaintain a constant resistance for the rod;\n(b) evaluation of change in mass;\nconversion of g to kg;\nsubstitution into W = mg; allow ecf from\nincorrect/no unit\nconversion\nallow use of g = 9.8,\n9.81\nevaluation of force; ignore any minus signs\ne.g.\n∆m = 194.95 – 193.80 = 1.15 (g)\n∆m = 0.00115 (kg)\nforce = 0.00115 × 10\n(force =) 0.0115 (N) allow 0.01127,\n0.0112815 (N)"
+       "text_md": "any two from: ignore comments\nrelating to electric\nshock\nidea that current causes a heating effect; allow rod/wire/power\nsupply might get hot,\nprevents overheating of\nthe rod/wire/power\nsupply\nignore risk of fire\nreduce risk of burns;\nmaintain a constant resistance for the rod;"
       }
      ],
      "source_page": 33,
@@ -1251,7 +1395,15 @@
      "question_type": "structured",
      "problem_md": "Before the power supply is switched on, the reading of the balance is 194.95 g. After the power supply is switched on, the reading of the balance is 193.80 g. Calculate the force exerted on the current‑carrying rod by the magnet. force = N",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evaluation of change in mass;\nconversion of g to kg;\nsubstitution into W = mg; allow ecf from\nincorrect/no unit\nconversion\nallow use of g = 9.8,\n9.81\nevaluation of force; ignore any minus signs\ne.g.\n∆m = 194.95 – 193.80 = 1.15 (g)\n∆m = 0.00115 (kg)\nforce = 0.00115 × 10\n(force =) 0.0115 (N) allow 0.01127,\n0.0112815 (N)",
+     "mark_points": [
+      {
+       "id": "2025-06-10-b-MP1",
+       "marks": 4,
+       "text_md": "evaluation of change in mass;\nconversion of g to kg;\nsubstitution into W = mg; allow ecf from\nincorrect/no unit\nconversion\nallow use of g = 9.8,\n9.81\nevaluation of force; ignore any minus signs\ne.g.\n∆m = 194.95 – 193.80 = 1.15 (g)\n∆m = 0.00115 (kg)\nforce = 0.00115 × 10\n(force =) 0.0115 (N) allow 0.01127,\n0.0112815 (N)"
+      }
+     ],
      "source_page": 33,
      "assets": [],
      "spec_point_codes": [],
@@ -1386,7 +1538,15 @@
      "question_type": "structured",
      "problem_md": "State what is meant by the term voltage.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "energy (transferred) per unit charge (passed); allow V = E/Q only if all\nterms defined\nallow work done for\nenergy transferred\nallow coulomb for unit\ncharge\nignore joules per coulomb\n(equivalent to the volt)",
+     "mark_points": [
+      {
+       "id": "2025-06-11-a-i-MP1",
+       "marks": 1,
+       "text_md": "energy (transferred) per unit charge (passed); allow V = E/Q only if all\nterms defined\nallow work done for\nenergy transferred\nallow coulomb for unit\ncharge\nignore joules per coulomb\n(equivalent to the volt)"
+      }
+     ],
      "source_page": 36,
      "assets": [],
      "spec_point_codes": [],
@@ -1404,7 +1564,15 @@
      "question_type": "structured",
      "problem_md": "The large voltage causes electrons to accelerate from the negative electrode towards the positive electrode. An electron gains 1.0 × 10–16 J of energy when it accelerates between the electrodes. Show that the voltage between the electrodes is about 600 V. [magnitude of electron charge = 1.6 × 10–19 C]",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into E = Q × V;\nrearrangement;\nevaluation to at least 2s.f.;\ne.g.\n1.0 × 10−16 = 1.6 × 10−19 × V\nV = 1.0 × 10−16 / 1.6 × 10−19\nV = 625 (V)",
+     "mark_points": [
+      {
+       "id": "2025-06-11-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution into E = Q × V;\nrearrangement;\nevaluation to at least 2s.f.;\ne.g.\n1.0 × 10−16 = 1.6 × 10−19 × V\nV = 1.0 × 10−16 / 1.6 × 10−19\nV = 625 (V)"
+      }
+     ],
      "source_page": 37,
      "assets": [],
      "spec_point_codes": [],
@@ -1422,7 +1590,15 @@
      "question_type": "structured",
      "problem_md": "The electron gains 1.0 × 10–16 J of energy in its kinetic store when it accelerates from the negative electrode to the positive electrode. Calculate the speed of an electron when it reaches the positive electrode. Assume the electron is initially at rest. [electron mass = 9.1 × 10–31 kg] speed = m / s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into KE = ½ × m × v2;\nrearrangement for v2;\nrearrangement for v;\nevaluation; allow standard form or\ndecimal\n2.1978… × 1014 (m/s)\nscores 3 marks ...\ne.g.\n1.0 × 10−16 = 0.5 × 9.1 × 10−31 × v2\nv2 = 2 × 1.0 × 10−16 / 9.1 × 10−31\nv = √[2 × 1.0 × 10−16 / 9.1 × 10−31]\nv = 1.5 × 107 (m/s) allow 1.48… × 107,\n14 824 986.33 (m/s)",
+     "mark_points": [
+      {
+       "id": "2025-06-11-a-iii-MP1",
+       "marks": 4,
+       "text_md": "substitution into KE = ½ × m × v2;\nrearrangement for v2;\nrearrangement for v;\nevaluation; allow standard form or\ndecimal\n2.1978… × 1014 (m/s)\nscores 3 marks ...\ne.g.\n1.0 × 10−16 = 0.5 × 9.1 × 10−31 × v2\nv2 = 2 × 1.0 × 10−16 / 9.1 × 10−31\nv = √[2 × 1.0 × 10−16 / 9.1 × 10−31]\nv = 1.5 × 107 (m/s) allow 1.48… × 107,\n14 824 986.33 (m/s)"
+      }
+     ],
      "source_page": 37,
      "assets": [],
      "spec_point_codes": [],

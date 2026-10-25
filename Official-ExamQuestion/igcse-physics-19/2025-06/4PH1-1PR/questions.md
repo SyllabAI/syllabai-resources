@@ -255,9 +255,47 @@ A student does an experiment to investigate energy transfer by conduction.
 
 Give three control variables in the student’s investigation. 1 2 3
 
+
+**Mark scheme answer**
+
+> any three from:
+> MP1. (all bars same) length; condone 'size' for
+> 'length'
+> MP2. (all bars same) width;
+> MP3. (all bars same) thickness;
+> MP4. (all bars can be) placed in same accept ‘same initial
+> water; temperature (for all
+> bars)’
+> MP5. (all bars will be same) depth in
+> water;
+
+- **(3)** any three from:
+
 ### 4(a)(ii) [5]
 
 The student has this equipment. • beaker • hot water • stopclock • clamp and clamp stand Design a method the student could use to compare the effectiveness of the metals at transferring energy by conduction. You may draw a diagram to help your answer.
+
+
+**Mark scheme answer**
+
+> any four from:
+> MP1. support apparatus in (clamp)stand; may be shown in
+> diagram
+> MP2. place apparatus into hot water and condone (stop)watch or
+> start stopclock; timer for stopclock
+> MP3. determine time (from stopclock) for condone reference to
+> colour change to reach top of strip; wax falling off end
+> MP4. allow apparatus to cool
+> MP5. repeat and calculate mean for each accept 'average' for
+> bar; 'mean'
+> MP6. other relevant extra practical detail; e.g. ensure bars are
+> vertical, repeats have
+> same initial
+> temperature, bars are
+> at same depth for
+> repeats
+
+- **(5)** any four from:
 
 ### 4(b)(i) [3]
 
@@ -312,19 +350,53 @@ Describe the structure of an alpha particle.
 > ignore electrons
 > ignore reference to helium
 > nucleus
-> (b) 2 for proton number of alpha;
+
+- **(2)** (particle made from) contains protons
+
+### 5(b) [3]
+
+The source used in the cloud chamber contains the isotope radium-226. The incomplete nuclear equation shows the decay of radium-226 into an isotope of radon. Complete the nuclear equation by writing the correct numbers in the boxes. 226 Ra → 86 Rn + α
+
+![boxes — official paper figure (qp.pdf p.16)](assets/asset_5_b_boxes.png)
+
+
+**Mark scheme answer**
+
+> 2 for proton number of alpha;
 > 4 for nucleon number of alpha;
 > nucleon numbers balance; allow ecf from incorrect
 > nucleon number of alpha
 > e.g.
-> (c) any two from:
+
+- **(3)** 2 for proton number of alpha;
+
+### 5(c) [2]
+
+The tracks in the cloud chamber can be seen through the glass viewing window. Explain why the radioactive source is not a hazard to the person viewing the cloud chamber.
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. alpha source is outside body /
 > skin would absorb alpha;
 > MP2. alpha has poor penetrating condone ‘highly ionising’
 > ability;
 > MP3 idea of alpha (radiation) is allow idea that alpha can't
 > absorbed by glass/cloud chamber; penetrate glass
-> (d) Any three from:
+
+- **(2)** any two from:
+
+### 5(d) [3]
+
+When radiation is emitted from the source a white line is produced in the cloud chamber. The white line is known as a track. The diagram shows the tracks produced by the radiation from the source. The diameter of the cloud chamber is also shown. 10 cm radioactive source Explain the properties of alpha radiation that can be deduced from the length of the tracks.
+
+![diagram — official paper figure (qp.pdf p.18)](assets/asset_5_d_diagram.png)
+
+
+**Mark scheme answer**
+
+> Any three from:
 > MP1. idea that all tracks are
 > (approximately) same length;
 > MP2. (so) all alpha particles have the
@@ -339,23 +411,7 @@ Describe the structure of an alpha particle.
 > and direction of track
 > Answer Notes Marks
 
-- **(2)** (particle made from) contains protons
-
-### 5(b) [3]
-
-The source used in the cloud chamber contains the isotope radium-226. The incomplete nuclear equation shows the decay of radium-226 into an isotope of radon. Complete the nuclear equation by writing the correct numbers in the boxes. 226 Ra → 86 Rn + α
-
-![boxes — official paper figure (qp.pdf p.16)](assets/asset_5_b_boxes.png)
-
-### 5(c) [2]
-
-The tracks in the cloud chamber can be seen through the glass viewing window. Explain why the radioactive source is not a hazard to the person viewing the cloud chamber.
-
-### 5(d) [3]
-
-When radiation is emitted from the source a white line is produced in the cloud chamber. The white line is known as a track. The diagram shows the tracks produced by the radiation from the source. The diameter of the cloud chamber is also shown. 10 cm radioactive source Explain the properties of alpha radiation that can be deduced from the length of the tracks.
-
-![diagram — official paper figure (qp.pdf p.18)](assets/asset_5_d_diagram.png)
+- **(3)** Any three from:
 
 
 ## Question 6 (10 marks)
@@ -379,7 +435,17 @@ Calculate the final velocity of the rocket after 5.0 seconds. Assume that the ac
 > (v =) 65 (m/s)
 > correct answer without
 > working scores all marks
-> (b) substitution into v2 = u2 + 2as; allow ecf from (a)
+
+- **(3)** substitution into a = v–u/t;
+
+### 6(b) [3]
+
+Calculate the distance the rocket travels during the 5.0 seconds. Assume that the acceleration remains constant during this time. distance travelled = m
+
+
+**Mark scheme answer**
+
+> substitution into v2 = u2 + 2as; allow ecf from (a)
 > allow use of ‘s = ½ v t’
 > rearrangement; allow in either order
 > evaluation; ignore sign
@@ -390,7 +456,19 @@ Calculate the final velocity of the rocket after 5.0 seconds. Assume that the ac
 > (s =) 160 (m)
 > correct answer without
 > working scores all marks
-> (c) for velocity-time graph
+
+- **(3)** substitution into v2 = u2 + 2as; allow ecf from (a)
+
+### 6(c) [4]
+
+Sketch a velocity-time graph and a distance-time graph showing how the motion of the rocket changes during the first 5.0 seconds of its launch. You do not need to include values on the axes. Velocity 0 Time Distance 0 Time
+
+![graph — official paper figure (qp.pdf p.21)](assets/asset_6_c_graph.png)
+
+
+**Mark scheme answer**
+
+> for velocity-time graph
 > straight line drawn;
 > line starts at origin and has positive
 > gradient throughout;
@@ -400,17 +478,7 @@ Calculate the final velocity of the rocket after 5.0 seconds. Assume that the ac
 > gradient of line increases over time;
 > Answer Notes Marks
 
-- **(3)** substitution into a = v–u/t;
-
-### 6(b) [3]
-
-Calculate the distance the rocket travels during the 5.0 seconds. Assume that the acceleration remains constant during this time. distance travelled = m
-
-### 6(c) [4]
-
-Sketch a velocity-time graph and a distance-time graph showing how the motion of the rocket changes during the first 5.0 seconds of its launch. You do not need to include values on the axes. Velocity 0 Time Distance 0 Time
-
-![graph — official paper figure (qp.pdf p.21)](assets/asset_6_c_graph.png)
+- **(4)** for velocity-time graph
 
 
 ## Question 7 (11 marks)
@@ -472,7 +540,19 @@ Explain why no light leaves the optical fibre when the light reflects at the bou
 > reference to total internal reflection; accept ‘TIR’ (whatever
 > case) for ‘total internal
 > reflection’
-> (c) angle of incidence measured correctly; allow 48-52 seen anywhere
+
+- **(3)** idea that refractive index of air is less allow (optical) density for
+
+### 7(c) [4]
+
+Diagram 2 shows a different ray of light, incident on the boundary between water and air. normal air water Diagram 2 Using diagram 2, show that the refractive index of water is approximately 1.3
+
+![diagram — official paper figure (qp.pdf p.23)](assets/asset_7_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> angle of incidence measured correctly; allow 48-52 seen anywhere
 > in working
 > allow clear RA that gives
 > c = 50.28...
@@ -501,13 +581,7 @@ Explain why no light leaves the optical fibre when the light reflects at the bou
 > working scores 1 mark only
 > Answer Notes Marks
 
-- **(3)** idea that refractive index of air is less allow (optical) density for
-
-### 7(c) [4]
-
-Diagram 2 shows a different ray of light, incident on the boundary between water and air. normal air water Diagram 2 Using diagram 2, show that the refractive index of water is approximately 1.3
-
-![diagram — official paper figure (qp.pdf p.23)](assets/asset_7_c_diagram.png)
+- **(4)** angle of incidence measured correctly; allow 48-52 seen anywhere
 
 
 ## Question 8 (7 marks)
@@ -580,17 +654,63 @@ Neptune orbits in the Solar System at an orbital speed of 5.4 × 103 m / s with 
 Which energy store has increased for the spring in diagram 2 compared to the spring in diagram 1?
 
 - **(A)** chemical
-- **(B)** elastic
+- **(B)** elastic  ✔
 - **(C)** gravitational potential
 - **(D)** kinetic
 
 ![diagram — official paper figure (qp.pdf p.26)](assets/asset_9_a_i_diagram.png)
+
+
+**Mark scheme answer**
+
+> B (elastic);
+> A is incorrect because there is no transfer from a
+> chemical store
+> C is incorrect because the gravitational potential
+> store decreases
+> D is incorrect because the spring is stationary in
+> both cases
+
+- **(1)** Answer B: elastic
 
 ### 9(a)(ii) [6]
 
 The spring is released from the position shown in diagram 3. Describe the energy transfers that take place until the spring stops vibrating.
 
 ![diagram — official paper figure (qp.pdf p.26) — shared with 9(a)(i)](assets/asset_9_a_i_diagram.png)
+
+
+**Mark scheme answer**
+
+> any six from:
+> MP1. elastic energy (store) decreases (on way up);
+> MP2. kinetic energy (store) increases (on way up);
+> MP3. gravitational (store) increases (on way up);
+> MP4. idea of process reversing as mass moves
+> downwards;
+> MP5. energy transferred mechanically;
+> MP6. idea of amplitude of oscillations decreasing allow reference to
+> over time; ‘slowing down’ to
+> mean ‘max speed
+> decreasing’
+> allow reference to
+> reduction in total
+> energy of mass/spring
+> MP7. (eventually all) energy is transferred to condone heat for
+> thermal store of spring/surroundings; thermal
+> MP8. (mechanically) by friction between spring and
+> surroundings
+> alternate energy
+> transfer scheme:
+> MP1 EPE converted to
+> KE (on way up)
+> MP2 EPE converted to
+> GPE (on way up)
+> MP3 KE converted to
+> GPE (after midway
+> point)
+
+- **(6)** any six from:
 
 ### 9(b)(i) [1]
 
@@ -672,15 +792,54 @@ The photograph shows a ring made of gold. (Source: ©Michael Burrell / Alamy Sto
 
 Describe how the student should use laboratory equipment to accurately measure the mass of the ring.
 
+
+**Mark scheme answer**
+
+> use of a balance; ignore scale
+> allow weighing scale
+> condone scales
+> PLUS
+> idea that balance should be zeroed /
+> idea that balance should be level / allow idea that balance is
+> placed on a flat/level
+> surface
+> idea that there should be no draughts
+
+- **(2)** use of a balance; ignore scale
+
 ### 10(a)(ii) [1]
 
 The table shows the student’s measurements of the mass of the ring. Mass in g 6.411 6.408 6.410 6.426 6.412 One of the student’s measurements is an anomaly. Draw a circle around the anomalous result in the table.
 
 ![table — official paper figure (qp.pdf p.31)](assets/asset_10_a_ii_table.png)
 
+
+**Mark scheme answer**
+
+> 6.426 circled;
+
+- **(1)** 6.426 circled;
+
 ### 10(a)(iii) [3]
 
 Calculate the mean mass of the gold ring. mean mass = g
+
+
+**Mark scheme answer**
+
+> evidence of correct method of e.g. adding all five values
+> calculating mean; together and dividing by
+> five = 6.4134
+> evidence of ignoring anomaly in allow ecf from (ii)
+> calculation;
+> expect 6.41025
+> answer rounded to 3 decimal places;
+> e.g.
+> mean mass = (6.411 + 6.408 + 6.410 +
+> 6.412) / 4
+> mean mass = 6.410 (g)
+
+- **(3)** evidence of correct method of e.g. adding all five values
 
 ### 10(a)(iv) [1]
 
@@ -688,12 +847,53 @@ The student is given a value for the density of gold. Which of these formulae sh
 
 - **(A)** volume = density ÷ mass
 - **(B)** volume = density ÷ mass³
-- **(C)** volume = mass ÷ density
+- **(C)** volume = mass ÷ density  ✔
 - **(D)** volume = mass ÷ density³
+
+
+**Mark scheme answer**
+
+> C (volume = mass ÷ density);
+> A is incorrect because this is the
+> incorrect rearrangement
+> B is incorrect because this is the
+> incorrect rearrangement
+> D is incorrect because it has density
+> cubed
+
+- **(1)** Answer C: volume = mass ÷ density
 
 ### 10(b) [4]
 
 The student does not know if the ring is made of pure gold. The student suggests that they could also measure the volume of the ring using a displacement method. Discuss which method (calculation method or displacement method) will give the most accurate volume measurement.
+
+
+**Mark scheme answer**
+
+> any four from:
+> MP1. idea that density will depend on
+> purity of gold;
+> MP2.idea that calculating volume will
+> be affected by purity;
+> MP3. reference to mass measurement
+> being four significant figures;
+> MP4. source of error in displacement e.g.
+> method described; • possible splashing
+> • ring not fully submerged
+> • meniscus
+> • parallax
+> MP5. idea that small volume of ring e.g. due to gradations being
+> will be difficult to measure using not small enough
+> displacement method;
+> accept RA i.e. if gold is not
+> MP6. calculating volume is likely to be pure then measurement
+> more accurate than measuring for a could be more accurate
+> valid reason e.g. if gold is pure or if
+> there’s splashing in a displacement
+> method
+> Answer Notes Marks
+
+- **(4)** any four from:
 
 
 ## Question 11 (10 marks)

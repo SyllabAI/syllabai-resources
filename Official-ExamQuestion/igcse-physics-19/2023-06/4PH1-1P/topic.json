@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:18Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2023-06 paper=1P",
+ "generated_utc": "2026-10-25T22:06:46Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2023-06 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/1P",
  "source": {
   "qp_sha256": "8a872d304ddb3eb03c54b6c404841858e494c0c5449eb33fa04747d7a2dc82c3",
@@ -56,7 +56,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "A (becquerel);\nB is incorrect because it is the unit of mass\nC is incorrect because it is the unit of force\nD is incorrect because it is the unit of pressure\n(b) A (time taken for the activity of a substance to\nhalve);\nB is incorrect because the substance will not\ncompletely decay\nC is incorrect because the substance will not\ncompletely decay\nD is incorrect because the substance cannot decay\ntwice",
+     "solution_md": "A (becquerel);\nB is incorrect because it is the unit of mass\nC is incorrect because it is the unit of force\nD is incorrect because it is the unit of pressure",
      "mark_points": [
       {
        "id": "2023-06-1-a-MP1",
@@ -83,29 +83,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "time taken for the activity of a substance to halve"
+       "text_md": "time taken for the activity of a substance to halve",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "half of the time taken for the mass of a substance to decay"
+       "text_md": "half of the time taken for the mass of a substance to decay",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "time taken for the activity to decay completely"
+       "text_md": "time taken for the activity to decay completely",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "time taken for the mass of a substance to decay twice"
+       "text_md": "time taken for the mass of a substance to decay twice",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (time taken for the activity of a substance to\nhalve);\nB is incorrect because the substance will not\ncompletely decay\nC is incorrect because the substance will not\ncompletely decay\nD is incorrect because the substance cannot decay\ntwice",
+     "mark_points": [
+      {
+       "id": "2023-06-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer A: time taken for the activity of a substance to halve"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -510,7 +522,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking the speed, frequency and wavelength of a wave.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "speed = frequency × wavelength; allow rearrangements\nand standard symbols\ne.g. λ = v/f\nallow s for speed",
+     "mark_points": [
+      {
+       "id": "2023-06-4-a-i-MP1",
+       "marks": 1,
+       "text_md": "speed = frequency × wavelength; allow rearrangements\nand standard symbols\ne.g. λ = v/f\nallow s for speed"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -528,7 +548,15 @@
      "question_type": "structured",
      "problem_md": "GPR radio waves have a frequency of 170 MHz. The speed of radio waves is 3.0 × 108 m / s. Calculate the wavelength of the waves. wavelength = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; ignore units\nrearrangement;\nevaluation; -1 for POT error from\nnot converting units or\nan incorrect attempt at\nconverting units\ne.g.\n3.0 × 108 = 170 (× 106) × λ\nλ = v/f OR λ = 3.0 × 108/170 (× 106)\n(wavelength =) 1.8 (m) allow 1.76(4…) (m)",
+     "mark_points": [
+      {
+       "id": "2023-06-4-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution; ignore units\nrearrangement;\nevaluation; -1 for POT error from\nnot converting units or\nan incorrect attempt at\nconverting units\ne.g.\n3.0 × 108 = 170 (× 106) × λ\nλ = v/f OR λ = 3.0 × 108/170 (× 106)\n(wavelength =) 1.8 (m) allow 1.76(4…) (m)"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -621,12 +649,12 @@
      "problem_md": "Describe a method you could use to find the pressure a person exerts on the ground when standing on two feet.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any four from:\nMP1. measurement of area of foot/feet;\nMP2. idea of drawing round foot/feet on\nsquared/grid/graph paper (to measure\narea);\nMP3. measurement of weight / use of W = mg; allow if weight referred\nto in a calculation\nMP4. use of a balance / scale(s) (to measure allow newtonmeter\nweight/mass);\nMP5. use of p = F ÷ A; expressed in words or\nsymbols\n(b) weight = 6600 (N); allow use of g = 9.8, 9.81\n(N/kg) to get\nweight = 6468, 6474.6 (N)\nsubstitution into p = F / A;\ncorrect evaluation; -1 for POT error\nallow 5 (N/cm2) if\nsupported by working\nusing mass instead of\nweight to get 0.51\n(N/cm2) scores 2 marks\nmax.\ne.g.\nweight = 660 × 10 = 6600 (N)\npressure = 6600 / 1300\n(pressure =) 5.1 (N/cm2) allow 5.076… (N/cm2)\ncondone 5.0 (N/cm2)\nallow 4.975…, 4.980…\n(N/cm2) from use of\ndifferent values of g\nAnswer Notes Marks",
+     "solution_md": "any four from:\nMP1. measurement of area of foot/feet;\nMP2. idea of drawing round foot/feet on\nsquared/grid/graph paper (to measure\narea);\nMP3. measurement of weight / use of W = mg; allow if weight referred\nto in a calculation\nMP4. use of a balance / scale(s) (to measure allow newtonmeter\nweight/mass);\nMP5. use of p = F ÷ A; expressed in words or\nsymbols",
      "mark_points": [
       {
        "id": "2023-06-5-a-MP1",
        "marks": 4,
-       "text_md": "any four from:\nMP1. measurement of area of foot/feet;\nMP2. idea of drawing round foot/feet on\nsquared/grid/graph paper (to measure\narea);\nMP3. measurement of weight / use of W = mg; allow if weight referred\nto in a calculation\nMP4. use of a balance / scale(s) (to measure allow newtonmeter\nweight/mass);\nMP5. use of p = F ÷ A; expressed in words or\nsymbols\n(b) weight = 6600 (N); allow use of g = 9.8, 9.81\n(N/kg) to get\nweight = 6468, 6474.6 (N)\nsubstitution into p = F / A;\ncorrect evaluation; -1 for POT error\nallow 5 (N/cm2) if\nsupported by working\nusing mass instead of\nweight to get 0.51\n(N/cm2) scores 2 marks\nmax.\ne.g.\nweight = 660 × 10 = 6600 (N)\npressure = 6600 / 1300\n(pressure =) 5.1 (N/cm2) allow 5.076… (N/cm2)\ncondone 5.0 (N/cm2)\nallow 4.975…, 4.980…\n(N/cm2) from use of\ndifferent values of g\nAnswer Notes Marks"
+       "text_md": "any four from:\nMP1. measurement of area of foot/feet;\nMP2. idea of drawing round foot/feet on\nsquared/grid/graph paper (to measure\narea);\nMP3. measurement of weight / use of W = mg; allow if weight referred\nto in a calculation\nMP4. use of a balance / scale(s) (to measure allow newtonmeter\nweight/mass);\nMP5. use of p = F ÷ A; expressed in words or\nsymbols"
       }
      ],
      "source_page": 12,
@@ -646,7 +674,15 @@
      "question_type": "structured",
      "problem_md": "The total area of contact of the camel’s feet with the ground is 1300 cm2. The mass of the camel is 660 kg. Calculate the pressure this camel exerts on the ground. pressure = N / cm2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "weight = 6600 (N); allow use of g = 9.8, 9.81\n(N/kg) to get\nweight = 6468, 6474.6 (N)\nsubstitution into p = F / A;\ncorrect evaluation; -1 for POT error\nallow 5 (N/cm2) if\nsupported by working\nusing mass instead of\nweight to get 0.51\n(N/cm2) scores 2 marks\nmax.\ne.g.\nweight = 660 × 10 = 6600 (N)\npressure = 6600 / 1300\n(pressure =) 5.1 (N/cm2) allow 5.076… (N/cm2)\ncondone 5.0 (N/cm2)\nallow 4.975…, 4.980…\n(N/cm2) from use of\ndifferent values of g\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-5-b-MP1",
+       "marks": 3,
+       "text_md": "weight = 6600 (N); allow use of g = 9.8, 9.81\n(N/kg) to get\nweight = 6468, 6474.6 (N)\nsubstitution into p = F / A;\ncorrect evaluation; -1 for POT error\nallow 5 (N/cm2) if\nsupported by working\nusing mass instead of\nweight to get 0.51\n(N/cm2) scores 2 marks\nmax.\ne.g.\nweight = 660 × 10 = 6600 (N)\npressure = 6600 / 1300\n(pressure =) 5.1 (N/cm2) allow 5.076… (N/cm2)\ncondone 5.0 (N/cm2)\nallow 4.975…, 4.980…\n(N/cm2) from use of\ndifferent values of g\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -674,7 +710,15 @@
      "question_type": "structured",
      "problem_md": "State another property that all electromagnetic waves have in common.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(travel at) {same speed/speed of light/in allow can be reflected /\nvacuum}; refracted / diffracted\nOR\nidea that waves can travel through space / a allow don’t need a medium to\nvacuum; travel",
+     "mark_points": [
+      {
+       "id": "2023-06-6-a-i-MP1",
+       "marks": 1,
+       "text_md": "(travel at) {same speed/speed of light/in allow can be reflected /\nvacuum}; refracted / diffracted\nOR\nidea that waves can travel through space / a allow don’t need a medium to\nvacuum; travel"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -692,7 +736,15 @@
      "question_type": "structured",
      "problem_md": "State a harmful effect of excessive exposure to x-rays.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(excessive exposure may cause) cancer; allow cell mutations, cell\ndamage, DNA damage, DNA\nmutations, radiation sickness",
+     "mark_points": [
+      {
+       "id": "2023-06-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "(excessive exposure may cause) cancer; allow cell mutations, cell\ndamage, DNA damage, DNA\nmutations, radiation sickness"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -710,7 +762,15 @@
      "question_type": "structured",
      "problem_md": "Describe the difference between transverse waves and longitudinal waves. You may draw a diagram to help your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "all marks can be awarded from\nclearly labelled diagram\nmention of oscillations/vibrations;\n{oscillation/vibrations/particle movement} are allow along the line of travel\nparallel to {direction of wave (travel) /\ndirection of energy transfer} of wave for\nlongitudinal;\n{oscillation/vibrations/particle movement} allow right angles, 90° for\nare perpendicular to {direction of wave perpendicular\n(travel) / direction of energy transfer} of wave\nfor transverse;",
+     "mark_points": [
+      {
+       "id": "2023-06-6-a-iii-MP1",
+       "marks": 3,
+       "text_md": "all marks can be awarded from\nclearly labelled diagram\nmention of oscillations/vibrations;\n{oscillation/vibrations/particle movement} are allow along the line of travel\nparallel to {direction of wave (travel) /\ndirection of energy transfer} of wave for\nlongitudinal;\n{oscillation/vibrations/particle movement} allow right angles, 90° for\nare perpendicular to {direction of wave perpendicular\n(travel) / direction of energy transfer} of wave\nfor transverse;"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -728,7 +788,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows a part of the knee called the patella. The patella has been removed from a person’s knee. The patella is a small, irregularly shaped bone that is denser than water. Describe how to find the mass and the volume of the patella bone.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "use of relevant pieces of measuring apparatus e.g.\nfor mass AND volume; • balance\n• measuring cylinder\nignore scale(s)\nidea of use of displacement method for e.g.\nvolume; • using a eureka can\n• placing in a measuring\ncylinder\nfurther correct detail of displacement e.g.\nmethod; • collect displaced water from\neureka can to measure\nvolume\n• measure initial and final\nvolumes in measuring\ncylinder to calculate volume\nfurther experimental accuracy detail; e.g.\n• not splashing\n• totally submerged\n• filling eureka can completely\nto the spout\n• collecting all drips from\neureka can spout\n• reading measuring cylinder\nat eye level\n• balance on flat surface\n• ensure balance is zeroed\n• measure mass of dry bone",
+     "mark_points": [
+      {
+       "id": "2023-06-6-b-MP1",
+       "marks": 4,
+       "text_md": "use of relevant pieces of measuring apparatus e.g.\nfor mass AND volume; • balance\n• measuring cylinder\nignore scale(s)\nidea of use of displacement method for e.g.\nvolume; • using a eureka can\n• placing in a measuring\ncylinder\nfurther correct detail of displacement e.g.\nmethod; • collect displaced water from\neureka can to measure\nvolume\n• measure initial and final\nvolumes in measuring\ncylinder to calculate volume\nfurther experimental accuracy detail; e.g.\n• not splashing\n• totally submerged\n• filling eureka can completely\nto the spout\n• collecting all drips from\neureka can spout\n• reading measuring cylinder\nat eye level\n• balance on flat surface\n• ensure balance is zeroed\n• measure mass of dry bone"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
@@ -758,7 +826,15 @@
      "question_type": "structured",
      "problem_md": "A scientist finds the volume and mass of a patella. The mass of the patella is 17 g. The volume of the patella is 13 cm3. Calculate the density of the patella. Give your answer to 2 significant figures. density = g / cm3",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "correct formula selected; seen or implied by working\nsubstitution;\nevaluation; -1 for POT error\nanswer given to 2 sf; mark independently\ne.g.\ndensity = mass / volume\ndensity = 17 / 13\ndensity = 1.3… (g/cm3)\ndensity = 1.3 (g/cm3)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-6-c-MP1",
+       "marks": 4,
+       "text_md": "correct formula selected; seen or implied by working\nsubstitution;\nevaluation; -1 for POT error\nanswer given to 2 sf; mark independently\ne.g.\ndensity = mass / volume\ndensity = 17 / 13\ndensity = 1.3… (g/cm3)\ndensity = 1.3 (g/cm3)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -791,12 +867,12 @@
      "problem_md": "The switch is open and the motor is not moving. State how much energy is in the kinetic energy store of the motor. kinetic energy = J",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "0 / none / zero (J);\n(b) substitution into given formula E = V × I × t; allow use of P = E/t and\nP = VI\ncorrect evaluation to at least 3 s.f.;\ne.g.\nenergy = 7.1 × 3.9 × 0.42\nenergy = 11.6… (J)\n(c) energy transferred to motor electrically from allow electric,\nbattery 12 J; electrical\nkinetic energy store of motor 10 J;\nthermal store of the surroundings 2 J; condone heat\n(d) useful and total energies correctly selected; allow ecf from (c)\nsubstitution into efficiency formula;\nevaluation; allow lack of 100 i.e.\n0.83 if % sign removed\nfrom answer line\ne.g.\n10 (J) and 12 (J) seen in working\nefficiency = 10/12 (×100%)\nefficiency = 83 (%) allow 83.3… (%)\nAnswer Notes Marks",
+     "solution_md": "0 / none / zero (J);",
      "mark_points": [
       {
        "id": "2023-06-7-a-MP1",
        "marks": 1,
-       "text_md": "0 / none / zero (J);\n(b) substitution into given formula E = V × I × t; allow use of P = E/t and\nP = VI\ncorrect evaluation to at least 3 s.f.;\ne.g.\nenergy = 7.1 × 3.9 × 0.42\nenergy = 11.6… (J)\n(c) energy transferred to motor electrically from allow electric,\nbattery 12 J; electrical\nkinetic energy store of motor 10 J;\nthermal store of the surroundings 2 J; condone heat\n(d) useful and total energies correctly selected; allow ecf from (c)\nsubstitution into efficiency formula;\nevaluation; allow lack of 100 i.e.\n0.83 if % sign removed\nfrom answer line\ne.g.\n10 (J) and 12 (J) seen in working\nefficiency = 10/12 (×100%)\nefficiency = 83 (%) allow 83.3… (%)\nAnswer Notes Marks"
+       "text_md": "0 / none / zero (J);"
       }
      ],
      "source_page": 18,
@@ -816,7 +892,15 @@
      "question_type": "structured",
      "problem_md": "The switch is closed. The motor takes 0.42 seconds to reach its maximum speed of rotation. The mean current in the motor is 3.9 A. The voltage across the motor is 7.1 V. Show that the work done on the motor during the 0.42 seconds is about 12 J. work done = J",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula E = V × I × t; allow use of P = E/t and\nP = VI\ncorrect evaluation to at least 3 s.f.;\ne.g.\nenergy = 7.1 × 3.9 × 0.42\nenergy = 11.6… (J)",
+     "mark_points": [
+      {
+       "id": "2023-06-7-b-MP1",
+       "marks": 2,
+       "text_md": "substitution into given formula E = V × I × t; allow use of P = E/t and\nP = VI\ncorrect evaluation to at least 3 s.f.;\ne.g.\nenergy = 7.1 × 3.9 × 0.42\nenergy = 11.6… (J)"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -834,7 +918,15 @@
      "question_type": "structured",
      "problem_md": "Complete the Sankey diagram for the electric motor during the 0.42 seconds by giving the missing information. energy transferred to motor kinetic energy store of motor from battery J 12 J store of surroundings 2J",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "energy transferred to motor electrically from allow electric,\nbattery 12 J; electrical\nkinetic energy store of motor 10 J;\nthermal store of the surroundings 2 J; condone heat",
+     "mark_points": [
+      {
+       "id": "2023-06-7-c-MP1",
+       "marks": 3,
+       "text_md": "energy transferred to motor electrically from allow electric,\nbattery 12 J; electrical\nkinetic energy store of motor 10 J;\nthermal store of the surroundings 2 J; condone heat"
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
@@ -864,7 +956,15 @@
      "question_type": "structured",
      "problem_md": "Use the Sankey diagram to calculate the efficiency of the process of bringing the motor to its maximum speed of rotation. efficiency = %",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "useful and total energies correctly selected; allow ecf from (c)\nsubstitution into efficiency formula;\nevaluation; allow lack of 100 i.e.\n0.83 if % sign removed\nfrom answer line\ne.g.\n10 (J) and 12 (J) seen in working\nefficiency = 10/12 (×100%)\nefficiency = 83 (%) allow 83.3… (%)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-7-d-MP1",
+       "marks": 3,
+       "text_md": "useful and total energies correctly selected; allow ecf from (c)\nsubstitution into efficiency formula;\nevaluation; allow lack of 100 i.e.\n0.83 if % sign removed\nfrom answer line\ne.g.\n10 (J) and 12 (J) seen in working\nefficiency = 10/12 (×100%)\nefficiency = 83 (%) allow 83.3… (%)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
@@ -907,12 +1007,12 @@
      "problem_md": "Explain why the white snow will take a long time to melt, even though directly exposed to the Sun.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any reference to absorption or reflection (of infra-\nred/heat);\nidea that snow/white objects are poor also scores first mark\nabsorbers/good reflectors (of infra-red/heat);\n(b) any two from:\nMP1. idea that ground / drain cover is warmer than allow RA\nsnow;\nMP2. idea that drain cover / metal is a good\nconductor;\nMP3. energy transfers from drain cover to snow; condone heat for\nenergy\nmust be correct\ndirection of energy\ntransfer\n(c) any two from:\nMP1. idea that warmer air rises; allow RA\nallow warm particles\nrise\nMP2. idea that colder air is nearest the snow; ignore nearest the\nground\nMP3. (rate of) energy/heat transfer (from air) to\nsnow decreases;\nAnswer Notes Marks",
+     "solution_md": "any reference to absorption or reflection (of infra-\nred/heat);\nidea that snow/white objects are poor also scores first mark\nabsorbers/good reflectors (of infra-red/heat);",
      "mark_points": [
       {
        "id": "2023-06-8-a-MP1",
        "marks": 2,
-       "text_md": "any reference to absorption or reflection (of infra-\nred/heat);\nidea that snow/white objects are poor also scores first mark\nabsorbers/good reflectors (of infra-red/heat);\n(b) any two from:\nMP1. idea that ground / drain cover is warmer than allow RA\nsnow;\nMP2. idea that drain cover / metal is a good\nconductor;\nMP3. energy transfers from drain cover to snow; condone heat for\nenergy\nmust be correct\ndirection of energy\ntransfer\n(c) any two from:\nMP1. idea that warmer air rises; allow RA\nallow warm particles\nrise\nMP2. idea that colder air is nearest the snow; ignore nearest the\nground\nMP3. (rate of) energy/heat transfer (from air) to\nsnow decreases;\nAnswer Notes Marks"
+       "text_md": "any reference to absorption or reflection (of infra-\nred/heat);\nidea that snow/white objects are poor also scores first mark\nabsorbers/good reflectors (of infra-red/heat);"
       }
      ],
      "source_page": 20,
@@ -932,7 +1032,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 2 shows a different piece of ground that has a metal drain cover. If the snow lands on metal, the snow takes a shorter time to melt. Sun snow metal drain cover ground Diagram 2 Explain why the snow melts in a shorter time on the metal drain cover.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. idea that ground / drain cover is warmer than allow RA\nsnow;\nMP2. idea that drain cover / metal is a good\nconductor;\nMP3. energy transfers from drain cover to snow; condone heat for\nenergy\nmust be correct\ndirection of energy\ntransfer",
+     "mark_points": [
+      {
+       "id": "2023-06-8-b-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. idea that ground / drain cover is warmer than allow RA\nsnow;\nMP2. idea that drain cover / metal is a good\nconductor;\nMP3. energy transfers from drain cover to snow; condone heat for\nenergy\nmust be correct\ndirection of energy\ntransfer"
+      }
+     ],
      "source_page": 21,
      "assets": [
       {
@@ -962,7 +1070,15 @@
      "question_type": "structured",
      "problem_md": "Explain how a convection current above the snow increases the time taken for the snow to melt.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. idea that warmer air rises; allow RA\nallow warm particles\nrise\nMP2. idea that colder air is nearest the snow; ignore nearest the\nground\nMP3. (rate of) energy/heat transfer (from air) to\nsnow decreases;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-8-c-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. idea that warmer air rises; allow RA\nallow warm particles\nrise\nMP2. idea that colder air is nearest the snow; ignore nearest the\nground\nMP3. (rate of) energy/heat transfer (from air) to\nsnow decreases;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1057,12 +1173,12 @@
      "problem_md": "Calculate the acceleration of the surface of the liquid. acceleration = cm / s2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any viable attempt at a gradient; allow use of v2=u2 + 2as\ncorrect use of 47 and 0.20 in gradient calculation; allow other suitable\nvalues for gradient e.g.\n35 (cm/s) in 0.15 (s)\nacceleration in range (−)230 to (−)240 (cm/s2);\n(c) idea of (gas) particles speeding up; allow KE of particles\nincreases\nidea of more frequent collisions between particles\nand liquid/walls/container;\nidea of harder collisions between particles and allow force (on\nliquid/walls/container; container) increases\nAnswer Notes Marks",
+     "solution_md": "any viable attempt at a gradient; allow use of v2=u2 + 2as\ncorrect use of 47 and 0.20 in gradient calculation; allow other suitable\nvalues for gradient e.g.\n35 (cm/s) in 0.15 (s)\nacceleration in range (−)230 to (−)240 (cm/s2);",
      "mark_points": [
       {
        "id": "2023-06-9-b-ii-MP1",
        "marks": 3,
-       "text_md": "any viable attempt at a gradient; allow use of v2=u2 + 2as\ncorrect use of 47 and 0.20 in gradient calculation; allow other suitable\nvalues for gradient e.g.\n35 (cm/s) in 0.15 (s)\nacceleration in range (−)230 to (−)240 (cm/s2);\n(c) idea of (gas) particles speeding up; allow KE of particles\nincreases\nidea of more frequent collisions between particles\nand liquid/walls/container;\nidea of harder collisions between particles and allow force (on\nliquid/walls/container; container) increases\nAnswer Notes Marks"
+       "text_md": "any viable attempt at a gradient; allow use of v2=u2 + 2as\ncorrect use of 47 and 0.20 in gradient calculation; allow other suitable\nvalues for gradient e.g.\n35 (cm/s) in 0.15 (s)\nacceleration in range (−)230 to (−)240 (cm/s2);"
       }
      ],
      "source_page": 23,
@@ -1082,7 +1198,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the gas pressure changes if the temperature of the gas increases. You should use ideas about particles in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea of (gas) particles speeding up; allow KE of particles\nincreases\nidea of more frequent collisions between particles\nand liquid/walls/container;\nidea of harder collisions between particles and allow force (on\nliquid/walls/container; container) increases\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-9-c-MP1",
+       "marks": 3,
+       "text_md": "idea of (gas) particles speeding up; allow KE of particles\nincreases\nidea of more frequent collisions between particles\nand liquid/walls/container;\nidea of harder collisions between particles and allow force (on\nliquid/walls/container; container) increases\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1256,12 +1380,12 @@
      "problem_md": "The voltage across the LED is 0.63 V. Calculate the current in the circuit. Give your answer in milliamps. current = mA",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that voltage across resistor is difference allow 0.87 seen or\nbetween cell and diode voltage; 1.5−0.63 seen\nrearrangement of V = IR;\nevaluation in A;\nconversion to mA;\ncondone use of\nincorrect voltage to\ngive 0.0066, 0.0224,\n0.0158 (A) = 1 mark\ne.g. 6.6, 22.4, 15.8 (mA) = 2\nvoltage across resistor = 1.5 − 0.63 = 0.87 (V)\nI = V/R = 0.87/95\ncurrent = 0.00915… (A)\ncurrent = 9.2 (mA) allow current =\n9.15…(mA)\n(b) any four from:\nMP1. resistance (of circuit) decreased;\nMP2. (because) extra path in circuit;\nMP3. resistance (of circuit) halved; also scores MP1\nallow calculation of\nresistance (=81.9Ω)\nMP4. idea that voltage across parallel branches is reject if idea that cell\nthe same (as previous voltage); voltage is shared\nbetween branches\nMP5. current (in ammeter) increased; allow current in\nammeter is sum of\ncurrents in branches\nMP6. current (in ammeter) doubled; also scores MP5\nallow calculation of\ncurrent (=18mA)\nAnswer Notes Marks",
+     "solution_md": "idea that voltage across resistor is difference allow 0.87 seen or\nbetween cell and diode voltage; 1.5−0.63 seen\nrearrangement of V = IR;\nevaluation in A;\nconversion to mA;\ncondone use of\nincorrect voltage to\ngive 0.0066, 0.0224,\n0.0158 (A) = 1 mark\ne.g. 6.6, 22.4, 15.8 (mA) = 2\nvoltage across resistor = 1.5 − 0.63 = 0.87 (V)\nI = V/R = 0.87/95\ncurrent = 0.00915… (A)\ncurrent = 9.2 (mA) allow current =\n9.15…(mA)",
      "mark_points": [
       {
        "id": "2023-06-11-a-MP1",
        "marks": 4,
-       "text_md": "idea that voltage across resistor is difference allow 0.87 seen or\nbetween cell and diode voltage; 1.5−0.63 seen\nrearrangement of V = IR;\nevaluation in A;\nconversion to mA;\ncondone use of\nincorrect voltage to\ngive 0.0066, 0.0224,\n0.0158 (A) = 1 mark\ne.g. 6.6, 22.4, 15.8 (mA) = 2\nvoltage across resistor = 1.5 − 0.63 = 0.87 (V)\nI = V/R = 0.87/95\ncurrent = 0.00915… (A)\ncurrent = 9.2 (mA) allow current =\n9.15…(mA)\n(b) any four from:\nMP1. resistance (of circuit) decreased;\nMP2. (because) extra path in circuit;\nMP3. resistance (of circuit) halved; also scores MP1\nallow calculation of\nresistance (=81.9Ω)\nMP4. idea that voltage across parallel branches is reject if idea that cell\nthe same (as previous voltage); voltage is shared\nbetween branches\nMP5. current (in ammeter) increased; allow current in\nammeter is sum of\ncurrents in branches\nMP6. current (in ammeter) doubled; also scores MP5\nallow calculation of\ncurrent (=18mA)\nAnswer Notes Marks"
+       "text_md": "idea that voltage across resistor is difference allow 0.87 seen or\nbetween cell and diode voltage; 1.5−0.63 seen\nrearrangement of V = IR;\nevaluation in A;\nconversion to mA;\ncondone use of\nincorrect voltage to\ngive 0.0066, 0.0224,\n0.0158 (A) = 1 mark\ne.g. 6.6, 22.4, 15.8 (mA) = 2\nvoltage across resistor = 1.5 − 0.63 = 0.87 (V)\nI = V/R = 0.87/95\ncurrent = 0.00915… (A)\ncurrent = 9.2 (mA) allow current =\n9.15…(mA)"
       }
      ],
      "source_page": 28,
@@ -1281,7 +1405,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 2 shows a second LED and an extra resistor connected in parallel with the cell. 1.5 V A Diagram 2 The resistor and the LED are the same as the components used in diagram 1. The two resistors are identical and the two LEDs are identical. Explain how the ammeter reading will change.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. resistance (of circuit) decreased;\nMP2. (because) extra path in circuit;\nMP3. resistance (of circuit) halved; also scores MP1\nallow calculation of\nresistance (=81.9Ω)\nMP4. idea that voltage across parallel branches is reject if idea that cell\nthe same (as previous voltage); voltage is shared\nbetween branches\nMP5. current (in ammeter) increased; allow current in\nammeter is sum of\ncurrents in branches\nMP6. current (in ammeter) doubled; also scores MP5\nallow calculation of\ncurrent (=18mA)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-11-b-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. resistance (of circuit) decreased;\nMP2. (because) extra path in circuit;\nMP3. resistance (of circuit) halved; also scores MP1\nallow calculation of\nresistance (=81.9Ω)\nMP4. idea that voltage across parallel branches is reject if idea that cell\nthe same (as previous voltage); voltage is shared\nbetween branches\nMP5. current (in ammeter) increased; allow current in\nammeter is sum of\ncurrents in branches\nMP6. current (in ammeter) doubled; also scores MP5\nallow calculation of\ncurrent (=18mA)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 29,
      "assets": [
       {
@@ -1374,12 +1506,12 @@
      "problem_md": "Alternating current is supplied to the transmitter coil. Diagram 2 shows a gold ring in the soil below the metal detector. metal detector air soil ring Diagram 2 Explain why there is an alternating current in the gold ring. QUESTION 12 CONTINUES ON NEXT PAGE",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea of changing magnetic field (from transmitter\ncoil);\nidea of gold ring cutting field lines; allow field moving\nthrough ring\nignore ring interacting\nwith field\nidea of induced voltage for gold ring; ignore induced current\n(c) any four from:\nMP1. alternating current in loudspeaker;\nMP2. magnetic fields interact (in loudspeaker); ignore fields cutting\nMP3. causing a force (on loudspeaker cone); allow coil for cone\nMP4. a.c. causes changing force direction;\nMP5. loudspeaker (cone) vibrates; allow coil for cone\nallow description of\nvibrations e.g. “back\nand forth”\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "idea of changing magnetic field (from transmitter\ncoil);\nidea of gold ring cutting field lines; allow field moving\nthrough ring\nignore ring interacting\nwith field\nidea of induced voltage for gold ring; ignore induced current",
      "mark_points": [
       {
        "id": "2023-06-12-b-ii-MP1",
        "marks": 3,
-       "text_md": "idea of changing magnetic field (from transmitter\ncoil);\nidea of gold ring cutting field lines; allow field moving\nthrough ring\nignore ring interacting\nwith field\nidea of induced voltage for gold ring; ignore induced current\n(c) any four from:\nMP1. alternating current in loudspeaker;\nMP2. magnetic fields interact (in loudspeaker); ignore fields cutting\nMP3. causing a force (on loudspeaker cone); allow coil for cone\nMP4. a.c. causes changing force direction;\nMP5. loudspeaker (cone) vibrates; allow coil for cone\nallow description of\nvibrations e.g. “back\nand forth”\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "idea of changing magnetic field (from transmitter\ncoil);\nidea of gold ring cutting field lines; allow field moving\nthrough ring\nignore ring interacting\nwith field\nidea of induced voltage for gold ring; ignore induced current"
       }
      ],
      "source_page": 31,
@@ -1411,7 +1543,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 3 shows the circuit for the receiver coil. receiver coil loudspeaker Diagram 3 As a result of the alternating current in the gold ring, there is an alternating current in the receiving coil. Explain how an alternating current in the receiving coil causes a sound to be emitted from the loudspeaker.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. alternating current in loudspeaker;\nMP2. magnetic fields interact (in loudspeaker); ignore fields cutting\nMP3. causing a force (on loudspeaker cone); allow coil for cone\nMP4. a.c. causes changing force direction;\nMP5. loudspeaker (cone) vibrates; allow coil for cone\nallow description of\nvibrations e.g. “back\nand forth”\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2023-06-12-c-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. alternating current in loudspeaker;\nMP2. magnetic fields interact (in loudspeaker); ignore fields cutting\nMP3. causing a force (on loudspeaker cone); allow coil for cone\nMP4. a.c. causes changing force direction;\nMP5. loudspeaker (cone) vibrates; allow coil for cone\nallow description of\nvibrations e.g. “back\nand forth”\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 32,
      "assets": [
       {

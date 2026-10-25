@@ -14,6 +14,18 @@ Add a labelled arrow to the diagram to show the type of force from the star acti
 
 ![diagram — official paper figure (qp.pdf p.4) — shared with asset_1_a_diagram_stem](assets/asset_1_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> arrow originating at object A and directed towards
+> the star by eye;
+> arrow labelled gravitational (force); allow weight,
+> gravitational force, pull
+> or force of gravity
+> condone gravity
+
+- **(2)** arrow originating at object A and directed towards
+
 ### 1(a)(ii) [1]
 
 What is object A?
@@ -21,20 +33,50 @@ What is object A?
 - **(A)** a comet
 - **(B)** a galaxy
 - **(C)** a moon
-- **(D)** a planet
+- **(D)** a planet  ✔
+
+
+**Mark scheme answer**
+
+> D - (a planet);
+> A is incorrect because comets have comets have elliptical orbits
+> B is incorrect because galaxies do not orbit anything
+> C is incorrect because moons orbit planets
+
+- **(1)** Answer D: a planet
 
 ### 1(a)(iii) [1]
 
 What is object B?
 
-- **(A)** a comet
+- **(A)** a comet  ✔
 - **(B)** a galaxy
 - **(C)** a moon
 - **(D)** a planet
 
+
+**Mark scheme answer**
+
+> A - (a comet);
+> B is incorrect because galaxies do not orbit anything
+> C is incorrect because moons orbit planets
+> D is incorrect because planets have circular orbits
+
+- **(1)** Answer A: a comet
+
 ### 1(b) [1]
 
 State the name given to a large collection of billions of stars.
+
+
+**Mark scheme answer**
+
+> galaxy; allow named galaxy
+> e.g. Andromeda, Milky
+> Way
+> ignore universe
+
+- **(1)** galaxy; allow named galaxy
 
 ### 1(c) [2]
 
@@ -42,9 +84,31 @@ Physicists classify stars according to their colour. Each group of stars of simi
 
 ![table — official paper figure (qp.pdf p.5)](assets/asset_1_c_table.png)
 
+
+**Mark scheme answer**
+
+> spectral class B to have any temperature higher
+> than 5600 K;
+> spectral class M to have any temperature lower
+> than 5600 K;
+
+- **(2)** spectral class B to have any temperature higher
+
 ### 1(d) [3]
 
 There are stars in the universe with masses much greater than the mass of the Sun. Describe what happens to these high-mass stars when they leave the main sequence stage of their evolution.
+
+
+**Mark scheme answer**
+
+> star becomes a red (super) giant; allow “supergiant”
+> (then) a supernova;
+> (leaving) a neutron star / black hole; allow pulsar
+> Max 2 for incorrect
+> order
+> Answer Notes Marks
+
+- **(3)** star becomes a red (super) giant; allow “supergiant”
 
 
 ## Question 2 (11 marks)
@@ -59,13 +123,46 @@ Some of the energy stored in the nuclei of atoms can be used to generate electri
 
 State the role of the moderator in a nuclear fission power station.
 
+
+**Mark scheme answer**
+
+> reduce the kinetic energy of neutrons; allow ‘slow down’
+> neutrons
+
+- **(1)** reduce the kinetic energy of neutrons; allow ‘slow down’
+
 ### 2(a)(ii) [2]
 
 Some of the daughter nuclei produced in nuclear fission are highly radioactive and emit high energy neutrons when they decay. Explain which feature of a nuclear fission reactor reduces the risks from these high energy neutrons.
 
+
+**Mark scheme answer**
+
+> to absorb (high energy) neutrons; allow absorb / reduce
+> strength of neutron
+> radiation
+> condone “stop neutrons
+> escaping”
+> use of (concrete / lead) shielding; allow “concrete walls”
+
+- **(2)** to absorb (high energy) neutrons; allow absorb / reduce
+
 ### 2(a)(iii) [2]
 
 The daughter nuclei can cause contamination and irradiation. Describe the difference between contamination and irradiation.
+
+
+**Mark scheme answer**
+
+> idea that contamination is when a non-radioactive
+> object comes into contact with a radioactive
+> material;
+> idea that irradiation is when radiation is present;
+> Condone idea of
+> exposure for 1 mark if
+> no other mark scored
+
+- **(2)** idea that contamination is when a non-radioactive
 
 ### 2(b)(i) [2]
 
@@ -137,10 +234,6 @@ State what is meant by the term isotope.
 > (but) different number of neutrons; allow different nucleon
 > / mass number /atomic
 > mass
-> (b) A (82);
-> B is incorrect because this is the number of neutrons
-> C is incorrect because this is the number of nucleons
-> D is incorrect because this is double the proton number + nucleon number
 
 - **(2)** (nuclei with) the same number of protons; allow same atomic
 
@@ -148,10 +241,20 @@ State what is meant by the term isotope.
 
 How many protons are in the nucleus of lead-210?
 
-- **(A)** 82
+- **(A)** 82  ✔
 - **(B)** 128
 - **(C)** 210
 - **(D)** 292
+
+
+**Mark scheme answer**
+
+> A (82);
+> B is incorrect because this is the number of neutrons
+> C is incorrect because this is the number of nucleons
+> D is incorrect because this is double the proton number + nucleon number
+
+- **(1)** Answer A: 82
 
 ### 3(c)(i) [2]
 
@@ -199,9 +302,27 @@ Photograph 1 shows an outdoor swimming pool. Photograph 1
 
 State how energy is transferred from the Sun to the water.
 
+
+**Mark scheme answer**
+
+> by radiation / by (infrared) light; ignore “heat”
+> Allow EM waves/IR,
+> condone visible, UV,
+> sunlight
+> condone “light rays”
+
+- **(1)** by radiation / by (infrared) light; ignore “heat”
+
 ### 4(a)(ii) [1]
 
 State what happens to the average speed of the water molecules as the water is heated.
+
+
+**Mark scheme answer**
+
+> (average speed) increases; e.g. “faster”
+
+- **(1)** (average speed) increases; e.g. “faster”
 
 ### 4(b)(i) [1]
 
@@ -257,9 +378,26 @@ Use the diagram to determine the mean diameter of the cylinder of putty. mean di
 
 ![diagram — official paper figure (qp.pdf p.13) — shared with asset_5_a_diagram_stem](assets/asset_5_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> diameter measured within range 3.5-4.0 cm;
+> evidence of finding a mean of the diameter;
+
+- **(2)** diameter measured within range 3.5-4.0 cm;
+
 ### 5(a)(ii) [2]
 
 Calculate the cross-sectional area of the cylinder of putty in cm2. [area of a circle = π × radius2] cross-sectional area = cm2
+
+
+**Mark scheme answer**
+
+> substitution of radius into given formula;
+> evaluation of area within range 9.6-12.6 cm2; 1 mark max if diameter
+> used instead of radius
+
+- **(2)** substitution of radius into given formula;
 
 ### 5(b) [3]
 
@@ -325,7 +463,19 @@ Draw the curve of best fit.
 > i.e. smooth curve with
 > points evenly
 > distributed about it
-> (d) voltage stays the same;
+
+- **(1)** line (curve) of best fit acceptable; allow ECF from plotting
+
+### 5(d) [4]
+
+The student extends his investigation by connecting two new identical cylinders to a battery. The diagram shows the circuit he uses. putty cylinder putty cylinder He measures the voltage of each cylinder and the total current in the circuit. Discuss how his measurements of voltage and current compare with the measurements when only one of these cylinders is used.
+
+![diagram — official paper figure (qp.pdf p.16)](assets/asset_5_d_diagram.png)
+
+
+**Mark scheme answer**
+
+> voltage stays the same;
 > (because) each putty cylinder is connected in
 > parallel (with the cells);
 > total current doubles; allow current increases
@@ -337,13 +487,7 @@ Draw the curve of best fit.
 > formula
 > Answer Notes Marks
 
-- **(1)** line (curve) of best fit acceptable; allow ECF from plotting
-
-### 5(d) [4]
-
-The student extends his investigation by connecting two new identical cylinders to a battery. The diagram shows the circuit he uses. putty cylinder putty cylinder He measures the voltage of each cylinder and the total current in the circuit. Discuss how his measurements of voltage and current compare with the measurements when only one of these cylinders is used.
-
-![diagram — official paper figure (qp.pdf p.16)](assets/asset_5_d_diagram.png)
+- **(4)** voltage stays the same;
 
 
 ## Question 6 (6 marks)
@@ -358,9 +502,29 @@ The photograph shows a small glass ball used to investigate density and pressure
 
 State the formula linking density, mass and volume.
 
+
+**Mark scheme answer**
+
+> density = mass / volume; allow rearrangements
+> and use of symbols e.g.
+> V = m / ρ or D = M/V
+
+- **(1)** density = mass / volume; allow rearrangements
+
 ### 6(a)(ii) [2]
 
 Calculate the volume of the ball. volume = cm3
+
+
+**Mark scheme answer**
+
+> substitution OR rearrangement;
+> evaluation;
+> e.g.
+> V = m / ρ OR 2.3 = 19 / V
+> (V =) 8.3 (cm3) allow 8.26…
+
+- **(2)** substitution OR rearrangement;
 
 ### 6(b)(i) [1]
 
@@ -445,17 +609,23 @@ Design a suitable method for the student’s investigation. Your answer should i
 > distance travelled / time if description includes
 > length of card/block
 > and time of transit
-> (b) (bar chart because) surface material is a {categoric condone surface
-> / discontinuous / non-continuous} variable; material being a
-> discrete variable
-> Total for Question 7 =7 marks
-> Answer Notes Marks
 
 - **(6)** measuring equipment: allow if clearly included
 
 ### 7(b) [1]
 
 Justify why the student should display their results as a bar chart.
+
+
+**Mark scheme answer**
+
+> (bar chart because) surface material is a {categoric condone surface
+> / discontinuous / non-continuous} variable; material being a
+> discrete variable
+> Total for Question 7 =7 marks
+> Answer Notes Marks
+
+- **(1)** (bar chart because) surface material is a {categoric condone surface
 
 
 ## Question 8 (7 marks)
@@ -471,7 +641,16 @@ Which statement is correct about the parachute jumper at point A?
 - **(A)** acceleration and air resistance are equal
 - **(B)** acceleration and velocity are equal
 - **(C)** weight and acceleration are equal
-- **(D)** weight and air resistance are equal
+- **(D)** weight and air resistance are equal  ✔
+
+
+**Mark scheme answer**
+
+> D – (weight and air resistance are equal);
+> A, B and C cannot be correct because accelerations,
+> forces and velocities are not the same SI quantities.
+
+- **(1)** Answer D: weight and air resistance are equal
 
 ### 8(a)(ii) [1]
 
@@ -479,12 +658,51 @@ Which is the best estimate of the distance fallen by the parachute jumper from t
 
 - **(A)** 50 m
 - **(B)** 1300 m
-- **(C)** 2300 m
+- **(C)** 2300 m  ✔
 - **(D)** 2700 m
+
+
+**Mark scheme answer**
+
+> C – (2300 m);
+> A cannot be correct because each large square
+> represents 200 m and the area is larger than one
+> large square.
+> B cannot be correct because the area is larger than
+> 6.5 large squares
+> D cannot be correct because the area is lower than
+> 12.5 large squares
+
+- **(1)** Answer C: 2300 m
 
 ### 8(b) [4]
 
 The parachute jumper opens her parachute at point B. Her velocity decreases until she reaches terminal velocity again at point C. Explain this change in velocity.
+
+
+**Mark scheme answer**
+
+> any four from: allow “drag” for air
+> resistance throughout
+> MP1. air resistance increases (greatly) when allow “upwards force”
+> parachute is opened;
+> MP2. idea that air resistance is greater than the allow upwards force is
+> weight; bigger than downwards
+> force
+> MP3. (therefore) deceleration / upwards allow idea of upwards
+> acceleration; resultant force
+> ignore “velocity
+> decreases”
+> MP4. idea that air resistance decreases with
+> speed;
+> MP5. resultant force (eventually) becomes zero; allow “forces are
+> balanced again”
+> allow air resistance =
+> weight
+> MP6. constant speed achieved allow idea that there is
+> no acceleration
+
+- **(4)** any four from: allow “drag” for air
 
 ### 8(c) [1]
 
@@ -493,7 +711,21 @@ After point C, the parachute jumper continues to fall at a constant velocity. As
 - **(A)** chemical store
 - **(B)** gravitational store
 - **(C)** kinetic store
-- **(D)** thermal store
+- **(D)** thermal store  ✔
+
+
+**Mark scheme answer**
+
+> D – (thermal store);
+> A cannot be correct as there is no mechanism for
+> this transfer
+> B cannot be correct as the gravitational store is
+> decreasing
+> C cannot be correct as the jumper is at constant
+> velocity
+> Answer Notes Marks
+
+- **(1)** Answer D: thermal store
 
 
 ## Question 9 (13 marks)
@@ -507,9 +739,33 @@ Complete diagram 1 by showing ● the wavefronts in the water ● the path of th
 
 ![diagram — official paper figure (qp.pdf p.23) — shared with asset_9_a_diagram_stem](assets/asset_9_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> light ray refracting and bending in the correct ignore any response in
+> direction; the air e.g. reflected
+> wavefronts or direction
+> of travel of reflected
+> ray
+> wavefronts in water drawn closer together by eye; allow wherever seen in
+> diagram
+> wavefronts drawn in water join up with wavefronts
+> in air;
+
+- **(3)** light ray refracting and bending in the correct ignore any response in
+
 ### 9(a)(ii) [2]
 
 Explain what happens to the wavelength of light when it passes from air into water.
+
+
+**Mark scheme answer**
+
+> wavelength decreases;
+> (because) wave speed decreases and frequency
+> remains constant;
+
+- **(2)** wavelength decreases;
 
 ### 9(b)(i) [1]
 
@@ -586,9 +842,23 @@ Explain the path of the light ray shown in diagram 2.
 
 Force X opposes the motion of the van. State the name of force X.
 
+
+**Mark scheme answer**
+
+> friction / air resistance / drag;
+
+- **(1)** friction / air resistance / drag;
+
 ### 10(a)(ii) [1]
 
 The resultant force acting on the van is 1500 N. Calculate the magnitude of force X. [assume X is the only horizontal force opposing the motion of the van] force X = N
+
+
+**Mark scheme answer**
+
+> 1000 (N);
+
+- **(1)** 1000 (N);
 
 ### 10(b)(i) [1]
 
@@ -662,7 +932,17 @@ Describe two factors that would increase the braking distance. 1 2
 > MP4. idea of worn vehicle parts e.g. tyres / brakes
 > etc.;
 > MP5. van travelling downhill;
-> (c) -1 if POT error
+
+- **(2)** any two described factors from: ignore condition of
+
+### 10(c) [4]
+
+When the van is fully loaded its mass increases to 2500 kg. Calculate the time taken to bring the fully loaded van to rest when it is travelling at an initial speed of 18 m/s. [assume that the resultant force during braking remains at 14 kN] time = s
+
+
+**Mark scheme answer**
+
+> -1 if POT error
 > calculation of new acceleration (5.6);
 > substitution into a = (v – u) / t; allow ecf from
 > acceleration value
@@ -687,11 +967,7 @@ Describe two factors that would increase the braking distance. 1 2
 > gives 32.
 > Answer Notes Marks
 
-- **(2)** any two described factors from: ignore condition of
-
-### 10(c) [4]
-
-When the van is fully loaded its mass increases to 2500 kg. Calculate the time taken to bring the fully loaded van to rest when it is travelling at an initial speed of 18 m/s. [assume that the resultant force during braking remains at 14 kN] time = s
+- **(4)** -1 if POT error
 
 
 ## Question 11 (10 marks)
@@ -751,7 +1027,19 @@ Explain how the diagram shows that the strength of the magnetic field changes.
 > apart;
 > (showing that) field strongest near the poles / allow “magnet” for
 > weaker away from the poles; “poles”
-> (c) any pair of readings read from the graph;
+
+- **(2)** idea that field lines are closer together / further
+
+### 11(c) [4]
+
+Magnetic field strength can be measured in units of milli-tesla (mT). A student uses a different magnet. The student measures the magnetic field strength at different distances from the north pole of this magnet. The graph shows his results. 6.0 – 5.0 – 4.0 – Magnetic field strength in mT 3.0 – 2.0 – 1.0 – 0.0 – 10 20 30 40 50 60 70 80 Distance from magnet in mm The student concludes that his results obey this relationship. magnetic field strength × distance2 = constant Use data from the graph to deduce whether the student’s results support this conclusion.
+
+![graph — official paper figure (qp.pdf p.32)](assets/asset_11_c_graph.png)
+
+
+**Mark scheme answer**
+
+> any pair of readings read from the graph;
 > correct substitution into formula to find constant;
 > different pair of readings used correctly to find
 > constant;
@@ -772,11 +1060,5 @@ Explain how the diagram shows that the strength of the magnetic field changes.
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(2)** idea that field lines are closer together / further
-
-### 11(c) [4]
-
-Magnetic field strength can be measured in units of milli-tesla (mT). A student uses a different magnet. The student measures the magnetic field strength at different distances from the north pole of this magnet. The graph shows his results. 6.0 – 5.0 – 4.0 – Magnetic field strength in mT 3.0 – 2.0 – 1.0 – 0.0 – 10 20 30 40 50 60 70 80 Distance from magnet in mm The student concludes that his results obey this relationship. magnetic field strength × distance2 = constant Use data from the graph to deduce whether the student’s results support this conclusion.
-
-![graph — official paper figure (qp.pdf p.32)](assets/asset_11_c_graph.png)
+- **(4)** any pair of readings read from the graph;
 

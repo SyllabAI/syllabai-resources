@@ -66,7 +66,17 @@ Natural gas can be burned to generate electricity. Name the energy store that de
 **Mark scheme answer**
 
 > chemical (energy store);
-> (b) ignore references to cost
+
+- **(1)** chemical (energy store);
+
+### 2(b) [4]
+
+Burning natural gas and the movement of water waves can both be used to generate electricity. Discuss the advantages and disadvantages of these two methods of generating electricity.
+
+
+**Mark scheme answer**
+
+> ignore references to cost
 > any one advantage of natural gas from:
 > MP1. idea that electricity generated can change allow idea that startup time is
 > to meet demand; (very) short
@@ -90,11 +100,7 @@ Natural gas can be burned to generate electricity. Name the energy store that de
 > MP10. possible storm damage to the generator;
 > Answer Notes Marks
 
-- **(1)** chemical (energy store);
-
-### 2(b) [4]
-
-Burning natural gas and the movement of water waves can both be used to generate electricity. Discuss the advantages and disadvantages of these two methods of generating electricity.
+- **(4)** ignore references to cost
 
 
 ## Question 3 (8 marks)
@@ -174,17 +180,77 @@ The photograph shows a dummy during a test of the safety features of a car in a 
 
 State the formula linking momentum, mass and velocity.
 
+
+**Mark scheme answer**
+
+> momentum = mass × velocity; all standard symbols
+> and rearrangements
+> e.g. m = p / v
+> ignore m, M for
+> momentum
+
+- **(1)** momentum = mass × velocity; all standard symbols
+
 ### 4(a)(ii) [3]
 
 Show that the mass of the dummy is approximately 80 kg.
+
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> evaluation to 2 or more s.f.;
+> answer of 78 (kg) gets 2
+> marks only
+> e.g.
+> 1100 = mass × 14
+> mass = 1100 / 14
+> (mass =) 79 (kg) allow 78.6, 78.57…
+> condone 78.5
+
+- **(3)** substitution;
 
 ### 4(b) [3]
 
 The dummy is brought to rest during the collision by a mean force of 15 kN. Calculate the time taken for the dummy to be brought to rest in the collision. time taken = s
 
+
+**Mark scheme answer**
+
+> substitution into F = ∆p / t; ignore not converting
+> kN to N
+> allow use of
+> ∆p = (80 × 14 =) 1120
+> rearrangement;
+> evaluation; −1 for POT error
+> e.g. 15 000 = 1100 / t
+> t = 1100 / 15 000
+> (t =) 0.073 (s) allow 0.07, 0.0733…,
+> 0.075, 0.0746…
+
+- **(3)** substitution into F = ∆p / t; ignore not converting
+
 ### 4(c) [2]
 
 The car being tested is fitted with airbags. Using ideas about momentum, explain how an airbag reduces the force experienced by the dummy in the collision.
+
+
+**Mark scheme answer**
+
+> idea that airbag increases the (collision) time;
+> reduces the rate of change of momentum; condone slows down
+> change of momentum
+> allow reduces
+> acceleration
+> allow use of equation
+> AND statement that
+> change in momentum is
+> constant (which reduces
+> the force)
+> Answer Notes Marks
+
+- **(2)** idea that airbag increases the (collision) time;
 
 
 ## Question 5 (7 marks)
@@ -398,13 +464,6 @@ The table gives the frequencies of some different sound waves. Place ticks (✓)
 > marks;;
 > if either A or F ticked then
 > award 0 marks
-> (b) wave drawn with lower amplitude throughout; ignore vertical position of
-> wave in the grid
-> peak to peak should be
-> less than 4 squares
-> vertically throughout trace
-> wave drawn with lower frequency throughout; should be less than 2½
-> waves in the trace
 
 - **(2)** Answer C: 500
 
@@ -413,6 +472,19 @@ The table gives the frequencies of some different sound waves. Place ticks (✓)
 The diagram shows the screen of an oscilloscope when a sound wave is detected. Add to the diagram by drawing the trace of another sound wave that has a lower pitch and is quieter than the sound wave shown.
 
 ![diagram — official paper figure (qp.pdf p.16)](assets/asset_7_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> wave drawn with lower amplitude throughout; ignore vertical position of
+> wave in the grid
+> peak to peak should be
+> less than 4 squares
+> vertically throughout trace
+> wave drawn with lower frequency throughout; should be less than 2½
+> waves in the trace
+
+- **(2)** wave drawn with lower amplitude throughout; ignore vertical position of
 
 ### 7(c)(i) [2]
 
@@ -469,15 +541,55 @@ This question is about stars.
 
 Star C is much more powerful than star A. Stars A and C appear to have the same brightness when viewed from Earth. Suggest how this is possible.
 
+
+**Mark scheme answer**
+
+> idea that star A is closer (to Earth than star C); allow RA
+
+- **(1)** idea that star A is closer (to Earth than star C); allow RA
+
 ### 8(a)(ii) [3]
 
 Using information from the table, explain which star is in the supernova stage of its evolution.
 
 ![table — official paper figure (qp.pdf p.18) — shared with asset_8_a_table_stem](assets/asset_8_a_table_stem.png)
 
+
+**Mark scheme answer**
+
+> star D;
+> (because) it (is the only star that) has a mass dependent on 1st mark
+> (much) larger than the mass of the Sun; being awarded
+> (because) it has a much lower value of absolute dependent on 1st mark
+> magnitude; being awarded
+> allow lowest value of
+> absolute magnitude
+> 2 marks max. if answer
+> suggests that
+> colour/temperature is
+> relevant
+
+- **(3)** star D;
+
 ### 8(b) [3]
 
 Explain how a main sequence star evolves into a supernova.
+
+
+**Mark scheme answer**
+
+> any three from:
+> MP1. (hydrogen) fusion stops (in core); allow runs out of
+> hydrogen
+> MP2. core collapses; allow core contracts
+> MP3. (which) restarts fusion (in core); allow idea that fusion of
+> heavier elements starts
+> MP4. star becomes red supergiant; allow super red giant
+> MP5. fusion of heavier elements stops (in core);
+> MP6. star explodes (as supernova); allow planetary nebula
+> formed
+
+- **(3)** any three from:
 
 ### 8(c)(i) [4]
 

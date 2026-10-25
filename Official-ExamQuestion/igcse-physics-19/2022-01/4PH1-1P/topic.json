@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:04Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2022-01 paper=1P",
+ "generated_utc": "2026-10-25T22:06:27Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2022-01 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-01:4PH1/1P",
  "source": {
   "qp_sha256": "3dd03eab2e82185ea98aeb124ef3ab642d5b6440c61f26c1af920dcdaadf1f84",
@@ -35,19 +35,23 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "N       S"
+       "text_md": "N       S",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "N       S"
+       "text_md": "N       S",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "N       S"
+       "text_md": "N       S",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "N       S"
+       "text_md": "N       S",
+       "is_correct": false
       }
      ],
      "answer_status": "linked",
@@ -56,7 +60,7 @@
       {
        "id": "2022-01-1-a-MP1",
        "marks": 1,
-       "text_md": "B;\nA is incorrect because the top two field lines are in the wrong direction\nC is incorrect because all the field lines are in the wrong direction\nD is incorrect because the second field line from the top is in the wrong\ndirection"
+       "text_md": "Answer B: N       S"
       }
      ],
      "source_page": 3,
@@ -65,7 +69,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -78,19 +82,23 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "nothing happens"
+       "text_md": "nothing happens",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "they attract"
+       "text_md": "they attract",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "they repel"
+       "text_md": "they repel",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "they spin"
+       "text_md": "they spin",
+       "is_correct": false
       }
      ],
      "answer_status": "linked",
@@ -99,7 +107,7 @@
       {
        "id": "2022-01-1-b-i-MP1",
        "marks": 1,
-       "text_md": "B;\nA is incorrect because there is a magnetic force on each of the magnets\nC is incorrect because the two nearest poles are opposite not alike\nD is incorrect because the forces on the magnets pass through their centres of\ngravity"
+       "text_md": "Answer B: they attract"
       }
      ],
      "source_page": 4,
@@ -108,7 +116,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -120,12 +128,12 @@
      "problem_md": "Which of these magnet arrangements gives a uniform field between the poles? N N S N A B N S S N S S S C D",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "C;\nA is incorrect because the field lines are not straight nor parallel to each other\nB is incorrect because the field lines are not straight nor parallel to each other\nD is incorrect because the field lines are not parallel to each other\n(c) steel / nickel / cobalt / neodymium; condone iron\n(d) EITHER: all marks can be\nawarded from a\ndiagram\n(plotting) compass used;\nmultiple compasses or repeated use of single\ncompass;\njoining up of dots/idea of compasses forming\ncontinuous line;\nOR\niron filings used;\nsprinkled / eq; ignore ‘poured’ or other\nheavy-handed method\ncard tapped (to reveal pattern);\nAnswer Notes Marks",
+     "solution_md": "C;\nA is incorrect because the field lines are not straight nor parallel to each other\nB is incorrect because the field lines are not straight nor parallel to each other\nD is incorrect because the field lines are not parallel to each other",
      "mark_points": [
       {
        "id": "2022-01-1-b-ii-MP1",
        "marks": 1,
-       "text_md": "C;\nA is incorrect because the field lines are not straight nor parallel to each other\nB is incorrect because the field lines are not straight nor parallel to each other\nD is incorrect because the field lines are not parallel to each other\n(c) steel / nickel / cobalt / neodymium; condone iron\n(d) EITHER: all marks can be\nawarded from a\ndiagram\n(plotting) compass used;\nmultiple compasses or repeated use of single\ncompass;\njoining up of dots/idea of compasses forming\ncontinuous line;\nOR\niron filings used;\nsprinkled / eq; ignore ‘poured’ or other\nheavy-handed method\ncard tapped (to reveal pattern);\nAnswer Notes Marks"
+       "text_md": "C;\nA is incorrect because the field lines are not straight nor parallel to each other\nB is incorrect because the field lines are not straight nor parallel to each other\nD is incorrect because the field lines are not parallel to each other"
       }
      ],
      "source_page": 5,
@@ -145,7 +153,15 @@
      "question_type": "structured",
      "problem_md": "State the name of a material that would be suitable for use as a permanent magnet.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "steel / nickel / cobalt / neodymium; condone iron",
+     "mark_points": [
+      {
+       "id": "2022-01-1-c-MP1",
+       "marks": 1,
+       "text_md": "steel / nickel / cobalt / neodymium; condone iron"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -163,7 +179,15 @@
      "question_type": "structured",
      "problem_md": "Describe an investigation that could be used to determine the shape of the magnetic field around a bar magnet.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "EITHER: all marks can be\nawarded from a\ndiagram\n(plotting) compass used;\nmultiple compasses or repeated use of single\ncompass;\njoining up of dots/idea of compasses forming\ncontinuous line;\nOR\niron filings used;\nsprinkled / eq; ignore ‘poured’ or other\nheavy-handed method\ncard tapped (to reveal pattern);\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-1-d-MP1",
+       "marks": 3,
+       "text_md": "EITHER: all marks can be\nawarded from a\ndiagram\n(plotting) compass used;\nmultiple compasses or repeated use of single\ncompass;\njoining up of dots/idea of compasses forming\ncontinuous line;\nOR\niron filings used;\nsprinkled / eq; ignore ‘poured’ or other\nheavy-handed method\ncard tapped (to reveal pattern);\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -301,7 +325,15 @@
      "question_type": "structured",
      "problem_md": "State a similarity of the Wi-Fi signals at 2.4 GHz and 5.2 GHz.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "travel at the same speed (in a vacuum) / allow both transverse\ncan travel in a vacuum; waves, both transfer\nenergy, both\nmicrowaves",
+     "mark_points": [
+      {
+       "id": "2022-01-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "travel at the same speed (in a vacuum) / allow both transverse\ncan travel in a vacuum; waves, both transfer\nenergy, both\nmicrowaves"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -319,7 +351,15 @@
      "question_type": "structured",
      "problem_md": "The two Wi-Fi signals have different frequencies. State another difference between the Wi-Fi signals.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "wavelength; allow idea of different\nrange / penetration\nignore amplitude",
+     "mark_points": [
+      {
+       "id": "2022-01-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "wavelength; allow idea of different\nrange / penetration\nignore amplitude"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -391,19 +431,23 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "longitudinal"
+       "text_md": "longitudinal",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "mechanical"
+       "text_md": "mechanical",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "sound"
+       "text_md": "sound",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "transverse"
+       "text_md": "transverse",
+       "is_correct": true
       }
      ],
      "answer_status": "linked",
@@ -412,7 +456,7 @@
       {
        "id": "2022-01-3-c-i-MP1",
        "marks": 1,
-       "text_md": "D;\nA is incorrect because electromagnetic waves are not longitudinal\nB is incorrect because electromagnetic waves are not mechanical waves\nC is incorrect because sound waves are not electromagnetic waves"
+       "text_md": "Answer D: transverse"
       }
      ],
      "source_page": 10,
@@ -421,7 +465,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -613,7 +657,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking average speed, distance travelled and time taken.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(average) speed = distance (travelled) ÷ time allow standard symbols\n(taken); and rearrangements\ne.g. v = s / t\nallow s, d for distance\ncondone s for speed",
+     "mark_points": [
+      {
+       "id": "2022-01-5-a-i-MP1",
+       "marks": 1,
+       "text_md": "(average) speed = distance (travelled) ÷ time allow standard symbols\n(taken); and rearrangements\ne.g. v = s / t\nallow s, d for distance\ncondone s for speed"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -631,7 +683,15 @@
      "question_type": "structured",
      "problem_md": "A car travels at 21 m / s. The driver’s reaction time is 0.14 seconds. Calculate the distance travelled by the car during the driver’s reaction time. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution OR rearrangement;\nevaluation;\ne.g.\n21 = distance / 0.14 OR s = v × t\n(distance =) 2.9 (m) allow 3, 2.94 (m)",
+     "mark_points": [
+      {
+       "id": "2022-01-5-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution OR rearrangement;\nevaluation;\ne.g.\n21 = distance / 0.14 OR s = v × t\n(distance =) 2.9 (m) allow 3, 2.94 (m)"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -741,7 +801,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the acceleration of the object. acceleration = m / s2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any attempt to find gradient of graph; allow use of acceleration\nformula\nuse of two points on the line to calculate gradient; allow reading of pair of\nvelocities with matching time\ninterval\nevaluation; reject positive answer\ne.g.\nacceleration = gradient\nacceleration = (−)4.2 / 0.45\n(acceleration =) −9.3 (m/s2) allow −9.3 to −9.4",
+     "mark_points": [
+      {
+       "id": "2022-01-6-a-i-MP1",
+       "marks": 3,
+       "text_md": "any attempt to find gradient of graph; allow use of acceleration\nformula\nuse of two points on the line to calculate gradient; allow reading of pair of\nvelocities with matching time\ninterval\nevaluation; reject positive answer\ne.g.\nacceleration = gradient\nacceleration = (−)4.2 / 0.45\n(acceleration =) −9.3 (m/s2) allow −9.3 to −9.4"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -759,7 +827,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the distance the object travels to reach its maximum height. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "accept alternative method\nusing v2 = u2 + 2as with\nacceleration calculated in (i)\nany clear indication that distance travelled = area; allow attempt to calculate\narea of triangle\ncorrect use of data from graph;\nevaluation;\ne.g.\ndistance = area\ndistance = 0.5 × 0.45 × 4.2\n(distance =) 0.95 (m) allow 0.94, 0.945 (m)",
+     "mark_points": [
+      {
+       "id": "2022-01-6-a-ii-MP1",
+       "marks": 3,
+       "text_md": "accept alternative method\nusing v2 = u2 + 2as with\nacceleration calculated in (i)\nany clear indication that distance travelled = area; allow attempt to calculate\narea of triangle\ncorrect use of data from graph;\nevaluation;\ne.g.\ndistance = area\ndistance = 0.5 × 0.45 × 4.2\n(distance =) 0.95 (m) allow 0.94, 0.945 (m)"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -898,7 +974,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the voltage across the thermistor. voltage = V",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that voltage across thermistor + voltage across\nfixed resistor = voltage across cell;\n0.59 (V); allow 0.632 (V)",
+     "mark_points": [
+      {
+       "id": "2022-01-7-a-i-MP1",
+       "marks": 2,
+       "text_md": "idea that voltage across thermistor + voltage across\nfixed resistor = voltage across cell;\n0.59 (V); allow 0.632 (V)"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -916,7 +1000,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking voltage, current and resistance.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "voltage = current × resistance; allow standard symbols\nand rearrangements\ne.g. V, I and R\nignore c,C for current",
+     "mark_points": [
+      {
+       "id": "2022-01-7-a-ii-MP1",
+       "marks": 1,
+       "text_md": "voltage = current × resistance; allow standard symbols\nand rearrangements\ne.g. V, I and R\nignore c,C for current"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -934,7 +1026,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the resistance of the thermistor. resistance = Ω",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; ecf answer from (i)\nrearrangement;\nevaluation; -1 for POT error\nanswers of R = 90.7… or\nR = 101.9…(Ω) gain full\nanswer of 242 (Ω)\ngains 2 marks\ne.g.\n0.59 = 0.0062 × R\nR = 0.59 / 0.0062\n(R =) 95 (Ω) allow 95.2, 95.16…\ncondone 95.1",
+     "mark_points": [
+      {
+       "id": "2022-01-7-a-iii-MP1",
+       "marks": 3,
+       "text_md": "substitution; ecf answer from (i)\nrearrangement;\nevaluation; -1 for POT error\nanswers of R = 90.7… or\nR = 101.9…(Ω) gain full\nanswer of 242 (Ω)\ngains 2 marks\ne.g.\n0.59 = 0.0062 × R\nR = 0.59 / 0.0062\n(R =) 95 (Ω) allow 95.2, 95.16…\ncondone 95.1"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -1018,7 +1118,15 @@
      "question_type": "structured",
      "problem_md": "State how the kinetic store of the rocket changes as the rocket burns fuel.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that kinetic store increases; e.g. chemical\ntransferred to kinetic",
+     "mark_points": [
+      {
+       "id": "2022-01-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "idea that kinetic store increases; e.g. chemical\ntransferred to kinetic"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1036,7 +1144,15 @@
      "question_type": "structured",
      "problem_md": "State how the gravitational store of the rocket changes as the rocket burns fuel.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that gravitational store increases;",
+     "mark_points": [
+      {
+       "id": "2022-01-8-a-ii-MP1",
+       "marks": 1,
+       "text_md": "idea that gravitational store increases;"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1054,7 +1170,15 @@
      "question_type": "structured",
      "problem_md": "The rocket engine stops burning fuel. The rocket continues to go further away from the surface of the Earth. The table gives some statements about the rocket’s energy stores. Add ticks (✓) to the table to show which two statements are correct. Statement Correct (✓) gravitational store increases gravitational store stays the same gravitational store decreases kinetic store increases kinetic store stays the same kinetic store decreases",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "two correct statements ticked;;\n3 ticks scores 1 max\n4 or more ticks scores 0",
+     "mark_points": [
+      {
+       "id": "2022-01-8-b-MP1",
+       "marks": 2,
+       "text_md": "two correct statements ticked;;\n3 ticks scores 1 max\n4 or more ticks scores 0"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -1111,12 +1235,12 @@
      "problem_md": "Funcube-1 has an orbital radius of 7100 km and an orbital period of 5800 s. Calculate the orbital speed, in km / s, of Funcube-1. orbital speed = km / s",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution into given formula;\nevaluation;\ne.g.\norbital speed = (2 × π × 7100) / 5800\n(orbital speed =) 7.7 (km/s) allow 7.69… (km/s)\n(d) any four from: accept any clear\nreverse argument\nMP1. bars increase in temperature when facing towards\nSun / decrease in temperature when facing away\nfrom Sun;\nMP2. (when pointed at the Sun,) black bar increases\ntemperature faster than white bar;\nMP3. (because) black is a better absorber of radiation than allow energy, heat, IR\nwhite; for radiation\nMP4. (so) black bar reaches a higher temperature than\nwhite bar;\nMP5. (when pointed away from the Sun,) black bar\ndecreases temperature faster than white bar;\nMP6. (because) black is a better emitter of radiation than allow energy, heat, IR\nwhite; for radiation\nMP7. convection/conduction plays no part in heat transfer\n(outside the spacecraft);\nMP8. (because) there are no particles outside the\nspacecraft;\nAnswer Notes Marks",
+     "solution_md": "substitution into given formula;\nevaluation;\ne.g.\norbital speed = (2 × π × 7100) / 5800\n(orbital speed =) 7.7 (km/s) allow 7.69… (km/s)",
      "mark_points": [
       {
        "id": "2022-01-8-c-ii-MP1",
        "marks": 2,
-       "text_md": "substitution into given formula;\nevaluation;\ne.g.\norbital speed = (2 × π × 7100) / 5800\n(orbital speed =) 7.7 (km/s) allow 7.69… (km/s)\n(d) any four from: accept any clear\nreverse argument\nMP1. bars increase in temperature when facing towards\nSun / decrease in temperature when facing away\nfrom Sun;\nMP2. (when pointed at the Sun,) black bar increases\ntemperature faster than white bar;\nMP3. (because) black is a better absorber of radiation than allow energy, heat, IR\nwhite; for radiation\nMP4. (so) black bar reaches a higher temperature than\nwhite bar;\nMP5. (when pointed away from the Sun,) black bar\ndecreases temperature faster than white bar;\nMP6. (because) black is a better emitter of radiation than allow energy, heat, IR\nwhite; for radiation\nMP7. convection/conduction plays no part in heat transfer\n(outside the spacecraft);\nMP8. (because) there are no particles outside the\nspacecraft;\nAnswer Notes Marks"
+       "text_md": "substitution into given formula;\nevaluation;\ne.g.\norbital speed = (2 × π × 7100) / 5800\n(orbital speed =) 7.7 (km/s) allow 7.69… (km/s)"
       }
      ],
      "source_page": 24,
@@ -1136,7 +1260,15 @@
      "question_type": "structured",
      "problem_md": "Funcube-1 spins and is heated by the Sun. The diagram shows two coloured metal bars attached to a face of Funcube-1. The surface of one metal bar is dull and black. The surface of the other metal bar is shiny and white. direction not to scale of spin Funcube-1 Sun Temperature probes measure the temperature of each metal bar. Use ideas about thermal energy transfer to explain how the temperature of each metal bar changes as Funcube-1 spins.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from: accept any clear\nreverse argument\nMP1. bars increase in temperature when facing towards\nSun / decrease in temperature when facing away\nfrom Sun;\nMP2. (when pointed at the Sun,) black bar increases\ntemperature faster than white bar;\nMP3. (because) black is a better absorber of radiation than allow energy, heat, IR\nwhite; for radiation\nMP4. (so) black bar reaches a higher temperature than\nwhite bar;\nMP5. (when pointed away from the Sun,) black bar\ndecreases temperature faster than white bar;\nMP6. (because) black is a better emitter of radiation than allow energy, heat, IR\nwhite; for radiation\nMP7. convection/conduction plays no part in heat transfer\n(outside the spacecraft);\nMP8. (because) there are no particles outside the\nspacecraft;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-8-d-MP1",
+       "marks": 4,
+       "text_md": "any four from: accept any clear\nreverse argument\nMP1. bars increase in temperature when facing towards\nSun / decrease in temperature when facing away\nfrom Sun;\nMP2. (when pointed at the Sun,) black bar increases\ntemperature faster than white bar;\nMP3. (because) black is a better absorber of radiation than allow energy, heat, IR\nwhite; for radiation\nMP4. (so) black bar reaches a higher temperature than\nwhite bar;\nMP5. (when pointed away from the Sun,) black bar\ndecreases temperature faster than white bar;\nMP6. (because) black is a better emitter of radiation than allow energy, heat, IR\nwhite; for radiation\nMP7. convection/conduction plays no part in heat transfer\n(outside the spacecraft);\nMP8. (because) there are no particles outside the\nspacecraft;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [
       {
@@ -1339,7 +1471,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the angle of refraction for the violet light. angle of refraction = degrees",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "36 (degrees);",
+     "mark_points": [
+      {
+       "id": "2022-01-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "36 (degrees);"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],
@@ -1357,7 +1497,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking refractive index, angle of incidence and angle of refraction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "refractive index = sin(i) / sin(r); allow standard symbols\nand rearrangements\ne.g. n = sin(i) / sin(r)",
+     "mark_points": [
+      {
+       "id": "2022-01-10-a-ii-MP1",
+       "marks": 1,
+       "text_md": "refractive index = sin(i) / sin(r); allow standard symbols\nand rearrangements\ne.g. n = sin(i) / sin(r)"
+      }
+     ],
      "source_page": 30,
      "assets": [],
      "spec_point_codes": [],
@@ -1375,7 +1523,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the refractive index of the prism for violet light. Give your answer to 2 significant figures. refractive index = Diagram 2 shows rays of red light and violet light entering the same prism. Red light has a longer wavelength than violet light. red light violet light red and violet light Diagram 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow ecf from (i)\nevaluation;\nanswer quoted to 2 s.f.; mark independently\ne.g.\nrefractive index = sin(61) / sin(36)\n(refractive index =) 1.48799…\n(refractive index =) 1.5",
+     "mark_points": [
+      {
+       "id": "2022-01-10-a-iii-MP1",
+       "marks": 3,
+       "text_md": "substitution; allow ecf from (i)\nevaluation;\nanswer quoted to 2 s.f.; mark independently\ne.g.\nrefractive index = sin(61) / sin(36)\n(refractive index =) 1.48799…\n(refractive index =) 1.5"
+      }
+     ],
      "source_page": 30,
      "assets": [
       {
@@ -1407,7 +1563,15 @@
      "question_type": "structured",
      "problem_md": "Deduce a possible relationship between the wavelength and the refractive index for colours of the visible spectrum.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "red refracts less than violet; allow RA\nallow red bends less\nthan violet\ncorrect link made between colour and refractive e.g. red has a lower\nindex; refractive index than\nviolet\ncorrect link made between wavelength and e.g. refractive index\nrefractive index; decreases with\nincreasing wavelength\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-10-b-MP1",
+       "marks": 3,
+       "text_md": "red refracts less than violet; allow RA\nallow red bends less\nthan violet\ncorrect link made between colour and refractive e.g. red has a lower\nindex; refractive index than\nviolet\ncorrect link made between wavelength and e.g. refractive index\nrefractive index; decreases with\nincreasing wavelength\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],
@@ -1435,7 +1599,15 @@
      "question_type": "structured",
      "problem_md": "The pressure of the air inside the balloon is reduced to 64 kPa by reducing the external air pressure. Calculate the new volume of the balloon. volume = m3",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "rearrangement OR substitution into given\nformula;\nevaluation;\ne.g.\nV2 = p1 × V1 / p2 OR 120 × 92 = 64 × V2\n(volume =) 170 (m3) allow 172, 173, 172.5",
+     "mark_points": [
+      {
+       "id": "2022-01-11-a-i-MP1",
+       "marks": 2,
+       "text_md": "rearrangement OR substitution into given\nformula;\nevaluation;\ne.g.\nV2 = p1 × V1 / p2 OR 120 × 92 = 64 × V2\n(volume =) 170 (m3) allow 172, 173, 172.5"
+      }
+     ],
      "source_page": 32,
      "assets": [],
      "spec_point_codes": [],
@@ -1453,7 +1625,15 @@
      "question_type": "structured",
      "problem_md": "Give an assumption that is made in the calculation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "constant temperature / amount of air / mass of however expressed\nair; e.g. number of particles\nconstant",
+     "mark_points": [
+      {
+       "id": "2022-01-11-a-ii-MP1",
+       "marks": 1,
+       "text_md": "constant temperature / amount of air / mass of however expressed\nair; e.g. number of particles\nconstant"
+      }
+     ],
      "source_page": 32,
      "assets": [],
      "spec_point_codes": [],

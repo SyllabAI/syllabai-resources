@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:42:43Z",
+ "generated_utc": "2026-10-25T22:06:02Z",
  "series": "2020-01",
  "paper": "2P",
  "gates": [
@@ -60,20 +60,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 22/31 (71%)",
+   "status": "PASS",
+   "summary": "MS linkage 31/31 (100%)",
    "details": {
-    "unmatched": [
-     "2(b)",
-     "3(a)(i)",
-     "3(a)(ii)",
-     "3(b)(ii)",
-     "4(c)",
-     "6(b)",
-     "7(a)(i)",
-     "7(a)(ii)",
-     "8(b)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -88,7 +78,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 22/22 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 31/31 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -128,42 +118,6 @@
   {
    "part": "6(b)",
    "reason": "figure crop emitted — human verify (assets/asset_6_b_diagram.png)"
-  },
-  {
-   "part": "2(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(b)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(b)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
  "ocr_pages": [],

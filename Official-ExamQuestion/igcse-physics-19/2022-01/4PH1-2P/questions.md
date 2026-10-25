@@ -9,7 +9,7 @@
 
 Which of these is a device used to measure force?
 
-- **(A)** newton meter
+- **(A)** newton meter  ✔
 - **(B)** ruler
 - **(C)** thermometer
 - **(D)** voltmeter
@@ -22,7 +22,7 @@ Which of these is a device used to measure force?
 > C cannot be correct as it measures temperature
 > D cannot be correct as it measures voltage
 
-- **(1)** A;
+- **(1)** Answer A: newton meter
 
 ### 1(b)(i) [1]
 
@@ -73,7 +73,7 @@ The person experiences a crash and comes to rest in 0.29 s. Calculate the force 
 Which statement explains how airbags protect the driver?
 
 - **(A)** increase the force acting on the driver
-- **(B)** increase the time taken for the driver to stop
+- **(B)** increase the time taken for the driver to stop  ✔
 - **(C)** increase the kinetic energy store of the driver
 - **(D)** increase the momentum of the driver
 
@@ -89,7 +89,7 @@ Which statement explains how airbags protect the driver?
 > Total for question 1: 6 marks
 > Answer Notes Marks
 
-- **(1)** A cannot be correct as increasing the force does not
+- **(1)** Answer B: increase the time taken for the driver to stop
 
 
 ## Question 2 (6 marks)
@@ -106,7 +106,17 @@ Describe the arrangement and motion of particles in a solid. You may draw a diag
 > (about) fixed positions / eq;
 > ignore reference to
 > force
-> (b) increases continuously from -40 to 44 oC ;
+
+- **(3)** idea of regular pattern/tightly packed; allow diagram
+
+### 2(b) [3]
+
+A solid changes state by melting at a certain temperature. For phosphorus, this change of state occurs at 44 °C. Sketch how the temperature of a sample of phosphorus changes when it is heated at a constant rate from –40 °C to 80 °C. Temperature in °C 0 Time –20 –40
+
+
+**Mark scheme answer**
+
+> increases continuously from -40 to 44 oC ;
 > remains constant (at 44 oC);
 > increases continuously from 44 to 80 oC; ECF incorrect plateau
 > responses with no
@@ -123,11 +133,7 @@ Describe the arrangement and motion of particles in a solid. You may draw a diag
 > Total for question 2: 6 marks
 > Answer Notes Marks
 
-- **(3)** idea of regular pattern/tightly packed; allow diagram
-
-### 2(b) [3]
-
-A solid changes state by melting at a certain temperature. For phosphorus, this change of state occurs at 44 °C. Sketch how the temperature of a sample of phosphorus changes when it is heated at a constant rate from –40 °C to 80 °C. Temperature in °C 0 Time –20 –40
+- **(3)** increases continuously from -40 to 44 oC ;
 
 
 ## Question 3 (5 marks)
@@ -141,7 +147,7 @@ Which is the best description of nuclear fusion?
 - **(A)** large nucleus splitting into two smaller nuclei
 - **(B)** nucleus emitting an electromagnetic wave
 - **(C)** nucleus releasing a beta particle
-- **(D)** two smaller nuclei joining together to form a larger nucleus
+- **(D)** two smaller nuclei joining together to form a larger nucleus  ✔
 
 
 **Mark scheme answer**
@@ -153,25 +159,37 @@ Which is the best description of nuclear fusion?
 > gamma decay
 > C cannot be correct as this is a description of beta
 > decay
-> (b) (nuclei are) positively charged; reject idea of charged
+
+- **(1)** Answer D: two smaller nuclei joining together to form a larger nucleus
+
+### 3(b) [2]
+
+Two nuclei are close together and stationary. Explain why these nuclei will move apart.
+
+
+**Mark scheme answer**
+
+> (nuclei are) positively charged; reject idea of charged
 > atoms
 > like charges repel;
-> (c) high temperature;
+
+- **(2)** (nuclei are) positively charged; reject idea of charged
+
+### 3(c) [2]
+
+Describe the conditions needed for fusion to occur in the core of a star.
+
+
+**Mark scheme answer**
+
+> high temperature;
 > high pressure;
 > ‘high temperature and
 > pressure’ scores 2
 > Total for question 3: 5 marks
 > Answer Notes Marks
 
-- **(1)** D;
-
-### 3(b) [2]
-
-Two nuclei are close together and stationary. Explain why these nuclei will move apart.
-
-### 3(c) [2]
-
-Describe the conditions needed for fusion to occur in the core of a star.
+- **(2)** high temperature;
 
 
 ## Question 4 (9 marks)
@@ -205,7 +223,19 @@ The student uses a device called a Hall probe, which can be placed anywhere in t
 > monitor current
 > MP7: reference to suitable second control variable
 > e.g. coil (spacing or turns), the rest of the apparatus;
-> (b) any pair of readings from the graph;
+
+- **(5)** Any FIVE from: marks may be
+
+### 4(b) [4]
+
+The graph shows the results of the student’s investigation. Strength of magnetic field in arbitrary units 0 10 20 30 40 50 Distance in cm The student suggests that the relationship linking the strength of the magnetic field and the distance from the end of the solenoid is strength of magnetic field × (distance)3 = constant Use readings from the graph to deduce whether the results of the student’s investigation support this relationship.
+
+![graph — official paper figure (qp.pdf p.10)](assets/asset_4_b_graph.png)
+
+
+**Mark scheme answer**
+
+> any pair of readings from the graph;
 > correct substitution into formula and constant found;
 > different pair of readings used correctly to find a
 > constant;
@@ -227,13 +257,7 @@ The student uses a device called a Hall probe, which can be placed anywhere in t
 > Total for question 4: 9 marks
 > Answer Notes Marks
 
-- **(5)** Any FIVE from: marks may be
-
-### 4(b) [4]
-
-The graph shows the results of the student’s investigation. Strength of magnetic field in arbitrary units 0 10 20 30 40 50 Distance in cm The student suggests that the relationship linking the strength of the magnetic field and the distance from the end of the solenoid is strength of magnetic field × (distance)3 = constant Use readings from the graph to deduce whether the results of the student’s investigation support this relationship.
-
-![graph — official paper figure (qp.pdf p.10)](assets/asset_4_b_graph.png)
+- **(4)** any pair of readings from the graph;
 
 
 ## Question 5 (9 marks)
@@ -254,7 +278,17 @@ State the formula linking gravitational potential energy (GPE), mass, gravitatio
 > e.g. m for mass, h for
 > height
 > reject ‘gravity’ for g
-> (b) substitution; allow use of 9.8, 9.81
+
+- **(1)** GPE = mass × gravitational field strength × height; Accept g for
+
+### 5(b) [3]
+
+The ball has a mass of 14 g. Show that when the ball reaches a height of 29 cm above the bottom of the ramp, the GPE gained by the ball is about 4 × 10−2 J.
+
+
+**Mark scheme answer**
+
+> substitution; allow use of 9.8, 9.81
 > conversion of mass to kg and height to m;
 > correct evaluation to at least 2 sf; 0.0406 (J) to 3sf
 > e.g.
@@ -268,7 +302,17 @@ State the formula linking gravitational potential energy (GPE), mass, gravitatio
 > gives 0.048
 > correct substitution
 > with POT error scores 2
-> (c) recall of KE= 1/2 mv2;
+
+- **(3)** substitution; allow use of 9.8, 9.81
+
+### 5(c) [3]
+
+At the bottom of the ramp, the 14 g ball has a kinetic energy (KE) of 5.1 × 10−2 J. Calculate the speed of the ball at the bottom of the ramp. speed = m/s
+
+
+**Mark scheme answer**
+
+> recall of KE= 1/2 mv2;
 > substitution and rearrangement to v2 as subject;
 > evaluation;
 > correct answer: 2.7 (m/s)
@@ -278,7 +322,17 @@ State the formula linking gravitational potential energy (GPE), mass, gravitatio
 > v2 = 2 × 5.1 × 10-2 ÷ 0.014 = 7.2857….
 > v = 2.6992….
 > v = 2.7 (m/s)
-> (d) idea of conservation of energy; accept idea that
+
+- **(3)** recall of KE= 1/2 mv2;
+
+### 5(d) [2]
+
+The ball is stationary when it reaches the top of the ramp. There is a difference between the KE of the ball at the bottom of the ramp and the GPE of the ball at a height of 29 cm above the bottom of the ramp. Explain why the work done by friction between the ball and the ramp is equal to this difference.
+
+
+**Mark scheme answer**
+
+> idea of conservation of energy; accept idea that
 > without friction KE
 > (lost) = GPE (gained)
 > idea that KE lost = GPE gained + WD; i.e. idea that KE lost is
@@ -289,19 +343,7 @@ State the formula linking gravitational potential energy (GPE), mass, gravitatio
 > Total for question 5: 9 marks
 > Answer Notes Marks
 
-- **(1)** GPE = mass × gravitational field strength × height; Accept g for
-
-### 5(b) [3]
-
-The ball has a mass of 14 g. Show that when the ball reaches a height of 29 cm above the bottom of the ramp, the GPE gained by the ball is about 4 × 10−2 J.
-
-### 5(c) [3]
-
-At the bottom of the ramp, the 14 g ball has a kinetic energy (KE) of 5.1 × 10−2 J. Calculate the speed of the ball at the bottom of the ramp. speed = m/s
-
-### 5(d) [2]
-
-The ball is stationary when it reaches the top of the ramp. There is a difference between the KE of the ball at the bottom of the ramp and the GPE of the ball at a height of 29 cm above the bottom of the ramp. Explain why the work done by friction between the ball and the ramp is equal to this difference.
+- **(2)** idea of conservation of energy; accept idea that
 
 
 ## Question 6 (14 marks)
@@ -433,7 +475,17 @@ Discuss the advantages and disadvantages of using hydroelectric power stations c
 > ignore maintenance
 > ignore global warming
 > /greenhouse effect
-> (b) any THREE from:
+
+- **(4)** any FOUR from: accept RA where clear
+
+### 7(b) [3]
+
+Describe the energy transfers that are involved in generating electricity in a hydroelectric power station.
+
+
+**Mark scheme answer**
+
+> any THREE from:
 > MP1. reduction in GPE store of water;
 > MP2. mechanical work done on turbine; accept GPE of water
 > converted to KE
@@ -450,11 +502,7 @@ Discuss the advantages and disadvantages of using hydroelectric power stations c
 > Total for question 7: 7 marks
 > Answer Notes Marks
 
-- **(4)** any FOUR from: accept RA where clear
-
-### 7(b) [3]
-
-Describe the energy transfers that are involved in generating electricity in a hydroelectric power station.
+- **(3)** any THREE from:
 
 
 ## Question 8 (7 marks)
@@ -462,13 +510,60 @@ Describe the energy transfers that are involved in generating electricity in a h
 
 A galaxy moves away from the Earth at a speed of 3.9 × 104 km/s. The speed of light is 3.0 × 105 km/s. Light from the galaxy is emitted with a wavelength of 6.2 × 10−7 m. Calculate the change in the wavelength of the light that is received by an observer on the Earth. change in wavelength = m
 
+
+**Mark scheme answer**
+
+> substitution into given equation;
+> rearrangement;
+> correct evaluation of wavelength change; -1 POT error
+> condone 1 sf
+> correct answer: 8.1 × 10-8 (m) 8.06 × 10-8 to 3sf
+> e.g. (change in wavelength/6.2 × 10 -7)=
+> (3.9 × 10⁴/3.0 × 105)
+> change in wavelength = 6.2 × 10-7 ×
+> (3.9 × 10⁴/3.0 × 105)
+> change in wavelength = 8.1 × 10-8 (m)
+
+- **(3)** substitution into given equation;
+
 ### 8(a)(ii) [1]
 
 Calculate the wavelength of light that is received by an observer on the Earth. wavelength = m
 
+
+**Mark scheme answer**
+
+> candidate’s answer to (i) + 6.2 × 10 -7 (m); ECF wavelength
+> change
+> e.g. 8.1 x 10-8 + 6.2 × 10-7 = 7.0 × 10-7(m) condone 1sf
+
+- **(1)** candidate’s answer to (i) + 6.2 × 10 -7 (m); ECF wavelength
+
 ### 8(b) [3]
 
 One of the pieces of evidence for the Big Bang theory is the red-shift of galaxies. Explain how the red-shift of galaxies supports the Big Bang theory.
+
+
+**Mark scheme answer**
+
+> Any THREE from:
+> MP1: the further the galaxy is from Earth, condone “star” for
+> the greater the red-shift; “galaxy”
+> MP2: the greater the red-shift, the faster
+> the galaxy is moving away;
+> MP3: speed of galaxies increases with
+> increased distance;
+> MP4: the speed and distance are directly
+> proportional;
+> MP5: relationship between speed and allow “galaxies
+> distance implies expansion; moving apart from
+> each other”
+> MP6: expansion implies there was a single condone RA for MP6
+> point in the past;
+> Total for question 8: 7 marks
+> Answer Notes Marks
+
+- **(3)** Any THREE from:
 
 
 ## Question 9 (7 marks)

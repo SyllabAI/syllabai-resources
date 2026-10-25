@@ -21,21 +21,6 @@ Which force is responsible for keeping satellites in orbit?
 > fields
 > D is incorrect because nuclear forces are
 > short range
-> (b) D – universe;
-> A is incorrect because the universe contains
-> billions of galaxies
-> B is incorrect because each solar system
-> contains several planets
-> C is incorrect because galaxies contain
-> billions of stars
-> (c) A – absolute magnitude;
-> B is incorrect because colour determines the
-> surface temperature of a star
-> C is incorrect because diameter determines
-> the power of a star
-> D is incorrect because temperature
-> determines the power of a star
-> Answer Notes Marks
 
 - **(1)** Answer B: gravitational
 
@@ -46,16 +31,43 @@ Which of these is the largest?
 - **(A)** galaxy
 - **(B)** planet
 - **(C)** star
-- **(D)** universe
+- **(D)** universe  ✔
+
+
+**Mark scheme answer**
+
+> D – universe;
+> A is incorrect because the universe contains
+> billions of galaxies
+> B is incorrect because each solar system
+> contains several planets
+> C is incorrect because galaxies contain
+> billions of stars
+
+- **(1)** Answer D: universe
 
 ### 1(c) [1]
 
 Which of these represents the brightness of stars at a standard distance?
 
-- **(A)** absolute magnitude
+- **(A)** absolute magnitude  ✔
 - **(B)** colour
 - **(C)** diameter
 - **(D)** temperature
+
+
+**Mark scheme answer**
+
+> A – absolute magnitude;
+> B is incorrect because colour determines the
+> surface temperature of a star
+> C is incorrect because diameter determines
+> the power of a star
+> D is incorrect because temperature
+> determines the power of a star
+> Answer Notes Marks
+
+- **(1)** Answer A: absolute magnitude
 
 
 ## Question 2 (7 marks)
@@ -70,21 +82,88 @@ Plot a graph of the student’s results on the grid.
 
 ![grid — official paper figure (qp.pdf p.4) — shared with 2(a)(i)](assets/asset_2_a_i_graph.png)
 
+
+**Mark scheme answer**
+
+> Points plotted to within half a small square;
+> Points should lie on a
+> very good curved line.
+
+- **(1)** Points plotted to within half a small square;
+
 ### 2(a)(ii) [1]
 
 Draw a curve of best fit. Output voltage in V 20 0 20 40 60 80 100 Number of turns on primary coil
+
+
+**Mark scheme answer**
+
+> Best fit line is smooth curve; ECF their data points.
+
+- **(1)** Best fit line is smooth curve; ECF their data points.
 
 ### 2(a)(iii) [2]
 
 Describe the relationship between the output voltage and the number of turns on the primary coil.
 
+
+**Mark scheme answer**
+
+> As number of (primary) turns increases, (secondary) Allow RA
+> voltage decreases;
+> Allow unqualified
+> ‘inversely proportional’
+> for 2 marks.
+> At a decreasing rate/is non-linear;
+> Ignore:
+> ‘negative exponential’
+
+- **(2)** As number of (primary) turns increases, (secondary) Allow RA
+
 ### 2(b)(i) [1]
 
 State the formula linking input and output voltages and the turns ratio for the transformer.
 
+
+**Mark scheme answer**
+
+> (Np/Ns) = (Vp/Vs); Allow any correct
+> rearrangment.
+> Allow ”i(nput) and
+> o(utput)” or “1 and
+> 2”for “p(rimary) and
+> s(econdary)”.
+> Allow correct word
+> equation.
+> Ignore ‘P’ for ‘N’
+> Condone ‘T’, ’t’ or ‘n’ for
+> ‘N’
+> Condone ‘coils’ for
+> ‘turns’
+
+- **(1)** (Np/Ns) = (Vp/Vs); Allow any correct
+
 ### 2(b)(ii) [2]
 
 The input voltage of the transformer is 6.8 V. Calculate the number of turns on the secondary coil. number of turns =
+
+
+**Mark scheme answer**
+
+> Substitution of values for Np, VP and Vs ; Allow any row of data
+> from table or co-
+> ordinates for a point
+> on the line on the
+> graph
+> Evaluation of Ns ; Accept answer in range
+> 57-60.
+> Accept non-integer
+> number of turns.
+> e.g. 40 / Ns = (6.8/9.9) = 0.686….;
+> Ns = 40 /0.601.. = 58(.2….) ;
+> Answer Notes Marks
+
+- **(2)** Substitution of values for Np, VP and Vs ; Allow any row of data
 
 
 ## Question 3 (10 marks)
@@ -273,7 +352,17 @@ Draw an arrow on diagram 2 to show the direction the toy is moving.
 **Mark scheme answer**
 
 > An arrow drawn from left to right by eye;
-> (b) Comparative statements for side containing A: Allow RA for B
+
+- **(1)** An arrow drawn from left to right by eye;
+
+### 5(b) [4]
+
+Explain how the frequency of the waves at point A is different to the frequency of the waves at point B.
+
+
+**Mark scheme answer**
+
+> Comparative statements for side containing A: Allow RA for B
 > Wavefronts closer together/EQ; Allow e.g.“waves more
 > compressed together”
 > (therefore) wavelength smaller;
@@ -285,11 +374,7 @@ Draw an arrow on diagram 2 to show the direction the toy is moving.
 > scored.
 > Answer Notes Marks
 
-- **(1)** An arrow drawn from left to right by eye;
-
-### 5(b) [4]
-
-Explain how the frequency of the waves at point A is different to the frequency of the waves at point B.
+- **(4)** Comparative statements for side containing A: Allow RA for B
 
 
 ## Question 6 (11 marks)
@@ -302,17 +387,85 @@ A dog sits on a water‑filled bag to keep cool. water-filled bag
 
 Calculate the energy transferred from the dog to the water by heating in 22 minutes. energy = J
 
+
+**Mark scheme answer**
+
+> Substitution (including conversion of time to
+> seconds);
+> Re-arrangement of given equation P = W/t; Allow W or E for energy
+> or work.
+> Can be implied from
+> their working.
+> Evaluation;
+> e.g. Energy = 75 x (22 x 60) = 99 000 (J)
+> Accept 1650 or 5.9
+> million for 2 marks.
+
+- **(3)** Substitution (including conversion of time to
+
 ### 6(a)(ii) [1]
 
 State an assumption you have made when calculating the energy transferred.
+
+
+**Mark scheme answer**
+
+> Any ONE assumption from
+> • dog does not change temperature Ignore unqualified
+> • dog does not change power output ‘100% efficient’ or ‘no
+> • rate of transfer is constant (despite increase energy lost’
+> in temp of water)
+> • no heating of outside
+> world/surroundings/material of bag
+> • no heating from the surroundings
+
+- **(1)** Any ONE assumption from
 
 ### 6(a)(iii) [4]
 
 Calculate the temperature of the water after 22 minutes. temperature = °C
 
+
+**Mark scheme answer**
+
+> Use of Q = m x c x ∆ ;
+> Substitution of their energy, mass, c; Allow ECF from (a)(i)
+> Evaluation of temp change; Allow ECF from
+> evaluation of temp
+> change.
+> Calculation of final temp = temp change + 16;
+> e.g. 99 000 = 8.7 x 4200 x ∆
+> temp rise = 99 000/(8.7 x 4200) = 2.7
+> final temp = 19 (oC);
+> Accept 16.04… for all
+> marks (ecf E without
+> min->s conversion)
+> Accept answer to 3 or
+> more sf i.e 18.7
+
+- **(4)** Use of Q = m x c x ∆ ;
+
 ### 6(b) [3]
 
 Discuss why conduction is the main way that thermal energy is transferred from the dog to the water.
+
+
+**Mark scheme answer**
+
+> Any THREE from
+> MP1 Dog and water are at different temperatures;
+> MP2 Dog and water in physical contact so likely to
+> be conduction;
+> MP3 No movement of particles from dog to water, Allow “no gap between
+> so not convection / EQ; dog and bag so no
+> convection”
+> MP4 Dog and bag are both solids, so convection
+> impossible;
+> MP5 Not much radiation as dog and water similar
+> temperatures;
+> Answer Notes Marks
+
+- **(3)** Any THREE from
 
 
 ## Question 7 (6 marks)
@@ -332,7 +485,17 @@ Give two pieces of evidence for the Big Bang theory.
 > of ratio of hydrogen to
 > helium as alternative to
 > either marking point.
-> (b) CMBR
+
+- **(2)** Cosmic Microwave Background Radiation (CMBR) Allow one missing
+
+### 7(b) [4]
+
+Explain how this evidence supports the Big Bang theory.
+
+
+**Mark scheme answer**
+
+> CMBR
 > MAX TWO from
 > MP1 CMBR appears to be the same in all
 > directions/is everywhere;
@@ -362,11 +525,7 @@ Give two pieces of evidence for the Big Bang theory.
 > distance’
 > Answer Notes Marks
 
-- **(2)** Cosmic Microwave Background Radiation (CMBR) Allow one missing
-
-### 7(b) [4]
-
-Explain how this evidence supports the Big Bang theory.
+- **(4)** CMBR
 
 
 ## Question 8 (6 marks)
@@ -427,15 +586,77 @@ This is a question about a melting ice cube.
 
 The mass of the ice cube is 3.7 g and its area of contact with the ground is 2.6 × 10–4 m2. Calculate the pressure the ice cube exerts on the ground. pressure = Pa
 
+
+**Mark scheme answer**
+
+> Selection of P=F/A;
+> Conversion of g to kg; 0.0037 seen anywhere
+> Evaluation of weight;
+> Evaluation of pressure;
+> Correct answer: 140 (Pa) Accept any value that
+> i.e. rounds to 140. i.e 142,
+> W = 3.7 x 10-3 x 10 = 3.7 x 10-2 N; 142.3,
+> P = 3.7 x 10-2 / (2.6 x 10-4);
+> P = 140 (Pa); Accept use of 9.8(1) for
+> ‘g’, giving 139(.46)
+
+- **(4)** Selection of P=F/A;
+
 ### 9(a)(ii) [2]
 
 The ice cube melts and becomes a puddle with a larger cross‑sectional area. Explain how the pressure of the ice cube on the ground changes when it melts.
+
+
+**Mark scheme answer**
+
+> Same weight (and larger cross-sectional area); Allow ‘force’ for weight
+> P=F/A so smaller pressure;
+
+- **(2)** Same weight (and larger cross-sectional area); Allow ‘force’ for weight
 
 ### 9(b) [3]
 
 Ice melts at a temperature of 0 °C. On the axes, sketch how the temperature of the ice cube changes as it rises from a temperature of –10 °C to a temperature of 20 °C. Temperature in °C Time –10
 
+
+**Mark scheme answer**
+
+> Responses with no
+> period of time at 0 oC
+> score max 1 mark.
+> Increases continuously from -10 oC to 0 oC; Accept
+> • Any gradient
+> Remains constant at 0 oC; • Straight lines or
+> curves for the
+> Increases continuously from 0 oC to 20 oC; increasing
+> temperature parts
+> • Any non-zero
+> amount of time at 0
+> o
+> C by eye
+> Ignore any numbers on
+> the time axis.
+
+- **(3)** Responses with no
+
 ### 9(c) [2]
 
 Explain the changes that occur when a solid melts. Refer to particles in your answer.
+
+
+**Mark scheme answer**
+
+> Any TWO from:
+> Bonds between particles are weakened or Allow particles get
+> broken; (slightly) further
+> apart/EQ;
+> Particles go from regular to irregularly
+> packed/EQ;
+> Particles go from vibrating (about a fixed
+> position) to sliding past each other/EQ;
+> ignore references to KE
+> Pearson Education Limited. Registered company number 872828
+> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
+
+- **(2)** Any TWO from:
 

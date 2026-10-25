@@ -9,8 +9,20 @@ Which of these coloured stars has the highest surface temperature?
 
 - **(A)** orange
 - **(B)** red
-- **(C)** white
+- **(C)** white  ✔
 - **(D)** yellow
+
+
+**Mark scheme answer**
+
+> C (white);
+> A is incorrect because its temperature is the second
+> lowest
+> B is incorrect because its temperature is the lowest
+> D is incorrect because its temperature is the second
+> highest
+
+- **(1)** Answer C: white
 
 ### 1(a)(ii) [1]
 
@@ -19,7 +31,20 @@ Which of these is a stage in the life cycle of the Sun?
 - **(A)** black hole
 - **(B)** neutron star
 - **(C)** supernova
-- **(D)** white dwarf
+- **(D)** white dwarf  ✔
+
+
+**Mark scheme answer**
+
+> D (white dwarf);
+> A is incorrect because the Sun is not massive
+> enough to form a black hole
+> B is incorrect because the Sun is not massive
+> enough to form a neutron star
+> C is incorrect because the Sun is not massive
+> enough to form a supernova
+
+- **(1)** Answer D: white dwarf
 
 ### 1(a)(iii) [1]
 
@@ -27,14 +52,41 @@ Which of these is the stage nearest the end of the life cycle of a star with a m
 
 - **(A)** main sequence
 - **(B)** protostar
-- **(C)** supernova
+- **(C)** supernova  ✔
 - **(D)** white dwarf
+
+
+**Mark scheme answer**
+
+> C (supernova);
+> A is incorrect because this is during the middle of
+> the life cycle
+> B is incorrect because this is an early stage of the
+> life cycle
+> D is incorrect because this is a late stage in the life
+> cycle of stars like our Sun
+
+- **(1)** Answer C: supernova
 
 ### 1(b) [2]
 
 The diagram shows the orbit of a comet around a star. Draw a labelled arrow to show the force acting on the comet due to the star. not to scale comet star
 
 ![diagram — official paper figure (qp.pdf p.5)](assets/asset_1_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> arrow pointing from the comet to the star; accept any arrow
+> pointing from comet to
+> star within shaded area
+> ignore starting position
+> of arrow
+> force labelled ‘gravitational’; allow ‘gravity’ or
+> ‘weight’
+> Answer Notes Marks
+
+- **(2)** arrow pointing from the comet to the star; accept any arrow
 
 
 ## Question 2 (6 marks)
@@ -55,17 +107,6 @@ Name the apparatus that the student could use to find the direction of the field
 > allow higher level
 > responses e.g. Hall
 > probe, search coil
-> (b) one mark for each correct indication;;; 2 marks max. if more
-> than three indications
-> given
-> (c) any two from:
-> difficult to magnetise; allow idea of taking a
-> long time to magnetise
-> difficult to demagnetise; allow idea of taking a
-> long time to
-> demagnetise
-> idea that it retains its magnetism;
-> Answer Notes Marks
 
 - **(1)** (plotting) compass(es); allow suspended
 
@@ -75,9 +116,32 @@ The student draws a diagram of the magnetic field pattern of the magnet. The stu
 
 > 🖼 crop required: diagram (qp.pdf p.6)
 
+
+**Mark scheme answer**
+
+> one mark for each correct indication;;; 2 marks max. if more
+> than three indications
+> given
+
+- **(3)** one mark for each correct indication;;; 2 marks max. if more
+
 ### 2(c) [2]
 
 The magnet is made of a magnetically hard material. Describe what is meant by the term magnetically hard.
+
+
+**Mark scheme answer**
+
+> any two from:
+> difficult to magnetise; allow idea of taking a
+> long time to magnetise
+> difficult to demagnetise; allow idea of taking a
+> long time to
+> demagnetise
+> idea that it retains its magnetism;
+> Answer Notes Marks
+
+- **(2)** any two from:
 
 
 ## Question 3 (10 marks)
@@ -90,21 +154,68 @@ The diagram shows a model of a chain reaction in a nuclear fission reactor. A ba
 
 Name the particle represented by the balls.
 
+
+**Mark scheme answer**
+
+> neutron;
+
+- **(1)** neutron;
+
 ### 3(a)(ii) [2]
 
 Describe what is meant by the term nuclear fission.
+
+
+**Mark scheme answer**
+
+> nucleus/nuclei splitting; condone nucleus/nuclei
+> breaking apart
+> releasing (two) daughter nuclei / neutrons / ignore daughter cells
+> energy; allow smaller/lighter
+> nuclei for daughter
+> nuclei
+
+- **(2)** nucleus/nuclei splitting; condone nucleus/nuclei
 
 ### 3(a)(iii) [2]
 
 Describe what is meant by the term chain reaction.
 
+
+**Mark scheme answer**
+
+> neutrons released (by fission) are absorbed by condone atoms for
+> other (uranium) nuclei; nuclei
+> causing fission/splitting in other (uranium) nuclei; condone atoms for
+> nuclei
+
+- **(2)** neutrons released (by fission) are absorbed by condone atoms for
+
 ### 3(b) [1]
 
 The walls of a real nuclear reactor are not made of plastic. Give a suitable material for the walls of a real nuclear reactor.
 
+
+**Mark scheme answer**
+
+> concrete / lead / (thick) steel;
+
+- **(1)** concrete / lead / (thick) steel;
+
 ### 3(c) [4]
 
 Use words from the box to complete the sentences about the moderator and control rods in a nuclear reactor. absorb ionise neutralise reflect slow boron granite graphite paper uranium The moderator in a nuclear reactor can be made of The moderator is designed to neutrons. The control rods in a nuclear reactor can be made of The control rods are designed to neutrons.
+
+
+**Mark scheme answer**
+
+> graphite;
+> slow;
+> boron;
+> absorb;
+> Answer Notes Marks
+
+- **(4)** graphite;
 
 
 ## Question 4 (11 marks)
@@ -115,19 +226,86 @@ The diagram shows a velocity-time graph for a car from the time the driver sees 
 
 Calculate the acceleration of the car between 1.8 and 8.0 seconds. acceleration = m/s2
 
+
+**Mark scheme answer**
+
+> use of acceleration = change in velocity / time; seen anywhere in
+> working
+> allow clear indication
+> that acceleration is
+> gradient
+> substitution;
+> evaluation; ignore minus sign
+> e.g.
+> acceleration = change in velocity / time
+> acceleration = (-)30 / 6.2
+> (acceleration =) (-)4.8 (m/s2) allow
+> (-)4.8 to (-)5.0 (m/s2)
+
+- **(3)** use of acceleration = change in velocity / time; seen anywhere in
+
 ### 4(a)(ii) [3]
 
 Calculate the braking distance of the car. braking distance = m
 
+
+**Mark scheme answer**
+
+> clear indication that distance is area under line;
+> understanding braking distance is area of triangle
+> section only;
+> evaluation;
+> 54 (m) = 1 mark
+> 147 (m) = 2 marks
+> e.g.
+> distance = area
+> distance = 0.5 × 30 × 6.2
+> (distance =) 93 (m)
+> accept alternative
+> method using ecf
+> answer from (a)(i) and
+> v2 = u2 + 2as giving
+> 93.75 (m)
+
+- **(3)** clear indication that distance is area under line;
+
 ### 4(a)(iii) [4]
 
 Explain the effect, if any, of increased driver tiredness on the thinking distance and on the braking distance of the car. thinking distance braking distance
+
+
+**Mark scheme answer**
+
+> thinking distance:
+> increase in thinking distance;
+> (due to) increased reaction time;
+> braking distance:
+> no effect on braking distance;
+> (due to) no effect on braking time / braking force; allow idea that braking
+> distance does not
+> depend on human
+> factors
+
+- **(4)** thinking distance:
 
 ### 4(b) [1]
 
 Which of these represents the distance-time graph for the car? Distance Distance A B Time Time Distance Distance C D Time Time
 
 ![graph — official paper figure (qp.pdf p.10) — shared with asset_4_b_graph_stem](assets/asset_4_b_graph_stem.png)
+
+
+**Mark scheme answer**
+
+> A;
+> B is incorrect because it does not show deceleration
+> C is incorrect because the distance cannot change
+> abruptly and the car is moving throughout
+> D is incorrect because the first portion shows that
+> the car is not moving
+> Answer Notes Marks
+
+- **(1)** A;
 
 
 ## Question 5 (14 marks)
@@ -592,7 +770,17 @@ The oil transfers the same extra pressure to piston Y. Calculate the force actin
 > 200 = F / 4.8
 > F = 200 × 4.8
 > (F =) 960 (N)
-> (c) allow marks if the meaning is
+
+- **(3)** substitution into p = F/A; no mark for formula on its own
+
+### 10(c) [4]
+
+Piston Y starts at rest, rises slowly and then comes to rest. State how the following energy stores have changed from before the motion to after the motion is complete. Energy store Change gravitational potential energy of piston X gravitational potential energy of piston Y chemical energy of piston Y kinetic energy of piston Y
+
+
+**Mark scheme answer**
+
+> allow marks if the meaning is
 > clear e.g. allow +, ↑ for
 > increase etc.
 > GPE of piston X = decrease;
@@ -601,11 +789,7 @@ The oil transfers the same extra pressure to piston Y. Calculate the force actin
 > kinetic energy of piston Y = no change;
 > Answer Notes Marks
 
-- **(3)** substitution into p = F/A; no mark for formula on its own
-
-### 10(c) [4]
-
-Piston Y starts at rest, rises slowly and then comes to rest. State how the following energy stores have changed from before the motion to after the motion is complete. Energy store Change gravitational potential energy of piston X gravitational potential energy of piston Y chemical energy of piston Y kinetic energy of piston Y
+- **(4)** allow marks if the meaning is
 
 
 ## Question 11 (12 marks)
@@ -620,29 +804,108 @@ On diagram 2, draw the reflected ray from point X. incident ray 64° X refracted
 
 ![diagram — official paper figure (qp.pdf p.26)](assets/asset_11_a_i_diagram.png)
 
+
+**Mark scheme answer**
+
+> line drawn in top-right quadrant; accept if drawn on
+> diagram 1 instead of
+> diagram 2
+> correct angle by eye; DOP
+
+- **(2)** line drawn in top-right quadrant; accept if drawn on
+
 ### 11(a)(ii) [1]
 
 Measure the angle of refraction at point X on diagram 2. angle = degrees
 
 ![diagram — official paper figure (qp.pdf p.26)](assets/asset_11_a_ii_diagram.png)
 
+
+**Mark scheme answer**
+
+> 32 (degrees); allow in range
+> 31-33 (degrees)
+
+- **(1)** 32 (degrees); allow in range
+
 ### 11(a)(iii) [1]
 
 State the formula linking refractive index, angle of incidence and angle of refraction.
+
+
+**Mark scheme answer**
+
+> refractive index = allow standard symbols
+> sin(angle of incidence) / sin(angle of refraction); and rearrangements
+> e.g.
+> ‘i’ for angle of
+> incidence
+> ‘r’ for angle of
+> refraction
+> ‘n’ for refractive index
+
+- **(1)** refractive index = allow standard symbols
 
 ### 11(a)(iv) [2]
 
 Show that the refractive index of the transparent material is about 1.7
 
+
+**Mark scheme answer**
+
+> substitution; allow ecf from (ii)
+> evaluation to at least 3s.f.;
+> e.g.
+> n = sin(64) / sin (32)
+> n = 1.70 allow 1.696…
+
+- **(2)** substitution; allow ecf from (ii)
+
 ### 11(a)(v) [1]
 
 State the formula linking refractive index and critical angle.
+
+
+**Mark scheme answer**
+
+> sin(c) = 1 / n; allow standard symbols
+> and rearrangements
+
+- **(1)** sin(c) = 1 / n; allow standard symbols
 
 ### 11(a)(vi) [2]
 
 Calculate the critical angle for the transparent material. critical angle = degrees QUESTION 11 CONTINUES ON NEXT PAGE
 
+
+**Mark scheme answer**
+
+> substitution OR rearrangement; allow ecf from (iv)
+> evaluation;
+> e.g.
+> sin(c) = 1/1.7 OR c = sin-1(1/n)
+> (c =) 36 (degrees) allow 36.03…(degrees)
+
+- **(2)** substitution OR rearrangement; allow ecf from (iv)
+
 ### 11(b) [3]
 
 Explain the behaviour of the light at points Y and Z. ray of light X not to scale Y Z
+
+
+**Mark scheme answer**
+
+> light undergoes total internal reflection; allow TIR for ‘total
+> internal reflection’
+> angle of incidence is above the critical angle;
+> light (would be) going from more (optically) dense allow idea that light
+> to less (optically) dense; would speed up if it
+> travelled through the
+> boundary / light travels
+> faster in air than in
+> material
+> Pearson Education Limited. Registered company number 872828
+> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
+
+- **(3)** light undergoes total internal reflection; allow TIR for ‘total
 

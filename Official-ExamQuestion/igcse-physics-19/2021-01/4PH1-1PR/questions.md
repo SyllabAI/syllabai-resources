@@ -74,13 +74,6 @@ Complete the table to show the missing parts of the electromagnetic spectrum. Th
 > visible
 > S violet
 > T ultraviolet;
-> (b) any reference to absorption; allow reference to
-> reflection
-> black is the better/best/good absorber; allow reference to
-> ‘poor reflector’
-> (c) infrared/IR;
-> (Total for Question 2 = 6 marks)
-> Answer Notes Marks
 
 - **(3)** 3
 
@@ -88,9 +81,28 @@ Complete the table to show the missing parts of the electromagnetic spectrum. Th
 
 Suggest why the lower part of each thermometer should be painted black.
 
+
+**Mark scheme answer**
+
+> any reference to absorption; allow reference to
+> reflection
+> black is the better/best/good absorber; allow reference to
+> ‘poor reflector’
+
+- **(2)** any reference to absorption; allow reference to
+
 ### 2(c) [1]
 
 The equipment is left for a short period of time. The thermometers now show higher temperatures than before. State the part of the electromagnetic spectrum in this demonstration that would give the largest temperature increase.
+
+
+**Mark scheme answer**
+
+> infrared/IR;
+> (Total for Question 2 = 6 marks)
+> Answer Notes Marks
+
+- **(1)** infrared/IR;
 
 
 ## Question 3 (5 marks)
@@ -105,8 +117,28 @@ Object X has a circular orbit around the star. State the type of object that has
 **Mark scheme answer**
 
 > planet;
-> (b) comet; accept planet
-> (c) substitution into given formula;
+
+- **(1)** planet;
+
+### 3(b) [1]
+
+Object Y has an elliptical orbit around the star. State the type of object that has an elliptical orbit around a star.
+
+
+**Mark scheme answer**
+
+> comet; accept planet
+
+- **(1)** comet; accept planet
+
+### 3(c) [3]
+
+Object X completes an orbit of the star in 35 days. The radius of its orbit is 1.5 × 1011 m. Calculate the orbital speed of object X. orbital speed = m/s
+
+
+**Mark scheme answer**
+
+> substitution into given formula;
 > conversion of 35 days into seconds;
 > evaluation; allow full credit for
 > 2.6927937 × 1010 if unit
@@ -123,15 +155,7 @@ Object X has a circular orbit around the star. State the type of object that has
 > (Total for Question 3 = 5 marks)
 > Answer Notes Marks
 
-- **(1)** planet;
-
-### 3(b) [1]
-
-Object Y has an elliptical orbit around the star. State the type of object that has an elliptical orbit around a star.
-
-### 3(c) [3]
-
-Object X completes an orbit of the star in 35 days. The radius of its orbit is 1.5 × 1011 m. Calculate the orbital speed of object X. orbital speed = m/s
+- **(3)** substitution into given formula;
 
 
 ## Question 4 (13 marks)
@@ -300,11 +324,6 @@ The car has a mass of 0.13 kg. Calculate the resultant force on the car as it sl
 > eg
 > F = 0.13 x 86 ignore sign
 > F = 11 (N) 11.18, 11.2
-> (c) increases time of collision;
-> any reference to shallower gradient on graph;
-> so acceleration will be smaller (in magnitude);
-> (Total for Question 5 = 13 marks)
-> Answer Notes Marks
 
 - **(2)** substitution;
 
@@ -313,6 +332,17 @@ The car has a mass of 0.13 kg. Calculate the resultant force on the car as it sl
 A piece of soft material is fixed to the front of the toy car. Explain how this will affect the gradient of the velocity-time graph after the car hits the block.
 
 ![graph — official paper figure (qp.pdf p.12) — shared with asset_5_c_graph_stem](assets/asset_5_c_graph_stem.png)
+
+
+**Mark scheme answer**
+
+> increases time of collision;
+> any reference to shallower gradient on graph;
+> so acceleration will be smaller (in magnitude);
+> (Total for Question 5 = 13 marks)
+> Answer Notes Marks
+
+- **(3)** increases time of collision;
 
 
 ## Question 6 (5 marks)
@@ -328,11 +358,31 @@ Use a protractor to determine the angle of refraction. angle of refraction = deg
 
 > 17 (degrees); Allow in range 15-19
 > degrees
-> (b) refractive index = sin(i) / sin (r); accept n or η for
+
+- **(1)** 17 (degrees); Allow in range 15-19
+
+### 6(b) [1]
+
+State the formula linking refractive index, angle of incidence and angle of refraction.
+
+
+**Mark scheme answer**
+
+> refractive index = sin(i) / sin (r); accept n or η for
 > refractive index
 > accept any valid
 > rearrangement
-> (c) substitution; allow ecf from (a)
+
+- **(1)** refractive index = sin(i) / sin (r); accept n or η for
+
+### 6(c) [3]
+
+Calculate the refractive index of this glass. refractive index =
+
+
+**Mark scheme answer**
+
+> substitution; allow ecf from (a)
 > evaluation of either sine correctly;
 > evaluation;
 > e.g.
@@ -342,15 +392,7 @@ Use a protractor to determine the angle of refraction. angle of refraction = deg
 > (Total for Question 6 = 5 marks)
 > Answer Notes Marks
 
-- **(1)** 17 (degrees); Allow in range 15-19
-
-### 6(b) [1]
-
-State the formula linking refractive index, angle of incidence and angle of refraction.
-
-### 6(c) [3]
-
-Calculate the refractive index of this glass. refractive index =
+- **(3)** substitution; allow ecf from (a)
 
 
 ## Question 7 (12 marks)
@@ -365,27 +407,102 @@ Describe the relationship shown by the graph.
 
 ![graph — official paper figure (qp.pdf p.16) — shared with asset_7_a_graph_stem](assets/asset_7_a_graph_stem.png)
 
+
+**Mark scheme answer**
+
+> as pressure increases, volume decreases; ORA
+> pattern statement relating to gradient;
+> e.g. ‘at a decreasing rate’
+> ‘inversely
+> proportional’ scores
+> 2 marks.
+
+- **(2)** as pressure increases, volume decreases; ORA
+
 ### 7(a)(ii) [1]
 
 State the formula linking pressure difference, height, gravitational field strength and density.
+
+
+**Mark scheme answer**
+
+> pressure = depth × gravitational field strength × density; allow recognised
+> symbols
+> e.g. P or p for
+> pressure
+> d or h for depth
+> ρ for density
+> reject d for density,
+> reject gravity for g
+
+- **(1)** pressure = depth × gravitational field strength × density; allow recognised
 
 ### 7(a)(iii) [2]
 
 The depth of the fizzy water in the glass is 22 cm. The density of the fizzy water is 1080 kg/m3. Calculate the pressure difference at the bottom of the glass due to the fizzy water. pressure difference = Pa
 
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation;
+> e.g.
+> pressure = 0.22 × 10 × 1080 Accept use of
+> pressure = 2 400 (Pa) g=9.8(1) (N/kg)
+> 2376 (Pa)
+> -1 for POT error
+> provided g is used
+
+- **(2)** substitution;
+
 ### 7(a)(iv) [1]
 
 Calculate the pressure of the gas in the bubble when the bubble is at the bottom of the glass. [atmospheric pressure = 101 000 Pa] pressure = Pa
 
+
+**Mark scheme answer**
+
+> 103 000 (Pa) accept 103 400 (Pa)
+> allow ECF
+
+- **(1)** 103 000 (Pa) accept 103 400 (Pa)
+
 ### 7(a)(v) [3]
 
 When a bubble is at the top of the glass, the pressure of the gas in the bubble is equal to 101 000 Pa and the bubble has a volume of 0.084 cm3. Calculate the volume of the gas in the bubble when the bubble is at the bottom of the glass. Assume the temperature of the gas remains constant. volume = cm3
+
+
+**Mark scheme answer**
+
+> substitution into given formula; allow ECF from (iv)
+> rearrangement; e.g. 98624 gives
+> 0.086 (cm3)
+> evaluation;
+> e.g
+> p1 × V1 = p2 × V2 0.082368932
+> 101 000 × 0.084 = 103 000 x V2
+> V2 = 0.082 (cm3) -1 for POT error
+
+- **(3)** substitution into given formula; allow ECF from (iv)
 
 ### 7(b) [3]
 
 A force called upthrust acts vertically upwards on the bubble. When the bubble is released, it accelerates vertically upwards. Draw two labelled arrows on the diagram to show the forces on the bubble as it is released. bubble
 
 ![diagram — official paper figure (qp.pdf p.18)](assets/asset_7_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> vertical arrow upwards labelled upthrust;
+> vertical arrow downwards labelled weight; ignore drag
+> upthrust > weight; reject this mark if
+> there are more than
+> two arrows
+> (Total for Question 7 = 12 marks)
+> Answer Notes Marks
+
+- **(3)** vertical arrow upwards labelled upthrust;
 
 
 ## Question 8 (5 marks)
@@ -404,12 +521,41 @@ The diagram shows a bar magnet. Draw four magnetic field lines around the bar ma
 > at least one loop ‘above’ and one loop ‘below’;
 > arrowheads on at least four lines which are self-
 > consistent;
-> (b) idea of wire cutting field lines; allow higher order ideas
+
+- **(3)** at least four lines leaving/entering poles; accept part loops
+
+### 8(b) [2]
+
+The diagram shows a loop of wire connected to the terminals of a voltmeter. magnet voltmeter Explain why the voltmeter reading changes from zero when the magnet is moved near the loop of wire.
+
+![diagram — official paper figure (qp.pdf p.21)](assets/asset_8_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> idea of wire cutting field lines; allow higher order ideas
 > involving flux linkage
 > idea of an induced voltage;
 > (Total for Question 8 = 5 marks)
 > Answer Notes Marks
-> 9 Any FIVE from:
+
+- **(2)** idea of wire cutting field lines; allow higher order ideas
+
+
+## Question 9 (5 marks)
+
+The diagram shows two students holding a piece of string with a box attached. The box has a buzzer inside and can move along the string. student A student B box with buzzer The buzzer in the box emits a loud sound of constant frequency. The box moves away from student A at a constant speed. Explain why the sound heard by student A has a different frequency to the sound emitted by the buzzer. (5)
+
+### 9 [5]
+
+The diagram shows two students holding a piece of string with a box attached. The box has a buzzer inside and can move along the string. student A student B box with buzzer The buzzer in the box emits a loud sound of constant frequency. The box moves away from student A at a constant speed. Explain why the sound heard by student A has a different frequency to the sound emitted by the buzzer.
+
+![diagram — official paper figure (qp.pdf p.23)](assets/asset_9_diagram.png)
+
+
+**Mark scheme answer**
+
+> Any FIVE from:
 > MP1 reference to Doppler effect;
 > MP2 wavefronts are emitted at constant
 > frequency by buzzer;
@@ -427,24 +573,7 @@ The diagram shows a bar magnet. Draw four magnetic field lines around the bar ma
 > (Total for Question 9 = 5 marks)
 > Answer Notes Marks
 
-- **(3)** at least four lines leaving/entering poles; accept part loops
-
-### 8(b) [2]
-
-The diagram shows a loop of wire connected to the terminals of a voltmeter. magnet voltmeter Explain why the voltmeter reading changes from zero when the magnet is moved near the loop of wire.
-
-![diagram — official paper figure (qp.pdf p.21)](assets/asset_8_b_diagram.png)
-
-
-## Question 9 (5 marks)
-
-The diagram shows two students holding a piece of string with a box attached. The box has a buzzer inside and can move along the string. student A student B box with buzzer The buzzer in the box emits a loud sound of constant frequency. The box moves away from student A at a constant speed. Explain why the sound heard by student A has a different frequency to the sound emitted by the buzzer. (5)
-
-### 9 [5]
-
-The diagram shows two students holding a piece of string with a box attached. The box has a buzzer inside and can move along the string. student A student B box with buzzer The buzzer in the box emits a loud sound of constant frequency. The box moves away from student A at a constant speed. Explain why the sound heard by student A has a different frequency to the sound emitted by the buzzer.
-
-![diagram — official paper figure (qp.pdf p.23)](assets/asset_9_diagram.png)
+- **(5)** Any FIVE from:
 
 
 ## Question 10 (13 marks)
@@ -457,15 +586,45 @@ Uranium-235 captures a neutron and undergoes nuclear fission in a chain reaction
 
 > 236 – (97 + 135); answer of 4 scores 2
 > x = 4;
-> (b) (fission) releases neutrons;
+
+- **(2)** 236 – (97 + 135); answer of 4 scores 2
+
+### 10(b) [3]
+
+Describe what is meant by a chain reaction.
+
+
+**Mark scheme answer**
+
+> (fission) releases neutrons;
 > neutrons can be captured by other uranium nuclei;
 > (these nuclei) then undergo fission;
-> (c) evidence of halving of 72 (kBq);
+
+- **(3)** (fission) releases neutrons;
+
+### 10(c) [3]
+
+Iodine-129 is an isotope found in radioactive waste from nuclear power stations. Iodine-129 has a half-life of approximately 15 million years. A sample of iodine-129 has an activity of 72 kBq. Show that the time required for the sample to have an activity less than 5 kBq is approximately 60 million years.
+
+
+**Mark scheme answer**
+
+> evidence of halving of 72 (kBq);
 > evidence of four half-lives required;
 > e.g. count rate after 4 half-lives is 4.5 (kBq)
 > evidence that four half-lives is equivalent to 60
 > million years;
-> (d) Any FIVE from:
+
+- **(3)** evidence of halving of 72 (kBq);
+
+### 10(d) [5]
+
+Some radioactive waste from nuclear power stations has a very long half-life. Discuss precautions that must be taken when disposing of this radioactive waste.
+
+
+**Mark scheme answer**
+
+> Any FIVE from:
 > MP1 Idea of strong containers;
 > MP2 idea that containers can’t rust; accept idea of a
 > location that prevents
@@ -479,19 +638,7 @@ Uranium-235 captures a neutron and undergoes nuclear fission in a chain reaction
 > (Total for Question 10 = 13 marks)
 > Answer Notes Marks
 
-- **(2)** 236 – (97 + 135); answer of 4 scores 2
-
-### 10(b) [3]
-
-Describe what is meant by a chain reaction.
-
-### 10(c) [3]
-
-Iodine-129 is an isotope found in radioactive waste from nuclear power stations. Iodine-129 has a half-life of approximately 15 million years. A sample of iodine-129 has an activity of 72 kBq. Show that the time required for the sample to have an activity less than 5 kBq is approximately 60 million years.
-
-### 10(d) [5]
-
-Some radioactive waste from nuclear power stations has a very long half-life. Discuss precautions that must be taken when disposing of this radioactive waste.
+- **(5)** Any FIVE from:
 
 
 ## Question 11 (12 marks)
@@ -502,21 +649,87 @@ A student uses this apparatus to investigate the force needed to pull a block al
 
 State the formula linking work done, force and distance moved in the direction of the force.
 
+
+**Mark scheme answer**
+
+> work done = force × distance (travelled); allow accepted symbols
+
+- **(1)** work done = force × distance (travelled); allow accepted symbols
+
 ### 11(a)(ii) [2]
 
 The student pulls the block 0.89 m along the ramp with a force of 26 N. Show that the work done on the block by the 26 N force is about 23 J.
+
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation;
+> e.g
+> work done = 0.89 × 26
+> work done = 23.1(4 J)
+
+- **(2)** substitution;
 
 ### 11(a)(iii) [3]
 
 The block has a mass of 1.3 kg and moves vertically upwards 0.11 m. Calculate the increase in the gravitational potential energy (GPE) store of the block between the bottom and the top of the ramp. increase in GPE = J
 
+
+**Mark scheme answer**
+
+> evidence of recall of formula GPE = mgh;
+> substitution; allow g = 9.8(1) (N/kg)
+> evaluation;
+> e.g.
+> GPE = mgh
+> GPE = 1.3 × 10 × 0.11
+> GPE = 1.4(3 J)
+> -1 for POT error providing
+> use of g seen
+
+- **(3)** evidence of recall of formula GPE = mgh;
+
 ### 11(a)(iv) [2]
 
 Explain why the work done to move the block along the ramp is greater than the increase in the GPE store of the block.
 
+
+**Mark scheme answer**
+
+> any TWO from:
+> any reference to friction/air resistance;
+> energy transferred to the surroundings (by allow ‘heat/thermal energy
+> mechanical work); transferred to air/ramp by
+> friction for 2 marks
+> block not necessarily at constant speed;
+
+- **(2)** any TWO from:
+
 ### 11(b) [4]
 
 The student suggests it is better to use a less steep ramp to raise the block through the same vertical height. Discuss an advantage and a disadvantage of using a less steep ramp.
+
+
+**Mark scheme answer**
+
+> any TWO from:
+> lower force required;
+> to prevent block from slipping down required allow ‘to overcome friction’
+> / to move block;
+> allow ‘easier to move
+> block’ for 2 marks
+> any TWO from:
+> longer distance required (with a lower force);
+> more inefficient; Allow idea of more work
+> required (for same increase
+> in GPE)
+> greater proportion of energy transferred to
+> the surroundings;
+> (Total for Question 11 = 12 marks)
+> Answer Notes Marks
+
+- **(4)** any TWO from:
 
 
 ## Question 12 (15 marks)
@@ -531,15 +744,54 @@ Draw the circuit diagram for this electrical circuit. The variable resistor has 
 
 ![diagram — official paper figure (qp.pdf p.29)](assets/asset_12_a_i_diagram.png)
 
+
+**Mark scheme answer**
+
+> correct symbol for resistor;
+> correct symbol for cell;
+> correct symbol for ammeter;
+> circuit is complete series circuit; reject extra components
+> allow ECF for
+> missing/incorrect symbols
+
+- **(4)** correct symbol for resistor;
+
 ### 12(a)(ii) [2]
 
 Draw a voltmeter on the diagram to measure the voltage of the variable resistor.
 
 ![diagram — official paper figure (qp.pdf p.29) — shared with 12(a)(i)](assets/asset_12_a_i_diagram.png)
 
+
+**Mark scheme answer**
+
+> voltmeter symbol is correct and in parallel with
+> any component;
+> voltmeter is in parallel with variable resistor;
+
+- **(2)** voltmeter symbol is correct and in parallel with
+
 ### 12(b) [4]
 
 Explain how the voltage across the variable resistor changes if more mass is added to the end of the elastic string.
+
+
+**Mark scheme answer**
+
+> any FOUR from:
+> stretchy resistor increases in resistance (when
+> mass increased);
+> total resistance increases;
+> I = V/R; reject V=IR or I=V/R with
+> assumption of constant
+> current
+> current in circuit less;
+> voltage across fixed resistor decreases;
+> so voltage across stretchy resistor increases;
+> as total voltage is constant/voltage of cell
+> constant;
+
+- **(4)** any FOUR from:
 
 ### 12(c)(i) [1]
 

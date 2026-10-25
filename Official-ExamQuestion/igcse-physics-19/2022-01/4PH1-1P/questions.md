@@ -13,7 +13,7 @@ The region of space around a magnet is known as a magnetic field.
 Which of these diagrams correctly represents the magnetic field around a bar magnet?
 
 - **(A)** N       S
-- **(B)** N       S
+- **(B)** N       S  ✔
 - **(C)** N       S
 - **(D)** N       S
 
@@ -26,14 +26,14 @@ Which of these diagrams correctly represents the magnetic field around a bar mag
 > D is incorrect because the second field line from the top is in the wrong
 > direction
 
-- **(1)** B;
+- **(1)** Answer B: N       S
 
 ### 1(b)(i) [1]
 
 Which of these describes what happens to the two magnets?
 
 - **(A)** nothing happens
-- **(B)** they attract
+- **(B)** they attract  ✔
 - **(C)** they repel
 - **(D)** they spin
 
@@ -46,7 +46,7 @@ Which of these describes what happens to the two magnets?
 > D is incorrect because the forces on the magnets pass through their centres of
 > gravity
 
-- **(1)** B;
+- **(1)** Answer B: they attract
 
 ### 1(b)(ii) [1]
 
@@ -59,8 +59,28 @@ Which of these magnet arrangements gives a uniform field between the poles? N N 
 > A is incorrect because the field lines are not straight nor parallel to each other
 > B is incorrect because the field lines are not straight nor parallel to each other
 > D is incorrect because the field lines are not parallel to each other
-> (c) steel / nickel / cobalt / neodymium; condone iron
-> (d) EITHER: all marks can be
+
+- **(1)** C;
+
+### 1(c) [1]
+
+State the name of a material that would be suitable for use as a permanent magnet.
+
+
+**Mark scheme answer**
+
+> steel / nickel / cobalt / neodymium; condone iron
+
+- **(1)** steel / nickel / cobalt / neodymium; condone iron
+
+### 1(d) [3]
+
+Describe an investigation that could be used to determine the shape of the magnetic field around a bar magnet.
+
+
+**Mark scheme answer**
+
+> EITHER: all marks can be
 > awarded from a
 > diagram
 > (plotting) compass used;
@@ -75,15 +95,7 @@ Which of these magnet arrangements gives a uniform field between the poles? N N 
 > card tapped (to reveal pattern);
 > Answer Notes Marks
 
-- **(1)** C;
-
-### 1(c) [1]
-
-State the name of a material that would be suitable for use as a permanent magnet.
-
-### 1(d) [3]
-
-Describe an investigation that could be used to determine the shape of the magnetic field around a bar magnet.
+- **(3)** EITHER: all marks can be
 
 
 ## Question 2 (5 marks)
@@ -147,9 +159,28 @@ Wi-Fi signals are electromagnetic waves that can be transmitted at frequencies o
 
 State a similarity of the Wi-Fi signals at 2.4 GHz and 5.2 GHz.
 
+
+**Mark scheme answer**
+
+> travel at the same speed (in a vacuum) / allow both transverse
+> can travel in a vacuum; waves, both transfer
+> energy, both
+> microwaves
+
+- **(1)** travel at the same speed (in a vacuum) / allow both transverse
+
 ### 3(a)(ii) [1]
 
 The two Wi-Fi signals have different frequencies. State another difference between the Wi-Fi signals.
+
+
+**Mark scheme answer**
+
+> wavelength; allow idea of different
+> range / penetration
+> ignore amplitude
+
+- **(1)** wavelength; allow idea of different
 
 ### 3(b)(i) [1]
 
@@ -188,7 +219,7 @@ Which type of wave is a Wi-Fi signal?
 - **(A)** longitudinal
 - **(B)** mechanical
 - **(C)** sound
-- **(D)** transverse
+- **(D)** transverse  ✔
 
 
 **Mark scheme answer**
@@ -198,7 +229,7 @@ Which type of wave is a Wi-Fi signal?
 > B is incorrect because electromagnetic waves are not mechanical waves
 > C is incorrect because sound waves are not electromagnetic waves
 
-- **(1)** D;
+- **(1)** Answer D: transverse
 
 ### 3(c)(ii) [2]
 
@@ -293,9 +324,31 @@ A driver of a car sees an obstruction in the road ahead and must stop the car.
 
 State the formula linking average speed, distance travelled and time taken.
 
+
+**Mark scheme answer**
+
+> (average) speed = distance (travelled) ÷ time allow standard symbols
+> (taken); and rearrangements
+> e.g. v = s / t
+> allow s, d for distance
+> condone s for speed
+
+- **(1)** (average) speed = distance (travelled) ÷ time allow standard symbols
+
 ### 5(a)(ii) [2]
 
 A car travels at 21 m / s. The driver’s reaction time is 0.14 seconds. Calculate the distance travelled by the car during the driver’s reaction time. distance = m
+
+
+**Mark scheme answer**
+
+> substitution OR rearrangement;
+> evaluation;
+> e.g.
+> 21 = distance / 0.14 OR s = v × t
+> (distance =) 2.9 (m) allow 3, 2.94 (m)
+
+- **(2)** substitution OR rearrangement;
 
 ### 5(b)(i) [1]
 
@@ -353,9 +406,42 @@ Calculate the braking distance travelled as the speed of the car is reduced from
 
 Calculate the acceleration of the object. acceleration = m / s2
 
+
+**Mark scheme answer**
+
+> any attempt to find gradient of graph; allow use of acceleration
+> formula
+> use of two points on the line to calculate gradient; allow reading of pair of
+> velocities with matching time
+> interval
+> evaluation; reject positive answer
+> e.g.
+> acceleration = gradient
+> acceleration = (−)4.2 / 0.45
+> (acceleration =) −9.3 (m/s2) allow −9.3 to −9.4
+
+- **(3)** any attempt to find gradient of graph; allow use of acceleration
+
 ### 6(a)(ii) [3]
 
 Calculate the distance the object travels to reach its maximum height. distance = m
+
+
+**Mark scheme answer**
+
+> accept alternative method
+> using v2 = u2 + 2as with
+> acceleration calculated in (i)
+> any clear indication that distance travelled = area; allow attempt to calculate
+> area of triangle
+> correct use of data from graph;
+> evaluation;
+> e.g.
+> distance = area
+> distance = 0.5 × 0.45 × 4.2
+> (distance =) 0.95 (m) allow 0.94, 0.945 (m)
+
+- **(3)** accept alternative method
 
 ### 6(b)(i) [2]
 
@@ -422,13 +508,50 @@ A teacher uses this circuit to investigate how the current in a circuit changes 
 
 Calculate the voltage across the thermistor. voltage = V
 
+
+**Mark scheme answer**
+
+> idea that voltage across thermistor + voltage across
+> fixed resistor = voltage across cell;
+> 0.59 (V); allow 0.632 (V)
+
+- **(2)** idea that voltage across thermistor + voltage across
+
 ### 7(a)(ii) [1]
 
 State the formula linking voltage, current and resistance.
 
+
+**Mark scheme answer**
+
+> voltage = current × resistance; allow standard symbols
+> and rearrangements
+> e.g. V, I and R
+> ignore c,C for current
+
+- **(1)** voltage = current × resistance; allow standard symbols
+
 ### 7(a)(iii) [3]
 
 Calculate the resistance of the thermistor. resistance = Ω
+
+
+**Mark scheme answer**
+
+> substitution; ecf answer from (i)
+> rearrangement;
+> evaluation; -1 for POT error
+> answers of R = 90.7… or
+> R = 101.9…(Ω) gain full
+> answer of 242 (Ω)
+> gains 2 marks
+> e.g.
+> 0.59 = 0.0062 × R
+> R = 0.59 / 0.0062
+> (R =) 95 (Ω) allow 95.2, 95.16…
+> condone 95.1
+
+- **(3)** substitution; ecf answer from (i)
 
 ### 7(b)(i) [2]
 
@@ -476,15 +599,39 @@ Funcube-1 is a satellite that was launched into orbit around the Earth. (Source:
 
 State how the kinetic store of the rocket changes as the rocket burns fuel.
 
+
+**Mark scheme answer**
+
+> idea that kinetic store increases; e.g. chemical
+> transferred to kinetic
+
+- **(1)** idea that kinetic store increases; e.g. chemical
+
 ### 8(a)(ii) [1]
 
 State how the gravitational store of the rocket changes as the rocket burns fuel.
+
+
+**Mark scheme answer**
+
+> idea that gravitational store increases;
+
+- **(1)** idea that gravitational store increases;
 
 ### 8(b) [2]
 
 The rocket engine stops burning fuel. The rocket continues to go further away from the surface of the Earth. The table gives some statements about the rocket’s energy stores. Add ticks (✓) to the table to show which two statements are correct. Statement Correct (✓) gravitational store increases gravitational store stays the same gravitational store decreases kinetic store increases kinetic store stays the same kinetic store decreases
 
 ![table — official paper figure (qp.pdf p.23)](assets/asset_8_b_table.png)
+
+
+**Mark scheme answer**
+
+> two correct statements ticked;;
+> 3 ticks scores 1 max
+> 4 or more ticks scores 0
+
+- **(2)** two correct statements ticked;;
 
 ### 8(c)(i) [1]
 
@@ -509,7 +656,19 @@ Funcube-1 has an orbital radius of 7100 km and an orbital period of 5800 s. Calc
 > e.g.
 > orbital speed = (2 × π × 7100) / 5800
 > (orbital speed =) 7.7 (km/s) allow 7.69… (km/s)
-> (d) any four from: accept any clear
+
+- **(2)** substitution into given formula;
+
+### 8(d) [4]
+
+Funcube-1 spins and is heated by the Sun. The diagram shows two coloured metal bars attached to a face of Funcube-1. The surface of one metal bar is dull and black. The surface of the other metal bar is shiny and white. direction not to scale of spin Funcube-1 Sun Temperature probes measure the temperature of each metal bar. Use ideas about thermal energy transfer to explain how the temperature of each metal bar changes as Funcube-1 spins.
+
+![diagram — official paper figure (qp.pdf p.25)](assets/asset_8_d_diagram.png)
+
+
+**Mark scheme answer**
+
+> any four from: accept any clear
 > reverse argument
 > MP1. bars increase in temperature when facing towards
 > Sun / decrease in temperature when facing away
@@ -530,13 +689,7 @@ Funcube-1 has an orbital radius of 7100 km and an orbital period of 5800 s. Calc
 > spacecraft;
 > Answer Notes Marks
 
-- **(2)** substitution into given formula;
-
-### 8(d) [4]
-
-Funcube-1 spins and is heated by the Sun. The diagram shows two coloured metal bars attached to a face of Funcube-1. The surface of one metal bar is dull and black. The surface of the other metal bar is shiny and white. direction not to scale of spin Funcube-1 Sun Temperature probes measure the temperature of each metal bar. Use ideas about thermal energy transfer to explain how the temperature of each metal bar changes as Funcube-1 spins.
-
-![diagram — official paper figure (qp.pdf p.25)](assets/asset_8_d_diagram.png)
+- **(4)** any four from: accept any clear
 
 
 ## Question 9 (13 marks)
@@ -641,9 +794,25 @@ Diagram 1 shows a ray of violet light entering a prism. 54° 61° violet light D
 
 Calculate the angle of refraction for the violet light. angle of refraction = degrees
 
+
+**Mark scheme answer**
+
+> 36 (degrees);
+
+- **(1)** 36 (degrees);
+
 ### 10(a)(ii) [1]
 
 State the formula linking refractive index, angle of incidence and angle of refraction.
+
+
+**Mark scheme answer**
+
+> refractive index = sin(i) / sin(r); allow standard symbols
+> and rearrangements
+> e.g. n = sin(i) / sin(r)
+
+- **(1)** refractive index = sin(i) / sin(r); allow standard symbols
 
 ### 10(a)(iii) [3]
 
@@ -651,9 +820,38 @@ Calculate the refractive index of the prism for violet light. Give your answer t
 
 ![diagram — official paper figure (qp.pdf p.30) — shared with asset_10_a_diagram_stem](assets/asset_10_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> substitution; allow ecf from (i)
+> evaluation;
+> answer quoted to 2 s.f.; mark independently
+> e.g.
+> refractive index = sin(61) / sin(36)
+> (refractive index =) 1.48799…
+> (refractive index =) 1.5
+
+- **(3)** substitution; allow ecf from (i)
+
 ### 10(b) [3]
 
 Deduce a possible relationship between the wavelength and the refractive index for colours of the visible spectrum.
+
+
+**Mark scheme answer**
+
+> red refracts less than violet; allow RA
+> allow red bends less
+> than violet
+> correct link made between colour and refractive e.g. red has a lower
+> index; refractive index than
+> violet
+> correct link made between wavelength and e.g. refractive index
+> refractive index; decreases with
+> increasing wavelength
+> Answer Notes Marks
+
+- **(3)** red refracts less than violet; allow RA
 
 
 ## Question 11 (9 marks)
@@ -668,9 +866,30 @@ Scientific balloons are tested in a laboratory before they are used.
 
 The pressure of the air inside the balloon is reduced to 64 kPa by reducing the external air pressure. Calculate the new volume of the balloon. volume = m3
 
+
+**Mark scheme answer**
+
+> rearrangement OR substitution into given
+> formula;
+> evaluation;
+> e.g.
+> V2 = p1 × V1 / p2 OR 120 × 92 = 64 × V2
+> (volume =) 170 (m3) allow 172, 173, 172.5
+
+- **(2)** rearrangement OR substitution into given
+
 ### 11(a)(ii) [1]
 
 Give an assumption that is made in the calculation.
+
+
+**Mark scheme answer**
+
+> constant temperature / amount of air / mass of however expressed
+> air; e.g. number of particles
+> constant
+
+- **(1)** constant temperature / amount of air / mass of however expressed
 
 ### 11(b)(i) [3]
 

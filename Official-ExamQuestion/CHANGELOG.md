@@ -1,5 +1,46 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.19.0 — 2026-10-26 · the MS-table parser wave (F72: the vertical marker census closes G5, G3 narrows to 4 structural classes)
+
+The Task 17 corpus census (`physics-intake/ms-forensics/`, all 53 landed 4PH1 slices) proved
+the v0.17.4 vertical state machine lost six further marker-row families, and the MCQ keyer
+missed three answer shapes. `parse_ms_vertical` (4ph1-only) gains: triple rows
+`4 (a)   (i)   A (friction);` (175 rows — the qn+letter rule swallowed the roman into the
+entry's content), letter+content rows `(b)   galaxy;   allow named galaxy  [marks]` (842 rows
+— the single largest linkage-loss class: the whole row appended to the PREVIOUS entry and the
+letter never opened), qn+content rows `8   any six from:   [marks]` (the 2024-06 1P Q8 class;
+accepted only under a triple gate — ascending question law AND a trailing marks-column digit
+AND indent <=3, because 181 of 198 stripped-shape rows are numeric answer content), an indent
+gate (<=3) on letter-only/roman-only rows (notes-column wraps of a bare paren token at indent
+65-70 reset `cur_letter` and derailed the next roman gate — 2020-01 2P 3(b)(ii)), a paren-less
+letter cell `b)   (i)   (Np/Ns) = ...;` (2019-06 2P, 1 row), continuation re-prints of glued
+marker rows now APPEND (setdefault silently dropped them), and an orphan-roman re-anchor
+(a marker-column letter+roman row for a fresh letter family can only be a marker — 2026-06 2P
+prints Q4(c)(ii) with no preceding `(c)` cell because pdftotext merged it). MCQ keying
+(vertical-gated; the row-layout lane's lexicon is hoisted BYTE-EXACT including its dormant
+`\b\b` concatenation quirk — chemistry frozen, quirks and all): bare-key rows `B;` (2022-01
+1P/2P print five keys this way), the negative lexeme searched after stripping parenthesized
+spans (answer rows quote choice text containing 'is not'; rebuttal rows carry their negative
+outside any parens — the first battery caught the naive first-paren split regressing 2025-11
+1P 9(b) and it was fixed before shipping), 'does not/do not' joins the vertical lexicon, and
+F14 gains the pure-elimination arm (MS rebuts every option but one and prints no answer row —
+2025-11 2P 2(b)). The wave also CORRECTED a Task 16 mis-link its own pin had codified
+(2024-11 1P 1(b)(ii) served the 1(c) block because the old parser never opened the (c) letter
+entry; C74's pi pin re-anchored to 1(c), receipted in F72). Corpus of record after the wave:
+G5-answer-linkage PASS 53/53 with 2,171/2,171 parts linked (Task 16 baseline: 1,235/2,171,
+936 unmatched); G3 PASS 49 / FAIL 4 — the 4 are QP-side structural classes, disclosed not
+guessed (2020-01 1PR 1(b) + 2023-06 2PR 7(a): choice-label extraction drops; 2022-06 2PR 1(a)
+matching + 2026-06 1PR 1(a) labelling: non-MCQ questions the QP parser types as
+multiple_choice); review queue 1,080 -> 67. The last unlinked part (2026-06 2P 4(c)(i)) is an
+embedded equation image in the MS PDF — served via MS-LINK-OVERRIDES.json under the F42
+doctrine (eyeballed from the 150 dpi render, never model guessed; the ledger's first physics
+entry). Version note: this wave worked as 0.18.0 locally but wave-25's concurrent merge owns
+that number on main (and ledger IDs F69-F71) — shipped as 0.19.0 / F72. Chemistry
+bit-identity receipt: 2023-06 1C pre (main 0.18.0) vs post (0.19.0) on identical staging —
+topic.json / validation-report.json / questions.md byte-identical modulo the version string,
+7/7 assets byte-identical, gate stdout identical. Canaries C83-C85 pin the wave (triple-glue
+MCQ keying, qn-content bootstrap, orphan-roman re-anchor); C57's corpus scan is lane-aware.
+
 ## 0.18.0 — 2026-10-26 · wave-25: the audit §4 text-hygiene + repo-hygiene wave
 
 The G8 audit's three OPEN minor classes close at source. Census before ship grew

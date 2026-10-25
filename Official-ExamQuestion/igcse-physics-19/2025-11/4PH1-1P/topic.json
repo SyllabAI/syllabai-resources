@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:38Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2025-11 paper=1P",
+ "generated_utc": "2026-10-25T22:07:11Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2025-11 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2025-11:4PH1/1P",
  "source": {
   "qp_sha256": "3fd20dc307f4ce5d502f105bbaa19b96b3d6cd4dbca2fb6dba4e1ed6ab291f9f",
@@ -35,29 +35,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "Betelgeuse"
+       "text_md": "Betelgeuse",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "Sirius A"
+       "text_md": "Sirius A",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "Sirius B"
+       "text_md": "Sirius B",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "The Sun"
+       "text_md": "The Sun",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (Betelgeuse);\nB is incorrect because Sirius A is the hottest\nC is incorrect because Sirius B is hotter than\nBetelgeuse\nD is incorrect because the Sun is hotter than\nBetelgeuse",
+     "mark_points": [
+      {
+       "id": "2025-11-1-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer A: Betelgeuse"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -70,29 +82,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "Betelgeuse"
+       "text_md": "Betelgeuse",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "Sirius A"
+       "text_md": "Sirius A",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "Sirius B"
+       "text_md": "Sirius B",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "The Sun"
+       "text_md": "The Sun",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (Betelgeuse);\nB is incorrect because its mass is about the same as\nthe Sun\nC is incorrect because Sirius B is the same mass as\nthe Sun and is already a white dwarf\nD is incorrect because the Sun will not become a\nsupernova",
+     "mark_points": [
+      {
+       "id": "2025-11-1-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer A: Betelgeuse"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -103,7 +127,15 @@
      "question_type": "structured",
      "problem_md": "Sirius B and the Sun have approximately the same mass but are different colours and in different evolutionary stages. Describe two other differences between Sirius B and the Sun. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from: allow RA throughout\nignore comments about\ncolour, mass and\nevolutionary stage\nMP1. Sirius B is smaller than the Sun;\nMP2. Sirius B is more dense than the Sun; allow Sirius B has a higher\nvalue of g\nMP3. Sirius B contains less hydrogen than the Sun;\nMP4. fusion doesn’t take place in Sirius B but does\ntake place in the Sun;\nMP5. Sirius B is hotter than the Sun;\nMP6. Sirius B emits less light than the Sun; allow Sirius B has smaller\nbrightness / absolute\nmagnitude / luminosity",
+     "mark_points": [
+      {
+       "id": "2025-11-1-a-iii-MP1",
+       "marks": 2,
+       "text_md": "any two from: allow RA throughout\nignore comments about\ncolour, mass and\nevolutionary stage\nMP1. Sirius B is smaller than the Sun;\nMP2. Sirius B is more dense than the Sun; allow Sirius B has a higher\nvalue of g\nMP3. Sirius B contains less hydrogen than the Sun;\nMP4. fusion doesn’t take place in Sirius B but does\ntake place in the Sun;\nMP5. Sirius B is hotter than the Sun;\nMP6. Sirius B emits less light than the Sun; allow Sirius B has smaller\nbrightness / absolute\nmagnitude / luminosity"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -121,7 +153,15 @@
      "question_type": "structured",
      "problem_md": "Sirius B orbits with Sirius A as part of a binary star system. The mean orbital radius of Sirius B is 29.7 × 109 km. The time for Sirius B to complete one orbit is 50 years. Calculate the mean orbital speed of Sirius B. Give your answer in km / s. mean orbital speed = km / s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "conversion of time into seconds;\nsubstitution; allow ecf from incorrect or\nno conversion\nevaluation;\nanswer of 3.7… × 109 scores\n2 marks\ne.g.\n50 years = 50 × 365 × 24 × 60 × 60 OR 1.5768 × 109 (s)\norbital speed = 2π × 29.7 (× 109) / 1.5768 (× 109)\n(orbital speed =) 118 (km/s) allow 120, 118.2…, 118.3…\n(km/s)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-1-b-MP1",
+       "marks": 3,
+       "text_md": "conversion of time into seconds;\nsubstitution; allow ecf from incorrect or\nno conversion\nevaluation;\nanswer of 3.7… × 109 scores\n2 marks\ne.g.\n50 years = 50 × 365 × 24 × 60 × 60 OR 1.5768 × 109 (s)\norbital speed = 2π × 29.7 (× 109) / 1.5768 (× 109)\n(orbital speed =) 118 (km/s) allow 120, 118.2…, 118.3…\n(km/s)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -293,12 +333,12 @@
      "problem_md": "A current larger than 32 A flows in the sockets. Describe how having the circuit breaker in series with the sockets protects the house.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two from: ignore comments relating to\nelectric shock etc.\nif the current is too high; allow current surge\nidea of isolating device; allow stops the current, breaks the\ncircuit, cuts the power\nidea of no danger of overheating; allow idea that it prevents fires\n(b) idea that fuse can’t be reset; allow fuse has to be replaced\nignore fuse melts/blows\nidea that fuse is slower (to break the circuit); allow idea that fuse is less sensitive\n(c) any two from:\nin the event of a fault; allow description of a fault e.g. live\nwire touching metal case (of an\nappliance), drilling through a cable\nignore comments relating to too\nmuch current etc.\ncurrent flows in earth wire; allow charge/electrons for current\nallow current goes to earth/ground\nallow idea that it provides low\nresistance path to earth\ntrips the circuit breaker; allow idea that it prevents an\nelectric shock\nAnswer Notes Marks",
+     "solution_md": "any two from: ignore comments relating to\nelectric shock etc.\nif the current is too high; allow current surge\nidea of isolating device; allow stops the current, breaks the\ncircuit, cuts the power\nidea of no danger of overheating; allow idea that it prevents fires",
      "mark_points": [
       {
        "id": "2025-11-3-a-MP1",
        "marks": 2,
-       "text_md": "any two from: ignore comments relating to\nelectric shock etc.\nif the current is too high; allow current surge\nidea of isolating device; allow stops the current, breaks the\ncircuit, cuts the power\nidea of no danger of overheating; allow idea that it prevents fires\n(b) idea that fuse can’t be reset; allow fuse has to be replaced\nignore fuse melts/blows\nidea that fuse is slower (to break the circuit); allow idea that fuse is less sensitive\n(c) any two from:\nin the event of a fault; allow description of a fault e.g. live\nwire touching metal case (of an\nappliance), drilling through a cable\nignore comments relating to too\nmuch current etc.\ncurrent flows in earth wire; allow charge/electrons for current\nallow current goes to earth/ground\nallow idea that it provides low\nresistance path to earth\ntrips the circuit breaker; allow idea that it prevents an\nelectric shock\nAnswer Notes Marks"
+       "text_md": "any two from: ignore comments relating to\nelectric shock etc.\nif the current is too high; allow current surge\nidea of isolating device; allow stops the current, breaks the\ncircuit, cuts the power\nidea of no danger of overheating; allow idea that it prevents fires"
       }
      ],
      "source_page": 8,
@@ -318,7 +358,15 @@
      "question_type": "structured",
      "problem_md": "A student suggests that fuses could be used instead of the circuit breakers. Give two disadvantages of using fuses instead of circuit breakers. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that fuse can’t be reset; allow fuse has to be replaced\nignore fuse melts/blows\nidea that fuse is slower (to break the circuit); allow idea that fuse is less sensitive",
+     "mark_points": [
+      {
+       "id": "2025-11-3-b-MP1",
+       "marks": 2,
+       "text_md": "idea that fuse can’t be reset; allow fuse has to be replaced\nignore fuse melts/blows\nidea that fuse is slower (to break the circuit); allow idea that fuse is less sensitive"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -336,7 +384,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the wiring in the house includes an earth wire.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nin the event of a fault; allow description of a fault e.g. live\nwire touching metal case (of an\nappliance), drilling through a cable\nignore comments relating to too\nmuch current etc.\ncurrent flows in earth wire; allow charge/electrons for current\nallow current goes to earth/ground\nallow idea that it provides low\nresistance path to earth\ntrips the circuit breaker; allow idea that it prevents an\nelectric shock\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-3-c-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nin the event of a fault; allow description of a fault e.g. live\nwire touching metal case (of an\nappliance), drilling through a cable\nignore comments relating to too\nmuch current etc.\ncurrent flows in earth wire; allow charge/electrons for current\nallow current goes to earth/ground\nallow idea that it provides low\nresistance path to earth\ntrips the circuit breaker; allow idea that it prevents an\nelectric shock\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -365,12 +421,12 @@
      "problem_md": "Show that the work done by the force is about 440 J. Use the formula work done = force × distance moved",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution;\nevaluation to 3 s.f.;\ne.g.\n(work done =) 120 × 3.7\n(work done =) 444 (J)\n(b) substitution OR rearrangement; allow use of g = 9.8, 9.81\ncondone symbol for g being\nused in the substitution rather\nthan the value\nevaluation; allow 1.49…(kg)\ne.g.\n12 = mass × 10 × 0.82 OR mass = GPE / [g x h]\n(mass =) 1.5 (kg) allow 1.46…(kg)\n(c) MP1. energy can’t be destroyed; allow statement that energy is\nconserved\nwith any one of: allow wasted / lost /\ndissipated for transferred\nMP2. energy transferred to thermal/heat store; ignore transferred to GPE, KE\nMP3. energy transferred to surroundings; allow heat is transferred to\nsurroundings\nMP4. energy transferred due to friction;\nAnswer Notes Marks",
+     "solution_md": "substitution;\nevaluation to 3 s.f.;\ne.g.\n(work done =) 120 × 3.7\n(work done =) 444 (J)",
      "mark_points": [
       {
        "id": "2025-11-4-a-MP1",
        "marks": 2,
-       "text_md": "substitution;\nevaluation to 3 s.f.;\ne.g.\n(work done =) 120 × 3.7\n(work done =) 444 (J)\n(b) substitution OR rearrangement; allow use of g = 9.8, 9.81\ncondone symbol for g being\nused in the substitution rather\nthan the value\nevaluation; allow 1.49…(kg)\ne.g.\n12 = mass × 10 × 0.82 OR mass = GPE / [g x h]\n(mass =) 1.5 (kg) allow 1.46…(kg)\n(c) MP1. energy can’t be destroyed; allow statement that energy is\nconserved\nwith any one of: allow wasted / lost /\ndissipated for transferred\nMP2. energy transferred to thermal/heat store; ignore transferred to GPE, KE\nMP3. energy transferred to surroundings; allow heat is transferred to\nsurroundings\nMP4. energy transferred due to friction;\nAnswer Notes Marks"
+       "text_md": "substitution;\nevaluation to 3 s.f.;\ne.g.\n(work done =) 120 × 3.7\n(work done =) 444 (J)"
       }
      ],
      "source_page": 10,
@@ -390,7 +446,15 @@
      "question_type": "structured",
      "problem_md": "The block gains 12 J of energy in its gravitational store when it is lifted through a height of 0.82 m. Calculate the mass of the block. mass = kg",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution OR rearrangement; allow use of g = 9.8, 9.81\ncondone symbol for g being\nused in the substitution rather\nthan the value\nevaluation; allow 1.49…(kg)\ne.g.\n12 = mass × 10 × 0.82 OR mass = GPE / [g x h]\n(mass =) 1.5 (kg) allow 1.46…(kg)",
+     "mark_points": [
+      {
+       "id": "2025-11-4-b-MP1",
+       "marks": 2,
+       "text_md": "substitution OR rearrangement; allow use of g = 9.8, 9.81\ncondone symbol for g being\nused in the substitution rather\nthan the value\nevaluation; allow 1.49…(kg)\ne.g.\n12 = mass × 10 × 0.82 OR mass = GPE / [g x h]\n(mass =) 1.5 (kg) allow 1.46…(kg)"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -408,7 +472,15 @@
      "question_type": "structured",
      "problem_md": "A student states that most of the input energy is destroyed when the block is pulled up the ramp. Comment on the student’s statement.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "MP1. energy can’t be destroyed; allow statement that energy is\nconserved\nwith any one of: allow wasted / lost /\ndissipated for transferred\nMP2. energy transferred to thermal/heat store; ignore transferred to GPE, KE\nMP3. energy transferred to surroundings; allow heat is transferred to\nsurroundings\nMP4. energy transferred due to friction;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-4-c-MP1",
+       "marks": 2,
+       "text_md": "MP1. energy can’t be destroyed; allow statement that energy is\nconserved\nwith any one of: allow wasted / lost /\ndissipated for transferred\nMP2. energy transferred to thermal/heat store; ignore transferred to GPE, KE\nMP3. energy transferred to surroundings; allow heat is transferred to\nsurroundings\nMP4. energy transferred due to friction;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -437,12 +509,12 @@
      "problem_md": "Uranium‑238 decays by emitting an alpha particle to become an isotope of thorium. Complete the equation for the alpha decay of uranium‑238. 238 U → 90 Th + α",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "correct mass number and atomic number for α; expect 42α\nmass number for thorium = 234; allow ecf from α if\nequation balances\natomic number for uranium = 92; allow ecf from α if\nequation balances\n(b) allow neutron becomes\na proton (and an\nelectron) for 2 marks\nnumber of neutrons decreases by 1; allow (atomic) mass\nnumber stays the same\nnumber of protons increases by 1; allow atomic number\nincreases by 1",
+     "solution_md": "correct mass number and atomic number for α; expect 42α\nmass number for thorium = 234; allow ecf from α if\nequation balances\natomic number for uranium = 92; allow ecf from α if\nequation balances",
      "mark_points": [
       {
        "id": "2025-11-5-a-MP1",
        "marks": 3,
-       "text_md": "correct mass number and atomic number for α; expect 42α\nmass number for thorium = 234; allow ecf from α if\nequation balances\natomic number for uranium = 92; allow ecf from α if\nequation balances\n(b) allow neutron becomes\na proton (and an\nelectron) for 2 marks\nnumber of neutrons decreases by 1; allow (atomic) mass\nnumber stays the same\nnumber of protons increases by 1; allow atomic number\nincreases by 1"
+       "text_md": "correct mass number and atomic number for α; expect 42α\nmass number for thorium = 234; allow ecf from α if\nequation balances\natomic number for uranium = 92; allow ecf from α if\nequation balances"
       }
      ],
      "source_page": 12,
@@ -462,7 +534,15 @@
      "question_type": "structured",
      "problem_md": "The isotope of thorium produced in the decay of uranium‑238 is also radioactive. Thorium decays by emitting a beta particle. Describe how the structure of a thorium nucleus changes when a beta particle is emitted.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "allow neutron becomes\na proton (and an\nelectron) for 2 marks\nnumber of neutrons decreases by 1; allow (atomic) mass\nnumber stays the same\nnumber of protons increases by 1; allow atomic number\nincreases by 1",
+     "mark_points": [
+      {
+       "id": "2025-11-5-b-MP1",
+       "marks": 2,
+       "text_md": "allow neutron becomes\na proton (and an\nelectron) for 2 marks\nnumber of neutrons decreases by 1; allow (atomic) mass\nnumber stays the same\nnumber of protons increases by 1; allow atomic number\nincreases by 1"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -584,7 +664,15 @@
      "question_type": "structured",
      "problem_md": "One of the magnetic field lines has already been drawn. Complete diagram 1 by drawing three more magnetic field lines and labelling the poles of the bar magnets.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "magnet poles labelled correctly; N on left and S on right\nat least three more straight lines drawn such that ignore lines drawn\nthey are equally spaced and parallel with existing outside the rectangular\nline; space between the\nmagnets for this mark\narrows on all field lines between the poles pointing reject if any field lines\nto the right; drawn between poles\nhave contradictory\narrows",
+     "mark_points": [
+      {
+       "id": "2025-11-6-a-i-MP1",
+       "marks": 3,
+       "text_md": "magnet poles labelled correctly; N on left and S on right\nat least three more straight lines drawn such that ignore lines drawn\nthey are equally spaced and parallel with existing outside the rectangular\nline; space between the\nmagnets for this mark\narrows on all field lines between the poles pointing reject if any field lines\nto the right; drawn between poles\nhave contradictory\narrows"
+      }
+     ],
      "source_page": 15,
      "assets": [
       {
@@ -616,7 +704,15 @@
      "question_type": "structured",
      "problem_md": "Describe a method a student could use to show the shape and direction of the magnetic field between the bar magnets. You may draw a diagram to help your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "EITHER: all marking points can\nbe awarded from\nlabelled diagram\nMP1. use of (plotting) compass;\nMP2. movement of compass/use of multiple\ncompasses;\nMP3. idea of joining of dots;\nOR\nMP1. use of (sprinkled) iron filings/eq.;\nMP2. idea of tapping to distribute filings;\nMP3. use of (plotting) compass to show direction;",
+     "mark_points": [
+      {
+       "id": "2025-11-6-a-ii-MP1",
+       "marks": 3,
+       "text_md": "EITHER: all marking points can\nbe awarded from\nlabelled diagram\nMP1. use of (plotting) compass;\nMP2. movement of compass/use of multiple\ncompasses;\nMP3. idea of joining of dots;\nOR\nMP1. use of (sprinkled) iron filings/eq.;\nMP2. idea of tapping to distribute filings;\nMP3. use of (plotting) compass to show direction;"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -634,7 +730,15 @@
      "question_type": "structured",
      "problem_md": "Name a magnetically soft material.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "iron; condone nickel, cobalt",
+     "mark_points": [
+      {
+       "id": "2025-11-6-a-iii-MP1",
+       "marks": 1,
+       "text_md": "iron; condone nickel, cobalt"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -889,12 +993,12 @@
      "problem_md": "The voltage across resistor R is 1.9 V. The resistance of resistor R is 800 Ω. Calculate the current in the circuit. Give your answer in milliamps, mA. current = mA",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution;\nrearrangement;\nevaluation in milliamps; mark independently\nanswer of 0.002375,\n0.00238, 0.00237, 0.0024 scores\n2 marks\ne.g.\n1.9 = current × 800 OR I = V ÷ R\ncurrent = 1.9 ÷ 800\ncurrent = 2.4 (mA) allow 2.375, 2.38 (mA)\ncondone 2.37 (mA)\n(c) MP1. resistance (of LDR / circuit) decreases (with\nincreased brightness);\nMP2. current increases;\nMP3. voltage of fixed resistor increases; allow R, resistor R for fixed\nresistor\nMP4. battery/total voltage remains constant (so allow circuit voltage for total\nvoltage across LDR decreases); voltage\nOR\nMP1. resistance of LDR decreases (with increased\nbrightness);\nMP2. LDR resistance is a smaller proportion/fraction\nof total resistance;\nMP3. voltage from battery is split/shared between\nLDR and resistor;\nMP4. (so) voltage (across LDR) is proportional to ignore quotation of V=I×R\nresistance (so voltage across LDR decreases);\n(d) any two from:\nMP1. current increases;\nMP2. increase in number of paths/branches;\nMP3. resistance (of parallel combination) is lower;\nAnswer Notes Marks",
+     "solution_md": "substitution;\nrearrangement;\nevaluation in milliamps; mark independently\nanswer of 0.002375,\n0.00238, 0.00237, 0.0024 scores\n2 marks\ne.g.\n1.9 = current × 800 OR I = V ÷ R\ncurrent = 1.9 ÷ 800\ncurrent = 2.4 (mA) allow 2.375, 2.38 (mA)\ncondone 2.37 (mA)",
      "mark_points": [
       {
        "id": "2025-11-7-b-ii-MP1",
        "marks": 3,
-       "text_md": "substitution;\nrearrangement;\nevaluation in milliamps; mark independently\nanswer of 0.002375,\n0.00238, 0.00237, 0.0024 scores\n2 marks\ne.g.\n1.9 = current × 800 OR I = V ÷ R\ncurrent = 1.9 ÷ 800\ncurrent = 2.4 (mA) allow 2.375, 2.38 (mA)\ncondone 2.37 (mA)\n(c) MP1. resistance (of LDR / circuit) decreases (with\nincreased brightness);\nMP2. current increases;\nMP3. voltage of fixed resistor increases; allow R, resistor R for fixed\nresistor\nMP4. battery/total voltage remains constant (so allow circuit voltage for total\nvoltage across LDR decreases); voltage\nOR\nMP1. resistance of LDR decreases (with increased\nbrightness);\nMP2. LDR resistance is a smaller proportion/fraction\nof total resistance;\nMP3. voltage from battery is split/shared between\nLDR and resistor;\nMP4. (so) voltage (across LDR) is proportional to ignore quotation of V=I×R\nresistance (so voltage across LDR decreases);\n(d) any two from:\nMP1. current increases;\nMP2. increase in number of paths/branches;\nMP3. resistance (of parallel combination) is lower;\nAnswer Notes Marks"
+       "text_md": "substitution;\nrearrangement;\nevaluation in milliamps; mark independently\nanswer of 0.002375,\n0.00238, 0.00237, 0.0024 scores\n2 marks\ne.g.\n1.9 = current × 800 OR I = V ÷ R\ncurrent = 1.9 ÷ 800\ncurrent = 2.4 (mA) allow 2.375, 2.38 (mA)\ncondone 2.37 (mA)"
       }
      ],
      "source_page": 20,
@@ -914,7 +1018,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the voltage across the light dependent resistor (LDR) decreases if the brightness of the light in the room increases.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "MP1. resistance (of LDR / circuit) decreases (with\nincreased brightness);\nMP2. current increases;\nMP3. voltage of fixed resistor increases; allow R, resistor R for fixed\nresistor\nMP4. battery/total voltage remains constant (so allow circuit voltage for total\nvoltage across LDR decreases); voltage\nOR\nMP1. resistance of LDR decreases (with increased\nbrightness);\nMP2. LDR resistance is a smaller proportion/fraction\nof total resistance;\nMP3. voltage from battery is split/shared between\nLDR and resistor;\nMP4. (so) voltage (across LDR) is proportional to ignore quotation of V=I×R\nresistance (so voltage across LDR decreases);",
+     "mark_points": [
+      {
+       "id": "2025-11-7-c-MP1",
+       "marks": 4,
+       "text_md": "MP1. resistance (of LDR / circuit) decreases (with\nincreased brightness);\nMP2. current increases;\nMP3. voltage of fixed resistor increases; allow R, resistor R for fixed\nresistor\nMP4. battery/total voltage remains constant (so allow circuit voltage for total\nvoltage across LDR decreases); voltage\nOR\nMP1. resistance of LDR decreases (with increased\nbrightness);\nMP2. LDR resistance is a smaller proportion/fraction\nof total resistance;\nMP3. voltage from battery is split/shared between\nLDR and resistor;\nMP4. (so) voltage (across LDR) is proportional to ignore quotation of V=I×R\nresistance (so voltage across LDR decreases);"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -932,7 +1044,15 @@
      "question_type": "structured",
      "problem_md": "Another resistor is connected in parallel with resistor R. The new resistor has a higher resistance than resistor R. Explain what happens to the current in the LDR in the circuit diagram. Assume that the brightness of the light in the room remains constant.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. current increases;\nMP2. increase in number of paths/branches;\nMP3. resistance (of parallel combination) is lower;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-7-d-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. current increases;\nMP2. increase in number of paths/branches;\nMP3. resistance (of parallel combination) is lower;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [
       {
@@ -975,12 +1095,12 @@
      "problem_md": "Describe a method that could be used to accurately determine the volume of clay used in the pot.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "reference to using a displacement method; ignore filling pot with\nwater\nmeasuring cylinder used (to measure volume of allow graduated\nwater); cylinder for measuring\ncylinder\nignore beaker\nrepeating and average; allow repeating to\nidentify anomalous\nresults\nfurther experimental detail relating to accuracy;\ne.g.\n• lack of splashing\n• reading measuring cylinder at eye level\n• placing measuring cylinder on flat surface\n• ensure pot is fully submerged\n• ensure eureka can/bowl is (completely) full\nprior to submerging pot\n• no trapped air in pot\n(b) (top pan) balance; allow mass balance,\nelectronic balance,\ndigital balance,\nweighing scale\nignore\n(electronic/digital)\nscale(s)\n(c) evaluation of mass of liquid;\nsubstitution into formula; allow ecf from incorrect\nmass\nrearrangement;\nevaluation; −1 for POT error\ne.g.\nmass of liquid = 6.8 − 1.2 = 5.6 (kg)\n920 = 5.6 ÷ volume\nvolume = 5.6 ÷ 920\n(volume =) 0.0061 (m3) allow 0.006,\n0.00608… (m3)\nAnswer Notes Marks",
+     "solution_md": "reference to using a displacement method; ignore filling pot with\nwater\nmeasuring cylinder used (to measure volume of allow graduated\nwater); cylinder for measuring\ncylinder\nignore beaker\nrepeating and average; allow repeating to\nidentify anomalous\nresults\nfurther experimental detail relating to accuracy;\ne.g.\n• lack of splashing\n• reading measuring cylinder at eye level\n• placing measuring cylinder on flat surface\n• ensure pot is fully submerged\n• ensure eureka can/bowl is (completely) full\nprior to submerging pot\n• no trapped air in pot",
      "mark_points": [
       {
        "id": "2025-11-8-a-MP1",
        "marks": 4,
-       "text_md": "reference to using a displacement method; ignore filling pot with\nwater\nmeasuring cylinder used (to measure volume of allow graduated\nwater); cylinder for measuring\ncylinder\nignore beaker\nrepeating and average; allow repeating to\nidentify anomalous\nresults\nfurther experimental detail relating to accuracy;\ne.g.\n• lack of splashing\n• reading measuring cylinder at eye level\n• placing measuring cylinder on flat surface\n• ensure pot is fully submerged\n• ensure eureka can/bowl is (completely) full\nprior to submerging pot\n• no trapped air in pot\n(b) (top pan) balance; allow mass balance,\nelectronic balance,\ndigital balance,\nweighing scale\nignore\n(electronic/digital)\nscale(s)\n(c) evaluation of mass of liquid;\nsubstitution into formula; allow ecf from incorrect\nmass\nrearrangement;\nevaluation; −1 for POT error\ne.g.\nmass of liquid = 6.8 − 1.2 = 5.6 (kg)\n920 = 5.6 ÷ volume\nvolume = 5.6 ÷ 920\n(volume =) 0.0061 (m3) allow 0.006,\n0.00608… (m3)\nAnswer Notes Marks"
+       "text_md": "reference to using a displacement method; ignore filling pot with\nwater\nmeasuring cylinder used (to measure volume of allow graduated\nwater); cylinder for measuring\ncylinder\nignore beaker\nrepeating and average; allow repeating to\nidentify anomalous\nresults\nfurther experimental detail relating to accuracy;\ne.g.\n• lack of splashing\n• reading measuring cylinder at eye level\n• placing measuring cylinder on flat surface\n• ensure pot is fully submerged\n• ensure eureka can/bowl is (completely) full\nprior to submerging pot\n• no trapped air in pot"
       }
      ],
      "source_page": 22,
@@ -1000,7 +1120,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of a piece of apparatus that could be used to measure the mass of the clay pot.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(top pan) balance; allow mass balance,\nelectronic balance,\ndigital balance,\nweighing scale\nignore\n(electronic/digital)\nscale(s)",
+     "mark_points": [
+      {
+       "id": "2025-11-8-b-MP1",
+       "marks": 1,
+       "text_md": "(top pan) balance; allow mass balance,\nelectronic balance,\ndigital balance,\nweighing scale\nignore\n(electronic/digital)\nscale(s)"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -1018,7 +1146,15 @@
      "question_type": "structured",
      "problem_md": "The clay pot can be used to hold liquids. A student needs to determine the volume of liquid that can be contained in the pot. The student measures the mass of the empty pot and then measures the mass of the pot again when it is filled with a liquid. The table shows the student’s measurements. Mass of empty pot in kg 1.2 Mass of pot filled with liquid in kg 6.8 The density of the liquid used is 920 kg / m3. Calculate the volume of liquid that can be contained in the pot. Use the formula mass density = volume volume = m3",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evaluation of mass of liquid;\nsubstitution into formula; allow ecf from incorrect\nmass\nrearrangement;\nevaluation; −1 for POT error\ne.g.\nmass of liquid = 6.8 − 1.2 = 5.6 (kg)\n920 = 5.6 ÷ volume\nvolume = 5.6 ÷ 920\n(volume =) 0.0061 (m3) allow 0.006,\n0.00608… (m3)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-8-c-MP1",
+       "marks": 4,
+       "text_md": "evaluation of mass of liquid;\nsubstitution into formula; allow ecf from incorrect\nmass\nrearrangement;\nevaluation; −1 for POT error\ne.g.\nmass of liquid = 6.8 − 1.2 = 5.6 (kg)\n920 = 5.6 ÷ volume\nvolume = 5.6 ÷ 920\n(volume =) 0.0061 (m3) allow 0.006,\n0.00608… (m3)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -1080,7 +1216,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "D (gradient of the line);\nA is incorrect because this gives the distance\ntravelled\nB is incorrect because axes are a feature of all\ngraphs not connected with acceleration\nC is incorrect because not all graphs have curves\n(b) B (Q);\nA (P) is incorrect as the car is still increasing in\nvelocity\nC (R) is incorrect as the car has been decelerating\nfor some time\nD (S) is incorrect as the car has stopped moving\n(c) any two from:\nMP1. air resistance increases (with increasing allow drag/friction for\nspeed); air resistance\nMP2. resultant force decreases;\nMP3. acceleration decreases; allow velocity increases\nat decreasing rate\nignore accelerates at\ndecreasing rate\nMP4. gradient decreases; condone slope\ndecreases\n(d) idea that distance = area (under line); allow statement that\ndistance = average\nspeed × time\nattempt at calculating area of correct triangle; condone misreading\nspeed for this mark e.g.\nusing speed = 85, 88\ncorrect evaluation; must be 180 (m)\nno ECF from use of\nspeed = 85, 88\nallow alternative valid\nmethods e.g.\nusing v2 = u2 + 2as with\ne.g. calculated acceleration\ndistance = area\ndistance = 0.5 × 90 × 4.0\n(distance =) 180 (m)\nQuestion number Answer Notes Marks",
+     "solution_md": "D (gradient of the line);\nA is incorrect because this gives the distance\ntravelled\nB is incorrect because axes are a feature of all\ngraphs not connected with acceleration\nC is incorrect because not all graphs have curves",
      "mark_points": [
       {
        "id": "2025-11-9-a-MP1",
@@ -1119,22 +1255,34 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "P"
+       "text_md": "P",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "Q"
+       "text_md": "Q",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "R"
+       "text_md": "R",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "S"
+       "text_md": "S",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (Q);\nA (P) is incorrect as the car is still increasing in\nvelocity\nC (R) is incorrect as the car has been decelerating\nfor some time\nD (S) is incorrect as the car has stopped moving",
+     "mark_points": [
+      {
+       "id": "2025-11-9-b-MP1",
+       "marks": 1,
+       "text_md": "Answer B: Q"
+      }
+     ],
      "source_page": 25,
      "assets": [
       {
@@ -1155,7 +1303,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -1166,7 +1314,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the graph is a curve for the first 11.0 seconds.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. air resistance increases (with increasing allow drag/friction for\nspeed); air resistance\nMP2. resultant force decreases;\nMP3. acceleration decreases; allow velocity increases\nat decreasing rate\nignore accelerates at\ndecreasing rate\nMP4. gradient decreases; condone slope\ndecreases",
+     "mark_points": [
+      {
+       "id": "2025-11-9-c-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. air resistance increases (with increasing allow drag/friction for\nspeed); air resistance\nMP2. resultant force decreases;\nMP3. acceleration decreases; allow velocity increases\nat decreasing rate\nignore accelerates at\ndecreasing rate\nMP4. gradient decreases; condone slope\ndecreases"
+      }
+     ],
      "source_page": 25,
      "assets": [
       {
@@ -1198,7 +1354,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the distance travelled by the car from 11.0 seconds to 15.0 seconds. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that distance = area (under line); allow statement that\ndistance = average\nspeed × time\nattempt at calculating area of correct triangle; condone misreading\nspeed for this mark e.g.\nusing speed = 85, 88\ncorrect evaluation; must be 180 (m)\nno ECF from use of\nspeed = 85, 88\nallow alternative valid\nmethods e.g.\nusing v2 = u2 + 2as with\ne.g. calculated acceleration\ndistance = area\ndistance = 0.5 × 90 × 4.0\n(distance =) 180 (m)\nQuestion number Answer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-9-d-MP1",
+       "marks": 3,
+       "text_md": "idea that distance = area (under line); allow statement that\ndistance = average\nspeed × time\nattempt at calculating area of correct triangle; condone misreading\nspeed for this mark e.g.\nusing speed = 85, 88\ncorrect evaluation; must be 180 (m)\nno ECF from use of\nspeed = 85, 88\nallow alternative valid\nmethods e.g.\nusing v2 = u2 + 2as with\ne.g. calculated acceleration\ndistance = area\ndistance = 0.5 × 90 × 4.0\n(distance =) 180 (m)\nQuestion number Answer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1227,12 +1391,12 @@
      "problem_md": "Light is an example of a wave. State what is meant by the term wave.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two from:\nidea that waves transfer energy; allow waves transfer\ninformation\nby vibrations / oscillations;\nidea that waves don’t transfer mass/matter;\n(b) ray of light drawn reflecting from mirror at the ray does not need an\npoint of the incident ray; arrow\ncondone ray reflecting\nto left of incident ray\nreject refracting ray\nangle of reflection correct; reflected ray should\npass through the word\n“mirror” in sentence\nabove if extrapolated",
+     "solution_md": "any two from:\nidea that waves transfer energy; allow waves transfer\ninformation\nby vibrations / oscillations;\nidea that waves don’t transfer mass/matter;",
      "mark_points": [
       {
        "id": "2025-11-10-a-MP1",
        "marks": 2,
-       "text_md": "any two from:\nidea that waves transfer energy; allow waves transfer\ninformation\nby vibrations / oscillations;\nidea that waves don’t transfer mass/matter;\n(b) ray of light drawn reflecting from mirror at the ray does not need an\npoint of the incident ray; arrow\ncondone ray reflecting\nto left of incident ray\nreject refracting ray\nangle of reflection correct; reflected ray should\npass through the word\n“mirror” in sentence\nabove if extrapolated"
+       "text_md": "any two from:\nidea that waves transfer energy; allow waves transfer\ninformation\nby vibrations / oscillations;\nidea that waves don’t transfer mass/matter;"
       }
      ],
      "source_page": 27,
@@ -1252,7 +1416,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 1 shows a ray of light incident on a mirror. ray of light mirror Diagram 1 Draw another ray of light on diagram 1 to show the path of the ray after it is incident on the mirror.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "ray of light drawn reflecting from mirror at the ray does not need an\npoint of the incident ray; arrow\ncondone ray reflecting\nto left of incident ray\nreject refracting ray\nangle of reflection correct; reflected ray should\npass through the word\n“mirror” in sentence\nabove if extrapolated",
+     "mark_points": [
+      {
+       "id": "2025-11-10-b-MP1",
+       "marks": 2,
+       "text_md": "ray of light drawn reflecting from mirror at the ray does not need an\npoint of the incident ray; arrow\ncondone ray reflecting\nto left of incident ray\nreject refracting ray\nangle of reflection correct; reflected ray should\npass through the word\n“mirror” in sentence\nabove if extrapolated"
+      }
+     ],
      "source_page": 27,
      "assets": [
       {
@@ -1347,12 +1519,12 @@
      "problem_md": "The refractive index of blue light in glass is higher than the refractive index of red light in glass. A ray of blue light has an angle of incidence equal to the critical angle of the red light. Explain what would happen to the ray of blue light at the glass–air boundary.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "higher refractive index means lower critical angle; allow blue light has\nlower critical angle\nangle of incidence will be greater than critical\nangle;\nblue light will undergo total internal reflection; allow TIR for total\ninternal reflection\nallow if seen on\ndiagram\nAnswer Notes Marks\n11 any five from: allow any marking point\nif seen on labelled\ndiagram\nMP1. idea that air is heated (by candle under tube allow air particles move\nB); faster / gain KE\nignore smoke is heated\nMP2. (heated) air expands; allow air particles move\nfurther apart\nignore particles expand\nMP3. density of (heated) air decreases; ignore particle density\ndecreases\nMP4. hot air rises through tube B;\nMP5. idea that cool air is drawn in (through tube A ignore smoke moving\nto replace air that has left box); through tube A\nMP6. idea that the process repeats;\nAnswer Notes Marks",
+     "solution_md": "higher refractive index means lower critical angle; allow blue light has\nlower critical angle\nangle of incidence will be greater than critical\nangle;\nblue light will undergo total internal reflection; allow TIR for total\ninternal reflection\nallow if seen on\ndiagram\nAnswer Notes Marks",
      "mark_points": [
       {
        "id": "2025-11-10-c-iii-MP1",
        "marks": 3,
-       "text_md": "higher refractive index means lower critical angle; allow blue light has\nlower critical angle\nangle of incidence will be greater than critical\nangle;\nblue light will undergo total internal reflection; allow TIR for total\ninternal reflection\nallow if seen on\ndiagram\nAnswer Notes Marks\n11 any five from: allow any marking point\nif seen on labelled\ndiagram\nMP1. idea that air is heated (by candle under tube allow air particles move\nB); faster / gain KE\nignore smoke is heated\nMP2. (heated) air expands; allow air particles move\nfurther apart\nignore particles expand\nMP3. density of (heated) air decreases; ignore particle density\ndecreases\nMP4. hot air rises through tube B;\nMP5. idea that cool air is drawn in (through tube A ignore smoke moving\nto replace air that has left box); through tube A\nMP6. idea that the process repeats;\nAnswer Notes Marks"
+       "text_md": "higher refractive index means lower critical angle; allow blue light has\nlower critical angle\nangle of incidence will be greater than critical\nangle;\nblue light will undergo total internal reflection; allow TIR for total\ninternal reflection\nallow if seen on\ndiagram\nAnswer Notes Marks"
       }
      ],
      "source_page": 29,
@@ -1386,7 +1558,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows apparatus that can be used to demonstrate convection currents. smoke tube A tube B candle The apparatus consists of a box with two tubes, A and B, that allow air to enter and leave the box. During the demonstration, a candle is placed inside the box directly underneath tube B. A source of smoke is placed above tube A. Using ideas about convection, explain why the smoke moves down into the box through tube A. You may add to the diagram to help your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any five from: allow any marking point\nif seen on labelled\ndiagram\nMP1. idea that air is heated (by candle under tube allow air particles move\nB); faster / gain KE\nignore smoke is heated\nMP2. (heated) air expands; allow air particles move\nfurther apart\nignore particles expand\nMP3. density of (heated) air decreases; ignore particle density\ndecreases\nMP4. hot air rises through tube B;\nMP5. idea that cool air is drawn in (through tube A ignore smoke moving\nto replace air that has left box); through tube A\nMP6. idea that the process repeats;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2025-11-11-MP1",
+       "marks": 5,
+       "text_md": "any five from: allow any marking point\nif seen on labelled\ndiagram\nMP1. idea that air is heated (by candle under tube allow air particles move\nB); faster / gain KE\nignore smoke is heated\nMP2. (heated) air expands; allow air particles move\nfurther apart\nignore particles expand\nMP3. density of (heated) air decreases; ignore particle density\ndecreases\nMP4. hot air rises through tube B;\nMP5. idea that cool air is drawn in (through tube A ignore smoke moving\nto replace air that has left box); through tube A\nMP6. idea that the process repeats;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 30,
      "assets": [
       {
@@ -1441,7 +1621,15 @@
      "question_type": "structured",
      "problem_md": "The gas particles move in random motion. State what is meant by the term random motion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that (particles) move in allow particles move in\ndifferent/unpredictable directions; all/any directions\nignore random directions\nidea that (particles) move at allow particles have\ndifferent/unpredictable speeds; different velocities,\nkinetic energies\nignore random speeds",
+     "mark_points": [
+      {
+       "id": "2025-11-12-a-i-MP1",
+       "marks": 2,
+       "text_md": "idea that (particles) move in allow particles move in\ndifferent/unpredictable directions; all/any directions\nignore random directions\nidea that (particles) move at allow particles have\ndifferent/unpredictable speeds; different velocities,\nkinetic energies\nignore random speeds"
+      }
+     ],
      "source_page": 33,
      "assets": [],
      "spec_point_codes": [],
@@ -1459,7 +1647,15 @@
      "question_type": "structured",
      "problem_md": "The gas exerts a pressure due to the gas particles colliding with the walls of the box. Explain how these collisions produce a pressure.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that a force is produced (on the walls); ignore pushing on walls\npressure is force on an area; allow p = F/A",
+     "mark_points": [
+      {
+       "id": "2025-11-12-a-ii-MP1",
+       "marks": 2,
+       "text_md": "idea that a force is produced (on the walls); ignore pushing on walls\npressure is force on an area; allow p = F/A"
+      }
+     ],
      "source_page": 33,
      "assets": [],
      "spec_point_codes": [],
@@ -1477,7 +1673,15 @@
      "question_type": "structured",
      "problem_md": "The volume of the box is increased but the temperature of the gas remains constant. Explain how increasing the volume of the box affects the pressure of the gas in the box. Assume the amount of gas remains constant.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "MP1. pressure decreases;\nwith any two from:\nMP2. (average) speed of particles does not change; allow kinetic energy for\nspeed\nMP3. particles travel greater distance / time\nbetween collisions increases;\nMP4. particles collide less frequently (with walls allow statement of Boyle’s\nof container); law e.g. p1V1 = p2V2\nMP5. decrease in (average) force (of particles on allow pressure is inversely\nwalls) / increase in area (for collisions); proportional to volume",
+     "mark_points": [
+      {
+       "id": "2025-11-12-a-iii-MP1",
+       "marks": 3,
+       "text_md": "MP1. pressure decreases;\nwith any two from:\nMP2. (average) speed of particles does not change; allow kinetic energy for\nspeed\nMP3. particles travel greater distance / time\nbetween collisions increases;\nMP4. particles collide less frequently (with walls allow statement of Boyle’s\nof container); law e.g. p1V1 = p2V2\nMP5. decrease in (average) force (of particles on allow pressure is inversely\nwalls) / increase in area (for collisions); proportional to volume"
+      }
+     ],
      "source_page": 34,
      "assets": [],
      "spec_point_codes": [],
@@ -1522,12 +1726,12 @@
      "problem_md": "Different liquids can be used in the manometer. Liquid mercury has a density of 14 000 kg / m3. Suggest why liquid mercury would be more appropriate to use in the manometer when measuring very large pressure differences. QUESTION 12 CONTINUES ON NEXT PAGE.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two from:\nmercury is denser (than oil);\nheight difference for mercury will be small(er);\nidea that a (very) large pressure difference could allow (very) large pressure\ncause a very/too large height difference (if mercury difference could cause\nnot used as the liquid); manometer to overflow\n(c) conversion of initial temperature into kelvin;\nsubstitution; allow ECF from incorrectly\nor non converted\ntemperature\nrearrangement;\ncorrect evaluation in °C; ignore 37.1 (°C)\naward 2 marks for not\nconverting temperature\nunits when supported by\nworking\n= 17(.17…) (°C)\ne.g.\n16 °C = 289 K\n232 / 289 = 249 / T2\nT2 = 249 × 289 / 232\n(T2 = 310 K =) 37 (°C) allow 37.2, 37.1767… (°C)",
+     "solution_md": "any two from:\nmercury is denser (than oil);\nheight difference for mercury will be small(er);\nidea that a (very) large pressure difference could allow (very) large pressure\ncause a very/too large height difference (if mercury difference could cause\nnot used as the liquid); manometer to overflow",
      "mark_points": [
       {
        "id": "2025-11-12-b-ii-MP1",
        "marks": 2,
-       "text_md": "any two from:\nmercury is denser (than oil);\nheight difference for mercury will be small(er);\nidea that a (very) large pressure difference could allow (very) large pressure\ncause a very/too large height difference (if mercury difference could cause\nnot used as the liquid); manometer to overflow\n(c) conversion of initial temperature into kelvin;\nsubstitution; allow ECF from incorrectly\nor non converted\ntemperature\nrearrangement;\ncorrect evaluation in °C; ignore 37.1 (°C)\naward 2 marks for not\nconverting temperature\nunits when supported by\nworking\n= 17(.17…) (°C)\ne.g.\n16 °C = 289 K\n232 / 289 = 249 / T2\nT2 = 249 × 289 / 232\n(T2 = 310 K =) 37 (°C) allow 37.2, 37.1767… (°C)"
+       "text_md": "any two from:\nmercury is denser (than oil);\nheight difference for mercury will be small(er);\nidea that a (very) large pressure difference could allow (very) large pressure\ncause a very/too large height difference (if mercury difference could cause\nnot used as the liquid); manometer to overflow"
       }
      ],
      "source_page": 35,
@@ -1547,7 +1751,15 @@
      "question_type": "structured",
      "problem_md": "The pressure of a sample of gas is 232 kPa at a temperature of 16 °C. Calculate the temperature when the pressure of the sample of gas increases to 249 kPa. Give your answer in degrees Celsius (°C) Assume that the volume and the mass of the gas sample remain constant. temperature = ° C",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "conversion of initial temperature into kelvin;\nsubstitution; allow ECF from incorrectly\nor non converted\ntemperature\nrearrangement;\ncorrect evaluation in °C; ignore 37.1 (°C)\naward 2 marks for not\nconverting temperature\nunits when supported by\nworking\n= 17(.17…) (°C)\ne.g.\n16 °C = 289 K\n232 / 289 = 249 / T2\nT2 = 249 × 289 / 232\n(T2 = 310 K =) 37 (°C) allow 37.2, 37.1767… (°C)",
+     "mark_points": [
+      {
+       "id": "2025-11-12-c-MP1",
+       "marks": 4,
+       "text_md": "conversion of initial temperature into kelvin;\nsubstitution; allow ECF from incorrectly\nor non converted\ntemperature\nrearrangement;\ncorrect evaluation in °C; ignore 37.1 (°C)\naward 2 marks for not\nconverting temperature\nunits when supported by\nworking\n= 17(.17…) (°C)\ne.g.\n16 °C = 289 K\n232 / 289 = 249 / T2\nT2 = 249 × 289 / 232\n(T2 = 310 K =) 37 (°C) allow 37.2, 37.1767… (°C)"
+      }
+     ],
      "source_page": 36,
      "assets": [],
      "spec_point_codes": [],

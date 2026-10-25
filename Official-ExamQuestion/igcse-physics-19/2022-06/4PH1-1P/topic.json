@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:09Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2022-06 paper=1P",
+ "generated_utc": "2026-10-25T22:06:34Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2022-06 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-06:4PH1/1P",
  "source": {
   "qp_sha256": "beca36c265719dc119b02e95d8721e4ee06f1b79058cb6b549f363e0bc0c50cb",
@@ -114,12 +114,12 @@
      "problem_md": "Add an X to the diagram to show the position where the comet is moving fastest.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "X marked on part of path closest to candidate’s S; reject if another\ncontradictory cross drawn\n(b) any three from: comparison needs to be seen\nMP1. comet’s orbit is more elliptical/oval; allow planet’s orbit is more\ncircular\nMP2. (orbital) path of comet is longer; allow distance for path\nallow period of orbit of\ncomet is longer\nMP3. idea that speed of comet varies but speed of\nplanet does not;\nMP4. both planet and comet orbit a star; allow the Sun for star\nMP5. idea that orbital radius of comet varies but\norbital radius of planet does not;\nMP6. plane of comet’s orbit different to plane of\nplanet’s orbit;\nMP7. star is at centre of planet orbit but not at allow (star’s) gravitational\ncentre of comet orbit; force is constant for planet\nbut varies for comet\nAnswer Notes Marks",
+     "solution_md": "X marked on part of path closest to candidate’s S; reject if another\ncontradictory cross drawn",
      "mark_points": [
       {
        "id": "2022-06-1-a-iii-MP1",
        "marks": 1,
-       "text_md": "X marked on part of path closest to candidate’s S; reject if another\ncontradictory cross drawn\n(b) any three from: comparison needs to be seen\nMP1. comet’s orbit is more elliptical/oval; allow planet’s orbit is more\ncircular\nMP2. (orbital) path of comet is longer; allow distance for path\nallow period of orbit of\ncomet is longer\nMP3. idea that speed of comet varies but speed of\nplanet does not;\nMP4. both planet and comet orbit a star; allow the Sun for star\nMP5. idea that orbital radius of comet varies but\norbital radius of planet does not;\nMP6. plane of comet’s orbit different to plane of\nplanet’s orbit;\nMP7. star is at centre of planet orbit but not at allow (star’s) gravitational\ncentre of comet orbit; force is constant for planet\nbut varies for comet\nAnswer Notes Marks"
+       "text_md": "X marked on part of path closest to candidate’s S; reject if another\ncontradictory cross drawn"
       }
      ],
      "source_page": 3,
@@ -153,7 +153,15 @@
      "question_type": "structured",
      "problem_md": "Describe how the orbit of a comet compares with the orbit of a planet.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from: comparison needs to be seen\nMP1. comet’s orbit is more elliptical/oval; allow planet’s orbit is more\ncircular\nMP2. (orbital) path of comet is longer; allow distance for path\nallow period of orbit of\ncomet is longer\nMP3. idea that speed of comet varies but speed of\nplanet does not;\nMP4. both planet and comet orbit a star; allow the Sun for star\nMP5. idea that orbital radius of comet varies but\norbital radius of planet does not;\nMP6. plane of comet’s orbit different to plane of\nplanet’s orbit;\nMP7. star is at centre of planet orbit but not at allow (star’s) gravitational\ncentre of comet orbit; force is constant for planet\nbut varies for comet\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-1-b-MP1",
+       "marks": 3,
+       "text_md": "any three from: comparison needs to be seen\nMP1. comet’s orbit is more elliptical/oval; allow planet’s orbit is more\ncircular\nMP2. (orbital) path of comet is longer; allow distance for path\nallow period of orbit of\ncomet is longer\nMP3. idea that speed of comet varies but speed of\nplanet does not;\nMP4. both planet and comet orbit a star; allow the Sun for star\nMP5. idea that orbital radius of comet varies but\norbital radius of planet does not;\nMP6. plane of comet’s orbit different to plane of\nplanet’s orbit;\nMP7. star is at centre of planet orbit but not at allow (star’s) gravitational\ncentre of comet orbit; force is constant for planet\nbut varies for comet\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -203,7 +211,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "C (number of protons in the nucleus);\nA is incorrect because electrons are not found in the nucleus\nB is incorrect because this is deduced from the mass number\nD is incorrect because this is the mass number\n(b) D (number of protons and neutrons in the nucleus);\nA is incorrect because electrons are not found in the nucleus\nB is incorrect because this is determined from the mass number and is not the mass\nnumber itself\nC is incorrect because this is the atomic number\n(c) D (atoms with the same number of protons but a different number of neutrons;\nA is incorrect because isotopes must have the same number of protons\nB is incorrect because isotopes have a different number of neutrons to each other\nC is incorrect because isotopes must have the same number of protons\n(d) A (adding an electron);\nB is incorrect because this will change the element and make it positively charged\nC is incorrect because this will create a positively charged ion\nD is incorrect because this will change the element\n(e) B (radioactive decay happens at random);\nA is incorrect because this is a consequence of radioactive decay\nC is incorrect because it does not explain the random nature of radioactive decay\nD is incorrect because this explains why radioactive decay happens in the first place\n(f) A (becquerel (Bq);\nB is incorrect because this is the unit for charge\nC is incorrect because this is the unit for energy\nD is incorrect because this is the unit for power\nAnswer Notes Marks",
+     "solution_md": "C (number of protons in the nucleus);\nA is incorrect because electrons are not found in the nucleus\nB is incorrect because this is deduced from the mass number\nD is incorrect because this is the mass number",
      "mark_points": [
       {
        "id": "2022-06-2-a-MP1",
@@ -230,29 +238,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "number of electrons in the nucleus"
+       "text_md": "number of electrons in the nucleus",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "number of neutrons in the nucleus"
+       "text_md": "number of neutrons in the nucleus",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "number of protons in the nucleus"
+       "text_md": "number of protons in the nucleus",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "number of protons and neutrons in the nucleus"
+       "text_md": "number of protons and neutrons in the nucleus",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (number of protons and neutrons in the nucleus);\nA is incorrect because electrons are not found in the nucleus\nB is incorrect because this is determined from the mass number and is not the mass\nnumber itself\nC is incorrect because this is the atomic number",
+     "mark_points": [
+      {
+       "id": "2022-06-2-b-MP1",
+       "marks": 1,
+       "text_md": "Answer D: number of protons and neutrons in the nucleus"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -261,9 +281,17 @@
      "part_number": "2(c)",
      "marks": 1,
      "question_type": "structured",
-     "problem_md": "Which statement describes the term isotopes? A a\u0007 toms with the same number of electrons but a different number of protons B \u0007atoms with the same number of neutrons but a different number of electrons C a\u0007 toms with the same number of neutrons but a different number of protons D a\u0007 toms with the same number of protons but a different number of neutrons",
+     "problem_md": "Which statement describes the term isotopes? A a toms with the same number of electrons but a different number of protons B atoms with the same number of neutrons but a different number of electrons C a toms with the same number of neutrons but a different number of protons D a toms with the same number of protons but a different number of neutrons",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (atoms with the same number of protons but a different number of neutrons;\nA is incorrect because isotopes must have the same number of protons\nB is incorrect because isotopes have a different number of neutrons to each other\nC is incorrect because isotopes must have the same number of protons",
+     "mark_points": [
+      {
+       "id": "2022-06-2-c-MP1",
+       "marks": 1,
+       "text_md": "D (atoms with the same number of protons but a different number of neutrons;\nA is incorrect because isotopes must have the same number of protons\nB is incorrect because isotopes have a different number of neutrons to each other\nC is incorrect because isotopes must have the same number of protons"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -283,29 +311,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "adding an electron"
+       "text_md": "adding an electron",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "adding a proton"
+       "text_md": "adding a proton",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "removing an electron"
+       "text_md": "removing an electron",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "removing a proton"
+       "text_md": "removing a proton",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (adding an electron);\nB is incorrect because this will change the element and make it positively charged\nC is incorrect because this will create a positively charged ion\nD is incorrect because this will change the element",
+     "mark_points": [
+      {
+       "id": "2022-06-2-d-MP1",
+       "marks": 1,
+       "text_md": "Answer A: adding an electron"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -318,29 +358,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "radioactive decay can change the structure of the nucleus"
+       "text_md": "radioactive decay can change the structure of the nucleus",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "radioactive decay happens at random"
+       "text_md": "radioactive decay happens at random",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "radioactive decay is irreversible"
+       "text_md": "radioactive decay is irreversible",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "radioactive decay makes a nucleus more stable"
+       "text_md": "radioactive decay makes a nucleus more stable",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (radioactive decay happens at random);\nA is incorrect because this is a consequence of radioactive decay\nC is incorrect because it does not explain the random nature of radioactive decay\nD is incorrect because this explains why radioactive decay happens in the first place",
+     "mark_points": [
+      {
+       "id": "2022-06-2-e-MP1",
+       "marks": 1,
+       "text_md": "Answer B: radioactive decay happens at random"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -353,29 +405,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "becquerel (Bq)"
+       "text_md": "becquerel (Bq)",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "coulomb (C)"
+       "text_md": "coulomb (C)",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "joule (J)"
+       "text_md": "joule (J)",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "watt (W)"
+       "text_md": "watt (W)",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (becquerel (Bq);\nB is incorrect because this is the unit for charge\nC is incorrect because this is the unit for energy\nD is incorrect because this is the unit for power\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-2-f-MP1",
+       "marks": 1,
+       "text_md": "Answer A: becquerel (Bq)"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -475,12 +539,12 @@
      "problem_md": "The device emits a sound wave. The sound wave travels to the wall, reflects back to the device and is received by the device. The distance from the device to the wall is 2.35 m. Calculate the time between the sound wave being emitted and received by the device. time = s",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "use of speed = distance/time seen or allow any rearrangement or in\nimplied; correct symbols\nallow d, s, x for distance\nallow v for speed\ncondone s for speed\nfactor of 2 seen;\nsubstitution;\nevaluation;\n0.007, 0.0068… scores 3 marks\n(no factor of 2 used)\ne.g.\nspeed = distance/time\ndistance should be doubled\n345 = 4.70 ÷ time\n(time =) 0.0136 (s) allow 0.01, 0.014,\n0.01362… (s)\n(c) idea that the person can see/know what e.g. marks the position that\n(distance) they are measuring/eq; (distance) is being measured to\n(d) any three from: allow points shown on a labelled\ndiagram\nallow higher level ideas i.e. light\ncan be polarised but sound can’t\nallow reverse argument (RA) for\nall marking points\nMP1. sound is longitudinal light is can be given from diagram\ntransverse; showing longitudinal and\ntransverse waves\nMP2. sound vibrations are in the direction allow oscillations, displacements\nof travel, light vibrations are for vibrations\nperpendicular to the direction of allow direction of energy\ntravel; transfer for direction of travel\nMP3. light is electromagnetic, sound is not; allow sound is mechanical, light\nis not\nMP4. light can travel through a allow sound needs a medium but\nvacuum/space, sound cannot; light does not\nMP5. light travels (much) faster (in air) allow quoted speeds for\nthan sound; comparison\nMP6. light slows down in denser medium\nbut sound speeds up;\nAnswer Notes Marks",
+     "solution_md": "use of speed = distance/time seen or allow any rearrangement or in\nimplied; correct symbols\nallow d, s, x for distance\nallow v for speed\ncondone s for speed\nfactor of 2 seen;\nsubstitution;\nevaluation;\n0.007, 0.0068… scores 3 marks\n(no factor of 2 used)\ne.g.\nspeed = distance/time\ndistance should be doubled\n345 = 4.70 ÷ time\n(time =) 0.0136 (s) allow 0.01, 0.014,\n0.01362… (s)",
      "mark_points": [
       {
        "id": "2022-06-3-b-iii-MP1",
        "marks": 4,
-       "text_md": "use of speed = distance/time seen or allow any rearrangement or in\nimplied; correct symbols\nallow d, s, x for distance\nallow v for speed\ncondone s for speed\nfactor of 2 seen;\nsubstitution;\nevaluation;\n0.007, 0.0068… scores 3 marks\n(no factor of 2 used)\ne.g.\nspeed = distance/time\ndistance should be doubled\n345 = 4.70 ÷ time\n(time =) 0.0136 (s) allow 0.01, 0.014,\n0.01362… (s)\n(c) idea that the person can see/know what e.g. marks the position that\n(distance) they are measuring/eq; (distance) is being measured to\n(d) any three from: allow points shown on a labelled\ndiagram\nallow higher level ideas i.e. light\ncan be polarised but sound can’t\nallow reverse argument (RA) for\nall marking points\nMP1. sound is longitudinal light is can be given from diagram\ntransverse; showing longitudinal and\ntransverse waves\nMP2. sound vibrations are in the direction allow oscillations, displacements\nof travel, light vibrations are for vibrations\nperpendicular to the direction of allow direction of energy\ntravel; transfer for direction of travel\nMP3. light is electromagnetic, sound is not; allow sound is mechanical, light\nis not\nMP4. light can travel through a allow sound needs a medium but\nvacuum/space, sound cannot; light does not\nMP5. light travels (much) faster (in air) allow quoted speeds for\nthan sound; comparison\nMP6. light slows down in denser medium\nbut sound speeds up;\nAnswer Notes Marks"
+       "text_md": "use of speed = distance/time seen or allow any rearrangement or in\nimplied; correct symbols\nallow d, s, x for distance\nallow v for speed\ncondone s for speed\nfactor of 2 seen;\nsubstitution;\nevaluation;\n0.007, 0.0068… scores 3 marks\n(no factor of 2 used)\ne.g.\nspeed = distance/time\ndistance should be doubled\n345 = 4.70 ÷ time\n(time =) 0.0136 (s) allow 0.01, 0.014,\n0.01362… (s)"
       }
      ],
      "source_page": 7,
@@ -500,7 +564,15 @@
      "question_type": "structured",
      "problem_md": "Suggest why the device emits visible light.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that the person can see/know what e.g. marks the position that\n(distance) they are measuring/eq; (distance) is being measured to",
+     "mark_points": [
+      {
+       "id": "2022-06-3-c-MP1",
+       "marks": 1,
+       "text_md": "idea that the person can see/know what e.g. marks the position that\n(distance) they are measuring/eq; (distance) is being measured to"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -518,7 +590,15 @@
      "question_type": "structured",
      "problem_md": "Sound waves and light waves can have different frequencies and wavelengths. Describe three other differences between sound waves and light waves. You may draw diagrams to support your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from: allow points shown on a labelled\ndiagram\nallow higher level ideas i.e. light\ncan be polarised but sound can’t\nallow reverse argument (RA) for\nall marking points\nMP1. sound is longitudinal light is can be given from diagram\ntransverse; showing longitudinal and\ntransverse waves\nMP2. sound vibrations are in the direction allow oscillations, displacements\nof travel, light vibrations are for vibrations\nperpendicular to the direction of allow direction of energy\ntravel; transfer for direction of travel\nMP3. light is electromagnetic, sound is not; allow sound is mechanical, light\nis not\nMP4. light can travel through a allow sound needs a medium but\nvacuum/space, sound cannot; light does not\nMP5. light travels (much) faster (in air) allow quoted speeds for\nthan sound; comparison\nMP6. light slows down in denser medium\nbut sound speeds up;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-3-d-MP1",
+       "marks": 3,
+       "text_md": "any three from: allow points shown on a labelled\ndiagram\nallow higher level ideas i.e. light\ncan be polarised but sound can’t\nallow reverse argument (RA) for\nall marking points\nMP1. sound is longitudinal light is can be given from diagram\ntransverse; showing longitudinal and\ntransverse waves\nMP2. sound vibrations are in the direction allow oscillations, displacements\nof travel, light vibrations are for vibrations\nperpendicular to the direction of allow direction of energy\ntravel; transfer for direction of travel\nMP3. light is electromagnetic, sound is not; allow sound is mechanical, light\nis not\nMP4. light can travel through a allow sound needs a medium but\nvacuum/space, sound cannot; light does not\nMP5. light travels (much) faster (in air) allow quoted speeds for\nthan sound; comparison\nMP6. light slows down in denser medium\nbut sound speeds up;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -551,12 +631,12 @@
      "problem_md": "Plot a bar chart of the gravitational field strength for each planet.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "suitable linear scale chosen (>50% of grid used); ignore orientation of axes\ndo not accept multiples of 3\nfor scale\naxes labelled with quantities and unit; condone missing “planets”\nlabel if individual planets are\nwritten with bars\nall bar plotting correct to nearest half square; reject if non-linear scale used\nbars do not need to be\nseparated from each other or\nin the same order as the\ntable\ncondone stick graphs\n(b) any one from: ignore different orbital radius\ndifferent masses; ignore weight\ndifferent sizes; allow different volume, radii,\ndiameter\nignore different (surface)\narea\ndifferent densities;\n(c) as orbital radius increases, the orbital speed condone idea that they are\ndecreases; inversely proportional\nignore negative correlation\n(d)\nsubstitution into ;\nrearrangement;\nevaluation; -1 for POT error\nallow 1s.f. answer if\nsupported by working\ne.g.\n47.4 = 2 × π × 57.9 × 106 / T\nT = 2 × π × 57.9 × 106 / 47.4\n(T =) 7.68 × 106 (s) allow 7.7 × 106, 7.67 × 106,\n7 675 030.154 (s)\nAnswer Notes Marks",
+     "solution_md": "suitable linear scale chosen (>50% of grid used); ignore orientation of axes\ndo not accept multiples of 3\nfor scale\naxes labelled with quantities and unit; condone missing “planets”\nlabel if individual planets are\nwritten with bars\nall bar plotting correct to nearest half square; reject if non-linear scale used\nbars do not need to be\nseparated from each other or\nin the same order as the\ntable\ncondone stick graphs",
      "mark_points": [
       {
        "id": "2022-06-4-a-MP1",
        "marks": 3,
-       "text_md": "suitable linear scale chosen (>50% of grid used); ignore orientation of axes\ndo not accept multiples of 3\nfor scale\naxes labelled with quantities and unit; condone missing “planets”\nlabel if individual planets are\nwritten with bars\nall bar plotting correct to nearest half square; reject if non-linear scale used\nbars do not need to be\nseparated from each other or\nin the same order as the\ntable\ncondone stick graphs\n(b) any one from: ignore different orbital radius\ndifferent masses; ignore weight\ndifferent sizes; allow different volume, radii,\ndiameter\nignore different (surface)\narea\ndifferent densities;\n(c) as orbital radius increases, the orbital speed condone idea that they are\ndecreases; inversely proportional\nignore negative correlation\n(d)\nsubstitution into ;\nrearrangement;\nevaluation; -1 for POT error\nallow 1s.f. answer if\nsupported by working\ne.g.\n47.4 = 2 × π × 57.9 × 106 / T\nT = 2 × π × 57.9 × 106 / 47.4\n(T =) 7.68 × 106 (s) allow 7.7 × 106, 7.67 × 106,\n7 675 030.154 (s)\nAnswer Notes Marks"
+       "text_md": "suitable linear scale chosen (>50% of grid used); ignore orientation of axes\ndo not accept multiples of 3\nfor scale\naxes labelled with quantities and unit; condone missing “planets”\nlabel if individual planets are\nwritten with bars\nall bar plotting correct to nearest half square; reject if non-linear scale used\nbars do not need to be\nseparated from each other or\nin the same order as the\ntable\ncondone stick graphs"
       }
      ],
      "source_page": 10,
@@ -576,7 +656,15 @@
      "question_type": "structured",
      "problem_md": "Suggest why planets have different gravitational field strengths at their surface.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any one from: ignore different orbital radius\ndifferent masses; ignore weight\ndifferent sizes; allow different volume, radii,\ndiameter\nignore different (surface)\narea\ndifferent densities;",
+     "mark_points": [
+      {
+       "id": "2022-06-4-b-MP1",
+       "marks": 1,
+       "text_md": "any one from: ignore different orbital radius\ndifferent masses; ignore weight\ndifferent sizes; allow different volume, radii,\ndiameter\nignore different (surface)\narea\ndifferent densities;"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -594,7 +682,15 @@
      "question_type": "structured",
      "problem_md": "Give the relationship shown by the data in the table between the orbital radius and the orbital speed for the planets in the solar system.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "as orbital radius increases, the orbital speed condone idea that they are\ndecreases; inversely proportional\nignore negative correlation",
+     "mark_points": [
+      {
+       "id": "2022-06-4-c-MP1",
+       "marks": 1,
+       "text_md": "as orbital radius increases, the orbital speed condone idea that they are\ndecreases; inversely proportional\nignore negative correlation"
+      }
+     ],
      "source_page": 11,
      "assets": [
       {
@@ -626,7 +722,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the time period of Mercury’s orbit around the Sun. time period = s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "3\nsubstitution into ;\nrearrangement;\nevaluation; -1 for POT error\nallow 1s.f. answer if\nsupported by working\ne.g.\n47.4 = 2 × π × 57.9 × 106 / T\nT = 2 × π × 57.9 × 106 / 47.4\n(T =) 7.68 × 106 (s) allow 7.7 × 106, 7.67 × 106,\n7 675 030.154 (s)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-4-d-MP1",
+       "marks": 3,
+       "text_md": "3\nsubstitution into ;\nrearrangement;\nevaluation; -1 for POT error\nallow 1s.f. answer if\nsupported by working\ne.g.\n47.4 = 2 × π × 57.9 × 106 / T\nT = 2 × π × 57.9 × 106 / 47.4\n(T =) 7.68 × 106 (s) allow 7.7 × 106, 7.67 × 106,\n7 675 030.154 (s)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -707,12 +811,12 @@
      "problem_md": "The incomplete nuclear decay equation summarises the decay sequence of thorium-232 into radon‑220. 232 Th 220 Rn + 4 α + 0 −1 β Calculate the number of alpha particles and the number of beta particles emitted in this decay sequence. number of alpha particles = number of beta particles =",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "evidence of trying to balance nuclear equation; e.g. 232 – 220 = 12\ncorrect number of alphas; also gains first mark\ncorrect number of betas; also gains first mark\ne.g.\n90 = 86 + 2α this balances atomic number\ndespite mass number not\nbalancing (if no beta was\npresent)\nnumber of alpha = 3\nnumber of beta = 2\n(c) any three from:\nMP1. (alpha) can cause cell mutation / cancer;\nMP2. idea that alpha is only dangerous when inside\nbody;\nMP3. alpha is blocked by skin / few cm of air;\nMP4. thorium can only cause irradiation (since it allow both (thorium and\nremains in work surface); radon) can cause irradiation\nMP5. radon / gas can cause (both) contamination\n(and irradiation) (since it can go inside body /\nfood);\nMP6. radon / gas can be inhaled / enter body;\nMP7. thorium cannot enter body;\nAnswer Notes Marks",
+     "solution_md": "evidence of trying to balance nuclear equation; e.g. 232 – 220 = 12\ncorrect number of alphas; also gains first mark\ncorrect number of betas; also gains first mark\ne.g.\n90 = 86 + 2α this balances atomic number\ndespite mass number not\nbalancing (if no beta was\npresent)\nnumber of alpha = 3\nnumber of beta = 2",
      "mark_points": [
       {
        "id": "2022-06-5-b-ii-MP1",
        "marks": 3,
-       "text_md": "evidence of trying to balance nuclear equation; e.g. 232 – 220 = 12\ncorrect number of alphas; also gains first mark\ncorrect number of betas; also gains first mark\ne.g.\n90 = 86 + 2α this balances atomic number\ndespite mass number not\nbalancing (if no beta was\npresent)\nnumber of alpha = 3\nnumber of beta = 2\n(c) any three from:\nMP1. (alpha) can cause cell mutation / cancer;\nMP2. idea that alpha is only dangerous when inside\nbody;\nMP3. alpha is blocked by skin / few cm of air;\nMP4. thorium can only cause irradiation (since it allow both (thorium and\nremains in work surface); radon) can cause irradiation\nMP5. radon / gas can cause (both) contamination\n(and irradiation) (since it can go inside body /\nfood);\nMP6. radon / gas can be inhaled / enter body;\nMP7. thorium cannot enter body;\nAnswer Notes Marks"
+       "text_md": "evidence of trying to balance nuclear equation; e.g. 232 – 220 = 12\ncorrect number of alphas; also gains first mark\ncorrect number of betas; also gains first mark\ne.g.\n90 = 86 + 2α this balances atomic number\ndespite mass number not\nbalancing (if no beta was\npresent)\nnumber of alpha = 3\nnumber of beta = 2"
       }
      ],
      "source_page": 13,
@@ -732,7 +836,15 @@
      "question_type": "structured",
      "problem_md": "Thorium‑232 is a solid and remains in the work surface. Radon‑220 is a gas and is emitted from the work surface. Thorium‑232 and radon‑220 both emit alpha radiation. Discuss the hazards due to the granite work surface when a person is working in the kitchen. Refer to contamination and irradiation in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any three from:\nMP1. (alpha) can cause cell mutation / cancer;\nMP2. idea that alpha is only dangerous when inside\nbody;\nMP3. alpha is blocked by skin / few cm of air;\nMP4. thorium can only cause irradiation (since it allow both (thorium and\nremains in work surface); radon) can cause irradiation\nMP5. radon / gas can cause (both) contamination\n(and irradiation) (since it can go inside body /\nfood);\nMP6. radon / gas can be inhaled / enter body;\nMP7. thorium cannot enter body;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-5-c-MP1",
+       "marks": 3,
+       "text_md": "any three from:\nMP1. (alpha) can cause cell mutation / cancer;\nMP2. idea that alpha is only dangerous when inside\nbody;\nMP3. alpha is blocked by skin / few cm of air;\nMP4. thorium can only cause irradiation (since it allow both (thorium and\nremains in work surface); radon) can cause irradiation\nMP5. radon / gas can cause (both) contamination\n(and irradiation) (since it can go inside body /\nfood);\nMP6. radon / gas can be inhaled / enter body;\nMP7. thorium cannot enter body;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -765,12 +877,12 @@
      "problem_md": "Force and velocity are examples of vector quantities. State what is meant by the term vector quantity.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(quantity that has both) magnitude and direction; allow size, value, number or\namount for magnitude\nignore scale for magnitude\n(b) ignore starting points and\nlengths of arrows\n3 marks max. if more than\ntwo arrows drawn\nvertically downward arrow drawn; judge by eye\nlabelled weight; dependent on previous mark\nbeing awarded (DOP)\nallow gravitational force,\nforce of gravity\nignore gravity, gravitational\nfield strength, gfs\narrow drawn in opposite direction to velocity;\nlabelled air resistance / drag / air friction; DOP but allow if arrow\npointing to the left\ncondone wind resistance\nAnswer Notes Marks",
+     "solution_md": "(quantity that has both) magnitude and direction; allow size, value, number or\namount for magnitude\nignore scale for magnitude",
      "mark_points": [
       {
        "id": "2022-06-6-a-MP1",
        "marks": 1,
-       "text_md": "(quantity that has both) magnitude and direction; allow size, value, number or\namount for magnitude\nignore scale for magnitude\n(b) ignore starting points and\nlengths of arrows\n3 marks max. if more than\ntwo arrows drawn\nvertically downward arrow drawn; judge by eye\nlabelled weight; dependent on previous mark\nbeing awarded (DOP)\nallow gravitational force,\nforce of gravity\nignore gravity, gravitational\nfield strength, gfs\narrow drawn in opposite direction to velocity;\nlabelled air resistance / drag / air friction; DOP but allow if arrow\npointing to the left\ncondone wind resistance\nAnswer Notes Marks"
+       "text_md": "(quantity that has both) magnitude and direction; allow size, value, number or\namount for magnitude\nignore scale for magnitude"
       }
      ],
      "source_page": 15,
@@ -790,7 +902,15 @@
      "question_type": "structured",
      "problem_md": "Draw labelled arrows on the diagram to show two other forces that act on the child.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "ignore starting points and\nlengths of arrows\n3 marks max. if more than\ntwo arrows drawn\nvertically downward arrow drawn; judge by eye\nlabelled weight; dependent on previous mark\nbeing awarded (DOP)\nallow gravitational force,\nforce of gravity\nignore gravity, gravitational\nfield strength, gfs\narrow drawn in opposite direction to velocity;\nlabelled air resistance / drag / air friction; DOP but allow if arrow\npointing to the left\ncondone wind resistance\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-6-b-MP1",
+       "marks": 4,
+       "text_md": "ignore starting points and\nlengths of arrows\n3 marks max. if more than\ntwo arrows drawn\nvertically downward arrow drawn; judge by eye\nlabelled weight; dependent on previous mark\nbeing awarded (DOP)\nallow gravitational force,\nforce of gravity\nignore gravity, gravitational\nfield strength, gfs\narrow drawn in opposite direction to velocity;\nlabelled air resistance / drag / air friction; DOP but allow if arrow\npointing to the left\ncondone wind resistance\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 15,
      "assets": [
       {
@@ -1199,7 +1319,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking pressure difference, height, density and gravitational field strength, g.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pressure (difference) = height × density × g; allow standard symbols and\nrearrangements e.g.\nh = p / (ρ × g)\ncondone d for density",
+     "mark_points": [
+      {
+       "id": "2022-06-9-a-i-MP1",
+       "marks": 1,
+       "text_md": "pressure (difference) = height × density × g; allow standard symbols and\nrearrangements e.g.\nh = p / (ρ × g)\ncondone d for density"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1217,7 +1345,15 @@
      "question_type": "structured",
      "problem_md": "The pressure difference between the surface of the water and the water at the bottom of the bottle is 2300 Pa. Calculate the depth of water in the bottle. Give your answer in cm. [density of water = 1000 kg / m3] depth = cm",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow g = 9.81, 9.8\nrearrangement;\nevaluation in cm; -1 for POT error but check\ncarefully due to value of g\n0.23 (cm) gains 2 marks\ne.g.\n2300 = h × 1000 × 10\nh = 2300 / (1000 × 10)\n(h =) 23 (cm) allow 23.46…, 23.44… (cm)",
+     "mark_points": [
+      {
+       "id": "2022-06-9-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution; allow g = 9.81, 9.8\nrearrangement;\nevaluation in cm; -1 for POT error but check\ncarefully due to value of g\n0.23 (cm) gains 2 marks\ne.g.\n2300 = h × 1000 × 10\nh = 2300 / (1000 × 10)\n(h =) 23 (cm) allow 23.46…, 23.44… (cm)"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1423,12 +1559,12 @@
      "problem_md": "The mass of the car and its passengers is 2.1 tonnes. Calculate the kinetic energy of the car when it has fallen 18 m. [1 tonne = 1000 kg] kinetic energy = J",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution; allow ECF from (a)\nevaluation; allow alternative method\ninvolving changing GPE\nlost = KE gain\nallow 370 000-372 000\nfrom g = 9.8, 9.81\ne.g.\n(KE =) 0.5 × 2100 × 192\n(KE =) 380 000 (J) allow 400 000, 378 000,\n379 000\n1 mark only for not\nconverting tonnes to kg\ne.g. KE = 380 (J), 378 (J)\n(c) allow answers in terms of\ntypes of energy rather\nthan stores and transfers\nidea that energy is transferred from a gravitational allow GPE to KE\n(store) to a kinetic (store);\nidea that energy is transferred to a thermal (store) allow heat for thermal\nof {car / shaft / surroundings};\nidea that energy is transferred mechanically; allow energy transferred\ndue to a named force\ne.g. gravity, friction\nidea that energy is transferred by radiation / by allow energy transferred\nheating; as sound\nAnswer Notes Marks",
+     "solution_md": "substitution; allow ECF from (a)\nevaluation; allow alternative method\ninvolving changing GPE\nlost = KE gain\nallow 370 000-372 000\nfrom g = 9.8, 9.81\ne.g.\n(KE =) 0.5 × 2100 × 192\n(KE =) 380 000 (J) allow 400 000, 378 000,\n379 000\n1 mark only for not\nconverting tonnes to kg\ne.g. KE = 380 (J), 378 (J)",
      "mark_points": [
       {
        "id": "2022-06-10-b-ii-MP1",
        "marks": 2,
-       "text_md": "substitution; allow ECF from (a)\nevaluation; allow alternative method\ninvolving changing GPE\nlost = KE gain\nallow 370 000-372 000\nfrom g = 9.8, 9.81\ne.g.\n(KE =) 0.5 × 2100 × 192\n(KE =) 380 000 (J) allow 400 000, 378 000,\n379 000\n1 mark only for not\nconverting tonnes to kg\ne.g. KE = 380 (J), 378 (J)\n(c) allow answers in terms of\ntypes of energy rather\nthan stores and transfers\nidea that energy is transferred from a gravitational allow GPE to KE\n(store) to a kinetic (store);\nidea that energy is transferred to a thermal (store) allow heat for thermal\nof {car / shaft / surroundings};\nidea that energy is transferred mechanically; allow energy transferred\ndue to a named force\ne.g. gravity, friction\nidea that energy is transferred by radiation / by allow energy transferred\nheating; as sound\nAnswer Notes Marks"
+       "text_md": "substitution; allow ECF from (a)\nevaluation; allow alternative method\ninvolving changing GPE\nlost = KE gain\nallow 370 000-372 000\nfrom g = 9.8, 9.81\ne.g.\n(KE =) 0.5 × 2100 × 192\n(KE =) 380 000 (J) allow 400 000, 378 000,\n379 000\n1 mark only for not\nconverting tonnes to kg\ne.g. KE = 380 (J), 378 (J)"
       }
      ],
      "source_page": 25,
@@ -1448,7 +1584,15 @@
      "question_type": "structured",
      "problem_md": "The actual speed of the car when it has fallen 18 m is lower than the value calculated in (a). Describe the energy transfers occurring from immediately before the car was released to when the car has fallen 18 m. Refer to stores and transfers in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "allow answers in terms of\ntypes of energy rather\nthan stores and transfers\nidea that energy is transferred from a gravitational allow GPE to KE\n(store) to a kinetic (store);\nidea that energy is transferred to a thermal (store) allow heat for thermal\nof {car / shaft / surroundings};\nidea that energy is transferred mechanically; allow energy transferred\ndue to a named force\ne.g. gravity, friction\nidea that energy is transferred by radiation / by allow energy transferred\nheating; as sound\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-10-c-MP1",
+       "marks": 4,
+       "text_md": "allow answers in terms of\ntypes of energy rather\nthan stores and transfers\nidea that energy is transferred from a gravitational allow GPE to KE\n(store) to a kinetic (store);\nidea that energy is transferred to a thermal (store) allow heat for thermal\nof {car / shaft / surroundings};\nidea that energy is transferred mechanically; allow energy transferred\ndue to a named force\ne.g. gravity, friction\nidea that energy is transferred by radiation / by allow energy transferred\nheating; as sound\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1728,12 +1872,12 @@
      "problem_md": "Predict a value for the current if the wire is moved faster between the poles of the magnet. current = mA",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "reading larger than value given in (a); ignore polarity\n(c) any one from:\nMP1. longer needle; allow idea of moving scale\nfurther up the needle\nMP2. more turns in coil; ignore bigger coil, more coils\nMP3. stronger magnet; ignore bigger magnet\nMP4. weaker return spring;",
+     "solution_md": "reading larger than value given in (a); ignore polarity",
      "mark_points": [
       {
        "id": "2022-06-12-b-ii-MP1",
        "marks": 1,
-       "text_md": "reading larger than value given in (a); ignore polarity\n(c) any one from:\nMP1. longer needle; allow idea of moving scale\nfurther up the needle\nMP2. more turns in coil; ignore bigger coil, more coils\nMP3. stronger magnet; ignore bigger magnet\nMP4. weaker return spring;"
+       "text_md": "reading larger than value given in (a); ignore polarity"
       }
      ],
      "source_page": 30,
@@ -1753,7 +1897,15 @@
      "question_type": "structured",
      "problem_md": "Photograph 2 shows the structure of the ammeter. The ammeter has a needle attached to a coil of wire which can move freely around a magnet. When there is a current in the coil, the needle moves. The larger the current, the more the coil turns. needle coil of wire magnet Photograph 2 Suggest how the design of the ammeter could be modified to increase its sensitivity. QUESTION 12 CONTINUES ON NEXT PAGE",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any one from:\nMP1. longer needle; allow idea of moving scale\nfurther up the needle\nMP2. more turns in coil; ignore bigger coil, more coils\nMP3. stronger magnet; ignore bigger magnet\nMP4. weaker return spring;",
+     "mark_points": [
+      {
+       "id": "2022-06-12-c-MP1",
+       "marks": 1,
+       "text_md": "any one from:\nMP1. longer needle; allow idea of moving scale\nfurther up the needle\nMP2. more turns in coil; ignore bigger coil, more coils\nMP3. stronger magnet; ignore bigger magnet\nMP4. weaker return spring;"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],

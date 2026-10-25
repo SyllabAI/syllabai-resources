@@ -19,15 +19,6 @@ Bismuth‑207 is a gamma emitter and is represented by the symbol 207 83 Bi How 
 > A is incorrect because this is the number of protons
 > C is incorrect because this is the number of protons and neutrons
 > D is incorrect because this is twice the number of protons added to the neutrons
-> (b) C (a high frequency electromagnetic wave);
-> A is incorrect because this is the description of alpha radiation
-> B is incorrect because this is the description of beta radiation
-> D is incorrect because this is the description of neutron radiation
-> (c) all 4 rows correct = 3 marks;;;
-> 2-3 rows correct = 2 marks;;
-> any 1 row correct = 1 mark;
-> more than one tick in a row negates the mark for that row
-> Answer Notes Marks
 
 - **(1)** Answer B: 124
 
@@ -37,14 +28,35 @@ Which of these gives the best description of gamma radiation?
 
 - **(A)** a helium nucleus
 - **(B)** a high energy electron
-- **(C)** a high frequency electromagnetic wave
+- **(C)** a high frequency electromagnetic wave  ✔
 - **(D)** a subatomic particle with mass, but with no charge
+
+
+**Mark scheme answer**
+
+> C (a high frequency electromagnetic wave);
+> A is incorrect because this is the description of alpha radiation
+> B is incorrect because this is the description of beta radiation
+> D is incorrect because this is the description of neutron radiation
+
+- **(1)** Answer C: a high frequency electromagnetic wave
 
 ### 1(c) [3]
 
 A technician uses this method to investigate the penetration power of gamma radiation. • place a gamma emitting source at a fixed distance from a radiation detector • measure the count using the detector, for a period of one minute • place a thin sheet of lead between the source and the detector • measure the new count using the detector, for a period of one minute • increase the number of lead sheets between the source and detector and repeat this process The table gives some of the variables from the technician’s method. Complete the table by placing a tick (✓) in each row to show whether each variable is an independent, a dependent or a control variable. Independent Dependent Control Variable variable variable variable count measured using the detector distance between source and detector number of lead sheets time period for measuring the count
 
 ![table — official paper figure (qp.pdf p.5)](assets/asset_1_c_table.png)
+
+
+**Mark scheme answer**
+
+> all 4 rows correct = 3 marks;;;
+> 2-3 rows correct = 2 marks;;
+> any 1 row correct = 1 mark;
+> more than one tick in a row negates the mark for that row
+> Answer Notes Marks
+
+- **(3)** all 4 rows correct = 3 marks;;;
 
 
 ## Question 2 (8 marks)
@@ -67,7 +79,17 @@ Which of these is another example of ionising radiation?
 > A is incorrect because frequencies lower than visible light are non-ionising
 > B is incorrect because frequencies lower than visible light are non-ionising
 > C is incorrect because frequencies lower than visible light are non-ionising
-> (b) one use for x-rays;
+
+- **(1)** Answer D: ultraviolet
+
+### 2(b) [2]
+
+Give one use of x‑rays and one use of gamma rays. x‑rays gamma rays
+
+
+**Mark scheme answer**
+
+> one use for x-rays;
 > e.g. taking photos or detecting of (broken) bones, allow treating cancer /
 > internal structures (of objects), sterilising medical equipment
 > one use for gamma rays;
@@ -75,11 +97,7 @@ Which of these is another example of ionising radiation?
 > reference to tracing, airport scanning of luggage,
 > irradiating food (for preservation)
 
-- **(1)** Answer D: ultraviolet
-
-### 2(b) [2]
-
-Give one use of x‑rays and one use of gamma rays. x‑rays gamma rays
+- **(2)** one use for x-rays;
 
 ### 2(c)(i) [1]
 
@@ -109,17 +127,23 @@ Calculate the wavelength of a gamma ray with a frequency of 2.8 × 1019 Hz. [spe
 > 3.0 × 108 = 2.8 × 1019 × wavelength
 > wavelength = speed / frequency
 > (wavelength =) 1.1 × 10-11 (m) allow 1.07… × 10-11 (m)
-> (d) B;
-> A is incorrect because it shows an exponential relationship
-> C is incorrect because it shows a proportional relationship
-> D is incorrect because it shows no relationship
-> Answer Notes Marks
 
 - **(3)** substitution;
 
 ### 2(d) [1]
 
 X‑rays and gamma rays are electromagnetic waves. Which of these graphs is correct for waves travelling at a constant speed? frequency frequency 0 0 0 0 wavelength wavelength A B frequency frequency 0 0 0 0 wavelength wavelength C D
+
+
+**Mark scheme answer**
+
+> B;
+> A is incorrect because it shows an exponential relationship
+> C is incorrect because it shows a proportional relationship
+> D is incorrect because it shows no relationship
+> Answer Notes Marks
+
+- **(1)** B;
 
 
 ## Question 3 (8 marks)
@@ -138,12 +162,6 @@ Give a reason why the two magnets shown in the diagram will repel each other.
 **Mark scheme answer**
 
 > idea that like poles repel;
-> (b) it is made of plastic / idea that plastic is non-
-> magnetic;
-> (c) correct shape e.g. lines deviating away from both reject if any field lines touch
-> magnets; or cross except at pole
-> correct direction e.g. any arrows must face towards
-> poles;
 
 - **(1)** idea that like poles repel;
 
@@ -151,11 +169,29 @@ Give a reason why the two magnets shown in the diagram will repel each other.
 
 Give a reason why the top plate of the balance is not affected by the magnetic fields of the magnets.
 
+
+**Mark scheme answer**
+
+> it is made of plastic / idea that plastic is non-
+> magnetic;
+
+- **(1)** it is made of plastic / idea that plastic is non-
+
 ### 3(c) [2]
 
 Complete the diagram by drawing the shape and direction of the magnetic field pattern between the magnets.
 
 ![diagram — official paper figure (qp.pdf p.8) — shared with asset_3_a_diagram_stem](assets/asset_3_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> correct shape e.g. lines deviating away from both reject if any field lines touch
+> magnets; or cross except at pole
+> correct direction e.g. any arrows must face towards
+> poles;
+
+- **(2)** correct shape e.g. lines deviating away from both reject if any field lines touch
 
 ### 3(d)(i) [2]
 
@@ -201,16 +237,6 @@ Give a similarity and a difference for scalar quantities and vector quantities. 
 
 > both have magnitude;
 > (only) vectors have a direction;
-> (b) charge; if 4 circled,
-> 2 marks max.
-> power; if 5-6 circled,
-> 1 mark max.
-> temperature; no marks if all circled
-> (c) (resultant force =) 6 (N); ignore sign
-> (direction =) left; allow indication of same
-> direction as 8 (N) force
-> condone West
-> Answer Notes Marks
 
 - **(2)** both have magnitude;
 
@@ -218,11 +244,33 @@ Give a similarity and a difference for scalar quantities and vector quantities. 
 
 The box gives some physical quantities. Draw a circle around each physical quantity that is a scalar. acceleration charge force power temperature velocity weight
 
+
+**Mark scheme answer**
+
+> charge; if 4 circled,
+> 2 marks max.
+> power; if 5-6 circled,
+> 1 mark max.
+> temperature; no marks if all circled
+
+- **(3)** charge; if 4 circled,
+
 ### 4(c) [2]
 
 The diagram shows four forces acting on an object. Calculate the size and direction of the resultant force. 5N 8N 2N 5N resultant force = N direction =
 
 ![diagram — official paper figure (qp.pdf p.10)](assets/asset_4_c_diagram.png)
+
+
+**Mark scheme answer**
+
+> (resultant force =) 6 (N); ignore sign
+> (direction =) left; allow indication of same
+> direction as 8 (N) force
+> condone West
+> Answer Notes Marks
+
+- **(2)** (resultant force =) 6 (N); ignore sign
 
 
 ## Question 5 (12 marks)
@@ -239,7 +287,17 @@ The chart shows that the geothermal power station has an efficiency of 15%. Expl
 > idea that 15% of total energy; allow reverse argument e.g.
 > 85% of total energy is wasted
 > is transferred usefully;
-> (b) correct efficiency read from graph;
+
+- **(2)** idea that 15% of total energy; allow reverse argument e.g.
+
+### 5(b) [4]
+
+A small hydroelectric power station has a useful energy output of 6.0 kJ. Calculate the total energy input for this power station using information from the chart. total energy input = kJ
+
+
+**Mark scheme answer**
+
+> correct efficiency read from graph;
 > substitution into efficiency formula; allow ecf from incorrect
 > efficiency
 > rearrangement;
@@ -254,11 +312,7 @@ The chart shows that the geothermal power station has an efficiency of 15%. Expl
 > allow 6.6 or 6.6 recurring (kJ)
 > for 3 marks
 
-- **(2)** idea that 15% of total energy; allow reverse argument e.g.
-
-### 5(b) [4]
-
-A small hydroelectric power station has a useful energy output of 6.0 kJ. Calculate the total energy input for this power station using information from the chart. total energy input = kJ
+- **(4)** correct efficiency read from graph;
 
 ### 5(c)(i) [1]
 
@@ -303,19 +357,70 @@ Stars can be classified using their surface temperature. Complete Table 2 by giv
 
 ![table — official paper figure (qp.pdf p.14)](assets/asset_6_a_i_table.png)
 
+
+**Mark scheme answer**
+
+> ;;;
+> all four stars in the correct positions = 3 marks
+> any two stars in the correct positions = 2 marks
+> any 1 star in the correct position = 1 mark
+
+- **(3)** ;;;
+
 ### 6(a)(ii) [1]
 
 Name the star in Table 1 that does not follow a similar evolutionary path to the Sun.
 
 ![table — official paper figure (qp.pdf p.14) — shared with asset_6_a_table_stem](assets/asset_6_a_table_stem.png)
 
+
+**Mark scheme answer**
+
+> Antares (A);
+
+- **(1)** Antares (A);
+
 ### 6(b) [3]
 
 The life cycle of a star begins in a nebula. Describe how a main sequence star is formed from a nebula.
 
+
+**Mark scheme answer**
+
+> any three from:
+> MP1. nebula is (cold) cloud of dust/gas;
+> MP2. gravity causes cloud to collapse/eq;
+> MP3. temperature of cloud increases/eq;
+> MP4. creating a protostar;
+> MP5. idea that (main sequence star created when)
+> fusion starts;
+
+- **(3)** any three from:
+
 ### 6(c) [4]
 
 Describe how a main sequence star becomes a white dwarf.
+
+
+**Mark scheme answer**
+
+> any four from:
+> MP1. idea that hydrogen fusion stops (in core); condone idea of hydrogen
+> runs out
+> MP2. core collapses; allow star collapses
+> MP3. core temperature of star increases;
+> MP4. (star expands to) become a red (super)
+> giant;
+> MP5. surface temperature of star decreases
+> (during red giant phase)
+> MP6. helium fusion begins;
+> MP7. white dwarf formed when helium fusion
+> stops (in core);
+> MP8. idea of rest of star released (as a planetary
+> nebula);
+> Answer Notes Marks
+
+- **(4)** any four from:
 
 
 ## Question 7 (8 marks)
@@ -347,16 +452,22 @@ Describe an experiment to determine the refractive index of a glass block. In yo
 > allow simple use of
 > MP8. graph of sin(i) and sin(r) with n found from n=sin(i)/sin(r)
 > gradient
-> (b) optical fibres;
-> named prismatic use e.g. cats eye reflector,
-> binoculars, periscope etc;
-> Answer Notes Marks
 
 - **(6)** any five from MP1-MP7: allow marking points from
 
 ### 7(b) [2]
 
 Give two uses of total internal reflection. 1 2
+
+
+**Mark scheme answer**
+
+> optical fibres;
+> named prismatic use e.g. cats eye reflector,
+> binoculars, periscope etc;
+> Answer Notes Marks
+
+- **(2)** optical fibres;
 
 
 ## Question 8 (9 marks)
@@ -368,11 +479,43 @@ Give two uses of total internal reflection. 1 2
 
 Name the wave behaviour that causes the sound waves to change direction when they reach the fish.
 
+
+**Mark scheme answer**
+
+> reflection;
+
+- **(1)** reflection;
+
 ### 8(a)(ii) [4]
 
 The table gives some data about the sound waves used. frequency of sound waves 4.0 MHz speed of sound waves in water 1500 m/s time between emission and detection of sound waves 43 ms Calculate the distance between the sound wave emitter and the fish. distance = m
 
 ![table — official paper figure (qp.pdf p.18)](assets/asset_8_a_ii_table.png)
+
+
+**Mark scheme answer**
+
+> substitution into speed = distance / time; ignore units
+> condone incorrect conversion
+> of time from 43 ms i.e. 43,
+> 43/60, 43 × 1000, 43 × 60
+> rearrangement;
+> evaluation of correct total distance;
+> halved to find distance to fish; accept wherever applied i.e.
+> to the time or to the distance
+> travelled.
+> e.g.
+> 1500 = distance / 0.043
+> distance = speed × time
+> (distance =) 64.5
+> (distance = 64.5 ÷ 2) = 32 (m)
+> 64.5, 65 = 3 marks (no
+> halving)
+> 32250 etc = 3 marks (POT)
+> 64500 etc = 2 marks (POT and
+> no halving)
+
+- **(4)** substitution into speed = distance / time; ignore units
 
 ### 8(b)(i) [1]
 
@@ -526,13 +669,56 @@ A student does an experiment to determine the acceleration due to gravity, g. Th
 
 Show that the acceleration of the steel ball is approximately 9.6 m/s2 . acceleration = m/s2
 
+
+**Mark scheme answer**
+
+> substitution into a = ∆v / t;
+> evaluation to 3 or more s.f.;
+> e.g.
+> acceleration = (4.20 – 1.45) / 0.286
+> (acceleration =) 9.62 (m/s2)
+
+- **(2)** substitution into a = ∆v / t;
+
 ### 10(a)(ii) [2]
 
 Explain why the student’s value for the acceleration of the steel ball is lower than the accepted value for the acceleration due to gravity, g.
 
+
+**Mark scheme answer**
+
+> idea that air resistance / friction also acts on ball; allow drag
+> which opposes the ball’s weight; allow idea that frictional force
+> is upwards whilst weight is
+> downwards
+> allow idea that resultant force
+> is less that weight
+> ignore idea of reaction time /
+> other human errors
+
+- **(2)** idea that air resistance / friction also acts on ball; allow drag
+
 ### 10(a)(iii) [3]
 
 Calculate the distance between the light gates. distance = m
+
+
+**Mark scheme answer**
+
+> substitution into v2 = u2 + 2×a×s; allow use of a=9.6, 9.8, 9.81 or
+> rearrangement;
+> evaluation;
+> reject ‘change in speed ×
+> time’ giving 0.78(65) as
+> incorrect physics
+> allow answers using correct
+> average velocity.
+> e.g.
+> 4.202 = 1.452 + (2 × 9.6 × s)
+> s = (v2 - u2) / 2a
+> (s =) 0.809 (m) allow range 0.78-0.81 (m)
+
+- **(3)** substitution into v2 = u2 + 2×a×s; allow use of a=9.6, 9.8, 9.81 or
 
 ### 10(b)(i) [2]
 
@@ -671,7 +857,17 @@ Give a reason why there is a net transfer of energy from the outside of the box 
 > greater than the temperature inside the box;
 > e.g. “it is hotter outside the
 > box than inside the box”
-> (b) any two from:
+
+- **(1)** idea that the temperature outside the box is however described
+
+### 12(b) [2]
+
+Explain how the box is designed to reduce energy transfer by conduction.
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. air / cardboard is a poor conductor / (good) ignore idea of trapped air
 > insulator;
 > condone idea of ‘non-
@@ -681,13 +877,33 @@ Give a reason why there is a net transfer of energy from the outside of the box 
 > each other rarely;
 > MP4. idea that thicker objects (of the same
 > material) conduct slower;
-> (c) idea that air (particles) cannot move around; e.g. air cannot flow or air
+
+- **(2)** any two from:
+
+### 12(c) [2]
+
+Explain how the box is designed to reduce energy transfer by convection.
+
+
+**Mark scheme answer**
+
+> idea that air (particles) cannot move around; e.g. air cannot flow or air
 > trapped
 > lid stops or reduces convection currents forming;
 > accept idea that box is a solid
 > and convection is impossible
 > in solids for 1 mark
-> (d) white / silver ;
+
+- **(2)** idea that air (particles) cannot move around; e.g. air cannot flow or air
+
+### 12(d) [2]
+
+A student suggests that painting the inner surfaces of the box a different colour would help to reduce the rate of energy transfer to the cold food. Explain which colour the inner surfaces of the box should be painted.
+
+
+**Mark scheme answer**
+
+> white / silver ;
 > (because) these are poor emitters of infrared / accept ‘radiators’ for
 > radiation; emitters
 > ignore references to
@@ -695,17 +911,5 @@ Give a reason why there is a net transfer of energy from the outside of the box 
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(1)** idea that the temperature outside the box is however described
-
-### 12(b) [2]
-
-Explain how the box is designed to reduce energy transfer by conduction.
-
-### 12(c) [2]
-
-Explain how the box is designed to reduce energy transfer by convection.
-
-### 12(d) [2]
-
-A student suggests that painting the inner surfaces of the box a different colour would help to reduce the rate of energy transfer to the cold food. Explain which colour the inner surfaces of the box should be painted.
+- **(2)** white / silver ;
 

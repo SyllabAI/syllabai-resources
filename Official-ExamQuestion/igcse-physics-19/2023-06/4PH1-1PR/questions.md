@@ -95,11 +95,6 @@ The ISS orbits the Earth in a circular orbit. Which of these also orbits the Ear
 > B is incorrect because Mars orbits the Sun
 > D is incorrect because the Sun orbits in the Milky
 > Way galaxy
-> (b) D (gravitational);
-> A is incorrect because there is no air in space;
-> B is incorrect because the ISS is not charged;
-> C is incorrect because friction would act in the
-> opposite direction to motion, not towards Earth
 
 - **(1)** Answer C: the Moon
 
@@ -110,7 +105,18 @@ Which of these forces causes the ISS to orbit the Earth?
 - **(A)** air resistance
 - **(B)** electrostatic
 - **(C)** friction
-- **(D)** gravitational
+- **(D)** gravitational  ✔
+
+
+**Mark scheme answer**
+
+> D (gravitational);
+> A is incorrect because there is no air in space;
+> B is incorrect because the ISS is not charged;
+> C is incorrect because friction would act in the
+> opposite direction to motion, not towards Earth
+
+- **(1)** Answer D: gravitational
 
 ### 2(c)(i) [3]
 
@@ -170,19 +176,74 @@ A model electric motor is used to lift a load through a vertical height. power s
 
 State the formula linking gravitational potential energy, mass, gravitational field strength (g) and height.
 
+
+**Mark scheme answer**
+
+> GPE = mass × g × height; allow standard symbols
+> and rearrangements e.g.
+> h = GPE / m×g
+> ignore ‘gravity’ for g
+
+- **(1)** GPE = mass × g × height; allow standard symbols
+
 ### 3(a)(ii) [3]
 
 Calculate the height the load is lifted. height = m
 
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement; in either order
+> evaluation; -1 for POT error due to not
+> converting g to kg but not
+> if due to physics error such
+> as missing g
+> accept use of g = 9.8(1)
+> e.g. accept 1sf answer i.e. 0.8
+> (m)
+> 3.2 = 0.40 × 10 × h
+> h = 3.2 / 0.40 × 10
+> (h =) 0.80 (m) 0.815 or 0.816 or 0.82 if g
+> used is 9.8(1) and then
+> rounded
+
+- **(3)** substitution;
+
 ### 3(a)(iii) [1]
 
 State the amount of useful work done on the load by the motor when the load is lifted through this height. work done = J
+
+
+**Mark scheme answer**
+
+> 3.2 (J); this answer only
+
+- **(1)** 3.2 (J); this answer only
 
 ### 3(b) [2]
 
 The load is lifted at a constant speed. Diagram 1 shows the lifting force acting on the load as it is lifted. Draw a labelled arrow on diagram 1 to show the other force acting on the load. Ignore the effects of air resistance. lifting force load Diagram 1
 
 ![diagram — official paper figure (qp.pdf p.10)](assets/asset_3_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> downward arrow labelled “weight”/”W”/”mg”; ignore starting position of
+> arrow
+> ignore
+> ‘gravity/g/gravitational
+> field strength’
+> allow ‘gravitational force’
+> reject if both gravity force
+> and weight force shown
+> vertically downward arrow drawn equal in length to mark independently
+> lifting force arrow; by eye
+> reject any other labelled
+> arrows for second mark
+
+- **(2)** downward arrow labelled “weight”/”W”/”mg”; ignore starting position of
 
 ### 3(c)(i) [3]
 
@@ -262,7 +323,19 @@ Which of these substances is not attracted to a bar magnet?
 > A is incorrect because it is magnetic
 > C is incorrect because it is magnetic
 > D is incorrect because it is magnetic
-> (b) field line connecting one pole to the other; allow small gap where
+
+- **(1)** Answer B: copper
+
+### 4(b) [3]
+
+Diagram 1 shows a bar magnet. NS Diagram 1 Draw magnetic field lines on diagram 1 to show the shape and direction of the magnetic field around the bar magnet.
+
+![diagram — official paper figure (qp.pdf p.13) — shared with asset_4_b_diagram_stem](assets/asset_4_b_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> field line connecting one pole to the other; allow small gap where
 > field line joins magnet
 > ignore field lines inside
 > the magnet
@@ -275,24 +348,24 @@ Which of these substances is not attracted to a bar magnet?
 > negates the mark
 > ignore arrow(s) inside
 > the magnet
-> (c) steel is magnetic / eq;
+
+- **(3)** field line connecting one pole to the other; allow small gap where
+
+### 4(c) [2]
+
+Some bar magnets are made of steel. Explain why steel is a good material for making bar magnets.
+
+
+**Mark scheme answer**
+
+> steel is magnetic / eq;
 > (therefore) magnet stays magnetised (for a long period allow ‘steel is a hard
 > of time) /eq ; magnetic material’ for
 > both marks
 > reject reference to
 > charge
 
-- **(1)** Answer B: copper
-
-### 4(b) [3]
-
-Diagram 1 shows a bar magnet. NS Diagram 1 Draw magnetic field lines on diagram 1 to show the shape and direction of the magnetic field around the bar magnet.
-
-![diagram — official paper figure (qp.pdf p.13) — shared with asset_4_b_diagram_stem](assets/asset_4_b_diagram_stem.png)
-
-### 4(c) [2]
-
-Some bar magnets are made of steel. Explain why steel is a good material for making bar magnets.
+- **(2)** steel is magnetic / eq;
 
 ### 4(d)(i) [2]
 
@@ -328,7 +401,22 @@ State two changes that could be made that would decrease the magnitude of the fo
 > wire (in circuit)
 > MP6 decrease voltage (of supply)
 > Answer Notes Marks
-> 5 at least one from:
+
+- **(2)** Any two from:
+
+
+## Question 5 (6 marks)
+
+A car is travelling in a straight line along a road. The car passes a person standing at the side of the road. Before passing the person, the driver of the car presses the car’s horn. The horn makes a loud sound of constant frequency. The horn continues to make a sound until after the car has passed the person. Discuss the differences in the frequencies of the sound heard by • the driver of the car • the person at the side of the road
+
+### 5 [6]
+
+A car is travelling in a straight line along a road. The car passes a person standing at the side of the road. Before passing the person, the driver of the car presses the car’s horn. The horn makes a loud sound of constant frequency. The horn continues to make a sound until after the car has passed the person. Discuss the differences in the frequencies of the sound heard by • the driver of the car • the person at the side of the road
+
+
+**Mark scheme answer**
+
+> at least one from:
 > in relation to driver:
 > MP1. (frequency) does not change; allow pitch does not
 > change
@@ -355,16 +443,7 @@ State two changes that could be made that would decrease the magnitude of the fo
 > formula
 > Answer Notes Marks
 
-- **(2)** Any two from:
-
-
-## Question 5 (6 marks)
-
-A car is travelling in a straight line along a road. The car passes a person standing at the side of the road. Before passing the person, the driver of the car presses the car’s horn. The horn makes a loud sound of constant frequency. The horn continues to make a sound until after the car has passed the person. Discuss the differences in the frequencies of the sound heard by • the driver of the car • the person at the side of the road
-
-### 5 [6]
-
-A car is travelling in a straight line along a road. The car passes a person standing at the side of the road. Before passing the person, the driver of the car presses the car’s horn. The horn makes a loud sound of constant frequency. The horn continues to make a sound until after the car has passed the person. Discuss the differences in the frequencies of the sound heard by • the driver of the car • the person at the side of the road
+- **(6)** at least one from:
 
 
 ## Question 6 (14 marks)
@@ -395,7 +474,17 @@ The student has access to this equipment • 12 V battery • ammeter and voltme
 > accept higher level
 > answers involving
 > potential divider circuits
-> (b) any four from:
+
+- **(4)** resistor, battery, voltmeter, ammeter all present in a all four symbols drawn
+
+### 6(b) [4]
+
+Describe a suitable method the student could use for this investigation.
+
+
+**Mark scheme answer**
+
+> any four from:
 > MP1. measure voltage and current;
 > MP2. idea of varying voltage (across resistor); e.g. by altering the
 > resistance of the variable
@@ -409,11 +498,7 @@ The student has access to this equipment • 12 V battery • ammeter and voltme
 > ignore references to
 > graph
 
-- **(4)** resistor, battery, voltmeter, ammeter all present in a all four symbols drawn
-
-### 6(b) [4]
-
-Describe a suitable method the student could use for this investigation.
+- **(4)** any four from:
 
 ### 6(c)(i) [3]
 
@@ -462,11 +547,22 @@ Protactinium is an element with several different radioactive isotopes.
 
 **(a)** Protactinium‑234 has a half‑life of 6.7 hours. A sample of protactinium‑234 has an initial activity of 800 units.
 
-**(b)** A student suggests an experiment to determine the type of radiation emitted by a different isotope of protactinium, protactinium‑231. This is the suggested method. Step 1 connect a suitable radiation detector to a radiation counter Step 2 place a source of protactinium‑231 at a fixed distance of 3 cm from the radiation detector Step 3 record the count of detected radiation for a time of one minute Step 4 place a sheet of paper between the source and detector Step 5 record the count of detected radiation for a time of one minute Step 6 repeat Steps 4 and 5 using a sheet of aluminium and then a sheet of lead instead of the sheet of paper The table shows the results of the investigation when it is done by a teacher. Material between source and detector Count no material 261 paper 14 aluminium 11 lead 13
+**(b)** A student suggests an experiment to determine the type of radiation emitted by a different isotope of protactinium, protactinium‑231. This is the suggested method. Step 1 connect a suitable radiation detector to a radiation counter Step 2 place a source of protactinium‑231 at a fixed distance of 3 cm from the radiation detector Step 3 record the count of detected radiation for a time of one minute Step 4 place a sheet of paper between the source and detector Step 5 record the count of detected radiation for a time of one minute Step 6 repeat Steps 4 and 5 using a sheet of aluminium and then a sheet of lead instead of the sheet of paper The table shows the results of the investigation when it is done by a teacher. Material between source and detector Count no material 261 paper 14 aluminium 11 lead 13
 
 ### 7(a)(i) [1]
 
 Give a suitable unit for activity.
+
+
+**Mark scheme answer**
+
+> becquerel(s); allow kilobecquerels, Bq,
+> kBq, curie, Ci
+> allow recognisable
+> spelling
+> allow mixed case letters
+
+- **(1)** becquerel(s); allow kilobecquerels, Bq,
 
 ### 7(a)(ii) [3]
 
@@ -474,11 +570,30 @@ On the axes below, sketch a graph for the decay of the sample of protactinium‑
 
 ![graph — official paper figure (qp.pdf p.19)](assets/asset_7_a_ii_graph.png)
 
+
+**Mark scheme answer**
+
+> 3
+> evidence that sketch starts at (0,800) accept plotted point
+> evidence sketch passes through (6.7,400) accept plotted point
+> smooth curve decreases with decreasing steepness
+
+- **(3)** 3
+
 ### 7(a)(iii) [2]
 
 When protactinium‑234 undergoes beta ( β –) decay it becomes uranium‑234. The incomplete nuclear equation shows this process. 234 234 Pa 92 U + β Complete the nuclear equation to show the beta decay of protactinium‑234. Write your answers in the dashed boxes.
 
 > 🖼 crop required: boxes (qp.pdf p.19)
+
+
+**Mark scheme answer**
+
+> both numbers for beta correct;
+> atomic number of protactinium = 91;
+> e.g.
+
+- **(2)** both numbers for beta correct;
 
 ### 7(b)(i) [1]
 
@@ -565,9 +680,24 @@ Diagram 1 shows a set of masses attached to a spring, which is suspended from a 
 
 Calculate the original length of the spring. original length = cm
 
+
+**Mark scheme answer**
+
+> 3.1 (cm);
+
+- **(1)** 3.1 (cm);
+
 ### 8(a)(ii) [1]
 
 The student removes the masses and notices that the spring does not show elastic behaviour. Predict a value for the new length of the spring after the masses have been removed. new length of spring = cm
+
+
+**Mark scheme answer**
+
+> any value above candidate’s answer for (a)(i) up to
+> and including 14.6cm;
+
+- **(1)** any value above candidate’s answer for (a)(i) up to
 
 ### 8(b)(i) [3]
 
@@ -620,17 +750,85 @@ The driver of a racing car makes a pit stop during a race to change the tyres on
 
 The mass of the racing car is 830 kg. The maximum braking force is 41 000 N. Show that the maximum deceleration of the racing car is approximately 50 m / s2.
 
+
+**Mark scheme answer**
+
+> recall of (unbalanced) force = mass × acceleration; allow symbols
+> can be implied from
+> valid substitution of
+> data
+> substitution and rearrangement;
+> evaluation to 2 s.f. or more;
+> e.g.
+> F=m×a
+> a = 41000 / 830
+> a = 49 (m/s2) allow 49.39…
+
+- **(3)** recall of (unbalanced) force = mass × acceleration; allow symbols
+
 ### 9(a)(ii) [3]
 
 The racing car is travelling at an initial speed of 72 m / s. Calculate the minimum distance needed to decrease the speed of the racing car from 72 m / s to 26 m / s. distance = m
+
+
+**Mark scheme answer**
+
+> substitution into v2 = u2 + 2as; allow ecf from (i)
+> rearrangement;
+> evaluation;
+> e.g.
+> 262 = 722 + 2×(-50)×s
+> (distance =) 5184-676 / 100
+> (distance =) 45 (m) expect answers in range
+> 45-46 (m)
+> reject 72-26 = 46
+> (wrong physics)
+> accept 46 if unqualified
+
+- **(3)** substitution into v2 = u2 + 2as; allow ecf from (i)
 
 ### 9(b) [3]
 
 The racing car slows down using its brakes. The brakes work using friction. The brakes become very hot when the racing car slows down. Using ideas about energy, explain why the brakes become hot.
 
+
+**Mark scheme answer**
+
+> kinetic energy (store) of car decreases; kinetic energy/ KE of
+> car
+> thermal energy (store) of brake(s) increases; transforms to
+> {heat/thermal} energy
+> of brakes
+> energy transferred mechanically; due to work done by
+> {friction / brakes}
+> NB only award from
+> either the answer
+> column or notes
+> column, not from a mix
+> of the two.
+
+- **(3)** kinetic energy (store) of car decreases; kinetic energy/ KE of
+
 ### 9(c) [2]
 
 The tyres of the racing car also get very hot during a race. A mechanic has to handle the hot tyres during the pit stop. They wear protective gloves which have several layers of insulating materials. Explain how the layers of insulating materials in the gloves reduce the risk of the mechanic burning their hands on the hot tyres.
+
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. idea that insulating materials are poor
+> conductors;
+> MP2. layers trap air;
+> MP3. air itself is a poor conductor/(good)
+> insulator
+> MP4. (energy transfer due to / rate of) condone idea of
+> conduction reduces; stopping conduction
+> MP5. idea increased thickness reduces (rate of)
+> conduction
+> Answer Notes Marks
+
+- **(2)** any two from:
 
 
 ## Question 10 (11 marks)
@@ -645,9 +843,48 @@ A dam is a structure designed to hold water in a reservoir. dam water in a reser
 
 State the formula linking pressure difference, height, density and g.
 
+
+**Mark scheme answer**
+
+> pressure difference = height × density × g; allow in words or standard
+> symbols
+> e.g. p = h × ρ × g
+> condone d for density
+
+- **(1)** pressure difference = height × density × g; allow in words or standard
+
 ### 10(a)(ii) [3]
 
 Atmospheric pressure at the surface of the reservoir is 100 kPa. Calculate the total pressure at the bottom of the reservoir. [for water, density = 1000 kg / m3] pressure = kPa
+
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation of pressure difference in kPa; allow 343 (kPa) for use of
+> g=9.8 N/kg
+> evaluation of total pressure by adding 100 (kPa); ECF candidate’s water
+> pressure
+> allow 443 (kPa) for use of
+> g=9.8(1) N/kg
+> allow 450 000 Pa with clear
+> intent from candidate i.e.
+> removal of ‘k’ from unit on
+> answer line.
+> -1 for POT error but not if
+> due to physics error such as
+> missing g, substitution of
+> 100 (kPa) for g
+> e.g.
+> (pressure difference =) 35 × 1000 × 10
+> (pressure difference =) 350 (kPa)
+> (pressure = 350 + 100 =) 450 (kPa)
+> 350 kPa gets 2 marks
+> 350 100 kPa gets 2 marks
+> unqualified 350 000 (kPa)
+> gets 1 mark
+
+- **(3)** substitution;
 
 ### 10(b)(i) [1]
 
@@ -682,16 +919,22 @@ Calculate the area of the camera lens. Give a suitable unit. area = unit
 > m2 allow 17, 16.5… (cm2) etc
 > allow 1.65... m2 scores 3
 > allow 1.65...cm2 scores 2
-> (c) pressure (at bottom) is greater than before / eq;
-> wider base /eq; allow stronger material/eq
-> ignore taller
-> Answer Notes Marks
 
 - **(4)** substitution; condone pressure in Pa or
 
 ### 10(c) [2]
 
 Sea water has a density of 1030 kg / m3. Explain how the design of the dam would need to be changed to hold the same depth of sea water safely.
+
+
+**Mark scheme answer**
+
+> pressure (at bottom) is greater than before / eq;
+> wider base /eq; allow stronger material/eq
+> ignore taller
+> Answer Notes Marks
+
+- **(2)** pressure (at bottom) is greater than before / eq;
 
 
 ## Question 11 (7 marks)
@@ -715,7 +958,17 @@ A student finds this formula in a textbook, which links distance from the centre
 > e.g. calculated value of constant doesn’t change
 > (much) so formula is justified
 > constant decreases so formula isn’t justified
-> (b) rearrangement of given formula;
+
+- **(4)** substitution into given formula;
+
+### 11(b) [3]
+
+Olympus Mons is the tallest mountain on Mars. The distance between the centre of Mars and the peak of Olympus Mons is 3410 km. Calculate the gravitational field strength at the peak of Olympus Mons. gravitational field strength = N / kg
+
+
+**Mark scheme answer**
+
+> rearrangement of given formula;
 > substitution of constant and distance; allow ecf from (a)
 > allow mean constant
 > evaluation; condone 3.7
@@ -728,9 +981,5 @@ A student finds this formula in a textbook, which links distance from the centre
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(4)** substitution into given formula;
-
-### 11(b) [3]
-
-Olympus Mons is the tallest mountain on Mars. The distance between the centre of Mars and the peak of Olympus Mons is 3410 km. Calculate the gravitational field strength at the peak of Olympus Mons. gravitational field strength = N / kg
+- **(3)** rearrangement of given formula;
 

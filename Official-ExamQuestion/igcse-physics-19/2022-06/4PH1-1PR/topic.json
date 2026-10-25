@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:11Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2022-06 paper=1PR",
+ "generated_utc": "2026-10-25T22:06:36Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2022-06 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-06:4PH1/1PR",
  "source": {
   "qp_sha256": "83f74e40760af826e74f9c6184cf79e2329da9a84aafe1c191794579a90869d5",
@@ -55,7 +55,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "D – a star;\nA and C cannot be correct because satellites orbit\nplanets\nB cannot be correct because comets orbit stars\n(b) D – universe;\nA cannot be correct because there are billions of\ngalaxies in the Universe\nB and C cannot be correct because there are\nbillions of stars and their solar systems in each\ngalaxy\n(c) B – moon;\nA cannot be correct as there are billions of stars\nand their solar systems in each galaxy\nC cannot be correct because moons orbit planets\nand those planets orbit stars\nD cannot be correct because a solar system\nincludes stars planets and moons\n(d) Earth has a larger mass than the Moon; accept reverse\nargument\nallow Earth has a larger\ndensity\ncondone referring to\nMoon as a planet\ncondone idea of\ndifferent mass\nignore reference to size\n(Total for Question 1 = 4 marks)\nAnswer Notes Marks",
+     "solution_md": "D – a star;\nA and C cannot be correct because satellites orbit\nplanets\nB cannot be correct because comets orbit stars",
      "mark_points": [
       {
        "id": "2022-06-1-a-MP1",
@@ -82,29 +82,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "a galaxy"
+       "text_md": "a galaxy",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "the Solar System"
+       "text_md": "the Solar System",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "the Sun"
+       "text_md": "the Sun",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "the universe"
+       "text_md": "the universe",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D – universe;\nA cannot be correct because there are billions of\ngalaxies in the Universe\nB and C cannot be correct because there are\nbillions of stars and their solar systems in each\ngalaxy",
+     "mark_points": [
+      {
+       "id": "2022-06-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer D: the universe"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -117,29 +129,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "a galaxy"
+       "text_md": "a galaxy",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "the Moon"
+       "text_md": "the Moon",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "a star"
+       "text_md": "a star",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "the Solar System"
+       "text_md": "the Solar System",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B – moon;\nA cannot be correct as there are billions of stars\nand their solar systems in each galaxy\nC cannot be correct because moons orbit planets\nand those planets orbit stars\nD cannot be correct because a solar system\nincludes stars planets and moons",
+     "mark_points": [
+      {
+       "id": "2022-06-1-c-MP1",
+       "marks": 1,
+       "text_md": "Answer B: the Moon"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -150,7 +174,15 @@
      "question_type": "structured",
      "problem_md": "At the surface of the Earth, the gravitational field strength is 10 N/kg. At the surface of the Moon, the gravitational field strength is 1.7 N/kg. Give a reason for the difference in gravitational field strength.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Earth has a larger mass than the Moon; accept reverse\nargument\nallow Earth has a larger\ndensity\ncondone referring to\nMoon as a planet\ncondone idea of\ndifferent mass\nignore reference to size\n(Total for Question 1 = 4 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-1-d-MP1",
+       "marks": 1,
+       "text_md": "Earth has a larger mass than the Moon; accept reverse\nargument\nallow Earth has a larger\ndensity\ncondone referring to\nMoon as a planet\ncondone idea of\ndifferent mass\nignore reference to size\n(Total for Question 1 = 4 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
@@ -179,12 +211,12 @@
      "problem_md": "Draw a straight line from each electromagnetic wave to its correct use. One has been done for you. Electromagnetic wave Use detecting broken bones infrared inside the body detecting forged banknotes radio using fluorescent lamps ultraviolet television broadcasts x‑ray human vision visible light cooking food",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": ";;;;\n(b) skin burns; apply ‘list’ principle\nallow 'damage to\nskin cells'\n(c) reduce time of exposure/\nincrease distance from source/ apply ‘list’ principle\nintroduce more material between source and person;\ne.g.\nsuncream, clothing, sunglasses, staying indoors, stay behind\nglass windows, only stay outside for 20 minutes without sun\nprotection\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks",
+     "solution_md": ";;;;",
      "mark_points": [
       {
        "id": "2022-06-2-a-MP1",
        "marks": 4,
-       "text_md": ";;;;\n(b) skin burns; apply ‘list’ principle\nallow 'damage to\nskin cells'\n(c) reduce time of exposure/\nincrease distance from source/ apply ‘list’ principle\nintroduce more material between source and person;\ne.g.\nsuncream, clothing, sunglasses, staying indoors, stay behind\nglass windows, only stay outside for 20 minutes without sun\nprotection\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks"
+       "text_md": ";;;;"
       }
      ],
      "source_page": 4,
@@ -204,7 +236,15 @@
      "question_type": "structured",
      "problem_md": "State a hazard to humans of excessive exposure to infrared waves.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "skin burns; apply ‘list’ principle\nallow 'damage to\nskin cells'",
+     "mark_points": [
+      {
+       "id": "2022-06-2-b-MP1",
+       "marks": 1,
+       "text_md": "skin burns; apply ‘list’ principle\nallow 'damage to\nskin cells'"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -222,7 +262,15 @@
      "question_type": "structured",
      "problem_md": "State a precaution that would reduce a person’s risk of exposure to ultraviolet waves.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "reduce time of exposure/\nincrease distance from source/ apply ‘list’ principle\nintroduce more material between source and person;\ne.g.\nsuncream, clothing, sunglasses, staying indoors, stay behind\nglass windows, only stay outside for 20 minutes without sun\nprotection\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-2-c-MP1",
+       "marks": 1,
+       "text_md": "reduce time of exposure/\nincrease distance from source/ apply ‘list’ principle\nintroduce more material between source and person;\ne.g.\nsuncream, clothing, sunglasses, staying indoors, stay behind\nglass windows, only stay outside for 20 minutes without sun\nprotection\n(Total for Question 2 = 6 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -250,7 +298,15 @@
      "question_type": "structured",
      "problem_md": "Add another component to the diagram to measure the voltage of component X.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "voltmeter in parallel with component X;",
+     "mark_points": [
+      {
+       "id": "2022-06-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "voltmeter in parallel with component X;"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
@@ -282,7 +338,15 @@
      "question_type": "structured",
      "problem_md": "Give the name of component X.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "light dependent resistor / LDR;",
+     "mark_points": [
+      {
+       "id": "2022-06-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "light dependent resistor / LDR;"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -577,12 +641,12 @@
      "problem_md": "Complete table 2 by giving the stars in order of increasing surface temperature. The hottest star, Rigel, has been done for you. Coolest Hottest Rigel Table 2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": ";;; 1 star in correct place\nscores 1 mark\nCoolest Hottest 2 stars in correct places\nscores 2 marks\nB A Sun Sirius Rigel 3 marks for all stars in\ncorrect places\naccept colours instead\nof names\ni.e.\nred, orange, yellow,\nwhite\ncondone a mix i.e.\nBetelgeuse, orange,\nyellow, Sirius\n(b) any THREE from\nMP1. red supergiant; allow super red giant\nMP2. supernova;\nMP3. neutron star;\nMP4. (or) black hole; 2 marks max for any\nincorrect order\nincluding incorrect\nstages e.g. dust/gas\ncloud or protostar\n(c) any pair of readings from the graph;\ncorrect substitution into formula to find constant; allow ECF for this mark\nalone\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are not the\ne.g. same so that the results\nwhen temp = 10 kK wavelength = 280 nm do not agree with the\n280 × 10 = 2800 conclusion\n140 × 20 = 2800\nconstants are the same so results agree with\nproposal\n(Total for Question 5 = 10 marks)\nAnswer Notes Marks",
+     "solution_md": ";;; 1 star in correct place\nscores 1 mark\nCoolest Hottest 2 stars in correct places\nscores 2 marks\nB A Sun Sirius Rigel 3 marks for all stars in\ncorrect places\naccept colours instead\nof names\ni.e.\nred, orange, yellow,\nwhite\ncondone a mix i.e.\nBetelgeuse, orange,\nyellow, Sirius",
      "mark_points": [
       {
        "id": "2022-06-5-a-MP1",
        "marks": 3,
-       "text_md": ";;; 1 star in correct place\nscores 1 mark\nCoolest Hottest 2 stars in correct places\nscores 2 marks\nB A Sun Sirius Rigel 3 marks for all stars in\ncorrect places\naccept colours instead\nof names\ni.e.\nred, orange, yellow,\nwhite\ncondone a mix i.e.\nBetelgeuse, orange,\nyellow, Sirius\n(b) any THREE from\nMP1. red supergiant; allow super red giant\nMP2. supernova;\nMP3. neutron star;\nMP4. (or) black hole; 2 marks max for any\nincorrect order\nincluding incorrect\nstages e.g. dust/gas\ncloud or protostar\n(c) any pair of readings from the graph;\ncorrect substitution into formula to find constant; allow ECF for this mark\nalone\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are not the\ne.g. same so that the results\nwhen temp = 10 kK wavelength = 280 nm do not agree with the\n280 × 10 = 2800 conclusion\n140 × 20 = 2800\nconstants are the same so results agree with\nproposal\n(Total for Question 5 = 10 marks)\nAnswer Notes Marks"
+       "text_md": ";;; 1 star in correct place\nscores 1 mark\nCoolest Hottest 2 stars in correct places\nscores 2 marks\nB A Sun Sirius Rigel 3 marks for all stars in\ncorrect places\naccept colours instead\nof names\ni.e.\nred, orange, yellow,\nwhite\ncondone a mix i.e.\nBetelgeuse, orange,\nyellow, Sirius"
       }
      ],
      "source_page": 10,
@@ -614,7 +678,15 @@
      "question_type": "structured",
      "problem_md": "A star has a much larger mass than the Sun. Describe the evolution of this star after it has left the main sequence.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any THREE from\nMP1. red supergiant; allow super red giant\nMP2. supernova;\nMP3. neutron star;\nMP4. (or) black hole; 2 marks max for any\nincorrect order\nincluding incorrect\nstages e.g. dust/gas\ncloud or protostar",
+     "mark_points": [
+      {
+       "id": "2022-06-5-b-MP1",
+       "marks": 3,
+       "text_md": "any THREE from\nMP1. red supergiant; allow super red giant\nMP2. supernova;\nMP3. neutron star;\nMP4. (or) black hole; 2 marks max for any\nincorrect order\nincluding incorrect\nstages e.g. dust/gas\ncloud or protostar"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -632,7 +704,15 @@
      "question_type": "structured",
      "problem_md": "The graph shows the relationship between the peak wavelength of light emitted by a star and the surface temperature of the star. 1000 800 600 Peak wavelength in nm 400 200 0 5 10 15 20 Surface temperature in thousands of K A scientist suggests that the two variables are linked by this formula. peak wavelength × surface temperature = constant Use data from the graph to justify this formula.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any pair of readings from the graph;\ncorrect substitution into formula to find constant; allow ECF for this mark\nalone\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are not the\ne.g. same so that the results\nwhen temp = 10 kK wavelength = 280 nm do not agree with the\n280 × 10 = 2800 conclusion\n140 × 20 = 2800\nconstants are the same so results agree with\nproposal\n(Total for Question 5 = 10 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-5-c-MP1",
+       "marks": 4,
+       "text_md": "any pair of readings from the graph;\ncorrect substitution into formula to find constant; allow ECF for this mark\nalone\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are not the\ne.g. same so that the results\nwhen temp = 10 kK wavelength = 280 nm do not agree with the\n280 × 10 = 2800 conclusion\n140 × 20 = 2800\nconstants are the same so results agree with\nproposal\n(Total for Question 5 = 10 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [
       {
@@ -774,12 +854,12 @@
      "problem_md": "Draw a curve of best fit.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "attempt at fitting first two points and fitting rest of ecf candidate’s\npoints separately; plotting\nsingle curve with a peak within one large square of\nthird point; max 1 mark for straight\nline consistent with\ncandidate's plotting\n(c) any FOUR from:\nMP1. for diagram 4, cell voltage no longer shared; accept voltages in\nparallel are the same\naccept voltage is\nshared in diagram 3\nMP2. means current through each loudspeaker is\ndoubled;\nMP3. so current from supply is four times higher; accept idea of current\nfrom each branch adds\nto give total current in\ncell\nMP4. correct use of ‘R = V/I’;\nMP5. (so) total resistance is a quarter of that from accept higher order\nthe series case; answers in terms of\nseries and parallel\nequations\naccept calculation of\nboth circuit’s total\nresistance\n(Total for Question 6 = 15 marks)\nAnswer Notes Marks",
+     "solution_md": "attempt at fitting first two points and fitting rest of ecf candidate’s\npoints separately; plotting\nsingle curve with a peak within one large square of\nthird point; max 1 mark for straight\nline consistent with\ncandidate's plotting",
      "mark_points": [
       {
        "id": "2022-06-6-b-iii-MP1",
        "marks": 2,
-       "text_md": "attempt at fitting first two points and fitting rest of ecf candidate’s\npoints separately; plotting\nsingle curve with a peak within one large square of\nthird point; max 1 mark for straight\nline consistent with\ncandidate's plotting\n(c) any FOUR from:\nMP1. for diagram 4, cell voltage no longer shared; accept voltages in\nparallel are the same\naccept voltage is\nshared in diagram 3\nMP2. means current through each loudspeaker is\ndoubled;\nMP3. so current from supply is four times higher; accept idea of current\nfrom each branch adds\nto give total current in\ncell\nMP4. correct use of ‘R = V/I’;\nMP5. (so) total resistance is a quarter of that from accept higher order\nthe series case; answers in terms of\nseries and parallel\nequations\naccept calculation of\nboth circuit’s total\nresistance\n(Total for Question 6 = 15 marks)\nAnswer Notes Marks"
+       "text_md": "attempt at fitting first two points and fitting rest of ecf candidate’s\npoints separately; plotting\nsingle curve with a peak within one large square of\nthird point; max 1 mark for straight\nline consistent with\ncandidate's plotting"
       }
      ],
      "source_page": 14,
@@ -799,7 +879,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 3 shows the loudspeakers connected in series to a cell. Diagram 4 shows the loudspeakers connected in parallel to the same cell. 1.5 V 1.5 V 0.30 A 1.2 A Diagram 3 Diagram 4 Comment on how the total resistance of the loudspeakers in diagram 3 compares with the total resistance of the loudspeakers in diagram 4.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any FOUR from:\nMP1. for diagram 4, cell voltage no longer shared; accept voltages in\nparallel are the same\naccept voltage is\nshared in diagram 3\nMP2. means current through each loudspeaker is\ndoubled;\nMP3. so current from supply is four times higher; accept idea of current\nfrom each branch adds\nto give total current in\ncell\nMP4. correct use of ‘R = V/I’;\nMP5. (so) total resistance is a quarter of that from accept higher order\nthe series case; answers in terms of\nseries and parallel\nequations\naccept calculation of\nboth circuit’s total\nresistance\n(Total for Question 6 = 15 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-6-c-MP1",
+       "marks": 4,
+       "text_md": "any FOUR from:\nMP1. for diagram 4, cell voltage no longer shared; accept voltages in\nparallel are the same\naccept voltage is\nshared in diagram 3\nMP2. means current through each loudspeaker is\ndoubled;\nMP3. so current from supply is four times higher; accept idea of current\nfrom each branch adds\nto give total current in\ncell\nMP4. correct use of ‘R = V/I’;\nMP5. (so) total resistance is a quarter of that from accept higher order\nthe series case; answers in terms of\nseries and parallel\nequations\naccept calculation of\nboth circuit’s total\nresistance\n(Total for Question 6 = 15 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 15,
      "assets": [
       {
@@ -896,12 +984,12 @@
      "problem_md": "Use the graph to determine the half‑life of radon‑222. half‑life = days",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "evidence of graph used correctly; i.e. line drawn across\n3.8 (days); from 600 to curve and\ndown to time axis\nallow full marks for 3.8-\n3.85\n(c) 4 (for alpha nucleon number);\n2 (for alpha proton number);\n86 (for Rn proton number); ECF for incorrect alpha\nproton number then\nmultiplied by 3\n(d) any TWO from:\nMP1. idea of irradiation of internal organs; allow idea that there is\nno ‘dead skin’ layer for\nalphas to penetrate\nallow ‘damages tissue’\nor ‘damages cells/DNA’\nMP2. alphas are {highly/very/most} ionizing;\nMP3. causes mutations/cancer;\n(Total for Question 7 = 11 marks)\nAnswer Notes Marks",
+     "solution_md": "evidence of graph used correctly; i.e. line drawn across\n3.8 (days); from 600 to curve and\ndown to time axis\nallow full marks for 3.8-\n3.85",
      "mark_points": [
       {
        "id": "2022-06-7-b-ii-MP1",
        "marks": 2,
-       "text_md": "evidence of graph used correctly; i.e. line drawn across\n3.8 (days); from 600 to curve and\ndown to time axis\nallow full marks for 3.8-\n3.85\n(c) 4 (for alpha nucleon number);\n2 (for alpha proton number);\n86 (for Rn proton number); ECF for incorrect alpha\nproton number then\nmultiplied by 3\n(d) any TWO from:\nMP1. idea of irradiation of internal organs; allow idea that there is\nno ‘dead skin’ layer for\nalphas to penetrate\nallow ‘damages tissue’\nor ‘damages cells/DNA’\nMP2. alphas are {highly/very/most} ionizing;\nMP3. causes mutations/cancer;\n(Total for Question 7 = 11 marks)\nAnswer Notes Marks"
+       "text_md": "evidence of graph used correctly; i.e. line drawn across\n3.8 (days); from 600 to curve and\ndown to time axis\nallow full marks for 3.8-\n3.85"
       }
      ],
      "source_page": 17,
@@ -935,7 +1023,15 @@
      "question_type": "structured",
      "problem_md": "Radon‑222 is formed by multiple alpha decays of uranium‑234. Complete the nuclear equation by giving the missing information. 234 92 U → 222Rn + 3 α",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "4 (for alpha nucleon number);\n2 (for alpha proton number);\n86 (for Rn proton number); ECF for incorrect alpha\nproton number then\nmultiplied by 3",
+     "mark_points": [
+      {
+       "id": "2022-06-7-c-MP1",
+       "marks": 3,
+       "text_md": "4 (for alpha nucleon number);\n2 (for alpha proton number);\n86 (for Rn proton number); ECF for incorrect alpha\nproton number then\nmultiplied by 3"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -953,7 +1049,15 @@
      "question_type": "structured",
      "problem_md": "Radon‑222 also emits alpha radiation. Explain the hazard to humans of breathing in air contaminated with radon‑222.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any TWO from:\nMP1. idea of irradiation of internal organs; allow idea that there is\nno ‘dead skin’ layer for\nalphas to penetrate\nallow ‘damages tissue’\nor ‘damages cells/DNA’\nMP2. alphas are {highly/very/most} ionizing;\nMP3. causes mutations/cancer;\n(Total for Question 7 = 11 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-7-d-MP1",
+       "marks": 2,
+       "text_md": "any TWO from:\nMP1. idea of irradiation of internal organs; allow idea that there is\nno ‘dead skin’ layer for\nalphas to penetrate\nallow ‘damages tissue’\nor ‘damages cells/DNA’\nMP2. alphas are {highly/very/most} ionizing;\nMP3. causes mutations/cancer;\n(Total for Question 7 = 11 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -985,7 +1089,15 @@
      "question_type": "structured",
      "problem_md": "Describe how to determine the density of a hailstone. Assume that hailstones are spherical.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any FOUR from: condone reference to\nletting the ice melt\nMP1. measure mass;\nMP2. use (mass) balance; allow scales\nreject scale\nMP3. measure diameter;\nMP4. use ruler/callipers/micrometer;\nMP5. further experimental detail e.g. use set\nsquare against ruler/use callipers in different\norientations/fully submerged/avoid splashing;\nMP6. repeat readings and take average;\nMP7. use formula to find volume of a sphere e.g.\nV = 4/3 πr3 ;\nMP8. use density = mass ÷ volume; allow use of\ndisplacement method\nand measuring cylinder\nfor MP3, MP4, MP7",
+     "mark_points": [
+      {
+       "id": "2022-06-8-a-i-MP1",
+       "marks": 4,
+       "text_md": "any FOUR from: condone reference to\nletting the ice melt\nMP1. measure mass;\nMP2. use (mass) balance; allow scales\nreject scale\nMP3. measure diameter;\nMP4. use ruler/callipers/micrometer;\nMP5. further experimental detail e.g. use set\nsquare against ruler/use callipers in different\norientations/fully submerged/avoid splashing;\nMP6. repeat readings and take average;\nMP7. use formula to find volume of a sphere e.g.\nV = 4/3 πr3 ;\nMP8. use density = mass ÷ volume; allow use of\ndisplacement method\nand measuring cylinder\nfor MP3, MP4, MP7"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1003,7 +1115,15 @@
      "question_type": "structured",
      "problem_md": "The mean volume of a hailstone is 1.1 cm3. The mean mass of a hailstone is 0.94 g. Calculate the mean density of a hailstone. Give the unit. density = unit",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into equation density = mass ÷ volume; allow use of standard\nsymbols e.g. D = M ÷ V\naccept ρ for density\nevaluation; -1 for POT error\nunit i.e g/cm3; independently marked\naccept unit matching\ncalculation i.e. if mass\nconverted into kg\ncorrect answer = 0.85 g/cm3 accept 0.854 or 0.855\ne.g. density = mass ÷ volume\ndensity = 0.94 ÷ 1.1\ndensity = 0.8545…\ndensity = 0.85 g/cm3",
+     "mark_points": [
+      {
+       "id": "2022-06-8-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution into equation density = mass ÷ volume; allow use of standard\nsymbols e.g. D = M ÷ V\naccept ρ for density\nevaluation; -1 for POT error\nunit i.e g/cm3; independently marked\naccept unit matching\ncalculation i.e. if mass\nconverted into kg\ncorrect answer = 0.85 g/cm3 accept 0.854 or 0.855\ne.g. density = mass ÷ volume\ndensity = 0.94 ÷ 1.1\ndensity = 0.8545…\ndensity = 0.85 g/cm3"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1021,7 +1141,15 @@
      "question_type": "structured",
      "problem_md": "Hailstones can be lifted to the top of clouds. The diagram shows the movement of some hailstones in a cloud. cloud movement of hailstones warm ground Suggest how hailstones are lifted to the top of the cloud by convection.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any TWO from: allow ‘cloud’ for ‘air’\nMP1. warm air rises;\nMP2. warm air expands; allow air particles\nspread out\nreject ‘particles\nexpand’\nMP3. warm air is less dense than cold air;\nMP4. a convection current is formed;\n(Total for Question 8 = 9 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-8-b-MP1",
+       "marks": 2,
+       "text_md": "any TWO from: allow ‘cloud’ for ‘air’\nMP1. warm air rises;\nMP2. warm air expands; allow air particles\nspread out\nreject ‘particles\nexpand’\nMP3. warm air is less dense than cold air;\nMP4. a convection current is formed;\n(Total for Question 8 = 9 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
@@ -1062,12 +1190,12 @@
      "problem_md": "Describe how the air molecules in the container exert a pressure on its inner walls.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "molecules collide with walls; allow particles or\natoms\ncollisions provide force on walls;\nforce per unit area gives a pressure; formula alone is\ninsufficient\n(b) any TWO from:\nMP1. number of molecules in container decreases; allow particles or\nMP2. increase in temperature increases speed or atoms\nKE of molecules;\nMP3. molecules have a high enough speed or KE to\nescape;\n(c) any TWO from: accept RA throughout\nMP1. idea fewer collisions per unit time gives accept \"lower\nlower force; frequency of collisions\"\nignore collisions\nbetween molecules\nMP2. idea that each collision is less hard;\nMP3. (lower force per unit area gives) lower\npressure;\nMP4. pressure outside container is larger than allow force (from air\npressure in can; pressure) is lower\ninside than outside\nMP5. pressure difference causes a force;\n(Total for Question 9 = 7 marks)\nAnswer Notes Marks",
+     "solution_md": "molecules collide with walls; allow particles or\natoms\ncollisions provide force on walls;\nforce per unit area gives a pressure; formula alone is\ninsufficient",
      "mark_points": [
       {
        "id": "2022-06-9-a-MP1",
        "marks": 3,
-       "text_md": "molecules collide with walls; allow particles or\natoms\ncollisions provide force on walls;\nforce per unit area gives a pressure; formula alone is\ninsufficient\n(b) any TWO from:\nMP1. number of molecules in container decreases; allow particles or\nMP2. increase in temperature increases speed or atoms\nKE of molecules;\nMP3. molecules have a high enough speed or KE to\nescape;\n(c) any TWO from: accept RA throughout\nMP1. idea fewer collisions per unit time gives accept \"lower\nlower force; frequency of collisions\"\nignore collisions\nbetween molecules\nMP2. idea that each collision is less hard;\nMP3. (lower force per unit area gives) lower\npressure;\nMP4. pressure outside container is larger than allow force (from air\npressure in can; pressure) is lower\ninside than outside\nMP5. pressure difference causes a force;\n(Total for Question 9 = 7 marks)\nAnswer Notes Marks"
+       "text_md": "molecules collide with walls; allow particles or\natoms\ncollisions provide force on walls;\nforce per unit area gives a pressure; formula alone is\ninsufficient"
       }
      ],
      "source_page": 20,
@@ -1087,7 +1215,15 @@
      "question_type": "structured",
      "problem_md": "The container is heated for a long time. Explain what happens to the number of air molecules in the container.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any TWO from:\nMP1. number of molecules in container decreases; allow particles or\nMP2. increase in temperature increases speed or atoms\nKE of molecules;\nMP3. molecules have a high enough speed or KE to\nescape;",
+     "mark_points": [
+      {
+       "id": "2022-06-9-b-MP1",
+       "marks": 2,
+       "text_md": "any TWO from:\nMP1. number of molecules in container decreases; allow particles or\nMP2. increase in temperature increases speed or atoms\nKE of molecules;\nMP3. molecules have a high enough speed or KE to\nescape;"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -1105,7 +1241,15 @@
      "question_type": "structured",
      "problem_md": "A lid is placed on the hot container. The lid seals the hole and the container is allowed to cool. As the container cools, it collapses. container collapsed with lid container Explain why the container collapses.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any TWO from: accept RA throughout\nMP1. idea fewer collisions per unit time gives accept \"lower\nlower force; frequency of collisions\"\nignore collisions\nbetween molecules\nMP2. idea that each collision is less hard;\nMP3. (lower force per unit area gives) lower\npressure;\nMP4. pressure outside container is larger than allow force (from air\npressure in can; pressure) is lower\ninside than outside\nMP5. pressure difference causes a force;\n(Total for Question 9 = 7 marks)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-06-9-c-MP1",
+       "marks": 2,
+       "text_md": "any TWO from: accept RA throughout\nMP1. idea fewer collisions per unit time gives accept \"lower\nlower force; frequency of collisions\"\nignore collisions\nbetween molecules\nMP2. idea that each collision is less hard;\nMP3. (lower force per unit area gives) lower\npressure;\nMP4. pressure outside container is larger than allow force (from air\npressure in can; pressure) is lower\ninside than outside\nMP5. pressure difference causes a force;\n(Total for Question 9 = 7 marks)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1133,7 +1277,15 @@
      "question_type": "structured",
      "problem_md": "A voltage is induced in the copper rod as the trolley moves through the magnetic field. Explain why the sign of the voltmeter reading changes as the trolley moves backwards and forwards.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any THREE from: condone current for\ntrolley changes direction; voltage\ninduction depends on direction of relative motion; ignore idea induction\ndepending on speed\nidea that voltage has changed directon (as sign of\nvoltmeter reading depends on direction of\nvoltage);\nidea that at ends of motion, voltage is zero;",
+     "mark_points": [
+      {
+       "id": "2022-06-10-a-i-MP1",
+       "marks": 3,
+       "text_md": "any THREE from: condone current for\ntrolley changes direction; voltage\ninduction depends on direction of relative motion; ignore idea induction\ndepending on speed\nidea that voltage has changed directon (as sign of\nvoltmeter reading depends on direction of\nvoltage);\nidea that at ends of motion, voltage is zero;"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -1151,7 +1303,15 @@
      "question_type": "structured",
      "problem_md": "Give a reason why the magnitude of the induced voltage might change.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "speed may change/\nmagnetic field may not be uniform; accept idea that\nmagnetic field may\nchange\nallow idea of entering\nor leaving field",
+     "mark_points": [
+      {
+       "id": "2022-06-10-a-ii-MP1",
+       "marks": 1,
+       "text_md": "speed may change/\nmagnetic field may not be uniform; accept idea that\nmagnetic field may\nchange\nallow idea of entering\nor leaving field"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1238,7 +1398,15 @@
      "question_type": "structured",
      "problem_md": "Draw the normal at the point where the direction of travel of the waves meets the side of the boat.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "line drawn at 90 degrees to side of boat at point where ignore normal inside\ndirection of travel touches boat; boat",
+     "mark_points": [
+      {
+       "id": "2022-06-11-a-i-MP1",
+       "marks": 1,
+       "text_md": "line drawn at 90 degrees to side of boat at point where ignore normal inside\ndirection of travel touches boat; boat"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1256,7 +1424,15 @@
      "question_type": "structured",
      "problem_md": "Measure the angle of incidence of the water waves. angle of incidence = degrees",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "66 (degrees); accept in range 64-68\ndegrees",
+     "mark_points": [
+      {
+       "id": "2022-06-11-a-ii-MP1",
+       "marks": 1,
+       "text_md": "66 (degrees); accept in range 64-68\ndegrees"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1274,7 +1450,15 @@
      "question_type": "structured",
      "problem_md": "Complete the diagram to show the wavefronts after they reflect off the side of the boat.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "three wavefronts parallel and constant wavelength; by eye;\ncondone different\nwavelength to\nincident wavefronts\nto the right of the normal and above boat surface;\ncorrect angle of reflection; by eye;\nallow ‘reflected ray’\nif no other mark\nawarded",
+     "mark_points": [
+      {
+       "id": "2022-06-11-a-iii-MP1",
+       "marks": 3,
+       "text_md": "three wavefronts parallel and constant wavelength; by eye;\ncondone different\nwavelength to\nincident wavefronts\nto the right of the normal and above boat surface;\ncorrect angle of reflection; by eye;\nallow ‘reflected ray’\nif no other mark\nawarded"
+      }
+     ],
      "source_page": 24,
      "assets": [
       {

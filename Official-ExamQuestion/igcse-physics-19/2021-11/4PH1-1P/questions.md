@@ -23,8 +23,6 @@ The graphs, P, Q, R and S, show different types of motion. distance distance P Q
 > ✓
 > ✓
 > reject mark for row if more than one tick seen
-> (b) area (under the line) / eq;
-> Answer Notes Marks
 
 - **(4)** one mark for each correct row;;;;
 
@@ -33,6 +31,14 @@ The graphs, P, Q, R and S, show different types of motion. distance distance P Q
 State the feature of a velocity‑time graph that can be used to determine the distance travelled by an object.
 
 ![graph — official paper figure (qp.pdf p.4) — shared with 1(a)](assets/asset_1_a_graph.png)
+
+
+**Mark scheme answer**
+
+> area (under the line) / eq;
+> Answer Notes Marks
+
+- **(1)** area (under the line) / eq;
 
 
 ## Question 2 (8 marks)
@@ -51,14 +57,20 @@ State what is meant by the term electric current.
 > the rate of flow of charge/electrons; allow amount of charge per
 > second, amount of charge per
 > unit time
-> (b) electron(s); ignore words written in
-> addition to electron(s)
 
 - **(1)** the rate of flow of charge/electrons; allow amount of charge per
 
 ### 2(b) [1]
 
 Give the name of the particles that flow if there is an electric current in a wire.
+
+
+**Mark scheme answer**
+
+> electron(s); ignore words written in
+> addition to electron(s)
+
+- **(1)** electron(s); ignore words written in
 
 ### 2(c)(i) [1]
 
@@ -128,7 +140,17 @@ Shaking the torch causes the magnet to move up and down inside the coil of wire.
 > field lines of magnet are cut by coil; ignore references to the coil
 > having its own field
 > idea that voltage is induced across the coil; ignore references to current
-> (b) any two from:
+
+- **(3)** magnet moves through / near coil of wire; allow idea that magnet
+
+### 3(b) [2]
+
+Using a stronger magnet could increase the current in the coil of wire. State two other factors that could increase the current in the coil. 1 2
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. shaking torch harder / faster; allow moving coil/magnet
 > faster
 > MP2. increasing the number of turns on the coil; ignore “larger coil”
@@ -136,11 +158,7 @@ Shaking the torch causes the magnet to move up and down inside the coil of wire.
 > wire;
 > Answer Notes Marks
 
-- **(3)** magnet moves through / near coil of wire; allow idea that magnet
-
-### 3(b) [2]
-
-Using a stronger magnet could increase the current in the coil of wire. State two other factors that could increase the current in the coil. 1 2
+- **(2)** any two from:
 
 
 ## Question 4 (15 marks)
@@ -212,15 +230,45 @@ Estimate the time taken for the activity to decrease to of its initial value. 8 
 > 3 half-lives;
 > (3 × 5.6 =) 16.8 (years); allow 16.2-17.4 (years)
 > allow ecf from (iii)
-> (c) both have same number of protons;
+
+- **(2)** 3 half-lives;
+
+### 4(c) [2]
+
+Cobalt‑60 is produced when a neutron is absorbed by the nucleus of a stable atom of cobalt‑59. The nuclei of these two isotopes can be represented as 60 59 27 Co 27Co Describe a similarity and a difference for the nuclei of these two isotopes of cobalt.
+
+
+**Mark scheme answer**
+
+> both have same number of protons;
 > cobalt-60 has one more neutron; allow RA
 > ignore references to
 > atomic/mass numbers
-> (d) nucleus loses a neutron; “neutron becomes a proton”
+
+- **(2)** both have same number of protons;
+
+### 4(d) [2]
+
+Cobalt‑60 decays by beta emission. Describe what happens to the nucleus of a cobalt‑60 atom during beta decay.
+
+
+**Mark scheme answer**
+
+> nucleus loses a neutron; “neutron becomes a proton”
 > nucleus gains a proton; scores both marks
 > condone plurals e.g. neutrons,
 > protons
-> (e) any four from:
+
+- **(2)** nucleus loses a neutron; “neutron becomes a proton”
+
+### 4(e) [4]
+
+Cobalt‑60 also emits gamma radiation. Cobalt‑60 is produced in a nuclear reactor. Discuss the hazards involved and the precautions taken when disposing of cobalt‑60.
+
+
+**Mark scheme answer**
+
+> any four from:
 > Hazards (max. 2 marks)
 > MP1. radiation from them can cause cancer /
 > cell damage / damage to organisms /
@@ -243,19 +291,7 @@ Estimate the time taken for the activity to decrease to of its initial value. 8 
 > long-term storage is not necessary;
 > Answer Notes Marks
 
-- **(2)** 3 half-lives;
-
-### 4(c) [2]
-
-Cobalt‑60 is produced when a neutron is absorbed by the nucleus of a stable atom of cobalt‑59. The nuclei of these two isotopes can be represented as 60 59 27 Co 27Co Describe a similarity and a difference for the nuclei of these two isotopes of cobalt.
-
-### 4(d) [2]
-
-Cobalt‑60 decays by beta emission. Describe what happens to the nucleus of a cobalt‑60 atom during beta decay.
-
-### 4(e) [4]
-
-Cobalt‑60 also emits gamma radiation. Cobalt‑60 is produced in a nuclear reactor. Discuss the hazards involved and the precautions taken when disposing of cobalt‑60.
+- **(4)** any four from:
 
 
 ## Question 5 (7 marks)
@@ -283,13 +319,6 @@ What is improved by adjusting the balance to give a reading of zero before the o
 > assessed
 > D is incorrect because removing a zero error does nothing to improve the control of
 > other variables that may affect the measurement of mass
-> (b) C (reliability of the measurement);
-> A is incorrect because repeating a measurement does not make the measurement
-> closer to the true value
-> B is incorrect because repeating a measurement does not allow the measurement to
-> be made to more decimal places
-> D is incorrect because repeating a measurement does nothing to improve the
-> control of other variables that may affect the measurement of mass
 
 - **(1)** Answer A: accuracy of the measurement
 
@@ -299,8 +328,21 @@ What is improved by repeating the measurement?
 
 - **(A)** accuracy of the measurement
 - **(B)** precision of the measurement
-- **(C)** reliability of the measurement
+- **(C)** reliability of the measurement  ✔
 - **(D)** validity of the measurement
+
+
+**Mark scheme answer**
+
+> C (reliability of the measurement);
+> A is incorrect because repeating a measurement does not make the measurement
+> closer to the true value
+> B is incorrect because repeating a measurement does not allow the measurement to
+> be made to more decimal places
+> D is incorrect because repeating a measurement does nothing to improve the
+> control of other variables that may affect the measurement of mass
+
+- **(1)** Answer C: reliability of the measurement
 
 ### 5(c)(i) [1]
 
@@ -436,7 +478,19 @@ Calculate the refractive index of the glass block. refractive index =
 > e.g.
 > (n =) sin44 / sin26
 > (n =) 1.6 allow range 1.5-1.7
-> (c) idea that multiple angles (of incidence) measured;
+
+- **(2)** substitution; allow ecf from (iii)
+
+### 6(c) [3]
+
+A teacher suggests that a more accurate value for the refractive index can be found using a graphical method. Design a method to obtain a value for the refractive index of the glass block using a graph. You may draw a diagram to support your answer.
+
+![graph — official paper figure (qp.pdf p.17)](assets/asset_6_c_graph.png)
+
+
+**Mark scheme answer**
+
+> idea that multiple angles (of incidence) measured;
 > graph of sin(i) against sin(r) plotted; can be gained from diagram
 > ignore orientation of axes
 > gradient of graph = refractive index; can be gained from diagram
@@ -445,7 +499,24 @@ Calculate the refractive index of the glass block. refractive index =
 > sin(r) on y-axis then gradient
 > = 1/n
 > Answer Notes Marks
-> 7 any five from:
+
+- **(3)** idea that multiple angles (of incidence) measured;
+
+
+## Question 7 (5 marks)
+
+The diagram shows the construction of a simple loudspeaker. paper tube N magnet S N coil of wire a.c. power supply loudspeaker cone A coil of wire is wrapped around a paper tube attached to the loudspeaker cone. When there is an alternating current (a.c.) in the coil, the cone moves. Explain how the loudspeaker produces a sound wave. (5)
+
+### 7 [5]
+
+The diagram shows the construction of a simple loudspeaker. paper tube N magnet S N coil of wire a.c. power supply loudspeaker cone A coil of wire is wrapped around a paper tube attached to the loudspeaker cone. When there is an alternating current (a.c.) in the coil, the cone moves. Explain how the loudspeaker produces a sound wave.
+
+> 🖼 crop required: diagram (qp.pdf p.17)
+
+
+**Mark scheme answer**
+
+> any five from:
 > MP1. current in coil produces magnetic field; allow coil is magnetised /
 > becomes an electromagnet
 > MP2. direction of this magnetic field is
@@ -459,24 +530,7 @@ Calculate the refractive index of the glass block. refractive index =
 > vibrate;
 > Answer Notes Marks
 
-- **(2)** substitution; allow ecf from (iii)
-
-### 6(c) [3]
-
-A teacher suggests that a more accurate value for the refractive index can be found using a graphical method. Design a method to obtain a value for the refractive index of the glass block using a graph. You may draw a diagram to support your answer.
-
-![graph — official paper figure (qp.pdf p.17)](assets/asset_6_c_graph.png)
-
-
-## Question 7 (5 marks)
-
-The diagram shows the construction of a simple loudspeaker. paper tube N magnet S N coil of wire a.c. power supply loudspeaker cone A coil of wire is wrapped around a paper tube attached to the loudspeaker cone. When there is an alternating current (a.c.) in the coil, the cone moves. Explain how the loudspeaker produces a sound wave. (5)
-
-### 7 [5]
-
-The diagram shows the construction of a simple loudspeaker. paper tube N magnet S N coil of wire a.c. power supply loudspeaker cone A coil of wire is wrapped around a paper tube attached to the loudspeaker cone. When there is an alternating current (a.c.) in the coil, the cone moves. Explain how the loudspeaker produces a sound wave.
-
-> 🖼 crop required: diagram (qp.pdf p.17)
+- **(5)** any five from:
 
 
 ## Question 8 (10 marks)
@@ -494,7 +548,17 @@ In the space below, draw a labelled diagram to show how Callisto orbits Jupiter.
 
 > Callisto drawn with a circular orbit around Jupiter; judge circular shape by eye
 > Jupiter positioned at the centre of the orbit;
-> (b) conversion of time from hours to seconds; allow use of 1 440 000 seen
+
+- **(2)** Callisto drawn with a circular orbit around Jupiter; judge circular shape by eye
+
+### 8(b) [4]
+
+Callisto orbits Jupiter at an orbital radius of 1 880 000 km and with an orbital period of 400 hours. Calculate the orbital speed of Callisto in km/s. Give your answer to 3 significant figures. orbital speed = km/s
+
+
+**Mark scheme answer**
+
+> conversion of time from hours to seconds; allow use of 1 440 000 seen
 > anywhere
 > substitution into orbital speed formula; allow ecf from incorrect time
 > conversion
@@ -506,11 +570,7 @@ In the space below, draw a labelled diagram to show how Callisto orbits Jupiter.
 > (orbital speed =) 8.203… (km/s)
 > (orbital speed =) 8.20 (km/s)
 
-- **(2)** Callisto drawn with a circular orbit around Jupiter; judge circular shape by eye
-
-### 8(b) [4]
-
-Callisto orbits Jupiter at an orbital radius of 1 880 000 km and with an orbital period of 400 hours. Calculate the orbital speed of Callisto in km/s. Give your answer to 3 significant figures. orbital speed = km/s
+- **(4)** conversion of time from hours to seconds; allow use of 1 440 000 seen
 
 ### 8(c)(i) [1]
 
@@ -560,13 +620,46 @@ This question is about gas pressure.
 
 State the formula linking pressure, force and area.
 
+
+**Mark scheme answer**
+
+> pressure = force / area; allow standard symbols and
+> rearrangements e.g. p = F / A
+
+- **(1)** pressure = force / area; allow standard symbols and
+
 ### 9(a)(ii) [3]
 
 The cylinder has an internal surface area of 1.13 m2. Calculate the force exerted on the walls of the cylinder by the propane gas. force = N
 
+
+**Mark scheme answer**
+
+> substitution;
+> rearrangement;
+> evaluation; -1 for POT error
+> e.g.
+> 1.03 × 106 = force / 1.13
+> (force =) 1.03 × 106 × 1.13
+> (force =) 1.16 × 106 (N) allow 1.2 × 106, 1163900 etc.
+
+- **(3)** substitution;
+
 ### 9(a)(iii) [2]
 
 Explain why the pressure exerted by the propane gas acts equally in all directions.
+
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. idea that gas particles move randomly; allow move in all directions
+> MP2. idea that gas particles collide with all walls
+> of container;
+> MP3. idea that force per unit area is the same on
+> all sides of cylinder;
+
+- **(2)** any two from:
 
 ### 9(b)(i) [2]
 
@@ -683,13 +776,45 @@ The diagram shows a circuit that includes a battery, an ammeter, a voltmeter and
 
 Give the voltmeter reading. voltage = V
 
+
+**Mark scheme answer**
+
+> 12 (V);
+
+- **(1)** 12 (V);
+
 ### 11(a)(ii) [1]
 
 State the formula linking voltage, current and resistance.
 
+
+**Mark scheme answer**
+
+> voltage = current × resistance; allow standard symbols and
+> rearrangements e.g. R = V / I
+
+- **(1)** voltage = current × resistance; allow standard symbols and
+
 ### 11(a)(iii) [3]
 
 Calculate the resistance of resistor X. resistance = Ω
+
+
+**Mark scheme answer**
+
+> substitution; allow ecf from (i)
+> rearrangement;
+> evaluation; -1 for POT error
+> 0.631… scores 2 marks
+> if 35mA used as the current
+> (giving 342.8…) then award 2
+> marks max.
+> e.g.
+> 12 = 0.019 × R
+> (R =) 12 / 0.019
+> (R =) 630 (Ω) allow 632, 631.6, 631.57…
+
+- **(3)** substitution; allow ecf from (i)
 
 ### 11(b)(i) [1]
 
@@ -729,18 +854,24 @@ Calculate the resistance of resistor Y. resistance = Ω
 > if mA not converted to A and
 > 0.75 seen then award 2 marks
 > max.
-> (c) current decreases;
-> with any one from: DOP
-> • (total) resistance of circuit has increased;
-> • idea that there are now less paths for the
-> current in the circuit;
-> Answer Notes Marks
 
 - **(4)** use of voltage = current × resistance; must be more than just
 
 ### 11(c) [2]
 
 Resistor X and the voltmeter are removed from the circuit, leaving a break in this part of the circuit. Explain how the current in the battery changes when these components are removed.
+
+
+**Mark scheme answer**
+
+> current decreases;
+> with any one from: DOP
+> • (total) resistance of circuit has increased;
+> • idea that there are now less paths for the
+> current in the circuit;
+> Answer Notes Marks
+
+- **(2)** current decreases;
 
 
 ## Question 12 (10 marks)
@@ -766,17 +897,47 @@ How is energy transferred to the external pipe from the Sun?
 > place through the vacuum of space
 > C is incorrect because evaporation cannot take
 > place through the vacuum of space
-> (b) air (inside external pipe) is heated;
+
+- **(1)** Answer D: radiation
+
+### 12(b) [3]
+
+Explain why air moves upwards through the external pipe.
+
+
+**Mark scheme answer**
+
+> air (inside external pipe) is heated;
 > air expands; allow particles move further
 > apart
 > air decreases in density (and therefore rises); reject particles become less
 > dense
-> (c) idea that air entering tube is hotter than the allow RA e.g. ground is
+
+- **(3)** air (inside external pipe) is heated;
+
+### 12(c) [3]
+
+Warm air enters the tube at point X. Cool air leaves the tube at point Y. Explain how the air is cooled as it travels through the tube.
+
+
+**Mark scheme answer**
+
+> idea that air entering tube is hotter than the allow RA e.g. ground is
 > ground; cooler than air
 > energy is transferred from air (to
 > ground/surroundings);
 > by conduction;
-> (d) black / other dark colour;
+
+- **(3)** idea that air entering tube is hotter than the allow RA e.g. ground is
+
+### 12(d) [3]
+
+The external pipe is painted to increase the air flow through the building. Explain what colour of paint would give the greatest increase in air flow.
+
+
+**Mark scheme answer**
+
+> black / other dark colour;
 > (because) dark colours are better/good absorbers allow infrared / IR for
 > of radiation; radiation
 > ignore heat
@@ -785,17 +946,5 @@ How is energy transferred to the external pipe from the Sun?
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(1)** Answer D: radiation
-
-### 12(b) [3]
-
-Explain why air moves upwards through the external pipe.
-
-### 12(c) [3]
-
-Warm air enters the tube at point X. Cool air leaves the tube at point Y. Explain how the air is cooled as it travels through the tube.
-
-### 12(d) [3]
-
-The external pipe is painted to increase the air flow through the building. Explain what colour of paint would give the greatest increase in air flow.
+- **(3)** black / other dark colour;
 

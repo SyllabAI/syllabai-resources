@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:20Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2023-06 paper=1PR",
+ "generated_utc": "2026-10-25T22:06:48Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2023-06 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/1PR",
  "source": {
   "qp_sha256": "79221e982c6f0ff961d774b883a60046e1dfd890eaf7e669dfb089a786051111",
@@ -160,7 +160,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "C (the Moon);\nA is incorrect because comets orbit stars\nB is incorrect because Mars orbits the Sun\nD is incorrect because the Sun orbits in the Milky\nWay galaxy\n(b) D (gravitational);\nA is incorrect because there is no air in space;\nB is incorrect because the ISS is not charged;\nC is incorrect because friction would act in the\nopposite direction to motion, not towards Earth",
+     "solution_md": "C (the Moon);\nA is incorrect because comets orbit stars\nB is incorrect because Mars orbits the Sun\nD is incorrect because the Sun orbits in the Milky\nWay galaxy",
      "mark_points": [
       {
        "id": "2023-06-2-a-MP1",
@@ -187,29 +187,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "air resistance"
+       "text_md": "air resistance",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "electrostatic"
+       "text_md": "electrostatic",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "friction"
+       "text_md": "friction",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "gravitational"
+       "text_md": "gravitational",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (gravitational);\nA is incorrect because there is no air in space;\nB is incorrect because the ISS is not charged;\nC is incorrect because friction would act in the\nopposite direction to motion, not towards Earth",
+     "mark_points": [
+      {
+       "id": "2023-06-2-b-MP1",
+       "marks": 1,
+       "text_md": "Answer D: gravitational"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -286,7 +298,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking gravitational potential energy, mass, gravitational field strength (g) and height.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "GPE = mass × g × height; allow standard symbols\nand rearrangements e.g.\nh = GPE / m×g\nignore ‘gravity’ for g",
+     "mark_points": [
+      {
+       "id": "2023-06-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "GPE = mass × g × height; allow standard symbols\nand rearrangements e.g.\nh = GPE / m×g\nignore ‘gravity’ for g"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -304,7 +324,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the height the load is lifted. height = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nrearrangement; in either order\nevaluation; -1 for POT error due to not\nconverting g to kg but not\nif due to physics error such\nas missing g\naccept use of g = 9.8(1)\ne.g. accept 1sf answer i.e. 0.8\n(m)\n3.2 = 0.40 × 10 × h\nh = 3.2 / 0.40 × 10\n(h =) 0.80 (m) 0.815 or 0.816 or 0.82 if g\nused is 9.8(1) and then\nrounded",
+     "mark_points": [
+      {
+       "id": "2023-06-3-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution;\nrearrangement; in either order\nevaluation; -1 for POT error due to not\nconverting g to kg but not\nif due to physics error such\nas missing g\naccept use of g = 9.8(1)\ne.g. accept 1sf answer i.e. 0.8\n(m)\n3.2 = 0.40 × 10 × h\nh = 3.2 / 0.40 × 10\n(h =) 0.80 (m) 0.815 or 0.816 or 0.82 if g\nused is 9.8(1) and then\nrounded"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -322,7 +350,15 @@
      "question_type": "structured",
      "problem_md": "State the amount of useful work done on the load by the motor when the load is lifted through this height. work done = J",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "3.2 (J); this answer only",
+     "mark_points": [
+      {
+       "id": "2023-06-3-a-iii-MP1",
+       "marks": 1,
+       "text_md": "3.2 (J); this answer only"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -340,7 +376,15 @@
      "question_type": "structured",
      "problem_md": "The load is lifted at a constant speed. Diagram 1 shows the lifting force acting on the load as it is lifted. Draw a labelled arrow on diagram 1 to show the other force acting on the load. Ignore the effects of air resistance. lifting force load Diagram 1",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "downward arrow labelled “weight”/”W”/”mg”; ignore starting position of\narrow\nignore\n‘gravity/g/gravitational\nfield strength’\nallow ‘gravitational force’\nreject if both gravity force\nand weight force shown\nvertically downward arrow drawn equal in length to mark independently\nlifting force arrow; by eye\nreject any other labelled\narrows for second mark",
+     "mark_points": [
+      {
+       "id": "2023-06-3-b-MP1",
+       "marks": 2,
+       "text_md": "downward arrow labelled “weight”/”W”/”mg”; ignore starting position of\narrow\nignore\n‘gravity/g/gravitational\nfield strength’\nallow ‘gravitational force’\nreject if both gravity force\nand weight force shown\nvertically downward arrow drawn equal in length to mark independently\nlifting force arrow; by eye\nreject any other labelled\narrows for second mark"
+      }
+     ],
      "source_page": 10,
      "assets": [
       {
@@ -499,7 +543,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "B (copper);\nA is incorrect because it is magnetic\nC is incorrect because it is magnetic\nD is incorrect because it is magnetic\n(b) field line connecting one pole to the other; allow small gap where\nfield line joins magnet\nignore field lines inside\nthe magnet\nat least two complete field lines, but none touching / ignore field lines that\ncrossing; start outside the pole\nregion\nall directions shown on field lines correct (N to S); only one arrow required\nfor the mark but\ncontradictory directions\nnegates the mark\nignore arrow(s) inside\nthe magnet\n(c) steel is magnetic / eq;\n(therefore) magnet stays magnetised (for a long period allow ‘steel is a hard\nof time) /eq ; magnetic material’ for\nboth marks\nreject reference to\ncharge",
+     "solution_md": "B (copper);\nA is incorrect because it is magnetic\nC is incorrect because it is magnetic\nD is incorrect because it is magnetic",
      "mark_points": [
       {
        "id": "2023-06-4-a-MP1",
@@ -524,7 +568,15 @@
      "question_type": "structured",
      "problem_md": "Diagram 1 shows a bar magnet. N\bS Diagram 1 Draw magnetic field lines on diagram 1 to show the shape and direction of the magnetic field around the bar magnet.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "field line connecting one pole to the other; allow small gap where\nfield line joins magnet\nignore field lines inside\nthe magnet\nat least two complete field lines, but none touching / ignore field lines that\ncrossing; start outside the pole\nregion\nall directions shown on field lines correct (N to S); only one arrow required\nfor the mark but\ncontradictory directions\nnegates the mark\nignore arrow(s) inside\nthe magnet",
+     "mark_points": [
+      {
+       "id": "2023-06-4-b-MP1",
+       "marks": 3,
+       "text_md": "field line connecting one pole to the other; allow small gap where\nfield line joins magnet\nignore field lines inside\nthe magnet\nat least two complete field lines, but none touching / ignore field lines that\ncrossing; start outside the pole\nregion\nall directions shown on field lines correct (N to S); only one arrow required\nfor the mark but\ncontradictory directions\nnegates the mark\nignore arrow(s) inside\nthe magnet"
+      }
+     ],
      "assets": [
       {
        "id": "asset_4_b_diagram",
@@ -555,7 +607,15 @@
      "question_type": "structured",
      "problem_md": "Some bar magnets are made of steel. Explain why steel is a good material for making bar magnets.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "steel is magnetic / eq;\n(therefore) magnet stays magnetised (for a long period allow ‘steel is a hard\nof time) /eq ; magnetic material’ for\nboth marks\nreject reference to\ncharge",
+     "mark_points": [
+      {
+       "id": "2023-06-4-c-MP1",
+       "marks": 2,
+       "text_md": "steel is magnetic / eq;\n(therefore) magnet stays magnetised (for a long period allow ‘steel is a hard\nof time) /eq ; magnetic material’ for\nboth marks\nreject reference to\ncharge"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -614,12 +674,12 @@
      "problem_md": "State two changes that could be made that would decrease the magnitude of the force on the wire in diagram 2. 1 2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any two from:\nMP1 reference to weaker field\nMP2 moving magnets further apart\nMP3 use weaker magnets\nMP4 reference to lower current\nMP5 decreasing diameter of wire increasing length of\nwire (in circuit)\nMP6 decrease voltage (of supply)\nAnswer Notes Marks\n5 at least one from:\nin relation to driver:\nMP1. (frequency) does not change; allow pitch does not\nchange\nMP2. no (relative) movement between driver and i.e. driver and car\nhorn; travelling at same speed /\ndistance between car\n(horn) and driver constant\nPLUS up to five from:\nin relation to person at the side of the road:\nMP3. recognition that the Doppler effect applies;\nMP4. frequency heard by person at side of the allow pitch as alternative\nroad is different to that heard by driver; to frequency\nreject just ‘different’\nMP5. frequency is higher as car approaches; allow pitch of sound is\nhigher\nMP6. because wavefronts become closer allow wavelength\ntogether; decreases\nMP7. frequency is lower as car moves away; allow pitch of sound is\nlower\nMP8. because wavefronts become further apart; allow wavelength increases\nMP9. speed of sound remains constant;\nMP10. relevant mention of v = f × λ; must link to a previous MP,\nnot merely quoting the\nformula\nAnswer Notes Marks",
+     "solution_md": "Any two from:\nMP1 reference to weaker field\nMP2 moving magnets further apart\nMP3 use weaker magnets\nMP4 reference to lower current\nMP5 decreasing diameter of wire increasing length of\nwire (in circuit)\nMP6 decrease voltage (of supply)\nAnswer Notes Marks",
      "mark_points": [
       {
        "id": "2023-06-4-d-ii-MP1",
        "marks": 2,
-       "text_md": "Any two from:\nMP1 reference to weaker field\nMP2 moving magnets further apart\nMP3 use weaker magnets\nMP4 reference to lower current\nMP5 decreasing diameter of wire increasing length of\nwire (in circuit)\nMP6 decrease voltage (of supply)\nAnswer Notes Marks\n5 at least one from:\nin relation to driver:\nMP1. (frequency) does not change; allow pitch does not\nchange\nMP2. no (relative) movement between driver and i.e. driver and car\nhorn; travelling at same speed /\ndistance between car\n(horn) and driver constant\nPLUS up to five from:\nin relation to person at the side of the road:\nMP3. recognition that the Doppler effect applies;\nMP4. frequency heard by person at side of the allow pitch as alternative\nroad is different to that heard by driver; to frequency\nreject just ‘different’\nMP5. frequency is higher as car approaches; allow pitch of sound is\nhigher\nMP6. because wavefronts become closer allow wavelength\ntogether; decreases\nMP7. frequency is lower as car moves away; allow pitch of sound is\nlower\nMP8. because wavefronts become further apart; allow wavelength increases\nMP9. speed of sound remains constant;\nMP10. relevant mention of v = f × λ; must link to a previous MP,\nnot merely quoting the\nformula\nAnswer Notes Marks"
+       "text_md": "Any two from:\nMP1 reference to weaker field\nMP2 moving magnets further apart\nMP3 use weaker magnets\nMP4 reference to lower current\nMP5 decreasing diameter of wire increasing length of\nwire (in circuit)\nMP6 decrease voltage (of supply)\nAnswer Notes Marks"
       }
      ],
      "source_page": 13,
@@ -667,7 +727,15 @@
      "question_type": "structured",
      "problem_md": "A car is travelling in a straight line along a road. The car passes a person standing at the side of the road. Before passing the person, the driver of the car presses the car’s horn. The horn makes a loud sound of constant frequency. The horn continues to make a sound until after the car has passed the person. Discuss the differences in the frequencies of the sound heard by • the driver of the car • the person at the side of the road",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "at least one from:\nin relation to driver:\nMP1. (frequency) does not change; allow pitch does not\nchange\nMP2. no (relative) movement between driver and i.e. driver and car\nhorn; travelling at same speed /\ndistance between car\n(horn) and driver constant\nPLUS up to five from:\nin relation to person at the side of the road:\nMP3. recognition that the Doppler effect applies;\nMP4. frequency heard by person at side of the allow pitch as alternative\nroad is different to that heard by driver; to frequency\nreject just ‘different’\nMP5. frequency is higher as car approaches; allow pitch of sound is\nhigher\nMP6. because wavefronts become closer allow wavelength\ntogether; decreases\nMP7. frequency is lower as car moves away; allow pitch of sound is\nlower\nMP8. because wavefronts become further apart; allow wavelength increases\nMP9. speed of sound remains constant;\nMP10. relevant mention of v = f × λ; must link to a previous MP,\nnot merely quoting the\nformula\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-5-MP1",
+       "marks": 6,
+       "text_md": "at least one from:\nin relation to driver:\nMP1. (frequency) does not change; allow pitch does not\nchange\nMP2. no (relative) movement between driver and i.e. driver and car\nhorn; travelling at same speed /\ndistance between car\n(horn) and driver constant\nPLUS up to five from:\nin relation to person at the side of the road:\nMP3. recognition that the Doppler effect applies;\nMP4. frequency heard by person at side of the allow pitch as alternative\nroad is different to that heard by driver; to frequency\nreject just ‘different’\nMP5. frequency is higher as car approaches; allow pitch of sound is\nhigher\nMP6. because wavefronts become closer allow wavelength\ntogether; decreases\nMP7. frequency is lower as car moves away; allow pitch of sound is\nlower\nMP8. because wavefronts become further apart; allow wavelength increases\nMP9. speed of sound remains constant;\nMP10. relevant mention of v = f × λ; must link to a previous MP,\nnot merely quoting the\nformula\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -696,12 +764,12 @@
      "problem_md": "The student has access to this equipment • 12 V battery • ammeter and voltmeter • 60 Ω resistor • variable resistor • switch • connecting wires Draw a circuit diagram to show how the student could connect this equipment to carry out the investigation.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "resistor, battery, voltmeter, ammeter all present in a all four symbols drawn\ncomplete circuit correctly\ncondone use of cell or dc\npower supply symbol for\nbattery\nvariable resistor connected in series with resistor; symbol drawn correctly\nammeter in series with resistor; condone incorrect yet\nidentifiable ammeter\nsymbol\nvoltmeter in parallel with 60 ohm resistor; condone incorrect yet\nidentifiable voltmeter\nsymbol\naccept higher level\nanswers involving\npotential divider circuits\n(b) any four from:\nMP1. measure voltage and current;\nMP2. idea of varying voltage (across resistor); e.g. by altering the\nresistance of the variable\nresistor\nMP3. take repeat readings and average (at each\nvoltage);\nMP4. switch off circuit in between readings;\nMP5. other reasonable safety measure relating to e.g. not using full range\nequipment heating up of voltages so current\ndoesn’t get too high\nignore references to\ngraph",
+     "solution_md": "resistor, battery, voltmeter, ammeter all present in a all four symbols drawn\ncomplete circuit correctly\ncondone use of cell or dc\npower supply symbol for\nbattery\nvariable resistor connected in series with resistor; symbol drawn correctly\nammeter in series with resistor; condone incorrect yet\nidentifiable ammeter\nsymbol\nvoltmeter in parallel with 60 ohm resistor; condone incorrect yet\nidentifiable voltmeter\nsymbol\naccept higher level\nanswers involving\npotential divider circuits",
      "mark_points": [
       {
        "id": "2023-06-6-a-MP1",
        "marks": 4,
-       "text_md": "resistor, battery, voltmeter, ammeter all present in a all four symbols drawn\ncomplete circuit correctly\ncondone use of cell or dc\npower supply symbol for\nbattery\nvariable resistor connected in series with resistor; symbol drawn correctly\nammeter in series with resistor; condone incorrect yet\nidentifiable ammeter\nsymbol\nvoltmeter in parallel with 60 ohm resistor; condone incorrect yet\nidentifiable voltmeter\nsymbol\naccept higher level\nanswers involving\npotential divider circuits\n(b) any four from:\nMP1. measure voltage and current;\nMP2. idea of varying voltage (across resistor); e.g. by altering the\nresistance of the variable\nresistor\nMP3. take repeat readings and average (at each\nvoltage);\nMP4. switch off circuit in between readings;\nMP5. other reasonable safety measure relating to e.g. not using full range\nequipment heating up of voltages so current\ndoesn’t get too high\nignore references to\ngraph"
+       "text_md": "resistor, battery, voltmeter, ammeter all present in a all four symbols drawn\ncomplete circuit correctly\ncondone use of cell or dc\npower supply symbol for\nbattery\nvariable resistor connected in series with resistor; symbol drawn correctly\nammeter in series with resistor; condone incorrect yet\nidentifiable ammeter\nsymbol\nvoltmeter in parallel with 60 ohm resistor; condone incorrect yet\nidentifiable voltmeter\nsymbol\naccept higher level\nanswers involving\npotential divider circuits"
       }
      ],
      "source_page": 15,
@@ -730,7 +798,15 @@
      "question_type": "structured",
      "problem_md": "Describe a suitable method the student could use for this investigation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. measure voltage and current;\nMP2. idea of varying voltage (across resistor); e.g. by altering the\nresistance of the variable\nresistor\nMP3. take repeat readings and average (at each\nvoltage);\nMP4. switch off circuit in between readings;\nMP5. other reasonable safety measure relating to e.g. not using full range\nequipment heating up of voltages so current\ndoesn’t get too high\nignore references to\ngraph",
+     "mark_points": [
+      {
+       "id": "2023-06-6-b-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. measure voltage and current;\nMP2. idea of varying voltage (across resistor); e.g. by altering the\nresistance of the variable\nresistor\nMP3. take repeat readings and average (at each\nvoltage);\nMP4. switch off circuit in between readings;\nMP5. other reasonable safety measure relating to e.g. not using full range\nequipment heating up of voltages so current\ndoesn’t get too high\nignore references to\ngraph"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -836,7 +912,15 @@
      "question_type": "structured",
      "problem_md": "Give a suitable unit for activity.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "becquerel(s); allow kilobecquerels, Bq,\nkBq, curie, Ci\nallow recognisable\nspelling\nallow mixed case letters",
+     "mark_points": [
+      {
+       "id": "2023-06-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "becquerel(s); allow kilobecquerels, Bq,\nkBq, curie, Ci\nallow recognisable\nspelling\nallow mixed case letters"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -854,7 +938,15 @@
      "question_type": "structured",
      "problem_md": "On the axes below, sketch a graph for the decay of the sample of protactinium‑234 during its first three half‑lives. 800 600 Activity 400 in 200 0 5 10 15 20 25 Time in hours",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "3\nevidence that sketch starts at (0,800) accept plotted point\nevidence sketch passes through (6.7,400) accept plotted point\nsmooth curve decreases with decreasing steepness",
+     "mark_points": [
+      {
+       "id": "2023-06-7-a-ii-MP1",
+       "marks": 3,
+       "text_md": "3\nevidence that sketch starts at (0,800) accept plotted point\nevidence sketch passes through (6.7,400) accept plotted point\nsmooth curve decreases with decreasing steepness"
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
@@ -884,7 +976,15 @@
      "question_type": "structured",
      "problem_md": "When protactinium‑234 undergoes beta ( β –) decay it becomes uranium‑234. The incomplete nuclear equation shows this process. 234 234 Pa 92 U + β Complete the nuclear equation to show the beta decay of protactinium‑234. Write your answers in the dashed boxes.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "both numbers for beta correct;\natomic number of protactinium = 91;\ne.g.",
+     "mark_points": [
+      {
+       "id": "2023-06-7-a-iii-MP1",
+       "marks": 2,
+       "text_md": "both numbers for beta correct;\natomic number of protactinium = 91;\ne.g."
+      }
+     ],
      "source_page": 19,
      "assets": [
       {
@@ -1036,7 +1136,7 @@
      "group_stem_md": "Protactinium‑234 has a half‑life of 6.7 hours. A sample of protactinium‑234 has an initial activity of 800 units."
     },
     "b": {
-     "group_stem_md": "A student suggests an experiment to determine the type of radiation emitted by a different isotope of protactinium, protactinium‑231. This is the suggested method. Step 1 \u0007connect a suitable radiation detector to a radiation counter Step 2 \u0007place a source of protactinium‑231 at a fixed distance of 3 cm from the radiation detector Step 3 \u0007record the count of detected radiation for a time of one minute Step 4 \u0007place a sheet of paper between the source and detector Step 5 \u0007record the count of detected radiation for a time of one minute Step 6 \u0007repeat Steps 4 and 5 using a sheet of aluminium and then a sheet of lead instead of the sheet of paper The table shows the results of the investigation when it is done by a teacher. Material between source and detector Count no material 261 paper 14 aluminium 11 lead 13"
+     "group_stem_md": "A student suggests an experiment to determine the type of radiation emitted by a different isotope of protactinium, protactinium‑231. This is the suggested method. Step 1 connect a suitable radiation detector to a radiation counter Step 2 place a source of protactinium‑231 at a fixed distance of 3 cm from the radiation detector Step 3 record the count of detected radiation for a time of one minute Step 4 place a sheet of paper between the source and detector Step 5 record the count of detected radiation for a time of one minute Step 6 repeat Steps 4 and 5 using a sheet of aluminium and then a sheet of lead instead of the sheet of paper The table shows the results of the investigation when it is done by a teacher. Material between source and detector Count no material 261 paper 14 aluminium 11 lead 13"
     }
    }
   },
@@ -1053,7 +1153,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the original length of the spring. original length = cm",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "3.1 (cm);",
+     "mark_points": [
+      {
+       "id": "2023-06-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "3.1 (cm);"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1071,7 +1179,15 @@
      "question_type": "structured",
      "problem_md": "The student removes the masses and notices that the spring does not show elastic behaviour. Predict a value for the new length of the spring after the masses have been removed. new length of spring = cm",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any value above candidate’s answer for (a)(i) up to\nand including 14.6cm;",
+     "mark_points": [
+      {
+       "id": "2023-06-8-a-ii-MP1",
+       "marks": 1,
+       "text_md": "any value above candidate’s answer for (a)(i) up to\nand including 14.6cm;"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1184,7 +1300,15 @@
      "question_type": "structured",
      "problem_md": "The mass of the racing car is 830 kg. The maximum braking force is 41 000 N. Show that the maximum deceleration of the racing car is approximately 50 m / s2.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "recall of (unbalanced) force = mass × acceleration; allow symbols\ncan be implied from\nvalid substitution of\ndata\nsubstitution and rearrangement;\nevaluation to 2 s.f. or more;\ne.g.\nF=m×a\na = 41000 / 830\na = 49 (m/s2) allow 49.39…",
+     "mark_points": [
+      {
+       "id": "2023-06-9-a-i-MP1",
+       "marks": 3,
+       "text_md": "recall of (unbalanced) force = mass × acceleration; allow symbols\ncan be implied from\nvalid substitution of\ndata\nsubstitution and rearrangement;\nevaluation to 2 s.f. or more;\ne.g.\nF=m×a\na = 41000 / 830\na = 49 (m/s2) allow 49.39…"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -1202,7 +1326,15 @@
      "question_type": "structured",
      "problem_md": "The racing car is travelling at an initial speed of 72 m / s. Calculate the minimum distance needed to decrease the speed of the racing car from 72 m / s to 26 m / s. distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into v2 = u2 + 2as; allow ecf from (i)\nrearrangement;\nevaluation;\ne.g.\n262 = 722 + 2×(-50)×s\n(distance =) 5184-676 / 100\n(distance =) 45 (m) expect answers in range\n45-46 (m)\nreject 72-26 = 46\n(wrong physics)\naccept 46 if unqualified",
+     "mark_points": [
+      {
+       "id": "2023-06-9-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution into v2 = u2 + 2as; allow ecf from (i)\nrearrangement;\nevaluation;\ne.g.\n262 = 722 + 2×(-50)×s\n(distance =) 5184-676 / 100\n(distance =) 45 (m) expect answers in range\n45-46 (m)\nreject 72-26 = 46\n(wrong physics)\naccept 46 if unqualified"
+      }
+     ],
      "source_page": 26,
      "assets": [],
      "spec_point_codes": [],
@@ -1220,7 +1352,15 @@
      "question_type": "structured",
      "problem_md": "The racing car slows down using its brakes. The brakes work using friction. The brakes become very hot when the racing car slows down. Using ideas about energy, explain why the brakes become hot.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "kinetic energy (store) of car decreases; kinetic energy/ KE of\ncar\nthermal energy (store) of brake(s) increases; transforms to\n{heat/thermal} energy\nof brakes\nenergy transferred mechanically; due to work done by\n{friction / brakes}\nNB only award from\neither the answer\ncolumn or notes\ncolumn, not from a mix\nof the two.",
+     "mark_points": [
+      {
+       "id": "2023-06-9-b-MP1",
+       "marks": 3,
+       "text_md": "kinetic energy (store) of car decreases; kinetic energy/ KE of\ncar\nthermal energy (store) of brake(s) increases; transforms to\n{heat/thermal} energy\nof brakes\nenergy transferred mechanically; due to work done by\n{friction / brakes}\nNB only award from\neither the answer\ncolumn or notes\ncolumn, not from a mix\nof the two."
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1238,7 +1378,15 @@
      "question_type": "structured",
      "problem_md": "The tyres of the racing car also get very hot during a race. A mechanic has to handle the hot tyres during the pit stop. They wear protective gloves which have several layers of insulating materials. Explain how the layers of insulating materials in the gloves reduce the risk of the mechanic burning their hands on the hot tyres.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\nMP1. idea that insulating materials are poor\nconductors;\nMP2. layers trap air;\nMP3. air itself is a poor conductor/(good)\ninsulator\nMP4. (energy transfer due to / rate of) condone idea of\nconduction reduces; stopping conduction\nMP5. idea increased thickness reduces (rate of)\nconduction\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-9-c-MP1",
+       "marks": 2,
+       "text_md": "any two from:\nMP1. idea that insulating materials are poor\nconductors;\nMP2. layers trap air;\nMP3. air itself is a poor conductor/(good)\ninsulator\nMP4. (energy transfer due to / rate of) condone idea of\nconduction reduces; stopping conduction\nMP5. idea increased thickness reduces (rate of)\nconduction\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1270,7 +1418,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking pressure difference, height, density and g.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pressure difference = height × density × g; allow in words or standard\nsymbols\ne.g. p = h × ρ × g\ncondone d for density",
+     "mark_points": [
+      {
+       "id": "2023-06-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "pressure difference = height × density × g; allow in words or standard\nsymbols\ne.g. p = h × ρ × g\ncondone d for density"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1288,7 +1444,15 @@
      "question_type": "structured",
      "problem_md": "Atmospheric pressure at the surface of the reservoir is 100 kPa. Calculate the total pressure at the bottom of the reservoir. [for water, density = 1000 kg / m3] pressure = kPa",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nevaluation of pressure difference in kPa; allow 343 (kPa) for use of\ng=9.8 N/kg\nevaluation of total pressure by adding 100 (kPa); ECF candidate’s water\npressure\nallow 443 (kPa) for use of\ng=9.8(1) N/kg\nallow 450 000 Pa with clear\nintent from candidate i.e.\nremoval of ‘k’ from unit on\nanswer line.\n-1 for POT error but not if\ndue to physics error such as\nmissing g, substitution of\n100 (kPa) for g\ne.g.\n(pressure difference =) 35 × 1000 × 10\n(pressure difference =) 350 (kPa)\n(pressure = 350 + 100 =) 450 (kPa)\n350 kPa gets 2 marks\n350 100 kPa gets 2 marks\nunqualified 350 000 (kPa)\ngets 1 mark",
+     "mark_points": [
+      {
+       "id": "2023-06-10-a-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution;\nevaluation of pressure difference in kPa; allow 343 (kPa) for use of\ng=9.8 N/kg\nevaluation of total pressure by adding 100 (kPa); ECF candidate’s water\npressure\nallow 443 (kPa) for use of\ng=9.8(1) N/kg\nallow 450 000 Pa with clear\nintent from candidate i.e.\nremoval of ‘k’ from unit on\nanswer line.\n-1 for POT error but not if\ndue to physics error such as\nmissing g, substitution of\n100 (kPa) for g\ne.g.\n(pressure difference =) 35 × 1000 × 10\n(pressure difference =) 350 (kPa)\n(pressure = 350 + 100 =) 450 (kPa)\n350 kPa gets 2 marks\n350 100 kPa gets 2 marks\nunqualified 350 000 (kPa)\ngets 1 mark"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],
@@ -1333,12 +1497,12 @@
      "problem_md": "Calculate the area of the camera lens. Give a suitable unit. area = unit",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution; condone pressure in Pa or\nkPa\nrearrangement;\nevaluation; accept standard form i.e.\n1.7 × 10-3 (m2)\ncorresponding unit of area;\ne.g.\n260 000 = 430 / area\n(area =) 430 / 260 000\n(area =) 0.0017 allow 0.0016538… m2 etc\nm2 allow 17, 16.5… (cm2) etc\nallow 1.65... m2 scores 3\nallow 1.65...cm2 scores 2\n(c) pressure (at bottom) is greater than before / eq;\nwider base /eq; allow stronger material/eq\nignore taller\nAnswer Notes Marks",
+     "solution_md": "substitution; condone pressure in Pa or\nkPa\nrearrangement;\nevaluation; accept standard form i.e.\n1.7 × 10-3 (m2)\ncorresponding unit of area;\ne.g.\n260 000 = 430 / area\n(area =) 430 / 260 000\n(area =) 0.0017 allow 0.0016538… m2 etc\nm2 allow 17, 16.5… (cm2) etc\nallow 1.65... m2 scores 3\nallow 1.65...cm2 scores 2",
      "mark_points": [
       {
        "id": "2023-06-10-b-ii-MP1",
        "marks": 4,
-       "text_md": "substitution; condone pressure in Pa or\nkPa\nrearrangement;\nevaluation; accept standard form i.e.\n1.7 × 10-3 (m2)\ncorresponding unit of area;\ne.g.\n260 000 = 430 / area\n(area =) 430 / 260 000\n(area =) 0.0017 allow 0.0016538… m2 etc\nm2 allow 17, 16.5… (cm2) etc\nallow 1.65... m2 scores 3\nallow 1.65...cm2 scores 2\n(c) pressure (at bottom) is greater than before / eq;\nwider base /eq; allow stronger material/eq\nignore taller\nAnswer Notes Marks"
+       "text_md": "substitution; condone pressure in Pa or\nkPa\nrearrangement;\nevaluation; accept standard form i.e.\n1.7 × 10-3 (m2)\ncorresponding unit of area;\ne.g.\n260 000 = 430 / area\n(area =) 430 / 260 000\n(area =) 0.0017 allow 0.0016538… m2 etc\nm2 allow 17, 16.5… (cm2) etc\nallow 1.65... m2 scores 3\nallow 1.65...cm2 scores 2"
       }
      ],
      "source_page": 29,
@@ -1358,7 +1522,15 @@
      "question_type": "structured",
      "problem_md": "Sea water has a density of 1030 kg / m3. Explain how the design of the dam would need to be changed to hold the same depth of sea water safely.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "pressure (at bottom) is greater than before / eq;\nwider base /eq; allow stronger material/eq\nignore taller\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-10-c-MP1",
+       "marks": 2,
+       "text_md": "pressure (at bottom) is greater than before / eq;\nwider base /eq; allow stronger material/eq\nignore taller\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],
@@ -1394,12 +1566,12 @@
      "problem_md": "A student finds this formula in a textbook, which links distance from the centre of a planet to its gravitational field strength gravitational field strength × distance2 = constant Use data from the table to justify this formula.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution into given formula;\nevaluation of constant; allow any consistent\nPoT\nevaluation of constant for a second set of data;\nconclusion consistent with candidate’s evidence; DOP\ne.g. calculated value of constant doesn’t change\n(much) so formula is justified\nconstant decreases so formula isn’t justified\n(b) rearrangement of given formula;\nsubstitution of constant and distance; allow ecf from (a)\nallow mean constant\nevaluation; condone 3.7\ne.g.\ngravitational field strength = constant / distance2\ngravitational field strength = 42 700 000 / 34102 allow range of\n42 500 000 to 42 900 000\nfor constant\ngravitational field strength = 3.67 (N/kg) allow range of 3.65-3.69\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "substitution into given formula;\nevaluation of constant; allow any consistent\nPoT\nevaluation of constant for a second set of data;\nconclusion consistent with candidate’s evidence; DOP\ne.g. calculated value of constant doesn’t change\n(much) so formula is justified\nconstant decreases so formula isn’t justified",
      "mark_points": [
       {
        "id": "2023-06-11-a-MP1",
        "marks": 4,
-       "text_md": "substitution into given formula;\nevaluation of constant; allow any consistent\nPoT\nevaluation of constant for a second set of data;\nconclusion consistent with candidate’s evidence; DOP\ne.g. calculated value of constant doesn’t change\n(much) so formula is justified\nconstant decreases so formula isn’t justified\n(b) rearrangement of given formula;\nsubstitution of constant and distance; allow ecf from (a)\nallow mean constant\nevaluation; condone 3.7\ne.g.\ngravitational field strength = constant / distance2\ngravitational field strength = 42 700 000 / 34102 allow range of\n42 500 000 to 42 900 000\nfor constant\ngravitational field strength = 3.67 (N/kg) allow range of 3.65-3.69\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "substitution into given formula;\nevaluation of constant; allow any consistent\nPoT\nevaluation of constant for a second set of data;\nconclusion consistent with candidate’s evidence; DOP\ne.g. calculated value of constant doesn’t change\n(much) so formula is justified\nconstant decreases so formula isn’t justified"
       }
      ],
      "source_page": 30,
@@ -1433,7 +1605,15 @@
      "question_type": "structured",
      "problem_md": "Olympus Mons is the tallest mountain on Mars. The distance between the centre of Mars and the peak of Olympus Mons is 3410 km. Calculate the gravitational field strength at the peak of Olympus Mons. gravitational field strength = N / kg",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "rearrangement of given formula;\nsubstitution of constant and distance; allow ecf from (a)\nallow mean constant\nevaluation; condone 3.7\ne.g.\ngravitational field strength = constant / distance2\ngravitational field strength = 42 700 000 / 34102 allow range of\n42 500 000 to 42 900 000\nfor constant\ngravitational field strength = 3.67 (N/kg) allow range of 3.65-3.69\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2023-06-11-b-MP1",
+       "marks": 3,
+       "text_md": "rearrangement of given formula;\nsubstitution of constant and distance; allow ecf from (a)\nallow mean constant\nevaluation; condone 3.7\ne.g.\ngravitational field strength = constant / distance2\ngravitational field strength = 42 700 000 / 34102 allow range of\n42 500 000 to 42 900 000\nfor constant\ngravitational field strength = 3.67 (N/kg) allow range of 3.65-3.69\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 31,
      "assets": [],
      "spec_point_codes": [],

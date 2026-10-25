@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:40Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2019-06 paper=1PR",
+ "generated_utc": "2026-10-25T22:05:55Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2019-06 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2019-06:4PH1/1PR",
  "source": {
   "qp_sha256": "20249e07f7fc38e8159dc8de158087f5e8a29f29fa672caea7a632e6299500a0",
@@ -33,7 +33,15 @@
      "question_type": "structured",
      "problem_md": "Add a labelled arrow to the diagram to show the type of force from the star acting on object A.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "arrow originating at object A and directed towards\nthe star by eye;\narrow labelled gravitational (force); allow weight,\ngravitational force, pull\nor force of gravity\ncondone gravity",
+     "mark_points": [
+      {
+       "id": "2019-06-1-a-i-MP1",
+       "marks": 2,
+       "text_md": "arrow originating at object A and directed towards\nthe star by eye;\narrow labelled gravitational (force); allow weight,\ngravitational force, pull\nor force of gravity\ncondone gravity"
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
@@ -67,29 +75,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "a comet"
+       "text_md": "a comet",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "a galaxy"
+       "text_md": "a galaxy",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "a moon"
+       "text_md": "a moon",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "a planet"
+       "text_md": "a planet",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D - (a planet);\nA is incorrect because comets have comets have elliptical orbits\nB is incorrect because galaxies do not orbit anything\nC is incorrect because moons orbit planets",
+     "mark_points": [
+      {
+       "id": "2019-06-1-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer D: a planet"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -102,29 +122,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "a comet"
+       "text_md": "a comet",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "a galaxy"
+       "text_md": "a galaxy",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "a moon"
+       "text_md": "a moon",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "a planet"
+       "text_md": "a planet",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A - (a comet);\nB is incorrect because galaxies do not orbit anything\nC is incorrect because moons orbit planets\nD is incorrect because planets have circular orbits",
+     "mark_points": [
+      {
+       "id": "2019-06-1-a-iii-MP1",
+       "marks": 1,
+       "text_md": "Answer A: a comet"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -135,7 +167,15 @@
      "question_type": "structured",
      "problem_md": "State the name given to a large collection of billions of stars.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "galaxy; allow named galaxy\ne.g. Andromeda, Milky\nWay\nignore universe",
+     "mark_points": [
+      {
+       "id": "2019-06-1-b-MP1",
+       "marks": 1,
+       "text_md": "galaxy; allow named galaxy\ne.g. Andromeda, Milky\nWay\nignore universe"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -153,7 +193,15 @@
      "question_type": "structured",
      "problem_md": "Physicists classify stars according to their colour. Each group of stars of similar colour is called a spectral class. The table gives information about colour and surface temperature for three spectral classes of stars. The Sun belongs to spectral class G. Surface temperature Spectral class Colour in kelvin B blue-white G yellow 5600 M orange-red Complete the table by suggesting values for the missing surface temperatures.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "spectral class B to have any temperature higher\nthan 5600 K;\nspectral class M to have any temperature lower\nthan 5600 K;",
+     "mark_points": [
+      {
+       "id": "2019-06-1-c-MP1",
+       "marks": 2,
+       "text_md": "spectral class B to have any temperature higher\nthan 5600 K;\nspectral class M to have any temperature lower\nthan 5600 K;"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
@@ -183,7 +231,15 @@
      "question_type": "structured",
      "problem_md": "There are stars in the universe with masses much greater than the mass of the Sun. Describe what happens to these high-mass stars when they leave the main sequence stage of their evolution.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "star becomes a red (super) giant; allow “supergiant”\n(then) a supernova;\n(leaving) a neutron star / black hole; allow pulsar\nMax 2 for incorrect\norder\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-1-d-MP1",
+       "marks": 3,
+       "text_md": "star becomes a red (super) giant; allow “supergiant”\n(then) a supernova;\n(leaving) a neutron star / black hole; allow pulsar\nMax 2 for incorrect\norder\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -215,7 +271,15 @@
      "question_type": "structured",
      "problem_md": "State the role of the moderator in a nuclear fission power station.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "reduce the kinetic energy of neutrons; allow ‘slow down’\nneutrons",
+     "mark_points": [
+      {
+       "id": "2019-06-2-a-i-MP1",
+       "marks": 1,
+       "text_md": "reduce the kinetic energy of neutrons; allow ‘slow down’\nneutrons"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -233,7 +297,15 @@
      "question_type": "structured",
      "problem_md": "Some of the daughter nuclei produced in nuclear fission are highly radioactive and emit high energy neutrons when they decay. Explain which feature of a nuclear fission reactor reduces the risks from these high energy neutrons.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "to absorb (high energy) neutrons; allow absorb / reduce\nstrength of neutron\nradiation\ncondone “stop neutrons\nescaping”\nuse of (concrete / lead) shielding; allow “concrete walls”",
+     "mark_points": [
+      {
+       "id": "2019-06-2-a-ii-MP1",
+       "marks": 2,
+       "text_md": "to absorb (high energy) neutrons; allow absorb / reduce\nstrength of neutron\nradiation\ncondone “stop neutrons\nescaping”\nuse of (concrete / lead) shielding; allow “concrete walls”"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -251,7 +323,15 @@
      "question_type": "structured",
      "problem_md": "The daughter nuclei can cause contamination and irradiation. Describe the difference between contamination and irradiation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that contamination is when a non-radioactive\nobject comes into contact with a radioactive\nmaterial;\nidea that irradiation is when radiation is present;\nCondone idea of\nexposure for 1 mark if\nno other mark scored",
+     "mark_points": [
+      {
+       "id": "2019-06-2-a-iii-MP1",
+       "marks": 2,
+       "text_md": "idea that contamination is when a non-radioactive\nobject comes into contact with a radioactive\nmaterial;\nidea that irradiation is when radiation is present;\nCondone idea of\nexposure for 1 mark if\nno other mark scored"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -365,12 +445,12 @@
      "problem_md": "State what is meant by the term isotope.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(nuclei with) the same number of protons; allow same atomic\nnumber / same element\n(but) different number of neutrons; allow different nucleon\n/ mass number /atomic\nmass\n(b) A (82);\nB is incorrect because this is the number of neutrons\nC is incorrect because this is the number of nucleons\nD is incorrect because this is double the proton number + nucleon number",
+     "solution_md": "(nuclei with) the same number of protons; allow same atomic\nnumber / same element\n(but) different number of neutrons; allow different nucleon\n/ mass number /atomic\nmass",
      "mark_points": [
       {
        "id": "2019-06-3-a-MP1",
        "marks": 2,
-       "text_md": "(nuclei with) the same number of protons; allow same atomic\nnumber / same element\n(but) different number of neutrons; allow different nucleon\n/ mass number /atomic\nmass\n(b) A (82);\nB is incorrect because this is the number of neutrons\nC is incorrect because this is the number of nucleons\nD is incorrect because this is double the proton number + nucleon number"
+       "text_md": "(nuclei with) the same number of protons; allow same atomic\nnumber / same element\n(but) different number of neutrons; allow different nucleon\n/ mass number /atomic\nmass"
       }
      ],
      "source_page": 8,
@@ -392,29 +472,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "82"
+       "text_md": "82",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "128"
+       "text_md": "128",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "210"
+       "text_md": "210",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "292"
+       "text_md": "292",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (82);\nB is incorrect because this is the number of neutrons\nC is incorrect because this is the number of nucleons\nD is incorrect because this is double the proton number + nucleon number",
+     "mark_points": [
+      {
+       "id": "2019-06-3-b-MP1",
+       "marks": 1,
+       "text_md": "Answer A: 82"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -487,7 +579,15 @@
      "question_type": "structured",
      "problem_md": "State how energy is transferred from the Sun to the water.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "by radiation / by (infrared) light; ignore “heat”\nAllow EM waves/IR,\ncondone visible, UV,\nsunlight\ncondone “light rays”",
+     "mark_points": [
+      {
+       "id": "2019-06-4-a-i-MP1",
+       "marks": 1,
+       "text_md": "by radiation / by (infrared) light; ignore “heat”\nAllow EM waves/IR,\ncondone visible, UV,\nsunlight\ncondone “light rays”"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -505,7 +605,15 @@
      "question_type": "structured",
      "problem_md": "State what happens to the average speed of the water molecules as the water is heated.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(average speed) increases; e.g. “faster”",
+     "mark_points": [
+      {
+       "id": "2019-06-4-a-ii-MP1",
+       "marks": 1,
+       "text_md": "(average speed) increases; e.g. “faster”"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -592,7 +700,15 @@
      "question_type": "structured",
      "problem_md": "Use the diagram to determine the mean diameter of the cylinder of putty. mean diameter = cm",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "diameter measured within range 3.5-4.0 cm;\nevidence of finding a mean of the diameter;",
+     "mark_points": [
+      {
+       "id": "2019-06-5-a-i-MP1",
+       "marks": 2,
+       "text_md": "diameter measured within range 3.5-4.0 cm;\nevidence of finding a mean of the diameter;"
+      }
+     ],
      "source_page": 13,
      "assets": [
       {
@@ -624,7 +740,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the cross-sectional area of the cylinder of putty in cm2. [area of a circle = π × radius2] cross-sectional area = cm2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution of radius into given formula;\nevaluation of area within range 9.6-12.6 cm2; 1 mark max if diameter\nused instead of radius",
+     "mark_points": [
+      {
+       "id": "2019-06-5-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution of radius into given formula;\nevaluation of area within range 9.6-12.6 cm2; 1 mark max if diameter\nused instead of radius"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -747,12 +871,12 @@
      "problem_md": "Draw the curve of best fit.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "line (curve) of best fit acceptable; allow ECF from plotting\ni.e. smooth curve with\npoints evenly\ndistributed about it\n(d) voltage stays the same;\n(because) each putty cylinder is connected in\nparallel (with the cells);\ntotal current doubles; allow current increases\n(because) current in each putty cylinder stays the allow resistors in\nsame (as before) and these currents add together; parallel have lower\ntotal resistance\nallow correct use of\nresistors in parallel\nformula\nAnswer Notes Marks",
+     "solution_md": "line (curve) of best fit acceptable; allow ECF from plotting\ni.e. smooth curve with\npoints evenly\ndistributed about it",
      "mark_points": [
       {
        "id": "2019-06-5-c-iii-MP1",
        "marks": 1,
-       "text_md": "line (curve) of best fit acceptable; allow ECF from plotting\ni.e. smooth curve with\npoints evenly\ndistributed about it\n(d) voltage stays the same;\n(because) each putty cylinder is connected in\nparallel (with the cells);\ntotal current doubles; allow current increases\n(because) current in each putty cylinder stays the allow resistors in\nsame (as before) and these currents add together; parallel have lower\ntotal resistance\nallow correct use of\nresistors in parallel\nformula\nAnswer Notes Marks"
+       "text_md": "line (curve) of best fit acceptable; allow ECF from plotting\ni.e. smooth curve with\npoints evenly\ndistributed about it"
       }
      ],
      "source_page": 15,
@@ -772,7 +896,15 @@
      "question_type": "structured",
      "problem_md": "The student extends his investigation by connecting two new identical cylinders to a battery. The diagram shows the circuit he uses. putty cylinder putty cylinder He measures the voltage of each cylinder and the total current in the circuit. Discuss how his measurements of voltage and current compare with the measurements when only one of these cylinders is used.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "voltage stays the same;\n(because) each putty cylinder is connected in\nparallel (with the cells);\ntotal current doubles; allow current increases\n(because) current in each putty cylinder stays the allow resistors in\nsame (as before) and these currents add together; parallel have lower\ntotal resistance\nallow correct use of\nresistors in parallel\nformula\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-5-d-MP1",
+       "marks": 4,
+       "text_md": "voltage stays the same;\n(because) each putty cylinder is connected in\nparallel (with the cells);\ntotal current doubles; allow current increases\n(because) current in each putty cylinder stays the allow resistors in\nsame (as before) and these currents add together; parallel have lower\ntotal resistance\nallow correct use of\nresistors in parallel\nformula\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 16,
      "assets": [
       {
@@ -819,7 +951,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking density, mass and volume.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "density = mass / volume; allow rearrangements\nand use of symbols e.g.\nV = m / ρ or D = M/V",
+     "mark_points": [
+      {
+       "id": "2019-06-6-a-i-MP1",
+       "marks": 1,
+       "text_md": "density = mass / volume; allow rearrangements\nand use of symbols e.g.\nV = m / ρ or D = M/V"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -837,7 +977,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the volume of the ball. volume = cm3",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution OR rearrangement;\nevaluation;\ne.g.\nV = m / ρ OR 2.3 = 19 / V\n(V =) 8.3 (cm3) allow 8.26…",
+     "mark_points": [
+      {
+       "id": "2019-06-6-a-ii-MP1",
+       "marks": 2,
+       "text_md": "substitution OR rearrangement;\nevaluation;\ne.g.\nV = m / ρ OR 2.3 = 19 / V\n(V =) 8.3 (cm3) allow 8.26…"
+      }
+     ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
@@ -924,12 +1072,12 @@
      "problem_md": "Design a suitable method for the student’s investigation. Your answer should include ● the measuring equipment needed ● details of the independent, dependent and control variables ● how the average speed will be determined You may include a diagram to help your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "measuring equipment: allow if clearly included\nin diagram\nMP1. ruler / tape measure;\nMP2. stopclock / stopwatch; condone ‘timer’\naccept use of light\ngates if connected to\ntiming device e.g.\ncomputer/datalogger\naccept ‘camera’ if\nsubsequent method\ndescribes ‘freeze-\nframe’/timestamp\ntechnique\nvariables:\nMP3. surface material is the independent\nvariable;\nMP4. (average) speed is the dependent variable; allow time as the\ndependent variable\nMP5. any one control variable from; allow ‘keep constant’\nfor ‘control variable’\n• size / mass / material / area /weight of\nblock\n• height/angle/gradient of ramp\n• initial force given to block allow ‘push’ given to\nblock\nallow initial speed or\nvelocity\n• distance travelled down the ramp allow same starting\npoint and finishing point\ndetermining average speed:\nMP6. use of (average) speed = accept use of light gate\ndistance travelled / time if description includes\nlength of card/block\nand time of transit\n(b) (bar chart because) surface material is a {categoric condone surface\n/ discontinuous / non-continuous} variable; material being a\ndiscrete variable\nTotal for Question 7 =7 marks\nAnswer Notes Marks",
+     "solution_md": "measuring equipment: allow if clearly included\nin diagram\nMP1. ruler / tape measure;\nMP2. stopclock / stopwatch; condone ‘timer’\naccept use of light\ngates if connected to\ntiming device e.g.\ncomputer/datalogger\naccept ‘camera’ if\nsubsequent method\ndescribes ‘freeze-\nframe’/timestamp\ntechnique\nvariables:\nMP3. surface material is the independent\nvariable;\nMP4. (average) speed is the dependent variable; allow time as the\ndependent variable\nMP5. any one control variable from; allow ‘keep constant’\nfor ‘control variable’\n• size / mass / material / area /weight of\nblock\n• height/angle/gradient of ramp\n• initial force given to block allow ‘push’ given to\nblock\nallow initial speed or\nvelocity\n• distance travelled down the ramp allow same starting\npoint and finishing point\ndetermining average speed:\nMP6. use of (average) speed = accept use of light gate\ndistance travelled / time if description includes\nlength of card/block\nand time of transit",
      "mark_points": [
       {
        "id": "2019-06-7-a-MP1",
        "marks": 6,
-       "text_md": "measuring equipment: allow if clearly included\nin diagram\nMP1. ruler / tape measure;\nMP2. stopclock / stopwatch; condone ‘timer’\naccept use of light\ngates if connected to\ntiming device e.g.\ncomputer/datalogger\naccept ‘camera’ if\nsubsequent method\ndescribes ‘freeze-\nframe’/timestamp\ntechnique\nvariables:\nMP3. surface material is the independent\nvariable;\nMP4. (average) speed is the dependent variable; allow time as the\ndependent variable\nMP5. any one control variable from; allow ‘keep constant’\nfor ‘control variable’\n• size / mass / material / area /weight of\nblock\n• height/angle/gradient of ramp\n• initial force given to block allow ‘push’ given to\nblock\nallow initial speed or\nvelocity\n• distance travelled down the ramp allow same starting\npoint and finishing point\ndetermining average speed:\nMP6. use of (average) speed = accept use of light gate\ndistance travelled / time if description includes\nlength of card/block\nand time of transit\n(b) (bar chart because) surface material is a {categoric condone surface\n/ discontinuous / non-continuous} variable; material being a\ndiscrete variable\nTotal for Question 7 =7 marks\nAnswer Notes Marks"
+       "text_md": "measuring equipment: allow if clearly included\nin diagram\nMP1. ruler / tape measure;\nMP2. stopclock / stopwatch; condone ‘timer’\naccept use of light\ngates if connected to\ntiming device e.g.\ncomputer/datalogger\naccept ‘camera’ if\nsubsequent method\ndescribes ‘freeze-\nframe’/timestamp\ntechnique\nvariables:\nMP3. surface material is the independent\nvariable;\nMP4. (average) speed is the dependent variable; allow time as the\ndependent variable\nMP5. any one control variable from; allow ‘keep constant’\nfor ‘control variable’\n• size / mass / material / area /weight of\nblock\n• height/angle/gradient of ramp\n• initial force given to block allow ‘push’ given to\nblock\nallow initial speed or\nvelocity\n• distance travelled down the ramp allow same starting\npoint and finishing point\ndetermining average speed:\nMP6. use of (average) speed = accept use of light gate\ndistance travelled / time if description includes\nlength of card/block\nand time of transit"
       }
      ],
      "source_page": 18,
@@ -958,7 +1106,15 @@
      "question_type": "structured",
      "problem_md": "Justify why the student should display their results as a bar chart.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(bar chart because) surface material is a {categoric condone surface\n/ discontinuous / non-continuous} variable; material being a\ndiscrete variable\nTotal for Question 7 =7 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-7-b-MP1",
+       "marks": 1,
+       "text_md": "(bar chart because) surface material is a {categoric condone surface\n/ discontinuous / non-continuous} variable; material being a\ndiscrete variable\nTotal for Question 7 =7 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -988,29 +1144,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "acceleration and air resistance are equal"
+       "text_md": "acceleration and air resistance are equal",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "acceleration and velocity are equal"
+       "text_md": "acceleration and velocity are equal",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "weight and acceleration are equal"
+       "text_md": "weight and acceleration are equal",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "weight and air resistance are equal"
+       "text_md": "weight and air resistance are equal",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D – (weight and air resistance are equal);\nA, B and C cannot be correct because accelerations,\nforces and velocities are not the same SI quantities.",
+     "mark_points": [
+      {
+       "id": "2019-06-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer D: weight and air resistance are equal"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -1023,29 +1191,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "50 m"
+       "text_md": "50 m",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "1300 m"
+       "text_md": "1300 m",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "2300 m"
+       "text_md": "2300 m",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "2700 m"
+       "text_md": "2700 m",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C – (2300 m);\nA cannot be correct because each large square\nrepresents 200 m and the area is larger than one\nlarge square.\nB cannot be correct because the area is larger than\n6.5 large squares\nD cannot be correct because the area is lower than\n12.5 large squares",
+     "mark_points": [
+      {
+       "id": "2019-06-8-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer C: 2300 m"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -1056,7 +1236,15 @@
      "question_type": "structured",
      "problem_md": "The parachute jumper opens her parachute at point B. Her velocity decreases until she reaches terminal velocity again at point C. Explain this change in velocity.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from: allow “drag” for air\nresistance throughout\nMP1. air resistance increases (greatly) when allow “upwards force”\nparachute is opened;\nMP2. idea that air resistance is greater than the allow upwards force is\nweight; bigger than downwards\nforce\nMP3. (therefore) deceleration / upwards allow idea of upwards\nacceleration; resultant force\nignore “velocity\ndecreases”\nMP4. idea that air resistance decreases with\nspeed;\nMP5. resultant force (eventually) becomes zero; allow “forces are\nbalanced again”\nallow air resistance =\nweight\nMP6. constant speed achieved allow idea that there is\nno acceleration",
+     "mark_points": [
+      {
+       "id": "2019-06-8-b-MP1",
+       "marks": 4,
+       "text_md": "any four from: allow “drag” for air\nresistance throughout\nMP1. air resistance increases (greatly) when allow “upwards force”\nparachute is opened;\nMP2. idea that air resistance is greater than the allow upwards force is\nweight; bigger than downwards\nforce\nMP3. (therefore) deceleration / upwards allow idea of upwards\nacceleration; resultant force\nignore “velocity\ndecreases”\nMP4. idea that air resistance decreases with\nspeed;\nMP5. resultant force (eventually) becomes zero; allow “forces are\nbalanced again”\nallow air resistance =\nweight\nMP6. constant speed achieved allow idea that there is\nno acceleration"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1076,29 +1264,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "chemical store"
+       "text_md": "chemical store",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "gravitational store"
+       "text_md": "gravitational store",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "kinetic store"
+       "text_md": "kinetic store",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "thermal store"
+       "text_md": "thermal store",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D – (thermal store);\nA cannot be correct as there is no mechanism for\nthis transfer\nB cannot be correct as the gravitational store is\ndecreasing\nC cannot be correct as the jumper is at constant\nvelocity\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-8-c-MP1",
+       "marks": 1,
+       "text_md": "Answer D: thermal store"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -1123,7 +1323,15 @@
      "question_type": "structured",
      "problem_md": "Complete diagram 1 by showing ● the wavefronts in the water ● the path of the light ray in the water",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "light ray refracting and bending in the correct ignore any response in\ndirection; the air e.g. reflected\nwavefronts or direction\nof travel of reflected\nray\nwavefronts in water drawn closer together by eye; allow wherever seen in\ndiagram\nwavefronts drawn in water join up with wavefronts\nin air;",
+     "mark_points": [
+      {
+       "id": "2019-06-9-a-i-MP1",
+       "marks": 3,
+       "text_md": "light ray refracting and bending in the correct ignore any response in\ndirection; the air e.g. reflected\nwavefronts or direction\nof travel of reflected\nray\nwavefronts in water drawn closer together by eye; allow wherever seen in\ndiagram\nwavefronts drawn in water join up with wavefronts\nin air;"
+      }
+     ],
      "source_page": 23,
      "assets": [
       {
@@ -1155,7 +1363,15 @@
      "question_type": "structured",
      "problem_md": "Explain what happens to the wavelength of light when it passes from air into water.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "wavelength decreases;\n(because) wave speed decreases and frequency\nremains constant;",
+     "mark_points": [
+      {
+       "id": "2019-06-9-a-ii-MP1",
+       "marks": 2,
+       "text_md": "wavelength decreases;\n(because) wave speed decreases and frequency\nremains constant;"
+      }
+     ],
      "source_page": 23,
      "assets": [],
      "spec_point_codes": [],
@@ -1334,7 +1550,15 @@
      "question_type": "structured",
      "problem_md": "Force X opposes the motion of the van. State the name of force X.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "friction / air resistance / drag;",
+     "mark_points": [
+      {
+       "id": "2019-06-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "friction / air resistance / drag;"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1352,7 +1576,15 @@
      "question_type": "structured",
      "problem_md": "The resultant force acting on the van is 1500 N. Calculate the magnitude of force X. [assume X is the only horizontal force opposing the motion of the van] force X = N",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "1000 (N);",
+     "mark_points": [
+      {
+       "id": "2019-06-10-a-ii-MP1",
+       "marks": 1,
+       "text_md": "1000 (N);"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1449,12 +1681,12 @@
      "problem_md": "Describe two factors that would increase the braking distance. 1 2",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any two described factors from: ignore condition of\ndriver\nMP1. increased mass (of van); allow weight for mass\nMP2. increased speed (of van); allow KE for speed\nMP3. idea of less friction on the road e.g. road\nbeing wet / icy etc;\nMP4. idea of worn vehicle parts e.g. tyres / brakes\netc.;\nMP5. van travelling downhill;\n(c) -1 if POT error\ncalculation of new acceleration (5.6);\nsubstitution into a = (v – u) / t; allow ecf from\nacceleration value\nallow use of previously\ncalculated acceleration\nrearrangement;\nevaluation;\naward full marks for\nmomentum method i.e.\ne.g. recall of F = (mv-mu)/t;\nsubstitution;\nrearrangement;\nevaluation;\nnew acceleration = 5.6 (m/s2)\n5.6 = 18 / t\n(t =) 18/5.6\n(t =) 3.2 (s) allow 3.214…\nignore negative\nreject 25000/14000 x 18\n(i.e. mass x 10 x\nspeed/force) which\ngives 32.\nAnswer Notes Marks",
+     "solution_md": "any two described factors from: ignore condition of\ndriver\nMP1. increased mass (of van); allow weight for mass\nMP2. increased speed (of van); allow KE for speed\nMP3. idea of less friction on the road e.g. road\nbeing wet / icy etc;\nMP4. idea of worn vehicle parts e.g. tyres / brakes\netc.;\nMP5. van travelling downhill;",
      "mark_points": [
       {
        "id": "2019-06-10-b-iv-MP1",
        "marks": 2,
-       "text_md": "any two described factors from: ignore condition of\ndriver\nMP1. increased mass (of van); allow weight for mass\nMP2. increased speed (of van); allow KE for speed\nMP3. idea of less friction on the road e.g. road\nbeing wet / icy etc;\nMP4. idea of worn vehicle parts e.g. tyres / brakes\netc.;\nMP5. van travelling downhill;\n(c) -1 if POT error\ncalculation of new acceleration (5.6);\nsubstitution into a = (v – u) / t; allow ecf from\nacceleration value\nallow use of previously\ncalculated acceleration\nrearrangement;\nevaluation;\naward full marks for\nmomentum method i.e.\ne.g. recall of F = (mv-mu)/t;\nsubstitution;\nrearrangement;\nevaluation;\nnew acceleration = 5.6 (m/s2)\n5.6 = 18 / t\n(t =) 18/5.6\n(t =) 3.2 (s) allow 3.214…\nignore negative\nreject 25000/14000 x 18\n(i.e. mass x 10 x\nspeed/force) which\ngives 32.\nAnswer Notes Marks"
+       "text_md": "any two described factors from: ignore condition of\ndriver\nMP1. increased mass (of van); allow weight for mass\nMP2. increased speed (of van); allow KE for speed\nMP3. idea of less friction on the road e.g. road\nbeing wet / icy etc;\nMP4. idea of worn vehicle parts e.g. tyres / brakes\netc.;\nMP5. van travelling downhill;"
       }
      ],
      "source_page": 29,
@@ -1474,7 +1706,15 @@
      "question_type": "structured",
      "problem_md": "When the van is fully loaded its mass increases to 2500 kg. Calculate the time taken to bring the fully loaded van to rest when it is travelling at an initial speed of 18 m/s. [assume that the resultant force during braking remains at 14 kN] time = s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "-1 if POT error\ncalculation of new acceleration (5.6);\nsubstitution into a = (v – u) / t; allow ecf from\nacceleration value\nallow use of previously\ncalculated acceleration\nrearrangement;\nevaluation;\naward full marks for\nmomentum method i.e.\ne.g. recall of F = (mv-mu)/t;\nsubstitution;\nrearrangement;\nevaluation;\nnew acceleration = 5.6 (m/s2)\n5.6 = 18 / t\n(t =) 18/5.6\n(t =) 3.2 (s) allow 3.214…\nignore negative\nreject 25000/14000 x 18\n(i.e. mass x 10 x\nspeed/force) which\ngives 32.\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-10-c-MP1",
+       "marks": 4,
+       "text_md": "-1 if POT error\ncalculation of new acceleration (5.6);\nsubstitution into a = (v – u) / t; allow ecf from\nacceleration value\nallow use of previously\ncalculated acceleration\nrearrangement;\nevaluation;\naward full marks for\nmomentum method i.e.\ne.g. recall of F = (mv-mu)/t;\nsubstitution;\nrearrangement;\nevaluation;\nnew acceleration = 5.6 (m/s2)\n5.6 = 18 / t\n(t =) 18/5.6\n(t =) 3.2 (s) allow 3.214…\nignore negative\nreject 25000/14000 x 18\n(i.e. mass x 10 x\nspeed/force) which\ngives 32.\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 29,
      "assets": [],
      "spec_point_codes": [],
@@ -1576,12 +1816,12 @@
      "problem_md": "Explain how the diagram shows that the strength of the magnetic field changes.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that field lines are closer together / further\napart;\n(showing that) field strongest near the poles / allow “magnet” for\nweaker away from the poles; “poles”\n(c) any pair of readings read from the graph;\ncorrect substitution into formula to find constant;\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are different\nso the results do not\nagree with the\nconclusion\ne.g.\nwhen distance = 30mm, magnetic field strength =\n2.3 mT\n(2.3 x 302 =) 2070\n(0.8 x 502 =) 2000\nconstants are approximately the same so results\nagree with conclusion\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "idea that field lines are closer together / further\napart;\n(showing that) field strongest near the poles / allow “magnet” for\nweaker away from the poles; “poles”",
      "mark_points": [
       {
        "id": "2019-06-11-b-ii-MP1",
        "marks": 2,
-       "text_md": "idea that field lines are closer together / further\napart;\n(showing that) field strongest near the poles / allow “magnet” for\nweaker away from the poles; “poles”\n(c) any pair of readings read from the graph;\ncorrect substitution into formula to find constant;\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are different\nso the results do not\nagree with the\nconclusion\ne.g.\nwhen distance = 30mm, magnetic field strength =\n2.3 mT\n(2.3 x 302 =) 2070\n(0.8 x 502 =) 2000\nconstants are approximately the same so results\nagree with conclusion\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "idea that field lines are closer together / further\napart;\n(showing that) field strongest near the poles / allow “magnet” for\nweaker away from the poles; “poles”"
       }
      ],
      "source_page": 31,
@@ -1615,7 +1855,15 @@
      "question_type": "structured",
      "problem_md": "Magnetic field strength can be measured in units of milli-tesla (mT). A student uses a different magnet. The student measures the magnetic field strength at different distances from the north pole of this magnet. The graph shows his results. 6.0 – 5.0 – 4.0 – Magnetic field strength in mT 3.0 – 2.0 – 1.0 – 0.0 – 10 20 30 40 50 60 70 80 Distance from magnet in mm The student concludes that his results obey this relationship. magnetic field strength × distance2 = constant Use data from the graph to deduce whether the student’s results support this conclusion.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any pair of readings read from the graph;\ncorrect substitution into formula to find constant;\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are different\nso the results do not\nagree with the\nconclusion\ne.g.\nwhen distance = 30mm, magnetic field strength =\n2.3 mT\n(2.3 x 302 =) 2070\n(0.8 x 502 =) 2000\nconstants are approximately the same so results\nagree with conclusion\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2019-06-11-c-MP1",
+       "marks": 4,
+       "text_md": "any pair of readings read from the graph;\ncorrect substitution into formula to find constant;\ndifferent pair of readings used correctly to find\nconstant;\nstatement that the results agree with the DOP\nconclusion;\nallow idea that the\nconstants are different\nso the results do not\nagree with the\nconclusion\ne.g.\nwhen distance = 30mm, magnetic field strength =\n2.3 mT\n(2.3 x 302 =) 2070\n(0.8 x 502 =) 2000\nconstants are approximately the same so results\nagree with conclusion\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 32,
      "assets": [
       {

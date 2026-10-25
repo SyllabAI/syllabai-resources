@@ -25,14 +25,6 @@ Which of these is the same as a beta particle?
 > as an alpha particle
 > D cannot be correct as a beta particle is not a
 > neutron
-> (b) B - helium nucleus;
-> A cannot be correct as an alpha particle is not an
-> EM wave
-> C cannot be correct as a neutron is merely a
-> constituent particle of an alpha particle
-> D cannot be correct as a proton is merely a
-> constituent particle of an alpha particle
-> top line: 4;
 
 - **(1)** Answer B: electron
 
@@ -41,9 +33,23 @@ Which of these is the same as a beta particle?
 Which of these is the same as an alpha particle?
 
 - **(A)** electromagnetic wave
-- **(B)** helium nucleus
+- **(B)** helium nucleus  ✔
 - **(C)** neutron
 - **(D)** proton
+
+
+**Mark scheme answer**
+
+> B - helium nucleus;
+> A cannot be correct as an alpha particle is not an
+> EM wave
+> C cannot be correct as a neutron is merely a
+> constituent particle of an alpha particle
+> D cannot be correct as a proton is merely a
+> constituent particle of an alpha particle
+> top line: 4;
+
+- **(1)** Answer B: helium nucleus
 
 ### 1(c) [3]
 
@@ -248,17 +254,47 @@ Draw a cross to show the position of the Sun on the HR diagram.
 
 ![diagram — official paper figure (qp.pdf p.8) — shared with asset_4_a_diagram_stem](assets/asset_4_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> X drawn anywhere in rectangle on main sequence by eye and use extreme
+> as shown below; left edge of red giant
+> blob as a guide
+
+- **(1)** X drawn anywhere in rectangle on main sequence by eye and use extreme
+
 ### 4(a)(ii) [1]
 
 In approximately 4 billion years, the Sun will enter the next stage of its evolution. Draw a circle on the HR diagram around the area that will include the Sun in the next stage of its evolution.
 
 ![diagram — official paper figure (qp.pdf p.9) — shared with asset_4_a_diagram_stem](assets/asset_4_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> red giants in top right encircled as shown below; allow any loop that
+> overlaps correct area
+> only
+
+- **(1)** red giants in top right encircled as shown below; allow any loop that
+
 ### 4(b) [2]
 
 Describe the stars that are in the top left corner of the HR diagram.
 
 ![diagram — official paper figure (qp.pdf p.9) — shared with asset_4_a_diagram_stem](assets/asset_4_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> any two from: ignore reference to
+> absolute magnitude
+> • hot / high (surface) temperature;
+> • bright/ high luminosity / high power;
+> • white/blue-white/blue;
+> • high mass;
+
+- **(2)** any two from: ignore reference to
 
 ### 4(c)(i) [2]
 
@@ -459,13 +495,56 @@ The diagram shows forces used to turn a tap. 8.1 N 2.6 cm 2.6 cm pivot 8.1 N
 
 State the formula linking moment, force and perpendicular distance from a pivot.
 
+
+**Mark scheme answer**
+
+> moment = force × (perpendicular) distance allow standard symbols and
+> rearrangements e.g. ‘F =
+> moment/d’
+> condone ‘M = F × d’
+
+- **(1)** moment = force × (perpendicular) distance allow standard symbols and
+
 ### 6(a)(ii) [3]
 
 Calculate the total moment of the two forces required to turn the tap around the pivot. Give your answer in N cm. total moment = N cm
 
+
+**Mark scheme answer**
+
+> substitution into correct formula for one force;
+> attempt to combine two moments; accept however expressed
+> -1 POT error
+> correct evaluation;
+> eg.
+> moment of one force = 8.1 × 2.6 (cm) allow answers that round to
+> moment of one force = 21.06 (N cm) 84 for 2 marks
+> total moment = 21.06 × 2 = 42.12 (N cm)
+> correct answer = 42 (N cm)
+
+- **(3)** substitution into correct formula for one force;
+
 ### 6(b) [3]
 
 The tap is used to put some water in a bucket. Describe the arrangement and motion of the water particles in liquid water. You may draw a diagram to help your answer.
+
+
+**Mark scheme answer**
+
+> arrangement: mark can be scored from a
+> at least one from diagram
+> closely packed /eq; e.g. ‘all touching’, ‘not as
+> closely packed as the solid’
+> random/irregular (arrangement);
+> motion:
+> at least one from
+> random (motion);
+> idea of flow of particles; e.g. “particles slide over
+> each other”
+> ignore ‘move freely’
+> Answer Notes Marks
+
+- **(3)** arrangement: mark can be scored from a
 
 
 ## Question 7 (9 marks)
@@ -476,9 +555,31 @@ The photograph shows a wind turbine used for supplying energy on a large scale. 
 
 Describe a change in the turbine’s energy stores from when the turbine is at rest to when it is moving at full speed.
 
+
+**Mark scheme answer**
+
+> kinetic energy (store); accept thermal store
+> reject ‘heat’
+> increases;
+> accept ‘KE (store) of
+> air/wind to KE (store) of
+> turbine for 2 marks
+> accept ‘...to KE (store)
+> of turbine for 1 mark
+
+- **(2)** kinetic energy (store); accept thermal store
+
 ### 7(a)(ii) [2]
 
 Describe a change in the turbine’s energy stores when the wind is blowing but the turbine moves at constant speed.
+
+
+**Mark scheme answer**
+
+> thermal (store); ignore ‘heat'
+> increases; DOP
+
+- **(2)** thermal (store); ignore ‘heat'
 
 ### 7(b)(i) [1]
 
@@ -545,7 +646,17 @@ Give an appropriate method for measuring the distance between the student and th
 > allow ensuring use of
 > trundle wheel in a
 > straight line
-> (b) use of average speed = distance ÷ time taken;
+
+- **(2)** ignore any attempt at
+
+### 8(b) [3]
+
+The student uses a stopwatch to determine the time taken for the sound to travel from them to the wall and back again. The distance from the student to the wall is 65 m. The student measures a time of 0.35 seconds when the sound has travelled to the wall and back again. Calculate the speed of sound from the student’s data. speed of sound = m/s
+
+
+**Mark scheme answer**
+
+> use of average speed = distance ÷ time taken;
 > substitution; scores first two MP
 > evaluation;
 > eg.:
@@ -559,7 +670,17 @@ Give an appropriate method for measuring the distance between the student and th
 > accept answer that
 > rounds to 370 (m/s) for
 > 3 marks
-> (c) any four from:
+
+- **(3)** use of average speed = distance ÷ time taken;
+
+### 8(c) [4]
+
+Evaluate this method for determining an accurate value for the speed of sound.
+
+
+**Mark scheme answer**
+
+> any four from:
 > MP1 idea of original method did not repeat (and need to repeat (and
 > average) average)
 > repeating (and
@@ -575,7 +696,17 @@ Give an appropriate method for measuring the distance between the student and th
 > temperature, humidity, wind, noise
 > ignore ‘repeat and
 > average’
-> (d) ignore use of
+
+- **(4)** any four from:
+
+### 8(d) [2]
+
+Explain an improvement to the student’s method.
+
+
+**Mark scheme answer**
+
+> ignore use of
 > oscilloscope to
 > measure wavelength or
 > period
@@ -603,17 +734,5 @@ Give an appropriate method for measuring the distance between the student and th
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(2)** ignore any attempt at
-
-### 8(b) [3]
-
-The student uses a stopwatch to determine the time taken for the sound to travel from them to the wall and back again. The distance from the student to the wall is 65 m. The student measures a time of 0.35 seconds when the sound has travelled to the wall and back again. Calculate the speed of sound from the student’s data. speed of sound = m/s
-
-### 8(c) [4]
-
-Evaluate this method for determining an accurate value for the speed of sound.
-
-### 8(d) [2]
-
-Explain an improvement to the student’s method.
+- **(2)** ignore use of
 

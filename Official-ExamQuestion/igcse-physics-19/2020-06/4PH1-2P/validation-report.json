@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:42:49Z",
+ "generated_utc": "2026-10-25T22:06:09Z",
  "series": "2020-06",
  "paper": "2P",
  "gates": [
@@ -62,21 +62,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 25/35 (71%)",
+   "status": "PASS",
+   "summary": "MS linkage 35/35 (100%)",
    "details": {
-    "unmatched": [
-     "1(a)(i)",
-     "1(a)(ii)",
-     "1(c)",
-     "4(b)",
-     "5(b)",
-     "6(a)(i)",
-     "6(a)(ii)",
-     "6(b)",
-     "7(b)",
-     "8(b)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -91,7 +80,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 25/25 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 1 parts, agrees with QP marks on 1",
+   "summary": "solution_md on 35/35 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 1 parts, agrees with QP marks on 1",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -123,46 +112,6 @@
   {
    "part": "4(b)",
    "reason": "figure crop required (grid, page 13)"
-  },
-  {
-   "part": "1(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "1(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "1(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "7(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "8(b)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
  "ocr_pages": [],

@@ -2,30 +2,37 @@
 
 > Landed 2026-10-26 (Task 16) under **ADR-039** ("the pipeline improves; provenance
 > discloses") on the operator's explicit order to land the REVIEW-heavy corpus now
-> rather than after the MS-parser wave (trace 1a174b2c6305cbfd). This file is the
+> rather than after the MS-parser wave (trace 1a174b2c6305cbfd). **Re-generated
+> 2026-10-26 (Task 17)** after the MS-table parser wave (converter v0.19.0, LEDGER
+> F72) closed the G3/G5 deltas this file originally disclosed. This file is the
 > lane's disclosure of record: what is served, what is honestly withheld, and which
 > waves are open. Chemistry precedent: `AUDIT-2026-10-25-igcse-chemistry-19.md` and
 > `AGENTS.md`.
 
 ## Verdict
 
-**LANDED-REVIEW-HEAVY, fail-closed honest.** 53 of the 58 census paper dirs of the
-Edexcel IGCSE Physics (4PH1) corpus convert end-to-end on converter v0.17.4 and are
-committed here as serving content: 520 questions, 2,171 parts, 4,790 marks, 531 figure
-assets. Every slice passes the structural gates — G0 identity (sha256 vs archive
-manifests, staged fresh per slice), G1 structure (the physics footer law: 1P = 110,
-2P = 70, every part-sum exact), G2-D disclosure, G4 figure resolution, G6 registry
-(codes validated against the SME `igcse-physics-19` registry), G7 solution emission —
-and every run's negative controls are DETECTED 3/3. What does NOT pass is exactly the
-known physics MS-table parser wave, disclosed here and in every slice's
-`validation-report.json`: **G3 MCQ keying** (39 FAIL / 14 PASS — 79 of 138 MCQ parts
-carry choices as printed but no `is_correct`) and **G5 answer linkage** (11 FAIL /
-42 REVIEW — 936 of 2,171 parts unmatched). Nothing is invented to fill those gaps:
-unmatched parts serve question, marks and provenance with `answer_status: "unmatched"`
-and no solution; keyed-vs-unkeyed is exactly the converter's honest refusal, never a
-guess. Zero linked parts carry an empty `solution_md` (1,235/1,235 linked carry their
-verbatim MS block). The corpus-wide review queue is 1,080 items: 936 linkage + 79 MCQ
-keys + 35 crop-verify + 30 crop-required.
+**LANDED (Task 17 supersedes the Task 16 LANDED-REVIEW-HEAVY state); fail-closed honest.**
+53 of the 58 census paper dirs of the Edexcel IGCSE Physics (4PH1) corpus convert end-to-end
+on converter v0.19.0 and are committed here as serving content: 520 questions, 2,171 parts,
+4,790 marks, 531 figure assets. **Every slice passes every gate** — G0 identity (sha256 vs
+archive manifests, staged fresh per slice), G1 structure (the physics footer law: 1P = 110,
+2P = 70, every part-sum exact), G2-D disclosure, G3 MCQ integrity, G4 figure resolution,
+G5 answer linkage, G6 registry (codes validated against the SME `igcse-physics-19`
+registry), G7 solution emission — and every run's negative controls are DETECTED 3/3.
+The Task 16 open deltas are closed by the F72 MS-table parser wave: **G5 answer linkage is
+corpus-complete (2,171/2,171 parts linked; Task 16 baseline 1,235 — the vertical marker
+census found 6 marker-row artifact classes + 3 keying shapes, all fixed vertical-lane-gated)**
+and **G3 MCQ keying is 134/138 (PASS 49 / FAIL 4)** — the 4 fails are QP-side structural
+classes, disclosed below and in each slice's `validation-report.json`, never guessed: two
+choice-label extraction drops (2020-01 1PR 1(b) labels A-C where the MS references arrow S;
+2023-06 2PR 7(a) labels A-E where the MS references F) and two non-MCQ questions the QP
+parser types as `multiple_choice` (2022-06 2PR 1(a) is a draw-a-matching-line question;
+2026-06 1PR 1(a) is a name-the-object labelling question). Zero linked parts carry an empty
+`solution_md`. The corpus-wide review queue is 67 items (Task 16: 1,080). One correction
+to record honestly: the wave FIXED a Task 16 mis-link the old pin had codified — 2024-11
+1P 1(b)(ii) served the 1(c) block ('22/7 for π') because the old parser never opened the
+(c) letter entry; it now serves its true MCQ block ('B - gravitational;', keyed B) and 1(c)
+serves its own (C74's pin re-anchored to 1(c), receipted in F72).
 
 ## Coverage (58 census dirs → 53 landed, 5 dispositioned)
 
@@ -40,14 +47,15 @@ standing receipt:
 
 ## What is served vs withheld (the learner surface)
 
-- **Served**: verbatim stems and problems, choices as printed (even when unkeyed),
-  page-anchored provenance per part, marks corroborating the printed QP totals, verbatim
-  MS answer blocks for all 1,235 linked parts, spec codes where the registry resolved
-  them (G6), figure crops for resolved mentions.
-- **Withheld (disclosed)**: `is_correct` on the 79 unresolved MCQ parts (the physics MS
-  prints its key in a cell-per-line table layout the parser wave has not yet mastered);
-  `solution_md`/`mark_points` on the 936 unmatched parts. G5-REVIEW slices serve their
-  linked parts normally — the REVIEW state is about the unlinked remainder.
+- **Served**: verbatim stems and problems, choices as printed, page-anchored provenance per
+  part, marks corroborating the printed QP totals, verbatim MS answer blocks for all 2,171
+  linked parts (corpus-complete; the 2026-06 2P 4(c)(i) equation-image answer serves via
+  `MS-LINK-OVERRIDES.json` under the F42 doctrine — eyeballed from the rendered MS page,
+  never model guessed), keyed answers on 134 of 138 MCQ parts, spec codes where the registry
+  resolved them (G6), figure crops for resolved mentions.
+- **Withheld (disclosed)**: `is_correct` on the 4 structural MCQ failures listed in the
+  verdict (the fix belongs to the QP choice-extraction/question-typing wave, not to the MS
+  lane); that is the entire withheld surface.
 - **Provenance fields**: schema `syllabai.official-paper-questions/0.2`; every part
   carries `edit_status: "extracted"` and `value_trace` (no serving edits were made in
   this wave — the PUA symbol-glyph normalizations are converter-level, per the F48/F52
@@ -69,32 +77,43 @@ the physics spec-labels wave (`spec-labels/4ph1-<series>[-<paper>].json`) is ope
 
 ## Converter provenance (the restore disclosure)
 
-This lane's outputs were produced by **v0.17.4** = the byte-exact restore of the
-v0.17.3 physics PUA tranche (merge `2254347353`) **plus F67** (the vertical-MS-lane
-F48 PUA gate). The tranche had been clobbered on main by the #136 tree-snapshot merge
-(third occurrence of the concurrent-merge clobber class — F66 below); the landing
-re-ships it with its outputs, per the "commit outputs and pipeline changes together"
-convention. Chemistry bit-identity: `parse_ms_vertical` is 4ph1-only
-(`ms_layout: "vertical"`), chemistry never calls it — by construction, the same
-argument v0.17.0 itself was landed under; the restored v0.17.3 delta carried the
-Task-15 chemistry no-op receipt (byte-identical outputs modulo `generated_utc` +
-generator string).
+This lane's outputs were produced by **v0.19.0** = the Task 16 restored tranche (v0.17.3
++ F67) **plus the F72 MS-table parser wave**: six vertical marker-row families (triple
+qn+letter+roman rows, letter+content rows, qn+content rows under an ascending+tail+indent
+triple gate, an indent gate against notes-wrap paren tokens, a paren-less letter cell, an
+orphan-roman re-anchor) + continuation-append semantics, and three vertical-gated keying
+refinements (bare-key `B;` rows, paren-span-stripped rebuttal detection, the pure-
+elimination F14 arm). `parse_ms_vertical` and every keying refinement are 4ph1-only
+(`ms_layout: "vertical"` gates); chemistry never executes any of it — bit-identity by
+construction, receipted: 2023-06 1C pre (main 0.18.0, wave-25) vs post (0.19.0) on identical staging
+— topic.json / validation-report.json / questions.md byte-identical modulo the version
+string, 7/7 assets byte-identical, gate stdout identical. The battery caught one
+self-inflicted regression pre-ship (a first-paren rebuttal split broke 2025-11 1P 9(b);
+fixed to paren-span stripping) — the battery law worked twice in one wave (F67's C74,
+now this).
 
 ## Canaries
 
 `check_canaries.py` gained the spec-lane registry (each canary may carry
-`spec: "4ch1" | "4ph1"`; chemistry defaults unchanged — bit-identical behavior). New
-pins: **C74** (`no_pua_served`, spec 4ph1, corpus-wide absence law + two π-mapping
-pins — written to catch the clobber class and it promptly caught the F67 leak
-pre-ship), **C75** (4PH1 2P footer law: G1 PASS, marks_total 70), **C76** (2023-06 1P
-prints 12 questions). Battery of record: **74/74 hold** on these outputs.
+`spec: "4ch1" | "4ph1"`; chemistry defaults unchanged — bit-identical behavior). Pins:
+**C74** (`no_pua_served`, spec 4ph1, corpus-wide absence law + two π-mapping pins —
+wrote to catch the clobber class, caught the F67 leak pre-ship, and its π pin exposed
+the Task 16 mis-link the wave then corrected), **C75** (4PH1 2P footer law: G1 PASS,
+marks_total 70), **C76** (2023-06 1P prints 12 questions), **C83** (2024-06 2P G3 — the
+triple-glue MCQ keying), **C84** (2023-01 2P G5 — the qn-content bootstrap + indent
+tolerance), **C85** (2026-06 2P G5 — the orphan-roman re-anchor + the F42 override).
+C57 (`ms_link_overrides_ledger`) is now lane-aware (the ledger's first physics entry
+was invisible to its chemistry-scoped corpus scan). Battery of record: **83/83 hold**
+on these outputs.
 
 ## Open waves (prioritized)
 
-1. **Physics MS-table parser** (the one big wave): cell-per-line MS layout — G3 keying
-   (79 parts) + G5 linkage (936 parts). The vertical-lane state machine (v0.17.0) and
-   its successor fixes are the foundation; the remaining work is the option-column /
-   tick-glyph semantics that chemistry's row parser never needed.
+1. **QP-side structural fixes for the 4 G3 fails** (the wave the MS-table wave could
+   not close, disclosed not guessed): choice-label extraction drops (2020-01 1PR 1(b),
+   2023-06 2PR 7(a)) and question-typing for non-MCQ choice-bearing questions
+   (2022-06 2PR 1(a) matching, 2026-06 1PR 1(a) labelling — these need a
+   `question_type` distinction, which is a serving-schema conversation, not a parser
+   patch).
 2. **Crop eyeball wave**: 65 review-flagged crops + 30 crop-required stubs →
    CROP-REVIEW 4ph1 homes (`4ph1-<series>:<paper>` convention).
 3. **Spec-labels wave**: 2,171 `pending-llm` parts → registry-validated labels.
@@ -113,8 +132,12 @@ prints 12 questions). Battery of record: **74/74 hold** on these outputs.
 
 ## Receipts (local, cited not committed — F63)
 
-`physics-intake/runs-landing/*.json` (53 fresh v0.17.4 run receipts + 5 dispositions),
-`physics-intake/run-matrix.json` (Task 15 wave), `physics-intake/census-4ph1.json`
-(Task 13), `physics-intake/pua-evidence/` (font traces + page renders), and the
-workspace worklog Tasks 13–16. Rollback anchor: this lane replaces **nothing** (it did
-not exist); the converter restore replaces main's clobbered v0.17.2 blob at `6a0779e0`.
+`physics-intake/runs-mswave/*.json` (53 fresh v0.19.0 run receipts + 5 dispositions,
+consolidated.json), `physics-intake/ms-forensics/` (the F72 census: step1-census,
+step3-shapes, step4-split + the 2026-06 equation-image render),
+`physics-intake/runs-landing/*.json` (Task 16 v0.17.4 receipts, the baseline),
+`physics-intake/census-4ph1.json` (Task 13), `physics-intake/pua-evidence/` (font
+traces + page renders), and the workspace worklog Tasks 13–17. Rollback anchor: the
+v0.17.4 state is merge `2e19a43e`; this wave's delta is the converter + checker +
+ledger/docs — no serving file changed shape beyond the linkage corrections the gates
+prove.

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:00Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2021-06 paper=1P",
+ "generated_utc": "2026-10-25T22:06:22Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2021-06 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2021-06:4PH1/1P",
  "source": {
   "qp_sha256": "56b53d506ed8b0d0e1e3bcf57c0f835838e35be31f529cd1b159cd2662b02cab",
@@ -35,29 +35,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "orange"
+       "text_md": "orange",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "red"
+       "text_md": "red",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "white"
+       "text_md": "white",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "yellow"
+       "text_md": "yellow",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (white);\nA is incorrect because its temperature is the second\nlowest\nB is incorrect because its temperature is the lowest\nD is incorrect because its temperature is the second\nhighest",
+     "mark_points": [
+      {
+       "id": "2021-06-1-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer C: white"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -70,29 +82,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "black hole"
+       "text_md": "black hole",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "neutron star"
+       "text_md": "neutron star",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "supernova"
+       "text_md": "supernova",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "white dwarf"
+       "text_md": "white dwarf",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D (white dwarf);\nA is incorrect because the Sun is not massive\nenough to form a black hole\nB is incorrect because the Sun is not massive\nenough to form a neutron star\nC is incorrect because the Sun is not massive\nenough to form a supernova",
+     "mark_points": [
+      {
+       "id": "2021-06-1-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer D: white dwarf"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -105,29 +129,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "main sequence"
+       "text_md": "main sequence",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "protostar"
+       "text_md": "protostar",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "supernova"
+       "text_md": "supernova",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "white dwarf"
+       "text_md": "white dwarf",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (supernova);\nA is incorrect because this is during the middle of\nthe life cycle\nB is incorrect because this is an early stage of the\nlife cycle\nD is incorrect because this is a late stage in the life\ncycle of stars like our Sun",
+     "mark_points": [
+      {
+       "id": "2021-06-1-a-iii-MP1",
+       "marks": 1,
+       "text_md": "Answer C: supernova"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -138,7 +174,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows the orbit of a comet around a star. Draw a labelled arrow to show the force acting on the comet due to the star. not to scale comet star",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "arrow pointing from the comet to the star; accept any arrow\npointing from comet to\nstar within shaded area\nignore starting position\nof arrow\nforce labelled ‘gravitational’; allow ‘gravity’ or\n‘weight’\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-06-1-b-MP1",
+       "marks": 2,
+       "text_md": "arrow pointing from the comet to the star; accept any arrow\npointing from comet to\nstar within shaded area\nignore starting position\nof arrow\nforce labelled ‘gravitational’; allow ‘gravity’ or\n‘weight’\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [
       {
@@ -179,12 +223,12 @@
      "problem_md": "Name the apparatus that the student could use to find the direction of the field lines.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(plotting) compass(es); allow suspended\nmagnet, magnetometer\nallow higher level\nresponses e.g. Hall\nprobe, search coil\n(b) one mark for each correct indication;;; 2 marks max. if more\nthan three indications\ngiven\n(c) any two from:\ndifficult to magnetise; allow idea of taking a\nlong time to magnetise\ndifficult to demagnetise; allow idea of taking a\nlong time to\ndemagnetise\nidea that it retains its magnetism;\nAnswer Notes Marks",
+     "solution_md": "(plotting) compass(es); allow suspended\nmagnet, magnetometer\nallow higher level\nresponses e.g. Hall\nprobe, search coil",
      "mark_points": [
       {
        "id": "2021-06-2-a-MP1",
        "marks": 1,
-       "text_md": "(plotting) compass(es); allow suspended\nmagnet, magnetometer\nallow higher level\nresponses e.g. Hall\nprobe, search coil\n(b) one mark for each correct indication;;; 2 marks max. if more\nthan three indications\ngiven\n(c) any two from:\ndifficult to magnetise; allow idea of taking a\nlong time to magnetise\ndifficult to demagnetise; allow idea of taking a\nlong time to\ndemagnetise\nidea that it retains its magnetism;\nAnswer Notes Marks"
+       "text_md": "(plotting) compass(es); allow suspended\nmagnet, magnetometer\nallow higher level\nresponses e.g. Hall\nprobe, search coil"
       }
      ],
      "source_page": 6,
@@ -213,7 +257,15 @@
      "question_type": "structured",
      "problem_md": "The student draws a diagram of the magnetic field pattern of the magnet. The student makes three mistakes. Draw a circle around each mistake on the diagram. N S",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "one mark for each correct indication;;; 2 marks max. if more\nthan three indications\ngiven",
+     "mark_points": [
+      {
+       "id": "2021-06-2-b-MP1",
+       "marks": 3,
+       "text_md": "one mark for each correct indication;;; 2 marks max. if more\nthan three indications\ngiven"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
@@ -240,7 +292,15 @@
      "question_type": "structured",
      "problem_md": "The magnet is made of a magnetically hard material. Describe what is meant by the term magnetically hard.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any two from:\ndifficult to magnetise; allow idea of taking a\nlong time to magnetise\ndifficult to demagnetise; allow idea of taking a\nlong time to\ndemagnetise\nidea that it retains its magnetism;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-06-2-c-MP1",
+       "marks": 2,
+       "text_md": "any two from:\ndifficult to magnetise; allow idea of taking a\nlong time to magnetise\ndifficult to demagnetise; allow idea of taking a\nlong time to\ndemagnetise\nidea that it retains its magnetism;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -268,7 +328,15 @@
      "question_type": "structured",
      "problem_md": "Name the particle represented by the balls.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "neutron;",
+     "mark_points": [
+      {
+       "id": "2021-06-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "neutron;"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -286,7 +354,15 @@
      "question_type": "structured",
      "problem_md": "Describe what is meant by the term nuclear fission.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "nucleus/nuclei splitting; condone nucleus/nuclei\nbreaking apart\nreleasing (two) daughter nuclei / neutrons / ignore daughter cells\nenergy; allow smaller/lighter\nnuclei for daughter\nnuclei",
+     "mark_points": [
+      {
+       "id": "2021-06-3-a-ii-MP1",
+       "marks": 2,
+       "text_md": "nucleus/nuclei splitting; condone nucleus/nuclei\nbreaking apart\nreleasing (two) daughter nuclei / neutrons / ignore daughter cells\nenergy; allow smaller/lighter\nnuclei for daughter\nnuclei"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -304,7 +380,15 @@
      "question_type": "structured",
      "problem_md": "Describe what is meant by the term chain reaction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "neutrons released (by fission) are absorbed by condone atoms for\nother (uranium) nuclei; nuclei\ncausing fission/splitting in other (uranium) nuclei; condone atoms for\nnuclei",
+     "mark_points": [
+      {
+       "id": "2021-06-3-a-iii-MP1",
+       "marks": 2,
+       "text_md": "neutrons released (by fission) are absorbed by condone atoms for\nother (uranium) nuclei; nuclei\ncausing fission/splitting in other (uranium) nuclei; condone atoms for\nnuclei"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -322,7 +406,15 @@
      "question_type": "structured",
      "problem_md": "The walls of a real nuclear reactor are not made of plastic. Give a suitable material for the walls of a real nuclear reactor.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "concrete / lead / (thick) steel;",
+     "mark_points": [
+      {
+       "id": "2021-06-3-b-MP1",
+       "marks": 1,
+       "text_md": "concrete / lead / (thick) steel;"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -340,7 +432,15 @@
      "question_type": "structured",
      "problem_md": "Use words from the box to complete the sentences about the moderator and control rods in a nuclear reactor. absorb ionise neutralise reflect slow boron granite graphite paper uranium The moderator in a nuclear reactor can be made of The moderator is designed to neutrons. The control rods in a nuclear reactor can be made of The control rods are designed to neutrons.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "graphite;\nslow;\nboron;\nabsorb;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-06-3-c-MP1",
+       "marks": 4,
+       "text_md": "graphite;\nslow;\nboron;\nabsorb;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -372,7 +472,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the acceleration of the car between 1.8 and 8.0 seconds. acceleration = m/s2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "use of acceleration = change in velocity / time; seen anywhere in\nworking\nallow clear indication\nthat acceleration is\ngradient\nsubstitution;\nevaluation; ignore minus sign\ne.g.\nacceleration = change in velocity / time\nacceleration = (-)30 / 6.2\n(acceleration =) (-)4.8 (m/s2) allow\n(-)4.8 to (-)5.0 (m/s2)",
+     "mark_points": [
+      {
+       "id": "2021-06-4-a-i-MP1",
+       "marks": 3,
+       "text_md": "use of acceleration = change in velocity / time; seen anywhere in\nworking\nallow clear indication\nthat acceleration is\ngradient\nsubstitution;\nevaluation; ignore minus sign\ne.g.\nacceleration = change in velocity / time\nacceleration = (-)30 / 6.2\n(acceleration =) (-)4.8 (m/s2) allow\n(-)4.8 to (-)5.0 (m/s2)"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -390,7 +498,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the braking distance of the car. braking distance = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "clear indication that distance is area under line;\nunderstanding braking distance is area of triangle\nsection only;\nevaluation;\n54 (m) = 1 mark\n147 (m) = 2 marks\ne.g.\ndistance = area\ndistance = 0.5 × 30 × 6.2\n(distance =) 93 (m)\naccept alternative\nmethod using ecf\nanswer from (a)(i) and\nv2 = u2 + 2as giving\n93.75 (m)",
+     "mark_points": [
+      {
+       "id": "2021-06-4-a-ii-MP1",
+       "marks": 3,
+       "text_md": "clear indication that distance is area under line;\nunderstanding braking distance is area of triangle\nsection only;\nevaluation;\n54 (m) = 1 mark\n147 (m) = 2 marks\ne.g.\ndistance = area\ndistance = 0.5 × 30 × 6.2\n(distance =) 93 (m)\naccept alternative\nmethod using ecf\nanswer from (a)(i) and\nv2 = u2 + 2as giving\n93.75 (m)"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -408,7 +524,15 @@
      "question_type": "structured",
      "problem_md": "Explain the effect, if any, of increased driver tiredness on the thinking distance and on the braking distance of the car. thinking distance braking distance",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "thinking distance:\nincrease in thinking distance;\n(due to) increased reaction time;\nbraking distance:\nno effect on braking distance;\n(due to) no effect on braking time / braking force; allow idea that braking\ndistance does not\ndepend on human\nfactors",
+     "mark_points": [
+      {
+       "id": "2021-06-4-a-iii-MP1",
+       "marks": 4,
+       "text_md": "thinking distance:\nincrease in thinking distance;\n(due to) increased reaction time;\nbraking distance:\nno effect on braking distance;\n(due to) no effect on braking time / braking force; allow idea that braking\ndistance does not\ndepend on human\nfactors"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -426,7 +550,15 @@
      "question_type": "structured",
      "problem_md": "Which of these represents the distance-time graph for the car? Distance Distance A B Time Time Distance Distance C D Time Time",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A;\nB is incorrect because it does not show deceleration\nC is incorrect because the distance cannot change\nabruptly and the car is moving throughout\nD is incorrect because the first portion shows that\nthe car is not moving\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-06-4-b-MP1",
+       "marks": 1,
+       "text_md": "A;\nB is incorrect because it does not show deceleration\nC is incorrect because the distance cannot change\nabruptly and the car is moving throughout\nD is incorrect because the first portion shows that\nthe car is not moving\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [
       {
@@ -1231,12 +1363,12 @@
      "problem_md": "The oil transfers the same extra pressure to piston Y. Calculate the force acting upwards on piston Y due to the extra pressure. force = N",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution into p = F/A; no mark for formula on its own\nallow ecf from (ii)\nrearrangement;\nevaluation;\ne.g.\n200 = F / 4.8\nF = 200 × 4.8\n(F =) 960 (N)\n(c) allow marks if the meaning is\nclear e.g. allow +, ↑ for\nincrease etc.\nGPE of piston X = decrease;\nGPE of piston Y = increase;\nchemical energy of piston Y = no change;\nkinetic energy of piston Y = no change;\nAnswer Notes Marks",
+     "solution_md": "substitution into p = F/A; no mark for formula on its own\nallow ecf from (ii)\nrearrangement;\nevaluation;\ne.g.\n200 = F / 4.8\nF = 200 × 4.8\n(F =) 960 (N)",
      "mark_points": [
       {
        "id": "2021-06-10-b-iii-MP1",
        "marks": 3,
-       "text_md": "substitution into p = F/A; no mark for formula on its own\nallow ecf from (ii)\nrearrangement;\nevaluation;\ne.g.\n200 = F / 4.8\nF = 200 × 4.8\n(F =) 960 (N)\n(c) allow marks if the meaning is\nclear e.g. allow +, ↑ for\nincrease etc.\nGPE of piston X = decrease;\nGPE of piston Y = increase;\nchemical energy of piston Y = no change;\nkinetic energy of piston Y = no change;\nAnswer Notes Marks"
+       "text_md": "substitution into p = F/A; no mark for formula on its own\nallow ecf from (ii)\nrearrangement;\nevaluation;\ne.g.\n200 = F / 4.8\nF = 200 × 4.8\n(F =) 960 (N)"
       }
      ],
      "source_page": 25,
@@ -1256,7 +1388,15 @@
      "question_type": "structured",
      "problem_md": "Piston Y starts at rest, rises slowly and then comes to rest. State how the following energy stores have changed from before the motion to after the motion is complete. Energy store Change gravitational potential energy of piston X gravitational potential energy of piston Y chemical energy of piston Y kinetic energy of piston Y",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "allow marks if the meaning is\nclear e.g. allow +, ↑ for\nincrease etc.\nGPE of piston X = decrease;\nGPE of piston Y = increase;\nchemical energy of piston Y = no change;\nkinetic energy of piston Y = no change;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2021-06-10-c-MP1",
+       "marks": 4,
+       "text_md": "allow marks if the meaning is\nclear e.g. allow +, ↑ for\nincrease etc.\nGPE of piston X = decrease;\nGPE of piston Y = increase;\nchemical energy of piston Y = no change;\nkinetic energy of piston Y = no change;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1288,7 +1428,15 @@
      "question_type": "structured",
      "problem_md": "On diagram 2, draw the reflected ray from point X. incident ray 64° X refracted ray Diagram 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "line drawn in top-right quadrant; accept if drawn on\ndiagram 1 instead of\ndiagram 2\ncorrect angle by eye; DOP",
+     "mark_points": [
+      {
+       "id": "2021-06-11-a-i-MP1",
+       "marks": 2,
+       "text_md": "line drawn in top-right quadrant; accept if drawn on\ndiagram 1 instead of\ndiagram 2\ncorrect angle by eye; DOP"
+      }
+     ],
      "source_page": 26,
      "assets": [
       {
@@ -1318,7 +1466,15 @@
      "question_type": "structured",
      "problem_md": "Measure the angle of refraction at point X on diagram 2. angle = degrees",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "32 (degrees); allow in range\n31-33 (degrees)",
+     "mark_points": [
+      {
+       "id": "2021-06-11-a-ii-MP1",
+       "marks": 1,
+       "text_md": "32 (degrees); allow in range\n31-33 (degrees)"
+      }
+     ],
      "source_page": 26,
      "assets": [
       {
@@ -1348,7 +1504,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking refractive index, angle of incidence and angle of refraction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "refractive index = allow standard symbols\nsin(angle of incidence) / sin(angle of refraction); and rearrangements\ne.g.\n‘i’ for angle of\nincidence\n‘r’ for angle of\nrefraction\n‘n’ for refractive index",
+     "mark_points": [
+      {
+       "id": "2021-06-11-a-iii-MP1",
+       "marks": 1,
+       "text_md": "refractive index = allow standard symbols\nsin(angle of incidence) / sin(angle of refraction); and rearrangements\ne.g.\n‘i’ for angle of\nincidence\n‘r’ for angle of\nrefraction\n‘n’ for refractive index"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1366,7 +1530,15 @@
      "question_type": "structured",
      "problem_md": "Show that the refractive index of the transparent material is about 1.7",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow ecf from (ii)\nevaluation to at least 3s.f.;\ne.g.\nn = sin(64) / sin (32)\nn = 1.70 allow 1.696…",
+     "mark_points": [
+      {
+       "id": "2021-06-11-a-iv-MP1",
+       "marks": 2,
+       "text_md": "substitution; allow ecf from (ii)\nevaluation to at least 3s.f.;\ne.g.\nn = sin(64) / sin (32)\nn = 1.70 allow 1.696…"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1384,7 +1556,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking refractive index and critical angle.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "sin(c) = 1 / n; allow standard symbols\nand rearrangements",
+     "mark_points": [
+      {
+       "id": "2021-06-11-a-v-MP1",
+       "marks": 1,
+       "text_md": "sin(c) = 1 / n; allow standard symbols\nand rearrangements"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1402,7 +1582,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the critical angle for the transparent material. critical angle = degrees QUESTION 11 CONTINUES ON NEXT PAGE",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution OR rearrangement; allow ecf from (iv)\nevaluation;\ne.g.\nsin(c) = 1/1.7 OR c = sin-1(1/n)\n(c =) 36 (degrees) allow 36.03…(degrees)",
+     "mark_points": [
+      {
+       "id": "2021-06-11-a-vi-MP1",
+       "marks": 2,
+       "text_md": "substitution OR rearrangement; allow ecf from (iv)\nevaluation;\ne.g.\nsin(c) = 1/1.7 OR c = sin-1(1/n)\n(c =) 36 (degrees) allow 36.03…(degrees)"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1420,7 +1608,15 @@
      "question_type": "structured",
      "problem_md": "Explain the behaviour of the light at points Y and Z. ray of light X not to scale Y Z",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "light undergoes total internal reflection; allow TIR for ‘total\ninternal reflection’\nangle of incidence is above the critical angle;\nlight (would be) going from more (optically) dense allow idea that light\nto less (optically) dense; would speed up if it\ntravelled through the\nboundary / light travels\nfaster in air than in\nmaterial\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2021-06-11-b-MP1",
+       "marks": 3,
+       "text_md": "light undergoes total internal reflection; allow TIR for ‘total\ninternal reflection’\nangle of incidence is above the critical angle;\nlight (would be) going from more (optically) dense allow idea that light\nto less (optically) dense; would speed up if it\ntravelled through the\nboundary / light travels\nfaster in air than in\nmaterial\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 28,
      "assets": [],
      "spec_point_codes": [],

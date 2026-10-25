@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:06Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2022-01 paper=2P",
+ "generated_utc": "2026-10-25T22:06:31Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2022-01 paper=2P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-01:4PH1/2P",
  "source": {
   "qp_sha256": "d5eb57419f98e3c4040e9fa9f9392e485ba2dea73b88688e48fba4a04c63aec0",
@@ -35,19 +35,23 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "newton meter"
+       "text_md": "newton meter",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "ruler"
+       "text_md": "ruler",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "thermometer"
+       "text_md": "thermometer",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "voltmeter"
+       "text_md": "voltmeter",
+       "is_correct": false
       }
      ],
      "answer_status": "linked",
@@ -56,7 +60,7 @@
       {
        "id": "2022-01-1-a-MP1",
        "marks": 1,
-       "text_md": "A;\nB cannot be correct as it measures distance\nC cannot be correct as it measures temperature\nD cannot be correct as it measures voltage"
+       "text_md": "Answer A: newton meter"
       }
      ],
      "source_page": 4,
@@ -65,7 +69,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -156,19 +160,23 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "increase the force acting on the driver"
+       "text_md": "increase the force acting on the driver",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "increase the time taken for the driver to stop"
+       "text_md": "increase the time taken for the driver to stop",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "increase the kinetic energy store of the driver"
+       "text_md": "increase the kinetic energy store of the driver",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "increase the momentum of the driver"
+       "text_md": "increase the momentum of the driver",
+       "is_correct": false
       }
      ],
      "answer_status": "linked",
@@ -177,7 +185,7 @@
       {
        "id": "2022-01-1-b-iv-MP1",
        "marks": 1,
-       "text_md": "A cannot be correct as increasing the force does not\nprotect the driver\nC cannot be correct as they would both increase\nthe force on the person\nD cannot be correct as the airbag decreases the\nmomentum\nTotal for question 1: 6 marks\nAnswer Notes Marks"
+       "text_md": "Answer B: increase the time taken for the driver to stop"
       }
      ],
      "source_page": 5,
@@ -186,7 +194,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -212,12 +220,12 @@
      "problem_md": "Describe the arrangement and motion of particles in a solid. You may draw a diagram to help your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea of regular pattern/tightly packed; allow diagram\nparticles vibrating; condone molecules or\natoms for particles\n(about) fixed positions / eq;\nignore reference to\nforce\n(b) increases continuously from -40 to 44 oC ;\nremains constant (at 44 oC);\nincreases continuously from 44 to 80 oC; ECF incorrect plateau\nresponses with no\nperiod of time at 44\nscore max 1 mark\naccept any gradient,\nstraight lines or curves\nfor the increasing\ntemperature parts\nignore any numbers on\nthe time axis\nignore second plateau\nafter 44 if drawn\nTotal for question 2: 6 marks\nAnswer Notes Marks",
+     "solution_md": "idea of regular pattern/tightly packed; allow diagram\nparticles vibrating; condone molecules or\natoms for particles\n(about) fixed positions / eq;\nignore reference to\nforce",
      "mark_points": [
       {
        "id": "2022-01-2-a-MP1",
        "marks": 3,
-       "text_md": "idea of regular pattern/tightly packed; allow diagram\nparticles vibrating; condone molecules or\natoms for particles\n(about) fixed positions / eq;\nignore reference to\nforce\n(b) increases continuously from -40 to 44 oC ;\nremains constant (at 44 oC);\nincreases continuously from 44 to 80 oC; ECF incorrect plateau\nresponses with no\nperiod of time at 44\nscore max 1 mark\naccept any gradient,\nstraight lines or curves\nfor the increasing\ntemperature parts\nignore any numbers on\nthe time axis\nignore second plateau\nafter 44 if drawn\nTotal for question 2: 6 marks\nAnswer Notes Marks"
+       "text_md": "idea of regular pattern/tightly packed; allow diagram\nparticles vibrating; condone molecules or\natoms for particles\n(about) fixed positions / eq;\nignore reference to\nforce"
       }
      ],
      "source_page": 6,
@@ -237,7 +245,15 @@
      "question_type": "structured",
      "problem_md": "A solid changes state by melting at a certain temperature. For phosphorus, this change of state occurs at 44 °C. Sketch how the temperature of a sample of phosphorus changes when it is heated at a constant rate from –40 °C to 80 °C. Temperature in °C 0 Time –20 –40",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "increases continuously from -40 to 44 oC ;\nremains constant (at 44 oC);\nincreases continuously from 44 to 80 oC; ECF incorrect plateau\nresponses with no\nperiod of time at 44\nscore max 1 mark\naccept any gradient,\nstraight lines or curves\nfor the increasing\ntemperature parts\nignore any numbers on\nthe time axis\nignore second plateau\nafter 44 if drawn\nTotal for question 2: 6 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-2-b-MP1",
+       "marks": 3,
+       "text_md": "increases continuously from -40 to 44 oC ;\nremains constant (at 44 oC);\nincreases continuously from 44 to 80 oC; ECF incorrect plateau\nresponses with no\nperiod of time at 44\nscore max 1 mark\naccept any gradient,\nstraight lines or curves\nfor the increasing\ntemperature parts\nignore any numbers on\nthe time axis\nignore second plateau\nafter 44 if drawn\nTotal for question 2: 6 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -267,28 +283,32 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "large nucleus splitting into two smaller nuclei"
+       "text_md": "large nucleus splitting into two smaller nuclei",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "nucleus emitting an electromagnetic wave"
+       "text_md": "nucleus emitting an electromagnetic wave",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "nucleus releasing a beta particle"
+       "text_md": "nucleus releasing a beta particle",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "two smaller nuclei joining together to form a larger nucleus"
+       "text_md": "two smaller nuclei joining together to form a larger nucleus",
+       "is_correct": true
       }
      ],
      "answer_status": "linked",
-     "solution_md": "D;\nA cannot be correct as this is a description of\nfission\nB cannot be correct as this is a description of\ngamma decay\nC cannot be correct as this is a description of beta\ndecay\n(b) (nuclei are) positively charged; reject idea of charged\natoms\nlike charges repel;\n(c) high temperature;\nhigh pressure;\n‘high temperature and\npressure’ scores 2\nTotal for question 3: 5 marks\nAnswer Notes Marks",
+     "solution_md": "D;\nA cannot be correct as this is a description of\nfission\nB cannot be correct as this is a description of\ngamma decay\nC cannot be correct as this is a description of beta\ndecay",
      "mark_points": [
       {
        "id": "2022-01-3-a-MP1",
        "marks": 1,
-       "text_md": "D;\nA cannot be correct as this is a description of\nfission\nB cannot be correct as this is a description of\ngamma decay\nC cannot be correct as this is a description of beta\ndecay\n(b) (nuclei are) positively charged; reject idea of charged\natoms\nlike charges repel;\n(c) high temperature;\nhigh pressure;\n‘high temperature and\npressure’ scores 2\nTotal for question 3: 5 marks\nAnswer Notes Marks"
+       "text_md": "Answer D: two smaller nuclei joining together to form a larger nucleus"
       }
      ],
      "source_page": 7,
@@ -297,7 +317,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -308,7 +328,15 @@
      "question_type": "structured",
      "problem_md": "Two nuclei are close together and stationary. Explain why these nuclei will move apart.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(nuclei are) positively charged; reject idea of charged\natoms\nlike charges repel;",
+     "mark_points": [
+      {
+       "id": "2022-01-3-b-MP1",
+       "marks": 2,
+       "text_md": "(nuclei are) positively charged; reject idea of charged\natoms\nlike charges repel;"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -326,7 +354,15 @@
      "question_type": "structured",
      "problem_md": "Describe the conditions needed for fusion to occur in the core of a star.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "high temperature;\nhigh pressure;\n‘high temperature and\npressure’ scores 2\nTotal for question 3: 5 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-3-c-MP1",
+       "marks": 2,
+       "text_md": "high temperature;\nhigh pressure;\n‘high temperature and\npressure’ scores 2\nTotal for question 3: 5 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -355,12 +391,12 @@
      "problem_md": "The student uses a device called a Hall probe, which can be placed anywhere in the magnetic field to measure its strength at that point. Design a suitable method for the investigation. Your answer should include • any extra measuring equipment needed • details of the independent variable, dependent variable and any control variables You may include a diagram to help your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Any FIVE from: marks may be\nawarded from a\nsuitable labelled\ndiagram\nMP1: ruler; condone tape\nmeasure or metre\nstick\nMP2: idea of measuring mag field at different\ndistances;\nMP3: idea of repeat and average;\nMP4: distance is independent variable;\nMP5: mag field strength is dependent variable;\nMP6: current is a control variable; condone voltage\naccept idea of\nammeter use to\nmonitor current\nMP7: reference to suitable second control variable\ne.g. coil (spacing or turns), the rest of the apparatus;\n(b) any pair of readings from the graph;\ncorrect substitution into formula and constant found;\ndifferent pair of readings used correctly to find a\nconstant;\nstatement that the results do not agree with the DOP\nconclusion;\nallow idea that the\nconstants are the\nsame so that the\nresults agree with the\nconclusion\ne.g.\nwhen distance = 10 cm ,\nmagnetic field strength = 17\n17 × 103 = 17000\nwhen distance = 50 cm ,magnetic field strength = 4\n4 × 503 = 500000\nconstants are different so results disagree with\nconclusion\nTotal for question 4: 9 marks\nAnswer Notes Marks",
+     "solution_md": "Any FIVE from: marks may be\nawarded from a\nsuitable labelled\ndiagram\nMP1: ruler; condone tape\nmeasure or metre\nstick\nMP2: idea of measuring mag field at different\ndistances;\nMP3: idea of repeat and average;\nMP4: distance is independent variable;\nMP5: mag field strength is dependent variable;\nMP6: current is a control variable; condone voltage\naccept idea of\nammeter use to\nmonitor current\nMP7: reference to suitable second control variable\ne.g. coil (spacing or turns), the rest of the apparatus;",
      "mark_points": [
       {
        "id": "2022-01-4-a-MP1",
        "marks": 5,
-       "text_md": "Any FIVE from: marks may be\nawarded from a\nsuitable labelled\ndiagram\nMP1: ruler; condone tape\nmeasure or metre\nstick\nMP2: idea of measuring mag field at different\ndistances;\nMP3: idea of repeat and average;\nMP4: distance is independent variable;\nMP5: mag field strength is dependent variable;\nMP6: current is a control variable; condone voltage\naccept idea of\nammeter use to\nmonitor current\nMP7: reference to suitable second control variable\ne.g. coil (spacing or turns), the rest of the apparatus;\n(b) any pair of readings from the graph;\ncorrect substitution into formula and constant found;\ndifferent pair of readings used correctly to find a\nconstant;\nstatement that the results do not agree with the DOP\nconclusion;\nallow idea that the\nconstants are the\nsame so that the\nresults agree with the\nconclusion\ne.g.\nwhen distance = 10 cm ,\nmagnetic field strength = 17\n17 × 103 = 17000\nwhen distance = 50 cm ,magnetic field strength = 4\n4 × 503 = 500000\nconstants are different so results disagree with\nconclusion\nTotal for question 4: 9 marks\nAnswer Notes Marks"
+       "text_md": "Any FIVE from: marks may be\nawarded from a\nsuitable labelled\ndiagram\nMP1: ruler; condone tape\nmeasure or metre\nstick\nMP2: idea of measuring mag field at different\ndistances;\nMP3: idea of repeat and average;\nMP4: distance is independent variable;\nMP5: mag field strength is dependent variable;\nMP6: current is a control variable; condone voltage\naccept idea of\nammeter use to\nmonitor current\nMP7: reference to suitable second control variable\ne.g. coil (spacing or turns), the rest of the apparatus;"
       }
      ],
      "source_page": 8,
@@ -394,7 +430,15 @@
      "question_type": "structured",
      "problem_md": "The graph shows the results of the student’s investigation. Strength of magnetic field in arbitrary units 0 10 20 30 40 50 Distance in cm The student suggests that the relationship linking the strength of the magnetic field and the distance from the end of the solenoid is strength of magnetic field × (distance)3 = constant Use readings from the graph to deduce whether the results of the student’s investigation support this relationship.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any pair of readings from the graph;\ncorrect substitution into formula and constant found;\ndifferent pair of readings used correctly to find a\nconstant;\nstatement that the results do not agree with the DOP\nconclusion;\nallow idea that the\nconstants are the\nsame so that the\nresults agree with the\nconclusion\ne.g.\nwhen distance = 10 cm ,\nmagnetic field strength = 17\n17 × 103 = 17000\nwhen distance = 50 cm ,magnetic field strength = 4\n4 × 503 = 500000\nconstants are different so results disagree with\nconclusion\nTotal for question 4: 9 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-4-b-MP1",
+       "marks": 4,
+       "text_md": "any pair of readings from the graph;\ncorrect substitution into formula and constant found;\ndifferent pair of readings used correctly to find a\nconstant;\nstatement that the results do not agree with the DOP\nconclusion;\nallow idea that the\nconstants are the\nsame so that the\nresults agree with the\nconclusion\ne.g.\nwhen distance = 10 cm ,\nmagnetic field strength = 17\n17 × 103 = 17000\nwhen distance = 50 cm ,magnetic field strength = 4\n4 × 503 = 500000\nconstants are different so results disagree with\nconclusion\nTotal for question 4: 9 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 10,
      "assets": [
       {
@@ -435,12 +479,12 @@
      "problem_md": "State the formula linking gravitational potential energy (GPE), mass, gravitational field strength (g) and height.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "GPE = mass × gravitational field strength × height; Accept g for\ngravitational field\nstrength\nallow standard symbols\ne.g. m for mass, h for\nheight\nreject ‘gravity’ for g\n(b) substitution; allow use of 9.8, 9.81\nconversion of mass to kg and height to m;\ncorrect evaluation to at least 2 sf; 0.0406 (J) to 3sf\ne.g.\nGPE = 0.014 × 10 × 0.29\n= 0.041 (J)\nreject responses that do\nnot use ‘g’\nreject incorrect physics\ni.e. 14/29 = 0.48...\nwhich with a POT error\ngives 0.048\ncorrect substitution\nwith POT error scores 2\n(c) recall of KE= 1/2 mv2;\nsubstitution and rearrangement to v2 as subject;\nevaluation;\ncorrect answer: 2.7 (m/s)\ne.g. treat answer of 8.53.. ×\nKE= 1/2 mv2 10n as a POT error, 1\n5.1 × 10-2 = ½ × 0.014 × v2 mark penalty\nv2 = 2 × 5.1 × 10-2 ÷ 0.014 = 7.2857….\nv = 2.6992….\nv = 2.7 (m/s)\n(d) idea of conservation of energy; accept idea that\nwithout friction KE\n(lost) = GPE (gained)\nidea that KE lost = GPE gained + WD; i.e. idea that KE lost is\ngreater than GPE gained\ncondone ‘friction\nreduces KE as wasted\nheat’\nTotal for question 5: 9 marks\nAnswer Notes Marks",
+     "solution_md": "GPE = mass × gravitational field strength × height; Accept g for\ngravitational field\nstrength\nallow standard symbols\ne.g. m for mass, h for\nheight\nreject ‘gravity’ for g",
      "mark_points": [
       {
        "id": "2022-01-5-a-MP1",
        "marks": 1,
-       "text_md": "GPE = mass × gravitational field strength × height; Accept g for\ngravitational field\nstrength\nallow standard symbols\ne.g. m for mass, h for\nheight\nreject ‘gravity’ for g\n(b) substitution; allow use of 9.8, 9.81\nconversion of mass to kg and height to m;\ncorrect evaluation to at least 2 sf; 0.0406 (J) to 3sf\ne.g.\nGPE = 0.014 × 10 × 0.29\n= 0.041 (J)\nreject responses that do\nnot use ‘g’\nreject incorrect physics\ni.e. 14/29 = 0.48...\nwhich with a POT error\ngives 0.048\ncorrect substitution\nwith POT error scores 2\n(c) recall of KE= 1/2 mv2;\nsubstitution and rearrangement to v2 as subject;\nevaluation;\ncorrect answer: 2.7 (m/s)\ne.g. treat answer of 8.53.. ×\nKE= 1/2 mv2 10n as a POT error, 1\n5.1 × 10-2 = ½ × 0.014 × v2 mark penalty\nv2 = 2 × 5.1 × 10-2 ÷ 0.014 = 7.2857….\nv = 2.6992….\nv = 2.7 (m/s)\n(d) idea of conservation of energy; accept idea that\nwithout friction KE\n(lost) = GPE (gained)\nidea that KE lost = GPE gained + WD; i.e. idea that KE lost is\ngreater than GPE gained\ncondone ‘friction\nreduces KE as wasted\nheat’\nTotal for question 5: 9 marks\nAnswer Notes Marks"
+       "text_md": "GPE = mass × gravitational field strength × height; Accept g for\ngravitational field\nstrength\nallow standard symbols\ne.g. m for mass, h for\nheight\nreject ‘gravity’ for g"
       }
      ],
      "source_page": 12,
@@ -460,7 +504,15 @@
      "question_type": "structured",
      "problem_md": "The ball has a mass of 14 g. Show that when the ball reaches a height of 29 cm above the bottom of the ramp, the GPE gained by the ball is about 4 × 10−2 J.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow use of 9.8, 9.81\nconversion of mass to kg and height to m;\ncorrect evaluation to at least 2 sf; 0.0406 (J) to 3sf\ne.g.\nGPE = 0.014 × 10 × 0.29\n= 0.041 (J)\nreject responses that do\nnot use ‘g’\nreject incorrect physics\ni.e. 14/29 = 0.48...\nwhich with a POT error\ngives 0.048\ncorrect substitution\nwith POT error scores 2",
+     "mark_points": [
+      {
+       "id": "2022-01-5-b-MP1",
+       "marks": 3,
+       "text_md": "substitution; allow use of 9.8, 9.81\nconversion of mass to kg and height to m;\ncorrect evaluation to at least 2 sf; 0.0406 (J) to 3sf\ne.g.\nGPE = 0.014 × 10 × 0.29\n= 0.041 (J)\nreject responses that do\nnot use ‘g’\nreject incorrect physics\ni.e. 14/29 = 0.48...\nwhich with a POT error\ngives 0.048\ncorrect substitution\nwith POT error scores 2"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -478,7 +530,15 @@
      "question_type": "structured",
      "problem_md": "At the bottom of the ramp, the 14 g ball has a kinetic energy (KE) of 5.1 × 10−2 J. Calculate the speed of the ball at the bottom of the ramp. speed = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "recall of KE= 1/2 mv2;\nsubstitution and rearrangement to v2 as subject;\nevaluation;\ncorrect answer: 2.7 (m/s)\ne.g. treat answer of 8.53.. ×\nKE= 1/2 mv2 10n as a POT error, 1\n5.1 × 10-2 = ½ × 0.014 × v2 mark penalty\nv2 = 2 × 5.1 × 10-2 ÷ 0.014 = 7.2857….\nv = 2.6992….\nv = 2.7 (m/s)",
+     "mark_points": [
+      {
+       "id": "2022-01-5-c-MP1",
+       "marks": 3,
+       "text_md": "recall of KE= 1/2 mv2;\nsubstitution and rearrangement to v2 as subject;\nevaluation;\ncorrect answer: 2.7 (m/s)\ne.g. treat answer of 8.53.. ×\nKE= 1/2 mv2 10n as a POT error, 1\n5.1 × 10-2 = ½ × 0.014 × v2 mark penalty\nv2 = 2 × 5.1 × 10-2 ÷ 0.014 = 7.2857….\nv = 2.6992….\nv = 2.7 (m/s)"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -496,7 +556,15 @@
      "question_type": "structured",
      "problem_md": "The ball is stationary when it reaches the top of the ramp. There is a difference between the KE of the ball at the bottom of the ramp and the GPE of the ball at a height of 29 cm above the bottom of the ramp. Explain why the work done by friction between the ball and the ramp is equal to this difference.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea of conservation of energy; accept idea that\nwithout friction KE\n(lost) = GPE (gained)\nidea that KE lost = GPE gained + WD; i.e. idea that KE lost is\ngreater than GPE gained\ncondone ‘friction\nreduces KE as wasted\nheat’\nTotal for question 5: 9 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-5-d-MP1",
+       "marks": 2,
+       "text_md": "idea of conservation of energy; accept idea that\nwithout friction KE\n(lost) = GPE (gained)\nidea that KE lost = GPE gained + WD; i.e. idea that KE lost is\ngreater than GPE gained\ncondone ‘friction\nreduces KE as wasted\nheat’\nTotal for question 5: 9 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -695,12 +763,12 @@
      "problem_md": "Discuss the advantages and disadvantages of using hydroelectric power stations compared with wind farms for large-scale electricity production.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any FOUR from: accept RA where clear\nAdvantages:\nMP1: can respond to changes in demand;\nMP2: larger output for installation;\nMP3: less space required (for same output);\nMP4: not weather dependent; accept idea of\ncontinuity\nDisadvantages:\nMP5: may require a mountainous region;\nMP6: may require a large dam; accept idea of flooding\nlarge areas\nMP7: installations are permanent;\nignore cost of\ninstallation\nignore maintenance\nignore global warming\n/greenhouse effect\n(b) any THREE from:\nMP1. reduction in GPE store of water;\nMP2. mechanical work done on turbine; accept GPE of water\nconverted to KE\nMP3. increase in KE store of turbine;\naccept KE of water\nMP4. mechanical work done on generator; converted to KE of\nturbine\nMP5. increase in KE store of generator; accept KE of turbine\nconverted to KE of\ngenerator\nMP6. idea of electrical work done on grid; accept KE of generator\nconverted to electrical\nenergy\nTotal for question 7: 7 marks\nAnswer Notes Marks",
+     "solution_md": "any FOUR from: accept RA where clear\nAdvantages:\nMP1: can respond to changes in demand;\nMP2: larger output for installation;\nMP3: less space required (for same output);\nMP4: not weather dependent; accept idea of\ncontinuity\nDisadvantages:\nMP5: may require a mountainous region;\nMP6: may require a large dam; accept idea of flooding\nlarge areas\nMP7: installations are permanent;\nignore cost of\ninstallation\nignore maintenance\nignore global warming\n/greenhouse effect",
      "mark_points": [
       {
        "id": "2022-01-7-a-MP1",
        "marks": 4,
-       "text_md": "any FOUR from: accept RA where clear\nAdvantages:\nMP1: can respond to changes in demand;\nMP2: larger output for installation;\nMP3: less space required (for same output);\nMP4: not weather dependent; accept idea of\ncontinuity\nDisadvantages:\nMP5: may require a mountainous region;\nMP6: may require a large dam; accept idea of flooding\nlarge areas\nMP7: installations are permanent;\nignore cost of\ninstallation\nignore maintenance\nignore global warming\n/greenhouse effect\n(b) any THREE from:\nMP1. reduction in GPE store of water;\nMP2. mechanical work done on turbine; accept GPE of water\nconverted to KE\nMP3. increase in KE store of turbine;\naccept KE of water\nMP4. mechanical work done on generator; converted to KE of\nturbine\nMP5. increase in KE store of generator; accept KE of turbine\nconverted to KE of\ngenerator\nMP6. idea of electrical work done on grid; accept KE of generator\nconverted to electrical\nenergy\nTotal for question 7: 7 marks\nAnswer Notes Marks"
+       "text_md": "any FOUR from: accept RA where clear\nAdvantages:\nMP1: can respond to changes in demand;\nMP2: larger output for installation;\nMP3: less space required (for same output);\nMP4: not weather dependent; accept idea of\ncontinuity\nDisadvantages:\nMP5: may require a mountainous region;\nMP6: may require a large dam; accept idea of flooding\nlarge areas\nMP7: installations are permanent;\nignore cost of\ninstallation\nignore maintenance\nignore global warming\n/greenhouse effect"
       }
      ],
      "source_page": 18,
@@ -720,7 +788,15 @@
      "question_type": "structured",
      "problem_md": "Describe the energy transfers that are involved in generating electricity in a hydroelectric power station.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any THREE from:\nMP1. reduction in GPE store of water;\nMP2. mechanical work done on turbine; accept GPE of water\nconverted to KE\nMP3. increase in KE store of turbine;\naccept KE of water\nMP4. mechanical work done on generator; converted to KE of\nturbine\nMP5. increase in KE store of generator; accept KE of turbine\nconverted to KE of\ngenerator\nMP6. idea of electrical work done on grid; accept KE of generator\nconverted to electrical\nenergy\nTotal for question 7: 7 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-7-b-MP1",
+       "marks": 3,
+       "text_md": "any THREE from:\nMP1. reduction in GPE store of water;\nMP2. mechanical work done on turbine; accept GPE of water\nconverted to KE\nMP3. increase in KE store of turbine;\naccept KE of water\nMP4. mechanical work done on generator; converted to KE of\nturbine\nMP5. increase in KE store of generator; accept KE of turbine\nconverted to KE of\ngenerator\nMP6. idea of electrical work done on grid; accept KE of generator\nconverted to electrical\nenergy\nTotal for question 7: 7 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 19,
      "assets": [],
      "spec_point_codes": [],
@@ -748,7 +824,15 @@
      "question_type": "structured",
      "problem_md": "A galaxy moves away from the Earth at a speed of 3.9 × 104 km/s. The speed of light is 3.0 × 105 km/s. Light from the galaxy is emitted with a wavelength of 6.2 × 10−7 m. Calculate the change in the wavelength of the light that is received by an observer on the Earth. change in wavelength = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution into given equation;\nrearrangement;\ncorrect evaluation of wavelength change; -1 POT error\ncondone 1 sf\ncorrect answer: 8.1 × 10-8 (m) 8.06 × 10-8 to 3sf\ne.g. (change in wavelength/6.2 × 10 -7)=\n(3.9 × 10⁴/3.0 × 105)\nchange in wavelength = 6.2 × 10-7 ×\n(3.9 × 10⁴/3.0 × 105)\nchange in wavelength = 8.1 × 10-8 (m)",
+     "mark_points": [
+      {
+       "id": "2022-01-8-a-i-MP1",
+       "marks": 3,
+       "text_md": "substitution into given equation;\nrearrangement;\ncorrect evaluation of wavelength change; -1 POT error\ncondone 1 sf\ncorrect answer: 8.1 × 10-8 (m) 8.06 × 10-8 to 3sf\ne.g. (change in wavelength/6.2 × 10 -7)=\n(3.9 × 10⁴/3.0 × 105)\nchange in wavelength = 6.2 × 10-7 ×\n(3.9 × 10⁴/3.0 × 105)\nchange in wavelength = 8.1 × 10-8 (m)"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -766,7 +850,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the wavelength of light that is received by an observer on the Earth. wavelength = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "candidate’s answer to (i) + 6.2 × 10 -7 (m); ECF wavelength\nchange\ne.g. 8.1 x 10-8 + 6.2 × 10-7 = 7.0 × 10-7(m) condone 1sf",
+     "mark_points": [
+      {
+       "id": "2022-01-8-a-ii-MP1",
+       "marks": 1,
+       "text_md": "candidate’s answer to (i) + 6.2 × 10 -7 (m); ECF wavelength\nchange\ne.g. 8.1 x 10-8 + 6.2 × 10-7 = 7.0 × 10-7(m) condone 1sf"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -784,7 +876,15 @@
      "question_type": "structured",
      "problem_md": "One of the pieces of evidence for the Big Bang theory is the red-shift of galaxies. Explain how the red-shift of galaxies supports the Big Bang theory.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any THREE from:\nMP1: the further the galaxy is from Earth, condone “star” for\nthe greater the red-shift; “galaxy”\nMP2: the greater the red-shift, the faster\nthe galaxy is moving away;\nMP3: speed of galaxies increases with\nincreased distance;\nMP4: the speed and distance are directly\nproportional;\nMP5: relationship between speed and allow “galaxies\ndistance implies expansion; moving apart from\neach other”\nMP6: expansion implies there was a single condone RA for MP6\npoint in the past;\nTotal for question 8: 7 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2022-01-8-b-MP1",
+       "marks": 3,
+       "text_md": "Any THREE from:\nMP1: the further the galaxy is from Earth, condone “star” for\nthe greater the red-shift; “galaxy”\nMP2: the greater the red-shift, the faster\nthe galaxy is moving away;\nMP3: speed of galaxies increases with\nincreased distance;\nMP4: the speed and distance are directly\nproportional;\nMP5: relationship between speed and allow “galaxies\ndistance implies expansion; moving apart from\neach other”\nMP6: expansion implies there was a single condone RA for MP6\npoint in the past;\nTotal for question 8: 7 marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],

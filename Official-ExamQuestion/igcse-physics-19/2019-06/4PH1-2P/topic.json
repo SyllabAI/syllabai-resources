@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:39Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2019-06 paper=2P",
+ "generated_utc": "2026-10-25T22:05:57Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2019-06 paper=2P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2019-06:4PH1/2P",
  "source": {
   "qp_sha256": "0530e035df5f00bee35041e467a5ffab2256ae86908911ef4ac7ac5d483d438b",
@@ -55,7 +55,7 @@
       }
      ],
      "answer_status": "linked",
-     "solution_md": "B – gravitational;\nA is incorrect because there are no charges\nC is incorrect because there are no magnetic\nfields\nD is incorrect because nuclear forces are\nshort range\n(b) D – universe;\nA is incorrect because the universe contains\nbillions of galaxies\nB is incorrect because each solar system\ncontains several planets\nC is incorrect because galaxies contain\nbillions of stars\n(c) A – absolute magnitude;\nB is incorrect because colour determines the\nsurface temperature of a star\nC is incorrect because diameter determines\nthe power of a star\nD is incorrect because temperature\ndetermines the power of a star\nAnswer Notes Marks",
+     "solution_md": "B – gravitational;\nA is incorrect because there are no charges\nC is incorrect because there are no magnetic\nfields\nD is incorrect because nuclear forces are\nshort range",
      "mark_points": [
       {
        "id": "2019-06-1-a-MP1",
@@ -82,29 +82,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "galaxy"
+       "text_md": "galaxy",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "planet"
+       "text_md": "planet",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "star"
+       "text_md": "star",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "universe"
+       "text_md": "universe",
+       "is_correct": true
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "D – universe;\nA is incorrect because the universe contains\nbillions of galaxies\nB is incorrect because each solar system\ncontains several planets\nC is incorrect because galaxies contain\nbillions of stars",
+     "mark_points": [
+      {
+       "id": "2019-06-1-b-MP1",
+       "marks": 1,
+       "text_md": "Answer D: universe"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -117,29 +129,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "absolute magnitude"
+       "text_md": "absolute magnitude",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "colour"
+       "text_md": "colour",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "diameter"
+       "text_md": "diameter",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "temperature"
+       "text_md": "temperature",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A – absolute magnitude;\nB is incorrect because colour determines the\nsurface temperature of a star\nC is incorrect because diameter determines\nthe power of a star\nD is incorrect because temperature\ndetermines the power of a star\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-1-c-MP1",
+       "marks": 1,
+       "text_md": "Answer A: absolute magnitude"
+      }
+     ],
      "source_page": 3,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -160,7 +184,15 @@
      "question_type": "structured",
      "problem_md": "Plot a graph of the student’s results on the grid.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Points plotted to within half a small square;\nPoints should lie on a\nvery good curved line.",
+     "mark_points": [
+      {
+       "id": "2019-06-2-a-i-MP1",
+       "marks": 1,
+       "text_md": "Points plotted to within half a small square;\nPoints should lie on a\nvery good curved line."
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
@@ -203,7 +235,15 @@
      "question_type": "structured",
      "problem_md": "Draw a curve of best fit. Output voltage in V 20 0 20 40 60 80 100 Number of turns on primary coil",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Best fit line is smooth curve; ECF their data points.",
+     "mark_points": [
+      {
+       "id": "2019-06-2-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Best fit line is smooth curve; ECF their data points."
+      }
+     ],
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
@@ -220,7 +260,15 @@
      "question_type": "structured",
      "problem_md": "Describe the relationship between the output voltage and the number of turns on the primary coil.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "As number of (primary) turns increases, (secondary) Allow RA\nvoltage decreases;\nAllow unqualified\n‘inversely proportional’\nfor 2 marks.\nAt a decreasing rate/is non-linear;\nIgnore:\n‘negative exponential’",
+     "mark_points": [
+      {
+       "id": "2019-06-2-a-iii-MP1",
+       "marks": 2,
+       "text_md": "As number of (primary) turns increases, (secondary) Allow RA\nvoltage decreases;\nAllow unqualified\n‘inversely proportional’\nfor 2 marks.\nAt a decreasing rate/is non-linear;\nIgnore:\n‘negative exponential’"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -238,7 +286,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking input and output voltages and the turns ratio for the transformer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(Np/Ns) = (Vp/Vs); Allow any correct\nrearrangment.\nAllow ”i(nput) and\no(utput)” or “1 and\n2”for “p(rimary) and\ns(econdary)”.\nAllow correct word\nequation.\nIgnore ‘P’ for ‘N’\nCondone ‘T’, ’t’ or ‘n’ for\n‘N’\nCondone ‘coils’ for\n‘turns’",
+     "mark_points": [
+      {
+       "id": "2019-06-2-b-i-MP1",
+       "marks": 1,
+       "text_md": "(Np/Ns) = (Vp/Vs); Allow any correct\nrearrangment.\nAllow ”i(nput) and\no(utput)” or “1 and\n2”for “p(rimary) and\ns(econdary)”.\nAllow correct word\nequation.\nIgnore ‘P’ for ‘N’\nCondone ‘T’, ’t’ or ‘n’ for\n‘N’\nCondone ‘coils’ for\n‘turns’"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -256,7 +312,15 @@
      "question_type": "structured",
      "problem_md": "The input voltage of the transformer is 6.8 V. Calculate the number of turns on the secondary coil. number of turns =",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Substitution of values for Np, VP and Vs ; Allow any row of data\nfrom table or co-\nordinates for a point\non the line on the\ngraph\nEvaluation of Ns ; Accept answer in range\n57-60.\nAccept non-integer\nnumber of turns.\ne.g. 40 / Ns = (6.8/9.9) = 0.686….;\nNs = 40 /0.601.. = 58(.2….) ;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-2-b-ii-MP1",
+       "marks": 2,
+       "text_md": "Substitution of values for Np, VP and Vs ; Allow any row of data\nfrom table or co-\nordinates for a point\non the line on the\ngraph\nEvaluation of Ns ; Accept answer in range\n57-60.\nAccept non-integer\nnumber of turns.\ne.g. 40 / Ns = (6.8/9.9) = 0.686….;\nNs = 40 /0.601.. = 58(.2….) ;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -521,12 +585,12 @@
      "problem_md": "Draw an arrow on diagram 2 to show the direction the toy is moving.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "An arrow drawn from left to right by eye;\n(b) Comparative statements for side containing A: Allow RA for B\nWavefronts closer together/EQ; Allow e.g.“waves more\ncompressed together”\n(therefore) wavelength smaller;\nSame speed;\n(v = f x so) frequency larger;\nCondone mention of\nthe Doppler effect for 1\nmark if no other mark\nscored.\nAnswer Notes Marks",
+     "solution_md": "An arrow drawn from left to right by eye;",
      "mark_points": [
       {
        "id": "2019-06-5-a-MP1",
        "marks": 1,
-       "text_md": "An arrow drawn from left to right by eye;\n(b) Comparative statements for side containing A: Allow RA for B\nWavefronts closer together/EQ; Allow e.g.“waves more\ncompressed together”\n(therefore) wavelength smaller;\nSame speed;\n(v = f x so) frequency larger;\nCondone mention of\nthe Doppler effect for 1\nmark if no other mark\nscored.\nAnswer Notes Marks"
+       "text_md": "An arrow drawn from left to right by eye;"
       }
      ],
      "source_page": 10,
@@ -560,7 +624,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the frequency of the waves at point A is different to the frequency of the waves at point B.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Comparative statements for side containing A: Allow RA for B\nWavefronts closer together/EQ; Allow e.g.“waves more\ncompressed together”\n(therefore) wavelength smaller;\nSame speed;\n(v = f x so) frequency larger;\nCondone mention of\nthe Doppler effect for 1\nmark if no other mark\nscored.\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-5-b-MP1",
+       "marks": 4,
+       "text_md": "Comparative statements for side containing A: Allow RA for B\nWavefronts closer together/EQ; Allow e.g.“waves more\ncompressed together”\n(therefore) wavelength smaller;\nSame speed;\n(v = f x so) frequency larger;\nCondone mention of\nthe Doppler effect for 1\nmark if no other mark\nscored.\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 11,
      "assets": [],
      "spec_point_codes": [],
@@ -588,7 +660,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the energy transferred from the dog to the water by heating in 22 minutes. energy = J",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Substitution (including conversion of time to\nseconds);\nRe-arrangement of given equation P = W/t; Allow W or E for energy\nor work.\nCan be implied from\ntheir working.\nEvaluation;\ne.g. Energy = 75 x (22 x 60) = 99 000 (J)\nAccept 1650 or 5.9\nmillion for 2 marks.",
+     "mark_points": [
+      {
+       "id": "2019-06-6-a-i-MP1",
+       "marks": 3,
+       "text_md": "Substitution (including conversion of time to\nseconds);\nRe-arrangement of given equation P = W/t; Allow W or E for energy\nor work.\nCan be implied from\ntheir working.\nEvaluation;\ne.g. Energy = 75 x (22 x 60) = 99 000 (J)\nAccept 1650 or 5.9\nmillion for 2 marks."
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -606,7 +686,15 @@
      "question_type": "structured",
      "problem_md": "State an assumption you have made when calculating the energy transferred.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any ONE assumption from\n• dog does not change temperature Ignore unqualified\n• dog does not change power output ‘100% efficient’ or ‘no\n• rate of transfer is constant (despite increase energy lost’\nin temp of water)\n• no heating of outside\nworld/surroundings/material of bag\n• no heating from the surroundings",
+     "mark_points": [
+      {
+       "id": "2019-06-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Any ONE assumption from\n• dog does not change temperature Ignore unqualified\n• dog does not change power output ‘100% efficient’ or ‘no\n• rate of transfer is constant (despite increase energy lost’\nin temp of water)\n• no heating of outside\nworld/surroundings/material of bag\n• no heating from the surroundings"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
@@ -624,7 +712,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the temperature of the water after 22 minutes. temperature = °C",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Use of Q = m x c x ∆ ;\nSubstitution of their energy, mass, c; Allow ECF from (a)(i)\nEvaluation of temp change; Allow ECF from\nevaluation of temp\nchange.\nCalculation of final temp = temp change + 16;\ne.g. 99 000 = 8.7 x 4200 x ∆\ntemp rise = 99 000/(8.7 x 4200) = 2.7\nfinal temp = 19 (oC);\nAccept 16.04… for all\nmarks (ecf E without\nmin->s conversion)\nAccept answer to 3 or\nmore sf i.e 18.7",
+     "mark_points": [
+      {
+       "id": "2019-06-6-a-iii-MP1",
+       "marks": 4,
+       "text_md": "Use of Q = m x c x ∆ ;\nSubstitution of their energy, mass, c; Allow ECF from (a)(i)\nEvaluation of temp change; Allow ECF from\nevaluation of temp\nchange.\nCalculation of final temp = temp change + 16;\ne.g. 99 000 = 8.7 x 4200 x ∆\ntemp rise = 99 000/(8.7 x 4200) = 2.7\nfinal temp = 19 (oC);\nAccept 16.04… for all\nmarks (ecf E without\nmin->s conversion)\nAccept answer to 3 or\nmore sf i.e 18.7"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -642,7 +738,15 @@
      "question_type": "structured",
      "problem_md": "Discuss why conduction is the main way that thermal energy is transferred from the dog to the water.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any THREE from\nMP1 Dog and water are at different temperatures;\nMP2 Dog and water in physical contact so likely to\nbe conduction;\nMP3 No movement of particles from dog to water, Allow “no gap between\nso not convection / EQ; dog and bag so no\nconvection”\nMP4 Dog and bag are both solids, so convection\nimpossible;\nMP5 Not much radiation as dog and water similar\ntemperatures;\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-6-b-MP1",
+       "marks": 3,
+       "text_md": "Any THREE from\nMP1 Dog and water are at different temperatures;\nMP2 Dog and water in physical contact so likely to\nbe conduction;\nMP3 No movement of particles from dog to water, Allow “no gap between\nso not convection / EQ; dog and bag so no\nconvection”\nMP4 Dog and bag are both solids, so convection\nimpossible;\nMP5 Not much radiation as dog and water similar\ntemperatures;\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 13,
      "assets": [],
      "spec_point_codes": [],
@@ -675,12 +779,12 @@
      "problem_md": "Give two pieces of evidence for the Big Bang theory.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Cosmic Microwave Background Radiation (CMBR) Allow one missing\nword\n(Cosmological) Red shift of galaxies\nAccept reference to\nHubble’s Law.\nAllow higher level idea\nof ratio of hydrogen to\nhelium as alternative to\neither marking point.\n(b) CMBR\nMAX TWO from\nMP1 CMBR appears to be the same in all\ndirections/is everywhere;\nAllow implication of\nMP2 Which implies all parts of the Universe idea of coming from\nwere in contact a long time ago; single point\nAllow frequency has\nMP3 Wavelength has increased as the universe decreased\nhas expanded;\nAllow RA\nMP4 universe was (significantly) hotter long\nago;\nRed Shift of Galaxies\nMAX TWO from\nCondone “star” for\nMP5 The further the galaxy is from Earth, the “galaxy” for MP5\ngreater the red-shift;\nMP6 The greater the red-shift, the faster the\ngalaxy is moving away;\nAllow ‘red shift’ for\nMP7 Speed of galaxies increases (is directly ‘speed of galaxies’\nproportional to) with increased distance;\nAllow ‘galaxies moving\nMP8 Relationship between speed and distance apart from each other’\nimplies expansion from a single point or since the for ‘relationship\nBig Bang; between speed and\ndistance’\nAnswer Notes Marks",
+     "solution_md": "Cosmic Microwave Background Radiation (CMBR) Allow one missing\nword\n(Cosmological) Red shift of galaxies\nAccept reference to\nHubble’s Law.\nAllow higher level idea\nof ratio of hydrogen to\nhelium as alternative to\neither marking point.",
      "mark_points": [
       {
        "id": "2019-06-7-a-MP1",
        "marks": 2,
-       "text_md": "Cosmic Microwave Background Radiation (CMBR) Allow one missing\nword\n(Cosmological) Red shift of galaxies\nAccept reference to\nHubble’s Law.\nAllow higher level idea\nof ratio of hydrogen to\nhelium as alternative to\neither marking point.\n(b) CMBR\nMAX TWO from\nMP1 CMBR appears to be the same in all\ndirections/is everywhere;\nAllow implication of\nMP2 Which implies all parts of the Universe idea of coming from\nwere in contact a long time ago; single point\nAllow frequency has\nMP3 Wavelength has increased as the universe decreased\nhas expanded;\nAllow RA\nMP4 universe was (significantly) hotter long\nago;\nRed Shift of Galaxies\nMAX TWO from\nCondone “star” for\nMP5 The further the galaxy is from Earth, the “galaxy” for MP5\ngreater the red-shift;\nMP6 The greater the red-shift, the faster the\ngalaxy is moving away;\nAllow ‘red shift’ for\nMP7 Speed of galaxies increases (is directly ‘speed of galaxies’\nproportional to) with increased distance;\nAllow ‘galaxies moving\nMP8 Relationship between speed and distance apart from each other’\nimplies expansion from a single point or since the for ‘relationship\nBig Bang; between speed and\ndistance’\nAnswer Notes Marks"
+       "text_md": "Cosmic Microwave Background Radiation (CMBR) Allow one missing\nword\n(Cosmological) Red shift of galaxies\nAccept reference to\nHubble’s Law.\nAllow higher level idea\nof ratio of hydrogen to\nhelium as alternative to\neither marking point."
       }
      ],
      "source_page": 14,
@@ -700,7 +804,15 @@
      "question_type": "structured",
      "problem_md": "Explain how this evidence supports the Big Bang theory.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "CMBR\nMAX TWO from\nMP1 CMBR appears to be the same in all\ndirections/is everywhere;\nAllow implication of\nMP2 Which implies all parts of the Universe idea of coming from\nwere in contact a long time ago; single point\nAllow frequency has\nMP3 Wavelength has increased as the universe decreased\nhas expanded;\nAllow RA\nMP4 universe was (significantly) hotter long\nago;\nRed Shift of Galaxies\nMAX TWO from\nCondone “star” for\nMP5 The further the galaxy is from Earth, the “galaxy” for MP5\ngreater the red-shift;\nMP6 The greater the red-shift, the faster the\ngalaxy is moving away;\nAllow ‘red shift’ for\nMP7 Speed of galaxies increases (is directly ‘speed of galaxies’\nproportional to) with increased distance;\nAllow ‘galaxies moving\nMP8 Relationship between speed and distance apart from each other’\nimplies expansion from a single point or since the for ‘relationship\nBig Bang; between speed and\ndistance’\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2019-06-7-b-MP1",
+       "marks": 4,
+       "text_md": "CMBR\nMAX TWO from\nMP1 CMBR appears to be the same in all\ndirections/is everywhere;\nAllow implication of\nMP2 Which implies all parts of the Universe idea of coming from\nwere in contact a long time ago; single point\nAllow frequency has\nMP3 Wavelength has increased as the universe decreased\nhas expanded;\nAllow RA\nMP4 universe was (significantly) hotter long\nago;\nRed Shift of Galaxies\nMAX TWO from\nCondone “star” for\nMP5 The further the galaxy is from Earth, the “galaxy” for MP5\ngreater the red-shift;\nMP6 The greater the red-shift, the faster the\ngalaxy is moving away;\nAllow ‘red shift’ for\nMP7 Speed of galaxies increases (is directly ‘speed of galaxies’\nproportional to) with increased distance;\nAllow ‘galaxies moving\nMP8 Relationship between speed and distance apart from each other’\nimplies expansion from a single point or since the for ‘relationship\nBig Bang; between speed and\ndistance’\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -816,7 +928,15 @@
      "question_type": "structured",
      "problem_md": "The mass of the ice cube is 3.7 g and its area of contact with the ground is 2.6 × 10–4 m2. Calculate the pressure the ice cube exerts on the ground. pressure = Pa",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Selection of P=F/A;\nConversion of g to kg; 0.0037 seen anywhere\nEvaluation of weight;\nEvaluation of pressure;\nCorrect answer: 140 (Pa) Accept any value that\ni.e. rounds to 140. i.e 142,\nW = 3.7 x 10-3 x 10 = 3.7 x 10-2 N; 142.3,\nP = 3.7 x 10-2 / (2.6 x 10-4);\nP = 140 (Pa); Accept use of 9.8(1) for\n‘g’, giving 139(.46)",
+     "mark_points": [
+      {
+       "id": "2019-06-9-a-i-MP1",
+       "marks": 4,
+       "text_md": "Selection of P=F/A;\nConversion of g to kg; 0.0037 seen anywhere\nEvaluation of weight;\nEvaluation of pressure;\nCorrect answer: 140 (Pa) Accept any value that\ni.e. rounds to 140. i.e 142,\nW = 3.7 x 10-3 x 10 = 3.7 x 10-2 N; 142.3,\nP = 3.7 x 10-2 / (2.6 x 10-4);\nP = 140 (Pa); Accept use of 9.8(1) for\n‘g’, giving 139(.46)"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -834,7 +954,15 @@
      "question_type": "structured",
      "problem_md": "The ice cube melts and becomes a puddle with a larger cross‑sectional area. Explain how the pressure of the ice cube on the ground changes when it melts.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Same weight (and larger cross-sectional area); Allow ‘force’ for weight\nP=F/A so smaller pressure;",
+     "mark_points": [
+      {
+       "id": "2019-06-9-a-ii-MP1",
+       "marks": 2,
+       "text_md": "Same weight (and larger cross-sectional area); Allow ‘force’ for weight\nP=F/A so smaller pressure;"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -852,7 +980,15 @@
      "question_type": "structured",
      "problem_md": "Ice melts at a temperature of 0 °C. On the axes, sketch how the temperature of the ice cube changes as it rises from a temperature of –10 °C to a temperature of 20 °C. Temperature in °C Time –10",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Responses with no\nperiod of time at 0 oC\nscore max 1 mark.\nIncreases continuously from -10 oC to 0 oC; Accept\n• Any gradient\nRemains constant at 0 oC; • Straight lines or\ncurves for the\nIncreases continuously from 0 oC to 20 oC; increasing\ntemperature parts\n• Any non-zero\namount of time at 0\no\nC by eye\nIgnore any numbers on\nthe time axis.",
+     "mark_points": [
+      {
+       "id": "2019-06-9-b-MP1",
+       "marks": 3,
+       "text_md": "Responses with no\nperiod of time at 0 oC\nscore max 1 mark.\nIncreases continuously from -10 oC to 0 oC; Accept\n• Any gradient\nRemains constant at 0 oC; • Straight lines or\ncurves for the\nIncreases continuously from 0 oC to 20 oC; increasing\ntemperature parts\n• Any non-zero\namount of time at 0\no\nC by eye\nIgnore any numbers on\nthe time axis."
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],
@@ -870,7 +1006,15 @@
      "question_type": "structured",
      "problem_md": "Explain the changes that occur when a solid melts. Refer to particles in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Any TWO from:\nBonds between particles are weakened or Allow particles get\nbroken; (slightly) further\napart/EQ;\nParticles go from regular to irregularly\npacked/EQ;\nParticles go from vibrating (about a fixed\nposition) to sliding past each other/EQ;\nignore references to KE\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2019-06-9-c-MP1",
+       "marks": 2,
+       "text_md": "Any TWO from:\nBonds between particles are weakened or Allow particles get\nbroken; (slightly) further\napart/EQ;\nParticles go from regular to irregularly\npacked/EQ;\nParticles go from vibrating (about a fixed\nposition) to sliding past each other/EQ;\nignore references to KE\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 17,
      "assets": [],
      "spec_point_codes": [],

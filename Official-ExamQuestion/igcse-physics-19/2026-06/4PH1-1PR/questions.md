@@ -26,7 +26,17 @@ Give the names of objects A, B, C and D.
 > artificial or natural
 > satellite e.g. ISS
 > D = comet; allow named comet
-> (b) Sun will become a red giant; reject ‘red supergiant’
+
+- **(4)** A = Sun; allow star
+
+### 1(b) [2]
+
+The Sun is a main sequence star. Describe the future evolution of the Sun after it leaves the main sequence.
+
+
+**Mark scheme answer**
+
+> Sun will become a red giant; reject ‘red supergiant’
 > reject ‘super red giant’
 > AND THEN
 > Sun will become a white dwarf; reject any other stages
@@ -40,11 +50,7 @@ Give the names of objects A, B, C and D.
 > mark
 > Question number Answer Notes Marks
 
-- **(4)** A = Sun; allow star
-
-### 1(b) [2]
-
-The Sun is a main sequence star. Describe the future evolution of the Sun after it leaves the main sequence.
+- **(2)** Sun will become a red giant; reject ‘red supergiant’
 
 
 ## Question 2 (6 marks)
@@ -59,22 +65,71 @@ Identify the mistakes in the student’s diagram. You may draw on the diagram to
 
 ![diagram — official paper figure (qp.pdf p.6) — shared with asset_2_a_diagram_stem](assets/asset_2_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> central line should not be drawn / does not exist; allow if seen on
+> diagram
+> arrows are pointing in the wrong direction / eq; allow if seen on
+> diagram
+> allow arrows should
+> point away from north
+> poles
+> ignore any statement
+> about start and finish
+> points of field lines
+
+- **(2)** central line should not be drawn / does not exist; allow if seen on
+
 ### 2(a)(ii) [1]
 
 Give the name of a piece of equipment that can be used to show the direction of a magnetic field.
+
+
+**Mark scheme answer**
+
+> (plotting) compass(es); allow use of (bar)
+> suspended magnet with
+> known poles
+
+- **(1)** (plotting) compass(es); allow use of (bar)
 
 ### 2(b) [1]
 
 Which of these will not experience a magnetic force when at rest in a magnetic field?
 
-- **(A)** plastic rod
+- **(A)** plastic rod  ✔
 - **(B)** bar magnet
 - **(C)** copper wire with a current at right angles to the field
 - **(D)** iron bar
 
+
+**Mark scheme answer**
+
+> A (plastic rod);
+> B is incorrect because a bar magnet has its own
+> magnetic field
+> C is incorrect because a current-carrying conductor
+> has its own magnetic field
+> D is incorrect because iron is a magnetic material
+
+- **(1)** Answer A: plastic rod
+
 ### 2(c) [2]
 
 A teacher demonstrates magnetism by placing a strong magnet above some small nails made from steel. The steel nails are attracted to the magnet and stick to it. The teacher removes the steel nails from the magnet and puts the magnet away. A student observes that the steel nails are attracted to each other and stick together, even though the magnet is no longer present. Explain this observation.
+
+
+**Mark scheme answer**
+
+> steel is a hard magnetic material / magnetically ignore hard magnet
+> hard;
+> idea that steel retains its magnetism (for however allow steel is
+> long) / eq; permanently
+> magnetised
+> Answer Notes Marks
+
+- **(2)** steel is a hard magnetic material / magnetically ignore hard magnet
 
 
 ## Question 3 (10 marks)
@@ -96,7 +151,17 @@ The water bath is connected to mains electricity. Mains electricity provides alt
 > ignore vibrate
 > continuously / repeatedly / frequently / constantly
 > / eq;
-> (b) conversion from minutes to seconds; allow 1800 seen
+
+- **(2)** idea that current changes direction; allow current in both
+
+### 3(b) [3]
+
+720 000 J of energy is transferred to the heating element in the water bath in a time of 30 minutes. Calculate the power of the heating element. power = W
+
+
+**Mark scheme answer**
+
+> conversion from minutes to seconds; allow 1800 seen
 > allow 30 × 60 seen
 > substitution into P = E / t; allow ecf from
 > incorrect/no conversion
@@ -114,7 +179,17 @@ The water bath is connected to mains electricity. Mains electricity provides alt
 > matches candidate’s
 > answer e.g. 24 kW is
 > equivalent to 24 000 W
-> (c) any five from: accept heat for thermal
+
+- **(3)** conversion from minutes to seconds; allow 1800 seen
+
+### 3(c) [5]
+
+A technician switches on the water bath before a science lesson so that the water has enough time to reach a temperature of 60 °C. The technician also covers the water bath with the plastic lid, as shown in photograph 2. Photograph 2 Explain why the lid reduces the time taken for the water in the water bath to reach a temperature of 60 °C.
+
+
+**Mark scheme answer**
+
+> any five from: accept heat for thermal
 > energy throughout
 > MP1. (thermal) energy is lost to the surroundings;
 > MP2. (lid) reduces the amount of (thermal) energy
@@ -133,15 +208,7 @@ The water bath is connected to mains electricity. Mains electricity provides alt
 > MP8. idea that black lid is a good radiator;
 > Answer Notes Marks
 
-- **(2)** idea that current changes direction; allow current in both
-
-### 3(b) [3]
-
-720 000 J of energy is transferred to the heating element in the water bath in a time of 30 minutes. Calculate the power of the heating element. power = W
-
-### 3(c) [5]
-
-A technician switches on the water bath before a science lesson so that the water has enough time to reach a temperature of 60 °C. The technician also covers the water bath with the plastic lid, as shown in photograph 2. Photograph 2 Explain why the lid reduces the time taken for the water in the water bath to reach a temperature of 60 °C.
+- **(5)** any five from: accept heat for thermal
 
 
 ## Question 4 (9 marks)
@@ -158,11 +225,30 @@ Add a labelled arrow to diagram 1 to show the amplitude of the microwave.
 
 ![diagram — official paper figure (qp.pdf p.11) — shared with asset_4_a_diagram_stem](assets/asset_4_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> labelled arrow drawn between distance axis up to a
+> crest or down to a trough;
+
+- **(1)** labelled arrow drawn between distance axis up to a
+
 ### 4(a)(ii) [1]
 
 Add a labelled arrow to diagram 1 to show the wavelength of the microwave.
 
 ![diagram — official paper figure (qp.pdf p.11) — shared with asset_4_a_diagram_stem](assets/asset_4_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> labelled arrow drawn between two adjacent crests allow equivalent arrow
+> or two adjacent troughs; drawn between any two
+> adjacent positions at
+> the same point in the
+> wave cycle
+
+- **(1)** labelled arrow drawn between two adjacent crests allow equivalent arrow
 
 ### 4(b)(i) [1]
 
@@ -237,7 +323,7 @@ The teacher changes the position of the receiver and adds a metal sheet to the d
 
 This question is about electric current.
 
-**(c)** A student investigates how the current in a series circuit varies as the number of resistors in the circuit changes. This is the student’s method. Step 1	build a series circuit using a 6 V battery, a 12 Ω resistor, an ammeter, a switch and connecting wires Step 2 close the switch and measure the current using the ammeter Step 3 add another 12 Ω resistor into the series circuit and repeat step 2 The student repeats this method for a total of six 12 Ω resistors connected in series.
+**(c)** A student investigates how the current in a series circuit varies as the number of resistors in the circuit changes. This is the student’s method. Step 1	build a series circuit using a 6 V battery, a 12 Ω resistor, an ammeter, a switch and connecting wires Step 2 close the switch and measure the current using the ammeter Step 3 add another 12 Ω resistor into the series circuit and repeat step 2 The student repeats this method for a total of six 12 Ω resistors connected in series.
 
 ### 5(a) [1]
 
@@ -257,12 +343,6 @@ Which of these particles flow in an electric current in solid metallic conductor
 > charged
 > D is incorrect because protons cannot flow in solid
 > metallic conductors
-> (b) D (rate of flow of charge);
-> A is incorrect because this is the definition of
-> voltage
-> B is incorrect because this is the ratio of energy and
-> resistance
-> C is incorrect because this is the definition of power
 
 - **(1)** Answer A: negatively charged electrons
 
@@ -273,7 +353,19 @@ What is the definition of electric current?
 - **(A)** energy transferred per unit charge passed
 - **(B)** energy transferred per unit resistance
 - **(C)** rate of energy transfer
-- **(D)** rate of flow of charge
+- **(D)** rate of flow of charge  ✔
+
+
+**Mark scheme answer**
+
+> D (rate of flow of charge);
+> A is incorrect because this is the definition of
+> voltage
+> B is incorrect because this is the ratio of energy and
+> resistance
+> C is incorrect because this is the definition of power
+
+- **(1)** Answer D: rate of flow of charge
 
 ### 5(c)(i) [3]
 
@@ -394,7 +486,17 @@ In which of these does nuclear fusion take place naturally?
 > plants
 > D is incorrect because fusion does not take place in
 > the human body
-> (b) reference to combining nuclei however expressed; allow hydrogen or protons
+
+- **(1)** Answer C: in stars
+
+### 6(b) [3]
+
+Describe the process of nuclear fusion.
+
+
+**Mark scheme answer**
+
+> reference to combining nuclei however expressed; allow hydrogen or protons
 > for nuclei
 > reject atoms, molecules
 > for nuclei
@@ -404,7 +506,17 @@ In which of these does nuclear fusion take place naturally?
 > (resulting in) a loss of mass/eq;
 > releasing energy; condone ‘heat’ for
 > ‘energy’
-> (c) any three from: allow particles for nuclei
+
+- **(3)** reference to combining nuclei however expressed; allow hydrogen or protons
+
+### 6(c) [3]
+
+Explain the conditions required for nuclear fusion.
+
+
+**Mark scheme answer**
+
+> any three from: allow particles for nuclei
 > condone atoms for nuclei
 > MP1. high temperature;
 > MP2. nuclei need to move at high speeds or with
@@ -415,15 +527,7 @@ In which of these does nuclear fusion take place naturally?
 > protons)
 > Answer Notes Marks
 
-- **(1)** Answer C: in stars
-
-### 6(b) [3]
-
-Describe the process of nuclear fusion.
-
-### 6(c) [3]
-
-Explain the conditions required for nuclear fusion.
+- **(3)** any three from: allow particles for nuclei
 
 
 ## Question 7 (11 marks)
@@ -436,13 +540,75 @@ A student does an experiment to determine the density of air.
 
 The volume of water collected in the tray is equal to the volume of the inflated balloon. Describe how the student could accurately measure the volume of water collected in the tray.
 
+
+**Mark scheme answer**
+
+> NB only allow marks from
+> one of the three alternate
+> routes
+> idea of pouring water into a measuring cylinder;
+> idea of reading measuring cylinder at eye level / no allow idea of making sure
+> parallax error / measure to the bottom of the all of the water gets to the
+> meniscus; measuring cylinder e.g.
+> idea of not spilling or no
+> water left in tray
+> OR
+> measure difference of mass between water+tray condone weight for mass
+> and tray alone (with a balance); for this marking point
+> divide mass by density to give volume; reject weight for mass for
+> this marking point
+> OR
+> measuring dimensions of body of water;
+> calculating (geometrically) the volume from those
+> dimensions;
+
+- **(2)** NB only allow marks from
+
 ### 7(a)(ii) [1]
 
 Give a reason why the measured volume of water in the tray may be different from the volume of the inflated balloon.
 
+
+**Mark scheme answer**
+
+> any one from: ignore idea of balloon
+> having thickness
+> ignore idea that balloon is
+> not completely submerged
+> • bucket may not have been completely full
+> /eq;
+> • some water may have splashed out /eq;
+> • more water displaced due to object pushing
+> the balloon underwater /eq;
+> • idea of parallax error;
+> • idea of not reading to the bottom of the
+> meniscus;
+> • idea of water remaining on outside of
+> bucket (when removed)
+> • idea that some water may remain in the
+> tray
+> allow idea of balloon
+> decreasing in volume
+> under water compared
+> with being in air
+
+- **(1)** any one from: ignore idea of balloon
+
 ### 7(b) [2]
 
 The student removes the inflated balloon from the bucket and dries the balloon. The student places the inflated balloon on a sensitive balance and measures the mass of the inflated balloon. The student then bursts the balloon. Describe how the student should use the burst balloon to determine the mass of air that was inside the inflated balloon.
+
+
+**Mark scheme answer**
+
+> measure mass of burst balloon;
+> subtract mass of burst balloon from mass of inflated accept ‘find the
+> balloon; difference’ or ‘find the
+> decrease’ for ‘subtract’
+> allow ‘weight’ for ‘mass’
+> for this mark only
+
+- **(2)** measure mass of burst balloon;
 
 ### 7(c) [4]
 
@@ -450,9 +616,47 @@ The table shows the student’s results. Volume of water displaced by 4350 cm3 i
 
 ![table — official paper figure (qp.pdf p.19)](assets/asset_7_c_table.png)
 
+
+**Mark scheme answer**
+
+> substitution into ρ = m/V;
+> evaluation; POT – 1
+> treat incorrect conversions
+> as POT errors
+> evaluation given to 3 s.f.; award mark for any value
+> expressed to 3 s.f.
+> unit; expect either g/cm3 or
+> kg/m3
+> allow 1.25 kg/m3 for full
+> allow 1.25 × 10-6 kg/cm3
+> for full marks
+> e.g.
+> density = 5.42 / 4350
+> (density =) 0.0012459…
+> (density =) 0.00125
+> g/cm3
+
+- **(4)** substitution into ρ = m/V;
+
 ### 7(d) [2]
 
 Give two ways of testing the reliability of the density value obtained from the student’s results. 1 2
+
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. repeating the (whole) experiment again; unsupported “take
+> repeats” is insufficient
+> accept idea of using
+> different (volume) balloon
+> MP2. determine density using a different method;
+> MP3. compare result with another student who did
+> the experiment;
+> MP4. compare result to literature/online value;
+> Answer Notes Marks
+
+- **(2)** any two from:
 
 
 ## Question 8 (12 marks)
@@ -477,7 +681,19 @@ The graph shows how the average kinetic energy of a single gas molecule varies w
 > temperature axis)
 > between −270 °C and
 > −280 °C
-> (b) any FOUR from:
+
+- **(3)** (at absolute zero) the particles in the gas stop
+
+### 8(b) [4]
+
+Diagram 1 shows a sample of gas in a syringe. gas molecules Diagram 1 The volume of the gas is increased so that it is double its original volume, as shown in diagram 2. gas molecules Diagram 2 Explain how the pressure of the gas changes when the volume of the gas is doubled. Assume the temperature of the gas remains constant.
+
+![diagram — official paper figure (qp.pdf p.22)](assets/asset_8_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> any FOUR from:
 > correct reference to p1V1=p2V2;
 > pressure decreases;
 > pressure is halved; also scores MP2
@@ -488,7 +704,17 @@ The graph shows how the average kinetic energy of a single gas molecule varies w
 > (surface) area
 > (so) the (overall) force on the container ignore unsupported
 > decreases; references to P = F/A
-> (c) evaluation of new temperature in °C; allow 35 seen anywhere
+
+- **(4)** any FOUR from:
+
+### 8(c) [5]
+
+Another sample of gas has a temperature of 100 °C and a pressure of 140 kPa. The gas is cooled and its temperature decreases by 65 °C. The volume of the gas does not change. Calculate the new pressure of the gas. new pressure = kPa
+
+
+**Mark scheme answer**
+
+> evaluation of new temperature in °C; allow 35 seen anywhere
 > in working
 > evaluation of both temperatures in K;
 > substitution into p1/T1 = p2/T2;
@@ -508,17 +734,7 @@ The graph shows how the average kinetic energy of a single gas molecule varies w
 > for 5 marks
 > Answer Notes Marks
 
-- **(3)** (at absolute zero) the particles in the gas stop
-
-### 8(b) [4]
-
-Diagram 1 shows a sample of gas in a syringe. gas molecules Diagram 1 The volume of the gas is increased so that it is double its original volume, as shown in diagram 2. gas molecules Diagram 2 Explain how the pressure of the gas changes when the volume of the gas is doubled. Assume the temperature of the gas remains constant.
-
-![diagram — official paper figure (qp.pdf p.22)](assets/asset_8_b_diagram.png)
-
-### 8(c) [5]
-
-Another sample of gas has a temperature of 100 °C and a pressure of 140 kPa. The gas is cooled and its temperature decreases by 65 °C. The volume of the gas does not change. Calculate the new pressure of the gas. new pressure = kPa
+- **(5)** evaluation of new temperature in °C; allow 35 seen anywhere
 
 
 ## Question 9 (8 marks)
@@ -533,15 +749,55 @@ This question is about refraction.
 
 Use a protractor to determine the angle of incidence at the point where the ray of blue light enters the prism. angle of incidence = degrees
 
+
+**Mark scheme answer**
+
+> 50 (degrees); allow 48-52 (degrees)
+
+- **(1)** 50 (degrees); allow 48-52 (degrees)
+
 ### 9(a)(ii) [2]
 
 Show that the refractive index of the glass the prism is made from is about 1.5
+
+
+**Mark scheme answer**
+
+> substitution into n = sin(i)/sin(r); allow ecf from (i)
+> evaluation to 3 or more s.f.; condone reverse
+> calculation for full
+> marks e.g.
+> using n = 1.5 to
+> calculate i or r to 3 or
+> more sf
+> e.g.
+> refractive index = sin 50 / sin 30 NB if i is 52, n = 1.57
+> to 3 sf
+> if i is 48, n = 1.49 to
+> 3sf
+> (refractive index =) 1.53…
+
+- **(2)** substitution into n = sin(i)/sin(r); allow ecf from (i)
 
 ### 9(a)(iii) [2]
 
 The refractive index of red light in glass is lower than the refractive index of blue light in glass. Complete diagram 2 by continuing the path of the ray of red light as it passes through the glass prism and into the air. The ray of red light has the same angle of incidence as the original ray of blue light. The dashed line shows the path of the blue light. ray of red light air glass prism Diagram 2
 
 ![diagram — official paper figure (qp.pdf p.25)](assets/asset_9_a_iii_diagram.png)
+
+
+**Mark scheme answer**
+
+> ray drawn refracting with a larger angle of ray should be drawn
+> refraction but not greater than the angle of above dashed line and
+> incidence; below a continuation
+> of the incident ray
+> ray drawn passing back into air such that it reject ray that bends
+> diverges from dashed line; the wrong side of the
+> normal
+> e.g.
+
+- **(2)** ray drawn refracting with a larger angle of ray should be drawn
 
 ### 9(b)(i) [1]
 
@@ -616,17 +872,23 @@ What is a beta particle?
 > B is incorrect because this is neutron radiation
 > C is incorrect because this is gamma radiation
 > D is incorrect because this is alpha radiation
-> (b) mass and atomic numbers correct for neutron;
-> mass and atomic numbers correct for proton;
-> mass and atomic numbers correct for beta
-> particle;
-> e.g.
 
 - **(1)** Answer A: high energy electron
 
 ### 10(b) [3]
 
 A beta particle can be produced during radioactive decay. When a neutron decays into a proton, a beta particle is produced. Complete the nuclear equation for this process. n → p + β
+
+
+**Mark scheme answer**
+
+> mass and atomic numbers correct for neutron;
+> mass and atomic numbers correct for proton;
+> mass and atomic numbers correct for beta
+> particle;
+> e.g.
+
+- **(3)** mass and atomic numbers correct for neutron;
 
 ### 10(c)(i) [2]
 
@@ -721,9 +983,45 @@ Sky diving is a sport that involves jumping out of an aeroplane high above the g
 
 The weight of the sky diver is 850 N. Calculate the mass of the sky diver. Use the formula weight = mass × gravitational field strength mass = kg
 
+
+**Mark scheme answer**
+
+> substitution OR rearrangement; allow use of g = 9.8,
+> 9.81 N/kg
+> evaluation;
+> e.g.
+> 850 = mass × 10 OR m = W / g
+> (mass = 850/10 =) 85 (kg) allow 87, 86.7…, 86.6
+> (kg)
+
+- **(2)** substitution OR rearrangement; allow use of g = 9.8,
+
 ### 11(a)(ii) [3]
 
 After falling for a short period of time, an upward force of 250 N acts on the sky diver due to air resistance. Calculate the acceleration of the sky diver when the upward force is 250 N. acceleration = m/s2
+
+
+**Mark scheme answer**
+
+> evaluation of resultant force; allow 600 (N) seen
+> anywhere in working
+> allow ecf from (i)
+> substitution into OR rearrangement of F = m × a; allow use of 250 (N) for
+> F
+> evaluation of acceleration; allow ecf for resultant
+> force
+> e.g.
+> resultant force = 850 − 250 = 600 (N)
+> 600 = 85 × acceleration OR a = F / m
+> (acceleration = 600/85 =) 7.1 (m/s2) allow 6.9-7.1 (m/s2) for
+> 3 marks
+> allow 2.9,2.87.., 2.94..,
+> etc (m/s2) for 2 marks
+> allow correct answer
+> without any working for
+> 3 marks
+
+- **(3)** evaluation of resultant force; allow 600 (N) seen
 
 ### 11(b)(i) [4]
 

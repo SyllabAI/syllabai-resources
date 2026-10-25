@@ -11,26 +11,54 @@ The diagram shows the temperature‑time graph for a substance which is heated a
 Which section of the graph shows when the substance is melting?
 
 - **(A)** PQ
-- **(B)** QR
+- **(B)** QR  ✔
 - **(C)** RS
 - **(D)** ST
 
 ![graph — official paper figure (qp.pdf p.4)](assets/asset_1_a_i_graph.png)
 
+
+**Mark scheme answer**
+
+> B – QR;
+> A is not correct as the substance is a solid
+> C is not correct as the substance is a liquid
+> D is not correct as the substance is boiling
+
+- **(1)** Answer B: QR
+
 ### 1(a)(ii) [1]
 
 Which section of the graph shows when all the substance is a solid?
 
-- **(A)** PQ
+- **(A)** PQ  ✔
 - **(B)** QR
 - **(C)** RS
 - **(D)** ST
 
 ![graph — official paper figure (qp.pdf p.4) — shared with 1(a)(i)](assets/asset_1_a_i_graph.png)
 
+
+**Mark scheme answer**
+
+> A – PQ;
+> B is not correct as the substance is part solid,
+> part liquid
+> C is not correct as the substance is a liquid
+> D is not correct as the substance is boiling
+
+- **(1)** Answer A: PQ
+
 ### 1(a)(iii) [1]
 
 Draw particles in the box to show the arrangement of particles when the substance is a gas.
+
+
+**Mark scheme answer**
+
+> any irregular, spaced out collection of particles;
+
+- **(1)** any irregular, spaced out collection of particles;
 
 ### 1(a)(iv) [1]
 
@@ -39,7 +67,20 @@ Which of these statements best describes the motion of particles in a gas?
 - **(A)** they vibrate about fixed points
 - **(B)** they are stationary
 - **(C)** they slide past each other
-- **(D)** they move quickly and randomly
+- **(D)** they move quickly and randomly  ✔
+
+
+**Mark scheme answer**
+
+> D – they move quickly and randomly;
+> A is not correct as this is how particles in a solid
+> move
+> B is not correct as only particles at 0 K can
+> theoretically be stationary
+> C is not correct as this is how particles in a liquid
+> move
+
+- **(1)** Answer D: they move quickly and randomly
 
 ### 1(b)(i) [1]
 
@@ -61,7 +102,17 @@ Determine the boiling point of this substance. boiling point = °C
 **Mark scheme answer**
 
 > 80 (°C);
-> (c) temperature difference = 27 (°C);
+
+- **(1)** 80 (°C);
+
+### 1(c) [3]
+
+The substance has a mass of 1.2 kg. Calculate the energy required to raise the temperature of the substance from 10 °C to 37 °C. [assume specific heat capacity of substance = 840 J/kg °C] energy = J
+
+
+**Mark scheme answer**
+
+> temperature difference = 27 (°C);
 > substitution; allow ECF from incorrect
 > temperature difference
 > evaluation;
@@ -73,11 +124,7 @@ Determine the boiling point of this substance. boiling point = °C
 > (Total for Question 1 = 8 marks)
 > Answer Notes Marks
 
-- **(1)** 80 (°C);
-
-### 1(c) [3]
-
-The substance has a mass of 1.2 kg. Calculate the energy required to raise the temperature of the substance from 10 °C to 37 °C. [assume specific heat capacity of substance = 840 J/kg °C] energy = J
+- **(3)** temperature difference = 27 (°C);
 
 
 ## Question 2 (7 marks)
@@ -88,9 +135,24 @@ The diagram shows a metal block on top of a wooden block. The metal block is hel
 
 The weight of the metal block acts through point G. Give the name of point G.
 
+
+**Mark scheme answer**
+
+> centre of gravity / centre of mass; allow centre of weight
+
+- **(1)** centre of gravity / centre of mass; allow centre of weight
+
 ### 2(a)(ii) [1]
 
 Name a piece of apparatus that could be used to measure the weight of the metal block.
+
+
+**Mark scheme answer**
+
+> balance / newtonmeter; allow newton scales
+> ignore scales
+
+- **(1)** balance / newtonmeter; allow newton scales
 
 ### 2(b)(i) [1]
 
@@ -231,13 +293,71 @@ Give the direction of the force on glider B from glider A.
 
 State the formula linking the speed, frequency and wavelength of a wave.
 
+
+**Mark scheme answer**
+
+> speed = frequency × wavelength; allow standard
+> symbols and
+> rearrangements e.g. v
+> =f×λ
+
+- **(1)** speed = frequency × wavelength; allow standard
+
 ### 4(a)(ii) [5]
 
 Use the oscilloscope trace to calculate the speed of the wave. speed = m/s
 
+
+**Mark scheme answer**
+
+> determination of period;
+> conversion from ms to s;
+> evaluation of frequency;
+> substitution into v = f × λ; allow ECF from
+> incorrect frequency
+> evaluation of speed; -1 for POT error
+> 175, 700 (m/s) = 3
+> e.g.
+> period = 4 squares
+> period = (4 × 1 =) 4 ms allow 0.004 (s)
+> frequency (= 1/4 × 10-3) = 250 (Hz)
+> speed = 1.4 × 250
+> speed = 350 (m/s)
+
+- **(5)** determination of period;
+
 ### 4(b) [5]
 
-Another student uses this method to determine the speed of sound. Step 1 The student stands 50 m away from her teacher, measuring the distance with a metre ruler. Step 2 The teacher makes a loud sound and flashes a light at the same time. Step 3 The student starts the stopwatch when she sees the flash of light. Step 4 She stops the stopwatch when she hears the loud sound. The speed of sound is calculated using the formula distance speed of sound = time taken Evaluate whether this method could produce an accurate value for the speed of sound in air.
+Another student uses this method to determine the speed of sound. Step 1 The student stands 50 m away from her teacher, measuring the distance with a metre ruler. Step 2 The teacher makes a loud sound and flashes a light at the same time. Step 3 The student starts the stopwatch when she sees the flash of light. Step 4 She stops the stopwatch when she hears the loud sound. The speed of sound is calculated using the formula distance speed of sound = time taken Evaluate whether this method could produce an accurate value for the speed of sound in air.
+
+
+**Mark scheme answer**
+
+> any five from: ignore descriptions of
+> different experimental
+> methods
+> MP1. reference to reaction time; allow description of
+> reaction time issues
+> MP2. suggestion that light flash and sound may
+> not be at the same time;
+> MP3. idea that distance is too short (to give
+> accurate value);
+> MP4. idea that ruler is not appropriate to allow suggestion that
+> measure this distance; trundle wheel/tape
+> measure should be
+> used
+> MP5. idea of mis-counting the number of ruler
+> lengths;
+> MP6. idea of zero error on ruler;
+> MP7. idea of ruler not going in a straight line; allow ground not being
+> level
+> MP8. idea of lack of repeats;
+> MP9. idea that time of travel is too short to be
+> measured by a human;
+> (Total for Question 4 = 11 marks)
+> Answer Notes Marks
+
+- **(5)** any five from: ignore descriptions of
 
 
 ## Question 5 (8 marks)
@@ -331,7 +451,17 @@ Explain how cosmic microwave background radiation (CMBR) supports the Big Bang t
 > allow frequency has
 > decreased
 > MP4. Universe was (significantly) hotter long ago; allow RA
-> (b) change in wavelength = 78 (nm); ignore units
+
+- **(2)** any two from:
+
+### 6(b) [4]
+
+Hydrogen gas in a laboratory on Earth emits light with a wavelength of 605 nm. A distant galaxy contains hydrogen which emits light of the same wavelength. The wavelength of the light from the distant galaxy is measured as 683 nm on Earth. Calculate the speed of the distant galaxy. [speed of light = 3.0 × 108 m/s] speed = m/s
+
+
+**Mark scheme answer**
+
+> change in wavelength = 78 (nm); ignore units
 > substitution;
 > rearrangement;
 > evaluation; -1 for POT error
@@ -346,11 +476,7 @@ Explain how cosmic microwave background radiation (CMBR) supports the Big Bang t
 > (Total for Question 6 = 6 marks)
 > Answer Notes Marks
 
-- **(2)** any two from:
-
-### 6(b) [4]
-
-Hydrogen gas in a laboratory on Earth emits light with a wavelength of 605 nm. A distant galaxy contains hydrogen which emits light of the same wavelength. The wavelength of the light from the distant galaxy is measured as 683 nm on Earth. Calculate the speed of the distant galaxy. [speed of light = 3.0 × 108 m/s] speed = m/s
+- **(4)** change in wavelength = 78 (nm); ignore units
 
 
 ## Question 7 (13 marks)
@@ -366,15 +492,21 @@ Negatively charged water droplets fall into bucket A. Describe how bucket A beco
 
 > movement of electrons;
 > bucket gains electrons; scores both marks
-> (b) (droplets in each stream are) like/same charge;
-> (like charges) repel; ignore attraction to
-> bucket
 
 - **(2)** movement of electrons;
 
 ### 7(b) [2]
 
 Explain why the negatively charged droplets spread out as they fall.
+
+
+**Mark scheme answer**
+
+> (droplets in each stream are) like/same charge;
+> (like charges) repel; ignore attraction to
+> bucket
+
+- **(2)** (droplets in each stream are) like/same charge;
 
 ### 7(c)(i) [3]
 

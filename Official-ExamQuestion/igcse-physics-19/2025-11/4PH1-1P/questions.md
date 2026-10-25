@@ -12,27 +12,90 @@ This question is about stars.
 
 Which of these stars has the lowest surface temperature?
 
-- **(A)** Betelgeuse
+- **(A)** Betelgeuse  ✔
 - **(B)** Sirius A
 - **(C)** Sirius B
 - **(D)** The Sun
+
+
+**Mark scheme answer**
+
+> A (Betelgeuse);
+> B is incorrect because Sirius A is the hottest
+> C is incorrect because Sirius B is hotter than
+> Betelgeuse
+> D is incorrect because the Sun is hotter than
+> Betelgeuse
+
+- **(1)** Answer A: Betelgeuse
 
 ### 1(a)(ii) [1]
 
 Which of these stars will become a supernova in the future?
 
-- **(A)** Betelgeuse
+- **(A)** Betelgeuse  ✔
 - **(B)** Sirius A
 - **(C)** Sirius B
 - **(D)** The Sun
+
+
+**Mark scheme answer**
+
+> A (Betelgeuse);
+> B is incorrect because its mass is about the same as
+> the Sun
+> C is incorrect because Sirius B is the same mass as
+> the Sun and is already a white dwarf
+> D is incorrect because the Sun will not become a
+> supernova
+
+- **(1)** Answer A: Betelgeuse
 
 ### 1(a)(iii) [2]
 
 Sirius B and the Sun have approximately the same mass but are different colours and in different evolutionary stages. Describe two other differences between Sirius B and the Sun. 1 2
 
+
+**Mark scheme answer**
+
+> any two from: allow RA throughout
+> ignore comments about
+> colour, mass and
+> evolutionary stage
+> MP1. Sirius B is smaller than the Sun;
+> MP2. Sirius B is more dense than the Sun; allow Sirius B has a higher
+> value of g
+> MP3. Sirius B contains less hydrogen than the Sun;
+> MP4. fusion doesn’t take place in Sirius B but does
+> take place in the Sun;
+> MP5. Sirius B is hotter than the Sun;
+> MP6. Sirius B emits less light than the Sun; allow Sirius B has smaller
+> brightness / absolute
+> magnitude / luminosity
+
+- **(2)** any two from: allow RA throughout
+
 ### 1(b) [3]
 
 Sirius B orbits with Sirius A as part of a binary star system. The mean orbital radius of Sirius B is 29.7 × 109 km. The time for Sirius B to complete one orbit is 50 years. Calculate the mean orbital speed of Sirius B. Give your answer in km / s. mean orbital speed = km / s
+
+
+**Mark scheme answer**
+
+> conversion of time into seconds;
+> substitution; allow ecf from incorrect or
+> no conversion
+> evaluation;
+> answer of 3.7… × 109 scores
+> 2 marks
+> e.g.
+> 50 years = 50 × 365 × 24 × 60 × 60 OR 1.5768 × 109 (s)
+> orbital speed = 2π × 29.7 (× 109) / 1.5768 (× 109)
+> (orbital speed =) 118 (km/s) allow 120, 118.2…, 118.3…
+> (km/s)
+> Answer Notes Marks
+
+- **(3)** conversion of time into seconds;
 
 
 ## Question 2 (5 marks)
@@ -124,10 +187,30 @@ A current larger than 32 A flows in the sockets. Describe how having the circuit
 > idea of isolating device; allow stops the current, breaks the
 > circuit, cuts the power
 > idea of no danger of overheating; allow idea that it prevents fires
-> (b) idea that fuse can’t be reset; allow fuse has to be replaced
+
+- **(2)** any two from: ignore comments relating to
+
+### 3(b) [2]
+
+A student suggests that fuses could be used instead of the circuit breakers. Give two disadvantages of using fuses instead of circuit breakers. 1 2
+
+
+**Mark scheme answer**
+
+> idea that fuse can’t be reset; allow fuse has to be replaced
 > ignore fuse melts/blows
 > idea that fuse is slower (to break the circuit); allow idea that fuse is less sensitive
-> (c) any two from:
+
+- **(2)** idea that fuse can’t be reset; allow fuse has to be replaced
+
+### 3(c) [2]
+
+Explain why the wiring in the house includes an earth wire.
+
+
+**Mark scheme answer**
+
+> any two from:
 > in the event of a fault; allow description of a fault e.g. live
 > wire touching metal case (of an
 > appliance), drilling through a cable
@@ -141,15 +224,7 @@ A current larger than 32 A flows in the sockets. Describe how having the circuit
 > electric shock
 > Answer Notes Marks
 
-- **(2)** any two from: ignore comments relating to
-
-### 3(b) [2]
-
-A student suggests that fuses could be used instead of the circuit breakers. Give two disadvantages of using fuses instead of circuit breakers. 1 2
-
-### 3(c) [2]
-
-Explain why the wiring in the house includes an earth wire.
+- **(2)** any two from:
 
 
 ## Question 4 (6 marks)
@@ -168,7 +243,17 @@ Show that the work done by the force is about 440 J. Use the formula work done =
 > e.g.
 > (work done =) 120 × 3.7
 > (work done =) 444 (J)
-> (b) substitution OR rearrangement; allow use of g = 9.8, 9.81
+
+- **(2)** substitution;
+
+### 4(b) [2]
+
+The block gains 12 J of energy in its gravitational store when it is lifted through a height of 0.82 m. Calculate the mass of the block. mass = kg
+
+
+**Mark scheme answer**
+
+> substitution OR rearrangement; allow use of g = 9.8, 9.81
 > condone symbol for g being
 > used in the substitution rather
 > than the value
@@ -176,7 +261,17 @@ Show that the work done by the force is about 440 J. Use the formula work done =
 > e.g.
 > 12 = mass × 10 × 0.82 OR mass = GPE / [g x h]
 > (mass =) 1.5 (kg) allow 1.46…(kg)
-> (c) MP1. energy can’t be destroyed; allow statement that energy is
+
+- **(2)** substitution OR rearrangement; allow use of g = 9.8, 9.81
+
+### 4(c) [2]
+
+A student states that most of the input energy is destroyed when the block is pulled up the ramp. Comment on the student’s statement.
+
+
+**Mark scheme answer**
+
+> MP1. energy can’t be destroyed; allow statement that energy is
 > conserved
 > with any one of: allow wasted / lost /
 > dissipated for transferred
@@ -186,15 +281,7 @@ Show that the work done by the force is about 440 J. Use the formula work done =
 > MP4. energy transferred due to friction;
 > Answer Notes Marks
 
-- **(2)** substitution;
-
-### 4(b) [2]
-
-The block gains 12 J of energy in its gravitational store when it is lifted through a height of 0.82 m. Calculate the mass of the block. mass = kg
-
-### 4(c) [2]
-
-A student states that most of the input energy is destroyed when the block is pulled up the ramp. Comment on the student’s statement.
+- **(2)** MP1. energy can’t be destroyed; allow statement that energy is
 
 
 ## Question 5 (10 marks)
@@ -215,7 +302,17 @@ Uranium‑238 decays by emitting an alpha particle to become an isotope of thori
 > equation balances
 > atomic number for uranium = 92; allow ecf from α if
 > equation balances
-> (b) allow neutron becomes
+
+- **(3)** correct mass number and atomic number for α; expect 42α
+
+### 5(b) [2]
+
+The isotope of thorium produced in the decay of uranium‑238 is also radioactive. Thorium decays by emitting a beta particle. Describe how the structure of a thorium nucleus changes when a beta particle is emitted.
+
+
+**Mark scheme answer**
+
+> allow neutron becomes
 > a proton (and an
 > electron) for 2 marks
 > number of neutrons decreases by 1; allow (atomic) mass
@@ -223,11 +320,7 @@ Uranium‑238 decays by emitting an alpha particle to become an isotope of thori
 > number of protons increases by 1; allow atomic number
 > increases by 1
 
-- **(3)** correct mass number and atomic number for α; expect 42α
-
-### 5(b) [2]
-
-The isotope of thorium produced in the decay of uranium‑238 is also radioactive. Thorium decays by emitting a beta particle. Describe how the structure of a thorium nucleus changes when a beta particle is emitted.
+- **(2)** allow neutron becomes
 
 ### 5(c)(i) [1]
 
@@ -301,13 +394,52 @@ One of the magnetic field lines has already been drawn. Complete diagram 1 by dr
 
 ![diagram — official paper figure (qp.pdf p.15) — shared with asset_6_a_diagram_stem](assets/asset_6_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> magnet poles labelled correctly; N on left and S on right
+> at least three more straight lines drawn such that ignore lines drawn
+> they are equally spaced and parallel with existing outside the rectangular
+> line; space between the
+> magnets for this mark
+> arrows on all field lines between the poles pointing reject if any field lines
+> to the right; drawn between poles
+> have contradictory
+> arrows
+
+- **(3)** magnet poles labelled correctly; N on left and S on right
+
 ### 6(a)(ii) [3]
 
 Describe a method a student could use to show the shape and direction of the magnetic field between the bar magnets. You may draw a diagram to help your answer.
 
+
+**Mark scheme answer**
+
+> EITHER: all marking points can
+> be awarded from
+> labelled diagram
+> MP1. use of (plotting) compass;
+> MP2. movement of compass/use of multiple
+> compasses;
+> MP3. idea of joining of dots;
+> OR
+> MP1. use of (sprinkled) iron filings/eq.;
+> MP2. idea of tapping to distribute filings;
+> MP3. use of (plotting) compass to show direction;
+
+- **(3)** EITHER: all marking points can
+
 ### 6(a)(iii) [1]
 
 Name a magnetically soft material.
+
+
+**Mark scheme answer**
+
+> iron; condone nickel, cobalt
+
+- **(1)** iron; condone nickel, cobalt
 
 ### 6(b)(i) [3]
 
@@ -434,7 +566,17 @@ The voltage across resistor R is 1.9 V. The resistance of resistor R is 800 Ω. 
 > current = 1.9 ÷ 800
 > current = 2.4 (mA) allow 2.375, 2.38 (mA)
 > condone 2.37 (mA)
-> (c) MP1. resistance (of LDR / circuit) decreases (with
+
+- **(3)** substitution;
+
+### 7(c) [4]
+
+Explain why the voltage across the light dependent resistor (LDR) decreases if the brightness of the light in the room increases.
+
+
+**Mark scheme answer**
+
+> MP1. resistance (of LDR / circuit) decreases (with
 > increased brightness);
 > MP2. current increases;
 > MP3. voltage of fixed resistor increases; allow R, resistor R for fixed
@@ -450,23 +592,25 @@ The voltage across resistor R is 1.9 V. The resistance of resistor R is 800 Ω. 
 > LDR and resistor;
 > MP4. (so) voltage (across LDR) is proportional to ignore quotation of V=I×R
 > resistance (so voltage across LDR decreases);
-> (d) any two from:
-> MP1. current increases;
-> MP2. increase in number of paths/branches;
-> MP3. resistance (of parallel combination) is lower;
-> Answer Notes Marks
 
-- **(3)** substitution;
-
-### 7(c) [4]
-
-Explain why the voltage across the light dependent resistor (LDR) decreases if the brightness of the light in the room increases.
+- **(4)** MP1. resistance (of LDR / circuit) decreases (with
 
 ### 7(d) [2]
 
 Another resistor is connected in parallel with resistor R. The new resistor has a higher resistance than resistor R. Explain what happens to the current in the LDR in the circuit diagram. Assume that the brightness of the light in the room remains constant.
 
 ![diagram — official paper figure (qp.pdf p.20) — shared with asset_7_a_diagram_stem](assets/asset_7_a_diagram_stem.png)
+
+
+**Mark scheme answer**
+
+> any two from:
+> MP1. current increases;
+> MP2. increase in number of paths/branches;
+> MP3. resistance (of parallel combination) is lower;
+> Answer Notes Marks
+
+- **(2)** any two from:
 
 
 ## Question 8 (9 marks)
@@ -498,14 +642,36 @@ Describe a method that could be used to accurately determine the volume of clay 
 > • ensure eureka can/bowl is (completely) full
 > prior to submerging pot
 > • no trapped air in pot
-> (b) (top pan) balance; allow mass balance,
+
+- **(4)** reference to using a displacement method; ignore filling pot with
+
+### 8(b) [1]
+
+Give the name of a piece of apparatus that could be used to measure the mass of the clay pot.
+
+
+**Mark scheme answer**
+
+> (top pan) balance; allow mass balance,
 > electronic balance,
 > digital balance,
 > weighing scale
 > ignore
 > (electronic/digital)
 > scale(s)
-> (c) evaluation of mass of liquid;
+
+- **(1)** (top pan) balance; allow mass balance,
+
+### 8(c) [4]
+
+The clay pot can be used to hold liquids. A student needs to determine the volume of liquid that can be contained in the pot. The student measures the mass of the empty pot and then measures the mass of the pot again when it is filled with a liquid. The table shows the student’s measurements. Mass of empty pot in kg 1.2 Mass of pot filled with liquid in kg 6.8 The density of the liquid used is 920 kg / m3. Calculate the volume of liquid that can be contained in the pot. Use the formula mass density = volume volume = m3
+
+![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
+
+
+**Mark scheme answer**
+
+> evaluation of mass of liquid;
 > substitution into formula; allow ecf from incorrect
 > mass
 > rearrangement;
@@ -518,17 +684,7 @@ Describe a method that could be used to accurately determine the volume of clay 
 > 0.00608… (m3)
 > Answer Notes Marks
 
-- **(4)** reference to using a displacement method; ignore filling pot with
-
-### 8(b) [1]
-
-Give the name of a piece of apparatus that could be used to measure the mass of the clay pot.
-
-### 8(c) [4]
-
-The clay pot can be used to hold liquids. A student needs to determine the volume of liquid that can be contained in the pot. The student measures the mass of the empty pot and then measures the mass of the pot again when it is filled with a liquid. The table shows the student’s measurements. Mass of empty pot in kg 1.2 Mass of pot filled with liquid in kg 6.8 The density of the liquid used is 920 kg / m3. Calculate the volume of liquid that can be contained in the pot. Use the formula mass density = volume volume = m3
-
-![table — official paper figure (qp.pdf p.23)](assets/asset_8_c_table.png)
+- **(4)** evaluation of mass of liquid;
 
 
 ## Question 9 (7 marks)
@@ -555,13 +711,42 @@ What feature of the graph gives the magnitude of the acceleration of the car?
 > B is incorrect because axes are a feature of all
 > graphs not connected with acceleration
 > C is incorrect because not all graphs have curves
-> (b) B (Q);
+
+- **(1)** Answer D: gradient of the line
+
+### 9(b) [1]
+
+At which point on the graph does the driver of the car first apply the brakes?
+
+- **(A)** P
+- **(B)** Q  ✔
+- **(C)** R
+- **(D)** S
+
+![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_graph.png)
+
+
+**Mark scheme answer**
+
+> B (Q);
 > A (P) is incorrect as the car is still increasing in
 > velocity
 > C (R) is incorrect as the car has been decelerating
 > for some time
 > D (S) is incorrect as the car has stopped moving
-> (c) any two from:
+
+- **(1)** Answer B: Q
+
+### 9(c) [2]
+
+Explain why the graph is a curve for the first 11.0 seconds.
+
+![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_graph.png)
+
+
+**Mark scheme answer**
+
+> any two from:
 > MP1. air resistance increases (with increasing allow drag/friction for
 > speed); air resistance
 > MP2. resultant force decreases;
@@ -571,7 +756,17 @@ What feature of the graph gives the magnitude of the acceleration of the car?
 > decreasing rate
 > MP4. gradient decreases; condone slope
 > decreases
-> (d) idea that distance = area (under line); allow statement that
+
+- **(2)** any two from:
+
+### 9(d) [3]
+
+Calculate the distance travelled by the car from 11.0 seconds to 15.0 seconds. distance = m
+
+
+**Mark scheme answer**
+
+> idea that distance = area (under line); allow statement that
 > distance = average
 > speed × time
 > attempt at calculating area of correct triangle; condone misreading
@@ -589,28 +784,7 @@ What feature of the graph gives the magnitude of the acceleration of the car?
 > (distance =) 180 (m)
 > Question number Answer Notes Marks
 
-- **(1)** Answer D: gradient of the line
-
-### 9(b) [1]
-
-At which point on the graph does the driver of the car first apply the brakes?
-
-- **(A)** P
-- **(B)** Q
-- **(C)** R
-- **(D)** S
-
-![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_graph.png)
-
-### 9(c) [2]
-
-Explain why the graph is a curve for the first 11.0 seconds.
-
-![graph — official paper figure (qp.pdf p.24) — shared with 9(a)](assets/asset_9_a_graph.png)
-
-### 9(d) [3]
-
-Calculate the distance travelled by the car from 11.0 seconds to 15.0 seconds. distance = m
+- **(3)** idea that distance = area (under line); allow statement that
 
 
 ## Question 10 (11 marks)
@@ -631,7 +805,19 @@ Light is an example of a wave. State what is meant by the term wave.
 > information
 > by vibrations / oscillations;
 > idea that waves don’t transfer mass/matter;
-> (b) ray of light drawn reflecting from mirror at the ray does not need an
+
+- **(2)** any two from:
+
+### 10(b) [2]
+
+Diagram 1 shows a ray of light incident on a mirror. ray of light mirror Diagram 1 Draw another ray of light on diagram 1 to show the path of the ray after it is incident on the mirror.
+
+![diagram — official paper figure (qp.pdf p.27)](assets/asset_10_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> ray of light drawn reflecting from mirror at the ray does not need an
 > point of the incident ray; arrow
 > condone ray reflecting
 > to left of incident ray
@@ -641,13 +827,7 @@ Light is an example of a wave. State what is meant by the term wave.
 > “mirror” in sentence
 > above if extrapolated
 
-- **(2)** any two from:
-
-### 10(b) [2]
-
-Diagram 1 shows a ray of light incident on a mirror. ray of light mirror Diagram 1 Draw another ray of light on diagram 1 to show the path of the ray after it is incident on the mirror.
-
-![diagram — official paper figure (qp.pdf p.27)](assets/asset_10_b_diagram.png)
+- **(2)** ray of light drawn reflecting from mirror at the ray does not need an
 
 ### 10(c)(i) [1]
 
@@ -696,22 +876,6 @@ The refractive index of blue light in glass is higher than the refractive index 
 > allow if seen on
 > diagram
 > Answer Notes Marks
-> 11 any five from: allow any marking point
-> if seen on labelled
-> diagram
-> MP1. idea that air is heated (by candle under tube allow air particles move
-> B); faster / gain KE
-> ignore smoke is heated
-> MP2. (heated) air expands; allow air particles move
-> further apart
-> ignore particles expand
-> MP3. density of (heated) air decreases; ignore particle density
-> decreases
-> MP4. hot air rises through tube B;
-> MP5. idea that cool air is drawn in (through tube A ignore smoke moving
-> to replace air that has left box); through tube A
-> MP6. idea that the process repeats;
-> Answer Notes Marks
 
 - **(3)** higher refractive index means lower critical angle; allow blue light has
 
@@ -729,6 +893,28 @@ The diagram shows apparatus that can be used to demonstrate convection currents.
 ![diagram — official paper figure (qp.pdf p.30) — shared with asset_11_q_apparatus_stem](assets/asset_11_q_apparatus_stem.png)
 
 
+**Mark scheme answer**
+
+> any five from: allow any marking point
+> if seen on labelled
+> diagram
+> MP1. idea that air is heated (by candle under tube allow air particles move
+> B); faster / gain KE
+> ignore smoke is heated
+> MP2. (heated) air expands; allow air particles move
+> further apart
+> ignore particles expand
+> MP3. density of (heated) air decreases; ignore particle density
+> decreases
+> MP4. hot air rises through tube B;
+> MP5. idea that cool air is drawn in (through tube A ignore smoke moving
+> to replace air that has left box); through tube A
+> MP6. idea that the process repeats;
+> Answer Notes Marks
+
+- **(5)** any five from: allow any marking point
+
+
 ## Question 12 (16 marks)
 
 This question is about gas pressure.
@@ -741,13 +927,50 @@ This question is about gas pressure.
 
 The gas particles move in random motion. State what is meant by the term random motion.
 
+
+**Mark scheme answer**
+
+> idea that (particles) move in allow particles move in
+> different/unpredictable directions; all/any directions
+> ignore random directions
+> idea that (particles) move at allow particles have
+> different/unpredictable speeds; different velocities,
+> kinetic energies
+> ignore random speeds
+
+- **(2)** idea that (particles) move in allow particles move in
+
 ### 12(a)(ii) [2]
 
 The gas exerts a pressure due to the gas particles colliding with the walls of the box. Explain how these collisions produce a pressure.
 
+
+**Mark scheme answer**
+
+> idea that a force is produced (on the walls); ignore pushing on walls
+> pressure is force on an area; allow p = F/A
+
+- **(2)** idea that a force is produced (on the walls); ignore pushing on walls
+
 ### 12(a)(iii) [3]
 
 The volume of the box is increased but the temperature of the gas remains constant. Explain how increasing the volume of the box affects the pressure of the gas in the box. Assume the amount of gas remains constant.
+
+
+**Mark scheme answer**
+
+> MP1. pressure decreases;
+> with any two from:
+> MP2. (average) speed of particles does not change; allow kinetic energy for
+> speed
+> MP3. particles travel greater distance / time
+> between collisions increases;
+> MP4. particles collide less frequently (with walls allow statement of Boyle’s
+> of container); law e.g. p1V1 = p2V2
+> MP5. decrease in (average) force (of particles on allow pressure is inversely
+> walls) / increase in area (for collisions); proportional to volume
+
+- **(3)** MP1. pressure decreases;
 
 ### 12(b)(i) [3]
 
@@ -785,7 +1008,17 @@ Different liquids can be used in the manometer. Liquid mercury has a density of 
 > idea that a (very) large pressure difference could allow (very) large pressure
 > cause a very/too large height difference (if mercury difference could cause
 > not used as the liquid); manometer to overflow
-> (c) conversion of initial temperature into kelvin;
+
+- **(2)** any two from:
+
+### 12(c) [4]
+
+The pressure of a sample of gas is 232 kPa at a temperature of 16 °C. Calculate the temperature when the pressure of the sample of gas increases to 249 kPa. Give your answer in degrees Celsius (°C) Assume that the volume and the mass of the gas sample remain constant. temperature = ° C
+
+
+**Mark scheme answer**
+
+> conversion of initial temperature into kelvin;
 > substitution; allow ECF from incorrectly
 > or non converted
 > temperature
@@ -802,9 +1035,5 @@ Different liquids can be used in the manometer. Liquid mercury has a density of 
 > T2 = 249 × 289 / 232
 > (T2 = 310 K =) 37 (°C) allow 37.2, 37.1767… (°C)
 
-- **(2)** any two from:
-
-### 12(c) [4]
-
-The pressure of a sample of gas is 232 kPa at a temperature of 16 °C. Calculate the temperature when the pressure of the sample of gas increases to 249 kPa. Give your answer in degrees Celsius (°C) Assume that the volume and the mass of the gas sample remain constant. temperature = ° C
+- **(4)** conversion of initial temperature into kelvin;
 

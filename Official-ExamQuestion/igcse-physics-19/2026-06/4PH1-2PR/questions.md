@@ -21,13 +21,6 @@ Table 1 gives some observations about the universe. Complete table 1 by placing 
 > e.g.
 > ✓
 > ✓
-> (b) one mark for each correct row;;; reject row if more than
-> one tick
-> e.g.
-> ✓
-> ✓
-> ✓
-> Answer Notes Marks
 
 - **(2)** one mark for each correct tick;; if more than two ticks
 
@@ -36,6 +29,19 @@ Table 1 gives some observations about the universe. Complete table 1 by placing 
 Table 2 gives some physical quantities. Complete table 2 by placing a tick (✓ ) in each row to show whether the measured value of each quantity has decreased, stayed the same or increased since the Big Bang. Measured value Physical quantity stayed the decreased increased same mean temperature of the universe size of the universe total energy in the universe Table 2
 
 ![table — official paper figure (qp.pdf p.5)](assets/asset_1_b_table.png)
+
+
+**Mark scheme answer**
+
+> one mark for each correct row;;; reject row if more than
+> one tick
+> e.g.
+> ✓
+> ✓
+> ✓
+> Answer Notes Marks
+
+- **(3)** one mark for each correct row;;; reject row if more than
 
 
 ## Question 2 (9 marks)
@@ -50,9 +56,30 @@ The diagram shows the simplified construction of an electrostatic air filter. Ai
 
 Explain how the dust particles become positively-charged.
 
+
+**Mark scheme answer**
+
+> transfer of electrons; allow grid gains
+> electrons for this mark
+> dust particles lose electrons/negative charge;
+
+- **(2)** transfer of electrons; allow grid gains
+
 ### 2(a)(ii) [2]
 
 The dust particles then pass near negatively-charged collecting plates. Explain why the dust particles collect on the negatively-charged collecting plates.
+
+
+**Mark scheme answer**
+
+> dust and plate have opposite/unlike charges; ignore different charges
+> reject references to
+> poles
+> (therefore) they attract;
+> “opposite charges
+> attract” scores both
+
+- **(2)** dust and plate have opposite/unlike charges; ignore different charges
 
 ### 2(b)(i) [2]
 
@@ -120,7 +147,17 @@ Wood has the lowest energy density of the fuels shown in the bar chart. Give an 
 > idea that wood is a renewable energy resource / eq; allow wood is renewable
 > OR
 > idea that the others are non-renewable / eq;
-> (b) both values correctly read from bar chart;
+
+- **(1)** ignore references to
+
+### 3(b) [3]
+
+Determine the ratio of the energy density of natural gas to the energy density of coal. Give your answer in the form n : 1 ratio = : 1
+
+
+**Mark scheme answer**
+
+> both values correctly read from bar chart;
 > attempt at ratio calculation; allow ecf for these marks
 > evaluation of ratio; if only one value read
 > incorrectly
@@ -133,11 +170,7 @@ Wood has the lowest energy density of the fuels shown in the bar chart. Give an 
 > condone 2 (:1) if supported
 > by correct working
 
-- **(1)** ignore references to
-
-### 3(b) [3]
-
-Determine the ratio of the energy density of natural gas to the energy density of coal. Give your answer in the form n : 1 ratio = : 1
+- **(3)** both values correctly read from bar chart;
 
 ### 3(c)(i) [2]
 
@@ -290,7 +323,17 @@ Calculate the mean force exerted on the ball by the pool cue. mean force = N
 > (mean force =) 28 (N) allow answers that round within
 > the range
 > 26 to 28 (N)
-> (c) any three from:
+
+- **(3)** conversion of ms to s for contact time; allow ecf from (iii)
+
+### 4(c) [3]
+
+The student suggests that using a light gate would give a more accurate measurement of the speed of the ball after it is hit with the pool cue. Comment on the student’s suggestion.
+
+
+**Mark scheme answer**
+
+> any three from:
 > MP1. idea that light gate removes reaction time
 > errors;
 > MP2. idea that light gates could be placed at the allow light gates placed 1.0 m
@@ -306,11 +349,7 @@ Calculate the mean force exerted on the ball by the pool cue. mean force = N
 > ball to pass through;
 > Answer Notes Marks
 
-- **(3)** conversion of ms to s for contact time; allow ecf from (iii)
-
-### 4(c) [3]
-
-The student suggests that using a light gate would give a more accurate measurement of the speed of the ball after it is hit with the pool cue. Comment on the student’s suggestion.
+- **(3)** any three from:
 
 
 ## Question 5 (9 marks)
@@ -341,7 +380,17 @@ The melting point of gallium is 29.8 °C. The mean temperature of the centre of 
 > arrangement
 > ignore references to
 > particle spacing
-> (b) determination of temperature change; allow 1.6 seen
+
+- **(4)** any four from:
+
+### 5(b) [5]
+
+The temperature of the liquid gallium increases from 29.8 °C to 31.4 °C when the liquid gallium gains 7.63 J of energy. Calculate the mass of the liquid gallium. Give your answer to 3 significant figures. [specific heat capacity of liquid gallium = 0.408 J / g °C] mass = g
+
+
+**Mark scheme answer**
+
+> determination of temperature change; allow 1.6 seen
 > anywhere in working
 > substitution into ∆Q = m × c × ∆T; allow ecf from incorrect
 > temperature change or
@@ -363,11 +412,7 @@ The melting point of gallium is 29.8 °C. The mean temperature of the centre of 
 > (mass =) 11.7 (g)
 > Answer Notes Marks
 
-- **(4)** any four from:
-
-### 5(b) [5]
-
-The temperature of the liquid gallium increases from 29.8 °C to 31.4 °C when the liquid gallium gains 7.63 J of energy. Calculate the mass of the liquid gallium. Give your answer to 3 significant figures. [specific heat capacity of liquid gallium = 0.408 J / g °C] mass = g
+- **(5)** determination of temperature change; allow 1.6 seen
 
 
 ## Question 6 (8 marks)
@@ -380,15 +425,58 @@ The scientist Henri Becquerel discovered radioactivity in 1896.
 
 Suggest why the photographic film was wrapped in paper.
 
+
+**Mark scheme answer**
+
+> any two from:
+> idea that (photographic) film is affected/darkened by
+> light;
+> idea that the paper/wrapper prevents light getting allow paper/wrapper
+> to film/plate; prevents alpha getting
+> to film/plate
+> to prove that any effect/darkening is due to
+> radiation (from rock only);
+
+- **(2)** any two from:
+
 ### 6(a)(ii) [2]
 
 When Becquerel did the experiment there was no direct sunlight due to cloud cover. The photographic film still produced an image. This image was not predicted by Becquerel’s original theory. Describe what scientists should do when the results of an experiment do not support their original theory.
+
+
+**Mark scheme answer**
+
+> repeat experiment; allow idea of looking at
+> results from other
+> experiments/scientists,
+> performing a different
+> experiment etc.
+> theory is rejected / modified / changed; allow make a new
+> theory
+
+- **(2)** repeat experiment; allow idea of looking at
 
 ### 6(b) [4]
 
 Becquerel concluded that the rock emitted radiation without absorbing any energy from direct sunlight. Becquerel passed the radiation from the rock through a magnetic field. He found that the rock emitted three different types of radiation. Diagram 2 shows the paths of the different types of radiation, P, Q and R, when they passed through the magnetic field. Key path of radiation magnetic field into the paper P rock photographic Q plate R Diagram 2 The radiation changes direction if it is charged, due to a force exerted by the magnetic field. Using information from diagram 2, explain what can be deduced about the properties of the three types of radiation, P, Q and R.
 
 ![diagram — official paper figure (qp.pdf p.20)](assets/asset_6_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> ignore statements about
+> the size of the forces
+> experienced
+> idea that P has the opposite charge to R;
+> P is {positively charged / alpha} AND
+> R is {negatively charged / beta}
+> Q has no charge;
+> Q is gamma; allow Q is neutron
+> (radiation)
+> Answer Notes Marks
+
+- **(4)** ignore statements about
 
 
 ## Question 7 (6 marks)
@@ -459,11 +547,69 @@ Diagram 1 shows a simplified cross-sectional view of a microphone receiving a so
 
 Explain how a sound wave causes the microphone to send an electrical signal to the oscilloscope.
 
+
+**Mark scheme answer**
+
+> idea that coil vibrates/oscillates; allow coil moves in and
+> out / back and forth
+> ignore “coil moves”
+> ignore diaphragm
+> vibrates
+> idea that coil cuts field (lines) of magnet; allow wires for coil
+> condone solenoid for
+> coil
+> accept changes in
+> (magnetic) flux
+> ignore references to
+> interacting fields
+> voltage / current induced (in coil); allow created,
+> produced for induced
+> ignore produces an
+> (electrical) signal
+
+- **(3)** idea that coil vibrates/oscillates; allow coil moves in and
+
 ### 8(a)(ii) [2]
 
 Suggest why very loud sounds may damage the microphone.
 
+
+**Mark scheme answer**
+
+> (very loud) sounds have high amplitude(s); allow amplitude of
+> sound is too big
+> (causing) large vibrations of the coil/diaphragm; allow alternative words
+> for large e.g. strong,
+> vigorous, etc.
+> accept equivalent
+> statements e.g. coil
+> hitting the end (of the
+> magnet) hard
+> ignore references to
+> damage
+
+- **(2)** (very loud) sounds have high amplitude(s); allow amplitude of
+
 ### 8(b) [4]
 
 The microphone is connected to an oscilloscope. Describe how the oscilloscope should be used to determine the frequency of a sound wave. You should refer to how the oscilloscope settings should be adjusted in your answer.
+
+
+**Mark scheme answer**
+
+> any four from: ignore references to
+> wavelength, amplitude,
+> finding number of
+> waves passing a point
+> MP1. adjust (the oscilloscope) to get a steady trace /
+> eq;
+> MP2. adjust (time base / oscilloscope) to give a
+> minimum of 1 complete cycle (on the screen);
+> MP3. determine number of squares for a specified condone one cycle
+> number of complete cycles / waves);
+> MP4. multiply number of squares by the time base /
+> eq. (and find T);
+> MP5. use f = 1/T;
+
+- **(4)** any four from: ignore references to
 

@@ -81,7 +81,17 @@ State the formula linking density, mass and volume.
 > e.g. ρ = m / V
 > condone use of d for
 > density
-> (b) substitution OR rearrangement; equation must be
+
+- **(1)** density = mass / volume; allow standard symbols
+
+### 2(b) [3]
+
+The brass mass has a mass of 454 g. The density of brass is 8.46 g/cm3. Calculate the volume of the brass mass. Give the unit. volume = unit
+
+
+**Mark scheme answer**
+
+> substitution OR rearrangement; equation must be
 > correct
 > evaluation; -1 for POT error
 > unit; allow m3 only if
@@ -94,11 +104,7 @@ State the formula linking density, mass and volume.
 > 5.37 × 10-5 m3 gains 3
 > Answer Notes Marks
 
-- **(1)** density = mass / volume; allow standard symbols
-
-### 2(b) [3]
-
-The brass mass has a mass of 454 g. The density of brass is 8.46 g/cm3. Calculate the volume of the brass mass. Give the unit. volume = unit
+- **(3)** substitution OR rearrangement; equation must be
 
 
 ## Question 3 (10 marks)
@@ -113,9 +119,31 @@ Curling is a sport played on ice. A player slides stone A across the ice towards
 
 State the formula linking momentum, mass and velocity.
 
+
+**Mark scheme answer**
+
+> momentum = mass × velocity; allow standard symbols
+> and rearrangements
+> e.g. p = m × v
+> reject use of m for
+> momentum
+
+- **(1)** momentum = mass × velocity; allow standard symbols
+
 ### 3(a)(ii) [2]
 
 Show that the momentum of stone A is approximately 50 kg m/s.
+
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation to 2 or 3 s.f.;
+> e.g.
+> (p =) 17 × 2.9
+> (p =) 49 (kg m/s) allow 49.3 (kg m/s)
+
+- **(2)** substitution;
 
 ### 3(b)(i) [4]
 
@@ -139,12 +167,39 @@ After the collision, both stones move in the same direction as the initial direc
 > pA = (17 × 0.4 =) 6.8
 > pB = (50 – 6.8 =) 43.2 allow 42.5, 42.2 from
 > non-rounded values for
+> (a)
+> (vB = 43.2 / 19 =) 2.3 (m/s) allow 2.27… (m/s)
+> allow 2.22…, 2.23…
 
 - **(4)** use of conservation of momentum; seen written explicitly
 
 ### 3(b)(ii) [3]
 
 When the stones collided, they were in contact for a time of 25 ms. Calculate the magnitude of the force stone A exerted on stone B in this collision. force = N
+
+
+**Mark scheme answer**
+
+> conversion of ms to s; allow ÷1000 / 0.025
+> seen anywhere in
+> working
+> substitution into F = Δp / t; no mark for formula
+> alone as given in paper
+> evaluation of force; 2 marks max. for POT
+> error e.g. 1.7 (N)
+> e.g.
+> t = 0.025 s
+> F = 43.2 / 0.025 allow ecf from (b)(i)
+> (F =) 1700 (N) allow answers in the
+> range 1688-1728
+> accept, in full,
+> responses including use
+> of ‘F = ma’ provided
+> correct values for u, v
+> and Δt to calculate a.
+> Answer Notes Marks
+
+- **(3)** conversion of ms to s; allow ÷1000 / 0.025
 
 
 ## Question 4 (12 marks)
@@ -222,7 +277,21 @@ It takes a time of 12 s from when the powder starts landing in the metal can unt
 > (-) 9.4 × 10-9 = current × 12
 > (current =) (-) 9.4 × 10-9 / 12
 > (current =) (-) 7.8 × 10-10 (A) 7.83… × 10-10 (A)
-> (c) any three of:
+
+- **(3)** substitution;
+
+### 4(c) [3]
+
+The student suggests that this demonstration is similar to refuelling an aircraft. The powder represents the fuel and the metal can represents the fuel tank in the aircraft. funnel plastic tubing metal cap metal can insulator metal rod thin piece of metal Explain how the student should modify this apparatus to demonstrate how to minimise the dangers when refuelling an aircraft. You may add to the diagram to help your answer.
+
+![apparatus — official paper figure (qp.pdf p.8) — shared with asset_4_c_apparatus_stem](assets/asset_4_c_apparatus_stem.png)
+
+![diagram — official paper figure (qp.pdf p.8) — shared with asset_4_c_apparatus_stem](assets/asset_4_c_apparatus_stem.png)
+
+
+**Mark scheme answer**
+
+> any three of:
 > MP1. any relevant danger; e.g. spark, explosion,
 > fire
 > MP2. idea that metal can/aircraft should be allow description of
@@ -236,15 +305,7 @@ It takes a time of 12 s from when the powder starts landing in the metal can unt
 > can/aircraft; is neutralised’
 > Answer Notes Marks
 
-- **(3)** substitution;
-
-### 4(c) [3]
-
-The student suggests that this demonstration is similar to refuelling an aircraft. The powder represents the fuel and the metal can represents the fuel tank in the aircraft. funnel plastic tubing metal cap metal can insulator metal rod thin piece of metal Explain how the student should modify this apparatus to demonstrate how to minimise the dangers when refuelling an aircraft. You may add to the diagram to help your answer.
-
-![apparatus — official paper figure (qp.pdf p.8) — shared with asset_4_c_apparatus_stem](assets/asset_4_c_apparatus_stem.png)
-
-![diagram — official paper figure (qp.pdf p.8) — shared with asset_4_c_apparatus_stem](assets/asset_4_c_apparatus_stem.png)
+- **(3)** any three of:
 
 
 ## Question 5 (14 marks)
@@ -392,7 +453,19 @@ Astronomers measure the absolute magnitude of stars. State what is meant by the 
 > at a standard distance; allow at 10 pc/32.6 ly.
 > condone incorrect
 > distance.
-> (b) correct absolute magnitude scale; i.e. going from +15 to -5
+
+- **(2)** (a measurement of) the brightness (of a star); allow
+
+### 6(b) [5]
+
+The evolution of stars can be shown on a Hertzsprung‑Russell diagram (HR diagram). Complete the HR diagram by ● labelling the x‑axis ● completing the absolute magnitude scale ● drawing the main sequence, red giant and white dwarf regions absolute +5 magnitude blue white yellow red
+
+![diagram — official paper figure (qp.pdf p.14)](assets/asset_6_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> correct absolute magnitude scale; i.e. going from +15 to -5
 > in regular intervals
 > x-axis labelled ‘colour’; condone ‘temperature’
 > main sequence top-left to bottom-right with clear
@@ -403,13 +476,7 @@ Astronomers measure the absolute magnitude of stars. State what is meant by the 
 > line with ‘red’ label on x-axis;
 > Answer Notes Marks
 
-- **(2)** (a measurement of) the brightness (of a star); allow
-
-### 6(b) [5]
-
-The evolution of stars can be shown on a Hertzsprung‑Russell diagram (HR diagram). Complete the HR diagram by ● labelling the x‑axis ● completing the absolute magnitude scale ● drawing the main sequence, red giant and white dwarf regions absolute +5 magnitude blue white yellow red
-
-![diagram — official paper figure (qp.pdf p.14)](assets/asset_6_b_diagram.png)
+- **(5)** correct absolute magnitude scale; i.e. going from +15 to -5
 
 
 ## Question 7 (9 marks)
@@ -424,9 +491,26 @@ The photograph shows a glass plate made from uranium glass. © Laura Healey/Shut
 
 State what information the numbers 92 and 238 give about the nucleus of this isotope of uranium. 92 238
 
+
+**Mark scheme answer**
+
+> (92 =) number of protons ignore atomic number
+> (238 =) number of nucleons / allow mass
+> number of protons and neutrons ignore mass number
+
+- **(2)** (92 =) number of protons ignore atomic number
+
 ### 7(a)(ii) [2]
 
 Uranium‑238 decays by alpha emission. Describe how the nucleus of a uranium‑238 atom changes as a result of alpha emission.
+
+
+**Mark scheme answer**
+
+> (nucleus) loses two protons;
+> (nucleus) loses two neutrons;
+
+- **(2)** (nucleus) loses two protons;
 
 ### 7(b)(i) [2]
 
@@ -489,7 +573,19 @@ Diagram 1 shows a positively charged proton moving downwards in a uniform magnet
 > B is incorrect because this field would produce a force into the page
 > C is incorrect because this field would produce a force to the left
 > D is incorrect because this field would not produce a force at all
-> (b) ignore breaking of field
+
+- **(1)** Answer A: into the page
+
+### 8(b) [3]
+
+When a current passes through a flat circular coil, a magnetic field is produced. Complete diagram 2 by drawing the magnetic field of the flat circular coil. to d.c. power supply Diagram 2 for the last part of the question
+
+![diagram — official paper figure (qp.pdf p.19)](assets/asset_8_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> ignore breaking of field
 > lines as they pass
 > through the centre of
 > the coil
@@ -499,13 +595,7 @@ Diagram 1 shows a positively charged proton moving downwards in a uniform magnet
 > field direction correct and consistent throughout DOP
 > and shown on at least two field lines;
 
-- **(1)** Answer A: into the page
-
-### 8(b) [3]
-
-When a current passes through a flat circular coil, a magnetic field is produced. Complete diagram 2 by drawing the magnetic field of the flat circular coil. to d.c. power supply Diagram 2 for the last part of the question
-
-![diagram — official paper figure (qp.pdf p.19)](assets/asset_8_b_diagram.png)
+- **(3)** ignore breaking of field
 
 ### 8(c)(i) [3]
 

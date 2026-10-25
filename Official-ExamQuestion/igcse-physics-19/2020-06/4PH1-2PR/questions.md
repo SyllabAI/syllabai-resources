@@ -14,27 +14,83 @@ This question is about electrostatics.
 
 Describe how the student could have charged the plastic rod.
 
+
+**Mark scheme answer**
+
+> idea of rubbing / friction;
+> with another insulator; allow suitable named
+> insulator e.g. duster, cloth,
+> hair etc.
+
+- **(2)** idea of rubbing / friction;
+
 ### 1(a)(ii) [1]
 
 The student uses a meter to measure the amount of charge on the rod. The meter displays a reading of –5.2 mC. Which of these is the same as –5.2 mC?
 
 - **(A)** –0.52 C
 - **(B)** –0.052 C
-- **(C)** –0.0052 C
+- **(C)** –0.0052 C  ✔
 - **(D)** –0.00052 C
+
+
+**Mark scheme answer**
+
+> C (-0.0052 C);
+> A is incorrect because this is equivalent to -520 mC
+> B is incorrect because this is equivalent to -52 mC
+> D is incorrect because this is equivalent to -0.52 mC
+
+- **(1)** Answer C: –0.0052 C
 
 ### 1(a)(iii) [1]
 
 The rod is negatively charged. Which statement correctly explains why the rod is negatively charged?
 
-- **(A)** the rod has gained negatively charged electrons
+- **(A)** the rod has gained negatively charged electrons  ✔
 - **(B)** the rod has gained positively charged electrons
 - **(C)** the rod has lost negatively charged electrons
 - **(D)** the rod has lost positively charged electrons
 
+
+**Mark scheme answer**
+
+> A (the rod has gained negatively charged electrons);
+> B is incorrect because electrons are not positively
+> charged
+> C is incorrect because this would make the rod
+> positively charged
+> D is incorrect because electrons are not positively
+> charged
+
+- **(1)** Answer A: the rod has gained negatively charged electrons
+
 ### 1(a)(iv) [2]
 
 Using a meter is one method of demonstrating that the rod is charged. Describe another method of demonstrating that the rod is charged.
+
+
+**Mark scheme answer**
+
+> suitable method of demonstrating; e.g.
+> • place rod on electroscope
+> • place rod near stream of
+> water from a tap
+> • place rod near hair
+> • place rod above small
+> pieces of paper
+> • place rod near another
+> (charged) rod
+> correct observation; e.g.
+> • leaf on electroscope
+> deflects
+> • water moves towards rod
+> • hair moves towards rod
+> • paper moves towards rod
+> • rods move towards/away
+> from each other
+
+- **(2)** suitable method of demonstrating; e.g.
 
 ### 1(b)(i) [1]
 
@@ -78,7 +134,17 @@ Calculate the time period of these x-rays. time period = s
 > e.g.
 > 1.25 × 1018 = 1 / T OR T = 1/f
 > (T =) 8.00 × 10-19 (s) allow 8 × 10-19 (s)
-> (b) use of v = f × λ; seen as a formula or implied
+
+- **(2)** substitution OR rearrangement;
+
+### 2(b) [3]
+
+X-rays have a speed of 3.00 × 108 m/s in air. Calculate the wavelength of these x-rays. wavelength = m
+
+
+**Mark scheme answer**
+
+> use of v = f × λ; seen as a formula or implied
 > by working
 > allow v, c, s for speed
 > allow λ for wavelength
@@ -90,11 +156,7 @@ Calculate the time period of these x-rays. time period = s
 > (λ =) 2.40 × 10-10 (m) allow 2.4 × 10-10 (m)
 > Answer Notes Marks
 
-- **(2)** substitution OR rearrangement;
-
-### 2(b) [3]
-
-X-rays have a speed of 3.00 × 108 m/s in air. Calculate the wavelength of these x-rays. wavelength = m
+- **(3)** use of v = f × λ; seen as a formula or implied
 
 
 ## Question 3 (10 marks)
@@ -111,13 +173,43 @@ Draw an X on diagram 1 at the centre of gravity of the stone block.
 
 ![diagram — official paper figure (qp.pdf p.8) — shared with asset_3_a_diagram_stem](assets/asset_3_a_diagram_stem.png)
 
+
+**Mark scheme answer**
+
+> X drawn at the base of the weight arrow; judge by eye
+
+- **(1)** X drawn at the base of the weight arrow; judge by eye
+
 ### 3(a)(ii) [1]
 
 State the formula linking weight, mass and gravitational field strength.
 
+
+**Mark scheme answer**
+
+> weight = mass × gravitational field strength; allow standard symbols and
+> rearrangements
+> e.g. W = m × g
+> ignore ‘gravity’ for g
+
+- **(1)** weight = mass × gravitational field strength; allow standard symbols and
+
 ### 3(a)(iii) [2]
 
 The mass of the stone block is 130 kg. Calculate the weight of the stone block. weight = N
+
+
+**Mark scheme answer**
+
+> substitution;
+> evaluation; -1 for POT error only e.g.
+> from incorrectly converting
+> kg to g
+> e.g.
+> (W =) 130 × 10 allow g = 9.8, 9.81
+> (W =) 1300 (N) allow 1274, 1275.3
+
+- **(2)** substitution;
 
 ### 3(b)(i) [2]
 
@@ -174,9 +266,28 @@ A student investigates the speed of sound in air.
 
 Describe how the student could determine the speed of sound in air using his calculated value of time taken.
 
+
+**Mark scheme answer**
+
+> measure the distance between microphones;
+> suitable instrument to measure distance; e.g. ruler / tape measure
+> use of speed = distance ÷ time;
+
+- **(3)** measure the distance between microphones;
+
 ### 4(a)(ii) [1]
 
 Suggest why the student does not use a stop clock in this investigation.
+
+
+**Mark scheme answer**
+
+> idea that time will be very small / too hard to allow idea that human
+> measure by a human; reaction time is an issue
+> ignore speed of sound is very
+> fast / eq.
+
+- **(1)** idea that time will be very small / too hard to allow idea that human
 
 ### 4(b)(i) [1]
 
@@ -277,17 +388,38 @@ Which energy store of the Sun decreases during nuclear fusion?
 
 - **(A)** chemical
 - **(B)** kinetic
-- **(C)** nuclear
+- **(C)** nuclear  ✔
 - **(D)** thermal
+
+
+**Mark scheme answer**
+
+> C (nuclear);
+> A is incorrect because chemical reactions do not happen in the Sun
+> B is incorrect because the kinetic store of particles increases during nuclear fusion
+> D is incorrect because the thermal store of the Sun remains constant whilst fusion is
+> taking place
+
+- **(1)** Answer C: nuclear
 
 ### 5(a)(ii) [1]
 
 How is energy transferred through space from the Sun to the Earth?
 
 - **(A)** by heating
-- **(B)** by radiation
+- **(B)** by radiation  ✔
 - **(C)** electrically
 - **(D)** mechanically
+
+
+**Mark scheme answer**
+
+> B (by radiation);
+> A is incorrect because transfers by heating cannot happen in a vacuum
+> C is incorrect because there is no electrical circuit or flow of ions
+> D is incorrect because the transfer does not happen due to forces
+
+- **(1)** Answer B: by radiation
 
 ### 5(b)(i) [3]
 
@@ -360,11 +492,11 @@ The fuel can be a solid, a liquid or a gas. Describe the motion of particles in 
 
 **Mark scheme answer**
 
-> (i) (in solids) particles vibrate only;
+> (in solids) particles vibrate only;
 > (in liquids) particles slide over each other;
 > (in gases) particles move freely / randomly;
 
-- **(3)** (i) (in solids) particles vibrate only;
+- **(3)** (in solids) particles vibrate only;
 
 ### 6(b)(i) [3]
 
@@ -416,8 +548,6 @@ The SC used electromagnets to produce the strong magnetic fields. Describe the c
 > current in the wire; current may be inferred from
 > diagram
 > iron core;
-> (b) down; allow force arrow drawn
-> pointing down on diagram
 
 - **(3)** coil of wire;
 
@@ -426,6 +556,14 @@ The SC used electromagnets to produce the strong magnetic fields. Describe the c
 The diagram shows a proton moving at velocity v in the magnetic field produced by the SC. v The direction of the magnetic field is into the page. Using the left hand rule, determine the direction of the force acting on the proton due to the magnetic field.
 
 ![diagram — official paper figure (qp.pdf p.18)](assets/asset_7_b_diagram.png)
+
+
+**Mark scheme answer**
+
+> down; allow force arrow drawn
+> pointing down on diagram
+
+- **(1)** down; allow force arrow drawn
 
 ### 7(c)(i) [2]
 
@@ -475,7 +613,17 @@ Describe the evolution of the Universe from the Big Bang until the present day.
 > started as a single point
 > Universe has expanded since the Big Bang;
 > Universe has cooled since the Big Bang;
-> (b) any four from:
+
+- **(3)** Universe began as hot / dense point; allow idea that Universe
+
+### 8(b) [4]
+
+Describe the evidence that supports the Big Bang theory.
+
+
+**Mark scheme answer**
+
+> any four from:
 > MP1. presence of cosmic microwave background allow CMBR
 > radiation;
 > MP2. CMBR comes from all directions; allow CMBR is uniform
@@ -492,9 +640,5 @@ Describe the evolution of the Universe from the Big Bang until the present day.
 > Pearson Education Limited. Registered company number 872828
 > with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
-- **(3)** Universe began as hot / dense point; allow idea that Universe
-
-### 8(b) [4]
-
-Describe the evidence that supports the Big Bang theory.
+- **(4)** any four from:
 

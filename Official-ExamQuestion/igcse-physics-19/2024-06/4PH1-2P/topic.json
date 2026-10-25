@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:27Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2024-06 paper=2P",
+ "generated_utc": "2026-10-25T22:06:58Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2024-06 paper=2P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2024-06:4PH1/2P",
  "source": {
   "qp_sha256": "e5920b0b4f8478d915b434aac97cc945e99517a2f823cc1a31675af7fdcbf9eb",
@@ -34,12 +34,12 @@
      "problem_md": "Three regions in the HR diagram are labelled P, Q and R. The boxes show the three regions and different astronomical objects. Draw a straight line from each region to the type of astronomical object contained in that region. Region Astronomical object black hole main sequence star P nebula Q neutron star red giant star R supernova white dwarf star",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "one mark for each correct line; reject mark if more\nthan one line drawn\nfrom region\n(b) (a measure of) brightness; allow power,\nluminosity, intensity\nignore description of\nscale for idea of\nmagnitude\n(of a star) at a {standard / fixed / same / set} allow correct distance\ndistance; e.g. 10 parsecs/32(.6)\nlight years\nignore incorrect\ndistance\nAnswer Notes Marks",
+     "solution_md": "one mark for each correct line; reject mark if more\nthan one line drawn\nfrom region",
      "mark_points": [
       {
        "id": "2024-06-1-a-MP1",
        "marks": 3,
-       "text_md": "one mark for each correct line; reject mark if more\nthan one line drawn\nfrom region\n(b) (a measure of) brightness; allow power,\nluminosity, intensity\nignore description of\nscale for idea of\nmagnitude\n(of a star) at a {standard / fixed / same / set} allow correct distance\ndistance; e.g. 10 parsecs/32(.6)\nlight years\nignore incorrect\ndistance\nAnswer Notes Marks"
+       "text_md": "one mark for each correct line; reject mark if more\nthan one line drawn\nfrom region"
       }
      ],
      "source_page": 4,
@@ -84,7 +84,15 @@
      "question_type": "structured",
      "problem_md": "Define the term absolute magnitude.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(a measure of) brightness; allow power,\nluminosity, intensity\nignore description of\nscale for idea of\nmagnitude\n(of a star) at a {standard / fixed / same / set} allow correct distance\ndistance; e.g. 10 parsecs/32(.6)\nlight years\nignore incorrect\ndistance\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-1-b-MP1",
+       "marks": 2,
+       "text_md": "(a measure of) brightness; allow power,\nluminosity, intensity\nignore description of\nscale for idea of\nmagnitude\n(of a star) at a {standard / fixed / same / set} allow correct distance\ndistance; e.g. 10 parsecs/32(.6)\nlight years\nignore incorrect\ndistance\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -113,12 +121,12 @@
      "problem_md": "The force applied to the wrench is 28 N. Calculate the moment applied by the wrench on the nut. Give a suitable unit. moment = unit =",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution into moment = force × distance; accept dimensionally\ncorrect substitution\nevaluation; -1 for POT error\nmatching unit; condone case error\ne.g.\nmoment = 28 × 0.15 allow 28 × 15\n(moment =) 4.2 N m allow 420 N cm\n(b) allow pivot for nut\napply a larger force / eq;\napply force further from nut / eq; allow use a longer\nwrench\ncondone bigger wrench",
+     "solution_md": "substitution into moment = force × distance; accept dimensionally\ncorrect substitution\nevaluation; -1 for POT error\nmatching unit; condone case error\ne.g.\nmoment = 28 × 0.15 allow 28 × 15\n(moment =) 4.2 N m allow 420 N cm",
      "mark_points": [
       {
        "id": "2024-06-2-a-MP1",
        "marks": 3,
-       "text_md": "substitution into moment = force × distance; accept dimensionally\ncorrect substitution\nevaluation; -1 for POT error\nmatching unit; condone case error\ne.g.\nmoment = 28 × 0.15 allow 28 × 15\n(moment =) 4.2 N m allow 420 N cm\n(b) allow pivot for nut\napply a larger force / eq;\napply force further from nut / eq; allow use a longer\nwrench\ncondone bigger wrench"
+       "text_md": "substitution into moment = force × distance; accept dimensionally\ncorrect substitution\nevaluation; -1 for POT error\nmatching unit; condone case error\ne.g.\nmoment = 28 × 0.15 allow 28 × 15\n(moment =) 4.2 N m allow 420 N cm"
       }
      ],
      "source_page": 6,
@@ -138,7 +146,15 @@
      "question_type": "structured",
      "problem_md": "State two changes that could be made to increase the size of the moment applied to the nut. 1 2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "allow pivot for nut\napply a larger force / eq;\napply force further from nut / eq; allow use a longer\nwrench\ncondone bigger wrench",
+     "mark_points": [
+      {
+       "id": "2024-06-2-b-MP1",
+       "marks": 2,
+       "text_md": "allow pivot for nut\napply a larger force / eq;\napply force further from nut / eq; allow use a longer\nwrench\ncondone bigger wrench"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -223,12 +239,12 @@
      "problem_md": "The photograph shows some of the equipment available to the student. infrared heater black bottle silver bottle thermometers The student pours some water into each bottle. Describe a method the student could use to investigate how the colour of the bottle affects the amount of infrared radiation absorbed by the bottle. You may draw a diagram to help your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any six from: allow marks from\nsuitable diagram\nMP1. idea of equal volume of water in each bottle;\nMP2. place both bottles an equal distance from the\nheater;\nMP3. idea of same heater output for both bottles; condone have ‘heater\nsetting’ the same for\nboth bottles\nMP4. same starting temperature of water in both allow ‘measure initial\nbottles; temp of water’\nMP5. measure temperature of water in both allow measure time in\nbottles after a given time; for a given temperature\nchange\nMP6. repeat investigation (more than once); i.e. the candidate has\nshown they understand\nthat both bottles have\nbeen measured more\nthan once\nMP7. calculate a mean; condone average\nMP8. safety guidance to avoid the hazard of e.g. take care to avoid\nburn/scald/electrocution; burns from heater,\nclean up water spillages\netc.\n(b) reject whole response if\nboth lines show a\ndecrease\ntwo lines drawn showing an increase in ignore starting\ntemperature over time; temperature\nignore flat sections\nline identified by candidate as black is always lines must be labelled\nabove the line identified by candidate as silver; for this mark\nallow “silver” line\nreaching same\ntemperature as “black”\nline at a later time\nAnswer Notes Marks",
+     "solution_md": "any six from: allow marks from\nsuitable diagram\nMP1. idea of equal volume of water in each bottle;\nMP2. place both bottles an equal distance from the\nheater;\nMP3. idea of same heater output for both bottles; condone have ‘heater\nsetting’ the same for\nboth bottles\nMP4. same starting temperature of water in both allow ‘measure initial\nbottles; temp of water’\nMP5. measure temperature of water in both allow measure time in\nbottles after a given time; for a given temperature\nchange\nMP6. repeat investigation (more than once); i.e. the candidate has\nshown they understand\nthat both bottles have\nbeen measured more\nthan once\nMP7. calculate a mean; condone average\nMP8. safety guidance to avoid the hazard of e.g. take care to avoid\nburn/scald/electrocution; burns from heater,\nclean up water spillages\netc.",
      "mark_points": [
       {
        "id": "2024-06-3-a-MP1",
        "marks": 6,
-       "text_md": "any six from: allow marks from\nsuitable diagram\nMP1. idea of equal volume of water in each bottle;\nMP2. place both bottles an equal distance from the\nheater;\nMP3. idea of same heater output for both bottles; condone have ‘heater\nsetting’ the same for\nboth bottles\nMP4. same starting temperature of water in both allow ‘measure initial\nbottles; temp of water’\nMP5. measure temperature of water in both allow measure time in\nbottles after a given time; for a given temperature\nchange\nMP6. repeat investigation (more than once); i.e. the candidate has\nshown they understand\nthat both bottles have\nbeen measured more\nthan once\nMP7. calculate a mean; condone average\nMP8. safety guidance to avoid the hazard of e.g. take care to avoid\nburn/scald/electrocution; burns from heater,\nclean up water spillages\netc.\n(b) reject whole response if\nboth lines show a\ndecrease\ntwo lines drawn showing an increase in ignore starting\ntemperature over time; temperature\nignore flat sections\nline identified by candidate as black is always lines must be labelled\nabove the line identified by candidate as silver; for this mark\nallow “silver” line\nreaching same\ntemperature as “black”\nline at a later time\nAnswer Notes Marks"
+       "text_md": "any six from: allow marks from\nsuitable diagram\nMP1. idea of equal volume of water in each bottle;\nMP2. place both bottles an equal distance from the\nheater;\nMP3. idea of same heater output for both bottles; condone have ‘heater\nsetting’ the same for\nboth bottles\nMP4. same starting temperature of water in both allow ‘measure initial\nbottles; temp of water’\nMP5. measure temperature of water in both allow measure time in\nbottles after a given time; for a given temperature\nchange\nMP6. repeat investigation (more than once); i.e. the candidate has\nshown they understand\nthat both bottles have\nbeen measured more\nthan once\nMP7. calculate a mean; condone average\nMP8. safety guidance to avoid the hazard of e.g. take care to avoid\nburn/scald/electrocution; burns from heater,\nclean up water spillages\netc."
       }
      ],
      "source_page": 8,
@@ -248,7 +264,15 @@
      "question_type": "structured",
      "problem_md": "The student plots a graph to show how the temperature of the water in each bottle varies with time. Draw two curves to show the expected variation in temperature of the black bottle and the silver bottle during the investigation. Label your curves with the colour of each bottle. Temperature Time",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "reject whole response if\nboth lines show a\ndecrease\ntwo lines drawn showing an increase in ignore starting\ntemperature over time; temperature\nignore flat sections\nline identified by candidate as black is always lines must be labelled\nabove the line identified by candidate as silver; for this mark\nallow “silver” line\nreaching same\ntemperature as “black”\nline at a later time\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2024-06-3-b-MP1",
+       "marks": 2,
+       "text_md": "reject whole response if\nboth lines show a\ndecrease\ntwo lines drawn showing an increase in ignore starting\ntemperature over time; temperature\nignore flat sections\nline identified by candidate as black is always lines must be labelled\nabove the line identified by candidate as silver; for this mark\nallow “silver” line\nreaching same\ntemperature as “black”\nline at a later time\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 10,
      "assets": [
       {
@@ -290,29 +314,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "friction"
+       "text_md": "friction",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "gravitational"
+       "text_md": "gravitational",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "magnetic"
+       "text_md": "magnetic",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "tension"
+       "text_md": "tension",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (friction);\nB is incorrect because gravity is not the\nforce\nC is incorrect because magnetic is not the\nforce\nD is incorrect because tension is not the\nforce",
+     "mark_points": [
+      {
+       "id": "2024-06-4-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer A: friction"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -325,29 +361,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "the rod gains electrons"
+       "text_md": "the rod gains electrons",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "the rod loses electrons"
+       "text_md": "the rod loses electrons",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "the rod gains protons"
+       "text_md": "the rod gains protons",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "the rod loses protons"
+       "text_md": "the rod loses protons",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (the rod gains electrons);\nB is incorrect because this would produce a\npositive charge\nC is incorrect because protons are not\ntransferred\nD is incorrect because protons are not\ntransferred",
+     "mark_points": [
+      {
+       "id": "2024-06-4-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer A: the rod gains electrons"
+      }
+     ],
      "source_page": 12,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -494,12 +542,12 @@
      "problem_md": "State which wave property determines the pitch of a sound.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "frequency; ignore unit for\nfrequency\nreject response with\nmore than one\nquantity/property\n(b) C chosen; condone E chosen\ncondone ‘C and E’\ncondone ‘C or E’\n(because) humans can hear up to 20 kHz / accept additional\n20 000Hz; reasonable qualification\ne.g. idea of upper\nrange decreasing with\nage or hearing loss",
+     "solution_md": "frequency; ignore unit for\nfrequency\nreject response with\nmore than one\nquantity/property",
      "mark_points": [
       {
        "id": "2024-06-5-a-MP1",
        "marks": 1,
-       "text_md": "frequency; ignore unit for\nfrequency\nreject response with\nmore than one\nquantity/property\n(b) C chosen; condone E chosen\ncondone ‘C and E’\ncondone ‘C or E’\n(because) humans can hear up to 20 kHz / accept additional\n20 000Hz; reasonable qualification\ne.g. idea of upper\nrange decreasing with\nage or hearing loss"
+       "text_md": "frequency; ignore unit for\nfrequency\nreject response with\nmore than one\nquantity/property"
       }
      ],
      "source_page": 14,
@@ -519,7 +567,15 @@
      "question_type": "structured",
      "problem_md": "The bar chart shows the maximum frequency of sound heard by four animals and a human. Frequency in kHz A B C D E Explain which of the bars is most likely to show the results for a human.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C chosen; condone E chosen\ncondone ‘C and E’\ncondone ‘C or E’\n(because) humans can hear up to 20 kHz / accept additional\n20 000Hz; reasonable qualification\ne.g. idea of upper\nrange decreasing with\nage or hearing loss",
+     "mark_points": [
+      {
+       "id": "2024-06-5-b-MP1",
+       "marks": 2,
+       "text_md": "C chosen; condone E chosen\ncondone ‘C and E’\ncondone ‘C or E’\n(because) humans can hear up to 20 kHz / accept additional\n20 000Hz; reasonable qualification\ne.g. idea of upper\nrange decreasing with\nage or hearing loss"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
@@ -748,12 +804,12 @@
      "problem_md": "State what is meant by the term renewable energy resource.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "idea that source will not run out / can be ignore ‘recycled’ or ‘re-\nreplaced; used’\ncondone ‘infinite’\naccept ‘replenished’\n(b) any four from: condone ‘turns into’,\n‘becomes’ etc for\n‘transfers’\nMP1. water has (high) {gravitational potential energy starts as\nenergy/GPE (store)} ; gravitational (potential\nenergy)\nMP2. water loses GPE / gains {kinetic transfers from GPE to\nenergy/KE}; KE scores MP1 and MP2\nMP3. transfers mechanically (to water or to allow at any correct\nturbine or to generator); stage i.e. for water,\nturbine or generator\nallow KE of water to KE\nof turbine\nallow KE of turbine to\nKE of generator\nMP4. energy is transferred electrically (from transfers from KE (of\npower station); water or generator) to\nelectrical (energy)\nMP5. energy is wasted by heating/radiation e.g. allow transfer of heat\nIR, sound; (energy) to\nsurroundings/eq\nallow transfer of sound\n(energy)",
+     "solution_md": "idea that source will not run out / can be ignore ‘recycled’ or ‘re-\nreplaced; used’\ncondone ‘infinite’\naccept ‘replenished’",
      "mark_points": [
       {
        "id": "2024-06-7-a-MP1",
        "marks": 1,
-       "text_md": "idea that source will not run out / can be ignore ‘recycled’ or ‘re-\nreplaced; used’\ncondone ‘infinite’\naccept ‘replenished’\n(b) any four from: condone ‘turns into’,\n‘becomes’ etc for\n‘transfers’\nMP1. water has (high) {gravitational potential energy starts as\nenergy/GPE (store)} ; gravitational (potential\nenergy)\nMP2. water loses GPE / gains {kinetic transfers from GPE to\nenergy/KE}; KE scores MP1 and MP2\nMP3. transfers mechanically (to water or to allow at any correct\nturbine or to generator); stage i.e. for water,\nturbine or generator\nallow KE of water to KE\nof turbine\nallow KE of turbine to\nKE of generator\nMP4. energy is transferred electrically (from transfers from KE (of\npower station); water or generator) to\nelectrical (energy)\nMP5. energy is wasted by heating/radiation e.g. allow transfer of heat\nIR, sound; (energy) to\nsurroundings/eq\nallow transfer of sound\n(energy)"
+       "text_md": "idea that source will not run out / can be ignore ‘recycled’ or ‘re-\nreplaced; used’\ncondone ‘infinite’\naccept ‘replenished’"
       }
      ],
      "source_page": 20,
@@ -773,7 +829,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows the design of a HEP station. upper lake tunnel transformer pylon direction of water flow turbine lower lake generator Water flows from the upper lake to the lower lake through the turbine. The turbine is connected to a generator, which generates electricity. Describe the energy transfers involved in generating electricity in the HEP station.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from: condone ‘turns into’,\n‘becomes’ etc for\n‘transfers’\nMP1. water has (high) {gravitational potential energy starts as\nenergy/GPE (store)} ; gravitational (potential\nenergy)\nMP2. water loses GPE / gains {kinetic transfers from GPE to\nenergy/KE}; KE scores MP1 and MP2\nMP3. transfers mechanically (to water or to allow at any correct\nturbine or to generator); stage i.e. for water,\nturbine or generator\nallow KE of water to KE\nof turbine\nallow KE of turbine to\nKE of generator\nMP4. energy is transferred electrically (from transfers from KE (of\npower station); water or generator) to\nelectrical (energy)\nMP5. energy is wasted by heating/radiation e.g. allow transfer of heat\nIR, sound; (energy) to\nsurroundings/eq\nallow transfer of sound\n(energy)",
+     "mark_points": [
+      {
+       "id": "2024-06-7-b-MP1",
+       "marks": 4,
+       "text_md": "any four from: condone ‘turns into’,\n‘becomes’ etc for\n‘transfers’\nMP1. water has (high) {gravitational potential energy starts as\nenergy/GPE (store)} ; gravitational (potential\nenergy)\nMP2. water loses GPE / gains {kinetic transfers from GPE to\nenergy/KE}; KE scores MP1 and MP2\nMP3. transfers mechanically (to water or to allow at any correct\nturbine or to generator); stage i.e. for water,\nturbine or generator\nallow KE of water to KE\nof turbine\nallow KE of turbine to\nKE of generator\nMP4. energy is transferred electrically (from transfers from KE (of\npower station); water or generator) to\nelectrical (energy)\nMP5. energy is wasted by heating/radiation e.g. allow transfer of heat\nIR, sound; (energy) to\nsurroundings/eq\nallow transfer of sound\n(energy)"
+      }
+     ],
      "source_page": 20,
      "assets": [
       {

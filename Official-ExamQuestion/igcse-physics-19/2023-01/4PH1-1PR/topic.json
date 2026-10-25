@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:43:14Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2023-01 paper=1PR",
+ "generated_utc": "2026-10-25T22:06:43Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2023-01 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-01:4PH1/1PR",
  "source": {
   "qp_sha256": "d518d13b432b3b6c6b8f64b5db0ed1285c1b1dfda98bf0ae6d164ee02c761d5d",
@@ -34,12 +34,12 @@
      "problem_md": "Which diagram shows a light ray correctly reflected from a mirror? mirror mirror A B mirror mirror C D",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "C;\nA cannot be correct as the angle of reflection is not\nequal to the angle of reflection.\nB and D cannot be correct as the ray penetrates\ninto the mirror rather than reflects.\n(b) protractor;",
+     "solution_md": "C;\nA cannot be correct as the angle of reflection is not\nequal to the angle of reflection.\nB and D cannot be correct as the ray penetrates\ninto the mirror rather than reflects.",
      "mark_points": [
       {
        "id": "2023-01-1-a-MP1",
        "marks": 1,
-       "text_md": "C;\nA cannot be correct as the angle of reflection is not\nequal to the angle of reflection.\nB and D cannot be correct as the ray penetrates\ninto the mirror rather than reflects.\n(b) protractor;"
+       "text_md": "C;\nA cannot be correct as the angle of reflection is not\nequal to the angle of reflection.\nB and D cannot be correct as the ray penetrates\ninto the mirror rather than reflects."
       }
      ],
      "source_page": 4,
@@ -71,7 +71,15 @@
      "question_type": "structured",
      "problem_md": "Name the equipment needed to measure the angle of incidence on a ray diagram.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "protractor;",
+     "mark_points": [
+      {
+       "id": "2023-01-1-b-MP1",
+       "marks": 1,
+       "text_md": "protractor;"
+      }
+     ],
      "source_page": 4,
      "assets": [
       {
@@ -195,7 +203,15 @@
      "question_type": "structured",
      "problem_md": "Draw the orbit of the Earth’s Moon on the diagram.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any orbit around Earth;\ncircular orbit centred on Earth;",
+     "mark_points": [
+      {
+       "id": "2023-01-2-a-i-MP1",
+       "marks": 2,
+       "text_md": "any orbit around Earth;\ncircular orbit centred on Earth;"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
@@ -227,7 +243,15 @@
      "question_type": "structured",
      "problem_md": "Draw the orbit of a comet on the diagram.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any elliptical orbit around Sun; accept incomplete or\nfull orbit;\nwith focus at Sun; accept\nparabolic/hyperbolic\npath with Sun at focus\nfor 2 marks",
+     "mark_points": [
+      {
+       "id": "2023-01-2-a-ii-MP1",
+       "marks": 2,
+       "text_md": "any elliptical orbit around Sun; accept incomplete or\nfull orbit;\nwith focus at Sun; accept\nparabolic/hyperbolic\npath with Sun at focus\nfor 2 marks"
+      }
+     ],
      "source_page": 6,
      "assets": [
       {
@@ -259,7 +283,15 @@
      "question_type": "structured",
      "problem_md": "Earth orbits the Sun in 365 days with an orbital radius of 150 000 000 km. Calculate the Earth’s orbital speed in km/s. orbital speed = km/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evidence of correct conversion from days to seconds;\nsubstitution into given formula;\ncorrect evaluation;\nCorrect answer: 30 km/s\ne.g.\n365 × 24 × 60 × 60 = 31.5 × 106 s\nOrbital speed = (2 π r ) ÷ T\nOrbital speed = ( 2 x π ×150 000 000) / 31.5…. × 106 s\nOrbital speed = 29.9 km/s",
+     "mark_points": [
+      {
+       "id": "2023-01-2-b-MP1",
+       "marks": 3,
+       "text_md": "evidence of correct conversion from days to seconds;\nsubstitution into given formula;\ncorrect evaluation;\nCorrect answer: 30 km/s\ne.g.\n365 × 24 × 60 × 60 = 31.5 × 106 s\nOrbital speed = (2 π r ) ÷ T\nOrbital speed = ( 2 x π ×150 000 000) / 31.5…. × 106 s\nOrbital speed = 29.9 km/s"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -279,29 +311,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "electrostatic"
+       "text_md": "electrostatic",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "gravitational"
+       "text_md": "gravitational",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "magnetic"
+       "text_md": "magnetic",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "nuclear"
+       "text_md": "nuclear",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B – gravitational;\nA, C and D cannot be correct as only the gravitational\nforce is responsible for keeping planets in orbit\naround their star.",
+     "mark_points": [
+      {
+       "id": "2023-01-2-c-MP1",
+       "marks": 1,
+       "text_md": "Answer B: gravitational"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -312,7 +356,15 @@
      "question_type": "structured",
      "problem_md": "Describe the evolution of the Sun from the first stage of its evolution to the final stage of its evolution.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "starts as nebula/cloud (of gas);\nreference to main sequence;\nfinishes as white dwarf; ignore black dwarf\nPLUS at least ONE, in the correct place, from\nprotostar/red (super) giant/planetary nebula; reject supernova for\nthis mark\ne.g.\nnebula → protostar → main sequence → red giant →\nwhite dwarf and planetary nebula\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-01-2-d-MP1",
+       "marks": 4,
+       "text_md": "starts as nebula/cloud (of gas);\nreference to main sequence;\nfinishes as white dwarf; ignore black dwarf\nPLUS at least ONE, in the correct place, from\nprotostar/red (super) giant/planetary nebula; reject supernova for\nthis mark\ne.g.\nnebula → protostar → main sequence → red giant →\nwhite dwarf and planetary nebula\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 7,
      "assets": [],
      "spec_point_codes": [],
@@ -340,7 +392,15 @@
      "question_type": "structured",
      "problem_md": "Use information from the graph to determine the terminal velocity of the balloon and mass. terminal velocity = m/s",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "8.2 (m/s) ;",
+     "mark_points": [
+      {
+       "id": "2023-01-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "8.2 (m/s) ;"
+      }
+     ],
      "source_page": 9,
      "assets": [
       {
@@ -372,7 +432,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the balloon reaches terminal velocity. You should use ideas about forces acting on the balloon in your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any TWO from: ignore reference to upthrust\nMP1. reference to weight and drag; accept water friction or\nwater resistance for “drag”\naccept ‘gravitational force’\nfor ‘weight’\nMP2. weight greater than drag;\nMP3. resultant force causes acceleration; \"F=ma\" is insufficient by\nitself\nMP4. drag increases with speed;\nPLUS\nweight = drag at terminal velocity/eq;",
+     "mark_points": [
+      {
+       "id": "2023-01-3-a-ii-MP1",
+       "marks": 3,
+       "text_md": "any TWO from: ignore reference to upthrust\nMP1. reference to weight and drag; accept water friction or\nwater resistance for “drag”\naccept ‘gravitational force’\nfor ‘weight’\nMP2. weight greater than drag;\nMP3. resultant force causes acceleration; \"F=ma\" is insufficient by\nitself\nMP4. drag increases with speed;\nPLUS\nweight = drag at terminal velocity/eq;"
+      }
+     ],
      "source_page": 9,
      "assets": [],
      "spec_point_codes": [],
@@ -728,12 +796,12 @@
      "problem_md": "Discuss potential safety advantages of a fusion reactor compared with a fission reactor. You should refer to the products of this fusion reaction and to the fission reaction of uranium.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any THREE from: accept RA\nMP1. idea that reactants are not (as) hazardous\nfor fusion;\nMP2. idea that products of fusion are not allow reference to no\nradioactive; gamma radiation from\nfusion\nMP3. (so) no {mutations/damage to\ncells/tissue/cancer} ;\nMP4. (so) no long-term storage problems;\nMP5. idea that no shielding is required;\nMP6. idea of lower or no risk of meltdown for\nfusion;\nMP7. idea that there is no runaway chain\nreaction for fusion;\n(c) evidence of activity halved;\nevidence of activity halved four times only; allow reference to 4 half\nlives, including showing\nthat 48/12 = 4\ncorrect evaluation;\ncorrect answer: 7.5 (kBq)\ne.g. 120 ÷ 2 = 60\n60 ÷ 2 = 30\n30 ÷ 2 = 15\n15 ÷ 2 = 7.5\nQuestion number Answer Notes Marks",
+     "solution_md": "any THREE from: accept RA\nMP1. idea that reactants are not (as) hazardous\nfor fusion;\nMP2. idea that products of fusion are not allow reference to no\nradioactive; gamma radiation from\nfusion\nMP3. (so) no {mutations/damage to\ncells/tissue/cancer} ;\nMP4. (so) no long-term storage problems;\nMP5. idea that no shielding is required;\nMP6. idea of lower or no risk of meltdown for\nfusion;\nMP7. idea that there is no runaway chain\nreaction for fusion;",
      "mark_points": [
       {
        "id": "2023-01-5-b-ii-MP1",
        "marks": 3,
-       "text_md": "any THREE from: accept RA\nMP1. idea that reactants are not (as) hazardous\nfor fusion;\nMP2. idea that products of fusion are not allow reference to no\nradioactive; gamma radiation from\nfusion\nMP3. (so) no {mutations/damage to\ncells/tissue/cancer} ;\nMP4. (so) no long-term storage problems;\nMP5. idea that no shielding is required;\nMP6. idea of lower or no risk of meltdown for\nfusion;\nMP7. idea that there is no runaway chain\nreaction for fusion;\n(c) evidence of activity halved;\nevidence of activity halved four times only; allow reference to 4 half\nlives, including showing\nthat 48/12 = 4\ncorrect evaluation;\ncorrect answer: 7.5 (kBq)\ne.g. 120 ÷ 2 = 60\n60 ÷ 2 = 30\n30 ÷ 2 = 15\n15 ÷ 2 = 7.5\nQuestion number Answer Notes Marks"
+       "text_md": "any THREE from: accept RA\nMP1. idea that reactants are not (as) hazardous\nfor fusion;\nMP2. idea that products of fusion are not allow reference to no\nradioactive; gamma radiation from\nfusion\nMP3. (so) no {mutations/damage to\ncells/tissue/cancer} ;\nMP4. (so) no long-term storage problems;\nMP5. idea that no shielding is required;\nMP6. idea of lower or no risk of meltdown for\nfusion;\nMP7. idea that there is no runaway chain\nreaction for fusion;"
       }
      ],
      "source_page": 15,
@@ -753,7 +821,15 @@
      "question_type": "structured",
      "problem_md": "The half-life of a radioactive isotope is 12 years. The activity of a sample of this isotope is 120 kBq. Calculate the activity of this sample after 48 years. activity = kBq",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "evidence of activity halved;\nevidence of activity halved four times only; allow reference to 4 half\nlives, including showing\nthat 48/12 = 4\ncorrect evaluation;\ncorrect answer: 7.5 (kBq)\ne.g. 120 ÷ 2 = 60\n60 ÷ 2 = 30\n30 ÷ 2 = 15\n15 ÷ 2 = 7.5\nQuestion number Answer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-01-5-c-MP1",
+       "marks": 3,
+       "text_md": "evidence of activity halved;\nevidence of activity halved four times only; allow reference to 4 half\nlives, including showing\nthat 48/12 = 4\ncorrect evaluation;\ncorrect answer: 7.5 (kBq)\ne.g. 120 ÷ 2 = 60\n60 ÷ 2 = 30\n30 ÷ 2 = 15\n15 ÷ 2 = 7.5\nQuestion number Answer Notes Marks"
+      }
+     ],
      "source_page": 15,
      "assets": [],
      "spec_point_codes": [],
@@ -786,12 +862,12 @@
      "problem_md": "Explain the main method of heat transfer from the chip to the surroundings for case X.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "any THREE from:\nMP1. correct reference to convection;\nMP2. fan aids convection;\nMP3. reference to conduction not being the main method;\nMP4. (since) {plastic/air} is a poor conductor/good\ninsulator;\nMP5. white (materials) are poor at emitting /eq; allow idea of\nheat reflecting\nback / not\nabsorbing well\nfrom this\ninterior white\nsurface\n(b) any THREE from:\nMP1. correct reference to conduction;\nMP2. since {metals/aluminium} conducts well;\nMP3. reference to convection not being the main method;\nMP4. as hot air particles can’t circulate (from inside to\noutside);\nMP5. black (materials) are good at emitting/eq; allow idea of\nheat being\nabsorbed well\nfrom the\ninterior black\nsurface",
+     "solution_md": "any THREE from:\nMP1. correct reference to convection;\nMP2. fan aids convection;\nMP3. reference to conduction not being the main method;\nMP4. (since) {plastic/air} is a poor conductor/good\ninsulator;\nMP5. white (materials) are poor at emitting /eq; allow idea of\nheat reflecting\nback / not\nabsorbing well\nfrom this\ninterior white\nsurface",
      "mark_points": [
       {
        "id": "2023-01-6-a-MP1",
        "marks": 3,
-       "text_md": "any THREE from:\nMP1. correct reference to convection;\nMP2. fan aids convection;\nMP3. reference to conduction not being the main method;\nMP4. (since) {plastic/air} is a poor conductor/good\ninsulator;\nMP5. white (materials) are poor at emitting /eq; allow idea of\nheat reflecting\nback / not\nabsorbing well\nfrom this\ninterior white\nsurface\n(b) any THREE from:\nMP1. correct reference to conduction;\nMP2. since {metals/aluminium} conducts well;\nMP3. reference to convection not being the main method;\nMP4. as hot air particles can’t circulate (from inside to\noutside);\nMP5. black (materials) are good at emitting/eq; allow idea of\nheat being\nabsorbed well\nfrom the\ninterior black\nsurface"
+       "text_md": "any THREE from:\nMP1. correct reference to convection;\nMP2. fan aids convection;\nMP3. reference to conduction not being the main method;\nMP4. (since) {plastic/air} is a poor conductor/good\ninsulator;\nMP5. white (materials) are poor at emitting /eq; allow idea of\nheat reflecting\nback / not\nabsorbing well\nfrom this\ninterior white\nsurface"
       }
      ],
      "source_page": 16,
@@ -811,7 +887,15 @@
      "question_type": "structured",
      "problem_md": "Explain the main method of heat transfer from the chip to the surroundings for case Y.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any THREE from:\nMP1. correct reference to conduction;\nMP2. since {metals/aluminium} conducts well;\nMP3. reference to convection not being the main method;\nMP4. as hot air particles can’t circulate (from inside to\noutside);\nMP5. black (materials) are good at emitting/eq; allow idea of\nheat being\nabsorbed well\nfrom the\ninterior black\nsurface",
+     "mark_points": [
+      {
+       "id": "2023-01-6-b-MP1",
+       "marks": 3,
+       "text_md": "any THREE from:\nMP1. correct reference to conduction;\nMP2. since {metals/aluminium} conducts well;\nMP3. reference to convection not being the main method;\nMP4. as hot air particles can’t circulate (from inside to\noutside);\nMP5. black (materials) are good at emitting/eq; allow idea of\nheat being\nabsorbed well\nfrom the\ninterior black\nsurface"
+      }
+     ],
      "source_page": 16,
      "assets": [],
      "spec_point_codes": [],
@@ -893,29 +977,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "43°"
+       "text_md": "43°",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "47°"
+       "text_md": "47°",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "51°"
+       "text_md": "51°",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "55°"
+       "text_md": "55°",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C – 51°;\nAngle should be measured and cannot be either A, B\nor D.",
+     "mark_points": [
+      {
+       "id": "2023-01-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer C: 51°"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -926,7 +1022,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking refractive index, angle of incidence and angle of refraction.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "refractive index = sin (i)/sin (r); allow n, η for\nrefractive index",
+     "mark_points": [
+      {
+       "id": "2023-01-7-a-ii-MP1",
+       "marks": 1,
+       "text_md": "refractive index = sin (i)/sin (r); allow n, η for\nrefractive index"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -944,7 +1048,15 @@
      "question_type": "structured",
      "problem_md": "The block has a refractive index of 1.52 Use the formula to show that the angle of refraction is about 30° for the ray at point K.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution; allow ECF from (i)\nrearrangement;\ncorrect evaluation;\ncorrect answer: 31 degrees answers of 26.66…,\n28.76…, 32.06… all\nscore 3 marks ECF\ne.g\nrefractive index = sin (i)/sin (r)\n1.52 = sin(51)/sin(r)\nsin(r) = sin(51)/1.52\nsin(r) = 0.511…\nr = sin-1(0.511…) = 30.7… degrees",
+     "mark_points": [
+      {
+       "id": "2023-01-7-a-iii-MP1",
+       "marks": 3,
+       "text_md": "substitution; allow ECF from (i)\nrearrangement;\ncorrect evaluation;\ncorrect answer: 31 degrees answers of 26.66…,\n28.76…, 32.06… all\nscore 3 marks ECF\ne.g\nrefractive index = sin (i)/sin (r)\n1.52 = sin(51)/sin(r)\nsin(r) = sin(51)/1.52\nsin(r) = 0.511…\nr = sin-1(0.511…) = 30.7… degrees"
+      }
+     ],
      "source_page": 18,
      "assets": [],
      "spec_point_codes": [],
@@ -1024,7 +1136,15 @@
      "question_type": "structured",
      "problem_md": "Name the equipment the student could use to measure the mass of the balloon.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "balance; condone scales\nreject scale",
+     "mark_points": [
+      {
+       "id": "2023-01-8-a-i-MP1",
+       "marks": 1,
+       "text_md": "balance; condone scales\nreject scale"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -1042,7 +1162,15 @@
      "question_type": "structured",
      "problem_md": "Suggest how the student could improve the reliability of their data.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "take repeats and either\nfind mean, identify or remove anomalies;",
+     "mark_points": [
+      {
+       "id": "2023-01-8-a-ii-MP1",
+       "marks": 1,
+       "text_md": "take repeats and either\nfind mean, identify or remove anomalies;"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
@@ -1060,7 +1188,15 @@
      "question_type": "structured",
      "problem_md": "The table shows the student’s results. Mass of empty balloon in g 15.00 Mass of balloon when full of air in g 15.61 Volume of air in cm3 490 Calculate the density of air to 2 significant figures. Give the unit. density = unit",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "mass of air is 0.61 g;\ncorrect use of formula: density = mass/volume;\ncorrect evaluation to 2 sf; −1 POT error\nappropriate unit i.e. g/cm3;\ncorrect answer = 0.0012 g/cm3 accept use of standard\nform i.e. 1.2(4) × 10-3\ng/cm3\ne.g.\nmass of air = 15.61 − 15.00 = 0.61\ndensity = mass ÷ volume\ndensity = 0.61 ÷ 490\ndensity = 0.00124 g/cm3\ndensity = 0.0012 g/cm3 to 2 sf",
+     "mark_points": [
+      {
+       "id": "2023-01-8-b-MP1",
+       "marks": 4,
+       "text_md": "mass of air is 0.61 g;\ncorrect use of formula: density = mass/volume;\ncorrect evaluation to 2 sf; −1 POT error\nappropriate unit i.e. g/cm3;\ncorrect answer = 0.0012 g/cm3 accept use of standard\nform i.e. 1.2(4) × 10-3\ng/cm3\ne.g.\nmass of air = 15.61 − 15.00 = 0.61\ndensity = mass ÷ volume\ndensity = 0.61 ÷ 490\ndensity = 0.00124 g/cm3\ndensity = 0.0012 g/cm3 to 2 sf"
+      }
+     ],
      "source_page": 20,
      "assets": [
       {
@@ -1090,7 +1226,15 @@
      "question_type": "structured",
      "problem_md": "Describe how the volume of the balloon full of air could be measured using a large beaker and some water. You may use a diagram to help your answer.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any THREE from:\nMP1. any reference to displacement method;\nMP2. measure original volume of water;\nMP3. (fully) submerge balloon;\nMP4. re-measure volume of water;\nMP5. subtract one volume from the other;\nallow reference to\ndisplacement to a\ndifferent vessel and use\nof measuring cylinder or\nbeaker for three marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-01-8-c-MP1",
+       "marks": 3,
+       "text_md": "any THREE from:\nMP1. any reference to displacement method;\nMP2. measure original volume of water;\nMP3. (fully) submerge balloon;\nMP4. re-measure volume of water;\nMP5. subtract one volume from the other;\nallow reference to\ndisplacement to a\ndifferent vessel and use\nof measuring cylinder or\nbeaker for three marks\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 21,
      "assets": [],
      "spec_point_codes": [],
@@ -1118,7 +1262,15 @@
      "question_type": "structured",
      "problem_md": "State a precaution the teacher should take to make sure they are working safely with the radioactive sources.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any ONE from:\nwear gloves;\nuse tongs;\ndo not point source at anyone;\nkeep source at arm’s length; accept use of remote\ncontrol i.e. a robot\nkeep source in lead-lined box;\nkeep exposure time short; i.e. only have the\nsource out for as long as\nis necessary\nwear goggles;\nlead apron;",
+     "mark_points": [
+      {
+       "id": "2023-01-9-a-i-MP1",
+       "marks": 1,
+       "text_md": "any ONE from:\nwear gloves;\nuse tongs;\ndo not point source at anyone;\nkeep source at arm’s length; accept use of remote\ncontrol i.e. a robot\nkeep source in lead-lined box;\nkeep exposure time short; i.e. only have the\nsource out for as long as\nis necessary\nwear goggles;\nlead apron;"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -1136,7 +1288,15 @@
      "question_type": "structured",
      "problem_md": "State the name of a detector the teacher could use to detect the radiation from each source.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "Geiger-Muller tube (and counter); allow GM\ntube/counter/detector\ncondone ‘photographic\nfilm’",
+     "mark_points": [
+      {
+       "id": "2023-01-9-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Geiger-Muller tube (and counter); allow GM\ntube/counter/detector\ncondone ‘photographic\nfilm’"
+      }
+     ],
      "source_page": 22,
      "assets": [],
      "spec_point_codes": [],
@@ -1154,7 +1314,15 @@
      "question_type": "structured",
      "problem_md": "Draw crosses (× ) in the table to show which type of radiation cannot penetrate each material in the table. Material Type of radiation 10 cm of air 2 cm of aluminium 10 cm of lead alpha beta gamma",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": ";;; each correct row scores\n1 mark",
+     "mark_points": [
+      {
+       "id": "2023-01-9-b-MP1",
+       "marks": 3,
+       "text_md": ";;; each correct row scores\n1 mark"
+      }
+     ],
      "source_page": 22,
      "assets": [
       {
@@ -1276,7 +1444,15 @@
      "question_type": "structured",
      "problem_md": "Calculate the magnitude of the resultant force on the firework. magnitude of resultant force = N",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "26(.4) (N) ;",
+     "mark_points": [
+      {
+       "id": "2023-01-10-a-i-MP1",
+       "marks": 1,
+       "text_md": "26(.4) (N) ;"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1294,7 +1470,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking resultant force, mass and acceleration.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(resultant) force = mass × acceleration; allow acceptable\nsymbols e.g. F, f,\nm, M, a, A\nallow any correct\nrearrangement;",
+     "mark_points": [
+      {
+       "id": "2023-01-10-a-ii-MP1",
+       "marks": 1,
+       "text_md": "(resultant) force = mass × acceleration; allow acceptable\nsymbols e.g. F, f,\nm, M, a, A\nallow any correct\nrearrangement;"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1312,7 +1496,15 @@
      "question_type": "structured",
      "problem_md": "The mass of the firework is 160 g. Calculate the acceleration of the firework. acceleration = m/s2",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "conversion of 160 g to 0.16 kg;\nrearrangement or substitution; allow ECF for\nincorrect resultant\nforce\ncorrect evaluation;\ncorrect answer: 165 (m/s2) Condone rounding\nto 160 or 170.\ne.g. acceleration = resultant force ÷ mass\nacceleration = 26.4 ÷ 0.16\nacceleration = 165 (m/s2)",
+     "mark_points": [
+      {
+       "id": "2023-01-10-a-iii-MP1",
+       "marks": 3,
+       "text_md": "conversion of 160 g to 0.16 kg;\nrearrangement or substitution; allow ECF for\nincorrect resultant\nforce\ncorrect evaluation;\ncorrect answer: 165 (m/s2) Condone rounding\nto 160 or 170.\ne.g. acceleration = resultant force ÷ mass\nacceleration = 26.4 ÷ 0.16\nacceleration = 165 (m/s2)"
+      }
+     ],
      "source_page": 24,
      "assets": [],
      "spec_point_codes": [],
@@ -1330,7 +1522,15 @@
      "question_type": "structured",
      "problem_md": "Explain how the acceleration of the firework changes between take‑off and running out of fuel. You can assume that the thrust force stays the same as the firework burns the fuel.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any THREE from: ignore references\nto running out of\nfuel reducing\nthrust/eq\nMP1. weight decreases; ignore references\nto energy\nMP2. air resistance increases;\nMP3. consistent inference of changing resultant force; DOP\nMP4. (therefore) changing acceleration; consistent with\nMP3",
+     "mark_points": [
+      {
+       "id": "2023-01-10-a-iv-MP1",
+       "marks": 3,
+       "text_md": "any THREE from: ignore references\nto running out of\nfuel reducing\nthrust/eq\nMP1. weight decreases; ignore references\nto energy\nMP2. air resistance increases;\nMP3. consistent inference of changing resultant force; DOP\nMP4. (therefore) changing acceleration; consistent with\nMP3"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1348,7 +1548,15 @@
      "question_type": "structured",
      "problem_md": "The firework makes a sound with constant frequency. As the firework moves upwards, people on the ground notice that the frequency of the sound they hear changes. This is called the Doppler effect. Explain how the Doppler effect causes the observed frequency of sound to change for the people on the ground.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any FOUR from: ignore references\nto region in front\nof rocket or an\napproaching rocket\nMP1. (observed) frequency decreases;\nMP2. speed of waves constant;\nMP3. wavefronts behind firework spread out/eq;\nMP4. causing an increased wavelength (at the\nobserver);\nMP5. reference to f = speed ÷ wavelength; allow any\nrearrangement\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-01-10-b-MP1",
+       "marks": 4,
+       "text_md": "any FOUR from: ignore references\nto region in front\nof rocket or an\napproaching rocket\nMP1. (observed) frequency decreases;\nMP2. speed of waves constant;\nMP3. wavefronts behind firework spread out/eq;\nMP4. causing an increased wavelength (at the\nobserver);\nMP5. reference to f = speed ÷ wavelength; allow any\nrearrangement\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 25,
      "assets": [],
      "spec_point_codes": [],
@@ -1376,7 +1584,15 @@
      "question_type": "structured",
      "problem_md": "Explain why the compass needles turn when the current is switched on.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "current provides a magnetic field/eq;\nmagnets in a magnetic field experience a\nforce/magnets line up along a field line/eq;",
+     "mark_points": [
+      {
+       "id": "2023-01-11-a-i-MP1",
+       "marks": 2,
+       "text_md": "current provides a magnetic field/eq;\nmagnets in a magnetic field experience a\nforce/magnets line up along a field line/eq;"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1394,7 +1610,15 @@
      "question_type": "structured",
      "problem_md": "Using evidence from the compass needles in diagram 2, draw on diagram 2 the shape and direction of a magnetic field line produced by the current in the wire.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "(circular) field line through all of the compass allow any circle\nneedles; concentric with the\nwire\narrow clockwise;",
+     "mark_points": [
+      {
+       "id": "2023-01-11-a-ii-MP1",
+       "marks": 2,
+       "text_md": "(circular) field line through all of the compass allow any circle\nneedles; concentric with the\nwire\narrow clockwise;"
+      }
+     ],
      "source_page": 27,
      "assets": [
       {
@@ -1426,7 +1650,15 @@
      "question_type": "structured",
      "problem_md": "Suggest what happens to the magnetic field when the current in the wire is reversed.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "changes direction / eq;",
+     "mark_points": [
+      {
+       "id": "2023-01-11-a-iii-MP1",
+       "marks": 1,
+       "text_md": "changes direction / eq;"
+      }
+     ],
      "source_page": 27,
      "assets": [],
      "spec_point_codes": [],
@@ -1444,7 +1676,15 @@
      "question_type": "structured",
      "problem_md": "The current in the wire is turned off. Diagram 3 shows the wire placed in a uniform magnetic field. wire N S power supply magnet Diagram 3 The current is now switched on. Draw an arrow to show the direction of the force on the wire.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "vertical;\nupwards;",
+     "mark_points": [
+      {
+       "id": "2023-01-11-b-MP1",
+       "marks": 2,
+       "text_md": "vertical;\nupwards;"
+      }
+     ],
      "source_page": 28,
      "assets": [
       {

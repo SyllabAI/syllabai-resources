@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T20:43:07Z",
+ "generated_utc": "2026-10-25T22:06:33Z",
  "series": "2022-06",
  "paper": "1P",
  "gates": [
@@ -38,27 +38,10 @@
   },
   {
    "gate": "G3-mcq-integrity",
-   "status": "FAIL",
-   "summary": "6 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "status": "PASS",
+   "summary": "6 MCQ parts; all have printed A–D and MS-keyed answer: True",
    "details": {
-    "issues": [
-     {
-      "part": "2(b)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "2(d)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "2(e)",
-      "issue": "no keyed correct choice"
-     },
-     {
-      "part": "2(f)",
-      "issue": "no keyed correct choice"
-     }
-    ]
+    "issues": []
    }
   },
   {
@@ -77,28 +60,10 @@
   },
   {
    "gate": "G5-answer-linkage",
-   "status": "REVIEW",
-   "summary": "MS linkage 42/59 (71%)",
+   "status": "PASS",
+   "summary": "MS linkage 59/59 (100%)",
    "details": {
-    "unmatched": [
-     "1(b)",
-     "2(b)",
-     "2(c)",
-     "2(d)",
-     "2(e)",
-     "2(f)",
-     "3(c)",
-     "3(d)",
-     "4(b)",
-     "4(c)",
-     "4(d)",
-     "5(c)",
-     "6(b)",
-     "9(a)(i)",
-     "9(a)(ii)",
-     "10(c)",
-     "12(c)"
-    ]
+    "unmatched": []
    }
   },
   {
@@ -113,7 +78,7 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 42/42 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 1 parts, agrees with QP marks on 0",
+   "summary": "solution_md on 59/59 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 1 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
@@ -145,92 +110,8 @@
  ],
  "review_queue": [
   {
-   "part": "2(b)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "2(d)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "2(e)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
-   "part": "2(f)",
-   "reason": "MCQ key unresolved from MS"
-  },
-  {
    "part": "8(b)(iii)",
    "reason": "figure crop required (diagram, page 19)"
-  },
-  {
-   "part": "1(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(e)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "2(f)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "3(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "4(d)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "5(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "6(b)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "9(a)(i)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "9(a)(ii)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "10(c)",
-   "reason": "answer not auto-linked to MS"
-  },
-  {
-   "part": "12(c)",
-   "reason": "answer not auto-linked to MS"
   }
  ],
  "ocr_pages": [],

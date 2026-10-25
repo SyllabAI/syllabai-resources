@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T20:42:52Z",
- "generator": "official_examq_extract.py v0.17.4 (ADR-039) series=2020-06 paper=2PR",
+ "generated_utc": "2026-10-25T22:06:12Z",
+ "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2020-06 paper=2PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-06:4PH1/2PR",
  "source": {
   "qp_sha256": "5d29cc2a8177affbd580895b2f31e0a26144ab8ceb3b3f412dffc7c6749f7dd0",
@@ -33,7 +33,15 @@
      "question_type": "structured",
      "problem_md": "Describe how the student could have charged the plastic rod.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea of rubbing / friction;\nwith another insulator; allow suitable named\ninsulator e.g. duster, cloth,\nhair etc.",
+     "mark_points": [
+      {
+       "id": "2020-06-1-a-i-MP1",
+       "marks": 2,
+       "text_md": "idea of rubbing / friction;\nwith another insulator; allow suitable named\ninsulator e.g. duster, cloth,\nhair etc."
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
@@ -53,29 +61,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "–0.52 C"
+       "text_md": "–0.52 C",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "–0.052 C"
+       "text_md": "–0.052 C",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "–0.0052 C"
+       "text_md": "–0.0052 C",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "–0.00052 C"
+       "text_md": "–0.00052 C",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (-0.0052 C);\nA is incorrect because this is equivalent to -520 mC\nB is incorrect because this is equivalent to -52 mC\nD is incorrect because this is equivalent to -0.52 mC",
+     "mark_points": [
+      {
+       "id": "2020-06-1-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer C: –0.0052 C"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -88,29 +108,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "the rod has gained negatively charged electrons"
+       "text_md": "the rod has gained negatively charged electrons",
+       "is_correct": true
       },
       {
        "label": "B",
-       "text_md": "the rod has gained positively charged electrons"
+       "text_md": "the rod has gained positively charged electrons",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "the rod has lost negatively charged electrons"
+       "text_md": "the rod has lost negatively charged electrons",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "the rod has lost positively charged electrons"
+       "text_md": "the rod has lost positively charged electrons",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "A (the rod has gained negatively charged electrons);\nB is incorrect because electrons are not positively\ncharged\nC is incorrect because this would make the rod\npositively charged\nD is incorrect because electrons are not positively\ncharged",
+     "mark_points": [
+      {
+       "id": "2020-06-1-a-iii-MP1",
+       "marks": 1,
+       "text_md": "Answer A: the rod has gained negatively charged electrons"
+      }
+     ],
      "source_page": 4,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -121,7 +153,15 @@
      "question_type": "structured",
      "problem_md": "Using a meter is one method of demonstrating that the rod is charged. Describe another method of demonstrating that the rod is charged.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "suitable method of demonstrating; e.g.\n• place rod on electroscope\n• place rod near stream of\nwater from a tap\n• place rod near hair\n• place rod above small\npieces of paper\n• place rod near another\n(charged) rod\ncorrect observation; e.g.\n• leaf on electroscope\ndeflects\n• water moves towards rod\n• hair moves towards rod\n• paper moves towards rod\n• rods move towards/away\nfrom each other",
+     "mark_points": [
+      {
+       "id": "2020-06-1-a-iv-MP1",
+       "marks": 2,
+       "text_md": "suitable method of demonstrating; e.g.\n• place rod on electroscope\n• place rod near stream of\nwater from a tap\n• place rod near hair\n• place rod above small\npieces of paper\n• place rod near another\n(charged) rod\ncorrect observation; e.g.\n• leaf on electroscope\ndeflects\n• water moves towards rod\n• hair moves towards rod\n• paper moves towards rod\n• rods move towards/away\nfrom each other"
+      }
+     ],
      "source_page": 5,
      "assets": [],
      "spec_point_codes": [],
@@ -209,12 +249,12 @@
      "problem_md": "Calculate the time period of these x-rays. time period = s",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "substitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\n1.25 × 1018 = 1 / T OR T = 1/f\n(T =) 8.00 × 10-19 (s) allow 8 × 10-19 (s)\n(b) use of v = f × λ; seen as a formula or implied\nby working\nallow v, c, s for speed\nallow λ for wavelength\nsubstitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\nv=f×λ\n3.00 × 108 = 1.25 × 1018 × λ OR λ = v / f\n(λ =) 2.40 × 10-10 (m) allow 2.4 × 10-10 (m)\nAnswer Notes Marks",
+     "solution_md": "substitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\n1.25 × 1018 = 1 / T OR T = 1/f\n(T =) 8.00 × 10-19 (s) allow 8 × 10-19 (s)",
      "mark_points": [
       {
        "id": "2020-06-2-a-MP1",
        "marks": 2,
-       "text_md": "substitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\n1.25 × 1018 = 1 / T OR T = 1/f\n(T =) 8.00 × 10-19 (s) allow 8 × 10-19 (s)\n(b) use of v = f × λ; seen as a formula or implied\nby working\nallow v, c, s for speed\nallow λ for wavelength\nsubstitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\nv=f×λ\n3.00 × 108 = 1.25 × 1018 × λ OR λ = v / f\n(λ =) 2.40 × 10-10 (m) allow 2.4 × 10-10 (m)\nAnswer Notes Marks"
+       "text_md": "substitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\n1.25 × 1018 = 1 / T OR T = 1/f\n(T =) 8.00 × 10-19 (s) allow 8 × 10-19 (s)"
       }
      ],
      "source_page": 6,
@@ -234,7 +274,15 @@
      "question_type": "structured",
      "problem_md": "X-rays have a speed of 3.00 × 108 m/s in air. Calculate the wavelength of these x-rays. wavelength = m",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "use of v = f × λ; seen as a formula or implied\nby working\nallow v, c, s for speed\nallow λ for wavelength\nsubstitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\nv=f×λ\n3.00 × 108 = 1.25 × 1018 × λ OR λ = v / f\n(λ =) 2.40 × 10-10 (m) allow 2.4 × 10-10 (m)\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2020-06-2-b-MP1",
+       "marks": 3,
+       "text_md": "use of v = f × λ; seen as a formula or implied\nby working\nallow v, c, s for speed\nallow λ for wavelength\nsubstitution OR rearrangement;\nevaluation; -1 for POT error\ne.g.\nv=f×λ\n3.00 × 108 = 1.25 × 1018 × λ OR λ = v / f\n(λ =) 2.40 × 10-10 (m) allow 2.4 × 10-10 (m)\nAnswer Notes Marks"
+      }
+     ],
      "source_page": 6,
      "assets": [],
      "spec_point_codes": [],
@@ -262,7 +310,15 @@
      "question_type": "structured",
      "problem_md": "Draw an X on diagram 1 at the centre of gravity of the stone block.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "X drawn at the base of the weight arrow; judge by eye",
+     "mark_points": [
+      {
+       "id": "2020-06-3-a-i-MP1",
+       "marks": 1,
+       "text_md": "X drawn at the base of the weight arrow; judge by eye"
+      }
+     ],
      "source_page": 8,
      "assets": [
       {
@@ -294,7 +350,15 @@
      "question_type": "structured",
      "problem_md": "State the formula linking weight, mass and gravitational field strength.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "weight = mass × gravitational field strength; allow standard symbols and\nrearrangements\ne.g. W = m × g\nignore ‘gravity’ for g",
+     "mark_points": [
+      {
+       "id": "2020-06-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "weight = mass × gravitational field strength; allow standard symbols and\nrearrangements\ne.g. W = m × g\nignore ‘gravity’ for g"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -312,7 +376,15 @@
      "question_type": "structured",
      "problem_md": "The mass of the stone block is 130 kg. Calculate the weight of the stone block. weight = N",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "substitution;\nevaluation; -1 for POT error only e.g.\nfrom incorrectly converting\nkg to g\ne.g.\n(W =) 130 × 10 allow g = 9.8, 9.81\n(W =) 1300 (N) allow 1274, 1275.3",
+     "mark_points": [
+      {
+       "id": "2020-06-3-a-iii-MP1",
+       "marks": 2,
+       "text_md": "substitution;\nevaluation; -1 for POT error only e.g.\nfrom incorrectly converting\nkg to g\ne.g.\n(W =) 130 × 10 allow g = 9.8, 9.81\n(W =) 1300 (N) allow 1274, 1275.3"
+      }
+     ],
      "source_page": 8,
      "assets": [],
      "spec_point_codes": [],
@@ -424,7 +496,15 @@
      "question_type": "structured",
      "problem_md": "Describe how the student could determine the speed of sound in air using his calculated value of time taken.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "measure the distance between microphones;\nsuitable instrument to measure distance; e.g. ruler / tape measure\nuse of speed = distance ÷ time;",
+     "mark_points": [
+      {
+       "id": "2020-06-4-a-i-MP1",
+       "marks": 3,
+       "text_md": "measure the distance between microphones;\nsuitable instrument to measure distance; e.g. ruler / tape measure\nuse of speed = distance ÷ time;"
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -442,7 +522,15 @@
      "question_type": "structured",
      "problem_md": "Suggest why the student does not use a stop clock in this investigation.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "idea that time will be very small / too hard to allow idea that human\nmeasure by a human; reaction time is an issue\nignore speed of sound is very\nfast / eq.",
+     "mark_points": [
+      {
+       "id": "2020-06-4-a-ii-MP1",
+       "marks": 1,
+       "text_md": "idea that time will be very small / too hard to allow idea that human\nmeasure by a human; reaction time is an issue\nignore speed of sound is very\nfast / eq."
+      }
+     ],
      "source_page": 10,
      "assets": [],
      "spec_point_codes": [],
@@ -659,29 +747,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "chemical"
+       "text_md": "chemical",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "kinetic"
+       "text_md": "kinetic",
+       "is_correct": false
       },
       {
        "label": "C",
-       "text_md": "nuclear"
+       "text_md": "nuclear",
+       "is_correct": true
       },
       {
        "label": "D",
-       "text_md": "thermal"
+       "text_md": "thermal",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "C (nuclear);\nA is incorrect because chemical reactions do not happen in the Sun\nB is incorrect because the kinetic store of particles increases during nuclear fusion\nD is incorrect because the thermal store of the Sun remains constant whilst fusion is\ntaking place",
+     "mark_points": [
+      {
+       "id": "2020-06-5-a-i-MP1",
+       "marks": 1,
+       "text_md": "Answer C: nuclear"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -694,29 +794,41 @@
      "choices": [
       {
        "label": "A",
-       "text_md": "by heating"
+       "text_md": "by heating",
+       "is_correct": false
       },
       {
        "label": "B",
-       "text_md": "by radiation"
+       "text_md": "by radiation",
+       "is_correct": true
       },
       {
        "label": "C",
-       "text_md": "electrically"
+       "text_md": "electrically",
+       "is_correct": false
       },
       {
        "label": "D",
-       "text_md": "mechanically"
+       "text_md": "mechanically",
+       "is_correct": false
       }
      ],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "B (by radiation);\nA is incorrect because transfers by heating cannot happen in a vacuum\nC is incorrect because there is no electrical circuit or flow of ions\nD is incorrect because the transfer does not happen due to forces",
+     "mark_points": [
+      {
+       "id": "2020-06-5-a-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer B: by radiation"
+      }
+     ],
      "source_page": 14,
      "assets": [],
      "spec_point_codes": [],
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "ms-positional",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }
@@ -823,12 +935,12 @@
      "problem_md": "The fuel can be a solid, a liquid or a gas. Describe the motion of particles in a solid, a liquid and a gas. solid liquid gas",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "(i) (in solids) particles vibrate only;\n(in liquids) particles slide over each other;\n(in gases) particles move freely / randomly;",
+     "solution_md": "(in solids) particles vibrate only;\n(in liquids) particles slide over each other;\n(in gases) particles move freely / randomly;",
      "mark_points": [
       {
        "id": "2020-06-6-a-MP1",
        "marks": 3,
-       "text_md": "(i) (in solids) particles vibrate only;\n(in liquids) particles slide over each other;\n(in gases) particles move freely / randomly;"
+       "text_md": "(in solids) particles vibrate only;\n(in liquids) particles slide over each other;\n(in gases) particles move freely / randomly;"
       }
      ],
      "source_page": 16,
@@ -927,12 +1039,12 @@
      "problem_md": "The SC used electromagnets to produce the strong magnetic fields. Describe the construction of a simple electromagnet. You may draw a diagram to support your answer.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "coil of wire;\ncurrent in the wire; current may be inferred from\ndiagram\niron core;\n(b) down; allow force arrow drawn\npointing down on diagram",
+     "solution_md": "coil of wire;\ncurrent in the wire; current may be inferred from\ndiagram\niron core;",
      "mark_points": [
       {
        "id": "2020-06-7-a-MP1",
        "marks": 3,
-       "text_md": "coil of wire;\ncurrent in the wire; current may be inferred from\ndiagram\niron core;\n(b) down; allow force arrow drawn\npointing down on diagram"
+       "text_md": "coil of wire;\ncurrent in the wire; current may be inferred from\ndiagram\niron core;"
       }
      ],
      "source_page": 18,
@@ -952,7 +1064,15 @@
      "question_type": "structured",
      "problem_md": "The diagram shows a proton moving at velocity v in the magnetic field produced by the SC. v The direction of the magnetic field is into the page. Using the left hand rule, determine the direction of the force acting on the proton due to the magnetic field.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "down; allow force arrow drawn\npointing down on diagram",
+     "mark_points": [
+      {
+       "id": "2020-06-7-b-MP1",
+       "marks": 1,
+       "text_md": "down; allow force arrow drawn\npointing down on diagram"
+      }
+     ],
      "source_page": 18,
      "assets": [
       {
@@ -1049,12 +1169,12 @@
      "problem_md": "Describe the evolution of the Universe from the Big Bang until the present day.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "Universe began as hot / dense point; allow idea that Universe\nstarted as a single point\nUniverse has expanded since the Big Bang;\nUniverse has cooled since the Big Bang;\n(b) any four from:\nMP1. presence of cosmic microwave background allow CMBR\nradiation;\nMP2. CMBR comes from all directions; allow CMBR is uniform\nMP3. CMBR (began as gamma radiation and)\nwavelength increased (as Universe expanded);\nMP4. red-shift of galaxies;\nMP5. further/faster galaxies show a greater red-\nshift;\nMP6. red-shift indicates that galaxies are moving\naway from each other;\nMP7. relative abundance of helium; allow large amount of helium\nMP8. helium formed when Universe was hot enough\nto fuse protons;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "solution_md": "Universe began as hot / dense point; allow idea that Universe\nstarted as a single point\nUniverse has expanded since the Big Bang;\nUniverse has cooled since the Big Bang;",
      "mark_points": [
       {
        "id": "2020-06-8-a-MP1",
        "marks": 3,
-       "text_md": "Universe began as hot / dense point; allow idea that Universe\nstarted as a single point\nUniverse has expanded since the Big Bang;\nUniverse has cooled since the Big Bang;\n(b) any four from:\nMP1. presence of cosmic microwave background allow CMBR\nradiation;\nMP2. CMBR comes from all directions; allow CMBR is uniform\nMP3. CMBR (began as gamma radiation and)\nwavelength increased (as Universe expanded);\nMP4. red-shift of galaxies;\nMP5. further/faster galaxies show a greater red-\nshift;\nMP6. red-shift indicates that galaxies are moving\naway from each other;\nMP7. relative abundance of helium; allow large amount of helium\nMP8. helium formed when Universe was hot enough\nto fuse protons;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+       "text_md": "Universe began as hot / dense point; allow idea that Universe\nstarted as a single point\nUniverse has expanded since the Big Bang;\nUniverse has cooled since the Big Bang;"
       }
      ],
      "source_page": 20,
@@ -1074,7 +1194,15 @@
      "question_type": "structured",
      "problem_md": "Describe the evidence that supports the Big Bang theory.",
      "choices": [],
-     "answer_status": "unmatched",
+     "answer_status": "linked",
+     "solution_md": "any four from:\nMP1. presence of cosmic microwave background allow CMBR\nradiation;\nMP2. CMBR comes from all directions; allow CMBR is uniform\nMP3. CMBR (began as gamma radiation and)\nwavelength increased (as Universe expanded);\nMP4. red-shift of galaxies;\nMP5. further/faster galaxies show a greater red-\nshift;\nMP6. red-shift indicates that galaxies are moving\naway from each other;\nMP7. relative abundance of helium; allow large amount of helium\nMP8. helium formed when Universe was hot enough\nto fuse protons;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2020-06-8-b-MP1",
+       "marks": 4,
+       "text_md": "any four from:\nMP1. presence of cosmic microwave background allow CMBR\nradiation;\nMP2. CMBR comes from all directions; allow CMBR is uniform\nMP3. CMBR (began as gamma radiation and)\nwavelength increased (as Universe expanded);\nMP4. red-shift of galaxies;\nMP5. further/faster galaxies show a greater red-\nshift;\nMP6. red-shift indicates that galaxies are moving\naway from each other;\nMP7. relative abundance of helium; allow large amount of helium\nMP8. helium formed when Universe was hot enough\nto fuse protons;\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
      "source_page": 20,
      "assets": [],
      "spec_point_codes": [],
