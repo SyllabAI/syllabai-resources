@@ -100,3 +100,66 @@ Stage Summary:
 - Polish R1 parked at **74/800** (726 ids remain — the wall is intermittent;
   resume recipe unchanged: node llm_repair_ych12.js → cp pristine → merge →
   audit → validate). YCH12 lane otherwise COMPLETE (r0 + R1-partial).
+
+---
+Task ID: T-PARSE-YCH12-1-R2
+Agent: Z.ai (main, zai-web)
+Task: Formula-rescue resume (the lane README's next-step 1) after the operator
+session resumed post-sandbox-reset; the 182 unrescued orphans. Quota probe at
+session start: 429 wall UP (polish grind parked).
+
+Work Log:
+- SANDBOX RESET recovery: data/ workspaces (both lanes) gone, venv stripped to
+  the shared base image, docling_full_ych12.py lost from the workspace (repo
+  copy intact). Fetched first: origin had advanced massively — T-PARSE-YCH12-1
+  (this lane's parse) and YCH11 R3 polish had already landed from parallel
+  agents; local main pulled ff-only to cc5f0e8d, ych11+ych12 lanes sparse-checked
+  out, both archive PDFs sha256-verified against the README pins.
+- Both polish workspaces rebuilt per the lane recipe (pristine reset + FULL
+  repairs merge): ych11 1571 chunks / 90 llm_repaired / anchor PASS;
+  ych12 1400 / 74 / anchor PASS; rebuilt out/ == landed parsed/ byte-identical
+  both lanes (sha256 98d7f891…, bfcb53df…). Validators re-run green on both
+  (baseline before any new work).
+- RESCUE LABOR COMPLETE: worklist built (182 orphans / 75 pages — note: the
+  README's "71 pages" understates; the data says 75); original-of-record
+  re-downloaded from the taleem360 provenance URL (162,939,218 B, sha256
+  44af34a5…748 re-verified EXACT); 182 full-width 300-dpi crops rendered
+  (bbox law probe-verified as PDF-native y-up via the known p16 i13 rescue);
+  30 transcription windows produced 182 verbatim records (3 adjudicated
+  sliver/duplicates: p80 i8, p187 i38, p297 i7; block-split items resolved
+  content-exactly-once: p105 i8/i9, p80 i9/i10, p187 i26/i29, p186 i35);
+  merged sidecar = 315/315 orphan keys, 0 missing, 0 dup (306 filled + 9
+  adjudicated-empty).
+- DOCLING REBUILD: CPU torch 2.14.1+cpu + torchvision 0.29.1+cpu (the CUDA-
+  default pip trap hit first — 5.3 GB nvidia wheel set purged, pip cache
+  purged, --no-cache-dir + CPU index thereafter), docling 2.33.0 +
+  rapidocr-onnxruntime 1.4.4 + transformers 4.52.4 per lane pins. NOTE:
+  onnxruntime resolved to 1.31.0 (backend NOT pinned by the lane).
+- 320/320 pages re-OCR'd in 10 foreground windows (~10 s/page; index pages
+  311-315 up to 310 s each — slower than the r0 run recorded).
+- ws apply of the FULL 315-record sidecar onto the rebuilt pages: applied=306,
+  adjudicated=9, **mismatch=0** — every orphan bbox matched within 6 pt, i.e.
+  the re-OCR's item positions reproduce the original run exactly at all 315
+  checkpoints.
+- RE-CHUNK DIFF GATE **FIRED** (pre-declared abort condition): out_rescue
+  corpus = 1406 chunks vs landed 1400; id sets diverge (459 new-only / 453
+  old-only, ~33% renumbered); of 947 shared ids, 647 texts differ (68.3%) and
+  541 carry anchor-field drift (section/book_pages) — far beyond the 182
+  intended insertions. The re-OCR is NOT byte-faithful (prime suspect: the
+  unpinned onnxruntime backend 1.31.0 vs the r0 run's version; layout-model
+  drift possible). VERDICT: rescue landing ABORTED; the landed v1 corpus (133
+  rescues + 74 polish) stands byte-untouched as the corpus of record.
+- LABOR BANKED: evidence/rescue_r2_2026-10-25/ (30 batch files + the merged
+  315-record sidecar + worklist + README documenting conventions, the gate
+  evidence, and the v2-lane consumption recipe). The transcriptions are
+  position-true (bbox-verified against an independent second OCR run) and
+  carry over as-is to any fresh parse.
+
+Stage Summary:
+- Rescue R2 parked as TRANSCRIBED+BANKED, landing blocked: the lane's "182
+  resumable" state is now "182 transcribed & position-verified; consumption
+  requires a fresh-parse (v2) lane or a byte-faithful docling env reproduction
+  (pin the onnxruntime backend + cache the r0 model artifacts)". Polish R1
+  unchanged at 74/800 (quota-walled all session — probes 429 throughout).
+- Polish workspaces for BOTH lanes rebuilt and verified; the grind recipe is
+  live the moment the wall lifts.

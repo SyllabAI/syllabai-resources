@@ -2,9 +2,17 @@
 
 **Status:** SB2 **PARSED** (T-PARSE-YCH12-1, 2026-10-25: corpus v1 1400 chunks,
 validator ALL CHECKS PASSED; 315 blank display-equation regions exported, 133
-transcribed verbatim by the agent rescue pass (127 fills + 6 adjudicated), 182
-remain unrescued — resumable; LLM polish R1 staged at 800/1400, quota-walled,
-NOT started). SB1 = parsed in the sibling `ych11` lane. Scaffold per
+transcribed verbatim by the agent rescue pass (127 fills + 6 adjudicated);
+rescue R2 (T-PARSE-YCH12-1-R2, 2026-10-25): the remaining 182 orphans ALL
+transcribed verbatim and banked at
+`pipeline/evidence/rescue_r2_2026-10-25/` (315/315 sidecar coverage,
+bbox-verified position-true against an independent second OCR run), but the
+landing is BLOCKED — the sandbox reset destroyed `docling_pages/`, the rebuilt
+320-page re-OCR failed the pre-declared re-chunk diff gate (33% chunk-id
+renumber, 68% shared-id text drift; suspected unpinned onnxruntime backend),
+so the landed v1 corpus stands byte-untouched; consumption needs a fresh-parse
+(v2) lane — see the rescue R2 README. LLM polish R1 at 74/800, quota-walled,
+resumable). SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
 ## Books of this lane
@@ -40,7 +48,13 @@ v2 hub course ial-chemistry-17 · specKey
 
 ## Next steps
 
-1. Resume the formula rescue (182 orphans on 71 pages): `render_orphan_pages_ych12.py` → transcribe → `manual_formula_ws_ych12.py` → re-chunk → re-validate.
-2. LLM polish R1 (800 ids staged at `pipeline/evidence/llm_repair_ids_ych12.json`): the YCH11 `llm_repair_ych11.js` pattern re-targeted at `ych12_sb2` — quota-walled as of 2026-10-25.
+1. ~~Resume the formula rescue (182 orphans on 75 pages)~~ — DONE as labor
+   (T-PARSE-YCH12-1-R2): all 182 transcribed + banked
+   (`pipeline/evidence/rescue_r2_2026-10-25/`), landing blocked by the re-chunk
+   diff gate after the sandbox reset (the rebuilt docling env is not
+   byte-faithful; see the rescue R2 README). Consumption = a fresh-parse (v2)
+   lane applying the full 315-record sidecar, OR a byte-faithful env
+   reproduction (pin the onnxruntime backend, reuse the r0 model artifacts).
+2. LLM polish R1 (800 ids staged at `pipeline/evidence/llm_repair_ids_ych12.json`): the YCH11 `llm_repair_ych11.js` pattern re-targeted at `ych12_sb2` — 74/800 done, quota-walled as of 2026-10-25 (all-session 429).
 3. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
 4. Update `books/CATALOG.md` tracker in the same commit as each state change.
