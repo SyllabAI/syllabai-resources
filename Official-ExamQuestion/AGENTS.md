@@ -465,8 +465,18 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   `<series>:2C` keys (F40 documents the 9 defect mechanisms behind them);
   (b) DONE v0.9.0 — the 2C spec-label waves are authored
   (`spec-labels/<series>-2C.json`, labels only, G6 judges; 607/607 resolved,
-  C33 pins the terminal state); (c) the repo parsed/ layer is 1C-only — a 2C
-  parsed layer would unlock the independent-parse cross-diff for 2C; (d) DONE
+  C33 pins the terminal state); (c) DONE wave-26 — the 2C independent-parse
+  cross-diff is live: the repo parsed/ layer now covers all 16 2C sittings
+  (pastpapers PR #3: 12 new + 2 regenerated-verified sittings alongside the
+  pre-existing 2024-06/2026-06), and `cross_diff_parsed.py --paper 2C` agrees
+  with the converter corpus on the FULL 16-sitting 2C part census — 607/607
+  part marks (545 leaves + 62 parent labels present in both maps) and 103/103
+  question totals, 0 mismatches, 0 converter-only parts; the remaining 134
+  pdflane-only letter-parent totals each equal the sum of their children on
+  both parsers; every sitting = its printed 70 marks
+  with Σparts=Σtotals gated). run_all.sh carries the 2C cross-diff battery step
+  (parsed-2C- namespaced inputs); 2CR remains the open variant — runs via
+  `--paper 2CR` when its parsed layer lands; (d) DONE
   v0.12.0 for 1CR — the 11 1CR sets converted on the same kit via `--paper 1CR`
   (registry entries filed with the outputs per the outputs-and-pipeline law;
   F49/F50 layout repairs through the loop; wave-15 disclosure; spec-label waves
