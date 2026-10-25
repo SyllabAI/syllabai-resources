@@ -1,0 +1,174 @@
+#!/usr/bin/env node
+// w8-layer-09.js — Catalysts (rn_tvwj4VZ6yFscPJfD, 2502ch, 4CH1-3.12 + 4CH1-3.13)
+const { buildLayer } = require('./w8-common');
+
+buildLayer('rn_tvwj4VZ6yFscPJfD', {
+  primer: {
+    text: 'From Explaining Rates you already know why hotter, denser crowds of particles react faster. This note introduces the helper that speeds reactions without being consumed, the catalyst, and the alternative pathway that explains its power. Industrial chemistry leans on these substances every day.',
+    prerequisiteSubtopic: 'Rates of Reaction',
+  },
+  lessons: [
+    {
+      title: 'What a catalyst is and is not',
+      sourceHeadings: ['The effect of a catalyst on rate of reaction'],
+      specRefs: ['4CH1-3.12'],
+      opening: 'A catalyst is chemistry\'s helper that is not used up: it speeds the reaction and walks away unchanged. This lesson pins down the definition, the small amounts needed and the way catalysts appear above reaction arrows.',
+      keyPoints: [
+        'A catalyst raises the rate of a reaction yet finishes it chemically unchanged.',
+        'Catalysts speed up reactions without themselves being altered or consumed.',
+        'Only small amounts of a catalyst are normally needed to have an effect.',
+        'Weigh a catalyst before and after a reaction and its mass reads exactly the same.',
+        'Catalysts are written above or below the reaction arrow rather than in the equation.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'A catalyst makes a reaction faster but comes out of the reaction exactly as it went in, so a tiny pinch can serve again and again. Its name is never listed with the reactants, only over the arrow.',
+          analogy: 'It is like a matchmaker at a wedding: the pairing happens faster, but the matchmaker leaves exactly as they arrived.',
+          examPointer: 'Quote both halves of the definition: faster rate and chemically unchanged at the end.',
+        },
+        medium: {
+          restatement: 'Catalysts raise the rate of a reaction while remaining chemically unchanged, so their mass is identical before and after. Small amounts suffice, and the catalyst is shown above the reaction arrow because it is not a reactant or product.',
+          analogy: 'A catalyst behaves like a revolving door: crowds pass through much faster, yet the door itself neither joins the crowd nor wears out.',
+          examPointer: 'Mention the unchanged mass and the arrow notation when justifying why a catalyst is not in the equation.',
+        },
+      },
+      check: [
+        {
+          stem: 'Which statement is the full definition of a catalyst?',
+          misconceptionClass: 'definition completeness',
+          options: [
+            { key: 'A', text: 'A substance that increases the rate of a reaction but is chemically unchanged at the end', correct: true, explanation: 'Both the speed-up and the unchanged state are required.', misconception: null },
+            { key: 'B', text: 'A substance that makes reactions happen that would never occur', correct: false, explanation: 'Catalysts change pace, not possibility.', misconception: 'power inflated' },
+            { key: 'C', text: 'A substance consumed to provide energy for the reaction', correct: false, explanation: 'Catalysts are not consumed and do not fuel reactions.', misconception: 'fuel confusion' },
+            { key: 'D', text: 'Any substance present in small amounts', correct: false, explanation: 'Small amount is a feature, not the definition.', misconception: 'fragment accepted' },
+          ],
+        },
+        {
+          stem: 'Why do small amounts of catalyst suffice?',
+          misconceptionClass: 'quantity reasoning',
+          options: [
+            { key: 'A', text: 'Because the catalyst is not consumed and can keep working', correct: true, explanation: 'Being unchanged at the end means one batch can process far more reactant.', misconception: null },
+            { key: 'B', text: 'Because catalysts are too expensive to waste', correct: false, explanation: 'Cost may be true industrially, but the chemical reason is non-consumption.', misconception: 'economics substituted' },
+            { key: 'C', text: 'Because a small mass reacts completely', correct: false, explanation: 'The catalyst does not react away at all.', misconception: 'consumption myth' },
+            { key: 'D', text: 'Because catalysts dissolve into the products', correct: false, explanation: 'Dissolving is not part of catalysis here.', misconception: 'invented mechanism' },
+          ],
+        },
+        {
+          stem: 'Where does the catalyst appear in a chemical equation?',
+          misconceptionClass: 'notation recall',
+          options: [
+            { key: 'A', text: 'Above or below the reaction arrow', correct: true, explanation: 'The arrow position shows the catalyst aids the change without being a reactant.', misconception: null },
+            { key: 'B', text: 'On the left with the reactants', correct: false, explanation: 'That would list it as a reactant, which it is not.', misconception: 'position misassigned' },
+            { key: 'C', text: 'On the right with the products', correct: false, explanation: 'It is not produced by the reaction.', misconception: 'position misassigned' },
+            { key: 'D', text: 'Nowhere, since catalysts are secret', correct: false, explanation: 'Industrial equations routinely show catalysts over the arrow.', misconception: 'invisibility myth' },
+          ],
+        },
+        {
+          stem: 'A reaction finishes with 2 g of solid catalyst recovered from 2 g added. What does this show?',
+          misconceptionClass: 'evidence interpretation',
+          options: [
+            { key: 'A', text: 'The substance acted as a catalyst, unchanged in mass by the reaction', correct: true, explanation: 'Matching start and end masses are the expected behaviour of a catalyst.', misconception: null },
+            { key: 'B', text: 'The catalyst must have doubled in activity', correct: false, explanation: 'Mass recovery says nothing about activity doubling.', misconception: 'inference inflated' },
+            { key: 'C', text: 'The catalyst was the product', correct: false, explanation: 'Products are made by the reaction; the catalyst was present at the start.', misconception: 'role inverted' },
+            { key: 'D', text: 'The reaction never happened', correct: false, explanation: 'The reaction can proceed fully while the catalyst stays unchanged.', misconception: 'no-reaction myth' },
+          ],
+        },
+        {
+          stem: 'Which is a consequence of using a catalyst in an industrial process?',
+          misconceptionClass: 'application',
+          options: [
+            { key: 'A', text: 'A faster production rate without the catalyst being consumed', correct: true, explanation: 'Speed rises while the catalyst batch keeps working, which is why industry invests in it.', misconception: null },
+            { key: 'B', text: 'The products become different chemicals', correct: false, explanation: 'Catalysts change the pace, not the identity of the products.', misconception: 'product myth' },
+            { key: 'C', text: 'The equation must be rebalanced', correct: false, explanation: 'Balancing is untouched by catalysis.', misconception: 'balance myth' },
+            { key: 'D', text: 'The reaction becomes irreversible', correct: false, explanation: 'Reversibility is unaffected by adding a catalyst.', misconception: 'reversibility myth' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'How catalysts work and where industry uses them',
+      sourceHeadings: ['The effect of a catalyst on rate of reaction'],
+      specRefs: ['4CH1-3.13'],
+      opening: 'The shortcut is the secret: a catalyst offers the reaction an alternative pathway with a lower energy hurdle. This lesson walks that mechanism and meets the industrial catalysts built on it.',
+      keyPoints: [
+        'A catalyst opens a lower-energy route that lets more collisions succeed.',
+        'Different processes need different catalysts, but all work on the same principle.',
+        'Catalysts attract reactant molecules onto their surface, providing a lower-energy route.',
+        'Catalysis raises production rates and reduces energy costs in commercial chemistry.',
+        'Enzymes act as catalysts in biological systems.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'Instead of the steep hill the reaction normally climbs, a catalyst opens a gentler path, so more particles can make the journey. The same idea serves every industry, and living cells use it too through enzymes.',
+          analogy: 'It is like a mountain road tunnelling through the pass: the summit stays the same, but far more lorries can make the crossing.',
+          examPointer: 'Use the phrase alternative pathway with lower activation energy when explaining how catalysts work.',
+        },
+        medium: {
+          restatement: 'A catalyst opens an easier route whose lower energy hurdle lets a greater proportion of collisions succeed, so the rate rises. Atoms on the catalyst surface attract reactant molecules, and the same principle spans industrial processes and the enzymes of living systems.',
+          analogy: 'A ferry turns a long drive around the bay into a short crossing; the destination is unchanged, but the journey is easier and far more traffic completes it.',
+          examPointer: 'Link the lowered barrier to more successful collisions, then name surface action and enzymes as extensions.',
+        },
+      },
+      check: [
+        {
+          stem: 'How does a catalyst speed up a reaction?',
+          misconceptionClass: 'mechanism recall',
+          options: [
+            { key: 'A', text: 'By providing an alternative pathway with lower activation energy', correct: true, explanation: 'The lower hurdle lets more collisions lead to products.', misconception: null },
+            { key: 'B', text: 'By heating the reaction mixture', correct: false, explanation: 'Catalysts are not heaters; temperature is a separate factor.', misconception: 'factors crossed' },
+            { key: 'C', text: 'By increasing the concentration of reactants', correct: false, explanation: 'Concentration is untouched by the catalyst.', misconception: 'factors crossed' },
+            { key: 'D', text: 'By weakening the products so they form sooner', correct: false, explanation: 'Product strength is not the mechanism.', misconception: 'invented mechanism' },
+          ],
+        },
+        {
+          stem: 'What happens to the activation energy of the uncatalysed route when a catalyst is added?',
+          misconceptionClass: 'barrier reasoning',
+          options: [
+            { key: 'A', text: 'It stays the same; the catalyst opens a new, lower route alongside it', correct: true, explanation: 'The original pathway still exists; the alternative is simply easier.', misconception: null },
+            { key: 'B', text: 'It falls, because the catalyst lowers every barrier', correct: false, explanation: 'The uncatalysed route is untouched; only the new route is lower.', misconception: 'barrier myth' },
+            { key: 'C', text: 'It doubles, because two routes now compete', correct: false, explanation: 'Competition between routes does not raise any barrier.', misconception: 'competition myth' },
+            { key: 'D', text: 'It disappears entirely', correct: false, explanation: 'The catalysed route still has its own, smaller barrier.', misconception: 'zero-barrier myth' },
+          ],
+        },
+        {
+          stem: 'Iron in the ammonia process and vanadium(V) oxide in the sulfur process are examples of what?',
+          misconceptionClass: 'example recognition',
+          options: [
+            { key: 'A', text: 'Different catalysts chosen for different industrial processes', correct: true, explanation: 'Each process pairs with a catalyst suited to it, all working on the same principle.', misconception: null },
+            { key: 'B', text: 'Reactants consumed by their reactions', correct: false, explanation: 'Both substances are recovered unchanged after the process.', misconception: 'role inverted' },
+            { key: 'C', text: 'Products of their reactions', correct: false, explanation: 'Neither is a product; both pre-date the reaction.', misconception: 'role inverted' },
+            { key: 'D', text: 'Fuels burned to heat the processes', correct: false, explanation: 'They are not burned; they host the reaction on their surfaces.', misconception: 'fuel confusion' },
+          ],
+        },
+        {
+          stem: 'Why does a lower-energy pathway raise the reaction rate?',
+          misconceptionClass: 'link to collision theory',
+          options: [
+            { key: 'A', text: 'A greater proportion of collisions now carry enough energy to react', correct: true, explanation: 'Lowering the hurdle promotes more ordinary collisions into successful ones.', misconception: null },
+            { key: 'B', text: 'Because particles collide less often but harder', correct: false, explanation: 'Frequency does not fall; the success rate rises.', misconception: 'frequency myth' },
+            { key: 'C', text: 'Because the catalyst collides with the particles', correct: false, explanation: 'Collisions with the catalyst surface are part of the route, not the rate logic.', misconception: 'mechanism garbled' },
+            { key: 'D', text: 'Because the products leave faster', correct: false, explanation: 'Product departure is not the rate-determining idea here.', misconception: 'invented step' },
+          ],
+        },
+        {
+          stem: 'Which biological molecules act as catalysts?',
+          misconceptionClass: 'biology link',
+          options: [
+            { key: 'A', text: 'Enzymes', correct: true, explanation: 'Enzymes catalyse the reactions of living systems on the same lower-pathway principle.', misconception: null },
+            { key: 'B', text: 'Fats', correct: false, explanation: 'Fats store energy; they do not catalyse.', misconception: 'molecule swapped' },
+            { key: 'C', text: 'Sugars', correct: false, explanation: 'Sugars are respiratory fuels, not catalysts.', misconception: 'molecule swapped' },
+            { key: 'D', text: 'Water molecules', correct: false, explanation: 'Water is a solvent or reactant here, not the biological catalyst.', misconception: 'molecule swapped' },
+          ],
+        },
+      ],
+    },
+  ],
+  glossary: [
+    { term: 'catalyst', definition: 'A substance that increases the rate of a reaction but is chemically unchanged at the end.', firstLesson: 1 },
+    { term: 'activation energy', definition: 'The minimum energy particles need for a reaction to occur; catalysts open a lower pathway.', firstLesson: 2 },
+    { term: 'alternative pathway', definition: 'The easier reaction route that a catalyst provides, with a lower energy barrier.', firstLesson: 2 },
+    { term: 'enzyme', definition: 'A biological molecule that acts as a catalyst in living systems.', firstLesson: 2 },
+    { term: 'transition metals', definition: 'A block of metals widely used as catalysts because they donate and accept electrons readily.', firstLesson: 2 },
+  ],
+  workedExample: null,
+});

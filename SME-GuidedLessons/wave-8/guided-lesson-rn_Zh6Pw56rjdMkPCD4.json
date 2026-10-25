@@ -1,0 +1,481 @@
+{
+ "format": "guided-lesson/0.1",
+ "noteRef": {
+  "noteId": "rn_Zh6Pw56rjdMkPCD4",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "3. Physical Chemistry",
+  "subtopicTitle": "Rates of Reaction",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/3-physical-chemistry/3-2-rates-of-reaction/3-2-2-explaining-rates"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-3.10",
+   "text": "describe the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas, temperature and the use of a catalyst on the rate of a reaction"
+  },
+  {
+   "code": "4CH1-3.11",
+   "text": "explain the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory"
+  }
+ ],
+ "primer": {
+  "text": "From Measuring Rates you already know the four levers that speed reactions up. This note goes underneath the lever names to particle collision theory, explaining each effect through the number and energy of collisions. One small temperature step turns out to matter far more than its size suggests.",
+  "prerequisiteSubtopic": "Rates of Reaction"
+ },
+ "lessons": [
+  {
+   "title": "Collision theory for concentration and pressure",
+   "sourceHeadings": [
+    "Explaining rates of reaction",
+    "How increasing concentration affects rate"
+   ],
+   "specRefs": [
+    "4CH1-3.11"
+   ],
+   "opening": "Reactions happen when particles collide, and only some collisions succeed. This lesson uses that rule to explain why crowding particles together, in solution or in gas, makes chemistry run faster.",
+   "keyPoints": [
+    "Increasing the number of successful collisions means a greater proportion of particles form products.",
+    "A higher concentration puts more reactant particles into the same volume.",
+    "More particles in a given volume cause more collisions per second, so the rate increases.",
+    "Raising the pressure squeezes the same number of gas particles into a smaller volume.",
+    "Doubling the number of particles doubles the collisions per second, so collisions are proportional to particle count."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Crowd more particles into the same space and they bump into each other more often, so more reactions happen every second. The same trick works for gases by squeezing them into less room.",
+     "analogy": "It is like shoppers in a busy market: pack more of them into one street and bumping into friends becomes far more likely.",
+     "examPointer": "Answer with the chain: more particles in the same volume, more collisions, faster rate."
+    },
+    "medium": {
+     "restatement": "Higher concentration means more reactant particles in a given volume, causing more collisions per second and therefore more frequent successful collisions. Higher pressure does the same for gases by holding the same number of particles in a smaller volume.",
+     "analogy": "A crowded commuter train produces far more shoulder bumps per minute than a nearly empty one, even though the passengers are identical.",
+     "examPointer": "Include the phrase more frequent and successful collisions per second when explaining the faster rate."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why does doubling the concentration roughly double the collision count?",
+     "misconceptionClass": "proportional reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because collisions per second are proportional to the number of particles present",
+       "correct": true,
+       "explanation": "Twice the particles in the same volume meet twice as often.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because each particle then moves faster",
+       "correct": false,
+       "explanation": "Concentration changes crowding, not particle speed.",
+       "misconception": "speed conflated"
+      },
+      {
+       "key": "C",
+       "text": "Because the volume doubles too",
+       "correct": false,
+       "explanation": "The volume stays the same; the population doubles.",
+       "misconception": "volume confused"
+      },
+      {
+       "key": "D",
+       "text": "Because the acid becomes stronger chemically",
+       "correct": false,
+       "explanation": "The explanation is mechanical crowding, not chemical strength.",
+       "misconception": "strength myth"
+      }
+     ]
+    },
+    {
+     "stem": "How does increased pressure speed up a gaseous reaction?",
+     "misconceptionClass": "pressure reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "The same number of particles is forced into a smaller volume, so collisions become more frequent",
+       "correct": true,
+       "explanation": "Squeezing the crowd raises the bump rate per second.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Pressure adds energy to each particle",
+       "correct": false,
+       "explanation": "Pressure changes spacing; energy belongs to the temperature story.",
+       "misconception": "factors crossed"
+      },
+      {
+       "key": "C",
+       "text": "Pressure creates extra particles",
+       "correct": false,
+       "explanation": "The particle count is unchanged.",
+       "misconception": "creation myth"
+      },
+      {
+       "key": "D",
+       "text": "Pressure only affects liquids",
+       "correct": false,
+       "explanation": "Pressure effects are quoted for gases in this topic.",
+       "misconception": "state confusion"
+      }
+     ]
+    },
+    {
+     "stem": "What converts an ordinary collision into a successful one?",
+     "misconceptionClass": "success condition",
+     "options": [
+      {
+       "key": "A",
+       "text": "Enough energy and the right arrangement, so product molecules form",
+       "correct": true,
+       "explanation": "Only a proportion of collisions carry what it takes to react.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The particles colliding head-on at any speed",
+       "correct": false,
+       "explanation": "Direction alone is not enough without the energy requirement.",
+       "misconception": "geometry myth"
+      },
+      {
+       "key": "C",
+       "text": "The particles sticking together permanently",
+       "correct": false,
+       "explanation": "Products form and separate; permanent sticking is not the rule.",
+       "misconception": "sticking myth"
+      },
+      {
+       "key": "D",
+       "text": "The presence of a catalyst in every collision",
+       "correct": false,
+       "explanation": "Catalysts are absent in most explained reactions here.",
+       "misconception": "catalyst intruded"
+      }
+     ]
+    },
+    {
+     "stem": "A flask of gas is compressed to half its volume at constant temperature. What happens to the rate?",
+     "misconceptionClass": "application",
+     "options": [
+      {
+       "key": "A",
+       "text": "It increases because the particle crowding and collision count rise",
+       "correct": true,
+       "explanation": "Half the volume means twice the crowding, so collisions per second rise.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It decreases because particles have less room to move",
+       "correct": false,
+       "explanation": "Less room means more meetings, not fewer.",
+       "misconception": "trend inverted"
+      },
+      {
+       "key": "C",
+       "text": "It stays the same because particle count is fixed",
+       "correct": false,
+       "explanation": "Count is fixed but crowding is not.",
+       "misconception": "count-only reasoning"
+      },
+      {
+       "key": "D",
+       "text": "It doubles only if a catalyst is added",
+       "correct": false,
+       "explanation": "No catalyst is needed for the pressure effect.",
+       "misconception": "condition invented"
+      }
+     ]
+    },
+    {
+     "stem": "Which chain of reasoning correctly explains a faster rate at higher concentration?",
+     "misconceptionClass": "explanation structure",
+     "options": [
+      {
+       "key": "A",
+       "text": "More particles per volume, more collisions per second, more successful collisions, faster rate",
+       "correct": true,
+       "explanation": "Each link follows from the previous one and ends at the rate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Faster rate, more collisions, more particles, higher concentration",
+       "correct": false,
+       "explanation": "The chain runs backwards from the outcome.",
+       "misconception": "chain reversed"
+      },
+      {
+       "key": "C",
+       "text": "Higher concentration, slower particles, fewer collisions, faster rate",
+       "correct": false,
+       "explanation": "Speed and count are mixed up mid-chain.",
+       "misconception": "link corrupted"
+      },
+      {
+       "key": "D",
+       "text": "More particles, fewer collisions, faster rate",
+       "correct": false,
+       "explanation": "The middle link contradicts crowding.",
+       "misconception": "contradictory chain"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Collision theory for temperature and surface area",
+   "sourceHeadings": [
+    "How increasing temperature affects rate",
+    "How increasing the surface area affects rate"
+   ],
+   "specRefs": [
+    "4CH1-3.10",
+    "4CH1-3.11"
+   ],
+   "opening": "Heat does two jobs at once: particles move faster and collide more often, and each collision arrives with more energy. This lesson separates those jobs and adds the exposure effect of powdered solids.",
+   "keyPoints": [
+    "Increasing the temperature gives particles more kinetic energy, so collisions become more frequent and successful.",
+    "A small rise in temperature causes a large increase in rate.",
+    "For aqueous and gaseous systems, every 10 °C rise roughly doubles the rate of reaction.",
+    "Increasing the surface area exposes more particles of a solid to the other reactant.",
+    "Doubling the surface area doubles the number of collisions per second."
+   ],
+   "confidenceGate": {
+    "ratings": [
+     "low",
+     "medium",
+     "high"
+    ],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "Warmer particles dash about faster, so they meet more often and hit harder, which lifts the rate steeply. Chopping a solid into smaller pieces uncovers more of its particles for the other reactant to strike.",
+     "analogy": "Heating a crowd makes everyone jog instead of stroll, so shoulders bump far more; powdering a sugar cube spreads its grains through the tea for faster dissolving.",
+     "examPointer": "For temperature, mention both collision frequency and collision energy; for surface area, mention exposed particles."
+    },
+    "medium": {
+     "restatement": "Higher temperature raises the kinetic energy of particles, causing more collisions per second and more frequent successful collisions, so a 10 °C rise can roughly double the rate. Greater surface area places more solid particles where the other reactant can reach them, again raising the collision count.",
+     "analogy": "A hotter dance floor has dancers moving faster and colliding with more force, while a broken-up dance card lets twice as many partners meet.",
+     "examPointer": "Quote the 10 °C doubling rule as a rule of thumb, and credit temperature as the more powerful of the two effects."
+    }
+   },
+   "check": [
+    {
+     "stem": "Why does a 10 °C rise have such a large effect on rate?",
+     "misconceptionClass": "temperature reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Because collisions become both more frequent and more energetic",
+       "correct": true,
+       "explanation": "The two effects combine, with the energy gain doing the greater work.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Because particles double in size",
+       "correct": false,
+       "explanation": "Particle size does not change with temperature.",
+       "misconception": "size myth"
+      },
+      {
+       "key": "C",
+       "text": "Because the concentration rises with temperature",
+       "correct": false,
+       "explanation": "Concentration is a separate factor.",
+       "misconception": "factors crossed"
+      },
+      {
+       "key": "D",
+       "text": "Because the reaction switches to a faster pathway",
+       "correct": false,
+       "explanation": "No new pathway appears; the same one runs faster.",
+       "misconception": "pathway myth"
+      }
+     ]
+    },
+    {
+     "stem": "What does the rough rule of thumb state for aqueous and gaseous systems?",
+     "misconceptionClass": "rule recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Every 10 °C increase in temperature approximately doubles the rate",
+       "correct": true,
+       "explanation": "The stated rule of thumb links a 10 °C step to a doubling of rate.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Every 10 °C increase halves the rate",
+       "correct": false,
+       "explanation": "Heating speeds reactions; the rule says doubles.",
+       "misconception": "rule inverted"
+      },
+      {
+       "key": "C",
+       "text": "Every 1 °C increase doubles the rate",
+       "correct": false,
+       "explanation": "The doubling belongs to a 10 °C step.",
+       "misconception": "step misread"
+      },
+      {
+       "key": "D",
+       "text": "Rate is unaffected below 50 °C",
+       "correct": false,
+       "explanation": "No threshold appears in the rule.",
+       "misconception": "threshold myth"
+      }
+     ]
+    },
+    {
+     "stem": "Why does powdering a solid reactant speed up the reaction?",
+     "misconceptionClass": "surface area reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "More solid particles are exposed to the other reactant, so collisions per second increase",
+       "correct": true,
+       "explanation": "Exposure is the whole story; the powder meets the solution everywhere at once.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Powder particles move faster than lumps",
+       "correct": false,
+       "explanation": "Speed of particles is a temperature effect, not a surface effect.",
+       "misconception": "factors crossed"
+      },
+      {
+       "key": "C",
+       "text": "Powdering raises the concentration of the solution",
+       "correct": false,
+       "explanation": "The solid is not part of the solution concentration.",
+       "misconception": "concentration conflated"
+      },
+      {
+       "key": "D",
+       "text": "Powder lowers the activation energy",
+       "correct": false,
+       "explanation": "Only catalysts lower the energy barrier.",
+       "misconception": "catalyst effect borrowed"
+      }
+     ]
+    },
+    {
+     "stem": "A student claims doubling the surface area doubles the amount of product formed. What is the correction?",
+     "misconceptionClass": "plateau reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Doubling the surface area doubles the collision count, not the final product amount",
+       "correct": true,
+       "explanation": "The plateau is fixed by the starting quantities; only the pace changes.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "The claim is correct because rate and yield are identical",
+       "correct": false,
+       "explanation": "Rate and yield are different quantities.",
+       "misconception": "rate-yield conflation"
+      },
+      {
+       "key": "C",
+       "text": "Doubling the surface area halves the product",
+       "correct": false,
+       "explanation": "No such penalty exists.",
+       "misconception": "penalty myth"
+      },
+      {
+       "key": "D",
+       "text": "Product amount depends on the powder colour",
+       "correct": false,
+       "explanation": "Colour is irrelevant to yield.",
+       "misconception": "irrelevant factor"
+      }
+     ]
+    },
+    {
+     "stem": "Which factor affects reaction rate by increasing both the number and the energy of collisions?",
+     "misconceptionClass": "factor discrimination",
+     "options": [
+      {
+       "key": "A",
+       "text": "Temperature",
+       "correct": true,
+       "explanation": "Heat raises particle speed, so collisions come more often and hit harder.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Surface area",
+       "correct": false,
+       "explanation": "Surface area changes only the number of exposed collision sites.",
+       "misconception": "frequency only"
+      },
+      {
+       "key": "C",
+       "text": "Concentration",
+       "correct": false,
+       "explanation": "Concentration changes crowding, not particle energy.",
+       "misconception": "frequency only"
+      },
+      {
+       "key": "D",
+       "text": "A catalyst",
+       "correct": false,
+       "explanation": "A catalyst changes the energy barrier, not the particle energies.",
+       "misconception": "mechanism mismatch"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "collision theory",
+    "definition": "The explanation of reaction rates in terms of the frequency and energy of particle collisions.",
+    "firstLesson": 1
+   },
+   {
+    "term": "concentration",
+    "definition": "The amount of dissolved reactant in a given volume of solution.",
+    "firstLesson": 1
+   },
+   {
+    "term": "successful collision",
+    "definition": "A collision between reactant particles that forms product molecules.",
+    "firstLesson": 1
+   },
+   {
+    "term": "kinetic energy",
+    "definition": "The energy of moving particles, which rises with temperature.",
+    "firstLesson": 2
+   },
+   {
+    "term": "surface area",
+    "definition": "The amount of solid surface available for collisions, increased by powdering a solid.",
+    "firstLesson": 2
+   }
+  ],
+  "workedExample": null
+ }
+}

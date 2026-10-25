@@ -1,0 +1,251 @@
+#!/usr/bin/env node
+// w8-layer-14.js — The Position of Equilibrium (rn_DRQXrcSrmgQ7jcbZ, 5852ch, 4CH1-3.22C + 4CH1-3.21C)
+const { buildLayer } = require('./w8-common');
+
+buildLayer('rn_DRQXrcSrmgQ7jcbZ', {
+  primer: {
+    text: 'From Reversible Reactions you already know that changes can run both ways at once. This note asks where the balance point sits, how temperature and pressure shove it, and why a catalyst cannot move it at all. Colour-change equilibria make the shifting balance visible to the eye.',
+    prerequisiteSubtopic: 'Reversible Reactions & Equilibria',
+  },
+  lessons: [
+    {
+      title: 'Equilibrium position and temperature',
+      sourceHeadings: ['The position of equilibrium', 'Temperature'],
+      specRefs: ['4CH1-3.22C'],
+      opening: 'How much of each chemical survives at equilibrium depends on the conditions around the flask. This lesson introduces the principle chemists use to predict the shift and applies it to temperature changes.',
+      keyPoints: [
+        'The balance of reactants and products at equilibrium answers to the conditions.',
+        'A shift to the right means the forward reaction is favoured and more products form.',
+        'A shift to the left means the reverse reaction is favoured and more reactants form.',
+        'Raising the temperature shifts the equilibrium in the direction of the endothermic reaction.',
+        'Lowering the temperature shifts the equilibrium in the direction of the exothermic reaction.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'The balance point between the two directions is not fixed: heat it and the balance leans towards the heat-using direction, cool it and it leans towards the heat-releasing one. Leaning right means more products; leaning left means more reactants.',
+          analogy: 'It is like a see-saw with people swapping sides when the rules change: the balance always tips towards whichever side the new rules favour.',
+          examPointer: 'Name the direction of the shift and tie it to the endothermic or exothermic side.',
+        },
+        medium: {
+          restatement: 'Changing the conditions moves the position of equilibrium, so temperature shifts favour one direction: hotter conditions favour the endothermic direction and cooler conditions the exothermic one. A right shift raises the amount of products and a left shift raises the amount of reactants.',
+          analogy: 'A thermostat in disguise: heat the room and the equilibrium does the opposite of what you did, absorbing the extra heat by running the cooling direction.',
+          examPointer: 'Answer temperature questions by first asking which direction absorbs the change, then name the shift.',
+        },
+      },
+      check: [
+        {
+          stem: 'Heating an equilibrium mixture favours which direction?',
+          misconceptionClass: 'temperature shift',
+          options: [
+            { key: 'A', text: 'The endothermic direction, which absorbs the added heat', correct: true, explanation: 'The system responds to heating by using up heat in the endothermic direction.', misconception: null },
+            { key: 'B', text: 'The exothermic direction, which releases more heat', correct: false, explanation: 'Releasing heat would add to the disturbance, not oppose it.', misconception: 'direction inverted' },
+            { key: 'C', text: 'Neither direction moves', correct: false, explanation: 'Temperature shifts do move the balance.', misconception: 'no-shift myth' },
+            { key: 'D', text: 'Both directions equally', correct: false, explanation: 'Equal shifts would change nothing, which is not observed.', misconception: 'equal myth' },
+          ],
+        },
+        {
+          stem: 'The forward reaction of an equilibrium is exothermic. What does cooling the mixture do?',
+          misconceptionClass: 'applied shift',
+          options: [
+            { key: 'A', text: 'It favours the forward reaction, so more product forms', correct: true, explanation: 'Cooling favours the heat-releasing side, which is the forward direction here.', misconception: null },
+            { key: 'B', text: 'It favours the backward reaction, so more reactant forms', correct: false, explanation: 'The backward reaction is endothermic here and is favoured by heating.', misconception: 'shift inverted' },
+            { key: 'C', text: 'The mixture changes colour to blue', correct: false, explanation: 'Colour depends on the specific equilibrium, not on cooling alone.', misconception: 'colour assumed' },
+            { key: 'D', text: 'The equilibrium is destroyed', correct: false, explanation: 'The balance moves; it does not vanish.', misconception: 'destruction myth' },
+          ],
+        },
+        {
+          stem: 'What does it mean for the position of equilibrium to shift right?',
+          misconceptionClass: 'terminology',
+          options: [
+            { key: 'A', text: 'The forward reaction is favoured, so the amount of products increases', correct: true, explanation: 'Right shifts enrich the product side of the equation.', misconception: null },
+            { key: 'B', text: 'The reactants increase in amount', correct: false, explanation: 'That describes a left shift.', misconception: 'direction inverted' },
+            { key: 'C', text: 'The reaction stops completely', correct: false, explanation: 'Equilibrium mixtures never stop reacting.', misconception: 'stopping myth' },
+            { key: 'D', text: 'The catalyst becomes more active', correct: false, explanation: 'Catalysts do not take sides in the shift.', misconception: 'catalyst intruded' },
+          ],
+        },
+        {
+          stem: 'Iodine monochloride and chlorine form iodine trichloride, with the forward reaction exothermic. On heating, the brown colour deepens. Why?',
+          misconceptionClass: 'colour application',
+          options: [
+            { key: 'A', text: 'Heating favours the endothermic backward reaction, so more brown reactant forms', correct: true, explanation: 'The shift runs left, enriching the dark brown starting materials.', misconception: null },
+            { key: 'B', text: 'Heating favours the forward reaction, so more yellow product forms', correct: false, explanation: 'The forward reaction is exothermic and is disfavoured by heating.', misconception: 'shift inverted' },
+            { key: 'C', text: 'The product decomposes into oxygen', correct: false, explanation: 'No oxygen is part of this equilibrium.', misconception: 'invented chemistry' },
+            { key: 'D', text: 'The thermometer itself darkens the liquid', correct: false, explanation: 'The colour change is chemical, not instrumental.', misconception: 'absurd cause' },
+          ],
+        },
+        {
+          stem: 'Which change would shift an equilibrium towards the exothermic direction?',
+          misconceptionClass: 'shift control',
+          options: [
+            { key: 'A', text: 'Lowering the temperature of the mixture', correct: true, explanation: 'Cooling pulls the balance towards the heat-releasing side.', misconception: null },
+            { key: 'B', text: 'Raising the temperature of the mixture', correct: false, explanation: 'Heating favours the endothermic side instead.', misconception: 'direction inverted' },
+            { key: 'C', text: 'Adding a catalyst', correct: false, explanation: 'Catalysts never move the position.', misconception: 'catalyst myth' },
+            { key: 'D', text: 'Increasing the pressure of a gas equilibrium', correct: false, explanation: 'Pressure shifts follow molecule counts, not heat.', misconception: 'factors crossed' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Pressure and the molecule count',
+      sourceHeadings: ['Pressure'],
+      specRefs: ['4CH1-3.22C'],
+      opening: 'Squeezing a gaseous equilibrium changes the balance too, but only gases feel the squeeze. This lesson counts molecules on each side of the equation and predicts the shift from the count alone.',
+      keyPoints: [
+        'Changes in pressure only affect gases in an equilibrium mixture.',
+        'Increasing the pressure favours the reaction producing the fewest gas molecules.',
+        'Decreasing the pressure favours the reaction producing the most gas molecules.',
+        'Equal numbers of gas molecules on both sides mean pressure has no effect on the position.',
+        'Pressure changes affect only the position of equilibrium, never the rates equally matched by a catalyst.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'Push on a gaseous equilibrium and the balance slides towards whichever side packs fewer gas molecules. If both sides hold the same count, squeezing changes nothing about the balance.',
+          analogy: 'It is like a crowded train: squeeze the carriage and people move to whichever end has fewer passengers standing.',
+          examPointer: 'Count the gas molecules on each side before predicting any pressure shift.',
+        },
+        medium: {
+          restatement: 'Raising the pressure of a gaseous equilibrium favours the direction that produces the fewest gas molecules, while lowering the pressure favours the direction producing more. When the gas counts match on both sides, pressure changes leave the position of equilibrium unchanged.',
+          analogy: 'A lift preferentially fills with the smallest group first; if both floors hold equal groups, squeezing the lobby sends no signal.',
+          examPointer: 'Write the molecule counts over each side, then quote the direction that the pressure change favours.',
+        },
+      },
+      check: [
+        {
+          stem: 'Why does increased pressure favour fewer gas molecules?',
+          misconceptionClass: 'pressure logic',
+          options: [
+            { key: 'A', text: 'Fewer molecules ease the crowding that the pressure increase created', correct: true, explanation: 'The shift opposes the squeeze by reducing the gas count.', misconception: null },
+            { key: 'B', text: 'Fewer molecules are always faster', correct: false, explanation: 'Speed is not the logic; the count is.', misconception: 'rate conflated' },
+            { key: 'C', text: 'Because solids take up the extra pressure', correct: false, explanation: 'Solids and liquids are unaffected by pressure changes here.', misconception: 'state confusion' },
+            { key: 'D', text: 'Because molecules shrink under pressure', correct: false, explanation: 'Molecules do not shrink; the balance moves.', misconception: 'absurd mechanism' },
+          ],
+        },
+        {
+          stem: 'In 2NO2 (g) turning into N2O4 (g), what does increased pressure do?',
+          misconceptionClass: 'applied shift',
+          options: [
+            { key: 'A', text: 'It favours the forward reaction, since two molecules become one', correct: true, explanation: 'The product side holds fewer gas molecules, so pressure pushes the balance right.', misconception: null },
+            { key: 'B', text: 'It favours the backward reaction, since one molecule becomes two', correct: false, explanation: 'Splitting into more molecules works against a squeeze.', misconception: 'shift inverted' },
+            { key: 'C', text: 'Nothing, because both sides have equal counts', correct: false, explanation: 'The counts are 2 and 1, not equal.', misconception: 'count misread' },
+            { key: 'D', text: 'It turns the gas into a liquid', correct: false, explanation: 'The equilibrium stays gaseous.', misconception: 'state confusion' },
+          ],
+        },
+        {
+          stem: 'A gaseous equilibrium has three molecules on the left and three on the right. What does increased pressure do?',
+          misconceptionClass: 'no-shift case',
+          options: [
+            { key: 'A', text: 'Nothing to the position, because both sides hold the same gas count', correct: true, explanation: 'Equal counts leave the balance unmoved by pressure.', misconception: null },
+            { key: 'B', text: 'It shifts the position to the left', correct: false, explanation: 'No side has fewer molecules to favour.', misconception: 'shift invented' },
+            { key: 'C', text: 'It shifts the position to the right', correct: false, explanation: 'The equal count blocks any shift.', misconception: 'shift invented' },
+            { key: 'D', text: 'It stops the forward reaction', correct: false, explanation: 'Reactions continue at equilibrium regardless.', misconception: 'stopping myth' },
+          ],
+        },
+        {
+          stem: 'Which observation would show a gaseous equilibrium shifting right after compression?',
+          misconceptionClass: 'evidence reading',
+          options: [
+            { key: 'A', text: 'The colour deepens towards the product side of the equation', correct: true, explanation: 'Enrichment of the product side shows itself as that side\'s colour strengthening.', misconception: null },
+            { key: 'B', text: 'The colour lightens towards the reactant side', correct: false, explanation: 'That would indicate a left shift.', misconception: 'shift inverted' },
+            { key: 'C', text: 'The gas turns into a solid', correct: false, explanation: 'State changes are not part of the shift.', misconception: 'state confusion' },
+            { key: 'D', text: 'The readings become impossible to take', correct: false, explanation: 'Compression leaves the mixture observable.', misconception: 'absurd claim' },
+          ],
+        },
+        {
+          stem: 'Pressure changes do not affect the position when which condition holds?',
+          misconceptionClass: 'condition recall',
+          options: [
+            { key: 'A', text: 'The same number of moles of gas sits on each side of the equation', correct: true, explanation: 'Matching gas counts leave the balance with nothing to prefer.', misconception: null },
+            { key: 'B', text: 'A catalyst is present in the mixture', correct: false, explanation: 'Catalysts are irrelevant to pressure shifts.', misconception: 'catalyst myth' },
+            { key: 'C', text: 'The temperature is above room temperature', correct: false, explanation: 'Temperature level does not cancel pressure effects.', misconception: 'temperature myth' },
+            { key: 'D', text: 'The reaction is exothermic', correct: false, explanation: 'Heat direction governs temperature shifts, not pressure ones.', misconception: 'factors crossed' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Catalysts and dynamic equilibrium',
+      sourceHeadings: ['The effect of catalysts on equilibrium'],
+      specRefs: ['4CH1-3.21C'],
+      opening: 'A catalyst speeds reactions, so surely it should push the balance towards products. It does not, and the reason is elegant: it speeds both directions equally. This lesson proves that on the rate graph.',
+      keyPoints: [
+        'Catalysts leave the equilibrium position exactly where it was.',
+        'A catalyst increases the rate at which equilibrium is reached.',
+        'Forward and backward rates rise together, each sped up equally.',
+        'The concentrations of reactants and products at equilibrium are the same with or without a catalyst.',
+        'On a rate graph the catalysed run flattens sooner but at the identical final level.',
+      ],
+      depthLayers: {
+        low: {
+          restatement: 'A catalyst helps both directions equally, so the balance point never moves; it is simply reached sooner. The final mixture is exactly the same, only faster in arriving.',
+          analogy: 'It is like two escalators running at double speed in opposite directions: everyone moves faster, but the crowds on each floor end up the same.',
+          examPointer: 'Say faster equilibrium, same position, whenever a question pairs catalysts with equilibrium.',
+        },
+        medium: {
+          restatement: 'Because the catalyst lowers the barrier for both directions by the same amount, the forward and backward rates rise together and the position of equilibrium is unchanged. The equilibrium concentrations therefore match the uncatalysed case, with equilibrium simply arriving earlier.',
+          analogy: 'Two queues served by faster tills shorten at the same pace, so the split of shoppers between them never changes.',
+          examPointer: 'Explain the unchanged position through equal speeding of both directions, then read the flattening graph.',
+        },
+      },
+      check: [
+        {
+          stem: 'What effect does a catalyst have on the position of equilibrium?',
+          misconceptionClass: 'invariance recall',
+          options: [
+            { key: 'A', text: 'None: the position is unchanged', correct: true, explanation: 'Catalysts speed arrival at equilibrium without moving it.', misconception: null },
+            { key: 'B', text: 'It shifts the position to the right', correct: false, explanation: 'That would require favouring the forward direction, which catalysts never do.', misconception: 'right-shift myth' },
+            { key: 'C', text: 'It shifts the position to the left', correct: false, explanation: 'No direction is favoured.', misconception: 'left-shift myth' },
+            { key: 'D', text: 'It depends on which catalyst is used', correct: false, explanation: 'Every catalyst behaves the same way here.', misconception: 'selection myth' },
+          ],
+        },
+        {
+          stem: 'Why does a catalyst fail to move the equilibrium position?',
+          misconceptionClass: 'mechanism reasoning',
+          options: [
+            { key: 'A', text: 'It increases the rate of both the forward and backward reactions by the same amount', correct: true, explanation: 'Equal speeding leaves the balance between the two untouched.', misconception: null },
+            { key: 'B', text: 'It is too small an amount to matter', correct: false, explanation: 'Amount is irrelevant to the symmetry of the effect.', misconception: 'amount myth' },
+            { key: 'C', text: 'It stops both reactions completely', correct: false, explanation: 'Catalysts speed reactions, never stop them.', misconception: 'inversion' },
+            { key: 'D', text: 'It only helps the reverse reaction', correct: false, explanation: 'Help is shared equally between directions.', misconception: 'asymmetry myth' },
+          ],
+        },
+        {
+          stem: 'What does a catalyst change about an equilibrium system?',
+          misconceptionClass: 'what changes',
+          options: [
+            { key: 'A', text: 'The time taken to reach equilibrium', correct: true, explanation: 'Faster arrival is the one change a catalyst delivers.', misconception: null },
+            { key: 'B', text: 'The final amount of product at equilibrium', correct: false, explanation: 'The equilibrium composition is identical either way.', misconception: 'yield myth' },
+            { key: 'C', text: 'The enthalpy change of the forward reaction', correct: false, explanation: 'Energy differences between levels are untouched.', misconception: 'enthalpy myth' },
+            { key: 'D', text: 'The colour of the final mixture', correct: false, explanation: 'The same final composition has the same colour.', misconception: 'colour myth' },
+          ],
+        },
+        {
+          stem: 'On a graph of product amount against time, how does the catalysed run compare with the uncatalysed one?',
+          misconceptionClass: 'graph reading',
+          options: [
+            { key: 'A', text: 'It flattens sooner but reaches the identical final level', correct: true, explanation: 'Faster approach with the same destination is the catalytic fingerprint.', misconception: null },
+            { key: 'B', text: 'It flattens later at a higher level', correct: false, explanation: 'Neither the timing nor the level changes that way.', misconception: 'shape inverted' },
+            { key: 'C', text: 'It never flattens', correct: false, explanation: 'Equilibrium is still reached, only sooner.', misconception: 'endless myth' },
+            { key: 'D', text: 'It starts from a higher point', correct: false, explanation: 'Both runs begin with no product.', misconception: 'start myth' },
+          ],
+        },
+        {
+          stem: 'Why is the equilibrium composition the same with and without a catalyst?',
+          misconceptionClass: 'deep reasoning',
+          options: [
+            { key: 'A', text: 'The same balance between forward and backward rates is restored once equilibrium returns', correct: true, explanation: 'Equilibrium composition depends on conditions, not on how quickly they are met.', misconception: null },
+            { key: 'B', text: 'Because catalysts remove the reverse reaction', correct: false, explanation: 'Both directions continue at equilibrium.', misconception: 'one-way myth' },
+            { key: 'C', text: 'Because catalysts change the temperature', correct: false, explanation: 'Catalysts are not heat sources.', misconception: 'temperature myth' },
+            { key: 'D', text: 'Because products destroy the catalyst', correct: false, explanation: 'Catalysts survive the reaction unchanged.', misconception: 'consumption myth' },
+          ],
+        },
+      ],
+    },
+  ],
+  glossary: [
+    { term: 'position of equilibrium', definition: 'The balance between reactants and products in a reversible reaction under given conditions.', firstLesson: 1 },
+    { term: 'shift to the right', definition: 'A change that favours the forward reaction and increases the amount of products.', firstLesson: 1 },
+    { term: 'shift to the left', definition: 'A change that favours the reverse reaction and increases the amount of reactants.', firstLesson: 1 },
+    { term: 'dynamic equilibrium', definition: 'The state in which forward and reverse reactions continue at equal rates with no net change.', firstLesson: 3 },
+    { term: 'concentration', definition: 'The amount of a substance in a given volume, whose equilibrium value a catalyst cannot alter.', firstLesson: 3 },
+  ],
+  workedExample: null,
+});
