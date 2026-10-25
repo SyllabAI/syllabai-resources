@@ -1,0 +1,169 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T22:41:57Z",
+ "series": "2019-01",
+ "paper": "01R",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/01R; series=2019-01; printed='January 2019; January 2019'; sha256 qp/ms match manifest: True; manifest variant '01R' == requested '01R': True",
+   "details": {
+    "qp_sha256": "46d9fc614ed41b1c0b6346c59a906dc172f1421f40c29cb84d68c99c43938029",
+    "ms_sha256": "0b0a70696f01889d7f851225b3171623ec49fc71177475ef378d9c092ff6b2bf",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/01R"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "28 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": 28
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 36 parts (0 disclosed, 36 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "4 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 3 remain crop-required; 12 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 12,
+    "crop_stats": {
+     "crops": 1,
+     "pending": 3,
+     "shared": 1
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 32/37 (86%)",
+   "details": {
+    "unmatched": [
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 37 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 32/32 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 4 parts, agrees with QP marks on 0",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 4,
+    "ms_marks_agree": 0,
+    "ms_marks_disagree": [
+     "6 (ms=7 qp=2)",
+     "16 (ms=1 qp=4)",
+     "17 (ms=20 qp=4)",
+     "25 (ms=19 qp=5)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "27"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "17",
+   "reason": "figure crop required (diagram, page 11)"
+  },
+  {
+   "part": "22",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "27",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "7",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "8",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "9",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "ocr_pages": [
+  {
+   "page": 11,
+   "sha256": "313ad360c27336b229f904a7a15733d7d2c379f4bb9b81664ba9ea72e9df72c8",
+   "tesseract_draft_chars": 429
+  }
+ ],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 37,
+  "pending_llm": 37,
+  "no_spec_point": 0
+ }
+}

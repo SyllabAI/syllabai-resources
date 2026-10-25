@@ -1,0 +1,161 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T22:41:58Z",
+ "series": "2019-01",
+ "paper": "02",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/02; series=2019-01; printed='January 2019; January 2019'; sha256 qp/ms match manifest: True; manifest variant '02' == requested '02': True",
+   "details": {
+    "qp_sha256": "c17befeaaecf9d1cc205828e9f2e09077222903ba94f016b3d3dd0e70a246ade",
+    "ms_sha256": "759d1446e2c786a9a90269f20f56204abe8e439dc921fe0dea44d4a2f6942f7b",
+    "registry_paper_id": "pearson-edexcel:international-gcse:mathematics-b:4mb1:2019-01:4MB1/02"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "12 questions; Σ question totals=100/100; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": 12
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 34 parts (0 disclosed, 34 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "12 asset records cover every table/diagram/grid/apparatus mention: 6 cropped to assets/*.png (150 dpi), 1 remain crop-required; 5 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 5,
+    "crop_stats": {
+     "crops": 6,
+     "pending": 1,
+     "shared": 5
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "PASS",
+   "summary": "MS linkage 35/36 (97%)",
+   "details": {
+    "unmatched": [
+     "11(e)"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (0 codes) or documented gaps→review; 36 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 35/35 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 3 parts, agrees with QP marks on 1",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 3,
+    "ms_marks_agree": 1,
+    "ms_marks_disagree": [
+     "6(a) (ms=17 qp=3)",
+     "12(c) (ms=2 qp=5)"
+    ]
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "11(e)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "6(b)(ii)",
+   "reason": "F82: no glue candidate in text layer (vector-drawn or absent marker; F82b patch path)"
+  },
+  {
+   "part": "1",
+   "reason": "figure crop emitted — human verify (assets/asset_1_diagram.png)"
+  },
+  {
+   "part": "5(a)",
+   "reason": "figure crop emitted — human verify (assets/asset_5_a_graph.png)"
+  },
+  {
+   "part": "6(a)",
+   "reason": "figure crop emitted — human verify (assets/asset_6_a_diagram.png)"
+  },
+  {
+   "part": "9(a)",
+   "reason": "figure crop emitted — human verify (assets/asset_9_a_grid.png)"
+  },
+  {
+   "part": "11(d)",
+   "reason": "figure crop emitted — human verify (assets/asset_11_d_table.png)"
+  },
+  {
+   "part": "11(e)",
+   "reason": "figure crop emitted — human verify (assets/asset_11_e_grid.png)"
+  },
+  {
+   "part": "12(b)",
+   "reason": "figure crop required (diagram, page None)"
+  },
+  {
+   "part": "11(e)",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 36,
+  "pending_llm": 36,
+  "no_spec_point": 0
+ }
+}
