@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """SIB evidence-claim QA — every citation must resolve to the artifact's own evidence
-pack (r2, BL-008 pass 3).
+pack (r3, BL-008 pass 5).
+
+r3 (BL-008 pass 5, ASM/MS/EXM wave — md-range locator grammar):
+  * MD RANGE LOCATORS: the pack's markdown excerpts carry range locators
+    `lines N-M` (evidence_pack.py _md_locate), but r2 only indexed JSONL `line N `
+    locators — an artifact citing a markdown range could never resolve (fail-closed
+    dead end). r3 indexes range locators by expanding N..M, and expands `lines N-M`
+    page-specs in citations to the same closed range. The mark-scheme-intelligence
+    family (primary = SRC-QPMS-* markdown) is ungroundable without this; no rule is
+    loosened — every requested line must still exist as a covered excerpt line.
 
 r2 (BL-008 pass 3, EXP wave):
   * FAMILY-GENERAL record blocks: `### <FAM>-NNN —` any family prefix (r1 was
@@ -22,8 +31,9 @@ pass-4 receipts):
 Citation grammar checked (inside parentheses):
   (SRC-<ID>, identity)                      — source must exist in the pack (any role)
   (SRC-<ID>, <path-suffix> <page-spec>)     — path must suffix-match a pack file of that
-                                              source; every page (pN/ppN-M) or JSONL line
-                                              (line N) in <page-spec> must have a matching
+                                              source; every page (pN/ppN-M), JSONL line
+                                              (line N), or markdown line range (lines N-M,
+                                              r3) in <page-spec> must have a matching
                                               excerpt in that file
   (census.json, <dotted.path>)              — path must resolve inside the run census annex
 
@@ -45,6 +55,7 @@ from pathlib import Path
 _CITE_RE = re.compile(r"\((SRC-[A-Z0-9][A-Z0-9-]*|census\.json)\s*,\s*([^)]+)\)")
 _PAGE_RE = re.compile(r"p{1,2}\s*(\d+)")
 _LINE_RE = re.compile(r"lines?\s*(\d+)")
+_RANGE_RE = re.compile(r"lines?\s*(\d+)\s*-\s*(\d+)")  # r3: markdown range locators
 _PATH_RE = re.compile(r"^[^,]+?\.(?:pdf|md|yaml|yml|json|jsonl|txt)$")
 
 
@@ -74,13 +85,24 @@ def check_artifact(aid: str, text: str, pack: dict, census: dict) -> dict:
         for f in s.get("files", []):
             pages = {int(m.group(1)): e.get("text", "") for e in f.get("excerpts", [])
                      for m in [re.match(r"page (\d+)$", e.get("locator", ""))] if m}
-            lines = {int(m.group(1)): e.get("text", "") for e in f.get("excerpts", [])
-                     for m in [re.match(r"line (\d+) ", e.get("locator", ""))] if m}
+            lines: dict[int, str] = {}
+            for e in f.get("excerpts", []):
+                m1 = re.match(r"line (\d+) ", e.get("locator", ""))
+                if m1:
+                    lines[int(m1.group(1))] = e.get("text", "")
+                    continue
+                mr = re.match(r"lines (\d+)-(\d+)$", e.get("locator", ""))
+                if mr:  # r3: markdown range locator -> every covered line resolves
+                    for n in range(int(mr.group(1)), int(mr.group(2)) + 1):
+                        lines[n] = e.get("text", "")
             pack_files.setdefault(sid, {})[f["path"]] = {"pages": pages, "lines": lines}
 
     def parse_citation(target: str, payload: str) -> tuple[str | None, set | None]:
         """Returns (matched_pack_path|None|'identity', locator keys|None).
         Keys are (kind, n) with kind in {"page", "line"}. Appends violations."""
+        # r3: markdown hard-wraps citations across lines; normalize payload
+        # whitespace BEFORE parsing so locators are never truncated mid-spec.
+        payload = re.sub(r"\s+", " ", payload).strip()
         if _norm(payload) == "identity":
             return "identity", None
         pm = re.match(r"(.+?\.(?:pdf|md|yaml|yml|jsonl|json|txt))\s*(.*)", payload)
@@ -98,6 +120,8 @@ def check_artifact(aid: str, text: str, pack: dict, census: dict) -> dict:
             return None, None
         page_ns = {int(x) for x in _PAGE_RE.findall(page_spec)}
         line_ns = {int(x) for x in _LINE_RE.findall(page_spec)}
+        for a, b in _RANGE_RE.findall(page_spec):  # r3: lines N-M -> closed range
+            line_ns.update(range(int(a), int(b) + 1))
         keys = {("page", n) for n in page_ns} | {("line", n) for n in line_ns}
         if not keys:
             violations.append(f"{aid}: no page/line parsed from '{page_spec}' (fail-closed): ({target}, {payload})")
@@ -185,16 +209,20 @@ def pack_excerpt_texts(pack: dict, path: str) -> dict[str, dict[int, str]]:
                 for e in f.get("excerpts", []):
                     mp = re.match(r"page (\d+)$", e.get("locator", ""))
                     ml = re.match(r"line (\d+) ", e.get("locator", ""))
+                    mr = re.match(r"lines (\d+)-(\d+)$", e.get("locator", ""))
                     if mp:
                         out["pages"][int(mp.group(1))] = e.get("text", "")
                     elif ml:
                         out["lines"][int(ml.group(1))] = e.get("text", "")
+                    elif mr:  # r3: md range -> covered lines bind to the excerpt
+                        for n in range(int(mr.group(1)), int(mr.group(2)) + 1):
+                            out["lines"][n] = e.get("text", "")
                 return out
     return {}
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="SIB evidence-claim QA (r2, citation binding)")
+    ap = argparse.ArgumentParser(description="SIB evidence-claim QA (r3, citation binding)")
     ap.add_argument("--library", required=True)
     ap.add_argument("--run-dir", required=True)
     ap.add_argument("--artifacts", nargs="+", required=True)
@@ -212,12 +240,12 @@ def main() -> int:
         results.append(check_artifact(aid, text, pack, census))
 
     report = {
-        "schema": "sib-evidence-claim-qa/1.2",
-        "script": "SubjectIntelligence/pipeline/sib_evidence_claim_qa.py r2",
+        "schema": "sib-evidence-claim-qa/1.3",
+        "script": "SubjectIntelligence/pipeline/sib_evidence_claim_qa.py r3",
         "law": "every (SRC-*, locator) resolves to the artifact's own pack; every "
                "(census.json, path) resolves to the run census annex; quoted fragments "
-               "bind to the cited excerpts (r1); page or JSONL-line locators verified "
-               "against pack excerpts (r2); unparseable citations fail closed",
+               "bind to the cited excerpts (r1); page, JSONL-line, and markdown-range "
+               "locators verified against pack excerpts (r3); unparseable citations fail closed",
         "artifacts": results,
         "totals": {"citations_checked": sum(r["citations_checked"] for r in results),
                    "violations": sum(r["violation_count"] for r in results)},
