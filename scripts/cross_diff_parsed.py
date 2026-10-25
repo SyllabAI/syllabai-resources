@@ -5,10 +5,15 @@ Independent parse agreement — the strongest correctness evidence available:
 two different parsers over the same PDF must agree on every part mark.
 
 Usage: python3 cross_diff_parsed.py [--paper P] [series ...]   (default: all series that have a parsed layer)
-Expects: $EXAMQ_UPLOAD_DIR (default /home/z/my-project/upload)/parsed-{S}-questions.json
-         and <checkout>/Official-ExamQuestion/igcse-chemistry-19/{S}/4CH1-{paper}/topic.json
-F34: --paper selects the variant (default 1C). The repo parsed/ layer exists for
-1C dirs only today, so 2C runs SKIP honestly (no independent parse to diff against).
+Expects: $EXAMQ_UPLOAD_DIR (default /home/z/my-project/upload)/parsed-{S}-questions.json for 1C
+         and parsed-{paper}-{S}-questions.json for the other variants,
+         plus <checkout>/Official-ExamQuestion/igcse-chemistry-19/{S}/4CH1-{paper}/topic.json
+F34: --paper selects the variant (default 1C). Wave-26: the repo parsed/ layer now
+also covers all 16 2C sittings (pastpapers PR #3: 12 new + 2 regenerated verified,
+alongside the pre-existing 2024-06/2026-06), so --paper 2C runs end-to-end;
+non-1C parsed files are namespaced parsed-{paper}-{S}-questions.json to keep the
+variants from clobbering each other in the shared upload dir. 2CR still SKIPs
+honestly (no 2CR parsed layer yet).
 Writes:  <checkout>/Official-ExamQuestion/CROSS-DIFF.json  (always inside the checkout; F15)
 """
 import json
@@ -21,14 +26,18 @@ BASE = Path(__file__).resolve().parent.parent / "Official-ExamQuestion"
 IGCSE = BASE / "igcse-chemistry-19"
 
 HAVE_PARSED = ["2024-06", "2025-06", "2026-06"]
+HAVE_PARSED_2C = ["2019-06", "2020-01", "2020-11", "2021-01", "2021-06", "2021-11",
+                  "2022-01", "2022-06", "2023-01", "2023-06", "2023-11", "2024-06",
+                  "2024-11", "2025-06", "2025-11", "2026-06"]
 _args = [a for a in sys.argv[1:] if not a.startswith("--") and not a in ("1C", "2C")]
 PAPER = "2C" if ("--paper" in sys.argv and sys.argv.index("--paper") + 1 < len(sys.argv)
                  and sys.argv[sys.argv.index("--paper") + 1] == "2C") else "1C"
-series = _args or HAVE_PARSED
+series = _args or (HAVE_PARSED_2C if PAPER == "2C" else HAVE_PARSED)
 
 out = {"schema": "syllabai.official-paper-questions.cross-diff/0.1", "paper": PAPER, "series": []}
 for S in series:
-    pf = UPLOAD / f"parsed-{S}-questions.json"
+    stem = f"parsed-{S}" if PAPER == "1C" else f"parsed-{PAPER}-{S}"
+    pf = UPLOAD / f"{stem}-questions.json"
     tf = IGCSE / S / f"4CH1-{PAPER}" / "topic.json"
     if not pf.exists() or not tf.exists():
         print(f"{S}: SKIP (missing {'parsed' if not pf.exists() else 'topic.json'})")

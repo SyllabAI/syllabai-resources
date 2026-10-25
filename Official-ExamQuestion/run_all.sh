@@ -157,6 +157,19 @@ done
 python3 "$RES/scripts/cross_diff_parsed.py" --paper 1C
 battery_end $? || { finish_receipt; exit 1; }
 
+battery_begin "cross-diff-2C"
+# 2C independent-parse cross-diff (wave-26): the repo's 2C parsed layer covers all
+# 16 sittings (pastpapers PR #3 + the pre-existing 2024-06/2026-06). Files are
+# namespaced parsed-2C-$S-questions.json so they cannot clobber the 1C layer.
+for S in 2019-06 2020-01 2020-11 2021-01 2021-06 2021-11 2022-01 2022-06 2023-01 \
+         2023-06 2023-11 2024-06 2024-11 2025-06 2025-11 2026-06; do
+  [ -s "$UP/parsed-2C-$S-questions.json" ] || \
+    curl -s -L ${GHTOKEN:+-H "Authorization: token $GHTOKEN"} \
+      "$BASEURL/$S/4CH1-2C/parsed/questions.json" -o "$UP/parsed-2C-$S-questions.json"
+done
+python3 "$RES/scripts/cross_diff_parsed.py" --paper 2C
+battery_end $? || { finish_receipt; exit 1; }
+
 battery_begin "aggregate-report"
 python3 "$RES/scripts/make_multiseries_report.py"
 battery_end $? || { finish_receipt; exit 1; }
