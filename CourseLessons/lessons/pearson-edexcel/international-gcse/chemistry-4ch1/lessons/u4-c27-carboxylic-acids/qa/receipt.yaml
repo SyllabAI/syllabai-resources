@@ -1,0 +1,92 @@
+stage: S4
+date: "2026-10-26"
+agent: "T-BOOK-060 r0 (session web-c414c074 chat 08b3170a, trace 1a1751c58a79c659)"
+prompt_version: "lesson-prose@2.0.0"
+lint: "PASS"
+trace_id: "1a1751c58a79c659"
+summary: >-
+  u4:c27 Carboxylic acids authored end-to-end S4 7/7 under lesson-prose@2.0.0
+  standalone voice (r0, no retrofit debt; the sixth Unit-4 chapter — operator
+  lane order "go: c27", trace 1a1751c58a79c659; standing merge+flip trace
+  1a1658a2da08e5bd). State reconciliation first: production lessons-index 26/26
+  packs u1-c01…u4-c26 (c26 published by T-BOOK-059); remote resources main
+  11205d6c (c26 flip of record) and v2 main d94cfe3e (c26 bake of record)
+  verified unchanged at lane start; gate N re-derived = 27 for this lane.
+  join_set DERIVED at S0-L0 from the printed objectives box (chunk 1143 — all
+  FOUR bullets present but interleaved with the chapter intro prose by the
+  parse, the c26 glue class with no missing point; the LO box prints
+  TWO-COLUMN and the parse linearized it mid-list) x spine node
+  igcse-chemistry-T4:SUBf = 4.34C-4.37C ALL CHEMISTRY-ONLY 0+4 (papers [2C]
+  only, double_award_shared false) — the SECOND consecutive all-C pack after
+  c26 and the sixth overall (f-0015 sibling audit run SUBSTANTIVELY: c22-c25
+  ALL-CORE, c26 ALL-C 0+5, c27 ALL-C 0+4; the mixed-shape ledger has no
+  drift). chem_only: true (spine applicability governs; the printed CHEMISTRY
+  ONLY banner sits ABOVE the chapter heading on p293 and END OF CHEMISTRY
+  ONLY closes p296 — whole-chapter block; BOTH banner lines are parse-absent,
+  the f-0027 class applied to both ends of the block).
+  DISCLOSED f-0016 cover (spine-canonical pin, spine node igcse-chemistry-T4:SUBf):
+  the 4.34C spine title ends at "the functional group" with the group
+  identity carried by the spec DRAWING (the carboxyl group -COOH) — taught in
+  s01/s02 prose; the chunk renders the group garbled as "-CoOH" — l/I glyph
+  class repaired to -COOH throughout.
+  Raw map verified byte-equal against a fresh section_map.py derivation BEFORE
+  refinement (5 sections, pages [293,295]; parse sha b2c67eaf re-verified at
+  lane start), then refined raw 5 -> authored 7 with receipt-disclosed
+  re-homings mirroring the PRINTED book order: 1144/1145 raw-s01 -> s02 (HINT
+  + KEY POINT print p294 beside the drawing section); 1146 home s02 by bulk
+  (DRAWING AND NAMING heading + Table 27.1 intro tail; the REACTION WITH
+  METALS marginal arrow-banner head + photo caption taught s04 — the parse
+  read the left margin first, c24 reading-order precedent); 1150 home s04 by
+  bulk (ACID PROPERTIES heading + weak-acid head taught s03); 1151 home s04
+  (glued CHAPTER QUESTIONS banner is p295 furniture, stripped — the bank
+  prints p295-296); 1153 home s05 by bulk (EXTENSION weak/strong box; the
+  REACTION WITH CARBONATES marginal arrow-banner mid taught s06 — SECOND
+  printed banner DROPPED by the parse, promoted to authored s06 like c26
+  ETHANOL BURNS IN AIR; Q1 tail taught s07); 1154/1155/1156 -> s07 (questions
+  close, c11-c26 precedent). s03 + s06 are authored:true sections taught from
+  disclosed head/mid splits (no census home of their own).
+  Absent-slot audit: slots 1142..1156 = 15 with 1147 ABSENT — the
+  image-rendered p294 figure zone (Fig 27.3 photograph per position between
+  the banner/caption chunk 1146 and Table 27.1 chunk 1148; page OCR of the
+  full page shows no further uncaptured text object in that zone) — taught in
+  words, figure-slot law. NO absent-equation restores needed (1147 is a
+  photograph, not an equation object — first chapter since the f-0026 recipe
+  existed with no image equation to restore).
+  THREE equations of record carried with in-chunk repairs (print-verified at
+  300 dpi; the f-0028 identity gate ran before every crop: pdfinfo Pages ==
+  383 AND sha256 d48020e0): Mg(s) + 2CH3COOH(aq) -> (CH3COO)2Mg(aq) + H2(g)
+  (chunk garbles "2CH3COH" and "(CH3CO)2Mg" repaired per the printed equation
+  and the Zn/Ca analogues); Na2CO3(s) + 2CH3COOH(aq) -> 2CH3COONa(aq) +
+  CO2(g) + H2O(l) and 2CH3COOH(aq) + CaCO3(s) -> (CH3COO)2Ca(aq) + CO2(g) +
+  H2O(l) (flat-digit subscripts repaired); all three atom-balanced; zinc
+  ethanoate (CH3COO)2Zn and the ethanoate-ion structure taught in words.
+  The extension ratio "About 1 in ~75" is PRINT-TRUE (parse + OCR + 300-dpi
+  crop all agree) — taught as "about 1 in every 75".
+  f-0017 print-ref strips -> in-product pointers: Chapter 26 pages 289-290
+  oxidation reminder -> u4:c26 Sections 4-5; metals-react-with-acids rule ->
+  u2:c14/u2:c16; carbonates-react-with-acids rule -> u2:c16; no Figure/Table/
+  page deflection in student prose (figure slots x4 taught in words: the
+  nettle photo, the functional-group drawing, the magnesium-reaction photo,
+  the ethanoate-ion structure; the four-acids table taught as content).
+  Safety: the f-0029 recipe APPLIED (all four experiment-bearing pages
+  p293-296 OCR-checked) — NO printed safety panel exists in this chapter and
+  0 safety census chunks: honest absence, disclosed.
+  Questions bank: FOUR printed questions (Q1 draw/name; Q2 functional-group
+  tick-table with skill chips; Q3 propan-1-ol oxidation cross-chapter
+  callback to the alcohols — displayed product, colour change, apparatus
+  hazard, then Mg + sodium carbonate tests of the product; Q4 vinegar +
+  sodium hydrogencarbonate balance frame) — page-jump-only per the licensing
+  law, shapes taught not text; the glued CHAPTER QUESTIONS heading in 1151
+  and the Q1-text tail in 1153 are the parse scrambling the bank assembly.
+  Voice audit 0 hits across 7 sections. Boxes: exam-hint + misconception +
+  quick-check x7 (every section); key-point x3 (s02 naming census-true 1145;
+  s04 charge-arithmetic authored; s06 two-proton arithmetic authored —
+  disclosed); did-you-know x2 (s01 nettles authored; s02 acetic-name
+  authored); prior-knowledge x1 s01; cross-curricular x1 s01 (vinegar
+  preservation history-economics frame; V5 cross-curricular law satisfied);
+  summary + can-you in s07; worked-example + maths-skills + safety honestly
+  absent (0 census chunks of those types; the charge arithmetic carried in
+  s04/s06 prose and key-points). Chip convergence pass: per-section body
+  chip-set == front-matter list everywhere (S0.23). Glossary 21 entries,
+  full ms layer (ms_accepts + ms_avoids + chunkRef source). verifier
+  verify_c27_s0.py committed in-repo (f-0023 law) with ALL GREEN at emit time.
