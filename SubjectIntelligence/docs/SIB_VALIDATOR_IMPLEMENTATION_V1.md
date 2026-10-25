@@ -3,15 +3,15 @@
 **Tooling status:** IMPLEMENTED (this document, `tools/sib/`)
 **SIB architecture status:** PROPOSED — unchanged by this work
 **Implements:** `docs/research/SUBJECT_INTELLIGENCE_BUILD_V1.md` + `docs/research/SIB_ARTIFACT_SCHEMA_V1.md` (both on `main` as of 2026-10-01, landed via PR #13)
-**Implements NOT:** artifact generation, NotebookLM integration, Subject Tutor retrieval, canonical-KG/mastery/assessment changes.
+**Implements NOT:** artifact generation, generation-provider integrations (SIB-GEN run pipeline or legacy NotebookLM), Subject Tutor retrieval, canonical-KG/mastery/assessment changes.
 
 ---
 
 ## 1. What this is
 
-The deterministic landing zone and validation boundary that NotebookLM-generated
-SIB artifacts will use when the 4CH1 Subject Intelligence Library is eventually
-built. It validates, it never mutates canonical truth, and it never promotes
+The deterministic landing zone and validation boundary that SIB-generated
+(provider-neutral: zai_agent runs per the SIB-GEN program; legacy NotebookLM drops)
+artifacts use. It validates, it never mutates canonical truth, and it never promotes
 research into educational correctness:
 
 > Validation is evidence that structural requirements are satisfied; it is not
@@ -20,7 +20,7 @@ research into educational correctness:
 Pipeline boundary implemented:
 
 ```text
-NotebookLM / external research
+SIB generation providers (zai_agent run pipeline / legacy NotebookLM / external research)
     -> SIB Markdown artifacts        artifacts/   (landing zone; status GENERATED)
     -> artifact parser               tools/sib/frontmatter.py
     -> schema validation             tools/sib/artifact_validator.py
@@ -38,7 +38,7 @@ NotebookLM / external research
 | `manifest.yaml` | subject inventory: applicability, status, gaps, backlog | operator |
 | `source_manifest.yaml` | operator source-provenance declarations (id list) | operator |
 | `curriculum_registry.yaml` | OPTIONAL pinned spec-point id list (e.g. from `syllabai-resources` `graph/specification_points.yaml`) for anchor resolution | operator |
-| `artifacts/` | landing zone — NotebookLM output arrives here as GENERATED | operator drop |
+| `artifacts/` | landing zone — SIB generation output arrives here as GENERATED | operator drop |
 | `qa-reports/` | deterministic QA JSON per artifact | `sib qa` |
 | `staged/` | QA-passed, awaiting publication decision | `sib stage` |
 | `published/` | published research library | `sib publish` |
@@ -68,10 +68,14 @@ All writes are confined to the library root (path traversal raises
   CURRENT — AUTHORITATIVE / LEGACY — HISTORICAL labeling (`-004`),
   source-basis requirement (`SIB-SRC-001`). Current and legacy claims are
   never merged; contradictions are flagged, not resolved.
-* **Provenance:** `provenance.notebook` / `provenance.source_manifest`
-  concrete-reference checks (`SIB-PROV-001`, template placeholders rejected),
-  optional cross-check against `source_manifest.yaml` (`SIB-PROV-002`);
-  incomplete provenance is `QA_FAILED` with a machine-readable reason.
+* **Provenance:** one-of shapes — v1 notebook-shape (`provenance.notebook` /
+  `provenance.source_manifest`) or v2 generator-shape (`provenance.source_manifest` /
+  `provenance.generation_run_id` / `provenance.generator{provider, model,
+  agent_version}` + optional `source_revisions` git-sha map; see
+  `SIB_ARTIFACT_SCHEMA_V2.md` §3) — concrete-reference checks (`SIB-PROV-001`,
+  template placeholders rejected), optional cross-check against
+  `source_manifest.yaml` (`SIB-PROV-002`); incomplete provenance is `QA_FAILED`
+  with a machine-readable reason.
   The validator never invents source identifiers.
 * **Curriculum anchors:** shape validation
   (`1.1`–`99.999.99` Edexcel-numbered style; malformed dotted tokens inside
@@ -178,7 +182,7 @@ sorted-key and byte-stable for identical input.
    bullets and the newer main-side corrections.
 3. **Landing-status rule — RESOLVED (PROPOSED/DEFINED), no longer a
    divergence.** The schema was previously silent on which status a landing
-   artifact file may declare; the protocol ("NotebookLM-generated output
+   artifact file may declare; the protocol ("SIB-generated output
    begins as GENERATED") is implemented as: landing artifacts must declare
    `GENERATED` (or `QA_FAILED`); `QA_PASSED/STAGED/PUBLISHED` in the landing
    zone is `ERROR SIB-STATUS-003`. Staging tooling rewrites status when

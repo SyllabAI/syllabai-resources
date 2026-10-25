@@ -1,0 +1,192 @@
+# SIB evidence policy — per-family evidence law (machine-readable)
+#
+# Policy version r0 (2026-10-25, SIB-GEN program).
+# Applies to ALL courses / libraries. Source ids are matched by PREFIX against each
+# library's source_manifest.yaml ids (e.g. "SRC-SPEC-*" matches SRC-SPEC-4CH1), so
+# this file generalizes across courses while each library's manifest instantiates it.
+#
+# Law:
+#   * primary     — the evidence classes a family's claims MUST be grounded on.
+#                   A run whose artifact's evidence pack lacks every primary class
+#                   fails preflight for that artifact.
+#   * supplementary — permitted texture; never sufficient alone for official-identity
+#                   claims; must stay labeled SUPPLEMENTARY.
+#   * legacy      — LEGACY — HISTORICAL sources permitted for this family, only for
+#                   explicitly labeled legacy claims.
+#   * forbidden   — evidence substitutions that are NEVER permitted (fail-closed).
+#
+# The feeds_families declarations of each library's source_manifest.yaml are the
+# operator's own per-course instantiation of this policy; conflicts resolve to the
+# STRICTER rule.
+
+policy_version: "r0"
+program: "SIB-GEN"
+date: "2026-10-25"
+
+global_forbidden:
+  - "examiner sentiment synthesized from mark schemes (MS is not ER)"
+  - "legacy claims grounded on anything but LEGACY — HISTORICAL sources"
+  - "artifact grounding on un-adjudicated root book copies (SRC-ROOT-BOOK-COPIES-*)"
+  - "any claim invented to fill a source gap (source_gaps stay disclosed, never filled)"
+  - "specimen/SAM material cited as live-session evidence (SRC-SAMS-* identity law)"
+  - "canonical-plane data (SpecPoints/KG/mastery/assessment identity) rewritten by this pipeline — read-only, anchors only"
+
+families:
+  CUR:
+    title: Curriculum Intelligence
+    primary:
+      - "SRC-SPEC-*"
+      - "SRC-GRAPH-*"
+      - "SRC-TL-*"
+    supplementary:
+      - "SRC-SAMS-*"
+      - "SRC-BOOK-*"
+      - "SRC-SPECLINKS-*"
+      - "SRC-SME-NOTES-*"
+    legacy:
+      - "SRC-LEGACY-SPEC-*"
+    forbidden:
+      - "legacy specification wording presented as CURRENT curriculum truth"
+
+  EXP:
+    title: Explanation Intelligence
+    primary:
+      - "SRC-SPEC-*"
+      - "SRC-BOOK-*"
+    supplementary:
+      - "SRC-TL-*"
+      - "SRC-SME-NOTES-*"
+      - "SRC-SME-EXAMQ-*"
+    legacy: []
+    forbidden:
+      - "explanations contradicting the specification's own definitions"
+
+  MIS:
+    title: Misconception & Error Intelligence
+    primary:
+      - "SRC-ER-*"
+      - "SRC-QPMS-*"
+    supplementary:
+      - "SRC-TL-*"
+      - "SRC-SME-EXAMQ-*"
+      - "SRC-BOOK-*"
+      - "SRC-SME-NOTES-*"
+    legacy:
+      - "SRC-ER-*-LEGACY"
+    forbidden:
+      - "examiner sentiment synthesized from mark schemes"
+      - "legacy ER sentiment presented as current-cohort evidence"
+
+  ASM:
+    title: Assessment Intelligence
+    primary:
+      - "SRC-SPEC-*"
+      - "SRC-QPMS-*"
+      - "SRC-SAMS-*"
+    supplementary:
+      - "SRC-TL-*"
+      - "SRC-SME-EXAMQ-*"
+    legacy: []
+    forbidden:
+      - "topic-bank grains treated as official paper identity"
+
+  MS:
+    title: Mark Scheme Intelligence
+    primary:
+      - "SRC-QPMS-*"
+    supplementary:
+      - "SRC-ER-*"
+      - "SRC-TL-*"
+    legacy: []
+    forbidden:
+      - "mark-point inventiveness beyond the parsed mark scheme text"
+      - "canonical mark_points plane writes (read-only planes)"
+
+  EXM:
+    title: Examiner Intelligence
+    primary:
+      - "SRC-ER-*"
+      - "SRC-QPMS-*"
+    supplementary:
+      - "SRC-SAMS-*"
+      - "SRC-TL-*"
+    legacy:
+      - "SRC-ER-*-LEGACY"
+    forbidden:
+      - "examiner quotes without paper/session identity"
+
+  PED:
+    title: Learning & Pedagogy Intelligence
+    primary:
+      - "SRC-TL-*"
+      - "SRC-BOOK-*"
+    supplementary:
+      - "SRC-ER-*"
+      - "SRC-SME-NOTES-*"
+      - "SRC-SPEC-*"
+    legacy: []
+    forbidden:
+      - "sequencing claims presented as the board's official scheme without SRC-TL-* citation"
+
+  PRA:
+    title: Practical / Procedural Intelligence
+    primary:
+      - "SRC-SPEC-*"
+      - "SRC-TL-*"
+    supplementary:
+      - "SRC-BOOK-*"
+      - "SRC-QPMS-*"
+    legacy: []
+    forbidden:
+      - "practical variants not traceable to the official practicals corpus"
+
+  PRO:
+    title: Problem-Solving Intelligence
+    primary:
+      - "SRC-SPEC-*"
+      - "SRC-QPMS-*"
+      - "SRC-TL-*"
+    supplementary:
+      - "SRC-BOOK-*"
+      - "SRC-SME-EXAMQ-*"
+    legacy: []
+    forbidden:
+      - "method mappings invented without worked-official-evidence basis"
+
+  HIS:
+    title: Historical / Longitudinal Intelligence
+    primary:
+      - "SRC-LEGACY-SPEC-*"
+      - "SRC-ER-*-LEGACY"
+      - "SRC-SPEC-*"
+    supplementary:
+      - "SRC-QPMS-*"
+    legacy:
+      - "SRC-LEGACY-SPEC-*"
+      - "SRC-ER-*-LEGACY"
+    forbidden:
+      - "legacy observations phrased as current curriculum truth (schema §6)"
+
+  TUT:
+    title: Tutor Intelligence
+    primary:
+      - "SRC-BOOK-*"
+      - "SRC-SPEC-*"
+    supplementary:
+      - "SRC-TL-*"
+      - "SRC-ER-*"
+      - "SRC-SME-NOTES-*"
+      - "SRC-SME-EXAMQ-*"
+    legacy: []
+    forbidden:
+      - "tutor guidance contradicting validated book/spine content"
+
+  GAP:
+    title: Gap Intelligence
+    primary:
+      - "SRC-SPEC-*"
+    supplementary:
+      - "*"
+    legacy: []
+    forbidden:
+      - "gaps closed by invention rather than disclosure"
