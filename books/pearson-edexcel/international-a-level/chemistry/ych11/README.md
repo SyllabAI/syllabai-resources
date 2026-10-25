@@ -2,8 +2,10 @@
 
 **Status:** SB1 **PARSED** (T-PARSE-YCH11-1, 2026-10-24: corpus v1 1571 chunks,
 validator ALL CHECKS PASSED; 291 blank display-equation regions recovered by
-verbatim manual transcription before chunking; LLM polish R1 partial at 48/800,
-quota-walled, resumable). SB2 = NOT SOURCED (follow-on lane, `ych2_v1_` law).
+verbatim manual transcription before chunking; LLM polish R1–R4 partial at
+130/800, quota-walled, resumable). SB2 = parsed in the sibling `ych12` lane
+(T-PARSE-YCH12-1, 2026-10-25; `ych2_v1_` law) — the NOT-SOURCED note above was
+drift from before that lane landed, repaired here.
 Scaffold per `books/README.md` §5 (copy of the `physics/yph11/` IAL lane).
 
 ## Books of this lane
@@ -20,7 +22,9 @@ Scaffold per `books/README.md` §5 (copy of the `physics/yph11/` IAL lane).
 - **sha256 (original of record):** `3d5348894f011e3fb8351f6c8badd691e1bbb2ea54d64eb306524dd0b20372eb`
 - **Quality:** Image-only print replica (one full-page image per page, ~150 DPI; zero text layer — 20/20 sampled pages 0 chars) → OCR route (the proven 4CH1/4PH1/YCH11-stack). Producer Skia/PDF m75, Chromium creator; fake per-page ActiveLearn OPS outline. Cover is CLEAN (no third-party "PDF COMPILED BY" mark — unlike the YPH11 siblings).
 - **Derivation note (disclosed):** the original exceeds GitHub's 100 MiB hard file limit, so the archive copy is a ghostscript `pdfwrite` derivative (color images resampled to 145 dpi Bicubic, DCTEncode, `-dPassThroughJPEGImages=false` per books/README.md L-022 — the flag without which /ebook is a no-op on JPEG pass-through). Pages unchanged (329); contents-page pixel MAE 1.17/255 vs the original; original retained at the provenance URL.
-- **Parse of record (T-PARSE-YCH11-1, 2026-10-24):** docling 2.33.0 + rapidocr-onnxruntime 1.4.4 OCR route (formula enrichment OFF — 2.33 emits empty formula text either way, YPH11 D-7/L-020), 329/329 pages checkpointed; page law `book = pdf − 13` confirmed 3 ways (roman = pdf−1 i–xiii; TOC openers; printed digits "27"/"309"/"311"); 2 units / 10 topics / 35 chapters (1A–10D), per-topic THINKING BIGGER + EXAM PRACTICE banks (10/10 anchored); corpus v1 = **1571 chunks** (`ych1_v1_`), validator ALL CHECKS PASSED; 291 empty formula regions + 4 fraction-mangled items recovered by verbatim manual transcription from 150 dpi renders (evidence `pipeline/evidence/manual_formulas_ych11.jsonl`, 295 records, 8 adjudicated slivers); LLM polish R1 partial (48/800, quota-walled, resumable; anchor diff 0 drift)
+- **Parse of record (T-PARSE-YCH11-1, 2026-10-24):** docling 2.33.0 + rapidocr-onnxruntime 1.4.4 OCR route (formula enrichment OFF — 2.33 emits empty formula text either way, YPH11 D-7/L-020), 329/329 pages checkpointed; page law `book = pdf − 13` confirmed 3 ways (roman = pdf−1 i–xiii; TOC openers; printed digits "27"/"309"/"311"); 2 units / 10 topics / 35 chapters (1A–10D), per-topic THINKING BIGGER + EXAM PRACTICE banks (10/10 anchored); corpus v1 = **1571 chunks** (`ych1_v1_`), validator ALL CHECKS PASSED; 291 empty formula regions + 4 fraction-mangled items recovered by verbatim manual transcription from 150 dpi renders (evidence `pipeline/evidence/manual_formulas_ych11.jsonl`, 295 records, 8 adjudicated slivers); LLM polish R1–R4 partial (130/800 — 152 records: 130 ok / 14 rejected /
+8 error-cum-429 — across six quota windows, quota-walled, resumable; anchor
+diff 0 drift; 0 Unicode regressions)
 - **Provenance:** https://www.taleem360.com/edexcel-international-a-level-chemistry-student-book-1-in-pdf-gfv (direct download link `?f=062fc8b2`, served 148,791,436 bytes to a Googlebot UA — the method of record from the YPH11 lane; this title was not reCAPTCHA-walled)
 
 ## Structure (probed 2026-10-24, production-confirmed at parse)

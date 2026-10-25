@@ -121,3 +121,40 @@ Stage Summary:
 - Polish parked at **90/800** (710 ids remain — todo is 710 because 10
   rejected ids are permanently skipped by the resume done-set; the "730"
   figure counted rejected as pending). Recipe unchanged.
+
+---
+Task ID: T-PARSE-YCH11-1-R4
+Agent: Z.ai (main, zai-web)
+Task: Polish continuation under the operator directive "Run polish after the
+firewall is lifted" (traces 1a1739e8ff0dc1e1 / 1a17520d1e2deda1). Sandbox
+reset between sessions: workspaces rebuilt from the repo recipe first.
+
+Work Log:
+- Post-reset bootstrap: fetched (origin had advanced to 11205d6c), pulled
+  ff-only, sparse-checkout extended with books/; both workspaces rebuilt
+  (pristine + FULL repairs merge) — rebuilt out/ byte-identical to landed
+  parsed/ (sha256 98d7f891…, third independent reproduction); validators green.
+- Wall pattern this session: LONG closures with brief (~30-120 s) openings.
+  Burst-harvest driver (probe 1x -> grind -> stop on 2x429 -> gap -> repeat):
+  ~10 windows, 40+ bursts. First opening harvested 4 OK in ~40 s.
+- INCIDENT (disclosed): the first protocol invocation ran the workspace
+  REBUILD (which re-copies repo evidence) after the harvest — clobbering the
+  then-accumulated records (134 ok) back to 90. ~34 ok records' repaired text
+  lost (ids recoverable from the log; grind re-attempts them naturally).
+  Fixed: post_grind_protocol.sh no longer re-copies evidence (backup +
+  reset + merge from the WORKSPACE records); rebuild gained a clobber guard.
+- Recovered grind continued after the fix; final protocol: merge from pristine
+  baseline — 1571 chunks, llm_repaired 130, text changed 129, anchor check
+  PASS (0 drift); audit: 0 Unicode-unit regressions; validate: ALL CHECKS
+  PASSED.
+- Landed: parsed/ corpus + parse_report + full_book_docling.md refreshed;
+  evidence/llm_repairs_ych11.jsonl now 152 records (130 ok / 14 rejected /
+  8 error-cum-429). Ledgers updated in the same commit (incl. the stale
+  "SB2 = NOT SOURCED" header drift repair — SB2 landed in the sibling lane
+  2026-10-25).
+
+Stage Summary:
+- Polish parked at **130/800** (done-set 144 -> todo 656 — rejected ids are
+  permanently skipped by the resume done-set; 8 error ids re-attempt on the
+  next run). Recipe unchanged: node llm_repair_ych11.js (burst-harvest while
+  the wall is bursty) -> post-grind protocol -> land.

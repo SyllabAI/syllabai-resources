@@ -11,7 +11,7 @@ landing is BLOCKED — the sandbox reset destroyed `docling_pages/`, the rebuilt
 320-page re-OCR failed the pre-declared re-chunk diff gate (33% chunk-id
 renumber, 68% shared-id text drift; suspected unpinned onnxruntime backend),
 so the landed v1 corpus stands byte-untouched; consumption needs a fresh-parse
-(v2) lane — see the rescue R2 README. LLM polish R1 at 74/800, quota-walled,
+(v2) lane — see the rescue R2 README. LLM polish R1 at 79/800, quota-walled,
 resumable). SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
@@ -30,7 +30,7 @@ resumable). SB1 = parsed in the sibling `ych11` lane. Scaffold per
 - **Original of record:** 162,939,218 B, sha256 `44af34a590914e81bac53b0fbdca92a742ce7c0b43cd6b85166a39be670ee748`, retained at the provenance URL
 - **Quality:** Image-only print replica (Acrobat 19.12 Image Conversion producer; zero text layer — 5/5 sampled pages 0 chars) → OCR route. Cover carries a third-party "PDF COMPILED BY SAAD" mark (same class as the YPH11 siblings; disclosed).
 - **Derivation note (disclosed):** the original exceeds GitHub's 100 MiB hard file limit, so the archive copy is a ghostscript `pdfwrite` derivative (/ebook, 145 dpi Bicubic, `-dPassThroughJPEGImages=false` per books/README.md L-022). Pages unchanged (320/320); derived in 9.7 s.
-- **Parse of record (T-PARSE-YCH12-1, 2026-10-25):** docling 2.33.0 + rapidocr-onnxruntime 1.4.4 OCR route (formula enrichment OFF — 2.33 emits empty formula text either way, YCH11 D-7/L-020), 320/320 pages checkpointed in 8 foreground windows (~9.2 s/page avg, index tail slower, 0 page errors, peak RSS 2.2 GB); page law `book = pdf − 12` confirmed 4 ways; 2 units / 10 topics / 19 lettered chapters (11A–20A); per-topic THINKING BIGGER (2pp) + EXAM PRACTICE (2pp) banks (10/10 anchored); corpus v1 = **1400 chunks** (`ych2_v1_`), validator ALL CHECKS PASSED; formula rescue partial (127 fills + 6 adjudicated of 315 orphans; 182 resumable); LLM polish R1 staged (800/1400, quota-walled, NOT started)
+- **Parse of record (T-PARSE-YCH12-1, 2026-10-25):** docling 2.33.0 + rapidocr-onnxruntime 1.4.4 OCR route (formula enrichment OFF — 2.33 emits empty formula text either way, YCH11 D-7/L-020), 320/320 pages checkpointed in 8 foreground windows (~9.2 s/page avg, index tail slower, 0 page errors, peak RSS 2.2 GB); page law `book = pdf − 12` confirmed 4 ways; 2 units / 10 topics / 19 lettered chapters (11A–20A); per-topic THINKING BIGGER (2pp) + EXAM PRACTICE (2pp) banks (10/10 anchored); corpus v1 = **1400 chunks** (`ych2_v1_`), validator ALL CHECKS PASSED; formula rescue partial (127 fills + 6 adjudicated of 315 orphans; 182 resumable); LLM polish R1 partial (79/800 of the staged ids, quota-walled, resumable)
 - **Provenance:** https://www.taleem360.com/edexcel-international-a-level-chemistry-student-book-2-in-pdf-kyc (direct download link `?f=a4c5a983`, served 162,939,218 bytes to a Googlebot UA — the method of record from the YCH11/YPH11 lanes; this title was not reCAPTCHA-walled)
 
 ## Structure (probed 2026-10-25, production-confirmed at parse)
@@ -55,6 +55,7 @@ v2 hub course ial-chemistry-17 · specKey
    byte-faithful; see the rescue R2 README). Consumption = a fresh-parse (v2)
    lane applying the full 315-record sidecar, OR a byte-faithful env
    reproduction (pin the onnxruntime backend, reuse the r0 model artifacts).
-2. LLM polish R1 (800 ids staged at `pipeline/evidence/llm_repair_ids_ych12.json`): the YCH11 `llm_repair_ych11.js` pattern re-targeted at `ych12_sb2` — 74/800 done, quota-walled as of 2026-10-25 (all-session 429).
+2. LLM polish R1 (800 ids staged at `pipeline/evidence/llm_repair_ids_ych12.json`): the YCH11 `llm_repair_ych11.js` pattern re-targeted at `ych12_sb2` — 79/800 done, quota-walled as of 2026-10-25 (intermittent 429 wall;
+  burst-harvest grind windows).
 3. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
 4. Update `books/CATALOG.md` tracker in the same commit as each state change.

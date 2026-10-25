@@ -655,37 +655,37 @@ pided dence forn pdngurri. oncaled ed hfr. pn.200-3 wh Tryto sa soept. can be un
 Todghedenenaifngpinointhe ght cellced Fomditartgiie.e
 EXAM PRACTICE
 
-• AhagsHCHHCH Wid ree shsos rae skt?
+• Ahags HCHHCH Wid ree shsos rae skt?
 
 • B 1lor1mxtybsian
 
-scondary
+secondary
 
 • 6 Angancpd viema CHHHCH,CIs hd h Hjf s Wat sm of r of s reeetks? C CHCH=CH; A CH,CH;CH,OH
 
-prirary
+primary
 
 • A 1elor-Jmtyletans
 
 • C 1artl-3-dlortue D 1-nsths)-3-dlorsibsline
 
-sicedarry
+secondary
 
 ( I = 1
 
-leriry
+primary
 
 (1)
 
-• 2 Thee arethe egafoes fox Neo hdrolyss reacsoes of baltgmoaltenes
+• 2 Thee are the egafoes fox Neo hdrolyss reacsoes of baltgmoaltenes
 
 • A ihahiessct
 
-Attheendofeachtopicthere isanopportunitytoreadand workwithreal-liferesearch andwritingaboutscience. Theactivitieshelpyoutoread real-lifematerialthat'srelevant toyourcourse,analysehow scientistswrite,thinkcritically andconsiderhowdifferent aspectsofyourlearningpiece together.
+At the end of each topic there is an opportunity to read and work with real-life research and writing about science. The activities help you to read real-life material that's relevant to your course, analyse how scientists write, think critically and consider how different aspects of your learning piece together.
 
 Skills
 
-These sectionswill helpyou developtransferableskills, whicharehighlyvalued in furtherstudyandtheworkplace.
+These sections will help you develop transferable skills, which are highly valued in further study and the workplace.
 
 EXAM PRACTICE
 
@@ -2124,15 +2124,15 @@ theoreticalyield themaximumpossiblemassof aproductinareaction,assumingcompletere
 actualyieldtheactualmassobtainedinareaction
 EXAM HINT
 
-Youmaybeaskedinaquestion tosuggestwhyyouhavealow yield.Ifso,you shouldgivea specificexampleinthereaction methodwhereyoumayhave lostproductsuch as,'some solutionwasleftonthefilter paper during filtration'.
+You may be asked in a question to suggest why you have a low yield. If so, you should give a specific example in the reaction method where you may have lost product such as, 'some solution was left on the filter paper during filtration'.
 
 LEARNING TIP
 
-Forcalculationsusingkilograms andtonnes,rememberthat:
+For calculations using kilograms and tonnes, remember that:
 
-1kg=1x103g
+1 kg = 1 × 10³ g
 
-1tonne=1x10°g
+1 tonne = 1 × 10⁶ g
 LEARNING OBJECTIVES
 
 • Calculate percentage atom economies using chemical equations and experimental results.
@@ -2237,11 +2237,11 @@ SUBJECT VOCABULARY
 atomeconomythemolarmassofthedesiredproductdividedbythesumofthemolarmassesofallthe products,expressed as a percentage
 LEARNING TIP
 
-Rememberthat percentage yieldindicateshowefficienta reactionisatconvertingthe reactantsto theproducts. Atomeconomyindicatesthe percentageofatomsfromthe startingmaterialsthatendupin the desired product.
+Remember that percentage yield indicates how efficient a reaction is at converting the reactants to the products. Atomeconomy indicates the percentage of atoms from the starting materials that end up in the desired product.
 
 EXAM HINT
 
-Alsonote thatif you havemore than one product,you will need time andenergytoseparatethe desiredproductfromthe mixture.
+Also note that if you have more than one product, you will need time and energy to separate the desired product from the mixture.
 
 ## Topic 1: Unit 1: Structure, Bonding and Introduction to Organic Chemistry
 
@@ -2824,13 +2824,13 @@ Pb(NO)(aq)+2KI(aq)→Pbl2(s)+2KNO3(aq)
 Whatmassoflead(ll)iodideisformed?
 SUBJECT VOCABULARY
 
-soluteasubstance thatisdissolved
+solute a substance that is dissolved
 
-solventasubstancethatdissolvesasolute
+solvent a substance that dissolves a solute
 
-solutionasolutedissolvedinasolution
+solution a solute dissolved in a solution
 
-massconcentration(ofasolution)themass(ing)ofthesolutedividedbythevolumeofthesolution molarconcentration(ofasolution)theamount(inmol)ofthesolutedividedbythevolumeof the solution
+mass concentration (of a solution) the mass (in g) of the solute divided by the volume of the solution molar concentration (of a solution) the amount (in mol) of the solute divided by the volume of the solution
 LEARNING OBJECTIVES
 
 Understand the term parts per million (ppm), e.g. gases in the atmosphere.
@@ -3493,9 +3493,10 @@ CHECKPOINT
 | 14NH4                   |                    |                      |                      |
 SUBJECT VOCABULARY
 
-atomicnumber(Z)thenumberofprotonsinthenucleusofanatom massnumberthesumofthenumberofprotonsandthenumberof neutronsinthenucleusof an atom
+atomic number (Z) the number of protons in the nucleus of an atom
+mass number the sum of the number of protons and the number of neutrons in the nucleus of an atom
 
-isotopesatomsofthesameelementthathavethesameatomic numberbutdifferentmassnumber
+isotopes atoms of the same element that have the same atomic number but different mass number
 2MASSSPECTROMETRYAND RELATIVEMASSESOFATOMS ISOTOPESANDMOLECULES
 LEARNING OBJECTIVES
 
@@ -3869,15 +3870,15 @@ CHECKPOINT
 • (ii) chromium.
 SUBJECT VOCABULARY
 
-quantum shell the energy levelof anelectron
+quantum shell the energy level of an electron
 
-orbitalaregionwithinanatomthatcanholduptotwoelectrons with oppositespins
+orbital a region within an atom that can hold up to two electrons with opposite spins
 
-electronicconfiguration(ofanatom)thenumberofelectronsin eachsub-shell ineachenergylevelof theatom
+electronic configuration (of an atom) the number of electrons in each sub-shell in each energy level of the atom
 
-Hund'srule electrons will occupy the orbitals singlybeforepairing takesplace
+Hund's rule electrons will occupy the orbitals singly before pairing takes place
 
-PauliExclusionPrincipletwoelectronscannotoccupythesame orbitalunlesstheyhave opposite spins;electron spin isusuallyshown byusingupward anddownward arrows:↑and↓
+Pauli Exclusion Principle two electrons cannot occupy the same orbital unless they have opposite spins; electron spin is usually shown by using upward and downward arrows: ↑ and ↓
 LEARNING OBJECTIVES
 
 • Be able to define first, second, and third ionisation energies and understand that all ionisation energies are endothermic.
@@ -4320,11 +4321,13 @@ In1825,theFrenchphilosopherAugusteComtesaid that there are some things we will n
 Continuous spectrum
 
 FromFromStarstoStalagmites:HowEverythingConnectsbyPaulBraterman
-THINKINGBIGGERTIPS
 
-An emissionspectrum shows thefrequencies of electromagnetic radiation that are emitted by a substance. Anabsorptionspectrumshowsthefrequenciesof electromagneticradiation that are absorbed by the substance. This means that the absorption spectrum is essentially the 'negative' of the emission spectrum.
+#### THINKINGBIGGERTIPS
+THINKING BIGGER TIPS
 
-Manyyears earlier IsaacNewton had passed sunlight through a glassprism,andfound thatthisgavehim all the colours of the rainbow.In1802WilliamWollastoninEngland...repeated the experiment, using an up-to-date high quality glass prism, and discovered thatthe continuousspectrumwasinterrupted bynarrow darklines.(Rather unfairly these arenowknown asFrauenhofer lines,after the German physicist JosephvonFrauenhofer,who confirmed and extendedWollaston'sobservations).Theselines later proved to match exactly thelightgiven outby different elements when heated or in electric discharges.A now familiar exampleisprovidedbytheelementsodium,whoseyellow emission is used in streetlamps.The lines can be used as a kind of fingerprint for each element.We can take this fingerprint using electrical discharges here onEarth and compare it with thelines found in the spectrum of theSun.In thiswaywe can get a good chemical analysisofthesurfacelayeroftheSunorofanyother starwhoselightwecan collectand astronomersnowextend the sameprocesstothemost distantgalaxies.
+An emission spectrum shows the frequencies of electromagnetic radiation that are emitted by a substance. An absorption spectrum shows the frequencies of electromagnetic radiation that are absorbed by the substance. This means that the absorption spectrum is essentially the 'negative' of the emission spectrum.
+
+Many years earlier Isaac Newton had passed sunlight through a glass prism, and found that this gave him all the colours of the rainbow. In 1802 William Wollaston in England...repeated the experiment, using an up-to-date high quality glass prism, and discovered that the continuous spectrum was interrupted by narrow dark lines. (Rather unfairly these are now known as Frauenhofer lines, after the German physicist Joseph von Frauenhofer, who confirmed and extended Wollaston's observations). These lines later proved to match exactly the light given out by different elements when heated or in electric discharges. A now familiar example is provided by the element sodium, whose yellow emission is used in streetlamps. The lines can be used as a kind of fingerprint for each element. We can take this fingerprint using electrical discharges here on Earth and compare it with the lines found in the spectrum of the Sun. In this way we can get a good chemical analysis of the surface layer of the Sun or of any other star whose light we can collect and astronomers now extend the same process to the most distant galaxies.
 DID YOU KNOW?
 
 Manyimagesof galaxies takenby the Hubbletelescope usethe lineemissionspectraofelementssuchashydrogen,sulfurand oxygen tobuild upa colourimageof thegalaxy.Thedifferent elements areassigned red,green andblue frequenciestobuild upafull colourimage.
@@ -4712,39 +4715,41 @@ What prior knowledge do I need?
 • Thephysicalpropertiesofmetals,ionic compoundsandcovalentcompounds,bothsimple molecularandgiantstructures
 
 • The electronicconfigurationsof the first36 elementsinthePeriodicTable
-Whatwill I studyin this topic?
 
-• Thenatureofmetallic,onic,covalent,polar covalentanddativecovalentbonding
+#### Whatwill I studyin this topic?
+What will I study in this topic?
 
-• The nature of intermolecularinteractions, including hydrogen bonding
+• The nature of metallic, ionic, covalent, polar covalent and dative covalent bonding
 
-• Theshapesofdiscrete(simple)molecules
+• The nature of intermolecular interactions, including hydrogen bonding
 
-• Electronegativityandpolarityofmolecules
+• The shapes of discrete (simple) molecules
 
-• Anexplanationofthephysicalpropertiesof substancesbasedon theirbondingand structure
+• Electronegativity and polarity of molecules
 
-Topic4
+• An explanation of the physical properties of substances based on their bonding and structure
 
-• The existenceofisomerisminorganiccompounds
+Topic 4
 
-Topics4and5
+• The existence of isomerism in organic compounds
 
-• Themechanismsofsomereactionsofalkanes, alkenes,halogenoalkanes and alcohols
+Topics 4 and 5
 
-Topic8
+• The mechanisms of some reactions of alkanes, alkenes, halogenoalkanes and alcohols
 
-• TrendsinthepropertiesofGroup2andGroup7 elements
+Topic 8
 
-Topics15and19(Book2:IAL)
+• Trends in the properties of Group 2 and Group 7 elements
 
-• The mechanismsof somereactionsof carbonyls, carboxylicacids,arenes and organicnitrogen compounds
+Topics 15 and 19 (Book 2: IAL)
 
-Topic17(Book2:1AL)
+• The mechanisms of some reactions of carbonyls, carboxylic acids, arenes and organic nitrogen compounds
 
-• Thenatureofthebondingin,andtheshapesof, transitionmetalcomplexes
+Topic 17 (Book 2: IAL)
 
-• Thecharacteristicpropertiesoftransitionmetals, e.g.theabilitytohavemorethanoneoxidation stateandtheabilitytoactascatalysts
+• The nature of the bonding in, and the shapes of, transition metal complexes
+
+• The characteristic properties of transition metals, e.g. the ability to have more than one oxidation state and the ability to act as catalysts
 
 ## Topic 3: Unit 1: Structure, Bonding and Introduction to Organic Chemistry
 
@@ -4877,13 +4882,13 @@ Fig F is an electron density map for sodium chloride.
 The electron density map clearly shows separate ions. A represents a sodium ion and B represents a chloride ion.
 CHECKPOINT
 
-• 1. Explainwhat ismeantbytheterm'ionicbonding'
+• 1. Explain what is meant by the term 'ionic bonding'
 
-• 2. Calciumreactswithfluorinetoformtheioniccompoundcalciumfluoride: Ca(s)+F2(g)→CaF2(s)
+• 2. Calcium reacts with fluorine to form the ionic compound calcium fluoride: Ca(s) + F₂(g) → CaF₂(s)
 
-Useadot-and-crossdiagramtoshowtheelectronicchangesthatoccurinthisreaction.
+Use a dot-and-cross diagram to show the electronic changes that occur in this reaction.
 
-• thanthatinpotassiumfluoride.
+• than that in potassium fluoride.
 SUBJECT VOCABULARY
 
 ionicbondingtheelectrostaticattractionbetweenoppositelychargedions
@@ -5076,27 +5081,29 @@ LEARNING OBJECTIVES
 • Know that a covalentbond is the strong electrostatic attractionbetween the nuclei of two atoms and thebonding (shared)pairofelectrons.
 
 • Understand therelationshipbetweenbondlengthandbondstrengthforcovalentbonds.
-FORMATIONOFCOVALENTBONDS
 
-A covalentbondformsbetweentwoatomswhen anatomic orbital containinga singleelectronfrom one atom overlapswith an atomic orbital,whichalso containsa singleelectron,of another atom. The two electrons in the area of overlap are thebonding electrons. They are sometimes referred toasa'sharedpairofelectrons'.Thecovalentbondistheelectrostaticattractionbetweenthetwo nuclei of thebonded atoms and thepairofelectronssharedbetweenthem.
+#### FORMATIONOFCOVALENTBONDS
+FORMATION OF COVALENT BONDS
 
-The atomic orbitals involved can be any of those found in the atoms,but we shall limit our discussion to those involving only s- and p-orbitals.
+A covalent bond forms between two atoms when an atomic orbital containing a single electron from one atom overlaps with an atomic orbital, which also contains a single electron, of another atom. The two electrons in the area of overlap are the bonding electrons. They are sometimes referred to as a 'shared pair of electrons'. The covalent bond is the electrostatic attraction between the two nuclei of the bonded atoms and the pair of electrons shared between them.
 
-FigA shows threewaysinwhich theseorbitalsmayoverlap.
+The atomic orbitals involved can be any of those found in the atoms, but we shall limit our discussion to those involving only s- and p-orbitals.
 
-endonoverlapoftwo s-orbitals (sigma bond)
+Fig A shows three ways in which these orbitals may overlap.
 
-endonoverlapoftwo p-orbitals (sigma bond)
+end-on overlap of two s-orbitals (sigma bond)
 
-sidewaysoverlapof two p-orbitals (pi bond)
+end-on overlap of two p-orbitals (sigma bond)
 
-• fig AFormation of sigma bonds by end-on overlap of atomic orbitals and a pi bond by sideways overlap of p-orbitals.
+sideways overlap of two p-orbitals (pi bond)
 
-An end-on overlapleads to the formation of sigma(o) bonds. This leads to theformation of a single covalentbondbetweenthe twoatoms.
+• fig A Formation of sigma bonds by end-on overlap of atomic orbitals and a pi bond by sideways overlap of p-orbitals.
 
-A sideways overlap of two p-orbitals leads to the formation of a pi (π)bond. A feature of a π bond is thatitcannotformuntil aobond hasbeenformed.For thisreasonπbondsonlyexistbetween atoms that arejoined by double or triple bonds.
+An end-on overlap leads to the formation of sigma (σ) bonds. This leads to the formation of a single covalent bond between the two atoms.
 
-The different typesof orbital overlap are shown in thefollowingexamples.
+A sideways overlap of two p-orbitals leads to the formation of a pi (π) bond. A feature of a π bond is that it cannot form until a σ bond has been formed. For this reason π bonds only exist between atoms that are joined by double or triple bonds.
+
+The different types of orbital overlap are shown in the following examples.
 EXAMPLE1.HYDROGEN
 
 A hydrogen atom has an electronic configuration of 1s'.
@@ -5212,13 +5219,13 @@ The electronegativity of elements, in general:
 This is demonstrated in the following section of the Periodic Table (fig A).
 
 #### WHATISELECTRONEGATIVITY?
-figAableof electronegativities.
+fig A table of electronegativities.
 
-| Li 1.0 - Na 0.9   | Be 1.5 - Mg 1.2   |        |        |        |        |        |        |        | H 2.1   |        |        | B 2.0 - AI 1.5   | C 2.5 - Si 1.8   | N 3.0 - P 2.1   | 3.5 - S 2.5   | F 4.0 - CI 3.0   | He - Ne - Ar   |
+| Li 1.0 - Na 0.9   | Be 1.5 - Mg 1.2   |        |        |        |        |        |        |        | H 2.1   |        |        | B 2.0 - Al 1.5   | C 2.5 - Si 1.8   | N 3.0 - P 2.1   | O 3.5 - S 2.5   | F 4.0 - Cl 3.0   | He - Ne - Ar   |
 |-------------------|-------------------|--------|--------|--------|--------|--------|--------|--------|---------|--------|--------|------------------|------------------|-----------------|---------------|------------------|----------------|
-| K 0.8             | Ca 1.0            | Sc 1.3 | Ti 1.5 | V 1.6  | Cr 1.6 | Mn 1.5 | Fe 1.8 | Co 1.8 | IN 1.8  | Cu 1.9 | Zn 1.6 | Ga 1.6           | Ge 1.8           | As 2.0          | Se 2.4        | Br 2.8           | Kr             |
-| Rb 0.8            | Sr 1.0            | Y 1.2  | Z 1.4  | Nb 1.6 | Mo 1.8 | Tc 1.9 | Ru 2.2 | Rh 2.2 | Pd 2.2  | Ag 1.9 | Cd 1.7 | In 1.7           | Sn 1.8           | Sb 1.9          | Te 2.1        | 2.5              | Xe             |
-| Cs 0.7            | Ba 0.9            | La 1.1 | JH 1.3 | Ta 1.5 | W 1.7  | Re 1.9 | Os 2.2 | Ir 2.2 | Pt 2.2  | Au 2.4 | Hg 1.9 | TI 1.8           | Pb 1.8           | Bi 1.9          | Po 2.0        | At 2.2           | Rn             |
+| K 0.8             | Ca 1.0            | Sc 1.3 | Ti 1.5 | V 1.6  | Cr 1.6 | Mn 1.5 | Fe 1.8 | Co 1.8 | Ni 1.8  | Cu 1.9 | Zn 1.6 | Ga 1.6           | Ge 1.8           | As 2.0          | Se 2.4        | Br 2.8           | Kr             |
+| Rb 0.8            | Sr 1.0            | Y 1.2  | Zr 1.4  | Nb 1.6 | Mo 1.8 | Tc 1.9 | Ru 2.2 | Rh 2.2 | Pd 2.2  | Ag 1.9 | Cd 1.7 | In 1.7           | Sn 1.8           | Sb 1.9          | Te 2.1        | I 2.5            | Xe             |
+| Cs 0.7            | Ba 0.9            | La 1.1 | Hf 1.3 | Ta 1.5 | W 1.7  | Re 1.9 | Os 2.2 | Ir 2.2 | Pt 2.2  | Au 2.4 | Hg 1.9 | Tl 1.8           | Pb 1.8           | Bi 1.9          | Po 2.0        | At 2.2           | Rn             |
 DISTRIBUTIONOFELECTRONDENSITY
 
 If two atomsof thesameelement arebondedtogetherbytheoverlapofatomicorbitals,the distributionofelectrondensitybetweenthetwonucleiwillbesymmetrical.Thisisbecause the ability of each atom to attract the bonding pair of electrons is identical.
@@ -5377,15 +5384,15 @@ tableCExamples of displayed formulaewith thecorresponding dot-and-cross diagram.
 tableCExamples of displayed formulaewith thecorresponding dot-and-cross diagram.
 CHECKPOINT
 
-• 1.Draw a dot-and-crossdiagramforeachof thefollowingmolecules:
+• 1. Draw a dot-and-cross diagram for each of the following molecules:
 
-(a)H2S
+(a) H₂S
 
-• 2.Draw the displayed formulaforeach of the molecules inQuestion1.
+• 2. Draw the displayed formula for each of the molecules in Question 1.
 
-discrete(simple)moleculean electricallyneutralgroupoftwo ormoreatomsheldtogetherby covalentbonds
+discrete (simple) molecule an electrically neutral group of two or more atoms held together by covalent bonds
 
-displayed(full structural) formulaaformula thatshows eachbondingpairasaline drawnbetweenthetwoatoms involved
+displayed (full structural) formula a formula that shows each bonding pair as a line drawn between the two atoms involved
 LEARNING OBJECTIVES
 
 • Know that in a dative covalent bond both electrons in the bond are supplied by only one of the atoms involved in forming the bond.
@@ -5631,15 +5638,17 @@ Eachof thebonds in a moleculehas its own dipole associated with it.The overall d
 • ·If the cancellationis complete,theresulting molecule will have no overall dipole and is said to be'non-polar'.
 
 • If the dipoles reinforce one another, the molecule will possess an overall dipole and is said to be'polar'.
-DIATOMICMOLECULES
 
-Hydrogen and chlorine are examples ofdiatomicmolecules that arenon-polar. The two atoms in each molecule are the same and sohave the same electronegativity.The distribution of electron densityofthebondingelectronsineithermoleculeistotally symmetrical(see Topic 3B.2). The bond in each is therefore nonpolar, making the molecules non-polar.
+#### DIATOMICMOLECULES
+DIATOMIC MOLECULES
 
-However, thebond in thehydrogen chloride molecule is polar because the electronegativity of chlorine(3.0) is greater than that of hydrogen (2.1).
+Hydrogen and chlorine are examples of diatomic molecules that are non-polar. The two atoms in each molecule are the same and so have the same electronegativity. The distribution of electron density of the bonding electrons in either molecule is totally symmetrical (see Topic 3B.2). The bond in each is therefore non-polar, making the molecules non-polar.
 
-H^δ+→Cl^δ−
+However, the bond in the hydrogen chloride molecule is polar because the electronegativity of chlorine (3.0) is greater than that of hydrogen (2.1).
 
-Since this is the only polarbond in the molecule,themolecule itself is polar.
+H^δ+ → Cl^δ−
+
+Since this is the only polar bond in the molecule, the molecule itself is polar.
 
 The following symbol is used to represent a dipole: +→
 
@@ -5649,7 +5658,7 @@ H^δ+ — Cl^δ− (dipole symbol ⟶ shown beneath)
 
 Example: carbon dioxide, CO2
 
-Both bonds in the carbon dioxide molecule are polar, but the dipoles canceloutone another
+Both bonds in the carbon dioxide molecule are polar, but the dipoles cancel out one another
 
 O^δ−=C^δ+=O^δ−
 
@@ -5659,31 +5668,31 @@ fig A Dipoles in carbon dioxide.
 
 The carbon dioxide molecule is therefore non-polar
 
-Example:boron chloride,BCl
+Example: boron chloride, BCl
 
 All three B—Cl bonds are polar, but because the molecule is symmetrical the dipoles cancel out one another The molecule is non-polar.
 
-Example1:tetrachloromethane,CCl4
+Example 1: tetrachloromethane, CCl4
 
-All four C—Cl bonds arepolar,butbecause the molecule is symmetrical the dipoles cancel out one another The molecule is non-polar.
+All four C—Cl bonds are polar, but because the molecule is symmetrical the dipoles cancel out one another The molecule is non-polar.
 
-Example 2:trichloromethane,CHCl
+Example 2: trichloromethane, CHCl3
 
 fig D Dipoles in trichloromethane.
 
-Allfourbonds arepolarbut, although themolecule is symmetrical, thedipolesreinforce one another and sothemoleculeispolar
+All four bonds are polar but, although the molecule is symmetrical, the dipoles reinforce one another and so the molecule is polar
 
 3.15
 
 PART
 
-Example:ammonia,NH3
+Example: ammonia, NH3
 
-All threeN—H bonds arepolarand thedipolesreinforce one anotherThemoleculeispolar.
+All three N—H bonds are polar and the dipoles reinforce one another The molecule is polar.
 
-fig EDipolesin ammonia.
+fig E Dipoles in ammonia.
 
-Example:water,HO
+Example: water, H2O
 
 Both O—H bonds are polar and the dipoles reinforce one another The molecule is polar
 Dipolemoments
@@ -5941,25 +5950,25 @@ DID YOU KNOW?
 You may have heard diamond referred to as ice. 'Diamond first acquired this nickname because of its properties rather than its appearance. Owing to the wave nature of electrons, the electron wave is able to travel more smoothly through a perfect crystal without bouncing, in much the same way as light travels through a clear crystal. In addition, thermal conduction is improved by the network of strong covalent bonds. The use of a heat probe is one of the major tests in determining if a diamond is authentic. This is because real diamonds are able to conduct heat and are actually one of the best conductors of heat. Even as a diamond heats up, it is cool to the touch, just like ice. This is why the points of diamond cutting tools do not become overheated.
 DID YOU KNOW?
 
-GrapheneisthethinnestmaterialonEarth
+Graphene is the thinnest material on Earth
 
-• It isonemilliontimesthinnerthanahumanhair.
+• It is one million times thinner than a human hair.
 
-• It is200timesstrongerthansteel.
+• It is 200 times stronger than steel.
 
-• Itisanexcellentthermalconductor,bettereventhandiamond.
+• It is an excellent thermal conductor, better even than diamond.
 
 • It absorbs light.
 
-• Itcanbeconsideredthebasicunitofmostotherformsofcarbon.
+• It can be considered the basic unit of most other forms of carbon.
 
-• GraphiteconsistsoflayersofgrapheneontopofoneanotherjoinedbyLondonforces.
+• Graphite consists of layers of graphene on top of one another joined by London forces.
 
-• A sheetofgraphenecanberolled intoaball toproducefullerenemolecules.
+• A sheet of graphene can be rolled into a ball to produce fullerene molecules.
 
-• A sheetof graphenecanberolled into a cylindertoproduceacarbonnanotube.
+• A sheet of graphene can be rolled into a cylinder to produce a carbon nanotube.
 
-• Graphene canself-repairholesinitssheetswhenexposedtomoleculescontainingcarbon,such as hydrocarbons.When bombarded with pure carbon atoms, the atomsperfectly align into hexagons, completelyfillingtheholes.
+• Graphene can self-repair holes in its sheets when exposed to molecules containing carbon, such as hydrocarbons. When bombarded with pure carbon atoms, the atoms perfectly align into hexagons, completely filling the holes.
 Molecularlattices
 
 Acommonsolidmolecularlatticeisiodine.
@@ -6622,11 +6631,11 @@ CHECKPOINT
 
 • 1. The displayed formula of a compound is:
 
-Usea table(liketheoneforchloroethane)toshowthestructural, skeletal,molecularandempiricalformulaeofthecompound above.
+Use a table (like the one for chloroethane) to show the structural, skeletal, molecular and empirical formulae of the compound above.
 
-• 2.Theskeletal formulaofacompoundis:
+• 2. The skeletal formula of a compound is:
 
-Useatable（liketheoneforchloroethane)toshowthedisplayed structural,molecularandempiricalformulaeofthecompound above.
+Use a table (like the one for chloroethane) to show the displayed, structural, molecular and empirical formulae of the compound above.
 SUBJECT VOCABULARY
 
 displayedformulashowseveryatomandeverybond structural formula shows(unambiguously)howtheatomsare joinedtogether
@@ -6816,7 +6825,7 @@ SKILLS
 
 REASONING
 
-• 1.WriteIUPACnamesfor thecompoundswiththese structural formulae.
+• 1. Write IUPAC names for the compounds with these structural formulae.
 
 (a)
 
@@ -6828,11 +6837,11 @@ Br
 
 OH
 
-• 2.WritestructuralformulaeforthecompoundswiththeseIUPACnames.
+• 2. Write structural formulae for the compounds with these IUPAC names.
 
-• (a)2,2-dimethylpentane
+• (a) 2,2-dimethylpentane
 
-(b）2,3-dimethylbutan-2-ol
+(b) 2,3-dimethylbutan-2-ol
 SUBJECT VOCABULARY
 
 prefixa set of letterswritten at thebeginningof a name
@@ -7373,23 +7382,23 @@ There aredifferent types ofcatalytic converter but they all use small quantities
 figBA three-way catalyticconverter.
 EXAM HINT
 
-Alsonotethatlikemany(butnotall)catalysts,platinum,rhodium and palladiumarefoundinthed-blockofthePeriodicTable.
+Also note that like many (but not all) catalysts, platinum, rhodium and palladium are found in the d-block of the Periodic Table.
 
-As the exhaust gases from the engine pass through the catalytic converter,severalreactionscanoccur.
+As the exhaust gases from the engine pass through the catalytic converter, several reactions can occur.
 
-Examples aretheoxidationofthecarbonmonoxide and the oxidation ofunburned hydrocarbons:
+Examples are the oxidation of the carbon monoxide and the oxidation of unburned hydrocarbons:
 
 2CO + O₂ → 2CO₂ and C₈H₁₈ + 12½O₂ → 8CO₂ + 9H₂O
 
-Hereis anotherusefulreactionthatremovestwopollutants atthe sametime:
+Here is another useful reaction that removes two pollutants at the same time:
 
 2NO + 2CO → N₂ + 2CO₂
 
-The catalysts currently used are not very good at removing sulfur compounds. The best way to prevent sulfur-based pollution is toremove thesulfur compoundsfromthefuelbeforethefuelis burned. This is done in some countries, where the resulting fuel is describedaslowsulfurorultra-lowsulfurfuel.
+The catalysts currently used are not very good at removing sulfur compounds. The best way to prevent sulfur-based pollution is to remove the sulfur compounds from the fuel before the fuel is burned. This is done in some countries, where the resulting fuel is described as low sulfur or ultra-low sulfur fuel.
 
 LEARNING TIP
 
-Rememberthatevenintheincompletecombustionofanalkane,all ofthehydrogenatomsarecompletelyoxidisedtowater.
+Remember that even in the incomplete combustion of an alkane, all of the hydrogen atoms are completely oxidised to water.
 CHECKPOINT
 
 • 1.Summariseinformation about theproducts of combustion of alkanes,includingnamesandwhethercompleteorincomplete combustionwasinvolved.
@@ -7397,9 +7406,11 @@ CHECKPOINT
 • 2.Ina table,summarise the substances thatreactin a catalytic converter,and theproductsformedfromthem.
 SUBJECT VOCABULARY
 
-combustionachemicalreactioninwhichacompoundreactswith oxygen
+combustion a chemical reaction in which a compound reacts with oxygen
 
-completecombustionreactioninwhich all of theatomsinthefuel arefullyoxidised,producingonlycarbondioxideandwater incompletecombustionreactioninwhichsomeoftheatomsinthe fuelarenotfullyoxidised,producingcarbondioxide,carbon monoxideandsoot(unburntcarbon)
+complete combustion reaction in which all of the atoms in the fuel are fully oxidised, producing only carbon dioxide and water
+
+incomplete combustion reaction in which some of the atoms in the fuel are not fully oxidised, producing carbon dioxide, carbon monoxide and soot (unburnt carbon)
 LEARNING OBJECTIVES
 
 • Discuss thereasonsfor developing alternativefuels intermsofsustainabilityandreducingemissions, including theemissionof CO2and itsrelationship to climate change.
@@ -7489,9 +7500,9 @@ ARGUMENTATION
 • 2.Summarisereasons why a biofuel may not be carbon neutral.
 SUBJECT VOCABULARY
 
-biofuelfuel obtainedfromlivingmatterthathasdiedrecently bioalcoholfuel madefromplantmatter,oftenusingenzymesor bacteria
+biofuel fuel obtained from living matter that has died recently bioalcohol fuel made from plant matter, often using enzymes or bacteria
 
-carbonneutralaconsiderednetzeroeffectonthe amountofcarbon dioxideintheatmosphere
+carbon neutral a considered net zero effect on the amount of carbon dioxide in the atmosphere
 LEARNING OBJECTIVES
 
 • Understand thereactionsofalkaneswithhalogens.
@@ -7576,15 +7587,15 @@ Each of these overall reactions can be represented by the same sequence of initi
 The likelihood of these further reactions occurring means that this is not a good method for the preparation of chloromethane or other halogenoalkanes. This is because the yield will be low because of these further reactions, and also because several products have to be separated.
 LEARNING TIP
 
-Focusingonthethreetypesofreactionwill helpyoutounderstand radical mechanisms.
+Focusing on the three types of reaction will help you to understand radical mechanisms.
 
 The three types are:
 
-• initiation-onemoleculebecomestwofreeradicals
+• initiation - one molecule becomes two free radicals
 
-• propagation-amoleculeandafreeradical becomea differentfree radicalandmolecule,andtherearetworeactionsinthisstep
+• propagation - a molecule and a free radical become a different free radical and molecule, and there are two reactions in this step
 
-• termination-twofreeradicalsbecomeonemolecule.
+• termination - two free radicals become one molecule.
 CHECKPOINT
 
 • 1.Writethesixequationsforthemechanismofthereaction betweenmethaneandbromine.
@@ -7720,37 +7731,37 @@ What type of formula is this?
 
 • 5 Which equation represents a substitution reaction?
 
-• A CH4+HO→CH5OH
+• A CH4 + HO → CH5OH
 
-• BCH4+Br2→CH4Br2
+• B CH4 + Br2 → CH4Br2
 
-• CCH+F2→CHF+HF
+• C CH + F2 → CHF + HF
 
-• DCH→CH4+H2
+• D CH → CH4 + H2
 
 [1]
 
-(Total for Question 5 = 1mark)
+(Total for Question 5 = 1 mark)
 
 • between chlorine and chloromethane?
 
-• A·CHCI+CI·→CHCl2
+• A ·CHCI + CI· → CHCl2
 
-• BH·+CI·→HCI
+• B H· + CI· → HCI
 
-• C·CH+Cl→CHCI+Cl·
+• C ·CH + Cl → CHCI + Cl·
 
-• D CHCI +Cl2→CHCl+HCl
+• D CHCI + Cl2 → CHCl + HCl
 
 [1]
 
-(Totalfor Question 6=1mark)
+(Total for Question 6 = 1 mark)
 
-• 7Thetablelists theboilingtemperaturesofsome alkanes.
+• 7 The table lists the boiling temperatures of some alkanes.
 
-• (a)Give the molecular formula of octane. [1]
+• (a) Give the molecular formula of octane. [1]
 
-• (b)(i)Explain the trend in boiling temperature of the alkanes.
+• (b)(i) Explain the trend in boiling temperature of the alkanes.
 
 #### (Total for Question 4 = 1 mark)
 | Alkane   | Molecular formula   |   Boiling temperature /K |
@@ -9587,7 +9598,7 @@ thefollowingreactions.Assumethatallspeciesareinthe gaseous state. | 1.Usethefoll
 
 #### LEARNING TIP
 | H-O                                                                                                                           | F-F                                                                                                                           | C-Br                                                                                                                          | H-Br                                                                                                                          | H-F                                                                                                                           | Br-Br                                                                                                                         |
-| E/kJmol-1                                                                                                                     | 464                                                                                                                           | 158                                                                                                                           | 290                                                                                                                           | 366                                                                                                                           | 568                                                                                                                           | 193                                                                                                                           |
+| E/kJ mol⁻¹                                                                                                                     | 464                                                                                                                           | 158                                                                                                                           | 290                                                                                                                           | 366                                                                                                                           | 568                                                                                                                           | 193                                                                                                                           |
 
 #### LEARNING TIP
 • (a)H2+F2→2HF
@@ -9632,24 +9643,28 @@ WHICHFUELANDWHY?
 Our dependence on organicfuels hasled to the exploitation of renewable biofuels. One of the key aims behind the use of biofuels is to reduce carbon emissions,but with limited land space an increasing area of research is the use of waste biomass.
 
 ORGANICCHEMISTSCONTRIBUTETORENEWABLEENERGY
-Background-Whyis this important?
 
-Biofuelsplayanessentialroleinreducingthecarbonemissions from transportation.The development of'drop-in'fuels producedfromlignocellulosicrawmaterialswillincrease boththe availabilityofbiofuelsandthesustainabilityofthe biofuel industry.
+#### Background-Whyis this important?
+Background - Why is this important?
 
-AdrianHigson-EnergyConsultant
+Biofuels play an essential role in reducing the carbon emissions from transportation. The development of 'drop-in' fuels produced from lignocellulosic raw materials will increase both the availability of biofuels and the sustainability of the biofuel industry.
 
-Biofuels can be either liquid or gaseous.They can be produced from any source that can be replenished rapidly,e.g. plants, agricultural crops and municipal waste. Current biofuels are producedfrom sugar andstarchcrops such aswheat andsugar cane,which arealsopart of thefoodchain.
+Adrian Higson - Energy Consultant
 
-One of the key targets for energy researchers is a sustainable route tobiofuelsfromnon-ediblelignocellulosic(plant)biomass,such as agricultural wastes,forestry residues or purpose-grown energy grasses. These are examples of so-called advanced biofuels.
+Biofuels can be either liquid or gaseous. They can be produced from any source that can be replenished rapidly, e.g. plants, agricultural crops and municipal waste. Current biofuels are produced from sugar and starch crops such as wheat and sugar cane, which are also part of the food chain.
 
-Currentbiofuels,suchas ethanol,have alowerenergycontent (volumetricenergydensity)comparedwithconventional hydrocarbonfuels,petroleum and naturalgas.The aim is to producefuelsthathave a highcarboncontent and therefore have a highervolumetric energydensity.This canbeachieved by chemical reactions that remove oxygen atoms from biofuel chemical compounds. This process produces a so-called 'dropin biofuel',i.e.a fuel that can be blended directly with existing hydrocarbonfuels that have similar combustionproperties.
-Whatdidtheorganicchemistsdo?
+One of the key targets for energy researchers is a sustainable route to biofuels from non-edible lignocellulosic (plant) biomass, such as agricultural wastes, forestry residues or purpose-grown energy grasses. These are examples of so-called advanced biofuels.
 
-Efficient synthesis ofrenewablefuelsremains a challenging and important lineof research.Levulinicacid andfurfural (figA) are examples ofpotential'platformmolecules',i.e.molecules that can be produced from biomass and converted into biofuels. Levulinic acid can be produced in high yield (>70%) from inedible hexose bio-polymers such as cellulose,which is a polymer of glucose and the most common organic compound onEarth.Furfural hasbeenproducedindustriallyformany platform molecule.
+Current biofuels, such as ethanol, have a lower energy content (volumetric energy density) compared with conventional hydrocarbon fuels, petroleum and natural gas. The aim is to produce fuels that have a high carbon content and therefore have a higher volumetric energy density. This can be achieved by chemical reactions that remove oxygen atoms from biofuel chemical compounds. This process produces a so-called 'drop-in biofuel', i.e. a fuel that can be blended directly with existing hydrocarbon fuels that have similar combustion properties.
 
-Recentreportshavehighlightedtheuseoforganicchemistryto convertplatformmoleculeslikelevulinicacid andfurfuralinto potential advanced biofuels. Specifically, by changing parts of the molecules that are responsible for their structure and function.This process is called 'functional group interconversion' and is part of thebasictoolkitoforganicchemistry.Forexample,researchers havedescribed aprocessfor convertinglevulinic acidintoso-called 'valericbiofuels'.One ofthesebiofuels,ethylvalerate,is claimed tobe apossible advancedbio-gasolinemoleculewithseveral advantagesoverbio-ethanol.
+#### Whatdidtheorganicchemistsdo?
+What did the organic chemists do?
 
-Asecondmethod tocreatehydrocarbonsinvolvesDumesic's approach via a decarboxylation of gamma-valerolactone, which canbeproducedin onestepfromlevulinicacidbyhydrogenation.
+Efficient synthesis of renewable fuels remains a challenging and important line of research. Levulinic acid and furfural (fig A) are examples of potential 'platform molecules', i.e. molecules that can be produced from biomass and converted into biofuels. Levulinic acid can be produced in high yield (>70%) from inedible hexose bio-polymers such as cellulose, which is a polymer of glucose and the most common organic compound on Earth. Furfural has been produced industrially for many platform molecule.
+
+Recent reports have highlighted the use of organic chemistry to convert platform molecules like levulinic acid and furfural into potential advanced biofuels. Specifically, by changing parts of the molecules that are responsible for their structure and function. This process is called 'functional group interconversion' and is part of the basic toolkit of organic chemistry. For example, researchers have described a process for converting levulinic acid into so-called 'valeric biofuels'. One of these biofuels, ethyl valerate, is claimed to be a possible advanced bio-gasoline molecule with several advantages over bio-ethanol.
+
+A second method to create hydrocarbons involves Dumesic's approach via a decarboxylation of gamma-valerolactone, which can be produced in one step from levulinic acid by hydrogenation.
 What is theimpact?
 
 Biodiesel is likely to be the second most important biofuel afterethanolintheshort tomedium term.Globalproduction of biodiesel is expected toincrease from 11billionlitres to reach 24 billionlitresby2017.For organic chemists,there aresignificant opportunities associated with further developing energy crops and producing advanced biofuels from new sources such as algae, or industrialor post-consumerwaste.
@@ -9933,55 +9948,51 @@ The results of one experimentwere:
 | C-O    |                    +360 |
 
 #### （TotalforQuestion10=9marks)
-The equation for the combustion of methanol(CHOH) in the gaseous state is:
+The equation for the combustion of methanol(CH₃OH) in the gaseous state is:
 
 • (a)(i)Use the data in the table to calculate the enthalpy change of combustion of gaseous methanol. [2]
 
-• (i)Give two reasons why the standard enthalpy change ofcombustion ofmethanolis differentfrom thevalue calculated in part (a)(i). [2]
+• (i)Give two reasons why the standard enthalpy change of combustion of methanol is different from the value calculated in part (a)(i). [2]
 
 • (b)Which process measures the mean bond enthalpy for the C-H bond in methane? [1]
 
-• A CH(g)→CH;(g)+H(g) △H=A;meanbond enthalpy=A
+• A CH₄(g)→CH₃(g)+H(g) △H=A; mean bond enthalpy=A
 
-• BCH4(g)→C(g)+4H(g) △H=B;meanbond enthalpy=B/4
+• B CH₄(g)→C(g)+4H(g) △H=B; mean bond enthalpy=B/4
 
-• C CH4(g)→C(g)+2H2(g) △H= C;mean bond enthalpy = C/4
+• C CH₄(g)→C(g)+2H₂(g) △H=C; mean bond enthalpy = C/4
 
-• D CH(g)→ C(g) + H(g)
+• D CH₄(g)→ C(g) + H(g)
 
 △H= D; mean bond enthalpy = D
 
-• Calculate themeanbond enthalpy of theS-F bond in SFgiven thefollowingdata. [2]
+• Calculate the mean bond enthalpy of the S-F bond in SF₆ given the following data. [2]
 
-SF(g)→ S(s) +3F2(g)
+SF₆(g)→ S(s) +3F₂(g)
 
-△H=+1100kJmol-1
+△H=+1100 kJ mol⁻¹
 
-• ·Highest temperature reached by the mixture = 33.6°℃
+• Highest temperature reached by the mixture = 33.6°C
 
 S(s) → S(g)
 
-The equation for thereaction is:
+The equation for the reaction is:
 
-F2(g)→2F(g)
+F₂(g)→2F(g)
 
-△H=+223kJmol-1
+△H=+223 kJ mol⁻¹
 
-△H=+158kJmol-1
+△H=+158 kJ mol⁻¹
 
-HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)
+HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)
 
-（TotalforQuestion11=7marks)
+（Total for Question 11=7 marks)
 
-• a) State what is meant by enthalpy change of neutralisation.
+• a) State what is meant by enthalpy change of neutralisation. [2]
 
-[2]
+• (b) Give the name of a piece of apparatus that is suitable for measuring the volumes of acid and alkali. [1]
 
-• (b) Give thename of apieceof apparatus thatis suitablefor measuring thevolumes ofacid and alkali. [1]
-
-• (C) Statewhy theNaOH(aq)used had a slightlyhigher concentration than the HCl(aq).
-
-[1]
+• (c) State why the NaOH(aq) used had a slightly higher concentration than the HCl(aq). [1]
 
 ## Topic 7: Unit 2: Energetics, Group Chemistry, Halogenoalkanes and Alcohols
 
@@ -10130,13 +10141,13 @@ There is one otherintermolecularinteraction thatis,in some cases, very important
 Thekey tounderstanding thenatureofthehydrogenbond isappreciatingthat the atombonded tohydrogenhastobe more electronegative than hydrogen,and that there must be some evidence of bond formation between the hydrogen and anotheratom,eitherwithinthesamemolecule(intramolecular hydrogen bonding) or in a different molecule (intermolecular hydrogen bonding').
 DID YOU KNOW?
 
-We areonlylooking at intermolecularhydrogenbonding,although intramolecular hydrogen bondingplaysasignificant role in many biochemical moleculessuchasDNAandproteins.
+We are only looking at intermolecular hydrogen bonding, although intramolecular hydrogen bonding plays a significant role in many biochemical molecules such as DNA and proteins.
 
-Becausetherehastobeevidenceofsomebondformation(the natureoftheevidence,largelyfromvarioustypesofspectroscopy, isbeyondthiscourse),thereisanargumentthathydrogenbonds
+Because there has to be evidence of some bond formation (the nature of the evidence, largely from various types of spectroscopy, is beyond this course), there is an argument that hydrogen bonds
 
-couldbeconsideredtobebonded intermolecularinteractions. However,mostacademictextsstillprefertousethetermnonbondedintermolecularinteractionstodescribethem.
+could be considered to be bonded intermolecular interactions. However, most academic texts still prefer to use the term nonbonded intermolecular interactions to describe them.
 
-Hydrogen bonding is most significant when hydrogen is bonded to and fuorine, although it is not confined to these atoms.
+Hydrogen bonding is most significant when hydrogen is bonded to and fluorine, although it is not confined to these atoms.
 HYDROGENBONDINGTHROUGHOXYGEN
 
 All compounds containing an -O—H group form intermolecular hydrogenbonds.
@@ -10190,7 +10201,7 @@ methoxymethane
 Intermsoftheintermolecularinteractionsinvolved,explainthe differenceinboilingtemperatures.
 SUBJECT VOCABULARY
 
-hydrogenbond anintermolecularinteraction(in which thereis some evidenceofbondformation)betweenahydrogenatomofa molecule(ormolecularfragment)bondedtoan atomwhichismore electronegativethanhydrogen andanotheratominthesameora differentmolecule
+hydrogen bond an intermolecular interaction (in which there is some evidence of bond formation) between a hydrogen atom of a molecule (or molecular fragment) bonded to an atom which is more electronegative than hydrogen and another atom in the same or a different molecule
 Strong andweakhydrogenbonds
 
 Itwasoncebelievedthathydrogenbondswereformedonlywhen hydrogen was bonded to oxygen, nitrogen or fluorine.Richard NelmesofEdinburghUniversitysurprisedtheworldofchemistry whenhediscoveredthatsolidhydrogensulfidehadanextended systemof hydrogenbonding,whichwas similartothatinice.
@@ -10688,11 +10699,11 @@ Redox reactions are among the most common and most important chemical reactions 
 The Periodic Table of elements is a familiar feature in any study of chemistry. It helps us to make sense of the variety of chemical elements and their different reactions, some of which are redox reactions. It also helps us mostly on three groups (columns) of the Periodic Table to illustrate the trends within the groups and several features of the elements and compounds in them.
 
 #### AREDOXCHEMISTRYIBTHEELEMENTSOFGROUPS1 AND2ICINORGANICCHEMISTRYOFGROUP71 D QUANTITATIVECHEMISTRY
-In thesegroups,youwill meetfamiliarelementssuch asmagnesium andchlorine,but alsolessfamiliar elements such asbarium and bromine.For example, you will learn how the limewater test for carbon dioxide works,howmilkof magnesiarelieves indigestion andwhyfarmersspread lime on theirfields.You will learn that although barium compounds are very poisonous, you can safely eat a'barium meal' before having an X-ray.
+In these groups, you will meet familiar elements such as magnesium and chlorine, but also less familiar elements such as barium and bromine. For example, you will learn how the limewater test for carbon dioxide works, how milk of magnesia relieves indigestion and why farmers spread lime on their fields. You will learn that although barium compounds are very poisonous, you can safely eat a 'barium meal' before having an X-ray.
 
-By learning how flame tests work, you will also understand how fireworks canhave flames of differentcolours. Theuseof chlorine and itscompoundsindisinfectants andbleacheshassaved many lives,andyouwill learn somethingof thechemistryinvolved inhowtheseproductswork.
+By learning how flame tests work, you will also understand how fireworks can have flames of different colours. The use of chlorine and its compounds in disinfectants and bleaches has saved many lives, and you will learn something of the chemistry involved in how these products work.
 
-Youwill alsolearn abouttitrations,especiallyhowtodo them accurately,andcarryoutcalculationsfromresults.
+You will also learn about titrations, especially how to do them accurately, and carry out calculations from results.
 MATHS SKILLS FOR THIS TOPIC
 
 • Carry outcalculationsusingnumbersinordinaryform
@@ -11986,21 +11997,23 @@ table A Colour descriptions obtained when Group1 and 2 compounds undergoa flame 
 table A Colour descriptions obtained when Group1 and 2 compounds undergoa flame test.
 
 Therearealsosomemetalcationswithcharacteristicflame colours that are not in Groups 1 or 2. For example, copper compoundsproduce ablue-green colourinaflametest.
-WHATCAUSESTHECOLOURSINFLAMETESTS?
 
-The simple answer is electron transitions. However, we need a more completeexplanation than this.
+#### WHATCAUSESTHECOLOURSINFLAMETESTS?
+WHAT CAUSES THE COLOURS IN FLAME TESTS?
+
+The simple answer is electron transitions. However, we need a more complete explanation than this.
 
 You know from Topic 2 that electrons occupy orbitals in specific energy levels in an atom. These are often represented using electron configurations such as 2.8.1 (for sodium).
 
-Electrons can absorb energy and move to higher energy levels. Sometimestheterm'groundstate'isusedtodescribeanatom with allitselectronsintheirlowestpossibleenergylevels.If an electronmovestoahigherenergylevel,thenthenewsituation canbedescribed as an'excited state'.This movement of an electron to an excited state occurs during a flame test.
+Electrons can absorb energy and move to higher energy levels. Sometimes the term 'ground state' is used to describe an atom with all its electrons in their lowest possible energy levels. If an electron moves to a higher energy level, then the new situation can be described as an 'excited state'. This movement of an electron to an excited state occurs during a flame test.
 
-However,thismovementisimmediatelyfollowedbythereturn of the electron to its ground state, which releases energy. If this energy corresponds to radiation in the visible light spectrum, then a characteristiccolour appears-thisistheflametest colour.
+However, this movement is immediately followed by the return of the electron to its ground state, which releases energy. If this energy corresponds to radiation in the visible light spectrum, then a characteristic colour appears - this is the flame test colour.
 
-fig BThe wavelengths of the spectrum of visible light.
+fig B The wavelengths of the spectrum of visible light.
 
-For example,the visible spectrum covers the part of the electromagnetic spectrum in the wavelength range 400-700 nm. The electron transition in sodium corresponds to a wavelength of about 590 nm, which is in the yellow-orange part of the spectrum, so this is the colour of a sodium compound in a flame test. The electron transition in magnesium correspondsto a wavelength outside the visible spectrum, so there is no flame colour for magnesium.
+For example, the visible spectrum covers the part of the electromagnetic spectrum in the wavelength range 400-700 nm. The electron transition in sodium corresponds to a wavelength of about 590 nm, which is in the yellow-orange part of the spectrum, so this is the colour of a sodium compound in a flame test. The electron transition in magnesium corresponds to a wavelength outside the visible spectrum, so there is no flame colour for magnesium.
 
-figCTheyellow-orangecolour of sodiumstreet lights is the same asthe colourofsodiuminaflametest.
+fig C The yellow-orange colour of sodium street lights is the same as the colour of sodium in a flame test.
 LEARNING TIP
 
 Remember that doinga flame teston a magnesium compound has nothing to do with burning magnesium metal in a Bunsen flame. Whenmagnesiummetalburns,itchangesfromMgatomstoMg2+ ions.Magnesium compounds already contain Mg2+ions.
@@ -12125,31 +12138,34 @@ Here are a couple of sample equations:
 • bariumreactingwithbromine
 
 Ba+Br2→BaBr2
-HALOGEN/HALIDEDISPLACEMENTREACTIONS
 
-A more reactive halogen can displace a less reactive halogen from one of its compounds.So:
+#### HALOGEN/HALIDEDISPLACEMENTREACTIONS
+HALOGEN/HALIDE DISPLACEMENT REACTIONS
 
-• ·chlorinedisplacesbromineandiodine
+A more reactive halogen can displace a less reactive halogen from one of its compounds. So:
 
-• ·brominedisplacesiodinebutnot chlorine
+• · chlorine displaces bromine and iodine
 
-• ·iodinedoesnotdisplaceeitherchlorineorbromine.
+• · bromine displaces iodine but not chlorine
 
-Thesereactions occurin aqueous solution,so anyreaction that occurs is indicated by a colour change. One problem in interpreting colour changes in thesereactions is the similarity of some colours andthevariationincolourwithconcentration.Forexample,bromine inits liquidstateisred-brown,butbromine dissolvedinwater might be orange or yellow,depending on the concentration.Iodine dissolved inwatermay also appearbrown atsomeconcentrations.
+• · iodine does not displace either chlorine or bromine.
 
-Whendoingthesereactions,itisagoodideatoadd anorganic solvent(such ascyclohexane) after thereaction,and then shake the tube.Halogens aremore soluble in cyclohexane than inwater, so the halogen dissolves in the organic upper layer, where its colour canmore easilybe seen.FigA shows the colours of thehalogens dissolved in cyclohexane.
+These reactions occur in aqueous solution, so any reaction that occurs is indicated by a colour change. One problem in interpreting colour changes in these reactions is the similarity of some colours and the variation in colour with concentration. For example, bromine in its liquid state is red-brown, but bromine dissolved in water might be orange or yellow, depending on the concentration. Iodine dissolved in water may also appear brown at some concentrations.
 
-fig ALook at the upper layer in each tube. The pale green colour of chlorine does not change much,the orange colour of bromine looks a bit darker,but the colour of iodine changes topurple or violet in cyclohexane.
+When doing these reactions, it is a good idea to add an organic solvent (such as cyclohexane) after the reaction, and then shake the tube. Halogens are more soluble in cyclohexane than in water, so the halogen dissolves in the organic upper layer, where its colour can more easily be seen. Fig A shows the colours of the halogens dissolved in cyclohexane.
+
+Fig A Look at the upper layer in each tube. The pale green colour of chlorine does not change much, the orange colour of bromine looks a bit darker, but the colour of iodine changes to purple or violet in cyclohexane.
 
 Here are some sample equations:
 
-• chlorinedisplacingbromine
+• chlorine displacing bromine
 
-Cl+2NaBr→2NaCl+Br2 Br2+ 2I→2Br+I2
+Cl₂ + 2NaBr → 2NaCl + Br₂
+Br₂ + 2I⁻ → 2Br⁻ + I₂
 
 • bromine displacing iodine
 
-These equations are examples of redox reactions. The reacting halogendecreasesitsoxidationnumberfrom0to-1,and the reactinghalideincreases itsoxidation numberfrom-1 to 0.
+These equations are examples of redox reactions. The reacting halogen decreases its oxidation number from 0 to -1, and the reacting halide increases its oxidation number from -1 to 0.
 
 #### HALOGEN/HALIDEDISPLACEMENTREACTIONS
 The decreasing reactivity of chlorine, bromine and iodine in the reactions abovecanbeexplainedusingthesamefactors asin
@@ -13008,19 +13024,21 @@ Considertheacceptedmeaningsoftwotermsbrieflymentioned in Topic 8D.4 (table A).
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | randomerror     | This is an error caused by unpredictable changes in conditions such as temperature or pressure,orbya differenceinrecordingthat is difficult to get exactly right. |
 | systematicerror | This is an error caused by the apparatus, and leads to therecordedvalue being either too low or too high.                                                         |
-RANDOMERRORS
+
+#### RANDOMERRORS
+RANDOM ERRORS
 
 Here are examples of random errors.
 
-• The volume of a gas collected in a syringe is measured in differentexperimentsdoneonthesameday.Theatmospheric pressure and the temperature of the laboratory may vary during theday,and thiswill cause an unpredictablechange in thevaluerecorded.
+• The volume of a gas collected in a syringe is measured in different experiments done on the same day. The atmospheric pressure and the temperature of the laboratory may vary during the day, and this will cause an unpredictable change in the value recorded.
 
-• Themass of an object ismeasured using the samebalance but at different times during the day. The values may differ slightly, as a result of changes in temperature, draughts or condensation ofwater vapour on thebalancepan.
+• The mass of an object is measured using the same balance but at different times during the day. The values may differ slightly, as a result of changes in temperature, draughts or condensation of water vapour on the balance pan.
 
-• An experimentis donewith a flask in anelectricwaterbath. The thermostatissetto50°C,butastheheaterautomatically switches on, the actual temperature rises slightly above 50°℃, and thenfallstoslightlyless than50°C after thethermostat switches off.
+• An experiment is done with a flask in an electric water bath. The thermostat is set to 50°C, but as the heater automatically switches on, the actual temperature rises slightly above 50°C, and then falls to slightly less than 50°C after the thermostat switches off.
 
-Repeating an experiment should lead to a more accurate final valuebeingrecordedbecausetheserandomfluctuationsbecome lessimportantwhenvaluesareaveraged.
+Repeating an experiment should lead to a more accurate final value being recorded because these random fluctuations become less important when values are averaged.
 
-figAWhenrecordingaliquidlevel,theoperatorshouldviewthe meniscus at eyelevel (horizontally). This diagram shows that minor variationsfromthehorizontalcanbeconsidered asrandomerrors.If the meniscus is consistently viewed from above,then the errorcan be described as systematic.
+fig A When recording a liquid level, the operator should view the meniscus at eye level (horizontally). This diagram shows that minor variations from the horizontal can be considered as random errors. If the meniscus is consistently viewed from above, then the error can be described as systematic.
 SYSTEMATICERRORS
 
 Here are examples ofsystematicerrors.
@@ -13795,17 +13813,19 @@ LEARNING OBJECTIVES
 According to the collision theory,reactant particles have to collidewith sufficient energybefore they the frequency of collisions with sufficient energy between reactant particles. This is often true, but as in so many situations in chemistry, there are exceptions. You will learn about these in Topic 11 (Book 2:IAL).
 
 Collisionsthatresultinareaction arecalledsuccessfulcollisions.
-THEEFFECTOFCONCENTRATION
 
-Forreactionsinsolution,anincreasein concentration often causes anincreaseinreactionrate. For many reactions,if the concentration of a solution is increased, then the frequency of collisions more of them in a volume of solution. The frequency of successful collisions increases (i.e. there are more successful collisionspersecond),whichinturnproduces anincreaseintherate ofreaction.
+#### THEEFFECTOFCONCENTRATION
+THE EFFECT OF CONCENTRATION
 
-The graph in fig A shows the effect of the change in volume of carbon dioxide given off with time for thereactionbetween calcium carbonate and excessdilutehydrochloric acid.
+For reactions in solution, an increase in concentration often causes an increase in reaction rate. For many reactions, if the concentration of a solution is increased, then the frequency of collisions more of them in a volume of solution. The frequency of successful collisions increases (i.e. there are more successful collisions per second), which in turn produces an increase in the rate of reaction.
+
+The graph in fig A shows the effect of the change in volume of carbon dioxide given off with time for the reaction between calcium carbonate and excess dilute hydrochloric acid.
 
 Time
 
-• figAA concentration-timegraph showing the effectof thechangeinvolumeof carbon dioxidegivenoff with time for thereaction betweencalciumcarbonate and excess dilute hydrochloricacid.
+• fig A A concentration-time graph showing the effect of the change in volume of carbon dioxide given off with time for the reaction between calcium carbonate and excess dilute hydrochloric acid.
 
-Curve A represents the higher concentration of acid.You will notice that the gradient of curve A is alwaysgreaterthan thegradient ofcurveB.You will alsonotice thatcurveAlevels offbefore curveB. Both factors indicate that the rate of reaction is greater for the higher concentration of acid.
+Curve A represents the higher concentration of acid. You will notice that the gradient of curve A is always greater than the gradient of curve B. You will also notice that curve A levels off before curve B. Both factors indicate that the rate of reaction is greater for the higher concentration of acid.
 THEEFFECTOFPRESSURE
 
 For a reaction in which molecules collide and react in the gas phase, an increase in pressure will causeanincreaseintherateofreaction.
@@ -15383,19 +15403,21 @@ on the C of the C—OHgroup-the tertiary structure does not.
 THEPRODUCTSOFOXIDATION KETONES
 
 When a secondary alcohol is oxidised, the organic product belongs to a homologous series called ketones. A simplified formulaforaketoneisRCOR.Usingthesame symbol R twice suggests that the two alkyl groups are the same (for example, alkyl groups are meant to be different, then the R symbols can be altered slightly.For example,one could be R and the other could be R'. Another way to show that the alkyl groups are different is for one tobe R and the other R2.
-ALDEHYDESANDCARBOXYLICACIDS
 
-to a homologous series called aldehydes.A simplified formula for an aldehyde is RCHO. This should not be written as RCOH, which would imply that the molecule contains an OH group.
+#### ALDEHYDESANDCARBOXYLICACIDS
+ALDEHYDES AND CARBOXYLIC ACIDS
 
-There is a complication with aldehydes that is not the case with ketones. This is that aldehydes are more easily oxidised than alcohols, sowhen aprimary alcohol is oxidised,the aldehydeformedmaybe oxidised furtherWhen analdehyde is oxidised,theprocessinvolves atom gained goes between the C and H of the CHO group. The organic product belongs to a homologous series called carboxylic acids. A simplified formula for a carboxylic acid is RCOOH.
+to a homologous series called aldehydes. A simplified formula for an aldehyde is RCHO. This should not be written as RCOH, which would imply that the molecule contains an OH group.
 
-Thesereactions aresummarisedbelow.
+There is a complication with aldehydes that is not the case with ketones. This is that aldehydes are more easily oxidised than alcohols, so when a primary alcohol is oxidised, the aldehyde formed may be oxidised further. When an aldehyde is oxidised, the process involves atom gained goes between the C and H of the CHO group. The organic product belongs to a homologous series called carboxylic acids. A simplified formula for a carboxylic acid is RCOOH.
+
+These reactions are summarised below.
 
 alcohol acid
 
-The usual reagentfor these oxidationreactions is amixture of potassium dichromate(VI) and dilute sulfuric acid.Unlike with the inorganic reagents used previously, equations involving thismixturedonotneed tobewritten(becausethey arevery complicated). Instead, the oxidising agent is represented by [O]. This symbol simply represents an oxygen atom provided by the oxidising agent.Whenever the mixture ofpotassium dichromate(VI) and sulfuric acid is used as an oxidising agent, there is a colour changefrom orange togreen.
+The usual reagent for these oxidation reactions is a mixture of potassium dichromate(VI) and dilute sulfuric acid. Unlike with the inorganic reagents used previously, equations involving this mixture do not need to be written (because they are very complicated). Instead, the oxidising agent is represented by [O]. This symbol simply represents an oxygen atom provided by the oxidising agent. Whenever the mixture of potassium dichromate(VI) and sulfuric acid is used as an oxidising agent, there is a colour change from orange to green.
 
-Sonowwe canwrite someequationsforexamples ofoxidation reactions. The names of the organic products are given,but a fuller study of these products is outside the scope of IAS.
+So now we can write some equations for examples of oxidation reactions. The names of the organic products are given, but a fuller study of these products is outside the scope of IAS.
 
 Propan-1-ol to propanal:
 
@@ -15403,21 +15425,21 @@ CH₃CH₂CH₂OH + [O] → CH₃CH₂CHO + H₂O
 
 Propanal to propanoic acid:
 
-CHCH,CHO +[O] → CH,CH,COOH
+CH₃CH₂CHO + [O] → CH₃CH₂COOH
 
 Propan-2-ol to propanone:
 
-CHCH(OH)CH+[O]→CHCOCH+HO
+CH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O
 
-You do not need toknow themechanisms of any of thesereactions.
+You do not need to know the mechanisms of any of these reactions.
 
-DIFFERENTPRACTICALTECHNIQUES
+DIFFERENT PRACTICAL TECHNIQUES
 
-Becauseoftheeasieroxidationofaldehydescomparedwith alcohols,two differenttechniques are used.These are:
+Because of the easier oxidation of aldehydes compared with alcohols, two different techniques are used. These are:
 
-• ·heating under reflux
+• heating under reflux
 
-• distillationwith addition.
+• distillation with addition.
 HEATINGUNDERREFLUX
 
 Whentheoxidation is intended tobe complete(toobtainaketone or a carboxylic acid),the technique used isheatingunderreflux. You cansee the apparatusfor this technique in the diagram.
@@ -15597,11 +15619,11 @@ CHECKPOINT
 • 3.What arethelimitationsof usingthemeasurementof aboilingtemperatureasa way of assessingthe purityof anorganicliquid?
 SUBJECT VOCABULARY
 
-simpledistillationamethod used toseparateliquidswithvery differentboilingtemperaturesbyboiling and condensing
+simple distillation a method used to separate liquids with very different boiling temperatures by boiling and condensing
 
-fractional distillationamethod used toseparateliquidswithsimilarboilingtemperatures,byboiling and condensing,using a fractionating column
+fractional distillation a method used to separate liquids with similar boiling temperatures, by boiling and condensing, using a fractionating column
 
-solventextractionamethodusedtoseparatealiquidfromamixturebycausingittomovefromthe mixturetothesolvent
+solvent extraction a method used to separate a liquid from a mixture by causing it to move from the mixture to the solvent
 
 ## Topic 10: Unit 2: Energetics, Group Chemistry, Halogenoalkanes and Alcohols
 
@@ -15786,15 +15808,15 @@ B (m/z=43)
 (CHCOCH)+→CHCO++CH3
 INTERPRETATION
 
-Hereare themainpoints thatcanbededucedfrom thesimplified massspectra.
+Here are the main points that can be deduced from the simplified mass spectra.
 
-• Bothmassspectrashowapeakatm/z=60.This correspondsto themolecularionCHO+（relativemolecularmassof CHOis 60.0),but thisinformation doesnothelpin deducingthestructure
+• Both mass spectra show a peak at m/z=60. This corresponds to the molecular ion CHO⁺ (relative molecular mass of CHO is 60.0), but this information does not help in deducing the structure
 
-• Both C and D have a peak at m/z = 15, which is caused by the CHion.As thisispresentinboth,thisinformation doesnothelp todistinguishbetweenthetwostructures.
+• Both C and D have a peak at m/z = 15, which is caused by the CH₃ ion. As this is present in both, this information does not help to distinguish between the two structures.
 
-• Oneobvious difference isa majorpeak at m/z=31 in C, which is notpresent inD.This couldbe caused by CHOH*. Whenconsideredwiththepeakatm/z=15(CH)andaCH2 group,this suggests the structureCHCHCHOH,which is propan-1-ol.
+• One obvious difference is a major peak at m/z=31 in C, which is not present in D. This could be caused by CH₂OH⁺. When considered with the peak at m/z=15 (CH₃) and a CH₂ group, this suggests the structure CH₃CH₂CH₂OH, which is propan-1-ol.
 
-• The other obvious difference is amajorpeak at m/z=45 inD, which isnotpresentin C.ThiscouldnotbecausedbyCOOH+ becauseDcontains only1 oxygen atom.The otherpossibility isCHCHOH+,whichwhenconsideredwiththepeakatm/z=15 (CH) suggests the structure CHCH(OH)CH3,which is propan-2-ol.
+• The other obvious difference is a major peak at m/z=45 in D, which is not present in C. This could not be caused by COOH⁺ because D contains only1 oxygen atom. The other possibility is CH₃CHOH⁺, which when considered with the peak at m/z=15 (CH₃) suggests the structure CH₃CH(OH)CH₃, which is propan-2-ol.
 CHECKPOINT
 
 • 1.Write anequationto show theformation of the ethyl cation in thefragmentationof themolecularionofpentane.
@@ -15884,7 +15906,7 @@ In the example spectrum in this topic, the strong absorption at 1700cm-1is cause
 Sometimes a missing absorption is just as useful. In the example, there is no absorption in the 3300-2500 cm-1 region,so the compound does notcontain an OHgroup ofa carboxylic acid. Therefore, the absorption at 1700 cm-1 strongly suggests that the compoundis aketone andnotacarboxylicacid.
 LEARNING TIP
 
-Inaninfraredspectrum,rememberthatthehorizontalscaleuses wavenumbertorepresentfrequency,andthatthescalechangesat 2000cm-1.
+In an infrared spectrum, remember that the horizontal scale uses wavenumber to represent frequency, and that the scale changes at 2000 cm⁻¹.
 CHECKPOINT
 
 • 1.Explain whyhydrogenfluoride absorbs infrared radiation but fluorine does not.
@@ -15965,7 +15987,7 @@ WORKEDEXAMPLE3
 An organiccompound hasabsorptionsin theinfraredregion at thesewavenumbers:3675,2870and1735cm-1.Whichfunctional groups does it contain?
 Answer
 
-O-H(alcohol),C-H and C=O(aldehyde)
+O-H (alcohol), C-H and C=O (aldehyde)
 WORKEDEXAMPLE4
 
 An organic compound has absorptions in these wavenumber ranges in the infrared region:3500-3300and3300-2500cm-1.Which functional groups does itcontain?
@@ -16008,17 +16030,17 @@ ANALYSIS,INTERPRETATION,CRITICALTHINKING
 The following extract comes from an article entitled 'Five rings good, four rings bad'. The article highlights the problem of performanceenhancing drug misuse in sport and,in particular, the use of'designer'steroids that are not detectable by routine drug testing.This extractfocuses on how analytical chemists identified a sample of anunknown steroid as tetrahydrogestrinone (THG).
 HOW DON CATLIN'S TEAM CRACKED THG
 
-On13June2003,DonCatlinreceivedamethanolicsolutionofan unknownsteroid,recoveredfrom a hypodermicsyringe.Heranstandard GC-MStestsonthesolution,andsynthesisedseveral derivatives. Attempts toidentifythesteroidfailed because themassspectrum containedalargenumberofunidentifiablepeaks.Theonlycompoundthat theycouldidentify at thisstagewas a small amountof another anabolic steroid,norbolethone,evidentlypresent as animpurity.
+On 13 June 2003, Don Catlin received a methanolic solution of an unknown steroid, recovered from a hypodermic syringe. He ran standard GC-MS tests on the solution, and synthesised several derivatives. Attempts to identify the steroid failed because the mass spectrum contained a large number of unidentifiable peaks. The only compound that they could identify at this stage was a small amount of another anabolic steroid, norbolethone, evidently present as an impurity.
 
-Catlin suspected that the'unknown' sharedacommoncarbonskeleton with norbolethone.However,they noted a peak in itsmass spectrum with m/z=312,and thoughtthis was themolecularion.Accurate mass measurement gave 312.2080, fromwhichtheydeducedthe compound had themolecular formula C2H2sO2.
+Catlin suspected that the 'unknown' shared a common carbon skeleton with norbolethone. However, they noted a peak in its mass spectrum with m/z = 312, and thought this was the molecular ion. Accurate mass measurement gave 312.2080, from which they deduced the compound had the molecular formula C₂₂H₃₂O₂.
 
-fig ADon Catlin
+fig A Don Catlin
 
-When they compared the mass spectrum of the unknown with other steroids, itbecameclearthatitsharedfeatureswithgestrinoneandtrenbolone.
+When they compared the mass spectrum of the unknown with other steroids, it became clear that it shared features with gestrinone and trenbolone.
 
-All three compounds had the same fragments with m/zvalues at 211 and belowpresent,so Catlindeduced that theycontained thesameA,B and C rings.
+All three compounds had the same fragments with m/z values at 211 and below present, so Catlin deduced that they contained the same A, B and C rings.
 
-Furthermore,when theMSof theunknownwascomparedwith gestrinone,thefragments with m/z above 240occurred 4Da higher in the unknown,suggesting thatit wasgestrinone withfour additional hydrogen atoms.A possibilitywas that the terminal alkyne groupin gestrinone had been reduced to an ethyl group.
+Furthermore, when the MS of the unknown was compared with gestrinone, the fragments with m/z above 240 occurred 4 Da higher in the unknown, suggesting that it was gestrinone with four additional hydrogen atoms. A possibility was that the terminal alkyne group in gestrinone had been reduced to an ethyl group.
 
 #### HOW DON CATLIN'S TEAM CRACKED THG
 Havingtentativelyidentified theunknownsteroid as tetrahydrogestrinone, theteam thenpreparedan authenticsampleof THGbycatalytic hydrogenation ofgestrinone.Thisrequiredcareful control of conditions (0°C)to prevent hydrogenation of C=C double bonds(see equation in fig C).The retention time and mass spectra of the synthetic THG matched the unknown material exactly.
@@ -16682,7 +16704,7 @@ Multiplechoicequestionslookeasyuntilyoutrytoanswer them.Very often they require 
 • If you change your mind, put a line through the box ( and then mark your new answer with a cross ().
 
 #### Averagestudentanswer
-|   C1O |   C1O |   C1 |
+|   C10 |   C10 |   C1 |
 |-------|-------|------|
 |    +1 |    +3 |   -1 |
 COMMENTARY

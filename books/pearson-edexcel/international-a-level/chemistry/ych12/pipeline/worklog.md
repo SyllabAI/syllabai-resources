@@ -163,3 +163,31 @@ Stage Summary:
   unchanged at 74/800 (quota-walled all session — probes 429 throughout).
 - Polish workspaces for BOTH lanes rebuilt and verified; the grind recipe is
   live the moment the wall lifts.
+
+---
+Task ID: T-PARSE-YCH12-1-POLISH-CONT-1
+Agent: Z.ai (main, zai-web)
+Task: LLM polish R1 continuation under the operator directive "Run polish
+after the firewall is lifted" (traces 1a1739e8ff0dc1e1 / 1a17520d1e2deda1).
+Workspace rebuilt from the repo recipe after the sandbox reset (byte-identity
+PASS bfcb53df…, third independent reproduction; validator green).
+
+Work Log:
+- Same burst-harvest regime as the YCH11 R4 lane (the wall opened in brief
+  ~30-120 s windows; long closures between).
+- INCIDENT (disclosed, shared with the YCH11 lane): one protocol invocation
+  ran the workspace rebuild after a harvest — repo evidence (87 records)
+  re-copied over the workspace file, clobbering the then-accumulated 105 ok
+  back to 74. Protocol scripts fixed (no evidence re-copy post-harvest;
+  clobber guard on rebuild); grind resumed and recovered past the loss.
+- Final protocol: merge from pristine baseline — 1400 chunks, llm_repaired
+  79, text changed 79, anchor check PASS (0 drift); audit: 0 Unicode-unit
+  regressions; validate: ALL CHECKS PASSED.
+- Landed: parsed/ corpus + parse_report + full_book_docling.md refreshed;
+  evidence/llm_repairs_ych12.jsonl now 93 records (79 ok / 7 rejected /
+  7 error-cum-429). Ledgers updated in the same commit.
+
+Stage Summary:
+- Polish R1 parked at **79/800** (done-set 86 -> todo 714). The grind recipe
+  is unchanged and the intermittent wall makes every ping turn productive;
+  the 182-record rescue sidecar still awaits the fresh-parse (v2) lane.

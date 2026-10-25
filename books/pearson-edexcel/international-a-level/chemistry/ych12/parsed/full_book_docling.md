@@ -2837,9 +2837,9 @@ CHECKPOINT
 • 2.Arrange thefollowing in order of entropy,with the lowest first: steamat110°C;iceat-10°C;waterat30°C
 SUBJECT VOCABULARY
 
-entropyapropertyofmatter thatisassociatedwiththe degreeofdisorder,ordegree of randomness,ofparticles(i.e atoms,moleculesorions),and alsowiththedistributionofthe quantaofenergybetweenthe particles
+entropy a property of matter that is associated with the degree of disorder, or degree of randomness, of particles (i.e atoms, molecules or ions), and also with the distribution of the quanta of energy between the particles
 
-spontaneousprocessaprocess thattakesplacewithout continuousinterventionby us
+spontaneous process a process that takes place without continuous intervention by us
 LEARNING OBJECTIVES
 
 • Understand that the total entropy change of any reaction is the sum of the entropy change of the system and the entropy change of the surroundings,summarised by the expression:
@@ -8129,15 +8129,15 @@ Themolecularformula of CisC4HsO and itsM,value is:
 Although none of the calculated M, values exactly matches the accurate M,value obtained from thehigh resolutionmassspectrometer,thevalueismuchclosertoCthantoAorB,socompoundYisC.
 WORKEDEXAMPLE3
 
-figBA highresolutionmassspectrum.
+figBA high resolution mass spectrum.
 
-Suggest whichof these compounds areresponsibleforthemassspectrum:
+Suggest which of these compounds are responsible for the mass spectrum:
 
-• PC3H8
+• P C3H8
 
-• Q CH;CHO
+• Q CH3CHO
 
-• RO=C=O
+• R O=C=O
 Answer
 
 M,of P=(3×12.0000)+(8×1.0078)=44.0624
@@ -9145,17 +9145,19 @@ These standard conditions apply to all equilibria.
 EXAM HINT
 
 Manyexamquestionswill askyoutoprovideacleardefinitionfor standardelectrodepotential.Thismaybeworth2or3marks.Make surethatyouknowtheexactdefinition,includingthespecific standardconditions.
-MEASURINGASTANDARDELECTRODEPOTENTIAL
 
-We arenow inapositionto appreciatehow tomeasurethe standardelectrodepotentialofametalion|metalsystem,such as that between magnesium ions and magnesium (Mg2+ | Mg).
+#### MEASURINGASTANDARDELECTRODEPOTENTIAL
+MEASURING A STANDARD ELECTRODE POTENTIAL
 
-Todothisweconnectthestandard hydrogenelectrodetothe magnesiumelectrodeviaacircuit containing a highresistance voltmeterFigCshowsthearrangementoftheapparatus.
+We are now in a position to appreciate how to measure the standard electrode potential of a metal ion | metal system, such as that between magnesium ions and magnesium (Mg²⁺ | Mg).
 
-figCUsinga standard hydrogenelectrode tomeasure a standard electrodepotential.
+To do this we connect the standard hydrogen electrode to the magnesium electrode via a circuit containing a high resistance voltmeter. Fig C shows the arrangement of the apparatus.
 
-The two components of the apparatus are knowm as half-cells. The two half-cells combine to make a complete cell.
+Fig C: Using a standard hydrogen electrode to measure a standard electrode potential.
 
-Thesaltbridgeisneededto completetheelectricalcircuit.It usuallycontainsaconcentratedsolutionofpotassiumnitratein the form of liquid or a gel. It functions by allowing the movement ofions.Theoretically,the salt bridge can contain anyionic salt,butneitheroftheionspresentshouldinterferewiththe components of the half-cells. For example,if the right-hand half-cell containsasolutionofsilvernitrate,thenpotassium chloridewouldbeunsuitableforthesaltbridgebecausethe chlorideionswouldinteractwith thesilverionstoform a precipitateofsilverchloride.
+The two components of the apparatus are known as half-cells. The two half-cells combine to make a complete cell.
+
+The salt bridge is needed to complete the electrical circuit. It usually contains a concentrated solution of potassium nitrate in the form of liquid or a gel. It functions by allowing the movement of ions. Theoretically, the salt bridge can contain any ionic salt, but neither of the ions present should interfere with the components of the half-cells. For example, if the right-hand half-cell contains a solution of silver nitrate, then potassium chloride would be unsuitable for the salt bridge because the chloride ions would interact with the silver ions to form a precipitate of silver chloride.
 DID YOU KNOW?
 
 Thebest instrument touse tomeasure thepotential differenceis apotentiometer. No electronsflowwhenthis instrumentisused,soboth half-cell reactions arein equilibrium.
@@ -9523,31 +9525,31 @@ Ecl= +0.34V
 As before, the sign of E°cen indicates the polarity of the righthandelectrode.Zincisthenegativeelectrodeofthecellformed incombinationwiththestandardhydrogenelectrode.Copperis thepositive electrode of the cell formed in combination with the standardhydrogenelectrode.
 CREATIVITY,
 
-ADAPTIVELEARNING
+ADAPTIVE LEARNING
 
-• (a)Drawa labelled diagramof the apparatusthat canbeused toconstructacell,understandardconditions,froma Zn²+|Znhalf-cell and aFe3+,Fe²+|Pthalf-cell.
+• (a) Draw a labelled diagram of the apparatus that can be used to construct a cell, under standard conditions, from a Zn²⁺|Zn half-cell and a Fe³⁺,Fe²⁺|Pt half-cell.
 
-• (b)The standard electrodepotentialsforthe half-cells are:
+• (b) The standard electrode potentials for the half-cells are:
 
-Explainthe directionofelectronflowintheexternalcircuit when this cell is in use.
+Explain the direction of electron flow in the external circuit when this cell is in use.
 
-• (c)Writethecelldiagramforthiscellandcalculatetheemf (E cell) of the cell.
+• (c) Write the cell diagram for this cell and calculate the emf (E cell) of the cell.
 
-• 2. Chlorinemaybepreparedinthelaboratorybyreactingdilute hydrochloric acid with potassium manganate(Vll). The standard electrodepotentialsthatrelatetothisreactionare:
+• 2. Chlorine may be prepared in the laboratory by reacting dilute hydrochloric acid with potassium manganate(VII). The standard electrode potentials that relate to this reaction are:
 
-Cl2(g) +e = Cl-(aq)
+Cl₂(g) + e⁻ = Cl⁻(aq)
 
-E°= +1.36V
+E° = +1.36 V
 
-MnO4(aq)+8H+(aq)+5e=Mn²+(aq)+4H2O(l）E=+1.51V
+MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ = Mn²⁺(aq) + 4H₂O(l) E° = +1.51 V
 
-• (a)Calculatetheemf,Ecell,ofacellconstructedfromthesetwo redoxsystems.
+• (a) Calculate the emf, Ecell, of a cell constructed from these two redox systems.
 
-• (b)Explainthedirectionofelectronflowthatwouldtakeplace intheexternalcircuitof thiscellwheninuse.
+• (b) Explain the direction of electron flow that would take place in the external circuit of this cell when in use.
 
 • (c) Write the cell diagram for this cell.
 
-3STANDARD ELECTRODEPOTENTIALS AND THERMODYNAMICFEASIBILITY
+3 STANDARD ELECTRODE POTENTIALS AND THERMODYNAMIC FEASIBILITY
 LEARNING OBJECTIVES
 
 • Understand the importance of the conditions when measuring an electrode potential, E.
@@ -12619,23 +12621,25 @@ WHATISPHENOL?
 Most aromatic compounds have a benzene ring and an aliphatic part. In previous sections of this topicyou have covered some important reactions of thebenzene ring.You know many of the reactions of aliphatic compounds from Topic 15 and from Book 1. In this section we will look at one more aromatic compound with a familiar aliphatic group, the hydroxyl (OH) group.
 
 Phenol consists of a hydroxyl group joined to a benzene ring. It has some properties similar to an aliphatic alcohol such as ethanol, and you would expect it to undergo electrophilic substitution reactions becauseitcontains abenzenering.Itsstructureis:
-BROMINATIONOFPHENOL
 
-Youwill rememberfromSection18A.2thatbenzeneundergoesbromination,butthereactionneeds acatalystandthereactionmixturehastobeheatedunderreflux.Incontrast,thebrominationof phenoloccursatroomtemperaturewithoutacatalyst,andworkswithbrominewater.Thebromine wateris decolourised during thereaction, and the organicproduct forms as awhite precipitate.The equationforthereactionis:
+#### BROMINATIONOFPHENOL
+BROMINATION OF PHENOL
 
-Another obvious difference betweenbenzene and phenol is that the substitution reaction occurs three times, as there are three bromine atoms in the organic product.You can probably see why the name is 2,4,6-tribromophenol.The carbon joined to OHis carbon 1, the other carbons are numbered clockwise, and the three bromine atoms are joined to carbons 2, 4 and 6 in the ring.
+You will remember from Section 18A.2 that benzene undergoes bromination, but the reaction needs a catalyst and the reaction mixture has to be heated under reflux. In contrast, the bromination of phenol occurs at room temperature without a catalyst, and works with bromine water. The bromine water is decolourised during the reaction, and the organic product forms as a white precipitate. The equation for the reaction is:
 
-It is beyond the aims of this book to tryto explain why the reaction involves substitution by three bromineatomsandnotanyothernumberHoweverwecantrytoexplainwhythereactionoccurs muchmorereadilywithphenolthanwithbenzene.
+Another obvious difference between benzene and phenol is that the substitution reaction occurs three times, as there are three bromine atoms in the organic product. You can probably see why the name is 2,4,6-tribromophenol. The carbon joined to OH is carbon 1, the other carbons are numbered clockwise, and the three bromine atoms are joined to carbons 2, 4 and 6 in the ring.
 
-• ·The lone pair of electrons in the pz-orbital on the oxygen atom of the OH group interacts with the delocalisedpi(π)electronsinthering(figA).
+It is beyond the aims of this book to try to explain why the reaction involves substitution by three bromine atoms and not any other number However we can try to explain why the reaction occurs much more readily with phenol than with benzene.
 
-• Theelectrondensityabove andbelowtheringofatomsisincreased,aprocesssometimes referredtoas'activation'becausethemoleculeisnowmuchmorereactivetowardselectrophiles.
+• ·The lone pair of electrons in the pz-orbital on the oxygen atom of the OH group interacts with the delocalised pi(π) electrons in the ring (fig A).
+
+• The electron density above and below the ring of atoms is increased, a process sometimes referred to as 'activation' because the molecule is now much more reactive toward electrophiles.
 
 • ·Bromine molecules, although originally non-polar, are polarised as they approach the benzene ring. Eventually, the Br—Br bond breaks and the Br+ electrophile attacks the benzene ring.
 
 Fig A shows how the delocalised electrons in the π-bond change because of the presence of the oxygen.
 
-• figATheelectronsinthepz-orbitalofthe oxygen atombecomepartof thedelocalised electronsystem.This increasestheelectrondensityaboveandbelowthering andmakesthemoleculemore attractivetoelectrophiles such asBr*.
+• fig A The electrons in the pz-orbital of the oxygen atom become part of the delocalised electron system. This increases the electron density above and below the ring and makes the molecule more attractive to electrophiles such as Br*.
 USESOFPHENOLANDITSDERIVATIVES
 
 Oneoftheearliest andbestknownusesofphenolwasinantisepticsurgery,especiallybythe surgeon Joseph Lister.Since then,other antiseptics have been developed fromphenol. One of the most familiar of these is the product of the chlorination of phenol - this is 2,4,6-trichlorophenol, better known as the antiseptic TCP. Nowadays, phenol is widely used in many industries, notably in themanufacture ofpolymers andpharmaceuticals.
