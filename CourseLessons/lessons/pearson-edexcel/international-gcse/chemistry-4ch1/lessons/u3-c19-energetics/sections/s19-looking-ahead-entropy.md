@@ -3,7 +3,7 @@ id: u3:c19:s19
 title: "Looking ahead: entropy"
 bookPage: 223
 chunkRefs: [chem_v3_u3_c19_pdf232_0887, chem_v3_u3_c19_pdf232_0888]
-specRefs: []
+specRefs: ["3.1"]
 blocks: []
 glossary: [entropy, activation-energy]
 ---

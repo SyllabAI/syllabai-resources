@@ -269,7 +269,8 @@ sections:
   chunkRefs:
   - chem_v3_u3_c19_pdf232_0887
   - chem_v3_u3_c19_pdf232_0888
-  specRefs: []
+  specRefs:
+  - '3.1'
   glossary:
   - entropy
   - activation-energy
@@ -288,7 +289,15 @@ sections:
   - chem_v3_u3_c19_pdf234_0897
   - chem_v3_u3_c19_pdf234_0898
   - chem_v3_u3_c19_pdf234_0899
-  specRefs: []
+  specRefs:
+  - '3.1'
+  - '3.2'
+  - '3.3'
+  - '3.4'
+  - 3.5C
+  - 3.6C
+  - 3.7C
+  - '3.8'
   glossary:
   - exothermic
   - endothermic
@@ -303,18 +312,11 @@ features:
   quick_checks: true
   summary: true
   can_you: true
-learning_objective: 'know that chemical reactions in which heat energy is given out
-  are described as exothermic, and those in which heat energy is taken in are described
-  as endothermic; describe simple calorimetry experiments for reactions such as combustion,
-  displacement, dissolving and neutralisation; calculate the heat energy change from
-  a measured temperature change using the expression Q = m c Δ T; calculate the molar
-  enthalpy change (ΔH) from the heat energy change, Q; draw and explain energy level
-  diagrams to represent exothermic and endothermic reactions; know that bond-breaking
-  is an endothermic process and that bond-making is an exothermic process; use bond
-  energies to calculate the enthalpy change during a chemical reaction; practical:
-  investigate temperature changes accompanying some of the following types of change:
-  • salts dissolving in water • neutralisation reactions • displacement reactions
-  • combustion reactions.'
+learning_objective: 'know that chemical reactions in which heat energy is given out are described as exothermic, and those in which heat energy is taken in are described as endothermic; describe simple
+  calorimetry experiments for reactions such as combustion, displacement, dissolving and neutralisation; calculate the heat energy change from a measured temperature change using the expression Q = m c
+  Δ T; calculate the molar enthalpy change (ΔH) from the heat energy change, Q; draw and explain energy level diagrams to represent exothermic and endothermic reactions; know that bond-breaking is an endothermic
+  process and that bond-making is an exothermic process; use bond energies to calculate the enthalpy change during a chemical reaction; practical: investigate temperature changes accompanying some of the
+  following types of change: • salts dissolving in water • neutralisation reactions • displacement reactions • combustion reactions.'
 receipts:
 - date: '2026-10-25'
   stage: S4
@@ -328,76 +330,34 @@ receipts:
   sections_total: '20'
   pack_status: published
   last_agent: T-BOOK-052 r0 (author + flip; trace 1a172db1e506318d)
-notes: 'T-BOOK-052 r0: section spine pinned from section-maps/u3-c19.json (scope of
-  record; raw map 17 sections -> authored 20 sections, chunk superset 71/71 with reattachments
-  receipt-verified — see verify_c19_s0.py S0.9 raw-map coverage). Title refinements/re-homings
-  vs raw map DISCLOSED: map s03 Combustion Reactions + map s04 Displacement Reactions
-  folded -> authored s03 Exothermic reactions in action (0825 = figure captions +
-  chapter cross-reminders; 0828 = the course examples list ending with the thermite
-  displacement example — the printed DISPLACEMENT REACTIONS heading is stray over
-  a general list); raw s04 boilerplate-attached tail 0829/0832/0833 split out -> authored
-  s04 Enthalpy change (∆H); raw s07 KEY-POINT-attached tail 0839-0842 split out ->
-  authored s08 Specific heat capacity and the Q = mc∆T equation; raw s09 Calculations
-  for Activity 1 -> authored s09 (procedure chunk 0846 rehomed: it is the practical
-  procedure continuation + Figure 19.9 caption, not calculations) + s10 Worked example:
-  the combustion calculation (0847 data + 0848 calc + hints 0850/0851); raw s10 ==
-  authored s11 Evaluating the combustion experiment (0854 alcohol-comparison KEY POINT
-  carried here); raw s11 Working Out Enthalpy Changes... (14 refs) split -> s12 solutions
-  intro + s13 displacement practical + s14 dissolving practical + s15 neutralisation
-  practical head (0869); raw s12 Calculations for Activity 4 -> authored s15 tail
-  (0871-0874); raw s14 Calculation of Enthalpy Changes...Using Bond Energies -> s17
-  Bond energies (0877-0879) + s18 head (0880 estimates, 0882 Hess, 0883 sign-convention
-  HINT + methane-chlorine worked calc); raw s15 Extension Work Extensionwork (0884-0886
-  methane-combustion worked example) -> authored s18 tail (the EXTENSION band carries
-  the examinable 3.7C calculation skill — furniture flattened, content carried in
-  full); raw s16 Looking Ahead-entropy -> authored s19 (OCR hyphen repair) + question-bank
-  chunks rehomed to s20; raw s17 End of Chemistry Only (band marker, not a title)
-  + question bank 0889-0899 -> authored s20 Chapter 19 questions close (c18 s15 End
-  of Unit 2 precedent). Safety chunk 0841 (spirit burner) rehomed map s08 -> authored
-  s09 (combustion practical). join_set DERIVED at S0-L0 from TWO objectives chunks
-  0820 (core) + 0821 (CHEMISTRY ONLY, split-objectives lane) x spine node igcse-chemistry-T3:SUBa
-  = 3.1-3.8 MIXED 5 core + 3 C-suffixed (3.5C/3.6C/3.7C) — the course''s FIFTH mixed
-  pack (f-0015 sibling audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14
-  all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3 —
-  no drift). FOUR disclosed f-0016 covers verifier-encoded: 3.3 chunk glyph-form Q
-  = mc∆T vs spine spaced Q = m c Δ T; 3.6C chunk ''bond breaking/bond making'' vs
-  spine hyphenated; 3.7C chunk mid-phrase doubling deduped; 3.8 chunk per-bullet doubling
-  deduped -> all spine-canonical pins. Absent numeric slots 0826/0827/0830/0831/0838/0849/0861/0870/0881/0891
-  (10): figure-class fragments (19.4/19.5/19.7/19.9/19.12/19.13/19.15/19.17 vicinities
-  + Q2 data) — apparatus and diagrams taught in words per the c15-c18 0635-class precedent;
-  0870 = the neutralisation sample-data table (initial temperature 19.3 °C enters
-  via the printed arithmetic of 0872 — no value invented); 0891 = a chapter-question
-  fragment (page-jump-only class). OCR repairs: H_2O(l)/H2O(|) -> H2O(l), ''Na OH''/''Na
-  Cl'' spacing -> NaOH/NaCl, iron(Ill) -> iron(III), ''2A(s)''/''AI2O3'' -> 2Al(s)/Al2O3,
-  ''2Fe (I)'' -> 2Fe(l) (thermite yields molten iron), Mg SO4 -> MgSO4, ''Delta H
-  = - 466 . 9 k J / mo l'' spacing class -> ΔH = -466.9 kJ/mol, ''As the rea t t t
-  rms up'' sentence-level repair (temperature of reaction mixture and surroundings
-  goes up), Cu CO3/Cu O -> CuCO3/CuO, ''Delta H = + 178 ,'' -> +178, copper(Il) ->
-  copper(II), CuSO, -> CuSO4, Znis -> Zn is, ''heat , en er gy , ch ig ne , (Q)''
-  -> heat energy change (Q), ''OH(aq) + H+(aq)'' -> OH-(aq) + H+(aq), ''= (0.02800)/(0.02800)''
-  concentration calc restored (0.0500 mol / 0.02800 dm3 = 1.79 mol/dm3, arithmetic-consistent
-  with printed 0.0500 mol), ''r ( )/(1000)'' moles calc restored (n(KOH) = 0.0250
-  x 2.00 = 0.0500 mol), ''Figpe e e nie.'' figure-caption garble (energy level diagram
-  described in words), ''International GSCE'' -> International GCSE, ''NO3 ion'' ->
-  NO3- ion, 0850 sig-fig HINT sentence repaired (round to the fewest significant figures
-  in the data, carry more through the calculator); OCR DOUBLING dedupe: 0820 practical
-  objectives bullets, 0821 chemistry-only objectives, 0829 delta-H KEY POINT, 0832
-  stability KEY POINT, 0866 safety line, 0872 use-same-calculation sentence, 0884
-  H2O(g) note. Content-type mislabels DISCLOSED: 0829/0832/0860 body-typed KEY POINT
-  furniture (carried as key-point boxes); 0868 safety-typed chunk is the dissolving
-  teaching body (temperature-decrease note + Q calc + moles calc — carried as s14
-  prose, no safety content); 0874 learning_objectives-typed chunk is the HCl-concentration
-  calc tail (carried as s15 prose); 0876 mixed key_point + CALCULATION heading + endothermic
-  stability tail split across s16/s17 multi-cited; question-bank chunks 0890/0892/0894/0896/0897/0899
-  learning_objectives-typed (question content, page-jump-only). Chapter-questions
-  bank 0889-0899 page-jump-only per licensing law (chunkRefs retained on s20 for provenance;
-  0895 bond-energy table + 0898 hexane data table are question content). Table 19.1
-  bond labels OCR-garbled DISCLOSED: printed headers ''H-O/C-Cl/I-O/Cl-Cl/H-H/H-Cl/HI''
-  with values 413/346/234/243/151/432/298 — labels restored by in-book arithmetic:
-  C-H 413 + Cl-Cl 243 + C-Cl 346 + H-Cl 432 pinned by the methane-chlorine worked
-  example (0883), H-I 298 ≈ 2 x I-I 151 pinned by the ''about twice as strong'' sentence
-  (0879), seventh column 234 label ''I-O'' unrestorable from the parse (I-Cl by elimination;
-  value as printed, disclosed low-confidence label); lesson table carries the six
-  arithmetic-pinned bonds + the 234 value with the I-Cl label + receipt disclosure.
-  course.yaml u3:c19 row PINNED in-lane (join_set + learning_objective spine-verbatim
-  + section_count 17->20, c13-c18 precedent).'
+notes: 'T-BOOK-052 r0: section spine pinned from section-maps/u3-c19.json (scope of record; raw map 17 sections -> authored 20 sections, chunk superset 71/71 with reattachments receipt-verified — see verify_c19_s0.py
+  S0.9 raw-map coverage). Title refinements/re-homings vs raw map DISCLOSED: map s03 Combustion Reactions + map s04 Displacement Reactions folded -> authored s03 Exothermic reactions in action (0825 = figure
+  captions + chapter cross-reminders; 0828 = the course examples list ending with the thermite displacement example — the printed DISPLACEMENT REACTIONS heading is stray over a general list); raw s04 boilerplate-attached
+  tail 0829/0832/0833 split out -> authored s04 Enthalpy change (∆H); raw s07 KEY-POINT-attached tail 0839-0842 split out -> authored s08 Specific heat capacity and the Q = mc∆T equation; raw s09 Calculations
+  for Activity 1 -> authored s09 (procedure chunk 0846 rehomed: it is the practical procedure continuation + Figure 19.9 caption, not calculations) + s10 Worked example: the combustion calculation (0847
+  data + 0848 calc + hints 0850/0851); raw s10 == authored s11 Evaluating the combustion experiment (0854 alcohol-comparison KEY POINT carried here); raw s11 Working Out Enthalpy Changes... (14 refs) split
+  -> s12 solutions intro + s13 displacement practical + s14 dissolving practical + s15 neutralisation practical head (0869); raw s12 Calculations for Activity 4 -> authored s15 tail (0871-0874); raw s14
+  Calculation of Enthalpy Changes...Using Bond Energies -> s17 Bond energies (0877-0879) + s18 head (0880 estimates, 0882 Hess, 0883 sign-convention HINT + methane-chlorine worked calc); raw s15 Extension
+  Work Extensionwork (0884-0886 methane-combustion worked example) -> authored s18 tail (the EXTENSION band carries the examinable 3.7C calculation skill — furniture flattened, content carried in full);
+  raw s16 Looking Ahead-entropy -> authored s19 (OCR hyphen repair) + question-bank chunks rehomed to s20; raw s17 End of Chemistry Only (band marker, not a title) + question bank 0889-0899 -> authored
+  s20 Chapter 19 questions close (c18 s15 End of Unit 2 precedent). Safety chunk 0841 (spirit burner) rehomed map s08 -> authored s09 (combustion practical). join_set DERIVED at S0-L0 from TWO objectives
+  chunks 0820 (core) + 0821 (CHEMISTRY ONLY, split-objectives lane) x spine node igcse-chemistry-T3:SUBa = 3.1-3.8 MIXED 5 core + 3 C-suffixed (3.5C/3.6C/3.7C) — the course''s FIFTH mixed pack (f-0015 sibling
+  audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3 — no drift). FOUR disclosed f-0016 covers verifier-encoded:
+  3.3 chunk glyph-form Q = mc∆T vs spine spaced Q = m c Δ T; 3.6C chunk ''bond breaking/bond making'' vs spine hyphenated; 3.7C chunk mid-phrase doubling deduped; 3.8 chunk per-bullet doubling deduped ->
+  all spine-canonical pins. Absent numeric slots 0826/0827/0830/0831/0838/0849/0861/0870/0881/0891 (10): figure-class fragments (19.4/19.5/19.7/19.9/19.12/19.13/19.15/19.17 vicinities + Q2 data) — apparatus
+  and diagrams taught in words per the c15-c18 0635-class precedent; 0870 = the neutralisation sample-data table (initial temperature 19.3 °C enters via the printed arithmetic of 0872 — no value invented);
+  0891 = a chapter-question fragment (page-jump-only class). OCR repairs: H_2O(l)/H2O(|) -> H2O(l), ''Na OH''/''Na Cl'' spacing -> NaOH/NaCl, iron(Ill) -> iron(III), ''2A(s)''/''AI2O3'' -> 2Al(s)/Al2O3,
+  ''2Fe (I)'' -> 2Fe(l) (thermite yields molten iron), Mg SO4 -> MgSO4, ''Delta H = - 466 . 9 k J / mo l'' spacing class -> ΔH = -466.9 kJ/mol, ''As the rea t t t rms up'' sentence-level repair (temperature
+  of reaction mixture and surroundings goes up), Cu CO3/Cu O -> CuCO3/CuO, ''Delta H = + 178 ,'' -> +178, copper(Il) -> copper(II), CuSO, -> CuSO4, Znis -> Zn is, ''heat , en er gy , ch ig ne , (Q)'' ->
+  heat energy change (Q), ''OH(aq) + H+(aq)'' -> OH-(aq) + H+(aq), ''= (0.02800)/(0.02800)'' concentration calc restored (0.0500 mol / 0.02800 dm3 = 1.79 mol/dm3, arithmetic-consistent with printed 0.0500
+  mol), ''r ( )/(1000)'' moles calc restored (n(KOH) = 0.0250 x 2.00 = 0.0500 mol), ''Figpe e e nie.'' figure-caption garble (energy level diagram described in words), ''International GSCE'' -> International
+  GCSE, ''NO3 ion'' -> NO3- ion, 0850 sig-fig HINT sentence repaired (round to the fewest significant figures in the data, carry more through the calculator); OCR DOUBLING dedupe: 0820 practical objectives
+  bullets, 0821 chemistry-only objectives, 0829 delta-H KEY POINT, 0832 stability KEY POINT, 0866 safety line, 0872 use-same-calculation sentence, 0884 H2O(g) note. Content-type mislabels DISCLOSED: 0829/0832/0860
+  body-typed KEY POINT furniture (carried as key-point boxes); 0868 safety-typed chunk is the dissolving teaching body (temperature-decrease note + Q calc + moles calc — carried as s14 prose, no safety
+  content); 0874 learning_objectives-typed chunk is the HCl-concentration calc tail (carried as s15 prose); 0876 mixed key_point + CALCULATION heading + endothermic stability tail split across s16/s17 multi-cited;
+  question-bank chunks 0890/0892/0894/0896/0897/0899 learning_objectives-typed (question content, page-jump-only). Chapter-questions bank 0889-0899 page-jump-only per licensing law (chunkRefs retained on
+  s20 for provenance; 0895 bond-energy table + 0898 hexane data table are question content). Table 19.1 bond labels OCR-garbled DISCLOSED: printed headers ''H-O/C-Cl/I-O/Cl-Cl/H-H/H-Cl/HI'' with values
+  413/346/234/243/151/432/298 — labels restored by in-book arithmetic: C-H 413 + Cl-Cl 243 + C-Cl 346 + H-Cl 432 pinned by the methane-chlorine worked example (0883), H-I 298 ≈ 2 x I-I 151 pinned by the
+  ''about twice as strong'' sentence (0879), seventh column 234 label ''I-O'' unrestorable from the parse (I-Cl by elimination; value as printed, disclosed low-confidence label); lesson table carries the
+  six arithmetic-pinned bonds + the 234 value with the I-Cl label + receipt disclosure. course.yaml u3:c19 row PINNED in-lane (join_set + learning_objective spine-verbatim + section_count 17->20, c13-c18
+  precedent).'

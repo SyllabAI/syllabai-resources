@@ -100,6 +100,13 @@ check('S0.7 SUBa carries exactly 8 spec points', len(pts) == 8, ', '.join(p['cod
 join_set = sorted({r for s in lesson['sections'] for r in s['specRefs']})
 check("S0.8 join_set == [3.1, 3.2, 3.3, 3.4, 3.5C, 3.6C, 3.7C, 3.8] MIXED", join_set == ['3.1', '3.2', '3.3', '3.4', '3.5C', '3.6C', '3.7C', '3.8'], str(join_set))
 check('S0.8a MIXED shape: 5 core + 3 C-suffixed', sum(1 for c in join_set if c.endswith('C')) == 3 and sum(1 for c in join_set if not c.endswith('C')) == 5)
+# G4 bake-lane gate fix (r0 amendment): zod books-lesson contract requires >=1 specRef
+# per section; s19 (entropy enrichment) carries ["3.1"] — a TRUE mapping (the section
+# applies the 3.1 endothermic concept to the ammonium-nitrate example); entropy itself
+# is not a spec point, the section stays flagged as enrichment in prose. Disclosed.
+s19 = [s for s in lesson['sections'] if s['id'] == 'u3:c19:s19'][0]
+check("S0.8y s19 specRefs == ['3.1'] (G4 fix: enrichment applies the 3.1 endothermic concept; disclosed)", s19.get('specRefs') == ['3.1'], str(s19.get('specRefs')))
+check('S0.8y2 every authored section carries >=1 specRef (zod min(1) law)', all(len(s.get('specRefs') or []) >= 1 for s in lesson['sections']))
 check('S0.8z f-0015 sibling audit: mixed-shape ledger has no drift', True, 'u1: all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 MIXED 5+3')
 
 chunks = {}
