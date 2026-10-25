@@ -14,9 +14,9 @@ Behaviour (fail-closed):
   - refuses to run if the target library directory already exists
   - refuses a library name outside ^[A-Z][A-Z0-9]*_[A-Z0-9.]+$
     (the <SUBJECT>_<SPEC> contract; SPEC is the official spec code)
-  - creates the five work dirs with .gitkeep sentinels
-  - writes manifest.yaml / source_manifest.yaml / curriculum_registry.yaml from the
-    templates with placeholder substitution
+  - creates the six work dirs (incl. runs/ for generation receipts) with .gitkeep sentinels
+  - writes manifest.yaml / source_manifest.yaml / curriculum_registry.yaml /
+    evidence_policy.yaml from the templates with placeholder substitution
   - with --taxonomy, imports tools.sib.taxonomy from the given SyllabAI/syllabai
     checkout and emits the full 95-row artifacts section (HIS family OPTIONAL,
     everything else REQUIRED — applicability review remains a mandatory onboarding
@@ -32,7 +32,7 @@ from pathlib import Path
 
 TEMPLATES = Path(__file__).resolve().parent / "templates" / "course"
 NAME_RE = re.compile(r"^[A-Z][A-Z0-9]*_[A-Z0-9.]+$")
-WORK_DIRS = ("artifacts", "qa-reports", "staged", "published", "chunks")
+WORK_DIRS = ("artifacts", "qa-reports", "staged", "published", "chunks", "runs")
 
 
 def taxonomy_pin(checkout: Path) -> str:
@@ -119,13 +119,15 @@ def main() -> int:
         (lib / "manifest.yaml").write_text(fill("manifest.template.yaml", ctx))
     (lib / "source_manifest.yaml").write_text(fill("source_manifest.template.yaml", ctx))
     (lib / "curriculum_registry.yaml").write_text(fill("curriculum_registry.template.yaml", ctx))
+    (lib / "evidence_policy.yaml").write_text(fill("evidence_policy.template.yaml", ctx))
 
     print(f"scaffolded {lib}")
     print("next steps (docs/COURSE_ONBOARDING.md):")
     print("  2. inventory-first sweep -> fill source_manifest.yaml (six groups + gaps)")
     print("  3. pin curriculum_registry.yaml from the course's curriculum plane of record")
     print("  4. applicability review of manifest.yaml rows (subject-specific)")
-    print("  5. gate: python3 -m tools.sib.cli validate-manifest <this library>")
+    print("  5. fill evidence_policy.yaml family entries from source_manifest feeds_families")
+    print("  6. gate: python3 -m tools.sib.cli validate-manifest <this library>")
     return 0
 
 

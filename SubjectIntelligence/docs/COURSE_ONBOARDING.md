@@ -90,6 +90,9 @@ result in the library worklog.
 
 ## 6. Generation onward (step 6)
 
-Proceed exactly as `docs/PIPELINE.md` §3: notebook provisioning → generation passes →
-QA → stage → publish → chunks → report. All transitions operator-ordered; the validator
-owns every lifecycle transition.
+Proceed exactly as `docs/PIPELINE.md` §3: source preflight (`pipeline/source_resolver.py`,
+fail-closed, evidence policy per family) → run manifest + evidence pack under
+`<LIBRARY>/runs/` → Z.ai-agent generation (`pipeline/run_build.py`; schema V2
+provenance, `generated_by: zai_agent`) → QA → stage → publish → chunks → report.
+All transitions operator-ordered; the validator owns every lifecycle transition;
+no single green gate proves educational correctness.

@@ -1,0 +1,130 @@
+# CHEMISTRY_4CH1 — SIB evidence policy (per-family evidence law)
+#
+# SIB-GEN of record (trace 1a1726b6684c4055). Machine-readable companion to
+# source_manifest.yaml v1.2 `feeds_families` (the inverse mapping — every primary
+# entry below is a CURRENT — AUTHORITATIVE / CURRENT — ASSESSMENT EVIDENCE source
+# whose feeds_families includes the family; SUPPLEMENTARY sources are optional
+# texture; LEGACY sources appear only where the family consumes historical
+# evidence). Enforced by pipeline/evidence_pack.py (fail-closed preflight) and
+# reflected in evidence/claim QA. Restrictions are law: generation cites within
+# them; violations fail evidence/claim QA even if structure is green.
+
+policy_version: "1.0"
+course: CHEMISTRY_4CH1
+source_manifest: "CHEMISTRY_4CH1 source_manifest.yaml v1.2"
+
+families:
+  CUR:
+    primary_sources: [SRC-SPEC-4CH1, SRC-GRAPH-4CH1]
+    optional_sources: [SRC-BOOK-4CH1-SB1, SRC-TL-4CH1, SRC-LESSONS-4CH1, SRC-SAMS-4CH1, SRC-LEGACY-SPEC-4CH0]
+    restrictions:
+      - Curriculum truth comes from the current official specification (Issue 3) and
+        the validated SpecificationPoint graph; textbook wording must not rewrite it.
+      - Legacy spec references stay LEGACY — HISTORICAL and never masquerade as current.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  EXP:
+    primary_sources: [SRC-SPEC-4CH1, SRC-BOOK-4CH1-SB1]
+    optional_sources: [SRC-TL-4CH1, SRC-SME-NOTES-4CH1, SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1]
+    restrictions:
+      - Supplementary explanations are labelled supplementary; conflicting claims
+        between sources are resolved and disclosed, never averaged.
+      - The validated book parse v3 chunks are the book authority; un-adjudicated
+        root intake copies are forbidden as grounding (grounding law, PIPELINE §4).
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  MIS:
+    primary_sources: [SRC-QPMS-4CH1, SRC-ER-4CH1]
+    optional_sources: [SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1, SRC-TL-4CH1]
+    restrictions:
+      - No prevalence/difficulty claim from a small or biased sample.
+      - Misconception claims require examiner-report, QP/MS or validated
+        learner-evidence support; inferred candidates are labelled inferred.
+      - Examiner sentiment is never synthesized from mark schemes alone.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  ASM:
+    primary_sources: [SRC-QPMS-4CH1, SRC-SPEC-4CH1, SRC-SPECLINKS-4CH1]
+    optional_sources: [SRC-SAMS-4CH1, SRC-SME-EXAMQ-4CH1, SRC-PMT-4CH1]
+    restrictions:
+      - Preserve paper and question identity (session, paper code, question number);
+        SAMs are specimen material, never cited as session evidence.
+      - Series-structure change metadata (Jan→Nov notice) is assessment-model
+        context, not session evidence.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  MS:
+    primary_sources: [SRC-QPMS-4CH1]
+    optional_sources: [SRC-SME-EXAMQ-4CH1, SRC-PMT-4CH1, SRC-ER-4CH1]
+    restrictions:
+      - Mark-point structure comes from official mark schemes only.
+      - Do not infer examiner sentiment from mark schemes alone.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  EXM:
+    primary_sources: [SRC-ER-4CH1]
+    optional_sources: [SRC-QPMS-4CH1, SRC-SAMS-4CH1, SRC-TL-4CH1]
+    restrictions:
+      - No examiner insight without report evidence; repeated observations are
+        distinguished from isolated ones.
+      - Every claim carries its session identity; no session without a public ER is
+        silently treated as covered (publishing-gap disclosure law).
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  PED:
+    primary_sources: [SRC-TL-4CH1, SRC-GRAPH-4CH1]
+    optional_sources: [SRC-BOOK-4CH1-SB1, SRC-SME-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-EXT-NOTES-4CH1, SRC-ER-4CH1]
+    restrictions:
+      - Teaching sequence (scheme of work, course planner) is research evidence,
+        not automatically a canonical prerequisite graph.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  PRA:
+    primary_sources: [SRC-SPEC-4CH1, SRC-TL-4CH1]
+    optional_sources: [SRC-BOOK-4CH1-SB1, SRC-QPMS-4CH1]
+    restrictions:
+      - Preserve method, units, conditions, safety and mark requirements.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  PRO:
+    primary_sources: [SRC-SPEC-4CH1, SRC-QPMS-4CH1]
+    optional_sources: [SRC-BOOK-4CH1-SB1, SRC-TL-4CH1]
+    restrictions:
+      - Worked reasoning comes from source evidence (spec statements, QP/MS mark
+        requirements), not invented model solutions.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  HIS:
+    primary_sources: [SRC-LEGACY-SPEC-4CH0, SRC-ER-4CH0-LEGACY]
+    optional_sources: [SRC-SPEC-4CH1, SRC-QPMS-4CH1]
+    restrictions:
+      - Historical statements remain LEGACY — HISTORICAL; never presented as
+        current curriculum truth; current/legacy comparison requires both sides.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  TUT:
+    primary_sources: [SRC-SPEC-4CH1, SRC-BOOK-4CH1-SB1]
+    optional_sources: [SRC-SME-NOTES-4CH1, SRC-SME-EXAMQ-4CH1, SRC-ER-4CH1, SRC-TL-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1]
+    restrictions:
+      - Tutor patterns are research guidance, not learner-state updates.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  GAP:
+    primary_sources: [SRC-GRAPH-4CH1, SRC-SPECLINKS-4CH1]
+    optional_sources: [SRC-ER-4CH1, SRC-QPMS-4CH1, SRC-TL-4CH1]
+    restrictions:
+      - Report uncertainty; never fill missing evidence with invented content;
+        source_gaps rows are the vocabulary of absence.
+    max_items: 24
+    max_excerpt_chars: 12000

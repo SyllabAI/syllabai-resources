@@ -1,0 +1,125 @@
+# SIB evidence policy — per-family evidence law (template)
+#
+# Machine-readable companion to the source_manifest feeds_families: for each
+# research family, WHICH sources are authoritative and WHAT generation may not
+# do with them. Enforced by pipeline/evidence_pack.py (fail-closed) and
+# reflected in QA records. Copy into <LIBRARY>/evidence_policy.yaml and fill
+# the SRC ids from that library's source_manifest.yaml. Restrictions are law:
+# generation must cite within them; violations fail evidence/claim QA.
+#
+# Placeholder note: {{...}} placeholders are substituted by pipeline/new_course.py.
+# Keep families aligned with the 95-artifact taxonomy (CUR EXP MIS ASM MS EXM
+# PED PRA PRO HIS TUT GAP).
+
+policy_version: "1.0"
+course: "{{LIBRARY}}"
+notes: >-
+  Family entries declare primary_sources (must resolve pre-run, fail-closed),
+  optional_sources (resolved if present, else disclosed as UNRESOLVED — never
+  fabricated), and restrictions (evidence/claim-QA law). Bounds cap pack size
+  per item; licensing law keeps excerpts bounded with identity preserved.
+
+families:
+  CUR:
+    primary_sources: []          # e.g. [SRC-SPEC-4CH1, SRC-GRAPH-4CH1]
+    optional_sources: []         # e.g. [SRC-BOOK-4CH1-SB1, SRC-TL-4CH1]
+    restrictions:
+      - Curriculum truth comes from the current official specification and the
+        validated SpecificationPoint registry; textbook wording must not rewrite it.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  EXP:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Supplementary explanations must be labelled supplementary; conflicting
+        claims between sources must be resolved and disclosed, never averaged.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  MIS:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - No prevalence/difficulty claim from a small or biased sample.
+      - Misconception claims require examiner-report, QP/MS or validated
+        learner-evidence support; inferred candidates must be labelled inferred.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  ASM:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Preserve paper and question identity (session, paper code, question
+        number); SAMs are specimen material and never cited as session evidence.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  MS:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Do not infer examiner sentiment from mark schemes alone.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  EXM:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - No examiner insight without report evidence; repeated observations must
+        be distinguished from isolated ones.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  PED:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Teaching sequence is not automatically a canonical prerequisite graph.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  PRA:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Preserve method, units, conditions, safety and mark requirements.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  PRO:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Worked reasoning must come from source evidence, not invented model
+        solutions; mark requirements respected where cited.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  HIS:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Historical statements must remain LEGACY — HISTORICAL; never presented
+        as current curriculum truth.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  TUT:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Tutor patterns are research guidance, not learner-state updates.
+    max_items: 24
+    max_excerpt_chars: 12000
+
+  GAP:
+    primary_sources: []
+    optional_sources: []
+    restrictions:
+      - Report uncertainty; never fill missing evidence with invented content.
+    max_items: 24
+    max_excerpt_chars: 12000

@@ -268,9 +268,35 @@ backlog:
       Issue 5+SAMs / 2009 SAMs) landed in Official-Specifications/igcse-chemistry-legacy-4ch0/
       with spec.json provenance; all LEGACY — HISTORICAL."
   - id: BL-003
-    description: Provision NotebookLM notebook 4CH1-SIB-NOTEBOOK-001 and upload the
+    description: "Provision NotebookLM notebook 4CH1-SIB-NOTEBOOK-001 and upload the
       CURRENT — AUTHORITATIVE / CURRENT — ASSESSMENT EVIDENCE sources; label legacy vs current
       inside the notebook per protocol §2.
+      SUPERSEDED 2026-10-25 (SIB-GEN, trace 1a1726b6684c4055) — the runtime generation
+      provider changed to the Z.ai agent pipeline (schema V2 provenance; PIPELINE.md §3);
+      the NotebookLM notebook contract is retained as OPTIONAL-HIS reference
+      (SIB_NOTEBOOKLM_PROMPTS_V1.md). No notebook was provisioned; nothing to decommission."
   - id: BL-004
-    description: First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol §4),
-      grounded on SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 + SRC-BOOK-4CH1-SB1.
+    description: "First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol §4),
+      grounded on SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 + SRC-BOOK-4CH1-SB1. Re-based 2026-10-25
+      (SIB-GEN) — runs AFTER the BL-007 pilot; generation via the SIB-GEN pipeline
+      (resolver preflight → evidence packs → run records → Z.ai agent)."
+  - id: BL-005
+    description: "DONE 2026-10-25 (trace 1a16fa5034655795, recorded retroactively for ledger
+      consistency — GAP-SRC-003/004 already cite this id): the operator-pointed Pearson
+      coursematerials Teaching-and-learning-materials category executed of record — 239-row
+      catalog snapshot; 30 files acquired + identity-verified and placed under
+      Official-Specifications/igcse-chemistry/ with per-file provenance
+      (teaching-materials.json); SRC-TL-4CH1 + SRC-SAMS-4CH1 added (source_manifest v1.2);
+      GAP-SRC-004 RESOLVED, GAP-SRC-003 narrowed; six-groups scoreboard 5 PRESENT + 1 PARTIAL."
+  - id: BL-006
+    description: "DONE 2026-10-25 (SIB-GEN, trace 1a1726b6684c4055): provider-neutral
+      generation pipeline landed of record — schema V2 + Z.ai prompt pack + BUILD
+      amendments (master docs/research), validator provenance V2 (master tools/sib, suite
+      137/137), resources docs re-copied + PIPELINE/ONBOARDING/README rewritten,
+      pipeline modules (source_resolver / evidence_pack / run_manifest /
+      generate_artifact / run_build) + fixture suite 21/21 + evidence_policy.yaml +
+      runs/ receipts; BL-003 superseded; NotebookLM demoted to OPTIONAL-HIS."
+  - id: BL-007
+    description: "Pilot wave (SIB-GEN §4.5 of record) — CUR-01 + MIS-01 through the new
+      pipeline, checking citation resolution, source coverage, current/legacy separation,
+      and educational accuracy before any scaling. Gate for unblocking BL-004."
