@@ -68,7 +68,6 @@ Complete the equation, by adding the state symbols, for the conversion of water 
 
 > H2O(l) → H2O(s) ALLOW upper
 > case/lower case
-> Total = 6
 
 - **(1)** H2O(l) → H2O(s) ALLOW upper
 
@@ -149,7 +148,6 @@ Why does chlorine have the highest boiling point of the gases in the table?
 > do not occur between molecules
 > C is not the correct answer because chlorine does
 > not have ionic bonds
-> Total = 6
 
 - **(1)** Answer D: chlorine has the strongest forces of attraction between its molecules
 
@@ -229,7 +227,6 @@ Explain how method B prevents iron from rusting even when the zinc coating is sc
 > iron zinc rusting
 > REJECT zinc reacts with
 > iron
-> Total = 8
 
 - **(1)** zinc is more reactive than iron OR zinc has a ALLOW zinc reacts
 - **(1)** zinc oxidises / forms zinc oxide/reacts before REJECT references to
@@ -313,7 +310,6 @@ Describe how the student can use the chromatogram to determine the Rf value for 
 > Allow 2 marks for a
 > correct calculation
 > method
-> Total = 11
 
 - **(1)** measure the distance from the start line to the
 - **(1)** distance moved by the spot ÷ distance moved by M2 subsumes M1
@@ -406,7 +402,6 @@ Determine the rate of reaction at 8 minutes by drawing a suitable tangent to the
 > ALLOW cm3min-1
 > ALLOW cm3/s
 > ALLOW cm3s-1
-> Total = 11
 
 - **(1)** tangent drawn to the graph at 8 minutes
 - **(1)** measurements made from ALLOW ecf for tangent
@@ -502,7 +497,6 @@ Describe the forces of attraction in a covalent bond.
 > be plural)
 > REJECT intermolecular
 > forces for both marks
-> Total = 11
 
 - **(1)** (electrostatic) forces of attraction between shared
 - **(1)** and the nuclei REJECT nucleus (must
@@ -579,7 +573,6 @@ The decomposition of hydrated magnesium sulfate is shown in the equation. MgSO4.
 > M4 x=7
 > Answer of 7 on its own
 > scores 4 marks
-> Total = 8
 
 - **(1)** (mass of water) = 6.3g Ecf for incorrect mass of
 - **(1)** (moles of MgSO4) = 0.05
@@ -675,7 +668,6 @@ Explain the effect of increasing the temperature of hydrochloric acid on the rat
 > activation energy
 > M3 so more successful collisions per unit time ALLOW more frequent
 > successful collisions
-> Total = 9
 
 - **(1)** rate of reaction increases
 - **(1)** particles have more energy OR more particles ALLOW particles move
@@ -786,7 +778,6 @@ Calculate the total amount, in moles, of gas produced by the incomplete combusti
 > attempted Mr shown
 > M3 0.45 moles ALLOW M2×9
 > Answer of 0.45 scores 3
-> Total = 13
 
 - **(1)** (Mr of butanol) 74
 - **(1)** (moles of butanol) 3.7÷74 OR 0.05 ALLOW 3.7÷M1 if
@@ -912,7 +903,6 @@ The reaction used to make poly(ethene) can be represented by this equation. ( ( 
 > product/polyethene
 > saturated
 > M3 ethene is a gas and poly(ethene) is a solid
-> Total = 12
 
 - **(3)** 3
 
@@ -921,7 +911,7 @@ The reaction used to make poly(ethene) can be represented by this equation. ( ( 
 
 This question is about the reactions of some compounds of lead.
 
-**(a)** Lead can be extracted from lead(II) sulfide, PbS, in two stages. Stage 1	lead(II) sulfide is heated in air and reacts with oxygen to produce lead(II) oxide, PbO, and sulfur dioxide Stage 2 lead(II) oxide is heated with carbon in a furnace
+**(a)** Lead can be extracted from lead(II) sulfide, PbS, in two stages. Stage 1	lead(II) sulfide is heated in air and reacts with oxygen to produce lead(II) oxide, PbO, and sulfur dioxide Stage 2 lead(II) oxide is heated with carbon in a furnace
 
 ### 11(a)(i) [2]
 
@@ -1017,9 +1007,6 @@ A different oxide of lead contains 90.7% by mass of lead and 9.3% by mass of oxy
 > M4 empirical formula is Pb3O4 ALLOW ecf from ratio
 > shown to produce
 > formula
-> Total = 15
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** 90.7÷207 and 9.30÷16 NOT atomic numbers
 - **(1)** 0.438 (moles of lead) and 0.581 (moles of ALLOW 9.30÷32 for ecf

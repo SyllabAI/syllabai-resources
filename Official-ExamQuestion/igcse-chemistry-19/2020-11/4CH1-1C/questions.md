@@ -1252,8 +1252,6 @@ A student is given a sample of solid red lead oxide and some dilute nitric acid.
 > No M8 if crystals are
 > washed after drying
 > Total for Q10 = 13 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(6)** description that makes reference to the following
 

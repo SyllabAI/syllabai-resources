@@ -273,7 +273,7 @@ Concentrated ammonia solution and concentrated hydrochloric acid are corrosive. 
 
 ## Question 4 (8 marks)
 
-A teacher uses this apparatus to find the percentage of oxygen in a gaseous mixture of oxygen and argon. mixture of oxygen and argon glass tube copper powder syringe A syringe B heat This is the teacher’s method. Step 1	heat the copper powder Step 2	push the plunger on syringe A to pass the mixture of oxygen and argon over the hot copper so that the mixture moves into syringe B Step 3	push the plunger on syringe B to pass the mixture of oxygen and argon over the hot copper so that the mixture moves into syringe A Step 4	record the reading on syringe A Step 5	repeat Steps 2, 3 and 4 a number of times The volume of gas decreases as the oxygen reacts with the copper. Argon is unreactive so does not react with the copper. The copper powder turns black.
+A teacher uses this apparatus to find the percentage of oxygen in a gaseous mixture of oxygen and argon. mixture of oxygen and argon glass tube copper powder syringe A syringe B heat This is the teacher’s method. Step 1	heat the copper powder Step 2	push the plunger on syringe A to pass the mixture of oxygen and argon over the hot copper so that the mixture moves into syringe B Step 3	push the plunger on syringe B to pass the mixture of oxygen and argon over the hot copper so that the mixture moves into syringe A Step 4	record the reading on syringe A Step 5	repeat Steps 2, 3 and 4 a number of times The volume of gas decreases as the oxygen reacts with the copper. Argon is unreactive so does not react with the copper. The copper powder turns black.
 
 **(b)** The table shows the teacher’s results. Reading number Reading on syringe A in cm3 Start 78 1 70 2 67 3 65 4 63 5 61 6 60 7 59 8 58 9 58 10 58
 
@@ -1148,8 +1148,6 @@ Explain an improvement to the apparatus that would increase the percentage yield
 > ALLOW less water
 > evaporates
 > Total for question = 12
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(2)** M1 stand the measuring cylinder in a beaker of ice ALLOW any way of
 

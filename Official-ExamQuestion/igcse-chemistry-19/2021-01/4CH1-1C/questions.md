@@ -1045,8 +1045,6 @@ In another experiment, the student adds 0.55 g of zinc to a solution containing 
 > M2 therefore 0.8(13) g of zinc is needed (and there
 > is only 0.55g)
 > 15 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(2)** M1 8.46 × 10-3 mol of zinc ALLOW any number of
 

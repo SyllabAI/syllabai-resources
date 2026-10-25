@@ -1078,8 +1078,6 @@ The student repeats the experiment starting with a different volume of ethanoic 
 > ALLOW any number of sig
 > figs
 > Total for question = 14
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(4)** M1 moles of NaHCO3 = 7.0 ÷ 84 OR 0.0833
 

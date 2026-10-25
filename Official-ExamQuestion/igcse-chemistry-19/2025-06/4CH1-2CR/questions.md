@@ -63,7 +63,6 @@ Describe a test to show that a gas is carbon dioxide.
 > M1 (bubble the gas through) limewater M2 dependent on M1
 > M2 which turns (from colourless to) cloudy/milky ALLOW white
 > precipitate
-> Total = 6
 
 - **(1)** (bubble the gas through) limewater M2 dependent on M1
 - **(1)** which turns (from colourless to) cloudy/milky ALLOW white
@@ -127,7 +126,6 @@ Give the general formula of the homologous series of alkanes.
 **Mark scheme answer**
 
 > CnH2n+2
-> Total = 5
 
 - **(1)** CnH2n+2
 
@@ -215,7 +213,6 @@ Potassium permanganate is an oxidising agent. Give a reason why potassium perman
 > electron acceptor/gains electrons whilst being reduced
 > itself’
 > oxygen donor/loses oxygen
-> Total = 7
 
 - **(1)** any one from: IGNORE ‘oxidises
 
@@ -324,7 +321,6 @@ Explain why potassium is more reactive than lithium. Refer to the electronic str
 > ALLOW reverse
 > argument throughout
 > for lithium
-> Total = 11
 
 - **(1)** potassium has a bigger atom / potassium has REJECT more
 - **(1)** the outer (shell) electron is less attracted to the
@@ -415,7 +411,6 @@ The table shows the melting points of sodium and sodium oxide. Melting point in 
 > M5 more energy is required to overcome the bonds M5 is comparative mark
 > in sodium oxide than sodium ORA that is independent of
 > M1-M4
-> Total = 11
 
 - **(1)** (giant) metallic structure/lattice REJECT Intermolecular
 - **(1)** (electrostatic) attraction between positive ions
@@ -533,7 +528,6 @@ Describe how the student can obtain a pure, dry sample of calcium phosphate from
 > oven for M3
 > REJECT if solid is washed
 > again after drying for M3
-> Total = 15
 
 - **(1)** filter (the calcium phosphate) If evaporation to form
 - **(1)** wash the residue (with distilled water)
@@ -699,9 +693,8 @@ Name ester B.
 
 **Mark scheme answer**
 
-> Total =
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
+> ethyl ethanoate
+> IGNORE hyphens
 
-- **(1)** Total =
+- **(1)** ethyl ethanoate
 

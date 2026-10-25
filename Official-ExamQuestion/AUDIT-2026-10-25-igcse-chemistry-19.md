@@ -128,3 +128,17 @@ Every confirmed defect in §3/§4 closed at source by wave-24 (converter v0.17.0
 
 Serving delta of record: 40 parts (26 figure embeds + 14 choice restorations),
 G-E1-matched against `scripts/exporter-disclosures/2026-10-25-wave24-g8-fixes.json`.
+
+---
+
+## 9. Resolution (wave-25, F66/F67/F68 — 2026-10-26)
+
+The §4 OPEN classes closed at source one day later (converter v0.18.0). The
+re-census at ship time measured each class fresh (census before ship), so the
+numbers below supersede this report's §4 estimates where they differ:
+
+| §4 finding | Ship-time census | Resolution |
+|---|---|---|
+| §4 #1 "57 MS footers in mark_points" | **362 furniture lines in 245 corpus text blocks** (153 parts, 50 slices) — the question-total footer in BOTH printed word orders, the paper-total line, the bare 'Total = N' fragment (2025-06 layouts), and the Pearson copyright block | parse_ms drops every observed shape at source (F66); 50 served mark points cleaned (44 footer tails + 3 footer-only blocks); the 3 footer-only masquerades re-linked through the F47 MS-LINK-OVERRIDES ledger with eyeballed verbatim transcriptions (2021-01 2CR 7(d), 2025-06 2CR 7(c)(ii), 2025-06 1CR 9(d)(ii) — 7(d) had been serving an EMPTY mark-point text); canaries C74/C77/C78/C79. Serving delta: markPoints on exactly 50 parts / 48 slugs, disclosure `scripts/exporter-disclosures/2026-10-26-wave25-sec4-hygiene.json` |
+| §4 #2 "16 BEL chars" | 15 strings (6 question stems + 9 group stems; one stem carried 3) | stripped in clean_lines + the page_norm anchor index at source (F67); canary C75 |
+| §4 #4 "58 orphan crops" | 57 unreferenced PNGs (one was re-referenced by wave-24's crop wave) | pruned; referenced-asset census = 0 orphans (F68); canary C76 |

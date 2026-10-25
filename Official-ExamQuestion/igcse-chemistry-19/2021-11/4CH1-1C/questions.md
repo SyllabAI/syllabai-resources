@@ -776,7 +776,7 @@ A colourless solution contains sodium carbonate and sodium sulfate. Describe a t
 
 A student investigates the reaction between solid hydrated sodium carbonate and dilute hydrochloric acid.
 
-**(a)** She uses this method to investigate the temperature change during the reaction. Step 1 pour 25.0 cm3 of dilute hydrochloric acid into a polystyrene cup Step 2 record the temperature of the dilute hydrochloric acid Step 3 add 0.5 g of sodium carbonate and stir the mixture Step 4 record the lowest temperature of the mixture Step 5 add further 0.5 g portions of sodium carbonate, one portion at a time, stir the mixture and record the lowest temperature each time The table shows the student’s results. Mass of sodium carbonate Temperature in °C added in g 0.0 17.0 0.5 15.6 1.0 14.1 1.5 13.0 2.0 12.9 2.5 12.2 3.0 11.8 3.5 11.5 4.0 11.2 4.5 11.0 5.0 11.0
+**(a)** She uses this method to investigate the temperature change during the reaction. Step 1 pour 25.0 cm3 of dilute hydrochloric acid into a polystyrene cup Step 2 record the temperature of the dilute hydrochloric acid Step 3 add 0.5 g of sodium carbonate and stir the mixture Step 4 record the lowest temperature of the mixture Step 5 add further 0.5 g portions of sodium carbonate, one portion at a time, stir the mixture and record the lowest temperature each time The table shows the student’s results. Mass of sodium carbonate Temperature in °C added in g 0.0 17.0 0.5 15.6 1.0 14.1 1.5 13.0 2.0 12.9 2.5 12.2 3.0 11.8 3.5 11.5 4.0 11.2 4.5 11.0 5.0 11.0
 
 **(b)** The student does another experiment using the same reaction. The diagram shows the student’s apparatus. cotton wool sodium carbonate dilute hydrochloric acid balance g The mass on the balance decreases as carbon dioxide gas escapes.
 
@@ -1085,7 +1085,7 @@ This question is about the reactivity of metals.
 
 **(a)** Table 1 shows whether a reaction occurs between a metal and an aqueous solution of a metal sulfate. Metal Metal sulfate Does a reaction occur? manganese chromium sulfate yes tin cadmium sulfate no chromium cadmium sulfate yes Table 1
 
-**(c)** A different experiment can be used to place metals in order of reactivity. This is the method. Step 1 add 1 g of a metal to 25 cm3 of dilute sulfuric acid Step 2 measure the volume of gas produced in one minute
+**(c)** A different experiment can be used to place metals in order of reactivity. This is the method. Step 1 add 1 g of a metal to 25 cm3 of dilute sulfuric acid Step 2 measure the volume of gas produced in one minute
 
 ### 11(a)(i) [1]
 
@@ -1199,8 +1199,6 @@ A small piece of calcium is added to some dilute sulfuric acid in a beaker. One 
 > M1 (moles of aluminium required =) 0.0400
 > M2 (mass of aluminium required = 27 × 0.0400 =)
 > 1.08 g (and there is less than 1.08 g)
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(2)** M1 (moles of aluminium =) 1÷27 OR 0.0370 moles ALLOW any number of
 

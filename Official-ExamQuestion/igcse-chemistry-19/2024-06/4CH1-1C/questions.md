@@ -1096,8 +1096,6 @@ Explain why using a polystyrene cup, instead of a glass beaker, would give a mor
 > M1 polystyrene is an insulator/poor conductor OWTTE
 > M2 (so) there is less heat loss/more heat retained
 > (compared to the glass beaker) REJECT no heat loss
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** polystyrene is an insulator/poor conductor OWTTE
 - **(1)** (so) there is less heat loss/more heat retained

@@ -1100,8 +1100,6 @@ The student uses 0.020 mol of potassium hydroxide in his experiment. Calculate t
 > sign or with incorrect sign
 > and without working
 > scores 2.
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** 1092 OR 54600 ACCEPT 1092 or 1100 used
 - **(1)** conversion from J to kJ OR 54.6(00) ALLOW ecf from M1

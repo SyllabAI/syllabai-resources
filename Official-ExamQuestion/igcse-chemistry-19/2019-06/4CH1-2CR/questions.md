@@ -804,8 +804,6 @@ Calculate the volume, in dm3, of hydrogen gas at rtp that is produced when 10 to
 > correct conversion to
 > standard form
 > TOTAL MARKS 70
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** 10,000,000 OR 625,000 M2, M3 and M4.
 - **(1)** 625,000 x 3 OR 1,875,000

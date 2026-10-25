@@ -495,6 +495,60 @@ for c in cans:
                     print(f"  ! pin missing: {pin['series']}/{pin.get('paper', '1C')} "
                           f"{pin.get('part')} {pin['contains']!r}")
             print(f"  (topic.json scanned: {n_files}, pins: {len(c.get('pins') or [])})")
+        elif chk == "no_ms_furniture_lines":
+            # C74 (v0.18.0/F66): no served solution_md or mark_points text may
+            # carry MS page-bottom furniture — the question-total footer in
+            # either printed word order, the paper-total line, the bare
+            # 'Total = N' fragment, or the Pearson copyright block + its
+            # office continuation. The converter now drops these at source;
+            # the exporter's serve-time strip (F-W15-2) is the redundant
+            # second line of defense, never again the only one.
+            import re as _re
+            furn = _re.compile(
+                r"^\s*\(?\s*Total\s+(?:marks\s+)?for\s+(?:Question\s+\d{1,2}|Paper)\s*=\s*\d{1,3}\)?\s*(?:marks?)?\s*\)?\s*$"
+                r"|^\s*\(?\s*Total\s*=\s*\d{0,3}\)?\s*(?:marks?)?\s*\)?\s*$"
+                r"|^\s*Pearson\s+(?:Education\s+Limited|Edexcel)\b"
+                r"|^\s*with\s+its\s+registered\s+office\b",
+                _re.I | _re.M)
+            ok = True
+            n = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            n += 1
+                            texts = [p.get("solution_md") or ""] + [
+                                m.get("text_md") or "" for m in (p.get("mark_points") or [])]
+                            for txt in texts:
+                                m = furn.search(txt)
+                                if m:
+                                    ok = False
+                                    print(f"  ! {d.name}/{pd.name} {p['part_number']}: MS furniture survived at {m.group(0)[:50]!r}")
+            print(f"  (solution/mark-point blocks scanned: {n})")
+        elif chk == "no_orphan_assets":
+            # C76 (v0.18.0/F68): every PNG under any slice's assets/ is
+            # referenced by that slice's topic.json — superseded crops are
+            # pruned in the wave that supersedes them (wave-25 pruned the 57
+            # pre-existing orphans), never left to accumulate.
+            ok = True
+            n_files = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    ref = {a.get("path") for q in t["questions"] for p in q["parts"]
+                           for a in (p.get("assets") or []) if a.get("path")}
+                    adir = pd / "assets"
+                    for f in sorted(adir.iterdir()) if adir.exists() else []:
+                        n_files += 1
+                        if f"assets/{f.name}" not in ref:
+                            ok = False
+                            print(f"  ! {d.name}/{pd.name}: orphan asset {f.name} (unreferenced)")
+            print(f"  (asset PNGs scanned: {n_files})")
         elif chk == "stem_figures_ledger":
             # C66 (v0.14.0/wave-20): STEM-RESTORE.json's stemFigures specs and
             # the emitted corpus must agree in both directions. Forward: every

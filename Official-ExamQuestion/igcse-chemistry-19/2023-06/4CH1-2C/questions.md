@@ -756,8 +756,6 @@ Calculate the volume, in dm3, of methane gas at rtp needed to produce 6.6 tonnes
 > 7.9(2) × 107 scores 3
 > 5.28 × 107 scores 3
 > 1.584 × 108 scores 2
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** n(H2) = 6.6 × 106 ÷ 2 OR 3.3 × 106 (mol) ACCEPT 3 300 000
 - **(1)** n(CH4) = 3.3 × 106 ÷ 3 OR 1.1 × 106 (mol) ACCEPT 1 100 000

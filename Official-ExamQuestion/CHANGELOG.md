@@ -624,6 +624,48 @@ C71 floor raised to 2607.
 - Queued for tranche 2: 1332 parts (resumable driver checkpoints in the wave's
   working tree; REDO+HINTS repair mode ready).
 
+## 0.18.0 — 2026-10-26 · wave-25: the audit §4 text-hygiene + repo-hygiene wave
+
+The G8 audit's three OPEN minor classes close at source. Census before ship grew
+every one of them.
+
+- **Converter (F66 — MS page-bottom furniture dropped at source)**: the audit's
+  "57 footer lines" was the first census pass; the full census measured 362
+  furniture lines across 245 corpus text blocks (153 parts, 50 slices) — the
+  question-total footer in BOTH printed word orders, the paper-total line, the
+  bare 'Total = N' fragment (2025-06 layouts), and the Pearson copyright block +
+  its office continuation. `parse_ms` now skips every observed shape before the
+  marker-regex battery (case-insensitive, truncation-drift tolerant, nothing
+  else); the exporter's serve-time strip (F-W15-2) becomes a redundant second
+  line of defense. 50 mark points that served furniture to learners are clean
+  (44 footer tails + 3 footer-only blocks). The three footer-only blocks —
+  2021-01 2CR 7(d) (printed answer: a drawn displayed formula), 2025-06 2CR
+  7(c)(ii) (printed answer 'ethyl ethanoate' in a mis-attributed continuation
+  row), 2025-06 1CR 9(d)(ii) (printed answer: two hand-drawn isomer structures)
+  — are linked through the F47 MS-LINK-OVERRIDES ledger with eyeballed verbatim
+  transcriptions (rendered-page evidence recorded per entry; canaries
+  C77/C78/C79). The C71 enrichment gate refused the first of these mid-wave —
+  the battery caught the design decision the honest way.
+- **Converter (F67 — BEL at source)**: the 15 numbered-method-step strings
+  carrying U+0007 (6 question stems + 9 group stems) are stripped in
+  `clean_lines` AND the `page_norm` anchor index — removal without space
+  insertion (the exact `_bulletize` semantics, served stems byte-identical) so
+  part→page anchoring probes stay consistent; the corpus plane keeps no raw
+  control bytes.
+- **Repo hygiene (F68 — orphan crops pruned)**: the 57 PNGs referenced by no
+  topic.json are deleted; a referenced-asset census runs to zero and the full
+  battery re-run after the prune resurrects none.
+- **Canaries**: 71 → 77 hold. C74 (furniture-free corpus), C75 (BEL-free
+  corpus, the C56 extra_chars law), C76 (no orphan assets), C77/C78/C79 (the
+  three ledger dispositions pinned linked).
+- **Delta census (G-E1)**: serving delta = markPoints on exactly 50 parts
+  across 48 slugs, filed as
+  `scripts/exporter-disclosures/2026-10-26-wave25-sec4-hygiene.json`;
+  problemMd, solutionMd (the authored layer), marks, choices and spec codes
+  byte-identical everywhere else. Full 54-slice re-run at v0.18.0; battery
+  6/6 PASS (bootstrap / convert-corpus / cross-diff / aggregate-report /
+  enrich-verify / canaries), receipt cited from the LEDGER Wave 25 entry.
+
 ## 0.17.0 — 2026-10-25 · wave-24: the first G8 audit closes (crops + the ambiguous MCQ)
 
 The first post-completion audit (G8 — the new mandatory gate, igcse-chemistry-19,

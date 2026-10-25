@@ -473,7 +473,7 @@ Lithium carbonate has ionic bonding. State what is meant by the term ionic bondi
 
 When solutions of lead(II) nitrate and potassium chloride are mixed, a precipitate of lead(II) chloride forms.
 
-**(b)** A student investigates the height of the precipitate formed when lead(II) nitrate solution is added to potassium chloride solution. This is the student’s method. Step 1	pour 15.0 cm3 of potassium chloride solution into a boiling tube Step 2	add 2.0 cm3 of lead(II) nitrate solution and allow the precipitate to settle Step 3 m  easure the height of the precipitate Repeat steps 2 and 3 until a total of 14.0 cm3 of lead(II) nitrate solution has been added. The table shows the student’s results. Volume of lead(II) nitrate in cm3 2.0 4.0 6.0 8.0 10.0 12.0 14.0 Height of precipitate in cm 0.8 1.6 2.9 3.2 3.6 3.6 3.6
+**(b)** A student investigates the height of the precipitate formed when lead(II) nitrate solution is added to potassium chloride solution. This is the student’s method. Step 1	pour 15.0 cm3 of potassium chloride solution into a boiling tube Step 2	add 2.0 cm3 of lead(II) nitrate solution and allow the precipitate to settle Step 3 m easure the height of the precipitate Repeat steps 2 and 3 until a total of 14.0 cm3 of lead(II) nitrate solution has been added. The table shows the student’s results. Volume of lead(II) nitrate in cm3 2.0 4.0 6.0 8.0 10.0 12.0 14.0 Height of precipitate in cm 0.8 1.6 2.9 3.2 3.6 3.6 3.6
 
 ### 6(a)(i) [1]
 
@@ -1068,8 +1068,6 @@ Catalysts can be used to speed up reactions. Describe how a catalyst works.
 > M2 with a lower activation energy catalysts increasing
 > rate / not being used
 > up
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** (a catalyst) provides an alternative pathway/route IGNORE general
 - **(1)** with a lower activation energy catalysts increasing

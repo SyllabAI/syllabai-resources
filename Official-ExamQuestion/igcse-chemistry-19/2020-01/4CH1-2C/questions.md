@@ -758,8 +758,6 @@ Calculate the total volume, in dm3, of gas produced at rtp when 7.7 g of magnesi
 > scores 4
 > 3.12 without working
 > scores 3
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** n(magnesium nitrate) = 7.7 ÷ 148 or 0.052 (mol)
 - **(1)** n(gas) = 5 x 0.052 ÷ 2 or 0.13 (mol)

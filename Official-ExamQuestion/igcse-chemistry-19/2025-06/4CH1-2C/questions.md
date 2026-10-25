@@ -691,8 +691,6 @@ An excess of hydrogen reacts with 50.8 g of iodine. At equilibrium, the yield of
 > M1 254g gives 48000 cm3 so M2 50.8g gives 9600 cm3
 > so M3 9600 x 80/100
 > M4 7.68 x 103 cm3
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(4)** M1 (nI2 =) 50.8 OR 0.2(0) (mol) correct answer scores 4
 

@@ -1152,8 +1152,6 @@ The actual yield of hydrated zinc nitrate crystals is 36.4 g. Calculate the perc
 > working scores 2
 > use of 44.6 gives 81.6(%)/82
 > use of 45 gives 80.9(%)/81
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** 36.4 ÷ 44.55 × 100 ALLOW ecf from (i)
 - **(1)** 81.7(%) ALLOW any number of sig figs

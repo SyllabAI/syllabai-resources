@@ -58,7 +58,6 @@ Describe the arrangement, movement and energy of the particles in a gas.
 > M2 comment on arrangement
 > M3 comment on moving
 > M4 comment on energy
-> Total = 6
 
 - **(3)** Any 3 from
 
@@ -137,7 +136,6 @@ Explain how method B prevents iron from rusting even when the zinc layer is dama
 > M2 zinc oxidises /zinc reacts / zinc loses electrons REJECT zinc rusts for
 > in preference to iron /zinc oxide forms /zinc M2
 > corrodes /zinc is a reducing agent
-> Total = 7
 
 - **(1)** zinc is more reactive (than iron) ALLOW zinc is higher in
 - **(1)** zinc oxidises /zinc reacts / zinc loses electrons REJECT zinc rusts for
@@ -200,7 +198,6 @@ Give the charge on the copper ion in Cu(OH)2
 **Mark scheme answer**
 
 > 2+ / Cu2+ ALLOW +2 /Cu+2
-> Total = 6
 
 - **(1)** 2+ / Cu2+ ALLOW +2 /Cu+2
 
@@ -300,7 +297,6 @@ A sample of magnesium contains 79.0% of 24Mg, 10.0% of 25Mg and 11.0% of 26Mg. C
 > M2 to 1dp
 > 24.3 scores 3
 > marks
-> Total =
 
 - **(1)** ((79×24)+(10×25)+(26×11))÷100
 - **(1)** 24.32
@@ -396,7 +392,6 @@ The displacement reaction between potassium astatide and bromine can be represen
 > electrons and
 > bromine gains
 > electrons for 1 mark
-> Total = 9
 
 - **(1)** astatide (ions)/At- are oxidised/reducing agent ALLOW astatide (ions)
 - **(1)** bromine (molecules)/Br2 are reduced /oxidising ALLOW bromine is
@@ -482,7 +477,6 @@ Describe what the student should do to the mixture formed in (c) to produce pure
 > If sample is heated to
 > dryness award M1 and
 > M2 only
-> Total = 8
 
 - **(5)** A description connecting any 5 of the following:
 
@@ -595,7 +589,6 @@ The student repeats the experiment using the same mass of calcium carbonate but 
 > M3 so there are more collisions per unit time ALLOW more frequent
 > collisions /collide more
 > often
-> Total =
 
 - **(1)** the rate of reaction increases If more energy is
 - **(1)** because the powder has a greater surface area
@@ -717,7 +710,6 @@ Silicon dioxide has the same structure as diamond. Silicon dioxide is very hard 
 > Lose 1 mark if they
 > mention intermolecular
 > forces or ionic bonding
-> Total =
 
 - **(5)** an explanation linking any 5 of the following points:
 
@@ -819,9 +811,26 @@ This is the displayed formula of one of the isomers. H H H H H H C C C C C H H H
 
 **Mark scheme answer**
 
-> Total = 13
+> H H H H
+> | | | |
+> H - C - C - C - C - H
+> | | | |
+> H | H H
+> H-C-H
+> |
+> H
+> H
+> |
+> H - C - H
+> |
+> H - C - C - C - H
+> | | |
+> H | H
+> H-C-H
+> |
+> H
 
-- **(2)** Total = 13
+- **(2)** H H H H
 
 
 ## Question 10 (11 marks)
@@ -902,7 +911,6 @@ The student repeats the experiment and calculates Q as 3800 J. The solution used
 > ecf -79 scores 3 (using
 > the energy change from
 > (b)(i)
-> Total =
 
 - **(1)** (moles of CuSO4) 6.38÷159.5 OR 0.04 mol
 - **(1)** 3800÷0.04 OR 95 000 ALLOW ecf from M1
@@ -988,9 +996,6 @@ Use the student’s results to calculate x in the formula Na2SO4.xH2O [for Na2SO
 > M3 0.10÷0.01=10
 > Answer of 10 or
 > Na2SO4.10H2O scores 3
-> Total = 11
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** 1.42÷142 OR 0.01
 - **(1)** 1.8÷18 OR 0.10

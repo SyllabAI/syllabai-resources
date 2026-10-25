@@ -691,8 +691,6 @@ Draw a reaction profile for the reaction. Label the reactants, the products, ΔH
 > double headed arrow
 > REJECT arrow
 > pointing down
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** show correct positions of horizontal lines and ALLOW ecf if
 - **(1)** correct labelling of (reactants) H2 + Cl2 and

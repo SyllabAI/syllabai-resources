@@ -735,8 +735,6 @@ Calculate the concentration, in mol/dm3, of the phosphoric acid. concentration =
 > If no division by 1000 in (i) and no
 > multiplication by 1000 in (iii) do not
 > penalise twice
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** 0.00532 x 1000 OR answer to (ii) x 1000
 - **(1)** 0.2128 (mol/dm3) OR answer to M1 evaluated correctly

@@ -47,7 +47,6 @@ Give the number of different elements present in glucose, C6H12O6
 **Mark scheme answer**
 
 > 3
-> (Total for Question 1 = 4 marks)
 
 - **(1)** 3
 
@@ -56,7 +55,7 @@ Give the number of different elements present in glucose, C6H12O6
 
 The solubility of a solid depends on the solvent used.
 
-**(b)** A student wants to find the solubility of a salt in water. The steps in the student’s method are not in the correct order. Step A gently heat the evaporating basin and solution to remove all the water Step B filter to obtain 50.0 cm3 of saturated solution Step C record the mass of the evaporating basin and salt solution Step D record the mass of an empty evaporating basin Step E record the mass of the evaporating basin and the dry salt Step F put 50.0 cm3 of water into a beaker Step G add the salt to the water a little at a time and stir until no more dissolves Step H pour the 50.0 cm3 of saturated salt solution into the evaporating basin
+**(b)** A student wants to find the solubility of a salt in water. The steps in the student’s method are not in the correct order. Step A gently heat the evaporating basin and solution to remove all the water Step B filter to obtain 50.0 cm3 of saturated solution Step C record the mass of the evaporating basin and salt solution Step D record the mass of an empty evaporating basin Step E record the mass of the evaporating basin and the dry salt Step F put 50.0 cm3 of water into a beaker Step G add the salt to the water a little at a time and stir until no more dissolves Step H pour the 50.0 cm3 of saturated salt solution into the evaporating basin
 
 ### 2(a) [1]
 
@@ -99,7 +98,6 @@ These are the student’s results. mass of empty evaporating basin = 60.5 g mass
 > water)
 > correct answer with no working
 > scores 2
-> (Total for Question 2 = 5 marks)
 
 - **(1)** mass of dry salt
 - **(1)** solubility = (17.6 × 2) = 35.2 (g per 100 g of ALLOW ECF from M1
@@ -180,7 +178,6 @@ State the name of the environmental problem caused by sulfur dioxide in the atmo
 **Mark scheme answer**
 
 > acid rain IGNORE any effects
-> (Total for Question 3 = 9 marks)
 
 - **(1)** acid rain IGNORE any effects
 
@@ -282,7 +279,6 @@ Complete the equation for the polymerisation reaction by giving the displayed fo
 > OR
 > M1 correct ester linkage shown
 > M2 rest of repeat unit fully correct M2 DEP M1
-> (Total for Question 4 = 9 marks)
 
 - **(1)** correct ester linkage shown
 - **(1)** rest of repeat unit fully correct M2 DEP M1
@@ -405,7 +401,6 @@ Explain why calcium phosphide has a high melting point. You should refer to stru
 > of covalent bonds,
 > intermolecular forces or
 > molecules
-> (Total for Question 5 = 11 marks)
 
 - **(1)** giant (ionic) structure ACCEPT giant (ionic)
 - **(1)** strong forces of attraction between ACCEPT between Ca2+
@@ -532,7 +527,6 @@ Explain why the reactivity of metals in Group 1 increases from lithium to potass
 > M2 outer electron in potassium (atom) less
 > strongly attracted by nucleus OWTTE
 > M3 so (outer) electron more easily lost OWTTE
-> (Total for Question 6 = 13 marks)
 
 - **(1)** outer electron in potassium (atom) is further ALLOW potassium (atom) has
 - **(1)** outer electron in potassium (atom) less
@@ -638,7 +632,6 @@ Calculate the concentration, in mol/dm3, of the HNO3 concentration = mol/dm3
 > in (iii)
 > ALLOW 2, 3 or 4 sig figs throughout
 > Penalise use of 1 sig fig once only
-> (Total for Question 7 = 11 marks)
 
 - **(1)** conc. of HNO3 = 0.00658 × 1000 = 0.263(2) ALLOW ECF from (ii)
 
@@ -716,10 +709,6 @@ Calculate the enthalpy change, ΔH , for the reaction. You should include a sign
 > M2 − 94 ALLOW ECF from (i) and (ii)
 > If (ii) > (i) sign should be −
 > If (i) > (ii) sign should be +
-> (Total for Question 8 = 8 marks)
-> (Total for Paper = 70 marks)
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** difference between (i) and (ii) IGNORE any sign
 - **(1)** − 94 ALLOW ECF from (i) and (ii)

@@ -755,8 +755,6 @@ Calculate the concentration, in mol/dm3, of the bleach solution. concentration =
 > (unless ECF answer is exactly 1 sig fig
 > correct answer with no working
 > throughout (b) scores 2 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** (0.0025 ÷ 4.00) × 1000 Mark CSQ on (b)(ii)
 - **(1)** 0.625 (mol/dm3) ACCEPT any number of sig fig except 1

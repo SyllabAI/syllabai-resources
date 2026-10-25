@@ -728,8 +728,6 @@ Predict the effect on the yield of CO(g) at equilibrium when the pressure is inc
 > M2 because equal numbers of moles/molecules (of M2 DEP M1 correct or
 > gas) on both sides missing
 > Total for Q7 = 7
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** no effect (on yield) OWTTE
 - **(1)** because equal numbers of moles/molecules (of M2 DEP M1 correct or

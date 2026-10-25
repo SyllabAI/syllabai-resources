@@ -956,8 +956,6 @@ Calculate the enthalpy change (ΔH) in kJ/mol. [for ethanol, Mr = 46] Include a 
 > ACCEPT 1000
 > M5 — 1008 (kJ/mol)
 > ACCEPT — 1000
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** (mass of ethanol =) 38.52 — 38.29 OR 0.23 (g) correct answer without
 - **(1)** (amount =) 0.23 ÷ 46 OR 0.005(0) (mol)

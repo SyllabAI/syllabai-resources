@@ -793,8 +793,6 @@ The yield of ammonia at equilibrium is 20 %. Calculate the volume, in dm3, of am
 > giving 96 dm3 of
 > ammonia and final
 > answer of 19.2 (dm3)
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** 5 mol of hydrogen gives 3.33 mol of ammonia ALLOW 3.3
 - **(1)** volume of ammonia (if 100% conversion) = 3.33 use of 3.3 gives 79.2

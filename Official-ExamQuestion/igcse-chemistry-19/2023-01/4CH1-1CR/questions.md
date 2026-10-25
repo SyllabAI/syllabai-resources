@@ -1023,8 +1023,6 @@ In another experiment the student adds anhydrous copper(II) sulfate to distilled
 > An explanation that links the following points
 > M1 the temperature increases/rises
 > M2 so the reaction is exothermic
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** the temperature increases/rises
 - **(1)** so the reaction is exothermic

@@ -64,7 +64,6 @@ Explain why hydrogen chloride is a compound.
 > REJECT ions for M1
 > M2 (chemically) joined/bonded together REJECT molecules
 > scores 0
-> Total = 6
 
 - **(1)** (two) different elements ALLOW (two) different
 - **(1)** (chemically) joined/bonded together REJECT molecules
@@ -178,7 +177,6 @@ Aluminium is used to make cans for drinks because it is malleable. Give another 
 > aluminium is corrosion resistant
 > aluminium can be recycled
 > REJECT will not rust
-> Total = 7
 
 - **(1)** any one from:
 
@@ -189,7 +187,7 @@ This question is about the solubility of salts.
 
 **(b)** The graph shows the solubilities of sodium chloride and potassium chloride at different temperatures. 55 potassium chloride 45 sodium chloride Solubility in g per 100 g of water 0 20 40 60 80 100 Temperature in C
 
-**(c)** A student uses this apparatus to determine the solubility of potassium nitrate in water. thermometer water potassium nitrate beaker of hot water heat This is the student’s method. Step 1 add 6.2 g of potassium nitrate to a boiling tube Step 2 add 20 cm3 of water to the boiling tube Step 3	place the boiling tube in a beaker of water Step 4	heat the beaker gently, stirring the mixture in the boiling tube continuously until the potassium nitrate dissolves Step 5	remove the boiling tube from the beaker and allow the mixture to cool Step 6	record the temperature at which crystals start to form in the boiling tube
+**(c)** A student uses this apparatus to determine the solubility of potassium nitrate in water. thermometer water potassium nitrate beaker of hot water heat This is the student’s method. Step 1 add 6.2 g of potassium nitrate to a boiling tube Step 2 add 20 cm3 of water to the boiling tube Step 3	place the boiling tube in a beaker of water Step 4	heat the beaker gently, stirring the mixture in the boiling tube continuously until the potassium nitrate dissolves Step 5	remove the boiling tube from the beaker and allow the mixture to cool Step 6	record the temperature at which crystals start to form in the boiling tube
 
 ### 3(a) [1]
 
@@ -269,7 +267,6 @@ In step 6, crystals start to form at 32 °C. Calculate the solubility of the sol
 
 > M2 (M1 x 100) AND correctly evaluated correct answer scores 2
 > = 31 g per 100 g water marks
-> Total = 8
 
 - **(2)** M2 (M1 x 100) AND correctly evaluated correct answer scores 2
 
@@ -368,7 +365,6 @@ Explain why chlorine is more reactive than bromine. Refer to the atomic structur
 > nuclear attraction)
 > M3 therefore an electron is more easily
 > gained/accepted
-> Total = 12
 
 - **(1)** atoms of chlorine are smaller / have fewer ALLOW reverse
 - **(1)** there is therefore more attraction between the ALLOW less repulsion
@@ -472,7 +468,6 @@ Draw an energy level diagram for this reaction. You should show ΔH as a single-
 > products
 > M3 ΔH correctly shown as a downward arrow and
 > labelled (see diagram below)
-> Total = 13
 
 - **(1)** right-hand line below left-hand line
 - **(1)** correct names/formulae of both reactants and
@@ -531,7 +526,6 @@ This equation represents the complete combustion of 1 mol of sugar B. B + y O2 �
 > M2 amount of sugar B = 0.025 (mol) ALLOW M1÷ 12
 > M3 (8.55 ÷ 0.025) = 342 28.5 scores 2
 > Correct answer scores 3
-> Total = 10
 
 - **(1)** (amount of CO2) 7200 ÷ 24000 OR 0.3 (mol)
 - **(1)** amount of sugar B = 0.025 (mol) ALLOW M1÷ 12
@@ -641,7 +635,6 @@ A student does a titration using dilute nitric acid and a solution of sodium hyd
 > M8 repeat until concordant results ALLOW results within
 > 0.1-0.2 cm3 of one
 > another
-> Total = 14
 
 - **(5)** a description including any 5 of the following
 

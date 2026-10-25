@@ -72,13 +72,12 @@ Which row shows the most reactive element in Group 1 and Group 7? Most reactive 
 > C is not correct because lithium is not the most
 > reactive element in Group 1 and astatine is not the
 > most reactive element in Group 7
-> Total marks for Question 1 = 5
 
 - **(1)** Answer D: francium                                                                                            fluorine
 
 
 ## Question 2 (11 marks)
-**(b)** The diagram shows the apparatus a student uses to make a saturated solution. thermometer water solid heat This is the student’s method. Step 1 add 4.5 g of solid to a boiling tube Step 2 measure exactly 10.0 cm3 of pure water and pour into the boiling tube Step 3 place the boiling tube in the beaker of water and heat gently, stirring the mixture continuously until all the solid dissolves Step 4 remove the boiling tube from the beaker and allow it to cool Step 5 record the temperature when crystals start to form in the boiling tube The recorded temperature shows when the solution becomes saturated.
+**(b)** The diagram shows the apparatus a student uses to make a saturated solution. thermometer water solid heat This is the student’s method. Step 1 add 4.5 g of solid to a boiling tube Step 2 measure exactly 10.0 cm3 of pure water and pour into the boiling tube Step 3 place the boiling tube in the beaker of water and heat gently, stirring the mixture continuously until all the solid dissolves Step 4 remove the boiling tube from the beaker and allow it to cool Step 5 record the temperature when crystals start to form in the boiling tube The recorded temperature shows when the solution becomes saturated.
 
 **(c)** The solubility curves for two solids, A and B, are shown on the grid. 300 280 260 A 240 220 200 180 B 160 Solubility in g per 100 g water 140 120 100 20 30 40 50 60 70 80 90 100 Temperature in °C
 
@@ -188,7 +187,6 @@ Suggest why the values for the solubility of A and B may be less accurate at 95 
 **Mark scheme answer**
 
 > some water may have been lost/evaporated OWTTE
-> Total marks for Question 2 = 11
 
 - **(1)** some water may have been lost/evaporated OWTTE
 
@@ -256,7 +254,6 @@ Deduce a relationship between the relative formula mass (Mr) of a gas and the sp
 > M2 Mr of SO2 = (32 +16 + 16) = 64
 > M3 statement of relationship eg the higher the ACCEPT reverse
 > Mr the slower the gas diffuses argument
-> Total marks for Question 3 = 8
 > 2+
 
 - **(1)** Mr of H2S = (1 + 1 + 32) = 34
@@ -362,7 +359,6 @@ The diagram shows the apparatus a teacher uses to demonstrate the electrolysis o
 > or
 > 4OH-→O2 + 2H2O + 4e(-)
 > M4 2H+ + 2e (-) → H2
-> Total marks for Question 4 = 13
 
 - **(1)** X is chlorine / Cl2 ALLOW oxygen / O2
 - **(1)** Y is hydrogen / H2 If both given but wrong
@@ -473,7 +469,6 @@ Aluminium is extracted from aluminium oxide. The overall equation for the proces
 > scores 2
 > 1350 without working
 > scores 2
-> Total marks for Question 5 = 12
 
 - **(3)** M1 calculation of Mr of Al2O3
 
@@ -616,7 +611,6 @@ Give one advantage of biopolyesters.
 **Mark scheme answer**
 
 > biodegradable ACCEPT description
-> Total marks for Question 6 = 11
 
 - **(1)** biodegradable ACCEPT description
 
@@ -705,10 +699,6 @@ Draw an energy level diagram for the reaction between hydrogen and fluorine. Lab
 > labelled
 > REJECT arrow pointing
 > downwards
-> Total marks for Question 7 = 10
-> Total for Paper = 70
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(3)** M1 right hand line below left hand line
 

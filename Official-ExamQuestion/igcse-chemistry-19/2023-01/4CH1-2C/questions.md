@@ -691,8 +691,6 @@ A sample of hydrazine is completely decomposed. This is the equation for the dec
 > marks with or without
 > working
 > Total for question = 13
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** amount of nitrogen gas = 1570÷24000 OR
 - **(1)** amount of ammonia = 0.0654×4 OR 0.2617 (mol) ALLOW M1×4

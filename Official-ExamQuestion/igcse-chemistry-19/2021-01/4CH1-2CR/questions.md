@@ -68,7 +68,6 @@ The table lists some statements about particles. Place ticks (✓ ) in boxes to 
 > tick in 5th box (1)
 > if more than two ticks deduct 1 mark for each
 > incorrect tick
-> (Total for Question 1 = 5)
 
 - **(2)** 2
 
@@ -194,7 +193,6 @@ Elements in Group 7 react with elements in Group 1 to form ionic compounds. Whic
 > electronic configuration of 2.8.8
 > C is not correct because neither Li+ nor F– have
 > electronic configuration of 2.8.8
-> (Total for Question 2 = 9)
 
 - **(1)** Answer D: K+ and Cl–
 
@@ -340,7 +338,6 @@ Suggest why the volume of chlorine collected in syringe X is always less than th
 > chlorine dissolves/soluble in acid/solution ALLOW
 > dissolves/soluble in
 > water
-> (Total for Question 3 = 13)
 
 - **(1)** chlorine dissolves/soluble in acid/solution ALLOW
 
@@ -422,7 +419,6 @@ Complete the equation for the reaction between methanol and ethanoic acid. CH3OH
 > formula
 > M1 CH3COOH
 > M2 CH3COOCH3
-> (Total for Question 4 = 7)
 
 - **(1)** CH3COOH
 - **(1)** CH3COOCH3
@@ -517,7 +513,6 @@ Use this information to calculate the total amount of energy needed to break all
 > M1 [1852+ (O=O)] - 2144 = 204
 > OR (O=O) = 2144 – 1852 + 204 Mark CSQ on (i) and (ii)
 > M2 (O=O) = 496 -496 scores 1 mark
-> (Total for Question 5 = 13)
 
 - **(1)** energy needed= [(4 x 463) + 2(146)] = 2144 Ignore sign
 
@@ -683,7 +678,6 @@ Calculate the concentration, in mol/dm3, of the sulfuric acid. concentration of 
 > exactly 1 sig fig)
 > correct answer with no
 > working scores 2
-> (Total for Question 6 = 10)
 
 - **(1)** answer to (ii) x 1000
 - **(1)** correctly evaluated
@@ -751,9 +745,16 @@ Give the displayed formula of the branched‑chain isomer of hydrocarbon X.
 
 **Mark scheme answer**
 
-> (Total for Question 7 = 6)
+> H H H
+> | | |
+> H - C - C - C - H
+> | | |
+> H | H
+> H - C - H
+> |
+> H
 
-- **(1)** (Total for Question 7 = 6)
+- **(1)** H H H
 
 
 ## Question 8 (7 marks)
@@ -832,10 +833,6 @@ The graph shows the percentage yield of ammonia at equilibrium for different tem
 > M2 so forward reaction is exothermic Le
 > Chatelier’s Principle
 > M2 DEP M1
-> (Total for Question 8 = 7)
-> Total for Paper = 70 marks
-> Pearson Education Limited. Registered company number 872828
-> with its registered office at 80 Strand, London, WC2R 0RL, United Kingdom
 
 - **(1)** as temperature decreases yield of ammonia ALLOW as
 - **(1)** so forward reaction is exothermic Le
