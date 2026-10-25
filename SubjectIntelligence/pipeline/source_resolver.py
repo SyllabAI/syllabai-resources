@@ -152,38 +152,91 @@ def verify_identities(source: dict, files: list[Path], repo_roots: dict) -> list
     return checks
 
 
+def parse_path_entries(entry: str) -> list[str]:
+    """Expand of-record path-entry grammar to concrete path patterns.
+
+    'repo@a.yaml + b.yaml (note) + c.yaml' -> ['a.yaml', 'b.yaml', 'c.yaml']
+    (annotations in trailing parens are stripped per segment; the repo@prefix
+    is removed here and re-attached by the caller contract — this function
+    receives the part AFTER 'repo@').
+    """
+    body = entry.split("@", 1)[1] if "@" in entry else entry
+    parts = [p.strip() for p in body.split(" + ")]
+    out = []
+    for p in parts:
+        p = re.sub(r"\s+\([^)]*\)\s*$", "", p).strip()
+        if p:
+            out.append(p)
+    return out
+
+
 def resolve_source(source: dict, repo_roots: dict) -> dict:
     classification = str(source.get("classification") or "")
     rec = {"source_id": source.get("id"),
            "classification": classification,
            "required": not classification.startswith("SUPPLEMENTARY"),
            "paths": [], "identity_checks": [], "ok": True}
-    for entry in source.get("paths") or []:
-        repo_key, pattern = parse_path_entry(str(entry))
-        root = repo_roots.get(repo_key)
-        if root is None:
-            rec["paths"].append({"entry": str(entry), "repo": repo_key,
-                                 "result": "MISSING", "reason": "repo root not provided"})
-            rec["ok"] = False
+    for raw_entry in source.get("paths") or []:
+        # of-record manifest uses list entries that are either plain strings
+        # ("repo@path (note)") or single-key dicts ({"ledger": "repo@path …"} /
+        # {"provenance": …}) — a dict contributes its string values, labelled.
+        entries = []
+        if isinstance(raw_entry, dict):
+            for label, val in raw_entry.items():
+                if isinstance(val, str):
+                    entries.append((label, val))
+        elif isinstance(raw_entry, str):
+            entries.append(("path", raw_entry))
+        else:
             continue
-        hits = _expand(root, pattern)
-        if not hits:
-            rec["paths"].append({"entry": str(entry), "repo": repo_key,
-                                 "result": "MISSING", "reason": "no file matched"})
-            rec["ok"] = False
-            continue
-        files: list[Path] = []
-        for hit in hits:
-            if hit.is_dir():
-                files.extend(sorted(p for p in hit.rglob("*") if p.is_file()))
-                rec["paths"].append({"entry": str(entry), "repo": repo_key,
-                                     "result": "RESOLVED_DIR",
-                                     "dir": str(hit), "file_count": len(files)})
-            else:
-                files.append(hit)
-                rec["paths"].append({"entry": str(entry), "repo": repo_key,
-                                     "result": "RESOLVED_FILE", "file": str(hit)})
-        rec.setdefault("_files", []).extend(files)
+        for label, entry in entries:
+            if "@" not in entry:
+                rec["paths"].append({"entry": entry, "repo": "?", "kind": label,
+                                     "result": "MISSING",
+                                     "reason": "path entry without repo prefix"})
+                rec["ok"] = False
+                continue
+            repo_raw, body = entry.split("@", 1)
+            repo_raw = repo_raw.strip()
+            if repo_raw not in REPO_KEY_ALIASES:
+                rec["paths"].append({"entry": entry, "repo": repo_raw, "kind": label,
+                                     "result": "MISSING",
+                                     "reason": f"unknown repo {repo_raw!r}"})
+                rec["ok"] = False
+                continue
+            repo_key = REPO_KEY_ALIASES[repo_raw]
+            patterns = parse_path_entries(body)
+            # of-record grammar: ' + '-separated segments may be bare filenames
+            # relative to the first segment's directory
+            if patterns:
+                first = patterns[0]
+                prefix = first.rsplit("/", 1)[0] + "/" if "/" in first else ""
+                patterns = [p if "/" in p else prefix + p for p in patterns]
+            for pattern in patterns:
+                root = repo_roots.get(repo_key)
+                if root is None:
+                    rec["paths"].append({"entry": entry, "repo": repo_key, "kind": label,
+                                         "result": "MISSING", "reason": "repo root not provided"})
+                    rec["ok"] = False
+                    continue
+                hits = _expand(root, pattern)
+                if not hits:
+                    rec["paths"].append({"entry": entry, "repo": repo_key, "kind": label,
+                                         "result": "MISSING", "reason": "no file matched"})
+                    rec["ok"] = False
+                    continue
+                files: list[Path] = []
+                for hit in hits:
+                    if hit.is_dir():
+                        files.extend(sorted(p for p in hit.rglob("*") if p.is_file()))
+                        rec["paths"].append({"entry": entry, "repo": repo_key, "kind": label,
+                                             "result": "RESOLVED_DIR",
+                                             "dir": str(hit), "file_count": len(files)})
+                    else:
+                        files.append(hit)
+                        rec["paths"].append({"entry": entry, "repo": repo_key, "kind": label,
+                                             "result": "RESOLVED_FILE", "file": str(hit)})
+                rec.setdefault("_files", []).extend(files)
     rec["identity_checks"] = verify_identities(source, rec.get("_files", []), repo_roots)
     if any(c["result"] == "MISMATCH" for c in rec["identity_checks"]):
         rec["ok"] = False

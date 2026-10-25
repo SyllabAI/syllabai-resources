@@ -18,8 +18,17 @@
 # `git cat-file`); of-record sha256/sha1 values are quoted from the repo's own
 # ledgers (books/CATALOG.md, Official-Specifications/igcse-chemistry/spec.json).
 
-manifest_version: "1.2"
+manifest_version: "1.3"
 manifest_history:
+  - version: "1.3"
+    date: "2026-10-25"
+    change: "PIN REPAIR of record (SIB-GEN resolver E2E preflight, trace 1a1726b6684c4055)
+      — the nine tier-1 sha256 pins written in v1.2 were systematically corrupted in the
+      hex tail (each shared exactly its 20-char true prefix then diverged — a transcription
+      defect of the v1.2 registry step, mechanism unreconstructed). Authority chain
+      re-adjudicated first-hand — teaching-materials.json per-file sha256 == placed bytes
+      at origin HEAD for all nine files. Pins corrected in place; caught exactly as the
+      resolver was built to catch them."
   - version: "1.2"
     date: "2026-10-25"
     change: BL-005 executed — official Pearson teaching-and-learning corpus acquired from the
@@ -364,13 +373,13 @@ sources:
       - syllabai-resources@Official-Specifications/igcse-chemistry/teaching-and-learning-materials/
       - provenance: syllabai-resources@Official-Specifications/igcse-chemistry/teaching-materials.json
     identifiers:
-      sha256_scheme_of_work: d2a849ac8d05f7dd772a549f3946cf47ac4b0e37af19f7e0f9f6be9fe5f13b1a
-      sha256_getting_started: cfc42ce0bc763515241ce28897f9e1a3520e77d9ffef74e7b06b96bdaf65b961
-      sha256_topic_bonding: 321204a76a659b8c467b4dc30e12e69278beef4c6e88e42c4596dcbe1b2ecca0
-      sha256_topic_equilibrium: d2dba72da4a824e6069a2d5e3c9d41b41ec9398a9e27b9a4971a2b4cf7dbdcd0
-      sha256_core_practicals_guide: 9dd6228da0e915ea90fc9e45bea48e8f4b9b0a30d570e2e1e538e7d1a6cbdf13
-      sha256_command_words: 3563c05e364143ebb968c9ae0e4a4f2b56b25e0431b90e5e262ee29a90e23ec4
-      sha256_exemplars_p1p2_commentary: 5d1851993be460f10261c4b68b74b2a2e3df5b28b9b0f0d7c907ea763b0f4d0c
+      sha256_scheme_of_work: d2a849ac8d05f7dd772ae060a6fdbf1e180cbdb146d10b8ee469f4c41f1d41ab
+      sha256_getting_started: cfc42ce0bc763515241c63cba8087be725126152f95047fbad90a83227b50419
+      sha256_topic_bonding: 321204a76a659b8c467bba2d04bae39c7dccc4a5ba869a42955f1e6038c8ca3a
+      sha256_topic_equilibrium: d2dba72da4a824e6069a66f54851e0bfce94a31aad614711468e105e2cb53fc4
+      sha256_core_practicals_guide: 9dd6228da0e915ea90fcca823aad4446d92d05faa59f9da1e9496b22b292a7fb
+      sha256_command_words: 3563c05e364143ebb9685802801b6f053732e4c12e77dbc711eb270aa15ebbb0
+      sha256_exemplars_p1p2_commentary: 5d1851993be460f102615c5ca3b9d05af0874fecd0b6b2ee7f8f71a918264e08
       full_table: teaching-materials.json (30 files, per-file sha256/bytes/pages/identity)
     coverage: topic sequencing (scheme of work, course planner, getting-started, 2 topic guides);
       practical guidance (211pp core practicals guide, terminology guidance, lab setup);
@@ -395,8 +404,8 @@ sources:
       - syllabai-resources@Official-Specifications/igcse-chemistry/notice-of-changes-january-and-november-series.pdf
       - provenance: syllabai-resources@Official-Specifications/igcse-chemistry/teaching-materials.json
     identifiers:
-      sha256_sams: beb9dc1d1efa108b8545c2f6fe3a2bd0d5b71b6de776d1ac2b7ce6f96d3bd0d1
-      sha256_notice: af9971c569847934257f4b6e7dc9e7064b28a08e2ac1c95cf3a11acdbb0a40e2
+      sha256_sams: beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923
+      sha256_notice: af9971c569847934257fffb72138f8ab20115c79e03bd6786b59f8e1f1d6372b
       pages_sams: 88
     coverage: specimen papers + mark schemes at first-award standard; assessment-model change
       metadata (January series removal / November series introduction — session identity law input)
