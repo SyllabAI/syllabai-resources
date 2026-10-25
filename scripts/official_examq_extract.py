@@ -38,7 +38,7 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.17.2"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.17.3"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 
 # ---------------------------------------------------------------- spec lanes
 # v0.16.0 generalization: the converter serves one spec lane per run (--spec).
@@ -281,6 +281,28 @@ PUA_MAP = {
                           #   18 extension rows F8EF+F8FA, bottom row F8F0+F8FB),
                           #   font trace MWAWPZ+Symbol, render eyeballed — retires
                           #   the 1CR right-column mirror caveat with direct evidence
+    # Physics (4PH1) tranche - first full-corpus physics wave (2026-10-26, trace
+    # 1a17463dfb7c99c9): corpus PUA census physics-intake/pua-census.json, evidence
+    # pass physics-intake/pua-evidence/ (font trace via PyMuPDF rawdict + page
+    # render, eyeballed). 5 new codepoints; chemistry-era entries cover the rest.
+    "\uf020": " ",        # CIDFont+F12/F9 blank glyph - renders as NOTHING: span
+                          # '\uf050\uf020' (2021-11 1P MS p4) prints ONE tick + gap
+                          # (tight render pua-evidence/TIGHT_*_p4.png), and
+                          # '\uf0b4\uf0203.125' (p13) prints 'x 3.125' - it is the
+                          # CID font's space; mapped to U+0020
+    "\uf068": "\u2191",   # Wingdings3 up-arrow - 2021-06 1P MS p13 renders
+                          # 'clear e.g. allow +, UP-ARROW for increase etc.'
+    "\uf06a": "",         # TransportMT train pictogram - 2020-06 1P QP p6 (size 64)
+                          # decorative silhouette beside 'The train starts braking
+                          # at point P...'; no linguistic content (the word 'train'
+                          # is in the stem text); drop like the cover ornaments
+    "\uf070": "\u03c0",   # pi - CIDFont+F7 2022-01 1P MS p11 'orbital speed =
+                          # (2 x pi x 7100) / 5800' and SymbolMT 2023-06 1PR MS p5
+                          # 'v = 2pi r/T'; renders eyeballed in both
+    "\uf075": "",         # TransportMT aeroplane pictogram - 2020-06 2P QP p14
+                          # (size 29) decorative silhouette labelled 'aeroplane'
+                          # in the printed text layer; drop like F06A
+
 }
 
 
