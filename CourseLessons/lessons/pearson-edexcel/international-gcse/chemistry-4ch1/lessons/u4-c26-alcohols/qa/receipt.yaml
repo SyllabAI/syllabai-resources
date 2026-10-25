@@ -1,0 +1,85 @@
+stage: S4
+date: "2026-10-26"
+agent: "T-BOOK-059 r0 (session web-c414c074 chat 08b3170a, trace 1a175004e0eb6081)"
+prompt_version: "lesson-prose@2.0.0"
+lint: "PASS"
+trace_id: "1a175004e0eb6081"
+summary: >-
+  u4:c26 Alcohols authored end-to-end S4 9/9 under lesson-prose@2.0.0 standalone
+  voice (r0, no retrofit debt; the fifth Unit-4 chapter — operator lane order
+  "go: c26", trace 1a175004e0eb6081; standing merge+flip trace 1a1658a2da08e5bd).
+  State reconciliation first: production lessons-index 25/25 packs u1-c01…u4-c25
+  (c25 published by T-BOOK-058); remote resources main advanced 7edece44 → 4d857c47
+  (Wave-10 UGM corpus append, 1 commit / 47 paths, verified ZERO CourseLessons
+  overlap) and v2 main stayed c190fcb6 across the lane start; gate N re-derived =
+  26 for this lane. join_set DERIVED at S0-L0 from the printed objectives box
+  (chunk 1118 — all FIVE bullets present but interleaved with the chapter intro
+  prose by the parse, the glue class with no missing point this time) x spine
+  node igcse-chemistry-T4:SUBe = 4.29C-4.33C ALL CHEMISTRY-ONLY 0+5 (papers
+  [2C] only, double_award_shared false) — the FIRST ALL-C pack since c15 and
+  the fifth overall (f-0015 sibling audit run SUBSTANTIVELY per its original
+  design: c22/c23/c24/c25 ALL-CORE 6+0/12+0/4+0/6+0 before, c26 ALL-C 0+5 after;
+  no mixed-shape drift). chem_only: true (spine applicability governs; the
+  printed CHEMISTRY ONLY banner sits ABOVE the chapter heading on p287 — the
+  f-0027 banner class, located by page OCR because the parse dropped the
+  standalone banner chunk — and END OF CHEMISTRY ONLY closes p292: whole-chapter
+  block).
+  DISCLOSED f-0016 covers (spine-canonical pins, spine node igcse-chemistry-T4:SUBe):
+  (1) the 4.30C spine title GLUES two sentences ("...and name each compound the
+  names propanol and butanol are acceptable" — missing separator; the
+  acceptable-names rule taught in s02 prose + exam-hint); (2) the chunk renders
+  dichromate as (Vl) vs spine (VI) — l/I glyph class, repaired (VI) throughout;
+  (3) LO box glue class (1118 interleaving — all five points present).
+  Raw map verified byte-equal against a fresh section_map.py derivation BEFORE
+  refinement (7 sections, pages [287,291]; parse sha b2c67eaf re-verified after
+  the Wave-10 append — the parse of record unchanged), then refined raw 7 ->
+  authored 9 with receipt-disclosed re-homings mirroring the PRINTED book order:
+  1119 raw-s01 -> s02; 1124 raw-s03 bulk home s03 (ETHANOL BURNS IN AIR
+  sub-heading PROMOTED to authored s03 — the parse dropped the printed
+  sub-heading; MICROBIAL OXIDATION heading tail taught s04); 1126 raw-s03 -> s04;
+  1128 TRIPLE-GLUED bulk home s05 (wine/vinegar head taught s04; dichromate-
+  naming EXTENSION + lab body taught s05); 1130 raw-s05 home s05 (its Fig 26.5
+  conditions box belongs to the lab oxidation; fermentation heading tail taught
+  s06); 1133 bulk home s06 (biochemistry + equations + conditions; REMINDER tail
+  + hydration heading taught s06/s07 boundary); 1136 MULTI-GLUED home s07
+  (yeast-15% head taught s06 tail; KEY POINT + hydration body + conditions +
+  recycle taught s07); 1140/1141 -> s09 (questions close, c11-c25 precedent).
+  TWO absent display equations RESTORED byte-precise from the PDF of record —
+  the parse drops image-rendered equation objects (f-0026 recipe, with the
+  f-0028 identity gate APPLIED for the first time: pdfinfo Pages == 383 AND
+  sha256 d48020e0… verified before any crop): CH3CH2OH + 2[O] -> CH3COOH + H2O
+  (chunk 1125 absent — the displayed [O] oxidation of ethanol to ethanoic acid)
+  and C12H22O11(aq) + H2O(l) -> C6H12O6(aq) + C6H12O6(aq) (sucrose hydrolysis,
+  1134/1135 class) — both atom-balance verified (C2H6O+2O=C2H4O2+H2O;
+  C12H24O12=2xC6H12O6). In-chunk repairs: combustion (I)->(l) l/I class
+  (C2H5OH(l) + 3O2(g) -> 2CO2(g) + 3H2O(l)); fermentation spacing/comma garble;
+  hydration flat-digit subscripts + (H3PO)->(H3PO4); "oxi s s t ito" garble ->
+  "oxidised by air with the help of microorganisms such as bacteria or yeast";
+  reflux garble "top x n g s ( urs" -> the full reflux sentence; 1130 conditions
+  box re-paired to the lab oxidation. NEW print-census finding: the print-true
+  SAFETY note (eye protection / add reactants slowly / spit hazard, printed
+  beside the lab-oxidation figure) is UNTYPED in the parse (0 safety census
+  chunks) — taught as the s05 safety box with the census-mismatch disclosed
+  (S0.24e honest-absent covers census-typed chunks; print truth governed by page
+  OCR). f-0017 print-ref strips -> in-product pointers: Chapter 7 charges
+  (Cu(II)/Fe(III)) -> u1:c07; Chapter 2 page 18 fractional distillation ->
+  u1:c02; ethanoic acid family -> u4:c27; hydration first-look -> u4:c25; no
+  Figure/Table/page deflection in student prose (figure slots x5 taught in
+  words: Brazil fuel, ethanol/ethanoic-acid displayed pair, oxidation apparatus,
+  reflux rig, sugar cane). Voice audit 0 hits across 9 sections. Boxes: exam-hint
+  x9 (every section; 1119 double-hint census-true, the rest authored per the
+  every-section law); key-point x3 (s02 naming decode authored; s06 fermentation
+  definition authored; s07 census-true 1136 addition); did-you-know x2 (s04
+  census-true 1126; s06 authored framing of the 1133 EXTENSION); safety x1 s05
+  (print-true, census-untyped — DISCLOSED); prior-knowledge x1 s01;
+  cross-curricular x1 s03 (Brazil biofuel geography-economics frame; V5
+  cross-curricular law satisfied); misconception x9 (every section); quick-check
+  x9; summary + can-you in s09; worked-example + maths-skills honestly absent
+  (0 census chunks of those types; the [O] balance-check carried in s05 prose).
+  Chip convergence pass: s02 -structural-formula, s03 -ethanol, s05 +reflux, s06
+  +glucose/anaerobic + yeast/enzyme case repairs, s07 +ethanol/catalyst, s09
+  +hydration/ethanol; one capitalised-chip class ([[Alcohol]]/[[Yeast]]/
+  [[Enzyme]]) caught by the S0.23 audit and repaired pre-lint; per-section body
+  chip-set == front-matter list everywhere (S0.23). Glossary 24 entries, full ms
+  layer (ms_accepts + ms_avoids + chunkRef source). verifier verify_c26_s0.py
+  committed in-repo (f-0023 law) with ALL GREEN at emit time.
