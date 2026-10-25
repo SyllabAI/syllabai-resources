@@ -1,0 +1,59 @@
+{
+  "schema": "sib-evidence-claim-qa/1.1",
+  "script": "SubjectIntelligence/pipeline/sib_evidence_claim_qa.py r1",
+  "law": "every (SRC-*, locator) resolves to the artifact's own pack; every (census.json, path) resolves to the run census annex; quoted fragments bind to the cited excerpts (r1); unparseable citations fail closed",
+  "artifacts": [
+    {
+      "artifact_id": "MIS-02",
+      "citations_checked": 12,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "MIS-03",
+      "citations_checked": 11,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "MIS-04",
+      "citations_checked": 8,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "MIS-05",
+      "citations_checked": 10,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "MIS-06",
+      "citations_checked": 12,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "MIS-07",
+      "citations_checked": 9,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "MIS-08",
+      "citations_checked": 10,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "MIS-09",
+      "citations_checked": 14,
+      "violations": [],
+      "violation_count": 0
+    }
+  ],
+  "totals": {
+    "citations_checked": 86,
+    "violations": 0
+  }
+}

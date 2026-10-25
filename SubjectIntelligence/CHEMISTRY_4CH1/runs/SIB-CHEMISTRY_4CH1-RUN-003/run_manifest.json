@@ -1,0 +1,171 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-003",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "2453da51e3d7ab089e3989acfe0843357dab59a4",
+    "syllabai_pastpapers": "04df741df6185d2f5b6ccefd219244f36e24d40b",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "MIS-02",
+      "filename": "CHEMISTRY_4CH1_MIS-02_CONCEPT_CONFUSION_ATLAS.md",
+      "evidence_pack": "evidence/MIS-02/evidence_pack.json",
+      "evidence_pack_sha256": "c0e41c39d029abe754ad56006d80d555ee6ce655c9cf6db11a43d1d70b1c981c",
+      "artifact_sha256": "56283048158b4adfd5d0d0852a54ef59061928c553d2a387008172ec61d0a5eb",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 12 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-02.qa.json"
+    },
+    {
+      "artifact_id": "MIS-03",
+      "filename": "CHEMISTRY_4CH1_MIS-03_COMMON_STUDENT_ERRORS.md",
+      "evidence_pack": "evidence/MIS-03/evidence_pack.json",
+      "evidence_pack_sha256": "d92bded92beb226a2588b3d6f48159cde3e966a2deae766225a961b6dc8aeea1",
+      "artifact_sha256": "0bcdbfbdd15d87ea0cf2b4afad33931702d875680661e34b071aaf68e95d789b",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 11 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-03.qa.json"
+    },
+    {
+      "artifact_id": "MIS-04",
+      "filename": "CHEMISTRY_4CH1_MIS-04_REASONING_ERRORS.md",
+      "evidence_pack": "evidence/MIS-04/evidence_pack.json",
+      "evidence_pack_sha256": "de0e184a0fda920965dce02ecc8f4ed6ce289943161f0379dd2e4df698449683",
+      "artifact_sha256": "abc96563191bdf11300993799dee71652e7f1161cc9bd8665a6d28f013963355",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 8 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-04.qa.json"
+    },
+    {
+      "artifact_id": "MIS-05",
+      "filename": "CHEMISTRY_4CH1_MIS-05_CALCULATION_ERRORS.md",
+      "evidence_pack": "evidence/MIS-05/evidence_pack.json",
+      "evidence_pack_sha256": "a6c28a457c33534305dbc1e6b8e82abe5cdd38dc11193f3d6044c1278eae2509",
+      "artifact_sha256": "65f09d20e8d5f5c5dab557d2713f57392b2e724b556a69028206378de59bd661",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 10 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-05.qa.json"
+    },
+    {
+      "artifact_id": "MIS-06",
+      "filename": "CHEMISTRY_4CH1_MIS-06_TERMINOLOGY_ERRORS.md",
+      "evidence_pack": "evidence/MIS-06/evidence_pack.json",
+      "evidence_pack_sha256": "d40ee1ef95fd2e78644561b21962372811ac1aec2830fe89bf87b7209613cb2c",
+      "artifact_sha256": "b59b8da06b18c26057f13b8249d40613f7f8bcb017f8dc52e6d3e2e1deb623b9",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 12 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-06.qa.json"
+    },
+    {
+      "artifact_id": "MIS-07",
+      "filename": "CHEMISTRY_4CH1_MIS-07_EXAM_ANSWER_ERRORS.md",
+      "evidence_pack": "evidence/MIS-07/evidence_pack.json",
+      "evidence_pack_sha256": "a123310e80954b59e0f803ee711a38f1ccac093a5bd0c75f71e5d23af24946cd",
+      "artifact_sha256": "2220f5a65776d2d623ccc3fea962c445e909932491d98104f29e5b8586bcad5f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 9 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-07.qa.json"
+    },
+    {
+      "artifact_id": "MIS-08",
+      "filename": "CHEMISTRY_4CH1_MIS-08_MISCONCEPTION_DIAGNOSTICS.md",
+      "evidence_pack": "evidence/MIS-08/evidence_pack.json",
+      "evidence_pack_sha256": "41d6be3275f23c06f37667ab4274515a410ae9bb589d401df479a1bec5e73316",
+      "artifact_sha256": "88f122c904b331b35ed837366624d25f810222a9264cf9dc2755c1aa3f902de1",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 10 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-08.qa.json"
+    },
+    {
+      "artifact_id": "MIS-09",
+      "filename": "CHEMISTRY_4CH1_MIS-09_MISCONCEPTION_INTERVENTIONS.md",
+      "evidence_pack": "evidence/MIS-09/evidence_pack.json",
+      "evidence_pack_sha256": "1231c58b02d48e19efc87533c0a071bf5e15feeca96ea2f6341ce5a59941c70e",
+      "artifact_sha256": "b15305f81a7c9df2d8bfd5e063858706a853a0b9b3c126b614851856dce71168",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; warnings = pre-existing SIB-ANCH-002 anchor-registry degradation, disclosed per MIS-01 precedent)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r1: 14 citations checked, 0 violations; every (SRC-*, locator) resolves to the artifact's own pack; quoted fragments bound per-record; census paths resolve)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/MIS-09.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": [
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "BL-008 PASS 4 OF RECORD: MIS-02..09 generated through the full chain preflight -> pack specs -> evidence packs -> authoring from packs alone -> stamping -> validator QA -> evidence-claim QA -> educational review (operator order trace 1a173a17de8a2739; run re-executed after the earlier pass-4 attempt was lost to a sandbox recycle before push; 41603c07 never landed)",
+    "SIB-PROV-002 stamp convention of record: provenance.source_manifest carries the artifact's PRIMARY source id (SRC-ER-4CH1), matching the landed MIS-01 + wave-1 convention; the validator resolves it against the operator source manifest under the PyYAML parse path.",
+    "EXTRACTION DISCLOSURE: 2024-06 4CH1/1C ER is glyph-garbled on extraction (embedded-font failure, letter-ratio 0.00 confirmed first-hand at pack-spec time) - EXCLUDED from all 8 packs, cited by no record; same exclusion as MIS-01.",
+    "The wave-1 evidence-claim QA script was never committed with PR #131; r1 (citation binding + closed single-page-citation fail-open hole + per-record quote grounding) is committed with this run at SubjectIntelligence/pipeline/sib_evidence_claim_qa.py.",
+    "Run re-execution disclosure: the earlier pass-4 attempt (branch sib/bl-008-pass4-r0 @ 41603c07, run SIB-CHEMISTRY_4CH1-RUN-003) was lost to a sandbox recycle BEFORE push and never landed of record; this run regenerates the same run id from post-merge main (2453da5).",
+    "PR #131 (BL-008 wave 1) merged FIRST per operator order (merge commit 2453da5) before this pass-4 branch was cut; pass-4 grounding therefore includes the v1.2.2 locator repair."
+  ]
+}

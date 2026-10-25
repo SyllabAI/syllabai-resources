@@ -319,4 +319,17 @@ backlog:
       — image-only scan; operator purchase decision recorded in books/CATALOG.md),
       pass 4 MIS-02..09 (evidence-unblocked), pass 5 ASM+MS+EXM, pass 6 PED+PRA+PRO,
       pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT (BLOCKED on book text),
-      pass 9 GAP."
+      pass 9 GAP.
+      PASS 4 EXECUTED 2026-10-26 (operator orders trace 1a173a17de8a2739 'merge
+      PR #131; then MIS-02..09' + one-shot PAT trace 1a1745ed7792709d): wave-1 PR #131
+      merged FIRST (2453da5), then run SIB-CHEMISTRY_4CH1-RUN-003 = MIS-02..09
+      (58 records MIS-013..070) through the full chain — preflight PASS (SRC-ER-4CH1 +
+      SRC-QPMS-4CH1 primaries RESOLVED; 10 absent corpora disclosed), 8 agent-authored
+      pack specs + packs (22 ER inputs sha256-pinned; the glyph-garbled 2024-06 1C ER
+      excluded and disclosed), authoring from packs alone, validator QA @ 357ace0a
+      0 errors x8 (warnings = pre-existing anchor-registry degradation, disclosed),
+      evidence-claim QA r1 86 citations / 0 violations (script now committed of record:
+      pipeline/sib_evidence_claim_qa.py — the wave-1 script had NOT been committed
+      with #131), educational review PASS on the five pilot criteria per artifact.
+      MIS family 9/9 COMPLETE. Scoreboard: 71 x SIB-MANI-007. Remaining queue
+      unchanged."
