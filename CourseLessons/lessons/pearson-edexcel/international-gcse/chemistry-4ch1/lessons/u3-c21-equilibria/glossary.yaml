@@ -1,0 +1,79 @@
+# glossary — u3:c21 (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: reversible reaction
+  slug: reversible-reaction
+  definition: "A reaction in which the products can react with each other to turn back into the original reactants, so the change runs in either direction. Indicated in equations by the double arrow symbol ⇌."
+  ms_accepts: ["products can re-form the reactants", "the reaction goes in both directions", "shown with the ⇌ symbol"]
+  ms_avoids: ["calling any reaction with a forward step reversible", "omitting the double-arrow notation", "saying it only runs backwards"]
+  aliases: ["reversibility", "reversible change"]
+  source: "chem_v3_u3_c21_pdf249_0952"
+- term: anhydrous
+  slug: anhydrous
+  definition: "Without water: describes a substance whose water of crystallisation has been removed, such as the white anhydrous copper(II) sulfate formed when blue crystals are heated gently."
+  ms_accepts: ["without water", "water of crystallisation removed", "white form of copper(II) sulfate after heating"]
+  ms_avoids: ["confusing anhydrous with insoluble", "saying the substance was burned", "omitting the link to hydrated crystals"]
+  aliases: ["anhydrous copper(II) sulfate"]
+  source: "chem_v3_u3_c21_pdf249_0954"
+- term: water of crystallisation
+  slug: water-of-crystallisation
+  definition: "Water that is packed into a crystal's structure as part of the solid. Gentle heating drives it out — blue copper(II) sulfate crystals turn white as they lose theirs — and adding water restores it."
+  ms_accepts: ["water built into the crystal lattice", "lost on heating the hydrated crystal", "restored when water is added back"]
+  ms_avoids: ["calling it surface moisture", "saying the crystal melted", "omitting that heating removes it"]
+  aliases: ["water in the crystal structure", "hydrated crystal water"]
+  source: "chem_v3_u3_c21_pdf249_0954"
+- term: thermal decomposition
+  slug: thermal-decomposition
+  definition: "Breaking a substance down into simpler substances using heat alone. The dehydration's forward change — blue copper(II) sulfate crystals splitting into the anhydrous solid and water — is an example."
+  ms_accepts: ["broken down by heat into simpler substances", "heat alone causes the breakdown", "one reactant forming simpler products"]
+  ms_avoids: ["omitting the heat requirement", "calling combustion a decomposition", "omitting 'simpler substances'"]
+  aliases: ["thermal decomposition reaction"]
+  source: "chem_v3_u3_c21_pdf250_0957"
+- term: sealed container
+  slug: sealed-container
+  definition: "A container from which no substances are added to the reaction mixture and none escape, though heat may be given off or absorbed through the walls. Reversible reactions reach equilibrium only inside one."
+  ms_accepts: ["nothing added or able to escape", "matter cannot cross the walls", "heat can still pass in or out"]
+  ms_avoids: ["claiming energy cannot cross the walls", "omitting the escape condition", "confusing sealed with insulated"]
+  aliases: ["closed system", "closed container"]
+  source: "chem_v3_u3_c21_pdf250_0961"
+- term: dynamic equilibrium
+  slug: dynamic-equilibrium
+  definition: "The state reached in a sealed container when the forward and reverse reactions occur at the same rate, so the concentrations of reactants and products remain constant. Both reactions are still happening throughout."
+  ms_accepts: ["forward and reverse reactions at the same rate", "concentrations remain constant", "both reactions still occurring"]
+  ms_avoids: ["saying concentrations are equal", "saying the reactions stop", "omitting either the rate half or the concentration half"]
+  aliases: ["equilibrium", "dynamic equilibrium in a sealed container"]
+  source: "chem_v3_u3_c21_pdf251_0962"
+- term: forward reaction
+  slug: forward-reaction
+  definition: "The left-to-right reaction of an equation as written — the direction running from reactants to products. In A ⇌ 2B the forward reaction converts A into B."
+  ms_accepts: ["left-to-right reaction as written", "reactants to products direction", "the direction the equation reads first"]
+  ms_avoids: ["confusing it with the faster direction", "omitting the as-written reference", "saying it is always exothermic"]
+  aliases: ["forward direction"]
+  source: "chem_v3_u3_c21_pdf251_0964"
+- term: reverse reaction
+  slug: reverse-reaction
+  definition: "The right-to-left reaction of an equation as written — the direction running from products back to reactants. In A ⇌ 2B the reverse reaction converts B into A."
+  ms_accepts: ["right-to-left reaction as written", "products back to reactants", "the opposite direction to the forward reaction"]
+  ms_avoids: ["confusing it with the slower direction", "omitting the as-written reference", "saying it always absorbs exactly zero heat"]
+  aliases: ["reverse direction", "back reaction"]
+  source: "chem_v3_u3_c21_pdf251_0964"
+- term: position of equilibrium
+  slug: position-of-equilibrium
+  definition: "A statement of which side of the equation dominates the equilibrium mixture: it lies left when there is more reactant, right when there is more product. Changing conditions can shift it, altering the constant concentrations."
+  ms_accepts: ["which side the mixture favours", "lies left or right", "a shift changes the constant concentrations"]
+  ms_avoids: ["saying equilibrium means 50/50", "treating position as a physical place", "omitting that shifts respond to condition changes"]
+  aliases: ["equilibrium position", "lies to the left/right"]
+  source: "chem_v3_u3_c21_pdf252_0965"
+- term: dimerise
+  slug: dimerise
+  definition: "For two identical molecules to join together into one pair-molecule. Nitrogen dioxide dimerises to form dinitrogen tetroxide, the colour change behind the brown-to-pale equilibrium readout."
+  ms_accepts: ["two molecules join into one", "NO2 pairs form N2O4", "pairing halves the molecule count"]
+  ms_avoids: ["calling it a condensation of gas to liquid", "omitting that the molecules are identical", "saying the atoms rearrange internally"]
+  aliases: ["dimerisation", "joining in pairs"]
+  source: "chem_v3_u3_c21_pdf254_0973"
+- term: yield
+  slug: yield
+  definition: "The amount of desired product obtained from a reaction. For a reversible reaction the yield is set by the position of equilibrium, so conditions that shift the position towards the product side raise it."
+  ms_accepts: ["amount of product obtained", "set by the equilibrium position", "shift towards products raises it"]
+  ms_avoids: ["confusing yield with rate", "saying a catalyst raises the yield", "omitting the equilibrium link"]
+  aliases: ["equilibrium yield", "proportion of product"]
+  source: "chem_v3_u3_c21_pdf253_0969"
