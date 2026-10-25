@@ -23,16 +23,16 @@ spec_of_record:
 book_of_record:
   repo: syllabai-resources
   path: edexcel-international-gcse-9-1-chemistry-student-book-pdf-free.pdf
-  sha256: d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04  # fetched+hashed one-shot 2026-10-22 (T-BOOK-032 r0, 54,298,792 bytes)
+  sha256: d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04
   pages: 383
 parse_of_record:
   repo: syllabai-resources
   path: parsed/edexcel_igcse_chemistry_chunks_v3.jsonl
-  sha256: b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33  # fetched+hashed one-shot 2026-10-22 (T-BOOK-032 r0)
+  sha256: b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33
   engine: ibm-docling
   chunks: 1234
-  sha256_note: sha pinned at first lesson receipt (S4); parse calibrated 2026-10-22,
-    1234 chunks, 341 print-heading sections
+  sha256_note: sha pinned at first lesson receipt (S4); parse calibrated 2026-10-22, 1234 chunks, 341
+    print-heading sections
 past_papers_of_record:
   repo: syllabai-pastpapers
   index: apps/hub/src/data/pastpapers-index.json (syllabai-v2)
@@ -56,18 +56,18 @@ features:
   spaced_lookback: platform
   tts: platform-post-pilot
 box_allowlist:
-  - key-point
-  - exam-hint
-  - misconception
-  - safety
-  - did-you-know
-  - maths-skills
-  - prior-knowledge
-  - cross-curricular
-  - worked-example
-  - summary
-  - can-you
-  - quick-check
+- key-point
+- exam-hint
+- misconception
+- safety
+- did-you-know
+- maths-skills
+- prior-knowledge
+- cross-curricular
+- worked-example
+- summary
+- can-you
+- quick-check
 section_grammar: u<unit>:c<NN>:s<NN>
 lint_pack: chem@0.1.0
 doctrine_refs:
@@ -84,33 +84,46 @@ spine:
     slug: states-of-matter
     title: States of matter
     chem_only: false
-    # join_set DERIVED (never authored): children of spine node
-    # igcse-chemistry-T1:SUBa in apps/hub/spines/igcse-chemistry-19.json
-    # (resourcesSha 888bca4a). Other chapters pin join_set at their S1.
-    # learning_objective: VERBATIM from the book's own LEARNING OBJECTIVES
-    # chunk chem_v3_u1_c1_pdf012_0023 (bullet glyphs joined with ';'; no paraphrase)
-    learning_objective: "Understand the three states of matter in terms of the arrangement, movement and energy of the particles; Understand the interconversions between the three states of matter in terms of: the names of the interconversions; how they are achieved; the changes in arrangement, movement and energy of the particles; Know what is meant by the terms: solvent; solute; solution; saturated solution; CHEMISTRY ONLY — Know what is meant by the term solubility in the units g per 100 g of solvent; Understand how the results of experiments involving the dilution of coloured solutions and diffusion of gases can be explained"
-    join_set: ["1.1", "1.2", "1.3", "1.4", "1.5C", "1.6C", "1.7C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Understand the three states of matter in terms of the arrangement, movement and
+      energy of the particles; Understand the interconversions between the three states of matter in terms
+      of: the names of the interconversions; how they are achieved; the changes in arrangement, movement
+      and energy of the particles; Know what is meant by the terms: solvent; solute; solution; saturated
+      solution; CHEMISTRY ONLY — Know what is meant by the term solubility in the units g per 100 g of
+      solvent; Understand how the results of experiments involving the dilution of coloured solutions
+      and diffusion of gases can be explained'
+    join_set:
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - 1.5C
+    - 1.6C
+    - 1.7C
     pages:
     - 3
     - 11
     section_count: 13
   - key: u1:c02
     slug: elements-compounds-mixtures
-    title: "Elements, compounds and mixtures"
+    title: Elements, compounds and mixtures
     chem_only: false
     pages:
     - 14
     - 20
-    # join_set DERIVED (never authored): children of spine node
-    # igcse-chemistry-T1:SUBb in apps/hub/spines/igcse-chemistry-19.json
-    # (resourcesSha 888bca4a). Pinned at S1 (T-BOOK-034 r0, 2026-10-22).
-    # learning_objective: VERBATIM from the book's LEARNING OBJECTIVES
-    # chunks chem_v3_u1_c2_pdf023_0065 + chem_v3_u1_c2_pdf023_0066 (margin
-    # items OCR'd into the ELEMENTS chunk; bullet glyphs joined with ';';
-    # 'R,' artifact normalized to 'Rf'; no paraphrase)
-    learning_objective: "Understand how to classify a substance as an element, compound or mixture; Understand how a chromatogram provides information about the composition of a mixture; Understand that a pure substance has a fixed melting and boiling point, but that a mixture may melt or boil over a range of temperatures; Describe these experimental techniques for the separation of mixtures: simple distillation; fractional distillation; filtration; crystallisation; paper chromatography; Understand how to use the calculation of Rf values to identify the components of a mixture; Practical: Investigate paper chromatography using inks/food colourings"
-    join_set: ["1.8", "1.9", "1.10", "1.11", "1.12", "1.13"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Understand how to classify a substance as an element, compound or mixture; Understand
+      how a chromatogram provides information about the composition of a mixture; Understand that a pure
+      substance has a fixed melting and boiling point, but that a mixture may melt or boil over a range
+      of temperatures; Describe these experimental techniques for the separation of mixtures: simple distillation;
+      fractional distillation; filtration; crystallisation; paper chromatography; Understand how to use
+      the calculation of Rf values to identify the components of a mixture; Practical: Investigate paper
+      chromatography using inks/food colourings'
+    join_set:
+    - '1.8'
+    - '1.9'
+    - '1.10'
+    - '1.11'
+    - '1.12'
+    - '1.13'
     section_count: 10
   - key: u1:c03
     slug: atomic-structure
@@ -119,15 +132,15 @@ spine:
     pages:
     - 24
     - 28
-    # join_set DERIVED (never authored): children of spine node
-    # igcse-chemistry-T1:SUBc in apps/hub/spines/igcse-chemistry-19.json
-    # (resourcesSha 888bca4a). Pinned at S1 (T-BOOK-035 r0, 2026-10-22).
-    # learning_objective: VERBATIM from the book's LEARNING OBJECTIVES
-    # chunk chem_v3_u1_c3_pdf033_0091 (margin items; bullet glyphs joined
-    # with ';'; '(A\u1d63)' kept unicode-subscript house style (H\u2082O
-    # precedent); no paraphrase)
-    learning_objective: "Know what is meant by the terms atom and molecule; Know the structure of an atom in terms of the positions, relative masses and relative charges of sub-atomic particles; Know what is meant by the terms atomic number, mass number, isotopes and relative atomic mass (A\u1d63); Be able to calculate the relative atomic mass of an element (A\u1d63) from isotopic abundances"
-    join_set: ["1.14", "1.15", "1.16", "1.17"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: Know what is meant by the terms atom and molecule; Know the structure of an atom
+      in terms of the positions, relative masses and relative charges of sub-atomic particles; Know what
+      is meant by the terms atomic number, mass number, isotopes and relative atomic mass (Aᵣ); Be able
+      to calculate the relative atomic mass of an element (Aᵣ) from isotopic abundances
+    join_set:
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
     section_count: 11
   - key: u1:c04
     slug: periodic-table
@@ -136,19 +149,22 @@ spine:
     pages:
     - 30
     - 36
-    # join_set DERIVED (never authored): children of spine node
-    # igcse-chemistry-T1:SUBd in apps/hub/spines/igcse-chemistry-19.json
-    # (resourcesSha 888bca4a). Pinned at S1 (T-BOOK-036 r0, 2026-10-23).
-    # SUBd carries 7 children 1.18-1.24 — supersedes the T-BOOK-035 r0
-    # preview note ("1.18-1.21"): the chapter's LEARNING OBJECTIVES chunk
-    # chem_v3_u1_c4_pdf039_0113 lists exactly those 7 spec statements.
-    # learning_objective: VERBATIM from chunk chem_v3_u1_c4_pdf039_0113
-    # (margin items; bullet glyphs joined with ';'; the two sub-bullets of
-    # the arrangement objective joined inline after its ':' lead; the
-    # interleaved chapter-opener paragraph is opener prose, not an
-    # objective, and stays out; no paraphrase)
-    learning_objective: "Understand how elements are arranged in the Periodic Table: in order of atomic number; in groups and periods; Identify an element as a metal or a non-metal according to its position in the Periodic Table; Understand how to deduce the electronic configurations of the first 20 elements from their positions in the Periodic Table; Understand how to use electrical conductivity and the acid-base character of oxides to classify elements as metals or non-metals; Understand how the electronic configuration of a main group element is related to its position in the Periodic Table; Understand why elements in the same group of the Periodic Table have similar chemical properties; Understand why the noble gases (Group 0) do not readily react"
-    join_set: ["1.18", "1.19", "1.20", "1.21", "1.22", "1.23", "1.24"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Understand how elements are arranged in the Periodic Table: in order of atomic
+      number; in groups and periods; Identify an element as a metal or a non-metal according to its position
+      in the Periodic Table; Understand how to deduce the electronic configurations of the first 20 elements
+      from their positions in the Periodic Table; Understand how to use electrical conductivity and the
+      acid-base character of oxides to classify elements as metals or non-metals; Understand how the electronic
+      configuration of a main group element is related to its position in the Periodic Table; Understand
+      why elements in the same group of the Periodic Table have similar chemical properties; Understand
+      why the noble gases (Group 0) do not readily react'
+    join_set:
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
     section_count: 12
   - key: u1:c05
     slug: formulae-calculations-1
@@ -157,23 +173,28 @@ spine:
     pages:
     - 38
     - 59
-    # join_set DERIVED (never authored): spec points whose statements appear in
-    # the chapter's LEARNING OBJECTIVES chunk chem_v3_u1_c5_pdf047_0145, each
-    # matched to the spine node igcse-chemistry-T1:SUBe (12 children 1.25-1.36C
-    # in apps/hub/spines/igcse-chemistry-19.json). Pinned at S1 (T-BOOK-037 r0,
-    # 2026-10-23). The objectives list carries exactly TEN of the twelve —
-    # 1.34C (concentration) and 1.35C (gas volumes) are ABSENT from the
-    # chapter's objectives and its 38-59 page span; they belong to part 2
-    # (u1:c06, pp. 64-71). All ten are non-suffixed (papers 1C+2C,
-    # double_award_shared). This supersedes any preview guess that part 1
-    # carries the C-suffixed points.
-    # learning_objective: VERBATIM from chunk chem_v3_u1_c5_pdf047_0145
-    # (margin items in printed order; bullet glyphs joined with ';'; the two
-    # sub-bullets of the 1.25 objective joined inline after its ':' lead;
-    # OCR-repairs per house style, disclosed in the receipt: '(M)'->Mᵣ,
-    # '(A)'->Aᵣ, 'copper(Il)'->copper(II); no paraphrase)
-    learning_objective: "Write word equations and balanced chemical equations (including state symbols): for reactions studied in this course; for unfamiliar reactions where suitable information is provided; Calculate relative formula masses (including relative molecular masses) (Mᵣ) from relative atomic masses (Aᵣ); Calculate percentage yield; Understand how the formulae of simple compounds can be obtained experimentally, including metal oxides, water and salts containing water of crystallisation; Know what is meant by the terms empirical formula and molecular formula; Know that the mole (mol) is the unit for the amount of a substance; Calculate empirical and molecular formulae from experimental data; Understand how to carry out calculations involving amount of substance, relative atomic mass (Aᵣ) and relative formula mass (Mᵣ); Practical: Know how to determine the formula of a metal oxide by combustion (e.g. magnesium oxide) or by reduction (e.g. copper(II) oxide); Calculate reacting masses using experimental data and chemical equations"
-    join_set: ["1.25", "1.26", "1.27", "1.28", "1.29", "1.30", "1.31", "1.32", "1.33", "1.36"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Write word equations and balanced chemical equations (including state symbols):
+      for reactions studied in this course; for unfamiliar reactions where suitable information is provided;
+      Calculate relative formula masses (including relative molecular masses) (Mᵣ) from relative atomic
+      masses (Aᵣ); Calculate percentage yield; Understand how the formulae of simple compounds can be
+      obtained experimentally, including metal oxides, water and salts containing water of crystallisation;
+      Know what is meant by the terms empirical formula and molecular formula; Know that the mole (mol)
+      is the unit for the amount of a substance; Calculate empirical and molecular formulae from experimental
+      data; Understand how to carry out calculations involving amount of substance, relative atomic mass
+      (Aᵣ) and relative formula mass (Mᵣ); Practical: Know how to determine the formula of a metal oxide
+      by combustion (e.g. magnesium oxide) or by reduction (e.g. copper(II) oxide); Calculate reacting
+      masses using experimental data and chemical equations'
+    join_set:
+    - '1.25'
+    - '1.26'
+    - '1.27'
+    - '1.28'
+    - '1.29'
+    - '1.30'
+    - '1.31'
+    - '1.32'
+    - '1.33'
+    - '1.36'
     widget_density: high
     section_count: 36
   - key: u1:c06
@@ -183,25 +204,12 @@ spine:
     pages:
     - 64
     - 71
-    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
-    # chunk chem_v3_u1_c6_pdf073_0263 lists exactly TWO objectives, matched to
-    # the spine node igcse-chemistry-T1:SUBe (12 children 1.25-1.36C in
-    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law): 'amount of
-    # substance, volume and concentration (in mol/dm3) of solution' = 1.34C;
-    # 'gas volumes and the molar volume of a gas (24 dm3 and 24 000 cm3 at
-    # rtp)' = 1.35C. Pinned at S1 (T-BOOK-038 r0, 2026-10-23). This completes
-    # the SUBe split the c05 receipt pinned: part 1 = the ten non-suffixed
-    # points, part 2 = the two C-suffixed points. BOTH are C-suffixed
-    # (papers [2C] only, double_award_shared false per spine applicability)
-    # — hence chem_only: true for this chapter (the L0 census default false
-    # is superseded by the derived join-set evidence, disclosed in the
-    # receipt).
-    # learning_objective: VERBATIM from chunk chem_v3_u1_c6_pdf073_0263
-    # (two bullet items; bullet glyphs joined with ';'; the book's own
-    # mol/dm3 and 24 dm3 render with unicode superscripts per house style;
-    # no paraphrase)
-    learning_objective: "Understand how to carry out calculations involving amount of substance, volume and concentration (in mol/dm³) of solution; Understand how to carry out calculations involving gas volumes and the molar volume of a gas (24 dm³ and 24 000 cm³ at room temperature and pressure (rtp))"
-    join_set: ["1.34C", "1.35C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: Understand how to carry out calculations involving amount of substance, volume
+      and concentration (in mol/dm³) of solution; Understand how to carry out calculations involving gas
+      volumes and the molar volume of a gas (24 dm³ and 24 000 cm³ at room temperature and pressure (rtp))
+    join_set:
+    - 1.34C
+    - 1.35C
     widget_density: high
     section_count: 15
   - key: u1:c07
@@ -211,23 +219,23 @@ spine:
     pages:
     - 75
     - 83
-    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
-    # chunks chem_v3_u1_c7_pdf084_0302 + chem_v3_u1_c7_pdf084_0304 list exactly
-    # SEVEN objectives, matched to the spine node igcse-chemistry-T1:SUBf (7
-    # children 1.37-1.43 in apps/hub/spines/igcse-chemistry-19.json,
-    # resourcesSha law). The chunker swept the last four objective bullets
-    # into the HINT chunk 0304 after the ammonium-exception hint — the union
-    # of 0302 + 0304's objective bullets maps one-to-one onto the seven
-    # children and no others (c02 multi-chunk objectives precedent). Pinned
-    # at S1 (T-BOOK-039 r0, 2026-10-23). ALL SEVEN are non-suffixed
-    # (papers [1C, 2C], double_award_shared true per spine applicability)
-    # — chem_only: false confirmed (L0 census default upheld by evidence).
-    # learning_objective: VERBATIM union of 0302 + 0304's objective bullets
-    # in printed order (margin items; bullet glyphs joined with ';'; the
-    # charges bullet's sub-bullets joined inline after its ':' lead; unicode
-    # ion charges per house style; no paraphrase)
-    learning_objective: "Understand how ions are formed by electron loss or gain; Know the charges of these ions: metals in Groups 1, 2 and 3; non-metals in Groups 5, 6 and 7; Ag⁺, Cu²⁺, Fe²⁺, Fe³⁺, Pb²⁺, Zn²⁺; hydrogen (H⁺), hydroxide (OH⁻), ammonium (NH₄⁺), carbonate (CO₃²⁻), nitrate (NO₃⁻), sulfate (SO₄²⁻); Write formulae for compounds formed between the ions listed above; Draw dot-and-cross diagrams to show the formation of ionic compounds by electron transfer, limited to combinations of elements from Groups 1, 2, 3, 5, 6 and 7 (only outer electrons need be shown); Understand ionic bonding in terms of electrostatic attractions; Understand why compounds with giant ionic lattices have high melting and boiling points; Know that ionic compounds do not conduct electricity when solid, but do conduct electricity when molten and in aqueous solution"
-    join_set: ["1.37", "1.38", "1.39", "1.40", "1.41", "1.42", "1.43"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Understand how ions are formed by electron loss or gain; Know the charges of
+      these ions: metals in Groups 1, 2 and 3; non-metals in Groups 5, 6 and 7; Ag⁺, Cu²⁺, Fe²⁺, Fe³⁺,
+      Pb²⁺, Zn²⁺; hydrogen (H⁺), hydroxide (OH⁻), ammonium (NH₄⁺), carbonate (CO₃²⁻), nitrate (NO₃⁻),
+      sulfate (SO₄²⁻); Write formulae for compounds formed between the ions listed above; Draw dot-and-cross
+      diagrams to show the formation of ionic compounds by electron transfer, limited to combinations
+      of elements from Groups 1, 2, 3, 5, 6 and 7 (only outer electrons need be shown); Understand ionic
+      bonding in terms of electrostatic attractions; Understand why compounds with giant ionic lattices
+      have high melting and boiling points; Know that ionic compounds do not conduct electricity when
+      solid, but do conduct electricity when molten and in aqueous solution'
+    join_set:
+    - '1.37'
+    - '1.38'
+    - '1.39'
+    - '1.40'
+    - '1.41'
+    - '1.42'
+    - '1.43'
     section_count: 15
   - key: u1:c08
     slug: covalent-bonding
@@ -236,27 +244,28 @@ spine:
     pages:
     - 85
     - 94
-    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
-    # chunk chem_v3_u1_c8_pdf094_0349 lists exactly EIGHT objectives, matched
-    # to the spine node igcse-chemistry-T1:SUBg (8 children 1.44-1.51 in
-    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law). One-to-one:
-    # sharing-of-a-pair -> 1.44; electrostatic attractions -> 1.45; the
-    # dot-and-cross objective (three sub-bullets joined inline after its ':'
-    # lead, c03/c07 precedent) -> 1.46; the two printed bullets 'simple
-    # molecular structure ... low melting and boiling points' + 'intermolecular
-    # forces of attraction ... all forces between molecules' map onto the ONE
-    # spine child 1.47 whose own statement carries both sentences (spine-title
-    # concatenation, not a miss); Mr trend -> 1.48; giant covalent -> 1.49;
-    # diamond/graphite/C60 -> 1.50; do-not-usually-conduct -> 1.51. Pinned at
-    # S1 (T-BOOK-040 r0, 2026-10-24). ALL EIGHT are non-suffixed (papers
-    # [1C, 2C], double_award_shared true per spine applicability) —
-    # chem_only: false confirmed (L0 census default upheld by evidence).
-    # learning_objective: VERBATIM from chunk 0349 (margin items in printed
-    # order; bullet glyphs joined with ';'; the 1.46 objective's three
-    # sub-bullets joined inline after its ':' lead; 'C6o' OCR repaired to C₆₀
-    # per house style; no paraphrase)
-    learning_objective: "Know that a covalent bond is formed between atoms by the sharing of a pair of electrons; Understand covalent bonds in terms of electrostatic attractions; Understand how to use dot-and-cross diagrams to represent covalent bonds in: diatomic molecules, including hydrogen, oxygen, nitrogen, halogens and hydrogen halides; inorganic molecules, including water, ammonia and carbon dioxide; organic molecules containing up to two carbon atoms, including methane, ethane, ethene and those containing halogen atoms; Explain why substances with a simple molecular structure are gases or liquids, or solids with low melting and boiling points; Understand that the term intermolecular forces of attraction can be used to represent all forces between molecules; Explain why the melting and boiling points of substances with simple molecular structures increase, in general, with increasing relative molecular mass; Explain why substances with giant covalent structures are solids with high melting and boiling points; Explain how the structures of diamond, graphite and C₆₀ fullerene influence their physical properties, including electrical conductivity and hardness; Know that covalent compounds do not usually conduct electricity"
-    join_set: ["1.44", "1.45", "1.46", "1.47", "1.48", "1.49", "1.50", "1.51"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Know that a covalent bond is formed between atoms by the sharing of a pair of
+      electrons; Understand covalent bonds in terms of electrostatic attractions; Understand how to use
+      dot-and-cross diagrams to represent covalent bonds in: diatomic molecules, including hydrogen, oxygen,
+      nitrogen, halogens and hydrogen halides; inorganic molecules, including water, ammonia and carbon
+      dioxide; organic molecules containing up to two carbon atoms, including methane, ethane, ethene
+      and those containing halogen atoms; Explain why substances with a simple molecular structure are
+      gases or liquids, or solids with low melting and boiling points; Understand that the term intermolecular
+      forces of attraction can be used to represent all forces between molecules; Explain why the melting
+      and boiling points of substances with simple molecular structures increase, in general, with increasing
+      relative molecular mass; Explain why substances with giant covalent structures are solids with high
+      melting and boiling points; Explain how the structures of diamond, graphite and C₆₀ fullerene influence
+      their physical properties, including electrical conductivity and hardness; Know that covalent compounds
+      do not usually conduct electricity'
+    join_set:
+    - '1.44'
+    - '1.45'
+    - '1.46'
+    - '1.47'
+    - '1.48'
+    - '1.49'
+    - '1.50'
+    - '1.51'
     section_count: 19
   - key: u1:c09
     slug: metallic-bonding
@@ -266,10 +275,13 @@ spine:
     - 98
     - 99
     section_count: 4
-    # learning_objective VERBATIM from LEARNING OBJECTIVES chunk chem_v3_u1_c9_pdf107_0395
-    # (3 bullets joined with ';'; no paraphrase — c08 0349 precedent)
-    learning_objective: "Know how to represent a metallic lattice by a 2D diagram; Understand metallic bonding in terms of electrostatic attractions; Explain typical physical properties of metals, including electrical conductivity and malleability"
-    join_set: ["1.52C", "1.53C", "1.54C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()). DERIVED at S0-L0 from objectives chunk 0395 x spine node igcse-chemistry-T1:SUBh = EXACTLY THREE points, one-to-one: 2D-diagram objective -> 1.52C; electrostatic-attractions objective -> 1.53C; physical-properties objective -> 1.54C. ALL THREE C-suffixed (papers [2C], double_award_shared false per spine applicability) — chem_only: true CONFIRMED (course row default upheld by derived evidence)
+    learning_objective: Know how to represent a metallic lattice by a 2D diagram; Understand metallic
+      bonding in terms of electrostatic attractions; Explain typical physical properties of metals, including
+      electrical conductivity and malleability
+    join_set:
+    - 1.52C
+    - 1.53C
+    - 1.54C
   - key: u1:c10
     slug: electrolysis
     title: Electrolysis
@@ -279,12 +291,21 @@ spine:
     - 109
     widget_density: high
     section_count: 10
-    # learning_objective: 5 bullets VERBATIM from LEARNING OBJECTIVES chunk chem_v3_u1_c10_pdf110_0405;
-    # the 1.58C bullet uses the spine-canonical text because the chunk fragment is OCR-garbled
-    # ("(including lead sns s a ( (ading") and split by column interleave into 2 raw fragments —
-    # disclosed in findings f-0016 (c09 0395 precedent; joined with ';'; no paraphrase)
-    learning_objective: "Understand why covalent compounds do not conduct electricity; Understand why ionic compounds conduct electricity only when molten or in aqueous solution; Know that anion and cation are terms used to refer to negative and positive ions, respectively; Describe experiments to investigate electrolysis, using inert electrodes, of molten compounds (including lead(II) bromide) and aqueous solutions (including sodium chloride, dilute sulfuric acid and copper(II) sulfate) and to predict the products; Write ionic half-equations representing the reactions at the electrodes during electrolysis and understand why these reactions are classified as oxidation or reduction; Practical: Investigate the electrolysis of aqueous solutions"
-    join_set: ["1.55C", "1.56C", "1.57C", "1.58C", "1.59C", "1.60C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()). DERIVED at S0-L0 from objectives chunk 0405 x spine node igcse-chemistry-T1:SUBi = EXACTLY SIX points, one-to-one (chunk carries 7 RAW fragments — parse artifact: 1.58C split into 2 fragments by column interleave + OCR garble of the "(including lead(II) bromide) and aqueous solutions (including" segment; 5 fragments match spine titles verbatim, split pair COVERED by spine 1.58C text; reassembly law + disclosure in f-0016): covalent-non-conduction -> 1.55C; molten/aqueous-conduction -> 1.56C; anion/cation terms -> 1.57C; describe-experiments -> 1.58C; half-equations/redox -> 1.59C; practical -> 1.60C. ALL SIX C-suffixed (papers [2C], double_award_shared false per spine applicability) — chem_only: true CONFIRMED (course row default upheld by derived evidence)
+    learning_objective: 'Understand why covalent compounds do not conduct electricity; Understand why
+      ionic compounds conduct electricity only when molten or in aqueous solution; Know that anion and
+      cation are terms used to refer to negative and positive ions, respectively; Describe experiments
+      to investigate electrolysis, using inert electrodes, of molten compounds (including lead(II) bromide)
+      and aqueous solutions (including sodium chloride, dilute sulfuric acid and copper(II) sulfate) and
+      to predict the products; Write ionic half-equations representing the reactions at the electrodes
+      during electrolysis and understand why these reactions are classified as oxidation or reduction;
+      Practical: Investigate the electrolysis of aqueous solutions'
+    join_set:
+    - 1.55C
+    - 1.56C
+    - 1.57C
+    - 1.58C
+    - 1.59C
+    - 1.60C
   u2:
   - key: u2:c11
     slug: alkali-metals
@@ -309,20 +330,21 @@ spine:
     pages:
     - 137
     - 143
-    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
-    # chunk chem_v3_u2_c13_pdf146_0523 lists exactly SIX objectives, matched
-    # to the spine node igcse-chemistry-T2:SUBc (6 children 2.9-2.14 in
-    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law). All six
-    # fragments match spine titles verbatim (case-insensitive); ALL SIX are
-    # non-suffixed (papers [1C, 2C], double_award_shared true per spine
-    # applicability) — chem_only: false CONFIRMED (course row default upheld
-    # by derived evidence). Pinned at S1 (T-BOOK-046 r0, 2026-10-24); the
-    # c11/c12 rows were left unpinned by their lanes (debt noted in the c13
-    # receipt).
-    # learning_objective: VERBATIM from chunk 0523 (margin items in printed
-    # order; bullet glyphs joined with ';'; no paraphrase)
-    learning_objective: "Know the approximate percentages by volume of the four most abundant gases in dry air; Understand how to determine the percentage by volume of oxygen in air using experiments involving the reactions of metals (e.g. iron) and non-metals (e.g. phosphorus) with air; Describe the combustion of elements in oxygen, including magnesium, hydrogen and sulfur; Describe the formation of carbon dioxide from the thermal decomposition of metal carbonates, including copper(II) carbonate; Know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute to climate change; Practical: Determine the approximate percentage by volume of oxygen in air using a metal or a non-metal"
-    join_set: ["2.9", "2.10", "2.11", "2.12", "2.13", "2.14"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Know the approximate percentages by volume of the four most abundant gases in
+      dry air; Understand how to determine the percentage by volume of oxygen in air using experiments
+      involving the reactions of metals (e.g. iron) and non-metals (e.g. phosphorus) with air; Describe
+      the combustion of elements in oxygen, including magnesium, hydrogen and sulfur; Describe the formation
+      of carbon dioxide from the thermal decomposition of metal carbonates, including copper(II) carbonate;
+      Know that carbon dioxide is a greenhouse gas and that increasing amounts in the atmosphere may contribute
+      to climate change; Practical: Determine the approximate percentage by volume of oxygen in air using
+      a metal or a non-metal'
+    join_set:
+    - '2.9'
+    - '2.10'
+    - '2.11'
+    - '2.12'
+    - '2.13'
+    - '2.14'
     section_count: 7
   - key: u2:c14
     slug: reactivity-series
@@ -331,27 +353,23 @@ spine:
     pages:
     - 145
     - 156
-    # join_set DERIVED (never authored): the chapter's LEARNING OBJECTIVES
-    # chunk chem_v3_u2_c14_pdf154_0559 carries SEVEN objectives, matched to the
-    # spine node igcse-chemistry-T2:SUBd (7 children 2.15-2.21 in
-    # apps/hub/spines/igcse-chemistry-19.json, resourcesSha law). The chunk is
-    # COLUMN-INTERLEAVED (Figure 14.2 gold caption splits the 2.16 and 2.20
-    # objectives across fragments; f-0016 reassembly law — "2.x practicals are
-    # candidates" confirmed): 10 raw fragments reassemble to 7 logical
-    # objectives, each matching its spine child verbatim (case-insensitive,
-    # bullet glyphs dropped): water/dilute-acids -> 2.15; displacement
-    # metal-oxides/salt-solutions -> 2.16; order-of-reactivity list -> 2.17;
-    # iron-rusts conditions -> 2.18; barrier/galvanising/sacrificial -> 2.19;
-    # oxidation/reduction/redox/agents oxygen+electron terms -> 2.20;
-    # practical metals+dilute acids -> 2.21. ALL SEVEN are non-suffixed
-    # (papers [1C, 2C], double_award_shared true per spine applicability) —
-    # chem_only: false CONFIRMED (course row default upheld by derived
-    # evidence). Pinned at S0-L0 (T-BOOK-047 r0, 2026-10-25).
-    # learning_objective: VERBATIM from chunk 0559 (margin items reassembled in
-    # spine order; sub-bullets joined inline after their ':' leads; bullet
-    # glyphs joined with ';'; no paraphrase — f-0016 disclosure above)
-    learning_objective: "Understand how metals can be arranged in a reactivity series based on their reactions with: water; dilute hydrochloric or sulfuric acid; Understand how metals can be arranged in a reactivity series based on their displacement reactions between: metals and metal oxides; metals and aqueous solutions of metal salts; Know the order of reactivity of these metals: potassium, sodium, lithium, calcium, magnesium, aluminium, zinc, iron, copper, silver, gold; Know the conditions under which iron rusts; Understand how the rusting of iron may be prevented by: barrier methods; galvanising; sacrificial protection; Understand the terms: oxidation; reduction; redox; oxidising agent; reducing agent in terms of gain or loss of oxygen and loss or gain of electrons; Practical: Investigate reactions between dilute hydrochloric and sulfuric acids and metals (e.g. magnesium, zinc and iron)"
-    join_set: ["2.15", "2.16", "2.17", "2.18", "2.19", "2.20", "2.21"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string())
+    learning_objective: 'Understand how metals can be arranged in a reactivity series based on their reactions
+      with: water; dilute hydrochloric or sulfuric acid; Understand how metals can be arranged in a reactivity
+      series based on their displacement reactions between: metals and metal oxides; metals and aqueous
+      solutions of metal salts; Know the order of reactivity of these metals: potassium, sodium, lithium,
+      calcium, magnesium, aluminium, zinc, iron, copper, silver, gold; Know the conditions under which
+      iron rusts; Understand how the rusting of iron may be prevented by: barrier methods; galvanising;
+      sacrificial protection; Understand the terms: oxidation; reduction; redox; oxidising agent; reducing
+      agent in terms of gain or loss of oxygen and loss or gain of electrons; Practical: Investigate reactions
+      between dilute hydrochloric and sulfuric acids and metals (e.g. magnesium, zinc and iron)'
+    join_set:
+    - '2.15'
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
     section_count: 20
   - key: u2:c15
     slug: extraction-metals
@@ -360,18 +378,44 @@ spine:
     pages:
     - 160
     - 164
-    learning_objective: "Know that most metals are extracted from ores found in the Earth’s crust and that unreactive metals are often found as the uncombined element; Explain how the method of extraction of a metal is related to its position in the reactivity series, illustrated by carbon extraction for iron and electrolysis for aluminium; Be able to comment on a metal extraction process, given appropriate information (detailed knowledge of the processes used in the extraction of a specific metal is not required); Explain the uses of aluminium, copper, iron and steel in terms of their properties (the types of steel will be limited to low-carbon (mild), high-carbon and stainless); Know that an alloy is a mixture of a metal and one or more elements, usually other metals or carbon; Explain why alloys are harder than pure metals"
-    join_set: ["2.22C", "2.23C", "2.24C", "2.25C", "2.26C", "2.27C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — all C-suffixed, papers [2C] per spine applicability
+    learning_objective: Know that most metals are extracted from ores found in the Earth’s crust and that
+      unreactive metals are often found as the uncombined element; Explain how the method of extraction
+      of a metal is related to its position in the reactivity series, illustrated by carbon extraction
+      for iron and electrolysis for aluminium; Be able to comment on a metal extraction process, given
+      appropriate information (detailed knowledge of the processes used in the extraction of a specific
+      metal is not required); Explain the uses of aluminium, copper, iron and steel in terms of their
+      properties (the types of steel will be limited to low-carbon (mild), high-carbon and stainless);
+      Know that an alloy is a mixture of a metal and one or more elements, usually other metals or carbon;
+      Explain why alloys are harder than pure metals
+    join_set:
+    - 2.22C
+    - 2.23C
+    - 2.24C
+    - 2.25C
+    - 2.26C
+    - 2.27C
     section_count: 10
   - key: u2:c16
     slug: acids-alkalis-titrations
-    title: "Acids, alkalis and titrations"
+    title: Acids, alkalis and titrations
     chem_only: false
     pages:
     - 167
     - 172
-    learning_objective: "Describe the use of litmus, phenolphthalein and methyl orange to distinguish between acidic and alkaline solutions; Understand how the pH scale, from 0–14, can be used to classify solutions as strongly acidic (0-3), weakly acidic (4–6), neutral (7), weakly alkaline (8–10) and strongly alkaline (11–14); Describe the use of universal indicator to measure the approximate pH value of an aqueous solution; Know that acids in aqueous solution are a source of hydrogen ions and alkalis in a aqueous solution are a source of hydroxide ions; Know that alkalis can neutralise acids; Describe how to carry out an acid-alkali titration"
-    join_set: ["2.28", "2.29", "2.30", "2.31", "2.32", "2.33C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — 5 core shared [1C,2C] + 2.33C chemistry-only [2C] per spine applicability = course's THIRD MIXED pack (c11/c12 precedent); 2.31 spine-canonical (chunk garble, disclosed); 2.29 chunk-verbatim (spine "to use" doubling, disclosed)
+    learning_objective: Describe the use of litmus, phenolphthalein and methyl orange to distinguish between
+      acidic and alkaline solutions; Understand how the pH scale, from 0–14, can be used to classify solutions
+      as strongly acidic (0-3), weakly acidic (4–6), neutral (7), weakly alkaline (8–10) and strongly
+      alkaline (11–14); Describe the use of universal indicator to measure the approximate pH value of
+      an aqueous solution; Know that acids in aqueous solution are a source of hydrogen ions and alkalis
+      in a aqueous solution are a source of hydroxide ions; Know that alkalis can neutralise acids; Describe
+      how to carry out an acid-alkali titration
+    join_set:
+    - '2.28'
+    - '2.29'
+    - '2.30'
+    - '2.31'
+    - '2.32'
+    - 2.33C
     widget_density: high
     section_count: 9
   - key: u2:c17
@@ -381,8 +425,32 @@ spine:
     pages:
     - 173
     - 189
-    learning_objective: "Know the general rules for predicting the solubility of ionic compounds in water: • common sodium, potassium and ammonium compounds are soluble • all nitrates are soluble • common chlorides are soluble, except those of silver and lead(II) • common sulfates are soluble, except for those of barium, calcium and lead(II) • common carbonates are insoluble, except for those of sodium, potassium and ammonium • common hydroxides are insoluble except for those of sodium, potassium and calcium (calcium hydroxide is slightly soluble).; Understand acids and bases in terms of proton transfer; Understand that an acid is a proton donor and a base is a proton acceptor; Describe the reactions of hydrochloric acid, sulfuric acid and nitric acid with metals, bases and metal carbonates (excluding the reactions between nitric acid and metals) to form salts; Know that metal oxides, metal hydroxides and ammonia can act as bases, and that alkalis are bases that are soluble in water; Describe an experiment to prepare a pure, dry sample of a soluble salt, starting from an insoluble reactant; Describe an experiment to prepare a pure, dry sample of a soluble salt, starting from an acid and alkali; Describe an experiment to prepare a pure, dry sample of an insoluble salt, starting from two soluble reactants; practical: prepare a sample of pure, dry hydrated copper(II) sulfate crystals starting from copper(II) oxide; practical: prepare a sample of pure, dry lead(II) sulfate"
-    join_set: ["2.34", "2.35", "2.36", "2.37", "2.38", "2.39", "2.40C", "2.41C", "2.42", "2.43C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — 7 core shared [1C,2C] + 2.40C/2.41C/2.43C chemistry-only [2C] per spine applicability = course's FOURTH MIXED pack (c11/c12 3+1, c16 5+1 precedent); 2.34 spine-canonical (objectives fragment 0687 carries only 4 of 6 sub-bullets — sulfates+carbonates absent, full rule set taught in body chunk 0714) + 2.42 spine-canonical (chunk OCR "(Il)", disclosed) — f-0016 cover law
+    learning_objective: 'Know the general rules for predicting the solubility of ionic compounds in water:
+      • common sodium, potassium and ammonium compounds are soluble • all nitrates are soluble • common
+      chlorides are soluble, except those of silver and lead(II) • common sulfates are soluble, except
+      for those of barium, calcium and lead(II) • common carbonates are insoluble, except for those of
+      sodium, potassium and ammonium • common hydroxides are insoluble except for those of sodium, potassium
+      and calcium (calcium hydroxide is slightly soluble).; Understand acids and bases in terms of proton
+      transfer; Understand that an acid is a proton donor and a base is a proton acceptor; Describe the
+      reactions of hydrochloric acid, sulfuric acid and nitric acid with metals, bases and metal carbonates
+      (excluding the reactions between nitric acid and metals) to form salts; Know that metal oxides,
+      metal hydroxides and ammonia can act as bases, and that alkalis are bases that are soluble in water;
+      Describe an experiment to prepare a pure, dry sample of a soluble salt, starting from an insoluble
+      reactant; Describe an experiment to prepare a pure, dry sample of a soluble salt, starting from
+      an acid and alkali; Describe an experiment to prepare a pure, dry sample of an insoluble salt, starting
+      from two soluble reactants; practical: prepare a sample of pure, dry hydrated copper(II) sulfate
+      crystals starting from copper(II) oxide; practical: prepare a sample of pure, dry lead(II) sulfate'
+    join_set:
+    - '2.34'
+    - '2.35'
+    - '2.36'
+    - '2.37'
+    - '2.38'
+    - '2.39'
+    - 2.40C
+    - 2.41C
+    - '2.42'
+    - 2.43C
     section_count: 21
   - key: u2:c18
     slug: chemical-tests
@@ -391,8 +459,23 @@ spine:
     pages:
     - 190
     - 198
-    learning_objective: "describe tests for these gases: • hydrogen • oxygen • carbon dioxide • ammonia • chlorine.; describe how to carry out a flame test; know the colours formed in flame tests for these cations: • Li + is red • Na + is yellow • K + is lilac • Ca 2+ is orange-red • Cu 2+ is blue-green.; describe tests for these cations: • NH 4 + using sodium hydroxide solution and identifying the gas evolved • Cu 2+ , Fe 2+ and Fe 3+ using sodium hydroxide solution.; describe tests for these anions: • Cl – , Br – and I – using acidified silver nitrate solution • SO 4 2– using acidified barium chloride solution • CO 3 2– using hydrochloric acid and identifying the gas evolved.; describe a test for the presence of water using anhydrous copper(II) sulfate; describe a physical test to show whether a sample of water is pure"
-    join_set: ["2.44", "2.45", "2.46", "2.47", "2.48", "2.49", "2.50"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — ALL SEVEN core shared [1C,2C] per spine applicability = the course RETURNS to an all-core pack after two mixed (f-0015 sibling audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3 — no drift); spine-canonical pins (spine node igcse-chemistry-T2:SUBh): 2.46 chunk paren-form "Li+ (red)" vs spine clause-form disclosed, 2.49 chunk OCR "(Il)" -> (II), 2.50 chunk "whether or not" vs spine "whether" — f-0016 cover law
+    learning_objective: 'describe tests for these gases: • hydrogen • oxygen • carbon dioxide • ammonia
+      • chlorine.; describe how to carry out a flame test; know the colours formed in flame tests for
+      these cations: • Li + is red • Na + is yellow • K + is lilac • Ca 2+ is orange-red • Cu 2+ is blue-green.;
+      describe tests for these cations: • NH 4 + using sodium hydroxide solution and identifying the gas
+      evolved • Cu 2+ , Fe 2+ and Fe 3+ using sodium hydroxide solution.; describe tests for these anions:
+      • Cl – , Br – and I – using acidified silver nitrate solution • SO 4 2– using acidified barium chloride
+      solution • CO 3 2– using hydrochloric acid and identifying the gas evolved.; describe a test for
+      the presence of water using anhydrous copper(II) sulfate; describe a physical test to show whether
+      a sample of water is pure'
+    join_set:
+    - '2.44'
+    - '2.45'
+    - '2.46'
+    - '2.47'
+    - '2.48'
+    - '2.49'
+    - '2.50'
     section_count: 15
   u3:
   - key: u3:c19
@@ -402,8 +485,25 @@ spine:
     pages:
     - 207
     - 224
-    learning_objective: "know that chemical reactions in which heat energy is given out are described as exothermic, and those in which heat energy is taken in are described as endothermic; describe simple calorimetry experiments for reactions such as combustion, displacement, dissolving and neutralisation; calculate the heat energy change from a measured temperature change using the expression Q = m c Δ T; calculate the molar enthalpy change (ΔH) from the heat energy change, Q; draw and explain energy level diagrams to represent exothermic and endothermic reactions; know that bond-breaking is an endothermic process and that bond-making is an exothermic process; use bond energies to calculate the enthalpy change during a chemical reaction; practical: investigate temperature changes accompanying some of the following types of change: • salts dissolving in water • neutralisation reactions • displacement reactions • combustion reactions."
-    join_set: ["3.1", "3.2", "3.3", "3.4", "3.5C", "3.6C", "3.7C", "3.8"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — FIVE core shared [1C,2C] (3.1-3.4, 3.8) + 3.5C/3.6C/3.7C chemistry-only [2C] per spine applicability = the course's FIFTH MIXED pack (f-0015 sibling audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3 — no drift); spine-canonical pins (spine node igcse-chemistry-T3:SUBa): 3.3 chunk glyph-form "Q = mc∆T" vs spine spaced "Q = m c Δ T" disclosed, 3.6C chunk "bond breaking"/"bond making" vs spine hyphenated "bond-breaking"/"bond-making" disclosed, 3.7C chunk mid-phrase doubling deduped, 3.8 chunk per-bullet doubling deduped — f-0016 cover law
+    learning_objective: 'know that chemical reactions in which heat energy is given out are described
+      as exothermic, and those in which heat energy is taken in are described as endothermic; describe
+      simple calorimetry experiments for reactions such as combustion, displacement, dissolving and neutralisation;
+      calculate the heat energy change from a measured temperature change using the expression Q = m c
+      Δ T; calculate the molar enthalpy change (ΔH) from the heat energy change, Q; draw and explain energy
+      level diagrams to represent exothermic and endothermic reactions; know that bond-breaking is an
+      endothermic process and that bond-making is an exothermic process; use bond energies to calculate
+      the enthalpy change during a chemical reaction; practical: investigate temperature changes accompanying
+      some of the following types of change: • salts dissolving in water • neutralisation reactions •
+      displacement reactions • combustion reactions.'
+    join_set:
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - 3.5C
+    - 3.6C
+    - 3.7C
+    - '3.8'
     section_count: 20
   - key: u3:c20
     slug: rates-reaction
@@ -412,8 +512,27 @@ spine:
     pages:
     - 227
     - 238
-    learning_objective: "describe experiments to investigate the effects of changes in surface area of a solid, concentration of a solution, temperature and the use of a catalyst on the rate of a reaction; describe the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas, temperature and the use of a catalyst on the rate of a reaction; explain the effects of changes in surface area of a solid, concentration of a solution, pressure of a gas and temperature on the rate of a reaction in terms of particle collision theory; know that a catalyst is a substance that increases the rate of a reaction, but is chemically unchanged at the end of the reaction; know that a catalyst works by providing an alternative pathway with lower activation energy; draw and explain reaction profile diagrams showing Δ H and activation energy; practical: investigate the effect of changing the surface area of marble chips and of changing the concentration of hydrochloric acid on the rate of reaction between marble chips and dilute hydrochloric acid; practical: investigate the effect of different solids on the catalytic decomposition of hydrogen peroxide solution."
-    join_set: ["3.9", "3.10", "3.11", "3.12", "3.13", "3.14C", "3.15", "3.16"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — SEVEN core shared [1C,2C] (3.9-3.13, 3.15, 3.16) + 3.14C chemistry-only [2C] per spine applicability = the course's SIXTH MIXED pack (f-0015 sibling audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3; c20 mixed 7+1 — no drift); spine-canonical pins (spine node igcse-chemistry-T3:SUBb): 3.9/3.10/3.11 chunk article-form "the surface area/the concentration/the temperature" vs spine bare "surface area/concentration/temperature" disclosed, 3.14C chunk glyph-form "△H" vs spine spaced "Δ H" disclosed, 3.15/3.16 chunk capitalised "Practical: Investigate" vs spine lowercase "practical: investigate" disclosed — f-0016 cover law
+    learning_objective: 'describe experiments to investigate the effects of changes in surface area of
+      a solid, concentration of a solution, temperature and the use of a catalyst on the rate of a reaction;
+      describe the effects of changes in surface area of a solid, concentration of a solution, pressure
+      of a gas, temperature and the use of a catalyst on the rate of a reaction; explain the effects of
+      changes in surface area of a solid, concentration of a solution, pressure of a gas and temperature
+      on the rate of a reaction in terms of particle collision theory; know that a catalyst is a substance
+      that increases the rate of a reaction, but is chemically unchanged at the end of the reaction; know
+      that a catalyst works by providing an alternative pathway with lower activation energy; draw and
+      explain reaction profile diagrams showing Δ H and activation energy; practical: investigate the
+      effect of changing the surface area of marble chips and of changing the concentration of hydrochloric
+      acid on the rate of reaction between marble chips and dilute hydrochloric acid; practical: investigate
+      the effect of different solids on the catalytic decomposition of hydrogen peroxide solution.'
+    join_set:
+    - '3.9'
+    - '3.10'
+    - '3.11'
+    - '3.12'
+    - '3.13'
+    - 3.14C
+    - '3.15'
+    - '3.16'
     section_count: 12
   - key: u3:c21
     slug: equilibria
@@ -422,8 +541,21 @@ spine:
     pages:
     - 240
     - 246
-    learning_objective: "know that some reactions are reversible and this is indicated by the symbol ⇌ in equations; describe reversible reactions such as the dehydration of hydrated copper(II) sulfate and the effect of heat on ammonium chloride; know that a reversible reaction can reach dynamic equilibrium in a sealed container; know that the characteristics of a reaction at dynamic equilibrium are: • the forward and reverse reactions occur at the same rate • the concentrations of reactants and products remain constant.; understand why a catalyst does not affect the position of equilibrium in a reversible reaction; know the effect of changing either temperature or pressure on the position of equilibrium in a reversible reaction"
-    join_set: ["3.17", "3.18", "3.19C", "3.20C", "3.21C", "3.22C"]  # STRINGS (emit -> JSON strings; zod specRefs is z.string()) — TWO core shared [1C,2C] (3.17, 3.18) + 3.19C/3.20C/3.21C/3.22C chemistry-only [2C] per spine applicability = the course's SEVENTH MIXED pack (f-0015 sibling audit: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3; c20 mixed 7+1; c21 mixed 2+4 — no drift). NOTE: chem_only: true flags the BOOK chapter placement (final chemistry-only band, raw section 'End of Chemistry Only'), NOT the spec composition — the spine's applicability rules govern join_set membership. Objectives block is SPLIT across three chunks (0952 core, 0953 CHEMISTRY ONLY, 0956 body-typed continuation carrying 3.21C/3.22C bullets) — derivation anchors on all three fragments. Spine-canonical pins (spine node igcse-chemistry-T3:SUBc): 3.17 chunk glyph-form "⇒" vs spine "⇌" + chunk "and that this is indicated" vs spine "and this is indicated", 3.18 chunk capitalised "Describe" vs spine lowercase, 3.22C chunk main-bullet + sub-bullets vs spine single statement (sub-bullets absorbed into body teaching) — f-0016 cover law
+    learning_objective: 'know that some reactions are reversible and this is indicated by the symbol ⇌
+      in equations; describe reversible reactions such as the dehydration of hydrated copper(II) sulfate
+      and the effect of heat on ammonium chloride; know that a reversible reaction can reach dynamic equilibrium
+      in a sealed container; know that the characteristics of a reaction at dynamic equilibrium are: •
+      the forward and reverse reactions occur at the same rate • the concentrations of reactants and products
+      remain constant.; understand why a catalyst does not affect the position of equilibrium in a reversible
+      reaction; know the effect of changing either temperature or pressure on the position of equilibrium
+      in a reversible reaction'
+    join_set:
+    - '3.17'
+    - '3.18'
+    - 3.19C
+    - 3.20C
+    - 3.21C
+    - 3.22C
     section_count: 9
   u4:
   - key: u4:c22
@@ -434,6 +566,22 @@ spine:
     - 255
     - 265
     section_count: 14
+    learning_objective: know that a hydrocarbon is a compound of hydrogen and carbon only; understand
+      how to represent organic molecules using empirical formulae, molecular formulae, general formulae,
+      structural formulae and displayed formulae; know what is meant by the terms homologous series, functional
+      group and isomerism; understand how to name compounds relevant to this specification using the rules
+      of International Union of Pure and Applied Chemistry (IUPAC) nomenclature students will be expected
+      to name compounds containing up to six carbon atoms; understand how to write the possible structural
+      and displayed formulae of an organic molecule given its molecular formula; understand how to classify
+      reactions of organic compounds as substitution, addition and combustion knowledge of reaction mechanisms
+      is not required
+    join_set:
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+    - '4.5'
+    - '4.6'
   - key: u4:c23
     slug: crude-oil
     title: Crude oil
