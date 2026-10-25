@@ -1,0 +1,144 @@
+# glossary — u4:c25 Alkenes (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+# CnH2n restored from the chunk garble via page OCR (1101); equation-free definitions
+# follow the printed text of record.
+- term: alkene
+  slug: alkene
+  definition: "A hydrocarbon with at least one carbon-carbon double bond; the family whose functional group C=C makes it far more reactive than the alkanes. General formula CnH2n."
+  ms_accepts: ["hydrocarbon containing a C=C double bond", "unsaturated hydrocarbon with C=C", "more reactive than alkanes because of the double bond"]
+  ms_avoids: ["saying saturated", "omitting the double bond from the definition", "confusing with alkane formulae"]
+  aliases: ["alkenes", "the alkene family"]
+  source: "chem_v3_u4_c25_pdf291_1095"
+- term: alkane
+  slug: alkane
+  definition: "A saturated hydrocarbon with only single carbon-carbon and carbon-hydrogen bonds; the product family when an alkene is hydrogenated. General formula CnH2n+2."
+  ms_accepts: ["saturated hydrocarbon", "only single bonds", "product of adding hydrogen to an alkene"]
+  ms_avoids: ["saying it contains a double bond", "omitting the single-bond condition"]
+  aliases: ["alkanes"]
+  source: "chem_v3_u4_c25_pdf291_1095"
+- term: functional group
+  slug: functional-group
+  definition: "The atom or bond arrangement that gives an organic family its characteristic reactions. The alkenes' functional group is the carbon-carbon double bond, written >C=C<."
+  ms_accepts: ["the reactive part that determines chemical properties", "C=C for the alkenes", "the >C=C< group"]
+  ms_avoids: ["omitting that it dictates reactions", "giving the alkane skeleton as the alkene group"]
+  aliases: ["functional groups"]
+  source: "chem_v3_u4_c25_pdf292_1103"
+- term: homologous series
+  slug: homologous-series
+  definition: "A family of compounds with the same functional group, similar chemical properties, a trend in physical properties, one general formula, and consecutive members differing by a -CH2- unit."
+  ms_accepts: ["same functional group", "similar chemical properties", "members differ by CH2 units"]
+  ms_avoids: ["listing bullets without the functional-group thread", "confusing with a periodic-table group"]
+  aliases: ["homologous series of compounds"]
+  source: "chem_v3_u4_c25_pdf291_1096"
+- term: hydrocarbon
+  slug: hydrocarbon
+  definition: "A compound that contains carbon and hydrogen only. Both the alkanes and the alkenes are hydrocarbon families; the difference is the bonding between the carbons."
+  ms_accepts: ["compound of carbon and hydrogen only", "contains no other elements"]
+  ms_avoids: ["omitting the exclusivity word only", "counting compounds with oxygen as hydrocarbons"]
+  aliases: ["hydrocarbons"]
+  source: "chem_v3_u4_c25_pdf291_1095"
+- term: displayed formula
+  slug: displayed-formula
+  definition: "A drawing that shows every atom and every bond as an explicit line, including the double bond as two parallel lines. All four bonds at each carbon must be shown."
+  ms_accepts: ["all atoms and all bonds drawn", "C=C drawn as a double line", "every carbon shows four bonds"]
+  ms_avoids: ["omitting hydrogen atoms", "drawing the double bond as a single line", "leaving bonds unaccounted"]
+  aliases: ["displayed formulae", "full structural formula"]
+  source: "chem_v3_u4_c25_pdf291_1097"
+- term: isomer
+  slug: isomer
+  definition: "A compound with the same molecular formula as another but a different structural formula. C4H8 has three alkene isomers: but-1-ene, but-2-ene and 2-methylpropene."
+  ms_accepts: ["same molecular formula different structure", "different arrangement of the same atoms", "but-1-ene and but-2-ene as isomer pair"]
+  ms_avoids: ["saying different molecular formulae", "treating two rotations as isomers", "omitting the same-formula half"]
+  aliases: ["isomers", "isomerism"]
+  source: "chem_v3_u4_c25_pdf292_1100"
+- term: molecular formula
+  slug: molecular-formula
+  definition: "A formula counting the atoms of each element in one molecule — C3H6 for propene — without showing how they are joined. For alkenes it always fits CnH2n."
+  ms_accepts: ["counts atoms of each element", "C3H6 for propene", "shows what but not how joined"]
+  ms_avoids: ["confusing with the displayed formula", "omitting subscript counts", "claiming it shows bond positions"]
+  aliases: ["formula"]
+  source: "chem_v3_u4_c25_pdf291_1097"
+- term: unsaturated hydrocarbon
+  slug: unsaturated-hydrocarbon
+  definition: "A hydrocarbon containing at least one double or triple carbon-carbon bond. The alkenes are classified as unsaturated because they contain a C=C bond."
+  ms_accepts: ["contains a C=C bond", "has double or triple C-C bonds", "not maximum hydrogen because of the double bond (supporting only)"]
+  ms_avoids: ["answering with hydrogen-count language alone", "omitting the bond statement", "calling alkanes unsaturated"]
+  aliases: ["unsaturated compound", "unsaturated"]
+  source: "chem_v3_u4_c25_pdf292_1101"
+- term: saturated hydrocarbon
+  slug: saturated-hydrocarbon
+  definition: "A hydrocarbon with single carbon-carbon bonds only — no double (C=C) or triple (C≡C) bonds anywhere. The alkanes are the saturated family."
+  ms_accepts: ["only single bonds", "no C=C or C≡C bonds", "single C-C bonds only"]
+  ms_avoids: ["saying full of hydrogen as the definition", "omitting the bonding clause", "confusing saturation with inertness"]
+  aliases: ["saturated"]
+  source: "chem_v3_u4_c25_pdf292_1101"
+- term: general formula
+  slug: general-formula
+  definition: "One algebraic expression giving the molecular formula of every family member. For alkenes it is CnH2n: the hydrogen count is twice the carbon count."
+  ms_accepts: ["CnH2n for alkenes", "hydrogens equal twice the carbons", "one formula for all family members"]
+  ms_avoids: ["giving CnH2n+2 for alkenes", "calling it an empirical formula", "mixing n with a fixed count"]
+  aliases: ["CnH2n"]
+  source: "chem_v3_u4_c25_pdf292_1101"
+- term: empirical formula
+  slug: empirical-formula
+  definition: "The simplest whole-number ratio of atoms in a compound. Every alkene reduces to CH2, because the CnH2n pattern gives a fixed 1:2 carbon-to-hydrogen ratio."
+  ms_accepts: ["CH2 for any alkene", "simplest whole-number ratio", "same for every alkene"]
+  ms_avoids: ["confusing with the molecular formula", "computing it per member needlessly", "giving C2H4 for ethene when the ratio is asked"]
+  aliases: ["simplest formula"]
+  source: "chem_v3_u4_c25_pdf292_1101"
+- term: complete combustion
+  slug: complete-combustion
+  definition: "Burning in plenty of oxygen. For any hydrocarbon, including the alkenes, the products are carbon dioxide and water only."
+  ms_accepts: ["carbon dioxide and water", "burning in oxygen or air with plenty of oxygen", "CO2 + H2O as products"]
+  ms_avoids: ["listing carbon monoxide or soot for complete combustion", "omitting one product", "confusing with incomplete combustion"]
+  aliases: ["complete combustion products"]
+  source: "chem_v3_u4_c25_pdf292_1102"
+- term: addition reaction
+  slug: addition-reaction
+  definition: "A reaction in which part of a double bond breaks to a single bond and atoms add across it: two reactant molecules become one product, and the double bond is consumed."
+  ms_accepts: ["double bond breaks partially, atoms add across", "two molecules become one product", "double bond is used up"]
+  ms_avoids: ["saying the bond breaks completely", "describing a by-product", "confusing with substitution"]
+  aliases: ["addition", "addition reactions"]
+  source: "chem_v3_u4_c25_pdf292_1103"
+- term: dibromoalkane
+  slug: dibromoalkane
+  definition: "An alkane carrying two bromine atoms, formed when bromine adds across an alkene's double bond. Ethene gives 1,2-dibromoethane; propene gives 1,2-dibromopropane."
+  ms_accepts: ["two Br atoms on adjacent carbons from bromine addition", "1,2-dibromoethane from ethene", "product named x,2-dibromo... with the double bond consumed"]
+  ms_avoids: ["leaving the C=C in the product", "putting one bromine only", "adding HBr as a co-product"]
+  aliases: ["dibromoalkanes", "1,2-dibromoethane"]
+  source: "chem_v3_u4_c25_pdf293_1109"
+- term: bromine water
+  slug: bromine-water
+  definition: "An aqueous solution of bromine, orange in colour. Shaken with an unsaturated compound it goes colourless; with a saturated one the colour stays."
+  ms_accepts: ["aqueous bromine", "orange to colourless with a C=C compound", "stays orange with an alkane"]
+  ms_avoids: ["saying the mixture becomes clear instead of colourless", "saying alkanes decolourise it", "omitting the starting colour"]
+  aliases: ["aqueous bromine"]
+  source: "chem_v3_u4_c25_pdf293_1108"
+- term: hydrogenation
+  slug: hydrogenation
+  definition: "The addition of hydrogen across a double bond: an alkene reacts with hydrogen to form an alkane. Used industrially to harden polyunsaturated plant oils into margarine."
+  ms_accepts: ["addition of hydrogen to an alkene", "alkene plus hydrogen gives alkane", "double bond consumed, product saturated"]
+  ms_avoids: ["confusing with hydration", "leaving the product as an alkene", "requiring UV light"]
+  aliases: ["hydrogenate", "hardening of oils"]
+  source: "chem_v3_u4_c25_pdf294_1113"
+- term: hydration
+  slug: hydration
+  definition: "The addition of water across a double bond: an alkene reacts with water (as steam) to form an alcohol. Ethene plus steam gives ethanol at 300 degrees C, 60-70 atmospheres, with a phosphoric acid catalyst."
+  ms_accepts: ["addition of water to an alkene", "ethene plus steam gives ethanol", "steam, 300 degrees C, 60-70 atmospheres, phosphoric acid"]
+  ms_avoids: ["confusing with hydrogenation", "omitting the conditions", "naming an alkane as the product"]
+  aliases: ["hydrate", "ethene plus steam"]
+  source: "chem_v3_u4_c25_pdf294_1114"
+- term: ethanol
+  slug: ethanol
+  definition: "The alcohol C2H5OH, made industrially by hydrating ethene with steam over a phosphoric acid catalyst. The first member met of the alcohol family."
+  ms_accepts: ["C2H5OH", "made from ethene and steam", "an alcohol"]
+  ms_avoids: ["calling it an alkane", "omitting the OH functional group", "confusing its formula with ethene's"]
+  aliases: ["ethyl alcohol"]
+  source: "chem_v3_u4_c25_pdf294_1114"
+- term: catalyst
+  slug: catalyst
+  definition: "A substance that speeds a reaction without being consumed. Phosphoric acid catalyses the hydration of ethene; the bromine addition needs no catalyst at all."
+  ms_accepts: ["speeds up the reaction", "not used up", "phosphoric acid in hydration"]
+  ms_avoids: ["saying it starts the reaction only", "saying it is consumed", "naming a catalyst for the bromine addition"]
+  aliases: ["catalysts", "phosphoric acid catalyst"]
+  source: "chem_v3_u4_c25_pdf294_1114"
