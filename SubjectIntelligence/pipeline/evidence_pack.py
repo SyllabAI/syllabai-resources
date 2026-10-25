@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""SIB evidence-pack builder — bounded excerpts with identity preserved (r0).
+"""SIB evidence-pack builder — bounded excerpts with identity preserved (r1).
+
+r1 (BL-008 pass 3): adds _jsonl_locate — per-record excerpts from a JSONL corpus
+(one JSON object per line, e.g. the books-plane parse corpora). Each record
+carries its own identity inside the JSON (chunk id + book_pages); the excerpt
+locator names the JSONL line and chunk id so citations preserve record identity.
+Without an explicit per-file query the JSONL source stays identity-only — the
+bounded-excerpt law forbids bulk corpus export.
 
 Licensing law (docs/PIPELINE.md §6): a pack carries source identity (repo, path,
 sha256) and BOUNDED excerpts, each with its locator (page / line range / record
@@ -145,6 +152,46 @@ def _pdf_locate(path: Path, pages: list[int] | None, limit: int) -> list[dict]:
     return out
 
 
+def _jsonl_locate(path: Path, query: re.Pattern | None, limit: int) -> list[dict]:
+    """Per-record excerpts from a JSONL corpus (one JSON object per line).
+
+    Excerpt text = the record's own text field, truncated to the excerpt cap.
+    Locator = `line N · chunk <record id>` — the JSONL line number plus the
+    record's chunk id, so every citation resolves to a unique of-record chunk.
+    No query -> identity-only (no excerpts claimed): the bounded-excerpt law
+    forbids bulk corpus export, so text leaves this file only under an
+    explicit, committed extraction plan.
+    """
+    out, total = [], 0
+    if query is None:
+        return out
+    with path.open(encoding="utf-8", errors="replace") as fh:
+        for lineno, line in enumerate(fh, 1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except Exception:
+                continue
+            text = str(rec.get("text", ""))
+            hay = text + " \u2014 " + str(rec.get("chapter_title", ""))
+            if not query.search(hay):
+                continue
+            text = text[:MAX_CHARS_PER_EXCERPT]
+            if not text:
+                continue
+            total += len(text)
+            if total > MAX_TOTAL_CHARS_PER_SOURCE:
+                break
+            cid = str(rec.get("id", f"jsonl-line-{lineno}"))
+            out.append({"locator": f"line {lineno} \u00b7 chunk {cid}",
+                        "chars": len(text), "text": text})
+            if len(out) >= limit:
+                break
+    return out
+
+
 def build_pack(library: Path, artifact_id: str, family: str, run_id: str,
                policy: dict, resolution: dict, manifest_sources: list[dict],
                plan: dict) -> tuple[dict, list[str]]:
@@ -163,10 +210,12 @@ def build_pack(library: Path, artifact_id: str, family: str, run_id: str,
         sid = sel["source_id"]
         res = res_by_id[sid]
         plan_s = (plan or {}).get(sid, {})
-        query = re.compile(plan_s["md_query"]) if plan_s.get("md_query") else None
+        # r1: md_query compiles case-insensitively (text search law; heading
+        # case in markdown/JSONL corpora must not gate excerpt selection)
+        query = re.compile(plan_s["md_query"], re.I) if plan_s.get("md_query") else None
         f_pages = {f["path_suffix"]: f.get("pdf_pages")
                    for f in plan_s.get("files", []) if f.get("pdf_pages")}
-        f_query = {f["path_suffix"]: (re.compile(f["md_query"]) if f.get("md_query") else None)
+        f_query = {f["path_suffix"]: (re.compile(f["md_query"], re.I) if f.get("md_query") else None)
                    for f in plan_s.get("files", []) if f.get("md_query")}
         files_out, total_chars = [], 0
 
@@ -199,6 +248,8 @@ def build_pack(library: Path, artifact_id: str, family: str, run_id: str,
                 continue
             if p.suffix.lower() in (".md", ".txt", ".yaml", ".yml", ".json"):
                 excerpts = _md_locate(p, f_query.get(rel) or query, MAX_EXCERPTS_PER_SOURCE)
+            elif p.suffix.lower() == ".jsonl":
+                excerpts = _jsonl_locate(p, f_query.get(rel) or query, MAX_EXCERPTS_PER_SOURCE)
             elif p.suffix.lower() == ".pdf":
                 pages = f_pages.get(rel) or plan_s.get("pdf_pages")
                 excerpts = _pdf_locate(p, pages, MAX_EXCERPTS_PER_SOURCE)

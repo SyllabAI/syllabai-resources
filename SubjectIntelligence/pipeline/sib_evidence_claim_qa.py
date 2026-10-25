@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """SIB evidence-claim QA — every citation must resolve to the artifact's own evidence
-pack (r1, BL-008 pass 4).
+pack (r2, BL-008 pass 3).
+
+r2 (BL-008 pass 3, EXP wave):
+  * FAMILY-GENERAL record blocks: `### <FAM>-NNN —` any family prefix (r1 was
+    MIS-only; pass 3 authors EXP records);
+  * JSONL LINE LOCATORS: citation path grammar accepts `.jsonl`; a locator spec
+    may carry `line N` (book-chunk citations) alongside the `pN`/`ppN-M` page
+    forms; every requested page/line must exist as an excerpt of the cited
+    pack file, and quoted fragments bind to the cited excerpts as before.
 
 Upgrade over the wave-1 script (which was never committed — disclosed in the BL-008
 pass-4 receipts):
@@ -14,8 +22,9 @@ pass-4 receipts):
 Citation grammar checked (inside parentheses):
   (SRC-<ID>, identity)                      — source must exist in the pack (any role)
   (SRC-<ID>, <path-suffix> <page-spec>)     — path must suffix-match a pack file of that
-                                              source; every page in <page-spec> must have
-                                              a `page N` excerpt in that file
+                                              source; every page (pN/ppN-M) or JSONL line
+                                              (line N) in <page-spec> must have a matching
+                                              excerpt in that file
   (census.json, <dotted.path>)              — path must resolve inside the run census annex
 
 Exit code 0 = 0 violations across all artifacts; 1 = violations found (fail-closed).
@@ -35,7 +44,8 @@ from pathlib import Path
 
 _CITE_RE = re.compile(r"\((SRC-[A-Z0-9][A-Z0-9-]*|census\.json)\s*,\s*([^)]+)\)")
 _PAGE_RE = re.compile(r"p{1,2}\s*(\d+)")
-_PATH_RE = re.compile(r"^[^,]+?\.(?:pdf|md|yaml|yml|json|txt)$")
+_LINE_RE = re.compile(r"lines?\s*(\d+)")
+_PATH_RE = re.compile(r"^[^,]+?\.(?:pdf|md|yaml|yml|json|jsonl|txt)$")
 
 
 def _norm(t: str) -> str:
@@ -56,7 +66,7 @@ def check_artifact(aid: str, text: str, pack: dict, census: dict) -> dict:
     violations: list[str] = []
     checked = 0
 
-    pack_files: dict[str, dict] = {}   # source_id -> {path -> {page:int -> excerpt_text}}
+    pack_files: dict[str, dict] = {}   # source_id -> {path -> {"pages": {..}, "lines": {..}}}
     pack_ids = set()
     for s in pack.get("sources", []):
         sid = s["source_id"]
@@ -64,37 +74,43 @@ def check_artifact(aid: str, text: str, pack: dict, census: dict) -> dict:
         for f in s.get("files", []):
             pages = {int(m.group(1)): e.get("text", "") for e in f.get("excerpts", [])
                      for m in [re.match(r"page (\d+)$", e.get("locator", ""))] if m}
-            pack_files.setdefault(sid, {})[f["path"]] = pages
+            lines = {int(m.group(1)): e.get("text", "") for e in f.get("excerpts", [])
+                     for m in [re.match(r"line (\d+) ", e.get("locator", ""))] if m}
+            pack_files.setdefault(sid, {})[f["path"]] = {"pages": pages, "lines": lines}
 
-    def parse_citation(target: str, payload: str) -> tuple[str | None, set[int] | None]:
-        """Returns (matched_pack_path|None|'identity', pages|None). Appends violations."""
+    def parse_citation(target: str, payload: str) -> tuple[str | None, set | None]:
+        """Returns (matched_pack_path|None|'identity', locator keys|None).
+        Keys are (kind, n) with kind in {"page", "line"}. Appends violations."""
         if _norm(payload) == "identity":
             return "identity", None
-        pm = re.match(r"(.+?\.(?:pdf|md|yaml|yml|json|txt))\s*(.*)", payload)
+        pm = re.match(r"(.+?\.(?:pdf|md|yaml|yml|jsonl|json|txt))\s*(.*)", payload)
         if not pm:
             violations.append(f"{aid}: citation unparseable (fail-closed): ({target}, {payload})")
             return None, None
         path_part, page_spec = pm.group(1).strip(), pm.group(2).strip()
         files = pack_files.get(target, {})
-        matched = {p: pages for p, pages in files.items() if p.endswith(path_part) or path_part.endswith(p)}
+        matched = {p: locs for p, locs in files.items() if p.endswith(path_part) or path_part.endswith(p)}
         if not matched:
             violations.append(f"{aid}: cited path not in pack: {target}, {path_part}")
             return None, None
         if not page_spec:
             violations.append(f"{aid}: file citation without locator (fail-closed): ({target}, {payload})")
             return None, None
-        pages = {int(x) for x in _PAGE_RE.findall(page_spec)}
-        if not pages:
-            violations.append(f"{aid}: no page parsed from '{page_spec}' (fail-closed): ({target}, {payload})")
+        page_ns = {int(x) for x in _PAGE_RE.findall(page_spec)}
+        line_ns = {int(x) for x in _LINE_RE.findall(page_spec)}
+        keys = {("page", n) for n in page_ns} | {("line", n) for n in line_ns}
+        if not keys:
+            violations.append(f"{aid}: no page/line parsed from '{page_spec}' (fail-closed): ({target}, {payload})")
             return None, None
-        for p in sorted(pages):
-            if not any(p in pagesmap for pagesmap in matched.values()):
-                violations.append(f"{aid}: page {p} not in pack excerpts: {target}, {path_part}")
-        return next(iter(matched)), pages
+        for kind, n in sorted(keys):
+            bucket = "pages" if kind == "page" else "lines"
+            if not any(n in locs[bucket] for locs in matched.values()):
+                violations.append(f"{aid}: {kind} {n} not in pack excerpts: {target}, {path_part}")
+        return next(iter(matched)), keys
 
-    # locate record blocks (### MIS-NNN ... up to next ###/## heading)
+    # locate record blocks (### <FAM>-NNN — ... up to next ###/## heading; r2: any family)
     blocks: list[tuple[str, str, int]] = []  # (record_id, block_text, offset)
-    for m in re.finditer(r"^###\s+(MIS-\d{3})\s+—", text, re.M):
+    for m in re.finditer(r"^###\s+([A-Z]{2,4}-\d{3})\s+—", text, re.M):
         start = m.start()
         nxt = re.search(r"^###[ \t]|^##[ \t]", text[m.end():], re.M)
         end = m.end() + (nxt.start() if nxt else len(text) - m.end())
@@ -124,14 +140,15 @@ def check_artifact(aid: str, text: str, pack: dict, census: dict) -> dict:
             if target not in pack_ids:
                 violations.append(f"{aid}/{rid}: source not in pack: {target}")
                 continue
-            path, pages = parse_citation(target, payload)
-            if path and path != "identity" and pages:
-                cites.append((path, pages))
-        # r1 per-record quote binding: every quoted fragment (>=25 chars, >=4 words)
+            path, keys = parse_citation(target, payload)
+            if path and path != "identity" and keys:
+                cites.append((path, keys))
+        # r2 per-record quote binding: every quoted fragment (>=25 chars, >=4 words)
         # in the record must appear in the union of THAT record's cited excerpts
         corpus = _norm(" ".join(
-            t for path, pages in cites
-            for p, t in pack_files_pages(pack, path).items() if p in pages))
+            t for path, keys in cites
+            for kind, n in keys
+            for t in [pack_excerpt_texts(pack, path).get("pages" if kind == "page" else "lines", {}).get(n, "")]))
         # drop the heading line from quote scanning (titles may quote short phrases)
         block_body = "\n".join(block.splitlines()[1:])
         for frag in re.split(r"\u2026|\.\.\.", block_body):
@@ -158,17 +175,26 @@ def _grounded_quotes(frag: str) -> list[str]:
     return out
 
 
-def pack_files_pages(pack: dict, path: str) -> dict[int, str]:
+def pack_excerpt_texts(pack: dict, path: str) -> dict[str, dict[int, str]]:
+    """All excerpt texts for one pack file path, keyed by locator kind (r2).
+    Returns {"pages": {n: text}, "lines": {n: text}}."""
+    out: dict[str, dict[int, str]] = {"pages": {}, "lines": {}}
     for s in pack.get("sources", []):
         for f in s.get("files", []):
             if f["path"] == path:
-                return {int(m.group(1)): e.get("text", "") for e in f.get("excerpts", [])
-                        for m in [re.match(r"page (\d+)$", e.get("locator", ""))] if m}
+                for e in f.get("excerpts", []):
+                    mp = re.match(r"page (\d+)$", e.get("locator", ""))
+                    ml = re.match(r"line (\d+) ", e.get("locator", ""))
+                    if mp:
+                        out["pages"][int(mp.group(1))] = e.get("text", "")
+                    elif ml:
+                        out["lines"][int(ml.group(1))] = e.get("text", "")
+                return out
     return {}
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="SIB evidence-claim QA (r1, citation binding)")
+    ap = argparse.ArgumentParser(description="SIB evidence-claim QA (r2, citation binding)")
     ap.add_argument("--library", required=True)
     ap.add_argument("--run-dir", required=True)
     ap.add_argument("--artifacts", nargs="+", required=True)
@@ -186,11 +212,12 @@ def main() -> int:
         results.append(check_artifact(aid, text, pack, census))
 
     report = {
-        "schema": "sib-evidence-claim-qa/1.1",
-        "script": "SubjectIntelligence/pipeline/sib_evidence_claim_qa.py r1",
+        "schema": "sib-evidence-claim-qa/1.2",
+        "script": "SubjectIntelligence/pipeline/sib_evidence_claim_qa.py r2",
         "law": "every (SRC-*, locator) resolves to the artifact's own pack; every "
                "(census.json, path) resolves to the run census annex; quoted fragments "
-               "bind to the cited excerpts (r1); unparseable citations fail closed",
+               "bind to the cited excerpts (r1); page or JSONL-line locators verified "
+               "against pack excerpts (r2); unparseable citations fail closed",
         "artifacts": results,
         "totals": {"citations_checked": sum(r["citations_checked"] for r in results),
                    "violations": sum(r["violation_count"] for r in results)},

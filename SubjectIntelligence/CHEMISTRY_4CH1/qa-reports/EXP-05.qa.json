@@ -1,0 +1,35 @@
+{
+  "artifact_id": "EXP-05",
+  "content_sha256": "d7bcd95b2511f235470853dc5fa3aa6b3c7f49e6a854018907dc77ee75ccc437",
+  "filename": "CHEMISTRY_4CH1_EXP-05_ANALOGIES_MENTAL_MODELS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 2,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "EXP-05",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      },
+      {
+        "artifact_id": "EXP-05",
+        "code": "SIB-IDENT-005",
+        "field": "filename",
+        "message": "filename 'CHEMISTRY_4CH1_EXP-05_ANALOGIES_MENTAL_MODELS.md' is identity-consistent but not canonical (CHEMISTRY_4CH1_EXP-05_ANALOGIES_AND_MENTAL_MODELS.md)",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "EXP-05"
+  },
+  "sib_protocol": "SIB-1.0"
+}
