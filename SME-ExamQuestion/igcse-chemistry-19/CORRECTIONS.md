@@ -92,6 +92,10 @@ topic is ever **re-scraped from upstream SME**, upstream will reintroduce the
 overstated marks and drifted labels — re-apply this ledger (or re-run the 1:1
 comparison) after any re-scrape.
 
+This warning is pinned operationally at: the lane `README.md`, and the scraper
+`scripts/sme_examq_scrape.py` (docstring + per-run stderr banner + generated-
+README template), so the notice survives regeneration (T-SME-13 pin wave).
+
 ## Totals impact
 
 | Surface | Before | After |
