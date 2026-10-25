@@ -1,0 +1,481 @@
+{
+ "format": "guided-lesson/0.1",
+ "noteRef": {
+  "noteId": "rn_dTP52nzhYb96XrJx",
+  "corpusVersion": "sme-revision-notes-igcse-chemistry-19-2026-09-18",
+  "topicTitle": "2. Inorganic Chemistry",
+  "subtopicTitle": "Acids, Alkalis & Titrations",
+  "sourceUrl": "https://www.savemyexams.com/igcse/chemistry/edexcel/19/revision-notes/2-inorganic-chemistry/2-6-acids-alkalis-and-titrations/2-6-1-indicators"
+ },
+ "specPoints": [
+  {
+   "code": "4CH1-2.28",
+   "text": "describe the use of litmus, phenolphthalein and methyl orange to distinguish between acidic and alkaline solutions"
+  },
+  {
+   "code": "4CH1-2.29",
+   "text": "understand how to use the pH scale, from 0–14, can be used to classify solutions as strongly acidic (0–3), weakly acidic (4–6), neutral (7), weakly alkaline (8–10) and strongly alkaline (11–14)"
+  },
+  {
+   "code": "4CH1-2.30",
+   "text": "describe the use of universal indicator to measure the approximate pH value of an aqueous solution"
+  }
+ ],
+ "primer": {
+  "text": "From Acids, Alkalis & Titrations you know that solutions run from strongly acidic through neutral to strongly alkaline. Chemists need quick ways to tell which is which, and to mark the exact moment an acid has been neutralised. This note covers litmus and the synthetic indicators, the pH scale, and universal indicator for estimating pH values.",
+  "prerequisiteSubtopic": "Acids, Alkalis & Titrations"
+ },
+ "lessons": [
+  {
+   "title": "Indicators",
+   "sourceHeadings": ["Indicators", "What are two colour indicators?"],
+   "specRefs": ["4CH1-2.28"],
+   "opening": "Two-colour indicators distinguish acids from alkalis by showing a different colour in each. Litmus is the natural example, extracted from lichens, while phenolphthalein and methyl orange are synthetic compounds with very sharp colour changes. That sharpness is why synthetic indicators mark the endpoint of titrations, and why litmus, which drifts through purple, is kept for dipping papers instead.",
+   "keyPoints": [
+    "Litmus is a natural indicator extracted from lichens.",
+    "Phenolphthalein and methyl orange are synthetic indicators used in acid-alkali titrations.",
+    "Synthetic indicators show the endpoint because their colour change is very sharp.",
+    "Litmus is unsuitable for titrations because it passes through a purple transition colour.",
+    "Litmus comes as red and blue paper for dipping into solutions or testing gases."
+   ],
+   "confidenceGate": {
+    "ratings": ["low", "medium", "high"],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "An indicator changes colour to show whether a solution is acidic or alkaline. Litmus turns red in acid and blue in alkali, phenolphthalein is colourless then pink, and methyl orange is red then yellow.",
+     "analogy": "Indicators are like traffic lights for chemists: one colour says stop, the acid side, and the other says go, the alkali side.",
+     "examPointer": "Memorise the three-colour table; naming both colours for each indicator is a reliable one-mark answer."
+    },
+    "medium": {
+     "restatement": "Litmus, phenolphthalein and methyl orange are the three indicators of record, each with a colour in acid and a different colour in alkali. The synthetic pair suit titrations because their change is sharp at the endpoint, while litmus trades sharpness for the convenience of red and blue test papers.",
+     "analogy": "Think of a doorbell that only rings at the exact visitor you expect: synthetic indicators ring precisely at neutralisation, while litmus hums vaguely through the whole visit.",
+     "examPointer": "Explain-why questions about titration indicators expect the word sharp, with litmus rejected for its gradual purple transition."
+    }
+   },
+   "check": [
+    {
+     "stem": "Which colours does litmus show in acid and in alkali?",
+     "misconceptionClass": "indicator-colour recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Red in acid and blue in alkali",
+       "correct": true,
+       "explanation": "This is the litmus row of the table, and the reason litmus paper comes in two versions.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Colourless in acid and pink in alkali",
+       "correct": false,
+       "explanation": "That is phenolphthalein's pattern, not litmus's.",
+       "misconception": "indicator colours crossed"
+      },
+      {
+       "key": "C",
+       "text": "Red in acid and yellow in alkali",
+       "correct": false,
+       "explanation": "Red then yellow belongs to methyl orange.",
+       "misconception": "methyl orange colours copied"
+      },
+      {
+       "key": "D",
+       "text": "Purple in both acid and alkali",
+       "correct": false,
+       "explanation": "Purple is only the mid-transition colour that makes litmus unsuitable for titrations.",
+       "misconception": "transition colour treated as the result"
+      }
+     ]
+    },
+    {
+     "stem": "What colours does phenolphthalein show?",
+     "misconceptionClass": "indicator-colour recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Colourless in acid and pink in alkali",
+       "correct": true,
+       "explanation": "The sharp colourless-to-pink flip is why phenolphthalein is popular for titrations.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Red in acid and blue in alkali",
+       "correct": false,
+       "explanation": "That is litmus.",
+       "misconception": "litmus colours copied"
+      },
+      {
+       "key": "C",
+       "text": "Yellow in acid and red in alkali",
+       "correct": false,
+       "explanation": "No indicator in the table shows that pair; methyl orange is red then yellow.",
+       "misconception": "invented colour pair"
+      },
+      {
+       "key": "D",
+       "text": "Green in acid and purple in alkali",
+       "correct": false,
+       "explanation": "These belong to universal indicator's range, not to phenolphthalein.",
+       "misconception": "universal indicator colours copied"
+      }
+     ]
+    },
+    {
+     "stem": "Why is litmus not used to identify the endpoint of a titration?",
+     "misconceptionClass": "suitability reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "Its colour change is not sharp and it drifts through purple",
+       "correct": true,
+       "explanation": "The gradual purple transition makes the endpoint hard to judge, so litmus is passed over for titrations.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Litmus is too expensive to use in school titrations",
+       "correct": false,
+       "explanation": "Cost is not the issue; the gradual colour change is.",
+       "misconception": "economic reason invented"
+      },
+      {
+       "key": "C",
+       "text": "Litmus reacts chemically with the acid and destroys it",
+       "correct": false,
+       "explanation": "Indicators are used in tiny amounts and do not consume the reactants.",
+       "misconception": "invented side reaction"
+      },
+      {
+       "key": "D",
+       "text": "Litmus only works for gases, never for solutions",
+       "correct": false,
+       "explanation": "Litmus paper works in solutions too; the titration problem is the unsharp change.",
+       "misconception": "use range overstated"
+      }
+     ]
+    },
+    {
+     "stem": "Why do synthetic indicators suit titrations so well?",
+     "misconceptionClass": "endpoint reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "They have a very sharp colour change when the acid has been neutralised",
+       "correct": true,
+       "explanation": "A sharp flip makes the endpoint unmistakable, which is exactly what a titration needs.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "They change colour gradually, giving warnings along the way",
+       "correct": false,
+       "explanation": "Gradual change is the weakness of litmus; titrations want the opposite.",
+       "misconception": "litmus weakness attributed to synthetics"
+      },
+      {
+       "key": "C",
+       "text": "They are plant extracts with pleasant colours",
+       "correct": false,
+       "explanation": "Synthetic indicators are organic compounds made industrially, not plant extracts.",
+       "misconception": "origin confused"
+      },
+      {
+       "key": "D",
+       "text": "They measure the pH value numerically",
+       "correct": false,
+       "explanation": "No indicator measures pH; universal indicator only estimates it roughly.",
+       "misconception": "estimation confused with measurement"
+      }
+     ]
+    },
+    {
+     "stem": "Where does litmus, the most familiar indicator, come from?",
+     "misconceptionClass": "origin recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "It is extracted from lichens",
+       "correct": true,
+       "explanation": "Many plants carry indicator substances, and litmus is the common one, taken from lichens.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It is made from universal indicator",
+       "correct": false,
+       "explanation": "Universal indicator is itself a mixture of plant indicators; litmus comes from lichens directly.",
+       "misconception": "relationship between indicators reversed"
+      },
+      {
+       "key": "C",
+       "text": "It is synthesised from methyl orange",
+       "correct": false,
+       "explanation": "Methyl orange is a separate synthetic indicator; litmus is natural.",
+       "misconception": "synthetics treated as precursors"
+      },
+      {
+       "key": "D",
+       "text": "It is mined as a mineral salt",
+       "correct": false,
+       "explanation": "Litmus is biological in origin, not mineral.",
+       "misconception": "origin invented"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The pH scale and universal indicator",
+   "sourceHeadings": ["The pH scale", "Universal indicator"],
+   "specRefs": ["4CH1-2.29", "4CH1-2.30"],
+   "opening": "The pH scale runs from 0 to 14 and classifies solutions: strongly acidic from 0 to 3, weakly acidic 4 to 6, neutral at 7, weakly alkaline 8 to 10 and strongly alkaline 11 to 14. Universal indicator estimates an approximate pH by matching its colour against a chart, because it blends many plant indicators across the whole range.",
+   "keyPoints": [
+    "The pH scale runs from 0 to 14.",
+    "All acids have pH values below 7, and all alkalis have values above 7.",
+    "The lower the pH, the more acidic the solution; the higher, the more alkaline.",
+    "A value of pH 7 counts as neutral on the scale.",
+    "Universal indicator gives only an approximate pH, matched against a colour chart."
+   ],
+   "confidenceGate": {
+    "ratings": ["low", "medium", "high"],
+    "continueDisabledUntilChoice": true,
+    "resumeWithoutReRate": true,
+    "postCheckRecalibration": true
+   },
+   "depthLayers": {
+    "low": {
+     "restatement": "The pH number tells you the strength: small numbers are strong acids, 7 is neutral, and large numbers are strong alkalis. Universal indicator shows a whole rainbow of colours so any pH can be estimated.",
+     "analogy": "pH is like a thermometer for acidity: the reading tells you which end of the hot-cold scale you are on, and universal indicator is the display.",
+     "examPointer": "Practise placing examples in the bands, and remember universal indicator estimates pH but never serves as a titration indicator."
+    },
+    "medium": {
+     "restatement": "The scale divides at 7: values 0 to 3 mean strongly acidic, 4 to 6 weakly acidic, 8 to 10 weakly alkaline and 11 to 14 strongly alkaline. Universal indicator, a mixture of plant indicators spanning the whole range, is added a few drops at a time and read against a manufacturer's colour chart for an approximate value.",
+     "analogy": "Treat universal indicator like a paint chart in a shop: you match the wall, meaning the solution, to the nearest printed swatch, accepting the nearest shade rather than an exact formula.",
+     "examPointer": "The classic trap is suggesting universal indicator for a titration; the endpoint needs a sharp change, which only single indicators give."
+    }
+   },
+   "check": [
+    {
+     "stem": "A solution has pH 2. How is it classified?",
+     "misconceptionClass": "band classification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Strongly acidic, because 0 to 3 is the strong acid band",
+       "correct": true,
+       "explanation": "pH 2 falls inside the 0 to 3 band, so the solution is strongly acidic.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Weakly acidic, because it is below 7",
+       "correct": false,
+       "explanation": "Anything below 7 is acidic, but the 0 to 3 band marks it as strong rather than weak.",
+       "misconception": "acid band boundaries blurred"
+      },
+      {
+       "key": "C",
+       "text": "Neutral, because 2 is a small number",
+       "correct": false,
+       "explanation": "Only pH 7 is neutral; 2 is far down the acidic side.",
+       "misconception": "small number misread as neutral"
+      },
+      {
+       "key": "D",
+       "text": "Strongly alkaline, because the scale runs the other way",
+       "correct": false,
+       "explanation": "The scale is fixed: alkalis sit above 7, and pH 2 is acidic.",
+       "misconception": "scale direction reversed"
+      }
+     ]
+    },
+    {
+     "stem": "A solution has pH 9. How is it classified?",
+     "misconceptionClass": "band classification",
+     "options": [
+      {
+       "key": "A",
+       "text": "Weakly alkaline, in the 8 to 10 band",
+       "correct": true,
+       "explanation": "pH 9 sits in the 8 to 10 band above neutral, so it is a weak alkali.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Strongly alkaline, because it is above 7",
+       "correct": false,
+       "explanation": "Strong alkalis need pH 11 to 14; 9 is only weakly alkaline.",
+       "misconception": "band boundary misplaced"
+      },
+      {
+       "key": "C",
+       "text": "Weakly acidic, because it is close to 7",
+       "correct": false,
+       "explanation": "Anything above 7 is alkaline; closeness to 7 makes it weak, not acidic.",
+       "misconception": "side of neutral misjudged"
+      },
+      {
+       "key": "D",
+       "text": "Neutral, because 9 rounds to 7",
+       "correct": false,
+       "explanation": "No rounding applies to the classification; only pH 7 is neutral.",
+       "misconception": "rounding invented"
+      }
+     ]
+    },
+    {
+     "stem": "Which pH value marks a neutral solution?",
+     "misconceptionClass": "neutral-point recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "pH 7",
+       "correct": true,
+       "explanation": "Seven is the fixed neutral point between the acidic and alkaline bands.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "pH 0",
+       "correct": false,
+       "explanation": "pH 0 is the strongest acid on the scale, the opposite of neutral.",
+       "misconception": "scale end mistaken for the middle"
+      },
+      {
+       "key": "C",
+       "text": "pH 14",
+       "correct": false,
+       "explanation": "Fourteen is the strongest alkali, not neutral.",
+       "misconception": "scale end mistaken for the middle"
+      },
+      {
+       "key": "D",
+       "text": "It depends on the temperature of the solution",
+       "correct": false,
+       "explanation": "For this classification scheme the neutral point is stated as 7 on the scale of record.",
+       "misconception": "complication introduced beyond the scheme"
+      }
+     ]
+    },
+    {
+     "stem": "Why is universal indicator a poor choice for a titration?",
+     "misconceptionClass": "titration-indicator reasoning",
+     "options": [
+      {
+       "key": "A",
+       "text": "It gives a gradual blend of colours instead of one sharp endpoint change",
+       "correct": true,
+       "explanation": "A titration needs a sharp colour flip to define the endpoint, which universal indicator cannot supply.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "It is too expensive to put in a conical flask",
+       "correct": false,
+       "explanation": "Cost is irrelevant; the problem is the absence of a sharp change.",
+       "misconception": "cost reasoning invented"
+      },
+      {
+       "key": "C",
+       "text": "It only works in acidic solutions",
+       "correct": false,
+       "explanation": "Universal indicator spans the whole range; that breadth is exactly why it lacks sharpness.",
+       "misconception": "range misdescribed"
+      },
+      {
+       "key": "D",
+       "text": "It cannot be added drop by drop",
+       "correct": false,
+       "explanation": "Drops are added exactly as with any indicator; the flaw is the gradual colour response.",
+       "misconception": "procedure blamed"
+      }
+     ]
+    },
+    {
+     "stem": "How is universal indicator used to estimate the pH of an unknown solution?",
+     "misconceptionClass": "method recall",
+     "options": [
+      {
+       "key": "A",
+       "text": "Add a few drops, then match the colour against a colour chart",
+       "correct": true,
+       "explanation": "This is exactly the stated method, with charts provided because formulations vary slightly between makers.",
+       "misconception": null
+      },
+      {
+       "key": "B",
+       "text": "Read the pH directly from the bottle label",
+       "correct": false,
+       "explanation": "The bottle holds the indicator, not information about the unknown solution.",
+       "misconception": "source of reading confused"
+      },
+      {
+       "key": "C",
+       "text": "Boil the solution first, then test the steam",
+       "correct": false,
+       "explanation": "No heating is involved; the estimate comes from the colour in the solution.",
+       "misconception": "invented step"
+      },
+      {
+       "key": "D",
+       "text": "Titrate it against litmus paper until the purple vanishes",
+       "correct": false,
+       "explanation": "That mixes up two different tools; universal indicator is matched to a chart, and litmus is not part of the method.",
+       "misconception": "methods blended"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "noteAssets": {
+  "glossary": [
+   {
+    "term": "titration",
+    "definition": "A method for finding exactly how much acid neutralises a given amount of alkali, or the reverse.",
+    "firstLesson": 1
+   },
+   {
+    "term": "indicator",
+    "definition": "A substance that shows a different colour in acidic and in alkaline solutions.",
+    "firstLesson": 1
+   },
+   {
+    "term": "litmus",
+    "definition": "The natural indicator extracted from lichens, red in acid and blue in alkali.",
+    "firstLesson": 1
+   },
+   {
+    "term": "phenolphthalein",
+    "definition": "The synthetic indicator that is colourless in acid and pink in alkali.",
+    "firstLesson": 1
+   },
+   {
+    "term": "methyl orange",
+    "definition": "The synthetic indicator that is red in acid and yellow in alkali.",
+    "firstLesson": 1
+   },
+   {
+    "term": "universal indicator",
+    "definition": "A mixture of indicators that estimates the approximate pH of a solution against a colour chart.",
+    "firstLesson": 2
+   },
+   {
+    "term": "neutral",
+    "definition": "Neither acidic nor alkaline, with a pH of 7.",
+    "firstLesson": 2
+   },
+   {
+    "term": "endpoint",
+    "definition": "The point in a titration at which the indicator changes colour sharply.",
+    "firstLesson": 1
+   }
+  ],
+  "workedExample": null
+ }
+}
