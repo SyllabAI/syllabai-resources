@@ -16,6 +16,9 @@ carry explicit correction evidence. Labels stay registry-validated (G6).
 
 Run:  python3 official_examq_extract.py --series 2020-11                (baseline series, paper 1C)
       python3 official_examq_extract.py --series 2022-06 --paper 2C    (paper variants: 1C default, 2C since v0.8/F34)
+      python3 official_examq_extract.py --spec 4ph1 --series 2023-06 --paper 1P
+                                                                       (v0.16.0: spec lanes — every
+                                                                        per-spec constant lives in SPECS)
 """
 import hashlib
 import json
@@ -33,78 +36,140 @@ import yaml
 SCRIPTS_DIR = Path(__file__).resolve().parent            # .../syllabai-resources/scripts
 RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
-OUTROOT = RES_DIR / "Official-ExamQuestion" / "igcse-chemistry-19"   # ALWAYS inside the checkout
-# spec-point registry: canonical copy lives in this repo (SME-ExamQuestion/...);
-# staged spc-resolution.json is a legacy fallback for pre-F15 staging areas.
-_SPEC_REPO = RES_DIR / "SME-ExamQuestion" / "igcse-chemistry-19" / "spec_point_resolution.json"
-if os.environ.get("EXAMQ_SPEC_RESOLUTION"):
-    SPEC_RESOLUTION = Path(os.environ["EXAMQ_SPEC_RESOLUTION"])
-elif _SPEC_REPO.exists():
-    SPEC_RESOLUTION = _SPEC_REPO
-else:
-    SPEC_RESOLUTION = UPLOAD / "spc-resolution.json"
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.15.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
-# registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
-# totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
-# (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
-# R variants footer-verified from the archive of record 22/22 (F-178 R-VARIANT
-# SCHEDULE, tracker PR #32 receipt: 1CR = 110 x11, 2CR = 70 x11; legacy 4CH0 R
-# papers 2013-2017 are a different spec and stay out of scope).
-PAPER_TOTALS = {"1C": 110, "2C": 70, "1CR": 110, "2CR": 70}
-PAPER_TOTAL = PAPER_TOTALS["1C"]   # runtime global — set per run in main()
-# printed question counts verified per series (footers vary 6..15 across the 4CH1 era);
-# counts cross-checked against per-question footer marks summing to the paper total
-EXPECT_QUESTIONS = {
-    "1C": {"2020-11": 10, "2020-01": 10, "2021-06": 10, "2022-06": 10, "2024-06": 10,
-           "2019-06": 15, "2021-01": 11, "2021-11": 11, "2022-01": 11, "2023-01": 12,
-           "2023-06": 10, "2023-11": 10, "2024-11": 11, "2025-06": 10, "2025-11": 10,
-           "2026-06": 9},
-    "2C": {"2019-06": 8, "2020-01": 7, "2020-11": 7, "2021-01": 7, "2021-06": 7,
-           "2021-11": 7, "2022-01": 7, "2022-06": 7, "2023-01": 7, "2023-06": 7,
-           "2023-11": 7, "2024-06": 7, "2024-11": 7, "2025-06": 6, "2025-11": 6,
-           "2026-06": 6},
-    # R variants (F-178 schedule, footer-verified 22/22): both tranches convert —
-    # 1CR in the v0.12.0 run (resources PR #46), 2CR in the v0.13.0 run.
-    "1CR": {"2019-06": 10, "2020-01": 11, "2020-11": 10, "2021-01": 10, "2022-01": 11,
-            "2022-06": 11, "2023-01": 10, "2023-06": 11, "2024-06": 12, "2025-06": 11,
-            "2026-06": 11},
-    "2CR": {"2019-06": 7, "2020-01": 7, "2020-11": 7, "2021-01": 8, "2022-01": 7,
-            "2022-06": 7, "2023-01": 8, "2023-06": 7, "2024-06": 7, "2025-06": 7,
-            "2026-06": 7},
-}
-# per-series demo seeds (labels only; registry-validated in G6). Other series -> pending-llm.
-SEEDS = {
-    # v0.5 demo seeds, audited against the spec registry in v0.7 (LEDGER F31):
-    # 4(c)(ii) is an Mr calculation (1.26), 8(c)(ii) a molar-enthalpy
-    # calculation (3.4), 10(b) an empirical-formula determination (1.33),
-    # 1(b)(i) the noble-gas group (1.24)
-    "2020-11": {
-        "1(b)(i)": "4CH1-1.24", "4(c)(ii)": "4CH1-1.26",
-        "9(c)(ii)": "4CH1-1.28", "10(b)": "4CH1-1.33",
-        "8(c)(ii)": "4CH1-3.4", "7": "4CH1-3.15C",   # 7* deliberately incl. registry-gap demo
-    },
+CONVERTER_VERSION = "0.16.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+
+# ---------------------------------------------------------------- spec lanes
+# v0.16.0 generalization: the converter serves one spec lane per run (--spec).
+# Every per-spec constant lives in SPECS below; the 4ch1 entries are the
+# v0.15.0 literals verbatim, so a chemistry run is behavior-identical to
+# v0.15.0 (parity receipt: bit-equal topic.json/questions.md/validation-report
+# modulo generated_utc/generator on staged 2023-06 1C).
+SPECS = {
+    "4ch1": dict(
+        lane="igcse-chemistry-19",
+        spec_code="4CH1",
+        # registry expectations per paper variant (LEDGER F34: paper parametrization). Marks
+        # totals are footer-verified per series: 1C = 110 (constant across the era), 2C = 70
+        # (constant across the era; staging probe 2026-10-21: 16/16 series sum exactly 70).
+        # R variants footer-verified from the archive of record 22/22 (F-178 R-VARIANT
+        # SCHEDULE, tracker PR #32 receipt: 1CR = 110 x11, 2CR = 70 x11; legacy 4CH0 R
+        # papers 2013-2017 are a different spec and stay out of scope).
+        paper_totals={"1C": 110, "2C": 70, "1CR": 110, "2CR": 70},
+        # printed question counts verified per series (footers vary 6..15 across the
+        # 4CH1 era); counts cross-checked against per-question footer marks summing
+        # to the paper total
+        expect_questions={
+            "1C": {"2020-11": 10, "2020-01": 10, "2021-06": 10, "2022-06": 10, "2024-06": 10,
+                   "2019-06": 15, "2021-01": 11, "2021-11": 11, "2022-01": 11, "2023-01": 12,
+                   "2023-06": 10, "2023-11": 10, "2024-11": 11, "2025-06": 10, "2025-11": 10,
+                   "2026-06": 9},
+            "2C": {"2019-06": 8, "2020-01": 7, "2020-11": 7, "2021-01": 7, "2021-06": 7,
+                   "2021-11": 7, "2022-01": 7, "2022-06": 7, "2023-01": 7, "2023-06": 7,
+                   "2023-11": 7, "2024-06": 7, "2024-11": 7, "2025-06": 6, "2025-11": 6,
+                   "2026-06": 6},
+            # R variants (F-178 schedule, footer-verified 22/22): both tranches convert —
+            # 1CR in the v0.12.0 run (resources PR #46), 2CR in the v0.13.0 run.
+            "1CR": {"2019-06": 10, "2020-01": 11, "2020-11": 10, "2021-01": 10, "2022-01": 11,
+                    "2022-06": 11, "2023-01": 10, "2023-06": 11, "2024-06": 12, "2025-06": 11,
+                    "2026-06": 11},
+            "2CR": {"2019-06": 7, "2020-01": 7, "2020-11": 7, "2021-01": 8, "2022-01": 7,
+                    "2022-06": 7, "2023-01": 8, "2023-06": 7, "2024-06": 7, "2025-06": 7,
+                    "2026-06": 7},
+        },
+        # per-series demo seeds (labels only; registry-validated in G6). Other series -> pending-llm.
+        seeds={
+            # v0.5 demo seeds, audited against the spec registry in v0.7 (LEDGER F31):
+            # 4(c)(ii) is an Mr calculation (1.26), 8(c)(ii) a molar-enthalpy
+            # calculation (3.4), 10(b) an empirical-formula determination (1.33),
+            # 1(b)(i) the noble-gas group (1.24)
+            "2020-11": {
+                "1(b)(i)": "4CH1-1.24", "4(c)(ii)": "4CH1-1.26",
+                "9(c)(ii)": "4CH1-1.28", "10(b)": "4CH1-1.33",
+                "8(c)(ii)": "4CH1-3.4", "7": "4CH1-3.15C",   # 7* deliberately incl. registry-gap demo
+            },
+        },
+        seeds_paper="1C",                # demo seeds are 1C artifacts (F31)
+        allowed_gaps={"4CH1-3.15C"},     # chemistry-only rates practical; SME notes corpus lacks it
+        course_id="igcse-chemistry-19",
+        nc_fake_code="4CH1-9.99",
+        footer_re=r"\(Total for Question (\d{1,2}) = (\d{1,2}) marks\)",
+        default_paper="1C",
+        # F39 crop-review keying: 1C keeps the legacy bare '<series>' home, other
+        # variants use '<series>:<paper>' (legacy=True reproduces that exactly)
+        crop_review_legacy=True,
+        # spec-labels wave files: unprefixed ('<series>.json' / '<series>-<paper>.json')
+        labels_prefixed=False,
+    ),
+    "4ph1": dict(
+        lane="igcse-physics-19",
+        spec_code="4PH1",
+        # 1P/2P totals footer-verified from the archive of record: 2023-06 1P
+        # (12 questions, Σ=110) and 2024-06 2P (8 questions, Σ=70). R variants
+        # mirrored from the 4CH1 pattern pending their own per-series footer
+        # verification during the physics conversion waves.
+        paper_totals={"1P": 110, "1PR": 110, "2P": 70, "2PR": 70},
+        # only the footer-verified slices carry an expectation; every other
+        # series runs with count gate skipped (None) until verified
+        expect_questions={
+            "1P": {"2023-06": 12},
+            "2P": {"2024-06": 8},
+        },
+        seeds={},                        # no demo seeds for physics
+        seeds_paper="1P",
+        allowed_gaps=set(),
+        course_id="igcse-physics-19",
+        nc_fake_code="4PH1-9.99",
+        # physics QP text layers split: 1P prints the footer WITHOUT parentheses
+        # (2023-06 1P: 12 bare), 2P prints WITH (2024-06 2P: 8 wrapped) — accept both
+        footer_re=r"\(?\s*Total for Question (\d{1,2}) = (\d{1,2}) marks\s*\)?",
+        default_paper="1P",
+        crop_review_legacy=False,
+        # physics wave files are spec-namespaced under the shared dirs
+        # (spec-labels/4ph1-<series>[-<paper>].json, CROP-REVIEW '4ph1-<series>[:<paper>]')
+        labels_prefixed=True,
+    ),
 }
 
 
-def paths_for(series: str, paper: str = "1C") -> dict:
-    # F34: staging names are paper-suffixed. The .txt extraction names were NOT
-    # paper-suffixed before v0.8 (a 1C/2C staging collision); fall back to the
-    # legacy bare name so pre-0.8 staging areas keep working for 1C.
+def spec_resolution_path(cfg: dict) -> Path:
+    # spec-point registry: canonical copy lives in this repo (SME-ExamQuestion/...);
+    # staged spc-resolution.json is a legacy fallback for pre-F15 staging areas.
+    # EXAMQ_SPEC_RESOLUTION overrides for any lane (F15 exotic staging).
+    if os.environ.get("EXAMQ_SPEC_RESOLUTION"):
+        return Path(os.environ["EXAMQ_SPEC_RESOLUTION"])
+    _spec_repo = RES_DIR / "SME-ExamQuestion" / cfg["lane"] / "spec_point_resolution.json"
+    if _spec_repo.exists():
+        return _spec_repo
+    return UPLOAD / "spc-resolution.json"
+
+
+# run_all.sh contract (chemistry corpus driver): the F-178 "paper never
+# printed" registry reads the 4CH1 table from this module namespace.
+EXPECT_QUESTIONS = SPECS["4ch1"]["expect_questions"]
+PAPER_TOTAL = SPECS["4ch1"]["paper_totals"]["1C"]   # runtime global — set per run in main()
+
+
+def paths_for(series: str, paper: str, cfg: dict) -> dict:
+    # F34: staging names are paper-suffixed (and spec-prefixed). The .txt
+    # extraction names were NOT paper-suffixed before v0.8 (a 1C/2C staging
+    # collision); fall back to the legacy bare name so pre-0.8 staging areas
+    # keep working for the default paper.
     qp_txt = UPLOAD / f"official-{series}-{paper}-qp.txt"
     ms_txt = UPLOAD / f"official-{series}-{paper}-ms.txt"
     legacy_qp_txt = UPLOAD / f"official-{series}-qp.txt"
     legacy_ms_txt = UPLOAD / f"official-{series}-ms.txt"
+    outroot = RES_DIR / "Official-ExamQuestion" / cfg["lane"]   # ALWAYS inside the checkout
     return {
-        "qp_pdf": UPLOAD / f"official-4CH1-{paper}-{series}-qp.pdf",
-        "ms_pdf": UPLOAD / f"official-4CH1-{paper}-{series}-ms.pdf",
+        "qp_pdf": UPLOAD / f"official-{cfg['spec_code']}-{paper}-{series}-qp.pdf",
+        "ms_pdf": UPLOAD / f"official-{cfg['spec_code']}-{paper}-{series}-ms.pdf",
         "qp_txt": qp_txt if (qp_txt.exists() or not legacy_qp_txt.exists()) else legacy_qp_txt,
         "ms_txt": ms_txt if (ms_txt.exists() or not legacy_ms_txt.exists()) else legacy_ms_txt,
         "manifest": UPLOAD / f"manifest-{series}-{paper}.yaml",
         # v0.10 (F41): optional OCR source layer for image-only pages
         "ocr_index": UPLOAD / "ocr" / f"{series}-{paper}" / "ocr-pages.json",
-        "out": OUTROOT / series / f"4CH1-{paper}",
+        "out": outroot / series / f"{cfg['spec_code']}-{paper}",
     }
 
 # ---------------------------------------------------------------- utilities
@@ -274,6 +339,8 @@ def clean_lines(raw: str):
 
 
 # ---------------------------------------------------------------- stage 2: segmentation
+# v0.16.0: the per-lane footer law lives in SPECS[<spec>]["footer_re"]; the
+# module constant below is kept only as the chemistry-of-record reference.
 FOOTER_RE = re.compile(r"\(Total for Question (\d{1,2}) = (\d{1,2}) marks\)")
 QSTART_RE = re.compile(r"^\s*(\d{1,2})\s+([A-Za-z(].*)$")   # remainder must start alpha/'(' (indent-tolerant)
 L1_RE = re.compile(r"^\s*\(([a-h])\s*\)\s*(.*)$")
@@ -1240,20 +1307,29 @@ def resolve_first(problem_md, noun=None):
 def main():
     import argparse, copy
     ap = argparse.ArgumentParser(description="ADR-037 official-paper question extractor")
+    ap.add_argument("--spec", default="4ch1", choices=sorted(SPECS),
+                    help="spec lane (v0.16.0): 4ch1 default (chemistry, the v0.15.0 "
+                         "behavior); 4ph1 = Edexcel IGCSE Physics")
     ap.add_argument("--series", default="2020-11",
                     help="paper series folder, e.g. 2020-11 (baseline), 2019-06, 2020-01, 2021-06, 2022-06, 2024-06")
-    ap.add_argument("--paper", default="1C", choices=sorted(PAPER_TOTALS),
-                    help="paper variant code (F34): 1C default; 2C since v0.8")
+    ap.add_argument("--paper", default=None,
+                    help="paper variant code (F34); defaults to the spec's default paper")
     args = ap.parse_args()
+    cfg = SPECS[args.spec]
     series = args.series
-    paper = args.paper
-    P = paths_for(series, paper)
+    paper = args.paper if args.paper is not None else cfg["default_paper"]
+    if paper not in cfg["paper_totals"]:
+        ap.error(f"paper {paper!r} is not a registry variant of spec {args.spec!r} "
+                 f"(choices: {', '.join(sorted(cfg['paper_totals']))})")
+    P = paths_for(series, paper, cfg)
     global QP_PDF, MS_PDF, QP_TXT, MS_TXT, MANIFEST, OUT, PAPER_TOTAL
     QP_PDF, MS_PDF = P["qp_pdf"], P["ms_pdf"]
     QP_TXT, MS_TXT = P["qp_txt"], P["ms_txt"]
     MANIFEST, OUT = P["manifest"], P["out"]
-    PAPER_TOTAL = PAPER_TOTALS[paper]
-    expect_q = EXPECT_QUESTIONS[paper].get(series)
+    PAPER_TOTAL = cfg["paper_totals"][paper]
+    SPEC_RESOLUTION = spec_resolution_path(cfg)
+    footer_re = re.compile(cfg["footer_re"])
+    expect_q = cfg["expect_questions"].get(paper, {}).get(series)
 
     report = {"schema": "syllabai.official-paper-questions.validation/0.2",
               "generated_utc": now_iso(), "series": series, "paper": paper, "gates": [],
@@ -1313,7 +1389,7 @@ def main():
 
     qp_lines = clean_lines(QP_TXT.read_text(errors="replace"))
     footers = [(i, int(m.group(1)), int(m.group(2)))
-               for i, ln in enumerate(qp_lines) if (m := FOOTER_RE.search(ln))]
+               for i, ln in enumerate(qp_lines) if (m := footer_re.search(ln))]
 
     # ---- extraction --------------------------------------------------------
     # footer census: printed totals must exist for 1..N; a missing footer (seen in
@@ -1410,6 +1486,11 @@ def main():
             # None matches any paper, and 7(a)(i)-(iii) exist only in 1C). New
             # entries SHOULD carry "paper" so same-part MCQs across 1C/2C/1CR/2CR
             # cannot cross-contaminate.
+            # v0.16.0: entries also carry an implicit spec (default 4ch1 — every
+            # pre-v0.16 entry is chemistry); the paper-None fallback below only
+            # applies within the SAME spec so chemistry's legacy series-scoped
+            # keys can never key a physics part.
+            e.setdefault("spec", "4ch1")
             mcq_key_overrides[(e["series"], e.get("paper"), e["part"])] = e
     mcq_keys_applied = []
     # v0.11 (F47): manual MS-linkage ledger — the same human-adjudication
@@ -1460,8 +1541,12 @@ def main():
                                    for m in [re.search(r"\s(\d{1,2})\s*$", ln)] if m}
                     if p["marks"] in trail_marks:
                         lines = cand
-            mk = (mcq_key_overrides.get((series, paper, p["part_number"]))
-                  or mcq_key_overrides.get((series, None, p["part_number"])))
+            _mk_exact = mcq_key_overrides.get((series, paper, p["part_number"]))
+            _mk_legacy = (mcq_key_overrides.get((series, None, p["part_number"]))
+                          if _mk_exact is None
+                          and mcq_key_overrides.get((series, None, p["part_number"]), {}).get("spec") == args.spec
+                          else None)
+            mk = _mk_exact or _mk_legacy
             if mk and p["question_type"] == "multiple_choice":
                 lines = list(mk["ms_lines"])
                 p["answer_key_source"] = "mcq-keys-ledger"
@@ -1561,7 +1646,7 @@ def main():
     footer_page = {}
     for i, pg in enumerate(pdf):
         t = pg.get_text()
-        for m in FOOTER_RE.finditer(t):
+        for m in footer_re.finditer(t):
             footer_page.setdefault(int(m.group(1)), i + 1)
     # only content pages matter for defect attribution (covers are routinely rasterized);
     # allow up to 3 pages before the first footer (a question's first page precedes its footer)
@@ -1646,7 +1731,14 @@ def main():
     crop_reviews = {}
     if _CROP_REVIEW_PATH.exists():
         _review_doc = json.loads(_CROP_REVIEW_PATH.read_text()).get("reviews", {})
-        crop_reviews = _review_doc.get(series, {}) if paper == "1C" else _review_doc.get(f"{series}:{paper}", {})
+        if cfg["crop_review_legacy"]:
+            # F39 chemistry convention: 1C keeps the legacy bare '<series>' home,
+            # other variants use '<series>:<paper>'.
+            crop_reviews = _review_doc.get(series, {}) if paper == "1C" else _review_doc.get(f"{series}:{paper}", {})
+        else:
+            # v0.16.0 non-chemistry lanes are spec-namespaced so verdict homes
+            # never collide across lanes: '4ph1-<series>:<paper>'.
+            crop_reviews = _review_doc.get(f"{cfg['spec_code'].lower()}-{series}:{paper}", {})
     page_clusters, page_rasters = {}, {}
     claimed = {}                       # page -> {cluster_index: question_number} (F24)
     claimed_asset = {}                 # page -> {cluster_index: owning asset dict} (F28)
@@ -2351,9 +2443,13 @@ def main():
     # labels, re-validated by G6). Wave files live in spec-labels/<series>.json
     # as {"parts": {"<part_number>": ["4CH1-x.y", ...]}}; question-level tags
     # are expanded to their parts by the wave authoring script.
-    seeds = SEEDS.get(series, {}) if paper == "1C" else {}   # demo seeds are 1C artifacts (F31)
+    seeds = (cfg["seeds"].get(series, {})
+             if paper == cfg["seeds_paper"] else {})   # demo seeds are default-paper artifacts (F31)
+    _labels_stem = (f"{series}" if paper == cfg["default_paper"] else f"{series}-{paper}")
+    if cfg["labels_prefixed"]:
+        _labels_stem = f"{cfg['spec_code'].lower()}-{_labels_stem}"
     labels_path = (RES_DIR / "Official-ExamQuestion" / "spec-labels" /
-                   (f"{series}.json" if paper == "1C" else f"{series}-{paper}.json"))
+                   f"{_labels_stem}.json")
     labels, nsp = {}, {}
     if labels_path.exists():
         _labels_doc = json.loads(labels_path.read_text())
@@ -2582,12 +2678,11 @@ def main():
     report["review_queue"].extend([{"part": pn, "reason": "answer not auto-linked to MS"} for pn in unmatched])
 
     # G6 registry codes — documented registry gaps go to REVIEW; unknown codes FAIL
-    ALLOWED_GAPS = {"4CH1-3.15C"}   # chemistry-only rates practical; SME notes corpus lacks it
     g6_bad = []
     for q in doc_questions:
         for p in q["parts"]:
             for c in p["spec_point_codes"]:
-                if c not in registry and c not in ALLOWED_GAPS:
+                if c not in registry and c not in cfg["allowed_gaps"]:
                     g6_bad.append({"part": p["part_number"], "code": c})
     n_pending = sum(1 for p in parts_all if p["tagging"] == "pending-llm")
     n_nospec = sum(1 for p in parts_all if p["tagging"] == "no-spec-point")
@@ -2595,7 +2690,7 @@ def main():
          f"all emitted codes ∈ spec_point_resolution registry ({len(registry)} codes) "
          f"or documented gaps→review; {n_pending} parts pending-llm tagging; "
          f"{n_nospec} parts no-spec-point (terminal, documented per part)",
-         {"violations": g6_bad, "allowed_gaps": sorted(ALLOWED_GAPS)})
+         {"violations": g6_bad, "allowed_gaps": sorted(cfg["allowed_gaps"])})
 
     # G7 solution emission (v0.5): every linked part carries the verbatim MS
     # block, and every mark_points split sums exactly to the part's marks.
@@ -2636,7 +2731,7 @@ def main():
         "paper_info": {"code": manifest["paper"]["official_reference"],
                        "session": manifest["series"]["normalized"],
                        "total_marks": total,
-                       "course_id": "igcse-chemistry-19"},
+                       "course_id": cfg["course_id"]},
         "questions": [{
             "id": f"{manifest['paper']['official_reference'].replace('/', '-')}-{q['question_number']:02d}",
             "question_number": q["question_number"],
@@ -2679,7 +2774,11 @@ def main():
     if flat_parts:
         nc = copy.deepcopy(topic)
         tgt = max(nc["questions"], key=lambda q: len(q["parts"]))["parts"][-1]
-        tgt["marks"] = (tgt["marks"] or 0) + 1
+        # v0.16.0: `.get` — a part may legitimately carry marks=None (dropped key
+        # in serialization); chemistry never hit this, a physics 1P part does.
+        # None -> 1 is still an undisclosed graded-value movement: the detector
+        # sees the marks delta and refuses it (detected=True), exactly the N1 law.
+        tgt["marks"] = (tgt.get("marks") or 0) + 1
         orig_by_part = {p["part_number"]: p for q in topic["questions"] for p in q["parts"]}
         nc_results.append({"id": "N1-mark-bump", "expected_gate": "G2-D/value-trace",
                            "detected": _value_trace_recheck(nc, orig_by_part)})
@@ -2717,7 +2816,7 @@ def main():
     # N3: fake spec code injected into the first part (skipped if no parts extracted)
     if flat_parts:
         nc3 = copy.deepcopy(topic)
-        next(p for q in nc3["questions"] for p in q["parts"])["spec_point_codes"] = ["4CH1-9.99"]
+        next(p for q in nc3["questions"] for p in q["parts"])["spec_point_codes"] = [cfg["nc_fake_code"]]
         g6_nc = any(c not in registry for q in nc3["questions"] for p in q["parts"] for c in p["spec_point_codes"])
         nc_results.append({"id": "N3-fake-spec-code", "expected_gate": "G6", "detected": g6_nc})
     report["negative_controls"] = nc_results
@@ -2778,7 +2877,7 @@ def write_questions_md(topic, path):
             if gv.get("option_list"):
                 out += [f"- {lab}" for lab in gv["option_list"]] + [""]
         for p in q["parts"]:
-            marks = f"[{p['marks']}]" if p["marks"] is not None else "[?]"
+            marks = f"[{p['marks']}]" if p.get("marks") is not None else "[?]"
             out.append(f"### {p['part_number']} {marks}")
             out += ["", p["problem_md"], ""]
             if p.get("choices"):
