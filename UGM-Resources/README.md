@@ -138,6 +138,25 @@ disclosure (staircase-sequences-revisited). 36 candidates rejected with reasons.
 r8404 (3.6.2, rides its lane-6 body — disclosed) / r8231 (3.6.3, rides its lane-3 body — disclosed). No honest
 gap this lane (8/3/4 rows). MANIFEST v14 → v15 (605 → 608).
 
+## Lane 15 — CIE 9709 Pure 3 3.7 Vectors (T-UGM-IMPORT-15)
+
+The **seventh lane on the pure-3 course plane**, and the FIRST lane of record with **zero cross-lane joins
+and zero flips** — 20 aligned rows, all fresh text bodies under `pure-3-vectors/` (fm `task:
+T-UGM-IMPORT-15`): the vector-geometry station contributes 15 (lots-of-vector-lines — twelve lines given only
+as `r = a + μb` column-vector equations; three-lines — the corpus's only genuine 3D parallel/skew/intersection
+determination; vector-squares; r9629 parallel/perpendicular/magnitude; the position-vector ratio suite r5992
+octagon sums, r8215/r8573 parallelograms, r8704 OAQY, r8798 Z on OA∩BY, r8339 midpoints, r5153 AC:CB, r7285
+collinear λ, r9575 the collinearity criterion, r6007 intersection from ratios) and combining-vectors 5 (r6493
+scalar product + unit perpendicular, r7272 the projection/foot-of-perpendicular, r5813 equidistant point,
+r8565 affine invariance, r8456 the λ/μ exam question PROMOTED over its stale lane-3-algebra non-overlap row).
+6 non-overlap companion disclosures: the plane class (is-it-a-plane, r6006, r9794, r7187 — P3 3.7 is
+lines-only), r5089 (vector product — rejected BY the 3.7.7 exclusion note, first of record), r8828 (the
+common perpendicular the 3.7.5 row excludes). 110 candidates rejected with reasons (coordinate-method
+r5202/r9702/r8449 — the words match, the method does not; the mechanics class; Euclidean/trig noise). THE
+DESIGNED HONEST GAP: 3.7.7 is the spec's own exclusion row and carries zero rows by rule. Picks:
+hit-the-spot (3.7.1) / r8215 (3.7.2) / r9575 (3.7.3) / lots-of-vector-lines (3.7.4) / three-lines (3.7.5) /
+r6493 (3.7.6). MANIFEST v15 → v16 (608 → 628).
+
 ## Rights and licensing authority
 
 - **Rights holder:** © University of Cambridge (Underground Mathematics); sourced

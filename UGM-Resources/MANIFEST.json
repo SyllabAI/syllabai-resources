@@ -1,6 +1,6 @@
 {
  "manifest_version": 2,
- "version_note": "v14 → v15: lane 14 (T-UGM-IMPORT-14) appended — pure-3-iteration, 3 fresh bodies; strictly additive.",
+ "version_note": "v15 → v16: lane 15 (T-UGM-IMPORT-15) appended — pure-3-vectors, 20 fresh bodies; strictly additive.",
  "corpus": "UGM-Resources",
  "source": {
   "site": "undergroundmathematics.org",
@@ -11,7 +11,7 @@
   "import_law": "text-only: images/PDF/GeoGebra components are recorded as references, not fetched"
  },
  "built": "2026-10-25T21:48:43+06:00",
- "file_count": 608,
+ "file_count": 628,
  "lanes": [
   {
    "task": "T-UGM-IMPORT-1",
@@ -7341,6 +7341,266 @@
      "spec_points": [
       "3.6.2",
       "3.6.3"
+     ],
+     "captured": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "task": "T-UGM-IMPORT-15",
+   "lane_dir": "pure-3-vectors",
+   "sibling_domain": "UGM-Enrichment/ (facts-only spec enrichment; lane-15 file cie-a-level-maths-20-pure-3-vectors.json, task T-UGM-MODE1-15) — this corpus adds the text bodies under the 2026-10-23 operator attestation; SEVENTH LANE ON THE PURE-3 COURSE PLANE: CIE 9709 Pure 3 3.7 Vectors 3.7.1–3.7.7 (the verbatim spine rows, parse artifacts carried — no fold fragments); 20 aligned rows ALL FRESH BODIES — the FIRST lane of record with zero cross-lane joins and zero flips (vector-geometry 15 + combining-vectors 5); psp rows 29 = 2/11/5/3/4/4; 6 non-overlap companion disclosures (the plane class is-it-a-plane/r6006/r9794/r7187, r5089 rejected BY the 3.7.7 exclusion note, r8828 vs the 3.7.5 common-perpendicular exclusion); 110 candidates rejected with reasons; the DESIGNED honest gap — 3.7.7 is the spec's own exclusion row ('Knowledge of the vector product is not required.'), zero rows by rule; r8456 PROMOTED (stale lane-3-algebra non-overlap superseded per the r8013 precedent); picks hit-the-spot/r8215/r9575/lots-of-vector-lines/three-lines/r6493.",
+   "capture_corpus": "syllabai-experimental undergroundmathematics/ (P2 crawl + ugm-clean; cross-map lane 15 @ 16c5f802152130f7019b8aaec4a610956a879339)",
+   "built": "2026-10-26T04:13:07+06:00",
+   "cross_map_of_record": "syllabai-experimental undergroundmathematics/ @ 16c5f802152130f7019b8aaec4a610956a879339",
+   "file_count": 20,
+   "files": [
+    {
+     "path": "pure-3-vectors/hit-the-spot-hit-the-spot.md",
+     "sha256": "b8adcc52279b104f442403fe08a6b28e37ae350810d5cb996dbe6d8c267f335a",
+     "ugm_id": "hit-the-spot",
+     "title": "Hit the spot",
+     "url": "https://undergroundmathematics.org/vector-geometry/hit-the-spot",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "3.7.1",
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/lots-of-vector-lines-lots-of-vector-lines.md",
+     "sha256": "52fe5dbbef07d17ba01e13173f33ac75d5d7ba972e6d11c39f023527dc3edc40",
+     "ugm_id": "lots-of-vector-lines",
+     "title": "Lots of vector lines!",
+     "url": "https://undergroundmathematics.org/vector-geometry/lots-of-vector-lines",
+     "resource_type_label": "Fluency exercise",
+     "spec_points": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r5153-if-c-is-on-this-line-can-we-find-the-ratio-accb.md",
+     "sha256": "9f35e19ac7d9f5bcb5d59edcddd8eedec6b6eb89c67cfaecb34dfc7b2f079dcd",
+     "ugm_id": "r5153",
+     "title": "If $C$ is on this line, can we find the ratio $AC:CB$?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r5153",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r5813-given-three-vectors-can-we-find-a-point-equidistant-from-them-all.md",
+     "sha256": "fecba6e873f087b3d6b35445cc222ab01ed50ebf1451b8aeeb011f738707b5fb",
+     "ugm_id": "r5813",
+     "title": "Given three vectors, can we find a point equidistant from them all?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r5813",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.6"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r5992-if-abcdefgh-is-a-regular-octagon-what-do-these-vectors-add-to.md",
+     "sha256": "c0d18debe3514d6d1d7042beb67a0a4131cd19a3c0bb9cb907ad225a10244c3b",
+     "ugm_id": "r5992",
+     "title": "If $ABCDEFGH$ is a regular octagon, what do these vectors add to?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r5992",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r6007-can-we-find-the-position-vector-of-the-intersection-from-the-given-ratios.md",
+     "sha256": "3ec726e9a4522abdd34cf6bf042b53356822435555ea0a13f3287550540a46c1",
+     "ugm_id": "r6007",
+     "title": "Can we find the position vector of the intersection from the given ratios?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r6007",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.3",
+      "3.7.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r6493-if-amathbfibmathbfjcmathbfk-is-perpendicular-to-these-vectors-what-is-abc.md",
+     "sha256": "ceef90fb8c73396b423cd6d303e08ae7abe357123ef1bafebc24703c0af344a6",
+     "ugm_id": "r6493",
+     "title": "If $a\\mathbf{i}+b\\mathbf{j}+c\\mathbf{k}$ is perpendicular to these vectors, what is $a:b:c$?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r6493",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.6"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r7272-if-overrightarrowom-is-the-projection-of-overrightarrowoa-on-m-where-is-m.md",
+     "sha256": "876dc61d948d2451f6761d36c0bb6c156f252b069210f84744d0c4585b2e78d3",
+     "ugm_id": "r7272",
+     "title": "If $\\overrightarrow{OM}$ is the projection of $\\overrightarrow{OA}$ on $m$, where is $M$?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r7272",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.6"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r7285-if-a-p-and-b-are-collinear-whats-the-value-of-lambda.md",
+     "sha256": "9ce7356ceb0e132572648e1fe43ba4b4cd498fc31a5f92f49bf1109f334b8620",
+     "ugm_id": "r7285",
+     "title": "If $A$, $P$ and $B$ are collinear, what's the value of $\\lambda$?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r7285",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2",
+      "3.7.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r8215-what-is-the-position-vector-of-d-if-abcd-is-a-parallelogram.md",
+     "sha256": "a3f183284f690dec69f778ee54b93fa759d9235d5c5b3ccb515f7bc611d095e4",
+     "ugm_id": "r8215",
+     "title": "What is the position vector of $D$ if $ABCD$ is a parallelogram?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8215",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2",
+      "3.7.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r8339-what-if-we-join-the-midpoints-of-opposite-sides-of-a-quadrilateral.md",
+     "sha256": "dfe4143d10e0b859d054e24337070b845d63a108bc866c1d4f4ad4b1dfe7dc24",
+     "ugm_id": "r8339",
+     "title": "What if we join the midpoints of opposite sides of a quadrilateral?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8339",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r8456-where-do-st-and-ab-cross.md",
+     "sha256": "a0e18d30c1fc4e79d2ddbbb04ad70622b9ebe9e0fc7a56b0fc6073a036d7ece1",
+     "ugm_id": "r8456",
+     "title": "Where do $ST$ and $AB$ cross?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r8456",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2",
+      "3.7.6"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r8565-can-we-show-the-direction-of-pq-is-independent-of-p.md",
+     "sha256": "d7f8e60fd642f9d4c456a3f6048627e850d688f800f76012b6962bc594f9fe25",
+     "ugm_id": "r8565",
+     "title": "Can we show the direction of $P'Q'$ is independent of $P$?",
+     "url": "https://undergroundmathematics.org/combining-vectors/r8565",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r8573-if-prbq-is-a-parallelogram-what-is-the-position-vector-of-q.md",
+     "sha256": "a88a000f1cb16b8c96d3e1fe130117718daf7364f8665ae374fc305c67615b8b",
+     "ugm_id": "r8573",
+     "title": "If $PRBQ$ is a parallelogram, what is the position vector of $Q$?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8573",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r8704-can-we-show-that-oaqy-is-a-parallelogram.md",
+     "sha256": "da04931ed43cde858c482258ce7f1d1134ebac3e10e7fca68f8ac283e2055dcf",
+     "ugm_id": "r8704",
+     "title": "Can we  show that $OAQY$ is a parallelogram?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8704",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r8798-if-z-is-on-oa-and-also-on-by-what-is-its-position-vector.md",
+     "sha256": "a7dd260a73e4240171d3ee3e4f5e8cf9e58287aadf7ce6813d436159cb4ad789",
+     "ugm_id": "r8798",
+     "title": "If $Z$ is on $OA$ and also on $BY$, what is its position vector?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r8798",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.2"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r9575-how-can-we-show-that-p-q-and-r-are-collinear.md",
+     "sha256": "f4eafcbefe60f185da5da49547f249b4c8409ad0c94aa9da08f00bdc5abf81ca",
+     "ugm_id": "r9575",
+     "title": "How can we show that $P, Q$ and $R$ are collinear?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r9575",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/r9629-when-are-these-vectors-parallelperpendicularthe-same-length.md",
+     "sha256": "054665cb97bfae557728c1d8686d0c3bee30d5852bda3dd5212c539ced328ed8",
+     "ugm_id": "r9629",
+     "title": "When are these vectors parallel/perpendicular/the same length?",
+     "url": "https://undergroundmathematics.org/vector-geometry/r9629",
+     "resource_type_label": "Review question",
+     "spec_points": [
+      "3.7.1",
+      "3.7.3"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/three-lines-three-lines.md",
+     "sha256": "f77be1bdc25b37da5deddbb70b4e5d7a43a09cedb0cf5bc421cc9112438fd57f",
+     "ugm_id": "three-lines",
+     "title": "Three lines",
+     "url": "https://undergroundmathematics.org/vector-geometry/three-lines",
+     "resource_type_label": "Building blocks",
+     "spec_points": [
+      "3.7.4",
+      "3.7.5"
+     ],
+     "captured": "2026-10-22"
+    },
+    {
+     "path": "pure-3-vectors/vector-squares-vector-squares.md",
+     "sha256": "f8ec1f98d06e24a2b02039736ef621dd8aebfcde80981d1cc22bbeba6f51f2f3",
+     "ugm_id": "vector-squares",
+     "title": "Vector squares",
+     "url": "https://undergroundmathematics.org/vector-geometry/vector-squares",
+     "resource_type_label": "Fluency exercise",
+     "spec_points": [
+      "3.7.4",
+      "3.7.5"
      ],
      "captured": "2026-10-22"
     }

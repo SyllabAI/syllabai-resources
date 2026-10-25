@@ -190,6 +190,18 @@ there. Nothing in this directory renders or embeds UGM content.
   three, 3.6.3 four; primary picks r8711 (3.6.1, fresh) / r8404 (3.6.2 — rides its lane-6 body, the r6018
   fresh-pick-impossible convention disclosed) / r8231 (3.6.3 — rides its lane-3 body, disclosed).
 
+- **Lane 15 (CIE 9709 Pure 3 3.7 Vectors)** —
+  `cie-a-level-maths-20-pure-3-vectors.json`: the **seventh lane on the pure-3 course plane** and the first
+  with zero cross-lane joins — a two-station lane of record (vector-geometry 15 fresh + combining-vectors 5
+  fresh; the stations the spec names are the stations the corpus serves from). 20 aligned rows all fresh
+  bodies; psp rows 29 = 2/11/5/3/4/4 across 3.7.1–3.7.6; 6 non-overlap companion disclosures (the plane class,
+  r5089 vs the 3.7.7 exclusion row, r8828 vs the 3.7.5 common-perpendicular exclusion); 110 of-record
+  candidates rejected with reasons. **The DESIGNED honest gap**: 3.7.7 — the spec's own exclusion row
+  ('Knowledge of the vector product is not required.') — carries zero rows by rule (the second honest gap of
+  record after 3.5.4, this time by design). r8456 PROMOTED (stale lane-3-algebra non-overlap superseded).
+  Picks: hit-the-spot (3.7.1) / r8215 (3.7.2) / r9575 (3.7.3) / lots-of-vector-lines (3.7.4) / three-lines
+  (3.7.5) / r6493 (3.7.6) — all riding fresh bodies.
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.

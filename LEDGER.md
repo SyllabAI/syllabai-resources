@@ -755,3 +755,46 @@ served bundle PR carries a full disclosure census.
   absent from every lane-14 title). MANIFEST v14 (lane-14 block appended; lane-1..13 rows + v9 assets untouched;
   file_count 605 → 608). Fleet audits: sha256 3/3, delimiter parity 3/3, fm↔enrichment membership 11/11 aligned
   rows (3 fresh + 8 by-reference), primaryPick 3/3 unique, 0 `ugm_id` collisions against lanes 1–13.
+
+- **T-UGM-MODE1-15 — UGM mode-1 lane enrichment, Pure 3 Vectors lane (this run)**:
+  sixteenth landing from the UGM corpus, and the **seventh lane on the pure-3 course plane** (`course:
+  cie-a-level-maths-20-pure-3`). Target of record: CIE 9709 Pure 3 subtopic 3.7 Vectors, spec points
+  3.7.1–3.7.7, verbatim from the served spine parse (SUB3.7 'Vectors', orders 25–31; parse artifacts carried
+  verbatim — interleaved/dropped math runs in the notation rows; no `T-SPECS` repair needed) — no fold
+  fragments. Facts file of record: `UGM-Enrichment/cie-a-level-maths-20-pure-3-vectors.json` (task
+  `T-UGM-MODE1-15`, review_state SUGGESTED). Corpus sweep 855 → **136 candidates of record** (pass-1
+  title/description 'vector' + tight pass-2 vector-machinery regex + targeted angle patterns — foot of the
+  perpendicular, scalar/dot product, projection, angle between lines, skew, shortest distance, ratio-section +
+  a station-membership audit recovering make-it-equal/where-did-it-land/r7982; NO pre-baked bearing pool this
+  lane — no prior lane routed rows to 'P3 3.7') → **20 aligned rows, ALL FRESH BODIES — the FIRST lane of
+  record with zero cross-lane joins and zero flips** (the vector stations were never mapped by lanes 1–14:
+  CIE pure-1 carries no vectors; vector-geometry 15 + combining-vectors 5): 3.7.1 hit-the-spot + r9629;
+  3.7.2 hit-the-spot, r5992, r8215, r8573, r8704, r8798, r8339, r5153, r7285, r8565, r8456; 3.7.3 r9629,
+  r8215, r7285, r9575, r6007; 3.7.4 lots-of-vector-lines, three-lines, vector-squares; 3.7.5 r6007,
+  lots-of-vector-lines, three-lines, vector-squares; 3.7.6 r8456, r6493, r7272, r5813 — psp rows 29 =
+  2/11/5/3/4/4; **6 non-overlaps recorded as companion disclosures** (`bodyImported: false`): the plane class
+  (is-it-a-plane, r6006, r9794, r7187 — P3 3.7 is a lines-only syllabus), r5089 (the corpus's vector-product
+  showcase, rejected BY the 3.7.7 exclusion note — first of record), r8828 (the common-perpendicular
+  construction the 3.7.5 row excludes) **+ 110 of-record candidates rejected with reasons** (the
+  coordinate-method line r5202/r9702/r8449 — the example language matches, the method does not; the mechanics
+  class forces-as-vectors; the Euclidean/trig-graph noise). **THE DESIGNED HONEST GAP: 3.7.7 is the spec's own
+  exclusion row** ('Knowledge of the vector product is not required.') and carries zero rows by rule — the
+  second honest gap of record after 3.5.4, this time by design rather than corpus poverty. **PROMOTION of
+  record: r8456** (the λ/μ position-vector intersection + scalar-product angle exam question) supersedes its
+  stale lane-3-algebra non-overlap row (the r8013 precedent). Primary picks of record (all riding fresh
+  bodies — no r6018-style disclosure needed): hit-the-spot (3.7.1) / r8215 (3.7.2) / r9575 (3.7.3) /
+  lots-of-vector-lines (3.7.4) / three-lines (3.7.5) / r6493 (3.7.6). Cross-map of record:
+  `undergroundmathematics/resources/derived/cross-map-p3-vectors.json` + narrative
+  `undergroundmathematics/docs/cross-map-p3-vectors.md` @ syllabai-experimental 16c5f802.
+  Text of record: 20 new files under `UGM-Resources/pure-3-vectors/` (T-UGM-IMPORT-15, below) with
+  `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-15.
+- **T-UGM-IMPORT-15 — UGM text corpus import, Pure 3 Vectors lane (this run)**:
+  sixteenth landing; the candidate-model law continues (lane-8..14 shape): 20 fresh 3.7-bearing resources,
+  converted from `ugm-clean` through the byte-proven converter (pre-flight: byte-identity against ALL lane-8..14
+  of-record fresh bodies — 139 prior files — zero law drift across seven lanes), fm planes
+  `curriculum_code: CIE-9709-P3-2023`, `lane: cie-a-level-maths-20-pure-3`, `task: T-UGM-IMPORT-15`,
+  `examProvenance` in the enrichment/cross-map rows = acknowledgement first line verbatim. Filename
+  `{ugm_id}-{title-slug}.md` under the lane-9 slug law (re-proved across the fleet; the known source-data
+  residuals absent from every lane-15 title). MANIFEST v15 (lane-15 block appended; lane-1..14 rows + v9
+  assets untouched; file_count 608 → 628). Fleet audits: sha256 20/20, delimiter parity 20/20, fm↔enrichment
+  membership 20/20 aligned rows (all fresh), primaryPick 6/6 unique, 0 `ugm_id` collisions against lanes 1–14.
