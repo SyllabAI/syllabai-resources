@@ -1,0 +1,144 @@
+stage: S4
+date: "2026-10-26"
+agent: "T-BOOK-056 r0 (session web-c414c074 chat 08b3170a, trace 1a1744f21add5f0d)"
+prompt_version: "lesson-prose@2.0.0"
+lint: "PASS"
+trace_id: "1a1744f21add5f0d"
+summary: >-
+  u4:c23 Crude oil authored end-to-end S4 9/9 under lesson-prose@2.0.0 standalone
+  voice (r0, no retrofit debt; the second Unit-4 chapter — operator lane order
+  "go: c23", trace 1a1744f21add5f0d). join_set DERIVED at S0-L0 from the SINGLE
+  objectives chunk 1050 (learning_objectives-typed, 11 bullets) x spine node
+  igcse-chemistry-T4:SUBb = 4.7-4.18 ALL CORE 12+0 (all twelve non-suffixed,
+  double_award_shared true, papers [1C,2C]) — the SECOND consecutive ALL-CORE
+  pack (c22 was 6+0; f-0015 sibling audit run before any superlative claim:
+  u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C;
+  c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed 5+3; c20 mixed 7+1;
+  c21 mixed 2+4; c22 ALL-CORE 6+0; c23 ALL-CORE 12+0 — no mixed-shape drift).
+  chem_only: false (book band NOT chemistry-only; spine applicability governs).
+  DISCLOSED f-0016 covers (spine-canonical pins, spine node igcse-chemistry-T4:SUBb):
+  (1) 4.13 bullet ABSENT from the printed objectives list entirely (11 bullets for
+  12 spine points — editorial-omission class, the reverse of the c22 4.6 tail case)
+  while the chapter teaches CO poisoning at 1063 (did_you_know: CO binds haemoglobin
+  more strongly than oxygen) and 1064 (dot-and-cross extension) — spine-canonical
+  pin, taught in s05; (2) 4.17 spine glyph-variant: spine title carries U+00BA
+  (masculine ordinal) in "600–700 ºC" where the chunk and the specification use
+  U+00B0 (degree sign) — spine-canonical pin (initially misread in-lane as a spine
+  truncation from a 180-char display cut; re-verified at full length, title is
+  COMPLETE at 191 chars); (3) 4.14 chunk drops the spine's two commas ("in car
+  engines, the temperature reached," -> "in car engines the temperature reached");
+  (4) 4.18 chunk drops the spine comma ("necessary, in terms" -> "necessary in
+  terms"); (5) capitalisation class on all 11 bullets (chunk sentence-case
+  Know/Describe/Explain/Understand vs spine lowercase) — normalized.
+  Raw map verified byte-for-byte against section_map.py derivation BEFORE
+  refinement (fresh derivation == pre-lane committed map, 8 sections, pages
+  [268,273], ref counts 2/2/4/2/2/4/3/7), then refined raw 8 -> authored 9
+  sections with receipt-disclosed re-homings: 1053 (volatile HINT) raw-s02 ->
+  authored-s03 (supports the property-trend bullets); 1054 raw-s03 -> authored-s02
+  (formation story + mixture definition are the what-is-crude-oil section; its
+  trend-intro sentence + boiling-point bullet taught in s03 prose — c21 0956/0960
+  split precedent); 1057 (fractions-disagreement HINT) raw-s03 -> authored-s04
+  (belongs with the distillation section it footnotes); 1062/1063 raw-s06 ->
+  authored-s05 (combustion equations + CO are the fuels section; the printed
+  KEROSENE heading on 1062 is a mislabel — its content is the combustion
+  equations, the actual kerosene uses sit in 1064); 1064/1065 raw-s06 ->
+  authored-s06 (fraction uses); 1064 SPLIT — chunkRef home s06 (bulk: refinery
+  gases/LPG/petrol/kerosene uses), its CO dot-and-cross extension tail taught in
+  s05 prose (c22 1040 split precedent); 1065 glued key_point chunk (fossil-fuels
+  KP + diesel/fuel-oil/bitumen uses) kept whole at s06 with both jobs taught;
+  1070 raw-s08 + 1072 + 1073 authored-s08; 1075 SPLIT — chunkRef home s09
+  (questions bulk; chapter_questions-typed chunk carrying cracking-randomness
+  ANSWER prose: "might have split quite differently... all sorts of reactions in
+  a catalytic cracker... small percentage of free hydrogen" taught as the s08
+  randomness paragraph — c22 1044 precedent), garble "Ppro y ons" and "At the end
+  of the cracking Ppro y ons both alkanes and alkenes" taught in words (not
+  reproduced); 1076 SPLIT — chunkRef home s09 (Q1a-f question text, page-jump
+  only), its zeolite/isomerisation/octane-number industry extension taught as the
+  s08 closing footnote clearly labelled beyond-the-exam; 1077/1078 s09 (Q1g-Q3d
+  equations + world-without-fossil-fuels essay, page-jump only). questions-close
+  section split out of raw s08 as authored s09 (c11-c22 precedent) — this is the
+  raw 8 -> authored 9 count delta; pages [268,275] authored range (raw pre-derived
+  [268,273]; the questions close starts at printed p275; course.yaml row pages
+  pinned [268,275] in-lane with the delta disclosed). OCR repairs receipt-disclosed:
+  1062 methane equation state symbol "2H₂O(I)" -> 2H₂O(l) (capital-I-for-l class);
+  1062 octane equation "2C₈H₁ ₈(I)" -> 2C₈H₁₈(l) (spacing-subscript split + same
+  l/I class; octane is a liquid); 1068 "NO2" -> NO₂ and "SO2 and NOx" normalized
+  (unicode-subscript mixing class); 1068 "sulfuric acid (H2SO)" -> H₂SO₄
+  (subscript loss, pinned by the same chunk's later "sulfuric acid (H2SO4)" + the
+  2H₂SO₄ equation); 1068 "H_2SO₃" -> H₂SO₃ (LaTeX underscore class);
+  1068 "Trees dyingfrom" spacing; 1069 "nitric acid (HNO)" -> HNO₃ (subscript
+  loss, pinned by 1068's HNO₃); 1069 "Ca CO₃(s)"/"Ca SO₄(s)" spacing ->
+  CaCO₃(s)/CaSO₄(s); 1070 "andnew" -> "and new"; 1072 cracking equation
+  "C₁ ₃H₂ ₈(I)" -> C₁₃H₂₈(l) and "C₈H₁ ₈(I)" -> C₈H₁₈(l) (spacing-subscript +
+  l/I; both liquids); 1072 garble "Far n u d il into its fractions." -> taught in
+  words as the distillation reminder (furniture-class, not reproduced); 1075
+  "C₁ ₃H₂ ₈(l)" -> C₁₃H₂₈ and "C₆H₁ ₂(l)" -> C₆H₁₂ (spacing-subscript); 1076
+  "1Crude oil" -> "1 Crude oil" (question numbering, page-jump only, not in
+  student prose); 1077 "butane,C4H10" spacing; 1077/1078 "CH24"/"C₁H24" ->
+  C₁₂H₂₄ (subscript loss, pinned by atom balance: 2C₂H₄ + C₈H₁₆ exhausts
+  C12H24 exactly); 1054 "moleculesin" -> "molecules in"; 1059 "road making,is"
+  -> "road making, is"; 1051 doubled sub-heading "HOW THE PHYSICAL PROPERTIES
+  OF HYDROCARBONS CHANGE WITH MOLECULE SIZE" x2 + doubled REMINDER sentence
+  ("Intermolecular forces are explained in Chapter 8 (page 92)" x2) deduped.
+  Print-refs stripped per f-0017 -> in-product pointers: 1051 "Chapter 8 (page
+  92)" -> u1:c08; 1059 "(see Figure 23.3)" and 1057's "Figure 23.3 matches..."
+  taught in words (no figure numbers); 1065 "(see page 273–275 for more details
+  on cracking)" -> this lesson's s08; 1066 "see Chapter 13" -> u2:c13 (the
+  gases-in-the-atmosphere chapter; initially miswritten u3:c13 in draft, caught
+  and repaired in-lane before lint); 1073 "Chapter 29" -> u4:c29; 1070 REMINDER
+  "In Figure 23.11..." straightened-bonds note taught as the s08 drawing-
+  conventions paragraph; 1072 HINT state-symbols note carried as exam-hint.
+  Content-type mislabels DISCLOSED: 1075 chapter_questions-typed chunk carries
+  cracking-answer teaching prose (split to s08; questions bulk s09); 1076/1077/
+  1078 body-typed chunks are chapter-question text + printed skill tags
+  (PROBLEM SOLVING/REASONING/SKILLS/CRITICAL THINKING/CREATIVITY furniture not
+  reproduced in student prose); 1064 EXTENSION-typed body chunk carries the
+  fraction-uses teaching prose (bulk home s06); 1062 printed heading "KEROSENE"
+  mislabels combustion-equation content (taught as s05 Fuels and combustion).
+  RESTORED equations from absent slots: NONE needed — all chapter equations
+  (methane/octane complete, methane incomplete, S+O₂, 2SO₂+2H₂O+O₂ -> 2H₂SO₄,
+  SO₂+H₂O -> H₂SO₃, N₂+O₂ -> 2NO, CaCO₃+H₂SO₄ -> CaSO₄+H₂O+CO₂, C₁₃H₂₈
+  cracking) survive in the parse; state symbols normalized to (g)/(l)/(aq)/(s).
+  Absent figure slots (Figures 23.1-23.11 exist only as printed citations inside
+  carried body chunks; the parse carries no figure chunks) ALL taught in words
+  per the c15-c22 0635-class precedent: oil-industry opener, sticky-black-liquid
+  shot, size-vs-property ladder, fractionating-column cutaway (column described
+  hot-bottom/cool-top with the 120 °C walk-through as the worked example),
+  fraction-stack diagram (six-fraction list taught explicitly), cigarette-smoke
+  CO caption (taught inside the incomplete-combustion exam-hint), jet-fuel and
+  diesel-train and ship-boiler and road-surfacing photos (fraction uses),
+  low-sulfur-fuel + dying-trees pair (acid-rain section), cracking-molecules
+  diagram (straightened-bond convention taught in words) — no figure numbers,
+  no dangling citations in student prose. Printed arithmetic carried: octane
+  balance (16C/36H/50O -> 25O₂), C₁₃H₂₈ atom-count check (2+3+8; 4+6+18),
+  cracking worked example C₁₀H₂₂ -> C₂H₄ + C₈H₁₈ (authored on the printed
+  diesel-C18H38/gasoline-deduction model, atom-count method), acid-rain pH
+  numbers (natural ≈5.6, acid rain ≈4). Chapter-questions bank 1075/1076/1077/
+  1078 page-jump-only per licensing law (chunkRefs retained on s09; question
+  TOPICS — mixture/hydrocarbon definitions, column explanation, fraction uses
+  and comparisons, C18H38-to-gasoline size deduction, butane combustion
+  equation, CO harm explanation, acid-rain why-chains, cracking reasons/
+  conditions/C₁₂H₂₄ double-ethene equation + alternative split, the
+  world-without-fossil-fuels 300-word essay — described in the close prose
+  WITHOUT reproducing question text; the bank's skill-tag furniture and the
+  extension answers' split-variety prose taught in words). Boxes: exam-hint +
+  misconception + quick-check x9 (V5 full); key-point x4 sections census-true
+  (1056 s03; 1065 s06; 1068 + 1069 s07 — all 4 census key_point chunks covered);
+  did-you-know x1 census-true (1063 s05); prior-knowledge + cross-curricular
+  s01; summary + can-you s09; worked-example x2 (120 °C column walk-through
+  s04; C₁₀H₂₂ cracking deduction s08); maths-skills honestly absent (no
+  census maths-skills chunk; the arithmetic lives in s05/s08 prose + worked
+  examples); safety honestly absent — 0 census safety chunks in chapter.
+  Glossary 31 entries full ms layer (definition <=40 words, ms_accepts >=1,
+  ms_avoids all, source chunk-pinned); chips resolve per-section (S0.23
+  equality 9/9); s08/s09 glossary lists regenerated from actual body chips at
+  S4 (pin-script initial lists were refined when authoring settled the chip
+  inventory). course.yaml u4:c23 row PINNED in-lane (join_set 4.7-4.18,
+  learning_objective spine-verbatim '; '.join of the 12 T4:SUBb titles, 
+  section_count 9, pages [268,275], c13-c22 precedent). f-0024 filed in-lane
+  (broken-chip class found sweeping the fleet: 6 sites of literal '[ydrocarbon]]'
+  in published c22 x5 + c13 x1 — invisible to V6 and to S0.23 when a valid
+  instance of the same slug coexists in the body; repair queued as a separate
+  cosmetic lane, NOT bundled here to keep this pack's law-7 byte assertion
+  single-pack). c22 cross-ref check on this lane's own prose: zero broken
+  bracket-runs (sweep re-run on the 9 authored files = 0 hits).

@@ -1,0 +1,219 @@
+# glossary — u4:c23 Crude oil (ms layer: every entry needs ms_accepts; definition ≤40 words)
+# All sources are chunkRefs into the parse of record (chunks_v3) — provenance law.
+- term: crude oil
+  slug: crude-oil
+  definition: "A mixture of hydrocarbons formed from ancient marine organisms buried by sediment and transformed by heat and pressure over millions of years. Finite and non-renewable."
+  ms_accepts: ["mixture of hydrocarbons", "formed from ancient biomass under heat and pressure", "non-renewable fossil fuel"]
+  ms_avoids: ["calling it a single compound or pure substance", "omitting the word mixture", "saying it will be replaced within a human timescale"]
+  aliases: ["oil", "petroleum"]
+  source: "chem_v3_u4_c23_pdf277_1049"
+- term: hydrocarbon
+  slug: hydrocarbon
+  definition: "A compound containing carbon and hydrogen only. The word only is load-bearing: any third element, such as the oxygen in ethanol, disqualifies the compound."
+  ms_accepts: ["compound of carbon and hydrogen only", "contains no other elements", "made of just carbon and hydrogen"]
+  ms_avoids: ["saying contains carbon and hydrogen without 'only'", "calling carbon dioxide a hydrocarbon", "omitting the exclusivity condition"]
+  aliases: ["hydrocarbons"]
+  source: "chem_v3_u4_c23_pdf278_1054"
+- term: fossil fuel
+  slug: fossil-fuel
+  definition: "Coal, natural gas and fuels derived from crude oil — fuels that come from things that were once alive, which is why the supply is finite."
+  ms_accepts: ["fuels from once-living organisms", "coal, oil and natural gas", "finite because formation takes millions of years"]
+  ms_avoids: ["listing renewables among fossil fuels", "omitting the once-living origin", "saying fossil fuels are unlimited"]
+  aliases: ["fossil fuels"]
+  source: "chem_v3_u4_c23_pdf281_1065"
+- term: non-renewable
+  slug: non-renewable
+  definition: "Describes a resource that cannot be replaced once used, or not for millions of years. Crude oil is non-renewable because formation vastly outpaces consumption."
+  ms_accepts: ["cannot be replaced as quickly as it is used", "finite supply", "formation takes millions of years"]
+  ms_avoids: ["confusing non-renewable with non-recyclable", "saying it never regenerates at all without the timescale", "omitting the replacement-speed point"]
+  aliases: ["finite resource"]
+  source: "chem_v3_u4_c23_pdf278_1054"
+- term: intermolecular forces
+  slug: intermolecular-forces
+  definition: "Forces of attraction between neighbouring molecules. They strengthen as molecules get bigger, which is why larger hydrocarbons boil higher, evaporate more slowly and flow less easily."
+  ms_accepts: ["attractions between molecules", "stronger intermolecular forces in larger molecules", "more energy needed to overcome them"]
+  ms_avoids: ["confusing them with covalent bonds inside molecules", "saying bonds break during boiling", "omitting the between-molecules scope"]
+  aliases: ["intermolecular forces of attraction", "forces between molecules"]
+  source: "chem_v3_u4_c23_pdf278_1051"
+- term: volatile
+  slug: volatile
+  definition: "Describes a liquid that turns to a vapour easily at room temperature — it evaporates quickly. Volatility falls as hydrocarbon molecule size increases."
+  ms_accepts: ["evaporates easily at room temperature", "turns to a vapour readily", "low boiling point liquids are volatile"]
+  ms_avoids: ["confusing volatile with flammable or explosive", "omitting the room-temperature evaporation sense", "saying volatile means unstable"]
+  aliases: ["volatility"]
+  source: "chem_v3_u4_c23_pdf278_1053"
+- term: viscosity
+  slug: viscosity
+  definition: "A measure of how reluctantly a liquid flows. Viscosity rises with hydrocarbon molecule size because stronger attractions between molecules resist them sliding past each other."
+  ms_accepts: ["resistance to flow", "how thick or runny a liquid is", "larger molecules give more viscous liquids"]
+  ms_avoids: ["confusing viscosity with density", "saying viscous means heavy", "omitting the flow sense"]
+  aliases: ["viscous", "thickness"]
+  source: "chem_v3_u4_c23_pdf278_1055"
+- term: boiling point
+  slug: boiling-point
+  definition: "The temperature at which a liquid boils — the same temperature at which the gas condenses back to liquid, so it can also be called the condensation point."
+  ms_accepts: ["temperature at which a liquid becomes a gas", "same as the condensation temperature", "rises with molecule size"]
+  ms_avoids: ["omitting the condensation equivalence", "confusing boiling point with flammability", "saying boiling breaks covalent bonds"]
+  aliases: ["condensation point"]
+  source: "chem_v3_u4_c23_pdf279_1056"
+- term: fraction
+  slug: fraction
+  definition: "A mixture of hydrocarbons with a narrow range of chain lengths and similar boiling points, separated from crude oil in the fractionating column. Every fraction is still a mixture."
+  ms_accepts: ["mixture of hydrocarbons with similar boiling points", "narrow range of chain lengths", "separated from crude oil by distillation"]
+  ms_avoids: ["calling a fraction a pure compound", "omitting the mixture nature", "saying fractions contain one hydrocarbon"]
+  aliases: ["fractions", "oil fraction"]
+  source: "chem_v3_u4_c23_pdf279_1058"
+- term: fractional distillation
+  slug: fractional-distillation
+  definition: "The industrial separation of crude oil into fractions: heated vapours rise up a column that is hot at the bottom and cooler at the top, and each fraction condenses at the height matching its boiling point."
+  ms_accepts: ["separation using different boiling points", "vapours rise, condense at different heights", "column hot at bottom, cool at top"]
+  ms_avoids: ["describing it as a chemical reaction", "omitting the temperature-gradient principle", "confusing it with simple distillation of a pure liquid"]
+  aliases: ["distillation of crude oil"]
+  source: "chem_v3_u4_c23_pdf279_1058"
+- term: fractionating column
+  slug: fractionating-column
+  definition: "The tall tower used in oil refineries, hot at the bottom and progressively cooler towards the top, where rising hydrocarbon vapours condense at different heights according to their boiling points."
+  ms_accepts: ["tower with temperature gradient", "hot at the bottom, cooler at the top", "condensation height set by boiling point"]
+  ms_avoids: ["saying it filters by size mechanically", "omitting the temperature gradient", "placing the cooler end at the bottom"]
+  aliases: ["distillation column", "fractional column"]
+  source: "chem_v3_u4_c23_pdf279_1058"
+- term: residue
+  slug: residue
+  definition: "The very large hydrocarbons whose boiling points exceed the column temperature: they never vaporise and drain from the base of the column as a thick liquid, the source of bitumen."
+  ms_accepts: ["very large molecules that do not vaporise", "collected at the bottom of the column", "used to make bitumen"]
+  ms_avoids: ["calling residue a waste product with no use", "saying it condenses from gas high up", "omitting the never-boiled point"]
+  aliases: ["bottoms", "bitumen fraction"]
+  source: "chem_v3_u4_c23_pdf279_1059"
+- term: refinery gases
+  slug: refinery-gases
+  definition: "The smallest fraction: methane, ethane, propane and butane, which never condense in the column and leave the top as gases. Bottled as liquefied petroleum gas (LPG) for domestic heating and cooking."
+  ms_accepts: ["gases leaving the top of the column", "methane to butane mixture", "used as LPG for heating and cooking"]
+  ms_avoids: ["omitting the never-condense point", "listing large molecules in the fraction", "confusing LPG with natural gas alone"]
+  aliases: ["LPG", "liquefied petroleum gas"]
+  source: "chem_v3_u4_c23_pdf280_1064"
+- term: gasoline
+  slug: gasoline
+  definition: "The petrol fraction: a mixture of hydrocarbons with similar boiling points in the middle-small size range, used as fuel for cars. Octane is one of its components."
+  ms_accepts: ["petrol fraction", "fuel for cars", "mixture of hydrocarbons"]
+  ms_avoids: ["saying gasoline is pure octane", "omitting the mixture nature", "assigning it to ships or furnaces"]
+  aliases: ["petrol"]
+  source: "chem_v3_u4_c23_pdf280_1064"
+- term: kerosene
+  slug: kerosene
+  definition: "The fraction used as jet-aircraft fuel, as domestic heating oil, and — under the old name paraffin — for small heaters and lamps."
+  ms_accepts: ["fuel for jet aircraft", "domestic heating oil", "paraffin for heaters and lamps"]
+  ms_avoids: ["assigning it to road surfacing", "omitting the aviation use", "confusing kerosene with diesel uses"]
+  aliases: ["paraffin", "heating oil"]
+  source: "chem_v3_u4_c23_pdf280_1064"
+- term: diesel
+  slug: diesel
+  definition: "The fraction used as fuel for buses, lorries, some cars and some railway engines. Some diesel is also cracked into more useful products including petrol."
+  ms_accepts: ["fuel for buses and lorries", "used in some cars and trains", "can be cracked to smaller molecules"]
+  ms_avoids: ["saying diesel is pure hydrocarbon", "omitting the vehicle uses", "assigning it to aviation"]
+  aliases: ["diesel fraction"]
+  source: "chem_v3_u4_c23_pdf281_1065"
+- term: fuel oil
+  slug: fuel-oil
+  definition: "The thick fraction burned in ships' boilers and for industrial heating, where slow burning of large molecules is an advantage rather than a problem."
+  ms_accepts: ["fuel for ships", "industrial heating", "burned in furnaces and boilers"]
+  ms_avoids: ["using it for car engines", "omitting the marine and industrial uses", "confusing it with bitumen's non-fuel use"]
+  aliases: ["ship fuel"]
+  source: "chem_v3_u4_c23_pdf281_1065"
+- term: bitumen
+  slug: bitumen
+  definition: "A thick, black material from the bottom of the column, melted and mixed with small pieces of rock to make the top surface of roads. Its molecules are too large to be worth burning."
+  ms_accepts: ["used for road surfaces", "thick black material from residue", "mixed with rock chips"]
+  ms_avoids: ["listing bitumen as a fuel", "omitting the road-surfacing use", "saying it condenses at the top of the column"]
+  aliases: ["road tar", "asphalt"]
+  source: "chem_v3_u4_c23_pdf281_1065"
+- term: fuel
+  slug: fuel
+  definition: "A substance that, when burned, releases heat energy. The definition names two claims only — burning happens and heat is released — and does not require the fuel to be a hydrocarbon."
+  ms_accepts: ["releases heat energy when burned", "burns to give out heat", "substance burned as an energy source"]
+  ms_avoids: ["defining fuel as something that contains hydrocarbons", "omitting the heat-energy release", "saying fuels must produce carbon dioxide"]
+  aliases: ["fuels"]
+  source: "chem_v3_u4_c23_pdf279_1060"
+- term: complete combustion
+  slug: complete-combustion
+  definition: "Burning in plenty of oxygen. Hydrocarbons burn completely to carbon dioxide and water only, releasing a large amount of heat."
+  ms_accepts: ["carbon dioxide and water produced", "plenty or excess oxygen", "hydrocarbon + oxygen -> carbon dioxide + water"]
+  ms_avoids: ["listing carbon monoxide among complete-combustion products", "omitting water", "saying limited oxygen still gives complete combustion"]
+  aliases: ["complete burning"]
+  source: "chem_v3_u4_c23_pdf280_1062"
+- term: incomplete combustion
+  slug: incomplete-combustion
+  definition: "Burning with insufficient oxygen. Products include toxic carbon monoxide and/or carbon (soot) as well as water — the carbon cannot be fully oxidised to carbon dioxide."
+  ms_accepts: ["carbon monoxide and/or soot produced", "limited or insufficient oxygen supply", "water also formed"]
+  ms_avoids: ["listing carbon dioxide as the only carbon product", "omitting the oxygen-shortage condition", "saying the fuel is different rather than the oxygen supply"]
+  aliases: ["incomplete burning"]
+  source: "chem_v3_u4_c23_pdf280_1062"
+- term: carbon monoxide
+  slug: carbon-monoxide
+  definition: "A colourless, odourless, toxic gas from incomplete combustion. It is poisonous because it reduces the ability of the blood to carry oxygen around the body."
+  ms_accepts: ["colourless and odourless toxic gas", "reduces the blood's oxygen-carrying capacity", "formed by incomplete combustion"]
+  ms_avoids: ["saying it is poisonous because it is acidic", "omitting the blood-oxygen mechanism", "claiming it has a warning smell"]
+  aliases: ["CO"]
+  source: "chem_v3_u4_c23_pdf280_1062"
+- term: greenhouse gas
+  slug: greenhouse-gas
+  definition: "A gas that traps heat radiated from the Earth's surface — heat that originally came from the Sun. Carbon dioxide from burning fossil fuels is the main example in this chapter."
+  ms_accepts: ["absorbs/traps heat radiated from Earth", "carbon dioxide is a greenhouse gas", "linked to climate change"]
+  ms_avoids: ["saying greenhouse gases create heat themselves", "omitting the radiation-trapping mechanism", "confusing the greenhouse effect with acid rain"]
+  aliases: ["greenhouse gases"]
+  source: "chem_v3_u4_c23_pdf281_1066"
+- term: sulfur dioxide
+  slug: sulfur-dioxide
+  definition: "SO₂, formed when the sulfur impurities in fossil fuels burn: S + O₂ → SO₂. Converted in the atmosphere to sulfuric acid, it is a major cause of acid rain."
+  ms_accepts: ["formed from sulfur impurities burning", "S + O2 -> SO2", "contributes to acid rain"]
+  ms_avoids: ["saying sulfur is part of the hydrocarbon molecules", "omitting the impurity origin", "confusing it with the oxides of nitrogen source"]
+  aliases: ["SO2"]
+  source: "chem_v3_u4_c23_pdf282_1068"
+- term: oxides of nitrogen
+  slug: oxides-of-nitrogen
+  definition: "Gases such as NO and NO₂, grouped as NOₓ. Formed when engine temperatures are high enough to make nitrogen and oxygen from the air react; converted to nitric acid, they contribute to acid rain."
+  ms_accepts: ["NO and NO2, general formula NOx", "formed from N2 and O2 in the air at high temperature", "contribute to acid rain via nitric acid"]
+  ms_avoids: ["saying nitrogen comes from the fuel", "omitting the high-temperature condition", "confusing them with the sulfur impurity source"]
+  aliases: ["NOx", "nitrogen oxides"]
+  source: "chem_v3_u4_c23_pdf282_1068"
+- term: acid rain
+  slug: acid-rain
+  definition: "Rain with a pH lower than the natural value of about 5.6 — often about pH 4 — because dissolved sulfur dioxide and oxides of nitrogen form sulfuric and nitric acid in the atmosphere."
+  ms_accepts: ["pH below natural rain", "sulfuric and nitric acids dissolved in rain", "damages trees, lakes, limestone buildings and iron"]
+  ms_avoids: ["calling naturally acidic rain acid rain", "omitting the pollutant acids", "saying it only harms plants"]
+  aliases: ["acid deposition"]
+  source: "chem_v3_u4_c23_pdf282_1068"
+- term: cracking
+  slug: cracking
+  definition: "The process that converts long-chain alkanes into alkenes and shorter-chain alkanes: the fraction is vaporised and passed over a silica/alumina catalyst at about 600–700 °C."
+  ms_accepts: ["long chains split into shorter alkanes and alkenes", "silica or alumina catalyst", "600-700 degrees C"]
+  ms_avoids: ["describing cracking as combustion", "omitting the catalyst or temperature", "saying only alkenes are produced"]
+  aliases: ["catalytic cracking"]
+  source: "chem_v3_u4_c23_pdf283_1072"
+- term: thermal decomposition
+  slug: thermal-decomposition
+  definition: "Breaking a substance into smaller molecules by heating. Cracking is thermal decomposition: heat supplies the energy, and no oxygen is involved."
+  ms_accepts: ["splitting by heat alone", "one substance breaks into smaller ones on heating", "no oxygen required"]
+  ms_avoids: ["confusing decomposition with combustion", "saying oxygen is needed", "omitting the heat condition"]
+  aliases: ["thermal cracking (without catalyst)"]
+  source: "chem_v3_u4_c23_pdf283_1072"
+- term: catalyst
+  slug: catalyst
+  definition: "A substance that speeds up a reaction without being used up. In cracking, silica (silicon dioxide) and alumina (aluminium oxide) catalyse the splitting of long-chain alkanes."
+  ms_accepts: ["speeds up reaction without being consumed", "silica and alumina in cracking", "lowers the temperature needed"]
+  ms_avoids: ["saying the catalyst is used up", "omitting the unchanged-amount property", "calling the catalyst a reactant"]
+  aliases: ["catalysts", "silica-alumina catalyst"]
+  source: "chem_v3_u4_c23_pdf283_1072"
+- term: alkane
+  slug: alkane
+  definition: "A saturated hydrocarbon: its carbon atoms are joined by single bonds only, so each carbon carries the maximum possible hydrogen. Cracking consumes long-chain alkanes."
+  ms_accepts: ["saturated hydrocarbon", "only single carbon-carbon bonds", "general formula CnH2n+2"]
+  ms_avoids: ["confusing alkanes with alkenes", "omitting the single-bond condition", "saying alkanes contain double bonds"]
+  aliases: ["alkanes", "saturated hydrocarbon"]
+  source: "chem_v3_u4_c23_pdf283_1073"
+- term: alkene
+  slug: alkene
+  definition: "An unsaturated hydrocarbon containing at least one carbon-carbon double bond (C=C). Cracking always produces alkenes alongside shorter alkanes, and their reactivity makes them key industrial building blocks."
+  ms_accepts: ["contains C=C double bond", "unsaturated hydrocarbon", "more reactive than alkanes"]
+  ms_avoids: ["omitting the double bond", "saying all hydrocarbons are alkenes", "confusing the double bond with a ring"]
+  aliases: ["alkenes"]
+  source: "chem_v3_u4_c23_pdf283_1073"

@@ -146,21 +146,6 @@ there. Nothing in this directory renders or embeds UGM content.
   record: no fresh 3.3.2 body exists because the dedicated station is whole-imported), the 3.3.2
   spine title's mid-sentence truncation carried verbatim of record — recorded, never forced.
 
-- **Lane 12 (CIE 9709 Pure 3 3.4 Differentiation)** — `cie-a-level-maths-20-pure-3-differentiation.json`: the
-  **fourth lane on the pure-3 course plane** and the **largest fresh-text lane since lane 9** — the
-  differentiation substrate concentrates on the chain-rule and product-rule stations (neither whole-imported
-  of record), so the lane-10/11 pre-baked "P3 3.4 Differentiation" bearing pool converts rather than maps:
-  41 aligned rows = 40 fresh rows (13 × 3.4.1 / 12 × 3.4.2 / 15 × 3.4.3; 16 of them promotions of the bearing
-  pool, each superseding its stale row of record) + 1 cross-course flip (r8931 → 3.4.2, riding its lane-7 body
-  under `pure-1-differentiation/`), 29 fresh non-overlaps **recorded by reference only** (`bodyImported:
-  false`; 3 honest re-routings of lane-10 bearings) — 7 further P3 3.5 Integration bearings, the
-  inverse-function/arc-length/locus beyond-spec set, the discriminant-method false positives, and the
-  P1-1.7-bearing kinematics/power-rule pair — 119 of-record candidates rejected with reasons (104 prior
-  alignments — dominated by lane-7's P1-differentiation law — and 15 standing prior non-overlap rows, incl.
-  the two declined bearings odd-one-out and r6843), primary picks r6938 (3.4.1, fresh) / r6530 (3.4.2, fresh)
-  / r8620 (3.4.3, fresh), the 3.4 spine titles' parse artifacts (dropped math run on e, duplicated "tan x",
-  dangling "e.g.") carried verbatim of record — recorded, never forced.
-
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.
