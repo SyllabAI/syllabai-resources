@@ -280,7 +280,13 @@ backlog:
     description: "First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol §4),
       grounded on SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 + SRC-BOOK-4CH1-SB1.
       STATUS 2026-10-25 — gate opened by BL-006; the BL-007 pilot (CUR-01 + MIS-01 only) is the
-      first slice; remaining CUR-02..CUR-08 stay queued pending pilot acceptance."
+      first slice; remaining CUR-02..CUR-08 stay queued pending pilot acceptance.
+      DONE 2026-10-25 (BL-008 wave 1, run SIB-CHEMISTRY_4CH1-RUN-002, operator order
+      'BL-008 batch orchestration' trace 1a1733c96d40e6dd): CUR-02..CUR-08 generated
+      through the full chain with receipts (7 artifacts QA_PASSED; 209 evidence-claim
+      citations verified, 0 violations). Wave-grounding note: SRC-BOOK-4CH1-SB1 was
+      locator-repaired to RESOLVED (v1.2.2) but stays identity-only in packs pending
+      text extraction of the image-only scan; SPEC+GRAPH+TL carried the wave."
   - id: BL-006
     description: "DONE 2026-10-25 (SIB-GEN r0): provider-neutral regeneration infrastructure
       landed — docs r0 edition (PIPELINE.md provider-neutral, SIB_ARTIFACT_SCHEMA_V2.md
@@ -296,8 +302,21 @@ backlog:
       packs -> generation -> stamping -> validator QA -> evidence-claim QA -> educational
       review) with run receipts under runs/. Acceptance criteria: citation resolution,
       source coverage, current/legacy separation, educational accuracy, output usefulness.
-      Batch orchestration (BL-008) unlocks only on pilot acceptance."
+      Batch orchestration (BL-008) unlocks only on pilot acceptance.
+      ACCEPTED 2026-10-25: pilot receipts merged of record (master PR #54 @ 357ace0a +
+      resources PR #124 @ cb28433, coordinated pair); educational review PASS on the
+      five acceptance criteria recorded in RUN-001's manifest — acceptance recorded
+      here per the BL-008 precondition wording."
   - id: BL-008
-    description: Batch orchestration — full-wave generation runs (remaining REQUIRED families
+    description: "Batch orchestration — full-wave generation runs (remaining REQUIRED families
       per protocol §4 order) via pipeline/run_build.py once BL-007 pilot acceptance is
       recorded. Operator-ordered per wave; staging/publication remain operator gates.
+      WAVE 1 EXECUTED 2026-10-25 (operator order trace 1a1733c96d40e6dd): run
+      SIB-CHEMISTRY_4CH1-RUN-002 = CUR-02..CUR-08 (the BL-004 wave), 7 artifacts
+      QA_PASSED with full receipts + deterministic census annex; source_manifest v1.2.2
+      locator repair + resolver direct-children-first hardening shipped in the same
+      change. QUEUED per §4 order: pass 3 EXP (BLOCKED on student-book text extraction
+      — image-only scan; operator purchase decision recorded in books/CATALOG.md),
+      pass 4 MIS-02..09 (evidence-unblocked), pass 5 ASM+MS+EXM, pass 6 PED+PRA+PRO,
+      pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT (BLOCKED on book text),
+      pass 9 GAP."

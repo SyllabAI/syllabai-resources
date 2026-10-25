@@ -1,0 +1,35 @@
+{
+  "artifact_id": "CUR-07",
+  "content_sha256": "97b6485b61ebc2b4a2f31a7810aa7054d02ff18715961b63c7c39d5162082f88",
+  "filename": "CHEMISTRY_4CH1_CUR-07_TERMINOLOGY_DEFINITIONS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 2,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "CUR-07",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      },
+      {
+        "artifact_id": "CUR-07",
+        "code": "SIB-IDENT-005",
+        "field": "filename",
+        "message": "filename 'CHEMISTRY_4CH1_CUR-07_TERMINOLOGY_DEFINITIONS.md' is identity-consistent but not canonical (CHEMISTRY_4CH1_CUR-07_TERMINOLOGY_AND_DEFINITIONS.md)",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "CUR-07"
+  },
+  "sib_protocol": "SIB-1.0"
+}

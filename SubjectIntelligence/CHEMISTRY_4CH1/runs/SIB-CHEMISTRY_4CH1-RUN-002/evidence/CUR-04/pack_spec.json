@@ -13,11 +13,11 @@
     "files": [
       {
         "path_suffix": "graph/igcse-chemistry/concept_edges.yaml",
-        "md_query": "^  (relation|validation_status): "
+        "md_query": "(^- source: 4CH1-CON-(ANION-TESTS|BOND-ENERGY-CALC|CRUDE-OIL-FRACTIONS|EXTRACTION-METHOD|G7-REACTIVITY-ECONFIG)|^  relation: (REMEDIATED_BY|WRONG_ANSWER_PATTERN|EXPLAINED_BY|RELATED_TO|COMMONLY_CONFUSED_WITH|MISCONCEPTION_OF))"
       },
       {
         "path_suffix": "graph/igcse-chemistry/concepts.yaml",
-        "md_query": "^  (validation_gate|provenance_tier|extraction_pass): "
+        "md_query": "^  (edge_vocabulary|validation_gate|provenance_tier): "
       }
     ]
   },

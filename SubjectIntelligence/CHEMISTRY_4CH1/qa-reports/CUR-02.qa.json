@@ -1,0 +1,27 @@
+{
+  "artifact_id": "CUR-02",
+  "content_sha256": "1a9404a562e8f390e1957fa8497dd5a5150d2917c9a714b86d66b584d10407d9",
+  "filename": "CHEMISTRY_4CH1_CUR-02_SPECIFICATION_INTERPRETATION.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "CUR-02",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "CUR-02"
+  },
+  "sib_protocol": "SIB-1.0"
+}
