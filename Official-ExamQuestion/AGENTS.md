@@ -479,8 +479,22 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   pdflane-only letter-parent totals each equal the sum of their children on
   both parsers; every sitting = its printed 70 marks
   with Σparts=Σtotals gated). run_all.sh carries the 2C cross-diff battery step
-  (parsed-2C- namespaced inputs); 2CR remains the open variant — runs via
-  `--paper 2CR` when its parsed layer lands; (d) DONE
+  (parsed-2C- namespaced inputs); (c-cont) DONE wave-27 — the 2CR variant is
+  closed the same way: the repo parsed/ layer covers all 11 2CR sittings
+  (pastpapers PR #4: 9 new + 2024-06 regenerated false→true with byte-equal
+  part marks, alongside the byte-identical pre-existing 2026-06), and
+  `cross_diff_parsed.py --paper 2CR` agrees with the converter corpus on the
+  FULL 11-sitting 2CR part census — 423/423 part marks, 79/79 question totals,
+  0 mismatches, 0 converter-only parts; the remaining 97 pdflane-only
+  letter-parent totals each equal the sum of their children on both parsers;
+  every sitting = its printed 70 marks. Disclosed pdflane MS-side classes
+  (never the marks axis): 8 G1 FAILs — 2 source-style total-row absences
+  (2019-06 Q4, 2020-01 none printed) + 6 grid-scanner gaps (parenthesized /
+  'Total = N' row shapes 2021-01, 2023-01, 2025-06, 2026-06; the 'M4 Total 12'
+  embedded row 2022-01; a phantom Q8 from an '8 × 100' calc line 2022-06, also
+  its G3 FAIL) — and 2025-06 marksVerified=false (Q7 MS point losses; QP marks
+  close 15 on both parsers). run_all.sh carries the 2CR cross-diff battery step
+  (parsed-2CR- namespaced inputs); (d) DONE
   v0.12.0 for 1CR — the 11 1CR sets converted on the same kit via `--paper 1CR`
   (registry entries filed with the outputs per the outputs-and-pipeline law;
   F49/F50 layout repairs through the loop; wave-15 disclosure; spec-label waves

@@ -10,10 +10,12 @@ Expects: $EXAMQ_UPLOAD_DIR (default /home/z/my-project/upload)/parsed-{S}-questi
          plus <checkout>/Official-ExamQuestion/igcse-chemistry-19/{S}/4CH1-{paper}/topic.json
 F34: --paper selects the variant (default 1C). Wave-26: the repo parsed/ layer now
 also covers all 16 2C sittings (pastpapers PR #3: 12 new + 2 regenerated verified,
-alongside the pre-existing 2024-06/2026-06), so --paper 2C runs end-to-end;
-non-1C parsed files are namespaced parsed-{paper}-{S}-questions.json to keep the
-variants from clobbering each other in the shared upload dir. 2CR still SKIPs
-honestly (no 2CR parsed layer yet).
+alongside the pre-existing 2024-06/2026-06), so --paper 2C runs end-to-end.
+Wave-27: --paper 2CR runs end-to-end too (pastpapers PR: 9 new + 1 regenerated
+verified, alongside the pre-existing 2026-06 — 2024-06 regenerated false→true
+with byte-equal marks); non-1C parsed files are namespaced
+parsed-{paper}-{S}-questions.json to keep the variants from clobbering each
+other in the shared upload dir.
 Writes:  <checkout>/Official-ExamQuestion/CROSS-DIFF.json  (always inside the checkout; F15)
 """
 import json
@@ -29,10 +31,13 @@ HAVE_PARSED = ["2024-06", "2025-06", "2026-06"]
 HAVE_PARSED_2C = ["2019-06", "2020-01", "2020-11", "2021-01", "2021-06", "2021-11",
                   "2022-01", "2022-06", "2023-01", "2023-06", "2023-11", "2024-06",
                   "2024-11", "2025-06", "2025-11", "2026-06"]
-_args = [a for a in sys.argv[1:] if not a.startswith("--") and not a in ("1C", "2C")]
-PAPER = "2C" if ("--paper" in sys.argv and sys.argv.index("--paper") + 1 < len(sys.argv)
-                 and sys.argv[sys.argv.index("--paper") + 1] == "2C") else "1C"
-series = _args or (HAVE_PARSED_2C if PAPER == "2C" else HAVE_PARSED)
+HAVE_PARSED_2CR = ["2019-06", "2020-01", "2020-11", "2021-01", "2022-01", "2022-06",
+                   "2023-01", "2023-06", "2024-06", "2025-06", "2026-06"]
+PAPERS = {"1C": HAVE_PARSED, "2C": HAVE_PARSED_2C, "2CR": HAVE_PARSED_2CR}
+_args = [a for a in sys.argv[1:] if not a.startswith("--") and not a in PAPERS]
+_idx = sys.argv.index("--paper") + 1 if "--paper" in sys.argv else None
+PAPER = sys.argv[_idx] if (_idx and _idx < len(sys.argv) and sys.argv[_idx] in PAPERS) else "1C"
+series = _args or PAPERS[PAPER]
 
 out = {"schema": "syllabai.official-paper-questions.cross-diff/0.1", "paper": PAPER, "series": []}
 for S in series:
