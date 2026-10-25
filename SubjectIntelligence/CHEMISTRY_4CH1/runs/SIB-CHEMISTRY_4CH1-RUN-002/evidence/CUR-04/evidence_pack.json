@@ -1,0 +1,442 @@
+{
+  "schema": "sib-evidence-pack/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-002",
+  "artifact_id": "CUR-04",
+  "family": "CUR",
+  "library": "CHEMISTRY_4CH1",
+  "policy_version": "r0",
+  "sources": [
+    {
+      "source_id": "SRC-SPEC-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Pearson Edexcel International GCSE Chemistry (2017) Specification, Issue 3",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+          "sha256": "36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362",
+          "excerpts": [
+            {
+              "locator": "page 15",
+              "chars": 258,
+              "text": "Pearson Edexcel International GCSE in Chemistry \nSpecification – Issue 3 – September 2024 © Pearson Education Limited 2024 \n9\n2 Chemistry content \n1 \nPrinciples of chemistry \n11 \n2 \nInorganic chemistry \n16 \n3 \nPhysical chemistry \n21 \n4 \nOrganic chemistry \n23"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-GRAPH-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Validated 4CH1 curriculum knowledge graph (specification points, concepts, practicals, command words)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/concept_edges.yaml",
+          "sha256": "cbef02513ddbb0121a7ba139512c128185311ae3ebf0ef5121e1ed792522aa10",
+          "excerpts": [
+            {
+              "locator": "lines 273-287",
+              "chars": 720,
+              "text": "edges:\n- source: 4CH1-CON-ACID-ALKALI-IONS\n  relation: PART_OF\n  target: 4CH1-2.31\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids,\n      Alkalis & Neutralisation - IGCSE Revision Notes.md\n    kind: NOTE\n    quote: When acids are added to water, they form positively charged hydrogen ions\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids,\n      Alkalis & Neutralisation - IGCSE Revision Notes.md\n    kind: NOTE\n    quote: When alkalis are added to water, they form negative hydroxide ions\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids,"
+            },
+            {
+              "locator": "lines 306-320",
+              "chars": 514,
+              "text": "official wording\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-23'\n- source: 4CH1-CON-ACID-RAIN-CAUSES\n  relation: PART_OF\n  target: 4CH1-4.14\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: These compounds (NO and NO<sub>2</sub>) are formed when nitrogen and oxygen react in the **high"
+            },
+            {
+              "locator": "lines 311-325",
+              "chars": 630,
+              "text": "created_at: '2026-09-23'\n- source: 4CH1-CON-ACID-RAIN-CAUSES\n  relation: PART_OF\n  target: 4CH1-4.14\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: These compounds (NO and NO<sub>2</sub>) are formed when nitrogen and oxygen react in the **high\n      pressure** and **temperature** conditions of **internal combustion engines** and blast furnaces\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-9"
+            },
+            {
+              "locator": "lines 333-347",
+              "chars": 522,
+              "text": "the 4.16 mapping carries\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ACID-RAIN-CAUSES\n  relation: PART_OF\n  target: 4CH1-4.16\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: The sulfur dioxide produced from the combustion of fossil fuels dissolves in rainwater droplets"
+            },
+            {
+              "locator": "lines 338-352",
+              "chars": 721,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ACID-RAIN-CAUSES\n  relation: PART_OF\n  target: 4CH1-4.16\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: The sulfur dioxide produced from the combustion of fossil fuels dissolves in rainwater droplets\n      to form **sulfuric acid**\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Nitrogen Oxides & Sulfur Dioxide  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: '**Nitrogen dioxide** produced from car engines reacts with rain water to form a mixture of"
+            },
+            {
+              "locator": "lines 369-383",
+              "chars": 486,
+              "text": "the 4.16 mapping carries\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ACID-REACTIONS\n  relation: PART_OF\n  target: 4CH1-2.37\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions\n      of acids - IGCSE Chemistry Revision Notes.md\n    kind: NOTE\n    quote: When acids react with metals they form a salt and hydrogen gas"
+            },
+            {
+              "locator": "lines 374-388",
+              "chars": 743,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ACID-REACTIONS\n  relation: PART_OF\n  target: 4CH1-2.37\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions\n      of acids - IGCSE Chemistry Revision Notes.md\n    kind: NOTE\n    quote: When acids react with metals they form a salt and hydrogen gas\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions\n      of acids - IGCSE Chemistry Revision Notes.md\n    kind: NOTE\n    quote: In all acid-base neutralisation reactions, a salt and water are produced\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions"
+            },
+            {
+              "locator": "lines 418-432",
+              "chars": 483,
+              "text": "wording\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-23'\n- source: 4CH1-CON-ACTIVATION-ENERGY\n  relation: PART_OF\n  target: 4CH1-3.14C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation\n      energy- IGCSE Revision Notes.md\n    quote: Activation energy is the minimum amount of energy that reacting particles must have in order"
+            },
+            {
+              "locator": "lines 423-437",
+              "chars": 679,
+              "text": "created_at: '2026-09-23'\n- source: 4CH1-CON-ACTIVATION-ENERGY\n  relation: PART_OF\n  target: 4CH1-3.14C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation\n      energy- IGCSE Revision Notes.md\n    quote: Activation energy is the minimum amount of energy that reacting particles must have in order\n      for a reaction to occur\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/3. Physical Chemistry/b. Rates of Reaction/What is activation\n      energy- IGCSE Revision Notes.md\n    quote: Catalysts provide the reactants with an alternative pathway for the reaction which has a lower"
+            },
+            {
+              "locator": "lines 454-468",
+              "chars": 483,
+              "text": "generated_date: '2026-09-13'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-13'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-ADDITION-POLYMERS\n  relation: PART_OF\n  target: 4CH1-4.44\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md"
+            },
+            {
+              "locator": "lines 461-475",
+              "chars": 591,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-ADDITION-POLYMERS\n  relation: PART_OF\n  target: 4CH1-4.44\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Polymers are large molecules of **high relative molecular mass** and are made by linking together\n      large numbers of smaller molecules called **monomers**\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-11"
+            },
+            {
+              "locator": "lines 485-499",
+              "chars": 572,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44/4.45/4.46 @ Addition Polymers (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ADDITION-POLYMERS\n  relation: PART_OF\n  target: 4CH1-4.45\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: The polymer **polyethene** is formed by the addition polymerisation of **ethene monomers**"
+            },
+            {
+              "locator": "lines 490-504",
+              "chars": 552,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ADDITION-POLYMERS\n  relation: PART_OF\n  target: 4CH1-4.45\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: The polymer **polyethene** is formed by the addition polymerisation of **ethene monomers**\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-11\n    generated_date: '2026-09-25'"
+            },
+            {
+              "locator": "lines 513-527",
+              "chars": 559,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44/4.45/4.46 @ Addition Polymers (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ADDITION-POLYMERS\n  relation: PART_OF\n  target: 4CH1-4.46\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Change the single bond in the repeat unit to a **double bond** in the monomer"
+            },
+            {
+              "locator": "lines 518-532",
+              "chars": 539,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ADDITION-POLYMERS\n  relation: PART_OF\n  target: 4CH1-4.46\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/h. Synthetic Polymers/Addition Polymers  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Change the single bond in the repeat unit to a **double bond** in the monomer\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-11\n    generated_date: '2026-09-25'"
+            },
+            {
+              "locator": "lines 541-555",
+              "chars": 521,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.44/4.45/4.46 @ Addition Polymers (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-AIR-COMPOSITION\n  relation: PART_OF\n  target: 4CH1-2.9\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition\n      of air - IGCSE Chemistry Revision Notes.md\n    quote: About four-fifths (approximately 80%) nitrogen"
+            },
+            {
+              "locator": "lines 546-560",
+              "chars": 584,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-AIR-COMPOSITION\n  relation: PART_OF\n  target: 4CH1-2.9\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition\n      of air - IGCSE Chemistry Revision Notes.md\n    quote: About four-fifths (approximately 80%) nitrogen\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/c. Gases in the Atmosphere/Composition\n      of air - IGCSE Chemistry Revision Notes.md\n    quote: about one fifth (approximately 20%) oxygen\n  - kind: NOTE"
+            },
+            {
+              "locator": "lines 579-593",
+              "chars": 489,
+              "text": "generated_date: '2026-09-22'\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-ALCOHOLS\n  relation: PART_OF\n  target: 4CH1-4.29C\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: All alcohols contain the hydroxyl (**\\-OH**) functional group which is the part of alcohol"
+            },
+            {
+              "locator": "lines 584-598",
+              "chars": 567,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-CON-ALCOHOLS\n  relation: PART_OF\n  target: 4CH1-4.29C\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: All alcohols contain the hydroxyl (**\\-OH**) functional group which is the part of alcohol\n      molecules that is responsible for their **characteristic reactions**\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-10"
+            },
+            {
+              "locator": "lines 604-618",
+              "chars": 497,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.29C/4.30C @ Alcohols (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ALCOHOLS\n  relation: PART_OF\n  target: 4CH1-4.30C\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: The first four alcohols are commonly used as **fuels**"
+            },
+            {
+              "locator": "lines 609-623",
+              "chars": 489,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ALCOHOLS\n  relation: PART_OF\n  target: 4CH1-4.30C\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Alcohols  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: The first four alcohols are commonly used as **fuels**\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-10\n    generated_date: '2026-09-25'"
+            },
+            {
+              "locator": "lines 628-642",
+              "chars": 564,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.29C/4.30C @ Alcohols (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION\n  relation: PART_OF\n  target: 4CH1-4.22\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel IGCSE\n      Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Alkanes undergo a substitution reaction with halogens in the presence of ultraviolet radiation"
+            },
+            {
+              "locator": "lines 633-647",
+              "chars": 740,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ALKANE-HALOGEN-SUBSTITUTION\n  relation: PART_OF\n  target: 4CH1-4.22\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel IGCSE\n      Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Alkanes undergo a substitution reaction with halogens in the presence of ultraviolet radiation\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel IGCSE\n      Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: '**methane + bromine → bromomethane + hydrogen bromide**'\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Halogens & Alkanes  Edexcel IGCSE"
+            },
+            {
+              "locator": "lines 667-681",
+              "chars": 448,
+              "text": "disposition)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ALKANES\n  relation: PART_OF\n  target: 4CH1-4.19\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: of the alkanes is **C**<sub><b>n</b></sub>**H**<sub><b>2n+2</b></sub>"
+            },
+            {
+              "locator": "lines 672-686",
+              "chars": 585,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ALKANES\n  relation: PART_OF\n  target: 4CH1-4.19\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: of the alkanes is **C**<sub><b>n</b></sub>**H**<sub><b>2n+2</b></sub>\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: '**_The first five members of the alkane homologous series_**'\n  provenance:"
+            },
+            {
+              "locator": "lines 697-711",
+              "chars": 423,
+              "text": "domain)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ALKANES\n  relation: PART_OF\n  target: 4CH1-4.20\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: Alkanes are a group of **saturated** hydrocarbons"
+            },
+            {
+              "locator": "lines 702-716",
+              "chars": 593,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ALKANES\n  relation: PART_OF\n  target: 4CH1-4.20\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: Alkanes are a group of **saturated** hydrocarbons\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: The term saturated means that they only have single carbon-carbon bonds, there are no double\n      bonds"
+            },
+            {
+              "locator": "lines 728-742",
+              "chars": 393,
+              "text": "domain)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ALKANES\n  relation: PART_OF\n  target: 4CH1-4.21\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: '| methane | CH4 |'"
+            },
+            {
+              "locator": "lines 733-747",
+              "chars": 586,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ALKANES\n  relation: PART_OF\n  target: 4CH1-4.21\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: '| methane | CH4 |'\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: '| pentane | C5H12 |'\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/c. Alkanes/Alkanes  Edexcel IGCSE Chemistry"
+            },
+            {
+              "locator": "lines 763-777",
+              "chars": 465,
+              "text": "domain)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.23\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: All alkenes contain a **double carbon bond**, which is the **functional group** and is what"
+            },
+            {
+              "locator": "lines 768-782",
+              "chars": 547,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.23\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: All alkenes contain a **double carbon bond**, which is the **functional group** and is what\n      allows alkenes to react in ways that alkanes cannot\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-10"
+            },
+            {
+              "locator": "lines 788-802",
+              "chars": 531,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.23/4.24/4.25/4.26 @ Alkenes (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.24\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: The general formula of an alkene is **C**<sub><b>n</b></sub>**H**<sub><b>2n</b></sub>"
+            },
+            {
+              "locator": "lines 793-807",
+              "chars": 516,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.24\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: The general formula of an alkene is **C**<sub><b>n</b></sub>**H**<sub><b>2n</b></sub>\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-10\n    generated_date: '2026-09-25'"
+            },
+            {
+              "locator": "lines 812-826",
+              "chars": 482,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.23/4.24/4.25/4.26 @ Alkenes (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.25\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: Alkenes are unsaturated hydrocarbons"
+            },
+            {
+              "locator": "lines 817-831",
+              "chars": 467,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.25\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: Alkenes are unsaturated hydrocarbons\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-10\n    generated_date: '2026-09-25'"
+            },
+            {
+              "locator": "lines 836-850",
+              "chars": 514,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.23/4.24/4.25/4.26 @ Alkenes (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.26\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: 'The names and structure of the first four alkenes are shown below:'"
+            },
+            {
+              "locator": "lines 841-855",
+              "chars": 499,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ALKENES\n  relation: PART_OF\n  target: 4CH1-4.26\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/d. Alkenes/Alkenes  Edexcel IGCSE Chemistry\n      Revision Notes 2017.md\n    kind: NOTE\n    quote: 'The names and structure of the first four alkenes are shown below:'\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-s16-batch-10\n    generated_date: '2026-09-25'"
+            },
+            {
+              "locator": "lines 860-874",
+              "chars": 508,
+              "text": "upstream: T-C10 HUMAN_VALIDATED 4CH1-4.23/4.24/4.25/4.26 @ Alkenes (2026-09-11)\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-25'\n- source: 4CH1-CON-ALLOY-HARDNESS\n  relation: PART_OF\n  target: 4CH1-2.27C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys\n      - IGCSE Chemistry Revision Notes.md\n    quote: 'Alloys are harder than pure metals because:'"
+            },
+            {
+              "locator": "lines 865-879",
+              "chars": 565,
+              "text": "created_at: '2026-09-25'\n- source: 4CH1-CON-ALLOY-HARDNESS\n  relation: PART_OF\n  target: 4CH1-2.27C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys\n      - IGCSE Chemistry Revision Notes.md\n    quote: 'Alloys are harder than pure metals because:'\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys\n      - IGCSE Chemistry Revision Notes.md\n    quote: Alloys contain atoms of different sizes\n  - kind: NOTE"
+            },
+            {
+              "locator": "lines 903-917",
+              "chars": 488,
+              "text": "generated_date: '2026-09-22'\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-ALLOYS\n  relation: PART_OF\n  target: 4CH1-2.26C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys\n      - IGCSE Chemistry Revision Notes.md\n    quote: An alloy is a mixture of two or more metals or metal with a non-metal such as carbon"
+            },
+            {
+              "locator": "lines 908-922",
+              "chars": 591,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-CON-ALLOYS\n  relation: PART_OF\n  target: 4CH1-2.26C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys\n      - IGCSE Chemistry Revision Notes.md\n    quote: An alloy is a mixture of two or more metals or metal with a non-metal such as carbon\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/e. Extraction & Uses of Metals/Alloys\n      - IGCSE Chemistry Revision Notes.md\n    quote: Steel is made from iron and carbon\n  - kind: NOTE"
+            },
+            {
+              "locator": "lines 940-954",
+              "chars": 470,
+              "text": "generated_date: '2026-09-22'\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-22'\n- source: 4CH1-CON-ANION-TESTS\n  relation: PART_OF\n  target: 4CH1-2.48\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Negatively charged non-metal ions are known as anions"
+            },
+            {
+              "locator": "lines 945-959",
+              "chars": 656,
+              "text": "created_at: '2026-09-22'\n- source: 4CH1-CON-ANION-TESTS\n  relation: PART_OF\n  target: 4CH1-2.48\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Negatively charged non-metal ions are known as anions\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel\n      IGCSE Chemistry Revision Notes 2017.md\n    kind: NOTE\n    quote: Add dilute acid\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/h. Chemical Tests/Tests for Anions  Edexcel"
+            },
+            {
+              "locator": "lines 1015-1029",
+              "chars": 430,
+              "text": "wording\n  confidence: high\n  validation_status: SUGGESTED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-24'\n- source: 4CH1-CON-ANODE-CATHODE\n  relation: PART_OF\n  target: 4CH1-1.57C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity\n      - IGCSE Chemistry Revision Notes.md\n    quote: Anions are negatively charged ions"
+            },
+            {
+              "locator": "lines 1020-1034",
+              "chars": 561,
+              "text": "created_at: '2026-09-24'\n- source: 4CH1-CON-ANODE-CATHODE\n  relation: PART_OF\n  target: 4CH1-1.57C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity\n      - IGCSE Chemistry Revision Notes.md\n    quote: Anions are negatively charged ions\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electronic conductivity\n      - IGCSE Chemistry Revision Notes.md\n    quote: Cations are positively charged ions\n  - kind: NOTE"
+            },
+            {
+              "locator": "lines 1053-1067",
+              "chars": 448,
+              "text": "generated_date: '2026-09-12'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-12'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-AQUEOUS-DISCHARGE\n  relation: PART_OF\n  target: 4CH1-1.58C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram"
+            },
+            {
+              "locator": "lines 1060-1074",
+              "chars": 683,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-AQUEOUS-DISCHARGE\n  relation: PART_OF\n  target: 4CH1-1.58C\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram\n      - IGCSE Chemistry Revision Notes.md\n    quote: Which ions get discharged and at which electrode depends on the relative reactivity of the\n      elements involved\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/i. Electrolysis/Electrolysis diagram\n      - IGCSE Chemistry Revision Notes.md\n    quote: If halide ions (Cl-, Br-, I-) and OH- are present then the halide ion is discharged at the"
+            },
+            {
+              "locator": "lines 1095-1109",
+              "chars": 451,
+              "text": "generated_date: '2026-09-12'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-12'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-AR\n  relation: PART_OF\n  target: 4CH1-1.26\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate"
+            },
+            {
+              "locator": "lines 1102-1116",
+              "chars": 570,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-AR\n  relation: PART_OF\n  target: 4CH1-1.26\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate\n      Relative Mass  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: The relative atomic mass of every element is given on the Periodic Table. It is the larger\n      of the two numbers.\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1"
+            },
+            {
+              "locator": "lines 1122-1136",
+              "chars": 385,
+              "text": "generated_date: '2026-09-11'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-11'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-AR\n  relation: PART_OF\n  target: 4CH1-1.28\n  role: CORE\n  evidence:\n  - kind: SPEC\n    file: graph/igcse-chemistry/specification_points.yaml"
+            },
+            {
+              "locator": "lines 1129-1143",
+              "chars": 620,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-AR\n  relation: PART_OF\n  target: 4CH1-1.28\n  role: CORE\n  evidence:\n  - kind: SPEC\n    file: graph/igcse-chemistry/specification_points.yaml\n    quote: calculations involving amount of substance, relative atomic mass\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Reacting\n      mass calculations - IGCSE Chemistry Revision Notes.md\n    quote: Once the moles have been determined they can then be converted into grams using the relative\n      atomic or relative formula masses\n  provenance:"
+            },
+            {
+              "locator": "lines 1152-1166",
+              "chars": 435,
+              "text": "generated_date: '2026-09-11'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-11'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-ATOM\n  relation: PART_OF\n  target: 4CH1-1.14\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions"
+            },
+            {
+              "locator": "lines 1159-1173",
+              "chars": 731,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-ATOM\n  relation: PART_OF\n  target: 4CH1-1.14\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions\n      & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: The smallest particle of an element that contains electrons surrounding a nucleus that contains\n      protons and neutrons\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions\n      & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: All substances are made of tiny particles of matter called atoms which are the building blocks"
+            },
+            {
+              "locator": "lines 1187-1201",
+              "chars": 444,
+              "text": "generated_date: '2026-09-12'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-12'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-ATOMIC-NUMBER\n  relation: PART_OF\n  target: 4CH1-1.16\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions"
+            },
+            {
+              "locator": "lines 1194-1208",
+              "chars": 648,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-ATOMIC-NUMBER\n  relation: PART_OF\n  target: 4CH1-1.16\n  role: CORE\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions\n      & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: The number of protons in the nucleus of an atom\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/c. Atomic Structure/Atoms Definitions\n      & Structure  Edexcel IGCSE Chemistry Revision Notes 2017.md\n    quote: The atomic number is equal to the number of protons in an atom\n  - kind: SPEC"
+            },
+            {
+              "locator": "lines 1220-1234",
+              "chars": 471,
+              "text": "generated_date: '2026-09-12'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-12'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-AVOGADRO-CONST\n  relation: PART_OF\n  target: 4CH1-1.27\n  role: ENRICHMENT\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating"
+            },
+            {
+              "locator": "lines 1227-1241",
+              "chars": 572,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-AVOGADRO-CONST\n  relation: PART_OF\n  target: 4CH1-1.27\n  role: ENRICHMENT\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculating\n      moles and mass - IGCSE Chemistry Revision Notes.md\n    quote: The number of atoms, molecules or ions in a mole (1 mol) of a given substance is the Avogadro\n      constant.\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1"
+            },
+            {
+              "locator": "lines 1247-1261",
+              "chars": 468,
+              "text": "generated_date: '2026-09-11'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-11'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-AVOGADRO-LAW\n  relation: PART_OF\n  target: 4CH1-1.35C\n  role: ENRICHMENT\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate"
+            },
+            {
+              "locator": "lines 1254-1268",
+              "chars": 596,
+              "text": "validated_date: '2026-09-18'\n- source: 4CH1-CON-AVOGADRO-LAW\n  relation: PART_OF\n  target: 4CH1-1.35C\n  role: ENRICHMENT\n  evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Calculate\n      Gas Volumes - IGCSE Chemistry Revision Notes.md\n    quote: Avogadro’s Law states that at the same conditions of temperature and pressure, equal amounts\n      of gases occupy the same volume of space\n  provenance:\n    tier: AI_SUGGESTED\n    model_version: GLM (Super Z agent, z.ai)\n    extraction_pass: c11-pilot-pass-1"
+            },
+            {
+              "locator": "lines 1273-1287",
+              "chars": 483,
+              "text": "generated_date: '2026-09-11'\n  confidence: high\n  validation_status: HUMAN_VALIDATED\n  ambiguity_note: null\n  version: 1\n  created_at: '2026-09-11'\n  validated_by: operator-directive-session-106\n  validated_date: '2026-09-18'\n- source: 4CH1-CON-BASES-ALKALIS\n  relation: PART_OF\n  target: 4CH1-2.38\n  role: CORE\n  evidence:\n  - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Bases\n      and alkalis - IGCSE Chemistry Revision Notes.md"
+            }
+          ]
+        },
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/concepts.yaml",
+          "sha256": "24fa91ac7149682b1083ff47112362a11180bcfb7899c1343c6f536682447e3f",
+          "excerpts": [
+            {
+              "locator": "lines 251-265",
+              "chars": 656,
+              "text": "generated: '2026-09-25'\n  provenance_default: AI_SUGGESTED\n  validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;\n    batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED\n    is operator-only'\n  edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11\n    triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)\n  counts:\n    nodes: 193\n    concepts: 167\n    misconceptions: 26\n    part_of_edges: 211\n    semantic_edges: 277\nnodes:\n- code: 4CH1-CON-ACID-ALKALI-IONS"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-TL-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE (tier-1) / SUPPLEMENTARY (tier-2)",
+      "title": "Official Pearson teaching-and-learning corpus for International GCSE Chemistry (2017)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/gstt-int-gcse-chemistry.pdf",
+          "sha256": "cfc42ce0bc763515241c63cba8087be725126152f95047fbad90a83227b50419",
+          "excerpts": [
+            {
+              "locator": "page 3",
+              "chars": 1025,
+              "text": "Pearson Edexcel International GCSE Chemistry (Modular) – Getting Started Guide – Issue 2 – October 2024 \n© Pearson Education Limited 2024 \nChemistry (2017) (4CH1) \nGetting Started Guide  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThrough initiatives such as onscreen marking and administration, Pearson is leading the way in using technology to \nmodernise educational assessment, and to support teachers and learners. \nThis guide is Issue 2. We will inform centres of any changes to this issue. The latest issue can be found on the Pearson \nEdexcel website: \nhttps://qualifications.pearson.com/ \n \nReferences to third-party material made in this guide are made in good faith. We do not endorse, approve or accept \nresponsibility for the content of materials, which may be subject to change, or any opinions expressed therein. (Material \nmay include textbooks, journals, magazines and other publications and websites.) \n \nAll the material in this publication is copyright. \n© Pearson Education Limited 2024"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-SAMS-4CH1",
+      "role": "supplementary",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "title": "Official 4CH1 sample assessment materials + series-structure change notice",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+          "sha256": "beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923",
+          "excerpts": [
+            {
+              "locator": "page 1",
+              "chars": 188,
+              "text": "INTERNATIONAL \nGCSE\nChemistry (9-1)\nSAMPLE ASSESSMENT MATERIALS\nPearson Edexcel International GCSE in Chemistry (4CH1)\nFor first teaching September 2017\nFirst examination June 2019\nIssue 2"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-BOOK-4CH1-SB1",
+      "role": "supplementary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Edexcel International GCSE (9-1) Chemistry Student Book (the books plane of record)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+          "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "excerpts": []
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    }
+  ],
+  "caps": {
+    "max_excerpts_per_source": 60,
+    "max_chars_per_excerpt": 1600,
+    "max_total_chars_per_source": 40000
+  },
+  "licensing_law": "bounded excerpts + locator identity preserved; no bulk export"
+}

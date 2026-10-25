@@ -1,0 +1,255 @@
+{
+  "schema": "sib-evidence-pack/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-002",
+  "artifact_id": "CUR-03",
+  "family": "CUR",
+  "library": "CHEMISTRY_4CH1",
+  "policy_version": "r0",
+  "sources": [
+    {
+      "source_id": "SRC-SPEC-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Pearson Edexcel International GCSE Chemistry (2017) Specification, Issue 3",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+          "sha256": "36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362",
+          "excerpts": [
+            {
+              "locator": "page 15",
+              "chars": 258,
+              "text": "Pearson Edexcel International GCSE in Chemistry \nSpecification – Issue 3 – September 2024 © Pearson Education Limited 2024 \n9\n2 Chemistry content \n1 \nPrinciples of chemistry \n11 \n2 \nInorganic chemistry \n16 \n3 \nPhysical chemistry \n21 \n4 \nOrganic chemistry \n23"
+            },
+            {
+              "locator": "page 17",
+              "chars": 1298,
+              "text": "Pearson Edexcel International GCSE in Chemistry \nSpecification – Issue 3 – September 2024 © Pearson Education Limited 2024 \n11\n1 \nPrinciples of chemistry \nThe following sub-topics are covered in this section. \n(a) \nStates of matter \n(b) \nElements, compounds and mixtures \n(c) \nAtomic structure \n(d) \nThe Periodic Table \n(e) \nChemical formulae, equations and calculations \n(f) \nIonic bonding \n(g) \nCovalent bonding \n(h) \nMetallic bonding \n(i) \nElectrolysis \n \n(a) \nStates of matter \nStudents should: \n1.1 \nunderstand the three states of matter in terms of the arrangement, movement and \nenergy of the particles \n1.2 \nunderstand the interconversions between the three states of matter in terms of: \n• \nthe names of the interconversions \n• \nhow they are achieved \n• \nthe changes in arrangement, movement and energy of the particles. \n1.3 \nunderstand how the results of experiments involving the dilution of coloured solutions \nand diffusion of gases can be explained \n1.4 \nknow what is meant by the terms: \n• \nsolvent \n• \nsolute \n• \nsolution \n• \nsaturated solution. \n1.5C know what is meant by the term solubility in the units g per 100 g of solvent \n1.6C understand how to plot and interpret solubility curves \n1.7C practical: investigate the solubility of a solid in water at a specific \ntemperature"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-GRAPH-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Validated 4CH1 curriculum knowledge graph (specification points, concepts, practicals, command words)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/concepts.yaml",
+          "sha256": "24fa91ac7149682b1083ff47112362a11180bcfb7899c1343c6f536682447e3f",
+          "excerpts": [
+            {
+              "locator": "lines 251-265",
+              "chars": 656,
+              "text": "generated: '2026-09-25'\n  provenance_default: AI_SUGGESTED\n  validation_gate: 'operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md; batch 1: graph/reports/C11_BATCH1_REVIEW_SHEET.md;\n    batch 2: graph/reports/C11_BATCH2_REVIEW_SHEET.md) — no promotion from generation; HUMAN_VALIDATED\n    is operator-only'\n  edge_vocabulary: V2 knowledge_edges enum + COMMONLY_CONFUSED_WITH + WRONG_ANSWER_PATTERN (frozen §8A.11\n    triple distinction; V2 projection documented in C11_ARCHITECTURE.md §13)\n  counts:\n    nodes: 193\n    concepts: 167\n    misconceptions: 26\n    part_of_edges: 211\n    semantic_edges: 277\nnodes:\n- code: 4CH1-CON-ACID-ALKALI-IONS"
+            },
+            {
+              "locator": "lines 263-277",
+              "chars": 518,
+              "text": "semantic_edges: 277\nnodes:\n- code: 4CH1-CON-ACID-ALKALI-IONS\n  family: CONCEPT\n  title: Acids as hydrogen-ion sources and alkalis as hydroxide-ion sources in aqueous solution\n  aliases:\n  - hydrogen ions in solution\n  - hydroxide ions in solution\n  - what makes a solution acidic or alkaline\n  spec_points:\n  - code: 4CH1-2.31\n    role: CORE\n    evidence:\n    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/f. Acids, Alkalis & Titrations/Acids,\n        Alkalis & Neutralisation - IGCSE Revision Notes.md"
+            },
+            {
+              "locator": "lines 360-374",
+              "chars": 498,
+              "text": "created_at: '2026-09-24'\n  damage_flags: []\n- code: 4CH1-CON-ACID-REACTIONS\n  family: CONCEPT\n  title: Reactions of acids with metals, bases and metal carbonates to form salts\n  aliases:\n  - acid and metal reaction\n  - acid and base reaction\n  - acid and metal carbonate reaction\n  - chloride sulfate nitrate salt families\n  spec_points:\n  - code: 4CH1-2.37\n    role: CORE\n    evidence:\n    - file: Chemistry IGCSE Revision Notes/2. Inorganic Chemistry/g. Acids, Bases & Salt Preparations/Reactions"
+            },
+            {
+              "locator": "lines 860-874",
+              "chars": 386,
+              "text": "created_at: '2026-09-22'\n  damage_flags: []\n- code: 4CH1-CON-ANION-TESTS\n  family: CONCEPT\n  title: Tests for aqueous anions (halides, sulfate, carbonate)\n  aliases:\n  - acidified silver nitrate halide test\n  - barium chloride sulfate test\n  - carbonate limewater test\n  - silver halide precipitate colours\n  - anion tests\n  spec_points:\n  - code: 4CH1-2.48\n    role: CORE\n    evidence:"
+            },
+            {
+              "locator": "lines 1553-1567",
+              "chars": 415,
+              "text": "created_at: '2026-09-13'\n  damage_flags: []\n- code: 4CH1-CON-CATION-TESTS\n  family: CONCEPT\n  title: Tests for aqueous cations (sodium hydroxide precipitate colours; ammonium ion via ammonia gas)\n  aliases:\n  - sodium hydroxide precipitate test\n  - Fe2+ pale green precipitate\n  - Fe3+ brown precipitate\n  - Cu2+ blue precipitate\n  - ammonium ion test\n  - NH4+ test\n  spec_points:\n  - code: 4CH1-2.47\n    role: CORE"
+            },
+            {
+              "locator": "lines 1869-1883",
+              "chars": 356,
+              "text": "created_at: '2026-09-13'\n  damage_flags: []\n- code: 4CH1-CON-COMBUSTION-O2\n  family: CONCEPT\n  title: Combustion of elements in oxygen (magnesium, hydrogen, sulfur)\n  aliases:\n  - combustion\n  - burning in oxygen\n  - combustion of magnesium\n  - combustion of hydrogen\n  - combustion of sulfur\n  spec_points:\n  - code: 4CH1-2.11\n    role: CORE\n    evidence:"
+            },
+            {
+              "locator": "lines 2102-2116",
+              "chars": 364,
+              "text": "created_at: '2026-09-11'\n  damage_flags: []\n- code: 4CH1-CON-COVALENT-BOND\n  family: CONCEPT\n  title: Covalent bond (shared pair of electrons; electrostatic attraction between the shared pair and\n    the nuclei)\n  aliases:\n  - covalent bond\n  - covalent bonding\n  - bonding electrons\n  spec_points:\n  - code: 4CH1-1.44\n    role: CORE\n    evidence:\n    - kind: NOTE"
+            },
+            {
+              "locator": "lines 2272-2286",
+              "chars": 407,
+              "text": "created_at: '2026-09-24'\n  damage_flags: []\n- code: 4CH1-CON-CRUDE-OIL\n  family: CONCEPT\n  title: Crude oil as a mixture of hydrocarbons\n  aliases:\n  - crude oil\n  - petroleum\n  - unrefined crude oil\n  spec_points:\n  - code: 4CH1-4.7\n    role: CORE\n    evidence:\n    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/b. Crude Oil/Fractional distillation -\n        IGCSE Chemistry Revision Notes.md"
+            },
+            {
+              "locator": "lines 2733-2747",
+              "chars": 392,
+              "text": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-CON-ELECTROLYSIS\n  family: CONCEPT\n  title: 'Electrolysis (decomposition by direct current: molten binary compounds and their element products,\n    using inert electrodes)'\n  aliases:\n  - electrolysis\n  - electrolyte\n  - electrolysis of molten compounds\n  spec_points:\n  - code: 4CH1-1.58C\n    role: CORE\n    evidence:\n    - kind: NOTE"
+            },
+            {
+              "locator": "lines 2779-2793",
+              "chars": 392,
+              "text": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-CON-ELECTRONIC-CONFIGURATION\n  family: CONCEPT\n  title: Electronic configuration of the first 20 elements (shells 2, 8, 8; configuration and Periodic\n    Table position)\n  aliases:\n  - electronic configuration\n  - electronic structure\n  - electron shells\n  spec_points:\n  - code: 4CH1-1.19\n    role: CORE\n    evidence:\n    - kind: NOTE"
+            },
+            {
+              "locator": "lines 3246-3260",
+              "chars": 463,
+              "text": "created_at: '2026-09-25'\n  damage_flags: []\n- code: 4CH1-CON-ETHANOL-OXIDATION\n  family: CONCEPT\n  title: Oxidation of ethanol (combustion, aerobic oxidation, treatment with an oxidising agent)\n  aliases:\n  - oxidation of ethanol\n  - aerobic oxidation\n  - microbial oxidation\n  - ethanol + [O]\n  spec_points:\n  - code: 4CH1-4.31C\n    role: CORE\n    evidence:\n    - file: Chemistry IGCSE Revision Notes/4. Organic Chemistry/e. Alcohols/Oxidation of ethanol - IGCSE"
+            },
+            {
+              "locator": "lines 3312-3326",
+              "chars": 346,
+              "text": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-CON-EXO-ENDO\n  family: CONCEPT\n  title: Exothermic and endothermic reactions (heat energy given out or taken in)\n  aliases:\n  - exothermic\n  - endothermic\n  - exothermic reaction\n  - endothermic reaction\n  - heat energy change\n  spec_points:\n  - code: 4CH1-3.1\n    role: CORE\n    evidence:"
+            },
+            {
+              "locator": "lines 3597-3611",
+              "chars": 531,
+              "text": "created_at: '2026-09-24'\n  damage_flags: []\n- code: 4CH1-CON-FRACTIONAL-DISTILLATION\n  family: CONCEPT\n  title: Fractional distillation\n  aliases:\n  - fractional distillation\n  spec_points:\n  - code: 4CH1-1.10\n    role: CORE\n    evidence:\n    - kind: NOTE\n      file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Separation\n        techniques - IGCSE Chemistry Revision Notes.md\n      quote: Fractional distillation is used to separate two or more liquids that are miscible with one"
+            },
+            {
+              "locator": "lines 4478-4492",
+              "chars": 432,
+              "text": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-CON-ION-CHARGE-RULES\n  family: CONCEPT\n  title: Common ion charges (group-based and named-ion table, with the deduction rule)\n  aliases:\n  - common ions\n  - ion charges\n  - compound ions\n  spec_points:\n  - code: 4CH1-1.38\n    role: CORE\n    evidence:\n    - kind: NOTE\n      file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/f. Ionic Bonding/Common Ions  Edexcel"
+            },
+            {
+              "locator": "lines 5145-5159",
+              "chars": 503,
+              "text": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-CON-MIXTURE\n  family: CONCEPT\n  title: Mixture\n  aliases:\n  - mixtures\n  spec_points:\n  - code: 4CH1-1.8\n    role: CORE\n    evidence:\n    - kind: NOTE\n      file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Element,\n        Compound or Mixture  Edexcel IGCSE Chemistry Revision Notes 2017.md\n      quote: A combination of two or more substances (elements and/or compounds) that are not chemically"
+            },
+            {
+              "locator": "lines 5761-5775",
+              "chars": 382,
+              "text": "created_at: '2026-09-24'\n  damage_flags: []\n- code: 4CH1-CON-OX-RED-AGENTS\n  family: CONCEPT\n  title: Oxidation, reduction, oxidising and reducing agents (oxygen and electron frameworks)\n  aliases:\n  - oxidation and reduction terms\n  - oxidising agent\n  - reducing agent\n  - redox reactions\n  - oxygen gain oxygen loss\n  spec_points:\n  - code: 4CH1-2.20\n    role: CORE\n    evidence:"
+            },
+            {
+              "locator": "lines 7542-7556",
+              "chars": 487,
+              "text": "created_at: '2026-09-11'\n  damage_flags: []\n- code: 4CH1-MIS-BOND-ENERGY-COUNT\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Counting the wrong number or type of bonds in bond-energy calculations (ignoring balancing numbers)\n  aliases:\n  - wrong number of bonds\n  - ignoring balancing numbers\n  - bond-counting mistakes\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt\n    quote: Deduct 1 mark for each mistake\n  - kind: NOTE"
+            },
+            {
+              "locator": "lines 7591-7605",
+              "chars": 561,
+              "text": "created_at: '2026-09-13'\n  damage_flags: []\n- code: 4CH1-MIS-CATALYST-PARTICLE-ENERGY\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Explaining a catalyst's effect as particles gaining energy or moving more quickly\n  aliases:\n  - catalyst gives particles more energy\n  - catalyst speeds up particles\n  - particles move faster because of the catalyst\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/RATES_MS_P2.txt\n    quote: MAX 1 if any reference to particles gaining energy or moving more quickly\n  - kind: MARK_SCHEME"
+            },
+            {
+              "locator": "lines 7635-7649",
+              "chars": 560,
+              "text": "created_at: '2026-09-13'\n  damage_flags: []\n- code: 4CH1-MIS-CONC-UNIT\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Failing to convert cm3 to dm3 in concentration calculations\n  aliases:\n  - failing to divide by 1000\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/CFEC2_MS_P1.txt\n    quote: an answer of 10(.0) for 1 mark (i.e. failing to divide by 1000)\n  remediation_evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/e. Chemical Formulae, Equations, Calculations/Solution"
+            },
+            {
+              "locator": "lines 7673-7687",
+              "chars": 532,
+              "text": "created_at: '2026-09-11'\n  damage_flags: []\n- code: 4CH1-MIS-COVALENT-BONDS-BROKEN\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Saying covalent bonds are broken when simple molecular substances melt or boil (instead of weak\n    intermolecular forces)\n  aliases:\n  - covalent bonds broken on melting\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/COVALENT_MS_P2.txt\n    quote: Any reference to bonds between molecules\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/COVALENT_MS_P2.txt"
+            },
+            {
+              "locator": "lines 7718-7732",
+              "chars": 547,
+              "text": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-MIS-CRYSTALLISATION-DRYNESS\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Obtaining crystals by evaporating to dryness\n  aliases:\n  - evaporating to dryness\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ECM2_MS_P1.txt\n    quote: If evaporated to dryness then award no marks for whole question\n  remediation_evidence:\n  - kind: NOTE\n    file: Chemistry IGCSE Revision Notes/1. Principles of Chemistry/b. Elements, Compounds and Mixtures/Separation"
+            },
+            {
+              "locator": "lines 7755-7769",
+              "chars": 429,
+              "text": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-MIS-CUO-COLOUR\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Stating a colour other than black for the copper(II) oxide decomposition product\n  aliases:\n  - copper oxide colour error\n  - CuO colour\n  - brown copper oxide answer\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/GASES_MS_P2.txt\n    quote: black\n  - kind: MARK_SCHEME"
+            },
+            {
+              "locator": "lines 7795-7809",
+              "chars": 589,
+              "text": "created_at: '2026-09-22'\n  damage_flags: []\n- code: 4CH1-MIS-ENDPOINT-PH-ABOVE-7\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Identifying complete neutralisation as the pH changing to any value above 7 (instead of the temperature\n    maximum / pH reaching 7)\n  aliases:\n  - endpoint above pH 7 answer\n  - neutralisation completion error\n  evidence:\n  - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt\n    kind: MARK_SCHEME\n    quote: temperature goes down/stops rising/stays constant\n  - file: scripts/c11_evidence/ACIDS_ALKALIS_TITRATIONS_MS_P2.txt"
+            },
+            {
+              "locator": "lines 7843-7857",
+              "chars": 503,
+              "text": "created_at: '2026-09-23'\n  damage_flags: []\n- code: 4CH1-MIS-ENTHALPY-UNIT-J\n  family: MISCONCEPTION\n  pattern_class: WRONG_ANSWER_PATTERN\n  title: Quoting the molar enthalpy change as the unconverted joule value (e.g. 50 000) instead of kilojoules\n  aliases:\n  - molar enthalpy in J instead of kJ\n  - forgetting the J to kJ conversion\n  - 50 000 instead of 50\n  evidence:\n  - kind: MARK_SCHEME\n    file: scripts/c11_evidence/ENERGETICS_MS_P2.txt\n    quote: Award 1 mark for 50 000\n  - kind: MARK_SCHEME"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-TL-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE (tier-1) / SUPPLEMENTARY (tier-2)",
+      "title": "Official Pearson teaching-and-learning corpus for International GCSE Chemistry (2017)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/gstt-int-gcse-chemistry.pdf",
+          "sha256": "cfc42ce0bc763515241c63cba8087be725126152f95047fbad90a83227b50419",
+          "excerpts": [
+            {
+              "locator": "page 3",
+              "chars": 1025,
+              "text": "Pearson Edexcel International GCSE Chemistry (Modular) – Getting Started Guide – Issue 2 – October 2024 \n© Pearson Education Limited 2024 \nChemistry (2017) (4CH1) \nGetting Started Guide  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThrough initiatives such as onscreen marking and administration, Pearson is leading the way in using technology to \nmodernise educational assessment, and to support teachers and learners. \nThis guide is Issue 2. We will inform centres of any changes to this issue. The latest issue can be found on the Pearson \nEdexcel website: \nhttps://qualifications.pearson.com/ \n \nReferences to third-party material made in this guide are made in good faith. We do not endorse, approve or accept \nresponsibility for the content of materials, which may be subject to change, or any opinions expressed therein. (Material \nmay include textbooks, journals, magazines and other publications and websites.) \n \nAll the material in this publication is copyright. \n© Pearson Education Limited 2024"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-SAMS-4CH1",
+      "role": "supplementary",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "title": "Official 4CH1 sample assessment materials + series-structure change notice",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+          "sha256": "beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923",
+          "excerpts": [
+            {
+              "locator": "page 1",
+              "chars": 188,
+              "text": "INTERNATIONAL \nGCSE\nChemistry (9-1)\nSAMPLE ASSESSMENT MATERIALS\nPearson Edexcel International GCSE in Chemistry (4CH1)\nFor first teaching September 2017\nFirst examination June 2019\nIssue 2"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-BOOK-4CH1-SB1",
+      "role": "supplementary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Edexcel International GCSE (9-1) Chemistry Student Book (the books plane of record)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+          "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "excerpts": []
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    }
+  ],
+  "caps": {
+    "max_excerpts_per_source": 60,
+    "max_chars_per_excerpt": 1600,
+    "max_total_chars_per_source": 40000
+  },
+  "licensing_law": "bounded excerpts + locator identity preserved; no bulk export"
+}

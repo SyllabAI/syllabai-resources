@@ -1,0 +1,352 @@
+{
+  "schema": "sib-evidence-pack/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-002",
+  "artifact_id": "CUR-05",
+  "family": "CUR",
+  "library": "CHEMISTRY_4CH1",
+  "policy_version": "r0",
+  "sources": [
+    {
+      "source_id": "SRC-SPEC-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Pearson Edexcel International GCSE Chemistry (2017) Specification, Issue 3",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+          "sha256": "36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362",
+          "excerpts": [
+            {
+              "locator": "page 15",
+              "chars": 258,
+              "text": "Pearson Edexcel International GCSE in Chemistry \nSpecification – Issue 3 – September 2024 © Pearson Education Limited 2024 \n9\n2 Chemistry content \n1 \nPrinciples of chemistry \n11 \n2 \nInorganic chemistry \n16 \n3 \nPhysical chemistry \n21 \n4 \nOrganic chemistry \n23"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-GRAPH-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Validated 4CH1 curriculum knowledge graph (specification points, concepts, practicals, command words)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/point_edges.yaml",
+          "sha256": "dfb1fcb01a3c1732d66da8fa19ad3f06d7662ff1af7ad9f5c076d18191250d13",
+          "excerpts": [
+            {
+              "locator": "lines 32-46",
+              "chars": 617,
+              "text": "RELATED_TO: 5\nedges:\n- from: p:1.19\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.18\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 56-70",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.22\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.19\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 80-94",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.28\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.25\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 104-118",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.28\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.27\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 128-142",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.29\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.28\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 152-166",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.39\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.37\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 176-190",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.42\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.41\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 200-214",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.43\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.41\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 224-238",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.46\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.44\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 248-262",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.47\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.45\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 272-286",
+              "chars": 713,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.58C\n  relation: REQUIRES_PREREQUISITE\n  to: p:1.57C\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 296-310",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:2.17\n  relation: REQUIRES_PREREQUISITE\n  to: p:2.15\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 320-334",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:2.20\n  relation: REQUIRES_PREREQUISITE\n  to: p:2.15\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 344-358",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:2.31\n  relation: REQUIRES_PREREQUISITE\n  to: p:2.29\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 368-382",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:2.36\n  relation: REQUIRES_PREREQUISITE\n  to: p:2.35\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 392-406",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:2.32\n  relation: REQUIRES_PREREQUISITE\n  to: p:2.31\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 416-430",
+              "chars": 710,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:3.5C\n  relation: REQUIRES_PREREQUISITE\n  to: p:3.1\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 440-454",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:3.7C\n  relation: REQUIRES_PREREQUISITE\n  to: p:3.6C\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 464-478",
+              "chars": 710,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:3.11\n  relation: REQUIRES_PREREQUISITE\n  to: p:3.9\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 488-502",
+              "chars": 712,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:3.14C\n  relation: REQUIRES_PREREQUISITE\n  to: p:3.13\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 512-526",
+              "chars": 713,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:3.20C\n  relation: REQUIRES_PREREQUISITE\n  to: p:3.19C\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 536-550",
+              "chars": 709,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.8\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.7\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 560-574",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.20\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.19\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 584-598",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.25\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.23\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 608-622",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.27\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.23\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 632-646",
+              "chars": 713,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.31C\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.29C\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 656-670",
+              "chars": 713,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.32C\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.29C\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 680-694",
+              "chars": 713,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.36C\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.34C\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 704-718",
+              "chars": 713,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.40C\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.39C\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 728-742",
+              "chars": 711,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.46\n  relation: REQUIRES_PREREQUISITE\n  to: p:4.44\n  kg_direction: to_is_prerequisite\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 752-766",
+              "chars": 692,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:1.59C\n  relation: RELATED_TO\n  to: p:1.60C\n  kg_direction: verbatim\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 776-790",
+              "chars": 690,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:2.34\n  relation: RELATED_TO\n  to: p:2.37\n  kg_direction: verbatim\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 800-814",
+              "chars": 692,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:3.22C\n  relation: RELATED_TO\n  to: p:3.21C\n  kg_direction: verbatim\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 824-838",
+              "chars": 688,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.8\n  relation: RELATED_TO\n  to: p:4.9\n  kg_direction: verbatim\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            },
+            {
+              "locator": "lines 848-862",
+              "chars": 690,
+              "text": "this store is deliberately the only graph/ store without a corpus upstream (asymmetry accepted)\n  damage_flags: []\n- from: p:4.27\n  relation: RELATED_TO\n  to: p:4.28\n  kg_direction: verbatim\n  validation_status: OPERATOR_RATIFIED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: OPERATOR_RATIFIED\n    lineage: v75 OpenHuman build syncCanonicalKG() hand-curated point edges (build sha256 65cc973e7ea8…);\n      extracted as the golden sample via syllabai-demo scripts/extract_canonical_kg.py (2026-09-21)\n    reconciliation: T-KG-B 2026-10-01, graph/reports/KG_TASKB_GOLDEN_GATE.json\n    extraction_method: golden-directed triple; pre rows flipped to the V2-native REQUIRES_PREREQUISITE"
+            }
+          ]
+        },
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/specification_points.yaml",
+          "sha256": "956d276f6e4354fa7f5319ca320744f86fbb6ce086efb4a798b3a83f15aaaeb3",
+          "excerpts": [
+            {
+              "locator": "lines 436-450",
+              "chars": 320,
+              "text": "date: '2026-09-19'\n  damage_flags: []\n- code: 4CH1-1.18\n  official_code: '1.18'\n  official_wording: 'understand how elements are arranged in the Periodic Table:'\n  section: 4CH1-S1\n  subsection: 4CH1-S1-d\n  ordering: 1\n  global_order: 18\n  c_point: false\n  practical: false\n  applicability:\n    papers:\n    - 1C\n    - 2C"
+            },
+            {
+              "locator": "lines 481-495",
+              "chars": 393,
+              "text": "- in order of atomic number\n  - in groups and periods.\n- code: 4CH1-1.19\n  official_code: '1.19'\n  official_wording: understand how to deduce the electronic configurations of the first 20 elements from their positions\n    in the Periodic Table\n  section: 4CH1-S1\n  subsection: 4CH1-S1-d\n  ordering: 2\n  global_order: 19\n  c_point: false\n  practical: false\n  applicability:\n    papers:\n    - 1C"
+            },
+            {
+              "locator": "lines 654-668",
+              "chars": 370,
+              "text": "lineage definitive\n  damage_flags: []\n- code: 4CH1-1.22\n  official_code: '1.22'\n  official_wording: understand how the electronic configuration of a main group element is related to its position\n    in the Periodic Table\n  section: 4CH1-S1\n  subsection: 4CH1-S1-d\n  ordering: 5\n  global_order: 22\n  c_point: false\n  practical: false\n  applicability:\n    papers:\n    - 1C"
+            },
+            {
+              "locator": "lines 915-929",
+              "chars": 382,
+              "text": "lineage definitive\n  damage_flags: []\n- code: 4CH1-1.28\n  official_code: '1.28'\n  official_wording: understand how to carry out calculations involving amount of substance, relative atomic mass\n    (Ar) and relative formula mass (Mr)\n  section: 4CH1-S1\n  subsection: 4CH1-S1-e\n  ordering: 4\n  global_order: 28\n  c_point: false\n  practical: false\n  applicability:\n    papers:\n    - 1C"
+            },
+            {
+              "locator": "lines 2374-2388",
+              "chars": 354,
+              "text": "lineage definitive\n  damage_flags: []\n- code: 4CH1-1.5C\n  official_code: 1.5C\n  official_wording: know what is meant by the term solubility in the units g per 100 g of solvent\n  section: 4CH1-S1\n  subsection: 4CH1-S1-a\n  ordering: 5\n  global_order: 5\n  c_point: true\n  practical: false\n  applicability:\n    papers:\n    - 2C\n    double_award_shared: false"
+            },
+            {
+              "locator": "lines 2498-2512",
+              "chars": 361,
+              "text": "lineage definitive\n  damage_flags: []\n- code: 4CH1-1.7C\n  official_code: 1.7C\n  official_wording: 'practical: investigate the solubility of a solid in water at a specific temperature'\n  section: 4CH1-S1\n  subsection: 4CH1-S1-a\n  ordering: 7\n  global_order: 7\n  c_point: true\n  practical: true\n  applicability:\n    papers:\n    - 2C\n    double_award_shared: false"
+            },
+            {
+              "locator": "lines 3659-3673",
+              "chars": 384,
+              "text": "lineage definitive\n  damage_flags: []\n- code: 4CH1-2.31\n  official_code: '2.31'\n  official_wording: know that acids in aqueous solution are a source of hydrogen ions and alkalis in a aqueous solution\n    are a source of hydroxide ions\n  section: 4CH1-S2\n  subsection: 4CH1-S2-f\n  ordering: 4\n  global_order: 91\n  c_point: false\n  practical: false\n  applicability:\n    papers:\n    - 1C"
+            },
+            {
+              "locator": "lines 4528-4542",
+              "chars": 359,
+              "text": "lineage definitive\n  damage_flags: []\n- code: 4CH1-2.5\n  official_code: '2.5'\n  official_wording: know the colours, physical states (at room temperature) and trends in physical properties of\n    these elements\n  section: 4CH1-S2\n  subsection: 4CH1-S2-b\n  ordering: 1\n  global_order: 65\n  c_point: false\n  practical: false\n  applicability:\n    papers:\n    - 1C"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-TL-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE (tier-1) / SUPPLEMENTARY (tier-2)",
+      "title": "Official Pearson teaching-and-learning corpus for International GCSE Chemistry (2017)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/gstt-int-gcse-chemistry.pdf",
+          "sha256": "cfc42ce0bc763515241c63cba8087be725126152f95047fbad90a83227b50419",
+          "excerpts": [
+            {
+              "locator": "page 3",
+              "chars": 1025,
+              "text": "Pearson Edexcel International GCSE Chemistry (Modular) – Getting Started Guide – Issue 2 – October 2024 \n© Pearson Education Limited 2024 \nChemistry (2017) (4CH1) \nGetting Started Guide  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nThrough initiatives such as onscreen marking and administration, Pearson is leading the way in using technology to \nmodernise educational assessment, and to support teachers and learners. \nThis guide is Issue 2. We will inform centres of any changes to this issue. The latest issue can be found on the Pearson \nEdexcel website: \nhttps://qualifications.pearson.com/ \n \nReferences to third-party material made in this guide are made in good faith. We do not endorse, approve or accept \nresponsibility for the content of materials, which may be subject to change, or any opinions expressed therein. (Material \nmay include textbooks, journals, magazines and other publications and websites.) \n \nAll the material in this publication is copyright. \n© Pearson Education Limited 2024"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-SAMS-4CH1",
+      "role": "supplementary",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "title": "Official 4CH1 sample assessment materials + series-structure change notice",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+          "sha256": "beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923",
+          "excerpts": [
+            {
+              "locator": "page 1",
+              "chars": 188,
+              "text": "INTERNATIONAL \nGCSE\nChemistry (9-1)\nSAMPLE ASSESSMENT MATERIALS\nPearson Edexcel International GCSE in Chemistry (4CH1)\nFor first teaching September 2017\nFirst examination June 2019\nIssue 2"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-BOOK-4CH1-SB1",
+      "role": "supplementary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Edexcel International GCSE (9-1) Chemistry Student Book (the books plane of record)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+          "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "excerpts": []
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    }
+  ],
+  "caps": {
+    "max_excerpts_per_source": 60,
+    "max_chars_per_excerpt": 1600,
+    "max_total_chars_per_source": 40000
+  },
+  "licensing_law": "bounded excerpts + locator identity preserved; no bulk export"
+}

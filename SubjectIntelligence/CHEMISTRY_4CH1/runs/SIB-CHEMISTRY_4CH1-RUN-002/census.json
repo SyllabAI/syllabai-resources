@@ -1,0 +1,497 @@
+{
+  "command_kinds": {
+    "class_distribution_by_topic": {
+      "S1|CALCULATE": 9,
+      "S1|DESCRIBE_EXPERIMENT": 7,
+      "S1|KNOW_TERM": 12,
+      "S1|PRODUCE_EQUATION": 3,
+      "S1|REPRESENT_DIAGRAM": 4,
+      "S1|UNDERSTAND_RELATION": 25,
+      "S2|DESCRIBE_EXPERIMENT": 15,
+      "S2|EXPLAIN_HOW": 5,
+      "S2|KNOW_TERM": 16,
+      "S2|UNDERSTAND_RELATION": 14,
+      "S3|CALCULATE": 3,
+      "S3|DESCRIBE_EXPERIMENT": 5,
+      "S3|KNOW_TERM": 10,
+      "S3|REPRESENT_DIAGRAM": 2,
+      "S3|UNDERSTAND_RELATION": 2,
+      "S4|DESCRIBE_EXPERIMENT": 7,
+      "S4|EXPLAIN_HOW": 4,
+      "S4|KNOW_TERM": 22,
+      "S4|REPRESENT_DIAGRAM": 12,
+      "S4|UNDERSTAND_RELATION": 4
+    },
+    "coverage_gap_vs_spec_points": [
+      "4CH1-4.15"
+    ],
+    "entries": 181,
+    "explain_verb_delta_vs_spec_points": {
+      "command_kinds_explain": 15,
+      "explanation": "the delta is the single coverage gap (4CH1-4.15, leading_verb explain) absent from the command_kinds store",
+      "spec_points_explain": 16
+    },
+    "guide_class_distribution": {
+      "CALCULATE": 12,
+      "DESCRIBE_EXPERIMENT": 34,
+      "EXPLAIN_HOW": 9,
+      "KNOW_TERM": 60,
+      "PRODUCE_EQUATION": 3,
+      "REPRESENT_DIAGRAM": 18,
+      "UNDERSTAND_RELATION": 45
+    },
+    "verb_distribution": {
+      "be": 2,
+      "calculate": 6,
+      "describe": 27,
+      "determine": 1,
+      "draw": 3,
+      "explain": 15,
+      "identify": 1,
+      "investigate": 7,
+      "know": 56,
+      "prepare": 3,
+      "understand": 54,
+      "use": 3,
+      "write": 3
+    }
+  },
+  "command_words": {
+    "category_distribution": {
+      "main": 23,
+      "multiple-choice-questions": 1,
+      "verb-preceding-command-word": 1
+    },
+    "entries": 25
+  },
+  "concept_edges": {
+    "edges": 488,
+    "genuine_cross_topic_edges": {
+      "by_relation": {
+        "REQUIRES_PREREQUISITE": 24
+      },
+      "count": 24,
+      "edges": [
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-ANION-TESTS",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-ION-CHARGE-RULES",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-BOND-ENERGY-CALC",
+          "source_topics": [
+            "S3"
+          ],
+          "target": "4CH1-CON-COVALENT-BOND",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-CARBOXYLIC-ACID-REACTIONS",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-ACID-REACTIONS",
+          "target_topics": [
+            "S2"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-CATION-TESTS",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-ION-CHARGE-RULES",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-COMBUSTION-O2",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-EXO-ENDO",
+          "target_topics": [
+            "S3"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-CRUDE-OIL",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-MIXTURE",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-CRUDE-OIL-FRACTIONS",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-FRACTIONAL-DISTILLATION",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-ETHANOL-MANUFACTURE",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-FRACTIONAL-DISTILLATION",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-ETHANOL-OXIDATION",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-COMBUSTION-O2",
+          "target_topics": [
+            "S2"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-ETHANOL-OXIDATION",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-OX-RED-AGENTS",
+          "target_topics": [
+            "S2"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-EXTRACTION-METHOD",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-ELECTROLYSIS",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-FUELS-COMBUSTION",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-COMBUSTION-O2",
+          "target_topics": [
+            "S2"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-G1-REACTIVITY-ECONFIG",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-ELECTRONIC-CONFIGURATION",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-G7-REACTIVITY-ECONFIG",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-ELECTRONIC-CONFIGURATION",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-METAL-USES",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-METAL-PROPERTIES",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-MOLAR-ENTHALPY",
+          "source_topics": [
+            "S3"
+          ],
+          "target": "4CH1-CON-MOLE",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-ORGANIC-FORMULAE",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-EMPIRICAL-FORMULA",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-ORGANIC-FORMULAE",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-MOLECULAR-FORMULA",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-POLYMER-DISPOSAL",
+          "source_topics": [
+            "S4"
+          ],
+          "target": "4CH1-CON-CO2-GREENHOUSE",
+          "target_topics": [
+            "S2"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-RATE-FACTORS",
+          "source_topics": [
+            "S3"
+          ],
+          "target": "4CH1-CON-CONCENTRATION",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-REVERSIBLE",
+          "source_topics": [
+            "S3"
+          ],
+          "target": "4CH1-CON-EQ-SYMBOL",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-REVERSIBLE-EXAMPLES",
+          "source_topics": [
+            "S3"
+          ],
+          "target": "4CH1-CON-WATER-CRYST",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-SOLUBILITY-RULES",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-ION-CHARGE-RULES",
+          "target_topics": [
+            "S1"
+          ]
+        },
+        {
+          "relation": "REQUIRES_PREREQUISITE",
+          "source": "4CH1-CON-WATER-PURITY-TEST",
+          "source_topics": [
+            "S2"
+          ],
+          "target": "4CH1-CON-PURE-SUBSTANCE",
+          "target_topics": [
+            "S1"
+          ]
+        }
+      ],
+      "law": "both endpoints attach to spec points of DIFFERENT topics (S1..S4)"
+    },
+    "relation_distribution": {
+      "COMMONLY_CONFUSED_WITH": 2,
+      "EXPLAINED_BY": 12,
+      "MISCONCEPTION_OF": 2,
+      "PART_OF": 211,
+      "RELATED_TO": 2,
+      "REMEDIATED_BY": 26,
+      "REQUIRES_PREREQUISITE": 209,
+      "WRONG_ANSWER_PATTERN": 24
+    },
+    "validation_distribution": {
+      "HUMAN_VALIDATED": 389,
+      "REVIEW_REQUIRED": 2,
+      "SUGGESTED": 97
+    }
+  },
+  "concepts": {
+    "family_distribution": {
+      "CONCEPT": 167,
+      "MISCONCEPTION": 26
+    },
+    "nodes": 193,
+    "validation_distribution": {
+      "SUGGESTED": 193
+    }
+  },
+  "inputs": {
+    "graph/igcse-chemistry/command_words.yaml": {
+      "sha256": "824c50ee0625672c7207827bfeef57899b4ed84a64ecde311dd825f930d9c537"
+    },
+    "graph/igcse-chemistry/concept_edges.yaml": {
+      "sha256": "cbef02513ddbb0121a7ba139512c128185311ae3ebf0ef5121e1ed792522aa10"
+    },
+    "graph/igcse-chemistry/concepts.yaml": {
+      "sha256": "24fa91ac7149682b1083ff47112362a11180bcfb7899c1343c6f536682447e3f"
+    },
+    "graph/igcse-chemistry/point_edges.yaml": {
+      "sha256": "dfb1fcb01a3c1732d66da8fa19ad3f06d7662ff1af7ad9f5c076d18191250d13"
+    },
+    "graph/igcse-chemistry/relationships.yaml": {
+      "sha256": "6bd3f8236ac2120a81b1db0a6097583e9e7d484fbd93cef8d772c2f6fd62ba94"
+    },
+    "graph/igcse-chemistry/spec_command_kinds.yaml": {
+      "sha256": "819129fc0fd716a74210c45b2b3bc26bef0641986b6d630e4d493bcb0849198d"
+    },
+    "graph/igcse-chemistry/specification_points.yaml": {
+      "sha256": "956d276f6e4354fa7f5319ca320744f86fbb6ce086efb4a798b3a83f15aaaeb3"
+    },
+    "graph/igcse-chemistry/topics.yaml": {
+      "sha256": "81a4745760bcce2ccc198ba3843a4ccd25d09c84b3faa7e93248c8b467ccf13d"
+    }
+  },
+  "law": "deterministic counts over the graph stores of record; inputs pinned below; artifacts must label such claims RUN-COMPUTED and the evidence-claim QA verifies each number against this annex",
+  "point_edges": {
+    "cross_topic_note": "zero: every REQUIRES_PREREQUISITE / RELATED_TO point edge at this grain is intra-topic (checked by topic of from/to codes)",
+    "cross_topic_point_edges": 0,
+    "edges": 35,
+    "relation_distribution": {
+      "RELATED_TO": 5,
+      "REQUIRES_PREREQUISITE": 30
+    },
+    "validation_distribution": {
+      "OPERATOR_RATIFIED": 35
+    }
+  },
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-002",
+  "schema": "sib-run-census/1.0",
+  "specification_points": {
+    "c_points": 52,
+    "leading_verb_distribution": {
+      "be": 2,
+      "calculate": 6,
+      "describe": 27,
+      "determine": 1,
+      "draw": 3,
+      "explain": 16,
+      "identify": 1,
+      "investigate": 7,
+      "know": 56,
+      "prepare": 3,
+      "understand": 54,
+      "use": 3,
+      "write": 3
+    },
+    "per_topic_c_points": {
+      "S1": 14,
+      "S2": 12,
+      "S3": 8,
+      "S4": 18
+    },
+    "per_topic_points": {
+      "S1": 60,
+      "S2": 50,
+      "S3": 22,
+      "S4": 50
+    },
+    "practical_flagged": 12,
+    "subtopics_by_topic": {
+      "4CH1-S1": {
+        "codes": [
+          "4CH1-S1-a",
+          "4CH1-S1-b",
+          "4CH1-S1-c",
+          "4CH1-S1-d",
+          "4CH1-S1-e",
+          "4CH1-S1-f",
+          "4CH1-S1-g",
+          "4CH1-S1-h",
+          "4CH1-S1-i"
+        ],
+        "count": 9
+      },
+      "4CH1-S2": {
+        "codes": [
+          "4CH1-S2-a",
+          "4CH1-S2-b",
+          "4CH1-S2-c",
+          "4CH1-S2-d",
+          "4CH1-S2-e",
+          "4CH1-S2-f",
+          "4CH1-S2-g",
+          "4CH1-S2-h"
+        ],
+        "count": 8
+      },
+      "4CH1-S3": {
+        "codes": [
+          "4CH1-S3-a",
+          "4CH1-S3-b",
+          "4CH1-S3-c"
+        ],
+        "count": 3
+      },
+      "4CH1-S4": {
+        "codes": [
+          "4CH1-S4-a",
+          "4CH1-S4-b",
+          "4CH1-S4-c",
+          "4CH1-S4-d",
+          "4CH1-S4-e",
+          "4CH1-S4-f",
+          "4CH1-S4-g",
+          "4CH1-S4-h"
+        ],
+        "count": 8
+      }
+    },
+    "total": 182
+  },
+  "structure_edges": {
+    "relation_distribution": {
+      "PART_OF": 210
+    },
+    "relationships_edges": 210
+  }
+}

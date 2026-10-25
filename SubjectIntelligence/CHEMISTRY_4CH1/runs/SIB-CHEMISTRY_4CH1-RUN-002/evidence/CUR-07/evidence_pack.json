@@ -1,0 +1,254 @@
+{
+  "schema": "sib-evidence-pack/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-002",
+  "artifact_id": "CUR-07",
+  "family": "CUR",
+  "library": "CHEMISTRY_4CH1",
+  "policy_version": "r0",
+  "sources": [
+    {
+      "source_id": "SRC-SPEC-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Pearson Edexcel International GCSE Chemistry (2017) Specification, Issue 3",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+          "sha256": "36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362",
+          "excerpts": [
+            {
+              "locator": "page 51",
+              "chars": 1600,
+              "text": "Pearson Edexcel International GCSE in Chemistry \nSpecification – Issue 3 – September 2024 © Pearson Education Limited 2024 \n45\nAppendix 5: Command word taxonomy \nThe following table lists the command words used in the external assessments. \n \nCommand word  \nDefinition \nAdd/Label \nRequires the addition or labelling of a stimulus material given \nin the question, for example labelling a diagram or adding \nunits to a table. \nCalculate \nObtain a numerical answer, showing relevant working.  \nComment on \nRequires the synthesis of a number of variables from \ndata/information to form a judgement.  \nComplete \nRequires the completion of a table/diagram. \nDeduce \nDraw/reach conclusion(s) from the information provided. \nDescribe \nTo give an account of something. Statements in the response \nneed to be developed, as they are often linked but do not \nneed to include a justification or reason. \nDetermine \nThe answer must have an element that is quantitative from \nthe stimulus provided, or must show how the answer can be \nreached quantitatively. To gain maximum marks, there must \nbe a quantitative element to the answer. \nDesign \nPlan or invent a procedure from existing principles/ideas. \nDiscuss \n• Identify the issue/situation/problem/argument that is \nbeing assessed within the question. \n• Explore all aspects of an \nissue/situation/problem/argument. \n• Investigate the issue/situation etc. by reasoning or \nargument. \nDraw \nProduce a diagram either using a ruler or freehand. \nEstimate \nFind an approximate value, number or quantity from a \ndiagram/given data or through a calculation. \nEvaluate"
+            },
+            {
+              "locator": "page 52",
+              "chars": 1201,
+              "text": "Pearson Edexcel International GCSE in Chemistry \nSpecification – Issue 3 – September 2024 © Pearson Education Limited 2024 \n46\n \nCommand word  \nDefinition \nJustify \nGive evidence to support (either the statement given in the \nquestion or an earlier answer). \nPlot \nProduce a graph by marking points accurately on a grid from \ndata that is provided and then draw a line of best fit through \nthese points. A suitable scale and appropriately labelled axes \nmust be included if these are not provided in the question. \nPredict \nGive an expected result. \nShow that \nVerify the statement given in the question. \nSketch \nProduce a freehand drawing. For a graph, this would need a \nline and labelled axes with important features indicated.  \nThe axes are not scaled. \nState what is meant by \nWhen the meaning of a term is expected but there are \ndifferent ways for how these can be described. \nSuggest \nUse your knowledge to propose a solution to a problem in a \nnovel context. \nVerb preceding a command word \nAnalyse the data/graph \nto explain \nExamine the data/graph in detail to provide an explanation.  \nMultiple choice questions \nWhat, Why, Which \nDirect command words used for multiple-choice questions."
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-GRAPH-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Validated 4CH1 curriculum knowledge graph (specification points, concepts, practicals, command words)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/command_words.yaml",
+          "sha256": "824c50ee0625672c7207827bfeef57899b4ed84a64ecde311dd825f930d9c537",
+          "excerpts": [
+            {
+              "locator": "lines 45-59",
+              "chars": 579,
+              "text": "command_word: Add/Label\n  category: main\n  definition: Requires the addition or labelling of a stimulus material given in the question, for example\n    labelling a diagram or adding units to a table.\n  ordering: 1\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'"
+            },
+            {
+              "locator": "lines 68-82",
+              "chars": 504,
+              "text": "command_word: Calculate\n  category: main\n  definition: Obtain a numerical answer, showing relevant working.\n  ordering: 2\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 90-104",
+              "chars": 543,
+              "text": "command_word: Comment on\n  category: main\n  definition: Requires the synthesis of a number of variables from data/information to form a judgement.\n  ordering: 3\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 112-126",
+              "chars": 494,
+              "text": "command_word: Complete\n  category: main\n  definition: Requires the completion of a table/diagram.\n  ordering: 4\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 134-148",
+              "chars": 504,
+              "text": "command_word: Deduce\n  category: main\n  definition: Draw/reach conclusion(s) from the information provided.\n  ordering: 5\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 156-170",
+              "chars": 598,
+              "text": "command_word: Describe\n  category: main\n  definition: To give an account of something. Statements in the response need to be developed, as they\n    are often linked but do not need to include a justification or reason.\n  ordering: 6\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'"
+            },
+            {
+              "locator": "lines 179-193",
+              "chars": 624,
+              "text": "command_word: Determine\n  category: main\n  definition: The answer must have an element that is quantitative from the stimulus provided, or must\n    show how the answer can be reached quantitatively. To gain maximum marks, there must be a quantitative\n    element to the answer.\n  ordering: 7\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py"
+            },
+            {
+              "locator": "lines 203-217",
+              "chars": 507,
+              "text": "command_word: Design\n  category: main\n  definition: Plan or invent a procedure from existing principles/ideas.\n  ordering: 8\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 225-239",
+              "chars": 626,
+              "text": "command_word: Discuss\n  category: main\n  definition: • Identify the issue/situation/problem/argument that is being assessed within the question.\n    • Explore all aspects of an issue/situation/problem/argument. • Investigate the issue/situation etc.\n    by reasoning or argument.\n  ordering: 9\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py"
+            },
+            {
+              "locator": "lines 249-263",
+              "chars": 499,
+              "text": "command_word: Draw\n  category: main\n  definition: Produce a diagram either using a ruler or freehand.\n  ordering: 10\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 271-285",
+              "chars": 549,
+              "text": "command_word: Estimate\n  category: main\n  definition: Find an approximate value, number or quantity from a diagram/given data or through a calculation.\n  ordering: 11\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 293-307",
+              "chars": 681,
+              "text": "command_word: Evaluate\n  category: main\n  definition: Review information (e.g. data, methods) then bring it together to form a conclusion, drawing\n    on evidence including strengths, weaknesses, alternative actions, relevant data or information. Come\n    to a supported judgement of a subject’s quality and relate it to its context.\n  ordering: 12\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py"
+            },
+            {
+              "locator": "lines 317-331",
+              "chars": 615,
+              "text": "command_word: Explain\n  category: main\n  definition: An explanation requires a justification/exemplification of a point. The answer must contain\n    some element of reasoning/justification – this can include mathematical explanations.\n  ordering: 13\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'"
+            },
+            {
+              "locator": "lines 340-354",
+              "chars": 565,
+              "text": "command_word: Give/State/Name\n  category: main\n  definition: All of these command words are really synonyms. They generally all require recall of one\n    or more pieces of information.\n  ordering: 14\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'"
+            },
+            {
+              "locator": "lines 363-377",
+              "chars": 550,
+              "text": "command_word: Give a reason/reasons\n  category: main\n  definition: When a statement has been made and the requirement is only to give the reason(s) why.\n  ordering: 15\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 385-399",
+              "chars": 536,
+              "text": "command_word: Identify\n  category: main\n  definition: Usually requires some key information to be selected from a given stimulus/resource.\n  ordering: 16\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 940"
+            },
+            {
+              "locator": "lines 407-421",
+              "chars": 542,
+              "text": "command_word: Justify\n  category: main\n  definition: Give evidence to support (either the statement given in the question or an earlier answer).\n  ordering: 17\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 944"
+            },
+            {
+              "locator": "lines 429-443",
+              "chars": 651,
+              "text": "command_word: Plot\n  category: main\n  definition: Produce a graph by marking points accurately on a grid from data that is provided and then\n    draw a line of best fit through these points. A suitable scale and appropriately labelled axes must\n    be included if these are not provided in the question.\n  ordering: 18\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py"
+            },
+            {
+              "locator": "lines 453-467",
+              "chars": 475,
+              "text": "command_word: Predict\n  category: main\n  definition: Give an expected result.\n  ordering: 19\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 944"
+            },
+            {
+              "locator": "lines 475-489",
+              "chars": 496,
+              "text": "command_word: Show that\n  category: main\n  definition: Verify the statement given in the question.\n  ordering: 20\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 944"
+            },
+            {
+              "locator": "lines 497-511",
+              "chars": 578,
+              "text": "command_word: Sketch\n  category: main\n  definition: Produce a freehand drawing. For a graph, this would need a line and labelled axes with important\n    features indicated. The axes are not scaled.\n  ordering: 21\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'"
+            },
+            {
+              "locator": "lines 520-534",
+              "chars": 552,
+              "text": "command_word: State what is meant by\n  category: main\n  definition: When the meaning of a term is expected but there are different ways for how these can be\n    described.\n  ordering: 22\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'"
+            },
+            {
+              "locator": "lines 543-557",
+              "chars": 524,
+              "text": "command_word: Suggest\n  category: main\n  definition: Use your knowledge to propose a solution to a problem in a novel context.\n  ordering: 23\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 944"
+            },
+            {
+              "locator": "lines 565-579",
+              "chars": 559,
+              "text": "command_word: Analyse the data/graph to explain\n  category: verb-preceding-command-word\n  definition: Examine the data/graph in detail to provide an explanation.\n  ordering: 24\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 944"
+            },
+            {
+              "locator": "lines 587-601",
+              "chars": 537,
+              "text": "command_word: What, Why, Which\n  category: multiple-choice-questions\n  definition: Direct command words used for multiple-choice questions.\n  ordering: 25\n  validation_status: RULE_DERIVED\n  confidence: 1.0\n  version: 1\n  provenance:\n    tier: RULE_DERIVED\n    source_file: international-gcse-chemistry-2017-specification-2026-09-10_12-18-50.md\n    spec_issue: 3\n    extraction_method: deterministic Appendix 5 command-word table parse\n    generated_by: scripts/c09_spec_graph_extract.py\n    generated_date: '2026-09-10'\n    md_line: 944"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-TL-4CH1",
+      "role": "primary",
+      "classification": "CURRENT — AUTHORITATIVE (tier-1) / SUPPLEMENTARY (tier-2)",
+      "title": "Official Pearson teaching-and-learning corpus for International GCSE Chemistry (2017)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/int-gcse-command-words.docx",
+          "sha256": "3563c05e364143ebb9685802801b6f053732e4c12e77dbc711eb270aa15ebbb0",
+          "excerpts": []
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-SAMS-4CH1",
+      "role": "supplementary",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "title": "Official 4CH1 sample assessment materials + series-structure change notice",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+          "sha256": "beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923",
+          "excerpts": [
+            {
+              "locator": "page 1",
+              "chars": 188,
+              "text": "INTERNATIONAL \nGCSE\nChemistry (9-1)\nSAMPLE ASSESSMENT MATERIALS\nPearson Edexcel International GCSE in Chemistry (4CH1)\nFor first teaching September 2017\nFirst examination June 2019\nIssue 2"
+            }
+          ]
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    },
+    {
+      "source_id": "SRC-BOOK-4CH1-SB1",
+      "role": "supplementary",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "title": "Edexcel International GCSE (9-1) Chemistry Student Book (the books plane of record)",
+      "resolution_status": "RESOLVED",
+      "files": [
+        {
+          "repo": "syllabai-resources",
+          "path": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+          "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "excerpts": []
+        }
+      ],
+      "excerpt_caps": {
+        "per_source_chars": 40000,
+        "per_excerpt_chars": 1600
+      }
+    }
+  ],
+  "caps": {
+    "max_excerpts_per_source": 60,
+    "max_chars_per_excerpt": 1600,
+    "max_total_chars_per_source": 40000
+  },
+  "licensing_law": "bounded excerpts + locator identity preserved; no bulk export"
+}
