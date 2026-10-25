@@ -1,0 +1,27 @@
+{
+  "artifact_id": "CUR-01",
+  "content_sha256": "a37f97acaf9808aee45dbba418ce2f615b77cc82259d8c0f1cee48a977081b2c",
+  "filename": "CHEMISTRY_4CH1_CUR-01_CURRICULUM_OVERVIEW.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "CUR-01",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "CUR-01"
+  },
+  "sib_protocol": "SIB-1.0"
+}

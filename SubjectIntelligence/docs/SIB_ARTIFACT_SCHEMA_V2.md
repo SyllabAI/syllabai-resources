@@ -70,8 +70,8 @@ library (validator cross-check, unchanged).
 generated_by: zai_agent
 generated_at: 2026-10-25
 provenance:
-  source_manifest: "CHEMISTRY_4CH1-source-manifest-v1.2"
-  generation_run_id: "SIB-CHEMISTRY-4CH1-RUN-001"
+  source_manifest: "SRC-SPEC-4CH1"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-001"
   generator:
     provider: "z.ai"
     model: "<runtime-reported model identifier>"
@@ -86,7 +86,7 @@ Required fields:
 
 | field | law |
 |---|---|
-| `source_manifest` | as in v1 — the library's operator source manifest identifier; validator cross-check against declared ids unchanged |
+| `source_manifest` | the operator source-manifest ENTRY id that anchors this artifact's identity (e.g. the official-specification source for a CUR artifact, the examiner-corpus source for an MIS artifact) — must be declared in the library's `source_manifest.yaml` (`sources:` id list); validator cross-check unchanged from v1. The FULL multi-source grounding lives in the run's evidence pack, referenced by `generation_run_id`. |
 | `generation_run_id` | the run-manifest record id under `<LIBRARY>/runs/`; concrete, non-placeholder |
 | `generator` | mapping with exactly the concrete sub-fields `provider`, `model`, `agent_version` (all three required; template placeholders rejected) |
 
@@ -132,8 +132,8 @@ generated_by: zai_agent
 generated_at: 2026-10-25
 
 provenance:
-  source_manifest: "CHEMISTRY_4CH1-source-manifest-v1.2"
-  generation_run_id: "SIB-CHEMISTRY-4CH1-RUN-001"
+  source_manifest: "SRC-SPEC-4CH1"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-001"
   generator:
     provider: "z.ai"
     model: "<runtime-reported model identifier>"
