@@ -765,6 +765,49 @@
    "series": "*",
    "assertion": "wave-24 (G8): FIGURE-QUEUE.json is bidirectionally consistent with the corpus — every cropped/served_via entry resolves to a real asset (on the part, or on a same-question carrier), every dismissal is a real QP-verified decision (nothing UNREVIEWED); the queue is finished when it is empty",
    "check": "figure_queue"
+  },
+  {
+   "id": "C74-physics-pua-tranche-guard",
+   "spec": "4ph1",
+   "series": "*",
+   "check": "no_pua_served",
+   "assertion": "Task 16 landing (F66): the 4PH1 corpus serves ZERO Private Use Area chars - every symbol-font glyph surfaces as its real Unicode form via PUA_MAP. Guards the v0.17.3 physics PUA tranche (5 evidenced mappings, merge 2254347353) against a recurrence of the concurrent-merge clobber class that reverted it once already (#136 tree-snapshot merge). Pins re-prove the U+F070->pi mapping at its exact served parts; without the tranche the pin strings carry U+F070 and fail both laws.",
+   "pins": [
+    {
+     "series": "2024-11",
+     "paper": "1P",
+     "part": "1(b)(ii)",
+     "field": "solution",
+     "contains": "22/7\nfor π"
+    },
+    {
+     "series": "2022-06",
+     "paper": "2PR",
+     "part": "3(c)(ii)",
+     "field": "solution",
+     "contains": "orbital period = (2 × π × 1.1(× 103)) ÷ 2.9 × 108"
+    }
+   ]
+  },
+  {
+   "id": "C75-physics-2p-footer-law",
+   "spec": "4ph1",
+   "series": "2024-06",
+   "paper": "2P",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "PASS",
+   "marks_total": 70,
+   "assertion": "Task 16 landing: the physics 2P footer law (Task 14 F34-physics verification from the archive of record) - 4PH1 2P papers total exactly 70 marks and G1 proves every part-sum exact. Regresses if PAPER_TOTALS or the footer regex lose the 4ph1 lane."
+  },
+  {
+   "id": "C76-physics-1p-question-count",
+   "spec": "4ph1",
+   "series": "2023-06",
+   "paper": "1P",
+   "check": "question_count",
+   "expected": 12,
+   "assertion": "Task 16 landing: 4PH1 1P 2023-06 prints 12 questions (footer-verified, sum 110) - the physics EXPECT_QUESTIONS seed. Regresses if the 4ph1 lane loses its count registry."
   }
  ]
 }

@@ -1,0 +1,178 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T20:42:43Z",
+ "series": "2020-01",
+ "paper": "2P",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/2P; series=2020-01; printed='January 2020; January 2020'; sha256 qp/ms match manifest: True; manifest variant '2P' == requested '2P': True",
+   "details": {
+    "qp_sha256": "94798b2297c903911c9c78c55352300d3bbfc1800f1356b67c2206b8df281002",
+    "ms_sha256": "fdd8a58f5ee45c100795388a8f4942141b94907dd80b1cf1f7f544587f81d950",
+    "registry_paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/2P"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "8 questions; Σ question totals=70/70; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": null
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 31 parts (0 disclosed, 31 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "PASS",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "details": {
+    "issues": []
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "9 asset records cover every table/diagram/grid/apparatus mention: 6 cropped to assets/*.png (150 dpi), 2 remain crop-required; 0 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 0,
+    "crop_stats": {
+     "crops": 6,
+     "pending": 2,
+     "shared": 2
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "REVIEW",
+   "summary": "MS linkage 22/31 (71%)",
+   "details": {
+    "unmatched": [
+     "2(b)",
+     "3(a)(i)",
+     "3(a)(ii)",
+     "3(b)(ii)",
+     "4(c)",
+     "6(b)",
+     "7(a)(i)",
+     "7(a)(ii)",
+     "8(b)"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 31 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 22/22 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 0,
+    "ms_marks_agree": 0,
+    "ms_marks_disagree": []
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "4(c)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "5(b)(iii)",
+   "reason": "figure crop required (graph, page 12)"
+  },
+  {
+   "part": "5(b)(iii)",
+   "reason": "figure crop required (grid, page 12)"
+  },
+  {
+   "part": "6(b)",
+   "reason": "figure crop emitted — human verify (assets/asset_6_b_diagram.png)"
+  },
+  {
+   "part": "2(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(b)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "4(c)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "8(b)",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 31,
+  "pending_llm": 31,
+  "no_spec_point": 0
+ }
+}

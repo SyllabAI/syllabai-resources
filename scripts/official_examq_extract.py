@@ -38,7 +38,7 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.17.2"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.17.4"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 
 # ---------------------------------------------------------------- spec lanes
 # v0.16.0 generalization: the converter serves one spec lane per run (--spec).
@@ -281,6 +281,28 @@ PUA_MAP = {
                           #   18 extension rows F8EF+F8FA, bottom row F8F0+F8FB),
                           #   font trace MWAWPZ+Symbol, render eyeballed — retires
                           #   the 1CR right-column mirror caveat with direct evidence
+    # Physics (4PH1) tranche - first full-corpus physics wave (2026-10-26, trace
+    # 1a17463dfb7c99c9): corpus PUA census physics-intake/pua-census.json, evidence
+    # pass physics-intake/pua-evidence/ (font trace via PyMuPDF rawdict + page
+    # render, eyeballed). 5 new codepoints; chemistry-era entries cover the rest.
+    "\uf020": " ",        # CIDFont+F12/F9 blank glyph - renders as NOTHING: span
+                          # '\uf050\uf020' (2021-11 1P MS p4) prints ONE tick + gap
+                          # (tight render pua-evidence/TIGHT_*_p4.png), and
+                          # '\uf0b4\uf0203.125' (p13) prints 'x 3.125' - it is the
+                          # CID font's space; mapped to U+0020
+    "\uf068": "\u2191",   # Wingdings3 up-arrow - 2021-06 1P MS p13 renders
+                          # 'clear e.g. allow +, UP-ARROW for increase etc.'
+    "\uf06a": "",         # TransportMT train pictogram - 2020-06 1P QP p6 (size 64)
+                          # decorative silhouette beside 'The train starts braking
+                          # at point P...'; no linguistic content (the word 'train'
+                          # is in the stem text); drop like the cover ornaments
+    "\uf070": "\u03c0",   # pi - CIDFont+F7 2022-01 1P MS p11 'orbital speed =
+                          # (2 x pi x 7100) / 5800' and SymbolMT 2023-06 1PR MS p5
+                          # 'v = 2pi r/T'; renders eyeballed in both
+    "\uf075": "",         # TransportMT aeroplane pictogram - 2020-06 2P QP p14
+                          # (size 29) decorative silhouette labelled 'aeroplane'
+                          # in the printed text layer; drop like F06A
+
 }
 
 
@@ -868,6 +890,16 @@ def parse_ms_vertical(ms_lines):
     armed = False            # set by a page-header run; consumed by the next bare numeral
     header_run = []
     for ln in ms_lines:
+        # F67 (v0.17.4): the F48 PUA gate applies to EVERY raw-layer reader that
+        # feeds serving content - the vertical lane bypassed clean_lines by design
+        # and skipped normalize_pua with it, leaking mapped PUA chars (U+F020,
+        # U+F050, U+F0B4, U+F0B7, U+F044, U+F070, U+F068) into 4ph1
+        # solution_md/mark_points. The normalized line REBINDS ln (indentation
+        # preserved - build_solution's NOTES_COL_INDENT column logic reads it), so
+        # the stored entries are clean at all three append sites. normalize_pua is
+        # fail-closed: an unmapped codepoint still aborts the run (C74 pins the
+        # absence law corpus-wide).
+        ln = normalize_pua(ln)
         s = ln.strip()
         if not s:
             continue

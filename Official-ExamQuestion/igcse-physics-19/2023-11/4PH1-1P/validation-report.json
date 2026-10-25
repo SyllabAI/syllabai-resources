@@ -1,0 +1,254 @@
+{
+ "schema": "syllabai.official-paper-questions.validation/0.2",
+ "generated_utc": "2026-10-25T20:43:20Z",
+ "series": "2023-11",
+ "paper": "1P",
+ "gates": [
+  {
+   "gate": "G0-identity",
+   "status": "PASS",
+   "summary": "paper_id=pearson-edexcel:international-gcse:physics:4ph1:2023-11:4PH1/1P; series=2023-11; printed='November 2023; November 2023'; sha256 qp/ms match manifest: True; manifest variant '1P' == requested '1P': True",
+   "details": {
+    "qp_sha256": "f872f5bebbee1260491ee389f0f4d2fa606fdfa6a28fd011c8233070ba955b2a",
+    "ms_sha256": "ede67f1a1fb8ffb8a06a149c1ff9b6a123d3004ce1e5bfbdf430f47520b3cc9d",
+    "registry_paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-11:4PH1/1P"
+   }
+  },
+  {
+   "gate": "G1-structure",
+   "status": "PASS",
+   "summary": "12 questions; Σ question totals=110/110; parts-sum == printed total for all questions: True",
+   "details": {
+    "mismatches": [],
+    "unattributed": [],
+    "inferred_totals": {},
+    "footer_gaps": [],
+    "image_only_pages": [],
+    "count_expected": null,
+    "sole_part_marks_inferred": [
+     "2"
+    ]
+   }
+  },
+  {
+   "gate": "G2-D-disclosure",
+   "status": "PASS",
+   "summary": "provenance matches reality for all 49 parts (0 disclosed, 49 extracted at ≥0.95 5-gram): True",
+   "details": {
+    "violations": [],
+    "min_ratio": 1.0
+   }
+  },
+  {
+   "gate": "G3-mcq-integrity",
+   "status": "FAIL",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "details": {
+    "issues": [
+     {
+      "part": "1(b)",
+      "issue": "no keyed correct choice"
+     },
+     {
+      "part": "1(c)",
+      "issue": "no keyed correct choice"
+     }
+    ]
+   }
+  },
+  {
+   "gate": "G4-figure-resolution",
+   "status": "PASS",
+   "summary": "15 asset records cover every table/diagram/grid/apparatus mention: 10 cropped to assets/*.png (150 dpi), 1 remain crop-required; 0 parts without page anchor",
+   "details": {
+    "dangling": [],
+    "pages_unanchored": 0,
+    "crop_stats": {
+     "crops": 10,
+     "pending": 1,
+     "shared": 8
+    }
+   }
+  },
+  {
+   "gate": "G5-answer-linkage",
+   "status": "REVIEW",
+   "summary": "MS linkage 28/49 (57%)",
+   "details": {
+    "unmatched": [
+     "1(b)",
+     "1(c)",
+     "1(d)",
+     "2",
+     "3(a)(i)",
+     "3(a)(ii)",
+     "3(b)",
+     "4(b)",
+     "5(b)",
+     "6(a)(i)",
+     "6(a)(ii)",
+     "6(a)(iii)",
+     "6(b)",
+     "7(a)(i)",
+     "7(a)(ii)",
+     "9(a)(i)",
+     "9(a)(ii)",
+     "10(a)(i)",
+     "10(a)(ii)",
+     "11(a)(i)",
+     "11(a)(ii)"
+    ]
+   }
+  },
+  {
+   "gate": "G6-registry-codes",
+   "status": "PASS",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 49 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "details": {
+    "violations": [],
+    "allowed_gaps": []
+   }
+  },
+  {
+   "gate": "G7-solution-emission",
+   "status": "PASS",
+   "summary": "solution_md on 28/28 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 0 parts, agrees with QP marks on 0",
+   "details": {
+    "missing_solution": [],
+    "sum_mismatches": [],
+    "ms_marks_seen": 0,
+    "ms_marks_agree": 0,
+    "ms_marks_disagree": []
+   }
+  }
+ ],
+ "negative_controls": [
+  {
+   "id": "N1-mark-bump",
+   "expected_gate": "G2-D/value-trace",
+   "detected": true
+  },
+  {
+   "id": "N2-paraphrase",
+   "expected_gate": "G2-D/edits[]",
+   "detected": true,
+   "target": "4(b)"
+  },
+  {
+   "id": "N3-fake-spec-code",
+   "expected_gate": "G6",
+   "detected": true
+  }
+ ],
+ "review_queue": [
+  {
+   "part": "1(b)",
+   "reason": "MCQ key unresolved from MS"
+  },
+  {
+   "part": "1(c)",
+   "reason": "MCQ key unresolved from MS"
+  },
+  {
+   "part": "1(d)",
+   "reason": "figure crop required (diagram, page 5)"
+  },
+  {
+   "part": "7(b)(i)",
+   "reason": "figure crop emitted — human verify (assets/asset_7_b_i_grid.png)"
+  },
+  {
+   "part": "1(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "1(c)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "1(d)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "2",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "3(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "4(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "5(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(a)(iii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "6(b)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "7(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "9(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "9(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "10(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(a)(i)",
+   "reason": "answer not auto-linked to MS"
+  },
+  {
+   "part": "11(a)(ii)",
+   "reason": "answer not auto-linked to MS"
+  }
+ ],
+ "ocr_pages": [],
+ "mcq_keys_applied": [],
+ "ms_link_overrides_applied": [],
+ "spec_tagging": {
+  "tagged": 0,
+  "parts": 49,
+  "pending_llm": 49,
+  "no_spec_point": 0
+ }
+}
