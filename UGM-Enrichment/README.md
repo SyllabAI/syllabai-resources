@@ -161,6 +161,22 @@ there. Nothing in this directory renders or embeds UGM content.
   / r8620 (3.4.3, fresh), the 3.4 spine titles' parse artifacts (dropped math run on e, duplicated "tan x",
   dangling "e.g.") carried verbatim of record — recorded, never forced.
 
+- **Lane 13 (CIE 9709 Pure 3 3.5 Integration)** — `cie-a-level-maths-20-pure-3-integration.json`: the **fifth lane
+  on the pure-3 course plane** and the **first lane of record with an honest empty spec point** — the integration
+  substrate concentrates on the calculus-trig-log, chain-rule and product-rule stations, so the lane-10/11/12
+  pre-baked "P3 3.5 Integration" bearing pool converts or declines: 23 aligned rows = 16 fresh rows (15 of them
+  promotions of the bearing pool, each superseding its stale row of record) + 1 cross-course flip (circular-slice
+  → riding its lane-4 body under `pure-1-circular-measure/`) + 6 one-to-many joins beside standing alignments of
+  record (r7616 → the lane-11 3.3.1 pick; r8774 → the lane-12 3.4.2 body, the bearing lane-12's own evidence
+  disclosed; r9312 → the lane-6 1.6.4 body — the twice-by-parts envelope integral; r9701, r8694, r5126 → lane-9
+  bodies), 11 fresh non-overlaps **recorded by reference only** (`bodyImported: false`; 5 superseding stale
+  bearing rows — r6622, r7106, r7461, r7903, r8836 — each declined honestly against its solution of record) — 68
+  of-record candidates rejected with reasons, **3.5.4 carries ZERO rows (the honest gap of record: no f′(x)/f(x)
+  resource exists corpus-wide — recorded, never forced)**, primary picks r8679 (3.5.1, fresh) / r9297 (3.5.2,
+  fresh) / r5126 (3.5.3 — rides its lane-9 body, disclosed of record) / r8134 (3.5.5, fresh) / r8890 (3.5.6,
+  fresh), the 3.5 spine titles' parse artifacts (interleaved/dropped math runs, the 3.5.3 glyph debris) carried
+  verbatim of record — recorded, never forced.
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.
