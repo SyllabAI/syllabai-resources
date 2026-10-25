@@ -55,3 +55,22 @@ Stage Summary:
   snapshot. Polish R1 parked at 1/404 — resume: `node scripts/llm_repair_
   yph11.js` → merge_llm_yph11.py (to write; physics merge is the template) →
   audit → validate. SB2 parse lane untouched (follow-on task).
+
+- Phase 7 (completion, 2026-10-25): quota reopened 2026-10-24 16:20Z after
+  ~5 days of account-level 429 (one 70-min window banked 253; second opening
+  2026-10-25 19:02-20:03Z finished the run via a dense-probe watchdog that
+  auto-fires the resumable runner on first OK probe). Polish R1 terminal:
+  **404/404** (394 ok applied / 390 with text changes / 7 guard-rejected,
+  evidence kept). merge_llm_yph11.py: anchor diff vs pristine 0 drift,
+  markdown + report regenerated. audit_polish_yph11.py: space-glue
+  1759 -> 4 on repaired chunks (residuals = real URLs in acknowledgements),
+  camel 121 -> 4, caps 100 -> 22, 0 Unicode-unit regressions, superscript
+  chunks 73 -> 103. validate_yph11.py: ALL CHECKS PASSED (881 chunks,
+  11/11 chapters, 4/4 units, 22/22 question pages, 0 latex remnants).
+  Selector provenance: select_noisy_yph11.py regenerated after a workspace
+  reset (4PH1-family weighted policy, CAP 404) — reconciles 403/404 vs the
+  of-record selection with the exact 56 forced question chunks; 5
+  regen-only glue-damage stragglers logged as R2 candidates. Runner
+  post-chain rebuilt in-repo scripts/ after the same reset; SB2 chain
+  paths repaired (merge MD_OUT/REPORT had pointed at the 4PH1 lane's
+  outputs — clobber prevented pre-run).

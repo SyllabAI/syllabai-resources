@@ -31,31 +31,35 @@ First published 2018
 21201918 10987654321
 
 BritishLibrary Cataloguing inPublicationData A cataloguerecordforthisbookisavailablefrom theBritishLibrary ISBN9781292244877
-Copyrightnotice
 
-All rightsreserved.Nopartof thispublicationmaybereproduced in anyform orby without thewrittenpermissionof thecopyrightowner,exceptinaccordancewith theprovisions of theCopyright,DesignsandPatentsAct1988orunder theterms ofalicenceissuedbytheCopyrightLicensingAgency,Barnard'sInn,86Fetter Lane,London EC4A 1EN (www.cla.co.uk).Applications for the copyright owner's writtenpermissionshouldbeaddressedtothepublisher.
+#### Copyrightnotice
+Copyright notice
 
-PrintedbyNeografiainSlovakia Logo on page 168 fromLIFEPAK?1000 DEFIBRILLATOR brochure,http://www. physio-control.com/uploadedFiles/Physio85/Contents/Emergency_Medical_Care/ Products/Brochures/LP1000_Brochure20w20Rechargable20Battery_3303851_C. pdf,copyright2012Physio-Control,Inc.
+All rights reserved. No part of this publication may be reproduced in any form or by without the written permission of the copyright owner, except in accordance with the provisions of the Copyright, Designs and Patents Act 1988 or under the terms of a licence issued by the Copyright Licensing Agency, Barnard's Inn, 86 Fetter Lane, London EC4A 1EN (www.cla.co.uk). Applications for the copyright owner's written permission should be addressed to the publisher.
+
+Printed by Neografia in Slovakia Logo on page 168 from LIFEPAK?1000 DEFIBRILLATOR brochure, http://www. physio-control.com/uploadedFiles/Physio85/Contents/Emergency_Medical_Care/Products/Brochures/LP1000_Brochure20w20Rechargable20Battery_3303851_C. pdf, copyright 2012 Physio-Control, Inc.
 Tables
 
-Tableonpage84fromMountaineering:TheFreedom of theHills,6thEdition, publishedbyMountaineersBooks,SeattleandQuillerPublishing,Shrewsbury148, copyright@1997.llustrationandtablereprintedwithpermissionof thepublisher; Tableonpage84adaptedfromThe2013/14catalogue ofDMMInternational, United StatesEnergy InformationAssociationSource:U.S.EnergyInformation Administration(Dec2013).
+Table on page 84 from Mountaineering: The Freedom of the Hills, 6th Edition, published by Mountaineers Books, Seattle and Quiller Publishing, Shrewsbury 148, copyright @ 1997. Illustration and table reprinted with permission of the publisher; Table on page 84 adapted from The 2013/14 catalogue of DMM International, United States Energy Information Association Source: U.S. Energy Information Administration (Dec 2013).
 
-Extractonpage54frommanufacturehockeygoalkeeping equipment,8July2014, http://www.obo.co.nz/the-o-lab, OBO. Reproduced by permission; Extract on page html.Source:NOAA'sNational OceanService;Extractonpage96fromUSGC FAQs,http://www.usgs.gov/faq.Source:U.S.Geological Survey Department of the Interior/USGS;Extract on page114adapted from'Tuning the Marimba Barand Resonator'http://lafavre.us/tuning-marimba,copyright 2007JeffreyLaFavre; Extractonpage126from'ForensicGlassComparison:Background Information UsedinDataInterpretation',publicationnumber09-04of theLaboratoryDivision of theFederalBureauof Investigation,Vol.11,No2(MaureenBottrell),April2009, Source:Federal Bureau ofInvestigation,Quantico,Virginia,USA;Extractonpage 168fromLIFEPAK?1000DEFIBRILLATORbrochure,pp.56-57,http://www. physiocontrol.com/uploadedFiles/Physio85/Contents/Emergency_Medical_ Battery_3303851_C.pdf,copyright2012Physio-Control,Inc.;Extractonpage 190from'RoverTeamWorking toDiagnoseElectrical Issue',2November2013, http://www.jpl.nasa.gov/news/news.php?feature=3958,Source:NASA.
+Extract on page 54 from manufacture hockey goalkeeping equipment, 8 July 2014, http://www.obo.co.nz/the-o-lab, OBO. Reproduced by permission; Extract on page html. Source: NOAA's National Ocean Service; Extract on page 96 from USGC FAQs, http://www.usgs.gov/faq. Source: U.S. Geological Survey Department of the Interior/USGS; Extract on page 114 adapted from 'Tuning the Marimba Bar and Resonator' http://lafavre.us/tuning-marimba, copyright 2007 Jeffrey LaFavre; Extract on page 126 from 'Forensic Glass Comparison: Background Information Used in Data Interpretation', publication number 09-04 of the Laboratory Division of the Federal Bureau of Investigation, Vol. 11, No 2 (Maureen Bottrell), April 2009, Source: Federal Bureau of Investigation, Quantico, Virginia, USA; Extract on page 168 from LIFEPAK?1000 DEFIBRILLATOR brochure, pp. 56-57, http://www.physiocontrol.com/uploadedFiles/Physio85/Contents/Emergency_Medical_ Battery_3303851_C.pdf, copyright 2012 Physio-Control, Inc.; Extract on page 190 from 'Rover Team Working to Diagnose Electrical Issue', 2 November 2013, http://www.jpl.nasa.gov/news/news.php?feature=3958, Source: NASA.
 
 to the publishers.
-Endorsementstatement
 
-ForPhotoandFigureAcknowedgementspleaseseepage214
+#### Endorsementstatement
+Endorsement statement
 
-Inordertoensure thatthisresourceoffershigh-qualitysupportforthe associated Pearsonqualification,it hasbeenthroughareviewprocessbytheawarding body.Thisprocessconfirmed thatthisresourcefullycoverstheteachingand learningcontentof thespecificationatwhichitisaimed.Italsoconfirmsthatit demonstratesanappropriatebalancebetweenthedevelopmentofsubjectskills knowledge and understanding,in addition topreparationfor assessment.
+For Photo and Figure Acknowledgements please see page 214
 
-(e.g.practice questions oradvice on howto answer assessment questions) teaching ordelivery of arelated course.
+In order to ensure that this resource offers high-quality support for the associated Pearson qualification, it has been through a review process by the awarding body. This process confirmed that this resource fully covers the teaching and learning content of the specification at which it is aimed. It also confirms that it demonstrates an appropriate balance between the development of subject skills, knowledge and understanding, in addition to preparation for assessment.
 
-Whilethepublishershavemadeeveryattempttoensurethatadviceonthe qualification and its assessment is accurate,the official specification and associatedassessmentguidancematerialsaretheonlyauthoritativesourceof informationandshouldalwaysbereferredtofordefinitiveguidance.
+(e.g. practice questions or advice on how to answer assessment questions) teaching or delivery of a related course.
 
-Pearsonexaminershavenotcontributedtoanysectionsin thisresourcerelevantto examinationpapersforwhichtheyhaveresponsibility.
+While the publishers have made every attempt to ensure that advice on the qualification and its assessment is accurate, the official specification and associated assessment guidance materials are the only authoritative source of information and should always be referred to for definitive guidance.
 
-Examinerswill notuse endorsedresourcesasasource of material for any resourceisrequired toachievethisPearsonqualification,nordoesit meanthat resourcelistsproduced bytheawardingbodyshall include this andother appropriateresources.
+Pearson examiners have not contributed to any sections in this resource relevant to examination papers for which they have responsibility.
+
+Examiners will not use endorsed resources as a source of material for any resource is required to achieve this Pearson qualification, nor does it mean that resource lists produced by the awarding body shall include this and other appropriate resources.
 
 #### Endorsementstatement
 | COURSE STRUCTURE       | iv   |
@@ -375,23 +379,23 @@ A quantity for which the direction must be stated is known as a vector. If direc
 Scalar and vector quantties are netlimited tomesurements related to movemen Every mesured Iits magritude only (scalat e.g, mass).
 Did you know?
 
-These helpyou focus yourlearning and avoid common errors.
+These help you focus your learning and avoid common errors.
 
-Interestingfactshelp you torememberthekey concepts.
+Interesting facts help you to remember the key concepts.
 
-SPERECAION 1.3.11.3.4
+SPECIFICATION 1.3.1 1.3.4
 
-Yourlearning,chapterby chapter,isalwaysputin context:
+Your learning, chapter by chapter, is always put in context:
 
-• ·LinkstootherareasofPhysics includepreviousknowledge thatisbuiltoninthetopic,and futurelearning thatyou will coverlaterinyourcourse.
+• · Links to other areas of Physics include previous knowledge that is built on in the topic, and future learning that you will cover later in your course.
 
-• ·Achecklistdetailsmaths knowledgerequired.lfyou needtopractisetheseskills, youcanusetheMathsSkills referenceatthebackofthe book as a starting point.
+• · A checklist details maths knowledge required. If you need to practice these skills, you can use the MathsSkills reference at the back of the book as a starting point.
 
 1A
 
 STUDENT ESSAY
 
-FigA
+Fig A
 
 lesi s taeser a l fis se cal bare ,,t wrli y
 
@@ -404,9 +408,9 @@ beet fiv nitill wlisk of fl cate
 cp 05st c
 EXAM PRACTICE
 
-Exam-stylequestionsattheendof eachchapteraretailoredtothePearson Edexcelspecificationtoallowforpractice anddevelopmentofexamwriting technique.They alsoallowforpractice respondingtothecommandwordsused intheexams(seethecommandwords glossaryat thebackof thisbook).
+Exam-style questions at the end of each chapter are tailored to the Pearson Edexcel specification to allow for practice and development of exam writing technique. They also allow for practice responding to the command words used in the exams (see the command words glossary at the back of this book).
 
-(ms= 12k wih f[930N,1c cml Ie lieive tbe catoox ial re segle e[ 45° to Be lkostsizoeill.
+(ms= 12k wih f[930N,1c cml Ie lieive tbe catoox ial re segle e[ 45° to Be lkostizoeill.
 
 Shgs to-the mser
 
@@ -494,13 +498,13 @@ uosegfe urcevo- p9x)
 
 tof-z out ftecaren
 
-nwfp At the end ofeach topic,there is anopportunitytoread and workwithreal-liferesearch andwritingaboutscience. Theactivitieshelpyoutoread real-lifematerialthat'srelevant toyourcourse,analysehow scientistswrite，thinkcritically andconsiderhowdifferent aspectsofyourlearningpiece together.
+nwfp At the end of each topic, there is an opportunity to read and work with real-life research and writing about science. The activities help you to read real-life material that's relevant to your course, analyse how scientists write, think critically and consider how different aspects of your learning piece together.
 
 You<(an 36g aeder unetlacthe wiher isgweolyimeiget-a
 
 Skills
 
-Thesesectionswillhelpyou developtransferable skilis, whicharehighlyvaluedin furtherstudyand theworkplace.
+These sections will help you develop transferable skills, which are highly valued in further study and the workplace.
 EXAM PRACTICE
 
 0) th ercld lly ll05
@@ -558,21 +562,21 @@ toobtais the dlats
 [1 ]
 PRACTICAL SKILLS
 
-Practicalworkiscentraltothestudyofphysics.ThePearsonEdexcel International AdvancedSubsidiary(IAS)Physics
+Practical work is central to the study of physics. The Pearson Edexcel International Advanced Subsidiary (IAS) Physics
 
-Yourknowledge andunderstandingofpractical skillsandactivitieswillbeassessed inallexaminationpapersforthe IASLevelPhysicsqualification.
+Your knowledge and understanding of practical skills and activities will be assessed in all examination papers for the IAS Level Physics qualification.
 
-• ·Papers1and2willincludequestionsbasedonpracticalactivities,includingnovelscenarios.
+• · Papers 1 and 2 will include questions based on practical activities, including novel scenarios.
 
-• ·Paper3willtestyourabilitytoplanpracticalwork,includingriskmanagementandselectionofapparatus.
+• · Paper 3 will test your ability to plan practical work, including risk management and selection of apparatus.
 
-Inordertodeveloppractical skills,you should carryoutarange ofpractical experimentsrelated to thetopicscovered in yourcourse.FurthersuggestionsinadditiontotheCorePracticalsareincludedbelow.
-
-#### PRACTICAL SKILLS
-| STUDENTBOOKTOPIC                          | IASCOREPRACTICALS   | IASCOREPRACTICALS                                                                                        | UNIT1(T0PICS1AND2) MECHANICSANDMATERIALS                                                                                                                                          | |-------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | TOPIC1 MECHANICS                          | CP1                 | Determinetheaccelerationofafreely- falling object                                                        | Possiblefurtherpracticalsinclude: ·Strobephotographyortheuseofavideocamera to analyseprojectilemotion                                                                             | | TOPIC2 MATERIALS                          | CP2                 | Useafalling-ballmethod todetermine theviscosityofaliquid                                                 | Determinethecentreofgravityof anirregularrod Investigatetheconservationofmomentumusing lightgates and air track                                                                   | |                                           | CP3                 | DeterminetheYoungmodulusof amaterial                                                                     | Hooke'slawand theYoungmodulusexperiments foravarietyofmaterials                                                                                                                   |
+In order to develop practical skills, you should carry out a range of practical experiments related to the topics covered in your course. Further suggestions in addition to the Core Practicals are included below.
 
 #### PRACTICAL SKILLS
-| TOPIC3 WAVESANDTHE PARTICLENATURE OFLIGHT | CP4                 | Determinethespeedofsound in air usingatwo-beamoscilloscope,signal generator,speakerandmicrophone         | UNIT2（T0PICS3AND4) WAVESANDELECTRICITY Possiblefurtherpracticalsinclude:                                                                                                         | |                                           | CP5                 | Investigatetheeffectsoflength, tension andmassperunitlengthonthe frequency of a vibrating string or wire | Estimatingpoweroutputofanelectricmotor Usingadigitalvoltmetertoinvestigatetheoutput ofapotentialdividerandinvestigatingcurrent/ voltagegraphsforafilamentbulb,thermistor anddiode | |                                           | CP6                 | Determinethewavelengthof lightfrom alaserorotherlightsourceusinga diffraction grating                    | Determiningtherefractiveindexofsolidsand liquids,demonstratingprogressiveandstationary waves ona slinky                                                                           | | TOPIC4 ELECTRIC CIRCUITS                  | CP7                 | Determinetheelectricalresistivityof a material                                                           |                                                                                                                                                                                   | |                                           | CP8                 | Determine thee.m.f.andinternal resistanceofanelectrical cell                                             |                                                                                                                                                                                   |
+| STUDENT BOOK TOPIC                          | IAS CORE PRACTICALS   | IAS CORE PRACTICALS                                                                                        | UNIT1(TOPICS1AND2) MECHANICS AND MATERIALS                                                                                                                                         | |-------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | TOPIC1 MECHANICS                          | CP1                 | Determine the acceleration of a freely- falling object                                                        | Possible further practicals include: · Strobe photography or the use of a video camera to analyse projectile motion                                                                             | | TOPIC2 MATERIALS                          | CP2                 | Use a falling-ball method to determine the viscosity of a liquid                                                 | Determine the centre of gravity of an irregular rod Investigate the conservation of momentum using light gates and air track                                                                   | |                                           | CP3                 | Determine the Young modulus of a material                                                                     | Hooke's law and the Young modulus experiments for a variety of materials                                                                                                                   |
+
+#### PRACTICAL SKILLS
+| TOPIC 3 WAVES AND THE PARTICLE NATURE OF LIGHT | CP4                 | Determine the speed of sound in air using a two-beam oscilloscope, signal generator, speaker and microphone         | UNIT 2 (TOPICS 3 AND 4) WAVES AND ELECTRICITY Possible further practicals include:                                                                                                         | |                                           | CP5                 | Investigate the effects of length, tension and mass per unit length on the frequency of a vibrating string or wire | Estimating power output of an electric motor Using a digital voltmeter to investigate the output of a potential divider and investigating current/voltage graphs for a filament bulb, thermistor and diode | |                                           | CP6                 | Determine the wavelength of light from a laser or other light source using a diffraction grating                    | Determining the refractive index of solids and liquids, demonstrating progressive and stationary waves on a slinky                                                                           | | TOPIC 4 ELECTRIC CIRCUITS                  | CP7                 | Determine the electrical resistivity of a material                                                           |                                                                                                                                                                                   | |                                           | CP8                 | Determine the e.m.f. and internal resistance of an electrical cell                                             |                                                                                                                                                                                   |
 DETERMINE THE ACCELERATION OF A FREELY-FALLING OBJECT
 Procedure
 
@@ -703,13 +707,13 @@ Safety
 In theStudentBook,theCore Practicalspecificationand Lab Bookreferencesaresuppliedin therelevant sections.
 PRACTICAL SKILLS
 
-Practicalskillsboxesexplain techniquesused intheCore Practicals,and also detailuseful skills andknowledgegained in otherrelatedinvestigations.
+Practical skills boxes explain techniques used in the Core Practicals, and also detail useful skills and knowledge gained in other related investigations.
 
-This StudentBookis accompaniedbyaLabBook, whichincludesinstructions andwritingframesfortheCore Practicalsforstudentstorecord theirresultsandreflectontheir work.
+This Student Book is accompanied by a LabBook, which includes instructions and writing frames for the Core Practicals for students to record their results and reflect on their work.
 
-Practicalskills checklists, practicequestionsandanswers are alsoprovided.
+Practical skills checklists, practice questions and answers are also provided.
 
-TheLabBookrecordscanbe usedaspreparationandrevision for thePractical SkillsPaper.
+The LabBook records can be used as preparation and revision for the Practical Skills Paper.
 ASSESSMENTOVERVIEW
 
 Thefollowing tablesgive anoverviewof theassessmentforPearsonEdexcel InternationalAdvancedSubsidiarycourse inPhysics.Youshouldstudythisinformationcloselytohelpensurethatyouarefullypreparedforthiscourseand knowexactlywhattoexpectineachpartof theexamination.Moreinformationaboutthisqualification,andaboutthe questiontypesinthedifferentpapers,canbefoundonpage2o0ofthisbook.
@@ -738,57 +742,63 @@ RELATIONSHIPOFASSESSMENTOBJECTIVESTOUNITS
 | UNIT2                                    | 17-18                       | 17-18                          | 4.5-5.5                        |                         0.0 |
 | UNIT3                                    | 0.0                         | 0.0                            | 0.0                            |                          20 |
 | TOTALFORINTERNATIONAL ADVANCEDSUBSIDIARY | 34-36                       | 34-36                          | 9-11                           |                          20 |
-WORKINGASA PHYSICIST
 
-meanstoworkscientifically.Youwill developconfidenceinkeyscientificskills,suchashandling and controlling quantities and units and making estimates. You will also learn about the ways in whichthescientificcommunityfunctionsand howsocietyasawholeusesscientificideas.
+#### WORKINGASA PHYSICIST
+WORKING AS A PHYSICIST
 
-At the endof each chapterin thisbook,there is a section called ThinkingBigger.Thesesections arebasedbroadlyon thecontentof thechapterjustcompleted,buttheywill also drawonyour previouslearningfromearlierinthecourseorfromyourpreviousstudiesandpointtowards futurelearningandlessfamiliarcontexts.TheThinkingBiggersectionswill alsohelpyouto develop transferable skills.By working through these sections,you will:
+means to work scientifically. You will develop confidence in key scientific skills, such as handling and controlling quantities and units and making estimates. You will also learn about the ways in which the scientific community functions and how society as a whole uses scientific ideas.
 
-• readreal-lifescientificwritinginavarietyofcontextsand aimed atdifferentaudiences
+At the end of each chapter in this book, there is a section called Thinking Bigger. These sections are based broadly on the content of the chapter just completed, but they will also draw on your previous learning from earlier in the course or from your previous studies and point towards future learning and less familiar contexts. The Thinking Bigger sections will also help you to develop transferable skills. By working through these sections, you will:
+
+• read real-life scientific writing in a variety of contexts and aimed at different audiences
 
 • ·develop an understanding of how the professional scientific community functions
 
-• ·learntothinkcriticallyaboutthenatureofwhatyouhaveread
+• ·learn to think critically about the nature of what you have read
 
-• understandtheissues,problemsandchallengesthatmayberaised
+• understand the issues, problems and challenges that may be raised
 
 • ·gain practice in communicating information and ideas in an appropriate scientific way
 
-• ·applyyourknowledgeandunderstandingtounfamiliarcontexts.
+• ·apply your knowledge and understanding to unfamiliar contexts.
 
-Youwill alsogainscientificskills through thehands-onpractical workthatforms anessential partof your course. As well as understanding the experimental methods of the practicals, it is important that you develop the skills necessary to plan experiments and analyse and evaluate data. Not only are theseveryimportantscientificskills,buttheywill beassessed inyourexaminations.
-MATHSSKILLSFORPHYSICISTS
+You will also gain scientific skills through the hands-on practical work that forms an essential part of your course. As well as understanding the experimental methods of the practicals, it is important that you develop the skills necessary to plan experiments and analyse and evaluate data. Not only are these very important scientific skills, but they will be assessed in your examinations.
 
-• ·Recognise and make use of appropriate units in calculations (e.g.knowing the difference between baseandderivedunits)
+#### MATHSSKILLSFORPHYSICISTS
+MATHS SKILLS FOR PHYSICISTS
 
-• Estimateresults(e.g.estimating thespeedofwavesonthesea)
+• ·Recognise and make use of appropriate units in calculations (e.g. knowing the difference between base and derived units)
 
-• Make order of magnitude calculations (e.g. estimating approximately what an answer should be beforeyoustartcalculating,includingusingstandardform)
+• Estimate results (e.g. estimating the speed of waves on the sea)
 
-• Use algebra torearrange and solve equations(e.g.finding thelanding point of a projectile)
+• Make order of magnitude calculations (e.g. estimating approximately what an answer should be before you start calculating, including using standard form)
 
-• Recognise the importance of the straight line graph as an analysis tool for the verification and development of physical laws by experimentation(e.g. choosing appropriate variables to plot to generateastraightlinegraphwithexperimentaldata)
+• Use algebra to rearrange and solve equations (e.g. finding the landing point of a projectile)
+
+• Recognise the importance of the straight line graph as an analysis tool for the verification and development of physical laws by experimentation (e.g. choosing appropriate variables to plot to generate a straight line graph with experimental data)
 
 • Determine the slope and intercept of a linear graph (e.g. finding acceleration from a velocity-time graph)
 
 • Calculate the area under the line on a graph (e.g. finding the energy stored in a stretched wire)
 
 • ·Use geometry and trigonometry (e.g. finding components of vectors)
-WhatpriorknowledgedoI need?
 
-• Understanding andknowledgeofphysicalfacts, terminology,concepts,principles and practical techniques
+#### WhatpriorknowledgedoI need?
+What prior knowledge do I need?
 
-• Applyingtheconcepts andprinciplesofphysics, including the applications of physics,to different contexts
+• Understanding and knowledge of physical facts, terminology, concepts, principles and practical techniques
 
-• Appreciating thepractical natureofphysicsand developing experimental and investigative skills basedon theuseofcorrect andsafelaboratory techniques
+• Applying the concepts and principles of physics, including the applications of physics, to different contexts
 
-• Communicatingscientificmethods,conclusions andargumentsusingtechnical andmathematical language
+• Appreciating the practical nature of physics and developing experimental and investigative skills based on the use of correct and safe laboratory techniques
 
-• Considerationof theimplications,including benefits andrisks,ofscientificand technological developments
+• Communicating scientific methods, conclusions and arguments using technical and mathematical language
 
-• Understandinghowsociety uses scientific knowledgetomakedecisionsaboutthe implementationoftechnologicaldevelopments
+• Consideration of the implications, including benefits and risks, of scientific and technological developments
 
-• Understandingof howscientificideaschange over time,andthesystemsinplacetovalidatethese changes
+• Understanding how society uses scientific knowledge to make decisions about the implementation of technological developments
+
+• Understanding of how scientific ideas change over time, and the systems in place to validate these changes
 LEARNING OBJECTIVES
 
 • Understandthedistinctionbetweenbaseandderived quantities.
@@ -846,9 +856,11 @@ TableAhasthecompletelistofSlbaseunits.Youwill notbeasked questions about thecand
 LEARNING TIP
 
 'Metrology'isthestudyof thescience of measurement,and'metrics referstowaysof standardisingmeasuringtechniques.
-POWERPREFIXES
 
-Sometimes thevalueswehave toworkwithforsome quantities meanthat thenumbersinvolved are extremely large or small. For example,the average distancefrom theEarthto the sun, measured inmetres,is150000000000 m.Scientistshave made an easier system for writing such large values by adding a prefix to theunit which tellsus that it hasbeenmultiplied by averylarge orverysmall amount.IntheEarth orbit example,thedistance is equivalent to 150 billion metres, and the prefix giga- means multiplybyabillion.So theEarth-sun distancebecomes150 gigametres, or 150 Gm.
+#### POWERPREFIXES
+POWER PREFIXES
+
+Sometimes the values we have to work with for some quantities mean that the numbers involved are extremely large or small. For example, the average distance from the Earth to the sun, measured in metres, is 150000000000 m. Scientists have made an easier system for writing such large values by adding a prefix to the unit which tells us that it has been multiplied by a very large or very small amount. In the Earth orbit example, the distance is equivalent to 150 billion metres, and the prefix giga- means multiply by a billion. So the Earth-sun distance becomes 150 gigametres, or 150 Gm.
 
 #### POWERPREFIXES
 |   FACTOR | NAME   | SYMBOL   | FACTOR   | NAME   | SYMBOL   |
@@ -890,43 +902,45 @@ tableBSomewellknownderivedunits.
 | resistance         | ohm        |              | kgm²s-3A-2             |
 
 #### DERIVEDUNITS
-tableBSomewellknownderivedunits.
+Table B Some well known derived units.
 
-• (b)Allof thederivedquantity units arenamed afterscientists. Compare their names and abbreviations.What doyou notice?
+• (b) All of the derived quantity units are named after scientists. Compare their names and abbreviations. What do you notice?
 
-• 2. Writethefollowinginstandardform:
+• 2. Write the following in standard form:
 
-• 3. Write thefollowingusing an appropriateprefix and unit symbol:
+• 3. Write the following using an appropriate prefix and unit symbol:
 
 • (a) 3 600 000 joules
 
-• (c)10 millionthsofan ampere
+• (c) 10 millionths of an ampere
 
-• (b)31536000 seconds
+• (b) 31536000 seconds
 
-• (d)105 000 hertz.
+• (d) 105 000 hertz.
 
 (a) 9.2 GW
 
-• (c) 6400km
+• (c) 6400 km
 
 • (b) 43 mm
 
 (d) 44 ns.
 LEARNING OBJECTIVES
 
-• Estimatevaluesforphysical quantities.
+• Estimate values for physical quantities.
 
-• Useyourestimatestosolveproblems.
-ORDEROFMAGNITUDE
+• Use your estimates to solve problems.
 
-Inphysics,itcanbeveryhelpful tobeabletomakeapproximate estimatesofvaluestowithinanorderofmagnitude.Thismeans that the power of ten of your estimate is the same as the true value. For example, you are the same height as the ceiling in your classroom, if we consider the order of magnitude. The ceiling may be twice your height,but it would need tobe ten times bigger toreach thenextorder ofmagnitude.
+#### ORDEROFMAGNITUDE
+ORDER OF MAGNITUDE
 
-This is made clearer if we express all values in standard form and then comparethepoweroften.You arelikelytobe a thousand magnitude larger.
+In physics, it can be very helpful to be able to make approximate estimates of values to within an order of magnitude. This means that the power of ten of your estimate is the same as the true value. For example, you are the same height as the ceiling in your classroom, if we consider the order of magnitude. The ceiling may be twice your height, but it would need to be ten times bigger to reach the next order of magnitude.
 
-typical ant height: 1.7 mm = 1.7 ×10-3 m typicalhuman height:1.7m = 1.7×10°m
+This is made clearer if we express all values in standard form and then compare the power of ten. You are likely to be a thousand magnitude larger.
 
-figAWe arethree ordersof magnitude tallerthan an ant.
+typical ant height: 1.7 mm = 1.7 ×10⁻³ m typical human height: 1.7 m = 1.7×10⁰m
+
+fig A We are three orders of magnitude taller than an ant.
 
 #### ORDEROFMAGNITUDE
 In many situations,physicists are not interested inspecific answeris incorrect.An order ofmagnitude answerwill always be correct, unless you change the initial conditions by more than an order of magnitude.So a physicist could easily answer the question'What is the fastest speed of a car?'because we don't reallywanttoknowtheexacttruevalue.Togiveanexactanswer woulddependonknowingthemodelofcar,and theweather and roadconditions,and this answerwould onlybe correctfor that car on that day. By estimating important quantities,like a typical mass for cars, we can get an approximate - order of magnitude - answer The reason for doing so would be that it allows us to develop ideas as possible or impossible. Also it helps us focus on developing the ideas along lines that will eventually be feasible when we get to developing a specific solution. This reduces time helps us quickly notice any miscalculations in an answer to a question. If weused an equation to calculate the answer to the fastest speed of a particular car in particular conditions, and the light),we would immediatelyknow that the answer is wrong, and re-check the calculation.
@@ -956,17 +970,17 @@ FERMIQUESTIONS
 Enrico Fermi was an Italian physicist who lived from 1901 to 1954.He was a pioneer of estimation.What havebecomeknown as Fermi questions are seemingly specific questions, to which
 ESTIMATION
 
-onlyanorder ofmagnitude answerisexpected.Itiscommonfor the question to appear very difficult, as we do not have enough information to work out the answer One of Fermi's most interesting thought experiments was a consideration of whether or not alienlifeexists.Over a lunchwith other scientists in1950,Fermi surprised the group by asking "Where is everybody?' referring to extraterrestrials.There seems to beno evidence of the existence of alien life. That is still as true today as it was in 1950. However, whenFermi made an estimation ofwhatwouldbenecessaryfor an extraterrestrial civilisationtotravel tovisit us,hisestimate came out at a muchshorter amountoftime than the ageofourgalaxy.
+only an order of magnitude answer is expected. It is common for the question to appear very difficult, as we do not have enough information to work out the answer. One of Fermi's most interesting thought experiments was a consideration of whether or not alien life exists. Over a lunch with other scientists in 1950, Fermi surprised the group by asking "Where is everybody?" referring to extraterrestrials. There seems to be no evidence of the existence of alien life. That is still as true today as it was in 1950. However, when Fermi made an estimation of what would be necessary for an extraterrestrial civilisation to travel to visit us, his estimate came out at a much shorter amount of time than the age of our galaxy.
 
-Conditionsandlikelihoodforavisitby extraterrestrials
+Conditions and likelihood for a visit by extraterrestrials
 
-• ·A planet thatwill support life-the galaxy holds about 1oo billion stars, s0 thereisahighprobabilitythatsome othersolarsystemswill have an Earth-likeplanet.
+• ·A planet that will support life - the galaxy holds about 100 billion stars, so there is a high probability that some other solar systems will have an Earth-like planet.
 
-• ·Time to develop life - many of the stars inthegalaxyaremuch olderthanthesun, so alien life developing at the same rate asourownshouldhavebeenestablished as long as a billion years before ours.
+• ·Time to develop life - many of the stars in the galaxy are much older than the sun, so alien life developing at the same rate as our own should have been established as long as a billion years before ours.
 
-• ·Time to develop interstellar travel - even if humans have to live our entire history againinordertodevelopspaceshipsthat cantraveltootherstars,thatmeanswe willreachotherstarsinlessthana millionyearsofhumanexistence.
+• ·Time to develop interstellar travel - even if humans have to live our entire history again in order to develop spaceships that can travel to other stars, that means we will reach other stars in less than a million years of human existence.
 
-• ·Time to explore the whole galaxy-from theneareststartoexplorationofthe whole galaxyis,by extrapolation,only a matter of a fewmillionyears.
+• ·Time to explore the whole galaxy - from the nearest star to exploration of the whole galaxy is, by extrapolation, only a matter of a few million years.
 
 #### ESTIMATION
 figCTheFermiParadox:even themost conservative estimates of the requirementsofexploringthegalaxymean thataliens shouldreachEarth within ten million years of their life beginning.If they existed, they would be here.
@@ -1033,32 +1047,32 @@ SKILLS ADAPTIVELEARNING
 
 MOTION
 
-How can we calculate howfasta plane is flying,inwhat direction it is going and how long it will take toreach a certaindestination?If you were a pilot,howwouldyouknowwhatforcetomake the enginesproduce and wheretodirectthatforcesoyourplanemovestoyourdestination?
+How can we calculate how fast a plane is flying, in what direction it is going and how long it will take to reach a certain destination? If you were a pilot, how would you know what force to make the engines produce and where to direct that force so your plane moves to your destination?
 
-Anincrediblenumberofintricatecalculationsneedtobedonetoenableasuccessfulflight,and thebasisforall ofthemissimplemechanics.
+An incredible number of intricate calculations need to be done to enable a successful flight, and the basis for all of them is simple mechanics.
 
-Thischapterexplainsthemultiplemovementsofobjects.Itlooksathowmovementcanbedescribedand recorded, and then moves on to explainingwhy movement happens. It covers velocity and acceleration, includinghowtocalculate theseindifferentsituations.
+This chapter explains the multiple movements of objects. It looks at how movement can be described and recorded, and then moves on to explaining why movement happens. It covers velocity and acceleration, including how to calculate these in different situations.
 
-Weonlyconsiderobjectsmoving atspeedsthatcould be encountered ineverydaylife.Atthesespeeds(much lessthanthespeedof light)SirIsaacNewtonsuccinctlydescribed threelawsofmotion.Withknowledgeofbasic geometry, we can identify aspects of movement in each dimension.
+We only consider objects moving at speeds that could be encountered in everyday life. At these speeds (much less than the speed of light) Sir Isaac Newton succinctly described three laws of motion. With knowledge of basic geometry, we can identify aspects of movement in each dimension.
 
-Newton's laws of motion havebeen constantly under test by scientists ever since he published them in1687. WithintheconstraintsestablishedbyEinsteinintheearlytwentiethcentury,Newton'slawshavealways correctlydescribedtherelationshipsbetweendatacollected.YoumayhaveachancetoconfirmNewton'slaws inexperimentsofyourown.WithmodernICTrecordingofdata,thereliabilityofsuchexperimentsisnowmuch improvedovertraditionalmethods.
+Newton's laws of motion have been constantly under test by scientists ever since he published them in 1687. Within the constraints established by Einstein in the early twentieth century, Newton's laws have always correctly described the relationships between data collected. You may have a chance to confirm Newton's laws in experiments of your own. With modern ICT recording of data, the reliability of such experiments is now much improved over traditional methods.
 MATHS SKILLS FOR THIS CHAPTER
 
-• Units of measurement(e.g.the newton,N)
+• Units of measurement (e.g. the newton, N)
 
-• UsingPythagoras'theorem,and the angle sum ofa triangle(e.g.finding a resultant vector)
+• Using Pythagoras' theorem, and the angle sum of a triangle (e.g. finding a resultant vector)
 
 • Using sin, cos and tan in physical problems (e.g. resolving vectors)
 
-• Usinganglesin regular 2D structures(e.g.interpreting force diagrams tosolveproblems)
+• Using angles in regular 2D structures (e.g. interpreting force diagrams to solve problems)
 
-• Changingthesubjectofanequation(e.g.re-arrangingthekinematicsequations)
+• Changing the subject of an equation (e.g. re-arranging the kinematic equations)
 
-• Substituting numerical values into algebraicequations(e.g.calculating the acceleration)
+• Substituting numerical values into algebraic equations (e.g. calculating the acceleration)
 
-• Plotting two variables from experimental or other data, understanding that y = mx + c represents a linearrelationship and determining the slope ofa lineargraph(e.g.verifying Newton's second law experimentally)
+• Plotting two variables from experimental or other data, understanding that y = mx + c represents a linear relationship and determining the slope of a linear graph (e.g. verifying Newton's second law experimentally)
 
-• Estimating,bygraphical methods as appropriate,the areabetweena curve and thex-axisandrealisingthe physical significanceof thearea thathasbeendetermined(e.g.usingaspeed-timegraph)
+• Estimating, by graphical methods as appropriate, the area between a curve and the x-axis and realising the physical significance of the area that has been determined (e.g. using a speed-time graph)
 Whatpriorknowledge doI need?
 
 • Using a stopwatch to measure times
@@ -1070,17 +1084,19 @@ Whatpriorknowledge doI need?
 • Measuringforces,calculatingresultantforces
 
 • The motion of objects as a result of forces acting onthem
-Whatwill I study in this chapter?
 
-• The definitions of and equationsfor:speed, distance,displacement,time,velocity,acceleration
+#### Whatwill I study in this chapter?
+What will I study in this chapter?
 
-• Graphsofmotionovertime
+• The definitions of and equations for: speed, distance, displacement, time, velocity, acceleration
 
-• Theclassification ofscalarsandvectors
+• Graphs of motion over time
 
-• Adding andresolvingvectors
+• The classification of scalars and vectors
 
-• Newton'slawsofmotion
+• Adding and resolving vectors
+
+• Newton's laws of motion
 
 • Kinematics equations
 
@@ -1096,7 +1112,7 @@ LEARNING OBJECTIVES
 figATheserunners are accelerating to a high speed.
 LEARNING TIP
 
-TheuppercaseGreekletter delta,,isused inmathematics to indicatea change ina quantity.Forexample,s means the changein the displacementofanobject,tobe usedheretocalculatethe velocityof theobject.
+The uppercase Greek letter delta, Δ, is used in mathematics to indicate a change in a quantity. For example, Δs means the change in the displacement of an object, to be used here to calculate the velocity of the object.
 DIDYOUKNOW?
 
 The froghopper, a 6mm long insect,canaccelerateat 4000ms-1.
@@ -1133,70 +1149,72 @@ Instantaneous speed can be an important quantity, and we will look at how tomeas
 • figCMost speed checks look at instantaneous speed,but CCTV allows police to monitor average speed over a long distance.
 ACCELERATION
 
-Acceleration is defined as the rate of change ofvelocity. Therefore,it must include the direction in which the speed is changing, and so acceleration is a vector quantity. The equation defining acceleration is:
+Acceleration is defined as the rate of change of velocity. Therefore, it must include the direction in which the speed is changing, and so acceleration is a vector quantity. The equation defining acceleration is:
 
-changeinvelocity(m s-1)
+change in velocity (m s⁻¹)
 
 acceleration (m s⁻²) = change in velocity (m s⁻¹) / time taken to change the velocity (s) a = (v − u)/t OR a = Δv/Δt
 
 where u is the initial velocity and v is the final velocity.
 
-Thevector nature ofaccelerationisveryimportant.One of the itsvelocity,it is accelerating,whileremaining ata constant speed. Similarly, deceleration represents a negative change in velocity, andsocouldbestated asanegativeacceleration.
-EXAMHINT
+The vector nature of acceleration is very important. One of the its velocity, it is accelerating, while remaining at a constant speed. Similarly, deceleration represents a negative change in velocity, and so could be stated as a negative acceleration.
 
-Whilstaccelerationscan(verybriefly)beextraordinarilyhigh,likethat fortheelectroninquestion3(b),nospeedorvelocitycaneverbe greater than thespeed of light,which is3×10ms1.lf youcalculate aspeed thatishigherthan this,checkyourcalculationagain asit must be wrong.
+#### EXAMHINT
+EXAM HINT
+
+Whilst accelerations can (very briefly) be extraordinarily high, like that for the electron in question 3(b), no speed or velocity can ever be greater than the speed of light, which is 3×10⁸ m/s. If you calculate a speed that is higher than this, check your calculation again as it must be wrong.
 CHECKPOINT
 
 SKILLS
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
-• 1. TheathleteinfigBhastaken36secondsfromthestarttoreach the300 mmark as shown.Calculate:
+• 1. The athlete in fig B has taken 36 seconds from the start to reach the 300 m mark as shown. Calculate:
 
 • (a) his average speed during this 36 seconds
 
-• (b)his averagevelocitydue north duringthis36seconds
+• (b) his average velocity due north during this 36 seconds
 
-• (c)his averagevelocitydue eastduring this36seconds.
+• (c) his average velocity due east during this 36 seconds.
 
-• 2. A driverinacartravellingatabout40.2kmh-1seesacatrun ontotheroad ahead.
+• 2. A driver in a car travelling at about 40.2 km h-1 sees a cat run onto the road ahead.
 
 • (a) Convert 40.2 km h-1 into a speed in m s-1.
 
-• (b)The cartravels16.5m whilst the driverisreacting to the danger.What ishisreactiontime?
+• (b) The car travels 16.5 m whilst the driver is reacting to the danger. What is his reaction time?
 
-• (c)The car comes to a stop in 2.5s.What is its deceleration?
+• (c) The car comes to a stop in 2.5 s. What is its deceleration?
 
-• Anelectron in anX-raymachine is acceleratedfromrest tohalf the speed oflightin1.7×10-15s.Calculate: (a) the speed the electron reaches in m s-1
+• An electron in an X-ray machine is accelerated from rest to half the speed of light in 1.7×10-15 s. Calculate: (a) the speed the electron reaches in m s-1
 
 • 3.
 
-• (b)the acceleration the electron experiences.
+• (b) the acceleration the electron experiences.
 SUBJECT VOCABULARY
 
 speed the rate of change of distance:
 
 speed (m s⁻¹) = distance (m) / time (s) v = d/t
 
-velocitytherateofchangeofdisplacement:
+velocity the rate of change of displacement:
 
 velocity (m s⁻¹) = displacement (m) / time (s)
 
 v = s/t OR v = Δs/Δt
 
-displacement thevectormeasurement of distancein a certain direction
+displacement the vector measurement of distance in a certain direction
 
-vectoraquantitythatmusthavebothmagnitudeanddirection scalara quantitythathasmagnitudeonly
+vector a quantity that must have both magnitude and direction scalar a quantity that has magnitude only
 
-averagespeedspeedforawholejourney,calculatedbydividingthe total distanceforajourneyby thetotal timeforthejourney:
+average speed speed for a whole journey, calculated by dividing the total distance for a journey by the total time for the journey:
 
 average speed (m s⁻¹) = total distance (m) / total time (s)
 
-instantaneousspeedthespeedatanyparticularinstantintimeon a journey,whichcanbefoundfrom thegradientof thetangent to a distance-timegraph at thattime
+instantaneous speed the speed at any particular instant in time on a journey, which can be found from the gradient of the tangent to a distance-time graph at that time
 
-acceleration thevectordefinedastherateofchangeofvelocity:
+acceleration the vector defined as the rate of change of velocity:
 
-change invelocity(m s-1)
+change in velocity (m s-1)
 
 acceleration (m s⁻²) = change in velocity (m s⁻¹) / time taken to change the velocity (s)
 
@@ -1256,32 +1274,34 @@ v = d/t
 As the axes on the v-t graph representvelocity and time,an area whichgives distance.Sotofind the distance travelled from a v-t graph, find the area between the line and the x-axis.
 
 figBVelocity-time graph of theboat trip.
-ACCELERATIONFROMv-tGRAPHS
+
+#### ACCELERATIONFROMv-tGRAPHS
+ACCELERATION FROM v-t GRAPHS
 
 Acceleration is defined as the rate of change in velocity.
 
-In order to calculate the gradient of the line on a v-t graph, we must divide a change in velocity by the corresponding timedifference.Thisexactlymatcheswith theequationfor acceleration:
+In order to calculate the gradient of the line on a v-t graph, we must divide a change in velocity by the corresponding time difference. This exactly matches with the equation for acceleration:
 
 gradient = Δv/Δt = (v − u)/t = acceleration
 
-figCIn thefirst 15minutes(900seconds)the distance travelled bythe boat moving at 0.167m s-1 is given by the area between the line and the x-axis:d = v × t=0.167 × 900= 150m.
+fig C In the first 15 minutes (900 seconds) the distance travelled by the boat moving at 0.167 m s-1 is given by the area between the line and the x-axis: d = v × t = 0.167 × 900 = 150 m.
 
-Ifwe are onlyinterested infindingthe distancemoved,this also worksforanegativevelocity.Youfind the areafrom thelineupto the time axis. This idea will still work for a changing velocity. Find theareaunderthelineandyouhavefoundthedistancetravelled. For example, from 0 to 20 minutes, the area under the line, all the way dowm to the x-axis,is a trapezium, so we need to find that area.To calculatethewholedistancetravelled in thejourneyfor thefirst 40 minutes,wewould have tofind the areas underthe four separate stages(0-15 minutes;15-20 minutes;20-25 minutes;and25-40minutes)andthenaddthesefouranswers together.
+If we are only interested in finding the distance moved, this also works for a negative velocity. You find the area from the line up to the time axis. This idea will still work for a changing velocity. Find the area under the line and you have found the distance travelled. For example, from 0 to 20 minutes, the area under the line, all the way down to the x-axis, is a trapezium, so we need to find that area. To calculate the whole distance travelled in the journey for the first 40 minutes, we would have to find the areas under the four separate stages (0-15 minutes; 15-20 minutes; 20-25 minutes; and 25-40 minutes) and then add these four answers together.
 PRACTICAL SKILLS
 
 CP1
 
-Findingtheaccelerationdueto gravitybymultiflashphotography
+Finding the acceleration due to gravity by multiflash photography
 
-Usinga multiflashphotography technique,oravideorecording that canbeplayedbackframebyframe, wecanobserve thefallingmotionof a small objectsuch asamarble(see figD).Weneed toknowthe time
+Using a multiflash photography technique, or a video recording that can be played back frame by frame, we can observe the falling motion of a small object such as a marble (see fig D). We need to know the time
 
 between frames.
 
-From each image of the falling object,measurethe distanceithas fallenfrom thescalein thepicture. A carefully drawn distance-time graph will show a curve as the object accelerates.Fromthiscurve,take regularmeasurementsof the gradient by drawing tangents to the curve.Thesegradientsshowthe instantaneousspeed ateachpointon the curve.
+From each image of the falling object, measure the distance it has fallen from the scale in the picture. A carefully drawn distance-time graph will show a curve as the object accelerates. From this curve, take regular measurements of the gradient by drawing tangents to the curve. These gradients show the instantaneous speed at each point on the curve.
 
-Plotting thesespeedson a velocity-timegraph should showa straight line,astheacceleration duetogravityis aconstantvalue.Thegradient of the line on this v-t graph will be the acceleration due to gravity, g.
+Plotting these speeds on a velocity-time graph should show a straight line, as the acceleration due to gravity is a constant value. The gradient of the line on this v-t graph will be the acceleration due to gravity, g.
 
-SafetyNote:Personswith medical conditions such as epilepsy or migraine may be adversely affected by multiflash photography.
+Safety Note: Persons with medical conditions such as epilepsy or migraine may be adversely affected by multiflash photography.
 ACCELERATION-TIMEGRAPHS
 
 Acceleration-time graphs show how the acceleration of an object changes overtime.Inmanyinstances the accelerationis zeroor a constant value,in which case an acceleration-time (a-t) graph is likely to be of relatively little interest. For example, the object falling in our investigation above will be accelerated by gravity throughout. Assuming it is relatively small, air resistance will be minimal, and the a-t graph of its motion would be a horizontal line at a=-9.81ms-2.Compare this with yourresults to seehow realistic it is toignore air resistance.
@@ -1295,24 +1315,24 @@ Theweightofaskydiverisconstant,sotheresultantforcewill be decreasing throughout,
 SeeSection 2A.4 for more details on falling objects and terminal velocity.
 EXAMHINT
 
-Rememberthatthegradientofadistance-timegraphrepresents speedorvelocity.So if theline is curved,thechanginggradient indicatesachangingspeed,whichyoucandescribeasthesame as the changes in gradient.
+Remember that the gradient of a distance-time graph represents speed or velocity. So if the line is curved, the changing gradient indicates a changing speed, which you can describe as the same as the changes in gradient.
 CHECKPOINT
 
 SKILLS
 
 INTERPRETATION
 
-(OFGRAPHICAL DATA)
+(OF GRAPHICAL DATA)
 
-• fig FDistance-time graph of a bikejourney.
+• Fig F: Distance-time graph of a bike journey.
 
-• 2. Describein asmuchdetailasyou can,includingcalculated values,whathappensinthecarjourneyshownonthev-tgraph in fig G.
+• 2. Describe in as much detail as you can, including calculated values, what happens in the car journey shown on the v-t graph in fig G.
 
 Time/s
 
-fig GVelocity-timegraph of a car journey.
+Fig G: Velocity-time graph of a car journey.
 
-• 3. FromfigB,calculatethedistancetravelledbytheboatfrom 40 to 60 minutes.
+• 3. From fig B, calculate the distance travelled by the boat from 40 to 60 minutes.
 SUBJECT VOCABULARY
 
 journey,withdisplacementonthey-axisandtimeonthex-axis. withvelocityonthey-axis andtime onthex-axis. gradient the slope of a line or surface
@@ -1323,9 +1343,11 @@ LEARNING OBJECTIVES
 • Add twoperpendicularvectorsby calculation.
 
 Forces arevectors.Thismeans thatmeasuring theirmagnitude is important, but equally important is knowing the direction in which theyact.Inordertocalculatetheoveralleffectofmultipleforces actingon thesameobject,wecan usevectoradditiontowork out theresultantforce.Thisresultantforce canbeconsidered as a singleforce that has thesame effect as all the individual forces combined.
-ADDINGFORCESINTHESAMELINE
 
-If two ormoreforces are acting along the same line,then combiningthemis simply acaseofaddingorsubtracting their magnitudesdependingontheirdirections.
+#### ADDINGFORCESINTHESAMELINE
+ADDING FORCES IN THE SAME LINE
+
+If two or more forces are acting along the same line, then combining them is simply a case of adding or subtracting their magnitudes depending on their directions.
 
 a
 MAGNITUDEOFTHERESULTANTFORCE
@@ -1363,36 +1385,38 @@ THEPARALLELOGRAMRULE
 Thereis anothermethodforfinding theresultantof twonon-perpendicularforces(orvectors) by scale drawing.which can be easier to use.This is called the parallelogram rule. Draw the two vectors thesamepoint.Thendraw thesame twovectors againparallel to the original ones,so that theyform a parallelogram,asshown infig F.Theresultantforce(orvector)will be the diagonal across the parallelogram from the starting point.
 
 fig FFinding the resultant vector using the parallelogram rule.
-EXAMHINT
 
-Thevectoradditionrulesshownonthesepagesworkforallvectors,notjustforces.Theyareuseful onlyfor areinmorethanoneplane,addtwovectorstogetherfirst,intheirplane,andthenaddtheresultanttothe nextvectorusingtheserulesagain.Keepdoingthisuntil all thevectorshavebeenadded in.
+#### EXAMHINT
+EXAM HINT
+
+The vector addition rules shown on these pages work for all vectors, not just forces. They are useful only for a re in more than one plane, add two vectors together first, in their plane, and then add the resultant to the next vector using these rules again. Keep doing this until all the vectors have been added in.
 FREE-BODYFORCEDIAGRAMS
 
 If we clarify what forces are acting on an object, it can be simpler to calculate how it will move. To do this,weusuallydrawafree-bodyforcediagram,whichhastheobjectisolated,and alltheforcesthat act on it drawn in at the points where they act. Forces acting on other objects, and those other objects, are not drawn.For example,fig G could be said to be a free-bodyforce diagram of the rugby player being tackled in fig B, and this would lead us to draw fig C and fig D to make our resultant calculations.
 CHECKPOINT
 
-• 1. Work out the resultant force on a toy carif it hasthefollowing forces acting on it:
+• 1. Work out the resultant force on a toy car if it has the following forces acting on it:
 
-• rubberbandmotordrivingforwards8.4N
+• rubber band motor driving forwards 8.4 N
 
-• airresistance 0.5N
+• air resistance 0.5 N
 
-• friction5.8N
+• friction 5.8 N
 
 • child's hand pushing forward 10 N.
 
-• 2. Asasmallplaneacceleratestotakeoff,theliftforceonitis60o0Nverticallyupwards,whilstthe thrustis2800Nhorizontallyforwards.Whatistheresultantof theseforcesontheplane?
+• 2. As a small plane accelerates to take off, the lift force on it is 6000 N vertically upwards, whilst the thrust is 2800 N horizontally forwards. What is the resultant of these forces on the plane?
 
 • Draw a free-body force diagram of yourself sitting on your chair.
 
-• 4.(a)Drawthescale diagramoffigE,andworkoutwhattheresultantforcewouldbe. (b) Use the parallelogram rule,as in fig F,to check your answer topart (a).
+• 4. (a) Draw the scale diagram of fig E, and work out what the resultant force would be. (b) Use the parallelogram rule, as in fig F, to check your answer to part (a).
 
-• 5. Inordertotry andrecoveracarstuckina muddyfield,twotractorspull onit.Thefirstactsat an angleof20°leftoftheforwardsdirectionwithaforceof2250N.Thesecondacts15°totherightof theforwardsdirectionwithaforceof20o0N.Drawascalediagramofthesituationandfindthe resultantforceonthestuckcar.
+• 5. In order to try and recover a car stuck in a muddy field, two tractors pull on it. The first acts at an angle of 20° left of the forwards direction with a force of 2250 N. The second acts 15° to the right of the forwards direction with a force of 2000 N. Draw a scale diagram of the situation and find the resultant force on the stuck car.
 SUBJECT VOCABULARY
 
-resultant force the totalforce(vector sum) acting on a bodywhen all theforces are added together accountingfortheirdirections
+resultant force the total force (vector sum) acting on a body when all the forces are added together accounting for their directions
 
-free-bodyforcediagramdiagramshowinganobjectisolated,andalltheforcesthatactonitaredrawnin atthepointswheretheyact,usingarrowstorepresenttheforces
+free-body force diagram diagram showing an object isolated, and all the forces that act on it are drawn in at the points where they act, using arrows to represent the forces
 LEARNING OBJECTIVES
 
 • Calculate the momentof a force.
@@ -1422,20 +1446,20 @@ If we add up all the forces acting on an object and the resultant force, account
 • figDAs themetre-longbeam isbalanced,the sumof all the clockwise moments must equal the sum of all the anticlockwise moments.
 LEARNING TIP
 
-Theclockwisemomentsandtheanticlockwisemomentsmustallbe taken about thesame pivotpoint.
+The clockwise moments and the anticlockwise moments must all be taken about the same pivot point.
 
 EXAM HINT
 
-Notethatthestepsandlayoutof thesolutionin thisworked examplearesuitablefor momentsquestionsin the exam.
+Note that the steps and layout of the solution in this worked example are suitable for moments questions in the exam.
 WORKED EXAMPLE
 
-InfigD,wecanworkout theweightof thebeamif weknowalltheotherweights anddistances.Thebeam is uniform, so its weight will act from its centre. The length of the beam is 100 cm. So if x = 20 cm, then xo must be30 cm,and x2=80cm.The dinosaur(w) weighs 5.8N and the toy cars weight(W2) is 0.95 N. Inequilibrium,principleof moments:sumof anticlockwisemoments=sumofclockwisemoments
+In fig D, we can work out the weight of the beam if we know all the other weights and distances. The beam is uniform, so its weight will act from its centre. The length of the beam is 100 cm. So if x₁ = 20 cm, then x₀ must be 30 cm, and x₂ = 80 cm. The dinosaur (w₁) weighs 5.8 N and the toy car's weight (w₂) is 0.95 N. In equilibrium, principle of moments: sum of anticlockwise moments = sum of clockwise moments
 LEARNING TIP
 
-Inordertocalculatethesumof the momentsin either direction, each individual momentmust becalculatedfirstandthese individualmomentsthenadded together.Theweightsand/or distancescannotbe added togetherandthisanswerused tocalculatesomesortof combinedmoment.
+In order to calculate the sum of the moments in either direction, each individual moment must be calculated first and these individual moments then added together. The weights and/or distances cannot be added together and this answer used to calculate some sort of combined moment.
 LEARNING TIP
 
-Youcanconsiderthe terms 'centreofgravity'and'centreof mass'to mean the same thing. They areexactlythesamefor objectsthataresmallcompared tothesizeoftheEarth.
+You can consider the terms 'centre of gravity' and 'centre of mass' to mean the same thing. They are exactly the same for objects that are small compared to the size of the Earth.
 
 W₁x₁ = W₀x₀ + W₂x₂ 5.8 × 0.20 = W₀ × 0.30 + 0.95 × 0.80 ∴ W₀ = (1.16 − (0.76))/0.30 W₀ = 1.3 N
 CENTREOFGRAVITY
@@ -1444,74 +1468,79 @@ TheweightofanobjectiscausedbythegravitationalattractionbetweentheEarthandeachpar
 IRREGULAROBJECTS
 
 The centre of gravity of an irregularly shaped object will still follow the rule that it is the point at which its weight appears to act on the object.A Bunsen burner, for example,has a heavy base. As such, the centre of gravity is low down near that concentration of mass,as there will be a greater attractionbytheEarth'sgravity to thislargemass.
-Findingthecentreofmassof an irregularrod
 
-In thisinvestigation,we use theprincipleof moments tofind thecentre of gravity of abroom.It isnot easy to estimate/determine the (location of the) centre of gravity by looking at abroombecause it is not a symmetrical object.With the extra mass at thebrush head end,thecentre of gravitywill be nearer that end.
+#### Findingthecentreofmassof an irregularrod
+Finding the centre of mass of an irregular rod
 
-If youcanbalance thebroom on the edgeof a thickmetal ruler,then thecentre ofgravitymust lie above theruler edge.As the perpendicular distance from the line of action to the weight is zero,the moment is zerosothebroomsitsinequilibrium.
+In this investigation, we use the principle of moments to find the centre of gravity of a broom. It is not easy to estimate/determine the (location of the) centre of gravity by looking at a broom because it is not a symmetrical object. With the extra mass at the brush head end, the centre of gravity will be nearer that end.
 
-You will probably find it difficult to balance the broom exactly.so you can use an alternative method.First massm)tobalancethebroommoreinthemiddleofthehandle,asinfigG.When thebroom isbalanced, you measure the distance (d) from the hanging masses to the pivot. You calculate the distance (x) from the pivottothecentreofgravityofthebroomusingtheprincipleofmoments:
+If you can balance the broom on the edge of a thick metal ruler, then the centre of gravity must lie above the ruler edge. As the perpendicular distance from the line of action to the weight is zero, the moment is zero so the broom sits in equilibrium.
 
-clockwisemoment=anticlockwisemoment
+You will probably find it difficult to balance the broom exactly, so you can use an alternative method. First mass (m) to balance the broom more in the middle of the handle, as in fig G. When the broom is balanced, you measure the distance (d) from the hanging masses to the pivot. You calculate the distance (x) from the pivot to the centre of gravity of the broom using the principle of moments:
+
+clockwise moment = anticlockwise moment
 
 mg × d = Mg × x ∴ x = md/M
 
-Note:Donotgetinto thehabitof usingonlythemassinmomentscalculations,asthedefinitionisforce timesdistance.Itjusthappensthatinthiscaseg cancelson eachside.
+Note: Do not get into the habit of using only the mass in moments calculations, as the definition is force times distance. It just happens that in this case g cancels on each side.
 
-SafetyNote:Securely clamp thebase of the stand to thebench.Do not use a very heavybroom as you would need a heavier counterweight which could fall and cause injury.
+Safety Note: Securely clamp the base of the stand to the bench. Do not use a very heavy broom as you would need a heavier counterweight which could fall and cause injury.
 CHECKPOINT
 
 • 1.Whatisthemomentof a252Nforce actingonasolidobjectataperpendiculardistanceof1.74mfrom anaxisofrotationoftheobject?
 
 • 2.A child and his father are playing on a seesaw,see fig H.They are exactly balanced when the boy (mass 46kg)sitsat theendof theseesaw,2.75mfromthepivot.If hisfatherweighs824N,howfarishefrom the pivot?
-fig H
 
-• 3.Theweightof theexercisebookintheleft-handpictureinfigBcausesarotationsoitmovestowards secondpicture.
+#### fig H
+• 3. The weight of the exercise book in the left-hand picture in fig B causes a rotation so it moves towards second picture.
 
-• 4.lf thesameset-upasshowninfigDwasusedagain,butthetoycarwasreplacedwithabanana weighing1.4N,findoutwherethebananawouldhavetobepositionedforthebeamtobalancecalculatethenewx3
+• 4. If the same set-up as shown in fig D was used again, but the toy car was replaced with a banana weighing 1.4 N, find out where the banana would have to be positioned for the beam to balance. Calculate the new x₃
 SUBJECT VOCABULARY
 
-equilibriumthesituationforabodywherethereiszeroresultantforce andzeroresultantmoment.Itwill havezeroacceleration
+equilibrium the situation for a body where there is zero resultant force and zero resultant moment. It will have zero acceleration
 
-principle ofmoments a body willbe in equilibrium if the sum of clockwisemoments actingon it is equal tothesumoftheanticlockwisemoments
+principle of moments a body will be in equilibrium if the sum of clockwise moments acting on it is equal to the sum of the anticlockwise moments
 
-centreofgravitythepointthroughwhichtheweightofanobjectappearstoact
+centre of gravity the point through which the weight of an object appears to act
 LEARNING OBJECTIVES
 
 • Recall Newton's laws of motion and use them to explain the acceleration of objects.
 
 • Make calculations using Newton's second law of motion.
 
-• Identifypairsofforcesinvolved inNewton'sthird lawofmotion.
+• Identify pairs of forces involved in Newton's third law of motion.
 
-Sir Isaac Newton was an exceptional thinker and scientist. His influence overscienceintheWestisstill enormous,despite thefactthathelivedfrom1642to1727.Hewasaprofessorat Cambridge University, a member of the British Parliament, and apresident oftherespected scientificorganisation,theRoyal Society,in London.Probablyhis most famous contribution to sciencewasthedevelopmentofthreesimplelawsgoverningthe movement of objects subject toforces.
+Sir Isaac Newton was an exceptional thinker and scientist. His influence over science in the West is still enormous, despite the fact that he lived from 1642 to 1727. He was a professor at Cambridge University, a member of the British Parliament, and a president of the respected scientific organisation, the Royal Society, in London. Probably his most famous contribution to science was the development of three simple laws governing the movement of objects subject to forces.
 
-fig AAportrait painting of Sir Isaac Newton
-NEWTON'SFIRSTLAWOFMOTION
+fig A A portrait painting of Sir Isaac Newton
 
-If anobjectis stationary thereneedstobe aresultantforce on
+#### NEWTON'SFIRSTLAWOFMOTION
+NEWTON'S FIRST LAW OF MOTION
 
-it tomakeitmove.Wesawhow tocalculateresultantforcesin Section1A.3.If the objectis already moving then it will continue at thesamespeedin thesamedirectionunless aresultantforce actson it.If there isnoresultantforce on an object-either because thereiszeroforceactingorall theforcesbalanceoutthen the object's motion is not changed.
+If an object is stationary there needs to be a resultant force on
+it to make it move. We saw how to calculate resultant forces in Section 1A.3. If the object is already moving then it will continue at the same speed in the same direction unless a resultant force acts on it. If there is no resultant force on an object - either because there is zero force acting or all the forces balance out - then the object's motion is not changed.
 
-NEWTON'SSECONDLAWOFMOTION
+NEWTON'S SECOND LAW OF MOTION
 
-This law tells us how much an object's motion will be changed by a resultant force.Foran object with constant mass,it is usually written mathematically:
+This law tells us how much an object's motion will be changed by a resultant force. For an object with constant mass, it is usually written mathematically:
 ∑F=ma
 
-resultant force(N)=mass (kg)× acceleration (m s-2)
+resultant force (N) = mass (kg) × acceleration (m s⁻²)
 
-For example,this relationship allowsusto calculate the acceleration due to gravity (g) if we measure the force (F) accelerating a mass (m) downwards.
+For example, this relationship allows us to calculate the acceleration due to gravity (g) if we measure the force (F) accelerating a mass (m) downwards.
 
 F = ma = mg ∴ g = F/m
 
-fig BA stationary object will not move unless it is acted upon by a resultantforce.
-Newton'ssecondlawinvestigation
+Fig A A stationary object will not move unless it is acted upon by a resultant force.
 
-figCExperimental set-upforinvestigating therelationshipbetweenF,m anda.
+#### Newton'ssecondlawinvestigation
+Newton's second law investigation
 
-Youcanusetheset-upshowninfigC,ora similarexperimentonan air track.Thisset-upmeasuresthe accelerationforvariousvaluesof the resultantforce thatactsonthetrolleywhilstyoukeepitsmassconstant (table A).By plotting a graph of acceleration against resultant force, a straight line will show that acceleration is proportional to theresultant force.You could also plot a graph forvarying masses of trolley whilst you keep theresultant force constant(table B).
+Fig C Experimental set-up for investigating the relationship between F, m and a.
 
-SafetyNote:Placeheavytrolleysandrunwayswheretheycannot slideorfalloffbenchesandcauseinjuries.Placeairtrackblowers onthefloor.Securethehosesothatitcannotcomelooseand blowdirtanddustinto eyes.
+You can use the set-up shown in fig C, or a similar experiment on an air track. This set-up measures the acceleration for various values of the resultant force that acts on the trolley whilst you keep its mass constant (table A). By plotting a graph of acceleration against resultant force, a straight line will show that acceleration is proportional to the resultant force. You could also plot a graph for varying masses of trolley whilst you keep the resultant force constant (table B).
+
+Safety Note: Place heavy trolleys and runways where they cannot slide or fall off benches and cause injuries. Place air track blowers on the floor. Secure the hoses so that it cannot come loose and blow dirt and dust into eyes.
 
 #### Newton'ssecondlawinvestigation
 |   FORCE/N |   ACCELERATION/ms-2 |
@@ -1536,76 +1565,81 @@ tableBValuesofaccelerationresultingfromanappliedforceof O.5Nwhen the mass of the
 |       1.0 |                0.50 |
 
 #### Newton'ssecondlawinvestigation
-tableBValuesofaccelerationresultingfromanappliedforceof O.5Nwhen the mass of the trolley is varied.
+table B Values of acceleration resulting from an applied force of 0.5N when the mass of the trolley is varied.
 
-figDGraphofresultsfrom thefirstinvestigationintoNewton's second law.Accelerationis directlyproportional toforce.
+fig D Graph of results from the first investigation into Newton's second law. Acceleration is directly proportional to force.
 
-fig EGraph of results from the second investigation intoNewton's second law.Thex-axisrepresents thederiveddataof'1/mass,sothestraightbest-fit line shows that acceleration is inversely proportional tomass.Note that there is no need foragraph to start at the origin:choose axes scalesthatwill best show the pattern in the data by making thepoints fill the graph paper.
+fig E Graph of results from the second investigation into Newton's second law. The x-axis represents the derived data of '1/mass, so the straight best-fit line shows that acceleration is inversely proportional to mass. Note that there is no need for a graph to start at the origin: choose axes scales that will best show the pattern in the data by making the points fill the graph paper.
 
-table AValuesof accelerationfordifferentforcesactingona trolley
+table A Values of acceleration for different forces acting on a trolley
 
-ExperimentalverificationofNewton's second lawiswell established.Theinvestigationshowninfig C demonstrates that:a= F m
-Straight-linegraphs
+Experimental verification of Newton's second law is well established. The investigation shown in fig C demonstrates that: a= F m
 
-Physicists always try to arrange theirexperimental data intographs thatproduce a straightbest-fit line.Thisprovesa linearrelationshipbetween theexperimentalvariables,andcanalsogiveusnumericalinformationaboutthequantitiesinvolved.
+#### Straight-linegraphs
+Straight-line graphs
 
-The equationfora straightline is:
+Physicists always try to arrange their experimental data into graphs that produce a straight best-fit line. This proves a linear relationship between the experimental variables, and can also give us numerical information about the quantities involved.
+
+The equation for a straight line is:
 
 y = mx + c
 
-'m'in the equation is thegradient of the straight line,and'cis thevalue on the y-axiswhere the line crosses it,known as they-intercept.
+'m' in the equation is the gradient of the straight line, and 'c' is the value on the y-axis where the line crosses it, known as the y-intercept.
 
-If weplotexperimentaldata onagraph andgeta straightbest-fit line,thenthisprovesthequantitiesweplottedonxandyhavea linear relationship.It isreferred to as'directly proportional(or simply'proportional) onlyif the line also passes through the origin,meaning that c=0.
+If we plot experimental data on a graph and get a straight best-fit line, then this proves the quantities we plotted on x and y have a linear relationship. It is referred to as 'directly proportional' (or simply 'proportional') only if the line also passes through the origin, meaning that c=0.
 
-ThegraphsinfigD andfigEdemonstrate experimental verification of Newton'ssecond law.Ineachcase,the thirdvariableinthe equationwas keptconstantasacontrolvariable.orexample,infigD thestraightbest-fit line,showingthatyαx,rovesthataαF,andthegradientofth best-fit linewouldrepresent thereciprocal of themassthatwas accelerated andwaskeptconstant throughout,asa controlvariable.In this examplec=O,whichmeansthattheproportionalrelationshipsaresimple:
+The graphs in fig D and fig E demonstrate experimental verification of Newton's second law. In each case, the third variable in the equation was kept constant as a control variable. For example, in fig D the straight best-fit line, showing that y ∝ x, proves that a ∝ F, and the gradient of the best-fit line would represent the reciprocal of the mass that was accelerated and was kept constant throughout, as a control variable. In this example c=0, which means that the proportional relationships are simple:
 
-y = mx a = F/m
+y = mx
+a = F/m
 LEARNING TIP
 
-IdentifyingNewton'sthird law offorcepairscanconfuse people.Tofind the twoforces, remembertheymustalwaysact ondifferentobjectsandmust alwayshavethesamecause.In figF,itisthemutualrepulsion ofelectronsintheatomsofthe footballandthebootthatcause theactionandreaction.
+Identifying Newton's third law of force pairs can confuse people. To find the two forces, remember they must always act on different objects and must always have the same cause. In fig F, it is the mutual repulsion of electrons in the atoms of the football and the boot that cause the action and reaction.
 
-AsboththeaboveequationsrepresentthegraphinfigD,tfollowsthatthegradient,m,equalsthe reciprocalofthemass,1/m.Itisjustcoincidencethatthesymbol'm'forgradient,and'm'formassarethe sameletterinthisexample.
+As both the above equations represent the graph in fig D, it follows that the gradient, m, equals the reciprocal of the mass, 1/m. It is just coincidence that the symbol 'm' for gradient, and 'm' for mass are the same letter in this example.
 
-Notethatgraphsinphysicsarecausal relationships.InfigD,theacceleration iscausedbytheforce.Itis correlation'donotcorrectlydescribegraphsofphysicsexperiments.
+Note that graphs in physics are causal relationships. In fig D, the acceleration is caused by the force. It is correlation 'do not correctly describe graphs of physics experiments.
 
-Similarly,it isveryrarethatagraphofaphysicsexperimentwouldbecorrectlydrawn if thepoints are joined'dot-to-dot.Inmostcasesa best-fit lineshouldbedrawn,ashasbeendoneinfigE.
-NEWTON'STHIRDLAWOFMOTION
+Similarly, it is very rare that a graph of a physics experiment would be correctly drawn if the points are joined 'dot-to-dot'. In most cases a best-fit line should be drawn, as has been done in fig E.
 
-"When an object A causes a force on another object B, then object B causes an equal force in the opposite direction to act upon object A For example,when a skateboarder pushes off from a wall, they exert aforce on thewall with theirhand.At the sametime,thewall exerts aforceon theskateboarder's hand. This equal and opposite reaction force is what they can feel with the sense of touch, and as the skateboard hasverylowfriction,thewall'spush on them causes acceleration awayfrom thewall.As the wallis connected totheEarth,theEarthandwallcombinationwill accelerateintheoppositedirection. TheEarth hassuch alargemass that its accelerationcan't be noticed.That'sNewton'ssecond law again: acceleration is inversely proportional to mass;huge mass means tiny acceleration.
+#### NEWTON'STHIRDLAWOFMOTION
+NEWTON'S THIRD LAW OF MOTION
 
-figFWhen theboot puts a force on thefootball, thefootball causes anequal and oppositeforce on theboot. Thefootballercanfeel thekickbecausetheyfeelthereactionforcefromtheballontheirtoe.
+"When an object A causes a force on another object B, then object B causes an equal force in the opposite direction to act upon object A. For example, when a skateboarder pushes off from a wall, they exert a force on the wall with their hand. At the same time, the wall exerts a force on the skateboarder's hand. This equal and opposite reaction force is what they can feel with the sense of touch, and as the skateboard has very low friction, the wall's push on them causes acceleration away from the wall. As the wall is connected to the Earth, the Earth and wall combination will accelerate in the opposite direction. The Earth has such a large mass that its acceleration can't be noticed. That's Newton's second law again: acceleration is inversely proportional to mass; huge mass means tiny acceleration.
+
+fig F When the boot puts a force on the football, the football causes an equal and opposite force on the boot. The footballer can feel the kick because they feel the reaction force from the ball on their toe.
 CHECKPOINT
 
-• IntermsofNewton'slawsofmotion:
+• In terms of Newton's laws of motion:
 
-• (a)Explainwhythisbookwill sitstationaryonatable.
+• (a) Explain why this book will sit stationary on a table.
 
-• (b) Describe and explain what will happen if yourhands then put an upwards force on thebook that is greater than its weight.
+• (b) Describe and explain what will happen if your hands then put an upwards force on the book that is greater than its weight.
 
-• (c)Explainwhyyoufeelthebookwhenyourhandsputthatupwardsforceonit.
+• (c) Explain why you feel the book when your hands put that upwards force on it.
 
-• 2.(a)Calculate thegradientof thebest-fit lineonthegraphinfigD and thusworkout themassof the trolleythatwas acceleratedin thefirstinvestigation.
+• 2. (a) Calculate the gradient of the best-fit line on the graph in fig D and thus work out the mass of the trolley that was accelerated in the first investigation.
 
-• (b)State what quantity the gradient of the line on the graph in fig E represents.Calculate thevalue of that quantity.
+• (b) State what quantity the gradient of the line on the graph in fig E represents. Calculate the value of that quantity.
 
-• Calculatetheaccelerationineachofthefollowingcases:
+• Calculate the acceleration in each of the following cases:
 
-• (a)A mass of 12.0 kg experiences a resultant force of 785 N.
+• (a) A mass of 12.0 kg experiences a resultant force of 785 N.
 
-• (b)A force of 22.2 N acts on a 3.1kg mass.
+• (b) A force of 22.2 N acts on a 3.1 kg mass.
 
-• (c)A 2.0kgbunch ofbananasis dropped.Thebunchweighs19.6 N.
+• (c) A 2.0 kg bunch of bananas is dropped. The bunch weighs 19.6 N.
 
-• (d)Duringa tackle,twofootballerskickastationaryballatthesame time,withforces actingin opposite directions.Onekickhas a force of 210N,the otherhas a force of 287N.The mass of the footballis 430 g.
+• (d) During a tackle, two footballers kick a stationary ball at the same time, with forces acting in opposite directions. One kick has a force of 210 N, the other has a force of 287 N. The mass of the football is 430 g.
 SUBJECT VOCABULARY
 
-Newton'sfirstlawofmotionanobjectwillremainatrest,orinastateofuniformmotion,untilactedupon byaresultantforce
+Newton's first law of motion an object will remain at rest, or in a state of uniform motion, until acted upon by a resultant force
 
-Newton'ssecondlawofmotionifanobject'smassisconstant,theresultantforceneededtocausean accelerationisgivenbytheequation:
+Newton's second law of motion if an object's mass is constant, the resultant force needed to cause an acceleration is given by the equation:
 
-EF=ma
+EF = ma
 
-Newton'sthird lawofmotionforeveryaction,thereisanequalandoppositereaction
+Newton's third law of motion for every action, there is an equal and opposite reaction
 LEARNING OBJECTIVES
 
 • Recall the simplekinematics equations.
@@ -1639,36 +1673,38 @@ There are equations that allow us to work out the motion of an object that is mo
 • t- time (s)
 
 Eachequation usesfour ofthevariables,whichmeans that ifwe know the values of any three variables, we can find out the other two.
-ACCELERATIONREDEFINED
+
+#### ACCELERATIONREDEFINED
+ACCELERATION REDEFINED
 
 By re-arranging the equation that defined acceleration, we come to the usual expression of the first kinematics equation:
 
 v=u+at
 
-For example,if a stone is dropped off a cliff (see fig B) and takes threesecondstohit theground,whatisitsspeedwhenitdoeshit the ground?
+For example, if a stone is dropped off a cliff (see fig B) and takes three seconds to hit the ground, what is its speed when it does hit the ground?
 
 Identify the three things we know:
 
-• ·falling under gravity, so a = g = 9.81 m s-2 (constant acceleration,sothekinematicsequations canbe used)
+• ·falling under gravity, so a = g = 9.81 m s-2 (constant acceleration, so the kinematics equations can be used)
 
 • starts at rest, so u = O m s-1
 
-• timetofallt=3s
+• time to fall t=3s
 
 v=u+at=0+9.81×3=29.43
 
 v = 29.4 m s-1
 EXAMHINT
 
-Oftentheaccelerationwillnotbeclearlystated,buttheobjectis fallingundergravity,so:
+Often the acceleration will not be clearly stated, but the object is falling under gravity, so:
 
-a=g=9.81ms-2
+a = g = 9.81 ms⁻²
 
 EXAMHINT
 
-Oftentheinitialvelocitywillnotbeexplicitlystated,buttheobject starts'atrest.Thismeansit is stationary at thebeginning,so:
+Often the initial velocity will not be explicitly stated, but the object starts 'at rest. This means it is stationary at the beginning, so:
 
-u=0ms-1
+u = 0 ms⁻¹
 DISTANCEFROMAVERAGESPEED
 
 As the kinematics equations only work with uniform acceleration, the average speed during any acceleration will be halfway from the initial velocity to the final velocity. Therefore the distance travelled is the average speed multiplied by the time:
@@ -1716,37 +1752,39 @@ We can use this equation to check again how high the stone was dropped from:
 s = ut + ½at² = (0 × 3) + (½ × 9.81 × 3²) = 44.1
 
 Notice that the answer must come out the same, as we are calculating for the same clif. This highlights the fact that we can use whichever equation is most appropriate for the information given.
-COMBININGEQUATIONSB
+
+#### COMBININGEQUATIONSB
+COMBINING EQUATIONS
 
 s = ((u + v)/2) × t
 
-By substituting thefirst of these equations into the second,we get the combination equation:
+By substituting the first of these equations into the second, we get the combination equation:
 
 v = u + a × (2s/(u + v))
 
-• v（u+v)=u（u+v)+2as
+• v(u+v) = u(u+v) + 2as
 
-• vu+v²=u²+uv+2as
+• vu + v² = u² + uv + 2as
 
-vu=uvsosubtractfromeachside
+• vu = uv so subtract from each side
 
 v² = u² + 2as
 
-Check againwhat thestone'sfinal velocitywouldbe:
+Check again what the stone's final velocity would be:
 
-• ·falling under gravity, so a = g = 9.81 m s-2
+• · falling under gravity, so a = g = 9.81 m s-2
 
-• · starts at rest, so u = O ms-1
+• · starts at rest, so u = 0 ms-1
 
-• ·height to fall s = 44.1 m
+• · height to fall s = 44.1 m
 
 v² = u² + 2as = 0² + (2 × 9.81 × 44.1) = 865
 
-• V=√865=29.4
+• V = √865 = 29.4
 
 • v = 29.4 m s-1
 
-Notice that the answer must come out the same as previously calculated, and this again highlights that there aremanyways toreach the answer
+Notice that the answer must come out the same as previously calculated, and this again highlights that there are many ways to reach the answer
 
 #### COMBININGEQUATIONSB
 | KINEMATICSEQUATION   | QUANTITYNOTUSED   |
@@ -1758,53 +1796,55 @@ Notice that the answer must come out the same as previously calculated, and this
 
 #### COMBININGEQUATIONSB
 table AEach of the kinematics equations is useful, depending on the information we are given.If you know three quantities,you can always find a fourth byidentifying which equation links those fourquantities andrearranging thatequationtofind the unknown.
-Findingthe accelerationduetogravitybyfreefall
 
-A system for timing thefall of an object under gravity can allow us to measurethe accelerationduetogravity.Inthisexperiment,we measure thetime takenbya fallingobjecttodropundergravityfrom a certain height,and then alterthe height andmeasure again.
+#### Findingthe accelerationduetogravitybyfreefall
+Finding the acceleration due to gravity by free fall
+
+A system for timing the fall of an object under gravity can allow us to measure the acceleration due to gravity. In this experiment, we measure the time taken by a falling object to drop under gravity from a certain height, and then alter the height and measure again.
 
 • figcThe freefall time of an object from different heights allows us to find the acceleration due to gravity. g.
 
-Ifwevarytheheightfromwhichtheobjectfalls,thetimetakento landwill vary.Thekinematicsequationstell usthat:
+If we vary the height from which the object falls, the time taken to land will vary. The kinematic equations tell us that:
 
 s = ut + ½at²
 
-Asit always startsfromrest,u=O throughout;theacceleration is that causedbygravity,g;and the distanceinvolvedistheheightfrom whichitisreleased,h.Thus:
+As it always starts from rest, u=0 throughout; the acceleration is that caused by gravity, g; and the distance involved is the height from which it is released, h. Thus:
 
 h = ½gt²
 
 t² = 2h/g
 
-Compare thisequationwiththeequationforastraight-linegraph: y=mx+c
+Compare this equation with the equation for a straight-line graph: y=mx+c
 
-We plot a graph of h on the x-axis and t² on the y-axis to give a straight best-fit line.The gradient of the line on thisgraph willbe 2/g. from which we can find g.
+We plot a graph of h on the x-axis and t² on the y-axis to give a straight best-fit line. The gradient of the line on this graph will be 2/g, from which we can find g.
 
-Wecouldfind a valuefor g bytakinga singlemeasurement from this experiment andusingtheequationtocalculateit:
+We could find a value for g by taking a single measurement from this experiment and using the equation to calculate it:
 
 g = 2h/t²
 
-However,a singlemeasurement in anyexperiment issubjectto uncertaintyfrombothrandomandsystematicerrors.Wecanreduce such uncertainties significantly by taking many readings and plotting agraph,which leadsto muchmorereliable conclusions.
+However, a single measurement in any experiment is subject to uncertainty from both random and systematic errors. We can reduce such uncertainties significantly by taking many readings and plotting a graph, which leads to much more reliable conclusions.
 
-SafetyNote:Securethe tall standholdingthesolenoidsothatit cannottoppleover.
+Safety Note: Secure the tall stand holding the solenoids so that it cannot topple over.
 
-• 1.Whatisthefinalvelocityofabikethatstartsat4ms-andhas zeroaccelerationactonitfor10seconds?
+• 1. What is the final velocity of a bike that starts at 4 m/s and has zero acceleration act on it for 10 seconds?
 
-• 2.Howfarwill thebikeinquestion1travelinthe10-second time period?
+• 2. How far will the bike in question 1 travel in the 10-second time period?
 
-• 3.Calculate theaccelerationineachof thefollowingcases:
+• 3. Calculate the acceleration in each of the following cases:
 
 #### Findingthe accelerationduetogravitybyfreefall
-• （a)v=22ms-1;u=8ms-1;t=2.6s
+• (a) v = 22 ms⁻¹; u = 8 ms⁻¹; t = 2.6 s
 
-• (b)a ball starts atrest and after30m itsvelocityhasreached 4.8 m s-1
+• (b) a ball starts at rest and after 30 m its velocity has reached 4.8 m s⁻¹
 
-• (c)in15s,a train moves 100m from rest.
+• (c) in 15 s, a train moves 100 m from rest.
 
-• 4.ThebirdinfigAdropsthestonefromaheightof88mabove the watersurface.Initially,thestonehaszeroverticalvelocity.How longwill it takethestonetoreach thesurfaceof thepond? Assume airresistance is negligible.
+• 4. The bird in fig A drops the stone from a height of 88 m above the water surface. Initially, the stone has zero vertical velocity. How long will it take the stone to reach the surface of the pond? Assume air resistance is negligible.
 
-• 5.If the stoneinfigAenters thewater at41.6ms-1,and takes0.6s totravelthe3metrestothebottomofthepond,whatisits averageaccelerationinthepondwater?
+• 5. If the stone in fig A enters the water at 41.6 ms⁻¹, and takes 0.6 s to travel the 3 metres to the bottom of the pond, what is its average acceleration in the pond water?
 SUBJECT VOCABULARY
 
-kinematicsthestudyofthedescriptionof themotionofobjects uniformmotionmotionwhenthereisnoacceleration:
+kinematics the study of the description of the motion of objects uniform motion motion when there is no acceleration:
 
 velocity (m s⁻¹) = displacement (m) / time (s) v = s/t
 LEARNING OBJECTIVES
@@ -1818,13 +1858,15 @@ We have seen that vectors that actperpendicular toeach other can be combined to 
 12ms-1
 
 figAThe originalvelocityvector of 13ms-1has been resolved into a horizontal and a vertical velocityvector,which wouldseparately be the same overall effect. An object moving right at 12 m s-1 and up at 5 m s-1 the horizontal.
-RESOLVINGVECTORSCALCULATIONS
 
-In ordertoresolve a vectorinto a pair at right angles,we must know all the details ofthe originalvector Thismeans we must kmow its size and direction. The direction is most commonly given as an angleto either thevertical or the horizontal. Thisis useful, aswemostcommonlywanttosplitthevectorupintoahorizontal and vertical pair.
+#### RESOLVINGVECTORSCALCULATIONS
+RESOLVING VECTOR CALCULATIONS
 
-figBResolvingavelocityvectorintovertical andhorizontalcomponents.
+In order to resolve a vector into a pair at right angles, we must know all the details of the original vector. This means we must know its size and direction. The direction is most commonly given as an angle to either the vertical or the horizontal. This is useful, as we most commonly want to split the vector up into a horizontal and vertical pair.
 
-In theexample offigB,a basketballisthrowninto theair at an angle of 40°to the vertical. In order to find out if it will go high enough to reach the hoop, kinematics calculations could be done onits vertical motion.However,this can onlybe doneifwe canisolate thevertical componentof thebasketball'smotion. Similarly,wecouldfind outifitwill travelfarenoughhorizontally to reach the hoop if we know how fast it is moving horizontally Thebasketball's velocity must beresolved into horizontal and vertical components. This will require some trigonometrical calculations.
+fig B Resolving a velocity vector into vertical and horizontal components.
+
+In the example of fig B, a basketball is thrown into the air at an angle of 40° to the vertical. In order to find out if it will go high enough to reach the hoop, kinematics calculations could be done on its vertical motion. However, this can only be done if we can isolate the vertical component of the basketball's motion. Similarly, we could find out if it will travel far enough horizontally to reach the hoop if we know how fast it is moving horizontally. The basketball's velocity must be resolved into horizontal and vertical components. This will require some trigonometrical calculations.
 THEVERTICALCOMPONENTOFVELOCITY
 
 Redrawing the components in fig B to show how they add up to produce the 4.2 m s-1 velocity vector, shows again that they form a right-angled triangle,as in fig C. This means we can use the relationship:
@@ -1849,58 +1891,60 @@ tanθ°=opposite/adjacent
 LEARNING TIP
 
 Resolving vectors could also be achieved using a scale diagram.Using this method in rough work may help you to get an idea as to what the answershouldbeinordertocheckthatyourcalculationsareabout right.
-ALTERNATIVERESOLUTIONANGLES
 
-Ifweknowthevelocityofanobject,wehaveseen thatwecan resolvethisintoapair ofvelocityvectorsatright anglestoeach other The choice of direction of the right-angle pair, though, is arbitrary, and can be chosen to suit a given situation.
+#### ALTERNATIVERESOLUTIONANGLES
+ALTERNATIVE RESOLUTION ANGLES
+
+If we know the velocity of an object, we have seen that we can resolve this into a pair of velocity vectors at right angles to each other. The choice of direction of the right-angle pair, though, is arbitrary, and can be chosen to suit a given situation.
 
 seabed.
 
-fig EResolving submarinevelocityvectors helps to avoidcollision.
+fig E Resolving submarine velocity vectors helps to avoid collision.
 
-Thevelocitycould beresolved into apairofvectors,horizontal and vertical.
+The velocity could be resolved into a pair of vectors, horizontal and vertical.
 
-fig FSubmarine velocity resolved into horizontal andvertical components.
+fig F Submarine velocity resolved into horizontal and vertical components.
 
-However,thesubmarine commanderislikelytobemostinterested Thiscouldbefoundbyresolvingthevelocityofthesubmarine into a component parallel with the seabed, and the right-angled pair with that will be a component perpendicular to the seabed. It is this vperp that will tell the submarine commander how quickly he is approaching the seabed.
+However, the submarine commander is likely to be most interested. This could be found by resolving the velocity of the submarine into a component parallel with the seabed, and the right-angled pair with that will be a component perpendicular to the seabed. It is this vperp that will tell the submarine commander how quickly he is approaching the seabed.
 
-fig GSubmarine velocity resolved into components parallel and perpendicular to the seabed.
+fig G Submarine velocity resolved into components parallel and perpendicular to the seabed.
 LEARNING TIP
 
-Thevectorsproducedbyresolutioncanbe at anyanglewithrespect to theoriginalvector,aslongastheyareperpendiculartoeachother andtheirresultantequalstheoriginalvector.Inordertoallowfor everypairtoadduptotheoriginalvector,theirmagnitudeswill vary as the angle changes.
+The vectors produced by resolution can be at any angle with respect to the original vector, as long as they are perpendicular to each other and their resultant equals the original vector. In order to allow for every pair to add up to the original vector, their magnitudes will vary as the angle changes.
 INTERPRETATION
 
-• 1.(a)Ongraphpaper,drawavelocityvectorforastonefiredfrom a catapultat45°tothehorizontal.Yourarrowshould be 10 cm long,representing a velocity of 10 m s-1.Draw onto your diagram the horizontal and vertical components that wouldmakeuptheoverallvelocity.Usearulertomeasure thesizeof thehorizontalandverticalcomponents,and convert theselengthsintometrespersecondusingthesame scaling.
+• 1.(a) On graph paper, draw a velocity vector for a stone fired from a catapult at 45° to the horizontal. Your arrow should be 10 cm long, representing a velocity of 10 m s-1. Draw onto your diagram the horizontal and vertical components that would make up the overall velocity. Use a ruler to measure the size of the horizontal and vertical components, and convert these lengths into metres per second using the same scaling.
 
-• (b) Find the horizontal and vertical velocity components for thiscatapult stonebycalculation,andcomparewithyour answers from part(a).
+• (b) Find the horizontal and vertical velocity components for this catapult stone by calculation, and compare with your answers from part (a).
 
-• Ajavelinisthrownat16ms-atanangleof35°upfromthe horizontal.Calculatethehorizontalandverticalcomponentsof the javelin's motion.
+• A javelin is thrown at 16 ms-1 at an angle of 35° up from the horizontal. Calculate the horizontal and vertical components of the javelin's motion.
 
-• 3. A ladderisleant against a wall, at an angleof 28°to thewall. The440Nforcefrom thefloor actsalongthelengthof the ladder.Calculate thehorizontal andverticalcomponentsof the forcefromthefloorthat actonthebottomoftheladder.
+• 3. A ladder is leaned against a wall, at an angle of 28° to the wall. The 440N force from the floor acts along the length of the ladder. Calculate the horizontal and vertical components of the force from the floor that act on the bottom of the ladder.
 
-• 4. Aplaneisflyingat240ms-1,onabearingof125°from due north.Calculateitsvelocity component due south,and its velocitycomponentdueeast.
+• 4. A plane is flying at 240 ms-1, on a bearing of 125° from due north. Calculate its velocity component due south, and its velocity component due east.
 SUBJECT VOCABULARY
 
-resolution orresolvingvectorsthedeterminationofapair of vectors,atrightanglestoeachother,thatsumstogivethesingle vectortheywereresolvedfrom
+resolution or resolving vectors the determination of a pair of vectors, at right angles to each other, that sums to give the single vector they were resolved from
 
-catapult a device thatcan throw objects at high speed
+catapult a device that can throw objects at high speed
 LEARNING OBJECTIVES
 
 • Apply kinematics equations to moving objects.
 
-• Apply theindependence ofhorizontal andvertical motiontoobjectsmovingfreelyundergravity.
+• Apply the independence of horizontal and vertical motion to objects moving freely under gravity.
 
-• Combinehorizontalandverticalmotiontocalculate themovementsofprojectiles.
+• Combine horizontal and vertical motion to calculate the movements of projectiles.
 
-Objects thrown or fired through the air generally follow projectile motion. Here we are going to combine ideas from the various earliersectionsin ordertosolvequestions aboutprojectiles. Resolving vectors showed that the actions in each of two perpendicular directions are wholly independent. This means we canuseNewton's lawsofmotion and thekinematicsequations separatelyforthehorizontalandverticalmotionsofthesameobject Thiswill allow ustocalculateits overall motion intwo dimensions.
+Objects thrown or fired through the air generally follow projectile motion. Here we are going to combine ideas from the various earlier sections in order to solve questions about projectiles. Resolving vectors showed that the actions in each of two perpendicular directions are wholly independent. This means we can use Newton's laws of motion and the kinematics equations separately for the horizontal and vertical motions of the same object. This will allow us to calculate its overall motion in two dimensions.
 
-We only consider the motion after the force projecting an object has finished-forexample,after a cannonball hasleft the cannon.Air resistance is ignored in these calculations, so the only force acting will bethe object'sweight.Thus,all vertical motionwill followkinematics equations,withgravity astheacceleration.Therewillbenohorizontal force at all,which means no acceleration and therefore v=s/t.
+We only consider the motion after the force projecting an object has finished - for example, after a cannonball has left the cannon. Air resistance is ignored in these calculations, so the only force acting will be the object's weight. Thus, all vertical motion will follow kinematics equations, with gravity as the acceleration. There will be no horizontal force at all, which means no acceleration and therefore v=s/t.
 LEARNING TIP
 
-Vectors acting at right angles to each other act independently.Their combinedeffectcanbecalculatedusingvectoraddition,butthey can alsobeconsideredtoactseparately and atthesame time.Thiswould causeindependenteffects,whichthemselvescould thenbe combinedtoseeanoveralleffect.
+Vectors acting at right angles to each other act independently. Their combined effect can be calculated using vector addition, but they can also be considered to act separately and at the same time. This would cause independent effects, which themselves could then be combined to see an overall effect.
 
 LEARNING TIP
 
-Physicsis holistic:you can apply ideasfrom one area of physicsto otherareasofphysics.Rememberthatphysicsisasetofrulesthat attemptstoexplaineverythingintheuniverse.Everyruleshould therefore be universally applicable.
+Physics is holistic: you can apply ideas from one area of physics to other areas of physics. Remember that physics is a set of rules that attempts to explain everything in the universe. Every rule should therefore be universally applicable.
 HORIZONTALTHROWS
 
 If an object is thrown horizontally,itwill startoffwith zerovertical velocity. However, gravity will act on it so that its motion will curve downwards in a parabola shape, like the stone in fig A.
@@ -1970,81 +2014,83 @@ v = u + at ∴ t = (v − u)/a = (0 − (5.5))/(−9.81)
 So theoverall time of fight will be 0.56 secondsdoubled:total time = 1.12 s.
 EXAMHINT
 
-Forvirtually allprojectilemotioncalculations,weassumethatthereis noairresistance,sotheonlyforceactingisgravity,vertically downwards.
+For virtually all projectile motion calculations, we assume that there is no air resistance, so the only force acting is gravity, vertically downwards.
 SKILLS
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
-• 1.A boy throws a ball vertically at a velocity of 4.8 m s-1. (a) How long is it beforehe catches it again? (b) What will be theball's greatest height above thepoint ofrelease?
+• 1. A boy throws a ball vertically at a velocity of 4.8 m s-1. (a) How long is it before he catches it again? (b) What will be the ball's greatest height above the point of release?
 
-• 2. Theboyinquestion1 nowthrowshisballhorizontallyout ofa high windowwith avelocity of 3.1m s-1.
+• 2. The boy in question 1 now throws his ball horizontally out of a high window with a velocity of 3.1 m s-1.
 
 • (a) How long will it take to reach the ground 18 m below?
 
-• (b)Howfaraway,horizontally,shouldhisfriendstand inorder tocatchtheball?
+• (b) How far away, horizontally, should his friend stand in order to catch the ball?
 
-• 3.Abasketball is thrown witha velocity of 6.0msat an angle of 40° to the vertical, towards the hoop.
+• 3. A basketball is thrown with a velocity of 6.0 m s-1 at an angle of 40° to the vertical, towards the hoop.
 
-• (a)If the hoop is 0.90 m above the point of release,will theball risehigh enough togoin the hoop?
+• (a) If the hoop is 0.90 m above the point of release, will the ball rise high enough to go in the hoop?
 
-• (b)If thecentre of thehoopis3.00maway,horizontally,from thepointofrelease,explainwhetherornotyoubelieve thisthrowwill scoreinthehoop.Supportyourexplanation with calculations.
+• (b) If the centre of the hoop is 3.00 m away, horizontally, from the point of release, explain whether or not you believe this throw will score in the hoop. Support your explanation with calculations.
 SUBJECT VOCABULARY
 
-projectileamovingobjectonwhichtheonlyforceof significance actingisgravity.The trajectoryis thuspre-determinedbyitsinitial velocity
+projectile a moving object on which the only force of significance acting is gravity. The trajectory is thus pre-determined by its initial velocity
 THEBATTLEOFAGRA
 
 CRITICALTHINKING,PROBLEMSOLVINGANALYSIS,INTERPRETATION ADAPTIVELEARNING,PRODUCTIVITY,ETHICS,COMMUNICATION, ASSERTIVECOMMUNICATION
 
 Agra Fort was built in the11th Century, although the present structure was built in 1573. In this activity, you need to imagine attacking the fort using a cannon that fires a cannonball as a projectile.
-STUDENTESSAY
 
-• fig AAgraFort is now an UNESCOWorld Heritage Site.
+#### STUDENTESSAY
+STUDENT ESSAY
 
-In this section,Iwill use some basicmechanics to answer a question:could theMughalEmpireartilleryreallyhaveattacked Agra Fort in the way described previously?The nineteenthcenturysourcematerialsuggests that thefortresswasunder siege by theMughalsfor three months andbattered by artillery'. However, the current walls bear little in the way of obvious battle scars.
+• Fig A Agra Fort is now an UNESCO World Heritage Site.
 
-Looking at fig B,the question that needs to be answered here is:
+In this section, I will use some basic mechanics to answer a question: could the Mughal Empire artillery really have attacked Agra Fort in the way described previously? The nineteenth century source material suggests that the fortress was under siege by the Mughals for three months and battered by artillery'. However, the current walls bear little in the way of obvious battle scars.
 
-• 'Howhigh up thefrontwall of the fortresswill the cannonball hit?'This height is marked on fig B as'H'.
+Looking at fig B, the question that needs to be answered here is:
 
-fig BThe trajectory of acannonballfired towardsAgraFort. We assume the cannonball leaves the cannon at ground level.
+• 'How high up the front wall of the fortress will the cannonball hit?' This height is marked on fig B as 'H'.
 
-InadditiontothelayoutshowninfigB,weneedinformation abouttheinitialvelocityofthecannonball.Thecannon explosioncouldactfor0.05stoacceleratethecannonball
+fig B The trajectory of a cannonball fired towards Agra Fort. We assume the cannonball leaves the cannon at ground level.
 
-(mass=12kg)withaforce of 9300N.It causes thecannonball toleave the cannon at an angle of 45°to thehorizontal.
-Steps tothe answer
+In addition to the layout shown in fig B, we need information about the initial velocity of the cannonball. The cannon explosion could act for 0.05 s to accelerate the cannonball
+(mass=12kg) with a force of 9300N. It causes the cannonball to leave the cannon at an angle of 45° to the horizontal.
 
-Wecanworkoutwhatcalculationsarerequiredtosolvethis problem,byworkingbackfrom the answerwewant tofind. Thefundamentalideaisthat theparabola trajectorywould be symmetricaliftheflightwasnotinterruptedbycrashingintothe fortress wall.
+#### Steps tothe answer
+Steps to the answer
 
-• 1To find the height up the wall from the ground,we will need toworkouthowfardownfrom thecannonball'smaximum height it falls:
+We can work out what calculations are required to solve this problem, by working back from the answer we want to find. The fundamental idea is that the parabola trajectory would be symmetrical if the flight was not interrupted by crashing into the fortress wall.
+
+• 1 To find the height up the wall from the ground, we will need to work out how far down from the cannonball's maximum height it falls:
 
 H = h_max − h
 
-• 2To find h,we need to know the time of flight,total so we can divide this into a time to reach hmax, and time left to fall height h.Wewill use vertical gravitational acceleration to calculatethevertical dropinthatremaining time:
+• 2 To find h, we need to know the time of flight, total so we can divide this into a time to reach h_max, and time left to fall height h. We will use vertical gravitational acceleration to calculate the vertical drop in that remaining time:
 
 t_total = s/(v_horizontal)
 
-From fig B,we can see that s =150 m.
+From fig B, we can see that s = 150 m.
 
-• Vhorizontal can be found by resolving the velocity to give the horizontalcomponent:
+• V_horizontal can be found by resolving the velocity to give the horizontal component:
 
 v_horizontal = v_total × cos 45°
 
-• 4The overallvelocitywillcomefrom the cannon's accelerationofthecannonball:
+• 4 The overall velocity will come from the cannon's acceleration of the cannonball:
 
 1D+=4
 
-where u = O m s-', and the question tells us that the explosion actsfor0.05seconds.
+where u = 0 m s⁻¹, and the question tells us that the explosion acts for 0.05 seconds.
 
-• 5Newton's second law of motion gives us the acceleration caused by the sling:
+• 5 Newton's second law of motion gives us the acceleration caused by the sling:
 
 a = F/m
 
-Calculate the answerbyreversingthesesteps:
+Calculate the answer by reversing these steps:
 
-The acceleration caused by theexplosion:
+The acceleration caused by the explosion:
 
 a = F/m a =
-
 =D
 SCIENCECOMMUNICATION
 
@@ -2055,38 +2101,38 @@ SCIENCECOMMUNICATION
 • (b) What is the purpose of this mathematical analysis, for its inclusion in this essay?
 PHYSICS IN DETAIL
 
-Nowwewill look at thephysicsindetail.You may need tocombine conceptsfrom different areasofphysicstoworkout the answers.
+Now we will look at the physics in detail. You may need to combine concepts from different areas of physics to work out the answers.
 
-• 2Complete the calculation steps,inreverse assuggested,in ordertofind out the answer,H:
+• 2 Complete the calculation steps, in reverse as suggested, in order to find out the answer, H:
 
-• (a)theaccelerationcausedbytheexplosion
+• (a) the acceleration caused by the explosion
 
 • (b) overall velocity that the cannonball is projected from the cannon
 
-• (c)horizontal and vertical components of thevelocity
+• (c) horizontal and vertical components of the velocity
 
-• (d)time of flight found from the horizontal travel
+• (d) time of flight found from the horizontal travel
 
-• (e)t time toreachmaximumheightusingvertical motion
+• (e) time to reach maximum height using vertical motion
 
 • remaining flight time from maximum height
 
-• (g)height fallenfrom the maximum in the remaining flight time
+• (g) height fallen from the maximum in the remaining flight time
 
 • (h) final answer, H.
 
-• 3Statetwoassumptionsthathavebeenmadeinthesecalculations.
+• 3 State two assumptions that have been made in these calculations.
 
-• 4Calculatewhatdifferencetherewouldbeintheanswerif thecannonwasloadedwith different cannonballs of masses 10 kg and 14 kg. Note from fig B that the fortress walls are 24mhigh.Commenton theseanswers.
+• 4 Calculate what difference there would be in the answer if the cannon was loaded with different cannonballs of masses 10 kg and 14 kg. Note from fig B that the fortress walls are 24m high. Comment on these answers.
 
-• 5 If the available supply of cannonballs offered very variable masses, how might the Mughals beable toovercome theproblemsshown inquestion 4.
+• 5 If the available supply of cannonballs offered very variable masses, how might the Mughals be able to overcome the problems shown in question 4.
 ACTIVITY
 
-Imaginethewriterof thisessayis afriendofyours,andhehascometoyouforhelpwith the calculationsasheisnotanexperiencedscientist.Hissection'Stepstothe answer'wastakenfrom aresearchsourceaboutadifferentfortressundersiege.Writeanemail toClaustoexplainthe calculations required in each step.
+Imagine the writer of this essay is a friend of yours, and he has come to you for help with the calculations as he is not an experienced scientist. His section 'Steps to the answer' was taken from a research source about a different fortress under siege. Write an email to Claudio to explain the calculations required in each step.
 
-INTERPRETATIONNOTE
+INTERPRETATION NOTE
 
-Onceyouhaveansweredthe calculationquestionsbelow, decidewhetheryouthinkthe Mughal siegehappened asthe author suggests.
+Once you have answered the calculation questions below, decide whether you think the Mughal siege happened as the author suggests.
 THINKING BIGGER TIP
 
 Inside a cannon,an explosion exertsaforceonthecannonball tofireitoutofthecannon.
@@ -2098,9 +2144,11 @@ Youcanassumethatthewriter understandsmathematics,and isgenerally intelligent -a 
 
 ### 1A Exam practice
 
-1A EXAMPRACTICE
 
-• 1Quantities can be scalar orvectorSelect the row of the table that correctly states a scalar quantity and a vector quantity.
+#### 1A EXAMPRACTICE
+1A EXAM PRACTICE
+
+• 1 Quantities can be scalar or vector. Select the row of the table that correctly states a scalar quantity and a vector quantity.
 
 #### 1A EXAMPRACTICE
 | Scalarquantity   | Vector quantity   |
@@ -2109,62 +2157,66 @@ Youcanassumethatthewriter understandsmathematics,and isgenerally intelligent -a 
 | mass             | weight            |
 | speed            | distance          |
 | weight           | speed             |
-(Total forQuestion 1=1mark)
+
+#### (Total forQuestion 1=1mark)
+(Total for Question 1 = 1 mark)
 
 • 2 How is the kinetic energy, Ek, of a car related to its speed, v?
 
-• AEkv
+• A Ek ∝ v
 
-• B Ek
+• B Ek ∝ v²
 
-• C Ek√v
+• C Ek ∝ √v
 
-• 1 D Ek
+• 1 D Ek ∝ v⁻¹
 
-• 6(a)What is meant by a vector quantity?
-
-[1]
-
-• (b)A car is driven around a bend at a constant speed. Explain what happens to its velocity. [2]
-(TotalforQuestion6=3marks)
-
-• 7You are asked todeterminethe accelerationoffreefall at the surface of the Earth, g, using a free fall method in the laboratory.
-
-• (a)Describethe apparatusyou would use,themeasurements youwouldtakeand explainhowyouwould usethemto determine g. [6]
-
-• (b)Give one precaution you would take to ensure the accuracyofyourmeasurements. [1]
-
-(TotalforQuestion7=7marks)
-
-• 8The graph shows how displacement varies with time for an object that starts from rest with constant acceleration.
+• 6(a) What is meant by a vector quantity?
 
 [1]
 
-(Total forQuestion2=1mark)
+• (b) A car is driven around a bend at a constant speed. Explain what happens to its velocity. [2]
 
-• 3The unit offorce is thenewton.One newtonis equivalent to:
+#### (TotalforQuestion6=3marks)
+(Total for Question 6 = 3 marks)
 
-• A0.1kg
+• 7 You are asked to determine the acceleration of free fall at the surface of the Earth, g, using a free fall method in the laboratory.
 
-• B 1kgms-1
+• (a) Describe the apparatus you would use, the measurements you would take and explain how you would use them to determine g. [6]
 
-• C 1kgm s-2
+• (b) Give one precaution you would take to ensure the accuracy of your measurements. [1]
 
-• D 1ms-2
+(Total for Question 7 = 7 marks)
 
-• (a)Use the distance-time graph to determine the speed of the object at a time of 4.0 s. [3]
+• 8 The graph shows how displacement varies with time for an object that starts from rest with constant acceleration.
 
 [1]
 
-(Total for Question3=1 mark)
+(Total for Question 2 = 1 mark)
 
-• 4 A ball is thrown vertically upwards at a speed of 11.0 m s-1. What is the maximum height it reaches?
+• 3 The unit of force is the newton. One newton is equivalent to:
 
-• A 0.561m
+• A 0.1 kg
+
+• B 1 kg m s⁻¹
+
+• C 1 kg m s⁻²
+
+• D 1 m s⁻²
+
+• (a) Use the distance-time graph to determine the speed of the object at a time of 4.0 s. [3]
+
+[1]
+
+(Total for Question 3 = 1 mark)
+
+• 4 A ball is thrown vertically upwards at a speed of 11.0 m s⁻¹. What is the maximum height it reaches?
+
+• A 0.561 m
 
 • B 1.12 m
 
-• C 6.17m
+• C 6.17 m
 
 • D 12.3 m
 
@@ -2173,48 +2225,50 @@ Youcanassumethatthewriter understandsmathematics,and isgenerally intelligent -a 
 • (b) Calculate the acceleration.
 
 [2]
-(TotalforQuestion 4=1mark)
 
-(Totalfor Question 8=5marks)
+#### (TotalforQuestion 4=1mark)
+(Total for Question 4 = 1 mark)
 
-• 5Calculatethemomentexerted onthenutbythespannershown in the diagram.
+(Total for Question 8 = 5 marks)
 
-• 9The photograph shows a sequence of images of a bouncing tennis ball.
+• 5 Calculate the moment exerted on the nut by the spanner shown in the diagram.
+
+• 9 The photograph shows a sequence of images of a bouncing tennis ball.
 
 A student plots the following graph and claims that it shows the vertical motion of the ball in the photograph.
 
-• A2.4Nm
+• A 2.4 N m
 
 • B 4.2 N m
 
-• C 4.8 Nm
+• C 4.8 N m
 
-• D 420Nm
+• D 420 N m
 
 [1]
 
-(Total forQuestion5=1mark)
+(Total for Question 5 = 1 mark)
 
-• (a)Without carrying out any calculations, describe how the following can be found from the graph
+• (a) Without carrying out any calculations, describe how the following can be found from the graph
 
-• (i)the vertical distance travelled by the ball between 0.5 s and 1.0 s
+• (i) the vertical distance travelled by the ball between 0.5 s and 1.0 s
 
-• (ii)the acceleration at Y. [2]
+• (ii) the acceleration at Y. [2]
 
-• (b)Thegraph contains several errors in its representation of the motion of the ball Explaintwooftheseerrors. [4]
+• (b) The graph contains several errors in its representation of the motion of the ball. Explain two of these errors. [4]
 (TotalforQuestion9=6marks)
 
-• 10There has been a proposal to build a train tunnel underneath the Atlantic Ocean from England to America. Thesuggestionisthatinthefuturethetripof5oo0km could take aslittle asonehour.
+• 10 There has been a proposal to build a train tunnel underneath the Atlantic Ocean from England to America. The suggestion is that in the future the trip of 5000 km could take as little as one hour.
 
-• Assume that half the time is spent accelerating uniformly and theotherhalfisspentdeceleratinguniformlywith the same magnitude as the acceleration.
+• Assume that half the time is spent accelerating uniformly and the other half is spent decelerating uniformly with the same magnitude as the acceleration.
 
-• (a)Show that the acceleration would be about 2 m s-2.
+• (a) Show that the acceleration would be about 2 m s-2.
 
 [2]
 
 • (b) Calculate the maximum speed. [2]
 
-• (c)Calculate the resultant force required to decelerate
+• (c) Calculate the resultant force required to decelerate
 
 • the train.
 
@@ -2223,35 +2277,35 @@ A student plots the following graph and claims that it shows the vertical motion
 [2]
 (Total for Question 10= 6marks)
 
-• 11During alesson on Newton's laws of motion,a student says,We don't really need to bother with Newton's first law because it is included in his second law'.
+• 11 During a lesson on Newton's laws of motion, a student says, "We don't really need to bother with Newton's first law because it is included in his second law".
 
-• StateNewton'sfirst twolawsofmotion andexplainhow Newton'ssecondlaw includes thefirst law.
+• State Newton's first two laws of motion and explain how Newton's second law includes the first law.
 
 [5]
 
-(TotalforQuestion 11=5marks)
+(Total for Question 11=5marks)
 
-• 12The diagram shows an arrangement used to launch a light foamrocket at a school science competition.
+• 12 The diagram shows an arrangement used to launch a light foam rocket at a school science competition.
 
-The rocket is launched at the level of one end of a long table andlands attheotherendatthesamelevel.The studentsmeasurethehorizontal distancetravelled by the rocket and thetime offlight.
+The rocket is launched at the level of one end of a long table and lands at the other end at the same level. The students measure the horizontal distance travelled by the rocket and the time of flight.
 
-• (a)The rocket travels 1.88 m in a time of 0.88 s.
+• (a) The rocket travels 1.88 m in a time of 0.88 s.
 
-• (i)Show that the horizontal component of the initial velocity of the rocket is about 2 m s-1.
+• (i) Show that the horizontal component of the initial velocity of the rocket is about 2 m s-1.
 
 [2]
 
-• (i)Show that the vertical component of the initial velocity of the rocket is about 4 m s-1. [2]
+• (ii) Show that the vertical component of the initial velocity of the rocket is about 4 m s-1. [2]
 
-• (i) Calculate the initial velocity of the rocket.
+• (iii) Calculate the initial velocity of the rocket.
 
 • [4]
 
-• (b)The students obtained their data by filming the flight. Whentheychecked themaximumheightreached by therocket theyfounditwasless than theheight predicted using this velocity.
+• (b) The students obtained their data by filming the flight. When they checked the maximum height reached by the rocket they found it was less than the height predicted using this velocity.
 
-• (i)Suggest why the maximum height reached was less than predicted. [1]
+• (i) Suggest why the maximum height reached was less than predicted. [1]
 
-• (i) Give two advantages of flming the flight to obtain the data.
+• (ii) Give two advantages of filming the flight to obtain the data.
 
 [2]
 
@@ -2296,19 +2350,21 @@ Topic1A
 • Newton'slawsofmotion
 
 • Kinematicsand projectiles
-Whatwill I study in thischapter?
 
-• Calculationsofgravitational potentialenergy and kineticenergy
+#### Whatwill I study in thischapter?
+What will I study in this chapter?
 
-• Calculatingexchangesbetweengravitational potential andkineticenergiesthat arebasedon energyconservation
+• Calculations of gravitational potential energy and kinetic energy
 
-• Understanding energy transferred as work done, andmakingcalculations of thework and power
+• Calculating exchanges between gravitational potential and kinetic energies that are based on energy conservation
 
-• Howtocalculateworkdonewhentheforceisnot alongthelineofmotion
+• Understanding energy transferred as work done, and making calculations of the work and power
 
-• Whatismeantbyefficiency,andhowto calculateit
+• How to calculate work done when the force is not along the line of motion
 
-1GRAVITATIONALPOTENTIAL ANDKINETICENERGIES
+• What is meant by efficiency, and how to calculate it
+
+1 GRAVITATIONAL POTENTIAL AND KINETIC ENERGIES
 LEARNING OBJECTIVES
 
 • Calculate transfers of gravitational potential energy near the Earth's surface.
@@ -2384,44 +2440,46 @@ or howhigh an object could rise if projected upwards at a certain speed:
 Δh = v²/(2g)
 LEARNING TIP
 
-fall to theground at thesamerateregardlessof theirmass.
+fall to the ground at the same rate regardless of their mass.
 
-friction orairresistance,and that thiscanbeanimportantfactorwhensome objectsfall.
+friction or air resistance, and that this can be an important factor when some objects fall.
 
-figCThe Burj Khalifa towerinDubai
+fig C The Burj Khalifa tower in Dubai
 
-For example,howfast would a coinhit the ground if it were dropped from the top of Burj Khalifa towerinDubai,whichis830mtall?
+For example, how fast would a coin hit the ground if it were dropped from the top of Burj Khalifa tower in Dubai, which is 830 m tall?
 
 v = √(2gΔh) v = √((2 × 9.81 × 830)) = √16285 v = 128 m s⁻¹
 
-Anotherexample:howhighwouldwaterfromafountainriseifitwereejectedverticallyupwards from a spout at 13.5 m s-1?
+Another example: how high would water from a fountain rise if it were ejected vertically upwards from a spout at 13.5 m s-1?
 
 Δh = v²/(2g) Δh = (13.5²)/(2 × 9.81) = 182.25/19.62 h = 9.29 m
 
-fig DFountain designers need tobe able to calculategpe and kineticenergy.
-Findinggfromenergyconservation
+fig D Fountain designers need to be able to calculate gpe and kinetic energy.
 
-Thereareanumberofdifferentexperimentalmethodsforfindingthegravitationalfieldstrength.One wemeasure thevelocitythat hasbeenreachedby afallingobjectafterithasfallenundergravityfrom a certainheight,and then altertheheight andmeasurethevelocityagain.
+#### Findinggfromenergyconservation
+Finding g from energy conservation
+
+There are a number of different experimental methods for finding the gravitational field strength. One we measure the velocity that has been reached by a falling object after it has fallen under gravity from a certain height, and then alter the height and measure the velocity again.
 
 This gpe will all be transferred to kinetic energy.
 
 mgΔh = ½mv²
 
-Aswe sawpreviously,thisequationcanbe simplified togive:
+As we saw previously, this equation can be simplified to give:
 
 v² = 2gΔh
 
-Compare this equation with the equation fora straight-linegraph:y=mx+C
+Compare this equation with the equation for a straight-line graph: y = mx + C
 
-If weplot a graph ofh onthex-axisandv²onthey-axis,wewill geta straightbest-fit line.Thegradientof the lineon thisgraphwill be twice thegravitational field strength,2g,fromwhichwe canfindg. calculateit:
+If we plot a graph of h on the x-axis and v² on the y-axis, we will get a straight best-fit line. The gradient of the line on this graph will be twice the gravitational field strength, 2g, from which we can find g. calculate it:
 
 g = v²/(2Δh)
 
-However,as mentioned inSection1A.6,a singlemeasurement in any experiment isprone to uncertainty frombothrandom andsystematicerrors.Thereliabilityof theconclusionsissignificantlyimprovedwith multiplereadings andgraphicalanalysis.
+However, as mentioned in Section 1A.6, a single measurement in any experiment is prone to uncertainty from both random and systematic errors. The reliability of the conclusions is significantly improved with multiple readings and graphical analysis.
 
-fig E The freefall velocity of an object from different heights allows us to find the gravitational field strength,g.
+fig E The freefall velocity of an object from different heights allows us to find the gravitational field strength, g.
 
-Safety Note: Secure the tall stand so that it cannot topple over.The object must be positioned so that it cannot cause injury as it falls.
+Safety Note: Secure the tall stand so that it cannot topple over. The object must be positioned so that it cannot cause injury as it falls.
 
 CREATIVITY
 CHECKPOINT
@@ -2439,13 +2497,13 @@ SUBJECT VOCABULARY
 
 gravitational field:
 
-gpe (J)=mass(kg)×gravitational field strength (N kg-1) xheight(m)
+gpe (J) = mass (kg) × gravitational field strength (N kg-1) × height (m)
 
 E_grav = mgh OR ΔE_grav = mgΔh
 
-kinetic energy(E) the energy an object storesbyvirtue of itsmovement:
+kinetic energy (E) the energy an object stores by virtue of its movement:
 
-kinetic energy (J) =xmass (kg)x(speed)²(m² s-2)
+kinetic energy (J) = × mass (kg) × (speed)² (m² s-2)
 
 E_k = ½ × m × v²
 LEARNING OBJECTIVES
@@ -2487,17 +2545,17 @@ Note that this is the same amount of energy as we calculated for the gravitation
 figAWork is done by transferringgravitational potential energy to a heavy object.
 LEARNING TIP
 
-Bewareofconfusing△Wfor workwithWforweight,and astheabbreviationforwatts.
+Beware of confusing △W for work with W for weight, and as the abbreviation for watts.
 
-figCGravity working against friction.
+fig C Gravity working against friction.
 
-fig DThe weight force is the resultant of its components along the slide and perpendicular to it.
+fig D The weight force is the resultant of its components along the slide and perpendicular to it.
 
-weight=massxgravitationalfieldstrength
+weight = mass × gravitational field strength
 
-W=mg
+W = mg
 
-work = force × distance = weight ×height = mg△h
+work = force × distance = weight × height = mg△h
 WORKDONEBYFORCESATANANGLE
 
 In the bricklaying example on the previous page,the direction of movement was exactly in line with the force lifting the brick. This is an unusual situation, and usually the force doing work will be at an angle to the direction of movement. In fig C,gravity pulls the child down the slide but it must work againstfriction.Theweight actsvertically downwards,but thefriction acts up the slide.Friction always actsin the exact opposite direction tomovement.
@@ -2517,21 +2575,23 @@ This example shows us the general formula for calculating the work done when the
 △W=F△scosθ
 POWER
 
-Power is defined as the rate of energy transfer This may be done with reference to work done.
+Power is defined as the rate of energy transfer. This may be done with reference to work done.
 
-power (W) = energy transferred (J) / time for the energy transfer (s) P = E/t power (W) = work done (J) / time for the work to be done (s) P = ΔW/t
+power (W) = energy transferred (J) / time for the energy transfer (s) P = E/t
+power (W) = work done (J) / time for the work to be done (s) P = ΔW/t
 
 Remember:
 
-work(J)=force(N) xdistance moved in the direction of the force(m) △W=F△s
+work(J) = force(N) × distance moved in the direction of the force(m) ΔW = FΔs
 
 power (W) = force (N) × distance moved (m) / time for the force to move (s)
-
 P = FΔs/t
 
-For example, the power of a forklift truck lifting a 120 kg crate vertically up 5.00 m in 4.0 seconds wouldbecalculated as:
+For example, the power of a forklift truck lifting a 120 kg crate vertically up 5.00 m in 4.0 seconds would be calculated as:
 
-P = FΔs/t = mgΔs/t P = (120 × 9.81 × 5)/4.0 P = 1470 W = 1.47 kW
+P = FΔs/t = mgΔs/t
+P = (120 × 9.81 × 5)/4.0
+P = 1470 W = 1.47 kW
 EXAMHINT
 
 1 kilowatt(kW)=1000watts(W)=1×103W
@@ -2570,50 +2630,44 @@ CHECKPOINT
 
 SKILLS
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
-• 1. In thesetwo situations,who doesmorework,and by how much?
+• 1. In these two situations, who does more work, and by how much?
 
-• (a)A lioness carries a 2.8kgcub 4.60m up a tree.
+• (a) A lioness carries a 2.8kg cub 4.60m up a tree.
 
-• (b)An eaglelifts a 1.4kg rabbit 8.25m up toher nest.
+• (b) An eagle lifts a 1.4kg rabbit 8.25m up to her nest.
 
-• 2. Calculate thework done by the tensionin thekitestringinfig E overthedistanceshown.
+• 2. Calculate the work done by the tension in the kite string in fig E over the distance shown.
 
-• 3. (a)Whatisthepowerof anelectricmotor,inwatts,ifitlifts 500g,through80 cm in20 seconds?
+• 3. (a) What is the power of an electric motor, in watts, if it lifts 500g, through 80 cm in 20 seconds?
 
-• (b)Whatisthemotor'sefficiencyif theelectricitysupplied it witha totalof12Jtomakethelift?
+• (b) What is the motor's efficiency if the electricity supplied it with a total of 12J to make the lift?
 
-• 4. In loadinga deliveryvan,thedriverpusheda15kgcratefor 5 metres up a ramp. He had to push with a force of 132 N and thevertical heightgainedwas1.3m.Whatwastheefficiency of pushingthiscrateuptherampontothebackof thevan?
+• 4. In loading a delivery van, the driver pushed a 15kg crate for 5 metres up a ramp. He had to push with a force of 132 N and the vertical height gained was 1.3m. What was the efficiency of pushing this crate up the ramp onto the back of the van?
 
-fig EMoving at an angle to the force doing work.
+fig E Moving at an angle to the force doing work.
 SUBJECT VOCABULARY
 
-conservationof energy therulethatrequiresthat energycan never becreatedordestroyed
+conservation of energy the rule that requires that energy can never be created or destroyed
 
-workdoneinamechanical system.Thisistheproductofaforceand thedistancemovedinthedirectionoftheforce:
+work done in a mechanical system. This is the product of a force and the distance moved in the direction of the force:
 
-work done()=force(N)xdistancemoved in the direction of the force(m)
+work done (J) = force (N) × distance moved in the direction of the force (m)
 
 ΔW = FΔs
 
-energythepropertyof anobjectthatgivesitthecapacitytodowork. Achangeintheamountofenergyofanobjectcouldbeequatedto workbeingdone,evenif thisisnotmechanical-a changeintheheat energyofasampleofgas,forexample
+energy the property of an object that gives it the capacity to do work. A change in the amount of energy of an object could be equated to work being done, even if this is not mechanical - a change in the heat energy of a sample of gas, for example
 
-power therateofenergy transfer:
+power the rate of energy transfer:
 
 P = E/t = ΔW/t
 
-efficiencythe abilityofamachinetotransferenergyusefully:
+efficiency the ability of a machine to transfer energy usefully:
 
-useful energyoutput
+efficiency = useful energy output / total energy input
 
-total energy input
-
-efficiency=
-
-useful power output
-
-total power input
+efficiency = useful power output / total power input
 THEMECHANICSOFSOCCER
 
 CRITICALTHINKING,PROBLEMSOLVING ANALYSIS,INTERPRETATION,ADAPTIVE LEARNINGPRODUCTVITYCOMMUNICATION
@@ -2623,33 +2677,32 @@ Soccer is the most popular sport in the world in terms of numbers of people play
 In this activity,wewill considerhowmechanicscanapplytoeventsinsoccer.
 GOALSCORING
 
-In thissection,wewill lookatsome ofthesciencebehindshots on goal.
+In this section, we will look at some of the science behind shots on goal.
 
-fig AAntoine Griezmannkicks a shot at goal.
+fig A Antoine Griezmann kicks a shot at goal.
 
-If we want to calculate how fast a soccer ball is moving after it hasbeenkickedfromstationary(forexample,afterapenalty shot),weneed to think aboutits accelerationbyusingNewton's second law.A standard soccerballhas a mass of0.40kg.If the foot appliesaforceof350Nforatwentiethofasecond,wecan work out the answer:
+If we want to calculate how fast a soccer ball is moving after it has been kicked from stationary (for example, after a penalty shot), we need to think about its acceleration by using Newton's second law. A standard soccer ball has a mass of 0.40 kg. If the foot applies a force of 350 N for a twentieth of a second, we can work out the answer:
 
 F = ma so a = F/m a = 350/0.40 ∴ a = 875 m s⁻² v = u + at
 
-Theball isstationarybeforeit iskicked
-
+The ball is stationary before it is kicked
 so u = 0 m s⁻¹, a = 875 m s⁻², t = 0.05 s v = 0 + 875 (0.05) v = 44 m s⁻¹
 
-fig BTiago Volpi tries to save a penalty kick
+fig B Tiago Volpi tries to save a penalty kick
 
-A penalty kick is taken from a spot 11 metres from the goal. If we assumezerodragforces,we can calculate thelongest time thegoalkeeper has toreact to thisshot afterit leaves thefoot.
+A penalty kick is taken from a spot 11 metres from the goal. If we assume zero drag forces, we can calculate the longest time the goalkeeper has to react to this shot after it leaves the foot.
 
-Weknow thestartvelocity and the distance,so thisis a straightforwardquestion.
+We know the start velocity and the distance, so this is a straightforward question.
 
 v = s/t so t = s/v ∴ t = 11/44 t = 0.25 s
 
-If the goalkeeper reacts quickly enough to catch the ball,how farwill hishandsbepushedbackwardsinorder tostoptheball? The maximum decelerating force his arms can provide to slow theballis20o0newtons.Hereweshouldconsidertheremoval of all theball'skinetic energy asworkbeing done.
+If the goalkeeper reacts quickly enough to catch the ball, how far will his hands be pushed backwards in order to stop the ball? The maximum decelerating force his arms can provide to slow the ball is 2000 newtons. Here we should consider the removal of all the ball's kinetic energy as work being done.
 
 E_k = ½mv² = ½(0.40) × (44)² = 387 J ΔW = FΔs Δs = ΔW/F = 387/2000 = 0.194 m
 
-So the goalkeeper's hands are pushed back just under 20 cm in order tostoptheball.AccordingtoNewton'sthirdlaw,when thehandsproduceaforceof 2000Nontheball,theballexerts a force of 2000N on thehands.
+So the goalkeeper's hands are pushed back just under 20 cm in order to stop the ball. According to Newton's third law, when the hands produce a force of 2000 N on the ball, the ball exerts a force of 2000 N on the hands.
 
-FromSoccerisMadEasy,abooklet aimed atnewcoaches,particularly teacherswhomay alsoneedtoteachInternationalA Level Physical Education
+From Soccer is Made Easy, a booklet aimed at new coaches, particularly teachers who may also need to teach International A Level Physical Education
 SCIENCECOMMUNICATION
 
 • 1 The extract opposite is from a booklet to teach soccer coaches the theory behind the sport, especially for reference in International A Level Physical Education lessons, which have a significant amount of theory in them. Consider the extract and comment on the type of writingthatisused.Try and answer thefollowingquestions:
@@ -2659,21 +2712,21 @@ SCIENCECOMMUNICATION
 • (b)Discussthelevel ofdifficulty of thecalculations,withreference to thetarget audienceand the purpose of the text.
 PHYSICS IN DETAIL
 
-Now we willlook at the physics in detail. Some of these questions link to topics earlier in this book, so you may need to combine concepts from different areas of physics to work out the answers.
+Now we will look at the physics in detail. Some of these questions link to topics earlier in this book, so you may need to combine concepts from different areas of physics to work out the answers.
 
-• 2Identify,andcommentonthevalidityof,the assumptionsthathavebeenmadeinthese calculations.
+• 2 Identify, and comment on the validity of, the assumptions that have been made in these calculations.
 
-• 3A freekick is awarded32 mfrom thegoal line.The strikerkicks it so that the ball leaves the ground at a 5° angle and a speed of 40 m s-1. How long does the goalkeeper have to react beforetheball reachesthegoal line?
+• 3 A free kick is awarded 32 m from the goal line. The striker kicks it so that the ball leaves the ground at a 5° angle and a speed of 40 m s-1. How long does the goalkeeper have to react before the ball reaches the goal line?
 
 • 4 The study of mechanics in sport is a popular and often profitable new area of scientific study.
 
-• (a)Describe how a sports scientist could use electronic equipment to collect data to study the movement of players and equipment over time.
+• (a) Describe how a sports scientist could use electronic equipment to collect data to study the movement of players and equipment over time.
 
-• (b)Explain why technological developments have made the data collected morevalid and reliablethanothertraditionalmethodsofstudyingmechanics.
+• (b) Explain why technological developments have made the data collected more valid and reliable than other traditional methods of studying mechanics.
 
 ACTIVITY
 
-Juniorsoccerrulesforyoungchildrenuseareducedpitch,27.5mby18m,andaballwithamass of320g.Writeasimilarsectionforanewversionof thiscoachingmanualwhichisaimedatjunior soccer coaches.
+Junior soccer rules for young children use a reduced pitch, 27.5 m by 18 m, and a ball with a mass of 320 g. Write a similar section for a new version of this coaching manual which is aimed at junior soccer coaches.
 INTERPRETATIONNOTE
 
 Thinkabout the complexity and level of difficulty of these calculationscomparedwith those that you have to do in this physics course. Also consider that thenumbersusedinthe examplesarefortopplayerswhatlevel ofplayerarethese coaches probably dealing with?
@@ -2687,7 +2740,7 @@ Youwill need to consider the strength of small children in order to estimatethef
 
 1B EXAM PRACTICE
 
-• 1The definition of the watt comes from which equation?
+• 1 The definition of the watt comes from which equation?
 
 • E AP=
 
@@ -2699,9 +2752,9 @@ Youwill need to consider the strength of small children in order to estimatethef
 
 [1]
 
-(Total forQuestion1=1mark)
+(Total for Question 1 = 1 mark)
 
-• 2A305gballis thrownverticallyupwardstoreach aheight of 5.55 m. How much potential energy has it gained at that height?
+• 2 A 305g ball is thrown vertically upward to reach a height of 5.55 m. How much potential energy has it gained at that height?
 
 • A 16.6J
 
@@ -2714,13 +2767,13 @@ Youwill need to consider the strength of small children in order to estimatethef
 [1]
 (Total for Question 2 =1 mark)
 
-• 3Efficiency can be calculated using values of energy, or values of power.
+• 3 Efficiency can be calculated using values of energy, or values of power.
 
-• Selecttherow ofthetablethatcorrectlygives theexpressions for calculating efficiency in terms of either energy or power:
+• Select the row of the table that correctly gives the expressions for calculating efficiency in terms of either energy or power:
 
-• 5The photograph shows a wind turbine.Kinetic energy of the windistransferredtoelectricalenergyastheturbineblades rotate.
+• 5 The photograph shows a wind turbine. Kinetic energy of the wind is transferred to electrical energy as the turbine blades rotate.
 
-• (a)Explain why we can say that the wind is doing work on the blades. [2]
+• (a) Explain why we can say that the wind is doing work on the blades. [2]
 
 #### (Total for Question 2 =1 mark)
 |              | Energy expression                       | Power expression                      |
@@ -2733,56 +2786,56 @@ Youwill need to consider the strength of small children in order to estimatethef
 #### (Total for Question 2 =1 mark)
 [1]
 
-(TotalforQuestion3=1mark)
+(Total for Question 3 = 1 mark)
 
-• 4A horse pulls a carriage of weight 5600 N with a force of 80 N for adistance of 1.2km aroundNewYork's CentralPark. How muchworkisdoneby thehorse?
+• 4A horse pulls a carriage of weight 5600 N with a force of 80 N for a distance of 1.2 km around New York's Central Park. How much work is done by the horse?
 
-• A 6.7kJ
+• A 6.7 kJ
 
-• B 96kJ
+• B 96 kJ
 
-• C538kJ
+• C 538 kJ
 
-• D 6720kJ
+• D 6720 kJ
 
 [1]
 
 (Total for Question 4 = 1 mark)
 
-• (b) The area swept out by one blade, as it turns through 360°, is 6000 m2. Wind at a speed of 9 m s-1 passes the turbine.
+• (b) The area swept out by one blade, as it turns through 360°, is 6000 m². Wind at a speed of 9 m s-1 passes the turbine.
 
-• (i)Show that the volume of air passing through this area in5 secondsis about300000 m². [2]
+• (i) Show that the volume of air passing through this area in 5 seconds is about 300000 m³. [2]
 
 • (i) Calculate the mass of this air. Density of air = 1.2 kg m-3 [2]
 
 • (ii) Calculate the kinetic energy of this mass of air. [2]
 
-• (iv)Betz's law states that a turbine cannot usefully transfer more than 59% of the kinetic energy of the wind. Use this law to find the maximum output of thewind turbine. [2]
+• (iv) Betz's law states that a turbine cannot usefully transfer more than 59% of the kinetic energy of the wind. Use this law to find the maximum output of the wind turbine. [2]
 
-• (c)Suggest a reason why it is not possible to usefully transfer 100% of the kinetic energy of the wind. [1]
+• (c) Suggest a reason why it is not possible to usefully transfer 100% of the kinetic energy of the wind. [1]
 
 • (d) Suggest the limitations of using wind turbines to provide power.
 
 [2]
 
-(Totalfor Question 5=13 marks)
+(Total for Question 5 = 13 marks)
 
-• 6One account of theorigin of thetermhorsepoweris asfollows. In the eighteenth century,JamesWatt manufactured steam engines.Heneeded awaytodemonstratethebenefitsofthese comparedtothehorses theyreplaced.Hedidsomecalculations based on horses walking in circles to turn a mill wheel.
+• 6 One account of the origin of the term horsepower is as follows. In the eighteenth century, James Watt manufactured steam engines. He needed a way to demonstrate the benefits of these compared to the horses they replaced. He did some calculations based on horses walking in circles to turn a mill wheel.
 
-• Wattobservedthatahorsecould turnthewheel144timesin onehour.Thehorse travelled in acircle ofradius3.7m and exerted aforce of800N.
+• Watt observed that a horse could turn the wheel 144 times in one hour. The horse travelled in a circle of radius 3.7 m and exerted a force of 800 N.
 
-• (a)Show that the work done by the horse in turning the wheel through onerevolutionwas about20 o00J. [3]
+• (a) Show that the work done by the horse in turning the wheel through one revolution was about 20 000 J. [3]
 
-• (b)Calculate the average power of the horse in SI units. [3]
+• (b) Calculate the average power of the horse in SI units. [3]
 (TotalforQuestion6=6marks)
 
-• 7 In a demonstration of energy transfer, a large pendulum is madebysuspending a7.0kgbowlingballon alongpiece of wire.
+• 7 In a demonstration of energy transfer, a large pendulum is made by suspending a7.0kg bowling ball on a long piece of wire.
 
-• A student is invited topull back theball until it just touches her nose and then to release it and stand perfectly still while waitingfor theball to return.
+• A student is invited to pull back the ball until it just touches her nose and then to release it and stand perfectly still while waiting for the ball to return.
 
 The following instructions are given:
 
-Do not push the ball - just release it. Donotmoveyourfacebeforetheballreturns
+Do not push the ball - just release it. Do not move your face before the ball returns
 
 Explain this demonstration and the need for these instructions.
 
@@ -2794,15 +2847,15 @@ Explain this demonstration and the need for these instructions.
 
 • (a)(i)In order to push the lawnmower, a minimum force of
 
-• 650Nmustbeappliedtothehandleofthelawmmower at an angle of 42° to the horizontal. Show that thehorizontal component of theforce is
+• 650N must be applied to the handle of the lawnmower at an angle of 42° to the horizontal. Show that the horizontal component of the force is
 
 • about500N. [2]
 
 • (ii)The lawnmower is used to cut 15 strips of grass, each 7 m long. Calculate the work done by the person pushing the lawnmower. [2]
 
-• (b）This photograph shows a lawnmower with the topsection ofthehandlehorizontal.
+• (b）This photograph shows a lawnmower with the top section of the handle horizontal.
 
-Explain how this changes the minimum force required to pushthelawnmower. [2]
+Explain how this changes the minimum force required to push the lawnmower. [2]
 (TotalforQuestion8=6marks)
 
 • 6 Metrology is the science of measurement and World Metrology Day is May 20th. In 2010, the day was used to celebrate the 50th anniversary of theSI system.
@@ -2821,47 +2874,51 @@ Assuming that the apple has a mass of 100 g, explain and justify the statements 
 
 1C MOMENTUM
 
-Collisionscanbe devastating.Vehiclesafetyis averyimportant area of technological research,andmuchof the requires a force,and this is howcar crashes are so damaging.Largerforces cause more damage,whetherto the vehicle or its passengers.
+Collisions can be devastating. Vehicle safety is a very important area of technological research, and much of the requires a force, and this is how car crashes are so damaging. Larger forces cause more damage, whether to the vehicle or its passengers.
 
-To reduce theforces involved in transferring momentumwe need toknow how momentum transfers and how tocalculatetheforcesdependingonthemomentumtransferneeded.
+To reduce the forces involved in transferring momentum we need to know how momentum transfers and how to calculate the forces depending on the momentum transfer needed.
 
-Not all momentum changes are dangerous. Rocket science is generally based on maximising the forces caused by a transfer of momentum, by maximising that momentum transfer. This will create maximum acceleration in chapterwill showyou howthepropertiesof amovingobjectcan tell usitsmomentum,and howtocalculatethe transferofmomentum,and theforcesinvolved inchangingthemovementofanobject.
+Not all momentum changes are dangerous. Rocket science is generally based on maximising the forces caused by a transfer of momentum, by maximising that momentum transfer. This will create maximum acceleration in chapter will show you how the properties of a moving object can tell us its momentum, and how to calculate the transfer of momentum, and the forces involved in changing the movement of an object.
 MATHS SKILLS FOR THIS CHAPTER
 
-• Units of measurement(e.g.theunit formomentum,kg m s-1)
+• Units of measurement (e.g. the unit for momentum, kg m s⁻¹)
 
-• Changingthe subjectof an equation(e.g.finding thevelocity of anobject after collision)
+• Changing the subject of an equation (e.g. finding the velocity of an object after collision)
 
-• Substitutingnumericalvaluesintoalgebraicequations(e.g.calculatingthemomentum)
+• Substituting numerical values into algebraic equations (e.g. calculating the momentum)
 
-• Plottingtwovariablesfrom experimental data(e.g. observing changes in momentum overtime))
+• Plotting two variables from experimental data (e.g. observing changes in momentum over time)
 
-• Using sin, cos and tan in physical problems, and making calculations using them (e.g. resolving a momentumvector)
-WhatpriorknowledgedoI need? Topic1A
+• Using sin, cos and tan in physical problems, and making calculations using them (e.g. resolving a momentum vector)
 
-• Ideas about stopping distancesofcars,and the safetyfeaturesinvehicles
+#### WhatpriorknowledgedoI need? Topic1A
+What prior knowledge do I need? Topic1A
 
-• Speed,distance,displacement,time,vlocity, acceleration
+• Ideas about stopping distances of cars, and the safety features in vehicles
 
-• Resolvingvectors
+• Speed, distance, displacement, time, velocity, acceleration
 
-• Newton'slawsofmotionandthekinematics equations
-Whatwill I studyin this chapter?
+• Resolving vectors
 
-• Calculationsofmomentum
+• Newton's laws of motion and the kinematics equations
 
-• Whatwemeanbycollisionsandexplosions,and howmomentumisrelatedtothem
+#### Whatwill I studyin this chapter?
+What will I study in this chapter?
 
-• Theprincipleofconservationof linearmomentum
+• Calculations of momentum
 
-• Howto apply theprinciple of conservationof linearmomentuminonedimension
+• What we mean by collisions and explosions, and how momentum is related to them
 
-• TherelationshipbetweenNewton'slawsand changing momentum
+• The principle of conservation of linear momentum
+
+• How to apply the principle of conservation of linear momentum in one dimension
+
+• The relationship between Newton's laws and changing momentum
 LEARNING OBJECTIVES
 
-• Calculatethemomentumofanobject.
+• Calculate the momentum of an object.
 
-• Explainhowmomentumisgainedorlost.
+• Explain how momentum is gained or lost.
 MOMENTUM
 
 Momentumis ameasureof an object'smotion.Itisquitedifficult todefinemomentuminwords, but it gives an idea of what will be required to stop the object moving. The best definition is mathematical:
@@ -2875,104 +2932,105 @@ As momentum is the product of mass (a scalar) and velocity (a vector), momentum 
 figAWhichobjectmoveswiththegreatest momentum?
 WORKED EXAMPLE
 
-Notethatthesteps andlayout of thesolutioninthisworked examplearesuitablefor momentumquestionsinthe exam.
+Note that the steps and layout of the solution in this worked example are suitable for momentum questions in the exam.
 
-An athleticshammer(see figA)hasamassof 7.26kg(men'scompetitionstandard)andcanbereleased at speedsinexcessof25ms-1.Itsmomentumat25.0ms-1wouldbe:
+An athletic hammer (see fig A) has a mass of 7.26 kg (men's competition standard) and can be released at speeds in excess of 25 ms-1. Its momentum at 25.0 ms-1 would be:
 
-p=mxv
+p = m × v
 
-p= 7.26×25.0
+p = 7.26 × 25.0
 
-p=182kgms-1
+p = 182 kgms-1
 
-Abaseball has a mass of 145grams.Afastpitchercan throwit at 40ms-1.If thisbaseball isreleased at 40m s-1,itsmomentum is:
+A baseball has a mass of 145 grams. A fast pitcher can throw it at 40 ms-1. If this baseball is released at 40 m s-1, its momentum is:
 
-p=mxv
+p = m × v
 
-p=0.145×40
+p = 0.145 × 40
 
-p=5.8kgms-1
+p = 5.8 kgms-1
 
-These example show that it is muchmore difficult to stopa well-thrown athletics hammer than tostop a baseball.Thinkabout what'more difficult'meansin thiscase.
-NEWTON'SSECONDLAWOFMOTION
+These example show that it is much more difficult to stop a well-thrown athletics hammer than to stop a baseball. Think about what 'more difficult' means in this case.
 
-Ifwewant tobring an object torest or toaccelerate it up to a certainvelocity,therequirementswillbedifferentfordifferent situations.Agolfball is accelerated in avery differentway to a ferry.Thinkof theforcesneeded and thetimeforwhichthey act. This brings us to another way of thinking about momentum. It is that is required to bring an object up to the speed it is moving at. Alternatively, it is the force required, and for how long, to bring a moving object to rest.
+#### NEWTON'SSECONDLAWOFMOTION
+NEWTON'S SECOND LAW OF MOTION
 
-figBNewton'slawsof motionasheoriginallywrotethem.
+If we want to bring an object to rest or to accelerate it up to a certain velocity, the requirements will be different for different situations. A golf ball is accelerated in a very different way to a ferry. Think of the forces needed and the time for which they act. This brings us to another way of thinking about momentum. It is that is required to bring an object up to the speed it is moving at. Alternatively, it is the force required, and for how long, to bring a moving object to rest.
 
-Newton'ssecond law canbewrittenmathematicallyasF=ma. In fact,that formula is only true if the mass remains constant. WhenNewton originally wrote his second law in the 1687book, Philosophiaenaturalisprincipiamathematica,he actuallywroteitas:
+fig B Newton's laws of motion as he originally wrote them.
 
-Therateofchangeofmomentumofabodyisdirectlyproportional totheresultantforceappliedtothebody,andisinthesamedirection astheforce.
+Newton's second law can be written mathematically as F=ma. In fact, that formula is only true if the mass remains constant. When Newton originally wrote his second law in the 1687 book, Philosophia naturalis principia mathematica, he actually wrote it as:
+
+The rate of change of momentum of a body is directly proportional to the resultant force applied to the body, and is in the same direction as the force.
 
 This can be written mathematically as:
 
 F = dp/dt = d(mv)/dt
 
-Here, Fis the applied force, and is the rateofchange of dt
+Here, F is the applied force, and is the rate of change of dt
+momentum in the direction of the force.
 
-momentumin the direction of theforce.
-
-d(x) The term is a mathematical expression meaning the rate of dt change of x,or how quickly x changes.However,if the quantities arenotbeingmeasured over avery short timescale,we can express this using average changes:
+d(x) The term is a mathematical expression meaning the rate of dt change of x, or how quickly x changes. However, if the quantities are not being measured over a very short timescale, we can express this using average changes:
 
 F = Δp/Δt
 PRACTICAL SKILLS
 
 figC Measuring how a force changes the momentum of a trolley.
 
-Youcaninvestigatetherateofchangeofmomentumin theschool laboratory.Atrolleystartsfromrestandasaforceactsuponitits velocityincreases.lfyourecord thetrolley'smovementovertime, youcanfindthevelocityeachsecond.If youthencalculatethe momentumeachsecond,youwillbeabletoplotagraphof momentum against time.It should bea straight line.Asp=Ft,the gradient of this line willbe equal to the accelerating force.
+You can investigate the rate of change of momentum in the school laboratory. A trolley starts from rest and as a force acts upon it its velocity increases. If you record the trolley's movement over time, you can find the velocity each second. If you then calculate the momentum each second, you will be able to plot a graph of momentum against time. It should be a straight line. As p=Ft, the gradient of this line will be equal to the accelerating force.
 
-figDAccelerating from rest,momentum will beproportional to time.
+figD Accelerating from rest, momentum will be proportional to time.
 
-SafetyNote:Place trolleysandrunwaysso they cannotfalland causeinjuries.Forlargemasses,placeacatchbox'filledwith crumpledpaperorbubbledplasticinthedropzone'toavoid injury tofeet.
+Safety Note: Place trolleys and runways so they cannot fall and cause injuries. For large masses, place a 'catch box' filled with crumpled paper or bubble plastic in the 'drop zone' to avoid injury to feet.
 SKILLS
 
-PROBLEMSOLVING
+PROBLEM SOLVING
 
-• Calculatethemomentumineachoftheseexamples:
+• Calculate the momentum in each of these examples:
 
-• (a) an ice skater with a mass of64kg glides at 3.75m s-1
+• (a) an ice skater with a mass of 64 kg glides at 3.75 m s-1
 
 • (b) a rugby player of mass 120 kg runs at a speed of 4.9 m s-1
 
-• (c)anantof mass5milligramsmoves ataspeedof5 centimetres persecond.
+• (c) an ant of mass 5 milligrams moves at a speed of 5 centimetres per second.
 
-• 2. Estimatethemomentumofthemotorcyclist andthe skateboarder shown infigA.
+• 2. Estimate the momentum of the motorcyclist and the skateboarder shown in fig A.
 
-• 3. Using theideas of Newton's second law,explain why hitting an airbagwill causelessinjurythan if apassenger hits the dashboard.
+• 3. Using the ideas of Newton's second law, explain why hitting an airbag will cause less injury than if a passenger hits the dashboard.
 
-• 4. Estimate theforceappliedby apersonthrowingaFrisbee.
+• 4. Estimate the force applied by a person throwing a Frisbee.
 SUBJECT VOCABULARY
 
-momentum(kgms-1)=mass(kg)xvelocity(m s-1) p=mxv
+momentum(kg m s-1)=mass(kg)xvelocity(m s-1) p=mxv
 LEARNING OBJECTIVES
 
-• Explaintheprincipleofconservationoflinearmomentum.
+• Explain the principle of conservation of linear momentum.
 
-• Makecalculationsbasedontheconservationoflinearmomentum.
+• Make calculations based on the conservation of linear momentum.
 COLLISIONS
 
 Whenobjectscollide,wecan use thelawsofphysicstocalculatewhere theobjectswillgoafterthe collision.Wecanusetheprincipleofconservationoflinearmomentumtopredictthemotion of objects after a collision. This principle tells us that if we calculate the momentum of each object before they collide,the sum total of these momenta(accounting for their direction)will be the same as the sum totalafterwards.
 LEARNING TIP
 
-similarphysicsprinciplesaboutrotatingobjects,butthey usedifferentequationsforthecalculations.Inthis bookwewill onlyconsider linearmomentum.
+similar physics principles about rotating objects, but they use different equations for the calculations. In this book we will only consider linear momentum.
 
-This principle depends on the condition that no external force acts on the objects in question. An externalforcewouldprovideanadditional acceleration,andthemotionoftheobjectswouldnotbe dependent on thecollision alone.Aswe sawintheprevioussection,a resultantforcewill cause a change inmomentum,soit makessense that momentum is onlyconserved ifnoexternal force acts. Imagine if a juggler's ball moving upward collided with one coming down. Momentum conservation would suggest that the one falling down would bounce back with an upward velocity after the collision. Common sense tells us that all balls will still end up back on the ground. The external force ofgravity means that theprinciple of conservation of momentum alone cannot be used to predict themotions after the collision.
+This principle depends on the condition that no external force acts on the objects in question. An external force would provide an additional acceleration, and the motion of the objects would not be dependent on the collision alone. As we saw in the previous section, a resultant force will cause a change in momentum, so it makes sense that momentum is only conserved if no external force acts. Imagine if a juggler's ball moving upward collided with one coming down. Momentum conservation would suggest that the one falling down would bounce back with an upward velocity after the collision. Common sense tells us that all balls will still end up back on the ground. The external force of gravity means that the principle of conservation of momentum alone cannot be used to predict the motions after the collision.
 
-fig BDavidPorterof theTCU Horned Frogsfeels thefullforceof theconservation of momentum.
+fig B David Porter of the TCU Horned Frogs feels the full force of the conservation of momentum.
 
-figANewton's cradle: each time theballscollide. momentum is transferredfrom onetoanother,butthetotal momentumremainsconstant.
+fig A Newton's cradle: each time the balls collide, momentum is transferred from one to another, but the total momentum remains constant.
 
 LEARNING TIP
 
-Totalmomentumisonly conservedwhennoexternal forces(such asfriction)acton the system.
+Total momentum is only conserved when no external forces (such as friction) act on the system.
 WORKED EXAMPLE
 
 In an Americanfootball match,the stationary quarterback is tackled by a defender who dives through the airat4ms-and,inmid-air,grabsthequarterbackandthetwomovequicklybackwardstogether. Ignoring any friction effects, calculate how fast the two will move back if the tackler has a mass of 140 kg and the stationary playerhas a mass of 95kg.Consider the entire situation to be happening horizontally. Before:
 EXAMHINT
 
-Foranyexamquestionabout momentumincollisionsand explosions,makesureyoustate: 'totalmomentumbefore=total momentumafter.
+For any exam question about momentum in collisions and explosions, make sure you state: 'total momentum before = total momentum after.
 
-Quarterbackstationarysozeromomentum
+Quarterback stationary so zero momentum
 
 Ptackler=mv=140×4=560
 
@@ -2988,7 +3046,7 @@ Vboth = 2.4ms-1
 
 LEARNING TIP
 
-Inacollisioninwhichtwoobjectsjointogethertobecomeoneandmoveofftogether,theyareoften said to'coalesce'
+In a collision in which two objects join together to become one and move off together, they are often said to 'coalesce'
 EXPLOSIONS
 
 • fly apart with equal and opposite momenta.
@@ -2998,107 +3056,118 @@ If a stationary object explodes, then the total momentum of all the shrapnel par
 After:
 WORKED EXAMPLE
 
-If theboy has a mass of 55kg and stepsforward at aspeed of1.5m s-1,what willhappen totheboatwhichhasa mass of36kg?(Ignore friction effects.)
+If the boy has a mass of 55 kg and steps forward at a speed of 1.5 m s⁻¹, what will happen to the boat which has a mass of 36 kg? (Ignore friction effects.)
 
 This situation is an explosion, so:
 
-totalmomentumbefore=totalmomentumafter=zero
+total momentum before = total momentum after = zero
 
-Notethatthestepsandlayout ofthesolutioninthisworked examplearesuitablefor conservationoflinear momentumquestionsinthe exam.
+Note that the steps and layout of the solution in this worked example are suitable for conservation of linear momentum questions in the exam.
 
-• Pboat +Pboy=0
+• P_boat + P_boy = 0
 
-• Pboat=-Pboy
+• P_boat = -P_boy
 
-Sowhen thetwoareaddedup,thetotal momentum is still zero.
+So when the two are added up, the total momentum is still zero.
 
-∴ p_boat = −(55 × 1.5) = −82.5 kg m s⁻¹ m_boat × v_boat = −82.5 kg m s⁻¹ v_boat = p_boat/m_boat = −82.5/36 v_boat = −2.3 m s⁻¹
+∴ p_boat = −(55 × 1.5) = −82.5 kg m s⁻¹
+m_boat × v_boat = −82.5 kg m s⁻¹
+v_boat = p_boat/m_boat = −82.5/36
+v_boat = −2.3 m s⁻¹
 
-So theboatmovesat2.3ms-1 intheoppositedirectionto theboy
-Investigatingtransferofmomentum
+So the boat moves at 2.3 m s⁻¹ in the opposite direction to the boy
 
-fig EVerifyingtheprincipleofconservationof linearmomentum.
+#### Investigatingtransferofmomentum
+Investigating transfer of momentum
 
-You caninvestigate the transfer of momentum in collisionsin the school laboratory using trolleys,or sliders onanairtrack.Byrecordingthemovementofonetrolleycrashingintoanother,youcanfindthe momentumofeachonebeforeandafterthecollision.Thecalculationofaddingupthetotal momenta beforeand aftercollisionwill allowyoutoprovetheprincipleofconservationof linearmomentum.Try different typesof collision and trolleyswith different masses.You could alsotry an explosion inwhichthe trolleyscomeapartfromastationaryposition.
+fig E Verifying the principle of conservation of linear momentum.
 
-Inexperimentsusingtrolleys,weoftenfindthatmomentumis actuallynotconserved inthemeasurements wemake.With airtrackcollisions,themeasurementsmatchveryclosely orexactlywiththeconservationof
+You can investigate the transfer of momentum in collisions in the school laboratory using trolleys, or sliders on an air track. By recording the movement of one trolley crashing into another, you can find the momentum of each one before and after the collision. The calculation of adding up the total momenta before and after collision will allow you to prove the principle of conservation of linear momentum. Try different types of collision and trolleys with different masses. You could also try an explosion in which the trolleys come apart from a stationary position.
 
-fig F A trolley'explosion.
+In experiments using trolleys, we often find that momentum is actually not conserved in the measurements we make. With air track collisions, the measurements match very closely or exactly with the conservation of
 
-fig D Caution:explosions may makeyou wet!
+fig F A trolley 'explosion'.
 
-SafetyNote:Place trolleys andrunwayssotheycannot fall and cause injuries.
-NEWTON'STHIRDLAW
+fig D Caution: explosions may make you wet!
 
-Conservation of momentum is directly responsible for Newton's third law.Remember,thistoldus thatfor everyforce,there is an equal and opposite force. If we think of a force as a way to change
+Safety Note: Place trolleys and runways so they cannot fall and cause injuries.
 
-dp momentum(F= then a force changingmomentumin one dt directionmustbeCountered
+#### NEWTON'STHIRDLAW
+NEWTON'S THIRD LAW
 
-by anequalandoppositeonetoensurethatoverallmomentum is conserved.For example,if thegravitational pull of theEarth towardstheEarth.Forconservationofmomentum,theEarth mustgainan equaland oppositemomentum.This is then caused by an equal and opposite gravitational force on the Earth from the apple.Thehuge mass of theEarth means that its acceleration cannot benoticed by us.
+Conservation of momentum is directly responsible for Newton's third law. Remember, this told us that for every force, there is an equal and opposite force. If we think of a force as a way to change
 
-• figGConservationof momentum causesequal and oppositeforces,as Newton explained in his third law of motion.
+dp momentum (F = ) then a force changing momentum in one direction must be Countered
+
+by an equal and opposite one to ensure that overall momentum is conserved. For example, if the gravitational pull of the Earth toward the Earth. For conservation of momentum, the Earth must gain an equal and opposite momentum. This is then caused by an equal and opposite gravitational force on the Earth from the apple. The huge mass of the Earth means that its acceleration cannot be noticed by us.
+
+• fig G Conservation of momentum causes equal and opposite forces, as Newton explained in his third law of motion.
 EXAMHINT
 
 Make sureyou answer the question that hasbeen asked.InQ3, nomarkswillbeawardedforanswersthatdonotrefertoNewton's thirdlaw.
 ANALYSIS
 
-• 1. A movie stuntman with a mass of 90kg stands on a stationary 1kgskateboard.An actorthrows a3.4kgbrick at thestuntman who catches it.Thebrick is travelling at 4.1ms-1when caught.
+• 1. A movie stuntman with a mass of 90 kg stands on a stationary 1 kg skateboard. An actor throws a 3.4 kg brick at the stuntman who catches it. The brick is travelling at 4.1 ms⁻¹ when caught.
 
-• 2. A boyinastationaryboatona stillpondhaslosthisoarsinthe water.In ordertoget theboatmovingagain,hethrowshis rucksack horizontally outof theboat witha speedof 4ms-1.
+• 2. A boy in a stationary boat on a still pond has lost his oar in the water. In order to get the boat moving again, he throws his rucksack horizontally out of the boat with a speed of 4 ms⁻¹.
 
-• Mass of boat = 60 kg: mass of boy = 40kg: mass of rucksack = 5 kg (a)Howfastwill this action maketheboatmove?
+• Mass of boat = 60 kg: mass of boy = 40 kg: mass of rucksack = 5 kg (a) How fast will this action make the boat move?
 
-• (b)If he throws therucksackbyexertinga force onit for 0.2s, howmuchforcedoesheexert?
+• (b) If he throws the rucksack by exerting a force on it for 0.2 s, how much force does he exert?
 
-• HowcanNewton'sthird lawexplaintheproblemsufferedby the boy stepping out of the boat in fig D?
+• How can Newton's third law explain the problem suffered by the boy stepping out of the boat in fig D?
 
-• 4 Ina stuntforanactionmovie,the100kgactorjumpsfrom a trainthatiscrossingariverbridge
+• 4 In a stunt for an action movie, the 100 kg actor jumps from a train that is crossing a river bridge
 
-• On the riverbelow,the heroine tied to a small boat is drifting towardsawaterfallat3ms-1.Thesmallboat andheroinehave a total mass of 200 kg.
+• On the river below, the heroine tied to a small boat is drifting towards a waterfall at 3 ms⁻¹. The small boat and heroine have a total mass of 200 kg.
 
-• (a)If thehero timeshisjumpsperfectlyso astolandonthe small boat,andhisvelocity is12ms-1at an angleof80°to therivercurrent,whatwillbethevelocityofthesmallboat immediatelyafterhislanding?Drawavectordiagramto showthe momentum addition.Ignore anyvertical motion.
+• (a) If the hero times his jump perfectly so as to land on the small boat, and his velocity is 12 ms⁻¹ at an angle of 80° to the river current, what will be the velocity of the small boat immediately after his landing? Draw a vector diagram to show the momentum addition. Ignore any vertical motion.
 
-• (b)If thewaterfall is100mdownstream,andtheherolanded whenthesmallboatwas16mfromthebank,wouldthey dropoverthefall?Assumethevelocityremainsconstant aftertheherohaslanded.Thesmallboatandthewaterfall areonthesame sideof thebridge ashejumps.
+• (b) If the waterfall is 100 m downstream, and the hero landed when the small boat was 16 m from the bank, would they drop over the fall? Assume the velocity remains constant after the hero has landed. The small boat and the waterfall are on the same side of the bridge as he jumps.
 SUBJECT VOCABULARY
 
-conservationoflinearmomentumthevectorsumofthemomenta ofallobjectsinasystemisthesamebeforeandafteranyinteraction (collision)between theobjects
+conservation of linear momentum the vector sum of the momenta of all objects in a system is the same before and after any interaction (collision) between the objects
 
-explosionasituationinwhichastationaryobject(orsystemof joined objects)separatesintocomponentparts,whichmoveoffatdifferent velocities.Momentummustbeconservedinexplosions
+explosion a situation in which a stationary object (or system of joined objects) separates into component parts, which move off at different velocities. Momentum must be conserved in explosions
 SAVINGHOCKEY GOALKEEPERS
 
 CRITICALTHINKING,PROBLEMSOLVING,ANALYSIS,REASONING/ARGUMENTATION, INTERPRETATION,ADAPTIVEEARNING,PRODUCTIVITY,SELF-EVALUATION COMMUNICATION,TEAMWORK
 
 OBO is a New Zealand based company that manufactures hockey goalkeeping equipment. The following extracts from their website explain some of their testinglaboratory's abilities,and report on a potential newmaterial used in legguards.
-WHYOBODON'TUSED30
 
-Inordertodesignandbuildtheworld'smostprotective and best performinggoalkeeper equipmentweneed thefacts.The O Labispackedfulloftheworld'smost advancedimpacttest equipment...and a fewvery cleverpeople to test and help evaluatetheresults.
+#### WHYOBODON'TUSED30
+WHY DON'T USE D30
 
-figAAnatomicallycorrect crash test dummyhead.
+In order to design and build the world's most protective and best performing goalkeeper equipment we need the facts. The O Lab is packed full of the world's most advanced impact test equipment... and a few very clever people to test and help evaluate the results.
 
-fig BDatacapture software simultaneouslyshowingvideo andconcussion data.
+fig A Anatomically correct crash test dummy head.
 
-Every detail sorted by a small group of smart committed people. Video capture at speeds up to 2000 frames per second,skin contactanalysis,andaccurateconcussionmeasurements.
+fig B Data capture software simultaneously showing video and concussion data.
 
-figCBall cannon capable of speeds in excess of 200km h.
+Every detail sorted by a small group of smart committed people. Video capture at speeds up to 2000 frames per second, skin contact analysis, and accurate concussion measurements.
 
-FromtheOBOwebsite,www.obo.co.nz/the-o-lab Awhileago,animportantnewprotectionpolymer called D30 was offered to OBO.Because we are always trying to improve designermade a special tripfromNew Zealand toEngland tomeetwith theD30creators.He returned home withlots of information andsomesampleswhichwetestedinthepurposebuiltOBOimpactlab..TheOlab.
+fig C Ball cannon capable of speeds in excess of 200km/h.
 
-OurimpactlabtestingshowedthatwhileD30weighedmorethan twoand ahalf timestheOBOpolyethyleneandEVAfoams,it provided significantlyless protection when dealing with the high speed and highly localised impact encountered with a hockey ball.
+From the OBO website, www.obo.co.nz/the-o-lab A while ago, an important new protection polymer called D30 was offered to OBO. Because we are always trying to improve design made a special trip from New Zealand to England to meet with the D30 creators. He returned home with lots of information and some samples which we tested in the purpose built OBO impact lab.. The O lab.
 
-Have a look at the results on the impact graph below (the horizontal axis is speed,thevertical axis is transferredforcethe higher the transferred force, the less the protection).
+Our impact lab testing showed that while D30 weighed more than two and a half times the OBO polyethylene and EVA foams, it provided significantly less protection when dealing with the high speed and highly localised impact encountered with a hockey ball.
 
-ProtectioncomparisonofD30vsOBOfoam forhockeyballimpactAugust2006
+Have a look at the results on the impact graph below (the horizontal axis is speed, the vertical axis is transferred force - the higher the transferred force, the less the protection).
 
-fig DProtection comparison of D30vs OBOfoamforhockey ball impact.
-SCIENCECOMMUNICATION
+Protection comparison of D30 vs OBO foam for hockey ball impact August 2006
 
-• 1Thewebsiteoppositewaswrittentosupport thebusinessactivitiesof a sportssupply company. Consider the article and comment on the type of writing being used. Think about, for example, how the physics involved is explained, and the degree of detail included. Try and answer thefollowingquestions:
+fig D Protection comparison of D30 vs OBO foam for hockey ball impact.
 
-• (a)What range of people doyou expect might read the OBOwebsite?What wouldbe the likely scientific background of their customers?
+#### SCIENCECOMMUNICATION
+SCIENCE COMMUNICATION
 
-• (b) On the actual OBO webpage. there are many more pictures, including brief videos, that intendedaudience,and thewebsiteasamedium?
+• 1 The website opposite was written to support the business activities of a sports supply company. Consider the article and comment on the type of writing being used. Think about, for example, how the physics involved is explained, and the degree of detail included. Try and answer the following questions:
 
-• (c）Whereunitshavebeenincluded,commentontheactualunitschosentomeasurethe quantities involved.
+• (a) What range of people do you expect might read the OBO website? What would be the likely scientific background of their customers?
+
+• (b) On the actual OBO webpage, there are many more pictures, including brief videos, that intended audience, and the website as a medium?
+
+• (c) Where units have been included, comment on the actual units chosen to measure the quantities involved.
 PHYSICS IN DETAIL
 
 Nowwe will look at the physicsin,or connected to,thesewebsite extracts.Some of these questions link to topics in much earlier sections of this book, so you may need to combine concepts from different areas of physics to work out the answers.
@@ -3131,7 +3200,7 @@ You donotneed toprepare the presentation for the trade show, just your questionn
 
 1C EXAMPRACTICE
 
-• 1Which is the correct expression for calculating momentum?
+• 1 Which is the correct expression for calculating momentum?
 
 • A Mass × speed
 
@@ -3139,7 +3208,7 @@ You donotneed toprepare the presentation for the trade show, just your questionn
 
 • C Mass x velocity
 
-• 6How tiny bacteria move is of interest in nanotechnology. Mycobacteria move by ejecting slime from nozzles in their bodies.
+• 6 How tiny bacteria move is of interest in nanotechnology. Mycobacteria move by ejecting slime from nozzles in their bodies.
 
 • Explain the physics principles behind this form of propulsion.
 
@@ -3147,9 +3216,9 @@ You donotneed toprepare the presentation for the trade show, just your questionn
 
 [1]
 
-(TotalforQuestion6=4marks)
+(Total for Question 6 = 4 marks)
 
-• 2Which of thefollowing is the correct unit for momentum?
+• 2 Which of the following is the correct unit for momentum?
 
 • A kg s-1
 
@@ -3161,9 +3230,9 @@ You donotneed toprepare the presentation for the trade show, just your questionn
 
 [1]
 
-(Total for Question 2 =1 mark)
+(Total for Question 2 = 1 mark)
 
-• 3Ahockeyballofmass158gishitwith aforceof2000N so thatit travels at28.1ms-1.What is theball'smomentum?
+• 3 A hockey ball of mass 158g is hit with a force of 2000N so that it travels at 28.1ms-1. What is the ball's momentum?
 
 • A 4.4kgm s-1
 
@@ -3176,33 +3245,33 @@ You donotneed toprepare the presentation for the trade show, just your questionn
 [1]
 (Total for Question 3=1 mark)
 
-• 4An ice skater and his coach begin stationary and push apart from each other with a force of 75 N. The skater has a mass of 64kg, whilst the coachweighs 804 N.
+• 4 An ice skater and his coach begin stationary and push apart from each other with a force of 75 N. The skater has a mass of 64 kg, whilst the coach weighs 804 N.
 
-• If the skater moves off to the left with a speed of 3.6 ms-1, whatisthevelocity of thecoach?
+• If the skater moves off to the left with a speed of 3.6 ms-1, what is the velocity of the coach?
 
 • A 0.022 m s-1 to the right
 
 • B 2.8 m s-1 to the right
 
-• C 3.1ms-1to theleft
+• C 3.1 ms-1 to the left
 
 • D 3.1 m s-1 to the right
 
 [1]
 
-• 7A student is using a'Newton's Cradle'. This consists of a set of identicalsolid metal balls hangingby threadsfrom aframe so that they are in contact with eachother He initially pulls one ball to the side as shown.
+• 7 A student is using a 'Newton's Cradle'. This consists of a set of identical solid metal balls hanging by threads from a frame so that they are in contact with each other. He initially pulls one ball to the side as shown.
 
 He releases the ball, it collides with the nearest stationary ball and stops. The ball furthest to the right immediately moves away. The middle three balls remain stationary.
 
-• (a)Explain what measurements the student would take and describehowhewouldusethemtoinvestigatewhether momentumhadbeenconservedinthisevent.
+• (a) Explain what measurements the student would take and describe how he would use them to investigate whether momentum had been conserved in this event.
 
 • (b) The student makes the following observations:
 
-• ·theballontherightreturns andcollideswith a similar result;thisrepeats itself a number of times
+• · the ball on the right returns and collides with a similar result; this repeats itself a number of times
 
-• ·after a while, the middle balls are also moving
+• · after a while, the middle balls are also moving
 
-• ·shortly afterwards,the balls all come to rest.
+• · shortly afterwards, the balls all come to rest.
 (Total for Question 4 = 1 mark)
 
 Discuss these observations in terms of energy.
@@ -3228,62 +3297,64 @@ Discuss these observations in terms of energy.
 
 (Total for Question 5 = 1 mark)
 
-(Totalfor Question 7=7marks)
+(Total for Question 7 = 7 marks)
 
-• 8Astudent uses amotionsensorandadataloggingcomputer toinvestigatethemomentumchangeswhen a trolleyis accelerated by a falling weight connected to it. Assume the trolley suffers nofriction on the desk, and there is alsono friction in the pulley wheel.
+• 8 A student uses a motion sensor and a data logging computer to investigate the momentum changes when a trolley is accelerated by a falling weight connected to it. Assume the trolley suffers no friction on the desk, and there is also no friction in the pulley wheel.
 
-• (a)Explain how Newton's second law of motion predicts that themomentumof thistrolleywillchangewhentheweight is allowed to fall freely. [2]
+• (a) Explain how Newton's second law of motion predicts that the momentum of this trolley will change when the weight is allowed to fall freely. [2]
 
-• (b)When the weight is released,the trolley experiences a resultantacceleratingforceof2.85Nandhas amass of 350 g. Calculate the rate of change of velocity of the trolley.
+• (b) When the weight is released, the trolley experiences a resultant accelerating force of 2.85 N and has a mass of 350 g. Calculate the rate of change of velocity of the trolley.
 
-• (c)The trolley reaches a velocity of 11.1 ms-1, calculate its momentum at this velocity, including the correct unit.
+• (c) The trolley reaches a velocity of 11.1 ms-1, calculate its momentum at this velocity, including the correct unit.
 
 [3]
 
 [2]
 
-• (d)Explain what is meant by the principle of conservation of momentum.
+• (d) Explain what is meant by the principle of conservation of momentum.
 
 The student changes the experiment so that he can collide a moving trolley with an identical stationary one.
 
-• (e)Explain the momentum and speed changes for each trolley if themoving trolley stops on collision, and the stationary onemovesaway. [4]
+• (e) Explain the momentum and speed changes for each trolley if the moving trolley stops on collision, and the stationary one moves away. [4]
 
 • Explain the momentum and speed changes involved if the trolleys join together on collision, and both move away together. [4]
 
-• (g)Explain how this experiment could be changed to investigate themomentum and speed changes in an explosion.
+• (g) Explain how this experiment could be changed to investigate the momentum and speed changes in an explosion.
 
 [3]
 
-(TotalforQuestion8=20marks)
+(Total for Question 8 = 20 marks)
 
 [2]
 
-• 9 Explain how the principle of conservation of momentum in collisions isa consequence ofNewton's third law of motion.
+• 9 Explain how the principle of conservation of momentum in collisions is a consequence of Newton's third law of motion.
 
 [6]
-(TotalforQuestion9=6marks)
 
-• 10A hockeyballis travellinghorizontallywithamomentum of 0.8 kg m s-1 just before it hits a goalkeeper's leg pad. It rebounds horizontally from the leg pad with a momentum of -1.2 kg m s-1. The graph shows the variation in the momentum of theball during thisprocess.
+#### (TotalforQuestion9=6marks)
+(Total for Question 9 = 6 marks)
 
-• (a)Describe how the ball's momentum changes over time from 0 to 10ms. [3]
+• 10 A hockey ball is travelling horizontally with a momentum of 0.8 kg m s-1 just before it hits a goalkeeper's leg pad. It rebounds horizontally from the leg pad with a momentum of -1.2 kg m s-1. The graph shows the variation in the momentum of the ball during this process.
 
-• (b)Explain in terms of Newton's laws why the momentum changes from positive to negative during the ball's collision with the leg pad. [2]
+• (a) Describe how the ball's momentum changes over time from 0 to 10 ms. [3]
 
-• (c)What is the resultant force on the ball during the following time periods?
+• (b) Explain in terms of Newton's laws why the momentum changes from positive to negative during the ball's collision with the leg pad. [2]
 
-• (i) 0-4ms
+• (c) What is the resultant force on the ball during the following time periods?
 
-• (i 4-8ms
+• (i) 0-4 ms
 
-• (ii) 8-12 ms
+• (ii) 4-8 ms
+
+• (iii) 8-12 ms
 
 [4]
 
-• (d)Draw a new version of the graph for a collision in which the ball is initially travelling at half the speed, and for which the impact time is also halved, but the force provided by the leg pads is the same.
+• (d) Draw a new version of the graph for a collision in which the ball is initially travelling at half the speed, and for which the impact time is also halved, but the force provided by the leg pads is the same.
 
 [3]
 
-(TotalforQuestion10=12marks)
+(Total for Question 10 = 12 marks)
 
 ## Topic 2: Materials
 
@@ -3291,24 +3362,24 @@ The student changes the experiment so that he can collide a moving trolley with 
 
 CHAPTER 2A FLUIDS
 
-InTopic1A,wecalculatedthemotionofobjects.WefollowedNewton'slaws,andassumedzeroairresistance. Howsafewasthatassumption?Urbanmythsdescribecoinsdroppedfromhighbuildingsthatcutdeepinto the concretebelow-arethesemyths actuallytrue?Averyapproximatecalculation,usingestimatesof averagecoin sizeandmass,andthestrengthoftheconcrete,suggeststhatfromaheightofo0metres,afallingcoincould penetrate tens of centimetres... if it fell in a vacuum.
+In Topic 1A, we calculated the motion of objects. We followed Newton's laws, and assumed zero air resistance. How safe was that assumption? Urban myths describe coins dropped from high buildings that cut deep into the concrete below - are these myths actually true? A very approximate calculation, using estimates of average coin size and mass, and the strength of the concrete, suggests that from a height of 100 metres, a falling coin could penetrate tens of centimetres... if it fell in a vacuum.
 
-Thefallingcoinmighttumbleinflight,dependingupon the exacteffects of airresistance.Thisresistancewill slowthecoinsignificantly,and itwill hitthegroundatamuchlowerspeedthan thetheoretical estimateinthe calculationmentionedabove.Mostlikely,itwill landwithanimpactsimilartothatofahailstone.
+The falling coin might tumble in flight, depending upon the exact effects of air resistance. This resistance will slow the coin significantly, and it will hit the ground at a much lower speed than the theoretical estimate in the calculation mentioned above. Most likely, it will land with an impact similar to that of a hailstone.
 
-In thischapter,youwill seehowgases and liquidsbehavewhen flowing,orwhen causingfrictionwith moving solidobjects.Youwill alsolearnaboutsomeofthefactorsthatcanaffectthesemovements.
+In this chapter, you will see how gases and liquids behave when flowing, or when causing friction with moving solid objects. You will also learn about some of the factors that can affect these movements.
 MATHS SKILLS FOR THIS CHAPTER
 
-• Unitsof measurement(e.g.theunit for density,kg m-3)
+• Units of measurement (e.g. the unit for density, kg m⁻³)
 
-• Visualisingandrepresenting3Dformsandfindingvolumesofrectangularblocks,cylindersandspheres
+• Visualising and representing 3D forms and finding volumes of rectangular blocks, cylinders and spheres
 
-• Changingthesubjectofanequation(e.g.re-arranging theStokes'lawequation)
+• Changing the subject of an equation (e.g. re-arranging the Stokes' law equation)
 
-• Solving algebraic equations (e.g.finding the depth at which a barge floats in a river)
+• Solving algebraic equations (e.g. finding the depth at which a barge floats in a river)
 
-• Substitutingnumerical valuesinto algebraicequations(e.g.anupthrustcalculation)
+• Substituting numerical values into algebraic equations (e.g. an upthrust calculation)
 
-• Determiningthe slopeof alineargraph(e.g.finding theviscosity fromterminalvelocity data)
+• Determining the slope of a linear graph (e.g. finding the viscosity from terminal velocity data)
 WhatpriorknowledgedoI need?
 
 • Airresistance-itscausesandeffects
@@ -3322,24 +3393,26 @@ Topic1A
 • Newton'slawsofmotion
 
 • Weight and the acceleration causedby gravity
-Whatwill I studyin thischapter?
 
-• Howtocalculatedensityandupthrust
+#### Whatwill I studyin thischapter?
+What will I study in this chapter?
 
-• Howfrictioniscausedbyfluids,andtheeffectsof this drag
+• How to calculate density and upthrust
 
-• Themeaningofthetermsdrag,viscosity，laminar flow,turbulentflowandupthrust
+• How friction is caused by fluids, and the effects of this drag
 
-• Howfluidsflow,andwhatchangestheirflow properties
+• The meaning of the terms drag, viscosity, laminar flow, turbulent flow and upthrust
 
-• Stokes'law
+• How fluids flow, and what changes their flow properties
 
-• Whatwemeanbyterminalvelocity,andwhat affectsit
+• Stokes' law
+
+• What we mean by terminal velocity, and what affects it
 LEARNING OBJECTIVES
 
-• Use theequation definingdensity.
+• Use the equation defining density.
 
-• Understand how theupthrustforce ina fluid canbe calculated.
+• Understand how the upthrust force in a fluid can be calculated.
 FLUIDS
 
 Have you ever wondered why it is sometimes so difficult to get thicksauceout ofabottle?The answeris that themanufacturers make it thick on purpose.Market research shows that consumers fries,and producing it that thick makes the sauce flow very slowly.
@@ -3361,19 +3434,19 @@ A house brick is 23 cm long, 10 cm wide and 7 cm high. Its mass is 3.38 kg.
 ρ = m/V volume V = 0.23 × 0.10 × 0.07 = 1.61 × 10⁻³ m³ mass m = 3.38 kg density ρ = 3.38/(1.61 × 10⁻³) ρ = 2100 kg m⁻³
 EXAMHINT
 
-Note that the steps and layoutof thesolutionin thisworkedexampleare suitablefordensity questions in the exam.
+Note that the steps and layout of the solution in this worked example are suitable for density questions in the exam.
 
-At20°C,achild'sballoonfilledwithhelium isa spherewitharadius of 20 cm.The mass of helium in theballoonis 6grams. Whatisthedensityof helium atthistemperature?
+At 20°C, a child's balloon filled with helium is a sphere with a radius of 20 cm. The mass of helium in the balloon is 6 grams. What is the density of helium at this temperature?
 
 ρ = m/V r = 0.20 m V = (4/3)πr³ = (4/3)π × (0.20)³ = 0.0335 m³ m = 0.006 kg ρ = 0.006/0.0335
 
-p=0.179 ≈0.18kgm-3
+p = 0.179 ≈ 0.18 kgm-3
 
 LEARNING TIP
 
-Asobjectsexpandwhen theygethotter,thevolume dependsonthe temperature,andso thedensitymust alsobe affectedbychanges in temperature.
+As objects expand when they get hotter, the volume depends on the temperature, and so the density must also be affected by changes in temperature.
 
-Here is a table showing densitiesfor different materials.
+Here is a table showing densities for different materials.
 
 #### LEARNING TIP
 | MATERIAL - air          | STATE - gas (sea level, 20 °C)   |   DENSITY / kg m-3 - 1.2 |
@@ -3396,67 +3469,68 @@ The weight of fuid displaced (i.e. upthrust) is then found using the relationshi
 W=mg
 
 fig BScuba diving equipment includes a buoyancy control device that can change volume to displace more or less water. This varies the upthrust and so helps the diver move up or down.
-WHYDOESABRICKSINK?
 
-If thehousebrickfrom theexample calculationofdensity above the weight of water it displaced. This is simply the weight of an equalvolume ofwaterAsthedensity ofwateris 1000kgm-3,the mass ofwater displaced by thebrickwould be:
+#### WHYDOESABRICKSINK?
+WHY DOES A BRICK SINK?
 
-m = 1000kg m-3 × 1.61 × 10-3 m3 = 1.61 kg
+If the house brick from the example calculation of density above the weight of water it displaced. This is simply the weight of an equal volume of water. As the density of water is 1000 kg m-3, the mass of water displaced by the brick would be:
+
+m = 1000 kg m-3 × 1.61 × 10-3 m3 = 1.61 kg
 
 The water has a weight of:
 
 W = 1.61 × 9.81 = 15.8 N
 
-so thereis anupwardforce on thebrick of15.8 N.
+so there is an upward force on the brick of 15.8 N.
 
-Ifwecomparetheweight of thebrickwith theupthrustwhenitis submerged,theresultantforcewill be downwards:
+If we compare the weight of the brick with the upthrust when it is submerged, the resultant force will be downwards:
 
-weight=3.38x9.81=33.2N downwards
+weight = 3.38 × 9.81 = 33.2 N downwards
 
-upthrust=15.8Nupwards
+upthrust = 15.8 N upwards
 
-resultantforce=33.2-15.8=17.6N downwards
+resultant force = 33.2 - 15.8 = 17.6 N downwards
 
-So,thebrickwill acceleratedownwardswithin thewateruntil itreaches thebottom ofthepond,whichthenexerts anextra upwards force to balance the weight so the brick rests stationary on thebottom withzeroresultantforce.
+So, the brick will accelerate downwards within the water until it reaches the bottom of the pond, which then exerts an extra upwards force to balance the weight so the brick rests stationary on the bottom with zero resultant force.
 
 (b)
 
-figC(a) If the upthrust on an object is less than its weight,then the object will sink through a fluid; (b) an object will remain at rest when balancedforces acton it.
+fig C (a) If the upthrust on an object is less than its weight, then the object will sink through a fluid; (b) an object will remain at rest when balanced forces act on it.
 FLOATING
 
 Imagine an object lowering into a fuid. The instant the object touches the surface of thefluid thereis noupthrust,because no fluid has been displaced. As the object sinks deeper into the fuid, it displaces an increasing volume of the fuid, so increasing the upthrust acting upon it. If a point is reached when the upthrust and weight are balanced exactly, the object will stop sinking further-it will float there.So,for an object to float,it will have to sink until it has displaced its own weight of fuid.
 WORKED EXAMPLE
 
-A giantgarbagebarge onNewYork's HudsonRiver is60m long and10mwide.Whatdepthof thehullwillbeunderwaterifitand itscargohaveacombinedmassof15o0 tonnes?(Assume thatthe density of water in the Hudson River = 1000 kg m-3.)
+A giant garbage barge on New York's Hudson River is 60m long and 10m wide. What depth of the hull will be underwater if it and its cargo have a combined mass of 1500 tonnes? (Assume that the density of water in the Hudson River = 1000 kg m-3.)
 
 To float:
 
 upthrust = weight
 
-weight=mg=1500×1000×9.81=1.47×107N
+weight = mg = 1500 × 1000 × 9.81 = 1.47 × 10⁷ N
 
-• upthrust=1.47×107N
+• upthrust = 1.47 × 10⁷ N
 
-The upthrust is equal to the weight of the volume of water displaced bythe hull:
+The upthrust is equal to the weight of the volume of water displaced by the hull:
 
-upthrust=pxV×g
+upthrust = ρ × V × g
 
 where:
 
-volumeV=lengthof hull,/ xwidthof hull,wxdepthof hull underwater,d
+volume V = length of hull, l × width of hull, w × depth of hull underwater, d
 
 So:
 
-upthrust=1000×60×10×d×9.81
+upthrust = 1000 × 60 × 10 × d × 9.81
 
-=5.89×106×d
+= 5.89 × 10⁶ × d
 
-d=1.47×107
+d = 1.47 × 10⁷
+5.89 × 10⁶
 
-5.89×106
+d = 2.5m
 
-d=2.5m
-
-The hull will be 2.5munderwater.
+The hull will be 2.5m underwater.
 EXAM HINT
 
 Notethatthestepsandlayoutof thesolutioninthisworkedexample aresuitableforupthrustquestionsintheexam.
@@ -3523,22 +3597,24 @@ If we take a simple example such as water flowing slowly through a pipe, it will
 As with most areas of scientific investigation, Isaac Newton produced much work on the subject of fluid flow.In particular heis credited with the development of equations to describe thefrictional force between the layers in streamline flow. If a liquid follows his formulae, as most common liquids do,it isknown asaNewtonianfluid.
 STREAMLINING
 
-The lines of laminar fuid flow are called streamlines. At any point on any one ofthesestreamlines,thevelocityoftheflowwill be constant over time. Remember that velocity is a vector, so this the same direction and at the same speed. The direction and/or speed may be different in different places,but at any given place direction and speed must stay constant.
+The lines of laminar fluid flow are called streamlines. At any point on any one of these streamlines, the velocity of the flow will be constant over time. Remember that velocity is a vector, so this the same direction and at the same speed. The direction and/or speed may be different in different places, but at any given place direction and speed must stay constant.
 
-In the wind tunnel in fig C,the smoke would flow over the car in exactly the samepatternforeverif all thewind tunnel factors were kept constant. Changing the speed of the airflow in the tunnel allows designerstotest how theprototypewouldbehave atfaster speeds, and at what point laminar flow changes to turbulent fow.
+In the wind tunnel in fig C, the smoke would flow over the car in exactly the same pattern forever if all the wind tunnel factors were kept constant. Changing the speed of the airflow in the tunnel allows designers to test how the prototype would behave at faster speeds, and at what point laminar flow changes to turbulent flow.
 
-fig CSmoke streamlines showlaminarflow of air overa well-designed car.
+fig C Smoke streamlines show laminar flow of air over a well-designed car.
 
-In turbulent flow the fuid velocity in any given place changes over time.The flowbecomes chaotic and swirling eddiesform (you designed carwould cause turbulentflow ofair overit.Inthewind tunnel thesmoketrailsover thecarwouldbeseen toswirl ineverchanging patterns. Turbulent flow increases the drag on a vehicle and soincreasesfuel consumption.
+In turbulent flow the fluid velocity in any given place changes over time. The flow becomes chaotic and swirling eddies form (you designed car would cause turbulent flow of air over it. In the wind tunnel the smoke trails over the car would be seen to swirl in ever changing patterns. Turbulent flow increases the drag on a vehicle and so increases fuel consumption.
 
-fig DIncreased speeds change streamline flow to turbulent flow.
-Investigatingtypesofflow
+fig D Increased speeds change streamline flow to turbulent flow.
 
-TurbulentflowwasfirstdemonstratedbyOsborneReynoldsin1883in anexperimentshowingcolouredwaterflowinginaglasstube.Youcan setupa similarexperimenttoshowturbulencecausedbyfasterfluid flow,orbydifferent shapesofobstacles.Atmostspeeds,asmooth curved obstaclewill producelessturbulencethan asquarer one.
+#### Investigatingtypesofflow
+Investigating types of flow
 
-fig EA few crystals of potassium manganate(Vll) will produce purple trailsin thewaterflowwhichcanthenbe made topass around objects madefrom clay.Youcanalter theflowrate and the obstacleshapes in order to see how the flow changes.
+Turbulent flow was first demonstrated by Osborne Reynolds in 1883 in an experiment showing coloured water flowing in a glass tube. You can set up a similar experiment to show turbulence caused by faster fluid flow, or by different shapes of obstacles. At most speeds, a smooth curved obstacle will produce less turbulence than a squarer one.
 
-Safety Note:Avoid skin contactwith thepotassiummanganate（vii) and theclayafterit hasbeenused.
+fig E A few crystals of potassium manganate(VII) will produce purple trails in the water flow which can then be made to pass around objects made from clay. You can alter the flow rate and the obstacle shapes in order to see how the flow changes.
+
+Safety Note: Avoid skin contact with the potassium manganate(VII) and the clay after it has been used.
 SKILLS ADAPTIVELEARNING
 
 • 1. Givethreeexamplesofobjectsthataredesignedtoreducethe amountofturbulentflowofairorwateroverthem.
@@ -3552,25 +3628,25 @@ SKILLS ADAPTIVELEARNING
 • 4. Describeandexplainthedifferencesinthewatersurfacesinthe twopicturesinfigD.
 SUBJECT VOCABULARY
 
-laminarflow/streamlineflowafluidmoveswithuniformlinesin whichthevelocityisconstantovertime
+laminar flow/streamline flow a fluid moves with uniform lines in which the velocity is constant over time
 
-turbulent flowfluidvelocityin aparticularplace changesovertime, ofteninanunpredictablemanner
+turbulent flow fluid velocity in a particular place changes over time, often in an unpredictable manner
 
-streamlineslinesoflaminarflowinwhichthevelocityisconstant overtime
+streamlines lines of laminar flow in which the velocity is constant over time
 LEARNING OBJECTIVES
 
-• Understand theconceptofviscosity.
+• Understand the concept of viscosity.
 
-• Knowhowviscosityisrelatedtotemperature
+• Know how viscosity is related to temperature
 VISCOSITY
 
-• fig A The'sharkskin' suit helped break many swimming world records at the Beijing Olympics- it was laterbanned by swimming's governing body as'technology dopingDespite the manufacturers claim that this was due to thematerial's extremely lowviscous drag.scientists discovered thistobefalse and put the success down to its physiological benefits for athletes.
+• fig A The 'sharkskin' suit helped break many swimming world records at the Beijing Olympics - it was later banned by swimming's governing body as 'technology doping'. Despite the manufacturers claim that this was due to the material's extremely low viscous drag, scientists discovered this to be false and put the success down to its physiological benefits for athletes.
 
-When you walk in a swimming pool, you find it much harder than walking through air. The friction acting against you is greater in water than it is in air This frictional force in fluids is due to viscosity. If the frictional force caused by movement through the fluid is small, we say the viscosity is low.
+When you walk in a swimming pool, you find it much harder than walking through air. The friction acting against you is greater in water than it is in air. This frictional force in fluids is due to viscosity. If the frictional force caused by movement through the fluid is small, we say the viscosity is low.
 
-Newtondevelopedaformulaforthefrictioninliquidsthat includesseveralfactors.Oneofthesefactorsrelatestothe particularliquidinquestion.Itwouldbeevenhardertowade through a swimming pool of oil than one full of water This fluiddependentfactoriscalledthecoefficientofviscosityand has thesymbol n,theGreekletter eta.
+Newton developed a formula for the friction in liquids that includes several factors. One of these factors relates to the particular liquid in question. It would be even harder to wade through a swimming pool of oil than one full of water. This fluid dependent factor is called the coefficient of viscosity and has the symbol η, the Greek letter eta.
 
-Asviscosity determines thefrictionforce actingwithin a fluid,it hasadirecteffecton therateofflowof thefluid.Consider the differing rates of flow of a river of lava (see table A) compared with theviscosity of lava.
+As viscosity determines the friction force acting within a fluid, it has a direct effect on the rate of flow of the fluid. Consider the differing rates of flow of a river of lava (see table A) compared with the viscosity of lava.
 
 #### VISCOSITY
 tableAHowistherateofflowrelatedtotheviscosityof thefluid?
@@ -3585,21 +3661,21 @@ tableAHowistherateofflowrelatedtotheviscosityof thefluid?
 tableAHowistherateofflowrelatedtotheviscosityof thefluid?
 
 The rateof flow of a fluid through a pipeis inverselyproportional to theviscosity of thefluid.In1838,JeanPoiseuille,a French doctor and physiologist, investigated the flow of fluids in pipes andproved theconnectionbetweenflowrate andviscosity. Poiseuillewasinterested inblood flow through thebody,but his law is very important in industrial design.For example, the rate of flow of liquid chocolate through pipes in the manufacture of sweets will vary with the chocolate's viscosity, which will vary depending on the exact recipe used to produce it. More sugar may mean greater viscosity and thus slower flow through the pipes,and so less chocolate per sweet.
-Investigatingflowrates
 
-You caninvestigate howfluid flowrate depends on thefluid's viscositybydoinganexperimentverysimilartothosecarriedoutby Poiseuilleinthemid-nineteenthcentury.Usingaconstantpressure, waterforcedthroughanarrowpipewillflowatacertainrate, inverselyproportionaltoitsviscosity.Byvaryingtheheightof the watertank,youcanrecordmeasurementsofthis'headofpressure,h, against the flow rate.Thegradient of the best-fit linewill allowyou to calculatetheviscosityof thewater.
+#### Investigatingflowrates
+Investigating flow rates
 
-fig BExperimental set up and sampleresultsfor an investigation into Poiseuille flow.
+You can investigate how fluid flow rate depends on the fluid's viscosity by doing an experiment very similar to those carried out by Poiseuille in the mid-nineteenth century. Using a constant pressure, water forced through a narrow pipe will flow at a certain rate, inversely proportional to its viscosity. By varying the height of the water tank, you can record measurements of this 'head of pressure', h, against the flow rate. The gradient of the best-fit line will allow you to calculate the viscosity of the water.
 
-You can plot a graph of the flow rate(F) against height (h) and hence calculate theviscosityofwater(m).
+fig B Experimental set up and sample results for an investigation into Poiseuille flow.
 
-TTpgrA Poiseuille's equations tells us that the gradient of the graph = 8ml
+You can plot a graph of the flow rate (F) against height (h) and hence calculate the viscosity of water (η).
 
-whereristheinternal radiusof the capillary tube,pisthedensity of water,and g=9.81Nkg-1.
+Poiseuille's equation tells us that the gradient of the graph = 8ηl/πr⁴ρg, where r is the internal radius of the capillary tube, ρ is the density of water, and g = 9.81 N kg⁻¹.
 
-SafetyNote:Secure the constant head apparatusto a standso that itcannotfalloverevenwhenfilledwithwater.
+Safety Note: Secure the constant head apparatus to a stand so that it cannot fall over even when filled with water.
 
-An even greater variation in viscosity of liquid chocolate is caused by changes inits temperature.Thesweetmanufacturer can accountforvariation in arecipe(which might come from something asminor as a change in supplierofcocoabeans)by adjusting theflowrate by altering the temperature.Viscosity is directly related to fuid temperature. In general, liquids have a lowercoefficient ofviscosity at highertemperatures.Forgases, viscosityincreaseswithtemperature
+An even greater variation in viscosity of liquid chocolate is caused by changes in its temperature. The sweet manufacturer can account for variation in a recipe (which might come from something as minor as a change in supplier of cocoa beans) by adjusting the flow rate by altering the temperature. Viscosity is directly related to fluid temperature. In general, liquids have a lower coefficient of viscosity at higher temperatures. For gases, viscosity increases with temperature.
 
 #### Investigatingflowrates
 tableBTheviscositiesofdifferentfluids atdifferent temperatures.
@@ -3619,7 +3695,7 @@ tableBTheviscositiesofdifferentfluids atdifferent temperatures.
 | chocolate |               50 |              60 |
 
 #### Investigatingflowrates
-tableBTheviscositiesofdifferentfluids atdifferent temperatures.
+table B The viscosities of different fluids at different temperatures.
 Investigating how viscosity changeswith temperature
 
 half-full of a test fluid (such as syrup). The temperature of the liquid is varied using a water bath. The viscosityof the liquid will affect therate at which the tin or bottlerolls down a fixed ramp.
@@ -3640,7 +3716,7 @@ CHECKPOINT
 • 5. Draw a graph of the experimental results shown in fig Bin ordertofind theviscosity of water.How doesyourvaluecomparewiththefiguresintableB?
 SUBJECT VOCABULARY
 
-viscosityhowresistant a fluid istoflowing coefficientofviscositya numerical valuegiventoafluid toindicatehowmuchitresistsflow
+viscosity how resistant a fluid is to flowing coefficient of viscosity a numerical value given to a fluid to indicate how much it resists flow
 LEARNING OBJECTIVES
 
 • Use the equation for viscous drag.
@@ -3707,22 +3783,22 @@ v_term = (2r²g(ρ_s − ρ_f))/(9η)
 So terminal velocity is proportional to the square of the radius. This means that a larger sphere falls faster. Furthermore, because theradiusis squared,itfallsmuchfaster.
 EXAM HINT
 
-Atafixedtemperature,viscosity is constant.
+At a fixed temperature, viscosity is constant.
 
-Viscous drag'increaseswith velocity,but'viscosity'doesnot change.
+Viscous drag increases with velocity, but viscosity does not change.
 
-EXAMHINT
+EXAM HINT
 
-Notethatthesteps andlayout of thesolutioninthisworked examplearesuitablefor terminalvelocityquestionsin the exam.
+Note that the steps and layout of the solution in this worked example are suitable for terminal velocity questions in the exam.
 WORKED EXAMPLE
 
-Find the terminal velocity of (a) a steel ball bearing of radius 1 mm and(b) a steel ball bearingof radius 2 mm falling through glycerine in a measuring cylinder.
+Find the terminal velocity of (a) a steel ball bearing of radius 1 mm and (b) a steel ball bearing of radius 2 mm falling through glycerine in a measuring cylinder.
 
-The viscosity of glycerine is highly temperature dependent: at 20°C we can take n = 1.5 Pa s
+The viscosity of glycerine is highly temperature dependent: at 20°C we can take η = 1.5 Pa s
 
-density of steel =7800kgm-3 density of glycerine = 1200 kg m-3 g=9.81ms-2
+density of steel = 7800 kg m⁻³ density of glycerine = 1200 kg m⁻³ g = 9.81 m s⁻²
 
-• (a)For a 1 mm radius ball bearing:
+• (a) For a 1 mm radius ball bearing:
 
 v_term = (2r²g(ρ_s − ρ_f))/(9η) v_term = (2 (1 × 10⁻³)² × 9.81 × (7800 − 1200))/(9 × 1.5) v_term = 9.6 × 10⁻³ m s⁻¹
 
@@ -3730,7 +3806,7 @@ v_term = (2r²g(ρ_s − ρ_f))/(9η) v_term = (2 (1 × 10⁻³)² × 9.81 × (7
 
 v_term = (2r²g(ρ_s − ρ_f))/(9η) v_term = (2 (2 × 10⁻³)² × 9.81 × (7800 − 1200))/(9 × 1.5) v_term = 3.8 × 10⁻² m s⁻¹
 
-Comparingthevalues,youcansee thatdoublingtheradiusof theball makesitsterminal velocityfour times asgreat.
+Comparing the values, you can see that doubling the radius of the ball makes its terminal velocity four times as great.
 Investigatingterminalvelocity
 
 You can investigate theviscosity of a liquid by allowing various differently sized spheres to fall through it andthenmeasuretheirterminalvelocityandradi.
@@ -3762,39 +3838,39 @@ Itmustberemembered thatthesimpleslow-fallingsphereofStokes'lawisnotacommonsituat
 table ATheterminal velocities of various objectsfalling inair.Note that the skydivervaluevariesgreatlywith the shape in which the body is held when falling.
 CHECKPOINT
 
-• 1. UseStokes'lawto calculate the viscous dragon aball bearingwith a radiusof 1 mm,falling at 1mms-1through liquid chocolateat30°℃.
+• 1. Use Stokes' law to calculate the viscous drag on a ball bearing with a radius of 1 mm, falling at 1 mm s⁻¹ through liquid chocolate at 30°C.
 
-• Whyisitdifficulttocalculatetheterminalvelocityforacatfallingfromahighrooftop?
+• Why is it difficult to calculate the terminal velocity for a cat falling from a high rooftop?
 
-• 3. A spherical meteorite,of radius2m andmadeofpure iron,falls towardsEarth.
+• 3. A spherical meteorite, of radius 2 m and made of pure iron, falls towards Earth.
 
-• (a)Forits fall through the air,use Stokes'law to calculate the meteorite's terminal velocity.
+• (a) For its fall through the air, use Stokes' law to calculate the meteorite's terminal velocity.
 
-• (b) The meteorite landsin a tropical freshwater lake that is at 20°C and continues sinking underwater. UseStokes'lawtocalculateitsnewterminalvelocity.
+• (b) The meteorite lands in a tropical freshwater lake that is at 20°C and continues sinking underwater. Use Stokes' law to calculate its new terminal velocity.
 
-• (c)Whatassumptionshaveyoumadeinordertomakethesecalculations? (SeetablesofdensitydatainSection2A.1andviscositiesinSection2A.3.)
+• (c) What assumptions have you made in order to make these calculations? (See tables of density data in Section 2A.1 and viscosities in Section 2A.3.)
 
-• 4.Use tableA to estimate the terminal velocity of the cat inquestion 2.
+• 4. Use table A to estimate the terminal velocity of the cat in question 2.
 
-• 5. The experiment shown infigCwas carried out usingglycerine astheliquid throughwhich thesphere wasdropped,buttheexperimentwasrepeatedatdifferenttemperaturesfrom10°Cupto50°℃.
+• 5. The experiment shown in fig C was carried out using glycerine as the liquid through which the sphere was dropped, but the experiment was repeated at different temperatures from 10°C up to 50°C.
 
-• (a)(i) In what way would the density of the glycerine change as the temperature increased for eachexperiment.
+• (a) (i) In what way would the density of the glycerine change as the temperature increased for each experiment.
 
-• (i)In what way would the densityof theball bearing change as the temperature increased for eachexperiment.
+• (i) In what way would the density of the ball bearing change as the temperature increased for each experiment.
 
-• (b) Inwhat waywould the upthrust onthe ballbearing change as the temperature of theglycerine wasincreasedforeachexperiment.
+• (b) In what way would the upthrust on the ball bearing change as the temperature of the glycerine was increased for each experiment.
 
-• (c) Explain how the viscosity of glycerine changes asthetemperature increases(see table B in Section 2A.3).
+• (c) Explain how the viscosity of glycerine changes as the temperature increases (see table B in Section 2A.3).
 
-• (d)At eachtemperature,the student drew a graphof terminalvelocity against thesquare of theradius of theballbearing.Explain how thegradient of the graphwould changewith the temperature changes, and why.
+• (d) At each temperature, the student drew a graph of terminal velocity against the square of the radius of the ball bearing. Explain how the gradient of the graph would change with the temperature changes, and why.
 
-• (e)Whyisthisexperimentlikelytobeinconclusiveif waterwereusedinsteadofglycerine?
+• (e) Why is this experiment likely to be inconclusive if water were used instead of glycerine?
 SUBJECT VOCABULARY
 
 terminalvelocitythevelocityof a fallingobjectwhen itsweight isbalancedbythesum of thedragand upthrust acting on it CRITICALTHINKING
 EXAMHINT
 
-Studentsoftenconfusethe terms'drag'and'upthrust. Makesureyou areclearon theirdefinitions,andusethe rightwordfortherightupward force,dependingonwhatis causingtheforce.
+Students often confuse the terms 'drag' and 'upthrust'. Make sure you are clear on their definitions, and use the right word for the right upward force, depending on what is causing the force.
 THEPLIMSOLLLINE
 
 CRITICALTHINKING,PROBLEMSOLVING,REASONING/ARGUMENTATION, INTERRETATIONADAPTIVEEARNINGINITIATIVEPRODUCTIVITY, ETHICS,COMMUNICATION,ASSERTIVECOMMUNICATION
@@ -3802,15 +3878,17 @@ CRITICALTHINKING,PROBLEMSOLVING,REASONING/ARGUMENTATION, INTERRETATIONADAPTIVEEA
 Load lines are painted on the side of ships to show how low they may safely sit in the water. Although usually associated with the British MemberofParliamentSamuelPlimsoll(1824-1898),suchlineshavebeen in useforhundreds ofyears.
 
 In this activity,wewill lookathow the‘Plimsoll line'cametoberequired byBritish law.
-A commercialshipisproperlyloadedwhentheship's waterlineis attheship'sPlimsollline.
 
-ThePlimsoll lineis a referencemarklocated onaship'shull thatindicates themaximum depth towhich thevessel maybe safelyimmersedwhenloadedwithcargo.Thisdepthvarieswith a ship's dimensions,type of cargo,time of year,and the water densities encountered in port and at sea. Once these factors have been accounted for, a ship's captain can determine the appropriate Plimsoll line needed for the voyage (see fig B).
+#### A commercialshipisproperlyloadedwhentheship's waterlineis attheship'sPlimsollline.
+A commercial ship is properly loaded when the ship's waterline is at the ship's Plimsoll line.
 
-Samuel Plimsoll(1824-1898)was a member of theBritish Parliamentand hewasconcernedwith theloss ofships and crews duetooverloading.In1876,hepersuadedParliamenttopass the Unseaworthy Ships Bill,which required marking a ship's sides with aline thatwould disappearbelowthewaterlineif the ship was overloaded.Theline,alsoknownasthePlimsoll mark,is found in the middle of the ship on both theport and starboard sides of cargo ships and is still used worldwide by the shipping industry.
+The Plimsoll line is a reference mark located on a ship's hull that indicates the maximum depth to which the vessel may be safely immersed when loaded with cargo. This depth varies with a ship's dimensions, type of cargo, time of year, and the water densities encountered in port and at sea. Once these factors have been accounted for, a ship's captain can determine the appropriate Plimsoll line needed for the voyage (see fig B).
 
-figASamuel Plimsoll
+Samuel Plimsoll (1824-1898) was a member of the British Parliament and he was concerned with the loss of ships and crews due to overloading. In 1876, he persuaded Parliament to pass the Unseaworthy Ships Bill, which required marking a ship's sides with a line that would disappear below the waterline if the ship was overloaded. The line, also known as the Plimsoll mark, is found in the middle of the ship on both the port and starboard sides of cargo ships and is still used worldwide by the shipping industry.
 
-Fromthewebsite of theNational OceanService,anoffice of theU.S.National Oceanic andAtmosphericAdministration, http://oceanservice.noaa.gov/facts/plimsoll-line.html
+fig A Samuel Plimsoll
+
+From the website of the National Ocean Service, an office of the U.S. National Oceanic and Atmospheric Administration, http://oceanservice.noaa.gov/facts/plimsoll-line.html
 
 #### A commercialshipisproperlyloadedwhentheship's waterlineis attheship'sPlimsollline.
 | LTF -Timber Tropical FreshWater   | TF-Tropical FreshWater     |
@@ -3841,84 +3919,90 @@ Now we will look at the physics in detail. Some of these questionslink to topics
 • 4 Explain why the ships in fig B have the shape that they do. Why are they designed differently from large square barges that do not travel on the ocean? Justify your answer.
 ACTIVITY
 
-Writea commentpieceforamagazine.Argue thatalthoughPlimsollscampaignwas150years ago, the capitalist approach to business has not changed very much. Include examples of at leastonecurrentbusinesspractice,anywhereintheworld,wheresafetytechnologyisnotused enough because of its cost.Your article should include a paragraph explaining toageneral audience thescience behind the safety technology mentioned, and information onyour sources of evidence.
+Write a comment piece for a magazine. Argue that although Plimsoll's campaign was 150 years ago, the capitalist approach to business has not changed very much. Include examples of at least one current business practice, anywhere in the world, where safety technology is not used enough because of its cost. Your article should include a paragraph explaining to a general audience the science behind the safety technology mentioned, and information on your sources of evidence.
 
 INTERPRETATION NOTE
 
-Think about thetypeofreader whoislikelytovisitthe webpage.Also,thinkaboutwhy theNational OceanService would include thiswebpage if it is'a dull subject.
+Think about the type of reader who is likely to visit the webpage. Also, think about why the National Ocean Service would include this webpage if it is 'a dull subject'.
 THINKING BIGGER TIP
 
-Thinkabouthowthedensityof thewaterleadstothedepth thattheshipsinksintothe water.Wouldsaltierwaterbe moreorlessdensethan freshwater?Andhowwouldthe temperatureofthewateraffect its density?
-DIDYOUKNOW?
+Think about how the density of the water leads to the depth that the ship sinks into the water. Would saltier water be more or less dense than freshwater? And how would the temperature of the water affect its density?
 
-In the year1873-74,411 shipssankoffthecoastof theUnitedKingdom,withthe lossof506lives.0verloading andpoorrepairmadesome shipssodangerousthatthey becameknown as'coffin ships.
+#### DIDYOUKNOW?
+DID YOU KNOW?
+
+In the year 1873-74, 411 ships sank off the coast of the United Kingdom, with the loss of 506 lives. Overloading and poor repair made some ships so dangerous that they became known as 'coffin ships.
 
 ## Topic 2: Materials
 
 ### 2A Exam practice
 
-2A EXAMPRACTICE
+
+#### 2A EXAMPRACTICE
+2A EXAM PRACTICE
 
 • 1 Which is the correct expression for calculating density?
 
 • A Mass x volume
 
-• BMassvolume
+• B Mass volume
 
-• CUpthrustxvolume
+• C Upthrust x volume
 
-• D Weight÷volume
+• D Weight ÷ volume
+
+[1]
+
+• 5 A stone is dropped into water. It has a mass of 288g and there is an upthrust force of 0.58 N when it is released in the water. What is the resultant force on the stone at that moment of release, when it is initially not moving?
+
+• A 287.4 N
+
+(Total for Question 1 = 1 mark)
+
+• B 2.83 N
+
+• 2 What is the mass of a spherical stone with a diameter 25mm, if the density of the stone is 2900 kgm-3?
+
+• A 2.82 × 10-9 kg
+
+• B 24 g
+
+• C 190 g
+
+• D 3.55 × 108 kg
 
 [1]
 
-• 5Astone isdropped intowaterIt has a massof288g and there is an upthrust force of 0.58 N when it is released in the water. Whatistheresultantforceonthestoneatthatmomentof release, when it is initially not moving?
+#### (TotalforQuestion2=1mark)
+(Total for Question 2 = 1 mark)
 
-• A287.4N
+• 3 Which is the correct definition of laminar flow"?
 
-(Total for Question 1 =1 mark)
+• A At a given point in a flowing fluid, the velocity of flow varies uniformly over time.
 
-• B2.83N
-
-• 2Whatis themassof a spherical stonewith a diameter25mm, if the density of thestone is2900kgm-3?
-
-• A 2.82 × 10-9kg
-
-• B 24g
-
-• C 190g
-
-• D 3.55 × 108kg
-
-[1]
-(TotalforQuestion2=1mark)
-
-• 3Which is the correct definition of laminar fow"?
-
-• A At a given point in a flowing fuid, the velocity of flow varies uniformly over time.
-
-• B At a given point in a flowing fuid, the velocity of turbulent flow is proportional to theviscosity.
+• B At a given point in a flowing fluid, the velocity of turbulent flow is proportional to the viscosity.
 
 • C At a given point in a flowing fluid, the velocity of flow does not vary over time.
 
-• C2.25N
+• C 2.25N
 
 • D zero
 
 [1]
 
-(Total for Question5=1 mark)
+(Total for Question 5 = 1 mark)
 
-• 6Blood clots can lead toheart attacks.Blood flow through arteriesis normallylaminar,but an obstructionmaycause the blood flow tobecometurbulent.Thiscanlead to theformation of blood clots.
+• 6 Blood clots can lead to heart attacks. Blood flow through arteries is normally laminar, but an obstruction may cause the blood flow to become turbulent. This can lead to the formation of blood clots.
 
 • (a) The diagram shows an artery containing an obstruction.
 
-After passing the obstruction the laminar flowbecomes turbulent in the area marked T.
+After passing the obstruction the laminar flow becomes turbulent in the area marked T.
 
-• D At a given point in a flowing fuid, the velocity of flow does not vary over the distance from the centre of flow. [1]
+• D At a given point in a flowing fluid, the velocity of flow does not vary over the distance from the centre of flow. [1]
 
 (Total for Question 3 = 1 mark)
 
-• 4Whichrowin thetableiscorrect?
+• 4 Which row in the table is correct?
 
 #### (Total for Question 3 = 1 mark)
 | Gas viscosity                   | Liquid viscosity                |
@@ -3933,17 +4017,17 @@ After passing the obstruction the laminar flowbecomes turbulent in the area mark
 
 (Total for Question 4 = 1 mark)
 
-• (i)Add flow lines to the diagram to show laminar flow changingtoturbulentflowafterpassingtheobstruction.
+• (i)Add flow lines to the diagram to show laminar flow changing to turbulent flow after passing the obstruction.
 
 [2]
 
 • (i)Explain what is meant by laminar flow and turbulent flow. [2]
 
-• (b)In one experiment on blood flow, the viscosity of the blood and thevelocityofbloodflowweremeasured.
+• (b)In one experiment on blood flow, the viscosity of the blood and the velocity of blood flow were measured.
 
-• (i）Describe how you would expect the velocity of blood fow to varywith theviscosity. [1]
+• (i)Describe how you would expect the velocity of blood flow to vary with the viscosity. [1]
 
-• (i)Suggest andexplainhowarisein thetemperatureof thebloodwould affectthevelocityofflow. [2]
+• (i)Suggest and explain how a rise in the temperature of the blood would affect the velocity of flow. [2]
 
 (Total for Question 6 = 7marks)
 
@@ -3951,50 +4035,50 @@ After passing the obstruction the laminar flowbecomes turbulent in the area mark
 
 • Explain the difference that using a hot pan would make to how the oil spreads. [2]
 
-• 8In thegame of table tennis,a ball is hit from one end of the tabletotheotheroverasmall net.
+• 8In the game of table tennis, a ball is hit from one end of the table to the other over a small net.
 
-• (a)Making a table tennis ball spin when it is hit can affect its flight. The diagram shows the path of air around a spinning ball. It contains regions of laminar flow and turbulent flow. Theflow changesfrom one totheother atpointsAand B.
+• (a)Making a table tennis ball spin when it is hit can affect its flight. The diagram shows the path of air around a spinning ball. It contains regions of laminar flow and turbulent flow. The flow changes from one to the other at points A and B.
 
-(Total for Question7=2marks)
+(Total for Question 7 = 2marks)
 
-ball'smovement
+ball's movement
 
-• (i)With reference to the diagram, explain what is meant by laminarflow and turbulentflow.
+• (i)With reference to the diagram, explain what is meant by laminar flow and turbulent flow.
 
 [2]
 
 • (i)The ball is spinning in the direction shown in the diagram.
 
-Suggest why there is a larger region of turbulent flow on the topof theball than thebottom. [1]
+Suggest why there is a larger region of turbulent flow on the top of the ball than the bottom. [1]
 
 • (b)The diagram shows that the air is deflected upwards after passing the ball. Explain why this means there must be a downwards component of force on the ball in addition to its weight.[2]
 
 #### (Total for Question 3 = 1 mark)
-• (c) Spinning a table tennis ball allows it to be hit harder and still hit thetableon theothersideofthenet.
+• (c) Spinning a table tennis ball allows it to be hit harder and still hit the table on the other side of the net.
 
-• (i)A table tennis ball is hit, without any spin, from one end ofatableso that it leaves thebathorizontallywitha speed of 31 ms-1. The length of the table is 2.7m. Showthattheballfallsaverticaldistanceofabout4cm asit travels thelength of the table. (3)
+• (i) A table tennis ball is hit, without any spin, from one end of a table so that it leaves the bat horizontally with a speed of 31 ms-1. The length of the table is 2.7m. Show that the ball falls a vertical distance of about 4cm as it travels the length of the table. (3)
 
-• (i)The net is 15 cm high.Explainhow the spin helps the ballhit thetableontheothersideofthenet. (3)
+• (i) The net is 15 cm high. Explain how the spin helps the ball hit the table on the other side of the net. (3)
 
 (Total for Question 8 = 11 marks)
 
-• 9Soilisusuallymadeupofavariety of particles of different sizes. The photograph shows what happens when soil is mixed up withwaterandtheparticlesareallowed to settle.
+• 9 Soil is usually made up of a variety of particles of different sizes. The photograph shows what happens when soil is mixed up with water and the particles are allowed to settle.
 
-• (a)The dot below represents a particle of the soil falling through water
+• (a) The dot below represents a particle of the soil falling through water
 
-• (i)Add labelled arrows to show the three forces acting on the particle as it falls through the water.
+• (i) Add labelled arrows to show the three forces acting on the particle as it falls through the water.
 
-• (ii)Explainwhyaparticleheldstationaryinwaterand thenreleasedacceleratesdownwards atfirstbutthen reaches a steady downwards speed.
+• (ii) Explain why a particle held stationary in water and then released accelerates downwards at first but then reaches a steady downwards speed.
 
 [2]
 
 [4]
 
-• (ii)Writeanexpressionshowingtherelationshipforthese forces when the particle is falling at a steady speed.[1]
+• (ii) Write an expression showing the relationship for these forces when the particle is falling at a steady speed. [1]
 
-• (b)A typical particle of sand in the sample has the following properties:
+• (b) A typical particle of sand in the sample has the following properties:
 
-diameter=1.6×10-3m
+diameter = 1.6 × 10-3m
 
 volume = 2.1 × 10-9 m3
 
@@ -4002,15 +4086,15 @@ volume = 2.1 × 10-9 m3
 
 • weight = 5.7 ×10-5 N
 
-• (i)Show that the upthrust acting on the particle is about 2 × 10-5 N.
+• (i) Show that the upthrust acting on the particle is about 2 × 10-5 N.
 
 • density of water = 1.0 × 103 kg m-3
 
 [2]
 
-• (i)Calculatethesteadydownwardsspeed thisparticle would achieveifallowedtofall throughwater. viscosity of water =1.2×10-3Pas
+• (i) Calculate the steady downward speed this particle would achieve if allowed to fall through water. viscosity of water =1.2×10-3 Pas
 
-• (c)The different types of particles in soil can be defined according to their diameters, as in the following table.
+• (c) The different types of particles in soil can be defined according to their diameters, as in the following table.
 
 #### (Total for Question 3 = 1 mark)
 | Soil particle   | Particle diameter   |
@@ -4023,17 +4107,17 @@ volume = 2.1 × 10-9 m3
 | coarse pebbles  | 20.00mm-75.00mm     |
 
 #### (Total for Question 3 = 1 mark)
-The photograph shows that when soil is allowed to settle inwater,thepebblestendtobefoundtowardsthebottom, followed by sand, silt and clay in succession.
+The photograph shows that when soil is allowed to settle in water, the pebbles tend to be found towards the bottom, followed by sand, silt and clay in succession.
 
-Explain why this happens.Assume that all particles have the same density. [3]
+Explain why this happens. Assume that all particles have the same density. [3]
 
-(Totalfor Question 9 =15 marks)
+(Total for Question 9 = 15 marks)
 
-• 10 0Explain how a stone dropped into a lake,from the surface, will reach a maximum velocity as it falls to the lake bottom, and how thiswill be differentinsummer andwinter
+• 10 0Explain how a stone dropped into a lake, from the surface, will reach a maximum velocity as it falls to the lake bottom, and how this will be different in summer and winter.
 
 [6]
 
-(Totalfor Question 10 =6marks)
+(Total for Question 10 = 6 marks)
 
 [3]
 
@@ -4043,39 +4127,41 @@ Explain why this happens.Assume that all particles have the same density. [3]
 
 SOLID MATERIAL PROPERTIES
 
-Youprobablyrarelyconsiderthelikelihoodthatabridgewillfailasyouwalkordriveoverit.However,when designingthebridge,andselectingthematerialsto use init,anengineer hasto ensure that this likelihood is minimal.
+You probably rarely consider the likelihood that a bridge will fail as you walk or drive over it. However, when designing the bridge, and selecting the materials to use in it, an engineer has to ensure that this likelihood is minimal.
 
-Design processesfor anynew project need to include specifications indicating the extremes of conditions that may apply. A bridge needsto withstand an overloaded lorry that is not complying with weight restrictions; a ropetotowtheircar.Someoftheseusesmightbeclassedasunreasonable,andthedesignerwouldnotexpect
+Design processes for any new project need to include specifications indicating the extremes of conditions that may apply. A bridge needs to withstand an overloaded lorry that is not complying with weight restrictions; a rope to tow their car. Some of these uses might be classed as unreasonable, and the designer would not expect
 
-If youweredesigning a newharbourwall,whatextremeweatherconditionswouldyou ensure that thewall couldwithstand?Would itbegoodenough tomake sureitcouldwithstand a stormwith such strongwinds and requiredwithinbudget?
+If you were designing a new harbour wall, what extreme weather conditions would you ensure that the wall could withstand? Would it be good enough to make sure it could withstand a storm with such strong winds and required within budget?
 
-In thischapterwewill seehow thestrengthofmaterialscanbemeasured,and thushowtochoose theright materialforanygivenjob.
+In this chapter we will see how the strength of materials can be measured, and thus how to choose the right material for any given job.
 MATHS SKILLS FOR THIS CHAPTER
 
-• .Units of measurement(e.g.the pascal,Pa)
+• .Units of measurement (e.g. the pascal, Pa)
 
-• Calculating areas of circles(e.g.finding the cross-sectional area of a wire in order to find stress)
+• Calculating areas of circles (e.g. finding the cross-sectional area of a wire in order to find stress)
 
 • Use of standard form and ordinary form (e.g calculating Young modulus)
 
-• Making order of magnitude calculations(e.g.comparingYoung modulus for differentmaterials)
+• Making order of magnitude calculations (e.g. comparing Young modulus for different materials)
 
-• Changing the subject of an equation(e.g.re-arranging the stress equation)
+• Changing the subject of an equation (e.g. re-arranging the stress equation)
 
-• Substitutingnumericalvaluesinto algebraicequations(e.g.calculatingthestrain)
+• Substituting numerical values into algebraic equations (e.g. calculating the strain)
 
-• Determiningthe slope of a lineargraph(e.g.finding theYoungmodulusfrom experimental results)
+• Determining the slope of a linear graph (e.g. finding the Young modulus from experimental results)
 
 • from graphical data)
 
 LEIALA
-WhatpriorknowledgedoIneed?
 
-• Thedeformingeffectsofforces
+#### WhatpriorknowledgedoIneed?
+What prior knowledge do I need?
 
-• Experimental measurementsonwires
+• The deforming effects of forces
 
-• The ideaofgeneral propertiesof materials,rather thanpropertiesofspecificobjects
+• Experimental measurements on wires
+
+• The idea of general properties of materials, rather than properties of specific objects
 
 Topic1A
 
@@ -4083,20 +4169,22 @@ Topic1A
 
 Topic1C
 
-• The testingof materialsforuseinhockey goalkeeping equipment
-Whatwill I studyin thischapter?
+• The testing of materials for use in hockey goalkeeping equipment
 
-• How an object deformswhen a force is applied alongitslength
+#### Whatwill I studyin thischapter?
+What will I study in this chapter?
 
-• Howtocalculatestress andstrain
+• How an object deforms when a force is applied along its length
 
-• Themeaningof theYoungmodulusfora material, andhowtocalculateit
+• How to calculate stress and strain
 
-• Howto do an experimenttomeasure theYoung modulusforamaterial
+• The meaning of the Young modulus for a material, and how to calculate it
 
-• Howto interpretstress-strain curvesin orderto analyse the strengthof a solidmaterial
+• How to do an experiment to measure the Young modulus for a material
 
-• Howtheseideascanbeappliedtomaterialsinuse inreal applications
+• How to interpret stress-strain curves in order to analyse the strength of a solid material
+
+• How these ideas can be applied to materials in use in real applications
 LEARNING OBJECTIVES
 
 • UnderstandHooke'slawandbeabletomake calculationsusingit.
@@ -4126,20 +4214,21 @@ EXAMHINT
 The stiffnessconstant fora spring is usuallyreferred to asthe springconstant.Either phrase refers tok in theHooke's law equation.
 WORKED EXAMPLE
 
-A spring has a stiffness constant of 50 N m- and is 3.0 cm long.How long would it be if a 200 g mass were hung from it?
+A spring has a stiffness constant of 50 N m⁻¹ and is 3.0 cm long. How long would it be if a 200 g mass were hung from it?
 
 Weight force:
 
-W = mg = 0.200 × 9.81 = 1.962 N ΔF = kΔx ∴ Δx = ΔF/k = 1.962/50 = 0.03924 m = 3.924 cm
+W = mg = 0.200 × 9.81 = 1.962 N
+ΔF = kΔx ∴ Δx = ΔF/k = 1.962/50 = 0.03924 m = 3.924 cm
 EXAMHINT
 
-Note that thesteps and layoutofthesolutionin thisworkedexampleare suitableforquestions aboutHooke'slawin theexam.
+Note that the steps and layout of the solution in this worked example are suitable for questions about Hooke's law in the exam.
 
-final length=original length+extension
+final length = original length + extension
 
 L = L₀ + Δx = 3.0 + 3.9 L = 6.9 cm
 
-L=6.9cm
+L = 6.9 cm
 InvestigatingHooke'slaw
 
 Youcanperformasimpleexperimenttomeasurethestiffnessconstant for a spring.By hanging various masses on a spring and measuring the corresponding extensions,you can gather a set of results for△F andx. Ineachcase,you couldcalculate thespringconstantfrom a pairof readings,butyouwillgeta more accuratefinalanswerforkifyouplot agraph of theresults andfind itsgradient.
@@ -4158,22 +4247,24 @@ Youcanperformasimpleexperimenttomeasurethestiffnessconstant for a spring.By hang
 |      1000 |       9.810 |                  2.4 |                6.5 |             4.1 |
 
 #### InvestigatingHooke'slaw
-figCTheresults ofa Hooke's law investigation of a springbefore it reachesitselasticlimit.Thefact that thebest-fit lineisstraight shows that the spring obeys Hooke's law.
+Fig C. The results of a Hooke's law investigation of a spring before it reaches its elastic limit. The fact that the best-fit line is straight shows that the spring obeys Hooke's law.
 
-ThegraphinfigChasbeenplottedwiththedependentvariableon thex-axis,sothatwhenthegradientofthelineiscalculated,thiswill give you the valuefor the spring constant:
+The graph in fig C has been plotted with the dependent variable on the x-axis, so that when the gradient of the line is calculated, this will give you the value for the spring constant:
 
 Gradient, m = Δy/Δx = ΔF/Δx = k
 
-SafetyNote:Useeyeprotectionincasethespringbecomes detached andfliesback.Keephands andfeetclearof the'drop zone'if large masses are used.
-ELASTICSTRAINENERGY
+Safety Note: Use eye protection in case the spring becomes detached and flies back. Keep hands and feet clear of the 'drop zone' if large masses are used.
 
-The work done in deforming a material sample before it reaches its elastic limit willbe stored within the material as elastic strain energy. EeWe have previously seen that work done canbe calculated by multiplying theforceby the distancemoved in thedirection of the force. This is true in deforming materials too, but Hooke's law means that theforcevalue variesfordifferent extensions.Ifweplot the extension of a spring with increasingly large masses hanging on it, as in fig C, the graph will follow Hooke's law. To find the work done to extend the spring a certain amount, we must calculate using the averageforceoverthedistanceoftheextension.
+#### ELASTICSTRAINENERGY
+ELASTIC STRAIN ENERGY
+
+The work done in deforming a material sample before it reaches its elastic limit will be stored within the material as elastic strain energy. Ee We have previously seen that work done can be calculated by multiplying the force by the distance moved in the direction of the force. This is true in deforming materials too, but Hooke's law means that the force value varies for different extensions. If we plot the extension of a spring with increasingly large masses hanging on it, as in fig C, the graph will follow Hooke's law. To find the work done to extend the spring a certain amount, we must calculate using the average force over the distance of the extension.
 
 ΔE_el = ½FΔx
 
-In fig C,howmuch elastic strain energy is stored in the spring when it is extendedby2.5cm?
+In fig C, how much elastic strain energy is stored in the spring when it is extended by 2.5 cm?
 
-At△x=2.5 cm,thecorrespondingforce value isF=6.0N.
+At Δx = 2.5 cm, the corresponding force value is F = 6.0 N.
 
 ΔE_el = ½FΔx
 
@@ -4227,28 +4318,28 @@ CHECKPOINT
 • (c)The difference and the answers toparts(a)and (b)represents energy lost in this process,which is mostly used in internal heating of therubberband.Howmuch thermalenergy does therubber gainfrom thecompletecycleof loadingand unloading?
 SUBJECT VOCABULARY
 
-tensionaforce actingwithin amaterial inadirection thatwouldextend thematerial extensionanincreaseinsizeofamaterialsamplecausedbyatensionforce
+tension a force acting within a material in a direction that would extend the material extension an increase in size of a material sample caused by a tension force
 
-compressionaforceactingwithinamaterialinadirectionthatwouldsquashthematerial.Alsothe decreaseinsizeofamaterial sampleunderacompressiveforce
+compression a force acting within a material in a direction that would squash the material. Also the decrease in size of a material sample under a compressive force
 
-limitofproportionalitythemaximum extension(orstrain)thatanobject(orsample)canhave,whichis stillproportionaltotheload(orstress)applied
+limit of proportionality the maximum extension (or strain) that an object (or sample) can have, which is still proportional to the load (or stress) applied
 
-deformationtheprocessofalterationofformorshape
+deformation the process of alteration of form or shape
 
-elasticlimitthemaximumextensionorcompressionthatamaterialcanundergoandstillreturntoits originaldimensionswhentheforceisremoved
+elastic limit the maximum extension or compression that a material can undergo and still return to its original dimensions when the force is removed
 
-springconstant the Hooke's law constant of proportionality,k,fora spring undertension hysteresiswheretheextension undera certain loadwillbedifferent dependingonitshistoryofpastloads andextensions
+spring constant the Hooke's law constant of proportionality, k, for a spring under tension hysteresis where the extension under a certain load will be different depending on its history of past loads and extensions
 
-thermalconnectedwithheat
+thermal connected with heat
 LEARNING OBJECTIVES
 
-• Calculatetensile/compressivestress.
+• Calculate tensile/compressive stress.
 
-• Calculate tensile/compressivestrain.
+• Calculate tensile/compressive strain.
 
-• Calculate theYoung modulus.
+• Calculate the Young modulus.
 
-If you pull on the two ends of a metal bar, you are unlikely to deform it at all.However,pullingwith the sameforce on the two endsofaverythinpieceofwiremadefrom thesamemetal mayhaveverydifferentresults:itwill probablyextend elastically, and maypass itselastic limit and start toexperiencepermanent deformation. Depending on the specific metal and the exact dimensions, it is possible that your force may be strong enough to break thewire.Thisexample demonstrates that engineers need moreinformation about theforces thatmaybeencounteredwithin the structures they are building thanjust the numbers of newtons. Youused thesameforceand thesamemetal,butinthecaseofthe metal baryou madenoimpression on it,whilst thethinwirebroke. To make fair comparisons between samples, we need to consider theforceson them and theirsizes aswell asthematerialsfrom which they are made.
+If you pull on the two ends of a metal bar, you are unlikely to deform it at all. However, pulling with the same force on the two ends of a very thin piece of wire made from the same metal may have very different results: it will probably extend elastically, and may pass its elastic limit and start to experience permanent deformation. Depending on the specific metal and the exact dimensions, it is possible that your force may be strong enough to break the wire. This example demonstrates that engineers need more information about the forces that may be encountered within the structures they are building than just the numbers of newtons. You used the same force and the same metal, but in the case of the metal bar you made no impression on it, whilst the thin wire broke. To make fair comparisons between samples, we need to consider the forces on them and their sizes as well as the materials from which they are made.
 STRESS
 
 Tensile (or compressive) stress is a measure of the force within a material sample,but it takes account of thecross-sectional area across the sample.This allowsforce comparisonstobe made between samples ofdifferentsizes,so that they aremeasured undercomparableconditions.
@@ -4261,9 +4352,9 @@ A cylindrical stonecolumnhasa diameter of 60 cm and supports a weight of 2500 N 
 Area = πr² = 3.14 × 0.30² = 0.2826 m² σ = F/A = 2500/0.2826 σ = 8850 Pa
 EXAMHINT
 
-Notethatthestepsandlayoutofthe solutioninthisworkedexampleare suitableforstressquestionsintheexam.
+Note that the steps and layout of the solution in this worked example are suitable for stress questions in the exam.
 
-figA This support column isundera compressivestressof8850Pa.
+figA This support column is under a compressive stress of 8850 Pa.
 STRAIN
 
 Tensile(or compressive) strain is a measure of the extension (or compression)of a material sample,butit takes account of the original length of the sample. This allows extension comparisons to bemade between samples ofdifferent sizes,so that they are measured undercomparableconditions.
@@ -4285,30 +4376,28 @@ Notethatthesteps and layoutofthesolutionin thisworkedexampleare suitableforstrai
 0.04m
 
 fig BThis copper wire has a tensile strain of 2.3%.
-YOUNGMODULUS
 
-Ifa materialisdeformedelastically,stresswill beproportional to strain,with a constant of proportionality that is a measure of the stiffnessof thematerial-howmuchitdeformsunderacertain stress. The stiffness constant is called theYoung modulus.So, theYoungmodulus is ameasure of thestiffnessof amaterial, whichtakes accountoftheshape and sizeof thesample,sothat differentsamplesofthesamematerialwillallhave thesamevalue for the Young modulus. The idea of stiffness is a measure of how much the material deforms when forces are applied to it.
+#### YOUNGMODULUS
+YOUNG MODULUS
+
+If a material is deformed elastically, stress will be proportional to strain, with a constant of proportionality that is a measure of the stiffness of the material - how much it deforms under a certain stress. The stiffness constant is called the Young modulus. So, the Young modulus is a measure of the stiffness of a material, which takes account of the shape and size of the sample, so that different samples of the same material will all have the same value for the Young modulus. The idea of stiffness is a measure of how much the material deforms when forces are applied to it.
 
 Young modulus (Pa) = stress (Pa) / strain (no units) E = σ/ε
 LEARNING TIP
 
-Thestiffnessconstant,k,fromHooke'slawrelatestoaparticular object,suchasaspring.Foramaterial,theoungmodulus,,isthe stiffnessconstantforthematerial ingeneral,regardlessofsamplesize.
+The stiffness constant, k, from Hooke's law relates to a particular object, such as a spring. For a material, the Young modulus, E, is the stiffness constant for the material in general, regardless of sample size.
 
-The definitionfor theYoung modulus alsoincludes thefact that thematerialmustbeundergoingelasticdeformation.Beyond thelimit ofproportionality,this equationwill nolongerwork to calculate the stiffness of the material.
+The definition for the Young modulus also includes the fact that the material must be undergoing elastic deformation. Beyond the limit of proportionality, this equation will no longer work to calculate the stiffness of the material.
 
 EXAM HINT
 
-Notethatthestepsandlayout of thesolutionin thisworked example are suitable forYoung modulusquestionsintheexam.
+Note that the steps and layout of the solution in this worked example are suitable for Young modulus questions in the exam.
 
 LEARNING TIP
 
-Fromtheoriginal definitionsof stress and strain,theYoungmoduluscan alsobecalculatedfrom:
+From the original definitions of stress and strain, the Young modulus can also be calculated from:
 
-E=-
-
-Fx
-
-A△x
+E = σ/ε = F/A / (Δx/L) = FL/AΔx
 WORKED EXAMPLE
 
 The copperwire from abovehas a diameter of 0.22mm andwas stretched using a force of100 N. What is theYoung modulus of copper?
@@ -4318,30 +4407,30 @@ A=πr²=3.14×（1.1×10-4)2=3.80×10-8m² F 100 T A3.8×10-8 =2.63×109Pa E==2.
 (Notethatthestresshasbeencalculatedfrom theoriginal data andtheunroundedvaluehasbeenused inthiscalculationtogivethevalueshownhere.)
 CHECKPOINT
 
-• 1.Whatisthestrainof an aluminiumwireif itextendsfrom97cm to1.04m?
+• 1. What is the strain of an aluminium wire if it extends from 97 cm to 1.04 m?
 
-• 2.Whatisthetensilestressinaverticalsteelwire thathasa diameterof0.40mm and a1.0kgmass hanging from it?
+• 2. What is the tensile stress in a vertical steel wire that has a diameter of 0.40 mm and a 1.0 kg mass hanging from it?
 
-• 3. Use these data to find the Young modulus of human hair: d =0.1 mm;x= 12 cm;F = 0.60N;△x= 1.8mm.
+• 3. Use these data to find the Young modulus of human hair: d = 0.1 mm; x = 12 cm; F = 0.60 N; △x = 1.8 mm.
 
-• cylinderwitha diameter25cm and the elephant isstandingnormally?
+• cylinder with a diameter 25 cm and the elephant is standing normally?
 
-• (b)If theYoungmodulus ofelephant boneis19GPa,and thebones are originally95 cmlong,how muchwould theyreduceinlengthif theelephantstooduponitsbacklegs?Whatassumptiondo you need to make?
+• (b) If the Young modulus of elephant bone is 19 GPa, and the bones are originally 95 cm long, how much would they reduce in length if the elephant stood upon its back legs? What assumption do you need to make?
 SUBJECT VOCABULARY
 
-stressaproportionatemeasureof theforceonasample:
+stress a proportional measure of the force on a sample:
 
 stress (pascals Pa, or N m⁻²) = force (N) / cross-sectional area (m²)
 
 σ = F/A
 
-strainaproportionatemeasureoftheextension(orcompression)ofasample:
+strain a proportional measure of the extension (or compression) of a sample:
 
 strain (no units) = extension (m) / original length (m)
 
 ε = Δx/x
 
-Youngmodulus thestiffnessconstantforamaterial,equaltothe stressdivided byits correspondingstrain
+Young modulus the stiffness constant for a material, equal to the stress divided by its corresponding strain
 LEARNING OBJECTIVES
 
 • Interpretstress-straingraphs.
@@ -4354,17 +4443,17 @@ From the definition of the Young modulus, the stress should be proportional to t
 • figAThestress-straingraphforametalgivesdetailedinformation abouthowthematerialbehavesunderdifferent levels of stress.Thegradient of the straight-line portion of thegraph willbe equal to thevalue of theYoungmodulus.
 LEARNING TIP
 
-Itcanbeconfusingtoseethesectionsofastress-straingraphwherethelinegoesdown.Inreality,these graphs are generated from results of materials testing in which the strain is continuously increased on a machine that can measure the stresswithina material.Thisstresscango down if thereis a changeinthe arrangementofthemolecularstructureofthematerial.
+It can be confusing to see the sections of a stress-strain graph where the line goes down. In reality, these graphs are generated from results of materials testing in which the strain is continuously increased on a machine that can measure the stress within a material. This stress can go down if there is a change in the arrangement of the molecular structure of the material.
 
 Fig A is a generalised stress-strain graph for a metal, such as copper Most metals will follow the shape shown here, and there are various areas of interest on the graph.
 
-In the straight-lineportionfrom the origin topointA,themetal extends elastically,andwill return to itsoriginalsizeandshapewhentheforceisremoved.Thegradientofthestraight-lineportionofthe graphisequaltotheYoungmodulusforthemetal.
+In the straight-line portion from the origin to point A, the metal extends elastically, and will return to its original size and shape when the force is removed. The gradient of the straight-line portion of the graph is equal to the Young modulus for the metal.
 
-Point A is the limit of proportionality. Slightly beyond this point, the metal may still behave elastically,but it cannot be relied upon to increase strain in proportion to the stress.
+Point A is the limit of proportionality. Slightly beyond this point, the metal may still behave elastically, but it cannot be relied upon to increase strain in proportion to the stress.
 
-Point B is the elastic limit.Beyond this point, the materialis permanently deformed and will not return to its original size and shape, even when the stress is completely released.
+Point B is the elastic limit. Beyond this point, the material is permanently deformed and will not return to its original size and shape, even when the stress is completely released.
 
-Point Cis theyieldpoint,beyondwhichthematerial undergoesa suddenincreaseinextension as its atomic substructure is significantly re-organised. The metal'gives'just beyond its yield point as the metal's atoms slip past each other to new positions where the stress is reduced.
+Point C is the yield point, beyond which the material undergoes a sudden increase in extension as its atomic substructure is significantly re-organised. The metal 'gives' just beyond its yield point as the metal's atoms slip past each other to new positions where the stress is reduced.
 LEARNING TIP
 
 It isquitecommonforthelimitofproportionality,theelasticlimit andtheyieldpointtobeinthesame placeonthegraph.Theyhavebeenseparatedheretoexplainthedifferentideasbehindeach.
@@ -4374,47 +4463,51 @@ Point D represents the highest possible stress within this material. It is calle
 Point E is the fracture stress, or breaking stress. It is the value that the stress will be in the material when thesamplebreaks.
 WORKED EXAMPLE
 
-TheEuropeanSpaceAgency(ESA)have testeda material known asIMPRESSintermetallic alloy'Fig B under differentconditions.
+The European Space Agency (ESA) have tested a material known as IMPRESS intermetallic alloy' Fig B under different conditions.
 
-Consideringfirst theYoungmodulus,you can see that theESA have drawn measurements on thegraph to make the calculationof thegradient of the straight-line portionsof thegraphsforeach temperatureplot. Forexample,at15°C:
+Considering first the Young modulus, you can see that the ESA have drawn measurements on the graph to make the calculation of the gradient of the straight-line portions of the graphs for each temperature plot. For example, at 15°C:
 
 gradient = E = Δy/Δx = σ/ε = (400 MPa)/(0.3%)
 
 ∴ E = (400 × 10⁶)/0.003 E = 1.33 × 10¹¹ Pa
 
-Thevalues labelled asOo.2arethestressvalues ateachtemperature,whichwillresult inapermanent deformation strain of 0.2%. These are in the plastic region, and the permanent deformations are indicated bythedashedlinesconnectedbacktoO.2%onthex-axis.
+The values labelled as Oo.2 are the stress values at each temperature, which will result in a permanent deformation strain of 0.2%. These are in the plastic region, and the permanent deformations are indicated by the dashed lines connected back to O.2% on the x-axis.
 
 programme.
-Investigatingstress-strainrelationshipsformetals
+
+#### Investigatingstress-strainrelationshipsformetals
+Investigating stress-strain relationships for metals
 
 safe landing pad
 
-• figCAnexperiment tofind the stress-strainrelationshipswhen stretching ametal wire.With detailed analysis of the stress-straingraphof themetal,you canfind theYoungmodulus.
+• fig C An experiment to find the stress-strain relationships when stretching a metal wire. With detailed analysis of the stress-strain graph of the metal, you can find the Young modulus.
 
-Youcanperform a simpleexperimenttomeasure thestiffnessconstant-theYoungmodulus-forametal by stretching a thin wire.The original length and diameter of the wiremustbe measuredfirst.Then,using increasingforcesastheindependentvariable,youwill needtotakemeasurementsof theextension corresponding to each force. There will be some readings during the wire's elastic deformation region which will increaseuniformly.Beyondtheelasticlimit,itwill increasewithgreaterextensionsforeachincreaseinthe load forcentileventuallythefracturestresswillbereachedand thewirewillsnapafetygogglesmust wornduringthisexperiment,aswiresthatsnapundertensionareahazard totheeyes.
+You can perform a simple experiment to measure the stiffness constant-the Young modulus-for a metal by stretching a thin wire. The original length and diameter of the wire must be measured first. Then, using increasing forces as the independent variable, you will need to take measurements of the extension corresponding to each force. There will be some readings during the wire's elastic deformation region which will increase uniformly. Beyond the elastic limit, it will increase with greater extensions for each increase in the load for centile eventually the fracture stress will be reached and the wire will snap. Safety goggles must be worn during this experiment, as wires that snap under tension are a hazard to the eyes.
 
-ThegraphinfigBhasbeenplottedwiththestrainonthex-axis,sothatwhenthegradientofthelineis calculated thiswillgiveyou thevalue for thestiffnessconstant,orYoung modulus:
+The graph in fig B has been plotted with the strain on the x-axis, so that when the gradient of the line is calculated this will give you the value for the stiffness constant, or Young modulus:
 
 gradient, m = Δy/Δx = σ/ε = E
 
-Normalpracticeistoplotexperimentalresultswith theindependentvariable onthex-axis.Althoughyour experimentwill have thestress as theindependentvariable,it isusualto draw thecurveof theseresults gradientofthestraight-lineportionof thegraph.
+Normal practice is to plot experimental results with the independent variable on the x-axis. Although your experiment will have the stress as the independent variable, it is usual to draw the curve of these results gradient of the straight-line portion of the graph.
 
-SafetyNote:Use eye protection toprevent injury if the wire snaps.Use adropbox'on the landing pad tokeephandsandfeetoutofthedropzone'
+Safety Note: Use eye protection to prevent injury if the wire snaps. Use a 'drop box' on the landing pad to keep hands and feet out of the 'drop zone'
 SKILLS
 
-PROBLEMSOLVING,CREATIVITY
+PROBLEM SOLVING, CREATIVITY
 
-EstimatethelimitofproportionalityfortheIMPRESSalloy at750°C,asshowninfigB.
+Estimate the limit of proportionality for the IMPRESS alloy at 750°C, as shown in fig B.
 
-• wire.Withthisapparatus,thetestwirehangsvertically.paralleltoanidenticalcontrolwire.Weights are addedtoload thetestwire only,anditsextension,measuredas anexcessoverthelengthofthe control wireratherthanfromits originallength,is calculated.Explain howthis setupwill allowthe experimentertoavoidpossibleerrorcausedbyvariationsintheroomtemperature.
+• wire. With this apparatus, the test wire hangs vertically. parallel to an identical control wire. Weights are added to load the test wire only, and its extension, measured as an excess over the length of the control wire rather than from its original length, is calculated. Explain how this setup will allow the experimenter to avoid possible error caused by variations in the room temperature.
 SUBJECT VOCABULARY
 
-yieldpointastrainvaluebeyondwhicha materialundergoesa sudden andlargeplasticdeformation
-EXAMHINT
+yield point as a strain value beyond which a material undergoes a sudden and large plastic deformation
 
-Youneedtobeabletodescribe allthestepsinanexperimental methodforfindingtheYoung modulus,includingsafety points,andhowtousethe measurementstocalculatethe Young modulus.
+#### EXAMHINT
+EXAM HINT
 
-fig DSearle's apparatus.
+You need to be able to describe all the steps in an experimental method for finding the Young modulus, including safety points, and how to use the measurements to calculate the Young modulus.
+
+fig D Searle's apparatus.
 GETROPEDIN
 
 CRITICALTHINKING,PROBLEMSOLVING,ANALYSIS, REASONING/ARGUMENTATION,INTERPRETATION,ADAPTIVE LEARNINGINITIATIVEPRODUCTIVITYCOMMUNICATION
@@ -4434,9 +4527,9 @@ In this activity,wewilllook at some important aspects of theproperties of some c
 | COULOIR   | BLUE       | 8.0mm      | 50,60          | 43g             |                  7 | 6.6 kN         |
 
 #### VARIOUSSOURCES
-FromthewebsiteofropemanufacturerDMMInternational,http://dmmclimbing.com/products/ropes-&-cord/
+From the website of rope manufacturer DMM International, http://dmmclimbing.com/products/ropes-&-cord/
 
-FromtheSafetyStandardspagesof UIAA,theInternationalClimbing andMountaineeringFederation Fromthe6theditionofMountaineering:TheFreedomof theHills,a climbingbook
+From the Safety Standards pages of UIAA, the International Climbing and Mountaineering Federation From the 6th edition of Mountaineering: The Freedom of the Hills, a climbing book
 
 #### VARIOUSSOURCES
 | Angle (in degrees)   | Forceon eachanchor         |
@@ -4451,21 +4544,21 @@ SCIENCECOMMUNICATION
 • (b)Discuss the safety considerations that the authors(and their insurers) will have had to thinkaboutbeforepublishing theinformationin eachcase.
 PHYSICS IN DETAIL
 
-Nowwewill look at thephysicsindetail.Some of thesequestionslinktotopicsearlierin this book, so you may need to combine concepts from different areas of physics to work out the answers.
+Now we will look at the physics in detail. Some of these questions link to topics earlier in this book, so you may need to combine concepts from different areas of physics to work out the answers.
 
 • 2 (a)Calculate the weight of a 50 m length of DMM's Couloir rope.
 
-• (b)Calculate the densityof DMM'sOrbit rope.
+• (b)Calculate the density of DMM's Orbit rope.
 
-• 3(a)Explain thephysicsbehind thecaptioninfig7-19from theMountaineeringbook.
+• 3(a)Explain the physics behind the caption in fig 7-19 from the Mountaineering book.
 
-• (b)The tableofanglesfrom theMountaineeringbookreferstothe total anglebetween the slings (short support ropes) in the symmetrical situation shown in fig 7-19a. Explain why theforce on each anchorwould increase as suggested,and calculatehow accurately the forcepercentageshavebeenreported.
+• (b)The table of angles from the Mountaineering book refers to the total angle between the slings (short support ropes) in the symmetrical situation shown in fig 7-19a. Explain why the force on each anchor would increase as suggested, and calculate how accurately the force percentages have been reported.
 
 • 4 (a)Looking at the fall tests, explain why lower impact force ropes will stretch more.
 
 • with the static elongation, minimises injuries from the rope stopping a fall
 
-• 5A recent update of the UlAA rope testing standards includes a method for calculating the energy absorbedbya ropebeforefailure.Thisisgivenby the equation:
+• 5A recent update of the UIAA rope testing standards includes a method for calculating the energy absorbed by a rope before failure. This is given by the equation:
 
 This equation is an integration which means it calculates the sum of all the F× S values over the range of tensions up to rupture. How could such calculations produce results for ropes as presented in the suggested picture below?
 ACTIVITY
@@ -4480,17 +4573,19 @@ SUBJECT VOCABULARY
 bisects to divide something into two,usually equal,parts anchor an object,usually on a rope orchain, designed to give support
 THINKING BIGGER TIP
 
-Includeanexplanationofwhat physics term should beused insteadof theword'elongation' Note thatelongationisquoted asapercentage.
+Include an explanation of what physics term should be used instead of the word 'elongation' Note that elongation is quoted as a percentage.
 
 ## Topic 2: Materials
 
 ### 2B Exam practice
 
-2B EXAMPRACTICE
 
-• 1The pascal is the unit for the Young modulus. Which unit is equivalent?
+#### 2B EXAMPRACTICE
+2B EXAM PRACTICE
 
-Whichrow in the table correctly gives the new elastic strain energy for the change in extension given?
+• 1 The pascal is the unit for the Young modulus. Which unit is equivalent?
+
+Which row in the table correctly gives the new elastic strain energy for the change in extension given?
 
 • A mm/m
 
@@ -4504,24 +4599,24 @@ Whichrow in the table correctly gives the new elastic strain energy for the chan
 
 (Total for Question 1 = 1 mark)
 
-• 2 A 200 g mass hung on a spring stretches it from 8.2 cm to 9.0 cm.What is the spring constant for this spring?
+• 2 A 200 g mass hung on a spring stretches it from 8.2 cm to 9.0 cm. What is the spring constant for this spring?
 
-• A2.5Nm-1
+• A 2.5 Nm-1
 
 [1]
 
 (Total for Question 5 = 1 mark)
 
-• B 25Nm-1
+• B 25 Nm-1
 
-• C 250Nm-1
+• C 250 Nm-1
 
-• D 250000Nm-1
+• D 250000 Nm-1
 
 [1]
 (Total for Question 2 =1 mark)
 
-• 3Thediagramshows thestress-straincurvefor a metal.Which labelcorrespondstotheUltimateTensileStressforthismetal?
+• 3 The diagram shows the stress-strain curve for a metal. Which label corresponds to the Ultimate Tensile Stress for this metal?
 
 Strain/%
 
@@ -4529,28 +4624,28 @@ Strain/%
 
 (Total for Question 3 = 1 mark)
 
-• 4Whichisthecorrectdefinitionforthe'elasticlimit'forametal wire?
+• 4 Which is the correct definition for the 'elastic limit' for a metal wire?
 
 • A The maximum extension that the wire can have, which is still proportional to the load applied.
 
-• BThehighestvalue that thestresscaneverreachwithin this wire.
+• B The highest value that the stress can ever reach within this wire.
 
 • C The value that the stress will be in the wire when it breaks.
 
-• DThemaximumextension or compression that thewire can undergo and still return toits original dimensions when the force is removed. [1]
-(Total for Question 4 =1 mark)
+• D The maximum extension or compression that the wire can undergo and still return to its original dimensions when the force is removed. [1]
 
-• 5 When a spring is extended by x, elastic strain energy, Eel, is stored in the spring.If the extension changes,then the elastic strain energy also changes.
+#### (Total for Question 4 =1 mark)
+(Total for Question 4 = 1 mark)
 
-• 6You are asked to find theYoung modulus for a metal using a sample of wire.
+• 5 When a spring is extended by x, elastic strain energy, Eel, is stored in the spring. If the extension changes, then the elastic strain energy also changes.
 
-• (a)Describe the apparatus you would use, the measurements you would take and explain how you would use them to determine the Young modulus for the metal. [8]
+• 6 You are asked to find the Young modulus for a metal using a sample of wire.
 
-• (b)State one safety precaution you would take. [1]
+• (a) Describe the apparatus you would use, the measurements you would take and explain how you would use them to determine the Young modulus for the metal. [8]
 
-• (c)Explainoneexperimentalprecautionyouwouldtaketo ensure you obtain accurateresults.
+• (b) State one safety precaution you would take. [1]
 
-[2]
+• (c) Explain one experimental precaution you would take to ensure you obtain accurate results. [2]
 (TotalforQuestion 6=11marks)
 
 • 7The photograph shows a tin bought from a joke shop. When the lid is removed, a long spring, covered in fabric to resemble a snake, flies out of the tin.
@@ -4587,31 +4682,33 @@ SOLIDMATERIALPROPERTIES
 • (d)Infact,thebottom of the tin contains a device that makes a squeak when the spring is released, making the internal
 
 • lengthof the tinless than9.0cm. Explain the effect this has on the speed at which the spring leaves the tin. [3]
-(Totalfor Question 7=12marks)
 
-• 8The diagram shows a submarine and one of the forces acting on it. The submarine moves at a constant depth and speed in the direction shown.
+#### (Totalfor Question 7=12marks)
+(Total for Question 7=12 marks)
 
-• (a)Statetwoequationsthatshow therelationshipbetween theforces actingon thesubmarine.
+• 8 The diagram shows a submarine and one of the forces acting on it. The submarine moves at a constant depth and speed in the direction shown.
+
+• (a) State two equations that show the relationship between the forces acting on the submarine.
 
 [2]
 
-• (b)The submarine has a volume of 7100 m3. Show that the weight of the submarine is about 7 × 107 N. Density of seawater = 1030 kg m-3 [2]
+• (b) The submarine has a volume of 7100 m3. Show that the weight of the submarine is about 7 × 107 N. Density of seawater = 1030 kg m-3 [2]
 
-• (c)The submarine can control its depth by changing its weight.Thisis donebyadjustingthe amount ofwater held in ballast tanks.
+• (c) The submarine can control its depth by changing its weight. This is done by adjusting the amount of water held in ballast tanks.
 
 • As the submarine dives to greater depths the increased pressure of the surrounding water produces a compressive strain.
 
-• (i)Explain what is meant by compressive strain.
+• (i) Explain what is meant by compressive strain.
 
 [1]
 
-• (i)This decreases the volume of the submarine.Explain the actionthatshouldbetakentomaintain aconstant depth as the volume of the submarine is decreased.[2]
+• (ii) This decreases the volume of the submarine. Explain the action that should be taken to maintain a constant depth as the volume of the submarine is decreased. [2]
 
-• (ii) The submarine is made from steel. Suggest why a material, such as fibreglass, which has a much smaller Youngmodulus than steel would beunsuitable at greater depths. [2]
+• (iii) The submarine is made from steel. Suggest why a material, such as fibreglass, which has a much smaller Young modulus than steel would be unsuitable at greater depths. [2]
 
-• 9Thephotograph shows a device for swatting flies.
+• 9 The photograph shows a device for swatting flies.
 
-The device consists of a handle,a spring and a disc as shown in the photograph below.
+The device consists of a handle, a spring and a disc as shown in the photograph below.
 
 When the button is pushed, the compressed spring is released, launching the disc at the fly.
 
@@ -4649,13 +4746,15 @@ When the button is pushed, the compressed spring is released, launching the disc
 TOPIC3 3WAVESANDTHEPARTICLE NATURE OF LIGHT
 
 3A
-BASICWAVES
 
-As waves are a means to transfer energy,they are very important in the world around us. From the destruction causedbyearthquakes,to thedeterminationofthechemical compositionofdistantstars,towhetherornotit's worthtakingyoursurfboardtothebeachattheweekend,westudywavesinvirtuallyeverypartofhuman experience.
+#### BASICWAVES
+BASIC WAVES
 
-Topic3coversmanyaspectsofthesciencebehindwaves,andinthischapterwewillbeginthisstudywithsome basicdefinitionsand thewaveequation.Aswaves andwavemathematicsarerelevanttomany areasoffuture study,itisimportantto understand thesebasicdefinitions.
+As waves are a means to transfer energy, they are very important in the world around us. From the destruction caused by earthquakes, to the determination of the chemical composition of distant stars, to whether or not it's worth taking your surfboard to the beach at the weekend, we study waves in virtually every part of human experience.
 
-Even when scientists consider new areas of study, they often find that wave motions are the basis of what they are trying to understand.The fundamental causes ofgravity have never been well understood.Forexample, experimental observations ofgravitational waves in order to expand that understanding are currentlybeing donebya numberofuniversities around theworld.
+Topic 3 covers many aspects of the science behind waves, and in this chapter we will begin this study with some basic definitions and the wave equation. As waves and wave mathematics are relevant to many areas of future study, it is important to understand these basic definitions.
+
+Even when scientists consider new areas of study, they often find that wave motions are the basis of what they are trying to understand. The fundamental causes of gravity have never been well understood. For example, experimental observations of gravitational waves in order to expand that understanding are currently being done by a number of universities around the world.
 MATHS SKILLS FOR THIS CHAPTER
 
 • Units of measurement(e.g.the hertz,Hz)
@@ -4667,43 +4766,45 @@ MATHS SKILLS FOR THIS CHAPTER
 • Solving algebraic equations (e.g. comparing the two equations for wave speed)
 
 • Substitutingnumerical values into algebraic equations(e.g.a radar calculation tofind the distance to an aeroplane)
-Whatprior knowledge do I need?
 
-• Usingthetermsfrequency,wavelength,amplitude andspeed todescribewaves
+#### Whatprior knowledge do I need?
+What prior knowledge do I need?
 
-• Detailedknowledgeofthepartsof the electromagneticspectrum-theiruses,dangers and properties
+• Using the terms frequency, wavelength, amplitude and speed to describe waves
 
-• Knowledgeofsoundwavesand lightwaves
+• Detailed knowledge of the parts of the electromagnetic spectrum - their uses, dangers and properties
 
-• Modelsofwaves andwaveprocesses
+• Knowledge of sound waves and light waves
 
-• Calculationsofwave speed
+• Models of waves and wave processes
 
-• Examplesoftransverseandlongitudinalwaves
+• Calculations of wave speed
+
+• Examples of transverse and longitudinal waves
 
 Topic3B
 
-• Howwavescancombinewhentheymeet
+• How waves can combine when they meet
 
-• Thedevelopmentofstandingwaves,andwhat affects theirproperties
+• The development of standing waves, and what affects their properties
 
-• Applicationsofstandingwavepatterns,suchasthe interferenceordiffractionoflight,andthe developmentofmusicalinstruments
+• Applications of standing wave patterns, such as the interference or diffraction of light, and the development of musical instruments
 
 Topic3C
 
-• Effectsontheproperties andmovementofawave due tochangesin itsmedium
+• Effects on the properties and movement of a wave due to changes in its medium
 
 Topic3D
 
-• Thewave-particleduality of light and electrons
+• The wave-particle duality of light and electrons
 
 Topic10A（Book2:IAL)
 
-• Connectionsbetweensimpleharmonicmotion andwavemotion
+• Connections between simple harmonic motion and wave motion
 
 Topic11B（Book2:IAL)
 
-• TheimplicationsoftheDopplereffectin astronomy
+• The implications of the Doppler effect in astronomy
 Whatwill I studyin thischapter?
 
 • Definitionsof thepropertiesofwaves,such as frequency,wavelength,amplitudeandspeed
@@ -4740,48 +4841,54 @@ Wavemotionscanbeplottedongraphs.Aplotofthedisplacement againstdistancetravelledf
 Alternatively, a plot of the displacement versus time,as in fig B, shows how the vibrations occur over time.
 
 fig BThe oscillation of a singleparticle orpoint in a wave plotted against time.
-WAVEMEASUREMENTS
+
+#### WAVEMEASUREMENTS
+WAVE MEASUREMENTS
 
 There are a number of important properties of waves that
 
-scientists measure for various purposes.In most cases,you can determine these from thegraphs shown in fig A andfig B. Displacement:thepositionofaparticularpointonawave,ata particularinstant in time,measured from the mean (equilibrium) position. (Symbol: various, often x; SI units: m.)
+scientists measure for various purposes. In most cases, you can determine these from the graphs shown in fig A and fig B. Displacement: the position of a particular point on a wave, at a particular instant in time, measured from the mean (equilibrium) position. (Symbol: various, often x; SI units: m.)
 
-Amplitude:themagnitudeofthemaximumdisplacement reached by an oscillation in the wave. (Symbol: A; SI units: m.)
+Amplitude: the magnitude of the maximum displacement reached by an oscillation in the wave. (Symbol: A; SI units: m.)
 
-Frequency:the number of completewave cyclesper second. This may sometimes be measured as the number of complete waves passing a point per second. (Symbol: f; SI units: hertz,Hz.)
+Frequency: the number of complete wave cycles per second. This may sometimes be measured as the number of complete waves passing a point per second. (Symbol: f; SI units: hertz, Hz.)
 
-Wavelength:the distancebetween a point on awave and the same point on the next cycle of the wave,forexample,the distance between adjacent wave peaks. (Symbol:X; SI units: m.)
+Wavelength: the distance between a point on a wave and the same point on the next cycle of the wave, for example, the distance between adjacent wave peaks. (Symbol: λ; SI units: m.)
 
-Period:the time takenfor one complete oscillation at onepoint onthewave.Thiswillalsobethetimetakenforthewavetotravel one wavelength. (Symbol: T; SI units: s.)
+Period: the time taken for one complete oscillation at one point on the wave. This will also be the time taken for the wave to travel one wavelength. (Symbol: T; SI units: s.)
 
-Phase: the stage a given point on a wave is through a complete cycle.Phaseis measured in angle units,as a completewave cycle is considered tobethesame astravellingaround acompletecircle, that is 360°or 2πradians.(No standard symbol; SI units:rad)
+Phase: the stage a given point on a wave is through a complete cycle. Phase is measured in angle units, as a complete wave cycle is considered to be the same as travelling around a complete circle, that is 360° or 2π radians. (No standard symbol; SI units: rad)
 
-Wave speed:the rate of movement of thewave-the same as speed ingeneral.(Symbol:v,orcfor speed of electromagnetic waves; SI units: m s-1.)
+Wave speed: the rate of movement of the wave - the same as speed in general. (Symbol: v, or c for speed of electromagnetic waves; SI units: m s-1.)
 
 #### WAVEMEASUREMENTS
 You canfind the speed of awavefromdistance divided by time,as with the speed of anything.However,as each wave has a certain wavelength, and the frequency tells us how many of these wavelengths pass per second, you can also find the speed bymultiplyingfrequencyandwavelengthtogether.Thisisoften referredtoasthewaveequation:
 
 wave speed (m s-1) = frequency (Hz) xwavelength (m) v=f入
-Investigatingthespeedofsound
 
-Usingthesimpledefinitionofwavespeedthatisdistancedividedby time,wecanusea twinbeamoscilloscopetofindtheextratimea soundtakestotravelashortextradistance.Onebeamtraceshowsa soundpickedupbyamicrophoneheld50cmfromtheloudspeaker. Theothertraceshowsthesamesound,pickedupbyasecond microphoneheldfurtherfromtheloudspeaker.Thedifferencein positionsof thepeaksonthetwooscilloscopetracesshowsthetime taken,t,forthesoundtotraveltheextra distance,d.lfwemeasure thiscarefully,then the speedwill begivenby:
+#### Investigatingthespeedofsound
+Investigating the speed of sound
+
+Using the simple definition of wave speed that is distance divided by time, we can use a twin beam oscilloscope to find the extra time a sound takes to travel a short extra distance. One beam trace shows a sound picked up by a microphone held 50cm from the loudspeaker. The other trace shows the same sound, picked up by a second microphone held further from the loudspeaker. The difference in positions of the peaks on the two oscilloscope traces shows the time taken, t, for the sound to travel the extra distance, d. If we measure this carefully, then the speed will be given by:
 
 v = d/t
 
-Itcanbedifficulttomakeaccuratemeasurementsfromthescreenof anoscilloscope,soweneedtosynchronisethetracestominimisethe effectofrandomerrorintakingsucha measurement.Firstly,with bothmicrophonesatthesamedistancefrom theloudspeaker,the two traces appearinidentical phasepositions(inphase).lf we slide thesecondmicrophoneslowlyawayfromtheloudspeaker,wewill movethetracesoutofphasewitheachotheruntileventuallythey comebackto exact synchronisation.Atthispoint,the distance betweenthetwomicrophonesisexactlyonewavelength,.Weset thefrequency on thesignal generator,andso thewave equation can be used tofind the speed:v=f入
+It can be difficult to make accurate measurements from the screen of an oscilloscope, so we need to synchronise the traces to minimise the effect of random error in taking such a measurement. Firstly, with both microphones at the same distance from the loudspeaker, the two traces appear in identical phase positions (in phase). If we slide the second microphone slowly away from the loudspeaker, we will move the traces out of phase with each other until eventually they come back to exact synchronisation. At this point, the distance between the two microphones is exactly one wavelength, λ. We set the frequency on the signal generator, and so the wave equation can be used to find the speed: v=fλ
 
-figCInvestigating the speed of sound in air.
+Fig C Investigating the speed of sound in air.
 
-SafetyNote:Ifhighvolumesandcertainfrequenciesareused, interactionswiththenoisefromtheloudspeakers.
-PULSE-ECHOMEASUREMENTS
+Safety Note: If high volumes and certain frequencies are used, interactions with the noise from the loudspeakers.
 
-The natural habitatfor somebats is woodland, and theyfly through the trees at 10-15kmh-1,depending on species.In order to catch insects,thebats need tobe abletosense theirlocationprecisely. Their well-known echolocationsystem,usingveryhighfrequency (50-100kHz-ultrasound) sound pulses,gives a detailed perception of the world at distances ofless than5 metres.Atgreater distances, theecho is tooquietfor thebat touse.But how does itwork? The bat will make a'chirp'through its nose.This sound pulsewill typically last 3 milliseconds. When the sound hits nearby objects, itwill bereflected backtothebat'ssensitive ears and itsbrain can accuratelymeasure the timebetweenmakingthe sound and hearingthe echo.Thebat'sbrain has also evolved tocalculate the distance to the reflecting object using the equation:
+#### PULSE-ECHOMEASUREMENTS
+PULSE-ECHO MEASUREMENTS
 
-distance=speedxtime.
+The natural habitat for some bats is woodland, and they fly through the trees at 10-15 kmh⁻¹, depending on species. In order to catch insects, the bats need to be able to sense their location precisely. Their well-known echolocation system, using very high frequency (50-100 kHz-ultrasound) sound pulses, gives a detailed perception of the world at distances of less than 5 metres. At greater distances, the echo is too quiet for the bat to use. But how does it work? The bat will make a 'chirp' through its nose. This sound pulse will typically last 3 milliseconds. When the sound hits nearby objects, it will be reflected back to the bat's sensitive ears and its brain can accurately measure the time between making the sound and hearing the echo. The bat's brain has also evolved to calculate the distance to the reflecting object using the equation:
 
-Experimentswithdolphinshaveshownthattheyuseasimilar echolocationsystem,butforthemitissogood thatdolphins can build up an image of the shapes of nearby objects. They can see'withsound.Thisisprobably alsotrueforbats,toensure that they eat an insect and not an insect-sizedleaf,but dolphins can respond toexperimentalscientistsbetterthanbats.
+distance = speed × time.
 
-fig DDolphin echolocation is good enough to make out the shapes of objects in murky waters.
+Experiments with dolphins have shown that they use a similar echolocation system, but for them it is so good that dolphins can build up an image of the shapes of nearby objects. They can 'see' with sound. This is probably also true for bats, to ensure that they eat an insect and not an insect-sized leaf, but dolphins can respond to experimental scientists better than bats.
+
+fig D Dolphin echolocation is good enough to make out the shapes of objects in murky waters.
 
 #### PULSE-ECHOMEASUREMENTS
 We have developed similar pulse-echo ranging and imaging systems in a very wide range of technological applications, from sonar onships and submarinesto airtraffic control radar,medical imaging and the measurement of distance to asteroids and to the Moon. This is particularly useful in situations where other methods might be difficult or dangerous.Forexample,Venushas a very hot,high pressure,atmosphere with sulfuric acid clouds that block our view of the surface. Mapping the surface using a remote radartechniquehas avoidedtheneedtolandontheplanet.
@@ -4808,45 +4915,45 @@ CHECKPOINT
 
 SKILLS
 
-PROBLEMSOLVING,
+PROBLEM SOLVING,
 
-CRITICALTHINKING
+CRITICAL THINKING
 
-• 1.What are the amplitudes of the three waves shown in fig E? displacement/m
+• 1. What are the amplitudes of the three waves shown in fig E? displacement/m
 
-• 2 Sound travelsat330ms-1inair.If thesoundofthunderarrives 3.75s afterthelightningflashisseen,howfar awaywasthe lightning strike?
+• 2 Sound travels at 330 ms⁻¹ in air. If the sound of the thunder arrives 3.75 s after the lightning flash is seen, how far away was the lightning strike?
 
-• 3. Ultravioletlighthasawavelengthof368nm.Whatisthe frequency of thislight?
+• 3. Ultraviolet light has a wavelength of 368 nm. What is the frequency of this light?
 
-• Explainwhythetwoequationsforwavespeedareactuallythe same calculation.
+• Explain why the two equations for wave speed are actually the same calculation.
 
-• 5. Estimatethespeed of thewavesthelasttimeyou sawthesea.
-EXAMHINT
+• 5. Estimate the speed of the waves the last time you saw the sea.
 
-Ifyou areaskedtocalculatewavespeed,makesuretheequationyou usematchestheinformation youhave:frequency andwavelength are multipliedinthewaveequationBUTdistanceisdividedbytimeif distance andtime are themeasurementsyou aregiven.
+#### EXAMHINT
+EXAM HINT
+
+If you are asked to calculate wave speed, make sure the equation you use matches the information you have: frequency and wavelength are multiplied in the wave equation BUT distance is divided by time if distance and time are the measurements you are given.
 SUBJECT VOCABULARY
 
-waveameansfortransferringenergyviaoscillations displacementthepositionofaparticularpointonawave,ata particularinstant in time,measured from themean(equilibrium) position
+wave a means for transferring energy via oscillations displacement the position of a particular point on a wave, at a particular instant in time, measured from the mean (equilibrium) position
 
-amplitudethemagnitudeofthemaximumdisplacementreachedby anoscillationinthewave
+amplitude the magnitude of the maximum displacement reached by an oscillation in the wave
 
-frequencythenumberof completewave cyclespersecond:
+frequency the number of complete wave cycles per second:
 
 frequency (Hz) = 1/time period (s) f = 1/T
 
-wavelengththedistancebetweenapointonawaveandthesame pointonthenextcycleofthewave
+wavelength the distance between a point on a wave and the same point on the next cycle of the wave
 
-period(also time period)the time takenforone complete oscillation atonepointonthewave:
+period (also time period) the time taken for one complete oscillation at one point on the wave:
 
 time period (s) = 1/frequency (Hz) T = 1/f
 
-phasethestageagivenpointonawaveisthrougha complete cycle,
-
-measuredinangleunits,rad wavespeedtherateofmovementofthewave(nottherateof movementwithinoscillations) wave equation:
+phase the stage a given point on a wave is through a complete cycle, measured in angle units, rad wave speed the rate of movement of the wave (not the rate of movement within oscillations) wave equation:
 
 wave speed (m s⁻¹) = frequency (Hz) × wavelength (m) v = fλ
 
-twin-beamoscilloscopeanoscilloscopewithtwoinputs.Itdisplays eachasalineonthescreen,andbothareshownatthesametimeto compare theinputs
+t-beam oscilloscope an oscilloscope with two inputs. It displays each as a line on the screen, and both are shown at the same time to compare the inputs
 LEARNING OBJECTIVES
 
 • Explainthedifferencebetweenlongitudinal and transversewaves.
@@ -4861,11 +4968,13 @@ A transversewaveis onewhere themovementsoftheparticles,
 or fields in an electromagnetic wave, are up and down, orleft and right, whilst the energy travels forwards. This is illustrated in figA,whereonestudentisvibratingtheropeupand down,but the energy travels along the rope towards the other student. As the first student moves the rope up and down, the particles pull theirneighbours up and down.These thenpass thevibration on to their neighbours,through theirintermolecularforces,and the wave moves along the rope.
 
 • figAA transverse wave ona skippingrope.
-LONGITUDINALWAVES
 
-A longitudinalwaveina fuid,such as air, isgenerated by areasofhigherpressurecausetheparticlestopushapartfrom eachother,butthismakestheparticlesmoveandsquashtheir them away to squash their neighbours. Similarly, the areas where there are too few particles (compared with the uniform spread of the particles when the wave is not present)causeparticles to move into the vacant space - this is known as the rarefaction - filling and thewavemoves along.Anexampleofa longitudinalwavein a solid material canbe seenbysquashing and releasing a spring, as shown in fig B.
+#### LONGITUDINALWAVES
+LONGITUDINAL WAVES
 
-• fig BA longitudinal wave generated in a long spring by repeatedly compressions, and areas of lower pressure are called rarefactions.
+A longitudinal wave in a fluid, such as air, is generated by areas of higher pressure cause the particles to push apart from each other, but this makes the particles move and squash their neighbours. Similarly, the areas where there are too few particles (compared with the uniform spread of the particles when the wave is not present) cause particles to move into the vacant space - this is known as the rarefaction - filling and the wave moves along. An example of a longitudinal wave in a solid material can be seen by squashing and releasing a spring, as shown in fig B.
+
+• fig B A longitudinal wave generated in a long spring by repeatedly compressions, and areas of lower pressure are called rarefactions.
 GRAPHINGWAVES
 
 In fig A of Section 3A.1 we saw how waves can be shown on a graph of displacement versus distance. This is relatively easy with a transverse wave, as the graph appears like a picture of the wave,soitiseasytounderstand.Thewavelengthcanbefound by measuring alongthegraph'sx-axisfrom onepoint on awavecycle tothesamepoint on thenextwave cycle.Amplitudeismeasured from thex-axisverticallyto a maximum displacement point.
@@ -4900,41 +5009,43 @@ CHECKPOINT
 • ReferringtofigG,explainwhysoundswithagreateramplitudesoundlouder.
 SUBJECT VOCABULARY
 
-transversewaveawaveinwhichtheoscillationsoccurperpendiculartothedirectionofmovementof thewaveenergy
+transverse wave a wave in which the oscillations occur perpendicular to the direction of movement of the wave energy
 
-longitudinalwaveawaveinwhichtheoscillationsoccurparalleltothedirectionofmovementofthe waveenergy
+longitudinal wave a wave in which the oscillations occur parallel to the direction of movement of the wave energy
 
-compression anareainalongitudinalwaveinwhichtheparticleoscillationsputthemclosertoeachother thantheirequilibriumstate
+compression an area in a longitudinal wave in which the particle oscillations put them closer to each other than their equilibrium state
 
-rarefactionanareainalongitudinalwaveinwhichtheparticleoscillationsputthemfurtherapartfrom eachotherthantheirequilibriumstate
+rarefaction an area in a longitudinal wave in which the particle oscillations put them further apart from each other than their equilibrium state
 EXAMHINT
 
-Whendefiningtransverseand longitudinalwaves,youmust writebothpartsoftheidea: oscillationsdirectionand directionofwavetravel.
+When defining transverse and longitudinal waves, you must write both parts of the idea: oscillations direction and direction of wave travel.
 EARTHQUAKE
 
-CRITICALTHINKING,PROBLEMSOLVINGANALYSIS,INTERPRETATION ADAPTIVELEARNING,PRODUCTIVITY,COMMUNICATION
+CRITICAL THINKING, PROBLEM SOLVING ANALYSIS, INTERPRETATION ADAPTIVE LEARNING, PRODUCTIVITY, COMMUNICATION
 
-Earthquakes are amongthemostdeadlynaturalhazards.There are around1o0earthquakeseachyearofasizethatcouldcause serious damage.
+Earthquakes are among the most deadly natural hazards. There are around 100 earthquakes each year of a size that could cause serious damage.
 
-Inthisactivity,wewilllookatsomeofthedetail aboutthedetectionofearthquakewaves.
+In this activity, we will look at some of the detail about the detection of earthquake waves.
 
-What is an earthquake andwhatcauses them tohappen?
+What is an earthquake and what causes them to happen?
 What areseismograms?Howdoyouread them?
 
 Anearthquakeiscaused bya suddenslipon afault.Thetectonic plates are always slowly moving, but theygetstuck attheiredges due tofriction.When the stress on theedge overcomes thefriction, thereis an earthquake thatreleases energyinwaves that travel through theEarth's crust and cause the shaking thatwefeel.
 
 figA
-WhatareP-waves?WhatareS-waves?
 
-When anearthquake occurs,it releases energyintheform ofseismicwavesthatradiatefromtheearthquakesourcein all directions.The different types of energy waves shake the ground in different ways and also travel through the earth at differentvelocities.Thefastestwave,and thereforethefirstto arrive at agiven location,is called theP-wave.TheP-wave, orcompressionalwave,alternatelycompresses andexpands material in the same direction it is travelling. The S-wave is slower than the P-wave and arrives next,shaking the ground up and down and back and forth perpendicular to the direction it is travelling.Surface wavesfollow theP-and S-waves.
+#### WhatareP-waves?WhatareS-waves?
+What are P-waves? What are S-waves?
 
-Seismograms are the records (paper copy) produced by seismographs used to calculate thelocation and magnitude of an earthquake.Theyshowhowthegroundmoveswiththepassageof time.Onaseismogram,theHORIZONTALaxis=time(measured in seconds)and theVERTICAL axis=ground displacement (usually measured in millimetres).When there is NO EQ reading there is just a straight line except for small movements caused by local disturbance or'noise'and the time markers.
+When an earthquake occurs, it releases energy in the form of seismic waves that radiate from the earthquake source in all directions. The different types of energy waves shake the ground in different ways and also travel through the earth at different velocities. The fastest wave, and therefore the first to arrive at a given location, is called the P-wave. The P-wave, or compressional wave, alternately compresses and expands material in the same direction it is travelling. The S-wave is slower than the P-wave and arrives next, shaking the ground up and down and back and forth perpendicular to the direction it is travelling. Surface waves follow the P- and S-waves.
 
-fig DThere are many different types of seismometers,but they all are based on a fundamental principle-that the differential motion between a free mass(which tends to remain at rest) and a supporting structure anchoredin theground(whichmoveswith thevibratingEarth) canbe used to record seismic waves.
+Seismograms are the records (paper copy) produced by seismographs used to calculate the location and magnitude of an earthquake. They show how the ground moves with the passage of time. On a seismogram, the HORIZONTAL axis = time (measured in seconds) and the VERTICAL axis = ground displacement (usually measured in millimetres). When there is NO EQ reading there is just a straight line except for small movements caused by local disturbance or 'noise' and the time markers.
+
+fig D There are many different types of seismometers, but they all are based on a fundamental principle - that the differential motion between a free mass (which tends to remain at rest) and a supporting structure anchored in the ground (which moves with the vibrating Earth) can be used to record seismic waves.
 
 fig E A seismogram recorded in Gottingen, Germany.
 
-FromthewebsiteoftheU.S.GeologicalSurvey,http://earthquake.usgs.gov
+From the website of the U.S. Geological Survey, http://earthquake.usgs.gov
 SCIENCECOMMUNICATION
 
 • 1 The extract opposite is from educational webpages produced by the U.s. Geological Survey. matters. Consider the extract and comment on the type of writing that is used. Then answer the following questions:
@@ -4944,32 +5055,32 @@ SCIENCECOMMUNICATION
 • (b)Discuss the audience you think the UsGS is aiming at.You need to consider the scientific depth in this extract, along with the style of presentation of the science.
 PHYSICS IN DETAIL
 
-Now wewill look at thephysics in detail. Some of these questions link to topics earlier in this book,soyou mayneed tocombine conceptsfromdifferent areasofphysicstoworkout the answers.
+Now we will look at the physics in detail. Some of these questions link to topics earlier in this book, so you may need to combine concepts from different areas of physics to work out the answers.
 
-• 2Explain whichwave type(transverse or longitudinal) is shown by each of the earthquake waves.
+• 2 Explain which wave type (transverse or longitudinal) is shown by each of the earthquake waves.
 
 • 3 Why can't S-waves travel through air or liquids, including the liquid iron outer core inside the Earth?
 
-• 4Why would the waves travel faster the deeper they are in theEarth?
+• 4 Why would the waves travel faster the deeper they are in the Earth?
 
-• (a)Explainhow the information on theseismogram in fig Ecouldbeused towork out the distance to the earthquake.Calculate this distance.
+• (a) Explain how the information on the seismogram in fig E could be used to work out the distance to the earthquake. Calculate this distance.
 
 • (b) Then explain why this distance alone cannot determine where the earthquake occurred.
 
 ACTIVITY
 
-Write a similar webpage, including any ideas you have for diagrams.Explain how three would allowaseismologisttofindtheoriginal locationof theearthquake
+Write a similar webpage, including any ideas you have for diagrams. Explain how three would allow a seismologist to find the original location of the earthquake.
 
-INTERPRETATIONNOTE
+INTERPRETATION NOTE
 
-Onthispage,wenlyhave an extract:itisusefultovisitthe webpagesandseeallthe differentsectionsthatitcovers.
+On this page, we only have an extract: it is useful to visit the webpages and see all the different sections that it covers.
 THINKING BIGGER TIP
 
-Althoughyoudon'tknowwhen theearthquakeoccurred,think abouthowthedifferenceinthe timestheyarrivecouldhelpfind thetimetheearthquake occurred,andthenanswerthis question.
+Although you don't know when the earthquake occurred, think about how the difference in the time they arrive could help find the time the earthquake occurred, and then answer this question.
 
 THINKING BIGGER TIP
 
-Consideryour answersto question 4- these should give you anidea astohowthisis done.
+Consider your answers to question 4- these should give you an idea as to how this is done.
 
 ## Topic 3: Waves and Particle Nature of Light
 
@@ -4992,21 +5103,21 @@ Consideryour answersto question 4- these should give you anidea astohowthisis do
 [1]
 (Total for Question 2 = 1 mark)
 
-• 3Whichof theseis a correctequationconnectingwave properties?
+• 3 Which of these is a correct equation connecting wave properties?
 
-Av=f入
-
-f
+A v=fλ
 
 B
 
-Df=
+C
 
-• 5Asoundwavepulse-echotechniquecanbeused tofind the thicknessofoldrailwaylines.Aprobeemitted asoundpulse into a steel rail and detected the echo.The pulse and its echo areshownontheoscilloscope tracebelow.
+D f=v/λ
 
-The soundwavesused have a frequencyof3.8MHzand the speed of sound in this steel is 5900 m s-1.
+• 5 A sound wave pulse-echo technique can be used to find the thickness of old railway lines. A probe emitted a sound pulse into a steel rail and detected the echo. The pulse and its echo are shown on the oscilloscope trace below.
 
-• (a)Explain why the echo has a smaller amplitude than the emitted pulse.
+The sound waves used have a frequency of 3.8 MHz and the speed of sound in this steel is 5900 m s-1.
+
+• (a) Explain why the echo has a smaller amplitude than the emitted pulse.
 
 [2]
 
@@ -5014,30 +5125,26 @@ The soundwavesused have a frequencyof3.8MHzand the speed of sound in this steel 
 
 [3]
 
-(TotalforQuestion5=5marks)
+(Total for Question 5 = 5 marks)
 
-• 6Frequencies below the audible range for humans are called infrasound. Infrasound is produced by earthquakes.
+• 6 Frequencies below the audible range for humans are called infrasound. Infrasound is produced by earthquakes.
 
-• (a)Describe how sound waves travel through air.
+• (a) Describe how sound waves travel through air.
 
 [3]
 
-[1]
-
-• (b)State what is meant by frequency.
+• (b) State what is meant by frequency.
 
 [1]
 (Total for Question 3 =1 mark)
 
-入
-
 V
 
-• 4Sonar is a pulse-echo technique in which ships use sound pulsestomeasurethedepthofthesea.Inseawater,thespeed of sound is 1500m s-1. If the echo of a pulse is detected 0.87s afterit is emitted,what is the depth of thesea at thatpoint?
+• 4 Sonar is a pulse-echo technique in which ships use sound pulses to measure the depth of the sea. In seawater, the speed of sound is 1500 m s-1. If the echo of a pulse is detected 0.87s after it is emitted, what is the depth of the sea at that point?
 
 • A 650m
 
-• B850m
+• B 850m
 
 • C 1300m
 
@@ -5047,24 +5154,24 @@ V
 
 (Total for Question 4 =1 mark)
 
-• (c)An infrasound wave has a wavelength of 1500 m and a frequency of 2.0 Hz. Calculate the speed of infrasound in the ground.
+• (c) An infrasound wave has a wavelength of 1500 m and a frequency of 2.0 Hz. Calculate the speed of infrasound in the ground.
 
 • [2]
 
-• (d) In 2004, a huge earthquake produced a very large tidal wavewhich sweptacross theIndian Ocean towardsSri Lanka. Many large animals in Sri Lanka moved away from the coastbefore the tidal wave hit. Suggest a reason for the animals behaving in this way. (2)
+• (d) In 2004, a huge earthquake produced a very large tidal wave which swept across the Indian Ocean towards Sri Lanka. Many large animals in Sri Lanka moved away from the coast before the tidal wave hit. Suggest a reason for the animals behaving in this way. (2)
 (TotalforQuestion5=8marks)
 
-• 7A London radio station broadcasts at a frequency of 95.8 MHz. Calculate thewavelengthin the airoftheseradiowaves. [3]
+• 7A London radio station broadcasts at a frequency of 95.8 MHz. Calculate the wavelength in the air of these radio waves. [3]
 
 （TotalforQuestion7=3marks)
 
-• 8(a)Ultrasound hasafrequency above thelimit of human hearing.Ultrasound scanningcanbe usedby doctors toobtaininformationabouttheinternalstructuresof the humanbodywithout the needforsurgery.Pulses ofultrasoundaresentintothebodyfromatransmitter placed on the skin.
+• 8(a)Ultrasound has a frequency above the limit of human hearing. Ultrasound scanning can be used by doctors to obtain information about the internal structures of the human body without the need for surgery. Pulses of ultrasound are sent into the body from a transmitter placed on the skin.
 
 • (i)The ultrasound used has a frequency of 4.5 MHz. State why waves of this frequency are called ultrasound.
 
-• (i)A pulse of ultrasound enters the body and its reflectionreturns tothetransmitter after a total time
+• (i)A pulse of ultrasound enters the body and its reflection returns to the transmitter after a total time
 
-• of 1.6 × 10-4s. Calculatehowfar thereflecting surfaceisbelow the skin.
+• of 1.6 × 10-4s. Calculate how far the reflecting surface is below the skin.
 
 Average speed of ultrasound in the body = 1500 ms-1
 
@@ -5074,88 +5181,92 @@ Average speed of ultrasound in the body = 1500 ms-1
 
 • (b)Another way of obtaining information about the internal structures of the human body is by the use of X-rays.
 
-• (i）Giveoneproperty ofX-rayswhichmakesthemmore hazardous touse than ultrasound. [1]
+• (i)Give one property of X-rays which makes them more hazardous to use than ultrasound. [1]
 
-• (ii)State two other differences betweenX-rays and ultrasound. [2]
+• (ii)State two other differences between X-rays and ultrasound. [2]
 (Total for Question 8=8marks)
 
-• 9The diagramshows anexperimentwithsoundwaves.
+• 9 The diagram shows an experiment with sound waves.
 
-A loudspeaker is connected to a signal generator. A microphoneis connected to a twinbeam oscilloscope.Sound wavesreachthemicrophonedirectlyfrom theloudspeakerand after reflectionfrom themetal plate.
+A loudspeaker is connected to a signal generator. A microphone is connected to a twin beam oscilloscope. Sound waves reach the microphone directly from the loudspeaker and after reflection from the metal plate.
 
-A student set up the apparatus as shown in an attempt to measure thespeedofsoundbycomparingthetwotraces on the oscilloscope screen.However,only one of thetraces showed asoundwavewhilsttheotherwas aflatline.
+A student set up the apparatus as shown in an attempt to measure the speed of sound by comparing the two traces on the oscilloscope screen. However, only one of the traces showed a sound wave whilst the other was a flat line.
 
-• (a)Describe and explain the difference in amplitude of the soundwaves reaching themicrophone directly,and those reachingitafterreflectionfromthemetalplate. [2]
-
-[1]
-
-• (b)(i)Why does only one trace on the oscilloscope show the sound wave?
-
-• (i)Describe how the student should change the experimental set up in order to be able to measure the speed of sound.
+• (a) Describe and explain the difference in amplitude of the sound waves reaching the microphone directly, and those reaching it after reflection from the metal plate. [2]
 
 [1]
 
-• (ii) Explain how the student could use the new set up to find thespeedof sound in airIncludemeasurements, experimentaladjustments,howtoanalysetheresults tofind the speed of sound,andwhy theyshould also removethemetalplate.
+• (b)(i) Why does only one trace on the oscilloscope show the sound wave?
+
+• (i) Describe how the student should change the experimental set up in order to be able to measure the speed of sound.
+
+[1]
+
+• (ii) Explain how the student could use the new set up to find the speed of sound in air. Include measurements, experimental adjustments, how to analyse the results to find the speed of sound, and why they should also remove the metal plate.
 
 [6]
 
-• (c)With thefrequency setat3.7kHz,thewavelength is measured as 9.0 cm. Calculate the speed of sound in air. [2]
+• (c) With the frequency set at 3.7 kHz, the wavelength is measured as 9.0 cm. Calculate the speed of sound in air. [2]
 
 ## Topic 3: Waves and Particle Nature of Light
 
 ### The behaviour of waves
 
-TOPIC3 3WAVESANDTHEPARTICLE NATUREOFLIGHT
+
+#### TOPIC3 3WAVESANDTHEPARTICLE NATUREOFLIGHT
+TOPIC 3: WAVES AND THE PARTICLE NATURE OF LIGHT
 
 3B
-THEBEHAVIOUROF WAVES
 
-Some of the most interesting and beautiful phenomena are the product of two or more waves combining their continueontheirwayasiftheyhadnevermet.
+#### THEBEHAVIOUROF WAVES
+THE BEHAVIOUR OF WAVES
 
-Wewill look atthewaysinwhichdifferentwavescombine,alongwith thereasonswhy theymightnotcombine, and learnhowtopredictandmeasure theoutcomesofthesecombinations.Theproductionofstationarywave patternscanbeunexpected,butit isthebasisforthefunctioningof musical instruments.Thevarietyandbeauty ofmusical instruments,alongwith thevariationin the soundsthey produce,is aresult of their need togenerate astationarywavebycombiningmultiplewavemovementstogether.
+Some of the most interesting and beautiful phenomena are the product of two or more waves combining their continue on their way as if they had never met.
 
-Diffraction and interferencecanbeexplainedwithsome simplemathematicalideas.Whentheserelationships from an oily puddle.Also it leads to the limits of scientific knowledge, such as the discovery of gravitational waves.
+We will look at the ways in which different waves combine, along with the reasons why they might not combine, and learn how to predict and measure the outcomes of these combinations. The production of stationary wave patterns can be unexpected, but it is the basis for the functioning of musical instruments. The variety and beauty of musical instruments, along with the variation in the sounds they produce, is a result of their need to generate a stationary wave by combining multiple wave movements together.
+
+Diffraction and interference can be explained with some simple mathematical ideas. When these relationships from an oily puddle. Also it leads to the limits of scientific knowledge, such as the discovery of gravitational waves.
 MATHS SKILLS FOR THIS CHAPTER
 
 • Units of measurement (e.g. the radian, rad)
 
-• Translating information between graphical, numerical and algebraic forms (e.g. superposing wave displacements todiscoverastandingwave)
+• Translating information between graphical, numerical and algebraic forms (e.g. superposing wave displacements to discover a standing wave)
 
-• Understandingtherelationshipbetween degreesandradians and translatingfromonetotheother (e.g.comparingthephaserelationshipbetweenwaves)
+• Understanding the relationship between degrees and radians and translating from one to the other (e.g. comparing the phase relationship between waves)
 
-• Plotting two variables from experimental data, and understanding that y = mx + c represents a linear relationship(e.g.using a graph of experimental results toverify thestandingwaveproperties ina string under tension)
+• Plotting two variables from experimental data, and understanding that y = mx + c represents a linear relationship (e.g. using a graph of experimental results to verify the standing wave properties in a string under tension)
 
-• Solvingalgebraicequations(e.g.comparing thepositionsofinterferencemaxima andminima)
+• Solving algebraic equations (e.g. comparing the positions of interference maxima and minima)
 
 • Substituting numerical values into algebraic equations (e.g. finding the speed of waves in a string under tension)
 What prior knowledge do I need? Topic3A
 
-• Definitionsof thepropertiesofwaves,suchas frequency,amplitude,wavelengthandspeed
+• Definitions of the properties of waves, such as frequency, amplitude, wavelength and speed
 
-• Thedefinitionofwavephase,anditsrelationship tofrequencyand timeperiod
+• The definition of wave phase, and its relationship to frequency and time period
 
-• Thedifferencebetween,andexamplesof, transverseandlongitudinalwaves
+• The difference between, and examples of, transverse and longitudinal waves
 
-• The transmissionofwaves,andgraphical representationsofthem
+• The transmission of waves, and graphical representations of them
 
-• Calculationsofwaveproperties
+• Calculations of wave properties
 What will I study in this chapter?
 
-• Howwavescancombinewhentheymeet
+• How waves can combine when they meet
 
-• Thedevelopmentofstandingwaves,andwhat affects their properties
+• The development of standing waves, and what affects their properties
 
 • Diffraction and interference
 
-• Applicationsofstandingwavepatterns,suchasthe interferenceordiffractionof light,andthe developmentofmusicalinstruments
+• Applications of standing wave patterns, such as the interference or diffraction of light, and the development of musical instruments
 EXAMHINT
 
-If a question asksforaphase value,justgiveoneanswer.f youtrytoexpressthesame answerinradiansandin degrees,youmustgetitright bothtimesorit ismarked wrong.
+If a question asks for a phase value, just give one answer. If you try to express the same answer in radians and in degrees, you must get it right both times or it is marked wrong.
 LEARNING OBJECTIVES
 
-• Understandwhatismeantbythetermswavefront,superpositionandphase
+• Understand what is meant by the terms wavefront, superposition and phase
 
-• Explainexamplesofwavesuperposition.
+• Explain examples of wave superposition.
 PHASE
 
 All points in a wave will be at some position through their cycle of oscillation.Some of these positions in the cycle have their own names, such as peak(or crest), trough, compression or rarefaction.The remaining points through a cycle are important,but there are too many to give them all names. We describe any position through a cycle by a number, referred to as the phase. Acompletecycleisconsideredtobeequivalenttorotatingthroughacompletecircle,sothephase position will be an angle measurement, where a complete cycle is equivalent to 360°.
@@ -5180,19 +5291,21 @@ WAVEFRONTS
 Diagrams of waves are often drawn as lines, as in fig B, where all the points on a line represent points on the wave that are at are calledwavefronts.They arehow the seamightlookobserved from a helicopter, where the troughs are all in shadow and so appear darker
 
 • figBAll points on each wavefront (black lines) are in the same phase position: 90°, or m/2. The green line showing direction of travel is called a ray.Rays must be perpendicular to wavefronts.
-WAVESUPERPOSITION
 
-Whenwavesmeet,eachwavewill be tryingto cause a wave displacement according toitsphase at thatlocation.The overall displacement will be the vector sum of the displacements caused by the individual waves. This is called wave superposition. Afterwards, each wave will continue past each other, as the energy progresses in the same direction it was originally travelling. This can be most simply ilustrated if we consider just wave pulses passing each other, as in fig D.
+#### WAVESUPERPOSITION
+WAVE SUPERPOSITION
 
-figCWhenwaves meet,the displacements would add to each other to give the overalldisplacement for each location.
+When waves meet, each wave will be trying to cause a wave displacement according to its phase at that location. The overall displacement will be the vector sum of the displacements caused by the individual waves. This is called wave superposition. Afterwards, each wave will continue past each other, as the energy progresses in the same direction it was originally travelling. This can be most simply illustrated if we consider just wave pulses passing each other, as in fig D.
 
-twotransversewaves
+fig C When waves meet, the displacements would add to each other to give the overall displacement for each location.
 
-fig DWavepulse displacements add when theymeet in thesame location.
+two transverse waves
 
-If the wave pulses in fig D are travelling on the surface of water, then each would be trying to displace the water molecules upwards briefly as it moves.Whenbothmeet at the samelocation, wave pulse A lifts the water a little, and then pulse B is also lifting displacements added together This effect is thought to explain the talesfromsailorsthat theysawasuddenvery,verylargewave waves travelling in many different directions, they might be at thesamepoint at the same time.Adding these togetherinwave superposition could cause a huge displacement at that moment. It then drops again as the waves continue past each other.
+fig D Wave pulse displacements add when they meet in the same location.
 
-figEMultiple small wavescoincidingin the same location can lead to a brief very large displacement.This graph is of sea surface height at the DraupnerNorthSea OilPlatform on1st January1995,showing afreak 18m wave.
+If the wave pulses in fig D are travelling on the surface of water, then each would be trying to displace the water molecules upwards briefly as it moves. When both meet at the same location, wave pulse A lifts the water a little, and then pulse B is also lifting displacements added together. This effect is thought to explain the tales from sailors that they saw a sudden very, very large wave waves travelling in many different directions, they might be at the same point at the same time. Adding these together in wave superposition could cause a huge displacement at that moment. It then drops again as the waves continue past each other.
+
+fig E Multiple small waves coinciding in the same location can lead to a brief very large displacement. This graph is of sea surface height at the Draupner North Sea Oil Platform on 1st January 1995, showing a freak 18m wave.
 SUPERPOSITIONOFCONTINUOUSWAVES
 
 If, rather than a single point along the path of the waves, we consider waves superposing over a large space, the outcome is a continuous wave that is the sum of the displacements over time in each location. If the two waves are in phase, their effect will be to produce a larger-amplitude resultant wave.This isknown asconstructiveinterference.If identicalwavesmeet and areexactly out of phase - if their phase difference is 180°or π radians - then the resultant is a zero-amplitude wave. This idea of complete destructive interference can be confusing: imagine shining two beams of light to the same place, and at that point you see blackness. In the right circumstances, as explained in Section 3B.4, this is exactly what happens.
@@ -5200,11 +5313,11 @@ If, rather than a single point along the path of the waves, we consider waves su
 It is important toknow the phase difference between two waves,in orderto determine what will happen as a result of their superposition. Waves that constructively interfere, as with the top pair in fig F, must be in phase, which means they have a phase difference of zero. As phase repeats every complete cycle, this could also be said to be a phase difference of 360° or 2π radians.
 SUBJECT VOCABULARY
 
-wavefronts linesconnectingpointson thewave that are at exactly thesamephaseposition superpositionwhenmorethanonewaveisinthesamelocation,theoveralleffectisthevectorsumof theirindividualdisplacementsateachpointwheretheymeet
+wavefronts lines connecting points on the wave that are at exactly the same phase position superposition when more than one wave is in the same location, the overall effect is the vector sum of their individual displacements at each point where they meet
 
-amplituderesultantwave
+amplitude resultant wave
 
-destructiveinterferencethesuperpositioneffectoftwowavesthatareoutofphase,producingasmaller amplituderesultantwave
+destructive interference the superposition effect of two waves that are out of phase, producing a smaller amplitude resultant wave
 LEARNING OBJECTIVES
 
 • Explainwhat is meant by coherent waves.
@@ -5233,9 +5346,9 @@ CP5
 CP5LABB00KPAGE21
 
 #### STANDINGWAVES
-fig BAs coherent waves pass through each other,theresultant wave (pink) will be stationary.
+fig B As coherent waves pass through each other, the resultant wave (pink) will be stationary.
 
-Dependingon thefrequencyof thewavethatproduces the stationarywavebyconstructivelyinteractingwithitsown reflection, the standing wave pattern that can be set up will have a correspondingwavelength,as thewave equation must still be satisfied.Forexample,infigC,thefirst overtone exactly fits one complete wave in thelength of the string:A=L.In the third overtone,there are two complete waves inlength L,so the wavelengthishalved.The speed ofwaves on thestringis the same in both situations, so the frequency in the third overtone must be double that of the first overtone. If a string is plucked and allowedtovibratefreely,all modes ofvibrationwill be present at the same time,but the fundamental will be the most significant.
+Depending on the frequency of the wave that produces the stationary wave by constructively interacting with its own reflection, the standing wave pattern that can be set up will have a corresponding wavelength, as the wave equation must still be satisfied. For example, in fig C, the first overtone exactly fits one complete wave in the length of the string: A=L. In the third overtone, there are two complete waves in length L, so the wavelength is halved. The speed of waves on the string is the same in both situations, so the frequency in the third overtone must be double that of the first overtone. If a string is plucked and allowed to vibrate freely, all modes of vibration will be present at the same time, but the fundamental will be the most significant.
 EXAM HINT
 
 Notethatthestepsandlayout ofthesolutioninthisworked examplearesuitableforwave questionsin the exam.
@@ -5245,17 +5358,17 @@ L
 • figCAs the string is fixed at each end, these end points must always be nodes.The standing wave can only occur if itswavelength exactlyallows a node ateach end.
 WORKED EXAMPLE
 
-Aguitar string of length65cm vibrates in its fundamental mode.The speed of waves in the string is 362ms-1.Whatarethewavelength andfrequencyof thisstandingwave?
+A guitar string of length 65 cm vibrates in its fundamental mode. The speed of waves in the string is 362 ms⁻¹. What are the wavelength and frequency of this standing wave?
 
-A=2L=2×0.65
+A = 2L = 2 × 0.65
 
-入=1.30m
+λ = 1.30 m
 
 f = v/λ = v/2L
 
 f = 362/1.30
 
-f=278Hz
+f = 278 Hz
 STRINGWAVESPEEDS
 
 Waves on a stretched spring travel at a speed that is affected by the tension in the string, T(in newtons) and the mass per unit length of the string, μ (in kg m-1). The equation for the speed of a wave in a string is:
@@ -5271,28 +5384,28 @@ In the fundamental mode of vibration, this means the fundamental frequency, f, d
 f₀ = (1/(2L))√(T/μ)
 WORKED EXAMPLE
 
-Howfast dowaves travel in a stringthatisheldunder75N tension andhas a massperunit lengthof5.0x10-4kgm-1?Whatwouldbe its fundamental frequency if the string was 75.5 cm long?
+How fast do waves travel in a string that is held under 75 N tension and has a mass per unit length of 5.0×10⁻⁴ kg m⁻¹? What would be its fundamental frequency if the string was 75.5 cm long?
 
 v = √(T/μ) v = √(75/(5 × 10⁻⁴)) v = 387 m s⁻¹ f₀ = (1/(2L))√(T/μ) f₀ = (1/(2 × 0.755))√(75/(5 × 10⁻⁴)) f₀ = 256 Hz
-EXAMHINT
 
-Notethatthestepsandlayout of thesolutioninthisworked examplearesuitablefor fundamental frequency questionsin the exam.
+#### EXAMHINT
+EXAM HINT
+
+Note that the steps and layout of the solution in this worked example are suitable for fundamental frequency questions in the exam.
 
 CP5
 
-Investigating thefactors affectingthefundamental frequency ofa string
+Investigating the factors affecting the fundamental frequency of a string experimentally. In order to confirm it, we need to do three separate investigations to verify each part of the relationship, whilst keeping the other variables as control 1
 
-experimentally. In order to confirm it,weneed todo threeseparateinvestigations toverify each partoftherelationship,whilstkeepingtheothervariablesascontrol 1
+fig D Sonometer experiments to verify the factors affecting the fundamental frequency of a stretched string.
 
-figDSonometerexperimentstoverifythefactors affecting the fundamental frequency of a stretched string.
+We can use a microphone connected to an oscilloscope to monitor the sounds produced by a sonometer string and to measure its frequency of vibration. This can be easier if a datalogging computer is used instead of an oscilloscope, so the screen can be frozen to look at in detail.
 
-Wecanuseamicrophoneconnectedtoanoscilloscopetomonitorthe sounds produced by a sonometer string and to measure its frequency of vibration. This can be easier if a datalogging computer is used instead of an oscilloscope,so the screen canbefrozen tolook atindetail.
+• The string supports (called bridges) on a sonometer are moveable, so that we can find the frequency with varying lengths, L, whilst the same string (constant μ) and the same hanging mass (constant T) keep the other variables controlled. We can plot a graph to verify f on the y-axis is proportional to 1/L on the x-axis.
 
-• Thestringsupports(calledbridges)onasonometeraremoveable, so thatwe can find thefrequency with varying lengths,L,whilst the same string(constant μ) and the same hanging mass(constant T) keep theothervariables controlled.We canplot agraph toverify fon they-axis isproportional to1/L on thex-axis.
+• We can find the fundamental frequency using a fixed length of the same string throughout (constant L and constant μ) for varying masses hung over the pulley, i.e. varying T. We can plot a graph to verify f on the y-axis is proportional to √T on the x-axis.
 
-• We can find the fundamental frequency using a fixed length of the same string throughout (constant L and constant μ) for varying masseshung over thepulley,i.e.varying T.We can plot a graph to verifyfoonthey-axisisproportional toTonthex-axis.
-
-• The final experiment requires a set of different strings (varying diametermetalwirescouldbeused).Maintainingthesamelength and the samehangingmass(constant Land T)keeps theother variables controlled.Measure themass of eachwire usinga digital
+• The final experiment requires a set of different strings (varying diameter metal wires could be used). Maintaining the same length and the same hanging mass (constant L and T) keeps the other variables controlled. Measure the mass of each wire using a digital
 
 #### EXAMHINT
 balance,and itsfull length,inorderto calculate themassperunit lengthforeachwire orstringused.Wecanplot agraph
@@ -5326,22 +5439,22 @@ ANALYSIS
 |       1.00 |            115 |
 
 #### SKILLS
-tableADatafromasonometerexperiment.
+table A
+Data from a sonometer experiment.
 
 The hanging mass used was 2.4 kg .. T = 23.5 N.
 
-• 4. Estimatethemassperunit lengthofpianowire.
+• 4. Estimate the mass per unit length of piano wire.
 SUBJECT VOCABULARY
 
-stationaryorstandingwaveawavewhichhasoscillationsinafixed
+stationary or standing wave a wave which has oscillations in a fixed
+space, with regions of significant oscillation and regions with zero oscillation, which remain in the same locations at all times coherence waves which must have the same frequency and a constant phase relationship. Coherent waves are needed to form a stable standing wave
 
-space,withregionsofsignificantoscillationandregionswithzero oscillation,whichremaininthesamelocationsatalltimes coherencewaveswhichmusthavethesamefrequency anda constantphaserelationship.Coherentwavesareneededtoforma stablestandingwave
+progressive wave a means for transferring energy via oscillations nodes regions on a stationary wave where the amplitude of oscillation is zero
 
-progressivewave a meansfortransferring energyvia oscillations nodesregionsona stationarywavewherethe amplitudeof oscillationiszero
+antinodes regions on a stationary wave where the amplitude of oscillation is at its maximum
 
-antinodesregionsona stationarywavewherethe amplitudeof oscillationisatitsmaximum
-
-sonometeranapparatusforexperimentingwiththefrequency relationshipsofastringundertension,usuallyconsistingofa horizontal wooden soundingboxand a metal wirestretched along the topof thebox
+sonometer an apparatus for experimenting with the frequency relationships of a string under tension, usually consisting of a horizontal wooden sounding box and a metal wire stretched along the top of the box
 LEARNING OBJECTIVES
 
 • Understandwhatismeantbythetermdiffraction.
@@ -5406,28 +5519,32 @@ LEARNING TIP
 The grating spacing is often quoted as a number of linesper metre(orpermillimetre),which meansthattofinddyouwill needtodoaninitialcalculation in which:
 
 d = 1/number per metre
-Investigatingdiffractionwith alaser
 
-Youcanusea laserpointer or laboratory experimental laserto demonstrate diffraction.A diffractiongratinginvestigation allows careful studyof thelightmakingupthespectrumfrom anylight source.Astronomersuse thisto studythelightspectra fromstars.
+#### Investigatingdiffractionwith alaser
+Investigating diffraction with a laser
 
-• fig GA diffraction grating will produce a series of bright spots at increasing angles from the centre.
+You can use a laser pointer or laboratory experimental laser to demonstrate diffraction. A diffraction grating investigation allows careful study of the light making up the spectrum from any light source. Astronomers use this to study the light spectra from stars.
 
-Diffraction gratings are manufactured to have a fixed spacing,d, between lines on the grating, and this willbe printed on the grating. Bymeasuringtheangletoeachmaximumbrightnessspotcreatedby a diffractiongrating,youcan calculate thewavelength of the light used from the diffraction grating equation.
+• fig G A diffraction grating will produce a series of bright spots at increasing angles from the centre.
 
-fig HCDs have a series of very close lines marked on them and act as a diffraction grating that reflects.This causes the spectrum of colours that canbeseenonthemfromwhitelightthathitsthesurface.
+Diffraction gratings are manufactured to have a fixed spacing, d, between lines on the grating, and this will be printed on the grating. By measuring the angle to each maximum brightness spot created by a diffraction grating, you can calculate the wavelength of the light used from the diffraction grating equation.
 
-• 1.ln stormy seas, a sailor thought it would be a good idea to position his small boat behind a large oil tankerto avoid being hit by thewavesthatwerecomingfrom theothersideof thetanker. Explain why thisplan might not help.
+fig H CDs have a series of very close lines marked on them and act as a diffraction grating that reflects. This causes the spectrum of colours that can be seen on them from white light that hits the surface.
 
-• 2.(a)Explain why the radio waves from the two dishesinfig1 spreadout differentlyineachcase.
+• 1. In stormy seas, a sailor thought it would be a good idea to position his small boat behind a large oil tanker to avoid being hit by the waves that were coming from the other side of the tanker. Explain why this plan might not help.
 
-• (b)Suggest examples in which each situation in figI might be useful for different purposes.
-dishlargerthanwavelength
+• 2.(a) Explain why the radio waves from the two dishes in fig 1 spread out differently in each case.
 
-figIThe size of a radio transmitter can be important depending on its purpose.
+• (b) Suggest examples in which each situation in fig I might be useful for different purposes.
 
-• 3.Inanexperimenttoexaminethecoloursoflightproducedbyhot heliumgas,achemistuseda diffractiongrating,andfoundthe firstordermaximumforeachofthreecolourswereat anglesof 26.6°,30.1°and 36.0°.If the grating he used had 1000 lines per mm,whatwerethewavelengthsforthesethreecolours?
+#### dishlargerthanwavelength
+dish larger than wavelength
 
-• 4.90°isthelargest anglethroughwhichabrightspotmaximum produced by a diffraction grating can be observed, but we can onlyobserveamaximumforwhichnis aninteger.Forthe experimentinquestion3,calculatehowmanyorderswouldbe observedforeachofthethreecolours.
+fig I The size of a radio transmitter can be important depending on its purpose.
+
+• 3. In an experiment to examine the colours of light produced by hot helium gas, a chemist used a diffraction grating, and found the first order maximum for each of the three colours were at angles of 26.6°, 30.1° and 36.0°. If the grating he used had 1000 lines per mm, what were the wavelengths for these three colours?
+
+• 4. 90° is the largest angle through which a bright spot maximum produced by a diffraction grating can be observed, but we can only observe a maximum for which n is an integer. For the experiment in question 3, calculate how many orders would be observed for each of the three colours.
 SUBJECT VOCABULARY
 
 diffractionwhen a wavepasses closeby anobject or through a gap, the wave energy spreads out.
@@ -5461,27 +5578,29 @@ LEARNING TIP
 Thebrightanddarkspotsin lightinterferenceexperiments are often called'fringes.
 LEARNING TIP
 
-Two-sourceinterference and two-slitinterferencearethe samething.Inbothcases,two wavesarebroughttogetherto produceaninterference pattern.Two-slitinterferenceis aformoftwo-source interference,wheretheslits diffractexistingwavesinorder toactasnewsourcesofwaves.
+Two-source interference and two-slit interference are the same thing. In both cases, two waves are brought together to produce an interference pattern. Two-slit interference is a form of two-source interference, where the slits diffract existing waves in order to act as new sources of waves.
 PRACTICAL SKILLS
 
-Investigatingtwo-sourceinterference
+Investigating two-source interference
 
-figC Two-source interference demonstration in a ripple tank.
+fig C Two-source interference demonstration in a ripple tank.
 
-Arippletankwherewavesarediffracted throughtwogapswillcause aninterferencepatternbetweenthe twowaterwaves.
+A ripple tank where waves are diffracted through two gaps will cause an interference pattern between the two water waves.
 
-Anothercommonexperimentaldemonstrationoftwo-slitinterferenceiswithlaserlight.
+Another common experimental demonstration of two-slit interference is with laser light.
 
 bright spots
 
-fig DTwo-slitinterference demonstrationwith a laser.
+fig D Two-slit interference demonstration with a laser.
 
-SafetyNote:Rippletank:donothandleelectricalsockets,plugsandswitcheswithwethandsorsplash themwithwater.lfastrobelightisusedtofreezethewaveaction,personswithconditionsadversely affectedbyflashinglightsshouldbewarned.Laser:donotviewthelaserbeamdirectlyorreflectit into eyes.
-EXPLAININGTWO-SOURCEINTERFERENCE
+Safety Note: Ripple tank: do not handle electrical sockets, plugs and switches with wet hands or splash them with water. If a strobe light is used to freeze the wave action, persons with conditions adversely affected by flashing lights should be warned. Laser: do not view the laser beam directly or reflect it into eyes.
 
-fig EDifferent distances from each slit to point X determine the resultant amplitude of the standing wave at X.
+#### EXPLAININGTWO-SOURCEINTERFERENCE
+EXPLAINING TWO-SOURCE INTERFERENCE
 
-Each point in a two-source interference pattern will have a superposition result that depends on the phase differencebetween thewaves comingfrom each source to that point.That phase difference will,inturn,depend on therelativedistancesto thepointfrom each of theslitscomparedwith the wavelength. In fig E, imagine the distance from the slit to X along the blue line is 100 wavelengths, and thedistancealong theredlineis115wavelengths.Asthepath differenceisexactly 15 wavelengths, the waves will be in phase at point X, and will constructively interfere, to produce a wouldshowabrightspoton ascreenplaced there.
+fig E Different distances from each slit to point X determine the resultant amplitude of the standing wave at X.
+
+Each point in a two-source interference pattern will have a superposition result that depends on the phase difference between the waves coming from each source to that point. That phase difference will, in turn, depend on the relative distances to the point from each of the slits compared with the wavelength. In fig E, imagine the distance from the slit to X along the blue line is 100 wavelengths, and the distance along the red line is 115 wavelengths. As the path difference is exactly 15 wavelengths, the waves will be in phase at point X, and will constructively interfere, to produce a would show a bright spot on a screen placed there.
 THEBEHAVIOUROFWAVES
 
 Alternatively,imagine the blue line distance toXis 97wavelengthsbut thered line distance is 98.5 wavelengths. The path difference is 1.5wavelengths.In this case, the waves will always be 3π radians out of phase - always in antiphase - and so will always cancel. This would look like a standing wave node, and if it were the laser light two-slit experiment, there would be a dark spot at point X.
@@ -5499,17 +5618,17 @@ Points where the path difference is equal to nA exactly, will have a phase diffe
 Points where the path difference is equal to exactly, will have a phase difference of 2 (2n + 1) exactly and will be in antiphase, producing destructive interference.
 CHECKPOINT
 
-• 1.What are coherentwaves?
+• 1. What are coherent waves?
 
-• exactlyhalfwaybetweenthetwoslits.Adarkfringewasobservedoneithersideofthis,andthen anotherbrightfringeoneitherside.
+• exactly halfway between the two slits. A dark fringe was observed on either side of this, and then another bright fringe on either side.
 
-• (a)What isthephase differencebetweenthewaves arrivingfrom eachslit atthe central maximum?
+• (a) What is the phase difference between the waves arriving from each slit at the central maximum?
 
-• (b)Whatisthepathdifference,andthephasedifference,betweenwavesarrivingfromeachslittothe firstminimumontheleftofthecentralmaximum?
+• (b) What is the path difference, and the phase difference, between waves arriving from each slit to the first minimum on the left of the central maximum?
 
-• (c)Whatisthepathdifference,and thephasedifference,betweenthewavesarrivingfromeachslit at thefirstmaximumtotheleftofthecentralmaximum?
+• (c) What is the path difference, and the phase difference, between the waves arriving from each slit at the first maximum to the left of the central maximum?
 
-• (d)Describewhatdifferencewouldbeobservedinthefringepatternifthescreenweremovedfurther awayfrom the two slits.
+• (d) Describe what difference would be observed in the fringe pattern if the screen were moved further away from the two slits.
 SUBJECT VOCABULARY
 
 interference thesuperposition outcome of acombination of waves.An interferencepatternwill onlybeobservedundercertainconditions,suchasthewavesbeingcoherent
@@ -5559,24 +5678,28 @@ Now we will look at the physics in detail. Some of these questions link to topic
 • 4Looking at fig C,estimate the ratios of the surface area of the bars.Compare these answers with the decibel valuesfor each needed tohear each note on the graph infig D.Why might these be linked?
 ACTIVITY
 
-Write areporttoaschool Musicdepartmentwhichexplainshowtheycouldmakemarimba bars in lessons. Include some of the physics behind what will alter their sound properties, and includeoutlineplansformanufacturebyschool students.Alsoincludeinstructionsfor theteacherinchargeof thesubject,whilst theirlessonswill beforIGCSEstudents
+Write a report to a school Music department which explains how they could make marimba bars in lessons. Include some of the physics behind what will alter their sound properties, and include outline plans for manufacture by school students. Also include instructions for the teacher in charge of the subject, whilst their lessons will be for IGCSE students.
 
-INTERPRETATIONNOTE
+INTERPRETATION NOTE
 
-Thisisanextractof the article only.Youmayfindit helpful to visitthewebpageandbrowse itsdifferentsections.
-THINKING BIGGERTIP
+This is an extract of the article only. You may find it helpful to visit the webpage and browse its different sections.
 
-Thinkabouthowthevibrations ofthebarwillgeneratesound waves.
+#### THINKING BIGGERTIP
+THINKING BIGGER TIP
+
+Think about how the vibrations of the bar will generate sound waves.
 
 ## Topic 3: Waves and Particle Nature of Light
 
 ### 3B Exam practice
 
-3B EXAMPRACTICE
 
-• 1What is thewavelengthofthefundamental standingwave on a guitar string that is 74 cm long?
+#### 3B EXAMPRACTICE
+3B EXAM PRACTICE
 
-• 5Ina two-slit interference oflight experiment,dark and light fringes are observed on the screen in front of the two slits. What can you say about the light waves arriving from the two slits at any one of the dark fringes?
+• 1 What is the wavelength of the fundamental standing wave on a guitar string that is 74 cm long?
+
+• 5 In a two-slit interference of light experiment, dark and light fringes are observed on the screen in front of the two slits. What can you say about the light waves arriving from the two slits at any one of the dark fringes?
 
 • A The light waves are constructively interfering.
 
@@ -5584,16 +5707,18 @@ Thinkabouthowthevibrations ofthebarwillgeneratesound waves.
 
 • C The light waves travel the same path length from each slit.
 
-• A入=0.37m
+• A λ=0.37m
 
-• B入=0.74m
+• B λ=0.74m
 
-• C入=1.48m
+• C λ=1.48m
 
-• DA=2.96m
+• D λ=2.96m
 
 [1]
-(Total for Question 1 =1 mark)
+
+#### (Total for Question 1 =1 mark)
+(Total for Question 1 = 1 mark)
 
 • 2 Which of the following is not caused by wave superposition?
 
@@ -5602,34 +5727,27 @@ Thinkabouthowthevibrations ofthebarwillgeneratesound waves.
 [1]
 
 • A The fundamental note produced on a guitar string.
-
-• BSeismicP-waves cause surface damage beforeS-waves.
-
-• COccasionallya theatreseatcanbeina'deadzone'where little can be heard from the stage.
-
-• DCDs can have a rainbow appearance.
+• B Seismic P-waves cause surface damage before S-waves.
+• C Occasionally a theatre seat can be in a 'dead zone' where little can be heard from the stage.
+• D CDs can have a rainbow appearance.
 
 [1]
 
-(TotalforQuestion 2=1mark)
+(Total for Question 2 = 1 mark)
 
-• 3Which of these correctly represents the same phase position in different units?
+• 3 Which of these correctly represents the same phase position in different units?
 
-• A90°and πrad
-
-• B180°andπrad
-
-• C360°andπrad
-
-• D180°and2πrad
+• A 90° and π rad
+• B 180° and π rad
+• C 360° and π rad
+• D 180° and 2π rad
 
 [1]
 
 (Total for Question 3 = 1 mark)
 
-• 4Astudentdidexperimentstoshow thediffractionofdifferent types of waves.
-
-• Which row in the table correctly shows the experiment that wouldshowthegreatestdiffractioneffect?
+• 4 A student did experiments to show the diffraction of different types of waves.
+• Which row in the table correctly shows the experiment that would show the greatest diffraction effect?
 
 #### (Total for Question 3 = 1 mark)
 | Type ofwave   | Wavelength / m   | Gap size / m   |
@@ -5640,63 +5758,65 @@ Thinkabouthowthevibrations ofthebarwillgeneratesound waves.
 | sound         | 3.0              | 1.5            |
 (Total for Question 5 =1 mark)
 
-• 6When oilfloats onwater,coloured interferencepatterns are often seen. The interference patterns are formed because of the thinfilm ofoil.A thinfilm ofoil can alsoproduce interference patterns with monochromatic light. The diagram shows light from a monochromatic source,incident on a film of oil.
+• 6 When oil floats on water, coloured interference patterns are often seen. The interference patterns are formed because of the thin film of oil. A thin film of oil can also produce interference patterns with monochromatic light. The diagram shows light from a monochromatic source, incident on a film of oil.
 
-Explain why interference patterns maybe seen. [5]
-(TotalforQuestion6=5marks)
+Explain why interference patterns may be seen. [5]
 
-• 7In a school experiment, a laser is shone at right angles onto a diffraction grating to produce a pattern of light and dark spots on a screen several metres away. The grating is marked 500lines/mm'
+#### (TotalforQuestion6=5marks)
+(Total for Question 6 = 5 marks)
 
-• (a)What is the distance between slits on the diffraction grating?
+• 7 In a school experiment, a laser is shone at right angles onto a diffraction grating to produce a pattern of light and dark spots on a screen several metres away. The grating is marked 500 lines/mm'
+
+• (a) What is the distance between slits on the diffraction grating?
 
 [1]
 
-• (b)If the first bright spot from the centre is found tobe at an angle of15°fromthe original directionof thelaserbeam, whatisthewavelengthofthelight? [2]
+• (b) If the first bright spot from the centre is found to be at an angle of 15° from the original direction of the laser beam, what is the wavelength of the light? [2]
 
-• (c)Thelaseris changedfor a different onewhich has a wavelength of 450 nm.How many orders of bright spot will be generated by the diffraction grating?
+• (c) The laser is changed for a different one which has a wavelength of 450 nm. How many orders of bright spot will be generated by the diffraction grating?
 
 [3]
 
-(Total forQuestion 7 =6marks)
+(Total for Question 7 = 6 marks)
 
-• 8(a)A transverse wave travelling along a wire under tension has aspeedvgivenby
+• 8 (a) A transverse wave travelling along a wire under tension has a speed v given by
 
-v=六
+v = √(T/μ)
 
-where Tis the tension in the wire andu is the mass per unit length of thewire.
+where T is the tension in the wire and μ is the mass per unit length of the wire.
 
-Show that theunits onbothsidesoftheequation are the same.
+Show that the units on both sides of the equation are the same.
 
 [3]
 
 • (b) The diagram shows a wire held under tension by hanging weights at one end and supported by a vibration generator at the other end. The frequency of the vibration generator is slowly increased from zero until a standing wave is formed.
 
-• (i)Explain how the standing wave is produced.
+• (i) Explain how the standing wave is produced.
 
 [3]
 
-• (i) Calculate the wavelength of the standing wave.
+• (ii) Calculate the wavelength of the standing wave.
 
 [1]
 
-• (ii) The weight is 150 N and the mass per unit length of the wire is 0.0050 kg m-1. Using the equation given in (a), calculate the speed of the transversewave alongthewire.
-
-• [2]
-
-#### (TotalforQuestion6=5marks)
-• (iv) The wire is observed as the frequency of the vibration generator is steadily increased to several times the frequencythatproducedthefirststandingwave. Describe and explain what is seen as the frequency is increased. [4]
-
-(TotalforQuestion 8=13marks)
-
-• 9 (a)State what is meant by difraction.
+• (iii) The weight is 150 N and the mass per unit length of the wire is 0.0050 kg m-1. Using the equation given in (a), calculate the speed of the transverse wave along the wire.
 
 [2]
 
-• (b)State the principle of superposition of waves. [2]
+#### (TotalforQuestion6=5marks)
+• (iv) The wire is observed as the frequency of the vibration generator is steadily increased to several times the frequency that produced the first standing wave. Describe and explain what is seen as the frequency is increased. [4]
 
-• (c)The photograph shows a beach in England. Waves can unevensurfaceof thesandhasformed asaresultof diffraction andsuperpositionofthesewaves.
+(Total for Question 8 = 13 marks)
 
-• (d)Use the ideas of diffraction and superposition to explain why the sand surface becomes uneven.
+• 9 (a) State what is meant by diffraction.
+
+[2]
+
+• (b) State the principle of superposition of waves. [2]
+
+• (c) The photograph shows a beach in England. Waves can un even surface of the sand has formed as a result of diffraction and superposition of these waves.
+
+• (d) Use the ideas of diffraction and superposition to explain why the sand surface becomes uneven.
 
 [5]
 (TotalforQuestion9 =9marks)
@@ -5723,61 +5843,69 @@ S
 
 ### More wave properties of light
 
-TOPIC3 3WAVESANDTHEPARTICLE NATUREOFLIGHT
+
+#### TOPIC3 3WAVESANDTHEPARTICLE NATUREOFLIGHT
+TOPIC 3 WAVES AND THE PARTICLE NATURE OF LIGHT
 
 3C
-MOREWAVE PROPERTIESOFLIGHT
 
-compleximagingtechniques.Deepdrillingforoil explorationoften usesopticalfibrestogain an imageof the rockathundredsofmetres depth.Thesameimagingphysicsallows doctorstoviewinside theirpatientswithan endoscope.
+#### MOREWAVE PROPERTIESOFLIGHT
+MORE WAVE PROPERTIES OF LIGHT
 
-This chapterwill explainthe detailsofrefractionin differentmaterials and how thisleadsto thepropertiesof different types of lenses, aswell as total internal reflection in optical fibres.Broadband internet communications aremadepossibleby applying this idea.
+complex imaging techniques. Deep drilling for oil exploration often uses optical fibres to gain an image of the rock at hundreds of metres depth. The same imaging physics allows doctors to view inside their patients with an endoscope.
+
+This chapter will explain the details of refraction in different materials and how this leads to the properties of different types of lenses, as well as total internal reflection in optical fibres. Broadband internet communications are made possible by applying this idea.
 MATHS SKILLS FOR THIS CHAPTER
 
-• Substitutingnumericalvaluesintoalgebraicequations(e.g.finding therefractiveindex)
+• Substituting numerical values into algebraic equations (e.g. finding the refractive index)
 
-• Changing the subject of an equation(e.g.finding the critical angle)
+• Changing the subject of an equation (e.g. finding the critical angle)
 
-• Plotting two variables from experimental data(e.g. plotting a graph of experimental results of refraction in glass)
+• Plotting two variables from experimental data (e.g. plotting a graph of experimental results of refraction in glass)
 
-• Determining the slope of a lineargraph(e.g.using a graph of experimental results to find therefractive index of glass)
+• Determining the slope of a linear graph (e.g. using a graph of experimental results to find the refractive index of glass)
 
-• Identifying uncertaintiesin measurements and using simple techniquesto determine uncertainty (e.g.consideringtheuncertaintyofexperimental resultsinfinding therefractiveindexofglass)
-Whatpriorknowledge do I need? Topic2B
+• Identifying uncertainties in measurements and using simple techniques to determine uncertainty (e.g. considering the uncertainty of experimental results in finding the refractive index of glass)
 
-• Stressinmaterials
+#### Whatpriorknowledge do I need? Topic2B
+What prior knowledge do I need? Topic 2B
 
-Topic3A
+• Stress in materials
 
-• Definitionsofthepropertiesofwaves,suchas frequency,wavelengthandspeed
-Whatwill I study in this chapter?
+Topic 3A
 
-• Thedefinitionofrefraction,andhowtofind and calculatetherefractiveindex
+• Definitions of the properties of waves, such as frequency, wavelength and speed
 
-• Effectsontheproperties andmovementof awave due to changes in its medium
+#### Whatwill I study in this chapter?
+What will I study in this chapter?
 
-• Modelsofwavesandwaveprocesses
+• The definition of refraction, and how to find and calculate the refractive index
 
-• Calculationsofwavespeed
+• Effects on the properties and movement of a wave due to changes in its medium
 
-• The transmission ofwaves
+• Models of waves and wave processes
 
-• The phenomenonof total internal reflection
+• Calculations of wave speed
 
-• Thephenomenonofpolarisation,andsomeof its implicationsand applications
+• The transmission of waves
 
-Topic3D
+• The phenomenon of total internal reflection
 
-• Theproductionof lightofdifferentwavelengths
+• The phenomenon of polarisation, and some of its implications and applications
 
-• Interactionsof lightwithitsmediumatanatomic level
+Topic 3D
 
-• Intensityandpowerofalightsource
+• The production of light of different wavelengths
 
-Topic11B(Book2:IAL)
+• Interactions of light with its medium at an atomic level
 
-• Luminosityofa star
+• Intensity and power of a light source
 
-• Gravity'refracting'light
+Topic 11B (Book2:IAL)
+
+• Luminosity of a star
+
+• Gravity 'refracting' light
 LEARNING OBJECTIVES
 
 • Understandwhatismeantbyrefraction.
@@ -5800,17 +5928,17 @@ The values ofn and n are the refractive indicesineach medium. The values of0 and
 fig CDefining refraction.
 LEARNING TIP
 
-Inanyopticalsystem,lightrayswillfollowexactlythesamepathif theyaretransmittedbackfromtheendinthereversedirection.This meanstheanglesinvolvedinrefractionarethesamewhetherthe lightmovesfromthelessdensemediumintothemoredenseone and the opposite is also true.Remember though,apart from rays alongthenormalline,theangletothenormalwillalwaysbelargerin thelessdensemedium.
+In any optical system, light rays will follow exactly the same path if they are transmitted back from the end in the reversed direction. This means the angles involved in refraction are the same whether the light moves from the less dense medium into the more dense one and the opposite is also true. Remember though, apart from rays along the normal line, the angle to the normal will always be larger in the less dense medium.
 
-The changes in direction caused by refraction are the basis for the functioning of lenses,and canlead to optical illusions.
+The changes in direction caused by refraction are the basis for the functioning of lenses, and can lead to optical illusions.
 
-A measure ofthe amountofrefractioncausedbydifferent materialsis called therefractive index,anditssymbolis n.The refractive index, n, is equal to the ratio of the speed of light in a vacuum to the speed of light in the material:
+A measure of the amount of refraction caused by different materials is called the refractive index, and its symbol is n. The refractive index, n, is equal to the ratio of the speed of light in a vacuum to the speed of light in the material:
 
 n = c/v
 
-Whilst itis difficult tomeasure theunderlyingchangein thespeed atleastforlightwaves,theeffecton directioncanbemeasured easily.The relationship between direction and refractive index is given bySnell's law:
+Whilst it is difficult to measure the underlying change in the speed at least for light waves, the effect on direction can be measured easily. The relationship between direction and refractive index is given by Snell's law:
 
-nsinθ,= nsinθ2
+n₁sinθ₁ = n₂sinθ₂
 WORKED EXAMPLE
 
 Whatistheangleofrefractionwhenalightraypassesfromwater (n=1.33) intoglass(n2=1.50),hitting the interfacebetween the two at an angleof48°to thenormal?
@@ -5818,22 +5946,28 @@ Whatistheangleofrefractionwhenalightraypassesfromwater (n=1.33) intoglass(n2=1.5
 n₁sinθ₁ = n₂sinθ₂ sinθ₂ = (n₁sinθ₁)/n₂ sinθ₂ = (1.33 × sin 48°)/1.50 = 0.659 θ₂ = sin⁻¹ 0.659 θ₂ = 41.2°
 EXAM HINT
 
-Note that thesteps and layoutofthesolutioninthis workedexamplearesuitable forrefractionquestionsin theexam.
-Investigatingrefractiveindex
+Note that the steps and layout of the solution in this worked example are suitable for refraction questions in the exam.
 
-Usingtheequationforrefractiveindexwithexperimental measurementswillallowustomeasuretherefractiveindexofa material,aslongasweknownfortheothermaterial.Weusuallydo theseexperimentswith airastheknownmaterial.Asthespeedof lightinairis almostthesameasinavacuum,wetaketherefractive index of air to be nair = 1.00.
+#### Investigatingrefractiveindex
+Investigating refractive index
 
-figDMeasuring anglesof incidence and refraction in ordertofind the refractiveindexofamaterial
+Using the equation for refractive index with experimental measurements will allow us to measure the refractive index of a material, as long as we know n for the other material. We usually do these experiments with air as the known material. As the speed of light in air is almost the same as in a vacuum, we take the refractive index of air to be n_air = 1.00.
 
-Usingasetuplikethatshown infigD,wecan takeseveraldifferent measurements of the angleof incidence(e,)and the corresponding angleofrefraction(θ2).Theblockused shouldbe an exact semicircle, andweaimtheraytomeettheglassatexactlythemidpointof the flat side.This means that the ray passing through theblock will be travellingalongaradiusofthesemicircle,andwillleavetheglass exactly alongthenormal to thecircularedge.Sotheonlychange in direction occurs at theflatside of theblock.Comparingthe equation wehaveforrefractiveindexwith the equationforastraightline:
+fig D Measuring angles of incidence and refraction in order to find the refractive index of a material
 
-n₁sinθ₁ = n₂sinθ₂ n₁ = 1.00 ∴ sinθ₁ = n₂ sinθ₂ ∴ sinθ₂ = sinθ₁/n₂ y = mx + c
+Using a setup like that shown in fig D, we can take several different measurements of the angle of incidence (θ₁) and the corresponding angle of refraction (θ₂). The block used should be an exact semicircle, and we aim the ray to meet the glass at exactly the midpoint of the flat side. This means that the ray passing through the block will be travelling along a radius of the semicircle, and will leave the glass exactly along the normal to the circular edge. So the only change in direction occurs at the flat side of the block. Comparing the equation we have for refractive index with the equation for a straight line:
 
-Aplot of sin0onthey-axis against sinθ,on thex-axis should producea straightbest-fit line thatpasses through theorigin.The gradient,m,of thislinewillbeequaltothereciprocalof therefractive index for glass.
+n₁sinθ₁ = n₂sinθ₂
+n₁ = 1.00
+∴ sinθ₁ = n₂ sinθ₂
+∴ sinθ₂ = sinθ₁/n₂
+y = mx + c
+
+A plot of sinθ₂ on the y-axis against sinθ₁ on the x-axis should produce a straight best-fit line that passes through the origin. The gradient, m, of this line will be equal to the reciprocal of the refractive index for glass.
 
 ∴ n_glass = 1/m
 
-SafetyNote:Therayboxmaygethotenough toburn skin.Donot knockglassblocks together as sharp chips mayfly off and cause injury.
+Safety Note: The ray box may get hot enough to burn skin. Do not knock glass blocks together as sharp chips may fly off and cause injury.
 
 DISPERSION
 
@@ -5868,15 +6002,15 @@ CHECKPOINT
 • 3.When light travels from air into glass (nglass = 1.50) with an incident angle of 25°,what is theangle of refraction inside the glass?
 SUBJECT VOCABULARY
 
-refractionachangeinwavespeedwhenthewavemovesfrom onemediumtoanother.Thereisacorrespondingchangeinwave direction,governedbySnell'slaw
+refraction a change in wave speed when the wave moves from one medium to another. There is a corresponding change in wave direction, governed by Snell's law
 
-refractiveindex,n,theamountthatamaterialchangesthespeedof waveswhen theypassthroughthematerial from a differentmaterial:
+refractive index, n, the amount that a material changes the speed of waves when they pass through the material from a different material:
 
 n₁sinθ₁ = n₂sinθ₂
 
-Snell'slawthevaluesofnandnaretherefractiveindicesineach medium,andthevaluesofθ,andaretheanglesthattheraymakes to thenormaltotheinterfacebetweenthetwomedia,atthepoint theray meets thatinterface:
+Snell's law the values of n₁ and n₂ are the refractive indices in each medium, and the values of θ₁ and θ₂ are the angles that the ray makes to the normal to the interface between the two media, at the point the ray meets that interface:
 
-nsinθ=n2sinθ2
+n₁sinθ₁ = n₂sinθ₂
 LEARNING OBJECTIVES
 
 • Understandthatwavescanbereflectedand transmittedataninterfacebetweenmedia
@@ -5884,19 +6018,21 @@ LEARNING OBJECTIVES
 • Understand the term critical angle.
 
 • Predictwhethertotalinternalreflectionwilloccurat an interface.
-PARTIALREFRACTION
 
-When waves pass from one medium into another, some wave energy will pass through and somewill be reflected.The proportions will depend on the amount of refraction and the angle of incidence.
+#### PARTIALREFRACTION
+PARTIAL REFRACTION
 
-In thediagramsoffigBwecanseearayoflighttryingtoleave an optically more dense medium. In these examples, the partial reflectionisnot drawn.Thefirst diagram shows simplerefraction, for which we could use Snell's law to make some calculations. The angle in the less dense medium is greater than the incident angleinsidethemoredensemedium.Inthesecond diagram,the incident angle has been increased.FromSnell's law,we find that at this criticalangle,theraywouldemergeintheless dense interface.If the anglewithin themore densemedium isincreased further, the emergent angle should increase also,but this would then be greater than 90°. This means the ray emerges within the more dense medium. This is not refraction, as that requires a change in medium. This means that Snell's law cannot apply. In this case, what happens is that all the wave energy is reflected insidethemoredensemedium,and the anglesfollow thelaw of reflection. This is total internal reflection (TIR).
+When waves pass from one medium into another, some wave energy will pass through and some will be reflected. The proportions will depend on the amount of refraction and the angle of incidence.
 
-/islessthancriticalangle
+In the diagrams of fig B we can see a ray of light trying to leave an optically more dense medium. In these examples, the partial reflection is not drawn. The first diagram shows simple refraction, for which we could use Snell's law to make some calculations. The angle in the less dense medium is greater than the incident angle inside the more dense medium. In the second diagram, the incident angle has been increased. From Snell's law, we find that at this critical angle, the ray would emerge in the less dense interface. If the angle within the more dense medium is increased further, the emergent angle should increase also, but this would then be greater than 90°. This means the ray emerges within the more dense medium. This is not refraction, as that requires a change in medium. This means that Snell's law cannot apply. In this case, what happens is that all the wave energy is reflected inside the more dense medium, and the angles follow the law of reflection. This is total internal reflection (TIR).
 
-iequalscritical angle
+/is less than critical angle
 
-angleof incidence greater thancritical angle
+i equals critical angle
 
-figBMovingfromrefractiontototal internalreflection.
+angle of incidence greater than critical angle
+
+fig B Moving from refraction to total internal reflection.
 CRITICALANGLECALCULATIONS
 
 FromSnell's law,we could find the critical angle for a material: nsinθ=nsinθ2
@@ -5927,19 +6063,21 @@ Fig C shows the movement of light through 45°prisms.The left-hand example is co
 figCTotal internal reflection helps us direct light usefully
 
 A more complexuse forTIR is in fibre optics.A thin glass fibre can guidelight along itslengthby therepeated TIR at the internal edges.This may just be used for decorative lighting,Fibre optics can be used to guide sunlight to the interior of large buildings. Alternatively,optical fibres can be used to carry information as light pulses (as in fibre broadband) or as actual images (in uses such as a medical endoscope - see fig E).
-Investigatingtotalinternalreflection
 
-Using a setup like that shown in fig D,we can steadilyincrease the angleof incidence（θ,)withinthemoredenseglassandobserve the emerging angle ofrefraction(02) in the air.As the angle inside the glassincreases,wewill seeapartialreflectionoftheraywithinthe glassgrowingstrongerin intensity,until the critical angle isreached inside the glass.
+#### Investigatingtotalinternalreflection
+Investigating total internal reflection
 
-fig DMeasuring angles of incidence and refraction in order to find the critical angle andrefractive indexforglass.
+Using a setup like that shown in fig D, we can steadily increase the angle of incidence (θ₁) within the more dense glass and observe the emerging angle of refraction (θ₂) in the air. As the angle inside the glass increases, we will see a partial reflection of the ray within the glass growing stronger in intensity, until the critical angle is reached inside the glass.
 
-Theblockusedshouldbeanexactsemicircle,andweaimtherayto travel throughtheglassandhitexactlythemidpointoftheflatside. This means that the ray passing through the glass will be travelling alongaradiusofthesemicircleandwillhaveenteredtheglassexactly alongthenormal tothecircularedge.Sotheonlychangeindirection occursattheflatsideoftheblock.Bycarefullyrecordingthecritical angle,whenthelightemerges,wecancalculatetherefractiveindex for the glass.
+fig D Measuring angles of incidence and refraction in order to find the critical angle and refractive index for glass.
 
-Safety Note:The raybox may get hot enough to burn skin.Do not knockglass blockstogether as sharp chipsmayfly off and cause injury.
+The block used should be an exact semicircle, and we aim the ray to travel through the glass and hit exactly the midpoint of the flat side. This means that the ray passing through the glass will be travelling along a radius of the semicircle and will have entered the glass exactly along the normal to the circular edge. So the only change in direction occurs at the flat side of the block. By carefully recording the critical angle, when the light emerges, we can calculate the refractive index for the glass.
+
+Safety Note: The raybox may get hot enough to burn skin. Do not knock glass blocks together as sharp chips may fly off and cause injury.
 
 reflected light
 
-• figEAmedical endoscope isused toview thebody'sinternal organs without cutting the patient open. Light is sent in along one optic fibre, and the reflection is carried away along the other for viewing by medical staff.
+• fig E A medical endoscope is used to view the body's internal organs without cutting the patient open. Light is sent in along one optic fibre, and the reflection is carried away along the other for viewing by medical staff.
 SKILLS INTERPRETATION, ADAPTIVELEARNING
 
 • 1. What isthemeaningof theterm critical angle?
@@ -5951,16 +6089,16 @@ SKILLS INTERPRETATION, ADAPTIVELEARNING
 • Explainwhyfishcanobservepredatorbirdsinanypartof the skybyonlyviewinga cone above them,asshown infigF.
 SUBJECT VOCABULARY
 
-critical anglethelargestangleofincidencethatarayinamore opticallydensemediumcanhaveandstill emergeinto alessdense medium.Beyondthisangle,theraywillbetotallyinternallyreflected total internalreflection(TiR)wavesreflectbackintothesame mediumataboundarybetweentwomedia.Thisrequirestwo conditionstobemet:
+critical angle the largest angle of incidence that a ray in a more optically dense medium can have and still emerge into a less dense medium. Beyond this angle, the ray will be totally internally reflected total internal reflection (TiR) waves reflect back into the same medium at a boundary between two media. This requires two conditions to be met:
 
-• theray is attempting toemergefrom themore densemedium
+• the ray is attempting to emerge from the more dense medium
 
-• theanglebetweentherayand thenormal totheinterfaceisgreater thanthecriticalangle
+• the angle between the ray and the normal to the interface is greater than the critical angle
 LEARNING OBJECTIVES
 
-• Understandwhat ismeantbyplanepolarisation.
+• Understand what is meant by plane polarisation.
 
-• Describe howpolarisationcanbe usedwithmodels toinvestigatestressesinstructures.
+• Describe how polarisation can be used with models to investigate stresses in structures.
 PLANEPOLARISATION
 
 Transversewaveshaveoscillations atright anglesto thedirection of motion. In many cases, the plane of these oscillations might be in one fixed orientation.Fig A shows the electric (red) and magnetic(blue)fieldsin anelectromagneticwave.In this example of a light wave,the electric fields only oscillate in the vertical plane. The wave is said tobe plane polarised or, moreprecisely, the electricfield's oscillations is the one that defines itsplane of polarisation.
@@ -5970,7 +6108,7 @@ figAApolarisedelectromagneticwave.
 Often, many waves travel together, with oscillations in a variety of planes.In this case,lightfrom this source is said tobeunpolarised. This is how light emerges from a light bulb, a candle and the sun.
 LEARNING TIP
 
-Polarisationisonlypossiblewithtransversewaves.Ifawaveis polarised,itmustbeatransversewave.
+Polarisation is only possible with transverse waves. If a wave is polarised, it must be a transverse wave.
 POLARISINGFILTERS
 
 Unpolarisedradiation can bepassed through a filter that will transmit only thosewaves that are polarised in a particular plane. Waves on a stringcould be polarised simplyby passing the string through a card with a slit in it,whichwill then only allow oscillations to pass through if they are in line with the slit. For light waves,thepolariserisapieceofplasticsoakedwithchemicals with longchainmolecules,called aPolaroid sheet.ThePolaroid filter will only allow light waves to pass if their electric field oscillations are orientated in one direction.
@@ -5980,33 +6118,37 @@ fig BPolaroid filters transmit light waves if their plane of polarisation matche
 Fig B illustrates the effects ofPolaroid filters on light from a bulb. It starts unpolarised,with vibrations in all directions. The first filter only permits vertical vibrations,so they are selected, and the lightistransmittedverticallyplanepolarised.Thesecondfilter is oriented in the samevertical direction,and the light will pass through thiswithout change.ThethirdPolaroidfilteris oriented horizontally. This blocks vertically polarised light, and so no waves are transmitted beyond it.The second and thirdfilters arereferred to as'crossed Polaroids', as their orientations are at right angles and, together, they will always block all light.
 Investigating structural stresses
 
-WecanusecrossedPolaroidstoobservestressconcentrationsin clearplasticsamples.
+We can use crossed Polaroids to observe stress concentrations in clear plastic samples.
 
-figC Stress analysis using crossed Polaroids.
+fig C Stress analysis using crossed Polaroids.
 
-ThefirstPolaroidproducespolarised light,whichpassesinto the plasticsample.Stressedareashavetheirmoleculesinslightlydifferent orientations,and thiswillaffectthepassageof thelightthroughthe plastic.Thiseffectvarieswiththecolourof thelight.Whenthesecond Polaroid actsontheemerginglight,someof thelightwillhave travelledslightlymoreslowlythroughtheplasticandwill destructivelyinterferewithotherlightwavesof thesamecolour. Thus,dependingonthedegreeof stressintheplastic,thecolours that emergewillvary.Differentlystressedareasappearasdifferentcolours through the secondPolaroid.Changing the stresses on the plastic will alter the internal stresses,and the interference pattern will change. Engineersusethistoseestressconcentrationsinmodelsof
+The first Polaroid produces polarised light, which passes into the plastic sample. Stressed areas have their molecules in slightly different orientations, and this will affect the passage of the light through the plastic. This effect varies with the colour of the light. When the second Polaroid acts on the emerging light, some of the light will have travelled slightly more slowly through the plastic and will destructively interfere with other light waves of the same colour. Thus, depending on the degree of stress in the plastic, the colours that emerge will vary. Differently stressed areas appear as different colours through the second Polaroid. Changing the stresses on the plastic will alter the internal stresses, and the interference pattern will change. Engineers use this to see stress concentrations in models of
 
-structures,and to observe how the stress concentrations change when the amountof stresschanges.This allows them to alterthe design to strengthen a structure in regions of highest stress.
+structures, and to observe how the stress concentrations change when the amount of stress changes. This allows them to alter the design to strengthen a structure in regions of highest stress.
 
-fig DEngineering stress analysis using crossed Polaroids.
-POLARISATIONBYREFLECTIONANDREFRACTION
+fig D Engineering stress analysis using crossed Polaroids.
 
-Whenunpolarised lightreflectsfrom a surface,such as aroad,the waves will become polarised. The degree of polarisation depends on the angle ofincidence,but it is always tendingtowards horizontal plane polarisation, as shown in fig E. Sunglasses often have lenses withPolaroid filters.ThePolaroid filters will block light that is horizontally polarised. If a driver has these, then they will blockpolarised light reflectedfrom theroad.This makesiteasier for a driver to see clearly.
+#### POLARISATIONBYREFLECTIONANDREFRACTION
+POLARISATION BY REFLECTION AND REFRACTION
+
+When unpolarised light reflects from a surface, such as a road, the waves will become polarised. The degree of polarisation depends on the angle of incidence, but it is always tending towards horizontal plane polarisation, as shown in fig E. Sunglasses often have lenses with Polaroid filters. The Polaroid filters will block light that is horizontally polarised. If a driver has these, then they will block polarised light reflected from the road. This makes it easier for a driver to see clearly.
 
 unpolarised incident light
 
-polarisedreflected light
+polarised reflected light
 
-fig EReflection can polarise waves.
+fig E Reflection can polarise waves.
 
-Light waves incident on a surface into which they can refract (see Section3C.1),such as a pond,will reflectpartiallyhorizontally polarised light as in fig E, but will also transmit partiallyvertically polarised light into the new medium, as in fig F.
+Light waves incident on a surface into which they can refract (see Section 3C.1), such as a pond, will reflect partially horizontally polarised light as in fig E, but will also transmit partially vertically polarised light into the new medium, as in fig F.
 
-fig FRefraction can polarise waves.
-POLARISATIONBYCHEMICALSOLUTIONS
+fig F Refraction can polarise waves.
 
-The analysis of stress concentrations investigated above worksbecausedifferentpartsoftheplasticmodelhavedifferent effects onpolarised light.This is also the case withsome chemicals, such as sugarsolution.The amount of the concentration of the sugarsolutionvaries the angletowhich it rotatesthepolarisation ofthelight.Wecan usePolaroid filtersto analysethestrength polarisation emerges after passing through the solution.
+#### POLARISATIONBYCHEMICALSOLUTIONS
+POLARISATION BY CHEMICAL SOLUTIONS
 
-• figGSugar solutions canrotate theplane of polarisation.The degree of polarisation on a particular wavelength (colour) depends on the concentration of the solution, and how far the light has had topass through it. This gives rise to the changing colours seen along the length of this tube of sugar solution.
+The analysis of stress concentrations investigated above works because different parts of the plastic model have different effects on polarised light. This is also the case with some chemicals, such as sugar solution. The amount of the concentration of the sugar solution varies the angle to which it rotates the polarisation of the light. We can use Polaroid filters to analyse the strength polarisation emerges after passing through the solution.
+
+• figG Sugar solutions can rotate the plane of polarisation. The degree of polarisation on a particular wavelength (colour) depends on the concentration of the solution, and how far the light has had to pass through it. This gives rise to the changing colours seen along the length of this tube of sugar solution.
 SKILLS CRITICALTHINKING
 
 • 1. Silbabsaysthathehasa'soundwavepolariser'onhisnew musicsystem.Explainwhyhisclaimisincorrect.
@@ -6018,42 +6160,46 @@ SKILLS CRITICALTHINKING
 • 4 Explainthebenefitsofbeingabletousepolarisationtoanalyse stress concentrations in engineering models.
 EXAM HINT
 
-Whenaskedabouttheorientationofpolarisingfilters,thinkcarefully aboutwhetheryouwanttoblockthelight,orforthefiltertotransmitit.
+When asked about the orientation of polarising filters, think carefully about whether you want to block the light, or for the filter to transmit it.
 SUBJECT VOCABULARY
 
-polarisationtheorientationoftheplaneofoscillationofa transverse wave.Ifthewaveis(plane)polarised,all itsoscillationsoccurinone singleplane
-GLASSFORENSICS
+polarisation the orientation of the plane of oscillation of a transverse wave. If the wave is (plane) polarised, all its oscillations occur in one single plane
 
-CRITICALTHINKING,PROBLEMSOLVING,CREATIVITYPRODUCTIVITY
+#### GLASSFORENSICS
+GLASS FORENSICS
 
-Refractiveindicescanbedetermined toseveral decimalplaces,and tinyvariationscanhighlightvery small differences inthe compositionsofmaterialslikeglass.
+CRITICAL THINKING, PROBLEM SOLVING, CREATIVITY PRODUCTIVITY
 
-In this activity,wewill lookatsomeideas about identifyingglassincrimesceneinvestigations.
+Refractive indices can be determined to several decimal places, and tiny variations can highlight very small differences in the compositions of materials like glass.
+
+In this activity, we will look at some ideas about identifying glass in crime scene investigations.
 Introduction
 
-Glasscanbefoundinmost places.It is producedin a wide variety offorms and compositions,and these affect the properties of this material. It can occur as evidence when it is broken during a crime.Brokenglassfragments ranging in sizefromlarge pieces totinyfragments maybetransferred to andretained bynearbypersonsor objects.Thepresence offragmentsofglassontheclothingof an allegedburglar inacaseinvolvingentrythroughabrokenwindowmaybe importantevidenceif fragments arefound.Theimportance of suchevidencewillbeenhanced if thefragments arefound to have the same properties as the broken window. However, if the recoveredfragmentsaredifferentintheirmeasuredproperties fromtheglassfromthebrokenwindow,thenthatwindowcan be eliminated as apossiblesource of theglass on thesubject's clothing (Koons et al. 2002).
+Glass can be found in most places. It is produced in a wide variety of forms and compositions, and these affect the properties of this material. It can occur as evidence when it is broken during a crime. Broken glass fragments ranging in size from large pieces to tiny fragments may be transferred to and retained by nearby persons or objects. The presence of fragments of glass on the clothing of an alleged burglar in a case involving entry through a broken window may be important evidence if fragments are found. The importance of such evidence will be enhanced if the fragments are found to have the same properties as the broken window. However, if the recovered fragments are different in their measured properties from the glass from the broken window, then that window can be eliminated as a possible source of the glass on the subject's clothing (Koons et al. 2002).
 
-figACrystalswithdifferingrefractiveindicesviewedwithin an oil bath with refractive index,n= 1.54.Those with higher or lower refractive indexare easilyvisible,whereas the quartzwith thesamerefractive indexisvirtuallyinvisible.
-OpticalProperties
+fig A Crystals with differing refractive indices viewed within an oil bath with refractive index, n= 1.54. Those with higher or lower refractive index are easily visible, whereas the quartz with the same refractive index is virtually invisible.
 
-Refractive index is a function of chemical composition and atomic arrangement(Stoiber and Morse1981).Refractive index is the most commonly measured property in the forensic examinationofglassfragments(Koonsetal.2002),because:
+#### OpticalProperties
+Optical Properties
 
-• ·It can bemeasured quickly from small pieces.
+Refractive index is a function of chemical composition and atomic arrangement (Stoiber and Morse 1981). Refractive index is the most commonly measured property in the forensic examination of glass fragments (Koons et al. 2002), because:
+
+• ·It can be measured quickly from small pieces.
 
 • ·It can aid in the characterization of glass.
 
-• It provides agood chance toidentify theglass exactly. (Koons et al.2002)
+• It provides a good chance to identify the glass exactly. (Koons et al. 2002)
 
-Immersionmethods are used tomeasurerefractiveindexin somelaboratories.Thesemethodstake advantage of thefact that when usingmonochromatic light,a particleimmersed in a liquid ofidenticalrefractiveindexwillbecomeinvisible(Bloss1961).
+Immersion methods are used to measure refractive index in some laboratories. These methods take advantage of the fact that when using monochromatic light, a particle immersed in a liquid of identical refractive index will become invisible (Bloss 1961).
 
-In thismethod,avideocamera captures theimage of theparticle edge,and a computer calculatesthepointofminimumcontrast -thematchpoint-across theparticleedgewhile automatically varyingthetemperature.Thetemperatureis adjustedsothat therefractiveindexoftheliquidishigherthanthatofthe glasssample.Theinstrument lowersthe temperature of the preparation through the match point for the glass.The contrast between thefragment and theliquid is monitored,and thematch point is noted automatically.Therefractive index of the sample is calculated automaticallyfromtemperaturecalibration data.
+In this method, a video camera captures the image of the particle edge, and a computer calculates the point of minimum contrast - the match point - across the particle edge while automatically varying the temperature. The temperature is adjusted so that the refractive index of the liquid is higher than that of the glass sample. The instrument lowers the temperature of the preparation through the match point for the glass. The contrast between the fragment and the liquid is monitored, and the match point is noted automatically. The refractive index of the sample is calculated automatically from temperature calibration data.
 Interpretations/Conclusions
 
-Thevariations of theproperties ofglasswithin asinglesource are usually small (Bottrell et al.2007),typicallybelow the resolving power of the techniques used to measure them. The variation among glass objects from different sources can be observed and measured(Hickman1983;Koons et al.1988; Koons andBuscaglia1999;Koons andBuscaglia 2002)and are usuallymuchgreaterthanthevariationwithinasingleobject.
+The variations of the properties of glass within a single source are usually small (Bottrell et al. 2007), typically below the resolving power of the techniques used to measure them. The variation among glass objects from different sources can be observed and measured (Hickman 1983; Koons et al. 1988; Koons and Buscaglia 1999; Koons and Buscaglia 2002) and are usually much greater than the variation within a single object.
 
-figBAforensiclabrefractometer.
+fig B A forensic lab refractometer.
 
-ByMaureenBottrell,fromForensicScienceCommunications,April2009-Volume11-Number 2, publishedby theFederal Bureau ofInvestigation,Quantico,Virginia,USA
+By Maureen Bottrell, from Forensic Science Communications, April 2009 - Volume 11 - Number 2, published by the Federal Bureau of Investigation, Quantico, Virginia, USA
 SCIENCECOMMUNICATION
 
 • 1The extract opposite is from a paperin a scientific journal on theforensic labinvestigations that canbe done onglass.
@@ -6063,25 +6209,25 @@ SCIENCECOMMUNICATION
 • (b) Is there any bias present in the report? Explain how you decided on your answer to this
 PHYSICS IN DETAIL
 
-Nowwewill look at thephysicsindetail.Some of thesequestionslinktotopicsearlierin this book, so you may need to combine concepts from different areas of physics to work out the answers.
+Now we will look at the physics in detail. Some of these questions link to topics earlier in this book, so you may need to combine concepts from different areas of physics to work out the answers.
 
-• 2Explainwhy a crystal inoil will becomeinvisible if the twohave identical refractive indices.
+• 2 Explain why a crystal in oil will become invisible if the two have identical refractive indices.
 
-• 3Why will a change in the temperature of oil change its refractive index?
+• 3 Why will a change in the temperature of oil change its refractive index?
 
-• 4Why does a refractometer need a powerful microscope system as part of its set up?
+• 4 Why does a refractometer need a powerful microscope system as part of its set up?
 
-• 50 Glassorplasticfrom differentsunglasses lensescanoftenhave identicalrefractive indices. Suggest another method by which two large (>1 cm²) pieces of glass from different sunglassescouldbeidentified tomatch upwith theiroriginal owners.
+• 50 Glass or plastic from different sunglasses lenses can often have identical refractive indices. Suggest another method by which two large (>1 cm²) pieces of glass from different sunglasses could be identified to match up with their original owners.
 ACTIVITY
 
-TheYoungmoduluscanbeaffectedby the atomicimpurities in a material.Prepare a setof experimental instructionsfor usebya forensiclabtechnician.These are tohelp the technician suspectwithasamplefrom abrokenwindow.Explainwhatquantitiesshouldbemeasured, howto analyse themeasurementsto determine theYoungmodulus,andwhat level of accuracy shouldbe expected in the comparisons.Include instructionsfor thepreparation of the sample, includingcuttingtothebestsizeandshape.
+The Young modulus can be affected by the atomic impurities in a material. Prepare a set of experimental instructions for use by a forensic lab technician. These are to help the technician suspect with a sample from a broken window. Explain what quantities should be measured, how to analyse the measurements to determine the Young modulus, and what level of accuracy should be expected in the comparisons. Include instructions for the preparation of the sample, including cutting to the best size and shape.
 
 WRITING SCIENTIFICALLY
 
-Asyou read these articles, identifyeverythingthat contributestowritinga scientificarticle.Forexample thevocabulary,sources,theway informationispresented.Make sureyourownanswersare writtenscientifically.
+As you read these articles, identify everything that contributes to writing a scientific article. For example the vocabulary, sources, the way information is presented. Make sure your own answers are written scientifically.
 THINKING BIGGER TIP
 
-RememberthattheYoung moduluscanbedeterminedas the stiffness constant fora material incompressionaswell asfor onein tension.
+Remember that the Young modulus can be determined as the stiffness constant for a material in compression as well as for one in tension.
 
 ## Topic 3: Waves and Particle Nature of Light
 
@@ -6089,38 +6235,40 @@ RememberthattheYoung moduluscanbedeterminedas the stiffness constant fora materi
 
 3C EXAM PRACTICE
 
-• 1Which of these is the correct unit for refractive index?
+• 1 Which of these is the correct unit for refractive index?
 
-• 2What isthe critical angleforPerspexwhichhas a refractive index of 1.48?
+• 2 What is the critical angle for Perspex which has a refractive index of 1.48?
 
-• (a)Add to thediagram thepathof thebluelight afteritmeets the second face. Label this path X.
+• (a) Add to the diagram the path of the blue light after it meets the second face. Label this path X.
 
 A
 
-• B ms-1
+• B m/s
 
 • C
 
 • D no units
 
 [1]
-(Total for Question 1 =1 mark)
 
-• A0.026°
+#### (Total for Question 1 =1 mark)
+(Total for Question 1 = 1 mark)
 
-• B0.74°
+• A 0.026°
+
+• B 0.74°
 
 • C 42.5°
 
-• D47.5°
+• D 47.5°
 
 [1]
 
-(Total for Question 2 =1mark)
+(Total for Question 2 = 1 mark)
 
 [1]
 
-• (b)(i) The speed of blue light in the glass prism is 1.96 × 108m s-1. Calculate therefractiveindex ofthisglassforblue light.
+• (b)(i) The speed of blue light in the glass prism is 1.96 × 10⁸ m s⁻¹. Calculate the refractive index of this glass for blue light.
 
 • (i) Calculate the critical angle for blue light in this glass prism.
 
@@ -6128,9 +6276,9 @@ A
 
 • (c) The refractive index of this glass for red light is less than for blue light. Add to the diagram to complete the path of the red light through the prism. Label this path Y. [2]
 
-• 3A student did an experiment to measure the critical angle in a glass block.
+• 3 A student did an experiment to measure the critical angle in a glass block.
 
-• Whichrow in the table correctly shows thereadingsfor which he could find the critical angle.
+• Which row in the table correctly shows the readings for which he could find the critical angle.
 
 #### (Total for Question 1 =1 mark)
 |   Angle of incident ray/° |   Angle ofresultingray/° |
@@ -6139,15 +6287,17 @@ A
 |                        24 |                       45 |
 |                        42 |                       90 |
 |                        57 |                       57 |
-(Total for Question 3 =1mark)
 
-• 4Which of thefollowing cannot be experimentally demonstrated withsoundwaves?
+#### (Total for Question 3 =1mark)
+(Total for Question 3 = 1 mark)
+
+• 4 Which of the following cannot be experimentally demonstrated with sound waves?
 
 • A Diffraction
 
 • B Polarisation
 
-• CTwosourceinterference
+• C Two source interference
 
 • D Ultrasound
 
@@ -6155,67 +6305,73 @@ A
 (Total for Question 4 = 1 mark)
 
 • 5Twoparallel rays of light,oneblue,one red,aretravellingin air and are incident on one side of a glass prism.Thebluelight passes into the prism and meets the second face at the critical angle as shown in the diagram.
-(TotalforQuestion5=7marks)
 
-• 6If you look into a fish pond on a bright sunny day, you sometimes cannotsee thefishbecause of theglareof light reflectedoffthe surface.When thesunlight isreflected off the surface ofthewater it isplane-polarised.
+#### (TotalforQuestion5=7marks)
+(Total for Question 5 = 7 marks)
 
-• (a)State the difference between plane-polarised and unpolarised light. [1]
+• 6 If you look into a fish pond on a bright sunny day, you sometimes cannot see the fish because of the glare of light reflected off the surface. When the sunlight is reflected off the surface of the water it is plane-polarised.
 
-• (b)Explain howPolaroid sunglasses can enable the fish to be seen.
+• (a) State the difference between plane-polarised and unpolarised light. [1]
+
+• (b) Explain how Polaroid sunglasses can enable the fish to be seen.
 
 [3]
 
-• (c)State why sound waves cannot be polarised.
+• (c) State why sound waves cannot be polarised.
 
 [1]
-(TotalforQuestion6=5marks)
 
-• 7A student carries out an experiment to measure the refractive index of glass. He does this by shining a ray of light through a semicircularglassblock and intothe air asshown.
+#### (TotalforQuestion6=5marks)
+(Total for Question 6 = 5 marks)
+
+• 7 A student carries out an experiment to measure the refractive index of glass. He does this by shining a ray of light through a semicircular glass block and into the air as shown.
 
 • (a) Calculate the refractive index from air to glass, ang [2]
 
-• (b) (i) The student steadily increases the angle x in glass and finds that eventually the light does not pass into the air. Explain thisobservation. [3]
+• (b) (i) The student steadily increases the angle x in glass and finds that eventually the light does not pass into the air. Explain this observation. [3]
 
 • (i) Calculate the largest value of angle x that allows the light to pass out of the block into the air. [2]
 
-(Total for Question 7=7marks)
-MOREWAVEPROPERTIESOFLIGHT
+(Total for Question 7 = 7 marks)
 
-• 3Optical fibres have many uses in medicine and communications. They can also be incorporated into materials such as fabrics. transparentmaterialsurrounded by a materialofadifferent
+#### MOREWAVEPROPERTIESOFLIGHT
+MORE WAVE PROPERTIES OF LIGHT
 
-• Someopticalfibresaremadefromacentral coreof refractive index as a cladding.
+• 3 Optical fibres have many uses in medicine and communications. They can also be incorporated into materials such as fabrics. transparent material surrounded by a material of a different
 
-speed of light in the core = 1.96 × 108 m s-1 speed of light in the cladding = 2.03 × 108 m s-1
+• Some optical fibres are made from a central core of refractive index as a cladding.
 
-• (a)Calculate the critical angle for the core-cladding boundary.
+speed of light in the core = 1.96 × 10⁸ m s⁻¹ speed of light in the cladding = 2.03 × 10⁸ m s⁻¹
 
-• (b)The diagram below shows a ray of light inside the core of a fibre. The ray is incident on the core-cladding boundary at an angle of 80°.
+• (a) Calculate the critical angle for the core-cladding boundary.
 
-State what happens to this ray of light when it is incident on the core-claddingboundary as shown. [1]
+• (b) The diagram below shows a ray of light inside the core of a fibre. The ray is incident on the core-cladding boundary at an angle of 80°.
 
-• (c)The light source for these curtains is at the top. Suggest why the bottom of the curtain is much brighter than the rest of the curtain.
+State what happens to this ray of light when it is incident on the core-cladding boundary as shown. [1]
+
+• (c) The light source for these curtains is at the top. Suggest why the bottom of the curtain is much brighter than the rest of the curtain.
 
 [2]
 
-(Total for Question 8=6marks)
+(Total for Question 8 = 6 marks)
 
 [3]
 
 • 9
 
-• Rainbows are seen when sunlight is dispersed by raindrops. The light is separated into different colours because they each take different paths through raindrops. A ray of white light is incident on a raindrop. The diagram shows the subsequentpath of thered light.
+• Rainbows are seen when sunlight is dispersed by raindrops. The light is separated into different colours because they each take different paths through raindrops. A ray of white light is incident on a raindrop. The diagram shows the subsequent path of the red light.
 
-• (a)Name the effect that is experienced by the red light at A.
+• (a) Name the effect that is experienced by the red light at A.
 
 [1]
 
-• (b)(i)On the diagram, label an angle of incidence with an i and an angle of refraction with an r. [2]
+• (b)(i) On the diagram, label an angle of incidence with an i and an angle of refraction with an r. [2]
 
 • (i) On the diagram, draw the path that a violet ray of light would take, through the raindrop and into the air.
 
 [2]
 
-• (c)(i)State what is meant by the critical angle.
+• (c)(i) State what is meant by the critical angle.
 
 [1]
 
@@ -6223,25 +6379,27 @@ State what happens to this ray of light when it is incident on the core-cladding
 
 • refractive index for red light in water = 1.3 [2]
 
-• (d)Red light has a frequency of 4.2 x 1014 Hz and travels at a speed of 2.2 x 108 ms-1 in the raindrop.
+• (d) Red light has a frequency of 4.2 x 10¹⁴ Hz and travels at a speed of 2.2 x 10⁸ ms⁻¹ in the raindrop.
 
-• Calculate thewavelength of thered light in the raindrop.
+• Calculate the wavelength of the red light in the raindrop.
 
 [2]
 
 (Total for Question 9 = 10 marks)
 
-• 10Explain how infrared radiation can travel the length of an optical fibre, and describe and explain applications of this.
+• 10 Explain how infrared radiation can travel the length of an optical fibre, and describe and explain applications of this.
 
 [6]
 
-(TotalforQuestion10 =6marks)
+(Total for Question 10 = 6 marks)
 
 ## Topic 3: Waves and Particle Nature of Light
 
 ### Quantum physics
 
-TOPIC3 3WAVESANDTHEPARTICLE NATUREOF LIGHT
+
+#### TOPIC3 3WAVESANDTHEPARTICLE NATUREOF LIGHT
+TOPIC 3 3 WAVES AND THE PARTICLE NATURE OF LIGHT
 
 3D
 QUANTUMPHYSICS
@@ -6262,51 +6420,53 @@ MATHS SKILLS FOR THIS CHAPTER
 • Substituting numerical values into algebraic equations(e.g.a photoelectric effect calculation)
 
 • Determining the slope and intercept of a linear graph (e.g. analysing photoelectric cell data)
-Topic3A
 
-• Modelsofwaves andwaveprocesses
+#### Topic3A
+Topic 3A
 
-• Theexistence andpropertiesof the electron
+• Models of waves and wave processes
+
+• The existence and properties of the electron
 
 • The electronic structure of atoms
 
-• Macroscopicemission and absorption of light
+• Macroscopic emission and absorption of light
 
-Topic3B
+Topic 3B
 
 • Diffraction and interference of light
 
-• Detailedknowledgeof thepartsof the electromagnetic spectrum,and the frequencies of electromagneticradiations
+• Detailed knowledge of the parts of the electromagnetic spectrum, and the frequencies of electromagnetic radiations
 
 Topic 7 (Book 2: iAL)
 
-• Experimentalinvestigationsof the structureof subatomicparticles
+• Experimental investigations of the structure of subatomic particles
 
-Topic7A（Book2:IAL)
+Topic 7A (Book 2: IAL)
 
-• How to calculatethewavelengthof an electron
+• How to calculate the wavelength of an electron
 
-Topic7B(Book2:IAL)
+Topic 7B (Book 2: IAL)
 
-• Theprocessofthermionicemission, anditssimilaritiestoanddifferencesfromthe photoelectriceffect
+• The process of thermionic emission, and its similarities to and differences from the photoelectric effect
 
-Topic7C(Book2:IAL)
+Topic 7C (Book 2: IAL)
 
-• Detailsaboutthesmallestfundamentalparticles yetfound
+• Details about the smallest fundamental particles yet found
 
 Topic 11B (Book 2: IAL)
 
-• Blackbodyradiationofallwavelengthsof electromagneticradiation,and the colours of stars
+• Blackbody radiation of all wavelengths of electromagnetic radiation, and the colours of stars
 
 What will I study in this chapter?
 
-• Theideaofwave-particleduality,andthenature of light
+• The idea of wave-particle duality, and the nature of light
 
 • Photon energy
 
-• Thephotoelectriceffect
+• The photoelectric effect
 
-• Electron diffraction andinterference
+• Electron diffraction and interference
 
 • How light is created
 LEARNING OBJECTIVES
@@ -6314,19 +6474,21 @@ LEARNING OBJECTIVES
 • Understandhow thebehaviourofelectromagnetic radiationcanbedescribedintermsofbothwaves and photons.
 
 • Use the equation E= hf for the energy of a photon of electromagneticradiation.
-HUYGENS'PRINCIPLE
 
-TheDutch scientist ChristiaanHuygens came up with a principle forpredictingthefuturemovementofwavesifweknowthe currentposition of a wavefront.Thebasicidea istoconsider circularwaves travellingforwardsfrom thatpoint.When the movementofthesenumerouscircularwavesisplotted,and then their superposition considered, the resultant wave will be the new position oftheoriginalwavefront.
+#### HUYGENS'PRINCIPLE
+HUYGENS' PRINCIPLE
+
+The Dutch scientist Christiaan Huygens came up with a principle for predicting the future movement of waves if we know the current position of a wavefront. The basic idea is to consider circular waves travelling forwards from that point. When the movement of these numerous circular waves is plotted, and then their superposition considered, the resultant wave will be the new position of the original wavefront.
 
 original wavefront
 
-• fig AHuygens'constructionforexplaining themovement of waves.
+• fig A Huygens' construction for explaining the movement of waves.
 
-Huygens' geometrical system exactly explains all the basic phenomena that we see with light waves.We can make drawings likefig A to correctlypredict themovement ofwavefronts in reflection,refraction,diffraction(figB),interference and straightline propagation of light.
+Huygens' geometrical system exactly explains all the basic phenomena that we see with light waves. We can make drawings like fig A to correctly predict the movement of wavefronts in reflection, refraction, diffraction (fig B), interference and straight line propagation of light.
 
-fig BHuygen's construction correctly predicts diffraction through a gap.
+fig B Huygen's construction correctly predicts diffraction through a gap.
 
-LIGHTISAWAVE
+LIGHT IS A WAVE
 
 We have seen numerous instances of light undergoing wave-like activities.
 EVIDENCETHATLIGHTISAWAVE
@@ -6369,16 +6531,20 @@ E=hf
 ==6.63×10-34
 
 f=3.38×1019Hz
-ELECTRONSAREPARTICLES
 
-Experiments that produce ions can demonstrate electrons behaving asparticles because afixed lump of mass and charge is removed from the atom in order to change the atom into an ion. The charge to mass ratiois a unique identifyingproperty ofparticles,and wasfirst demonstrated for the electron by JJ. Thomson in 1897. Robert Millikan, in an experiment finally published in 1913, took this one step furthertofindtheelectronchargeitself.Thefactthatelectronshold afixed amountofcharge anda fixed massindicates they arelocalisedparticles.
+#### ELECTRONSAREPARTICLES
+ELECTRONS ARE PARTICLES
 
-fig DRobert Millikan's oil drop apparatus showed that electrons have a fixed charge of 1.5924 x 10-19 coulombs. The difference with the currently acceptedvalue is caused by a mistake in Millikan's calculations,because he used a slightly incorrect valuefor theviscosity of air.
+Experiments that produce ions can demonstrate electrons behaving as particles because a fixed lump of mass and charge is removed from the atom in order to change the atom into an ion. The charge to mass ratio is a unique identifying property of particles, and was first demonstrated for the electron by JJ. Thomson in 1897. Robert Millikan, in an experiment finally published in 1913, took this one step further to find the electron charge itself. The fact that electrons hold a fixed amount of charge and a fixed mass indicates they are localised particles.
 
-Notethatthestepsandlayout ofthesolutioninthisworked examplearesuitablefor questions on photon energy andfrequencyintheexam.
-ELECTRONSAREWAVES
+fig Robert Millikan's oil drop apparatus showed that electrons have a fixed charge of 1.5924 x 10-19 coulombs. The difference with the currently accepted value is caused by a mistake in Millikan's calculations, because he used a slightly incorrect value for the viscosity of air.
 
-If electrons are made to travel at very high speeds, they will pass through gaps and produce a diffractionpattern.Theywill alsointeractwith adouble-slit apparatustoproduce theinterference patternseenwhenwavespassthroughtwoslits.Diffraction andinterferencearenotexpected by classical particles,as they should simply travel straight through the slits.Observation of these experimental results proves that electrons can behave as waves.
+Note that the steps and layout of the solution in this worked example are suitable for questions on photon energy and frequency in the exam.
+
+#### ELECTRONSAREWAVES
+ELECTRONS ARE WAVES
+
+If electrons are made to travel at very high speeds, they will pass through gaps and produce a diffraction pattern. They will also interact with a double-slit apparatus to produce the interference pattern seen when waves pass through two slits. Diffraction and interference are not expected by classical particles, as they should simply travel straight through the slits. Observation of these experimental results proves that electrons can behave as waves.
 WAVESORPARTICLES?
 
 The experimental observations highlighted in this section have suggested that both electrons and electromagneticradiation seem to contradict our explanations of them.Physicists havegood theoretical descriptions of the wave and particle natures for electrons and alsofor electromagnetic radiation.However we donot have a complete andperfect single theory that explainsboth correctly for either electrons orEMradiation.
@@ -6393,19 +6559,19 @@ The experimental observations highlighted in this section have suggested that bo
 The idea that these things behave as waves under certain circumstances and as particles under other circumstances is known as wave-particle duality.
 CHECKPOINT
 
-• Suggestanexperimentthatdemonstrates:
+• Suggest an experiment that demonstrates:
 
-• (a)light behaving as awave
+• (a) light behaving as a wave
 
-• (b)electronsbehavingaswaves.
+• (b) electrons behaving as waves.
 
-• 2. What is the energy of aphoton of UVlight that has a wavelength of 2x10-7m?
+• 2. What is the energy of a photon of UV light that has a wavelength of 2x10⁻⁷m?
 
-• 3. wereshown tobe travelling likepolarised light,explainwhetherthiswould confirmthatthe electrons wereparticlesorwaves.
+• 3. were shown to be travelling like polarised light, explain whether this would confirm that the electrons were particles or waves.
 
-• 4. Is light a wave or a particle?Explain your answer.
+• 4. Is light a wave or a particle? Explain your answer.
 
-• 5. Draw a picture illustrating howHuygens'construction could explain diffraction of sea waves around a largerock.
+• 5. Draw a picture illustrating how Huygens' construction could explain diffraction of sea waves around a large rock.
 SUBJECT VOCABULARY
 
 photons'packets'of electromagnetic radiation energy where the amount of energy E= hf. which is Planck's electromagneticradiation isunderstoodusingaparticlemodel
@@ -6413,7 +6579,9 @@ photons'packets'of electromagnetic radiation energy where the amount of energy E
 quantisation the concept that there is a minimum smallest amount by which a quantity can change: infinitesimal changes are not permitted in a quantum universe. The quantisation of a quantity is like the idea of theprecisionof an instrumentmeasuring it
 
 of both waves and photons
-2THEPHOTOELECTRICEFFECT 2.3.59 2.3.60 2.3.61 2.3.62
+
+#### 2THEPHOTOELECTRICEFFECT 2.3.59 2.3.60 2.3.61 2.3.62
+2 THE PHOTOELECTRIC EFFECT 2.3.59 2.3.60 2.3.61 2.3.62
 LEARNING OBJECTIVES
 
 • Explain the photoelectric effect and experimental observationsofit.
@@ -6423,28 +6591,30 @@ LEARNING OBJECTIVES
 • Use thephotoelectric effect equation.
 PHOTOELECTRONS
 
-theplatelosesits charge.The explanationfor this is that thelight causes electronstoleave themetal,removingthenegativecharge.
+the plate loses its charge. The explanation for this is that the light causes electrons to leave the metal, removing the negative charge.
 
-Theelectronsthatarereleased arecalledphotoelectrons. observations. There is a certain minimum amount of energy that
+The electrons that are released are called photoelectrons. observations. There is a certain minimum amount of energy that
 
 energy is called the work function, and has the symbol, Φ.
 
-The wave theory of light would allow some of the wave energy tobepassedtotheelectronstoenablethemtogainthework function and escape. In the wave theory, the energy carried by awavedepends onits amplitude,whichforlightmeansits brightness.Sothewave theorywouldpredict that any colour oflight,ifmadesufficientlybright,shouldenabletherelease ofphotoelectrons.Alternatively,if thewavewere ofsmaller amplitude,it could shineforlonger and slowly pass energy to the electrons, until they had gained as much as the work function and escape.However this is not what is observed.The same matterhowbright orhowlong theillumination.Nophotoelectrons are emitted under red light.There is a maximum wavelength for the light, above which no photoelectrons are ever emitted. This canbethoughtofequivalentlyasaminimumfrequencyforthe light, known as the threshold frequency.
-Investigatingphotoelectrons
+The wave theory of light would allow some of the wave energy to be passed to the electrons to enable them to gain the work function and escape. In the wave theory, the energy carried by a wave depends on its amplitude, which for light means its brightness. So the wave theory would predict that any colour of light, if made sufficiently bright, should enable the release of photoelectrons. Alternatively, if the wave were of smaller amplitude, it could shine for longer and slowly pass energy to the electrons, until they had gained as much as the work function and escape. However this is not what is observed. The same matter how bright or how long the illumination. No photoelectrons are emitted under red light. There is a maximum wavelength for the light, above which no photoelectrons are ever emitted. This can be thought of equivalently as a minimum frequency for the light, known as the threshold frequency.
 
-If you chargea gold leaf electroscope then it will show a deflection on thegoldleaf.lfyouplaceazincplateontopof theelectroscope,the photoelectriceffectwillallowtheelectroscopetobedischargedif it held a negative charge. lf you shine UV light onto the zinc plate, the goldleafwillfallimmediately.Thisobservationshowsthatelectrons onthezincplatehaveescaped.Thoseelectronsremainingonthe goldleaf andelectroscopestalkspreadoutmore,so that thereisno longer enough mutual repulsion to hold up the gold leaf. You may need to clean the surfaceof thezinc,asit oxidisesquite easilyin air. Assuch,theremaybealayerofoxideontopof thepuremetal, stopping the light absorption.
+#### Investigatingphotoelectrons
+Investigating photoelectrons
 
-figADemonstrating thephotoelectriceffect.
+If you charge a gold leaf electroscope then it will show a deflection on the gold leaf. If you place a zinc plate on top of the electroscope, the photoelectric effect will allow the electroscope to be discharged if it held a negative charge. If you shine UV light onto the zinc plate, the gold leaf will fall immediately. This observation shows that electrons on the zinc plate have escaped. Those electrons remaining on the gold leaf and electroscope's stalk spread out more, so that there is no longer enough mutual repulsion to hold up the gold leaf. You may need to clean the surface of the zinc, as it oxidises quite easily in air. As such, there may be a layer of oxide on top of the pure metal, stopping the light absorption.
 
-Ifyouattempttodischargetheelectroscopewithanordinarydesk lamp,orsunlight,therewillbeverylittle effect.Thisisbecausethese sourcesprovidelittleUvlightintensity,andlongerwavelengthswill notcausethephotoelectriceffectwithzinc.Evenifyouleftthe electroscopeinfrontofthedesklampforseveralhours,itwouldnot discharge.However,theVlightneednotbeverybright,anditwill still immediatelycausedischarge.
+fig A Demonstrating the photoelectric effect.
 
-SafetyNote:Donotviewultravioletlightdirectlyorbyreflection toavoidretinal damage.lfelectroscopeischargedwith ahigh voltageconnection,useasafeconnectionmethodtoavoid electricshock.
+If you attempt to discharge the electroscope with an ordinary desk lamp, or sunlight, there will be very little effect. This is because these sources provide little UV light intensity, and longer wavelengths will not cause the photoelectric effect with zinc. Even if you left the electroscope in front of the desk lamp for several hours, it would not discharge. However, the UV light need not be very bright, and it will still immediately cause discharge.
 
-The explanationfor these experimental observationscan be summarised as:
+Safety Note: Do not view ultraviolet light directly or by reflection to avoid retinal damage. If electroscope is charged with a high voltage connection, use a safe connection method to avoid electric shock.
+
+The explanation for these experimental observations can be summarised as:
 
 • Light travels as photons, with a photon's energy proportional to the frequency.
 
-• When a photon encounters anelectron,it transfers allits energy totheelectron(thephoton ceases to exist).
+• When a photon encounters an electron, it transfers all its energy to the electron (the photon ceases to exist).
 
 #### Investigatingphotoelectrons
 • If an electron gains sufficient energy -more than the work function-it can escape the surface of the metal as a photoelectron.
@@ -6474,7 +6644,7 @@ Or, stated in terms of the conservation of energy. the photon energy transferred
 hf = φ + ½mv²_max
 WORKED EXAMPLE
 
-What is theworkfunctionof potassiumifgreen lightwith awavelengthof 510nmshining on it
+What is the work function of potassium if green light with a wavelength of 510 nm shining on it
 
 mv²max=hf-Φ Φ=hf-mv²max mv²max=0.14eV= 0.14×1.6×10-19=2.24×10-20j =3.9×10-19j 510×10-9 Φ=hf-mv²max=3.9 ×10-19 - 2.24 ×10-20 Φ=3.68×10-19j
 THEPHOTOELECTRICCELLEXPERIMENT
@@ -6488,17 +6658,19 @@ We could use the photoelectric effect equation to measure Planck's constant and 
 If we use a range of light frequencies and find the stopping voltage for each, we can plot a graph of the photoelectron maximum kinetic energy, on the y-axis, against frequency, on the x-axis. best-fit line and the gradient will be equal toPlanck's constant.
 
 ½mv²_max = hf − φ
-3D.2THEPHOTOELECTRICEFFECT
 
-y=mx+c
+#### 3D.2THEPHOTOELECTRICEFFECT
+3D.2 THE PHOTOELECTRIC EFFECT
+
+y = mx + c
 
 The y-intercept will represent the value of the work function, Φ. Also, when the value of y is zero (the x-intercept) then the photon energy must equal the work function.
 
-hf = φ
+hf = Φ
 
-This means that thevalue ofthex-intercept willgive thethresholdfrequencyforthe anodemetal.
+This means that the value of the x-intercept will give the threshold frequency for the anode metal.
 
-figCGraphical analysis of resultsfrom aphotoelectriccellexperimentcan determinePlanck'sconstant and the workfunction for the anode metal.
+figC Graphical analysis of results from a photoelectric cell experiment can determine Planck's constant and the work function for the anode metal.
 
 #### 3D.2THEPHOTOELECTRICEFFECT
 | METAL   |   WORKFUNCTION/eV |
@@ -6524,13 +6696,13 @@ CHECKPOINT
 • 4. Whatisthethresholdfrequencyofcaesium?
 SUBJECT VOCABULARY
 
-photoelectronselectronsreleasedfromametalsurfaceasaresultofitsexposuretoelectromagnetic radiation
+photoelectrons electrons released from a metal surface as a result of its exposure to electromagnetic radiation
 
-workfunction theminimumenergyneeded by anelectronat thesurfaceof ametaltoescapefrom themetal
+work function the minimum energy needed by an electron at the surface of a metal to escape from the metal
 
-thresholdfrequencytheminimumfrequencyofelectromagneticradiationthatcancausetheemission ofphotoelectronsfromthemetal
+threshold frequency the minimum frequency of electromagnetic radiation that can cause the emission of photoelectrons from the metal
 
-stoppingvoltagetheminimumvoltageneededtoreducethephotoelectriccurrenttozero,when illuminatedwithaparticularfrequencyoflight
+stopping voltage the minimum voltage needed to reduce the photoelectric current to zero, when illuminated with a particular frequency of light
 EXAM HINT
 
 When you have a graphwith plotteddatapoints,startby drawingabest-fitline.The questionmaynotaskyoutodo this,but itwill beexpected.
@@ -6545,22 +6717,26 @@ LEARNING OBJECTIVES
 We have seen that waves passing through a gap will produce a diffraction pattern with bright and dark fringes as the diffracted waves from each side of thegap superpose to produce the interferencepattern.
 
 fig ACircular diffraction pattern caused by a laser passing through a pinhole.
-ELECTRONDIFFRACTION
 
-Asadiffractionpatternisawavephenomenon,toobservethisfrom a beam ofelectronsmeans that they must be behaving aswaves. This is true whether we are passing waves through a gap, as in fig A, or reflecting waves from a grating, as we saw in fig H of
+#### ELECTRONDIFFRACTION
+ELECTRON DIFFRACTION
 
-Section3B.3.
+As a diffraction pattern is a wave phenomenon, to observe this from a beam of electrons means that they must be behaving as waves. This is true whether we are passing waves through a gap, as in fig A, or reflecting waves from a grating, as we saw in fig H of
 
-figBDavisson andGermerreflectedabeamofelectronsfrom anickel crystal and measured the intensity of the reflection at different angles.
+Section 3B.3.
 
-In1927,Davisson andGermertried todetectdiffraction of electron'waves'whentheyreflectedfromacrystal ofnickel.FigB illustrates the experimental setup. They measured theintensity of thebeam atdifferentanglesforvarious acceleratingvoltages,and plotted a graph of their results. Fig C shows the graph for a beam acceleratedthrough54volts.
+fig B Davisson and Germer reflected a beam of electrons from a nickel crystal and measured the intensity of the reflection at different angles.
 
-• figCDavisson and Germer's electronbeamreflectionfrom a surface of atoms,acting as areflectiongratingshowedvariableintensityat different angles, exactly as is observed with waves.
+In 1927, Davisson and Germer tried to detect diffraction of electron 'waves' when they reflected from a crystal of nickel. Fig B illustrates the experimental setup. They measured the intensity of the beam at different angles for various accelerating voltages, and plotted a graph of their results. Fig C shows the graph for a beam accelerated through 54 volts.
 
-Not only did Davisson and Germer prove experimentally that electronscanbehaveaswaves,buttheirresultsalsoallow calculation ofthedistancebetween atomsinthenickelcrystal. This has given rise to advances in the study of atomic structures using electron beam crystallography.
-DEBROGLIEEQUATION
+• fig C Davisson and Germer's electron beam reflection from a surface of atoms, acting as a reflection grating showed variable intensity at different angles, exactly as is observed with waves.
 
-In1924,aFrenchprince calledLouisdeBroglie suggestedelectrons couldbehaveaswaves andproposed anequationtocalculate momentumtheyhavewhenconsideredasparticles.
+Not only did Davisson and Germer prove experimentally that electrons can behave as waves, but their results also allow calculation of the distance between atoms in the nickel crystal. This has given rise to advances in the study of atomic structures using electron beam crystallography.
+
+#### DEBROGLIEEQUATION
+DE BROGLIE EQUATION
+
+In 1924, a French prince called Louis de Broglie suggested electrons could behave as waves and proposed an equation to calculate momentum they have when considered as particles.
 
 λ = h/p
 
@@ -6573,31 +6749,37 @@ Calculatethewavelengthofelectronstravellingat10%of the speed of light.
 EXAMHINT
 
 Notethatthestepsandlayoutofthesolutioninthisworkedexample are suitableforquestionsrequiringthe deBroglie equationintheexam.
-Investigatingelectrondiffraction
 
-Althoughtheyarequiteexpensive,someschool laboratorieshavean electronbeamdiffractiontube.Thisacceleratesabeamofelectrons throughahighvoltage,andthenpassesthebeamthrougha thin piece ofgraphite.Thecarbon atomsinthegraphiteacts asa diffractiongratingintwodimensions,whichproducesacircular diffraction pattern.The front end of the tube has a phosphorescent screen thatwill showupthediffractionpattern.
+#### Investigatingelectrondiffraction
+Investigating electron diffraction
+
+Although they are quite expensive, some school laboratories have an electron beam diffraction tube. This accelerates a beam of electrons through a high voltage, and then passes the beam through a thin piece of graphite. The carbon atoms in the graphite acts as a diffraction grating in two dimensions, which produces a circular diffraction pattern. The front end of the tube has a phosphorescent screen that will show up the diffraction pattern.
 
 2.3.53
 
-fig DAnelectronbeam diffraction tube demonstratesthe wavenature ofelectrons.
+fig DAn electron beam diffraction tube demonstrates the wave nature of electrons.
 
-Ifwemakecarefulmeasurementsofthedimensionsofthetubeand the diffractionpatternproducedwithdifferent acceleratingvoltages, we can carry out an approximate calculation of the atom spacing in graphite.
+If we make careful measurements of the dimensions of the tube and the diffraction pattern produced with different accelerating voltages, we can carry out an approximate calculation of the atom spacing in graphite.
 
-Safety Note: Electron beam tubes operate at a hazardous voltage. Operatewithshroudedconnectionstominimisetheriskof electricshock.
-TWO-SLITELECTRONINTERFERENCE
+Safety Note: Electron beam tubes operate at a hazardous voltage. Operate with shrouded connections to minimise the risk of electric shock.
 
-In 1965, Richard Feynman suggested that electrons should also be abletoproducethetwo-slitinterferencepatternseenwithlight,as theycanbehave aswaves.Recently,thishasbeen shown tobethe case,giving further evidencefor the wave nature of electrons.
+#### TWO-SLITELECTRONINTERFERENCE
+TWO-SLIT ELECTRON INTERFERENCE
 
-fig ERecent experiments havebeen ableto demonstrate electrons producing an interference pattern when passed through a two-slit-type experiment.The five images here show the same image after different build up the waveinterferencepattern.
+In 1965, Richard Feynman suggested that electrons should also be able to produce the two-slit interference pattern seen with light, as they can behave as waves. Recently, this has been shown to be the case, giving further evidence for the wave nature of electrons.
 
-However,thelatestresearchhas allowed scientiststoobservethat the interference pattern is built upby the movement through the apparatus of the individual electrons. They are behaving as both individual particles and waves at the same time. They are showing wave-particle duality.
-ELECTRONMICROSCOPY
+fig ERecent experiments have been able to demonstrate electrons producing an interference pattern when passed through a two-slit-type experiment. The five images here show the same image after different build up the wave interference pattern.
 
-Oneof themost important applications of thewave nature ofelectrons is its use to study objects atvery small scales.An electronbeam canworklikeabeam of light,butwithsome different properties that can make the electron beam much more useful for microscopy. The main advantage is that the wavelength of an electron beam can be controlled by altering the voltage applied to accelerate the electrons. In some instances, this canmean thewavelengthofelectronsinthebeamcanbe 10-10 m - the same size as atoms. Approximately, the minimumsized object that canbeimaged by anywaveis about the same size as thewavelength.In thisexample,the electronwaves are 1000 timesshorterthanlightwaves,andsotheycanproduce images of objects 1000 times smaller than visible light.
+However, the latest research has allowed scientists to observe that the interference pattern is built up by the movement through the apparatus of the individual electrons. They are behaving as both individual particles and waves at the same time. They are showing wave-particle duality.
 
-figFElectron microscopes can have a magnification up to10million times.Thesebacteria are about 1 micrometre long.
+#### ELECTRONMICROSCOPY
+ELECTRON MICROSCOPY
 
-figGElectronmicroscopeshave sufficientmagnification tosee theresults researchers at IBMwhomoved individual carbonmonoxidemoleculeson a surface of copper metal.
+One of the most important applications of the wave nature of electrons is its use to study objects at very small scales. An electron beam can work like a beam of light, but with some different properties that can make the electron beam much more useful for microscopy. The main advantage is that the wavelength of an electron beam can be controlled by altering the voltage applied to accelerate the electrons. In some instances, this can mean the wavelength of electrons in the beam can be 10⁻¹⁰ m - the same size as atoms. Approximately, the minimum sized object that can be imaged by any wave is about the same size as the wavelength. In this example, the electron waves are 1000 times shorter than light waves, and so they can produce images of objects 1000 times smaller than visible light.
+
+figF Electron microscopes can have a magnification up to 10 million times. These bacteria are about 1 micrometre long.
+
+figG Electron microscopes have sufficient magnification to see the results researchers at IBM who moved individual carbon monoxide molecules on a surface of copper metal.
 SKILLS
 
 PROBLEMSOLVING
@@ -6621,39 +6803,47 @@ ELECTRONENERGYLEVELS
 In Section 4A.6 we will see that electrons in semiconductors can have varying amounts of energy, and s are wide in solids - there is a large range of values of energy that the electron could have and still be in that band. In free atoms, such as those in a gas, the energy values that the electrons could have are limited toa small numberofexactvalues,oftencalled energylevels.
 
 electronupfromthegroundstate.
-EXCITATIONANDDE-EXCITATION
 
-Fig A illustrates the energy values that electrons of hydrogen could have. Under normal circumstances,an electron in an atom of hydrogen would be in its ground state.This is the lowest energy level, with a quantum number (or level) of n = 1. In order to move up energy levels, the electron must take in some energy. This is called excitation.Electrons can become excited if the atomcollideswithanotherparticle.Alternatively,if theelectronabsorbsaphotonthathasexactly the correct amount of energy, the electron can jump to a higher energy level. For example, the difference in energy between the ground state (-2.18 × 10-18 J) and the n = 2 state (-5.45 × 10-19 J) is 1.635 × 10-18 J.
+#### EXCITATIONANDDE-EXCITATION
+EXCITATION AND DE-EXCITATION
 
-and this would lift the electron up to the energylevel above theground state,n=2,and thephoton would no longer exist. This is illustrated in fig B.
+Fig A illustrates the energy values that electrons of hydrogen could have. Under normal circumstances, an electron in an atom of hydrogen would be in its ground state. This is the lowest energy level, with a quantum number (or level) of n = 1. In order to move up energy levels, the electron must take in some energy. This is called excitation. Electrons can become excited if the atom collides with another particle. Alternatively, if the electron absorbs a photon that has exactly the correct amount of energy, the electron can jump to a higher energy level. For example, the difference in energy between the ground state (-2.18 × 10-18 J) and the n = 2 state (-5.45 × 10-19 J) is 1.635 × 10-18 J.
+
+and this would lift the electron up to the energy level above the ground state, n=2, and the photon would no longer exist. This is illustrated in fig B.
 
 2.3.44
 
 E=0J
 
-figBElectron excitationin ahydrogen atom.Foreaseof reference,the energy levels are numbered with integers from n = 1 for the ground state, upwards.
+figB Electron excitation in a hydrogen atom. For ease of reference, the energy levels are numbered with integers from n = 1 for the ground state, upwards.
 
-equivalenttoajumpbetweenthecurrentpositionoftheelectron andoneofthehigherlevelswill notbe absorbed-thephoton andelectronwill notinteract atall.Ifgas atoms are illuminated by a range of frequencies (colours), those with the correct frequency values will be absorbed, so there will be some colours missing from the light after it passes through the gas.
+equivalent to a jump between the current position of the electron and one of the higher levels will not be absorbed - the photon and electron will not interact at all. If gas atoms are illuminated by a range of frequencies (colours), those with the correct frequency values will be absorbed, so there will be some colours missing from the light after it passes through the gas.
 
-figCElectronde-excitation in a hydrogen atom.
+figC Electron de-excitation in a hydrogen atom.
 
 #### EXCITATIONANDDE-EXCITATION
 If an electron is already excited, after a random amount of time it will de-excite. This may involve dropping straight down to the ground state, or it may drop to an intermediate level if there is one. Fig C shows an excited hydrogen electron dropping from energy level n = 4 down to n = 3. As the electron ends up with less energy than it had, the conservation of energy requires that this energy is emitted as a photonwith exactly the energydifferencebetween the levels. The frequency of the emitted photon can be calculated from the equation for photon energy, E = hf. So, a collection of gas atoms thatareexcitedwill emit lightwith aparticularcollectionof frequencies, dependent on which element the gas atoms are.
 WORKED EXAMPLE
 
-What are the frequenciesof thephoton absorbed infig B and the photonemittedinfigC?
+What are the frequencies of the photon absorbed in fig B and the photon emitted in fig C?
 
-Infig B,the electron israised from level n=1uptolevel n=2.The energydifference between the levels-theenergygained by the electron-mustequal the energyoftheabsorbedphoton. From the diagram, the energy level difference is 1.635 x 10-18].
+In fig B, the electron is raised from level n=1 up to level n=2. The energy difference between the levels - the energy gained by the electron - must equal the energy of the absorbed photon. From the diagram, the energy level difference is 1.635 x 10⁻¹⁸ J.
 
-ΔE = E₂ − E₁ = 1.635 × 10⁻¹⁸ J ΔE = hf ∴ f = ΔE/h f = (1.635 × 10⁻¹⁸)/(6.63 × 10⁻³⁴) f = 2.47 × 10¹⁵ Hz
+ΔE = E₂ − E₁ = 1.635 × 10⁻¹⁸ J  
+ΔE = hf  
+∴ f = ΔE/h  
+f = (1.635 × 10⁻¹⁸)/(6.63 × 10⁻³⁴)  
+f = 2.47 × 10¹⁵ Hz
 
-In fig C, the electron drops from level n = 4 down to level n = 3. The energy differencebetween thelevels-the energy lost by the electron-mustequal the energyof theemittedphoton. From the diagram,the energy level difference is from -1.36x10-19j downto-2.42×10-19J.
+In fig C, the electron drops from level n = 4 down to level n = 3. The energy difference between the levels - the energy lost by the electron - must equal the energy of the emitted photon. From the diagram, the energy level difference is from -1.36 × 10⁻¹⁹ J down to -2.42 × 10⁻¹⁹ J.
 
-ΔE = E₃ − E₄ = −2.42 × 10⁻¹⁹ − −1.36 × 10⁻¹⁹ = −1.06 × 10⁻¹⁹ J
+ΔE = E₃ − E₄ = −2.42 × 10⁻¹⁹ − −1.36 × 10⁻¹⁹ = −1.06 × 10⁻¹⁹ J  
 
-Thefactthatthisenergyvalueisnegativeindicatesthatenergyis given out here.
+The fact that this energy value is negative indicates that energy is given out here.  
 
-f = ΔE/h f = (1.06 × 10⁻¹⁹)/(6.63 × 10⁻³⁴) f = 1.60 × 10¹⁴ Hz
+f = ΔE/h  
+f = (1.06 × 10⁻¹⁹)/(6.63 × 10⁻³⁴)  
+f = 1.60 × 10¹⁴ Hz
 EXAMHINT
 
 Notethatthestepsandlayoutofthesolutioninthisworkedexample aresuitableforexamquestionsrequiringthecalculationoffrequencies of photons absorbed or emitted by a change in electron energy level.
@@ -6662,16 +6852,18 @@ IONISATION
 Fig A shows the ground state energy of a hydrogen atom is 2.18 × 10-18 J, which is equivalent to 13.6 electronvolts. The n = ∞o level at the top of the diagram has an energy value of zero.At this level, the electron has left the atom - the hydrogen is ionised. This means that the energy required to ionise an atom of hydrogen in its ground state, its ionisation energy, is 13.6 eV.
 LEARNING TIP
 
-Hydrogen hasthe simplest energy level system asit only has one electron,buteverythingexplainedhereisapplicabletoanelectronin anyatom.Allweneedistheenergyleveldiagram andwecan calculatethefrequenciesofphotonsemittedandabsorbedfora varietyofenergyleveltransitions.
-Investigatinggasdischargespectra
+Hydrogen has the simplest energy level system as it only has one electron, but everything explained here is applicable to an electron in any atom. All we need is the energy level diagram and we can calculate the frequencies of photons emitted and absorbed for a variety of energy level transitions.
 
-A high voltage willcause an electric current topass through a gas in a discharge tube.The electrical energy excites the electrons in each atom of the gas,andtheythendropenergylevelsatrandomtimes,givingoffaphotonforeachenergyleveltransition.Astherearesomanyatoms,itappearsas if thegasiscontinuouslyemittinglight,andofallthepossiblecolours-allthepossibletransitionswithinitsenergylevel ladder.Usinga diffraction grating,we can analyse the light emitted from the tube to detect the separate colours, orwavelengths,being emitted.We observe a line spectrum.
+#### Investigatinggasdischargespectra
+Investigating gas discharge spectra
 
-fig EAgas discharge tube demonstrates theemission of photonsby excitedelectrons of agas.A diffractiongrating shows theseparate linesin the spectrum.
+A high voltage will cause an electric current to pass through a gas in a discharge tube. The electrical energy excites the electrons in each atom of the gas, and they then drop energy levels at random times, giving off a photon for each energy level transition. As there are so many atoms, it appears as if the gas is continuously emitting light, and of all the possible colours - all the possible transitions within its energy level ladder. Using a diffraction grating, we can analyse the light emitted from the tube to detect the separate colours, or wavelengths, being emitted. We observe a line spectrum.
 
-Ifwechangethetubeforonecontainingadifferentgas,wewill observeadifferentlinespectrum.
+fig EA gas discharge tube demonstrates the emission of photons by excited electrons of a gas. A diffraction grating shows the separate lines in the spectrum.
 
-SafetyNote:Gasdischarge tubesoperateata hazardousvoltage.Operatewithshroudedconnectionstominimisetheriskofelectricshock.
+If we change the tube for one containing a different gas, we will observe a different line spectrum.
+
+Safety Note: Gas discharge tubes operate at a hazardous voltage. Operate with shrouded connections to minimise the risk of electric shock.
 LINESPECTRA
 
 Light made up of multiple wavelengths (colours) can be split up to show which colours are present. This could be done using a diffraction grating in which the amount of diffraction is dependent on the wavelength,and so the various colourswill spread different amounts. The resulting spectrum will oftenbeaseriesofindividuallines,if theoriginal lightcontainedonly afewwavelengths.Suchaline spectrum is the typical result of exciting the atoms of a gas, perhaps by heating the gas.
@@ -6689,44 +6881,44 @@ When a lamp emits light, we could measure its intensity. This is the amount of e
 intensity (W m⁻²) = power (W) / area (m²) I = P/A
 WORKED EXAMPLE
 
-Onaparticularday,sunlightlandsonEarthwithanintensityof960Wm-2.Whatisthepowerreceived bythesolarcell onacalculatorplacedinthissunlight,if thecell isarectangle1cmby4cm?
+On a particular day, sunlight lands on Earth with an intensity of 960 Wm-2. What is the power received by the solar cell on a calculator placed in this sunlight, if the cell is a rectangle 1 cm by 4 cm?
 
 I = P/A ∴ P = I × A = 960 × 0.01 × 0.04 ∴ P = 0.38 W
 INTERPRETATION
 
-• 1. What isthewavelengthof lightemittedwhenanexcitedhydrogenelectronfallsfromenergylevel n=2 down to itsground state?
+• 1. What is the wavelength of light emitted when an excited hydrogen electron falls from energy level n=2 down to its ground state?
 
-• 2 Why couldn't a photon of light with an energy of 1.43x10-18 joules excite hydrogen from its ground state?
+• 2. Why couldn't a photon of light with an energy of 1.43x10-18 joules excite hydrogen from its ground state?
 
-• Fig Fshows thetwoimportantenergy levels(out of thelarge numberof available levels)ofa neon atom,inside a He-Nelaser.Calculate the energy of thephotonemittedwhen a neon atomelectron excitedtothen=Alevel dropstolevelB.Giveyour answerinelectronvolts.
+• Fig F shows the two important energy levels (out of the large number of available levels) of a neon atom, inside a He-Ne laser. Calculate the energy of the photon emitted when a neon atom electron excited to the n=A level drops to level B. Give your answer in electronvolts.
 
-• 4. Otherthanby absorbingphotons,explainhow aground state atom of mercury could be excited if it wereinthetubeofacompactfluorescentlightbulb.
+• 4. Other than by absorbing photons, explain how a ground state atom of mercury could be excited if it were in the tube of a compact fluorescent light bulb.
 
-• 5. Explain whythelight from a compact fluorescent light bulb containing mercurygas will produce a spectrum of various colours when electricitypasses through thegas.
+• 5. Explain why the light from a compact fluorescent light bulb containing mercury gas will produce a spectrum of various colours when electricity passes through the gas.
 
-• 6. Estimate the number of photons hitting yourface each second when you stand in the sunshine.
+• 6. Estimate the number of photons hitting your face each second when you stand in the sunshine.
 SUBJECT VOCABULARY
 
-groundstate thelowestenergylevelforasystem,forexample,when all theelectronsinanatom areinthe lowestenergylevelstheycanoccupy,theatomissaidtobeinitsgroundstate
+ground state the lowest energy level for a system, for example, when all the electrons in an atom are in the lowest energy levels they can occupy, the atom is said to be in its ground state
 EXAMHINT
 
-Inquestions aboutenergy level diagrams,makesureyou emphasisethatelectronscan onlyhavetheenergyvaluesof thelevelsshown,sothe only possible energy transfersmatch exactlywiththedifferences betweenthelevelsshown.
+In questions about energy level diagrams, make sure you emphasise that electrons can only have the energy values of the levels shown, so the only possible energy transfers match exactly with the differences between the levels shown.
 
 fig F Electron de-excitation in a neon atom.
 
-excitationanenergystateforasystemthatishigherenergythanthegroundstate,forexample,inanatom, if anelectronisin ahigherenergylevel than thegroundstate,theatom issaid tobe'excited
+excitation an energy state for a system that is higher energy than the ground state, for example, in an atom, if an electron is in a higher energy level than the ground state, the atom is said to be 'excited'
 
-ionisationenergytheminimum energyrequiredby an electroninanatom'sgroundstate inorderto removetheelectroncompletelyfromtheatom
+ionisation energy the minimum energy required by an electron in an atom's ground state in order to remove the electron completely from the atom
 
-linespectrum aseriesof individual linesof colour showing thefrequenciespresent ina light source
-
-EXAMHINT
-
-Inquestions about photons and energyleveldiagrams,make sureyou emphasisethatthe onlypossiblephotonshave frequenciesthatmatchexactly withthedifferencesbetween the energylevelsshown,using E=hf
+line spectrum a series of individual lines of colour showing the frequencies present in a light source
 
 EXAMHINT
 
-Notethatthestepsandlayoutof thesolutionin thisworkedexamplearesuitableforintensityof radiationquestionsintheexam.
+In questions about photons and energy level diagrams, make sure you emphasise that the only possible photons have frequencies that match exactly with the differences between the energy levels shown, using E=hf
+
+EXAMHINT
+
+Note that the steps and layout of the solution in this worked example are suitable for intensity of radiation questions in the exam.
 SOLARCELLSTO POWERTHEUSA?
 
 CRITICALTHINKING,PROBLEMSOLVINGANALYSIS,INTERPRETATION ADAPTIVEEARNING,PRODUCTIVITY,ETHICS,COMMUNICATION, ASSERTIVECOMMUNICATION
@@ -6744,17 +6936,17 @@ Thismapillustratesthetotalareaofsolarpanelsthatwouldbe neededtofulfilltheelectri
 |    767762000000 | W     | Peak Load      |
 PROBLEMS
 
-Thatis alotofsolarpanels!3billionof them.Howeverit is interestingtoconsiderthetotal approximatecostofthesepanels comparedwithwhattheUnitedStatesgovernmentspendsevery year on everythingelse...If one approximates each panelto cost $250,the totalcostwouldbe$767billion.Toputit inperspective, the government spent $3600 billion in 2012.
+That is a lot of solar panels! 3 billion of them. However it is interesting to consider the total approximate cost of these panels compared with what the United States government spends every year on everything else... If one approximates each panel to cost $250, the total cost would be $767 billion. To put it in perspective, the government spent $3600 billion in 2012.
 
-Therawmaterials and manufacturingcapabilitywould be enormoustobuild thatmanypanels.
+The raw materials and manufacturing capability would be enormous to build that many panels.
 
-The infrastructure and additional equipment neededwould be tremendous.
+The infrastructure and additional equipment needed would be tremendous.
 
-It's dark atnight-nosolarpowergeneration...so traditional power would be required during those times.A battery storage bankwould behugefor night storage at thesepower levels...
+It's dark at night - no solar power generation... so traditional power would be required during those times. A battery storage bank would be huge for night storage at these power levels...
 
-Solarpanels andinverters arenot100%efficient.Therewill be cloudy days.
+Solar panels and inverters are not 100% efficient. There will be cloudy days.
 
-Less sun during thewintermonths unless this was built on the equator.
+Less sun during the winter months unless this was built on the equator.
 ASOLUTION
 
 Whileitmaynotbepossibletobuild acentral locationfor our nation's electricityneeds,itispossible to add toone's own electricity needs with solar photovoltaic panels.Even building an off-grid system is a possibility for many people.
@@ -6764,7 +6956,9 @@ Iimaginedusing a 250-watt SharpND-250QCS solar panel(made in theUSA)65"×39"each
 767762000000watts/250wattsper panel
 
 3071048000 totalpanels
-TOTALNEEDED
+
+#### TOTALNEEDED
+TOTAL NEEDED
 
 2535 sq."
 
@@ -6772,11 +6966,11 @@ TOTALNEEDED
 
 17.6 sq.
 
-1939 sq. miles 44miles per sideof square
+1939 sq. miles 44 miles per side of square
 
-By KenJorgustin,fromModern SurvivalBlog,https:/modernsurvivalblog.com/alternative-energy/amazing-total-area-of-solar-panels-to-powerthe-united-states/
+By Ken Jorgustin, from Modern Survival Blog, https:/modernsurvivalblog.com/alternative-energy/amazing-total-area-of-solar-panels-to-power the-united-states/
 
-Inanyevent,itwas aninterestingexercisetodeterminehow much total areaof solar panelswouldfulfill the nation's electricity demands.It's a smallerfootprint thanIinitially thought itwould be...
+In any event, it was an interesting exercise to determine how much total area of solar panels would fulfill the nation's electricity demands. It's a smaller footprint than I initially thought it would be...
 SCIENCECOMMUNICATION
 
 • 1ThearticleoppositewaswrittenforanAmericanwebsiteblog.Considerthearticleand comment on the type of writing being used. Think about the following, for example. Is this a scientist reporting the results of their experiments, a scientific review of data, a newspaper or magazine style articlefor a specific audience?Then answer the followingquestions:
@@ -6788,65 +6982,67 @@ SCIENCECOMMUNICATION
 • (c)Discuss the extent to which the'problems'highlighted by the author undermine the basic idea in the article.
 PHYSICS IN DETAIL
 
-Nowwewill look at thephysicsin,orconnected to,this article.Some of thesequestions linkto topics in much earlier sections of this book, so you may need to combine concepts from differentareasofphysicstoworkout the answers.
+Now we will look at the physics in, or connected to, this article. Some of these questions link to topics in much earlier sections of this book, so you may need to combine concepts from different areas of physics to work out the answers.
 
-• 2 Convert all the dimensions quoted in the article into Sl units: (1 inch, 1" = 2.54 cm; 1foot,1′=12 inches;1 mile =1.6km)
+• 2 Convert all the dimensions quoted in the article into SI units: (1 inch, 1" = 2.54 cm; 1 foot, 1′ = 12 inches; 1 mile = 1.6 km)
 
-• 3The radiationfrom the sun lands onEarthwith a power of approximately 10o0Wm-2. How much sunlight power would land on one of the solar panels considered in the article?
+• 3 The radiation from the sun lands on Earth with a power of approximately 1000 Wm-2. How much sunlight power would land on one of the solar panels considered in the article?
 
-• If the average wavelength of light from the sun landing at the surface of the Earth is 550 nm, how many photons will be landing on this one solar panel per second? Discuss whether it is reasonabletomakethiswavelengthaverageforthiscalculation.
+• If the average wavelength of light from the sun landing at the surface of the Earth is 550 nm, how many photons will be landing on this one solar panel per second? Discuss whether it is reasonable to make this wavelength average for this calculation.
 
-• 5If the panel produces 250 W,what is the efficiency of one solar panel?
+• 5 If the panel produces 250 W, what is the efficiency of one solar panel?
 
-• 6 (a) If the density of air is 1 kg m-3, and the average wind speed is 6.0 ms-1, what area of wind turbineswouldbeneeded to transfer theequivalentkineticenergyfrom thewind asthe power needed in thesolarcellscalculation in theblogarticle?
+• 6 (a) If the density of air is 1 kg m-3, and the average wind speed is 6.0 ms-1, what area of wind turbines would be needed to transfer the equivalent kinetic energy from the wind as the power needed in the solar cells calculation in the blog article?
 
-• (b)A wind turbinemanufacturer claims that theirnew'super-turbines'are80%efficient, have1o0mdiameterrotorsandneed1squarekilometreof landsoasnottointerfere witheachother'swind.Howmuchlandwouldbeneededforagiantwindfarmto powertheelectricityneedsoftheUSA?
+• (b) A wind turbine manufacturer claims that their new 'super-turbines' are 80% efficient, have 100 m diameter rotors and need 1 square kilometre of land so as not to interfere with each other's wind. How much land would be needed for a giant wind farm to power the electricity needs of the USA?
 ACTIVITY
 
-Many working environments requirepeople tobe able to communicatescientificideas in persuasive ways. Imagine you work for a Us electricity generating company that specialises in nuclearpowerstations.Prepareacritiqueof thisblogarticlewhichcouldbeusedtopersuade electricity needs, is impractical and too expensive. You should not explain any benefits of using other means, such as nuclear power: your brief is simply to put the public off the idea of large solarpowerstations.
+Many working environments require people to be able to communicate scientific ideas in persuasive ways. Imagine you work for a US electricity generating company that specialises in nuclear power stations. Prepare a critique of this blog article which could be used to persuade electricity needs, is impractical and too expensive. You should not explain any benefits of using other means, such as nuclear power: your brief is simply to put the public off the idea of large solar power stations.
 THINKING BIGGER TIP
 
-Wehavenotyetconsideredthe practicalitiesofconnectingthe giantsolarpowerstationtothe nationalgridtotransportthe electricityallovertheUSA. Somecalculationsabout quantity and cost of cabling and pylonscouldaddsomeweight toyourcritique.
+We have not yet considered the practicalities of connecting the giant solar power station to the national grid to transport the electricity all over the USA. Some calculations about quantity and cost of cabling and pylons could add some weight to your critique.
 
 ## Topic 3: Waves and Particle Nature of Light
 
 ### 3D Exam practice
 
-3D EXAMPRACTICE
+
+#### 3D EXAMPRACTICE
+3D EXAM PRACTICE
 
 • 1 What is the energy of a photon of yellow light, with a wavelength of 550 nm?
 
-• 4Whichrowinthetablecorrectlyshowsobservedevidencefor bothlightand electronsbehavingaswaves?
+• 4 Which row in the table correctly shows observed evidence for both light and electrons behaving as waves?
 
-• A5.79×10-38J
+• A 5.79×10⁻³⁸J
 
-• B3.62×10-21J
+• B 3.62×10⁻²¹J
 
-• C3.62×10-19J
+• C 3.62×10⁻¹⁹J
 
-• D2.26J
+• D 2.26J
 
 [1]
 
 (Total for Question 1 = 1 mark)
 
-• 2Use information in the diagram,showing energy levels for electrons in a hydrogen atom, to calculate the frequency of a photon oflight emitted by anelectron movingfrom thelevel n = 4 to the ground state.
+• 2 Use information in the diagram, showing energy levels for electrons in a hydrogen atom, to calculate the frequency of a photon of light emitted by an electron moving from the level n = 4 to the ground state.
 
-• A8.20×10-20Hz
+• A 8.20×10⁻²⁰Hz
 
-• B2.42×10-6Hz
+• B 2.42×10⁻⁶Hz
 
-• C3.08×1015Hz
+• C 3.08×10¹⁵Hz
 
-• D2.05×1014Hz
+• D 2.05×10¹⁴Hz
 
 [1]
 
 (Total for Question 2 = 1 mark)
 
-• 3A zincplate illuminated by ultraviolet light will emit photoelectrons.Which of thefollowingwould not be observed using the same zinc plate?
+• 3 A zinc plate illuminated by ultraviolet light will emit photoelectrons. Which of the following would not be observed using the same zinc plate?
 
-• APhotoelectronswould still beemittedusingshorter wavelength UV light.
+• A Photoelectrons would still be emitted using shorter wavelength UV light.
 
 • B More photoelectrons would be observed each second using brighter UV of the original wavelength.
 
@@ -6856,7 +7052,7 @@ Wehavenotyetconsideredthe practicalitiesofconnectingthe giantsolarpowerstationto
 
 [1]
 
-(Total for Question 3 =1 mark)
+(Total for Question 3 = 1 mark)
 
 #### 3D EXAMPRACTICE
 | Light experimental evidence      | Electron experimental evidence                |
@@ -6879,23 +7075,25 @@ Wehavenotyetconsideredthe practicalitiesofconnectingthe giantsolarpowerstationto
 |     1 |                5.66 |                 530 |          |
 |     2 |                5.00 |                 600 |          |
 |     3 |                4.41 |                 680 |          |
-(TotalforQuestion5=4marks)
 
-• 6In1921,Albert Einsteinwon the NobelPrize forhiswork on the photoelectric effect.
+#### (TotalforQuestion5=4marks)
+(Total for Question 5 = 4 marks)
+
+• 6 In 1921, Albert Einstein won the Nobel Prize for his work on the photoelectric effect.
 
 The results of experiments on the photoelectric effect show that:
 
-• photoelectronsarenotreleasedwhentheincidentradiation is below a certain threshold frequency
+• photoelectrons are not released when the incident radiation is below a certain threshold frequency
 
-• thekineticenergy of thephotoelectronsreleased depends on the frequency of the incident light and not its intensity.
+• the kinetic energy of the photoelectrons released depends on the frequency of the incident light and not its intensity.
 
-Explain how theseresults support a particle theory,but not a wavetheoryof light. [6]
+Explain how these results support a particle theory, but not a wave theory of light. [6]
 
-(TotalforQuestion6=6marks)
+(Total for Question 6 = 6 marks)
 
-• 7The graph shows how the maximumkinetic energy E of photoelectrons emitted from the surface of aluminium varies with the frequency fof the incident radiation.
+• 7 The graph shows how the maximum kinetic energy E of photoelectrons emitted from the surface of aluminium varies with the frequency f of the incident radiation.
 
-• (a)Explain why no photoelectrons are emitted below a frequency of 10 × 1014 Hz.
+• (a) Explain why no photoelectrons are emitted below a frequency of 10 × 10¹⁴ Hz.
 
 [1]
 
@@ -6903,32 +7101,34 @@ Explain how theseresults support a particle theory,but not a wavetheoryof light.
 
 [3]
 
-• (c)State the quantity represented by the gradient of the graph. [1]
+• (c) State the quantity represented by the gradient of the graph. [1]
 
-• (d)Add a second line to the graph to show how E varies withffor ametal whichhas a workfunctionless than aluminium.
+• (d) Add a second line to the graph to show how E varies with f for a metal which has a work function less than aluminium.
 
 [2]
-(Total forQuestion 7=7marks)
 
-• 8Thediagramshows thelowestthreeenergylevelsofa hydrogen atom.
+#### (Total forQuestion 7=7marks)
+(Total for Question 7=7marks)
+
+• 8 The diagram shows the lowest three energy levels of a hydrogen atom.
 
 -13.6
 
-• (a)Excitedhydrogenatoms canemit lightofwavelength 6.56×10-7m.
+• (a) Excited hydrogen atoms can emit light of wavelength 6.56×10-7m.
 
-• (i)Calculate the frequency of this light. [2]
+• (i) Calculate the frequency of this light. [2]
 
-• (i)The energy of a photon of this frequency is 3.03× 10-19 J.
+• (i) The energy of a photon of this frequency is 3.03× 10-19 J.
 
 By means of a calculation determine which electron transition emits this photon. [2]
 
-• (b)The spectrum of light from the sun has a dark line at a wavelengthof656nm.Explainwhythiswavelength is missing from the spectrum. [2]
+• (b) The spectrum of light from the sun has a dark line at a wavelength of 656nm. Explain why this wavelength is missing from the spectrum. [2]
 
 (Total for Question 8=6marks)
 
-• 9A gold leaf electroscope isused to detectvery small amounts of charge. When the electroscope cap is negatively charged, electrons spread along themetal rod and thegoldleafso they both become negatively charged. The rod and leaf repel each other, so the gold leaf rises up.
+• 9 A gold leaf electroscope is used to detect very small amounts of charge. When the electroscope cap is negatively charged, electrons spread along the metal rod and the gold leaf so they both become negatively charged. The rod and leaf repel each other, so the gold leaf rises up.
 
-Agoldleafelectroscopecanbeusedtodemonstratethe photoelectric effect. A clean zinc plate is placed onto the cap of theelectroscope and the plate and electroscope are charged negatively. Ultraviolet radiation is shone onto the zinc plate.
+A gold leaf electroscope can be used to demonstrate the photoelectric effect. A clean zinc plate is placed onto the cap of the electroscope and the plate and electroscope are charged negatively. Ultraviolet radiation is shone onto the zinc plate.
 
 • (a) The gold leaf slowly falls.
 
@@ -6936,7 +7136,7 @@ Explain, with reference to the work function of zinc, why this happens.
 
 [4]
 
-• (b)Whyistheeffectnotobservediftheultravioletradiation is replaced by visible light?
+• (b) Why is the effect not observed if the ultraviolet radiation is replaced by visible light?
 
 [1]
 
@@ -6950,66 +7150,72 @@ work function of zinc=6.88×10-19J
 
 • (d) The source of ultraviolet radiation is moved further away from the zinc plate.
 
-Statewhat will happen to the maximum speed of the electrons emitted from the plate. Justify your answer
+State what will happen to the maximum speed of the electrons emitted from the plate. Justify your answer
 
 [2]
 
-(Totalfor Question9 =11marks)
+(Total for Question 9 =11marks)
 
 ## Topic 4: Electric Circuits
 
 ### Electrical quantities
 
-4A ELECTRICALQUANTITIES
 
-In1881,thestreetsofGodalming,atowninEngland,werethefirstintheworldtobelitbyapublicelectricity service.Thepowerwasgeneratedfromawaterwheel ina nearbyriver.Electricityhasrevolutionisedtheway peoplelive,butwehaveonlybeenusingitsowidelyforabout1o0years.Today,it isdifficulttoimaginewhat life wouldhavebeenlikewhenthenightwasnotartificiallylitandmusiccouldonlybeheard if theinstruments wereplayedlive.
+#### 4A ELECTRICALQUANTITIES
+4A ELECTRICAL QUANTITIES
 
-Itisextraordinaryhowinfluential theuseofelectricityhasbecomeinsuchashorttime,and justhowdifficultit AlessandroVolta in1800.A littleover200yearslater,almost everything aroundyouwill eitheruseelectricity directly orwould havebeen impossible to manufacturewithout electricity.
+In 1881, the streets of Godalming, a town in England, were the first in the world to be lit by a public electricity service. The power was generated from a water wheel in a nearby river. Electricity has revolutionised the way people live, but we have only been using it so widely for about 100 years. Today, it is difficult to imagine what life would have been like when the night was not artificially lit and music could only be heard if the instruments were played live.
 
-relatedtoeachother,alongwiththeessentialmaterialstructuresthatallow,orrestrict,theflowofelectricity.
+It is extraordinary how influential the use of electricity has become in such a short time, and just how difficult it Alessandro Volta in 1800. A little over 200 years later, almost everything around you will either use electricity directly or would have been impossible to manufacture without electricity.
+
+related to each other, along with the essential material structures that allow, or restrict, the flow of electricity.
 MATHS SKILLS FOR THIS CHAPTER
 
 • Units of measurement (e.g. the coulomb, C)
 
-• Calculatingareasofcircles(e.g.findingthecross-sectional areaofawireinordertofindresistivity)
+• Calculating areas of circles (e.g. finding the cross-sectional area of a wire in order to find resistivity)
 
-• Useof standard form and ordinaryform(e.g.representing thecharge onan electron)
+• Use of standard form and ordinary form (e.g. representing the charge on an electron)
 
-• Changingthe subject of anequation(e.g.finding theresistivity of amaterial from an object'sresistance)
+• Changing the subject of an equation (e.g. finding the resistivity of a material from an object's resistance)
 
-• Substitutingnumericalvaluesinto algebraicequations(e.g.using the transportequation)
+• Substituting numerical values into algebraic equations (e.g. using the transport equation)
 
-• Determining the slopeof a lineargraph(e.g.finding theresistivity from experimental results)
-Whatprior knowledge doI need?
+• Determining the slope of a linear graph (e.g. finding the resistivity from experimental results)
 
-• Atomicstructure,andelectricalconductionby electrons
+#### Whatprior knowledge doI need?
+What prior knowledge do I need?
 
-• Whenelectrical charges attractorrepel
+• Atomic structure, and electrical conduction by electrons
 
-• Conservationofelectrical charge
+• When electrical charges attract or repel
 
-• Whatwemeanby'current'andby'voltage',and howthesearemeasured
+• Conservation of electrical charge
 
-• TheOhm'slawequation
+• What we mean by 'current' and by 'voltage', and how these are measured
 
-• Electricalresistance and itseffects
+• The Ohm's law equation
 
-• The variation in current with changing potential difference,forvariouscomponents
-Whatwill I studyin thischapter?
+• Electrical resistance and its effects
 
-• Atomicstructure,andthestructureofsolid materials,especiallymetals
+• The variation in current with changing potential difference, for various components
 
-• Numerical quantitiesofelectrical charge,andthe movementof quantitiesof charge
+#### Whatwill I studyin thischapter?
+What will I study in this chapter?
 
-• Conservationofelectrical chargeimplicationsfor currents
+• Atomic structure, and the structure of solid materials, especially metals
 
-• Mathematical definitionsofcurrent,voltageand resistance
+• Numerical quantities of electrical charge, and the movement of quantities of charge
 
-• Ohm's law in general andwhen it is,and is not, relevant
+• Conservation of electrical charge implications for currents
 
-• What affectsresistance in differentobjects and materials,includingresistivityand superconductivity
+• Mathematical definitions of current, voltage and resistance
 
-• Whythereisthevariationweseeincurrentwith changingpotentialdifference,forvarious components
+• Ohm's law in general and when it is, and is not, relevant
+
+• What affects resistance in different objects and materials, including resistivity and superconductivity
+
+• Why there is the variation we see in current with changing potential difference, for various components
 LEARNING OBJECTIVES
 
 • Describe electriccurrent as therateofflowofcharged particles.
@@ -7061,28 +7267,30 @@ We canmonitor small movementsof charge,toseehow theyform a current,using a hangi
 • fig DA ball on a string can carry small numbers of electrons across a high voltage gap, and this current is measured using a spot galvanometer.
 
 The highvoltage set up across the air gap between the metal plates encourages negative electrons to want to move towards the positive side. The hanging ball is painted with conducting paint and swings backwards and forwards across the gap. It carries a small quantity of electrons from one metal plate to the othereachtime.Wecanmeasure this smallmovement of chargeon avery sensitive ammeter.lf we time theperiod of oscillation of themovingball andmeasure thetiny current,we cancalculatehowmany electrons would pass across oneach journeyof theball. If the ballis moving too fast to be timed by eye,then we can use a stroboscope to measure the frequency of oscillations.
-Examplecalculation:
 
-If the spotgalvanometerregisters6.5microamperes and theball takes2.0millisecondsforone swing,howmany electrons does itcarry on each passfrom thenegativeplatetothepositiveone?
+#### Examplecalculation:
+Example calculation:
+
+If the spot galvanometer registers 6.5 microamperes and the ball takes 2.0 milliseconds for one swing, how many electrons does it carry on each pass from the negative plate to the positive one?
 
 ΔQ = I × Δt = 6.5 × 10⁻⁶ × 2 × 10⁻³ = 13 × 10⁻⁹ C = 13 nC
 
-• no of electronsper swing:
+• no of electrons per swing:
 
 N = ΔQ/e = (−13 × 10⁻⁹)/(−1.6 × 10⁻¹⁹)
 
 N = 8.1 × 10¹⁰ electrons
 
-Note thatontheball'sreturnjourney it willbepositively charged,having lost anexcess of electronswhencontacting thepositively charged plate. However,positivechargemovingintheopposite directionstill isa current,anditwill be at thesamerate-thesame current-because theball speed is constant.
+Note that on the ball's return journey it will be positively charged, having lost an excess of electrons when contacting the positively charged plate. However, positive charge moving in the opposite direction still is a current, and it will be at the same rate - the same current - because the ball speed is constant.
 
-SafetyNote:TheVan deGraaff generatorwillgiveunpleasantelectricshocksbut these shouldnotharm healthyindividuals.Anyone with a cardiacconditionmustnotreceiveelectricaldischargesastheymaysufferventricularfibrillationwhichcouldprovefatal.Personswith epilepsymayalsobeatriskofaseizure andshouldbeadvised accordingly.
+Safety Note: The Van de Graaff generator will give unpleasant electric shocks but these should not harm healthy individuals. Anyone with a cardiac condition must not receive electrical discharges as they may suffer ventricular fibrillation which could prove fatal. Persons with epilepsy may also be at risk of a seizure and should be advised accordingly.
 EXAMHINT
 
-Itisusefulifyoucanlearnthe valueforthechargeon an electron-youwillneedtouse itsooftenthatyouwillsavea lotof time if you don't haveto look it up.
+It is useful if you can learn the value for the charge on an electron - you will need to use it so often that you will save a lot of time if you don't have to look it up.
 
 e = −1.6 × 10⁻¹⁹ C
 
-Notethatwhilstthisisa negativevalue astheelectronis negative,weusuallyignorethe negativesignincalculationsand givepositive currentvalues.
+Note that whilst this is a negative value as the electron is negative, we usually ignore the negative sign in calculations and give positive current values.
 IONICCHARGECARRIERS
 
 If the circuitismore unusual,theremaybe other chargedparticles,chargecarriers,which canmove toform theelectriccurrent.For example,intheelectrolyticprocessingofbauxiteoretoproduce solution then has free aluminium ions (charge carriers) that can move through the liquid as an electric current.These ions arepositively charged,andwill movebecause of the electricforce towardsthe negative cathode. This is still an electric circuit that must obey the rule of conservation of charge, and in which we can measure the current as the rate of flow of charge.
@@ -7117,15 +7325,15 @@ CHECKPOINT
 (One mole contains Avogadro's number of any particle,and this is NA=6.02x1023.)
 SUBJECT VOCABULARY
 
-charge afundamentalpropertyof someparticles.It isthecauseof the electromagneticforce,and it is a basicaspectofdescribingelectricaleffects
+charge a fundamental property of some particles. It is the cause of the electromagnetic force, and it is a basic aspect of describing electrical effects
 
-inaconductorpersecondwhenone ampereofcurrentisflowingintheconductor.The amountofcharge on a single electron in these units is-1.6x10-19C
+in a conductor per second when one ampere of current is flowing in the conductor. The amount of charge on a single electron in these units is -1.6×10⁻¹⁹ C
 
-electriccurrenttherateofflowofcharge.Currentcanbecalculatedfromtheequation:
+electric current the rate of flow of charge. Current can be calculated from the equation:
 
 current (A) = charge passing a point (C) / time for that charge to pass (s) I = ΔQ/Δt
 
-ampere theunitofmeasurementforelectriccurrent:oneampere(1A)isthemovementofonecoulomb (1 C)of charge persecond(1 s)
+ampere the unit of measurement for electric current: one ampere (1 A) is the movement of one coulomb (1 C) of charge per second (1 s)
 LEARNING OBJECTIVES
 
 • Define electromotiveforce andpotential difference.
@@ -7162,19 +7370,19 @@ V = W/Q
 For example, if the bicycle light in fig A produced light from an LED with a pd of 1.5 V, then this LEDwould transfer 1.5 J of electrical energy from each coulomb of charge that passed through it to light energy and a little thermal energy.
 LEARNING TIP
 
-Almosteveryaspectofthe studyofphysicshas connectionswithtransfersof energy.
+Almost every aspect of the study of physics has connections with transfers of energy.
 
-figA Electriccircuits transfer energy.
+fig A Electric circuits transfer energy.
 WORKED EXAMPLE
 
-Acelltransfers40jofchemicalenergyforevery15Cofelectrons the cell'semf?
+A cell transfers 40 J of chemical energy for every 15 C of electrons the cell's emf?
 
 ε = E/Q ε = 40/15 ε = 2.7 V
 EXAMHINT
 
-Notethatthestepsandlayoutofthe solutioninthisworkedexampleare suitable for questions on calculating theemf andpdintheexam.
+Note that the steps and layout of the solution in this worked example are suitable for questions on calculating the emf and pd in the exam.
 
-Forevery2000Cof chargepassingthroughit,aloudspeaker transfers 18 500J of electrical energy to sound and thermal energy. Whatistheloudspeaker'spd?
+For every 2000 C of charge passing through it, a loudspeaker transfers 18 500 J of electrical energy to sound and thermal energy. What is the loudspeaker's pd?
 
 V = W/Q V = 18 500/2000 V = 9.25 V
 THEELECTRONVOLT
@@ -7207,67 +7415,73 @@ ELECTRICALQUANTITIES
 electrons electrical energy.From there, they can slide down a number of possible routes -like separate,parallel,loops in a circuit.If the skierdoes a trick off an obstacle,thenwe couldimagine that he was passing through a component and transferring energy to the component. We could think about measuring the emf of the chairlift, and the pd of each obstacle on the run.
 
 Notice that although the picture in fig D has skiers and snowboarders, for simplicity we only refer to'skiers'.This is a weakness of the model, asboth would represent charge carriers flowing in our circuit, but usually electric circuits have only one type of charge carrier that flows - the electrons.
-SKILLS INTERPRETATION, ADAPTIVELEARNING
 
-• 1. Explainhowpotentialdifferenceisdifferentfromelectromotiveforce.
+#### SKILLS INTERPRETATION, ADAPTIVELEARNING
+SKILLS INTERPRETATION, ADAPTIVE LEARNING
 
-• 2. (a)A cell provides76Cof charge with 120j of energy.What is the cells emf? (b) When a lamp carries a current of 2.4Afor5.4s,it transfers120J of energy.What is thepd across thelamp?
+• 1. Explain how potential difference is different from electromotive force.
 
-• Convert thefollowing: 3.
+• 2. (a) A cell provides 76C of charge with 120J of energy. What is the cell's emf? (b) When a lamp carries a current of 2.4A for 5.4s, it transfers 120J of energy. What is the pd across the lamp?
 
-• (a) 9.6×10-19J into electronvolts
+• Convert the following: 3.
+
+• (a) 9.6×10⁻¹⁹J into electronvolts
 
 • (b) 4.8 MeV into joules.
 
-• Writeanevaluationofthestrengthsandweaknessesof theskiareamodelofanelectriccircuit. Include discussionof atleastthefollowingideas:
+• Write an evaluation of the strengths and weaknesses of the ski area model of an electric circuit. Include discussion of at least the following ideas:
 
-• ·therepresentation of charge carriers
+• · the representation of charge carriers
 
 • a complete circuit is needed
 
-• gravitationalpotential astheanalogyforelectricalenergy
+• gravitational potential as the analogy for electrical energy
 
 • the ski lift as a cell
 
-• thesnowparkobstacles ascomponentsusingelectrical energy
+• the snow park obstacles as components using electrical energy
 
-• differingspeedsbydifferent skiers.
+• differing speeds by different skiers.
 
-• 5.Write a suggestionfora different model of an electric circuit,explainingwhat electrical aspect is representedbythevarioussectionsofyourmodel.
+• 5. Write a suggestion for a different model of an electric circuit, explaining what electrical aspect is represented by the various sections of your model.
 SUBJECT VOCABULARY
 
-voltage a measure of the amount of energy a component transfers perunit of charge passing through it. It canbecalculatedbytheequation:
+voltage a measure of the amount of energy a component transfers per unit of charge passing through it. It can be calculated by the equation:
 
 voltage (V) = energy transferred (J) / charge passing (C) V = E/Q
 
-electromotiveforce,oremfavoltageasdefinedabove,withtheenergycomingintothecircuit acircuitand transferringthisenergytootherstores
+electromotive force, or emf as defined above, with the energy coming into the circuit a circuit and transferring this energy to other stores
 
-electronvolt theamountofenergy anelectrongainsbypassingthroughavoltageof1v
+electronvolt the amount of energy an electron gains by passing through a voltage of 1 V
 
 1 eV = 1.6 × 10⁻¹⁹ J 1 mega electronvolt = 1 MeV = 1.6 × 10⁻¹³ J
 
-1 mega electronvolt=1 MeV=1.6x10-13j
+1 mega electronvolt = 1 MeV = 1.6 × 10⁻¹³ J
 
-• fig DModelling charge carriers as skiers.
+• fig D Modelling charge carriers as skiers.
 PRACTICAL SKILLS
 
-• StateOhm'slaw.
+• State Ohm's law.
 
 • Calculate resistances.
 
-• Explainthe/-Vcharacteristicsofcomponents.
+• Explain the I-V characteristics of components.
 
-Themovementof electrons through a circuit is caused by the electric force that an emf generates. Thus, an emf could be said todrivethecurrent around acircuit.Ahighervoltageemf wouldbeexpected todothismore asitcreatesastrongerforce on thechargessomoreofthem aredrivenround thecircuit faster -resulting in an increased current.The electricforce is directly proportional to the voltage,so we would expect current to -IαV-but insome situations otherfactorsbecome important and alter therelationship.
-RESISTANCECALCULATIONS
+The movement of electrons through a circuit is caused by the electric force that an emf generates. Thus, an emf could be said to drive the current around a circuit. A higher voltage emf would be expected to do this more as it creates a stronger force on the charges so more of them are driven round the circuit faster - resulting in an increased current. The electric force is directly proportional to the voltage, so we would expect current to be I ∝ V - but in some situations other factors become important and alter the relationship.
 
-Electricalresistanceis considered tobetheoppositiontothe flowofcurrentwithinaconductorItcanbecalculatedfromthe equation:
+#### RESISTANCECALCULATIONS
+RESISTANCE CALCULATIONS
+
+Electrical resistance is considered to be the opposition to the flow of current within a conductor. It can be calculated from the equation:
 
 resistance (Ω) = potential difference (V) / current (I) R = V/I
-OHM'SLAW
 
-• fig AMeasuring the resistance ofan ohmic conductor.
+#### OHM'SLAW
+OHM'S LAW
 
-If thecurrentisproportional to thevoltage drivingit through a component,this component is called an ohmicconductor,as this means it follows Ohm's law. The proportional relationship can be used tofind theresistanceof thecomponent.
+• Fig A Measuring the resistance of an ohmic conductor.
+
+If the current is proportional to the voltage driving it through a component, this component is called an ohmic conductor, as this means it follows Ohm's law. The proportional relationship can be used to find the resistance of the component.
 
 For example, what is the resistance of the resistor shown in fig A?
 
@@ -7275,50 +7489,56 @@ R = V/I = 4.0/0.18
 
 R = 22 Ω
 
-Foranohmicconductor,theanswertothecalculationof resistancewouldbethesameforallvoltagesandtheir correspondingcurrentvalues(providingthe temperatureremains constant-seeSection4A.5).
-Investigating/-Vrelationships
+For an ohmic conductor, the answer to the calculation of resistance would be the same for all voltages and their corresponding current values (providing the temperature remains constant - see Section 4A.5).
 
-We can doan experimenttoinvestigatewhetherornotacomponent followsOhm'slawusing the equipment infigA.Thecomponent undertestistheresistor,andwecouldreplacethisresistorto allow testingof othercomponents.
+#### Investigating/-Vrelationships
+Investigating I-V relationships
 
-Usevariousvaluesof supply emf andmeasure thepotential difference acrossandcurrentthrough theresistorforeachone. Thisshould includereversing theterminals on thepower supply in ordertomeasuretheeffectsofnegativepdsacrosstheresistor.Inthe voltagecreatinganelectricforceintheoppositedirectioninthewires will attractelectronsintheopposite directionaround thecircuit.
+We can do an experiment to investigate whether or not a component follows Ohm's law using the equipment in fig A. The component under test is the resistor, and we could replace this resistor to allow testing of other components.
 
-In thisexample,the resultswould produce a graph like theone shown in fig B.The straight line illustrates that / is proportional toVfor all testedvalues,tellingusthattheresistorisanohmicconductor.
+Use various values of supply emf and measure the potential difference across and current through the resistor for each one. This should include reversing the terminals on the power supply in order to measure the effects of negative pds across the resistor. In the voltage creating an electric force in the opposite direction in the wires will attract electrons in the opposite direction around the circuit.
 
-fig BI-Vgraph for a resistor.
+In this example, the results would produce a graph like the one shown in fig B. The straight line illustrates that I is proportional to V for all tested values, telling us that the resistor is an ohmic conductor.
 
-You can calculate theresistance of theresistorfrom the graph in figB.Firstcalculatethegradientof thestraight linefrom:
+fig B I-V graph for a resistor.
+
+You can calculate the resistance of the resistor from the graph in fig B. First calculate the gradient of the straight line from:
 
 m = ΔI/ΔV
 
-Thiscalculationisthereciprocal of theoneforresistancegivenabove. So,you canfind theresistanceherebytakingthereciprocalof the gradient:
+This calculation is the reciprocal of the one for resistance given above. So, you can find the resistance here by taking the reciprocal of the gradient:
 
 R = 1/m
 
-Notethatusingthegradientisonlyeffectiveforanohmic conductor. If the line is not straight, the resistance changes and canbecalculatedusingOhm'slawateachspecificV/lvalueon the line.
+Note that using the gradient is only effective for an ohmic conductor. If the line is not straight, the resistance changes and can be calculated using Ohm's law at each specific V/I value on the line.
 
-Safety Note:Some componentswill get hot enough to causeburns especiallyif theirnormalworkingrange'isexceeded.
-CURRENT-VOLTAGECHARACTERISTICS
+Safety Note: Some components will get hot enough to cause burns especially if their 'normal working range' is exceeded.
 
-For an electric circuit design,we need to know how components will react when the pd across them changes,in order to ensure that the circuitperformsits intendedfunctionunder all circumstances. Part of the specification of any component is a graph of its I-V characteristics. We have already seen the graphfor a simple resistor, and a metal at constant temperature would produce the same straight-lineresult.Theonlydifferencewouldbethatthegradientwill bedifferentineachcase,asit correspondstothespecificresistanceoftheresistororwire.
+#### CURRENT-VOLTAGECHARACTERISTICS
+CURRENT-VOLTAGE CHARACTERISTICS
+
+For an electric circuit design, we need to know how components will react when the pd across them changes, in order to ensure that the circuit performs its intended function under all circumstances. Part of the specification of any component is a graph of its I-V characteristics. We have already seen the graph for a simple resistor, and a metal at constant temperature would produce the same straight-line result. The only difference would be that the gradient will be different in each case, as it corresponds to the specific resistance of the resistor or wire.
 I-VGRAPHFORAFILAMENTBULB
 
 For the filament lamp I-V graph in fig C, we can see that for a small voltage, the current is voltages, a larger current is driven through the lamp filament wire, and this heats it up. At hotter temperatures, metals have higher resistance. The gradient of the graph in fig B was given as the reciprocal of theresistance,and so thegradient herebecomeslesstowards highervoltages:higher resistancemeans a lowergradient.InSection 4A.5,wewill seewhytheresistanceincreaseswith temperatureandwhythisreducescurrent.
-I-VGRAPHFORADIODE
 
-• fig DA semiconductor diode is designed to only pass current in one direction, so the line follows the x-axis, I = 0, for negative voltages.
+#### I-VGRAPHFORADIODE
+I-V GRAPH FOR A DIODE
 
-ForthediodeinfigD,wecanseethebasicideathatadiodeonlyconductsintheforwards direction, and so there is zero current for negative voltages. It also requires a minimum voltage in the forwards direction. This threshold voltage is typically around 0.6V. The curve for a diode will be looked at in detailinSection4A.6,whichcoverstheideasofelectricalconductionindifferentmaterials.
+• fig D A semiconductor diode is designed to only pass current in one direction, so the line follows the x-axis, I = 0, for negative voltages.
 
-I-VGRAPHFORATHERMISTOR
+For the diode in fig D, we can see the basic idea that a diode only conducts in the forwards direction, and so there is zero current for negative voltages. It also requires a minimum voltage in the forwards direction. This threshold voltage is typically around 0.6V. The curve for a diode will be looked at in detail in Section 4A.6, which covers the ideas of electrical conduction in different materials.
 
-• figCAfilament lamp is an example of a non-ohmic conductor.Thisisbecause the current through it affectsitsown temperature-highercurrent meansahighertemperatureandcontrollingtemperature is part of the definition of Ohm's law.
+I-V GRAPH FOR A THERMISTOR
+
+• fig C A filament lamp is an example of a non-ohmic conductor. This is because the current through it affects its own temperature - higher current means a higher temperature and controlling temperature is part of the definition of Ohm's law.
 EXAMHINT
 
-Toexplainwhyresistance ina metalincreaseswith temperature,you mustinclude bothpoints:
+To explain why resistance in a metal increases with temperature, you must include both points:
 
-• Themetalatomsvibrate fasterandfurther
+• The metal atoms vibrate faster and further
 
-• so,therearemorecollisions betweenelectronsand atoms.
+• so, there are more collisions between electrons and atoms.
 ELECTRICALQUANTITIES
 
 For the thermistorinfigE,itsresistancereduceswith the temperature.Thegradient oftheline increases with the heating effect of the increasing current. The gradient represents the reciprocal of the resistance: larger gradient value means lower resistance. This is a result of its manufacture from semiconductormaterials,whose atomsreleasemoreconductionelectrons asthetemperaturerises. ThiswillbeexplainedindetailinSection4A.6.
@@ -7337,13 +7557,13 @@ CHECKPOINT
 figFI-Vgraphsfortwo components.
 SUBJECT VOCABULARY
 
-resistancetheoppositiontotheflowofelectricalcurrent.Itcanbecalculatedfromtheequation:
+resistance the opposition to the flow of electrical current. It can be calculated from the equation:
 
 resistance (Ω) = potential difference (V) / current (A)
 
 R = V/I
 
-Ohm's law the current through a component is directly proportional to the voltage across it,providing the temperatureremainsthesame.Theequationforthisisoftenexpressedas:
+Ohm's law the current through a component is directly proportional to the voltage across it, providing the temperature remains the same. The equation for this is often expressed as:
 
 voltage (V) = current (A) × resistance (Ω) V = I × R
 LEARNING OBJECTIVES
@@ -7393,60 +7613,64 @@ R = ρl/A R = (1.7 × 10⁻⁸ × 0.02)/(1.3 × 10⁻⁷) R = 2.6 × 10⁻³ Ω
 
 #### RESISTIVITYEQUATIONEXAMPLE
 tableAResistivityvariesgreatlybetweenmaterials,andis alsodependenton temperature.Note the small changeinresistivity with temperature for constantan, an alloy of copper and nickel; this information is used where accuratelyknownresistanceisimportant.
-Investigatingresistivity
 
-You caninvestigate theresistivityforametal in the school laboratory using a simple circuit.
+#### Investigatingresistivity
+Investigating resistivity
 
-figBMeasuring theresistanceforvariouslengthsof awirewill allow us to plot a graph to find its resistivity.
+You can investigate the resistivity for a metal in the school laboratory using a simple circuit.
 
-Wewill needtousea micrometer screwgauge tomeasurethewire's diameter.Forimproved accuracy,thisis doneinright-angledpairs at severalplacesalongthelengthofthewire,andthenwetakethe meandiametermeasurement.
+Fig B Measuring the resistance for various lengths of a wire will allow us to plot a graph to find its resistivity.
 
-Forseveral differentlengthsof thewire,thewire'sresistanceshould be measured using the voltmeter-ammeter method (R = ). The resistancewillbesmall,socaremustbetakentoensurecurrentsare safely low.
+We will need to use a micrometer screw gauge to measure the wire's diameter. For improved accuracy, this is done in right-angled pairs at several places along the length of the wire, and then we take the mean diameter measurement.
+
+For several different lengths of the wire, the wire's resistance should be measured using the voltmeter-ammeter method (R = ). The resistance will be small, so care must be taken to ensure currents are safely low.
 
 R = ρl/A
 
-Theequationinvolvingresistivitymeansthatwecouldcalculatea value for it by re-arranging the equation and taking one of the results andmakingthecalculation.However,itisalwaysmorereliableto
+The equation involving resistivity means that we could calculate a value for it by re-arranging the equation and taking one of the results and making the calculation. However, it is always more reliable to
 
-produceastraight-linegraphofexperimentalresultsandcalculate ouranswerfromthegradient.Inthiscase,plottingresistanceonthe y-axisagainst lengthonthex-axiswillgivethegradientas P ,and A fromthiswecouldcalculatetheresistivitywithmoreconfidencein our conclusion.
+produce a straight-line graph of experimental results and calculate our answer from the gradient. In this case, plotting resistance on the y-axis against length on the x-axis will give the gradient as ρl/A, and from this we could calculate the resistivity with more confidence in our conclusion.
 
-SafetyNote:Thewirewillgethotenoughtocauseburnsespecially if toolarge avoltage/current is applied.
-RESISTIVITYINVESTIGATIONEXAMPLE
+Safety Note: The wire will get hot enough to cause burns especially if too large a voltage/current is applied.
 
-Aninvestigationliketheoneexplained aboveproduced theresults shown in fig D. This was for an aluminium wire with a measured diameter averaging 0.22 mm (giving A = 3.8 × 10-8 m²). A single 1.5Vcellwas used to drive a current,whichwas measured at eachdifferentlength.Thesedatawerethenused tocalculatethe resistances plotted on the graph for each length.From the graph, wecanuseitsgradient tofind the resistivity of aluminium.
+#### RESISTIVITYINVESTIGATIONEXAMPLE
+RESISTIVITY INVESTIGATION EXAMPLE
 
-• fig DFrom the gradient of this graph,it is possible to calculate the resistivity of the aluminium wire in the investigation.
+An investigation like the one explained above produced the results shown in fig D. This was for an aluminium wire with a measured diameter averaging 0.22 mm (giving A = 3.8 × 10⁻⁸ m²). A single 1.5V cell was used to drive a current, which was measured at each different length. These data were then used to calculate the resistances plotted on the graph for each length. From the graph, we can use its gradient to find the resistivity of aluminium.
+
+• fig D From the gradient of this graph, it is possible to calculate the resistivity of the aluminium wire in the investigation.
 
 gradient = Δy/Δx = ΔR/Δl = (0.730 − 0.000)/(1.000 − 0.000) = 0.730 R = ρl/A
 
-As we have R on the y-axis and / on the x-axis, comparing the
+As we have R on the y-axis and l on the x-axis, comparing the
 
-equation above with y = mx + c shows that the gradient is P equivalentto sowe can find theresistivity by multiplying the A gradient by the cross-sectional area.
+equation above with y = mx + c shows that the gradient is ρ equivalent to ρ/A so we can find the resistivity by multiplying the A gradient by the cross-sectional area.
 
-• RA p=
+• RA = ρl
 
-• p=0.730×A=0.730x3.8x10-8=2.8×10-8Ω2m
+• ρ = 0.730 × A = 0.730 × 3.8 × 10⁻⁸ = 2.8 × 10⁻⁸ Ωm
 
-Experimentally,wehavefound thattheresistivityofaluminiumis 2.8 × 10-8Ωm.
+Experimentally, we have found that the resistivity of aluminium is 2.8 × 10⁻⁸ Ωm.
 CREATIVITY, INNOVATION
 
-• 1. Calculate theresistance of a piece of constantan wireif it is 80cmlongandhasadiameterof0.84mm.
+• 1. Calculate the resistance of a piece of constantan wire if it is 80 cm long and has a diameter of 0.84 mm.
 
-• Explain three ways of reducing uncertainties in an experimental investigationtofindtheresistivityofametalwire.
+• Explain three ways of reducing uncertainties in an experimental investigation to find the resistivity of a metal wire.
 
-• 3. Conductivityistheoppositeofresistivity.Itis calculatedasthe reciprocal of theresistivity and is measured inSiemensper metre(Sm-1).Calculate and comparethe conductivityvalues forpolyethene and copper.
+• 3. Conductivity is the opposite of resistivity. It is calculated as the reciprocal of the resistivity and is measured in Siemens per metre (S m⁻¹). Calculate and compare the conductivity values for polyethene and copper.
 
-• In aresistance experiment,agoldringwasconnected into a circuit asaresistor.The connectionstouchedonopposite points on the circular ring.Its diameteris 2cm,and themetal's cross-sectionis arectangle3mmby0.5mm.Avoltmeter connected acrosstheringmeasured4.2mV,whilstthe current throughitwasmeasuredat18A.
+• In a resistance experiment, a gold ring was connected into a circuit as a resistor. The connections touched on opposite points on the circular ring. Its diameter is 2 cm, and the metal's cross-section is a rectangle 3 mm by 0.5 mm. A voltmeter connected across the ring measured 4.2 mV, whilst the current through it was measured at 18 A.
 
 figE
 
 • (a) Calculate the resistivity of gold.
 
-• (b)Describe apractical difficultywithundertakingan experimentofthiskind.
+• (b) Describe a practical difficulty with undertaking an experiment of this kind.
 
-• Estimatethevolumeofmetalinthewireinafuse.
+• Estimate the volume of metal in the wire in a fuse.
 SUBJECT VOCABULARY
 
-resistivityforamaterial,thesamevalueastheresistancebetween oppositefacesof acubicmetreof thematerial
+resistivity for a material, the same value as the resistance between opposite faces of a cubic metre of the material
 LEARNING OBJECTIVES
 
 • Explainconduction inmetals.
@@ -7456,55 +7680,65 @@ LEARNING OBJECTIVES
 • Calculatethedriftvelocityofconductionelectronsinmetals.
 
 In order to conduct electricity, solids need to have electrons that are delocalised from the solid's atoms, so that they can move through the solid causing an overall movement of charge - a current.
-CONDUCTIONINMETALS
 
-The structure of metals has a regular lattice of metal atoms. These are bonded together through thesharingofelectrons,whichact asiftheywereassociatedwithmore thanone atom.Manyof the electronshave a randommotion,which changes asthey collidewith atoms or other electrons,but on average the overall position of all the charge in the metal is stationary. However if a source of emf is towards thepositiveendofthefield.Theslow overall movementoftheelectronsiscalled their drift velocity.
+#### CONDUCTIONINMETALS
+CONDUCTION IN METALS
+
+The structure of metals has a regular lattice of metal atoms. These are bonded together through the sharing of electrons, which act as if they were associated with more than one atom. Many of the electrons have a random motion, which changes as they collide with atoms or other electrons, but on average the overall position of all the charge in the metal is stationary. However if a source of emf is towards the positive end of the field. The slow overall movement of the electrons is called their drift velocity.
 
 A movement in the direction of the positive side of the emf is superimposed on the random thermal motion.
 
-figAConductioninmetalshappens as thefreeelectrons add anoverall movement alongthedirectionof the voltage acrosstheconductor(towards thepositive anode)totheirrandomcollisions andvibrations.
-EXAMHINT
+fig A Conduction in metals happens as the free electrons add an overall movement along the direction of the voltage across the conductor (towards the positive anode) to their random collisions and vibrations.
 
-Inexamanswers,drawthe directionoftheelectron movementchangingsharplyfor eachcollision.
-DIDYOUKNOW?
+#### EXAMHINT
+EXAM HINT
 
-Forametal,therandomthermalmotionofthefreeelectronswill be at speeds of thousands of kilometresper second.However, the driftvelocity during conduction is usuallyonlymillimetresper second.
+In exam answers, draw the direction of the electron movement changing sharply for each collision.
 
-Thevalue oftheelectriccurrentinametalcanbe calculatedfrom thefundamentalmovementoftheelectronsifweremember △Q the definition that /=
+#### DIDYOUKNOW?
+DID YOU KNOW?
+
+For a metal, the random thermal motion of the free electrons will be at speeds of thousands of kilometres per second. However, the drift velocity during conduction is usually only millimetres per second.
+
+The value of the electric current in a metal can be calculated from the fundamental movement of the electrons if we remember △Q the definition that I = 
 
 I = ΔQ/Δt
 
-Ifwe consider the cylinder shaded on thediagram infigB as the length of the wire that the charges move through in a time △t, then weneedtocalculatehowmuchchargeflowsthroughitin that time.There are n electronsper cubic metre of this metal,and the wire has a cross-sectional area,A.Their movement is at a drift velocity,v, and the distance this takes them along the wire in that time isx.So:x=v△t.
+If we consider the cylinder shaded on the diagram in fig B as the length of the wire that the charges move through in a time △t, then we need to calculate how much charge flows through it in that time. There are n electrons per cubic metre of this metal, and the wire has a cross-sectional area, A. Their movement is at a drift velocity, v, and the distance this takes them along the wire in that time is x. So: x = v△t.
 
-The total charge will be the number of electronsmultiplied by the charge on each, e. The number of electrons will be their density, n,multiplied by thevolume of the cylinder,V,that they travel through in △t.
+The total charge will be the number of electrons multiplied by the charge on each, e. The number of electrons will be their density, n, multiplied by the volume of the cylinder, V, that they travel through in △t.
 
 ∴ ΔQ = n × V × e = n × AΔx × e = n × AvΔt × e ∴ I = ΔQ/Δt = nAvΔte/Δt ∴ I = nAve
 
-• 1=nAve
+• I = nAve
 
-Thisis called thetransportequation.
-EXAMPLEOFATRANSPORTEQUATION
+This is called the transport equation.
 
-Whatis thedriftvelocityoftheelectronsin acopperwire whichhas a diameter of 0.22 mm andcarries a currentof 0.50A? The number density of conduction electrons in copper, n=8.5×1028m-3.
+#### EXAMPLEOFATRANSPORTEQUATION
+EXAMPLE OF A TRANSPORT EQUATION
 
-wire radius=0.11mm=1.1×10-4m cross-sectional area,A=mr²=π×（1.1×10-4)2=3.8x10-8m² I=nAve
+What is the drift velocity of the electrons in a copper wire which has a diameter of 0.22 mm and carries a current of 0.50A? The number density of conduction electrons in copper, n=8.5×10²⁸ m⁻³.
 
-• V= nAe
+wire radius=0.11mm=1.1×10⁻⁴m cross-sectional area, A=πr²=π×（1.1×10⁻⁴)²=3.8×10⁻⁸m² I=nAve
+
+• I=nAve
 
 v = I/(nAe) = 0.50/(8.5 × 10²⁸ × 3.8 × 10⁻⁸ × 1.6 × 10⁻¹⁹) ∴ v = 9.67 × 10⁻⁴ m s⁻¹ v = 0.97 mm s⁻¹
 
-a cross-sectionofthewire
+a cross-section of the wire
 
-Theseaofelectronshasmovedforwardadistance△x=v△t. The shadedvolume isV=A△x.
+The sea of electrons has moved forward a distance △x=v△t. The shaded volume is V=A△x.
 
-figBAsectionofmetalwirewithdimensionsto showhowtomake calculations using the transport equation.
-Investigatingconductionvelocityofcolouredions
+fig B A section of metal wire with dimensions to show how to make calculations using the transport equation.
 
-In thisexperiment,you can observe themovementof coloured ions as chargecarrierparticles on apiece offilterpapersoaked in ammonium hydroxide solution.A crystal of copper sulfate and one of potassium manganate(Vll) will each dissolve,producingpositive blue copper ions and negative purple ions of manganate(Vll). Connecting apd of30Vacross thewetfilterpaperwill causetheionstoflow slowly acrossit,inoppositedirections,andtheirvelocitycanbe measuredusingarulerandstopclock.Expectavelocityofabout 1mmper minute.
+#### Investigatingconductionvelocityofcolouredions
+Investigating conduction velocity of coloured ions
 
-figCObserving the slow speed of ion movement during current flow.
+In this experiment, you can observe the movement of coloured ions as charge carrier particles on a piece of filter paper soaked in ammonium hydroxide solution. A crystal of copper sulfate and one of potassium manganate(VII) will each dissolve, producing positive blue copper ions and negative purple ions of manganate(VII). Connecting a pd of 30 V across the wet filter paper will cause the ions to flow slowly across it, in opposite directions, and their velocity can be measured using a ruler and stop clock. Expect a velocity of about 1 mm per minute.
 
-SafetyNote:Avoidskincontactwiththesolutionandcrystals Everyone,especiallypersonswithrespiratoryproblems,must avoid inhaling ammonia vapour.Use eye protection when soaking thefilterpaperin the ammonia solution.
+fig C Observing the slow speed of ion movement during current flow.
+
+Safety Note: Avoid skin contact with the solution and crystals. Everyone, especially persons with respiratory problems, must avoid inhaling ammonia vapour. Use eye protection when soaking the filter paper in the ammonia solution.
 RESISTANCE
 
 Wehaveseenthatwhilstthenaturalspeedofelectronswithina metal is very high, their progress through a metal's lattice of fixed atomsisveryslow.They areconstantlycollidingwith thoseatoms making their motion like taking 100 steps forward and 99 steps back. This is electrical resistance.The frequency of collisions is determined in part by the temperature,as this affects the vibration of thefixed atoms.Thehigherthe metal's temperature,themore its atoms vibrate, and this means more collisions,further slowing the drift velocity of the electrons.
@@ -7532,33 +7766,35 @@ table AThe numberof charge carriersforsomecommonmaterials,atroom temperature and
 A slight decreaseinnformetals athigher temperaturesis duetotheir thermalexpansion,ratherthan any change in the number of available conduction electrons. It is not as significant as the increase in collisionsbetweenmetal atomsand conductionelectronscausedbyincreasedthermalvibrations.
 CHECKPOINT
 
-• 1.What isthe'driftvelocity'of conductionelectronsin a metal?
+• 1. What is the 'drift velocity' of conduction electrons in a metal?
 
-• 2.Foranaluminiumwire atroomtemperaturewithadiameterof0.40mm,calculatetheelectrons'drift velocitywhen a currentof 2.2Apasses throughthewire.
+• 2. For an aluminium wire at room temperature with a diameter of 0.40 mm, calculate the electrons' drift velocity when a current of 2.2 A passes through the wire.
 
-• 3.Explainwhy theresistance of a wire is greaterif the wireis longer.
+• 3. Explain why the resistance of a wire is greater if the wire is longer.
 
-• 4.Develop amodelto explainconduction andresistanceinmetals.Yourexplanation should include referencetoatleastthefollowingideas:
+• 4. Develop a model to explain conduction and resistance in metals. Your explanation should include reference to at least the following ideas:
 
-• movementofchargecarriers
+• movement of charge carriers
 
-• fixed latticeions
+• fixed lattice ions
 
-• collisionsbetweenionsandchargecarriers
+• collisions between ions and charge carriers
 
-• increasedvibrationsoffixedlatticeionswithtemperature
+• increased vibrations of fixed lattice ions with temperature
 
-• anevaluation of the strengths and weaknesses of yourmodel.
+• an evaluation of the strengths and weaknesses of your model.
 
-• 5.Estimate thenumberof freeconductionelectronsinacoin.
+• 5. Estimate the number of free conduction electrons in a coin.
 SUBJECT VOCABULARY
 
-driftvelocitytheslowoverallmovementofthechargesinacurrent
+drift velocity the slow overall movement of the charges in a current
 
-transportequation /=nAvq.This defineselectriccurrent,I,froma fundamental basis.Itistheproduct of chargecarriers,n;the chargeonthosecarriers,q:thecross-sectionalarea of theconductor,A;and thedrift velocityofthechargecarriersinthatconductor,
-EXAMHINT
+transport equation I = nAvq. This defines electric current, I, from a fundamental basis. It is the product of charge carriers, n; the charge on those carriers, q; the cross-sectional area of the conductor, A; and the drift velocity of the charge carriers in that conductor,
 
-Takecarenottoconfuse resistancewithresistivity.
+#### EXAMHINT
+EXAM HINT
+
+Take care not to confuse resistance with resistivity.
 LEARNING OBJECTIVES
 
 • Explainconductioninsemiconductors.
@@ -7575,33 +7811,35 @@ In solid materials, where there are many, many atoms close together, the allowed
 • fig AThe gaps between energy bands within materials explain why they are conductors or insulators.If there is a large energy gap, electrons will need to gain a lot of energy to leave their atoms and conduct a current.
 
 #### CONDUCTIONINSEMICONDUCTORS
-Thenumberofdelocalisedelectronsinasemiconductorislowcomparedwithmetals,andso the current theywill carryis thereforelower thanmetalsfor thesame appliedvoltage.At higher temperatures theyhavemoreconductionelectrons,asmoreelectrons areelevatedintothe conductionband.Therewillbe a temperature-relatedreductionincurrentduetoincreased collisions withfixed atoms,but the increase in available conduction electrons is a much bigger effect. Overall, a semiconductor will carry more current as the temperature goes up -its resistivity effectively drops as the temperature rises.
+The number of delocalised electrons in a semiconductor is low compared with metals, and so the current they will carry is therefore lower than metals for the same applied voltage. At higher temperatures they have more conduction electrons, as more electrons are elevated into the conduction band. There will be a temperature-related reduction in current due to increased collisions with fixed atoms, but the increase in available conduction electrons is a much bigger effect. Overall, a semiconductor will carry more current as the temperature goes up - its resistivity effectively drops as the temperature rises.
 CONDUCTION'HOLES'
 
 When anelectronenterstheconductionband andmoves away,thisleavestheatomwith apositive charge. The empty space the electron has left is referred to as a (positive)hole. If an electron from another atom moves to fill the hole, leaving its original atom with a hole, the hole has then moved. As the electrons will be attracted tojump in the positive direction of an applied voltage, the hole will slowly appear to move in the opposite direction. A positive hole moving towards the negative cathode is like another charge carrier, addingto the current flow in a semiconductor It is like the current flow in electrolysis, where positively and negatively charged particles are moving in opposite directionsatthesametime.
 LEARNING TIP
 
-Note thatconductionbyholesdoesnotmeanthereisoverall movementof thepositivemetal ions. Theholesarean absenceof anelectron,andit isthisspace thatmovesaselectronsactuallyjumpinthe oppositedirection.
+Note that conduction by holes does not mean there is overall movement of the positive metal ions. The holes are an absence of an electron, and it is this space that moves as electrons actually jump in the opposite direction.
 I-VCHARACTERISTICSOFASEMICONDUCTORDIODE
 
 A diode is made by joining different types of semiconductors, which normally creates an energy barrier at thejunctionbetween them.Thisblocksthemovement ofcharge carriers(holes andelectrons) across the barrier This barrier can be overcome in the forward direction if a small forward voltage is applied. for a tiny leakage current'. Once the reverse voltage becomes large enough, it can overcome the large reverseenergybarrier andforcetheconductionprocessintheoppositedirection.
 
 fig BThe/-Vcharacteristicsfora semiconductor diodein detail.
-LIGHTDEPENDENTRESISTORS(LDRS)ANDTHERMISTORS
 
-Light dependent resistors have the property that their resistance depends on the light level around them.Inbrighter conditions, the LDR will have a lower resistance.LDRs are made from semiconductor material,and light landingonthematerial canboost electronsfrom thevalence energyband upto the conductionband,increasingthenumberofconduction electrons.The effect of this is tomake theLDR conduct better-it has alower resistance.
+#### LIGHTDEPENDENTRESISTORS(LDRS)ANDTHERMISTORS
+LIGHT DEPENDENT RESISTORS (LDRS) AND THERMISTORS
 
-Thermistors work in exactly the same way, except that their resistance depends on thermal temperaturecoefficientthermistors.Theseusethermalenergytoboosttheirelectronsintothe conduction energyband,meaning their resistancefalls as the temperature rises.
+Light dependent resistors have the property that their resistance depends on the light level around them. In brighter conditions, the LDR will have a lower resistance. LDRs are made from semiconductor material, and light landing on the material can boost electrons from the valence energy band up to the conduction band, increasing the number of conduction electrons. The effect of this is to make the LDR conduct better - it has a lower resistance.
+
+Thermistors work in exactly the same way, except that their resistance depends on thermal temperature coefficient thermistors. These use the thermal energy to boost their electrons into the conduction energy band, meaning their resistance falls as the temperature rises.
 INSULATORS
 
 Electrical insulators can be thought of as materials in which the energy gap between the valence bandandtheconductionbandissolargethattherearevirtuallyzeroelectrons availablefor conduction. There will therefore be no conduction holes either. A very large input of energy is required in order to make the material conduct. Often this results in melting,or other damage,before insulator,but averyhighelectricfield,more than10millionvoltspermetre,created acrossglass can cause it to become conducting.
 SUPERCONDUCTIVITY
 
-Resistanceincreaseswithhigher temperatures,because thehigherlevelof internalenergyin the material causesmorevibration of thefixed ions.Theseions collide more oftenwith charge carriers toreducetheirspeedofmovementthroughthematerial.Reducingthetemperaturetherefore reducesresistance,allowinggreatercurrentflow.
+Resistance increases with higher temperatures, because the higher level of internal energy in the material causes more vibration of the fixed ions. These ions collide more often with charge carriers to reduce their speed of movement through the material. Reducing the temperature therefore reduces resistance, allowing greater current flow.
 
-figCIf we cool a conductor, the current through it is seen to increase because its resistance drops.
+fig C If we cool a conductor, the current through it is seen to increase because its resistance drops.
 
-Cooling to ever lower temperatures continues this trend, until something quite unexpected happens. Belowa certaincritical temperature,theresistancesuddenlydropstozero.Thisiscalled superconductivity.The critical temperaturevarieswith material,butformost metalsitwill be
+Cooling to ever lower temperatures continues this trend, until something quite unexpected happens. Below a certain critical temperature, the resistance suddenly drops to zero. This is called superconductivity. The critical temperature varies with material, but for most metals it will be
 
 current would normally waste too much energy or damage the surroundings with the heat dissipated. For example, the strong magnets needed in a particle accelerator will often be superconducting electromagnets in the Large Hadron Collider operate at about 1.9 K.
 DIDYOUKNOW?
@@ -7622,15 +7860,15 @@ CHECKPOINT
 • 2. 'The critical temperature for superconductivity forlead is 7.2K'.Explainwhat this statement means.
 
 • Some types of glass have been manufactured that do conduct electricity.Suggest and explain what properties impurities might have in these glasses to make them less insulating than standard glass.
-WORKED EXAMPLE
 
-semiconductorsmaterialswitha lowerresistivitythaninsulators,buthigherthanconductors.Theyusually onlyhavesmallnumbersofdelocalisedelectronsthatarefreetoconduct
+#### WORKED EXAMPLE
+semiconductors materials with a lower resistivity than insulators, but higher than conductors. They usually only have small numbers of delocalised electrons that are free to conduct
 
-valenceband arangeofenergyamountsthatelectronsinasolidmaterial canhavewhichkeepsthem closetooneparticularatom
+valence band a range of energy amounts that electrons in a solid material can have which keeps them close to one particular atom
 
-conductionband arangeof energy amounts thatelectronsina solidmaterial canhavewhichdelocalises them tomove more freely through the solid
+conduction band a range of energy amounts that electrons in a solid material can have which delocalises them to move more freely through the solid
 
-criticaltemperaturethetemperaturebelowwhichamaterial'sresistivityinstantlydropstozero superconductivitytheelectrical propertyofamaterial havingzeroresistivity
+critical temperature the temperature below which a material's resistivity instantly drops to zero superconductivity the electrical property of a material having zero resistivity
 SHOCKINGSTUFF
 
 CRITICALTHINKING,PROBLEMSOLVING,ANALYSIS,REASONING/ARGUMENTATION INTERPRETATION,ADAPTIVELEARNING,INITIATIVE,PRODUCTIVITY,COMMUNICATION
@@ -7669,26 +7907,25 @@ Picture the waiting room of ahospital oracorridor ora cafeteria. Now pictureavis
 |                     125 |    12.9 |      8.7 |      8.7 |     6.6 |      10.4 |       7.0 |
 |                     150 |    11.1 |      7.8 |      7.7 |     6.2 |      11.1 |       7.4 |
 |                     175 |     9.8 |      7.1 |      7.1 |     5.7 |      11.7 |       7.8 |
-Extract 2:
 
-fig B Graph of the current against time during discharge. The defibrillator discharge has a large shockinonedirection(T1)followedbyasmallershockin thereversedirection(T2)each of whichfollowsa trapezium shapeonthegraph.Thetableshowsthecurrentvaluesand times during the discharge,forvarious differentresistancevalues of thepatient.
+#### Extract 2:
+fig B Graph of the current against time during discharge. The defibrillator discharge has a large shock in one direction (T1) followed by a smaller shock in the reversed direction (T2) each of which follows a trapezium shape on the graph. The table shows the current values and times during the discharge, for various different resistance values of the patient.
 ENVIRONMENTAL
 
-OperatingTemperature:0°to50°C(32°to122°F)
+Operating Temperature: 0° to 50°C (32° to 122°F)
 
-One HourOperatingTemperature(fromroom temperature to temperature extreme,one hour duration):-20 to 60°C(-4 to+140°F).
+One Hour Operating Temperature (from room temperature to temperature extreme, one hour duration): -20 to 60°C (-4 to +140°F).
 
-electrodes(maximum exposure limited to 7 days).
+electrodes (maximum exposure limited to 7 days).
 
-Relative Humidity:5 to95%(non-condensing).
+Relative Humidity: 5 to 95% (non-condensing).
 
-AtmosphericPressure:575hPato1060hPa(4572to-382meters; 15,000 to -1253 feet)
+Atmospheric Pressure: 575 hPa to 1060 hPa (4572 to -382 meters; 15,000 to -1253 feet)
 
-Dust/WaterResistance:IP55withbattery andREDI-PAKm
-
+Dust/Water Resistance: IP55 with battery and REDI-PAKm
 electrodes installed (IEC 60529/EN 60529)
 
-Shock:40g peak,15-23ms, 45 Hz cross over frequency. Drop:1 meter drop oneachcorner,edge and surface
+Shock: 40g peak, 15-23ms, 45 Hz cross over frequency. Drop: 1 meter drop on each corner, edge and surface
 
 Bump: 15g, 1000 bumps (IEC 600-68-2-29)
 
@@ -7761,21 +7998,23 @@ Impedance is a term used to mean'resistance'when charge flow is in changing dire
 • D 3.2× 1022
 
 [1]
-（TotalforQuestion2=1mark)
 
-• 3Which of the followingis a correct explanationfor the shape of a current/voltage graph for a filament bulb?
+#### （TotalforQuestion2=1mark)
+（Total for Question 2 = 1 mark)
 
-• A Below a certain temperature, the resistivity of the filament materialsuddenlyreducesto zero.
+• 3 Which of the following is a correct explanation for the shape of a current/voltage graph for a filament bulb?
 
-• BAbove a certain temperature, the resistivity of thefilament materialsuddenlyreduces to zero.
+• A Below a certain temperature, the resistivity of the filament material suddenly reduces to zero.
 
-• C Increased voltage increases the current, which raises the temperature,increasing theresistance.
+• B Above a certain temperature, the resistivity of the filament material suddenly reduces to zero.
 
-• D As the voltage increases, the current increases, increasing the temperatureoftheflament,causingareleaseofmore conductionelectrons. [1]
+• C Increased voltage increases the current, which raises the temperature, increasing the resistance.
 
-(TotalforQuestion3=1mark)
+• D As the voltage increases, the current increases, increasing the temperature of the filament, causing a release of more conduction electrons. [1]
 
-• 4 Two wires are made of the same material with resistivity, p. WireX hasresistance R.WireYis twice aslong and hastwice thediameterofwireX.
+(Total for Question 3 = 1 mark)
+
+• 4 Two wires are made of the same material with resistivity, p. Wire X has resistance R. Wire Y is twice as long and has twice the diameter of wire X.
 
 Which row in the table correctly gives the resistances for both wires?
 
@@ -7790,53 +8029,59 @@ Which row in the table correctly gives the resistances for both wires?
 #### (TotalforQuestion3=1mark)
 [1]
 
-(TotalforQuestion 4=1mark)
+(Total for Question 4 = 1 mark)
 
-• 5Explain,in terms of energy,the difference between potential difference (pd) and electromotive force (emf). [2]
-(Total for Question5=2marks)
+• 5 Explain, in terms of energy, the difference between potential difference (pd) and electromotive force (emf). [2]
 
-• 6Theplanet Jupiter has a moonIo.Volcanic activity onIo releases clouds ofelectronswhich travel athighspeeds towards Jupiter. During a 15 s time period, 2.6 × 1026 electrons reachJupiterfromIo. Calculate the current.
+#### (Total for Question5=2marks)
+(Total for Question 5 = 2 marks)
+
+• 6 The planet Jupiter has a moon Io. Volcanic activity on Io releases clouds of electrons which travel at high speeds towards Jupiter. During a 15 s time period, 2.6 × 10²⁶ electrons reach Jupiter from Io. Calculate the current.
 
 [3]
-(Totalfor Question 6=3marks)
 
-• 7An integrated circuit uses strips of gold as connectors and strips of silicon as resistors.
+#### (Totalfor Question 6=3marks)
+(Total for Question 6 = 3 marks)
+
+• 7 An integrated circuit uses strips of gold as connectors and strips of silicon as resistors.
 
 • A strip of gold of cross-sectional area 3.0 × 10-6 m² carries a current of 8.0 mA. The charge carrier density n is 6.0 x 1028 m-3.
 
-• (a)Show that the carrier drift velocity v for gold is approximately 3× 10-7m s-1
+• (a) Show that the carrier drift velocity v for gold is approximately 3 × 10-7 m s-1
 
-• (b)An approximate value of vfor a sample of silicon of the same dimensions, carrying the same current, would be 0.2ms-1.
+• (b) An approximate value of v for a sample of silicon of the same dimensions, carrying the same current, would be 0.2 ms-1.
 
-• Compare thisvaluewith the oneforgoldand account for the difference in the values.
+• Compare this value with the one for gold and account for the difference in the values.
 
 [2]
 
-• (c)State and explain what happens to the resistance of a sample ofsilicon asitstemperatureincreases.
+• (c) State and explain what happens to the resistance of a sample of silicon as its temperature increases.
 
 [2]
 (Totalfor Question 7=6marks)
 
 • 8(a)Explain the difference between resistance and resistivity. [2]
 
-• (b) The resistivity of copper is 1.7 × 10-8 Ω m. A copper wire is 0.50 m long and has a cross sectional area of 1.0 x 10-6 m2. Calculate itsresistance. [2]
-(Total for Question8=4marks)
+• (b) The resistivity of copper is 1.7 × 10-8 Ω m. A copper wire is 0.50 m long and has a cross sectional area of 1.0 x 10-6 m2. Calculate its resistance. [2]
 
-• 9When tidying a prep room, a teacher discovers a tray of resistancewires that havelost theirlabels.Hedecidesto ask his students to carry out experiments to determine the material that each wire is made of by measuring the resistivity of the wires.
+#### (Total for Question8=4marks)
+(Total for Question 8 = 4 marks)
 
-• (a)Explainwhy the teacher asks the studentstomeasure theresistivity andnot theresistanceofthewires.
+• 9 When tidying a prep room, a teacher discovers a tray of resistance wires that have lost their labels. He decides to ask his students to carry out experiments to determine the material that each wire is made of by measuring the resistivity of the wires.
+
+• (a) Explain why the teacher asks the students to measure the resistivity and not the resistance of the wires.
 
 [2]
 
-• (b)Describe a method to determine accurately the resistivity of one of the metal wires. Yourdescriptionshouldinclude:
+• (b) Describe a method to determine accurately the resistivity of one of the metal wires. Your description should include:
 
-• ·the circuit diagram you would use
+• · the circuit diagram you would use
 
 • the quantities you would measure
 
-• thegraphyou would plot
+• the graph you would plot
 
-• ·how you would determine the resistivity.
+• · how you would determine the resistivity.
 
 [6]
 
@@ -7844,40 +8089,42 @@ Which row in the table correctly gives the resistances for both wires?
 
 • 10 (a) State Ohm's law.
 
-• (b)Using the axes below sketch graphs to show how resistancevarieswithpotentialdifferenceforafixed resistor and a 1.5 V filament lamp.
+• (b) Using the axes below sketch graphs to show how resistance varies with potential difference for a fixed resistor and a 1.5 V filament lamp.
 
 • [2] 12 A pen which has ink that conducts electricity is used to draw a circle.
 
 [2]
 
-• (c)Thefilamentofa lampismadeofmetal.Explainwhythe lamp does not demonstrate Ohm's law. [2]
-(Totalfor Question 10 =6marks)
+• (c) The filament of a lamp is made of metal. Explain why the lamp does not demonstrate Ohm's law. [2]
 
-• 11 The graph shows the current-potential difference characteristicfor anelectrical component.
+#### (Totalfor Question 10 =6marks)
+(Total for Question 10 = 6 marks)
+
+• 11 The graph shows the current-potential difference characteristic for an electrical component.
 
 • (a) State the name of the component.
 
 [1]
 
-• (b)State theresistance of the component when thepotential difference is-0.7V. [1]
+• (b) State the resistance of the component when the potential difference is -0.7V. [1]
 
-• (c) Calculate theresistance of the component when the potential difference is +0.7V.
+• (c) Calculate the resistance of the component when the potential difference is +0.7V.
 
 [2]
 
-• (d)State apractical usefor this component.
+• (d) State a practical use for this component.
 
 [1]
 
-(Total for Question 11 =5 marks)
+(Total for Question 11 = 5 marks)
 
-The diameter from point A to point B across the circle is 25.0cm
+The diameter from point A to point B across the circle is 25.0 cm
 
 • (a) Describe an experimental method to measure the resistance of the ink circle between points A and B. [3]
 
-• (b)How would theresistance between points A and B changeif the circlewasredrawnwith theinkline twice thewidth,butwith the same size circle and the same depth of ink on the paper? [2]
+• (b) How would the resistance between points A and B change if the circle was redrawn with the ink line twice the width, but with the same size circle and the same depth of ink on the paper? [2]
 
-(Total for Question 12=5marks)
+(Total for Question 12 = 5 marks)
 
 ## Topic 4: Electric Circuits
 
@@ -7885,22 +8132,22 @@ The diameter from point A to point B across the circle is 25.0cm
 
 COMPLETE ELECTRICAL CIRCUITS
 
-A smartphone uses over a billion tiny electrical circuits in order to perform a huge range of functions. However, it isbasicallypowered by aDCbattery thatwill supply a continuousvoltage of approximately 4volts.From this function.
+A smartphone uses over a billion tiny electrical circuits in order to perform a huge range of functions. However, it is basically powered by a DC battery that will supply a continuous voltage of approximately 4 volts. From this function.
 
-For the complex machines we use every day, the individual components need particular currents and voltages in ordertofunctionproperly.In ordertoensure thattheyreceive appropriatecurrents andvoltages,wemust connectthem togetherin circuitsof thecorrectdesignandwith othercomponents.Thedesign oftheoverall circuit, and designs of partsof it,rely on the calculations of the electrical properties ateachpoint in the circuit.
+For the complex machines we use every day, the individual components need particular currents and voltages in order to function properly. In order to ensure that they receive appropriate currents and voltages, we must connect them together in circuits of the correct design and with other components. The design of the overall circuit, and designs of parts of it, rely on the calculations of the electrical properties at each point in the circuit.
 
-In thischapter,you will learnhowthefundamental electrical quantities change around different parts of a circuit, andhow they canbe alteredbythe design of the circuit.
+In this chapter, you will learn how the fundamental electrical quantities change around different parts of a circuit, and how they can be altered by the design of the circuit.
 MATHS SKILLS FOR THIS CHAPTER
 
-• Unitsofmeasurement(e.g.theohm,Q)
+• Units of measurement (e.g. the ohm, Ω)
 
-• Substitutingnumerical valuesinto algebraicequations(e.g.calculating the electrical energy transferred by a component)
+• Substituting numerical values into algebraic equations (e.g. calculating the electrical energy transferred by a component)
 
-• Solvingalgebraicequations(e.g.thepotential divider equation)
+• Solving algebraic equations (e.g. the potential divider equation)
 
 • Using ratios, fractions and percentages (e.g. the efficiency equation)
 
-• Determining the slope and intercept of a linear graph (e.g. finding the emf and internal resistance from experimentalresults)
+• Determining the slope and intercept of a linear graph (e.g. finding the emf and internal resistance from experimental results)
 Topic4A
 
 • Energy transfersin electrical circuits
@@ -7910,19 +8157,21 @@ Topic4A
 • Explanationsofthemovementofchargedparticles intermsoftheirmaterialmedium
 
 AIESAIT
-Whatwill I studyin thischapter?
 
-• Howtheconservation ofcharge,and the conservation ofenergy,affect the distributionof currents andvoltages around circuits
+#### Whatwill I studyin thischapter?
+What will I study in this chapter?
 
-• Howresistancescanbecombinedandseparated inseriesandparallelcircuits
+• How the conservation of charge, and the conservation of energy, affect the distribution of currents and voltages around circuits
 
-• Howinternalresistancecan affecttheusefulness ofanelectricalsupply
+• How resistances can be combined and separated in series and parallel circuits
 
-• Calculationsofcurrent,voltage,andresistance
+• How internal resistance can affect the usefulness of an electrical supply
 
-• Ohm'slawingeneralandwhenitis,andisnot, relevant
+• Calculations of current, voltage, and resistance
 
-• How to calculate the transfer of electrical energy andpower,and theefficiencyofanelectrical device orcircuit
+• Ohm's law in general and when it is, and is not, relevant
+
+• How to calculate the transfer of electrical energy and power, and the efficiency of an electrical device or circuit
 LEARNING OBJECTIVES
 
 • Calculate currents,voltages andresistances in series and parallel circuits.
@@ -7962,9 +8211,9 @@ Any group of emfs that follow in series in a circuit, with no junctions in the c
 fig FPotential differences in series will add up.What would be the total pd across the two resistors in this diagram?
 WORKED EXAMPLE
 
-In thecircuitdiagramoffigF,thetwovoltmetersmeasurethepotentialdifferencesinthecircuit. The totalpd acrossbothresistors will be the sum of theirindividualpds,so the total is 2V+4V= 6V.
+In the circuit diagram of fig F, the two voltmeters measure the potential differences in the circuit. The total pd across both resistors will be the sum of their individual pds, so the total is 2V+4V= 6V.
 
-Voltages aremeasures of energy changeascharge passes through a component. Assuch,theymustbemeasured from onesidetotheother, i.e.thevoltmetermustalways beplacedinparallelacross thecomponent.
+Voltages are measures of energy change as charge passes through a component. As such, they must be measured from one side to the other, i.e. the voltmeter must always be placed in parallel across the component.
 VOLTAGESINPARALLELCIRCUITS
 
 If the total voltage across any branch of a circuit is known, then thevoltage across any other branch inparallel with it will be identical.
@@ -7974,7 +8223,7 @@ RESISTANCE
 
 This can
 
-bedoneforanyindividual componentorawholebranchofa circuit, as long as the voltage and current are known. This also meansthatifwefollowtherulesforcurrentandvoltagevariations aroundseries andparallelcircuits,wecomeupwithsimplerules for thetotalresistanceinseries andparallel combinations.
+be done for any individual component or a whole branch of a circuit, as long as the voltage and current are known. This also means that if we follow the rules for current and voltage variations around series and parallel circuits, we come up with simpler rules for the total resistance in series and parallel combinations.
 RESISTORSINSERIES
 
 Any group of resistances that follow in series in a circuit, with no junctions in the circuit,will have a total resistance that is the sum of theirindividual values.In fig F,we could use the total pd across both resistors and the current through them to calculate their total resistance:
@@ -7986,43 +8235,44 @@ Youwill seethatthismatcheswith ourrule that
 R_total = R₁ + R₂ = 10 + 20 = 30 Ω
 LEARNING TIP
 
-Ammetersinseries,andvoltmetersinparallel,donotaffectresistance and canbe ignored.
+Ammeters in series, and voltmeters in parallel, do not affect resistance and can be ignored.
 DERIVATION
 
-Resistors inserieswill have a totalpd acrossthem that is the sum of theirindividual pds.The current through them will be the same for each one. Take an example of threeresistors in series:
+Resistors in series will have a total pd across them that is the sum of their individual pds. The current through them will be the same for each one. Take an example of three resistors in series:
 
 potential difference: V_total = V₁ + V₂ + V₃ and V = IR ∴ IR_total = IR₁ + IR₂ + IR₃ ∴ R_total = R₁ + R₂ + R₃
 
-andV=IR
+and V = IR
 
-• IRtotal = IR + IR2 + IR3
+• IR_total = IR₁ + IR₂ + IR₃
+• R_total = R₁ + R₂ + R₃
 
-• Rtota=R+R+R3
+RESISTORS IN PARALLEL
 
-RESISTORSINPARALLEL
-
-The total resistance of a group of resistors in parallel can be calculatedfromtheequation:
+The total resistance of a group of resistors in parallel can be calculated from the equation:
 
 1/R_total = 1/R₁ + 1/R₂ + 1/R₃ + ...
 
-COMPLETEELECTRICALCIRCUITS
+COMPLETE ELECTRICAL CIRCUITS
 
-• figHResistorsinparallelfollowareciprocalsumruletofindtheirtotal resistance.
+• Fig. Resistors in parallel follow a reciprocal sum rule to find their total resistance.
 WORKED EXAMPLE
 
-In thecircuit diagram of figH,what is the overallresistance of the blockof threeresistors?
+In the circuit diagram of figH, what is the overall resistance of the block of three resistors?
 
 1/R_total = 1/R₁ + 1/R₂ + 1/R₃ ∴ 1/R_total = 1/16 + 1/24 + 1/48 ∴ 1/R_total = 3/48 + 2/48 + 1/48 ∴ 1/R_total = 6/48 ∴ 1/R_total = 1/8 R_total = 8 Ω
-EXAMHINT
 
-Notethatthestepsandlayoutofthesolutioninthisworkedexample aresuitableforquestionsoncalculatingtheoverallresistanceof resistorsinparallel intheexam.
+#### EXAMHINT
+EXAM HINT
+
+Note that the steps and layout of the solution in this worked example are suitable for questions on calculating the overall resistance of resistors in parallel in the exam.
 
 LEARNING TIP
 
-Anycombinationofresistorsinparallelwill havearesistancethatis smaller than thesmallest individual resistance in thegroup.
+Any combination of resistors in parallel will have a resistance that is smaller than the smallest individual resistance in the group.
 DERIVATION
 
-Resistors inparallelwill haveatotal current through themthat is the sum of theirindividual currents.Thepd across themwill be the samefor eachbranch.Take an example of threeresistors in parallel:
+Resistors in parallel will have a total current through them that is the sum of their individual currents. The pd across them will be the same for each branch. Take an example of three resistors in parallel:
 
 current: I_total = I₁ + I₂ + I₃ and I = V/R ∴ V/R_total = V/R₁ + V/R₂ + V/R₃ ∴ 1/R_total = 1/R₁ + 1/R₂ + 1/R₃
 RESISTORSBRANCHCOMBINATIONS
@@ -8032,7 +8282,7 @@ Ifa circuit has a mixture of series andparallel combinations,we must use the rul
 • figICalculate the total resistance of resistor groups separately,before using the appropriate rule to combine the sub-totals together.
 WORKED EXAMPLE
 
-Infigl,wemustcalculate the totalresistance of theparallel pairfirst, andthenaddthistotaltotheremaining100k2thatisinserieswith the pair.The junction separating the singleresistor from theparallel pairistheclueastohowtoseparatethecalculations.
+In fig. 1, we must calculate the total resistance of the parallel pair first, and then add this total to the remaining 100 kΩ that is in series with the pair. The junction separating the single resistor from the parallel pair is the clue as to how to separate the calculations.
 
 Parallel pair:
 
@@ -8042,10 +8292,10 @@ Total resistance:
 
 R_total = 100 kΩ + R_para = 100 + 50 R_total = 150 kΩ
 
-Rtotal = 150 kΩ2
+Rtotal = 150 kΩ
 EXAMHINT
 
-Note thatthesteps andlayoutof thesolutionin thisworkedexample aresuitableforquestionsoncalculatingtheoverallresistanceof resistorsinparallelandseriesintheexam.
+Note that the steps and layout of the solution in this worked example are suitable for questions on calculating the overall resistance of resistors in parallel and series in the exam.
 
 #### EXAMHINT
 tableASummaryoftheelectricalrulesinseriesandparallelcircuits
@@ -8060,28 +8310,28 @@ tableASummaryoftheelectricalrulesinseriesandparallelcircuits
 tableASummaryoftheelectricalrulesinseriesandparallelcircuits
 Investigating circuit rules
 
-Makea complexcircuitwithvariouscomponentsinseriesand parallel combinations.By using only an ammeter and voltmeter,your partner should be able to prove the circuit rules explained in this section.lf theresistancesarelarge,theammetermayneedtobea multimetersettoreadmilliampcurrents.
+Make a complex circuit with various components in series and parallel combinations. By using only an ammeter and voltmeter, your partner should be able to prove the circuit rules explained in this section. If the resistances are large, the ammeter may need to be a multimeter set to read milliamp currents.
 
-Joinvariousresistorsinvariouscombinationsofseriesandparallel connections.Yourpartnershouldcalculatewhattheyexpectthe overallresistanceof thecombinationtobe.Checkwhethertheyhave calculatedcorrectlybymeasuringtheoverallresistanceoftheresistor combinationusinganohmmeter.
+Join various resistors in various combinations of series and parallel connections. Your partner should calculate what they expect the overall resistance of the combination to be. Check whether they have calculated correctly by measuring the overall resistance of the resistor combination using an ohmmeter.
 
-SafetyNote:Shortcircuitsandoverloadingcomponentswillcause overheatingandburnsonskincontact.
+Safety Note: Short circuits and overloading components will cause overheating and burns on skin contact.
 CHECKPOINT
 
-• 1.How does fig Billustrate the conservation of charge in a circuit?
+• 1. How does fig B illustrate the conservation of charge in a circuit?
 
-• 2.lf all fourcell combinationsinfigEwereconnected to eachother inseries,whatwouldbethetotalemf?
+• 2. If all four cell combinations in fig E were connected to each other in series, what would be the total emf?
 
-• 3.If R has a resistance of 24 Ω,how much current flows in figJ?
+• 3. If R has a resistance of 24 Ω, how much current flows in fig J?
 
-• 4. Use Ohm's law on the resistors in figK to verify that thevoltage acrossparallelbranchesisalwaysthesame.
+• 4. Use Ohm's law on the resistors in fig K to verify that the voltage across parallel branches is always the same.
 
 fig K
 
-• 5.Whatisthetotal current thatflowsinfigI?
+• 5. What is the total current that flows in fig I?
 
-• 6.(a)What isthetotal current flow through the cell infig H?
+• 6. (a) What is the total current flow through the cell in fig H?
 
-• (b)Howmuch currentflows inthe 48resistorinfig H?
+• (b) How much current flows in the 48 resistor in fig H?
 LEARNING OBJECTIVES
 
 • Understandhowthedistributionofcurrentinacircuit isaconsequenceofchargeconservation.
@@ -8176,13 +8426,13 @@ PROBLEM SOLVING
 figEUsing thevoltagescircuitrule.
 SUBJECT VOCABULARY
 
-electriccurrentrule thealgebraicsum of thecurrentsenteringa junctionisequaltozero:
+electric current rule the algebraic sum of the currents entering a junction is equal to zero:
 
-∑/=0
+∑I=0
 
-voltagescircuitrulearoundaclosedloop,thealgebraicsumofthe emfsisequal tothe algebraicsumof thepds:
+voltage circuit rule around a closed loop, the algebraic sum of the emfs is equal to the algebraic sum of the pds:
 
-=∑IR
+∑E=∑IR
 LEARNING OBJECTIVES
 
 • Describe and explainpotential dividercircuits.
@@ -8228,13 +8478,13 @@ potential divider circuit: Vouu, R, R2 and Vin. Using these, we can calculate th
 V_out = V_in × (R₂/(R₁ + R₂))
 EXAMHINT
 
-Using thevalues infigD,we canfind thepd acrossresistorR2:
+Using the values in fig D, we can find the pd across resistor R2:
 
 V_out = 12 × (500/(100 + 500)) = 12 × 5/6
 
 V_out = V_in × (R₂/(R₁ + R₂))
 
-Notethatthestepsandlayout ofthesolutioninthisworked examplearesuitablefor questionsonfindingthepd acrossaresistorintheexam.
+Note that the steps and layout of the solution in this worked example are suitable for questions on finding the pd across a resistor in the exam.
 THEPOTENTIOMETER
 
 The idea of using a potential divider to supply a variable voltage as required has been incorporated into an electrical component called the potentiometer.A moveable contact can slide over a fixed length of resistance wire which adjusts the length that is on either side of this'wiper'. The two lengths of wire are the two resistors in our potential divider circuit. Adjusting their relative lengths alters their relative resistances and the voltage across each. If we want to power a separate circuit with a variable voltage, we connect it across one side of the potentiometer. This is shown in fig F, wherewe would connect theright-hand side connections across Rto ourmain circuit.The blocks marked R and Rare a continuouspiece ofresistancewire,whichwill be split intotworesistances by thepositionof thewiper.Adjusting thewiper up and down allows us tohave any desired voltage up to the maximum of Vsupply-
@@ -8245,25 +8495,27 @@ POTENTIALDIVIDERSINSENSORCIRCUITS
 If one of the resistors in a potential divider is a sensor component (such as thermistor or LDR) then we can use its changingresistanceto control an externalcircuit.
 
 fig GA sense and control circuit which makes the light brighteras the light level in theroom drops
-COMPLETEELECTRICALCIRCUITS
 
-In fig G, the lamp is in parallel with the LDR, so will be powered by the same voltage as that across the LDR. The resistance of a LDR increases if the ambient light level drops (darker surroundings make its resistance go up). In bright conditions, the LDR has a very low resistance, so it takes a very small proportion of the12V supplied by thebattery. Thiswill make the lampvery dim,probably somuch that it will appear tobe off;it isnot needed if the surroundings are bright.As conditions become darker, the LDR resistance goes up, increasing the proportion of the 12 V supplied that drop brightness of the lamp as the surroundings become darker
+#### COMPLETEELECTRICALCIRCUITS
+COMPLETE ELECTRICAL CIRCUITS
 
-Many electronic components have a switch-on voltage of 5 V. These could be used with a sensor in a potentialdividercircuit,andwouldonlyswitchonwhenthesensor'sresistancereached alevelwhere itspdwas5V.Alteringtheresistorinthiscircuitwould thencontrol thesensorlevel atwhich the electroniccomponentwasswitchedon.
+In fig G, the lamp is in parallel with the LDR, so will be powered by the same voltage as that across the LDR. The resistance of a LDR increases if the ambient light level drops (darker surroundings make its resistance go up). In bright conditions, the LDR has a very low resistance, so it takes a very small proportion of the 12V supplied by the battery. This will make the lamp very dim, probably so much that it will appear to be off; it is not needed if the surroundings are bright. As conditions become darker, the LDR resistance goes up, increasing the proportion of the 12 V supplied that drop brightness of the lamp as the surroundings become darker.
+
+Many electronic components have a switch-on voltage of 5 V. These could be used with a sensor in a potential divider circuit, and would only switch on when the sensor's resistance reached a level where its pd was 5V. Altering the resistor in this circuit would then control the sensor level at which the electronic component was switched on.
 CHECKPOINT
 
-• 1. Apotentialdividercircuit suppliedby anemfof8Vhastworesistors,R,=125andR=135Ω. WhatwillbetheoutputvoltageacrossR?
+• 1. A potential divider circuit supplied by an emf of 8V has two resistors, R₁ = 125 and R₂ = 135Ω. What will be the output voltage across R₂?
 
 • 2. What voltage would Vout be if the wiper was placed 10 cm from the top?
 
-• Drawapotentialdividercircuit,likethatinfigG,whichwilldriveafanmotorinakitchenfasterasit becomeshotter.(Astandardthermistorhasahigherresistanceatlowertemperatures.)
+• Draw a potential divider circuit, like that in fig G, which will drive a fan motor in a kitchen faster as it becomes hotter. (A standard thermistor has a higher resistance at lower temperatures.)
 
-• FigHshowsalengthofresistancewire,withacontactthatcanrotatearoundapivottocontact withmore orlessof theresistancewire.Explainhowthisrepresentsapotentialdividercircuit andwhat will happento thebrightnessof thelamp asthecontact isrotated clockwisefrom the position shown.
+• Fig H shows a length of resistance wire, with a contact that can rotate around a pivot to contact with more or less of the resistance wire. Explain how this represents a potential divider circuit and what will happen to the brightness of the lamp as the contact is rotated clockwise from the position shown.
 SUBJECT VOCABULARY
 
-tworesistors
+two resistors
 
-potentiometeraversionof thepotential dividerinwhichasingleresistancewireisusedintwoparts toformthetworesistances.Aslidingconnectiononthewirecanbeadjustedtoalterthecomparative resistancesand thus altertheoutputpdfrom thepotentiometer
+potentiometer a version of the potential divider in which a single resistance wire is used in two parts to form the two resistances. A sliding connection on the wire can be adjusted to alter the comparative resistances and thus alter the output pd from the potentiometer
 EXAM HINT
 
 Theinternalresistanceisan internalpartoftheemf,and cannotbeaccessedseparately. Donotdrawavoltmeter measuring acrossr,as thisis impossible.
@@ -8293,55 +8545,59 @@ As all parallel branches have the same voltage across them, the terminal pd woul
 V_terminal = V_load = ε − Ir
 
 figBCircuitfordemonstratingtheeffect ofinternalresistance.
-COMPLETEELECTRICALCIRCUITS
 
-By considering energy conservation, we can draw up an equation for the circuit thatincludes theinternal resistance.
+#### COMPLETEELECTRICALCIRCUITS
+COMPLETE ELECTRICAL CIRCUITS
+
+By considering energy conservation, we can draw up an equation for the circuit that includes the internal resistance.
 
 Σε = ΣV ∴ ε = V_load + V_internal ∴ ε = V_load + Ir = IR + Ir
 
-• =Vload+lr=IR+lr
+• = V_load + Ir = IR + Ir
 
-Thecircuit showninfigB demonstrateswhat themathematics meanspractically.Thevoltmeterwillbemeasuringthevoltage actually supplied by the cell, so that will be its pure emf minus thepd across theinternal resistance,orlostvolts.However,as the ammeter should have zero pd, the voltmeter will also be reading thevalue of thepotential differenceacross thevariableresistor,R.
+The circuit shown in fig B demonstrates what the mathematics means practically. The voltmeter will be measuring the voltage actually supplied by the cell, so that will be its pure emf minus the pd across the internal resistance, or lost volts. However, as the ammeter should have zero pd, the voltmeter will also be reading the value of the potential difference across the variable resistor, R.
 
 ε − V_r = V_R
 
-Or,in terms of the ammeter reading,I,and the voltmeter reading,V:
+Or, in terms of the ammeter reading, I, and the voltmeter reading, V:
 
 ε − Ir = V ∴ ε = V + Ir
 
-• =V+lr
+• = V + Ir
 
 which is, again, a statement of energy conservation in this circuit.
-Investigatinginternal resistance
 
-Wecanfindtheinternalresistanceforasourceofemfsuchasacell in anexperiment.Usinga circuit likethatshowninfigB,weadjust thevariableresistorto changethe currentthrough thecircuit,and at each current value we record the voltmeter reading.
+#### Investigatinginternal resistance
+Investigating internal resistance
 
-The equation wehavepreviously seenforthe quantitiesin this circuit is:
+We can find the internal resistance for a source of emf such as a cell in an experiment. Using a circuit like that shown in fig B, we adjust the variable resistor to change the current through the circuit, and at each current value we record the voltmeter reading.
+
+The equation we have previously seen for the quantities in this circuit is:
 
 ε − Ir = V
 
 V = −rI + ε
 
-Comparing this with the equation for a straight-line graph y = mx + c shows us that a graph plotted withV on the y-axis and / on the x-axis will have agradient equal inmagnitude to the internal resistance,r. They-intercept,c,hererepresents thevoltmeterreadingwhenno currentflows.Ifthereisnocurrentin thecircuit,theinternal resistancecantakeno energyfromthecircuit,so therewill bezero lostvoltsandthevoltmeterwillreadthefullvalueoftheemf.So,the y-intercept is thevalue of the emf,ε.
+Comparing this with the equation for a straight-line graph y = mx + c shows us that a graph plotted with V on the y-axis and I on the x-axis will have a gradient equal in magnitude to the internal resistance, r. The y-intercept, c, here represents the voltmeter reading when no current flows. If there is no current in the circuit, the internal resistance can take no energy from the circuit, so there will be zero lost volts and the voltmeter will read the full value of the emf. So, the y-intercept is the value of the emf, ε.
 
 or:
 SKILLS
 
 REASONING/ARGUMENTATION, ANALYSIS
 
-• 1. What istheinternalresistanceofa6Vbatteryif it supplies5.8Vto alampwhenthecurrentflowingis0.40A?
+• 1. What is the internal resistance of a 6V battery if it supplies 5.8V to a lamp when the current flowing is 0.40A?
 
-• 2. Whatistheinternalresistance ofa1.5Vdrycell,thatdelivers 1.3Vtoalampwhichhasaresistanceof5.0Ω?
+• 2. What is the internal resistance of a 1.5V dry cell, that delivers 1.3V to a lamp which has a resistance of 5.0Ω?
 
-• 3. The startermotorforacarengineneedsa veryhighcurrent,for example100A.
+• 3. The starter motor for a car engine needs a very high current, for example 100A.
 
-• (a)Explainwhyacarbatteryshouldhaveaverylowinternal resistance.
+• (a) Explain why a car battery should have a very low internal resistance.
 
-• (b)Explainwhythecar'sheadlightsareobservedtodimifthey areonwhenthecar'sstartermotorisused.
+• (b) Explain why the car's headlights are observed to dim if they are on when the car's starter motor is used.
 
-• 4. Astudentinvestigatingtheemf and internalresistanceofadry cellusedthecircuitinfigB,withthecellintheplacemarkedby the dashed lines.Hecollected theresultsin table A.
+• 4. A student investigating the emf and internal resistance of a dry cell used the circuit in fig B, with the cell in the place marked by the dashed lines. He collected the results in table A.
 
-Plotagraphtofindboththeinternalresistance andtheemfof thecellthatthestudenttested.
+Plot a graph to find both the internal resistance and the emf of the cell that the student tested.
 
 #### SKILLS
 |   AMMETERREADING,I/A |   VOLTMETERREADING,V/V |
@@ -8357,7 +8613,7 @@ Plotagraphtofindboththeinternalresistance andtheemfof thecellthatthestudentteste
 table A Current andvoltagereadings from a student experiment to find internal resistance of a dry cell.
 SUBJECT VOCABULARY
 
-internalresistancetheresistanceofanemfsource
+internal resistance the resistance of an emf source
 LEARNING OBJECTIVES
 
 • Explainwork done by electric circuits.
@@ -8390,7 +8646,7 @@ W=Vx/xt
 figBElectrical workdonebyalightbulb.
 WORKED EXAMPLE
 
-InfigB,if thebulblightsupfor4.85seconds,howmuchworkhas thebulb done?
+In Fig B, if the bulb lights up for 4.85 seconds, how much work has the bulb done?
 
 W=VIt
 
@@ -8399,7 +8655,7 @@ W=7.06×1.45×4.85
 W=49.6J
 EXAMHINT
 
-Notethatthestepsandlayoutofthesolutioninthisworkedexample aresuitableforquestionsonfindingtheworkdoneintheexam.
+Note that the steps and layout of the solution in this worked example are suitable for questions on finding the work done in the exam.
 ELECTRICALPOWER
 
 Power, P,is the rate of transfer of energy, or the rate of doing work. In an electrical circuit, the energy is dissipated by a component. The mathematical definition is:
@@ -8413,18 +8669,20 @@ P = VIt/t P = VI
 P=VI
 LEARNING TIP
 
-Electrical work andpowerequationsforall components:
+Electrical work and power equations for all components:
 
 W=VIt
 
 P=VI
 WORKED EXAMPLE
 
-In figB,what is thepower of thebulb? P=VI P=7.06x1.45 P=10.2W
+In fig B, what is the power of the bulb? P=VI P=7.06x1.45 P=10.2W
 EXAMHINT
 
-Notethatthestepsandlayout of thesolutioninthisworked examplearesuitablefor questions oncalculating electricalpowerintheexam.
-POWERDISSIPATEDBYRESISTORS
+Note that the steps and layout of the solution in this worked example are suitable for questions on calculating electrical power in the exam.
+
+#### POWERDISSIPATEDBYRESISTORS
+POWER DISSIPATED BY RESISTORS
 
 We can also write variations of the electrical power equation, substituting in terms from Ohm's law so that we can calculate the power dissipated by resistors in a circuit.
 
@@ -8436,12 +8694,12 @@ If we only know current and resistance:
 
 P = IR × I = I²R
 
-Or,ifwe onlyknow pd and resistance:
+Or, if we only know pd and resistance:
 
 P = V × V/R = V²/R
 LEARNING TIP
 
-Resistancepower dissipationequations:
+Resistance power dissipation equations:
 
 P = I²R P = V²/R
 EFFICIENCY
@@ -8482,23 +8740,25 @@ useful power
 efficiency= 3.57 10.2
 
 efficiency=0.35=35%
-Investigatingefficiency
 
-We canfind the efficiencyof anelectricmotorbymeasuring the electrical energy it transfers,and gravitational potential energy.
+#### Investigatingefficiency
+Investigating efficiency
 
-fig DFinding the efficiency of an electricmotor lifting a weight.
+We can find the efficiency of an electric motor by measuring the electrical energy it transfers, and gravitational potential energy.
 
-You switch on the motorand find the time(t) it takes tolift theknownmass(m) through afixed height(△h). During the lifting process, you measure the average pd (V) across the motor and current through it (I) using anammeter anda voltmeter.Youuse these measurementstocalculate thetotal energyinputand the useful energyoutputforuseintheefficiencyequation.
+fig D Finding the efficiency of an electric motor lifting a weight.
 
-useful energy output = gravitational potential energy gained =mg△h
+You switch on the motor and find the time (t) it takes to lift the known mass (m) through a fixed height (△h). During the lifting process, you measure the average pd (V) across the motor and current through it (I) using an ammeter and a voltmeter. You use these measurements to calculate the total energy input and the useful energy output for use in the efficiency equation.
+
+useful energy output = gravitational potential energy gained = mg△h
 
 useful energy output mg△h
 
-motorefficiency
+motor efficiency
 
-total energy input Vlt
+total energy input VIt
 
-Safety Note: Secure the motor to a firm base.Only use low voltagemotors and small masses.
+Safety Note: Secure the motor to a firm base. Only use low voltage motors and small masses.
 CHECKPOINT
 
 • 1.Howmuchworkis doneby theresistorinthecircuit infig Eif thecircuit isswitchedonfor11 seconds?
@@ -8522,11 +8782,11 @@ figF
 Energy flows through an electric heater.
 SUBJECT VOCABULARY
 
-efficiencytheabilityofamachinetotransferenergyusefully:
+efficiency the ability of a machine to transfer energy usefully:
 
-usefulworkdone efficiency total energy input
+useful work done efficiency total energy input
 
-usefulenergyoutput
+useful energy output
 
 efficiency=
 
@@ -8538,26 +8798,28 @@ CURIOUSVOLTAGEDROP
 CRITICALTHINKINGPROBLEMSOLVINGANALYSIS ADAPTIVELEARNINGPRODUCTIVITY,COMMUNICATION
 
 One of the most important componentsfor robotic spacecraft is their electrical power supply. The electrical system on NASA's Mars
-ROVER TEAM WORKING TO DIAGNOSE ELECTRICALISSUE
-
-This picture of NASA's Mars rover Curiosity combines 66 exposures taken by the rover's Mars Hand Lens Imager (MAHLl) during the 177th Martian day, or sol, of Curiosity's work on Mars.
-
-Science observationsbyNASA'sMarsroverCuriosityhavebeen stoppedfor a fewdayswhile engineersrun tests tocheckpossible causes of a voltage change that was noticed on Nov. 17.
-
-*The vehicleis safe and stable and fully capable of operatingin its present condition,but we are taking the precaution of investigating what maybe a soft short,said MarsScience LaboratoryProject Manager Jim Erickson at NASA's Jet Propulsion Laboratory, Pasadena,Calif.
-
-A'soft'short is a leakthrough something that's partially conductive ofelectricity,rather than a hardshort suchasone electricalwire contactinganother.
-
-From a news story on thewebsite of NASA,www.jpl.nasa.gov/news The teamnoticed achangeinthevoltagedifferencebetween the chassis and the32-volt power busthat distributes electricity to systems throughout therover.Dataindicatingthe changewerereceived on Sunday,during Curiosity's 456thMartian day.Thelevelhadbeen about 11 volts sincelanding day,and is now about 4volts.The rover's electricalsystemis designedwiththeflexibilitytoworkproperly throughout that range and more with a design feature called'floating bus.'
 
 #### ROVER TEAM WORKING TO DIAGNOSE ELECTRICALISSUE
-A soft short can cause such avoltage change.Curiosityhad already experienced one soft short on the day it landed on Mars.That one was linked toexplosive-release devicesusedfor deploymentsshortlybefore and after thelanding.It lowered thebus-to-chassisvoltagefrom about 16volts toabout11volts buthas not affectedrover operationssince then.
+ROVER TEAM WORKING TO DIAGNOSE ELECTRICAL ISSUE
 
-The analysiswork tofind the causeof thevoltagechangehasgained an advantagefrom anautomatedresponsebytherover'sonboardsoftware when it detected thevoltage change on Nov.17. The rover increased therate atwhichit recorded electricalvariables,to eight times per secondfrom the usual onceper minute,andsent that engineering data initsnext communicationwithEarth."Thatdatawasquitehelpful, Zimmerman said.
+This picture of NASA's Mars rover Curiosity combines 66 exposures taken by the rover's Mars Hand Lens Imager (MAHLI) during the 177th Martian day, or sol, of Curiosity's work on Mars.
 
-Theelectricalissue did not cause therover to enter a safe-modestatus, inwhichmost activities automaticallystop untilfurtherinstructions are given.Also,there is no indication the issue is related to a computer reboot that caused a'safe-mode'earlier thismonth.
+Science observations by NASA's Mars rover Curiosity have been stopped for a few days while engineers run tests to check possible causes of a voltage change that was noticed on Nov. 17.
 
-NASA's MarsScience LaboratoryProject is using Curiosity inside Gale Crater to assess ancient habitable environments and major changes in Martianenvironmentalconditions.JPL,adivisionoftheCalifornia Institute ofTechnologyinPasadena,built therover and manages the project for NASA's Science Mission Directorate in Washington.
+*The vehicle is safe and stable and fully capable of operating in its present condition, but we are taking the precaution of investigating what may be a soft short, said Mars Science Laboratory Project Manager Jim Erickson at NASA's Jet Propulsion Laboratory, Pasadena, Calif.
+
+A 'soft' short is a leak through something that's partially conductive of electricity, rather than a hard short such as one electrical wire contacting another.
+
+From a news story on the website of NASA, www.jpl.nasa.gov/news The team noticed a change in the voltage difference between the chassis and the 32-volt power bus that distributes electricity to systems throughout the rover. Data indicating the change were received on Sunday, during Curiosity's 456th Martian day. The level had been about 11 volts since landing day, and is now about 4 volts. The rover's electrical system is designed with the flexibility to work properly throughout that range and more with a design feature called 'floating bus.'
+
+#### ROVER TEAM WORKING TO DIAGNOSE ELECTRICALISSUE
+A soft short can cause such a voltage change. Curiosity had already experienced one soft short on the day it landed on Mars. That one was linked to explosive-release devices used for deployments shortly before and after the landing. It lowered the bus-to-chassis voltage from about 16 volts to about 11 volts but has not affected rover operations since then.
+
+The analysis work to find the cause of the voltage change has gained an advantage from an automated response by the rover's onboard software when it detected the voltage change on Nov. 17. The rover increased the rate at which it recorded electrical variables, to eight times per second from the usual once per minute, and sent that engineering data in its next communication with Earth. "That data was quite helpful," Zimmerman said.
+
+The electrical issue did not cause the rover to enter a safe-mode status, in which most activities automatically stop until further instructions are given. Also, there is no indication the issue is related to a computer reboot that caused a 'safe-mode' earlier this month.
+
+NASA's Mars Science Laboratory Project is using Curiosity inside Gale Crater to assess ancient habitable environments and major changes in Martian environmental conditions. JPL, a division of the California Institute of Technology in Pasadena, built the rover and manages the project for NASA's Science Mission Directorate in Washington.
 SCIENCECOMMUNICATION
 
 • 1The extractoppositeconsists of an article from theNewssectionof theNASA website. Consider the extract and comment on the type of writing that is used. Try and answer the following questions:
@@ -8567,23 +8829,23 @@ SCIENCECOMMUNICATION
 • (b)ExplainthreedifferentreasonswhyNASAwouldpostthisnewsarticle.
 PHYSICS IN DETAIL
 
-Now we willlook at the physics in detail. Some of these questions link to topics elsewhere in this book, so you may need to combine concepts from different areas of physics to work out theanswers.
+Now we will look at the physics in detail. Some of these questions link to topics elsewhere in this book, so you may need to combine concepts from different areas of physics to work out the answers.
 
-• 2Curiosityroverispoweredbyaradioisotopeelectricitygeneratingunit,whichhasapowerof 110 watts when functioning correctly. What would be the current through the main 32 volt powerbusthatdistributes all of theelectricalpower?
+• 2 Curiosity rover is powered by a radioisotope electricity generating unit, which has a power of 110 watts when functioning correctly. What would be the current through the main 32 volt power bus that distributes all of the electrical power?
 
-• 3 The power bus uses potential dividers to provide the appropriate voltage to each separate electrical circuit from its basic32Vsupply.
+• 3 The power bus uses potential dividers to provide the appropriate voltage to each separate electrical circuit from its basic 32V supply.
 
-• (a)Thearticlereferstoanearliervoltagedrop incidentfrom thestandardof16V downto 11V. Suggest two resistance values that could be used in a potential divider,from the main power bus supply, to give an output voltage equal to16 V.
+• (a) The article refers to an earlier voltage drop incident from the standard of 16V down to 11V. Suggest two resistance values that could be used in a potential divider, from the main power bus supply, to give an output voltage equal to 16 V.
 
-• (b) If a 'soft short' had caused that drop down to 11 V, suggest what the resistance of the short circuiting object would be,based onyour answer topart (a).
+• (b) If a 'soft short' had caused that drop down to 11 V, suggest what the resistance of the short circuiting object would be, based on your answer to part (a).
 
-• (c)Whatfurtherresistancewould anothersoftshortobjectneed tofurtherreducethe voltagefrom11Vdownto4V?
+• (c) What further resistance would another soft short object need to further reduce the voltage from 11V down to 4V?
 
-• 4NAsA claim that the rover can function perfectly normally across these variations in supply voltage.
+• 4 NASA claim that the rover can function perfectly normally across these variations in supply voltage.
 
 • (a) Why would it be important that the plutonium cell generating emf has as low a resistance as possible, especially in the event of a short circuit reducing the overall resistance?
 
-• (b)Explain how an itemof debris touchingelectrical circuitry couldreduce theresistance of that circuit.
+• (b) Explain how an item of debris touching electrical circuitry could reduce the resistance of that circuit.
 ACTIVITY
 
 Once the problem with Curiosity's voltage supply was determined and rectified, NASA had to produce anotherpress release explaining this.Prepare a half page of text to beincluded in the be affected by the cold temperatures on Mars. Focus your explanation on the electrical properties of the materials.
@@ -8593,7 +8855,7 @@ INTERPRETATIONNOTE
 Think about what NASA might gain from this being made publicinformation.NASA is the American space agency - the National Aeronautics and Space Administration.
 THINKING BIGGER TIP
 
-Choose any values of R andR2 foryourpotentialdividerthat will sharethevoltagetogivethe correct output values.Useyour initial suggestedvaluesasabasis for answering all parts of the question.
+Choose any values of R and R2 for your potential divider that will share the voltage to give the correct output values. Use your initial suggested values as a basis for answering all parts of the question.
 THINKING BIGGER TIP
 
 The flying bus' system uses a numberofdifferentavailable resistancesto change how the voltage is divided,depending ontheemfavailable.Someof the components will be made frommetal,andsomewillbe made from semi-conductors. The temperatureon thesurface of Mars ranges from 20°C to -150°C,with-55°Cbeing a typical value.
@@ -8686,59 +8948,67 @@ Lamp B glows more brightly than lamp A. Complete each of the sentences by choosi
 | TheresistanceoflampAis resistance of lamp B. |             | the [3] |
 
 #### (Total for Question 5 = 1 mark)
-• (b)The same bulbs are now connected in parallel with thebattery.
+• (b) The same bulbs are now connected in parallel with the battery.
 
 • State which bulb will be brighter and explain your answer. [3]
 
 (Total for Question 6 = 6 marks)
 
-• 7Astudentis askedtoexplainwhich oftwofilamentlampswill be brighterwhen they are connected in parallel across a power supply.Heis told that theresistance oflampAis greater than the resistance of lampB.
-COMPLETEELECTRICALCIRCUITS
+• 7 A student is asked to explain which of two filament lamps will be brighter when they are connected in parallel across a power supply. He is told that the resistance of lamp A is greater than the resistance of lamp B.
 
-The student wrote the following explanation that contains somemistakes:
+#### COMPLETEELECTRICALCIRCUITS
+COMPLETE ELECTRICAL CIRCUITS
 
-Thecurrentisthesameinbothlamps.BecauselampAhasa higherresistance,itisharderfortheelectronstomovethrough this lampsotheywill losemore energy.LampAwill therefore bebrighterthanlampB.'
+The student wrote the following explanation that contains some mistakes:
+
+The current is the same in both lamps. Because lamp A has a higher resistance, it is harder for the electrons to move through this lamp so they will lose more energy. Lamp A will therefore be brighter than lamp B.'
 
 Write a correct explanation.
 
 [5]
-(Total forQuestion 7=5marks)
 
-• 8A circuit is setup as shownin the diagram.Thebatteryhas negligibleinternal resistance.
+#### (Total forQuestion 7=5marks)
+(Total for Question 7 = 5 marks)
 
-• (a)Calculate the potential difference across the 40Ω2 resistor.
+• 8 A circuit is set up as shown in the diagram. The battery has negligible internal resistance.
 
-• (b)A thermistoris connected in parallel with the 40 Ω resistor as shown.
+• (a) Calculate the potential difference across the 40Ω resistor.
 
-The thermistor is initially at a temperature of 100°C and itsresistanceis20Ω.Asthethermistorcoolsdown,its resistanceincreases.
+• (b) A thermistor is connected in parallel with the 40 Ω resistor as shown.
+
+The thermistor is initially at a temperature of 100°C and its resistance is 20Ω. As the thermistor cools down, its resistance increases.
 
 Explain what happens to the current through the battery as the temperature of the thermistor decreases. [3]
-(TotalforQuestion8=5marks)
 
-• 9(a)A kettle is rated at 1kW, 220 V.
+#### (TotalforQuestion8=5marks)
+(Total for Question 8 = 5 marks)
+
+• 9(a) A kettle is rated at 1 kW, 220 V.
 
 Calculate the working resistance of the kettle. [2]
 
-• (b)Whenconnectedto a220Vsupplied,it takes3minutesfor the water in the kettle to reach boiling point. Calculate how much energy has been supplied. [2]
+• (b) When connected to a 220 V supplied, it takes 3 minutes for the water in the kettle to reach boiling point. Calculate how much energy has been supplied. [2]
 
-• (c)Different countries supply mains electricity at differentvoltages. Manyhotelsnowofferachoice of voltage supplies as shown in the photograph.
+• (c) Different countries supply mains electricity at different voltages. Many hotels now offer a choice of voltage supplies as shown in the photograph.
 
 [2]
 
-• (i）By mistake, the kettle is connected to the 110 V supply.Assuming that theworkingresistance of thekettle does not change,calculatethetimeit wouldtakeforthesame amountofwaterto reach boiling point.
+• (i) By mistake, the kettle is connected to the 110 V supply. Assuming that the working resistance of the kettle does not change, calculate the time it would take for the same amount of water to reach boiling point.
 
 [3]
 
-• (i)Explain what might happen if a kettle designed to operate at 110V is connected to a 220 V supply.[2]
-(Total forQuestion 9 = 9marks)
+• (ii) Explain what might happen if a kettle designed to operate at 110V is connected to a 220 V supply. [2]
 
-• 10Mobile phones have a rechargeable battery which is rechargedbymeansofamains adaptor.Onesuchadaptor has an input power of 4.8 W at a voltage of 230 V.
+#### (Total forQuestion 9 = 9marks)
+(Total for Question 9 = 9 marks)
 
-• (a)Calculate the input current to the adaptor when it is in use. [2]
+• 10 Mobile phones have a rechargeable battery which is recharged by means of a mains adaptor. One such adaptor has an input power of 4.8 W at a voltage of 230 V.
 
-• (b) Theadaptor'soutput islabelledas5V0.1A0.5VA
+• (a) Calculate the input current to the adaptor when it is in use. [2]
 
-• Show that the unitVA is equivalent to thewatt.
+• (b) The adaptor's output is labelled as 5V 0.1A 0.5VA
+
+• Show that the unit VA is equivalent to the watt.
 
 [1]
 
@@ -8746,22 +9016,22 @@ Calculate the working resistance of the kettle. [2]
 
 • Calculate the efficiency of the adaptor. [2]
 
-• (ii)Suggest a reason why the efficiency is less than 100%.
+• (ii) Suggest a reason why the efficiency is less than 100%.
 
 [1]
 (Total for Question 10 =6marks)
 
-• 11Electrically heated gloves are used by skiers and climberstoprovide extra warmthfor theirhands.
+• 11 Electrically heated gloves are used by skiers and climbers to provide extra warmth for their hands.
 
-• Eachglovehas aheatingelementof resistance3.62.Two cells each of e.m.f 1.5V and internal resistance 0.2Ω areusedtooperateeachheatingelement.
+• Each glove has a heating element of resistance 3.6 Ω. Two cells each of e.m.f 1.5V and internal resistance 0.2Ω are used to operate each heating element.
 
-• (a)When the switch is closed:
+• (a) When the switch is closed:
 
-• (i) Calculate the totalresistancein the circuit.
+• (i) Calculate the total resistance in the circuit.
 
 [1]
 
-• (ii) Calculate thecurrentin theheatingelement.
+• (ii) Calculate the current in the heating element.
 
 [2]
 
@@ -8769,13 +9039,13 @@ Calculate the working resistance of the kettle. [2]
 
 [2]
 
-• (b)When in use, the internal resistance of each cell gradually increases.
+• (b) When in use, the internal resistance of each cell gradually increases.
 
-State and explain the effect this will have on the power outputoftheheatingelement. [3]
+State and explain the effect this will have on the power output of the heating element. [3]
 
 (Total for Question 11 =8marks)
 
-• 12 Explainhow thecurrentandvoltagerulesforelectrical circuits are expressions of the conservation of charge and the conservation of energy. [6]
+• 12 Explain how the current and voltage rules for electrical circuits are expressions of the conservation of charge and the conservation of energy. [6]
 
 (Total for Question 12 = 6 marks)
 
@@ -8805,7 +9075,7 @@ Here are some examples:
 | 3700000           | 3.7 ×106               |
 WORKED EXAMPLE
 
-Calculate the momentum of a bullet of mass 5.2 grams fired at a speed of 825 m s-1 in kg m s-1. Themomentumofthisbulletwouldbe:
+Calculate the momentum of a bullet of mass 5.2 grams fired at a speed of 825 m s-1 in kg m s-1. The momentum of this bullet would be:
 
 p=mxv
 
@@ -8893,13 +9163,15 @@ Follow this four-step procedure:
 WORKED EXAMPLE
 
 Calculatethelengthofsidex.
-1Summaryof data
 
-First,writedownall of thedata involved: Angle=30° Hypotenuse =12 m Opposite =x
+#### 1Summaryof data
+1 Summary of data
+
+First, write down all of the data involved: Angle=30° Hypotenuse =12 m Opposite =x
 
 2 Selection
 
-Next,select the appropriate trigonometricratio using'SOH CAHTOAIt canbehelpful to place a small tickaboveanyvariableinvolved.
+Next, select the appropriate trigonometric ratio using 'SOH CAH TOA'. It can be helpful to place a small tick above any variable involved.
 
 In this case we see:
 
@@ -8907,55 +9179,51 @@ In this case we see:
 
 3 Substitution
 
-Writeout the trigonometricratio thatyouhavechosen.Youmayneed torearrangeit to express the valueyou are interested in.
+Write out the trigonometric ratio that you have chosen. You may need to rearrange it to express the value you are interested in.
 
 opposite
-
 sinA=
-
 hypotenuse
 
-opposite= sin Axhypotenuse
+opposite = sinA × hypotenuse
+opposite = sin30 × 12m
 
-opposite=sin30×12m
+4 Calculate and check
 
-4Calculateandcheck
-
-Calculate your answer using therequiredfunction onyour scientific calculator.Thenperform three youhaveusedthecorrectunits.
+Calculate your answer using the required function on your scientific calculator. Then perform three you have used the correct units.
 
 x=0.5×12m=6m
 
-FINDINGANUNKNOWNANGLE
+FINDING AN UNKNOWN ANGLE
 
 Follow the same four-step procedure. The only difference is that you will need to use the inverse function on your calculator.
 
-1Summaryof data
+1 Summary of data
 
 Opposite=7m
-
 Adjacent=15m
-
 Angle=x
 
-2Selection
+2 Selection
 
 ✓ SOH ✓ CAH ✓✓ TOA
 
-Thecorrectratiotouseistangent.
+The correct ratio to use is tangent.
 
 3 Substitution
 
-tan θ = opposite/adjacent θ = tan⁻¹(opposite/adjacent) θ = tan⁻¹(7/5)
+tan θ = opposite/adjacent
+θ = tan⁻¹(opposite/adjacent)
+θ = tan⁻¹(7/15)
 
-4Calculateandcheck
+4 Calculate and check
 
 x=25.01689
+x=25.0°(1 decimal place)
 
-x=25.0°(1decimalplace)
+APPLYING YOUR SKILLS
 
-APPLYINGYOURSKILLS
-
-You will often find that you need to usemore than one maths technique to answer a question.In this section,wewill look at four example questions and consider which maths skills arerequired and how to apply them.
+You will often find that you need to use more than one maths technique to answer a question. In this section, we will look at four example questions and consider which maths skills are required and how to apply them.
 WORKED EXAMPLE
 
 A treestandsinafield.Thetreeis50mnorthof thegatetothefieldandis20meastofthegate
@@ -8996,39 +9264,41 @@ Now wemust combine thenorth and eastcomponents tofind thenet speed.Yourecognise 
 so speed=√5.74=2.40ms-1.
 WORKED EXAMPLE
 
-Astudentmeasurestheresistivityofsomemetalintheformofawire. Hestartsbylookingupthedefinitionofresistivitywhichis
+A student measures the resistivity of some metal in the form of a wire. He starts by looking up the definition of resistivity which is
 
-RxA where Ris theresistance of a lengthlof a wire of
+R = ρ × l/A where R is the resistance of a length l of a wire of
 
-cross-sectionalarea A.
+cross-sectional area A.
 
-Hemeasurestheresistanceofdifferentlengthsofthewireandplotsa graph of hisreadings.
+He measures the resistance of different lengths of the wire and plots a graph of his readings.
 
-• Explainwhetherthereadingsshouldgivealineofbestfitthat a passesthroughtheorigin.
+• Explain whether the readings should give a line of best fit that passes through the origin.
 
-• (b) Hemeasuresthediameterofthewireas0.234mm.Determinethe cross-sectional area A.
+• (b) He measures the diameter of the wire as 0.234 mm. Determine the cross-sectional area A.
 
-• C Takemeasurementsfromthegraphtoshow that thegradientmof thelineofbestfitisaboutm=11.7Qm-andhencecalculatea valuefortheresistivityofthemetalofthewire.
+• (c) Take measurements from the graph to show that the gradient m of the line of best fit is about m = 11.7 Ωm⁻¹ and hence calculate a value for the resistivity of the metal of the wire.
 
-• a) Youneed torecall the equation of a straightliney=mx+c wherethedata isplottedonthexandyaxesandm isthe gradient andcis theintercepton they-axis.
+• (a) You need to recall the equation of a straight line y = mx + c where the data is plotted on the x and y axes and m is the gradient and c is the intercept on the y-axis.
 
-• Youmustthencompare thiswith theequationforresistivity wherehehasmeasuredRandI.
-
-wecansee that if Risplottedon they-axis
+• You must then compare this with the equation for resistivity where he has measured R and l.
 
 A
 
-which is a constant so the linewill be straight.There are no othertermsintheresistivityequationso thevalueforcwillbe zero and theline shouldpass through theorigin.
+We can see that if R is plotted on the y-axis
+
+l
+
+which is a constant so the line will be straight. There are no other terms in the resistivity equation so the value for c will be zero and the line should pass through the origin.
 
 Note that the origin is not marked on this graph, it starts at (0.4, 4.0)
 
-• (b)Youneed toremembertheformulaforthe areaofa circle A=T×r²
+• (b) You need to remember the formula for the area of a circle A = π × r²
 
 Note you can only measure the diameter of a piece of wire so you must divide by 2 to get the radius r.
 
 Gradient = (11.9 − 4.9)/(1.0 − 0.4) = 7/0.6 = 11.7 = ρ/A So ρ = 11.7 Ω m⁻¹ × 4.30 × 10⁻⁸ m² = 5.03 × 10⁻⁸ Ω m
 
-• Take measurements from the graph to show that the gradient m of the line of best fit is about m = 11.7 Qm- and hence calculateavaluefortheresistivityof themetal of thewire.
+• Take measurements from the graph to show that the gradient m of the line of best fit is about m = 11.7 Ωm⁻¹ and hence calculate a value for the resistivity of the metal of the wire.
 
 #### WORKED EXAMPLE
 Gradient = rise over run, so take measurements from the line of best fit-not theplots
@@ -9171,21 +9441,21 @@ Question analysis
 • Clarity andbrevity are thekeystosuccess onshortopen questions. For one mark, it is not always necessary to write completesentences.
 COMMENTARY
 
-This is anincorrect answer because:
+This is an incorrect answer because:
 
 • The student did not give a complete equation. This is easy to see because there is no equals sign!
 
 [1]
 
-Multiplechoicequestionsalwayshaveonemarkandthe answerisgiven!Forthisreasonstudentsoftenmakethe mistakeofthinkingthattheyaretheeasiestquestionson thepaper.Unfortunately,this is notthecase.These questionsoftenrequire several answerstobeworked out andanerrorinoneofthemwillleadtothewronganswer being selected.The threeincorrectanswerssupplied (distractors)willfeaturetheanswersthatstudentsarriveat if they make typical or common errors. The trick is to answerthequestionbeforeyoulookatanyoftheanswers.
+Multiple choice questions always have one mark and the answer is given! For this reason students often make the mistake of thinking that they are the easiest questions on the paper. Unfortunately, this is not the case. These questions often require several answers to be worked out and an error in one of them will lead to the wrong answer being selected. The three incorrect answers supplied (distractors) will feature the answers that students arrive at if they make typical or common errors. The trick is to answer the question before you look at any of the answers.
 
 One ampere (1A) is the movement of one coulomb (1 C) of charge per second (1s). Therefore the correct answer is B.
 
-Ifyouhave anytimeleft attheendof thepapergoback andcheckyouranswertoeachpartofamultiplechoice question so that a slip like this does not cost you a mark.
+If you have any time left at the end of the paper go back and check your answer to each part of a multiple choice question so that a slip like this does not cost you a mark.
 
-Thecommandwordwriteisusedwhenyouarebeingasked towritedown anequation.Sinceonlyonemarkis available, your equation needs to be completely correctto gain the mark.
+The command word write is used when you are being asked to write down an equation. Since only one mark is available, your equation needs to be completely correct to gain the mark.
 
-Whilethis answeristhecorrectidea,itwouldnotgetthe markasthestudenthasnotwrittenanequationasthe question asked.
+While this answer is the correct idea, it would not get the mark as the student has not written an equation as the question asked.
 QUESTIONTYPE:OPENRESPONSE
 
 Describeacircuit thatcouldbeusedtocontroltheheating inagreenhousetocomeonwhentheambienttemperature dropsbelowacertainvalue.
@@ -9207,11 +9477,13 @@ Thisis aweak answerbecause:
 • ·The student has suggested including a thermistor but has not describedwhatitwould do.
 
 • Thestudent's answerrestatesinformationfromthequestion. This will never score marks so is a poor use of time and space.
-QUESTIONTYPE:EXTENDEDWRITING
 
-Themaximumspeedlimitonmotorwayshasnotbeenraised sincethe1960s.However,developmentsinengineeringmean thatmoderncarshavemuchhighertopspeedsthancarsinthe past andcanstopsafelyinshorterdistances.
+#### QUESTIONTYPE:EXTENDEDWRITING
+QUESTIONTYPE: EXTENDED WRITING
 
-Discusstherisksandbenefitsofraisingthemaximumspeed limitsonmotorways.
+The maximum speed limit on motorways has not been raised since the 1960s. However, developments in engineering mean that modern cars have much higher top speeds than cars in the past and can stop safely in shorter distances.
+
+Discuss the risks and benefits of raising the maximum speed limits on motorways.
 Question analysis
 
 • ·All extended writing answers need to discuss the physics behind the scenario. To gain full marks, your answer must be complete and coherent.
@@ -9325,100 +9597,102 @@ acceleration (m s⁻²) = change in velocity (m s⁻¹) / time taken to change t
 
 a = (v − u)/t OR a = Δv/Δt
 
-amperetheunitofmeasurementforelectriccurrent:oneamphere (1A) isthemovementofone coulomb(1 C)of changepersecond (1 s) amplitudethemagnitudeofthemaximumdisplacementreachedbyan oscillationinthewave
+ampere the unit of measurement for electric current: one ampere (1A) is the movement of one coulomb (1 C) of charge per second (1 s)
 
-anchoranobject,usuallyonaropeorchain,designedtogivesupport antinodesregionson a stationarywavewhere the amplitude of oscillationisatitsmaximum
+amplitude the magnitude of the maximum displacement reached by an oscillation in the wave
 
-Archimedes'principletheupthrustonanobjectisequal totheweight offluiddisplaced
+anchor an object, usually on a rope or chain, designed to give support
 
-averagespeedspeedforawholejourney,calculatedbydividingthe total distanceforajourneybythetotaltimeforthejourney:
+antinodes regions on a stationary wave where the amplitude of oscillation is at its maximum
+
+Archimedes' principle the upthrust on an object is equal to the weight of fluid displaced
+
+average speed speed for a whole journey, calculated by dividing the total distance for a journey by the total time for the journey:
 
 average speed (m s⁻¹) = total distance (m) / total time (s)
 
-bisectstodividesomethingintotwo,usuallyequal,parts catapult a device thatcanthrowobjects at a highspeed centreofgravitythepointthroughwhichtheweightofanobject appearstoact
+bisects to divide something into two, usually equal, parts
 
-chargeafundamentalpropertyofsomeparticles.Itisthecauseofthe electromagneticforce,anditisabasicaspectofdescribingelectrical effects
+catapult a device that can throw objects at a high speed
 
-coefficientofviscosityanumericalvaluegiventoafluidtoindicate howmuchitresistsflow
+centre of gravity the point through which the weight of an object appears to act
 
-coherencewaves whichmust have the samefrequencyand a constant phaserelationship.Coherentwavesareneededtoformastable standingwave
+charge a fundamental property of some particles. It is the cause of the electromagnetic force, and it is a basic aspect of describing electrical effects
 
-compressionanareainalongitudinalwaveinwhichtheparticle oscillationsputthemclosertoeachotherthantheirequilibriumstate
+coefficient of viscosity a numerical value given to a fluid to indicate how much it resists flow
 
-compressionaforceactingwithinamaterialina directionthatwould squashthematerial.Also,thedecreaseinsizeofamaterialsample undera compressiveforce
+coherence waves which must have the same frequency and a constant phase relationship. Coherent waves are needed to form a stable standing wave
+
+compression an area in a longitudinal wave in which the particle oscillations put them closer to each other than their equilibrium state
+
+compression a force acting within a material in a direction that would squash the material. Also, the decrease in size of a material sample under a compressive force
 
 #### GLOSSARY
-conduction band a range of energy amounts that electrons in a solid material canhavewhichdelocalisesthemtomovemorefreelythrough the solid
+conduction band a range of energy amounts that electrons in a solid material can have which delocalises them to move more freely through the solid
 
-conservationofenergytherulethatrequiresthatenergycanneverbe createdordestroyed
+conservation of energy the rule that requires that energy can never be created or destroyed
 
-conservationoflinearmomentumthevectorsumofthemomentaof all objectsin a system isthesamebefore and afteranyinteraction (collision)betweentheobjects
+conservation of linear momentum the vector sum of the momenta of all objects in a system is the same before and after any interaction (collision) between the objects
 
-constructiveinterferencethesuperpositioneffectoftwowavesthat areinphase,producingalargeramplituderesultantwave
+constructive interference the superposition effect of two waves that are in phase, producing a larger amplitude resultant wave
 
-coulomb,Ctheunitofmeasurementforcharge:onecoulombisthe quantityofchargethatpassesapointinaconductorpersecondwhen oneampereof currentisflowingin theconductor.Theamountof charge ona single electron in these units is-1.6x10-19C
+coulomb, C the unit of measurement for charge: one coulomb is the quantity of charge that passes a point in a conductor per second when one ampere of current is flowing in the conductor. The amount of charge on a single electron in these units is -1.6x10⁻¹⁹ C
 
-criticalangleisthelargestangleofincidencethatarayinamore opticallydensemediumcanhaveandstillemergeintolessdense medium.Beyondthisangle,theraywillbetotallyinternallyreflected
+critical angle is the largest angle of incidence that a ray in a more optically dense medium can have and still emerge into less dense medium. Beyond this angle, the ray will be totally internally reflected
 
-criticaltemperaturethetemperaturebelowwhichamaterial's resistivityinstantlydropstozero
+critical temperature the temperature below which a material's resistivity instantly drops to zero
 
-Electric current the rate of flow of charge. Current can be calculated fromtheequation:
+Electric current the rate of flow of charge. Current can be calculated from the equation:
 
 current (A) = charge passing a point (C) / time for that charge to pass (s) I = ΔQ/Δt
 
-deformationtheprocessofalterationofformorshape densitya measureof themassperunitvolumeofasubstance destructiveinterferencethesuperpositioneffectoftwowavesthatare outofphase,producingasmalleramplituderesultantwave diffraction when a wavepasses closeby an objectorthroughagap,the waveenergyspreads out
+deformation the process of alteration of form or shape density a measure of the mass per unit volume of a substance destructive interference the superposition effect of two waves that are out of phase, producing a smaller amplitude resultant wave diffraction when a wave passes close by an object or through a gap, the wave energy spreads out
 
-displacementthepositionofaparticularpointonawave,ata particularinstant in time,measured from the mean(equilibrium) position
+displacement the position of a particular point on a wave, at a particular instant in time, measured from the mean (equilibrium) position
 
 #### GLOSSARY
-displacementthevectormeasurementofdistanceinacertaindirection
+displacement the vector measurement of distance in a certain direction
 
-displacement-timegraphagraphshowingthepositionsvisited ona journey,withdisplacementonthey-axis andtime onthex-axis driftvelocitytheslowoverallmovementofthechargesinacurrent
+displacement-time graph a graph showing the positions visited on a journey, with displacement on the y-axis and time on the x-axis drift velocity the slow overall movement of the charges in a current
 
-efficiencythe abilityof amachinetotransferenergy usefully:
+efficiency the ability of a machine to transfer energy usefully:
 
 efficiency = useful energy output / total energy input
 
-efficiency=
+efficiency = useful power output / total power input
 
-usefulpoweroutput
+elastic limit the maximum extension or compression that a material can undergo and still return to its original dimensions when the force is removed
 
-total powerinput
+electric current rule the algebraic sum of the currents entering a junction is equal to zero:
 
-elasticlimitthemaximumextensionorcompressionthatamaterialcan undergoandstillreturntoitsoriginaldimensionswhentheforceis removed
+∑I = 0
 
-electriccurrentrulethealgebraicsumofthecurrentsenteringa junctionisequaltozero:
+electromotive force, or emf, a voltage as defined below, with the energy coming into the circuit through a voltage of 1V
 
-∑/=0
+1eV = 1.6×10⁻¹⁹J
 
-electromotiveforce,oremf,avoltageasdefinedbelow,withthe energy cominginto the circuit
+1 megaelectronvolt = 1MeV = 1.6×10⁻¹³J
 
-through avoltageof1V
+energy the property of an object related to doing work. A change in the amount of energy of an object could be equated to work being done, even if this is not mechanical - a change in the thermal energy of a sample of gas, for example
 
-1eV=1.6×10-19j
+equilibrium the situation for a body where there is zero resultant force and zero resultant moment. It will have zero acceleration
 
-1megaelectronvolt=1MeV=1.6x10-13j
+ground state, for example, n an atom, if an electron is in a higher energy level than the ground state, the atom is said to be 'excited'
 
-energythepropertyofanobjectrelated todoingwork.Achangeinthe amountofenergyofanobjectcouldbeequatedtoworkbeingdone, evenifthisisnotmechanical-achangeinthethermalenergyofa sampleofgas,forexample
+explosion a situation in which a stationary object (or system of joined objects) separates into component parts, which move off at different velocities. Momentum must be conserved in explosions
 
-equilibriumthesituationforabodywherethereiszeroresultantforce andzeroresultantmoment.Itwillhavezeroacceleration
+extension an increase in size of a material sample caused by a tension force
 
-ground state,forexample,n an atom,if anelectron is in ahigher energylevelthanthegroundstate,theatomissaidtobe'excited
-
-explosionasituationinwhichastationaryobject(orsystemof joined objects)separatesintocomponentparts,whichmoveoff atdifferent velocities.Momentummustbeconservedinexplosions
-
-extensionanincreaseinsizeofamaterialsamplecausedbyatension force
-
-fluid anysubstancethatcanflow
+fluid any substance that can flow
 
 #### GLOSSARY
-free-bodyforcediagramdiagramshowinganobjectisolated,and all theforces that act onit are drawn in at the points where they act,using arrowstorepresenttheforces
+free-body force diagram diagram showing an object isolated, and all the forces that act on it are drawn in at the points where they act, using arrows to represent the forces
 
 frequency the number of complete wave cycles per second:
 
 frequency (Hz) = 1/time period (s) f = 1/T
 
-gradienttheslopeofalineorsurface
+gradient the slope of a line or surface
 
 virtue of its position in a gravitational field:
 
@@ -9426,190 +9700,192 @@ gpe (J) = mass (kg) × gravitational field strength (N kg⁻¹) × height (m)
 
 E_grav = mgh OR ΔE_grav = mgΔh
 
-groundstatethelowestenergylevelforasystem,forexample,when all theelectronsinan atomareinthelowest energylevelsthey can occupy,theatomissaidtobeinitsgroundstate
+ground state the lowest energy level for a system, for example, when all the electrons in an atom are in the lowest energy levels they can occupy, the atom is said to be in its ground state
 
-hydrometeraninstrumentusedtodeterminethedensityofafluid
+hydrometer an instrument used to determine the density of a fluid
 
-hysteresiswheretheextensionunderacertainloadwillbedifferent dependingonitshistoryofpastloadsandextensions
+hysteresis where the extension under a certain load will be different depending on its history of past loads and extensions
 
-instantaneousspeed thespeed atanyparticularinstantintimeona journey,whichcanbefoundfromthegradientofthetangenttoa distance-timegraphatthattime
+instantaneous speed the speed at any particular instant in time on a journey, which can be found from the gradient of the tangent to a distance-time graph at that time
 
-interferencethesuperpositionoutcomeofa combinationofwaves.An interferencepatternwill onlybeobservedundercertainconditions, such asthewavesbeingcoherent
+interference the superposition outcome of a combination of waves. An interference pattern will only be observed under certain conditions, such as the waves being coherent
 
-internalresistancetheresistanceofanemfsource
+internal resistance the resistance of an emf source
 
-atom'sgroundstateinordertoremovetheelectroncompletelyfrom theatom
+atom's ground state in order to remove the electron completely from the atom
 
-kinematicsthestudyofthedescriptionofthemotionofobjects
+kinematics the study of the description of the motion of objects
 
-kinetic energy(E) the energy an object stores by virtue of its movement:
+kinetic energy (E) the energy an object stores by virtue of its movement:
 
 kinetic energy (J) = ½ × mass (kg) × (speed)² m² s⁻² E_k = ½ × m × v²
 
-laminarflow/streamlineflowafluidmoveswithuniformlinesinwhich thevelocityisconstantovertime
+laminar flow/streamline flow a fluid moves with uniform lines in which the velocity is constant over time
 
 #### GLOSSARY
-limitofproportionalitythemaximumextension(orstrain)thatan object(orsample)canhave,whichisstillproportionaltotheload(or stress)applied
+limit of proportionality the maximum extension (or strain) that an object (or sample) can have, which is still proportional to the load (or stress) applied
 
-linespectrumaseriesofindividuallinesofcolourshowingthe frequenciespresent in a light source
+line spectrum a series of individual lines of colour showing the frequencies present in a light source
 
-longitudinalwaveawaveinwhichtheoscillationsoccurparalleltothe directionofmovementof thewaveenergy
+longitudinal wave a wave in which the oscillations occur parallel to the direction of movement of the wave energy
 
-maximum（pluralmaxima)inadiffractionorinterferencepattern,the bright spots
+maximum (plural maxima) in a diffraction or interference pattern, the bright spots
 
 minimum (plural minima) in a diffraction or interference pattern, the dark spots
 
 momentum (kg m s⁻¹) = mass (kg) × velocity (m s⁻¹) p = m × v
 
-monochromaticcontainingorusingonlyonecolour.Lightofa single wavelength
+monochromatic containing or using only one colour. Light of a single wavelength
 
-Newton'sfirstlawofmotionanobjectwillremainatrest,orinastate ofuniformmotion,untilacted uponbyaresultant force
+Newton's first law of motion an object will remain at rest, or in a state of uniform motion, until acted upon by a resultant force
 
-Newton'ssecondlawofmotionifanobject'smassisconstant,the resultantforceneededtocauseanaccelerationisgivenbytheequation:
+Newton's second law of motion if an object's mass is constant, the resultant force needed to cause an acceleration is given by the equation:
 
 ΣF = ma
 
-Newton'sthird lawofmotionforeveryaction,thereisanequaland oppositereaction
+Newton's third law of motion for every action, there is an equal and opposite reaction
 
-nodesregionsonastationarywavewheretheamplitudeofoscillation iszero
+nodes regions on a stationary wave where the amplitude of oscillation is zero
 
-Ohm'slawthecurrent throughacomponentis directlyproportional to thevoltage acrossit,providingthetemperatureremainsthe same.The equationforthisisoftenexpressedas:
+Ohm's law the current through a component is directly proportional to the voltage across it, providing the temperature remains the same. The equation for this is often expressed as:
 
 voltage (V) = current (A) × resistance (Ω) V = I × R
 
-period (also time period) the time takenforone complete oscillation at onepointonthewave:
+period (also time period) the time taken for one complete oscillation at one point on the wave:
 
 time period (s) = 1/frequency (Hz) T = 1/f
 
-phasethestageagivenpointonawaveisthroughacompletecycle, measured in angle units,rad
+phase the stage a given point on a wave is through a complete cycle, measured in angle units, rad
 
-photoelectronselectronsreleasedfromametalsurfaceasaresultofits exposuretoelectromagneticradiation
+photoelectrons electrons released from a metal surface as a result of its exposure to electromagnetic radiation
 
 #### GLOSSARY
-photons'packets'ofelectromagnetic radiation energywhere the frequencyof theradiation:thequantumunit thatisbeingconsidered when electromagnetic radiation is understood using a particle model
+photons 'packets' of electromagnetic radiation energy where the frequency of the radiation: the quantum unit that is being considered when electromagnetic radiation is understood using a particle model
 
-polarisationtheorientationoftheplaneofoscillationofatransverse wave.If the waveis(plane)polarised,allitsoscillationsoccurinone singleplane
+polarisation the orientation of the plane of oscillation of a transverse wave. If the wave is (plane) polarised, all its oscillations occur in one single plane
 
-potential differenceorpd thecorrect termforthevoltage of a thisenergyto other stores
+potential difference or pd the correct term for the voltage of a this energy to other stores
 
-potential dividera circuit designed toprovidespecificvoltage values by splitting anemf acrosstworesistors
+potential divider a circuit designed to provide specific voltage values by splitting an emf across two resistors
 
-potentiometeraversionofthepotential dividerinwhichasingle resistancewireisusedintwopartstoform thetworesistances.A sliding connectiononthewirecanbeadjustedtoalterthecomparative resistancesandthusaltertheoutputpdfromthepotentiometer
+potentiometer a version of the potential divider in which a single resistance wire is used in two parts to form the two resistances. A sliding connection on the wire can be adjusted to alter the comparative resistances and thus alter the output pd from the potentiometer
 
-powertherateofenergytransfer:
+power the rate of energy transfer:
 
 P = E/t = ΔW/t
 
-principle of moments a body willbe in equilibrium if the sum of clockwise momentsactingonitisequaltothesumoftheanticlockwisemoments progressivewave a meansfor transferring energyviaoscillations is gravity.The trajectory is thus pre-determined by its initial velocity quantisation the concept that there is a minimum smallest amount by which a quantity can change:infinitesimal changes are not permitted in a quantum universe.Thequantisationof a quantityislike theidea of theprecisionofaninstrumentmeasuringit
+principle of moments a body will be in equilibrium if the sum of clockwise moments acting on it is equal to the sum of the anticlockwise moments progressive wave a means for transferring energy via oscillations is gravity. The trajectory is thus pre-determined by its initial velocity quantisation the concept that there is a minimum smallest amount by which a quantity can change: infinitesimal changes are not permitted in a quantum universe. The quantisation of a quantity is like the idea of the precision of an instrument measuring it
 
-rarefactionanareainalongitudinalwaveinwhichtheparticle equilibriumstate
+rarefaction an area in a longitudinal wave in which the particle equilibrium state
 
-refraction a changein wave speed when the wave moves from one mediumto another.Thereis a corresponding change in wave direction, governed bySnell'slaw
+refraction a change in wave speed when the wave moves from one medium to another. There is a corresponding change in wave direction, governed by Snell's law
 
 #### GLOSSARY
-refractiveindex,n,theamountthatamaterialchangesthespeedof waveswhentheypassthroughthematerialfromadifferentmaterial:
+refractive index, n, the amount that a material changes the speed of waves when they pass through them material from a different material:
 
 refractive index = speed of light in vacuum / speed of light in the medium
 
-resistancetheoppositiontotheflowofelectrical current.Itcanbe calculatedfromtheequation:
+resistance the opposition to the flow of electrical current. It can be calculated from the equation:
 
 R = V/I
 
-resistivityforamaterial,thesamevalueastheresistancebetween oppositefacesofacubicmetreof thematerial
+resistivity for a material, the same value as the resistance between opposite faces of a cubic metre of the material
 
-resolutionorresolvingvectorsthedeterminationofapairofvectors, atrightanglestoeachother,thatsumstogivethesinglevectorthey wereresolvedfrom
+resolution or resolving vectors the determination of a pair of vectors, at right angles to each other, that sums to give the single vector they were resolved from
 
-resultantforce thetotalforce(vectorsum)actingonabodywhenall theforcesareaddedtogetheraccountingfortheirdirections
+resultant force the total force (vector sum) acting on a body when all the forces are added together accounting for their directions
 
-scalaraquantitythathasmagnitudeonly
+scalar a quantity that has magnitude only
 
-semiconductorsmaterialswithlowerresistivitythaninsulators,but higherthan conductors.Theyusuallyonlyhavesmall numbers of delocalisedelectronsthatarefreetoconduct
+semiconductors materials with lower resistivity than insulators, but higher than conductors. They usually only have small numbers of delocalised electrons that are free to conduct
 
-Snell'slawa rulegoverningthechangeindirectionofwavesastheyare refracted:
+Snell's law a rule governing the change in direction of waves as they are refracted:
 
 n₁sinθ₁ = n₂sinθ₂
 
-Thevalues ofn,andnaretherefractiveindicesineachmedium,and thevaluesof θ,andθarethe anglesthattheraymakesto thenormal totheinterfacebetweenthetwomedia,atthepointtheraymeetsthat interface
+The values of n₁, and n₂ are the refractive indices in each medium, and the values of θ₁, and θ₂ are the angles that the rays make to the normal to the interface between the two media, at the point the ray meets that interface
 
-relationshipsof astringundertension,usually consisting of ahorizontal woodensoundingboxandametalwirestretchedalongthetopof thebox speedtherateofchangeofdistance:
+relationship of a string under tension, usually consisting of a horizontal wooden sounding box and a metal wire stretched along the top of the box
+
+speed the rate of change of distance:
 
 v = s/t
 
-springconstanttheHooke'slawconstantofproportionality,k,fora springundertension
+spring constant the Hooke's law constant of proportionality, k, for a spring under tension
 
-stationaryorstandingwave awavewhichhasoscillationsinafixed space,withregions of significant oscillation andregions withzero oscillation,whichremaininthesamelocationsatalltimes
+stationary or standing wave a wave which has oscillations in a fixed space, with regions of significant oscillation and regions with zero oscillation, which remain in the same locations at all times
 
 #### GLOSSARY
-strain a proportionatemeasure of the extension(orcompression) of asample:
+strain a proportional measure of the extension (or compression) of a sample:
 
 strain (no units) = extension (m) / original length (m)
 
 ε = Δx/x
 
-streamlineslinesoflaminarflowinwhichthevelocityisconstant overtime
+streamlines lines of laminar flow in which the velocity is constant over time
 
-stressaproportionatemeasureoftheforceonasample:
+stress a proportional measure of the force on a sample:
 
 stress (pascals Pa, or N m⁻²) = force (N) / cross-sectional area (m²)
 
-stoppingvoltagetheminimumvoltageneededtoreducethe photoelectriccurrenttozero,whenilluminatedwithaparticular frequency of light
+stopping voltage the minimum voltage needed to reduce the photoelectric current to zero, when illuminated with a particular frequency of light
 
-superconductivity the electrical property of a material havingzero resistivity
+superconductivity the electrical property of a material having zero resistivity
 
-superpositionwhenmore thanonewaveisinthesamelocation,the overalleffectisthevectorsumoftheirindividualdisplacementsateach pointwheretheymeet
+superposition when more than one wave is in the same location, the overall effect is the vector sum of their individual displacements at each point where they meet
 
-tensionaforceactingwithinamaterialinadirectionthatwouldextend thematerial
+tension a force acting within a material in a direction that would extend the material
 
-terminalvelocitythevelocityofafallingobjectwhenitsweightis balancedbythesumof thedragandupthrust actingonit
+terminal velocity the velocity of a falling object when its weight is balanced by the sum of the drag and upthrust acting on it
 
-thermalconnectedwithheat
+thermal connected with heat
 
-thresholdfrequencytheminimumfrequencyofelectromagnetic radiationthatcancausetheemissionofphotoelectronsfromthemetal totalinternalreflection(TiR)wavesreflectbackintothesamemedium ataboundarybetweentwomedia.Thisrequirestwoconditionstobemet:
+threshold frequency the minimum frequency of electromagnetic radiation that can cause the emission of photoelectrons from the metal total internal reflection (TiR) waves reflect back into the same medium at a boundary between two media. This requires two conditions to be met:
 
-• therayisattemptingtoemergefromthemoredensemedium
+• the ray is attempting to emerge from the more dense medium
 
-• theanglebetweentherayandthenormaltotheinterfaceisgreater than thecritical angle
+• the angle between the ray and the normal to the interface is greater than the critical angle
 
-transport equation/=nAvq.This defines electriccurrent,1,froma fundamental basis.Itistheproduct of thenumber density of charge carriers,n;thechargeonthosecarriers,q;thecross-sectionalareaofthe conductor,A;andthedriftvelocityofthechargecarriersinthat conductor,v
+transport equation I = nAvq. This defines electric current, I, from a fundamental basis. It is the product of the number density of charge carriers, n; the charge on those carriers, q; the cross-sectional area of the conductor, A; and the drift velocity of the charge carriers in that conductor, v
 
 #### GLOSSARY
-transversewaveawaveinwhichtheoscillationsoccurperpendicular to thedirectionofmovementof thewave energy
+transverse wave a wave in which the oscillations occur perpendicular to the direction of movement of the wave energy
 
-turbulentflowfluidvelocityinaparticularplacechangesovertime, oftenin anunpredictablemanner
+turbulent flow fluid velocity in a particular place changes over time, often in an unpredictable manner
 
-twin-beamoscilloscopeanoscilloscopewithtwoinputs.It displays eachasaline onthescreen,andboth areshownatthesametime to compare the inputs
+twin-beam oscilloscope an oscilloscope with two inputs. It displays each as a line on the screen, and both are shown at the same time to compare the inputs
 
-uniformmotionmotionwhenthereisnoacceleration:
+uniform motion motion when there is no acceleration:
 
 velocity (m s⁻¹) = displacement (m) / time (s) v = s/t
 
 upthrust an upwards force on an object caused by the object displacing
 
-valencebandarangeofenergyamountsthatelectronsinasolid material canhavewhichkeepsthemclosetooneparticularatom vectoraquantitythatmusthavebothmagnitudeanddirection
+valence band a range of energy amounts that electrons in a solid material can have which keeps them close to one particular atom vector a quantity that must have both magnitude and direction
 
-velocitytherateofchangeofdisplacement:
+velocity the rate of change of displacement:
 
 v = s/t OR v = Δs/Δt
 
-velocity-timegraph agraphshowingthevelocitiesona journey.with velocityonthey-axis andtimeonthex-axis
+velocity-time graph a graph showing the velocities on a journey. with velocity on the y-axis and time on the x-axis
 
-viscosityhowresistant afluid istoflowing
+viscosity how resistant a fluid is to flowing
 
-voltageameasureof theamountofenergyacomponenttransfersper unit of charge passing through it. It can be calculated by the equation:
+voltage a measure of the amount of energy a component transfers per unit of charge passing through it. It can be calculated by the equation:
 
 voltage (V) = energy transferred (J) / charge passing (C) V = E/Q
 
-voltagescircuitrulearoundaclosedloop,thealgebraicsumofthe emfsisequaltothealgebraicsumofthepds:
+voltage circuit rule around a closed loop, the algebraic sum of the emfs is equal to the algebraic sum of the pd's:
 
 Σε = ΣV
 
-waveameansfortransferringenergyviaoscillations
+wave a means for transferring energy via oscillations
 
-waveequation:
+wave equation:
 
 wave speed (m s⁻¹) = frequency (Hz) × wavelength (m) v = fλ
 
-wavespeed therateofmovementofthewave(nottherateof movementwithinoscillations)
+wave speed the rate of movement of the wave (not the rate of movement within oscillations)
 
 #### GLOSSARY
 wavefronts lines connecting points on thewave that are at exactly the samephaseposition wavelengththedistancebetweenapointonawaveandthesame point on the next cycle of the wave wave-particledualitytheprinciplethatthebehaviourof electromagneticradiationcanbe described intermsof bothwaves and photons workdoneina mechanical system.Thisistheproductofaforce and the distancemovedinthedirectionoftheforce:
@@ -9687,7 +9963,7 @@ Youngmodulusthe stiffnessconstantforamaterial,equal tothestress divided by its c
 | drift velocity 161-2        |
 
 #### E
-| earthquakes 94,96-7 echolocation91-2 efficiency 41,187-9 Einstein,Albert 130,132 elasticdeformation 76-8,79-83 elasticlimit 76,82 elasticpotentialenergy77-8 electriccircuitsseecircuits                                                            | |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | elastic strain energy 77-8 electricchargeseecharge electriccurrentseecurrent electriccurrentrule 178 electricmotor188 electricvoltagesrule 178-9 electricalpower186-9 electromagneticradiation132-4,143 electromagneticwaves90,132 polarisation 124 | | electromotiveforce(emf)153,175-6 internalresistance184-5 drift velocity 161-2 and electriccurrent 150-1                                                                                                                                             | | energy levels 140-3,164-5 photoelectrons 135-7                                                                                                                                                                                                      | | ina semiconductor164-5                                                                                                                                                                                                                              | | diffractionandinterference138-9                                                                                                                                                                                                                     |
+| earthquakes 94,96-7 echolocation 91-2 efficiency 41,187-9 Einstein, Albert 130,132 elastic deformation 76-8,79-83 elastic limit 76,82 elastic potential energy 77-8 electric circuits see circuits                                                            | |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | elastic strain energy 77-8 electric charge see charge electric current see current electric current rule 178 electric motor 188 electric voltage rule 178-9 electrical power 186-9 electromagnetic radiation 132-4,143 electromagnetic waves 90,132 polarisation 124 | | electromotive force (emf) 153,175-6 internal resistance 184-5 drift velocity 161-2 and electric current 150-1                                                                                                                                             | | energy levels 140-3,164-5 photoelectrons 135-7                                                                                                                                                                                                      | | in a semiconductor 164-5                                                                                                                                                                                                                              | | diffraction and interference 138-9                                                                                                                                                                                                                     |
 
 #### E
 | electronmicroscopy 139 electrons 133-4                                                                                                                                                                                                              | | excitation and de-excitation140-1                                                                                                                                                                                                                   | | wavenature 134,138-9                                                                                                                                                                                                                                | | electronvolts (eV) 136,154                                                                                                                                                                                                                          | | emfseeelectromotiveforce(emf) emission spectra 141-2                                                                                                                                                                                                | | conservation 37,38,39 elasticpotential 77-8 elastic strain energy 77-8                                                                                                                                                                              | | electron energy levels 140-3, 164-5                                                                                                                                                                                                                 |
@@ -9964,26 +10240,26 @@ Youngmodulusthe stiffnessconstantforamaterial,equal tothestress divided by its c
 |------------------------|
 PictureCredits
 
-Thepublisher would like to thank the following for theirkindpermission to reproduce theirphotographs:
+Thepublisher would like to thank the following for their kind permission to reproduce their photographs:
 
-(Key:b-bottom;c-centre;I-left;r-right;t-top)
+(Key: b-bottom; c-centre; l-left; r-right; t-top)
 
-123RF:DavidHolm48t,Khunaspix45tr;AlamyStockPhoto:Sciencephotos 62,Blickwinkel63,BrianJackson100-100,BuzzPictures45br,CalSportMedia 50b,Chris Hellier70r,ChuckMyers/ZUMAPress42r,Cultura RM60,Daimages PhotoAgency42l,DavidA.Eastley117,DerekBayes/LebrechtMusic&Arts 20,dpapicture alliance archive48l,dpa picture alliance64c,Educationlmages/ Kasez11z11b,vi,PaulJohnFearn 150t,PhilCrow11t,vi,Pictorial PressLtd 178,RichardCooke108l,SimonBelcher187,StephenBarnes/Sport39,Terry Oakley32,viic;Corbis:AurelienMeunier/lcon155,MarkusMoellenberg54l, MonalynGracia84;Fotolia:AnthonyBrown2-3,Boggy40,DarioLoPresti 50t,JoggieBotma 67l;GettyImages:AFP4tl,AlexanderGerst/ESA2-3,Brian Sytnyk/Photographer'sChoice88-89,DeepDesertPhoto/RooM148-149,FelixR/ E+172-173,Fuse167,GaryGladstone3b,HannekeLuijting36t,JamieTerry/ EyeEm74-75,JonathanWood65,MatthewLewis15,MoazzamAliBrohi8-9,vit，, OliverFurrer/Photographer'sChoice34-35,PeterCade3t,RobMonk/Procycling Magazine54r,StocktrekImages46-47,Westend6158-58,Zeljkosantrac73tl; GNU:121;IBM Research:139cr;Jeff LaFavre:114;LascellsLtd:124;Library of Congress:Philosophiaenaturalisprincipiamathematica/lsaacNewton49; MartynF.Chillmaid:14,38,91t;NASA:JPL-Caltech/MSSS190;National GeophysicalDataCenter:96;National InstituteofStandardsandTechnology: 4br;OB0Goalkeeping,NewZealand:54b;PearsonEducation:86,87,Coleman Yuen109b,MartynF.Chillmaid150c,TrevorClifford52t,52b,57,64tl,83,182 Tsz-shanKwokix,120,159;PhotoDisc:Doug Menuez48r;PhysioControl:168;
+123RF: David Holm 48t, Khunaspix 45tr; Alamy Stock Photo: Science photos 62, Blickwinkel 63, Brian Jackson 100-100, Buzz Pictures 45br, Cal Sport Media 50b, Chris Hellier 70r, Chuck Myers/ZUMA Press 42r, Cultura RM 60, Daimages Photo Agency 42l, David A. Eastley 117, Derek Bayes/Lebrecht Music & Arts 20, dpapicture alliance archive 48l, dpa picture alliance 64c, Education Images/ Kasez 11z, 11b, vi, Paul John Fearn 150t, Phil Crow 11t, vi, Pictorial Press Ltd 178, Richard Cooke 108l, Simon Belcher 187, Stephen Barnes/Sport 39, Terry Oakley 32, viic; Corbis: Aurelien Meunier/lcon 155, Markus Moellenberg 54l, Monalyn Gracia 84; Fotolia: Anthony Brown 2-3, Boggy 40, Dario Lo Presti 50t, Joggie Botma 67l; Getty Images: AFP 4tl, Alexander Gerst/ESA 2-3, Brian Sytnyk/Photographer's Choice 88-89, Deep Desert Photo/RooM 148-149, Felix R/ E+ 172-173, Fuse 167, Gary Gladstone 3b, Hanneke Luijting 36t, Jamie Terry/ EyeEm 74-75, Jonathan Wood 65, Matthew Lewis 15, Moazzam Ali Brohi 8-9, vit, Oliver Furrer/Photographer's Choice 34-35, Peter Cade 3t, Rob Monk/Procycling Magazine 54r, Stocktrek Images 46-47, Westend 61 58-58, Zeljko Santrac 73tl; GNU: 121; IBM Research: 139cr; Jeff LaFavre: 114; Lascells Ltd: 124; Library of Congress: Philosophia naturalis principia mathematica/Isaac Newton 49; Martyn F. Chillmaid: 14, 38, 91t; NASA: JPL-Caltech/MSSS 190; National Geophysical Data Center: 96; National Institute of Standards and Technology: 4br; OBO Goalkeeping, New Zealand: 54b; Pearson Education: 86, 87, Coleman Yuen 109b, Martyn F. Chillmaid 150c, Trevor Clifford 52t, 52b, 57, 64tl, 83, 182 Tsz-shan Kwok ix, 120, 159; PhotoDisc: Doug Menuez 48r; PhysioControl: 168;
 
 #### PictureCredits
-Prof.(emeritus)Dr.MichaelM.Raith:126l;ReprintedcourtesyoftheCentral ResearchLaboratory,Hitachi,Ltd.,Japan:Demonstrationofsingle-electron buildupofaninterferencepattern:Tonomura,A.;Endo,J.;Matsuda,T;Kawasaki T.;Ezawa,H.American Journal of Physics,Volume 57,Issue 2,pp.117-120 (1989) 139cl;RexFeatures:LumiGram129;RobertHardingWorld Imagery:Amanda Hall64br,JamesEmmerson64bl;Science&SocietyPictureLibrary:Science Museum133;SciencePhotoLibrary:67r,AndrewLambertPhotography105, 108r,139tl,CordeliaMolloy193b,EdwardKinsman103,109c,142t,142b,Erich Schrempp112,GIPhotostock122,132,138,JimAmos 91b,PeterAprahamian/ SharplesStressEngineersLtd 125r,RichardBeechPhotography118-119,Sheila Terry72tr;Shutterstock:BrianKinney36b,catwalker6r,Drohn126r,Gualtiero boffi17,Ilona Ignatova37t,imagedb.comviib,30,Leremy51,mTaira 48b,Naipung 110,PeteNiesenvi,10,SalvadorTali153,SebastianKaulitzk139tr,SerhiiBorodin 6l,spe70l,VadimSadovski2-3,vectorlib.com44,VoodooDot6l;TooneImages: 156;TSG@MITPhysics:125l;Veer/Corbis:JasonMaehl37b;Wikipedia:Fizped/ ZatonyiSandor123;
+Prof. (emeritus) Dr. Michael M. Raith: 126l; Reprinted courtesy of the Central Research Laboratory, Hitachi, Ltd., Japan: Demonstration of single-electron buildup of an interference pattern: Tonomura, A.; Endo, J.; Matsuda, T; Kawasaki T.; Ezawa, H. American Journal of Physics, Volume 57, Issue 2, pp. 117-120 (1989) 139cl; RexFeatures: LumiGram 129; Robert Harding World Imagery: Amanda Hall 64br, James Emmerson 64bl; Science & Society Picture Library: Science Museum 133; Science Photo Library: 67r, Andrew Lambert Photography 105, 108r, 139tl, Cordelia Molloy 193b, Edward Kinsman 103, 109c, 142t, 142b, Erich Schrempp 112, GIPhotostock 122, 132, 138, Jim Amos 91b, Peter Aprahamian/ Sharples Stress Engineers Ltd 125r, Richard Beech Photography 118-119, Sheila Terry 72tr; Shutterstock: Brian Kinney 36b, catwalker 6r, Drohn 126r, Gualtiero boffi 17, Ilona Ignatova 37t, imagedb.com viib, 30, Leremy 51, mTaira 48b, Naipung 110, Pete Niesenvi, 10, Salvador Tali 153, Sebastian Kaulitzk 139tr, Serhii Borodin 6l, spe 70l, Vadim Sadovski 2-3, vectorlib.com 44, VoodooDot 6l; TooneImages: 156; TSG@MITPhysics: 125l; Veer/Corbis: Jason Maehl 37b; Wikipedia: Fizped/ Zatonyi Sandor 123;
 
-AllotherimagesPearsonEducation
+All other images Pearson Education
 
-We aregrateful tothefollowingforpermissiontoreproducecopyrightmaterial:
+We are grateful to the following for permission to reproduce copyright material:
 Figures
 
-terminal_velocity.html, copyright @ 2009, P. Lutus; Figure on page 17 adapted from'balanced seesaw',www.animatedscience.co.uk,copyright @2014Animated Science.Reproduced by kind permission;
+terminal_velocity.html, copyright @ 2009, P. Lutus; Figure on page 17 adapted from 'balanced seesaw', www.animatedscience.co.uk, copyright @2014 Animated Science. Reproduced by kind permission;
 
-Figures on page 54 adapted from http:// 82adaptedfrom'stressstraingraphforanIMPRESSAlloy',Mechanical%20 Properties/Question_Mechanical_Properties_23.html,copyright @ESA;Figures on McMillan and Georg Sojer,2009;and'newequations',DynamicMountaineering Ropes,UIAA-101,EN892,www.theuiaa.org,copyright UIAA.Reproducedwith oftheHills,6thEdition,publishedbyMountaineersBooks,SeattleandQuiller Publishing,Shrewsbury148,copyright @1997.llustration and table reprinted with permission of the publisher;Figure on page 94 adapted from*Appendix:Pressure wavesvs.Displacementwaves.Physics2010,SoundWavesExperiment6'http:// www.colorado.edu/physics/phys2010/phys2010LabMan2000/2010labhtml/Lab6/ EXP6LAB99.html,copyright Regents of theUniversity of Colorado;Figures onpage96adaptedfrom'SeismicWaves,'and'Seismogramrecorded inthe UK'http://www.bgs.ac.uk/discoveringGeology/hazards/earthquakes/,copyright NERC2015;Figureonpage103adaptedfromPhysics3B,Principle of superposition'http://www.greenwood.wa.edu.au/resources/Physics%203B%20 WestOne/content/001_mechanical_waves/page_15.html,SCIENCE1194,copyright WestOneServices.Image courtesy ofDeptTraining&WorkforceDevelopment WA;Figureonpage103adapted from'Did theDraupnerwave occurina crossing H.Taylor,S.Yan,Q.W.Ma,P.A.E.M.Janssen),June 2011, The Royal Society, copyright @2015,TheRoyalSociety;Figuresonpages105and106adapted from'Creatingmusical sounds'.Figure 6:Formationof a standing wave from two travelling waves travelling in opposite directions,http://projects.kmi.open.ac.uk/ role/moodle/mod/page/view.php?id=1139;and'Creatingmusicalsounds'.5.4 Vibratingstring:normal modesofvibration.Figure10:Thefirstfournormalmodes ofvibrationofa stringfixed ateachend,http://projects.kmi.open.ac.uk/role/, ROLE.Reproduced bypermissionofTheOpenUniversity;Figureonpage112 adaptedfromFriday,November12,2010,WaveTheoryandPrinciplesInterpretted.
+Figures on page 54 adapted from http:// 82 adapted from 'stress strain graph for an IMPRESS Alloy', Mechanical%20 Properties/Question_Mechanical_Properties_23.html, copyright @ESA; Figures on McMillan and Georg Sojer, 2009; and 'new equations', Dynamic Mountaineering Ropes, UIAA-101, EN892, www.theuiaa.org, copyright UIAA. Reproduced with of the Hills, 6th Edition, published by Mountaineers Books, Seattle and Quiller Publishing, Shrewsbury 148, copyright @1997. Illustration and table reprinted with permission of the publisher; Figure on page 94 adapted from *Appendix: Pressure waves vs. Displacement waves. Physics 2010, Sound Waves Experiment 6' 'http:// www.colorado.edu/physics/phys2010/phys2010LabMan2000/2010labhtml/Lab6/ EXP6LAB99.html, copyright Regents of the University of Colorado; Figures on page 96 adapted from 'Seismic Waves,' and 'Seismogram recorded in the UK' http://www.bgs.ac.uk/discoveringGeology/hazards/earthquakes/, copyright NERC 2015; Figure on page 103 adapted from Physics 3B, Principle of superposition' 'http://www.greenwood.wa.edu.au/resources/Physics%203B%20 WestOne/content/001_mechanical_waves/page_15.html, SCIENCE 1194, copyright WestOne Services. Image courtesy of Dept Training & Workforce Development WA; Figure on page 103 adapted from 'Did the Draupner wave occur in a crossing H. Taylor, S. Yan, Q. W. Ma, P. A. E. M. Janssen), June 2011, The Royal Society, copyright @2015, The Royal Society; Figures on pages 105 and 106 adapted from 'Creating musical sounds'. Figure 6: Formation of a standing wave from two travelling waves travelling in opposite directions, http://projects.kmi.open.ac.uk/ role/moodle/mod/page/view.php?id=1139; and 'Creating musical sounds'. 5.4 Vibrating string: normal modes of vibration. Figure 10: The first four normal modes of vibration of a string fixed at each end, http://projects.kmi.open.ac.uk/role/, ROLE. Reproduced by permission of The Open University; Figure on page 112 adapted from Friday, November 12, 2010, Wave Theory and Principles Interpretted.
 
 #### Figures
-principles-interpretted_12.html;Figure on page 112 adapted from'Waves Tutorial 7 -Interference,Q4',http://www.antonineeducation.co.uk/Pages/Physics_2/Waves/ WAV_07/Waves_Page_7.html Reproduced with permission; Figures on page 112 fromTuning theMarimbaBarandResonator'，'third torsional mode',http://lafavre. us/tuning-marimba,copyright 2007JeffreyLa Favre;Figure on page 122 adapted fromThe Digital Camera:Snell's Window (theview from a fish's eye)',4 August 2011,http://uptrout.com/2011/08/04/the-digital-camera-snells-window-the-viewfrom-a-fishs-eye/,copyright 2011TimothySchulz;Figure onpage 125adapted from'Reflectioncanpolarisewaves'inGlareandPolarized LightinMachineVision ApplicationsbyChrisWalker,08/17/2012,http://chriswalkertechblog.blogspot. permission;Figure onpage126 adapted from Guide toThinSection Microscopy, 4-18,2012,http://www.minsocam.org/msa/openaccess_publications/Thin_Sctn_ Mcrscpy_2_rdcd_eng.pdf,copyright @2012byM.M.Raith(University of Bonn) P.Raase (University of Kiel),J.Reinhardt (University of KwaZulu-Natal);Figure on page 132from'Huygens'postulate fromHuygens'Construction',http://www.alevelphysicstutor.com/wav-Huygens.php,copyright@2011A-levelPhysics Tutor.Allrightsreserved;Figureonpage137adaptedfromKEvsfrequency", fromResourceLessonFamousDiscoveries:ThePhotoelectricEffect',http:// dev.physicslab.org/Document.aspx?doctype=3&filename=AtomicNuclear_ PhotoelectricEffect.xml,copyright 1997-2014,CatharineH.Colwell.All rights UnitedStates'December23,2013,byKenJorgustin,http://modernsurvivalblog.
+principles-interpretted_12.html; Figure on page 112 adapted from 'Waves Tutorial 7 - Interference, Q4', http://www.antonineeducation.co.uk/Pages/Physics_2/Waves/ WAV_07/Waves_Page_7.html Reproduced with permission; Figures on page 112 from 'Tuning the Marimba Bar and Resonator', 'third torsional mode', http://lafavre. us/tuning-marimba, copyright 2007 Jeffrey La Favre; Figure on page 122 adapted from 'The Digital Camera: Snell's Window (the view from a fish's eye)', 4 August 2011, http://uptrout.com/2011/08/04/the-digital-camera-snells-window-the-view-from-a-fishs-eye/, copyright 2011 Timothy Schulz; Figure on page 125 adapted from 'Reflection can polarise waves' in Glare and Polarized Light in Machine Vision Applications by Chris Walker, 08/17/2012, http://chriswalkertechblog.blogspot. permission; Figure on page 126 adapted from Guide to Thin Section Microscopy, 4-18, 2012, http://www.minsocam.org/msa/openaccess_publications/Thin_Sctn_ Mcrscpy_2_rdcd_eng.pdf, copyright @2012 by M.M.Raith (University of Bonn) P.Raase (University of Kiel), J.Reinhardt (University of KwaZulu-Natal); Figure on page 132 from 'Huygens' postulate from Huygens' Construction', http://www.alevelphysicstutor.com/wav-Huygens.php, copyright @2011 A-level Physics Tutor. All rights reserved; Figure on page 137 adapted from 'KE vs frequency", from ResourceLesson Famous Discoveries: The Photoelectric Effect', http:// dev.physicslab.org/Document.aspx?doctype=3&filename=AtomicNuclear_ PhotoelectricEffect.xml, copyright 1997-2014, Catharine H.Colwell. All rights United States' December 23, 2013, by Ken Jorgustin, http://modernsurvivalblog.
 
 #### Figures
 com/alternative-energy/amazing-total-area-of-solar-panels-to-power-the-unitedanelectricalresistance?',http://www.artinaid.com/2013/04/what-is-an-electricalresistance/.Reproduced bypermission of Artinaid;Figure onpage165'Diodes adapted from http://www.learnabout-electronics.org/diodes_01.php,copyright @ 2007-2013 Eric Coates MA BSc.(Hons)All rights reserved;Figure on page 168 adaptedfromCurrentwaveformimageanddatatableforLifepak1000',p.52, A-2,http://www.physiocontrol.com/uploadedFiles/Physio85/Contents/Emergency_ Medical_Care/Products/Operating_Instructions/LP1000_Ol_3205213008.pdf, copyright@2012Physio-Control,Inc.

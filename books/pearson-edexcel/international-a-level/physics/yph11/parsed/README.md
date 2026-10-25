@@ -53,16 +53,21 @@ WaaP + back matter use `unit_no: null` (→ `u0` in ids).
 
 Round 1 selected 404/881 (all 56 glue-hit question chunks force-included;
 63% of chunks carry scan-wide dropped-space runs — same class as 4PH1).
-**Status: quota-walled at 1/404** (account-level 429, PM-3). Resume:
-
-```bash
-cd scripts && node llm_repair_yph11.js        # resumable; then:
-python3 merge_llm_yph11.py && python3 audit_polish_yph11.py && python3 validate_yph11.py
-```
-
-Rejected raws are kept as evidence; guards: length drift 0.6-1.7×, refusals,
-Unicode-unit non-decrease, per-line pipe counts on tables, wording fidelity via
-whitespace-stripped char-LCS ≥ 0.97 (the space-drop calibration — L-006/L-015).
+**Status: R1 COMPLETE 2026-10-25 — 404/404 terminal** (394 applied, 390 with
+text changes; 7 guard-rejected raws kept as evidence with original text
+preserved). Guards: length drift 0.6-1.7×, refusals, Unicode-unit
+non-decrease, per-line pipe counts on tables, wording fidelity via
+whitespace-stripped char-LCS ≥ 0.97 (the space-drop calibration —
+L-006/L-015). Post-merge: anchor diff vs pristine **0 drift**; validator
+**ALL CHECKS PASSED** (881 chunks, 11/11 chapters, 4/4 units, 22/22
+question pages). Audit: dominant damage class space-glue **1759 → 4** on
+repaired chunks (4 residuals are real URLs in acknowledgements, correctly
+untouched); camel-glue 121 → 4; caps-glue 100 → 22; 0 Unicode-unit
+regressions; superscript-bearing chunks 73 → 103 (proper physics notation
+restored). 5 regen-only glue-damage stragglers below the R1 selector cap
+are logged as R2 candidates (selector reconciliation in
+`pipeline/scripts/select_noisy_yph11.py`). Runner/merge/audit/validate
+chain is idempotent and re-runnable.
 
 ## Formula-provenance note
 

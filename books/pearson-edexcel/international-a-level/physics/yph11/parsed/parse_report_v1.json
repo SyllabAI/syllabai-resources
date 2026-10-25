@@ -18,11 +18,13 @@
     "glossary": 10
   },
   "size_min": 41,
-  "size_max": 2237,
-  "size_avg": 626,
+  "size_max": 2241,
+  "size_avg": 651,
   "n_chunks_over_hardmax": 0,
   "source_pdf_sha256": "aa1aed604d627fda8a46cf67bd562234b2934abe9d26690e1bf38c27f9c015d0",
   "parser": "docling 2.33.0 + rapidocr-onnxruntime 1.4.4 + CodeFormula v1 (formula enrichment ON; no-formula retry ladder; page-level JSON checkpoints; book = pdf-11 page law, front matter roman)",
   "formula_rescue": "docling 2.33.0 blanks formula-region text (\u00a74.3 bug): 267/272 formula items empty after base parse; regions manually transcribed from rendered pages (verbatim, transcription-only; evidence data/yph11_sb1/manual_formulas.jsonl + probe_png/); 5 items were parse-native; 5 empty regions adjudicated decorative/region-split slivers (no content loss)",
-  "n_llm_polished": 0
+  "n_llm_polished": 0,
+  "llm_polished": 394,
+  "llm_polished_changed": 390
 }
