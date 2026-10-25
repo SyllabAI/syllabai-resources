@@ -1,0 +1,77 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-001",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "10043d17d8e3f4365d1291270bbb5902c63d8b53",
+    "syllabai_pastpapers": "ab92cee62aad2e17ccef72a457f3ae8a1357f57c",
+    "syllabai": "3872bec9a5766e330d560ec862fb42be58e7d167"
+  },
+  "preflight": {
+    "resolution_report": "preflight/resolution_report.json",
+    "gate": "PASS",
+    "families": [
+      "CUR",
+      "MIS"
+    ],
+    "sources_resolved": 7,
+    "sources_total": 17,
+    "disclosed": "10 sources FAILED (books/, SME corpora, spec-links, lessons, RAG pointer, legacy 4CH0 tree — none a primary of the pilot families); report carries per-source detail"
+  },
+  "artifacts": [
+    {
+      "artifact_id": "CUR-01",
+      "filename": "CHEMISTRY_4CH1_CUR-01_CURRICULUM_OVERVIEW.md",
+      "evidence_pack": "evidence/CUR-01/evidence_pack.json",
+      "evidence_pack_sha256": "cc3f660b1e61a021be1545dd5b05372a3845129da0609d14cd44087b7d15c80a",
+      "artifact_sha256": "a37f97acaf9808aee45dbba418ce2f615b77cc82259d8c0f1cee48a977081b2c",
+      "attempts": 3,
+      "outcome": "GENERATED",
+      "gates": {
+        "source_preflight": "PASS",
+        "structural": "PASS (0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (all spec/gstt page citations resolve to pack locators; all cited SRC ids declared and in-pack)",
+        "educational_review": "PASS (accuracy vs spec+graph verified; current-only; overview-grain only)"
+      },
+      "qa_report": "qa-reports/CUR-01.qa.json"
+    },
+    {
+      "artifact_id": "MIS-01",
+      "filename": "CHEMISTRY_4CH1_MIS-01_MISCONCEPTION_ATLAS.md",
+      "evidence_pack": "evidence/MIS-01/evidence_pack.json",
+      "evidence_pack_sha256": "68b5bd970cac7c3cc410a84c17f7f2d7155483af6ff91125dd6d1606b31c8983",
+      "artifact_sha256": "8b0f486ab0c4bf5d9fb8e306236d5461fa383e117c0cb75a2a6c84b9874adfc6",
+      "attempts": 3,
+      "outcome": "GENERATED",
+      "gates": {
+        "source_preflight": "PASS",
+        "structural": "PASS (0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (22 ER citations resolve to pack page-locators; all cited SRC ids declared and in-pack)",
+        "educational_review": "PASS (12 records, each grounded on named ER sessions/papers/pages; 8/8 held sessions covered)",
+        "anchor_resolution": "PARTIAL-DISCLOSED (23 anchors structurally valid, unresolved: registry pin key mismatch spec_point_codes vs validator law specification_points + prefixed-code convention — pre-existing scaffold defect, repair queued operator-side)"
+      },
+      "qa_report": "qa-reports/MIS-01.qa.json"
+    }
+  ],
+  "gates": {
+    "source_preflight": "PASS (CUR+MIS primaries RESOLVED: SRC-SPEC/SRC-GRAPH/SRC-TL/SRC-QPMS/SRC-ER-4CH1)",
+    "structural": "PASS (tools.sib.cli qa: 0 errors both artifacts)",
+    "evidence_claim_qa": "PASS (scripts/sib_pilot_evidence_claim_qa.py)",
+    "educational_review": "PASS (criteria: citation resolution / source coverage / current-legacy separation / educational accuracy / output usefulness)",
+    "staging_publication": "NOT REQUESTED (operator gates)"
+  },
+  "disclosures": [
+    "REGISTRY DEFECT CAUGHT BY PREFLIGHT: v1.2 identifiers for SRC-TL/SAMS were digest-corrupted (20-hex-prefix transcription class); repaired v1.2.1 first-hand vs teaching-materials.json ledger of record — the gate worked as designed on its first run",
+    "VALIDATOR DEFECT FIXED IN PAIRED MASTER PR: validate_anchors discarded all anchor findings for clean artifacts (empty-report falsiness, 'report or ...'); fixed + 2 regression tests (139/139 suite)",
+    "ANCHOR RESOLUTION DEGRADED-DISCLOSED: curriculum_registry.yaml pin key (spec_point_codes) does not match the validator's registry key law (specification_points) and pins prefixed codes (4CH1-1.13) while the anchor law extracts bare dotted tokens (1.13); repair queued (operator-ordered), warnings honest",
+    "2024-06 4CH1-1C ER pages 3-6 are glyph-garbled (embedded-font extraction failure); NOT cited by any record; re-extraction candidate",
+    "RE-STAMP DISCLOSURE: both artifacts re-stamped within the run before any QA/staging (CUR-01 attempts=3: legacy-flag footgun + source-id mention fix; MIS-01 attempts=3: temporal-label canonicalization x2); no governed state overwritten",
+    "NotebookLM provisioning (BL-003) superseded before it happened; no notebook was ever provisioned for 4CH1"
+  ]
+}

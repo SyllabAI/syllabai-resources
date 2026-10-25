@@ -1,5 +1,13 @@
 # SIB NotebookLM Prompt Protocol v1
 
+> **Status: OPTIONAL-HIS (legacy provider reference — retagged 2026-10-25, SIB-GEN
+> program r0).** The generation provider of record is now the provider-neutral
+> SIB-GEN run pipeline (zai_agent class) per `docs/PIPELINE.md` r0 +
+> `docs/SIB_ARTIFACT_SCHEMA_V2.md`. This prompt protocol is RETAINED UNCHANGED as
+> the historical provider reference: it documents the NotebookLM operating procedure
+> under which any legacy v1 notebook-shape drops were (or may still be) produced.
+> It is not part of the default generation path and is not required for new runs.
+
 **Status:** PROPOSED  
 **Protocol:** SIB-1.0
 

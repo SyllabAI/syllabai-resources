@@ -268,9 +268,36 @@ backlog:
       Issue 5+SAMs / 2009 SAMs) landed in Official-Specifications/igcse-chemistry-legacy-4ch0/
       with spec.json provenance; all LEGACY — HISTORICAL."
   - id: BL-003
-    description: Provision NotebookLM notebook 4CH1-SIB-NOTEBOOK-001 and upload the
-      CURRENT — AUTHORITATIVE / CURRENT — ASSESSMENT EVIDENCE sources; label legacy vs current
-      inside the notebook per protocol §2.
+    description: "SUPERSEDED 2026-10-25 (SIB-GEN program r0, operator order 'Execute SIB-GEN'
+      trace 1a1726b6684c4055 + 'run BL-007' trace 1a172e0138191add): the generation provider
+      changed from NotebookLM to the provider-neutral zai_agent run pipeline (SIB-GEN) before
+      provisioning happened. Notebook provisioning will NOT take place for 4CH1; the legacy
+      prompt protocol stays as reference (docs/SIB_NOTEBOOKLM_PROMPTS_V1.md, OPTIONAL-HIS).
+      Historical note (definition preserved): provision NotebookLM notebook
+      4CH1-SIB-NOTEBOOK-001 and upload the CURRENT — AUTHORITATIVE / CURRENT — ASSESSMENT
+      EVIDENCE sources; label legacy vs current inside the notebook per protocol §2."
   - id: BL-004
-    description: First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol §4),
+    description: "First artifact wave = CUR-01..CUR-08 (generation order pass 2, protocol §4),
       grounded on SRC-SPEC-4CH1 + SRC-GRAPH-4CH1 + SRC-BOOK-4CH1-SB1.
+      STATUS 2026-10-25 — gate opened by BL-006; the BL-007 pilot (CUR-01 + MIS-01 only) is the
+      first slice; remaining CUR-02..CUR-08 stay queued pending pilot acceptance."
+  - id: BL-006
+    description: "DONE 2026-10-25 (SIB-GEN r0): provider-neutral regeneration infrastructure
+      landed — docs r0 edition (PIPELINE.md provider-neutral, SIB_ARTIFACT_SCHEMA_V2.md
+      provenance one-of, SUBJECT_INTELLIGENCE_BUILD_V1 + COURSE_ONBOARDING +
+      SIB_VALIDATOR_IMPLEMENTATION_V1 de-NotebookLM'd, SIB_NOTEBOOKLM_PROMPTS_V1 retagged
+      OPTIONAL-HIS), pipeline modules (source_resolver.py, evidence_pack.py, run_manifest.py,
+      generate_artifact.py, run_build.py, evidence_policy.yaml 12-family law), runs/ work dir,
+      BL-003 superseded; coordinated master-repo validator PR (provenance one-of + zai_agent
+      vocabulary + tests) advanced the tools/sib pin of record."
+  - id: BL-007
+    description: "Pilot run SIB-CHEMISTRY-4CH1-RUN-001: generate CUR-01 (Curriculum Overview)
+      + MIS-01 (Misconception Atlas) through the full SIB-GEN chain (preflight -> evidence
+      packs -> generation -> stamping -> validator QA -> evidence-claim QA -> educational
+      review) with run receipts under runs/. Acceptance criteria: citation resolution,
+      source coverage, current/legacy separation, educational accuracy, output usefulness.
+      Batch orchestration (BL-008) unlocks only on pilot acceptance."
+  - id: BL-008
+    description: Batch orchestration — full-wave generation runs (remaining REQUIRED families
+      per protocol §4 order) via pipeline/run_build.py once BL-007 pilot acceptance is
+      recorded. Operator-ordered per wave; staging/publication remain operator gates.

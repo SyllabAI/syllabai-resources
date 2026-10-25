@@ -90,6 +90,7 @@ result in the library worklog.
 
 ## 6. Generation onward (step 6)
 
-Proceed exactly as `docs/PIPELINE.md` §3: notebook provisioning → generation passes →
+Proceed exactly as `docs/PIPELINE.md` §3: run preflight → evidence packs →
+generation passes (provider-neutral SIB-GEN run; legacy NotebookLM alternative) →
 QA → stage → publish → chunks → report. All transitions operator-ordered; the validator
 owns every lifecycle transition.

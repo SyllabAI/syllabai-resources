@@ -42,7 +42,7 @@ SubjectIntelligence/
 ├── COURSES.yaml                  course registry of record (onboarded / legacy / planned)
 ├── WORKLOG.md                    lane worklog (append-only)
 ├── docs/                         shared, course-agnostic:
-│   ├── SUBJECT_INTELLIGENCE_BUILD_V1.md    protocol of record (copy, pinned master@aa32db1413ea)
+│   ├── SUBJECT_INTELLIGENCE_BUILD_V1.md    protocol of record (r0 edition; docs set pinned master@357ace0a, previously aa32db1413ea)
 │   ├── SIB_ARTIFACT_SCHEMA_V1.md           artifact schema + lifecycle (copy)
 │   ├── SIB_NOTEBOOKLM_PROMPTS_V1.md        NotebookLM prompts (copy)
 │   ├── SIB_VALIDATOR_IMPLEMENTATION_V1.md  validator implementation record (copy)
