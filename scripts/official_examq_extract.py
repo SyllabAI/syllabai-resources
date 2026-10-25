@@ -38,7 +38,7 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.17.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.17.2"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 
 # ---------------------------------------------------------------- spec lanes
 # v0.16.0 generalization: the converter serves one spec lane per run (--spec).
@@ -1841,8 +1841,14 @@ def main():
                     if hit and hit.group(1) in labels:
                         # rebuttal row: an option letter followed by negative text
                         # ('A is incorrect ...', 'B is not the formula ...',
-                        #  'C the charges are incorrect', 'B is X incorrect ...')
-                        if re.search(r"\bis\s+not\b|\bare\s+not\b|\b(?:is|are)\s+(?:\w+\s+)?incorrect\b", s):
+                        #  'C the charges are incorrect', 'B is X incorrect ...';
+                        #  v0.17.1: the physics 2023-06 2P MS prints the
+                        #  elimination family 'X cannot be the answer as ...' /
+                        #  'X cannot be correct as ...' — without it the
+                        #  elimination rows counted as ANSWER rows and drowned
+                        #  the real 'D - thermometer;' key (G3 unkeyed))
+                        if re.search(r"\bis\s+not\b|\bare\s+not\b|\bcannot\s+be\b"
+                                     r"|\b(?:is|are)\s+(?:\w+\s+)?incorrect\b", s):
                             rebut[hit.group(1)] = rebut.get(hit.group(1), 0) + 1
                         else:
                             ans.append(hit.group(1))
@@ -1946,6 +1952,152 @@ def main():
                             "kind": "crop-required", "mention": k,
                             "source": "qp.pdf", "page": p["source_page"], "review": True}
                            for k in mentions]
+
+    # ---- v0.16 (F64): MCQ choice script restoration -------------------------
+    # The plain-text option lines flatten print scripts: the 2026-06 1(a)
+    # options printed as NH4(sub) with a raised + and its distractor with a
+    # RAISED 4 both arrive as "NH4+" — a duplicate-choice ambiguity (the
+    # first G8 audit, igcse-chemistry-19, 2026-10-25). The printed page
+    # carries the truth in span geometry: a small RAISED span is a
+    # superscript, a small LOWERED span a subscript, and a floating charge
+    # span ("+" / "−") is picked up geometrically even at full size.
+    # Rebuild every short (formula-length scope guard — options only, never
+    # prose) choice from its row's spans; FAIL CLOSED when the rebuilt text
+    # does not normalize back to the extracted text (scripts stripped, dashes
+    # normalized, whitespace dropped) — a geometry mis-read aborts the slice
+    # instead of shipping a wrong formula. Rows are matched by label + flat
+    # text equality against the extracted line, and the first match at/below
+    # the part's own problem text wins — the same-label-rows-on-one-page
+    # hazard (two questions listing option A on one page) can no longer
+    # cross-contaminate a rebuild.
+    _F64_SUP = {"0": "⁰", "1": "¹", "2": "²", "3": "³", "4": "⁴", "5": "⁵",
+                "6": "⁶", "7": "⁷", "8": "⁸", "9": "⁹", "+": "⁺", "-": "⁻",
+                "−": "⁻", "–": "⁻", "(": "⁽", ")": "⁾", "n": "ⁿ", "m": "ᵐ",
+                "=": "⁼"}
+    _F64_SUB = {"0": "₀", "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅",
+                "6": "₆", "7": "₇", "8": "₈", "9": "₉", "+": "₊", "-": "₋",
+                "−": "₋", "–": "₋", "(": "₍", ")": "₎", "=": "₌"}
+    _F64_UNSTYLE = {}
+    for _c6, _p6 in list(_F64_SUP.items()) + list(_F64_SUB.items()):
+        _F64_UNSTYLE[_p6] = "-" if _c6 in ("-", "−", "–") else _c6
+    _F64_SCRIPT_MAX = 32          # formula-length scope guard
+    _F64_STYLE_CHARS = frozenset(_F64_SUP.values()) | frozenset(_F64_SUB.values())
+    _F64_LABEL_RE = re.compile(r"^\s*\(?\s*([A-E])\s*[).:]?\s*")
+
+    def _f64_unstyle(s):
+        return "".join(_F64_UNSTYLE.get(ch, ch) for ch in s)
+
+    def _f64_key(s):
+        return re.sub(r"\s+", "", _f64_unstyle(
+            str(s).replace("−", "-").replace("–", "-")).lower())
+
+    def _f64_rows(page):
+        # Visual rows, not dict lines: raised/lowered script spans often land
+        # in their OWN dict line (floating above the option row they belong
+        # to), so lines under-group. Group instead around the option LABEL
+        # anchors by baseline proximity (raised ≈ base − 5.4, lowered ≈
+        # base + 1.8 in the observed 4CH1 layouts; option rows sit 24 pt
+        # apart, so the −9/+6 window cannot reach a neighbouring row).
+        spans = []
+        for blk in page.get_text("dict")["blocks"]:
+            if blk.get("type") != 0:
+                continue
+            for ln in blk.get("lines") or []:
+                for sp in (ln.get("spans") or []):
+                    if sp.get("text", "").strip():
+                        spans.append(sp)
+        anchors = [sp for sp in spans
+                   if _F64_LABEL_RE.match(sp["text"]) and sp["bbox"][0] < 140]
+        rows = []
+        for a in anchors:
+            cand = [sp for sp in spans
+                    if sp is not a and sp["bbox"][0] >= a["bbox"][0] - 2
+                    and -9.0 <= sp["origin"][1] - a["origin"][1] <= 6.0]
+            cand.sort(key=lambda s: (round(s["bbox"][0], 1), s["origin"][1]))
+            rows.append([a] + cand)
+        return rows
+
+    def _f64_rebuild(spans, label):
+        lm = _F64_LABEL_RE.match(spans[0]["text"])
+        if lm is None or lm.group(1) != label:
+            return None
+        texts = [spans[0]["text"][lm.end():]]
+        texts += [sp["text"] for sp in spans[1:]]
+        if not "".join(texts).strip():
+            return None
+        dom = max(sp["size"] for sp in spans)
+        bases = sorted(sp["origin"][1] for sp in spans if sp["size"] >= 0.9 * dom)
+        base = bases[len(bases) // 2]
+        out, prev = [], None
+        for sp, t in zip(spans, texts):
+            if prev is not None and t:
+                gap = sp["bbox"][0] - prev["bbox"][2]
+                if (gap > 0.3 * dom and not out[-1].endswith(" ")
+                        and not t.startswith(" ")):
+                    out.append(" ")
+            small = sp["size"] < 0.82 * dom
+            raised = bool(t) and sp["bbox"][3] <= base - 0.5
+            lowered = bool(t) and sp["origin"][1] >= base + 0.5
+            charge = re.fullmatch(r"[+−-]+", t.strip() or "?") is not None
+            if (small or charge) and raised:
+                out.append("".join(_F64_SUP.get(c, c) for c in t))
+            elif (small or charge) and lowered:
+                out.append("".join(_F64_SUB.get(c, c) for c in t))
+            else:
+                out.append(t)
+            if t:
+                prev = sp
+        return "".join(out).strip()
+
+    n_f64 = 0
+    for _q in doc_questions:
+        for _p in _q["parts"]:
+            if not _p.get("choices"):
+                continue
+            _pg = _p.get("source_page")
+            if not isinstance(_pg, int) or not (1 <= _pg <= len(pdf)):
+                continue
+            _page = pdf[_pg - 1]
+            _rows = _f64_rows(_page)
+            # anchor y of the part's own problem text (same-label disambiguation)
+            _probe = _f64_key(_p.get("problem_md") or "")[:60]
+            _py = 0.0
+            if _probe:
+                for blk in _page.get_text("dict")["blocks"]:
+                    for ln in blk.get("lines") or []:
+                        _t = "".join(sp.get("text", "") for sp in (ln.get("spans") or []))
+                        if _probe in _f64_key(_t):
+                            _py = ln["bbox"][3]
+                            break
+            for _c in _p["choices"]:
+                _md = (_c.get("text_md") or "").strip()
+                if not _md or len(_md) > _F64_SCRIPT_MAX:
+                    continue
+                _want = _f64_key(_md)
+                _cands = []
+                for _spans in _rows:
+                    if not re.match(rf"^\(?\s*{_c['label']}\s*[).:]?\s*",
+                                    _spans[0]["text"]):
+                        continue
+                    _rb = _f64_rebuild(_spans, _c["label"])
+                    if _rb is not None and _f64_key(_rb) == _want:
+                        _cands.append((_spans[0]["bbox"][1], _rb))
+                if not _cands:
+                    continue
+                _below = [c for c in _cands if c[0] >= _py - 1.0]
+                _y, _rb = (_below or _cands)[0]
+                if os.environ.get("EXAMQ_F64_DEBUG"):
+                    print(f"F64DBG p={_p['part_number']} {_c['label']} md={_md!r} "
+                          f"cands={[(round(y,1), r) for y, r in _cands]!r} py={_py:.1f}",
+                          file=sys.stderr)
+                if _rb != _md and any(ch in _F64_STYLE_CHARS for ch in _rb):
+                    # restore only real script restorations — a script-free
+                    # rebuild (pure spacing/kerning artefacts) keeps the
+                    # extracted text verbatim
+                    _c["text_md"] = _rb
+                    n_f64 += 1
+    if n_f64:
+        report.setdefault("wave24", {})["choice_script_restored"] = n_f64
 
     # ---- v0.7 figure crop pass ----------------------------------------------
     # Resolution order per mention (fail-closed; anything unresolved stays a
