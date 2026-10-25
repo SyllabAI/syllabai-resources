@@ -1,8 +1,48 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
-Semantics: outputs embed `generator: official_examq_extract.py v<version>`, so any
-topic.json traces to exactly this behaviour. Every version bump must follow the
-AGENTS.md improvement loop: ledger entry (F#) + canary + full-corpus re-run.
+## 0.17.4 — 2026-10-26 · F67: the F48 PUA gate reaches the vertical MS lane (4ph1)
+
+The 4ph1 landing wave's corpus-wide canary (C74, `no_pua_served` with `spec: "4ph1"`)
+caught the v0.17.0 vertical MS lane serving mapped PUA chars: `parse_ms_vertical` takes
+the RAW layer (`clean_lines` bypassed by design, so `normalize_pua` was skipped with it)
+and its three entry-append sites stored the raw line — U+F020 / U+F050 / U+F0B4 /
+U+F0B7 / U+F044 / U+F070 / U+F068 leaked into 4ph1 `solution_md` on 16 slices (the
+tick/arrow/pi glyph rows that mark keyed MCQ options and allowance notes). Fix: the loop
+rebinds `ln = normalize_pua(ln)` — indentation preserved (`build_solution`'s
+NOTES_COL_INDENT column logic reads it), all three append sites store clean text. The
+gate stays fail-closed: an unmapped codepoint still aborts the run. Chemistry never
+calls `parse_ms_vertical` (`ms_layout: "vertical"` is 4ph1-only) — bit-identity by
+construction, same argument as v0.17.0. C74 pins the absence law corpus-wide; first
+battery of record: 74/74 hold on the landing outputs.
+
+## 0.17.3 — 2026-10-26 · physics PUA tranche (F48 evidence pass, first 4PH1 corpus wave)
+
+> Drift note: this file's top entry was 0.14.0 while `CONVERTER_VERSION` had reached
+> 0.17.2 — the spec-lane generalization (v0.16.0) and the v0.17.x parser waves shipped
+> without CHANGELOG entries. Backfilling those belongs to their own waves; this entry
+> documents only 0.17.3.
+
+Five new evidenced `PUA_MAP` entries for the Edexcel IGCSE Physics (4PH1) corpus,
+each from a PDF font trace (PyMuPDF rawdict) + page render, eyeballed
+(census/evidence artifacts of the intake wave; trace 1a17463dfb7c99c9):
+
+- `U+F020` → U+0020 — CIDFont+F12/F9 blank glyph: span `\uf050\uf020` (2021-11 1P MS p4)
+  prints ONE tick + gap; `\uf0b4\uf0203.125` (p13) prints "× 3.125" — the CID font's space.
+- `U+F068` → U+2191 (↑) — Wingdings3; 2021-06 1P MS p13 renders "clear e.g. allow +, ↑ for increase".
+- `U+F06A` → "" — TransportMT train pictogram (2020-06 1P QP p6, size 64), decorative
+  silhouette; the word "train" is in the stem text; drop like the cover ornaments.
+- `U+F070` → U+03C0 (π) — CIDFont+F7 2022-01 1P MS p11 "(2 × π × 7100) / 5800" and
+  SymbolMT 2023-06 1PR MS p5 "v = 2πr/T"; renders eyeballed in both.
+- `U+F075` → "" — TransportMT aeroplane pictogram (2020-06 2P QP p14), decorative; drop like F06A.
+
+No-op receipt: chemistry 2023-06 1C re-run pre (pure 0.17.2) vs post (0.17.3) on
+identical staging — topic.json / validation-report.json / questions.md / gate stdout
+all byte-identical modulo `generated_utc` + `generator` version string.
+
+Physics corpus effect: 7 slices (2020-06 1P/2P, 2020-11 1P, 2021-06 1P, 2021-11 1P,
+2022-01 1P, 2023-06 1PR) previously failed closed at MS parse on these glyphs; with the
+tranche the full 4PH1 wave (53 of 58 paper dirs; 3 archive-gap slices dispositioned,
+1 image-only scan crash receipted, 1 archive mislabel row) converts end-to-end.
 
 ## 0.14.0 — 2026-10-22 · wave-20: the stem-figure tranche (the wave-19 backlog closes)
 

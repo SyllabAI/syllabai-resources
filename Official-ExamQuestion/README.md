@@ -84,3 +84,19 @@ is the executed precedent.
 - Open work: human review queues (2020-01 MCQ keys, 10 crop-verify + 32 crop-pending, `pending-llm`
   spec tagging), 2019-06 re-ingest, then new courses per ADR-037 §6 (4XCH1 modular,
   4SD0 shared papers).
+
+## Status — igcse-physics-19 (second lane, landed 2026-10-26, Task 16)
+
+- **53 of 58 census paper dirs of 4PH1 (all 17 series, 2019-06 … 2026-06) are converted
+  and LANDED REVIEW-HEAVY under ADR-039** on the operator's explicit order: 520
+  questions, 2,171 parts, 4,790 marks, converter v0.17.4. Structural gates PASS 53/53
+  (G0/G1/G2-D/G4/G6/G7); the physics MS-table parser wave is disclosed, not hidden —
+  G3 79/138 MCQ parts honestly unkeyed, G5 936/2,171 parts unmatched (no solution
+  invented; all 1,235 linked parts carry their verbatim MS block).
+- 5 dirs dispositioned with standing receipts: 2020-11 1PR/2P/2PR (no QP in archive,
+  `na:pmt-not-listed`), 2019-06 1P (image-only scan, OCR wave open), 2023-06 2P
+  (archive bytes are an Examiners' Report — pastpapers repair owed).
+- Full disclosure, open waves and receipts: `igcse-physics-19/LANE-STATUS.md`;
+  per-slice matrix: `igcse-physics-19/MULTI-SERIES-REPORT.{md,json}`. Hub handover
+  NOT started (the hub still serves the SME sets for physics).
+
