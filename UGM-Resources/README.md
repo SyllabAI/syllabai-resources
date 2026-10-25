@@ -107,6 +107,21 @@ preservation-grade snapshot of a stable source.
 the text bodies. `MANIFEST.json` is **v7 (multi-lane)** — one block per lane;
 lane-1/2/3/4/5/6 rows carried forward untouched from v6.
 
+## Lane 13 — CIE 9709 Pure 3 3.5 Integration (T-UGM-IMPORT-13)
+
+The **fifth lane on the pure-3 course plane** and the **first lane of record with an honest empty spec point**.
+16 fresh text bodies under `pure-3-integration/` (fm `task: T-UGM-IMPORT-13`): the integration substrate
+concentrates on the calculus-trig-log, chain-rule and product-rule stations. 23 aligned rows of record = 16
+fresh rows (10 × 3.5.1 / 7 × 3.5.2 / 3 × 3.5.3 / 6 × 3.5.5 / 9 × 3.5.6 psp membership across the 16; 15 of them
+promotions of the lane-10/11/12 pre-baked "P3 3.5 Integration" bearing pool, each superseding its stale row) +
+1 cross-course flip (circular-slice → the lane-4 body under `pure-1-circular-measure/`) + 6 one-to-many joins
+beside standing alignments (r7616, r8774, r9312, r9701, r8694, r5126). 11 non-overlaps by reference with reasons
+(5 superseding stale bearing rows). **3.5.4 carries the honest zero**: no f′(x)/f(x) integration resource exists
+in the 25-station UGM corpus — recorded, never forced. Picks: r8679 (3.5.1) / r9297 (3.5.2) / r5126 (3.5.3, rides
+its lane-9 body — disclosed) / r8134 (3.5.5) / r8890 (3.5.6). This lane also restores the lane-12 LEDGER entries
+the #136 clobber had reverted (root `LEDGER.md` — the clobber failure mode's first root-level casualty,
+recovered verbatim from the #134 head). MANIFEST v14 (589 → 605).
+
 ## Rights and licensing authority
 
 - **Rights holder:** © University of Cambridge (Underground Mathematics); sourced
