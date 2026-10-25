@@ -595,3 +595,37 @@ served bundle PR carries a full disclosure census.
   the lost lane builds — `ugm_id` remains the only join key). MANIFEST v11 (lane-10 block appended; lane-1..9 rows
   + v9 assets untouched; file_count 514 → 548). Fleet audits: sha256 34/34, delimiter parity 34/34, fm↔enrichment
   membership 34/34 fresh rows, primaryPick 4/4 unique, 0 `ugm_id` collisions against lanes 1–9.
+
+- **T-UGM-MODE1-11 — UGM mode-1 lane enrichment, Pure 3 Trigonometry lane (this run)**: twelfth landing from the
+  UGM corpus, and the **third lane on the pure-3 course plane** (`course: cie-a-level-maths-20-pure-3`) — the
+  **first mostly-mapping lane**. Target of record: CIE 9709 Pure 3 subtopic 3.3 Trigonometry, spec points
+  3.3.1–3.3.2, verbatim from the hub spine parse (the parse artifacts in the 3.3.2 title — dropped math runs in
+  the R-form/Pythagorean bullets and the mid-sentence truncation — are carried verbatim; no `T-SPECS` repair
+  needed) — no fold fragments. Facts file of record:
+  `UGM-Enrichment/cie-a-level-maths-20-pure-3-trigonometry.json` (task `T-UGM-MODE1-11`, review_state SUGGESTED).
+  Corpus sweep 855 → 110 raw hits → 103 candidates (17 pass-1 title/description + 93 pass-2 body-text; 102 unique
+  regex candidates + 1 pre-baked bearing r9740 the regex cannot reach) → **28 aligned rows** = 1 fresh row
+  (r7616 → 3.3.1) + **27 cross-course rows by reference** (23 flips: the lane-5 pre-baked "P3 2.3" pool rows are
+  lane-5 non-overlaps whose whole-station bodies of record live under `pure-1-trigonometry/` — the two-station
+  lane law — so they flip to 3.3.2 by reference under the lane-9 flip law; 4 one-to-many: going-round-in-circles/
+  muddled-trig/trig-tables (3.3.1) and r7021 (3.3.2) beside standing 1.5.x alignments; no flips of pure-3 rows,
+  nothing duplicated) **+ 42 fresh non-overlaps recorded by reference only** (`bodyImported: false`; 9 riding
+  prior bodies per the supersede law) **+ 33 of-record candidates rejected with reasons**. Primary picks of
+  record: r7616 (3.3.1, fresh) / r6018 (3.3.2, rides a reference row — disclosed of record). Cross-map of record:
+  `undergroundmathematics/resources/derived/cross-map-p3-trigonometry.json` + narrative
+  `undergroundmathematics/docs/cross-map-p3-trigonometry.md` @ syllabai-experimental 4dbd50d5 (incl. the
+  body-of-record correction commit — the first cross-map landed before the whole-import audit; corrected
+  same-session per the lane-6/7 correction precedent).
+  Text of record: 1 new file under `UGM-Resources/pure-3-trigonometry/` (T-UGM-IMPORT-11, below) with
+  `primaryPick` cross-referenced to `UGM-Enrichment/` T-UGM-MODE1-11.
+- **T-UGM-IMPORT-11 — UGM text corpus import, Pure 3 Trigonometry lane (this run)**: twelfth landing; the
+  candidate-model law continues (lane-8/9/10 shape) with the lane-8 join law for the by-reference rows:
+  1 fresh 3.3-bearing resource (r7616), converted from `ugm-clean` through the byte-proven converter (pre-flight:
+  **79/79 byte-identity against the lane-8, lane-9 AND lane-10 of-record bodies**), fm planes
+  `curriculum_code: CIE-9709-P3-2023`, `lane: cie-a-level-maths-20-pure-3`, `task: T-UGM-IMPORT-11`,
+  `examProvenance` in the enrichment/cross-map rows = acknowledgement first line verbatim. Filename
+  `{ugm_id}-{title-slug}.md` under the lane-9 slug law (re-proved 35/35 against the lane-9 filenames; `<`/`>`
+  join the dropped relation-symbol vocabulary). MANIFEST v12 (lane-11 block appended; lane-1..10 rows + v9 assets
+  untouched; file_count 548 → 549). Fleet audits: sha256 1/1, delimiter parity 1/1, fm↔enrichment membership
+  28/28 aligned rows (1 fresh + 27 by-reference), primaryPick 2/2 unique, 0 `ugm_id` collisions against lanes
+  1–10, all 27 by-reference rows verified against the body map of record.

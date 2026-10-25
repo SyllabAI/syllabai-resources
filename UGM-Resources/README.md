@@ -254,6 +254,19 @@ pointers at `pure-1-functions/`, `pure-1-series/` and `pure-1-trigonometry/`; th
 non-overlaps are `bodyImported: false` rows — recorded, never imported, never forced. The
 converter pre-flight ran 45/45 byte-identity against the lane-8 AND lane-9 of-record bodies.
 
+A **mostly-mapping lane on the pure-3 plane** (lane 11, CIE 9709 Pure 3 3.3 Trigonometry) is the
+pure-3 mirror of lane 8's 10-fresh + 18-join shape: the dedicated Trigonometry: Compound Angles
+station and Triangles to Functions were **whole-imported of record by lane 5** (the two-station
+lane law that predates the candidate model), so the lane-5 pre-baked pool — 23 non-overlaps
+recorded with "P3 2.3" = today's 3.3 bearings — **maps by reference** under the lane-9 flip law
+(23 flips + 4 one-to-many beside standing 1.5.x alignments; all 27 rows ride
+`pure-1-trigonometry/` bodies; nothing duplicated). The fresh text substrate is r7616 alone (the
+3.3.1 pick — a Calculus of Trigonometry & Logarithms review question whose tested skill is the
+sign/definedness properties of 1/cos); the 42 fresh non-overlaps are `bodyImported: false` rows
+(9 of them riding prior bodies of record, `textOfRecordUnder` set per the supersede law). The
+converter pre-flight ran 79/79 byte-identity against the lane-8, lane-9 AND lane-10 of-record
+bodies, and the slug law re-proved 35/35 against the lane-9 filenames.
+
 ---
  — `T-UGM-ASSETS-1` (2026-10-24)
 
