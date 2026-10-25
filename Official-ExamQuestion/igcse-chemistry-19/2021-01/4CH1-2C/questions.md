@@ -146,6 +146,8 @@ This question is about carboxylic acids. Solutions of carboxylic acids react wit
 
 All the carboxylic acids are of the same concentration. Give two other variables the student should control in his investigation. 1 2
 
+![conical flask with magnesium and carboxylic acid connected to a gas syringe — official paper figure (qp.pdf p.6)](assets/asset_3_stem_gas-syringe.png)
+
 
 **Mark scheme answer**
 

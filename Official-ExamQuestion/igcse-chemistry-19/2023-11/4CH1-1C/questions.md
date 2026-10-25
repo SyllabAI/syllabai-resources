@@ -950,6 +950,8 @@ A scientist uses this apparatus in an experiment to reduce a metal oxide to a me
 
 State why the reaction of the metal oxide to form a metal is described as a reduction reaction.
 
+![hydrogen stream reducing metal oxide in a heated tube, hydrogen burning at the exit — official paper figure (qp.pdf p.22)](assets/asset_9_stem_reduction-tube.png)
+
 
 **Mark scheme answer**
 

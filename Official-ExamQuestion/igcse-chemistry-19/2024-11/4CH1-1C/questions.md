@@ -597,6 +597,8 @@ A student uses this apparatus to investigate the rate of reaction between marble
 
 Give a reason why the reading on the balance decreases during the reaction.
 
+![marble chips and dilute hydrochloric acid in a flask on a balance, cotton wool plug — official paper figure (qp.pdf p.22)](assets/asset_8_stem_marble-chips.png)
+
 
 **Mark scheme answer**
 
@@ -691,6 +693,8 @@ A student uses this apparatus to investigate the heat energy released when a liq
 ### 9(a) [1]
 
 Give a reason why the student uses an aluminium can rather than a glass beaker.
+
+![spirit burner heating water in an aluminium can with thermometer — official paper figure (qp.pdf p.24)](assets/asset_9_stem_fuel-calorimeter.png)
 
 
 **Mark scheme answer**

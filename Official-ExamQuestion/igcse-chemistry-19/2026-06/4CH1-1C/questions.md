@@ -12,10 +12,10 @@ Ammonium carbonate is a compound used in baking powders.
 
 What is the formula of the ammonium ion?
 
-- **(A)** NH4+
-- **(B)** NH3+
-- **(C)** NH4
-- **(D)** NH4+  ✔
+- **(A)** NH⁴⁺
+- **(B)** NH₃⁺
+- **(C)** NH₄
+- **(D)** NH₄⁺  ✔
 
 
 **Mark scheme answer**
@@ -35,10 +35,10 @@ What is the formula of the ammonium ion?
 
 What is the formula of the carbonate ion?
 
-- **(A)** CO23–
-- **(B)** CO32–  ✔
-- **(C)** C4+
-- **(D)** C4–
+- **(A)** CO₂³⁻
+- **(B)** CO₃²⁻  ✔
+- **(C)** C⁴⁺
+- **(D)** C⁴⁻
 
 
 **Mark scheme answer**

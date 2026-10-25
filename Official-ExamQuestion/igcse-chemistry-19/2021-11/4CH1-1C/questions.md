@@ -459,6 +459,8 @@ This question is about organic compounds.
 
 Give the letter of the compound that is not a hydrocarbon.
 
+![displayed formulae of compounds U, V, W, X and Y — official paper figure (qp.pdf p.16)](assets/asset_6_stem_compounds-grid.png)
+
 
 **Mark scheme answer**
 

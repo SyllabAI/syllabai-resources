@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-24T08:42:29Z",
- "generator": "official_examq_extract.py v0.15.0 (ADR-039) series=2020-01 paper=1C",
+ "generated_utc": "2026-10-25T13:33:16Z",
+ "generator": "official_examq_extract.py v0.17.0 (ADR-039) series=2020-01 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2020-01:4CH1/1C",
  "source": {
   "qp_sha256": "37247459b838d799b1059dd3b1aba296043104a56323c656e71eb1fca589396f",
@@ -330,7 +330,22 @@
       }
      ],
      "source_page": 6,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_3_stem_iron-bars",
+       "kind": "crop",
+       "mention": "iron bars A and B, B zinc-coated",
+       "source": "qp.pdf",
+       "page": 6,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_3_stem_iron-bars.png",
+       "render": "vector",
+       "text_coverage": 0.353,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-2.19"
      ],

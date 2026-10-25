@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-24T08:43:37Z",
- "generator": "official_examq_extract.py v0.15.0 (ADR-039) series=2024-06 paper=1CR",
+ "generated_utc": "2026-10-25T13:34:35Z",
+ "generator": "official_examq_extract.py v0.17.0 (ADR-039) series=2024-06 paper=1CR",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2024-06:4CH1/1CR",
  "source": {
   "qp_sha256": "aacf1223dedbcf7e8ad9265e1d404e1493e4228248ac235ee038c3bfd77c9993",
@@ -197,7 +197,22 @@
       }
      ],
      "source_page": 6,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_2_stem_bunsen",
+       "kind": "crop",
+       "mention": "Bunsen burner with flame",
+       "source": "qp.pdf",
+       "page": 6,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_2_stem_bunsen.png",
+       "render": "vector",
+       "text_coverage": 0.0,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-2.9"
      ],

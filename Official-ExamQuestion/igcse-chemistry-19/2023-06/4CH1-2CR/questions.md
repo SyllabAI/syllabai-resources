@@ -727,6 +727,8 @@ Explain why this reaction is exothermic.
 
 Draw a circle around the functional group of the ester.
 
+![displayed formula of an ester made from methanol and a carboxylic acid — official paper figure (qp.pdf p.23)](assets/asset_7_stem_ester-formula.png)
+
 
 **Mark scheme answer**
 

@@ -379,6 +379,8 @@ A student uses this apparatus to investigate the effect of heat on different sol
 
 State the name given to this type of reaction.
 
+![metal carbonate in a boiling tube heated, gas delivered into limewater in a test tube — official paper figure (qp.pdf p.12)](assets/asset_5_stem_carbonate-apparatus.png)
+
 
 **Mark scheme answer**
 

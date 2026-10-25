@@ -154,6 +154,8 @@ The diagram shows two samples of iron, A and B. iron iron zinc A B Sample B is c
 
 Name the process used to coat iron with zinc.
 
+![iron bars A and B, B zinc-coated — official paper figure (qp.pdf p.6)](assets/asset_3_stem_iron-bars.png)
+
 
 **Mark scheme answer**
 

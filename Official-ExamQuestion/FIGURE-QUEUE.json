@@ -1,0 +1,386 @@
+{
+ "schema": "syllabai.figure-queue/0.1",
+ "note": "Durable disposition of the G8 figure-language review queue (first run: igcse-chemistry-19, 2026-10-25): every part whose problem text uses figure language while no part of its question embeds an image. 'cropped' parts now carry a real asset (see CROP-REVIEW.json verdict + STEM-RESTORE.json spec); 'dismissed' parts were verified against the printed QP page as needing no figure (draw/recall tasks, printed equations). The queue is finished when it is empty. 'served_via' parts are answered from a question-level crop carried on a sibling part (the figure introduces the whole question or group); they render the figure through that sibling's embed.",
+ "decided_utc": "2026-10-25T00:00:00Z",
+ "queue_source": "oe-audit/missing-image-candidates.json (36 parts / 28 papers)",
+ "cropped": [
+  {
+   "part": "offp_2019-06_1c_11-b-i",
+   "series": "2019-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_11_stem_apparatus",
+   "page": 16,
+   "why": "printed figure verified on the QP page; apparatus: methane flame, U-tube in ice and water, limewater flask, to pump"
+  },
+  {
+   "part": "offp_2019-06_1c_12-a",
+   "series": "2019-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_12_stem_calorimeter",
+   "page": 18,
+   "why": "printed figure verified on the QP page; calorimeter: thermometer in polystyrene cup"
+  },
+  {
+   "part": "offp_2020-01_1c_3-a",
+   "series": "2020-01",
+   "paper": "4CH1-1C",
+   "asset": "asset_3_stem_iron-bars",
+   "page": 6,
+   "why": "printed figure verified on the QP page; iron bars A and B, B zinc-coated"
+  },
+  {
+   "part": "offp_2021-06_1c_3-b-i",
+   "series": "2021-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_3_stem_distillation",
+   "page": 6,
+   "why": "printed figure verified on the QP page; simple distillation apparatus with labelled coolant tubes X"
+  },
+  {
+   "part": "offp_2021-11_1c_6-a-i",
+   "series": "2021-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_6_stem_compounds-grid",
+   "page": 16,
+   "why": "printed figure verified on the QP page; displayed formulae of compounds U, V, W, X and Y"
+  },
+  {
+   "part": "offp_2022-06_1c_1-a",
+   "series": "2022-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_1_stem_electronic-config",
+   "page": 3,
+   "why": "printed figure verified on the QP page; electronic configuration diagram: nucleus and three shells"
+  },
+  {
+   "part": "offp_2022-06_1c_5-a-iii",
+   "series": "2022-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_5_stem_isomer-formula",
+   "page": 10,
+   "why": "printed figure verified on the QP page; displayed formula of a C5H12 isomer"
+  },
+  {
+   "part": "offp_2023-01_1c_10-a",
+   "series": "2023-01",
+   "paper": "4CH1-1C",
+   "asset": "asset_10_stem_thermometer-beaker",
+   "page": 20,
+   "why": "printed figure verified on the QP page; beaker of solution with thermometer"
+  },
+  {
+   "part": "offp_2023-11_1c_9-a-i",
+   "series": "2023-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_9_stem_reduction-tube",
+   "page": 22,
+   "why": "printed figure verified on the QP page; hydrogen stream reducing metal oxide in a heated tube, hydrogen burning at the exit"
+  },
+  {
+   "part": "offp_2024-11_1c_8-a",
+   "series": "2024-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_8_stem_marble-chips",
+   "page": 22,
+   "why": "printed figure verified on the QP page; marble chips and dilute hydrochloric acid in a flask on a balance, cotton wool plug"
+  },
+  {
+   "part": "offp_2024-11_1c_9-a",
+   "series": "2024-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_9_stem_fuel-calorimeter",
+   "page": 24,
+   "why": "printed figure verified on the QP page; spirit burner heating water in an aluminium can with thermometer"
+  },
+  {
+   "part": "offp_2019-06_2c_3-a",
+   "series": "2019-06",
+   "paper": "4CH1-2C",
+   "asset": "asset_3_stem_evaporation",
+   "page": 6,
+   "why": "printed figure verified on the QP page; evaporating basin of alcohol floating on hot water"
+  },
+  {
+   "part": "offp_2021-01_2c_3-a-i",
+   "series": "2021-01",
+   "paper": "4CH1-2C",
+   "asset": "asset_3_stem_gas-syringe",
+   "page": 6,
+   "why": "printed figure verified on the QP page; conical flask with magnesium and carboxylic acid connected to a gas syringe"
+  },
+  {
+   "part": "offp_2022-06_2c_2-a-i",
+   "series": "2022-06",
+   "paper": "4CH1-2C",
+   "asset": "asset_2_stem_apparatus-xy",
+   "page": 4,
+   "why": "printed figure verified on the QP page; apparatus X (measuring cylinder) and Y (25 cm3 pipette)"
+  },
+  {
+   "part": "offp_2023-01_2c_4-b-ii",
+   "series": "2023-01",
+   "paper": "4CH1-2C",
+   "asset": "asset_4_stem_ethene",
+   "page": 13,
+   "why": "printed figure verified on the QP page; displayed formula of ethene"
+  },
+  {
+   "part": "offp_2020-01_1cr_5-a",
+   "series": "2020-01",
+   "paper": "4CH1-1CR",
+   "asset": "asset_5_stem_phosphorus-apparatus",
+   "page": 14,
+   "why": "printed figure verified on the QP page; glass tube full of air with phosphorus on a wire, scale in 0.5 cm3 divisions, standing in water"
+  },
+  {
+   "part": "offp_2021-01_1cr_5-a",
+   "series": "2021-01",
+   "paper": "4CH1-1CR",
+   "asset": "asset_5_stem_carbonate-apparatus",
+   "page": 12,
+   "why": "printed figure verified on the QP page; metal carbonate in a boiling tube heated, gas delivered into limewater in a test tube"
+  },
+  {
+   "part": "offp_2022-01_1cr_6-c",
+   "series": "2022-01",
+   "paper": "4CH1-1CR",
+   "asset": "asset_6_stem_ocimene",
+   "page": 14,
+   "why": "printed figure verified on the QP page; displayed formula of ocimene"
+  },
+  {
+   "part": "offp_2022-01_1cr_8-a",
+   "series": "2022-01",
+   "paper": "4CH1-1CR",
+   "asset": "asset_8_stem_zinc-apparatus",
+   "page": 19,
+   "why": "printed figure verified on the QP page; zinc granules and dilute sulfuric acid in a flask on a balance"
+  },
+  {
+   "part": "offp_2023-01_1cr_1-a",
+   "series": "2023-01",
+   "paper": "4CH1-1CR",
+   "asset": "asset_1_stem_states",
+   "page": 3,
+   "why": "printed figure verified on the QP page; particle arrangement in solid, liquid and gas with changes X, Y, Z"
+  },
+  {
+   "part": "offp_2024-06_1cr_2-a",
+   "series": "2024-06",
+   "paper": "4CH1-1CR",
+   "asset": "asset_2_stem_bunsen",
+   "page": 6,
+   "why": "printed figure verified on the QP page; Bunsen burner with flame"
+  },
+  {
+   "part": "offp_2020-01_2cr_7-c-i",
+   "series": "2020-01",
+   "paper": "4CH1-2CR",
+   "asset": "asset_7_stem_ester",
+   "page": 23,
+   "why": "printed figure verified on the QP page; displayed formula of an ester"
+  },
+  {
+   "part": "offp_2023-01_2cr_4-b-ii",
+   "series": "2023-01",
+   "paper": "4CH1-2CR",
+   "asset": "asset_4_stem_polymerisation",
+   "page": 9,
+   "why": "printed figure verified on the QP page; polymerisation equation: diol plus dicarboxylic acid giving the polyester repeat unit and 2n H2O"
+  },
+  {
+   "part": "offp_2026-06_2cr_3-c-i",
+   "series": "2026-06",
+   "paper": "4CH1-2CR",
+   "asset": "asset_3_stem_solubility",
+   "page": 8,
+   "why": "printed figure verified on the QP page; boiling tube of potassium nitrate solution in a beaker of hot water with thermometer"
+  },
+  {
+   "part": "offp_2025-06_1c_9-a-i",
+   "series": "2025-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_9_a_i_diagram",
+   "page": 20,
+   "why": "printed figure verified on the QP page; displayed formula of chloroethene"
+  }
+ ],
+ "dismissed": [
+  {
+   "part": "offp_2024-11_1c_4-a",
+   "series": "2024-11",
+   "paper": "4CH1-1C",
+   "page": 11,
+   "why": "p11: apparatus is a printed bullet list (chromatography paper, beaker, solvent, inks); '(a) Describe how... You may use a diagram' is a draw/describe task — no printed figure"
+  },
+  {
+   "part": "offp_2026-06_1c_6-e-ii",
+   "series": "2026-06",
+   "paper": "4CH1-1C",
+   "page": 19,
+   "why": "p19: 'Give the displayed formula of each product' with printed product 1/product 2 answer boxes — draw task, no printed figure"
+  },
+  {
+   "part": "offp_2020-11_2c_6-c-i",
+   "series": "2020-11",
+   "paper": "4CH1-2C",
+   "page": 20,
+   "why": "p20: 'Name the piece of apparatus... to measure 25.0 cm3' — recall task; the titration method page prints no diagram"
+  },
+  {
+   "part": "offp_2021-01_2c_6-c-i",
+   "series": "2021-01",
+   "paper": "4CH1-2C",
+   "page": 20,
+   "why": "p20: 'Name a piece of apparatus suitable for measuring 25.0 cm3' — recall task, no diagram"
+  },
+  {
+   "part": "offp_2021-11_2c_2-b-i",
+   "series": "2021-11",
+   "paper": "4CH1-2C",
+   "page": 5,
+   "why": "p5: 'Name the piece of apparatus... to measure exactly 10.0 cm3' — recall task, no diagram"
+  },
+  {
+   "part": "offp_2021-11_2c_6-b",
+   "series": "2021-11",
+   "paper": "4CH1-2C",
+   "page": 18,
+   "why": "p18: 'Give the displayed formula of butanol' — draw task, no printed figure"
+  },
+  {
+   "part": "offp_2023-06_2c_4-a",
+   "series": "2023-06",
+   "paper": "4CH1-2C",
+   "page": 12,
+   "why": "p12: titration method page; '(a) Give the name of the most suitable piece of apparatus' — recall task, no diagram"
+  },
+  {
+   "part": "offp_2026-06_2c_4-c",
+   "series": "2026-06",
+   "paper": "4CH1-2C",
+   "page": 13,
+   "why": "p13: 'Describe a method... Include suitable calculations and apparatus in your answer' — prose task, no printed figure"
+  },
+  {
+   "part": "offp_2026-06_2c_5-a",
+   "series": "2026-06",
+   "paper": "4CH1-2C",
+   "page": 14,
+   "why": "p14: 'Complete the equation... by adding the displayed formula of the missing reactant and the missing product' with printed answer boxes — draw task"
+  },
+  {
+   "part": "offp_2020-11_2cr_6-a",
+   "series": "2020-11",
+   "paper": "4CH1-2CR",
+   "page": 12,
+   "why": "p12: 'Name a suitable piece of apparatus... to measure 25.0 cm3' — recall task; Q6 method page prints no diagram (verified full page)"
+  },
+  {
+   "part": "offp_2021-01_2cr_7-d",
+   "series": "2021-01",
+   "paper": "4CH1-2CR",
+   "page": 18,
+   "why": "p18: 'Give the displayed formula of the branched-chain isomer of hydrocarbon X' — draw task, no printed figure"
+  },
+  {
+   "part": "offp_2023-06_2cr_4-b-ii",
+   "series": "2023-06",
+   "paper": "4CH1-2CR",
+   "page": 11,
+   "why": "p11: 'The cracking of tetradecane is shown in the equation' — the equation is printed text, not a figure"
+  }
+ ],
+ "served_via": [
+  {
+   "part": "offp_2019-06_1c_11-b-ii",
+   "series": "2019-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_11_stem_apparatus",
+   "page": 16,
+   "why": "printed figure verified on the QP page; apparatus: methane flame, U-tube in ice and water, limewater flask, to pump (question-level figure served from 11(b)(i))",
+   "carried_by": "11(b)(i)"
+  },
+  {
+   "part": "offp_2019-06_1c_12-b",
+   "series": "2019-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_12_stem_calorimeter",
+   "page": 18,
+   "why": "printed figure verified on the QP page; calorimeter: thermometer in polystyrene cup (question-level figure served from 12(a))",
+   "carried_by": "12(a)"
+  },
+  {
+   "part": "offp_2019-06_1c_12-c",
+   "series": "2019-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_12_stem_calorimeter",
+   "page": 18,
+   "why": "printed figure verified on the QP page; calorimeter: thermometer in polystyrene cup (question-level figure served from 12(a))",
+   "carried_by": "12(a)"
+  },
+  {
+   "part": "offp_2021-06_1c_3-b-ii",
+   "series": "2021-06",
+   "paper": "4CH1-1C",
+   "asset": "asset_3_stem_distillation",
+   "page": 6,
+   "why": "printed figure verified on the QP page; simple distillation apparatus with labelled coolant tubes X (question-level figure served from 3(b)(i))",
+   "carried_by": "3(b)(i)"
+  },
+  {
+   "part": "offp_2021-11_1c_6-a-ii",
+   "series": "2021-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_6_stem_compounds-grid",
+   "page": 16,
+   "why": "printed figure verified on the QP page; displayed formulae of compounds U, V, W, X and Y (question-level figure served from 6(a)(i))",
+   "carried_by": "6(a)(i)"
+  },
+  {
+   "part": "offp_2021-11_1c_6-a-iii",
+   "series": "2021-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_6_stem_compounds-grid",
+   "page": 16,
+   "why": "printed figure verified on the QP page; displayed formulae of compounds U, V, W, X and Y (question-level figure served from 6(a)(i))",
+   "carried_by": "6(a)(i)"
+  },
+  {
+   "part": "offp_2021-11_1c_6-a-iv",
+   "series": "2021-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_6_stem_compounds-grid",
+   "page": 16,
+   "why": "printed figure verified on the QP page; displayed formulae of compounds U, V, W, X and Y (question-level figure served from 6(a)(i))",
+   "carried_by": "6(a)(i)"
+  },
+  {
+   "part": "offp_2021-11_1c_6-a-v",
+   "series": "2021-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_6_stem_compounds-grid",
+   "page": 16,
+   "why": "printed figure verified on the QP page; displayed formulae of compounds U, V, W, X and Y (question-level figure served from 6(a)(i))",
+   "carried_by": "6(a)(i)"
+  },
+  {
+   "part": "offp_2021-11_1c_6-a-vi",
+   "series": "2021-11",
+   "paper": "4CH1-1C",
+   "asset": "asset_6_stem_compounds-grid",
+   "page": 16,
+   "why": "printed figure verified on the QP page; displayed formulae of compounds U, V, W, X and Y (question-level figure served from 6(a)(i))",
+   "carried_by": "6(a)(i)"
+  },
+  {
+   "part": "offp_2023-06_2cr_7-c-ii",
+   "series": "2023-06",
+   "paper": "4CH1-2CR",
+   "asset": "asset_7_stem_ester-formula",
+   "page": 23,
+   "why": "printed figure verified on the QP page; displayed formula of an ester made from methanol and a carboxylic acid (question-level figure served from 7(c)(i))",
+   "carried_by": "7(c)(i)"
+  }
+ ]
+}

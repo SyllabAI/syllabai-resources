@@ -329,6 +329,8 @@ Describe what is meant by cracking.
 
 Ethene is obtained by cracking. This is the displayed formula of ethene. H H C C H H Explain why ethene is described as an unsaturated hydrocarbon.
 
+![displayed formula of ethene — official paper figure (qp.pdf p.13)](assets/asset_4_stem_ethene.png)
+
 
 **Mark scheme answer**
 

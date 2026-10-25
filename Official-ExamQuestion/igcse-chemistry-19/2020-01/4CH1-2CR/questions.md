@@ -753,6 +753,8 @@ When the equilibrium mixture is heated, the yield of ethanol decreases. Explain 
 
 Carboxylic acid A and alcohol B react to produce this ester. Give the displayed formula of carboxylic acid A and of alcohol B. Carboxylic acid A Alcohol B
 
+![displayed formula of an ester — official paper figure (qp.pdf p.23)](assets/asset_7_stem_ester.png)
+
 
 **Mark scheme answer**
 

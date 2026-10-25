@@ -843,6 +843,8 @@ Calculate the mass of oxygen required to react with 32 g of methane. [Mr of meth
 
 Explain why water collects in the U-tube.
 
+![apparatus: methane flame, U-tube in ice and water, limewater flask, to pump — official paper figure (qp.pdf p.16)](assets/asset_11_stem_apparatus.png)
+
 
 **Mark scheme answer**
 
@@ -907,6 +909,8 @@ A student uses this apparatus to investigate the temperature change that occurs 
 ### 12(a) [2]
 
 Use the results of the experiment to explain what type of reaction is taking place when ammonium nitrate is added to water.
+
+![calorimeter: thermometer in polystyrene cup — official paper figure (qp.pdf p.18)](assets/asset_12_stem_calorimeter.png)
 
 
 **Mark scheme answer**

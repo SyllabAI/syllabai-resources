@@ -79,8 +79,8 @@ Which of these describes a solution with a pH value of 9?
 
 Which of these is the chemical formula of an acid?
 
-- **(A)** HNO3  ✔
-- **(B)** H2O
+- **(A)** HNO₃  ✔
+- **(B)** H₂O
 - **(C)** NaCl
 - **(D)** NaOH
 
@@ -561,6 +561,8 @@ Using ocimene as an example, explain what is meant by the term empirical formula
 
 The displayed formula of ocimene is H H H C H H C H H H H H H H H C C C C C C C C H H H Explain why ocimene is described as an unsaturated hydrocarbon.
 
+![displayed formula of ocimene — official paper figure (qp.pdf p.14)](assets/asset_6_stem_ocimene.png)
+
 
 **Mark scheme answer**
 
@@ -718,6 +720,8 @@ A student uses this apparatus in an experiment to study the rate of the reaction
 ### 8(a) [1]
 
 Complete the equation for the reaction by adding the state symbols. Zn ( ) + H2SO4 ( ) → ZnSO4 ( ) + H2 ( )
+
+![zinc granules and dilute sulfuric acid in a flask on a balance — official paper figure (qp.pdf p.19)](assets/asset_8_stem_zinc-apparatus.png)
 
 
 **Mark scheme answer**

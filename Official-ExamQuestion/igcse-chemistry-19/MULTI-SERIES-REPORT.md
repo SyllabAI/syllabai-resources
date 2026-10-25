@@ -1,6 +1,6 @@
 # ADR-037 corpus run — 4CH1 complete: 1C + 2C + both F-178 R-variant tranches (1CR, 2CR) — 54 slices, all series in syllabai-pastpapers; F34 + F-178
 
-> generated 2026-10-24T08:44:01Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
+> generated 2026-10-25T13:35:06Z · baseline 2020-11 · gate suite G0–G6 + negative controls N1–N3 per paper slice
 > 54 slices (['1C', '1CR', '2C', '2CR']) · 477 questions · 2607 parts · 4860 marks extracted · 54 slices fully PASS
 
 | series | paper | G0 | G1 | G2 | G3 | G4 | G5 | G6 | NC | questions | parts | marks | MCQ keyed | review |
@@ -49,7 +49,7 @@
 | 2024-06 | 2CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 38 | 70/None | 4/4 | 0 |
 | 2024-11 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 56 | 110/110 | 2/2 | 0 |
 | 2024-11 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 34 | 70/70 | 1/1 | 0 |
-| 2025-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 49 | 110/110 | 6/6 | 1 |
+| 2025-06 | 1C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 10 | 49 | 110/110 | 6/6 | 0 |
 | 2025-06 | 1CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 11 | 55 | 110/None | 1/1 | 0 |
 | 2025-06 | 2C | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 6 | 38 | 70/70 | 1/1 | 0 |
 | 2025-06 | 2CR | PASS | PASS | PASS | PASS | PASS | PASS | PASS | 3/3 | 7 | 38 | 70/None | 1/1 | 0 |

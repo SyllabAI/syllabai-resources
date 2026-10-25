@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-24T08:42:50Z",
- "generator": "official_examq_extract.py v0.15.0 (ADR-039) series=2021-06 paper=1C",
+ "generated_utc": "2026-10-25T13:33:41Z",
+ "generator": "official_examq_extract.py v0.17.0 (ADR-039) series=2021-06 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2021-06:4CH1/1C",
  "source": {
   "qp_sha256": "f23c24c14501fce4ee42a72a15deb96c84c9e205565683a4d1e8e6084d3fb4af",
@@ -419,7 +419,22 @@
       }
      ],
      "source_page": 6,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_3_stem_distillation",
+       "kind": "crop",
+       "mention": "simple distillation apparatus with labelled coolant tubes X",
+       "source": "qp.pdf",
+       "page": 6,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_3_stem_distillation.png",
+       "render": "vector",
+       "text_coverage": 0.102,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-1.10"
      ],

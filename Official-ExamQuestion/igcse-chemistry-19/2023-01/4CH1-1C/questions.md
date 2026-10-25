@@ -94,9 +94,9 @@ This question is about elements, mixtures and compounds.
 Which of these is the formula of a molecule of an element?
 
 - **(A)** O
-- **(B)** Cl2  ✔
+- **(B)** Cl₂  ✔
 - **(C)** HCl
-- **(D)** H2O
+- **(D)** H₂O
 
 
 **Mark scheme answer**
@@ -847,6 +847,8 @@ A student uses this apparatus to record the maximum temperature in the reaction 
 ### 10(a) [1]
 
 Name a suitable piece of apparatus to add 25 cm3 of solution to the beaker.
+
+![beaker of solution with thermometer — official paper figure (qp.pdf p.20)](assets/asset_10_stem_thermometer-beaker.png)
 
 
 **Mark scheme answer**

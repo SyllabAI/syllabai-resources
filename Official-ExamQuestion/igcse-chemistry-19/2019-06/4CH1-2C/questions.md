@@ -131,6 +131,8 @@ Methanol, ethanol, propanol and butanol are alcohols. They are all liquids that 
 
 State two variables the student should control to make sure her results are valid. 1 2
 
+![evaporating basin of alcohol floating on hot water — official paper figure (qp.pdf p.6)](assets/asset_3_stem_evaporation.png)
+
 
 **Mark scheme answer**
 

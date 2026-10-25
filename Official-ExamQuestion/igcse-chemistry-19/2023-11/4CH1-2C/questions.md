@@ -462,10 +462,10 @@ Give the name of a suitable catalyst for this reaction.
 
 What is the structural formula of the ester that forms?
 
-- **(A)** HCOOCH2CH2CH3
-- **(B)** CH3COOCH2CH2CH3
-- **(C)** CH3CH2COOCH3  ✔
-- **(D)** CH3CH2CH2COOCH3
+- **(A)** HCOOCH₂CH₂CH₃
+- **(B)** CH₃COOCH₂CH₂CH₃
+- **(C)** CH₃CH₂COOCH₃  ✔
+- **(D)** CH₃CH₂CH₂COOCH₃
 
 
 **Mark scheme answer**

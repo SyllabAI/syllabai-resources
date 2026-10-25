@@ -679,10 +679,10 @@ Nitric acid forms acid rain. State one environmental effect of acid rain.
 
 What is the formula of ammonium carbonate?
 
-- **(A)** NH3CO3
-- **(B)** (NH3)2CO3
-- **(C)** NH4CO3
-- **(D)** (NH4)2CO3  ✔
+- **(A)** NH₃CO₃
+- **(B)** (NH₃)₂CO₃
+- **(C)** NH₄CO₃
+- **(D)** (NH₄)₂CO₃  ✔
 
 
 **Mark scheme answer**

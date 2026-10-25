@@ -135,10 +135,10 @@ This question is about alkanes.
 
 Which of these is the molecular formula of an alkane?
 
-- **(A)** C2H5
-- **(B)** C4H10  ✔
-- **(C)** CH2CH2
-- **(D)** CH3CH2CH3
+- **(A)** C₂H₅
+- **(B)** C₄H₁₀  ✔
+- **(C)** CH₂CH₂
+- **(D)** CH₃CH₂CH₃
 
 
 **Mark scheme answer**
@@ -157,10 +157,10 @@ Which of these is the molecular formula of an alkane?
 
 Which of these has the same empirical formula and molecular formula?
 
-- **(A)** CH2
-- **(B)** C2H6
-- **(C)** C3H8  ✔
-- **(D)** C4H10
+- **(A)** CH₂
+- **(B)** C₂H₆
+- **(C)** C₃H₈  ✔
+- **(D)** C₄H₁₀
 
 
 **Mark scheme answer**
@@ -418,10 +418,10 @@ State two conditions needed for this reaction. 1 2
 
 Which of these is the formula of the ester?
 
-- **(A)** CH3COOC3H7
-- **(B)** CH3COOC4H9  ✔
-- **(C)** C2H5COOC4H9
-- **(D)** C3H7COOC2H5
+- **(A)** CH₃COOC₃H₇
+- **(B)** CH₃COOC₄H₉  ✔
+- **(C)** C₂H₅COOC₄H₉
+- **(D)** C₃H₇COOC₂H₅
 
 
 **Mark scheme answer**

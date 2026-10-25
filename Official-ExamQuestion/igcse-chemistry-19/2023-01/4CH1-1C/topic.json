@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-24T08:43:14Z",
- "generator": "official_examq_extract.py v0.15.0 (ADR-039) series=2023-01 paper=1C",
+ "generated_utc": "2026-10-25T13:34:08Z",
+ "generator": "official_examq_extract.py v0.17.0 (ADR-039) series=2023-01 paper=1C",
  "paper_id": "pearson-edexcel:international-gcse:chemistry:4ch1:2023-01:4CH1/1C",
  "source": {
   "qp_sha256": "f25bac612af935d73235818fc6eec8a6429d15f3d4babddc681fe3ba4be2c2e8",
@@ -198,7 +198,7 @@
       },
       {
        "label": "B",
-       "text_md": "Cl2",
+       "text_md": "Cl₂",
        "is_correct": true
       },
       {
@@ -208,7 +208,7 @@
       },
       {
        "label": "D",
-       "text_md": "H2O",
+       "text_md": "H₂O",
        "is_correct": false
       }
      ],
@@ -1746,7 +1746,22 @@
       }
      ],
      "source_page": 20,
-     "assets": [],
+     "assets": [
+      {
+       "id": "asset_10_stem_thermometer-beaker",
+       "kind": "crop",
+       "mention": "beaker of solution with thermometer",
+       "source": "qp.pdf",
+       "page": 20,
+       "review": false,
+       "stem_figure": true,
+       "path": "assets/asset_10_stem_thermometer-beaker.png",
+       "render": "vector",
+       "text_coverage": 0.0,
+       "manual_crop": true,
+       "review_verdict": "accepted"
+      }
+     ],
      "spec_point_codes": [
       "4CH1-3.8"
      ],

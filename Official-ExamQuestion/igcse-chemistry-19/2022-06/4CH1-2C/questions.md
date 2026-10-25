@@ -90,6 +90,8 @@ Describe a test for carbon dioxide.
 
 Give the name of each piece of apparatus. X Y
 
+![apparatus X (measuring cylinder) and Y (25 cm3 pipette) — official paper figure (qp.pdf p.4)](assets/asset_2_stem_apparatus-xy.png)
+
 
 **Mark scheme answer**
 

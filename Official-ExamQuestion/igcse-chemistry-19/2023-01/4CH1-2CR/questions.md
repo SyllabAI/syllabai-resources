@@ -273,6 +273,8 @@ Explain the name given to the type of polymerisation that occurs in these reacti
 
 Complete the equation for the polymerisation reaction by giving the displayed formula of the repeat unit of the polymer. ⎡ ⎤ ⎡ ⎤ ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ H H H ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ n H O C C C O H ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ H H H ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎢ ⎥ ⎣ ⎦ ⎣ ⎦ n + + O O n H O C C O H 2n H2O
 
+![polymerisation equation: diol plus dicarboxylic acid giving the polyester repeat unit and 2n H2O — official paper figure (qp.pdf p.9)](assets/asset_4_stem_polymerisation.png)
+
 
 **Mark scheme answer**
 
@@ -464,10 +466,10 @@ Explain why the molten electrolyte conducts electricity.
 
 What is the formula of the cation in the electrolyte?
 
-- **(A)** H+
-- **(B)** Cl–
-- **(C)** Na+  ✔
-- **(D)** OH–
+- **(A)** H⁺
+- **(B)** Cl⁻
+- **(C)** Na⁺  ✔
+- **(D)** OH⁻
 
 
 **Mark scheme answer**
