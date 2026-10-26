@@ -86,11 +86,11 @@ Given that y = 3 − x5 x dy find dx dy = dx
 
 ## Question 5 (2 marks)
 
-Without using your calculator, and showing all your working, express in the form a + b 5 where a and b are integers. 3− 5
+Without using your calculator, and showing all your working, express 12/(3 − √5) in the form a + b√5 where a and b are integers.
 
 ### 5 [2]
 
-Without using your calculator, and showing all your working, express in the form a + b 5 where a and b are integers. 3− 5
+Without using your calculator, and showing all your working, express 12/(3 − √5) in the form a + b√5 where a and b are integers.
 
 
 **Mark scheme answer**
@@ -113,11 +113,11 @@ Without using your calculator, and showing all your working, express in the form
 
 ## Question 6 (3 marks)
 
-B A C Diagram NOT accurately drawn D F E 63° G In the diagram, ABC is parallel to DEF. BEG LV D VWUDLJKW OLQH DQG ΔEFG is isosceles with EF = EG and EGF = 63° Find the size, in degrees, of ABE. ° ABE = . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+B A C Diagram NOT accurately drawn D F E 63° G In the diagram, ABC is parallel to DEF. BEG is a straight line and ΔEFG is isosceles with EF = EG and ∠EGF = 63° Find the size, in degrees, of ∠ABE. ° ∠ABE = . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 ### 6 [3]
 
-B A C Diagram NOT accurately drawn D F E 63° G In the diagram, ABC is parallel to DEF. BEG LV D VWUDLJKW OLQH DQG ΔEFG is isosceles with EF = EG and EGF = 63° Find the size, in degrees, of ABE. ° ABE =
+B A C Diagram NOT accurately drawn D F E 63° G In the diagram, ABC is parallel to DEF. BEG is a straight line and ΔEFG is isosceles with EF = EG and ∠EGF = 63° Find the size, in degrees, of ∠ABE. ° ∠ABE =
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -416,11 +416,11 @@ Simplify (27a c ) 6 3 3
 
 ## Question 17 (4 marks)
 
-Diagram NOT accurately drawn O D A B 38° C A and B are points on the circumference of a circle, centre O. CBD is the tangent to the circle at B. CAO is a straight line. ABC = 38° Giving your reasons, find the size, in degrees, of ACB. ° ACB = ................................................ . . . . . . . . . . . . . . . . . . .
+Diagram NOT accurately drawn O D A B 38° C A and B are points on the circumference of a circle, centre O. CBD is the tangent to the circle at B. CAO is a straight line. ∠ABC = 38° Giving your reasons, find the size, in degrees, of ∠ACB. ° ∠ACB = ................................................ . . . . . . . . . . . . . . . . . . .
 
 ### 17 [4]
 
-Diagram NOT accurately drawn O D A B 38° C A and B are points on the circumference of a circle, centre O. CBD is the tangent to the circle at B. CAO is a straight line. ABC = 38° Giving your reasons, find the size, in degrees, of ACB. ° ACB =
+Diagram NOT accurately drawn O D A B 38° C A and B are points on the circumference of a circle, centre O. CBD is the tangent to the circle at B. CAO is a straight line. ∠ABC = 38° Giving your reasons, find the size, in degrees, of ∠ACB. ° ∠ACB =
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 

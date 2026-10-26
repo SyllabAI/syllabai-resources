@@ -535,3 +535,28 @@ C73->C87, C74->C88. The v0.17.0-of-the-maths-line version string retires
 
 - **F90 (queued, disclosed) — the bare `^\d{1,2}$` page-number rule over-reaches into MS mark_points**: the converter's FURNITURE_LINE bare-number strip (page numbers 1-36) also matches 1-2-digit MS ANSWER VALUES inside mark_points, emptying them at source (corpus) while the older-era hub export preserved them. Known instances: 4 (2021-06 1C 2(b)(ii) `25`, 2021-11 2C 1(d) `73`, 2021-01 2CR 6(c)(i) the `/1000` dm3 conversion line, 2023-06 2CR 7(c)(i) `1`). This wave restores the corpus to the serve-form of record (hub textMd); the converter fix (MS-side-aware bare-number rule, i.e. page-number lines only outside MS-cell extraction) is QUEUED for the next converter pass with its own census — until then the r1 restores are surgical and C94's arm stays number-blind by design (bare digit lines are content, not furniture). Disclosed 2026-10-26, hygiene-v2 r1.
 - **r1 parity receipt**: mark-point parity hub<->corpus EXACT 2,607/2,607 after the 4 restores (was 2,603/2,607 pre-r1); corpus/hub/live CONTINUES=0, grid furniture=0, \x08=0, valid flat exponents=0 (postverify.json).
+- **F91 — the maths-B serve-hygiene wave (T-OEQ-MATHSB-SERVE-1 run-001, converter v0.22.0)**: the
+  wave-25 serve card's G-S4 gate caught the maths-B export carrying 35 C1 controls + 107 U+FFFD
+  (run-003, trace 1a1777580eb2a10d); the operator ruled option A — the resources-side hygiene
+  wave (trace 1a177a00bc816e05). Root cause: broken-symbol-font glyph slots in the staged
+  pdftotext layers — SymbolMT subsets mapping math glyphs into C0/C1 (∠ ∩ ∪ ∈ ∅ ⊂ ∉ △ λ μ π °),
+  broken TimesNewRoman subsets applying a uniform **-29 ASCII shift** (space->0x03, '.'->0x11,
+  digits->0x13..0x1c, lowercase->uppercase-29, '='->invisible real space), U+FFFD unresolvable
+  OCR structures (2019-06/02 MS fraction bars / radicals / matrix parens / tall-paren pieces),
+  RTL/bidi wrappers, Cyrillic/Thaana/Latin-1/IPA oddball slots (Ȝ ȝ ʌ ð í ү މ), U+FFFC object
+  placeholders. The repair of record: `scripts/official_examq_text_repairs.py` +
+  `official_examq_text_repairs.json` — **256 per-line rules over 8 staging files**, each
+  adjudicated eyes-on against 150/300/600dpi page renders (evidence pack: wave receipts
+  evidence-r2/), the 2019-06/02 MS rules cross-checked against the SME twin's UIUX-TIER-B-RUN-004
+  lineage; every rule carries a sha1 line guard (a drifted staged layer FAILS the run,
+  fail-closed). Applied at the txt read so the repaired text IS the extraction of record (G2-D
+  provenance moves with it); lane-scoped to 4mb1; U+FFFC strips corpus-wide (11 instances / 6
+  files). The 12 affected sets re-emitted: G0-G7 ALL PASS; census EXACT 66/1281/2443/6600 with
+  question/part/marks structure + part ids STABLE; canaries re-proven at this base (2020-11 1C +
+  2023-06 1P content-identical modulo generated_utc; untouched-maths 2020-11/01 identical to
+  HEAD). Structured emission audit: repair-class changes only (2019-06/02: 40/122 field blocks,
+  every hunk a repaired structure). Known residual, disclosed NOT fixed here: the 2023-2026
+  generation QPs carry the same slot class at lower density (~900 txt-layer lines / ~25 files —
+  the \x1f inequality/angle/minus slots, i-acute minus, IPA-lambda pi) — pre-existing serving
+  style, no H2 regression, filed for a follow-up census. Receipts: T-OEQ-MATHSB-SERVE-1/
+  run-001-hygiene-wave.json + evidence-r2/.

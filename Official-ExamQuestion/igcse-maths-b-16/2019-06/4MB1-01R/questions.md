@@ -34,11 +34,11 @@ Find the Lowest Common Multiple (LCM) of 60 and 135 Show your working clearly.
 
 ## Question 2 (2 marks)
 
-The nth term of a sequence is given by 9n í Determine whether 214 is a term of this sequence. Show your working clearly.
+The nth term of a sequence is given by 9n − 7 Determine whether 214 is a term of this sequence. Show your working clearly.
 
 ### 2 [2]
 
-The nth term of a sequence is given by 9n í Determine whether 214 is a term of this sequence. Show your working clearly.
+The nth term of a sequence is given by 9n − 7 Determine whether 214 is a term of this sequence. Show your working clearly.
 
 
 **Mark scheme answer**
@@ -63,11 +63,11 @@ The nth term of a sequence is given by 9n í Determine whether 214 is a term of 
 
 ## Question 3 (2 marks)
 
-Here are four numbers written in order of size. w x 24 The range of the four numbers is 18 The median of the four numbers is 10 Find the value of w and the value of x. w = ...................................................... x = ......................................................
+Here are four numbers written in order of size. w 7 x 24 The range of the four numbers is 18 The median of the four numbers is 10 Find the value of w and the value of x. w = ...................................................... x = ......................................................
 
 ### 3 [2]
 
-Here are four numbers written in order of size. w x 24 The range of the four numbers is 18 The median of the four numbers is 10 Find the value of w and the value of x. w = x =
+Here are four numbers written in order of size. w 7 x 24 The range of the four numbers is 18 The median of the four numbers is 10 Find the value of w and the value of x. w = x =
 
 
 **Mark scheme answer**
@@ -123,11 +123,11 @@ Solve =9 x =
 
 ## Question 6 (2 marks)
 
-Q = cð í c Work out the value of Q when c í Q = ......................................................
+Q = c² − 4c Work out the value of Q when c = −6 Q = ......................................................
 
 ### 6 [2]
 
-Q = cð í c Work out the value of Q when c í Q =
+Q = c² − 4c Work out the value of Q when c = −6 Q =
 
 
 **Mark scheme answer**
@@ -192,11 +192,11 @@ B Diagram NOT accurately drawn A O x 132° D C A, B, C and D are points on a cir
 
 ## Question 9 (2 marks)
 
-y = 4x3 í x2 dy Find dx dy = ...................................................... dx
+y = 4x3 − 7/x2 dy Find dx dy = ...................................................... dx
 
 ### 9 [2]
 
-y = 4x3 í x2 dy Find dx dy = dx
+y = 4x3 − 7/x2 dy Find dx dy = dx
 
 
 **Mark scheme answer**
@@ -234,11 +234,11 @@ Given that a is a positive integer, expand and simplify fully 5a ( 20a + a 5a )
 
 ## Question 11 (2 marks)
 
-A Diagram NOT accurately drawn FP C P 4 cm D 5 cm B A, C, B and D are four points on a circle. The chord AB intersects the chord CD at P. AP FP PB = 5 cm PD = 4 cm Calculate, in cm, the length of CP. ...................................................... cm
+A Diagram NOT accurately drawn 7 cm C P 4 cm D 5 cm B A, C, B and D are four points on a circle. The chord AB intersects the chord CD at P. AP = 7 cm PB = 5 cm PD = 4 cm Calculate, in cm, the length of CP. ...................................................... cm
 
 ### 11 [2]
 
-A Diagram NOT accurately drawn FP C P 4 cm D 5 cm B A, C, B and D are four points on a circle. The chord AB intersects the chord CD at P. AP FP PB = 5 cm PD = 4 cm Calculate, in cm, the length of CP cm
+A Diagram NOT accurately drawn 7 cm C P 4 cm D 5 cm B A, C, B and D are four points on a circle. The chord AB intersects the chord CD at P. AP = 7 cm PB = 5 cm PD = 4 cm Calculate, in cm, the length of CP cm
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -255,11 +255,11 @@ A Diagram NOT accurately drawn FP C P 4 cm D 5 cm B A, C, B and D are four point
 
 ## Question 12 (3 marks)
 
-y x=1 4 1 y= x x+y=6 O 1 2 3 4 5 6 x Write down the three inequalities that define the shaded region in the diagram above.
+y x=1 4 1 y= x x+y=6 O 1 2 3 4 5 6 7 x Write down the three inequalities that define the shaded region in the diagram above.
 
 ### 12 [3]
 
-y x=1 4 1 y= x x+y=6 O 1 2 3 4 5 6 x Write down the three inequalities that define the shaded region in the diagram above.
+y x=1 4 1 y= x x+y=6 O 1 2 3 4 5 6 7 x Write down the three inequalities that define the shaded region in the diagram above.
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -361,11 +361,11 @@ Calculate (8.5 u 1064) u (4 u 1068) Give your answer in standard form.
 
 ## Question 16 (3 marks)
 
-C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point B on CA and the point D on CE are such that BD is parallel to AE. BD FP WR VLJQLILFDQW ILJXUHV AE = 9.3 cm to 2 significant figures. Area of BCD = 15.4 cm2 to 3 significant figures. Calculate the upper bound, to 3 significant figures, for the area of ACE. ...................................................... cm2
+C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point B on CA and the point D on CE are such that BD is parallel to AE. BD = 7.2 cm to 2 significant figures. AE = 9.3 cm to 2 significant figures. Area of △BCD = 15.4 cm2 to 3 significant figures. Calculate the upper bound, to 3 significant figures, for the area of △ACE. ...................................................... cm2
 
 ### 16 [3]
 
-C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point B on CA and the point D on CE are such that BD is parallel to AE. BD FP WR VLJQLILFDQW ILJXUHV AE = 9.3 cm to 2 significant figures. Area of BCD = 15.4 cm2 to 3 significant figures. Calculate the upper bound, to 3 significant figures, for the area of ACE cm2
+C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point B on CA and the point D on CE are such that BD is parallel to AE. BD = 7.2 cm to 2 significant figures. AE = 9.3 cm to 2 significant figures. Area of △BCD = 15.4 cm2 to 3 significant figures. Calculate the upper bound, to 3 significant figures, for the area of △ACE cm2
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -390,11 +390,11 @@ C Diagram NOT accurately drawn B D A E The diagram shows triangle ACE. The point
 
 ## Question 17 (4 marks)
 
-D A  B Diagram NOT accurately drawn 123° x F G E C The diagram shows three straight lines ABC, DBE and FECG. ABD  DQG BEF = 123° Calculate the size, in degrees, of angle x. Give a reason for each stage of your working. °
+D A 67° B Diagram NOT accurately drawn 123° x F G E C The diagram shows three straight lines ABC, DBE and FECG. ∠ABD = 67° and ∠BEF = 123° Calculate the size, in degrees, of angle x. Give a reason for each stage of your working. °
 
 ### 17 [4]
 
-D A  B Diagram NOT accurately drawn 123° x F G E C The diagram shows three straight lines ABC, DBE and FECG. ABD  DQG BEF = 123° Calculate the size, in degrees, of angle x. Give a reason for each stage of your working. °
+D A 67° B Diagram NOT accurately drawn 123° x F G E C The diagram shows three straight lines ABC, DBE and FECG. ∠ABD = 67° and ∠BEF = 123° Calculate the size, in degrees, of angle x. Give a reason for each stage of your working. °
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -423,7 +423,7 @@ D A  B Diagram NOT accurately drawn 123° x F G E C The diagram shows three st
 
 ## Question 18 (4 marks)
 
-Martin, Jonas and Suzy are three art students. Martin has x crayons. Jonas has three times as many crayons as Martin. 6X]\ KDV IHZHU FUD\RQV WKDQ -RQDV These three students have a total of 56 crayons.
+Martin, Jonas and Suzy are three art students. Martin has x crayons. Jonas has three times as many crayons as Martin. Suzy has 7 fewer crayons than Jonas. These three students have a total of 56 crayons.
 
 ### 18(a) [2]
 
@@ -454,11 +454,11 @@ Find the number of crayons Suzy has.
 
 ## Question 19 (3 marks)
 
-19 7KH VXP RI WKH LQWHULRU DQJOHV RI D UHJXODU SRO\JRQ LV  Calculate the size, in degrees to one decimal place, of each interior angle of the regular polygon. °
+The sum of the interior angles of a regular polygon is 2700° Calculate the size, in degrees to one decimal place, of each interior angle of the regular polygon. °
 
 ### 19 [3]
 
-19 7KH VXP RI WKH LQWHULRU DQJOHV RI D UHJXODU SRO\JRQ LV  Calculate the size, in degrees to one decimal place, of each interior angle of the regular polygon. °
+The sum of the interior angles of a regular polygon is 2700° Calculate the size, in degrees to one decimal place, of each interior angle of the regular polygon. °
 
 
 **Mark scheme answer**
@@ -478,11 +478,11 @@ Find the number of crayons Suzy has.
 
 ## Question 20 (3 marks)
 
-A B Diagram NOT ( í 2 ) cm accurately drawn D C The diagram shows rectangle ABCD. AD = BC = ( í 2 ) cm Area of ABCD = 3(5 2 í ) cm2 Show that the length of AB can be written in the form (a + b 2 ) cm where a and b are integers to be found. Show your working clearly.
+A B Diagram NOT (2 − √2 ) cm accurately drawn D C The diagram shows rectangle ABCD. AD = BC = (2 − √2 ) cm Area of ABCD = 3(5√2 − 2) cm2 Show that the length of AB can be written in the form (a + b√2 ) cm where a and b are integers to be found. Show your working clearly.
 
 ### 20 [3]
 
-A B Diagram NOT ( í 2 ) cm accurately drawn D C The diagram shows rectangle ABCD. AD = BC = ( í 2 ) cm Area of ABCD = 3(5 2 í ) cm2 Show that the length of AB can be written in the form (a + b 2 ) cm where a and b are integers to be found. Show your working clearly.
+A B Diagram NOT (2 − √2 ) cm accurately drawn D C The diagram shows rectangle ABCD. AD = BC = (2 − √2 ) cm Area of ABCD = 3(5√2 − 2) cm2 Show that the length of AB can be written in the form (a + b√2 ) cm where a and b are integers to be found. Show your working clearly.
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -690,7 +690,7 @@ The line L1 has equation 5x + 4y = 16 The line L2 is parallel to L1 and passes t
 ## Question 26 (6 marks)
 ### 26(a) [2]
 
-Use the factor theorem to show that (2x í LV D IDFWRU RI x3 + 23x2 í x í 6 x + 23 x − 5 x − 4 3 2
+Use the factor theorem to show that (2x − 1) is a factor of 6x3 + 23x2 − 5x − 4 6 x + 23 x − 5 x − 4 3 2
 
 
 **Mark scheme answer**
@@ -721,11 +721,11 @@ Hence, solve =0 2x − 1 Show clear algebraic working.
 
 ## Question 27 (6 marks)
 
-The diagram shows quadrilateral ABCD. A FP Diagram NOT accurately drawn B 128° 85° D 9 cm 6.4 cm C AB FP BC = 9 cm CD = 6.4 cm  ABC = 128°  ADC = 85° Calculate the area, in cm2 to 3 significant figures, of quadrilateral ABCD. ...................................................... cm2
+The diagram shows quadrilateral ABCD. A 7.2 cm Diagram NOT accurately drawn B 128° 85° D 9 cm 6.4 cm C AB = 7.2 cm BC = 9 cm CD = 6.4 cm ∠ABC = 128° ∠ADC = 85° Calculate the area, in cm2 to 3 significant figures, of quadrilateral ABCD. ...................................................... cm2
 
 ### 27 [6]
 
-The diagram shows quadrilateral ABCD. A FP Diagram NOT accurately drawn B 128° 85° D 9 cm 6.4 cm C AB FP BC = 9 cm CD = 6.4 cm  ABC = 128°  ADC = 85° Calculate the area, in cm2 to 3 significant figures, of quadrilateral ABCD cm2
+The diagram shows quadrilateral ABCD. A 7.2 cm Diagram NOT accurately drawn B 128° 85° D 9 cm 6.4 cm C AB = 7.2 cm BC = 9 cm CD = 6.4 cm ∠ABC = 128° ∠ADC = 85° Calculate the area, in cm2 to 3 significant figures, of quadrilateral ABCD cm2
 
 ![diagram — official paper figure (qp.pdf p.20)](assets/asset_27_diagram.png)
 
@@ -753,11 +753,11 @@ The diagram shows quadrilateral ABCD. A FP Diagram NOT accurately drawn B 128° 
 
 ## Question 28 (8 marks)
 
-28 7KH WDEOH EHORZ JLYHV LQIRUPDWLRQ DERXW WKH OHQJWKV RI WLPH LQ PLQXWHV WKDW FDUV were parked in a car park on Sunday. Time (t minutes) Frequency t-5 8 t - 20 10 t - 30 15 t - 40 t - 60 25
+The table below gives information about the lengths of time, in minutes, that 75 cars were parked in a car park on Sunday. Time (t minutes) Frequency 0 < t ⩽ 5 8 5 < t ⩽ 20 10 20 < t ⩽ 30 15 30 < t ⩽ 40 17 40 < t ⩽ 60 25
 
 ### 28(a) [4]
 
-Calculate an estimate for the mean length of time, in minutes to one decimal place, WKDW WKH FDUV ZHUH SDUNHG LQ WKH FDU SDUN RQ 6XQGD\ minutes The incomplete table and incomplete histogram give information about the lengths of time, in minutes, that 132 cars were parked in the car park on Monday. Time (t minutes) Frequency t-5 12 t - 20 t - 30 t - 40 t - 60 18
+Calculate an estimate for the mean length of time, in minutes to one decimal place, that the 75 cars were parked in the car park on Sunday minutes The incomplete table and incomplete histogram give information about the lengths of time, in minutes, that 132 cars were parked in the car park on Monday. Time (t minutes) Frequency 0 < t ⩽ 5 12 5 < t ⩽ 20 20 < t ⩽ 30 30 < t ⩽ 40 27 40 < t ⩽ 60 18
 
 > 🖼 crop required: table (qp.pdf p.22)
 
@@ -803,7 +803,7 @@ Given that P is inversely proportional to the square of w and that P = 16 when w
 
 ### 29(a) [3]
 
-find the value of P when w = 12.5 P = Given also that P is inversely proportional to y and that P ZKHQ y = 4
+find the value of P when w = 12.5 P = Given also that P is inversely proportional to y and that P = 75 when y = 4
 
 
 **Mark scheme answer**

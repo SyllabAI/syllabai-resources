@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:40:59Z",
+ "generated_utc": "2026-10-26T11:30:51Z",
  "series": "2018-06",
  "paper": "02",
  "gates": [
@@ -47,10 +47,10 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "13 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 2 remain crop-required; 8 parts without page anchor",
+   "summary": "13 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 2 remain crop-required; 10 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 8,
+    "pages_unanchored": 10,
     "crop_stats": {
      "crops": 4,
      "pending": 2,
@@ -135,10 +135,73 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (35 instances / 4 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (18 instances / 4 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
+ "text_repairs": {
+  "qp": {
+   "applied": 12,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": [
+    {
+     "line": 702,
+     "sha1_12": "c0d9a23c3011"
+    },
+    {
+     "line": 704,
+     "sha1_12": "ed9dff5e616a"
+    },
+    {
+     "line": 941,
+     "sha1_12": "d9a8cbe7ec0b"
+    },
+    {
+     "line": 948,
+     "sha1_12": "fb19d9c475fd"
+    },
+    {
+     "line": 951,
+     "sha1_12": "5e009d039950"
+    },
+    {
+     "line": 953,
+     "sha1_12": "c22161ef2972"
+    },
+    {
+     "line": 958,
+     "sha1_12": "037f8df94101"
+    },
+    {
+     "line": 2668,
+     "sha1_12": "e49f09ab28ba"
+    },
+    {
+     "line": 2688,
+     "sha1_12": "b8f456c13086"
+    },
+    {
+     "line": 2694,
+     "sha1_12": "4e6312625453"
+    },
+    {
+     "line": 2702,
+     "sha1_12": "b731bfb106f4"
+    },
+    {
+     "line": 2705,
+     "sha1_12": "68a9843e169d"
+    }
+   ]
+  },
+  "ms": {
+   "applied": 0,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": []
+  }
+ },
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
@@ -150,10 +213,10 @@
  "control_char_fallback": {
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
-   "0x1": 6,
-   "0x11": 2,
+   "0x1": 3,
+   "0x11": 1,
    "0x1d": 1,
-   "0x3": 26
+   "0x3": 13
   }
  }
 }

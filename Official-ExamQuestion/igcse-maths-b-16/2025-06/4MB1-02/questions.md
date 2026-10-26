@@ -425,7 +425,7 @@ calculate the probability that the three counters are all red.
 
 ## Question 8 (9 marks)
 
-y cm x cm 2x cm Figure 2 Figure 2 shows a solid cuboid with length 2x cm, width x cm and height y cm The volume of the cuboid is a cm 3 , where a is a constant. The total surface area of the cuboid is S cm 2 ￼ 3a
+y cm x cm 2x cm Figure 2 Figure 2 shows a solid cuboid with length 2x cm, width x cm and height y cm The volume of the cuboid is a cm 3 , where a is a constant. The total surface area of the cuboid is S cm 2 3a
 
 ### 8(a) [4]
 

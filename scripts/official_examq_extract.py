@@ -37,8 +37,17 @@ SCRIPTS_DIR = Path(__file__).resolve().parent            # .../syllabai-resource
 RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
+# T-OEQ-MATHSB-SERVE-1 hygiene wave (run-001): source-layer text repairs —
+# the evidenced per-line law for the broken-symbol-font staging layers
+# (lane-scoped; chemistry/physics runs are measured no-ops). See the module
+# docstring for the full law + evidence chain. Path-safe sibling import:
+# canaries/diffs load this file as a bare module from other CWDs (C87).
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+from official_examq_text_repairs import repair_source_text
+
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.21.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.22.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -2339,7 +2348,17 @@ def main():
             ocr_pages.append(e)
     report["ocr_pages"] = ocr_pages
 
-    qp_lines = clean_lines(QP_TXT.read_text(errors="replace"))
+    # run-001 hygiene wave: the repaired text IS the extraction of record —
+    # G2-D provenance, source_norm and the emission all move together.
+    QP_TEXT_SRC, qp_repair_receipt = repair_source_text(
+        QP_TXT.read_text(errors="replace"), QP_TXT, cfg["lane"])
+    MS_TEXT_SRC, ms_repair_receipt = repair_source_text(
+        MS_TXT.read_text(errors="replace"), MS_TXT, cfg["lane"])
+    if qp_repair_receipt["applied"] or qp_repair_receipt["fffc_stripped"] \
+            or ms_repair_receipt["applied"] or ms_repair_receipt["fffc_stripped"]:
+        report["text_repairs"] = {"qp": qp_repair_receipt, "ms": ms_repair_receipt}
+
+    qp_lines = clean_lines(QP_TEXT_SRC)
     footers = [(i, int(m.group(1)), int(m.group(2)))
                for i, ln in enumerate(qp_lines) if (m := footer_re.search(ln))]
 
@@ -2637,10 +2656,9 @@ def main():
     # the bare-numeral markers this layout runs on); chemistry keeps the exact
     # pre-v0.17 path.
     if cfg.get("ms_layout") == "vertical":
-        ms_entries, ms_marks_by_key = parse_ms_vertical(
-            MS_TXT.read_text(errors="replace").splitlines())
+        ms_entries, ms_marks_by_key = parse_ms_vertical(MS_TEXT_SRC.splitlines())
     else:
-        ms_entries = parse_ms(clean_lines(MS_TXT.read_text(errors="replace"),
+        ms_entries = parse_ms(clean_lines(MS_TEXT_SRC,
                                           keep_bare_numerals=cfg.get("keep_bare_numerals", False)))
         ms_marks_by_key = {}
     # ---- v0.8.1 (F37): human-adjudicated MCQ keys, applied pre-emission -----

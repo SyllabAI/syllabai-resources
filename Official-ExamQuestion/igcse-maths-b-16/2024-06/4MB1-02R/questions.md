@@ -273,7 +273,7 @@ Hence represent on the number line opposite, the set of values of x for which 4 
 ## Question 5 (6 marks)
 ### 5(a) [2]
 
-Complete the table of values for y 2 x3 5x x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 3.75 6 5.25 3 0.75 2.25 ￼
+Complete the table of values for y 2 x3 5x x −2 −1.5 −1 −0.5 0 0.5 1 1.5 2 y 3.75 6 5.25 3 0.75 2.25
 
 > 🖼 crop required: table (qp.pdf p.None)
 

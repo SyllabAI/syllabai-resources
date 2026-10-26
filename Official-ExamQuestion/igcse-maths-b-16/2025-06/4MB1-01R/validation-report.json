@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:43:27Z",
+ "generated_utc": "2026-10-26T11:30:56Z",
  "series": "2025-06",
  "paper": "01R",
  "gates": [
@@ -47,10 +47,10 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 5 remain crop-required; 20 parts without page anchor",
+   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 5 remain crop-required; 21 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 20,
+    "pages_unanchored": 21,
     "crop_stats": {
      "crops": 1,
      "pending": 5,
@@ -142,10 +142,353 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (188 instances / 9 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (120 instances / 9 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
+ "text_repairs": {
+  "qp": {
+   "applied": 82,
+   "fffc_stripped": 2,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": [
+    {
+     "line": 102,
+     "sha1_12": "5ed90935260d"
+    },
+    {
+     "line": 103,
+     "sha1_12": "ea31e8b43909"
+    },
+    {
+     "line": 104,
+     "sha1_12": "929096177251"
+    },
+    {
+     "line": 131,
+     "sha1_12": "6de011271c56"
+    },
+    {
+     "line": 132,
+     "sha1_12": "b02727234f95"
+    },
+    {
+     "line": 135,
+     "sha1_12": "f76a45cc8888"
+    },
+    {
+     "line": 148,
+     "sha1_12": "cad148e8cc33"
+    },
+    {
+     "line": 149,
+     "sha1_12": "7509a0dca884"
+    },
+    {
+     "line": 150,
+     "sha1_12": "9365d4e8d697"
+    },
+    {
+     "line": 151,
+     "sha1_12": "b858cb282617"
+    },
+    {
+     "line": 152,
+     "sha1_12": "40fa8db4dd1c"
+    },
+    {
+     "line": 153,
+     "sha1_12": "87cc6a73128f"
+    },
+    {
+     "line": 189,
+     "sha1_12": "71f9d1fe4fac"
+    },
+    {
+     "line": 190,
+     "sha1_12": "4d03bf5380d2"
+    },
+    {
+     "line": 191,
+     "sha1_12": "7f8a265f950d"
+    },
+    {
+     "line": 198,
+     "sha1_12": "8a7354ae6d27"
+    },
+    {
+     "line": 235,
+     "sha1_12": "ec2cd536cabf"
+    },
+    {
+     "line": 391,
+     "sha1_12": "fdf5d612e0bd"
+    },
+    {
+     "line": 393,
+     "sha1_12": "2b6e311219f9"
+    },
+    {
+     "line": 394,
+     "sha1_12": "1c6faab5a444"
+    },
+    {
+     "line": 396,
+     "sha1_12": "7f3952c13f37"
+    },
+    {
+     "line": 397,
+     "sha1_12": "6e371e98cfe7"
+    },
+    {
+     "line": 404,
+     "sha1_12": "e8bc2150903b"
+    },
+    {
+     "line": 407,
+     "sha1_12": "934c62bccae8"
+    },
+    {
+     "line": 408,
+     "sha1_12": "9ad4f6f09d80"
+    },
+    {
+     "line": 410,
+     "sha1_12": "51424a1fc251"
+    },
+    {
+     "line": 411,
+     "sha1_12": "a2599f8d209c"
+    },
+    {
+     "line": 413,
+     "sha1_12": "6b7fd623ed37"
+    },
+    {
+     "line": 420,
+     "sha1_12": "4ef2226f01fc"
+    },
+    {
+     "line": 422,
+     "sha1_12": "71d14b085788"
+    },
+    {
+     "line": 423,
+     "sha1_12": "9611babcb7c1"
+    },
+    {
+     "line": 424,
+     "sha1_12": "95c1d13bb482"
+    },
+    {
+     "line": 426,
+     "sha1_12": "9611babcb7c1"
+    },
+    {
+     "line": 428,
+     "sha1_12": "9611babcb7c1"
+    },
+    {
+     "line": 430,
+     "sha1_12": "9611babcb7c1"
+    },
+    {
+     "line": 432,
+     "sha1_12": "23eeb8f8d800"
+    },
+    {
+     "line": 454,
+     "sha1_12": "b0f093079ec6"
+    },
+    {
+     "line": 455,
+     "sha1_12": "a7b95f720ff0"
+    },
+    {
+     "line": 475,
+     "sha1_12": "1e9fe766005c"
+    },
+    {
+     "line": 476,
+     "sha1_12": "781e4a274009"
+    },
+    {
+     "line": 477,
+     "sha1_12": "62b388fba0b4"
+    },
+    {
+     "line": 479,
+     "sha1_12": "ee6d58b2f001"
+    },
+    {
+     "line": 514,
+     "sha1_12": "71fd09fa9ecd"
+    },
+    {
+     "line": 515,
+     "sha1_12": "37c7952198ca"
+    },
+    {
+     "line": 516,
+     "sha1_12": "8910838bf8b6"
+    },
+    {
+     "line": 525,
+     "sha1_12": "560127629d2e"
+    },
+    {
+     "line": 553,
+     "sha1_12": "8114f13b2a65"
+    },
+    {
+     "line": 554,
+     "sha1_12": "88f82b91aeea"
+    },
+    {
+     "line": 555,
+     "sha1_12": "c085109b0fb6"
+    },
+    {
+     "line": 558,
+     "sha1_12": "7d3bf7586405"
+    },
+    {
+     "line": 588,
+     "sha1_12": "1d02f2ee23c5"
+    },
+    {
+     "line": 682,
+     "sha1_12": "9d1424bd180f"
+    },
+    {
+     "line": 684,
+     "sha1_12": "dc38d82c7780"
+    },
+    {
+     "line": 686,
+     "sha1_12": "e3615e109131"
+    },
+    {
+     "line": 688,
+     "sha1_12": "b5081417b88d"
+    },
+    {
+     "line": 690,
+     "sha1_12": "28875574f3e2"
+    },
+    {
+     "line": 692,
+     "sha1_12": "39096918cfd0"
+    },
+    {
+     "line": 739,
+     "sha1_12": "7dbbe4cf43fe"
+    },
+    {
+     "line": 740,
+     "sha1_12": "24a37c25217c"
+    },
+    {
+     "line": 741,
+     "sha1_12": "fe5346ebb272"
+    },
+    {
+     "line": 742,
+     "sha1_12": "2cf2ecd74071"
+    },
+    {
+     "line": 743,
+     "sha1_12": "73a2a412c294"
+    },
+    {
+     "line": 744,
+     "sha1_12": "65c107073f3e"
+    },
+    {
+     "line": 746,
+     "sha1_12": "fff50dac40a1"
+    },
+    {
+     "line": 753,
+     "sha1_12": "e29804573d48"
+    },
+    {
+     "line": 760,
+     "sha1_12": "ab95aebfb440"
+    },
+    {
+     "line": 762,
+     "sha1_12": "2521c677d6d7"
+    },
+    {
+     "line": 763,
+     "sha1_12": "c4d3d0a9e2b4"
+    },
+    {
+     "line": 764,
+     "sha1_12": "99bb75f77119"
+    },
+    {
+     "line": 773,
+     "sha1_12": "752586346a63"
+    },
+    {
+     "line": 774,
+     "sha1_12": "ab2f204e15bf"
+    },
+    {
+     "line": 775,
+     "sha1_12": "021625914edb"
+    },
+    {
+     "line": 776,
+     "sha1_12": "85a6bd5550ad"
+    },
+    {
+     "line": 777,
+     "sha1_12": "ab2f204e15bf"
+    },
+    {
+     "line": 778,
+     "sha1_12": "ab2f204e15bf"
+    },
+    {
+     "line": 780,
+     "sha1_12": "6cecf0978d7c"
+    },
+    {
+     "line": 791,
+     "sha1_12": "673352e93e92"
+    },
+    {
+     "line": 792,
+     "sha1_12": "238d4f49ea36"
+    },
+    {
+     "line": 799,
+     "sha1_12": "57cdc6e1d66a"
+    },
+    {
+     "line": 800,
+     "sha1_12": "cdd8e95f4b66"
+    },
+    {
+     "line": 881,
+     "sha1_12": "d180ca48947c"
+    },
+    {
+     "line": 882,
+     "sha1_12": "29ae32822a93"
+    }
+   ]
+  },
+  "ms": {
+   "applied": 0,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": []
+  }
+ },
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
@@ -158,14 +501,14 @@
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
    "0x1": 1,
-   "0x18": 14,
-   "0x19": 12,
-   "0x1a": 20,
-   "0x1b": 22,
+   "0x18": 7,
+   "0x19": 6,
+   "0x1a": 10,
+   "0x1b": 11,
    "0x1c": 11,
    "0x1d": 15,
    "0x1e": 25,
-   "0x1f": 68
+   "0x1f": 34
   }
  }
 }

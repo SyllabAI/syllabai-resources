@@ -86,11 +86,11 @@ E Diagram NOT accurately drawn 11 cm D C O 5 cm A 12 cm B Figure 1 Figure 1 show
 
 ## Question 3 (5 marks)
 
-A=⎜ B=⎜ ⎝ 4 −1⎟⎠ ⎝ 4 10⎟⎠ ⎛ 1 0⎞ Given that A2 – B = ȜI where Ȝ is an integer and I = ⎜ ⎝ 0 1⎟⎠ find the value of a and the value of Ȝ
+A=⎜ B=⎜ ⎝ 4 −1⎟⎠ ⎝ 4 10⎟⎠ ⎛ 1 0⎞ Given that A2 – B = λI where λ is an integer and I = ⎜ ⎝ 0 1⎟⎠ find the value of a and the value of λ.
 
 ### 3 [5]
 
-A=⎜ B=⎜ ⎝ 4 −1⎟⎠ ⎝ 4 10⎟⎠ ⎛ 1 0⎞ Given that A2 – B = ȜI where Ȝ is an integer and I = ⎜ ⎝ 0 1⎟⎠ find the value of a and the value of Ȝ
+A=⎜ B=⎜ ⎝ 4 −1⎟⎠ ⎝ 4 10⎟⎠ ⎛ 1 0⎞ Given that A2 – B = λI where λ is an integer and I = ⎜ ⎝ 0 1⎟⎠ find the value of a and the value of λ.
 
 
 **Mark scheme answer**
@@ -123,7 +123,7 @@ The Venn diagram shows information about the elements in a universal set, E, and
 
 ### 4(a) [1]
 
-X  Y
+X ∩ Y
 
 
 **Mark scheme answer**
@@ -134,7 +134,7 @@ X  Y
 
 ### 4(b) [1]
 
-(X  Y )  =ү Find
+(X ∪ Y ) ∩ Z′ Find
 
 
 **Mark scheme answer**
@@ -145,7 +145,7 @@ X  Y
 
 ### 4(c) [1]
 
-n([X  Y ]ү)
+n([X ∪ Y ]′)
 
 
 **Mark scheme answer**
@@ -156,7 +156,7 @@ n([X  Y ]ү)
 
 ### 4(d) [1]
 
-n([X  Z ]  <ү) Here are five symbols used in connection with sets.     
+n([X ∩ Z ] ∪ Y′) Here are five symbols used in connection with sets. ∈ ∅ ⊂ ∉ ∩
 
 
 **Mark scheme answer**
@@ -520,11 +520,11 @@ find the value of q.
 
 ## Question 9 (13 marks)
 
-E ȝa D Diagram NOT accurately drawn Ȝb F C B b O A a Figure 2 → → → → In Figure 2, OA = a, OB = b, FE = Ȝb and ED = ȝa, where Ȝ and ȝ are positive constants. B is the point of intersection of OC and AF such that OB : OC = AB : AF = 1 : 3
+E ȝa D Diagram NOT accurately drawn λb F C B b O A a Figure 2 → → → → In Figure 2, OA = a, OB = b, FE = λb and ED = μa, where λ and μ are positive constants. B is the point of intersection of OC and AF such that OB : OC = AB : AF = 1 : 3
 
 **(a)** Find, in terms of a or b or a and b, simplifying your answers where possible, → →
 
-**(b)** Find, in terms of a, b, Ȝ and where necessary ȝ, simplifying your answers where possible, → →
+**(b)** Find, in terms of a, b, λ and where necessary μ, simplifying your answers where possible, → →
 
 ### 9(a)(i) [2]
 
@@ -554,7 +554,7 @@ CD (ii) AE → → Given that AE = 4CD
 
 ### 9(c) [4]
 
-find the value of ȝ and the value of Ȝ. Given also that ]a] = 4 cm, ]b] = 1 cm and that the area of the trapezium CDEF is 5 cm2
+find the value of μ and the value of λ. Given also that ]a] = 4 cm, ]b] = 1 cm and that the area of the trapezium CDEF is 5 cm2
 
 
 **Mark scheme answer**
@@ -571,7 +571,7 @@ find the value of ȝ and the value of Ȝ. Given also that ]a] = 4 cm, ]b] = 1 cm
 
 ### 9(d) [4]
 
-calculate the size, in degrees to 3 significant figures, of CFE. ⎡ 1 ⎤ ⎢⎣ Area of trapezium = 2 (a + b)h ⎥⎦
+calculate the size, in degrees to 3 significant figures, of ∠CFE. ⎡ 1 ⎤ ⎢⎣ Area of trapezium = 2 (a + b)h ⎥⎦
 
 
 **Mark scheme answer**

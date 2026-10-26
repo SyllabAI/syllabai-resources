@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:42:01Z",
+ "generated_utc": "2026-10-26T11:30:52Z",
  "series": "2019-06",
  "paper": "01",
  "gates": [
@@ -132,10 +132,97 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (33 instances / 4 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (19 instances / 4 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
+ "text_repairs": {
+  "qp": {
+   "applied": 18,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": [
+    {
+     "line": 375,
+     "sha1_12": "bcc38931f932"
+    },
+    {
+     "line": 383,
+     "sha1_12": "8c3db7017380"
+    },
+    {
+     "line": 457,
+     "sha1_12": "eed73bd723ec"
+    },
+    {
+     "line": 473,
+     "sha1_12": "a5d686241c74"
+    },
+    {
+     "line": 481,
+     "sha1_12": "248dc2179b94"
+    },
+    {
+     "line": 608,
+     "sha1_12": "424b9844b1b4"
+    },
+    {
+     "line": 609,
+     "sha1_12": "b1245f630d09"
+    },
+    {
+     "line": 611,
+     "sha1_12": "34814815c52d"
+    },
+    {
+     "line": 612,
+     "sha1_12": "3e06cad50452"
+    },
+    {
+     "line": 614,
+     "sha1_12": "8f259c9a6f20"
+    },
+    {
+     "line": 615,
+     "sha1_12": "300f276ead27"
+    },
+    {
+     "line": 617,
+     "sha1_12": "67ca16563a1e"
+    },
+    {
+     "line": 618,
+     "sha1_12": "7cc4b7ff1f4c"
+    },
+    {
+     "line": 624,
+     "sha1_12": "4db30eea1105"
+    },
+    {
+     "line": 625,
+     "sha1_12": "82445400eb1c"
+    },
+    {
+     "line": 762,
+     "sha1_12": "8763fb19d2ed"
+    },
+    {
+     "line": 798,
+     "sha1_12": "6f7c70540bd9"
+    },
+    {
+     "line": 940,
+     "sha1_12": "9967203d2ff4"
+    }
+   ]
+  },
+  "ms": {
+   "applied": 0,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": []
+  }
+ },
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
@@ -147,10 +234,10 @@
  "control_char_fallback": {
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
-   "0x1": 12,
-   "0x11": 2,
+   "0x1": 6,
+   "0x11": 1,
    "0x1d": 5,
-   "0x2": 14
+   "0x2": 7
   }
  }
 }

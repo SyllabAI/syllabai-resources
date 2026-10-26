@@ -65,7 +65,7 @@ List the members of the set A ∩ B
 
 ### 2(b) [2]
 
-Find n A B The set D is such that D ⊂ B and D ⊂ C ￼
+Find n A B The set D is such that D ⊂ B and D ⊂ C
 
 
 **Mark scheme answer**
@@ -102,7 +102,7 @@ A B C 1 4 2 6 2 x
 
 ### 3(a) [2]
 
-Find 5A − 3B The determinant of BC is 588 Given that x > 0 ￼
+Find 5A − 3B The determinant of BC is 588 Given that x > 0
 
 
 **Mark scheme answer**
@@ -721,7 +721,7 @@ Hence solve the equation h(x) = 0 Show clear algebraic working. The solutions of
 
 ## Question 12 (10 marks)
 
-A Diagram NOT accurately drawn M O N P B Figure 4 Figure 4 shows triangle OAB Given that OA 3a and OB 3b ￼
+A Diagram NOT accurately drawn M O N P B Figure 4 Figure 4 shows triangle OAB Given that OA 3a and OB 3b
 
 ### 12(a) [1]
 
