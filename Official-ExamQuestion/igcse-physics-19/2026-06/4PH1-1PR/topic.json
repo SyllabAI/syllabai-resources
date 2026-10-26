@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T22:07:17Z",
- "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2026-06 paper=1PR",
+ "generated_utc": "2026-10-26T09:20:36Z",
+ "generator": "official_examq_extract.py v0.21.0 (ADR-039) series=2026-06 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/1PR",
  "source": {
   "qp_sha256": "84e4226ba5f80cc7635c979d2eebb9b29837486a49086d0d38cbbf47c5e6f30b",
@@ -30,26 +30,9 @@
     {
      "part_number": "1(a)",
      "marks": 4,
-     "question_type": "multiple_choice",
-     "problem_md": "Give the names of objects A, B, C and D.",
-     "choices": [
-      {
-       "label": "A",
-       "text_md": "............................ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ................................. ........................................................................................................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-      },
-      {
-       "label": "B",
-       "text_md": "........................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ............................................................................................................................................ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-      },
-      {
-       "label": "C",
-       "text_md": "........................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ................................ ........................................................................................................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-      },
-      {
-       "label": "D",
-       "text_md": "........................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ........................................................................................................................................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-      }
-     ],
+     "question_type": "structured",
+     "problem_md": "Give the names of objects A, B, C and D. A B C D",
+     "choices": [],
      "answer_status": "linked",
      "solution_md": "A = Sun; allow star\nallow named star\nB = planet; allow named planet e.g.\nEarth\nC = moon; allow satellite, named\nartificial or natural\nsatellite e.g. ISS\nD = comet; allow named comet",
      "mark_points": [
@@ -65,7 +48,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "n/a",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }

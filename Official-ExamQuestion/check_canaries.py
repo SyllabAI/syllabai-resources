@@ -77,6 +77,17 @@ for c in cans:
                     ok = p.get("choices") and not any(ch.get("is_correct") for ch in p["choices"])
                 else:
                     ok = any(ch.get("is_correct") and ch.get("label") == c["label"] for ch in (p.get("choices") or []))
+        elif chk == "part_structured":
+            # C91-C93 (F85, the QP-side wave): the part exists, types
+            # structured (never multiple_choice), carries NO choices (the
+            # structural rows serve verbatim in problem_md), and links its
+            # MS block through the ordinary G5 lane.
+            rep, t = load(series, c.get("paper", "1C"))
+            p = find_part(t, c["part"])
+            ok = (p is not None
+                  and p.get("question_type") == "structured"
+                  and not (p.get("choices") or [])
+                  and p.get("answer_status") == "linked")
         elif chk == "gate_status":
             rep, t = load(series, c.get("paper", "1C"))
             g = next((g for g in rep["gates"] if g["gate"] == c["gate"]), None)

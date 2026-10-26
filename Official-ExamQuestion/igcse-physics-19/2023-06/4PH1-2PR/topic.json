@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T22:06:50Z",
- "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2023-06 paper=2PR",
+ "generated_utc": "2026-10-26T09:20:09Z",
+ "generator": "official_examq_extract.py v0.21.0 (ADR-039) series=2023-06 paper=2PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/2PR",
  "source": {
   "qp_sha256": "8a5adf5370c0b002e7b0f54a879f92acf88dd254972a660d548d91c37f91adbd",
@@ -708,42 +708,16 @@
     {
      "part_number": "7(a)",
      "marks": 2,
-     "question_type": "multiple_choice",
-     "problem_md": "The table gives the frequencies of some different sound waves. Place ticks (✓) in the table to show which sound waves can be heard by humans. Frequency Sound wave Can be heard by humans in Hz F 25 000",
-     "choices": [
-      {
-       "label": "A",
-       "text_md": "10",
-       "is_correct": false
-      },
-      {
-       "label": "B",
-       "text_md": "30",
-       "is_correct": false
-      },
-      {
-       "label": "C",
-       "text_md": "500",
-       "is_correct": true
-      },
-      {
-       "label": "D",
-       "text_md": "2000",
-       "is_correct": false
-      },
-      {
-       "label": "E",
-       "text_md": "10 000",
-       "is_correct": false
-      }
-     ],
+     "question_type": "structured",
+     "problem_md": "The table gives the frequencies of some different sound waves. Place ticks (✓) in the table to show which sound waves can be heard by humans. Frequency Sound wave Can be heard by humans in Hz A 10 B 30 C 500 D 2000 E 10 000 F 25 000",
+     "choices": [],
      "answer_status": "linked",
      "solution_md": "C and D ticked with A and F unticked = 1 mark;\nall of B, C, D and E ticked with A and F unticked = 2\nmarks;;\nif either A or F ticked then\naward 0 marks",
      "mark_points": [
       {
        "id": "2023-06-7-a-MP1",
        "marks": 2,
-       "text_md": "Answer C: 500"
+       "text_md": "C and D ticked with A and F unticked = 1 mark;\nall of B, C, D and E ticked with A and F unticked = 2\nmarks;;\nif either A or F ticked then\naward 0 marks"
       }
      ],
      "source_page": 16,
@@ -764,7 +738,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "ms-positional",
+      "keys": "n/a",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }

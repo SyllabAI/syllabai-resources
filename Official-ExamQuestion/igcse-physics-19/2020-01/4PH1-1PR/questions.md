@@ -28,11 +28,12 @@ Which arrow represents the amplitude of the wave?
 
 ### 1(b) [1]
 
-Which arrow represents the wavelength of the wave? A S
+Which arrow represents the wavelength of the wave?
 
 - **(A)** P
 - **(B)** Q  ✔
 - **(C)** R
+- **(D)** S
 
 
 **Mark scheme answer**

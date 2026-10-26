@@ -409,3 +409,62 @@ C73->C87, C74->C88. The v0.17.0-of-the-maths-line version string retires
   surfaced (empty registry when SME-ExamQuestion/igcse-chemistry-19/spec_point_resolution.json is
   outside the sparse checkout and the legacy UPLOAD fallback is absent) — environment fix, engine
   unchanged (canonical _SPEC_REPO path of record).
+
+## The QP-side wave (Task 18, converter v0.21.0, F85 + F86)
+
+- **F85 — the QP-side structural classes (the wave the MS-table wave could not close)**: the
+  Task 17 disclosure named exactly 4 QP-side G3 fails. The F85 census (instrumented re-parse
+  of all 53 landed slices' QP text layers through the converter's own QP-side functions;
+  138 option-run parts) proved the corpus law and decomposed the 4 fails into two classes:
+  (a) **the marks law** — every true 4PH1 single-select MCQ prints exactly 1 mark (129/138);
+  the marks>=2 exceptions are exactly the structural shapes the QP parser mis-typed as
+  multiple_choice: 2023-06 2PR 7(a) place-ticks-in-the-table (2), 2022-06 2PR 1(a)
+  draw-matching-lines (4), 2026-06 1PR 1(a) name-the-object labelling (4). Serving them as
+  MCQs was actively WRONG: 7(a) carried a FALSE served key (`C 500 Hz is_correct`, derived
+  from the compound tick rule `C and D ticked...` through the single-candidate law) and a
+  false mark_point (`Answer C: 500`), and 2026-06 1(a) served its raw dot-run answer lines
+  as choice texts. Fix: `finalize_part` disqualifies the option-run when the part carries
+  >=2 marks (4PH1-gated) — the rows serve verbatim in problem_md, the part types
+  structured, and the MS block links through the ordinary G5 lane (the tick rule, the
+  matching scheme, the naming scheme serve as solutions). (b) **the repeat-first-label
+  print defect** — 2020-01 1PR 1(b)'s 4th option row prints `A S` where the run is A/B/C/D-S
+  (a Pearson typo; the MS of record keys `B - arrow Q` and its rebuttal row names
+  `D is incorrect as arrow S`, corroborating the intended label). The row previously leaked
+  into problem_md and the run served short (labels A-C). Fix: `parse_mcq_block` completes
+  the run when the final row of a 4-option run repeats the FIRST label at expect==3 (the
+  canonical printed run is A-D, so the completion is unique; 4PH1-gated; corpus census:
+  exactly 1 instance), disclosed on the part as `value_trace.choices:
+  "normalized:qp-print-defect-repeat-label ..."`. Corpus result: 53/53 fully PASS (G3
+  135/135 keyed, G5 2,171/2,171), review queue 67 -> 65. Chemistry 2023-06 1C parity
+  receipt: 10/10 files byte-identical (7 assets byte-exact; json/md identical modulo
+  generated_utc + generator string), gate stdout identical modulo the version string. The
+  two laws are 4PH1-gated (`ACTIVE_SPEC_CODE`), so chemistry/4MB1 bit-identity is by
+  construction AND by receipt. Canaries C89 (slice G3), C90 (1(b) keyed B), C91/C92/C93
+  (the three re-typed parts stay structured + choice-free + linked; new `part_structured`
+  checker arm). Command of record: the operator's "the QP-side wave" (trace 1a17747d4703bb15).
+- **F86 — the battery's drive-by findings (staging-era boundary + the run-004 tick clobber)**:
+  assembling the full 91-canary battery environment (chemistry 54 + physics 53 re-emitted
+  fresh; maths fetched — lane untouched) surfaced two findings. (1) **A REAL run-004
+  regression**: the union added the SymbolMT digit range (F030-F039) to the GLOBAL PUA map
+  for the maths 2020-01 02R decode, silently clobbering chemistry's evidence-backed
+  ZapfDingbatsITCbyBT tick mapping (`F033 -> ✓`, the F48 `Place ticks (✓) in three boxes`
+  entry — v0.19.0 line 262). A fresh chemistry re-emission served `Place ticks (3)`
+  (2019-06 1CR 2(a)); C56's pin caught it. Repaired IN THIS WAVE as a chemistry
+  `pua_override` (`F033 -> ✓`) — the union's own F068/F06a/F075 lane-split pattern applied
+  to the one codepoint the union missed; census: exactly 1 F03x occurrence across all 54
+  chemistry staging txt layers, so the blast radius is that glyph alone; 1C parity stays
+  byte-identical. (2) **The staging-era boundary class**: three canary items (C61's
+  positional key on 2019-06 1CR 5(a)(ii); C56's pins on 2019-06 2C 7(a) and 2021-01 2C
+  3(a)(i)) do not reproduce from this workspace's chemistry staging txt layers on ANY
+  converter era (v0.19.0/v0.20.0/v0.21.0 A/B-identical on every affected slice) — the
+  served corpus keyed/linked them from an earlier staging era whose text-layer line shapes
+  differ. Forensics: the row-lane rebuttal regex carries a DORMANT `\b\b` concatenation
+  quirk (`...\bcannot\s+be\b` fused with the `is incorrect` alternative — the missing
+  alternation `|`), hoisted BYTE-EXACT by the F72 wave per the bit-identity law; on the
+  current staging the quirk lets the four rebuttal rows of 5(a)(ii) count as answer rows
+  (4 distinct candidates -> the single-candidate law refuses -> unkeyed), while the served
+  corpus's staging era keyed B positionally. Not a regression of this wave; the repair
+  (chemistry re-staging with the pdftotext -layout method of record + the row-rebuttal
+  lexeme fix with its own corpus-wide re-receipt) is queued as open wave #5 of the physics
+  LANE-STATUS. Battery of record after this wave: 91 canaries, 90 hold on the fresh
+  corpus; the 1 exception is C61 (disclosed above, exonerated by the A/B).

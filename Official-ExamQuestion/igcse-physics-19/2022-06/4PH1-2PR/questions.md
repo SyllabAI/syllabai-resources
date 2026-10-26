@@ -8,12 +8,7 @@ The Hertzsprung–Russell diagram shows stars classified into different regions.
 
 ### 1(a) [4]
 
-The boxes give four points, A, B, C and D, and four star classifications. Draw lines connecting each point to the correct star classification. Point Star classification
-
-- **(A)** star similar to the Sun
-- **(B)** white dwarf
-- **(C)** red giant
-- **(D)** very bright blue star
+The boxes give four points, A, B, C and D, and four star classifications. Draw lines connecting each point to the correct star classification. Point Star classification A star similar to the Sun B white dwarf C red giant D very bright blue star
 
 ![boxes — official paper figure (qp.pdf p.4)](assets/asset_1_a_boxes.png)
 

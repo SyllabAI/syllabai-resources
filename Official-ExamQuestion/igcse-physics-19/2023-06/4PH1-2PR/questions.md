@@ -446,13 +446,7 @@ This question is about sound waves.
 
 ### 7(a) [2]
 
-The table gives the frequencies of some different sound waves. Place ticks (✓) in the table to show which sound waves can be heard by humans. Frequency Sound wave Can be heard by humans in Hz F 25 000
-
-- **(A)** 10
-- **(B)** 30
-- **(C)** 500  ✔
-- **(D)** 2000
-- **(E)** 10 000
+The table gives the frequencies of some different sound waves. Place ticks (✓) in the table to show which sound waves can be heard by humans. Frequency Sound wave Can be heard by humans in Hz A 10 B 30 C 500 D 2000 E 10 000 F 25 000
 
 ![table — official paper figure (qp.pdf p.16)](assets/asset_7_a_table.png)
 
@@ -465,7 +459,7 @@ The table gives the frequencies of some different sound waves. Place ticks (✓)
 > if either A or F ticked then
 > award 0 marks
 
-- **(2)** Answer C: 500
+- **(2)** C and D ticked with A and F unticked = 1 mark;
 
 ### 7(b) [2]
 

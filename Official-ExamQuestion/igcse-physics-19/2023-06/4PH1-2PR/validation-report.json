@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:06:49Z",
+ "generated_utc": "2026-10-26T09:20:09Z",
  "series": "2023-06",
  "paper": "2PR",
  "gates": [
@@ -38,15 +38,10 @@
   },
   {
    "gate": "G3-mcq-integrity",
-   "status": "FAIL",
-   "summary": "1 MCQ parts; all have printed A–D and MS-keyed answer: False",
+   "status": "PASS",
+   "summary": "0 MCQ parts; all have printed A–D and MS-keyed answer: True",
    "details": {
-    "issues": [
-     {
-      "part": "7(a)",
-      "issue": "labels=['A', 'B', 'C', 'D', 'E']"
-     }
-    ]
+    "issues": []
    }
   },
   {
