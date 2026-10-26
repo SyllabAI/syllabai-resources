@@ -280,3 +280,47 @@ artifacts, 60 records TUT-001..060 (family-continuous numbering).
   every REQUIRED artifact plus the OPTIONAL HIS family complete except the GAP
   audit. Remaining queue: pass 9 GAP (8 REQUIRED — final audit, runs last by
   design). Staging/publication remain operator-ordered.
+## 2026-10-26 — SIB-CHEMISTRY_4CH1-RUN-009 (BL-009 pass 9: GAP) — zai_agent lane
+
+Operator order 'order pass 9' (trace 1a17834d3ae5d5c1, channel zai-web). Run
+SIB-CHEMISTRY_4CH1-RUN-009 = GAP-01..08, the 8 REQUIRED Gap Intelligence
+artifacts (the final audit pass — runs last by design), 48 records
+GAP-001..048 (family-continuous numbering).
+
+- Fetch-first: resources main @ 6ef8c892 (the pass-8 merge of record, PR #166
+  in ancestry), master @ 357ace0a pin unchanged, pastpapers @ 2cb92fe5;
+  sparse cone unchanged (SubjectIntelligence + books +
+  Official-Specifications/igcse-chemistry).
+- Preflight PASS: GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest
+  matched; 6/17 sources resolved, 11 failed sources disclosed run-wide (same
+  posture as RUN-006/007/008 — none is the GAP primary).
+- Packs: 8 agent-authored pack specs. GAP law: primary SRC-SPEC-* + forbidden
+  'gaps closed by invention rather than disclosure'; supplementary '*' selects
+  ALL SIX resolved sources, so every pack explicitly plans all six —
+  SRC-ROOT-BOOK-COPIES-4CH1 and SRC-SAMS-4CH1 ride as one-page
+  identity-presence entries consumed for identity claims only (root-copy law
+  + SAMS identity law honored). GAP-03 carries the full 23-report ER census
+  (every clean cover of record, deliberately without the garbled 2024-06 1C
+  exclusion). GAP-03's SB1 query ('EXAM HINT') matched no chunk text — the
+  parse v3 content-type label is not chunk text — entry resolved identity-only,
+  disclosed, consumed for no claim.
+- Authoring from packs alone with the family forbidden-law enforced in-text:
+  every coverage gap is DISCLOSED (SRC-GRAPH-4CH1 absence grounds GAP-02 at
+  source level; unaudited spans labeled unaudited; 17-of-23 report sampling
+  labeled as sampling). 48 records all CURRENT — AUTHORITATIVE.
+- QA CHAIN: validator qa @ 357ace0a 8/8 qa_passed, 0 errors / 0 warnings
+  (qa-reports/ x8 written by the validator of record); evidence-claim QA r4
+  120 citations / 0 violations FINAL after one disclosed in-turn repair cycle
+  — the first pass reported 13 violations, every one a citation pointing
+  outside its own artifact's pack window (GAP-02 SB1 line 8 + spec p29; GAP-04
+  TL covers + ER 2019-06 1C cover + spec p15; GAP-05 SB1 1100/1078 + 2024-06
+  2C cover; GAP-06 ellipsis quote-pairing artifact; GAP-08 fitz column-order
+  reflow of the change-summary table) — all re-pointed to in-pack locators
+  before any record was committed; deterministic rebuild; sha256s of record
+  in census.json (sib-run-census/1.0).
+- LEDGER: manifest.yaml backlog BL-009 description appended with the PASS 9
+  EXECUTED entry (operator order 'order pass 9' trace 1a17834d3ae5d5c1); YAML
+  re-parse verified. Scoreboard: 95/95 artifacts GENERATED — the 95-artifact
+  SIB taxonomy for CHEMISTRY_4CH1 is COMPLETE (CUR 8 + MIS 9 + EXP 8 + ASM 10
+  + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7 + TUT 10 + GAP 8). No
+  remaining generation queue. Staging/publication remain operator-ordered.
