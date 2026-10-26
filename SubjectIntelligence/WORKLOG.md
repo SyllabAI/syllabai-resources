@@ -484,3 +484,50 @@ edit).
   93 at v1.0/v1.1-of-origin, ASM-10 + MIS-01 v1.1 (RUN-010), MIS-01 v1.2 +
   MIS-02..09 v1.1 + TUT-08 v1.1 + EXP-06 v1.1 (RUN-011). Staging/publication remain
   operator-ordered.
+
+## RUN-013 — D2 anchor-registry repair (2026-10-27, BL-011 pass 13)
+
+- Operator order: 'D2 anchor-registry repair' (channel zai-web, trace 1a179cf5322a1b81).
+  Scope of record: SIB-ASSESS-r1 finding D2 — 133x SIB-ANCH-002, unrepaired since
+  RUN-003.
+- Diagnosis of record (scripts/run013_diagnose.py): the 133 warnings decompose
+  into (a) a registry-LOADER defect — curriculum_registry.yaml stored its ids
+  under `spec_point_codes` in a `4CH1-`-prefixed namespace, but the validator
+  loader (tools.sib.cli::_registry_ids) reads only `specification_points`/
+  `identifiers` and the anchor extractor's namespace is bare-only — so the
+  registry was silently ABSENT for every qa of record (SIB-ANCH-003 x95); and
+  (b) an artifact-side defect — of the 32 unique referenced ids, 5 bare forms
+  (1.5, 1.6, 1.7, 3.5, 3.14) are absent from the 182-point universe of record
+  because the official statements are C-suffixed (Chemistry-only): 1.5C/1.6C/
+  1.7C (solubility), 3.5C (energy level diagrams), 3.14C (reaction profiles).
+  Official-spec PDF verified as the court of record: plain 1.5/1.6/1.7/3.5/3.14
+  do NOT exist in 4CH1.
+- Registry repair (zero invention): re-pinned to the loader contract —
+  `specification_points:` = 234 quoted ids = the 182 official_code identifiers
+  of record at pin tree f42033e01de3 (zero drift vs origin/main verified) + 52
+  documented bare projections of the C-codes (unambiguity verified: no number
+  exists both plain and C-suffixed). Legacy `spec_point_codes` block preserved.
+  pyyaml + yamlmini(stdlib path) agree; loader view = 234; build_registry
+  present.
+- Artifact repair (per-record adjudication, NOT C-blind restoration): 13 anchor
+  lines re-anchored across MIS-01/02/04/06/07/08 — the records' content maps to
+  1.1 (arrangement/movement/energy of particles), 1.2 (interconversions),
+  3.11 (collision theory), 1.25 (word + balanced equations incl. state symbols)
+  and 3.14C; the old refs cited nonexistent plain-form points, wrong-locus
+  points (3.3/3.5 = Q=mcΔT/energy-diagram statements; 1.21/1.22 = Periodic
+  Table points), or dropped the C suffix. Per-record rationale committed at
+  runs/SIB-CHEMISTRY_4CH1-RUN-013/evidence/anchor_reanchor_receipt.json.
+- Chain: preflight PASS (families MIS/PRA; 6/17 sources resolved on the
+  sparse-clone surface, 11 disclosed run-wide), packs carried byte-identical
+  from RUN-011 (sha256s cross-checked vs origin receipts), stamping x6
+  (MIS-01 v1.3; MIS-02/04/06/07/08 v1.2), validator qa @ 357ace0a 0 errors /
+  0 warnings x6 edited + 89 unchanged receipts refreshed — 95/95 receipts at
+  0 errors / 0 warnings, the first warning-free library sweep since RUN-003
+  (anchor refs resolve as SIB-ANCH-004 INFO; the 2 pre-existing SIB-IDENT-005
+  filename-canonicalization INFOs remain, out of D2 scope), citation QA r4
+  79 citations / 0 violations, census annex + run manifest add-artifact x6 +
+  validate OK.
+- SCOREBOARD: 95/95 artifacts GENERATED — 89 at prior versions-of-record,
+  MIS-01 v1.3, MIS-02/04/06/07/08 v1.2 (RUN-013). Staging/publication remain
+  operator-ordered. SIB-ASSESS-r1 register: D4 derived-quantity labeling and
+  D6/D7 (structural limits; staging/publication pass) remain open lanes.

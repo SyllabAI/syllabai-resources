@@ -4,7 +4,7 @@
 # applicability is subject-specific. Row statuses are intentionally left empty: the
 # validator rejects landing artifacts that self-declare past GENERATED, so the
 # authoritative per-artifact state lives in the artifact front matter + qa-reports/
-# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..012;
+# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..013;
 # see coverage_status below and runs/).
 sib_protocol: SIB-1.0
 manifest_version: "1.0"
@@ -17,7 +17,7 @@ curriculum_version: "2017"
 notebook: 4CH1-SIB-NOTEBOOK-001
 source_manifest: source_manifest.yaml
 coverage_status:
-  generated: "95/95 artifacts GENERATED (runs RUN-001..012 of record; per-artifact receipts in runs/ + qa-reports/)"
+  generated: "95/95 artifacts GENERATED (runs RUN-001..013 of record; per-artifact receipts in runs/ + qa-reports/)"
   families: "CUR 8, EXP 8, MIS 9, ASM 10, MS 8, EXM 6, PED 9, PRA 5, PRO 7, HIS 7, TUT 10, GAP 8"
   grounding_consumed: "SRC-SPEC-4CH1, SRC-QPMS-4CH1, SRC-ER-4CH1, SRC-TL-4CH1,
     SRC-SAMS-4CH1, SRC-ROOT-BOOK-COPIES-4CH1, SRC-BOOK-4CH1-SB1 (validated v3
@@ -39,8 +39,21 @@ coverage_status:
     extraction was NOT pending and the packs are NOT identity-only; SRC-GRAPH-4CH1
     and SRC-SME-NOTES-4CH1 are resolved and pack-cited, not 'never filled'. The
     6/17 preflight resolution counts are sparse-clone surfaces, not corpus truth."
+  anchor_registry: "RUN-013 repaired the RUN-003 pin defect (SIB-ASSESS-r1 finding
+    D2): curriculum_registry.yaml stored its identifiers under spec_point_codes in a
+    4CH1-prefixed namespace — a key the validator loader never reads and a namespace
+    the bare-only anchor extractor cannot match — so the registry was silently ABSENT
+    for every qa of record since RUN-003 (SIB-ANCH-003 x95) and all 133 anchor refs
+    warned SIB-ANCH-002. Re-pinned to the loader contract: 234 quoted ids = the 182
+    official_code identifiers of record at the pinned tree + 52 documented unambiguous
+    bare projections of the C-suffixed codes (the extractor is bare-only); legacy
+    spec_point_codes block preserved; zero identifiers invented. Artifact-side: 13
+    anchor lines re-anchored across 6 MIS artifacts (per-record adjudication against
+    the official wording of record — 10 old refs cited nonexistent plain-form points,
+    2 cited wrong-locus points, 1 dropped a C suffix). Post-repair state: 95/95
+    validator receipts at 0 errors / 0 warnings; anchor refs resolve as SIB-ANCH-004."
   publication: "staging/publication remain operator-ordered (validator publication law)"
-  updated: "2026-10-27 (RUN-012, BL-011)"
+  updated: "2026-10-27 (RUN-013, BL-011)"
 artifacts:
   - artifact_id: CUR-01
     applicability: REQUIRED
@@ -566,4 +579,24 @@ backlog:
       cross-checked); citation tokens byte-identical pre/post; validator qa
       @ 357ace0a 0 errors x3 / 0 warnings; citation QA r4 27 citations /
       0 violations; run manifest add-artifact x3 + validate OK.
-      Staging/publication remain operator-ordered."
+      PASS 13 EXECUTED 2026-10-27 (operator order 'D2 anchor-registry repair',
+      channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-013 = SIB-ASSESS-r1 finding
+      D2. curriculum_registry.yaml re-pinned to the validator loader contract
+      (specification_points key, 234 quoted ids = 182 official codes of record
+      at pin tree f42033e01de3 + 52 documented unambiguous bare projections of
+      the C-suffixed codes; legacy spec_point_codes preserved; zero identifiers
+      invented — the RUN-003 pin's key/namespace defect had left the registry
+      silently absent for every qa since RUN-003, warning all 133 anchor refs).
+      Artifact-side: 13 anchor lines re-anchored across 6 MIS artifacts
+      (MIS-01 v1.3; MIS-02/04/06/07/08 v1.2), per-record adjudication against
+      the official wording of record — the old refs cited nonexistent plain-form
+      points (1.5/1.6/3.5), wrong-locus points (3.3/3.5 for collision theory,
+      1.21/1.22 Periodic Table points for equation conventions), or dropped the
+      C suffix (3.14 -> 3.14C); re-anchored to 1.1/1.2/3.11/1.25/3.14C per the
+      records' actual loci. Packs carried byte-identical from RUN-011 (sha256
+      cross-checked); citation tokens byte-identical pre/post; validator qa
+      @ 357ace0a 0 errors / 0 warnings x6 edited + 89 unchanged receipts
+      refreshed — 95/95 receipts clean, the first warning-free library sweep
+      since RUN-003 (anchor refs now resolve as SIB-ANCH-004 INFO); citation
+      QA r4 79 citations / 0 violations; run manifest add-artifact x6 +
+      validate OK. Staging/publication remain operator-ordered."

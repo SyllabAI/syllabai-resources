@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-04
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -28,7 +28,7 @@ generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-013"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
+    syllabai_resources: "74d76bbab72378ac8db02068943b195b5099b3ca"
 ---
 
 # MIS-04 — Reasoning Errors
@@ -97,7 +97,7 @@ filled).
 ### MIS-029 — Rehearsed frame mis-applied to a physical change
 
 **Concepts:** evaporation; kinetic theory; reaction kinetics
-**Specification Points:** 1.6
+**Specification Points:** 1.2
 Temporal scope: CURRENT — AUTHORITATIVE
 **Error shape:** the most-rehearsed explanatory frame in the course (collision frequency)
 is applied outside its domain: "Some confused this process with reactions by talking
@@ -115,7 +115,7 @@ the frame, not just the vocabulary.
 ### MIS-030 — Incomplete collision-model chains
 
 **Concepts:** rates of reaction; collision theory
-**Specification Points:** 3.3, 3.5
+**Specification Points:** 3.11
 Temporal scope: CURRENT — AUTHORITATIVE
 **Error shape:** the causal chain loses required links at specific joints — "stating an
 increase in collisions but without a reference to time/frequency", "stating more
@@ -134,7 +134,7 @@ collisions.
 ### MIS-031 — "More energy" offered where concentration/particles was asked
 
 **Concepts:** rates of reaction; particle model
-**Specification Points:** 3.3, 3.5
+**Specification Points:** 3.11
 Temporal scope: CURRENT — AUTHORITATIVE
 **Error shape:** the energy fact displaces the asked quantity — "Some incorrectly stated
 the particles would have more energy" where the change was concentration/surface-driven,

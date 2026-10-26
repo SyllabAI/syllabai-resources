@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-01
-artifact_version: 1.2
+artifact_version: 1.3
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -28,7 +28,7 @@ generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-013"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
+    syllabai_resources: "74d76bbab72378ac8db02068943b195b5099b3ca"
 ---
 
 # MIS-01 — Misconception Atlas
@@ -107,7 +107,7 @@ invention.
 ### MIS-001 — Particle movement in solids: "particles do not move"
 
 **Concepts:** states of matter; particle model
-**Specification Points:** 1.6
+**Specification Points:** 1.1
 Temporal scope: CURRENT — AUTHORITATIVE
 **Assessment context:** Paper 1 territory (core statements); description-style items.
 **Misconception:** Candidates describe the particles in a solid as not moving, treating
@@ -136,7 +136,7 @@ amount of energy" where arrangement+movement was asked.
 ### MIS-002 — Evaporation explained as more frequent collisions
 
 **Concepts:** states of matter; evaporation; kinetic theory
-**Specification Points:** 1.6
+**Specification Points:** 1.2
 Temporal scope: CURRENT — AUTHORITATIVE
 **Assessment context:** Paper 1; explain-style one/two-mark items.
 **Misconception:** On heating, candidates explain evaporation as "greater frequency of
@@ -159,7 +159,7 @@ frequency of collisions."
 ### MIS-003 — Change of state written as a chemical reaction
 
 **Concepts:** condensation; physical vs chemical change; state symbols
-**Specification Points:** 1.5, 1.6
+**Specification Points:** 1.2
 Temporal scope: CURRENT — AUTHORITATIVE
 **Assessment context:** Paper 1; equation-writing items on state changes.
 **Misconception:** Candidates write a chemical equation (e.g. forming water) for a

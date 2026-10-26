@@ -1,0 +1,111 @@
+{
+  "repair": "RUN-013 D2 artifact-side: 13 anchor lines re-anchored across 6 MIS artifacts, each evidence-pinned against the official wording of record at the pin tree (no C-blind restoration — per-record adjudication; 10 of 13 old refs cited nonexistent plain-form points, 2 cited wrong-locus plain points, 1 dropped a C suffix)",
+  "edits": [
+    {
+      "artifact_id": "MIS-01",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.1"
+    },
+    {
+      "artifact_id": "MIS-01",
+      "occurrence_index": 1,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.2"
+    },
+    {
+      "artifact_id": "MIS-01",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.5, 1.6",
+      "new_line": "**Specification Points:** 1.2"
+    },
+    {
+      "artifact_id": "MIS-02",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.2"
+    },
+    {
+      "artifact_id": "MIS-02",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.5, 1.6",
+      "new_line": "**Specification Points:** 1.2"
+    },
+    {
+      "artifact_id": "MIS-02",
+      "occurrence_index": 1,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.1"
+    },
+    {
+      "artifact_id": "MIS-04",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.2"
+    },
+    {
+      "artifact_id": "MIS-04",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 3.3, 3.5",
+      "new_line": "**Specification Points:** 3.11"
+    },
+    {
+      "artifact_id": "MIS-04",
+      "occurrence_index": 1,
+      "old_line": "**Specification Points:** 3.3, 3.5",
+      "new_line": "**Specification Points:** 3.11"
+    },
+    {
+      "artifact_id": "MIS-06",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.1"
+    },
+    {
+      "artifact_id": "MIS-07",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.21, 1.22, 3.14 (convention strand)",
+      "new_line": "**Specification Points:** 1.25, 3.14C (convention strand)"
+    },
+    {
+      "artifact_id": "MIS-08",
+      "occurrence_index": 0,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.1"
+    },
+    {
+      "artifact_id": "MIS-08",
+      "occurrence_index": 1,
+      "old_line": "**Specification Points:** 1.6",
+      "new_line": "**Specification Points:** 1.2"
+    }
+  ],
+  "rationale": {
+    "MIS-01": {
+      "1.1": "MIS-001 solid-vibration/two-axes locus = spec 1.1 (arrangement, movement, energy of particles)",
+      "1.2": "MIS-002 evaporation locus = spec 1.2 (interconversions between the three states)",
+      "1.2*": "MIS-003 change-of-state-as-chemical-reaction locus = spec 1.2 (old '1.5, 1.6' were solubility statements — wrong locus, not dropped C-suffixes)"
+    },
+    "MIS-02": {
+      "1.2": "MIS-015 evaporation-vs-kinetics locus = spec 1.2",
+      "1.2*": "MIS-016 change-of-state-as-chemical-change locus = spec 1.2",
+      "1.1": "MIS-017 vibration-vs-movement two-axes locus = spec 1.1"
+    },
+    "MIS-04": {
+      "1.2": "MIS-029 evaporation frame mis-application locus = spec 1.2",
+      "3.11": "MIS-030 + MIS-031 collision-model chains locus = spec 3.11 (rate effects explained in terms of particle collision theory; old '3.3, 3.5' were Q=mcΔT/energy-diagram statements — wrong locus)"
+    },
+    "MIS-06": {
+      "1.1": "MIS-047 vibration-vocabulary locus = spec 1.1"
+    },
+    "MIS-07": {
+      "1.25, 3.14C": "MIS-055 equation-convention strand = spec 1.25 (word + balanced equations incl. state symbols; old 1.21/1.22 were Periodic Table statements — wrong locus) + diagram-convention strand = spec 3.14C (reaction profile diagrams, C-suffix restored)"
+    },
+    "MIS-08": {
+      "1.1": "MIS-057 two-axis particle probe locus = spec 1.1",
+      "1.2": "MIS-058 frame-separation probe (evaporation) locus = spec 1.2"
+    }
+  },
+  "citation_tokens": "byte-identical pre/post (enforced)",
+  "packs": "byte-identical carry-over from SIB-CHEMISTRY_4CH1-RUN-011"
+}

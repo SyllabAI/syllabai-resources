@@ -7,32 +7,24 @@
     "context": {},
     "counts": {
       "ERROR": 0,
-      "INFO": 1,
-      "WARNING": 2
+      "INFO": 2,
+      "WARNING": 0
     },
     "issues": [
       {
         "artifact_id": "PRA-03",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[3.15]",
-        "message": "anchor 3.15 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 3.15 resolves to registry entry",
         "record_id": "PRA-017",
-        "severity": "WARNING"
+        "severity": "INFO"
       },
       {
         "artifact_id": "PRA-03",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[3.16]",
-        "message": "anchor 3.16 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 3.16 resolves to registry entry",
         "record_id": "PRA-017",
-        "severity": "WARNING"
-      },
-      {
-        "artifact_id": "PRA-03",
-        "code": "SIB-ANCH-003",
-        "field": "curriculum_anchor_refs",
-        "message": "no curriculum registry supplied; anchor existence not checked",
-        "record_id": "",
         "severity": "INFO"
       }
     ],

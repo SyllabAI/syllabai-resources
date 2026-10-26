@@ -1,0 +1,129 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-013",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "74d76bbab72378ac8db02068943b195b5099b3ca",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "MIS-01",
+      "filename": "CHEMISTRY_4CH1_MIS-01_MISCONCEPTION_ATLAS.md",
+      "evidence_pack": "evidence/MIS-01/evidence_pack.json",
+      "evidence_pack_sha256": "fd9d8b4a3346d5d106c263c5a48e2f22c54f96fa427665bb94b572f9545e6e90",
+      "artifact_sha256": "fadcdd951d2b690c512565902e7ce05c7448870b3f04fd474d675857b0818b2f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (MIS on SRC-ER-4CH1, PRA on SRC-SPEC-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — first clean sweep since RUN-003)",
+        "evidence_claim_qa": "PASS (r4: 28 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "anchor_registry_repair": "PASS (SIB-ASSESS-r1 D2: curriculum_registry.yaml re-pinned to the loader contract — 234 quoted ids = 182 official codes of record at the pin tree + 52 documented unambiguous bare projections; legacy spec_point_codes block preserved)",
+        "anchor_reanchor": "PASS (per-record re-anchoring evidence-pinned against the official wording of record; citation tokens byte-identical pre/post; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D2 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-02",
+      "filename": "CHEMISTRY_4CH1_MIS-02_CONCEPT_CONFUSION_ATLAS.md",
+      "evidence_pack": "evidence/MIS-02/evidence_pack.json",
+      "evidence_pack_sha256": "c0e41c39d029abe754ad56006d80d555ee6ce655c9cf6db11a43d1d70b1c981c",
+      "artifact_sha256": "667962f41d96de09754f7ac1d85ce207a0215e3478fd8ea1a5730fd52ef457b5",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (MIS on SRC-ER-4CH1, PRA on SRC-SPEC-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — first clean sweep since RUN-003)",
+        "evidence_claim_qa": "PASS (r4: 12 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "anchor_registry_repair": "PASS (SIB-ASSESS-r1 D2: curriculum_registry.yaml re-pinned to the loader contract — 234 quoted ids = 182 official codes of record at the pin tree + 52 documented unambiguous bare projections; legacy spec_point_codes block preserved)",
+        "anchor_reanchor": "PASS (per-record re-anchoring evidence-pinned against the official wording of record; citation tokens byte-identical pre/post; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D2 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-04",
+      "filename": "CHEMISTRY_4CH1_MIS-04_REASONING_ERRORS.md",
+      "evidence_pack": "evidence/MIS-04/evidence_pack.json",
+      "evidence_pack_sha256": "de0e184a0fda920965dce02ecc8f4ed6ce289943161f0379dd2e4df698449683",
+      "artifact_sha256": "9c07221ee94ac8aa45289b24dd1cce08d8bdaaefe109791567d24678cf841496",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (MIS on SRC-ER-4CH1, PRA on SRC-SPEC-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — first clean sweep since RUN-003)",
+        "evidence_claim_qa": "PASS (r4: 8 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "anchor_registry_repair": "PASS (SIB-ASSESS-r1 D2: curriculum_registry.yaml re-pinned to the loader contract — 234 quoted ids = 182 official codes of record at the pin tree + 52 documented unambiguous bare projections; legacy spec_point_codes block preserved)",
+        "anchor_reanchor": "PASS (per-record re-anchoring evidence-pinned against the official wording of record; citation tokens byte-identical pre/post; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D2 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-06",
+      "filename": "CHEMISTRY_4CH1_MIS-06_TERMINOLOGY_ERRORS.md",
+      "evidence_pack": "evidence/MIS-06/evidence_pack.json",
+      "evidence_pack_sha256": "d40ee1ef95fd2e78644561b21962372811ac1aec2830fe89bf87b7209613cb2c",
+      "artifact_sha256": "21ca1dbe7d6b9681e317c8b5fcd710c3e2df9c04af1c9f55520fe0ecc0133ca4",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (MIS on SRC-ER-4CH1, PRA on SRC-SPEC-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — first clean sweep since RUN-003)",
+        "evidence_claim_qa": "PASS (r4: 12 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "anchor_registry_repair": "PASS (SIB-ASSESS-r1 D2: curriculum_registry.yaml re-pinned to the loader contract — 234 quoted ids = 182 official codes of record at the pin tree + 52 documented unambiguous bare projections; legacy spec_point_codes block preserved)",
+        "anchor_reanchor": "PASS (per-record re-anchoring evidence-pinned against the official wording of record; citation tokens byte-identical pre/post; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D2 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-07",
+      "filename": "CHEMISTRY_4CH1_MIS-07_EXAM_ANSWER_ERRORS.md",
+      "evidence_pack": "evidence/MIS-07/evidence_pack.json",
+      "evidence_pack_sha256": "a123310e80954b59e0f803ee711a38f1ccac093a5bd0c75f71e5d23af24946cd",
+      "artifact_sha256": "6301f8a866fbc4cd4b1098b75d9b44c5309e5cb7411bd5ee4c01ce655adaca3f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (MIS on SRC-ER-4CH1, PRA on SRC-SPEC-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — first clean sweep since RUN-003)",
+        "evidence_claim_qa": "PASS (r4: 9 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "anchor_registry_repair": "PASS (SIB-ASSESS-r1 D2: curriculum_registry.yaml re-pinned to the loader contract — 234 quoted ids = 182 official codes of record at the pin tree + 52 documented unambiguous bare projections; legacy spec_point_codes block preserved)",
+        "anchor_reanchor": "PASS (per-record re-anchoring evidence-pinned against the official wording of record; citation tokens byte-identical pre/post; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D2 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-08",
+      "filename": "CHEMISTRY_4CH1_MIS-08_MISCONCEPTION_DIAGNOSTICS.md",
+      "evidence_pack": "evidence/MIS-08/evidence_pack.json",
+      "evidence_pack_sha256": "41d6be3275f23c06f37667ab4274515a410ae9bb589d401df479a1bec5e73316",
+      "artifact_sha256": "0c717a959d49c4c2ba90d6a9902595733d262bf5c8ba94e8e6e04cbd716e4707",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (MIS on SRC-ER-4CH1, PRA on SRC-SPEC-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — first clean sweep since RUN-003)",
+        "evidence_claim_qa": "PASS (r4: 10 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "anchor_registry_repair": "PASS (SIB-ASSESS-r1 D2: curriculum_registry.yaml re-pinned to the loader contract — 234 quoted ids = 182 official codes of record at the pin tree + 52 documented unambiguous bare projections; legacy spec_point_codes block preserved)",
+        "anchor_reanchor": "PASS (per-record re-anchoring evidence-pinned against the official wording of record; citation tokens byte-identical pre/post; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D2 edits only)"
+      },
+      "qa_report": ""
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

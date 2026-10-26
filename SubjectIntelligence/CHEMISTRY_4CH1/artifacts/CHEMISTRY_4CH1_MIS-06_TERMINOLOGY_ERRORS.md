@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-06
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -28,7 +28,7 @@ generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-013"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
+    syllabai_resources: "74d76bbab72378ac8db02068943b195b5099b3ca"
 ---
 
 # MIS-06 — Terminology Errors
@@ -172,7 +172,7 @@ averages.
 ### MIS-047 — Movement vocabulary: vibration unnamed
 
 **Concepts:** states of matter; particle model
-**Specification Points:** 1.6
+**Specification Points:** 1.1
 Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** "it was quite common to see the statement the particles do not move, without
 adding the key word around or freely" — the word 'vibrate' absent where it is the
