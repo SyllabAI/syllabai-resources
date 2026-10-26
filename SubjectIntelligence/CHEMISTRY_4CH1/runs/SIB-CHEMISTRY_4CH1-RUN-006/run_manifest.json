@@ -1,0 +1,378 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-006",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "8b5a64f1b18724208ff19969b002028d3ed41bed",
+    "syllabai_pastpapers": "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "PED-01",
+      "filename": "CHEMISTRY_4CH1_PED-01_LEARNING_SEQUENCE_ANALYSIS.md",
+      "evidence_pack": "evidence/PED-01/evidence_pack.json",
+      "evidence_pack_sha256": "9031746872a155a461611ce9a9f3cdd7f403895c61820cfbe8dcf041768605ff",
+      "artifact_sha256": "46eea8b5df7cdd804b4038bc3fdf8b6e8b4d0bf2f2c4cab445405f23b66a0fea",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 17 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-01.qa.json"
+    },
+    {
+      "artifact_id": "PED-02",
+      "filename": "CHEMISTRY_4CH1_PED-02_PREREQUISITE_LEARNING_PATHS.md",
+      "evidence_pack": "evidence/PED-02/evidence_pack.json",
+      "evidence_pack_sha256": "e3bc04c987bb88006e6bc908c7df58c53df0f84e2fab1833b3609df03a425453",
+      "artifact_sha256": "9fd0392600b313adf469123cf6a21dd050f955ae59d61cfe6a2998478bcbca89",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 10 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-02.qa.json"
+    },
+    {
+      "artifact_id": "PED-03",
+      "filename": "CHEMISTRY_4CH1_PED-03_DIFFICULTY_PROGRESSION.md",
+      "evidence_pack": "evidence/PED-03/evidence_pack.json",
+      "evidence_pack_sha256": "a44cedf3cbaae4b803f8d231c242ff4e189b1821b1837cafcc3c3cc709d574b2",
+      "artifact_sha256": "34586624145d8997efd5b915faf8a422822e8ab1e2c2b5c434b193430739b118",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 13 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-03.qa.json"
+    },
+    {
+      "artifact_id": "PED-04",
+      "filename": "CHEMISTRY_4CH1_PED-04_EXPLANATION_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-04/evidence_pack.json",
+      "evidence_pack_sha256": "98c541605bf28b9c3a804159ec6cb218d763026404f8e82148af2c8ca88c5d04",
+      "artifact_sha256": "e624b7bce0899ebffc1b7fe889c03dc7a40c642cbcd5304f41b3406cf657940c",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 17 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-04.qa.json"
+    },
+    {
+      "artifact_id": "PED-05",
+      "filename": "CHEMISTRY_4CH1_PED-05_PRACTICE_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-05/evidence_pack.json",
+      "evidence_pack_sha256": "fa461307f37e9c9998c2c52881fa6a0a9804ef615b9297eafa76343a3ceb329a",
+      "artifact_sha256": "9563c256532c54b8c91f44cf410802b42a2f5636c2ac7e1566200c99dce12d40",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 12 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-05.qa.json"
+    },
+    {
+      "artifact_id": "PED-06",
+      "filename": "CHEMISTRY_4CH1_PED-06_RETRIEVAL_PRACTICE_OPPORTUNITIES.md",
+      "evidence_pack": "evidence/PED-06/evidence_pack.json",
+      "evidence_pack_sha256": "1d08e6e14d9d9539d4b393e97c67422625ff49aa4b366d2b434bf2c32b8a55cb",
+      "artifact_sha256": "656edf08feb476489d42f2f96b5912996e82b302612a68f9674277ed4e0b8f28",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 15 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-06.qa.json"
+    },
+    {
+      "artifact_id": "PED-07",
+      "filename": "CHEMISTRY_4CH1_PED-07_INTERLEAVING_OPPORTUNITIES.md",
+      "evidence_pack": "evidence/PED-07/evidence_pack.json",
+      "evidence_pack_sha256": "f73f4886e2095e2c61506e5da66037ad1716df49811028cc77fff01ea4cd513d",
+      "artifact_sha256": "1d4eaf87c1eccdf50f4ec0e88c3ee166b0bd99181653e39152a5f09b2572428d",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 12 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-07.qa.json"
+    },
+    {
+      "artifact_id": "PED-08",
+      "filename": "CHEMISTRY_4CH1_PED-08_SCAFFOLDING_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-08/evidence_pack.json",
+      "evidence_pack_sha256": "c1e2edd5d5af2ad9cb25997b2fe633c12f007059a371c7a0ee5e75001d263b30",
+      "artifact_sha256": "d3f82587e84613c23aa64b8fa8ed852aafbb6ad859bd2c28f2bb12cc33c26c1a",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 15 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-08.qa.json"
+    },
+    {
+      "artifact_id": "PED-09",
+      "filename": "CHEMISTRY_4CH1_PED-09_DIAGNOSTIC_TEACHING_STRATEGIES.md",
+      "evidence_pack": "evidence/PED-09/evidence_pack.json",
+      "evidence_pack_sha256": "9c287a45de32c92098c0ae99e605dd2bfdb7fdcbf44aafb8f31ae8e972aa05fc",
+      "artifact_sha256": "2c9c96293f95a5614dc9cd590420924bf49050a5810f08f68fb87f1925820fba",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 21 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PED-09.qa.json"
+    },
+    {
+      "artifact_id": "PRA-01",
+      "filename": "CHEMISTRY_4CH1_PRA-01_CORE_PROCEDURES.md",
+      "evidence_pack": "evidence/PRA-01/evidence_pack.json",
+      "evidence_pack_sha256": "5fee5c50a1d2a67e00165dba05803433c20b871ada031fc85446fa6b23fcc854",
+      "artifact_sha256": "f8c33d09801e9e3fa46a75c383a7759e4b0b4267625f3de361113452fb473d60",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 15 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRA-01.qa.json"
+    },
+    {
+      "artifact_id": "PRA-02",
+      "filename": "CHEMISTRY_4CH1_PRA-02_METHOD_TECHNIQUE_PATTERNS.md",
+      "evidence_pack": "evidence/PRA-02/evidence_pack.json",
+      "evidence_pack_sha256": "95710fca0080fa5756bfe16bb640f02111826e9001d5066530aa85ec0e812b5e",
+      "artifact_sha256": "7842545306abac50eb47fcad7a7edd5be40828cfc55cf8767879978cafc0d875",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 15 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRA-02.qa.json"
+    },
+    {
+      "artifact_id": "PRA-03",
+      "filename": "CHEMISTRY_4CH1_PRA-03_PRACTICAL_EXPERIMENTAL_INTELLIGENCE.md",
+      "evidence_pack": "evidence/PRA-03/evidence_pack.json",
+      "evidence_pack_sha256": "d383034060d30a5a131670bbc9fa7954f88dc0645b8a5c10b3dcb3776d06c56f",
+      "artifact_sha256": "8c461a8e69d6bcded3b1ba82952800dd85156596b000b32d6ae6db5e97cef872",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 14 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRA-03.qa.json"
+    },
+    {
+      "artifact_id": "PRA-04",
+      "filename": "CHEMISTRY_4CH1_PRA-04_PROCEDURE_ERRORS_AND_FAILURE_MODES.md",
+      "evidence_pack": "evidence/PRA-04/evidence_pack.json",
+      "evidence_pack_sha256": "4043ed052bde5ce83c4c653e96169bbb9b7da24de558f37f10aec4f3415085e3",
+      "artifact_sha256": "3b4a48086f433513fb03e82d9679d47622c3a8f1a86c9095942a6f6af3e5b8af",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 16 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRA-04.qa.json"
+    },
+    {
+      "artifact_id": "PRA-05",
+      "filename": "CHEMISTRY_4CH1_PRA-05_METHOD_SELECTION_GUIDE.md",
+      "evidence_pack": "evidence/PRA-05/evidence_pack.json",
+      "evidence_pack_sha256": "7ece318339bd02359c17156ca4c37f34ed5deb09f85b303bcff0d5ea92cd006c",
+      "artifact_sha256": "a05281ad2778355389dc7405793d7f607cb3c933c8668544ea146bceaf728090",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 12 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRA-05.qa.json"
+    },
+    {
+      "artifact_id": "PRO-01",
+      "filename": "CHEMISTRY_4CH1_PRO-01_PROBLEM_SOLVING_FRAMEWORKS.md",
+      "evidence_pack": "evidence/PRO-01/evidence_pack.json",
+      "evidence_pack_sha256": "3d610a8fe09a9c3bb537160c89ce2422eb002ff2ad42141d93564291be133df1",
+      "artifact_sha256": "7aacf3e856b7cca5e025ca3061ecfba3d280995744d5386740182fee0024423a",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 11 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRO-01.qa.json"
+    },
+    {
+      "artifact_id": "PRO-02",
+      "filename": "CHEMISTRY_4CH1_PRO-02_PROBLEM_TYPE_TO_METHOD_MAPPING.md",
+      "evidence_pack": "evidence/PRO-02/evidence_pack.json",
+      "evidence_pack_sha256": "30c96660d0898f2bb4b7347d951f96c12bc3189e27a3c25baaa46e94cf18cbe5",
+      "artifact_sha256": "1ba97232fb3e50c3d50eaac641c0b60116950fc4b5a6a3163034f7a4d9e8c48e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 14 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRO-02.qa.json"
+    },
+    {
+      "artifact_id": "PRO-03",
+      "filename": "CHEMISTRY_4CH1_PRO-03_MULTI_STEP_REASONING_PATTERNS.md",
+      "evidence_pack": "evidence/PRO-03/evidence_pack.json",
+      "evidence_pack_sha256": "5e2418d162c01fc84e077dc794fd42263862f5afd19e73aba96d15ff9184ea96",
+      "artifact_sha256": "548536b51a51ed3147f738d78a386d9ffb2ece84058b3a3889542e485e3e4995",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 10 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRO-03.qa.json"
+    },
+    {
+      "artifact_id": "PRO-04",
+      "filename": "CHEMISTRY_4CH1_PRO-04_DECISION_POINTS.md",
+      "evidence_pack": "evidence/PRO-04/evidence_pack.json",
+      "evidence_pack_sha256": "41e8bb78ad7efc21017e2284195018349fc7714f957cfd9d0fb0e29397b7f92f",
+      "artifact_sha256": "d5479dcf0d00e058bf8e8fbf1e59eb20070dcb9a787f8b1dc14cd2a88167a40d",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 12 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRO-04.qa.json"
+    },
+    {
+      "artifact_id": "PRO-05",
+      "filename": "CHEMISTRY_4CH1_PRO-05_DEAD_ENDS_AND_FAILED_APPROACHES.md",
+      "evidence_pack": "evidence/PRO-05/evidence_pack.json",
+      "evidence_pack_sha256": "1c0c7b6b7aa81d1f70fe1b9ffd785aef2281e8501a545514268293b6ad47789f",
+      "artifact_sha256": "6dba9e564e2313fa912cddd6bf7d8ec00437e14e7f776d704e344e348a632f6f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 11 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRO-05.qa.json"
+    },
+    {
+      "artifact_id": "PRO-06",
+      "filename": "CHEMISTRY_4CH1_PRO-06_WORKED_REASONING_PATTERNS.md",
+      "evidence_pack": "evidence/PRO-06/evidence_pack.json",
+      "evidence_pack_sha256": "78793648c68b3fc013605091d5016c0c9b637c9da478b955d5edd48b961914f8",
+      "artifact_sha256": "6e3559c10e4eb95216eae8485f6fd5998a2c0c0810a0692dc06e75c6b459210e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 11 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRO-06.qa.json"
+    },
+    {
+      "artifact_id": "PRO-07",
+      "filename": "CHEMISTRY_4CH1_PRO-07_TRANSFER_PATTERNS.md",
+      "evidence_pack": "evidence/PRO-07/evidence_pack.json",
+      "evidence_pack_sha256": "f9f422012a3469054e744380ea2bbeb9f15dfb5886b49d00a5fba44583c90770",
+      "artifact_sha256": "26188aa787120f8e315439985d6cc682da59ff6b716c2576821e250b172d7e52",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (PED/PRA/PRO primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 + SRC-SPEC-4CH1 + SRC-QPMS-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r3: 10 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and JSONL line locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/PRO-07.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

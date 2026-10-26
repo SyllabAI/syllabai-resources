@@ -1,0 +1,27 @@
+{
+  "artifact_id": "PED-02",
+  "content_sha256": "9fd0392600b313adf469123cf6a21dd050f955ae59d61cfe6a2998478bcbca89",
+  "filename": "CHEMISTRY_4CH1_PED-02_PREREQUISITE_LEARNING_PATHS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "PED-02",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "PED-02"
+  },
+  "sib_protocol": "SIB-1.0"
+}

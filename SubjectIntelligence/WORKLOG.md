@@ -172,3 +172,26 @@ Stage Summary:
 - MS family boundary: all mark-scheme analysis is SIB evidence-grounding on the parsed mark-scheme text of record (SRC-QPMS-4CH1); the canonical mark_points plane was NOT read for writes and NOT written (family law + standing ban respected).
 - SCOPE: SubjectIntelligence/** only (artifacts/ +24, qa-reports/ +24, runs/SIB-CHEMISTRY_4CH1-RUN-005/ full receipts incl. 24 pack specs + packs + census annex + evidence-claim report + run manifest, manifest BL-008 PASS-5 stamp, pipeline/sib_evidence_claim_qa.py r3, WORKLOG). Canonical planes untouched; zero DB writes; zero deploys; credentials used only for push/PR/merge via API transport after all local gates (operator one-shot PAT, never written to any file).
 - Scoreboard: ASM 10/10 + MS 8/8 + EXM 6/6 COMPLETE; 49 artifacts now GENERATED+QA_PASSED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6). Remaining queue: pass 6 PED+PRA+PRO, pass 7 HIS (BLOCKED on legacy 4CH0 sources), pass 8 TUT (Pearson eBook operator decision), pass 9 GAP. Standing: curriculum-registry anchor repair (SIB-ANCH-002/003 class), PAT rotation.
+
+## 2026-10-26 — SIB-CHEMISTRY_4CH1-RUN-006 (BL-008 pass 6: PED+PRA+PRO) — zai_agent lane
+
+Operator order 'order pass 6' (trace 1a17755d4b4c9ce9, zai-web session
+web-1f157e25-0ed7-4f18-8956-3b2a993bc646). Run SIB-CHEMISTRY_4CH1-RUN-006 =
+PED-01..09 + PRA-01..05 + PRO-01..07 (21 artifacts, 135 records) through the
+full SIB-GEN chain: preflight PASS (primaries SRC-TL-4CH1 + SRC-BOOK-4CH1-SB1 +
+SRC-SPEC-4CH1 + SRC-QPMS-4CH1 RESOLVED; 10/17 sources resolved, 7 absent corpora
+disclosed), 21 agent-authored pack specs + packs (every policy-selected source
+planned per artifact — no auto-pulled entries; legacy sources riding the
+SRC-ER-* demotion held to 1-page identity presence, never cited for CURRENT
+claims), authoring from packs alone, validator QA @ 357ace0a 0 errors x21 /
+0 warnings, evidence-claim QA r3 283 citations / 0 violations (in-turn repair
+cycle disclosed: citation-window alignment, cross-pack locator drift,
+combined-parenthetical splitting, ambiguous er.pdf dir-qualification, one pack
+re-spec PRO-03), run manifest validate OK, BL-008 ledger stamped.
+
+Scoreboard: 70 x GENERATED (CUR 8 + MIS 9 + EXP 8 + ASM 10 + MS 8 + EXM 6 +
+PED 9 + PRA 5 + PRO 7). Every REQUIRED artifact of the 95-artifact taxonomy now
+exists. Remaining queue: pass 7 HIS (7 OPTIONAL artifacts; sources RESOLVED
+since GAP-SRC-002/BL-002 2026-10-25), pass 8 TUT (sources PRESENT since SB1 v3 +
+SRC-TL-4CH1; operator eBook upgrade lane optional), pass 9 GAP (final audit,
+runs last by design). Staging/publication remain operator-ordered.

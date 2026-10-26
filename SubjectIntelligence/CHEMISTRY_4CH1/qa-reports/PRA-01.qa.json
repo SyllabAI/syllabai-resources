@@ -1,0 +1,59 @@
+{
+  "artifact_id": "PRA-01",
+  "content_sha256": "f8c33d09801e9e3fa46a75c383a7759e4b0b4267625f3de361113452fb473d60",
+  "filename": "CHEMISTRY_4CH1_PRA-01_CORE_PROCEDURES.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 4
+    },
+    "issues": [
+      {
+        "artifact_id": "PRA-01",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[2.21]",
+        "message": "anchor 2.21 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "PRA-001",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "PRA-01",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[3.9]",
+        "message": "anchor 3.9 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "PRA-001",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "PRA-01",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[1.10]",
+        "message": "anchor 1.10 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "PRA-002",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "PRA-01",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[1.13]",
+        "message": "anchor 1.13 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "PRA-002",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "PRA-01",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "PRA-01"
+  },
+  "sib_protocol": "SIB-1.0"
+}

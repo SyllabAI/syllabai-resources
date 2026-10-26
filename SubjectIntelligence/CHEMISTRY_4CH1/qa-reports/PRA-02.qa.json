@@ -1,0 +1,35 @@
+{
+  "artifact_id": "PRA-02",
+  "content_sha256": "7842545306abac50eb47fcad7a7edd5be40828cfc55cf8767879978cafc0d875",
+  "filename": "CHEMISTRY_4CH1_PRA-02_METHOD_TECHNIQUE_PATTERNS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 1
+    },
+    "issues": [
+      {
+        "artifact_id": "PRA-02",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[1.10]",
+        "message": "anchor 1.10 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "PRA-013",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "PRA-02",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "PRA-02"
+  },
+  "sib_protocol": "SIB-1.0"
+}
