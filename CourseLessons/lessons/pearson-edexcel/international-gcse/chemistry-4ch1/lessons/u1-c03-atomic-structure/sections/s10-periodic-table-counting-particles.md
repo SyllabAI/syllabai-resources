@@ -13,7 +13,7 @@ Everything in this chapter runs on one reference chart. Atoms are arranged
 in the **[[periodic-table]]** in order of **increasing atomic number** —
 that ordering *is* the chapter's payoff: the chart is a particle-counting
 device. (Chapter 4 deals in detail with everything else the Periodic
-Table tells you; the Periodic Table printed in your exam paper carries
+Table tells you; the Periodic Table in your exam paper carries
 the full version.)
 
 Most Periodic Tables show **two numbers** against each symbol, and the

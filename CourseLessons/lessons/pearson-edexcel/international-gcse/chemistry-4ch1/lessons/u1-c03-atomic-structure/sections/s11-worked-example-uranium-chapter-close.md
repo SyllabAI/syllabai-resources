@@ -20,7 +20,7 @@ of uranium.
 - Neutrons = mass number − atomic number = 238 − 92 = **146**.
 
 Same three lines as always — the atom just gets heavier. (For this you
-will need the Periodic Table printed in your exam paper.)
+will need the Periodic Table in your exam paper.)
 
 The chapter-closing skill list is worth self-checking: particle locations
 and charges; counting the particles in a fluorine atom; reading
