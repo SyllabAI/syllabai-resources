@@ -16,7 +16,7 @@
    "crossLaneAligned": 2,
    "flips": 0,
    "oneToMany": 2,
-   "note": "TWO cross-lane joins and zero flips — the MIRROR of lane 15: lane 16 is the ZERO-FRESH-BODY lane of record. Both joins ride of-record pure-1 bodies (r6959 under pure-1-differentiation 1.7.3; r7410 under pure-1-integration 1.8.2) per the lane-6 one-to-many law; the ugm_id-collision audit forbids fresh duplicates and none were manufactured."
+   "note": "TWO cross-lane joins and zero flips — BOTH cross-COURSE by reference (the lane-9 law: servedUnder cie-a-level-maths-20-pure-1; the text of record stays first-of-record under pure-1-differentiation (r6959, 1.7.3) and pure-1-integration (r7410, 1.8.2)). Lane 16 is the ZERO-FRESH-BODY lane of record: the ugm_id-collision audit forbids fresh duplicates and none were manufactured; the psp rows carry the join claims per the lane-9 cross-course shape."
   },
   "stationBreakdown": {
    "calculus-meets-functions": {
@@ -194,7 +194,10 @@
    ],
    "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
    "ofRecordLane": "pure-1-differentiation",
-   "examProvenance": "UCLES AO level Additional Mathematics 1, 1979, Q8"
+   "examProvenance": "UCLES AO level Additional Mathematics 1, 1979, Q8",
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "pure-1-differentiation 1.7.3 (cross-map lane 7)",
+   "primaryPick": "r6959"
   },
   {
    "ugmSlug": "r7410",
@@ -214,7 +217,10 @@
    ],
    "textOfRecordUnder": "UGM-Resources/pure-1-integration",
    "ofRecordLane": "pure-1-integration",
-   "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1969, Q4"
+   "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1969, Q4",
+   "kind": "one_to_many",
+   "priorAlignmentOfRecord": "pure-1-integration 1.8.2 (cross-map lane 8)",
+   "primaryPick": "r7410"
   }
  ],
  "generated_utc": "2026-10-26T09:20:36Z",
@@ -287,32 +293,208 @@
    "officialText": "formulate a simple statement involving a rate of change as a differential equation",
    "spineTitleVerbatim": "formulate a simple statement involving a rate of change as a differential equation",
    "primaryPick": "r6959",
-   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
-   "resources": []
+   "pickDisclosure": "pick rides a cross-lane join row (textOfRecordUnder pure-1) — resourceCount 0 / ugmIds [] by the fresh-only index law (the body stays first-of-record under the pure-1 bundle); the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "examProvenance": "UCLES AO level Additional Mathematics 1, 1979, Q8",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "primaryPick": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation",
+     "priorAlignmentOfRecord": "pure-1-differentiation 1.7.3 (cross-map lane 7)",
+     "flipOfPriorNonOverlap": false
+    },
+    {
+     "ugmSlug": "r7410",
+     "station": "product-rule",
+     "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+     "url": "https://undergroundmathematics.org/product-rule/r7410",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'It is given that dy/dx is inversely proportional to x^2' with 'y and dy/dx are each equal to 1 when x=2' — the student writes dy/dx = c/x^2 (the DE formulated from the proportionality statement, 3.8.1 verbatim — the suggestion scaffolds exactly this step: 'Can you write this mathematically? Can we now replace a with dy/dx'), determines c from dy/dx(2)=1, integrates to the general form y = -4/x + d (3.8.2), and evaluates d from y(2)=1 (the initial condition giving the particular solution, 3.8.3). JOIN: rides its of-record pure-1-integration body (the 1.8.2 constant-of-integration reading of record, cross-map lane 8); the 1.8.2 alignment stands and the part-(ii) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law).",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1969, Q4",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+     "ofRecordLane": "pure-1-integration",
+     "priorAlignmentOfRecord": "pure-1-integration 1.8.2 (cross-map lane 8)",
+     "flipOfPriorNonOverlap": false
+    }
+   ]
   },
   "3.8.2": {
    "officialCode": "3.8.2",
    "officialText": "find by integration a general form of solution for a first order differential equation in which the variables are separable",
    "spineTitleVerbatim": "find by integration a general form of solution for a first order differential equation in which the variables are separable",
    "primaryPick": "r7410",
-   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
-   "resources": []
+   "pickDisclosure": "pick rides a cross-lane join row (textOfRecordUnder pure-1) — resourceCount 0 / ugmIds [] by the fresh-only index law (the body stays first-of-record under the pure-1 bundle); the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "examProvenance": "UCLES AO level Additional Mathematics 1, 1979, Q8",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation",
+     "priorAlignmentOfRecord": "pure-1-differentiation 1.7.3 (cross-map lane 7)",
+     "flipOfPriorNonOverlap": false
+    },
+    {
+     "ugmSlug": "r7410",
+     "station": "product-rule",
+     "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+     "url": "https://undergroundmathematics.org/product-rule/r7410",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'It is given that dy/dx is inversely proportional to x^2' with 'y and dy/dx are each equal to 1 when x=2' — the student writes dy/dx = c/x^2 (the DE formulated from the proportionality statement, 3.8.1 verbatim — the suggestion scaffolds exactly this step: 'Can you write this mathematically? Can we now replace a with dy/dx'), determines c from dy/dx(2)=1, integrates to the general form y = -4/x + d (3.8.2), and evaluates d from y(2)=1 (the initial condition giving the particular solution, 3.8.3). JOIN: rides its of-record pure-1-integration body (the 1.8.2 constant-of-integration reading of record, cross-map lane 8); the 1.8.2 alignment stands and the part-(ii) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law).",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1969, Q4",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3"
+     ],
+     "primaryPick": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+     "ofRecordLane": "pure-1-integration",
+     "priorAlignmentOfRecord": "pure-1-integration 1.8.2 (cross-map lane 8)",
+     "flipOfPriorNonOverlap": false
+    }
+   ]
   },
   "3.8.3": {
    "officialCode": "3.8.3",
    "officialText": "use an initial condition to find a particular solution",
    "spineTitleVerbatim": "use an initial condition to find a particular solution",
    "primaryPick": "r7410",
-   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
-   "resources": []
+   "pickDisclosure": "pick rides a cross-lane join row (textOfRecordUnder pure-1) — resourceCount 0 / ugmIds [] by the fresh-only index law (the body stays first-of-record under the pure-1 bundle); the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "examProvenance": "UCLES AO level Additional Mathematics 1, 1979, Q8",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "primaryPick": false,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation",
+     "priorAlignmentOfRecord": "pure-1-differentiation 1.7.3 (cross-map lane 7)",
+     "flipOfPriorNonOverlap": false
+    },
+    {
+     "ugmSlug": "r7410",
+     "station": "product-rule",
+     "title": "If $dy/dx$ is inversely proportional to $x^2$, can we find $y$?",
+     "url": "https://undergroundmathematics.org/product-rule/r7410",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'It is given that dy/dx is inversely proportional to x^2' with 'y and dy/dx are each equal to 1 when x=2' — the student writes dy/dx = c/x^2 (the DE formulated from the proportionality statement, 3.8.1 verbatim — the suggestion scaffolds exactly this step: 'Can you write this mathematically? Can we now replace a with dy/dx'), determines c from dy/dx(2)=1, integrates to the general form y = -4/x + d (3.8.2), and evaluates d from y(2)=1 (the initial condition giving the particular solution, 3.8.3). JOIN: rides its of-record pure-1-integration body (the 1.8.2 constant-of-integration reading of record, cross-map lane 8); the 1.8.2 alignment stands and the part-(ii) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law).",
+     "examProvenance": "UCLES O level Additional Mathematics 1, QP 471/1, 1969, Q4",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3"
+     ],
+     "primaryPick": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-integration",
+     "ofRecordLane": "pure-1-integration",
+     "priorAlignmentOfRecord": "pure-1-integration 1.8.2 (cross-map lane 8)",
+     "flipOfPriorNonOverlap": false
+    }
+   ]
   },
   "3.8.4": {
    "officialCode": "3.8.4",
    "officialText": "interpret the solution of a differential equation in the context of a problem being modelled by the equation.",
    "spineTitleVerbatim": "interpret the solution of a differential equation in the context of a problem being modelled by the equation.",
    "primaryPick": "r6959",
-   "pickDisclosure": "pick rides a cross-lane join, not a fresh body — the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
-   "resources": []
+   "pickDisclosure": "pick rides a cross-lane join row (textOfRecordUnder pure-1) — resourceCount 0 / ugmIds [] by the fresh-only index law (the body stays first-of-record under the pure-1 bundle); the r6018-style disclosure applies lane-wide (lane 16 is the ZERO-FRESH lane of record)",
+   "resources": [
+    {
+     "ugmSlug": "r6959",
+     "station": "calculus-of-powers",
+     "title": "Can we track this constantly growing patch of fluid?",
+     "url": "https://undergroundmathematics.org/calculus-of-powers/r6959",
+     "resourceType": "Review question",
+     "confidence": "high",
+     "modesRecorded": [
+      1
+     ],
+     "evidence": "Exam-register question: 'a circular patch which grows at a steady rate of 5 cm^2/s' — the solution writes dA/dt = 5 (the DE formulated from the rate statement, 3.8.1 verbatim), integrates to A = 5t 'since A = 0 when t = 0' (general form by integration, 3.8.2, the initial condition selecting the particular solution, 3.8.3), then interprets the model in context: the radius at t=20 via A = pi r^2 and dr/dt at that instant via the chain rule dA/dt = (dA/dr)(dr/dt) — interpretation of the formulated model, 3.8.4. JOIN: rides its of-record pure-1-differentiation body (the 1.7.3 chain-rule reading of record, cross-map lane 7); the 1.7.3 alignment stands and the part-(i) DE pipeline is the 3.8 embodiment (the lane-6 one-to-many law, r7553/r9527 precedent).",
+     "examProvenance": "UCLES AO level Additional Mathematics 1, 1979, Q8",
+     "hasTeacherSupport": false,
+     "codes": [
+      "3.8.1",
+      "3.8.2",
+      "3.8.3",
+      "3.8.4"
+     ],
+     "primaryPick": true,
+     "textOfRecordUnder": "UGM-Resources/pure-1-differentiation",
+     "ofRecordLane": "pure-1-differentiation",
+     "priorAlignmentOfRecord": "pure-1-differentiation 1.7.3 (cross-map lane 7)",
+     "flipOfPriorNonOverlap": false
+    }
+   ]
   }
  },
  "qual": "cie-a-level-maths-2023-2025",
@@ -330,8 +512,8 @@
   "adr": "ADR-UGM-0001 (Accepted 2026-10-22, as amended 2026-10-23): Mode-1 facts of-record-eligible; Mode-2 deep-link rendering dropped (reverted same-day); Mode-3 requires NDA; Mode-4 is design reference only"
  },
  "stationScope": {
-  "note": "Five-station lane of record for the ACCEPTED rows (calculus-of-powers r6959 + product-rule r7410 joins; thinking-about-functions + combining-functions + hyperbolic-functions non-overlap disclosures) — with the 47 rejected candidates carrying their prior of-record rows across the remaining stations. The corpus's own differential-equations station is EMPTY (0 resources, created 2015-11-04, never populated — the fourth uncrawled station alongside complex-numbers-plane/-faces and matrices-linear-transformations, all post-freeze additions); the DE substrate lives distributed in the calculus stations of the 855-resource corpus of record.",
-  "scope": "five-station-plus-rejects",
+  "note": "The FULL 19-station sweep closure of record (the lane-13/15 convention: every station the candidate sweep touched is declared; the accepted rows ride FIVE of them — the two join stations calculus-of-powers r6959 + product-rule r7410 and the three disclosure stations thinking-about-functions, combining-functions, hyperbolic-functions) — with the 47 rejected candidates carrying their prior of-record rows across the remaining stations. The corpus's own differential-equations station is EMPTY (0 resources, created 2015-11-04, never populated — the fourth uncrawled station alongside complex-numbers-plane/-faces and matrices-linear-transformations, all post-freeze additions); the DE substrate lives distributed in the calculus stations of the 855-resource corpus of record.",
+  "scope": "nineteen-station-plus-rejects",
   "stations": [
    {
     "slug": "calculus-meets-functions",
@@ -340,7 +522,9 @@
     "nonOverlap": 0,
     "rejected": 4,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Calculus meets Functions",
+    "url": null
    },
    {
     "slug": "calculus-of-powers",
@@ -349,7 +533,9 @@
     "nonOverlap": 0,
     "rejected": 6,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Calculus of Powers",
+    "url": null
    },
    {
     "slug": "calculus-trig-log",
@@ -358,7 +544,9 @@
     "nonOverlap": 0,
     "rejected": 4,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Calculus of Trigonometry & Logarithms",
+    "url": null
    },
    {
     "slug": "chain-rule",
@@ -367,7 +555,9 @@
     "nonOverlap": 0,
     "rejected": 7,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Chain Rule & Integration by Substitution",
+    "url": null
    },
    {
     "slug": "combining-functions",
@@ -376,7 +566,9 @@
     "nonOverlap": 1,
     "rejected": 0,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Combining Functions",
+    "url": null
    },
    {
     "slug": "counting-and-binomials",
@@ -385,7 +577,9 @@
     "nonOverlap": 0,
     "rejected": 1,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Counting & Binomials",
+    "url": null
    },
    {
     "slug": "divisibility-and-induction",
@@ -394,7 +588,9 @@
     "nonOverlap": 0,
     "rejected": 1,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Divisibility & Induction",
+    "url": null
    },
    {
     "slug": "exp-and-log",
@@ -403,7 +599,9 @@
     "nonOverlap": 0,
     "rejected": 2,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Exponentials & Logarithms",
+    "url": null
    },
    {
     "slug": "hyperbolic-functions",
@@ -412,7 +610,9 @@
     "nonOverlap": 2,
     "rejected": 0,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Hyperbolic Functions",
+    "url": null
    },
    {
     "slug": "introducing-calculus",
@@ -421,7 +621,9 @@
     "nonOverlap": 0,
     "rejected": 3,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Introducing Calculus",
+    "url": null
    },
    {
     "slug": "product-rule",
@@ -430,7 +632,9 @@
     "nonOverlap": 0,
     "rejected": 4,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Product Rule & Integration by Parts",
+    "url": null
    },
    {
     "slug": "quadratics",
@@ -439,7 +643,9 @@
     "nonOverlap": 0,
     "rejected": 1,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Quadratics",
+    "url": null
    },
    {
     "slug": "sequences",
@@ -448,7 +654,9 @@
     "nonOverlap": 0,
     "rejected": 1,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Sequences",
+    "url": null
    },
    {
     "slug": "thinking-about-algebra",
@@ -457,7 +665,9 @@
     "nonOverlap": 0,
     "rejected": 1,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Thinking about Algebra",
+    "url": null
    },
    {
     "slug": "thinking-about-functions",
@@ -466,7 +676,9 @@
     "nonOverlap": 1,
     "rejected": 3,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Thinking about Functions",
+    "url": null
    },
    {
     "slug": "thinking-about-geometry",
@@ -475,7 +687,9 @@
     "nonOverlap": 0,
     "rejected": 3,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Thinking about Geometry",
+    "url": null
    },
    {
     "slug": "thinking-about-numbers",
@@ -484,7 +698,9 @@
     "nonOverlap": 0,
     "rejected": 1,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Thinking about Numbers",
+    "url": null
    },
    {
     "slug": "trigonometry-triangles-to-functions",
@@ -493,7 +709,9 @@
     "nonOverlap": 0,
     "rejected": 1,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Trigonometry: Triangles to Functions",
+    "url": null
    },
    {
     "slug": "vector-geometry",
@@ -502,7 +720,9 @@
     "nonOverlap": 0,
     "rejected": 4,
     "newTextSlugs_count": 0,
-    "newTextSlugs": []
+    "newTextSlugs": [],
+    "title": "Vector Geometry",
+    "url": null
    }
   ]
  },
