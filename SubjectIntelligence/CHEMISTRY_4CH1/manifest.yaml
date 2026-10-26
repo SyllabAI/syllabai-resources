@@ -4,7 +4,7 @@
 # applicability is subject-specific. Row statuses are intentionally left empty: the
 # validator rejects landing artifacts that self-declare past GENERATED, so the
 # authoritative per-artifact state lives in the artifact front matter + qa-reports/
-# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..011;
+# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..012;
 # see coverage_status below and runs/).
 sib_protocol: SIB-1.0
 manifest_version: "1.0"
@@ -17,11 +17,30 @@ curriculum_version: "2017"
 notebook: 4CH1-SIB-NOTEBOOK-001
 source_manifest: source_manifest.yaml
 coverage_status:
-  generated: "95/95 artifacts GENERATED (runs RUN-001..011 of record; per-artifact receipts in runs/ + qa-reports/)"
+  generated: "95/95 artifacts GENERATED (runs RUN-001..012 of record; per-artifact receipts in runs/ + qa-reports/)"
   families: "CUR 8, EXP 8, MIS 9, ASM 10, MS 8, EXM 6, PED 9, PRA 5, PRO 7, HIS 7, TUT 10, GAP 8"
-  disclosed_absent_sources: "SRC-BOOK-4CH1-SB1 text extraction pending (identity-only in packs), SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-SPECLINKS-4CH1, SRC-LESSONS-4CH1, SRC-RAG-PKG-4CH1, SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1 (source_manifest.yaml of record; gaps disclosed, never filled)"
+  grounding_consumed: "SRC-SPEC-4CH1, SRC-QPMS-4CH1, SRC-ER-4CH1, SRC-TL-4CH1,
+    SRC-SAMS-4CH1, SRC-ROOT-BOOK-COPIES-4CH1, SRC-BOOK-4CH1-SB1 (validated v3
+    parse of record, 1,234 chunks, audit GREEN 2026-10-18 — pack excerpts carry
+    its text with line+chunk-id locators; NOT identity-only), SRC-GRAPH-4CH1
+    (internal validated plane; resolved RUN-001..002, pack-frozen excerpts),
+    SRC-SME-NOTES-4CH1 (partial intake; resolved RUN-006..007), SRC-ER-4CH0-LEGACY
+    + SRC-LEGACY-SPEC-4CH0 (HIS family; resolved RUN-006..007) — pack sha256s
+    pinned per run in runs/; source_manifest.yaml is the source plane of record"
+  disclosed_not_consumed: "SRC-SME-EXAMQ-4CH1, SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1,
+    SRC-SPECLINKS-4CH1, SRC-LESSONS-4CH1, SRC-RAG-PKG-4CH1 — never resolved by
+    any SIB run preflight and never consumed by any artifact pack; their corpora
+    are present in-repo (verified origin/main 2026-10-27). The supplementary-notes
+    cluster awaits dedupe/overlap adjudication per source_manifest.yaml; RAG-PKG
+    is re-provisioning insurance; LESSONS is built by the separate CourseLessons
+    lanes. Gaps disclosed, never filled."
+  correction_of_record: "RUN-011's disclosed_absent_sources line was WRONG
+    (SIB-ASSESS-r1 finding D1, repaired RUN-012): SRC-BOOK-4CH1-SB1 text
+    extraction was NOT pending and the packs are NOT identity-only; SRC-GRAPH-4CH1
+    and SRC-SME-NOTES-4CH1 are resolved and pack-cited, not 'never filled'. The
+    6/17 preflight resolution counts are sparse-clone surfaces, not corpus truth."
   publication: "staging/publication remain operator-ordered (validator publication law)"
-  updated: "2026-10-27 (RUN-011, BL-011)"
+  updated: "2026-10-27 (RUN-012, BL-011)"
 artifacts:
   - artifact_id: CUR-01
     applicability: REQUIRED
@@ -530,4 +549,21 @@ backlog:
       SIB-ANCH-002 anchor-registry degradation, reported not repaired),
       evidence-claim QA r4 149 citations / 0 violations, run manifest
       add-artifact x11 + validate OK. Remediation queue: ALL 8 items closed.
+      PASS 12 EXECUTED 2026-10-27 (operator order 'Proceed with RUN-012',
+      channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-012 = SIB-ASSESS-r1
+      disclosure-truth repair (finding D1) + editorial nits (finding D5).
+      manifest.yaml coverage_status rewritten to the verified per-source state:
+      SRC-BOOK-4CH1-SB1's validated v3 parse IS the book evidence path of record
+      (the 'text extraction pending / identity-only' line was wrong), SRC-GRAPH-4CH1
+      and SRC-SME-NOTES-4CH1 are resolved and pack-cited, six classes re-labeled
+      disclosed-not-consumed, correction_of_record block added. Artifacts: TUT-08
+      v1.2 (pseudo-quote repair — the book prints the hydration-route conditions
+      as separate label/value lines, so the joined forms were not quotes; the
+      parse prints the catalyst formula as H3PO while the book's own data tables
+      print H3PO4 — parse-plane defect OBSERVED and DISCLOSED, not repaired, for
+      the books-plane parse lane), PRO-01 v1.1 and EXM-01 v1.1 (editorial
+      repairs). Packs carried byte-identical from origin runs (sha256
+      cross-checked); citation tokens byte-identical pre/post; validator qa
+      @ 357ace0a 0 errors x3 / 0 warnings; citation QA r4 27 citations /
+      0 violations; run manifest add-artifact x3 + validate OK.
       Staging/publication remain operator-ordered."

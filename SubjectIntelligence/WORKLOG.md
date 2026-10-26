@@ -448,8 +448,37 @@ edit).
   SIB-ANCH-002 anchor-registry degradation, reported not repaired; TUT-08 + EXP-06
   0 warnings); qa-reports/ x11 written by the validator of record. Evidence-claim
   QA r4: 149 citations / 0 violations (the carried packs bound into the run dir).
-  census.json annex + run manifest add-artifact x11 + validate OK.
-- LEDGER: manifest.yaml BL-008 description appended with the PASS 11 EXECUTED entry
+  census.json annex + run manifest add-artifact x11 + validate OK.- LEDGER: manifest.yaml BL-008 description appended with the PASS 11 EXECUTED entry
+
+## RUN-012 — SIB-ASSESS-r1 disclosure-truth repair + editorial nits (2026-10-27, BL-011 pass 12)
+
+- Operator order: 'Proceed with RUN-012' (channel zai-web, trace 1a179c02d2750cf9).
+  Scope of record: SIB-ASSESS-r1 finding D1 (manifest.yaml coverage_status
+  materially misdescribed the corpus state) + finding D5 (editorial nits).
+- D1 repair: coverage_status rewritten to the verified per-source state —
+  grounding_consumed (11 classes incl. SRC-BOOK-4CH1-SB1's validated v3 parse,
+  NOT identity-only), disclosed_not_consumed (6 classes, corpora present in-repo,
+  never resolved by any SIB preflight, never pack-consumed), correction_of_record
+  (the RUN-011 line was wrong; 6/17 preflight counts are sparse-clone surfaces).
+- D5 repairs: TUT-08 v1.2 — the hydration-route conditions were presented as
+  quotes but the book prints them as separate label/value lines
+  ('Catalyst:' / 'phosphoric acid (H3PO)'); re-phrased as the paraphrase it is,
+  citation tokens byte-identical. PRO-01 v1.1 — broken Purpose sentence repaired
+  ('decision frameworks. Grounding: ...'). EXM-01 v1.1 — stray space before a
+  colon in the Purpose. Parse-plane observation DISCLOSED, not repaired: chunk
+  990 prints the phosphoric-acid formula as H3PO (book data tables print H3PO4)
+  — books-plane parse lane's to adjudicate.
+- Chain: preflight PASS (families TUT/EXM/PRO; 6/17 sources resolved on the
+  sparse-clone surface, 11 disclosed run-wide), packs carried byte-identical from
+  origin runs (TUT-08 <- RUN-011, EXM-01 <- RUN-005, PRO-01 <- RUN-006; sha256s
+  cross-checked vs origin receipts), stamping x3, validator qa @ 357ace0a
+  0 errors x3 / 0 warnings, citation QA r4 27 citations / 0 violations, census
+  annex + run manifest add-artifact x3 + validate OK.
+- SCOREBOARD: 95/95 artifacts GENERATED — 92 at prior versions-of-record,
+  TUT-08 v1.2, EXM-01 v1.1, PRO-01 v1.1 (RUN-012). Staging/publication remain
+  operator-ordered. SIB-ASSESS-r1 register: D2 anchor-registry repair (133x
+  SIB-ANCH-002) and D4 derived-quantity labeling remain open lanes.
+
   (YAML re-parse verified). REMEDIATION SCOREBOARD: all 8 external-review queue
   items CLOSED (1-2 by RUN-010, 3-8 by RUN-011). 95/95 artifacts GENERATED:
   93 at v1.0/v1.1-of-origin, ASM-10 + MIS-01 v1.1 (RUN-010), MIS-01 v1.2 +
