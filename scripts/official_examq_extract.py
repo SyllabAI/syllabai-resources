@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.22.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.23.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -707,6 +707,21 @@ FURNITURE_SUBS = [
     # F87 (v0.21.1): the abbreviated question-total footer ("Total for Q1 = 5") —
     # the v0.18.0 battery only matched the spelled-out "Question" word order.
     (re.compile(r"\bTotal\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}\b"), " "),
+    # F93 (v0.23.0): the third word order of the same footer — "Total for question
+    # = 15 marks" (number AFTER the equals, "question" spelled out). Found by the
+    # Task 19 deep-audit re-run reconciliation (2022-01 1C Q9 leak into
+    # solution_md tail); the F87 pair covers only the Q<digits> and
+    # "Question <digits> =" orders. Census: 1 staged instance (2022-01 1C MS).
+    (re.compile(r"\bTotal\s+for\s+question\s*=\s*\d{1,3}\s*marks\b", re.I), " "),
+    # F92 (v0.23.0): the tick-glyph mojibake — the printed tick (the F48/F033
+    # mapping family) surfaces in the QP text layer as Latin-1 'ü' inside the
+    # instruction "Add/Place ticks (ü) in/to the table". Scoped to the exact
+    # instruction phrase: a bare 'ü' sub would also rewrite PRINTED table-cell
+    # ticks (2025-11 2C 1(a) carries one in the printed grid, where the glyph is
+    # question content, not mojibake). Census: 3 instruction instances corpus-wide
+    # (2025-06 2C 5(c)(i), 2025-11 2C 1(a), 2026-06 2C 2(d)(i)) + 1 printed-cell
+    # instance deliberately left verbatim.
+    (re.compile(r"(?<=\bticks\s\()ü(?=\))"), "✓"),
 ]
 FURNITURE_LINE = [
     re.compile(r"^\s*PMT\s*$"),                     # archive watermark
@@ -1706,6 +1721,31 @@ TOTAL_ROW_RE = re.compile(r"^Total \d+$")
 NOTES_COL_INDENT = 45   # answer-column content sits left of this in every observed table;
                         # the Notes column (ALLOW/ACCEPT/... + its M1/M2 cross-references)
                         # starts at col ~60+ — never confuse its M-rows for points
+
+
+def _mp_only_fragments(mark_points, part_marks=None):
+    """F97 helper: True when EVERY mark_point text is a margin-note fragment or a
+    bare marks digit — the shapes the MS parser captures when the printed answer
+    is a drawing. Re-emitting those as a solution body would fabricate an answer,
+    so the F97 bare-answer fallback refuses to fire (fail-visible via the G7
+    mp_answer_gap census instead). A bare digit equal to the part's own marks is
+    the marks-column digit leak (2023-06 2CR 7(c)(i): answer cell is a printed
+    drawing, the parser captured the marks digit); any other bare token is a real
+    printed answer (2021-06 1C 2(b)(ii): '25') and must re-emit."""
+    frag = re.compile(
+        r"^(?:If\s+M\d\b|max\s*\d+\s*mark\b|.*\bscores\s+(?:0|both)\b.*|dep\s+on\s+M\d.*"
+        r"|ALLOW\b.*|REJECT\b.*|IGNORE\b.*|ECF\b.*|OWTTE\b.*|_+)$",
+        re.I | re.S)
+    for mp in mark_points:
+        t = (mp.get("text_md") or "").strip()
+        if not t:
+            return True
+        if t.isdigit() and part_marks is not None and int(t) == part_marks:
+            return True
+        if frag.match(t):
+            continue
+        return False
+    return True
 
 
 def build_solution(p, ms_lines, series):
@@ -2882,6 +2922,28 @@ def main():
             # v0.5 solution emission (reveal + Smart Mark): verbatim MS block +
             # awardable points; unlinked parts emit nothing (fields stay None)
             p["solution_md"], p["mark_points"], p["_ms_marks"] = build_solution(p, lines, series)
+            # F97 (v0.23.0): the bare-answer row fallback — some printed MS rows
+            # carry ONLY the answer token (no notes cell), which the row parser
+            # routes to a single mark_point while solution_md stays empty. The
+            # part then serves an empty solution box next to a populated mark
+            # point (Task 19 deep-audit census: 2021-06 1C 2(b)(ii) '25',
+            # 2021-11 2C 1(d) '73'). The fallback re-emits the SAME verbatim
+            # token as the solution body — no authoring, no paraphrase — and
+            # discloses the re-emission through edits[] (G2-D). Refuses to fire
+            # when the MS text is only a margin-note fragment or a bare marks
+            # digit (the 2023-06 2CR 7(c)(i) class: the real answer is a printed
+            # drawing; re-emitting the marks digit would fabricate an answer).
+            if not (p["solution_md"] or "").strip() and (p.get("marks") or 0) > 0 \
+                    and p["mark_points"] and all((mp.get("text_md") or "").strip() for mp in p["mark_points"]) \
+                    and not _mp_only_fragments(p["mark_points"], p.get("marks")):
+                _fb = "\n".join(mp["text_md"].strip() for mp in p["mark_points"])
+                p["solution_md"] = _fb
+                p.setdefault("edits", []).append({
+                    "field": "solution_md", "kind": "structural-repair",
+                    "tool": f"official_examq_extract.py v{CONVERTER_VERSION} (F97 bare-answer fallback)",
+                    "evidence_ref": "Task 19 deep-audit da-sweep (empty-solution census); verbatim re-emission of the part's own mark_points text",
+                })
+                p["edit_status"] = "corrected"
             if cfg.get("ms_layout") == "vertical":
                 # v0.17.0: the vertical layout carries the marks digit on its own
                 # line — build_solution's tail-scan cannot see it; the vertical
@@ -2894,7 +2956,13 @@ def main():
     # F48: same mapping both sides. v0.18.0 (F70): the BEL strip mirrors
     # clean_lines so the fixed problem_md probes keep matching the page index
     # exactly as the BEL-bearing probes did (same pages anchor, same results).
-    page_norm = [norm(normalize_pua(pg.get_text()).replace("\x07", "")) for pg in pdf]
+    # F92 mirror law: the ü→✓ tick sub transforms problem_md, so the anchoring
+    # probes must see the SAME transform on the page side or the subbed parts
+    # lose their page anchor (found live: 2025-06 2C 5(c)(i) and 2025-11 2C 1(a)
+    # both dropped to source_page None + crop-required downgrade before this
+    # mirror). Same pattern as the F70 BEL-strip mirror.
+    _tick_sub = re.compile(r"(?<=\bticks\s\()ü(?=\))")
+    page_norm = [norm(_tick_sub.sub("✓", normalize_pua(pg.get_text())).replace("\x07", "")) for pg in pdf]
     # v0.10 (F41): OCR-covered pages contribute their prepared text to the
     # page-normalized index, so mentions on recovered pages anchor with real
     # page attribution.
@@ -4074,21 +4142,58 @@ def main():
         if not any(c.get("is_correct") for c in p["choices"]):
             g3_issues.append({"part": p["part_number"], "issue": "no keyed correct choice"})
             report["review_queue"].append({"part": p["part_number"], "reason": "MCQ key unresolved from MS"})
+    # F94 (v0.23.0) — the drawing-option MCQ-candidate census: 'Which structure /
+    # diagram / drawing ...?' problems that name a bare A-D option run but carry
+    # NO choices[] (the options are printed drawings the text layer linearizes).
+    # The v0.22.0 gate reported '0 MCQ parts' for 2026-06 2C while Q1(b) is one —
+    # a vacuous pass this census makes visible. Report-only (these parts are
+    # honestly structured; the option drawings are a crop-wave item).
+    _which_re = re.compile(r"\bwhich\s+(?:structure|diagram|drawing|row|particle|equation)\b", re.I)
+    _opt_run_re = re.compile(r"(?:^|\s)A\s{1,3}[BCD]\s{1,3}(?:C|B|D)?\b")
+    mcq_candidates = [p["part_number"] for q in doc_questions for p in q["parts"]
+                      if p["question_type"] != "multiple_choice"
+                      and (_which_re.search(p["problem_md"]) or _opt_run_re.search(p["problem_md"]))]
+    for pn in mcq_candidates:
+        report["review_queue"].append({"part": pn,
+                                       "reason": "drawing-option MCQ candidate (options linearized in problem_md, no choices[])"})
     gate("G3-mcq-integrity", not g3_issues,
-         f"{len(mcq)} MCQ parts; all have printed A–D and MS-keyed answer: {not g3_issues}",
-         {"issues": g3_issues})
+         f"{len(mcq)} MCQ parts; all have printed A–D and MS-keyed answer: {not g3_issues}; "
+         f"{len(mcq_candidates)} drawing-option MCQ candidates (census, F94)",
+         {"issues": g3_issues, "drawing_option_mcq_candidates": mcq_candidates})
 
     # G4 figure resolution
     dangling = [{"part": p["part_number"]} for q in doc_questions for p in q["parts"]
                 if figure_mentions(p["problem_md"]) and not p["assets"]]
+    # F96 (v0.23.0) — the drawing-linearization census: problem text carrying the
+    # linearized remains of a printed drawing (≥4 single-letter atom tokens in a
+    # run / bond-fragment letter triples) with NO figure asset. The v0.22.0 gate
+    # counted only table/diagram/grid/apparatus MENTION nouns, so 2026-06 2C
+    # Q1(b)/(c)(ii)/(c)(iii) passed G4 while serving 'H H H H H H A C C C B C C C
+    # ...' garbage. Report-only + review-queue entries; the content fix is a
+    # crop+strip wave per part (the 2C tranche ships with this release).
+    _atom_run_re = re.compile(r"(?:\b[CHONSPKl-]\b[ ,]*){4,}")
+    _bond_frag_re = re.compile(r"\b[CON]\s+[CON]\s+[CON]\b")
+    drawing_gaps = []
+    for q in doc_questions:
+        for p in q["parts"]:
+            if p.get("assets"):
+                continue
+            pm = p["problem_md"]
+            if _atom_run_re.search(pm) or _bond_frag_re.search(pm):
+                drawing_gaps.append({"part": p["part_number"],
+                                     "probe": (_atom_run_re.search(pm) or _bond_frag_re.search(pm)).group(0)[:40]})
+                report["review_queue"].append({"part": p["part_number"],
+                                               "reason": "drawing-linearization in problem_md without figure asset (F96)"})
     n_assets = sum(len(p["assets"]) for q in doc_questions for p in q["parts"])
     n_unanchored = sum(1 for q in doc_questions for p in q["parts"] if p["source_page"] is None)
     gate("G4-figure-resolution", not dangling,
          f"{n_assets} asset records cover every table/diagram/grid/apparatus mention: "
          f"{crop_stats['crops']} cropped to assets/*.png ({CROP_DPI} dpi), "
          f"{crop_stats['pending']} remain crop-required; "
-         f"{n_unanchored} parts without page anchor",
-         {"dangling": dangling, "pages_unanchored": n_unanchored, "crop_stats": crop_stats})
+         f"{n_unanchored} parts without page anchor; "
+         f"{len(drawing_gaps)} drawing-linearization gaps (census, F96)",
+         {"dangling": dangling, "pages_unanchored": n_unanchored, "crop_stats": crop_stats,
+          "drawing_gaps": drawing_gaps})
     for q in doc_questions:
         for p in q["parts"]:
             for a in p.get("assets") or []:
@@ -4147,13 +4252,31 @@ def main():
                    for p in parts_all
                    if p.get("_ms_marks") is not None and p.get("marks") is not None
                    and p["_ms_marks"] != p["marks"]]
+    # F95 (v0.23.0) — the mark-point answer-gap census: parts whose EVERY
+    # mark_point text is a margin-note fragment or a marks-digit leak — the
+    # MS-answer-is-a-drawing class the sum law cannot see (G7 passed 2026-06
+    # 2C 5(a) while its served MPs were 'If M1 and M2 not fully' / 'max 1
+    # mark': two fragments of one margin note, the two printed formulae
+    # absent). Report-only + review-queue entries; the fix is an MS-side crop
+    # (converter MS-crop support = the filed follow-up wave).
+    mp_gap = []
+    for p in parts_all:
+        mp = p.get("mark_points") or []
+        if not mp or not (p.get("marks") or 0) > 0:
+            continue
+        if _mp_only_fragments(mp, p.get("marks")):
+            mp_gap.append({"part": p["part_number"],
+                           "mp_texts": [ (m.get("text_md") or "")[:40] for m in mp ]})
+            report["review_queue"].append({"part": p["part_number"],
+                                           "reason": "mark-point answer gap: MPs are margin-note fragments / marks digit (MS answer is a printed drawing)"})
     gate("G7-solution-emission", not no_sol and not sum_bad,
          f"solution_md on {len(sol_parts) - len(no_sol)}/{len(sol_parts)} linked parts; "
          f"mark_points sum == part marks everywhere: {not sum_bad}; "
-         f"MS marks-column digit read for {ms_seen} parts, agrees with QP marks on {ms_agree}",
+         f"MS marks-column digit read for {ms_seen} parts, agrees with QP marks on {ms_agree}; "
+         f"{len(mp_gap)} mark-point answer gaps (census, F95)",
          {"missing_solution": no_sol, "sum_mismatches": sum_bad,
           "ms_marks_seen": ms_seen, "ms_marks_agree": ms_agree,
-          "ms_marks_disagree": ms_disagree})
+          "ms_marks_disagree": ms_disagree, "mp_answer_gap": mp_gap})
 
     # ---- assemble document (before popping internal fields) ------------------
     topic = {

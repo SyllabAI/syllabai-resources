@@ -590,6 +590,7 @@ for c in cans:
                 r"|QUESTION\s*\d{0,2}\s*CONTINUES\s+ON\s+(?:THE\s+)?(?:NEXT|BACK)(?:\s*/\s*(?:NEXT|BACK))?\s+PAGE\.?"
                 r"|^\s*Total\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}\s*(?:marks?)?\s*$"
                 r"|^\s*Total\s+for\s+question\s+\d{1,2}\s*=\s*\d{1,3}\s*(?:marks?)?\s*$"
+                r"|^\s*Total\s+for\s+question\s*=\s*\d{1,3}\s*marks?\s*$"
                 r"|^\s*Question\s+(?:Number\s+)?Answer(?:\s+Notes)?(?:\s+Marks?)?\s*$"
                 r"|^\s*number\s+Answer\s+Notes\s+Marks\s*$"
                 r"|^\s*Total\s*$",
@@ -646,6 +647,106 @@ for c in cans:
                         elif isinstance(o, list):
                             stack.extend(o)
             print(f"  (strings scanned for flat exponents: {n})")
+
+        elif chk == "tick_glyph_canonical":
+            # C96 (v0.23.0/F92): the printed tick never serves as the Latin-1
+            # mojibake 'ü' inside the ticks-instruction phrase; the canonical
+            # form is 'ticks (✓)'. Scoped to the instruction phrase — a printed
+            # table-cell tick (2025-11 2C 1(a) grid) is question content and
+            # stays verbatim.
+            import re as _re3
+            _moji = _re3.compile(r"ticks\s*\(\s*ü\s*\)")
+            ok = True
+            n = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            n += 1
+                            m = _moji.search(p.get("problem_md") or "")
+                            if m:
+                                ok = False
+                                print(f"  ! {d.name}/{pd.name} {p['part_number']}: mojibake tick {m.group(0)!r}")
+            print(f"  (problem_md blocks scanned for the mojibake tick: {n})")
+
+        elif chk == "no_empty_solution_with_answer":
+            # C97 (v0.23.0/F97): a linked part carrying marks and a real (non-
+            # fragment) mark_point must emit a solution_md — the F97 bare-answer
+            # fallback re-emits the verbatim MP text. The ONLY honest empty state
+            # is the MS-answer-is-a-drawing class whose MPs are margin-note
+            # fragments / the marks-digit leak (same predicate as the converter's
+            # _mp_only_fragments); those parts are fail-visible via the G7
+            # mp_answer_gap census + review queue.
+            import re as _re4
+            _frag = _re4.compile(
+                r"^(?:If\s+M\d\b|max\s*\d+\s*mark\b|.*\bscores\s+(?:0|both)\b.*|dep\s+on\s+M\d.*"
+                r"|ALLOW\b.*|REJECT\b.*|IGNORE\b.*|ECF\b.*|OWTTE\b.*|_+)$",
+                _re4.I | _re4.S)
+            def _only_fragments(mp, marks):
+                for m in mp:
+                    t = (m.get("text_md") or "").strip()
+                    if not t:
+                        return True
+                    if t.isdigit() and marks is not None and int(t) == marks:
+                        return True
+                    if _frag.match(t):
+                        continue
+                    return False
+                return True
+            ok = True
+            n = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            n += 1
+                            if p.get("answer_status") != "linked" or not (p.get("marks") or 0) > 0:
+                                continue
+                            if (p.get("solution_md") or "").strip():
+                                continue
+                            mp = p.get("mark_points") or []
+                            if not mp or _only_fragments(mp, p.get("marks")):
+                                continue
+                            ok = False
+                            print(f"  ! {d.name}/{pd.name} {p['part_number']}: linked, marks={p['marks']}, "
+                                  f"real mark_point text, but empty solution_md")
+            print(f"  (linked parts scanned for the empty-solution law: {n})")
+
+        elif chk == "drawing_linearization_census":
+            # C98 (v0.23.0/F96): the drawing-linearization open census is a PINNED
+            # number, not a zero — the unfixed parts are the disclosed crop-wave
+            # queue (scripts/exporter-disclosures/2026-10-27-task19-deep-audit.json,
+            # 'drawing_linearization_open'). If the count moves, the wave that
+            # moved it must update the disclosure AND this pin in the same commit.
+            import re as _re5
+            _atom = _re5.compile(r"(?:\b[CHONSPKl-]\b[ ,]*){4,}")
+            _bond = _re5.compile(r"\b[CON]\s+[CON]\s+[CON]\b")
+            PINNED = 15
+            found = []
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            if p.get("assets"):
+                                continue
+                            pm = p.get("problem_md") or ""
+                            if _atom.search(pm) or _bond.search(pm):
+                                found.append(f"{d.name}/{pd.name}:{p['part_number']}")
+            ok = len(found) == PINNED
+            if not ok:
+                print(f"  ! drawing-linearization open census {len(found)} != pinned {PINNED}")
+                for x in found:
+                    print(f"    - {x}")
+            print(f"  (drawing-linearization open parts: {len(found)} == pinned {PINNED})")
 
         elif chk == "no_orphan_assets":
             # C79 (v0.18.0/F71): every PNG under any slice's assets/ is

@@ -118,7 +118,7 @@
      "problem_md": "State the relative atomic mass of the element that is in Group 4 and Period 4",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "",
+     "solution_md": "73",
      "mark_points": [
       {
        "id": "2021-11-1-d-MP1",
@@ -132,12 +132,20 @@
       "4CH1-1.16"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
       "numbers": "source-printed"
-     }
+     },
+     "edits": [
+      {
+       "field": "solution_md",
+       "kind": "structural-repair",
+       "tool": "official_examq_extract.py v0.23.0 (F97 bare-answer fallback, surgical application)",
+       "evidence_ref": "Task 19 deep audit: the MS row prints only the answer token 73 (germanium, Group 4 Period 4); verbatim re-emission of the part's own mark_point text."
+      }
+     ]
     },
     {
      "part_number": "1(e)",

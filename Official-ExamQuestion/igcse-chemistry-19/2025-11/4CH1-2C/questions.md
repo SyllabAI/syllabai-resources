@@ -8,7 +8,7 @@ The diagram shows some pieces of apparatus that can be used for different proces
 
 ### 1(a) [5]
 
-Complete the table by placing ticks (ü) in each column to show if a piece of apparatus can be used for a process. One tick has been done for you. Each piece of apparatus can be used for one process, more than one process, or not at all. Process Letter measures different evaporates solvent to titration volumes produce crystals P Q ü R S T U
+Complete the table by placing ticks (✓) in each column to show if a piece of apparatus can be used for a process. One tick has been done for you. Each piece of apparatus can be used for one process, more than one process, or not at all. Process Letter measures different evaporates solvent to titration volumes produce crystals P Q ü R S T U
 
 ![table — official paper figure (qp.pdf p.4)](assets/asset_1_a_table.png)
 

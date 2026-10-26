@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-examq.text-repairs/0.1",
  "generated_utc": "2026-10-26T00:00:00Z",
- "law": "per-line render-adjudicated repairs for the broken-symbol-font text layers of the maths-B corpus. Key (file, 1-based line ordinal) guarded by sha1-12 of the exact raw line, fail-closed at apply time. repaired null = blank the line (structural absorption). Evidence: wave receipts evidence-r2/ page renders; SME twin UIUX-TIER-B-RUN-004 for the 2019-06/02 MS; trace 1a177a00bc816e05. G4 (U+FFFC strip) is a converter law, not a line rule.",
+ "law": "per-line render-adjudicated repairs for the broken-symbol-font text layers of the maths-B corpus. Key (file, 1-based line ordinal) guarded by sha1-12 of the exact raw line, fail-closed at apply time. repaired null = blank the line (structural absorption). Evidence: wave receipts evidence-r2/ page renders; SME twin UIUX-TIER-B-RUN-004 for the 2019-06/02 MS; trace 1a177a00bc816e05. G4 (U+FFFC strip) is a converter law, not a line rule. v0.23.0 adds the chemistry tranche (official-2026-06-2C-qp.txt, 19 lines): drawing-linearization remains blanked where the eyeballed crop asset serves the printed figure (F98, Task 19 deep audit; user-reported 2026-06 2C); same sha1 fail-closed law.",
  "rules_by_file": {
   "official-2018-06-01-qp.txt": {
    "342": {
@@ -1292,6 +1292,134 @@
     "sha1_12": "29ae32822a93",
     "raw": " \u001f2 ",
     "repaired": null
+   }
+  },
+  "official-2026-06-2C-qp.txt": {
+   "116": {
+    "sha1_12": "004943529586",
+    "raw": "H H H H H H",
+    "repaired": null,
+    "why": "1(b) structures row: H H H H H H",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "117": {
+    "sha1_12": "d91a91eb2838",
+    "raw": "A C C C B C C C",
+    "repaired": null,
+    "why": "1(b) structures row: A C C C B C C C",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "118": {
+    "sha1_12": "ff0b50fa0a0a",
+    "raw": "H H H H",
+    "repaired": null,
+    "why": "1(b) structures row: H H H H",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "122": {
+    "sha1_12": "8b6233e6f73f",
+    "raw": "H CH3 H",
+    "repaired": null,
+    "why": "1(b) structures row: H CH3 H",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "123": {
+    "sha1_12": "e3cb3641af9d",
+    "raw": "C C C D C C",
+    "repaired": null,
+    "why": "1(b) structures row: C C C D C C",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "124": {
+    "sha1_12": "94f1630d743f",
+    "raw": "H H CH3",
+    "repaired": null,
+    "why": "1(b) structures row: H H CH3",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "134": {
+    "sha1_12": "39217cbcdf3f",
+    "raw": "H H",
+    "repaired": null,
+    "why": "1(c) displayed formula: H H",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "141": {
+    "sha1_12": "1fbbf34a6efa",
+    "raw": "O O",
+    "repaired": null,
+    "why": "1(c) displayed formula: O O",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "142": {
+    "sha1_12": "1b940b457b6c",
+    "raw": "C C C C",
+    "repaired": null,
+    "why": "1(c) displayed formula: C C C C",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "143": {
+    "sha1_12": "74cd0f183915",
+    "raw": "H O O H",
+    "repaired": null,
+    "why": "1(c) displayed formula: H O O H",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "144": {
+    "sha1_12": "39217cbcdf3f",
+    "raw": "H H",
+    "repaired": null,
+    "why": "1(c) displayed formula: H H",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "156": {
+    "sha1_12": "09e5fa04a759",
+    "raw": "O H H O O H H O",
+    "repaired": null,
+    "why": "1(c)(ii) equation: O H H O O H H O",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "157": {
+    "sha1_12": "2092b8852cbd",
+    "raw": "C C C C + C C C C +",
+    "repaired": null,
+    "why": "1(c)(ii) equation: C C C C + C C C C +",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "158": {
+    "sha1_12": "207ee2538f34",
+    "raw": "– –",
+    "repaired": null,
+    "why": "1(c)(ii) equation: - -",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "159": {
+    "sha1_12": "70903ec801e4",
+    "raw": "HO OH ................... . . . . . . . . . . . . . . . . . ",
+    "repaired": null,
+    "why": "1(c)(ii) equation: HO OH + answer-line dots + O O",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "160": {
+    "sha1_12": "bd4b091375ac",
+    "raw": "H H Na+ H H Na+",
+    "repaired": null,
+    "why": "1(c)(ii) equation: H H Na+ H H Na+",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "166": {
+    "sha1_12": "c995c726fa53",
+    "raw": "O O",
+    "repaired": null,
+    "why": "1(c)(iii) polyester: O O",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
+   },
+   "168": {
+    "sha1_12": "6ba31b6045a5",
+    "raw": "O CH2 CH2 CH2 CH2 O C CH2 CH2 C",
+    "repaired": null,
+    "why": "1(c)(iii) polyester: O CH2 CH2 CH2 CH2 O C CH2 CH2 C",
+    "evidence": "Task 19 deep-audit previews (150 dpi page-4/page-5 renders); the eyeballed crop asset serves the printed figure (asset_1_b_structures / asset_1_c_displayed-formula / asset_1_c_ii_equation / asset_1_c_iii_polyester)"
    }
   }
  }

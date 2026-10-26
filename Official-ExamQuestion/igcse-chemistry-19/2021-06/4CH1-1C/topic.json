@@ -214,7 +214,7 @@
      "problem_md": "Give the mass number of Z.",
      "choices": [],
      "answer_status": "linked",
-     "solution_md": "",
+     "solution_md": "25",
      "mark_points": [
       {
        "id": "2021-06-2-b-ii-MP1",
@@ -228,12 +228,20 @@
       "4CH1-1.16"
      ],
      "tagging": "llm-spec-wave",
-     "edit_status": "extracted",
+     "edit_status": "corrected",
      "value_trace": {
       "keys": "n/a",
       "marks": "ms-printed",
       "numbers": "source-printed"
-     }
+     },
+     "edits": [
+      {
+       "field": "solution_md",
+       "kind": "structural-repair",
+       "tool": "official_examq_extract.py v0.23.0 (F97 bare-answer fallback, surgical application)",
+       "evidence_ref": "Task 19 deep audit: the MS row prints only the answer token 25; the converter routed it to the mark_point and left solution_md empty. Verbatim re-emission of the part's own mark_point text — no authoring."
+      }
+     ]
     },
     {
      "part_number": "2(b)(iii)",

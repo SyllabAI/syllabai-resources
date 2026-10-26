@@ -60,30 +60,36 @@ def repair_source_text(text: str, path, lane: str):
     rules = []
     applied = 0
     lines = None
-    if lane == "igcse-maths-b-16":
-        fname = Path(path).name
-        file_rules = _table()["rules_by_file"].get(fname) or {}
-        if file_rules:
-            lines = raw.splitlines()
-            # ordinals are 1-based over splitlines() of the exact staged file
-            for ord_str, rule in sorted(file_rules.items(), key=lambda kv: int(kv[0])):
-                ordinal = int(ord_str)
-                if ordinal < 1 or ordinal > len(lines):
-                    raise SystemExit(
-                        f"text-repairs FAIL-CLOSED: {fname}:{ordinal} out of range "
-                        f"(file has {len(lines)} lines) — staged layer drifted?")
-                cur = lines[ordinal - 1]
-                digest = hashlib.sha1(cur.encode("utf-8")).hexdigest()[:12]
-                if digest != rule["sha1_12"]:
-                    raise SystemExit(
-                        f"text-repairs FAIL-CLOSED: {fname}:{ordinal} sha1 guard "
-                        f"mismatch (table {rule['sha1_12']} != staged {digest}) — "
-                        "the staged extraction layer is not the layer of record "
-                        "the evidence pack adjudicated. Re-stage or re-adjudicate.")
-                lines[ordinal - 1] = "" if rule["repaired"] is None else rule["repaired"]
-                applied += 1
-                rules.append({"line": ordinal, "sha1_12": rule["sha1_12"]})
-            raw = "\n".join(lines)
+    # v0.23.0 (F98): lane-gate generalized to FILE-scoped application. The
+    # v0.22.0 gate (`lane == "igcse-maths-b-16"`) hard-coded the hygiene wave's
+    # lane; the Task 19 deep-audit wave adds chemistry rules for the 2026-06 2C
+    # drawing-linearization tranche, and the rule keys ARE exact staged file
+    # names — a lane can never see another lane's rules. The gate now simply
+    # checks whether the staged file has rules; behavior for maths-B files is
+    # byte-identical to v0.22.0 by construction.
+    fname = Path(path).name
+    file_rules = _table()["rules_by_file"].get(fname) or {}
+    if file_rules:
+        lines = raw.splitlines()
+        # ordinals are 1-based over splitlines() of the exact staged file
+        for ord_str, rule in sorted(file_rules.items(), key=lambda kv: int(kv[0])):
+            ordinal = int(ord_str)
+            if ordinal < 1 or ordinal > len(lines):
+                raise SystemExit(
+                    f"text-repairs FAIL-CLOSED: {fname}:{ordinal} out of range "
+                    f"(file has {len(lines)} lines) — staged layer drifted?")
+            cur = lines[ordinal - 1]
+            digest = hashlib.sha1(cur.encode("utf-8")).hexdigest()[:12]
+            if digest != rule["sha1_12"]:
+                raise SystemExit(
+                    f"text-repairs FAIL-CLOSED: {fname}:{ordinal} sha1 guard "
+                    f"mismatch (table {rule['sha1_12']} != staged {digest}) — "
+                    "the staged extraction layer is not the layer of record "
+                    "the evidence pack adjudicated. Re-stage or re-adjudicate.")
+            lines[ordinal - 1] = "" if rule["repaired"] is None else rule["repaired"]
+            applied += 1
+            rules.append({"line": ordinal, "sha1_12": rule["sha1_12"]})
+        raw = "\n".join(lines)
     # G4: U+FFFC object placeholders never carry printed content
     fffc = raw.count("\ufffc")
     if fffc:
