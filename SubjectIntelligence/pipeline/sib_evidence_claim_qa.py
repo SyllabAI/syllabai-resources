@@ -2,6 +2,14 @@
 """SIB evidence-claim QA — every citation must resolve to the artifact's own evidence
 pack (r3, BL-008 pass 5).
 
+r4 (BL-008 pass 7, HIS wave — case-insensitive file-extension + pack-path matching):
+  * CASE LAW FIX: the Issue-5 legacy spec file (INT_GCSE_CHEM_SPECSAMS_ISS5_comb.PDF)
+    carries an uppercase .PDF extension; the r3 parser matched extensions
+    case-sensitively, so a file physically present in the pack could NEVER be cited
+    (fail-closed dead end — the same class the r2→r3 md-range fix retired). r4 parses
+    the citation extension and matches pack-path suffixes case-insensitively. Locator
+    membership and per-record quote binding are unchanged and remain strict.
+
 r3 (BL-008 pass 5, ASM/MS/EXM wave — md-range locator grammar):
   * MD RANGE LOCATORS: the pack's markdown excerpts carry range locators
     `lines N-M` (evidence_pack.py _md_locate), but r2 only indexed JSONL `line N `
@@ -105,13 +113,14 @@ def check_artifact(aid: str, text: str, pack: dict, census: dict) -> dict:
         payload = re.sub(r"\s+", " ", payload).strip()
         if _norm(payload) == "identity":
             return "identity", None
-        pm = re.match(r"(.+?\.(?:pdf|md|yaml|yml|jsonl|json|txt))\s*(.*)", payload)
+        pm = re.match(r"(.+?\.(?:pdf|md|yaml|yml|jsonl|json|txt))\s*(.*)", payload, re.I)
         if not pm:
             violations.append(f"{aid}: citation unparseable (fail-closed): ({target}, {payload})")
             return None, None
         path_part, page_spec = pm.group(1).strip(), pm.group(2).strip()
         files = pack_files.get(target, {})
-        matched = {p: locs for p, locs in files.items() if p.endswith(path_part) or path_part.endswith(p)}
+        matched = {p: locs for p, locs in files.items()
+                   if p.lower().endswith(path_part.lower()) or path_part.lower().endswith(p.lower())}
         if not matched:
             violations.append(f"{aid}: cited path not in pack: {target}, {path_part}")
             return None, None

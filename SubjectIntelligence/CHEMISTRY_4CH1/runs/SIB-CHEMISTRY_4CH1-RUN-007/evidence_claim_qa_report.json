@@ -1,0 +1,53 @@
+{
+  "schema": "sib-evidence-claim-qa/1.3",
+  "script": "SubjectIntelligence/pipeline/sib_evidence_claim_qa.py r3",
+  "law": "every (SRC-*, locator) resolves to the artifact's own pack; every (census.json, path) resolves to the run census annex; quoted fragments bind to the cited excerpts (r1); page, JSONL-line, and markdown-range locators verified against pack excerpts (r3); unparseable citations fail closed",
+  "artifacts": [
+    {
+      "artifact_id": "HIS-01",
+      "citations_checked": 9,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "HIS-02",
+      "citations_checked": 14,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "HIS-03",
+      "citations_checked": 12,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "HIS-04",
+      "citations_checked": 15,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "HIS-05",
+      "citations_checked": 8,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "HIS-06",
+      "citations_checked": 16,
+      "violations": [],
+      "violation_count": 0
+    },
+    {
+      "artifact_id": "HIS-07",
+      "citations_checked": 15,
+      "violations": [],
+      "violation_count": 0
+    }
+  ],
+  "totals": {
+    "citations_checked": 89,
+    "violations": 0
+  }
+}

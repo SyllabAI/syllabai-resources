@@ -1,0 +1,27 @@
+{
+  "artifact_id": "HIS-04",
+  "content_sha256": "d344056fa15ce8ea6a12130606c02de293d0f519735c9dddd54c73b1102846e5",
+  "filename": "CHEMISTRY_4CH1_HIS-04_TERMINOLOGY_EVOLUTION.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "HIS-04",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "HIS-04"
+  },
+  "sib_protocol": "SIB-1.0"
+}

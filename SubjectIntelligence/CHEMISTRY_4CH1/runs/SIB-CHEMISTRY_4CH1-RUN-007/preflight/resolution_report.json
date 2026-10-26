@@ -1,0 +1,1258 @@
+{
+  "schema": "sib-resolution-report/1.0",
+  "library": "CHEMISTRY_4CH1",
+  "source_manifest_version": "1.2.3",
+  "repo_roots": {
+    "syllabai-resources": "/home/z/my-project/work/sib-explain/repo",
+    "syllabai-pastpapers": "/home/z/my-project/work/sib-explain/pastpapers"
+  },
+  "sources": [
+    {
+      "id": "SRC-SPEC-4CH1",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362",
+          "sha1_content": "3ad641b7c60b314fa3b10680feda30bf56280a53",
+          "sha1_blob": "133e5f50edcaccb26aabd807ed3ff22bb0c2fb45",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@Official-Specifications/igcse-chemistry/spec.json (parse provenance record)",
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/spec.json",
+          "status": "RESOLVED_FILE",
+          "sha256": "e81cd39a0ce679b56d689b64bea57c16b606d4caee51e08bafa8cb37096716a1",
+          "sha1_content": "d6e8500ee87409e0a461ed0885ba883cd807b738",
+          "sha1_blob": "c4dd351f56ca336b93b1c51f07d33991311dc122",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@international-gcse-chemistry-2017-specification.pdf (root intake copy, same artifact)",
+          "repo": "syllabai-resources",
+          "path": "international-gcse-chemistry-2017-specification.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "36e2080d2e99f060bcc18f2a9d0bbd8b29498b45e007fa232e3befcd89b73362",
+          "sha1_content": "3ad641b7c60b314fa3b10680feda30bf56280a53",
+          "sha1_blob": "133e5f50edcaccb26aabd807ed3ff22bb0c2fb45",
+          "role": "alternate"
+        },
+        {
+          "raw": "syllabai-resources@international-gcse-chemistry-2017-specification.pdf (root intake copy, same artifact)",
+          "status": "RESOLVED_ALT",
+          "role": "alternate",
+          "note": "pointer/alternate locator resolved"
+        }
+      ],
+      "digest_verification": {
+        "declared": [
+          "sha1:3ad641b7c60b314fa3b10680feda30bf56280a53"
+        ],
+        "matched": [
+          "sha1:3ad641b7c60b314fa3b10680feda30bf56280a53"
+        ],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "blob_sha_root_copy",
+          "object": "133e5f50edcaccb26aabd807ed3ff22bb0c2fb45",
+          "verified": true,
+          "git_type": "blob"
+        }
+      ]
+    },
+    {
+      "id": "SRC-BOOK-4CH1-SB1",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+          "repo": "syllabai-resources",
+          "path": "books/pearson-edexcel/international-gcse/chemistry/4ch1/student-book.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "sha1_content": "5393368f15edfc1c198b964932cfbba8646b13db",
+          "sha1_blob": "3ae87e01106a71a073eed7ac5a628f33570488b6",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@books/pearson-edexcel/international-gcse/chemistry/4ch1/parsed/edexcel_igcse_chemistry_chunks_v3.jsonl",
+          "repo": "syllabai-resources",
+          "path": "books/pearson-edexcel/international-gcse/chemistry/4ch1/parsed/edexcel_igcse_chemistry_chunks_v3.jsonl",
+          "status": "RESOLVED_FILE",
+          "sha256": "b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33",
+          "sha1_content": "2fea6df8826d544ccf064990fb878b7be932fb1a",
+          "sha1_blob": "ad1cbaa495b3bc5ba635f23a9b6cc84f8a8813b3",
+          "role": "evidence"
+        },
+        {
+          "raw": "ledger: syllabai-resources@books/CATALOG.md (row 1 + §3.1)",
+          "status": "UNPARSEABLE"
+        }
+      ],
+      "digest_verification": {
+        "declared": [
+          "sha256:d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "sha256:b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33"
+        ],
+        "matched": [
+          "sha256:b2c67eafe4e3766bab41b41fc24795ca0fe95c1f5f55b8a3b3bffbc709af6d33",
+          "sha256:d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04"
+        ],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "5fad9de78e19de4e0069b9b1063d12f2534eb135",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-QPMS-4CH1",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@Official-ExamQuestion/igcse-chemistry-19/",
+          "repo": "syllabai-resources",
+          "path": "Official-ExamQuestion/igcse-chemistry-19",
+          "status": "RESOLVED_DIR",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "942bb7a650c4cd3b87d2b0d1147e25fee707f08d",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-SME-EXAMQ-4CH1",
+      "classification": "SUPPLEMENTARY",
+      "status": "FAILED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@SME-ExamQuestion/igcse-chemistry-19/",
+          "repo": "syllabai-resources",
+          "path": "SME-ExamQuestion/igcse-chemistry-19",
+          "status": "MISSING",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "0f67552d45109c120f7a43064e1e0e379a58a8fe",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-SME-NOTES-4CH1",
+      "classification": "SUPPLEMENTARY",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@SME-RevisionNotes/igcse-chemistry-19/",
+          "repo": "syllabai-resources",
+          "path": "SME-RevisionNotes/igcse-chemistry-19",
+          "status": "RESOLVED_DIR",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "6d7a76ae243ba7a5e34a79ae0575ed58beb8a184",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-EXT-NOTES-4CH1",
+      "classification": "SUPPLEMENTARY",
+      "status": "FAILED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@Chemistry IGCSE Revision Notes/",
+          "repo": "syllabai-resources",
+          "path": "Chemistry IGCSE Revision Notes",
+          "status": "MISSING",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "eabdfc99746cd78168840ce25d7039582aacba70",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-PMT-4CH1",
+      "classification": "SUPPLEMENTARY",
+      "status": "FAILED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@PMT Edexcel IGCSE Chemistry Resources/",
+          "repo": "syllabai-resources",
+          "path": "PMT Edexcel IGCSE Chemistry Resources",
+          "status": "MISSING",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "05114692ac43b790590adda78726ab24707e5721",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-GRAPH-4CH1",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "status": "FAILED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@graph/igcse-chemistry/specification_points.yaml (182 spec points / 52 C-points)",
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/specification_points.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@graph/igcse-chemistry/concepts.yaml",
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/concepts.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@concept_edges.yaml",
+          "repo": "syllabai-resources",
+          "path": "concept_edges.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@point_edges.yaml",
+          "repo": "syllabai-resources",
+          "path": "point_edges.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@relationships.yaml",
+          "repo": "syllabai-resources",
+          "path": "relationships.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@graph/igcse-chemistry/topics.yaml",
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/topics.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@practicals.yaml (12 Core Practicals)",
+          "repo": "syllabai-resources",
+          "path": "practicals.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@command_words.yaml (25)",
+          "repo": "syllabai-resources",
+          "path": "command_words.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@assessment_objectives.yaml",
+          "repo": "syllabai-resources",
+          "path": "assessment_objectives.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@graph/igcse-chemistry/spec_chunk_mappings.yaml",
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/spec_chunk_mappings.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@spec_command_kinds.yaml",
+          "repo": "syllabai-resources",
+          "path": "spec_command_kinds.yaml",
+          "status": "MISSING",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@graph/igcse-chemistry/_golden/canonicalKG.edexcel-chemistry-4ch1.json",
+          "repo": "syllabai-resources",
+          "path": "graph/igcse-chemistry/_golden/canonicalKG.edexcel-chemistry-4ch1.json",
+          "status": "MISSING",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "b8e0a2a61619a19b339fdcb6588a04fdea80c4dd",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-SPECLINKS-4CH1",
+      "classification": "CURRENT — AUTHORITATIVE",
+      "status": "FAILED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@spec-links/igcse-chemistry-19.json",
+          "repo": "syllabai-resources",
+          "path": "spec-links/igcse-chemistry-19.json",
+          "status": "MISSING",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "blob_sha",
+          "object": "d30f06b308038abb5fdb095a20ff60a20d9728b7",
+          "verified": true,
+          "git_type": "blob"
+        }
+      ]
+    },
+    {
+      "id": "SRC-LESSONS-4CH1",
+      "classification": "SUPPLEMENTARY",
+      "status": "FAILED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@CourseLessons/lessons/pearson-edexcel/international-gcse/chemistry-4ch1/",
+          "repo": "syllabai-resources",
+          "path": "CourseLessons/lessons/pearson-edexcel/international-gcse/chemistry-4ch1",
+          "status": "MISSING",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "ef85fcd7a42e64a92c718607114cd270bf0cb0fe",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-RAG-PKG-4CH1",
+      "classification": "SUPPLEMENTARY",
+      "status": "FAILED;DIGEST_UNMATCHED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@edexcel_igcse_chemistry_rag_package.manifest.json (pointer record; archive lives as the tagged release asset)",
+          "repo": "syllabai-resources",
+          "path": "edexcel_igcse_chemistry_rag_package.manifest.json",
+          "status": "RESOLVED_FILE",
+          "sha256": "8c506a25456edeff65cb3caec8113ca213714aa2edd3e72f5fb4146ea681c473",
+          "sha1_content": "c5697d8cb5d0aa5f526591de35547df6c4b834c0",
+          "sha1_blob": "3e3a16e357cc02302f674c0225b754d420af6182",
+          "role": "alternate"
+        },
+        {
+          "raw": "syllabai-resources@edexcel_igcse_chemistry_rag_package.manifest.json (pointer record; archive lives as the tagged release asset)",
+          "status": "RESOLVED_ALT",
+          "role": "alternate",
+          "note": "pointer/alternate locator resolved"
+        }
+      ],
+      "digest_verification": {
+        "declared": [
+          "sha256:9efdd9d61aa3e1ad249e9efbfc7b3dbb9462e4833c3a7396dd7cfaae5e849720"
+        ],
+        "matched": [],
+        "unmatched": [
+          "sha256:9efdd9d61aa3e1ad249e9efbfc7b3dbb9462e4833c3a7396dd7cfaae5e849720"
+        ]
+      },
+      "git_object_checks": [
+        {
+          "identifier": "blob_sha",
+          "object": "3e3a16e357cc02302f674c0225b754d420af6182",
+          "verified": true,
+          "git_type": "blob"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ROOT-BOOK-COPIES-4CH1",
+      "classification": "SUPPLEMENTARY",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@edexcel-chemistry-igcse-book.pdf",
+          "repo": "syllabai-resources",
+          "path": "edexcel-chemistry-igcse-book.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "b71f77435b690c7e3f0c15ed6b73ec8ea304d85ea7d60a1cce3142d525e85309",
+          "sha1_content": "164531ba97d3586f07fb2d588d26688f862b2d0c",
+          "sha1_blob": "0f43d8a7c8bd5b0b0e6fcdd54a345df4e4f3148e",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@edexcel-international-gcse-9-1-chemistry-student-book-pdf-free.pdf",
+          "repo": "syllabai-resources",
+          "path": "edexcel-international-gcse-9-1-chemistry-student-book-pdf-free.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "d48020e0cc0b5545b330bb59b242472198210e424525e4381cd5d2a58a58cc04",
+          "sha1_content": "5393368f15edfc1c198b964932cfbba8646b13db",
+          "sha1_blob": "3ae87e01106a71a073eed7ac5a628f33570488b6",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "blob_sha_copy_a",
+          "object": "0f43d8a7c8bd5b0b0e6fcdd54a345df4e4f3148e",
+          "verified": true,
+          "git_type": "blob"
+        },
+        {
+          "identifier": "blob_sha_copy_b",
+          "object": "3ae87e01106a71a073eed7ac5a628f33570488b6",
+          "verified": true,
+          "git_type": "blob"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ER-4CH1",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2019-06/4CH1-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "e14628f8506f3979c7e22873175135eeaa372fe111c613c821e4c25c3cd19ff0",
+          "sha1_content": "2407bcba7dac1fb5ea019c2ab93eb64c027b6d4e",
+          "sha1_blob": "3343997c647db93911ba258bf2c05960e2135bc3",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2019-06/4CH1-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "27b230b2967d95861c9b4e9e0b6e4002eea288321d94c4410a277f8e362e060d",
+          "sha1_content": "5ef2694cc12834e43e959a628acd236acc479b3d",
+          "sha1_blob": "460a8603673459aa8d8a7e540e692cab636cfbcc",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2019-06/4CH1-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "6da76fd3c998b5f4c98c493fa6764423fd970fd54f8afebd2b2f5488184a5253",
+          "sha1_content": "b7486b1295bec2a6448e20972f13cf52fff3c1b1",
+          "sha1_blob": "d867783d12a16c2a457752749ddc5e6a21465ba4",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2019-06/4CH1-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "44a19a52c52e4adedc13592f253398c33c30f7f5150ed8f378718ffe4c1bc104",
+          "sha1_content": "9896639b9006d99151b4077006c6a6d33c8999c8",
+          "sha1_blob": "fb531808757c8b746ec0d29164b43c365c192dca",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2022-06/4CH1-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "76abb53a9857805de50fb956591ea0ef88b8988d4f39e4c7423c3fa809b408bc",
+          "sha1_content": "a9c6b88cf147e321162c5bb222b08fd13624269e",
+          "sha1_blob": "a9b31818302e0f436636b801f3deeb3061a7a0cd",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2022-06/4CH1-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "3b1a93925cdb22abd69433cc17c93ea083f00dc2368695cf698efa6ae9a8cde1",
+          "sha1_content": "bda939ce219c24e335657b4c9ce10452e728d5b7",
+          "sha1_blob": "231eb92f9ee8d64de465d68c555445d117452ea1",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2022-06/4CH1-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "927ab0dbec8dc27b28aa2256155f39b4feec90d4b9a82fba399224bbda09ad2e",
+          "sha1_content": "881915d9e6b3fe663070e175feeae7de910a837b",
+          "sha1_blob": "f10da7e2817600ac92775e2ce34fdcd45c40a2f4",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2022-06/4CH1-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "451c779575a66c506527988f9b145733d360f204f59a5fa486fa4a4499cb48b7",
+          "sha1_content": "0aa008d38db4946ebe48a12123980385fb322d97",
+          "sha1_blob": "d265514e3a6a6c6eb01798dfc13de2aab85eaade",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2023-06/4CH1-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "6dc34a53ce3e9bbf32c0fc4b5ef897d491fa4210b58c655ec4a5d83b9a7f28fd",
+          "sha1_content": "140bf33ee0c8493f0d7b5fac0e6b95a6cff921aa",
+          "sha1_blob": "659b7247fd80a3e87ed499026dd368fb10820c81",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2023-06/4CH1-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "baae7bddf027696eb7709b5ff69bee965b77771cec5a9b5a5c965e48aa0ce8b1",
+          "sha1_content": "f434abb09917fa1fecbfa516fbca2f649c27d787",
+          "sha1_blob": "fbfc200f1939b60dc06b527d425b246f2fc606c4",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2023-06/4CH1-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "e945edc16db7d003f856ec3913803c1cde108ba2e2c2f185281dd7995bab01d3",
+          "sha1_content": "fbd05c711e1702228e33a132f3716c5fa5b2ea33",
+          "sha1_blob": "c54ba5bd52d8755e9af4ffed404da620a9712396",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2023-06/4CH1-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "5bb8e155d67b0f360f19f1975c1e05ee4727eaae1282eb9511f865753f269da8",
+          "sha1_content": "0723d5048b7be9e8d36a67b2aafb4d10ec0cce1e",
+          "sha1_blob": "bd83948d16a9d7626be588b3efeb7ef5672caa8b",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2023-11/4CH1-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "91203d1f2a51a2619f9f968b2bbd176e7698e2e3b294f518c17e57464ca83124",
+          "sha1_content": "533268c9a5558606ce4c1db696278bc5f6cadcaf",
+          "sha1_blob": "b23c6c0f4cf502abb66f4e812e645dd7d88f4dff",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2023-11/4CH1-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "e9ebd20b79bb0ff70413665ba1e008454794666ac9be03de88d90d3e23507608",
+          "sha1_content": "d590307672c2d9b69fb7f7767d4ba682119a2373",
+          "sha1_blob": "8d9838bf134de6b9a378fbc07df24c7ecfef49f9",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2024-06/4CH1-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "921da18056ed5b629bd0c9f173d34cdcfd85fad369862585a8753d3256a0042c",
+          "sha1_content": "3285845392e236409e8c3ac94960f826e1f6ae77",
+          "sha1_blob": "6a577537e2d1d3dafa7ff355ff0516349b3b3ea4",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2024-06/4CH1-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "1601b205514fd0175972cfbcc6c142d95defb1f58c8a365c6d5dc68ec960526c",
+          "sha1_content": "9b4f1f5f0049aeb748ba902ecf4d7f749fe02b79",
+          "sha1_blob": "fc2733c04b603d81f21a740b4eea83ab7160fba4",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2024-06/4CH1-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "252ded627eefc0527b2aa0834e0cf1ba963ed03ea1f9eee62b1b2a3b5723c1c4",
+          "sha1_content": "401de63ad88d3ac37085106298cc71d7c3b2f5c8",
+          "sha1_blob": "88baf755b256d880fc0ec750fb067c2a1844721d",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2024-06/4CH1-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "8ccc3ea2651e284cfa477ae67875e612d60a9ea6df68cea4b9762375cd8e0808",
+          "sha1_content": "a21ec55ef9b6dcbcd6833cff6d8717c0579f8ccf",
+          "sha1_blob": "dfa72c2df87feaa6d552ceab7fac9340363444f4",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2024-11/4CH1-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "8092622fb8604db909b965c8568bf15f96820eb18714c72f3e1d0dd13b9fa36b",
+          "sha1_content": "91686fec4e7eacca12e7c4c11d0ce34e5e52ec98",
+          "sha1_blob": "7fb4b712e3d04502c9a0c9c5213780ae81c6ae7b",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2024-11/4CH1-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "8f416dc52011a6cb4050dab4f356f13a0f2abdc6a4a19dceb8c721d708adbdf0",
+          "sha1_content": "836fbaaef0f37202c587abd5acca3c943eeb45db",
+          "sha1_blob": "dd5582ee42accd1abc3a64cb00bc54570a72c7ef",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2025-06/4CH1-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "c74f15906d09c17b8fe4cbe88083f1f0f157d91b40542c721b55dbcd0ed1cf31",
+          "sha1_content": "692a45fd9a076444fb2c6c1f0f4b4af373b4245c",
+          "sha1_blob": "017c4eb982951e845f509b8b49cb3bdfc6345219",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2025-06/4CH1-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "16d9bdc96e369f2f4b7f780a0c24d7561ba14504e918baf796e2fe421dec427c",
+          "sha1_content": "40922fbc24e31f84f795403a61325e8861a97d12",
+          "sha1_blob": "c022f27cd54ddda0bd0d036c7086f5b0091370a5",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2025-06/4CH1-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "2d8352e677b1e582858490f48e14d0c60a283af991104601496145cead167ba8",
+          "sha1_content": "beefb6836aa534e0ea52fd557cf0346ffd8ff399",
+          "sha1_blob": "2e1d34fbeb085f5b9a6e4ea32fee515611eead36",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/<session>/4CH1-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch1/past-papers/2025-06/4CH1-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "a8411deebdf507a0f46df3d3a5bc44a524b54c074a2aa0c8b30228e857e2c31e",
+          "sha1_content": "4c2eb96a8e1d602e97614fb1da3e9a36a97273b1",
+          "sha1_blob": "b981af67e23d44d2fd8d1ed2ca186d83c1e6e8c7",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "54d3220b1c6c6fba9e1ed3f5ee4368fede70a310",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-ER-4CH0-LEGACY",
+      "classification": "LEGACY — HISTORICAL",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2011-06/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "f49f4f2cdbe5ea97538d5997e089d3b7e74fa44edf9f7d7a60e188aa6b2163da",
+          "sha1_content": "b5c362c94a4319b0f3d667d973a01e6e1d0fa710",
+          "sha1_blob": "36261c3b8ae6e39aac97c59a88799ae532be2ddc",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2011-06/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "3858dfc911d42c53fc356dd86d48e7fcd9aa96b34d41afce2443d16fab5b6eeb",
+          "sha1_content": "ae42a88970f236804f695921023ade878edea08c",
+          "sha1_blob": "71e043f24821beddde337ce9c5627f39a13cfef1",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2012-01/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "a0d63a8442be94c5aa87393f0db04dd6a438171408e61bfa1c0819a70a9f1a07",
+          "sha1_content": "b4b61f63c871322ffc997fa5eaeee6158e6dd1d7",
+          "sha1_blob": "c1e29b012f5ce6f6f9a2a508cdc713fffba5f6cb",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2012-01/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "947d3b43453f6b58b6dcedaa35f2ff7c6738a01f7ee1a665ad5a6caf2565ef20",
+          "sha1_content": "1dd85e8a624da6e04980151583b1989cb5f572ae",
+          "sha1_blob": "9886416f046d077961e5b8d6e86f13942f451c63",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2012-06/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "46506b51ee5d26943bf18a3c3c8c314029b127a46f75273af22c973b251d493a",
+          "sha1_content": "758c5bff19b63dfd888f35df70fd822d158c44c4",
+          "sha1_blob": "d0cc30d7f6734464fbca6917377376a0327692fb",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2012-06/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "1222d4216faf5cc5f579317ca9666f7ab9d8d8b9bdd44a680b84e981117b9890",
+          "sha1_content": "cd3169a6310edb534895b6511236b7ccaab00a6b",
+          "sha1_blob": "6619f2908011ba93d324c9b4e77242e913bae7d3",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2013-01/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "7248b71ba01fde519d5e1e160a947de4ebf41f75ed9fab1054cac534963e0816",
+          "sha1_content": "3a518fbc14ed67fa1e66312f08de7a99e828656f",
+          "sha1_blob": "40446f0f016645273aa49579228b3930fa6085d8",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2013-01/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "f5bd3b62ba2deee01394779690eed58dca0ebec8c23e3eda0611453b94e5dd84",
+          "sha1_content": "f93a551ff16974a73094d6d02e2f380045563c62",
+          "sha1_blob": "51899fbd807dceade2f31137ccc85c101eb1c978",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2013-06/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "ea80de8cd4cd25ce2431207d234ffef080c3fb6b1c8ea01ef1b302a41a9c523b",
+          "sha1_content": "5207172e71cb564a97c5cfc1d2c2d12174e577f5",
+          "sha1_blob": "9180dd59150d7c1a26ffba18238da110fbce8629",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2013-06/4CH0-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "89307fc8a7af8825c0cf9722ff9f2ae1a43e734bebaa02af2d0d360a3b3da917",
+          "sha1_content": "55aeeaafcef35d71ca26584fbef3d694f4ace96c",
+          "sha1_blob": "d1ffdc3ee35dd4bddac441464582c76b8fb25093",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2013-06/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "9577ebd5742711fddfcc6672d61635721a3cf10f722a7651d7403a90a21af891",
+          "sha1_content": "e2b1da1c9d5ca5e3aff6cee154e3a3954319d10f",
+          "sha1_blob": "3ffe72c3e9dcc4eff8f9fb3bb519894ab5c44687",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2013-06/4CH0-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "946b15557f5e347d06993b7c8a183508c83c3eae29ad7120b5fc713a820bdf5f",
+          "sha1_content": "0249bcb29c5131b2e68e3d44f6e339ca3137128e",
+          "sha1_blob": "5251c61e75abb3e81c7da1d495b1a12113b73edc",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2014-06/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "9ef6c053452549f08f36dd73c75d5d519f1abba98e757aa3629d6844b6c408c8",
+          "sha1_content": "6ca1f6e9bf03db48f4a5142e0d2363658558e5c0",
+          "sha1_blob": "dfeba8b4bf6ed88d1182647ea23a2b7451f300d1",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2014-06/4CH0-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "f7fe80d51688d9590704e70044d3593fa344d9f2d1c59b1809d8b19971de9158",
+          "sha1_content": "24bddcff1a60465f3e11547f47e82e2df558eb9f",
+          "sha1_blob": "a91410ff32259260769f1a5e1cb50014b8f6cec4",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2014-06/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "aff4f667f81aa454bf2a226ade98ac4032cab4bd584cf5379cc62ed1fb6fdf1f",
+          "sha1_content": "1154aa2bf7d88aa328ec7da2833fbe29b91691e3",
+          "sha1_blob": "75a48443c9f8c46b51661545654b60e9f8e768da",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2014-06/4CH0-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "416f527cdaa67cfc540f48257f4c68ae0a21ce6cbea3ff2cd23ce78cbd0f8246",
+          "sha1_content": "cd080cfcf54f5ecd3d9f8fdd4c22de94ce8d4fd6",
+          "sha1_blob": "d903aacbeaefec2f6069e788d014900612084534",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2015-01/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "166c5c164f5146024bd185dbd4bd6f8fcc76edc29f05d20cbba05336bf0ff641",
+          "sha1_content": "c84fb0a36b68f3863ac0d8482c5d65dce2e45983",
+          "sha1_blob": "e320a263ce6124f0634d4f9815a1611773e43e9f",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2015-01/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "94d61d839327e75c1b39b1e1506a1a3c3d256eb99e74fa47ed4f7b136c361a97",
+          "sha1_content": "91cd8067c0d2f4bc8d1cb51af362fa833a058238",
+          "sha1_blob": "7b95034564253cdfa587c40b05b96636c8d5ad7d",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2016-06/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "f95da6637185aefbaf89abb557e26017b086668c4c4acb8a906bf725b525c8a5",
+          "sha1_content": "056d97f7cbf986c1182b98023b2090de4f54cea1",
+          "sha1_blob": "2721a2d4d7049aeb7f91843c8b8614b5e1ea6a6c",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2016-06/4CH0-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "788449d358de1de77f95dc049e5a94922e7f7ec9384a458a5831466482c9ba11",
+          "sha1_content": "2b87e87c486934b3d0c015400527a55095843fe5",
+          "sha1_blob": "e5f1594741986ab0094cd739c58b2a477fa67f6d",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2016-06/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "8e42b68e09c78774cc198f067174dbbcc3c081f144adc85935fb53d6996df5b7",
+          "sha1_content": "90a9ffc2284031ac15ee2ede45a069e5a4ae40b9",
+          "sha1_blob": "cd0d779226004b5649c298bece049684489bf96c",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2016-06/4CH0-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "71aae5322a8b3ef1ff6879b71986a0f4933acdedbca51a7f2dc8a6826a760fe4",
+          "sha1_content": "83ceb3dee78d4125842a8537458f657618e56c61",
+          "sha1_blob": "b1ab945c03946ed6ae7879be14f68ade05d9f7b0",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2017-01/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "cd35fc16118776343d4a14f804a767e65daf5aae5ce244447a5f975d41f67a1e",
+          "sha1_content": "22445311272a69b0c50684c4f94650447c17fd52",
+          "sha1_blob": "b3fa38b718852ccabed0a44cf15db7935dcd514c",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2017-01/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "441ba19f92b4679ee5826a3cd339a6890c395dcecb30610b4c103a2611b0337f",
+          "sha1_content": "a7e6ca094c1bdbd468e1b4a778470564feebd1a8",
+          "sha1_blob": "c51082f2d8948aa2a84e5ef6bd49cdcebcfb7634",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2017-06/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "b55a1fdf6d863e38af1a4894c44e2c043b1389d42613e183a870b33b6d80903c",
+          "sha1_content": "0094d4b575d88075a77eb98cd034a8a8e799aca9",
+          "sha1_blob": "01bd66ebf9533ac76cb2dafac78d9a4e08ee6542",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2017-06/4CH0-1CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "6f9e26f2026b95054ab8fa8a716708561aa537b25604ef0732572c1ecc8ed1bb",
+          "sha1_content": "539fbb41e4c01fed202e199d1542b64faf86e41d",
+          "sha1_blob": "334209e754cd943a046b3806fe44220039bc45b7",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2017-06/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "e9197e1145bb33875b5b39c5ee99139e07ce185768ee6c1c0927d9632a885bf3",
+          "sha1_content": "35903bd534430fe7f4c3390bb1114fe6395d3a17",
+          "sha1_blob": "21dadd00b83fd68b94bcc9c023c758682faa3908",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2017-06/4CH0-2CR/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "70beb877413b4c03a59f32fdf88d92604742051bc7bfe09dc63e427fb7492697",
+          "sha1_content": "e7796fe6d7118bc951198f1ca5ccecf8806aeaf2",
+          "sha1_blob": "4204bdc7bd97ddff00b0b6d27a094c492ab776cf",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2018-01/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "83f4ca31bbba7957d9a2fc3203a557d710ba8ad11819dcce45928fb63e33936c",
+          "sha1_content": "8bcd086210a6e7d90cfba01b31dc467e37438716",
+          "sha1_blob": "1403b3977a0d09b2f277564a82d4b6ab0ade688f",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2018-01/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "7f9ba7decff74a9b65ee5b0120ec3753e3f9fada62285efdc7214289726f0aaa",
+          "sha1_content": "42726e49bd731c193ef62a0d7adb5a25beb80425",
+          "sha1_blob": "dd592e72cb88e0083f8d3f72ca4bdb904576c237",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2018-06/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "41fb6b21c784ca5a0e837d2331c65bff3ceb8940f0e71025e5f67f5828ec823a",
+          "sha1_content": "de865a34413da3bf79ce77d730bc5f52e44e88ad",
+          "sha1_blob": "1a61cdff1cdbf38090b9515f6bd96ba690cef0ba",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2018-06/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "eebddd2302df9312495a49024b5fff2a11627edcd1c1e998a5f33c5cff28e5df",
+          "sha1_content": "15a358bc26de6d3e37e848fb5e7013dd4c8f6c79",
+          "sha1_blob": "1b64f3e5b6d80422fd7fb6b15cfaaec5ae073fa1",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2019-01/4CH0-1C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "43eae49fb597221ab727a6d8e4f33bf91da0c5df7f0c81b21f5e1d34a6770e9f",
+          "sha1_content": "067a03b7d066d7f578c48049f3c90deb40df9ed4",
+          "sha1_blob": "d05e685f91c94127156ec6d095c8ef107d4ffe0c",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-pastpapers@past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/<session>/4CH0-<paper>/er.pdf",
+          "repo": "syllabai-pastpapers",
+          "path": "past-papers/pearson-edexcel/international-gcse/chemistry/4ch0/past-papers/2019-01/4CH0-2C/er.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "605e052906d22721b0741d15d12ad8108613de348d4c725fb9b82e33197b92ef",
+          "sha1_content": "2cf8d34a1c8298a09869000860ccb80699458bab",
+          "sha1_blob": "f6253f2da50bfaf0a79d867da4522e9a368be7c0",
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [],
+        "matched": [],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "fe54f0d76314b953ed9097852b94fd7cef500fce",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-LEGACY-SPEC-4CH0",
+      "classification": "LEGACY — HISTORICAL",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@Official-Specifications/igcse-chemistry-legacy-4ch0/",
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry-legacy-4ch0",
+          "status": "RESOLVED_DIR",
+          "members_hashed": 4,
+          "members_total": 4,
+          "role": "evidence"
+        }
+      ],
+      "digest_verification": {
+        "declared": [
+          "sha1:1ca8219b0207c20d7a0c21e7fe3da9a6ba9bec94",
+          "sha1:51e6505a41278aeb351653ecca9bc4fb137f2bbf",
+          "sha1:0853b039d40c73dadef57bb8ef52b701a0cf9d21"
+        ],
+        "matched": [
+          "sha1:0853b039d40c73dadef57bb8ef52b701a0cf9d21",
+          "sha1:1ca8219b0207c20d7a0c21e7fe3da9a6ba9bec94",
+          "sha1:51e6505a41278aeb351653ecca9bc4fb137f2bbf"
+        ],
+        "unmatched": []
+      },
+      "git_object_checks": [
+        {
+          "identifier": "tree_sha",
+          "object": "c315d6be09ad730a961325a01a3015b265dbdd6c",
+          "verified": true,
+          "git_type": "tree"
+        }
+      ]
+    },
+    {
+      "id": "SRC-TL-4CH1",
+      "classification": "CURRENT — AUTHORITATIVE (tier-1) / SUPPLEMENTARY (tier-2)",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@Official-Specifications/igcse-chemistry/teaching-and-learning-materials/",
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials",
+          "status": "RESOLVED_DIR",
+          "members_hashed": 28,
+          "members_total": 28,
+          "role": "evidence"
+        },
+        {
+          "raw": "{'provenance': 'syllabai-resources@Official-Specifications/igcse-chemistry/teaching-materials.json'}",
+          "status": "UNPARSEABLE"
+        }
+      ],
+      "digest_verification": {
+        "declared": [
+          "sha256:d2a849ac8d05f7dd772ae060a6fdbf1e180cbdb146d10b8ee469f4c41f1d41ab",
+          "sha256:cfc42ce0bc763515241c63cba8087be725126152f95047fbad90a83227b50419",
+          "sha256:321204a76a659b8c467bba2d04bae39c7dccc4a5ba869a42955f1e6038c8ca3a",
+          "sha256:d2dba72da4a824e6069a66f54851e0bfce94a31aad614711468e105e2cb53fc4",
+          "sha256:9dd6228da0e915ea90fcca823aad4446d92d05faa59f9da1e9496b22b292a7fb",
+          "sha256:3563c05e364143ebb9685802801b6f053732e4c12e77dbc711eb270aa15ebbb0",
+          "sha256:5d1851993be460f102615c5ca3b9d05af0874fecd0b6b2ee7f8f71a918264e08"
+        ],
+        "matched": [
+          "sha256:321204a76a659b8c467bba2d04bae39c7dccc4a5ba869a42955f1e6038c8ca3a",
+          "sha256:3563c05e364143ebb9685802801b6f053732e4c12e77dbc711eb270aa15ebbb0",
+          "sha256:5d1851993be460f102615c5ca3b9d05af0874fecd0b6b2ee7f8f71a918264e08",
+          "sha256:9dd6228da0e915ea90fcca823aad4446d92d05faa59f9da1e9496b22b292a7fb",
+          "sha256:cfc42ce0bc763515241c63cba8087be725126152f95047fbad90a83227b50419",
+          "sha256:d2a849ac8d05f7dd772ae060a6fdbf1e180cbdb146d10b8ee469f4c41f1d41ab",
+          "sha256:d2dba72da4a824e6069a66f54851e0bfce94a31aad614711468e105e2cb53fc4"
+        ],
+        "unmatched": []
+      },
+      "git_object_checks": []
+    },
+    {
+      "id": "SRC-SAMS-4CH1",
+      "classification": "CURRENT — ASSESSMENT EVIDENCE",
+      "status": "RESOLVED",
+      "entries": [
+        {
+          "raw": "syllabai-resources@Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923",
+          "sha1_content": "7c5dabdaec5e210f38e956b08edfd63b4f4e224a",
+          "sha1_blob": "6c3bb05378d9e6d3a5dec549e45e7b0f659f9704",
+          "role": "evidence"
+        },
+        {
+          "raw": "syllabai-resources@Official-Specifications/igcse-chemistry/notice-of-changes-january-and-november-series.pdf",
+          "repo": "syllabai-resources",
+          "path": "Official-Specifications/igcse-chemistry/notice-of-changes-january-and-november-series.pdf",
+          "status": "RESOLVED_FILE",
+          "sha256": "af9971c569847934257fffb72138f8ab20115c79e03bd6786b59f8e1f1d6372b",
+          "sha1_content": "5697f417a2a90e7c7fa273ad3165d4db9cc65181",
+          "sha1_blob": "03c3d6705b9c3783f3543175e432e0411f09fce2",
+          "role": "evidence"
+        },
+        {
+          "raw": "{'provenance': 'syllabai-resources@Official-Specifications/igcse-chemistry/teaching-materials.json'}",
+          "status": "UNPARSEABLE"
+        }
+      ],
+      "digest_verification": {
+        "declared": [
+          "sha256:beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923",
+          "sha256:af9971c569847934257fffb72138f8ab20115c79e03bd6786b59f8e1f1d6372b"
+        ],
+        "matched": [
+          "sha256:af9971c569847934257fffb72138f8ab20115c79e03bd6786b59f8e1f1d6372b",
+          "sha256:beb9dc1d1efa108b854573d7c3be2020108daefd43db6b8611e40513323f4923"
+        ],
+        "unmatched": []
+      },
+      "git_object_checks": []
+    }
+  ],
+  "summary": {
+    "total": 17,
+    "resolved": 10,
+    "partial": 0,
+    "failed": 7,
+    "failed_ids": [
+      "SRC-SME-EXAMQ-4CH1",
+      "SRC-EXT-NOTES-4CH1",
+      "SRC-PMT-4CH1",
+      "SRC-GRAPH-4CH1",
+      "SRC-SPECLINKS-4CH1",
+      "SRC-LESSONS-4CH1",
+      "SRC-RAG-PKG-4CH1"
+    ],
+    "partial_ids": []
+  }
+}

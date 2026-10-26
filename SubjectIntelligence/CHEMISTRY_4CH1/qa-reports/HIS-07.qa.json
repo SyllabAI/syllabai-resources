@@ -1,0 +1,27 @@
+{
+  "artifact_id": "HIS-07",
+  "content_sha256": "ce6eb053c78b61cd32f96dd2f4a9413c1fe7aa88b33770c53400cb3f149d8204",
+  "filename": "CHEMISTRY_4CH1_HIS-07_HISTORICAL_RELEVANCE_ANALYSIS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "HIS-07",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "HIS-07"
+  },
+  "sib_protocol": "SIB-1.0"
+}

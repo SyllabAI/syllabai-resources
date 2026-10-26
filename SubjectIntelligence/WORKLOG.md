@@ -195,3 +195,45 @@ exists. Remaining queue: pass 7 HIS (7 OPTIONAL artifacts; sources RESOLVED
 since GAP-SRC-002/BL-002 2026-10-25), pass 8 TUT (sources PRESENT since SB1 v3 +
 SRC-TL-4CH1; operator eBook upgrade lane optional), pass 9 GAP (final audit,
 runs last by design). Staging/publication remain operator-ordered.
+
+## 2026-10-26 — SIB-CHEMISTRY_4CH1-RUN-007 (BL-008 pass 7: HIS) — zai_agent lane
+
+Operator order 'order pass 7' (trace 1a177bcd9bdac8f1, channel zai-web). Run
+SIB-CHEMISTRY_4CH1-RUN-007 = HIS-01..07, the taxonomy's 7 OPTIONAL artifacts, 42
+records HIS-001..042 (family-continuous numbering).
+
+- Fetch-first: resources main @ 4920c464 (the pass-6 merge of record; no advance),
+  master @ 357ace0a pin unchanged, pastpapers @ 2cb92fe5; sibling PR #145
+  (UGM-Resources CIE lane) verified ZERO SubjectIntelligence overlap from its own
+  commit diff; sparse clones rebuilt fresh.
+- Preflight PASS for HIS: primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY +
+  SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed
+  (none a HIS primary).
+- Packs: 7 agent-authored pack specs (every policy-selected source planned per
+  artifact): page-located excerpts from Issue 3 (Oct 2009), Issue 5 spec+SAMs
+  (Feb 2015), 2009 SAMs booklet; five legacy ER sessions (2011-06 1C/2C, 2012-01
+  1C, 2013-06 1C, 2016-06 1C/1CR, 2018-06 2C, 2019-01 1C) as LEGACY witnesses;
+  current-spec statement/assessment pages; QPMS structural index + one live-window
+  plan (2019-06 1C Q1). Survey cache outside the repo; page picks first-hand.
+- Authoring from packs alone; every record carries LEGACY — HISTORICAL /
+  CURRENT — AUTHORITATIVE labeling; temporal_scope current+legacy on all 7;
+  family law honored (legacy observations never phrased as current truth).
+- IN-TURN FIXES (disclosed): (1) pipeline amendment sib_evidence_claim_qa.py
+  r3 -> r4 — case-insensitive citation-extension + pack-path matching; the
+  Issue-5 file's uppercase .PDF was a fail-closed dead end (r2->r3 precedent
+  class); (2) HIS-04 pack re-spec (I3 p7 added) for the Edexcel-imprint page;
+  (3) quote verbatim-alignment: numbered topic-map lists, instruction-bullet
+  't' markers, curly-quote token avoided by sub-span.
+- QA CHAIN: validator qa @ 357ace0a 7/7 qa_passed, 0 errors / 0 warnings (INFO
+  SIB-ANCH-003 registry note disclosed; qa-reports/ x7 written by the validator
+  of record); evidence-claim QA r4 89 citations / 0 violations; census.json
+  (sib-run-census/1.0, family HIS, per-source-class counters); run_manifest
+  add-artifact x7 + validate OK (source_revisions: master 357ace0a, pastpapers
+  2cb92fe5, resources 4920c464).
+- LEDGER: manifest.yaml BL-008 description appended with the PASS 7 EXECUTED
+  entry (YAML re-parse verified; library validate-manifest issue set unchanged
+  vs pre-edit — 18x SIB-MANI-007 standing TUT/GAP state + pre-existing
+  MANI-011/012 notes). Scoreboard: 77/95 artifacts GENERATED — every REQUIRED
+  artifact plus the OPTIONAL HIS family complete. Remaining queue: pass 8 TUT
+  (10 REQUIRED; sources PRESENT; eBook upgrade optional), pass 9 GAP (last by
+  design). Staging/publication remain operator-ordered.
