@@ -1,0 +1,43 @@
+{
+  "artifact_id": "PRA-03",
+  "content_sha256": "8c461a8e69d6bcded3b1ba82952800dd85156596b000b32d6ae6db5e97cef872",
+  "filename": "CHEMISTRY_4CH1_PRA-03_PRACTICAL_EXPERIMENTAL_INTELLIGENCE.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 2
+    },
+    "issues": [
+      {
+        "artifact_id": "PRA-03",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[3.15]",
+        "message": "anchor 3.15 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "PRA-017",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "PRA-03",
+        "code": "SIB-ANCH-002",
+        "field": "curriculum_anchor_refs[3.16]",
+        "message": "anchor 3.16 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "record_id": "PRA-017",
+        "severity": "WARNING"
+      },
+      {
+        "artifact_id": "PRA-03",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "PRA-03"
+  },
+  "sib_protocol": "SIB-1.0"
+}

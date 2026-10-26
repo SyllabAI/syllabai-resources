@@ -1,0 +1,27 @@
+{
+  "artifact_id": "PED-03",
+  "content_sha256": "34586624145d8997efd5b915faf8a422822e8ab1e2c2b5c434b193430739b118",
+  "filename": "CHEMISTRY_4CH1_PED-03_DIFFICULTY_PROGRESSION.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "PED-03",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "PED-03"
+  },
+  "sib_protocol": "SIB-1.0"
+}
