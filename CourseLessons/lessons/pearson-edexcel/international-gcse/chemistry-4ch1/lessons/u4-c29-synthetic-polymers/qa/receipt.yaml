@@ -1,0 +1,156 @@
+stage: S4
+date: "2026-10-26"
+agent: "T-BOOK-062 r0 (session web-c414c074 chat 08b3170a, trace 1a1777fe131bbf09)"
+prompt_version: "lesson-prose@2.0.0"
+lint: "PASS"
+trace_id: "1a1777fe131bbf09"
+summary: >-
+  u4:c29 Synthetic polymers authored end-to-end S4 9/9 under lesson-prose@2.0.0
+  standalone voice (r0, no retrofit debt; the EIGHTH and FINAL Unit-4 chapter —
+  operator lane order "go: c29", trace 1a1777fe131bbf09; standing merge+flip trace
+  1a1658a2da08e5bd). State reconciliation first: production lessons-index 28/28
+  packs u1-c01…u4-c28 (c28 Esters published by T-BOOK-061, live byte-equal);
+  remote resources main 3cd29bc re-verified at lane start (the c28 flip of
+  record); v2 main d5fcdef8 + the c28 bake merge; gate N re-derived = 29 for
+  this lane. join_set DERIVED at S0-L0 from the printed objectives box (chunks
+  1176+1177 — all SEVEN bullets present; the LO box prints TWO-COLUMN — left
+  column 4.44/4.45/4.46, right column 4.47 with its two sub-bullets — with a red
+  CHEMISTRY ONLY sub-banner fencing bullets 5-7 INSIDE the box; the parse
+  linearized it as [4.44, 4.47-head, 4.45, 4.46] and bled the 4.47 sub-bullets
+  into the s02 opener chunk 1178 with the second sub-bullet garbled to
+  "th n ned"; mapping by title to the spine is unambiguous, NO point missing) x
+  spine igcse-chemistry-T4:SUBh = 4.44-4.47 SHARED (papers [1C,2C],
+  double_award_shared true) + 4.48C-4.50C CHEMISTRY-ONLY (papers [2C],
+  double_award_shared false) = MIXED 4+3 — the FIRST mixed-shape pack after
+  three consecutive all-C packs c26/c27/c28 and the eighth mixed overall (f-0015
+  sibling audit run SUBSTANTIVELY across the whole ledger: u1 all-core x7 /
+  all-C x3; c11/c12 mixed 3+1; c13/c14 all-core; c15 all-C; c16 mixed 5+1; c17
+  mixed 7+3; c18 all-core; c19 mixed 5+3; c20 mixed 7+1; c21 mixed 2+4; c22
+  ALL-CORE 6+0; c23 ALL-CORE 12+0; c24 ALL-CORE 4+0; c25 ALL-CORE 6+0; c26
+  ALL-C 0+5; c27 ALL-C 0+4; c28 ALL-C 0+6; c29 MIXED 4+3 — no mixed-shape
+  drift). chem_only: false (spine applicability governs, never the book banner:
+  four of the seven points are double-award-shared; the printed banners fence
+  only the last three objectives bullets, the condensation block, and questions
+  Q3-Q5; the c28 lane's warning that course.yaml flagged c29 false against
+  C-suffixed spine points is thereby RESOLVED — the flag is correct and the
+  C-points are the minority).
+  CHEMISTRY ONLY banner census (f-0027 class, ALL located by 300-dpi print
+  inspection): (1) INSIDE the LO box on p302 as a red sub-banner fencing bullets
+  5-7 — parse-glued into chunk 1177; (2) STANDALONE on p308 between the disposal
+  table and CONDENSATION POLYMERISATION — parse-DROPPED entirely (the f-0027
+  drop class confirmed a second time); (3) END OF CHEMISTRY ONLY on p310 closing
+  the C-only content — parse-glued into 1203 tail, position correct; (4)
+  STANDALONE on p311 between Q2 and Q3 — parse-glued into 1205 head; (5) a
+  SECOND END OF CHEMISTRY ONLY on p312 closing the C-only questions —
+  parse-glued into 1206 tail, position correct. Five banner events, one dropped,
+  four glued — all print-verified.
+  DISCLOSED PAGE-ATTRIBUTION DRIFT (f-0032 FILED closed in-lane, NEW class):
+  chunks 1205/1206 carry pdf320 tags but Q4/Q5 PRINT on pdf321 = book p312
+  (verified by 300-dpi render of pdf321); pdf321 has NO chunk of its own and
+  chunk 1207 (UNIT QUESTIONS) already runs on pdf322/book p313 — the parse
+  glued the p312 question text into pdf320-tagged chunks; the authored book
+  range is therefore [302, 312], not the raw pre-derived [302, 308]. The raw
+  map chunkRefs are byte-identical to the parse census — the drift is
+  print-page, not id-level; CONDENSATION chunk 1196 = pdf317 = book p308
+  matches the printed heading position exactly.
+  Raw map verified against the committed pre-derived section-maps/u4-c29.json
+  (10 sections, pages [302,308], specRefs empty, status todo; parse sha
+  b2c67eaf re-verified at lane start), then refined raw 10 -> authored 9 with
+  receipt-disclosed re-homings mirroring the PRINTED book order: the three
+  garbage raw "Write This As:" pseudo-sections dissolved into their printed
+  host sections (they are the book mini-features before the formation
+  equations, not section headings — the equations print-verified and carried
+  in s03/s04); raw s06/s07 (PTFE uses + write-this-as) merged into authored
+  s04 (the TEF heading tail runs at the end of chunk 1188 but PRINTS on p306
+  — 1188 single-home s03 by bulk, disclosed); BIODEGRADABLE POLYESTERS
+  promoted to its own authored s08 on its printed heading (c28
+  banner-promotion precedent); questions close split to s09 (c11-c28
+  precedent). 30/30 census chunks single-home, NO borrower sections (every
+  authored section owns an exclusive census home), raw superset, slots
+  1175..1206 = 32 with 1186 and 1200 ABSENT (1186 = the image-rendered Fig
+  29.9 poly(propene) formation-equation zone on p305; 1200 = the
+  image-rendered Fig 29.26/29.27 block-diagram and lactic-acid zones on p310;
+  both recovered by 300-dpi print inspection and taught as content,
+  figure-slot law; ALL prose survives in neighbouring chunks).
+  Repairs ledger (ALL print-verified at 300 dpi, f-0028 identity gate:
+  pdfinfo 383pp + sha256 d48020e0 PASS): opener garble chunk 1175 restored
+  per print to "Polymers are large molecules consisting of many repeating
+  units. This chapter looks at two different ways that polymers can be
+  made: addition polymerisation for polymers such as poly(ethene) and PVC,
+  and condensation polymerisation for polymers such as polyester." (+
+  "botties" -> bottles); C-only LO bullet garble chunk 1177 "Krn d a sd o a
+  s w a e s o do wter." restored to the 4.48C spine-verbatim statement;
+  4.47 sub-bullet garble in 1178 ("th n ned") restored to "the production
+  of toxic gases when they are burned"; MISSING-EQUATION restore (f-0026
+  class): the 4.49C ethanedioic-acid + ethane-1,2-diol equation prints in
+  the LO box on p302 AND as the balanced equation on p309 — the parse
+  dropped BOTH (image-rendered); restored and taught in s07 with
+  atom-balance asserted (n C2H2O4 + n C2H6O2 -> (C4H4O4)n + 2n H2O); chunk
+  1184 "CH3CH=CH" lost the propene subscript -> CH3CH=CH2 per print;
+  chunk 1188 ":Sp suouu" = Fig 29.14 drawing residue (dropped) and "sheet
+  tlo o o i o ity." restored to "sheet floor coverings, and even clothing.
+  These polymers don't conduct electricity, therefore PVC can be used for
+  electrical insulation."; chunk 1192 "wasmade"/"howto" spacing garbles +
+  "CHs" -> C6H5 per print; chunk 1193 "strong cov a , hey
+  arenon-biodegradable" restored to "strong covalent bonds, making them
+  essentially inert at ordinary temperatures. They are non-biodegradable";
+  chunk 1193->1194 CROSS-CHUNK sentence join ("...carbon dioxide is
+  produced, which" + "contributes to global warming. Toxic gases are also
+  released, including carbon monoxide and hydrogen chloride." — the printed
+  sentence crosses the p307->p308 page break); chunk 1194 KEY POINT garble
+  "e is an extra 'e' s. We talk about ne-1,3-diol." restored to "It is not
+  a mistake, there is an extra 'e' in each of these names. We talk about
+  propan-1-ol but propane-1,3-diol." (carried as the s07 diol key-point);
+  chunk 1196 "you often hav i a small molecule" restored to "you often
+  have two, joining together alternately. Each time two monomers combine,
+  a small molecule such as water or hydrogen chloride is lost." + stray CJK
+  glyph (Fig 29.21 diagram residue) dropped; chunk 1197 DUPLICATED HINT
+  sentence (dash-variant repeat) carried once (print shows it once); chunk
+  1198 caption typo "ethanedoic" -> "ethanedioic" x2 per print; chunk 1202
+  tail garble "used for mas n s hes." restored to "which can be used for
+  making biodegradable plastic bags or in surgery for internal stitches.";
+  chunk 1190 carries the Fig 29.15 PVC photo caption mis-glued under the
+  USES OF POLY(TETRAFLUOROETHENE) label (the photo prints top of p306
+  closing the PVC uses; taught in s03 PVC context; chunk 1190 single-home
+  s04 by bulk — disclosed).
+  Safety: the f-0029 recipe APPLIED (all eleven chapter pages p302-312
+  print-checked at 300 dpi) — NO printed safety panel exists in this
+  chapter and NO PRACTICAL box either: honest ABSENCE, c27 class (c28 was
+  parse-present; c29 returns the ledger to honest absence).
+  f-0017 print-ref strips -> in-product pointers: alkenes/C=C and the
+  bromine-water test -> u4:c25; cracking -> u4:c23; ester group and the
+  condensation idea -> u4:c28; equilibrium/catalyst habit -> u4:c28
+  esterification callback; amino-acids/polypeptides extension taught
+  generically with the cross-curricular box (biology); no Figure/Table/
+  page deflection in student prose (figure slots taught in words: the
+  everyday-polymers photo strip, the ethene representations, the
+  ball-and-stick polymerisation drawings x3, the formation equations x4,
+  the PP recycling symbol and crates/ropes photos, the PVC-uses photo,
+  the frying-pan photo, the landfill photo, the disposal trade-off table
+  taught as content, the block diagrams, the biodegradable-bag photo, the
+  lactic-acid structure). Questions bank: FIVE printed questions (Q1
+  ethene three-part set; Q2 propene seven-part set incl. styrene equation
+  + Perspex monomer decode + landfill-vs-incineration decision; Q3 C-only
+  block-diagram polyester identify-and-decode; Q4 C-only Terylene/PET
+  chain + balanced equation; Q5 C-only nylon-6,6/nylon-6,10 block-diagram
+  pair with the amide analogy) — page-jump-only per the licensing law,
+  shapes taught not text; the questions zone carries the second standalone
+  CHEMISTRY ONLY banner (p311) and closes with the second END OF
+  CHEMISTRY ONLY (p312). Pages [302,312] authored range (raw pre-derived
+  [302,308]; the condensation block prints p308-310 and the questions
+  close runs to printed p312 where the second END OF CHEMISTRY ONLY
+  prints). Glossary 21 entries full ms layer; chips S0.23-equal 9/9;
+  worked-example x1 (s05 poly(styrene) monomer decode, authored and
+  disclosed — c23/c24/c28 precedent); key-point x4 (census-true: s02 initiator 1179, s02
+  saturated-alkane 1182, s07 diol/extra-e 1194; authored-disclosed from body
+  prose per the c28 authored-KP precedent: the s06 trade-off table from
+  1194/1195 — the n/brackets 1181 and F-replacement 1189 printed KEY POINTs
+  taught in body prose, disclosed); did-you-know x1 census-true (s08 lactic acid 1201);
+  cross-curricular x1 (s08 amino acids — the biology link is genuine);
+  prior-knowledge s01; summary + can-you s09; boxes exam-hint +
+  misconception + quick-check x9 (every section).
+receipt_notes: >-
+  Verifier verify_c29_s0.py committed in-repo (f-0023 law). Emit status=draft;
+  the law-7 flip + law-10 published tx follow in the flip commit. Next lane
+  after flip: v2 bake (import_lesson_packs.py fetch-first resources@<flip>,
+  lessons-index 28->29 additive) + gates + Vercel live poll.
