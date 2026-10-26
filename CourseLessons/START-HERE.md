@@ -51,6 +51,12 @@ Total reading time: ~10 minutes. Do not skip the hard laws.
 10. **Tracker law.** No status change without a `tracker` transaction (see
     `scripts/`). The tracker is the single source of truth for "what exists
     and what state it is in". If it is not in the tracker, it does not exist.
+    The transaction includes the **phase rollup**: when a flip publishes the
+    last unpublished pack of a phase, the SAME commit flips
+    `phases.<unit>.status` to `complete` in `tracker.yaml` AND closes the
+    phase row (headline + tail) in `TRACKER.md`. Close every flip/tx with
+    `python3 scripts/tracker_check.py` — a non-zero exit means the tracker is
+    drifting; fix it in the same commit before pushing (V10, f-0035).
 
 ## 2. Your first 5 commands
 
@@ -90,6 +96,7 @@ python3 scripts/lessonctl.py lint lessons/pearson-edexcel/international-gcse/che
 1. `lint` until clean.
 2. Write `qa/receipt.yaml` (stage S1–S4 per `BUILD-PLAYBOOK.md`).
 3. Append any findings to `findings.jsonl`.
-4. `tracker` transaction to record progress.
+4. `tracker` transaction to record progress — including the phase rollup
+   (law 10) — and run `python3 scripts/tracker_check.py` until it exits 0.
 5. Hand back with a one-paragraph summary: what changed, what lint says,
    what the next agent should pick up.

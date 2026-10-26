@@ -53,9 +53,23 @@ review. The linter is the contract; this doc explains each rule and how to fix.
 - `qa/receipt.yaml` present for every claimed stage; tracker state matches
   `lesson.yaml` (mismatch fails lint).
 
+**V10 Tracker rollup (`scripts/tracker_check.py`)**
+- The tracker's rollup layers agree with pack ground truth:
+  (a) `phases.<unit>.status` equals the rollup of member `pack_status`
+  (all published ⇒ `complete`; `complete` ⇒ all published);
+  (b) every `pack_status` equals the `status` in the pack's
+  `qa/lessonPackV1.json`;
+  (c) `TRACKER.md` phase-row headlines (no `**open`, no stale
+  `LANES n/m`) and per-lesson `pack PUBLISHED/DRAFT` cells agree with
+  `tracker.yaml`.
+- Run `python3 scripts/tracker_check.py` as the closing gate of every
+  flip/tracker transaction — exit code = number of errors, must be 0 before
+  push. Born from finding `f-0035` (three occurrences of phase-row drift:
+  c25, c27-repair, c29).
+
 ## 2. Severity model
 
-- `error` — blocks handoff (V1–V3, V8, V9).
+- `error` — blocks handoff (V1–V3, V8, V9, V10).
 - `warn` — blocks S4, allowed at S1/S2 (V4 first-offence new phrase, V5 gaps,
   V6 missing `ms_avoids`).
 - `info` — advisory (style, long paragraphs >120 words, passive-voice runs).
