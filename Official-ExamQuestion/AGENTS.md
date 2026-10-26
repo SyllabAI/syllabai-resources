@@ -501,11 +501,41 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   v0.12.0 for 1CR — the 11 1CR sets converted on the same kit via `--paper 1CR`
   (registry entries filed with the outputs per the outputs-and-pipeline law;
   F49/F50 layout repairs through the loop; wave-15 disclosure; spec-label waves
-  are the tranche's next step). 2CR remains: runs via `--paper 2CR` when its
-  tranche lands (its totals/counts are already footer-verified into the
-  registry).
+  are the tranche's next step). 2CR DONE (wave-27): the full 11-sitting 2CR corpus is landed and cross-diffed
+  (423/423 part marks, 79/79 question totals, `cross_diff_parsed.py --paper 2CR`);
+  run_all.sh carries the 2CR cross-diff battery step.
 - Serving semantics (v0.6): `assets[]` entries are `kind: "crop"` (real PNG under
   `path`), or `kind: "crop"` with `shared: true` + `ref_part` (a reference to the
   part/stem figure that already owns the PNG — render the referenced `path`, do
   not expect a second file), or `kind: "crop-required"` (honest stub). Asset ids
   ending in `_stem` are question-level figures introduced by a stem sentence.
+
+## Standing rules — self-improving (operator orders recorded 2026-10-26, hygiene-v2 wave)
+
+1. **Post-completion self-check (standing rule).** Before declaring any wave, task or corpus
+   state "done", re-run the battery + canaries fresh against the live main state —
+   re-execution, not receipt-trust (F63 law 3) — AND re-read the served layer the way a user
+   sees it: fetch at least one live interactive page per affected family and read the rendered
+   text end-to-end. A wave that only verifies its own diff is not finished; the Task 17
+   render-layer pass passed "0 furniture at serve" precisely because it compared the page to
+   the corpus instead of to the source-format furniture universe — the corpus itself was the
+   defect carrier. Both layers get a fresh look, every time.
+2. **SME→Official cutover protocol (standing rule).** When Official-ExamQuestion coverage
+   replaces or augments an SME-sourced surface (topic pages, question banks, practice sets),
+   the cutover wave must: (a) pin the Official slice set + head SHA in the task receipt;
+   (b) run the SME-vs-Official overlap census and disclose any SME-only content that survives
+   the cutover; (c) flip the serve-side source flag in the SAME wave as the data landing,
+   never as a follow-up; (d) leave the SME corpus in place as cross-check reference per the
+   sibling-corpus law (`SME-ExamQuestion/` is a cross-check reference, never an input to
+   verbatim extraction).
+3. **Battery completeness (the F87 lesson).** A leak battery is defined against the furniture
+   UNIVERSE of the source format — every footer/header/watermark family the printed papers
+   actually carry — never against the diff of a previous wave. When a user or reviewer
+   surfaces a leak class the battery missed: fix it, extend the converter battery + the
+   exporter serve-time defense + the canaries in the SAME wave, then census the class
+   corpus-wide (F63 law 5, census before ship). The CONTINUES-footer class
+   (`QUESTION 11 CONTINUES ON BACK PAGE`, 9 parts / 9 papers) shipped through three green
+   batteries (G-gates, wave-25 corpus battery, canary C77) because no battery ever enumerated
+   the QP footer universe — this rule exists so that class of blindness dies here. Corollary:
+   "battery green" always means "green against the enumerated universe" — say which universe,
+   and grow it from source-format evidence, not from incident diffs alone.

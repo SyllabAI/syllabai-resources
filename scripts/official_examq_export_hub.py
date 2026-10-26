@@ -138,6 +138,14 @@ def _is_furniture_line(line):
     return bool(toks) and all(t.lower().lstrip("0123456789") in FURNITURE_WORDS for t in toks)
 
 
+# F87 (v0.21.1): the QP multi-page footer family — serve-time defense on ALL
+# text fields (problemMd never went through strip_furniture). Redundant second
+# line of defense behind the converter battery, never the only one.
+_RX_CONTINUES = re.compile(r"\s*QUESTION\s*\d{0,2}\s*CONTINUES\s+ON\s+(?:THE\s+)?(?:NEXT|BACK)(?:\s*/\s*(?:NEXT|BACK))?\s+PAGE\.?", re.I)
+def _strip_continues(s):
+    return _RX_CONTINUES.sub("", s).rstrip() if _RX_CONTINUES.search(s) else s
+
+
 def strip_furniture(sol):
     """F-W15-2: drop trailing furniture lines (up to 4) + a trailing
     'Total for Question N = M marks' line, from the end only."""
@@ -374,7 +382,7 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
             if e_entry and e_entry.get("review") == "authored-r0" and e_entry.get("solutionMd"):
                 sol = e_entry["solutionMd"]
             mp = [{"id": x["id"], "marks": x["marks"],
-                   "textMd": strip_furniture(x["text_md"])}
+                   "textMd": _strip_continues(strip_furniture(x["text_md"]))}
                   for x in (p.get("mark_points") or [])]
             choices = None
             if p.get("question_type") == "multiple_choice" and p.get("choices"):
@@ -395,7 +403,7 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                 "commandWord": None,
                 "specPointIds": [],
                 "specPointCodes": list(p.get("spec_point_codes") or []),
-                "problemMd": problem_md,
+                "problemMd": _strip_continues(problem_md),
                 "solutionMd": sol,
                 "markPoints": mp,
                 "assets": assets_out,

@@ -38,7 +38,7 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.21.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.21.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -658,6 +658,20 @@ def _cover_text(pdf_path: Path, pages: int = 2) -> str:
         doc.close()
 
 
+# F89 (v0.21.1): restore flattened standard-form exponents ("× 1023" -> "× 10²³").
+# pdftotext drops superscript sizing; the QP/MS of record prints 10²³. Validity
+# rule keeps the legit multipliers × 100 / × 1000 (exponent 0 / 00) and refuses
+# out-of-range tails like "× 1050" that are plain numbers, not exponents.
+_SUP = str.maketrans("0123456789-−", "⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁻")
+def restore_flat_exponents(s: str) -> str:
+    def _r(m):
+        sign, d = m.group(1), m.group(2)
+        if not (sign or (d[0] != "0" and (len(d) == 1 or 20 <= int(d) <= 29))):
+            return m.group(0)
+        return "× 10" + (sign or "").translate(_SUP) + d.translate(_SUP)
+    return re.sub(r"×\s?10(-|−)?(\d{1,3})\b", _r, s)
+
+
 FURNITURE_SUBS = [
     (re.compile(r"\*P\d{5}[A-Z]\w*\*"), " "),       # page identity marker (P62045A*, P58561A*, ...)
     (re.compile(r"\bTurn over\b"), " "),
@@ -668,12 +682,22 @@ FURNITURE_SUBS = [
     # stems are byte-identical before/after this fix; the strip runs here AND on
     # the page_norm index (below) so part->page anchoring probes stay consistent.
     (re.compile("\x07"), ""),
+    (re.compile("\x08"), ""),   # F88: backspace artifact (2024-06 2C group stem "+\x08–")
     # F74 (v0.16.0): maths-B page furniture — the multi-page question continuation
     # header and the printed formula scaffold in the answer space (the quadratic
     # formula box every 4MB1 paper prints; 2025-11 Q5 leak eyeballed). Neither
     # string occurs anywhere in the chemistry corpus (census 2026-10-25: 0 hits
     # in the staged 2020-11 baseline layer), so the parity surface is unchanged.
     (re.compile(r"\bQuestion \d{1,2} continued\b"), " "),
+    # F87 (v0.21.1): the multi-page QP footer — "QUESTION 11 CONTINUES ON NEXT /
+    # BACK PAGE" in 5 print shapes (caps / mixed case / no number / slash form /
+    # trailing period). Census 2026-10-26 (hygiene-v2): 9 chemistry instances
+    # corpus-wide, all in problem_md; the v0.18.0 battery never enumerated the
+    # QP footer universe (F87 lesson, AGENTS.md standing rule 3).
+    (re.compile(r"\bQUESTION\s*\d{0,2}\s*CONTINUES\s+ON\s+(?:THE\s+)?(?:NEXT|BACK)(?:\s*/\s*(?:NEXT|BACK))?\s+PAGE\.?", re.I), " "),
+    # F87 (v0.21.1): the abbreviated question-total footer ("Total for Q1 = 5") —
+    # the v0.18.0 battery only matched the spelled-out "Question" word order.
+    (re.compile(r"\bTotal\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}\b"), " "),
 ]
 FURNITURE_LINE = [
     re.compile(r"^\s*PMT\s*$"),                     # archive watermark
@@ -714,6 +738,8 @@ def clean_lines(raw: str, keep_bare_numerals: bool = False):
         ln = normalize_pua(ln)   # F48: symbol-font PUA -> real Unicode before any parsing
         for rx, rep in FURNITURE_SUBS:
             ln = rx.sub(rep, ln)
+            if ACTIVE_SPEC_CODE == "4ch1":
+                ln = restore_flat_exponents(ln)  # F89 (v0.21.1) — chemistry-gated; other lanes pending their own census (physics C74 pin of record carries flat forms)
         if any(rx.match(ln) for rx in FURNITURE_LINE):
             if not (keep_bare_numerals and ln and ln == ln.strip()
                     and re.fullmatch(r"\d{1,2}", ln.strip())):

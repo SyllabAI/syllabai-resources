@@ -1,5 +1,35 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.21.1 — 2026-10-26 · Task 19: the hygiene-v2 wave (F87) — the CONTINUES-footer class closes; the deep-audit drive-bies land (F88/F89)
+
+A user-served leak (`QUESTION 11 CONTINUES ON BACK PAGE` glued into 2026-06 1CR 11(c)'s problem
+text) exposed the class the v0.18.0 battery never enumerated: the QP multi-page footer. Corpus
+census: **9 parts / 9 papers in 5 print shapes**, corpus→hub→live end-to-end.
+
+- **FURNITURE_SUBS — the CONTINUES family** (case-insensitive): `QUESTION \d{0,2} CONTINUES ON
+  (THE)? (NEXT|BACK) (/ NEXT|BACK)? PAGE.?` — covers the caps, mixed-case, no-number, slash and
+  trailing-period shapes — **plus the abbreviated `Total for QN = M` footer** the same sweep
+  proved the v0.18.0 battery missed (it matched only the spelled-out "Question" word order).
+- **FURNITURE_SUBS — the `\x08` backspace** joins the `\x07` BEL law (F70): one instance corpus-
+  wide (2024-06 2C group stem `+\x08–`).
+- **restore_flat_exponents (F89)** — the standard-form superscript restore (`× 1023` → `× 10²³`,
+  `× 10-23` → `× 10⁻²³`), validity-ruled to keep the legit `× 100` / `× 1000` multipliers and
+  refuse out-of-range tails; runs per-line after the furniture subs, **gated to
+  `ACTIVE_SPEC_CODE == "4ch1"`** — the physics lane's own pin of record (C74) carries flat
+  forms, so its lane decides its own tranche after its own census. Corpus census: 125
+  instances across 19 slices + 68 hub strings.
+- **Canaries C94/C95** — C94 widens the C77 furniture arm to the QP footer universe and to
+  problem_md/stem/group-stem fields; C95 is the new `no_flat_exponent_forms` arm. Battery of
+  record: 93 canaries.
+- **Serve-side (exporter)** — `_strip_continues` now defends problemMd as well (strip_furniture
+  covered only solution/markPoints); redundant second line of defense, never the only one.
+- Deliberately NOT changed: the bare MS-grid line strip stays OUT of the converter this wave
+  (the MS-table parser may anchor on header lines — queued with that caveat; the corpus of
+  record is surgically clean and C94 guards it). Chemistry lanes untouched otherwise: the
+  transforms fire only where the classes occur, so byte-identity holds for every unaffected
+  string by construction; next full re-run must reproduce the 9+80+1+125 surgical strips
+  (disclosure: `scripts/exporter-disclosures/2026-10-26-oeq-hygiene-v2.json`).
+
 ## 0.21.0 — 2026-10-26 · Task 18: the QP-side wave (F85) — the 4 QP-side structural G3 fails close; the lane goes 53/53 fully PASS
 
 The Task 17 disclosure named exactly 4 QP-side fails ("open wave #1"). The F85 census
