@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-08
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-008"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "7ff30654d9a256bab02b9371b658ad9b9e589959"
+    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
 ---
 
 # TUT-08 — Concept Comparison Guides
@@ -130,6 +130,11 @@ do with its concentration. Strong acids dissociate completely into their
 constituent ions in water" (SRC-BOOK-4CH1-SB1,
 parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 1006). Temporal scope:
 CURRENT — AUTHORITATIVE.
+
+**Family seam (RUN-011):** the conceptual-distinctions treatment of this same
+contrast — the book's own misconception warning plus the observable reaction-rate
+consequence — lives in EXP-06 record EXP-045; both records ground on the same book
+passage cited in their Evidence lines and are consistent by construction.
 
 ### TUT-047 — Two ethanol routes compared: fermentation limits versus hydration conditions
 

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-01
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-010"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "295fb5b698b37026417e4100551b025579c5f90f"
+    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
 ---
 
 # MIS-01 — Misconception Atlas
@@ -52,6 +52,22 @@ run's evidence pack with page identity. The atlas exists to feed diagnostics,
 interventions and examiner-intelligence artifacts downstream — never to replace the
 mark-scheme or canonical planes. It is a research artifact: it does not promote these
 observations into canonical educational truth (Subject Intelligence Build v1, §5).
+
+**Claim-type labeling (BL-011, RUN-011):** records separate what the official
+examiner corpus says from what SyllabAI infers from it and proposes for the classroom.
+`[OBSERVED_IN_SOURCE]` marks fields whose content quotes or directly paraphrases the
+cited official evidence (Evidence / Motivating evidence / Examiner guidance fields).
+`[SIB_INFERENCE]` marks SyllabAI's own explanatory and diagnostic reasoning, grounded
+on but not stated by that evidence (Why it occurs / Why the reasoning fails /
+Diagnostic signals / Signal tested / Fail pattern / Pass pattern). `[PROPOSED_INTERVENTION]`
+marks proposed classroom actions, not observed facts (Intervention ideas / Intervention /
+Intervention note / Drill design / Success signal / Probe). The remaining record fields
+(Concepts, Specification Points, Temporal scope, Assessment context, Misconception /
+Error / The confusion, Correct understanding / distinction / reasoning / technique /
+usage, Typical manifestation, Credit-worthy form) are record descriptors whose grounding
+is the record's cited evidence. The per-record `Temporal scope: CURRENT — AUTHORITATIVE`
+stamp carries the source-classification vocabulary defined in SOURCE_REQUIREMENTS.md
+§4.1 (definitions of record).
 
 ## Scope
 
@@ -97,7 +113,7 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Misconception:** Candidates describe the particles in a solid as not moving, treating
 vibration as distinct from movement; others answer a question about arrangement and
 movement with descriptions of inter-particle forces or particle energy instead.
-**Why it occurs:** The everyday meaning of "not moving" (no translation) collides with
+**Why it occurs [SIB_INFERENCE]:** The everyday meaning of "not moving" (no translation) collides with
 the kinetic model, where vibration about fixed positions IS movement; candidates also
 pattern-match "describe the particles" to whichever particle facts they rehearsed
 (forces/energy) rather than the two axes the question names.
@@ -107,13 +123,13 @@ are the two axes a description question demands.
 **Typical manifestation:** "The particles do not move" without "…around/vibrate"; or a
 correct-energy description where arrangement+movement was asked (examiners: answers
 "did not address the question").
-**Diagnostic signals:** Ask for arrangement AND movement of particles in a solid/liquid/
+**Diagnostic signals [SIB_INFERENCE]:** Ask for arrangement AND movement of particles in a solid/liquid/
 gas; watch for force- or energy-language substitutions; ask whether vibration counts as
 movement.
-**Intervention ideas:** Three-column drill (arrangement / movement / energy) per state;
+**Intervention ideas [PROPOSED_INTERVENTION]:** Three-column drill (arrangement / movement / energy) per state;
 explicitly name vibration as movement; mark-scheme-language practice ("vibrate about
 fixed positions", "move around freely").
-**Evidence:** Pearson examiner report June 2019 4CH1/1CR, Question 1 (SRC-ER-4CH1, 2019-06/4CH1-1CR/er.pdf p3): candidates "gave the impression they did not appreciate that vibration is
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/1CR, Question 1 (SRC-ER-4CH1, 2019-06/4CH1-1CR/er.pdf p3): candidates "gave the impression they did not appreciate that vibration is
 a type of movement"; some "described the forces between particles… or referred to the
 amount of energy" where arrangement+movement was asked.
 
@@ -125,17 +141,17 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Assessment context:** Paper 1; explain-style one/two-mark items.
 **Misconception:** On heating, candidates explain evaporation as "greater frequency of
 collisions" — importing reaction-kinetics vocabulary into a physical change.
-**Why it occurs:** The collision-frequency explanation is heavily rehearsed for rates
+**Why it occurs [SIB_INFERENCE]:** The collision-frequency explanation is heavily rehearsed for rates
 of reaction and over-applies to any "what happens when you heat" question.
 **Correct understanding:** Heating raises particle (kinetic) energy; evaporation
 involves the more energetic particles at the surface escaping the liquid.
 **Typical manifestation:** "Particles collide more often so more evaporate."
-**Diagnostic signals:** Ask why heating increases evaporation rate; flag any
+**Diagnostic signals [SIB_INFERENCE]:** Ask why heating increases evaporation rate; flag any
 collision-frequency answer as the kinetics frame mis-applied.
-**Intervention ideas:** Contrast pair drill: rate-of-reaction explanation vs
+**Intervention ideas [PROPOSED_INTERVENTION]:** Contrast pair drill: rate-of-reaction explanation vs
 evaporation explanation, same stimulus (heating); require the words "more energetic
 particles escape".
-**Evidence:** Pearson examiner report November 2023 4CH1/1C, Q1b (SRC-ER-4CH1, 2023-11/4CH1-1C/er.pdf p3):
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2023 4CH1/1C, Q1b (SRC-ER-4CH1, 2023-11/4CH1-1C/er.pdf p3):
 "Far fewer went on to explain that evaporation involves the more energetic particles
 escaping the liquid. Some confused this process with reactions by talking about greater
 frequency of collisions."
@@ -149,17 +165,17 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Misconception:** Candidates write a chemical equation (e.g. forming water) for a
 change of state such as condensation, not realising the molecules themselves are
 unchanged.
-**Why it occurs:** Equation-writing is rehearsed as "always make a new substance
+**Why it occurs [SIB_INFERENCE]:** Equation-writing is rehearsed as "always make a new substance
 equation"; the cue "write an equation" overrides the change-of-state context.
 **Correct understanding:** A change of state alters arrangement and energy, not the
 molecules: H2O(g) → H2O(l), with state symbols carrying the meaning.
 **Typical manifestation:** An equation for the formation of water where condensation
 was asked.
-**Diagnostic signals:** Any state-change item that asks for an equation; check whether
+**Diagnostic signals [SIB_INFERENCE]:** Any state-change item that asks for an equation; check whether
 the molecular formula changes across the arrow.
-**Intervention ideas:** Physical-vs-chemical change sort with equations; drill
+**Intervention ideas [PROPOSED_INTERVENTION]:** Physical-vs-chemical change sort with equations; drill
 state-symbol equations for melting/boiling/condensing/freezing.
-**Evidence:** Pearson examiner report November 2023 4CH1/1C, Q1c(ii) (SRC-ER-4CH1, 2023-11/4CH1-1C/er.pdf p3):
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2023 4CH1/1C, Q1c(ii) (SRC-ER-4CH1, 2023-11/4CH1-1C/er.pdf p3):
 "A few incorrectly wrote an equation for the formation of water. They did
 not realise that a change of state does not alter the molecules themselves."
 
@@ -172,7 +188,7 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Misconception:** Candidates use "halogens" and "halide ions" interchangeably, and
 write displacement products with the wrong suffix class — "chlorine displaces bromide
 and iodide" instead of "displaces bromine and iodine".
-**Why it occurs:** The -ine (element) vs -ide (ion) distinction is a naming-layer rule
+**Why it occurs [SIB_INFERENCE]:** The -ine (element) vs -ide (ion) distinction is a naming-layer rule
 sitting on top of genuinely-understood chemistry; examiners note it recurs year on year.
 **Correct understanding:** Halogens are the elements (Cl2, Br2, I2); halide ions are
 their anions (Cl−, Br−, I−). A more reactive halogen displaces a less reactive halogen
@@ -180,12 +196,12 @@ their anions (Cl−, Br−, I−). A more reactive halogen displaces a less reac
 **Typical manifestation:** "Chlorine displaces bromide"; "halide ions" where the
 element is meant; confusion flagged by examiners in two different questions of the same
 series.
-**Diagnostic signals:** Displacement equations and word equations; ask candidates to
+**Diagnostic signals [SIB_INFERENCE]:** Displacement equations and word equations; ask candidates to
 label every species as element or ion before writing.
-**Intervention ideas:** -ine/-ide suffix table drill; insist on species-type labelling
+**Intervention ideas [PROPOSED_INTERVENTION]:** -ine/-ide suffix table drill; insist on species-type labelling
 in displacement answers; examiners' own advice: "use the correct terminology when
 describing these reactions".
-**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Q07(d) (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3) and
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2023 4CH1/1C, Q07(d) (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3) and
 4CH1/2CR, Introduction (SRC-ER-4CH1, 2023-06/4CH1-2CR/er.pdf p3): "confusion between halogens and
 halide ions… an on-going issue"; and November 2023 4CH1/2C, Question 1 (SRC-ER-4CH1, 2023-11/4CH1-2C/er.pdf p3):
 "stating that chlorine displaces bromide and iodide is incorrect rather than displaces
@@ -201,7 +217,7 @@ Temporal scope: CURRENT — AUTHORITATIVE
 more generally any property difference between molecular substances — to breaking the
 covalent bonds between atoms, or reach for "intermolecular forces" as an incantation
 where the question needs precise, correct use.
-**Why it occurs:** Two distinct concepts (intra-molecular bonds vs inter-molecular
+**Why it occurs [SIB_INFERENCE]:** Two distinct concepts (intra-molecular bonds vs inter-molecular
 forces) share one word in everyday speech ("bonds hold it together") and both live in
 the same topic neighbourhood.
 **Correct understanding:** Simple molecular substances are separated at melting/boiling
@@ -210,12 +226,12 @@ molecules remain intact through a state change.
 **Typical manifestation:** "The covalent bonds break when it melts"; or "intermolecular
 forces" used vaguely/incorrectly in long answers — examiners flag "incorrect use of
 intermolecular forces" as a terminology failure in extended responses.
-**Diagnostic signals:** Ask "what breaks when X melts/boils"; audit long answers for
+**Diagnostic signals [SIB_INFERENCE]:** Ask "what breaks when X melts/boils"; audit long answers for
 the exact phrase usage.
-**Intervention ideas:** Diagram drill: two molecules with a bond inside each and a
+**Intervention ideas [PROPOSED_INTERVENTION]:** Diagram drill: two molecules with a bond inside each and a
 force between them — label what is overcome at the boiling point; examiner-worded model
 sentences.
-**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3):
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2023 4CH1/1C, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3):
 "Some candidates also do not fully understand the difference between a
 bond between two atoms in a molecule, and an intermolecular force between molecules";
 and June 2025 4CH1/1C, Introduction (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3) — long-response candidates "lacked a
@@ -232,17 +248,17 @@ calculations).
 0.36 as 0.3) and carry the damage forward; in RAM-from-isotopes items, some round the
 answer to the most abundant isotope's mass number — defeating the purpose of the
 calculation.
-**Why it occurs:** Calculator-display habits and a belief that "one decimal place"
+**Why it occurs [SIB_INFERENCE]:** Calculator-display habits and a belief that "one decimal place"
 applies throughout rather than to the final reported answer.
 **Correct understanding:** Carry at least the significant figures of the question data
 through all intermediates; round only the final answer (to the requested precision).
 **Typical manifestation:** 0.36 shown as 0.3; an average atomic mass "rounded" to the
 mass number of the dominant isotope.
-**Diagnostic signals:** Multi-step calculation items; inspect intermediate values on
+**Diagnostic signals [SIB_INFERENCE]:** Multi-step calculation items; inspect intermediate values on
 the script.
-**Intervention ideas:** "Round once, at the end" rule; examiner advice verbatim:
+**Intervention ideas [PROPOSED_INTERVENTION]:** "Round once, at the end" rule; examiner advice verbatim:
 "work to at least the same number of significant figures as the data in the question".
-**Evidence:** Pearson examiner report June 2023 4CH1/1C, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3):
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2023 4CH1/1C, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3):
 "lost marks through rounding their answer too early, or by truncating the
 answer on their calculator screen eg by showing 0.36 as 0.3"; and June 2019 4CH1/2CR,
 Question 2 (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3) — rounding the RAM answer "defeats the purpose of doing the
@@ -258,18 +274,18 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Misconception:** Two mirror-image failure modes: (a) ignoring the equation's
 stoichiometric ratio entirely and using a 1:1 mole relationship; (b) applying the ratio
 twice — once inside the Mr and again in the mole conversion.
-**Why it occurs:** The ratio lives in the equation, not the arithmetic habit; candidates
+**Why it occurs [SIB_INFERENCE]:** The ratio lives in the equation, not the arithmetic habit; candidates
 who memorised a "divide by Mr, multiply by ratio" recipe mis-file which step carries it.
 **Correct understanding:** Convert mass → moles with plain Mr; apply the equation's
 ratio ONCE at the mole stage; convert back.
 **Typical manifestation:** Correct method, wrong factor of 2/3; or Mr "adjusted" by the
 ratio and the ratio applied again later.
-**Diagnostic signals:** Any multi-step mole question; check where the ratio entered
+**Diagnostic signals [SIB_INFERENCE]:** Any multi-step mole question; check where the ratio entered
 the working.
-**Intervention ideas:** Mole-map (mass ↔ moles ↔ ratio ↔ moles ↔ mass) with the ratio
+**Intervention ideas [PROPOSED_INTERVENTION]:** Mole-map (mass ↔ moles ↔ ratio ↔ moles ↔ mass) with the ratio
 labelled at exactly one step; error-carried-forward awareness so a ratio slip costs one
 mark, not the chain.
-**Evidence:** Pearson examiner reports June 2022 4CH1/1C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3) —
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2022 4CH1/1C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3) —
 "Ratios in equations were a problem for some candidates and this was often
 missed"; June 2023 4CH1/2CR, Introduction (SRC-ER-4CH1, 2023-06/4CH1-2CR/er.pdf p3) — "consider the ratio only once…
 but then consider it again later"; June 2024 4CH1/2CR, Introduction (SRC-ER-4CH1, 2024-06/4CH1-2CR/er.pdf p3) —
@@ -285,20 +301,20 @@ Temporal scope: CURRENT — AUTHORITATIVE
 not from single wrong ideas but from thin laboratory experience: unfamiliar contexts
 defeat them even when the underlying chemistry is known, qualitative answers lack
 specific detail, and method-improvement reasoning fails on error direction.
-**Why it occurs:** Exam questions assess practical skills on paper; candidates with
+**Why it occurs [SIB_INFERENCE]:** Exam questions assess practical skills on paper; candidates with
 little hands-on work cannot import the sensory and procedural detail the answers need.
 **Correct understanding:** Core Practical experience transfers to unfamiliar contexts
 when the technique's purpose, key observations and error sources are explicitly
 connected.
 **Typical manifestation:** Strong theory scores beside weak practical-context scores in
 the same script; vague observations; missing direction-of-error reasoning.
-**Diagnostic signals:** Practical-context items answered below the same candidate's
+**Diagnostic signals [SIB_INFERENCE]:** Practical-context items answered below the same candidate's
 theory average; examiner flag "questions involving practical work… tended to score
 lower marks than more theoretical questions".
-**Intervention ideas:** Map every Core Practical to its likely unfamiliar-context
+**Intervention ideas [PROPOSED_INTERVENTION]:** Map every Core Practical to its likely unfamiliar-context
 variant; require direction-of-error statements in evaluation practice; examiners'
 advice: "candidates need plenty of experience in doing chemistry experiments".
-**Evidence:** Pearson examiner reports June 2019 4CH1/1C, Introduction (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p3);
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2019 4CH1/1C, Introduction (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p3);
 June 2023 4CH1/1CR, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1CR/er.pdf p3) — "many candidates had done very little
 practical work"; June 2024 4CH1/1CR, Introduction (SRC-ER-4CH1, 2024-06/4CH1-1CR/er.pdf p3); June 2025 4CH1/1C,
 Introduction (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3) — practical questions "showed the greatest variation in
@@ -313,19 +329,19 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Misconception (cluster):** Candidates produce correct chemistry fragments that are
 not linked into the causal chain the marks demand, answer beside the question actually
 asked, or write too vaguely to earn precision marks.
-**Why it occurs:** Long answers are drafted as fact dumps; linking words and
+**Why it occurs [SIB_INFERENCE]:** Long answers are drafted as fact dumps; linking words and
 question-mapping are not rehearsed as skills.
 **Correct understanding:** Each mark is a linked step: identify → because → so →
 therefore; the answer must walk the chain the question names.
 **Typical manifestation:** All facts present, few marks awarded; examiners: candidates
 "did not answer the question given", "were often too vague", "needed to link the
 statements to gain all the marks".
-**Diagnostic signals:** 4+ mark explanations; compare script content against mark-scheme
+**Diagnostic signals [SIB_INFERENCE]:** 4+ mark explanations; compare script content against mark-scheme
 chain steps.
-**Intervention ideas:** Draft-then-tick practice (examiners' own advice: "draft their
+**Intervention ideas [PROPOSED_INTERVENTION]:** Draft-then-tick practice (examiners' own advice: "draft their
 ideas first or tick parts of the question off when they appear in the answer"); chain
 scaffolds.
-**Evidence:** Pearson examiner reports June 2022 4CH1/1C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3);
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2022 4CH1/1C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3);
 June 2022 4CH1/2C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-2C/er.pdf p3); June 2024 4CH1/1CR, Introduction (SRC-ER-4CH1, 2024-06/4CH1-1CR/er.pdf
 p3).
 
@@ -339,19 +355,19 @@ Temporal scope: CURRENT — AUTHORITATIVE
 "electrons carry charge") instead of naming the correct mobile species and structure:
 metallic layers slide (malleability) and delocalised electrons move (conduction); in
 ionic conduction the ions move, in metallic conduction the electrons do.
-**Why it occurs:** "Charged things move" is over-generalised; the structure→property
+**Why it occurs [SIB_INFERENCE]:** "Charged things move" is over-generalised; the structure→property
 chain is memorised per-material rather than reasoned from the model.
 **Correct understanding:** Metal: fixed positive ions in layers + delocalised electrons
 that move and carry charge; molten/aqueous ionic compound: the ions themselves move.
 Layers sliding (not ions or electrons) explains malleability.
 **Typical manifestation:** "The ions slide over each other" for malleability; "ions
 move" for metallic conduction; "electrons carried charge" without movement.
-**Diagnostic signals:** Ask conduction and malleability in one item and cross-check the
+**Diagnostic signals [SIB_INFERENCE]:** Ask conduction and malleability in one item and cross-check the
 mobile species named in each answer.
-**Intervention ideas:** Species-table drill (which particles move where); examiner
+**Intervention ideas [PROPOSED_INTERVENTION]:** Species-table drill (which particles move where); examiner
 wording as model answers ("layers moved and slid over each other"; "delocalised
 electrons" moving).
-**Evidence:** Pearson examiner report November 2024 4CH1/2C, Question 2 (SRC-ER-4CH1, 2024-11/4CH1-2C/er.pdf p3) —
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2024 4CH1/2C, Question 2 (SRC-ER-4CH1, 2024-11/4CH1-2C/er.pdf p3) —
 marks lost "for stating that the ions moved"; malleability answers
 "started saying that electrons moved or slid"; and June 2025 4CH1/2CR, Introduction
 (SRC-ER-4CH1, 2025-06/4CH1-2CR/er.pdf p3) — "imprecise terminology related to metallic and ionic bonding led to lower
@@ -366,16 +382,16 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Misconception:** Candidates name rust as "iron oxide", "iron hydroxide", or give a
 process word ("oxidation") where the chemical name with oxidation state is required;
 others know the oxide idea but omit the (III) state and score zero.
-**Why it occurs:** Everyday word "rust" carries no oxidation-state information;
+**Why it occurs [SIB_INFERENCE]:** Everyday word "rust" carries no oxidation-state information;
 candidates under-rehearse the naming convention as an examinable fact.
 **Correct understanding:** Rust is hydrated iron(III) oxide — the chemical name must
 carry the oxidation state (iron(III) oxide).
 **Typical manifestation:** "iron(II) oxide", "iron hydroxide", "iron oxide" with no
 state, or "oxidation" as the name.
-**Diagnostic signals:** Any corrosion question; require the full chemical name.
-**Intervention ideas:** Naming-with-oxidation-state drill on common compounds; contrast
+**Diagnostic signals [SIB_INFERENCE]:** Any corrosion question; require the full chemical name.
+**Intervention ideas [PROPOSED_INTERVENTION]:** Naming-with-oxidation-state drill on common compounds; contrast
 iron(II) vs iron(III) oxide formulas.
-**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Q2(a)(i) (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p6) —
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2023 4CH1/1C, Q2(a)(i) (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p6) —
 "the oxidation state was frequently missing and so no mark was scored";
 November 2024 4CH1/1C, Q3(a)(ii) (SRC-ER-4CH1, 2024-11/4CH1-1C/er.pdf p3) — errors "iron(II) oxide, iron hydroxide,
 and iron oxide with no oxidation state given".
@@ -390,20 +406,20 @@ Temporal scope: CURRENT — AUTHORITATIVE
 switched on diagrams; total electron count given where configuration is asked; shell
 count not mapped to period; isotope-mass calculations done by adding masses without
 multiplying by abundances; electron configuration written for the wrong term.
-**Why it occurs:** The atom's number vocabulary (protons/neutrons/mass number/
+**Why it occurs [SIB_INFERENCE]:** The atom's number vocabulary (protons/neutrons/mass number/
 configuration) is dense and label-dependent; under time pressure adjacent labels swap.
 **Correct understanding:** Proton number defines identity and period (via shells);
 mass number = protons + neutrons; RAM = Σ(isotope mass × fractional abundance);
 configuration lists electrons per shell (2,3 for boron — not 5).
 **Typical manifestation:** Switched labels still earning partial credit; "5" where
 "2,3" was asked; sums instead of weighted means.
-**Diagnostic signals:** Particle-diagram items; isotope-table items; period/group
+**Diagnostic signals [SIB_INFERENCE]:** Particle-diagram items; isotope-table items; period/group
 inference items.
-**Intervention ideas:** Label-locked diagrams; weighted-mean template; shells↔period
+**Intervention ideas [PROPOSED_INTERVENTION]:** Label-locked diagrams; weighted-mean template; shells↔period
 flash questions.
-**Intervention note:** spelling of particle names is itself a flagged loss source —
+**Intervention note [PROPOSED_INTERVENTION]:** spelling of particle names is itself a flagged loss source —
 examiners applied "benefit of doubt" but warn on illegibility.
-**Evidence:** Pearson examiner reports June 2019 4CH1/2CR, Question 2 (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3);
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2019 4CH1/2CR, Question 2 (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3);
 November 2024 4CH1/2C, Question 1 (SRC-ER-4CH1, 2024-11/4CH1-2C/er.pdf p3); June 2025 4CH1/1C, Q1(a)/Q1(b) (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf
 pp4–5).
 

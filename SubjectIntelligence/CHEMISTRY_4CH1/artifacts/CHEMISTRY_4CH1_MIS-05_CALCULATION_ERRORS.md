@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-003"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "04df741df6185d2f5b6ccefd219244f36e24d40b"
-    syllabai_resources: "2453da51e3d7ab089e3989acfe0843357dab59a4"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
 ---
 
 # MIS-05 — Calculation Errors
@@ -51,6 +51,22 @@ name them. Every record is grounded on an official Pearson examiner report for a
 session and paper, carried in the run's evidence pack with page identity. It is a
 research artifact: it does not promote these observations into canonical educational
 truth (Subject Intelligence Build v1, §5).
+
+**Claim-type labeling (BL-011, RUN-011):** records separate what the official
+examiner corpus says from what SyllabAI infers from it and proposes for the classroom.
+`[OBSERVED_IN_SOURCE]` marks fields whose content quotes or directly paraphrases the
+cited official evidence (Evidence / Motivating evidence / Examiner guidance fields).
+`[SIB_INFERENCE]` marks SyllabAI's own explanatory and diagnostic reasoning, grounded
+on but not stated by that evidence (Why it occurs / Why the reasoning fails /
+Diagnostic signals / Signal tested / Fail pattern / Pass pattern). `[PROPOSED_INTERVENTION]`
+marks proposed classroom actions, not observed facts (Intervention ideas / Intervention /
+Intervention note / Drill design / Success signal / Probe). The remaining record fields
+(Concepts, Specification Points, Temporal scope, Assessment context, Misconception /
+Error / The confusion, Correct understanding / distinction / reasoning / technique /
+usage, Typical manifestation, Credit-worthy form) are record descriptors whose grounding
+is the record's cited evidence. The per-record `Temporal scope: CURRENT — AUTHORITATIVE`
+stamp carries the source-classification vocabulary defined in SOURCE_REQUIREMENTS.md
+§4.1 (definitions of record).
 
 ## Scope
 
@@ -85,14 +101,14 @@ Temporal scope: CURRENT — AUTHORITATIVE
 "a significant number of candidates lost marks through simple rounding errors";
 "rounding errors to 10.7 were seen" where one decimal place was requested; and "A few
 lost a mark by not dividing by 100 or rounding the answer to 11."
-**Why it occurs:** calculator-display habits; "one decimal place" applied throughout
+**Why it occurs [SIB_INFERENCE]:** calculator-display habits; "one decimal place" applied throughout
 rather than to the final answer.
 **Correct technique:** carry at least the question data's significant figures through all
 intermediates; round once, at the end, to the requested precision.
 **Typical manifestation:** final answers off by rounding; examiner advice: "suggesting a
 need for greater care in evaluating final answers."
-**Diagnostic signals:** multi-step chains; inspect intermediate values.
-**Evidence:** Pearson examiner report June 2025 4CH1/2CR, Introduction (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** multi-step chains; inspect intermediate values.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2025 4CH1/2CR, Introduction (SRC-ER-4CH1,
 2025-06/4CH1-2CR/er.pdf p3); November 2023 4CH1/1C, Q2c(ii) (SRC-ER-4CH1,
 2023-11/4CH1-1C/er.pdf p3); June 2019 4CH1/2CR, Question 2(b) (SRC-ER-4CH1,
 2019-06/4CH1-2CR/er.pdf p3).
@@ -105,14 +121,14 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** the computed average is rounded to the most abundant isotope's mass number —
 "just rounding the answer to the value of the most abundant isotope defeats the purpose
 of doing the calculation."
-**Why it occurs:** the answer looks 'wrong' if not a whole number; candidates do not see
+**Why it occurs [SIB_INFERENCE]:** the answer looks 'wrong' if not a whole number; candidates do not see
 that the non-integer IS the result.
 **Correct technique:** the weighted mean is the answer; precision is the point of the
 calculation.
 **Typical manifestation:** 11 offered where the weighted mean was required.
-**Diagnostic signals:** RAM-from-isotopes items; check whether the answer preserved the
+**Diagnostic signals [SIB_INFERENCE]:** RAM-from-isotopes items; check whether the answer preserved the
 mean.
-**Evidence:** Pearson examiner report June 2019 4CH1/2CR, Question 2(b) (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/2CR, Question 2(b) (SRC-ER-4CH1,
 2019-06/4CH1-2CR/er.pdf p3).
 
 ### MIS-038 — Stoichiometric ratio neglected
@@ -124,13 +140,13 @@ Temporal scope: CURRENT — AUTHORITATIVE
 questions were well attempted, but frequently the stoichiometric ratio was neglected,
 and candidates were then unable to score full marks"; and "Ratios in equations were a
 problem for some candidates and this was often missed."
-**Why it occurs:** the ratio lives in the equation, not the arithmetic habit; mole-map
+**Why it occurs [SIB_INFERENCE]:** the ratio lives in the equation, not the arithmetic habit; mole-map
 recipes skip it.
 **Correct technique:** mass → moles with plain Mr; apply the ratio ONCE at the mole
 stage; convert back.
 **Typical manifestation:** correct method, wrong factor of 2/3.
-**Diagnostic signals:** any multi-step mole question; check where the ratio entered.
-**Evidence:** Pearson examiner report June 2024 4CH1/2CR, Introduction (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** any multi-step mole question; check where the ratio entered.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2024 4CH1/2CR, Introduction (SRC-ER-4CH1,
 2024-06/4CH1-2CR/er.pdf p3); June 2022 4CH1/1C, Introduction (SRC-ER-4CH1,
 2022-06/4CH1-1C/er.pdf p3).
 
@@ -143,13 +159,13 @@ Temporal scope: CURRENT — AUTHORITATIVE
 calculations, to consider the ratio only once. Some candidates incorporate the ratio in
 the calculation of Mr – which is an acceptable method – but then consider it again later
 in the calculation."
-**Why it occurs:** the ratio is mis-filed as belonging to 'the Mr step' AND 'the mole
+**Why it occurs [SIB_INFERENCE]:** the ratio is mis-filed as belonging to 'the Mr step' AND 'the mole
 step'; both habits fire.
 **Correct technique:** the ratio enters the calculation at exactly one point — either
 inside Mr (acceptable) or at the mole conversion (standard), never both.
 **Typical manifestation:** correct-looking working with a systematic factor error.
-**Diagnostic signals:** mole chains; count how many times the ratio multiplies.
-**Evidence:** Pearson examiner report June 2023 4CH1/2CR, Introduction (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** mole chains; count how many times the ratio multiplies.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2023 4CH1/2CR, Introduction (SRC-ER-4CH1,
 2023-06/4CH1-2CR/er.pdf p3).
 
 ### MIS-040 — Volume conversion omitted in titration work
@@ -159,13 +175,13 @@ inside Mr (acceptable) or at the mole conversion (standard), never both.
 Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** "The most common error was to omit the volume conversion, giving an answer of
 1.25 which was awarded one mark" where 0.00125 was required.
-**Why it occurs:** the ÷1000 step is attached to 'chemistry numbers' rather than to the
+**Why it occurs [SIB_INFERENCE]:** the ÷1000 step is attached to 'chemistry numbers' rather than to the
 unit; the raw division looks finished.
 **Correct technique:** convert cm3 → dm3 before moles = conc × vol; carry units through
 the chain.
 **Typical manifestation:** factor-of-1000 answers; one of two marks salvaged.
-**Diagnostic signals:** titration chains; check the unit on every volume.
-**Evidence:** Pearson examiner report June 2019 4CH1/2CR, Question 6(d)(i) (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** titration chains; check the unit on every volume.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/2CR, Question 6(d)(i) (SRC-ER-4CH1,
 2019-06/4CH1-2CR/er.pdf p6).
 
 ### MIS-041 — Final-answer precision and 'deduce' discipline
@@ -178,12 +194,12 @@ data did not justify it, and wasted effort against the command word: "When a que
 just worth one mark and starts with the command word 'deduce' this usually means that no
 calculation is necessary… some candidates wasted time attempting to calculate the moles
 of ethanoic acid."
-**Why it occurs:** precision rules are applied as defaults; command words are skimmed.
+**Why it occurs [SIB_INFERENCE]:** precision rules are applied as defaults; command words are skimmed.
 **Correct technique:** give the answer at the precision the data supports; read 'deduce'
 as 'no calculation required'.
 **Typical manifestation:** precision marks dropped; time lost on unnecessary work.
-**Diagnostic signals:** one-mark items; audit final-answer figures.
-**Evidence:** Pearson examiner report June 2019 4CH1/2CR, Question 6(d) (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** one-mark items; audit final-answer figures.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/2CR, Question 6(d) (SRC-ER-4CH1,
 2019-06/4CH1-2CR/er.pdf p6).
 
 ### MIS-042 — Electron configuration vs total electron count
@@ -194,11 +210,11 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** the configuration is answered with a scalar — "a few wrote the total number
 of electrons (5) instead of the electron configuration (2,3)"; relatedly "A minority
 thought boron was in period 1".
-**Why it occurs:** the question's noun (configuration) is read as 'how many electrons'.
+**Why it occurs [SIB_INFERENCE]:** the question's noun (configuration) is read as 'how many electrons'.
 **Correct technique:** configuration is a per-shell list; period follows shell count.
 **Typical manifestation:** '5' where '2,3' was asked.
-**Diagnostic signals:** configuration items; require the comma-list form.
-**Evidence:** Pearson examiner report June 2019 4CH1/2CR, Question 2(a) (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** configuration items; require the comma-list form.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/2CR, Question 2(a) (SRC-ER-4CH1,
 2019-06/4CH1-2CR/er.pdf p3).
 
 ## Evidence / Source Basis

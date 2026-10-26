@@ -77,6 +77,40 @@ The source manifest classifies each source as:
 
 For each source, capture its type, issuing body, specification, version or date, coverage, provenance and known limitations.
 
+### 4.1 Definitions of record (BL-011, RUN-011, 2026-10-27)
+
+The classification vocabulary above was listed at build time and used by
+`source_manifest.yaml` and the per-record artifact stamps without in-repo definitions
+(the external-review finding: `CURRENT — AUTHORITATIVE` carried 547 occurrences across
+the 95 artifacts while undefined in-repo). Definitions of record:
+
+- `CURRENT — AUTHORITATIVE`: an official, currently-in-force source from the issuing
+  body (specification, current student book, validated teaching/learning corpus). Its
+  content defines the current truth an artifact may assert. The per-record artifact
+  stamp `Temporal scope: CURRENT — AUTHORITATIVE` binds that record to this evidence
+  class.
+- `CURRENT — ASSESSMENT EVIDENCE`: an official, currently-valid assessment artifact
+  (question papers, mark schemes, examiner reports for live sessions). Its content is
+  evidence of what was assessed and how candidates actually performed — not of what the
+  curriculum is.
+- `SUPPLEMENTARY`: a legitimate but non-official or non-primary source (teaching
+  platforms, revision aggregators). May add texture; never grounds an
+  official-identity claim alone (per-family law: `../pipeline/evidence_policy.yaml`).
+- `LEGACY — HISTORICAL`: a superseded-specification-era source (the 4CH0 corpus).
+  Grounds only explicitly labeled legacy claims; never presented as current truth
+  (protocol §2).
+- `RESEARCH / INFERRED`: SyllabAI's own analytical layer — inference, pattern claims,
+  proposed interventions — grounded on but not stated by the official sources. In
+  artifact bodies this layer carries the explicit claim-type labels below.
+
+Claim-type labels (MIS-family record fields since RUN-011):
+
+- `OBSERVED_IN_SOURCE` — the field quotes or directly paraphrases the record's cited
+  official evidence.
+- `SIB_INFERENCE` — SyllabAI's own explanatory or diagnostic reasoning, grounded on
+  but not stated by that evidence.
+- `PROPOSED_INTERVENTION` — a proposed classroom action, not an observed fact.
+
 ## 5. Recommended minimum corpus for 4CH1
 
 Before starting the full 95-artifact build, check that these six groups are accessible:

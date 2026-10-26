@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-003"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "04df741df6185d2f5b6ccefd219244f36e24d40b"
-    syllabai_resources: "2453da51e3d7ab089e3989acfe0843357dab59a4"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
 ---
 
 # MIS-06 — Terminology Errors
@@ -51,6 +51,22 @@ knowledge failures". Every record is grounded on an official Pearson examiner re
 a named session and paper, carried in the run's evidence pack with page identity. It is
 a research artifact: it does not promote these observations into canonical educational
 truth (Subject Intelligence Build v1, §5).
+
+**Claim-type labeling (BL-011, RUN-011):** records separate what the official
+examiner corpus says from what SyllabAI infers from it and proposes for the classroom.
+`[OBSERVED_IN_SOURCE]` marks fields whose content quotes or directly paraphrases the
+cited official evidence (Evidence / Motivating evidence / Examiner guidance fields).
+`[SIB_INFERENCE]` marks SyllabAI's own explanatory and diagnostic reasoning, grounded
+on but not stated by that evidence (Why it occurs / Why the reasoning fails /
+Diagnostic signals / Signal tested / Fail pattern / Pass pattern). `[PROPOSED_INTERVENTION]`
+marks proposed classroom actions, not observed facts (Intervention ideas / Intervention /
+Intervention note / Drill design / Success signal / Probe). The remaining record fields
+(Concepts, Specification Points, Temporal scope, Assessment context, Misconception /
+Error / The confusion, Correct understanding / distinction / reasoning / technique /
+usage, Typical manifestation, Credit-worthy form) are record descriptors whose grounding
+is the record's cited evidence. The per-record `Temporal scope: CURRENT — AUTHORITATIVE`
+stamp carries the source-classification vocabulary defined in SOURCE_REQUIREMENTS.md
+§4.1 (definitions of record).
 
 ## Scope
 
@@ -84,14 +100,14 @@ sessions without a public ER (disclosed gaps, never filled).
 Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** displacement products get the wrong suffix class — "stating that chlorine
 displaces bromide and iodide is incorrect rather than displaces bromine and iodine."
-**Why it occurs:** the -ine/-ide rule is a naming-layer convention on top of understood
+**Why it occurs [SIB_INFERENCE]:** the -ine/-ide rule is a naming-layer convention on top of understood
 reactivity; the labels swap under pressure.
 **Correct usage:** products of displacement are the displaced ELEMENTS (bromine, iodine);
 'halide' names the ion in solution.
 **Typical manifestation:** -ide products in otherwise-correct displacement orders.
-**Examiner guidance:** "Teachers need to encourage them to use the correct terminology
+**Examiner guidance [OBSERVED_IN_SOURCE]:** "Teachers need to encourage them to use the correct terminology
 when describing these reactions."
-**Evidence:** Pearson examiner report November 2023 4CH1/2C, Question 1 (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2023 4CH1/2C, Question 1 (SRC-ER-4CH1,
 2023-11/4CH1-2C/er.pdf p3); June 2023 4CH1/1C, Introduction (SRC-ER-4CH1,
 2023-06/4CH1-1C/er.pdf p3).
 
@@ -105,13 +121,13 @@ Temporal scope: CURRENT — AUTHORITATIVE
 atoms in a molecule, and an intermolecular force between molecules"; long-response
 candidates "lacked a firm grasp of key terminology (eg incorrect use of intermolecular
 forces)".
-**Why it occurs:** both scales are called 'bonds' in everyday speech; the technical
+**Why it occurs [SIB_INFERENCE]:** both scales are called 'bonds' in everyday speech; the technical
 distinction is unpractised.
 **Correct usage:** intermolecular forces act BETWEEN molecules and are overcome at
 melting/boiling; covalent bonds act WITHIN molecules and survive state changes.
 **Typical manifestation:** 'bonds break' at boiling; IMF cited where bonds were meant.
-**Examiner guidance:** examiners name the exact phrase as the terminology failure.
-**Evidence:** Pearson examiner report June 2023 4CH1/1C, Introduction (SRC-ER-4CH1,
+**Examiner guidance [OBSERVED_IN_SOURCE]:** examiners name the exact phrase as the terminology failure.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2023 4CH1/1C, Introduction (SRC-ER-4CH1,
 2023-06/4CH1-1C/er.pdf p3); June 2025 4CH1/1C, Introduction (SRC-ER-4CH1,
 2025-06/4CH1-1C/er.pdf p3).
 
@@ -124,12 +140,12 @@ Temporal scope: CURRENT — AUTHORITATIVE
 common wrong names "iron(II) oxide, iron hydroxide, and iron oxide with no oxidation
 state given"; some "named a process such as oxidation rather than giving the chemical
 name".
-**Why it occurs:** everyday 'rust' carries no state information; the (III) feels optional.
+**Why it occurs [SIB_INFERENCE]:** everyday 'rust' carries no state information; the (III) feels optional.
 **Correct usage:** rust is hydrated iron(III) oxide — variable-oxidation compounds need
 the Roman numeral.
 **Typical manifestation:** zero scored despite knowing rust is an iron oxide.
-**Examiner guidance:** the name, not the process word, is the markable object.
-**Evidence:** Pearson examiner report June 2023 4CH1/1C, Q2(a)(i) (SRC-ER-4CH1,
+**Examiner guidance [OBSERVED_IN_SOURCE]:** the name, not the process word, is the markable object.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2023 4CH1/1C, Q2(a)(i) (SRC-ER-4CH1,
 2023-06/4CH1-1C/er.pdf p6); November 2024 4CH1/1C, Q3(a)(ii) (SRC-ER-4CH1,
 2024-11/4CH1-1C/er.pdf p3).
 
@@ -142,14 +158,14 @@ Temporal scope: CURRENT — AUTHORITATIVE
 electrons said to "move or slid" for malleability; and generally "the use of imprecise
 terminology related to metallic and ionic bonding led to lower average marks in this
 section compared to others."
-**Why it occurs:** 'charged things move' is over-generalised across structures.
+**Why it occurs [SIB_INFERENCE]:** 'charged things move' is over-generalised across structures.
 **Correct usage:** metals: delocalised electrons move (conduction), layers slide
 (malleability); molten/aqueous ionic compounds: the ions move.
 **Typical manifestation:** both-mark losses on structure→property items; lower section
 averages.
-**Examiner guidance:** examiners' wording ("layers moved and slid over each other",
+**Examiner guidance [OBSERVED_IN_SOURCE]:** examiners' wording ("layers moved and slid over each other",
 "delocalised electrons") is the model vocabulary.
-**Evidence:** Pearson examiner report November 2024 4CH1/2C, Question 2 (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2024 4CH1/2C, Question 2 (SRC-ER-4CH1,
 2024-11/4CH1-2C/er.pdf p3); June 2025 4CH1/2CR, Introduction (SRC-ER-4CH1,
 2025-06/4CH1-2CR/er.pdf p3).
 
@@ -161,14 +177,14 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** "it was quite common to see the statement the particles do not move, without
 adding the key word around or freely" — the word 'vibrate' absent where it is the
 markable term.
-**Why it occurs:** everyday 'moving' means translating; the kinetic model's sense is
+**Why it occurs [SIB_INFERENCE]:** everyday 'moving' means translating; the kinetic model's sense is
 unpractised in words.
 **Correct usage:** particles in a solid vibrate about fixed positions; in liquids they
 move around; in gases they move freely.
 **Typical manifestation:** 'do not move' statements; vague movement prose.
-**Examiner guidance:** mark-scheme language — vibrate about fixed positions — should be
+**Examiner guidance [OBSERVED_IN_SOURCE]:** mark-scheme language — vibrate about fixed positions — should be
 rehearsed verbatim.
-**Evidence:** Pearson examiner report June 2019 4CH1/1CR, Question 1 (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/1CR, Question 1 (SRC-ER-4CH1,
 2019-06/4CH1-1CR/er.pdf p3).
 
 ### MIS-048 — Method terminology: 'covering/coating' vs 'barrier'
@@ -179,12 +195,12 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** the protective mechanism is described with the everyday phrase where the
 mark-scheme concept was demanded — "candidates often used the term covering/coating
 rather than barrier losing them M1 but they were able to continue and achieve M2."
-**Why it occurs:** the physical act (covering) is described instead of the chemical
+**Why it occurs [SIB_INFERENCE]:** the physical act (covering) is described instead of the chemical
 function (excluding oxygen/water as a barrier).
 **Correct usage:** name the function — a barrier excluding the reactants of rusting.
 **Typical manifestation:** first marking point lost; partial credit pattern.
-**Examiner guidance:** the M1/M2 split shows exactly which word carried the mark.
-**Evidence:** Pearson examiner report November 2024 4CH1/1C, Q3(b)(i) (SRC-ER-4CH1,
+**Examiner guidance [OBSERVED_IN_SOURCE]:** the M1/M2 split shows exactly which word carried the mark.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2024 4CH1/1C, Q3(b)(i) (SRC-ER-4CH1,
 2024-11/4CH1-1C/er.pdf p3).
 
 ### MIS-049 — Formula-writing mechanics: subscripts, charges, spelling
@@ -197,14 +213,14 @@ formulae being MgO2, Mg2 or O as a single atom rather than O2"; label switches o
 particle diagrams ("proton and neutron labels being switched… the spelling of the
 subatomic particles was often poor"); name/suffix slips in organic formulae ("confusion
 between ene and ane in Q09(c)").
-**Why it occurs:** formulae are written from memory of sounds, not from valency rules;
+**Why it occurs [SIB_INFERENCE]:** formulae are written from memory of sounds, not from valency rules;
 handwriting pressure degrades labels.
 **Correct usage:** valency-derived formulae with correct subscripts; complete, legible
 particle names; -ene/-ane suffixes checked against the structure.
 **Typical manifestation:** otherwise-correct chemistry losing formula marks.
-**Examiner guidance:** the formulae errors are itemized by the examiners themselves; at
+**Examiner guidance [OBSERVED_IN_SOURCE]:** the formulae errors are itemized by the examiners themselves; at
 this level the relative mass of protons and neutrons is taken as 1.
-**Evidence:** Pearson examiner report November 2023 4CH1/2C, Question 2 (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2023 4CH1/2C, Question 2 (SRC-ER-4CH1,
 2023-11/4CH1-2C/er.pdf p3); June 2025 4CH1/1C, Questions 1(a) and Introduction
 (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p4 and p3).
 
