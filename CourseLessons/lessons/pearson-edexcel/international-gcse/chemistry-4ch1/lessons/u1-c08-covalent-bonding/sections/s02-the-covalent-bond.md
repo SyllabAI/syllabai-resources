@@ -8,7 +8,7 @@ blocks: []
 glossary: [covalent-bond, electrostatic-attraction, isoelectronic]
 ---
 
-Every bond you will meet on this course — ionic, covalent, metallic — is held
+Every bond you will meet — ionic, covalent, metallic — is held
 together by the same physics: **electrostatic attractions between something
 positively charged and something negatively charged**. What makes a
 **[[covalent-bond]]** different is the arrangement. In a covalent bond, a

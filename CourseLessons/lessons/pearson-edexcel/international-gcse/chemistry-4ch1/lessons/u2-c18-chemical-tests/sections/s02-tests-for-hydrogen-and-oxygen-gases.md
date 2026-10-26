@@ -45,7 +45,7 @@ hydrogen pop gives 2H₂(g) + O₂(g) → 2H₂O(l) — balanced, with state sym
 confirms hydrogen is present, but hydrogen only explodes cleanly when mixed
 with air — pure hydrogen in a tube that never met air burns quietly or not at
 all. Equally, the pop test does not identify hydrogen uniquely among all
-conceivable gases; it identifies hydrogen among the gases of this course. Say
+conceivable gases; it identifies hydrogen among the gases you will meet. Say
 "squeaky pop with a lighted splint, so hydrogen" — the full script is what
 earns the mark.
 :::

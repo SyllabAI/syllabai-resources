@@ -9,3 +9,14 @@ post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6
 parse_artifact: 'the c14 objectives chunk 0559 is column-interleaved (Figure 14.2 gold caption splits the 2.16 and 2.20 objectives across fragments) — 10 raw fragments reassembled to 7 logical objectives, spine-authoritative, disclosed in authoring receipt; 14 display/figure fragment ids absent from the parse (0561-0563/0571/0575/0579/0580/0585/0588/0589/0603/0604/0613/0621 — v3 pipeline drops display fragments, c12/c13 precedent) — equations restored in words + symbols, balance-checked in-lane, disclosed in receipt ocr_notes; chapter-questions chunks 0622-0628 page-jump-only per licensing law'
 tracker_transaction: 'law-10 via lessonctl tracker in this flip commit: pack_status=published, last_receipt=qa/flip-published.yaml, sections 20/20; TRACKER.md header line + board row 14 (unit-2 phase in-progress since c11)'
 next: 'v2 bake lane fires next in syllabai-v2 (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c14 bake + index 13->14 additive; c01-c13 byte-identical expected) — merge = the git-connected hub auto-bake: the u2:c14 Lesson toggle + shelf entry go live at the production origin of record syllabai-hub-v2.vercel.app (battery scripts/tc20-battery.mjs --expect-packs 14 in the bake lane gates)'
+
+# law-7 flip receipt (r2) — u2-c14-reactivity-series fleet de-trip (f-0036 ruling executed)
+command: 'operator ruling "fleet de-trip lane" (trace 1a179816098091b5) — r2 flip under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-27T00:53:05+06:00'
+head_at_flip: 720245a9
+agent: "T-BOOK-064 r2 (session web-c414c074 chat 08b3170a, trace 1a179816098091b5)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 80383 -> 80387 bytes, +4; sha256 e7754e7c... -> ac00dacc7808d5e446d8c0abe2d7879ad25bb316f710328751c40673835e8349...) — the r2 re-emit carries the fleet de-trip(s), so this flip DOES move artifact bytes (the voice fix leaves production at the post-merge bake)'
+pack_identity: '20 sections; sources sha-pinned (course.yaml bookOfRecord/parseOfRecord); pre-edit emit-parity proven modulo status; paperRoute per lesson.yaml'
+post_flip_checks: 're-lint GREEN 0 errors (V1-V9 at stage S4, V5/V6 gates ON); tracker_check.py exit 0 (V10 gate, f-0035) rides the lane commit'
+tracker_transaction: 'law-10 tx rides this lane commit (tracker.yaml last_receipt/last_agent/updated_at + TRACKER.md row Owner tail)'
+next: 'v2 bake lane post-merge (9 pack byte deltas expected; 20 packs byte-identical assert; G4 x29 index-driven + 4 books suites + T-C20 battery --expect-packs 29)'

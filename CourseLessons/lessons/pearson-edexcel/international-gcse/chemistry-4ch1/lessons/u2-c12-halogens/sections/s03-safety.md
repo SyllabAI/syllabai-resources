@@ -9,7 +9,7 @@ glossary: [fume-cupboard]
 ---
 
 Before any halogen reaction, the hazards — because this family is the
-most dangerous set of elements you will meet on this course. **Fluorine**
+most dangerous set of elements you will meet. **Fluorine**
 is so dangerously reactive that you would never expect to find it in a
 school lab at all; the reactions it drives are violent beyond anything a
 teaching room is equipped to control. The school-taught members —

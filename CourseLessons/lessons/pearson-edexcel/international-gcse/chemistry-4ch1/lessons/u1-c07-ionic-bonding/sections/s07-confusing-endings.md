@@ -24,7 +24,7 @@ sulfur **and oxygen** — Cu²⁺ and SO₄²⁻, formula **CuSO₄**.
 Read the ending FIRST — -ide → two-element pair; -ate → oxygen present —
 then pick the ion from the learn-list. Sulfide S²⁻ versus sulfate SO₄²⁻;
 nitride N³⁻ versus nitrate NO₃⁻; chloride Cl⁻ versus chlorate (you will
-not need chlorate on this course, but the ending logic already tells you it
+not need chlorate, but the ending logic already tells you it
 carries oxygen). In "explain why the formula is wrong" items, the wrong
 ending is usually the whole story.
 :::

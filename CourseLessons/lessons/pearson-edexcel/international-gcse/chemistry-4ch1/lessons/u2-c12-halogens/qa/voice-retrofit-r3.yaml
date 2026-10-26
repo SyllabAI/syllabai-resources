@@ -1,0 +1,24 @@
+stage: S4
+date: "2026-10-27"
+agent: "T-BOOK-064 r2 (session web-c414c074 chat 08b3170a, trace 1a179816098091b5)"
+prompt_version: "lesson-prose@2.0.0"
+lane: "fleet de-trip — f-0036 vocabulary ruling executed (operator ruling 'fleet de-trip lane', trace 1a179816098091b5; standing merge+flip trace 1a1658a2da08e5bd)"
+trace_id: "1a179816098091b5"
+summary: >-
+  T-BOOK-064 r2 fleet de-trip (f-0036 vocabulary ruling executed: the operator
+  ruled the 9-pack 'this course' section-body census DE-TRIP, not house-style
+  blessing). Pre-edit emit-parity PROVEN — emit from sources reproduces the
+  shipped JSON byte-identically modulo status, so sources and artifact were in
+  sync and the sync carried LIVE voice debt. one de-trip de-trip(s) (byte-exact, zero
+  substance change): one de-trip: s03 'the most dangerous set of elements you will meet on this course' -> 'the most dangerous set of elements you will meet' Re-emit carries the de-trip(s); law-7
+  flip r2 lands the artifact; source-emit parity restored post-lane.
+artifact_plane: >-
+  qa/lessonPackV1.json sha256 28ac7a20 (37689B, pre-lane
+  shipped) -> 5f824b99 (37674B, post-flip r2): the delta
+  is exactly the de-tripped markdown body/bodies + the status field cycle
+  (law-7 +4B exactly-1 held at flip). No v2 bake in-lane — the bake lane fires
+  post-merge (byte delta expected).
+kept_disclosed:
+  - 'this lesson' family (By the end of this lesson / Before this lesson / This lesson's practice is wired to the question bank below) — KEPT as house style of record (r1 adjudication stands; rule 3 bans PRINT question-bank narration only)
+  - c05 learningObjective 'for reactions studied in this course' — SPEC-VERBATIM KEPT (Edexcel 1.19/1.20 wording, verbatim-pinned from course.yaml; r1 adjudication stands) — this is why no mechanical lint ban exists for course tokens; the class stays per-hit adjudicated
+  - EXTENDED CENSUS disclosed, NOT repaired (outside the ruled 'this course' census): widened net '(in|of|across) the course' finds 16 further container tokens across 8 packs (c06 x2, c08 x4, c10 x2, c11 x1, c13 x1, c14 x1, c17 x4) — same container-narration class; filed in f-0037 for the next operator ruling

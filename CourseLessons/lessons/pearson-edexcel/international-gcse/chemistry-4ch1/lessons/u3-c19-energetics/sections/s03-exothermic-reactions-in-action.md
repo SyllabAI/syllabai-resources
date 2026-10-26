@@ -8,7 +8,7 @@ blocks: []
 glossary: [exothermic, displacement-reaction]
 ---
 
-You have already met dozens of [[exothermic]] reactions across this course — this
+You have already met dozens of [[exothermic]] reactions — this
 section gathers the families the examiners expect you to recognise on sight.
 
 **Any reaction that produces a flame is exothermic.** Burning things releases
