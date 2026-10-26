@@ -22,7 +22,7 @@ pictures, read on and we will build them properly there.
 
 :::key-point
 The three states of matter are **solid, liquid and gas**. Every substance
-you will meet in this course is one of the three (or changing between two
+you will meet is one of the three (or changing between two
 of them).
 :::
 

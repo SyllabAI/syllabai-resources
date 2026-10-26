@@ -42,8 +42,7 @@ of particles — and the [[kinetic-energy]] of those particles.
 Before this lesson you should be comfortable with **elements, compounds and
 mixtures** vocabulary from Key Stage 3, and with reading simple particle
 diagrams. This is the first chapter of Unit 1 — there is no earlier lesson
-in this course to link back to, so the Prior Knowledge you need is from
-KS3, not from SyllabAI.
+to link back to, so the Prior Knowledge you need is from KS3.
 :::
 
 :::cross-curricular
