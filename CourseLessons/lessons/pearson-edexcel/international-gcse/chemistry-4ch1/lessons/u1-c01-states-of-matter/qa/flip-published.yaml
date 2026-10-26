@@ -19,3 +19,14 @@ pack_identity: '13 sections; sources sha-pinned (course.yaml bookOfRecord/parseO
 post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON); tracker_check.py exit 0 (V10 gate, f-0035) rides the lane commit'
 tracker_transaction: 'law-10 tx rides this lane commit (tracker.yaml last_receipt/last_agent/updated_at + TRACKER.md row Owner tail)'
 next: 'v2 bake lane post-merge (c01+c02 byte deltas expected; c05/c06 + remaining 25 packs byte-identical assert; G4 x29 index-driven + 4 suites 34/34 + T-C20 battery --expect-packs 29)'
+
+# law-7 flip receipt (T-BOOK-066) — u1-c01-states-of-matter media-embed video pilot
+command: 'operator order "run the T-BOOK-066 chain" (trace 1a179c0ba4ff04ed) — ADR-BOOK-0002 ACCEPTED (v2 ops tx f32aea04); flip under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-27T02:09:35+06:00'
+head_at_flip: 0261a2b9
+agent: "T-BOOK-066 (session web-c414c074 chat 08b3170a, trace 1a179c0ba4ff04ed)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 42091 -> 42095 bytes, +4; sha256 1eb0e922... -> 69628499...) — the re-emit carries the s02 blockIds fill (blocks: [c01-states-and-solutions/b08]), so the flip DOES move artifact bytes (lane delta 42049 -> 42095, +46B)'
+pack_identity: '13 sections; sources sha-pinned (course.yaml bookOfRecord/parseOfRecord); pre-edit emit-parity proven modulo status; paperRoute per lesson.yaml'
+post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON); tracker_check.py exit 0 (V10 gate, f-0035) rides the lane commit'
+tracker_transaction: 'law-10 tx rides this lane commit (tracker.yaml last_receipt/last_agent/updated_at + TRACKER.md row 1 Owner tail)'
+next: 'v2 authoring PR merge (branch t-book-066/media-embed-pilot @ 42caa0b9) -> v2 bake lane post-merge (c01 byte delta expected; 28 packs byte-identical assert; G4 x29 index-driven + 4 suites + T-C20 battery --expect-packs 29) -> operator S4 lever (books-ingest-rail.ts apply + VALIDATED flip) for live rail serving'

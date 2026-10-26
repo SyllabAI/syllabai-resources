@@ -4,7 +4,7 @@ title: "The three states of matter"
 bookPage: 3
 chunkRefs: [chem_v3_u1_c1_pdf012_0025]
 specRefs: ["1.1"]
-blocks: []
+blocks: [c01-states-and-solutions/b08]   # T-BOOK-066 video pilot (ADR-BOOK-0002): manifest row cog-1-1-states-of-matter-changing-state
 glossary: []
 authored: true
 ---

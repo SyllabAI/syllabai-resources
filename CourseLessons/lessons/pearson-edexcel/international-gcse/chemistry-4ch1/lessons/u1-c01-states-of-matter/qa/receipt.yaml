@@ -1,19 +1,29 @@
-stage: S1-S4
-date: "2026-10-22"
-agent: "T-BOOK-032 r0 (u1:c01 full authoring, session web-c414c074 trace 1a16150be5190d31)"
-prompt_version: "lesson-prose@1.0.0 / lesson-boxes@1.0.0 / lesson-glossary@1.0.0 (registry seeds, hand-applied this run)"
-lint: "PASS 0 errors / 0 warnings (V1-V9 at stage S4; transcript qa/lint.txt)"
-trace_id: "1a16150be5190d31"
-stages:
-  S1: "prose grounded in the chapter's 41 chunks_v3 chunks (pp. 3-11), 13/13 sections"
-  S2: "boxes per course.yaml box_allowlist: key-point, exam-hint, misconception (x13, all grounded), safety (s09, s11), did-you-know (s03, s06, s10), maths-skills (s08, s10, s11, s12, s13), worked-example (s08, s13), prior-knowledge (s01), cross-curricular (s01, s10), summary + can-you (s13), quick-check (x13)"
-  S3: "practice wired by specRefs via the derived-links law — question text never authored; book end-of-chapter questions (pp. 12-13) stay page-jump-only (licensing law)"
-  S4: "lessonPackV1.json emitted (status=draft — SUGGESTED law; operator flip is a separate command)"
-spec_join: "join_set DERIVED (never authored) from spine node igcse-chemistry-T1:SUBa in apps/hub/spines/igcse-chemistry-19.json (resourcesSha 888bca4a): 1.1, 1.2, 1.3, 1.4, 1.5C, 1.6C, 1.7C; pinned per-section and subset-checked by V3; C-points only in s11-s13 (Paper 2 band marked in prose)"
-title_refinements: "printed headings retained as provenance; learner-facing titles refined: s03 'Think about these facts:' -> 'States of matter — facts around you'; s07 printed 'DIFFUSION IN GASES' but chunk body is the dry-ice/sublimation story; s10 printed 'MEASURING SOLUBILITY' but chunk body is liquid diffusion + the particle-size estimate; s13 'EXAMPLE' -> 'Worked example — reading a solubility curve'"
-blocks: "blockIds honest-absent: the 177 VALIDATED blocks live in Neon (L3), not in-repo; renderer joins blocks by the per-section bookPage anchors (pinned from chunks_v3)"
-findings_filed: [f-0004, f-0005, f-0006]
-summary: "u1:c01 authored end-to-end for real: 13 sections S1-S4, lint GREEN 0/0, lessonPackV1.json emitted draft; 3 pipeline findings fixed at root (resume NEXT heuristic; quick-check missing from box_allowlist; phantom CLI instructions). Cross-checked against lessonPackV1 zod contract before handoff."
-r1_revision: "2026-10-23 — STANDALONE-VOICE retrofit (operator directive trace 1a168b88e0391dfd; finding f-0014; lesson-prose@2.0.0): all 13 section bodies rewritten in the lesson's own authoritative voice — book-attribution voice, QA-provenance leakage (chunk ids / receipt / print-heading talk) and PDF-deflection removed from student prose (residual scan 0 genuine hits); front-matter chunkRefs/specRefs/glossary unchanged; every chemistry fact, box, table and worked example carried over in full (voice-only rewrite, substance preserved); provenance layer (this receipt) unchanged and still carries the complete ocr_notes + boxes mapping. Re-emitted + re-flipped under the standing authorization; re-bake follows."
-r1_lint: "PASS 0 errors / 0 warnings (r1 re-run at stage S4, V5/V6 gates ON; r1 flip receipt qa/flip-published.yaml)"
-r3_verify: "2026-10-25 — retrofit-sweep VERIFICATION + closure (T-BOOK-049 r0, operator order trace 1a16f57915b6e4d9 '…and also retrofit sweep (c01–c06 + c07 spot-check)'): last pre-law residue repaired — PACK lesson.yaml stage field was stale at S1 while tracker.yaml/board have carried S4 since r1; repaired to S4 (this tx) and lint re-run at stage S4 with V5/V6 gates ON — PASS 0 errors / 0 warnings (qa/lint.txt regenerated). Verify-only sweep: stage is not a baked field, qa/lessonPackV1.json byte-unchanged (sha256 47321b77db2cddc5, 42,099 B) — no re-emit, no flip, no bake. Fleet voice audit 0 true hits; three-plane convergence re-proven (v2 baked 2ec8e1b2aa608155 == production)."
+stage: S4
+date: "2026-10-27"
+agent: "T-BOOK-066 (session web-c414c074 chat 08b3170a, trace 1a179c0ba4ff04ed)"
+prompt_version: "lesson-prose@2.0.0"
+lane: "media-embed video pilot — ADR-BOOK-0002 implementation (operator order 'run the T-BOOK-066 chain', trace 1a179c0ba4ff04ed; standing merge+flip trace 1a1658a2da08e5bd)"
+trace_id: "1a179c0ba4ff04ed"
+summary: >-
+  Media-embed video pilot (ADR-BOOK-0002 implementation): s02 blocks frontmatter
+  carries the rail block of record (c01-states-and-solutions/b08); zero lesson-prose bytes — the
+  sections s01-s13 markdown bodies are byte-identical pre/post lane (the video
+  is apparatus in the rail, never in prose — lesson-prose@2.0.0 untouched).
+artifact_plane: >-
+  qa/lessonPackV1.json: re-emit carries the s02 blockIds fill; law-7 flip lands
+  the artifact (42091 -> 42095 bytes at flip, +4 exactly-1 held;
+  lane delta vs shipped pre-lane +46B). Rail block b08 + manifest +
+  lint rule + renderer live in syllabai-v2 @ 42caa0b9 (branch
+  t-book-066/media-embed-pilot). Curation of record: Cognito IGCSE 1.1 page
+  (fetch-verified 200) embedding youtube hkBrw2fG75U (oembed 200, nocookie 200),
+  specRefs 1.1+1.2 in 4CH1-S1-a; manifest row
+  cog-1-1-states-of-matter-changing-state (books/4ch1/meta/media-sources.yaml).
+flip: 'law-7 flip single-field byte-precise (exactly-1 held; 42091 -> 42095 bytes, +4;
+  sha256 1eb0e922... -> 69628499...); head at flip 0261a2b9'
+kept_disclosed:
+  - the 1.3 solubility provider page carries NO video (census 2026-10-27) — the
+    pilot ships ONE block; the <=2 density guard is respected without padding
+  - b01-b07 remain honest-absent in section frontmatter (renderer joins the rail
+    by bookPage at serve time; the fill here pins the NEW block's mapping of record)
+  - residual operator levers: v2 PR merge, bake, books-ingest-rail.ts apply +
+    VALIDATED flip (S4 lever; rail serves honest-empty live until then)
