@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:39:24Z",
+ "generated_utc": "2026-10-26T13:58:42Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/",
@@ -53,23 +53,44 @@
    "question_count": 28,
    "questions_embedded": 22,
    "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/6-chemical-reactions/6-3-redox/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_9CXJnBMYtWdHyPzn",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 16,
+   "questions_embedded": 15,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/6-chemical-reactions/6-3-redox/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 22,
+  "questions_embedded": 37,
   "questions_missing": [
    "qstn_Kswv3rDKtN3D5KNV",
    "qstn_8D2pwk2628kkjFnZ",
    "qstn_WFFqGryrHJDjSttp",
    "qstn_tFqzPdX4qpsh6TcH",
    "qstn_4cS6bP7khF9TVYVc",
-   "qstn_MmD4tHRZJdsg3nNG"
+   "qstn_MmD4tHRZJdsg3nNG",
+   "qstn_NQyKcqJn3wfh4Gm6"
   ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "theory-questions"
   ],
-  "asset_map": {}
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/02/redox-key-terms.png": "001-redox-key-terms.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/cie-igcse-sq-6-3-rusting-diagram-.png": "002-cie-igcse-sq-6-3-rusting-diagram.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/cie-igcse-sq-6-3-q4a.png": "003-cie-igcse-sq-6-3-q4a.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/42a6e35d-4c93-49bb-b935-d0f26ed1562b.jpeg": "004-42a6e35d-4c93-49bb-b935-d0f26ed1562b.jpeg"
+  }
  },
  "questions": [
   {
@@ -1194,6 +1215,1292 @@
        "text_md": ""
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xDK62DrvhvYJqJPw",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_NJXcWdTtSSzmzQ7Y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2020",
+      "number": "42/04",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia is manufactured by the Haber process.\n\nAmmonia, NH<sub>3</sub>, is used to produce nitric acid, HNO<sub>3</sub>. This happens in a three-stage process.\n\n**Stage 1** is a redox reaction.\n\n4NH<sub>3</sub> + 5O<sub>2</sub> → 4NO + 6H<sub>2</sub>O\n\nIdentify what is oxidised in **stage 1**.\n\nGive a reason for your answer.\n\nsubstance oxidised .....................................\n\nreason    .....................................",
+     "solution_md": "a)  Identifying what has been oxidised with a reason:\n\n- N / NH<sub>3</sub>; **[1 mark]**\n- Change in oxidation state of N from -3 to +2 / increase in oxidation number / gain in oxygen / loss of electrons; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You can explain why this is oxidation in 3 different ways:*\n\n  - *As the gain of oxygen*\n  - *As the loss of electrons (extended students only)*\n  - *As the increases in oxidation number (Separate: Chemistry and extended only students)*\n- *In this question, the simplest way to describe this is that nitrogen gains oxygen*\n- *The oxidation number of N in NH*<sub>*3*</sub>* is -3 and is +2 in NO*\n- *The oxidation number of N increases, so N is oxidised*"
+    },
+    {
+     "id": "qstnprt_R4mK5tVXQJYBCQKT",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju41/04",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Zinc and copper are elements next to each other in the Periodic Table.\n\nAqueous potassium iodide reacts with aqueous copper(II) sulfate to produce iodine.\n\nBalance the chemical equation for this reaction.\n\n$\\mathrm{KI}+\\mathrm{CuSO}_{4}\\rightarrow\\mathrm{CuI}+I_{2}+K_{2}\\mathrm{SO}_{4}$",
+     "solution_md": "b)  The balanced chemical equation for this reaction is:\n\n4KI + 2CuSO<sub>4</sub> → 2CuI + I<sub>2</sub> + 2K<sub>2</sub>SO<sub>4 </sub>\n\n- Balancing of reactants; **[1 mark]**\n- Balancing of products; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *This is not a straightforward equation to balance*\n- *If you balance the K atoms by adding a 2 in front of KI on the left-hand side:*\n\n  - *2**KI + CuSO*<sub>*4*</sub>* → CuI + I*<sub>*2*</sub>* + K*<sub>*2*</sub>*SO*<sub>*4 *</sub>\n- *This would give 2 I on the LHS and 3 I on the RHS, so this can't be correct*\n- *But, if you doubled this, i.e:*\n\n  - *4**KI + CuSO*<sub>*4*</sub>* → CuI + I*<sub>*2*</sub>* + **2**K*<sub>*2*</sub>*SO*<sub>*4 *</sub>\n- *Then this would give 4 I on the LHS and 3 on the RHS, which can be balanced by putting a 2 in front of CuI:*\n\n  - *4KI + CuSO*<sub>*4*</sub>* → **2**CuI + I*<sub>*2*</sub>* + 2K*<sub>*2*</sub>*SO*<sub>*4 *</sub>\n- *Now, balance Cu and SO*<sub>*4*</sub>*:*\n\n  - *4KI + **2**CuSO*<sub>*4*</sub>* → 2CuI + I*<sub>*2*</sub>* + 2K*<sub>*2*</sub>*SO*<sub>*4 *</sub>",
+     "equations": [
+      {
+       "latex": "\\mathrm{KI}+\\mathrm{CuSO}_{4}\\rightarrow\\mathrm{CuI}+I_{2}+K_{2}\\mathrm{SO}_{4}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>KI</mi><mo> </mo><mo>+</mo><mo> </mo><msub><mi>CuSO</mi><mn>4</mn></msub><mo> </mo><mo>→</mo><mo> </mo><mi>CuI</mi><mo> </mo><mo>+</mo><mo> </mo><msub><mi mathvariant=\"normal\">I</mi><mn>2</mn></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mi mathvariant=\"normal\">K</mi><mn>2</mn></msub><msub><mi>SO</mi><mn>4</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "KI space plus space CuSO subscript 4 space rightwards arrow space CuI space plus space straight I subscript 2 space plus space straight K subscript 2 SO subscript 4"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_HY7BH5p3ByvZPSkJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju41/04",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_xg7Xrk26Mjgw9Xh4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAqueous potassium iodide reacts with aqueous copper(II) sulfate to produce iodine.\n\nBalance the chemical equation for this reaction.\n\nKI + CuSO_4 → CuI + I_2 + K_2SO_4\n\n#### Extended Only\n\nDeduce the charge on the copper ion in CuI.",
+     "solution_md": "c)  The charge on the copper ion in CuI is:\n\n- 1+; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Copper can exist as ions of different charges*\n- *Iodine only forms the 1- ion as it has 7 electrons in its outer shell so will gain one electron when it forms an ionic compound, giving it a 1- charge*\n- *The formula shows that for every 1 ion of copper there is 1 ion of iodide*\n- *The compound does not have an overall charge, so the positive and negative charges must cancel out*\n- *This means that copper must have a 1+ charge*\n- *Charges are shown with the number first, then the sign*\n\n  - *If you wrote +1, you would still be awarded the mark*"
+    },
+    {
+     "id": "qstnprt_w45GbHbM9Z3gzDjz",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju41/04",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAqueous potassium iodide reacts with aqueous copper(II) sulfate to produce iodine.\n\n4KI + 2CuSO~4~ → 2CuI + I~2~ + 2K~2~SO~4~\n\nThe charge on the copper ion in CuI is 1+.\n\n#### Extended Only\n\nIn terms of electron transfer, explain why copper is reduced in this reaction.",
+     "solution_md": "d) Copper is reduced in this reaction because:\n\n- (It / copper) gains electron(s); **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Copper changes from a 2+ ion in CuSO*<sub>*4*</sub>* to a 1+ ion in CuI*\n- *This happens by copper gaining an electron:*\n\n  - *Cu*<sup>*2+*</sup>* + e*<sup>*–*</sup>* → Cu*<sup>*+*</sup>\n- *Remember**: OIL RIG - **O**xidation **I**s **L**oss, **R**eduction **I**s **G**ain of electrons*"
+    },
+    {
+     "id": "qstnprt_3XpJnN3WKC3tXwwK",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju41/04",
+      "question_number": 3,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAqueous potassium iodide reacts with aqueous copper(II) sulfate to produce iodine.\n\n4KI + 2CuSO~4~ → 2CuI + I~2~ + 2K~2~SO~4~\n\n#### Separate: Chemistry and Extended Only\n\nIdentify the reducing agent.",
+     "solution_md": "e) The reducing agent is:\n\n- KI / potassium iodide / iodide (ions) / I<sup>–</sup>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *A reducing agent is a substance that reduces another substance and becomes oxidised in the process*\n- *In this case, the potassium iodide causes the reduction of copper, so it is, therefore, the reducing agent*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vNF7bBS9gMdjMHkt",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_z6BbvHfczb8kZzbJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nRedox reactions can be identified by colour changes.\n\nPotassium manganate(VII), KMnO<sub>4</sub>, is an oxidising agent which is used to test for the presence of reducing agents.\n\nWhat is meant by the term *oxidising agent*?",
+     "solution_md": "An *oxidising agent *is a substance that:\n\n- Oxidises another substance / makes another substance oxidise\n**OR**\nGives oxygen to another substance\n**OR**\nRemoves electrons from another substance; **[1 mark]**\n- And is itself reduced / gets reduced\n**OR**\nUndergoes reduction\n**OR**\nGains electrons; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You should know the definitions for both oxidising agent and reducing agent*\n- *You are also expected to know how to identify them in a redox reaction*\n- *Remember: the substance that gets reduced is the oxidising agent*\n- *You can define an oxidising agent in terms of:*\n\n  - *Oxygen transfer (gives oxygen)*\n  - *Electron transfer (accepts/removes electrons)*\n  - *Or simply as a substance that oxidises another substance*"
+    },
+    {
+     "id": "qstnprt_pkPdZcD5m6PSPfgG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nh8N7RNM9zvDvBp6"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the relative formula mass of potassium manganate(VII), KMnO<sub>4</sub>. Use your Periodic Table to help you.\n\nrelative formula mass = ...................................",
+     "solution_md": "The relative formula mass of potassium manganate(VII), KMnO<sub>4</sub> is:\n\n- 39 + 55 + (4 x 16); **[1 mark]**\n- = 158; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *To calculate the relative formula mass, add up the relative atomic masses, **A*<sub>*r*</sub>*, of all of the atoms present in the formula:*\n\n  - *1 x K atom, 1 x Mn atom, 4 x O atoms*\n- *Use the Periodic Table to obtain the relative atomic masses - in the version you are given in your exam, this is the number underneath the name of the element*\n\n  - *M*<sub>*r*</sub>* = 1 x 39 + 1 x 55 + (4 x 16) = 158*"
+    },
+    {
+     "id": "qstnprt_KPDFZnZCfjrtTHw2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nRedox reactions can be identified by colour changes. Potassium manganate(VII), KMnO~4~, is an oxidising agent which is used to test for the presence of reducing agents.\n\n#### Separate: Chemistry and Extended Only\n\nWhen potassium manganate(VII) is added to a reducing agent, a colour change is seen. Which of the following correctly shows the colour change seen? Tick **one** box.\n\n| colourless to blue |   |\n|---|---|\n|   |   |\n| red to blue |   |\n|   |   |\n| yellow to red |   |\n|   |   |\n| purple to colourless |   |",
+     "solution_md": "The colour change seen is:\n\n- Purple to colourless;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Potassium manganate(VII) has a distinctive purple colour*\n- *When it is added to a reducing agent, the purple colour fades until it is colourless as it reacts with the reducing agent*\n- *The other colour changes are all colour changes that you would observe with different indicators:*\n\n  - *Thymolphthalein will turn from colourless in acids to blue in alkalis*\n  - *Litmus will turn from red in acids to blue in alkalis*\n  - *Methyl orange will turn from yellow in alkalis to red in acids*"
+    },
+    {
+     "id": "qstnprt_ZHHBFTH2fJqdJwNB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5",
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nPotassium iodide is a reducing agent that can be used to test for the presence of oxidising agents.  Complete the half-equation to show how iodide ions act as a reducing agent.\n\n... I<sup>–</sup> → I<sub>2</sub> + .... e<sup>–</sup>",
+     "solution_md": "The complete half-equation is:\n\n2I<sup>–</sup> → I<sub>2</sub> + 2e<sup>–</sup>\n\n- 2 in front of the I<sup>-</sup>\n**AND**\n2 in front of the e<sup>–</sup>;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Both balancing numbers are needed to obtain the mark*\n- *Start by balancing I;  there are 2 on the right-hand side, to balance add a 2 in front of I*<sup>*–*</sup>*:*\n\n  - *2**I*<sup>*–*</sup>* → I*<sub>*2*</sub>* + e*<sup>*–*</sup>\n- *Now, balance the charges; the charge is 2- on the left-hand side, so 2 electrons are needed on the right-hand side:*\n\n  - *2I*<sup>*–*</sup>* → I*<sub>*2*</sub>* + **2**e*<sup>*–*</sup>"
+    }
+   ]
+  },
+  {
+   "id": "qstn_VCM37q2rHfCT2Mgs",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_yxdtShqYn2D8Zjtq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "match",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS",
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThis question is about redox reactions.\n\nMatch the key term on the left with the definition on the right.\n\n![redox-key-terms](assets/001-redox-key-terms.png)",
+     "solution_md": "a) The matching key terms and definitions are:\n\n- Oxidation = the gain of oxygen; **[1 mark]**\n- Reduction = the loss of oxygen; **[1 mark]**\n- Oxidising agent = a substance that oxidises another substance; **[1 mark]**\n- Reducing agent = a substance that reduces another substance; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *You could be asked to define any of these key terms so ensure that you learn them*"
+    },
+    {
+     "id": "qstnprt_YNW7vjnwCkhqvGfd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5",
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nChromium is an element that can have different oxidation numbers when it is combined with other elements. State the charge on the chromium ion in the compound chromium(II) oxide.",
+     "solution_md": "b) The charge on the chromium ion in the compound chromium(II) oxide, CrO is:\n\n- 2+;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The Roman numeral in the name is the oxidation number*\n- *The oxidation number of an element in a monoatomic ion is always the same as its charge*\n- *Chromium is a metal so will form a positive ion, which means its charge is 2+*\n- *A charge should be written with the number first followed by the sign*\n\n  - *But, you would be awarded the mark if you wrote it as +2*"
+    },
+    {
+     "id": "qstnprt_XQGS59rftYSgtSHT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nChromium(II) oxide can be formed from the reaction between chromium and oxygen.\n\nComplete the half-equation for the reaction.\n\n.........  →  Cr<sup>2+</sup>  +  ..... e<sup>–</sup>",
+     "solution_md": "c) The complete half-equation is:\n\nCr** **→  Cr<sup>2+</sup>  +  2e<sup>–</sup>\n\n- Cr** **\n**AND**\n2e(<sup>–</sup>); **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *You are told that chromium(II) oxide forms from chromium, therefore the reactant must be chromium, Cr*\n- *There is no overall charge given on the left-hand side*\n- *So, to ensure there is no overall charge on the right-hand side, 2 electrons are needed*"
+    },
+    {
+     "id": "qstnprt_NSjKhYHDRPdfKcmP",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nChromium(II) oxide can be formed from the reaction between chromium and oxygen. Complete the half-equation for the reaction. Cr → Cr^2+ + 2e^–\n\n#### Extended Only\n\nThe other half-equation for the reaction is shown below.\n\nO<sub>2</sub> + 4e<sup>–</sup> → 2O<sup>2–</sup>\n\nExplain, in terms of electrons, how this shows that oxygen has been reduced.",
+     "solution_md": "d) This shows that oxygen has been reduced because:\n\n- Oxygen / it has gained electrons;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *In terms of electrons, **O**xidation **I**s Loss,** R**eduction** I**s **G**ain (**OIL RIG**)*\n- *The electrons are added to the oxygen, therefore oxygen is reduced*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V3dZ7cDR4Vw2DZKf",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_rNXsydgDQGGywt9G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju32",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "The following are examples of redox reactions.\n\nBromine water was added to aqueous sodium sulfide. The ionic equation is:\n\nBr<sub>2</sub> (aq) + S<sup>2–</sup> (aq) → 2Br<sup>–</sup> (aq) + S(s)\n\ni) Describe what you would observe when this reaction occurs.\n\n[2]\n\nii) Write a full symbol equation for this reaction.\n\n[1]\n\niii) Explain, in terms of electron transfer, why bromine is the oxidant (oxidising agent) in this reaction.\n\n[2]",
+     "solution_md": "a)\n\ni) A description of what you would observe when this reaction occurs:\n\n- Change in colour from red-brown or orange to colourless (not just bromine decolourised);** [1 mark]**\n- Yellow (not dark) / white solid / precipitate / goes cloudy; **[1 mark] ***Brown to yellow with no mention of solid / precipitate scores = maximum of 1 mark*\n\nii) A symbol equation for this reaction is:\n\n- Br<sub>2</sub> + Na<sub>2</sub>S $\\rightarrow$ 2NaBr + S; **[1 mark]**\n\niii) Explain, in terms of electron transfer, why bromine is the oxidant (oxidising agent) in this reaction:\n\n- Sulfide (ion) / sulfur (ion) loses electrons; **[1 mark]**\n- Bromine accepts them; **[1 mark] ***Not sodium sulfide*\n\n**[Total: 5 marks]**\n\n- *Bromine, which is a red-brown solution, turns into bromide ions, which are colourless. It is important to state the initial colour and not just the final one*\n- *The full equation needs to include the sodium, which is mentioned in the first line of the question*\n- *The oxidising agent is the species which is reduced, which is the species that gains electrons*\n\n  - *This allows something else to be oxidised; in this case the bromine accepts electrons, allowing the sulfide ion to lose them*",
+     "equations": [
+      {
+       "latex": "\\rightarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mo>→</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "rightwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_BzXY6VzV2sqwSsHy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju32",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c8fGrQXGgnbZw9tv",
+      "spcpt_4NB6WyZTyNc3FkGB"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIron and steel in the presence of water and oxygen form rust.\n\n![cie-igcse-sq-6-3-rusting-diagram-](assets/002-cie-igcse-sq-6-3-rusting-diagram.png)\n\nThe reactions involved are: \n**reaction 1**\n\nFe → Fe<sup>2+</sup> + 2e<sup>–</sup>\n\nThe electrons move through the iron onto the surface where a colourless gas forms.\n\n**reaction 2**\n\nFe<sup>2+</sup> + 2OH<sup>–</sup> → Fe(OH)<sub>2</sub>\n\n**reaction 3**\n\n..........Fe(OH)<sub>2</sub> + O<sub>2</sub> + ..........H<sub>2</sub>O → ..........Fe(OH)<sub>3</sub>\n\nThe water evaporates to leave rust.\n\ni) What type of reaction is **reaction 1**?\n\n[1]\n\nii) Deduce the name of the colourless gas mentioned in **reaction 1**.\n\n[1]\n\niii) What is the name of the iron compound formed in **reaction 2**?\n\n[1]\n\niv) Balance the equation for **reaction 3**. ..........Fe(OH)<sub>2</sub> + O<sub>2</sub> + ..........H<sub>2</sub>O → ..........Fe(OH)<sub>3</sub>\n\n[1]\n\nv) Explain why the change Fe(OH)<sub>2</sub> to Fe(OH)<sub>3</sub> is oxidation.\n\n[1]\n\nvi) Explain why iron in electrical contact with a piece of zinc does not rust.\n\n[3]",
+     "solution_md": "b)\n\ni) **Reaction 1** is:\n\n- Oxidation; **[1 mark]** *Not redox*\n\nii) The name of the colourless gas mentioned in **reaction 1 **is:\n\n- Hydrogen / H<sub>2</sub>; **[1 mark] **\n*Do not allow H*\n\niii) The name of the iron compound formed in **reaction 2** is:\n\n- Iron(II) hydroxide / ferrous hydroxide; **[1 mark]**\n\niv) The balanced equation for **reaction 3** is:\n\n- 4Fe(OH)<sub>2</sub> + O<sub>2</sub> + 2H<sub>2</sub>O $\\rightarrow$ 4Fe(OH)<sub>3</sub>;** [1 mark]**\n\nv)  The change from Fe(OH)<sub>2</sub> to Fe(OH)<sub>3</sub> is oxidation as:\n\n- Oxidation number or state or valency increases / electron loss / Fe<sup>2+</sup> to Fe<sup>3+</sup>; **[1 mark] **\n*Do not allow gains oxygen*\n\nvi) Iron in electrical contact with a piece of zinc does not rust as:\n\nAny **three** from:\n\n- Sacrificial protection or zinc is sacrificed / zinc corrodes not iron or zinc corrodes therefore iron doesn’t (not zinc rusts); **[1 mark]**\n- Zinc is oxidised in preference to iron; **[1 mark]**\n- Zinc reacts with oxygen and water in preference to iron; **[1 mark]**\n- Zinc is more reactive or electropositive than iron; **[1 mark]**\n- Zinc forms ions more readily than iron or zinc loses electrons more readily than iron;** [1 mark]**\n- Electrons move on to iron;** [1 mark]**\n- Iron is the cathode or zinc is the anode; **[1 mark]**\n\n**[Total: 8 marks]**\n\n- *The colourless gas needs to be from a reduction half equation that is gaining electrons, as the iron is losing electrons (oxidation)*\n\n  - *This means that hydrogen ions going to hydrogen would be viable, but hydroxide or oxide ions going to oxygen are not viable*\n  - *The proper name of the iron compound is iron (II) hydroxide, but the older name (not IUPAC) is accepted in this case. It may not be in the future, so learn the IUPAC name! It is important to include the (II) as iron can also be (III)*\n- *The balanced equation is fairly standard, and half equations do not need to be deduced as there is an obvious change from Fe*<sup>*2+*</sup>* to Fe*<sup>*3+*</sup>* shown by the difference in the formulae of hydroxides*\n- *Sacrificial protection by zinc is a common question on this topic and there are a number of valid marking points, just remember that electrons can travel through iron to get to the zinc and for the zinc to react and this is why the zinc does not have to coat the entire surface to be effective*",
+     "equations": [
+      {
+       "latex": "\\rightarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mo>→</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "rightwards arrow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tq6KzmW4y2GHqnVR",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_Jmmfz7VZKwDQbNVg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Oc31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "The table below shows the elements in the second period of the Periodic Table and some of their oxidation states in their most common compounds.\n\n![cie-igcse-sq-6-3-q4a](assets/003-cie-igcse-sq-6-3-q4a.png)\n\ni) What does it mean when the only oxidation state of an element is zero?\n\n[1]\n\nii) Explain why some elements have positive oxidation states but others have negative ones.\n\n[2]\n\niii) Select two elements in the table which exist as diatomic molecules of the type X<sub>2</sub>.\n\n[2]",
+     "solution_md": "a)\n\ni) When the only oxidation state of an element is zero it means that the element:\n\n- Does not form compounds / does not accept and does not lose electrons / has a full outer shell / has 8e<sup>-</sup> in outer shell / it is a Noble Gas / it is in Group 0/8; **[1 mark]**\n\nii) Some elements have positive oxidation states but others have negative ones as:\n\n- Elements with a small number of outer electrons lose electrons and are then positive; **[1 mark]**\n- Elements with a large number of outer electrons gain electrons and are then negative; **[1 mark]**\n\niii)  Two elements in the table which exist as diatomic molecules of the type X<sub>2</sub> are:\n\nAny **two** from\n\n- Nitrogen; **[1 mark]**\n- Oxygen; **[1 mark]**\n- Fluorine; **[1 mark] ***Accept symbols / molecular formulae*\n\n**[Total: 5 marks]**\n\n- *This question is checking your basic redox knowledge by asking questions in  a slightly less direct manner than the normal*\n- *You are also expected to recall the common diatomic gases, which are useful when writing equations later on too*"
+    },
+    {
+     "id": "qstnprt_2TdTXN5cYVR3PmrX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Oc31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KYmr52qfQRGnKCKP",
+      "spcpt_FVDcRkyHwrQq5GpH"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nBeryllium hydroxide, a white solid, is an amphoteric hydroxide.\n\ni) Name another metal which has an amphoteric hydroxide.\n\n[1]\n\nii) Suggest what you would observe when an excess of aqueous sodium hydroxide is added gradually to aqueous beryllium sulfate.\n\n[2]",
+     "solution_md": "b)\n\ni) Another metal with an amphoteric hydroxide is:\n\n- Zinc / aluminium / lead / tin / chromium; **[1 mark]**\n\nii) The observation when an excess of aqueous sodium hydroxide is added gradually to aqueous beryllium sulfate is:\n\n- White precipitate; **[1 mark]**\n- Precipitate dissolves / colourless solution forms / forms a clear solution / soluble in excess; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The amphoteric oxides within the specification are aluminium and zinc, both of which also have amphoteric hydroxides. The other metals listed are valid too but not expected knowledge*\n- *When an excess of aqueous sodium hydroxide is added gradually to aqueous beryllium sulfate, the products formed are sodium sulfate and beryllium hydroxide*\n- *The solubility rules tells us that:*\n\n  - *Most sulfates are soluble, so sodium sulfate remains in solution*\n  - *Most hydroxides are insoluble except for Group 1 metals, ammonium and calcium (partially), so beryllium hydroxide will be a precipitate*\n- *Coloured precipitates occur when the metal is a transition metal, which beryllium is not, so the precipitate is white*"
+    },
+    {
+     "id": "qstnprt_f9p3db74fD5VZypC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Oc31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FPBxqHYzkMkpTdNd",
+      "spcpt_7tCQfxYQZBXDdfCm"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Give the formulae of lithium fluoride and nitrogen fluoride.\n\nLithium fluoride ................................................................................................... Nitrogen fluoride ..................................................................................................\n\n[2]\n\nii) Predict two differences in their properties.\n\n[2]\n\niii) Explain why these two fluorides have different properties.\n\n[2]",
+     "solution_md": "c)\n\ni) The formulae of lithium fluoride and nitrogen fluoride are:\n\n- LiF; **[1 mark]**\n- NF<sub>3</sub>; **[1 mark]**\n\nii) Two differences in their properties are:\n\nAny **two** from:\n\n- LiF has higher mp / bp; **[1 mark]**\n- LiF is a (crystalline) solid, NF<sub>3</sub> is probably a gas / a liquid / LiF is less volatile; **[1 mark]**\n- As liquids only LiF conducts;** [1 mark]**\n- LiF is soluble in water, NF<sub>3</sub> is not; **[1 mark]**\n- When both solids LiF is harder; **[1 mark]**\n\niii) These two fluorides have different properties as:\n\n- LiF is an ionic compound; **[1 mark]**\n- NF<sub>3</sub> is a covalent / molecular compound; **[1 mark]**\n\n*For stating that one is ionic and the other covalent allow 1 mark if it is not specified which is which*\n\n**[Total: 6 marks]**\n\n- *The properties of ionic and both simple and giant covalent structures are commonly asked about in exams - make sure you know them! There are usually lots of choose from to access the marks*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RJcX6np4g2vtjP8W",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_dJRgWKwqQs58MZN7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2020",
+      "number": "Sp03",
+      "question_number": 3,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "When the oxide, Co<sub>3</sub>O<sub>4</sub>  is heated in hydrogen, cobalt metal is formed.\n\nCo<sub>3</sub>O<sub>4</sub>   +  4H<sub>2</sub>   →   3Co   +   4H<sub>2</sub>O\n\nExplain how this equation shows that Co<sub>3</sub>O<sub>4</sub> is reduced.",
+     "solution_md": "a)  This equation shows that Co<sub>3</sub>O<sub>4</sub> is reduced because:\n\n- Co<sub>3</sub>O<sub>4</sub> loses oxygen / cobalt oxide loses oxygen / it loses oxygen / oxygen removed from cobalt oxide / gains electrons/ oxidation number of Co is reduced; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Remember**: Reduction is a reaction in which oxygen is removed from a compound*\n- *In this case, Co*<sub>*3*</sub>*O*<sub>*4*</sub>* loses oxygen to form Co*\n- *In redox reactions oxidation and reduction take place together*\n- *Hydrogen gains oxygen to form water so hydrogen is oxidised*\n- *Your answer can refer to electrons or oxidation numbers (extended students only)*"
+    },
+    {
+     "id": "qstnprt_MfgGxjtrsYSXzZyz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "04",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nWhen copper(II) oxide is heated at 800 °C it undergoes the reaction shown by the  equation.\n\n$4\\mathrm{CuO}\\rightarrow2\\mathrm{Cu}_{2}O+O_{2}$\n\nIdentify the changes in oxidation numbers of copper and oxygen in this reaction.\n\nExplain in terms of changes in oxidation numbers why this is a redox reaction.   \n\nchange in oxidation number of copper: from …………… to …………… change in oxidation number of oxygen: from …………… to ……………\n\nexplanation ...",
+     "solution_md": "b) In terms of changes in oxidation numbers, this is a redox reaction because:\n\n- Copper: +2 to +1;** [1 mark]**\n- Oxygen: –2 to 0; ** [1 mark]**\n- Decrease in oxidation number is reduction \n**AND **\nIncrease in oxidation number is oxidation; ** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *The oxidation number of an atom which is not combined with another atom of a different element is 0*\n\n  - *The oxidation number of O*<sub>*2*</sub>* is therefore 0*\n- *The oxidation number of a monoatomic ion is the same as its charge*\n\n  - *The charge on Cu in CuO is 2+, so its oxidation number is +2*\n  - *The charge on Cu in Cu2O is 1+, so its oxidation number is +1*\n  - *The charge of O in CuO and Cu*<sub>*2*</sub>*O is 2-, so its oxidation number is -2*\n- *The oxidation number of copper decreases, so copper is reduced*\n- *The oxidation number of oxygen increases, so oxygen is oxidised*",
+     "equations": [
+      {
+       "latex": "4\\mathrm{CuO}\\rightarrow2\\mathrm{Cu}_{2}O+O_{2}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mn>4</mn><mi>CuO</mi><mo> </mo><mo>→</mo><mn>2</mn><msub><mi>Cu</mi><mn>2</mn></msub><mi mathvariant=\"normal\">O</mi><mo> </mo><mo>+</mo><msub><mi mathvariant=\"normal\">O</mi><mn>2</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "4 CuO space rightwards arrow 2 Cu subscript 2 straight O space plus straight O subscript 2"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Q23xtwDPjJVXZpKB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "how",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju32",
+      "question_number": 6,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction of iron with steam is shown.\n\n3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>\n\nHow does this equation show that iron gets oxidised?",
+     "solution_md": "c) This equation shows that iron gets oxidised because:\n\n- Iron gains oxygen (from water); **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Oxidation is a reaction in which oxygen is added to an element or a compound*\n- *This equation shows that Fe gains O*<sub>*2*</sub>* to form Fe*<sub>*3*</sub>*O*<sub>*4*</sub>"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NRSRpTfHjR8YXz5G",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_ScxqVyGGSBXNmTSm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about the reactions of metals with oxygen.\n\nComplete the sentences.\n\nIn terms of oxygen, ____________________ is the loss of oxygen.\n\nIn terms of oxygen, ____________________ is the gain of oxygen.",
+     "solution_md": "a) The completed sentences are:\n\nIn terms of oxygen, **reduction **is the loss of oxygen.\n\nIn terms of oxygen, **oxidation **is the gain of oxygen.\n\n- Reduction; **[1 mark]**\n- Oxidation;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *These are one of the basic descriptions of reduction and oxidation that you must know*"
+    },
+    {
+     "id": "qstnprt_9H4wmyqzy8zcndzg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIron can react with oxygen to form iron(II) oxide.\n\n2Fe + O~2~ → 2FeO\n\nIron can also react with oxygen to form iron(III) oxide\n\n4Fe + 3O~2~ → 2Fe~2~O~3~\n\nNickel can react with oxygen to form nickel(II) oxide or nickel(III) oxide.\n\nIron can react with oxygen to form iron(II) oxide.\n\n2Fe + O<sub>2</sub> → 2FeO\n\nIron can also react with oxygen to form iron(III) oxide\n\n4Fe + 3O<sub>2</sub> → 2Fe<sub>2</sub>O<sub>3</sub>\n\nNickel can react with oxygen to form nickel(II) oxide or nickel(III) oxide.\n\nWrite **two** balanced symbol equations to show both reactions of nickel with oxygen.",
+     "solution_md": "b) The balanced symbol equations that show both reactions of nickel with oxygen are:\n\n- 2Ni + O<sub>2</sub> → 2NiO; **[1 mark]**\n- 4Ni + 3O<sub>2</sub> → 2Ni<sub>2</sub>O<sub>3</sub>; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *This question gives you both balanced equations for iron and tells you that nickel can behave in a similar manner*\n\n  - *This means that you just have to swap the Fe for Ni in both equations*\n- *If you were asked to write these from scratch, you would be told which nickel oxide you are forming and then have to balance the equation*\n\n  - *Balancing the nickel(II) oxide / NiO equation, would be for core and extended students*\n  - *Balancing the nickel(III) oxide / Ni*<sub>*2*</sub>*O*<sub>*3*</sub>* equation is more suited to extended students*"
+    },
+    {
+     "id": "qstnprt_CYWwNzcbRC3hvntZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nIn terms of oxygen, reduction is the loss of oxygen. In terms of oxygen, oxidation is the gain of oxygen.\n\nNickel is below carbon in the reactivity series.\n\nThis means that carbon can be used to extract nickel from nickel(II) oxide.\n\nnickel(II) oxide + carbon → nickel + carbon dioxide\n\nThe reaction of nickel(II) oxide with carbon is a redox reaction.\n\nIs carbon oxidised or reduced? Explain your answer. ** **\n\nCarbon is ____________________\n\nReason: ____________________",
+     "solution_md": "c) Explaining if carbon is oxidised or reduced:\n\n- Carbon is <u>oxidized</u>; **[1 mark]**\n- Reason: Carbon removes / gains oxygen from the nickel(II) oxide / from another substance; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *In terms of oxygen:*\n\n  - *Oxidation is the gain of oxygen*\n  - *Reduction is the loss of oxygen*"
+    },
+    {
+     "id": "qstnprt_Ck9GyngD9Hqzfrhq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "balance",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nNickel can also be extracted from nickel(III) oxide using carbon.\n\nNickel(III) gains electrons to form nickel.\n\nBalance the half-equation to show how nickel gains electrons:\n\nNi<sup>3+   </sup>   +     .... e<sup>–     </sup>→    .........",
+     "solution_md": "d) The completed half-equation is:\n\nNi<sup>3+</sup> + **3**e<sup>–</sup> → **Ni **\n\n- Product identified as Ni;** [1 mark]**\n- e<sup>–</sup> correctly balanced with 3;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *Nickel ions gain electrons to form a nickel atom, so Ni is the missing product*\n- *The nickel ion has a 3+ charge, therefore it will gain 3 electrons to form a neutral atom*\n- *Check that the charges balance on both sides of the equation:*\n\n  - *There is no charge given on the right-hand side*\n  - *The charge on the nickel ion is 3+ and there are 3 electrons with a total charge of 3-*\n  \n    - *These charges cancel out, so there is no overall charge on the left-hand side*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mD3d283ZjGwrkbQR",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_Dyb2Rk3r33XKxg9G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "predict",
+     "source_paper": {
+      "date": "2012",
+      "number": "Ju31",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jxPK72xT9PSVKKw6"
+     ],
+     "part_tier": null,
+     "problem_md": "Vanadium is a transition element. It has more than one oxidation state.\nThe element and its compounds are often used as catalysts.\n\nPredict three physical properties of vanadium which are typical of transition elements.",
+     "solution_md": "a) Three physical properties of vanadium are:\n\n- Hard\n- Strong / high tensile strength\n- High mp / bp / high fixed points\n- High density\n- 3 properties = **[2 marks]**\n- 2 properties = **[1 mark]** \n*Do not allow properties of all metals e.g. good conductor, lustre etc. or form coloured compounds*\n\n**[Total: 2 marks]**\n\n- *You must make sure that you do not give properties of all metals but only those properties that are specific to transition elements*"
+    },
+    {
+     "id": "qstnprt_yvZHdX8Myd29nSZx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2012",
+      "number": "Ju31",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TQvKX4Ymv89N5Q5b"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nVanadium(V) oxide is used to catalyse the exothermic reaction between sulfur dioxide and oxygen in the Contact Process.\n\n2SO<sub>2</sub> + O<sub>2</sub> $\\rightleftharpoons$2SO<sub>3</sub>\n\nThe rate of this reaction can be increased either by using a catalyst or by increasing the temperature. Explain why a catalyst is used and not a higher temperature.",
+     "solution_md": "b) A catalyst is used and not a higher temperature because:\n\n- A catalyst would not affect yield / change position of equilibrium / affects both sides equally; **[1 mark]**\n- (A higher) temperature would reduce yield / increase in temperature would favour backwards reaction; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *When temperature is increased the reaction will favour the endothermic direction to restore the equilibrium, according to Le Chatlier's Principle*\n- *In this case, the endothermic direction is the reverse reaction so the yield of SO*<sub>*3*</sub>* would decrease*\n- *A catalyst speeds up both the forward and the reverse reaction equally so will not alter the position of equilibrium and therefore the yield is unaltered*",
+     "equations": [
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vKFfGPMJ4yhCy3df",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2012",
+      "number": "Ju31",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5",
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe oxidation states of vanadium in its compounds are V(+5), V(+4), V(+3) and V(+2).\n\nThe vanadium(III) ion can behave as a reducing agent or an oxidising agent.\n\ni) Indicate on the following equation which reactant is the oxidising agent.\n\n2V<sup>3+</sup> + Zn → 2V<sup>2+</sup> + Zn<sup>2+</sup>\n\n[1]\n\nii) Which change in the following equation is oxidation? Explain your choice.\n\nV<sup>3+</sup> + Fe<sup>3+</sup> → V<sup>4+</sup> + Fe<sup>2+</sup>\n\n[2]",
+     "solution_md": "c)\n\ni) The oxidising agent is:\n\n- V<sup>3+</sup>; **[1 mark]**\n\nii) The change which is oxidation is:\n\n- V<sup>3+</sup> to  V<sup>4+</sup>; **[1 mark]**\n- (Because) there is an increase in oxidation number / electron loss; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *An oxidising agent is a substance that oxidises another substance, and becomes reduced in the process*\n- *V*<sup>*3+*</sup>* is the oxidising agent as it is reduced during the reaction as it gains an electron to become V*<sup>*2+*</sup>*:*\n\n  - *V*<sup>*3+ *</sup>*+ e*<sup>*–*</sup>* → V*<sup>*2+*</sup>\n- *Zn is oxidised as it loses 2 electrons to form Zn*<sup>*2+*</sup>\n\n  - *Zn → Zn*<sup>*2+ *</sup>*+ 2e*<sup>*–*</sup>\n- *In the second equation, V*<sup>*3+*</sup>* loses an electron so is therefore oxidised*\n\n  - *V*<sup>*3+ *</sup>*→ V*<sup>*4+ *</sup>*+ e*<sup>*–*</sup>\n- *Remember**: **O**xidation **I**s **L**oss, **R**eduction **I**s **G**ain of electrons*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jkynHgRJx4mCywHJ",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_PwWMhbtdHZ8Nn5xZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "tick",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nDuring metal displacement reactions, the metal that is the least reactive metal is reduced.\n\nWhich of these statements correctly describes what reduction is?\n\nTick **one** box.\n\n| The gain of oxygen |   |\n|---|---|\n|   |   |\n| The gain of electrons |   |\n|   |   |\n| The simulatanous gain and loss of electrons |   |\n|   |   |\n| An increase in oxidation number |   |",
+     "solution_md": "a) Reduction is:\n\n- The gain of electrons;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Core students need to be able to define reduction as the loss of oxygen*\n- *In addition, extended students need to be able to define reduction as:*\n\n  - *The gain of electrons*\n  - *A decrease in oxidation number*\n- *You could be expected to identify reduction and/or oxidation using any of these ways*\n- *A reaction that involves the simultaneous gain and loss of electrons is a redox reaction*"
+    },
+    {
+     "id": "qstnprt_K2BPRKcdCxcCgT8H",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following reactions shows iron being reduced?  Tick **one** box.\n\n| copper nitrate + iron → iron nitrate + copper |   |\n|---|---|\n|   |   |\n| iron + oxygen → iron(II) oxide |   |\n|   |   |\n| iron(II) oxide + carbon → iron + carbon dioxide |   |\n|   |   |\n| hydrochloric acid + iron → iron chloride + hydrogen |   |",
+     "solution_md": "b) The reaction that shows iron being reduced is:\n\n- iron(II) oxide + carbon → iron + carbon dioxide;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Iron(II) oxide loses oxygen so is reduced*\n- *Core students should recognise this in terms of oxygen*\n- *Extended students should also recognise this in terms of electrons:*\n\n  - *Iron(II) oxide gains 2 electrons to form iron, Fe:*\n  \n    - *Fe*<sup>*2+*</sup>* + 2e*<sup>*–*</sup>* → Fe*\n    - *Iron is reduced as reduction is the gain of electrons *\n  - *In the other reactions, iron loses electrons to form Fe*<sup>*2+*</sup>\n  \n    - *Fe  → Fe*<sup>*2+*</sup>* + 2e*<sup>*–*</sup>\n    - *Iron is oxidised as oxidation is the loss of electrons*"
+    },
+    {
+     "id": "qstnprt_KJpcQydqNCWDw3j4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen iron reacts with sulfuric acid, iron(II) sulfate is produced:\n\nFe + H<sub>2</sub>SO<sub>4</sub> → FeSO<sub>4</sub> + H<sub>2</sub>\n\n#### Separate: Chemistry and Extended Only\n\nWhen iron reacts with sulfuric acid, iron(II) sulfate is produced:\n\nFe + H<sub>2</sub>SO<sub>4</sub> → FeSO<sub>4</sub> + H<sub>2</sub>\n\nGive the oxidation number of iron in the following species: \nFe ............................ \nFeSO<sub>4</sub> ............................",
+     "solution_md": "c) The oxidation number of iron is:\n\n- In Fe: 0; **[1 mark]**\n- In FeSO<sub>4</sub>: +2;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *The oxidation number of any uncombined element is 0*\n- *The oxidation number of Fe in FeSO*<sub>*4*</sub>* is the same as its charge, Fe*<sup>*2+*</sup>\n- *The Roman numeral in its name, iron**(II)** sulfate, also shows that it is a 2+ ion, so its oxidation number is +2*"
+    },
+    {
+     "id": "qstnprt_HfgR9tDvKSKmq9mD",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen iron reacts with sulfuric acid, iron(II) sulfate is produced: Fe + H~2~SO~4~ → FeSO~4~ + H~2~. Give the oxidation number of iron in the following species: Fe ............ FeSO~4~ ............\nThe oxidation number of iron is: In Fe: 0; In FeSO~4~: +2;\n\n#### Separate: Chemistry and Extended Only\n\nExplain how the oxidation numbers in part (c) show that iron has been oxidised.",
+     "solution_md": "d) The oxidation numbers show that iron has been oxidised because:\n\n- Its oxidation number has increased;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *An increase in oxidation number shows oxidation*\n- *A decrease in oxidation number shows reduction*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_HJnNxd499K2Wgr38",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_Ff6hDJFNXdq7hvxF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "An ore of tungsten conatins WO<sub>3</sub>. Tungsten can be obtained from WO<sub>3</sub> by reacting it with hydrogen. The reaction is a redox reaction, water is also produced.\n\nWrite the balanced symbol equation for the reaction.",
+     "solution_md": "a) The balanced symbol equation for the reaction is:\n\nWO<sub>3</sub> + 3H<sub>2</sub> → W + 3H<sub>2</sub>O\n\n- Correct formulae of all reactants and products; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The question gives you sufficient information to construct the unbalanced equation:*\n\n  - *WO*<sub>*3*</sub>* + H*<sub>*2*</sub>* → W + H*<sub>*2*</sub>*O*\n- *First balance the oxygen atoms:*\n\n  - *WO*<sub>*3*</sub>* + H*<sub>*2*</sub>* → W + **3**H*<sub>*2*</sub>*O*\n- *Then balance the H atoms:*\n\n  - *WO*<sub>*3*</sub>* + **3**H*<sub>*2*</sub>* → W + 3H*<sub>*2*</sub>*O*"
+    },
+    {
+     "id": "qstnprt_4syX5vkQhn5CcfFB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nExplain reduction and oxidation in terms of electrons and oxidation numbers.",
+     "solution_md": "b) Explaining reduction and oxidation in terms of electrons and oxidation numbers is:\n\n- Reduction is gain of electrons \n**AND** \nOxidation is loss of electrons; **[1 mark]**\n- Reduction is a decrease in oxidation number  \n**AND** \nOxidation is an increase in oxidation number; **[1 mark]**\n\n**[Total: 2 mark]**\n\n- *These are definitions that you need to learn*\n- *Remember**: **OIL RIG**: **O**xidation **I**s **L**oss, **R**eduction **I**s **G**ain of electrons*\n- *With oxidation number, think that the oxidation number **reduces **when **reduction **occurs*"
+    },
+    {
+     "id": "qstnprt_StHY4tb3GDsQtCNV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn ore of tungsten contains WO~3~. Tungsten can be obtained from WO~3~ by reacting it with hydrogen. The reaction is a redox reaction, water is also produced. The balanced symbol equation for the reaction is: WO~3~ + 3H~2~ → W + 3H~2~O\n\n#### Separate: Chemistry and Extended Only\n\nThe oxidation number of oxygen is -2 and this remains unchanged during the reaction.\n\nIdentify, using oxidation numbers, what has been oxidised and what has been reduced in this reaction.",
+     "solution_md": "c) Using oxidation numbers to identify what has been oxidised and what has been reduced in this reaction:\n\n- Tungsten ion / W ion / W<sup>6+</sup> has been reduced \n**AND ** \nHydrogen / H / H<sub>2</sub> has been oxidised; **[1 mark]**\n- The oxidation number of tungsten has decreased from +6 (in WO<sub>3</sub>) to 0 (in W); **[1 mark]**\n- The oxidation number of hydrogen has increased from 0 (in H<sub>2</sub>) to +1 (in H<sub>2</sub>O); **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The oxidation number of elements in their uncombined state is zero, therefore H in H*<sub>*2*</sub>* and W will both have an oxidation number of 0*\n- *You are told that oxygen has an oxidation number of -2 and you should know that the sum of the oxidation numbers in a compound is zero*\n- *This means you can work out the oxidation number of W in WO*<sub>*3*</sub>* and H in H*<sub>*2*</sub>*O:*\n\n  - *In WO*<sub>*3*</sub>*, there are 3 atoms of oxygen with the oxidation number of -2, 3 x -2 = -6*\n  \n    - *For the oxidation number of the compound to be zero, the one atom of W must have the oxidation number +6*\n    - *+6 + (-6) = 0*\n  - *In H*<sub>*2*</sub>*O, there is one atom of oxygen and two atoms of hydrogen*\n  \n    - *Each atom must have the oxidation number of +1 for the oxidation number of the compound to be zero:*\n    - *2 x (+1) + (-2) = 0*\n- *As mentioned in the previous question, oxidation is an increase in oxidation number, reduction is a decrease in oxidation number*\n- *Careful**: When stating what has been reduced, you must specify that it is the tungsten **ion** that is reduced, not just tungsten - it is the tungsten ions that gain electrons*"
+    },
+    {
+     "id": "qstnprt_335TSNjrb8qjDgct",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JD9ZKfWpJRHRDSr2"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn ore of tungsten conatins WO~3~. Tungsten can be obtained from WO~3~ by reacting it with hydrogen. The reaction is a redox reaction, water is also produced.\nWO~3~ + 3H~2~ → W + 3H~2~O\n\n#### Extended Only\n\n50 tonnes of the tungsten ore were processed. The ore was found to contain 3.4% of WO<sub>3</sub> by mass. Calculate the maximum mass, in tonnes, of tungsten that could be obtained from this ore.\n\nGive your answer to **three **significant figures.\n\n[*A*<sub>r</sub> (W) = 184;    *M*<sub>r</sub> (WO<sub>3</sub>) = 232]\n\nmaximum mass of tungsten = ................................................. tonnes",
+     "solution_md": "d) The maximum amount of tungsten that could be obtained from 50 tonnes of this ore is:\n\n- Mass of WO<sub>3</sub> in ore = 50 x $\\frac{3.4}{100}$ = 1.7 (tonnes) / 1700000 (g); **[1 mark]**\n- Moles of WO<sub>3</sub> = $\\frac{1700000}{232}$ = 7328 (moles); **[1 mark]**\n- Moles of W = 7328 (moles); **[1 mark]**\n- Mass of W = 7328 x 184 = 1348276 (g); **[1 mark]**\n- = 1.35 (tonnes); **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *First, find out how much WO*<sub>*3*</sub>* is contained within the ore - this is calculated by finding 3.4% of 50 tonnes*\n- *You need to use the equation moles = *$\\frac{\\mathrm{mass}}{M_{r}}$\n- *Remember**: The mass needs to be in g for the equation to calculate the number of moles*\n- *When you know the moles of WO*<sub>*3*</sub>*, using the balanced symbol equation shows that 1 mole of WO*<sub>*3*</sub>* produces 1 mole of W, so the number of moles of W produced will be the same as the number of moles of WO*<sub>*3*</sub>\n- *Now use mass = moles x** A*<sub>*r*</sub>* - remember that the mass will be calculated in grams*\n- *For the final mark, you must convert to tonnes **AND **give your answer to 3 sig fig*\n\n  - *Note**: To convert from tonnes to g, multiply by 1000000*\n  - *To convert from g to tonnes, divide by 1000000*",
+     "equations": [
+      {
+       "latex": "\\frac{3.4}{100}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>4</mn></mrow><mn>100</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 3.4 over denominator 100 end fraction"
+      },
+      {
+       "latex": "\\frac{1700000}{232}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>1700000</mn><mn>232</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "1700000 over 232"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac ><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_djPgvPZzvTzFZvqy",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_xGY86bQDF88JmPsY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2009",
+      "number": "Oc31",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2W7Rs53x7dgpKxKy"
+     ],
+     "part_tier": null,
+     "problem_md": "The distinctive smell of the seaside was thought to be caused by ozone, O<sub>3</sub>. Ozone is a form of the element oxygen.\n\nA mixture of oxygen and ozone is formed by passing electric sparks through oxygen.\n\n3O<sub>2</sub> $\\rightleftharpoons$2O<sub>3</sub>\n\nSuggest a technique that might separate this mixture. Explain why this method separates the two forms of oxygen.",
+     "solution_md": "a) A technique that might separate this mixture:\n\n- Diffusion; **[1 mark]**\n- Different M<sub>r</sub> or ozone molecules heavier than oxygen molecules \n**OR** \nDifferent densities or oxygen molecules move faster than ozone molecules; **[1 mark]**\n\n*Do not allow oxygen is lighter or ozone is heavier*\n\n**OR**\n\n- Fractional distillation; **[1 mark]**\n- They have different boiling points; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *There are two possible separation methods for the gases; either is acceptable*\n- *Diffusion is the movement of a species, in this case, gases, from an area of high concentration to an area of low concentration*\n\n  - *Molecules with greater mass travel at slower speeds, so passing gases along a tube allows gases of different masses to be separated*\n- *Fractional distillation separates substances based on boiling point by using a temperature gradient*",
+     "equations": [
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" class=\"wrs_chemistry\"><semantics><mo>⇌</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rightwards harpoon over leftwards harpoon"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_WKfH7QT4QkQMSvGP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2009",
+      "number": "Oc31",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS",
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nOzone is an oxidant. It can oxidise an iodide ion to iodine.\n\n2I<sup>–</sup> + O<sub>3</sub> + 2H<sup>+</sup> → I<sub>2</sub> + O<sub>2</sub> + H<sub>2</sub>O\n\ni) What would you see when ozone is bubbled through aqueous acidified potassium iodide?\n\n[2]\n\nii) Explain in terms of electron transfer why the change from iodide ions to iodine molecules is oxidation.\n\n[1]\n\niii) Explain, using your answer to b(ii), why ozone is the oxidising agent in this reaction.\n\n[1]",
+     "solution_md": "b)\n\ni) When ozone is bubbled through aqueous acidified potassium iodide:\n\n- From colourless (solution);** [1 mark]**\n- To brown (solution); **[1 mark]**\n\nii) In terms of electron transfer, the change from iodide ions to iodine molecules is oxidation as:\n\n- I<sup>-</sup> loses electrons (to form iodine molecules);** [1 mark]**\n\n*Must be in terms of electron transfer NOT oxidation number*\n\niii) Ozone is the oxidising agent in this reaction as:\n\n- They (electrons) are accepted by ozone \n**OR** \nIt is an electron acceptor;** [1 mark]**\n\n**[Total: 4 marks]**\n\n- *Read the language of this question carefully; it asks specifically about electrons so the reasoning must be based on this*\n- *Oxidation is loss of electrons, reduction is gain of electrons*\n- *The oxidising agent is the species that is being reduced*"
+    },
+    {
+     "id": "qstnprt_jYrZvw4xzrsyr4SP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2009",
+      "number": "Oc31",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZbbnBBCMqtS3vmSK",
+      "spcpt_7QFDs7HdjVHz3hh3"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIt is now known that the smell of the seaside is due to the chemical dimethyl sulfide, (CH<sub>3</sub>)<sub>2</sub>S.\n\ni) Draw a diagram that shows the arrangement of the outer electrons in one molecule of this covalent compound. Use x to represent an electron from a carbon atom. Use ● to represent an electron from a hydrogen atom. Use o to represent an electron from a sulfur atom.\n\n[3]\n\nii) Name the three compounds formed when dimethyl sulfide is burnt in excess oxygen.\n\n[2]",
+     "solution_md": "c)\n\ni) A diagram that shows the arrangement of the outer electrons in one molecule of this covalent compound:\n\n- Correct structural skeleton; **[1 mark]**\n- 4 bonding pairs around both carbon atoms; **[1 mark]**\n- 2 bonding pairs and 2 non-bonding pairs around the sulfur atom; **[1 mark]**\n\n*NOTE marks 2 and 3 can only be awarded if mark 1 has been scored*\n\nii) The three compounds formed when dimethyl sulfide is burnt in excess oxygen are:\n\nWater, carbon dioxide and sulfur dioxide\n\n- All three; **[2 marks]**\n- Any two;** [1 mark]**\n\n*Accept correct formulae*\n\n**[Total: 5 marks]**\n\n- *When drawing dot and cross diagrams, ensure that you check that each element ends up with a full outer shell (valence shell) of electrons, which is 8 for carbon and sulfur, and 2 for hydrogen*\n\n![42a6e35d-4c93-49bb-b935-d0f26ed1562b](assets/004-42a6e35d-4c93-49bb-b935-d0f26ed1562b.jpeg)\n\n- *The question also dictates which symbols should be used for each of the elements*\n- *The compounds formed when dimethyl sulfide is burnt can be deduced by considering what each of the elements will form when it reacts with oxygen*\n\n  - *Carbon will form carbon dioxide*\n  - *Sulfur will form sulfur dioxide*\n  - *Hydrogen will form water*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_D2HMY7nW6fD3DSTx",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_mmjNgNzBWcKX8GBv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction of zinc oxide with carbon is an example of a redox reaction.\n\nWhat is meant by the term *redox reaction*?",
+     "solution_md": "a) The term redox reaction means:\n\n- A reaction that involves simultaneous oxidation and reduction;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *You can describe this as when oxidation and reduction occur at the same time / simultaneously to gain the mark*\n- *This is a definition that you do need to know*\n\n> **[exam-tip]**\n> Make sure you mention both oxidation and reduction, and stress that they happen at the same time"
+    },
+    {
+     "id": "qstnprt_hhKCzXh4yHs6Zh2Z",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "how",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nZnO + C → Zn + CO\n\nWhen zinc oxide reacts with carbon, carbon displaces zinc from its oxide.\n\nZnO + C → Zn + CO\n\nHow does this equation show that zinc oxide is reduced?",
+     "solution_md": "b) The equation shows that zinc oxide is reduced because:\n\n- It / zinc oxide loses oxygen **OR **It / zinc gains electrons **OR **It / zinc decreases in oxidation number;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Core students only need to refer to oxygen*\n\n  - *Reduction is the loss of oxygen*\n  - *Zinc oxide loses oxygen forming zinc*\n- *Extended students may answer this in terms of electrons or change in oxidation number *"
+    },
+    {
+     "id": "qstnprt_QfWhVRXqxjGTcng7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rsGJhcBV56rhgrFS"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n- Do not accept \"charge on oxygen\" or the charge of an incorrect element.\n- Reject if the answer offers a wrong alternative (e.g. \"charge of oxygen\") alongside the correct one.\n\nIron oxide can also be reduced by carbon. Iron oxide can exist as iron(II) oxide or iron(III) oxide.\n\nWhat do the Roman numerals indicate in the names of the compound?",
+     "solution_md": "c) The Roman numerals indicate :\n\n- The oxidation number of iron (in iron oxide) / an element in a compound\n**OR**\nThe charge on the iron / metal ion in a compound;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Roman numerals indicate the oxidation number of the element that they are directly next to in a compound *\n- *In a monatomic ion, the oxidation number is the same as the charge*\n\n  - *So, for iron, this is also an indication of the charge on the ion*\n  \n    - *Fe*<sup>*2+*</sup>* is called iron(II) and Fe*<sup>*3+*</sup>* is called Fe(III)*\n\n> **[exam-tip]**\n> Make it clear that the numeral refers to the specific metal (iron), not to oxygen or the compound as a whole"
+    },
+    {
+     "id": "qstnprt_zzkYKQgnGjjTSRK8",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the balanced equation to show the reduction of iron(III) oxide with carbon.\n\n2Fe<sub>2</sub>O<sub>3</sub> + .... C → .... Fe + .... CO<sub>2</sub>",
+     "solution_md": "d) The completed balanced equation to show the reduction of iron(III) oxide with carbon is:\n\n2Fe<sub>2</sub>O<sub>3</sub> + **3**C → **4**Fe + **3**CO<sub>2</sub>\n\n- Reactants correctly balanced; **[1 mark]**\n- Products correctly balanced; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The unbalanced equation as given in the question shows 4 atoms of Fe on the left-hand side, so balance the Fe atoms:*\n\n  - *2Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + C → **4**Fe + CO*<sub>*2*</sub>\n- *There are 6 O atoms on the left-hand side so balance the O atoms on the right-hand side*\n\n  - *There are 2 O atoms in each CO*<sub>*2*</sub>* molecule, so 3CO*<sub>*2*</sub>* are required to give 6 O atoms:*\n  - *2Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + C → 4Fe + **3**CO*<sub>*2*</sub>\n- *Finally, balance the C atoms - there are 3 on the right-hand side so 3 are needed on the left-hand side:*\n\n  - *2Fe*<sub>*2*</sub>*O*<sub>*3*</sub>* + **3**C → 4Fe +3CO*<sub>*2*</sub>"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cRnFKqqK2Tr7kZ9J",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_QvfBPRYzytxYcTf5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nWhat is meant by the term *oxidising agent*?",
+     "solution_md": "An oxidising agent means:\n\n- A substance that oxidises another substance; **[1 mark]**\n- And is itself reduced; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Careful**: Reducing and oxidising agents are a confusing aspect of Chemistry*\n- *You need to make sure you are 100% secure in your knowledge and definitions*\n\n  - *Oxidising agents are substances that oxidise other atoms / ions by causing them to lose electrons*\n  - *Oxidising agents gain electrons and, therefore, they get reduced*\n  - *The oxidation number of an oxidising agent decreases*\n  - *Reducing agents are substances that reduce other atoms / ions by causing them to gain electrons*\n  - *Reducing agents lose / donate electrons and, therefore, they get oxidised*\n  - *The oxidation number of a reducing agent increases*\n\nAn oxidising agent is a substance that:\n\n- Oxidises another substance / makes another substance oxidise\nOR\nGives oxygen to another substance\nOR\nRemoves electrons from another substance; **[1 mark]**\n- And is itself reduced / gets reduced\nOR\nUndergoes reduction\nOR\nGains electrons; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You should know the definitions for both oxidising agent and reducing agent*\n- *You are also expected to know how to identify them in a redox reaction*\n- *Remember: the substance that gets reduced is the oxidising agent*\n- *You can define an oxidising agent in terms of:*\n\n  - *Oxygen transfer (gives oxygen)*\n  - *Electron transfer (accepts/removes electrons)*\n  - *Or simply as a substance that oxidises another substance*"
+    },
+    {
+     "id": "qstnprt_S9MmN6Zy5pYZvDq6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe dichromate ion, Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>, reacts with sulfite ions, SO<sub>3</sub><sup>2-</sup>, according to the following equation\n\nCr<sub>2</sub>O<sub>7</sub><sup>2-</sup> + 8H<sup>+</sup> + 3SO<sub>3</sub><sup>2-</sup>  →  2Cr<sup>3+</sup> + 4H<sub>2</sub>O + 3SO<sub>4</sub><sup>2-</sup>\n\nAre the sulfite ions, SO<sub>3</sub><sup>2-</sup>, acting as an oxidising or reducing agent. Justify your answer.",
+     "solution_md": "The sulfite ions, SO<sub>3</sub><sup>2-</sup>, are acting as:\n\n- A reducing agent; **[1 mark]**\n- (Because) They / the sulfite ions / SO<sub>3</sub><sup>2-</sup> have been oxidised  \n**OR **\nThey / the sulfite ions / SO<sub>3</sub><sup>2- </sup> have gained oxygen; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Try not to get confused or overwhelmed by the more complex-looking equation which is more akin to an A Level question*\n- *Remember**: You don’t always have to look at electrons / oxidation numbers*\n\n  - *The sulfite ions, SO*<sub>*3*</sub><sup>*2-*</sup>*, gain oxygen to become sulfate ions, SO*<sub>*4*</sub><sup>*2-*</sup>\n  - *They are oxidised*\n  - *This means that they are a reducing agent*"
+    },
+    {
+     "id": "qstnprt_gmgb3qGx92JwKqkB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5",
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA substance that oxidises another substance; And is itself reduced; Oxidising agents are substances that oxidise other atoms / ions by causing them to lose electrons. Oxidising agents gain electrons and, therefore, they get reduced. The oxidation number of an oxidising agent decreases.\n\n#### Separate: Chemistry and Extended Only\n\nIdentify which species is acting as the oxidising agent in the following reaction. Justify your answer.\n\nCl<sub>2</sub> + 2Br<sup>–</sup> →  2Cl<sup>–</sup> + Br<sub>2 </sub>",
+     "solution_md": "The species that is acting as the oxidising agent is:\n\n- Chlorine / Cl<sub>2</sub>;** [1 mark]**\n- (Because) The chlorine / Cl<sub>2</sub> has gained electrons \n**OR **\n(Because) The oxidation number of chlorine / Cl<sub>2</sub> has decreased from 0 to -1; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Remember**: Oxidising agents cause oxidation by gaining electrons*\n\n  - *The chlorine molecule gains electrons and forms 2 chloride ions*\n- *Remember**: If you look at the oxidation number, then you are looking for a decrease in oxidation number*\n\n  - *The chlorine starts with an oxidation number of 0 in Cl*<sub>*2*</sub>* as the oxidation number of elements in their uncombined state is zero*\n  - *It ends with an oxidation number of -1 in the chloride ions as the oxidation number of a monatomic ion is the same as the charge on the ion*"
+    },
+    {
+     "id": "qstnprt_krDTBSDzCb29yWQK",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nRedox titrations can be carried out between reducing agents and oxidising agents in a similar way to the method used for titrations between acids and alkalis.\n\nSuggest why an indicator is not needed when potassium manganate(VII) is added to a reducing agent.",
+     "solution_md": "An indicator is not needed when potassium manganate(VII) is added to a reducing agent in redox titrations because:\n\n- When added to a reducing agent it changes colour / its colour changes from purple to colourless \n**OR** \nThe reducing agent changes colour from colourless to pale pink / purple (when the reducing agent is used up);** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The 'suggest' command word indicates that this is not something that you are expected to have learnt, but it is something that you should be able to answer by applying your knowledge*\n- *You should be aware of the use of potassium manganate(VII) to test for the presence of reducing agents*\n- *When it is added to a reducing agent, it turns from purple to colourless*\n- *In titrations, when the reducing agent has fully reacted with potassium manganate(VII), and more potassium manganate(VII) is added, it won't change colour and the purple colour will remain*\n\n  - *When adding potassium manganate(VII) to a reducing agent, the endpoint is considered to be when a pale pink colour is observed*\n- *Potassium manganate(VII) is said to be self-indicating*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_C9dCV5SdrvNcvkfV",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_trkdWdCGSRVtHknn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2013",
+      "number": "032",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe following reactivity series shows both familiar and unfamiliar elements in order of decreasing reactivity. Each element is represented by a redox equation.\n\nRb $\\rightleftharpoons$ Rb<sup>+</sup> + e<sup>–</sup>       \nMg $\\rightleftharpoons$ Mg<sup>2+</sup> + 2e<sup>–</sup>       \nMn $\\rightleftharpoons$ Mn<sup>2+</sup> + 2e<sup>–</sup>       \nZn $\\rightleftharpoons$ Zn<sup>2+</sup> + 2e<sup>–</sup>       \nH<sub>2</sub> $\\rightleftharpoons$ 2H<sup>+</sup> + 2e<sup>–</sup>       \nCu $\\rightleftharpoons$ Cu<sup>2+</sup> + 2e<sup>–</sup>       \nHg $\\rightleftharpoons$ Hg<sup>2+</sup> + 2e<sup>–</sup>\n\nTwo of the uses of the series are to predict the thermal stability of compounds of the metals and to explain their redox reactions.\n\ni) Define in terms of electron transfer the term *oxidation*.\n\n[1]\n\nii) Explain why the positive ions in the above equations are oxidising agents.\n\n[1]",
+     "solution_md": "a)\n\ni) The term oxidation means:\n\n- Electron loss; **[1 mark]**\n\nii) The positive ions in the above equations are oxidising agents because:\n\n- They can accept/gain electrons; **[1 mark]** *Ignore reference to reduction*\n\n**[Total: 2 marks]**\n\n- *Remember**: **OIL RIG** - **O**xidation** I**s **L**oss, **R**eduction **I**s **G**ain of electrons*\n- *Oxidising agents oxidise other substances, therefore they themselves are reduced, i.e. they accept electrons*\n- *The reverse reactions show positive ions gaining electrons to form atoms*",
+     "equations": [
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      },
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      },
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      },
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      },
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      },
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      },
+      {
+       "latex": "\\rightleftharpoons",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"12px\"><mo>⇌</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "begin mathsize 12px style rightwards harpoon over leftwards harpoon end style"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Hf4sPnWRPJbSjrQr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2013",
+      "number": "032",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MKvXKMnctwDqYdms"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe following reactivity series shows both familiar and unfamiliar elements in order of decreasing reactivity. Each element is represented by a redox equation.\n\nRb ⇌ Rb+ + e–\nMg ⇌ Mg2+ + 2e–\nMn ⇌ Mn2+ + 2e–\nZn ⇌ Zn2+ + 2e–\nH2 ⇌ 2H+ + 2e–\nCu ⇌ Cu2+ + 2e–\nHg ⇌ Hg2+ + 2e–\n\ni) Which metals in the series above do not react with dilute acids to form hydrogen?\n\n[1]\n\nii) Describe an experiment which would confirm the prediction made in (b)(i).\n\n[1]",
+     "solution_md": "b)\n\ni) The metals in the series which do not react with dilute acids to form hydrogen are:\n\n- Copper \n**AND** \nMercury; **[1 mark]**\n\nii) An experiment which would confirm the prediction made in (b)(i) is:\n\n- Add copper / mercury / metal to (named) acid \n**AND **\nNo reaction / no bubbles / no hydrogen; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Metals below hydrogen in the reactivity series do not react with acid*\n- *When metals react with acid, a salt and hydrogen are formed and bubbles of hydrogen are seen*\n- *Those metals that are below hydrogen in the series will therefore not react so no hydrogen is produced*\n- *Note**: The command word used is 'describe' which means that just stating what experiment could be performed is not sufficient, you also need to explain **how **the test would confirm the prediction as well*"
+    },
+    {
+     "id": "qstnprt_QNtyjRV3bbSNfhW4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2013",
+      "number": "032",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe following reactivity series shows both familiar and unfamiliar elements in order of decreasing reactivity. Each element is represented by a redox equation.\n\nRb \\rightleftharpoons Rb^+ + e^–\nMg \\rightleftharpoons Mg^2+ + 2e^–\nMn \\rightleftharpoons Mn^2+ + 2e^–\nZn \\rightleftharpoons Zn^2+ + 2e^–\nH~2~ \\rightleftharpoons 2H^+ + 2e^–\nCu \\rightleftharpoons Cu^2+ + 2e^–\nHg \\rightleftharpoons Hg^2+ + 2e^–\n\n#### Separate: Chemistry and Extended Only\n\ni) Which metal in the series above can form a negative ion which gives a pink / purple solution in water?\n\n[1]\n\nii) Describe what you would observe when zinc, a reducing agent, is added to this pink / purple solution.\n\n[1]",
+     "solution_md": "c)\n\ni) The metal in the series that can form a negative ion which gives a pink / purple solution in water is:\n\n- Mn; **[1 mark]**\n\nii) When zinc, a reducing agent, is added to this pink / purple solution, you would observe:\n\n- (Solution) becomes colourless / decolourises; **[1 mark]** \n**NOT**: clear\n\n**[Total: 2 marks]**\n\n- *Potassium manganate(VII), KMnO*<sub>*4*</sub>*, an oxidising agent, is often used to test for the presence of reducing agents*\n- *When acidified potassium manganate(VII) is added to a reducing agent its colour changes from purple to colourless*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5XSfYVBbHxDfM6cz",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_NnqnTc8DMJ57DxM8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2019",
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WG9HZG7SFWxdRjB5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nSulfur dioxide is a reducing agent.\n\nGive the colour change that occurs when excess sulfur dioxide is bubbled into acidified aqueous potassium manganate(VII).\n\nstarting colour of the solution .............................................. \nfinal colour of the solution       ..............................................",
+     "solution_md": "a) The colour change that occurs when excess sulfur dioxide is bubbled into acidified aqueous potassium manganate(VII)\n\n- Purple to colourless; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Potassium managante(VII) is an oxidising agent which can be used to test for the presence of reducing agents*\n- *As sulfur dioxide is a reducing agent, when acidified potassium manganate(VII) is added, its colour will change from purple to colourless*\n- *You need to know this colour change*\n- *Careful**: You would not be awarded the mark if you just stated purple, as you need to describe the change in colour, and you wouldn't obtain the mark if you used the term 'clear' instead of 'colourless' - they do NOT mean the same thing!*"
+    },
+    {
+     "id": "qstnprt_26z8GMBYGtD6m3cD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_9mXTt8yFNWdbX62T"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nDisplacement reactions occur between metals and metal ions. Displacement reactions can be used to determine the order of reactivity of metals such as lead (Pb), nickel (Ni), and silver (Ag). The ionic equation for a displacement reaction is shown.\n\n$\\text{Ni} ( \\mathrm{s} ) + Pb^{2 +} ( \\text{aq} ) \\rightarrow \\text{Pb} ( \\mathrm{s} ) + Ni^{2 + } ( \\text{aq} )$\n\nThe ionic half-equations for this reaction are shown.\n\n$\\text{Ni} ( \\mathrm{s} ) \\rightarrow Ni^{2 + } ( \\text{aq} ) + 2 \\mathrm{e}^{-}$\n\n$Pb^{2 + } ( \\text{aq} ) + 2 \\mathrm{e}^{-} \\rightarrow \\text{Pb} ( \\mathrm{s} )$\n\nThe ionic half-equations show that electrons are donated by nickel atoms and accepted by lead ions. Identify the reducing agent in the displacement reaction. Give a reason for your answer. reducing agent......................................... reason              ..........................................",
+     "solution_md": "b) The reducing agent in the displacement reaction, with a reason, is:\n\n- Ni / Nickel; **[1 mark]**\n- (Because it) loses or donates electrons; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *A reducing agent is a* *substance that reduces another substance and becomes oxidised in the process, so it will lose electrons*\n- *Looking at the two ionic half-equations given, you can see that nickel is losing electrons, so must act as the reducing agent*\n- *Lead ions gain electrons, so they are reduced*",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Ni space open parentheses straight s close parentheses space plus Pb to the power of 2 plus end exponent space open parentheses aq close parentheses space rightwards arrow space Pb space open parentheses straight s close parentheses space plus space Ni to the power of 2 plus space end exponent open parentheses aq close parentheses",
+       "render": "$\\text{Ni} ( \\mathrm{s} ) + Pb^{2 +} ( \\text{aq} ) \\rightarrow \\text{Pb} ( \\mathrm{s} ) + Ni^{2 + } ( \\text{aq} )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Ni space open parentheses straight s close parentheses space rightwards arrow Ni to the power of 2 plus space end exponent open parentheses aq close parentheses space plus 2 straight e to the power of minus",
+       "render": "$\\text{Ni} ( \\mathrm{s} ) \\rightarrow Ni^{2 + } ( \\text{aq} ) + 2 \\mathrm{e}^{-}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Pb to the power of 2 plus space end exponent open parentheses aq close parentheses space plus 2 straight e to the power of minus space rightwards arrow Pb space open parentheses straight s close parentheses",
+       "render": "$Pb^{2 + } ( \\text{aq} ) + 2 \\mathrm{e}^{-} \\rightarrow \\text{Pb} ( \\mathrm{s} )$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_cXhssqDDgbygBRTX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nWhat is the general term given to the type of reaction in which electrons are transferred from one species to another?",
+     "solution_md": "c) The general term given to the type of reaction in which electrons are transferred from one species to another is:\n\n- Redox;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Redox is a term that you should know the definition of*\n- *One species is **red**uced i.e. gains electrons*\n- *Another species is **ox**idised, i.e. loses electrons*\n- *Reduction and oxidation always occur in the same reaction, you cannot have a reduction reaction without oxidation and vice versa*"
     }
    ]
   }

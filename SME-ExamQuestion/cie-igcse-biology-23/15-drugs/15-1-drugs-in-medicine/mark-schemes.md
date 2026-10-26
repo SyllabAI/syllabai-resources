@@ -123,3 +123,238 @@ Antibiotics are only effective against bacteria.
 **A** is incorrect because sometimes, bacteria can survive antibiotics but if they cannot reproduce, this is effectively the same as death because of their short reproduction lifecycles.
 
 **B** and **D** are incorrect because antibiotics are only effective against bacteria.
+
+## Theory Questions (6 questions)
+
+
+### Q1
+The type of microorganism that produces penicillin is:
+
+- Fungus; **[1 mark]**
+
+**[Total: 1 mark]**
+The evidence that suggests that the bacteria is dish **F** are resistant to penicillin is:
+
+- Small / no clear area **OR** more bacteria are growing (in dish **F**); **[1 mark]**
+- (Antibiotic in disc **F** is) not killing bacteria / bacteria (continue to) reproduce; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Just comparing the two disks isn't enough to get full marks. You need to explain why there is a difference. *
+(i) Bacteria become resistant to antibiotics by:
+
+Any **six **from the following:
+
+- A mutation occurs in bacteria / bacteria have (antibiotic) resistance gene; **[1 mark]**
+- A mutation is a change in the DNA / base sequence; **[1 mark]**
+- Mutations can be caused by (ionising) radiation / (named) chemicals (eg. benzene etc.); **[1 mark]**
+- There is <u>variation</u> (in the ability of bacteria to survive antibiotic treatment); **[1 mark]**
+- Reference to (natural) selection / evolution; **[1 mark]**
+- Bacteria with resistance (survive and) reproduce / breed / produce offspring; **[1 mark]**
+- Bacteria with no/little resistance die / do not reproduce; **[1 mark]**
+- (Bacteria that survive) pass on resistance <u>allele/gene</u> to more bacteria; **[1 mark]**
+- Bacteria reproduce quickly; **[1 mark]**
+- Exposure to antibiotics acts as a selection pressure; **[1 mark]**
+- Only use antibiotics when essential (to limit the development of resistant bacteria); **[1 mark]**
+- Complete the full course of prescribed antibiotics (to ensure all pathogenic bacteria are killed); **[1 mark]**
+- Isolation of patients with infections (to prevent the spread of resistant strains); **[1 mark]**
+- Improved healthcare / sanitation / nutrition / good diet / hygiene / cleanliness;**[1 mark]**
+
+(ii) Viral infections cannot be treated with antibiotics because:
+
+Any **one **from the following:
+
+- Viruses are not alive / not made of cells; **[1 mark]**
+- Viruses do not have a cell wall / named cell component e.g. ribosomes;** [1 mark]**
+
+**[Total: 7 marks]**
+
+> *It is important to remember that it is not the antibiotic that causes mutations in bacteria. The mutations happen randomly (whether the antibiotic is present or not) but the presence of the antibiotic means that some bacteria die (the non-resistant ones) and some (carrying the random mutations) survive. *
+Bacteria are useful in biotechnology because:
+
+Any **three **from the following:
+
+- (They are) small / take up little space; **[1 mark]**
+- (Bacteria) reproduce rapidly / (they are) easy to grow; **[1 mark]**
+- (Some bacteria) contain plasmids; **[1 mark]**
+- Plasmids/bacteria can undergo transformation / genetic modification / have genes inserted;**[1 mark]**
+- (There are) no ethical concerns (with using bacteria); **[1 mark]**
+- (They have the) same genetic code as other organisms; **[1 mark]**
+- (Bacteria contain the) same DNA (as other organisms); **[1 mark]**
+- (They therefore) can make/synthesise/produce complex molecules;**[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q2
+Fig. 1 depicts:
+
+Any **two** from the following:
+
+- (An antibiotic) causing malformation of a <u>bacterial</u> <u>cell wall</u>; **[1 mark]**
+- Cell ruptures / puncture(s); **[1 mark]**
+- And so cannot reproduce; **[1 mark]**
+
+**[Total: 2 marks]**
+The doctor would deny this request and suggest other treatments because:
+
+- Antibiotics are ineffective against viruses; **[1 mark]**
+
+**[Total: 1 mark]**
+Stopping taking the antibiotics is not advisable because:
+
+- Not all the pathogens may be dead **OR** there may be some pathogens still alive but not enough to cause symptoms; **[1 mark]**
+- The disease can reappear/reinfect **OR** finishing the dose will allow small residual numbers of bacteria to be killed off; **[1 mark]**
+
+**[Total: 2 marks]**
+The name of the small circular loop of DNA that can be passed between bacterial cells and can carry antibiotic resistance genes is:
+
+- A <u>plasmid</u>; **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q3
+A drug is:
+
+- A substance/chemical taken into the body; **[1 mark]**
+- That modifies / affects chemical reactions in cells/tissues/organs; **[1 mark]**
+
+**[Total: 2 marks]**
+The organ that is the primary site of drug metabolism is:
+
+- The liver; **[1 mark]**
+
+**[Total: 1 mark]**
+The group of drugs that are used to treat the symptoms or causes of a disease are called:
+
+- Medicines / medicinal drugs; **[1 mark]**
+
+**[Total: 1 mark]**
+The class of drugs that is used to treat bacterial infections is:
+
+- Antibiotics; **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q4
+The completed Table 1 is as follows:
+
+| factor | contributes to antibiotics becoming less effective? |
+|---|---|
+| doctors prescribing antibiotics for viral infections | **Final answer:** **✓** |
+| large scale use of antibiotics as disease prevention | **Final answer:** **✓** |
+| doctors prescribing antibiotics for bacterial infections |   |
+| bacteria evolving defence mechanisms | **Final answer:** **✓** |
+| antibiotics 'wearing out' through overuse |   |
+| patients always finishing their course of antibiotics |   |
+
+**[1 mark] **for each correct tick
+
+**[Total: 3 marks]**
+
+| factor | contributes to antibiotics becoming less effective? |
+|---|---|
+| doctors prescribing antibiotics for viral infections | **Final answer:** **✓** |
+| large scale use of antibiotics as disease prevention | **Final answer:** **✓** |
+| doctors prescribing antibiotics for bacterial infections | > *This is acceptable; antibiotics, when used judiciously, still have a very important role to play in medicine* |
+| bacteria evolving defence mechanisms | **Final answer:** **✓** |
+| antibiotics 'wearing out' through overuse | > *This is a vague and unscientific term; antibiotics have a chemical effect on bacteria, and it is only changes in the bacteria that can render an antibiotic ineffective* |
+| patients always finishing their course of antibiotics | > *Patients who finish their course will have a greater chance of eliminating all the bacterial pathogens in their bodies, so this is not a factor* |
+Stopping the bacteria from reproducing is acceptable because:
+
+Any **two** from the following:
+
+- Bacteria have a very short life cycle / reproduce several times an hour/day; **[1 mark]**
+- The live cells will die quickly (of natural causes) and not be replaced; **[1 mark]**
+- Stopping them from reproducing is (almost) the same as killing the existing cells; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Any species that is prevented from reproducing is either extinct or soon to be extinct. Remember the MRS GREN characteristics; all life forms need to be able to reproduce. *
+Antibiotics tend to be effective against bacterial cells but not against animal cells because:
+
+- Antibiotics target structures / processes of bacterial cells (that are not present in animal cells) eg. cell wall; **[1 mark]**
+- No harm is done to animal cells which don't possess those structures/processes; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q5
+The percentage increase of antibiotic B detected as the stream flows from the township and past the dumpsite is:
+
+- 34 - 8 = 26;** [1 mark]**
+- (26 ÷ 8) × 100 = 325%; [**1 mark]**
+
+**[Total: 2 marks]**
+
+![15-1-sq4am---ma](assets/006-15-1-sq4am-ma.png)
+Two ways in which antibiotics may have found their way into the water as shown in Table 1 are:
+
+Any **two **from the following:
+
+- In sewage; **[1 mark]**
+- From peoples' urine / faeces; **[1 mark]**
+- From surplus antibiotics that had been disposed of improperly / flushed down the toilet / thrown in the garbage; **[1 mark]**
+
+**[Total: 2 marks]**
+Possible risks of antibiotics entering the environment such as in sewage and wastewater are:
+
+Any **two** from the following:
+
+- Bacteria developing antibiotic resistance; **[1 mark]**
+- Antibiotics entering/affecting aquatic food chains; **[1 mark]**
+- Impact on terrestrial wildlife / livestock; **[1 mark]**
+- Contamination of food crops e.g. if water from streams are used for irrigation; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Note that the antibiotics themselves don't **cause** antibiotic resistance to arise, but they do provide a selection pressure, killing non-resistant individuals and allowing any individuals with a random mutation that codes for resistance to survive and reproduce.*
+
+### Q6
+Paper disc 1 may have been soaked in:
+
+- (Distilled) water; **[1 mark]**
+
+**[Total:1 mark]**
+Fig. 1** **shows that...
+
+Any **two pairs** of points from the following:
+
+- There is a zone of inhibition/area of no bacterial growth around disc 2 for strain A; **[1 mark]**
+- Penicillin kills / prevents growth of strain A; **[1 mark]**
+
+**AND/OR**
+
+- There is no zone of inhibition/area of no bacterial growth around disc 2 for strain B **OR** there is no difference between disc 2 and the control for strain B; **[1 mark]**
+- Strain B is resistant to penicillin;** [1 mark]**
+
+**AND/OR**
+
+- There is a zone of inhibition/area of no bacterial growth around disc 3 for strain A and B; **[1 mark]**
+- Methicillin kills / prevents the growth of both strain A and B (to a similar level); **[1 mark]**
+
+**AND/OR**
+
+- The zone of inhibition/area of no bacterial growth is bigger around disc 2 than disc 3 for strain A; **[1 mark]**
+- Penicillin is more effective than methicillin at killing / preventing the growth of bacteria A; **[1 mark]**
+
+*This is a **describe** and **explain** question, so you cannot be awarded all ***[4 marks]*** without describing **and** explaining the results. The best way to achieve this is to describe and explain each result as you go.*
+
+**[Total: 4 marks]**** **
+A petri dish used to grow strain C would appear as follows:
+
+- Full lawn of bacteria / 100% covered in colonies / no zones of inhibition; **[1 mark]**
+(i) C may have evolved from the other strains as follows:
+
+**One **from the following:
+
+- A mutation / change in the DNA sequence would have occurred;** [1 mark]**
+- The altered bacteria would have been more likely to survive / would not have been killed when exposed to / treated with the antibiotics;** [1 mark]**
+
+(ii) Strain C is more likely to have evolved from:
+
+- B; **[1 mark]**
+
+This is because:
+
+- B is already resistant to penicillin / one mutation occurring is more likely than two; **[1 mark]**
+
+**[Total: 3 marks]**

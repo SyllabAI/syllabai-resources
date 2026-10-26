@@ -913,3 +913,648 @@ The *I-V* graphs are for the following components:
 
   - This is because the gradient is equal to $\frac{\Deltay}{\Deltax}=\frac{I}{V}=\frac{1}{R}$  so a maximum gradient will give us the smallest *R*
 - The point with the maximum gradient is point **B**
+
+## Structured Questions (11 questions)
+
+
+### Q1
+Calculate the maximum resistance of the lamp over the range shown by the graph:
+
+Identify the point of maximum resistance on the graph and choose *V* and *I* accordingly:
+
+- resistance = gradient of a *VI* graph, therefore find steepest part of slope
+
+![screenshot-2023-03-13-at-10-59-28](assets/054-screenshot-2023-03-13-at-10-59-28.png)
+
+- V = 12.8 V **AND **I = 1.75 A **[1 mark]**
+
+Use the equation for Ohm's Law:
+
+- $V=IR$
+- $R=\frac{V}{I}=\frac{12.8}{1.75}$ **[1 mark]**
+- $R=7.3Ω$ **[1 mark]**
+
+**[Total: 3 marks]**
+Using the axes in Fig. 1.2. sketch the graph of current against potential difference for a diode:
+
+**A graph which scores ****two marks**** looks like:**
+
+![screenshot-2023-03-13-at-11-04-26](assets/056-screenshot-2023-03-13-at-11-04-26.png)
+
+- Current zero for all negative voltages; **[1 mark]**
+- For positive voltages line slopes up gently to about 0.6 V **AND **then has very steep rise between 0.6 - 1.0 V;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *It's a good idea to sketch out graph shapes in pencil first, so your final answer is correct. Our sketch above started off looking like this, with guidelines, points to pass through **and two **drafts of the graph, before we rubbed out all the preparation and mistakes!*
+
+![screenshot-2023-03-13-at-11-03-16](assets/057-screenshot-2023-03-13-at-11-03-16.png)
+(i) The resistance when current = 10 mA:
+
+Determine the corresponding value of potential difference from the graph:
+
+- When *I* = 10 mA, V = 1.9 V
+
+Calculate the resistance:
+
+- $R=\frac{V}{I}=\frac{1.9}{10\times10^{-3}}$ **[1 mark]**
+- $R=190Ω$  **[1 mark]**
+
+(ii) The power when current = 10 mA:
+
+Use the power equation which relates current and resistance:
+
+- $P = I^{ 2 } R = ( 10 \times 10^{- 3} )^{2} \times 190 = 1.9 \times 10^{- 2} \mathrm{W} \text{or} 19 \text{mW}$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q2
+A graph of the change in resistance with temperature for a thermistor should look like:
+
+![img-3cec8f32d87c-1](assets/060-img-3cec8f32d87c-1.jpeg)
+
+- Curved line showing decreasing gradient with rise in temperature; **[1 mark]**
+- Smooth line not touching temperature axis **AND **no horizontal or vertical line anywhere; **[1 mark]**
+
+**[Total: 2 marks]**
+At 60 °C, the resistivity of the thermistor would:
+
+- Decrease; **[1 mark]**
+
+Because:
+
+- The resistance would have decreased; **[1 mark]**
+- Since resistivity is proportional to the resistance / $ρ\proptoR$; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *This question links directly back to part (a) of how temperature affects the resistance of a metal. Since the temperature increases, the resistance decreases in the thermistor. From the equation *$ρ=\frac{RA}{l}$*, where **A** and **l** are still constant, we can see that resistivity is directly proportional to the resistance and hence also decreases.*
+(i) The meaning of *LDR* is:
+
+- Light-dependent resistor; **[1 mark]**
+
+(ii) A graph of the change in resistance with light intensity for an LDR should look like:
+
+![img-e9f8f561e6a4-1](assets/062-img-e9f8f561e6a4-1.jpeg)
+
+- Curved line showing decreasing gradient with greater light intensity; **[1 mark]**
+- Smooth line not touching light intensity axis **AND **no horizontal or vertical line anywhere; **[1 mark]**
+
+**[Total: 3 marks]**
+The resistance the LDR is likely to be at:
+
+- 5 kΩ during the <u>day</u>;** [1 mark]**
+- 20 MΩ during the <u>night</u>;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question links to the graph in part (c). *
+
+> *During the day, the light intensity is going to be very high on the LDR. Therefore, it has a smaller resistance - 5 kΩ. This is the opposite at night.*
+
+### Q3
+The relation between *R, L,* *A* and the resistivity *ρ *of the material of the wire is:
+
+- $R=\frac{ρL}{A}$ **[1 mark]**
+
+**[Total: 1 mark]**
+The most appropriate instrument to use to measure...
+
+(i) The resistance of the wire:
+
+- Voltmeter and ammeter / ohmmeter / multimeter on 'ohm' setting; **[1 mark]**
+
+(ii) The diameter of the wire:
+
+- Micrometer (screw gauge) / digital / vernier callipers; **[1 mark]**
+
+(iii) The length of the wire:
+
+- A metre rule / tape measure; **[1 mark]**
+
+**[Total: 3 marks]**
+Show that the resistivity of the metal is 6.67 × 10<sup>–7 </sup>Ω m
+
+List the known quantities:
+
+- Resistance, *R* = 6.1 Ω
+- Diameter, *d* = 0.44 mm* *= 0.44 × 10<sup>–3</sup> m
+- Length, *l* = 1390 mm = 1.39 m
+
+Determine the equation for the resistivity, *ρ*:
+
+- $R = \frac{ρl}{A} \Rightarrow ρ = \frac{RA}{l}$**[1 mark]**
+
+Calculate the cross-sectional area, *A*:
+
+- $A = \mathrm{\pi } r^{2} = \mathrm{\pi } ( \frac{d}{2} )^{2} = \frac{ \mathrm{\pi } d^{2}}{4}$
+- $A = \frac{ \mathrm{\pi } ( 0.44 \times 10^{- 3} )^{2}}{4} = 1.52 \times 10^{- 7} \mathrm{m}^{2}$ **[1 mark]**
+
+Substitute in the values:
+
+- `rho = (6.1 x ( 1.52 x 10 ^ - 7 ))/(1.39) = 6.67 x 10 ^ - 7 capital omega m` **[1 mark]**
+
+**[Total: 3 marks]**
+If the diameter of the wire was doubled, the resistivity would:
+
+- Not change; **[1 mark]**
+- (This is because) resistivity is a property of a material / resistivity changes with temperature (only); **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q4
+Determine the resistance of the component when a potential difference of 6.0 V is applied across it:
+
+Use the graph to find current when p.d. = 6.0 V:
+
+- Corresponding value of *I* = 1.425 A
+
+Use Ohm's law equation to find resistance:
+
+- $V=IR\RightarrowR=\frac{V}{I}$
+- $R=\frac{6.0}{1.425}$** [1 mark]**
+- $R=4.2Ω$ ** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *The graph is linear at 6.0 V, so the corresponding value can be read off.*
+
+> *It is encouraged, for more difficult scales, to draw a line using a pencil and ruler to the **y** axis to read off the most accurate value.*
+For the component in part (a) calculate the minimum value of *R* as the potential difference across it changes over the range 0-10 V:
+
+Determine where the answer lies on the graph:
+
+- Least value of *R* is found where the gradient is steepest
+
+Read the values of *V* and *I* at the point where the gradient is steepest and calculate:
+
+- $R=\frac{V}{I}=\frac{3.0}{0.95}$** [1 mark]**
+- $R=3.2Ω$ ** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *Graphs of current and potential difference are commonly plotted as **V-I** and **I-V**, so you need to check rather than just memorising the shapes.*
+
+> *Since the resistance is *$\frac{V}{I}$* and the gradient is *$\frac{I}{V}$*, this means the resistance is *$\frac{1}{gradient}$*.*
+For the component in part (a) calculate:
+
+(i) The power dissipated when *V* = 2.0 V:
+
+Determine the current when *V* = 2.0 V by finding the corresponding value on the graph:
+
+- Current, *I* = 0.425 A **[1 mark]**
+
+Use the equation for power:
+
+- $P=VI=2.0\times0.425=0.85W$ **[1 mark]**
+
+(ii) The maximum power dissipated before the component heats up:
+
+Use the graph to find where the component starts to heat up:
+
+- Until the temperature changes, the component obeys Ohm's Law
+- Therefore, identify the last point of the straight line / directly proportional area **OR **clear use of correct values / point marked on the graph; **[1 mark]** ![screenshot-2023-03-13-at-11-11-34](assets/064-screenshot-2023-03-13-at-11-11-34.png)
+
+Determine the current and potential difference at this point:
+
+- Current, *I* = 0.25 A
+- Potential difference, *V* = 1.2 V
+
+Calculate using the equation for power:
+
+- $P=VI=1.2\times0.25=0.30W$** [1 mark]**
+
+(iii) The value of resistance at the point identified in part (ii):
+
+Use an equation relating power and resistance to find the value of *R*:
+
+- $P=I^{2}R\mathrm{or}P=\frac{V^{2}}{R}$
+
+- $R=\frac{P}{I^{2}}=\frac{0.30}{0.25^{2}}\mathrm{or}R=\frac{V^{2}}{P}=\frac{1.2^{2}}{0.30}$ **[1 mark]**
+- $R=4.8Ω$** [1 mark]**
+
+**[Total: 6 marks]**
+
+> *A question like this, which depends on correctly reading a set of values from a graph, would always have the subsequent marks as 'error carried forward'.*
+
+> *So if you read the graph incorrectly, but then continued with the calculation as you should have, then you'll have a different answer to ours, but still potentially get the marks. *
+
+> *If this applies to you then check with a teacher or friend if you aren't sure about your answer.*
+
+### Q5
+Calculate the power dissipated in this length of wire when it carries a current of 10 mA:
+
+List the known quantities:
+
+- Resistivity of wire (at room temperature), *ρ* = 3.0 × 10<sup>–7</sup> Ω m
+- Cross-sectional area, *A* = 0.50 mm<sup>2</sup>
+- Length of the wire, *L* = 2.5 m
+- Current, *I* = 10 mA = 10 × 10<sup>–3</sup> A
+
+Convert the cross-section area into m<sup>2</sup>:
+
+- 1 mm = 1 × 10<sup>–3</sup> m therefore 1 mm<sup>2</sup> = 1 × 10<sup>–6</sup> m
+- *A* = 0.50 mm<sup>2</sup> = 0.50 × 10<sup>–6</sup> m<sup>2</sup> **[1 mark]**
+
+Calculate the resistance of the wire at room temperature:
+
+- $ρ=\frac{RA}{L}$*  *
+- $R = \frac{\\rho L}{A} = \frac{( 3.0 \times 10^{- 7} ) \times 2.5}{( 0.5 \times 10^{- 6} )}$ **[1 mark]**
+- $R=1.5Ω$ **[1 mark]**
+
+Calculate the power dissipated:
+
+- $P=I^{2}R=(10\times10^{--3})^{2}\times1.5$
+- $P=1.5\times10^{--4}W$**[1 mark]**
+
+**[Total: 4 marks]**
+Explain the assumption that is necessary for calculating the answer to part (a):
+
+State the assumption:
+
+- The resistance of the wire is constant; **[1 mark]**
+
+Explain why the resistance must be assumed constant:
+
+- If the resistance changes (because the temperature of the wire increases) then the current (hence power) will change; **[1 mark]**
+
+**[Total: 2 marks]**
+Explain why the superconducting wires increase the efficiency of electrical power transmission:
+
+- If the resistance is zero, then there is <u>no power loss</u> / the <u>waste energy</u> transferred as heat is <u>zero</u>; **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q6
+A table that would score 4 marks should look like:
+
+| **quantity** | **does not affect resistance** | **affects resistance** |
+|---|---|---|
+| cross-sectional area |   | **Final answer:** **✓** |
+| length |   | **Final answer:** **✓** |
+| resistivity |   | **Final answer:** **✓** |
+| mass | **Final answer:** **✓** |   |
+
+- Cross-sectional area does affect resistance; **[1 mark]**
+- Length does affect resistance;** [1 mark]**
+- Resistivity does affect resistance;** [1 mark]**
+- Mass does not affect resistance;** [1 mark]**
+
+**[Total: 4 marks]**
+
+> *You can determine which quantities the resistance depends on, look at the equation for resistance*
+
+> $R=\frac{ρl}{A}$*.*
+
+> *Therefore, the resistance is affected by the resistivity (**ρ**), the length (**l**) and the cross-sectional area (**A).*
+Calculate the cross-sectional area of the metal wire:
+
+List the known quantities:
+
+- Diameter of the wire, *d* = 66 µm = 66 × 10<sup>–6</sup> m
+
+Determine the equation for cross-sectional area, *A*:
+
+- $A = \pi r^{2} = \pi ( \frac{d}{2} )^{2} = \frac{ \pi d^{2}}{4}$
+
+Substitute in the values:
+
+- $A = \frac{\pi ( 66 \times 10^{- 6} )^{2} }{4}$ **[1 mark]**
+- $A=3.421\times10^{-9}=3.4\times10^{-9}m^{2}$ **[1 mark]**
+
+**[Total: 2 marks]**
+The resistance of the wire is:
+
+List the known quantities:
+
+- Current, *I* = 0.65 A
+- Potential difference, *V* = 24 V
+
+Calculate the resistance, *R*:
+
+- $R=\frac{V}{I}=\frac{24}{0.65}$ **[1 mark]**
+- $R=36.9=37Ω$ **[1 mark]**
+
+**[Total: 2 marks]**
+To determine which metal the filament is made from:
+
+List the known quantities:
+
+- Resistance, $R$ = 36.9 Ω (from **(b)**)
+- Cross-sectional area, $A$ = 3.421 × 10<sup>–9</sup> m<sup>2</sup> (from **(a)**)
+- Length, $l$ = 23 cm = 23 × 10<sup>–2</sup> m
+
+Determine the equation for the resistivity of the wire, *ρ*:
+
+- $R=\frac{ρl}{A}\Rightarrowρ=\frac{RA}{l}$
+
+Substitute in the values:
+
+- $\\rho = \frac{36.9 \times ( 3.421 \times 10^{- 9} ) }{23 \times 10^{- 2} }$ **[1 mark]**
+- $ρ=5.488\times10^{-7}=5.5\times10^{-7}Ωm$ **[1 mark]**
+
+Identify the metal from Table 1.2:
+
+- (Therefore, the metal is) <u>tungsten</u>; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q7
+Sketch on Fig 1.1 how the resistance *R *of the extending wires varies with the length *l*
+
+Determine the relationship between *R* and *l*:
+
+- $R=\frac{ρl}{A}$
+- $V=Al\RightarrowA=\frac{V}{l}$
+- $R=\frac{ρl}{\frac{V}{l}}=\frac{ρl^{2}}{V}$
+- Therefore, $R\proptol^{2}$ **[1 mark]**
+
+A graph that would score 1 mark should look like:
+
+![BcAdsMT4_img-11c97c0b6343-1](assets/066-bcadsmt4-img-11c97c0b6343-1.jpeg)
+
+- Curve lined with increasing gradient; **[1 mark]**
+
+**[Total: 2 marks]**
+The ratio $\frac{powerdissipatedinY}{powerdissipatedinX}$ is:
+
+Determine the equation for the ratio of power dissipated:
+
+- $P=IV=I^{2}R$ where $R=\frac{ρl}{A}$ **[1 mark]**
+- $\frac{P_{Y}}{P_{X}}=\frac{I^{2}R_{Y}}{I^{2}R_{X}}=\frac{\frac{ρ_{Y}l_{Y}}{A_{Y}}}{\frac{ρ_{X}l_{X}}{A_{X}}}$
+
+Substitute the values from Table 1.1 into the equation and simplify:
+
+- `P _ Y / P _ X = (begin display style (rho l )/(begin display style (pi d ^2)/(4) ) )/(begin display style (( begin display style rho / 3 ) 2 l)/(begin display style (pi ( 4 d ) ^2)/(4) ) ) = (begin display style (rho l )/(pi d ^2) )/(begin display style (begin display style 2 / 3 rho l)/(16 pi d ^2) )`**[1 mark]**
+- $\frac{powerdissipatedinY}{powerdissipatedinX}=\frac{P_{Y}}{P_{X}}=24$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The reason *$P=I^{2}R$* is used and not *$P=\frac{V^{2}}{R}$* is because of the arranging of the resistors. *
+
+> *Since they are in **series**, they have the **same** current **I** but a different potential difference **V**. Using *$P=I^{2}R$* means that '**I**' cancels out in the ratio whilst **V** wouldn't.*
+The ratio $\frac{powerdissipatedinY}{powerdissipatedinX}$ of X and Y connected in series and connected in parallel is:
+
+List the known quantities:
+
+- $\frac{P_{Y}}{P_{X}}_{series}$ = 24 (from part b)
+
+Determine $\frac{P_{Y}}{P_{X}}$ in parallel:
+
+- $P=IV=\frac{V^{2}}{R}$ where $R=\frac{ρl}{A}$
+- $\frac{P_{Y}}{P_{X}}=\frac{\frac{V^{2}}{R_{Y}}}{\frac{V^{2}}{R_{X}}}=\frac{R_{X}}{R_{Y}}=\frac{\frac{ρ_{X}l_{X}}{A_{X}}}{\frac{ρ_{Y}l_{Y}}{A_{Y}}}$ **[1 mark]**
+
+Substitute the values from Table 1.1 into the equation and simplify:
+
+- `P _ Y / P _ X = (begin display style (( begin display style rho / 3 ) 2 l)/(begin display style (pi ( 4 d ) ^2)/(4) ) )/(begin display style (rho l )/(begin display style (pi d ^2)/(4) ) ) = (begin display style (begin display style 2 / 3 rho l )/(16 pi d ^2) )/(begin display style (begin display style rho l )/(begin display style pi d ^2 ) )`
+- $\frac{P_{Y}}{P_{X}}_{parallel}=\frac{1}{24}$** [1 mark]**
+
+Calculate the product of the ratios:
+
+- $\frac{P_{Y}}{P_{X}}_{series}\times\frac{P_{Y}}{P_{X}}_{parallel}=24\times\frac{1}{24}=1$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Both part (b) and (c) requires quite a bit of algebra here. You must be confident with dealing with fractions, as many of the harder questions are very algebraic. This style of question is quite common in MCQs too.*
+
+### Q8
+Calculate the energy transferred by the lightning strike:
+
+List the known quantities:
+
+- Potential difference, *V* = 2.7 MV = 2.7 × 10<sup>6</sup> V
+- Current, *I* = 25 kA = 25 × 10<sup>3 </sup>A
+- Time, *t* = 7.5 ms = 7.5 × 10<sup>–3</sup> s
+
+Use the equation defining current to calculate the charge, *Q*:
+
+- $Q = I t = ( 25 \times 10^{3} ) \times ( 7.5 \times 10^{- 3} )$
+- $Q=187.5C$ **[1 mark]**
+
+Use the equation defining potential difference to calculate work done, *W*:
+
+- $V=\frac{W}{Q}$
+- $W = ( 2.7 \times 10^{6} ) \times 187.5$ **[1 mark]**
+- $W = 5.0625 \times 10^{8} = 5.1 \times 10^{8} \mathrm{J} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**
+The lightning conductor is made from copper. Sketch an IV graph for the rod when it conducts a lightning strike to earth:
+
+Decide which type of conductor the rod is:
+
+- (The rod will get hot since copper wires get hot, therefore) it is the equivalent of a non-ohmic resistor / filament lamp; **[1 mark]**
+
+A sketch of the correct graph shape looks like:
+
+![screenshot-2023-03-13-at-10-53-00](assets/069-screenshot-2023-03-13-at-10-53-00.png)
+
+- Axes labelled *I* and *V* (either way round); **[1 mark**]
+- Correct graph shape for chosen axes;** [1 mark]**
+
+**[Total: 3 marks]**
+
+> *If you attempted to draw **any **version of the filament lamp graph, even if it went a bit wrong, the examiner would award you the first mark.*
+Explain any changes which the lightning rod would undergo during a lightning strike:
+
+- Delocalised / free electrons move faster / increase kinetic energy;** [1 mark]**
+- Therefore, as current increases the temperature increases; **[1 mark]**
+- As temperature increases the resistance increases (as shown in the graph); **[1 mark]**
+
+**[Total: 3 marks].**
+
+### Q9
+Calculate the length of nichrome wire required:
+
+List the known quantities:
+
+- Radius of the wire,* r* = 0.16 mm = 0.16 × 10<sup>–3</sup> m
+- Potential difference through wire,* V* = 230 V
+- Power through wire, *P* = 600 W
+- Resistivity of nichrome, *ρ* = 1.1 × 10<sup>–6</sup> Ω m
+
+Use the equation relating power and resistance and calculate to find resistance, *R*:
+
+- $P=\frac{V^{2}}{R}$
+- $R=\frac{V^{2}}{P}=\frac{230^{2}}{600}$ **[1 mark]**
+- $R=88.2Ω$ **[1 mark]**
+
+Calculate cross-sectional area *A*:
+
+- Area of a circle $A = \pi r^{2} = \pi \times ( 0.16 \times 10^{- 3} )^{2} = 8.042 \times 10^{- 8} \mathrm{m}^{2}$ **[1 mark]**
+
+Use the resistivity equation to calculate length:
+
+- $ρ=\frac{RA}{L}$
+- $L = \frac{R A}{\\rho } = \frac{88.2 \times ( 8.042 \times 10^{- 8} )}{( 1.1 \times 10^{- 6} )}$ **[1 mark]**
+- $L = 6.4 \mathrm{m} ( 2 \mathrm{s} . \mathrm{f} . )$** [1 mark]**
+
+**[Total: 5 marks]**
+Two properties that the nichrome wire must have to make it suitable as an electrical heating element are:
+
+**Final answer:** **Any ****two ****from:**
+
+- High resistance / resistivity / low electrical conductivity (so it gets hot); **[1 mark]**
+- High melting point (to withstand high temperatures); **[1 mark]**
+- Low thermal capacity / low specific heat capacity (to reduce the amount of energy needed to make it hot); **[1 mark]**
+
+**[Total: 2 marks]**
+The resistivity of the nichrome wire changes with temperature because:
+
+- The resistivity / resistance increases with increasing temperature; **[1 mark]**
+- This is due to the (lattice) ions / atoms vibrating more / with a greater amplitude; **[1 mark]**
+- The rate of momentum of the charge carriers / electrons (along the wire) is therefore reduced; **[1 mark]**
+
+**[Total: 3 marks]**
+Calculate the length needed for this new nichrome wire to produce the same current through the heating element:
+
+List the known quantities:
+
+- Length of old wire *L* = 6.4 m (from part c)
+- Old wire radius = 0.16 mm
+- New wire radius = 0.08 mm
+- Resistivity of nichrome, *ρ* = 1.1 × 10<sup>–6</sup> Ω m
+
+Determine how the area would change for ½ *r *:
+
+- Area of a circle, $A=πr^{2}$
+- Therefore for *r'* = ½ *r*, $A^{'} = \pi ( \frac{r}{2} )^{2} = \frac{\pi r^{2}}{4} = \frac{A}{4}$ **OR **new area is one quarter original area; **[1 mark]**
+
+Determine how the length would change for ¼ *A *:
+
+- $L=\frac{RA}{ρ}$
+- $L^{'}=\frac{R}{ρ}\times\frac{A}{4}=\frac{L}{4}$ **OR **new length is one-quarter original length; **[1 mark]**
+- $L'=\frac{6.4}{4}=1.6m$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q10
+Calculate the current which passes through the carbon film in Fig. 1.1. for an applied voltage of 2.5 mV:
+
+List the known quantities:
+
+- Resistivity of carbon, *ρ *= 4.0 × 10<sup>–5</sup> Ω m
+- Applied voltage, *V* = 2.5 mV = 2.5 × 10<sup>–3</sup> V
+
+Interpret the correct dimensions from Fig. 1.1:
+
+- Length which current passes through, *L* = 3.0 × 10<sup>–3</sup> m **AND**
+- Cross-sectional area of conductor, *A* = (8.0 × 10<sup>–3</sup>) × (2.0 × 10<sup>–6</sup>) = 1.6 × 10<sup>–8</sup> m<sup>2</sup> **[1 mark]**
+
+Use the resistivity equation to calculate the resistance *R* of the carbon film:
+
+- $ρ=\frac{RA}{L}$*  *
+- $R=\frac{ρL}{A}$$= \frac{( 4.0 \times 10^{- 5} ) \times ( 3.0 \times 10^{- 3} )}{( 1.6 \times 10^{- 8} )}$ **[1 mark]**
+- $R$ = 7.5 Ω **[1 mark]**
+
+Use Ohm's law to calculate the current flowing through the carbon film:
+
+- $V=IR$
+- $I = \frac{V}{R} = \frac{( 2.5 \times 10^{- 3} )}{7.5}$ **[1 mark]**
+- $I$ = 3.3 × 10<sup>–4</sup> A **[1 mark]**
+
+**[Total: 5 marks]**
+Show that the current is approximately a million times larger if it is directed through the carbon film as shown in Fig. 1.2:
+
+List the known quantities:
+
+- Resistivity of carbon, *ρ *= 4.0 × 10<sup>–5</sup> Ω m
+- Applied voltage, *V* = 2.5 mV = 2.5 × 10<sup>–3</sup> V
+- Current when directed horizontally, *I*<sub>A</sub> = 3.3 × 10<sup>–4</sup> A (from (a))
+
+Interpret the correct dimensions from Fig. 1.2:
+
+- The length that the current passes through, *L *= 2.0 × 10<sup>–6</sup> m **AND**
+- The cross-sectional area of conductor, $A = ( 8.0 \times 10^{- 3} ) \times ( 3.0 \times 10^{- 3} ) = 2.4 \times 10^{- 5} \mathrm{m}^{2}$ **[1 mark]**
+
+Use the resistivity equation to calculate the resistance *R* of the carbon film:
+
+- $ρ = \frac{RA}{L}$
+- `R = (rho L)/(A) = (( 4.0 x 10 ^ - 5 ) x ( 2.0 x 10 ^ - 6 ))/(( 2.4 x 10 ^ - 5 )) = 3.3 x 10 ^ - 6 capital omega` **[1 mark]**
+
+Use Ohm's Law to calculate the current flowing through the carbon film, *I*<sub>b</sub>:
+
+- $V = I R$
+- $I = \frac{V}{R} = \frac{( 2.5 \times 10^{- 3} )}{( 3.3 \times 10^{- 6} )} = 750 \mathrm{A}$ **[1 mark]**
+
+Calculate the ratio of currents:
+
+- $\frac{I_{b}}{I_{a}} = \frac{750}{3.3\times10^{-4}}$ = 2.25 × 10<sup>6</sup> **[1 mark]**
+
+State a conclusion:
+
+- Therefore, the current in Fig. 1.2 is about a million times / 10<sup>6</sup> larger than the current in Fig. 1.1
+
+**[Total: 4 marks]**
+Discuss how the resistance of the carbon film changes as a result of the applied tensile force:
+
+State how the resistance changes:
+
+- The resistance decreases; **[1 mark]**
+
+Describe the dimensional changes caused by the tensile force:
+
+- The tensile force causes the <u>length</u> (of the carbon film through which current is flowing) to decrease **AND **the cross-sectional <u>area to increase</u>; **[1 mark]**
+
+Explain how dimensional changes affects the resistance:
+
+- (Resistance decreases because) resistance is proportional to length **AND i**nversely proportional to the cross-sectional area; **[1 mark]**
+
+State any assumptions:
+
+**Final answer:** **Any ****one**** of the following:**
+
+- The tensile force acts uniformly / is a constant magnitude; **[1 mark]**
+- The tensile force acts in all directions;** [1 mark]**
+- There are no tears / rips / deformities in the carbon film as it stretches; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *A **tensile** force is a **pulling force**, so the carbon film will be stretched by this force. *
+
+![tensile-strength](assets/072-tensile-strength.png)
+
+### Q11
+The resistivity, in terms of* ρ*, of a wire with a diameter 2*d *and* *a* *potential difference 3*V* through it is:
+
+Determine the equation for the resistivity of the first wire:
+
+- $R=\frac{ρl}{A}\Rightarrowρ=\frac{RA}{l}$
+- $\text{rho} = \frac{R \times pi r ^{2} }{l} = \frac{R \times pi ( \frac{d}{2} ) ^{2} }{l}$ **[1 mark]**
+
+Determine the new resistance, *R*:
+
+- $R=\frac{V}{I}$ therefore $\frac{3V}{I}=3R$ **[1 mark]**
+
+Determine the new resistivity:
+
+- `rho _ 2 = ( 3 R x pi ( (2 d)/(2) ) ^2)/(l) = (( 3 x 2 ^2 ) R x pi ( d / 2 ) ^2)/(l)`
+- $rho_{2} = \frac{ 12 R \times pi ( \text{begin} \text{display} \text{style} \frac{d}{2} ) ^{2} }{l} = 12 \text{rho}$ **[1 mark]**
+
+**[Total: 3 marks]**
+The student would accurately determine the cross-sectional area of the wires by:
+
+- Measuring the diameter at (at least) 3 different parts of each wire; **[1 mark]**
+- Using a micrometer (screw gauge); **[1 mark]**
+- Calculate an average diameter *d* and calculate the cross-sectional area *A* using $A = \pi ( \frac{d}{2} )^{2} = \frac{ \pi d^{2}}{4}$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Make sure not to just stop your answer by measuring the diameter. The question asks how to measure the **area**, which requires a calculation using the diameter which you must provide to complete your answer.*
+Sketch a graph of voltage *V* against the current *I* for each of the wires.
+
+Determine how the cross-sectional area *A* related to the gradient of the graph:
+
+- $R=\frac{V}{I}$ is the gradient of the graph
+- $R=\frac{ρl}{A}$ therefore $R\propto\frac{1}{A}$
+
+A graph that would score 2 marks should look like:
+
+![img-2d9ea8dda240-1](assets/074-img-2d9ea8dda240-1.jpeg)
+
+- Voltage (*V*)/V labelled on the *y-*axis and current (*I*)/A labelled on the *x*-axis; **[1 mark]**
+- Three straight lines drawn with a positive gradient; **[1 mark]**
+- Labelled 0.21 m<sup>2</sup>, 0.45 m<sup>2</sup> and 0.89 m<sup>2</sup> from steepest to shallowest gradient; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *You must be as accurate and neat as possible with any graph sketches. Always label the axes and add units where applicable!*

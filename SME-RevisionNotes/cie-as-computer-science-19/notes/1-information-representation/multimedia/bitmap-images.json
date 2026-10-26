@@ -1,0 +1,201 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_Kgg8jY49FTfqS5CF",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/1-information-representation/multimedia/bitmap-images",
+ "title": "Bitmap images",
+ "page_title": "Bitmap images | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "1-information-representation",
+   "multimedia",
+   "bitmap-images"
+  ],
+  "section": "1-information-representation",
+  "topic": "multimedia",
+  "leaf": "bitmap-images"
+ },
+ "titles": {
+  "section": "1. Information representation",
+  "topic": "Multimedia",
+  "subtopic": "Bitmap images"
+ },
+ "updated_at": "2026-10-01T09:12:02.643Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_njs3DqJ4DBNZfMM5",
+  "spcpt_MWjXCg8hDQwNBCQn",
+  "spcpt_Gwtm7fDtNzWtR75x"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 28,
+  "figures": 4,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_njs3DqJ4DBNZfMM5",
+   "name": "Bitmap encoding",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Bitmap encoding"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a bitmap?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A bitmap image is made up of squares called **pixels**\n- A pixel is the **smallest element** of a bitmap image\n- Each pixel is** stored as a binary code**\n- Binary codes are **unique **to the **colour **in each pixel\n- A typical example of a bitmap image is a photograph"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/humidity-sensor-photo.png",
+   "file": "assets/70f22ee0cc8d-humidity-sensor-photo.png",
+   "alt": "Blue rectangular electronic sensor with grid openings and four metal pins on the bottom for connectivity, casting a shadow on a white surface.",
+   "caption": "Humidity sensor bitmap image"
+  },
+  {
+   "type": "bullets",
+   "md": "- The more colours and more detail in the image, the** higher the quality of the image** and the **more binary that needs to be stored**"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Image vs screen resolution"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Image resolution** is the **total amount of pixels** that make up a bitmap image\n- The image resolution is calculated by **multiplying the height and width** of the image (in pixels)\n- In general, the **higher the resolution the more detail in the image** (higher quality)\n- **Screen resolution** is the **number of pixels a screen can display horizontally and vertically**, given as width x height, e.g. 1920 x 1080, such as:\n\n  - **Computer monitors** - a 1440p monitor is 2560 x 1440 pixels, compared to a 4K monitor at 3840 x 2160 pixels\n  - **TVs** - HD (high definition) televisions are 1920 x 1080 pixels (1080p, where 1080 is the number of pixel rows), compared to newer 4K televisions at 3840 x 2160 pixels\n  - **YouTube** - the quality button allows a user to change the video playback resolution from 144p (144 pixel rows) up to 4K\n- If an image's resolution does not match the screen resolution, the image is **scaled up or down to fit** the screen, which can reduce its quality"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Colour/bit depth"
+  },
+  {
+   "type": "bullets",
+   "md": "- Colour depth is the **number of bits stored per pixel** in a bitmap image\n- The colour depth is dependent on the** number of colours needed** in the image\n- In general, the** higher the colour depth the more detail in the image** (higher quality)\n- In a black & white image the **colour depth would be 1**, meaning 1 bit is enough to create a unique binary code for each colour in the image (1=white, 0=black)"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/1-bit-bitmap-image.png",
+   "file": "assets/52739045d7c6-1-bit-bitmap-image.png",
+   "alt": "Example 1 bit black and white image",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- In an image with a **colour depth of 2**, you would have *00*, *01*, *10 *& *11 *available binary codes, so **4 colours**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/-2-bit-bitmap-image.png",
+   "file": "assets/2777a55bdbfd-2-bit-bitmap-image.png",
+   "alt": "Example 2 bit Mario image",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- As **colour depth increases**, so does the **amount of colours available** in an image\n- Colour depth **determines the number of colours** that can be represented in an image\n- The number of colours is calculated using the formula:\n\n  - **Number of colours = 2**<sup>**n**</sup>** (where n = colour depth in bits)**"
+  },
+  {
+   "type": "table",
+   "md": "| **Colour/bit depth** | **Number of colours** | Example |\n|---|---|---|\n| **1 bit** | 2<sup>1</sup> = 2 | B&W |\n| **2 bit** | 2<sup>2</sup> = 4 | Icons/logos |\n| **4 bit** | 2<sup>4</sup> = 16 | Early computer graphics |\n| **8 bit** | 2<sup>8</sup> = 256 | GIFs, retro games |\n| **24 bit (True colour)** | 2<sup>24</sup> = 16 777 216 | High-quality images |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_MWjXCg8hDQwNBCQn",
+   "name": "Calculating the size of a bitmap file",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Calculating the size of a bitmap file"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do you calculate the size of a bitmap image?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Estimating the size of a bitmap image can be carried out with the following formula:\n\n  - **Resolution x colour/bit depth**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Example"
+  },
+  {
+   "type": "table",
+   "md": "| **Image Files** |\n|---|\n| (Resolution) **x** (Colour Depth) |\n| \\| **Size of bitmap image = ** \\|   \\|   \\|<br>\\|---\\|---\\|---\\|<br>\\| Resolution \\| **250,000** \\| Resolution = width x height \\|<br>\\| Colour depth \\| **24 bits** \\| 24 bits = 3 bytes \\|<br>\\| **250,000 x 24** \\| **=**<br><br>***(bit to bytes) /8***<br><br>***(bytes to KiB) /1024***<br><br>**or**<br><br>***(bytes to KB) /1000*** \\| **6,000,000 bits**<br><br>**750,000 bytes**<br><br>**Final answer:** **732 KiB**<br><br>**or**<br><br>**Final answer:** **750 KB** \\|<br>\\| **250000 x 3** \\| =<br><br>***(bytes to KiB) /1024***<br><br>**or**<br><br>***(bytes to KB) /1000*** \\| **750,000 bytes**<br><br>**Final answer:** **732 KiB**<br><br>**or**<br><br>**Final answer:** **750 KB** \\| |"
+  },
+  {
+   "type": "bullets",
+   "md": "- When bitmap images are saved,** a file header is created**\n- This contains:\n\n  - **File type (.bmp or .jpg)**\n  - **File size**\n  - **Image resolution**\n  - **Colour depth**\n  - **Any type of compression if used**"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The following section of a bitmap image is 10 pixels wide and 5 pixels high. In this example, each colour is represented by a letter, e.g. O is orange.\n\nThe complete image can have up to 256 colours\n\n![A grid of letters with ten columns and six rows containing letters B, Y, R, M, P, K, T, G, and O in various sequences and positions.](assets/939c2dd8267c-6997-screenshot-2025-04-02-113659.png)\n\na) Identify the smallest number of bits that can be used to represent each colour in the complete bitmap image. **[1]**\n\nb) Calculate an estimate for the file size of the section of the bitmap image shown, giving your answer in bytes. Use your answer from **part a** and show your working.  **[2]**\n\n**Final answer:** **Answer**\n\n- 8 **[1 mark]**\n- 10 x 5 = 50(pixels), 50 x 8(bits) = 400   //   400 ÷ 8(bits) = 50 **[1 mark]**\n- 50 (bytes) **[1 mark]**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Gwtm7fDtNzWtR75x",
+   "name": "Image quality & file size",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Image quality & file size"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the relationship between image quality and file size?"
+  },
+  {
+   "type": "bullets",
+   "md": "- As the **resolution and/or colour depth increases**, the **bigger the size of the file **becomes on secondary storage\n- The **higher the resolution**, the** more pixels** are in the image, the more bits are stored\n- The **higher the colour depth**, the **more bits per pixel** are stored\n- Striking a **balance between quality and file size** is always a consideration\n- **Compression** can be used on high quality images to help reduce the file size"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/02/image-5---seesaw-image-of-balance-vs-quality-here.png",
+   "file": "assets/9a3fddd39c11-image-5-seesaw-image-of-balance-vs-quality-here.png",
+   "alt": "Seesaw to demonstrate the relationship between quality and file size of an image",
+   "caption": null
+  }
+ ]
+}

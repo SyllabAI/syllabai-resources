@@ -1,0 +1,687 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:25Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "2-communication-",
+  "name": "2. Communication"
+ },
+ "topic": {
+  "id": "top_MzTrp6MK9CFbpBGy",
+  "slug": "networks-and-the-internet",
+  "name": "Networks & the Internet",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "network-models-",
+   "name": "Network models",
+   "revision_note_id": "rn_54rhKVSnQSKGDyfk"
+  },
+  {
+   "slug": "cloud-computing-",
+   "name": "Cloud computing",
+   "revision_note_id": "rn_Kczv2v9DccrR328M"
+  },
+  {
+   "slug": "network-types",
+   "name": "Network types",
+   "revision_note_id": "rn_Rh3jkdJq6m2jt84X"
+  },
+  {
+   "slug": "transmission-media",
+   "name": "Transmission media",
+   "revision_note_id": "rn_DqgxCBr9njhdCd4K"
+  },
+  {
+   "slug": "network-topologies-",
+   "name": "Network topologies",
+   "revision_note_id": "rn_g8sjd6PVPvy9XrKJ"
+  },
+  {
+   "slug": "network-hardware",
+   "name": "Network hardware",
+   "revision_note_id": "rn_bYS4vmQMQCGXnHGf"
+  },
+  {
+   "slug": "bit-streaming",
+   "name": "Bit streaming",
+   "revision_note_id": "rn_DzpCkyt68fDhrKHh"
+  },
+  {
+   "slug": "ethernet",
+   "name": "Ethernet",
+   "revision_note_id": "rn_qQyzZx5pPqf5nfx9"
+  },
+  {
+   "slug": "ip-addressing",
+   "name": "IP addressing",
+   "revision_note_id": "rn_9Yy8KmC9kR7RTpb8"
+  },
+  {
+   "slug": "the-internet",
+   "name": "The Internet",
+   "revision_note_id": "rn_F7BRqgrj28zQSChV"
+  },
+  {
+   "slug": "locating-resources-on-the-world-wide-web",
+   "name": "Locating resources on the World Wide Web",
+   "revision_note_id": "rn_KM3bdwBxpyvK3pXT"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_SGHvNhCpSCNSCFtz",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/2-communication-/networks-and-the-internet/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 10,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/11859_ans-nov-2023-9618-12-7bi.png": "001-diagram-shows-a-server-connected-to-a-router-whi.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/50868_q2b-9618-11-june-2024-cie-as-cs.png": "002-a-hand-pressing-a-smart-doorbell-button-beside-a.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_bpSWvwfVsQJbwZGj",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_YC6J72VMCzTVRHbZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/32",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_x2PCNzpvYrRTgRtf"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the meaning of the phrase:\n\nBitTorrent protocol provides peer-to-peer file sharing.",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per mark point (**Max 3**)\n> \n> MP1 BitTorrent allows the sharing of files between thousands of users who are connected together over the **internet**.\n> \n> MP2 It allows **more **users to share files with each other than would be the case with a peer-to-peer network.\n> \n> MP3 Users share files **directly **with each other // the users’ computers are acting as peers\n> \n> MP4 … no web server / central device is used // all users are of equal status."
+    }
+   ]
+  },
+  {
+   "id": "qstn_FTnCsXtDkw454bQm",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_59xRbr4c82JNm28G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nWYr53FBJYGR3VW8",
+      "spcpt_mKY8hhtdxbWysxVq",
+      "spcpt_jzZgXk3fm7wdY8nQ",
+      "spcpt_4SZvb8dJpwWmkX9C"
+     ],
+     "part_tier": null,
+     "problem_md": "A company sells online Computer Science courses to students in different countries. The courses are stored on a public cloud.\n\n(i) Explain why the company uses a public cloud to store these courses.\n\n(2)\n\n(ii) Describe **two **disadvantages of storing data on a public cloud compared to storing data on a server in a Local Area Network (LAN).\n\n(4)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for each bullet point (**max 2**).\n> \n> - Courses must be available to anyone who wishes to follow them\n> - Courses must be available on the internet\n> - Company is willing to share infrastructure with other companies (public)\n> - …which is more economic for the company\n> \n> (ii) **1 mark** for each bullet point (**max 2** for each disadvantage).\n> \n> - There could be a possible loss of control unlike the LAN\n> - …because the data is stored on a remote infrastructure / someone else’s infrastructure\n> - …reliance on external agency to complete tasks, e.g. backups, security\n> - Requires reliable internet connection\n> - …to ensure access to the remote data, more likely with LAN\n> - Increased recurring costs\n> - ...as cloud provider charges must be paid, costs for LAN once only"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2Ph4HZ5yqxXVmnSS",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_TDDWFQwvXyHPknbZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_3yrKz32TTxvBMPW6"
+     ],
+     "part_tier": null,
+     "problem_md": "A Local Area Network (LAN) contains four devices:\n\n- a router\n- two laptop computers\n- a server.\n\nThe server has the IP address 192.168.3.2\n\nExplain why this is **not **an IPv6 address.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Only has four groups of digits // IPv6 has eight groups\n> - Uses dotted notation instead of colons\n> - Because it is a 32 bit / 4 byte address // IPv6 is 128 bits / 16 bytes"
+    },
+    {
+     "id": "qstnprt_rH5RGqZDsnzH5zfQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_dtwd7cH4W9hw9JZj",
+      "spcpt_dkP2Zff5GCpczrJn",
+      "spcpt_BxMWxDd54ntprhpy"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) The LAN is set up as a star topology.\n\nDraw a diagram of the topology of the LAN.\n\n(2)\n\n(ii) Explain how data is transmitted between the two laptops in the LAN.\n\n(2)\n\n(iii) Subnetting can be used to separate a network into logical segments.\n\nDescribe **two other** reasons why subnetting is used in a network.\n\n(4)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for server only connected to router\n> \n> **1 mark** for two laptop computers connected only to router\n> \n> ![Diagram shows a server connected to a router, which links to two laptops, labelled 'Laptop 1' and 'Laptop 2', forming a network hierarchy.](assets/001-diagram-shows-a-server-connected-to-a-router-whi.png)\n> \n> (ii) **1 mark** for each bullet point (**max 2**)\n> \n> - The data from the sending laptop is transmitted to the router\n> - The data includes the address of the recipient\n> - The router determines the recipient’s destination address\n> - …by using a routing table\n> - The router transmits the data directly / only to the recipient\n> \n> (iii) **1 mark** for each use (**max 2**) and** 1 mark** for corresponding expansion (**max 2**)\n> \n> - To improve the security of the LAN\n> - …so that devices do not receive unintended data\n> - …so that a compromised device does not expose the whole network\n> - …so not all devices can access all segments\n> - To make network management easier\n> - …because faults can be isolated more efficiently\n> - …by appropriate example\n> - To make the network easier to expand // for better control of network growth\n> - …by allowing for a greater range of IP addresses to be available\n> - To improve network performance\n> - To reduce network congestion\n> - …by localising network communications // by dividing data between segments\n> - …so that devices are not flooded with data\n> - …because data sent between devices on the same subnet stays within the subnet"
+    },
+    {
+     "id": "qstnprt_BRw2FJS4HJzthTxg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jNXvkGRV5nGz2gbD"
+     ],
+     "part_tier": null,
+     "problem_md": "State **three **tasks performed by devices to deal with collisions when using the Carrier Sense Multiple Access /Collision Detection (CSMA/CD) protocol in a network.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 3**)\n> \n> - To monitor the communications channel\n> - To send data only when there is no data being transmitted / the line is quiet / idle\n> - **To detect a collision** and then stop transmissions of further data // transmit a **jamming **signal\n> - To calculate a **random **wait time / back-off time\n> - ... then retransmit the data after that random wait time\n> - Increase **random **time if multiple collisions"
+    },
+    {
+     "id": "qstnprt_443MDKJZ8ZRx6Cm5",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_3yrKz32TTxvBMPW6"
+     ],
+     "part_tier": null,
+     "problem_md": "The following incomplete table contains types of IP addresses and their descriptions.\n\nComplete the table by writing the missing types of IP addresses and the missing descriptions.\n\n| Type of IP address | Description |\n|---|---|\n|   | an IP address that is assigned to a device to allow direct access on the internet |\n| static IP address |   |\n|   | an IP address used for internal LAN communication only |\n| dynamic IP address |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each highlighted area\n> \n> | Type of IP address | Description |\n> |---|---|\n> | **public IP address** | an IP address that is assigned to a device to allow direct access on the internet |\n> | static IP address | **an IP address that is fixed / doesn’t change each time a device re-joins a LAN / network** |\n> | **private IP address** | an IP address used for internal LAN communication only |\n> | dynamic IP address | **an IP address that may be refreshed / changed each time a **<u>**device re-joins**</u>** a LAN / network** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_QcMvf59TJ8dBBk7t",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_GDqrD8CMWrsxVyFy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BxMWxDd54ntprhpy"
+     ],
+     "part_tier": null,
+     "problem_md": "A school has a Local Area Network (LAN).\n\nThe LAN connects to the internet using a router.\n\nDescribe the function of a router in a network.",
+     "solution_md": "**1 mark** for each bullet point (**max 3**)\n\n- Receives packets from internet / external network\n- Implements a firewall\n- Analyses the destination IP address of each packet\n- Forwards the packet towards its destination // send packets onto local network or external network\n- ...using the routing table\n- Maintains / updates the routing\n- Allocates <u>private </u>IP addresses\n- Finds the most efficient route to the destination\n- Changes the packet format for transmission over the next network //\n- Network Address Translation (NAT): NAT is a technique used by routers to allow multiple devices in a private local area network (LAN) to share a single public IP address."
+    },
+    {
+     "id": "qstnprt_hTG866qhCzrvWfRq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_9tDHddgpkNkn7kKy"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following table by writing the purpose of each of these other hardware devices used to support the LAN.\n\n| Hardware device | Purpose |\n|---|---|\n| switch |   |\n| Wireless Access Point (WAP) |   |\n| bridge |   |",
+     "solution_md": "> **[mark-scheme]**\n> Switch: **1 mark** for each bullet point (**max 1**)\n> \n> - To allow two or more devices to communicate with one another\n> - To connect individual devices to each other\n> - To receive transmissions and **forward **them to their destination\n> \n> Wireless Access Point (WAP): **1 mark** for each bullet point (**max 1**)\n> \n> - To allow connection of devices (to the central device) **using radio signals** / Wi-Fi\n> - To allow the central device to send / receive **radio signals** / Wi-Fi signals\n> - To allow wireless enabled devices to connect to a wired network\n> \n> Bridge:**1 mark** for each bullet point (**max 1**)\n> \n> - To connect two LANs / segments with the **same protocol**\n> - To transmit data between two networks with the** same protocol**"
+    },
+    {
+     "id": "qstnprt_qBhPKzMDKWqpfg9z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nWYr53FBJYGR3VW8",
+      "spcpt_jzZgXk3fm7wdY8nQ"
+     ],
+     "part_tier": null,
+     "problem_md": "The students can save their school files on a public cloud.\n\nIdentify **two** drawbacks of the students storing their files on the public cloud.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - The students cannot access their files without a reliable internet connection\n> - The amount of space for no payment may be limited so students will have to purchase more space if needed\n> - The students do not have control over the backup (or security) of their work // the students are dependent on a third party for the (security and) backing up of their work"
+    },
+    {
+     "id": "qstnprt_wNgBQfR2KgfGXZH8",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_VHypZnvZQn7CxhFg",
+      "spcpt_dtwd7cH4W9hw9JZj"
+     ],
+     "part_tier": null,
+     "problem_md": "A new classroom is being set up with 20 computers and a switch.\n\nExplain **one **advantage of implementing a star topology instead of a bus topology in the new classroom.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each advantage and **1 mark** for valid corresponding expansion\n> \n> - Star topology is more resilient to faults\n> - …because there is no single cable, leading to less disruption to teaching\n> - Higher performance as there are fewer collisions\n> - …because each device in the classroom is only connected to the switch\n> - Easier to add new nodes\n> - …because each device in the classroom connects directly to the switch\n> - Easier to fault find compared to a bus topology"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CtjJyKM6y95WDQvX",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_3vvPgjMXdw6hQP8K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nWYr53FBJYGR3VW8",
+      "spcpt_jzZgXk3fm7wdY8nQ"
+     ],
+     "part_tier": null,
+     "problem_md": "A multimedia design company has an office with a LAN (local area network). The LAN can have up to 20 devices connected with cables and other devices connected using wireless access.\n\nThe company has private cloud storage for its employees to store their work.\n\n(i) Define the term **private cloud**.\n\n(1)\n\n(ii) Describe the benefits to the company of using private cloud storage instead of public cloud storage.\n\n(3)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for:\n> \n> Dedicated/bespoke services/storage on a remote server only available to company\n> \n> (ii)** 1 mark** each to **max 3**:\n> \n> e.g.\n> \n> - Not reliant on a third party\n> - … gives greater **control **over security/privacy\n> - … gives greater **control **over backup\n> - Storage can be tailored/scalable to company requirements// an example e.g. the amount of storage accessible/ facilitating the sharing of files"
+    },
+    {
+     "id": "qstnprt_dC8mykBCR8G9XvvX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_dtwd7cH4W9hw9JZj"
+     ],
+     "part_tier": null,
+     "problem_md": "Part of the internal structure of the wired LAN is a star topology.\n\nExplain how packets are transmitted between two devices in a star topology.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each:\n> \n> - Sending computer transmits packets directly to switch/router/central device\n> - Switch/router/central device **checks destination address **of packet and forwards directly to that device"
+    },
+    {
+     "id": "qstnprt_vbH99yf8d86KB5Vn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_mrfyRqWntbwWvpnD",
+      "spcpt_jNXvkGRV5nGz2gbD"
+     ],
+     "part_tier": null,
+     "problem_md": "A different part of the network uses the Ethernet protocol.\n\n(i) A collision is detected.\n\nDescribe how the collision is managed using Carrier Sense Multiple Access/Collision Detection (CSMA/CD).\n\n(2)\n\n(ii) Identify **two **drawbacks of using CSMA/CD.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** each to **max 2**:\n> \n> - Jamming signal is transmitted by the **sending device**\n> - Transmission is aborted\n> - The **sending device** waits a **random** time before trying to send data again ...\n> - ... if further collisions occur the wait time is increased\n> \n> (ii) **1 mark** each to **max 2**:\n> \n> - Random time increased each time so can be infinite waiting\n> - May be constant jamming signal so nothing ever sends\n> - Certain nodes cannot be prioritised\n> - High power consumption\n> - Only suitable for short distance network // limited distance\n> - Not scalable // more nodes means exponentially longer waiting times"
+    },
+    {
+     "id": "qstnprt_cxs7s8tv93NT946k",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_3yrKz32TTxvBMPW6"
+     ],
+     "part_tier": null,
+     "problem_md": "The devices in the office have static private IP addresses.\n\nState what is meant by a **static private IP address**.",
+     "solution_md": "**1 mark** for:\n\nStatic means the IP for that device does not change **and** Private means it can only be accessed/seen/used within the LAN"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YbdhrYpjCYyvt42C",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_xTdF97d7cFdZvBmM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_HGRp8vVYv5y7qwS7"
+     ],
+     "part_tier": null,
+     "problem_md": "An assessment board scans exam papers and stores the digitised papers on a server. Exam markers download the digitised papers to mark. The exam markers then upload the mark for each paper.\n\nThe exam markers use software that operates as a thin-client to mark the exam papers.\n\nComplete the table by identifying **two **characteristics of a thin-client.\n\nDescribe how each characteristic will be used in this software.\n\n|   | Thin-client characteristic | Description of use in this software |\n|---|---|---|\n| 1 |   |   |\n| 2 |   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for characteristic\n> \n> **1 mark** for description of application to examination software:\n> \n> | Thin-client characteristic | Description of use in this software |\n> |---|---|\n> | Data is not stored on the client computer | Exam papers are stored on the server and not on the examiner’s computer // exam papers are not permanently stored on the examiners’ computers |\n> | Client computer is reliant on access to server | Examiners cannot mark if their device cannot access the server / the server ‘goes down’ |\n> | Client computer heavily reliant on network/internet connection | The marking software will not operate without network/internet access |\n> | Client computer requires few local resources/memory | Examiners can use devices with low resources and the marking software will still function |\n> | Client computer performs minimal functions/processes | The marking software transmits requests, the server responds and sends the response to the user |"
+    },
+    {
+     "id": "qstnprt_BPKnhjMYT49CMDbP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Mvtc2jy4WxyKmj9z",
+      "spcpt_BxMWxDd54ntprhpy"
+     ],
+     "part_tier": null,
+     "problem_md": "Data transmitted on the internet passes through multiple different systems.\n\n(i) Describe the role of routers in the transmission of data through the internet.\n\n(2)\n\n(ii) Describe the role of the PSTN (Public Switched Telephone Network) in the transmission of data through the internet.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark** each to **max 2**:\n> \n> - Receives packets from internet\n> - Analyses the destination IP address of each packet\n> - Forwards the **packet **towards its destination\n> - ... using the routing table\n> - Maintains/updates the routing table\n> - Finds the most efficient route to the destination\n> \n> (ii) **1 mark** each to **max 2**:\n> \n> - The PSTN consists of many different types of communication lines\n> - … therefore the digital data may need to be converted into a different form/analogue signal\n> - Data is transmitted in both directions at the same time // duplex data transmission\n> - Using a PSTN the communication passes through different switching centres/ISPs"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RhwNMCvPdjWs9gmT",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_GD2yB5srCYGmqfgX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YNMv32YVRTphK4Cd",
+      "spcpt_VHypZnvZQn7CxhFg",
+      "spcpt_dtwd7cH4W9hw9JZj"
+     ],
+     "part_tier": null,
+     "problem_md": "A business is creating a local area network (LAN) in its office.\n\nThe business is deciding which topology to use.\n\nTick (✓) **one or more** boxes in each row to identify the topology, or topologies, each statement describes.\n\n| Statement | Bus | Star | Mesh |\n|---|---|---|---|\n| all devices connect to one central device |   |   |   |\n| all devices connect to a central cable |   |   |   |\n| multiple paths for the packets to travel along |   |   |   |\n| robust against damage because if any line fails, the rest of the network retains full functionality |   |   |   |\n| most likely to lose data through collisions |   |   |   |\n\n(5)",
+     "solution_md": "**1 mark** for each correct row:\n\n| Statement | Bus | Star | Mesh |\n|---|---|---|---|\n| all devices connect to one central device |   | ✔ |   |\n| all devices connect to a central cable | ✔ |   |   |\n| multiple paths for the packets to travel along |   |   | ✔ |\n| robust against damage because if any line fails, the rest of the network retains full functionality |   | ✔ | ✔ |\n| most likely to lose data through collisions | ✔ |   |   |"
+    },
+    {
+     "id": "qstnprt_8TbTZpwyxTZ2JZHH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_BxMWxDd54ntprhpy",
+      "spcpt_3yrKz32TTxvBMPW6"
+     ],
+     "part_tier": null,
+     "problem_md": "The LAN will connect to the internet through a router. The router has a public IPv6 address.\n\n(i) State why the router has a public IP address.\n\n(1)\n\n(ii) One difference between an IPv4 and IPv6 address is that the numbers in an IPv4 address are separated by full stops and in an IPv6 address they are separated by colons.\n\nIdentify **two other** differences between an IPv4 and IPv6 address.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for:\n> \n> to **be visible** to and accessible by other devices on the internet\n> \n> (ii) **1 mark** each:\n> \n> - IPv4 has 4 groups of digits whilst IPv6 has 8 groups\n> - IPv4 is usually represented in **denary** whilst IPv6 is usually represented in **hexadecimal **\n> - IPv4 groups are between 0 and 255 whilst IPv6 is between 0 and FFFF\n> - IPv4 is **32** bits whilst IPv6 is **128** bits"
+    }
+   ]
+  },
+  {
+   "id": "qstn_QKFxKgthNnTqhXjv",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_VhhwjpDZTMTmPP6z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_x2PCNzpvYrRTgRtf"
+     ],
+     "part_tier": null,
+     "problem_md": "A bank allows customers to access their accounts using an application that they can download onto a device such as a smartphone.\n\nThe system that allows customers to access their accounts using the application is a client-server model.\n\nDescribe the roles of the different devices in this model.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each:\n> \n> - Identification of server in the bank scenario\n> - Description e.g. Receives requests, processes the requests\n> - Identification of client in bank scenario\n> - Description e.g. Sends request to the server, waits and outputs the response"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cDw2tdVgRn5jwTk3",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_c8WCpQqTvsQFfNRc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_ccrHb7KW3B3n5tJw",
+      "spcpt_3b5r4Z2m8RkvYPfP"
+     ],
+     "part_tier": null,
+     "problem_md": "A video doorbell is attached to the front door of a house. The doorbell uses a motion sensor to detect when a visitor walks in front of the door. When the motion sensor is activated:\n\n- The digital camera in the doorbell starts recording a video.\n- A message is transmitted to a smartphone so that the person who lives in the house can watch the video.\n\nThe doorbell also has a button that can be pressed. When the button is pressed, a message is transmitted to a smartphone to play the doorbell sound.\n\nThe videos are stored on the doorbell’s internal secondary storage device and overwritten when the secondary storage device is full.\n\n![A hand pressing a smart doorbell button beside a closed door with a peephole and a window panel, indicating the use of modern security technology.](assets/002-a-hand-pressing-a-smart-doorbell-button-beside-a.png)\n\nThe video doorbell allows both real-time and on-demand bit streaming.\n\n(i) State what is meant by bit streaming.\n\n(1)\n\n(ii) Give **two **differences between real-time and on-demand bit streaming.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark** for:\n> \n> Continuous ordered flow of bits over a communication path\n> \n> (ii) **1 mark** each to** max 2**:\n> \n> - Real-time is direct from source whereas on-demand is prerecorded/downloaded to view later\n> - Real-time cannot be re-watched, on-demand can be paused, re-watched etc.\n> - Real-time plays continually, on-demand downloads sections/blocks and cannot play until next section is downloaded"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NjHPjC53ks5VY46m",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_84HqfZrJqQBvjrm6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_mKY8hhtdxbWysxVq"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer is connected to a Local Area Network (LAN) that connects to a Wide Area Network (WAN).\n\nDescribe the characteristics of a WAN.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - A WAN covers a large geographical area\n> - External/public infrastructure is used\n> - Non-dedicated hardware"
+    },
+    {
+     "id": "qstnprt_n5yfyNfFkFp79BJj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WyDhfqxppgv4cQv8",
+      "spcpt_Mvtc2jy4WxyKmj9z"
+     ],
+     "part_tier": null,
+     "problem_md": "Copper cable can be used to transmit data in a network.\n\nComplete the table by identifying **and **describing **two other** transmission media that can be used to transfer data in the WAN\n\n| Transmission medium | Description |\n|---|---|\n|   |   |\n|   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for correct media **1 mark** for matching description e.g.\n> \n> - Fibre optic\n> - Transmits data as pulses of light\n> - Radio waves / microwaves\n> - Transmits electromagnetic waves on different frequencies"
+    },
+    {
+     "id": "qstnprt_g27pVnngP9HBsJQw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_ccrHb7KW3B3n5tJw",
+      "spcpt_3b5r4Z2m8RkvYPfP"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer on the LAN is used for real-time video conferences, where people connected to the internet communicate in real-time using video and audio.\n\nExplain how bit streaming is used in a real-time video conference.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> - Data is compressed before transmitting\n> - The video and audio are transmitted continuously as a series of bits\n> - The video is uploaded to a media server\n> - On download, the media server sends the data to a buffer\n> - The buffer stores data from server until the receiving device can process it\n> - The receiving device receives the bit stream from the buffer"
+    },
+    {
+     "id": "qstnprt_SHdJJBSr5hG3nG4Q",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 9,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_3yrKz32TTxvBMPW6"
+     ],
+     "part_tier": null,
+     "problem_md": "The LAN has a router. The router has a public IP address and a private IP address.\n\n(i) State the purpose of a public IP address and a private IP address.\n\n(2)\n\n(ii) The LAN uses subnetting.\n\nDescribe the purpose of subnetting in a network.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for public IP address and** 1 mark** for private IP address:\n> \n> Public IP address:\n> \n> - So that the router is visible to the Internet/external network/WAN\n> \n> Private IP address:\n> \n> - So that the router is identified to computers within the LAN\n> \n> (ii) **1 mark** for each bullet point (**max 2**)\n> \n> - It allows the network to be divided into smaller networks\n> - … which reduces traffic in some parts of the network // reduces congestion\n> - … because traffic only travels through the parts necessary\n> - … which hides the complexity of network\n> - … and allows for easier maintenance of the network"
+    }
+   ]
+  }
+ ]
+}

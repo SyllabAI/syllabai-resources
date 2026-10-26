@@ -1,6 +1,6 @@
 # Exam Questions — Gravitational Potential Energy & Kinetic Energy
 **5. Work, Energy & Power** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 31 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 39 questions across 2 sets
 
 
 ## Multiple Choice Questions (31 questions)
@@ -317,3 +317,334 @@ A steel ball is falling at constant speed in oil.
 Which graph shows the variation with time of the gravitational potential energy *E*<sub>*p*</sub> and the kinetic energy *E*<sub>*k*</sub> of the ball ?
 
 ![cie-ial-physics-mcq-5-2-q17](assets/020-cie-ial-physics-mcq-5-2-q17.png)
+
+## Structured Questions (8 questions)
+
+
+### Q1 — hard — 13 marks
+
+**Q1** [6 marks]
+
+Fig. 1.1 shows an object at rest at the top of a straight slope which makes a fixed angle with the horizontal at a distance *h* above the ground.
+
+![4-6-s-q--q4a-hard-aqa-a-level-physics](assets/021-4-6-s-q-q4a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The object is released and slides down the slope from **A** to **B** with negligible friction.
+
+Assume that the potential energy is zero at **B**.
+
+Sketch a graph showing:
+
+- The variation of potential energy along the slope. Label this **P**.
+- The variation of kinetic energy of the object along the slope. Label this **K**.
+- The variation of kinetic energy along the slope when there is a constant frictional force between the object and the surface. Label this **F**.
+
+Explain the important features of the graphs you have drawn.
+
+**Q1** [3 marks]
+
+In a theme park ride, a cage containing passengers falls freely a distance of $x$* *m from **A** to **B** and travels in a circular arc of radius 25 m from **B** to **C**.
+
+Brakes are applied at **C** after which the cage with its passengers travels 70 m along an upward sloping ramp and comes to rest at **D**. The track, together with relevant distances, is shown in Fig. 1.2. **CD** makes an angle of *θ *with the horizontal.
+
+![4-6-s-q--q4b-hard-aqa-a-level-physics](assets/023-4-6-s-q-q4b-hard-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+alt: For a passenger of mass 70 kg, the force keeping them in circular motion at **C** is 5.4 kN.
+
+The force required for circular motion on a passenger of mass 70 kg at **C** is 5.4 kN.
+
+Calculate height $x$.
+
+Assume that friction is negligible between **A** and **C**.
+
+**Q1** [4 marks]
+
+**Extract:**
+
+In a theme park ride, a cage containing passengers falls freely a distance of x m from A to B and travels in a circular arc of radius 25 m from B to C.
+
+Brakes are applied at C after which the cage with its passengers travels 70 m along an upward sloping ramp and comes to rest at D. The track, together with relevant distances, is shown in Fig. 1.2. CD makes an angle of θ with the horizontal.
+
+The force required for circular motion on a passenger of mass 70 kg at C is 5.4 kN.
+
+Calculate height x. Assume that friction is negligible between A and C.
+
+[From mark scheme] x = 73 m
+
+The total mass of the cage and passengers is 720 kg. The average resistive force exerted by the brakes between **C** and **D** is 4.8 kN.
+
+By considering energy changes, calculate the value of *θ*.
+
+### Q2 — medium — 10 marks
+
+**Q2** [2 marks]
+
+A BASE jumper of mass 70 kg jumps from the top of a bridge and reaches a speed of 45 m s<sup>−1</sup> after falling a distance of 150 m.
+
+Calculate the change in the jumper's gravitational potential energy.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+A BASE jumper of mass 70 kg jumps from the top of a bridge and reaches a speed of 45 m s^−1^ after falling a distance of 150 m.
+
+Calculate the kinetic energy gained by the jumper.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+A BASE jumper of mass 70 kg jumps from the top of a bridge and reaches a speed of 45 m s^−1 after falling a distance of 150 m. Calculate the change in the jumper's gravitational potential energy. (Answer: ΔEp = 70 × 9.81 × 150 = 103 kJ)
+Calculate the kinetic energy gained by the jumper. (Answer: Ek = ½ × 70 × 45² = 70.9 kJ)
+
+Explain why the values in **(a)** and** (b)** are not equal.
+
+**Q2** [4 marks]
+
+**Extract:**
+
+A BASE jumper of mass 70 kg jumps from the top of a bridge and reaches a speed of 45 m s^−1^ after falling a distance of 150 m. Calculate the change in the jumper's gravitational potential energy. (ΔE_p = 103 kJ)
+
+Calculate the kinetic energy gained by the jumper. (E_k = 70.9 kJ)
+
+Calculate the average resistive force acting on the BASE jumper as they fall.
+
+### Q3 — easy — 12 marks
+
+**Q3** [3 marks]
+
+When an object is accelerated from rest, energy is stored.
+
+Name the energy store and state the reason for it.
+
+**Q3** [2 marks]
+
+State the equation for kinetic energy, defining all the units mentioned.
+
+**Q3** [5 marks]
+
+**Extract:**
+
+When an object is accelerated from rest, energy is stored. Name the energy store and state the reason for it. Answer: Kinetic energy is stored when a force is applied (and makes an object accelerate); Work is done by the force (and energy is transferred to the object).
+
+State the equation for kinetic energy, defining all the units mentioned: E_k = 1/2 m v^2, where E_k = kinetic energy, m = mass, v = velocity.
+
+Referring to your answer to part (a), derive the expression for kinetic energy stated in part (b).
+
+**Q3** [2 marks]
+
+A cylinder of mass 2.8 kg is released from rest so that it rolls down a ramp, accelerating to a velocity of 3.5 ms<sup>−1</sup>. The arrangement is shown in Fig. 1.1.
+
+![5-2-3c-e-ke-ramp](assets/025-5-2-3c-e-ke-ramp.png)
+
+**Fig. 1.1.**
+
+Calculate the change in kinetic energy between the two positions shown.
+
+### Q4 — hard — 8 marks
+
+**Q4** [2 marks]
+
+Anaisha launches a pebble vertically upwards using a sling shot. The speed of the pebble as it leaves the sling shot is 28 m s<sup>−1</sup>.
+
+Calculate the height that the pebble gains.
+
+Assume that air resistance is negligible.
+
+**Q4** [1 mark]
+
+**Extract:**
+
+Anaisha launches a pebble vertically upwards using a sling shot. The speed of the pebble as it leaves the sling shot is 28 m s^−1^. Calculate the height that the pebble gains. Assume that air resistance is negligible.
+h_f = 28^2 / (2 × 9.81) = 40 m (2 s.f.)
+
+The mass of the pebble is 300 g. Complete the energy bar chart shown in Fig. 1.1.
+
+![5-2-q1b-h-sq-cie-ial-physics](assets/026-5-2-q1b-h-sq-cie-ial-physics.png)
+
+**Fig 1.1**
+
+**Q4** [5 marks]
+
+**Extract:**
+
+The mass of the pebble is 300 g.
+
+Anaisha notices a basket hanging by a string from a tree. The basket has a mass of 280 g and the length of the string is 85 cm. Anaisha uses her slingshot to fire the pebble horizontally, which lands in the basket. The basket then swings out to an angle of 45°.
+
+Calculate the speed of the pebble as she fired it.
+
+Assume that air resistance is negligible and that there is no breeze.
+
+### Q5 — easy — 8 marks
+
+**Q5** [2 marks]
+
+A ball of mass 4.2 kg is placed on a post at a height of 2.1 m as shown in Fig. 1.1.
+
+The ball is pushed horizontally so that it falls down, reaching a velocity *v* just before hitting the ground.
+
+![5-2-2a-e-gpe-to-ke](assets/029-5-2-2a-e-gpe-to-ke.png)
+
+**Fig. 1.1.**
+
+Calculate the gravitational potential energy stored by the ball before it is pushed.
+
+**Q5** [1 mark]
+
+**Extract:**
+
+A ball of mass 4.2 kg is placed on a post at a height of 2.1 m as shown in Fig. 1.1. The ball is pushed horizontally so that it falls down, reaching a velocity v just before hitting the ground. Calculate the gravitational potential energy stored by the ball before it is pushed. ΔE_p = mgΔh = 4.2 × 9.81 × 2.1 = 87 J (2 s.f.)
+
+Hence state the total kinetic energy of the ball just before it hits the floor. Assume that air resistance is negligible.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+A ball of mass 4.2 kg is placed on a post at a height of 2.1 m as shown in Fig. 1.1. The ball is pushed horizontally so that it falls down, reaching a velocity v just before hitting the ground.
+
+Kinetic energy = 87 J (from conservation of energy, E_p = E_k)
+
+Calculate the velocity of the ball just before it hits the ground.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+A ball of mass 4.2 kg is placed on a post at a height of 2.1 m as shown in Fig. 1.1. The ball is pushed horizontally so that it falls down, reaching a velocity v just before hitting the ground.
+
+The final speed of the ball in part (a) depends on the height it falls from, but not the mass, as long as air resistance is ignored.
+
+Using the equations for initial gravitational potential energy and final kinetic energy, show that the mass of the ball does not affect the final speed of the ball.
+
+### Q6 — medium — 10 marks
+
+**Q6** [2 marks]
+
+Pumped hydroelectric systems store large bodies of water behind a dam. When electricity is needed in the grid, the dam is lifted, allowing water to flow from the upper reservoir.
+
+One such power station, known as the Cruachan power station, is shown in Fig. 1.1. This facility has been producing hydroelectric power since 1965.
+
+![5-1-5a-m-5-1-energy-sources-power-station-cie-ial-sq](assets/030-5-1-5a-m-5-1-energy-sources-power-station-cie-ia.png)
+
+The vertical distance between the base of the upper reservoir and the turbine is 396 m. This arrangement allows Cruachan power station to produce a power output of 0.62 GW with an efficiency of 76%.
+
+Determine the energy transferred by the water each second in order to achieve this power output.
+
+**Q6** [5 marks]
+
+**Extract:**
+
+Pumped hydroelectric systems store large bodies of water behind a dam. When electricity is needed in the grid, the dam is lifted, allowing water to flow from the upper reservoir. One such power station, known as the Cruachan power station, is shown in Fig. 1.1. This facility has been producing hydroelectric power since 1965. The vertical distance between the base of the upper reservoir and the turbine is 396 m. This arrangement allows Cruachan power station to produce a power output of 0.62 GW with an efficiency of 76%. Determine the energy transferred by the water each second in order to achieve this power output. [Mark scheme: Total power input = 0.62/0.76 = 0.82 GW; Energy transferred each second = 0.82 GJ or 8.2 × 10^8 J]
+
+Water is made to flow out of the upper reservoir through connecting pipes at a rate of 200 m<sup>3</sup> per second. The density of water is 1.0 × 10<sup>3</sup> kg m<sup>−3</sup>.
+
+(i) Use this flow rate to determine the energy transferred by the water each second.
+
+[4]
+
+(ii) Explain why this value is **not **consistent with the energy transfer rate calculated in **(a)**.
+
+[1]
+
+**Q6** [3 marks]
+
+**Extract:**
+
+The vertical distance between the base of the upper reservoir and the turbine is 396 m. This arrangement allows Cruachan power station to produce a power output of 0.62 GW with an efficiency of 76%.
+Energy transferred each second = 0.82 GJ or 8.2 × 10^8 J
+Water is made to flow out of the upper reservoir through connecting pipes at a rate of 200 m^3 per second. The density of water is 1.0 × 10^3 kg m^−3. Mass flow rate, Δm/Δt = 2.0 × 10^5 kg s^−1
+
+Estimate the depth of the water held in the upper reservoir. State any assumptions made.
+
+### Q7 — easy — 10 marks
+
+**Q7** [3 marks]
+
+When an object is lifted, energy is transferred to it.
+
+State the reason for this energy transfer.
+
+**Q7** [2 marks]
+
+State the equation for gravitational potential energy, defining all the units mentioned.
+
+**Q7** [3 marks]
+
+**Extract:**
+
+When an object is lifted, energy is transferred to it. State the reason for this energy transfer. Mark scheme: Force is used to move the object (against the downward force of gravity); The object is displaced; Therefore work is done on the object OR W = F × s.
+
+State the equation for gravitational potential energy, defining all the units mentioned: ΔEp = mgΔh; Where ΔEp = change in gravitational potential energy, m = mass, g = gravity / gravitational field strength, Δh = change in height.
+
+Referring to your answer to part (a), derive the expression for gravitational potential energy stated in part (b).
+
+**Q7** [2 marks]
+
+A ball of mass 1.2 kg is released from the top of a slope and allowed to roll to the bottom, where it stops. The initial and final positions of the ball are shown in Fig. 1.1.
+
+![5-2-1d-e-gpe-ramp](assets/032-5-2-1d-e-gpe-ramp.png)
+
+**Fig. 1.1.**
+
+Calculate the change in gravitational potential energy of the ball.
+
+### Q8 — medium — 13 marks
+
+**Q8** [4 marks]
+
+A car on a roller coaster has a mass of 4200 kg and is designed to carry up to 10 passengers each with an average mass of 65 kg.
+
+The car is moving at a speed of 2.0 m s<sup>−1</sup> when it starts to descend through a drop of 50 m. It reaches a top speed of 24 m s<sup>−1</sup> after travelling 75 m along the track.
+
+For the car with its maximum capacity of passengers, calculate
+
+(i) the loss of potential energy
+
+[2]
+
+(ii) the initial kinetic energy.
+
+[2]
+
+**Q8** [2 marks]
+
+**Extract:**
+
+A car on a roller coaster has a mass of 4200 kg and is designed to carry up to 10 passengers each with an average mass of 65 kg. The car is moving at a speed of 2.0 m s^−1^ when it starts to descend through a drop of 50 m. It reaches a top speed of 24 m s^−1^ after travelling 75 m along the track. For the car with its maximum capacity of passengers, calculate...
+
+Calculate the kinetic energy of the car and passengers after the descent.
+
+**Q8** [5 marks]
+
+**Extract:**
+
+A car on a roller coaster has a mass of 4200 kg and is designed to carry up to 10 passengers each with an average mass of 65 kg. The car is moving at a speed of 2.0 m s^−1^ when it starts to descend through a drop of 50 m. It reaches a top speed of 24 m s^−1^ after travelling 75 m along the track.
+Loss of potential energy (change in GPE) = 2.4 MJ; Initial kinetic energy = 9700 J.
+Kinetic energy after the descent (final KE) = 1.4 MJ.
+
+For the roller coaster car and passengers
+
+(i) State the main resistive forces to the motion.
+
+[2]
+
+(ii) Calculate the work done against these forces during the descent.
+
+[3]
+
+**Q8** [2 marks]
+
+**Extract:**
+
+A car on a roller coaster has a mass of 4200 kg and is designed to carry up to 10 passengers each with an average mass of 65 kg. The car is moving at a speed of 2.0 m s^−1^ when it starts to descend through a drop of 50 m. It reaches a top speed of 24 m s^−1^ after travelling 75 m along the track.
+
+Work done against resistive forces during the descent = 1 009 700 J = 1.0 MJ (2 s.f.) (from part c).
+
+Calculate the average resistive force that acts on the car during the descent.

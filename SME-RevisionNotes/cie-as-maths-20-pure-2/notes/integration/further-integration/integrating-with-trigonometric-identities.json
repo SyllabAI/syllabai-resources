@@ -1,0 +1,260 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_XdRJssMTZKYwmgdf",
+ "course_slug": "cie-as-maths-20-pure-2",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/pure-2/revision-notes/integration/further-integration/integrating-with-trigonometric-identities",
+ "title": "Integrating with Trigonometric Identities",
+ "page_title": "Integrating with Trigonometric Identities | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "integration",
+   "further-integration",
+   "integrating-with-trigonometric-identities"
+  ],
+  "section": "integration",
+  "topic": "further-integration",
+  "leaf": "integrating-with-trigonometric-identities"
+ },
+ "titles": {
+  "section": "Integration",
+  "topic": "Further Integration",
+  "subtopic": "Integrating with Trigonometric Identities"
+ },
+ "updated_at": "2026-10-06T19:38:48.950Z",
+ "is_ai_assisted": false,
+ "authors": [],
+ "reviewers": [],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_Z7Rr4M8tfDynYyJx",
+   "rnl_D5znhTFDmV4ygfvz",
+   "rnl_rnnd7C4qmkykdkpF",
+   "rnl_hZ6Jx872bVb597tc",
+   "rnl_dm7xw9qCzcNBJ2BJ",
+   "rnl_n957knjrf8tFb5D8"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_4gB9kJCGSJWph7Rs"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\mathrm{sin}(A\\pmB)\\equiv\\mathrm{sin}A\\mathrm{cos}B\\pm\\mathrm{cos}A\\mathrm{sin}B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mo>(</mo><mi>A</mi><mo>&#177;</mo><mi>B</mi><mo>)</mo><mo>&#160;</mo><mo>&#8801;</mo><mi>sin</mi><mi>A</mi><mi>cos</mi><mi>B</mi><mo>&#160;</mo><mo>&#177;</mo><mo>&#160;</mo><mi>cos</mi><mi>A</mi><mi>sin</mi><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sin left parenthesis A plus-or-minus B right parenthesis space identical to sin A cos B space plus-or-minus space cos A sin B"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "cos left parenthesis A plus-or-minus B right parenthesis space identical to cos A cos B space minus-or-plus space sin A sin B",
+   "render": "$\\cos ( A \\pm B ) \\equiv \\cos A \\cos B --or-+ \\sin A \\sin B$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "tan left parenthesis A plus-or-minus B right parenthesis space identical to fraction numerator tan A space plus-or-minus space tan B over denominator 1 space minus-or-plus space tan A tan B end fraction",
+   "render": "$\\tan ( A \\pm B ) \\equiv \\frac{\\tan A \\pm \\tan B}{1 --or-+ \\tan A \\tan B}$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "(A\\pmB\\neq(k+\\frac{1}{2})π)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"true\">(</mo><mi>A</mi><mo>&#177;</mo><mi>B</mi><mo>&#160;</mo><mo>&#8800;</mo><mo>&#160;</mo><mo stretchy=\"true\">(</mo><mi>k</mi><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo stretchy=\"true\">)</mo><mi mathvariant=\"normal\">&#960;</mi><mo stretchy=\"true\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "stretchy left parenthesis A plus-or-minus B space not equal to space stretchy left parenthesis k space plus space 1 half stretchy right parenthesis straight pi stretchy right parenthesis"
+  },
+  {
+   "latex": "\\mathrm{sin}2A\\equiv2\\mathrm{sin}A\\mathrm{cos}A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>sin</mi><mn>2</mn><mi>A</mi><mo>&#160;</mo><mo>&#8801;</mo><mn>2</mn><mi>sin</mi><mi>A</mi><mi>cos</mi><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sin 2 A space identical to 2 sin A cos A"
+  },
+  {
+   "latex": "\\mathrm{cos}2A\\equiv\\mathrm{cos}^{2}A-\\mathrm{sin}^{2}A\\equiv2\\mathrm{cos}^{2}A-1\\equiv1-2\\mathrm{sin}^{2}A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>cos</mi><mn>2</mn><mi>A</mi><mo>&#160;</mo><mo>&#8801;</mo><mo>&#160;</mo><msup><mi>cos</mi><mn>2</mn></msup><mi>A</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msup><mi>sin</mi><mn>2</mn></msup><mi>A</mi><mo>&#160;</mo><mo>&#8801;</mo><mo>&#160;</mo><mn>2</mn><msup><mi>cos</mi><mn>2</mn></msup><mi>A</mi><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>1</mn><mo>&#160;</mo><mo>&#8801;</mo><mn>1</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>2</mn><msup><mi>sin</mi><mn>2</mn></msup><mi>A</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "cos 2 A space identical to space cos squared A space minus space sin squared A space identical to space 2 cos squared A space minus space 1 space identical to 1 space minus space 2 sin squared A"
+  },
+  {
+   "latex": "\\mathrm{tan}2A\\equiv\\frac{2\\mathrm{tan}A}{1-\\mathrm{tan}^{2}A}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mn>2</mn><mi>A</mi><mo>&#160;</mo><mo>&#8801;</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi>tan</mi><mi>A</mi></mrow><mrow><mn>1</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><msup><mi>tan</mi><mn>2</mn></msup><mi>A</mi></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "tan 2 A space identical to space fraction numerator 2 tan A over denominator 1 space minus space tan squared A end fraction"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "integral tan space x space d x space equals space ln open vertical bar sec space x close vertical bar space plus space c",
+   "render": "$\\int \\tan x d x = \\ln \\left| \\sec x \\right| + c$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "\\mathrm{tan}x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>tan</mi><mo> </mo><mi>x</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "tan space x"
+  },
+  {
+   "latex": "\\frac{\\mathrm{sin}x}{\\mathrm{cos}x}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>sin</mi><mo> </mo><mi>x</mi></mrow><mrow><mi>cos</mi><mo> </mo><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator sin space x over denominator cos space x end fraction"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "integral space fraction numerator f apostrophe left parenthesis x right parenthesis over denominator f left parenthesis x right parenthesis end fraction d x space equals space ln open vertical bar space f left parenthesis x right parenthesis close vertical bar",
+   "render": "$\\int \\frac{f ' ( x )}{f ( x )} d x = \\ln \\left| f ( x ) \\right|$",
+   "via": "alt-transpile"
+  }
+ ],
+ "stats": {
+  "blocks": 27,
+  "figures": 7,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 11
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_4gB9kJCGSJWph7Rs",
+   "name": "Integrating with Trigonometric Identities",
+   "definition": "",
+   "video_id": "819758677"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Integrating with trigonometric identities"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What are trigonometric identities?"
+  },
+  {
+   "type": "bullets",
+   "md": "- You should be familiar with the trigonometric identities\n- Make sure you can find them in the formula booklet"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/8.2.6-Notes-trig_id_essential.png",
+   "file": "assets/657b257f24f3-8-2-6-notes-trig-id-essential.png",
+   "alt": "Notes trig_id_essential, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- You may need to use the compound angle formulae or the double angle formulae\n- Note the difference between the **±** and **∓** symbols!\n- $\\mathrm{sin}(A\\pmB)\\equiv\\mathrm{sin}A\\mathrm{cos}B\\pm\\mathrm{cos}A\\mathrm{sin}B$\n- $\\cos ( A \\pm B ) \\equiv \\cos A \\cos B --or-+ \\sin A \\sin B$\n- $\\tan ( A \\pm B ) \\equiv \\frac{\\tan A \\pm \\tan B}{1 --or-+ \\tan A \\tan B}$  $(A\\pmB\\neq(k+\\frac{1}{2})π)$\n- $\\mathrm{sin}2A\\equiv2\\mathrm{sin}A\\mathrm{cos}A$\n- $\\mathrm{cos}2A\\equiv\\mathrm{cos}^{2}A-\\mathrm{sin}^{2}A\\equiv2\\mathrm{cos}^{2}A-1\\equiv1-2\\mathrm{sin}^{2}A$\n- $\\mathrm{tan}2A\\equiv\\frac{2\\mathrm{tan}A}{1-\\mathrm{tan}^{2}A}$"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I know which trigonometric identities to use?"
+  },
+  {
+   "type": "bullets",
+   "md": "- There is no set method\n- Practice as many questions as possible\n- Be familiar with trigonometric functions that can be integrated easily\n- Be familiar with common identities – especially **squared** terms\n- **sin**<sup>**2 **</sup>**x**, **cos**<sup>**2 **</sup>**x**, **tan**<sup>**2 **</sup>**x**, **cosec**<sup>**2 **</sup>**x**, **sec**<sup>**2 **</sup>**x**, **tan**<sup>**2 **</sup>**x** all appear in identities\n- This is a matter of experience, familiarity and recognition"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/06/5-1-2-int-with-trig-diagram-1-cropped-2.png",
+   "file": "assets/ed15ce428d1a-5-1-2-int-with-trig-diagram-1-cropped-2.png",
+   "alt": "5-1-2-int-with-trig-diagram-1-cropped-2",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate tan<sup>2</sup>x, cot<sup>2</sup>x, sec<sup>2</sup>x and cosec<sup>2</sup>x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The **integral** of **sec**<sup>**2**</sup>***x*** is **tan *****x***** (+c)**\n\n  - This is because the **derivative** of tan x is sec<sup>2</sup>x\n- The **integral** of **cosec**<sup>**2**</sup>***x*** is **-cot *****x***** (+c)**\n\n  - This is because the **derivative** of cot x is -cosec<sup>2</sup>x\n- The **integral** of **tan**<sup>**2**</sup>***x*** can be found by using the identity to rewrite tan<sup>2</sup>*x *before integrating:\n\n  - 1 + tan<sup>2</sup>*x* = sec<sup>2</sup>*x*\n- The **integral** of **cot**<sup>**2**</sup>***x*** can be found by using the identity to rewrite cot<sup>2</sup>*x *before integrating:\n\n  - 1 + cot<sup>2</sup>*x* = cosec<sup>2</sup>*x*"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate expressions with sin x and cos x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- For functions of the form **sin kx**, **cos kx** … see Integrating Other Functions\n- **sin kx × cos kx** can be integrated using the identity for **sin 2A**\n\n  - **sin 2A = 2sinAcosA**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.6-Notes-sin_cos.png",
+   "file": "assets/bf1aab0b6aa0-8-2-6-notes-sin-cos.png",
+   "alt": "Notes sin_cos, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- **sin**<sup>**n **</sup>**kx cos kx** or **sin kx cos**<sup>**n **</sup>**kx** can be integrated using **reverse chain rule** or **substitution**\n- Notice no identity is used here but it looks as though there should be!"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.6-Notes-sin_cos_powers.png",
+   "file": "assets/5877f62f66c2-8-2-6-notes-sin-cos-powers.png",
+   "alt": "Notes sin_cos_powers, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- sin<sup>2 </sup>kx and cos<sup>2 </sup>kx can be integrated by using the identity for cos 2A\n\n  - For sin<sup>2 </sup>A, cos 2A = 1 - 2sin<sup>2 </sup>A\n  - For cos<sup>2 </sup>A, cos 2A = 2cos<sup>2 </sup>A – 1"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.6-Notes-sin_cos_squared.png",
+   "file": "assets/8ff681fc6086-8-2-6-notes-sin-cos-squared.png",
+   "alt": "Notes sin_cos_squared, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate tan x?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $\\int \\tan x d x = \\ln \\left| \\sec x \\right| + c$\n- This is **not in** the formula booklet\n- It can be derived from writing $\\mathrm{tan}x$ as $\\frac{\\mathrm{sin}x}{\\mathrm{cos}x}$ and recognising that $\\int \\frac{f ' ( x )}{f ( x )} d x = \\ln \\left| f ( x ) \\right|$\n\n  - Note that this is in the formula booklet"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "How do I integrate other expressions with trig functions?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The formulae booklet lists many standard trigonometric derivatives and integrals\n\n  - Check both the “Differentiation” and “Integration” sections\n  - For integration using the \"Differentiation\" formulae, remember that the integral of **f'(x)** is **f(x)** !"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/09/8.2.6-Notes-Diff-Int-fb.png",
+   "file": "assets/f31211b12d4d-8-2-6-notes-diff-int-fb.png",
+   "alt": "Notes Diff-Int-fb, A Level & AS Level Pure Maths Revision Notes",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- Experience, familiarity and recognition are important – practice, practice, practice!\n- Problem-solving techniques"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2020/07/8.2.6-Notes-eg.png",
+   "file": "assets/59c73b524b40-8-2-6-notes-eg.png",
+   "alt": "Notes eg, AS & A Level Maths revision notes",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "![5-1-2-int-with-trig-example-solution-part-1](assets/a8b54edb5d9b-25842-fixed-5-1-2-int-with-trig-example-solution.png)\n\n![5-1-2-int-with-trig-example-solution-part-2](assets/385ad58b6a5a-5-1-2-int-with-trig-example-solution-part-2.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "Make sure you have a copy of the formulae booklet during revision.\n\nQuestions are likely to be split into (at least) two parts:\n\n- The first part may be to show or prove an identity\n- The second part may be the integration\n\nIf you cannot do the first part, use a given result to attempt the second part."
+  }
+ ]
+}

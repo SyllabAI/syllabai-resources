@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:45:40Z",
+ "generated_utc": "2026-10-26T14:54:41Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -48,17 +48,31 @@
    "question_count": 10,
    "questions_embedded": 10,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/1-atomic-structure/1-2-isotopes/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_vwyjxkNffnjk8FXZ",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/1-atomic-structure/1-2-isotopes/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 10,
+  "questions_embedded": 13,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2023/07/2-1-m-q9-mcqs-ib-chemistry.png": "001-mass-spectrum-of-element-x-showing-three-peaks-a.png"
+   "https://cdn.savemyexams.com/uploads/2023/07/2-1-m-q9-mcqs-ib-chemistry.png": "001-mass-spectrum-of-element-x-showing-three-peaks-a.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/13319-labelled-carbon-atomic-symbol.JPG": "002-diagram-of-carbon-with-mass-number-12-and-atomic.jpg"
   }
  },
  "questions": [
@@ -210,6 +224,29 @@
        "label": "D",
        "is_correct": false,
        "text_md": "`C _ 6 ^ 14 and N _ 7 ^ 14`"
+      }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Ba presubscript 56 presuperscript 130 space and space Cs presubscript 55 presuperscript 130",
+       "render": "`Ba _ 56 ^ 130 and Cs _ 55 ^ 130`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "Pb presubscript 82 presuperscript 206 space and space Pb presubscript 82 presuperscript 208",
+       "render": "`Pb _ 82 ^ 206 and Pb _ 82 ^ 208`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight C presubscript 6 presuperscript 14 space and space straight N presubscript 7 presuperscript 14",
+       "render": "`C _ 6 ^ 14 and N _ 7 ^ 14`",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -571,6 +608,215 @@
        "text_md": "The peak at m/e = 70 is caused by an isotope of X containing 70 protons"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Y9wm3TkTbQCGXsrG",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_GxbvgKcnTNcytJG8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7Pt6yVqwxxXJNJzz"
+     ],
+     "part_tier": null,
+     "problem_md": "Atoms are made up of three subatomic particles: protons, neutrons and electrons.\n\nTable 2.1 shows data about these particles.\n\n**Table 2.1**\n\n| **particle** | **proton** | **neutron** | **electron** |\n|---|---|---|---|\n| **mass / kg** | 1.673 × 10<sup>−27</sup> | 1.675 × 10<sup>−27</sup> | 9.000 × 10<sup>−31</sup> |\n\nCalculate the mass of one atom of carbon-12, <sup>12</sup>C, in kg.\n\nShow your working.",
+     "solution_md": "To calculate the mass of one atom of carbon-12 (<sup>12</sup>C):\n\n- Identify the subatomic particles in <sup>12</sup>C:\n\n![Diagram of carbon with mass number 12 and atomic number 6, showing labels that mass is protons plus neutrons and atomic is number of protons](assets/002-diagram-of-carbon-with-mass-number-12-and-atomic.jpg)\n\n6 protons, 6 neutrons and 6 electrons **[1 mark]**\n\n- Calculate the total mass:\n\nmass = (6 x 1.673 × 10<sup>−27</sup>) + (6 x 1.675 × 10<sup>−27</sup>) + (6 x 9.000 × 10<sup>−31</sup>)\n\nmass = **2.009 × 10**<sup>**−26**</sup>** kg ****[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for identifying 6 protons, 6 neutrons and 6 electrons in <sup>12</sup>C\n> \n> 1 mark for correct total mass: 2.009 × 10<sup>−26</sup> kg\n> \n> Allow 2.010 × 10<sup>−26</sup> kg if intermediate values are rounded to 4 s.f.\n> \n> 2.009 × 10<sup>−23</sup> kg is not accepted; an answer in grams must be converted to kg.\n\n> **[exam-tip]**\n> In a neutral atom, the number of electrons equals the number of protons. The carbon-12 isotope has proton number 6, so it contains 6 protons, 6 electrons, and 12 − 6 = 6 neutrons.\n> \n> Give your final answer to 4 significant figures, matching the least precise value in the data table."
+    },
+    {
+     "id": "qstnprt_rn2sB6YKVRKPPmcQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMmgX5bpCKqKvXws",
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of carbon contains three isotopes, <sup>12</sup>C, <sup>13</sup>C and <sup>14</sup>C.\n\nState **one** similarity and **one** difference in the properties of these isotopes of carbon. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> One similarity in the properties of the isotopes of carbon:\n> \n> - (The carbon isotopes have) the same chemical properties\n> **AND**\n> The same electronic configuration / the same number of electrons **[1 mark]**\n> \n> One difference in the properties of the isotopes of carbon:\n> \n> - (The carbon isotopes have) different physical properties\n> **AND**\n> A different number of neutrons / different mass numbers **[1 mark]**\n\n> **[exam-tip]**\n> Chemical properties depend on the arrangement of electrons. All three isotopes of carbon have proton number 6 and therefore the same number of electrons and electronic configuration, so they react identically.\n> \n> Physical properties such as density and boiling point depend on mass. <sup>12</sup>C has 6 neutrons, <sup>13</sup>C has 7 neutrons and <sup>14</sup>C has 8 neutrons, so each has a slightly different mass and therefore slightly different physical properties."
+    },
+    {
+     "id": "qstnprt_6Q4CfKzt8wJ8D5BJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of element **E** contains five isotopes. The percentage abundance of four of the isotopes is shown in Table 2.2.\n\n**Table 2.2**\n\n| **isotope of E** | **percentage abundance / %** |\n|---|---|\n| <sup>46</sup>E | 8.02 |\n| <sup>47</sup>E | 7.31 |\n| <sup>48</sup>E | 73.81 |\n| <sup>49</sup>E |   |\n| <sup>50</sup>E | 5.32 |\n\ni) Calculate the percentage abundance of <sup>49</sup>E.\n\n[1]\n\nii) Calculate the relative atomic mass, *A*<sub>r</sub>, of element **E**. Give your answer to one decimal place. Show your working.\n\n[2]\n\niii) Identify element **E**.\n\n[1]",
+     "solution_md": "i) The percentage abundance of <sup>49</sup>E is:\n\n100 − (8.02 + 7.31 + 73.81 + 5.32)\n\n100 − 94.46\n\n**5.54% ****[1 mark]**\n\n> **[mark-scheme]**\n> i)\n> \n> 1 mark for the correct percentage abundance of <sup>49</sup>E: 5.54%\n\nii) To calculate the *A*<sub>r</sub> of element E:\n\n- State the formula:\n\n*A*<sub>r</sub> = `\\frac{\\sum(\\text{relative isotopic mass} \\times \\% \\text{ abundance})}{100}`\n\n- Substitute values:\n\n*A*<sub>r</sub> = $\\frac{(8.02\\times46)+(7.31\\times47)+(73.81\\times48)+(5.54\\times49)+(5.32\\times50)}{100}$ **[1 mark]**\n\n*A*<sub>r</sub> = **47.9 ****[1 mark]**\n\n> **[mark-scheme]**\n> ii)\n> \n> 1 mark for correct substitution using the value from part (i)\n> \n> 1 mark for *A*<sub>r</sub> = 47.9 (to 1 d.p.)\n> \n> Allow error carried forward from part (i) if the method is correct.\n> \n> (0.0802 x 46) + (0.0731 x 47) + (0.7381 x 48) + (0.0554 x 49) + (0.0532 x 50) is also accepted\n> \n> iii) Element **E** is:\n> \n> - Titanium / Ti **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), the percentage abundances of all five isotopes must sum to 100%:\n> \n> - percentage abundance of <sup>49</sup>E = 100 − (8.02 + 7.31 + 73.81 + 5.32) = 5.54%\n> \n> For part (ii), you can use fractional abundances instead. Divide each percentage by 100 and sum (relative isotopic mass x fractional abundance) without dividing by 100 at the end. Both methods give the same answer.\n> \n> For part (iii), find the element with *A*<sub>r</sub> closest to 47.9 on the Periodic Table. This is titanium (Ti, proton number 22).",
+     "equations": [
+      {
+       "latex": "\\frac{(8.02\\times46)+(7.31\\times47)+(73.81\\times48)+(5.54\\times49)+(5.32\\times50)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>(</mo><mn>8</mn><mo>.</mo><mn>02</mn><mo>&#215;</mo><mn>46</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>7</mn><mo>.</mo><mn>31</mn><mo>&#215;</mo><mn>47</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>73</mn><mo>.</mo><mn>81</mn><mo>&#215;</mo><mn>48</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>5</mn><mo>.</mo><mn>54</mn><mo>&#215;</mo><mn>49</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>5</mn><mo>.</mo><mn>32</mn><mo>&#215;</mo><mn>50</mn><mo>)</mo><mo>&#160;</mo></mrow><mn>100</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis 8.02 cross times 46 right parenthesis plus left parenthesis 7.31 cross times 47 right parenthesis plus left parenthesis 73.81 cross times 48 right parenthesis plus left parenthesis 5.54 cross times 49 right parenthesis plus left parenthesis 5.32 cross times 50 right parenthesis space over denominator 100 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_VY3kZGrH7sP9yVfT",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_jpN6P6yftbxtJSGt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "The symbols below describe two isotopes of the element antimony.\n\n`Sb presubscript 51 presuperscript 121`      `Sb presubscript 51 presuperscript 123`\n\nDefine the term *isotope*.",
+     "solution_md": "> **[mark-scheme]**\n> Isotopes are atoms of the same element that have:\n> \n> - The same proton number / atomic number / number of protons **[1 mark]**\n> - A different mass number / nucleon number / number of neutrons **[1 mark]**\n\n> **[exam-tip]**\n> This is a definition you must know for the exam. Both parts are needed for full marks: same proton number AND different mass number (or number of neutrons). Giving only one part scores 1 mark at most."
+    },
+    {
+     "id": "qstnprt_Yb5zsGW5KhBBZscJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe symbols below describe two isotopes of the element antimony.\n\n\\$\\$\\_{51}^{121}Sb\\$\\$      \\$\\$\\_{51}^{123}Sb\\$\\$\n\nExplain why these two isotopes of antimony have identical chemical properties.",
+     "solution_md": "> **[mark-scheme]**\n> These two isotopes of antimony have identical chemical properties because:\n> \n> - They have the same number of electrons / the same electronic configuration **[1 mark]**\n\n> **[exam-tip]**\n> Chemical properties are determined by the arrangement of electrons. Both isotopes have atomic number 51 (shown in the symbols), so they both have 51 electrons and the same electronic configuration, giving identical chemical behaviour."
+    },
+    {
+     "id": "qstnprt_S83MXvxN9x4wQVN5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7Pt6yVqwxxXJNJzz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe symbols below describe two isotopes of the element antimony.\n\n\\$\\$\\_{51}^{121}Sb\\$\\$      \\$\\$\\_{51}^{123}Sb\\$\\$\n\nDeduce the number of electrons present in one Sb<sup>2+</sup> ion.",
+     "solution_md": "> **[mark-scheme]**\n> The number of electrons present in one Sb<sup>2+</sup> ion is:\n> \n> - 49 **[1 mark]**\n\n> **[exam-tip]**\n> The proton number of antimony is 51 (shown in the isotope symbols in part (a)), so a neutral Sb atom has 51 electrons. To form a 2+ ion, antimony loses 2 electrons: 51 − 2 = 49 electrons."
+    }
+   ]
+  },
+  {
+   "id": "qstn_RkY4wZY75hJNMfsM",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_9qsNw9M4prTZvG3y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "Iron and cobalt are adjacent elements in the Periodic Table. Iron has three main naturally occurring isotopes, cobalt has one.\n\nDefine the term *isotope*.",
+     "solution_md": "> **[mark-scheme]**\n> Isotopes are atoms of the same element that have:\n> \n> - The same proton number / atomic number / number of protons **[1 mark]**\n> - A different mass number / nucleon number / number of neutrons **[1 mark]**\n\n> **[exam-tip]**\n> This is a definition you must know for the exam. Both parts are needed for full marks: same proton number **AND **different mass number (or number of neutrons). Giving only one part scores 1 mark at most."
+    },
+    {
+     "id": "qstnprt_fF8DDnsxfkyN8427",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wCq3cvHxBcjcPq9s"
+     ],
+     "part_tier": null,
+     "problem_md": "Isotopes of polonium, proton number 84, are produced by the radioactive decay of several elements including thorium, proton number 90. The isotope <sup>213</sup>Po is produced from the thorium isotope <sup>232</sup>Th.\n\nComplete Table 1.1 to show the number of protons, neutrons and electrons in the two isotopes.\n\n**Table 1.1**\n\n| **Isotope** | **number of protons** | **number of neutrons** | **number of electrons** |\n|---|---|---|---|\n| <sup>213</sup>Po |   |   |   |\n| <sup>232</sup>Th |   |   |   |",
+     "solution_md": "The completed table is:\n\n| **Isotope** | **number of protons** | **number of neutrons** | **number of electrons** |\n|---|---|---|---|\n| <sup>213</sup>Po | **Final answer:** **84** | **Final answer:** **129** | **Final answer:** **84** |\n| <sup>232</sup>Th | **Final answer:** **90** | **Final answer:** **142** | **Final answer:** **90** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct protons and electrons for both isotopes\n> \n> 1 mark for correct neutrons for both isotopes\n\n> **[exam-tip]**\n> The proton number is given in the question for both elements: 84 for polonium, 90 for thorium. In a neutral atom, the number of electrons equals the number of protons.\n> \n> The number of neutrons = mass number − proton number.\n> \n> For <sup>213</sup>Po:\n> \n> neutrons = 213 − 84 = 129\n> \n> For <sup>232</sup>Th:\n> \n> neutrons = 232 − 90 = 142"
+    },
+    {
+     "id": "qstnprt_nY3T3WZY5nVRXsKg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_wMmgX5bpCKqKvXws"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDefine the term *isotope*.\n\nIsotopes are atoms of the same element that have:\n- The same proton number / atomic number / number of protons\n- A different mass number / nucleon number / number of neutrons\n\nPolonium has twenty-five different isotopes.\n\nExplain why the isotopes of polonium exhibit the same chemical properties but their boiling points differ slightly.",
+     "solution_md": "> **[mark-scheme]**\n> The isotopes of polonium have the same chemical properties because:\n> \n> - They have the same number of electrons / the same electronic configuration **[1 mark]**\n> \n> Their boiling points differ slightly because:\n> \n> - They have different numbers of neutrons / different mass numbers / different masses **[1 mark]**\n\n> **[exam-tip]**\n> Chemical properties are determined by the arrangement of electrons. All isotopes of the same element have the same proton number and therefore the same number of electrons and electronic configuration, so they react identically.\n> \n> Physical properties such as boiling point depend on the mass of the atom. Since isotopes have different numbers of neutrons, they have different masses and slightly different physical properties."
     }
    ]
   }

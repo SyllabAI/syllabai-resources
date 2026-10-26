@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:55:15Z",
+ "generated_utc": "2026-10-26T14:55:47Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -53,18 +53,37 @@
    "question_count": 25,
    "questions_embedded": 25,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/4-states-of-matter/4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_dRWcqHBBDWQFnKh8",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/4-states-of-matter/4-1-the-gaseous-state-ideal-and-real-gases-and-pv-equals-nrt/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 25,
+  "questions_embedded": 33,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/1-4-h-6.JPG": "001-diagram-showing-two-glass-containers-labelled-x-.jpg",
-   "https://cdn.savemyexams.com/uploads/2023/05/1-4-diagram-q11m.png": "002-graph-of-pv-against-p-for-an-ideal-gas-and-three.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/1-4-diagram-q11m.png": "002-graph-of-pv-against-p-for-an-ideal-gas-and-three.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/azide-ion-dot-and-cross.png": "003-dot-and-cross-diagram-showing-the-bonding-and-lo.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/1-4-1b-e-temp-vs-1pressure.png": "004-graph-of-volume-of-gas-y-axis-against-1-pressure.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/1-4-1d-e-temp-vs-pressure-a.png": "005-blank-graph-with-volume-of-gas-on-the-y-axis-and.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/-uGVUcBR_temp-vs-pressure-answer.png": "006-graph-of-volume-of-gas-y-axis-against-temperatur.png"
   }
  },
  "questions": [
@@ -385,7 +404,7 @@
      ],
      "part_tier": null,
      "problem_md": "Sodium reacts with water in the equation below.\n\n2Na (s) + 2H<sub>2</sub>O (l) → 2NaOH (aq) + H<sub>2</sub> (g)\n\nWhich mass of sodium reacts with water to produce 960 cm<sup>3</sup> of hydrogen gas at r.t.p.?",
-     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The ideal gas equation is:\n\n*pV = nRT*\n\n- Rearranged for number of moles:\n\nn = $\\frac{pV}{RT}$\n\n- Known quantities:\n\n  - Pressure; 100000 Pa\n  - Volume; 960 cm<sup>3</sup> = 0.00096 m<sup>3</sup>\n  - Temperature; 20 °C = 293 K\n- Substitution into the equation:\n\nn(H<sub>2</sub>) = $\\frac{100000\\times0.00096}{8.31\\times293}$\n\nn(H<sub>2</sub>) = 0.0394 mol\n\n- From the balanced equation, 2 mol Na produces 1 mol H<sub>2</sub>:\n\nn(Na) = 2 × 0.0394 = 0.0788 mol\n\n- Mass of sodium (*A*<sub>r</sub> = 23):\n\n*mass = 0.0788 × 23 = 1.81 g*\n\n**A** is incorrect as 0.46 g results from a further factor-of-two error in the moles of sodium.\n\n**B** is incorrect as 0.91 g results from using half the correct moles of sodium.\n\n**D** is incorrect as 3.68 g results from using n(Na) = n(H<sub>2</sub>) without applying the 2:1 stoichiometric ratio.",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- At r.t.p., 1 mol of gas occupies 24.0 dm<sup>3</sup>, so n(H<sub>2</sub>) = 0.960 ÷ 24.0 = 0.0400 mol\n- From the equation, 2 mol Na produces 1 mol H<sub>2</sub>, so n(Na) = 2 × 0.0400 = 0.0800 mol\n- Mass of sodium = 0.0800 × 23.0 = 1.84 g\n\n**A** is incorrect because it halves the amount of hydrogen instead of doubling it: 0.0200 × 23.0\n\n**B** is incorrect because it assumes a 1 : 1 ratio of Na to H<sub>2</sub>: 0.0400 × 23.0\n\n**D** is incorrect because it treats sodium as Na<sub>2</sub> and uses 46.0: 0.0800 × 46.0",
      "choices": [
       {
        "label": "A",
@@ -395,29 +414,17 @@
       {
        "label": "B",
        "is_correct": false,
-       "text_md": "0.91 g"
+       "text_md": "0.92 g"
       },
       {
        "label": "C",
        "is_correct": true,
-       "text_md": "1.81 g"
+       "text_md": "1.84 g"
       },
       {
        "label": "D",
        "is_correct": false,
        "text_md": "3.68 g"
-      }
-     ],
-     "equations": [
-      {
-       "latex": "\\frac{pV}{RT}",
-       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mi>V</mi></mrow><mrow><mi>R</mi><mi>T</mi></mrow></mfrac></math>",
-       "alt": "\\frac{p V}{R T}"
-      },
-      {
-       "latex": "\\frac{100000\\times0.00096}{8.31\\times293}",
-       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>100000</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>00096</mn></mrow><mrow><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>293</mn></mrow></mfrac></math>",
-       "alt": "\\frac{100000 \\times 0 . 00096}{8 . 31 \\times 293}"
       }
      ]
     }
@@ -481,6 +488,13 @@
        "latex": "\\frac{(1.5\\times10^{-2})\\times8.31\\times(275+273)}{2\\times10^{-3}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>5</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup><mo>)</mo><mo>&#xD7;</mo><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mo>(</mo><mn>275</mn><mo>+</mo><mn>273</mn><mo>)</mo></mrow><mrow><mn>2</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></math>",
        "alt": "\\frac{(1.5 \\times 10^{-2}) \\times 8.31 \\times (275 + 273)}{2 \\times 10^{-3}}"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open parentheses 1.5 space cross times space 10 to the power of negative 2 space end exponent close parentheses space cross times space 8.31 space cross times space 275 over denominator 2 space cross times space 10 to the power of negative 6 end exponent end fraction",
+       "render": "$\\frac{( 1.5 \\times 10^{- 2 } ) \\times 8.31 \\times 275}{2 \\times 10^{- 6} }$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{(1.5\\times10^{-2})\\times8.31\\times(275+273)}{2\\times10^{-6}}",
@@ -1266,6 +1280,85 @@
        "is_correct": true,
        "text_md": ""
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 81.5 over denominator 100 end fraction cross times 2 close parentheses",
+       "render": "$( \\frac{81.5}{100} \\times 2 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 16.2 over denominator 100 end fraction cross times 4 close parentheses",
+       "render": "$( \\frac{16.2}{100} \\times 4 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 2.3 over denominator 100 end fraction cross times 16 close parentheses",
+       "render": "$( \\frac{2.3}{100} \\times 16 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 89.6 over denominator 100 end fraction cross times 2 close parentheses",
+       "render": "$( \\frac{89.6}{100} \\times 2 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 10.4 over denominator 100 end fraction cross times 4 close parentheses",
+       "render": "$( \\frac{10.4}{100} \\times 4 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses 81 over 100 cross times 2 close parentheses",
+       "render": "$( \\frac{81}{100} \\times 2 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses 18 over 100 cross times 4 close parentheses",
+       "render": "$( \\frac{18}{100} \\times 4 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 1.0 over denominator 100 end fraction cross times 16 close parentheses",
+       "render": "$( \\frac{1.0}{100} \\times 16 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 96.2 over denominator 100 end fraction cross times 2 close parentheses",
+       "render": "$( \\frac{96.2}{100} \\times 2 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 3.5 over denominator 100 end fraction cross times 4 close parentheses",
+       "render": "$( \\frac{3.5}{100} \\times 4 )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open parentheses fraction numerator 0.25 over denominator 100 end fraction cross times 16 close parentheses",
+       "render": "$( \\frac{0.25}{100} \\times 16 )$",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1577,6 +1670,808 @@
        "text_md": ""
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Xdb97w6QQ4XsHzCT",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_ZJWGR3k5X7ptvMHv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gkJdM8KCSST8S2JX"
+     ],
+     "part_tier": null,
+     "problem_md": "Airbags are safety devices fitted to modern cars. They are designed to rapidly inflate in the event of a collision, in order to protect the occupants of the car from the effects of the impact, and then quickly deflate.\n\nThe inflation of an airbag depends on the chemical decomposition of sodium azide, NaN<sub>3</sub>.\n\nThe azide ion, N<sub>3</sub><sup>–</sup>, contains one triple bond. Draw a ‘dot-and-cross’ diagram to show the arrangement of outer electrons present in an azide ion.",
+     "solution_md": "The dot-and-cross diagram for the azide ion is:\n\n![Dot-and-cross diagram showing the bonding and lone pairs in the azide ion N3 minus, with a triple bond between the left and central nitrogen atoms and a dative covalent bond from the central to the right-hand nitrogen atom](assets/003-dot-and-cross-diagram-showing-the-bonding-and-lo.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a triple bond (3 shared pairs) between the left and central nitrogen atoms, and a dative covalent bond (1 shared pair, both electrons from the central nitrogen) from the central to the right-hand nitrogen\n> \n> 1 mark for 1 lone pair on the left-hand nitrogen, 0 lone pairs on the central nitrogen, and 3 lone pairs on the right-hand nitrogen, with one electron on the right-hand nitrogen clearly shown as a different symbol to indicate the extra electron from the ionic bond with sodium\n\n> **[exam-tip]**\n> Count the total valence electrons first:\n> \n> 3 nitrogen atoms x 5 electrons + 1 (negative charge) = 16 electrons.\n> \n> Place a triple bond (3 shared pairs) between the left and central nitrogen atoms, and a dative covalent bond (1 shared pair, both electrons donated by the central nitrogen) to the right-hand nitrogen. This accounts for 8 bonding electrons.\n> \n> The remaining 8 electrons form lone pairs:\n> \n> - 1 lone pair on the left-hand nitrogen\n> - 0 on the central nitrogen\n> - 3 lone pairs on the right-hand nitrogen.\n> \n> The extra electron from the negative charge appears on the right-hand nitrogen and must be drawn using a different symbol (e.g. a cross if the other electrons are shown as dots)."
+    },
+    {
+     "id": "qstnprt_fvmgRPv4dv96Bsph",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvVs8rP9WBKRWmt8"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAirbags are safety devices fitted to modern cars. They are designed to rapidly inflate in the event of a collision, in order to protect the occupants of the car from the effects of the impact, and then quickly deflate.\n\nThe inflation of an airbag depends on the chemical decomposition of sodium azide, NaN3.\n\nThe azide ion, N3–, contains one triple bond.\n\nSuggest **three** properties of sodium azide. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> **Three** properties of sodium azide are:\n> \n> Any **three** from (1 mark for each property and explanation pair):\n> \n> - Hard / strong\n> **AND**\n> Due to strong electrostatic forces of attraction between oppositely charged ions\n> \n> - High melting point / boiling point\n> **AND**\n> Due to strong electrostatic forces of attraction between oppositely charged ions\n> \n> - Soluble in water\n> **AND**\n> Ion-dipole interactions can form between Na<sup>+</sup> / N<sub>3</sub><sup>-</sup> ions and water molecules\n> \n> - Conducts electricity <u>when molten / dissolved</u>\n> **AND**\n> Ions are free to move / mobile\n> \n> **OR**\n> \n> - Does not conduct electricity <u>when solid</u>\n> **AND**\n> No ions that are free to move\n> \n> **[3 marks]**\n\n> **[exam-tip]**\n> Sodium azide is an ionic compound, with Na<sup>+</sup> and N<sub>3</sub><sup>-</sup> ions held together in a giant ionic lattice by strong electrostatic forces. This underpins its physical properties as ionic lattices:\n> \n> - Are typically hard\n> - Have high melting points\n> - Dissolve in polar solvents such as water.\n> \n> Electrical conductivity requires mobile ions, which are only present when the compound is molten or dissolved."
+    },
+    {
+     "id": "qstnprt_GpVqTVdG3Hbq49nY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "Sodium azide can be manufactured by reacting sodium amide, NaNH<sub>2</sub>, with dinitrogen monoxide. Sodium hydroxide and ammonia are also produced.\n\n550 g of sodium azide was produced in a reaction with a yield of 95.0%.\n\nConstruct an equation for this reaction. Hence calculate the mass, in g, of sodium amide required.\n\nShow your working.",
+     "solution_md": "To construct the equation and calculate the mass of sodium amide required:\n\n- Construct the balanced equation:\n\n2NaNH<sub>2</sub> + N<sub>2</sub>O → NaN<sub>3</sub> + NaOH + NH<sub>3</sub> **[1 mark]**\n\n- Calculate the theoretical (100% yield) mass of NaN<sub>3</sub>:\n\ntheoretical mass = $\\frac{550}{95.0}$ x 100 = 578.95 g **[1 mark]**\n\n- Calculate the *M*<sub>r</sub> of NaN<sub>3</sub>:\n\n*M*<sub>r</sub>(NaN<sub>3</sub>) = 23.0 + (14.0 x 3) = 65.0 g mol<sup>-1</sup>\n\n- Calculate the moles of NaN<sub>3</sub>:\n\n*n*(NaN<sub>3</sub>) = $\\frac{578.95}{65.0}$ = 8.907 mol **[1 mark]**\n\n- Use the molar ratio (2 NaNH<sub>2</sub> : 1 NaN<sub>3</sub>) to find moles of NaNH<sub>2</sub>:\n\n*n*(NaNH<sub>2</sub>) = 8.907 x 2 = 17.81 mol **[1 mark]**\n\n- Calculate the mass of NaNH<sub>2</sub>:\n\n*M*<sub>r</sub>(NaNH<sub>2</sub>) = 23.0 + 14.0 + (1.0 x 2) = 39.0 g mol<sup>-1</sup>\n\nmass = 17.81 x 39.0 = **695 g** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward from the equation if the method is correct.\n> \n> State symbols are not required in the equation.\n\n> **[exam-tip]**\n> The balanced equation is needed before you can use the molar ratio. The ratio is 2 mol NaNH<sub>2</sub> per 1 mol NaN<sub>3</sub>, so twice as many moles of sodium amide are required.\n> \n> Remember: the 550 g is the actual yield (95.0%), so divide by 0.950 to find the theoretical 100% yield mass before calculating moles.",
+     "equations": [
+      {
+       "latex": "\\frac{550}{95.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>550</mn><mrow><mn>95</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{550}{95.0}"
+      },
+      {
+       "latex": "\\frac{578.95}{65.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>578</mn><mo>.</mo><mn>95</mn></mrow><mrow><mn>65</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{578.95}{65.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4B3mGD6R3B3d9cQ7",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "In a serious collision, the airbag deploys and rapidly fills with nitrogen as sodium azide decomposes.\n\n2NaN<sub>3</sub> (s) → 2Na (s) + 3N<sub>2</sub> (g)\n\nAssume nitrogen behaves as an ideal gas.\n\nCalculate the mass of sodium azide that must decompose in order to inflate an airbag to a volume of 7.50 x 10<sup>-2</sup> m<sup>3</sup> at a pressure of 150 kPa and a temperature of 35.0 °C.\n\nShow your working.",
+     "solution_md": "To calculate the mass of sodium azide that must decompose:\n\n- Convert pressure and temperature to SI units:\n\n*p* = 150 x 1000 = 150 000 Pa\n\n*T* = 35.0 + 273 = 308 K\n\n**[1 mark]**\n\n- Rearrange *pV* = *nRT* to calculate moles of N<sub>2</sub>:\n\n*n*(N<sub>2</sub>) = $\\frac{pV}{RT}$\n\n*n*(N<sub>2</sub>) = $\\frac{150000\\times7.50\\times10^{-2}}{8.31\\times308}$ = 4.395 mol\n\n**[1 mark]**\n\n- Use the molar ratio (3 N<sub>2</sub> : 2 NaN<sub>3</sub>) to find moles of NaN<sub>3</sub>:\n\n*n*(NaN<sub>3</sub>) = $\\frac{4.395\\times2}{3}$ = 2.930 mol\n\n**[1 mark]**\n\n- Calculate the mass of NaN<sub>3</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\nmass of NaN<sub>3</sub> = 2.930 x 65.0\n\nmass of NaN<sub>3</sub> = **190 g (to 3 s.f.)**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct conversions of pressure **AND **temperature to SI units\n> \n> 1 mark for correctly calculating the moles of N<sub>2</sub>\n> \n> 1 mark for determining the moles of NaN<sub>3</sub>\n> \n> 1 mark for calculating the mass of NaN<sub>3</sub>\n> \n> Allow error carried forward from moles of N<sub>2</sub> if the method is correct.\n\n> **[exam-tip]**\n> The volume is already given in m<sup>3</sup>, so only temperature (add 273) and pressure (multiply kPa x 1000) need converting. Use the molar ratio from the equation: 3 mol N<sub>2</sub> is produced per 2 mol NaN<sub>3</sub>, so multiply moles of N<sub>2</sub> by 2/3 to get moles of NaN<sub>3</sub>. *M*<sub>r</sub>(NaN<sub>3</sub>) = 23.0 + (14.0 x 3) = 65.0 g mol<sup>-1</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{pV}{RT}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mi>V</mi></mrow><mrow><mi>R</mi><mi>T</mi></mrow></mfrac></math>",
+       "alt": "\\frac{pV}{RT}"
+      },
+      {
+       "latex": "\\frac{150000\\times7.50\\times10^{-2}}{8.31\\times308}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>150000</mn><mo>&#xD7;</mo><mn>7</mn><mo>.</mo><mn>50</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><mrow><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>308</mn></mrow></mfrac></math>",
+       "alt": "\\frac{150000 \\times 7.50 \\times 10^{-2}}{8.31 \\times 308}"
+      },
+      {
+       "latex": "\\frac{4.395\\times2}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>395</mn><mo>&#xD7;</mo><mn>2</mn></mrow><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{4.395 \\times 2}{3}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vw9VzskmXSRQ2Bn7",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Sodium azide is toxic. It can be destroyed by reacting it with acidified nitrous acid, HNO<sub>2</sub>.\n\ni) Complete the equation for this reaction:\n\n2NaN<sub>3</sub> + ...HNO<sub>2</sub> + ...HCl → ...N<sub>2</sub> + ...NO + ...NaCl + 2H<sub>2</sub>O\n\n[2]\n\nii) Calculate the total volume of gas released, in dm<sup>3</sup>, when 75.0 g of sodium azide reacts with an excess of acidified nitrous acid and hydrochloric acid at room conditions.\n\nShow your working.\n\n[3]",
+     "solution_md": "i) The balanced equation is:\n\n2NaN<sub>3</sub> + 2HNO<sub>2</sub> + 2HCl → 3N<sub>2</sub> + 2NO + 2NaCl + 2H<sub>2</sub>O\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for 2HNO<sub>2</sub> + 2HCl (correct coefficients for the acid reactants)\n> \n> 1 mark for 3N<sub>2</sub> + 2NO + 2NaCl (correct coefficients for the remaining products)\n\nii) To calculate the total volume of gas released:\n\n- Calculate the moles of NaN<sub>3</sub>:\n\n*n*(NaN<sub>3</sub>) = $\\frac{75.0}{65.0}$ = 1.154 mol **[1 mark]**\n\n- Calculate total moles of gaseous products using the molar ratio (2 NaN<sub>3</sub> → 5 mol gas):\n\ntotal *n*(gas) = 1.154 x $\\frac{5}{2}$ = 2.885 mol\n\n**[1 mark]**\n\n- Calculate the volume at room conditions (1 mol = 24.0 dm<sup>3</sup>):\n\nvolume = moles x molar volume\n\n*V* = 2.885 x 24.0 = **69.2 dm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Answers in the range 69.1–69.2 dm<sup>3</sup> are accepted\n> \n> Allow error carried forward from moles of NaN<sub>3</sub> if the method is correct.\n\n> **[exam-tip]**\n> Both N<sub>2</sub> and NO are gaseous products.\n> \n> From the balanced equation, 2 mol NaN<sub>3</sub> produces 3 mol N<sub>2</sub> plus 2 mol NO, giving a total of 5 mol of gas per 2 mol NaN<sub>3</sub>.\n> \n> The molar volume at room conditions is 24.0 dm<sup>3</sup> mol<sup>-1</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{75.0}{65.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>75</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>65</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{75.0}{65.0}"
+      },
+      {
+       "latex": "\\frac{5}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{5}{2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PrQc9VbWfktQKdp6",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_hb9JtQVTGZWNJWK4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "When magnesium reacts with hydrochloric acid, the following reaction occurs:\n\nMg (s) + 2HCl (aq) → MgCl<sub>2</sub> (aq) + H<sub>2</sub> (g)\n\nDuring the reaction, the hydrogen produced occupies 103 cm<sup>3</sup> at 25.0 °C and 100 kPa.\n\nCalculate the amount, in mol, of hydrogen gas produced in this reaction. Show your working.\n\n.................................... mol",
+     "solution_md": "To calculate the amount, in mol, of hydrogen gas produced:\n\n- Convert the units:\n\n*p* = 100 kPa = 100 000 Pa\n\n*V* = 103 cm<sup>3</sup> = 1.03 x 10<sup>-4</sup> m<sup>3</sup>\n\n*T* = 25.0 + 273 = 298 K\n\n**[1 mark]**\n\n- Rearrange *pV* = *nRT* to find *n* and substitute:\n\n*n* = $\\frac{pV}{RT}$\n\n*n* = $\\frac{100000\\times1.03\\times10^{-4}}{8.31\\times298}$ **[1 mark]**\n\n*n* = **4.16 x 10**<sup>**-3**</sup>** mol** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correctly converting all three units: *p* in Pa, *V* in m<sup>3</sup>, *T* in K\n> \n> 1 mark for correct rearrangement and substitution into *n* = *pV*/*RT*\n> \n> 1 mark for correct final answer: 4.16 x 10<sup>-3</sup> mol\n> \n> Allow error carried forward if there are unit conversion errors\n\n> **[exam-tip]**\n> When using the ideal gas equation *pV* = *nRT*, convert all values to SI units before substituting. The three conversions needed here are:\n> \n> - Pressure: kPa → Pa (multiply by 1000)\n> - Volume: cm<sup>3</sup> → m<sup>3</sup> (multiply by 10<sup>-6</sup>)\n> - Temperature: °C → K (add 273)\n> \n> Always show each conversion explicitly as a mark is typically awarded for getting all units correct.",
+     "equations": [
+      {
+       "latex": "\\frac{pV}{RT}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mi>V</mi></mrow><mrow><mi>R</mi><mi>T</mi></mrow></mfrac></math>",
+       "alt": "\\frac{pV}{RT}"
+      },
+      {
+       "latex": "\\frac{100000\\times1.03\\times10^{-4}}{8.31\\times298}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>100000</mn><mo>&#xD7;</mo><mn>1</mn><mo>.</mo><mn>03</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></mrow><mrow><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>298</mn></mrow></mfrac></math>",
+       "alt": "\\frac{100000 \\times 1.03 \\times 10^{-4}}{8.31 \\times 298}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_6Cg3TnqXp4Tryk3n",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen magnesium reacts with hydrochloric acid, the following reaction occurs:\n\nMg (s) + 2HCl (aq) → MgCl~2~ (aq) + H~2~ (g)\n\nDuring the reaction, the hydrogen produced occupies 103 cm^3^ at 25.0 °C and 100 kPa.\n\nUse your answer to (a) to calculate the volume, in cm<sup>3</sup>, of 0.150 mol dm<sup>-3</sup> HCl required to produce this amount of hydrogen gas. Give your answer to 3 significant figures. Show your working.\n\nvolume = ..................... cm<sup>3</sup>",
+     "solution_md": "To calculate the volume of 0.150 mol dm<sup>-3</sup> HCl needed:\n\n- Find moles of HCl using the molar ratio:\n\nRatio H<sub>2</sub> : HCl = 1 : 2\n\n*n*(HCl) = 4.16 x 10<sup>-3</sup> x 2\n\n*n*(HCl) = 8.32 x 10<sup>-3</sup> mol **[1 mark]**\n\n- Calculate the volume:\n\nvolume = $\\frac{n}{c}$\n\nvolume = $\\frac{8.32\\times10^{-3}}{0.150}$\n\nvolume = 0.05547 dm<sup>3</sup>\n\n- Convert volume to cm<sup>3</sup>:\n\nvolume = 0.05547 x 1000 = **55.5 cm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *n*(HCl) = 8.32 x 10<sup>-3</sup> mol\n> \n> 1 mark for volume = 55.5 cm<sup>3</sup>\n> \n> Allow error carried forward from an incorrect number of moles in part (a)\n\n> **[exam-tip]**\n> Always check the molar ratio from the equation before calculating moles of a second species. Here, 1 mol H<sub>2</sub> requires 2 mol HCl, so the moles of HCl is double the moles of H<sub>2</sub>.\n> \n> The formula volume = *n*/*c* gives volume in dm<sup>3</sup> when concentration is in mol dm<sup>-3</sup>. Since the question asks for cm<sup>3</sup>, multiply by 1000 to convert.",
+     "equations": [
+      {
+       "latex": "\\frac{n}{c}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>n</mi><mi>c</mi></mfrac></math>",
+       "alt": "\\frac{n}{c}"
+      },
+      {
+       "latex": "\\frac{8.32\\times10^{-3}}{0.150}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>.</mo><mn>32</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>150</mn></mrow></mfrac></math>",
+       "alt": "\\frac{8.32 \\times 10^{-3}}{0.150}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_F3CTm4DjqnmbDgdX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nWhen magnesium reacts with hydrochloric acid, the following reaction occurs:\n\nMg (s) + 2HCl (aq) → MgCl~2~ (aq) + H~2~ (g)\n\nIn a separate experiment, 3.75 g of magnesium reacts with an excess of hydrochloric acid.\n\nCalculate the mass, in g, of magnesium chloride produced. Show your working.\n\nmass magnesium chloride = ....................... g",
+     "solution_md": "To calculate the mass of magnesium chloride produced:\n\n- Calculate the moles of Mg:\n\nmoles = $\\frac{\\mathrm{mass}}{A_{r}}$\n\n*n*(Mg) = $\\frac{3.75}{24.3}$\n\n*n*(Mg) = 0.1543 mol **[1 mark]**\n\n- Use the 1:1 molar ratio to find mass of MgCl<sub>2</sub>:\n\n*n*(MgCl<sub>2</sub>) = 0.1543 mol\n\nmass = moles x *M*<sub>r</sub>\n\nmass of MgCl<sub>2</sub> = 0.1543 x 95.3\n\nmass of MgCl<sub>2</sub> = **14.7 g** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *n*(Mg) = 0.154 mol\n> \n> 1 mark for mass of MgCl<sub>2</sub> = 14.7 g\n\n> **[exam-tip]**\n> For mass-to-mass stoichiometry calculations, follow these steps:\n> \n> 1. Convert mass to moles using *n* = mass / *A*<sub>r</sub> (for elements) or mass / *M*<sub>r</sub> (for compounds)\n> 2. Use the molar ratio from the balanced equation to find moles of the product (here Mg : MgCl<sub>2</sub> = 1:1)\n> 3. Convert moles back to mass using mass = *n* x *M*<sub>r</sub>\n> \n> *A*<sub>r</sub> of Mg = 24.3; *M*<sub>r</sub> of MgCl<sub>2</sub> = 24.3 + (2 x 35.5) = 95.3",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>A</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over A subscript straight r"
+      },
+      {
+       "latex": "\\frac{3.75}{24.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>75</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.75}{24.3}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_f44CzYHx3WG4cvzS",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_zcW7hCSrZT7Q5fgM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f",
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "Two assumptions made about ideal gas behaviour are that ideal gases have zero particle volume and no intermolecular forces of attraction\n\nExplain why helium comes very close to ideal gas behaviour.",
+     "solution_md": "> **[mark-scheme]**\n> Helium comes very close to ideal gas behaviour because:\n> \n> - It exists as single atoms\n> **OR**\n> It has a full outer shell so does not form bonds with other atoms **[1 mark]**\n> - (It only has two electrons so) it has very weak intermolecular forces of attraction / London dispersion forces / van der Waals' forces **[1 mark]**\n\n> **[exam-tip]**\n> The question tells you the two assumptions of ideal gas behaviour. Your answer should relate helium's properties directly to each of these assumptions:\n> \n> - Assumption 1 (zero particle volume):\n> \n>   - Helium is mono-atomic, i.e. it exists as single atoms rather than molecules.\n>   - This means its particle volume is negligible compared to the volume of the container.\n> - Assumption 2 (no intermolecular forces):\n> \n>   - Helium has only two electrons, giving it very low polarisability.\n>   - This means the London dispersion forces between helium atoms are extremely weak and effectively negligible."
+    },
+    {
+     "id": "qstnprt_nmYpbQFmm53B9H5x",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f",
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "The ideal gas equation is *p*V = *n*RT where *R* is the molar gas constant with a value of 8.31 J K<sup>-1</sup> mol<sup>-1</sup>.\n\nState the meaning of each of the following terms, and give the units for each to correspond with the value of *R*.\n\n*p* ..............................................................................................\n\n*V* ..............................................................................................\n\n*T* ..............................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> The meaning and SI units of *p*, *V*, and *T* in the ideal gas equation:\n> \n> - *p* = pressure of the gas **AND** Pa / N m<sup>-2</sup> **[1 mark]**\n> - *V* = volume of the gas / vessel **AND** m<sup>3</sup> **[1 mark]**\n> - *T* = (absolute) temperature of the gas **AND** K / kelvin **[1 mark]**\n\n> **[exam-tip]**\n> When using the ideal gas equation *pV* = *nRT*, you must use SI units that match the value of *R* (8.31 J K<sup>-1</sup> mol<sup>-1</sup>):\n> \n> - Pressure (*p*) in pascals (Pa): to convert from kPa, multiply by 1000\n> - Volume (*V*) in cubic metres (m<sup>3</sup>): to convert from dm<sup>3</sup>, divide by 1000; from cm<sup>3</sup>, divide by 10<sup>6</sup>\n> - Temperature (*T*) in kelvin (K): to convert from °C, add 273\n> \n> Using kPa or dm<sup>3</sup> without converting first is the most common error when applying the ideal gas equation."
+    },
+    {
+     "id": "qstnprt_XjTW4Vmm5B3n9D6g",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f",
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe ideal gas equation is *p*V = *n*RT where *R* is the molar gas constant with a value of 8.31 J K^-1^ mol^-1^.\n\nCalculate the volume, in dm<sup>3</sup>, of one mole of helium gas at 10.0 °C and 92.0 kPa. Give your answer to 3 significant figures. Show your working.\n\nvolume of one mole of helium gas = ............................................... dm<sup>3</sup>",
+     "solution_md": "To calculate the volume of one mole of helium gas:\n\n- Convert the units:\n\n*p* = 92.0 x 10<sup>3</sup> = 92 000 Pa\n\n*T* = 10.0 + 273 = 283 K\n\n**[1 mark]**\n\n- Rearrange and substitute into *pV* = *nRT*:\n\n*V* = $\\frac{nRT}{p}$\n\n*V* = $\\frac{1\\times8.31\\times283}{92000}$\n\n*V *= 0.02556 m<sup>3</sup> **[1 mark]**\n\n- Convert to dm<sup>3</sup>:\n\n*V* = 0.02556 x 1000\n\n*V *= **25.6 dm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correctly converting *p* to Pa **AND** *T* to K\n> \n> 1 mark for calculating *V* in m<sup>3</sup> using *pV* = *nRT*\n> \n> 1 mark for converting to dm<sup>3</sup> and expressing to 3 sf\n\n> **[exam-tip]**\n> The ideal gas equation calculates volume in m<sup>3</sup>, but this question asks for the answer in dm<sup>3</sup>. To convert m<sup>3</sup> to dm<sup>3</sup>, multiply by 1000.\n> \n> Always convert temperature to kelvin and pressure to pascals before substituting. Using values in °C or kPa without converting gives an incorrect final answer.\n> \n> Your answer should be to 3 significant figures. Both pieces of raw data (92.0 kPa and 10.0 °C) are given to 3 sf, so your answer should match.",
+     "equations": [
+      {
+       "latex": "\\frac{nRT}{p}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mi>R</mi><mi>T</mi></mrow><mi>p</mi></mfrac></math>",
+       "alt": "\\frac{nRT}{p}"
+      },
+      {
+       "latex": "\\frac{1\\times8.31\\times283}{92000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>&#xD7;</mo><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>283</mn></mrow><mn>92000</mn></mfrac></math>",
+       "alt": "\\frac{1 \\times 8.31 \\times 283}{92000}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cGdrSctcJGxyK48f",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_jd73CHPCjr7v6Trp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "Oxygen exists as a diatomic gas, O<sub>2</sub> (g). A sample of O<sub>2</sub> (g) was made during a chemical reaction. When measured at 303 kPa and 28.0 °C the sample occupied a volume of 95.0 cm<sup>3</sup>.\n\nAssume that oxygen behaves as an ideal gas under these conditions.\n\nCalculate the mass, in g, of oxygen formed.\n\nShow your working.",
+     "solution_md": "To calculate the mass, in g, of oxygen formed:\n\n- Convert all data to SI units:\n\n*p* = 303 x 1000 = 303 000 Pa\n\n*V* = 95.0 x 10<sup>-6</sup> m<sup>3</sup>\n\n*T* = 28.0 + 273 = 301 K\n\n**[1 mark]**\n\n- Rearrange *pV* = *nRT* for *n*:\n\n*n*(O<sub>2</sub>) = $\\frac{pV}{RT}$\n\n- Calculate moles of O<sub>2</sub>:\n\n*n*(O<sub>2</sub>) = $\\frac{303000\\times95.0\\times10^{-6}}{8.31\\times301}$\n\n*n*(O<sub>2</sub>) = 0.01151 mol\n\n**[1 mark]**\n\n- Calculate the mass of oxygen:\n\nmass = moles x *M*<sub>r</sub>\n\nmass of oxygen = 0.01151 x 32.0\n\nmass of oxygen = **0.368 g**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct conversions of pressure **AND **temperature **AND **volume to SI units\n> \n> 1 mark for correctly calculating the moles of oxygen, O<sub>2</sub>\n> \n> 1 mark for correctly calculating the mass of oxygen, O<sub>2</sub>\n\n> **[exam-tip]**\n> Before substituting into *pV* = *nRT*, always convert pressure to Pa (kPa x 1000), volume to m<sup>3</sup> (cm<sup>3</sup> x 10<sup>-6</sup>), and temperature to K (°C + 273). The molar mass of O<sub>2</sub> is 2 x 16.0 = 32.0 g mol<sup>-1</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{pV}{RT}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mi>V</mi></mrow><mrow><mi>R</mi><mi>T</mi></mrow></mfrac></math>",
+       "alt": "\\frac{pV}{RT}"
+      },
+      {
+       "latex": "\\frac{303000\\times95.0\\times10^{-6}}{8.31\\times301}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>303000</mn><mo>&#xD7;</mo><mn>95</mn><mo>.</mo><mn>0</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup></mrow><mrow><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>301</mn></mrow></mfrac></math>",
+       "alt": "\\frac{303000 \\times 95.0 \\times 10^{-6}}{8.31 \\times 301}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_7Vx28sSzdKrY9s7r",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nOxygen exists as a diatomic gas, O~2~ (g). A sample of O~2~ (g) was made during a chemical reaction. When measured at 303 kPa and 28.0 °C the sample occupied a volume of 95.0 cm^3^.\n\nCalculated: n(O~2~) = 0.01151 mol\n\nUse your answer to (a) to calculate the number of electrons involved in the bonding of this sample of oxygen.\n\nShow your working.",
+     "solution_md": "To calculate the number of electrons involved in the bonding:\n\n- O<sub>2</sub> contains a double bond; 4 moles of electrons are involved in bonding per mole of O<sub>2</sub>:\n\n*n*(electrons) = 0.01151 x 4 = 0.04604 mol **[1 mark]**\n\n- Apply Avogadro's constant to find the number of electrons:\n\nnumber of electrons = 0.04604 x 6.022 x 10<sup>23</sup>\n\nnumber of electrons = **2.77 x 10**<sup>**22**</sup> **[1 mark]**\n\n> **[exam-tip]**\n> The oxygen molecule has a double bond (O=O), which involves 4 electrons in total. Multiply the moles of O<sub>2</sub> by 4 to find the moles of bonding electrons, then multiply by Avogadro's constant (6.022 x 10<sup>23</sup> mol<sup>-1</sup>) to convert to a number of particles."
+    },
+    {
+     "id": "qstnprt_JZStbtDcfMVdVTsS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f"
+     ],
+     "part_tier": null,
+     "problem_md": "O<sub>2</sub> (g) does not behave as an ideal gas. Explain why O<sub>2</sub> (g) deviates more from ideal gas behaviour at:\n\n- very high pressures\n- very low temperatures",
+     "solution_md": "> **[mark-scheme]**\n> At very high pressures, O<sub>2</sub> (g) deviates more because:\n> \n> - The volume / size of the O<sub>2</sub> molecules becomes significant / non-negligible\n> **OR**\n> Intermolecular forces become significant / non-negligible **[1 mark]**\n> \n> At very low temperatures, O<sub>2</sub> (g) deviates more because:\n> \n> - Intermolecular forces become significant / non-negligible **[1 mark]**\n\n> **[exam-tip]**\n> Ideal gases are assumed to have:\n> \n> 1. Zero molecular volume\n> 2. No intermolecular forces\n> \n> At very high pressures, molecules are packed closely together so their actual size becomes significant relative to the total volume.\n> \n> At very low temperatures, molecules move slowly and intermolecular (van der Waals) forces have a greater effect, pulling molecules together and causing the gas to deviate from ideal behaviour."
+    },
+    {
+     "id": "qstnprt_Rksjz2whWjK47V8Z",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_rBJCH5cMmx33QRxp",
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "The homologous series of alkanes undergo combustion with oxygen. A 2.00 dm<sup>3</sup> flask contains 10.84 g of a gaseous alkane, **X**. The pressure in the flask is 300 kPa and the temperature is 20.0 °C.\n\nCalculate the relative molecular mass, *M*<sub>r</sub>, of **X** and hence deduce its molecular formula. Construct an equation for the complete combustion of **X**.\n\nShow your working.",
+     "solution_md": "To determine the molecular formula of **X** and construct its combustion equation:\n\n- Convert all data to SI units:\n\n*p* = 300 x 1000 = 300 000 Pa\n\n*V* = 2.00 x 10<sup>-3</sup> m<sup>3</sup>\n\n*T* = 20.0 + 273 = 293 K\n\n**[1 mark]**\n\n- Rearrange *pV* = *nRT* using *n* = *m*/*M*<sub>r</sub>:\n\n*M*<sub>r</sub> = $\\frac{mRT}{pV}$\n\n*M*<sub>r</sub> = $\\frac{10.84\\times8.31\\times293}{300000\\times2.00\\times10^{-3}}$\n\n*M*<sub>r</sub> = 44.0\n\n**[1 mark]**\n\n- Apply the alkane general formula C<sub>n</sub>H<sub>2n+2</sub>;\n\n*M*<sub>r</sub> 44 corresponds to C<sub>3</sub>H<sub>8</sub> (propane)\n\n**X** = C<sub>3</sub>H<sub>8</sub>\n\n**[1 mark]**\n\n- Construct the balanced equation for complete combustion:\n\nC<sub>3</sub>H<sub>8</sub> + 5O<sub>2</sub> → 3CO<sub>2</sub> + 4H<sub>2</sub>O\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct conversions of pressure **AND **temperature **AND **volume to SI units\n> \n> 1 mark for correctly calculating the *M*<sub>r</sub> of **X** as 44.0\n> \n> 1 mark for deducing that **X** is C<sub>3</sub>H<sub>8</sub>\n> \n> 1 mark for the correctly balanced combustion equation\n> \n> Allow equation using multiples or fractions of coefficients.\n> \n> Allow error carried forward from the identification of **X** if the combustion equation is correctly balanced for that formula.\n\n> **[exam-tip]**\n> Substituting *n* = *m*/*M*<sub>r</sub> into *pV* = *nRT* gives *M*<sub>r</sub> = *mRT*/*pV*, letting you calculate *M*<sub>r</sub> in one step. *M*<sub>r</sub> = 44 corresponds to C<sub>3</sub>H<sub>8</sub> (propane), the third member of the alkane series. For the combustion equation: 3 carbons give 3CO<sub>2</sub>, 8 hydrogens give 4H<sub>2</sub>O — giving 10 oxygens on the right, so 5O<sub>2</sub> on the left.",
+     "equations": [
+      {
+       "latex": "\\frac{mRT}{pV}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>R</mi><mi>T</mi></mrow><mrow><mi>p</mi><mi>V</mi></mrow></mfrac></math>",
+       "alt": "\\frac{mRT}{pV}"
+      },
+      {
+       "latex": "\\frac{10.84\\times8.31\\times293}{300000\\times2.00\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>.</mo><mn>84</mn><mo>&#xD7;</mo><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>293</mn></mrow><mrow><mn>300000</mn><mo>&#xD7;</mo><mn>2</mn><mo>.</mo><mn>00</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></math>",
+       "alt": "\\frac{10.84 \\times 8.31 \\times 293}{300000 \\times 2.00 \\times 10^{-3}}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BySwZSbXBWxCRDns",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_MDswDgPwC3SMxdXF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G57NmSHkVfNqRmDK"
+     ],
+     "part_tier": null,
+     "problem_md": "Phosphine, PH<sub>3</sub>, is a gas formed by heating phosphorous acid, H<sub>3</sub>PO<sub>3</sub>, in the absence of air.\n\n4H<sub>3</sub>PO<sub>3</sub> (s) → PH<sub>3</sub> (g) + 3H<sub>3</sub>PO<sub>4</sub> (s)\n\nState the shape and bond angle in PH<sub>3</sub> (g).",
+     "solution_md": "> **[mark-scheme]**\n> For PH<sub>3</sub> (g):\n> \n> - Pyramidal / trigonal pyramidal **[1 mark]**\n> - 107 ° **[1 mark]**\n\n> **[exam-tip]**\n> PH<sub>3</sub> has three P-H bonding pairs and one lone pair on the phosphorus atom. The lone pair repels bonding pairs more strongly than bonding pairs repel each other, compressing the H-P-H bond angle to approximately 107 ° from the tetrahedral angle of 109.5 °. This gives PH<sub>3</sub> its characteristic pyramidal shape."
+    },
+    {
+     "id": "qstnprt_MMPbCcdFkVwB3k4r",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPhosphine, PH~3~, is a gas formed by heating phosphorous acid, H~3~PO~3~, in the absence of air.\n\n4H~3~PO~3~ (s) → PH~3~ (g) + 3H~3~PO~4~ (s)\n\n3.45 x 10<sup>-2</sup> mol of H<sub>3</sub>PO<sub>3</sub> is completely decomposed at a pressure of 100 kPa and 210 °C.\n\nCalculate the volume occupied, in cm<sup>3</sup>, by the phosphine gas produced.\n\nShow your working.",
+     "solution_md": "To calculate the volume, in cm<sup>3</sup>, of phosphine gas produced:\n\n- Determine the moles of PH<sub>3</sub> produced using the molar ratio (4 H<sub>3</sub>PO<sub>3</sub> : 1 PH<sub>3</sub>):\n\n*n*(PH<sub>3</sub>) = $\\frac{3.45\\times10^{-2}}{4}$ = 8.625 x 10<sup>-3</sup> mol **[1 mark]**\n\n- Convert temperature and pressure to SI units:\n\n*T* = 210 + 273 = 483 K\n\n*p* = 100 x 1000 = 100 000 Pa\n\n**[1 mark]**\n\n- Rearrange *pV* = *nRT* for *V* and calculate:\n\n*V* = $\\frac{nRT}{p}$\n\n*V* = $\\frac{8.625\\times10^{-3}\\times8.31\\times483}{100000}$ = 3.46 x 10<sup>-4</sup> m<sup>3</sup>\n\n*V* = 3.46 x 10<sup>-4</sup> x 10<sup>6</sup> = **346 cm**<sup>**3**</sup>\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward from the moles of PH<sub>3</sub> if the method is correct.\n\n> **[exam-tip]**\n> Always convert temperature to kelvin (K) and pressure to pascals (Pa) before substituting into *pV* = *nRT*. A common error is leaving pressure in kPa, which gives a volume in dm<sup>3</sup> rather than m<sup>3</sup>. Once *V* is in m<sup>3</sup>, multiply by 10<sup>6</sup> to convert to cm<sup>3</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{3.45\\times10^{-2}}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>45</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>2</mn></mrow></msup></mrow><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{3.45 \\times 10^{-2}}{4}"
+      },
+      {
+       "latex": "\\frac{nRT}{p}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mi>R</mi><mi>T</mi></mrow><mi>p</mi></mfrac></math>",
+       "alt": "\\frac{nRT}{p}"
+      },
+      {
+       "latex": "\\frac{8.625\\times10^{-3}\\times8.31\\times483}{100000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>.</mo><mn>625</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>&#xD7;</mo><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>483</mn></mrow><mn>100000</mn></mfrac></math>",
+       "alt": "\\frac{8.625 \\times 10^{-3} \\times 8.31 \\times 483}{100000}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_6XyxRvkmK73kN56g",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "1.85 g of white phosphorus was reacted with 75.00 cm<sup>3</sup> of 1.25 mol dm<sup>-3</sup> sodium hydroxide solution to make phosphine.\n\nP<sub>4</sub> (s) + 3OH<sup>-</sup> (aq) + 3H<sub>2</sub>O (l) → PH<sub>3</sub> (g) + 3H<sub>2</sub>PO<sub>2</sub><sup>-</sup> (aq)\n\nShow by calculation which reagent is in excess.\n\nShow your working.",
+     "solution_md": "To show by calculation which reagent is in excess:\n\n- Calculate the moles of each reactant:\n\n*n*(P<sub>4</sub>) = $\\frac{1.85}{124.0}$\n\n*n*(P<sub>4</sub>) = 0.01492 mol\n\n*n*(OH<sup>-</sup>) = 1.25 x 0.07500\n\n*n*(OH<sup>-</sup>) = 0.09375 mol\n\n**[1 mark]**\n\n- Apply the molar ratio (1 P<sub>4</sub> : 3 OH<sup>-</sup>) to find OH<sup>-</sup> required:\n\nOH<sup>-</sup> required = 0.01492 x 3\n\nOH<sup>-</sup> required = 0.04476 mol\n\n**[1 mark]**\n\n- Since 0.04476 mol OH<sup>-</sup> is required but 0.09375 mol is available:\n\n**Final answer:** **NaOH / OH**<sup>**-**</sup>** is in excess**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correctly calculating both moles of reactant\n> \n> 1 mark for correctly calculating the moles of OH<sup>-</sup> required\n> \n> 1 mark for stating that NaOH / OH<sup>-</sup> is in excess\n> \n> Allow error carried forward if both moles are calculated and the comparison method is correct.\n> \n> Alternative comparison: 0.09375 ÷ 3 = 0.03125 mol P<sub>4</sub> would be required to react with all the OH<sup>-</sup>; since only 0.01492 mol P<sub>4</sub> is available, NaOH / OH<sup>-</sup> is in excess.\n\n> **[exam-tip]**\n> To identify which reagent is in excess, calculate the moles of each reactant and use the molar ratio from the equation to compare.\n> \n> Either approach works: calculate how much OH<sup>-</sup> is needed for all the P<sub>4</sub>, or how much P<sub>4</sub> is needed for all the OH<sup>-</sup>.\n> \n> The excess reagent is whichever has more moles available than required.",
+     "equations": [
+      {
+       "latex": "\\frac{1.85}{124.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>85</mn></mrow><mrow><mn>124</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.85}{124.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_4t2Yh9mR7FVSDvfr",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n1.85 g of white phosphorus was reacted with 75.00 cm^3^ of 1.25 mol dm^-3^ sodium hydroxide solution to make phosphine.\n\nP~4~ (s) + 3OH^-^ (aq) + 3H~2~O (l) → PH~3~ (g) + 3H~2~PO~2~^-^ (aq)\n\nn(P~4~) = 1.85/124.0 = 0.01492 mol\n\nUse the information in part (c) to calculate the volume, in cm<sup>3</sup>, of phosphine that was produced at room conditions. Give your answer to 3 significant figures.",
+     "solution_md": "To calculate the volume, in cm<sup>3</sup>, of phosphine produced at room conditions:\n\n- Moles of PH<sub>3</sub> = moles of P<sub>4</sub> = 0.01492 mol (from part (c))\n\n- Calculate the volume using the molar volume at room conditions (24 000 cm<sup>3</sup> mol<sup>-1</sup>):\n\n*V* = *n* x 24 000\n\n*V* = 0.01492 x 24 000 = 358.1 cm<sup>3</sup>\n\n*V* = **358 cm**<sup>**3**</sup>** (to 3 s.f.)** **[1 mark]**\n\n> **[mark-scheme]**\n> Answers must be given to 3 significant figures\n> \n> Allow error carried forward from part (c) if the method is correct.\n\n> **[exam-tip]**\n> At room conditions, 1 mole of any ideal gas occupies 24.0 dm<sup>3</sup> or equivalently 24 000 cm<sup>3</sup>. Using 24 000 cm<sup>3</sup> mol<sup>-1</sup> directly avoids needing to convert the final answer from dm<sup>3</sup> to cm<sup>3</sup>."
+    }
+   ]
+  },
+  {
+   "id": "qstn_6TDfwQz84ZYRDVqN",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_q3dSNcHYTxfgVgJF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f"
+     ],
+     "part_tier": null,
+     "problem_md": "The kinetic theory of gases is used to explain the large scale (macroscopic) properties of gases by considering how individual molecules behave.\n\nState **two** basic assumptions of the kinetic theory as applied to an ideal gas.",
+     "solution_md": "> **[mark-scheme]**\n> Two basic assumptions of the kinetic theory applied to an ideal gas:\n> \n> Any **two** from (1 mark for each point):\n> \n> - Gas molecules have no / negligible volume\n> - There are no intermolecular forces of attraction between gas molecules\n> - Collisions between gas molecules are perfectly elastic / no kinetic energy is lost in collisions\n> - Gas molecules are in constant random motion\n> - The temperature of the gas is proportional to the average kinetic energy of the molecules\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> This is a commonly tested question. The two core assumptions stated in the 9701 syllabus are:\n> \n> - Gas molecules have negligible / zero volume\n> - There are no intermolecular forces of attraction between gas molecules\n> \n> Other assumptions that are also accepted include: collisions are perfectly elastic (no kinetic energy is lost), molecules are in constant random motion, and temperature is proportional to the average kinetic energy of the molecules. You may be asked to state more than two in some questions, so it is worth learning the full list."
+    },
+    {
+     "id": "qstnprt_3Xr4bznw2NrgWtSz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **conditions under which the behaviour of a real gas approaches that of an ideal gas.",
+     "solution_md": "> **[mark-scheme]**\n> Two conditions under which the behaviour of a real gas approaches that of an ideal gas:\n> \n> - High temperature **[1 mark]**\n> - Low pressure **[1 mark]**\n\n> **[exam-tip]**\n> At high temperature and low pressure, real gases behave more like ideal gases because both ideal gas assumptions are more closely satisfied:\n> \n> - High temperature: molecules have more kinetic energy, move faster, and are further apart. Intermolecular forces and molecular volume become negligible relative to the total volume.\n> - Low pressure: molecules are further apart, so intermolecular forces are negligible and the volume of the molecules is negligible compared to the total volume of the gas."
+    },
+    {
+     "id": "qstnprt_J2vqqZFrWxW9PCxM",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f"
+     ],
+     "part_tier": null,
+     "problem_md": "Deduce the order of decreasing ideal gas behaviour for the following gases.\n\nammonia, neon, nitrogen\n\nmost ideal .............................. > .............................. > .............................. least ideal\n\nExplain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The order of decreasing ideal gas behaviour is:\n> \n> - Neon, nitrogen, ammonia (in decreasing order of ideal behaviour) **[1 mark]**\n> - Nitrogen has stronger London dispersion forces / instantaneous dipole-induced dipole forces than neon (due to more electrons / greater polarisability) **[1 mark]**\n> - Ammonia has hydrogen bonding in addition to London dispersion forces, which are stronger than London forces alone **[1 mark]**\n\n> **[exam-tip]**\n> The closer a gas is to ideal behaviour, the weaker its intermolecular forces and the smaller its molecular volume:\n> \n> - Neon:\n> \n>   - Mono-atomic, 10 electrons, very weak London forces\n>   - Most ideal\n> - Nitrogen:\n> \n>   - Diatomic (N<sub>2</sub>), 14 electrons, slightly stronger London forces than neon, no permanent dipole\n> - Ammonia:\n> \n>   - Hydrogen bonding (N–H...N) in addition to London forces, strongest intermolecular forces\n>   - Least ideal\n> \n> You must be specific about the type of intermolecular force. Using the generic term \"van der Waals' forces\" without naming the specific type may not gain the mark for comparisons involving London forces."
+    },
+    {
+     "id": "qstnprt_MVXS3rMzK8G4nKwY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain, in terms of intermolecular forces and kinetic energy, why a liquid changes into a gas when its temperature is increased.",
+     "solution_md": "> **[mark-scheme]**\n> A liquid changes into a gas when temperature is increased because:\n> \n> - The kinetic energy of the molecules increases **[1 mark]**\n> - (The molecules have enough energy so that) the intermolecular forces are overcome / broken **[1 mark]**\n\n> **[exam-tip]**\n> The two marks correspond to the two frameworks named in the question:\n> \n> - Kinetic energy: increasing temperature means molecules have more kinetic energy and move faster\n> - Intermolecular forces: when the kinetic energy is sufficient to overcome the intermolecular forces of attraction between molecules, they separate and enter the gaseous state\n> \n> Note that intermolecular forces are not permanently destroyed in the gas phase. They still act at close range, but molecules have enough energy to escape them."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3xzSwCnHQgjTF5Dt",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_J4Qy8KMFyFwPnBTJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hwSNF3DCS6DXZjDz"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about ideal gases.\n\ni) State three assumptions of the kinetic theory applied to an ideal gas.\n\n[3]\n\nii) Explain why a gas exerts a pressure.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) Three assumptions of the kinetic theory applied to an ideal gas are:\n> \n> - Gas molecules have negligible volume (compared to the volume of the container) **[1 mark]**\n> - There are no intermolecular forces of attraction between the gas molecules **[1 mark]**\n> - Collisions between gas molecules are perfectly elastic / no kinetic energy is lost in collisions **[1 mark]**\n> \n> ii) A gas exerts a pressure because:\n> \n> - Gas molecules collide with the walls of the container **[1 mark]**\n\n> **[exam-tip]**\n> For part i), the two core assumptions of ideal gas behaviour are:\n> \n> - The volume of the gas molecules is negligible compared to the total volume of the gas\n> - There are no intermolecular forces of attraction between the gas molecules\n> \n> A third commonly tested assumption is that collisions between molecules are perfectly elastic, meaning no kinetic energy is lost during collisions.\n> \n> A common error is to describe physical properties of gases (such as \"particles are far apart\" or \"particles move randomly\") rather than the specific assumptions of ideal behaviour. These descriptions may be true of all gases, but they are not kinetic theory assumptions about ideal gases.\n> \n> For part ii), make sure you specify that collisions are with the walls of the container. Stating \"gas molecules collide with each other\" does not gain the mark."
+    },
+    {
+     "id": "qstnprt_TpbnP2dX7spVbWFp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hwSNF3DCS6DXZjDz"
+     ],
+     "part_tier": null,
+     "problem_md": "As the volume of a gas is changed, the pressure of the gas changes. A graph of the volume of gas against $\\frac{1}{\\mathrm{pressure}}$ at constant temperature is shown in Fig. 1.1.\n\n![Graph of volume of gas (y-axis) against 1/pressure (x-axis) at constant temperature, showing a straight line through the origin](assets/004-graph-of-volume-of-gas-y-axis-against-1-pressure.png)\n\n**Fig. 1.1**\n\nState the relationship between the volume of gas and pressure at constant temperature shown by the graph in Fig. 1.1.",
+     "solution_md": "> **[mark-scheme]**\n> The relationship between the volume of gas and pressure at constant temperature shown in Fig. 1.1 is:\n> \n> - Inversely proportional **[1 mark]**\n\n> **[exam-tip]**\n> A straight line on a graph shows that the two plotted variables are directly proportional to each other.\n> \n> Since Fig. 1.1 plots volume against 1/pressure, the straight line shows that volume is directly proportional to 1/pressure. This means volume is inversely proportional to pressure.\n> \n> This relationship is Boyle's Law: at constant temperature, the pressure of an ideal gas is inversely proportional to its volume (*pV* = constant). If volume had been plotted directly against pressure, the graph would show a curve (a rectangular hyperbola), not a straight line.",
+     "equations": [
+      {
+       "latex": "\\frac{1}{\\mathrm{pressure}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mi>pressure</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1 over pressure"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qfJDWG8YQKXP4qyh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hwSNF3DCS6DXZjDz"
+     ],
+     "part_tier": null,
+     "problem_md": "Changing the temperature of a gas, at constant pressure, will affect the volume of the gas.\n\nSketch a graph on the axes in Fig. 1.2 to show the relationship between the temperature and the volume of the gas.\n\n![Blank graph with volume of gas on the y-axis and temperature on the x-axis](assets/005-blank-graph-with-volume-of-gas-on-the-y-axis-and.png)\n\n**Fig. 1.2**",
+     "solution_md": "The completed sketch is:\n\n![Graph of volume of gas (y-axis) against temperature (x-axis) showing a straight line through the origin with a positive gradient](assets/006-graph-of-volume-of-gas-y-axis-against-temperatur.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a straight line with a positive gradient\n> \n> 1 mark for the line starting at the origin\n\n> **[exam-tip]**\n> This graph demonstrates Charles's Law: at constant pressure, the volume of an ideal gas is directly proportional to its absolute temperature (*V* ∝ *T*).\n> \n> A directly proportional relationship is shown by a straight line starting from the origin. If your line has a positive gradient but does not start at the origin, this only shows a positive correlation, not direct proportionality.\n> \n> Temperature must be in kelvin (K) for this relationship to hold. If the x-axis were labelled in degrees Celsius rather than kelvin, the line would not pass through the origin."
+    }
+   ]
+  },
+  {
+   "id": "qstn_34NTc3yF8XXFv6b9",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_3Gn4rCZmCsVMWMv8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f",
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "State two basic assumptions of the kinetic theory as applied to an ideal gas.",
+     "solution_md": "> **[mark-scheme]**\n> Two basic assumptions of the kinetic theory applied to an ideal gas:\n> \n> Any **two** from (1 mark for each point):\n> \n> - Gas molecules have negligible / zero volume\n> - There are no intermolecular forces of attraction between gas molecules\n> - Collisions between gas molecules are perfectly elastic / no kinetic energy is lost in collisions\n> - Gas molecules are in constant random motion\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> The two core assumptions you need to know are:\n> \n> - Gas molecules have negligible volume (compared to the volume of the container)\n> - There are no intermolecular forces of attraction between gas molecules\n> \n> These two assumptions are explicitly stated in the 9701 syllabus. Other assumptions that are also accepted include: collisions are perfectly elastic (no kinetic energy is lost), and gas molecules are in constant random motion.\n> \n> Note that these are idealisations — no real gas satisfies them exactly, which is why real gases deviate from ideal behaviour at high pressures and low temperatures."
+    },
+    {
+     "id": "qstnprt_phscPr6nhTDgqzqp",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sFJ6ZPXvkT79fC2f",
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon dioxide does not behave as an ideal gas.\n\nSuggest **one** reason why not.",
+     "solution_md": "> **[mark-scheme]**\n> One reason why CO<sub>2</sub> does not behave as an ideal gas:\n> \n> - There are intermolecular forces of attraction between CO<sub>2</sub> molecules\n> **OR**\n> CO<sub>2</sub> molecules have non-negligible volume **[1 mark]**\n\n> **[exam-tip]**\n> For a gas to behave ideally, two conditions must hold: the molecules must have zero volume, and there must be no intermolecular forces between them. CO<sub>2</sub> fails both conditions:\n> \n> - CO<sub>2</sub> molecules have a finite (non-negligible) volume\n> - CO<sub>2</sub> molecules experience London dispersion forces\n> \n> Either of these reasons is worth the mark. You do not need to name the specific type of intermolecular force for this question, but it is good practice to do so."
+    },
+    {
+     "id": "qstnprt_ssJcbxtmrK3pd5td",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvVs8rP9WBKRWmt8"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why CO<sub>2</sub> is a gas at room temperature.",
+     "solution_md": "> **[mark-scheme]**\n> CO<sub>2</sub> is a gas at room temperature because:\n> \n> - CO<sub>2</sub> has weak London dispersion forces / instantaneous dipole-induced dipole forces / van der Waals' forces between molecules **[1 mark]**\n> - These forces require little energy to overcome / CO<sub>2</sub> has a low boiling point (below room temperature) **[1 mark]**\n\n> **[exam-tip]**\n> A complete answer needs two steps:\n> \n> 1. Identify the type of intermolecular force (London dispersion forces / van der Waals' forces between CO<sub>2</sub> molecules)\n> 2. Explain why this leads to a gaseous state (these forces are weak, so little thermal energy is needed to overcome them, giving CO<sub>2</sub> a low boiling point below room temperature)\n> \n> Simply naming the intermolecular force without explaining why it leads to a gaseous state will only gain 1 mark out of 2."
+    },
+    {
+     "id": "qstnprt_M9vsxjkrrHdp8xwJ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hwSNF3DCS6DXZjDz"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon dioxide can be used to inflate life jackets.\n\nState and explain the effect of decreasing the temperature of the carbon dioxide on the pressure inside a life jacket. Assume the volume remains constant.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of decreasing the temperature of the carbon dioxide on the pressure inside the life jacket is:\n> \n> - The pressure inside the life jacket decreases **[1 mark]**\n> - The molecules have less / lower kinetic energy **[1 mark]**\n> - There are fewer collisions between the molecules and the walls of the life jacket / the collisions occur with less force **[1 mark]**\n\n> **[exam-tip]**\n> This question asks you to both state the outcome (pressure decreases) and explain it using kinetic theory. Make sure you cover both:\n> \n> - State: the pressure decreases\n> - Explain: temperature is related to the average kinetic energy of the molecules. Lower temperature means less kinetic energy, so molecules move more slowly and collide with the walls less frequently and with less force, resulting in lower pressure.\n> \n> Always refer to collisions with the walls of the container (the life jacket) when explaining pressure as collisions between molecules do not contribute to pressure."
     }
    ]
   }

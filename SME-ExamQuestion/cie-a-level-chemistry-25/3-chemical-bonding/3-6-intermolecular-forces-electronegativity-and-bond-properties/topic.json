@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:51:38Z",
+ "generated_utc": "2026-10-26T14:55:32Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -63,18 +63,46 @@
    "question_count": 9,
    "questions_embedded": 9,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/3-chemical-bonding/3-6-intermolecular-forces-electronegativity-and-bond-properties/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_6rPC2Tf5DNqwK3hV",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/3-chemical-bonding/3-6-intermolecular-forces-electronegativity-and-bond-properties/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 9,
+  "questions_embedded": 14,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2022/04/8.png": "001-serine.png",
-   "https://cdn.savemyexams.com/uploads/2023/05/1-3-h-1.JPG": "002-reaction-scheme-showing-propanone-reacting-with-.jpg"
+   "https://cdn.savemyexams.com/uploads/2023/05/1-3-h-1.JPG": "002-reaction-scheme-showing-propanone-reacting-with-.jpg",
+   "https://cdn.savemyexams.com/uploads/2026/06/30458-structural-formulae-water-methanol-dimethyl-ether.png": "003-three-structural-formulas-water-o-bonded-to-two-.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/q1-3-2ci.PNG": "004-q1-3-2ci.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/q1-3-2cii.PNG": "005-q1-3-2cii.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/58670-butanol-displayed-formula-with-lone-pairs.png": "006-structural-formula-of-an-alcohol-four-carbon-cha.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/63730-butanal-displayed-formula-with-lone-pairs.png": "007-structural-formula-of-an-aldehyde-four-carbon-ch.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/23446-hydrogen-bonding-between-ethanol-and-water.png": "008-diagram-of-ethanol-molecules-showing-partial-cha.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/ammonia-dot-and-cross.png": "009-lewis-structure-of-ammonia-showing-nitrogen-with.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/methane-dot-and-cross.png": "010-dot-and-cross-diagram-of-a-methane-molecule-show.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/nh3-and-h2o-h-bonding.png": "011-diagram-of-a-hydrogen-bond-between-water-and-amm.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/nh3-and-h2o-h-bonding-2.png": "012-diagram-of-a-hydrogen-bond-between-ammonia-and-w.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/methanol-hydrogen-bonding.png": "013-diagram-of-two-methanol-molecules-showing-partia.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/56775-incomplete-electron-shell-diagram-of-methanol.png": "014-incomplete-electron-shell-diagram-of-methanol-sh.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/26822-complete-electron-shell-diagram-of-methanol.png": "015-complete-electron-shell-diagram-of-methanol-show.png"
   }
  },
  "questions": [
@@ -556,6 +584,428 @@
        "text_md": "CH<sub>3</sub>OH"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xYsWXP2NrV5dz8XC",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_qVy5D9ry6wHchRSy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G57NmSHkVfNqRmDK",
+      "spcpt_FCG6wCWXhVz8jMdM",
+      "spcpt_cbGwbCF5MyQYBRf5"
+     ],
+     "part_tier": null,
+     "problem_md": "The structural formulae of water, methanol and methoxymethane, CH<sub>3</sub>OCH<sub>3</sub>, are given below.\n\n![Three structural formulas: water (O bonded to two H), methanol (O bonded to CH₃ and H), and dimethyl ether (O bonded to two CH₃ groups), left to right](assets/003-three-structural-formulas-water-o-bonded-to-two-.png)\n\ni) State the number of lone pairs of electrons around the oxygen atom in a molecule of methoxymethane.\n\n[1]\n\nii) Suggest a value for the C-O-C bond angle in methoxymethane.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The number of lone pairs of electrons around the oxygen atom in methoxymethane:\n> \n> - 2 **[1 mark]**\n> \n> ii) A value for the C-O-C bond angle in methoxymethane:\n> \n> - Between 104° and 105° **[1 mark]**\n\n> **[exam-tip]**\n> The oxygen atom in methoxymethane has two bonding pairs (one to each carbon) and two lone pairs, giving four electron domains. The question asks for the number of lone pairs, not the total number of electrons.\n> \n> The four electron domains give a tetrahedral electron geometry, but the lone pairs repel the bonding pairs more strongly, compressing the C-O-C bond angle below the ideal tetrahedral value of 109.5° to approximately 104-105°. This is the same reasoning as for water (H-O-H angle ~104.5°)."
+    },
+    {
+     "id": "qstnprt_fyYhK4gyw6WpFFCK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_txt4gPnzhw6M2BTz",
+      "spcpt_cfW8F5MnhRBc3BcZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The physical properties of covalent compounds depend on the intermolecular forces between their molecules.\n\n|   | Type of intermolecular force |\n|---|---|\n| **A** | Permanent dipole-permanent dipole (pd-pd) forces |\n| **B** | Instantaneous dipole-induced dipole (id-id) forces |\n| **C** | Hydrogen bonding |\n\nUsing the letters A, B, or C, state the strongest intermolecular force present in each of the following compounds.\n\n| Compound | Formula | Strongest intermolecular force |\n|---|---|---|\n| ethanal | CH<sub>3</sub>CHO |   |\n| ethanol | CH<sub>3</sub>CH<sub>2</sub>OH |   |\n| methoxymethane | CH<sub>3</sub>OCH<sub>3</sub> |   |\n| 2-methylpropane | (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>3</sub> |   |",
+     "solution_md": "The strongest intermolecular force in each compound:\n\n| Compound | Formula | Strongest intermolecular force |\n|---|---|---|\n| ethanal | CH<sub>3</sub>CHO | **Final answer:** **A** |\n| ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | **Final answer:** **C** |\n| methoxymethane | CH<sub>3</sub>OCH<sub>3</sub> | **Final answer:** **A** |\n| 2-methylpropane | (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>3</sub> | **Final answer:** **B** |\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for ethanal = A (pd-pd forces)\n> \n> 1 mark for ethanol = C (hydrogen bonding)\n> \n> 1 mark for methoxymethane = A (pd-pd forces)\n> \n> 1 mark for 2-methylpropane = B (id-id forces)\n\n> **[exam-tip]**\n> The order of strength is: C (hydrogen bonding) > A (pd-pd forces) > B (id-id forces). Identify the strongest force that can be present in each molecule.\n> \n> Hydrogen bonding (C) requires an O-H, N-H, or F-H bond as the donor. Ethanol has an -OH group, so C applies.\n> \n> Permanent dipole-permanent dipole forces (A) require a net molecular dipole. Ethanal has a polar C=O bond; the dipoles do not cancel, giving pd-pd forces. Methoxymethane has two polar C-O bonds in a bent arrangement; the dipoles do not fully cancel, so pd-pd forces apply. Neither has an O-H bond, so hydrogen bonding is not possible.\n> \n> 2-methylpropane is a non-polar hydrocarbon. Only id-id forces (B) are present."
+    },
+    {
+     "id": "qstnprt_dmSbdDfjwSB7D5Ht",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "Methanol and water are completely soluble in each other.\n\ni) Name the strongest type of intermolecular force between a molecule of methanol and a molecule of water.\n\n[1]\n\nii) Draw a diagram to show this intermolecular force between one molecule of methanol and one molecule of water. Include all relevant dipoles and lone pairs of electrons.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) The strongest type of intermolecular force between methanol and water:\n> \n> - Hydrogen bonding **[1 mark]**\n\nii) A diagram showing the hydrogen bond between one molecule of methanol and one molecule of water is:\n\n![q1-3-2ci](assets/004-q1-3-2ci.png)\n\n**OR**\n\n![q1-3-2cii](assets/005-q1-3-2cii.png)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct dipoles (δ- on O and δ+ on H) shown on an O-H bond\n> \n> 1 mark for lone pair on the O atom of CH<sub>3</sub>OH **OR** H<sub>2</sub>O clearly shown in the hydrogen bond\n> \n> 1 mark for hydrogen bond shown as a dotted line between a lone pair on an O atom and the H of an O-H bond\n\n> **[exam-tip]**\n> These hydrogen bonding diagrams between different molecules come up frequently. Practise drawing them with both molecules labelled, showing: δ+ and δ- on the relevant O-H bonds, the lone pairs on the oxygen atoms, and the hydrogen bond as a dashed line between the δ- oxygen and the δ+ hydrogen of the other molecule."
+    },
+    {
+     "id": "qstnprt_kwJ6TrC9VQ8sDWRQ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethoxyethane, C<sub>2</sub>H<sub>5</sub>OC<sub>2</sub>H<sub>5</sub>, and water are immiscible.\n\nExplain why ethoxyethane does not dissolve in water.",
+     "solution_md": "> **[mark-scheme]**\n> Ethoxyethane does not dissolve in water because:\n> \n> - Hydrogen bonds exist between H<sub>2</sub>O molecules **[1 mark]**\n> - Ethoxyethane has no O-H bonds and cannot form hydrogen bonds with water / the interactions between ethoxyethane and water are insufficient to compensate for breaking water-water hydrogen bonds **[1 mark]**\n\n> **[exam-tip]**\n> To dissolve in water, hydrogen bonds between water molecules must be broken and new intermolecular interactions must form between the solute and water. If these new interactions are not strong enough to compensate, the substance is immiscible.\n> \n> Ethoxyethane has a lone pair on oxygen, so it can accept a hydrogen bond from water. However, it has no O-H bond, so it cannot donate hydrogen bonds. The large non-polar C<sub>2</sub>H<sub>5</sub> groups also disrupt the water hydrogen bonding network. The net interaction between ethoxyethane and water is insufficient to overcome the extensive water-water hydrogen bonding."
+    }
+   ]
+  },
+  {
+   "id": "qstn_WKj8rhJRj9zxDDXd",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_PZZrdjqn7cqyf8X4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why butan-1-ol has a higher boiling point than butanal.",
+     "solution_md": "> **[mark-scheme]**\n> Butan-1-ol has a higher boiling point than butanal because:\n> \n> - Butan-1-ol contains hydrogen bonding\n> **AND**\n> Butanal contains permanent dipole-permanent dipole (pd-pd) forces **[1 mark]**\n> - Hydrogen bonding is stronger than pd-pd forces, requiring more energy to overcome **[1 mark]**\n\n> **[exam-tip]**\n> It can be helpful to draw out the structures of both molecules to identify the relevant functional groups.\n> \n> Butan-1-ol:\n> \n> ![Structural formula of an alcohol: four-carbon chain with single bonds, terminal carbon attached to an OH group showing two lone electron pairs](assets/006-structural-formula-of-an-alcohol-four-carbon-cha.png)\n> \n> Butan-1-ol has an -OH group: the O-H bond is polar (δ- on O, δ+ on H) and oxygen has lone pairs, allowing hydrogen bonding between butan-1-ol molecules.\n> \n> Butanal:\n> \n> ![Structural formula of an aldehyde: four-carbon chain with single bonds, terminal aldehyde group with the oxygen showing two lone electron pairs](assets/007-structural-formula-of-an-aldehyde-four-carbon-ch.png)\n> \n> Butanal has a C=O group but no O-H bond, so it cannot donate hydrogen bonds. Its strongest intermolecular force is permanent dipole-permanent dipole (pd-pd) forces from the polar C=O bond.\n> \n> Hydrogen bonding is stronger than pd-pd forces, so butan-1-ol requires more energy to overcome its intermolecular forces and has a higher boiling point."
+    },
+    {
+     "id": "qstnprt_4y9fJPTyy3JhZCGD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cfW8F5MnhRBc3BcZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethane, C<sub>2</sub>H<sub>6</sub>, and disilane, Si<sub>2</sub>H<sub>6</sub>, are hydrides of Group 14 elements.\n\nExplain why disilane has a higher boiling point than ethane.",
+     "solution_md": "> **[mark-scheme]**\n> Disilane has a higher boiling point than ethane because:\n> \n> - Disilane has stronger instantaneous dipole-induced dipole (id-id) / London dispersion forces **[1 mark]**\n> - (Due to) more electrons\n> **OR**\n> A stronger instantaneous dipole **[1 mark]**\n\n> **[exam-tip]**\n> Both ethane and disilane are non-polar molecules, so the only intermolecular forces present are instantaneous dipole-induced dipole (id-id) forces, also called London dispersion forces.\n> \n> The strength of id-id forces depends on how easily the electron cloud can be polarised, which in turn depends on the number of electrons. Si<sub>2</sub>H<sub>6</sub> contains more electrons than C<sub>2</sub>H<sub>6</sub> (silicon is one period below carbon and has more electron shells), giving it a more polarisable electron cloud. This produces stronger id-id forces and a higher boiling point."
+    },
+    {
+     "id": "qstnprt_wcnYq29brp9pwCnY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kXRXDrTrjgyqkQnj"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanol is soluble in water, whereas ethane is insoluble.\n\nExplain this difference.",
+     "solution_md": "> **[mark-scheme]**\n> Ethanol is soluble but ethane is insoluble because:\n> \n> - Ethane has only non-polar C-H bonds / no polar bonds **[1 mark]**\n> - Ethanol forms hydrogen bonds with water (due to the -OH group) **[1 mark]**\n> - The energy released forming ethanol-water hydrogen bonds is sufficient to overcome the hydrogen bonds between water molecules / ethanol-water interactions compensate for breaking water-water hydrogen bonds **[1 mark]**\n\n> **[exam-tip]**\n> Ethane contains only C-H bonds, which are non-polar due to the small electronegativity difference between carbon and hydrogen. Non-polar substances cannot form hydrogen bonds with water, so the energy released when ethane interacts with water (only id-id forces form) is insufficient to break the water-water hydrogen bonds.\n> \n> Ethanol has an -OH group with a highly electronegative oxygen bonded to hydrogen. This allows ethanol to form hydrogen bonds with water, both as a donor (via O-H) and as an acceptor (via the lone pair on O).\n> \n> ![Diagram of ethanol molecules showing partial charges and a dotted hydrogen bond between the oxygen atom and a hydrogen on a neighbouring water molecule](assets/008-diagram-of-ethanol-molecules-showing-partial-cha.png)\n> \n> The energy released by these new hydrogen bonds is sufficient to overcome the water-water hydrogen bonds, so ethanol dissolves."
+    }
+   ]
+  },
+  {
+   "id": "qstn_twFgxzjWF2RKVpVW",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_X69bz8jMn94c8yPq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G57NmSHkVfNqRmDK",
+      "spcpt_cbGwbCF5MyQYBRf5"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia, NH<sub>3</sub>, and methane, CH<sub>4</sub>, are simple molecules.\n\nComplete Table 1.1 to show the dot-and-cross diagram and the shape of a molecule of each compound. Show outer shell electrons only.\n\n|   | NH<sub>3</sub> | CH<sub>4</sub> |\n|---|---|---|\n| dot-and-cross diagram |   |   |\n| shape of molecule |   |   |",
+     "solution_md": "The completed table is:\n\n|   | NH<sub>3</sub> | CH<sub>4</sub> |\n|---|---|---|\n| dot-and-cross diagram | ![Lewis structure of ammonia showing nitrogen with a lone pair and single covalent bonds to three hydrogen atoms arranged in a trigonal pyramidal shape](assets/009-lewis-structure-of-ammonia-showing-nitrogen-with.png) | ![Dot‑and‑cross diagram of a methane molecule showing carbon in the centre sharing electron pairs with four surrounding hydrogen atoms](assets/010-dot-and-cross-diagram-of-a-methane-molecule-show.png) |\n| shape of molecule | **Final answer:** **Pyramidal / trigonal pyramidal** | **Final answer:** **Tetrahedral** |\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct dot-and-cross diagram of NH<sub>3</sub>\n> \n> 1 mark for correct dot-and-cross diagram of CH<sub>4</sub>\n> \n> 1 mark for pyramidal / trigonal pyramidal for NH<sub>3</sub>\n> \n> 1 mark for tetrahedral for CH<sub>4</sub>\n\n> **[exam-tip]**\n> Both compounds form covalent bonds by sharing pairs of electrons. After drawing your diagram, count around each atom to check it has a full outer shell: 8 electrons for nitrogen and carbon, 2 electrons for each hydrogen.\n> \n> Applying VSEPR theory: NH<sub>3</sub> has one lone pair and three bonding pairs on nitrogen. The lone pair repels bonding pairs more strongly, compressing the H-N-H angle to 107° and giving a pyramidal shape. CH<sub>4</sub> has four bonding pairs and no lone pairs, which repel equally to give a tetrahedral shape with H-C-H angles of 109.5°."
+    },
+    {
+     "id": "qstnprt_25nVBNCp8H57T6r6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw",
+      "spcpt_kXRXDrTrjgyqkQnj"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia is a polar molecule whereas methane is non-polar.\n\ni) Explain what is meant by the term *bond polarity*, using the N-H bond as an example.\n\n[2]\n\nii) Explain why the ammonia molecule is polar.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) Bond polarity, using the N-H bond as an example:\n> \n> - Nitrogen and hydrogen have different electronegativities\n> **OR**\n> The N-H bond has a dipole **[1 mark]**\n> - The bonding electrons are more attracted to nitrogen (N<sup>δ-</sup>-H<sup>δ+</sup>)\n> **OR**\n> The bonding electrons are unequally shared **[1 mark]**\n> \n> ii) The ammonia molecule is polar because:\n> \n> - The molecule is asymmetrical / the bond dipoles do not cancel out **[1 mark]**\n\n> **[exam-tip]**\n> You must reference the N-H bond or ammonia in your answer to part i) or you may not score the marks.\n> \n> Electronegativity is the ability of an atom to attract electrons in a covalent bond. Nitrogen (electronegativity 3.0) is more electronegative than hydrogen (electronegativity 2.1), so the bonding electrons are pulled towards nitrogen, giving the N-H bond a permanent dipole (N<sup>δ-</sup>-H<sup>δ+</sup>).\n> \n> For part ii): a molecule is polar only when its bond dipoles do not cancel. In NH<sub>3</sub>, the three N-H dipoles all point towards nitrogen and the lone pair adds to the asymmetry, so the dipoles do not cancel and ammonia has a net dipole moment."
+    },
+    {
+     "id": "qstnprt_NvVtwKFqZssZBMVm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WqHBvB6FP88QRGXb",
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "State the strongest type of intermolecular force present in liquid ammonia.",
+     "solution_md": "> **[mark-scheme]**\n> The strongest type of intermolecular force present in liquid ammonia is:\n> \n> - Hydrogen bonding **[1 mark]**\n\n> **[exam-tip]**\n> Ammonia, NH<sub>3</sub>, has a lone pair on nitrogen and N-H bonds where the H is δ+ (due to nitrogen's high electronegativity). This allows hydrogen bonds to form between the lone pair on one nitrogen and the δ+ hydrogen of an adjacent NH<sub>3</sub> molecule.\n> \n> All simple molecular substances also have instantaneous dipole-induced dipole (id-id) forces, but hydrogen bonding is the strongest type present and has the greatest influence on ammonia's physical properties."
+    },
+    {
+     "id": "qstnprt_NFJJdS8tk6WqtkbV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_gkJdM8KCSST8S2JX",
+      "spcpt_FCG6wCWXhVz8jMdM",
+      "spcpt_74JsdwcVgGzqTFkb"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia gas reacts with hydrogen chloride gas to form solid ammonium chloride, NH<sub>4</sub>Cl.\n\nState the three types of bonding present in solid ammonium chloride.",
+     "solution_md": "> **[mark-scheme]**\n> The three types of bonding present in solid ammonium chloride are:\n> \n> - Covalent bonding (between N and H in the NH<sub>4</sub><sup>+</sup> ion) **[1 mark]**\n> - Co-ordinate / dative covalent bonding (one N-H bond formed using the lone pair on N) **[1 mark]**\n> - Ionic bonding (between NH<sub>4</sub><sup>+</sup> and Cl<sup>-</sup>) **[1 mark]**\n\n> **[exam-tip]**\n> When NH<sub>3</sub> reacts with HCl, the HCl donates H<sup>+</sup> (a proton with no electrons). The nitrogen in NH<sub>3</sub> uses its lone pair to form a co-ordinate (dative covalent) bond with this H<sup>+</sup>, creating the ammonium ion, NH<sub>4</sub><sup>+</sup>.\n> \n> Once the NH<sub>4</sub><sup>+</sup> ion is formed, all four N-H bonds are identical in length and strength. It is not possible to distinguish the original covalent bonds from the co-ordinate bond in the final ion. This question tests your understanding of how the bond forms, not the final structure.\n> \n> The NH<sub>4</sub><sup>+</sup> ion then forms an ionic bond with the Cl<sup>-</sup> ion, giving solid ammonium chloride its giant ionic lattice structure."
+    }
+   ]
+  },
+  {
+   "id": "qstn_KVbdcQR7Dvq3XZVv",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_TX62C6TH3Tt5DKPH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "Water has a relatively high surface tension compared to most liquids.\n\nExplain this anomalous property of water.",
+     "solution_md": "> **[mark-scheme]**\n> Water has a high surface tension because:\n> \n> - Water molecules form strong hydrogen bonds with each other **[1 mark]**\n> - Molecules at the surface are only attracted inward / downward by hydrogen bonds, creating a strong net cohesive force at the surface **[1 mark]**\n\n> **[exam-tip]**\n> Whenever you need to explain an anomalous property of water, think about hydrogen bonding first.\n> \n> Molecules in the bulk liquid are surrounded by water molecules on all sides and experience hydrogen bonding in all directions, so the net force is zero. Molecules at the surface have no water molecules above them, so they experience a net inward pull. This makes the surface resistant to being broken or stretched, giving water its unusually high surface tension."
+    },
+    {
+     "id": "qstnprt_wVsXtMtFHrxtMwry",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia, NH<sub>3</sub>, is highly soluble in water.\n\nDraw diagrams to show the **two** different ways a hydrogen bond can form between one molecule of water and one molecule of ammonia. Your diagrams should include all relevant dipoles and lone pairs of electrons.",
+     "solution_md": "The two ways a hydrogen bond can form between water and ammonia are:\n\n| ![Diagram of a hydrogen bond between water and ammonia, showing partial charges, lone pairs and three‑dimensional bond wedges and dashes](assets/011-diagram-of-a-hydrogen-bond-between-water-and-amm.png) | ![Diagram of a hydrogen bond between ammonia and water showing partial charges, N–H and O–H bonds, and lone pairs on nitrogen and oxygen](assets/012-diagram-of-a-hydrogen-bond-between-ammonia-and-w.png) |\n|---|---|\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for δ- on O and at least one δ+ H shown correctly in a water molecule\n> \n> 1 mark for δ- on N and at least one δ+ H shown correctly in an ammonia molecule\n> \n> 1 mark for one diagram showing a hydrogen bond between the H of an ammonia molecule (N-H) and the O atom of a water molecule\n> \n> 1 mark for one diagram showing a hydrogen bond between the H of a water molecule (O-H) and the N atom of an ammonia molecule\n\n> **[exam-tip]**\n> There are two distinct hydrogen bonds that can form between NH<sub>3</sub> and H<sub>2</sub>O:\n> \n> - Way 1: The δ+ H on ammonia (N-H bond) forms a hydrogen bond with the lone pair on the δ- O of water\n> - Way 2: The δ+ H on water (O-H bond) forms a hydrogen bond with the lone pair on the δ- N of ammonia\n> \n> Represent hydrogen bonds as dashed lines. Show partial charges (δ+ and δ-) and lone pairs clearly in both diagrams."
+    },
+    {
+     "id": "qstnprt_22GStRKK8DNcv4Nb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvVs8rP9WBKRWmt8",
+      "spcpt_txt4gPnzhw6M2BTz",
+      "spcpt_cfW8F5MnhRBc3BcZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia, NH<sub>3</sub>, hydrogen chloride, HCl, and fluorine, F<sub>2</sub>, all exist as gases at room temperature and pressure. The boiling point of NH<sub>3</sub> is −33 °C.\n\nPredict which gas, HCl or F<sub>2</sub>, has the lowest boiling point. Explain the relative boiling points of all three gases in terms of the intermolecular forces present.",
+     "solution_md": "> **[mark-scheme]**\n> - F<sub>2</sub> has the lowest boiling point **[1 mark]**\n> - F<sub>2</sub> has only instantaneous dipole-induced dipole (id-id) / London dispersion forces **[1 mark]**\n> - HCl also has permanent dipole-permanent dipole (pd-pd) forces (in addition to id-id forces) **[1 mark]**\n> - F<sub>2</sub> and HCl have the same number of electrons (18 each), so their id-id forces are similar in strength **[1 mark]**\n> - HCl therefore has stronger overall intermolecular forces than F<sub>2</sub>, requiring more energy to overcome\n> **OR**\n> F<sub>2</sub> has weaker overall intermolecular forces, requiring less energy to overcome **[1 mark]**\n\n> **[exam-tip]**\n> The key to this question is recognising that F<sub>2</sub> and HCl are isoelectronic (both have 18 electrons), so their id-id forces are approximately equal in strength. The additional pd-pd forces in HCl (from the polar H-Cl bond) give it stronger overall intermolecular forces and a higher boiling point than F<sub>2</sub>.\n> \n> NH<sub>3</sub> has the highest boiling point of the three because it forms hydrogen bonds (the strongest type of intermolecular force), which require significantly more energy to overcome than either pd-pd or id-id forces.\n> \n> Always identify all types of intermolecular forces present in each substance before comparing their relative boiling points."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cBb3Fdc7KqYNMpFf",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_2kSNn7tXz2Dh5FQy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cfW8F5MnhRBc3BcZ"
+     ],
+     "part_tier": null,
+     "problem_md": "State the three main types of intermolecular force and place them in ascending order of strength.",
+     "solution_md": "> **[mark-scheme]**\n> The three main types of intermolecular force, in ascending order of strength:\n> \n> - Instantaneous dipole-induced dipole (id-id) forces / London dispersion forces, permanent dipole-permanent dipole (pd-pd) forces, and hydrogen bonding **[1 mark]**\n> - (In ascending order of strength) instantaneous dipole-induced dipole forces < permanent dipole-permanent dipole forces < hydrogen bonding **[1 mark]**\n\n> **[exam-tip]**\n> Van der Waals' forces is a generic term that covers all intermolecular forces except hydrogen bonding. It does not distinguish between id-id and pd-pd forces, so use the specific syllabus terms above to be precise.\n> \n> You must know the order of strength: id-id forces are the weakest, pd-pd forces are intermediate, and hydrogen bonding is the strongest."
+    },
+    {
+     "id": "qstnprt_dsnTFvgscXr2fMj3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_n4nGC5RWnyFMgkVg"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw a diagram to show hydrogen bonding between two molecules of methanol, CH<sub>3</sub>OH.\n\nYour diagram should include all relevant lone pairs of electrons and dipoles.",
+     "solution_md": "A diagram showing hydrogen bonding between two molecules of methanol is:\n\n![Diagram of two methanol molecules showing partial charges, lone pairs and a dotted hydrogen bond between the δ+ hydrogen of one and δ− oxygen of the other](assets/013-diagram-of-two-methanol-molecules-showing-partia.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for two lone pairs on at least one oxygen atom **AND** correct dipoles (δ- on O and δ+ on H) on at least one O-H bond\n> \n> 1 mark for a dotted line shown between a lone pair on one oxygen and the correct O-H hydrogen on another molecule\n\n> **[exam-tip]**\n> It is good practice to draw lone pairs on every oxygen atom, but showing at least one is sufficient for the mark.\n> \n> Hydrogen bonding forms between an electronegative atom with a lone pair (O, N, or F) as the acceptor and a hydrogen atom bonded directly to O, N, or F as the donor. For methanol, the relevant hydrogen is the O-H hydrogen (δ+). The C-H hydrogens are not involved, as C-H bonds are not significantly polar."
+    },
+    {
+     "id": "qstnprt_rmxSXcnP9ybYPNdg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cfW8F5MnhRBc3BcZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Methanol, CH<sub>3</sub>OH, can be oxidised to methanal, CH<sub>2</sub>O, and then to methanoic acid, HCOOH.\n\nState the strongest type of intermolecular force present between:\n\ni) Methanal molecules\n\n[1]\n\nii) Methanoic acid molecules\n\n[1]\n\niii) A molecule of water and a molecule of methanal\n\n[1]\n\niv) A molecule of water and a molecule of methanoic acid\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> The strongest type of intermolecular force in each case:\n> \n> i) Methanal molecules:\n> \n> - Permanent dipole-permanent dipole (pd-pd) forces **[1 mark]**\n> \n> ii) Methanoic acid molecules:\n> \n> - Hydrogen bonding **[1 mark]**\n> \n> iii) A molecule of water and a molecule of methanal:\n> \n> - Hydrogen bonding **[1 mark]**\n> \n> iv) A molecule of water and a molecule of methanoic acid:\n> \n> - Hydrogen bonding / ion-dipole forces **[1 mark]**\n\n> **[exam-tip]**\n> Methanal has a polar C=O bond (δ- on O, δ+ on C) but no O-H, N-H, or F-H bond, so it cannot act as a hydrogen bond donor. Its strongest self-interaction is permanent dipole-permanent dipole (pd-pd) forces.\n> \n> All these molecules can form hydrogen bonds with water because water has both O-H bonds (hydrogen bond donors, δ+) and lone pairs on oxygen (hydrogen bond acceptors, δ-). The lone pair on the C=O oxygen in methanal accepts a hydrogen bond from the δ+ H of water.\n> \n> Methanoic acid partially ionises in water as it is a weak acid, so ion-dipole interactions can also form between the resulting ions and water molecules."
+    },
+    {
+     "id": "qstnprt_GJVZMkQddmTmG2Rs",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_QRDSMMPCw4SvVdFc"
+     ],
+     "part_tier": null,
+     "problem_md": "Methanoic acid reacts with sodium hydroxide to form sodium methanoate:\n\nHCOOH + NaOH → HCOONa + H<sub>2</sub>O\n\nExplain why sodium methanoate is a solid at room temperature and methanoic acid is a liquid.",
+     "solution_md": "> **[mark-scheme]**\n> Sodium methanoate is a solid and methanoic acid is a liquid at room temperature because:\n> \n> - Sodium methanoate is ionic / contains Na<sup>+</sup> and HCOO<sup>-</sup> / is a giant ionic lattice **[1 mark]**\n> - Methanoic acid is a simple molecular / covalent substance / has hydrogen bonds between molecules **[1 mark]**\n> - Ionic bonds are stronger than hydrogen bonds / require more energy to overcome / require a higher temperature to break (or reverse argument) **[1 mark]**\n\n> **[exam-tip]**\n> This reaction is an acid-base neutralisation using an organic acid, producing a salt (sodium methanoate) and water. Salts are ionic, so sodium methanoate has a giant ionic lattice structure with strong ionic bonds between Na<sup>+</sup> and HCOO<sup>-</sup> ions.\n> \n> Although methanoic acid has the strongest type of intermolecular force (hydrogen bonding), hydrogen bonds are still far weaker than ionic bonds. This is why the melting point of sodium methanoate is much higher, making it a solid while methanoic acid remains a liquid at room temperature."
+    },
+    {
+     "id": "qstnprt_crZCMJC88C2PwnkD",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WfbwJkmCX7gyZZqb",
+      "spcpt_FCG6wCWXhVz8jMdM"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the dot-and-cross diagram of methanol, CH<sub>3</sub>OH. Show outer shell electrons only.\n\n![Incomplete electron shell diagram of methanol, showing a central carbon bonded to three hydrogens and to an oxygen, which is bonded to a fourth hydrogen](assets/014-incomplete-electron-shell-diagram-of-methanol-sh.png)",
+     "solution_md": "The completed dot-and-cross diagram of methanol is:\n\n![Complete electron shell diagram of methanol, showing a central carbon bonded to three hydrogens and to an oxygen, which is bonded to a fourth hydrogen with all bonding and lone pairs included](assets/015-complete-electron-shell-diagram-of-methanol-show.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for five bonding pairs of electrons shown correctly between carbon, oxygen, and hydrogen\n> \n> 1 mark for two lone pairs of electrons shown on oxygen\n\n> **[exam-tip]**\n> Show outer shell electrons only. Check that each atom has a full outer shell: 8 electrons for carbon and oxygen, and 2 electrons for each hydrogen.\n> \n> Any combination of dots and crosses is acceptable, as long as electrons from the same atom are drawn consistently throughout the diagram."
     }
    ]
   }

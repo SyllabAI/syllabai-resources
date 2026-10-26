@@ -1,41 +1,40 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
  "course_slug": "igcse-economics-17",
- "generated_utc": "2026-09-17T00:39:03Z",
+ "generated_utc": "2026-10-26T14:57:44Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/",
-  "registry": "scripts/sme_examq_courses.py",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
   "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
  },
+ "status": "scraped",
  "course": {
   "slug": "igcse-economics-17",
   "level": "igcse",
   "subject": "economics",
   "mid": "17",
   "leaf_types": {
-   "exam-questions": 13
+   "exam-questions": 16
   }
  },
  "totals": {
-  "topics": 13,
-  "questions": 468,
-  "parts": 623,
-  "marks": 2217,
-  "assets": 132,
+  "topics": 16,
+  "questions": 601,
+  "parts": 784,
+  "marks": 2837,
+  "assets": 173,
   "asset_failures": 0,
   "missing_questions": 151,
   "equations": 0
  },
  "topics": [
   {
+   "url": null,
    "section_slug": "business-economics",
    "section_name": "Business Economics",
    "topic_slug": "business-costs-revenues-and-profit",
    "topic_name": "Business Costs, Revenues & Profit",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 38,
    "parts": 49,
    "total_marks": 141,
@@ -61,18 +60,20 @@
     "qstn_zgdDpHGXqYRmgPpK"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/business-economics/business-costs-revenues-and-profit/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "business-economics",
    "section_name": "Business Economics",
    "topic_slug": "government-intervention",
    "topic_name": "Government Intervention",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 36,
    "parts": 38,
    "total_marks": 144,
@@ -96,18 +97,20 @@
     "qstn_yq7Rq5q33RQsPGDh"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/business-economics/government-intervention/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "business-economics",
    "section_name": "Business Economics",
    "topic_slug": "market-structures",
    "topic_name": "Market Structures",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 32,
    "parts": 47,
    "total_marks": 174,
@@ -132,18 +135,20 @@
     "qstn_zbVN64phHY4bTkHJ"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/business-economics/market-structures/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "business-economics",
    "section_name": "Business Economics",
    "topic_slug": "production-and-productivity",
    "topic_name": "Production & Productivity",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 32,
    "parts": 41,
    "total_marks": 148,
@@ -171,18 +176,20 @@
     "qstn_z3JMK8xnK5NwrtPy"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/business-economics/production-and-productivity/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "business-economics",
    "section_name": "Business Economics",
    "topic_slug": "the-labour-market",
    "topic_name": "The Labour Market",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 22,
    "parts": 22,
    "total_marks": 110,
@@ -207,18 +214,20 @@
     "qstn_yh7qzdMns2jPqpNk"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/business-economics/the-labour-market/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "government-and-the-economy",
    "section_name": "Government & the Economy",
    "topic_slug": "government-policies",
    "topic_name": "Government Policies",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 48,
    "parts": 72,
    "total_marks": 293,
@@ -226,18 +235,20 @@
    "asset_failures": [],
    "missing_questions": [],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/government-and-the-economy/government-policies/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "government-and-the-economy",
    "section_name": "Government & the Economy",
    "topic_slug": "the-macroeconomic-objectives",
    "topic_name": "The Macroeconomic Objectives",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 44,
    "parts": 104,
    "total_marks": 363,
@@ -281,18 +292,80 @@
     "qstn_tGVHt7R6qBGSHYCW"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/government-and-the-economy/the-macroeconomic-objectives/exam-questions/"
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
+  },
+  {
+   "url": "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-global-economy/exchange-rates/exam-questions/",
+   "section_slug": "the-global-economy",
+   "section_name": "The Global Economy",
+   "topic_slug": "exchange-rates",
+   "topic_name": "Exchange Rates",
+   "questions": 40,
+   "parts": 45,
+   "total_marks": 147,
+   "assets": 15,
+   "asset_failures": [],
+   "missing_questions": [],
+   "equations": 0,
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
    ]
   },
   {
+   "url": "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-global-economy/globalisation/exam-questions/",
+   "section_slug": "the-global-economy",
+   "section_name": "The Global Economy",
+   "topic_slug": "globalisation",
+   "topic_name": "Globalisation",
+   "questions": 40,
+   "parts": 44,
+   "total_marks": 195,
+   "assets": 0,
+   "asset_failures": [],
+   "missing_questions": [],
+   "equations": 0,
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ]
+  },
+  {
+   "url": "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-global-economy/international-trade/exam-questions/",
+   "section_slug": "the-global-economy",
+   "section_name": "The Global Economy",
+   "topic_slug": "international-trade",
+   "topic_name": "International Trade",
+   "questions": 53,
+   "parts": 72,
+   "total_marks": 278,
+   "assets": 26,
+   "asset_failures": [],
+   "missing_questions": [],
+   "equations": 0,
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ]
+  },
+  {
+   "url": null,
    "section_slug": "the-market-system",
    "section_name": "The Market System",
    "topic_slug": "demand-supply-and-market-equilibrium",
    "topic_name": "Demand, Supply & Market Equilibrium",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 50,
    "parts": 61,
    "total_marks": 174,
@@ -300,18 +373,20 @@
    "asset_failures": [],
    "missing_questions": [],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-market-system/demand-supply-and-market-equilibrium/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "the-market-system",
    "section_name": "The Market System",
    "topic_slug": "economic-assumptions",
    "topic_name": "Economic Assumptions",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 27,
    "parts": 27,
    "total_marks": 95,
@@ -319,18 +394,20 @@
    "asset_failures": [],
    "missing_questions": [],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-market-system/economic-assumptions/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "the-market-system",
    "section_name": "The Market System",
    "topic_slug": "elasticity",
    "topic_name": "Elasticity",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 55,
    "parts": 68,
    "total_marks": 213,
@@ -338,18 +415,20 @@
    "asset_failures": [],
    "missing_questions": [],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-market-system/elasticity/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "the-market-system",
    "section_name": "The Market System",
    "topic_slug": "externalities",
    "topic_name": "Externalities",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 18,
    "parts": 22,
    "total_marks": 103,
@@ -373,18 +452,20 @@
     "qstn_yDfvJdP6szGh5mRT"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-market-system/externalities/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "the-market-system",
    "section_name": "The Market System",
    "topic_slug": "the-economic-problem",
    "topic_name": "The Economic Problem",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 37,
    "parts": 39,
    "total_marks": 117,
@@ -392,18 +473,20 @@
    "asset_failures": [],
    "missing_questions": [],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-market-system/the-economic-problem/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   },
   {
+   "url": null,
    "section_slug": "the-market-system",
    "section_name": "The Market System",
    "topic_slug": "the-mixed-economy",
    "topic_name": "The Mixed Economy",
-   "sets_completed": [
-    "exam-questions"
-   ],
    "questions": 29,
    "parts": 33,
    "total_marks": 142,
@@ -430,21 +513,13 @@
     "qstn_tMVbQGNwknM3Fv69"
    ],
    "equations": 0,
-   "page_urls": [
-    "https://www.savemyexams.com/igcse/economics/edexcel/17/topic-questions/the-market-system/the-mixed-economy/exam-questions/"
-   ]
+   "sets": 1,
+   "files": [
+    "topic.json",
+    "questions.md",
+    "mark-schemes.md"
+   ],
+   "reused": true
   }
- ],
- "spec_point_resolution": {
-  "counts": {
-   "parts_with_codes": 617,
-   "parts_left_uncoded_no_guess_tail": 0,
-   "parts_total": 617
-  },
-  "pipeline": [
-   "scripts/t_spec_10_apply.py",
-   "scripts/t_spec_9_apply.py"
-  ],
-  "updated_utc": "2026-09-19T15:30:24Z"
- }
+ ]
 }

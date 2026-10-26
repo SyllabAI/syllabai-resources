@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:11Z",
+ "generated_utc": "2026-10-26T14:31:03Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -53,14 +53,27 @@
    "question_count": 12,
    "questions_embedded": 12,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/other-payables-and-other-receivables/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_G6rJPhkVTGmBrHKS",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/other-payables-and-other-receivables/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 12,
+  "questions_embedded": 15,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2024/04/expense-account.png": "001-layout-of-an-expense-account-showing-the-entries.png",
@@ -680,6 +693,185 @@
        "text_md": "as prepaid income in current liabilities"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RJsRtfM8t5c94YzS",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_dMvMGFzSJX8Nw72T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_5YKW8C4QWCDFZZ9s"
+     ],
+     "part_tier": null,
+     "problem_md": "Logan is a trader who sells goods on credit. His year end is 30 September. Logan has provided the following information.\n\n|   | \\$ |\n|---|---|\n| At 1 October 2022 |   |\n| Other receivables (rent prepaid) | 820 |\n| For the year ended 30 September 2023 |   |\n| Rent charge for the year | 4 940 |\n| Bank payments for rent 1 December 2022 | 2 460 |\n| 1 June 2023 | 2 490 |\n| At 30 September 2023 |   |\n| Other receivables | ? |\n\n**REQUIRED**\n\nPrepare the rent payable account for the year ended 30 September 2023. Balance the account at 30 September 2023 and bring down the balance at 1 October 2023.\n\nLogan \nRent payable account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Logan \nRent payable account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2022 |   |   | 2023 |   |   |\n| Oct 1 | Balance b/d **[1]** | 820 | Sep 30 | Income statement **[1]** | 4 940 |\n| Dec 1 | Bank **[1]** | 2 460 |   | Balance c/d | 830 |\n| 2023 |   |   |   |   |   |\n| Jun 1 | Bank **[1]** | 2 490 |   |   |   |\n|   |   | <u>5 770</u> |   |   | <u>5 770</u> |\n| Oct 1 | Balance b/d **[1]** | 830 |   |   |   |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 6 marks in total:\n> \n> - 1 mark the for correct details and amount for:\n> \n>   - Balance b/d 2022\n>   - Bank in Dec 2022\n>   - Bank in Jun 2023\n>   - Income statement\n> - 1 mark for using your **own figure** from balance c/d for the balance b/d 2023.\n> - 1 mark for entering all the dates correctly."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VxztYpF4PTGN6T8Y",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_yJzQDF5rZsG3S6JR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5YKW8C4QWCDFZZ9s"
+     ],
+     "part_tier": null,
+     "problem_md": "Amla is a trader. Her financial year ends on 31 December.\n\nAmla maintains one combined account for rates and insurance.\n\nOn 1 January 2016 three months’ rates, \\$480, was outstanding and four months’ insurance, totalling \\$700, was prepaid.\n\nDuring the year ended 31 December 2016 the following payments were made by cheque.\n\n|   | \\$ |\n|---|---|\n| Rates 16 months to 31 January 2017 | 2560 |\n| Insurance 12 months to 30 April 2017 | 2400 |\n\n**REQUIRED **\n\nPrepare the rates and insurance account in the ledger of Amla for the year ended 31 December 2016. Balance the account and bring down the balances on 1 January 2017.\n\nAmla \nRates and insurance account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Find the prepaid rates at the end of the year\n\n- Calculate the amount per month\n\n$2560\\div16=160$\n\n- Identify the number of months that are prepaid\n\n*Jan 2017 = 1 month*\n\n- Calculate the prepaid amount\n\n$160\\times1=160$\n\nFind the prepaid insurance at the end of the year\n\n- Calculate the amount per month\n\n$2400\\div12=200$\n\n- Identify the number of months that are prepaid\n\n*Jan 2017 to Apr 2017 = 4 months*\n\n- Calculate the prepaid amount\n\n$200\\times4=800$\n\nCalculate the amount to charge to the income statement\n\n- Rates is 12 months of the cheque paid\n\n$160\\times12=1920$\n\n- Insurance is 8 months of the cheque paid plus the four months prepaid from the previous year\n\n$200\\times8+700=2300$\n\nAmla \nRates and insurance account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2016 |   |   | 2016 |   |   |\n| Jan 1 | Balance b/d (insurance) **[1]** | 700 | Jan 1 | Balance b/d (rates) **[1]** | 480 |\n| Dec 31 | Bank (rates) **[1]** | 2 560 | Dec 31 | Income statement<br>(rates 1 920) **[1]**<br>(insurance 2 300) **[1]** | 4 220 |\n|   | Bank (insurance) **[1]** | 2 400 |   | Balance c/d<br>(rates 160)<br>(insurance 800) | 960 |\n|   |   | <u>5 660</u> |   |   | <u>5 660</u> |\n| 2017 |   |   |   |   |   |\n| Jan 1 | Balance b/d<br>(rates 160) **[1]**<br>(insurance 800) **[1]** | 960 |   |   |   |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 9 marks in total.\n> \n> - 1 mark for entering all the dates correctly.\n> - 8 marks for the correct details and amounts explained below.\n> \n> **Explanation**\n> \n> - Accrual of rates at the start of 2016\n> \n>   - Balance b/d on the credit side as it is still owed by Alma\n>   - Dated Jan 1 2016\n> - Prepayment of insurance at the start of 2016\n> \n>   - Balance b/d on the debit side as it reduces the amount owed by Alma\n>   - Dated Jan 1 2016\n> - Bank payments for rates and insurance\n> \n>   - Bank on the debit side as it reduces the amount owed by Alma\n>   - Dated Dec 31 2016\n>   - 1 mark for each correct figure\n> - Amount transferred to the income statement\n> \n>   - Income statement on the credit side\n>   - 1 mark for each correct figure\n> - Prepayment of rates and insurance at the start of 2017\n> \n>   - Balance b/d on the debit side as it reduces the amount owed by Alma\n>   - Dated Jan 1 2017\n>   - 2 marks for the correct figure **or **1 mark for using your **own figures**\n\n> **[exam-tip]**\n> There are many ways to do this. The example above shows how all the figures are found. However, you only need three values from:\n> \n> - Accrual/prepayment at the start of the year\n> - The actual amount paid\n> - The amount due for the year\n> - Accrual/prepayment at the end of the year\n> \n> The fourth can be found as the balancing figure.",
+     "equations": [
+      {
+       "latex": "2560\\div16=160",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2560</mn><mo>&#247;</mo><mn>16</mn><mo>=</mo><mn>160</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2560 divided by 16 equals 160"
+      },
+      {
+       "latex": "160\\times1=160",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>160</mn><mo>&#215;</mo><mn>1</mn><mo>=</mo><mn>160</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "160 cross times 1 equals 160"
+      },
+      {
+       "latex": "2400\\div12=200",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2400</mn><mo>&#247;</mo><mn>12</mn><mo>=</mo><mn>200</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2400 divided by 12 equals 200"
+      },
+      {
+       "latex": "200\\times4=800",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>200</mn><mo>&#215;</mo><mn>4</mn><mo>=</mo><mn>800</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "200 cross times 4 equals 800"
+      },
+      {
+       "latex": "160\\times12=1920",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>160</mn><mo>&#215;</mo><mn>12</mn><mo>=</mo><mn>1920</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "160 cross times 12 equals 1920"
+      },
+      {
+       "latex": "200\\times8+700=2300",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>200</mn><mo>&#215;</mo><mn>8</mn><mo>+</mo><mn>700</mn><mo>=</mo><mn>2300</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "200 cross times 8 plus 700 equals 2300"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_3v3RQFGfZcCcJBnF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Cmp4xYSqwnhJSN3q"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the section of the statement of financial position at 31 December 2016 in which the balance on the rates and insurance account would appear.\n\nGive a reason for your answer.\n\nSection of statement of financial position:\n\nReason:",
+     "solution_md": "Section of statement of financial position: Current assets **[1 mark]**\n\nReason: The rates and insurance are both prepaid at the end of the year **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the section and 1 mark for the reason.\n> \n> You can get the reason mark by stating that the account has a debit balance."
+    }
+   ]
+  },
+  {
+   "id": "qstn_PNPQ9FRw2dDjp46H",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_2Zn7w7jHVD26rsmz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_SqNKvsdSQdP47z53"
+     ],
+     "part_tier": null,
+     "problem_md": "Amla is a trader. Her financial year ends on 31 December.\n\nOn 1 October 2016 Amla decided to sublet part of her premises at an annual rent of \\$4800. On that date she received a cheque for two months’ rent.\n\n**REQUIRED**\n\nPrepare the rent receivable account in the ledger of Amla for the year ended 31 December 2016. Balance the account and bring down the balance on 1 January 2017.\n\nAmla \nRent receivable account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Calculate the amount per month\n\n$4800\\div12=400$\n\nCalculate the amount received for the two months\n\n$400\\times2=800$\n\nCalculate the amount due for the accounting year\n\n*Oct 2016 to Dec 2016 = 3 months*\n\n$400\\times3=1200$\n\nCalculate the amount accrued at the end of the year\n\n*3 months - 2 months = 1 month*\n\n$400\\times1=400$\n\nAmla \nRent receivable account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2016 |   |   | 2016 |   |   |\n| Dec 31 | Income statement **[1]** | 1 200 | Oct 1 | Bank **[1]** | 800 |\n|   |   |   | Dec 31 | Balance c/d | 400 |\n|   |   | <u>1 200</u> |   |   | <u>1 200</u> |\n| 2017 |   |   |   |   |   |\n| Jan 1 | Balance b/d **[1]** | 400 |   |   |   |\n\nAll dates correct **[1 mark]**\n\n> **[mark-scheme]**\n> 4 marks in total.\n> \n> - 1 mark for entering all the dates correctly.\n> - 3 marks for the correct details and amounts explained below.\n> \n> **Explanation**\n> \n> - Bank receipt for rent\n> \n>   - Bank on the credit side as it reduces the amount owed to Amla\n> - Amount transferred to the income statement\n> \n>   - Income statement on the debit side\n> - Accrual of rent at the start of 2017\n> \n>   - Balance b/d on the debit side as it is owed to Alma",
+     "equations": [
+      {
+       "latex": "4800\\div12=400",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4800</mn><mo>&#247;</mo><mn>12</mn><mo>=</mo><mn>400</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4800 divided by 12 equals 400"
+      },
+      {
+       "latex": "400\\times2=800",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>400</mn><mo>&#215;</mo><mn>2</mn><mo>=</mo><mn>800</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "400 cross times 2 equals 800"
+      },
+      {
+       "latex": "400\\times3=1200",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>400</mn><mo>&#215;</mo><mn>3</mn><mo>=</mo><mn>1200</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "400 cross times 3 equals 1200"
+      },
+      {
+       "latex": "400\\times1=400",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>400</mn><mo>&#215;</mo><mn>1</mn><mo>=</mo><mn>400</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "400 cross times 1 equals 400"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Y2b4ZxJhQwQ4Zw5h",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_cBzkwD8d9ZvVkCfR"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the section of the statement of financial position at 31 December 2016 in which the balance on the rent receivable account would appear.\n\nGive a reason for your answer.\n\nSection of statement of financial position:\n\nReason:",
+     "solution_md": "Section of statement of financial position: Current assets **[1 mark]**\n\nReason: Alma is owed the rent at the end of the year **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the section and 1 mark for the reason.\n> \n> You can get the reason mark by stating that the account has a debit balance **or **for stating that it is an accrual of income."
     }
    ]
   }

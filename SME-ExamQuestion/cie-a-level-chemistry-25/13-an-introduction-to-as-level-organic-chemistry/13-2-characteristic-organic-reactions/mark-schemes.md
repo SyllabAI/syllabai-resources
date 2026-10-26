@@ -164,3 +164,350 @@
 **C** is incorrect as propanone is a ketone, so this statement is true.
 
 **D** is incorrect as this is an example of a nucleophilic addition reaction.
+
+## Structured Questions (5 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> The three steps involved in a free radical substitution reaction are:
+> 
+> - Initiation **[1 mark]**
+> - Propagation **[1 mark]**
+> - Termination **[1 mark]**
+
+> **[exam-tip]**
+> The three steps must be given in order: initiation, propagation, termination.
+> 
+> Propagation is often the most challenging step as it involves two chain-carrying reactions in which a radical reacts with a molecule to regenerate a radical.
+> **[mark-scheme]**
+> i) The equation for this reaction is:
+> 
+> - Cl<sub>2</sub> $\overset{\mathrm{UV} \mathrm{light}}{\rightarrow}$ 2Cl• **[1 mark]**
+> 
+> UV light should be shown above the arrow (or equivalent notation)
+> 
+> ii) The type of bond fission is:
+> 
+> - Homolytic (bond fission) **[1 mark]**
+
+> **[exam-tip]**
+> In homolytic fission, one electron from the covalent bond goes to each atom, forming two radicals.
+> 
+> A single-headed curly arrow shows the movement of one electron; a double-headed arrow shows a pair of electrons.
+> **[mark-scheme]**
+> The name of this type of bond fission is:
+> 
+> - Heterolytic (fission) **[1 mark]**
+
+> **[exam-tip]**
+> In heterolytic fission, one atom takes both electrons from the bond, forming a positive ion and a negative ion.
+> 
+> The more electronegative atom takes both electrons, forming the anion; the other atom becomes the cation.
+> 
+> A double-headed curly arrow shows the movement of an electron pair to one atom.
+> **[mark-scheme]**
+> Three other types of reaction mechanism are:
+> 
+> Any **three** from (1 mark for each point):
+> 
+> - Electrophilic addition
+> - Nucleophilic substitution
+> - Elimination
+> - Nucleophilic addition
+> - Electrophilic substitution
+> 
+> **[3 marks]**
+> 
+> Free radical substitution is not accepted as it was given in part (a).
+
+> **[exam-tip]**
+> The curly arrow mechanisms covered at AS Level are electrophilic addition, nucleophilic substitution, and elimination.
+> 
+> - Electrophilic addition: two reactants combine to form one product (e.g. ethene + bromine → 1,2-dibromoethane)
+> - Nucleophilic substitution: an atom or group is replaced by another (e.g. bromoethane + OH<sup>-</sup> → ethanol + Br<sup>-</sup>)
+> - Elimination: a small molecule is removed from a larger one (e.g. ethanol → ethene + water with acid catalyst)
+
+### Q2
+> **[mark-scheme]**
+> i) The term *hydrocarbon* means:
+> 
+> - A compound that contains only hydrogen and carbon **[1 mark]**
+> 
+> The mark cannot be awarded without the word "only"
+> 
+> ii) The general formula for the homologous series of alkanes is:
+> 
+> - C<sub>n</sub>H<sub>2n+2</sub> **[1 mark]**
+> 
+> iii) The molecular formula of an **alkane** containing five carbon atoms is:
+> 
+> - C<sub>5</sub>H<sub>12</sub> **[1 mark]**
+
+> **[exam-tip]**
+> You should know the general formulas for alkanes (C<sub>n</sub>H<sub>2n+2</sub>) and alkenes (C<sub>n</sub>H<sub>2n</sub>).
+> 
+> For part iii, substitute n = 5 into the alkane general formula: (2 × 5) + 2 = 12 hydrogen atoms, giving C<sub>5</sub>H<sub>12</sub>.
+> **[mark-scheme]**
+> Two characteristics of a homologous series are:
+> 
+> Any **two** from (1 mark for each point):
+> 
+> - Same general formula
+> - Each successive member differs by a –CH<sub>2</sub>– group
+> - Same functional group / similar chemical properties
+> - Gradual trend in physical properties (e.g. boiling point)
+> 
+> **[2 marks]**
+
+> **[exam-tip]**
+> A homologous series has the same functional group and shows a gradual trend in physical properties.
+> 
+> 'Similar properties' without specifying physical or chemical is too vague and will not be credited.
+The systematic names for the molecules in **Table 1.1** are:
+
+| **Molecule** | **Name** |
+|---|---|
+| CH<sub>3</sub>CH(Cl)CH<sub>3</sub> | **Final answer:** **2-chloropropane** |
+| CH<sub>3</sub>CH<sub>2</sub>CH=CH<sub>2</sub> | **Final answer:** **but-1-ene** |
+| CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>OH | **Final answer:** **propan-1-ol** |
+| CH<sub>3</sub>CH<sub>2</sub>CH(Br)CH<sub>2</sub>OH | **Final answer:** **2-bromobutan-1-ol** |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for 2-chloropropane
+> 
+> 1 mark for but-1-ene
+> 
+> 1 mark for propan-1-ol
+> 
+> 1 mark for 2-bromobutan-1-ol
+
+> **[exam-tip]**
+> The systematic naming rules for organic compounds are:
+> 
+> - Identify the longest unbranched carbon chain as this gives the stem (e.g. prop– for 3 carbons, but– for 4 carbons)
+> - Identify functional groups and side chains, and select the appropriate prefixes and suffixes
+> - Number the chain to give substituents the lowest possible locants
+The completed **Table 1.2** is:
+
+| **Organic compound** | **Name** | **Functional groups** |
+|---|---|---|
+| **A** | Propanoic acid | **Final answer:** **Carboxylic acid** |
+| **B** | **Final answer:** **Propanal** | Aldehyde |
+| **C** | **Final answer:** **2-chloropropanal** | Aldehyde<br>**AND**<br>Halogenoalkane |
+| **D** | 2-hydroxypropanenitrile | **Alcohol**<br>**AND**<br>**Nitrile** |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for carboxylic acid as the functional group of compound A
+> 
+> 1 mark for propanal as the name of compound B
+> 
+> 1 mark for 2-chloropropanal as the name of compound C
+> 
+> 1 mark for both alcohol **AND** nitrile as the functional groups of compound D
+
+> **[exam-tip]**
+> For compound A, identify the –COOH group as the carboxylic acid functional group.
+> 
+> For compound C, the –CHO aldehyde group sets C-1, and the –Cl on C-2 gives the 2-chloro– prefix.
+> 
+> For compound D, the nitrile group has higher naming priority than the alcohol group. This means that the –OH appears as the hydroxy– prefix rather than the –ol suffix. Remember that the nitrile group contains a carbon atom when counting the chain length.
+> **[mark-scheme]**
+> i) The empirical formula of 2,2-dimethylpentan-3-ol is:
+> 
+> - C<sub>7</sub>H<sub>16</sub>O **[1 mark]**
+> 
+> The molecular formula (C<sub>7</sub>H<sub>16</sub>O) cannot be simplified further, so the empirical formula is the same.
+
+ii) The skeletal formula of 2,2-dimethylpentan-3-ol is:
+
+![The skeletal formula of 2,2-dimethylpentan-3-ol](assets/008-the-skeletal-formula-of-2-2-dimethylpentan-3-ol.png)
+
+**[1 mark]**
+
+> **[exam-tip]**
+> In a skeletal formula, C–H bonds are omitted and each line end or vertex represents a carbon atom.
+> 
+> The longest chain is pentane (5 carbons), with two methyl groups on C-2 and a hydroxyl group on C-3. Make sure the bond to the –OH group is clearly shown to the oxygen atom.
+
+### Q3
+> **[mark-scheme]**
+> i) Suitable reagents for reactions **1** and **2** are:
+> 
+> Reaction 1: any **one** from:
+> 
+> - NaBH<sub>4</sub>
+> - LiAlH<sub>4</sub>
+> - H<sub>2</sub> and Ni catalyst / H<sub>2</sub> and Pt catalyst
+> 
+> **[1 mark]**
+> 
+> Reaction 2: any **one** from:
+> 
+> - Concentrated sulfuric acid / H<sub>2</sub>SO<sub>4</sub>
+> - Concentrated phosphoric acid / H<sub>3</sub>PO<sub>4</sub>
+> - Al<sub>2</sub>O<sub>3</sub>
+> 
+> **[1 mark]**
+> 
+> ii) The type of reaction that occurs in reaction **2** is:
+> 
+> - Elimination **[1 mark]**
+
+> **[exam-tip]**
+> Reaction 1 reduces the ketone (butanone) to a secondary alcohol. So, X is butan-2-ol.
+> 
+> Reaction 2 is the elimination (dehydration) of the alcohol to form an alkene (Y). Heat is also required as a condition.
+> 
+> Before selecting reagents, map out the reaction scheme and identify the functional group at each stage.
+> **[mark-scheme]**
+> i) The name of the mechanism for reaction **3** is:
+> 
+> - Electrophilic addition **[1 mark]**
+
+ii) The mechanism for reaction **3** is:
+
+![Mechanism diagram showing electrophilic addition of hydrogen chloride to but-1-ene, forming a secondary carbocation intermediate and chloride ion attack](assets/009-mechanism-diagram-showing-electrophilic-addition.png)
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct structure of **Y** **AND** correct dipole on HCl
+> 
+> 1 mark for curly arrow from the C=C bond to the δ+ H in HCl **AND** curly arrow from the H–Cl bond to the Cl atom
+> 
+> 1 mark for correct intermediate structure with secondary carbocation (C<sup>+</sup>) identified
+> 
+> 1 mark for curly arrow from the lone pair on Cl<sup>-</sup> to the C<sup>+</sup> of the secondary carbocation
+
+> **[exam-tip]**
+> The question specifies 2-chlorobutane as the product. So, the intermediate must be a secondary carbocation to give this product via Markovnikov’s rule.
+> 
+> If the question does not specify the major or minor product, draw the major product (secondary carbocation pathway) and note that a minor product also forms.
+> **[mark-scheme]**
+> A chemical test and observations to distinguish between butane and **Y** are:
+> 
+> - Bromine water / Br<sub>2</sub>(aq) **[1 mark]**
+> - Remains orange / no colour change with butane **[1 mark]**
+> - Decolourises **Y** / goes from orange to colourless with **Y** **[1 mark]**
+
+> **[exam-tip]**
+> **Y** is an alkene. This means that the unsaturation test (bromine water) is the simplest chemical test to distinguish between an alkane and an alkene.
+
+### Q4
+The mechanism for the reaction of 4-methylpent-2-ene with HBr is:
+
+![Completed mechanism for the reaction of 4-methylpent-2-ene with hydrogen bromide to form 2-bromo-4-methylpentane](assets/011-completed-mechanism-for-the-reaction-of-4-methyl.jpg)
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct structure of 4-methylpent-2-ene **AND** correct dipole on HBr (δ+H–δ-Br)
+> 
+> 1 mark for curly arrow from the C=C bond to the δ+ H of HBr **AND** curly arrow from the H–Br bond to the δ– Br atom
+> 
+> 1 mark for correct secondary carbocation intermediate
+> 
+> 1 mark for curly arrow from the lone pair on :Br<sup>-</sup> to the C<sup>+</sup> of the secondary carbocation
+
+> **[exam-tip]**
+> The question specifies 2-bromo-4-methylpentane as the product. This means that the intermediate must be a secondary carbocation at carbon-2 to be consistent with this product.
+> 
+> The positive charge must be placed on carbon-2.
+> **[mark-scheme]**
+> The role of HBr in the reaction in **(a)** is:
+> 
+> - Electrophile **[1 mark]**
+
+> **[exam-tip]**
+> The mechanism for this reaction is electrophilic addition. HBr is attracted to the electron-rich C=C bond, making it an electrophile (electron-pair acceptor).
+> **[mark-scheme]**
+> The reagents and conditions required are:
+> 
+> - Potassium hydroxide / KOH
+> **OR**
+> Sodium hydroxide / NaOH **[1 mark]**
+> 
+> The conditions for this reaction are:
+> 
+> Any **one** from:
+> 
+> - Concentrated
+> - Ethanol / ethanolic conditions / no water present
+> - Heat / boil under reflux / high temperature
+> 
+> **[1 mark]**
+
+> **[exam-tip]**
+> For elimination to occur, the hydroxide must be dissolved in an alcoholic (non-aqueous) solvent. In aqueous conditions, nucleophilic substitution occurs instead, producing an alcohol.
+
+### Q5
+> **[mark-scheme]**
+> i) Two characteristics of a homologous series are:
+> 
+> Any **two** from (1 mark for each point):
+> 
+> - Same general formula
+> - Each successive member differs by a –CH<sub>2</sub>– group
+> - Same functional group / similar chemical properties
+> - Gradual trend in physical properties (e.g. boiling point)
+> 
+> **[2 marks]**
+> 
+> ii) The homologous series to which propene belongs is:
+> 
+> - Alkene(s) **[1 mark]**
+
+> **[exam-tip]**
+> 'Similar properties' without specifying physical or chemical is too vague and will not be credited.
+> 
+> You could state a specific physical property that changes down the series, such as boiling point, to gain the mark.
+> **[mark-scheme]**
+> i) A suitable reagent for this reaction is:
+> 
+> - Hydrogen chloride / HCl **[1 mark]**
+> 
+> HCl (aq) / hydrochloric acid is not accepted
+> 
+> ii) The major product and explanation are:
+> 
+> - 2-chloropropane
+> **AND**
+> The secondary carbocation intermediate is more stable than the primary carbocation **[1 mark]**
+> - The secondary carbocation is more stable due to the greater electron-donating (+I) effect of two alkyl groups compared to one **[1 mark]**
+
+> **[exam-tip]**
+> HCl must be the gas or dissolved in an organic solvent. HCl (aq) (hydrochloric acid) would not react with propene by electrophilic addition.
+> 
+> Secondary carbocations are more stable than primary carbocations because alkyl groups donate electron density to the positive carbon (+I effect). More alkyl groups gives greater stabilisation, making the secondary carbocation more likely to form.
+> **[mark-scheme]**
+> i) The reagents and conditions required for this conversion are:
+> 
+> - Potassium cyanide / KCN
+> **OR**
+> Sodium cyanide / NaCN **[1 mark]**
+> - Ethanol / ethanolic solvent
+> **AND**
+> Heat / heated under reflux **[1 mark]**
+
+ii) The name and displayed formula of the structural isomer of butanenitrile are:
+
+(2-)methylpropanenitrile / methyl propanenitrile
+
+![Displayed formula of (2-)methylpropanenitrile / methyl propanenitrile](assets/012-displayed-formula-of-2-methylpropanenitrile-meth.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the correct name: (2-)methylpropanenitrile / methyl propanenitrile
+> 
+> 1 mark for the correct displayed formula (all bonds shown, including the C≡N triple bond)
+
+> **[exam-tip]**
+> The nucleophilic substitution of halogenoalkanes with KCN extends the carbon chain by one carbon atom.
+> 
+> For part ii, the displayed formula must show all bonds including the C≡N triple bond. Remember that the CN carbon counts towards the chain length when naming the isomer.

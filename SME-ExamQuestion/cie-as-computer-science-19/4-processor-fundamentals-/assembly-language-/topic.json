@@ -1,0 +1,330 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:47Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "4-processor-fundamentals-",
+  "name": "4. Processor Fundamentals"
+ },
+ "topic": {
+  "id": "top_gZMpXDF7PcqPNnjQ",
+  "slug": "assembly-language-",
+  "name": "Assembly Language",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "addressing-modes",
+   "name": "Addressing modes",
+   "revision_note_id": "rn_zh9Mc6r3mhmhW69g"
+  },
+  {
+   "slug": "assembly-language-basics",
+   "name": "Assembly language basics",
+   "revision_note_id": "rn_FRDNydKVD5BwKnQ6"
+  },
+  {
+   "slug": "instruction-groups-",
+   "name": "Instruction groups",
+   "revision_note_id": "rn_wSWQ5Mp2HBSwb9tZ"
+  },
+  {
+   "slug": "assembly-process-",
+   "name": "Assembly process",
+   "revision_note_id": "rn_V5jBKWtnYDK6kdbm"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_Ns6M5XDvhqydKgGP",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/4-processor-fundamentals-/assembly-language-/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/42844_nov-2023-q9b-9618-12.png": "001-table-with-computer-instructions-memory-addresse.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/43945_nov-2023-ans9b-9618-12.png": "002-table-with-columns-instruction-address-acc-ix-me.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_PcFh62PKBCfmTY32",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tgHhydhX8VcqkPYk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Yr56xgwmtZfJRwFS"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows part of the instruction set for a processor. The processor has two registers, the Accumulator (ACC) and the Index Register (IX).\n\n| **Instruction** | **Explanation** |   |\n|---|---|---|\n| Opcode | Operand |   |\n| `LDD` | `<address>` | Direct addressing. Load the contents of the location at the given address to ACC |\n| `LDX` | `<address>` | Indexed addressing. Form the address from <address> + the contents of the index register. Copy the contents of this calculated address to ACC |\n| `LDR` | `#n` | Immediate addressing. Load the number n to IX |\n| `STO` | `<address>` | Store the contents of ACC at the given address |\n| `ADD` | `#n` | Add the denary number n to the ACC |\n| `JMP` | `<address>` | Jump to the given address |\n| `INC` | `<register>` | Add 1 to the contents of the register (ACC or IX) |\n| `CMP` | `<address>` | Compare the contents of ACC with the contents of <address> |\n| `CMI` | `<address>` | Indirect addressing. The address to be used is at the given address. Compare the contents of ACC with the contents of this second address |\n| `JPE` | `<address>` | Following a compare instruction, jump to <address> if the compare was True |\n| `IN` |   | Key in a character and store its ASCII value in ACC |\n| `OUT` |   | Output to the screen the character whose ASCII value is stored in ACC |\n| `END` |   | Return control to the operating system |\n| <address> can be an absolute or a symbolic address<br># denotes a denary number, e.g. #123 |   |   |\n\nThe instructions in the processor’s instruction set can be grouped according to their function.\n\nIdentify the instruction group for each of the following opcodes.\n\n`IN` .............................\n\n`ADD `.........................\n\n`JPE `...........................\n\n`CMI` ...........................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point\n> \n> - `IN `- Input **and **output of data\n> - `ADD `- Arithmetic operations\n> - `JPE `- Unconditional and conditional instructions\n> - `CMI `- Compare instructions"
+    },
+    {
+     "id": "qstnprt_jJQJxt9FbPpFxNGm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Sw7xjscGJpcy44GB",
+      "spcpt_9s6ft5c2ryVvfNMH"
+     ],
+     "part_tier": null,
+     "problem_md": "The current contents of main memory and selected values from the ASCII character set are given on page 15.\n\nTrace the program currently in memory using the trace table when the input is ‘1’.\n\n![Table with computer instructions, memory addresses, and ASCII values. Includes instruction and output columns, memory values for addresses 100-111.](assets/001-table-with-computer-instructions-memory-addresse.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each set of shaded rows\n> \n> ![Table with columns: Instruction Address, ACC, IX, Memory Address (100-111), and Output. Rows show numerical data and an 'A' at address 22.](assets/002-table-with-columns-instruction-address-acc-ix-me.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NcfPJnZzzg4YB86Z",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_Q2qMgbrvdrNNDchw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_znNKGg967WWw9MNQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the purpose of the first pass of a two-pass assembler.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> - To create a symbol table"
+    },
+    {
+     "id": "qstnprt_W7WzjrT3kVJGSdqd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Yr56xgwmtZfJRwFS",
+      "spcpt_9s6ft5c2ryVvfNMH"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows part of the instruction set for a processor. The processor has two registers, the Accumulator (ACC) and the Index Register (IX).\n\n| Instruction | Explanation |   |\n|---|---|---|\n| Opcode | Operand |   |\n| `LDR` | `#n` | Immediate addressing. Load the number n to IX |\n| `STO` | `<address>` | Store contents of ACC at the given address |\n| `ADD` | `<address>` | Add the contents of the given address to the ACC |\n| `INC` | `<register>` | Add 1 to the contents of the register (ACC or IX) |\n| `CMP` | `#n` | Compare the contents of ACC with number n |\n| `JPE` | `<address>` | Following a compare instruction, jump to <address> if the compare was True |\n| `OUT` |   | Output to the screen the character whose ASCII value is stored in ACC |\n| <address> can be an absolute or symbolic address<br><br># denotes a denary number, e.g. #123 |   |   |\n\n(i) Give one example of an instruction that belongs to each of the following instruction groups.\n\nOnly use the instructions given in the table. Each instruction must have a suitable operand.\n\nData movement ...........................\n\nArithmetic operation ...................\n\nConditional instruction ................\n\n(3)\n\n(ii) The instruction` LDR #2` uses immediate addressing.\n\nGive **one **similarity and **one **difference between direct addressing and indexed addressing.\n\n(2)\n\n(iii) Identify **one **other mode of addressing.\n\n(1)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark **for each bullet point\n> \n> - Data movement: e.g. LDR #50 // STO 201\n> - Arithmetic operation: e.g. ADD 100 // INC IX\n> - Conditional instruction: e.g. JPE 96\n> \n> (ii)** 1 mark** for each bullet point (**max 2**)\n> \n> Similarity:\n> \n> - both load the contents of an address into the Accumulator\n> \n> Difference:\n> \n> - direct accesses the address given by the operand whereas indexed adds the contents of IX to the operand and accesses the data at that calculated address\n> \n> (iii) **1 mark** for\n> \n> - Indirect (addressing)\n> - Relative (addressing)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_986p3BHpJHnXj6ZY",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_grB5j9pnCk8TdvMH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Sw7xjscGJpcy44GB",
+      "spcpt_9s6ft5c2ryVvfNMH"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows part of the instruction set for a processor. The processor has two registers: the Accumulator (ACC) and an Index Register (IX).\n\n| **Instruction** | **Explanation** |   |\n|---|---|---|\n| **Opcode** | **Operand** |   |\n| `LDM` | `#n` | Immediate addressing. Load the number n to ACC |\n| `LDD` | `<address>` | Direct addressing. Load the contents of the location at the given address to ACC |\n| `LDI` | `<address>` | Indirect addressing. The address to be used is at the given address. Load the contents of this second address to ACC |\n| `LDX` | `<address>` | Indexed addressing. Form the address from <address> + the contents of the index register. Copy the contents of this calculated address to ACC |\n| `LDR` | `#n` | Immediate addressing. Load the number n to IX |\n| `ADD` | `#n/Bn/&n` | Add the number n to the ACC |\n| `ADD` | `<address>` | Add the contents of the given address to the ACC |\n| `SUB` | `#n/Bn/&n` | Subtract the number n from the ACC |\n| `SUB` | `<address>` | Subtract the contents of the given address from the ACC |\n| `INC` | `<register>` | Add 1 to the contents of the register (ACC or IX) |\n| <address> can be an absolute or a symbolic address <br># denotes a denary number, e.g. #123 B <br>denotes a binary number, e.g. B01001010 <br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| Address | Data |\n|---|---|\n| **48** | 51 |\n| **49** | 6 |\n| **50** | 48 |\n| **51** | 50 |\n| **52** | 49 |\n| **53** | 50 |\n| **54** | 6 |\n\nThe current contents of the ACC and IX are shown:\n\n| ACC | 2 |\n|---|---|\n| IX | 50 |\n\nComplete the table by writing the content of the ACC after each program has run.\n\n| Program number | Instructions | ACC content |\n|---|---|---|\n| 1 | `LDM #50 `<br>`INC ACC `<br>`SUB #1` |   |\n| 2 | `LDI 51 `<br>`ADD 52` |   |\n| 3 | `LDR #2 `<br>`LDX 50 `<br>`DEC ACC` |   |\n| 4 | `LDD 52 `<br>`SUB 54 `<br>`INC ACC` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each correct answer:\n> \n> | Program number | Instructions | ACC content |\n> |---|---|---|\n> | 1 | `LDM #50 `<br>`INC ACC `<br>`SUB #1` | **50** |\n> | 2 | `LDI 51 `<br>`ADD 52` | **97** |\n> | 3 | `LDR #2 `<br>`LDX 50 `<br>`DEC ACC` | **48** |\n> | 4 | `LDD 52 `<br>`SUB 54 `<br>`INC ACC` | **44** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_t5ySTGbP24JwJ2sT",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_wJbHQrYPYxQMGymV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Sw7xjscGJpcy44GB",
+      "spcpt_9s6ft5c2ryVvfNMH"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows part of the instruction set for a processor. The processor has two registers: the Accumulator (ACC) and an Index Register (IX).\n\n| **Instruction** | **Explanation** |   |\n|---|---|---|\n| **Opcode** | **Operand** |   |\n| `LDM` | `#n` | Immediate addressing. Load the number n to ACC |\n| `LDD` | `<address>` | Direct addressing. Load the contents of the location at the given address to ACC |\n| `LDI` | `<address>` | Indirect addressing. The address to be used is at the given address. Load the contents of this second address to ACC |\n| `LDX` | `<address>` | Indexed addressing. Form the address from <address> + the contents of the index register. Copy the contents of this calculated address to ACC |\n| `LDR` | `#n` | Immediate addressing. Load the number n to IX |\n| `ADD` | `#n/Bn/&n` | Add the number n to the ACC |\n| `ADD` | `<address>` | Add the contents of the given address to the ACC |\n| `SUB` | `#n/Bn/&n` | Subtract the number n from the ACC |\n| `SUB` | `<address>` | Subtract the contents of the given address from the ACC |\n| `INC` | `<register>` | Add 1 to the contents of the register (ACC or IX) |\n| <address> can be an absolute or a symbolic address <br># denotes a denary number, e.g. #123 B <br>denotes a binary number, e.g. B01001010 <br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| Address | Data |\n|---|---|\n| **10** | 1 |\n| **11** | 3 |\n| **12** | 5 |\n| **13** | 11 |\n| **14** | 10 |\n| **15** | 16 |\n| **16** | 12 |\n\nThe current contents of the ACC and IX are shown:\n\n| ACC | 10 |\n|---|---|\n| IX | 0 |\n\nComplete the table by writing the content of the ACC after each program has run.\n\n| Program number | Instructions | ACC content |\n|---|---|---|\n| 1 | `LDI 15 `<br>`SUB #1` |   |\n| 2 | `LDD 14 `<br>`ADD 11` |   |\n| 3 | `LDM #11 `<br>`ADD #3 `<br>`SUB 16` |   |\n| 4 | `LDR #2`<br>`LDX 14 `<br>`ADD #2` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct answer:\n> \n> | Program number | Instructions | ACC content |\n> |---|---|---|\n> | 1 | `LDI 15 `<br>`SUB #1` | **11** |\n> | 2 | `LDD 14 `<br>`ADD 11` | **13** |\n> | 3 | `LDM #11 `<br>`ADD #3 `<br>`SUB 16` | **2** |\n> | 4 | `LDR #2`<br>`LDX 14 `<br>`ADD #2` | **14** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RnQD8y4RrKmqWwRb",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_g4zmpNFJCCCzKC7f",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Yr56xgwmtZfJRwFS",
+      "spcpt_Sw7xjscGJpcy44GB",
+      "spcpt_9s6ft5c2ryVvfNMH"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows part of the instruction set for a processor. The processor has two registers: the Accumulator (ACC) and an Index Register (IX).\n\n| **Instruction** | **Explanation** |   |\n|---|---|---|\n| **Opcode** | **Operand** |   |\n| `LDM` | `#n` | Immediate addressing. Load the number n to ACC |\n| `LDD` | `<address>` | Direct addressing. Load the contents of the location at the given address to ACC |\n| `LDI` | `<address>` | Indirect addressing. The address to be used is at the given address. Load the contents of this second address to ACC |\n| `LDX` | `<address>` | Indexed addressing. Form the address from <address> + the contents of the index register. Copy the contents of this calculated address to ACC |\n| `LDR` | `#n` | Immediate addressing. Load the number n to IX |\n| `ADD` | `#n/Bn/&n` | Add the number n to the ACC |\n| `ADD` | `<address>` | Add the contents of the given address to the ACC |\n| `SUB` | `#n/Bn/&n` | Subtract the number n from the ACC |\n| `SUB` | `<address>` | Subtract the contents of the given address from the ACC |\n| `INC` | `<register>` | Add 1 to the contents of the register (ACC or IX) |\n| <address> can be an absolute or a symbolic address <br># denotes a denary number, e.g. #123 B <br>denotes a binary number, e.g. B01001010 <br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| Address | Data |\n|---|---|\n| **19** | 24 |\n| **20** | 2 |\n| **21** | 1 |\n| **22** | 3 |\n| **23** | 5 |\n| **24** | 4 |\n| **25** | 22 |\n\nThe current contents of the ACC and IX are shown:\n\n| ACC | 12 |\n|---|---|\n| IX | 1 |\n\nComplete the table by writing the content of the ACC after each program has run.\n\n| Program number | Instructions | ACC content |\n|---|---|---|\n| 1 | `LDD 20`<br>`ADD #2` |   |\n| 2 | `LDX 22` |   |\n| 3 | `LDI 25`<br>`INC ACC `<br>`SUB 22` |   |\n| 4 | `LDD 19`<br>`LDM #5`<br>`LDM #25` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each correct answer:\n> \n> | Program number | Instructions | ACC content |\n> |---|---|---|\n> | 1 | `LDD 20`<br>`ADD #2` | **4** |\n> | 2 | `LDX 22` | **5** |\n> | 3 | `LDI 25`<br>`INC ACC `<br>`SUB 22` | **1** |\n> | 4 | `LDD 19`<br>`LDM #5`<br>`LDM #25` | **25** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3c4ywf27DWtszKVN",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_WTwHx3dpX7rWtKC8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Sw7xjscGJpcy44GB",
+      "spcpt_9s6ft5c2ryVvfNMH"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows part of the instruction set for a processor. The processor has two registers, the Accumulator (ACC) and the Index Register (IX).\n\n| **Instruction** | **Explanation** |   |\n|---|---|---|\n| **Opcode** | **Operand** |   |\n| `LDM` | `#n` | Immediate addressing. Load the number n to ACC |\n| `LDD` | `<address>` | Direct addressing. Load the contents of the location at the given address to ACC |\n| `LDI` | `<address>` | Indirect addressing. The address to be used is at the given address. Load the contents of this second address to ACC |\n| `LDX` | `<address>` | Indexed addressing. Form the address from <address> + the contents of the index register. Copy the contents of this calculated address to ACC |\n| `LDR` | `#n` | Immediate addressing. Load the number n to IX |\n| `ADD` | `#n/Bn/&n` | Add the number n to the ACC |\n| `ADD` | `<address>` | Add the contents of the given address to the ACC |\n| `SUB` | `#n/Bn/&n` | Subtract the number n from the ACC |\n| `SUB` | `<address>` | Subtract the contents of the given address from the ACC |\n| `INC` | `<register>` | Add 1 to the contents of the register (ACC or IX) |\n| `DEC` | `<register>` | Subtract 1 from the contents of the register (ACC or IX) |\n| <address> can be an absolute or a symbolic address <br># denotes a denary number, e.g. #123 B <br>denotes a binary number, e.g. B01001010 <br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| Address | Data |\n|---|---|\n| **50** | 54 |\n| **51** | 55 |\n| **52** | 50 |\n| **53** | 52 |\n| **54** | 100 |\n| **55** | 25 |\n| **56** | 50 |\n\nThe current contents of the ACC and IX are shown:\n\n| ACC | 50 |\n|---|---|\n| IX | 45 |\n\nComplete the table by writing the content of the ACC after each program has run.\n\n|   | Instructions | ACC content |\n|---|---|---|\n| 1 | `LDD 50 `<br>`ADD #4 `<br>`ADD 54` |   |\n| 2 | `LDI 53 `<br>`DEC ACC `<br>`ADD 56` |   |\n| 3 | `LDM #55 `<br>`SUB #5` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each:\n> \n> |   | Instructions | ACC content |\n> |---|---|---|\n> | 1 | `LDD 50 `<br>`ADD #4 `<br>`ADD 54` | **158** |\n> | 2 | `LDI 53 `<br>`DEC ACC `<br>`ADD 56` | **99** |\n> | 3 | `LDM #55 `<br>`SUB #5` | **50** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_w75mDWNMmF5S3cxM",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_zFxPvXpTJghKqKP2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Yr56xgwmtZfJRwFS",
+      "spcpt_Sw7xjscGJpcy44GB",
+      "spcpt_9s6ft5c2ryVvfNMH"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows part of the instruction set for a processor. The processor has two registers, the Accumulator (ACC) and the Index Register (IX).\n\n| **Instruction** | **Explanation** |   |\n|---|---|---|\n| **Opcode** | **Operand** |   |\n| `LDM` | `#n` | Immediate addressing. Load the number n to ACC |\n| `LDD` | `<address>` | Direct addressing. Load the contents of the location at the given address to ACC |\n| `LDI` | `<address>` | Indirect addressing. The address to be used is at the given address. Load the contents of this second address to ACC |\n| `LDX` | `<address>` | Indexed addressing. Form the address from <address> + the contents of the index register. Copy the contents of this calculated address to ACC |\n| `LDR` | `#n` | Immediate addressing. Load the number n to IX |\n| `ADD` | `#n/Bn/&n` | Add the number n to the ACC |\n| `ADD` | `<address>` | Add the contents of the given address to the ACC |\n| `SUB` | `#n/Bn/&n` | Subtract the number n from the ACC |\n| `SUB` | `<address>` | Subtract the contents of the given address from the ACC |\n| `INC` | `<register>` | Add 1 to the contents of the register (ACC or IX) |\n| `DEC` | `<register>` | Subtract 1 from the contents of the register (ACC or IX) |\n| <address> can be an absolute or a symbolic address <br># denotes a denary number, e.g. #123 B <br>denotes a binary number, e.g. B01001010 <br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| Address | Data |\n|---|---|\n| `19` | `25` |\n| `20` | `23` |\n| `21` | `2` |\n| `22` | `4` |\n| `23` | `15` |\n| `24` | `50` |\n| `25` | `22` |\n\nThe current contents of the ACC and IX are shown:\n\n| ACC | 50 |\n|---|---|\n| IX | 20 |\n\nComplete the table by writing the content of the ACC and the IX after each set of instructions has run.\n\n|   | Instructions | ACC content | IX content |\n|---|---|---|---|\n| 1 | `LDM #19`<br>`DEC ACC` |   |   |\n| 2 | `LDD 23`<br>`ADD 19` |   |   |\n| 3 | `LDI 25`<br>`INC ACC` |   |   |\n| 4 | `LDR #21`<br>`LDX 2` |   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct content of the ACC (4) \n> **1 mark** for correct IX column\n> \n> |   | Instructions | ACC content | IX content |\n> |---|---|---|---|\n> | 1 | `LDM #19`<br>`DEC ACC` | **18** | **20** |\n> | 2 | `LDD 23`<br>`ADD 19` | **40** | **20** |\n> | 3 | `LDI 25`<br>`INC ACC` | **5** | **20** |\n> | 4 | `LDR #21`<br>`LDX 2` | **15** | **21** |"
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 # Exam Questions — Practical Circuits
 **10. D.C. Circuits** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 16 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 21 questions across 2 sets
 
 
 ## Multiple Choice Questions (16 questions)
@@ -190,3 +190,220 @@ Given that the current through the circuit is 1.5 A, what is the value of the lo
 A battery is marked 9.0 V.
 
 What does this mean ?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — easy — 14 marks
+
+**Q1** [3 marks]
+
+The electromotive force, *E  *is defined by the equation
+
+*E *= *I *(*R* + *r*)
+
+State the definition of the following variables and an appropriate unit for each.
+
+(i) *I*
+
+[1]
+
+(ii) *R*
+
+[1]
+
+(iii) *r*
+
+[1]
+
+**Q1** [5 marks]
+
+**Extract:**
+
+The electromotive force, E is defined by the equation E = I(R + r). State the definition of the following variables and an appropriate unit for each. (i) I is Current (Amps/A); (ii) R is Load resistance (Ohms/Ω); (iii) r is Internal resistance (Ohms/Ω).
+
+A circuit connecting a cell with internal resistance to a resistor is shown in Fig. 1.1. ** **
+
+![5-4-s-q--q1b-easy-aqa-a-level-physics](assets/015-5-4-s-q-q1b-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Place in each of the grey boxes one of the following variables:
+
+| ***V*** | ***r*** | ***E*** | ***I*** | ***R*** |
+|---|---|---|---|---|
+
+**Q1** [3 marks]
+
+**Extract:**
+
+A circuit connecting a cell with internal resistance to a resistor is shown in Fig. 1.1. Fig. 1.1
+
+A current of 0.6 mA flows through the circuit in Fig. 1.1 and the resistor has a resistance of 2.5 kΩ.
+
+Calculate the terminal potential difference of the circuit.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+A current of 0.6 mA flows through the circuit in Fig. 1.1 and the resistor has a resistance of 2.5 kΩ. Calculate the terminal potential difference of the circuit.
+Current, I = 0.6 mA; Resistance, R = 2.5 kΩ; V = IR = (0.6 × 10^–3) × (2.5 × 10^3) = 1.5 V
+
+The internal resistance of the cell is 1.3 kΩ.
+
+Calculate the emf of the cell using the equation E.m.f. *E *= *I *(*R* + *r*).
+
+### Q2 — medium — 13 marks
+
+**Q2** [3 marks]
+
+Explain why the terminal potential difference (p.d) of a cell with internal resistance may differ from the electromotive force (e.m.f) of the cell.
+
+**Q2** [5 marks]
+
+A battery of e.m.f 6.2 V and internal resistance 7.0 Ω is connected in series with a resistor of resistance 11 Ω as shown in Fig 1.1.
+
+![10-1-2b-m-e-m-f-and-internal-resistance-circuit](assets/017-10-1-2b-m-e-m-f-and-internal-resistance-circuit.png)
+
+The current $I$ flows through the circuit
+
+Determine
+
+(i) the current $I$ in the circuit,
+
+[3]
+
+(ii) the terminal p.d. of the battery.
+
+[2]
+
+**Q2** [2 marks]
+
+**Extract:**
+
+A battery of e.m.f 6.2 V and internal resistance 7.0 Ω is connected in series with a resistor of resistance 11 Ω as shown in Fig 1.1. The current I flows through the circuit.
+
+A second identical resistor is added in series with the resistor in Fig 1.1.
+
+Quantitatively explain the change in the current in the circuit.
+
+**Q2** [3 marks]
+
+**Extract:**
+
+A battery of e.m.f 6.2 V and internal resistance 7.0 Ω is connected in series with a resistor of resistance 11 Ω as shown in Fig 1.1.
+The current I flows through the circuit
+
+The second 11 Ω resistor is now connected in parallel to the initial 11 Ω resistor in Fig 1.1.
+
+Qualitatively explain the effect this has on the battery.
+
+### Q3 — easy — 9 marks
+
+**Q3** [2 marks]
+
+Explain why the electromotive force (e.m.f) of a cell with internal resistance may be more than the terminal potential difference (p.d.) of the cell.
+
+**Q3** [3 marks]
+
+Compare the definitions of e. m .f and p. d.
+
+**Q3** [1 mark]
+
+For a cell, explain the term *internal resistance*.
+
+**Q3** [3 marks]
+
+A battery of e.m.f 15.2 V and internal resistance *r* is connected to a resistor A, as shown in Fig 1.1.
+
+![Simple circuit diagram showing a 15.2 V cell with internal resistance r in series with an external resistor A connected in a single closed loop](assets/018-simple-circuit-diagram-showing-a-15-2-v-cell-wit.png)
+
+**Fig 1.1**
+
+The current in resistor A is 400 mA and the power dissipated by it is 6 W.
+
+Calculate *r *of the battery.
+
+### Q4 — medium — 13 marks
+
+**Q4** [3 marks]
+
+Two circuits X and Y shown in Fig 1.1 were used by a student to test a battery of four identical cells. In circuit X the battery is connected to a voltmeter registering 12 V and there was no load resistor. In circuit Y a load resistor of 5.2 Ω is connected in parallel with an ammeter registering 0.41 A and a voltmeter registering 4.9 V. Assume that the meters in the circuits are ideal.
+
+![10-1-m-q2a-sq-cie-ial-physics](assets/019-10-1-m-q2a-sq-cie-ial-physics.png)
+
+**Fig. 1.1**
+
+Explain why there is a difference in voltages recorded in the two circuits.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+Two circuits X and Y shown in Fig 1.1 were used by a student to test a battery of four identical cells. In circuit X the battery is connected to a voltmeter registering 12 V and there was no load resistor. In circuit Y a load resistor of 5.2 Ω is connected in parallel with an ammeter registering 0.41 A and a voltmeter registering 4.9 V. Assume that the meters in the circuits are ideal.
+
+Calculate the internal resistance of a single cell from Fig. 1.1.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+Two circuits X and Y shown in Fig 1.1 were used by a student to test a battery of four identical cells. In circuit X the battery is connected to a voltmeter registering 12 V and there was no load resistor. In circuit Y a load resistor of 5.2 Ω is connected in parallel with an ammeter registering 0.41 A and a voltmeter registering 4.9 V. Assume that the meters in the circuits are ideal.
+
+Terminal p.d., V = 4.9 V; E.m.f., ε = 12 V; Current, I = 0.41 A; r = (12 - 4.9)/0.41 = 17.32 Ω (total internal resistance); internal resistance of a single cell r/4 = 4.3 Ω.
+
+One of the cells in the battery is reversed.
+
+Determine the new reading on the ammeter in circuit** **Y.
+
+**Q4** [4 marks]
+
+**Extract:**
+
+Two circuits X and Y shown in Fig 1.1 were used by a student to test a battery of four identical cells. In circuit X the battery is connected to a voltmeter registering 12 V and there was no load resistor. In circuit Y a load resistor of 5.2 Ω is connected in parallel with an ammeter registering 0.41 A and a voltmeter registering 4.9 V. Assume that the meters in the circuits are ideal.
+
+In circuit Y, the resistance of the load resistor *R*  is altered so that a series of values on the voltmeter and the corresponding values of the current on the ammeter are obtained.
+
+![5-4-s-q--q1d-medium-easy-aqa-a-level-physics](assets/020-5-4-s-q-q1d-medium-easy-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+Using the axes in Fig.1.2, sketch the graph you would expect to obtain as *R * is changed. State how the values of *ε  *and *r*  can be obtained from the graph.
+
+### Q5 — medium — 11 marks
+
+**Q5** [4 marks]
+
+A battery of e.m.f. 60.0 V and internal resistance, *r*, is connected in a circuit as shown in Fig. 1.1.
+
+![10-1-m-q3a-sq-cie-ial-physics](assets/022-10-1-m-q3a-sq-cie-ial-physics.png)
+
+**Fig 1.1**
+
+The current in the battery is 2.3 A.
+
+Calculate the internal resistance *r*.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+A battery of e.m.f. 60.0 V and internal resistance, r, is connected in a circuit as shown in Fig. 1.1. The current in the battery is 2.3 A. Calculate the internal resistance r. [Answer: r = 15.2 Ω = 15 Ω (2 s.f.)]
+
+Calculate the energy dissipated in the battery in 4.0 minutes.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+A battery of e.m.f. 60.0 V and internal resistance, r, is connected in a circuit as shown in Fig. 1.1. The current in the battery is 2.3 A.
+Calculate the energy dissipated in the battery in 4.0 minutes. Energy = (2.3)^2 × 15.2 × 240 = 19297.92 J = 19 000 J (2 s.f.)
+
+Calculate the percentage of the total energy transformed by the battery that is dissipated in the battery in 4.0 minutes.
+
+**Q5** [3 marks]
+
+The internal resistance of the battery affects the efficiency of the transfer of energy from the battery to the circuit.
+
+Explain what causes internal resistance and why this affects the efficiency.

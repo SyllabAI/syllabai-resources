@@ -292,7 +292,7 @@ Fig. 1.1 shows four diodes and a load resistor of resistance, 2.4 kΩ, connected
 
 A sinusoidal alternating voltage *V*<sub>*IN*</sub> is applied across the input terminals X and Y. The variation of time *t *of *V*<sub>*IN*</sub> is given by the equation
 
-`V subscript I N end subscript space equals space 3.0 space sin space open parentheses 20 pi space t close parentheses`
+$V_{I N} = 3.0 \sin ( 20 \pi t )$
 
 where *V*<sub>IN</sub> is in volts and *t *is in seconds.
 

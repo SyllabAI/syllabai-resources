@@ -1,0 +1,935 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:28Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "3-hardware-",
+  "name": "3. Hardware"
+ },
+ "topic": {
+  "id": "top_pJprvh3XCYmjpmfx",
+  "slug": "computers-and-components",
+  "name": "Computers & Components",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "memory-types-",
+   "name": "Memory types",
+   "revision_note_id": "rn_CDtg87dQC5VFTm3H"
+  },
+  {
+   "slug": "monitoring-and-control",
+   "name": "Monitoring & control",
+   "revision_note_id": "rn_VFWSj88hpxFJBtcw"
+  },
+  {
+   "slug": "hardware-devices-",
+   "name": "Hardware devices",
+   "revision_note_id": "rn_ZvtymzHtrfFBfXxs"
+  },
+  {
+   "slug": "system-components",
+   "name": "System components",
+   "revision_note_id": "rn_yFy4b36tPKfJjRqj"
+  },
+  {
+   "slug": "embedded-systems-",
+   "name": "Embedded systems",
+   "revision_note_id": "rn_DswJjwMYYfRvvH7Q"
+  },
+  {
+   "slug": "use-of-buffers",
+   "name": "Use of Buffers",
+   "revision_note_id": "rn_dCtWdyR97ZNMp5Nk"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_hPP9ZKYhPGyQgHCY",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 16,
+   "questions_embedded": 16,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/3-hardware-/computers-and-components/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 16,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/43444_q7a-june-2024-9618-13-3a.png": "001-a-robot-serving-tables-in-a-restaurant-setting-f.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/43469_q2a-june-2024-9618-11.png": "002-person-pressing-a-doorbell-button-on-a-smart-vid.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_Kpw4KZwZtkbfFhDY",
+   "set_slug": "exam-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_dtdCD9wygpgv7M4G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_mqZWwXXhRSQtCg4H",
+      "spcpt_JHK46SwrfS7pz7kj"
+     ],
+     "part_tier": null,
+     "problem_md": "A laptop computer has Static RAM (SRAM).\n\nA virtual reality headset and a laser printer are connected to the laptop.\n\nExplain why Static RAM is used in the laptop instead of Dynamic RAM.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**).\n> \n> - Static RAM has faster access time\n> - …because it does not need to be refreshed\n> - …used on the CPU for improvement of CPU cache speed\n> - Static RAM has lower"
+    },
+    {
+     "id": "qstnprt_G6SQbzynk97Z7Cnz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZS5HMCnYKQ27P6Bq",
+      "spcpt_m5VY2BTxhZPwTcmP"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **two **reasons for using Electrically Erasable Programmable ROM (EEPROM) in a virtual reality headset.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - EEPROM allows frequent / multiple read / write / erase operations\n> - …which means that the contents of the firmware in the headset can be changed easily\n> - …without fully erasing the contents of the firmware in the headset first"
+    },
+    {
+     "id": "qstnprt_KhvfgR36dBfDNGKt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Mn5JDq5Pgp3sbfZC",
+      "spcpt_4bffRkTgfPcY3PpW"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe how the laser printer makes use of a buffer.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> - The print instructions and data are sent by the laptop to a buffer (at laptop speed)\n> - The data is transferred from the buffer to the printer (at printer speed)\n> - …allowing user to continue using the laptop // and allowing processor to continue processing\n> - …instead of waiting for relatively slower printer\n> - When the buffer is empty an interrupt is sent to the laptop\n> - …requesting more data"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dV6RxBHDfXtBqgYT",
+   "set_slug": "exam-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_vS4T5nFrg29pzB23",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "b(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_ZzBV8YB6R3vHJRTh",
+      "spcpt_MpxPWdNqSR6tNTkX"
+     ],
+     "part_tier": null,
+     "problem_md": "The program files are stored on a new hard disk after they have been downloaded.\n\nDescribe the reasons why a hard disk formatter is needed for the new",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point (**max 3**).\n> \n> - Disk needs to be prepared for initial use\n> - Disk needs to be checked for errors\n> - A new file system needs to be generated on the disk\n> - The file allocation table needs to be set up"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PKXnW6fBb72V5SCg",
+   "set_slug": "exam-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_wKDr4NFJ9HQdBsCd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "c(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_Mn5JDq5Pgp3sbfZC"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the roles of the address bus, the data bus **and **buffers in the process of writing data to the optical disc reader/writer.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each component (**max 3**)\n> \n> Buffers\n> \n> - A buffer temporarily holds data until it is ready to be transmitted **to the device**\n> \n> Address Bus\n> \n> - The address of the **data to be written to** **the device** (in RAM) is carried on the address bus\n> \n> Data Bus\n> \n> - All data to be **written to the device / buffer** is carried on the data bus"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V9XwfCCc78QJm2r3",
+   "set_slug": "exam-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_S4TDJXGGWkwCgtXT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "A factory makes chocolate bars.\n\nThe factory uses a conveyor belt that moves the products from one stage of production to the next stage.\n\nAn automated system counts the number of chocolate bars made at the end of production.\n\nThe system includes a sensor positioned above the conveyor belt.\n\nIdentify one appropriate type of sensor that can be used.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> - infra-red / proximity (sensor)"
+    },
+    {
+     "id": "qstnprt_Gd98P4WYW28sCyTQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_4bffRkTgfPcY3PpW"
+     ],
+     "part_tier": null,
+     "problem_md": "A second automated system removes chocolate bars with an incorrect weight from the production line.\n\nDescribe the role of an **actuator **in this second system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Actuator generates a signal / causes an action / converts electrical energy into a mechanical force\n> - ... to push an arm // to open a trap door // to pick up the chocolate bar with the incorrect weight"
+    },
+    {
+     "id": "qstnprt_CxMmqDxZQpSZsTrC",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jcG6xVybCnfThxjK"
+     ],
+     "part_tier": null,
+     "problem_md": "The factory has many different machines with embedded systems.\n\n(i) Identify **two **features of embedded systems.\n\n(2)\n\n(ii) Identify **one **drawback of embedded systems.\n\n(1)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark** for each feature (**max 2**)\n> \n> - Dedicated to a single task // limited number of functions\n> - Built into a larger system // integrated into a larger system\n> - An embedded system must contain a processor, memory and an I/O capability // Dedicated hardware\n> \n> (ii) **1 mark** for each bullet point (**max 1**)\n> \n> - Difficult to change / update the firmware by the user // Difficult to upgrade devices to take advantage of new technology\n> - Cannot be easily **adapted **for task\n> - Troubleshooting faults/upgrading is a specialist task\n> - Devices are often thrown away rather than repaired as difficult to upgrade or repair"
+    }
+   ]
+  },
+  {
+   "id": "qstn_4yFKHvnZX7jqvHkW",
+   "set_slug": "exam-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_kngbTkZw4dqSS9Nf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_PTxQ9BkNctX3djVm",
+      "spcpt_NXQkJSSGwbx4bdCc"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the importance of feedback in a control system.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** for each bullet point (**max 2**)\n> \n> - Feedback ensures that a system operates within set criteria / constraints\n> - ...by enabling system output to affect (subsequent) system input\n> - ...thus allowing conditions to be <u>automatically </u>adjusted"
+    },
+    {
+     "id": "qstnprt_BtWhnSKSpj5ZXG44",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jcG6xVybCnfThxjK"
+     ],
+     "part_tier": null,
+     "problem_md": "Give **one **example of an embedded system **and **explain why it is an example of an embedded system.",
+     "solution_md": "> **[mark-scheme]**\n> **One mark** for each reason to **max 3 **to match the example given\n> \n> • Dedicated to one task **applied to example**\n> • Does not require much processing power **applied to example**\n> • Built into a larger system **applied to example**\n> • Contains firmware that cannot be easily updated **applied to example**\n> • The system does not have its own operating system\n> • An embedded system must contain a processor, memory and an I/O capability // Dedicated hardware"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fxy7ZQkRgVxSCYHg",
+   "set_slug": "exam-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_htzvCPNHKn3HY3jG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cVjcvWw34W4zdBSV",
+      "spcpt_4bffRkTgfPcY3PpW"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the principal operations of a 3D printer.",
+     "solution_md": "**1 mark **for each bullet point (**max 3**)\n\nGeneric mark points:\n\n- Additive manufacturing\n- Uses a digital 3D model or a Computer-Aided Design (CAD) file\n- Builds up the model one layer at a time\n- ...starting from the bottom\n- ...using x, y, and z coordinates\n- The material is fused or cured together layer by layer\n\nSpecific mark points:\n\n**Fused Deposition Modelling (FDM)**\n\n- Material is heated and pushed through nozzle / extruder\n\n**Stereolithography (SLA) **\n\n- Photosensitive liquid resin is exposed to a UV-laser beam\n\n**Digital Light Processing (DLP) **\n\n- Uses liquid plastic resin melted with arc lamps\n\n**Selective Laser Sintering (SLS) **\n\n- Uses a laser to form objects from powdered material"
+    },
+    {
+     "id": "qstnprt_vcVXYG6RfpzvmG9G",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the purpose of a temperature sensor within the 3D printer.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - To prevent overheating // ensure material is hot enough\n> - ...by identifying the temperature of the object (being printed)\n> - ...by identifying the temperature of the material being used"
+    },
+    {
+     "id": "qstnprt_GFCyJZzMSGD5gb9m",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_JHK46SwrfS7pz7kj"
+     ],
+     "part_tier": null,
+     "problem_md": "A 3D printer contains 1GB of Dynamic RAM (DRAM) to store print data.\n\nState **two** advantages of the printer having Dynamic RAM instead of Static RAM (SRAM).",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Dynamic RAM has lower cost per unit\n> - A fast access speed is not needed\n> - Higher bit density // more data can be stored per chip"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wghj6gq87N8x3Dn6",
+   "set_slug": "exam-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_K3vTrzwYnMts39md",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_mqZWwXXhRSQtCg4H"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe what is meant by the **Immediate Access Store (IAS)** in a computer system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point (**max 2**)\n> \n> - Immediate Access Store holds all the data / instructions / programs currently in use\n> - Immediate Access Store is volatile memory\n> - Immediate Access Store has fast access times"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DzSbWmp4ZpRsbCf7",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_7FSBhnb2SZQkrBKX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nSqZcFy7fhgJCVpX",
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "Robots are used to serve food and drink to customers at a restaurant.\n\n![A robot serving tables in a restaurant setting, featuring multiple shelves and surrounded by chairs and tables.](assets/001-a-robot-serving-tables-in-a-restaurant-setting-f.png)\n\nA robot navigates through the restaurant to the table it is serving.\n\nComplete the table by identifying **two **sensors that can be included in the robot **and** the purpose of each sensor in the navigation system.\n\n| Sensor | Purpose of sensor in navigation system |\n|---|---|\n|   |   |\n|   |   |",
+     "solution_md": "**1 mark** for sensor and matching purpose to **max 2**:\n\n| Sensor | Purpose of sensor in navigation system |\n|---|---|\n| Pressure | To detect if a table or other obstacle has been hit // to detect when food is put on/taken off the tray so it can move on |\n| Infra-red | To detect if there is an obstacle in the way // to indicate that it has reached the desired table |\n| Sound | To detect if someone is speaking so that it can use AI to decipher the speech and whether the robot is required to stop |"
+    },
+    {
+     "id": "qstnprt_wdjnfwzjHGHzstb2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_PTxQ9BkNctX3djVm",
+      "spcpt_NXQkJSSGwbx4bdCc"
+     ],
+     "part_tier": null,
+     "problem_md": "The navigation system can be considered an example of a control system.\n\nDescribe how feedback is used in a control system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each to **max 2**:\n> \n> - Feedback ensures that a system operates within set criteria / constraints\n> - ... by enabling system output to affect subsequent system input\n> - ... thus allowing conditions to be automatically adjusted"
+    },
+    {
+     "id": "qstnprt_vhJHJtgVqzfnGr8M",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_nSqZcFy7fhgJCVpX"
+     ],
+     "part_tier": null,
+     "problem_md": "The robot includes a touchscreen for the customer to make their payment.\n\nDescribe the principal operation of a touchscreen.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 4**:\n> \n> - Resistive: The space between the conductive layers is removed/the layers touch and a circuit is completed\n> - Capacitive: The electrical charge changes where the user pressed\n> - The point of contact is identified\n> - ... from the change in electrical field\n> - The software/microprocessor **calculates **the coordinates"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xNHWqSbnSWD2r5ZF",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_s9p9GNQ8YhC7t5ft",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cVjcvWw34W4zdBSV",
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer game is being designed that users will be able to play using a virtual reality (VR) headset.\n\nComplete the description of the principal operation of a VR headset.\n\nA headset can have one or two ................  that output the image to the user. The headset has speakers that output surround sound to give a realistic experience.\n\nThe user’s head movements are detected using a sensor.\n\nThis sensor is a ................  . The data is transmitted to a microprocessor that analyses the data to identify the ................ of movement. Some headsets use ................  that record the user’s eye movements for analysis.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correctly completed statement:\n> \n> - (LCD) displays/screens/lenses\n> - gyroscope/accelerometer\n> - direction/speed\n> - digital cameras\n> \n> A headset can have one or **two (LCD) displays/screens/lenses** that output the image to the user. The headset has speakers that output surround sound to give a realistic experience. The user's head movements are detected using a sensor. This sensor is a **gyroscope/accelerometer**. The data is transmitted to a microprocessor that analyses the data to identify the **direction/speed** of movement. Some headsets use **digital cameras** that record the user's eye movements for analysis."
+    },
+    {
+     "id": "qstnprt_h3wnvPd3vty392Hx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Mn5JDq5Pgp3sbfZC"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer uses a buffer when transmitting data to the VR headset.\n\nExplain how a buffer is used when data is transmitted between the computer and the VR headset.",
+     "solution_md": "**1 mark **each to **max 3**:\n\n- The buffer is used as a **temporary **store for data going to the headset\n- Data is **transferred **into the buffer by the computer\n- Data is **retrieved **from the buffer by the headset\n- When the buffer is empty or full, an interrupt is sent to the computer requesting more data or stopping further data being sent\n- When the headset has enough data or needs more data, an interrupt is sent by the headset to the computer to stop sending data from the buffer"
+    },
+    {
+     "id": "qstnprt_fBzwc3HMFZ2XsQcP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_m5VY2BTxhZPwTcmP"
+     ],
+     "part_tier": null,
+     "problem_md": "The VR headset has Electrically Erasable Programmable Read Only Memory (EEPROM).\n\nExplain the benefits of using EEPROM instead of other types of Read Only Memory (ROM) in the VR headset.",
+     "solution_md": "**1 mark** each to **max 3**:\n\n- EEPROM allows** frequent or multiple** read, write, and erase operations\n- … so the headset can take advantage of new features\n- … without fully erasing the contents of the firmware in the headset first // can erase a particular byte or the whole EEPROM\n- … without removing the chip(s) or firmware from the headset\n- … the contents of the firmware in the headset can be changed by the user without technical expertise\n- Cheaper to manufacture, so the headset will be cheaper to purchase"
+    }
+   ]
+  },
+  {
+   "id": "qstn_w9PQGN2WC8HNTGVt",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_yFgSr9fywXkmdb5m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jcG6xVybCnfThxjK"
+     ],
+     "part_tier": null,
+     "problem_md": "A video doorbell is attached to the front door of a house. The doorbell uses a motion sensor to detect when a visitor walks in front of the door. When the motion sensor is activated:\n\n- The digital camera in the doorbell starts recording a video.\n- A message is transmitted to a smartphone so that the person who lives in the house can watch the video.\n\nThe doorbell also has a button that can be pressed. When the button is pressed, a message is transmitted to a smartphone to play the doorbell sound.\n\nThe videos are stored on the doorbell’s internal secondary storage device and overwritten when the secondary storage device is full.\n\n![Person pressing a doorbell button on a smart video doorbell mounted beside a door, with a glass pane visible on the door.](assets/002-person-pressing-a-doorbell-button-on-a-smart-vid.png)\n\nThe video doorbell can be considered an example of an embedded system.\n\nIdentify **two** characteristics of the doorbell that suggest it is an embedded system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - The doorbell only performs the specific tasks of motion detection/video recording/doorbell ringing\n> - The motion sensor and digital camera are built into the doorbell\n> - The CPU/memory/storage/software are all dedicated to this task only\n> - Only a dedicated microprocessor is required due to the limited processing requirements"
+    },
+    {
+     "id": "qstnprt_sGFXSm3CHXXRTWm3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_NXQkJSSGwbx4bdCc",
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "State whether the video doorbell is a monitoring system or a control system. Justify your choice.",
+     "solution_md": "> **[mark-scheme]**\n> No mark for identification of monitoring or control **1 mark** each to **max 2** for justification:\n> \n> Monitoring:\n> \n> - The turning on of the digital camera does not affect the input to the sensor/button\n> - The transmission of the data/video does not affect the input to the sensor/button\n> - The ringing of the doorbell does not affect the input to the button\n> \n> Control:\n> \n> - Video doorbell does not only store the values from the motion sensor\n> - The data is processed, generating a signal to start the digital camera recording\n> - Button pressed/motion detected causes a signal to be sent over a network to the smartphone"
+    },
+    {
+     "id": "qstnprt_hPsrGkTjJhh2bpfm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_ZzBV8YB6R3vHJRTh",
+      "spcpt_mqZWwXXhRSQtCg4H",
+      "spcpt_MpxPWdNqSR6tNTkX",
+      "spcpt_Mn5JDq5Pgp3sbfZC"
+     ],
+     "part_tier": null,
+     "problem_md": "The video doorbell has both primary memory and secondary storage.\n\n(i) Identify **two **items of data that the video doorbell will store in primary memory.\n\n(2)\n\n(ii) The video doorbell has a solid state (flash) secondary storage device.\n\nComplete the table by writing the answer or answers to each statement about the principal operation of solid state (flash) memory.\n\n| Statement | Answer |\n|---|---|\n| the **two **types of logic gate that can be used to create solid state devices |   |\n| the number of transistors contained in each cell |   |\n| the type of gate that can retain electrons without power |   |\n| the type of gate that allows or stops current from passing through |   |\n\n(4)\n\n(iii) The video doorbell uses a buffer.\n\nDescribe how the video doorbell will use the buffer.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** each to **max 2**:\n> \n> - Current reading or data from motion sensor\n> - Current or recent video\n> - Instructions being executed\n> - Start-up, BIOS, or boot-up instructions\n> \n> (ii)** 1 mark** for each row:\n> \n> | Statement | Answer |\n> |---|---|\n> | the **two **types of logic gate that can be used to create solid state devices | **NAND NOR** |\n> | the number of transistors contained in each cell | **2** |\n> | the type of gate that can retain electrons without power | **floating** |\n> | the type of gate that allows or stops current from passing through | **control** |\n> \n> (iii)** 1 mark **each to **max 2**:\n> \n> - Captured video is transmitted to buffer\n> - … video is transmitted from buffer to smartphone\n> - Store recent data in a buffer for the user to rewind\n> - … instead of storing everything in secondary storage\n> - Store readings from motion sensor\n> - … until the microprocessor can process them\n> - Store video from digital camera\n> - … before moving it to secondary storage"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vmtyp6MXmKZVDwJs",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_59tCnhH8ckzXfQ8V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PTxQ9BkNctX3djVm",
+      "spcpt_NXQkJSSGwbx4bdCc",
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "A car has an automatic braking system.\n\nA sensor is used to measure the distance to objects that are in front of the car.\n\nThe car automatically brakes if an object is too close to the front of the car or the distance between the car and the object is decreasing too quickly. The closer the object is to the front of the car, the harder the car brakes so that the car slows down more quickly.\n\nExplain the reasons why the automatic braking system of the car is a control system.",
+     "solution_md": "**1 mark** for each bullet point (**max 3**)\n\n- The system uses feedback\n- The system acts independently\n- Input data causes the car to brake\n- … braking decreases or changes the distance to the object\n- … this new distance is used to determine whether or how hard the car needs to brake"
+    }
+   ]
+  },
+  {
+   "id": "qstn_96KskSp6bDkyYDgb",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_SYQh5RNcJV6bWC3G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_mqZWwXXhRSQtCg4H",
+      "spcpt_JHK46SwrfS7pz7kj"
+     ],
+     "part_tier": null,
+     "problem_md": "A memory buffer uses Dynamic RAM (DRAM).\n\nIdentify two differences between DRAM and Static RAM (SRAM).",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each difference\n> \n> e.g.\n> \n> - DRAM requires constant refreshing, but SRAM does not need to be constantly refreshed\n> - DRAM generally has greater capacities per chip, but SRAM generally has lower capacities per chip\n> - DRAM has slower access times than SRAM"
+    },
+    {
+     "id": "qstnprt_KNCDbKfmRQrM9Z5r",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_MpxPWdNqSR6tNTkX",
+      "spcpt_Mn5JDq5Pgp3sbfZC"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how a memory buffer is used when a computer is transferring data to its magnetic hard disk drive.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> - The computer and the hard disk drive transmit and receive at different speeds // The computer transfers data faster than the HDD can receive\n> - The buffer is used for temporary storage\n> - … so that the computer can transfer data to the buffer at the higher speed\n> - ... and is not held up waiting for data to transfer\n> - … and so that data is transferred to the hard disk drive from the buffer at the slower rate"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZD3DWJRyfqvMrhnT",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_TNjh4bvXBRSsQRmt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 9,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "A road bridge has a weight limit and a height limit for vehicles. For example, a vehicle must weigh less than 10000kg and must have a height of less than 3m.\n\nThe bridge has a warning system. If a vehicle is approaching the bridge and it exceeds one or both limits, a sign displays a warning telling the driver of the vehicle to stop.\n\nThe bridge warning system uses sensors to detect if a vehicle exceeds the limits.\n\nComplete the table by identifying **two **different sensors that could be used by the system and describe how each sensor is used by the system.\n\n| Sensor | Use in bridge warning system |\n|---|---|\n|   |   |\n|   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for sensor **and** its use in this system\n> \n> - Infra-red sensor\n> - Measure / check the height of the vehicle\n> - Pressure sensor\n> - Measure / check the weight of the vehicle"
+    },
+    {
+     "id": "qstnprt_R4y2J9VYpT9qfH7w",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PTxQ9BkNctX3djVm",
+      "spcpt_NXQkJSSGwbx4bdCc"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain whether the bridge warning system is an example of a monitoring system or of a control system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**) for a correct justification\n> \n> No marks for the identification of the system\n> \n> Monitoring system\n> \n> - Because there is no use of feedback // the warning sign is only an indicator\n> - ... the output of the turning on of the sign does not affect the input of data from the sensors\n> - The system does not have any actuators"
+    }
+   ]
+  },
+  {
+   "id": "qstn_QhZHBfwrXWFcHV92",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_HY6yzHRQb8NdVfmf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jcG6xVybCnfThxjK"
+     ],
+     "part_tier": null,
+     "problem_md": "Embedded systems are used in many electronic devices.\n\nDescribe the drawbacks of embedded systems.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 3**)\n> \n> e.g.\n> \n> - It is difficult to change / update the firmware by the user\n> - Errors cannot be fixed easily // Troubleshooting / fault-finding / repairing is a specialist task / expensive\n> - Functionality cannot be changed/extended easily // Cannot be easily adapted for another task\n> - Faulty / outdated devices are often thrown away rather than repaired\n> - … leading to e-waste"
+    },
+    {
+     "id": "qstnprt_wGyTvTJZJqswMfjv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_JHK46SwrfS7pz7kj"
+     ],
+     "part_tier": null,
+     "problem_md": "An embedded system has Dynamic RAM (DRAM).\n\nIdentify **one **benefit of using DRAM instead of Static RAM (SRAM) in an embedded system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** from:\n> \n> - DRAM is less expensive to manufacture/purchase than SRAM in the embedded system\n> - DRAM has a higher bit density per chip // more data can be stored per chip"
+    },
+    {
+     "id": "qstnprt_qkys4q6kDNPV9sBP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_m5VY2BTxhZPwTcmP"
+     ],
+     "part_tier": null,
+     "problem_md": "Give **two **differences between Erasable Programmable ROM (EPROM) and Electrically Erasable Programmable ROM (EEPROM).",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - EPROM uses ultraviolet light to erase data whilst EEPROM uses an electrical signal to do this\n> - EPROM has to be removed from the circuit board when changing the data whilst EEPROM remains in the circuit when the data is changed\n> - EPROM erases all the data, EEPROM can erase parts of the data"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tNzBJg2tGZmSdQrN",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_xcWk87bcqGvXqYpG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5M3GQTQ5zXtyXGFG"
+     ],
+     "part_tier": null,
+     "problem_md": "A security system has both a floodlight (very bright light) and an audio alarm.\n\nThe data from multiple sensors is analysed and used to:\n\n- turn on the floodlight\n- sound the audio alarm.\n\nSensors can be used to detect:\n\n- if doors are open\n- the external daylight level\n- if people are detected within a set distance.\n\nComplete the table to identify the most appropriate type of sensor for each scenario.\n\n| Scenario | Type of sensor |\n|---|---|\n| A door is open. |   |\n| The external daylight level is below a set amount. |   |\n| A person is detected within 2 metres. |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for all 3 appropriate sensors\n> \n> | Scenario | Type of sensor |\n> |---|---|\n> | A door is open. | Pressure sensor // Infra-red |\n> | The external daylight level is below a set amount. | Light sensor |\n> | A person is detected within 2 metres. | Infra-red |"
+    },
+    {
+     "id": "qstnprt_944DZfbJj4M6dBK2",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_NXQkJSSGwbx4bdCc"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain whether the security system is an example of a monitoring system or a control system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 3**) for a correct justification No marks for the identification of the system\n> \n> **Monitoring system**\n> \n> - There is no use of feedback // The light and the alarm are just warnings\n> - The output of the floodlight or the audio alarm does not affect the input of data from the sensors\n> - The system does not have any actuators"
+    }
+   ]
+  },
+  {
+   "id": "qstn_C5mfTwkRcPs2m5fG",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_TQ4bzpDB3kcSRz9t",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_JHK46SwrfS7pz7kj"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system has a dual-core Central Processing Unit (CPU).\n\nIdentify **two **disadvantages of using Dynamic RAM (DRAM) instead of Static RAM (SRAM) in a computer system.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> e.g.\n> \n> - DRAM requires constant refresh cycles unlike SRAM\n> - DRAM has lower access speed than SRAM"
+    },
+    {
+     "id": "qstnprt_P7rW2Tyh7h4v6j4h",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_ZzBV8YB6R3vHJRTh",
+      "spcpt_MpxPWdNqSR6tNTkX",
+      "spcpt_Mn5JDq5Pgp3sbfZC"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer system is used to store data received from a temperature sensor every five seconds. The data is stored on an optical disc using an optical disc reader/writer.\n\n(i) Describe the principal operation of an optical disc reader/writer\n\n(4)\n\n(ii) The computer uses a buffer when writing data to the optical disc.\n\nExplain the use of a buffer when writing data to the optical disc.\n\n(3)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark** for each bullet point (**max 4**)\n> \n> - The disc is spun at high speed\n> - A laser is shone onto the disc to read or write\n> - … using an optical head to move it into position\n> - … it follows the spiral track from the centre outwards\n> - When writing, the laser burns pits to represent the data\n> - When reading, the laser reflects from pits and lands\n> - The reflection from a pit and a land is different\n> - … the differences are interpreted as 1s or 0s\n> \n> (ii)** 1 mark** for each bullet point (**max 3**)\n> \n> - The computer and optical disc reader/writer send and receive at different speeds\n> - A buffer allows temporary storage of the data\n> - … so that the computer can transfer data to the buffer at the higher speed\n> - … and is not held up waiting for data to transfer // so the computer can carry on with other tasks\n> - … so the optical disc reader/writer is not overloaded\n> - … and so that data is transferred to the optical disc reader/writer from the buffer at the slower rate"
+    }
+   ]
+  }
+ ]
+}

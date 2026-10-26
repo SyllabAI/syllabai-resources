@@ -18,18 +18,18 @@
   - $I_{1}=\frac{1}{2}\times8.0=4.0$W m<sup>-2</sup>
 - There is a 25° angle between the first and second polariser so Malus’s Law should be used
 
-  - `I space equals space I subscript 0 space cos squared space open parentheses theta close parentheses`
+  - $I = I_{0} \cos ^{2} ( \\theta )$
 - As the light incident on the second polariser comes from the first, *I*<sub>0</sub> will be replaced with *I*<sub>1</sub>
 
-  - `I space equals space I subscript 1 space cos squared space open parentheses theta close parentheses`
-  - `I space equals space 4.0 space cross times cos squared space open parentheses 25 close parentheses space equals space 3.3` W m<sup>-2 </sup>(2 s.f)
+  - $I = I_{1} \cos ^{2} ( \\theta )$
+  - $I = 4.0 \times \cos ^{2} ( 25 ) = 3.3$ W m<sup>-2 </sup>(2 s.f)
 - This is option **B**
 
-- You can’t write `cos squared space open parentheses theta close parentheses` on your calculator
-- In order to  do Malus’s Law calculations, you can write instead `cos squared space open parentheses theta close parentheses` of the following
+- You can’t write $\cos ^{2} ( \\theta )$ on your calculator
+- In order to  do Malus’s Law calculations, you can write instead $\cos ^{2} ( \\theta )$ of the following
 
-  - `open parentheses cos open parentheses theta close parentheses close parentheses squared`
-  - `cos space open parentheses theta close parentheses space cross times space cos open parentheses theta close parentheses`
+  - $( \cos ( \\theta ) )^{2}$
+  - $\cos ( \\theta ) \times \cos ( \\theta )$
 
 ### Q2
 **Final answer:** **The correct answer is ****C ****because:**
@@ -106,7 +106,7 @@ Option **A** is incorrect because
 **Final answer:** **The correct answer is ****A**** because:**
 
 - Polarisation is the process by which the oscillations are made to occur in one plane only
-- As the light passes through the first polariser half of the intensity `open parentheses I subscript 0 over 2 close parentheses` of the ray is lost
+- As the light passes through the first polariser half of the intensity $( I_\frac{{0}}{2} )$ of the ray is lost
 
   - This is known as the half rule
 
@@ -154,13 +154,13 @@ Options **A** and **B** are incorrect because
   - $I_{2}=\frac{1}{2}I$
 - When the polarisers are not of the same orientation, Malus’s Law should be used
 
-  - `I space equals space I subscript 0 space c o s squared space open parentheses theta close parentheses`
+  - $I = I_{0} c o s^{2} ( \\theta )$
 
 ### Q9
 **Final answer:** **The correct answer is ****C**** because:**
 
 - Polarisation is the process by which the oscillations are made to occur in one plane only
-- As the light passes through the first polariser half of the intensity `open parentheses I subscript 0 over 2 close parentheses`  of the ray is lost
+- As the light passes through the first polariser half of the intensity $( I_\frac{{0}}{2} )$  of the ray is lost
 
   - This is known as the half rule
   - Therefore, the light incident on the second polariser is:
@@ -252,3 +252,331 @@ A polariser can only transmit the component of the electric field aligned with i
 
 A non-polarising glass sheet does not alter the plane of polarisation.
 In the context of this question, it is assumed to transmit the beam without further intensity reduction.
+
+## Structured Questions (7 questions)
+
+
+### Q1
+No light will be transmitted through the polarising filter if the transmission axis is rotated to be:
+
+- 90° (to the vertical); **[1 mark]**
+
+**[Total: 1 mark]**
+(i) Calculate angle *θ*:
+
+List the known quantities:
+
+- $\frac{\mathrm{intensity} \mathrm{of} \mathrm{transmitted} \mathrm{light}}{\mathrm{intensity} \mathrm{of} \mathrm{incident} \mathrm{light}}=\frac{I}{I_{0}}$ = 0.75
+
+Use Malus's Law to obtain a value for the ratio $\frac{I}{I_{0}}$:
+
+- $I=I_{0}\mathrm{cos}^{2}θ$
+- $\frac{I}{I_{0}}=\mathrm{cos}^{2}θ=0.75$ **[1 mark]**
+
+Calculate angle $θ$:
+
+- $\mathrm{cos}θ=\sqrt{0.75}$
+- $\\theta = \cos ^{- 1} ( \sqrt{0.75} ) = 30^{\circ}$ **[1 mark]**
+
+(ii) Calculate the ratio $\frac{A}{A_{0}}$:
+
+- $I\proptoA^{2}$ **[1 mark]**
+- $\frac{I}{I} _{0} = ( \frac{A}{A} _{0} )^{2} = 0.75$
+- $0.75 = ( \frac{A}{A} _{0} )^{2}$
+- $0.75^{\frac{1}{2}}=\frac{A}{A_{0}}$
+- Therefore, $\frac{A}{A} _{0} = 0.866 = 0.87 ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Linking **Malus's Law** to the** ratio given** is the key to answering part (i).*
+
+### Q2
+Ways that light can be polarised:
+
+**Final answer:** **Any ****two**** from:**
+
+- Reflection; **[1 mark]**
+- Refraction; **[1 mark]**
+- Scattering; **[1 mark]**
+
+**[Total: 2 marks]**
+To determine the intensity of the light leaving analyser B:
+
+List the known quantities:
+
+- Intensity of incident light, $I_{0}$ = 64 W m<sup>−2</sup>
+
+Determine the intensity of the polarised light, $I_{1}$ incident on analyser B:
+
+- When unpolarised light passes through a polariser, the intensity of the light falls by half
+- Therefore, $I_{1}=\frac{I_{0}}{2}=\frac{64}{2}=32Wm^{-2}$** [1 mark]**
+
+Determine the intensity, $I$, of the light leaving the analyser:
+
+- The analyser is at the same angle as the polariser
+- Therefore, all the polarised light will pass through the analyser
+- $I=I_{1}=32Wm^{-2}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Always remember to apply the half rule if the question includes the light passing through the polariser before the analyser.*
+To determine the intensity of the light leaving analyser B:
+
+List the known quantities:
+
+- Intensity of incident light, $I_{0}$ = 64 W m<sup>−2 </sup>
+- Intensity of polarised light, $I_{1}$ = 32 W m<sup>−2 </sup>(from part (b))
+- Angle of analyser, $θ$ = 35°
+
+Determine the intensity, $I$, of the light leaving the analyser:
+
+- Recall Malus' Law, $I=I_{1}\mathrm{cos}^{2}θ$** [1 mark]**
+- $I = 32 \times \cos ^{2} ( 35 )$ **[1 mark]**
+- $I = 21 \mathrm{W} \mathrm{m}^{- 2} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Remember that when using Malus' law:*
+
+- * *$I_{0}$*  = intensity before a polariser or analyser*
+- * *$I_{1}$* = intensity incident on the analyser*
+To show that there is no light passing through analyser B:
+
+List the known quantities:
+
+- Maximum intensity = Intensity of polarised light, $I_{1}$ = 32 W m<sup>−2</sup>
+- Angle of analyser, $θ$ = 90°
+
+Use Malus' Law:
+
+- $I=I_{1}\mathrm{cos}^{2}θ$
+- $\cos ( 90 ) = 0$ **[1 mark]**
+- Therefore, $I = 32 \times \cos ^{2} ( 90 ) = 0 \mathrm{W} \mathrm{m}^{- 2}$** [1 mark]**
+
+**[Total: 2 marks]**
+
+### Q3
+Explain the difference between unpolarised and plane polarised light:
+
+- <u>Unpolarised</u> light vibrates / oscillates in <u>all</u> planes; **[1 mark]**
+- Plane <u>polarised</u> light vibrates / oscillates in <u>one</u> plane; **[1 mark]**
+- (Planes of oscillation are) <u>perpendicular</u> to the <u>direction of wave</u> travel; **[1 mark]**
+
+**[Total: 3 marks]**
+Explain how this photograph can be used to identify areas of the material with different amounts of stress:
+
+- (Polarising) filters at 90° to each other do not allow light to pass through; **[1 mark]**
+- Rotation of plane of polarisation (due to stress) allows light to pass; **[1 mark]**
+- Darker areas represent less stress **OR** brighter areas represent greater stress; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q4
+Use arrows to show how points Q and R will move next as the two waves move to the right:
+
+Correctly drawn arrows look like:
+
+![screenshot-2023-02-27-at-12-38-53](assets/014-screenshot-2023-02-27-at-12-38-53.png)
+
+- Q moving downwards; **[1 mark]**
+- R moving to the left; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *You may have thought that R will follow the direction of the wave. However, it is to the left of the centre of a compression. Therefore as the compression expands to a rarefaction, R will be pushed backwards compared to the direction of travel of the wave.*
+Use the diagram in Fig. 1.1.
+
+(i) State which wave can be used to model an electromagnetic wave:
+
+- Wave A can be used to model electromagnetic waves; **[1 mark]**
+
+(ii) Hence explain why it is important to correctly align a radio antenna in order to receive the strongest signal.
+
+- Transmitted radio waves are polarised; **[1 mark]**
+- Antennae must be aligned to the same angle / plane of polarisation; **[1 mark]**
+
+**[Total: 3 marks]**
+Explain why the observer cannot see light from the filament lamp:
+
+- Light passing through polarising filter **A** is vertically polarised; **[1 mark]**
+- Only light in the horizontal plane / horizontally polarised light will pass through polarising filter **B **but after being vertically polarised no light can pass through; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q5
+Determine the possible displacement angles when A passes through the polariser:
+
+- When A passes through the polariser, the amplitude is maximum, so the displacement angle is 0, 180 or 360 degrees; **[1 mark]**
+
+Determine the possible displacement angles when B passes through the polariser:
+
+- A and B are $\frac{3}{2}λ$* *apart / out of phase by $\frac{3}{2}λ$
+- So, when B passes through the polariser, the amplitude is a minimum and the displacement angle is 90 or 270 degrees; **[1 mark]**
+
+A graph to show wave amplitude against displacement angle / phase should look like this:
+
+![screenshot-2024-03-18-at-06-32-49-jpeg](assets/016-screenshot-2024-03-18-at-06-32-49-jpeg.png)
+
+- Sinusoidal graph drawn with a maximum displacement (amplitude) $x_{0}$ at 0, 180 and 360 degrees; **[1 mark]**
+- B drawn at 90 degrees and A drawn $\frac{3}{2}λ$ in front at 360 degrees; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Don't get confused with the graph of intensity and transmission angle. This is what is normally related to a polariser. The question is asking you to sketch a graph showing the phase difference of a wave passing straight through a polariser, so nothing to do with polarisation at all. *
+
+> *Remember that the wave is travelling from left to right, so part A will be in front of part B. There is only one combination of correct angles that will fit on this graph. *
+Describe the motion of the fields which comprise an electromagnetic wave:
+
+- Electromagnetic waves are made of electric and magnetic fields; **[1 mark]**
+- These fields oscillate at 90 degrees / perpendicular to each other; **[1 mark]**
+
+Describe the direction of energy transfer:
+
+- (Because electromagnetic waves are transverse) energy transfer is 90 degrees / perpendicular to the direction of (field) oscillations; **[1 mark]**
+
+**[Total: 3 marks]**
+List the known quantities:
+
+- Change in direction of the aerial = 40°
+
+Find an expression linking the initial and final amplitude of the waves following polarisation:
+
+- Malus's law: $I=I_{0}\mathrm{cos}^{2}θ$
+- Since $I\proptoA^{2}$:
+
+  - $\frac{I}{I} _{0} = ( \frac{A}{A} _{0} )^{2} = \cos ^{2} \\theta$
+  - $\frac{A}{A_{0}}=\mathrm{cos}θ$
+- Therefore, $A=A_{0}\mathrm{cos}θ$ **[1 mark]**
+
+Find an expression for the percentage reduction:
+
+- $A=A_{0}\mathrm{cos}40$
+- Percentage reduction = $\frac{initial \text{amplitude} - \text{final} amplitude}{initial amplitude} \times 100 \%$
+- Percentage reduction = $\frac{A_{0} - A_{0} \cos 40}{A_{0} } \times 100 \%$ **[1 mark]**
+
+Evaluate to find percentage reduction:
+
+- $\frac{A_{0} - A_{0} \cos 40}{A_{0} } \times 100 \% = ( 1 - \cos 40 ) \times 100 \% = 23.4 \%$ **[1 mark]**
+
+**[Total: 3 marks]**
+List the known quantities:
+
+- Maximum vibration amplitude, $A_{0}$ = 55.9 μm, when $θ=0^{\circ}$
+- Measured vibration amplitude, $A$ = 54.0 μm, when $θ=15^{\circ}$
+- $A=A_{0}\mathrm{cos}θ$
+- $I\proptoA^{2}$
+
+Determine the ratio between the intensities:
+
+- The maximum response is achieved when the aerial is perfectly aligned with the plane of wave oscillation, where $θ=0^{\circ}$ and $I=I_{0}$
+- Since intensity is proportional to the square of amplitude:
+
+  - $I_{0}\proptoA_{0}^{2}$
+  - $\frac{I}{I} _{0} = ( \frac{A}{A} _{0} )^{2}$
+- $\frac{I}{I} _{0} = ( \frac{54.0}{55.9} )^{2} = 0.933$ **[1 mark]**
+
+Determine the incident intensity of the waves:
+
+- $I_{0}=\frac{I}{0.933}$
+- $I_{0}=\frac{0.056}{0.933}=0.060\mathrm{mW}m^{-2}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q6
+Polarised waves are waves which...
+
+- Have their oscillations / vibration restricted; **[1 mark]**
+- To one plane / direction; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Below is a diagram of an unpolarised transverse waves passing through a polarising filter. The transmitted light is polarised in the vertical plane.*
+
+![3-1-s-q--q2a--answer-easy-aqa-a-level-physics](assets/017-3-1-s-q-q2a-answer-easy-aqa-a-level-physics.png)
+Longitudinal waves cannot be polarised because...
+
+- Their oscillations are parallel to the direction of wave travel; **[1 mark]**
+- Polarising filters restrict oscillations that are perpendicular to the direction of wave travel;** [1 mark] **
+- Therefore, (in longitudinal waves) there are no oscillations that can be restricted by a polarising filter; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Longitudinal waves cannot be polarised at all. This is one of the characteristics of longitudinal waves.*
+After passing through polarising filter** **B:
+
+- There is no light / the light doesn’t transmit through; **[1 mark]**
+
+Because:
+
+- The light is vertically** **polarised after (polarising filter) A
+
+**OR**
+
+- Only horizontally polarised light can transmit through (polarising filter) B; **[1 mark]**** **
+
+**[Total: 2 marks]**
+The intensity of the polarised light exiting filter A is...
+
+- Half of $I_{0}$ **OR**  $0.5I_{0}$  **OR**  $\frac{I_{0}}{2}$** [1 mark] **
+
+**[Total: 1 mark]**
+
+> *When unpolarised light passes through the first polariser, half of the intensity of the wave is always lost. This is the **half rule**. *
+
+### Q7
+State the use of a polaroid filter:
+
+- Hold a <u>polaroid filter</u> up to the reflected light; **[1 mark]**
+
+Describe the effect of rotating the polaroid filter:
+
+- <u>Rotating</u> the polaroid filter will determine if the light is polarised **AND**
+- If the light is polarised (along a certain plane) the polaroid filter will not transmit it <u>at some angle</u>; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Generally speaking, it’s really good practice to specify angles of rotation in polaroid filter questions. For example, if the intensity of light transmitted behind two polaroid filters is 100% when the two filters are aligned at an angle **θ**, then the light intensity will fall to 0% when this angle is (**θ **+ 90*<sup>*º*</sup>*) and then back up to 100% at (**θ **+ 180*<sup>*º*</sup>*) and back to 0% at (**θ **+ 270*<sup>*º*</sup>*) and then finally back to 100% at (**θ **+ 360*<sup>*º*</sup>*) – yes really, this much detail! You will usually secure full credit for specific descriptions through a full rotation.*
+
+> *However, in this question, it is sufficient to refer to ‘some angle **θ**’ because you are only required to determine if the light is polarised or not. A full description of the effects on the intensity of transmitted light through a full rotation is not required.*
+State the angles of *θ  *with respect to the first polaroid filter P<sub>1</sub>:
+
+- Polarised light, parallel to the orientation of P<sub>2</sub>, is incident on P<sub>3</sub>
+- This means that, when *θ *= 20<sup>º</sup> emergent light is at maximum intensity (P<sub>3</sub> is parallel to the alignment of P<sub>2</sub>); **[1 mark]**
+
+Determine the angles of minimum and maximum intensity:
+
+- *θ* = (20<sup>º</sup> + 90<sup>º</sup>) = 110<sup>º</sup> is the first angle of minimum intensity; **[1 mark]**
+- *θ* = (20<sup>º</sup> + 180<sup>º</sup>) = 200<sup>º </sup>is the first angle of maximum intensity **AND** *θ* = (20<sup>º</sup> + 270<sup>º</sup>) = 290<sup>º </sup>is the second angle of minimum intensity; **[1 mark]**
+
+**[Total: 3 marks]**
+Identify the properties of each wave and how it is generated:
+
+| **Wave** | **Polarised or Unpolarised** | **Reason** |
+|---|---|---|
+| Light from the sun | **Final answer:** **Unpolarised** | **Final answer:** **Light in the sun is generated randomly / oscillates in all planes** |
+| Compression waves caused by an earthquake | Unpolarised | Longitudinal waves cannot be polarised |
+| Electromagnetic waves from the sun passing through a sunglass lens | **Final answer:** **Polarised** | **Final answer:** **The sunglasses act as a polariser removing one plane of oscillation of the sunlight (making it easier for people to see in the Sun)** |
+| Ultra-sonic waves from an echo sounder | **Final answer:** **Unpolarised** | **Final answer:** **Sound waves cannot be polarised** |
+
+- All waves correctly identified as polarised or unpolarised; **[1 mark]**
+- All reasons correct; **[1 mark]**** **
+
+**[Total: 2 marks]**
+Draw the variation of intensity beginning from the origin:
+
+- A sketch which would score full marks would look like this:
+
+![3-1-s-q--q2d-answer-hard-aqa-a-level-physics](assets/022-3-1-s-q-q2d-answer-hard-aqa-a-level-physics.png)
+
+- Correct general shape; **[1 mark]**
+- Minima at π, 2π, 3π, and 4π radians; **[1 mark]**
+- Therefore, maxima at $\frac{1}{2}$π, $\frac{3}{2}$ π, $\frac{5}{2}$ π and $\frac{7}{2}$ π **[1 mark]**
+- Constant maximum intensity; **[1 mark]**
+
+**[Total: 4 marks]**** **
+
+> *The minima occur at whole integers of π because the initial orientation is *$\frac{π}{2}$* radians (intensity begins at zero), so after a further *$π$* radians, the intensity will be reduced to zero once more, and so on every *$π$* radians.*
+
+> *Examiners point out a common mistake here is to sketch a graph that looks like the following:*
+
+![3-1-s-q--q2d-answer-image1-hard-aqa-a-level-physics](assets/023-3-1-s-q-q2d-answer-image1-hard-aqa-a-level-physi.png)

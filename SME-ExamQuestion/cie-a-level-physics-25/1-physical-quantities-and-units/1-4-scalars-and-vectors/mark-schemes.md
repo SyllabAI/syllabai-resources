@@ -275,3 +275,380 @@ You can use the mnemonic SOH CAH TOA as a checklist to see which trigonometric r
   - $10 \times \sin ( C ) = 10 \times \sin ( 60 )$
   - $\sin ( C ) = \sin ( 60 )$
   - So, *C* = 60°
+
+## Structured Questions (6 questions)
+
+
+### Q1
+(i) The difference between scalar and vector quantities is:
+
+- Scalars have <u>magnitude only </u> **AND**
+- Vectors have both <u>magnitude</u> and <u>direction</u>; **[1 mark]**
+
+(ii) The vector quantities are:
+
+- Velocity and momentum <u>only</u>; **[1 mark]**
+- Power, length and density are scalars
+
+**[Total: 2 marks]**
+Draw a vector diagram of the two forces and determine the resultant:
+
+List the known quantities:
+
+- Force from wind 1 = 11.9 N
+- Force from wind 2 = 5.5 N
+- Angle between the forces = 30°
+
+Construct a vector triangle:
+
+![E7hcV9up_1-1-vector-graph](assets/025-e7hcv9up-1-1-vector-graph.png)
+
+- Forces drawn end to tail with arrows and labels (either way around); **[1 mark]**
+- Angle between the forces is used correctly; **[1 mark]**
+- Resultant drawn correctly to form a triangle; **[1 mark]**
+
+Determine the magnitude of the resultant:
+
+- Resultant = 17.1 N (at least 2 sig. fig) **[1 mark]** *Acceptable range for resultant = 16.8 to 17.4 N* *Calculated answer with no sketch = no marks*
+
+**[Total: 4 marks]**
+
+> *The best approach to a vector drawing question is to follow these steps:*
+
+- *First, draw one of the vectors, either is fine*
+- *Next, draw the next vector with its **tail** at the **head** of the first vector*
+- *Then, draw the resultant from the **tail of the first** vector to the **head of the second** vector*
+
+> *In this example, we have used gridlines to help to show the scale, however, in an exam you will be expected to draw on plain paper with just your ruler and protractor, so make sure you get lots of practice with these!*
+
+### Q2
+The difference between scalars and vectors is:
+
+- Scalar quantities have magnitude / size <u>only</u>; **[1 mark] **
+- Vector quantities have <u>both</u> magnitude / size and direction; **[1 mark]**
+
+**[Total: 2 marks]**
+(i) Examples of scalar quantities:
+
+**Final answer:** **Any ****three**** from:**
+
+- Distance; **[1 mark]**
+- Speed; **[1 mark]**
+- Time; **[1 mark]**
+- Mass; **[1 mark]**
+- Power; **[1 mark]**
+- Temperature; **[1 mark]**
+- Electrical quantities e.g. resistance / current / potential difference; **[1 mark]**
+
+(ii) Examples of vector quantities:
+
+**Final answer:** **Any ****three**** from:**
+
+- Displacement; **[1 mark]**
+- Velocity; **[1 mark]**
+- Acceleration; **[1 mark]**
+- Momentum; **[1 mark]**
+- Moments / torque; **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *In part (i), answers such as 'kinetic energy' or 'gravitational potential energy' would not score a mark as these are **types** of energy*
+
+> *In part (ii), answers such as 'weight' or 'tension' would not score a mark as these are **types** of forces*
+
+> *You might think that current and potential difference **could** be vectors because they can have both magnitude and direction. However, they **cannot** be added together or resolved **as vectors **in the same way that force and velocity can, so they are classed as scalar quantities*
+(i) The 'forces are in equilibrium' means:
+
+**Final answer:** **Any**** two**** from:**
+
+- There are no resultant / net forces (acting on the block); **[1 mark]**
+- All the forces are balanced (so the block doesn't move); **[1 mark]**
+- The forces form a closed vector triangle; **[1 mark]**
+
+** **
+
+(ii) The completed vector triangle is as follows:
+
+![1-1-e-box-slope-vector-triangle-cie-ial-sq-ma](assets/028-1-1-e-box-slope-vector-triangle-cie-ial-sq-ma.png)
+
+- Frictional force *F* correctly drawn and labelled; **[1 mark]**
+- Angle labelled 30°; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *When drawing forces in **equilibrium**, the arrows should always form a complete triangle with arrows matching head-to-tail*
+
+> *The geometry of triangles and angle addition rules shown below outline why the angle between **N** and **W** is the same as the angle of inclination of the slope*
+
+![1-1-e-box-slope-vector-combine-cie-ial-sq-ma](assets/029-1-1-e-box-slope-vector-combine-cie-ial-sq-ma.png)
+List the known quantities:
+
+- Frictional force, *F* = 60 N
+- Angle between *F* and the horizontal = 30°
+
+(i) Resolving the vector horizontally:
+
+![1-1-e-resolving-vector-cie-ial-sq-ma1](assets/030-1-1-e-resolving-vector-cie-ial-sq-ma1.png)
+
+- $\cos 30^{\circ} = \frac{adjacent}{hypotenuse} = \frac{F ( \rightarrow )}{60}$
+- $F ( \rightarrow ) = 60 \times \cos 30^{\circ}$ **[1 mark]**
+- $F ( \rightarrow )$ = 51.96 = 52 N **[1 mark]**
+
+(ii) Resolving the vector vertically:
+
+![1-1-e-resolving-vector-cie-ial-sq-ma2](assets/031-1-1-e-resolving-vector-cie-ial-sq-ma2.png)
+
+- $\sin 30^{\circ} = \frac{opposite}{hypotenuse} = \frac{F ( \uparrow )}{60}$
+- $F ( \uparrow ) = 60 \times \sin 30^{\circ}$ **[1 mark]**
+- $F ( \uparrow )$ = 30 N **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Drawing the triangles is essential to answering this question correctly.*
+
+![1-1-resolving-vectors-triangle](assets/032-1-1-resolving-vectors-triangle.png)
+
+### Q3
+A vector is a quantity that has:
+
+- A magnitude/size; **[1 mark]**
+- And a direction; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Don't forget that vector quantities carry **two **pieces of information: a **magnitude** as well as a **direction**! This is not always obvious, e.g. 4 N is a force, therefore is a vector quantity. Its magnitude of '4 N' is clear, but what about its direction? Remember **direction **is associated with a positive sign + or a negative sign –. Strictly speaking, the example force given should be written as +4 N, which implies a force of –4 N would be directed in the **opposite direction. *
+Complete the missing information:
+
+- **One**** mark for each correct answer**
+
+| **Quantity** | **SI unit** |
+|---|---|
+| Tension | **Final answer:** **N** |
+| **Final answer:** **Momentum** | kg m s<sup>-1</sup> |
+| Magnetic flux density | **Final answer:** **T** |
+
+**[Total: 3 marks]**
+
+> *You must know the difference between the SI (standard international) unit for a quantity and other equivalent units. *
+(i) Draw and label a line to show the distance travelled, *d*:
+
+A sketch on the image that would score 1 mark should look like:
+
+![sl-sq-1-3-easy-q1c-ma](assets/034-sl-sq-1-3-easy-q1c-ma.jpeg)
+
+- A line joining X and Y <u>along the path as shown</u> **AND **clearly labelled with a lower case *d*; **[1 mark]**
+
+(ii) State whether the person's distance travelled *d* is greater than, equal to, or less than their displacement between X and Y:
+
+The distance *d* is:
+
+- Greater (than the displacement between X and Y); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Be really careful when distinguishing **distance** (a scalar) and **displacement** (a vector). *
+
+> *Though similar, the distance measures the **length** of a given path or trajectory, whereas the displacement measures the distance travelled **in a particular direction**. Therefore, in this question, the distance the length travelled along the cycle path. The displacement, however, is a **vector** line directly from X to Y. This is sketched below: *
+
+![cie-ial-1-4e-q3c](assets/035-cie-ial-1-4e-q3c.png)
+The total displacement for the person's journey is:
+
+- Zero / 0 (m) **[1 mark]**
+
+The total displacement is zero because:
+
+- The person returns to their starting/initial position / to X **OR** she returns home; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Displacement is a **vector** between a starting or initial position and a final position. Hence, for any object that moves an arbitrary distance (i.e., it could be a very short or very long length) **but then returns to its initial position**, its displacement is **zero**. This is because the vector between the **initial position** and **final position** would have zero magnitude, because both positions are at the same point! *
+
+### Q4
+(i) The names of forces X and Y are:
+
+- Force X = Weight; **[1 mark]**
+- Force Y = Upthrust; **[1 mark]**
+
+(ii) Calculate the magnitude of the resistive force *F*:
+
+List the known quantities:
+
+- Radius, *r* = 1.5 mm = 1.5 × 10<sup>−3</sup> m
+- Velocity, *v* = 3.5 m s<sup>−1</sup>
+- Constant, *k* = 0.0124 (kg m<sup>−1</sup> s<sup>−1</sup>)
+
+Calculate the resistive force *F*:
+
+- Resistive force:  $F=krv$
+- *F* = 0.0124 × (1.5 × 10<sup>−3</sup>) × 3.5 = 6.51 × 10<sup>−5</sup> N **[1 mark]**
+
+Convert to µN (10<sup>−6</sup> N):
+
+- *F* = 6.51 × 10<sup>−5</sup> N  →  65.1 × 10<sup>−6</sup> N
+- *F* = 65.1 µN **[1 mark]**
+
+(iii) Determine the magnitude and direction of the resultant force on the raindrop:
+
+![1-1-raindrop-sphere-vector-forces-cie-ial-sq-ma](assets/037-1-1-raindrop-sphere-vector-forces-cie-ial-sq-ma.png)
+
+- (From Fig 1.1)  Resultant force = X − Y − *F*  **OR ** X − (Y + *F*) **[1 mark]**
+- Resultant force = 137 − 0.18 − 65.1 = 71.72 µN
+- Magnitude of the resultant = 72 µN (2 s.f.) **[1 mark]**
+- Direction of the resultant = downwards / in the direction of X **[1 mark]**
+
+**[Total: 7 marks]**
+Show that the angle *θ* between the resultant and the vertical is about 47°:
+
+- Resultant force (down) = 71.72 µN
+- Resultant force (windy day) = 105 µN
+
+Draw a vector triangle and use trigonometry to find the angle *θ*:
+
+![1-1-raindrop-sphere-vector-angle-cie-ial-sq-ma](assets/039-1-1-raindrop-sphere-vector-angle-cie-ial-sq-ma.png)
+
+- $\mathrm{cos}θ=\frac{\mathrm{adj}}{\mathrm{hyp}}=\frac{71.72}{105}$ **[1 mark]**
+- $\\theta = \cos ^{- 1} ( \frac{71.72}{105} )$ = 46.918 = 46.9° **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q5
+List the known quantities:
+
+- Initial velocity *v* = 15 m s<sup>–1</sup>
+- Angle to the horizontal *θ* = 22°
+
+Resolve the velocity into its vertical component:
+
+![cie-ial-1-4e-q3a](assets/041-cie-ial-1-4e-q3a.png)
+
+- $\mathrm{sin}22^{\circ}=\frac{opposite}{hypotenuse}=\frac{v_{v}}{15}$
+- $v_{v}=15\times\mathrm{sin}22^{\circ}$
+- $v_{v}=5.6ms^{-1}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *You should be able to resolve vectors into their vertical and horizontal components by applying rules of trigonometry. Remember the components are based on sin **θ **or cos **θ **depending on where the angle **θ **is drawn. In this example the angle is given to the horizontal, therefore the vertical component (opposite the angle) uses sin **θ.*
+The horizontal component of velocity is directed:
+
+- To the right; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Don't forget, components of vectors **must **have a direction as well! They too are vectors; any vector can be resolved into two perpendicular vectors. *
+
+![cie-ial-1-4e-q4b-commetary](assets/042-cie-ial-1-4e-q4b-commetary.png)
+Calculate the initial velocity, *v*<sub>*2*</sub>* *, of the projectile:
+
+List the known quantities:
+
+- Vertical component of initial velocity, $v_{v}=5.8ms^{-1}$
+- Horizontal component of initial velocity, $v_{h}=8.4ms^{-1}$
+
+Calculate the resultant vector using Pythagoras’ Theorem:
+
+- $v_{2}^{2}=v_{v}^{2}+v_{h}^{2}$ **[1 mark]**
+- $v_{2}^{2}=5.8^{2}+8.4^{2}$
+- $v_{2}=\sqrt{5.8^{2}+8.4^{2}}$
+- $v_{2}=10.2ms^{-1}$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Two vectors perpendicular to each other will have a resultant that is the hypotenuse of a right-angled triangle. This is an important relationship to recognise in this unit of scalars and vectors and is always how you calculate the magnitude of two perpendicular vectors.*
+
+![KJznMFrs_cie-ial-1-4e-q4c](assets/043-kjznmfrs-cie-ial-1-4e-q4c.png)
+Calculate the angle of the second projectile:
+
+Draw a diagram of the situation and state the relationship of each side of the triangle to angle $θ$:
+
+![cie-ial-1-4e-q4d](assets/044-cie-ial-1-4e-q4d.png)
+
+- Identify the correct angle
+- 8.4 m s<sup>-1</sup> is the adjacent side of the triangle
+- 5.8 ms<sup>-1</sup> is the opposite side of the triangle
+- 10.2 m s<sup>-1</sup> is the hypotenuse of the triangle (from part (c))
+
+Identify the trigonometric function and calculate the angle:
+
+- Using the opposite and adjacent sides of the triangle:
+- $\mathrm{tan}θ=\frac{opposite}{adjacent}=\frac{5.8}{8.4}$ **OR **0.69 **[1 mark]**
+- $\\theta = \tan ^{- 1} ( 0.69 ) = 34.6^{\circ} = 35^{\circ} ( 2 \mathrm{s} . \mathrm{f} . )$** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *As all three sides of the triangle are known, any of the trigonometric functions can be used to determine the angle:*
+
+![wl2HraOE_cie-ial-1-4e-q4d-commetary](assets/045-wl2hraoe-cie-ial-1-4e-q4d-commetary.png)
+
+> *In this question, you are best using the opposite and adjacent sides to calculate the angle as these are the quantities given to you in the question, whereas using sin and cos rely on you using the value that you calculated for hypotenuse. *
+
+### Q6
+List the known quantities:
+
+- Mass of the wrecking ball, *m* = 2 tonne = 2000 kg
+- Tension in horizontal rope = 6400 N
+
+(i) Write an expression for the vertical component of the tension in the cable:
+
+- Weight:  $W=mg$
+- *W* = 2000 × 9.81 = 19 620 N
+
+![1-1-wrecking-ball-resolving-vectors-cie-ial-sq-ma1](assets/047-1-1-wrecking-ball-resolving-vectors-cie-ial-sq-m.png)
+
+- Resolving vertically:  $T ( \uparrow ) = T \cos \\theta = W$ **[1 mark]**
+- $T ( \uparrow ) = \frac{W}{\cos \\theta } = \frac{19 620}{\cos \\theta }$ **[1 mark]**
+
+(ii) Write an expression for the horizontal component of the tension in the cable:
+
+![1-1-wrecking-ball-resolving-vectors-cie-ial-sq-ma2](assets/048-1-1-wrecking-ball-resolving-vectors-cie-ial-sq-m.png)
+
+- Resolving horizontally:  $T ( \rightarrow ) = T \sin \\theta = 6400 \mathrm{N}$ **[1 mark]**
+- $T ( \rightarrow ) = \frac{6400}{\sin \\theta }$ **[1 mark]**
+
+**[Total: 4 marks]**
+(i) Determine the angle *θ* the cable makes with the vertical:
+
+- Equate the expressions for *T*:  $\frac{19620}{\mathrm{cos}θ}=\frac{6400}{\mathrm{sin}θ}$
+- Rearrange to get tan *θ*:  $\frac{\mathrm{sin}θ}{\mathrm{cos}θ}=\mathrm{tan}θ=\frac{6400}{19620}$ **[1 mark]**
+- Use the inverse tan function:  $\\theta = \tan ^{- 1} ( \frac{6400}{19 620} )$ = 18.1° **[1 mark]**
+
+(ii) Determine the magnitude of the tension *T* in the cable:
+
+- Use either expression for *T*:  $T=\frac{19620}{\mathrm{cos}θ}$ **OR  **$T=\frac{6400}{\mathrm{sin}θ}$
+- Substitute in the angle:  $T=\frac{19620}{\mathrm{cos}18.1^{\circ}}$ **[1 mark]**
+- Magnitude of tension, *T* = 20 637 = 21 000 N (2 s.f.) **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *In part (ii), you could also get the same result by using Pythagoras:*
+
+$T=\sqrt{19620^{2}+6400^{2}}=20637N$
+The correct vector triangle is as follows:
+
+![ma5c1_vectors--scalars-in-physics_ib-sl-physics-sq](assets/050-ma5c1-vectors-scalars-in-physics-ib-sl-physics-s.jpg)
+
+- All vectors are the correct size by eye; **[1 mark]**
+- The vector triangle is closed and all vectors are joined tip to tail; **[1 mark]**
+- All three vectors are correctly labelled; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The key to answering this question correctly is realising that the weight of the beam will act vertically straight down. The other two vectors can then be slotted into the correct position.*
+Calculate the resultant force required to keep the system in equilibrium:
+
+List the known quantities:
+
+- Magnitude **AB** = 9 N
+- Magnitude **AC** = 12 N
+
+![ma5d_vectors--scalars-in-physics_ib-sl-physics-sq](assets/051-ma5d-vectors-scalars-in-physics-ib-sl-physics-sq.jpg)
+
+- Force **BC** is the resultant force of **AB** and **AC **and is equal to the magnitude of the weight of the beam
+
+Use Pythagoras to calculate resultant force:
+
+- Resultant **BC** = $\sqrt{AB^{2}+AC^{2}}=\sqrt{9^{2}+12^{2}}$ **[1 mark]**
+- Resultant **BC **= 15 N **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Remember you only need to be able to resolve and calculate resultant components of vectors for right angle triangles. If you have an exam question about this you will most often need to use Pythagoras.*

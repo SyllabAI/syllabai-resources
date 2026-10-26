@@ -1,6 +1,6 @@
 # Exam Questions — Chemical Periodicity of Other Elements
 **9. The Periodic Table: Chemical Periodicity** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 9 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 12 questions across 2 sets
 
 
 ## Multiple Choice Questions (9 questions)
@@ -97,3 +97,153 @@ The successive ionisation energies of elements **X** and **Y** are shown below.
 **X** and **Y** form ions with the same electron configuration as argon.
 
 What are the identities of elements **X** and **Y** respectively?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 12 marks
+
+**Q1** [3 marks]
+
+The positions of some elements are shown.
+
+![Periodic Table diagram showing the positions of selected elements including Group 1, 2, and 17 elements](assets/001-periodic-table-diagram-showing-the-positions-of-.png)
+
+**Fig. 1.1**
+
+i) Using Fig. 1.1 identify the element that forms a soluble hydroxide and an insoluble sulfate.
+
+[1]
+
+ii) Using Fig. 1.1 identify the most volatile element in a group that contains elements in all three states of matter at room temperature and pressure.
+
+[1]
+
+iii) Using Fig. 1.1 identify the element that forms the largest cation.
+
+[1]
+
+*Source: 2022 Specimen Paper 2 Q1A*
+
+
+**Q1** [5 marks]
+
+Fig. 1.2 shows the relative first ionisation energies of six successive elements in the Periodic Table.
+
+The letters are **not** the symbols of the elements.
+
+![Bar graph showing relative first ionisation energies of six successive elements labelled A to F, with element B having a notably lower value than element A](assets/002-bar-graph-showing-relative-first-ionisation-ener.png)
+
+**Fig. 1.2**
+
+i) Define first ionisation energy.
+
+[2]
+
+ii) Suggest why the first ionisation energy of **B** is much less than that of **A** in Fig 1.2.
+
+[3]
+
+*Source: 2022 Specimen Paper 2 Q2A*
+
+
+**Q1** [4 marks]
+
+i) On Fig. 1.3, sketch a graph to show the trend in the atomic radius of successive elements in Period 3.
+
+![Blank graph with Period 3 elements Na to Ar on the x-axis and atomic radius on the y-axis, for sketching the trend](assets/003-blank-graph-with-period-3-elements-na-to-ar-on-t.png)
+
+**Fig. 1.3**
+
+[1]
+
+ii) Explain your answer to **(c)(i).**
+
+[3]
+
+*Source: 2022 Specimen Paper 2 Q1C*
+
+
+### Q2 — medium — 8 marks
+
+**Q2** [2 marks]
+
+Table 2.1 shows successive ionisation energies of an element **A**, found in Period 3 of the Periodic Table.
+
+**Table 2.1**
+
+| **Number of electrons** | **1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** |
+|---|---|---|---|---|---|---|---|---|
+| **Ionisation Energy (kJ mol**<sup>-1</sup>**)** | 1012 | 1907 | 2914 | 4964 | 6274 | 21268 | 25431 | 29872 |
+
+Identify element **A**.
+
+Explain your answer using data from Table 2.1.
+
+**Q2** [5 marks]
+
+The graph below in Fig. 2.1 shows some information on the elements of Period 3 of the Periodic Table.
+
+![Graph showing first ionisation energy against atomic number for Period 3 elements Na to Ar, with a general increasing trend and lower values at Al and S deviating from the trend](assets/005-graph-showing-first-ionisation-energy-against-at.png)
+
+**Fig. 2.1**
+
+State and explain the trend that this graph shows, including why there are values that deviate from the trend.
+
+**Q2** [1 mark]
+
+Explain why the second ionisation energy of aluminium is a larger value than the first ionisation energy.
+
+### Q3 — medium — 8 marks
+
+**Q3** [2 marks]
+
+The successive ionisation energies of an element, **X**, are shown in Fig. 3.1. The vertical axis plots log (ionisation energy) instead of ionisation energy to represent the data without an unreasonably long vertical axis.
+
+![Graph of log(ionisation energy) against electron number for element X, showing large increases between the 1st and 2nd, and between the 9th and 10th electrons, indicating three electron shells](assets/006-graph-of-log-ionisation-energy-against-electron-.png)
+
+**Fig. 3.1**
+
+Identify element **X** and give its full electron configuration.
+
+**X**:
+
+Electronic configuration:
+
+**Q3** [3 marks]
+
+**Extract:**
+
+The successive ionisation energies of an element, **X**, are shown in Fig. 3.1. The vertical axis plots log (ionisation energy) instead of ionisation energy to represent the data without an unreasonably long vertical axis.
+
+![Graph of log(ionisation energy) against electron number for element X, showing large increases between the 1st and 2nd, and between the 9th and 10th electrons, indicating three electron shells](https://cdn.savemyexams.com/uploads/2022/03/q1_12-1_electrons-in-atoms-sq-medium_ib_hl.png)
+
+{align=center} **Fig. 3.1**
+
+Explain how the successive ionisation energy data for element **X** are related to its electron configuration.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+The successive ionisation energies of an element, **X**, are shown in Fig. 3.1.
+
+Element **X** is:
+
+- Sodium / Na
+
+Its full electron configuration is:
+
+- 1s^2^ 2s^2^ 2p^6^ 3s^1^
+
+Element **Y** is in the same period as element **X**.
+
+Element **Y** reacts with chlorine to form a chloride that has a pH of 2. When this chloride reacts with water, a rapid reaction occurs, producing white fumes and a white precipitate.
+
+i) Identify element **Y**
+
+[1]
+
+ii) Construct an equation for the reaction of the chloride formed from element **Y** with water. Include state symbols in your answer.
+
+[2]

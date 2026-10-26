@@ -453,3 +453,605 @@ Cl<sub>2</sub><sup>+</sup> → Cl<sup>+</sup> + Cl
 - Therefore, ion **D** in the table should be [<sup>14</sup>N(<sup>37</sup>Cl)<sub>3</sub>]<sup>+</sup>.
 
 **A**, **B** and **C** are incorrect as these are all valid molecular ions with correct m/z values.
+
+## Structured Questions (7 questions)
+
+
+### Q1
+To calculate the number of carbon atoms in compound **X**:
+
+- Apply the M+1 peak formula:
+
+n = $\frac{100\times6.5}{1.1\times100}$
+
+n = 5.91 **[1 mark]**
+
+Number of carbon atoms = **6** **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct substitution into the M+1 formula
+> 
+> 1 mark for n ≈ 6 carbon atoms
+
+> **[exam-tip]**
+> The M+1 peak arises because ~1.1% of all carbon atoms are <sup>13</sup>C. Each carbon contributes approximately 1.1% to the [M+1] peak relative to the M peak. The formula is:
+> 
+> n =$\frac{ ( 100 \times [ \mathrm{M} + 1 ] \text{abundance} )}{ ( 1.1 \times \mathrm{M} \text{abundance} )}$
+> 
+> From Fig. 1.1: the peak at *m* / *e* = 102 is the molecular ion peak (M, abundance 100%) and the peak at *m* / *e* = 103 is the M+1 peak (abundance 6.5%).
+To suggest the molecular formula of compound **X**:
+
+- Use the molecular ion peak:
+
+*M*<sub>r</sub> = 102 (from M peak at *m* / *e* = 102)
+
+- Calculate remaining mass after carbon:
+
+102 − (6 x 12.0) = 30
+
+- Assign oxygen and hydrogen:
+
+30 − 16.0 (one O) = 14 → 14 hydrogen atoms
+
+Molecular formula = **C**<sub>**6**</sub>**H**<sub>**14**</sub>**O ****[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct molecular formula C<sub>6</sub>H<sub>14</sub>O
+
+> **[exam-tip]**
+> The molecular ion peak (M) at *m* / *e* = 102 gives *M*<sub>r</sub> = 102. Six carbon atoms contribute 6 × 12.0 = 72.0, leaving 30. One oxygen atom (mass 16.0) leaves 14, which corresponds to 14 hydrogen atoms. The molecular formula is therefore C<sub>6</sub>H<sub>14</sub>O.
+> **[mark-scheme]**
+> The formula of the fragment ion at *m* / *e* = 31 is:
+> 
+> - CH<sub>2</sub>OH<sup>+</sup> **[1 mark]**
+
+> **[exam-tip]**
+> Build up the formula from common fragments:
+> 
+> - CH<sub>2</sub><sup>+</sup> has a mass of 14
+> - OH has a mass of 17
+> - Together: 14 + 17 = 31
+> 
+> The fragment ion CH<sub>2</sub>OH<sup>+</sup> is formed by cleavage of the C−C bond adjacent to the OH group in compound **X**.
+> **[mark-scheme]**
+> The functional group present in **X** is:
+> 
+> - Hydroxy / OH group **[1 mark]**
+> - The broad absorption at ~3300 cm<sup>-1</sup> corresponds to O−H (hydroxy, range 3200–3600 cm<sup>-1</sup>) 
+> **AND**
+> Compound **X** has only one oxygen atom, so a carboxyl group (which requires two oxygen atoms) is excluded **[1 mark]**
+
+> **[exam-tip]**
+> The infrared spectrum shows a broad absorption at ~3300 cm<sup>-1</sup>, which falls in the 3200–3600 cm<sup>-1</sup> range for O−H (hydroxy).
+> 
+> The carboxyl O−H absorption falls in the 2500–3000 cm<sup>-1</sup> range, so the peak at ~3300 cm<sup>-1</sup> rules out carboxylic acid.
+> 
+> The molecular formula C<sub>6</sub>H<sub>14</sub>O contains only one oxygen atom, which further confirms a hydroxy group (COOH would require two oxygen atoms).
+
+### Q2
+i) To calculate the empirical formula of compound **F**:
+
+- Calculate the percentage of carbon:
+
+% C = 100 − 6.98 − 37.21 = 55.81%
+
+- Calculate the moles of each element:
+
+moles of C = $\frac{55.81}{12.0}$ = 4.65
+
+moles of H = $\frac{6.98}{1.0}$ = 6.98
+
+moles of O = $\frac{37.21}{16.0}$ = 2.33
+
+**[1 mark]**
+
+- Find the simplest molar ratio:
+
+C : H : O = $\frac{4.65}{2.33}$ : $\frac{6.98}{2.33}$ : $\frac{2.33}{2.33}$ = 1.99 : 2.99 : 1 ≈ 2 : 3 : 1
+
+Empirical formula = **C**<sub>**2**</sub>**H**<sub>**3**</sub>**O**
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for moles of C = 4.65, H = 6.98 and O = 2.33
+> 
+> 1 mark for correct empirical formula C<sub>2</sub>H<sub>3</sub>O
+
+> **[exam-tip]**
+> Calculate the missing percentage first: % C = 100 − 6.98 − 37.21 = 55.81%. Then divide each percentage by the relative atomic mass to find moles, and divide by the smallest value (O = 2.33) to find the simplest ratio.
+
+> **[mark-scheme]**
+> ii) The empirical formula C<sub>2</sub>H<sub>3</sub>O cannot be the molecular formula because:
+> 
+> - It has an odd number of hydrogen atoms, making it impossible to form a complete, fully-bonded molecule **[1 mark]**
+
+> **[exam-tip]**
+> For any organic molecule, the hydrogen count must be even (carbon forms 4 bonds, oxygen forms 2 bonds as any complete arrangement requires an even number of hydrogen atoms). C<sub>2</sub>H<sub>3</sub>O has only 3 hydrogen atoms (odd), so no complete bonded structure is possible.
+To deduce the molecular formula of compound **F**:
+
+- Identify the molecular ion peak:
+
+Molecular ion peak (M) at *m* / *e* = 86.0 → *M*<sub>r</sub> of compound **F** = 86.0
+
+- Divide by the *M*<sub>r</sub> of the empirical formula:
+
+*M*<sub>r</sub> of C<sub>2</sub>H<sub>3</sub>O = (2 x 12.0) + (3 x 1.0) + 16.0 = 43.0
+
+$\frac{86.0}{43.0}$ = 2
+
+Molecular formula = **C**<sub>**4**</sub>**H**<sub>**6**</sub>**O**<sub>**2**</sub> **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct molecular formula C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>
+> 
+> Allow error carried forward from part (a)(i) if the empirical formula and calculation are consistent
+
+> **[exam-tip]**
+> The molecular ion peak (M) gives the *M*<sub>r</sub> of the compound directly. Divide this (86.0) by the *M*<sub>r</sub> of the empirical formula (43.0): 86.0 ÷ 43.0 = 2, so the molecular formula is 2 × C<sub>2</sub>H<sub>3</sub>O = C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>.
+The completed table is:
+
+| **Principal absorption in infrared spectrum** | **Bond responsible** |
+|---|---|
+| 2500 – 3000 cm<sup>-1</sup> | **Final answer:** **O−H (carboxyl)** |
+| 1710 cm<sup>-1</sup> | **Final answer:** **C=O (carboxyl)** |
+| 1620 cm<sup>-1</sup> | **Final answer:** **C=C** |
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for both: O−H (carboxyl / carboxylic acid) at 2500–3000 cm<sup>-1</sup> **AND** C=O (carboxyl / carboxylic acid) at 1710 cm<sup>-1</sup>
+> 
+> 1 mark for C=C / alkene at 1620 cm<sup>-1</sup>
+
+> **[exam-tip]**
+> For the absorptions at 2500–3000 cm<sup>-1</sup> and 1710 cm<sup>-1</sup>, specifying 'carboxyl' or 'carboxylic acid' is required. Both ranges can correspond to more than one functional group in Table 3.1, so the functional group context is essential for full credit.
+The displayed formulae and systematic names of the **three** possible isomers that could be compound **F** are:
+
+But-3-enoic acid
+
+![Fully displayed structural formula of but-3-enoic acid showing a four-carbon chain with a carboxylic acid group at carbon 1 and a C=C double bond between carbons 3 and 4](assets/017-fully-displayed-structural-formula-of-but-3-enoi.png)
+
+**[1 mark]**
+
+*cis*-but-2-enoic acid / Z-but-2-enoic acid
+
+![Fully displayed structural formula of Z-but-2-enoic acid (cis-but-2-enoic acid) showing a four-carbon chain with a carboxylic acid group at carbon 1 and a cis C=C double bond between carbons 2 and 3](assets/018-fully-displayed-structural-formula-of-z-but-2-en.png)
+
+**[1 mark]**
+
+*trans*-but-2-enoic acid / E-but-2-enoic acid
+
+![Fully displayed structural formula of E-but-2-enoic acid (trans-but-2-enoic acid) showing a four-carbon chain with a carboxylic acid group at carbon 1 and a trans C=C double bond between carbons 2 and 3](assets/019-fully-displayed-structural-formula-of-e-but-2-en.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the correct fully displayed formula **AND** correct systematic name of but-3-enoic acid
+> 
+> 1 mark for the correct fully displayed formula **AND** correct systematic name of *cis*-but-2-enoic acid / Z-but-2-enoic acid
+> 
+> 1 mark for the correct fully displayed formula **AND** correct systematic name of *trans*-but-2-enoic acid / E-but-2-enoic acid
+> 
+> *Cis*/*trans *and E/Z names are both accepted
+
+> **[exam-tip]**
+> From parts **(b)** and **(c)**: compound **F** has molecular formula C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>, a carboxylic acid group and a C=C double bond. Being unbranched means the carbon chain is straight. Start with COOH at C-1, then place C=C at C-2 (giving *cis *and *trans *but-2-enoic acid) or at C-3 (giving but-3-enoic acid, which has no geometric isomerism).
+> **[mark-scheme]**
+> The name of compound **F** is:
+> 
+> - cis-but-2-enoic acid / Z-but-2-enoic acid **[1 mark]**
+> - The cis arrangement of substituents around the C=C reduces molecular surface area, weakening van der Waals forces, so less energy is required to overcome them **[1 mark]**
+
+> **[exam-tip]**
+> But-3-enoic acid is not a stereoisomer so it is excluded. Of the remaining two isomers, cis-but-2-enoic acid has both larger substituents on the same side of the C=C, giving a more compact shape, smaller surface area, weaker van der Waals forces and therefore a lower boiling point.
+
+### Q3
+To calculate the relative atomic mass of boron:
+
+- Calculate the weighted mean of the isotopic masses:
+
+*A*<sub>r</sub>(B) = $\frac{(10\times20)+(11\times80)}{100}$ **[1 mark]**
+
+*A*<sub>r</sub>(B) = **10.8** **[1 mark]**
+
+> **[exam-tip]**
+> The relative atomic mass is the weighted mean of the isotopic masses. Multiply each isotopic mass by its relative abundance, sum the results, then divide by the total abundance (100 when expressed as percentages):
+> 
+> $\frac{(\mathrm{abundance}_{1}\times\mathrm{mass}_{1})+(\mathrm{abundance}_{2}\times\mathrm{mass}_{2})}{100}$
+> 
+> The relative abundance of an isotope can be given as a percentage or read directly from the mass spectrum.
+To calculate the relative atomic mass of potassium:
+
+- Calculate the total relative abundance:
+
+Total abundance = 130.6 + 9.4 = 140 **[1 mark]**
+
+- Calculate the weighted mean:
+
+*A*<sub>r</sub>(K) = $\frac{(39\times130.6)+(41\times9.4)}{140}$ = **39.1** **[1 mark]**
+
+> **[mark-scheme]**
+> Allow *A*<sub>r</sub> = 39.13 or 39.14.
+> 
+> Allow error carried forward from an incorrect total abundance value.
+
+> **[exam-tip]**
+> The y-axis of the mass spectrum gives relative abundance, not percentage abundance.
+> 
+> The total abundance is 130.6 + 9.4 = 140, not 100. Use 140 as the denominator, not 100.
+> **[mark-scheme]**
+> The equation for the formation of the molecular ion of octane and its m / e value are:
+> 
+> - C<sub>8</sub>H<sub>18</sub> → C<sub>8</sub>H<sub>18</sub><sup>+</sup> + e<sup>–</sup> **[1 mark]**
+> - m / e = (8 x 12) + (18 x 1) = 114 **[1 mark]**
+> 
+> State symbols are not required in the equation.
+
+> **[exam-tip]**
+> The molecular ion is formed when a molecule loses one electron in the mass spectrometer. Since the mass of an electron is negligible, the molecular ion has the same m / e value as the relative molecular mass of the compound.
+> **[mark-scheme]**
+> The smaller peak at m / e = 59.0 in the mass spectrum of butane appears because:
+> 
+> - Some butane molecules contain a <sup>13</sup>C isotope / one carbon atom has mass 13 instead of 12, giving a molecular ion with m / e = 59 / producing an [M+1] peak **[1 mark]**
+
+> **[exam-tip]**
+> Approximately 1.1% of all carbon atoms are <sup>13</sup>C. When a butane molecule contains one <sup>13</sup>C atom, its molecular ion has m / e = 59 rather than 58. This produces the [M+1] peak, which is always smaller than the M peak because <sup>13</sup>C is much less abundant than <sup>12</sup>C.
+> **[mark-scheme]**
+> The compound with the greater relative abundance of the [M+1] peak is:
+> 
+> - Octane **[1 mark]**
+> - Because it contains more carbon atoms, so there is a greater probability of one being <sup>13</sup>C **[1 mark]**
+
+> **[exam-tip]**
+> The [M+1] peak arises when one carbon atom in a molecule is <sup>13</sup>C. The more carbon atoms a molecule contains, the greater the probability that one of them will be <sup>13</sup>C, and so the larger the [M+1] peak relative to the M peak.
+> **[mark-scheme]**
+> The ratios of the relative abundances of the M and [M+2] peaks are:
+> 
+> - In 1-chlorobutane, M : [M+2] = 3 : 1 **[1 mark]**
+> - In 1-bromobutane, M : [M+2] = 1 : 1 **[1 mark]**
+
+> **[exam-tip]**
+> Both chlorine and bromine exist as two isotopes:
+> 
+> - <sup>35</sup>Cl and <sup>37</sup>Cl: <sup>35</sup>Cl is approximately three times more abundant than <sup>37</sup>Cl, giving M : [M+2] = 3 : 1 for compounds containing one chlorine atom.
+> - <sup>79</sup>Br and <sup>81</sup>Br: these isotopes have approximately equal abundances, giving M : [M+2] = 1 : 1 for compounds containing one bromine atom.
+> 
+> The [M+2] peak arises because some molecules contain the heavier isotope of the halogen, giving a molecular ion 2 mass units heavier than the M peak.
+
+### Q4
+> **[mark-scheme]**
+> Evidence that compound **X** is a hydrocarbon:
+> 
+> - (Strong) absorption at approximately 2950 cm<sup>−1</sup> in the infrared spectrum indicates C−H bonds are present **[1 mark]**
+> - No absorptions for other functional groups (such as O−H, C=O or C≡N) are present, indicating the molecule contains only carbon and hydrogen **[1 mark]**
+
+> **[exam-tip]**
+> A hydrocarbon contains only carbon and hydrogen.
+> 
+> Look for two things in the infrared spectrum:
+> 
+> 1. A C−H absorption is present
+> 2. No absorptions for oxygen- or nitrogen-containing functional groups appear.
+> 
+> The mass spectrum confirms the M<sub>r</sub> but does not identify functional groups.
+> **[mark-scheme]**
+> The mass spectrum supports the molecular formula C<sub>4</sub>H<sub>10</sub> because:
+> 
+> - (There is a) molecular ion / M<sup>+</sup> peak at *m/e* = 58
+> **AND**
+> C<sub>4</sub>H<sub>10</sub> has a relative molecular mass / *M*<sub>r</sub> of 58 **[1 mark]**
+
+> **[exam-tip]**
+> State both the supporting evidence AND how it supports the conclusion: identify the molecular ion peak at m/e = 58, then link this to the M<sub>r</sub> of C<sub>4</sub>H<sub>10</sub>.
+The fully displayed formulae of two possible isomers for compound **X** are:
+
+![Fully displayed structural formula of butane showing a straight chain of four carbon atoms each bonded to the appropriate number of hydrogen atoms](assets/023-fully-displayed-structural-formula-of-butane-sho.png)
+
+![Fully displayed structural formula of methylpropane showing a central carbon atom bonded to three methyl groups and one hydrogen atom](assets/024-fully-displayed-structural-formula-of-methylprop.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct fully displayed formula of butane: linear chain of 4 carbons with all bonds shown
+> 
+> 1 mark for correct fully displayed formula of methylpropane: branched structure with all bonds shown
+
+> **[exam-tip]**
+> C<sub>4</sub>H<sub>10</sub> has exactly two structural isomers: butane (straight chain) and methylpropane (branched). Both must be drawn as fully displayed formulae, so all bonds must be shown explicitly. Skeletal or shortened structural formulae do not score the mark.
+> **[mark-scheme]**
+> i) The formulae of the fragment ions of **X**:
+> 
+> - *m/e* = 15: CH<sub>3</sub><sup>+</sup> **[1 mark]**
+> - *m/e* = 29: C<sub>2</sub>H<sub>5</sub><sup>+</sup> **[1 mark]**
+> - *m/e* = 43: C<sub>3</sub>H<sub>7</sub><sup>+</sup> **[1 mark]**
+> 
+> Do not accept formulae without the + charge
+
+> **[exam-tip]**
+> Each fragment ion formula must include the + charge. The ions CH<sub>3</sub><sup>+</sup>, C<sub>2</sub>H<sub>5</sub><sup>+</sup> and C<sub>3</sub>H<sub>7</sub><sup>+</sup> are consecutive alkyl cations produced by successive cleavage along an unbranched carbon chain.
+
+> **[mark-scheme]**
+> ii) The systematic name of compound **X** and the reasoning:
+> 
+> - Butane **[1 mark]**
+> - The consecutive fragment ions CH<sub>3</sub><sup>+</sup>, C<sub>2</sub>H<sub>5</sub><sup>+</sup> and C<sub>3</sub>H<sub>7</sub><sup>+</sup> are consistent with an unbranched carbon chain **[1 mark]**
+
+> **[exam-tip]**
+> Butane and methylpropane are both C<sub>4</sub>H<sub>10</sub> isomers. The mass spectrum distinguishes them: an unbranched chain produces consecutive alkyl cation fragments at m/e = 15, 29 and 43. Methylpropane would not produce a C<sub>2</sub>H<sub>5</sub><sup>+</sup> ion at m/e = 29.
+
+### Q5
+To calculate the molecular formula of compound **B**:
+
+- Calculate the percentage of hydrogen:
+
+% H = 100 − 69.7 − 18.6 = 11.7%
+
+- Calculate the moles of each element:
+
+moles of C = $\frac{69.7}{12.0}$ = 5.80
+
+moles of O = $\frac{18.6}{16.0}$ = 1.16
+
+moles of H = $\frac{11.7}{1.0}$ = 11.7
+
+**[1 mark]**
+
+- Find the simplest molar ratio:
+
+C : O : H = $\frac{5.80}{1.16}$ : $\frac{1.16}{1.16}$ : $\frac{11.7}{1.16}$ = 5 : 1 : 10
+
+Empirical formula = C<sub>5</sub>H<sub>10</sub>O
+
+**[1 mark]**
+
+- Confirm the molecular formula:
+
+*M*<sub>r</sub> of C<sub>5</sub>H<sub>10</sub>O = (5 x 12.0) + (10 x 1.0) + 16.0 = 86.0
+
+This matches the molecular ion peak at *m* / *e* = 86
+
+Molecular formula = **C**<sub>**5**</sub>**H**<sub>**10**</sub>**O**
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for moles of C = 5.80, O = 1.16 and H = 11.7
+> 
+> 1 mark for correct empirical formula C<sub>5</sub>H<sub>10</sub>O
+> 
+> 1 mark for confirming molecular formula C<sub>5</sub>H<sub>10</sub>O with *M*<sub>r</sub> = 86 matching the molecular ion peak
+
+> **[exam-tip]**
+> When the percentage composition is incomplete, calculate the missing element's percentage by subtracting from 100: % H = 100 − 69.7 − 18.6 = 11.7%.
+> 
+> The molecular ion peak (M) at *m* / *e* = 86 confirms the molecular formula directly as the empirical formula C<sub>5</sub>H<sub>10</sub>O has a molar mass of 86.0 g mol<sup>-1</sup>, matching the M peak exactly. The M+1 peak at *m* / *e* = 87.0 arises from molecules containing one <sup>13</sup>C atom.
+> **[mark-scheme]**
+> i) The functional group present in compound **B** is:
+> 
+> - Ketone / carbonyl group **[1 mark]**
+> 
+> Aldehyde is not accepted
+
+> **[exam-tip]**
+> The infrared absorption at 1705 cm<sup>-1</sup> falls in the 1670–1740 cm<sup>-1</sup> range for C=O in a carbonyl / ketone. The absence of a broad absorption around 3200 cm<sup>-1</sup> eliminates O−H groups, ruling out carboxylic acid and alcohol. Aldehyde also has a C=O absorption in this range, but can be eliminated using the fragment ion analysis in part (c).
+
+ii) The **two** possible skeletal formulae for compound **B** are:
+
+![Pentan-2-one and pentan-3-one skeletal formulae](assets/025-pentan-2-one-and-pentan-3-one-skeletal-formulae.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the correct skeletal formula of pentan-2-one
+> 
+> 1 mark for the correct skeletal formula of pentan-3-one
+> 
+> Structures must show the C=O group at the correct position on the carbon chain
+
+> **[exam-tip]**
+> With molecular formula C<sub>5</sub>H<sub>10</sub>O and a ketone functional group: pentan-2-one has C=O at C-2 and pentan-3-one has C=O at C-3. Pentanal (an aldehyde) is excluded by the functional group identified in (i).
+> **[mark-scheme]**
+> The formula of the fragment ion responsible for the peak at *m* / *e* = 29 is:
+> 
+> - C<sub>2</sub>H<sub>5</sub><sup>+</sup> **[1 mark]**
+> 
+> How this peak distinguishes between the two isomers:
+> 
+> - Pentan-2-one can form only **one** C<sub>2</sub>H<sub>5</sub><sup>+</sup> fragment
+> **AND**
+> Pentan-3-one can form **two** C<sub>2</sub>H<sub>5</sub><sup>+</sup> fragments due to its symmetry **[1 mark]**
+> - Therefore, the peak at *m* / *e* = 29 will have a greater relative abundance in the mass spectrum of pentan-3-one **[1 mark]**
+
+> **[exam-tip]**
+> Pentan-3-one (CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>) is symmetric: both ethyl (C<sub>2</sub>H<sub>5</sub>) groups can fragment to give C<sub>2</sub>H<sub>5</sub><sup>+</sup> at *m* / *e* = 29, so this peak will be approximately twice as intense. Pentan-2-one (CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>) has only one ethyl group, giving a weaker peak at *m* / *e* = 29.
+
+### Q6
+The relative abundances of the three isotopes are:
+
+| isotope | relative abundance |
+|---|---|
+| <sup>24</sup>Mg | **Final answer:** **78–79** |
+| <sup>25</sup>Mg | **Final answer:** **10** |
+| <sup>26</sup>Mg | **Final answer:** **11–12** |
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for all three correct values: <sup>24</sup>Mg = 78–79, <sup>25</sup>Mg = 10, <sup>26</sup>Mg = 11–12
+> 
+> Values must add up to 100
+
+> **[exam-tip]**
+> A range is given to allow for the readability of the diagram, but the values must add up to 100% to score the mark.
+To calculate the relative atomic mass, *A*<sub>r</sub>, of magnesium to two decimal places:
+
+- Substitute into the relative atomic mass equation using values from (a):
+
+*A*<sub>r</sub> = $\frac{(24\times78)+(25\times10)+(26\times12)}{100}$
+
+*A*<sub>r</sub> = $\frac{1872+250+312}{100}$ **[1 mark]**
+
+*A*<sub>r</sub> (Mg) = **24.34** **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct method: sum of (isotopic mass × relative abundance) divided by 100, using own values from (a)
+> 
+> 1 mark for correct final answer to 2 d.p., consistent with values from (a)
+> 
+> Allow error carried forward from (a) if method is correct
+
+> **[exam-tip]**
+> Use your values from part (a). Multiply each isotope's mass number by its relative abundance, add the results, then divide by 100.
+> **[mark-scheme]**
+> The full electronic configuration of the magnesium ion, <sup>26</sup>Mg<sup>2+</sup>:
+> 
+> - 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup> **[1 mark]**
+> 
+> The isotopic mass does not affect the electron configuration
+
+> **[exam-tip]**
+> Magnesium has 12 electrons (1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>). Forming the +2 ion removes 2 electrons, giving 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>. The isotopic mass (<sup>26</sup>Mg vs <sup>24</sup>Mg) affects only the number of neutrons, not electrons.
+To calculate the relative abundance of each isotope of boron:
+
+- Let the relative abundance of <sup>10</sup>B = *x*, so the relative abundance of <sup>11</sup>B = (100 − *x*)
+
+- Substitute into the relative atomic mass equation:
+
+*A*<sub>r</sub> = $\frac{(10\timesx)+(11\times(100-x))}{100}$
+
+10.8 = $\frac{10x+1100-11x}{100}$
+
+**[1 mark]**
+
+- Rearrange and solve for *x*:
+
+1080 = 1100 − *x*
+
+*x* = 20
+
+relative abundance of <sup>10</sup>B = **20**
+
+relative abundance of <sup>11</sup>B = **80**
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct substitution into the *A*<sub>r</sub> equation and rearrangement
+> 
+> 1 mark for both correct values: <sup>10</sup>B = 20, <sup>11</sup>B = 80
+
+> **[exam-tip]**
+> Let the relative abundance of <sup>10</sup>B = *x*.
+> 
+> The two abundances must sum to 100, so <sup>11</sup>B = (100 − *x*).
+> 
+> Substitute into the *A*<sub>r</sub> formula: 10.8 = ((10*x*) + (11(100 − *x*))) / 100.
+> 
+> Solve for *x*.
+
+### Q7
+To calculate the empirical formula and deduce the molecular formula of alcohol **E**:
+
+- Calculate the moles of each element:
+
+moles of C = $\frac{68.2}{12.0}$ = 5.68
+
+moles of H = $\frac{13.6}{1.0}$ = 13.6
+
+moles of O = $\frac{18.2}{16.0}$ = 1.14
+
+**[1 mark]**
+
+- Find the simplest molar ratio:
+
+C : H : O = $\frac{5.68}{1.14}$ : $\frac{13.6}{1.14}$ : $\frac{1.14}{1.14}$ = 4.98 : 11.93 : 1 ≈ 5 : 12 : 1
+
+Empirical formula = C<sub>5</sub>H<sub>12</sub>O
+
+**[1 mark]**
+
+- Deduce the molecular formula using the molecular ion peak:
+
+*M*<sub>r</sub> of C<sub>5</sub>H<sub>12</sub>O = (5 x 12.0) + (12 x 1.0) + 16.0 = 88.0
+
+This matches the molecular ion peak at *m* / *e* = 88.0
+
+Molecular formula = **C**<sub>**5**</sub>**H**<sub>**12**</sub>**O**
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for moles of C = 5.68, H = 13.6 and O = 1.14
+> 
+> 1 mark for correct empirical formula C<sub>5</sub>H<sub>12</sub>O
+> 
+> 1 mark for correct molecular formula C<sub>5</sub>H<sub>12</sub>O, confirmed using *M*<sub>r</sub> = 88.0 matching the molecular ion peak
+
+> **[exam-tip]**
+> Divide each percentage by the corresponding relative atomic mass to find moles, then divide by the smallest value to find the ratio. Here, O gives the smallest mole value (1.14), giving a C : H : O ratio of approximately 5 : 12 : 1.
+> 
+> Always verify the molecular formula against the molecular ion peak. Here, the empirical formula mass (88.0) matches *m* / *e* = 88.0, confirming the molecular and empirical formulae are the same.
+> **[mark-scheme]**
+> The class of alcohol **E** is:
+> 
+> - Primary / 1° alcohol **[1 mark]**
+
+> **[exam-tip]**
+> A primary alcohol has the OH group attached to a terminal carbon (a carbon bonded to only one other carbon). Primary alcohols are oxidised first to aldehydes, then further to carboxylic acids. Secondary alcohols are oxidised to ketones only. Tertiary alcohols cannot be oxidised under standard laboratory conditions.
+The fully displayed formulae and systematic names of the **four** possible structural isomers of alcohol **E** are:
+
+Pentan-1-ol
+
+![Fully displayed structural formula of pentan-1-ol showing a straight chain of five carbon atoms with an OH group at carbon 1 and all C-H bonds shown](assets/027-fully-displayed-structural-formula-of-pentan-1-o.png)
+
+**[1 mark]**
+
+2-methylbutanol
+
+![Fully displayed structural formula of 2-methylbutan-1-ol showing a four-carbon chain with a methyl branch at carbon 2 and an OH group at carbon 1, all bonds shown](assets/028-fully-displayed-structural-formula-of-2-methylbu.png)
+
+**[1 mark]**
+
+3-methylbutanol
+
+![Fully displayed structural formula of 3-methylbutan-1-ol showing a four-carbon chain with a methyl branch at carbon 3 and an OH group at carbon 1, all bonds shown](assets/029-fully-displayed-structural-formula-of-3-methylbu.png)
+
+**[1 mark]**
+
+2,2-dimethylpropanol
+
+![Fully displayed structural formula of 2,2-dimethylpropan-1-ol showing a propane backbone with two methyl groups at carbon 2 and an OH group at carbon 1, all bonds shown](assets/030-fully-displayed-structural-formula-of-2-2-dimeth.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the correct fully displayed formula **AND** correct systematic name of pentan-1-ol
+> 
+> 1 mark for the correct fully displayed formula **AND** correct systematic name of 2-methylbutanol
+> 
+> 1 mark for the correct fully displayed formula **AND** correct systematic name of 3-methylbutanol
+> 
+> 1 mark for the correct fully displayed formula **AND** correct systematic name of 2,2-dimethylpropanol
+> 
+> Systematic names without the locant "-1-" are accepted where the alcohol position is unambiguous (e.g. 3-methylbutanol accepted for 3-methylbutan-1-ol)
+
+> **[exam-tip]**
+> From part **(b)**, alcohol **E** is a primary alcohol, so the OH group must be on a terminal carbon in all four structures. All structures must have the molecular formula C<sub>5</sub>H<sub>12</sub>O.
+> 
+> Number the chain from the end closest to the OH group. Include the position number of the OH group in the systematic name.
+> **[mark-scheme]**
+> The formula of the fragment ion responsible for the peak at *m* / *e* = 45.0 is:
+> 
+> - C<sub>2</sub>H<sub>4</sub>OH<sup>+</sup> / CH<sub>2</sub>CH<sub>2</sub>OH<sup>+</sup> / C<sub>2</sub>H<sub>5</sub>O<sup>+</sup> **[1 mark]**
+
+> **[exam-tip]**
+> Start from the OH group: CH<sub>2</sub>OH has a mass of 31 (C = 12, 2×H = 2, O = 16, H = 1). The remaining mass is 45.0 − 31 = 14, which corresponds to a CH<sub>2</sub> group. Therefore the fragment ion is CH<sub>2</sub>CH<sub>2</sub>OH<sup>+</sup>, formed by cleavage of the C−C bond adjacent to the OH group.
+> **[mark-scheme]**
+> The isomer from part **(c)** that is alcohol **E** is:
+> 
+> - 3-methylbutan-1-ol **[1 mark]**
+> - It is the only branched-chain primary alcohol from part **(c)** that can produce a fragment ion at *m* / *e* = 45.0 **[1 mark]**
+
+> **[exam-tip]**
+> The three branched-chain isomers from part (c) are: 3-methylbutan-1-ol, 2-methylbutan-1-ol and 2,2-dimethylpropan-1-ol. Only 3-methylbutan-1-ol has an ethanol-type fragment (C<sub>2</sub>H<sub>4</sub>OH<sup>+</sup>) that produces a peak at *m* / *e* = 45.0.

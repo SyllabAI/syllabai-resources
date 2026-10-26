@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:34:49Z",
+ "generated_utc": "2026-10-26T14:12:42Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/",
@@ -101,6 +101,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_gbxYWfMHS83JKVHr",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/7-human-nutrition/7-1-human-diet-and-digestion/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_zjQHwRWPQWFHkzRN",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -113,31 +125,188 @@
    "question_count": 33,
    "questions_embedded": 33,
    "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/7-human-nutrition/7-1-human-diet-and-digestion/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_KKSRjdXxq2ydnmwn",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 26,
+   "questions_embedded": 26,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/7-human-nutrition/7-1-human-diet-and-digestion/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 33,
+  "questions_embedded": 60,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2023/02/7-q13-teeth.png": "001-diagram-of-four-teeth-types-labelled-1-to-4-mola.png",
-   "https://cdn.savemyexams.com/uploads/2026/03/38402-digestive-system.png": "002-picture5.png",
-   "https://cdn.savemyexams.com/uploads/2026/03/39695-2026-03-17-0l1-kleki.png": "003-graph-showing-a-downward-curve-y-axis-labelled-c.png",
-   "https://cdn.savemyexams.com/uploads/2026/03/32331-coeliac-disease.png": "004-comparison-of-intestinal-villi-normal-villi-on-t.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/63978_screenshot-2025-05-31-120432.png": "005-diagram-of-the-human-digestive-tract-with-a-stri.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/58964_screenshot-2025-05-31-120603.png": "006-diagram-of-human-digestive-tract-labelled-oesoph.png",
-   "https://cdn.savemyexams.com/uploads/2025/05/32939_7-1-image-mq6.png": "007-7-1-image-mq6.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/7-q1-human.png": "008-7-q1-human.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/picture1.png": "009-picture1.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/7-q10-villus.png": "010-7-q10-villus.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/picture5.png": "011-picture5.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/7-q12-starch.png": "012-7-q12-starch.png"
+   "https://cdn.savemyexams.com/uploads/2023/03/q1a---method.png": "001-q1a-method.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/7-1-atp-q1b---blank-results-table.png": "002-7-1-atp-q1b-blank-results-table.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/fe1yZhjJ_7-1-atp-q1c---spotting-tile-appearance.png": "003-fe1yzhjj-7-1-atp-q1c-spotting-tile-appearance.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/7-q13-teeth.png": "004-diagram-of-four-teeth-types-labelled-1-to-4-mola.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/38402-digestive-system.png": "005-picture5.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/39695-2026-03-17-0l1-kleki.png": "006-graph-showing-a-downward-curve-y-axis-labelled-c.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/32331-coeliac-disease.png": "007-comparison-of-intestinal-villi-normal-villi-on-t.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/63978_screenshot-2025-05-31-120432.png": "008-diagram-of-the-human-digestive-tract-with-a-stri.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/58964_screenshot-2025-05-31-120603.png": "009-diagram-of-human-digestive-tract-labelled-oesoph.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/32939_7-1-image-mq6.png": "010-7-1-image-mq6.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/7-q1-human.png": "011-7-q1-human.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/picture1.png": "012-picture1.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/7-q10-villus.png": "013-7-q10-villus.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/picture5.png": "014-picture5.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/7-q12-starch.png": "015-7-q12-starch.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-may-p3-q3a-junk-food.png": "016-cie-igcse-2018-s3-may-p3-q3a-junk-food.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-13-14-47-51.png": "017-screenshot-2022-10-13-14-47-51.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/1pAvjitD_097031-may-2019-paper-3-q3a-alimenary---sq.png": "018-1pavjitd-097031-may-2019-paper-3-q3a-alimenary-s.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/abaWlDWD_picture3.png": "019-abawldwd-picture3.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061032-oct-2018-paper-3-q4a-skull---sq.png": "020-061032-oct-2018-paper-3-q4a-skull-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061032-oct-2018-paper-3-q4a-skull---ma.png": "021-061032-oct-2018-paper-3-q4a-skull-ma.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/stomach-lining.png": "022-stomach-lining.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061041-may-2018-paper-4-q1a-enzymes---sq.png": "023-061041-may-2018-paper-4-q1a-enzymes-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061041-may-2018-paper-4-q1c-alimentary---sq.png": "024-061041-may-2018-paper-4-q1c-alimentary-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018-nov-s1-061031-q4aa.png": "025-2018-nov-s1-061031-q4aa.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018-nov-s1-061031-q4aaa.png": "026-2018-nov-s1-061031-q4aaa.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/C-SlHmRb_picture1.png": "027-c-slhmrb-picture1.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-03-12-09-55.png": "028-cie-igcse-2023-paper-4-q1-villi.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/human-organs-3.png": "029-human-organs-3.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/761ebceb-2066-4ee8-bf00-e587867cf571.jpeg": "030-761ebceb-2066-4ee8-bf00-e587867cf571.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/061042q1a.png": "031-061042q1a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2020-specimen-p4-q6a-small-intestine-epithelium.png": "032-cie-igcse-2020-specimen-p4-q6a-small-intestine-e.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/0610p31q6a.png": "033-0610p31q6a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061032-oct-2018-paper-3-q5a-alimentary-canal---sq.png": "034-061032-oct-2018-paper-3-q5a-alimentary-canal-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061032-oct-2018-paper-3-q5a-alimentary-canal---ma.png": "035-061032-oct-2018-paper-3-q5a-alimentary-canal-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061032-oct-2018-paper-3-q5c-enzyme-ph-graph---sq.png": "036-061032-oct-2018-paper-3-q5c-enzyme-ph-graph-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-03-15-04-37.png": "037-screenshot-2022-10-03-15-04-37.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-10-17-32-47.png": "038-screenshot-2022-10-10-17-32-47.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-06-12-11-14.png": "039-screenshot-2022-10-06-12-11-14.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/starch.png": "040-starch.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/c~y7HDU4_picture1.png": "041-c-y7hdu4-picture1.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/percentage-decrease.png": "042-percentage-decrease.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_ZCsNh7MY2QcqX8FC",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 23,
+   "parts": [
+    {
+     "id": "qstnprt_6W99vfzc2zPPppjS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of students used the experimental setup shown in Fig. 1 to model the effects of the digestion of starch in the human digestive system.\n\nThe aim is to determine the optimum pH for the action of amylase on starch.\n\n![q1a---method](assets/001-q1a-method.png)\n\n**Fig. 1**\n\nThe students set up 3 beakers the same as the one shown in Fig. 1. They used buffer solutions to keep the pH of each experimental setup at the following three pH levels: pH4, pH8 and pH10.\n\nVisking tubing (sometimes called dialysis tubing) is a non-living, partially permeable membrane made from cellulose. Pores in the membrane are small enough to prevent the passage of large molecules (such as starch and sucrose) but allow smaller molecules (such as glucose) to pass through by diffusion.\n\n(i)\n\nState the independent variable in this investigation.\n\n[1]\n\n(ii)\n\nSuggest **two **tests that can be carried out to determine the progress of the enzyme-catalysed reaction.\n\n[2]\n\n(iii)\n\nSuggest and explain a way to determine whether the buffer solution is performing its role effectively.\n\n[2]",
+     "solution_md": "(i) The independent variable in this investigation is:\n\n- pH / pH level; **[1 mark]**\n\n(ii) Two tests that can be carried out to determine progress of the enzyme-catalysed reaction are:\n\n- Iodine test (for starch); **[1 mark]**\n- Benedict's test (for glucose/reducing sugar); **[1 mark]**\n\n(iii) A  way to determine whether the buffer solution is performing its role effectively is:\n\n- To test the reaction mixture with a pH probe / universal indicator paper (periodically); **[1 mark]**\n- To show whether the pH is being held at the required level; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *The independent variable is the one that the experimenters change deliberately, to examine the effect of changing it on the way the reaction proceeds. Here, they are looking at the effect of changing pH. *\n\n> *The relative amounts of starch and glucose/reducing sugar will indicate how far the reaction has progressed under the various conditions. *\n\n> *A pH probe or piece of universal indicator paper, dipped into the reaction solution, will confirm that the various pH buffers are doing their job and holding the pH at those levels. *"
+    },
+    {
+     "id": "qstnprt_V2mbr5wjNtwrBKGn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of students used the experimental setup shown in Fig. 1 to model the effects of the digestion of starch in the human digestive system. The aim is to determine the optimum pH for the action of amylase on starch. The students set up 3 beakers the same as the one shown in Fig. 1. They used buffer solutions to keep the pH of each experimental setup at the following three pH levels: pH4, pH8 and pH10. Visking tubing (sometimes called dialysis tubing) is a non-living, partially permeable membrane made from cellulose. Pores in the membrane are small enough to prevent the passage of large molecules (such as starch and sucrose) but allow smaller molecules (such as glucose) to pass through by diffusion. The independent variable in this investigation is: pH / pH level. Two tests that can be carried out to determine progress of the enzyme-catalysed reaction are: Iodine test (for starch); Benedict's test (for glucose/reducing sugar).\n\nThe students wrote out their experimental method as follows:\n\n1. Set up each reaction mixture with identical volumes of amylase, starch solution and buffer solution. Each reaction mixture totals 20cm<sup>3</sup> in volume. Start the stopwatch\n2. Immediately withdraw a small volume (< 0.5 cm<sup>3</sup>) of the reaction mixture into one pipette and the same volume of the surrounding water into another pipette\n3. Place 1 drop of the reaction mixture into the well of a spotting tile and add a drop of iodine solution. Note any colour changes\n4. Every 5 minutes withdraw a small volume (< 0.5 cm<sup>3</sup>) of each reaction mixture using the dropping pipette. Also test a sample of the water from around the outside of the Visking tubing.\n5. Add the remaining contents of the dropping pipette to 2 cm of Benedict's solution in a test tube. Note any colour changes.\n6. Repeat steps 2-5 at 5 minute intervals until no further colour changes are observed\n7. Collate the results in a results table\n\n(i)\n\nAn important action has been missed out from the students' method above, during Step 5. Suggest what this action should be.\n\n[1]\n\n(ii)\n\nDraw a blank results table that the students could fill in to record the progress of their investigation. Use suitable column headings and units.\n\n[4]",
+     "solution_md": "(i) The important action that has been missed out from the students' method above, during Step 4, is:\n\n- Heat / heating the Benedict's solution with the test sample / boiling; **[1 mark]**\n\n(ii) A blank results table for the investigation would have the following features:\n\n- Independent variable / pH in the first / left-hand column; **[1 mark]**\n- Units of time included (seconds/minutes); **[1 mark]**\n- Times at 5 minute intervals from zero (maximum time any time 20 minutes+); **[1 mark]**\n- 4 results columns, 2 for iodine test (inside Visking tubing and outside), 2 for Benedict's test (inside Visking tubing and outside); **[1 mark]**\n\n**[Total: 5 marks]**\n\n![7-1-atp-q1b---blank-results-table](assets/002-7-1-atp-q1b-blank-results-table.png)"
+    },
+    {
+     "id": "qstnprt_DrYnnntWmFbzVxRP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zWw6jqdvgXTt2kdq",
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe students wrote out their experimental method as follows:\n\n1. Set up each reaction mixture with identical volumes of amylase, starch solution and buffer solution. Each reaction mixture totals 20cm^3^ in volume. Start the stopwatch\n2. Immediately withdraw a small volume (< 0.5 cm^3^) of the reaction mixture into one pipette and the same volume of the surrounding water into another pipette\n3. Place 1 drop of the reaction mixture into the well of a spotting tile and add a drop of iodine solution. Note any colour changes\n4. Every 5 minutes withdraw a small volume (< 0.5 cm^3^) of each reaction mixture using the dropping pipette. Also test a sample of the water from around the outside of the Visking tubing.\n5. Add the remaining contents of the dropping pipette to 2 cm of Benedict's solution in a test tube. Note any colour changes.\n6. Repeat steps 2-5 at 5 minute intervals until no further colour changes are observed\n7. Collate the results in a results table\n\nA blank results table for the investigation would have the following features:\n- Independent variable / pH in the first / left-hand column\n- Units of time included (seconds/minutes)\n- Times at 5 minute intervals from zero (maximum time any time 20 minutes+)\n- 4 results columns, 2 for iodine test (inside Visking tubing and outside), 2 for Benedict's test (inside Visking tubing and outside)\n\nTwo tests that can be carried out to determine progress of the enzyme-catalysed reaction are:\n- Iodine test (for starch)\n- Benedict's test (for glucose/reducing sugar)\n\nBefore beginning the investigation, the students decided on observations to record for each of the tests performed, as described in the method.  These observations would be written in the table they constructed in part (b) (ii).\n\n(i)\n\nSuggest the observations the students could record to show the results of the iodine test.\n\n[1]\n\n(ii)\n\nSuggest the observations the students could record to show the results of the Benedict's test.\n\n[1]\n\n(iii)\n\nDescribe a way for the results that the students observed to be made more reliable.\n\n[2]",
+     "solution_md": "(i) The iodine test results could be recorded as:\n\n**One** from:\n\n- Positive (for starch) / negative; **[1 mark]**\n- Blue/black or reddish brown; **[1 mark]**\n\n(ii) The Benedict's test results could be recorded as:\n\n**One** from:\n\n- Positive / negative; **[1 mark]**\n- Coloured (precipitate) is formed; **[1 mark]**\n- Colour change from light blue to green/yellow/orange/brick red; **[1 mark]**\n\n(c) (iii) The results can be made more reliable by:\n\n- Performing repeats / doing the experiment again; **[1 mark]**\n- (so that) anomalies can be identified and eliminated; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_8k5xtcwTPr2KYGkY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of students used the experimental setup shown in Fig. 1 to model the effects of the digestion of starch in the human digestive system. \n\nThe aim is to determine the optimum pH for the action of amylase on starch.\n\nThe students set up 3 beakers the same as the one shown in Fig. 1. They used buffer solutions to keep the pH of each experimental setup at the following three pH levels: pH4, pH8 and pH10.\n\nVisking tubing (sometimes called dialysis tubing) is a non-living, partially permeable membrane made from cellulose. Pores in the membrane are small enough to prevent the passage of large molecules (such as starch and sucrose) but allow smaller molecules (such as glucose) to pass through by diffusion.\n\nFig. 2 shows the appearance of the spotting tile that the students used for their iodine tests. The colours they observed are shown in the key at the bottom of Fig. 2\n\n![fe1yZhjJ_7-1-atp-q1c---spotting-tile-appearance](assets/003-fe1yzhjj-7-1-atp-q1c-spotting-tile-appearance.png)\n\n**Fig. 2**\n\n(i)\n\nExplain the results at each pH level.\n\n[3]\n\n(ii)\n\nUse the results in Fig. 2 to estimate the fastest time taken to fully digest the starch\n\n[1]\n\n(iii)\n\nSuggest a further experiment to give a more accurate answer to the answer you gave in part (d) (ii)\n\n[2]",
+     "solution_md": "(i) At pH 4:\n\n- The enzyme is denatured (by the acidic condition) so starch remains present; **[1 mark]**\n\nAt pH 8:\n\n- Amylase is near its optimum pH, so it can break starch down so after 10 minutes, all the starch has disappeared;** [1 mark]**\n\nAt pH 10\n\n- Amylase can function though not very well, so the breakdown of starch is slow **OR** starch is still present at the end; **[1 mark]**\n\n(ii) From Fig. 2, the fastest time to digest the starch is:\n\n- Any time between 5 and 10 minutes / 5 > *t* > 10 minutes; **[1 mark]**\n\n(iii) A further experiment to give a more accurate answer to the answer in part (d) (ii) is:\n\n- To carry out the experiment with a narrower range of pH values; **[1 mark]**\n- Between pH 4 and pH 8; **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *By testing a narrower range of pH values you will be able to determine nearer to the true optimum value for amylase; this would be a more accurate test to carry out. *"
+    },
+    {
+     "id": "qstnprt_HXGrQ3PHXZgVDTtz",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nVisking tubing (sometimes called dialysis tubing) is a non-living, partially permeable membrane made from cellulose. Pores in the membrane are small enough to prevent the passage of large molecules (such as starch and sucrose) but allow smaller molecules (such as glucose) to pass through by diffusion.\n\nThe aim is to determine the optimum pH for the action of amylase on starch.\n\nThe students set up 3 beakers the same as the one shown in Fig. 1. They used buffer solutions to keep the pH of each experimental setup at the following three pH levels: pH4, pH8 and pH10.\n\nThe students noticed that the results of the Benedict's test on the water outside the Visking tubing showed only very weak colour changes, when positive.\n\nSuggest and explain a change to the experimental equipment that could increase the chances of a more definitive positive result being produced.",
+     "solution_md": "A change to the experimental equipment that could increase the chances of a more definitive positive result being recorded could be:\n\n**Change:**\n\nAny **one** from the following:\n\n- Use a larger/longer/wider Visking tubing / more reaction mixture; **[1 mark]**\n- Suspend the Visking tubing in a smaller body of water / use a boiling tube in place of a beaker; **[1 mark]**\n\n**Explanation:**\n\nAny **two** from the following:\n\n- Benedict's test gives different strength colour changes for different concentrations of glucose/reducing sugar; **[1 mark]**\n- Having a smaller body of water will increase the concentration (of glucose); **[1 mark]**\n- And give a stronger colour change / more definitive result; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *You could argue that increasing the amylase concentration or the proportion of starch in the Visking tubing would result in more glucose being able to diffuse out, but that is missing the point of the question. Another suggestion could be that the experiment is conducted at a warmer temperature. This is because the question asks about a change to the **equipment** in the experiment, not the reagents used or the conditions, like temperature, that the experiment is carried out under. *"
+    }
+   ]
+  },
   {
    "id": "qstn_SwqYs4KH53pNmB85",
    "set_slug": "multiple-choice-questions",
@@ -214,7 +383,7 @@
       "spcpt_rYJcG2WKcNnQQQXX"
      ],
      "part_tier": null,
-     "problem_md": "Below are diagrams of human teeth.\n\n![Diagram of four teeth types, labelled 1 to 4: molar, premolar, canine, incisor, each showing crown and root structure.](assets/001-diagram-of-four-teeth-types-labelled-1-to-4-mola.png)\n\nWhich row correctly identifies the teeth shown?\n\n|   | **1** | **2** | **3** | **4** |\n|---|---|---|---|---|\n| **A** | Premolar | Molar | Canine | Canine |\n| **B** | Molar | Premolar | Incisor | Canine |\n| **C** | Premolar | Molar | Incisor | Canine |\n| **D** | Incisor | Molar | Premolar | Incisor |",
+     "problem_md": "Below are diagrams of human teeth.\n\n![Diagram of four teeth types, labelled 1 to 4: molar, premolar, canine, incisor, each showing crown and root structure.](assets/004-diagram-of-four-teeth-types-labelled-1-to-4-mola.png)\n\nWhich row correctly identifies the teeth shown?\n\n|   | **1** | **2** | **3** | **4** |\n|---|---|---|---|---|\n| **A** | Premolar | Molar | Canine | Canine |\n| **B** | Molar | Premolar | Incisor | Canine |\n| **C** | Premolar | Molar | Incisor | Canine |\n| **D** | Incisor | Molar | Premolar | Incisor |",
      "solution_md": "**Final answer:** **The correct answer is C.**\n\n- **Tooth 1 **is a premolar as it has a smaller grinding surface than a molar\n- **Tooth 2** is a molar as it has a broad grinding surface for crushing and grinding food\n- **Tooth 3** is an incisor as it has a broad, chisel-like biting edge\n- **Tooth 4** is a canine as it has a pointed tip",
      "choices": [
       {
@@ -265,7 +434,7 @@
       "spcpt_FRgPRzdtG9DFHZry"
      ],
      "part_tier": null,
-     "problem_md": "Below is a diagram of the digestive system\n\n![picture5](assets/002-picture5.png)\n\nWhich row correctly identifies the labelled organs?\n\n|   | Organ 1 | Organ 2 | Organ 3 | Organ 4 |\n|---|---|---|---|---|\n| **A** | Teeth | Stomach | Gall bladder | Liver |\n| **B** | Salivary glands | Stomach | Liver | Pancreas |\n| **C** | Mouth | Liver | Stomach | Pancreas |\n| **D** | Mouth | Liver | Gall bladder | Small intestine |",
+     "problem_md": "Below is a diagram of the digestive system\n\n![picture5](assets/005-picture5.png)\n\nWhich row correctly identifies the labelled organs?\n\n|   | Organ 1 | Organ 2 | Organ 3 | Organ 4 |\n|---|---|---|---|---|\n| **A** | Teeth | Stomach | Gall bladder | Liver |\n| **B** | Salivary glands | Stomach | Liver | Pancreas |\n| **C** | Mouth | Liver | Stomach | Pancreas |\n| **D** | Mouth | Liver | Gall bladder | Small intestine |",
      "solution_md": "**Final answer:** **The correct answer is B.**\n\n- **Organ 1** is the salivary glands: small, rounded structures located in the jaw region\n- **Organ 2** is the stomach: a J-shaped organ that forms part of the alimentary canal\n- **Organ 3** is the liver: a large organ that is not connected to the oesophagus and therefore is not part of the alimentary canal\n- **Organ 4** is the pancreas: a leaf-shaped structure located close to the stomach and duodenum\n\nThe teeth are not technically an organ, and are also located in a different position to organ 1 within the mouth.\n\nOrgan 1 could potentially also be the mouth, but there are other reasons why these rows must be incorrect.\n\nThe gall bladder is a small structure attached to the liver. It is visible in this diagram but not labelled as 1-4.\n\nThe small intestine forms the coiled, tubular structure in the lower abdomen and is clearly visible as a separate, unlabelled structure in the diagram.",
      "choices": [
       {
@@ -316,7 +485,7 @@
       "spcpt_JMhtwpHsd9cP4wdS"
      ],
      "part_tier": null,
-     "problem_md": "The graph below shows the change in concentration of pathogens as food passes through the stomach.\n\n![Graph showing a downward curve; y-axis labelled \"Concentration of Pathogen\" and x-axis labelled \"Time,\" indicating a decrease over time.](assets/003-graph-showing-a-downward-curve-y-axis-labelled-c.png)\n\nWhich of the following is the main factor that explains the shape of the curve?",
+     "problem_md": "The graph below shows the change in concentration of pathogens as food passes through the stomach.\n\n![Graph showing a downward curve; y-axis labelled \"Concentration of Pathogen\" and x-axis labelled \"Time,\" indicating a decrease over time.](assets/006-graph-showing-a-downward-curve-y-axis-labelled-c.png)\n\nWhich of the following is the main factor that explains the shape of the curve?",
      "solution_md": "**Final answer:** **The correct answer is C.**\n\n- The pH of the stomach is between 1.5 and 3 due to the presence of hydrochloric acid\n- Pathogens cannot survive in this acidic environment\n\n**A** is incorrect as stomach conditions are acidic, not alkaline.\n\n**B** is incorrect as, while protease enzymes are likely to play a role in the digestion of pathogenic proteins, they are not the main factor in reducing pathogen numbers.\n\n**D** is incorrect as, though stomach churning may aid pathogen destruction by ensuring thorough mixing of the stomach contents, it is not the main factor.",
      "choices": [
       {
@@ -367,7 +536,7 @@
       "spcpt_nqNgmJcjqCPn6dRV"
      ],
      "part_tier": "extended_only",
-     "problem_md": "The diagram shows villi in a healthy small intestine and in a person with coeliac disease.\n\n![Comparison of intestinal villi: normal villi on the left, tall and dense; coeliac disease on the right, shorter and less dense.](assets/004-comparison-of-intestinal-villi-normal-villi-on-t.png)\n\nA person with coeliac disease may become undernourished even if they eat enough food.\n\nWhich is the best explanation?",
+     "problem_md": "The diagram shows villi in a healthy small intestine and in a person with coeliac disease.\n\n![Comparison of intestinal villi: normal villi on the left, tall and dense; coeliac disease on the right, shorter and less dense.](assets/007-comparison-of-intestinal-villi-normal-villi-on-t.png)\n\nA person with coeliac disease may become undernourished even if they eat enough food.\n\nWhich is the best explanation?",
      "solution_md": "**Final answer:** **The correct answer is ****C.**\n\n- In coeliac disease, the villi become **damaged and flattened**, so the **surface area of the small intestine is reduced**. This means **fewer digested nutrients are absorbed into the blood**, so the person may become undernourished even if they eat enough food\n\n**A **is incorrect because reducing surface area mainly affects absorption, not the whole process of chemical digestion.\n\n**B **is incorrect because damaged villi do not mainly prevent digestive enzymes from being secreted.\n\n**D **is incorrect because danaged villi will not cause the food to move slowly.",
      "choices": [
       {
@@ -622,8 +791,8 @@
       "spcpt_FRgPRzdtG9DFHZry"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows the human alimentary canal, with a string marked in metres beside it.\n\n![Diagram of the human digestive tract with a string marked in metres from 0 at the oesophagus to 9 at the anus, illustrating the length of the tract.](assets/005-diagram-of-the-human-digestive-tract-with-a-stri.png)\n\nHow long is the small intestine?",
-     "solution_md": "**Final answer:** **The correct answer is ****B****.**\n\n- This is because the small intestine starts below the stomach at 1 m and ends above the large intestine at 7 m.\n- 7 - 1 = 6 m\n\n![Diagram of human digestive tract, labelled: oesophagus, stomach, small intestine, large intestine, anus. String marked in metres shows length.](assets/006-diagram-of-human-digestive-tract-labelled-oesoph.png)",
+     "problem_md": "The diagram shows the human alimentary canal, with a string marked in metres beside it.\n\n![Diagram of the human digestive tract with a string marked in metres from 0 at the oesophagus to 9 at the anus, illustrating the length of the tract.](assets/008-diagram-of-the-human-digestive-tract-with-a-stri.png)\n\nHow long is the small intestine?",
+     "solution_md": "**Final answer:** **The correct answer is ****B****.**\n\n- This is because the small intestine starts below the stomach at 1 m and ends above the large intestine at 7 m.\n- 7 - 1 = 6 m\n\n![Diagram of human digestive tract, labelled: oesophagus, stomach, small intestine, large intestine, anus. String marked in metres shows length.](assets/009-diagram-of-human-digestive-tract-labelled-oesoph.png)",
      "choices": [
       {
        "label": "A",
@@ -979,7 +1148,7 @@
       "spcpt_vVNFS2QNYNPxNVjr"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows part of the human digestive system.\n\nWhich structure produces lipase?\n\n![7-1-image-mq6](assets/007-7-1-image-mq6.png)",
+     "problem_md": "The diagram shows part of the human digestive system.\n\nWhich structure produces lipase?\n\n![7-1-image-mq6](assets/010-7-1-image-mq6.png)",
      "solution_md": "**Final answer:** **The correct answer is C because:**\n\nThis is the pancreas, which produces lipase that is released into the small intestine for digestion\n\n**A** is incorrect because the gallbladder does not produce lipase.\n\n**B** is incorrect because the oesophagus does not produce lipase.\n\n**D** is incorrect because the large intestine does not produce lipase.",
      "choices": [
       {
@@ -1081,7 +1250,7 @@
       "spcpt_rYJcG2WKcNnQQQXX"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows four different types of human teeth.\n\n![7-q13-teeth](assets/001-diagram-of-four-teeth-types-labelled-1-to-4-mola.png)\n\nWhich teeth would be used to grind and chew food?",
+     "problem_md": "The diagram below shows four different types of human teeth.\n\n![7-q13-teeth](assets/004-diagram-of-four-teeth-types-labelled-1-to-4-mola.png)\n\nWhich teeth would be used to grind and chew food?",
      "solution_md": "**Final answer:** **The correct answer is ****A**** (1 and 2) because:**\n\n**1** is a **premolar** tooth and **2** is a **molar** tooth. Premolars and molars have **larger**, flatter **surfaces** with ridges at the edges for **chewing** and grinding up food.\n\n**B** is incorrect because **3** is an **incisor**, which is chisel shaped for **biting** and cutting.\n\n**C** is incorrect because **1** (premolar) is also responsible for chewing and grinding of food.\n\n**D** is incorrect because **3** is an **incisor**, which is for **biting** and cutting while **4** is a **canine**, which is pointed for tearing, **holding** and biting.",
      "choices": [
       {
@@ -1132,7 +1301,7 @@
       "spcpt_dsxb7cNM22gJdqXF"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe diagram below shows the organs of the digestive system.\n\n![7-q1-human](assets/008-7-q1-human.png)\n\nIn which organs does the digestion of proteins take place?",
+     "problem_md": "#### Extended only\n\nThe diagram below shows the organs of the digestive system.\n\n![7-q1-human](assets/011-7-q1-human.png)\n\nIn which organs does the digestion of proteins take place?",
      "solution_md": "**Final answer:** **The correct answer is ****A**** (W and Y) because:**\n\n**Protein** digestion begins in the **stomach** (**W**) by action of acid and the enzyme pepsin. It also occurs in the small intestine (mainly in the **duodenum - Y**) as a result of proteases (such as trypsin) produced by the **pancreas** and the small intestine.\n\n**B** and **C** are incorrect because **Z** is the **liver**, which produces **bile** to aid lipid digestion. The liver doesn’t play an active part in digestion.\n\n**D** is incorrect because **X** is the **pancreas**, which produces enzymes that can digest proteins (proteases) but no digestion occurs here (the pancreas is an accessory organ that secretes enzymes into ducts which mix with food as it passes through the duodenum).",
      "choices": [
       {
@@ -1286,7 +1455,7 @@
       "spcpt_mNzjDbdZ9yDRsr9z"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows part of the human digestive system.\n\nIn which structure is most of the water from food absorbed?\n\n![picture1](assets/009-picture1.png)",
+     "problem_md": "The diagram below shows part of the human digestive system.\n\nIn which structure is most of the water from food absorbed?\n\n![picture1](assets/012-picture1.png)",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\nAlthough **water** is also absorbed in the **colon** (large intestine), **most** absorption occurs in the **small intestine**. This is because the absorption of** soluble **food molecules and salts (ions) from food occurs in the small intestine, **lowering the water potential **of the blood, drawing water in by osmosis.\n\n**A** is incorrect because no absorption of water occurs in the oesophagus.\n\n**B** is incorrect because no absorption of water occurs in the pancreas. Remember the pancreas is an accessory organ, and not part of the alimentary canal so no food passes through it.\n\n**D** is incorrect because some absorption would occur in the large intestine, but the question asks where **most** absorption takes place.",
      "choices": [
       {
@@ -1490,7 +1659,7 @@
       "spcpt_nqNgmJcjqCPn6dRV"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe diagram below shows a villus.\n\n![7-q10-villus](assets/010-7-q10-villus.png)\n\nIn which vessel would the concentration of fatty acids be highest?",
+     "problem_md": "#### Extended only\n\nThe diagram below shows a villus.\n\n![7-q10-villus](assets/013-7-q10-villus.png)\n\nIn which vessel would the concentration of fatty acids be highest?",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\nVessels **B** and **C** are both **lacteals, **the lymphatic vessels of the small intestines that absorb fatty acids and glycerol (the products of lipid digestion). Lacteal **B** is entering the villus, where it will absorb fatty acids and glycerol, so lacteal** C, **which is leaving the villus, will have the highest concentration of fatty acids.\n\n**A** is incorrect because it represents a **capillary** entering the villus.\n\n**B** is incorrect because it is a lacteal **entering** the villus to absorb the products of lipid digestion.\n\n**D** is incorrect because it is a **capillary** leaving the villus. Although some fatty acid molecules will be absorbed into the bloodstream, far more end up in the lacteals.",
      "choices": [
       {
@@ -1592,7 +1761,7 @@
       "spcpt_mngsmcDjzNGDv4zp"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows the organs of the digestive system, including the alimentary canal and accessory organs.\n\n![picture5](assets/011-picture5.png)\n\nWhere are most of the digestive lipase enzymes made in the body?",
+     "problem_md": "The diagram below shows the organs of the digestive system, including the alimentary canal and accessory organs.\n\n![picture5](assets/014-picture5.png)\n\nWhere are most of the digestive lipase enzymes made in the body?",
      "solution_md": "**Final answer:** **The correct answer is ****B**** (4 only) because:**\n\nStructure **4** is the **pancreas** which produces the majority of **lipases** involved in digestion.\n\n**A** is incorrect because the **stomach** (2) only produces **proteases** for protein digestion.\n\n**C** is incorrect because the **liver** (3) produces **bile** which aids lipid digestion (by emulsifying lipids to increase their surface area) but it does not produce lipases.\n\n**D** is incorrect because the **mouth** (1) contains salivary glands which secrete **salivary** **amylase** to digest carbohydrates. No lipases are made here.",
      "choices": [
       {
@@ -1796,7 +1965,7 @@
       "spcpt_YV6VK3BryrsFrXsG"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended only\n\nThe diagram below shows the activity of salivary amylase on a starch molecule.\n\n![7-q12-starch](assets/012-7-q12-starch.png)\n\nWhich of the following is **not **a function of salivary amylase?",
+     "problem_md": "#### Extended only\n\nThe diagram below shows the activity of salivary amylase on a starch molecule.\n\n![7-q12-starch](assets/015-7-q12-starch.png)\n\nWhich of the following is **not **a function of salivary amylase?",
      "solution_md": "**Final answer:** **The correct answer is ****D**** (Increasing the rate of starch breakdown into glucose molecules) because:**\n\n**Amylase** breaks down **starch** into **maltose**.  **Maltase**, produced by the **epithelial** cells lining the small intestine, breaks maltose down into **glucose** which can be readily absorbed into the bloodstream. Therefore option **D** is not a function of salivary amylase as starch is not broken down into glucose by amylase.",
      "choices": [
       {
@@ -1820,6 +1989,1514 @@
        "text_md": "Increasing the rate of starch breakdown into glucose molecules"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rtcHzdySkmVDt8JQ",
+   "set_slug": "theory-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_z87r9ygmzpp9nFgZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qXcGqG8C54K6HVDn"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "Bile is required for the effective digestion of fats.\n\nOutline the role of bile in fat digestion.",
+     "solution_md": "> **[mark-scheme]**\n> - Bile emulsifies fats / breaks fats into smaller droplets **[1 mark]**\n> - Increases surface area (of fats) for lipase to act on / for enzyme action **[1 mark]**\n> \n> **Reject** references to bile breaking down molecules in marking point 1.\n\n> **[exam-tip]**\n> **Don't say that bile digests fats**. This is the most common mistake — bile is not an enzyme so it does not chemically break down fats."
+    },
+    {
+     "id": "qstnprt_z5CPrFpCwVnXY7VS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vVNFS2QNYNPxNVjr",
+      "spcpt_4TYhHsQPjY83xGkV"
+     ],
+     "part_tier": null,
+     "problem_md": "In patients with cystic fibrosis, thick mucus blocks the pancreatic duct.\n\nExplain why a blockage of the pancreatic duct leads to poor growth and 'fatty stools' (faeces containing undigested fats).",
+     "solution_md": "> **[mark-scheme]**\n> Any **three** from:\n> \n> - Pancreatic enzymes / enzymes produced in the pancreas cannot reach the small intestine\n> - Protease / trypsin cannot digest proteins into amino acids\n> - Carbohydrase / amylase cannot digest starch into maltose / sugars\n> - New proteins cannot be produced for growth **OR** less energy available for growth (from respiration of glucose)\n> \n> **AND**\n> \n> - Undigested fats cannot be absorbed **SO** pass out in faeces\n> \n> **[4 marks]**\n> \n> Reject pepsin for marking point 2.\n> \n> Reject references to energy being made or produced for marking point 4.\n\n> **[exam-tip]**\n> A good starting point here is to recall that lipase, protease, and amylase are all produced by the pancreas. From here, think carefully about which enzyme is responsible for digesting which substrate, and what the consequences are for growth when each enzyme cannot reach the small intestine.\n> \n> The mark scheme is structured so that you must gain at least one mark from the fatty stools section as well as marks from the growth section — covering only one will prevent you from accessing full marks."
+    },
+    {
+     "id": "qstnprt_9V23nzMDKrxxFVPt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_4TYhHsQPjY83xGkV"
+     ],
+     "part_tier": null,
+     "problem_md": "Patients with cystic fibrosis often take enzyme supplement capsules with every meal.\n\nA patient with cystic fibrosis absorbs 12 g of fat per day without enzyme capsules. When taking enzyme supplement capsules with every meal, they absorb 50 g of fat per day.\n\nCalculate the percentage increase in fat absorption when using the capsules.\n\nGive your answer to two significant figures.",
+     "solution_md": "In order to calculate the percentage change you need to use the following equation:\n\npercentage increase = (change ÷ original) × 100\n\n- Calculate the change in absorption:\n\n= 50 − 12\n\n= 38 g\n\n- Substitute into the percentage increase formula:\n\n= (38 ÷ 12) × 100 **[1 mark]**\n\n= 316.67 **[1 mark]**\n\n- Round to two significant figures:\n\n**320** % **[1 mark]**\n\n> **[mark-scheme]**\n> Full marks can be awarded for the correct answer in the absence of additional calculations."
+    }
+   ]
+  },
+  {
+   "id": "qstn_S9K6tn8xY63hWDBf",
+   "set_slug": "theory-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": "exam_part",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_qmjjHDkFwNxFZfK5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zWw6jqdvgXTt2kdq"
+     ],
+     "part_tier": null,
+     "problem_md": "A student analysed the nutritional content of a 60 g \"high-energy\" snack bar. They suspected that the bar contained starch and protein.\n\nDescribe the food tests they would use to confirm the presence of these two nutrients.",
+     "solution_md": "> **[mark-scheme]**\n> - Iodine solution **[1 mark] **\n> - Turns blue-black if starch is present** [1 mark]**\n> \n> **AND**\n> \n> - Biuret reagent** [1 mark] **\n> - Turns purple / lilac / violet if protein is present **[1 mark]**\n> \n> The results must be linked with the correct tests for marking points 2 and 4 to be awarded."
+    },
+    {
+     "id": "qstnprt_yFQpFPVwWCJGbmtX",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "The snack bar contained the sugar lactose, found naturally in milk. In the human body, lactose is broken down by the enzyme lactase.\n\nLactase breaks down lactose into smaller sugar molecules known as reducing sugars.\n\n(i) State the name of the solution used to test for reducing sugars, and describe the positive result you would expect to see.\n\n[2]\n\n(ii) The optimum temperature for lactase is 37 °C.\n\nDescribe what will happen to the enzyme and the rate of reaction when the temperature is increased to 80 °C.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The name of the solution used to test for reducing sugars, and the positive result is:\n> \n> - Benedict's (solution / reagent) **[1 mark]**\n> - Brick red / orange precipitate forms **[1 mark]**\n> \n> (ii) The effect on the enzyme and the reaction rate will be:\n> \n> - Enzyme denatures / is denatured **[1 mark]**\n> - Rate of reaction decreases to zero / the reaction will stop **[1 mark]**"
+    },
+    {
+     "id": "qstnprt_cPBFrDcWG9fHnT67",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cdP76tCMPxxF3CYV",
+      "spcpt_4TYhHsQPjY83xGkV"
+     ],
+     "part_tier": null,
+     "problem_md": "A person who ate only these snack bars for a long period of time could develop deficiency conditions.\n\n(i) State the name of the condition caused by a lack of vitamin C.\n\n[1]\n\n(ii) State the name of the condition caused by a lack of vitamin D.\n\n[1]\n\n(iii) State **one** reason why humans need fibre in their diet.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i) The condition caused by a lack of vitamin C is:\n> \n> - Scurvy **[1 mark]**\n> \n> (ii) The name of the condition caused by a lack of vitamin D is:\n> \n> - Rickets **[1 mark]**\n> \n> (iii) Humans need fibre in their diet because:\n> \n> - To keep food moving through the gut / prevent constipation **[1 mark]**\n> \n> Accept to reduce the risk of bowel cancer for part (iii)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5PZ97sjv3Xn6Q4zx",
+   "set_slug": "theory-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_8RxHPmQwqQ46hm6P",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG"
+     ],
+     "part_tier": null,
+     "problem_md": "Maltase is another digestive enzyme.\n\nOutline the action of maltase.",
+     "solution_md": "> **[mark-scheme]**\n> Any **two** from:\n> \n> - Breaking down/hydrolysing maltose\n> - Into glucose\n> - On the membranes of the epithelial cells\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> Make sure you name both the substrate (maltose) and the product (glucose) when describing the action of an enzyme. A common mistake is to say maltase \"breaks down sugar\" without specifying which sugar or what it is broken down into. Remember that maltase acts at the membrane of epithelial cells lining the small intestine, so mentioning the location can earn you an additional mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_2N4ZgFmyYw6GVDCZ",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_8mBM5Gg2MTTBv3wR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/04",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ZbTzHJZT5V3vyvqX",
+      "spcpt_4TYhHsQPjY83xGkV"
+     ],
+     "part_tier": null,
+     "problem_md": "(i)\n\nBlood transports nutrients.\n\nState the component of the blood that transports nutrients.\n\n[1]\n\n(ii)\n\nThe nutrients in the blood can be used to become part of cells. State the name of this process.\n\n[1]\n\n(iii)\n\nAmino acids are used to make proteins. State two examples of proteins that are found in the blood.\n\n[2]",
+     "solution_md": "(i) (Blood) plasma;** [1 mark]**\n\n(ii) Assimilation; **[1 mark]**\n\n(iii) Any **two **from**:**\n\n- Antibodies; **[1 mark]**\n- Insulin; **[1 mark]**\n- Glucagon; **[1 mark]**\n- Fibrin(ogen); **[1 mark]**\n- Haemoglobin;**[1 mark]**\n\n**[Total 4 marks]**\n\n> *You can also get the mark for any other correct answers, such as enzymes like the ones in phagocytes, or any other named hormone.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gRPyBJxPsGcFpY47",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_DB2wPjpYZY8pXPdc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/03",
+      "question_number": 6,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "State where in the digestive system protease is secreted.",
+     "solution_md": "- Pancreas / stomach / small intestine; **[1 mark]**\n\nThe stomach contains the protease enzyme pepsin and the pancreas secretes the protease enzyme trypsin into the small intestine.\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_N3NZ23yvtR67g7F6",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_bQXq4W4Sssd3D55Z",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/03",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 6.1 shows some large insoluble molecules, some digestive enzymes and some smaller soluble molecules that are produced during digestion.\n\n**Table 6.1**\n\n| insoluble molecule | enzyme | soluble molecules |\n|---|---|---|\n| starch | amylase | reducing sugars |\n| fat |   |   |\n|   | protease |   |\n\nComplete Table 6.1 by writing the names of the missing enzyme and molecules.\n\nThe first row has been done for you.",
+     "solution_md": "| insoluble molecule | enzyme | soluble molecules |\n|---|---|---|\n| starch | amylase | reducing sugars |\n| fat | lipase;  **[1 mark]** | fatty acids ;  **[1 mark]**<br>glycerol ; **[1 mark]** |\n| protein ; **[1 mark]** | protease | amino acids ;  **[1 mark]** |\n\n**[Total: 5 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yPn4t9rcP88KRGFm",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_QKt95zDYdsZ3h5K9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2018 (Series 3)",
+      "number": "0610/33",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cdP76tCMPxxF3CYV"
+     ],
+     "part_tier": null,
+     "problem_md": "A man is overweight.\n\nFig. 1 shows his diet. He consumes 15 000 kJ a day.\n\n![cie-igcse-2018-s3-may-p3-q3a-junk-food](assets/016-cie-igcse-2018-s3-may-p3-q3a-junk-food.png)\n\n**Fig. 1**\n\n(i)\n\nSuggest why the diet shown in Fig. 1 is **not **considered to be a balanced diet.\n\n[2]\n\n(ii)\n\nSuggest and explain how the man could reduce his weight.\n\n[2]",
+     "solution_md": "(i) The diet shown in Fig. 1 is** **not** **considered to be a balanced diet because:\n\nAny **two **from the following:\n\n- High in (named) carbohydrates; **[1 mark]**\n- High in (named) fats; **[1 mark]**\n- Too high in energy/calories/kJ; **[1 mark]**\n- Lacks protein; **[1 mark]**\n- Lacks (named ) vitamins; **[1 mark]**\n- Lacks (named ) minerals; **[1 mark]**\n- Lacks fibre; **[1 mark]**\n- Lacking fruits / vegetables / water; **[1 mark]**\n\n(ii) The man could reduce his weight by:\n\nAny **two **from the following:\n\n- Eat less (named) carbohydrate / eat less (named) fat / reduce calorie intake / reduce kJ intake / reduce energy consumption; **[1 mark]**\n- Consume fibre/vegetables/fruit/water/protein; **[1 mark]**\n- Exercise/physical activity; **[1 mark]**\n- Using up fat reserves; **[1 mark]**\n- Having an energy* *input that is less than his output; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_v42ntjYK2y3Dk369",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2018 (Series 3)",
+      "number": "0610/33",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_cdP76tCMPxxF3CYV",
+      "spcpt_8h6b83SSDjMzxT36"
+     ],
+     "part_tier": null,
+     "problem_md": "The following sentences describe the importance of some foods.\n\nChoose words from the list to complete the sentences.\n\n![screenshot-2022-10-13-14-47-51](assets/017-screenshot-2022-10-13-14-47-51.png)\n\nOranges and lemons are fruits which are a good source of ............................................... and help to prevent ............................................... .\n\nFoods made from milk are important for making healthy bones and ............................................... because they are a good source of ............................................... .\n\nFibre is important because it helps to prevent ............................................... .",
+     "solution_md": "The terms should be used to complete the sentence in the sequence below:\n\n- Vitamin C; **[1 mark] **\n- Scurvy; **[1 mark] **\n- Teeth; **[1 mark] **\n- Vitamin D/calcium; **[1 mark] **\n- Constipation; **[1 mark] **\n\n*Terms must be used in the correct sequence for marks to be awarded.*\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_P6VF6p22XfgmWdGV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018 (Series 3)",
+      "number": "0610/33",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_cdP76tCMPxxF3CYV"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain how a woman’s dietary needs will change when she is pregnant.",
+     "solution_md": "A woman’s dietary needs will change when she is pregnant because:\n\nAny **four **from the following:\n\n- Women will require more energy/food; **[1 mark]**\n- For the growth/development of foetus; **[1 mark]**\n- More carbohydrates / proteins / fats / named vitamin / named mineral (need to be consumed); **[up to 2 marks]**\n- Role of named nutrient (must be linked to named nutrient), e.g. carbohydrates for energy / protein for growth etc; **[up to 2 marks]**\n\n**[Total: 4 marks]**\n\n> *For an **explain** question like this you need to say **why **the needs change, as well as **how **they change. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Yfq889NDQtW2Hr7s",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_qhDmCynPg66qzgZx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vqDQQvPrhqdb65Rs",
+      "spcpt_FRgPRzdtG9DFHZry"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 is a diagram of the alimentary canal and associated organs.\n\nSome parts are identified by letters.\n\n![1pAvjitD_097031-may-2019-paper-3-q3a-alimenary---sq](assets/018-1pavjitd-097031-may-2019-paper-3-q3a-alimenary-s.png)\n\n**Fig. 1**\n\nComplete Table 1 by inserting the letter from Fig. 1 which identifies the part that carries out the function described.\n\n**Table 1**\n\n| **Description of function** | **Letter in Fig. 1** |\n|---|---|\n| Where egestion takes place |   |\n| Where lipase is made |   |\n| Where mechanical digestion occurs |   |\n| Where the **most** water is absorbed |   |",
+     "solution_md": "The correctly-completed table from labels in Fig. 1 is:\n\n| **Description of function** | **Letter in Fig. 1** |\n|---|---|\n| Where egestion takes place | **Final answer:** **K** |\n| Where lipase is made | **Final answer:** **G** |\n| Where mechanical digestion occurs | **Final answer:** **A / F** |\n| Where the **most** water is absorbed | **Final answer:** **J** |\n\n**[1 mark] ***for each correct letter.*\n\n**[Total: 4 marks]**\n\n> *It's a common misconception that most ingested water is absorbed in the large intestine (H), but this is incorrect. The large intestine absorbs mainly water, but these two statements don't mean the same thing. By the time the stream of food reaches the large intestine, typically about 80% of its water content has already been absorbed in the small intestine (J), mainly in the duodenum. *"
+    },
+    {
+     "id": "qstnprt_yMFtY2jpH7NHqkbY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_3sjKm9qZRcz2H9bD"
+     ],
+     "part_tier": null,
+     "problem_md": "Cholera is a transmissible disease.\n\n(i)\n\nState the type of pathogen that causes cholera.\n\n(ii)\n\nOne of the symptoms of cholera is diarrhoea.\n\nDescribe what is meant by the term *diarrhoea*.\n\n[1]\n\n(iii)\n\nOutline the treatment for diarrhoea.\n\n[2]",
+     "solution_md": "(i) Cholera is caused by:\n\n- bacterium / bacteria;** [1 mark]**\n\n> *Be careful not to describe the disease here instead of stating the type of pathogen, as that would not gain you any marks. *\n\n(ii) Diarrhoea is:\n\n- A loss of watery/liquid/runny faeces/excrement; **[1 mark]**\n\n> *Avoid the pitfall of describing the consequences of diarrhoea here; stick to what diarrhoea actually is!*\n\n(iii) The treatment for diarrhoea is:\n\n- <u>Oral rehydration</u> therapy/treatment; **[1 mark]**\n- The intake of water containing salt/minerals/ions and sugar; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_KPDttrjTTn2yjfmY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2019",
+      "number": "0970/31",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_spC4RGJjMHJ4GVbc",
+      "spcpt_GJB6BF53NV2zfJbq"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **ways in which the body can defend itself against pathogens.",
+     "solution_md": "Ways in which the body can defend itself against pathogens include:\n\n**Two** from:\n\n- Skin; **[1 mark]**\n- Hairs in the nose; **[1 mark]**\n- Mucus (traps pathogens); **[1 mark]**\n- Acid in the stomach; **[1 mark]**\n- White blood cells / phagocytosis / antibodies; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *This question is not asking about how humans can take additional defence measures against disease by taking vaccinations etc. It's about the natural defences we have already. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_x85Yyx64q6XrFjp5",
+   "set_slug": "theory-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_XhmW9XtRTdt7hnwp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qXcGqG8C54K6HVDn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nFig. 1 shows the location of the gallbladder in the human digestive system.\n\n![abaWlDWD_picture3](assets/019-abawldwd-picture3.png)\n\n**Fig. 1**\n\nExplain the purpose of the gallbladder.",
+     "solution_md": "The purpose of the gallbladder is...\n\n- It stores bile (produced by the liver); **[1 mark]**\n- Releases the bile into the duodenum via the bile duct; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_sKqSXbf5Bt8tQMqZ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qXcGqG8C54K6HVDn",
+      "spcpt_JCPKBz5c5TjR6grN"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nThe gallbladder may become inflamed or blocked by gallstones, which may cause much pain. In such cases, it is best to surgically remove the gallbladder. Doctors may recommend that patients with no gallbladder follow a low fat diet after surgery.\n\nSuggest a possible reason for this recommendation.[3]",
+     "solution_md": "A possible reason for following a low fat diet after having the gallbladder removed includes...\n\nAny **three** of the following:\n\n- (Without a gallbladder) less concentrated / a smaller volume of bile will enter the duodenum; **[1 mark]**\n- This will decrease the emulsification of large fat droplets; **[1 mark]**\n- Which results in less / smaller surface area (of droplets); **[1 mark]**\n- Which will decrease the rate at which lipase can break down lipids (into fatty acids and glycerol); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The purpose of emulsification of fat droplets is to expose a larger surface area of the droplets to the action of lipase. With less droplets being emulsified, less surface area is available for lipase, which decreases the rate of fat digestion. If consuming large amounts of fat in the diet, this may lead to diarrhoea and cramping.*"
+    },
+    {
+     "id": "qstnprt_RqVzjQ8rbBsNdP8r",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qXcGqG8C54K6HVDn",
+      "spcpt_cdP76tCMPxxF3CYV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe gallbladder may become inflamed or blocked by gallstones, which may cause much pain. In such cases, it is best to surgically remove the gallbladder. Doctors may recommend that patients with no gallbladder follow a low fat diet after surgery.\n\nA possible reason for following a low fat diet after having the gallbladder removed includes...\n\n- (Without a gallbladder) less concentrated / a smaller volume of bile will enter the duodenum;\n- This will decrease the emulsification of large fat droplets;\n- Which results in less / smaller surface area (of droplets);\n- Which will decrease the rate at which lipase can break down lipids (into fatty acids and glycerol);\n\nCertain vitamins are known as fat soluble vitamins. They are often found in food with a high fat content and are best absorbed into the blood along with digested lipids.\n\n#### Extended only\n\nCertain vitamins are known as fat soluble vitamins. They are often found in food with a high fat content and are best absorbed into the blood along with digested lipids.\n\nBased on the information provided in part (b) and (c), explain why people without gallbladders may develop deficiencies in these vitamins.",
+     "solution_md": "People without gallbladders may develop deficiencies in fat soluble vitamins because...\n\n- Less fat soluble vitamins will be present in low fat foods/diet; **[1 mark]**\n- These vitamins will not be efficiently absorbed into the blood / less vitamins will be absorbed into the blood (due to a decrease in lipid/fat digestion); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Use the information given to construct your answer. The question stem in part (c) tells you that fat soluble vitamins are present in high fat foods and need to be absorbed alongside digested lipids. From part (b) we know that patients without gallbladders must follow a low fat diet which will contain less fat soluble vitamins. There will also be less digested lipids in their small intestine, which will further decrease the amount of fat soluble vitamins that are able to move into the blood.*"
+    },
+    {
+     "id": "qstnprt_8bd5BpgZ6whdnm37",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8h6b83SSDjMzxT36"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe purpose of the gallbladder is... It stores bile (produced by the liver); Releases the bile into the duodenum via the bile duct.\n\nA possible reason for following a low fat diet after having the gallbladder removed includes... (Without a gallbladder) less concentrated / a smaller volume of bile will enter the duodenum; This will decrease the emulsification of large fat droplets; Which results in less / smaller surface area (of droplets); Which will decrease the rate at which lipase can break down lipids (into fatty acids and glycerol).\n\nCertain vitamins are known as fat soluble vitamins. They are often found in food with a high fat content and are best absorbed into the blood along with digested lipids. People without gallbladders may develop deficiencies in fat soluble vitamins because... Less fat soluble vitamins will be present in low fat foods/diet; These vitamins will not be efficiently absorbed into the blood / less vitamins will be absorbed into the blood (due to a decrease in lipid/fat digestion).\n\nVitamin D is an example of a fat soluble vitamin. In some cases, children may need to have their gallbladders removed due to inflammation. In most cases, this will not have a significant impact on their long term health, but in some extreme cases, it might.\n\nSuggest a possible impact that this may have on their health.\n\n[3]",
+     "solution_md": "A possible impact of removing a child's gallbladder may include...\n\n- (They) may develop a vitamin D deficiency; **[1 mark]**\n- Which could result in rickets; **[1 mark]**\n- This is characterised by poor bone development/growth; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Vitamin D would be poorly absorbed by the body in the absence of a gallbladder. If the child develops a deficiency in this vitamin, it will decrease the absorption of calcium into the bones which leads to the characteristic symptoms associated with rickets.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rZTg9QHFBQ5dQNyy",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_JF3BDDby4Mzxjw3X",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "add",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rYJcG2WKcNnQQQXX",
+      "spcpt_5gXKZW52SxXqZmcx"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows teeth in a human skull.\n\n![061032-oct-2018-paper-3-q4a-skull---sq](assets/020-061032-oct-2018-paper-3-q4a-skull-sq.png)\n\n**Fig. 1**\n\nAdd label lines and labels to Fig. 1 to identify an incisor tooth and a molar tooth.",
+     "solution_md": "A correctly-labelled diagram is as follows:\n\n- (Any) incisor correctly labelled; **[1 mark]**\n- (Any) molar correctly labelled;** [1 mark]**\n\n![061032-oct-2018-paper-3-q4a-skull---ma](assets/021-061032-oct-2018-paper-3-q4a-skull-ma.png)\n\n**[Total: 2 marks]**\n\n> *You can label any of the incisors or any of the molars to gain the marks. Incisors are the teeth primarily for cutting up food, whereas molars are more for grinding food when chewing. *"
+    },
+    {
+     "id": "qstnprt_pWYxTJzmVxRCWNxx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cXyr42zbmJ5xyKQ9"
+     ],
+     "part_tier": null,
+     "problem_md": "The teeth are responsible for the physical digestion of food molecules when we chew.\n\n(i)\n\nDefine the term 'physical digestion'.\n\n[2]\n\n(ii)\n\nDescribe the purpose of physical digestion.\n\n[1]",
+     "solution_md": "(i) Physical digestion can be defined as follows...\n\n- It is the breakdown of large pieces of food into smaller ones; **[1 mark]**\n- Without chemical change to the food molecules; **[1 mark]**\n\n(ii) The purpose of physical digestion is...\n\n- To help increase the surface area (of food) for the action of enzymes (during chemical digestion); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Make sure that you are familiar with the definitions of the different stages of food breakdown, as questions like these ones are easy ways to obtain marks.*"
+    },
+    {
+     "id": "qstnprt_nqZYTT7fmfBCHZDr",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cXyr42zbmJ5xyKQ9"
+     ],
+     "part_tier": null,
+     "problem_md": "Other than the chewing action of teeth, state **one** example of physical digestion.",
+     "solution_md": "One other example of physical digestion is...\n\nAny **one** of the following:\n\n- Churning action of the stomach; **[1 mark]**\n- Emulsification of fats by bile; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Remember that during physical digestion, food is broken up into smaller pieces but the food molecules remain unchanged. The bonds in these molecules can only be broken by enzyme action during chemical digestion.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RTxcKzNxBnsHD59T",
+   "set_slug": "theory-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_PxKTtVJrDPcgFTr2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y9rNCFSX3P2D2qYW"
+     ],
+     "part_tier": null,
+     "problem_md": "The stomach produces gastric juice which contains hydrochloric acid.\n\nExplain the importance of hydrochloric acid in the stomach.",
+     "solution_md": "Hydrochloric acid is important in the stomach because...\n\n- It kills bacteria in food because the low pH denatures their enzymes; **[1 mark]**\n- This means they cannot carry out any cell reactions to maintain life; **[1 mark]**\n- It ensures that the pH (in the stomach) is at an optimum for the working of pepsin; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_jWMHmKNsghwBJYD7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y9rNCFSX3P2D2qYW",
+      "spcpt_JMhtwpHsd9cP4wdS"
+     ],
+     "part_tier": null,
+     "problem_md": "Normally the epithelial cells in the lining of the stomach are protected from the effects of gastric juice by a layer of mucus secreted by goblet cells found in the stomach lining.\n\nSometimes a type of bacteria called *Helicobacter pylori* can penetrate the mucus layer and cause damage to the goblet cells. This leads to the formation of a peptic ulcer.\n\nFig. 1 compares a healthy stomach lining with one that has been infected by *H. pylori*.\n\n![stomach-lining](assets/022-stomach-lining.png)\n\n**Fig. 1**\n\nBased on the information in Fig. 1, suggest how *H. pylori* may lead to the formation of a peptic ulcer.",
+     "solution_md": "*H. pylori* may lead to the formation of a peptic ulcer in the following ways...\n\n- Less/no mucus secreted by damaged/infected goblet cells; **[1 mark]**\n- This leaves epithelial cells exposed / no protection against (the effects of) gastric juice/hydrochloric acid; **[1 mark]**\n- Gastric juice/hydrochloric acid may cause damage to epithelial cells / stomach lining (resulting in an ulcer); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *It is an important skill to be able to apply your knowledge to an unfamiliar scenario such as this one. The question stem gives you information about how the mucus layer protects the epithelial cells against the gastric juice, so if this layer is compromised in any way it will leave these cells exposed to the effects of hydrochloric acid (which is corrosive).*"
+    },
+    {
+     "id": "qstnprt_X6N8D6NqHgB6bRtQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y9rNCFSX3P2D2qYW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSometimes a type of bacteria called Helicobacter pylori can penetrate the mucus layer and cause damage to the goblet cells. This leads to the formation of a peptic ulcer.\n\n*H. pylori* may lead to the formation of a peptic ulcer in the following ways...\n\n- Less/no mucus secreted by damaged/infected goblet cells; [1 mark]\n- This leaves epithelial cells exposed / no protection against (the effects of) gastric juice/hydrochloric acid; [1 mark]\n- Gastric juice/hydrochloric acid may cause damage to epithelial cells / stomach lining (resulting in an ulcer); [1 mark]\n\nIt is an important skill to be able to apply your knowledge to an unfamiliar scenario such as this one. The question stem gives you information about how the mucus layer protects the epithelial cells against the gastric juice, so if this layer is compromised in any way it will leave these cells exposed to the effects of hydrochloric acid (which is corrosive).\n\nPatients suffering from peptic ulcers may receive treatment with substances called proton pump inhibitors (PPI's). These substances will suppress the cells in the lining of the stomach that produce hydrochloric acid.\n\nExplain how PPI's could act as a treatment for peptic ulcers.",
+     "solution_md": "PPI's could act as a treatment for peptic ulcers because...\n\n- (It would lead to) less hydrochloric acid being produced; **[1 mark]**\n- (This would) prevent further damage to the lining / allow the lining to heal/repair; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Hydrochloric acid in gastric juice is corrosive and will damage the epithelial cells that make up the lining. With less hydrochloric acid being released, the amount of damage done will decrease and allow the stomach lining to repair itself.*"
+    },
+    {
+     "id": "qstnprt_9PSskHMn8C8yzm9N",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y9rNCFSX3P2D2qYW",
+      "spcpt_dsxb7cNM22gJdqXF"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPatients suffering from peptic ulcers may receive treatment with substances called proton pump inhibitors (PPI's). These substances will suppress the cells in the lining of the stomach that produce hydrochloric acid.\n\nPPI's could act as a treatment for peptic ulcers because...\n\n- (It would lead to) less hydrochloric acid being produced;\n\n#### Extended only\n\nBased on the information from part (c), suggest the effect the PPI's could have on digestion in the stomach.",
+     "solution_md": "The effect of PPI's on digestion could include...\n\n- It may lead to an increase in the pH of the gastric juice (due to less hydrochloric acid produced); **[1 mark]**\n- This (increase in pH) may not be the optimum for <u>pepsin</u> to work; **[1 mark]**\n- There may be a decrease in <u>protein</u> digestion; **[1 mark]**\n\n*Ignore reference to 'enzymes' and 'digestion' for marking points 2 and 3*\n\n**[Total: 3 marks]**\n\n> *You must be specific in your answer for this question. Remember that protein digestion occurs mainly in the stomach so this is what you should be focussing on. From part (c) you know that less hydrochloric acid is released when someone is treated with PPI's, which may lead to an increase in the pH of the gastric juice. If the pH increases to above the optimum for pepsin, it will not be able to effectively catalyse the breakdown of proteins.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rPwZ5q3r34fTX2q9",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_qGbKbx9Pf732RGtd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_R8x9sGg5kRFnCtCM",
+      "spcpt_PG2Cs3NfSfyXstHh"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe reactions of chemical digestion are catalysed by enzymes.\n\nFig. 1 shows the stages of an enzyme-catalysed reaction.\n\n![061041-may-2018-paper-4-q1a-enzymes---sq](assets/023-061041-may-2018-paper-4-q1a-enzymes-sq.png)\n\n**Fig. 1**\n\nState the names of **A **to **D **in Fig. 1.",
+     "solution_md": "The names of **A **to** D** in Fig. 1 are:\n\n- **A** - substrate; **[1 mark]**\n- **B** - active site; **[1 mark]**\n- **C** - enzyme-substrate complex; **[1 mark]**\n- **D** - product(s); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *The words, 'substance' and 'substrate' look similar but are very different words; make sure you choose the right one for the context. *"
+    },
+    {
+     "id": "qstnprt_WGWrf57gd89fk5xS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vVNFS2QNYNPxNVjr",
+      "spcpt_mngsmcDjzNGDv4zp"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the importance of chemical digestion.",
+     "solution_md": "The importance of chemical digestion is:\n\n**Two** from:\n\n- (For the) production of, small(er) / soluble / simple(r), <u>molecules</u>; **[1 mark]**\n- (Small molecules can be) absorbed / reference to absorption / large molecules cannot be absorbed; **[1 mark]**\n- (Moves through) cell membranes / wall of intestine / into blood / into cells; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Try to avoid the pitfall of explaining physical digestion in this question. Chemical digestion involves changing molecules in chemical reactions, so avoid using vague terms like 'particles' or 'substances' in this context. *\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_dqCCtsmr4FhXtxMg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_vqDQQvPrhqdb65Rs",
+      "spcpt_FRgPRzdtG9DFHZry"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig. 2 shows the human alimentary canal and associated organs.\n\nThe functions of some of these parts of the body are given in Table 1.\n\n![061041-may-2018-paper-4-q1c-alimentary---sq](assets/024-061041-may-2018-paper-4-q1c-alimentary-sq.png)\n\n**Fig. 2**\n\nComplete Table 1. One row has been done for you.\n\n**Table 1**\n\n| Function | Letter from Fig. 2 | Name of Structure |\n|---|---|---|\n| Site of starch digestion |   |   |\n| Reabsorption of water |   |   |\n| Secretion of pepsin |   |   |\n| Site of maltose digestion |   |   |\n| Secretion of bile |   |   |\n| Storage of faeces | **F** | rectum |\n| Secretion of lipase and trypsin |   |   |",
+     "solution_md": "(c) The correctly completed Table 1 is as follows:\n\n| Function | Letter from Fig. 2 | Name of Structure |\n|---|---|---|\n| Site of starch digestion | **Final answer:** **A**<br><br>**Final answer:** **J/E** | mouth / buccal cavity<br><br>small intestine |\n| Reabsorption of water | **Final answer:** **J/E**<br><br>**Final answer:** **H**<br><br>**Final answer:** **F** | small intestine<br><br>colon / large intestine<br><br>rectum |\n| Secretion of pepsin | **Final answer:** **C** | stomach |\n| Site of maltose digestion | **Final answer:** **J/E** | small intestine |\n| Secretion of bile | **Final answer:** **K**<br><br>**Final answer:** **L** | liver<br><br>gall bladder |\n| Storage of faeces | **F** | rectum |\n| Secretion of lipase and trypsin | **Final answer:** **D** | pancreas |\n\n**[1 mark] **for each correct row of the table\n\n*The letter must agree with the name; if more than one letter or name mark first one only.*\n\n**[Total: 6 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_QhwcxvsTYpm3RRZ2",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_RKZNfQRDfPQ2gZ3s",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rYJcG2WKcNnQQQXX"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows the four different types of human teeth.\n\n![2018-nov-s1-061031-q4aa](assets/025-2018-nov-s1-061031-q4aa.png)\n\n**Fig. 1**\n\nFig. 2 shows a diagram of the position of the different types of teeth in the mouth.\n\n![2018-nov-s1-061031-q4aaa](assets/026-2018-nov-s1-061031-q4aaa.png)\n\n**Fig. 2**\n\nComplete Table 1 by writing the names, positions and functions of the different types of teeth in the mouth shown in Fig. 2.\n\n**Table 1**\n\n| **Name of type of tooth** | **Letter on Fig. 2** | **Function** |\n|---|---|---|\n|   | **R** |   |\n| Incisor |   |   |\n|   |   | Grinding |\n| Premolar |   | Tearing and grinding |",
+     "solution_md": "The table should be completed as follows:\n\n| **Name of type of tooth** | **Letter on Fig. 2** | **Function** | **Mark allocation** |\n|---|---|---|---|\n| **Final answer:** **canine** | **R** | **Final answer:** **Tearing / holding / biting / separate pierce / break into smaller pieces** | ; **[1 mark]** |\n| Incisor | **Final answer:** **S** | **Final answer:** **Biting / cutting / gripping / separate / break into smaller pieces** | ; **[1 mark]** |\n| **Final answer:** **molars** | **Final answer:** **P** | Grinding | ; **[1 mark]** |\n| Premolar | **Final answer:** **Q** | Tearing and grinding | ; **[1 mark]** |\n\n**[1 mark]** *for each correct row.*\n\n**[Total: 4 marks]**\n\n> *Make sure you are able to identify the different types of teeth from a diagram, as well as the function of each.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_p3rws9P37cGfKVHZ",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_qYRSnhXQbcCbZGDG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "During digestion, enzymes act on different types of food to produce simpler substances that can be absorbed.\n\nComplete Table 1 by inserting the missing information.\n\n**Table 1**\n\n| food type | enzyme acting on the food type | simpler substances produced |\n|---|---|---|\n| Protein | Protease |   |\n|   | Amylase |   |\n|   |   | Fatty acids and glycerol |",
+     "solution_md": "Table 1 can be completed as follows:\n\n| food type | enzyme acting on the food type | simpler substances produced |\n|---|---|---|\n| Protein | Protease | Amino acids / (poly) peptides; **[1 mark]** |\n| Starch; **[1 mark]** | Amylase | Glucose / sugar / Maltose; **[1 mark]** |\n| Fats / lipids / oils; **[1 mark]** | Lipase; **[1 mark]** | Fatty acids and glycerol |\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_NKk4P3z4wj8KvcTK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRgPRzdtG9DFHZry"
+     ],
+     "part_tier": null,
+     "problem_md": "The following diagram includes some of the stages of food breakdown and descriptions of these stages.\n\nComplete the following by drawing lines to connect each stage of food breakdown with the correct description.\n\n| **Stage of food breakdown** |   | **Description** |\n|---|---|---|\n|   |   |   |\n| Ingestion |   | Breakdown of large insoluble molecules into small soluble ones |\n|   |   |   |\n| Absorption |   | Digested food molecules move into the cells of the body |\n|   |   |   |\n| Assimilation |   | Digested food molecules move through the wall of the intestine |\n|   |   |   |\n| Chemical digestion |   | Taking in food and drink through the mouth |",
+     "solution_md": "The completed diagram would look as follows...\n\n![C-SlHmRb_picture1](assets/027-c-slhmrb-picture1.png)\n\n*Award ***[1 mark]*** for each correct line*\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_wfMpyjPJDtFpDNk5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FRgPRzdtG9DFHZry",
+      "spcpt_mngsmcDjzNGDv4zp"
+     ],
+     "part_tier": null,
+     "problem_md": "Enzymes are involved with the chemical digestion of food molecules.\n\nState **two** parts of the digestive system where chemical digestion occurs.",
+     "solution_md": "Parts of the digestive system where chemical digestion occurs include...\n\nAny **two** of the following:\n\n- Mouth; **[1 mark]**\n- Stomach; **[1 mark]**\n- Small intestine / duodenum; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *For this question, you have to think about the parts of the digestive system where enzymes are found. You know that salivary amylase is found in the mouth and is responsible for starting starch digestion. The stomach contains protease enzymes that will chemically digest proteins, while the duodenum contains secretions with many digestive enzymes in it to finish chemical digestion of food molecules.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nqSFxShmXDBP4CRY",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_fDY9Y8BkVT6q4hzc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "outline",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_FRgPRzdtG9DFHZry",
+      "spcpt_cXyr42zbmJ5xyKQ9"
+     ],
+     "part_tier": null,
+     "problem_md": "Two functions of the alimentary canal are mechanical digestion and chemical digestion.\n\nOutline where **and** how mechanical digestion occurs in the alimentary canal.",
+     "solution_md": "Mechanical digestion in the alimentary canal can be outlined as follows:\n\nAny **four **from the following:\n\n- (Food) is broken down into smaller pieces (without chemical change); **[1 mark]**\n\nThe site of mechanical digestion might include:\n\n- The mouth / buccal cavity (in context mechanical);** [1 mark]**\n- Stomach (in context of mechanical); **[1 mark]**\n\nMechanical digestion occurs in the following way:\n\n- Chewing / mastication; **[1 mark]**\n- Role of a named teeth e.g. molars/pre-molars/canines; **[1 mark]**\n- Reference to the involvement of tongue (in mechanical digestion); **[1 mark]**\n- Reference to movement of the jaw; **[1 mark]**\n- Churning / muscular action of the stomach; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Chemical digestion also occurs in both the mouth and the stomach, but it is important to be clear that you are referring to the mechanical processes to obtain full marks in this question. Mechanical digestion is alternatively referred to as 'physical digestion'.*\n\n> *Note that while bile does not carry out chemical digestion (it contains no digestive enzymes), it is also not considered mechanical digestion here because it emulsifies fats to increase surface area for lipase rather than physically breaking food down by chewing or muscular churning.*\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_tphSsVXt8Rw73BvN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "Enzymes catalyse the reactions of chemical digestion. Table 1 gives information about chemical digestion in three parts of the alimentary canal.\n\nComplete Table 1.\n\n**Table 1**\n\n| Part of the alimentary canal | Enzyme | Substrate | Product(s) |\n|---|---|---|---|\n| mouth |   | starch |   |\n| stomach |   |   | peptides |\n|   |   | fat | fatty acids and glycerol |",
+     "solution_md": "(b) The table should be completed as follows:\n\n| Part of the alimentary canal | Enzyme | Substrate | Product(s) |\n|---|---|---|---|\n| mouth | **Final answer:** **amylase** | starch | **Final answer:** **maltose** |\n| stomach | **Final answer:** **pepsin** | **Final answer:** **protein** | peptides |\n| **Final answer:** **small intestine / duodenum / ileum** | **Final answer:** **lipase** | fat | fatty acids and glycerol |\n\nAward** [1 mark] **for each correct row\n\n***Accept**** protease (for enzyme in the stomach)*\n\n***Reject ****pancreas (for part of the alimentary canal which produces lipase)*\n\n**[Total: 3 marks]**\n\n> *The alimentary canal refers to the parts of the digestive system through which the partially digested food moves. Therefore, the pancreas cannot be included in this table as it is not part of the alimentary canal, but sits to one side of the alimentary canal, secreting substances into it.*"
+    },
+    {
+     "id": "qstnprt_FJMkKxFgycZvT4ZB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_HsnR4d9Hj4fwMTdq"
+     ],
+     "part_tier": null,
+     "problem_md": "Substances that are absorbed from the alimentary canal may enter cells and become part of the cells.\n\n(i)\n\nState the storage carbohydrate made from glucose in liver cells.\n\n[1]\n\n(ii)\n\nState the type of protein used in the immune system that is produced from amino acids by lymphocytes.\n\n[1]\n\n(iii)\n\nFat is produced from fatty acids and glycerol by cells in the fatty tissue beneath the skin.\n\nState **one** function of this layer of fat.\n\n[1]",
+     "solution_md": "(i) The storage carbohydrate is:\n\n- <u>Glycogen</u>; **[1 mark]**\n\n(ii) The type of protein used in the immune system is:\n\n- <u>Antibody</u>; **[1 mark]**\n\n(iii) One function of this layer of fat is:\n\n- (Thermal) insulation; **[1 mark]**\n\n***Accept ****(energy) storage or protection (of organs)*\n\n**[Total: 3 marks]**\n\n> *Take care with your spelling of glycogen here to ensure that it cannot be mistaken with glucagon (the hormone involved in breaking down glycogen to release glucose)*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mx53x5QPPpDCtVcb",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_9pkDNvHmTgPwWP4m",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nqNgmJcjqCPn6dRV"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig. 1 is a photomicrograph showing a surface view of many villi in the small intestine.\n\n![CIE IGCSE 2023 Paper 4 Q1 villi](assets/028-cie-igcse-2023-paper-4-q1-villi.png)\n\n**Fig. 1**\n\n(i)\n\nState the function of villi.\n\n[1]\n\n(ii)\n\nDescribe the structure of a villus.\n\n[3]",
+     "solution_md": "(i) The function of villi is as follows...\n\n- <u>Absorption</u> of nutrients into the <u>blood;</u> **[1 mark]**\n\n(ii) The structure of a villus can be described as follows...\n\nAny **three** of the following:\n\n- (Villi) have a large surface area / increase the surface area (of the small intestine/ileum); **[1 mark]**\n- Microvilli (further increase the surface area); **[1 mark]**\n- Blood vessels / capillaries (flow near the surface of villi); **[1 mark]**\n- The lacteal / lymph/lymphatic vessels (pass through the middle of each villus); **[1 mark]**\n- (Are surrounded by intestinal) epithelium (cells); **[1 mark]**\n\n***Accept ****other valid descriptive points e.g. references to intestinal epithelium containing goblet cells or the intestinal epithelium being one cell thick.*\n\n**[Total: 4 marks]**\n\n> *The structure of villi aids their function, which is to maximise the absorption of nutrients into the blood.*\n\n> *The folded structure of villi increases the surface area of the small intestine lining, which is further increased by infoldings of the cell surface membranes of the epithelial cells, known as microvilli. Blood flows close to the surface of the villi, removing nutrients as they are absorbed. Some nutrients (fatty acids and glycerol) are absorbed into the lymphatic vessels located within each villus. The layer of cells that surrounds villi and that make up the intestinal epithelium is one cell thick, reducing the diffusion distance for nutrients.*"
+    },
+    {
+     "id": "qstnprt_mTSJkWHnwGT25hwk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_zH7rWnkTtRFrSz46",
+      "spcpt_mngsmcDjzNGDv4zp"
+     ],
+     "part_tier": null,
+     "problem_md": "(i)\n\nBlood transports nutrients.\n\nState the component of the blood that transports nutrients.\n\n[1]\n\n(ii)\n\nThe nutrients in the blood can be used to become part of cells.\n\nState the name of this process.\n\n[1]\n\n(iii)\n\nAmino acids are used to make proteins.\n\nState **two** examples of proteins that are found in the blood.\n\n[2]",
+     "solution_md": "(i) The component of blood that transports nutrients is the...\n\n- (Blood) plasma; **[1 mark]**\n\n(ii) The name of the process by which nutrients in the blood become part of cells is...\n\n- Assimilation; **[1 mark]**\n\n(iii) Examples of proteins that are found in the blood include...\n\nAny **two** of the following:\n\n- Antibodies; **[1 mark]**\n- Insulin; **[1 mark]**\n- Glucagon; **[1 mark]**\n- Fibrin(ogen); **[1 mark]**\n- Haemoglobin; **[1 mark]**\n\n***Accept**** other correct examples of proteins, e.g. enzymes *\n\n**[Total: 4 marks]**\n\n> *Part (b) (iii) requires examples of proteins that are found in the blood, so avoid using membrane proteins such as antigens, or examples of digestive enzymes, in your answer.*\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_qMYVWBV3x67PKFJB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_3sjKm9qZRcz2H9bD"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the effect of cholera bacteria on the digestive system.",
+     "solution_md": "Cholera bacteria affect the digestive system as follows...\n\nAny **four **of the following:\n\n- (Bacteria) produce toxins / a toxin; **[1 mark]**\n- The toxin causes secretion of choride ions / Cl<sup>-</sup>; **[1 mark]**\n- (The chloride ions are secreted) into the small intestine; **[1 mark]**\n- Water potential (of small intestine) decreases / is lowered/reduced; **[1 mark]**\n- Water moves into the gut/intestine (due to reduced water potential); **[1 mark]**\n- (Water moves into intestine) by osmosis; **[1 mark]**\n- (The increased volume of water in the intestine) results in diarrhoea; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MNjKh7NHkvT4R3VW",
+   "set_slug": "theory-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_tddqdJ5DcqrynY7d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vqDQQvPrhqdb65Rs",
+      "spcpt_FRgPRzdtG9DFHZry"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows the human digestive system.\n\n![human-organs-3](assets/029-human-organs-3.png)\n\n**Fig. 1**\n\n(i)\n\nIdentify organ **X** in Fig. 1.\n\n[1]\n\n(ii)\n\nDescribe the function of organ **X** in digestion.\n\n[4]",
+     "solution_md": "(i) Organ **X** is the...\n\n- Pancreas; **[1 mark]**\n\n(ii) The function of organ **X** is...\n\nAny **four** of the following...\n\n- Produces digestive <u>enzymes</u>; **[1 mark]**\n- Protease, (pancreatic) amylase **and** lipase; **[1 mark]**\n- (These enzymes are) used in digestion to break down proteins, sugars/starch **and** lipids; **[1 mark]**\n- Secretes (these enzymes in) an alkaline fluid into the duodenum; **[1 mark]**\n- To increase the pH of the fluid/chyme coming from the stomach; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *Remember that the pancreas is also responsible for secreting insulin and glucagon, which are hormones that control blood glucose levels. Since the question at part (ii) only asks for the function of the pancreas in digestion, you do not need to mention this here.*"
+    },
+    {
+     "id": "qstnprt_3ZwrPPfCXbDZcWrH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nChewing on a piece of bread will result in a sweet taste developing in the mouth after a while.\n\nExplain the reason for this.",
+     "solution_md": "Chewing on a piece of bread for a long time will result in a sweet taste because...\n\nAny **three** of the following:\n\n- Bread has a high starch content / contains lots of starch; **[1 mark]**\n- Amylase in saliva/salivary amylase starts to hydrolyse/digest/breakdown the starch; **[1 mark]**\n- Into simpler sugars/carbohydrates/maltose; **[1 mark]**\n- These simple (soluble) sugars taste sweet compared to starch (which is insoluble); **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Even though most of the chemical digestion of starch will happen in the small intestine, the process will begin in the mouth with salivary amylase.*"
+    },
+    {
+     "id": "qstnprt_wmnXhpHGqKX8TVpf",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PG2Cs3NfSfyXstHh",
+      "spcpt_dsxb7cNM22gJdqXF"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nProtease enzymes chemically break down protein molecules.\n\nExplain why protease enzymes cannot break down any other type of molecule.",
+     "solution_md": "Protease enzymes cannot break down any other type of molecule because...\n\n- Its <u>active site</u> has a specific shape; **[1 mark]**\n- That is <u>complementary</u> to the shape of a protein / its substrate; **[1 mark]**\n- (This ensures that) the enzyme/protease and substrate/protein molecule fit/bind together / form an enzyme-substrate complex; **[1 mark]**\n- Other substrates/molecules are not complementary (in shape) so the protease cannot catalyse reactions that breaks them down; **[1 mark]**\n\n*Reject reference to the shape of the enzyme and substrate being similar for marking point 2*\n\n**[Total: 4 marks]**\n\n> *This synoptic question requires you to refer back to Topic 5 on Enzymes. Remember that enzymes are very specific in the reactions that they are able to catalyse due to the shape of their active site. Be mindful of your wording here, the shape of the active site is **complementary** to the substrate molecule, it is not the same. Think of a jigsaw puzzle, the pieces are all different in shape but they fit together because they are complementary in shape.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M4nDHmJX8dm5KkxG",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_YKDFvy2MbPYdyqK4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_cdP76tCMPxxF3CYV"
+     ],
+     "part_tier": null,
+     "problem_md": "Some animals produce milk to feed their offspring.\n\nTable 1 shows the mass of the substances found in 100g of milk from two animals.\n\n**Table 1**\n\n| substance | mass in 100g of milk / g |   |\n|---|---|---|\n| human milk | water buffalo milk |   |\n| protein | 1.10 | 4.50 |\n| fat | 4.50 | 8.00 |\n| carbohydrate | 7.50 | 4.90 |\n| calcium | 0.03 | 2.00 |\n| water |   |   |\n\n(i)\n\nCalculate the mass of water in both the human milk and the water buffalo milk.\n\n[2]\n\n(ii)\n\nState the name of the substance in Table 1 that is present in a higher concentration in human milk than in water buffalo milk.\n\n[1]\n\n(iii)\n\nState the name of **one** component of a balanced diet that is missing from Table 1.\n\n[1]\n\n(iv)\n\nProducing milk for offspring is a characteristic of a particular group of animals.\n\nState the name of this group of animals.\n\n[1]",
+     "solution_md": "(i) The mass of water in both the human milk and the water buffalo milk is:\n\n- (Human milk) 86.87 (g); **[1 mark]**\n- (Water buffalo milk) 80.60 (g); **[1 mark]**\n\n(ii) The name of the substance in Table 1 that is present in a higher concentration in human milk than in water buffalo milk is\n\n- Carbohydrate / water;** [1 mark]**\n\n(iii)  The name of one component of a balanced diet that is missing from Table 1 is:\n\nAny **one** of the following from:\n\n- Fibre; **[1 mark]**\n- Iron; **[1 mark]**\n- Vitamins; **[1 mark]**\n- A named vitamin; **[1 mark]**\n\n(iv) The name of the group of animals that produce milk is:\n\n- Mammals; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *For part (i), note how the values in the table are given to 2 decimal places, your answer should also be given to 2 decimal places.*\n\n![761ebceb-2066-4ee8-bf00-e587867cf571](assets/030-761ebceb-2066-4ee8-bf00-e587867cf571.jpeg)"
+    },
+    {
+     "id": "qstnprt_RBWRbCbKj48c5yWb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_cdP76tCMPxxF3CYV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 1 shows the mass of the substances found in 100g of milk from two animals.\n\n| substance | mass in 100g of milk / g |\n| human milk | water buffalo milk |\n| protein | 1.10 | 4.50 |\n| fat | 4.50 | 8.00 |\n| carbohydrate | 7.50 | 4.90 |\n| calcium | 0.03 | 2.00 |\n| water |   |   |\n\nState how young animals use the substances listed in Table 1.",
+     "solution_md": "Young animals use the substances listed in Table 1 for:\n\n- **Protein**: is needed for growth / a given example of growth / for repair / replacement (of old / damaged cells); **[1 mark]**\n- **Fat**: is needed for energy / insulation / storage / protection (of tissues / organs); **[1 mark]**\n- **Carbohydrate**: is needed for energy; **[1 mark]**\n- **Calcium**: is needed for making bones / teeth / *(accept any other valid point such as for strong bones)*; **[1 mark]**\n- **Water**: is used as a solvent / lubricant / used in (metabolic)reactions *(accept alternative wording here)*; **[1 mark]**\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_gmdjm2N2pFygpdBK",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_cdP76tCMPxxF3CYV"
+     ],
+     "part_tier": null,
+     "problem_md": "An adult eats a high-fat diet.\n\nState **two** health problems that could be caused by eating a high-fat diet.",
+     "solution_md": "**Two** health problems that could be caused by eating a high-fat diet are:\n\nAny **two **from the following:\n\n- Obesity / *(Accept alternative wording here such as high BMI)*; **[1 mark]**\n- Coronary heart disease / CHD / blockage of coronary arteries; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *A diet high in saturated fat can cause cholesterol to build up in the arteries supplying the heart tissue. This can lead to heart disease and even a heart attack. A low fat diet is essential to maintain good health. Where fat is included it must be unsaturated.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kGZkHdYyyPswb2Xg",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_X6fxy2qkgGDzwWzR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rYJcG2WKcNnQQQXX",
+      "spcpt_5gXKZW52SxXqZmcx"
+     ],
+     "part_tier": null,
+     "problem_md": "Red pandas, *Ailurus fulgens*, and humans have a similar arrangement of teeth.\n\nFig. 1 shows a section through one tooth of a red panda. Fig. 2 shows the side view of the lower jaw of a red panda.\n\n![061042q1a](assets/031-061042q1a.png)\n\n**                 Fig. 1                                                      Fig. 2**\n\n(i)\n\nState the names of the structures labelled **A** to **F** in Fig. 1 and Fig. 2.\n\n[3]\n\n(ii)\n\nState the type of digestion that breaks down large pieces of food.\n\n[1]",
+     "solution_md": "(i) The names of structures **A **to **F** are as follows:\n\n- **A** = dentine\n- **B** = cement\n- **C** = incisors\n- **D** = canine(s)\n- **E** = premolars\n- **F** = molars\n\n5 or 6 correct; **[3 marks]**\n\n3 or 4 correct; **[2 marks]**\n\n1 or 2 correct; **[1 mark]**\n\n(ii) The type of digestion that breaks down large pieces of food is called:\n\n- <u>Mechanical</u> (digestion); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jVnfTKbP2tFNvYC9",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_QXH44mzv5CYg4bm9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "name",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/04",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nqNgmJcjqCPn6dRV"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFig. 1 shows a villus from the small intestine of a mammal and an enlarged view of a cell from region** A**.\n\n![cie-igcse-2020-specimen-p4-q6a-small-intestine-epithelium](assets/032-cie-igcse-2020-specimen-p4-q6a-small-intestine-e.png)\n\n**Fig. 1**\n\nName regions **A**, **B** and **C**.",
+     "solution_md": "The regions labelled on the diagram are:\n\n- **A** = epithelium / epithelial lining; **[1 mark]**\n- **B** = lacteal; **[1 mark]**\n- **C** = capillary / blood vessel; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_GrbzBvgFjfsBhJNS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/04",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Pw3NYqTnYDxkPQn9",
+      "spcpt_nqNgmJcjqCPn6dRV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe regions labelled on the diagram are:\n\n- **A** = epithelium / epithelial lining;\n\n#### Extended Only\n\nExplain why the cells from region **A** have many microvilli and many mitochondria.",
+     "solution_md": "The cells from region **A** have many microvilli and many mitochondria because:\n\nAny **three **from the following:\n\n*microvilli*\n\n- Increases/large surface area; **[1 mark]**\n- For absorption / diffusion / active transport (into villus); **[1 mark]**\n\n*mitochondria*\n\n- (For) respiration; **[1 mark]**\n- Provide energy/ATP; **[1 mark]**\n- For active uptake/transport; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Epithelial cells can carry out both active transport and diffusion depending on the concentration of the nutrient in the lumen of the small intestine. This means that they need to have adaptations for both. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jQ8Q48bYwnrBCk9T",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_8SMC4cqYtCfX7sNG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_5gXKZW52SxXqZmcx"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a section through a tooth.\n\n![0610p31q6a](assets/033-0610p31q6a.png)\n\n**Fig. 1**\n\nState the names of structures **F**, **G** and **H**.",
+     "solution_md": "The labelled structures of the tooth can be identified as follows:\n\n- **F** = enamel; **[1 mark]**\n- **G** = dentine; **[1 mark]**\n- **H** = blood vessel / capillary / nerve / pulp (cavity); **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_jr3pj5jBddCjbnr9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rYJcG2WKcNnQQQXX"
+     ],
+     "part_tier": null,
+     "problem_md": "(i)\n\nState **two** functions of teeth.\n\n[2]\n\n(ii)\n\nDescribe the importance of teeth in the digestion of food.\n\n[2]",
+     "solution_md": "(i) The functions of teeth includes the following:\n\nAny **two **from the following:\n\n- (To) bite / tear / cut / hold / rip (food); **[1 mark]**\n- (Responsible for) chewing / grinding / crushing / producing small(er) pieces / mechanical digestion (of food particles); **[1 mark]**\n- (This will) increase the surface area (of food); **[1 mark]**\n- (In animals teeth is used for) killing prey / defence (against danger) / cleaning fur; **[1 mark]**\n\n(ii) Teeth is important in the digestion of food because:\n\nAny **two** from the following:\n\n- (Chewing) produces small pieces of food / breaks food down mechanically; **[1 mark]**\n- (This) increases the surface area (of food); **[1 mark]**\n- (Smaller food pieces are) easier to swallow; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Teeth play an important role in breaking food down into smaller particles through mechanical digestion. These smaller food particles are easier to swallow and will increase the surface area for the digestive enzymes to work on.*\n\n> *A common misconception is that teeth play a role in the chemical breakdown of food. Teeth do not break down molecules;  that is the job of enzymes. The action of teeth changes the physical presentation of food to allow enzymes the best chance of performing the chemical breakdown most effectively. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gnXS3M8Tcy8vpjNm",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_rDdNb5jBKpkygQ4d",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vqDQQvPrhqdb65Rs",
+      "spcpt_FRgPRzdtG9DFHZry"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a diagram of part of the alimentary canal and associated structures.\n\n![061032-oct-2018-paper-3-q5a-alimentary-canal---sq](assets/034-061032-oct-2018-paper-3-q5a-alimentary-canal-sq.png)\n\n**Fig. 1**\n\n(i)\n\nState the names of the structures labelled **H **and **J**.\n\nWrite your answers on Fig. 1.\n\n[2]\n\n(ii)\n\nOn Fig. 1 draw label lines with letters to show:\n\n**N** where faeces are stored.\n\n**P** where most water is absorbed.\n\n**R** where digested food is absorbed.\n\n[3]",
+     "solution_md": "(i) The structures **H **and **J **are named:\n\n- **H **– oesophagus; **[1 mark]**\n- **J **– pancreas; **[1 mark]**\n\n*See diagram below*\n\n(ii) Label lines - see diagram below\n\n**[Total: 5 marks]**\n\n![061032-oct-2018-paper-3-q5a-alimentary-canal---ma](assets/035-061032-oct-2018-paper-3-q5a-alimentary-canal-ma.png)\n\n> *A common misconception is that because the large intestine absorbs mainly water (and not much else) then it is in fact the site where most water is absorbed. This is not the case; most water (around 80% of the volume taken in through ingestion) is absorbed in the **small **intestine, along with the products of food digestion such as glucose, amino acids etc.*"
+    },
+    {
+     "id": "qstnprt_SpcffKvN99cTqfrh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_mngsmcDjzNGDv4zp",
+      "spcpt_4TYhHsQPjY83xGkV"
+     ],
+     "part_tier": null,
+     "problem_md": "(i)\n\nState the name of the process that is defined as the movement of digested food molecules into the cells of the body where they are used, becoming part of the cells.\n\n[1]\n\n(ii)\n\nState the name of the process that removes faeces from the body.\n\n[1]",
+     "solution_md": "(i) The name of the process that is defined as the movement of digested food molecules into the cells of the body where they are used, becoming part of the cells is:\n\n- Assimilation; **[1 mark]**\n\n(ii) The name of the process that removes faeces from the body is:\n\n- Egestion; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *These answers are subtly different to 'absorption' and 'excretion', which would not earn you the marks. Absorption applies to all digested molecules, whether they are used to build up body tissues or not (some are used to release energy, like glucose). Excretion applies to the removal of all types of waste, including carbon dioxide and urea, neither of which are removed in faeces. Be sure to use the exact keyword that applies specifically to the wording of the question. *"
+    },
+    {
+     "id": "qstnprt_PxHGrmyqcYfnNFKF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/32",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YJTG6Y6pw9B5ZW4k",
+      "spcpt_R8x9sGg5kRFnCtCM",
+      "spcpt_BFvYxZfm4TbkN8g3"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2 shows how the rate of reaction of a digestive enzyme changes with pH.\n\n![061032-oct-2018-paper-3-q5c-enzyme-ph-graph---sq](assets/036-061032-oct-2018-paper-3-q5c-enzyme-ph-graph-sq.png)\n\n**Fig. 2**\n\n(i)\n\nDescribe the effect of the increase in pH on the rate of reaction shown in Fig. 2.\n\n[2]\n\n(ii)\n\nState one factor other than pH that will affect enzyme activity.\n\n[1]",
+     "solution_md": "(i) The effect of the increase in pH on the rate of reaction shown in Fig. 2 is...\n\nAny **two** from the following:\n\n- (Rate of reaction) increases and decreases; **[1 mark]**\n- Peak / optimum at pH 8.1–8.7; **[1 mark] **\n- Data quote for both axes with units; **[1 mark]**\n\n> *This question's command word is 'describe' so you have to resist the temptation to launch into an **explanation **of why the curve is shaped the way it is. A useful rule-of-thumb in a 'describe' question is to outline what the graph is showing as if relating it to a person who can't see the graph, and to quote selected data from both axes, such as the optimum pH & rate of reaction. *\n\n(ii) Another factor which may affect enzyme activity is...\n\nAny **one **from the following:\n\n- Temperature; **[1 mark]**\n- Concentration of substrate; **[1 mark]**\n- Concentration of enzyme; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_dD8wZcX9QGMkhPx5",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_mtDwshtqN8sfJJHK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_wKSFC4tWhhyGG3nR",
+      "spcpt_qmyGwyncmkdTykJv"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows the marine iguana, *Amblyrhynchus cristatus*.\n\n![screenshot-2022-10-03-15-04-37](assets/037-screenshot-2022-10-03-15-04-37.png)\n\n**Fig. 1**\n\n(i)\n\nMarine iguanas are reptiles.\n\nState **two** features that are used to classify animals as reptiles.\n\n[2]\n\n(ii)\n\nState **two** structures that are present in plant cells that are not present in the cells of reptiles.\n\n[2]",
+     "solution_md": "(i) Features that are used to classify animals as reptiles include...\n\n- (Dry and) scaly skin; **[1 mark]**\n- Leathery eggs / eggs with soft shells; **[1 mark]**\n\n(ii) Structures that are present in plant cells that are not present in the cells of reptiles include...\n\nAny **two **of the following:\n\n- (The presence of) cellulose / a cell wall; **[1 mark]**\n- Chloroplasts / chlorophyll; **[1 mark]**\n- (Large / permanent / central) vacuole; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_PcpKWbgSyPRRvQj4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_PG2Cs3NfSfyXstHh"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nMarine iguanas feed on seaweed. Seaweed contains starch.\n\n(i)\n\nState the names of **two** parts of the digestive system where starch is digested by enzymes.\n\n[2]\n\n(ii)\n\nExplain why the shape of an enzyme is important for digestion.\n\n[3]",
+     "solution_md": "(i) Parts of the digestive system where starch is digested by enzymes include...\n\n- Mouth; **[1 mark]**\n- <u>Small</u> intestine; **[1 mark]**\n\n(ii) The shape of an enzyme is important for digestion because...\n\nAny **three** of the following:\n\n- (Enzymes have a region known as the) active site; **[1 mark]**\n- The active site must have a shape/structure that is <u>complementary</u> to the substrate/starch; **[1 mark]**\n- This allows the substrate/starch to bind to the enzyme / allows an enzyme-substrate complex to form; **[1 mark]**\n- The shape of the active site is specific to / fits only one substrate; **[1 mark]**\n\n**[Total: 5 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BbQSfvvmDKCdWWZq",
+   "set_slug": "theory-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_vbnrj25TzWXKQMZ4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_mngsmcDjzNGDv4zp"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term *chemical digestion.*",
+     "solution_md": "The term chemical digestion refers to...\n\n- Breakdown of large to small <u>molecules</u>; **[1 mark]**\n- (Conversion of molecules ) from insoluble to soluble; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Remember that chemical digestion is not just the breaking down of large molecules into smaller ones, but is also the conversion of insoluble molecules to soluble molecules.*\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_Hzzwdqjg6DBbCxhF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Y9rNCFSX3P2D2qYW",
+      "spcpt_bWFsrk7vr3qVsrjn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nA student investigated the activity of the digestive enzyme pepsin. Fig. 1 shows the apparatus used in the investigation.\n\n![screenshot-2022-10-10-17-32-47](assets/038-screenshot-2022-10-10-17-32-47.png)\n\n**Fig. 1**\n\nThe appearance of the four test-tubes was recorded at 0 and 5 minutes.\n\nThe protein in the egg white solution gives the solution a cloudy appearance.\n\nThe cloudy appearance clears when the protein in the egg white solution breaks down.\n\nTable 1 shows the results.\n\n**Table 1**\n\n| **Test-tube** | **Contents** | **Appearance at 0 mins** | **Appearance after 5 mins** |\n|---|---|---|---|\n| **1** | Egg white solution, pepsin | Cloudy | Less cloudy |\n| **2** | Egg white solution, pepsin, hydrochloric acid | Cloudy | Clear |\n| **3** | Egg white solution, boiled pepsin, hydrochloric acid | Cloudy | Cloudy |\n| **4** | Egg white solution, hydrochloric acid | Cloudy | Cloudy |\n\n(i)\n\nExplain the results shown for test-tubes **1**, **2** and **3** in Table 1.\n\n[5]\n\n(ii)\n\nExplain the purpose of test-tube **4**.\n\n[2]\n\n(iii)\n\nState the name of the organ in the body that produces pepsin.\n\n[1]",
+     "solution_md": "(i) The results from tubes 1-3 can be explained as follows...\n\n*Test tube 1: less cloudy but not fully clear*\n\n- The pH of the solution is too high; **[1 mark]**\n- High pH denatures / reduces the activity of the pepsin/enzyme; **[1 mark]**\n- The break down of protein/egg white is slowed down; **[1 mark]**\n\n*Test tube 2: clear*\n\n- Hydrochloric acid causes low pH; **[1 mark]**\n- Pepsin works best in low pH / acidic conditions; **[1 mark]**\n\n*Test tube 3: cloudy*\n\n- Boiling denatures pepsin / the enzyme; **[1 mark]**\n- Pepsin/enzyme unable to break down protein/egg white; **[1 mark]**\n\n*General points*\n\n- When enzyme function is reduced there are fewer enzyme-substrate complexes / fewer successful collisions; **[1 mark]**\n- Denaturing changes the shape of the active site; **[1 mark]**\n\n(ii) The purpose of test tube 4 is to...\n\nAny **two** of the following:\n\n- Function as a control; **[1 mark]**\n- Show that pepsin is responsible for digestion of protein (and no other substance within the test tubes); **[1 mark]**\n- Show that hydrochloric acid does not digest protein; **[1 mark]**\n\n(iii) The name of the organ in the body that produces pepsin is...\n\n- Stomach; **[1 mark]**\n\n**[Total: 8 marks]**\n\n> *Note that the command word here for part (i) and (ii) is 'explain', meaning that you are expected to provide an **explanation** of the results shown and no marks will be awarded for simply describing what has happened. The explanations are all to do with the level of enzyme activity:*\n\n- *Test tube 1 shows some enzyme activity but not as much as test tube 2; the raised pH in the absence of hydrochloric acid means that enzyme conditions are not optimal and the rate of reaction is reduced*\n- *Test tube 2 shows complete digestion of protein; the hydrochloric acid is providing optimal conditions for enzyme activity*\n- *Test tube 3 shows no enzyme activity; boiling the enzymes has denatured them, meaning that the active sites have changed shape and can no longer form enzyme-substrate complexes with protein*\n- *Test tube 4 is the experimental control, the purpose of which is to demonstrate that any results observed are due to the variable of interest and not any other facto; here the control shows that it is the enzyme and not the hydrochloric acid that is carrying out protein digestion*"
+    },
+    {
+     "id": "qstnprt_bf6SKF2z7DMxY8ZG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nMaltase is another digestive enzyme.\n\nDescribe the action of maltase **and** state where it acts in the alimentary canal.",
+     "solution_md": "The action of maltase involves...\n\nAny **two **of the following:\n\n- Breaking down maltose; **[1 mark]**\n- (Maltose is broken down into) glucose; **[1 mark]**\n- (This occurs) on the membranes of the epithelial cells/lining; **[1 mark]**\n\n**AND**\n\nThe part of the alimentary canal in which maltase acts is...\n\n- The small intestine / duodenum; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Maltase is one of two enzymes involved in the breakdown of starch, and it is important that you don't mix them up. Amylase breaks down starch into maltose, which is then further broken down by maltase into glucose. *\n\n> *While amylase acts in various parts of the digestive system maltase is only found on the membranes of the epithelial cells lining the small intestine.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7sBJhsCZWX72Z8jf",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_VdFkQTs8GkG957Q7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/33",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_FRgPRzdtG9DFHZry",
+      "spcpt_qr2YCTxNMm5t3mch"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows some parts of the human body.\n\n![screenshot-2022-10-06-12-11-14](assets/039-screenshot-2022-10-06-12-11-14.png)\n\n**Fig. 1**\n\n(i)\n\nUse Fig. 1 to complete Table 1.\n\nState the letter and the name of the part responsible for each function.\n\n**Table 1**\n\n| **Function** | **Letter in Fig. 1** | **Name of the part** |\n|---|---|---|\n| Produces insulin |   |   |\n| Produces hydrochloric acid |   |   |\n\n[4]\n\n(ii)\n\nState the letter of the part of the body where egestion occurs.\n\n[1]\n\n(iii)\n\nState the function of hydrochloric acid in the body.\n\n[1]",
+     "solution_md": "(i) The letter and the name of the part responsible for each function is as follows...\n\n| **Function** | **Letter in Fig. 1** | **Name of the part** |\n|---|---|---|\n| Produces insulin | D; **[1 mark]** | Pancreas; **[1 mark]** |\n| Produces hydrochloric acid | B; **[1 mark]** | Stomach; **[1 mark]** |\n\n(ii) The letter of the part of the body where egestion occurs is...\n\n- G; **[1 mark]**\n\n(iii) The function of hydrochloric acid in the body is...\n\nAny **one **of the following:\n\n- Kills bacteria/pathogens (in food); **[1 mark]**\n- Provides an acidic / optimum pH for (stomach) enzymes; **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *Egestion is the removal of solid waste from the body. This occurs via the muscle known as the anus which is located at the end of the rectum, which in turn is found at the end of the large intestine (F).*\n\n> *Hydrochloric acid provides an acidic pH for the **enzymes** of the stomach to function effectively; it does not carry out digestion on its own. An additional role of hydrochloric acid in the stomach is that it destroys pathogens that may enter along with the food.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3kCxHcGV94pMZPfK",
+   "set_slug": "theory-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_bGQ88GyXn7KhFgTq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nA group of students investigated the effect of pH on the activity of amylase.\n\nTheir results are shown in Fig. 1.\n\n![starch](assets/040-starch.png)\n\n**Fig. 1**\n\n(i)\n\nIdentify the optimum pH of amylase from Fig. 1.\n\n[1]\n\n(ii)\n\nExplain your answer from part (i).\n\n[2]",
+     "solution_md": "(i) The optimum pH of amylase is...\n\n- 6.75; **[1 mark]**\n\n*Accept values within the range of 6.7 to 6.8*\n\n![c~y7HDU4_picture1](assets/041-c-y7hdu4-picture1.png)\n\n(ii) The reason for this is...\n\n- (At this pH) the time taken for amylase to completely digest starch was the shortest/least; **[1 mark]**\n- (Which indicates that) amylase was catalysing the reaction at its maximum rate; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Do not get confused when reading the information in this graph and make sure you read the axes labels carefully. We would usually associate an increase in the graph as an increase in the rate of a reaction but in this case, it will be the opposite. The faster the rate of the reaction, the shorter the amount of time taken for amylase to digest starch completely, so the optimum pH would be located at the lowest point on the graph.*"
+    },
+    {
+     "id": "qstnprt_TZHgkM4ZGt9F6FGm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTime taken for amylase to completely digest starch at pH 5 = 7.5 minutes. Time taken for amylase to completely digest starch at pH 7 = 1.5 minutes. Step 1: Calculate the difference = 7.5 - 1.5 = 6.0. Step 2: Difference ÷ time at pH 5 = 6.0 ÷ 7.5 = 0.8. Step 3: Convert to % = 0.8 × 100 = 80%.\n\n#### Extended only\n\nCalculate the percentage decrease in the time taken to digest starch between pH 5 and 7. Show your working.",
+     "solution_md": "The percentage decrease in time can be calculated as follows...\n\n- (6.0 ÷ 7.5) x 100; **[1 mark]**\n- 80(%); **[1 mark]**\n\n*Full marks awarded in the absence of other calculations*\n\n**[Total: 2 marks]**\n\n![percentage-decrease](assets/042-percentage-decrease.png)"
+    },
+    {
+     "id": "qstnprt_tgjJYHfZtsCCjT75",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_KBdC2wDzfPD3qj46"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of students investigated the effect of pH on the activity of amylase. Their results are shown in Fig. 1. [Graph shows time taken for amylase to completely digest starch at different pH values, with specific data points such as time taken increases from 1.5 minutes at pH 7 to 6.0 minutes at pH 8.]\n\n#### Extended only\n\nDescribe and explain the shape of the graph between pH 7 and 8.",
+     "solution_md": "The shape of the graph between pH 7 and 8 can be described and explained as follows...\n\nAny **four **of the following:\n\n- As pH increases (from pH 7 to 8) there is an increase in the time taken for amylase to completely digest starch; **[1 mark]**\n- (This is because) the bonds that hold the amino acid chain (in amylase) together are destroyed (by the increase in pH); **[1 mark]**\n- This will change the <u>shape</u> of the <u>active site</u> (of amylase); **[1 mark]**\n- So that starch will no longer fit / be <u>complementary</u> in shape to the <u>active site</u> (of amylase); **[1 mark]**\n- A data point correctly quoted from the graph to support marking point 1, e.g. time taken to digest starch increased from 1.5 minutes at pH 7 to 6.0 minutes at pH 8; **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *Remember that you also need to **explain** the shape of the graph, so think of the reasons why there might be an increase in the amount of time taken for amylase to digest starch when the pH increases. This will require you to refer back to Topic 5 on enzymes and pH. We know that **enzymes are proteins** and that they are sensitive to pH values that are too high or too low because this affects the chemical bonds that hold the shape of their active site in position. When the pH value increases from 7 to 8, these bonds are broken in amylase and the active site will lose its **shape**, meaning the enzyme will lose its ability to catalyse the breakdown of starch. This will reduce the reaction rate, which results in the increase in time taken to break down starch.*"
+    },
+    {
+     "id": "qstnprt_jKRfggBDskyHZ8xb",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "outline",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YV6VK3BryrsFrXsG",
+      "spcpt_vVNFS2QNYNPxNVjr"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nOutline the process of starch digestion in the human body.",
+     "solution_md": "The process of starch digestion can be outlined as follows...\n\nAny **five** of the following:\n\n- Starch digestion begins in the mouth; **[1 mark]**\n- When amylase (in saliva) starts to break down starch into <u>maltose</u>; **[1 mark]**\n- This will continue in the <u>duodenum</u>; **[1 mark]**\n- With the secretion of amylase from the <u>pancreas</u>; **[1 mark]**\n- (Membranes of the) cells of the epithelium lining (in the small intestine) secrete <u>maltase</u>; **[1 mark]**\n- Maltase will digest / break down maltose into glucose; **[1 mark]**\n- Glucose is soluble and can be absorbed into the blood; **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *Pay close attention to the wording of your answer, do not confuse maltose and maltase with each other. Malt**ose** is a disaccharide that is formed when amylase breaks down starch. Malt**ase** is an enzyme that will complete starch digestion by breaking down maltose into glucose (which is a monosaccharide). Remember that enzyme names often end with -ase.*"
     }
    ]
   }

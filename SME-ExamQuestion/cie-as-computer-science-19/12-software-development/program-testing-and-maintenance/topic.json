@@ -1,0 +1,376 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:22Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "12-software-development",
+  "name": "12. Software Development"
+ },
+ "topic": {
+  "id": "top_YM9bKrSbG3BBQ8xs",
+  "slug": "program-testing-and-maintenance",
+  "name": "Program Testing & Maintenance",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "maintenance",
+   "name": "Maintenance",
+   "revision_note_id": "rn_t82sHZ5C2yfwXwhN"
+  },
+  {
+   "slug": "faults-and-errors",
+   "name": "Faults & errors",
+   "revision_note_id": "rn_yzt5KPtSyJ6g9Gpv"
+  },
+  {
+   "slug": "testing-methods-",
+   "name": "Testing methods",
+   "revision_note_id": "rn_BJfsGr6D4Gw5bcKJ"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_q3Td5v5BnpZ7bTyW",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/12-software-development/program-testing-and-maintenance/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_pNJ8x5ngkH97hxsf",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_9cdbjQ3Qr4SjMjWF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 5,
+      "question_part": "a(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_jV3jdn2q4Wv6vVmY",
+      "spcpt_bFTK3SSwQbzFc56K"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is being designed in pseudocode.\n\nThe program contains a global 1D array `Data `of type string containing 200 elements.\n\nThe first element has the index value 1.\n\nA procedure` Process()` is written to initialise the values in the array:\n\n`PROCEDURE Process(Label : STRING)`\n\n`    DECLARE Index : INTEGER`\n\n`    Index 0`\n\n`    INPUT Data[Index]`\n\n`    WHILE Index < 200`\n\n`        Index Index + 1`\n\n`        CASE OF (Index MOD 2)`\n\n`            0 : Data[Index] TO_UPPER(Label)`\n\n`            1 : Data[Index] TO_LOWER(Label)`\n\n`            OTHERWISE : OUTPUT \"Alarm 1201\"`\n\n`        ENDCASE`\n\n`    NEXT Index`\n\n`    OUTPUT \"Completed \" & Index & \" times\"`\n\n`ENDPROCEDURE`\n\nThe pseudocode contains **two **syntax errors and **one** other error.\n\nIdentify the errors.",
+     "solution_md": "> **[mark-scheme]**\n> One mark per error:\n> \n> Syntax:\n> \n> 1. `NEXT Index `(should be `ENDWHILE`)\n> \n> 2. '&' used to concatenate an integer (in `OUTPUT `statement)\n> \n> Other:\n> \n> 3. Accesses element outside range // Accesses element 0"
+    },
+    {
+     "id": "qstnprt_4FfFFtRVt2xCqrz8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jV3jdn2q4Wv6vVmY"
+     ],
+     "part_tier": null,
+     "problem_md": "After correcting all syntax errors, the pseudocode is translated into program code which compiles without generating any errors.\n\nWhen the program is executed it unexpectedly stops responding.\n\nIdentify the type of error that has occurred.",
+     "solution_md": "> **[mark-scheme]**\n> Run-time"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NqrQMMJYPbjpKJfb",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_BfDVYzBZBFzWfjNB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/23",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_fRKsxFstsrW5XrCd"
+     ],
+     "part_tier": null,
+     "problem_md": "A software developer follows a program development life cycle. The life cycle divides the development process into various stages.\n\nA software developer has written modules `Test_A()` and `Test_B()`. These have been written but contain errors. These modules are called from several places in the main program and testing of the main program (integration testing) has to stop.\n\nIdentify a method that can be used to continue testing the main program **before **the errors in these modules have been corrected **and **describe how this would work.",
+     "solution_md": "> **[mark-scheme]**\n> One mark for method – two marks for the description\n> \n> **MP1 **Stub testing\n> \n> **MP2 **The modules `Test_A()`<u> and </u>`Test_B()`are replaced by dummy modules\n> \n> **MP3 **... which return a known result // An output statement is displayed when called (to check it works) // gives expected output"
+    }
+   ]
+  },
+  {
+   "id": "qstn_npN9CCFnr4Shj9JM",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_76HXWJFdTTjS2b5D",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/22",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jV3jdn2q4Wv6vVmY"
+     ],
+     "part_tier": null,
+     "problem_md": "A program contains a global 1D array `Data `with 100 elements of type `INTEGER`.\n\nThe program contains a function `Process()` expressed in pseudocode as follows:\n\n`FUNCTION Process(Number : INTEGER, Label : STRING) RETURNS STRING`\n\n`    DECLARE Index, Count : INTEGER`\n\n`    DECLARE ReturnValue : STRING`\n\n`    Count INT(100 / Number)`\n\n`    Index Data[Number]`\n\n`    CASE OF (Index MOD 2)`\n\n`        0 : ReturnValue TO_UPPER(RIGHT(Label, Count))`\n\n`        1 : ReturnValue \"****\"`\n\n`    ENDCASE`\n\n`    RETURN RetVal`\n\n`ENDFUNCTION`\n\nRun-time errors can be generated in different ways. For example, a run-time error will be generated if a function is called with invalid parameters.\n\nThe pseudocode contains three statements that could generate a run-time error.\n\nWrite the **three **statements **and **explain how each could generate a run-time error",
+     "solution_md": "> **[mark-scheme]**\n> **MP1**` Count ← INT(100 / Number)`\n> Number could be zero (giving a divide by zero)\n> \n> **MP2**` Index ← Data[Number]`\n> Potential error: Value Number could be outside the range of array indices\n> \n> **MP3 **`ReturnValue ← TO_UPPER(RIGHT(Label, Count))`\n> Potential Error: Number to extract may be too big / negative / out of range for use in the RIGHT function // Label has insufficient characters\n> \n> **MP4**` RETURN RetVal`\n> Potential Error: There is no value to be returned // there is no variable named `RetVal`\n> \n> Mark as follows:\n> 1 mark for each statement <u>**and **</u>description\n> **Max 3 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CFwXV7q9zfTHkH4N",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_pCYKGzQQtzD2hR9S",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/21",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_fRKsxFstsrW5XrCd",
+      "spcpt_2PC6sXWn2btbfPK7"
+     ],
+     "part_tier": null,
+     "problem_md": "A software developer follows a program development life cycle. The life cycle divides the development process into various stages.\n\nThe program contains a validation function.\n\n(i) The function will:\n\n- take an integer value as a parameter .\n- return TRUE if the value is within the range 24 to 37, inclusive\n- otherwise return FALSE.\n\nComplete the table to define a test plan to thoroughly test the operation of the function.\n\n| Type of test data | Test data value | Expected result |\n|---|---|---|\n| Normal | 30 | TRUE |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n\n(4)\n\n(ii)  The function is to be tested on its own. When it is shown to work correctly the function will be combined with other modules and testing will continue.\n\nIdentify the type of testing that this represents.\n\n(1)",
+     "solution_md": "> **[mark-scheme]**\n> (i) One mark per row\n> \n> | Type of test data | Test data value | Expected result |\n> |---|---|---|\n> | Abnormal | 12 (< 23) | FALSE |\n> | Abnormal / Boundary / Extreme | 23 | FALSE |\n> | Boundary / Extreme | 24 | TRUE |\n> | Boundary | 25 | TRUE |\n> | Boundary | 36 | TRUE |\n> | Boundary /Extreme | 37 | TRUE |\n> | Abnormal / Boundary / Extreme | 38 | FALSE |\n> | Abnormal | 99 (> 38) | FALSE |\n> \n> **Max 4 marks**\n> \n> (ii) Integration (testing)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tQJxp544ff4KtdHH",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_2T6WJpWmnqWXygY2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/21",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jV3jdn2q4Wv6vVmY"
+     ],
+     "part_tier": null,
+     "problem_md": "A program includes the following assignment statement:\n\n`Result ← STR_TO_NUM(x) / STR_TO_NUM(y)`\n\nWhen the program evaluates the expression in the statement, it performs a calculation.\n\nVariable `Result `is of type real and variables x and y are of type string.\n\nTwo checks are required before the calculation is performed:\n\nIdentify the type of error that could occur if these checks are **not** carried out **and **state a cause of this error.",
+     "solution_md": "> **[mark-scheme]**\n> One mark per point:\n> \n> **Type**: Run-time error\n> \n> **Cause**: A divide by zero operation is attempted // Attempt to convert a nonnumeric string to a number"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GFx9Dw9knDYYzx54",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_vZRprWS42JSdf7qm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/21",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jV3jdn2q4Wv6vVmY"
+     ],
+     "part_tier": null,
+     "problem_md": "Refer to the [insert ](https://cdn.savemyexams.com/uploads/2025/11/33139-9618_w24_in_21.pdf)for the list of pseudocode functions and operators.\n\nA program will calculate the tax payable based on the cost of an item.\n\nCalculations will occur at many places in the program and these involve the use of one of three tax rates.\n\nTax rate values represent a percentage. For example, a tax rate value of 5.23 represents 5.23%. In this case, the tax payable on an item costing \\$100 would be \\$5.23.\n\nTax rate values are used at several places within the program. One example is given in pseudocode as follows:\n\n`HighRate ← FALSE `\n\n`CASE OF ItemCost `\n\n`    <= 50 : TaxRate ← 3.75 // tax rate of 3.75% `\n\n`    <= 200 : TaxRate ← 5.23 // tax rate of 5.23% `\n\n`    > 200 : TaxRate ← 6.25 // tax rate of 6.25% `\n\n`            HighRate ← TRUE `\n\n`ENDCASE`\n\n`TaxPayable ← ItemCost * TaxRate // tax payable`\n\nThe pseudocode contains a logical error.\n\nIdentify the error **and **suggest a correction.",
+     "solution_md": "> **[mark-scheme]**\n> One mark per point:\n> \n> Error: The **calculation **of TaxPayable is incorrect\n> \n> Correction: TaxPayable  (ItemCost * TaxRate) / 100"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XQHHJR8FC6FKsp6y",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_PcFfKygPRnFP6TfK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/23",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_bqQt8GM3cSgzZKgq"
+     ],
+     "part_tier": null,
+     "problem_md": "A program is being developed in pseudocode before being converted into a programming language.\n\nThe hardware that runs the program is changed and the program needs to be modified so that it works with the new hardware.\n\nIdentify the type of maintenance that this represents and give one other reason why this type of maintenance may be needed.\n\nType .......................................................................................................................................... Reason ..................................................................................................................................... .............................................",
+     "solution_md": "> **[mark-scheme]**\n> - **MP1**    Type: Adaptive\n> - **MP2**   Reason: The (user) requirement(s) changes // to accommodate legislative changes"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vhtJdDFS2GCM2FTC",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_xP4WC7V6rW4s7q5Q",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/22",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_2PC6sXWn2btbfPK7"
+     ],
+     "part_tier": null,
+     "problem_md": "A procedure `Count()` will:\n\n1. input a value (all values will be positive integers) \n2. count the number of odd values and count the number of even values \n3. repeat from step 1 until the value input is 99 \n4. output the two count values, with a suitable message.\n\nThe value 99 must not be counted\n\nThe procedure `Count() `is to be tested.\n\nTypical test data would consist of odd and even values, for example:\n\n23, 5, 64, 100, 2002, 1, 8, 900, 99\n\nThe purpose of this test would be to test a typical mix of even and odd values and check the totals.\n\nGive** three** test data sequences that may be used to test **different **aspects of the procedure.\n\nDo **not** include invalid da.\n\nSequence 1:\n\nTest data ...................................................................................................................................\n\nPurpose of test. ........................................................................................................................\n\n...................................................................................................................................................\n\nSequence 2:\n\nTest data ...................................................................................................................................\n\nPurpose of test. ........................................................................................................................\n\n...................................................................................................................................................\n\nSequence 3:\n\nTest data ...................................................................................................................................\n\nPurpose of test. ........................................................................................................................\n\n..................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> **One** mark per set, including stated purpose. Max 3 marks\n> \n> Example answers:\n> \n> 1   data set with (only) odd values, terminated with 99 \n> 2   data set with (only) even values, terminated with 99 \n> 3   data sets with same number of odd and even values, terminated with 99 \n> 4   data sets with all even / all odd with just one odd/even value, terminated with 99 \n> 5   data sets with no values just final 99 \n> 6   data sets without (terminating) 99 // missing or incorrectly placed 99"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3kxcqG7Cj2qf2kVp",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_thPxWm8SfqTsZVC9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/21",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_p6gdsGKbBwW2jTbr",
+      "spcpt_nxXYPdhQmhNPS4bX",
+      "spcpt_jV3jdn2q4Wv6vVmY"
+     ],
+     "part_tier": null,
+     "problem_md": "An algorithm is designed to find the smallest numeric value from an input sequence and count how many numeric values have been input. \nAn example of an input sequence is:\n\n23, AB56, 17, 23ZW, 4, 10, END\n\nNumeric input values are all integers and non-numeric input is ignored, except for the string \"END\" which is used to terminate the sequence.\n\nThe algorithm is expressed in pseudocode as shown:\n\n`DECLARE NextInput : STRING `\n`DECLARE Min, Count, Num : INTEGER `\n\n`Min ← 999 `\n`Count ← 0 `\n\n`REPEAT `\n`    INPUT NextInput `\n`    IF IS_NUM(NextInput) = TRUE THEN `\n`           Num ← STR_TO_NUM(NextInput) `\n`           IF Num > Min THEN `\n`                 Min ← Num `\n`           ENDIF Count ← Count & 1 `\n`    ENDIF `\n`UNTIL NextInput ← \"END\" `\n\n`OUTPUT \"The minimum value is \", Min, \" and the count was \", Count`\n\nThe pseudocode contains three errors due to the incorrect use of **operators. **\n\nIdentify each error **and **state the correction required.",
+     "solution_md": "> **[mark-scheme]**\n> - **MP1 **    `Num > Min` should be `Num < Min `\n> - **MP2 **  `Count & 1 `should be `Count + 1 `\n> - **MP3**` NextInput  \"END\"` should be `NextInput = \"END\"`"
+    },
+    {
+     "id": "qstnprt_wjScysZ6mrz74g7g",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/21",
+      "question_number": 5,
+      "question_part": "bi,bii"
+     },
+     "spec_point_ids": [
+      "spcpt_fRKsxFstsrW5XrCd",
+      "spcpt_2PC6sXWn2btbfPK7"
+     ],
+     "part_tier": null,
+     "problem_md": "The operator errors are corrected and the algorithm is tested as follows:\n\nThe input sequence:\n\n` 18, 4, ONE, 27, 189, ERIC, 3, 65, END `\n\nproduces the output:\n\n` The minimum value is 3 and the count was 6 `\n\nThe algorithm is tested with a different test data sequence. The sequence contains a mix of integer and non-numeric values. It is terminated correctly but the algorithm produces unexpected results.\n\n(i) Explain the problem with the algorithm\n\n[2]\n\n(ii) Give a sequence of four test data values that could be input to demonstrate the problem.\n\nValue 1 .............................................................................................................................. Value 2 .............................................................................................................................. Value 3 .............................................................................................................................. Value 4 ............................................................................................................................\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> - **MP1 **   If all the numeric input values are greater than 999 // If there are no numeric values in the sequence\n> - **MP2**    then the minimum will be given as <u>**999 **</u>(and not one of the input values) (ii) Many possible correct answers, for example:\n> - **MP1  **  Mixture non-numeric and numeric with 3 or 4 values - with all numerics \n> greater than 999 \n> Examples: 1325, DOG, 7868, 7615 \n> // SNAKE, 3478, SPIDER\n> - **MP2**    Final value: END"
+    }
+   ]
+  }
+ ]
+}

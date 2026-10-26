@@ -1,6 +1,6 @@
 # Exam Questions — Esters
 **18. Carboxylic Acids & Derivatives** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 12 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 18 questions across 2 sets
 
 
 ## Multiple Choice Questions (12 questions)
@@ -116,3 +116,311 @@ Lactic acid is a naturally occurring molecule.
 ![Structural formula of lactic acid (2-hydroxypropanoic acid), showing a hydroxyl group and a carboxylic acid group](assets/013-structural-formula-of-lactic-acid-2-hydroxypropa.jpg)
 
 What is a property of lactic acid?
+
+## Structured Questions (6 questions)
+
+
+### Q1 — medium — 12 marks
+
+**Q1** [4 marks]
+
+The ester methyl butanoate, CH<sub>3</sub>(CH<sub>2</sub>)<sub>2</sub>CO<sub>2</sub>CH<sub>3</sub>, contributes to the aroma of apples.
+
+i) State the reagents and conditions needed for the hydrolysis of this ester.
+
+[2]
+
+ii) Construct an equation for the hydrolysis of this ester.
+
+[1]
+
+iii) Apart from their use as perfumes and food flavourings, state one major commercial use of esters.
+
+[1]
+
+**Q1** [3 marks]
+
+Leaf alcohol has the structure shown below.
+
+![Skeletal formula of leaf alcohol showing (Z)-hex-3-en-1-ol with the hydroxyl group and a cis double bond](assets/015-skeletal-formula-of-leaf-alcohol-showing-z-hex-3.png)
+
+i) Draw the other stereoisomer of leaf alcohol.
+
+[1]
+
+ii) Draw the structure of the ester formed when leaf alcohol reacts with ethanoic acid. Show all bonds in the ester linkage.
+
+[2]
+
+**Q1** [3 marks]
+
+**Extract:**
+
+Leaf alcohol has the structure shown below.
+
+![Skeletal formula of leaf alcohol showing (Z)-hex-3-en-1-ol with the hydroxyl group and a cis double bond](https://cdn.savemyexams.com/uploads/2026/05/39108-leaf-alcohol-skeletal-formula.png)
+
+i) Calculate the relative molecular mass, *M*<sub>r</sub>, for leaf alcohol.
+
+[1]
+
+ii) Leaf alcohol was reacted to form a product with an *M*<sub>r</sub> value 18 units less.
+
+Suggest a structure for this product and deduce the type of reaction that took place.
+
+[2]
+
+**Q1** [2 marks]
+
+**Extract:**
+
+ii) Leaf alcohol was reacted to form a product with an *M*~r~ value 18 units less.
+
+Suggest a structure for this product and deduce the type of reaction that took place.
+
+The structure of the dehydration product and type of reaction:
+
+- CH~2~ = CH – CH = CH – CH~2~CH~3~
+- Dehydration / elimination
+
+Describe a simple chemical test to distinguish between leaf alcohol and your product in **part (c)(ii).**
+
+State the reagent and the observation for each compound.
+
+### Q2 — easy — 8 marks
+
+**Q2** [2 marks]
+
+Draw the fully displayed formulae of:
+
+i) 3-methylbutanoic acid
+
+[1]
+
+ii) methyl ethanoate
+
+[1]
+
+**Q2** [1 mark]
+
+2-methylbutanoic acid can be produced by the oxidation of 2-methylbutan-1-ol when heated under reflux with acidified potassium dichromate(VI).
+
+State the colour change observed during this reaction.
+
+**Q2** [1 mark]
+
+State the systematic names of the organic products formed when methyl ethanoate is hydrolysed by heating with dilute sulfuric acid.
+
+**Q2** [4 marks]
+
+**Extract:**
+
+ii) methyl ethanoate
+
+State the systematic names of the organic products formed when methyl ethanoate is hydrolysed by heating with dilute sulfuric acid.
+
+Methyl ethanoate can also be hydrolysed under alkaline conditions using sodium hydroxide.
+
+i) Draw the fully displayed formulae of the two products formed in this reaction.
+
+[2]
+
+ii) State the reagent required to convert the organic salt formed in (i) into a carboxylic acid.
+
+[1]
+
+iii) State one difference between the acid hydrolysis and the alkaline hydrolysis of esters, other than the reagents and products.
+
+[1]
+
+### Q3 — medium — 13 marks
+
+**Q3** [5 marks]
+
+Two isomeric compounds are shown below in Fig. 1.1.
+
+![Structural formulae of two isomeric hydroxy acids labelled A and B](assets/021-structural-formulae-of-two-isomeric-hydroxy-acid.png)
+
+**Fig. 1.1**
+
+i) State the systematic name of each isomer.
+
+[1]
+
+ii) Suggest a chemical reagent to distinguish between these isomers and deduce the type of reaction taking place.
+
+[2]
+
+iii) State the observations made in each case.
+
+[2]
+
+**Q3** [3 marks]
+
+i) Compound **B**, CH<sub>3</sub>CH(CH<sub>3</sub>)CH(OH)COOH, can be oxidised into compound **C**.
+
+Construct an equation for this oxidation, using [O] to represent the oxidising agent.
+
+[1]
+
+ii) The half-equation for the reduction of acidified potassium dichromate(VI) is:
+
+Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> (aq) + 14H<sup>+</sup> (aq) + 6e<sup>–</sup> → 2Cr<sup>3+</sup> (aq) + 7H<sub>2</sub>O (l)
+
+Deduce the overall ionic equation for the oxidation of compound **B** to compound **C** using acidified dichromate(VI).
+
+[2]
+
+**Q3** [2 marks]
+
+Acidified dichromate(VI) can be used to oxidise ethanol into ethanal or ethanoic acid, depending on the reaction conditions.
+
+Outline how the reaction conditions can be changed to produce ethanal or ethanoic acid.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+Two isomeric compounds are shown below in Fig. 1.1.
+
+Fig. 1.1
+
+i) The systematic names of the two isomers are:
+
+A = 3-hydroxy-3-methylbutanoic acid
+
+AND
+
+B = 2-hydroxy-3-methylbutanoic acid
+
+Under the right conditions, two molecules of compound **A** can react together to produce a dimer.
+
+i) Name the type of reaction taking place and state the reaction conditions.
+
+[2]
+
+ii) Draw the structure of the product, showing clearly how the two molecules are joined.
+
+[1]
+
+### Q4 — hard — 13 marks
+
+**Q4** [5 marks]
+
+Ester S is 2-methylpropyl propanoate.
+
+State the systematic names of the carboxylic acid and the alcohol used to form ester S.
+
+State the catalyst and one condition for this reaction.
+
+Construct an equation for the formation of ester S.
+
+**Q4** [4 marks]
+
+**Extract:**
+
+Ester S is 2-methylpropyl propanoate.
+
+Draw the skeletal formulae of the organic products formed when ester S is:
+
+i) heated under reflux with dilute aqueous sulfuric acid
+
+[2]
+
+ii) heated under reflux with aqueous sodium hydroxide
+
+[2]
+
+**Q4** [4 marks]
+
+Ester T has the molecular formula C<sub>5</sub>H<sub>10</sub>O<sub>2</sub>. When ester T is hydrolysed, one of the organic products is 2-methylpropan-1-ol.
+
+Deduce the systematic names of the carboxylic acid and the alcohol used to prepare ester T.
+
+Draw the displayed formula of ester T and state its systematic name.
+
+### Q5 — easy — 8 marks
+
+**Q5** [3 marks]
+
+Complete Table 1.1 to show the carboxylic acid and alcohol required to form each ester.
+
+**Table 1.1**
+
+| carboxylic acid | alcohol | ester |
+|---|---|---|
+| ethanoic acid |   | methyl ethanoate |
+|   | ethanol | ethyl propanoate |
+| butanoic acid | propan-1-ol |   |
+
+**Q5** [2 marks]
+
+All of the esters in part **(a)** are formed via a condensation reaction.
+
+State the catalyst and conditions required to form an ester from a carboxylic acid and an alcohol.
+
+**Q5** [2 marks]
+
+State the reagents and conditions required for the acidic hydrolysis of an ester.
+
+**Q5** [1 mark]
+
+State one commercial use of esters.
+
+### Q6 — medium — 11 marks
+
+**Q6** [1 mark]
+
+An organic ester, **B**, has the empirical formula C<sub>2</sub>H<sub>4</sub>O. The relative molecular mass, *M*<sub>r</sub>, of **B** is 88.0.
+
+Deduce the molecular formula of **B**.
+
+**Q6** [4 marks]
+
+**Extract:**
+
+An organic ester, **B**, has the empirical formula C~2~H~4~O. The relative molecular mass, *M*~r~, of **B** is 88.0.
+
+Draw the skeletal formulae of four isomers of **B** that are esters.
+
+**Q6** [4 marks]
+
+**Extract:**
+
+An organic ester, **B**, has the empirical formula C~2~H~4~O. The relative molecular mass, *M*~r~, of **B** is 88.0.
+
+The student hydrolysed his sample of **B** by heating with aqueous mineral acid and then separating the alcohol, **C**, that was formed. He heated the alcohol **C** under reflux with acidified dichromate(VI) ions and collected the product **D**.
+
+A sample of **D** gave a yellow/orange precipitate with 2,4-dinitrophenylhydrazine (2,4-DNP) reagent. A second sample of **D** gave no reaction with Tollens' reagent.
+
+i) State the functional group shown to be present in **D** by the reaction with 2,4-DNP reagent.
+
+[1]
+
+ii) State what the result of the test with Tollens' reagent shows about **D**.
+
+[1]
+
+iii) Deduce the structural formula of the alcohol **C**.
+
+[1]
+
+iv) Which ester has the same structure as that of the ester **B**?
+
+[1]
+
+**Q6** [2 marks]
+
+**Extract:**
+
+An organic ester, B, has the empirical formula C2H4O. The relative molecular mass, Mr, of B is 88.0.
+
+The molecular formula of B: C4H8O2
+
+The skeletal formulae of four isomers of B that are esters are:
+- 1-methylethyl methanoate
+- methyl propanoate
+- ethyl ethanoate
+- propyl methanoate
+
+Which ester, if any, is chiral? Explain your answer.

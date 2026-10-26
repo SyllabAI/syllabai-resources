@@ -1,6 +1,6 @@
 # Exam Questions — Equations of Motion
 **2. Kinematics** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 32 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 45 questions across 2 sets
 
 
 ## Multiple Choice Questions (32 questions)
@@ -321,3 +321,627 @@ Which equation is correct for the maximum height H reached?
 A ball is thrown upwards with an initial vertical velocity of 2.2 m s<sup>–1</sup>.
 
 What is the maximum height reached by the ball?
+
+## Structured Questions (13 questions)
+
+
+### Q1 — easy — 3 marks
+
+**Q1** [1 mark]
+
+Define *velocity*.
+
+**Q1** [2 marks]
+
+Fig. 1.1 shows the velocity–time graph for the car as it travels along a straight road.
+
+![Graph showing velocity on the vertical axis and time on the horizontal axis; linear increase from point u to v over time t.](assets/030-graph-showing-velocity-on-the-vertical-axis-and-.png)
+
+**Fig. 1.1**
+
+(i) Determine an expression, in terms of $u$, $v$ and $t$, for the area under the graph.
+
+[1]
+
+(ii) State the physical quantity represented by the area under the graph.
+
+[1]
+
+### Q2 — medium — 13 marks
+
+**Q2** [1 mark]
+
+Define acceleration.
+
+*Source: Specimen 2022 Paper 2 Q2A*
+
+
+**Q2** [7 marks]
+
+A ball is kicked from horizontal ground towards a vertical wall, as shown in Fig. 1.1.
+
+![q2b-paper-2-specimen-2022-cie-ial-physics](assets/032-q2b-paper-2-specimen-2022-cie-ial-physics.png)
+
+**Fig. 1.1** (not to scale)
+
+The horizontal distance between the initial position of the ball and the base of the wall is 24 m. The ball is kicked with an initial velocity *v* at an angle of 28° to the horizontal. The ball hits the top of the wall after a time of 1.5 s. Air resistance is negligible.
+
+(i) Calculate the initial horizontal component *v*<sub>x</sub> of the velocity of the ball.
+
+*v*<sub>x</sub> = ................................................. m s<sup>–1</sup> [1]
+
+(ii) Show that the initial vertical component *v*<sub>y</sub> of the velocity of the ball is 8.5 m s<sup>–1</sup>.
+
+[2]
+
+(iii) Calculate the time taken for the ball to reach its maximum height above the ground.
+
+time = ....................................................... s [2]
+
+(iv) The ball is kicked at time t = 0. Assume that the vertical component *v*<sub>y</sub> of the velocity of the ball is positive in the upwards direction.
+
+On Fig. 1.2, sketch the variation with time t of *v*<sub>y</sub> for the time until the ball hits the wall.
+
+![q2b-iv-paper-2-specimen-2022-cie-ial-physics](assets/033-q2b-iv-paper-2-specimen-2022-cie-ial-physics.png)
+
+**Fig. 1.2**
+
+[2]
+
+*Source: Specimen 2022 Paper 2 Q2B*
+
+
+**Q2** [4 marks]
+
+**Extract:**
+
+A ball is kicked from horizontal ground towards a vertical wall. The horizontal distance between the initial position of the ball and the base of the wall is 24 m. The ball is kicked with an initial velocity v at an angle of 28° to the horizontal. The ball hits the top of the wall after a time of 1.5 s. Air resistance is negligible.
+(ii) The initial vertical component v_y of the velocity of the ball is 8.5 m s^–1.
+(iii) The time taken for the ball to reach its maximum height above the ground: t = 8.5/9.81 = 0.866 s = 0.87 s
+
+(i) Calculate the maximum height above the ground of the ball in **(b)**.
+
+maximum height = ...................................................... m  [2]
+
+(ii) The maximum gravitational potential energy of the ball above the ground is 22 J.
+
+Calculate the mass of the ball.
+
+mass = ..................................................... kg  [2]
+
+*Source: Specimen 2022 Paper 2 Q2C*
+
+
+**Q2** [1 mark]
+
+**Extract:**
+
+A ball is kicked from horizontal ground towards a vertical wall. The ball is kicked with an initial velocity v at an angle of 28° to the horizontal. The ball hits the top of the wall after a time of 1.5 s. Air resistance is negligible. (Part biii) Calculate the time taken for the ball to reach its maximum height above the ground.
+
+A ball of greater mass is kicked with the same velocity as the ball in **(b)**.
+
+Air resistance is still negligible.
+
+State and explain the effect, if any, of the increased mass on the time taken by the ball to reach its maximum height.
+
+*Source: Specimen 2022 Paper 2 Q2D*
+
+
+### Q3 — hard — 12 marks
+
+**Q3** [3 marks]
+
+An object is released near the surface of the Moon at time *t* = 0. Fig. 1.1 shows the variation of displacement *s* with time *t* of the object from the point of release.
+
+![sl-sq-2-1-hard-q3a](assets/036-sl-sq-2-1-hard-q3a.png)
+
+**Fig. 1.1**
+
+(i) State the significance of the negative values of *s.*
+
+[1]
+
+(ii) State two assumptions about the motion of the object.
+
+[2]
+
+**Q3** [2 marks]
+
+**Extract:**
+
+An object is released near the surface of the Moon at time *t* = 0. Fig. 1.1 shows the variation of displacement *s* with time *t* of the object from the point of release. Fig. 1.1 (graph showing s/m vs t/s, a downward 'n'-shaped curve passing through point (1.0, -0.80)).
+
+Use the graph in Fig. 1.1 to determine a value for the acceleration of free fall close to the surface of the Moon.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+An object is released near the surface of the Moon at time *t* = 0. Fig. 1.1 shows the variation of displacement *s* with time *t* of the object from the point of release. **Fig. 1.1**
+
+Use Fig. 1.1 to estimate the instantaneous velocity of the object when *t* = 1.5 s.
+
+**Q3** [4 marks]
+
+**Extract:**
+
+An object is released near the surface of the Moon at time t = 0. Fig. 1.1 shows the variation of displacement s with time t of the object from the point of release.
+
+(i) On Fig. 1.1, sketch the variation of displacement *s* with time *t* if the same object was released close to the surface of the Earth instead.
+
+[2]
+
+(ii) Describe and explain the features of your sketch.
+
+[2]
+
+### Q4 — medium — 19 marks
+
+**Q4** [8 marks]
+
+A particle moves in a straight line with a constant acceleration, *a*. The initial velocity of the particle at *t* = 0 is *u*.  After a further time *t*, its velocity has increased to *v*.
+
+(i) Using the definition of acceleration, show that
+
+$v=u+at$
+
+[2]
+
+(ii) Using the definition of average velocity, show that
+
+$s=ut+\frac{1}{2}at^{2}$
+
+[3]
+
+(iii) Using these two equations, show that
+
+$v^{2}=u^{2}+2as$
+
+[3]
+
+**Q4** [4 marks]
+
+A student investigates the motion of a light ball bearing as it falls from rest alongside a vertical 100 cm scale.
+
+The student sets up a camera to take flash photographs of the ball at 0.05 s intervals, as shown in Fig. 1.1.
+
+![2-1-4b-m-2-1-vertical-drop-100cm-scale-cie-ial](assets/040-2-1-4b-m-2-1-vertical-drop-100cm-scale-cie-ial.png)
+
+The first photograph is taken at time *t* = 0.
+
+Using Fig. 1.1, describe and explain the motion of the ball
+
+(i) in the interval *t* = 0 to *t* = 0.35 s
+
+[2]
+
+(ii) in the interval *t* = 0.35 to *t* = 0.55 s.
+
+[2]
+
+**Q4** [4 marks]
+
+**Extract:**
+
+A student investigates the motion of a light ball bearing as it falls from rest alongside a vertical 100 cm scale. The student sets up a camera to take flash photographs of the ball at 0.05 s intervals, as shown in Fig. 1.1. The first photograph is taken at time t = 0. In the interval t = 0 to t = 0.35 s the ball accelerates. In the interval t = 0.35 to t = 0.55 s the ball reaches a constant speed.
+
+The 100 cm scale is suspended 160 cm above the ground.
+
+Determine the total time of flight for the ball after it is dropped from the starting point of the 100 cm scale.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A student investigates the motion of a light ball bearing as it falls from rest alongside a vertical 100 cm scale. The student sets up a camera to take flash photographs of the ball at 0.05 s intervals, as shown in Fig. 1.1. The first photograph is taken at time *t* = 0.
+
+The student repeats the experiment with a lead sphere that falls with constant acceleration and does not reach a constant speed.
+
+Determine the number of photographs, including the photograph at *t* = 0, that will be observed against the 100 cm scale.
+
+### Q5 — hard — 16 marks
+
+**Q5** [4 marks]
+
+A rock is thrown horizontally off a 175 m high cliff and lands 105 m away.
+
+Calculate the resultant velocity at which it hits the ground, assuming air resistance is negligible.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+A rock is thrown horizontally off a 175 m high cliff and lands 105 m away. Calculate the resultant velocity at which it hits the ground, assuming air resistance is negligible.
+
+The rock hits the ground at an angle *θ*  to the horizontal.
+
+Determine, without calculation, how the angle will change if the stone is thrown in the same way with a greater velocity.
+
+**Q5** [3 marks]
+
+The rock is now attached to a catapult and launched at a castle wall. The rock is launched at an angle of 30° from the horizontal at a speed of 29 m s<sup>–1</sup>. The castle wall is 50 m away and is 15 m high.
+
+Determine whether the rock makes it over the wall.
+
+**Q5** [6 marks]
+
+The double angle formula is given by sin(2A) = 2sin(A)cos(A).
+
+Justify that, in the absence of air resistance, the maximum range of any projectile that starts and ends at ground level is achieved when it is launched at 45° to the horizontal.
+
+### Q6 — easy — 9 marks
+
+**Q6** [3 marks]
+
+A student drops a stone into a well and measures the time it takes to hear the stone splash at the bottom.
+
+Explain how this measurement of time can be used to find the depth of the well.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+A student drops a stone into a well and measures the time it takes to hear the stone splash at the bottom.
+
+It takes 3.2 s for the stone to drop from rest and splash into the water at the bottom.
+
+Calculate the velocity of the stone when it hits the water.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+It takes 3.2 s for the stone to drop from rest and splash into the water at the bottom. Calculate the velocity of the stone when it hits the water. v = 0 + (9.81 × 3.2) = 31.392 = 31 m s^−1^ (downward)
+
+On Fig. 1.1, sketch the variation of time with velocity for the stone as it falls down the well.
+
+![2-1-3c-e-2-1-free-fall-motion-graph-blank-cie-ial-sq](assets/044-2-1-3c-e-2-1-free-fall-motion-graph-blank-cie-ia.png)
+
+**Fig. 1.1**
+
+**Q6** [2 marks]
+
+**Extract:**
+
+It takes 3.2 s for the stone to drop from rest and splash into the water at the bottom. Calculate the velocity of the stone when it hits the water. v = 0 + (9.81 × 3.2) = 31 m s^−1 (downward)
+On Fig. 1.1, sketch the variation of time with velocity for the stone as it falls down the well. Final speed, v = 31 m s^–1 (from part (b)); Time taken, t = 3.2 s; Straight line drawn starting from zero; Line stops at t = 3.2 s, v = 31 m s^−1.
+
+Use your graph from **(c)** to determine the depth of the well.
+
+### Q7 — medium — 11 marks
+
+**Q7** [4 marks]
+
+A ball is projected horizontally at 27 m s<sup>–1</sup> from a vertical cliff. It travels a horizontal distance of 40 m before hitting the ground.
+
+Assume that air resistance is negligible.
+
+![q1a_motion_sl-ib-physics-sq-medium](assets/047-q1a-motion-sl-ib-physics-sq-medium.png)
+
+Calculate the vertical velocity of the ball just before it hits the ground.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+A ball is projected horizontally at 27 m s^–1^ from a vertical cliff. It travels a horizontal distance of 40 m before hitting the ground. Assume that air resistance is negligible.
+
+Calculate the time taken to hit the ground, t: t = s_x/u_x = 40/27 = 1.481 s
+
+Calculate the height of the cliff.
+
+**Q7** [3 marks]
+
+**Extract:**
+
+A ball is projected horizontally at 27 m s^–1^ from a vertical cliff. It travels a horizontal distance of 40 m before hitting the ground. Assume that air resistance is negligible. Calculate the vertical velocity of the ball just before it hits the ground.
+
+(From mark scheme) t = 1.481 s = 1.5 s; vertical final velocity v = 9.81 × 1.481 = 14.53 = 15 m s^–1^
+
+Sketch the graphs to show how the horizontal and vertical components of the velocity of the ball, $v_{x}$ and $v_{y}$ change with time *t* just before the ball hits the ground.
+
+Label any appropriate values on the axes.
+
+![q1c_motion_sl-ib-physics-sq-medium](assets/048-q1c-motion-sl-ib-physics-sq-medium.png)
+
+**Q7** [2 marks]
+
+**Extract:**
+
+A ball is projected horizontally at 27 m s^–1^ from a vertical cliff. It travels a horizontal distance of 40 m before hitting the ground. Assume that air resistance is negligible. Calculate the vertical velocity of the ball just before it hits the ground: ... v = 14.53 = 15 m s^–1^
+
+Calculate the resultant velocity of the ball just before it hits the ground.
+
+### Q8 — hard — 11 marks
+
+**Q8** [4 marks]
+
+A motorcyclist practices a stunt on a ramp inclined such that they leave it at an angle of 25º and 3 m high as shown in Fig. 1.1.
+
+The other ramp is 24 m away and has a height of 1 m, as shown.
+
+![2-1-2b-h-2-1-h-motorcyclist-projectile-two-ramps-cie-ial-sq](assets/051-2-1-2b-h-2-1-h-motorcyclist-projectile-two-ramps.png)
+
+**Fig. 1.1**
+
+Calculate the minimum initial velocity the motorcyclist requires in order to reach the other ramp.
+
+**Q8** [4 marks]
+
+The stunt motorcyclist's ultimate goal is to jump across a river and land on the other side. Fig. 1.3 shows the motorcyclist driving off a ramp at the edge of a river.
+
+![2-1-2c-h-2-1-h-motorcyclist-projectile-river-jump-cie-ial-sq](assets/053-2-1-2c-h-2-1-h-motorcyclist-projectile-river-jum.png)
+
+**Fig. 1.3**
+
+The ramp is at an angle of 25° to the horizontal and the height at the end of the ramp is 3.0 m. The width of the river is 100 m. The initial velocity of the motorcyclist is 35 m s<sup>−1</sup>.
+
+Deduce whether the motorcyclist lands on the other side of the river.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+The stunt motorcyclist's ultimate goal is to jump across a river and land on the other side. The ramp is at an angle of 25° to the horizontal and the height at the end of the ramp is 3.0 m. The width of the river is 100 m. The initial velocity of the motorcyclist is 35 m s^−1^. Deduce whether the motorcyclist lands on the other side of the river.
+
+Explain how air resistance would affect the jump.
+
+### Q9 — hard — 8 marks
+
+**Q9** [4 marks]
+
+A bus driver drives with a constant acceleration of 5.0 m s<sup>–2</sup> from an initial velocity of 3.0 m s<sup>–1</sup>. After 2.5 seconds, they slow down to stop at a set of traffic lights at 4.0 m s<sup>–2</sup>, eventually coming to a complete stop.  Assume that air resistance is negligible.
+
+Calculate the distance between where the bus began to accelerate and the traffic lights where the bus stops.
+
+**Q9** [4 marks]
+
+**Extract:**
+
+A bus driver drives with a constant acceleration of 5.0 m s^–2^ from an initial velocity of 3.0 m s^–1^. After 2.5 seconds, they slow down to stop at a set of traffic lights at 4.0 m s^–2^, eventually coming to a complete stop. Assume that air resistance is negligible.
+
+On Fig. 1.1 draw the velocity­–time graph for the motion of the bus.
+
+![2-1-h-q5b-sq-cie-ial-physics](assets/056-2-1-h-q5b-sq-cie-ial-physics.png)
+
+**Fig. 1.1**
+
+### Q10 — medium — 9 marks
+
+**Q10** [3 marks]
+
+An archer fires an arrow towards a target as shown in Fig. 1.1.
+
+![2-1-5a-m-2-1-projectile-arrow-launch-cie-ial-sq](assets/058-2-1-5a-m-2-1-projectile-arrow-launch-cie-ial-sq.png)
+
+The centre of the target is at the same height as the initial position of the arrow.
+
+The target is a distance of 100 m from the arrow. The arrow has an initial velocity of 62 m s<sup>–1</sup> and is fired at an angle of 11° to the horizontal.
+
+Describe how the vertical and horizontal components of the arrow's velocity change from when it is fired until it reaches its maximum height.
+
+Assume that the effect of air resistance is negligible.
+
+**Q10** [3 marks]
+
+**Extract:**
+
+An archer fires an arrow towards a target. The centre of the target is at the same height as the initial position of the arrow. The target is a distance of 100 m from the arrow. The arrow has an initial velocity of 62 m s^–1^ and is fired at an angle of 11° to the horizontal. Assume that the effect of air resistance is negligible.
+
+Show that the time taken for the arrow to reach its maximum height is about 1.2 s.
+
+**Q10** [3 marks]
+
+**Extract:**
+
+The centre of the target is at the same height as the initial position of the arrow. The target is a distance of 100 m from the arrow. The arrow has an initial velocity of 62 m s^–1^ and is fired at an angle of 11° to the horizontal.
+
+Show that the time taken for the arrow to reach its maximum height is about 1.2 s. (t = 1.21 s)
+
+Calculate the horizontal distance, measured along the base line, by which the arrow misses the target.
+
+### Q11 — easy — 12 marks
+
+**Q11** [2 marks]
+
+Place ticks (**✓**) in the table in Table 1.1 to indicate which of the quantities are vectors and which are scalars.
+
+**Table 1.1**
+
+|   | **velocity** | **speed** | **distance** | **displacement** | **acceleration** |
+|---|---|---|---|---|---|
+| vector |   |   |   |   |   |
+| scalar |   |   |   |   |   |
+
+**Q11** [3 marks]
+
+Two of the equations of uniformly accelerated motion are
+
+$s=ut+\frac{1}{2}at^{2}$
+
+$v^{2}=u^{2}+2as$
+
+(i) the definition of uniform acceleration,
+
+[1]
+
+(ii) the **two** other equations of motion that can be used to derive the above equations.
+
+[2]
+
+**Q11** [5 marks]
+
+Fig. 1.2 shows an electric motor which is used to lift and lower heavy loads.
+
+![2-1-2c-e-2-1-pulley-load-kinematics-cie-ial-sq](assets/059-2-1-2c-e-2-1-pulley-load-kinematics-cie-ial-sq.png)
+
+**Fig. 1.2**
+
+Initially, the load is on the ground. Fig. 1.3 shows the variation of the displacement* s* of the load with time* t*.
+
+![2-1-2c-e-2-1-displacement-time-graph-pulley-load-cie-ial-sq](assets/060-2-1-2c-e-2-1-displacement-time-graph-pulley-load.png)
+
+**Fig. 1.3**
+
+(i) Complete Table 1.4 to show the magnitude and direction of the velocity of the load during the time intervals shown.
+
+**Table 1.4**
+
+| **time interval** | **magnitude of velocity** | **direction of velocity** |
+|---|---|---|
+| *t* = 0 to 2.0 s |   |   |
+| *t *= 2.0 to 3.5 s |   |   |
+| *t* = 3.5 to 4.0 s |   |   |
+
+[3]
+
+(ii) On Fig. 1.5, sketch a graph to show the variation of the velocity *v* of the load with time *t*.
+
+Include values for velocity on the *v*-axis.
+
+![2-1-2c-e-2-1-velocity-time-graph-blank-cie-ial-sq](assets/061-2-1-2c-e-2-1-velocity-time-graph-blank-cie-ial-s.png)
+
+**Fig. 1.5**
+
+[2]
+
+**Q11** [2 marks]
+
+**Extract:**
+
+Fig. 1.2 shows an electric motor which is used to lift and lower heavy loads. Initially, the load is on the ground. Fig. 1.3 shows the variation of the displacement s of the load with time t.
+
+(i) The variation of the velocity of the load from t = 0 to 4.0 s is: t = 0 to 2.0 s: magnitude 0.4 m s^−1, direction upwards/positive; t = 2.0 to 3.5 s: magnitude 0, direction none; t = 3.5 to 4.0 s: magnitude 0.8 m s^−1, direction downwards/negative.
+
+From the displacement-time graph, at t = 4.0 s the load has fallen from 0.8 m to 0.4 m (s = 0.40 m), with downwards velocity 0.8 m s^−1.
+
+As the load is lowered towards the ground, the string breaks when *t* = 4.0 s. It then falls vertically toward the ground.
+
+Calculate the velocity* *of the load just before it hits the ground.
+
+Assume air resistance is negligible.
+
+### Q12 — medium — 18 marks
+
+**Q12** [6 marks]
+
+A boy standing on a cliff shoots a pellet from his pellet gun vertically upwards. The variation of displacement *s* of the pellet with time *t* is shown in Fig. 1.1.
+
+![2-1-2a-m-2-1-motion-graph-stone-vertical-throw-displacement-cie-ial](assets/064-2-1-2a-m-2-1-motion-graph-stone-vertical-throw-d.png)
+
+(i) Determine the magnitude of the initial velocity of the pellet, at *t* = 0 s.
+
+[3]
+
+(ii) Determine the magnitude of the velocity of the pellet at *t* = 6.0 s.
+
+[2]
+
+(iii) State an assumption made in these calculations.
+
+[1]
+
+**Q12** [3 marks]
+
+**Extract:**
+
+A boy standing on a cliff shoots a pellet from his pellet gun vertically upwards. The variation of displacement s of the pellet with time t is shown in Fig. 1.1.
+(i) Determine the magnitude of the initial velocity of the pellet, at t = 0 s. → u = 24.5 m s^−1 (max height at t = 2.5 s)
+(ii) Determine the magnitude of the velocity of the pellet at t = 6.0 s. → v = 34.3 m s^−1
+
+On Fig. 1.2, sketch the variation of velocity *v* of the pellet with time *t*.
+
+Include your values from **(a) **on the axes.
+
+![2-1-2b-m-2-1-motion-graph-stone-vertical-throw-velocitycie-ial](assets/066-2-1-2b-m-2-1-motion-graph-stone-vertical-throw-v.png)
+
+**Q12** [4 marks]
+
+**Extract:**
+
+A boy standing on a cliff shoots a pellet from his pellet gun vertically upwards. The variation of displacement s of the pellet with time t is shown in Fig. 1.1.
+(i) Determine the magnitude of the initial velocity of the pellet, at t = 0 s. [u = 24.5 m s^−1]
+(ii) Determine the magnitude of the velocity of the pellet at t = 6.0 s. [v = 34.3 m s^−1]
+
+On Fig. 1.2, sketch the variation of velocity v of the pellet with time t. Include your values from (a) on the axes. The velocity-time graph is a straight line starting at 24.5 m s^−1 at t = 0, passing the time axis at t = 2.5 s (when v = 0), and reaching −34.3 m s^−1 at t = 6.0 s.
+
+Using Fig. 1.2
+
+(i) Determine the maximum height reached by the pellet.
+
+[2]
+
+(ii) Show that the final position of the pellet after 6.0 s is about 30 m below its initial position.
+
+[2]
+
+**Q12** [5 marks]
+
+**Extract:**
+
+A boy standing on a cliff shoots a pellet from his pellet gun vertically upwards.
+
+Show that the final position of the pellet after 6.0 s is about 30 m below its initial position. Final position = −29.4 m
+
+An identical pellet gun is fired horizontally off the edge of the cliff at the exact same time the other gun is fired vertically upwards. The vertically fired pellet is in motion for exactly 6.0 s before hitting the ground below the edge of the cliff.
+
+Both pellets have the same initial speed.
+
+(i) State which pellet hits the ground first.
+
+[1]
+
+(ii) Calculate the time difference between the pellets hitting the ground.
+
+[4]
+
+### Q13 — easy — 16 marks
+
+**Q13** [4 marks]
+
+State the difference between
+
+(i) distance and displacement,
+
+[2]
+
+(ii) speed and velocity.
+
+[2]
+
+**Q13** [6 marks]
+
+Complete the table in Table 1.1 to describe the features of displacement-time, velocity-time and acceleration-time graphs represent.
+
+Place a cross (✘) in any grid space which does not represent anything. Some grid spaces have been completed for you.
+
+**Table 1.1**
+
+|   | **displacement-time** | **velocity-time** | **acceleration-time** |
+|---|---|---|---|
+| gradient represents |   |   | ✘ |
+| area under curve represents |   |   |   |
+| y-intercept represents |   |   |   |
+| horizontal line represents | zero velocity |   |   |
+| straight section represents |   |   |   |
+| curved section represents |   | non-uniform acceleration |   |
+
+**Q13** [3 marks]
+
+On Fig. 1.2, sketch the variation of distance, velocity, and acceleration with time for an object moving with **constant velocity**.
+
+Take the initial position to be zero.
+
+![2-1-1c-e-2-1-motion-graphs-blank-cie-ial-sq](assets/070-2-1-1c-e-2-1-motion-graphs-blank-cie-ial-sq.png)
+
+**Fig. 1.2**
+
+**Q13** [3 marks]
+
+On Fig. 1.3, sketch the variation of distance, velocity, and acceleration with time for an object moving with **uniform acceleration**.
+
+Take the initial position to be zero.
+
+![2-1-1c-e-2-1-motion-graphs-blank-cie-ial-sq](assets/070-2-1-1c-e-2-1-motion-graphs-blank-cie-ial-sq.png)
+
+**Fig. 1.3**

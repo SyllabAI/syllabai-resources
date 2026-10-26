@@ -1,0 +1,240 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_YXWcjBnQCQp2GKTb",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/revision-notes/probability/further-probability/further-tree-diagrams",
+ "title": "Tree Diagrams with Conditional Probability",
+ "page_title": "Tree Diagrams with Conditional Probability | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "probability",
+   "further-probability",
+   "further-tree-diagrams"
+  ],
+  "section": "probability",
+  "topic": "further-probability",
+  "leaf": "further-tree-diagrams"
+ },
+ "titles": {
+  "section": "Probability",
+  "topic": "Further Probability",
+  "subtopic": "Tree Diagrams with Conditional Probability"
+ },
+ "updated_at": "2026-07-02T08:19:38.727Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_W6y75Y6JNbWxWJwR",
+   "rnl_xGWC4Rr9n2HrdBXV",
+   "rnl_7zQFWQN3WKRy2QWT",
+   "rnl_gH3dNgG6ByFkFpdc"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_qqShgKnf3SR5y4KX"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style union end style"
+  },
+  {
+   "latex": "\\cap",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∩</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "intersection"
+  },
+  {
+   "latex": "\\cap",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∩</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "intersection"
+  },
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style union end style"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "begin mathsize 16px style P left parenthesis B vertical line A right parenthesis end style",
+   "render": "$P ( B \\vert A )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis B vertical line A apostrophe right parenthesis",
+   "render": "$\\mathrm{P} ( B \\vert A ' )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "notA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"bold-italic\">n</mi><mi mathvariant=\"bold-italic\">o</mi><mi mathvariant=\"bold-italic\">t</mi><mo mathvariant=\"bold\"> </mo><mi mathvariant=\"bold-italic\">A</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style bold italic n bold italic o bold italic t bold space bold italic A end style"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis A vertical line B right parenthesis equals fraction numerator straight P left parenthesis A intersection B right parenthesis over denominator straight P left parenthesis B right parenthesis end fraction",
+   "render": "$\\mathrm{P} ( A \\vert B ) = \\frac{ \\mathrm{P} ( A \\cap B )}{ \\mathrm{P} ( B )}$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "P(B)=P(A\\capB)+P(A'\\capB)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>+</mo><mi>P</mi><mo>(</mo><mi>A</mi><mo>'</mo><mo>∩</mo><mi>B</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis B right parenthesis equals P left parenthesis A intersection B right parenthesis plus P left parenthesis A apostrophe intersection B right parenthesis"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "bold P bold left parenthesis bold italic A bold vertical line bold italic B bold right parenthesis bold equals fraction numerator bold P bold left parenthesis bold A bold intersection bold B bold right parenthesis over denominator bold P bold left parenthesis bold A bold intersection bold B bold right parenthesis bold plus bold P bold left parenthesis bold A bold apostrophe bold intersection bold B bold right parenthesis end fraction",
+   "render": "$P ( A \\vert B ) = \\frac{P ( A \\cap B )}{P ( A \\cap B ) + P ( A ' \\cap B )}$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "F",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "F"
+  },
+  {
+   "latex": "W",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "W"
+  },
+  {
+   "latex": "F",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "F"
+  },
+  {
+   "latex": "F",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "F"
+  },
+  {
+   "latex": "W",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "W"
+  },
+  {
+   "latex": "P(F'\\capW)=0.15",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>(</mo><mi>F</mi><mo>'</mo><mo>∩</mo><mi>W</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>15</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis F apostrophe intersection W right parenthesis equals 0.15"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis W vertical line F apostrophe right parenthesis",
+   "render": "$\\mathrm{P} ( W \\vert F ' )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis F vertical line W apostrophe right parenthesis",
+   "render": "$\\mathrm{P} ( F \\vert W ' )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "F",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>F</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "F"
+  },
+  {
+   "latex": "W",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>W</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "W"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 20
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_qqShgKnf3SR5y4KX",
+   "name": "Further Tree Diagrams",
+   "definition": "",
+   "video_id": "846146105"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Further Tree Diagrams"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What do you mean by further tree diagrams?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The tree diagrams used here are no more complicated than those in the first **Tree Diagrams **revision note, however\n\n  - questions may use **set** **notation** as well, or alongside contextual questions $\\cup$(**union**),  $\\cap$(**intersection**) , ‘ (**complement**), | (\"**given that**\")\n  - more detailed use of **conditional** **probability**\n  - three ***events*** for each ***experiment ***and three experiments could be used"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-3-2-cie-fig0-three-tree.png",
+   "file": "assets/133413a6b954-2-3-2-cie-fig0-three-tree.png",
+   "alt": "2-3-2-cie-fig0-three-tree",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I solve conditional probability problems using tree diagrams?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Interpreting questions in terms of **AND** ($\\cap$), **OR** ($\\cup$),** complement** ( ‘ ) and **“given that”** ( | )\n- **Condition probability** may now be involved too\n- This makes it harder to know where to start and how to complete the probabilities on a tree diagram\n\n  - e.g. If given, possibly in words, $P ( B \\vert A )$ then **event *****A*** has already occurred so start by looking for the branch **event *****A*** in the **1**<sup>**st**</sup>** experiment, **and** **then P(B | A)  would be the** **branch** **for** event *****B*** in the **2**<sup>**nd**</sup> **experiment**"
+  },
+  {
+   "type": "paragraph",
+   "md": "Similarly, $\\mathrm{P} ( B \\vert A ' )$ would require starting with **event “**$notA$ **”** in the **1**<sup>**st**</sup>** experiment** and **event *****B*** in the **2**<sup>**nd**</sup>** experiment**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-2-3-fig1-tree-setup.png",
+   "file": "assets/f278c6edbc9d-3-2-3-fig1-tree-setup.png",
+   "alt": "3-2-3-fig1-tree-setup",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- The diagram above gives rise to some probability formulae you will see in Probability Formulae\n- `Error converting from MathML to accessible text.` (“**given** **that**”) is the probability on the branch of the 2<sup>nd</sup> experiment\n- However, the “**given** **that**” statement `Error converting from MathML to accessible text.` is more complicated and a matter of working backwards\n\n  - from Conditional Probability,  $\\mathrm{P} ( A \\vert B ) = \\frac{ \\mathrm{P} ( A \\cap B )}{ \\mathrm{P} ( B )}$\n  - from the diagram above, $P(B)=P(A\\capB)+P(A'\\capB)$\n  - leading to ** **$P ( A \\vert B ) = \\frac{P ( A \\cap B )}{P ( A \\cap B ) + P ( A ' \\cap B )}$\n  - This is quite a complicated looking formula to try to remember so use the logical steps instead – and a clearly labelled tree diagram!"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The event $F$ has a 75% probability of occurring.\n\nThe event $W$ follows event $F$, and if event $F$ has occurred, event $W$ has an 80% chance of occurring.\n\nIt is also known that $P(F'\\capW)=0.15$ .\n\nFind\n\n(i) $\\mathrm{P} ( W \\vert F ' )$\n\n(ii) $\\mathrm{P} ( F \\vert W ' )$\n\n(iii) the probability that event $F$ didn’t occur, given that event $W$ didn’t occur.\n\n**Answer:**\n\n![3-2-3-fig2-we-solution-part-1.png](assets/7c2da6acfd18-25492-3-2-3-fig2-we-solution-part-1.png)\n\n![3-2-3-fig2-we-solution-part-2](assets/536b25b8f961-62278-2acefam-3-2-3-fig2-we-solution-part-2.png)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Be wary of assuming that “given that” statements will always be referring to something on the second set of branches (2<sup>nd</sup> experiment), they can work the other way!"
+  }
+ ]
+}

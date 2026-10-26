@@ -1,6 +1,6 @@
 # Exam Questions — Linear Momentum & its Conservation
 **3. Dynamics** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 34 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 46 questions across 2 sets
 
 
 ## Multiple Choice Questions (34 questions)
@@ -360,3 +360,657 @@ An ice-hockey puck slides along a horizontal, frictionless ice-rink surface. It 
 Which graph shows the variation with time *t* of the momentum *p* of the puck?
 
 ![cie-ial-physics-mcq-3-2-q29](assets/032-cie-ial-physics-mcq-3-2-q29.png)
+
+## Structured Questions (12 questions)
+
+
+### Q1 — medium — 6 marks
+
+**Q1** [2 marks]
+
+State the principle of conservation of momentum.
+
+**Q1** [4 marks]
+
+Two spheres, A and B, are moving in a straight line on a smooth horizontal surface. Sphere A has a mass of 0.30 kg and a velocity of 5.0 m s<sup>−1</sup>. Sphere B has a mass of 0.20 kg and a velocity of 2.0 m s<sup>−1</sup>. Both spheres move in the same direction, as shown in Fig. 3.1.
+
+![Two spheres move to the right before and after a collision. Before: sphere A has mass 0.30 kilograms and velocity 5 metres per second; sphere B has mass 0.20 kilograms and velocity 2 m/s metres per second. After: A has velocity 2.6 metres per second and B has velocity v.](assets/033-two-spheres-move-to-the-right-before-and-after-a.png)
+
+**Fig. 3.1**
+
+Sphere A collides with sphere B. After the collision, sphere A continues to move in the same direction with a velocity of 2.6 m s<sup>−1</sup>.
+
+(i) Calculate the velocity $v$ of sphere B after the collision.
+
+[2]
+
+(ii) By calculation of kinetic energies, state and explain whether the collision of the spheres is inelastic or perfectly elastic.
+
+[2]
+
+### Q2 — easy — 9 marks
+
+**Q2** [2 marks]
+
+State the difference between an elastic and an inelastic collision.
+
+**Q2** [2 marks]
+
+A ball collides with a wall at a velocity of 35 m s<sup>−1</sup> and rebounds with velocity *v*. The ball has a mass of 0.025 kg.
+
+The motion of the ball is shown in Fig. 1.1.
+
+![3-2-3b-e-momentum-ball-rebound-cie-ial-sq](assets/034-3-2-3b-e-momentum-ball-rebound-cie-ial-sq.png)
+
+**Fig. 1.1**
+
+Calculate the momentum of the ball at the start, before it hits the wall.
+
+**Q2** [3 marks]
+
+**Extract:**
+
+A ball collides with a wall at a velocity of 35 m s^−1^ and rebounds with velocity *v*. The ball has a mass of 0.025 kg. The motion of the ball is shown in Fig. 1.1. Calculate the momentum of the ball at the start, before it hits the wall: Momentum: p = m v = 0.025 × 35 = 0.875 = 0.88 kg m s^−1^
+
+The collision is perfectly elastic.
+
+Determine
+
+(i) the rebound velocity of the ball
+
+[1]
+
+(ii) the magnitude of the change in momentum of the ball.
+
+[2]
+
+**Q2** [2 marks]
+
+**Extract:**
+
+A ball collides with a wall at a velocity of 35 m s^−1^ and rebounds with velocity v. The ball has a mass of 0.025 kg.
+
+The collision is perfectly elastic.
+
+Magnitude of the change in momentum of the ball: Δp = 1.75 = 1.8 kg m s^−1^
+
+The ball is in contact with the wall for 0.1 s.
+
+Calculate the force exerted on the ball by the wall.
+
+### Q3 — hard — 22 marks
+
+**Q3** [3 marks]
+
+A stationary firework explodes into three different fragments that move in a horizontal plane. Fig. 1.1. shows the masses and velocities of the fragments A, B and C in terms of *M* and *v*.
+
+![3-2-1a-h-momentum-explosion-unequal-fragments-cie-ial-sq](assets/035-3-2-1a-h-momentum-explosion-unequal-fragments-ci.png)
+
+**Fig. 1.1**
+
+Use the principle of conservation of momentum to determine the speed $v_{B}$ of fragment B in terms of *v*.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+A stationary firework explodes into three different fragments that move in a horizontal plane. Fig. 1.1. shows the masses and velocities of the fragments A, B and C in terms of *M* and *v*. Use the principle of conservation of momentum to determine the speed v_B of fragment B in terms of v. [v_B = 3.6v]
+
+Use the principle of conservation of momentum to determine the angle *θ*.
+
+**Q3** [4 marks]
+
+Another stationary firework explodes into four fragments which travel in different directions in a horizontal plane.
+
+Fig. 1.2 shows the velocity and mass of each fragment.
+
+![3-2-1c-h-momentum-explosion-four-unequal-fragments-cie-ial-sqa](assets/036-3-2-1c-h-momentum-explosion-four-unequal-fragmen.png)
+
+**Fig. 1.2**
+
+Apply the principle of conservation of momentum to determine
+
+(i) the velocity $v_{2}$
+
+[2]
+
+(ii) the mass $m_{3}$
+
+[2]
+
+**Q3** [4 marks]
+
+**Extract:**
+
+A stationary firework explodes into three different fragments that move in a horizontal plane. Fig. 1.1. shows the masses and velocities of the fragments A, B and C in terms of M and v. Fragment A: mass = 3/2 M, velocity = 1.2v. Fragment C: mass = 5/2 M, velocity = 0.6v. From part (a), the speed of fragment B is vB = 3.6v (mass = 1/2 M).
+
+From part (b), the angle θ = 65°.
+
+Another stationary firework explodes into four fragments which travel in different directions in a horizontal plane. Fig. 1.2 shows the velocity and mass of each fragment. Fragment (1): mass = 20 g, velocity = 260 m s^−1; Fragment (2): mass = 12 g, velocity = 800 m s^−1; Fragment (3): mass = 26 g, velocity = 200 m s^−1; Fragment (4): mass = 32 g, velocity = 300 m s^−1.
+
+Both fireworks have the same initial mass and release the same amount of kinetic energy.
+
+Calculate
+
+(i) the value of *M*
+
+[1]
+
+(ii) the magnitude of *v*.
+
+[3]
+
+**Q3** [8 marks]
+
+A firework similar to the one in **(c)** explodes into four fragments.
+
+Fig. 1.3 shows the velocity and mass of each fragment.
+
+![3-2-1c-h-momentum-explosion-four-unequal-fragments-cie-ial-sq](assets/037-3-2-1c-h-momentum-explosion-four-unequal-fragmen.png)
+
+**Fig. 1.3**
+
+(i) By applying the principle of conservation of momentum, show that
+
+$\frac{m_{1}}{m_{2}}=\frac{v_{3}}{v_{4}}=\frac{3}{5}$
+
+$\frac{m_{3}}{m_{4}}=\frac{v_{1}}{v_{2}}=\frac{2}{3}$
+
+[6]
+
+(ii) Hence, determine the values of $m_{2}$, $v_{2}$, $m_{3}$ and $v_{3}$.
+
+[2]
+
+### Q4 — hard — 13 marks
+
+**Q4** [2 marks]
+
+A body of mass $M$ and moving with velocity $V$ explodes into three equal fragments each of mass $\frac{M}{3}$, as shown in Fig. 1.1.
+
+![3-2-3a-h-momentum-explosion-equal-fragments-cie-ial-sq](assets/041-3-2-3a-h-momentum-explosion-equal-fragments-cie-.png)
+
+**Fig. 1.1**
+
+Fragment 2 continues to move along the horizontal plane with velocity $v_{2}$, while fragments 1 and 3 move off at an angle of 60° to the horizontal with velocities $v_{1}$ and $v_{3}$ respectively, as shown.
+
+By applying the principle of conservation of momentum in the vertical plane, show that  $v_{1}=v_{3}$
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A body of mass \$\$M\$\$ and moving with velocity \$\$V\$\$ explodes into three equal fragments each of mass \$\$\frac{M}{3}\$\$, as shown in Fig. 1.1. Fragment 2 continues to move along the horizontal plane with velocity \$\$v_{2}\$\$, while fragments 1 and 3 move off at an angle of 60° to the horizontal with velocities \$\$v_{1}\$\$ and \$\$v_{3}\$\$ respectively, as shown. By applying the principle of conservation of momentum in the vertical plane, show that \$\$v_{1} = v_{3}\$\$
+
+By applying conservation of momentum in the horizontal plane, show that  $3 V = ( v_{1} + v_{2} )$
+
+**Q4** [4 marks]
+
+**Extract:**
+
+A body of mass \$\$M\$\$ and moving with velocity \$\$V\$\$ explodes into three equal fragments each of mass \$\$\frac{M}{3}\$\$, as shown in Fig. 1.1. Fragment 2 continues to move along the horizontal plane with velocity \$\$v_{2}\$\$, while fragments 1 and 3 move off at an angle of 60° to the horizontal with velocities \$\$v_{1}\$\$ and \$\$v_{3}\$\$ respectively.
+By applying conservation of momentum in the horizontal plane, show that \$\$3 V = \left(v_{1} + v_{2}\right)\$\$
+
+The ratio of the kinetic energy of fragment 1 to mass *M* is
+
+$\frac{kineticenergyoffragment1}{kineticenergyofmassM}=\frac{4}{3}$
+
+Express velocities $v_{1}$ and $v_{2}$ in terms of the velocity $V$ of mass $M$.
+
+**Q4** [4 marks]
+
+**Extract:**
+
+A body of mass \$\$M\$\$ and moving with velocity \$\$V\$\$ explodes into three equal fragments each of mass \$\$\frac{M}{3}\$\$, as shown in Fig. 1.1. Fragment 2 continues to move along the horizontal plane with velocity \$\$v_{2}\$\$, while fragments 1 and 3 move off at an angle of 60° to the horizontal with velocities \$\$v_{1}\$\$ and \$\$v_{3}\$\$ respectively.
+The ratio of the kinetic energy of fragment 1 to mass *M* is \$\$\frac{kinetic energy of fragment 1}{kinetic energy of mass M} = \frac{4}{3}\$\$. Express velocities \$\$v_{1}\$\$ and \$\$v_{2}\$\$ in terms of the velocity \$\$V\$\$ of mass \$\$M\$\$. Results: \$\$KE_i = \frac{1}{2}MV^2\$\$, \$\$v_1 = 2V\$\$, \$\$v_2 = V\$\$, and \$\$v_1 = v_3\$\$.
+
+(i) Determine the total kinetic energy transferred to the fragments.
+
+[3]
+
+(ii) Suggest why the total kinetic energy of the fragments is greater than the initial kinetic energy of the original mass.
+
+[1]
+
+### Q5 — medium — 13 marks
+
+**Q5** [3 marks]
+
+Two identical blocks A and B each of mass 400 g are travelling towards each other along a straight line through their centre, as shown in Fig. 1.1.
+
+![3-2-2a-m-3-2-momentum-blocks-same-speed-cie-ial-sq](assets/042-3-2-2a-m-3-2-momentum-blocks-same-speed-cie-ial-.png)
+
+Both blocks are moving at a speed of 0.36 m s<sup>–1</sup> relative to the surface.
+
+As a result of the collision, the blocks reverse their direction of motion and travel at the same speed as each other. During the collision, 33% of the kinetic energy of the blocks is transferred to the surroundings as thermal energy.
+
+(i) State the total momentum of the blocks before the collision.
+
+[1]
+
+(ii) State and explain whether the collision is elastic or inelastic.
+
+[2]
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Two identical blocks A and B each of mass 400 g are travelling towards each other along a straight line through their centre. Both blocks are moving at a speed of 0.36 m s^–1^ relative to the surface. As a result of the collision, the blocks reverse their direction of motion and travel at the same speed as each other. During the collision, 33% of the kinetic energy of the blocks is transferred to the surroundings as thermal energy.
+
+Calculate the final speed of the blocks.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Two identical blocks A and B each of mass 400 g are travelling towards each other along a straight line through their centre. Both blocks are moving at a speed of 0.36 m s^–1 relative to the surface. As a result of the collision, the blocks reverse their direction of motion and travel at the same speed as each other. During the collision, 33% of the kinetic energy of the blocks is transferred to the surroundings as thermal energy.
+Calculate the final speed of the blocks: v = 0.2947 = 0.29 m s^–1
+
+The duration of the collision between the blocks is 750 ms.
+
+Determine the average force exerted by one block on the other.
+
+**Q5** [4 marks]
+
+**Extract:**
+
+Two identical blocks A and B each of mass 400 g are travelling towards each other along a straight line through their centre, as shown in Fig. 1.1.
+
+The same blocks are investigated with different initial speeds. Block A is launched towards B at a speed of 0.6 m s<sup>−1</sup> and B is launched towards A at a speed of 0.4 m s<sup>−1</sup>.
+
+Once the blocks collide, they stick together and move as one after the collision.
+
+Determine the speed of the combined blocks after the collision and state the direction.
+
+### Q6 — medium — 13 marks
+
+**Q6** [3 marks]
+
+A ball X of mass 140 g travelling at constant velocity *v* collides head-on with a stationary ball Y of mass 620 g, as shown in Fig. 1.1.
+
+![3-2-1a-m-3-2-ball-x-y-conservation-of-momentum-cie-ial-sq](assets/044-3-2-1a-m-3-2-ball-x-y-conservation-of-momentum-c.png)
+
+After the collision, ball X comes to a stop. Ball Y moves off in the same initial direction as X with a velocity of 0.8 m s<sup>−1</sup>.
+
+Determine the velocity *v* of ball X before the collision.
+
+**Q6** [4 marks]
+
+**Extract:**
+
+A ball X of mass 140 g travelling at constant velocity v collides head-on with a stationary ball Y of mass 620 g. After the collision, ball X comes to a stop. Ball Y moves off in the same initial direction as X with a velocity of 0.8 m s^−1. [Determined in (a): velocity v of ball X before the collision = 3.5 m s^−1]
+
+(i) Show that the collision in **(a)** is inelastic.
+
+[3]
+
+(ii) Explain why the collision in **(a)** is inelastic.
+
+[1]
+
+**Q6** [3 marks]
+
+The balls are replaced by an aluminium sphere of mass 2.7 kg and a steel sphere of 7.9 kg as shown in Fig. 1.2.
+
+The aluminium sphere has an initial velocity of 10.0 m s<sup>–1</sup> when it collides with the stationary steel sphere. Immediately after the collision, the velocity of the steel sphere is 5.1 m s<sup>–1</sup>.
+
+![3-2-1c-m-3-2-metal-spheres-conservation-of-momentum-cie-ial-sq](assets/045-3-2-1c-m-3-2-metal-spheres-conservation-of-momen.png)
+
+Calculate the velocity *v* of the aluminium sphere immediately after the collision.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+The balls are replaced by an aluminium sphere of mass 2.7 kg and a steel sphere of 7.9 kg. The aluminium sphere has an initial velocity of 10.0 m s^–1 when it collides with the stationary steel sphere. Immediately after the collision, the velocity of the steel sphere is 5.1 m s^–1.
+
+Calculate the velocity v of the aluminium sphere immediately after the collision.
+
+v = −4.922 = −4.9 m s^−1
+
+Verify that the collision in **(c)** is elastic.
+
+### Q7 — easy — 10 marks
+
+**Q7** [2 marks]
+
+**Extract:**
+
+When marking this answer:
+
+- "Closed system" alone does not earn the second mark: the condition must state that no (resultant) external force acts, or that the system is isolated
+- The first mark needs the total (sum) of the momenta, not the momentum of a single object
+
+State the principle of conservation of linear momentum.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+Question stem:
+
+- Pellet mass 20 g, momentum 1.2 kg m s<sup>-1</sup>
+
+---
+
+When marking this answer:
+
+- A correct final answer of 60 m s<sup>-1</sup> with no working scores both marks
+- An answer of 0.06 m s<sup>-1</sup> (mass left in grams) scores no marks
+
+A pellet of mass $20 \text{g}$ is fired from an air rifle with a momentum of $1 . 2 \text{kg m s}^{-1}$.
+
+Calculate the velocity of the pellet just after the rifle is fired.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+Question stem:
+
+- Pellet mass 20 g, momentum of the pellet 1.2 kg m s<sup>-1</sup>
+
+---
+
+When marking this answer:
+
+- In part (i), accept 0, zero or 0 kg m s<sup>-1</sup>
+- In part (ii), a bare 1.2 kg m s<sup>-1</sup> with no sign and no stated direction earns the mark: the word "recoil" in the question supplies the direction
+- In part (ii), also accept -1.2 kg m s<sup>-1</sup>, or 1.2 kg m s<sup>-1</sup> in the opposite direction to the pellet (backwards)
+- In part (ii), 1.2 kg m s<sup>-1</sup> stated to be in the same direction as the pellet does not earn the mark
+
+Use the principle of conservation of momentum to state:
+
+(i) the total momentum of the air rifle and the pellet
+
+[1]
+
+(ii) the recoil momentum of the air rifle.
+
+[1]
+
+**Q7** [4 marks]
+
+**Extract:**
+
+Question stem:
+
+- Pellet mass 20 g, momentum 1.2 kg m s<sup>-1</sup>
+- The pellet becomes embedded in a target and comes to rest in 0.0025 s
+
+---
+
+When marking this answer:
+
+- In part (i), accept the relation as a word equation or as F = ∆p / ∆t or F = m(v - u) / t
+- In part (ii), a correct final answer of 480 N with no working scores all three marks
+
+The pellet hits a target. It becomes embedded and takes $0 . 0025 \text{s}$ to come to rest.
+
+(i) State the relation between force and momentum.
+
+[1]
+
+(ii) Calculate the average force needed to stop the pellet.
+
+[3]
+
+### Q8 — medium — 10 marks
+
+**Q8** [2 marks]
+
+Ball X has a mass of 50 g and is supported by a long string, as shown in Fig. 1.1.
+
+![cie-ial-3-2-q4a-conservation-of-momentum-ball-and-wall](assets/046-cie-ial-3-2-q4a-conservation-of-momentum-ball-an.png)
+
+**Fig. 1.1**
+
+The ball is pulled back and released. The ball collides normally with a flat surface at a velocity of 4.5 m s<sup>−1</sup> and rebounds elastically.
+
+The positive direction is horizontal and to the right.
+
+Determine the total change in momentum of ball X.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+Ball X has a mass of 50 g and is supported by a long string, as shown in Fig. 1.1. The ball is pulled back and released. The ball collides normally with a flat surface at a velocity of 4.5 m s^−1^ and rebounds elastically. The positive direction is horizontal and to the right.
+
+Ball X is hung next to ball Y which is supported by a string of the same length, as shown in Fig. 1.2.
+
+![cie-ial-3-2-q4b-conservation-of-momentum-two-balls](assets/047-cie-ial-3-2-q4b-conservation-of-momentum-two-bal.png)
+
+**Fig. 1.2**
+
+Ball Y has a mass of 125 g.
+
+The balls are each pulled back and pushed towards each other. When the balls collide, the strings are vertical. The balls rebound in opposite directions.
+
+The velocities of X and Y just before and just after the collision are shown in Fig. 1.2.
+
+Use the conservation of linear momentum to determine the rebound velocity $v$ of Y.
+
+**Q8** [2 marks]
+
+**Extract:**
+
+Ball X is hung next to ball Y which is supported by a string of the same length. Ball X has mass 50 g, Ball Y has a mass of 125 g. The balls are each pulled back and pushed towards each other. When the balls collide, the strings are vertical. The balls rebound in opposite directions.
+
+Initial velocity of X, u_X = 4.5 m s^−1; Final velocity of X, v_X = −2.8 m s^−1; Initial velocity of Y, u_Y = −2.2 m s^−1; Final velocity of Y, v_Y = 0.7 m s^−1 (from (b))
+
+Deduce whether the collision in **(b)** is elastic or inelastic.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+Ball X is hung next to ball Y which is supported by a string of the same length, as shown in Fig. 1.2. Ball Y has a mass of 125 g. The balls are each pulled back and pushed towards each other. When the balls collide, the strings are vertical. The balls rebound in opposite directions. The velocities of X and Y just before and just after the collision are shown in Fig. 1.2.
+
+Use Newton’s laws to explain why the magnitude of the change in momentum of each ball is the same.
+
+### Q9 — hard — 18 marks
+
+**Q9** [4 marks]
+
+A pellet of mass 2.7 g is fired into a stationary block of mass 540 g suspended from a rigid support as shown in Fig. 1.1.
+
+The pellet becomes completely embedded in the block. The block can swing freely at the end of a light inextensible string of length 1.5 m measured from the pivot to the centre of the block.
+
+![qu-5b-figure-2](assets/048-qu-5b-figure-2.png)
+
+**Fig. 1.1**
+
+The centre of mass of the block rises by a height *h* at an angle of 35° to the vertical.
+
+Determine the velocity of the pellet and the block immediately after the pellet is embedded.
+
+**Q9** [3 marks]
+
+**Extract:**
+
+A pellet of mass 2.7 g is fired into a stationary block of mass 540 g suspended from a rigid support as shown in Fig. 1.1. The pellet becomes completely embedded in the block. The block can swing freely at the end of a light inextensible string of length 1.5 m measured from the pivot to the centre of the block. The centre of mass of the block rises by a height h at an angle of 35° to the vertical. Determine the velocity of the pellet and the block immediately after the pellet is embedded.
+Initial speed of pellet and block: u = 2.306 = 2.3 m s^−1 (from (a))
+
+Calculate the velocity of the pellet just before it strikes the block.
+
+**Q9** [6 marks]
+
+**Extract:**
+
+A pellet of mass 2.7 g is fired into a stationary block of mass 540 g suspended from a rigid support as shown in Fig. 1.1. The pellet becomes completely embedded in the block. The block can swing freely at the end of a light inextensible string of length 1.5 m measured from the pivot to the centre of the block. The centre of mass of the block rises by a height h at an angle of 35° to the vertical.
+
+The block is replaced by a metal block of the same mass. The experiment is repeated with the wooden block and an identical pellet. The pellet rebounds after striking the block.
+
+A student makes an assumption that the angle that the metal block makes with the vertical will be greater than 35° because the block doesn’t have the additional mass of the pellet embedded within it.
+
+Discuss the validity of the student's assumptions.
+
+**Q9** [5 marks]
+
+A popular demonstration of the conservation of momentum and conservation of energy is Newton’s cradle. It features several identical polished steel balls hung in a straight line in contact with each other, as shown in Fig. 1.2.
+
+If one ball is pulled back and allowed to strike the line, one ball is released from the other end whilst the rest are stationary. If two are pulled out, two are released on the other end and so forth.
+
+![qu-5a-figure-1](assets/050-qu-5a-figure-1.png)
+
+**Fig. 1.2**
+
+Explain why swinging one ball from the left will not release two balls on the right.
+
+Assume that the demonstration takes place in a vacuum.
+
+### Q10 — medium — 13 marks
+
+**Q10** [4 marks]
+
+A fast-moving asteroid B collides with a slower-moving asteroid A as shown in Fig. 1.1. Asteroid B becomes embedded within asteroid A as shown.
+
+![3-2-3a-m-3-2-linear-momentum-asteroid-collision-cie-ial-sq](assets/051-3-2-3a-m-3-2-linear-momentum-asteroid-collision-.png)
+
+Before the collision, asteroid A had a velocity of 3.61 km s<sup>−1</sup> and a momentum of 2.00 × 10<sup>17</sup> kg m s<sup>−1</sup>.
+
+(i) State the principle of conservation of linear momentum.
+
+[2]
+
+(ii) Show that the mass of asteroid A was about 5.5 × 10<sup>13</sup> kg.
+
+[2]
+
+**Q10** [3 marks]
+
+**Extract:**
+
+A fast-moving asteroid B collides with a slower-moving asteroid A as shown in Fig. 1.1. Asteroid B becomes embedded within asteroid A as shown.
+
+Before the collision, asteroid A had a velocity of 3.61 km s^−1^ and a momentum of 2.00 × 10^17^ kg m s^−1^.
+
+(ii) Show that the mass of asteroid A was about 5.5 × 10^13^ kg. (m_A = 5.54 × 10^13 kg)
+
+Calculate the combined velocity, in km s<sup>−1</sup>, of the asteroids after the collision.
+
+mass of asteroid B = 6.40 × 10<sup>12</sup> kg
+
+velocity of asteroid B before the collision = 14.0 km s<sup>−1</sup>
+
+**Q10** [3 marks]
+
+**Extract:**
+
+(a)(ii) Show that the mass of asteroid A was about 5.5 × 10^13 kg: Velocity of A = 3.61 km s^−1 = 3.61 × 10^3 m s^−1; Momentum of A = 2.00 × 10^17 kg m s^−1; m_A = (2.00 × 10^17)/(3.61 × 10^3) = 5.54 × 10^13 kg.
+
+(b) Calculate the combined velocity, in km s^−1, of the asteroids after the collision. mass of asteroid B = 6.40 × 10^12 kg; velocity of asteroid B before the collision = 14.0 km s^−1. v = [(2.00 × 10^17) + (6.40 × 10^12 × 14.0 × 10^3)] / [(5.54 × 10^13) + (6.40 × 10^12)] = 4.69 km s^−1 (3 s.f.).
+
+A short time later, the combined asteroid AB collides with a stationary asteroid C. Immediately following the collision, the asteroids are deflected by the angles shown in Fig. 1.2.
+
+![Asteroid AB travels at 2.6 kilometres per second at an 8-degree angle to the initial direction of AB, and asteroid C travels at 6.5 kilometres per second at a 10-degree angle to the initial direction of AB.](assets/052-asteroid-ab-travels-at-2-6-kilometres-per-second.png)
+
+Show that the mass of asteroid C is about 2.0 × 10<sup>13</sup> kg.
+
+**Q10** [3 marks]
+
+**Extract:**
+
+A short time later, the combined asteroid AB collides with a stationary asteroid C. Immediately following the collision, the asteroids are deflected by the angles shown in Fig. 1.2. Asteroid AB travels at 2.6 kilometres per second at an 8-degree angle to the initial direction of AB, and asteroid C travels at 6.5 kilometres per second at a 10-degree angle to the initial direction of AB. Show that the mass of asteroid C is about 2.0 × 10^13 kg (m_C = 2.04 × 10^13 kg). Mass of asteroid AB, m_AB = (6.4 × 10^12) + (5.54 × 10^13) = 6.18 × 10^13 kg. Initial velocity of asteroid AB, u_AB = 4.69 km s^−1.
+
+Determine if the collision in **(c)** is elastic or inelastic.
+
+### Q11 — easy — 11 marks
+
+**Q11** [3 marks]
+
+A collision can be described as being elastic or inelastic when there are no external forces acting on the collision.
+
+In Table 1.1, place a tick (✓) next to the quantities that are conserved in each type of collision
+
+**Table 1.1**
+
+| **Quantity** | **Elastic Collision** | **Inelastic Collision** |
+|---|---|---|
+| Momentum |   |   |
+| Total Energy |   |   |
+| Kinetic Energy |   |   |
+
+**Q11** [3 marks]
+
+A trolley **X** with mass of 400 g is moving on a track with a velocity of 1.2 m s<sup>−1</sup> towards a stationary trolley **Y** with mass of 800 g as shown in Fig. 1.1.
+
+![3-2-2b-e-momentum-trolley-collision-cie-ial-sq](assets/054-3-2-2b-e-momentum-trolley-collision-cie-ial-sq.png)
+
+**Fig. 1.1**
+
+(i) Calculate the initial momentum of trolley **X**.
+
+[2]
+
+(ii) Trolley **X** collides with trolley **Y** and subsequently, they stick together.
+
+State the combined momentum of the trolleys after the collision.
+
+[1]
+
+**Q11** [4 marks]
+
+**Extract:**
+
+A trolley X with mass of 400 g is moving on a track with a velocity of 1.2 m s^−1^ towards a stationary trolley Y with mass of 800 g as shown in Fig. 1.1.
+(i) Calculate the initial momentum of trolley X. Momentum before: p = 0.48 kg m s^−1^
+(ii) Trolley X collides with trolley Y and subsequently, they stick together. State the combined momentum of the trolleys after the collision. Momentum after: p = 0.48 kg m s^−1^
+
+(i) Calculate the velocity of the two trucks after the collision.
+
+[3]
+
+(ii) State the direction of the velocity of the trolleys after the collision.
+
+[1]
+
+**Q11** [1 mark]
+
+**Extract:**
+
+A trolley X with mass of 400 g is moving on a track with a velocity of 1.2 m s^−1^ towards a stationary trolley Y with mass of 800 g. Trolley X collides with trolley Y and subsequently, they stick together.
+
+(i) Calculate the velocity of the two trucks after the collision: Velocity after: v = 0.48/1.2 = 0.4 m s^−1^
+
+Explain why the collision cannot be described as elastic.
+
+### Q12 — medium — 10 marks
+
+**Q12** [2 marks]
+
+A bullet of mass 30 g is fired from the barrel of a rifle of mass 1.9 kg. Immediately after being fired, the bullet has a momentum of 36 kg m s<sup>−1</sup>.
+
+State the total momentum of the rifle and the bullet before the rifle is fired and give a reason for your answer.
+
+**Q12** [2 marks]
+
+**Extract:**
+
+A bullet of mass 30 g is fired from the barrel of a rifle of mass 1.9 kg. Immediately after being fired, the bullet has a momentum of 36 kg m s^−1^.
+
+Calculate the velocity of the bullet just after the rifle is fired.
+
+**Q12** [3 marks]
+
+**Extract:**
+
+A bullet of mass 30 g is fired from the barrel of a rifle of mass 1.9 kg. Immediately after being fired, the bullet has a momentum of 36 kg m s^−1^. State the total momentum of the rifle and the bullet before the rifle is fired and give a reason for your answer. [Answer: The total momentum of the rifle and the bullet before being fired is zero / 0 kg m s^−1^ because before the rifle is fired both rifle and bullet are stationary / velocity = 0.]
+
+(i) Using the principle of conservation of momentum, and your answer to part (a), determine the total momentum of the rifle and the bullet.
+
+[1]
+
+(ii) Calculate the recoil momentum of the rifle.
+
+[2]
+
+**Q12** [3 marks]
+
+The bullet has a momentum of 9.8 kg m s<sup>−1</sup> just before it hits a target.
+
+It takes 4.5 ms for the bullet to be stopped by the target.
+
+Calculate the average force needed to stop the bullet.

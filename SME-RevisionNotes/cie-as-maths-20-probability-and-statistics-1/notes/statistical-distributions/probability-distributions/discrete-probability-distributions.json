@@ -1,0 +1,299 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_x3zNdgRYnqXxcZdj",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/revision-notes/statistical-distributions/probability-distributions/discrete-probability-distributions",
+ "title": "Discrete Probability Distributions",
+ "page_title": "Discrete Probability Distributions | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "statistical-distributions",
+   "probability-distributions",
+   "discrete-probability-distributions"
+  ],
+  "section": "statistical-distributions",
+  "topic": "probability-distributions",
+  "leaf": "discrete-probability-distributions"
+ },
+ "titles": {
+  "section": "Statistical Distributions",
+  "topic": "Probability Distributions",
+  "subtopic": "Discrete Probability Distributions"
+ },
+ "updated_at": "2026-07-02T08:19:38.463Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_gSGnv2sKwsQQczJR",
+   "rnl_Y5RXx9pTnG23QhBc",
+   "rnl_JJcwTkHpvWGrmg8s",
+   "rnl_s3pt2pt9HP88qBJh"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_gNXFxJ55T59nCGk5",
+  "spcpt_Gfcm92qtDBJvFpw2",
+  "spcpt_BzMXR87dNgwF3Dfv"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "P(X=x)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X equals x right parenthesis end style"
+  },
+  {
+   "latex": "x",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>x</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "x"
+  },
+  {
+   "latex": "\\mathrm{ΣP}(X=x)=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>ΣP</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style ΣP left parenthesis X equals x right parenthesis equals 1 end style"
+  },
+  {
+   "latex": "\\sumP(X=x)=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∑</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "sum straight P left parenthesis X equals x right parenthesis equals 1"
+  },
+  {
+   "latex": "P(X=k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X equals k right parenthesis end style"
+  },
+  {
+   "latex": "P(X=k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X equals k right parenthesis end style"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>k</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style k end style"
+  },
+  {
+   "latex": "P(X=k)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>=</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X equals k right parenthesis equals 0 end style"
+  },
+  {
+   "latex": "P(X\\leqk)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>k</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X less or equal than k right parenthesis end style"
+  },
+  {
+   "latex": "x_{i}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>x</mi><mi>i</mi></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style x subscript i end style"
+  },
+  {
+   "latex": "x_{i}\\leqk",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi>x</mi><mi>i</mi></msub><mo>≤</mo><mi>k</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style x subscript i less or equal than k end style"
+  },
+  {
+   "latex": "P(X\\leqk)=\\underset{x_{i}\\leqk}{\\sum}P(X=x_{i})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>k</mi><mo>)</mo><mo>=</mo><munder><mo>∑</mo><mrow><msub><mi>x</mi><mi>i</mi></msub><mo>≤</mo><mi>k</mi></mrow></munder><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo mathvariant=\"italic\">=</mo><msub><mi>x</mi><mi>i</mi></msub><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than k right parenthesis equals sum for x subscript i less or equal than k of straight P left parenthesis X italic equals x subscript i right parenthesis"
+  },
+  {
+   "latex": "F(x)=P(X\\leqx)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">F</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>x</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight F left parenthesis x right parenthesis equals straight P left parenthesis X less or equal than x right parenthesis end style"
+  },
+  {
+   "latex": "P(X<k),P(X\\geqk)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>k</mi><mo>)</mo><mo>,</mo><mo> </mo><mi>P</mi><mo>(</mo><mi>X</mi><mo>≥</mo><mi>k</mi><mo>)</mo><mo> </mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X less than k right parenthesis comma space P left parenthesis X greater or equal than k right parenthesis space end style"
+  },
+  {
+   "latex": "P(X>k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>k</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis X greater than k right parenthesis end style"
+  },
+  {
+   "latex": "P(X<k)+P(X=k)+P(X>k)=1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&lt;</mo><mi>k</mi><mo>)</mo><mo>+</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>=</mo><mi>k</mi><mo>)</mo><mo>+</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>&gt;</mo><mi>k</mi><mo>)</mo><mo>=</mo><mn>1</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X less than k right parenthesis plus straight P left parenthesis X equals k right parenthesis plus straight P left parenthesis X greater than k right parenthesis equals 1 end style"
+  },
+  {
+   "latex": "P(X>k)=1-P(X\\leqk)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≤</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X\\geqk)=1-P(X<k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mn mathsize=\"16px\">1</mn><mo mathsize=\"16px\">-</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X^{2}<4)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><msup><mi>X</mi><mn>2</mn></msup><mo>&lt;</mo><mn>4</mn><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X squared less than 4 right parenthesis end style"
+  },
+  {
+   "latex": "P(X\\leqk)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mi>k</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style straight P left parenthesis X less or equal than k right parenthesis end style"
+  },
+  {
+   "latex": "P(X<k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&lt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X\\geqk)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">≥</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": ""
+  },
+  {
+   "latex": "P(X>k)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">X</mi><mo mathsize=\"16px\">&gt;</mo><mi mathsize=\"16px\">k</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Error converting from MathML to accessible text."
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis X equals x right parenthesis equals open curly brackets table row cell k x squared space space space space space x equals negative 3 comma negative 1 comma 2 comma 4 end cell row cell 0 space space space space space space space space space otherwise. end cell end table close",
+   "render": "$\\mathrm{P} ( X = x ) = \\{ \\begin{gathered} k x^{2} x = - 3 , - 1 , 2 , 4 \\\\ 0 otherwise. \\end{gathered} )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "k",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>k</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "k"
+  },
+  {
+   "latex": "\\frac{1}{30}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mn>1</mn><mn>30</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "1 over 30"
+  },
+  {
+   "latex": "P(X\\leq3).",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>3</mn><mo>)</mo><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X less or equal than 3 right parenthesis."
+  },
+  {
+   "latex": "P(X^{2}<5)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><msup><mi>X</mi><mn>2</mn></msup><mo>&lt;</mo><mn>5</mn><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis X squared less than 5 right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 17,
+  "figures": 1,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 28
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_gNXFxJ55T59nCGk5",
+   "name": "Discrete Random Variables",
+   "definition": null,
+   "video_id": "831834607"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Discrete Random Variables"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a discrete random variable?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A** random variable **is a variable whose value depends on the outcome of a ***random event***\n\n  - The value of the random variable is not known until the event is carried out (this is what is meant by 'random' in this case)\n- **Random variables** are denoted using **upper case letters** (X , Y , etc )\n- **Particular outcomes** of the event are denoted using **lower case letters** ( x, y, etc)\n- $P(X=x)$ means \"the probability of the random variable *X* taking the value $x$\"\n- A discrete random variable (often abbreviated to DRV) can only take **certain values** within a set\n\n  - Discrete random variables **usually count** something\n  - Discrete random variables usually can only take a finite number of values but it is possible that it can take an infinite number of values (see the examples below)\n- **Examples** of discrete random variables include:\n\n  - The number of times a coin lands on heads when flipped 20 times (this has a finite number of outcomes: 0,1,2,…,20)\n  - The number of emails a manager receives within an hour (this has an infinite number of outcomes: 1,2,3,…)\n  - The number of times a dice is rolled until it lands on a 6 (this has an infinite number of outcomes: 1,2,3,…)\n  - The number on a bingo ball when one is drawn at random (this has a finite number of outcomes: 1,2,3…,90)"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_Gfcm92qtDBJvFpw2",
+   "name": "Probability Distributions (Discrete)",
+   "definition": null,
+   "video_id": "832165405"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Probability Distributions (Discrete)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What is a probability distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A** discrete probability distribution **fully describes **all the values** that a discrete random variable can take along with their **associated probabilities**\n\n  - This can be given in a **table**\n  - Or it can be given as a **function** (called a probability mass function)\n  - They can be represented by **vertical line graphs** (the possible values for *X*  along the horizontal axis and the probability on the vertical axis)\n- The **sum of the probabilities** of **all the values** of a discrete random variable is **1**\n\n  - This is usually written $\\mathrm{ΣP}(X=x)=1$"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/4-1-1-discrete-probability-distributions-diagram-1.png",
+   "file": "assets/09235e6c1dd0-4-1-1-discrete-probability-distributions-diagram.png",
+   "alt": "4-1-1-discrete-probability-distributions-diagram-1",
+   "caption": null
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_BzMXR87dNgwF3Dfv",
+   "name": "Cumulative Probabilities (Discrete)",
+   "definition": null,
+   "video_id": "832207274"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Cumulative Probabilities (Discrete)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I calculate probabilities using a discrete probability distribution?"
+  },
+  {
+   "type": "bullets",
+   "md": "- First **draw a table** to represent the probability distribution\n\n  - If it is given as a function then find each probability\n  - If any probabilities are unknown then use algebra to represent them\n- **Form an equation** using $\\sumP(X=x)=1$\n\n  - Add together all the probabilities and make the sum equal to 1\n- To find $P(X=k)$\n\n  - If *k* is a possible value of the random variable *X*  then $P(X=k)$ will be given in the table\n  - If $k$is not a possible value then $P(X=k)=0$\n- To find $P(X\\leqk)$\n\n  - Identify all possible values, $x_{i}$, that *X* can take which satisfy $x_{i}\\leqk$\n  - Add together all their corresponding probabilities\n  - $P(X\\leqk)=\\underset{x_{i}\\leqk}{\\sum}P(X=x_{i})$\n  - Some mathematicians use the notation F(x) to represent the cumulative distribution\n  \n    - $F(x)=P(X\\leqx)$\n- Using a similar method you can find $P(X<k),P(X\\geqk)$and $P(X>k)$\n- As all the probabilities add up to 1 you can form the following equivalent equations:\n\n  - $P(X<k)+P(X=k)+P(X>k)=1$\n  - $P(X>k)=1-P(X\\leqk)$\n  - $P(X\\geqk)=1-P(X<k)$\n- To calculate more complicated probabilities such as $P(X^{2}<4)$\n\n  - Identify which values of the random variable satisfy the inequality or event in the brackets\n  - Add together the corresponding probabilities"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I know which inequality to use?"
+  },
+  {
+   "type": "bullets",
+   "md": "- $P(X\\leqk)$would be used for phrases such as:\n\n  - At most k, no greater than k, etc\n- $P(X<k)$would be used for phrases such as:\n\n  - Fewer than *k*\n- $P(X\\geqk)$would be used for phrases such as:\n\n  - At least *k*  , no fewer than *k*, etc\n- $P(X>k)$would be used for phrases such as:\n\n  - Greater than *k*, etc"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "The probability distribution of the discrete random variable  is given by the function\n\n$\\mathrm{P} ( X = x ) = \\{ \\begin{gathered} k x^{2} x = - 3 , - 1 , 2 , 4 \\\\ 0 otherwise. \\end{gathered} )$\n\n(a)     Show that  $k$ = $\\frac{1}{30}$.\n\n(b)      Calculate $P(X\\leq3).$\n\n(c) Calculate $P(X^{2}<5)$\n\n**Answer:**\n\n![4-1-1-discrete-probability-distributions-we-solution-part-1](assets/000b09b7aabb-image.bin)\n\n![4-1-1-discrete-probability-distributions-we-solution-part-2](assets/b90dfdbd9671-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Try to draw a table if there are a finite number of values that the discrete random variable can take\n- When finding a probability, it will sometimes be quicker to subtract the probabilities of the unwanted values from 1 rather than adding together the probabilities of the wanted values\n- Always make sure that the probabilities are between 0 and 1, and that they add up to 1!"
+  }
+ ]
+}

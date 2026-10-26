@@ -1,0 +1,2451 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T13:28:40Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_9vgVJq4xGVkVQ4bR",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) AS Chemistry"
+ },
+ "section": {
+  "slug": "6-electrochemistry",
+  "name": "6. Electrochemistry"
+ },
+ "topic": {
+  "id": "top_Jrn5nv8pPyVJyNKw",
+  "slug": "6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state",
+  "name": "Redox Processes: Electron Transfer & Changes in Oxidation Number (Oxidation State)",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "redox-reactions-",
+   "name": "Redox Reactions",
+   "revision_note_id": "rn_b5p8m2qrYD8HyFsb"
+  },
+  {
+   "slug": "oxidation-number-rules",
+   "name": "Oxidation Number Rules",
+   "revision_note_id": "rn_2Vc3WqMFmGtF8KN4"
+  },
+  {
+   "slug": "oxidising-and-reducing-agents",
+   "name": "Oxidising & Reducing Agents",
+   "revision_note_id": "rn_GK6nCWpFcVXqTP3Y"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_jMmXD7dhX26DNgxr",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 30,
+   "questions_embedded": 30,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/6-electrochemistry/6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_9ZgW2xBhjXtXbscM",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/6-electrochemistry/6-1-redox-processes-electron-transfer-and-changes-in-oxidation-number-oxidation-state/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 40,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/1-6-m-8a.JPG": "001-disproportionation-of-chlorine-with-cold-aqueous.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-6-m-8b.JPG": "002-disproportionation-of-chlorine-with-hot-aqueous-.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/03/3urLrHbv_redox-changes-sncl4-and-mg.png": "003-redox-diagram-of-sncl-2mg-2mgcl-2sn-showing-oxid.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/V-kDkIEM_redox-changes-sb-and-hno3.png": "004-redox-equation-showing-sb-and-hno-forming-sb-o-n.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/tetrathionate-ion.png": "005-structural-diagram-of-the-tetrathionate-ion-show.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_qsVshdzyywJ8YnGz",
+   "set_slug": "multiple-choice-questions",
+   "order": 20,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Hw7CSyHv4MkHd2Yr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows various ions containing manganese and chlorine.\n\nWhich row shows identical oxidation numbers for the central atoms of both ions?\n\n|   | manganese-containing ion | chlorine-containing ion | oxidation number of central atom |\n|---|---|---|---|\n| **A** | MnO<sub>4</sub><sup>-</sup> | ClO<sub>3</sub><sup>-</sup> | +7 |\n| **B** | MnO<sub>4</sub><sup>2-</sup> | ClO<sub>2</sub><sup>-</sup> | +6 |\n| **C** | MnO<sub>4</sub><sup>-</sup> | ClO<sub>3</sub><sup>-</sup> | +5 |\n| **D** | MnO<sub>4</sub><sup>-</sup> | ClO<sub>4</sub><sup>-</sup> | +7 |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Exam questions often ask you to identify ions that contain the same oxidation numbers\n- To do this confidently, you must apply two key rules:\n\n  - Oxygen almost always has an oxidation number of −2 (except in peroxides)\n  - The sum of all oxidation numbers in an ion must equal the overall charge of that ion\n- To find the correct match, calculate the oxidation number of the central atom in each ion\n- Oxidation numbers of manganese (Mn)\n- In MnO<sub>4</sub><sup>-</sup> (permanganate):\n\n  - Let the oxidation number of Mn be x.\n\nx + 4(−2) = −1\n\nx − 8 = −1\n\nx = +7\n\n- In MnO<sub>4</sub><sup>2-</sup> (manganate):\n\nx + 4(−2) = −2\n\nx − 8 = −2\n\nx = +6\n\n- Oxidation numbers of chlorine (Cl)\n- In ClO<sub>4</sub><sup>-</sup> (perchlorate):\n\n  - Let the oxidation number of Cl be y:\n\ny + 4(−2) = −1\n\ny − 8 = −1\n\ny = +7\n\n- In ClO<sub>3</sub><sup>-</sup> (chlorate):\n\ny + 3(−2) = −1\n\ny − 6 = −1\n\ny = +5\n\n- In ClO<sub>2</sub><sup>-</sup> (chlorite):\n\ny + 2(−2) = −1\n\ny − 4 = −1\n\ny = +3\n\n- In Row **D**, both have an oxidation number of +7\n- Manganese in MnO<sub>4</sub><sup>-</sup>, and chlorine in ClO<sub>4</sub><sup>-</sup>",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zYSNQXfvrB3jy4Jn",
+   "set_slug": "multiple-choice-questions",
+   "order": 27,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_nRJhGC3sVr9qSScC",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "A dilute acid is added to an aqueous solution containing nitrite ions, NO<sub>2</sub><sup>–</sup>, and two different nitrogen compounds are released as gases.\n\n2H<sup>+</sup> (aq)  +  2NO<sub>2</sub><sup>–</sup> (aq)  →  H<sub>2</sub>O (l)  +  NO (g)  +  NO<sub>2</sub> (g)\n\nWhich statement about this reaction is correct?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- In NO<sub>2</sub><sup>–</sup>, nitrogen has an oxidation number of +3.\n- In NO, nitrogen has an oxidation number of +2, reduced from +3.\n- In NO<sub>2</sub>, nitrogen has an oxidation number of +4, oxidised from +3.\n- Some nitrogen atoms are reduced (+3 to +2) and some are oxidised (+3 to +4), which is a **disproportionation** reaction.\n\n**A** is incorrect as the oxidation number of hydrogen does not change. It is +1 in H<sup>+</sup> and +1 in H<sub>2</sub>O.\n\n**B** is incorrect as some nitrogen atoms are oxidised (+3 to +4 in NO<sub>2</sub>), not only reduced.\n\n**C** is incorrect as H<sup>+</sup> is consumed in the reaction and is not a catalyst.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "The H<sup>+</sup> ion is oxidised in this reaction."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Nitrogen is only reduced in this reaction."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The H<sup>+</sup> ion acts as a catalyst in this reaction."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "Some nitrogen atoms are oxidised and some are reduced in this reaction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZpVDMVCt6tkrP7kQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_fHCM2wxPPj8tHywr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "A student added a solution of iodine to a solution of sodium bromide.\n\nWhich statement correctly describes what happens?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The oxidising power **decreases** moving down **Group 17**.\n\n- Iodine sits below bromine so is unable to oxidise the bromide ion and displace it, so no reaction occurs.\n\n**B** is incorrect as the bromide ions are not oxidised and no reaction occurs.\n\n**C** is incorrect as the iodine molecules are not oxidised and no reaction occurs.\n\n**D** is incorrect as no reaction occurs, so there are no changes in oxidation numbers.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "No reaction occurs."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The bromide ions are oxidised."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The iodine molecules are oxidised."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Both the bromide ions and iodine molecules undergo changes in their oxidation state."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zpqtTT4VgKfHpfGG",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_p2zfXXCQWx4xbZ42",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Which equation has the smallest change in oxidation number for nitrogen?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The oxidation number of nitrogen in reaction D changes from +2 in NO to +4 in NO<sub>2</sub>, so an overall change of +2.\n\n**A** is incorrect as the oxidation number of nitrogen changes from −2 in N<sub>2</sub>H<sub>4</sub> to +4 in NO<sub>2</sub>, a change of 6.\n\n**B** is incorrect as the oxidation number of nitrogen changes from 0 in N<sub>2</sub> to −3 in Mg<sub>3</sub>N<sub>2</sub>, a change of 3.\n\n**C** is incorrect as the oxidation number of nitrogen changes from −3 in NH<sub>3</sub> to +2 in NO, a change of 5.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "N<sub>2</sub>H<sub>4</sub> (g) + 3O<sub>2</sub> (g) → 2NO<sub>2</sub> (g) + 2H<sub>2</sub>O (g)"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "3Mg (s) + N<sub>2</sub> (g) → Mg<sub>3</sub>N<sub>2</sub> (s)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "4NH<sub>3</sub> (g) + 5O<sub>2</sub> (g) → 4NO (g) + 6H<sub>2</sub>O (g)"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "2NO (g) + O<sub>2</sub> (g) → 2NO<sub>2</sub> (g)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yT6k69ngHxqK8NFX",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Tq4nrDMY683fC4Hd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Which compound has the highest oxidation number of nitrogen?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- In N<sub>2</sub>O<sub>4</sub>, the oxidation number of nitrogen is +4:\n\n(4 × (−2)) + (2 × (+4)) = 0\n\n- This is correct for a neutral compound.\n\n**A** is incorrect as in N<sub>2</sub>O the oxidation number of nitrogen is +1.\n\n**B** is incorrect as in NO the oxidation number of nitrogen is +2.\n\n**C** is incorrect as in NaNO<sub>2</sub> the oxidation number of nitrogen is +3.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "N<sub>2</sub>O"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "NO"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "NaNO<sub>2</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "N<sub>2</sub>O<sub>4</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_WtR6wvC2GdrPP49F",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_zYcGTGDkqdrR8ySR",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "The heptahydrate mineral of magnesium sulfate is used in Epsom salts for preparing therapeutic baths.\n\nWhat is the sum of all the oxidation numbers in MgSO<sub>4</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The sum of all the oxidation numbers in a compound is **zero**.\n\n- For MgSO<sub>4</sub>, the oxidation numbers are:\n\n  - Mg is +2\n  - O is −2\n  - S is +6\n\n- Adding them together: (+2) + (+6) + (4 × (−2)) = 0.\n\n**A**, **B** & **C** are incorrect as the sum of all the oxidation numbers in MgSO<sub>4</sub> is 0.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "-2"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "+2"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+7"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "0"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_v9vh2VRNmtvprScx",
+   "set_slug": "multiple-choice-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_x2Nnvd5C8rkRnKrj",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "The following reaction can be used to determine the mass of titanium dioxide in an ore.\n\n3TiO<sub>2</sub> (s) + 4BrF<sub>3</sub> (l) → 3TiF<sub>4</sub> (s) + 2Br<sub>2</sub> (l) + 3O<sub>2</sub> (g)\n\nWhich element increases in oxidation number in this reaction?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- In TiO<sub>2</sub>, oxygen has an oxidation number of −2.\n\n- In O<sub>2</sub>, oxygen has an oxidation number of 0.\n\n- Oxygen is **oxidised** as its oxidation number increases from −2 to 0.\n\n**A** is incorrect as the oxidation number of bromine **decreases** from +3 in BrF<sub>3</sub> to 0 in Br<sub>2</sub>.\n\n**B** is incorrect as the oxidation number of fluorine does not change (−1 in both BrF<sub>3</sub> and TiF<sub>4</sub>).\n\n**D** is incorrect as the oxidation number of titanium does not change (+4 in both TiO<sub>2</sub> and TiF<sub>4</sub>).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Bromine"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Fluorine"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Oxygen"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Titanium"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RbKsHs7CFqnytMsM",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_mkmrPF2xPHCQVfYq",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Titanium dioxide is obtained from the ore ilmenite, FeTiO<sub>3</sub>, in which iron has an oxidation number of +2.\n\nFeTiO<sub>3</sub> (s) → TiO<sub>2</sub> (s)\n\nWhat is the change in the oxidation number of titanium in the reaction?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- In ilmenite (FeTiO<sub>3</sub>), the oxidation number of titanium is **+4**: each oxygen is −2 (3 × (−2) = −6) and iron is +2, so (+2) + (+4) + (−6) = 0.\n\n- In titanium dioxide (TiO<sub>2</sub>), the oxidation number of titanium is also **+4**: each oxygen is −2 (2 × (−2) = −4), so (+4) + (−4) = 0.\n\n- The oxidation number of titanium does not change.\n\n**A**, **B** & **D** are incorrect as there is no change in the oxidation number of titanium.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "+4 to +5"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "+3 to +4"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "No change"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+6 to +4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Qt8cVFJhtQnZy9V7",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_sb2V34bJfK8ptywd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn",
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement about the redox chemistry of the halogens is correct?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Chlorine dissolves in water to produce hydrochloric acid and chloric(I) acid:\n\nCl<sub>2</sub> (aq) + H<sub>2</sub>O (l) → HCl (aq) + HClO (aq)\n\n- Analysing the half-equations shows this is a **disproportionation reaction** in which chlorine is both oxidised and reduced\n- Oxidation:\n\n½Cl<sub>2</sub> + H<sub>2</sub>O → HClO + H<sup>+</sup> + e<sup>−</sup> (Cl: 0 → +1)\n\n- Reduction:\n\n½Cl<sub>2</sub> + e<sup>−</sup> → Cl<sup>−</sup> (Cl: 0 → −1)\n\n**A** & **D** are incorrect as the oxidising power in **Group 17 increases moving up** the group, with fluorine being the most powerful oxidising agent.\n\n**B** is incorrect as the reducing power of the halide ions **increases moving down** Group 17 due to increasing atomic radius and shielding. Iodide ions are therefore the **strongest** reducing agents, not the weakest.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Bromine can oxidise chloride ions."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Iodide ions are the weakest reducing agents of the first four Group 17 ions."
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "In reactions with water, chlorine is oxidised and reduced."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Fluorine is a weaker oxidising agent than chlorine."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qq8QCt6G9DpbypJq",
+   "set_slug": "multiple-choice-questions",
+   "order": 26,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wrBBngCSgfPjC6dh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "If a solution contains both bromine and chlorine, BrO<sub>3</sub><sup>–</sup> ions are produced.\n\nThe reactions leading to the production of BrO<sub>3</sub><sup>–</sup> ions are shown below:\n\nReaction 1:     Br<sub>2</sub>  +  H<sub>2</sub>O  →  HBr  +  HBrO\n\nReaction 2:     3HBrO  +  Cl<sub>2</sub>  →  2Cl<sup>–</sup>  +  BrO<sub>3</sub><sup>–</sup>  +  Br<sub>2</sub>  +  3H<sup>+</sup>\n\nWhich statement about these reactions is correct?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- In reaction 1:\n\n  - Br<sub>2</sub> (oxidation number 0) forms both HBr (oxidation number −1) and HBrO (oxidation number +1).\n  - Bromine is simultaneously reduced (0 to −1) and oxidised (0 to +1), which is **disproportionation**.\n\n- In reaction 2:\n\n  - HBrO (oxidation number +1) forms both Br<sub>2</sub> (oxidation number 0) and BrO<sub>3</sub><sup>–</sup> (oxidation number +5).\n  - Bromine is simultaneously reduced (+1 to 0) and oxidised (+1 to +5), which is also **disproportionation**.\n\n- Bromine therefore undergoes disproportionation in both reactions.\n\n**A** is incorrect as bromine is both reduced and oxidised in reaction 1, not reduced only.\n\n**B** is incorrect as chlorine changes from 0 in Cl<sub>2</sub> to −1 in Cl<sup>–</sup>. It is reduced, not oxidised.\n\n**C** is incorrect as bromine is both reduced and oxidised in reaction 2, not oxidised only.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "In reaction 1, bromine is reduced only."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "In reaction 2, chlorine is oxidised."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "In reaction 2, bromine is oxidised only."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "In both reactions, bromine undergoes disproportionation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_pyWt9RST7H9MhyBW",
+   "set_slug": "multiple-choice-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_N6hMW9G8x2p9bZQw",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nx5frdwgZfGBzYhj"
+     ],
+     "part_tier": null,
+     "problem_md": "The acid HIO disproportionates when in aqueous solution. This is shown in the equation, where *q*, *r*, *s* and *t* are simple whole numbers in their lowest ratios.\n\n*q* HIO (aq) → *r* I<sub>2</sub> (aq) + *s* HIO<sub>3</sub> (aq) + *t* H<sub>2</sub>O (l)\n\nWhich row gives the values for *r* and *s*?\n\n|   | ***r*** | ***s*** |\n|---|---|---|\n| **A** | 4 | 2 |\n| **B** | 4 | 1 |\n| **C** | 2 | 1 |\n| **D** | 1 | 2 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- In HIO, iodine has an oxidation number of +1. In I<sub>2</sub>, it is 0 (a decrease of 1). In HIO<sub>3</sub>, it is +5 (an increase of 4).\n\n- To balance the changes in oxidation number, 4 moles of HIO are reduced for every 1 mole oxidised, giving *q* = 5.\n\n- The balanced equation is:\n\n5HIO (aq) → 2I<sub>2</sub> (aq) + HIO<sub>3</sub> (aq) + 2H<sub>2</sub>O (l)\n\n- Therefore *r* = 2 and *s* = 1.\n\n**A**, **B** & **D** are incorrect as these options do not correctly balance the equation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ND9CptvmGzT2ftK5",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_xJyg7zpsmM7y3GcR",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row gives the most common oxidation numbers of fluorine, oxygen and hydrogen in compounds?\n\n|   | **F** | **O** | **H** |\n|---|---|---|---|\n| **A** | +7 | −1 | −1 |\n| **B** | +1 | +2 | +1 |\n| **C** | −1 | −1 | −1 |\n| **D** | −1 | −2 | +1 |",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Fluorine is the **most electronegative** element and its oxidation number is always −1 in compounds.\n\n- The most common oxidation number of oxygen is −2, except in **peroxides** (−1) or when bonded to **fluorine** (positive, e.g. +2 in OF<sub>2</sub>).\n\n- Hydrogen has an oxidation number of +1 in most compounds, except in **metal hydrides** where it is −1 (e.g. NaH).\n\n**A** is incorrect as fluorine cannot have an oxidation number of +7. It is always −1 in compounds.\n\n**B** is incorrect as fluorine is −1 not +1, and the most common oxidation number of oxygen is −2 not +2.\n\n**C** is incorrect as the most common oxidation numbers of oxygen and hydrogen are −2 and +1 respectively, not −1 and −1.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kBbMhsWtB3ny6mhg",
+   "set_slug": "multiple-choice-questions",
+   "order": 29,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_V2B7HGK2zv8K9cVZ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement describes how concentrated sulfuric acid behaves when it reacts with solid sodium chloride?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Concentrated sulfuric acid can act as both an acid and an oxidising agent when mixed with halide ions.\n\n- Concentrated sulfuric acid is **not a strong enough oxidising agent** to oxidise chloride ions.\n\n- With chloride ions, it therefore reacts as an acid only, producing HCl gas.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "as a reducing agent only"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "as an oxidising agent only"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "as an acid only"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "as an acid and an oxidising agent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HzmSt5hWbY4YMqmx",
+   "set_slug": "multiple-choice-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qpNptcS5bJ4kJnsz",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "When solid sodium iodide and concentrated sulfuric acid react, one of the reactions that takes place is shown below.\n\n8NaI (s) + 9H<sub>2</sub>SO<sub>4</sub> (l) → 8NaHSO<sub>4</sub> (s) + 4I<sub>2</sub> (g) + H<sub>2</sub>S (g) + 4H<sub>2</sub>O (l)\n\nWhich species is oxidised in this reaction?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- In NaI, the oxidation number of iodine is −1.\n\n- In I<sub>2</sub>, iodine has an oxidation number of 0.\n\n- Iodine is **oxidised**: its oxidation number increases from −1 to 0 (loss of electrons).\n\n**B** is incorrect as the oxidation number of S in SO<sub>4</sub><sup>2−</sup> is unchanged in NaHSO<sub>4</sub> (+6 in both); only the S in H<sub>2</sub>S has been reduced to −2.\n\n**C** is incorrect as the oxidation number of Na<sup>+</sup> does not change (+1 throughout).\n\n**D** is incorrect as the oxidation number of H<sup>+</sup> does not change (+1 throughout).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "I<sup>-</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "SO<sub>4</sub><sup>2-</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Na<sup>+</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "H<sup>+</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_HPnKFRwKBXTxBtJF",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JbzCMjm7CYzJPNg7",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Which reaction shows the species in bold acting as an oxidising agent?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Oxidising agents gain electrons and are themselves reduced.\n- In reaction B:\n\n  - Fe<sup>2+</sup> (aq) oxidises Mg (s) from 0 to +2\n  - Fe<sup>2+</sup> is itself reduced from +2 to 0.\n\n**A**, **C** & **D** are incorrect as in these reactions the bold species each undergo oxidation, so they cannot be acting as oxidising agents.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> (aq) + 8H<sup>+</sup> (aq) + **3SO**<sub>**3**</sub><sup>**2-**</sup> (aq) → 2Cr<sup>3+</sup> (aq) + 4H<sub>2</sub>O (l) + 3SO<sub>4</sub><sup>2-</sup> (aq)"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Mg (s) + **Fe**<sup>**2+**</sup> (aq) → Mg<sup>2+</sup> (aq) + Fe (s)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Cl<sub>2</sub> (aq) + **2Br**<sup>**-**</sup> (aq) → 2Cl<sup>-</sup> (aq) + Br<sub>2</sub> (aq)"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Fe<sub>2</sub>O<sub>3</sub> (s) + **3CO** (g) → 2Fe (s) + 3CO<sub>2</sub> (g)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_H6zjt5XSzGDBGVfk",
+   "set_slug": "multiple-choice-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_r4r2KwwGYXrzvfpf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "The oxidation number of chlorine can range from −1 to +7 in its compounds.\n\nWhich reagents and conditions allow elemental chlorine to produce a compound containing chlorine in the +5 oxidation state?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- When chlorine reacts with hot concentrated NaOH, it undergoes **disproportionation**: chlorine is both oxidised and reduced simultaneously.\n\n- The equation for the reaction is:\n\n3Cl<sub>2</sub> (g) + 6NaOH (aq) → 5NaCl (aq) + NaClO<sub>3</sub> (aq) + 3H<sub>2</sub>O (l)\n\n- In NaClO<sub>3</sub>, the oxidation number of chlorine is +5: sodium is +1 and each oxygen is −2 (3 × (−2) = −6), so (+1) + (*x*) + (−6) = 0, giving *x* = +5.\n\n**A** is incorrect as concentrated H<sub>2</sub>SO<sub>4</sub> does not react with elemental chlorine to produce a +5 compound.\n\n**B** is incorrect as AgNO<sub>3</sub> followed by NH<sub>3</sub> forms AgCl then [Ag(NH<sub>3</sub>)<sub>2</sub>]<sup>+</sup> Cl<sup>−</sup>, where the chlorine remains at −1 throughout.\n\n**C** is incorrect as cold NaOH gives the +1 compound NaClO, not the +5 compound NaClO<sub>3</sub>: 2NaOH (aq) + Cl<sub>2</sub> (g) → NaCl (aq) + NaClO (aq) + H<sub>2</sub>O (l).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Concentrated H<sub>2</sub>SO<sub>4</sub> at room temperature."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "AgNO<sub>3 </sub>(aq) followed by NH<sub>3</sub> (aq) at room temperature."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Cold dilute NaOH (aq)."
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "Hot concentrated NaOH (aq)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GjMgjzDTQZ9nkbsc",
+   "set_slug": "multiple-choice-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_yBg2TVmhg5RcxVYq",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "When heated, ammonium nitrate, NH<sub>4</sub>NO<sub>3</sub>, can decompose explosively.\n\nNH<sub>4</sub>NO<sub>3</sub> (s) → N<sub>2</sub>O (g) + 2H<sub>2</sub>O (g)\n\nThe nitrogen atoms in NH<sub>4</sub>NO<sub>3</sub> have different oxidation numbers.\n\nWhat are the changes in the oxidation numbers as the reaction proceeds?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- In the NH<sub>4</sub><sup>+</sup> ion, the oxidation number of nitrogen is −3.\n- In the NO<sub>3</sub><sup>-</sup> ion, the oxidation number of nitrogen is +5.\n- In N<sub>2</sub>O, the oxidation number of oxygen is −2, so each nitrogen must have an oxidation number of +1.\n- The changes in oxidation number are therefore:\n\n  - From −3 in NH<sub>4</sub><sup>+</sup> to +1 in N<sub>2</sub>O: a change of +4.\n  - From +5 in NO<sub>3</sub><sup>-</sup> to +1 in N<sub>2</sub>O: a change of −4.\n\n**B**, **C** & **D** are incorrect as these options do not match the actual changes in oxidation number.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "+4 and −4"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−2 and −4"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+4 and −6"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+2 and +6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GBXbtmQjzDGpG5w9",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_RxtC25Vx2dhMnGpm",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Which reaction represents have the largest change in oxidation number of an element?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- In MnO<sub>4</sub><sup>-</sup><sup><sub>,</sub></sup> the oxidation number of Mn is +7: (4 × (−2)) + (+7) = −1, matching the −1 charge on the ion.\n- The Mn<sup>2+</sup> ion has an oxidation number of +2.\n- The oxidation number of Mn has gone from +7 to +2, a change of 5, which is the largest.\n\n**A** is incorrect as the oxidation number of Cr goes from +6 to +3 (change = 3); the oxidation number of Fe goes from +2 to +3 (change = 1).\n\n**B** is incorrect as the largest change in oxidation number in this reaction is 4 (Cl from +1 to +5).\n\n**D** is incorrect as the oxidation number of Pb goes from +4 to +2 (change = 2); the oxidation number of Sn goes from +2 to +4 (change = 2).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> (aq) + 6Fe<sup>2+</sup> (aq) + 14H<sup>+</sup> (aq) → 2Cr<sup>3+</sup> (aq) + 6Fe<sup>3+</sup> (aq) + 7H<sub>2</sub>O (l)"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "3ClO<sup>-</sup> (aq) → ClO<sub>3</sub><sup>-</sup> (aq) + 2Cl<sup>-</sup> (aq)"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "5Fe<sup>2+</sup> (aq) + MnO<sub>4</sub><sup>-</sup> (aq) + 8H<sup>+</sup> (aq) → 5Fe<sup>3+</sup> (aq) + Mn<sup>2+</sup> (aq) + 4H<sub>2</sub>O (l)"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "PbO<sub>2</sub> (s) + Sn<sup>2+</sup> (aq) + 4H<sup>+</sup> (aq) → Sn<sup>4+</sup> (aq) + Pb<sup>2+</sup> (aq) + 2H<sub>2</sub>O (l)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Fc6NWGgkysyvWGS8",
+   "set_slug": "multiple-choice-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2YvzwYFHm969cvg9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN",
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "When solid potassium halides are added to concentrated sulfuric acid, the following reactions take place:\n\n| Reaction 1 | 2KBr (s)  +  2H<sub>2</sub>SO<sub>4</sub> (l)  →  K<sub>2</sub>SO<sub>4</sub> (s)  +  SO<sub>2</sub> (g)  +  Br<sub>2</sub> (l)  +  2H<sub>2</sub>O (l) |\n|---|---|\n| Reaction 2 | 8KI (s)  +  5H<sub>2</sub>SO<sub>4</sub> (l)  →  4K<sub>2</sub>SO<sub>4</sub> (s)  +  H<sub>2</sub>S (g)  +  4I<sub>2</sub> (s)  +  4H<sub>2</sub>O (l) |\n| Reaction 3 | 2KCl (s)  +  H<sub>2</sub>SO<sub>4</sub> (l)  →  K<sub>2</sub>SO<sub>4</sub> (s)  +  2HCl (g) |\n\nWhich row shows the greatest change in the oxidation number of sulfur for each reaction?\n\n|   | Reaction 1 | Reaction 2 | Reaction 3 |\n|---|---|---|---|\n| **A** | 1 | 4 | 1 |\n| **B** | 2 | 4 | 0 |\n| **C** | 2 | 8 | 0 |\n| **D** | 4 | 8 | 1 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- In reaction 1, the bromide ions reduce the sulfuric acid to sulfur dioxide gas.\n\n  - This decreases the oxidation number of the sulfur from +6 in the sulfuric acid to +4 in the sulfur dioxide.\n  - A change in the oxidation number of 2.\n- In reaction 2, the reduction of sulfuric acid (oxidation number +6) is more complex.\n- The first stage is to sulfur dioxide (sulfur oxidation number +4).\n\n  - Then to sulfur (oxidation number 0).\n  - And then to hydrogen sulfide (sulfur oxidation number −2).\n  - This makes the greatest change in oxidation number in this reaction 8 (from +6 to −2).\n- In reaction 3, there is no change in the oxidation number of sulfur.\n\n  - Both hydrogen and potassium have an oxidation number of +1 meaning that the sulfur oxidation number in these compounds is +6.\n\n**A**, **B** & **D** are incorrect as these answers do not correspond to the actual changes in oxidation number involved.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ddhRQWrbqHTspPNQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2qgknt6jGVcHHJPy",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Solutions containing chlorate ions decompose on heating as shown:\n\n3ClO<sup>-</sup> (aq) → ClO<sub>3</sub><sup>-</sup> (aq) + 2Cl<sup>-</sup> (aq)\n\nWhich row gives the oxidation number of the chlorine in each ion?\n\n|   | **ClO**<sup>**-**</sup> | **ClO**<sub>**3**</sub><sup>**-**</sup> | **Cl**<sup>**-**</sup> |\n|---|---|---|---|\n| **A** | +1 | +5 | −1 |\n| **B** | +1 | +3 | −1 |\n| **C** | −1 | +5 | −1 |\n| **D** | −1 | +3 | −1 |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- In ClO<sup>-</sup>, the oxidation number of the **chlorine atom** is +1.\n\n  - Oxygen is −2 and the overall ion charge is −1, so (+1) + (−2) = −1.\n\n- In ClO<sub>3</sub><sup>-</sup>, the oxidation number of the **chlorine atom** is +5.\n\n  - Three oxygen atoms give −6 and the overall ion charge is −1, so (+5) + (−6) = −1.\n\n- In Cl<sup>-</sup>, the oxidation number is −1.\n\n  - It is a monoatomic ion with a −1 charge.\n\n**B** is incorrect as the oxidation number of chlorine in ClO<sub>3</sub><sup>-</sup> is +5, not +3.\n\n**C** is incorrect as the oxidation number of chlorine in ClO<sup>-</sup> is +1, not −1.\n\n**D** is incorrect as the oxidation numbers of chlorine in both ClO<sup>-</sup> and ClO<sub>3</sub><sup>-</sup> are wrong.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CRXFtDcdyVVTpmsD",
+   "set_slug": "multiple-choice-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pcp83dwqPzgM4gz2",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Solid sodium chloride and solid sodium iodide were each added separately to concentrated phosphoric acid and concentrated sulfuric acid. The results are shown in the table below.\n\n|   | **sodium chloride** | **sodium iodide** |\n|---|---|---|\n| **concentrated H**<sub>**3**</sub>**PO**<sub>**4**</sub> | colourless acidic gas formed | colourless acidic gas formed |\n| **concentrated H**<sub>**2**</sub>**SO**<sub>**4**</sub> | colourless acidic gas formed | purple vapour formed |\n\nWhich deduction can be made from these observations?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Concentrated sulfuric acid can act as both an acid and an oxidising agent when mixed with halide ions.\n\n- With both halides and both acids, a colourless acidic gas (HCl or HI) is produced by an acid-base reaction.\n\n- With concentrated H<sub>2</sub>SO<sub>4</sub> and iodide ions, the purple vapour confirms that I<sub>2</sub> is produced: the iodide ions are **oxidised** to iodine by the sulfuric acid.\n\n2I<sup>−</sup> (aq) → I<sub>2</sub> (aq) + 2e<sup>−</sup>\n\n- The iodide ions reduce the sulfuric acid further:\n\n  - First to sulfur dioxide (oxidation number of sulfur: +4)\n  - Then to sulfur (oxidation number: 0)\n  - Then to hydrogen sulfide (oxidation number: −2)\n\n**A** is incorrect as concentrated sulfuric acid is not a strong enough oxidising agent to oxidise chloride ions.\n\n**C** & **D** are incorrect as phosphoric acid is not an oxidising agent, so no redox reaction occurs with either halide.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Concentrated sulfuric acid is a stronger oxidising agent than chlorine."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Concentrated sulfuric acid is a stronger oxidising agent than iodine."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Concentrated phosphoric acid is a stronger oxidising agent than iodine."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Concentrated phosphoric acid is a stronger oxidising agent than concentrated sulfuric acid."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CHKCHkPzG8KTrSgP",
+   "set_slug": "multiple-choice-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dZVM5H4pC9T8QWpc",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nx5frdwgZfGBzYhj"
+     ],
+     "part_tier": null,
+     "problem_md": "Which equation shows hydrogen acting as an oxidising agent?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Oxidising agents are substances that oxidise other species, gain electrons and are themselves reduced.\n\n- In equation **A**:\n\n  - Hydrogen oxidises Na(0) to Na<sup>+</sup> (+1)\n  - Hydrogen is itself reduced from H(0) to H<sup>-</sup>(-1).\n\n**B**, **C** & **D** are incorrect as hydrogen is acting as a reducing agent in all the other reactions shown; this means that it is losing electrons.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "2Na (s)  +  H<sub>2</sub> (g)  →  2NaH (s)"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "N<sub>2</sub> (g)  +  3H<sub>2</sub> (g)  ⇌  2NH<sub>3</sub> (g)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "H<sub>2</sub> (g)  +  Cl<sub>2</sub> (g)  →  2HCl (g)"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "C<sub>2</sub>H<sub>4</sub> (g)  +  H<sub>2</sub> (g)  →  C<sub>2</sub>H<sub>6</sub> (g)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_cc8t4ZXCt6Snnv89",
+   "set_slug": "multiple-choice-questions",
+   "order": 28,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_tKJD6ZZ3fcCC7bJf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "The following reactions are carried out:\n\nReaction 1:   CH<sub>3</sub>COCH<sub>3</sub>  +  Tollens' reagent\n\nReaction 2:   CH<sub>3</sub>CH<sub>2</sub>CHO  +  Fehling's reagent\n\nReaction 3:   C<sub>2</sub>H<sub>4</sub>  +  Br<sub>2</sub>\n\nWhich statement about these reactions is correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Propanal (CH<sub>3</sub>CH<sub>2</sub>CHO) is an aldehyde and is oxidised by Fehling's reagent to propanoic acid.\n\n- The Cu<sup>2+</sup> ions in Fehling's solution gain electrons and are reduced to Cu<sub>2</sub>O (brick-red precipitate).\n\n- Fehling's solution is therefore reduced in reaction 2.\n\n**A** is incorrect as propanone (CH<sub>3</sub>COCH<sub>3</sub>) is a ketone and does not react with Tollens' reagent. No oxidation occurs.\n\n**C** is incorrect as bromine is reduced in reaction 3. Its oxidation number decreases from 0 in Br<sub>2</sub> to −1 in CH<sub>2</sub>BrCH<sub>2</sub>Br.\n\n**D** is incorrect as reaction 3 also involves changes in oxidation number. Carbon changes from −2 in C<sub>2</sub>H<sub>4</sub> to −1 in CH<sub>2</sub>BrCH<sub>2</sub>Br.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Propanone undergoes oxidation when it reacts with Tollens' reagent."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Fehling's solution is reduced when it reacts with propanal."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Bromine is oxidised when it reacts with ethene."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Only reaction 2 involves a change in oxidation number."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BwYhK7FW8w8fzdnK",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cgyGyjwm9R3w5rhf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nx5frdwgZfGBzYhj"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine and hot aqueous sodium hydroxide react to produce chloride ions, chlorate(V) ions and water.\n\nWhich row gives the values of the coefficients *p*, *r* and *s* in the equation?\n\n*p*Cl<sub>2</sub> (g) + *q*OH<sup>−</sup> (aq) → *r*Cl<sup>−</sup> (aq) + *s*ClO<sub>3</sub><sup>−</sup> (aq) + *t*H<sub>2</sub>O (l)\n\n|   | ***p*** | ***r*** | ***s*** |\n|---|---|---|---|\n| **A** | 3 | 5 | 1 |\n| **B** | 3 | 4 | 2 |\n| **C** | 2 | 3 | 1 |\n| **D** | 4 | 6 | 2 |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The oxidation number of chlorine changes in two ways:\n\n  - One Cl atom per Cl<sub>2</sub> is reduced: 0 → −1 in Cl<sup>−</sup> (change = −1).\n  - The other Cl atom is oxidised: 0 → +5 in ClO<sub>3</sub><sup>−</sup> (change = +5).\n- To balance the changes: 5 Cl atoms must be reduced for every 1 Cl atom oxidised, giving 6 Cl atoms total, or 3 Cl<sub>2</sub> molecules (*p* = 3).\n- Balancing O and H by adding 6 OH<sup>−</sup> and 3 H<sub>2</sub>O gives the full balanced equation:\n\n3Cl<sub>2</sub> (g) + 6OH<sup>−</sup> (aq) → 5Cl<sup>−</sup> (aq) + ClO<sub>3</sub><sup>−</sup> (aq) + 3H<sub>2</sub>O (l)\n\n- Therefore *r* = 5 and *s* = 1.\n\n**B**, **C** & **D** are incorrect as these options do not give the correctly balanced equation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_98RNf7zTGcY69QSF",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_tSjdj8bmWHZvQnqJ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row correctly oxidation and reduction in terms of the transfer of electrons and changes in oxidation number?\n\n|   | **Transfer of electrons** | **Change in oxidation number** |   |   |\n|---|---|---|---|---|\n|   | **Oxidation** | **Reduction** | **Oxidation** | **Reduction** |\n| **A** | Gain | Loss | Increase | Decrease |\n| **B** | Loss | Gain | Increase | Decrease |\n| **C** | Loss | Gain | Decrease | Increase |\n| **D** | Gain | Loss | Decrease | Increase |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- In terms of electron transfer, oxidation refers to the **loss of electrons** and reduction refers to the **gain of electrons**.\n\n- In terms of oxidation number, the oxidation number **increases** when oxidation has occurred and **decreases** when reduction has occurred.\n\n**A** is incorrect as oxidation involves the loss of electrons, not gain.\n\n**C** is incorrect as when oxidation occurs, the oxidation number increases not decreases; the pattern for C is reversed.\n\n**D** is incorrect as both the electron transfer and oxidation number changes are the wrong way around.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8R5b3sjx23KsKVht",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_zRwKQrNsH9kPC6M8",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Sulfur dioxide and oxygen difluoride react together.\n\nSO<sub>2</sub> (g) + OF<sub>2</sub> (g) → SO<sub>3</sub> (g) + F<sub>2</sub> (g)\n\nWhich row is correct?\n\n|   | **sulfur** | **fluorine** | **oxygen in OF**<sub>**2**</sub> |\n|---|---|---|---|\n| **A** | Oxidised | Reduced | Reduced |\n| **B** | Reduced | Oxidised | Reduced |\n| **C** | Oxidised | Oxidised | Reduced |\n| **D** | Reduced | Oxidised | Oxidised |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Sulfur is **oxidised**\n\n  - Its oxidation number increases from +4 in SO<sub>2</sub> to +6 in SO<sub>3</sub>.\n\n- Fluorine is **oxidised**\n\n  - Its oxidation number increases from −1 in OF<sub>2</sub> to 0 in F<sub>2</sub>.\n  - Fluorine is the most electronegative element and always has an oxidation number of −1 in compounds.\n\n- Oxygen is **reduced**\n\n  - Its oxidation number decreases from +2 in OF<sub>2</sub> to −2 in SO<sub>3</sub>.\n  - Oxygen has an unusual positive oxidation number in OF<sub>2</sub> because fluorine, being more electronegative, forces oxygen into a +2 state.\n\n**A**, **B** & **D** are incorrect as these options do not correctly describe the changes in the reaction.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_73MfxYvDhwXc2R7X",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4cMH8F34BVc7Zbwr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "In the compound [ICl<sub>2</sub>]<sup>+</sup>[SbCl<sub>6</sub>]<sup>−</sup>, the oxidation number of chlorine is −1.\n\nWhich row gives the oxidation numbers of I and Sb in the compound?\n\n|   | **I** | **Sb** |\n|---|---|---|\n| **A** | +1 | +5 |\n| **B** | +1 | +7 |\n| **C** | +3 | +5 |\n| **D** | +3 | +7 |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- For the [ICl<sub>2</sub>]<sup>+</sup> cation:\n\n  - Two chlorine atoms give a total of −2\n  - The overall charge is +1\n  - So, the oxidation number of iodine must be +3.\n\n- For the [SbCl<sub>6</sub>]<sup>−</sup> anion:\n\n  - Six chlorine atoms give a total of −6\n  - The overall charge is −1\n  - So, the oxidation number of antimony must be +5.\n\n**A** & **B** are incorrect as the oxidation number of iodine in [ICl<sub>2</sub>]<sup>+</sup> is +3, not +1.\n\n**D** is incorrect as the oxidation number of antimony in [SbCl<sub>6</sub>]<sup>−</sup> is +5, not +7.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5TFfYDfFn5GPmdgg",
+   "set_slug": "multiple-choice-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_KQTqd4YNgvdq43nj",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN",
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine gas reacts with both hot and cold aqueous sodium hydroxide, each resulting in a different set of products.\n\nWhich row gives the oxidation numbers of chlorine in the products of these reactions?\n\n|   | Hot aqueous sodium hydroxide | Cold aqueous sodium hydroxide |\n|---|---|---|\n| **A** | −1 and +5 | −1 and +1 |\n| **B** | −1 and +5 | −1 and +2 |\n| **C** | +1 and +6 | −1 and +1 |\n| **D** | +1 and +6 | −1 and +2 |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The reaction between chlorine and cold sodium hydroxide solution with oxidation states:\n\n![Disproportionation of chlorine with cold aqueous sodium hydroxide: oxidation number of Cl changes from 0 to −1 in NaCl and 0 to +1 in NaClO](assets/001-disproportionation-of-chlorine-with-cold-aqueous.jpg)\n\n- We can see that this is a **disproportionation reaction** in which chlorine is both oxidised and reduced.\n\n  - Oxidation – change in oxidation number Cl: 0 to +1 in NaClO\n  - Reduction – change in oxidation number Cl: 0 to −1 in NaCl\n- The reaction between chlorine and hot sodium hydroxide solution with oxidation states:\n\n![Disproportionation of chlorine with hot aqueous sodium hydroxide: oxidation number of Cl changes from 0 to −1 in NaCl and 0 to +5 in NaClO~3~](assets/002-disproportionation-of-chlorine-with-hot-aqueous-.jpg)\n\n- This is also a **disproportionation reaction**:\n\n  - Oxidation – change in oxidation number Cl: 0 to +5 in NaClO<sub>3</sub>\n  - Reduction – change in oxidation number Cl: 0 to −1 in NaCl\n- Therefore the correct option is **A.**\n\n**B**, **C** & **D** are incorrect as these answers do not correspond to the actual oxidation numbers of chlorine.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3G2x3wrxtsrGGc74",
+   "set_slug": "multiple-choice-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_5FRMhVQVBnqSFTqB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "In winemaking, to prevent oxidation of ethanol by air, sulfur dioxide (SO<sub>2</sub>) is added. In order to calculate the amount of SO<sub>2</sub>, a sample is titrated with iodine (I<sub>2</sub>).\n\nWhat is the change in the oxidation number of sulfur in this reaction?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The equation for the reaction is:\n\n2H<sub>2</sub>O (l) + SO<sub>2</sub> (aq) + I<sub>2</sub> (aq) → 2HI (aq) + H<sub>2</sub>SO<sub>4</sub> (aq)\n\n- The oxidation number of sulfur in SO<sub>2</sub> is **+4**: each oxygen is −2, so (+4) + (2 × (−2)) = 0.\n\n- The oxidation number of sulfur in H<sub>2</sub>SO<sub>4</sub> is **+6**: each hydrogen is +1 and each oxygen is −2, so (2 × (+1)) + (+6) + (4 × (−2)) = 0.\n\n**A**, **C** & **D** are incorrect as these options do not correspond to the actual changes in oxidation number of sulfur.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "+2 to +6"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "+4 to +6"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+2 to +4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+4 to +5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_33QQXSZZfdB5bZpd",
+   "set_slug": "multiple-choice-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_NMd9MDfxYTm4HZK3",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Which compound contains two different elements with the same oxidation number?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- In HClO, the oxidation number of hydrogen is +1 and the oxidation number of chlorine is also +1, so they are the same.\n\n- Oxygen is −2, hydrogen is +1 and chlorine is +1.\n\n  - The sum is 0, consistent with a neutral compound.\n\n**A** is incorrect as in Mg(OH)<sub>2</sub>, the oxidation numbers are: Mg = +2, O = −2, H = +1 (all different).\n\n**B** is incorrect as in Na<sub>2</sub>SO<sub>4</sub>, the oxidation numbers are: Na = +1, S = +6, O = −2 (all different).\n\n**D** is incorrect as in NH<sub>4</sub>Cl, the oxidation numbers are: N = −3, H = +1, Cl = −1 (all different).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Mg(OH)<sub>2</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Na<sub>2</sub>SO<sub>4</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "HClO"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "NH<sub>4</sub>Cl"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Y85y4q95bxzDhbhX",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_c67ft7FCxGbv2KCV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about oxidation numbers.\n\nComplete Table 1.1 to show the oxidation number of sulfur in each compound.\n\n**Table 1.1**\n\n| **Compound** | **Oxidation number** |\n|---|---|\n| SO<sub>2</sub> |   |\n| SO<sub>3</sub> |   |\n| H<sub>2</sub>SO<sub>4</sub> |   |\n| SF<sub>4</sub> |   |",
+     "solution_md": "The completed table is:\n\n| **Compound** | **Oxidation number** |\n|---|---|\n| SO<sub>2</sub> | **Final answer:** **+4** |\n| SO<sub>3</sub> | **Final answer:** **+6** |\n| H<sub>2</sub>SO<sub>4</sub> | **Final answer:** **+6** |\n| SF<sub>4</sub> | **Final answer:** **+4** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for two or three of the values correct\n> \n> 1 mark for all four values correct: +4 (SO<sub>2</sub>), +6 (SO<sub>3</sub>), +6 (H<sub>2</sub>SO<sub>4</sub>), +4 (SF<sub>4</sub>)\n\n> **[exam-tip]**\n> To find the oxidation number of sulfur, apply the standard rules:\n> \n> - Oxygen is always -2 in compounds (except in OF<sub>2</sub>)\n> - Hydrogen is always +1 in compounds (except in hydrides)\n> - Fluorine is always -1 in compounds\n> - Oxidation numbers in a neutral compound must sum to zero\n> \n> Work through each compound:\n> \n> - SO<sub>2</sub>: S + 2(-2) = 0, so S = +4\n> - SO<sub>3</sub>: S + 3(-2) = 0, so S = +6\n> - H<sub>2</sub>SO<sub>4</sub>: 2(+1) + S + 4(-2) = 0, so S = +6\n> - SF<sub>4</sub>: S + 4(-1) = 0, so S = +4"
+    },
+    {
+     "id": "qstnprt_HFx4tTFghQQdvwwb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "State the oxidation number of sulfur in S<sub>8</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The oxidation number of sulfur in S<sub>8</sub> is:\n> \n> - Zero / 0 **[1 mark]**\n\n> **[exam-tip]**\n> Any element in its pure elemental form has an oxidation number of 0. This applies regardless of the allotrope, so S<sub>8</sub>, S<sub>2</sub>, and S all have an oxidation number of 0."
+    },
+    {
+     "id": "qstnprt_dp6KmVWpfdw6hCrx",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn",
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction between tin(IV) chloride and magnesium is classed as a redox reaction.\n\nSnCl<sub>4</sub> (l) + 2Mg (s) → 2MgCl<sub>2</sub> (s) + Sn (s)\n\ni) State the change in oxidation number of magnesium.\n\n[1]\n\nii) State the change in oxidation number of tin.\n\n[1]\n\niii) Deduce which species is acting as the reducing agent.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The change in oxidation number of magnesium is:\n> \n> - 0 to +2 **[1 mark]**\n> \n> ii) The change in oxidation number of tin is:\n> \n> - +4 to 0 **[1 mark]**\n> \n> iii) The reducing agent is:\n> \n> - Magnesium / Mg **[1 mark]**\n\n> **[exam-tip]**\n> Use the changes in oxidation numbers to identify the oxidising and reducing agents:\n> \n> When a species increases in oxidation number, it has been oxidised and acts as the reducing agent. When a species decreases in oxidation number, it has been reduced and acts as the oxidising agent.\n> \n> ![Redox diagram of SnCl₄ + 2Mg → 2MgCl₂ + 2Sn, showing oxidation states, Mg oxidised from 0 to +2, Sn reduced from +4 to 0, Cl unchanged at −1.](assets/003-redox-diagram-of-sncl-2mg-2mgcl-2sn-showing-oxid.png)\n> \n> In this reaction, magnesium increases from 0 to +2 (oxidised), so magnesium is the reducing agent. Tin decreases from +4 to 0 (reduced), so tin(IV) chloride is the oxidising agent."
+    },
+    {
+     "id": "qstnprt_SHKyJqj5X7PXrxTv",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn",
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Antimony reacts with nitric acid to form antimony(III) oxide, nitrogen monoxide and water as shown in the following equation.\n\n2Sb (s) + 2HNO<sub>3</sub> (aq) → Sb<sub>2</sub>O<sub>3</sub> (s) + 2NO (g) + H<sub>2</sub>O (l)\n\ni) State the change in oxidation number of antimony.\n\n[1]\n\nii) State the change in oxidation number of nitrogen.\n\n[1]\n\niii) Identify the oxidising agent in this reaction.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The change in oxidation number of antimony is:\n> \n> - 0 to +3 **[1 mark]**\n> \n> ii) The change in oxidation number of nitrogen is:\n> \n> - +5 to +2 **[1 mark]**\n> \n> iii) The oxidising agent is:\n> \n> - Nitric acid / HNO<sub>3</sub> **[1 mark]**\n\n> **[exam-tip]**\n> Use the changes in oxidation numbers to identify the oxidising and reducing agents:\n> \n> ![Redox equation showing Sb and HNO₃ forming Sb₂O₃, NO, and H₂O, with arrows marking Sb oxidation from 0 to +3 and N reduction from +5 to +2](assets/004-redox-equation-showing-sb-and-hno-forming-sb-o-n.png)\n> \n> Antimony increases in oxidation number from 0 to +3. An increase means oxidation has occurred, so antimony is the reducing agent.\n> \n> Nitrogen decreases in oxidation number from +5 to +2. A decrease means reduction has occurred, so nitric acid is the oxidising agent."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vs6N3Zg6dPwpQ5Hz",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_8MmTFJvddG7qhDyh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "balance",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nx5frdwgZfGBzYhj"
+     ],
+     "part_tier": null,
+     "problem_md": "For each of the equations below, complete the table to show the initial and final oxidation numbers of the elements printed in **bold**, and balance the equation.\n\ni) ...... **Mn**O<sub>4</sub><sup>-</sup> + ...... **S**O<sub>2</sub> + ...... H<sub>2</sub>O → ...... **Mn**<sup>2+</sup> + ...... **S**O<sub>4</sub><sup>2-</sup> + ...... H<sup>+</sup>\n\n| Element | Initial oxidation number | Final oxidation number |\n|---|---|---|\n| **Mn** |   |   |\n| **S** |   |   |\n\n[2]\n\nii) ...... **Cr**<sub>2</sub>O<sub>7</sub><sup>2-</sup> + ...... **N**O<sub>2</sub> + ...... H<sup>+</sup> → ...... **Cr**<sup>3+</sup> + ...... **N**O<sub>3</sub><sup>-</sup> + ...... H<sub>2</sub>O\n\n| Element | Initial oxidation number | Final oxidation number |\n|---|---|---|\n| **Cr** |   |   |\n| **N** |   |   |\n\n[2]",
+     "solution_md": "i) The completed table and balanced equation are:\n\n| Element | Initial oxidation number | Final oxidation number |\n|---|---|---|\n| **Mn** | **Final answer:** **+7** | **Final answer:** **+2** |\n| **S** | **Final answer:** **+4** | **Final answer:** **+6** |\n\n2**Mn**O<sub>4</sub><sup>-</sup> + 5**S**O<sub>2</sub> + 2H<sub>2</sub>O → 2**Mn**<sup>2+</sup> + 5**S**O<sub>4</sub><sup>2-</sup> + 4H<sup>+</sup>\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for Mn = +7 and +2 **AND** S = +4 and +6 (all four oxidation numbers correct)\n> \n> 1 mark for the correctly balanced equation: 2MnO<sub>4</sub><sup>-</sup> + 5SO<sub>2</sub> + 2H<sub>2</sub>O → 2Mn<sup>2+</sup> + 5SO<sub>4</sub><sup>2-</sup> + 4H<sup>+</sup>\n\nii) The completed table and balanced equation are:\n\n| Element | Initial oxidation number | Final oxidation number |\n|---|---|---|\n| **Cr** | **Final answer:** **+6** | **Final answer:** **+3** |\n| **N** | **Final answer:** **+4** | **Final answer:** **+5** |\n\n**Cr**<sub>2</sub>O<sub>7</sub><sup>2-</sup> + 6**N**O<sub>2</sub> + 2H<sup>+</sup> → 2**Cr**<sup>3+</sup> + 6**N**O<sub>3</sub><sup>-</sup> + H<sub>2</sub>O\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for Cr = +6 and +3 **AND** N = +4 and +5 (all four oxidation numbers correct)\n> \n> 1 mark for the correctly balanced equation: Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> + 6NO<sub>2</sub> + 2H<sup>+</sup> → 2Cr<sup>3+</sup> + 6NO<sub>3</sub><sup>-</sup> + H<sub>2</sub>O\n\n> **[exam-tip]**\n> To balance a redox equation using oxidation numbers, follow these steps:\n> \n> 1. Assign oxidation numbers to the redox-active elements\n> 2. Identify which element is oxidised and which is reduced, and by how much\n> 3. Multiply coefficients to balance total electron transfer (total oxidation = total reduction)\n> 4. Balance remaining atoms using H<sub>2</sub>O (for O) and H<sup>+</sup> (for H)\n> 5. Check that charge is balanced on both sides\n> \n> For part (i): Mn gains 5 electrons (+7 → +2); S loses 2 electrons (+4 → +6). To balance: 2 × Mn (10 electrons gained) and 5 × S (10 electrons lost). Then balance O and H.\n> \n> For part (ii): Each Cr gains 3 electrons (+6 → +3), but Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> contains 2 Cr atoms (6 electrons gained total). N loses 1 electron (+4 → +5), so 6 NO<sub>2</sub> are needed to balance the 6 electrons gained."
+    },
+    {
+     "id": "qstnprt_nWCxtY6xRWYzHtJW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqWktwTJtr7snDF9"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nii) ...... **Cr**~2~O~7~^2-^ + ...... **N**O~2~ + ...... H^+^ → ...... **Cr**^3+^ + ...... **N**O~3~^-^ + ...... H~2~O\n\nState what is observed during the reaction in **(a)(ii)**.",
+     "solution_md": "> **[mark-scheme]**\n> What is observed during the reaction in (a)(ii):\n> \n> - (Solution turns from) orange **[1 mark]**\n> - To green **[1 mark]**\n\n> **[exam-tip]**\n> The dichromate ion, Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup>, is orange. In the reaction, it is reduced to Cr<sup>3+</sup> ions, which are green. This colour change (orange to green) is the characteristic observation whenever an acidified dichromate solution acts as an oxidising agent — you will also see this colour change when K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is used to oxidise alcohols in organic chemistry."
+    },
+    {
+     "id": "qstnprt_kKW6DP9bdNhRGBmn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Zinc will displace copper from copper(II) sulfate solution.\n\ni) Construct an equation for this reaction. Include state symbols.\n\n[1]\n\nii) Explain, using oxidation numbers, why this is a redox reaction.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction between zinc and copper(II) sulfate:\n> \n> - Zn (s) + CuSO<sub>4</sub> (aq) → ZnSO<sub>4</sub> (aq) + Cu (s) **[1 mark]**\n> \n> ii) Why this is a redox reaction, using oxidation numbers:\n> \n> - The oxidation number of Zn increases from 0 (in Zn) to +2 (in ZnSO<sub>4</sub>); Zn is oxidised **[1 mark]**\n> - The oxidation number of Cu decreases from +2 (in CuSO<sub>4</sub>) to 0 (in Cu); Cu is reduced **[1 mark]**\n\n> **[exam-tip]**\n> The equation is a standard displacement reaction — Zn displaces Cu, so the products are ZnSO<sub>4</sub> and Cu metal.\n> \n> When explaining why a reaction is a redox reaction, always give:\n> \n> 1. Which element is oxidised and its oxidation number change (increase)\n> 2. Which element is reduced and its oxidation number change (decrease)\n> \n> A bare statement like \"oxidation numbers change\" will not score full marks — you must identify the specific elements and show the before and after values."
+    },
+    {
+     "id": "qstnprt_sJxWQDbwCzQgm7qm",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nZinc will displace copper from copper(II) sulfate solution.\n\ni) Construct an equation for this reaction. Include state symbols.\n\nThe equation for the reaction between zinc and copper(II) sulfate:\n\n- Zn (s) + CuSO~4~ (aq) → ZnSO~4~ (aq) + Cu (s)\n\nIdentify the oxidising agent in the reaction in **(c)(i)**. Construct a half-equation to support your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The oxidising agent and supporting half-equation:\n> \n> - Cu<sup>2+</sup> / CuSO<sub>4</sub> is the oxidising agent **[1 mark]**\n> - Cu<sup>2+</sup> + 2e<sup>-</sup> → Cu **[1 mark]**\n\n> **[exam-tip]**\n> The oxidising agent is the species that is itself reduced — it oxidises another species by accepting electrons.\n> \n> In this reaction:\n> \n> - Cu<sup>2+</sup> accepts 2 electrons and is reduced to Cu (the oxidising agent)\n> - Zn donates 2 electrons and is oxidised to Zn<sup>2+</sup> (the reducing agent)\n> \n> The half-equation for the oxidising agent shows reduction: Cu<sup>2+</sup> + 2e<sup>-</sup> → Cu."
+    }
+   ]
+  },
+  {
+   "id": "qstn_VrvmjjkPjRfVJwrP",
+   "set_slug": "structured-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_HGs64ZrbzJvwfG8j",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction of sodium iodide with concentrated sulfuric acid forms a variety of products as shown in Table 3.1.\n\n**Table 3.1**\n\n| **Chemical** | **Formed by** |\n|---|---|\n| NaHSO<sub>4</sub> |   |\n| SO<sub>2</sub> |   |\n| Na<sub>2</sub>SO<sub>4</sub> |   |\n| I<sub>2</sub> |   |\n| HI |   |\n| S |   |\n| H<sub>2</sub>O |   |\n| H<sub>2</sub>S |   |\n\nComplete Table 3.1 by identifying, for each product, whether it is formed by oxidation, reduction, or neither oxidation nor reduction.",
+     "solution_md": "The completed table is:\n\n| **Chemical** | **Formed by** |\n|---|---|\n| NaHSO<sub>4</sub> | **Final answer:** **Neither** |\n| SO<sub>2</sub> | **Final answer:** **Reduction** |\n| Na<sub>2</sub>SO<sub>4</sub> | **Final answer:** **Neither** |\n| I<sub>2</sub> | **Final answer:** **Oxidation** |\n| HI | **Final answer:** **Neither** |\n| S | **Final answer:** **Reduction** |\n| H<sub>2</sub>O | **Final answer:** **Neither** |\n| H<sub>2</sub>S | **Final answer:** **Reduction** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all three reduction products correctly identified: SO<sub>2</sub>, S and H<sub>2</sub>S\n> \n> 1 mark for I<sub>2</sub> correctly identified as formed by oxidation\n> \n> 1 mark for NaHSO<sub>4</sub>, Na<sub>2</sub>SO<sub>4</sub>, HI and H<sub>2</sub>O all correctly identified as neither oxidation nor reduction\n\n> **[exam-tip]**\n> Identify which elements could change oxidation number:\n> \n> - Sulfur in H<sub>2</sub>SO<sub>4</sub> (reactant) = +6; iodine in NaI (reactant) = −1\n> - I<sub>2</sub>: I = 0; increases from −1 → oxidation product\n> - SO<sub>2</sub>: S = +4; decreases from +6 → reduction product\n> - S: oxidation number = 0; decreases from +6 → reduction product\n> - H<sub>2</sub>S: S = −2; decreases from +6 → reduction product\n> \n> NaHSO<sub>4</sub>, Na<sub>2</sub>SO<sub>4</sub>, HI and H<sub>2</sub>O are formed by acid-base (proton transfer) reactions. There is no change in oxidation numbers, so they are neither oxidation nor reduction products."
+    },
+    {
+     "id": "qstnprt_YkttXMXXvH4MS2qs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Sulfur dioxide reacts with a solution of copper(II) chloride.\n\nSO<sub>2</sub> (g) + 2H<sub>2</sub>O (l) + 2CuCl<sub>2</sub> (aq) → H<sub>2</sub>SO<sub>4</sub> (aq) + 2HCl (aq) + 2CuCl (s)\n\nIdentify the reducing agent and oxidising agent in this reaction. Explain your answer in terms of changes in oxidation number.",
+     "solution_md": "> **[mark-scheme]**\n> The reducing agent and oxidising agent in this reaction:\n> \n> - Reducing agent = sulfur dioxide / SO<sub>2</sub>; the oxidation number of sulfur increases from +4 in SO<sub>2</sub> to +6 in H<sub>2</sub>SO<sub>4</sub> **[1 mark]**\n> - Oxidising agent = Cu<sup>2+</sup> ions / CuCl<sub>2</sub>; the oxidation number of copper decreases from +2 in CuCl<sub>2</sub> to +1 in CuCl **[1 mark]**\n\n> **[exam-tip]**\n> Using oxidation numbers, only sulfur and copper change oxidation state in this reaction:\n> \n> - Sulfur: +4 in SO<sub>2</sub> → +6 in H<sub>2</sub>SO<sub>4</sub> (increase = oxidation)\n> - Copper: +2 in CuCl<sub>2</sub> → +1 in CuCl (decrease = reduction)\n> \n> The reducing agent is oxidised (it causes reduction in another species by donating electrons). Sulfur is oxidised, so SO<sub>2</sub> is the reducing agent.\n> \n> The oxidising agent is reduced (it causes oxidation in another species by accepting electrons). Copper is reduced, so CuCl<sub>2</sub> / Cu<sup>2+</sup> is the oxidising agent."
+    },
+    {
+     "id": "qstnprt_dnbPzzRxQySYf6Mp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Sodium iodate is one of the main sources of iodine in the world. To extract the iodine, sodium iodate is reacted with aqueous sodium hydrogensulfite, NaHSO<sub>3</sub>, according to the following ionic equation.\n\n2IO<sub>3</sub><sup>–</sup> (aq) + 5HSO<sub>3</sub><sup>–</sup> (aq) → 3HSO<sub>4</sub><sup>–</sup> (aq) + 2SO<sub>4</sub><sup>2–</sup> (aq) + I<sub>2</sub> (aq) + H<sub>2</sub>O (l)\n\ni) State the change in oxidation number of iodine in this reaction.\n\n[1]\n\nii) Identify the role of the hydrogensulfite ion in this reaction. Explain your answer in terms of changes in oxidation numbers.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The change in oxidation number of iodine in this reaction:\n> \n> - Decreases from +5 in IO<sub>3</sub><sup>–</sup> to 0 in I<sub>2</sub> **[1 mark]**\n> \n> ii) The role of the hydrogensulfite ion:\n> \n> - Reducing agent / reductant **[1 mark]**\n> - The oxidation number of sulfur increases from +4 in HSO<sub>3</sub><sup>–</sup> to +6 in HSO<sub>4</sub><sup>–</sup> and SO<sub>4</sub><sup>2–</sup>; an increase in oxidation number indicates oxidation, so HSO<sub>3</sub><sup>–</sup> loses electrons and acts as the reducing agent **[1 mark]**\n\n> **[exam-tip]**\n> For part (i):\n> \n> To find the oxidation number of I in IO<sub>3</sub><sup>–</sup>, O = −2 and the ion has a charge of −1. So I + 3(−2) = −1, giving I = +5. In I<sub>2</sub>, I = 0. The decrease from +5 to 0 indicates reduction of iodine.\n> \n> For part (ii):\n> \n> To find the oxidation number of S in HSO<sub>3</sub><sup>–</sup>, H = +1, O = −2, overall charge = −1. So 1 + S + 3(−2) = −1, giving S = +4. In both HSO<sub>4</sub><sup>–</sup> and SO<sub>4</sub><sup>2–</sup>, S = +6. The increase in oxidation number of sulfur from +4 to +6 indicates oxidation. The species that is oxidised is the reducing agent, so HSO<sub>3</sub><sup>–</sup> acts as the reducing agent."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SkgwTJhPRqzcvtQH",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_JXzcbc92GqGtQXmS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "The tetrathionate ion, S<sub>4</sub>O<sub>6</sub><sup>2–</sup>, is shown in Fig 1.1.\n\n![Structural diagram of the tetrathionate ion showing four sulfur atoms bonded in a chain with six bridging oxygen atoms](assets/005-structural-diagram-of-the-tetrathionate-ion-show.png)\n\n**Fig 1.1**\n\nDeduce the oxidation number of sulfur in the tetrathionate ion. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The oxidation number of sulfur in S<sub>4</sub>O<sub>6</sub><sup>2–</sup>:\n> \n> - +2.5 **[1 mark]**\n> - This is an average value; the tetrathionate ion contains sulfur atoms with two different oxidation numbers\n> **OR**\n> The oxidation number is not a whole number because the sulfur atoms exist in different bonding environments **[1 mark]**\n\n> **[exam-tip]**\n> To calculate the oxidation number of S in S<sub>4</sub>O<sub>6</sub><sup>2–</sup>:\n> \n> - Each oxygen atom has an oxidation number of −2, giving a total of −12\n> - The overall charge on the ion is −2\n> - The sum of the oxidation numbers of all atoms must equal the ionic charge, so the four sulfur atoms together contribute +10\n> - Average oxidation number per sulfur = +10 ÷ 4 = +2.5\n> \n> Non-integer oxidation numbers arise when an element exists in two different bonding environments within the same ion or molecule, giving an average value. Do not round to a whole number as +2.5 is the expected answer."
+    },
+    {
+     "id": "qstnprt_gVzqCWffvPwjW7Kz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe tetrathionate ion, S~4~O~6~^2–^, is shown in Fig 1.1.\n\nSodium tetrathionate can be formed by reacting sodium thiosulfate, Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>, with iodine.\n\ni) Construct an equation for the reaction between sodium thiosulfate and iodine. Include state symbols.\n\n[2]\n\nii) Identify the oxidising agent in this reaction.\n\n[1]\n\niii) State the colour change that would be observed during this reaction.\n\n[1]",
+     "solution_md": "i) The equation for the reaction between sodium thiosulfate and iodine is:\n\n2Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> (aq) + I<sub>2</sub> (aq) → Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> (aq) + 2NaI (aq)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct formula for sodium tetrathionate, Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub>, **AND** NaI as the other product\n> \n> 1 mark for correctly balanced equation **AND** all four correct state symbols\n> \n> ii) The oxidising agent in this reaction:\n> \n> - I<sub>2</sub> / iodine **[1 mark]**\n> \n> iii) The colour change observed when this reaction goes to completion:\n> \n> - Orange-brown / brown / red-brown to colourless **[1 mark]**\n> \n> 'Red' is not accepted without 'brown'\n\n> **[exam-tip]**\n> For part (i): the formula of sodium tetrathionate is derived from the tetrathionate ion S<sub>4</sub>O<sub>6</sub><sup>2–</sup> in Part (a). Two Na<sup>+</sup> ions balance the 2− charge to give Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub>. The other product, NaI, forms because iodine is reduced from I<sub>2</sub> (oxidation number 0) to I<sup>–</sup> (oxidation number −1), which combines with Na<sup>+</sup>.\n> \n> For part (ii): the oxidising agent accepts electrons and is itself reduced. Iodine, I<sub>2</sub>, gains electrons to form I<sup>–</sup> ions (oxidation number decreases 0 → −1), so I<sub>2</sub> is the oxidising agent.\n> \n> For part (iii): aqueous iodine (I<sub>2</sub>) is orange-brown. As iodine is consumed by the reaction with thiosulfate, the colour disappears and the solution becomes colourless. This is the same colour change used as an endpoint signal in iodine-thiosulfate titrations."
+    },
+    {
+     "id": "qstnprt_gG2tQdHCpgW7Nfbp",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe tetrathionate ion, S~4~O~6~^2–^, is shown in Fig 1.1.\n\nDeduce the oxidation number of sulfur in the tetrathionate ion. Explain your answer.\n\nSodium tetrathionate can also be made by reacting sodium hydrogensulfite, NaHSO<sub>3</sub>, with disulfur dichloride, S<sub>2</sub>Cl<sub>2</sub>.\n\n2NaHSO<sub>3</sub> + S<sub>2</sub>Cl<sub>2</sub> → Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> + 2HCl\n\nState whether this reaction is an example of a disproportionation reaction. Explain your answer in terms of changes in oxidation numbers.",
+     "solution_md": "> **[mark-scheme]**\n> Whether this reaction is a disproportionation reaction:\n> \n> - This reaction is not a disproportionation reaction; disproportionation requires a single element in one reactant to be simultaneously oxidised and reduced **[1 mark]**\n> - Oxidation number of S in NaHSO<sub>3</sub> = +4 and is reduced to +2.5; oxidation number of S in S<sub>2</sub>Cl<sub>2</sub> = +1 and is oxidised to +2.5; the sulfur species undergoing oxidation and reduction are in different reactants **[1 mark]**\n\n> **[exam-tip]**\n> To find the oxidation number of S in NaHSO<sub>3</sub>: Na = +1, H = +1, each O = −2; the compound is neutral, so S + 1 + 1 + (3 x −2) = 0, giving S = +4.\n> \n> To find the oxidation number of S in S<sub>2</sub>Cl<sub>2</sub>: each Cl = −1; the compound is neutral, so 2S + 2(−1) = 0, giving S = +1.\n> \n> The average oxidation number of S in Na<sub>2</sub>S<sub>4</sub>O<sub>6</sub> = +2.5 (from Part (a)).\n> \n> In this reaction, sulfur from NaHSO<sub>3</sub> (S = +4) and sulfur from S<sub>2</sub>Cl<sub>2</sub> (S = +1) both change to +2.5 in the product. This is comproportionation — two species of the same element at different oxidation numbers converge to form a product at an intermediate oxidation number. Since oxidation and reduction occur in two different reactant species, this cannot be described as disproportionation."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kqSWHzZW8Cx2Wk22",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_SnTVQ9h73ntwBJy3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v",
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about redox reactions.\n\nWhen calcium reacts with Fe(NO<sub>3</sub>)<sub>2</sub>, a redox reaction occurs.\n\nCa (s) + Fe(NO<sub>3</sub>)<sub>2</sub> (aq) → Ca(NO<sub>3</sub>)<sub>2</sub> (aq) + Fe (s)\n\nExplain, in terms of electron transfer and oxidation numbers, which species has been oxidised and which has been reduced. Hence identify the reducing agent.",
+     "solution_md": "> **[mark-scheme]**\n> In terms of electron transfer and oxidation numbers, the oxidised and reduced species, and the reducing agent:\n> \n> - Ca / calcium has been oxidised; it loses electrons and its oxidation number increases from 0 to +2 **[1 mark]**\n> - Fe<sup>2+</sup> / iron has been reduced; it gains electrons and its oxidation number decreases from +2 to 0 **[1 mark]**\n> - Ca / calcium is the reducing agent **[1 mark]**\n> - Its oxidation number increases from 0 to +2\n> **OR**\n> it loses 2 electrons **[1 mark]**\n\n> **[exam-tip]**\n> In a redox reaction, oxidation and reduction always occur simultaneously. Use OIL RIG to remember:\n> \n> - Oxidation Is Loss of electrons; the oxidation number increases\n> - Reduction Is Gain of electrons; the oxidation number decreases\n> \n> The reducing agent is the species that is itself oxidised as it causes reduction in another species by donating electrons.\n> \n> In this reaction, Ca loses electrons (oxidation number 0 → +2) and acts as the reducing agent, while Fe<sup>2+</sup> gains electrons (oxidation number +2 → 0) and acts as the oxidising agent."
+    },
+    {
+     "id": "qstnprt_KfhbzpYndrcS2qrN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "State the systematic name of Fe(NO<sub>3</sub>)<sub>2</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The systematic name of Fe(NO<sub>3</sub>)<sub>2</sub> is:\n> \n> - Iron(II) nitrate(V) **[1 mark]**\n\n> **[exam-tip]**\n> Roman numerals in systematic names indicate the oxidation number of the element:\n> \n> - Fe is +2 in Fe(NO<sub>3</sub>)<sub>2</sub>: two NO<sub>3</sub><sup>-</sup> ions each carry a −1 charge, so Fe must be +2 for the compound to be neutral\n> - N is +5 in NO<sub>3</sub><sup>-</sup>: N + (3 × −2) = −1, so N = +5, shown by the Roman numeral (V)\n> \n> The Roman numeral for nitrate is often omitted in everyday language, but when asked for the systematic name it must be included."
+    },
+    {
+     "id": "qstnprt_p6Y467FMkCrk9r5D",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn",
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Another redox reaction occurs between cobalt(III) oxide, Co<sub>2</sub>O<sub>3</sub>, and hydrochloric acid, HCl.\n\nCo<sub>2</sub>O<sub>3</sub> (s) + 6HCl (aq) → 2CoCl<sub>2</sub> (aq) + 3H<sub>2</sub>O (l) + Cl<sub>2</sub> (g)\n\ni) Explain, in terms of oxidation numbers, what has been reduced.\n\n[2]\n\nii) A student describes this reaction as a disproportionation reaction. State whether the student is correct. Explain your answer using oxidation numbers.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The species that has been reduced:\n> \n> - Co has been reduced **[1 mark]**\n> - From +3 (in Co<sub>2</sub>O<sub>3</sub>) to +2 (in CoCl<sub>2</sub>) **[1 mark]**\n> \n> ii) Whether the student is correct:\n> \n> - The student is not correct; disproportionation requires the same species to be simultaneously oxidised and reduced **[1 mark]**\n> - Cl is only oxidised (from −1 in HCl to 0 in Cl<sub>2</sub>); the Cl in CoCl<sub>2</sub> remains at −1 and is not reduced **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), give the oxidation number of the species in both the reactant and product to show the change. A bare statement like \"Co is reduced\" without the oxidation numbers will not score the second mark.\n> \n> For part (ii), disproportionation requires the same element to be both oxidised and reduced in the same reaction. To gain both marks:\n> \n> 1. State whether the reaction is disproportionation\n> 2. Justify using oxidation numbers\n> \n> In this reaction, chlorine goes from −1 in HCl to 0 in Cl<sub>2</sub> (oxidised only — it is not reduced anywhere in the equation). Cobalt is reduced, not the same element as the one oxidised, so the reaction is not disproportionation."
+    },
+    {
+     "id": "qstnprt_5hQZgfmt4JTQFJwq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium oxide, MgO, reacts with nitric acid, HNO<sub>3</sub>, when heated.\n\nMgO (s) + 2HNO<sub>3</sub> (aq) → Mg(NO<sub>3</sub>)<sub>2</sub> (aq) + H<sub>2</sub>O (l)\n\ni) State the oxidation numbers of magnesium and nitrogen in the reactants and products by completing the table.\n\n|   | MgO | HNO<sub>3</sub> | Mg(NO<sub>3</sub>)<sub>2</sub> |\n|---|---|---|---|\n| Mg |   | – |   |\n| N | – |   |   |\n\n[2]\n\nii) Explain whether the reaction between magnesium oxide and nitric acid is a redox reaction.\n\n[1]",
+     "solution_md": "i) The completed table is:\n\n|   | MgO | HNO<sub>3</sub> | Mg(NO<sub>3</sub>)<sub>2</sub> |\n|---|---|---|---|\n| Mg | **Final answer:** **+2** | – | **Final answer:** **+2** |\n| N | – | **Final answer:** **+5** | **Final answer:** **+5** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for Mg = +2 in MgO **AND** Mg = +2 in Mg(NO<sub>3</sub>)<sub>2</sub>\n> \n> 1 mark for N = +5 in HNO<sub>3</sub> **AND** N = +5 in Mg(NO<sub>3</sub>)<sub>2</sub>\n> \n> ii) Whether the reaction is a redox reaction:\n> \n> - It is not a redox reaction; the oxidation numbers of all species remain unchanged\n> **OR**\n> Neither Mg nor N changes oxidation number **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), use the charge neutrality rule to work out each oxidation number:\n> \n> - In MgO: O is −2 and the compound is neutral, so Mg = +2\n> - In HNO<sub>3</sub>: H is +1, each O is −2, so N + 1 + (3 × −2) = 0, giving N = +5\n> - In Mg(NO<sub>3</sub>)<sub>2</sub>: Mg is always +2 in its compounds; the NO<sub>3</sub><sup>-</sup> group retains the same structure, so N = +5\n> \n> For part (ii), a redox reaction requires at least one element to change oxidation number. Since both Mg and N have identical oxidation numbers in the reactants and products, no electron transfer has occurred and this is not a redox reaction."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cStNzvHQXXb6cDjV",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_jGmrvzcrDys2WQrf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Under suitable conditions, SCl<sub>2</sub> reacts with water to produce a yellow precipitate of sulfur and a solution **A**. Solution **A** contains a mixture of SO<sub>2</sub> (aq) and compound **B**.\n\nState the oxidation number of sulfur in SCl<sub>2</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The oxidation number of sulfur in SCl<sub>2</sub> is:\n> \n> - +2 **[1 mark]**\n\n> **[exam-tip]**\n> To find the oxidation number of S in SCl<sub>2</sub>, use the rules:\n> \n> - Cl has oxidation number −1 in compounds\n> - The sum of oxidation numbers in a neutral compound = 0\n> \n> S + (2 × −1) = 0, so S = +2"
+    },
+    {
+     "id": "qstnprt_jRFMYY3mm99tfgT7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn",
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUnder suitable conditions, SCl~2~ reacts with water to produce a yellow precipitate of sulfur and a solution **A**. Solution **A** contains a mixture of SO~2~ (aq) and compound **B**.\n\ni) Deduce how the oxidation number of sulfur changes during the reaction of SCl<sub>2</sub> with water. Show your working.\n\n[2]\n\nii) Identify the type of reaction that occurs when SCl<sub>2</sub> reacts with water. Explain your answer in terms of changes in oxidation numbers.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) How the oxidation number of sulfur changes:\n> \n> - (Half the) sulfur goes from +2 to 0 (a decrease of 2) **[1 mark]**\n> - (The other half of the) sulfur goes from +2 to +4 (an increase of 2) **[1 mark]**\n> \n> ii) The type of reaction and explanation:\n> \n> - Disproportionation **[1 mark]**\n> - The same species (sulfur) is both oxidised and reduced; its oxidation number both increases (from +2 to +4) and decreases (from +2 to 0) **[1 mark]**\n\n> **[exam-tip]**\n> Disproportionation is a specific type of redox reaction in which the same element is simultaneously oxidised and reduced in a single reaction.\n> \n> In this reaction, sulfur in SCl<sub>2</sub> has oxidation number +2. After the reaction:\n> \n> - Some sulfur goes to 0 in the yellow precipitate of elemental S — this is reduction (decrease in oxidation number)\n> - Some sulfur goes to +4 in SO<sub>2</sub> — this is oxidation (increase in oxidation number)\n> \n> Since the same element (S) is both oxidised and reduced, this is disproportionation."
+    },
+    {
+     "id": "qstnprt_MzF9bNpbF33NgTPg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUnder suitable conditions, SCl~2~ reacts with water to produce a yellow precipitate of sulfur and a solution **A**. Solution **A** contains a mixture of SO~2~ (aq) and compound **B**.\n\ni) Suggest the identity of compound **B**.\n\n[1]\n\nii) Construct an equation for the reaction between SCl<sub>2</sub> and water.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The identity of compound **B**:\n> \n> - HCl **[1 mark]**\n> \n> ii) The equation for the reaction between SCl<sub>2</sub> and water:\n> \n> - 2SCl<sub>2</sub> (aq) + 2H<sub>2</sub>O (l) → S (s) + SO<sub>2</sub> (g) + 4HCl (aq) **[1 mark]**\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> The question provides most of the information needed:\n> \n> - Reactants: SCl<sub>2</sub> and H<sub>2</sub>O (water)\n> - Products: yellow precipitate of sulfur (S), SO<sub>2</sub>, and compound **B**\n> \n> The remaining elements in the products are H and Cl from the reactants, so compound **B** must be HCl. Once you identify HCl, write the unbalanced equation and then balance it by inspection:\n> \n> 2SCl<sub>2</sub> + 2H<sub>2</sub>O → S + SO<sub>2</sub> + 4HCl\n> \n> Note: identifying HCl in part (i) directly gives you the key product needed for the equation in part (ii)."
+    },
+    {
+     "id": "qstnprt_5Dz5XH3FBxqRkkfJ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zZKJqYbTPGy3vBTg",
+      "spcpt_qqWktwTJtr7snDF9",
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nUnder suitable conditions, SCl2 reacts with water to produce a yellow precipitate of sulfur and a solution A. Solution A contains a mixture of SO2 (aq) and compound B.\n\ni) Separate samples of solution **A** are tested with different reagents. Complete the table to describe what is observed when each reagent is added to solution **A**.\n\n| Reagent | Observation |\n|---|---|\n| AgNO<sub>3</sub> (aq) |   |\n| acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> (aq) |   |\n\n[2]\n\nii) State the systematic name of KMnO<sub>4</sub>.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) Observations when each reagent is added to solution **A**:\n> \n> - AgNO<sub>3</sub> (aq): white precipitate / ppt forms **[1 mark]**\n> - Acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> (aq): (turns from) orange to green **[1 mark]**\n> \n> ii) The systematic name of KMnO<sub>4</sub>:\n> \n> - Potassium manganate(VII) **[1 mark]**\n\n> **[exam-tip]**\n> For part (i):\n> \n> - Solution **A** contains SO<sub>2</sub> (aq) and HCl (aq). The AgNO<sub>3</sub> reacts with Cl<sup>-</sup> ions to form a white precipitate of AgCl: Ag<sup>+</sup> (aq) + Cl<sup>-</sup> (aq) → AgCl (s)\n> - Acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is an oxidising agent. SO<sub>2</sub> is a reducing agent that reduces the orange Cr<sub>2</sub>O<sub>7</sub><sup>2-</sup> ions to green Cr<sup>3+</sup> ions. This colour change from orange to green is also seen when K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is used to oxidise alcohols.\n> \n> For part (ii): in MnO<sub>4</sub><sup>-</sup>, the oxidation number of Mn is found from: Mn + (4 × −2) = −1, so Mn = +7, shown by the Roman numeral (VII)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_c98DBQgMgMZfMmZm",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_QwyT83ZFhrtPnVGs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe what is meant by a *disproportionation reaction*.",
+     "solution_md": "> **[mark-scheme]**\n> A disproportionation reaction is one in which:\n> \n> - A single species is simultaneously oxidised **AND **reduced **[1 mark]**\n\n> **[exam-tip]**\n> Both parts of the definition must be present for the mark: the same species must be both oxidised and reduced, and this must happen simultaneously. Stating only that oxidation and reduction occur is not enough. You must specify that it is the same species involved in both processes."
+    },
+    {
+     "id": "qstnprt_ptKshSQDBvPGzTYN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "State whether the displacement reaction between copper(II) ions and magnesium is an example of a disproportionation reaction. Explain your answer in terms of changes in oxidation numbers.\n\nCu<sup>2+</sup> (aq) + Mg (s) → Mg<sup>2+</sup> (aq) + Cu (s)",
+     "solution_md": "> **[mark-scheme]**\n> For the displacement reaction between copper(II) ions and magnesium:\n> \n> - This is not a disproportionation reaction **[1 mark]**\n> - The oxidation number of Cu<sup>2+</sup> decreases from +2 to 0 (reduction) and Mg increases from 0 to +2 (oxidation), so different species are oxidised and reduced\n> **OR**\n> Reduction and oxidation do not happen to the same species **[1 mark]**\n\n> **[exam-tip]**\n> For a reaction to be a disproportionation reaction, the same species must be both oxidised and reduced. In this reaction, Cu<sup>2+</sup> is reduced (oxidation number +2 → 0) and Mg is oxidised (oxidation number 0 → +2), but these are two different species. Because reduction and oxidation happen to different species, this is not disproportionation.\n> \n> Be careful not to confuse *dis*placement with *dis*proportionation as they are unrelated terms."
+    },
+    {
+     "id": "qstnprt_tr4phvBkgwMgSRkR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA disproportionation reaction is one in which a single species is simultaneously oxidised AND reduced.\n\ni) Construct an equation for the disproportionation reaction of sulfuric acid with copper(I) oxide to form copper, copper(II) sulfate and water.\n\n[1]\n\nii) Identify which element, in this reaction, undergoes disproportionation.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction of copper(I) oxide with sulfuric acid is:\n> \n> - H<sub>2</sub>SO<sub>4</sub> + Cu<sub>2</sub>O → Cu + CuSO<sub>4</sub> + H<sub>2</sub>O **[1 mark]**\n> \n> ii) The element that undergoes disproportionation is:\n> \n> - Copper / Cu **[1 mark]**\n\n> **[exam-tip]**\n> The only element that could undergo disproportionation is copper:\n> \n> - In copper(I) oxide, Cu has oxidation number +1\n> - In copper (the product), Cu has oxidation number 0 (reduced from +1 to 0)\n> - In copper(II) sulfate, Cu has oxidation number +2 (oxidised from +1 to +2)\n> \n> Copper is simultaneously reduced and oxidised from the same starting oxidation number (+1), confirming it undergoes disproportionation."
+    },
+    {
+     "id": "qstnprt_wkKsnjWVRGyk6rmB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Construct an equation for the reaction of nitrogen dioxide with water to form nitric acid and nitrous acid, HNO<sub>2</sub>.\n\n[1]\n\nii) Identify which element undergoes disproportionation.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction of nitrogen dioxide with water is:\n> \n> - 2NO<sub>2</sub> + H<sub>2</sub>O → HNO<sub>3</sub> + HNO<sub>2</sub> **[1 mark]**\n> \n> ii) The element that undergoes disproportionation is:\n> \n> - Nitrogen / N **[1 mark]**\n\n> **[exam-tip]**\n> Nitrogen is the only element that could undergo disproportionation in this reaction:\n> \n> - In nitrogen dioxide (NO<sub>2</sub>), N has oxidation number +4\n> - In nitric acid (HNO<sub>3</sub>), N has oxidation number +5 (oxidised from +4 to +5)\n> - In nitrous acid (HNO<sub>2</sub>), N has oxidation number +3 (reduced from +4 to +3)\n> \n> Nitrogen is simultaneously oxidised and reduced from the same starting oxidation number (+4), confirming this is a disproportionation reaction."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8jfRfX8995y6CphC",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_4Z97chnK9drwwzqy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v",
+      "spcpt_jGFrWZDkRVsdCjCm"
+     ],
+     "part_tier": null,
+     "problem_md": "Household bleach contains NaClO as its active ingredient.\n\nNaClO can be produced from the reaction between chlorine and aqueous sodium hydroxide.\n\ni) State the conditions required for NaClO to be produced from this reaction.\n\n[1]\n\nii) State the systematic name of NaClO.\n\n[1]\n\niii) When chlorine and sodium hydroxide react under different conditions, sodium chlorate(V) is produced. Deduce the formula of sodium chlorate(V).\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The conditions required for NaClO to be produced:\n> \n> - Cold / 15 °C **[1 mark]**\n> \n> ii) The systematic name of NaClO:\n> \n> - Sodium chlorate(I) **[1 mark]**\n> \n> iii) The formula of sodium chlorate(V):\n> \n> - NaClO<sub>3</sub> **[1 mark]**\n\n> **[exam-tip]**\n> NaClO and NaClO<sub>3</sub> are both produced when Cl<sub>2</sub> reacts with NaOH, but under different conditions:\n> \n> - Cold / dilute NaOH (approximately 15 °C) → NaClO (sodium chlorate(I))\n> - Hot / concentrated NaOH (approximately 70 °C) → NaClO<sub>3</sub> (sodium chlorate(V))\n> \n> The Roman numerals indicate the oxidation number of chlorine:\n> \n> - In NaClO: Na = +1, O = −2, so Cl = +1, shown by (I)\n> - In NaClO<sub>3</sub>: Na = +1, three O = −6, so Cl = +5, shown by (V)\n> \n> To deduce the formula of sodium chlorate(V): chlorate(V) means the ClO<sub>x</sub><sup>n-</sup> ion with Cl in oxidation state +5. With Cl = +5 and three O atoms (3 × −2 = −6), the ion charge is +5 − 6 = −1, giving ClO<sub>3</sub><sup>-</sup>. Combined with Na<sup>+</sup>: NaClO<sub>3</sub>."
+    },
+    {
+     "id": "qstnprt_z5p3gCcnqYWWq2M4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn",
+      "spcpt_jGFrWZDkRVsdCjCm"
+     ],
+     "part_tier": null,
+     "problem_md": "The balanced symbol equation showing the reaction of chlorine and sodium hydroxide to form NaClO is shown below.\n\nCl<sub>2</sub> (aq) + 2NaOH (aq) → NaClO (aq) + NaCl (aq) + H<sub>2</sub>O (l)\n\ni) Construct an ionic equation for this reaction.\n\n[1]\n\nii) Explain, in terms of changes in oxidation numbers, why this is an example of a disproportionation reaction.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The ionic equation for this reaction is:\n> \n> - Cl<sub>2</sub> + 2OH<sup>-</sup> → Cl<sup>-</sup> + ClO<sup>-</sup> + H<sub>2</sub>O **[1 mark]**\n> \n> State symbols are not required.\n> \n> ii) This is a disproportionation reaction because:\n> \n> - The same species / element is both oxidised and reduced **[1 mark]**\n> - Cl is oxidised from 0 (in Cl<sub>2</sub>) to +1 (in ClO<sup>-</sup>)\n> **AND**\n> Cl is reduced from 0 (in Cl<sub>2</sub>) to −1 (in NaCl / Cl<sup>-</sup>) **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), to write the ionic equation:\n> \n> 1. Replace all soluble ionic compounds with their separated ions\n> 2. Cancel spectator ions (those unchanged on both sides)\n> \n> Na<sup>+</sup> is a spectator ion and cancels out, giving:\n> \n> Cl<sub>2</sub> + 2OH<sup>-</sup> → Cl<sup>-</sup> + ClO<sup>-</sup> + H<sub>2</sub>O\n> \n> For part (ii), the two marks require:\n> \n> 1. A statement that the same element (Cl) is both oxidised and reduced\n> 2. Specific oxidation number evidence for both the oxidation AND the reduction\n> \n> Both the oxidation and reduction with their oxidation number values must be stated to score the second mark."
+    },
+    {
+     "id": "qstnprt_PS6CjdfyPk3JkNYb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "The concentration of NaClO in bleach can be found by reacting it with hydrogen peroxide, H<sub>2</sub>O<sub>2</sub>.\n\nNaClO (aq) + H<sub>2</sub>O<sub>2</sub> (aq) → NaCl (aq) + O<sub>2</sub> (g) + H<sub>2</sub>O (l)\n\nExplain, using oxidation numbers, why chlorine has been reduced in this reaction.",
+     "solution_md": "> **[mark-scheme]**\n> Chlorine has been reduced in this reaction because:\n> \n> - The oxidation number of Cl decreases from +1 (in NaClO) to −1 (in NaCl) **[1 mark]**\n\n> **[exam-tip]**\n> To show reduction using oxidation numbers, state:\n> \n> 1. The oxidation number of the element in the reactant\n> 2. The oxidation number of the element in the product\n> 3. That the oxidation number has decreased (meaning the species has been reduced)\n> \n> A decrease in oxidation number = reduction. In this case, Cl goes from +1 to −1 (a decrease of 2), confirming reduction. Note also that hydrogen peroxide is oxidised in this reaction: O goes from −1 in H<sub>2</sub>O<sub>2</sub> to 0 in O<sub>2</sub> (an increase in oxidation number)."
+    },
+    {
+     "id": "qstnprt_bMHsMjTQVzsgNkTJ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe concentration of NaClO in bleach can be found by reacting it with hydrogen peroxide, H₂O₂.\n\nNaClO (aq) + H₂O₂ (aq) → NaCl (aq) + O₂ (g) + H₂O (l)\n\nA student reacted an excess of aqueous hydrogen peroxide with 10.0 cm<sup>3</sup> of a sample of bleach. They collected 108 cm<sup>3</sup> of oxygen gas. Assume that under the conditions used, the molar gas volume is 24.0 dm<sup>3</sup> mol<sup>-1</sup>.\n\nCalculate the concentration of NaClO in the bleach, in g per 100 cm<sup>3</sup>. Show your working.\n\nconcentration of NaClO = ................................. g per 100 cm<sup>3</sup>",
+     "solution_md": "To calculate the concentration of NaClO in the bleach:\n\n- List the known values:\n\n- volume of O<sub>2</sub> collected = 108 cm<sup>3</sup>\n- molar gas volume = 24.0 dm<sup>3</sup> mol<sup>-1</sup> = 24 000 cm<sup>3</sup> mol<sup>-1</sup>\n- volume of bleach = 10.0 cm<sup>3</sup> = 0.0100 dm<sup>3</sup>\n- *M*<sub>r</sub> (NaClO) = 23.0 + 35.5 + 16.0 = 74.5 g mol<sup>-1</sup>\n\n- Calculate the moles of O<sub>2</sub>:\n\n*n*(O<sub>2</sub>) = V (cm<sup>3</sup>) ÷ 24 000\n\n*n*(O<sub>2</sub>) = 108 ÷ 24 000\n\n*n*(O<sub>2</sub>) = **4.50 x 10**<sup>**-3**</sup> mol **[1 mark]**\n\n- Deduce the moles of NaClO from the 1:1 molar ratio in the equation:\n\n*n*(NaClO) = *n*(O<sub>2</sub>)\n\n*n*(NaClO) = **4.50 x 10**<sup>**-3**</sup> mol **[1 mark]**\n\n- Calculate the concentration of NaClO in mol dm<sup>-3</sup>:\n\nconcentration = $\\frac{n}{V}$\n\nconcentration = $\\frac{4.50\\times10^{-3}}{0.0100}$\n\nconcentration = **0.450 mol dm**<sup>**-3**</sup> **[1 mark]**\n\n- Calculate the concentration in g dm<sup>-3</sup>:\n\nconcentration (g dm<sup>-3</sup>) = concentration (mol dm<sup>-3</sup>) x *M*<sub>r</sub>(NaClO)\n\n= 0.450 x 74.5\n\n= **33.5 g dm**<sup>**-3**</sup> **[1 mark]**\n\n- Convert to g per 100 cm<sup>3</sup>:\n\nconcentration (g per 100 cm<sup>3</sup>) = 33.5 ÷ 10\n\n= **3.35 g per 100 cm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *n*(O<sub>2</sub>) = 4.50 × 10<sup>-3</sup> mol\n> \n> 1 mark for *n*(NaClO) = 4.50 × 10<sup>-3</sup> mol\n> \n> 1 mark for concentration = 0.450 mol dm<sup>-3</sup>\n> \n> 1 mark for mass concentration = 33.5 g dm<sup>-3</sup>\n> \n> 1 mark for 3.35 g per 100 cm<sup>3</sup>\n> \n> Allow error carried forward if an earlier calculation is incorrect.\n\n> **[exam-tip]**\n> This question requires several unit conversions:\n> \n> - Volume of gas: divide by 24 000 (not 24) to convert from cm<sup>3</sup> to mol using the molar gas volume in dm<sup>3</sup> mol<sup>-1</sup>; alternatively, divide by 1000 first to get dm<sup>3</sup>, then divide by 24.0\n> - Volume of bleach: divide 10.0 cm<sup>3</sup> by 1000 to get 0.0100 dm<sup>3</sup> before calculating concentration in mol dm<sup>-3</sup>\n> - Final conversion: 33.5 g dm<sup>-3</sup> means 33.5 g in 1000 cm<sup>3</sup>; divide by 10 to get g per 100 cm<sup>3</sup>\n> \n> The molar ratio of NaClO to O<sub>2</sub> is 1:1 from the equation, so moles of NaClO equal moles of O<sub>2</sub> directly.",
+     "equations": [
+      {
+       "latex": "\\frac{n}{V}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>n</mi><mi>V</mi></mfrac></math>",
+       "alt": "\\frac{n}{V}"
+      },
+      {
+       "latex": "\\frac{4.50\\times10^{-3}}{0.0100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>50</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>0100</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.50 \\times 10^{-3}}{0.0100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7gsMH2HHH5jzjd7H",
+   "set_slug": "structured-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_SvfhsxFncxF3skK6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Photochromic glass contains an evenly distributed mixture of copper(I) chloride and silver(I) chloride. When ultraviolet light passes through the glass, the silver(I) chloride is separated into its ions. The chloride ions are then converted into chlorine atoms and the silver(I) ions into silver atoms. The silver atoms cluster together causing the lenses of photochromic glasses to darken.\n\nConstruct two ionic half-equations for the processes involved in the darkening of photochromic glasses. State whether each process is oxidation or reduction. Explain your answer in terms of electron transfer.",
+     "solution_md": "The two ionic half-equations for the processes involved in the darkening are:\n\nCl<sup>–</sup> (aq) → Cl (aq) + e<sup>–</sup>\n\nAg<sup>+</sup> (aq) + e<sup>–</sup> → Ag (s)\n\n- The first reaction is oxidation; chloride ions lose electrons (oxidation number of Cl increases from −1 to 0)\n- The second reaction is reduction; silver ions gain electrons (oxidation number of Ag decreases from +1 to 0)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for both ionic half-equations correct\n> \n> 1 mark for correctly identifying the Cl<sup>–</sup> half-equation as oxidation (Cl<sup>–</sup> loses electrons / oxidation number increases from −1 to 0) **AND** the Ag<sup>+</sup> half-equation as reduction (Ag<sup>+</sup> gains electrons / oxidation number decreases from +1 to 0)\n> \n> The dissociation AgCl → Ag<sup>+</sup> + Cl<sup>–</sup> is not a redox process and should not be included as a half-equation\n\n> **[exam-tip]**\n> Use OIL RIG to classify the half-equations:\n> \n> - Oxidation Is Loss: Cl<sup>–</sup> loses one electron per ion (Cl<sup>–</sup> → Cl + e<sup>–</sup>); this is oxidation\n> - Reduction Is Gain: Ag<sup>+</sup> gains one electron per ion (Ag<sup>+</sup> + e<sup>–</sup> → Ag); this is reduction\n> \n> The dissociation of AgCl into ions (AgCl → Ag<sup>+</sup> + Cl<sup>–</sup>) is described in the stem but is not a redox process as there is no transfer of electrons and no change in oxidation numbers."
+    },
+    {
+     "id": "qstnprt_Szsb77Nb9R8s2Kbn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPhotochromic glass contains an evenly distributed mixture of copper(I) chloride and silver(I) chloride. When ultraviolet light passes through the glass, the silver(I) chloride is separated into its ions. The chloride ions are then converted into chlorine atoms and the silver(I) ions into silver atoms. The silver atoms cluster together causing the lenses of photochromic glasses to darken.\n\nIdentify the oxidising agent in the darkening process described in part (a). Explain your answer in terms of changes in oxidation number.",
+     "solution_md": "> **[mark-scheme]**\n> The oxidising agent in the darkening process described in part (a):\n> \n> - Ag<sup>+</sup> / silver(I) ions **[1 mark]**\n> - The oxidation number of silver decreases from +1 in Ag<sup>+</sup> to 0 in Ag; a decrease in oxidation number indicates reduction, so Ag<sup>+</sup> gains electrons and acts as the oxidising agent **[1 mark]**\n\n> **[exam-tip]**\n> The oxidising agent is the species that causes oxidation in another — it does so by accepting electrons and is itself reduced. In this reaction, Ag<sup>+</sup> ions are reduced (oxidation number +1 → 0, gaining electrons to form Ag atoms), so Ag<sup>+</sup> is the oxidising agent.\n> \n> The reducing agent is Cl<sup>–</sup>, which loses electrons and is itself oxidised (oxidation number −1 → 0)."
+    },
+    {
+     "id": "qstnprt_kb6MPQNk7ymGkyrY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nx5frdwgZfGBzYhj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPhotochromic glass contains an evenly distributed mixture of copper(I) chloride and silver(I) chloride. When ultraviolet light passes through the glass, the silver(I) chloride is separated into its ions. The chloride ions are then converted into chlorine atoms and the silver(I) ions into silver atoms. The silver atoms cluster together causing the lenses of photochromic glasses to darken.\n\nThe two ionic half-equations for the processes involved in the darkening are:\nCl⁻ (aq) → Cl (aq) + e⁻\nAg⁺ (aq) + e⁻ → Ag (s)\n\nThe darkening process caused by the formation of silver atoms is reversible. Copper(I) chloride first reacts with the chlorine atoms from part (a) to form copper(II) chloride. Copper(II) chloride then reacts with the silver atoms from part (a) to reform silver(I) chloride.\n\nConstruct two equations to represent these reactions.",
+     "solution_md": "The two equations for the reactions that cause the lens to lighten are:\n\nCuCl + Cl → CuCl<sub>2</sub>\n\nCuCl<sub>2</sub> + Ag → CuCl + AgCl\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for CuCl + Cl → CuCl<sub>2</sub>\n> **OR**\n> Cu<sup>+</sup> + Cl → Cu<sup>2+</sup> + Cl<sup>–</sup>\n> \n> 1 mark for CuCl<sub>2</sub> + Ag → CuCl + AgCl\n> **OR**\n> Cu<sup>2+</sup> + Ag → Cu<sup>+</sup> + Ag<sup>+</sup>\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> The available species are CuCl, Cl atoms (from Part (a)), and Ag atoms (from Part (a)).\n> \n> - Step 1: CuCl reacts with Cl atoms. Cu<sup>+</sup> is oxidised to Cu<sup>2+</sup> and Cl atoms are reduced from 0 to −1, producing CuCl<sub>2</sub>.\n> - Step 2: CuCl<sub>2</sub> reacts with Ag atoms. Cu<sup>2+</sup> is reduced to Cu<sup>+</sup> (accepting electrons from Ag), and Ag is oxidised from 0 to +1, producing AgCl.\n> \n> Note: silver cannot displace copper from CuCl because copper is above silver in the reactivity series."
+    },
+    {
+     "id": "qstnprt_33V9njHcQ4gc9fBc",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Copper(I) chloride, similar to that used in photochromic glass, can be made in the laboratory by the following method:\n\n- Warm 0.5 g copper(II) oxide with 5 cm<sup>3</sup> concentrated hydrochloric acid for 1 minute.\n- Add 1.0 g of copper turnings.\n- Gently boil for 5 minutes.\n- Filter the solution into 250 cm<sup>3</sup> of deionised water.\n- Allow the copper(I) chloride precipitate to settle.\n- Decant the liquid.\n- Allow the copper(I) chloride to dry.\n\ni) Construct an equation for the reaction described. Include state symbols.\n\n[1]\n\nii) A student states that the reaction in (i) is a disproportionation reaction. State whether the student is correct. Explain your answer in terms of changes in oxidation numbers.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction, including state symbols:\n> \n> - CuO (s) + Cu (s) + 2HCl (aq) → 2CuCl (s) + H<sub>2</sub>O (l) **[1 mark]**\n> \n> ii) Whether the student is correct:\n> \n> - The student is not correct; this is not a disproportionation reaction **[1 mark]**\n> - Disproportionation requires a single element in one reactant to be simultaneously oxidised and reduced; in this reaction, copper in CuO (+2) is reduced to +1 and copper in Cu (0) is oxidised to +1, but these are two different reactants **[1 mark]**\n\n> **[exam-tip]**\n> For part (i): HCl is aqueous, not liquid — include (aq) not (l) for hydrochloric acid. All state symbols are required by the question.\n> \n> For part (ii): disproportionation is a type of redox reaction in which the same element in a single substance is simultaneously oxidised and reduced. In this reaction, Cu<sup>2+</sup> (from CuO, oxidation number +2) is reduced to +1 and Cu (copper turnings, oxidation number 0) is oxidised to +1. Since the two copper species come from two different reactants, this is comproportionation, not disproportionation."
+    }
+   ]
+  },
+  {
+   "id": "qstn_565y5vWMKr55TFzf",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_yngv8h7cYPvHBVCk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xNhdSSTW5sNGvVHn"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by the term *reduction* in terms of electrons and oxidation number.",
+     "solution_md": "> **[mark-scheme]**\n> Reduction in terms of electrons and oxidation number:\n> \n> - Gain / addition of electrons **[1 mark]**\n> - Decrease in oxidation number **[1 mark]**\n\n> **[exam-tip]**\n> You need to know both definitions as examiners may ask for either or both in different questions.\n> \n> Loss of oxygen is an older definition of reduction that is still acceptable in some contexts, but questions that specify \"in terms of electrons and oxidation number\" require the two definitions above."
+    },
+    {
+     "id": "qstnprt_XG8Pq5tBG9QFKmBb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 2.1 to show the oxidation number of the specified element in each species.\n\n**Table 2.1**\n\n| **Species** | **Oxidation number** |\n|---|---|\n| vanadium in VO<sub>2</sub><sup>+</sup> |   |\n| sulfur in H<sub>2</sub>SO<sub>3</sub> |   |\n| lead in PbO<sub>2</sub> |   |\n| antimony in SbCl<sub>3</sub> |   |",
+     "solution_md": "The completed table is:\n\n| **Species** | **Oxidation number** |\n|---|---|\n| vanadium in VO<sub>2</sub><sup>+</sup> | **Final answer:** **+5** |\n| sulfur in H<sub>2</sub>SO<sub>3</sub> | **Final answer:** **+4** |\n| lead in PbO<sub>2</sub> | **Final answer:** **+4** |\n| antimony in SbCl<sub>3</sub> | **Final answer:** **+3** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for two or three values correct\n> \n> 1 mark for all four values correct: vanadium = +5, sulfur = +4, lead = +4, antimony = +3\n\n> **[exam-tip]**\n> To find the oxidation number, use the standard rules and set up an equation:\n> \n> - Oxygen is always -2 in compounds (except OF<sub>2</sub>)\n> - Hydrogen is always +1 in compounds (except in hydrides)\n> - Halogens (Cl, Br, I) are always -1 in compounds (except when bonded to a more electronegative element)\n> - Oxidation numbers must sum to the overall charge of the species\n> \n> Work through each species:\n> \n> - VO<sub>2</sub><sup>+</sup>: V + 2(-2) = +1, so V = +5\n> - H<sub>2</sub>SO<sub>3</sub>: 2(+1) + S + 3(-2) = 0, so S = +4\n> - PbO<sub>2</sub>: Pb + 2(-2) = 0, so Pb = +4\n> - SbCl<sub>3</sub>: Sb + 3(-1) = 0, so Sb = +3"
+    },
+    {
+     "id": "qstnprt_jNJ9B5R47qJj2rrD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nd5pJqStQ2PDbW7v"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 2.2 to show the formula of each compound.\n\n**Table 2.2**\n\n| **Compound** | **Formula** |\n|---|---|\n| copper(I) oxide |   |\n| iron(III) chloride |   |\n| tin(IV) chloride |   |\n| vanadium(II) oxide |   |",
+     "solution_md": "The completed table is:\n\n| **Compound** | **Formula** |\n|---|---|\n| copper(I) oxide | **Final answer:** **Cu**<sub>**2**</sub>**O** |\n| iron(III) chloride | **Final answer:** **FeCl**<sub>**3**</sub> |\n| tin(IV) chloride | **Final answer:** **SnCl**<sub>**4**</sub> |\n| vanadium(II) oxide | **Final answer:** **VO** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for one formula correct\n> \n> 1 mark for two or three formulae correct\n> \n> 1 mark for all four formulae correct: Cu<sub>2</sub>O, FeCl<sub>3</sub>, SnCl<sub>4</sub>, VO\n\n> **[exam-tip]**\n> To deduce the formula from a systematic name, use the Roman numeral as the oxidation number of the metal, then find the ratio of ions that balances the charges to zero:\n> \n> - copper(I) oxide: Cu is +1, O is -2. Need 2 Cu (+2) for 1 O (-2), so the formula is Cu<sub>2</sub>O\n> - iron(III) chloride: Fe is +3, Cl is -1. Need 3 Cl (-3) for 1 Fe (+3), so the formula is FeCl<sub>3</sub>\n> - tin(IV) chloride: Sn is +4, Cl is -1. Need 4 Cl (-4) for 1 Sn (+4), so the formula is SnCl<sub>4</sub>\n> - vanadium(II) oxide: V is +2, O is -2. Charges balance 1:1, so the formula is VO"
+    }
+   ]
+  }
+ ]
+}

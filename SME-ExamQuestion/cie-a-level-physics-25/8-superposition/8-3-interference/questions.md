@@ -1,6 +1,6 @@
 # Exam Questions — Interference
 **8. Superposition** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 16 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 24 questions across 2 sets
 
 
 ## Multiple Choice Questions (16 questions)
@@ -159,3 +159,396 @@ The equipment was set up as in the diagram to investigate the interference of a 
 ![cie-ial-images403png](assets/009-cie-ial-images403png.png)
 
 Which of the following changes would increase the fringe spacing?
+
+## Structured Questions (8 questions)
+
+
+### Q1 — medium — 12 marks
+
+**Q1** [3 marks]
+
+Fig. 1.1 shows an arrangement for observing the interference pattern produced by laser light passing through two narrow slits S<sub>1 </sub>and S<sub>2</sub>.
+
+![9-3-hl-sq-medium-q2a-diag](assets/010-9-3-hl-sq-medium-q2a-diag.png)
+
+**Fig. 1.1**
+
+The distance S<sub>1</sub>S<sub>2</sub> is *d*, and the distance between the double slit and the screen is *D,* where *D *≫ *d*, so angles *θ* and *ϕ* are small.
+
+M is the midpoint of S<sub>1</sub>S<sub>2 </sub>and it is observed that there is a bright fringe at point A on the screen, a distance *f*<sub>*n*</sub> from point O on the screen. Light from S<sub>2 </sub>travels a distance S<sub>2</sub>Y further to point A than light from S<sub>1</sub>.
+
+The wavelength of light from the laser is 650 nm and the angular separation of the bright fringes on the screen is 5.00 × 10<sup>−4</sup> rad.
+
+Calculate the distance between the two slits.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows an arrangement for observing the interference pattern produced by laser light passing through two narrow slits S~1 ~and S~2~. The distance S~1~S~2~ is *d*, and the distance between the double slit and the screen is *D,* where *D *≫ *d*, so angles *θ* and *ϕ* are small. M is the midpoint of S~1~S~2 ~and it is observed that there is a bright fringe at point A on the screen, a distance *f*~*n*~ from point O on the screen. Light from S~2 ~travels a distance S~2~Y further to point A than light from S~1~.
+
+A bright fringe is observed at A.
+
+(i) Explain the conditions required in the paths of the rays coming from S<sub>1 </sub>and S<sub>2</sub> to obtain this bright fringe.
+
+[2]
+
+(ii) State an equation in terms of wavelength for the distance S<sub>2</sub>Y.
+
+[1]
+
+**Q1** [4 marks]
+
+**Extract:**
+
+Fig. 1.1 shows an arrangement for observing the interference pattern produced by laser light passing through two narrow slits S1 and S2. The distance S1S2 is d, and the distance between the double slit and the screen is D, where D ≫ d, so angles θ and ϕ are small. M is the midpoint of S1S2 and it is observed that there is a bright fringe at point A on the screen, a distance fn from point O on the screen. Light from S2 travels a distance S2Y further to point A than light from S1.
+
+Determine expressions for the following angles in the double-slit arrangement shown in part a:
+
+(i) *θ* in terms of S<sub>2</sub>Y and *d*
+
+[2]
+
+(ii) *ϕ* in terms of *D* and *f*<sub>*n*</sub>
+
+[2]
+
+**Q1** [2 marks]
+
+**Extract:**
+
+A bright fringe is observed at A. (ii) State an equation in terms of wavelength for the distance S~2~Y. Mark scheme: S~2~Y = nλ (where n is an integer).
+
+Determine expressions for the following angles in the double-slit arrangement: (i) θ in terms of S~2~Y and d. Mark scheme: θ = S~2~Y/d.
+
+The separation of the slits S<sub>1 </sub>and S<sub>2 </sub>is 1.30 mm.
+
+The distance MO is 1.40 m.
+
+The distance *f*<sub>*n*</sub> is the distance of the ninth bright fringe from O and the angle *θ *is 3.70 × 10<sup>−3</sup> radians.
+
+Calculate the wavelength of the laser light.
+
+### Q2 — hard — 10 marks
+
+**Q2** [3 marks]
+
+Two coherent sources, A and B, which are in phase with each other, emit microwaves of wavelength 40.0 mm.
+
+A detector is placed at the point P where it is 0.93 m from A and 1.19 m from B, as shown in Fig. 1.1. The centre axis is normal and a bisector to the straight line joining A and B.** **
+
+![3-3-s-q--q2a-hard-aqa-a-level-physics](assets/013-3-3-s-q-q2a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Deduce whether the detected signal at P is a maximum or minimum.
+
+**Q2** [3 marks]
+
+**Extract:**
+
+Two coherent sources, A and B, which are in phase with each other, emit microwaves of wavelength 40.0 mm. A detector is placed at the point P where it is 0.93 m from A and 1.19 m from B, as shown in Fig. 1.1. The centre axis is normal and a bisector to the straight line joining A and B. Deduce whether the detected signal at P is a maximum or minimum. [Answer: Path difference BP – AP = 1.19 – 0.93 = 0.26 m = 6.5λ, so the signal at P is a minimum. O is on the bisector where AO = BO, path difference = 0 m, so O is a maximum.]
+
+The amplitude of the waves emitted from source B is twice that of the waves emitted from source A.
+
+Calculate the ratio of the intensity at** **P to the intensity at O.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+Two coherent sources, A and B, which are in phase with each other, emit microwaves of wavelength 40.0 mm. A detector is placed at the point P where it is 0.93 m from A and 1.19 m from B, as shown in Fig. 1.1. The centre axis is normal and a bisector to the straight line joining A and B.
+Path difference BP – AP = 1.19 – 0.93 = 0.26 m; Number of wavelengths: n = path difference/wavelength = 0.26/(40 × 10^-3) = 6.5. Since path difference = 6.5λ, the magnitude of the signal at P is a minimum.
+The path difference between AO and BO is zero, therefore the amplitude at O is a maximum.
+
+Determine the total number of maxima and minima detected by the detector as it moves from P to O.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+Two coherent sources, A and B, which are in phase with each other, emit microwaves of wavelength 40.0 mm. A detector is placed at the point P where it is 0.93 m from A and 1.19 m from B, as shown in Fig. 1.1. The centre axis is normal and a bisector to the straight line joining A and B. Deduce whether the detected signal at P is a maximum or minimum. [From mark scheme: Path difference BP – AP = 1.19 – 0.93 = 0.26 m = 6.5λ, so microwaves arrive at P with a phase difference of 180° and interfere destructively; the magnitude of the signal at P is a minimum.]
+
+Source B is altered to emit waves that are 180° out of phase with source A.
+
+Describe and explain the change in the appearance of the interference pattern at P.
+
+### Q3 — medium — 11 marks
+
+**Q3** [6 marks]
+
+A student is conducting a series of investigations on diffraction and interference with two slits.
+
+In the first investigation, monochromatic light passes through a double-slit arrangement. The intensity of the fringes varies with distance from the central fringe. This is observed on a screen, as shown in Fig. 1.1.
+
+![9-3-hl-sq-medium-q1a](assets/015-9-3-hl-sq-medium-q1a.png)
+
+**Fig. 1.1**
+
+The intensity of the monochromatic light passing through one of the slits is reduced.
+
+Explain the effect of this change on the appearance of
+
+(i) The dark fringes.
+
+[3]
+
+(ii) The bright fringes.
+
+[3]
+
+**Q3** [2 marks]
+
+**Extract:**
+
+A student is conducting a series of investigations on diffraction and interference with two slits. In the first investigation, monochromatic light passes through a double-slit arrangement.
+
+In another experiment, the monochromatic light is replaced by orange light of wavelength 600 nm. The double-slit has a separation of 0.350 mm and the screen is 6.35 m away.
+
+Calculate the distance between the central and first maximum as seen on the screen.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+A student is conducting a series of investigations on diffraction and interference with two slits. In the first investigation, monochromatic light passes through a double-slit arrangement. The intensity of the fringes varies with distance from the central fringe. This is observed on a screen.
+
+In another experiment, the monochromatic light is replaced by orange light of wavelength 600 nm. The double-slit has a separation of 0.350 mm and the screen is 6.35 m away.
+
+The light source is now changed to a blue LED of wavelength 450 nm.
+
+Explain the features of the interference pattern that will now be observed on the screen.
+
+### Q4 — hard — 11 marks
+
+**Q4** [3 marks]
+
+A student designs an experiment to replicate Young’s double-slit demonstration.
+
+The student uses a candle as a light source, with a piece of coloured filter paper to produce monochromatic light. They consider additional apparatus required to observe an interference pattern.
+
+Sketch a diagram of the experimental setup the student should use to observe an interference pattern.
+
+Label all apparatus and relevant measurements to be taken.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A student designs an experiment to replicate Young's double-slit demonstration. The student uses a candle as a light source, with a piece of coloured filter paper to produce monochromatic light. They consider additional apparatus required to observe an interference pattern.
+
+The student labels the two slits on the double-slit grating slit X and slit Y.
+
+The student then paints over slit X, such that the intensity of light emerging from it is 50% of the intensity emerging from slit Y.
+
+Explain the effects, if any, this will have on the student’s observations.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A student designs an experiment to replicate Young's double-slit demonstration. The student uses a candle as a light source, with a piece of coloured filter paper to produce monochromatic light. They consider additional apparatus required to observe an interference pattern.
+
+Slit separation a labelled as the distance between the centre of the slits; Distance between the double slit and the screen labelled D.
+
+The student finishes setting up their apparatus and makes a quick note of two separate measurements in a lab book as shown in Fig. 1.1. ** **
+
+![3-3-s-q--q1c-image-1-hard-aqa-a-level-physics](assets/017-3-3-s-q-q1c-image-1-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+They then plot a graph of the intensity of light against the distance from the centre of the screen, represented by the origin as shown in Fig. 1.2.** **
+
+![3-3-s-q--q1c-image-2-hard-aqa-a-level-physics](assets/018-3-3-s-q-q1c-image-2-hard-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+Determine which colour of filter paper the student most likely chose for this experiment, using the information in Fig. 1.1 and Fig. 1.2.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+They then plot a graph of the intensity of light against the distance from the centre of the screen, represented by the origin as shown in Fig. 1.2. Fig. 1.2 [graph of Intensity vs Distance / mm showing central maximum at 0 mm, first bright fringe maximum at 2.2 mm, and half max intensity at 2.8 mm]
+
+Determine the phase angle between the waves meeting at the point that is 2.8 mm from the centre of the screen.
+
+### Q5 — medium — 8 marks
+
+**Q5** [3 marks]
+
+Fig. 1.1 shows schematically an arrangement for producing interference fringes using a double slit.
+
+![double-slit](assets/021-double-slit.png)
+
+**Fig. 1.1**
+
+There are two slits at points A and B and a bright fringe (maximum intensity) is observed at the point labelled P.
+
+Explain how the path difference determines that the light intensity at point P is a maximum.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows schematically an arrangement for producing interference fringes using a double slit. There are two slits at points A and B and a bright fringe (maximum intensity) is observed at the point labelled P.
+
+The light source has a wavelength of 45 mm.
+
+The distance from A to P = 1.13 m and from B to P is 1.40 m.
+
+Show that the light intensity at point P is a maximum.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 shows schematically an arrangement for producing interference fringes using a double slit. There are two slits at points A and B and a bright fringe (maximum intensity) is observed at the point labelled P.
+
+The light source used in Fig. 1.1 is monochromatic but not coherent.
+
+Explain the purpose of the single slit to observe clear interference fringes.
+
+### Q6 — easy — 9 marks
+
+**Q6** [3 marks]
+
+The distance between the bright fringes in a double-slit interference pattern can be determined by the double-slit equation
+
+$x=\frac{λD}{a}$
+
+Identify which  quantity matches the associated symbol.
+
+![8-3-interference-e-q3](assets/022-8-3-interference-e-q3.png)
+
+**Q6** [2 marks]
+
+Red laser light is used to form a double-slit interference pattern on a screen, as shown in Fig. 1.1.
+
+![8-3-interference-e-q3b](assets/024-8-3-interference-e-q3b.png)
+
+**Fig. 1.1**
+
+The distance between the bright fringes depends on the wavelength of the incident light.
+
+Describe how the interference pattern would change if blue laser light were used.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+The distance between the bright fringes in a double-slit interference pattern can be determined by the double-slit equation x = λD/a
+
+When red laser light of wavelength 650 nm is used to form a double-slit interference pattern on the screen, the separation between the slits is 0.2 mm, and the distance between the slits and the screen is 1.2 m.
+
+Calculate the separation between the fringes on the screen*.*
+
+**Q6** [2 marks]
+
+**Extract:**
+
+Red laser light is used to form a double-slit interference pattern on a screen, as shown in Fig. 1.1.
+
+Explain why there is no bright fringe at point P.
+
+### Q7 — easy — 8 marks
+
+**Q7** [1 mark]
+
+State what is meant by the term *monochromatic source*.
+
+**Q7** [1 mark]
+
+Describe the conditions for destructive interference.
+
+**Q7** [4 marks]
+
+Fig. 1.1 shows the wavefronts emitted from two point sources s<sub>1</sub> and s<sub>2</sub>.
+
+![4-4-4c-question-stem-sl-sq-easy-phy](assets/029-4-4-4c-question-stem-sl-sq-easy-phy.png)
+
+**Fig. 1.1**
+
+At point P, determine
+
+(i) the path difference between the waves
+
+[3]
+
+(ii) whether constructive or destructive interference occurs.
+
+[1]
+
+**Q7** [2 marks]
+
+Fig. 1.2 shows two sources of coherent light producing a double-slit interference pattern.
+
+![4-4-4d-question-stem-sl-sq-easy-phy](assets/032-4-4-4d-question-stem-sl-sq-easy-phy.png)
+
+**Fig. 1.2**
+
+Determine whether constructive or destructive interference occurs at:
+
+(i) point A
+
+[1]
+
+(ii) point B.
+
+[1]
+
+### Q8 — easy — 11 marks
+
+**Q8** [2 marks]
+
+Define *coherence*.
+
+**Q8** [4 marks]
+
+In an experiment, a monochromatic light source is incident upon a single slit before passing through two slits, as shown in Fig. 1.1.
+
+![3-3-s-q--q1a-easy-aqa-a-level-physics](assets/034-3-3-s-q-q1a-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Bright and dark fringes are produced on the screen.
+
+State
+
+(i) the **two **conditions required for the fringes to be observed.
+
+[2]
+
+(ii) what the bright and dark fringes on the screen represent.
+
+[2]
+
+**Q8** [1 mark]
+
+**Extract:**
+
+In an experiment, a monochromatic light source is incident upon a single slit before passing through two slits, as shown in Fig. 1.1.
+
+**Fig. 1.1**
+
+Bright and dark fringes are produced on the screen.
+
+Give a reason why a single slit is included in the experimental setup in Fig. 1.1.
+
+**Q8** [4 marks]
+
+Fig. 1.2 shows two different waves from sources s<sub>1</sub> and s<sub>2</sub> meeting on the screen at point P.
+
+![4-4-3d-question-stem-sl-sq-easy-phy](assets/035-4-4-3d-question-stem-sl-sq-easy-phy.png)
+
+**Fig. 1.2**
+
+For the waves meeting at point P, determine:
+
+(i) the path difference.
+
+[3]
+
+(ii) whether a bright or dark fringe forms at P.
+
+[1]

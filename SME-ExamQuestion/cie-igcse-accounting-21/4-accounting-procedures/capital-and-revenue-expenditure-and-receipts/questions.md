@@ -1,6 +1,6 @@
 # Exam Questions — Capital & Revenue Expenditure & Receipts
 **4. Accounting Procedures** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 6 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 8 questions across 2 sets
 
 
 ## Multiple Choice Questions (6 questions)
@@ -87,3 +87,47 @@ How would these amounts be classified?
 | **B** | 9 000 | 18 000 |
 | **C** | 18 000 | 9 000 |
 | **D** | 27 000 | nil |
+
+## Structured Questions (2 questions)
+
+
+### Q1 — medium — 4 marks
+
+**Q1** [4 marks]
+
+Stalla had an extension to her retail premises built during 2023. The extension will be used as an office.
+
+**REQUIRED **
+
+Place a tick (✓) in the correct box below to indicate whether each cost is capital expenditure or revenue expenditure
+
+|   | Capital expenditure | Revenue expenditure |
+|---|---|---|
+| Legal fees for obtaining permission to build the extension |   |   |
+| Building costs for the extension |   |   |
+| Insurance for the office |   |   |
+| Painting the office extension |   |   |
+| Office calendar for 2023 |   |   |
+| Purchase of office equipment |   |   |
+| Installation of office equipment |   |   |
+| Stationery for office |   |   |
+
+*Source: June 2023 0452/21 Q2D*
+
+
+### Q2 — hard — 3 marks
+
+**Q2** [3 marks]
+
+Roger purchases new window cleaning equipment which is to be installed in the business vehicles.
+
+**REQUIRED**
+
+Complete the table by inserting a tick (✓) to show how **each **item of expenditure should be classified. The first one has been completed as an example.
+
+|   | Capital expenditure | Revenue expenditure |
+|---|---|---|
+| Purchase of the equipment | ✓ |   |
+| Installation costs of the equipment |   |   |
+| Carriage costs for the equipment |   |   |
+| Insurance costs for the equipment |   |   |

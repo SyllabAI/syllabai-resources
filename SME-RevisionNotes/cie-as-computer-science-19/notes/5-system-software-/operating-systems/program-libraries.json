@@ -1,0 +1,101 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_zmNM9QRRPr4XWgNk",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/5-system-software-/operating-systems/program-libraries",
+ "title": "Program libraries",
+ "page_title": "Program libraries | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "5-system-software-",
+   "operating-systems",
+   "program-libraries"
+  ],
+  "section": "5-system-software-",
+  "topic": "operating-systems",
+  "leaf": "program-libraries"
+ },
+ "titles": {
+  "section": "5. System Software",
+  "topic": "Operating Systems",
+  "subtopic": "Program libraries"
+ },
+ "updated_at": "2025-06-03T10:29:35.793Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_g6TNRdCzR526mkHk"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 9,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_g6TNRdCzR526mkHk",
+   "name": "Program libraries",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Program libraries"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a program library?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A program library is a **collection of pre-written code** (called **library routines**) that programmers can **reuse** in their own software\n- These routines can **perform common tasks** such as:\n\n  - **Sorting**\n  - **Displaying graphics**\n  - **Playing sounds**\n  - **Managing data**\n- Advantages of using program libraries includes:"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantage** | **Explanation** |\n|---|---|\n| **Saves development time** | Pre-written routines can be reused, so programmers don’t need to write common functions from scratch |\n| **Promotes code reuse** | Well-tested routines can be used in multiple programs, reducing duplication |\n| **Improves reliability** | Library routines are usually thoroughly tested and debugged, reducing the chance of errors |\n| **Easier maintenance** | Updates to a library routine automatically benefit all programs that use it (especially with **DLLs**) |\n| **Efficient memory usage** | **Dynamic link libraries (DLLs)** are only loaded when needed at runtime, saving system resources |\n| **Standardisation** | Promotes consistency in how common tasks (e.g. file handling, sorting) are implemented |"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a DLL?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A **Dynamic Link Library (DLL)** is a file that contains **pre-written code**, such as **functions or routines**, that can be **used by multiple programs** at **runtime**"
+  },
+  {
+   "type": "table",
+   "md": "| **Aspect** | **Advantages** | **Disadvantages** |\n|---|---|---|\n| **Program Size** | Reduces program size by keeping reusable code separate | - |\n| **Memory Usage** | Saves memory by sharing DLLs between programs | - |\n| **Code Reuse** | Encourages reuse of common routines (e.g. sorting, sound) | - |\n| **Modularity** | Supports modular design for easier development and maintenance | - |\n| **Ease of Updates** | Update a DLL once to improve all programs that use it | Can cause **version conflicts** if newer DLLs aren’t compatible |\n| **Dependencies** | External DLLs can be reused by many applications | Program may **fail to run** if a required DLL is **missing** |\n| **Security** | - | Malicious or altered DLLs can pose **security risks** |\n| **Debugging** | - | Errors in DLLs can be **hard to trace** across multiple programs |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Jennifer is writing a computer program for her A Level homework.\n\nJennifer uses a program library to help her write her computer program.\n\nDescribe how a program library can be used while writing a computer program. **[2]**\n\n**Final answer:** **Answer**\n\n- Program libraries store pre-written functions and routines **[1 mark]**\n- The program library can be referenced/imported **[1 mark]**\n- The functions/routines can be called in her own program **[1 mark]**"
+  }
+ ]
+}

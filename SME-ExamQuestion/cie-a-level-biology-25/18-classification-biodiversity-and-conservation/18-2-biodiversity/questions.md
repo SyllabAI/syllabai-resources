@@ -32,7 +32,7 @@ The results are shown in Table 1.
 
 (i) Simpson’s index of diversity (D) for the dung beetles on the grassland site grazed by cattle was calculated as 0.522, using the formula:
 
-`D equals 1 minus open parentheses straight capital sigma open parentheses straight n over straight N close parentheses squared close parentheses`
+`D = 1 - ( capital sigma ( n / N ) ^2 )`
 
 Key to symbols: n = number of individuals of each species present in the sample N = the total number of all individuals of all species present in the sample
 
@@ -654,7 +654,7 @@ The index of diversity for pond **B **is 0.6485.
 
 Using the formula below, calculate the index of diversity for pond **A**.
 
-`straight d equals space 1 minus open parentheses sum from blank to blank of open parentheses straight n over straight N close parentheses squared close parentheses`
+`d = 1 - ( SUM_ _ to _ of ( n / N ) ^2 )`
 
 **Q12** [1 mark]
 

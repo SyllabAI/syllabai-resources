@@ -1,0 +1,82 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_zh9Mc6r3mhmhW69g",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/4-processor-fundamentals-/assembly-language-/addressing-modes",
+ "title": "Addressing modes",
+ "page_title": "Addressing modes | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "4-processor-fundamentals-",
+   "assembly-language-",
+   "addressing-modes"
+  ],
+  "section": "4-processor-fundamentals-",
+  "topic": "assembly-language-",
+  "leaf": "addressing-modes"
+ },
+ "titles": {
+  "section": "4. Processor Fundamentals",
+  "topic": "Assembly Language",
+  "subtopic": "Addressing modes"
+ },
+ "updated_at": "2025-04-08T11:01:26.428Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_9s6ft5c2ryVvfNMH"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 5,
+  "figures": 0,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_9s6ft5c2ryVvfNMH",
+   "name": "Addressing methods",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Addressing methods"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is an addressing method?"
+  },
+  {
+   "type": "bullets",
+   "md": "- An addressing method is a way in which **an instruction in assembly language or machine code** can **access data stored in memory**\n- There are five main addressing methods:\n\n  - **Immediate**\n  - **Direct**\n  - **Indirect**\n  - **Indexed**\n  - **Relative**"
+  },
+  {
+   "type": "table",
+   "md": "| **Addressing mode** | **Description** | **Example instruction** | **Explanation** |\n|---|---|---|---|\n| **Immediate** | The **operand is a constant value** included directly in the instruction | `MOV AX, 1234h` | Moves the **immediate value** `1234h` into the `AX` register |\n| **Direct** | The **exact memory address** of the operand is given in the instruction | `MOV AX, [1234h]` | Moves the value **stored at memory location** `1234h` into the `AX` register |\n| **Indirect** | A **register contains the memory address** of the operand | `MOV AX, [BX]` | If `BX = 2000h`, this moves the value **at memory location **`2000h` into `AX` |\n| **Indexed** | Uses a **base register and an index** to calculate the memory address | `MOV AX, [BX + SI]` | If `BX = 0050h` and `SI = 1000h`, this moves the value **at **`1050h` into the `AX` register |\n| **Relative** | The operand is an **offset** relative to the **current instruction address** | `JMP +5` | Tells the program to **jump forward 5 instructions** from the current line<br><br>Used in branching |"
+  }
+ ]
+}

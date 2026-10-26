@@ -1,0 +1,703 @@
+# Exam Questions — Stationary Waves
+**8. Superposition** · Cambridge (CIE) AS physics (9702)
+> Source: [https://www.savemyexams.com/as/physics/cie/25/topic-questions/](https://www.savemyexams.com/as/physics/cie/25/topic-questions/) · 39 questions across 2 sets
+
+
+## Multiple Choice Questions (31 questions)
+
+
+### Q1 — medium — 1 marks
+
+**Q1** [1 mark]
+
+A standing wave is formed in a closed pipe. The distance between the first node and the ninth node is 18.0 cm.
+
+What is the wavelength of the wave?
+
+### Q2 — medium — 1 marks
+
+**Q2** [1 mark]
+
+A student was investigating the speed of a transverse wave on a stretched spring. They found that by adjusting the tension on the spring, they were able to change the speed.
+
+The wave pattern produced is shown in the diagram the frequency of the oscillator was set to 650 Hz
+
+![cie-ial-images365png](assets/001-cie-ial-images365png.png)
+
+What needs to be changed to maintain the same wave pattern when the frequency is increased to 750 Hz?
+
+### Q3 — hard — 1 marks
+
+**Q3** [1 mark]
+
+A demonstration of a standing wave is set up using a loudspeaker. The loudspeaker is emitting sound with a frequency *f* and is placed at one end of the pipe with length *l. *The pipe is closed at the other end. This is shown in the diagram below.
+
+![cie-ial-images377png](assets/002-cie-ial-images377png.png)
+
+Different pipes were set up with either one or two loudspeakers of frequency *f*. The pairs of loudspeakers were in phase with each other.
+
+Which pipe would contain a standing wave ?
+
+![cie-ial-physics-images-8-1-h-q1-answer](assets/003-cie-ial-physics-images-8-1-h-q1-answer.png)
+
+### Q4 — medium — 1 marks
+
+**Q4** [1 mark]
+
+A stationary sound wave produced in a tube has a series of nodes. The distance between the first node and the sixth node is 30 cm
+
+What is the wavelength of the wave ?
+
+### Q5 — hard — 1 marks
+
+**Q5** [1 mark]
+
+Stationary sound waves can be produced in an organ pipe of length $L$ when both ends are open, and this creates a note from an organ.
+
+The speed of sound in the air column is v.
+
+What is the lowest (fundamental) frequency of the note produced in the pipe?
+
+### Q6 — hard — 1 marks
+
+**Q6** [1 mark]
+
+A student was investigating the creation of stationary waves. They set up travelling waves with a wavelength of 20 cm in a closed pipe X and an open pipe Y. The lengths of the pipes are shown in the diagram.
+
+![cie-ial-images396png](assets/007-cie-ial-images396png.png)
+
+In which pipe did the student observe stationary waves?
+
+### Q7 — hard — 1 marks
+
+**Q7** [1 mark]
+
+When a wind instrument is used to create a note, a stationary wave is produced in the column. An example of this is the horn.
+
+![cie-ial-images383png](assets/008-cie-ial-images383png.png)
+
+For the range of notes produced by the horn, a node is formed at the mouthpiece and an antinode is formed at the bell. The frequency of the lowest note is 75 Hz.
+
+What would be the frequencies of the next two higher notes for this air column?
+
+| ** ** | **First higher note / Hz** | **Second higher note / Hz** |
+|---|---|---|
+| **A**<br><br>**B**<br><br>**C**<br><br>**D** | 225<br><br>150<br><br>150<br><br>113 | 375<br><br>300<br><br>225<br><br>150 |
+
+### Q8 — easy — 1 marks
+
+**Q8** [1 mark]
+
+A stationary wave shown in the diagram was created on a stretched string, it had two instants of maximum vertical displacement.
+
+![cie-ial-images360png](assets/010-cie-ial-images360png.png)
+
+The frequency of the wave is 13 Hz.
+
+What is the speed of the wave?
+
+### Q9 — easy — 1 marks
+
+**Q9** [1 mark]
+
+A student wants to demonstrate a stationary wave.
+
+What could they use to produce this?
+
+### Q10 — medium — 1 marks
+
+**Q10** [1 mark]
+
+The pattern produced when two waves are produced by superposition of sound waves from a loudspeaker reflected by a metal sheet.
+
+![cie-ial-images366png](assets/011-cie-ial-images366png.png)
+
+Q, R, S and T are four points on the line through the centre of these waves.
+
+Which of the following statements is correct?
+
+### Q11 — medium — 1 marks
+
+**Q11** [1 mark]
+
+Headphones that have noise reduction can cancel out external noise by producing their own waves.
+
+They are fitted with a microphone that detects the external sound frequency. The loudspeaker then produces a wave with the same frequency but different phase.
+
+What would the phase difference needed to cancel out the external sound?
+
+### Q12 — easy — 1 marks
+
+**Q12** [1 mark]
+
+A stationary wave on a string is shown in the diagram below. The standing wave has three nodes Q<sub>1</sub>, Q<sub>2</sub> and Q<sub>3</sub>
+
+![cie-ial-images363png](assets/012-cie-ial-images363png.png)
+
+Which of the following statements are correct ?
+
+### Q13 — medium — 1 marks
+
+**Q13** [1 mark]
+
+The diagram below shows a wave pattern over time
+
+![cie-ial-images367png](assets/013-cie-ial-images367png.png)
+
+What is the correct description of the wave?
+
+### Q14 — easy — 1 marks
+
+**Q14** [1 mark]
+
+A stretched string is set up to demonstrate a stationary wave between two points M and Q.
+
+![cie-ial-images361png](assets/014-cie-ial-images361png.png)
+
+Which of the following statements are correct?
+
+### Q15 — easy — 1 marks
+
+**Q15** [1 mark]
+
+A stationary wave is formed when two waves travel in opposite directions through the same space.
+
+Which of the following statements must also be correct?
+
+### Q16 — hard — 1 marks
+
+**Q16** [1 mark]
+
+A student was investigating a tuning fork over two tubes. The tube were identical in length and size except tube S is closed at one end, and tube T is open at the lower end.
+
+![cie-ial-images391png](assets/015-cie-ial-images391png.png)
+
+The tuning fork was placed above tube S and caused a resonance of the air at frequency *f.* No resonance is found at any lower frequency than *f* with tube S.
+
+Which tuning fork will produce resonance when placed above tube T?
+
+### Q17 — medium — 1 marks
+
+**Q17** [1 mark]
+
+Two loudspeakers emitting sound of the same frequency produces a stationary wave. This is shown in the diagram
+
+![cie-ial-images375png](assets/017-cie-ial-images375png.png)
+
+The microphone is moved between X and Y for a distance of 1.5 m. There were six nodes and seven antinodes observed.
+
+What is the wavelength of the sound?
+
+### Q18 — easy — 1 marks
+
+**Q18** [1 mark]
+
+A student sets up a sound wave in a long tube, and the tube is closed at one end. The tube length is changed until the sound from the tube is loudest.
+
+Which of the following statements describe the nature of the wave in the tube?
+
+### Q19 — hard — 1 marks
+
+**Q19** [1 mark]
+
+An investigation to sound waves reflected by a wall was carried out. The frequency *f* of the wave was adjusted until a stationary wave is formed with an antinode with a distance *x* closest to the wall.
+
+Which expression gives *f* in terms of *x* and the speed of sound *c *?
+
+### Q20 — hard — 1 marks
+
+**Q20** [1 mark]
+
+A glass tube closed at one end, with a layer of fine powder laid inside as shown in the diagram, was set up. Sound was emitted from the loudspeaker and placed near the open end of the tube.
+
+The frequency of the sound wave was changed, at one frequency a stationary wave was formed, and the powder formed 4 heaps. The distance between the four heaps of powder was 30 cm.
+
+![cie-ial-images385png](assets/020-cie-ial-images385png.png)
+
+The speed of sound in the tube is 330 m s<sup>–1</sup>
+
+What is the frequency of the sound?
+
+### Q21 — medium — 1 marks
+
+**Q21** [1 mark]
+
+The diagram below shows sound wave produced in a column by a loudspeaker. The speed of sound in air is 330 m s<sup>−1</sup>
+
+![cie-ial-images368png](assets/022-cie-ial-images368png.png)
+
+What is the frequency of the wave?
+
+### Q22 — easy — 1 marks
+
+**Q22** [1 mark]
+
+When a stationary wave is produced in a tube, which of the following statements describes the wave speed?
+
+### Q23 — hard — 1 marks
+
+**Q23** [1 mark]
+
+A student was investigating the reflection of electromagnetic waves. They set up a transmitter 45 cm from a reflective surface, as shown in the diagram.
+
+![cie-ial-images395png](assets/023-cie-ial-images395png.png)
+
+The waves had a frequency of 1.00 GHz. A stationary wave was produced with a node at the transmitter and a node at the surface.
+
+How many antinodes are there in the space between the surface and the transmitter?
+
+### Q24 — easy — 1 marks
+
+**Q24** [1 mark]
+
+A stretched string is used to demonstrate a stationary wave, as shown in the diagram.
+
+![cie-ial-images362png](assets/024-cie-ial-images362png.png)
+
+Which row in the table correctly describes the length of x and the name of W?** **
+
+| ** ** | **Length x** | **Point W** |
+|---|---|---|
+| **A** | two wavelengths | node |
+| **B** | one wavelength | node |
+| **C** | two wavelengths | antinode |
+| **D** | one wavelength | antinode |
+
+### Q25 — medium — 1 marks
+
+**Q25** [1 mark]
+
+A stationary wave was formed in a column. The diagram below shows the movement of the air particles.
+
+![cie-ial-physics-images-q8-medium-](assets/025-cie-ial-physics-images-q8-medium.png)
+
+The first diagram shows the displacement and the second is the displacement half a cycle later.
+
+Which position will the pressure change by the most significant amount, and what is the length, *L* of the column in terms of wavelength, *λ*?
+
+| ** ** | **Length *****L*** | **Maximum pressure change** |
+|---|---|---|
+| **A** | $\frac{3}{4}λ$ | antinode |
+| **B** | $\frac{3}{4}λ$ | node |
+| **C** | $\frac{3}{2}λ$ | antinode |
+| **D** | $\frac{3}{2}λ$ | node |
+
+### Q26 — medium — 1 marks
+
+**Q26** [1 mark]
+
+Each of the diagrams below show three waves; each of the waves have the same amplitude and frequency but have different phases.
+
+The waves are added together to give a resultant wave. In which case would the resultant wave be zero ?
+
+![cie-ial-physics-images-8-1-e-q6-answer](assets/027-cie-ial-physics-images-8-1-e-q6-answer.png)
+
+### Q27 — easy — 1 marks
+
+**Q27** [1 mark]
+
+A student formed a stationary wave in a tube by blowing over the top as shown in the diagram
+
+![cie-ial-images364png](assets/028-cie-ial-images364png.png)
+
+Which of the following statements are correct ?
+
+### Q28 — easy — 1 marks
+
+**Q28** [1 mark]
+
+The table shows some statements about stationary and progressive waves.
+
+Which row is correct ?
+
+| ** ** | **Progressive wave** | **Stationary wave** |
+|---|---|---|
+| **A** | particles one wavelength apart vibrate in phase | particles one wavelength apart vibrate in phase |
+| **B** | particles vibrate in phase with their immediate neighbours | particles in adjacent loops vibrate in antiphase |
+| **C** | energy is transferred along the wave | energy is transferred along the wave |
+| **D** | all particles vibrate with the same amplitude | all particles vibrate with the same amplitude |
+
+### Q29 — hard — 1 marks
+
+**Q29** [1 mark]
+
+A pipe is used to set up a stationary longitudinal wave. The length of each arrow in the diagrams below shows the motion of the air molecules. The arrowheads show the direction of the motion of the particle.
+
+Which diagram shows a stationary wave with two nodes and two antinodes?
+
+![cie-ial-physics-images-8-1-h-q4-answer](assets/029-cie-ial-physics-images-8-1-h-q4-answer.png)
+
+### Q30 — medium — 1 marks
+
+**Q30** [1 mark]
+
+A stationary sound wave produced in a musical instrument, this instrument has the pipes open at one end and closed at the other.
+
+If the length of the pipe was 10 m what it is the lowest frequency of sound when the speed of sound is 320 m s<sup>−1</sup>?
+
+### Q31 — hard — 1 marks
+
+**Q31** [1 mark]
+
+A steel wire was set up clamped at one end and placed under tension by a mass hung over a pully; this is shown in the diagram.
+
+![cie-ial-images393png](assets/031-cie-ial-images393png.png)
+
+A vibration generator is attached to the wire nearest to the clamped end. A stationary wave with one loop is produced. The frequency of the generator is *f*.
+
+Which frequency should be used to produce two loops?
+
+## Structured Questions (8 questions)
+
+
+### Q1 — easy — 9 marks
+
+**Q1** [2 marks]
+
+Describe the phase difference between two points on
+
+(i) a progressive transverse wave
+
+[1]
+
+(ii) a stationary wave.
+
+[1]
+
+**Q1** [3 marks]
+
+Fig. 1.1 shows four progressive transverse waves.
+
+![3-2-s-q--q5b-easy-aqa-a-level-physics](assets/033-3-2-s-q-q5b-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+State the pair of waves from Fig. 1.1 which superpose to create the following
+
+![r8Ip5QkY_8-1-stationary-waves-e-q3i](assets/034-r8ip5qky-8-1-stationary-waves-e-q3i.png)
+
+[1]
+
+![8-1-stationary-waves-e-q3ii](assets/035-8-1-stationary-waves-e-q3ii.png)
+
+[1]
+
+![8-1-stationary-waves-e-q3iii](assets/036-8-1-stationary-waves-e-q3iii.png)
+
+[1]
+
+**Q1** [2 marks]
+
+Fig. 1.2 shows a stationary wave on a stretched guitar string of length 0.58 m when it is plucked.
+
+![3-2-s-q--q5c-easy-aqa-a-level-physics](assets/037-3-2-s-q-q5c-easy-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+Determine the wavelength of the stationary wave.
+
+**Q1** [2 marks]
+
+**Extract:**
+
+Fig. 1.2 shows a stationary wave on a stretched guitar string of length 0.58 m when it is plucked. Determine the wavelength of the stationary wave. Over the length of the string, there is half a wavelength, or L = λ/2, so the wavelength is λ = 2L. λ = 2 × 0.58 = 1.16 m = 1.2 m
+
+The frequency of the note played on the guitar string is 276 Hz.
+
+Calculate the speed of the stationary wave in Fig. 1.2.
+
+### Q2 — medium — 3 marks
+
+**Q2** [3 marks]
+
+(i) By reference to the direction of transfer of energy, state what is meant by a transverse wave.
+
+[1]
+
+(ii) State the principle of superposition.
+
+[2]
+
+*Source: Specimen 2022 Paper 2 Q4A*
+
+
+### Q3 — easy — 8 marks
+
+**Q3** [2 marks]
+
+State the principle of superposition.
+
+**Q3** [2 marks]
+
+State **two** necessary conditions for a stationary wave to be set up on a string.
+
+**Q3** [2 marks]
+
+A stationary wave is made up of nodes and antinodes.
+
+State what is meant by:
+
+(i) a node
+
+[1]
+
+(ii) an antinode.
+
+[1]
+
+**Q3** [2 marks]
+
+Fig 1.1 shows a stationary wave on a string which is fixed at both ends.
+
+![3-2-s-q--q1d-easy-aqa-a-level-physics](assets/038-3-2-s-q-q1d-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+On Fig. 1.1, label the nodes (N) and antinodes (A).
+
+### Q4 — medium — 13 marks
+
+**Q4** [4 marks]
+
+A stationary wave on a string is shown in Fig. 1.1.
+
+Explain how the wave is formed, referring to the principle of superposition in your answer.
+
+![8-1-2a-m-standing-wave](assets/040-8-1-2a-m-standing-wave.png)
+
+**Q4** [1 mark]
+
+**Extract:**
+
+A stationary wave on a string is shown in Fig. 1.1. [Fig. 1.1 shows a stationary wave with 2 nodes (at the fixed ends) and 1 antinode in the centre.]
+
+On Fig. 1.1, draw the stationary wave that would be formed on the string in part **(a)** with two more nodes and two more antinodes.
+
+**Q4** [5 marks]
+
+Fig. 1.2 shows the appearance of a stationary wave on a stretched string at one instant in time.
+
+![8-1-2c--m-stationary-wave-1-q](assets/043-8-1-2c-m-stationary-wave-1-q.png)
+
+Mark clearly on the diagram
+
+(i) the equilibrium position,
+
+[1]
+
+(ii) at least two nodes by labelling them **N**, and two antinodes by labelling them **A**,
+
+[2]
+
+(iii) the direction in which points **Q**, **R**, **S** and **T** are about to move.
+
+[2]
+
+**Q4** [3 marks]
+
+**Extract:**
+
+Fig. 1.2 shows the appearance of a stationary wave on a stretched string at one instant in time.
+
+For the wave in Fig. 1.2 the frequency of vibration is 180 Hz and the speed of the waves along the string is 60 m s<sup>–1</sup>.
+
+For this wave
+
+(i) Calculate the time period the stationary wave on the string.
+
+[1]
+
+(ii) Calculate the length of the string.
+
+[2]
+
+### Q5 — easy — 12 marks
+
+**Q5** [2 marks]
+
+Explain the difference between energy transfers in progressive waves and stationary waves.
+
+**Q5** [3 marks]
+
+Fig 1.1 shows a violin string. One way to produce a musical note is to pull the centre of the string to one side and then release it quickly. This produces a stationary wave.
+
+![3-2-s-q--q4b-easy-aqa-a-level-physics](assets/045-3-2-s-q-q4b-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Explain why a stationary wave is formed on the string.
+
+**Q5** [4 marks]
+
+Fig. 1.1 shows a clarinet producing notes of different pitch. Each note corresponds to a stationary wave of a different number of wavelengths, or half wavelengths.
+
+![8-1-stationary-waves-e-q2](assets/046-8-1-stationary-waves-e-q2.png)
+
+**Fig. 1.1**
+
+On Fig 1.1, draw lines from each stationary wave formed in the clarinet to its corresponding wavelength.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a clarinet producing notes of different pitch. Each note corresponds to a stationary wave of a different number of wavelengths, or half wavelengths.
+
+State and explain the number of wavelengths that would produce the highest note.
+
+### Q6 — hard — 16 marks
+
+**Q6** [3 marks]
+
+The diagram shows a common piece of laboratory equipment used to demonstrate wave phenomena.
+
+![ib-sl-sq-h-q3a-question](assets/049-ib-sl-sq-h-q3a-question.png)
+
+Explain how waves from the loudspeaker form stationary waves in the tube. Include in your answer a condition for the formation of the wave and describe the wave which is formed.
+
+**Q6** [5 marks]
+
+**Extract:**
+
+The diagram shows a common piece of laboratory equipment used to demonstrate wave phenomena. Explain how waves from the loudspeaker form stationary waves in the tube. The wave will be a stationary wave AND with an anti-node at the open end. Remember a node is always formed at the closed end of a tube and an anti-node at the open end. A wave forms if the length of the tube is equivalent to nλ/4.
+
+Construct a three-part diagram linking the wave shape, node formation and pressure differences within the tube, for the third harmonic of the wave formed. Start with the template below in Fig. 1.1,
+
+![ib-sl-sq-4-5-3b-question-phy](assets/050-ib-sl-sq-4-5-3b-question-phy.png)
+
+**Fig. 1.1**
+
+**Q6** [4 marks]
+
+**Extract:**
+
+The diagram shows a common piece of laboratory equipment used to demonstrate wave phenomena. Explain how waves from the loudspeaker form stationary waves in the tube.
+
+Describe the wave which is formed: The wave will be a stationary wave AND with an anti-node at the open end. Longitudinal waves from the loudspeaker reflect at the closed end of the tube. A wave forms if the length of the tube is equivalent to nλ/4 / an integral multiple of one-quarter of the wavelength.
+
+Construct a three-part diagram linking the wave shape, node formation and pressure differences within the tube, for the third harmonic of the wave formed.
+
+The speed of sound in the tube is 340 m s<sup>−1</sup> and the frequency of the sound emitted by the loudspeaker is 920 Hz for the third harmonic of the wave.
+
+For this equipment calculate:
+
+(i) The length of the tube, giving the answer in cm.
+
+[2]
+
+(ii) The wavelength of the seventh harmonic, giving the answer in S.I. units.
+
+[2]
+
+**Q6** [4 marks]
+
+**Extract:**
+
+The speed of sound in the tube is 340 m s^−1^ and the frequency of the sound emitted by the loudspeaker is 920 Hz for the third harmonic of the wave.
+(i) The length of the tube: L = 0.28 m = 28 cm
+(ii) The wavelength of the seventh harmonic: λ = 0.16 m
+
+A pipe of the same length has its closed end removed to create a pipe open at both ends.
+
+Show that the seventh harmonic of sound is also produced for sound of the same wavelength as the seventh harmonic when one end of the pipe is closed.
+
+### Q7 — medium — 11 marks
+
+**Q7** [3 marks]
+
+Fig. 1.1 shows a stationary wave formed on a guitar string fixed at **P** and **Q** when it is plucked at its centre.
+
+![8-1-3a-m-standing-wave](assets/055-8-1-3a-m-standing-wave.png)
+
+**X** is a point on the string at maximum displacement.
+
+Explain why a stationary wave is formed on the string
+
+**Q7** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a stationary wave formed on a guitar string fixed at P and Q when it is plucked at its centre. X is a point on the string at maximum displacement.
+
+The stationary wave in Fig. 1.1 is the D string of the guitar which has a frequency of 146.83 Hz.
+
+Calculate the time taken for the string at point X to move from maximum displacement to its next maximum displacement.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a stationary wave formed on a guitar string fixed at P and Q when it is plucked at its centre. X is a point on the string at maximum displacement.
+The stationary wave in Fig. 1.1 is the D string of the guitar which has a frequency of 146.83 Hz.
+
+The progressive waves on the string travel at a speed of 190 m s<sup>–1</sup>.
+
+Calculate length of the D string.
+
+**Q7** [3 marks]
+
+A guitarist presses on the string at point R to shorten it and create the higher note ‘E’. The distance between R and Q in Fig. 1.2 is 0.29 m.
+
+![8-1-3d-m-shortened-string](assets/058-8-1-3d-m-shortened-string.png)
+
+The speed of the progressive wave remains at 190 m s<sup>–1</sup> and the tension remains constant.
+
+Calculate the frequency of note E.
+
+### Q8 — hard — 12 marks
+
+**Q8** [2 marks]
+
+Sound waves, like waves on a string, can produce stationary waves inside air columns.
+
+A physics technician demonstrates how sound can set up stationary waves using a tall tube of cross-sectional area 4.0 × 10<sup>–3</sup> m<sup>2</sup> and a loudspeaker connected to a signal generator, as shown in Fig. 1.1.
+
+![3-2-s-q--q2a-hard-aqa-a-level-physics](assets/059-3-2-s-q-q2a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The signal generator is switched on so that sound waves enter the tube. He slowly pours water into the tube and the sound gradually increases in volume, reaching a first maximum at a particular instant. Immediately after the volume begins to decrease.
+
+Water continues to be added until the volume rises again, reaching a second and final maximum after a further 3.2 × 10<sup>–3 </sup>m<sup>3</sup> of water is poured in.
+
+Determine the wavelength of the sound waves.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+Sound waves, like waves on a string, can produce stationary waves inside air columns. A physics technician demonstrates how sound can set up stationary waves using a tall tube of cross-sectional area 4.0 × 10^–3^ m^2^ and a loudspeaker connected to a signal generator. The signal generator is switched on so that sound waves enter the tube. He slowly pours water into the tube and the sound gradually increases in volume, reaching a first maximum at a particular instant.
+
+To help explain the demo, the technician sketches how particles of air move around in a tube when a stationary sound wave is set up. This sketch is shown in Fig. 1.2.
+
+A displacement anti-node is the maximum movement of particles in the air column. A displacement node is where there is no movement of particles in the air column.
+
+![3-2-s-q--q2b-hard-aqa-a-level-physics](assets/061-3-2-s-q-q2b-hard-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+On Fig. 1.2, label all positions where there are displacement nodes.
+
+**Q8** [3 marks]
+
+**Extract:**
+
+To help explain the demo, the technician sketches how particles of air move around in a tube when a stationary sound wave is set up. This sketch is shown in Fig. 1.2. A displacement anti-node is the maximum movement of particles in the air column. A displacement node is where there is no movement of particles in the air column. Fig. 1.2
+
+When air passes through a displacement node it is squeezed through the node and it expands away from it, so the change in pressure is at a maximum.
+
+One of the technician’s students asks, “Are positions of displacement nodes the same as positions where the air pressure is maximum?”
+
+With reference to the meaning of a displacement node, and using Fig. 1.2, suggest how the technician might respond to the student.
+
+**Q8** [4 marks]
+
+**Extract:**
+
+To help explain the demo, the technician sketches how particles of air move around in a tube when a stationary sound wave is set up. This sketch is shown in Fig. 1.2. A displacement anti-node is the maximum movement of particles in the air column. A displacement node is where there is no movement of particles in the air column. Fig. 1.2
+
+In the space provided in Fig. 1.3 below, sketch the shape of the stationary sound wave set up in Fig. 1.2
+
+![3-2-s-q--q2d-hard-aqa-a-level-physics](assets/065-3-2-s-q-q2d-hard-aqa-a-level-physics.png)
+
+**Fig. 1.3**

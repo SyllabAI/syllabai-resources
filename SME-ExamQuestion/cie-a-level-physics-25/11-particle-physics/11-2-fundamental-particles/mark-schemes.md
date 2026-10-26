@@ -325,3 +325,264 @@
 **B **is incorrect because leptons are fermions (e.g. electrons, neutrinos)
 
 **D **is incorrect because the question asks for the specific particle that makes up light — photons are the specific particle type. While photons are a type of boson, simply saying bosons is too broad and imprecise as the answer to a question about light
+
+## Structured Questions (7 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> (i) The quark composition of a proton is:
+> 
+> - up up down **OR** $\mathrm{uud}$ **[1 mark]**
+> 
+> (ii) The quark composition of a neutron is:
+> 
+> - up down down **OR** $\mathrm{udd}$ **[1 mark]**
+> 
+> (iii) The quark composition of an alpha-particle is:
+> 
+> - 6 up, 6 down **[1 mark]**
+
+> **[exam-tip]**
+> Remember, an alpha particle consists of 2 protons and 2 neutrons, so
+> 
+> - $2\times\mathrm{uud}$ gives 4 up quarks and 2 down quarks
+> - $2\times\mathrm{udd}$ gives 2 up quarks and 4 down quarks
+
+### Q2
+A meson is made from:
+
+- A quark; **[1 mark]**
+- And an antiquark; **[1 mark]**
+
+**[Total: 2 marks]**
+State whether this baryon can exist:
+
+- This baryon could not exist; **[1 mark]**
+
+Explain why:
+
+- This contains quarks and antiquarks; **[1 mark]**
+- Baryons contain only quarks **OR **antibaryons only contain antiquarks; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Recall that a line above the symbol tells you that it is an antiquark.*
+
+> *Baryons are made of three quarks, antibaryons are made of three antiquarks and mesons are made of a single quark and single antiquark. Hadrons do not exist in any other combination of quarks.*
+During beta plus decay:
+
+Describe the proton's initial quark composition:
+
+- Initially, a proton's composition is two up quarks and a down quark / uud; **[1 mark]**
+
+Describe the change during beta plus decay:
+
+- During beta plus decay, an up quark turns into a down quark; **[1 mark]**
+- The new composition is two down quarks and an up quark / udd; **[1 mark]**
+
+**[Total: 3 marks]**
+To show that an anti-proton has a charge of −*e* :
+
+Recall the quark composition of an anti-proton:
+
+- An anti-proton has the composition of two anti-up quarks and one anti-down quark / $\vec{u} \vec{u} \vec{d}$ ; **[1 mark]**
+
+Recall the charges of these antiquarks:
+
+- Anti-up quarks have a charge of $-\frac{2}{3}e$ ; **[1 mark]**
+- Anti-down quarks have a charge of $\frac{1}{3}e$ ; **[1 mark]**
+
+Determine the total charge *Q * of an anti-proton:
+
+- $Q = ( - \frac{2}{3} e ) + ( - \frac{2}{3} e ) + ( 1 \frac{1}{3} e )$  **[1 mark]**
+- $Q=-e$
+
+**[Total: 4 marks]**
+
+> *'Show that' questions require you to clearly outline every step of your reasoning. Scribbled out sections can confuse your examiner, so coming up with a plan on some scrap paper can help you avoid any errors when it comes to writing out the answer in full.*
+
+### Q3
+The number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27` is:
+
+Determine the number of protons and neutrons:
+
+- There are 13 protons
+- There are 27 – 13 = 14 neutrons
+
+Calculate the number of up quarks:
+
+- A proton (uud) has 2 up quarks and a neutron (udd) has 1 up quark
+- Number of up quarks = (13 × 2) + (14 × 1) = 40 **[1 mark]**
+
+**[Total: 1 mark]**
+(i) The classification of the $D$ particle is:
+
+- A meson; **[1 mark]** ** **
+
+(ii) The charge on the $D$ particle is:
+
+- $u \bar{c} = \frac{2}{3} + ( - \frac{2}{3} ) = 0$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Just 'hadron' will not be enough to get the mark for part (i), you should be as specific as possible.*
+Using the quark model, show that the magnitude of the charge of a proton is equal to the charge of an electron
+
+- uud (2 up quarks and 1 down quark)
+- $+ \frac{2}{3} e + \frac{2}{3} e + ( - 1 \frac{1}{3} e ) = 1 e$ **[1 mark]**
+
+**[Total: 1 mark]**
+Using the quark model for β<sup>+</sup> decay, prove that charge is conserved
+
+- β<sup>+</sup> decay is: $p\rightarrown+e^{+}+ν_{e}$
+- Therefore, the quark changes are: $u\rightarrowd+e^{+}+ν_{e}$ **[1 mark]**
+
+Compare charges on both sides:
+
+- $+ \frac{2}{3} = - 1 \frac{1}{3} + ( + 1 ) + 0 = + \frac{2}{3}$ **[1 mark]**
+- (LHS = RHS), therefore, the charge is conserved; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q4
+The missing flavours of quarks are:
+
+- Top; **[1 mark]**
+- Up; **[1 mark]**
+- Charm; **[1 mark]**
+
+**[Total: 3 marks]**
+A completed Table 1.1 looks like:
+
+| **Quark Flavour** | **Charge / *****e*** |
+|---|---|
+| Strange | $-\frac{1}{3}$ **[1 mark]** |
+| Charm | $\frac{2}{3}$ **[1 mark]** |
+| Down | $-\frac{1}{3}$ **[1 mark]** |
+| Top | $\frac{2}{3}$ **[1 mark]** |
+
+**[Total: 4 marks]**
+
+> *Don't forge that the left column is already in units of **e**, so you won't get the marks for writing a charge of *$\frac{2}{3}e$* in the right hand boxes. This would actually  be saying the quark has a charge of *$\frac{2}{3}e^{2}$*, which is of course incorrect.*
+To explain why a proton is not a fundamental particle:
+
+- Fundamental particles are not made of any other particles; **[1 mark]**
+- But protons are made of three / multiple quarks; **[1 mark]**
+
+**[Total: 2 marks]**
+The difference between quarks and antiquarks is:
+
+- Quarks and antiquarks have opposite charges; **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q5
+(i)  The nuclear equation for the decay is:
+
+`C _ 6 ^ 10 -> B _ 5 ^ 10 + beta _ 1 ^ 0 ^ ( + ) end ^ + nu _ 0 ^ 0`
+
+- `B _ 5 ^ 10` **[1 mark]**
+- `beta _ 1 ^ 0 ^ ( + ) end ^ / e _ 1 ^ 0 ^ +` **[1 mark]**
+- `nu presubscript 0 presuperscript 0` **[1 mark]** ** **
+
+(ii) The change of quark is:
+
+- <u>Up</u> quark to <u>down</u> quark; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Although you have not been given the proton and nucleon numbers of the boron nucleus, you can figure these out as the top row of numbers and the bottom row of numbers must **balance** on both sides of the equation.*
+
+> *For example, on the left-hand side, the proton number is 6. On the right-hand side, the proton number is 1 + 0 = 1. Therefore, the proton number of boron must be 5 so both sides have a total of 6.*
+The two leptons in the decay are:
+
+- Beta-plus particle / β<sup>+</sup> / positron; **[1 mark]**
+- (Electron) neutrino; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Make sure to say it is a **positron** and not an electron in this decay!*
+A hadron with a charge of –3*e* cannot exist because:
+
+**Final answer:** **Any ****three**** from:**
+
+- Quarks can either have a charge of $\pm\frac{1}{3}e$ or $\pm\frac{2}{3}e$; **[1 mark]**
+- A meson contains a quark and an anti-quark; **[1 mark]**
+- (Hence) mesons can only have a charge of 0 or $\pm1e$ (therefore it cannot be a meson); **[1 mark]**
+- A baryon contains three (anti)quarks; **[1 mark]**
+- (Hence) baryons can only have a charge of 0 or $\pm2e$ (therefore, it cannot be a baryon); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Remember, a hadron is any particle made up of quarks, so make sure you refer to both mesons and baryons*
+A possible quark combination for a hadron of charge +2*e *is:
+
+**Final answer:** **Any ****one**** from:**
+
+- uuu / three up quarks  **[1 mark]**
+- ttt / three top quarks **[1 mark]**
+- ccc / three charm quarks **[1 mark]**
+- utc / up quark, top quark, charm quark **[1 mark]**
+- $\overset{-}{d}\overset{-}{s}\overset{-}{b}$ / anti-down quark, anti-strange quark, anti-bottom quark **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Although a meson is a type of hadron, a meson cannot have a charge of +2**e **as there is no combination of a quark and anti-quark pair that gives a charge of +2**e**.*
+
+> *It is important you memorise the **charges** of each of the quarks, and remember that the equivalent anti-quark has the **opposite** charge. *
+
+### Q6
+The quark composition of an alpha particle is:
+
+- (An alpha particle has) 2 protons $( u u d )$ and 2 neutrons $( u d d )$; **[1 mark]**
+- (So its quark composition is) 6 up (u) **AND** 6 down (d) quarks;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *A proton would have a quark composition of uud. A neutron has udd. Therefore, uud + uud + udd + udd = 6 up and 6 down quarks.*
+Use the quark model to show that the charge on the anti-neutron is 0
+
+- (The quark structure) is anti-up anti-down anti-down / $\overline{u}\overline{d}\overline{d}$; **[1 mark]**
+- $- \frac{2}{3} ( e ) + 1 \frac{1}{3} ( e ) + 1 \frac{1}{3} ( e ) = 0$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It is important you remember all the charges of each quark. An anti-quark is going to have the same magnitude but **opposite charge**.*
+State the quark composition of Σ<sup>+</sup> , Σ<sup>0</sup> and Σ<sup>–</sup> :
+
+- Σ<sup>+ </sup>= uus; **[1 mark]**
+- Σ<sup>0</sup> = uds; **[1 mark]**
+- Σ<sup>–</sup> = dds; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The subscript for each of the Σ particles indicates its charge. Since it is a **baryon**, this means it is made up of **three** **quarks **(anti-baryons are made up of three antiquarks). It is important to remember the charge of each of these quarks to combine them in a way to get the total charge required:*
+
+- *uus = *$+\frac{2}{3}+\frac{2}{3}-\frac{1}{3}=1$
+- *uds = *$+\frac{2}{3}-\frac{1}{3}-\frac{1}{3}=0$
+- *dds = *$-\frac{1}{3}-\frac{1}{3}-\frac{1}{3}=-1$
+A baryon with the quark composition $u\overline{d}s$ cannot exist because:
+
+- A baryon can only be made up of three quarks or three anti-quarks **OR **a baryon cannot consist of a mix of quarks and anti-quarks; **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q7
+A meson is made up of:
+
+- A quark and an anti-quark; **[1 mark]**
+
+**[Total: 1 mark]**
+Determine the charge of the hadron with composition $ddc$:
+
+State the charge on each quark:
+
+- Down quark = $-\frac{1}{3}e$ **AND**
+- Charm quark = $+\frac{2}{3}e$ **[1 mark]**
+
+Calculate the charge on the hadron:
+
+- Charge on $ddc=-\frac{1}{3}e-\frac{1}{3}e+\frac{2}{3}e=0$ **[1 mark]**
+
+**[Total: 2 marks]**

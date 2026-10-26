@@ -1,0 +1,2207 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T13:26:09Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_9vgVJq4xGVkVQ4bR",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) AS Chemistry"
+ },
+ "section": {
+  "slug": "22-analytical-techniques",
+  "name": "22. Analytical Techniques"
+ },
+ "topic": {
+  "id": "top_mD99W8dntGhV63YC",
+  "slug": "22-2-mass-spectrometry",
+  "name": "Mass Spectrometry",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "mass-spectrometry",
+   "name": "Mass Spectrometry",
+   "revision_note_id": "rn_t53HhR7m6kxMdqmR"
+  },
+  {
+   "slug": "molecular-ion-peak-and-fragmentation",
+   "name": "Molecular Ion Peak & Fragmentation",
+   "revision_note_id": "rn_fQJbCNYp6dfp9Qtg"
+  },
+  {
+   "slug": "the-m-and-1-and-m-and-2-peaks",
+   "name": "The M+1 & M+2 Peaks",
+   "revision_note_id": "rn_tXpY2vXG72TF2V7M"
+  },
+  {
+   "slug": "isotopic-abundance-and-relative-atomic-mass",
+   "name": "Isotopic Abundance & Relative Atomic Mass",
+   "revision_note_id": "rn_fKyJ6H9QBBQxM6Xh"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_zdvrhnrz69K8wdn2",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 23,
+   "questions_embedded": 23,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/22-analytical-techniques/22-2-mass-spectrometry/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_QMtrnN75qVHRSh5W",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/22-analytical-techniques/22-2-mass-spectrometry/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 30,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-h-3a.JPG": "001-mass-spectrum-of-compound-a-a-c4h10o-isomer-show.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-h-3b.JPG": "002-mass-spectrum-of-compound-b-a-c4h10o-isomer-show.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-h-3c.JPG": "003-mass-spectrum-of-compound-c-a-c4h10o-isomer-show.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-e-9.JPG": "004-mass-spectrum-of-a-silicon-sample-showing-three-.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-h-7.JPG": "005-mass-spectrum-of-cl2-showing-cl-fragment-ion-pea.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-m-10.JPG": "006-mass-spectrum-of-bromomethane-showing-two-molecu.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-m-6.JPG": "007-structural-diagrams-showing-c-c-bond-cleavage-in.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-m-6b.JPG": "008-structural-diagram-of-propan-2-ol-showing-that-b.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-m-6a.JPG": "009-structural-diagram-of-propanone-showing-that-bon.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-m-9.JPG": "010-mass-spectrum-of-cl2-showing-three-molecular-ion.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-e-2.JPG": "011-structural-formula-of-ricinoleic-acid-12-hydroxy.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/4-1-m-8.JPG": "012-structural-formula-of-3-methylbutan-2-one-showin.jpg",
+   "https://cdn.savemyexams.com/uploads/2022/06/compound-x-ir-spec.png": "013-infrared-spectrum-of-compound-x-showing-a-strong.png",
+   "https://cdn.savemyexams.com/uploads/2024/03/q3a-mass-spectrum.png": "014-mass-spectrum-of-compound-x-showing-a-molecular-.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/butane-displayed.png": "015-fully-displayed-structural-formula-of-butane-sho.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/methylpropane-displayed.png": "016-fully-displayed-structural-formula-of-methylprop.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/4-1-5b-h-crotonic-acid-mass-spec.png": "017-mass-spectrum-of-compound-f-showing-a-molecular-.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/4-1-5c-h-crotonic-acid-ir-spec.png": "018-infrared-spectrum-of-compound-f-showing-principa.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/but-3-enoic-acid.png": "019-fully-displayed-structural-formula-of-but-3-enoi.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/z-but-2-enoic-acid.png": "020-fully-displayed-structural-formula-of-z-but-2-en.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/e-but-2-enoic-acid.png": "021-fully-displayed-structural-formula-of-e-but-2-en.png",
+   "https://cdn.savemyexams.com/uploads/2026/05/55831-pentan-2-one-and-pentan-3-one-skeletal-formulae.png": "022-pentan-2-one-and-pentan-3-one-skeletal-formulae.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/fig-5-1-9701-y22-sp-2-cie-ial-chem.png": "023-mass-spectrum-of-compound-x-showing-a-molecular-.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/fig-5-2-9701-y22-sp-2-cie-ial-chem.png": "024-infrared-spectrum-of-compound-x-showing-a-broad-.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/4-1-2a-m-mass-spectrum-of-magnesium.png": "025-mass-spectrum-of-magnesium-showing-three-peaks-a.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/pentan-1-ol-displayed-formula.png": "026-fully-displayed-structural-formula-of-pentan-1-o.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/2-methylbutan-1-ol-displayed-formula.png": "027-fully-displayed-structural-formula-of-2-methylbu.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/3-methylbutan-1-ol-displayed-formula.png": "028-fully-displayed-structural-formula-of-3-methylbu.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/2-2-dimethylpropan-1-ol-displayed-formula.png": "029-fully-displayed-structural-formula-of-2-2-dimeth.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/2-1_q2c-ocr-a-as--a-level-easy-sq.png": "030-mass-spectrum-of-potassium-showing-two-peaks-m-e.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_zkpY94WcZrbbwJbX",
+   "set_slug": "multiple-choice-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_PXZnHzBPyVxWTy64",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "A compound XF<sub>n</sub> is a fluoride of another halogen, X, and it is known that n > 1. The highest mass peak in the mass spectrum of XF<sub>n</sub> is assigned to the molecular ion and appears as a single peak at m/z = 222.\n\nWhich of the following statements is **not **correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- In mass spectrometry, peaks correspond to specific isotopic masses, not average relative atomic masses.\n- Bromine has two stable isotopes:\n\n  - <sup>79</sup>Br (mass 79)\n  - <sup>81</sup>Br (mass 81)\n- If X = <sup>79</sup>Br:\n\nremaining mass for F atoms = 222 − 79 = 143\n\nn = 143 ÷ 19 = 7.53 (not a whole number)\n\n- If X = <sup>81</sup>Br:\n\nremaining mass for F atoms = 222 − 81 = 141\n\nn = 141 ÷ 19 = 7.42 (not a whole number)\n\n- Neither bromine isotope gives a whole number of F atoms, so the compound cannot contain bromine.\n\n**A** is incorrect as iodine has one stable isotope with mass 127. Substituting: 222 − 127 = 95; n = 95 ÷ 19 = 5 (a whole number), confirming IF<sub>5</sub>. This statement is correct.\n\n**C** is incorrect as iodine fits all conditions. IF<sub>5</sub> has molecular mass = 127 + (5 × 19) = 222, consistent with the single molecular ion peak. This statement is correct.\n\n**D** is incorrect as both <sup>19</sup>F and <sup>127</sup>I each exist as a single stable isotope, which explains why the molecular ion appears as a single unfragmented peak at m/z = 222 with no M+2 peak. This statement is correct.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "n = 5"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "The compound could contain bromine"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The compound is a fluoride of iodine"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "X and F each exist as a single stable isotope"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_YJ3NQjy4CJJFPkbn",
+   "set_slug": "multiple-choice-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_6MKnNnnPBBGsQ2K5",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "In the mass spectrum of trifluoroacetic acid, CF<sub>3</sub>CO<sub>2</sub>H, intense peaks are observed at m/z = 69 and 45 (base peak) in addition to other peaks.\n\nThe peak at m/z = 69 is accompanied by a peak at m/z = 70, which is about 1.1% the intensity of the peak at m/z = 69.\n\nWhich of the following statements is **not** supported by this information?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- If CF<sub>3</sub>CO<sub>2</sub>H fragmented by sequential loss of F atoms (mass 19 each time), peaks would be expected at m/z = 203, 184, 165, etc.\n- The observed peaks at m/z = 69 ([CF<sub>3</sub>]<sup>+</sup>) and 45 ([HO<sub>2</sub>C]<sup>+</sup>) are consistent with a single C−C bond cleavage, not sequential F loss.\n- The small peak at m/z = 70 (1.1% of m/z = 69) is consistent with the natural abundance of <sup>13</sup>C (~1.1%).\n\n  - Since fluorine exists as a single stable isotope (<sup>19</sup>F only), this peak cannot arise from a heavier F isotope.\n\n**A** is incorrect as this statement is supported. C−C bond cleavage is the fragmentation pathway, producing [CF<sub>3</sub>]<sup>+</sup> at m/z = 69 and [HO<sub>2</sub>C]<sup>+</sup> at m/z = 45.\n\n**C** is incorrect as this statement is supported. <sup>19</sup>F is the only stable isotope of fluorine, which explains why the peak at m/z = 70 arises from <sup>13</sup>C and not from a heavier fluorine isotope.\n\n**D** is incorrect as this statement is supported. [HO<sub>2</sub>C]<sup>+</sup> is a fragment ion at m/z = 45, which is the base peak formed by C−C bond cleavage.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "C−C bond cleavage occurs"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "CF<sub>3</sub>CO<sub>2</sub>H fragments by sequential loss of F atoms"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Fluorine exists as a single stable isotope"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "[HO<sub>2</sub>C]<sup>+</sup> is a fragment ion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_wHzg8qQz2WcGWXQR",
+   "set_slug": "multiple-choice-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_b3bmmnJtDJCVn6Jh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "The mass spectra of three compounds A, B and C are shown below.\n\n![Mass spectrum of compound A, a C4H10O isomer, showing a molecular ion peak at m/z = 74 and fragment ion peaks at lower m/z values](assets/001-mass-spectrum-of-compound-a-a-c4h10o-isomer-show.jpg)\n\n![Mass spectrum of compound B, a C4H10O isomer, showing a molecular ion peak at m/z = 74 and fragment ion peaks at lower m/z values](assets/002-mass-spectrum-of-compound-b-a-c4h10o-isomer-show.jpg)\n\n![Mass spectrum of compound C, a C4H10O isomer, showing a molecular ion peak at m/z = 74 and fragment ion peaks at lower m/z values](assets/003-mass-spectrum-of-compound-c-a-c4h10o-isomer-show.jpg)\n\nWhich feature of the three mass spectra confirms that all three compounds have the molecular formula C<sub>4</sub>H<sub>10</sub>O?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The molecular ion peak (M<sup>+</sup> or M<sub>●</sub><sup>+</sup>) corresponds to the unfragmented molecule that has lost one electron.\n- It is the peak with the highest m/z value (excluding isotope peaks).\n- The molecular formula C<sub>4</sub>H<sub>10</sub>O has a relative molecular mass of (4 × 12) + (10 × 1) + 16 = 74.\n- In all three mass spectra, the highest m/z peak (the molecular ion peak) appears at m/z = 74, confirming the molecular formula.\n\n**A** is incorrect as m/z = 73 is a fragment ion peak ([M − H]<sup>+</sup>), not the molecular ion peak.\n\n**B** is incorrect as m/z = 15 is a fragment ion peak ([CH<sub>3</sub>]<sup>+</sup>), not the molecular ion peak.\n\n**C** is incorrect as m/z = 33 is a fragment ion peak, not the molecular ion peak.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "All show a base peak at m/z = 73"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "All show a fragment ion peak at m/z = 15"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "All show a fragment ion peak at m/z = 33"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "All show a molecular ion peak at m/z = 74"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vV7S9KGBjPpNhpqY",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_mGDjmtvgcMrG42Vb",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of neon contains the following isotopes.\n\n| **Isotope** | **Percentage abundance** |\n|---|---|\n| <sup>20</sup>Ne | 90.92 |\n| <sup>21</sup>Ne | 0.26 |\n| <sup>22</sup>Ne | 8.82 |\n\nWhich is the relative atomic mass of neon in this sample, to 2 dp?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- To calculate the relative atomic mass of neon, multiply each isotopic mass by its percentage abundance, add the values, then divide by 100.\n\n*A*<sub>r</sub>(Ne) = $\\frac{(20\\times90.92)+(21\\times0.26)+(22\\times8.82)}{100}$\n\n*A*<sub>r</sub>(Ne) = $\\frac{1818.40+5.46+194.04}{100}$\n\n*A*<sub>r</sub>(Ne) = $\\frac{2017.90}{100}$\n\n*A*<sub>r</sub>(Ne) = 20.18\n\n**A** is incorrect as 20.00 is the mass of the most abundant isotope (<sup>20</sup>Ne), not the relative atomic mass.\n\n**B** is incorrect as 20.09 results from mixing up the percentage abundances of <sup>21</sup>Ne and <sup>22</sup>Ne (using 0.26% for <sup>22</sup>Ne and 8.82% for <sup>21</sup>Ne).\n\n**D** is incorrect as 21.00 is the simple mean of 20, 21 and 22 without weighting for percentage abundance.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "20.00"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "20.09"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "20.18"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "21.00"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(20\\times90.92)+(21\\times0.26)+(22\\times8.82)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>20</mn><mo>&#xD7;</mo><mn>90</mn><mo>.</mo><mn>92</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>21</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>26</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>22</mn><mo>&#xD7;</mo><mn>8</mn><mo>.</mo><mn>82</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(20 \\times 90.92) + (21 \\times 0.26) + (22 \\times 8.82)}{100}"
+      },
+      {
+       "latex": "\\frac{1818.40+5.46+194.04}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1818</mn><mo>.</mo><mn>40</mn><mo>+</mo><mn>5</mn><mo>.</mo><mn>46</mn><mo>+</mo><mn>194</mn><mo>.</mo><mn>04</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{1818.40 + 5.46 + 194.04}{100}"
+      },
+      {
+       "latex": "\\frac{2017.90}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2017</mn><mo>.</mo><mn>90</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{2017.90}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Ttb5kRwTRkfsgkmh",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dHjZQhG86Pn2ScP6",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which alcohol does **not** have a fragment ion at m/z = 43 in its mass spectrum?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A fragment ion at m/z = 43 corresponds to [C<sub>3</sub>H<sub>7</sub>]<sup>+</sup>, for example:\n\n  - [CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>]<sup>+</sup>\n  - [(CH<sub>3</sub>)<sub>2</sub>CH]<sup>+</sup>\n\n- CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub> cannot produce a [C<sub>3</sub>H<sub>7</sub>]<sup>+</sup> fragment.\n\n  - C−C cleavage on either side of the OH group gives at most a two-carbon fragment ([CH<sub>3</sub>CH<sub>2</sub>]<sup>+</sup>, m/z = 29) or a one-carbon fragment ([CH<sub>3</sub>]<sup>+</sup>, m/z = 15).\n\n**A** is incorrect as [CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>]<sup>+</sup> can be produced from CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH by C−C cleavage adjacent to the OH, giving m/z = 43.\n\n**C** is incorrect as [CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>]<sup>+</sup> can be produced from CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> by cleavage of the bond between C-3 and C-4, giving m/z = 43.\n\n**D** is incorrect as [(CH<sub>3</sub>)<sub>2</sub>CH]<sup>+</sup> can be produced from (CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH by cleavage adjacent to the CH<sub>2</sub>OH group, giving m/z = 43.\n\n> **[exam-tip]**\n> Draw a vertical line through each C−C bond in turn to identify possible fragment ions. For m/z = 43, look for a three-carbon, seven-hydrogen fragment ([C<sub>3</sub>H<sub>7</sub>]<sup>+</sup>) on either side of each bond.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_TFYPmfkcR45jzFjf",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MX9R6cXwFQHnxHf9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "The mass spectrum of silicon is shown below.\n\n![Mass spectrum of a silicon sample showing three peaks: the tallest at m/z = 28 (approximately 80% relative abundance), a medium peak at m/z = 29 (approximately 12%), and a small peak at m/z = 30 (approximately 8%)](assets/004-mass-spectrum-of-a-silicon-sample-showing-three-.jpg)\n\nWhich is the relative atomic mass of silicon in this sample, to 1 dp?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Reading relative abundances from the mass spectrum: m/z = 28 (80%), m/z = 29 (12%), m/z = 30 (8%).\n- To calculate the relative atomic mass, multiply each isotopic mass by its relative abundance, add the values, then divide by 100.\n\n*A*<sub>r</sub>(Si) = $\\frac{(28\\times80)+(29\\times12)+(30\\times8)}{100}$\n\n*A*<sub>r</sub>(Si) = $\\frac{2240+348+240}{100}$\n\n*A*<sub>r</sub>(Si) = $\\frac{2828}{100}$\n\n*A*<sub>r</sub>(Si) = 28.3\n\n**A** is incorrect as 28.0 is the mass of the most abundant isotope (<sup>28</sup>Si), not the relative atomic mass.\n\n**C** is incorrect as 28.8 results from misreading the graph by swapping the relative abundances of the peaks at m/z = 28 and m/z = 29.\n\n**D** is incorrect as 29.0 is the simple mean of 28, 29 and 30 without weighting for relative abundance.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "28.0"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "28.3"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "28.8"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "29.0"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(28\\times80)+(29\\times12)+(30\\times8)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>28</mn><mo>&#xD7;</mo><mn>80</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>29</mn><mo>&#xD7;</mo><mn>12</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>30</mn><mo>&#xD7;</mo><mn>8</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(28 \\times 80) + (29 \\times 12) + (30 \\times 8)}{100}"
+      },
+      {
+       "latex": "\\frac{2240+348+240}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2240</mn><mo>+</mo><mn>348</mn><mo>+</mo><mn>240</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{2240 + 348 + 240}{100}"
+      },
+      {
+       "latex": "\\frac{2828}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2828</mn><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{2828}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RmHWWNGJBZP7H4zX",
+   "set_slug": "multiple-choice-questions",
+   "order": 19,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_fq5qn9XDxFXnmSPr",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine exists as two isotopes, <sup>35</sup>Cl and <sup>37</sup>Cl, in the ratio 3:1.\n\nWhich of the following statements about the molecular ion peaks in the mass spectrum of Cl<sub>2</sub> is correct?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Cl<sub>2</sub> is a diatomic molecule. When it passes through the mass spectrometer, an electron is removed to form the molecular ion:\n\nCl<sub>2</sub> → Cl<sub>2</sub><sup>+</sup> + e<sup>−</sup>\n\n- Cl<sub>2</sub><sup>+</sup> can then fragment:\n\nCl<sub>2</sub><sup>+</sup> → Cl<sup>+</sup> + Cl\n\n- The neutral Cl atom carries no charge and is not detected; the Cl<sup>+</sup> ions give peaks at m/z = 35 and 37.\n- Three isotopologue combinations give three molecular ion peaks:\n\n  - <sup>35</sup>Cl<sup>35</sup>Cl<sup>+</sup> at m/z = 70 — relative probability ∝ 3 × 3 = 9\n  - <sup>35</sup>Cl<sup>37</sup>Cl<sup>+</sup> (two arrangements) at m/z = 72 — relative probability ∝ 2 × (3 × 1) = 6\n  - <sup>37</sup>Cl<sup>37</sup>Cl<sup>+</sup> at m/z = 74 — relative probability ∝ 1 × 1 = 1\n- The three molecular ion peaks at m/z = 70, 72 and 74 therefore appear in a 9:6:1 ratio.\n\n![Mass spectrum of Cl2 showing Cl+ fragment ion peaks at m/z = 35 and 37, and molecular ion peaks at m/z = 70, 72 and 74 in a 9:6:1 ratio](assets/005-mass-spectrum-of-cl2-showing-cl-fragment-ion-pea.jpg)\n\n**A** is incorrect as there are three molecular ion peaks (at m/z = 70, 72 and 74), not two. A 3:1 ratio applies to the individual chlorine isotopes, not to the molecular ion peaks.\n\n**B** is incorrect as three molecular ion peaks exist. The peak at m/z = 72 from <sup>35</sup>Cl<sup>37</sup>Cl<sup>+</sup> is absent from this option.\n\n**C** is incorrect as the middle peak arises from two arrangements (<sup>35</sup>Cl<sup>37</sup>Cl<sup>+</sup> and <sup>37</sup>Cl<sup>35</sup>Cl<sup>+</sup>), giving a relative probability of 2 × (3 × 1) = 6. The correct ratio is 9:6:1, not 9:3:1.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Peaks at m/z = 70 and 72 in the ratio 3:1"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Peaks at m/z = 70 and 74 in the ratio 3:1"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Peaks at m/z = 70, 72 and 74 in the ratio 9:3:1"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "Peaks at m/z = 70, 72 and 74 in the ratio 9:6:1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qzNn9x5MK6SJp7xc",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qmsj7MSnRksFSYyZ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the compounds below is not likely to have a fragment ion at *m/e* = 43 in its mass spectrum?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- A peak at m/z = 43 can arise from an ion with a mass of 43 for example:\n\n  - [CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>]<sup>+</sup>\n  - [CH<sub>3</sub>CO]<sup>+</sup>\n  - [(CH<sub>3</sub>)<sub>2</sub>CH]<sup>+</sup>\n- Propanoic acid (compound A) cannot produce any of these fragments:\n\n  - It has no three-carbon hydrocarbon fragment .\n  - It has no [CH<sub>3</sub>CO]<sup>+</sup> unit — the carbonyl is bonded to CH<sub>3</sub>CH<sub>2</sub>, giving [CH<sub>3</sub>CH<sub>2</sub>CO]<sup>+</sup> at m/z = 57, not 43.\n\n**B** is incorrect as it contains a [CH<sub>3</sub>CO]<sup>+</sup> unit, which produces [CH<sub>3</sub>CO]<sup>+</sup> at m/z = 43.\n\n**C** is incorrect as it contains a (CH<sub>3</sub>)<sub>2</sub>CH unit, which produces [(CH<sub>3</sub>)<sub>2</sub>CH]<sup>+</sup> at m/z = 43.\n\n**D** is incorrect as it contains a CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub> unit, which produces [CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>]<sup>+</sup> at m/z = 43.\n\n> **[exam-tip]**\n> Draw a vertical line through each C−C bond in turn to identify possible fragment ions. For m/z = 43, look for either a three-carbon hydrocarbon unit ([C<sub>3</sub>H<sub>7</sub>]<sup>+</sup>) or a CH<sub>3</sub>−C=O unit ([CH<sub>3</sub>CO]<sup>+</sup>) on either side of the bond.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qf5WTV7NSvYMMNs4",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_QvHC2XbzbWvQ4Hr3",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine exists as two isotopes with mass numbers 35 and 37. A sample of chlorine contains 75.3% of chlorine-35 atoms.\n\nWhich is the relative atomic mass of chlorine in this sample, to 2 dp?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- To calculate the relative atomic mass of chlorine, multiply each isotopic mass by its percentage abundance, add the values, then divide by 100.\n\n*A*<sub>r</sub>(Cl) = $\\frac{(35\\times75.3)+(37\\times24.7)}{100}$\n\n*A*<sub>r</sub>(Cl) = $\\frac{2635.5+913.9}{100}$\n\n*A*<sub>r</sub>(Cl) = $\\frac{3549.4}{100}$\n\n*A*<sub>r</sub>(Cl) = 35.49\n\n**A** is incorrect as 35.00 is the mass of the more abundant isotope, <sup>35</sup>Cl, not the relative atomic mass.\n\n**C** is incorrect as 36.00 is the simple mean of 35 and 37 without weighting for percentage abundance.\n\n**D** is incorrect as 36.51 results from swapping the percentage abundances — using 75.3% for <sup>37</sup>Cl and 24.7% for <sup>35</sup>Cl instead.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "35.00"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "35.49"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "36.00"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "36.51"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(35\\times75.3)+(37\\times24.7)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>35</mn><mo>&#xD7;</mo><mn>75</mn><mo>.</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>37</mn><mo>&#xD7;</mo><mn>24</mn><mo>.</mo><mn>7</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(35 \\times 75.3) + (37 \\times 24.7)}{100}"
+      },
+      {
+       "latex": "\\frac{2635.5+913.9}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2635</mn><mo>.</mo><mn>5</mn><mo>+</mo><mn>913</mn><mo>.</mo><mn>9</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{2635.5 + 913.9}{100}"
+      },
+      {
+       "latex": "\\frac{3549.4}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3549</mn><mo>.</mo><mn>4</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{3549.4}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nxghJnkJmMwV6x2g",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_xt7KbSsgj4gFZncH",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of silicon contains the following isotopes.\n\n| **Isotope** | **Percentage abundance** |\n|---|---|\n| <sup>28</sup>Si | 81.21 |\n| <sup>29</sup>Si | 14.10 |\n| <sup>30</sup>Si | 4.69 |\n\nWhich is the relative atomic mass of silicon in this sample, to 1 dp?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- To calculate the relative atomic mass of silicon, multiply each isotopic mass by its percentage abundance, add the values, then divide by 100.\n\n*A*<sub>r</sub>(Si) = $\\frac{(28\\times81.21)+(29\\times14.10)+(30\\times4.69)}{100}$\n\n*A*<sub>r</sub>(Si) = $\\frac{2823.48}{100}$\n\n*A*<sub>r</sub>(Si) = 28.2\n\n**A** is incorrect as 28.0 is the mass of the most abundant isotope (<sup>28</sup>Si), not the relative atomic mass.\n\n**C** is incorrect as 29.0 is the simple mean of the three isotopic masses without weighting for abundance.\n\n**D** is incorrect as 29.8 results from incorrectly mixing up the percentage abundances of the isotopes.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "28.0"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "28.2"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "29.0"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "29.8"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{(28\\times81.21)+(29\\times14.10)+(30\\times4.69)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>28</mn><mo>&#xD7;</mo><mn>81</mn><mo>.</mo><mn>21</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>29</mn><mo>&#xD7;</mo><mn>14</mn><mo>.</mo><mn>10</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>30</mn><mo>&#xD7;</mo><mn>4</mn><mo>.</mo><mn>69</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(28 \\times 81.21) + (29 \\times 14.10) + (30 \\times 4.69)}{100}"
+      },
+      {
+       "latex": "\\frac{2823.48}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2823</mn><mo>.</mo><mn>48</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{2823.48}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NSjJzF2xGHDcS8kf",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_RhdF7xPFbbmvR7Jn",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "In a mass spectrometer, the ions are separated.\n\nWhich of the following species will be deflected to the greatest extent?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- In a mass spectrometer, ions with a smaller m/z ratio are deflected to a greater extent by the magnetic field.\n\n  - <sup>35</sup>Cl<sup>+</sup> has m/z = 35\n  - <sup>35</sup>Cl<sup>2+</sup> has m/z = $\\frac{35}{2}$ = 17.5\n  - <sup>37</sup>Cl<sup>+</sup> has m/z = 37\n- <sup>35</sup>Cl<sup>2+</sup> has the smallest m/z ratio of the charged species and is therefore deflected to the greatest extent.\n\n**A** is incorrect as <sup>35</sup>Cl<sup>+</sup> has m/z = 35, which is greater than the m/z of <sup>35</sup>Cl<sup>2+</sup>.\n\n**C** is incorrect as <sup>37</sup>Cl carries no charge and is not deflected by the magnetic field.\n\n**D** is incorrect as <sup>37</sup>Cl<sup>+</sup> has m/z = 37, which is the largest m/z of the charged species and is therefore deflected the least.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "<sup>35</sup>Cl<sup>+</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "<sup>35</sup>Cl<sup>2+</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "<sup>37</sup>Cl"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "<sup>37</sup>Cl<sup>+</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{35}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>35</mn><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{35}{2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mQnWnsnfHgDkstTd",
+   "set_slug": "multiple-choice-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_yF2cxPkZ7VN73wPx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following statements about the mass spectrum of CH<sub>3</sub>Br is correct?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The mass spectrum of CH<sub>3</sub>Br shows three peaks:\n\n1. Ionisation of CH<sub>3</sub><sup>79</sup>Br:\n\nCH<sub>3</sub><sup>79</sup>Br → [CH<sub>3</sub><sup>79</sup>Br]<sup>•+</sup> + e<sup>−</sup> at m/z = 94\n\n2. Ionisation of CH<sub>3</sub><sup>81</sup>Br:\n\nCH<sub>3</sub><sup>81</sup>Br → [CH<sub>3</sub><sup>81</sup>Br]<sup>•+</sup> + e<sup>−</sup> at m/z = 96\n\n3. Fragmentation:\n\n[CH<sub>3</sub>Br]<sup>•+</sup> → [CH<sub>3</sub>]<sup>+</sup> + Br<sup>•</sup> at m/z = 15\n\n- The two molecular ion peaks at m/z = 94 and 96 are of approximately equal size because <sup>79</sup>Br and <sup>81</sup>Br occur in approximately equal abundance.\n\n![Mass spectrum of bromomethane showing two molecular ion peaks of approximately equal height at m/z = 94 and 96, and a fragment ion peak at m/z = 15](assets/006-mass-spectrum-of-bromomethane-showing-two-molecu.jpg)\n\n**B** is incorrect as the two molecular ion peaks at m/z = 94 and 96 are of approximately equal size, not in a 3:1 ratio. A 3:1 ratio is characteristic of compounds containing chlorine, not bromine.\n\n**C** is incorrect as there is no molecular ion peak at m/z = 44 in the mass spectrum of CH<sub>3</sub>Br. The molecular ion peaks occur at m/z = 94 and 96.\n\n**D** is incorrect as there is no single molecular ion peak at m/z = 95. Mass spectrometry separates isotopes, giving two distinct molecular ion peaks at m/z = 94 and 96.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "The molecular ion peaks are of equal size and occur at *m/z* values of 94 and 96."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The molecular ion peaks have abundances in the ratio 3:1 and occur at *m/z* values of 94 and 96."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "There is one peak for the molecular ion with an *m/z* value of 44."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "There is one peak for the molecular ion with an *m/z* value of 95."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Mp8np96mJJq8wp5c",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_qmyshJpRZhjb5mhy",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which pair of compounds would you expect to both have a singly charged peak at *m/z* = 29 in the mass spectrum?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- A line at m/z = 29 can correspond to one of two fragment ions:\n\n  - [C<sub>2</sub>H<sub>5</sub>]<sup>+</sup> (m/z = 29)\n  - [CHO]<sup>+</sup> (m/z = 29)\n- Propan-1-ol gives a peak at m/z = 29 due to the [C<sub>2</sub>H<sub>5</sub>]<sup>+</sup> fragment ion, and propanal gives a peak at m/z = 29 due to the [CHO]<sup>+</sup> fragment ion.\n\n![[Structural diagrams showing C–C bond cleavage in propan-1-ol producing [C2H5]+ at m/z = 29 and C–C bond cleavage in propanal producing [CHO]+ at m/z = 29]](assets/007-structural-diagrams-showing-c-c-bond-cleavage-in.jpg)\n\n**A** is incorrect as propan-2-ol does not give a [C<sub>2</sub>H<sub>5</sub>]<sup>+</sup> fragment ion and does not have a peak at m/z = 29.\n\n**C** is incorrect as propan-2-ol does not give a [C<sub>2</sub>H<sub>5</sub>]<sup>+</sup> fragment ion and does not have a peak at m/z = 29.\n\n![[Structural diagram of propan-2-ol showing that bond cleavage does not produce a [C2H5]+ fragment ion at m/z = 29]](assets/008-structural-diagram-of-propan-2-ol-showing-that-b.jpg)\n\n**D** is incorrect as propanone does not give a [C<sub>2</sub>H<sub>5</sub>]<sup>+</sup> or [CHO]<sup>+</sup> fragment ion and does not have a peak at m/z = 29.\n\n![Structural diagram of propanone showing that bond cleavage does not produce fragment ions at m/z = 29](assets/009-structural-diagram-of-propanone-showing-that-bon.jpg)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Propan-1-ol and propan-2-ol"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Propan-1-ol and propanal"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Propan-2-ol and propanal"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Propanal and propanone"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mcY4WpX2JDCFXN2Q",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_snYMW83qDGYfhJ4N",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which alcohol is likely to have a fragment ion at *m/z* = 31 in its mass spectrum?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- A line at m/z = 31 corresponds to an ion with a mass of 31, for example:\n\n  - [CH<sub>2</sub>OH]<sup>+</sup>\n- 2-methylpropan-1-ol is likely to have a fragment at m/z = 31 as it contains a [CH<sub>2</sub>OH]<sup>+</sup> group.\n\n**B** is incorrect as pentan-2-ol does not contain a [CH<sub>2</sub>OH]<sup>+</sup> group and does not give a fragment ion at m/z = 31.\n\n**C** is incorrect as 2-methylpentan-2-ol does not contain a [CH<sub>2</sub>OH]<sup>+</sup> group; the OH group is not bonded to a –CH<sub>2</sub>– unit.\n\n**D** is incorrect as butan-2-ol does not contain a [CH<sub>2</sub>OH]<sup>+</sup> group and does not give a fragment ion at m/z = 31.\n\n> **[exam-tip]**\n> If you are not sure, draw vertical lines in the structural formula of each compound to identify the possible fragment ions.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "(CH<sub>3</sub>)<sub>2</sub>CHCH<sub>2</sub>OH"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH(OH)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>C(OH)(CH<sub>3</sub>)<sub>2</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CH(OH)CH<sub>3</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_kjqvfMM9NgZdQ6Bm",
+   "set_slug": "multiple-choice-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_JbsHWDSvM7cYdWZf",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine has two isotopes, <sup>35</sup>Cl and <sup>37</sup>Cl.\n\nWhich of the following is the number of molecular ion peaks in the mass spectrum of a sample of Cl<sub>2</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Chlorine exists as diatomic molecules.\n\n  - When a sample of Cl<sub>2</sub> is ionised in the mass spectrometer, each molecule loses one electron to form the molecular ion, Cl<sub>2</sub><sup>•+</sup>.\n- There are three possible Cl<sub>2</sub><sup>•+</sup> molecular ions, depending on which combination of isotopes is present:\n\n  - <sup>35</sup>Cl<sub>2</sub><sup>•+</sup> at m/z = 70\n  - <sup>35</sup>Cl<sup>37</sup>Cl<sup>•+</sup> at m/z = 72\n  - <sup>37</sup>Cl<sub>2</sub><sup>•+</sup> at m/z = 74\n- This gives three molecular ion peaks.\n- Some Cl<sub>2</sub><sup>•+</sup> ions fragment further:\n\nCl<sub>2</sub><sup>•+</sup> → Cl<sup>•</sup> + Cl<sup>+</sup>\n\n- The Cl<sup>+</sup> ions give additional fragment ion peaks at m/z = 35 and m/z = 37, but these are not molecular ion peaks.\n\n![Mass spectrum of Cl2 showing three molecular ion peaks at m/z = 70, 72 and 74 from the three Cl2 isotope combinations (35Cl2, 35Cl37Cl and 37Cl2), and two fragment ion peaks at m/z = 35 and 37 from Cl+](assets/010-mass-spectrum-of-cl2-showing-three-molecular-ion.jpg)\n\n**A** is incorrect as 2 is the number of chlorine isotopes, not the number of molecular ion peaks.\n\n**C** is incorrect as there are three possible Cl<sub>2</sub><sup>•+</sup> molecular ions (at m/z = 70, 72 and 74), not four.\n\n**D** is incorrect as 5 is the total number of peaks in the mass spectrum, including two fragment ion peaks at m/z = 35 and 37, not just the molecular ion peaks.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "3"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "4"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JdTBjQB2RXs2T8nM",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_nMxssxyX2TzYCVrp",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "Bromine exists as two isotopes <sup>79</sup>Br and <sup>81</sup>Br, which are found in almost equal abundance.\n\nWhich of the following statements is correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The peak representing the **molecular ion (M**<sup>**+**</sup>** or M•**<sup>**+**</sup>**)** is called the **molecular ion peak**.\n- Excluding any peaks due to the presence of heavier isotopes, this is the peak with the highest m/z ratio.\n\n  - This is the whole molecule that has lost one electron.\n- Bromine has two isotopes, so there are two possible molecular ions:\n\n  - M (<sup>79</sup>Br) m/z = 122\n  - M+2 (<sup>81</sup>Br) m/z = 124\n\n**A** is incorrect as isotopes have identical chemical reactivities.\n\n**C** is incorrect as the differences in the number of neutrons do not affect atomic radii.\n\n**D** is incorrect as the differences in the number of neutrons do not affect the first ionisation energy.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "<sup>79</sup>Br is more reactive than <sup>81</sup>Br."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "The mass spectrum of C<sub>3</sub>H<sub>7</sub>Br has two molecular ion peaks at 122 and 124."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The atomic radius of <sup>79</sup>Br is less than the atomic radius of <sup>81</sup>Br."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The first ionisation energy of <sup>79</sup>Br is less than the first ionisation energy of <sup>81</sup>Br."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GQ5BmWhRqZ4wvSvw",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dykcWcVc6xbVhfpN",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "Nitrogen trichloride has the formula NCl<sub>3</sub>. A sample contains only <sup>14</sup>N atoms and chlorine atoms with mass numbers 35 and 37.\n\nWhich ion and m/z value in the table is **not** correct?\n\n|   | **Ion** | **m/z** |\n|---|---|---|\n| **A** | [<sup>14</sup>N(<sup>35</sup>Cl)<sub>3</sub>]<sup>+</sup> | 119 |\n| **B** | [<sup>14</sup>N(<sup>35</sup>Cl)<sub>2</sub>(<sup>37</sup>Cl)]<sup>+</sup> | 121 |\n| **C** | [<sup>14</sup>N(<sup>35</sup>Cl)(<sup>37</sup>Cl)<sub>2</sub>]<sup>+</sup> | 123 |\n| **D** | [<sup>14</sup>N(<sup>37</sup>Cl)<sub>2</sub>]<sup>+</sup> | 125 |",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- The question states that there are only nitrogen atoms with a mass of 14.\n- All three Cl as <sup>35</sup>Cl:\n\n[<sup>14</sup>N(<sup>35</sup>Cl)<sub>3</sub>]<sup>+</sup>, m/z = 14 + (3 × 35) = 119\n\n- Two <sup>35</sup>Cl and one <sup>37</sup>Cl:\n\n[<sup>14</sup>N(<sup>35</sup>Cl)<sub>2</sub>(<sup>37</sup>Cl)]<sup>+</sup>, m/z = 14 + (2 × 35) + 37 = 121\n\n- One <sup>35</sup>Cl and two <sup>37</sup>Cl:\n\n[<sup>14</sup>N(<sup>35</sup>Cl)(<sup>37</sup>Cl)<sub>2</sub>]<sup>+</sup>, m/z = 14 + 35 + (2 × 37) = 123\n\n- All three Cl as <sup>37</sup>Cl:\n\n[<sup>14</sup>N(<sup>37</sup>Cl)<sub>3</sub>]<sup>+</sup>, m/z = 14 + (3 × 37) = 125\n\n- Therefore, ion **D** should be N(<sup>37</sup>Cl)<sub>3</sub><sup>+</sup>\n\n**A**, **B** and **C** are incorrect as these are all valid molecular ions with correct m/z values.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FhGT3vbf3JCb9R64",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_VGZx9gwqWNzJQMzs",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr",
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows the structural formula of ricinoleic acid.\n\n![Structural formula of ricinoleic acid (12-hydroxyoctadec-9-enoic acid), an 18-carbon chain with a carboxylic acid group at C-1, a cis C=C double bond between C-9 and C-10, and a hydroxyl group at C-12](assets/011-structural-formula-of-ricinoleic-acid-12-hydroxy.jpg)\n\nThe mass spectrum of ricinoleic acid shows a peak at m/z = 55.\n\nWhich fragment ion is responsible for this peak?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- A peak at m/z = 55 corresponds to a fragment ion with a mass of 55.\n- [C<sub>4</sub>H<sub>7</sub>]<sup>+</sup> has m/z = (4 × 12) + (7 × 1) = 55.\n\n**B** is incorrect as [CH<sub>2</sub>CO<sub>2</sub>]<sup>+</sup> has m/z = 58, not 55.\n\n**C** is incorrect as [CH$\\equiv$CHCHOH]<sup>+</sup> has m/z = 56, not 55.\n\n**D** is incorrect as [COOH]<sup>+</sup> has m/z = 45, not 55.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "C<sub>4</sub>H<sub>7</sub><sup>+</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "CH<sub>2</sub>CO<sub>2</sub><sup>+</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "CH$\\equiv$CHCHOH<sup>+</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "COOH<sup>+</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\equiv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8801;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "identical to"
+      },
+      {
+       "latex": "\\equiv",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8801;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "identical to"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_F3wjjdyRm6QTkkrS",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pY4nP4sMmtf39Y2G",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the following corresponds to the base peak in a mass spectrum?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The **base peak** is the most intense (tallest) peak in a mass spectrum.\n- It corresponds to the ion with the greatest abundance in the sample.\n\n**A** is incorrect as a fragment ion does not necessarily produce the base peak. The base peak is the most abundant ion regardless of how it is formed.\n\n**B** is incorrect as the base peak is not necessarily produced by the ion with the lowest m/z ratio.\n\n**C** is incorrect as the molecular ion peak does not necessarily correspond to the base peak. The molecular ion (M<sup>+</sup> or M<sub>●</sub><sup>+</sup>) is the unfragmented ionised molecule. It has the highest m/z ratio (excluding isotope peaks) but is not always the most abundant ion.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Any fragment ion"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The ion with the lowest m/z ratio"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The molecular ion"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "The most abundant ion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_C9qBKQn29HwjnrSf",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_MKGRHWBJmBtRf72P",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "Assuming chlorine exists as two isotopes and that carbon and hydrogen each exist as a single stable isotope only, how many molecular ion peaks are shown in the mass spectrum of C<sub>4</sub>H<sub>6</sub>Cl<sub>4</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Each Cl atom can be either <sup>35</sup>Cl or <sup>37</sup>Cl, giving 5 possible isotopologue combinations for a molecule with 4 Cl atoms.\n- The 5 possible molecular ions for [C<sub>4</sub>H<sub>6</sub>Cl<sub>4</sub>]<sup>+</sup> are:\n\n  - All four Cl atoms as <sup>35</sup>Cl → M (base mass)\n  - Three <sup>35</sup>Cl and one <sup>37</sup>Cl → M+2\n  - Two <sup>35</sup>Cl and two <sup>37</sup>Cl → M+4\n  - One <sup>35</sup>Cl and three <sup>37</sup>Cl → M+6\n  - All four Cl atoms as <sup>37</sup>Cl → M+8\n\n**A** is incorrect as 2 is the number of chlorine isotopes, not the number of molecular ion peaks.\n\n**B** is incorrect as 3 molecular ion peaks would be expected for a molecule containing two chlorine atoms (M, M+2 and M+4). C<sub>4</sub>H<sub>6</sub>Cl<sub>4</sub> contains four chlorine atoms, giving five molecular ion peaks.\n\n**C** is incorrect as 4 peaks omits the M+8 peak (corresponding to all four chlorine atoms being <sup>37</sup>Cl). Five molecular ion peaks are expected.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "3"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "4"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_69XwfrK286QmbsBM",
+   "set_slug": "multiple-choice-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_RDJj4G6MRktWfpF8",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tgKS2RtYzPtRMytJ",
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample is analysed by mass spectrometry and infrared spectroscopy. The data obtained are shown below.\n\n| **Mass spectrometry** | **Infrared spectroscopy** |\n|---|---|\n| Molecular ion peak at m/z = 128 | Strong absorption at 1720 cm<sup>-1</sup> |\n| Fragment ion peak at m/z = 15 | No broad absorption around 3200 cm<sup>-1</sup> |\n\nWhich compound is consistent with these spectroscopic data?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- A strong absorption at 1720 cm<sup>-1</sup> is consistent with a C═O (carbonyl) stretch.\n\n  - Compound A contains a carbonyl group in the ketone wavenumber range (~1715–1725 cm<sup>-1</sup>).\n- The molecular ion peak at m/z = 128 matches the relative molecular mass of compound A.\n- The fragment ion at m/z = 15 corresponds to [CH<sub>3</sub>]<sup>+</sup>, consistent with a terminal methyl group in compound A.\n- The absence of a broad absorption around 3200 cm<sup>-1</sup> confirms that no O−H group is present.\n\n**B** is incorrect as compound B contains a hydroxyl (O−H) group, which would produce a broad absorption around 3200 cm<sup>-1</sup>. This absorption is absent from the data.\n\n**C** is incorrect as compound C has a relative molecular mass of 129, not 128. A molecular ion at m/z = 129 does not match the data.\n\n**D** is incorrect as compound D contains both a carbonyl group and a hydroxyl group. The O−H group would produce a broad absorption around 3200 cm<sup>-1</sup>, which is absent from the data.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_5ZfwDNftR4bTsDby",
+   "set_slug": "multiple-choice-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BjqktZgcSkBBmY3B",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "Two stable isotopes of bromine, <sup>79</sup>Br and <sup>81</sup>Br, exist in approximately equal abundance.\n\nWhich is the correct pattern of peaks in the mass spectrum of Br<sub>2</sub>?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Bromine is a diatomic molecule, so the mass spectrum of Br<sub>2</sub> shows peaks from both the molecular ion (Br<sub>2</sub><sup>+</sup>) and fragment ions (Br<sup>+</sup>).\n- When Br<sub>2</sub> passes through the mass spectrometer, an electron is removed to form the molecular ion:\n\nBr<sub>2</sub> → Br<sub>2</sub><sup>+</sup> + e<sup>−</sup>\n\n- Br<sub>2</sub><sup>+</sup> can then fragment:\n\nBr<sub>2</sub><sup>+</sup> → Br<sup>+</sup> + Br\n\n- The Br<sup>+</sup> fragment ions give peaks at m/z = 79 and 81 in equal intensity.\n- The unfragmented Br<sub>2</sub><sup>+</sup> ion exists in three isotopologue combinations:\n\n  - <sup>79</sup>Br<sup>79</sup>Br<sup>+</sup>: m/z = 79 + 79 = 158 (relative probability 1)\n  - <sup>79</sup>Br<sup>81</sup>Br<sup>+</sup>: m/z = 79 + 81 = 160 (relative probability 2)\n  - <sup>81</sup>Br<sup>81</sup>Br<sup>+</sup>: m/z = 81 + 81 = 162 (relative probability 1)\n- This gives five peaks in total: Br<sup>+</sup> at 79 and 81 (equal height), and Br<sub>2</sub><sup>+</sup> at 158, 160 and 162 in a 1:2:1 ratio.\n\n**A** is incorrect as it shows only a single molecular ion peak, not three.\n\n**B** is incorrect as it also shows only a single molecular ion peak, not three.\n\n**D** is incorrect as it shows three molecular ion peaks at m/z = 158, 160 and 162 in a 9:6:1 ratio. The 9:6:1 pattern corresponds to Cl<sub>2</sub> (<sup>35</sup>Cl : <sup>37</sup>Cl ≈ 3:1), not Br<sub>2</sub> (<sup>79</sup>Br : <sup>81</sup>Br ≈ 1:1).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_2Gc9zcrJfS8kXQ6d",
+   "set_slug": "multiple-choice-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Z2gpHDcGrgyfjYRW",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr"
+     ],
+     "part_tier": null,
+     "problem_md": "Which of the ketones listed would **not** be expected to have a peak in its mass spectrum at *m/z* = 57?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- A line at m/z = 57 corresponds to an ion with a mass of 57, for example:\n\n  - [C<sub>4</sub>H<sub>9</sub>]<sup>+</sup>\n  - [C<sub>2</sub>H<sub>5</sub>CO]<sup>+</sup>\n- 3-methylbutan-2-one will not have either of these fragments.\n\n![Structural formula of 3-methylbutan-2-one showing bond cleavage sites that do not produce fragment ions at m/z = 57](assets/012-structural-formula-of-3-methylbutan-2-one-showin.jpg)\n\n**B** is incorrect as hexan-3-one has a peak at m/z = 57 due to the fragment ion [C<sub>2</sub>H<sub>5</sub>CO]<sup>+</sup>.\n\n**C** is incorrect as pentan-3-one has a peak at m/z = 57 due to the fragment ion [C<sub>2</sub>H<sub>5</sub>CO]<sup>+</sup>.\n\n**D** is incorrect as butanone has a peak at m/z = 57 due to the fragment ion [C<sub>2</sub>H<sub>5</sub>CO]<sup>+</sup>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "(CH<sub>3</sub>)<sub>2</sub>CHCOCH<sub>3</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "CH<sub>3</sub>CH<sub>2</sub>COCH<sub>3</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Zqv4CB6Zjvmtj2FB",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_CDQ9FK5QXvwySbf3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tgKS2RtYzPtRMytJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Compound **X** was analysed by infrared spectroscopy and mass spectrometry. Fig. 3.1 shows the infrared spectrum of compound **X** and Fig. 3.2 shows the mass spectrum of compound **X**.\n\n![Infrared spectrum of compound X showing a strong absorption at approximately 2950 cm^-1^ in the C-H region with no other significant absorptions present](assets/013-infrared-spectrum-of-compound-x-showing-a-strong.png)\n\n**Fig. 3.1**\n\n![Mass spectrum of compound X showing a molecular ion peak at m/e 58 and fragment ion peaks at m/e 43, 29 and 15](assets/014-mass-spectrum-of-compound-x-showing-a-molecular-.png)\n\n**Fig. 3.2**\n\n**Table 3.1**\n\n| **Bond ** | **Functional groups containing**<br>**the bond** | **Characteristic infrared absorption range (in wavenumber) / cm**<sup>**–1**</sup> |\n|---|---|---|\n| C−O | hydroxy, ester | 1040 – 1300 |\n| C=C | aromatic compound, alkene | 1500 – 1680 |\n| C=O | amide<br> carbonyl, carboxyl<br> ester | 1640 – 1690<br>1670 – 1740<br>1710 – 1750 |\n| C≡N | nitrile | 2200 – 2250 |\n| C−H | alkane | 2850 – 2950 |\n| N−H | amine, amide | 3300 – 3500 |\n| O−H | carboxyl<br> hydroxy | 2500 – 3000<br>3200 – 3600 |\n\nUse Fig. 3.1, Fig. 3.2 and Table 3.1 to explain the evidence that compound **X** is a hydrocarbon.",
+     "solution_md": "> **[mark-scheme]**\n> Evidence that compound **X** is a hydrocarbon:\n> \n> - (Strong) absorption at approximately 2950 cm<sup>−1</sup> in the infrared spectrum indicates C−H bonds are present **[1 mark]**\n> - No absorptions for other functional groups (such as O−H, C=O or C≡N) are present, indicating the molecule contains only carbon and hydrogen **[1 mark]**\n\n> **[exam-tip]**\n> A hydrocarbon contains only carbon and hydrogen.\n> \n> Look for two things in the infrared spectrum:\n> \n> 1. A C−H absorption is present\n> 2. No absorptions for oxygen- or nitrogen-containing functional groups appear.\n> \n> The mass spectrum confirms the M<sub>r</sub> but does not identify functional groups."
+    },
+    {
+     "id": "qstnprt_FDbQ6SWkMSZ9pgdP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vDvxQ62H6Hs4cSz4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCompound **X** was analysed by infrared spectroscopy and mass spectrometry. Fig. 3.2 shows the mass spectrum of compound **X**.\n\n![Mass spectrum of compound X showing a molecular ion peak at m/e 58 and fragment ion peaks at m/e 43, 29 and 15](https://cdn.savemyexams.com/uploads/2024/03/q3a-mass-spectrum.png)\n\n{align=center} **Fig. 3.2**\n\nExplain how the mass spectrum supports that compound **X** has a molecular formula of C<sub>4</sub>H<sub>10</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The mass spectrum supports the molecular formula C<sub>4</sub>H<sub>10</sub> because:\n> \n> - (There is a) molecular ion / M<sup>+</sup> peak at *m/e* = 58\n> **AND**\n> C<sub>4</sub>H<sub>10</sub> has a relative molecular mass / *M*<sub>r</sub> of 58 **[1 mark]**\n\n> **[exam-tip]**\n> State both the supporting evidence AND how it supports the conclusion: identify the molecular ion peak at m/e = 58, then link this to the M<sub>r</sub> of C<sub>4</sub>H<sub>10</sub>."
+    },
+    {
+     "id": "qstnprt_pZvR8Xrk9p5QSnPv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_b4cNQNCfhNWb2vQw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nExplain how the mass spectrum supports that compound **X** has a molecular formula of C~4~H~10~.\n\nDraw the fully displayed formulae of **two** possible isomers for compound **X**.",
+     "solution_md": "The fully displayed formulae of two possible isomers for compound **X** are:\n\n![Fully displayed structural formula of butane showing a straight chain of four carbon atoms each bonded to the appropriate number of hydrogen atoms](assets/015-fully-displayed-structural-formula-of-butane-sho.png)\n\n![Fully displayed structural formula of methylpropane showing a central carbon atom bonded to three methyl groups and one hydrogen atom](assets/016-fully-displayed-structural-formula-of-methylprop.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct fully displayed formula of butane: linear chain of 4 carbons with all bonds shown\n> \n> 1 mark for correct fully displayed formula of methylpropane: branched structure with all bonds shown\n\n> **[exam-tip]**\n> C<sub>4</sub>H<sub>10</sub> has exactly two structural isomers: butane (straight chain) and methylpropane (branched). Both must be drawn as fully displayed formulae, so all bonds must be shown explicitly. Skeletal or shortened structural formulae do not score the mark."
+    },
+    {
+     "id": "qstnprt_3DKGnYwgyftR6TnV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCompound **X** was analysed by infrared spectroscopy and mass spectrometry. Fig. 3.1 shows the infrared spectrum of compound **X** and Fig. 3.2 shows the mass spectrum of compound **X**.\n\nMass spectrum of compound X showing a molecular ion peak at m/e 58 and fragment ion peaks at m/e 43, 29 and 15\n\nExplain how the mass spectrum supports that compound **X** has a molecular formula of C~4~H~10~.\n\nThe mass spectrum supports the molecular formula C~4~H~10~ because:\n- (There is a) molecular ion / M^+^ peak at *m/e* = 58\nAND\nC~4~H~10~ has a relative molecular mass / *M*~r~ of 58\n\ni) Deduce the formulae of the fragment ions of **X** at *m/e* = 15, *m/e* = 29 and *m/e* = 43.\n\n[3]\n\nii) State the systematic name of compound **X**. Explain your answer.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The formulae of the fragment ions of **X**:\n> \n> - *m/e* = 15: CH<sub>3</sub><sup>+</sup> **[1 mark]**\n> - *m/e* = 29: C<sub>2</sub>H<sub>5</sub><sup>+</sup> **[1 mark]**\n> - *m/e* = 43: C<sub>3</sub>H<sub>7</sub><sup>+</sup> **[1 mark]**\n> \n> Do not accept formulae without the + charge\n\n> **[exam-tip]**\n> Each fragment ion formula must include the + charge. The ions CH<sub>3</sub><sup>+</sup>, C<sub>2</sub>H<sub>5</sub><sup>+</sup> and C<sub>3</sub>H<sub>7</sub><sup>+</sup> are consecutive alkyl cations produced by successive cleavage along an unbranched carbon chain.\n\n> **[mark-scheme]**\n> ii) The systematic name of compound **X** and the reasoning:\n> \n> - Butane **[1 mark]**\n> - The consecutive fragment ions CH<sub>3</sub><sup>+</sup>, C<sub>2</sub>H<sub>5</sub><sup>+</sup> and C<sub>3</sub>H<sub>7</sub><sup>+</sup> are consistent with an unbranched carbon chain **[1 mark]**\n\n> **[exam-tip]**\n> Butane and methylpropane are both C<sub>4</sub>H<sub>10</sub> isomers. The mass spectrum distinguishes them: an unbranched chain produces consecutive alkyl cation fragments at m/e = 15, 29 and 43. Methylpropane would not produce a C<sub>2</sub>H<sub>5</sub><sup>+</sup> ion at m/e = 29."
+    }
+   ]
+  },
+  {
+   "id": "qstn_zkDk8pWtc7TQr9x6",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_bTKhVxHgVsg2nHMf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "Compound **F** contains 6.98% hydrogen and 37.21% oxygen by mass. The remainder of the mass is carbon.\n\ni) Calculate the empirical formula of compound **F**. Show your working.\n\n[2]\n\nii) Explain why this empirical formula cannot be the molecular formula of compound **F**.\n\n[1]",
+     "solution_md": "i) To calculate the empirical formula of compound **F**:\n\n- Calculate the percentage of carbon:\n\n% C = 100 − 6.98 − 37.21 = 55.81%\n\n- Calculate the moles of each element:\n\nmoles of C = $\\frac{55.81}{12.0}$ = 4.65\n\nmoles of H = $\\frac{6.98}{1.0}$ = 6.98\n\nmoles of O = $\\frac{37.21}{16.0}$ = 2.33\n\n**[1 mark]**\n\n- Find the simplest molar ratio:\n\nC : H : O = $\\frac{4.65}{2.33}$ : $\\frac{6.98}{2.33}$ : $\\frac{2.33}{2.33}$ = 1.99 : 2.99 : 1 ≈ 2 : 3 : 1\n\nEmpirical formula = **C**<sub>**2**</sub>**H**<sub>**3**</sub>**O**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of C = 4.65, H = 6.98 and O = 2.33\n> \n> 1 mark for correct empirical formula C<sub>2</sub>H<sub>3</sub>O\n\n> **[exam-tip]**\n> Calculate the missing percentage first: % C = 100 − 6.98 − 37.21 = 55.81%. Then divide each percentage by the relative atomic mass to find moles, and divide by the smallest value (O = 2.33) to find the simplest ratio.\n\n> **[mark-scheme]**\n> ii) The empirical formula C<sub>2</sub>H<sub>3</sub>O cannot be the molecular formula because:\n> \n> - It has an odd number of hydrogen atoms, making it impossible to form a complete, fully-bonded molecule **[1 mark]**\n\n> **[exam-tip]**\n> For any organic molecule, the hydrogen count must be even (carbon forms 4 bonds, oxygen forms 2 bonds as any complete arrangement requires an even number of hydrogen atoms). C<sub>2</sub>H<sub>3</sub>O has only 3 hydrogen atoms (odd), so no complete bonded structure is possible.",
+     "equations": [
+      {
+       "latex": "\\frac{55.81}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>55</mn><mo>.</mo><mn>81</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{55.81}{12.0}"
+      },
+      {
+       "latex": "\\frac{6.98}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>.</mo><mn>98</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{6.98}{1.0}"
+      },
+      {
+       "latex": "\\frac{37.21}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>37</mn><mo>.</mo><mn>21</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{37.21}{16.0}"
+      },
+      {
+       "latex": "\\frac{4.65}{2.33}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>65</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>33</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.65}{2.33}"
+      },
+      {
+       "latex": "\\frac{6.98}{2.33}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>.</mo><mn>98</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>33</mn></mrow></mfrac></math>",
+       "alt": "\\frac{6.98}{2.33}"
+      },
+      {
+       "latex": "\\frac{2.33}{2.33}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>33</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>33</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.33}{2.33}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hBBXjWC3GwR4V2yw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3",
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCompound **F** contains 6.98% hydrogen and 37.21% oxygen by mass. The remainder of the mass is carbon.\n\ni) Calculate the empirical formula of compound **F**. Show your working.\n\nEmpirical formula = C₂H₃O\n\nFig. 3.1 shows the mass spectrum of compound **F**.\n\n![Mass spectrum of compound F showing a molecular ion peak at m/e 86 and fragment ion peaks at lower m/e values](assets/017-mass-spectrum-of-compound-f-showing-a-molecular-.png)\n\n**Fig. 3.1**\n\nUsing your answer to part **(a)(i)**, deduce the molecular formula of compound **F**.",
+     "solution_md": "To deduce the molecular formula of compound **F**:\n\n- Identify the molecular ion peak:\n\nMolecular ion peak (M) at *m* / *e* = 86.0 → *M*<sub>r</sub> of compound **F** = 86.0\n\n- Divide by the *M*<sub>r</sub> of the empirical formula:\n\n*M*<sub>r</sub> of C<sub>2</sub>H<sub>3</sub>O = (2 x 12.0) + (3 x 1.0) + 16.0 = 43.0\n\n$\\frac{86.0}{43.0}$ = 2\n\nMolecular formula = **C**<sub>**4**</sub>**H**<sub>**6**</sub>**O**<sub>**2**</sub> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct molecular formula C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>\n> \n> Allow error carried forward from part (a)(i) if the empirical formula and calculation are consistent\n\n> **[exam-tip]**\n> The molecular ion peak (M) gives the *M*<sub>r</sub> of the compound directly. Divide this (86.0) by the *M*<sub>r</sub> of the empirical formula (43.0): 86.0 ÷ 43.0 = 2, so the molecular formula is 2 × C<sub>2</sub>H<sub>3</sub>O = C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>.",
+     "equations": [
+      {
+       "latex": "\\frac{86.0}{43.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>86</mn><mo>.</mo><mn>0</mn></mrow><mrow><mn>43</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{86.0}{43.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Jx4wcW6pGXfMfrcR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tgKS2RtYzPtRMytJ"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 3.2 shows the infrared spectrum of compound **F**.\n\n![Infrared spectrum of compound F showing principal absorptions at 2500–3000 cm^-1^ (broad O-H carboxyl), 1710 cm^-1^ (C=O carboxyl) and 1620 cm^-1^ (C=C alkene)](assets/018-infrared-spectrum-of-compound-f-showing-principa.png)\n\n**Fig. 3.2**\n\nTable 3.1 shows the characteristic infrared absorption frequencies for some selected bonds.\n\n**Table 3.1**\n\n| **Bond ** | **Functional groups containing**<br>**the bond** | **Characteristic infrared absorption range (in wavenumber) / cm**<sup>**–1**</sup> |\n|---|---|---|\n| C−O | hydroxy, ester | 1040 – 1300 |\n| C=C | aromatic compound, alkene | 1500 – 1680 |\n| C=O | amide<br> carbonyl, carboxyl<br> ester | 1640 – 1690<br>1670 – 1740<br>1710 – 1750 |\n| C≡N | nitrile | 2200 – 2250 |\n| C−H | alkane | 2850 – 2950 |\n| N−H | amine, amide | 3300 – 3500 |\n| O−H | carboxyl<br> hydroxy | 2500 – 3000<br>3200 – 3600 |\n\nComplete Table 3.2 with the bond responsible for each of the principal absorptions seen in the infrared spectrum of compound **F**.\n\n**Table 3.2**\n\n| **Principal absorption in infrared spectrum** | **Bond responsible** |\n|---|---|\n| 2500 – 3000 cm<sup>-1</sup> |   |\n| 1710 cm<sup>-1</sup> |   |\n| 1620 cm<sup>-1</sup> |   |",
+     "solution_md": "The completed table is:\n\n| **Principal absorption in infrared spectrum** | **Bond responsible** |\n|---|---|\n| 2500 – 3000 cm<sup>-1</sup> | **Final answer:** **O−H (carboxyl)** |\n| 1710 cm<sup>-1</sup> | **Final answer:** **C=O (carboxyl)** |\n| 1620 cm<sup>-1</sup> | **Final answer:** **C=C** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for both: O−H (carboxyl / carboxylic acid) at 2500–3000 cm<sup>-1</sup> **AND** C=O (carboxyl / carboxylic acid) at 1710 cm<sup>-1</sup>\n> \n> 1 mark for C=C / alkene at 1620 cm<sup>-1</sup>\n\n> **[exam-tip]**\n> For the absorptions at 2500–3000 cm<sup>-1</sup> and 1710 cm<sup>-1</sup>, specifying 'carboxyl' or 'carboxylic acid' is required. Both ranges can correspond to more than one functional group in Table 3.1, so the functional group context is essential for full credit."
+    },
+    {
+     "id": "qstnprt_4kCrM6M2V8k2YvHV",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CSfwBM2MqSxzCtjr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFrom part (b): Molecular formula = C4H6O2\n\nFrom part (c): The completed table is:\n| Principal absorption in infrared spectrum | Bond responsible |\n| 2500 – 3000 cm^-1^ | O−H (carboxyl) |\n| 1710 cm^-1^ | C=O (carboxyl) |\n| 1620 cm^-1^ | C=C |\n\nThis indicates compound F contains a carboxylic acid group and a C=C double bond.\n\nCompound **F** is an unbranched molecule.\n\nUsing all of the available information including your answers from parts **(b)** and **(c)**, draw the displayed formulae and state the systematic names of the **three** possible isomers that could be compound **F**.",
+     "solution_md": "The displayed formulae and systematic names of the **three** possible isomers that could be compound **F** are:\n\nBut-3-enoic acid\n\n![Fully displayed structural formula of but-3-enoic acid showing a four-carbon chain with a carboxylic acid group at carbon 1 and a C=C double bond between carbons 3 and 4](assets/019-fully-displayed-structural-formula-of-but-3-enoi.png)\n\n**[1 mark]**\n\n*cis*-but-2-enoic acid / Z-but-2-enoic acid\n\n![Fully displayed structural formula of Z-but-2-enoic acid (cis-but-2-enoic acid) showing a four-carbon chain with a carboxylic acid group at carbon 1 and a cis C=C double bond between carbons 2 and 3](assets/020-fully-displayed-structural-formula-of-z-but-2-en.png)\n\n**[1 mark]**\n\n*trans*-but-2-enoic acid / E-but-2-enoic acid\n\n![Fully displayed structural formula of E-but-2-enoic acid (trans-but-2-enoic acid) showing a four-carbon chain with a carboxylic acid group at carbon 1 and a trans C=C double bond between carbons 2 and 3](assets/021-fully-displayed-structural-formula-of-e-but-2-en.png)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the correct fully displayed formula **AND** correct systematic name of but-3-enoic acid\n> \n> 1 mark for the correct fully displayed formula **AND** correct systematic name of *cis*-but-2-enoic acid / Z-but-2-enoic acid\n> \n> 1 mark for the correct fully displayed formula **AND** correct systematic name of *trans*-but-2-enoic acid / E-but-2-enoic acid\n> \n> *Cis*/*trans *and E/Z names are both accepted\n\n> **[exam-tip]**\n> From parts **(b)** and **(c)**: compound **F** has molecular formula C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>, a carboxylic acid group and a C=C double bond. Being unbranched means the carbon chain is straight. Start with COOH at C-1, then place C=C at C-2 (giving *cis *and *trans *but-2-enoic acid) or at C-3 (giving but-3-enoic acid, which has no geometric isomerism)."
+    },
+    {
+     "id": "qstnprt_tb8NVQQwth4JpfPM",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_CSfwBM2MqSxzCtjr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe displayed formulae and systematic names of the three possible isomers that could be compound F are:\n\nBut-3-enoic acid\n\ncis-but-2-enoic acid / Z-but-2-enoic acid\n\ntrans-but-2-enoic acid / E-but-2-enoic acid\n\nCompound **F** is the stereoisomer with the lowest boiling point.\n\nUsing the isomers identified in part **(d)**, state the name of compound **F**. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The name of compound **F** is:\n> \n> - cis-but-2-enoic acid / Z-but-2-enoic acid **[1 mark]**\n> - The cis arrangement of substituents around the C=C reduces molecular surface area, weakening van der Waals forces, so less energy is required to overcome them **[1 mark]**\n\n> **[exam-tip]**\n> But-3-enoic acid is not a stereoisomer so it is excluded. Of the remaining two isomers, cis-but-2-enoic acid has both larger substituents on the same side of the C=C, giving a more compact shape, smaller surface area, weaker van der Waals forces and therefore a lower boiling point."
+    }
+   ]
+  },
+  {
+   "id": "qstn_W88dYCDxkwW3xSvx",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_Nr3HZqHvhkS57mKQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "An unknown compound, **B**, is analysed and shown to have a composition of 69.7% carbon, 18.6% oxygen and the remainder is hydrogen.\n\nThe following **incomplete** mass spectrometry and infrared spectroscopy data are collected.\n\n**Mass spectrum**\n\n- Molecular ion peak (M) at *m* / *e* = 86\n- M+1 peak at *m* / *e* = 87.0\n- Fragment ion peak at *m* / *e* = 28\n\n**Infrared spectrum**\n\n- Sharp absorption at 1705 cm<sup>-1</sup>\n- **No** broad absorption around 3200 cm<sup>-1</sup>\n\nCalculate the molecular formula of compound **B**. Show your working.",
+     "solution_md": "To calculate the molecular formula of compound **B**:\n\n- Calculate the percentage of hydrogen:\n\n% H = 100 − 69.7 − 18.6 = 11.7%\n\n- Calculate the moles of each element:\n\nmoles of C = $\\frac{69.7}{12.0}$ = 5.80\n\nmoles of O = $\\frac{18.6}{16.0}$ = 1.16\n\nmoles of H = $\\frac{11.7}{1.0}$ = 11.7\n\n**[1 mark]**\n\n- Find the simplest molar ratio:\n\nC : O : H = $\\frac{5.80}{1.16}$ : $\\frac{1.16}{1.16}$ : $\\frac{11.7}{1.16}$ = 5 : 1 : 10\n\nEmpirical formula = C<sub>5</sub>H<sub>10</sub>O\n\n**[1 mark]**\n\n- Confirm the molecular formula:\n\n*M*<sub>r</sub> of C<sub>5</sub>H<sub>10</sub>O = (5 x 12.0) + (10 x 1.0) + 16.0 = 86.0\n\nThis matches the molecular ion peak at *m* / *e* = 86\n\nMolecular formula = **C**<sub>**5**</sub>**H**<sub>**10**</sub>**O**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of C = 5.80, O = 1.16 and H = 11.7\n> \n> 1 mark for correct empirical formula C<sub>5</sub>H<sub>10</sub>O\n> \n> 1 mark for confirming molecular formula C<sub>5</sub>H<sub>10</sub>O with *M*<sub>r</sub> = 86 matching the molecular ion peak\n\n> **[exam-tip]**\n> When the percentage composition is incomplete, calculate the missing element's percentage by subtracting from 100: % H = 100 − 69.7 − 18.6 = 11.7%.\n> \n> The molecular ion peak (M) at *m* / *e* = 86 confirms the molecular formula directly as the empirical formula C<sub>5</sub>H<sub>10</sub>O has a molar mass of 86.0 g mol<sup>-1</sup>, matching the M peak exactly. The M+1 peak at *m* / *e* = 87.0 arises from molecules containing one <sup>13</sup>C atom.",
+     "equations": [
+      {
+       "latex": "\\frac{69.7}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>69</mn><mo>.</mo><mn>7</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{69.7}{12.0}"
+      },
+      {
+       "latex": "\\frac{18.6}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>18</mn><mo>.</mo><mn>6</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{18.6}{16.0}"
+      },
+      {
+       "latex": "\\frac{11.7}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>11</mn><mo>.</mo><mn>7</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{11.7}{1.0}"
+      },
+      {
+       "latex": "\\frac{5.80}{1.16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>80</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>16</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.80}{1.16}"
+      },
+      {
+       "latex": "\\frac{1.16}{1.16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>16</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>16</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.16}{1.16}"
+      },
+      {
+       "latex": "\\frac{11.7}{1.16}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>11</mn><mo>.</mo><mn>7</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>16</mn></mrow></mfrac></math>",
+       "alt": "\\frac{11.7}{1.16}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Thrjw8cFVtwN2sfY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_tgKS2RtYzPtRMytJ",
+      "spcpt_sqZ99NMZvSzmpf4v",
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn unknown compound, **B**, is analysed and shown to have a composition of 69.7% carbon, 18.6% oxygen and the remainder is hydrogen.\n\nThe following **incomplete** mass spectrometry and infrared spectroscopy data are collected.\n\n**Mass spectrum**\n\n- Molecular ion peak (M) at *m* / *e* = 86\n- M+1 peak at *m* / *e* = 87.0\n- Fragment ion peak at *m* / *e* = 28\n\n**Infrared spectrum**\n\n- Sharp absorption at 1705 cm^-1^\n- **No** broad absorption around 3200 cm^-1^\n\nMolecular formula = C~5~H~10~O\n\nUsing Table 1.1 and the mass spectrometry and infrared spectroscopy data:\n\n**Table 1.1**\n\n| **Bond ** | **Functional groups containing**<br>**the bond** | **Characteristic infrared absorption range (in wavenumber) / cm**<sup>**–1**</sup> |\n|---|---|---|\n| C−O | hydroxy, ester | 1040 – 1300 |\n| C=C | aromatic compound, alkene | 1500 – 1680 |\n| C=O | amide<br> carbonyl, carboxyl<br> ester | 1640 – 1690<br>1670 – 1740<br>1710 – 1750 |\n| C≡N | nitrile | 2200 – 2250 |\n| C−H | alkane | 2850 – 2950 |\n| N−H | amine, amide | 3300 – 3500 |\n| O−H | carboxyl<br> hydroxy | 2500 – 3000<br>3200 – 3600 |\n\ni) State the functional group present in compound **B**.\n\n[1]\n\nii) Draw the skeletal formulae of **two** possible structures for compound **B**.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The functional group present in compound **B** is:\n> \n> - Ketone / carbonyl group **[1 mark]**\n> \n> Aldehyde is not accepted\n\n> **[exam-tip]**\n> The infrared absorption at 1705 cm<sup>-1</sup> falls in the 1670–1740 cm<sup>-1</sup> range for C=O in a carbonyl / ketone. The absence of a broad absorption around 3200 cm<sup>-1</sup> eliminates O−H groups, ruling out carboxylic acid and alcohol. Aldehyde also has a C=O absorption in this range, but can be eliminated using the fragment ion analysis in part (c).\n\nii) The **two** possible skeletal formulae for compound **B** are:\n\n![Pentan-2-one and pentan-3-one skeletal formulae](assets/022-pentan-2-one-and-pentan-3-one-skeletal-formulae.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for the correct skeletal formula of pentan-2-one\n> \n> 1 mark for the correct skeletal formula of pentan-3-one\n> \n> Structures must show the C=O group at the correct position on the carbon chain\n\n> **[exam-tip]**\n> With molecular formula C<sub>5</sub>H<sub>10</sub>O and a ketone functional group: pentan-2-one has C=O at C-2 and pentan-3-one has C=O at C-3. Pentanal (an aldehyde) is excluded by the functional group identified in (i)."
+    },
+    {
+     "id": "qstnprt_KbpCBK2t5B5gPfJM",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nii) Draw the skeletal formulae of **two** possible structures for compound **B**.\n\nThe **two** possible skeletal formulae for compound **B** are:\n\nPentan-2-one and pentan-3-one\n\n1 mark for the correct skeletal formula of pentan-2-one\n\n1 mark for the correct skeletal formula of pentan-3-one\n\nStructures must show the C=O group at the correct position on the carbon chain\n\nA mass spectrum peak at *m* / *e* = 29 can be used to distinguish between the two isomers identified in **(b)(ii)**.\n\nDeduce the formula of the fragment ion responsible for this peak. Explain how this peak can be used to distinguish between the **two** isomers.",
+     "solution_md": "> **[mark-scheme]**\n> The formula of the fragment ion responsible for the peak at *m* / *e* = 29 is:\n> \n> - C<sub>2</sub>H<sub>5</sub><sup>+</sup> **[1 mark]**\n> \n> How this peak distinguishes between the two isomers:\n> \n> - Pentan-2-one can form only **one** C<sub>2</sub>H<sub>5</sub><sup>+</sup> fragment\n> **AND**\n> Pentan-3-one can form **two** C<sub>2</sub>H<sub>5</sub><sup>+</sup> fragments due to its symmetry **[1 mark]**\n> - Therefore, the peak at *m* / *e* = 29 will have a greater relative abundance in the mass spectrum of pentan-3-one **[1 mark]**\n\n> **[exam-tip]**\n> Pentan-3-one (CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub>) is symmetric: both ethyl (C<sub>2</sub>H<sub>5</sub>) groups can fragment to give C<sub>2</sub>H<sub>5</sub><sup>+</sup> at *m* / *e* = 29, so this peak will be approximately twice as intense. Pentan-2-one (CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>) has only one ethyl group, giving a weaker peak at *m* / *e* = 29."
+    }
+   ]
+  },
+  {
+   "id": "qstn_W7RgyjBM6gXw2zpP",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_v2rzF6qv5tm22XFs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YrYDsWrSzvMs3n9H"
+     ],
+     "part_tier": null,
+     "problem_md": "Compound **X** contains atoms of carbon, hydrogen and oxygen only.\n\nThe mass spectrum of **X** is recorded. Information about the two peaks with *m* / *e* greater than 100 is shown in Fig. 1.1.\n\n![Mass spectrum of compound X showing a molecular ion peak at m/e 102 with 100% relative abundance and an M+1 peak at m/e 103 with 6.5% relative abundance](assets/023-mass-spectrum-of-compound-x-showing-a-molecular-.png)\n\n**Fig. 1.1**\n\nCalculate the number of carbon atoms in compound **X** using information from Fig. 1.1. Show your working.",
+     "solution_md": "To calculate the number of carbon atoms in compound **X**:\n\n- Apply the M+1 peak formula:\n\nn = $\\frac{100\\times6.5}{1.1\\times100}$\n\nn = 5.91 **[1 mark]**\n\nNumber of carbon atoms = **6** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct substitution into the M+1 formula\n> \n> 1 mark for n ≈ 6 carbon atoms\n\n> **[exam-tip]**\n> The M+1 peak arises because ~1.1% of all carbon atoms are <sup>13</sup>C. Each carbon contributes approximately 1.1% to the [M+1] peak relative to the M peak. The formula is:\n> \n> n =$\\frac{ ( 100 \\times [ \\mathrm{M} + 1 ] \\text{abundance} )}{ ( 1.1 \\times \\mathrm{M} \\text{abundance} )}$\n> \n> From Fig. 1.1: the peak at *m* / *e* = 102 is the molecular ion peak (M, abundance 100%) and the peak at *m* / *e* = 103 is the M+1 peak (abundance 6.5%).",
+     "equations": [
+      {
+       "latex": "\\frac{100\\times6.5}{1.1\\times100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>100</mn><mo>&#xD7;</mo><mn>6</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>1</mn><mo>&#xD7;</mo><mn>100</mn></mrow></mfrac></math>",
+       "alt": "\\frac{100 \\times 6.5}{1.1 \\times 100}"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator space left parenthesis 100 cross times left square bracket straight M plus 1 right square bracket space abundance right parenthesis over denominator space left parenthesis 1.1 cross times straight M space abundance right parenthesis end fraction",
+       "render": "$\\frac{ ( 100 \\times [ \\mathrm{M} + 1 ] \\text{abundance} )}{ ( 1.1 \\times \\mathrm{M} \\text{abundance} )}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_gdzVQMxsYgGm2ygm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_vDvxQ62H6Hs4cSz4"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCompound **X** contains atoms of carbon, hydrogen and oxygen only.\n\nThe mass spectrum of **X** is recorded. Information about the two peaks with *m* / *e* greater than 100 is shown in Fig. 1.1.\n\nMass spectrum of compound X showing a molecular ion peak at m/e 102 with 100% relative abundance and an M+1 peak at m/e 103 with 6.5% relative abundance\n\n**Fig. 1.1**\n\nSuggest the molecular formula of **X** using information from Fig. 1.1.",
+     "solution_md": "To suggest the molecular formula of compound **X**:\n\n- Use the molecular ion peak:\n\n*M*<sub>r</sub> = 102 (from M peak at *m* / *e* = 102)\n\n- Calculate remaining mass after carbon:\n\n102 − (6 x 12.0) = 30\n\n- Assign oxygen and hydrogen:\n\n30 − 16.0 (one O) = 14 → 14 hydrogen atoms\n\nMolecular formula = **C**<sub>**6**</sub>**H**<sub>**14**</sub>**O ****[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct molecular formula C<sub>6</sub>H<sub>14</sub>O\n\n> **[exam-tip]**\n> The molecular ion peak (M) at *m* / *e* = 102 gives *M*<sub>r</sub> = 102. Six carbon atoms contribute 6 × 12.0 = 72.0, leaving 30. One oxygen atom (mass 16.0) leaves 14, which corresponds to 14 hydrogen atoms. The molecular formula is therefore C<sub>6</sub>H<sub>14</sub>O."
+    },
+    {
+     "id": "qstnprt_HTKxGb8sK55wZnp8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr",
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCompound **X** contains atoms of carbon, hydrogen and oxygen only.\n\nMolecular formula = C~6~H~14~O\n\nDeduce the formula of the fragment ion at *m* / *e* = 31.",
+     "solution_md": "> **[mark-scheme]**\n> The formula of the fragment ion at *m* / *e* = 31 is:\n> \n> - CH<sub>2</sub>OH<sup>+</sup> **[1 mark]**\n\n> **[exam-tip]**\n> Build up the formula from common fragments:\n> \n> - CH<sub>2</sub><sup>+</sup> has a mass of 14\n> - OH has a mass of 17\n> - Together: 14 + 17 = 31\n> \n> The fragment ion CH<sub>2</sub>OH<sup>+</sup> is formed by cleavage of the C−C bond adjacent to the OH group in compound **X**."
+    },
+    {
+     "id": "qstnprt_KVfrfN6yPzx7sGSf",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_tgKS2RtYzPtRMytJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nSuggest the molecular formula of **X** using information from Fig. 1.1.\n\nMolecular formula = C~6~H~14~O\n\nFig. 1.2 shows the infrared spectrum of **X**.\n\n![Infrared spectrum of compound X showing a broad O-H absorption at approximately 3300 cm^-1^ in the hydroxyl region and an absorption in the C-H region at approximately 2900 cm^-1^](assets/024-infrared-spectrum-of-compound-x-showing-a-broad-.png)\n\n**Fig. 1.2**\n\nThe data in Fig. 1.2, Table 1.1 and your answer to (b) should be used in answering this question.\n\nState the functional group present in **X**. Explain your answer.\n\n**Table 1.1**\n\n| **Bond ** | **Functional groups containing**<br>**the bond** | **Characteristic infrared absorption range (in wavenumber) / cm**<sup>**–1**</sup> |\n|---|---|---|\n| C−O | hydroxy, ester | 1040 – 1300 |\n| C=C | aromatic compound, alkene | 1500 – 1680 |\n| C=O | amide<br> carbonyl, carboxyl<br> ester | 1640 – 1690<br>1670 – 1740<br>1710 – 1750 |\n| C≡N | nitrile | 2200 – 2250 |\n| C−H | alkane | 2850 – 2950 |\n| N−H | amine, amide | 3300 – 3500 |\n| O−H | carboxyl<br> hydroxy | 2500 – 3000<br>3200 – 3600 |",
+     "solution_md": "> **[mark-scheme]**\n> The functional group present in **X** is:\n> \n> - Hydroxy / OH group **[1 mark]**\n> - The broad absorption at ~3300 cm<sup>-1</sup> corresponds to O−H (hydroxy, range 3200–3600 cm<sup>-1</sup>) \n> **AND**\n> Compound **X** has only one oxygen atom, so a carboxyl group (which requires two oxygen atoms) is excluded **[1 mark]**\n\n> **[exam-tip]**\n> The infrared spectrum shows a broad absorption at ~3300 cm<sup>-1</sup>, which falls in the 3200–3600 cm<sup>-1</sup> range for O−H (hydroxy).\n> \n> The carboxyl O−H absorption falls in the 2500–3000 cm<sup>-1</sup> range, so the peak at ~3300 cm<sup>-1</sup> rules out carboxylic acid.\n> \n> The molecular formula C<sub>6</sub>H<sub>14</sub>O contains only one oxygen atom, which further confirms a hydroxy group (COOH would require two oxygen atoms)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qZ9kkRVTTh2pwd2G",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_jvkDXWsKqTXXVwtc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "The mass spectrum of magnesium is shown in Fig. 2.1.\n\n![Mass spectrum of magnesium showing three peaks at m/e values of 24, 25, and 26 with relative abundances of approximately 79%, 10%, and 11% respectively](assets/025-mass-spectrum-of-magnesium-showing-three-peaks-a.png)\n\n**Fig. 2.1**\n\nFrom the mass spectrum, complete Table 2.1 with the relative abundances of the three isotopes.\n\n**Table 2.1**\n\n| isotope | relative abundance |\n|---|---|\n| <sup>24</sup>Mg |   |\n| <sup>25</sup>Mg |   |\n| <sup>26</sup>Mg |   |",
+     "solution_md": "The relative abundances of the three isotopes are:\n\n| isotope | relative abundance |\n|---|---|\n| <sup>24</sup>Mg | **Final answer:** **78–79** |\n| <sup>25</sup>Mg | **Final answer:** **10** |\n| <sup>26</sup>Mg | **Final answer:** **11–12** |\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for all three correct values: <sup>24</sup>Mg = 78–79, <sup>25</sup>Mg = 10, <sup>26</sup>Mg = 11–12\n> \n> Values must add up to 100\n\n> **[exam-tip]**\n> A range is given to allow for the readability of the diagram, but the values must add up to 100% to score the mark."
+    },
+    {
+     "id": "qstnprt_sWCFNFpHpBJpfHZh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe mass spectrum of magnesium is shown in Fig. 2.1.\n\nFrom the mass spectrum, complete Table 2.1 with the relative abundances of the three isotopes.\n\nTable 2.1\n\n| isotope | relative abundance |\n| :---: | :---: |\n| ^24^Mg |   |\n| ^25^Mg |   |\n| ^26^Mg |   |\n\nUse your values in (a) to calculate the relative atomic mass, *A*<sub>r</sub>, of magnesium to two decimal places.\n\n*A*<sub>r</sub> (Mg) = ...........................",
+     "solution_md": "To calculate the relative atomic mass, *A*<sub>r</sub>, of magnesium to two decimal places:\n\n- Substitute into the relative atomic mass equation using values from (a):\n\n*A*<sub>r</sub> = $\\frac{(24\\times78)+(25\\times10)+(26\\times12)}{100}$\n\n*A*<sub>r</sub> = $\\frac{1872+250+312}{100}$ **[1 mark]**\n\n*A*<sub>r</sub> (Mg) = **24.34** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct method: sum of (isotopic mass × relative abundance) divided by 100, using own values from (a)\n> \n> 1 mark for correct final answer to 2 d.p., consistent with values from (a)\n> \n> Allow error carried forward from (a) if method is correct\n\n> **[exam-tip]**\n> Use your values from part (a). Multiply each isotope's mass number by its relative abundance, add the results, then divide by 100.",
+     "equations": [
+      {
+       "latex": "\\frac{(24\\times78)+(25\\times10)+(26\\times12)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>24</mn><mo>&#xD7;</mo><mn>78</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>25</mn><mo>&#xD7;</mo><mn>10</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>26</mn><mo>&#xD7;</mo><mn>12</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(24 \\times 78) + (25 \\times 10) + (26 \\times 12)}{100}"
+      },
+      {
+       "latex": "\\frac{1872+250+312}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1872</mn><mo>+</mo><mn>250</mn><mo>+</mo><mn>312</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{1872 + 250 + 312}{100}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_2zQ8dbhsWHgSSRtR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PCXmSVmcYjz89QXw"
+     ],
+     "part_tier": null,
+     "problem_md": "State the full electronic configuration of the magnesium ion, <sup>26</sup>Mg<sup>2+</sup>.",
+     "solution_md": "> **[mark-scheme]**\n> The full electronic configuration of the magnesium ion, <sup>26</sup>Mg<sup>2+</sup>:\n> \n> - 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup> **[1 mark]**\n> \n> The isotopic mass does not affect the electron configuration\n\n> **[exam-tip]**\n> Magnesium has 12 electrons (1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>). Forming the +2 ion removes 2 electrons, giving 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>. The isotopic mass (<sup>26</sup>Mg vs <sup>24</sup>Mg) affects only the number of neutrons, not electrons."
+    },
+    {
+     "id": "qstnprt_VKGrxr6ymfTHppXy",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "Boron has two naturally occurring isotopes, <sup>10</sup>B and <sup>11</sup>B. The relative atomic mass of boron is 10.8\n\nUse this information to calculate the relative abundance of each isotope. Show your working.",
+     "solution_md": "To calculate the relative abundance of each isotope of boron:\n\n- Let the relative abundance of <sup>10</sup>B = *x*, so the relative abundance of <sup>11</sup>B = (100 − *x*)\n\n- Substitute into the relative atomic mass equation:\n\n*A*<sub>r</sub> = $\\frac{(10\\timesx)+(11\\times(100-x))}{100}$\n\n10.8 = $\\frac{10x+1100-11x}{100}$\n\n**[1 mark]**\n\n- Rearrange and solve for *x*:\n\n1080 = 1100 − *x*\n\n*x* = 20\n\nrelative abundance of <sup>10</sup>B = **20**\n\nrelative abundance of <sup>11</sup>B = **80**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct substitution into the *A*<sub>r</sub> equation and rearrangement\n> \n> 1 mark for both correct values: <sup>10</sup>B = 20, <sup>11</sup>B = 80\n\n> **[exam-tip]**\n> Let the relative abundance of <sup>10</sup>B = *x*.\n> \n> The two abundances must sum to 100, so <sup>11</sup>B = (100 − *x*).\n> \n> Substitute into the *A*<sub>r</sub> formula: 10.8 = ((10*x*) + (11(100 − *x*))) / 100.\n> \n> Solve for *x*.",
+     "equations": [
+      {
+       "latex": "\\frac{(10\\timesx)+(11\\times(100-x))}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>10</mn><mo>&#xD7;</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>11</mn><mo>&#xD7;</mo><mo>(</mo><mn>100</mn><mo>-</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(10 \\times x) + (11 \\times (100 - x))}{100}"
+      },
+      {
+       "latex": "\\frac{10x+1100-11x}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>1100</mn><mo>-</mo><mn>11</mn><mi>x</mi></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{10x + 1100 - 11x}{100}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GrnZ2W8hFyzPx33q",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_MKc6FFtjzy34RpRP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3"
+     ],
+     "part_tier": null,
+     "problem_md": "Alcohol **E** is analysed using a combination of techniques. The analytical data is shown below.\n\n**Elemental analysis by mass**\n\n- C = 68.2%, H = 13.6%, O = 18.2%\n\n**Mass spectrum**\n\n- Molecular ion peak at *m* / *e* = 88.0\n- Major ion peak at *m* / *e* = 45.0\n\nCalculate the empirical formula of alcohol **E**. Deduce the molecular formula. Show your working.",
+     "solution_md": "To calculate the empirical formula and deduce the molecular formula of alcohol **E**:\n\n- Calculate the moles of each element:\n\nmoles of C = $\\frac{68.2}{12.0}$ = 5.68\n\nmoles of H = $\\frac{13.6}{1.0}$ = 13.6\n\nmoles of O = $\\frac{18.2}{16.0}$ = 1.14\n\n**[1 mark]**\n\n- Find the simplest molar ratio:\n\nC : H : O = $\\frac{5.68}{1.14}$ : $\\frac{13.6}{1.14}$ : $\\frac{1.14}{1.14}$ = 4.98 : 11.93 : 1 ≈ 5 : 12 : 1\n\nEmpirical formula = C<sub>5</sub>H<sub>12</sub>O\n\n**[1 mark]**\n\n- Deduce the molecular formula using the molecular ion peak:\n\n*M*<sub>r</sub> of C<sub>5</sub>H<sub>12</sub>O = (5 x 12.0) + (12 x 1.0) + 16.0 = 88.0\n\nThis matches the molecular ion peak at *m* / *e* = 88.0\n\nMolecular formula = **C**<sub>**5**</sub>**H**<sub>**12**</sub>**O**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of C = 5.68, H = 13.6 and O = 1.14\n> \n> 1 mark for correct empirical formula C<sub>5</sub>H<sub>12</sub>O\n> \n> 1 mark for correct molecular formula C<sub>5</sub>H<sub>12</sub>O, confirmed using *M*<sub>r</sub> = 88.0 matching the molecular ion peak\n\n> **[exam-tip]**\n> Divide each percentage by the corresponding relative atomic mass to find moles, then divide by the smallest value to find the ratio. Here, O gives the smallest mole value (1.14), giving a C : H : O ratio of approximately 5 : 12 : 1.\n> \n> Always verify the molecular formula against the molecular ion peak. Here, the empirical formula mass (88.0) matches *m* / *e* = 88.0, confirming the molecular and empirical formulae are the same.",
+     "equations": [
+      {
+       "latex": "\\frac{68.2}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>68</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{68.2}{12.0}"
+      },
+      {
+       "latex": "\\frac{13.6}{1.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>.</mo><mn>6</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{13.6}{1.0}"
+      },
+      {
+       "latex": "\\frac{18.2}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>18</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{18.2}{16.0}"
+      },
+      {
+       "latex": "\\frac{5.68}{1.14}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>68</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>14</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.68}{1.14}"
+      },
+      {
+       "latex": "\\frac{13.6}{1.14}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>.</mo><mn>6</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>14</mn></mrow></mfrac></math>",
+       "alt": "\\frac{13.6}{1.14}"
+      },
+      {
+       "latex": "\\frac{1.14}{1.14}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>14</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>14</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.14}{1.14}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TV5y77w7832h5nxx",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qqWktwTJtr7snDF9"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAlcohol **E** is analysed using a combination of techniques. The analytical data is shown below.\n\n**Elemental analysis by mass**\n\n- C = 68.2%, H = 13.6%, O = 18.2%\n\n**Mass spectrum**\n\n- Molecular ion peak at *m* / *e* = 88.0\n- Major ion peak at *m* / *e* = 45.0\n\nMolecular formula = C~5~H~12~O\n\nState the class of alcohol **E**.",
+     "solution_md": "> **[mark-scheme]**\n> The class of alcohol **E** is:\n> \n> - Primary / 1° alcohol **[1 mark]**\n\n> **[exam-tip]**\n> A primary alcohol has the OH group attached to a terminal carbon (a carbon bonded to only one other carbon). Primary alcohols are oxidised first to aldehydes, then further to carboxylic acids. Secondary alcohols are oxidised to ketones only. Tertiary alcohols cannot be oxidised under standard laboratory conditions."
+    },
+    {
+     "id": "qstnprt_jpqHptX3jn3pJ35X",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sqZ99NMZvSzmpf4v"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMolecular formula = C5H12O\n\nThe class of alcohol E is: Primary / 1° alcohol\n\nUsing the information from part **(b)**, draw the fully displayed formulae and state the systematic names of the **four** possible structural isomers that could be alcohol **E**.",
+     "solution_md": "The fully displayed formulae and systematic names of the **four** possible structural isomers of alcohol **E** are:\n\nPentan-1-ol\n\n![Fully displayed structural formula of pentan-1-ol showing a straight chain of five carbon atoms with an OH group at carbon 1 and all C-H bonds shown](assets/026-fully-displayed-structural-formula-of-pentan-1-o.png)\n\n**[1 mark]**\n\n2-methylbutanol\n\n![Fully displayed structural formula of 2-methylbutan-1-ol showing a four-carbon chain with a methyl branch at carbon 2 and an OH group at carbon 1, all bonds shown](assets/027-fully-displayed-structural-formula-of-2-methylbu.png)\n\n**[1 mark]**\n\n3-methylbutanol\n\n![Fully displayed structural formula of 3-methylbutan-1-ol showing a four-carbon chain with a methyl branch at carbon 3 and an OH group at carbon 1, all bonds shown](assets/028-fully-displayed-structural-formula-of-3-methylbu.png)\n\n**[1 mark]**\n\n2,2-dimethylpropanol\n\n![Fully displayed structural formula of 2,2-dimethylpropan-1-ol showing a propane backbone with two methyl groups at carbon 2 and an OH group at carbon 1, all bonds shown](assets/029-fully-displayed-structural-formula-of-2-2-dimeth.png)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the correct fully displayed formula **AND** correct systematic name of pentan-1-ol\n> \n> 1 mark for the correct fully displayed formula **AND** correct systematic name of 2-methylbutanol\n> \n> 1 mark for the correct fully displayed formula **AND** correct systematic name of 3-methylbutanol\n> \n> 1 mark for the correct fully displayed formula **AND** correct systematic name of 2,2-dimethylpropanol\n> \n> Systematic names without the locant \"-1-\" are accepted where the alcohol position is unambiguous (e.g. 3-methylbutanol accepted for 3-methylbutan-1-ol)\n\n> **[exam-tip]**\n> From part **(b)**, alcohol **E** is a primary alcohol, so the OH group must be on a terminal carbon in all four structures. All structures must have the molecular formula C<sub>5</sub>H<sub>12</sub>O.\n> \n> Number the chain from the end closest to the OH group. Include the position number of the OH group in the systematic name."
+    },
+    {
+     "id": "qstnprt_CX97Ym5XzsrkrXVT",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr",
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAlcohol **E** is analysed using a combination of techniques. The analytical data is shown below.\n\n**Elemental analysis by mass**\n\n- C = 68.2%, H = 13.6%, O = 18.2%\n\n**Mass spectrum**\n\n- Molecular ion peak at *m* / *e* = 88.0\n- Major ion peak at *m* / *e* = 45.0\n\nDeduce the formula of the fragment ion responsible for the major peak at *m* / *e* = 45.0.",
+     "solution_md": "> **[mark-scheme]**\n> The formula of the fragment ion responsible for the peak at *m* / *e* = 45.0 is:\n> \n> - C<sub>2</sub>H<sub>4</sub>OH<sup>+</sup> / CH<sub>2</sub>CH<sub>2</sub>OH<sup>+</sup> / C<sub>2</sub>H<sub>5</sub>O<sup>+</sup> **[1 mark]**\n\n> **[exam-tip]**\n> Start from the OH group: CH<sub>2</sub>OH has a mass of 31 (C = 12, 2×H = 2, O = 16, H = 1). The remaining mass is 45.0 − 31 = 14, which corresponds to a CH<sub>2</sub> group. Therefore the fragment ion is CH<sub>2</sub>CH<sub>2</sub>OH<sup>+</sup>, formed by cleavage of the C−C bond adjacent to the OH group."
+    },
+    {
+     "id": "qstnprt_XTNKb6Y6G3N3ySyT",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yvtTnSvdhCFZfhBr",
+      "spcpt_6MsBdyQnRPtPSJW7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAlcohol **E** is analysed using a combination of techniques. The analytical data is shown below.\n\n**Elemental analysis by mass**\n\n- C = 68.2%, H = 13.6%, O = 18.2%\n\n**Mass spectrum**\n\n- Molecular ion peak at *m* / *e* = 88.0\n- Major ion peak at *m* / *e* = 45.0\n\nThe **four** possible structural isomers that could be alcohol **E** (primary alcohols with molecular formula C~5~H~12~O):\n- Pentan-1-ol\n- 2-methylbutan-1-ol\n- 3-methylbutan-1-ol\n- 2,2-dimethylpropan-1-ol\n\nThe formula of the fragment ion responsible for the peak at *m* / *e* = 45.0 is: C~2~H~4~OH^+^ / CH~2~CH~2~OH^+^ / C~2~H~5~O^+^\n\nState which isomer from part **(c)** is alcohol **E**. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The isomer from part **(c)** that is alcohol **E** is:\n> \n> - 3-methylbutan-1-ol **[1 mark]**\n> - It is the only branched-chain primary alcohol from part **(c)** that can produce a fragment ion at *m* / *e* = 45.0 **[1 mark]**\n\n> **[exam-tip]**\n> The three branched-chain isomers from part (c) are: 3-methylbutan-1-ol, 2-methylbutan-1-ol and 2,2-dimethylpropan-1-ol. Only 3-methylbutan-1-ol has an ethanol-type fragment (C<sub>2</sub>H<sub>4</sub>OH<sup>+</sup>) that produces a peak at *m* / *e* = 45.0."
+    }
+   ]
+  },
+  {
+   "id": "qstn_bTBWn9J82dmmy55G",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_zDrpw34zwJ37ZD2g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "A sample of boron contains two isotopes, <sup>10</sup>B and <sup>11</sup>B, with relative abundances of 20% and 80% respectively.\n\nCalculate the relative atomic mass of boron. Show your working.",
+     "solution_md": "To calculate the relative atomic mass of boron:\n\n- Calculate the weighted mean of the isotopic masses:\n\n*A*<sub>r</sub>(B) = $\\frac{(10\\times20)+(11\\times80)}{100}$ **[1 mark]**\n\n*A*<sub>r</sub>(B) = **10.8** **[1 mark]**\n\n> **[exam-tip]**\n> The relative atomic mass is the weighted mean of the isotopic masses. Multiply each isotopic mass by its relative abundance, sum the results, then divide by the total abundance (100 when expressed as percentages):\n> \n> $\\frac{(\\mathrm{abundance}_{1}\\times\\mathrm{mass}_{1})+(\\mathrm{abundance}_{2}\\times\\mathrm{mass}_{2})}{100}$\n> \n> The relative abundance of an isotope can be given as a percentage or read directly from the mass spectrum.",
+     "equations": [
+      {
+       "latex": "\\frac{(10\\times20)+(11\\times80)}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>10</mn><mo>&#xD7;</mo><mn>20</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>11</mn><mo>&#xD7;</mo><mn>80</mn><mo>)</mo></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{(10 \\times 20) + (11 \\times 80)}{100}"
+      },
+      {
+       "latex": "\\frac{(\\mathrm{abundance}_{1}\\times\\mathrm{mass}_{1})+(\\mathrm{abundance}_{2}\\times\\mathrm{mass}_{2})}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>(</mo><msub><mi>abundance</mi><mn>1</mn></msub><mo>&#215;</mo><msub><mi>mass</mi><mn>1</mn></msub><mo>)</mo><mo>+</mo><mo>(</mo><msub><mi>abundance</mi><mn>2</mn></msub><mo>&#215;</mo><msub><mi>mass</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>100</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis abundance subscript 1 cross times mass subscript 1 right parenthesis plus left parenthesis abundance subscript 2 cross times mass subscript 2 right parenthesis over denominator 100 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GtcC4rR67TBSyR4q",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvjvBQkpGBW5qPQr"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 2.1 shows the mass spectrum of potassium.\n\n![Mass spectrum of potassium showing two peaks: m/e = 39 with relative abundance 130.6 and m/e = 41 with relative abundance 9.4](assets/030-mass-spectrum-of-potassium-showing-two-peaks-m-e.png)\n\n**Fig. 2.1**\n\nUse the information in Fig. 2.1 to calculate the relative atomic mass of potassium. Show your working.",
+     "solution_md": "To calculate the relative atomic mass of potassium:\n\n- Calculate the total relative abundance:\n\nTotal abundance = 130.6 + 9.4 = 140 **[1 mark]**\n\n- Calculate the weighted mean:\n\n*A*<sub>r</sub>(K) = $\\frac{(39\\times130.6)+(41\\times9.4)}{140}$ = **39.1** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow *A*<sub>r</sub> = 39.13 or 39.14.\n> \n> Allow error carried forward from an incorrect total abundance value.\n\n> **[exam-tip]**\n> The y-axis of the mass spectrum gives relative abundance, not percentage abundance.\n> \n> The total abundance is 130.6 + 9.4 = 140, not 100. Use 140 as the denominator, not 100.",
+     "equations": [
+      {
+       "latex": "\\frac{(39\\times130.6)+(41\\times9.4)}{140}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>39</mn><mo>&#xD7;</mo><mn>130</mn><mo>.</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>41</mn><mo>&#xD7;</mo><mn>9</mn><mo>.</mo><mn>4</mn><mo>)</mo></mrow><mn>140</mn></mfrac></math>",
+       "alt": "\\frac{(39 \\times 130.6) + (41 \\times 9.4)}{140}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zvj2HywXswdtqSq4",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_vDvxQ62H6Hs4cSz4"
+     ],
+     "part_tier": null,
+     "problem_md": "The mass spectra of octane and butane were obtained and analysed.\n\nConstruct an equation for the formation of the molecular ion of octane. State the m / e value of this molecular ion.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the formation of the molecular ion of octane and its m / e value are:\n> \n> - C<sub>8</sub>H<sub>18</sub> → C<sub>8</sub>H<sub>18</sub><sup>+</sup> + e<sup>–</sup> **[1 mark]**\n> - m / e = (8 x 12) + (18 x 1) = 114 **[1 mark]**\n> \n> State symbols are not required in the equation.\n\n> **[exam-tip]**\n> The molecular ion is formed when a molecule loses one electron in the mass spectrometer. Since the mass of an electron is negligible, the molecular ion has the same m / e value as the relative molecular mass of the compound."
+    },
+    {
+     "id": "qstnprt_JRGB5G5M3FdPzpQ9",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YrYDsWrSzvMs3n9H"
+     ],
+     "part_tier": null,
+     "problem_md": "The mass spectrum of butane shows a molecular ion peak at *m / e* = 58.0.\n\nExplain why there is also a smaller peak at *m / e* = 59.0 on the mass spectrum of butane.",
+     "solution_md": "> **[mark-scheme]**\n> The smaller peak at m / e = 59.0 in the mass spectrum of butane appears because:\n> \n> - Some butane molecules contain a <sup>13</sup>C isotope / one carbon atom has mass 13 instead of 12, giving a molecular ion with m / e = 59 / producing an [M+1] peak **[1 mark]**\n\n> **[exam-tip]**\n> Approximately 1.1% of all carbon atoms are <sup>13</sup>C. When a butane molecule contains one <sup>13</sup>C atom, its molecular ion has m / e = 59 rather than 58. This produces the [M+1] peak, which is always smaller than the M peak because <sup>13</sup>C is much less abundant than <sup>12</sup>C."
+    },
+    {
+     "id": "qstnprt_RH8wP9j2pFBkkBmf",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YrYDsWrSzvMs3n9H"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe mass spectra of octane and butane were obtained and analysed.\n\nThe mass spectrum of butane shows a molecular ion peak at *m / e* = 58.0.\n\nExplain why there is also a smaller peak at *m / e* = 59.0 on the mass spectrum of butane.\n\nState whether butane or octane has a greater relative abundance of the [M+1] peak compared to the M peak. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The compound with the greater relative abundance of the [M+1] peak is:\n> \n> - Octane **[1 mark]**\n> - Because it contains more carbon atoms, so there is a greater probability of one being <sup>13</sup>C **[1 mark]**\n\n> **[exam-tip]**\n> The [M+1] peak arises when one carbon atom in a molecule is <sup>13</sup>C. The more carbon atoms a molecule contains, the greater the probability that one of them will be <sup>13</sup>C, and so the larger the [M+1] peak relative to the M peak."
+    },
+    {
+     "id": "qstnprt_zRbhxmZvC5S6n5VV",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_DpGRDmhkgcmVqWnd"
+     ],
+     "part_tier": null,
+     "problem_md": "State the ratio of the relative abundances of the M peak and the [M+2] peak in the mass spectra of 1-bromobutane and 1-chlorobutane.",
+     "solution_md": "> **[mark-scheme]**\n> The ratios of the relative abundances of the M and [M+2] peaks are:\n> \n> - In 1-chlorobutane, M : [M+2] = 3 : 1 **[1 mark]**\n> - In 1-bromobutane, M : [M+2] = 1 : 1 **[1 mark]**\n\n> **[exam-tip]**\n> Both chlorine and bromine exist as two isotopes:\n> \n> - <sup>35</sup>Cl and <sup>37</sup>Cl: <sup>35</sup>Cl is approximately three times more abundant than <sup>37</sup>Cl, giving M : [M+2] = 3 : 1 for compounds containing one chlorine atom.\n> - <sup>79</sup>Br and <sup>81</sup>Br: these isotopes have approximately equal abundances, giving M : [M+2] = 1 : 1 for compounds containing one bromine atom.\n> \n> The [M+2] peak arises because some molecules contain the heavier isotope of the halogen, giving a molecular ion 2 mass units heavier than the M peak."
+    }
+   ]
+  }
+ ]
+}

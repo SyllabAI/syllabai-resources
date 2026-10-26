@@ -190,7 +190,7 @@ For an alternating voltage, state what is meant by
 
 A generator produces an alternating voltage which can be described by the equation
 
-`V space equals space 150 space sin space open parentheses 200 straight pi t close parentheses`
+$V = 150 \sin ( 200 \mathrm{\pi } t )$
 
 where *V* is measured in volts and *t* is in seconds.
 

@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:00Z",
+ "generated_utc": "2026-10-26T14:30:42Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -57,14 +57,27 @@
    "question_count": 10,
    "questions_embedded": 10,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/control-accounts/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_yW8H2dJchvSmVxnQ",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/control-accounts/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 10,
+  "questions_embedded": 11,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -577,6 +590,47 @@
        "label": "D",
        "is_correct": false,
        "text_md": "proving that the sales ledger entries are arithmetically correct"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_MgW7nsTdvRcD9rfq",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_xX4W2Dd6HnZRjbQt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_Ps7XCDhrS3ytGqYR"
+     ],
+     "part_tier": null,
+     "problem_md": "Seok buys and sells goods on credit. He has three credit customers. All customers pay Seok by bank transfer.\n\nThe following balances were extracted from Seok’s sales ledger at 1 August 2023.\n\n|   | \\$ |\n|---|---|\n| Naomi | 450 |\n| Siena | 155 |\n| Bwana | <u>386</u> |\n|   | <u>991</u> |\n\nThe following transactions took place in August 2023.\n\n| Aug 11 | Naomi paid \\$423 in full settlement of the amount she owed at 1 August |\n|---|---|\n| 29 | Bwana paid \\$400 |\n\nThe following totals are available for August 2023.\n\n|   | \\$ |\n|---|---|\n| Sales journal | 845 |\n| Sales returns journal | 37 |\n\n**REQUIRED**\n\nOn 31 August Seok decided to write off the amount owing by Siena as an irrecoverable debt.\n\n**REQUIRED**\n\nPrepare Seok’s sales ledger control account for August 2023. Balance the account and bring down the balance at 1 September 2023.\n\nSeok \nSales ledger control account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Calculate the total amount received from trade receivables\n\n$423+400=823$\n\nCalculate the discount allowed\n\n$450-423=27$\n\nSeok \nSales ledger control account\n\n| Date | Details | \\$ |   | Date | Details | \\$ |   |\n|---|---|---|---|---|---|---|---|\n| 2023 |   |   |   | 2023 |   |   |   |\n| Aug 1 | Balance b/d | 991 | **[1]** | Aug 31 | Sales returns | 37 | **[1]** |\n| 31 | Sales | 845 | **[1]** |   | Bank | 823 | **[1]** |\n|   |   |   |   |   | Discount allowed | 27 | **[1]** |\n|   |   |   |   |   | Irrecoverable debts | 155 | **[1]** |\n|   |   |   |   |   | Balance c/d | 794 |   |\n|   |   | <u>1 836</u> |   |   |   | <u>1 836</u> |   |\n| Sep 1 | Balance b/d | 794 | **[1]** |   |   |   |   |\n\n> **[mark-scheme]**\n> 7 marks in total. 1 mark for the correct date and details for the following.\n> \n> **Explanation**\n> \n> - Balance b/d for 1 Aug on the debit side with the correct figure\n> \n>   - This is because money is owed to Seok\n> - Sales entry on the debit side with the correct figure\n> \n>   - This is because the amount owed to Seok is increasing\n> - Sales returns on the credit side with the correct figure\n> \n>   - This is because the amount owed to Seok is decreasing\n> - Bank on the credit side with the correct figure\n> \n>   - This is because the amount owed to Seok is decreasing\n> - Discount allowed on the credit side with the correct figure\n> \n>   - This is because the amount owed to Seok is decreasing\n> - Irrecoverable debts on the credit side with the correct figure\n> \n>   - This is because the amount owed to Seok is decreasing\n> - Balance b/d for 1 Sep on the debit side with your** own figure **used for balance c/d\n> \n>   - This is because money is owed to Seok",
+     "equations": [
+      {
+       "latex": "423+400=823",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>423</mn><mo>+</mo><mn>400</mn><mo>=</mo><mn>823</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "423 plus 400 equals 823"
+      },
+      {
+       "latex": "450-423=27",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>450</mn><mo>-</mo><mn>423</mn><mo>=</mo><mn>27</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "450 minus 423 equals 27"
       }
      ]
     }

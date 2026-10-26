@@ -1,0 +1,268 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:49Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "4-processor-fundamentals-",
+  "name": "4. Processor Fundamentals"
+ },
+ "topic": {
+  "id": "top_RYQjYbVsmY29Vjkx",
+  "slug": "bit-manipulation",
+  "name": "Bit Manipulation",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "bitwise-operations",
+   "name": "Bitwise operations",
+   "revision_note_id": "rn_RZ83BKNrMdx2SMg4"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_v6Qc6z4r9jXCtBzY",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/4-processor-fundamentals-/bit-manipulation/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 7,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_rtbrtGrYBpkwjvgx",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_39TJ3479zTwfKQq4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_PwG2t8r8YrZZ4Hbd",
+      "spcpt_524dyCyXXWhkGfNr"
+     ],
+     "part_tier": null,
+     "problem_md": "The following table shows another part of the instruction set for the same processor.\n\n| Instruction | Explanation |   |\n|---|---|---|\n| **Opcode** | Operand |   |\n| `AND` | `Bn` | Bitwise AND operation of the contents of ACC with the operand |\n| `XOR` | `Bn` | Bitwise XOR operation of the contents of ACC with the operand |\n| `LSR` | `#n` | Bits in ACC are shifted logically n places to the right. Zeros are introduced on the left hand end |\n| # denotes a denary number, e.g. #123 <br>B denotes a binary number, e.g. B01001101 |   |   |\n\n(i) The current contents of the ACC are:\n\n| 0 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |\n|---|---|---|---|---|---|---|---|\n\nShow the contents of the ACC after the execution of the following instruction.\n\n`AND B10100101`\n\n(1)\n\n(ii) The current contents of the ACC are:\n\n| 0 | 0 | 0 | 1 | 0 | 1 | 1 | 1 |\n|---|---|---|---|---|---|---|---|\n\nShow the contents of the ACC after the execution of the following instruction.\n\n`LSR #3`\n\n(1)\n\n(iii)  The current contents of the ACC are:\n\n| 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |\n|---|---|---|---|---|---|---|---|\n\nShow the contents of the ACC after the execution of the following instruction.\n\n`XOR B00100101`\n\n(1)",
+     "solution_md": "> **[mark-scheme]**\n> (i) 0000 0101\n> \n> (ii) 0000 0010\n> \n> (iii) 1101 0010"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KTBBpVxnGZWtk4pX",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_KJQv9FghydB7SSWb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PwG2t8r8YrZZ4Hbd",
+      "spcpt_524dyCyXXWhkGfNr"
+     ],
+     "part_tier": null,
+     "problem_md": "The processor includes these bit manipulation instructions:\n\n| Instruction | Explanation |   |\n|---|---|---|\n| Opcode | Operand |   |\n| `AND` | `#n / Bn / &n` | Bitwise AND operation of the contents of ACC with the operand |\n| `AND` | `<address>` | Bitwise AND operation of the contents of ACC with the contents of <address> |\n| `XOR` | `#n / Bn / &n` | Bitwise XOR operation of the contents of ACC with the operand |\n| `XOR` | `<address>` | Bitwise XOR operation of the contents of ACC with the contents of <address> |\n| `OR` | `#n / Bn / &n` | Bitwise OR operation of the contents of ACC with the operand |\n| `OR` | `<address>` | Bitwise OR operation of the contents of ACC with the contents of <address> |\n| `LSL` | `#n` | Bits in ACC are shifted logically n places to the left. Zeros are introduced on the right-hand end |\n| `LSR` | `#n` | Bits in ACC are shifted logically n places to the right. Zeros are introduced on the left-hand end |\n| <address> can be an absolute or a symbolic address<br># denotes a denary number, e.g. #123 <br>B denotes a binary number, e.g. B01001010<br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| **Address** | Data |\n|---|---|\n| **100** | 00001101 |\n| **101** | 10111110 |\n| **102** | 11110011 |\n| **103** | 00110111 |\n| **104** | 00000000 |\n\nThe current content of the ACC is shown:\n\n| 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |\n|---|---|---|---|---|---|---|---|\n\nComplete the table by writing the content of the ACC after each instruction has run.\n\nThe binary number 11111111 is reloaded into the ACC before each instruction is run.\n\n| **Instruction number** | Instruction | ACC content |\n|---|---|---|\n| **1** | `LSL #2` |   |\n| **2** | `XOR 100` |   |\n| **3** | `AND 103` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct answer:\n> \n> | **Instruction number** | Instruction | ACC content |\n> |---|---|---|\n> | **1** | `LSL #2` | **1111 1100** |\n> | **2** | `XOR 100` | **1111 0010** |\n> | **3** | `AND 103` | **0011 0111** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nCpWTbfKSrsrmcYV",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_PHhgNWpy4G89T4V7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_524dyCyXXWhkGfNr"
+     ],
+     "part_tier": null,
+     "problem_md": "The processor includes these bit manipulation instructions:\n\n| Instruction | Explanation |   |\n|---|---|---|\n| Opcode | Operand |   |\n| `AND` | `#n/Bn/&n` | Bitwise AND operation of the contents of ACC with the operand |\n| `AND` | `<address>` | Bitwise AND operation of the contents of ACC with the contents of <address> |\n| `XOR` | `#n/Bn/&n` | Bitwise XOR operation of the contents of ACC with the operand |\n| `XOR` | `<address>` | Bitwise XOR operation of the contents of ACC with the contents of <address> |\n| `OR` | `#n/Bn/&n` | Bitwise OR operation of the contents of ACC with the operand |\n| `OR` | `<address>` | Bitwise OR operation of the contents of ACC with the contents of <address> |\n| <address> can be an absolute or a symbolic address<br># denotes a denary number, e.g. #123 <br>B denotes a binary number, e.g. B01001010<br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| **Address** | Data |\n|---|---|\n| **25** | 11000110 |\n| **26** | 11100001 |\n| **27** | 10000001 |\n| **28** | 11001101 |\n| **29** | 00001111 |\n\nThe current content of the ACC is shown:\n\n| 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 |\n|---|---|---|---|---|---|---|---|\n\nComplete the table by writing the content of the ACC after each program has run.\n\nThe binary number 01000110 is reloaded into the ACC before each program is run.\n\n| **Program number** | Code | ACC content |\n|---|---|---|\n| **1** | `XOR 29` |   |\n| **2** | `AND #29` |   |\n| **3** | `OR B11111111` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark for** each correct answer:\n> \n> | **Program number** | Code | ACC content |\n> |---|---|---|\n> | **1** | `XOR 29` | **0100 1001** |\n> | **2** | `AND #29` | **0000 0100** |\n> | **3** | `OR B11111111` | **1111 1111** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2SpVmmPYYcgbFy2c",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_99R73vj5F4S6QwfH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_524dyCyXXWhkGfNr"
+     ],
+     "part_tier": null,
+     "problem_md": "The processor includes these bit manipulation instructions:\n\n| Instruction | Explanation |   |\n|---|---|---|\n| Opcode | Operand |   |\n| `AND` | `#n/Bn/&n` | Bitwise AND operation of the contents of ACC with the operand |\n| `AND` | `<address>` | Bitwise AND operation of the contents of ACC with the contents of <address> |\n| `XOR` | `#n/Bn/&n` | Bitwise XOR operation of the contents of ACC with the operand |\n| `XOR` | `<address>` | Bitwise XOR operation of the contents of ACC with the contents of <address> |\n| `OR` | `#n/Bn/&n` | Bitwise OR operation of the contents of ACC with the operand |\n| `OR` | `<address>` | Bitwise OR operation of the contents of ACC with the contents of <address> |\n| <address> can be an absolute or a symbolic address<br># denotes a denary number, e.g. #123 <br>B denotes a binary number, e.g. B01001010<br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current contents of memory are shown:\n\n| Address | Data |\n|---|---|\n| **30** | 01110101 |\n| **31** | 11111111 |\n| **32** | 00000000 |\n| **33** | 11001100 |\n| **34** | 10101010 |\n\nThe current content of the ACC is shown:\n\n| 1 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |\n|---|---|---|---|---|---|---|---|\n\nComplete the table by writing the content of the ACC after each program has run.\n\nThe binary number 10011010 is reloaded into the ACC before each program is run.\n\n| Program number | Code | ACC content |\n|---|---|---|\n| 1 | `AND 31` |   |\n| 2 | `XOR B01001111` |   |\n| 3 | `OR #30` |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct answer:\n> \n> | Program number | Code | ACC content |\n> |---|---|---|\n> | 1 | `AND 31` | **1001 1010** |\n> | 2 | `XOR B01001111` | **1101 0101** |\n> | 3 | `OR #30` | **1001 1110** |"
+    }
+   ]
+  },
+  {
+   "id": "qstn_HtvhFwYkpq76qFQp",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_BTRCmCdtwsxHdrxs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_PwG2t8r8YrZZ4Hbd"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the difference between a right logical binary shift and a right arithmetic binary shift.",
+     "solution_md": "**1 mark** each:\n\n- A logical shift moves all bits to the right and inserts zeros in the appropriate leftmost bits\n- An arithmetic shift moves all bits to the right but copies the sign bit into the Most Significant Bit (MSB)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jKtQGp7MQTz2y8wZ",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_4X3T56M8QRg6kJqr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_524dyCyXXWhkGfNr"
+     ],
+     "part_tier": null,
+     "problem_md": "The instruction set also includes these bit manipulation instructions:\n\n| Instruction | Explanation |   |\n|---|---|---|\n| Opcode | Operand |   |\n| `AND` | `#n/Bn/&n` | Bitwise AND operation of the contents of ACC with the operand |\n| `AND` | `<address>` | Bitwise AND operation of the contents of ACC with the contents of <address> |\n| `XOR` | `#n/Bn/&n` | Bitwise XOR operation of the contents of ACC with the operand |\n| `XOR` | `<address>` | Bitwise XOR operation of the contents of ACC with the contents of <address> |\n| `OR` | `#n/Bn/&n` | Bitwise OR operation of the contents of ACC with the operand |\n| `OR` | `<address>` | Bitwise OR operation of the contents of ACC with the contents of <address> |\n| <address> can be an absolute or a symbolic address<br># denotes a denary number, e.g. #123 <br>B denotes a binary number, e.g. B01001010<br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nExplain how bit manipulation can be used to clear the data in an 8-bit register.\n\nWrite the bit manipulation instruction that will be used.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point for the explanation\n> \n> **1 mark** for correct instruction\n> \n> - A bit manipulation operation is required to set all the bits to zero\n> - Compare the result of the masking with 0\n> - … the result of comparison will be true if the register is cleared\n> - AND B00000000 / #00 / &00"
+    }
+   ]
+  },
+  {
+   "id": "qstn_fjWNX7HkdBxRQ2nV",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_z3G5xggrvJKWzHbB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PwG2t8r8YrZZ4Hbd",
+      "spcpt_524dyCyXXWhkGfNr"
+     ],
+     "part_tier": null,
+     "problem_md": "The instruction set also includes these bit manipulation instructions:\n\n| Instruction | **Explanation** |   |\n|---|---|---|\n| Opcode | Operand |   |\n| `AND` | `#n/Bn/&n` | BitwiseAND operation of the contents ofACC with the operand |\n| `AND` | `<address>` | Bitwise AND operation of the contents of ACC with the contents of <address> |\n| `XOR` | `#n/Bn/&n` | Bitwise XOR operation of the contents ofACC with the operand |\n| `XOR` | `<address>` | Bitwise XOR operation of the contents of ACC with the contents of <address> |\n| `OR` | `#n/Bn/&n` | Bitwise OR operation of the contents ofACC with the operand |\n| `OR` | `<address>` | Bitwise OR operation of the contents of ACC with the contents of <address> |\n| `LSL` | `#n` | Bits in ACC are shifted logically n places to the left. Zeros are introduced on the right-hand end |\n| `LSR` | `#n` | Bits in ACC are shifted logically n places to the right. Zeros are introduced on the left-hand end |\n| <address> can be an absolute or a symbolic address<br># denotes a denary number, e.g. #123 <br>B denotes a binary number, e.g. B01001010<br>& denotes a hexadecimal number, e.g. &4A |   |   |\n\nThe current content of the ACC is shown:\n\n| ACC | 1 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |\n|---|---|---|---|---|---|---|---|---|\n\nThe table has three sets of instructions. The binary number 10011010 is reloaded into the ACC before each set of instructions is run.\n\nComplete the table by writing the content of the ACC after each set of instructions has run.\n\n|   | Instructions | ACC content |\n|---|---|---|\n| 1 | `LSL #2` |   |\n| 2 | `ADD #5`<br>`AND #30` |   |\n| 3 | `OR B11110010`<br>`INC ACC` |   |\n\n(3)\n\n(ii)  Explain how bit manipulation can be used to test whether the binary number stored in the ACC represents an odd denary number.\n\nWrite the bit manipulation instruction that will be used.\n\n(3)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark** each correct content of ACC\n> \n> |   | Instructions | ACC content |\n> |---|---|---|\n> | 1 | `LSL #2` | **0110 1000** |\n> | 2 | `ADD #5`<br>`AND #30` | **0001 1110** |\n> | 3 | `OR B11110010`<br>`INC ACC` | **1111 1011** |\n> \n> (ii)** 1 mark** each to **max 2** for explanation\n> \n> - An odd binary number will have a 1 in the Least Significant Bit (LSB)\n> - A bit manipulation operation is required to access/mask only the LSB and clear all the others\n> - Compare the result of the masking with denary 1\n> - … the result of the comparison will be true if the number is odd\n> \n> **1 mark** for correct instruction\n> \n> - AND B00000001 // AND #1 // AND &01"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_z2wwpznhDd5W4g7B",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/revision-notes/probability/basic-probability/calculating-probabilities-and-events",
+ "title": "Calculating Probabilities & Events",
+ "page_title": "Calculating Probabilities & Events | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "probability",
+   "basic-probability",
+   "calculating-probabilities-and-events"
+  ],
+  "section": "probability",
+  "topic": "basic-probability",
+  "leaf": "calculating-probabilities-and-events"
+ },
+ "titles": {
+  "section": "Probability",
+  "topic": "Basic Probability",
+  "subtopic": "Calculating Probabilities & Events"
+ },
+ "updated_at": "2026-07-02T08:19:38.463Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_sggZqPbKpvwb3xW2",
+   "name": "Lucy Kirkham",
+   "role": "Content Creator"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_B3d4Kwj9w6nf6KjN",
+   "rnl_gGx8w2Wxrnr8XgwZ",
+   "rnl_nB3DYXVYv2R3pvs8",
+   "rnl_4N5K6ZRJgbcYDKsN"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_B8jpsFGFMWZ2ywS5",
+  "spcpt_7GngfWnfm7YxqRWm"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "A\\capB",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>A</mi><mo>∩</mo><mi>B</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A intersection B"
+  },
+  {
+   "latex": "A\\cupB",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>A</mi><mo>∪</mo><mi>B</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A union B"
+  },
+  {
+   "latex": "P(A)=0.6",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "begin mathsize 16px style P left parenthesis A right parenthesis equals 0.6 end style"
+  },
+  {
+   "latex": "P(A')=0.4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>A</mi><mo>'</mo><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis A apostrophe right parenthesis equals 0.4"
+  },
+  {
+   "latex": "P(\\overline{A})",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mover><mi>A</mi><mo>¯</mo></mover><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis A with bar on top right parenthesis"
+  },
+  {
+   "latex": "P(X\\leq4)=0.4",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>P</mi><mo>(</mo><mi>X</mi><mo>≤</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>4</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "P left parenthesis X less or equal than 4 right parenthesis equals 0.4"
+  },
+  {
+   "latex": "P(\"\\mathrm{success}\")=\\frac{\\mathrm{number} \\mathrm{of} \\mathrm{ways} \\mathrm{to} \\mathrm{get}\"\\mathrm{success}\"}{\\mathrm{total} \\mathrm{number} \\mathrm{of} \\mathrm{outcomes}}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mo>\"</mo><mi>success</mi><mo>\"</mo><mo>)</mo><mo>=</mo><mfrac><mrow><mi>number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>ways</mi><mo> </mo><mi>to</mi><mo> </mo><mi>get</mi><mo> </mo><mo>\"</mo><mi>success</mi><mo>\"</mo></mrow><mrow><mi>total</mi><mo> </mo><mi>number</mi><mo> </mo><mi>of</mi><mo> </mo><mi>outcomes</mi></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis \" success \" right parenthesis equals fraction numerator number space of space ways space to space get space \" success \" over denominator total space number space of space outcomes end fraction"
+  },
+  {
+   "latex": "P(A')=1-P(A)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>'</mo><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A apostrophe right parenthesis equals 1 minus straight P left parenthesis A right parenthesis"
+  },
+  {
+   "latex": "notA",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>n</mi><mi>o</mi><mi>t</mi><mo> </mo><mi>A</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "n o t space A"
+  },
+  {
+   "latex": "P(A\\mathrm{AND}B)=P(A)\\timesP(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo> </mo><mi mathvariant=\"bold\">AND</mi><mo> </mo><mi>B</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>)</mo><mo>×</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>B</mi><mo>)</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A space bold AND space B right parenthesis equals straight P left parenthesis A right parenthesis cross times straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": "P(\"6\\mathrm{on}a\\mathrm{dice}\"\\mathrm{AND}\"\\mathrm{heads} \\mathrm{on}a\\mathrm{coin}\")=\\frac{1}{6}\\times\\frac{1}{2}=\\frac{1}{12}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mo>\"</mo><mn>6</mn><mo> </mo><mi>on</mi><mo> </mo><mi mathvariant=\"normal\">a</mi><mo> </mo><mi>dice</mi><mo>\"</mo><mo> </mo><mi mathvariant=\"bold\">AND</mi><mo mathvariant=\"bold\"> </mo><mo>\"</mo><mi>heads</mi><mo> </mo><mi>on</mi><mo> </mo><mi mathvariant=\"normal\">a</mi><mo> </mo><mi>coin</mi><mo>\"</mo><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>12</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis \" 6 space on space straight a space dice \" space bold AND bold space \" heads space on space straight a space coin \" right parenthesis equals 1 over 6 cross times 1 half equals 1 over 12"
+  },
+  {
+   "latex": "P(A\\mathrm{AND}B)=P(A\\capB)=0",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo> </mo><mi>AND</mi><mo> </mo><mi>B</mi><mo>)</mo><mo>=</mo><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mn>0</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A space AND space B right parenthesis equals straight P left parenthesis A intersection B right parenthesis equals 0"
+  },
+  {
+   "latex": "P(A\\mathrm{OR}B)=P(A\\cupB)=P(A)+P(B)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\"> </mo><mi mathvariant=\"bold\" mathsize=\"16px\">OR</mi><mo mathsize=\"16px\"> </mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">=</mo><mi mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">∪</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\"> </mo><mo mathsize=\"16px\">=</mo><mo mathsize=\"16px\"> </mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">A</mi><mo mathsize=\"16px\">)</mo><mo mathsize=\"16px\">+</mo><mi mathvariant=\"normal\" mathsize=\"16px\">P</mi><mo mathsize=\"16px\">(</mo><mi mathsize=\"16px\">B</mi><mo mathsize=\"16px\">)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A space bold OR space B right parenthesis equals P left parenthesis A union B right parenthesis space equals space straight P left parenthesis A right parenthesis plus straight P left parenthesis B right parenthesis"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis \" 6 space on space straight a space dice \" space bold OR \" heads space on space straight a space coin \" right parenthesis equals 1 over 6 plus 1 half equals 4 over 6 space equals space open parentheses 2 over 3 close parentheses",
+   "render": "$\\mathrm{P} ( \" 6 \\text{on} \\mathrm{a} \\text{dice} \" \\text{OR} \" \\text{heads} \\text{on} \\mathrm{a} \\text{coin} \" ) = \\frac{1}{6} + 1 \\frac{1}{2} = \\frac{4}{6} = ( \\frac{2}{3} )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "\\times",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>×</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "cross times"
+  },
+  {
+   "latex": "+",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>+</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "plus"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Q"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "R"
+  },
+  {
+   "latex": "P(Q)=0.8",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>Q</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>8</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis Q right parenthesis equals 0.8"
+  },
+  {
+   "latex": "\\text{P}(Q\\mathrm{and}R)=0.1",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mtext>P</mtext><mo>(</mo><mi>Q</mi><mo> </mo><mi>and</mi><mo> </mo><mi>R</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "text P end text left parenthesis Q space and space R right parenthesis equals 0.1"
+  },
+  {
+   "latex": "Q",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>Q</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "Q"
+  },
+  {
+   "latex": "R",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>R</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "R"
+  },
+  {
+   "latex": "P(R)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>R</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis R right parenthesis"
+  },
+  {
+   "latex": "S",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>S</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S"
+  },
+  {
+   "latex": "T",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "T"
+  },
+  {
+   "latex": "P(S)=2P(T)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>)</mo><mo>=</mo><mo> </mo><mn>2</mn><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>T</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S right parenthesis equals space 2 straight P left parenthesis T right parenthesis"
+  },
+  {
+   "latex": "S",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>S</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "S"
+  },
+  {
+   "latex": "T",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>T</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "T"
+  },
+  {
+   "latex": "P(SorT)=0.6",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>&#160;</mo><mi>o</mi><mi>r</mi><mo>&#160;</mo><mi>T</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>6</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S space o r space T right parenthesis equals 0.6"
+  },
+  {
+   "latex": "P(S)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>S</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis S right parenthesis"
+  },
+  {
+   "latex": "P(T)",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>T</mi><mo>)</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis T right parenthesis"
+  }
+ ],
+ "stats": {
+  "blocks": 33,
+  "figures": 1,
+  "worked_examples": 2,
+  "exam_hints": 2,
+  "case_studies": 0,
+  "equations": 31
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_B8jpsFGFMWZ2ywS5",
+   "name": "Probability Basics",
+   "definition": "",
+   "video_id": "832831628"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Probability Basics"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What do I need to know about probability for AS and A level Mathematics?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The language used in probability can be confusing so here are some definitions of commonly misunderstood terms\n\n  - An **experiment** is a repeatable activity that has a result that can be observed or recorded; it is what is happening in a question\n  - An **outcome** is the result of an experiment\n  - All possible outcomes can be shown in a **sample** **space** – this may be a list or a table and is particularly useful when it is difficult to envisage all possible outcomes in your head"
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g.  The sample space below is for two ***fair***** **four-sided spinners whose outcomes are the product of the sides showing when spun."
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/3-1-1-fig1-sample-space.png",
+   "file": "assets/8335c0714882-3-1-1-fig1-sample-space.png",
+   "alt": "3-1-1-fig1-sample-space",
+   "caption": null
+  },
+  {
+   "type": "bullets",
+   "md": "- An **event** is an outcome or a collection of outcomes; it is what we are interested in happening\n\n  - Do note how this could be more than one outcome\n  e.g. For the spinners above,\n         the event “the product is -2” has one outcome but\n         the event “the product is negative” has 6 outcomes\n- **Terminology** - be careful with the words **'not'**, **'and'** and **'or'**\n\n  - ***A***** and *****B*** means both the events *A* and *B* happen at the same time\n  \n    - *A*  **and ***B*  is formally written as  $A\\capB$ (∩ is called **intersection**)\n  - ***A***** or *****B***  means event *A* happens, or event *B* happens, **or both** happen\n  \n    - *A*  **or ***B*  is formally written as  $A\\cupB$(∪ is called **union**)\n  - **not *****A*** means the event *A* does not happen\n  \n    - **not *****A is formally*** written as ***A*****'** (pronounced \"*A *prime*\"*)\n- **Notation** – the way probabilities are written is formal and consistent at A-level\n\n  - $P(A)=0.6$           “the probability of **event *****A*** happening is 0.6”\n  - $P(A')=0.4$          “the probability of **event *****A*** **not** happening equals 0.4”"
+  },
+  {
+   "type": "paragraph",
+   "md": "(This is sometimes written as $P(\\overline{A})$)"
+  },
+  {
+   "type": "bullets",
+   "md": "- $P(X\\leq4)=0.4$      “the probability of being less than four is 0.4”"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I solve A level probability questions?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Recall basic results of probability\n\n  - $P(\"\\mathrm{success}\")=\\frac{\\mathrm{number} \\mathrm{of} \\mathrm{ways} \\mathrm{to} \\mathrm{get}\"\\mathrm{success}\"}{\\mathrm{total} \\mathrm{number} \\mathrm{of} \\mathrm{outcomes}}$\n  \n    - It is important to understand that the above only applies if all outcomes are ***equally likely***\n  - $P(A')=1-P(A)$\n  \n    - The probability of “$notA$” is the ***complement***** **of the probability of “*A*”\n    - One of the easiest results in probability to understand,\n    one of the hardest results to spot!\n- Be aware of whether you are using ***theoretical probabilities*** or probabilities based on the results of several experiments (***relative frequency***). You may have to compare the two and make a judgement as to whether there is ***bias*** in the experiment."
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g.        The outcomes from rolling a fair dice have theoretical probabilities but the outcomes from a football match would be based on previous results between the two teams"
+  },
+  {
+   "type": "bullets",
+   "md": "- For probabilities based on relative frequency, a large number of experiments usually provides a better estimate of the probability of an event happening\n- **Frequencies** or **probabilities** may have to be read from basic statistical **diagrams** such as **bar** **charts**, **box**-**and**-**whisker** diagrams, **stem** **and** **leaf** diagrams, etc"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A fair, five-sided spinner has its sides labelled 2, 5, 8, 10 and 11.\n\nFind, from one spin, the probability that the spinner shows\n\n(i) 8\n\n(ii) a prime number\n\n(iii) an odd prime number\n\n(iv) a number other than 5.\n\n**Answer:**\n\n![2-1-1-cie-fig2-we-solution](assets/664d7693ccaf-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Most probability questions are in context so can be long and wordy; go back and re-read the question, several times, whenever you need to\n- Try to get immersed in the context of the question to help understand a problem"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_7GngfWnfm7YxqRWm",
+   "name": "Independent & Mutually Exclusive Events",
+   "definition": "",
+   "video_id": "832870951"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Independent & Mutually Exclusive Events"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are independent events?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Independent** **events** do not affect each other\n- For two independent events, the probability of one event happening is unaffected by the outcome of the other event\n\n  - e.g.    The events “rolling a 6 on a dice” and “flipping heads on a coin” are    independent\n  \n    - the outcome “rolling a 6” does not affect the probability of the outcome “heads” (and vice versa)\n- For two **independent** events, *A* and *B*"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P(A\\mathrm{AND}B)=P(A)\\timesP(B)$"
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g.     $P(\"6\\mathrm{on}a\\mathrm{dice}\"\\mathrm{AND}\"\\mathrm{heads} \\mathrm{on}a\\mathrm{coin}\")=\\frac{1}{6}\\times\\frac{1}{2}=\\frac{1}{12}$"
+  },
+  {
+   "type": "bullets",
+   "md": "- Independent events could refer to events from different experiments"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What are mutually exclusive events?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Mutually** **exclusive** ***events***** **cannot occur simultaneously\n\n  - $P(A\\mathrm{AND}B)=P(A\\capB)=0$\n- For two mutually exclusive events, the ***outcome*** of one event means the other event cannot occur\n\n  - e.g.      The events “rolling a 5 on a die” and “rolling a 6 on a die” are mutually exclusive\n- For two **mutually** **exclusive** events, *A* and *B*"
+  },
+  {
+   "type": "paragraph",
+   "md": "$P(A\\mathrm{OR}B)=P(A\\cupB)=P(A)+P(B)$"
+  },
+  {
+   "type": "paragraph",
+   "md": "e.g.  $\\mathrm{P} ( \" 6 \\text{on} \\mathrm{a} \\text{dice} \" \\text{OR} \" \\text{heads} \\text{on} \\mathrm{a} \\text{coin} \" ) = \\frac{1}{6} + 1 \\frac{1}{2} = \\frac{4}{6} = ( \\frac{2}{3} )$"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Mutually** **exclusive** events generally refer to events from the same (single trial of an) ***experiment***\n- Mutually exclusive events cannot be independent; the outcome of one event means the probability of the other event is zero"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I solve problems involving independent and mutually exclusive events?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Make sure you know the statistical terms – **independent** and **mutually** **exclusive**\n- Remember\n\n  - **independence** is **AND(∩)** and is $\\times$\n  - **mutual** **exclusivity** is **OR (∪)** and is $+$\n- Solving problems will require interpreting the information given and the application of the appropriate formula\n\n  - Information may be explained in words or by diagram(s)"
+  },
+  {
+   "type": "paragraph",
+   "md": "(including Venn diagrams – see Revision Note Venn Diagrams)"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Showing** or **determining** whether two events are independent or mutually exclusive are also common\n\n  - To do this you would show the relevant formula is true"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "(a) Two events, $Q$ and $R$ are such that $P(Q)=0.8$ and $\\text{P}(Q\\mathrm{and}R)=0.1$.\nGiven that $Q$ and $R$ are independent, find $P(R)$\n\n(b) Two events, $S$ and $T$ are such that $P(S)=2P(T)$.\nGiven that $S$ and $T$ are mutually exclusive and that $P(SorT)=0.6$ find $P(S)$ and $P(T)$.\n\n(c) A fair five-sided spinner has sides labelled 2, 3, 5, 7, 11.\nFind the probability that the spinner lands on a number greater than 5.\n\n**Answer:**\n\n![2-1-1-cie-fig3-we-solution_a](assets/b2bc8c1cb5de-image.bin)\n\n![2-1-1-cie-fig3-we-solution_b](assets/296651c8e62f-image.bin)\n\n![2-1-1-cie-fig3-we-solution_c](assets/7cd7714d6b5b-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Try to rephrase questions in your head in terms of **AND** and/or **OR** !\ne.g.      A fair six-sided die is rolled and a fair coin is flipped.\n           “Find the probability of obtaining a prime number with heads.”\n\nwould be\n\n“Find the probability of rolling a 2 **OR** a 3 **OR** a 5 **AND** heads.”"
+  }
+ ]
+}

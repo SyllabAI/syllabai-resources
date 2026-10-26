@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:55:29Z",
+ "generated_utc": "2026-10-26T14:55:55Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -53,18 +53,42 @@
    "question_count": 10,
    "questions_embedded": 10,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/8-reaction-kinetics/8-1-rate-of-reaction/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_MVVDQRhfzjbmt8tx",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/8-reaction-kinetics/8-1-rate-of-reaction/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 10,
+  "questions_embedded": 16,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/1-8-cie-ial-chemistry-diagram-q5hard.png": "001-graph-showing-volume-of-oxygen-on-y-axis-against.png",
-   "https://cdn.savemyexams.com/uploads/2023/05/1-8-cie-ial-chemistry-diagram-q4hard.png": "002-graph-showing-mass-of-y-in-vapour-state-on-y-axi.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/1-8-cie-ial-chemistry-diagram-q4hard.png": "002-graph-showing-mass-of-y-in-vapour-state-on-y-axi.png",
+   "https://cdn.savemyexams.com/uploads/2026/01/39472-p5-q1-sketch-results-graph-thio-v-rate.png": "003-graph-with-a-linear-upward-trend-showing-the-rel.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q4-9cho-al-3-oct-2021-edexcel-a-level-chem.png": "004-graph-of-mass-lost-in-grams-against-time-in-seco.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/1-8-q4a-rates-graph-answer.png": "005-graph-showing-three-curves-experiment-1-as-the-o.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q4b-9cho-al-3-oct-2021-edexcel-a-level-chem.png": "006-graph-of-mass-lost-in-grams-against-time-in-seco.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/tangent-rates-graph.png": "007-graph-of-mass-lost-against-time-for-experiment-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/6-1-ib-sl-sq-hard-q3a-rate-of-reaction-graph.png": "008-graph-showing-volume-of-hydrogen-gas-produced-ov.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/1-8-1d-e-volume-of-o2-vs-time.png": "009-graph-showing-volume-of-oxygen-produced-against-.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/gas-volume-evolved-over-time.png": "010-graph-showing-volume-of-gas-evolved-over-time-fo.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/gas-volume-evolved-over-time-2-conc.png": "011-graph-showing-the-original-curve-and-a-new-steep.png"
   }
  },
  "questions": [
@@ -576,6 +600,557 @@
        "text_md": "the proportion of particles with energy greater than or equal to the activation energy increases"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7c4YxnnBHmvq29xy",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_d2jWPsg7nGGPKfxY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt",
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "A student is asked to investigate how the rate of reaction between sodium thiosulfate and hydrochloric acid depends on the concentration of sodium thiosulfate.\n\nThe reaction produces a precipitate of sulfur.\n\nNa<sub>2</sub>S<sub>2</sub>O<sub>3</sub> (aq) + 2HCl (aq) → 2NaCl (aq) + SO<sub>2</sub> (g) + S (s) + H<sub>2</sub>O (l)\n\nThe student is provided with:\n\n- 0.10 mol dm<sup>-3</sup> sodium thiosulfate solution\n- 1.0 mol dm<sup>-3</sup> hydrochloric acid\n- distilled water\n- standard laboratory apparatus\n\nThe reaction mixture must be maintained at 30.0 °C throughout the investigation.\n\ni) Predict the relationship between the rate of reaction and the concentration of sodium thiosulfate.\n\n[1]\n\nii) Identify the independent variable and the dependent variable in this investigation.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The relationship between the rate of reaction and the concentration of sodium thiosulfate:\n> \n> - The rate increases as concentration of sodium thiosulfate increases\n> **OR**\n> The rate is proportional to concentration **[1 mark]**\n> \n> ii) The variables are:\n> \n> - Independent variable: concentration of sodium thiosulfate\n> **AND**\n> Dependent variable: time for cross to disappear **[1 mark]**\n\n> **[exam-tip]**\n> When asked to predict a relationship, don't just say \"they are related.\" Be specific: \"Rate increases as concentration increases.\" If you can, state whether it is directly proportional.\n> \n> For the variables, remember:\n> \n> **I**ndependent is what **I** change (Concentration).\n> \n> **D**ependent is the **D**ata I collect (Time).\n> \n> Rate is not an accepted answer for the dependent variable because it is calculated from time."
+    },
+    {
+     "id": "qstnprt_VN57g9VVB5nNfpqm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student is asked to investigate how the rate of reaction between sodium thiosulfate and hydrochloric acid depends on the concentration of sodium thiosulfate.\n\nThe reaction produces a precipitate of sulfur.\n\nNa~2~S~2~O~3~ (aq) + 2HCl (aq) → 2NaCl (aq) + SO~2~ (g) + S (s) + H~2~O (l)\n\nThe student is provided with:\n\n- 0.10 mol dm^-3^ sodium thiosulfate solution\n- 1.0 mol dm^-3^ hydrochloric acid\n- distilled water\n- standard laboratory apparatus\n\nThe reaction mixture must be maintained at 30.0 °C throughout the investigation.\n\nDescribe a method the student could use to investigate this relationship.\n\nYour method should include:\n\n- how to prepare at least five solutions of sodium thiosulfate with different concentrations\n- how the reaction is carried out\n- how the rate of reaction is determined\n- how reliability of results is ensured\n- appropriate safety precautions",
+     "solution_md": "To investigate how the rate depends on sodium thiosulfate concentration, prepare several dilutions of the sodium thiosulfate solution and measure the time taken for a sulfur precipitate to obscure a cross.\n\n**Preparing at least five different concentrations**\n\n- Keep the total volume of sodium thiosulfate + water the same each time (e.g. 50.0 cm<sup>3</sup>)\n- Use a volumetric pipette or burette to measure the sodium thiosulfate accurately, then add distilled water to make the total up to 50.0 cm<sup>3</sup>\n- Example set of five mixtures (all total 50.0 cm<sup>3</sup>):\n\n- 10.0 cm<sup>3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + 40.0 cm<sup>3</sup> water\n- 20.0 cm<sup>3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + 30.0 cm<sup>3</sup> water\n- 30.0 cm<sup>3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + 20.0 cm<sup>3</sup> water\n- 40.0 cm<sup>3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + 10.0 cm<sup>3</sup> water\n- 50.0 cm<sup>3</sup> Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> + 0.0 cm<sup>3</sup> water\n\n**How the reaction is carried out**\n\n- Place a conical flask over a paper cross\n- Add one sodium thiosulfate dilution to the flask\n- Measure a fixed volume of 1.0 mol dm<sup>-3</sup> HCl (same volume every time, so the acid is in excess)\n- Add the acid to the flask, start the stopwatch immediately, swirl once to mix, then leave the flask on the cross\n\n**Temperature control**\n\n- Use a water bath to keep the reaction mixture at **30.0 °C**\n- Check with a thermometer and allow solutions to reach **30.0 °C** before mixing\n\n**How the rate is determined**\n\n- Stop the stopwatch when the cross is no longer visible\n- Record the time, *t*\n- Compare rates using **1/*t*** (rate is proportional to 1/*t*)\n\n**How reliability is ensured**\n\n- Repeat each concentration at least three times\n- Calculate a mean time (and then a mean 1/*t* if used)\n\n**Safety precautions**\n\n- Wear eye protection when handling acid\n- Work in a well-ventilated area / fume cupboard\n- Avoid inhaling sulfur dioxide\n\n> **[mark-scheme]**\n> - Preparation of different concentrations by mixing sodium thiosulfate solution with distilled water **[1 mark]**\n> - Total volume of reaction mixture kept constant **[1 mark]**\n> - Volume and/or concentration of hydrochloric acid kept constant and in excess **[1 mark]**\n> - Temperature kept constant at 30.0 °C (e.g. water bath; solutions equilibrated before mixing) **[1 mark]**\n> - Disappearing cross method described (flask over cross, timing until cross is obscured) **[1 mark]**\n> - Repeats carried out and mean time calculated\n> **OR**\n> Results processed to rate using 1/*t* **[1 mark]**\n> - Suitable precaution stated (e.g. work in a well-ventilated area / avoid inhaling SO<sub>2</sub> / eye protection) **[1 mark]**\n\n> **[exam-tip]**\n> Students often lose credit by changing concentration without keeping the total volume of sodium thiosulfate plus water constant.\n> \n> It is also easy to forget reliability. Stating repeats and a mean is usually enough, but adding that you will compare rates using 1/*t* makes the processing step explicit.\n> \n> Using volumetric apparatus helps because small volume errors change the concentration and make the comparison unfair.\n> \n> If a temperature is specified (like 30.0 °C), you must say how you will keep it constant (water bath + thermometer), otherwise it looks like you ignored the constraint."
+    },
+    {
+     "id": "qstnprt_M5rDb585dDvCd4qF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt",
+      "spcpt_TGSKfd5J5wJTrCmx",
+      "spcpt_SbTsrshCdzPGYxtC"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\ni) Predict the relationship between the rate of reaction and the concentration of sodium thiosulfate.\n\nThe student processes the results and plots a graph.\n\ni) State the quantities that should be plotted on the x-axis and y-axis.\n\n[1]\n\nii) Sketch the line you would expect if the rate is directly proportional to the concentration of sodium thiosulfate.\n\nLabel both axes.\n\n[2]\n\niii) Explain how the graph supports the prediction made in (a)(i).\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The quantities that should be plotted on the x-axis and y-axis are:\n> \n> - x-axis: concentration of sodium thiosulfate\n> **AND**\n> y-axis: rate of reaction **OR** 1/*t* **[1 mark]**\n\nii) The line you would expect if the rate is directly proportional to the concentration of sodium thiosulfate is:\n\n![Graph with a linear upward trend showing the relationship between the rate of reaction on the y-axis and the concentration of sodium thiosulfate on the x-axis](assets/003-graph-with-a-linear-upward-trend-showing-the-rel.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for axes labelled correctly with appropriate quantities\n> \n> 1 mark for straight line with positive gradient passing through or close to the origin\n\n> **[mark-scheme]**\n> iii) The graph supports the prediction made in (a)(i) because:\n> \n> - The straight line relationship shows rate increases in direct proportion to concentration **[1 mark]**\n\n> **[exam-tip]**\n> For a straight line through the origin, you must plot rate, not time. Plotting time gives a curve because time decreases as concentration increases. Using 1/*t* makes the relationship clear and matches the prediction of direct proportionality.\n> \n> For a sketch, numbers are not needed, but the shape and origin matter."
+    },
+    {
+     "id": "qstnprt_gYfZ5rFg5nkWMyTT",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kCcDrFFyrnT3KYzX"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student is asked to investigate how the rate of reaction between sodium thiosulfate and hydrochloric acid depends on the concentration of sodium thiosulfate.\n\nThe reaction produces a precipitate of sulfur.\n\nNa~2~S~2~O~3~ (aq) + 2HCl (aq) → 2NaCl (aq) + SO~2~ (g) + S (s) + H~2~O (l)\n\nDisappearing cross method described (flask over cross, timing until cross is obscured)\n\nA second student performs the same investigation but measures the volume of sulfur dioxide gas produced over time instead of using the precipitation method.\n\nState one advantage and one disadvantage of this alternative method compared with the disappearing cross method.",
+     "solution_md": "> **[mark-scheme]**\n> **One** advantage of this alternative method is:\n> \n> Any **one** from:\n> \n> - There is a more objective endpoint than judging when a cross \"disappears\"\n> - It is continuous data collection (volume vs time) rather than a single endpoint\n> - It is possible to obtain an initial rate from the early gradient / a more detailed rate profile\n> \n> **[1 mark]**\n> \n> **One** disadvantage of this alternative method is:\n> \n> Any **one** from:\n> \n> - Sulfur dioxide is soluble in water so the measured volume is lower than the actual volume produced\n> - It needs sealed apparatus (gas syringe) so leaks reduce the measured volume\n> - There is a greater safety risk (handling toxic gas, pressure build-up)\n> \n> **[1 mark]**\n\n> **[exam-tip]**\n> When evaluating gas collection methods involving SO<sub>2</sub> or CO<sub>2</sub>, remember that these gases are **soluble in water**. This is a classic disadvantage because the volume collected will be less than the actual volume produced.\n> \n> While \"toxic gas\" is a valid disadvantage, examiners usually prefer points that affect the accuracy or reliability of the data (like solubility or leaks) rather than general lab safety, unless the question specifically asks about hazards."
+    }
+   ]
+  },
+  {
+   "id": "qstn_ygd742sGRMfNc56Q",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_NH6nWcgsqYGFSyfb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "Oct 2021",
+      "number": "9CHO/03",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "A series of experiments was carried out to investigate the factors which affect the rate of reaction between calcium carbonate and dilute hydrochloric acid.\n\nCaCO<sub>3</sub> (s) + 2HCl (aq) → CaCl<sub>2</sub> (aq) + H<sub>2</sub>O (l) + CO<sub>2</sub> (g)\n\n- 50.0 cm<sup>3</sup> of hydrochloric acid was added to 10 g of small pieces of calcium carbonate (an excess) in a conical flask placed on an electronic balance.\n- The loss in mass of the flask and its contents was recorded every 30 seconds for 10 minutes.\n- The experiment was repeated using a different concentration of hydrochloric acid or a different temperature.\n- The results are shown in Table 3.1\n\n**Table 3.1**\n\n| **Experiment** | **Concentration of hydrochloric acid / mol d**<sup>**-3**</sup> | **Temperature / °C** |\n|---|---|---|\n| **1** | 0.50 | 20 |\n| **2** | 0.50 | 60 |\n| **3** | 1.00 | 20 |\n\nThe results of Experiment **1** are shown in Fig. 3.1.\n\n![Graph of mass lost in grams against time in seconds for Experiment 1, showing a curve that rises then plateaus, ready for Experiments 2 and 3 to be drawn](assets/004-graph-of-mass-lost-in-grams-against-time-in-seco.png)\n\n**Fig. 3.1**\n\nDraw curves on the graph in Fig 3.1 to show the results you would expect for Experiments **2** and **3**.\n\nLabel the curves **2** and **3**.",
+     "solution_md": "The curves for Experiments **2** and **3** drawn on Fig. 3.1 are:\n\n![Graph showing three curves: Experiment 1 as the original curve, Experiment 2 steeper and reaching the same maximum mass loss, and Experiment 3 steeper and reaching double the maximum mass loss](assets/005-graph-showing-three-curves-experiment-1-as-the-o.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for Experiment 2: a curve steeper than Experiment 1 that reaches the same final mass loss as Experiment 1 (approximately 0.5 g)\n> \n> 1 mark for Experiment 3: a curve steeper than Experiment 1 that reaches double the final mass loss (approximately 1.0 g)\n> \n> Curves must start at the origin\n\n> **[exam-tip]**\n> Compare pairs of experiments to identify what has changed:\n> \n> Experiments 1 and 2:\n> \n> - Only temperature changes (0.50 mol dm<sup>-3</sup>, 20°C → 60°C).\n> - Higher temperature → faster rate (steeper curve).\n> - Same amounts of CaCO<sub>3</sub> and HCl → same mass loss.\n> \n> Experiments 1 and 3:\n> \n> - Only concentration changes (20°C, 0.50 → 1.00 mol dm<sup>-3</sup>).\n> - Higher concentration → faster rate (steeper curve).\n> - Doubling the concentration of HCl (the limiting reagent) doubles the moles available → double the mass of CO<sub>2</sub> lost (approximately 1.0 g)."
+    },
+    {
+     "id": "qstnprt_RjGxk2QkkcmmnJP6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": "Oct 2021",
+      "number": "9CHO/03",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA series of experiments was carried out to investigate the factors which affect the rate of reaction between calcium carbonate and dilute hydrochloric acid.\n\nCaCO~3~ (s) + 2HCl (aq) → CaCl~2~ (aq) + H~2~O (l) + CO~2~ (g)\n\n- 50.0 cm^3^ of hydrochloric acid was added to 10 g of small pieces of calcium carbonate (an excess) in a conical flask placed on an electronic balance.\n- The loss in mass of the flask and its contents was recorded every 30 seconds for 10 minutes.\n- The experiment was repeated using a different concentration of hydrochloric acid or a different temperature.\n- The results are shown in Table 3.1\n\n**Table 3.1**\n\n| **Experiment** | **Concentration of hydrochloric acid / mol d**^**-3**^ | **Temperature / °C** |\n| :---: | :---: | :---: |\n| **1** | 0.50 | 20 |\n| **2** | 0.50 | 60 |\n| **3** | 1.00 | 20 |\n\nDetermine the initial rate of reaction for Experiment **1**.\n\nYou must show your working on the graph in Fig 3.2. Include units in your answer.\n\n![Graph of mass lost in grams against time in seconds for Experiment 1, ready for a tangent to be drawn at t = 0 to determine the initial rate](assets/006-graph-of-mass-lost-in-grams-against-time-in-seco.png)\n\n**Fig 3.2**",
+     "solution_md": "To determine the initial rate of reaction for Experiment **1:**\n\n- Draw a tangent to the curve at t = 0:\n\n![Graph of mass lost against time for Experiment 1, with a tangent line drawn at t = 0 to determine the initial rate of reaction](assets/007-graph-of-mass-lost-against-time-for-experiment-1.png)\n\n- Calculate the gradient / initial rate:\n\ninitial rate = $\\frac{change \\text{in} \\text{mass} \\text{lost} ( \\mathrm{g} )}{change \\text{in} \\text{time} ( \\mathrm{s} )}$\n\ninitial rate = $\\frac{1.0g}{312s}$\n\ninitial rate = **3.21 × 10**<sup>**-3**</sup>** g s**<sup>**-1**</sup>** **\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for tangent drawn to the curve at t = 0 AND tangent extends to at least 120 s\n> \n> 1 mark for gradient calculation in the range 3.13 × 10<sup>-3</sup> to 3.53 × 10<sup>-3</sup> (e.g. gradient = 1.0 ÷ 312 = 3.21 × 10<sup>-3</sup>)\n> \n> 1 mark for correct units: g s<sup>-1</sup> or g / s\n\n> **[exam-tip]**\n> For the initial rate, draw the tangent at t = 0 because the straight line should touch the curve at the very start, where the gradient is steepest.\n> \n> Extend the tangent as far as possible across the graph to minimise reading errors.\n> \n> Note that each small square on the x-axis is worth 12 s. Read the axis scale carefully before calculating the gradient. The units mark (g s<sup>-1</sup>) is independent of the numerical value, so always state units even if uncertain about the calculation.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator change space in space mass space lost space open parentheses straight g close parentheses over denominator change space in space time space open parentheses straight s close parentheses end fraction",
+       "render": "$\\frac{change \\text{in} \\text{mass} \\text{lost} ( \\mathrm{g} )}{change \\text{in} \\text{time} ( \\mathrm{s} )}$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\frac{1.0g}{312s}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>1</mn><mo>.</mo><mn>0</mn><mo>&#160;</mo><mi mathvariant=\"normal\">g</mi></mrow><mrow><mn>312</mn><mo>&#160;</mo><mi mathvariant=\"normal\">s</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 1.0 space straight g over denominator 312 space straight s end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_YvSqTkQpDSKCsJ2z",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA series of experiments was carried out to investigate the factors which affect the rate of reaction between calcium carbonate and dilute hydrochloric acid.\n\nCaCO~3~ (s) + 2HCl (aq) → CaCl~2~ (aq) + H~2~O (l) + CO~2~ (g)\n\n- 50.0 cm^3^ of hydrochloric acid was added to 10 g of small pieces of calcium carbonate (an excess) in a conical flask placed on an electronic balance.\n- The loss in mass of the flask and its contents was recorded every 30 seconds for 10 minutes.\n- The experiment was repeated using a different concentration of hydrochloric acid or a different temperature.\n- The results are shown in Table 3.1\n\n**Table 3.1**\n\n| **Experiment** | **Concentration of hydrochloric acid / mol d**^**-3**^ | **Temperature / °C** |\n| :---: | :---: | :---: |\n| **1** | 0.50 | 20 |\n| **2** | 0.50 | 60 |\n| **3** | 1.00 | 20 |\n\nThe results of Experiment **1** are shown in Fig. 3.1.\n\nCalculate the average rate of reaction over the first 240 seconds of Experiment 1.",
+     "solution_md": "To calculate the average rate of reaction over the first 240 seconds of Experiment 1:\n\naverage rate = mass lost ÷ time\n\naverage rate = 0.5 ÷ 240\n\naverage rate = **0.0021 g s**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow 0.00208 or 0.002083 g s<sup>-1</sup>\n> \n> Correct units (g s<sup>-1</sup>) required\n> \n> Allow error carried forward from incorrect mass lost at 240 s read from Fig. 3.1\n\n> **[exam-tip]**\n> The average rate is calculated by dividing the total mass lost by the time taken. Read the mass lost at t = 240 s from Fig. 3.1, where the curve has plateaued, so the total mass lost is approximately 0.5 g.\n> \n> Always include units in rate calculations. The units are: mass lost (g) ÷ time (s) = g s<sup>-1</sup>."
+    },
+    {
+     "id": "qstnprt_8pFmpKvWxwDZ9knb",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA series of experiments was carried out to investigate the factors which affect the rate of reaction between calcium carbonate and dilute hydrochloric acid.\n\nCaCO~3~ (s) + 2HCl (aq) → CaCl~2~ (aq) + H~2~O (l) + CO~2~ (g)\n\n- 50.0 cm^3^ of hydrochloric acid was added to 10 g of small pieces of calcium carbonate (an excess) in a conical flask placed on an electronic balance.\n- The loss in mass of the flask and its contents was recorded every 30 seconds for 10 minutes.\n- The experiment was repeated using a different concentration of hydrochloric acid or a different temperature.\n\nThe student repeated each experiment but used 10.0 g of larger sized pieces of calcium carbonate.\n\nSuggest what effect this would have on the rate of reaction. Give your reasoning.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of using larger pieces of calcium carbonate on the rate of reaction is:\n> \n> - The rate would decrease; **[1 mark]**\n> - Larger pieces have a smaller (total) surface area, so fewer (effective) collisions occur between the solid and acid per unit time; **[1 mark]**\n\n> **[exam-tip]**\n> Surface area affects the rate because the reaction can only occur at the surface of the solid CaCO<sub>3</sub>, where it is in contact with the HCl (aq). Larger pieces have less surface area exposed per unit mass, so fewer collisions occur per second.\n> \n> The total mass of calcium carbonate is unchanged (10.0 g), so the total amount of CO<sub>2</sub> produced (and the final mass loss) would be the same. Only the rate changes, not the total amount of product."
+    }
+   ]
+  },
+  {
+   "id": "qstn_jyGPyCZtRzvq3t6j",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_4pDsf9r7fXmV44n8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "0.5 g of magnesium reacts with 50 cm<sup>3</sup> of 0.1 mol dm<sup>-3</sup> nitric acid. Magnesium is in excess.\n\nA graph monitoring the volume of hydrogen gas produced is shown below:\n\n![Graph showing volume of hydrogen gas produced over time as magnesium reacts with nitric acid, with volume rising steeply then levelling off](assets/008-graph-showing-volume-of-hydrogen-gas-produced-ov.png)\n\ni) Calculate the average rate of reaction over the first 15 seconds of the reaction.\n\n[1]\n\nii) Calculate the actual rate of reaction at 15 seconds.\n\n[3]\n\niii) Explain the difference in values for rate.\n\n[1]",
+     "solution_md": "i) To calculate the mean rate of reaction over the first 15 seconds:\n\naverage rate = change in volume ÷ change in time\n\naverage rate = 50 ÷ 15\n\naverage rate = **3.3 cm**<sup>**3**</sup>** s**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> ii) To calculate the actual rate of reaction at t = 15 s:\n> \n> - Tangent drawn to the curve at t = 15 s with coordinates recorded correctly **[1 mark]**\n> - Gradient of tangent calculated: gradient = Δ*V* ÷ Δ*t* **[1 mark]**\n> - Rate in the range 1.5–2.0 cm<sup>3</sup> s<sup>-1</sup> **[1 mark]**\n> \n> iii) The actual rate at t = 15 s is lower than the mean rate because:\n> \n> - The rate is fastest at the very start of the reaction and has already decreased by t = 15 s\n> **OR**\n> The gradient of the curve is shallower at t = 15 s than at t = 0 / the curve has already started to level off **[1 mark]**\n\n> **[exam-tip]**\n> The mean rate (part i) is calculated by dividing total volume produced by total time. It gives an average across the whole 15-second period. Since the rate is highest at t = 0 and decreases as reactants are consumed, the mean rate is higher than the actual rate at t = 15 s.\n> \n> The actual rate at t = 15 s (part ii) is the gradient of the tangent drawn at that specific point. Extend the tangent as far as possible across the graph to minimise reading errors. Any rate in the range 1.5–2.0 cm<sup>3</sup> s<sup>-1</sup> is accepted."
+    },
+    {
+     "id": "qstnprt_bwMSRRgHf3hwstyw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "compare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n0.5 g of magnesium reacts with 50 cm^3^ of 0.1 mol dm^-3^ nitric acid. Magnesium is in excess.\n\nA graph monitoring the volume of hydrogen gas produced is shown below:\n\nCompare the expected rate and progress of the reaction if 25 cm<sup>3</sup> of 0.2 mol dm<sup>-3</sup> nitric acid was used instead of 50 cm<sup>3</sup> of 0.1 mol dm<sup>-3</sup> nitric acid.",
+     "solution_md": "> **[mark-scheme]**\n> Using 25 cm<sup>3</sup> of 0.2 mol dm<sup>-3</sup> nitric acid instead of 50 cm<sup>3</sup> of 0.1 mol dm<sup>-3</sup>:\n> \n> - The initial rate of reaction would be higher / the initial gradient of the graph would be steeper; **[1 mark]**\n> - The reaction would finish in less time; **[1 mark]**\n> - The total / final volume of gas produced would remain the same (at 60 cm<sup>3</sup>); **[1 mark]**\n\n> **[exam-tip]**\n> Both solutions contain the same number of moles of nitric acid:\n> \n> 25 cm<sup>3</sup> x 0.2 mol dm<sup>-3</sup> = 0.005 mol HNO<sub>3</sub>\n> \n> 50 cm<sup>3</sup> x 0.1 mol dm<sup>-3</sup> = 0.005 mol HNO<sub>3</sub>\n> \n> Since the magnesium is in excess, the acid is the limiting reagent. The same moles of acid produce the same total volume of hydrogen gas in both cases, so the final volume is unchanged.\n> \n> The more concentrated acid (0.2 mol dm<sup>-3</sup>) has more particles per unit volume, leading to more frequent effective collisions and a faster initial rate."
+    },
+    {
+     "id": "qstnprt_6FZSQTKX38N4t9wX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n0.5 g of magnesium reacts with 50 cm^3^ of 0.1 mol dm^-3^ nitric acid. Magnesium is in excess.\n\nSuggest one change to the reaction that could be made to produce more hydrogen gas in total and explain your choice.",
+     "solution_md": "> **[mark-scheme]**\n> One change that would produce more hydrogen gas in total is:\n> \n> Any **one** from:\n> \n> - Increase the concentration of the acid without decreasing the volume\n> - Increase the volume of the acid without decreasing the concentration\n> - Use more moles of acid\n> \n> **[1 mark]**\n> \n> The reasoning is:\n> \n> - Increasing the moles of the limiting reagent (acid) increases the moles / volume of hydrogen gas produced; **[1 mark]**\n\n> **[exam-tip]**\n> The magnesium is in excess, so the acid is the limiting reagent. The total volume of hydrogen produced is determined only by the moles of the limiting reagent. Changing the temperature, surface area of the magnesium, or adding a catalyst would affect the rate but not the total volume of gas."
+    },
+    {
+     "id": "qstnprt_WY5n3f8dtVPg3G7m",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Suggest why it is often better to study a slower reaction instead of a faster one.",
+     "solution_md": "> **[mark-scheme]**\n> Reasons why it is often better to study a slower reaction are:\n> \n> Any **two** from (1 mark for each point):\n> \n> - Shorter reaction times give a larger (percentage) error in timing\n> - More readings can be taken in the initial part of the reaction, reducing the chance of anomalies being missed\n> - The initial rate can be compared between reactions without the reaction needing to go to completion\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> For very fast reactions, the time interval is so short that even a small absolute error (e.g. ±0.5 s) represents a much larger percentage of the total time. This makes the calculated rate less accurate.\n> \n> Slower reactions also allow more data points to be collected during the initial part of the reaction, making it easier to spot trends and anomalous results before the rate has changed significantly."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hxvNmPbKThsnPvRW",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_CyZMHJmrB7NMKQ3K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about effective reactions and reaction rates.\n\nAccording to collision theory, state **two **conditions that particles need for an effective collision to occur.",
+     "solution_md": "> **[mark-scheme]**\n> According to collision theory, the two conditions for an effective collision are:\n> \n> - Sufficient energy\n> **OR**\n> Energy greater than or equal to the activation energy / *E* ≥ *E*<sub>a</sub>; **[1 mark]**\n> - (To be in the) correct orientation; **[1 mark]**\n\n> **[exam-tip]**\n> For a chemical reaction to occur, the colliding particles must satisfy both conditions: correct orientation AND sufficient energy (*E* ≥ *E*<sub>a</sub>). A collision with the right orientation but insufficient energy will not result in a reaction, and vice versa."
+    },
+    {
+     "id": "qstnprt_7MZMsXKhbFt7YYK6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "An increase in concentration means that there are more particles per unit volume.\n\nIn terms of collisions, explain how this increases the rate of reaction.",
+     "solution_md": "> **[mark-scheme]**\n> In terms of collisions, increasing the concentration increases the rate of reaction by:\n> \n> - Increasing the frequency of (effective / successful) collisions per unit time\n> **OR**\n> Increasing the number of (effective / successful) collisions per unit time\n> **OR**\n> Having particles collide (effectively / successfully) more often **[1 mark]**\n\n> **[exam-tip]**\n> The key phrase is \"frequency of effective collisions\", not just \"more collisions.\" CIE mark schemes require both the frequency (per unit time) and the effectiveness aspect. Writing \"more collisions\" without \"per unit time\" or \"effective\" is unlikely to score the mark.\n> \n> If the question describes a decrease in concentration, write \"less frequent effective collisions\". The logic reverses but the required terminology stays the same."
+    },
+    {
+     "id": "qstnprt_FCmVt2Cpndb9bZkQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WYqwz3Hhvhm6sW8N",
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "Aqueous hydrogen peroxide, H<sub>2</sub>O<sub>2</sub>, decomposes to form oxygen and water.\n\n2H<sub>2</sub>O<sub>2</sub> (aq) → 2H<sub>2</sub>O (l) + O<sub>2</sub> (g)\n\nA student investigates the decomposition of a hydrogen peroxide solution as outlined below.\n\n- The student adds 25.00 cm<sup>3</sup> of H<sub>2</sub>O<sub>2</sub> (aq) to a conical flask.\n- The student adds a small spatula measure of manganese dioxide, MnO<sub>2</sub>.\n- They quickly connect the flask to a gas syringe.\n- The student measures the volume of oxygen every 100 seconds.\n\ni) State the role of the manganese dioxide in this reaction.\n\n[1]\n\nThe student obtained the following results.\n\n| **Time / s** | 0 | 100 | 200 | 300 | 400 | 500 | 600 | 700 |\n|---|---|---|---|---|---|---|---|---|\n| **Volume of O**~**2**~** / cm**^**3**^ | 0.0 | 7.0 | 13.5 | 18.0 | 21.0 | 22.5 | 23.0 | 23.0 |\n\nii) Calculate the average rate of reaction, in cm<sup>3</sup> s<sup>-1</sup>, for the first 100 seconds of the reaction.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The role of the manganese dioxide in this reaction is:\n> \n> - Catalyst\n> **OR**\n> To increase the rate of reaction **[1 mark]**\n\nii) To calculate the average rate of reaction for the first 100 seconds:\n\naverage rate = $\\frac{\\mathrm{change} \\mathrm{in} \\mathrm{volume}}{\\mathrm{change} \\mathrm{in} \\mathrm{time}}$\n\naverage rate = 7.0 ÷ 100\n\naverage rate = **0.07 cm**<sup>**3**</sup>** s**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Units required; answers without units are not accepted\n\n> **[exam-tip]**\n> The catalyst (manganese dioxide) is not consumed in the reaction. It speeds up the decomposition of hydrogen peroxide by providing an alternative reaction pathway of lower activation energy, so more particles have sufficient energy to react.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{change} \\mathrm{in} \\mathrm{volume}}{\\mathrm{change} \\mathrm{in} \\mathrm{time}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>change</mi><mo>&#160;</mo><mi>in</mi><mo>&#160;</mo><mi>volume</mi></mrow><mrow><mi>change</mi><mo>&#160;</mo><mi>in</mi><mo>&#160;</mo><mi>time</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator change space in space volume over denominator change space in space time end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_pvmsrHVcXpfBCNm9",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "The student plotted a graph of volume of O<sub>2</sub> against time.\n\n![Graph showing volume of oxygen produced against time in the catalytic decomposition of hydrogen peroxide](assets/009-graph-showing-volume-of-oxygen-produced-against-.png)\n\nUse the student's graph and tangent to find the rate of the reaction, in cm<sup>3</sup> s<sup>–1</sup>, at t = 300 s.\n\nShow your working.",
+     "solution_md": "To find the rate of the reaction at t = 300 s:\n\n- Read the coordinates of two points on the tangent at t = 300 s:\n\nVolume at 200 s = 14.5 cm<sup>3</sup>\n\nVolume at 400 s = 21.5 cm<sup>3</sup>\n\n**[1 mark]**\n\n- Calculate the change in volume:\n\nchange in volume = 21.5 − 14.5 = **7** cm<sup>3</sup> **[1 mark]**\n\n- Calculate the rate of reaction:\n\nrate = $\\frac{7}{200}$\n\nrate = **0.035 cm**<sup>**3**</sup>** s**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for tangent coordinates: volume at 200 s = 14.5 cm<sup>3</sup> **AND** volume at 400 s = 21.5 cm<sup>3</sup>\n> \n> Other coordinate pairs read from the tangent are accepted if they lead to the correct gradient\n> \n> Allow rates in the range 0.033–0.038 cm<sup>3</sup> s<sup>-1</sup> for the third mark\n> \n> Correct units (cm<sup>3</sup> s<sup>-1</sup>) required for the third mark\n\n> **[exam-tip]**\n> The rate at a specific time equals the gradient of the tangent to the curve at that point:\n> \n> rate = $\\frac{ΔV}{Δt}$\n> \n> When reading off the tangent, choose two points that are far apart on the line to reduce the percentage error in your readings. Extend the tangent as far as possible across the graph.\n> \n> Note that the tangent is drawn at t = 300 s and the coordinates are read from the tangent line itself, not from the curve.",
+     "equations": [
+      {
+       "latex": "\\frac{7}{200}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>200</mn></mfrac></math>",
+       "alt": "\\frac{7}{200}"
+      },
+      {
+       "latex": "\\frac{ΔV}{Δt}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>V</mi></mrow><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>t</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight capital delta V over denominator straight capital delta t end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FC2kvqWyq57H4pjd",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_bTJsXsbTgbYsHy7n",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about how different factors affect the rate of a chemical reaction.\n\nA reaction between reactant molecules can only occur when collisions between the reactant molecules are effective.\n\ni) Explain what is meant by the term effective collision.\n\n[1]\n\nii) State **two** factors that could cause an ineffective collision.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) An effective collision is:\n> \n> - A collision that results in a reaction / products being formed **[1 mark]**\n> \n> ii) Two factors that could cause an ineffective collision are:\n> \n> - The (reactant) particles do not collide in the correct orientation; **[1 mark]**\n> - The (reactant) particles do not have energy greater than or equal to the activation energy (*E*<sub>a</sub>); **[1 mark]**\n\n> **[exam-tip]**\n> An effective collision requires two conditions simultaneously: correct orientation AND sufficient energy (*E* ≥ *E*<sub>a</sub>). An ineffective collision fails one or both conditions.\n> \n> Note that most collisions are ineffective as particles collide constantly, but only a small fraction have both the right orientation and sufficient energy at the same moment."
+    },
+    {
+     "id": "qstnprt_C52VFwQwD8PnPYKH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "discuss",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w4fyM4CPRXhQHM4b"
+     ],
+     "part_tier": null,
+     "problem_md": "A student made the following statement about factors that affect the rate of a chemical reaction.\n\n'The rate of a reaction increases with temperature as there are more collisions'\n\nDiscuss why this statement is only true to an extent and what other factors need to be considered to fully explain how the rate of a reaction is affected by temperature.",
+     "solution_md": "> **[mark-scheme]**\n> Discussing the statement about temperature and rate:\n> \n> - As temperature increases, there are more collisions (so the statement is partially correct) **[1 mark]**\n> - The rate depends on the frequency of effective collisions, not just the total number of collisions **[1 mark]**\n> - As temperature increases, the (average) kinetic energy / speed of the particles increases **[1 mark]**\n> - This increases the frequency of collisions (per unit time) **[1 mark]**\n> - A higher proportion of particles have energy ≥ *E*<sub>a</sub>, resulting in more frequent effective collisions **[1 mark]**\n\n> **[exam-tip]**\n> The statement in the question is correct as far as it goes because higher temperature does produce more collisions. The error is in the reasoning: more collisions alone do not fully explain the increase in rate.\n> \n> The critical distinction is between total collisions and effective collisions. Rate depends on effective collisions (those with *E* ≥ *E*<sub>a</sub> in the correct orientation). A small temperature rise causes a disproportionately large proportion of molecules to gain sufficient energy, amplifying the effect on rate well beyond what the collision frequency increase alone would predict."
+    },
+    {
+     "id": "qstnprt_22RV3Ww2VtzhKvKq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrogen and oxygen can react to form water in an exothermic reaction.\n\n2H<sub>2 </sub>(g) + O<sub>2</sub> (g) → 2H<sub>2</sub>O (g)\n\nThe rate of this reaction depends on the pressure as well as the temperature.\n\nDescribe and explain the effect of increasing the pressure on this reaction.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of increasing the pressure on the rate of reaction is:\n> \n> - The rate increases **[1 mark]**\n> - There are more molecules / particles per unit volume / the molecules are closer together, so the frequency of (effective) collisions (per unit time) increases **[1 mark]**\n\n> **[exam-tip]**\n> When explaining concentration or pressure effects on rate, always include \"per unit volume\" when describing the particle density as stating \"more molecules\" alone is not sufficient. The key chain is:\n> \n> - more particles per unit volume\n> - → more frequent collisions\n> - → more frequent effective collisions\n> - → faster rate.\n> \n> Avoid writing \"there are more molecules\" without specifying \"per unit volume\" or \"per dm<sup>3</sup>\" as this is a common reason marks are lost in this type of question."
+    },
+    {
+     "id": "qstnprt_r5gJCRXsKHHv8HvG",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w4fyM4CPRXhQHM4b"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nHydrogen and oxygen can react to form water in an exothermic reaction.\n\n2H₂(g) + O₂(g) → 2H₂O(g)\n\nIf the rate of reaction increases suddenly, an explosion can occur.\n\nA highly exothermic reaction, such as the reaction in **(c)**, is at more risk of exploding than a less exothermic reaction.\n\nSuggest why.",
+     "solution_md": "> **[mark-scheme]**\n> A highly exothermic reaction is at greater risk of exploding than a less exothermic reaction because:\n> \n> - When the reaction starts, the temperature of the reactant particles increases more (than in a less exothermic reaction) **[1 mark]**\n> - Many more particles have energy greater than or equal to the activation energy (*E* ≥ *E*<sub>a</sub>), so the rate increases more rapidly **[1 mark]**\n\n> **[exam-tip]**\n> \"Suggest\" questions require you to apply your knowledge to an unfamiliar situation. Here, the chain of reasoning is:\n> \n> - more exothermic\n> - → more energy released\n> - → greater temperature rise\n> - → larger proportion of particles exceed *E*<sub>a</sub>\n> - → rate increases more rapidly\n> - → greater risk of a runaway reaction.\n> \n> The key insight is that the temperature increase is self-reinforcing: as more particles react, more heat is released, which raises the temperature further. A positive feedback cycle that can lead to explosion."
+    }
+   ]
+  },
+  {
+   "id": "qstn_5fmXgkgRxDnfr8Xf",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_R7BhXpc4kdrGdc8F",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "A platinum-rhodium catalyst is used in the reaction forming nitrogen(II) oxide from ammonia.\n\n4NH<sub>3</sub> (g) + 5O<sub>2</sub> (g) ⇌ 4NO (g) + 6H<sub>2</sub>O (g)\n\ni) State what is meant by the term **heterogeneous catalyst**.\n\n[1]\n\nii) Explain why a catalyst has no effect on the yield of the products in the reaction.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The term 'heterogeneous catalyst' means:\n> \n> - (A catalyst that is in) a different phase / state to the reactants; **[1 mark]**\n> \n> ii) A catalyst has no effect on the yield of the products because:\n> \n> - (A catalyst) increases the rate of both the forward and reverse reactions equally\n> **OR**\n> (A catalyst) does not shift the position of equilibrium; **[1 mark]**\n\n> **[exam-tip]**\n> Heterogeneous catalysts are very common in industry. The platinum-rhodium catalyst in car catalytic converters and the iron catalyst in the Haber process are both heterogeneous, as they are solid catalysts with gaseous reactants.\n> \n> A catalyst lowers the activation energy by the same amount for both the forward and reverse reactions. The proportion of molecules with sufficient energy increases equally in both directions, so the position of equilibrium is unchanged and the yield is unaffected."
+    },
+    {
+     "id": "qstnprt_YZTMtgXv76VFVPQH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of students were completing a practical, investigating the factors which affect the rate of the following chemical reaction.\n\n**A (s) + B (aq) → C (g)**\n\nThe students collected the gas produced and plotted the graph shown in Fig. 1.1.\n\n![Graph showing volume of gas evolved over time for the original reaction, with a curve starting at the origin that rises and levels off at point R](assets/010-graph-showing-volume-of-gas-evolved-over-time-fo.png)\n\n**Fig. 1.1**\n\ni) State and explain what the letter **R** represents on the student's graph.\n\n[1]\n\nii) In the original reaction above, the students used 0.5 g of **A** and 50 cm<sup>3</sup> of 1.0 mol dm<sup>-3</sup> of **B**. Sketch a curve on the graph in Fig 1.1 to show how the total volume of gas collected would change if the students still used 0.5 g of **A**, but used 50 cm<sup>3</sup> of 2.0 mol dm<sup>-3</sup> of **B**.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The letter **R** represents:\n> \n> - The rate of reaction is zero at this point\n> **OR**\n> The reaction is complete / has stopped / no more product is produced\n> **OR**\n> All the reactants have been used up / reacted **[1 mark]**\n\nii) The sketch of the curve for 0.5 g of **A** and 50 cm<sup>3</sup> of 2.0 mol dm<sup>-3</sup> of **B** is:\n\n![Graph showing the original curve and a new steeper curve that levels off at double the volume, representing the reaction with double the concentration of B](assets/011-graph-showing-the-original-curve-and-a-new-steep.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a curve steeper than the original that starts at the origin\n> \n> 1 mark for the curve levelling off at double the height of the original curve\n\n> **[exam-tip]**\n> At point R, the gradient of the graph is zero because the rate of reaction is zero. At least one reactant has been fully consumed.\n> \n> Doubling the concentration of B doubles the moles of B in the reaction mixture (since the volume is unchanged). B is the limiting reagent in the original reaction, so doubling its moles doubles the total volume of gas produced, i.e. the plateau is at double the original height.\n> \n> The steeper initial gradient shows a faster rate because higher concentration of B means more particles per unit volume and more frequent effective collisions."
+    },
+    {
+     "id": "qstnprt_XCM8wRQJgTx7DMPv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TGSKfd5J5wJTrCmx"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of students were completing a practical, investigating the factors which affect the rate of the following chemical reaction.\n\nA (s) + B (aq) → C (g)\n\nThe students collected the gas produced and plotted the graph shown in Fig. 1.1.\n\nFig. 1.1\n\ni) State and explain what the letter R represents on the student's graph.\n\nExplain why the gradient of the curve in part **(b) **decreases as the time of the reaction progresses.",
+     "solution_md": "> **[mark-scheme]**\n> The gradient of the curve decreases as the reaction progresses because:\n> \n> - The concentration of reactants decreases\n> **OR**\n> The reactants are used up; **[1 mark]**\n> - The frequency of effective collisions decreases\n> **OR**\n> The rate of reaction / rate of formation of gas decreases; **[1 mark]**\n\n> **[exam-tip]**\n> As the reaction proceeds, reactant particles are consumed. Fewer reactant particles means fewer particles per unit volume, so collisions between A and B become less frequent. Since effective collisions decrease in frequency, the rate falls and the graph gradient decreases.\n> \n> When all reactant particles have been consumed, the gradient reaches zero (point R on the graph from part (b))."
+    },
+    {
+     "id": "qstnprt_hDKSJvR7wfrfWD4z",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w4fyM4CPRXhQHM4b"
+     ],
+     "part_tier": null,
+     "problem_md": "Another way to increase the rate of reaction is to increase the temperature.\n\nExplain why a small increase in temperature has a large effect on the initial rate of a chemical reaction.",
+     "solution_md": "> **[mark-scheme]**\n> A small increase in temperature causes a large increase in the rate of reaction because:\n> \n> - A much higher proportion / many more molecules have energy greater than or equal to the activation energy (*E* ≥ *E*<sub>a</sub>); **[1 mark]**\n> - The frequency of effective collisions (per unit time) increases significantly; **[1 mark]**\n\n> **[exam-tip]**\n> CIE mark schemes require reference to the proportion of molecules with energy greater than or equal to the activation energy (*E* ≥ *E*<sub>a</sub>). Simply stating \"particles have more energy\" or \"kinetic energy increases\" is not sufficient for the first mark.\n> \n> The Boltzmann distribution curve is asymmetric, so even a small temperature rise shifts the curve so that the area to the right of *E*<sub>a</sub> increases disproportionately. This is why a small temperature increase produces such a large effect on the rate of reaction."
     }
    ]
   }

@@ -1,0 +1,921 @@
+# Mark Schemes — Exchange Rates
+**The Global Economy** · Edexcel IGCSE economics (4EC1)
+
+
+## Exam Questions (40 questions)
+
+
+### Q1
+The devaluation caused a severe initial shock to prices for Argentine households.** [K]** Monthly inflation jumped to 25.5% immediately after the 54% devaluation in December 2023,** [Ap]** meaning the cost of living rose very sharply and suddenly for ordinary Argentinians, particularly for anyone buying imported goods or goods with imported components, causing significant short-term hardship, especially for lower-income households least able to absorb a sudden jump in prices.** [An]** A devaluation of this scale, imposed in a single move rather than gradually, is likely to have been especially disruptive for households and businesses trying to plan their spending.** [An]**
+
+However, the devaluation appears to have contributed to a significant longer-term improvement in Argentina's economic position.** [Ev]** Annual inflation for 2024 fell substantially to 117.8%, down from 211.4% in 2023, while the trade balance improved by 71.2%, driven mainly by a 16.2% fall in imports alongside only a 4.7% fall in exports.** [Ap]** This suggests that, despite the painful initial price shock, the devaluation helped correct a previously overvalued exchange rate and made imports more expensive relative to domestic goods, encouraging import substitution and helping the economy move towards a first fiscal surplus in over a decade.** [An]** A shrinking trade deficit and improved government finances suggest the economy may now be on a more sustainable footing than before the devaluation.** [An]**
+
+Overall, whether the devaluation has been beneficial for Argentina depends heavily on the timeframe being considered.** [Ev]** In the immediate aftermath, the devaluation was clearly very costly, with a severe price shock and only a small initial improvement to show for it. Over the following year, however, the scale of the fall in inflation (from 211.4% to 117.8%) and the improvement in the trade balance and government finances suggest real structural progress had been made.** [Ev]** It also depends on whether these gains prove sustainable: if inflation continues to fall and the trade and fiscal improvements are maintained, the devaluation is likely to be judged a success, but if inflation stops falling or the fiscal surplus proves temporary, the short-term pain may not have been worth it.** [Ev]**
+
+**[12 marks]**
+
+> **[mark-scheme]**
+> This is a 'levelled response' question
+> 
+> - **[Ap]** = application to the data given (4 marks)
+> - **[An]** = analysis / chain of reasoning (4 marks)
+> - **[Ev]** = evaluation (4 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> A concluding paragraph is essential to scoring evaluation marks
+> 
+> **Mark allocation**
+> 
+> A 12 mark (Level 3) answer will include answers which:
+> 
+> - **Application [Ap]**: demonstrates specific and accurate knowledge and understanding by developing relevant points, with appropriate application of economic terms, concepts and theories
+> - **Analysis [An]**: information presented will demonstrate excellent selectivity and organisation, with a chain of reasoning that is coherent and logical
+> - **Evaluation [Ev]**: offers more than one viewpoint, with a well-balanced and coherent argument leading to a supported judgement or conclusion
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of how to respond to this question. Additional information which could be used in the answer includes:
+> 
+> - 117.8% annual inflation is still extremely high in absolute terms, even though it represents a large improvement, which is worth weighing against the trade and fiscal gains
+> - The government's spending cuts, alongside the devaluation itself, are likely to have contributed to the fiscal surplus, so not all of the improvement should be attributed to the exchange rate change alone
+> - A devaluation and inflation shock of this scale carries a political and social risk, since public unrest or falling support for the reforms could threaten the sustainability of the policy itself
+> - Argentina's history of repeated past currency crises could be evaluated as a credibility risk, since households and investors may be slower to trust that this devaluation will hold, weakening some of the confidence needed for the trade and fiscal gains to continue
+> - Any other relevant and valid evaluation is acceptable
+
+> **[exam-tip]**
+> - Make the conclusion specific: say what the outcome depends on (here, the timeframe and whether the gains prove sustainable), not just that devaluation is 'good' or 'bad'
+> 
+>   - A good conclusion doesn't rescue a thin analysis. Both sides still need to be developed and applied to Argentina specifically
+> - Use the real figures given (54% devaluation, 25.5% monthly inflation spike, 211.4%→117.8% annual inflation, 71.2% trade balance improvement) rather than writing generally about devaluation
+
+### Q2
+The devaluation has imposed a severe cost on Nigerian households through rising prices.** [K]** With the naira depreciating by 40.9% in 2024 alone, closing the year at ₦1,535 per dollar, Nigeria's inflation rate reached 35%, with food inflation reaching nearly 40%.** [Ap]** Because Nigeria imports much of its fuel, fertiliser and raw materials, the weaker naira has made these essential goods significantly more expensive, sharply reducing the purchasing power and living standards of ordinary Nigerian households, particularly poorer households who spend a larger share of their income on food.** [An]** This scale of inflation is likely to have caused serious hardship across the country, well beyond any specific industry.** [An]**
+
+However, the devaluation has also helped Nigeria's non-oil export sector grow significantly.** [Ev]** Non-oil exports grew by around 20% in the second half of 2023 and by a further 12% in 2024, particularly in agriculture and manufactured goods,** [Ap]** since the weaker naira makes Nigerian-produced goods considerably cheaper for foreign buyers, helping Nigeria reduce its historical reliance on oil exports and diversify its economy into new export industries that could provide more stable, longer-term sources of foreign currency earnings and jobs.** [An]** This suggests the devaluation is starting to achieve one of its intended long-term goals, even as it causes short-term hardship.** [An]**
+
+Overall, whether the devaluation has been beneficial for Nigeria depends on the timeframe over which it is judged.** [Ev]** In the short term, the devaluation has clearly been very costly for ordinary households, with inflation at 35% and food inflation near 40% causing immediate, widespread hardship that is difficult to justify against a relatively modest export gain. In the longer term, however, if the growth in non-oil exports continues and diversifies Nigeria's economy away from oil dependence, the devaluation could prove to have been a necessary, beneficial structural change.** [Ev]** It also depends on which group is considered: exporters in the growing non-oil sectors are clearly benefiting, while the average Nigerian consumer, facing sharply higher prices with no corresponding rise in income, is very unlikely to see the devaluation as a benefit at all.** [Ev]**
+
+**[12 marks]**
+
+> **[mark-scheme]**
+> This is a 'levelled response' question
+> 
+> - **[Ap]** = application to the data given (4 marks)
+> - **[An]** = analysis / chain of reasoning (4 marks)
+> - **[Ev]** = evaluation (4 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> A concluding paragraph is essential to scoring evaluation marks
+> 
+> **Mark allocation**
+> 
+> A 12 mark (Level 3) answer will include answers which:
+> 
+> - **Application [Ap]**: demonstrates specific and accurate knowledge and understanding by developing relevant points, with appropriate application of economic terms, concepts and theories
+> - **Analysis [An]**: information presented will demonstrate excellent selectivity and organisation, with a chain of reasoning that is coherent and logical
+> - **Evaluation [Ev]**: offers more than one viewpoint, with a well-balanced and coherent argument leading to a supported judgement or conclusion
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of how to respond to this question. Additional information which could be used in the answer includes:
+> 
+> - The Nigerian government could use targeted support (e.g. subsidies for essential imports) to reduce the worst effects of the devaluation on the poorest households, softening the short-term cost
+> - Nigeria's continued heavy reliance on imported fuel, despite being an oil-producing country, is a particular vulnerability worth evaluating separately
+> - A weaker naira also increases the naira cost of repaying any foreign-currency-denominated government or corporate debt, which could be evaluated as a further cost of the devaluation beyond household inflation
+> - Whether the devaluation was a genuine free-market adjustment or a policy change made under pressure from international lenders could be evaluated instead, since this affects how much control Nigeria retains over future currency decisions
+> - Any other relevant and valid evaluation is acceptable
+
+> **[exam-tip]**
+> - Make the conclusion specific: say what the outcome depends on (here, the timeframe and which group is considered), not just that devaluation is 'good' or 'bad'
+> - A good conclusion doesn't rescue a thin analysis. Both sides still need to be developed and applied to Nigeria specifically
+> - Use the real figures given (40.9% depreciation, ₦1,535, 35% inflation, 20%/12% export growth) rather than writing generally about devaluation
+
+### Q3
+The depreciation has clearly benefited Japan's export and tourism sectors.** [K]** With the yen having weakened by 54% since the end of 2020, reaching as low as ¥161.62 per dollar in July 2024,** [Ap]** Japanese exports have become significantly cheaper for foreign buyers, helping Japanese firms compete more effectively against cheaper Chinese products, while the weak yen has also made visiting Japan far cheaper for foreign tourists, contributing to a record 30 million visitors in 2024.** [An]** This increase in export sales and tourist spending is likely to have supported jobs and incomes in Japan's export and tourism industries specifically.** [An]**
+
+However, the same depreciation has imposed significant costs on the rest of the Japanese economy.** [Ev]** The weaker yen has raised the cost of goods Japan imports, contributing to inflation that has become Japanese voters' primary economic concern,** [Ap]** and this has negatively affected GDP, consumption and investment more broadly, since a weaker yen makes it more expensive for Japanese households and firms to buy imported energy, food and raw materials that Japan heavily relies on.** [An]** This suggests the depreciation's benefits have been concentrated in specific export-facing sectors, while its costs have been felt much more broadly across the whole economy.** [An]**
+
+Overall, whether the depreciation has been beneficial for Japan depends on which part of the economy is being considered.** [Ev]** For exporters and the tourism industry specifically, the weak yen has clearly been beneficial, boosting sales and visitor numbers considerably. For the wider Japanese economy, however, the negative effect on GDP, consumption and investment, together with rising inflation, suggests the costs may outweigh the benefits for the average household.** [Ev]** It also depends on the timeframe: a temporarily weak yen can boost exports and tourism relatively quickly, but if the depreciation continues and inflation remains high, the longer-term damage to consumption and living standards could increasingly outweigh these gains.** [Ev]**
+
+**[12 marks]**
+
+> **[mark-scheme]**
+> This is a 'levelled response' question
+> 
+> - **[Ap]** = application to the data given (4 marks)
+> - **[An]** = analysis / chain of reasoning (4 marks)
+> - **[Ev]** = evaluation (4 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> A concluding paragraph is essential to scoring evaluation marks
+> 
+> **Mark allocation**
+> 
+> A 12 mark (Level 3) answer will include answers which:
+> 
+> - **Application [Ap]**: demonstrates specific and accurate knowledge and understanding by developing relevant points, with appropriate application of economic terms, concepts and theories
+> - **Analysis [An]**: information presented will demonstrate excellent selectivity and organisation, with a chain of reasoning that is coherent and logical
+> - **Evaluation [Ev]**: offers more than one viewpoint, with a well-balanced and coherent argument leading to a supported judgement or conclusion
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of how to respond to this question. Additional information which could be used in the answer includes:
+> 
+> - The Bank of Japan could raise interest rates to strengthen the yen, but this carries its own risk of slowing economic growth
+> - Japanese firms that rely heavily on imported components, rather than raw materials for domestic consumption, face a different cost pressure worth considering separately
+> - Any other relevant and valid evaluation is acceptable
+
+> **[exam-tip]**
+> - Make the conclusion specific: say what the outcome depends on (here, which sector of the economy, and the timeframe), not just that the weak yen is 'good' or 'bad'
+> 
+>   - A good conclusion doesn't rescue a thin analysis. Both sides still need to be developed and applied to Japan specifically
+> - Use the real figures given (54% depreciation, ¥161.62, 30 million tourists) rather than writing generally about depreciation
+
+### Q4
+The appreciation has made goods and services imported from the US cheaper for UK consumers.** [K]** With the pound rising by 7.46% over 2025, from a low of \$1.2177 to a high of \$1.3743,** [Ap]** UK consumers and businesses now need fewer pounds to buy the same quantity of US goods, raw materials and services, increasing their purchasing power and potentially lowering costs for UK firms that import from the US.** [An]**
+
+However, the same appreciation is likely to have made UK exports to the US more expensive.** [Ev]** Because the average exchange rate rose to \$1.319 across 2025, up from previous, weaker levels,** [Ap]** American buyers now need more dollars to purchase the same UK goods and services, which is likely to reduce demand for UK exports to the US, potentially harming the sales, profits and employment of UK exporting firms that rely heavily on the US market.** [An]**
+
+**[9 marks]**
+
+> **[mark-scheme]**
+> This is a 'levelled response' question
+> 
+> - **[Ap]** = application to the data given (3 marks)
+> - **[An]** = analysis / chain of reasoning (3 marks)
+> - **[Ev]** = evaluation (3 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> **Mark allocation**
+> 
+> A 9 mark (Level 3) answer will include examples which demonstrate:
+> 
+> - **Application [Ap]**: clear knowledge and understanding by developing relevant points, with appropriate application of economic terms, concepts and calculations
+> - **Analysis [An]**: information presented will demonstrate excellent selectivity and organisation, with a thorough analysis of issues
+> - **Evaluation [Ev]**: offers more than one viewpoint, with a well-balanced and coherent argument
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of how to respond to this question. Additional information which could be used in the answer includes:
+> 
+> - A stronger pound could help reduce cost-push inflation in the UK, since imported goods and raw materials become cheaper
+> - Whether the impact is beneficial or costly may depend on the individual UK business, since exporters and importers are affected in opposite directions
+> - Any other relevant and valid evaluation is acceptable
+
+> **[exam-tip]**
+> - Build both sides of the argument to a similar depth. An unmatched second side is one of the most common reasons a response is held below the top level
+> - Use the real figures given (7.46% appreciation, \$1.2177 to \$1.3743, \$1.319 average) to support your points directly, rather than writing about appreciation in general
+
+### Q5
+The appreciation has made Swiss exports significantly more expensive for foreign buyers.** [K]** With the franc having strengthened by over 12% in 2025, and almost half of Swiss exporting firms saying they would consider their US exports unprofitable if the franc strengthens further,** [Ap]** many Swiss exporters risk losing sales to foreign competitors whose goods have not become relatively more expensive, which could reduce output, profits and employment in Switzerland's export-focused industries.** [An]**
+
+However, the stronger franc has also lowered costs for many Swiss businesses.** [Ev]** Because a stronger franc makes imported raw materials cheaper to buy,** [Ap]** many Swiss firms have been able to reduce their cost of production, allowing them to increase their profit margins even while inflation in Switzerland has stayed close to zero, meaning these firms have not needed to pass on higher costs to consumers in the way firms in many other countries have had to.** [An]**
+
+**[9 marks]**
+
+> **[mark-scheme]**
+> This is a 'levelled response' question
+> 
+> - **[Ap]** = application to the data given (3 marks)
+> - **[An]** = analysis / chain of reasoning (3 marks)
+> - **[Ev]** = evaluation (3 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> **Mark allocation**
+> 
+> A 9 mark (Level 3) answer will include examples which demonstrate:
+> 
+> - **Application [Ap]**: clear knowledge and understanding by developing relevant points, with appropriate application of economic terms, concepts and calculations
+> - **Analysis [An]**: information presented will demonstrate excellent selectivity and organisation, with a thorough analysis of issues
+> - **Evaluation [Ev]**: offers more than one viewpoint, with a well-balanced and coherent argument
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of how to respond to this question. Additional information which could be used in the answer includes:
+> 
+> - Switzerland's central bank could intervene in the foreign exchange market to slow the appreciation, which would reduce the cost to exporters but was not guaranteed to happen
+> - Swiss consumers benefit directly from a stronger franc through cheaper imported goods and holidays abroad, a benefit separate from the effect on firms
+> - Any other relevant and valid evaluation is acceptable
+
+> **[exam-tip]**
+> - Build both sides of the argument to a similar depth. An unmatched second side is one of the most common reasons a response is held below the top level
+> - Use the real figures given (12% appreciation, almost half of exporters, near-zero inflation) to support your points directly, rather than writing about appreciation in general
+
+### Q6
+![Foreign exchange market diagram showing supply of yen and a leftward shift in demand from D1 to D2. Equilibrium falls from ER1 and Q1 to the lower ER2 and Q2. Axes show yen price in Australian dollars and quantity of yen.](assets/002-foreign-exchange-market-diagram-showing-supply-o.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a leftward shift of the demand curve, labelled
+> 
+> Award 1 mark for a lower equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a lower equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - Australian investors moving money into Japan must first buy yen, demanding it on the foreign exchange market. Fewer investors doing this means less **demand** for yen, and the demand curve shifts **left**
+> - Move only one curve. Shifting both supply and demand on this question type scores no marks
+> - All three marks depend on labelling, so name the new curve and mark the new exchange rate and the new quantity on the axes
+
+### Q7
+![Supply-and-demand graph showing supply shifting right from S to S1 while demand D is unchanged; equilibrium falls from ER1 at Q to ER2 at Q1, showing a lower exchange rate and higher quantity.](assets/004-supply-and-demand-graph-showing-supply-shifting-.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a rightward shift of the supply curve, labelled
+> 
+> Award 1 mark for a lower equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a higher equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - South Africans buying US oil must pay in dollars, so they supply rand to the foreign exchange market to obtain them. More oil imports means more **supply** of rand, and the supply curve shifts **right**
+> - Move only one curve. Shifting both supply and demand on this question type scores no marks
+> - All three marks depend on labelling, so name the new curve and mark the new exchange rate and the new quantity on the axes
+
+### Q8
+The higher interest rate increases foreign demand for Kelvaria's currency.** [K]** For example, as foreign investors move money into Kelvaria to take advantage of the higher returns now on offer, they must first exchange their own currency for Kelvaria's currency,** [Ap]** this increased demand for Kelvaria's currency on the foreign exchange market causes it to appreciate in value.** [An]** This appreciation makes Kelvaria's exports more expensive for foreign buyers, since they now need to exchange more of their own currency to purchase the same goods.** [K]** As Kelvaria's exports become less price-competitive internationally, foreign demand for them is likely to fall, reducing sales revenue and potentially profits for Kelvaria's exporting firms.** [An]**
+
+**[6 marks]**
+
+> **[mark-scheme]**
+> This is a 'levelled response' question
+> 
+> - **[Ap]** = application to the scenario (3 marks)
+> - **[An]** = analysis / chain of reasoning (3 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> **Mark allocation**
+> 
+> Answers are placed into one of three levels. **A level 3 answer (5-6 marks)**, will specifically:
+> 
+> - Demonstrate clear knowledge and understanding by developing relevant points and include appropriate application of economic terms, concepts and theories
+> - Information presented will demonstrate excellent selectivity and organisation, with a thorough analysis of issues
+> 
+> **Alternative content**
+> 
+> - A response could instead analyse how Kelvaria's exporters could respond by trying to absorb some of the cost themselves, reducing their profit margin in order to keep prices competitive abroad
+> - Any other relevant and valid analysis is acceptable
+
+> **[exam-tip]**
+> - One thoroughly developed chain of reasoning can get full marks, you don't need several separate points
+> 
+>   - No counter-argument and no conclusion is required, analyse is always one-sided
+> - Don't open by defining an interest rate - move straight into the specific impact on Kelvaria's exporters
+
+### Q9
+The depreciation makes imported raw materials more expensive for the manufacturer **[1]**, as the manufacturer now needs more of its own (weaker) currency to buy the same quantity of raw materials priced in a foreign currency **[1]**, raising the manufacturer's cost of production. **[1]**
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for identifying a relevant effect
+> 
+> Award 1 mark for the response being in context
+> 
+> Award 1 mark for developing the effect
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of a response to this question. Other effects that could be used include:
+> 
+> - A response could instead focus on the manufacturer seeking a cheaper domestic supplier of raw materials instead of importing, to avoid the higher cost
+> - The wider effect of many firms facing higher imported input costs contributing to cost-push inflation in the economy could be analysed instead
+> 
+> Accept any other appropriate response
+
+> **[exam-tip]**
+> - One of the three marks is for context, so refer to this manufacturer and its raw materials specifically rather than writing about depreciation in general
+> - There are no marks for definitions on 'explain' questions, so do not open by defining depreciation
+
+### Q10
+A cut in interest rates makes the country a less attractive place for foreign investors to hold their money **[1]**, as investors can now earn a lower return on savings and investments held in this currency compared to before **[1]**, causing investors to sell this currency in exchange for other currencies offering higher returns, increasing the supply of the currency on the foreign exchange market **[1]**
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for identifying a relevant effect
+> 
+> Award 1 mark for the response being in context
+> 
+> Award 1 mark for developing the effect
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of a response to this question. Other effects that could be used include:
+> 
+> - A response could instead focus on currency speculators, who may anticipate the interest rate cut will weaken the currency and sell it in advance, also increasing supply
+> - The effect on existing holders of savings in the currency reallocating their money to countries offering better interest rates could be analysed instead
+> 
+> Accept any other appropriate response
+
+> **[exam-tip]**
+> - One of the three marks is for context, so refer to interest rates and investor behaviour specifically rather than writing about currency supply in general
+> - There are no marks for definitions on 'explain' questions, so do not open by defining supply
+
+### Q11
+A fall in the value of one currency **[1]** relative to another currency, caused by market forces of demand and supply **[1]**
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> Definitions generally require two parts for 2 marks
+> 
+> One mark is awarded for identifying a fall in the value of the currency, and one mark for this occurring in a floating exchange rate system through market forces
+> 
+> Any other correct and appropriate wording is acceptable
+
+### Q12
+This rise in value makes the country's exports more expensive for foreign buyers **[1]**, as they now have to exchange more of their own currency to buy the same amount of the strengthened currency **[1]**
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for identifying that exports become more expensive and 1 mark for developing this with a reason - a definition alone is not creditworthy on a Describe question
+> 
+> Accept any other correct and appropriate wording, e.g. reference to foreign buyers needing to pay a higher price in their own currency
+
+> **[exam-tip]**
+> This describes an appreciation (a rise in the currency's value caused by increased demand) without naming the term directly - work out which direction the currency is moving before describing the effect on export prices
+
+### Q13
+An increase in the country's imports **[1 mark]**
+
+> **[mark-scheme]**
+> Award 1 mark for a correct factor
+> 
+> Accept any other appropriate response, e.g. a fall in the country's interest rate, or currency speculators expecting the currency to weaken
+
+### Q14
+The price of one currency in terms of another **[1 mark]**
+
+> **[mark-scheme]**
+> Award 1 mark for a correct definition
+> 
+> No marks are available for an example in place of a definition
+> 
+> Accept any other correct and appropriate wording
+
+### Q15
+**Final answer:** **The correct answer is B**
+
+When a country's imports increase, domestic consumers need to exchange their own currency for foreign currency to pay for these imports, increasing the supply of their own currency on the foreign exchange market
+
+**A** is incorrect as a rise in interest rates attracts foreign investors, increasing demand for the currency rather than its supply
+
+**C** is incorrect as an increase in exports means foreign buyers need to obtain the currency to pay for them, increasing demand for the currency rather than its supply
+
+**D** is incorrect as speculators expecting a currency to strengthen would buy (demand) more of it now, not supply more of it
+
+### Q16
+One disadvantage is a deterioration of the current account** [1]**, because a stronger baht means foreign buyers need more of their own currency to pay for Thai goods, so export prices rise abroad and demand for them falls** [1]**, and with the baht at its highest value against the US dollar in two years and predicted to keep appreciating, falling export earnings could push Thailand's trade balance towards deficit** [1]**
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for identifying a relevant disadvantage
+> 
+> Award 1 mark for developing the disadvantage
+> 
+> Award 1 mark for the response being in context
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of a response to this question. Other disadvantages could include:
+> 
+> - Reduced economic growth, since weaker demand for exports means Thai firms produce less
+> - Rising unemployment, because firms facing falling export orders need fewer workers
+> - A fall in tourist numbers, as Thailand becomes a more expensive destination for foreign visitors
+> 
+> Accept any other appropriate response
+
+> **[exam-tip]**
+> - This is the mirror image of the depreciation question, so check the direction before you write: a **stronger** currency makes exports dearer and imports cheaper
+> - The context mark comes from the stem, so use the two-year high or name Thailand and the baht
+> - Remember SPICED: Strong Pound, Imports Cheap, Exports Dear
+
+### Q17
+![Graph showing supply and demand curves for pounds in euros. Equilibrium shifts from ER1 at Q1 to ER2 at Q2 due to demand change from D to D1.](assets/005-graph-showing-supply-and-demand-curves-for-pound.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a rightward shift of the demand curve, labelled
+> 
+> Award 1 mark for a higher equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a higher equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - Eurozone buyers need pounds before they can pay for UK goods, so an increase in UK exports raises the **demand** for the pound and shifts demand **right**
+> - Move only the demand curve, and remember that both the exchange rate and the quantity rise here, so mark both new values on the axes
+> - Label the new curve as well. Examiner reports single out missing labels as the commonest reason marks are lost on diagram questions
+
+### Q18
+One advantage is an improvement in the current account** [1]**, because a weaker peso means foreign buyers need less of their own currency to pay for Philippine goods, so export prices fall abroad and demand for them rises** [1]**, and with the peso at its lowest level against the US dollar in more than 11 years, export earnings should increase while dearer imports fall, moving the current account towards surplus** [1]**
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for identifying a relevant advantage
+> 
+> Award 1 mark for developing the advantage
+> 
+> Award 1 mark for the response being in context
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of a response to this question. Other advantages could include:
+> 
+> - Economic growth, since cheaper exports raise demand for Philippine goods and services, so firms increase output
+> - Lower unemployment, because firms producing more exports need more workers
+> - Growth in tourism, as a weaker peso makes the Philippines a cheaper destination for foreign visitors
+> 
+> Accept any other appropriate response
+
+> **[exam-tip]**
+> - Pick one route and follow it to the end. An answer that starts on exports and finishes on imports has not built a single chain
+> - The context mark comes from the stem, so use the 11-year low or name the Philippines and the peso
+> - Remember WPIDEC: Weak Pound, Imports Dear, Exports Cheap. The same logic applies to any weakening currency
+
+### Q19
+1,000 KES ÷ 137.73 **[1 mark]**
+
+**= £7.26** **[1 mark]**
+
+> **[mark-scheme]**
+> Award 1 mark for showing the correct calculation
+> 
+> Award 1 mark for the correct answer
+> 
+> Award 2 marks if the price is accurately calculated as £7.26 with the sterling symbol, even if no calculations are shown
+> 
+> Award 1 mark if the answer is given as 7.26 with no £ sign, with or without calculations shown
+> 
+> Do not award marks for the formula alone
+
+> **[exam-tip]**
+> - The rate is £1 = 137.73 KES, so converting shillings into pounds means dividing. Multiplying gives over 137,000 and should look obviously wrong for a t-shirt
+> - Include the £ sign and give two decimal places as the question instructs
+
+### Q20
+**Final answer:** **The correct answer is A**
+
+A weaker rupiah means foreign buyers need less of their own currency to pay for Indonesian goods, so exports become cheaper abroad and demand for them rises, while imports cost Indonesians more rupiah and demand for them falls
+
+**B** is incorrect as exports become cheaper after a depreciation, so demand for them rises rather than falls
+
+**C** is incorrect as imports become more expensive in rupiah, so the quantity imported falls rather than rises
+
+**D** is incorrect as it reverses both effects, describing what an appreciation of the rupiah would cause
+
+### Q21
+An exchange rate is the price of one currency** [1]** expressed in terms of another currency** [1]**
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for reference to the price or value of a currency and 1 mark for reference to another currency
+> 
+> Accept any other correct and appropriate wording
+
+> **[exam-tip]**
+> - 'What is meant by' questions carry two marks and need two parts to the definition. Saying only 'the value of a currency' earns one mark, because it leaves out what that value is measured against
+> - No marks are available for examples, so quoting a rate such as £1 = \$1.30 in place of a definition earns nothing
+One reason is that a weaker euro makes German exports cheaper for overseas buyers** [1]**, because foreign customers need less of their own currency to pay the same euro price** [1]**, so demand for German goods rises, export earnings increase and the current account surplus of €268bn is supported** [1]**
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for identifying a relevant reason
+> 
+> Award 1 mark for developing the reason
+> 
+> Award 1 mark for the response being in context
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of a response to this question. Other reasons could include:
+> 
+> - Imports into Germany become more expensive in euros, so German consumers buy fewer of them and less money flows out of the country
+> - Domestic goods become relatively cheaper than imported substitutes, so spending switches towards German producers
+> 
+> Accept any other appropriate response
+
+> **[exam-tip]**
+> - Choose one side of the current account, exports rising or imports falling, and follow that single route all the way through. Mixing the two halfway loses the chain
+> - The context mark comes from the stem, so use the €268bn surplus or name Germany
+> - Remember WPIDEC: Weak Pound, Imports Dear, Exports Cheap. The same logic applies to a weak euro
+
+### Q22
+**Final answer:** **The correct answer is C**
+
+With no government intervention the rate is set by market forces, and a fall in the value of a floating currency is called a depreciation
+
+**A** is incorrect as an appreciation is a **rise** in the value of a floating currency
+
+**B** is incorrect as a devaluation is a fall, but one deliberately set by a government in a fixed exchange rate system rather than by market forces
+
+**D** is incorrect as a revaluation is an official increase in a fixed exchange rate
+An exchange rate in a floating system is determined by the demand for and supply of the currency, and speculators are buyers and sellers who trade a currency purely to profit from a change in its value.** [K]** When the 2019 US growth rate report was published, speculators who read it as a sign of a strengthening economy would expect the dollar to rise,** [Ap]** so they buy dollars now in order to sell them later at a higher price. That buying is itself an increase in the demand for the dollar,** [An]** and with demand shifting right against an unchanged supply the equilibrium exchange rate rises, so the currency appreciates. The process works in reverse if the report disappoints,** [Ap]** because speculators sell the dollars they hold, which increases the supply of dollars on the foreign exchange market and pushes the rate down.** [An]** Because speculators trade in very large volumes and tend to move together on the same news, their expectations often bring about the very change they predicted,** [An]** so the exchange rate can move sharply on a report that has not yet changed anything real about US trade.
+
+**[6 marks]**
+
+> **[mark-scheme]**
+> This is a ‘levelled response’ question
+> 
+> - **[Ap]** = application to the data given  (3 marks)
+> - **[An]** = analysis / chain of reasoning (3 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> **Mark allocation**
+> 
+> Answers are placed into one of three levels.  **A level 3 answer (5-6 marks)**, will specifically:
+> 
+> - Demonstrate clear knowledge and understanding by developing relevant points and include appropriate application of economic terms, concepts, theories and calculations
+> - Information presented will demonstrate excellent selectivity and organisation. Interpretation of economic information will be excellent, with a thorough analysis of issues
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of how to respond to this question. Additional information which could be used in the answer includes:
+> 
+> - Speculation can make an exchange rate far more volatile than the underlying trade flows would justify
+> - Sharp speculative movements create uncertainty for exporters and importers, who cannot predict the price they will receive or pay
+> - Any other relevant and valid analysis is acceptable
+
+> **[exam-tip]**
+> - The question names **supply and demand**, so cover both: buying pressure raises demand, selling pressure raises supply
+> - The strongest point available is that speculation is self-fulfilling, because acting on an expectation is what makes the expectation come true
+> - No counter-argument and no conclusion is required, analyse is always one-sided
+
+### Q23
+Revaluation is where a government operating a fixed exchange rate system** [1]** officially increases the value of its currency against other currencies** [1]**
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for reference to a fixed exchange rate system or government action, and 1 mark for reference to the value being increased
+> 
+> Accept any other correct and appropriate wording, e.g. when a government fixes (1) a new higher exchange rate (1)
+
+> **[exam-tip]**
+> - 'What is meant by' questions carry two marks and need two parts to the definition, so pair the government action with the direction of the change
+> - Do not confuse revaluation with **appreciation**. Both are a rise, but a revaluation is deliberately set by a government in a fixed system, while an appreciation is caused by market forces in a floating one
+
+### Q24
+\$150,000 × 70.66 INR **[1 mark]**
+
+**= 10,599,000 INR** **[1 mark]**
+
+> **[mark-scheme]**
+> Award 1 mark for showing the correct calculation
+> 
+> Award 1 mark for the correct answer
+> 
+> Award 2 marks if the price is accurately calculated as 10,599,000 INR with the currency stated, even if no calculations are shown
+> 
+> Award 1 mark if the answer is given as 10,599,000 with no currency stated, even if no calculations are shown
+> 
+> Do not award marks for the formula alone
+
+> **[exam-tip]**
+> - The rate is \$1 = 70.66 INR, so converting dollars into rupees means multiplying, and the rupee figure should be far larger than the dollar figure
+> - State the currency in the final answer. Mark schemes on this course withhold the answer mark when it is missing
+![Supply and demand graph for pounds in euros, showing shifts in demand from D1 to D2, equilibrium rates ER1 to ER2, and quantities Q1 to Q2.](assets/007-supply-and-demand-graph-for-pounds-in-euros-show.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a leftward shift of demand, labelled
+> 
+> Award 1 mark for a lower equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a lower equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - Eurozone buyers must buy pounds to pay for UK exports, so **fewer** UK exports means less demand for the pound and the demand curve shifts **left**
+> - Compare this with the increase-in-exports version of the question, which shifts demand right. The direction of the shift follows the direction of the export change
+> - Move only the demand curve, and label the new curve, the new exchange rate and the new quantity
+
+### Q25
+**Final answer:** **The correct answer is A**
+
+Without government intervention the exchange rate is set by the market forces of supply and demand, and a rise in a floating rate is called an appreciation
+
+**B** is incorrect as a devaluation is an official reduction in the rate by a government, so it involves intervention and is a fall rather than a rise
+
+**C** is incorrect as a depreciation is a **fall** in the value of a floating currency, the opposite of what the question describes
+
+**D** is incorrect as a revaluation is a rise, but one deliberately set by a government in a fixed exchange rate system rather than by market forces
+
+### Q26
+**Final answer:** **The correct answer is D**
+
+Selling its own currency on the foreign exchange market increases the supply of that currency, which pushes its price down and so resists an appreciation
+
+**A** is incorrect as higher interest rates attract foreign savers, who must buy the currency to deposit money, so demand rises and the currency appreciates further
+
+**B** is incorrect as selling foreign currency reserves means buying its own currency in exchange, which raises demand for it and pushes the rate up
+
+**C** is incorrect as buying its own currency raises demand for it, which is exactly what causes an appreciation
+
+### Q27
+**Final answer:** **The correct answer is B**
+
+A depreciation makes the currency worth less abroad, so overseas buyers need less of their own currency to pay for the country's goods and demand for its exports rises. Remember it as WPIDEC: Weak Pound, Imports Dear, Exports Cheap
+
+**A** is incorrect as a depreciation raises the price of imported raw materials and fuel, which pushes firms' costs up and tends to **increase** inflation
+
+**C** is incorrect as rising exports mean firms need more workers to produce them, so employment rises rather than unemployment
+
+**D** is incorrect as a budget surplus depends on the government's own tax revenue and spending, which the exchange rate does not determine directly
+
+### Q28
+£73m × €1.08 **[1 mark]**
+
+**= €78.84m** **[1 mark]**
+
+> **[mark-scheme]**
+> Award 1 mark for showing the correct calculation
+> 
+> Award 1 mark for the correct answer
+> 
+> Award 2 marks if the transfer fee is accurately calculated as €78,840,000 or €78.84m, even if no calculations are shown
+> 
+> Award 1 mark if the answer is given as 78,840,000 or 78.84m with no € sign, with or without calculations shown
+> 
+> Do not award marks for the formula alone
+
+> **[exam-tip]**
+> - The rate is £1 = €1.08, so converting pounds into euros means multiplying, and the euro figure should be **larger** than the pound figure
+> - Either €78.84m or €78,840,000 is accepted, but the € sign is not optional
+> - Keep the millions consistent. Dropping the m and writing €78.84 turns a transfer fee into pocket change
+
+### Q29
+**Final answer:** **The correct answer is D**
+
+An appreciation means the currency buys more foreign currency than before, so exports become dearer to overseas buyers and imports become cheaper at home. Remember it as SPICED: Strong Pound, Imports Cheap, Exports Dear
+
+**A** is incorrect as exports rising and imports falling is what a **depreciation** causes, since a weaker currency makes exports cheaper abroad
+
+**B** is incorrect as imports become cheaper after an appreciation, so the quantity imported rises rather than falls
+
+**C** is incorrect as exports become dearer after an appreciation, so demand for them falls rather than rises
+
+### Q30
+**Final answer:** **The correct answer is B**
+
+Devaluation is a deliberate reduction in the value of a currency by a government operating a fixed exchange rate
+
+**A** is incorrect as a depreciation is a fall in the exchange rate caused by market forces of supply and demand rather than by the government
+
+**C** is incorrect as a revaluation is an official **increase** in the exchange rate, which is the opposite of what the question describes
+
+**D** is incorrect as an appreciation is a rise in the exchange rate caused by market forces
+
+### Q31
+![Graph showing supply and demand curves for pounds in dollars, with equilibrium points ER1 and ER2. Axes: price in dollars, quantity of pounds.](assets/009-graph-showing-supply-and-demand-curves-for-pound.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a rightward shift of the demand curve, labelled
+> 
+> Award 1 mark for a higher equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a higher equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - American buyers must obtain pounds before they can pay for UK goods, so more UK exports means more **demand** for the pound and the demand curve shifts **right**
+> - Move only one curve. Examiner reports note that candidates who shift both supply and demand score nothing on this question type
+> - All three marks depend on labelling, so name the new curve and mark the new exchange rate and the new quantity on the axes
+
+### Q32
+**Final answer:** **The correct answer is B**
+
+Each dollar buys £0.75, so multiply the number of dollars by the rate: \$50 × 0.75 = £37.50
+
+**A** is incorrect as £25 is not produced by either multiplying or dividing \$50 by 0.75
+
+**C** is incorrect as £66.66 is \$50 ÷ 0.75, which divides when the rate is already expressed as pounds per dollar
+
+**D** is incorrect as £75 is 0.75 × 100 rather than 0.75 × 50
+
+### Q33
+**Final answer:** **The correct answer is A**
+
+Devaluing lowers the value of the currency, so foreign buyers need less of their own money to pay for the country's goods and demand for its exports rises
+
+**B** is incorrect as a government devalues in order to raise export demand, not to reduce it
+
+**C** is incorrect as a devaluation makes imports **more** expensive, so demand for them falls rather than rises
+
+**D** is incorrect as a cheaper currency makes the country's assets less expensive to foreign buyers, which tends to attract investment rather than deter it
+![Supply and demand graph showing exchange rate for pounds in dollars. Curves labelled S, D, S1, D1; equilibrium points marked at QE and Q1.](assets/011-supply-and-demand-graph-showing-exchange-rate-fo.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a rightward shift of demand, labelled
+> 
+> Award 1 mark for a higher equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a higher equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - Ask what American buyers must do to pay for UK goods: they buy pounds. More UK exports therefore means more **demand** for pounds, so the demand curve shifts **right**
+> - Move only one curve. Shifting supply as well shows you have not identified who is buying the currency, and examiner reports record candidates scoring nothing for it
+> - Both the new exchange rate and the new quantity rise here, so mark both on the axes and label the new curve
+
+### Q34
+**Final answer:** **The correct answer is D**
+
+The pound now buys fewer dollars, so it has fallen in value. American buyers need fewer dollars to pay for a UK good, which makes UK exports cheaper in the US
+
+**A** is incorrect as the pound buys \$1.30 rather than \$1.40, so it has depreciated rather than appreciated
+
+**B** is incorrect as a weaker pound buys less foreign currency, so a US holiday becomes more expensive for UK tourists
+
+**C** is incorrect as US goods now cost more pounds than before, so American exports to the UK become dearer, not cheaper
+
+### Q35
+£15,000 × €1.10 **[1 mark]**
+
+**= €16,500** **[1 mark]**
+
+> **[mark-scheme]**
+> Award 1 mark for showing the correct calculation
+> 
+> Award 1 mark for the correct answer
+> 
+> Award 2 marks if the price is accurately calculated as €16,500 with the € sign, even if no calculations are shown
+> 
+> Award 1 mark if the answer is given as 16,500 with no € sign, with or without calculations shown
+> 
+> Do not award marks for the formula alone
+
+> **[exam-tip]**
+> - The rate is £1 = €1.10, so going **from** pounds **to** euros means multiplying. Dividing would give €13,636 and a euro price lower than the pound price, which cannot be right when a pound is worth more than a euro
+> - Include the € sign, the mark scheme awards only 1 mark without it
+
+### Q36
+A depreciation is a fall in the value of one currency relative to another, caused by market forces.** [K]** The US dollar depreciated against the Australian dollar in 2020,** [Ap]** so Australian buyers now need fewer Australian dollars to pay the same US price, which makes American goods cheaper for them.** [An]** Because the machinery, vehicles, medical instruments and aircraft the US sells to Australia have effectively fallen in price, Australian firms and consumers are likely to buy more of them, so the quantity of US exports demanded rises. Higher export sales bring more money into the United States,** [An]** which improves its trade balance with Australia and supports output and employment in the industries producing those goods.
+
+However, the size of the effect is far from certain.** [Ev]** Australia takes only 2% of US exports,** [Ap]** so even a substantial rise in that trade makes little difference to the US economy as a whole.** [An]** Much depends on the price elasticity of demand for these particular products: machinery and aircraft are large, planned purchases made on contracts agreed long in advance, so demand is likely to be price inelastic in the short run and buyers cannot switch quickly however cheap the dollar becomes. The size and the duration of the depreciation matter too,** [An]** since a small or short-lived fall may be reversed before firms respond, and Australian buyers choose American machinery on quality, reliability and after-sales support as much as on price, so a cheaper dollar alone may not win the order.
+
+**[9 marks]**
+
+> **[mark-scheme]**
+> This is a ‘levelled response’ question
+> 
+> - **[Ap]** = application to the data given  (3 marks)
+> - **[An]** = analysis / chain of reasoning (3 marks)
+> - **[Ev]** = evaluation (3 marks)
+> 
+> Although there are no separate **[K] marks**, both application and analysis must be built on **clear and accurate economic knowledge and understanding**
+> 
+> Therefore, each KAA paragraph should follow:
+> 
+> - Valid knowledge point → Application → Analysis
+> - Each valid point made in the answer does not equal a mark, the response is judged holistically against the level descriptors
+> 
+> **Mark allocation**
+> 
+> A 9 mark (Level 3) answer will include examples which demonstrate:
+> 
+> - **Application [Ap]** — clear knowledge and understanding by developing relevant points. Appropriate application of economic terms, concepts, theories and calculations
+> - **Analysis [An]** — Information presented will demonstrate excellent selectivity and organisation. Interpretation of economic information will be excellent, with a thorough analysis of issues
+> - **Evaluation [Ev]** — Offers more than one viewpoint. The argument is well balanced and coherent, leading to an evaluation that demonstrates full understanding and awareness
+> 
+> **Alternative content**
+> 
+> The answer above is just one example of how to respond to this question. Additional information which could be used in the answer includes:
+> 
+> - A rise in exports relative to imports improves the trade balance between the two countries
+> - On the other side, the impact depends on the size and the duration of the depreciation
+> - Trade between the two countries depends on many factors besides the exchange rate, including quality and existing trade agreements
+> - Any other relevant and valid analysis is acceptable
+
+> **[exam-tip]**
+> - Price elasticity of demand is the sharpest evaluation tool here. If demand for aircraft and machinery is inelastic, a cheaper dollar changes the price but not the quantity sold
+> - The 2% figure is easy to overlook and is the strongest evidence that the effect on the US economy is small, so use it rather than only describing the depreciation
+> - No conclusion is required at 9 marks, but both sides must be developed to matching depth
+
+### Q37
+**Final answer:** **The correct answer is A**
+
+In a floating system the exchange rate is set by supply and demand, and a rise in its value is called an appreciation
+
+**B** is incorrect as a depreciation is a **fall** in the value of a floating currency
+
+**C** is incorrect as a revaluation is a rise, but one set deliberately by a government in a fixed exchange rate system rather than by market forces
+
+**D** is incorrect as a devaluation is an official reduction in the rate by a government in a fixed system
+![Graph showing currency demand and supply for the pound in US dollars, with shifts in supply curve from S to S1, and equilibrium changes from ERe to ER1.](assets/013-graph-showing-currency-demand-and-supply-for-the.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a leftward shift of the supply curve, labelled
+> 
+> Award 1 mark for a higher equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a lower equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - Work out which curve moves by asking what UK buyers do with pounds. Buying US imports means **supplying** pounds to the foreign exchange market, so fewer imports means less supply of pounds and the supply curve shifts **left**
+> - Move only one curve. Examiner reports note that candidates who shift both supply and demand score nothing on this question type
+> - All three marks depend on labelling, so name the new curve and mark the new exchange rate and quantity on the axes
+
+### Q38
+1600 CRC ÷ 672 **[1 mark]**
+
+**= £2.38** **[1 mark]**
+
+> **[mark-scheme]**
+> Award 1 mark for showing the correct calculation
+> 
+> Award 1 mark for the correct answer
+> 
+> Award 2 marks if the entry fee is accurately calculated as £2.38, even if no calculations are shown
+> 
+> Award 1 mark if the £ sign is missing, i.e. 2.38, with or without calculations shown
+> 
+> Do not award marks for the formula alone
+
+> **[exam-tip]**
+> - The rate is given as £1 = 672 CRC, so to go **from** colones **to** pounds you divide. Multiplying gives over a million colones and should look obviously wrong
+> - Include the £ sign and give two decimal places as the question instructs, an answer of 2.38 alone scores only 1 mark
+> - Sense-check the size: 1600 CRC is a small entry fee, so a few pounds is the answer you should expect
+
+### Q39
+![Supply and demand graph for British pounds showing shifts in demand and equilibrium changes, with axes labelled for price in euros and quantity.](assets/015-supply-and-demand-graph-for-british-pounds-showi.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> Award 1 mark for a rightward shift of demand, labelled
+> 
+> Award 1 mark for a higher equilibrium exchange rate, labelled
+> 
+> Award 1 mark for a higher equilibrium quantity, labelled
+
+> **[exam-tip]**
+> - Follow the money: a higher UK interest rate attracts foreign savers, who must **buy pounds** before they can deposit in a UK bank. That is a rise in demand for the pound, so demand shifts **right**
+> - This flow of funds chasing a better return is often called hot money, and naming it shows the examiner you understand the mechanism
+> - Move only the demand curve, and label the new curve, the new exchange rate and the new quantity, since all three marks depend on the labelling
+
+### Q40
+**Final answer:** **The correct answer is C**
+
+Each pound costs more than one dollar at this rate, so divide the pounds needed by the number of pounds a dollar buys: £150 ÷ 0.80 = \$187.50
+
+**A** is incorrect as \$120.00 is £150 × 0.80, which multiplies when the calculation requires division and gives fewer dollars than pounds
+
+**B** is incorrect as \$150.80 simply adds the exchange rate to the number of pounds, which combines two different units
+
+**D** is incorrect as \$230.00 adds 80 to 150 rather than using the exchange rate at all

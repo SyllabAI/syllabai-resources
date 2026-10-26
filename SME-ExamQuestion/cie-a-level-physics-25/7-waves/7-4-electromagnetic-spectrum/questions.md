@@ -1,6 +1,6 @@
 # Exam Questions — Electromagnetic Spectrum
 **7. Waves** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 18 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 25 questions across 2 sets
 
 
 ## Multiple Choice Questions (18 questions)
@@ -178,3 +178,211 @@ Which row correctly describes X as infrared and Y as X-rays?
 | **B.** | 3 × 10<sup>10</sup> Hz | 3 × 10<sup>16</sup> Hz |
 | **C.** | 3 × 10<sup>18</sup> Hz | 3 × 10<sup>14</sup> Hz |
 | **D.** | 3 × 10<sup>14 </sup>Hz | 3 × 10<sup>19</sup> Hz |
+
+## Structured Questions (7 questions)
+
+
+### Q1 — hard — 7 marks
+
+**Q1** [2 marks]
+
+Justify the approximation of the speed of light in air as 3.00×10<sup>8</sup> m s<sup>−1</sup>.
+
+**Q1** [2 marks]
+
+Frequency and wavelength are fundamental properties of all waves. The relationship between them depends on the context of interaction and on the type of wave in question.
+
+Sketch a graph showing the relationship between the frequency and wavelength of an electromagnetic wave.
+
+**Q1** [3 marks]
+
+Electromagnetic waves carry energy through the vacuum of space as progressive transverse waves.
+
+Describe the motion of an electromagnetic wave with reference to the appropriate fields.
+
+### Q2 — easy — 12 marks
+
+**Q2** [3 marks]
+
+Give the name of electromagnetic wave with the
+
+(i) Lowest energy.
+
+[1]
+
+(ii) Shortest wavelength.
+
+[1]
+
+(iii) Lowest frequency.
+
+[1]
+
+**Q2** [2 marks]
+
+State the range of wavelengths for infrared radiation.
+
+**Q2** [4 marks]
+
+**Extract:**
+
+State the range of wavelengths for infrared radiation.
+EM radiation falls between 7×10^−7 m to 1×10^−3 m
+
+Determine the range of frequencies for infrared radiation.
+
+**Q2** [3 marks]
+
+The visible region of the electromagnetic spectrum has frequencies ranging from 4.3×10<sup>14</sup> Hz to 7.5×10<sup>14</sup> Hz.
+
+Show that the wavelength of visible light is 400 nm to 700 nm.
+
+### Q3 — easy — 8 marks
+
+**Q3** [2 marks]
+
+EM waves consist of oscillations in two perpendicular fields.
+
+State the names of the fields.
+
+**Q3** [3 marks]
+
+Table 1.1 lists the names of the waves in the EM spectrum in order of increasing frequency.
+
+**Table 1.1**
+
+| **EM wave** |
+|---|
+| Radio |
+|   |
+| Infrared |
+|   |
+| Ultraviolet |
+|   |
+| Gamma |
+
+Complete Table 1.1 by adding in the missing information.
+
+**Q3** [2 marks]
+
+State two uses for infrared radiation.
+
+**Q3** [1 mark]
+
+Give a value for the speed of gamma radiation travelling through a vacuum.
+
+### Q4 — medium — 10 marks
+
+**Q4** [1 mark]
+
+State the three types of EM radiation that are used for communications.
+
+**Q4** [4 marks]
+
+State the properties common to all electromagnetic radiation.
+
+**Q4** [5 marks]
+
+Dogs can see wavelengths in the range of 430 - 475 nm which they perceive as blue, and 500 - 620 nm which they perceive as yellow.
+
+Determine the range of frequencies which dog's eyes can detect.
+
+### Q5 — medium — 12 marks
+
+**Q5** [3 marks]
+
+Complete the table by stating the correct electromagnetic wave for each range of wavelengths.
+
+| EM wave | Range of wavelengths / m |
+|---|---|
+|   | 10<sup>−1</sup> - 10<sup>6</sup> |
+|   | 4×10<sup>−7</sup> - 7×10<sup>−7</sup> |
+|   | 10<sup>−16</sup> -  10<sup>−10</sup> |
+
+**Q5** [6 marks]
+
+**Extract:**
+
+Complete the table by stating the correct electromagnetic wave for each range of wavelengths.
+
+EM wave / Range of wavelengths / m
+Radio waves: 10^−1 - 10^6
+Visible light: 4×10^−7 - 7×10^−7
+Gamma: 10^−16 - 10^−10
+
+Determine the range of frequencies for the three waves given in part (a).
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Complete the table by stating the correct electromagnetic wave for each range of wavelengths. Visible light: 4×10^−7 - 7×10^−7 (Range of wavelengths / m)
+
+Suggest a reasonable estimate for the wavelength of green light. Explain your answer.
+
+### Q6 — medium — 4 marks
+
+**Q6** [1 mark]
+
+List the electromagnetic waves in order of increasing wavelength.
+
+**Q6** [2 marks]
+
+State the two types of electromagnetic radiation that can knock electrons out of orbit.
+
+**Q6** [1 mark]
+
+Complete the following sentence about electromagnetic radiation by choosing the correct word.
+
+| **wavelength** | **frequency** | **amplitude**<sup>**2**</sup> |
+|---|---|---|
+
+The energy of an electromagnetic wave is directly proportional to ..............................
+
+### Q7 — hard — 11 marks
+
+**Q7** [2 marks]
+
+Microwaves can be used in communications between satellites.
+
+Calculate the frequency range for microwaves.
+
+**Q7** [3 marks]
+
+A satellite passing Neptune communicates with Earth using a microwave transmitter with an output power of 24.0 W and wavelength 78 900 µm.
+
+The satellite's controller is located on Earth, at a distance of 4.40 × 10<sup>12 </sup>m when the signal is transmitted.
+
+For this communication
+
+(i) Calculate the time taken for the signal to be detected by the controller.
+
+[1]
+
+(ii) Calculate the energy of a microwave photon.
+
+[2]
+
+**Q7** [6 marks]
+
+**Extract:**
+
+A satellite passing Neptune communicates with Earth using a microwave transmitter with an output power of 24.0 W and wavelength 78 900 µm. The satellite's controller is located on Earth, at a distance of 4.40 × 10^12 m when the signal is transmitted.
+
+(ii) Calculate the energy of a microwave photon: E = hc/λ = (6.63 × 10^−34 × 3.00 × 10^8)/(78900 × 10^−6) = 2.52 × 10^−24 J (3 s.f.)
+
+The controller dish aerial has an effective area of 258 m<sup>2</sup>.
+
+For the communication from part (b)
+
+(i) Determine the power received by the controller dish aerial. You may assume that the power transmitted by the satellite radiates uniformly in all directions.
+
+[2]
+
+(ii) The actual power received by the controller dish aerial is 1.4 × 10<sup>−15</sup> W. Suggest why this is different to the calculated power received.
+
+[2]
+
+(iii) Calculate the rate at which microwave photons arrive at the controller dish aerial.
+
+[2]

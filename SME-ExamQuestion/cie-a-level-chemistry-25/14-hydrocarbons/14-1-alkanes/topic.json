@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:46:23Z",
+ "generated_utc": "2026-10-26T14:54:55Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -73,17 +73,36 @@
    "question_count": 11,
    "questions_embedded": 11,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/14-hydrocarbons/14-1-alkanes/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_HncmNHPTR7vvdVXN",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 6,
+   "questions_embedded": 6,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/14-hydrocarbons/14-1-alkanes/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 11,
+  "questions_embedded": 17,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2023/06/3-2-cie-ial-chemistry-diagram-q4medium.png": "001-diagram-of-cracking-apparatus-a-horizontal-tube-.png"
+   "https://cdn.savemyexams.com/uploads/2023/06/3-2-cie-ial-chemistry-diagram-q4medium.png": "001-diagram-of-cracking-apparatus-a-horizontal-tube-.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/60760-reaction-scheme-cyclohexane-to-chlorocyclohexane-to-cyclohexene-.png": "002-reaction-scheme-cyclohexane-converted-by-reactio.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/63777-incomplete-table-showing-free-radical-chlorination-of-cyclohexane.png": "003-incomplete-table-showing-free-radical-chlorinati.png",
+   "https://cdn.savemyexams.com/uploads/2026/06/26873-complete-table-showing-free-radical-chlorination-of-cyclohexane.png": "004-completed-table-showing-initiation-propagation-a.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/homolytic-fission-cl2.png": "005-diagram-showing-homolytic-fission-of-cl2-produci.png"
   }
  },
  "questions": [
@@ -692,6 +711,511 @@
        "text_md": "9"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ySMZ2cwNC92DN2m7",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_mzPGwP2YCx3rycFJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "1,2-dibromoethane reacts with bromine in the presence of ultraviolet light to produce a mixture of further substituted halogenoalkanes.\n\ni) Construct an equation for the initiation step of this reaction.\n\n[1]\n\nii) Explain why the bond breaking in the initiation step is described as homolytic fission.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The initiation step is:\n> \n> - Br<sub>2</sub> → 2Br<sup>•</sup> **[1 mark]**\n> \n> ii) The bond breaking is described as homolytic fission because:\n> \n> - Each bromine atom receives one electron from the Br–Br covalent bond / shared pair of electrons **[1 mark]**\n\n> **[exam-tip]**\n> In homolytic fission, the bond breaks symmetrically: each atom takes one electron from the shared pair. This produces two radicals (species with unpaired electrons) rather than ions.\n> \n> This is different from heterolytic fission, where both electrons go to one atom, forming a positive ion and a negative ion."
+    },
+    {
+     "id": "qstnprt_y9svdNhFn87Sx4QG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n1,2-dibromoethane reacts with bromine in the presence of ultraviolet light to produce a mixture of further substituted halogenoalkanes.\n\nConstruct two equations to show the propagation steps in this mechanism that produce 1,1,2-tribromoethane.",
+     "solution_md": "> **[mark-scheme]**\n> The two propagation steps are:\n> \n> - CH<sub>2</sub>BrCH<sub>2</sub>Br + Br<sup>•</sup> → CH<sub>2</sub>BrCHBr<sup>•</sup> + HBr **[1 mark]**\n> - CH<sub>2</sub>BrCHBr<sup>•</sup> + Br<sub>2</sub> → CH<sub>2</sub>BrCHBr<sub>2</sub> + Br<sup>•</sup> **[1 mark]**\n\n> **[exam-tip]**\n> In each propagation step, a free radical reacts with a molecule to produce a new free radical. The bromine radical consumed in step 1 is regenerated in step 2, allowing the chain to continue.\n> \n> In step 1, the bromine radical removes a hydrogen atom from 1,2-dibromoethane to form HBr, leaving a carbon radical on C-2. In step 2, this carbon radical reacts with Br<sub>2</sub> to form 1,1,2-tribromoethane and regenerate a Br<sup>•</sup>."
+    },
+    {
+     "id": "qstnprt_YbjCHbn2QpQ2NwRz",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n1,2-dibromoethane reacts with bromine in the presence of ultraviolet light to produce a mixture of further substituted halogenoalkanes.\n\nThe two propagation steps are:\n- CH₂BrCH₂Br + Br• → CH₂BrCHBr• + HBr\n- CH₂BrCHBr• + Br₂ → CH₂BrCHBr₂ + Br•\n\nTraces of 1,2,3,4-tetrabromobutane are found in the reaction mixture.\n\ni) Construct an equation for the termination step that forms 1,2,3,4-tetrabromobutane.\n\n[1]\n\nii) Construct an equation to show the overall reaction for the formation of hexabromoethane from 1,1,2-tribromoethane.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The termination step that forms 1,2,3,4-tetrabromobutane is:\n> \n> - CH<sub>2</sub>BrCHBr<sup>•</sup> + CH<sub>2</sub>BrCHBr<sup>•</sup> → CH<sub>2</sub>BrCHBrCHBrCH<sub>2</sub>Br **[1 mark]**\n> \n> ii) The overall equation for the formation of hexabromoethane is:\n> \n> - CHBr<sub>2</sub>CH<sub>2</sub>Br + 3Br<sub>2</sub> → CBr<sub>3</sub>CBr<sub>3</sub> + 3HBr **[1 mark]**\n\n> **[exam-tip]**\n> 1,2,3,4-Tetrabromobutane forms when two CH<sub>2</sub>BrCHBr<sup>•</sup> radicals combine in a termination step. Two free radicals combine to form one molecule with no unpaired electrons, ending the chain reaction.\n> \n> For the overall equation, count the hydrogen atoms on 1,1,2-tribromoethane (3 H atoms). Each H removed requires one Br<sub>2</sub>, so 3Br<sub>2</sub> are needed and 3HBr are produced."
+    },
+    {
+     "id": "qstnprt_V8MsG6jJsmY6dB7T",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n1,2-dibromoethane reacts with bromine in the presence of ultraviolet light to produce a mixture of further substituted halogenoalkanes.\n\nSuggest two reasons why free-radical substitution is not a good method for producing a single, pure halogenoalkane.",
+     "solution_md": "> **[mark-scheme]**\n> Free-radical substitution is not a good method for producing a single, pure halogenoalkane because:\n> \n> Any **two** from (1 mark for each point):\n> \n> - Further substitution can occur, producing a mixture of mono-, di-, and tri-substituted products\n> - The halogen can be substituted at different positions in the carbon chain, forming structural isomers\n> - Termination steps produce unexpected by-products (e.g. longer-chain hydrocarbons)\n> - The reaction is difficult to control\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> The main limitations are:\n> \n> - Further substitution (once one H is replaced, the product can react again)\n> - Positional isomers (for chains with more than one type of H atom, different structural isomers form)\n> - Unexpected by-products from termination steps.\n> \n> These limitations mean free-radical substitution produces a mixture of products rather than a single pure compound."
+    }
+   ]
+  },
+  {
+   "id": "qstn_TRxVQbYdww5kG5Zh",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_NnJTht7JWrxnd6xG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XrDVCr5BKxW9xv8b"
+     ],
+     "part_tier": null,
+     "problem_md": "A reaction scheme involving cyclohexane is shown in Fig. 1.1.\n\n![Reaction scheme: cyclohexane converted by reaction 1 to chlorocyclohexane, then by reaction 2 to cyclohexene with a double bond in the ring](assets/002-reaction-scheme-cyclohexane-converted-by-reactio.png)\n\n**Fig. 1.1.**\n\nReaction **1** involves a free radical substitution mechanism.\n\nState the essential condition required for reaction **1** to occur.",
+     "solution_md": "> **[mark-scheme]**\n> The essential condition required for reaction **1** to occur is:\n> \n> - Ultraviolet / UV light **[1 mark]**\n\n> **[exam-tip]**\n> Reaction **1** is a free-radical substitution. UV light provides the energy needed to break the Cl–Cl bond homolytically, generating two chlorine radicals that initiate the chain reaction.\n> \n> Without UV light, the Cl–Cl bond cannot break, so no free radicals form and the reaction does not proceed. Alkanes are too unreactive to react with Cl<sub>2</sub> in the dark."
+    },
+    {
+     "id": "qstnprt_FMHcGPhsb9TZgCPs",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA reaction scheme involving cyclohexane is shown in Fig. 1.1.\n\nReaction 1 involves a free radical substitution mechanism.\n\nComplete Table 1.1 to give details of the mechanism in reaction **1**. Include curly arrows to show the movement of electrons occurring in the termination step.\n\n**Table 1.1**\n\n![Incomplete table showing free radical chlorination of cyclohexane, with initiation, propagation and termination steps containing incomplete equations](assets/003-incomplete-table-showing-free-radical-chlorinati.png)",
+     "solution_md": "The completed Table 1.1 is:\n\n![Completed table showing initiation, propagation, and termination steps for the free-radical substitution of cyclohexane with chlorine](assets/004-completed-table-showing-initiation-propagation-a.png)\n\n**[5 marks]**\n\n> **[mark-scheme]**\n> 1 mark for naming the initiation step\n> \n> 1 mark for HCl as a product in the first propagation step\n> \n> 1 mark for naming the propagation step\n> \n> 1 mark for correct species in the termination step\n> \n> 1 mark for correct single-headed (fish-hook) curly arrows in the termination step\n\n> **[exam-tip]**\n> Free-radical substitution has three stages. Make sure you know the names and equations for each:\n> \n> - Initiation: Cl<sub>2</sub> → 2Cl<sup>•</sup> (one molecule gives two radicals)\n> - Propagation (two steps): radicals react with molecules to produce new radicals, keeping the chain going\n> - Termination: two radicals combine to give a molecule (the chain ends)\n> \n> For the curly arrows in the termination step, use single-headed (fish-hook) arrows to show movement of single electrons. These are different from the double-headed arrows used in ionic mechanisms."
+    },
+    {
+     "id": "qstnprt_kqmnRj7ndGcqyKRR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_znnzS2DjDCp4GJWP"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA reaction scheme involving cyclohexane is shown in Fig. 1.1.\n\nReaction scheme: cyclohexane converted by reaction 1 to chlorocyclohexane, then by reaction 2 to cyclohexene with a double bond in the ring\n\nFig. 1.1.\n\nDeduce the type of reaction that occurs in reaction **2.**",
+     "solution_md": "> **[mark-scheme]**\n> The type of reaction that occurs in reaction **2** is:\n> \n> - Elimination **[1 mark]**\n\n> **[exam-tip]**\n> In reaction **2**, chlorocyclohexane loses HCl to form cyclohexene. The removal of a small molecule (HCl) from adjacent carbon atoms to form a C=C double bond is called elimination.\n> \n> The conditions for this reaction are heat with ethanolic sodium hydroxide (NaOH in ethanol). Compare this with aqueous NaOH, which gives nucleophilic substitution to form cyclohexanol instead."
+    },
+    {
+     "id": "qstnprt_CbCr5xzRsqXQgF6w",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 2",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_ZqhMdzk62nwdGGrr"
+     ],
+     "part_tier": null,
+     "problem_md": "Hex-3-ene is an isomer of cyclohexane. Hex-3-ene can be converted into propanoic acid.\n\nhex-3-ene $\\overset{\\mathrm{reaction}3}{\\rightarrow}$ propanoic acid\n\nDeduce the reagents and conditions for reaction **3.**",
+     "solution_md": "> **[mark-scheme]**\n> The reagents and conditions for reaction **3** are:\n> \n> - Reagent: potassium manganate(VII) / KMnO<sub>4</sub>\n> **AND**\n> Acid / acidified / acidic conditions **[1 mark]**\n> - Conditions: hot\n> **AND**\n> Concentrated **[1 mark]**\n\n> **[exam-tip]**\n> Reaction **3** is an oxidative cleavage of the C=C double bond in hex-3-ene to form propanoic acid. This requires hot, concentrated acidified KMnO<sub>4</sub>.\n> \n> Be careful with the conditions. Cold, dilute KMnO<sub>4</sub> opens the double bond to form a diol rather than cleaving it to form carboxylic acids.\n> \n> Hex-3-ene is a symmetrical internal alkene, so oxidative cleavage produces two identical molecules of propanoic acid.",
+     "equations": [
+      {
+       "latex": "\\overset{\\mathrm{reaction}3}{\\rightarrow}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"20px\"><mover><mo>→</mo><mrow><mi>reaction</mi><mo> </mo><mn>3</mn></mrow></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "rightwards arrow with reaction space 3 on top"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PwjBgMnBv8Fv5RPZ",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_mzGgFV9jrpCSB2Ns",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VkwQyZswQ9jSKtgx"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Explain what is meant by the term *cracking*.\n\n[1]\n\nii) Suggest why cracking is a useful process in the petroleum industry.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) Cracking is:\n> \n> - The breaking down of large hydrocarbon molecules into smaller, more useful ones **[1 mark]**\n> \n> ii) Cracking is useful in the petroleum industry because:\n> \n> - Smaller hydrocarbons are more useful / in greater demand (as fuels and chemical feedstocks)\n> **OR**\n> Alkenes produced can be used to make polymers / other useful chemicals **[1 mark]**\n\n> **[exam-tip]**\n> Crude oil contains a large proportion of long-chain hydrocarbons, which are less in demand. Cracking breaks these down into shorter-chain alkanes (useful as fuels) and alkenes (useful for making plastics and other chemicals).\n> \n> \"Cracking\" specifically means the decomposition of long-chain hydrocarbons into shorter chains. Do not describe it simply as \"breaking bonds\". The answer must make clear that large molecules are converted into smaller, more useful ones."
+    },
+    {
+     "id": "qstnprt_7rV5khqBgrjWBcDf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VkwQyZswQ9jSKtgx"
+     ],
+     "part_tier": null,
+     "problem_md": "i) State the reagent and conditions required for the cracking of alkanes.\n\n[2]\n\nii) Construct an equation for the cracking of tetradecane, C<sub>14</sub>H<sub>30</sub>, to form heptane, C<sub>7</sub>H<sub>16</sub>, and two other organic products.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The reagent and conditions required are:\n> \n> - Reagent: aluminium oxide / Al<sub>2</sub>O<sub>3</sub> / zeolite / aluminosilicate **[1 mark]**\n> - Conditions: high temperature **[1 mark]**\n> \n> ii) An equation for the cracking of tetradecane to form heptane and two other products:\n> \n> - C<sub>14</sub>H<sub>30</sub> → C<sub>7</sub>H<sub>16</sub> + C<sub>2</sub>H<sub>4</sub> + C<sub>5</sub>H<sub>10</sub>\n> **OR**\n> C<sub>14</sub>H<sub>30</sub> → C<sub>7</sub>H<sub>16</sub> + C<sub>3</sub>H<sub>6</sub> + C<sub>4</sub>H<sub>8</sub>\n> **OR**\n> C<sub>14</sub>H<sub>30</sub> → C<sub>7</sub>H<sub>16</sub> + 2C<sub>2</sub>H<sub>4</sub> + C<sub>3</sub>H<sub>6</sub> **[1 mark]**\n> \n> State symbols are not required.\n> \n> The equation must show exactly two other organic products in addition to heptane.\n> \n> The equation C<sub>14</sub>H<sub>30</sub> → C<sub>7</sub>H<sub>16</sub> + C<sub>7</sub>H<sub>14</sub> is not accepted because it gives only one other product.\n\n> **[exam-tip]**\n> For part i), be specific. \"Heat\" alone is not sufficient, you must say \"high temperature\".\n> \n> For part ii), balance the carbon and hydrogen atoms on both sides. Heptane uses 7 of the 14 carbons, so the remaining 7 carbons must be distributed across two other products. Remember that cracking produces a mixture of alkanes and alkenes."
+    },
+    {
+     "id": "qstnprt_GmqjzHmzX6Tkpxw3",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7pQqq4p8gk94GxNW"
+     ],
+     "part_tier": null,
+     "problem_md": "The combustion of octane, C<sub>8</sub>H<sub>18</sub>, in internal combustion engines produces a mixture of pollutants, including carbon monoxide, nitrogen monoxide and unburnt hydrocarbons.\n\ni) State one adverse effect of carbon monoxide on human health.\n\n[1]\n\nii) State one environmental consequence of releasing nitrogen monoxide / oxides of nitrogen into the atmosphere.\n\n[1]\n\niii) State one environmental consequence of releasing unburnt hydrocarbons into the atmosphere.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) One adverse effect of carbon monoxide on human health is:\n> \n> Any **one** from:\n> \n> - It is toxic / poisonous\n> - It binds irreversibly to haemoglobin, preventing oxygen from being carried in the blood\n> - It prevents oxygen being delivered to cells / organs\n> \n> **[1 mark]**\n> \n> ii) One environmental consequence of nitrogen monoxide / oxides of nitrogen is:\n> \n> Any **one** from:\n> \n> - It causes acid rain (by reacting with water to form nitric acid)\n> - It damages / kills aquatic life\n> - It causes respiratory problems\n> \n> **[1 mark]**\n> \n> iii) One environmental consequence of unburnt hydrocarbons is:\n> \n> Any **one** from:\n> \n> - They react with nitrogen oxides in sunlight to form photochemical smog / peroxyacetyl nitrate (PAN)\n> - They contribute to global dimming\n> \n> **[1 mark]**\n\n> **[exam-tip]**\n> Carbon monoxide is toxic because it binds to haemoglobin more strongly than oxygen, preventing oxygen transport to cells.\n> \n> Oxides of nitrogen react with water in the atmosphere to form nitric acid, which contributes to acid rain. This damages ecosystems, particularly lakes and rivers.\n> \n> Unburnt hydrocarbons react with nitrogen oxides in sunlight to produce photochemical smog, a complex mixture of pollutants including peroxyacetyl nitrate (PAN), which is harmful to human health and vegetation."
+    },
+    {
+     "id": "qstnprt_pQnnHzXSBqs932JY",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7pQqq4p8gk94GxNW"
+     ],
+     "part_tier": null,
+     "problem_md": "Construct an equation to demonstrate how a catalytic converter removes carbon monoxide and nitrogen monoxide from exhaust gases.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the catalytic converter reaction is:\n> \n> - 2CO + 2NO → 2CO<sub>2</sub> + N<sub>2</sub> **[1 mark]**\n\n> **[exam-tip]**\n> In a catalytic converter, carbon monoxide is oxidised to carbon dioxide and nitrogen monoxide is reduced to nitrogen. This single reaction removes both pollutants simultaneously.\n> \n> The catalyst (typically platinum, palladium, or rhodium) lowers the activation energy for this reaction, allowing it to occur at the relatively low temperatures found in exhaust gases."
+    }
+   ]
+  },
+  {
+   "id": "qstn_KDQtC2G4FSvNBWC3",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_hSPB3Jr72GM2HC6V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "Methane reacts with chlorine gas under suitable conditions to form chloromethane.\n\ni) Name the mechanism that occurs in this reaction.\n\n[1]\n\nii) Two test tubes are set up, each containing a small amount of methane and pale green chlorine gas. One test tube is left in the dark, whereas the other is placed in direct sunlight.\n\nState and explain the observations in each test tube.\n\n[3]\n\niii) Construct an equation for the overall reaction that occurs in the sunlight.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The mechanism is:\n> \n> - Free-radical substitution **[1 mark]**\n> \n> ii) The observations in each test tube are:\n> \n> In the dark:\n> \n> - No change / the mixture remains pale green **[1 mark]**\n> \n> In sunlight:\n> \n> - The pale green colour disappears / the mixture becomes colourless\n> **OR**\n> Misty / steamy fumes of hydrogen chloride (HCl) are produced **[1 mark]**\n> \n> Explanation:\n> \n> - UV light is required to initiate the reaction / to cause homolytic fission of the Cl–Cl bond **[1 mark]**\n> \n> iii) The equation for the overall reaction in sunlight is:\n> \n> - CH<sub>4</sub> + Cl<sub>2</sub> → CH<sub>3</sub>Cl + HCl **[1 mark]**\n\n> **[exam-tip]**\n> Free-radical substitution is a three-stage chain reaction: initiation, propagation, and termination. Only the initiation step requires UV light.\n> \n> The pale green colour of the reaction mixture is due to chlorine gas. When UV light causes homolytic fission of the Cl–Cl bond, the reaction proceeds and the chlorine is consumed, so the pale green colour disappears.\n> \n> Misty or steamy fumes in the test tube placed in sunlight are hydrogen chloride (HCl) gas produced during the reaction."
+    },
+    {
+     "id": "qstnprt_tc9TBgtPFDYmD5wt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XrDVCr5BKxW9xv8b",
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethane reacts with chlorine gas under suitable conditions to form chloromethane.\n\nThe mechanism for this reaction involves an initiation step.\n\ni) Name the type of bond breaking that occurs in the initiation step. Explain what happens to the electrons in the bond.\n\n[2]\n\nii) Explain what is meant by the term *free radical*.\n\n[1]\n\niii) Suggest why the Cl–Cl bond is broken in the initiation step rather than the C–H bond.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The type of bond breaking is:\n> \n> - Homolytic fission **[1 mark]**\n> - Each atom in the covalent bond receives one electron when the bond breaks **[1 mark]**\n> \n> ii) A free radical is:\n> \n> - A species with an unpaired electron **[1 mark]**\n> \n> iii) The Cl–Cl bond is broken in preference to the C–H bond because:\n> \n> - The C–H bond requires more energy to break than is available from UV light\n> **OR**\n> UV light does not provide enough energy to break the C–H bond **[1 mark]**\n\n> **[exam-tip]**\n> Bonds can break in two ways.\n> \n> 1. In homolytic fission, the covalent bond splits equally and each atom receives one electron, forming two free radicals.\n> 2. In heterolytic fission, the bond splits unequally and one atom receives both electrons, forming a positive ion and a negative ion.\n> \n> Free radicals are highly reactive because of their unpaired electron. They can also be called radicals, without the word \"free\".\n> \n> The bond enthalpy of C–H is higher than that of Cl–Cl, so UV light provides sufficient energy to break the Cl–Cl bond but not the C–H bond."
+    },
+    {
+     "id": "qstnprt_J23TYZzfz2DBCTyD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethane reacts with chlorine gas under suitable conditions to form chloromethane.\n\ni) Name the mechanism that occurs in this reaction.\n\nThe mechanism is:\n- Free-radical substitution\n\nThe mechanism also involves propagation and termination steps.\n\ni) Construct two equations to show the propagation steps in this mechanism.\n\n[2]\n\nii) Construct an equation to show one possible termination step.\n\n[1]",
+     "solution_md": "i) The two propagation steps are:\n\nCH<sub>4</sub> + Cl<sup>•</sup> → CH<sub>3</sub><sup>•</sup> + HCl\n\nCH<sub>3</sub><sup>•</sup> + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl<sup>•</sup>\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for each correct propagation equation (in any order)\n\n> **[mark-scheme]**\n> ii) One possible termination step is:\n> \n> - CH<sub>3</sub><sup>•</sup> + CH<sub>3</sub><sup>•</sup> → C<sub>2</sub>H<sub>6</sub>\n> **OR**\n> Cl<sup>•</sup> + Cl<sup>•</sup> → Cl<sub>2</sub>\n> **OR**\n> Cl<sup>•</sup> + CH<sub>3</sub><sup>•</sup> → CH<sub>3</sub>Cl **[1 mark]**\n\n> **[exam-tip]**\n> In each propagation step, one free radical is consumed and another is produced. This keeps the chain reaction going. The two propagation steps must be given in the correct stoichiometric form.\n> \n> In termination steps, two free radicals combine to form a stable, non-radical molecule. Any one of the three possible termination steps is acceptable unless the question specifies otherwise."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Drg5NZDmZpX68d57",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_wvdN9HXDSpqFRj55",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zrb4jxWNJKsGf4qb"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why alkanes are generally unreactive.",
+     "solution_md": "> **[mark-scheme]**\n> Alkanes are generally unreactive because:\n> \n> - The C–H and C–C bonds have high bond enthalpies / bond strengths **[1 mark]**\n> - The C–H bonds are non-polar / have very low polarity **[1 mark]**\n\n> **[exam-tip]**\n> The two marking points are the strength of the bonds and their lack of polarity.\n> \n> The C–H bond has a bond enthalpy of 411 kJ mol<sup>-1</sup> and the C–C bond has a bond enthalpy of 346 kJ mol<sup>-1</sup>. These high values mean a large amount of energy is needed to break them.\n> \n> Carbon and hydrogen have very similar electronegativities, so C–H bonds have very low polarity. There is no significant dipole to attract ionic reagents or nucleophiles."
+    },
+    {
+     "id": "qstnprt_PxCnJgPz3RkxBdrR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "Methane reacts with chlorine to produce chloromethane, CH<sub>3</sub>Cl. The reaction is initiated by the formation of chlorine free radicals.\n\ni) Explain what is meant by the term *free radical*.\n\n[1]\n\nii) State the condition required to form chlorine free radicals from Cl<sub>2</sub>.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) A free radical is:\n> \n> - A species with an unpaired electron **[1 mark]**\n> \n> ii) The condition required to form chlorine free radicals from Cl<sub>2</sub> is:\n> \n> - Ultraviolet / UV light **[1 mark]**\n\n> **[exam-tip]**\n> A free radical is represented as X<sup>•</sup>, where the dot indicates the unpaired electron.\n> \n> In CIE A Level Chemistry, always use the full term \"free radical\" rather than just \"radical\"."
+    },
+    {
+     "id": "qstnprt_Txq8ZX5bsVPFsTpw",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethane reacts with chlorine to produce chloromethane, CH~3~Cl. The reaction is initiated by the formation of chlorine free radicals.\n\nName the type of bond fission that occurs in the initiation step.",
+     "solution_md": "> **[mark-scheme]**\n> The type of bond fission in the initiation step is:\n> \n> - Homolytic fission **[1 mark]**\n\n> **[exam-tip]**\n> In homolytic fission, the covalent bond breaks symmetrically: each atom receives one electron from the shared pair, forming two radicals. This is shown by single-headed (fish-hook) curly arrows in mechanism diagrams.\n> \n> ![Diagram showing homolytic fission of Cl2 producing two chlorine radicals](assets/005-diagram-showing-homolytic-fission-of-cl2-produci.png)\n> \n> Compare with heterolytic fission, where both electrons go to one atom, forming a positive ion and a negative ion. Alkanes undergo homolytic fission with halogens because the Cl–Cl bond breaks equally due to the identical electronegativities of the two atoms."
+    },
+    {
+     "id": "qstnprt_wj2ThrNmwFxHxQZg",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_PfqCXXkxHSs3pGcc"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethane reacts with chlorine to produce chloromethane, CH~3~Cl. The reaction is initiated by the formation of chlorine free radicals.\n\ni) Construct two equations to show the propagation steps in this mechanism.\n\n[2]\n\nii) Ethane is produced as a by-product in this reaction.\n\nConstruct an equation for the termination step that forms ethane.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The two propagation steps are:\n> \n> - Cl<sup>•</sup> + CH<sub>4</sub> → CH<sub>3</sub><sup>•</sup> + HCl **[1 mark]**\n> - CH<sub>3</sub><sup>•</sup> + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl<sup>•</sup> **[1 mark]**\n> \n> State symbols are not required.\n> \n> ii) The termination step that forms ethane is:\n> \n> - CH<sub>3</sub><sup>•</sup> + CH<sub>3</sub><sup>•</sup> → C<sub>2</sub>H<sub>6</sub> / CH<sub>3</sub>CH<sub>3</sub> **[1 mark]**\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> In each propagation step, a free radical reacts with a molecule to generate a new free radical. The chlorine radical consumed in step 1 is regenerated in step 2, keeping the chain reaction going.\n> \n> Ethane forms in a termination step, where two methyl radicals combine. This illustrates a key limitation of free radical substitution: unwanted by-products are produced alongside the desired product.\n> \n> Other valid termination steps are:\n> \n> Cl<sup>•</sup> + Cl<sup>•</sup> → Cl<sub>2</sub>\n> \n> Cl<sup>•</sup> + CH<sub>3</sub><sup>•</sup> → CH<sub>3</sub>Cl."
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bwv2bzFP5NdVGQm6",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_VGPbSwyQRK8R62DT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XrDVCr5BKxW9xv8b"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the difference in conditions between the complete and incomplete combustion of octane.\n\nConstruct one equation for the complete combustion and one equation for the incomplete combustion of octane.",
+     "solution_md": "> **[mark-scheme]**\n> The difference in conditions and equations are:\n> \n> - Complete combustion occurs with an excess / plentiful supply of oxygen\n> **AND**\n> Incomplete combustion occurs with a limited / insufficient supply of oxygen **[1 mark]**\n> - C<sub>8</sub>H<sub>18</sub> + 12.5O<sub>2</sub> → 8CO<sub>2</sub> + 9H<sub>2</sub>O **[1 mark]**\n> - C<sub>8</sub>H<sub>18</sub> + 8.5O<sub>2</sub> → 8CO + 9H<sub>2</sub>O\n> **OR**\n> C<sub>8</sub>H<sub>18</sub> + 4.5O<sub>2</sub> → 8C + 9H<sub>2</sub>O **[1 mark]**\n> \n> Fractional coefficients are accepted.\n> \n> Allow doubled coefficients (e.g. 2C<sub>8</sub>H<sub>18</sub> + 25O<sub>2</sub> → 16CO<sub>2</sub> + 18H<sub>2</sub>O for complete combustion).\n\n> **[exam-tip]**\n> The key difference between complete and incomplete combustion is the oxygen supply. Complete combustion requires excess oxygen and produces only carbon dioxide and water. Incomplete combustion occurs when oxygen is limited and produces carbon monoxide (and/or carbon) and water.\n> \n> To balance the complete combustion equation for octane (C<sub>8</sub>H<sub>18</sub>): balance C first (8CO<sub>2</sub>), then H (9H<sub>2</sub>O), then O (12.5O<sub>2</sub>). Fractional coefficients are acceptable in CIE exams, or you can double all coefficients to give whole numbers."
+    },
+    {
+     "id": "qstnprt_CDtwQkjV73fWtFP6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7pQqq4p8gk94GxNW"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon monoxide is an atmospheric pollutant produced in the internal combustion engines of motor vehicles.\n\ni) State one adverse effect of carbon monoxide on human health.\n\n[1]\n\nii) Identify one other pollutant produced in internal combustion engines. State the environmental consequence of this pollutant.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) One adverse effect of carbon monoxide on human health is:\n> \n> Any **one** from:\n> \n> - It is toxic / poisonous\n> - It binds irreversibly to haemoglobin, reducing the blood's ability to carry oxygen\n> - It prevents oxygen being delivered to cells / organs\n> - It forms carboxyhaemoglobin instead of oxyhaemoglobin\n> \n> **[1 mark]**\n> \n> ii) A pollutant and its environmental consequence:\n> \n> Any **one** of the following (1 mark for each point):\n> \n> Set 1\n> \n> - Pollutant: oxides of nitrogen / NO<sub>x</sub> / nitrogen monoxide / nitrogen dioxide\n> - Consequence: reacts with water to form nitric acid / causes acid rain\n> **OR**\n> Reacts with unburnt hydrocarbons to form photochemical smog / peroxyacetyl nitrate (PAN)\n> \n> **OR**\n> \n> Set 2\n> \n> - Pollutant: unburnt hydrocarbons / volatile organic compounds / VOCs\n> - Consequence: reacts with oxides of nitrogen to form photochemical smog / peroxyacetyl nitrate (PAN)\n> \n> **[2 marks]**\n\n> **[exam-tip]**\n> Carbon monoxide is toxic because it binds to haemoglobin more strongly than oxygen. This prevents oxygen from being transported to cells.\n> \n> For part ii), you need to name a specific pollutant AND give its environmental consequence. The two main pollutants tested at CIE A Level are oxides of nitrogen and unburnt hydrocarbons. One mark is for correctly identifying the pollutant, one mark is for stating its environmental consequence."
+    },
+    {
+     "id": "qstnprt_b73RVczTTF8Q3qdj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VkwQyZswQ9jSKtgx"
+     ],
+     "part_tier": null,
+     "problem_md": "Octane can be cracked to form pentane and one other product.\n\ni) Construct an equation for this reaction.\n\n[1]\n\nii) State the reagent and conditions required for this cracking reaction.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction is:\n> \n> - C<sub>8</sub>H<sub>18</sub> → C<sub>5</sub>H<sub>12</sub> + C<sub>3</sub>H<sub>6</sub> **[1 mark]**\n> \n> ii) The reagent and conditions required are:\n> \n> - Reagent: aluminium oxide / Al<sub>2</sub>O<sub>3</sub> / zeolite / aluminosilicate **[1 mark]**\n> - Conditions: high temperature **[1 mark]**\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> For the cracking equation, balance carbon and hydrogen atoms on both sides.\n> \n> - Octane (C<sub>8</sub>H<sub>18</sub>) → pentane (C<sub>5</sub>H<sub>12</sub>) + propene (C<sub>3</sub>H<sub>6</sub>).\n> - Check:\n> \n>   - 8C = 5 + 3 ✓\n>   - 18H = 12 + 6 ✓\n> \n> For the conditions, \"heat\" alone is not sufficient, you must specify \"high temperature\"."
+    },
+    {
+     "id": "qstnprt_cM2xz3bD4QsfxBSp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mRVQs6cxrKQQkDzh"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nOctane can be cracked to form pentane and one other product.\n\ni) Construct an equation for this reaction.\n\nThe equation for the reaction is:\n\n- C~8~H~18~ → C~5~H~12~ + C~3~H~6~\n\nDescribe a chemical test and the expected observations to distinguish between the two organic products formed in (c).",
+     "solution_md": "> **[mark-scheme]**\n> A chemical test to distinguish between pentane and propene:\n> \n> - Add aqueous bromine / bromine water / Br<sub>2</sub> (aq) **[1 mark]**\n> - Pentane / C<sub>5</sub>H<sub>12</sub>: the bromine water remains orange / no change **[1 mark]**\n> - Propene / C<sub>3</sub>H<sub>6</sub>: the bromine water turns colourless / decolourises **[1 mark]**\n\n> **[exam-tip]**\n> This test works because propene (an alkene) contains a C=C double bond, which reacts with bromine by electrophilic addition. Bromine is used up, so the orange colour disappears.\n> \n> Pentane (an alkane) does not react with bromine water under these conditions, so the orange colour remains.\n> \n> You need to state the reagent clearly (bromine water, not just \"bromine\") and give distinct observations for both products to score all three marks."
     }
    ]
   }

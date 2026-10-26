@@ -1,0 +1,201 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_SWBtJfCfTwQKbCR2",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/revision-notes/probability/further-probability/further-venn-diagrams",
+ "title": "Venn Diagrams with Conditional Probability",
+ "page_title": "Venn Diagrams with Conditional Probability | Cambridge (CIE) AS Maths Revision Notes 2022",
+ "path": {
+  "segs": [
+   "probability",
+   "further-probability",
+   "further-venn-diagrams"
+  ],
+  "section": "probability",
+  "topic": "further-probability",
+  "leaf": "further-venn-diagrams"
+ },
+ "titles": {
+  "section": "Probability",
+  "topic": "Further Probability",
+  "subtopic": "Venn Diagrams with Conditional Probability"
+ },
+ "updated_at": "2026-07-02T08:19:38.469Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_rSGVy5c6Xz5TTSrp",
+   "name": "Paul",
+   "role": "Maths Content Creator"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_8z5V8WPTP2P3Cv7d",
+   "name": "Dan Finlay",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": [
+   "rnl_WKc2TvqrtMGmCCfT",
+   "rnl_QkjPHqrbWGWR9jvh",
+   "rnl_Qwg26pzg6BzNkS6x",
+   "rnl_jbTPNyvXnX3sxv37"
+  ]
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_FZtYScDC38fJ2CY2"
+ ],
+ "spec_point_codes": [],
+ "equations": [
+  {
+   "latex": "\\cup",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∪</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "union"
+  },
+  {
+   "latex": "\\cap",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mo>∩</mo></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "intersection"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis A vertical line B right parenthesis equals fraction numerator straight P left parenthesis A italic intersection B right parenthesis over denominator straight P left parenthesis B right parenthesis end fraction",
+   "render": "$\\mathrm{P} ( A \\vert B ) = \\frac{ \\mathrm{P} ( A \\cap B )}{ \\mathrm{P} ( B )}$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": "A\\capB",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi>A</mi><mo>∩</mo><mi>B</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A intersection B"
+  },
+  {
+   "latex": "\\frac{\"\\mathrm{double} \\mathrm{shading}\"}{\"\\mathrm{single} \\mathrm{shading}\"}",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><mo>\"</mo><mi>double</mi><mo> </mo><mi>shading</mi><mo>\"</mo></mrow><mrow><mo>\"</mo><mi>single</mi><mo> </mo><mi>shading</mi><mo>\"</mo></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "fraction numerator \" double space shading \" over denominator \" single space shading \" end fraction"
+  },
+  {
+   "latex": "A,B",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>,</mo><mo> </mo><mi>B</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A comma space B"
+  },
+  {
+   "latex": "C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "C"
+  },
+  {
+   "latex": "A",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>A</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "A"
+  },
+  {
+   "latex": "C",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mi>C</mi><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "C"
+  },
+  {
+   "latex": "P(A\\capB)=0.2\\,P(B\\capC)=0.3\\,P((A\\cupB\\cupC)')=0.1\\,P(B)=0.7\\,P(A')=0.75.",
+   "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>∩</mo><mi>B</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>2</mn><mspace linebreak=\"newline\"/><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>B</mi><mo>∩</mo><mi>C</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>3</mn><mspace linebreak=\"newline\"/><mi mathvariant=\"normal\">P</mi><mo>(</mo><mo>(</mo><mi>A</mi><mo>∪</mo><mi>B</mi><mo>∪</mo><mi>C</mi><mo>)</mo><mo>'</mo><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>1</mn><mspace linebreak=\"newline\"/><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>B</mi><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>7</mn><mspace linebreak=\"newline\"/><mi mathvariant=\"normal\">P</mi><mo>(</mo><mi>A</mi><mo>'</mo><mo>)</mo><mo>=</mo><mn>0</mn><mo>.</mo><mn>75</mn><mo>.</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+   "alt": "straight P left parenthesis A intersection B right parenthesis equals 0.2\nstraight P left parenthesis B intersection C right parenthesis equals 0.3\nstraight P left parenthesis left parenthesis A union B union C right parenthesis apostrophe right parenthesis equals 0.1\nstraight P left parenthesis B right parenthesis equals 0.7\nstraight P left parenthesis A apostrophe right parenthesis equals 0.75."
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis A vertical line B right parenthesis",
+   "render": "$\\mathrm{P} ( A \\vert B )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis A apostrophe vertical line C apostrophe right parenthesis",
+   "render": "$\\mathrm{P} ( A ' \\vert C ' )$",
+   "via": "alt-transpile"
+  },
+  {
+   "latex": null,
+   "mathml": null,
+   "alt": "straight P left parenthesis C vertical line left parenthesis A union B right parenthesis apostrophe right parenthesis",
+   "render": "$\\mathrm{P} ( C \\vert ( A \\cup B ) ' )$",
+   "via": "alt-transpile"
+  }
+ ],
+ "stats": {
+  "blocks": 12,
+  "figures": 2,
+  "worked_examples": 1,
+  "exam_hints": 1,
+  "case_studies": 0,
+  "equations": 13
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_FZtYScDC38fJ2CY2",
+   "name": "Further Venn Diagrams",
+   "definition": "",
+   "video_id": "846108928"
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Further Venn Diagrams"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "What do you mean by further Venn diagrams?"
+  },
+  {
+   "type": "bullets",
+   "md": "- The Venn diagrams used here are no more complicated than those in the first **Venn Diagrams **revision note, however\n\n  - questions may use **set** **notation** as well, or alongside contextual questions\n  - there may be more detailed use of **conditional probability**\n  - **mutually** **exclusive**, three events and other unusual Venn diagram setups may be involved"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/2-3-3-cie-fig0-special-venn.png",
+   "file": "assets/e0767174ffc4-2-3-3-cie-fig0-special-venn.png",
+   "alt": "2-3-3-cie-fig0-special-venn",
+   "caption": null
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "How do I solve conditional probability problems using Venn diagrams?"
+  },
+  {
+   "type": "bullets",
+   "md": "- Interpreting questions in terms of **AND** ($\\cup$), **OR** ($\\cap$),** complement** ( ‘ ) and\n**“given that”** ( | )\n- Use mini-Venn diagrams to sketch and shade the regions you are dealing with – use different colours if available or different styles of shading if not\n\n  - Shading can help you see the answer"
+  },
+  {
+   "type": "paragraph",
+   "md": "since $\\mathrm{P} ( A \\vert B ) = \\frac{ \\mathrm{P} ( A \\cap B )}{ \\mathrm{P} ( B )}$ shade *B*  first, then shade $A\\capB$"
+  },
+  {
+   "type": "paragraph",
+   "md": "the answer will then be $\\frac{\"\\mathrm{double} \\mathrm{shading}\"}{\"\\mathrm{single} \\mathrm{shading}\"}$"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2022/05/plx9zFR~_3-2-2-fig1-set-notation-examples.png",
+   "file": "assets/d6748c00ddb8-plx9zfr-3-2-2-fig1-set-notation-examples.png",
+   "alt": "plx9zFR~_3-2-2-fig1-set-notation-examples",
+   "caption": null
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "Three events, $A,B$ and $C$ are such that\n\nevents $A$ and $C$ are mutually exclusive\n\n$P(A\\capB)=0.2\\,P(B\\capC)=0.3\\,P((A\\cupB\\cupC)')=0.1\\,P(B)=0.7\\,P(A')=0.75.$\n\nFind\n\n(i) $\\mathrm{P} ( A \\vert B )$\n\n(ii) $\\mathrm{P} ( A ' \\vert C ' )$\n\n(iii) $\\mathrm{P} ( C \\vert ( A \\cup B ) ' )$\n\n**Answer:**\n\n![2-3-3-ciie-fig2-we-solution_part1](assets/2c29ba6e9181-image.bin)\n\n![2-3-3-ciie-fig2-we-solution_part2](assets/73ec553c02ba-image.bin)"
+  },
+  {
+   "type": "callout",
+   "variant": "exam-tip",
+   "label": "Exam Hint",
+   "md": "- Although very versatile, Venn diagrams may not always be the best option\n\n  - use a tree diagram if one event follows another\n\ne.g.  two beads drawn from a bag without replacement\n\n- use a two-way table for showing how many items/people are in associated categories\ne.g.  A school year group split by gender selecting which sport they wish to play"
+  }
+ ]
+}

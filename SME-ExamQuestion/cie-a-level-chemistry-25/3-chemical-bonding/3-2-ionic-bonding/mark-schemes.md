@@ -134,3 +134,329 @@ SiCl<sub>4</sub> + 2H<sub>2</sub>O → SiO<sub>2</sub> + 4HCl
 **B** is incorrect as Al(SO<sub>4</sub>)<sub>2</sub> would imply aluminium has a 4+ charge, which is not consistent with aluminium being in Group 13.
 
 **D** is incorrect as Al<sub>3</sub>(SO<sub>4</sub>)<sub>2</sub> implies aluminium forms a 2+ ion — a common trap for students who confuse aluminium with a Group 2 metal such as magnesium.
+
+## Structured Questions (4 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> The ions are held together in solid lithium and solid lithium chloride by:
+> 
+> - Lithium: (strong) electrostatic attraction between (positive) lithium ions / Li<sup>+</sup> and delocalised electrons; **[1 mark]**
+> - Lithium chloride: (strong) electrostatic attraction between oppositely charged ions / Li<sup>+</sup> and Cl<sup>-</sup>; **[1 mark]**
+
+> **[exam-tip]**
+> This question tests two distinct types of bonding side-by-side:
+> 
+> - Metallic bonding (in lithium): a regular lattice of Li<sup>+</sup> ions held together by their electrostatic attraction to delocalised outer electrons (often described as a 'sea' of electrons in textbooks, though the CIE mark scheme just says 'delocalised electrons').
+> - Ionic bonding (in lithium chloride): a giant ionic lattice of Li<sup>+</sup> and Cl<sup>-</sup> ions held together by the electrostatic attraction between the oppositely charged ions.
+> 
+> For both marks, the words 'electrostatic attraction' (or 'electrostatic forces') are what the mark scheme rewards. Saying just 'attraction' or 'force' will not score.
+> 
+> A common slip is to describe ionic bonding as 'electron transfer'. While the ions are formed by electron transfer, the bond itself is the electrostatic attraction between the ions formed.
+> **[mark-scheme]**
+> What can be deduced from Table 4.1:
+> 
+> - Lithium chloride has higher melting and boiling points than lithium
+> **OR**
+> The ionic bonding (in LiCl) is stronger than the metallic bonding (in Li); **[1 mark]**
+> - More energy is needed to overcome the (stronger) electrostatic attraction between oppositely charged ions (in LiCl) than between Li<sup>+</sup> and delocalised electrons (in Li); **[1 mark]**
+
+> **[exam-tip]**
+> The question says 'explain what can be deduced from the information in Table 4.1', so you must:
+> 
+> - Make a comparison from the data (e.g. LiCl mp 605 °C vs Li mp 180.5 °C).
+> - Link that comparison to the relative strengths of the bonding types AND the energy needed to overcome the forces.
+> 
+> The mark scheme gives credit in two parts. The first mark is for noticing that LiCl has the higher mp / bp (or that ionic bonding is stronger than metallic bonding). The second mark is for the explicit energy link: more energy is required to overcome the stronger attraction in LiCl. Stating only 'stronger forces' without the energy-to-overcome step will only score 1 of 2 marks.
+> 
+> Note: the boiling points (1342 °C vs 1382 °C) are very close, so most of the contrast comes from the melting points. Either or both pairs of values can be cited.
+> **[mark-scheme]**
+> Whether Student A, Student B, or neither is correct:
+> 
+> - Student B is incorrect AND Student A is partly correct
+> **OR**
+> Both Student A and Student B are incorrect; **[1 mark]**
+> 
+> Lithium:
+> 
+> - Lithium will conduct electricity (at all times); **[1 mark]**
+> - Lithium has delocalised electrons that move (through the metal structure) and carry charge; **[1 mark]**
+> 
+> Lithium chloride:
+> 
+> - Lithium chloride conducts electricity when molten / dissolved (in solution), but not when solid; **[1 mark]**
+> - When solid the ions are in fixed positions / cannot move
+> **AND**
+> When molten / dissolved the ions are free to move / mobile (and carry charge); **[1 mark]**
+
+> **[exam-tip]**
+> For a substance to conduct electricity, charged particles (electrons or ions) must be free to move.
+> 
+> Lithium (a metal):
+> 
+> - Has delocalised outer electrons that move through the metallic lattice at all times.
+> - Conducts electricity in both solid and molten states.
+> 
+> Lithium chloride (an ionic compound):
+> 
+> - Solid: ions are locked in position in the giant ionic lattice and cannot move, so it does NOT conduct electricity.
+> - Molten or aqueous: the lattice has broken apart, so the Li<sup>+</sup> and Cl<sup>-</sup> ions are free to move and carry charge.
+> 
+> The trick is that BOTH students are wrong. Student A is wrong because LiCl does not conduct as a solid. Student B is wrong because LiCl does conduct when molten or dissolved (so 'only lithium will conduct' is too strong).
+> 
+> CIE wording note: use 'free to move' or 'mobile' (CIE's standard phrase), not 'can flow'. Say 'carry charge' not 'carry the charge'.
+> 
+> Marking note: stating just 'they are wrong' without justification will not score the explanation marks. You need to explicitly cover (i) lithium conducts via delocalised electrons and (ii) LiCl conducts only when molten or dissolved because the ions are then mobile.
+> **[mark-scheme]**
+> CaF<sub>2</sub> is formed from its atoms by:
+> 
+> - 1 Ca atom loses 2 electrons (to form Ca<sup>2+</sup>); **[1 mark]**
+> - 2 F atoms (each) gain 1 electron (to form F<sup>-</sup>); **[1 mark]**
+> - Forming Ca<sup>2+</sup> AND 2 F<sup>-</sup> (correct charges and ratio); **[1 mark]**
+
+> **[exam-tip]**
+> The 'in terms of electrons' command means you must describe the loss and gain of electrons explicitly. You must:
+> 
+> - State which atom loses electrons and how many.
+> - State which atom gains electrons and how many.
+> - Identify the resulting ions (with correct charges and ratio).
+> 
+> For CaF<sub>2</sub>:
+> 
+> - Calcium (Group 2) loses its 2 outer electrons to achieve a full outer shell, forming Ca<sup>2+</sup>.
+> - Each fluorine (Group 17) gains 1 electron to achieve a full outer shell, forming F<sup>-</sup>.
+> - The formula tells you there are TWO fluoride ions per calcium ion, so 2 fluorine atoms each gain 1 electron (not 'fluorine gains 2 electrons', which would form F<sup>2-</sup> and is incorrect).
+> 
+> CIE convention: use digits ('2 electrons') rather than words ('two electrons'). The third mark is for stating the resulting ions clearly with correct charges and the 1:2 ratio.
+
+### Q2
+A labelled diagram showing the arrangement of particles in a crystal of sodium:
+
+![Diagram showing 6 positive metal ions (indicated with a + sign inside each of them). The ions are in two rows of three. Each ion has a dot representing an electron next to it.](assets/002-diagram-showing-6-positive-metal-ions-indicated-.bin)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a regular arrangement / lattice of (at least six) positive metal ions.
+> 
+> 1 mark for the positive charge shown on each metal ion, e.g. a + sign inside each ion / labelled as Na<sup>+</sup> / labelled as 'positive metal ions' or 'cations'.
+> 
+> 1 mark for at least six electrons drawn between the ions AND labelled as 'delocalised electrons' (or described as a 'sea of delocalised electrons').
+
+> **[exam-tip]**
+> A metallic crystal should be drawn as a regular lattice of positive metal ions surrounded by a 'sea' of delocalised electrons.
+> 
+> Show the structure clearly:
+> 
+> - Each sodium ion must have a + sign inside the circle (or be explicitly labelled Na<sup>+</sup>) to indicate the loss of its outer electron.
+> - The electrons drawn between the ions MUST be labelled as 'delocalised electrons' (or shown as a 'sea of delocalised electrons'). CIE examiner reports (Nov 2022) flag this as a frequent reason for losing the mark. A bare dot, a − sign, or 'e<sup>-</sup>' on its own is not enough.
+> - Arrange the ions in a regular pattern (rows and columns) to show that ions can slide past one another, which explains why metals are malleable.
+> 
+> The question specifies 'at least six particles of each type', so draw at least six ions AND at least six electrons. Drawing fewer ions will cost you the first marking point.
+> **[mark-scheme]**
+> The term 'ionic bond' means:
+> 
+> - Electrostatic attraction between oppositely charged ions / between cations and anions / between positive and negative ions; **[1 mark]**
+
+> **[exam-tip]**
+> This is a high-frequency CIE definition. Learn the syllabus wording word-for-word.
+> 
+> The two key elements:
+> 
+> - 'Electrostatic attraction' (not just 'attraction' or 'force')
+> - 'Between oppositely charged ions' (also accepted as 'between cations and anions' or 'between positive and negative ions')
+> 
+> CIE accepts variations on the polarity wording but NOT on 'electrostatic'. Saying 'ions are attracted to each other' is too vague to score.
+> 
+> A common slip is to describe ionic bonding as 'electron transfer'. While electron transfer forms the ions, the bond itself is the electrostatic attraction between the ions formed.
+> 
+> For context: in sodium chloride, sodium loses one electron to become Na<sup>+</sup> and chlorine gains one electron to become Cl<sup>-</sup>. The ionic bond is the electrostatic attraction between Na<sup>+</sup> and Cl<sup>-</sup> in the giant ionic lattice.
+The 'dot and cross' diagram of the ions in sodium chloride:
+
+![Electron diagrams of sodium and chloride ions showing electron shells, charge symbols and brackets, illustrating electron transfer in ionic bonding.](assets/003-electron-diagrams-of-sodium-and-chloride-ions-sh.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for sodium ion shown as [Na]<sup>+</sup> with square brackets around the ion, an empty outer shell, and a single + charge as superscript outside the bracket.
+> 
+> 1 mark for chloride ion shown as [Cl]<sup>-</sup> with square brackets, 8 electrons in the outer shell (7 of one symbol AND 1 of the other to show electron transfer from sodium), and a single − charge as superscript outside the bracket.
+> 
+> Inner shells are not required, but if drawn must be correct. Missing brackets, missing charges, undifferentiated dots/crosses, or an incomplete outer shell on Cl<sup>-</sup> are not accepted.
+
+> **[exam-tip]**
+> The mark in CIE dot-and-cross questions is awarded for the DIAGRAM, not for written electronic configuration. To secure both marks:
+> 
+> - Use square brackets [ ] around each ion.
+> - Place the charge as a superscript outside the brackets, e.g. [Na]<sup>+</sup> and [Cl]<sup>-</sup>.
+> - Show only the OUTER shell of each ion (inner shells are optional but must be correct if drawn).
+> - Use dots for one ion's electrons and crosses for the other to show that one electron has transferred from sodium to chlorine.
+> 
+> For Na<sup>+</sup>, the outer shell is empty because the 3s<sup>1</sup> electron has transferred away, so the bracket contains an empty outer circle.
+> 
+> For Cl<sup>-</sup>, the outer shell has 8 electrons in total. Show 7 of one symbol (Cl's own electrons) and 1 of the other (the electron transferred from Na). This visually demonstrates the transfer.
+> 
+> Charge notation:
+> 
+> - CIE uses '+' and '−' for single charges (never '+1', '1+', or just '1').
+> - For multiple charges (e.g. Mg<sup>2+</sup>), the number goes before the sign and both go as superscript outside the bracket.
+> 
+> Common mistakes that cost marks:
+> 
+> - Forgetting the square brackets.
+> - Showing all 8 electrons on Cl<sup>-</sup> as the same symbol (this fails to show electron transfer).
+> - Drawing only 7 electrons on Cl<sup>-</sup> (forgetting the transferred electron).
+> - Missing the charge entirely.
+
+### Q3
+The balanced symbol equation is:
+
+Sr<sub>3</sub>N<sub>2</sub> + 6H<sub>2</sub>O → 3Sr(OH)<sub>2</sub> + 2NH<sub>3</sub>
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the correct formulae of all reactants and products.
+> 
+> 1 mark for correctly balanced equation.
+> 
+> State symbols are not required.
+
+> **[exam-tip]**
+> First write the formulae using the charges on the ions, then balance the atoms.
+> 
+> Step 1: write the formulae.
+> 
+> - Strontium nitride: Sr<sup>2+</sup> and N<sup>3-</sup>. Use the swap-and-drop method to get Sr<sub>3</sub>N<sub>2</sub>.
+> - Strontium hydroxide: Sr<sup>2+</sup> and OH<sup>-</sup>. Swap-and-drop gives Sr(OH)<sub>2</sub>. Note the brackets, because the hydroxide is a polyatomic ion.
+> - Ammonia: NH<sub>3</sub> (covalent, not ionic).
+> - Water: H<sub>2</sub>O.
+> 
+> Step 2: balance the atoms.
+> 
+> - 3 Sr on the left → 3 Sr(OH)<sub>2</sub> on the right.
+> - 6 OH on the right → 6 H<sub>2</sub>O on the left (each provides one OH).
+> - 2 N on the left → 2 NH<sub>3</sub> on the right.
+> - Check H: 12 on the left (6 × H<sub>2</sub>O) and 12 on the right (3 × 2 + 2 × 3 = 12). Balanced.
+> 
+> A common slip is to forget the brackets around (OH) in strontium hydroxide. Without brackets, Sr(OH)<sub>2</sub> becomes SrOH<sub>2</sub>, which has the wrong stoichiometry.
+> **[mark-scheme]**
+> i) The melting point of strontium nitride is high because:
+> 
+> - The strong electrostatic forces of attraction between the oppositely charged ions require a large amount of energy to overcome; **[1 mark]**
+> 
+> ii) Strontium nitride will act as an electrical conductor when:
+> 
+> - It is molten / liquid; **[1 mark]**
+> - It is dissolved (in water) / aqueous; **[1 mark]**
+> 
+> Explanation:
+> 
+> - The ions are free to move / mobile (and carry charge); **[1 mark]**
+
+> **[exam-tip]**
+> For part i), the question asks why the melting point is HIGH. The mark scheme requires three elements:
+> 
+> - 'Strong' attraction (just 'attraction' is not enough)
+> - 'Electrostatic' attraction (the specific force type)
+> - 'Between oppositely charged ions' (the particles involved)
+> 
+> Drop any one element and you risk losing the mark.
+> 
+> For part ii), strontium nitride is an ionic compound, so:
+> 
+> - As a SOLID, the ions are fixed in the giant ionic lattice and cannot move. No charge flow, no conduction.
+> - When MOLTEN or in AQUEOUS solution, the ions are free to move and can carry charge.
+> 
+> The third explanation mark is for linking the mobility of the ions to charge flow. CIE wording note: use 'free to move' or 'mobile' (CIE's canonical phrase). Do NOT add 'when a potential difference is applied'. This clause is not in the CIE mark scheme.
+> **[mark-scheme]**
+> The melting points are different because:
+> 
+> - Mg<sup>2+</sup> is smaller than Sr<sup>2+</sup> / Mg<sup>2+</sup> has (a) higher charge density; **[1 mark]**
+> - Stronger electrostatic attraction between Mg<sup>2+</sup> and N<sup>3-</sup> than between Sr<sup>2+</sup> and N<sup>3-</sup>
+> **AND**
+> More energy is needed to overcome the attraction; **[1 mark]**
+
+> **[exam-tip]**
+> Magnesium and strontium are both Group 2 metals, so their ions both carry a 2+ charge. The difference in melting points is therefore controlled by ion SIZE (or charge density), not the magnitude of the charge.
+> 
+> Smaller ions can pack more closely in the lattice, so:
+> 
+> - The distance between the centres of the cation and anion is shorter.
+> - The electrostatic attraction between Mg<sup>2+</sup> and N<sup>3-</sup> is therefore stronger than between Sr<sup>2+</sup> and N<sup>3-</sup>.
+> - More energy is needed to break the lattice on melting, so magnesium nitride has the higher melting point (1500 °C vs 1200 °C for strontium nitride).
+> 
+> CIE wording note: use 'higher charge density'. This is the canonical CIE phrase and appears in 9701/41 May/June 2024 mark schemes. Charge density combines ion size and charge, so it is more precise than 'smaller ion' alone.
+> 
+> For full marks in M2, include the energy-to-overcome link. Stating only 'stronger attraction' without 'more energy needed to break' may only score the first mark.
+
+### Q4
+> **[mark-scheme]**
+> The term 'ionic bonding' refers to:
+> 
+> - The (strong) electrostatic force / attraction; **[1 mark]**
+> - Between oppositely charged ions / positive and negative ions; **[1 mark]**
+
+> **[exam-tip]**
+> This is a standard CIE definition. Learn it word-for-word.
+> 
+> The two marks are awarded for two distinct ideas:
+> 
+> 1. The type of force: strong electrostatic attraction / force.
+> 2. The particles involved: oppositely charged ions (i.e. positive and negative).
+> 
+> Saying just 'force of attraction' is too vague. The mark scheme requires 'electrostatic'. Saying 'attraction between particles' may not always score; use 'oppositely charged ions' or 'positive and negative ions'.
+> 
+> A common slip is to describe ionic bonding as 'electron transfer'. Electron transfer forms the ions, but the bond itself is the electrostatic attraction between the ions formed.
+> **[mark-scheme]**
+> The information showing lithium bromide is an ionic compound:
+> 
+> - Does not conduct electricity when solid but conducts when molten; **[1 mark]**
+> - Has a high boiling point; **[1 mark]**
+
+> **[exam-tip]**
+> Use the data in Table 2.1 to anchor your answer to the question.
+> 
+> Two key fingerprints of an ionic compound:
+> 
+> - Conductivity flips on melting: ions are fixed in the solid lattice and cannot carry charge, but become mobile when molten and can carry current. Lithium bromide does not conduct as a solid but does conduct when molten, which is classic ionic behaviour.
+> - High boiling point: the strong electrostatic forces between ions in the lattice require a large amount of energy to overcome.
+> 
+> By contrast, the other substances in Table 2.1 fail at least one of these tests:
+> 
+> - Copper conducts as both solid and molten, which is characteristic of a metal (delocalised electrons are mobile at all times).
+> - Sulfur does not conduct in either state and has a low boiling point, characteristic of a simple molecular substance.
+> 
+> The mark scheme awards both pieces of evidence (conductivity behaviour AND high boiling point). Listing only one will not score the second mark.
+> **[mark-scheme]**
+> The difference in solubility in organic solvents is because:
+> 
+> - Li<sup>+</sup> is small / Li<sup>+</sup> has (a) high charge density; **[1 mark]**
+> - Li<sup>+</sup> polarises Br<sup>-</sup> / distorts the electron cloud of Br<sup>-</sup>; **[1 mark]**
+> - (Therefore) LiBr has (some) covalent character; **[1 mark]**
+> - K<sup>+</sup> has lower charge density (than Li<sup>+</sup>) / K<sup>+</sup> is larger AND F<sup>-</sup> is small / harder to polarise, so KF is (purely / wholly) ionic / has no covalent character; **[1 mark]**
+
+> **[exam-tip]**
+> Polarisation explains why some 'ionic' compounds behave more like covalent compounds and dissolve in non-polar organic solvents.
+> 
+> The two factors that determine polarising power:
+> 
+> - Cation: small + high charge density → high polarising power. Li<sup>+</sup> is much smaller than K<sup>+</sup> and so has higher charge density and higher polarising power.
+> - Anion: large + easily polarisable → easily distorted. Br<sup>-</sup> is much larger than F<sup>-</sup> and so its electron cloud is more easily polarised.
+> 
+> In lithium bromide, the small Li<sup>+</sup> distorts the electron cloud of the large Br<sup>-</sup>, giving the bond covalent character. This means LiBr can interact with non-polar organic solvents (which require partial covalent character to dissolve a compound).
+> 
+> In potassium fluoride, the larger K<sup>+</sup> does not polarise the small F<sup>-</sup> significantly, so KF retains its purely ionic character and does not dissolve in non-polar organic solvents.
+> 
+> CIE wording note:
+> 
+> - Use 'high charge density', NOT 'highly charged' (Li<sup>+</sup> only carries a +1 charge, so 'highly charged' is chemically wrong, because it's the high charge-to-radius ratio that matters).
+> - Use 'covalent character' (CIE's canonical phrase). Avoid 'partially covalent' or 'polar covalent' here. Those are for different contexts.
+> 
+> A useful rule of thumb is Fajans' rules:
+> 
+> - Polarisation is favoured by small cations with high charge density.
+> - Polarisation is favoured by large, highly polarisable anions.
+> 
+> Both factors must be present to give significant covalent character.

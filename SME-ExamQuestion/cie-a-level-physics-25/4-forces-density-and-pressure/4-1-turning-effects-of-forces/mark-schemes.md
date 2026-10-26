@@ -309,3 +309,376 @@ Remember that the distance in the torque of a couple equation is the distance be
 **B** is incorrect because this is the answer if the tension in the wire is not calculated from its vertical component.
 
 **C** is incorrect because this is the answer if the mass of the beam is neglected from the calculations.
+
+## Structured Questions (7 questions)
+
+
+### Q1
+A couple is defined as:
+
+- A <u>pair of forces</u> with <u>equal magnitude</u> **AND** <u>opposite direction</u>; **[1 mark]**
+- They do not pass through the same point **OR** they are separated by a distance; **[1 mark]**
+
+A diagram illustrating *F*  and *s*  may look like:
+
+![4-2-s-q--q5a-medium-aqa-a-level-physics](assets/024-4-2-s-q-q5a-medium-aqa-a-level-physics.png)
+
+- Two forces with equal magnitude (both labelled *F*) and opposite direction; **[1 mark]**
+- *s *labelled as the perpendicular distance between the forces; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *The circle in the diagram is not necessary for the marks, but couples tend to act on objects and this circle represents the object.*
+The see-saw is in equilibrium because:
+
+- In equilibrium,<u> anticlockwise</u> moments = <u>clockwise</u> moments; **[1 mark]**
+- Moment due to <u>weight</u> of child <u>on the left</u> = moments due to <u>weight</u> of child <u>on the right;</u> **[1 mark]*** *
+
+**[Total: 2 marks]**
+The beam's weight does not affect equilibrium because:
+
+- The weight of beam acts at the centre;** [1 mark]**
+- This is the location of the pivot; **[1 mark]**
+
+**OR**
+
+- Centre of mass (point where weight of the beam acts) is at the pivot; **[1 mark]**
+- Moment = Force × Distance; at the pivot distance = 0, so moment = 0 (N m) ; **[1 mark]**** **
+
+**[Total: 2 marks]**
+The beam is less stable because:
+
+- The base is narrow; **[1 mark]**
+- The line of action of the beam's centre of gravity can easily move out of the base; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q2
+To compare the centre of gravity and centre of mass:
+
+- The centre of mass (of Sirius B) is located in the <u>centre</u> of the sphere / circle;
+- The centre of gravity is located <u>closer to Sirius A</u>;
+
+**[Total: 2 marks]**
+
+> *The centre of mass is the point which behaves the same as the object, if the object's mass were concentrated to that single point.*
+
+> *The centre of gravity is the point towards which the weight of a small object appears to act. As Sirius A is so large, this point is somewhere between Sirius A's and Sirius B's centre of mass. *
+The block's motion is:
+
+- The block will slide; **[1 mark]**
+
+This is because:
+
+- The block's centre of gravity is at the geometric centre / midway along the base and midway up the block's height; **[1 mark]**
+- This lies above the block's base; **[1 mark]**
+- (However,) the block will slide as there is no / negligible friction; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *If, by eye, you are unsure if the centre of gravity lies above the base, annotate the diagram to confirm. We know the centre of gravity will be at the shape's geometric centre, as it is **uniform**. Drawing a line straight down from this will then confirm whether the shape will topple or not. Here, the diagram clearly shows the block will not topple, but slide.*
+
+![sliding-block-ma](assets/029-sliding-block-ma.png)
+The cylinder topples easily because:
+
+- A small region of the circle is in contact with the slope; **[1 mark]**
+- Therefore, the base is very narrow; **[1 mark]**
+- The line of action does not need to move far to fall outside of the base; **[1 mark]**
+
+**[Total: 3 marks]**
+To calculate tap radius:
+
+List the known quantities:
+
+- Torque, *T* = 420 mN m = 0.42 N m **[1 mark]**
+- Force per finger, *F* = 12 N
+
+Recall the equation for torque:
+
+- $T=Fd$
+
+  - where *d* is the distance between the coupled forces
+
+Write this in terms of radius and rearrange:
+
+- Distance between the coupled force is the tap's diameter
+
+  - $d=2r$
+- $T=F\times2r$ **[1 mark]**
+- $r=\frac{T}{2F}=\frac{0.42}{2\times12}$ **[1 mark]**
+- $r=0.0175m$
+- $r=1.75\mathrm{cm}$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q3
+Explain why the vessel rotates around its axis:
+
+i) by referring to energy stores and transfers:
+
+**Final answer:** **Any ****three ****from:**
+
+- Chemical energy store converted to thermal energy store as the fire burns; **[1 mark]**
+- The water boils (undergoing) vaporisation / turns to steam; **[1 mark]**
+- <u>Nozzles</u> create jets of <u>steam</u> which are <u>perpendicular</u> to the line between them; **[1 mark]**
+- Thermal energy store transfers to kinetic energy; **[1 mark]**
+
+ii) by referring to forces, naming any relevant laws:
+
+**Final answer:** **Any ****three ****from:**
+
+- The vessel exerts a force on the steam to eject it; **[1 mark]**
+- According to Newton's third law, the steam exerts an equal and opposite reaction force on the nozzle / vessel; **[1 mark]**
+- There is an unbalanced force on the vessel; **[1 mark]**
+- According to Newton's second law / F = ma, the vessel accelerates; **[1 mark]**
+- A force applied at a distance from the pivot produces torque; **[1 mark]**
+- Two forces applied at equal distances from the pivot produce a <u>couple</u>; **[1 mark]**
+- Torque (of a couple) = <u>one</u> of the forces × distance between the nozzles / force; **[1 mark]**
+
+**[Total: 6 marks]**
+Explain why simply puncturing holes in the can will not produce the rotation seen in the original Hero's engine:
+
+- The turning force is caused by a couple;** [1 mark]**
+- Must be a pair of forces;** [1 mark]**
+- Forces must be perpendicular to the distance between them;** [1 mark]**
+- If the steam comes straight out / radially / not at an angle the <u>component</u> of the perpendicular force will be zero;** [1 mark]**
+
+**[Total: 4 marks]**
+Calculate the torque experienced by the can:
+
+Make a simplified sketch of the situation:
+
+![screenshot-2023-03-16-at-16-18-30](assets/034-screenshot-2023-03-16-at-16-18-30.png)
+
+Calculate the component of the force which acts perpendicular to the line connecting the couples:
+
+- $F=0.6\mathrm{cos}45=0.424N$ **[1 mark]**
+
+Calculate the torque produced by each couple:
+
+- $\tau_{c} = F \times s = 0.424 \times ( 66 \times 10^{- 3} )$ **[1 mark]**
+- $τ_{c}=2.80\times10^{-2}\mathrm{Nm}$ **[1 mark]**
+
+Double the answer to get total torque, since there are two pairs of forces:
+
+- $\tau_{t} = 2 \times ( 2.80 \times 10^{- 2} ) = 5.6 \times 10^{- 2} \text{Nm}$ **[1 mark]**
+
+**[Total: 4 marks]**
+Discuss an adjustment that could be made to the can to make it spin more quickly:
+
+- Change the angle of the holes / jets; **[1 mark]**
+- So the angle between the jet and can is smaller / less than 45°; **[1 mark]**
+- To increase the <u>component</u> of the force that acts in the perpendicular direction; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q4
+For the arrangement shown, express the force *F*<sub>2</sub> in terms of the forces *F*<sub>1</sub>:
+
+Write expressions for the torque of the couple and the torque of the single force:
+
+- Torque of the couple, $τ_{1}=2F_{1}r$**[1 mark]**
+- Torque of the single force, $\tau_{2} = ( F_{2} \times \sin 30 ) \times \frac{r}{2} = 0.25 F_{2} r$ **[1 mark]**
+
+The disc is in equilibrium, so apply the principle of moments:
+
+- $τ_{1}=τ_{2}$ **[1 mark]**
+- $2F_{1}r=0.25F_{2}r$
+- $F_{2}=8F_{1}$ **[1 mark]**
+
+**[Total: 4 marks]**
+Hence state the value of *F*<sub>2</sub> if the couple produced by the pair of forces with magnitude *F*<sub>1</sub> is 0.26 Nm:
+
+Calculate the value of *F*<sub>1</sub>:
+
+- $τ_{1}=2F_{1}\timesr$
+- $F_{1} = tau_\frac{{1}}{r} = \frac{0.26}{2 ( 42 \times 10^{ - } 3 ) }$ **[1 mark]**
+- $F_{1}=3.10N$ **[1 mark]**
+
+Calculate the value of *F*<sub>2</sub>:
+
+- $F_{2} = 8 F_{1} = 25 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+You have been asked to find the torque of a couple which requires the use of the perpendicular distance between the two forces in the couple.
+Determine the magnitude of the force of the pin on the disc:
+
+Since the disc is in equilibrium and the forces from the couple cancel out:
+
+- Force = 25 N **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q5
+List the known quantities:
+
+- Force, *F *= 50 N
+- Angle, *θ*  = 43°
+- Distance, *r *= 25 cm = 0.25 m
+
+Calculate the perpendicular component of the force, *F*<sub>*2*</sub>:
+
+- Sketch a triangle on the diagram to determine the correct trigonometric function to use
+
+![file-000-18](assets/037-file-000-18.png)
+
+- Consider SOH CAH TOA
+- Opposite component = sin*θ *× hypotenuse
+- *F*<sub>*2*</sub> = sin(43) × 50 **[1 mark]**
+- *F*<sub>*2*</sub> = 34.1 N **[1 mark]**
+
+Calculate the torque on the spanner, *T*:
+
+- Torque: *T *= *F*<sub>*2*</sub>*d*
+- *T *= 34.1 × 0.25
+- *T *= 8.53 = 8.5 N m (2 s.f.) **[1 mark]**
+
+**[Total: 3 marks]**
+The angle the force should be applied to the spanner is:
+
+- At right angles / perpendicular / 90°; **[1 mark]**
+
+This is because:
+
+- The torque is calculated using the perpendicular component of the force applied; **[1 mark]**
+- So when a force is not applied at a right angle the perpendicular component will be a fraction of the force / less than the magnitude of the force; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *In this type of question, one mark is always given for the "state" and the remaining marks for the explanation. Here this requires 2 marks. *
+Examples of couples are:
+
+**Final answer:** **Any ****two ****from the following:**
+
+- Two hands turning a steering wheel; **[1 mark]**
+- Forces acting on a rotating coil; **[1 mark]**
+- Forces acting on a bar magnet; **[1 mark]**
+- Turning a tap; **[1 mark]**
+- Winding up an alarm clock / toy; **[1 mark]**
+- Turning a spanner / screwdriver; **[1 mark]**
+- Turning a key in a lock; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *You need to be able to give, explain and make calculations relating to different examples of couples. Use the revision notes to remind yourself of this. *
+List the known quantities:
+
+- Length of bar, *d* = 23.5 cm = 0.235 m
+- Magnitude of force, *F *= 175 N
+- Angle forces applied to the bar, *θ *= 75.0°
+
+Obtain an equation to calculate the torque provided by the couple:
+
+- *T *= 2*Fr *sin*θ*
+- *T *= *Fd *sin*θ ***[1 mark]**
+
+Calculate the magnitude of the torque provided by the couple:
+
+- *T *= 175 × 0.235 × sin(75)
+- *T* = 39.7 N m** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *Remember that the equation required to calculate torque from a couple is different to the equation required to calculate torque from one resultant force. Use the revision notes to revise this concept. *
+
+### Q6
+**Three** conditions which must apply to a pair of coplanar forces to make them a couple:
+
+- Equal in magnitude; **[1 mark]**
+- Opposite in direction; **[1 mark]**
+- Perpendicular to the distance between them **OR** parallel and in opposite directions; **[1 mark]**** **
+
+**[Total: 3 marks]**** **
+
+> *It is useful to remember the diagram below to help you explain what is meant by a couple.*
+
+![4-2-s-q--q5a-easy-aqa-a-level-physics](assets/039-4-2-s-q-q5a-easy-aqa-a-level-physics.png)
+Diagram to include:
+
+- Two equally sized forces at opposite sides of the steering wheel, both perpendicular to the diameter of the steering wheel; **[1 mark]**
+- Both forces acting in an opposite direction so as to produce an anticlockwise turning effect on the steering wheel; **[1 mark] **
+
+*Example diagram shown below:*
+
+![4-2-s-q--q4c-ma-easy-aqa-a-level-physics](assets/041-4-2-s-q-q4c-ma-easy-aqa-a-level-physics.png)
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- Moment of the couple needed to turn the wheel, *M* = 38 N m
+- Radius of the wheel, *r* = 52 cm = 0.52 m
+
+Calculate the perpendicular distance between the lines of action of the forces acting on the wheel, *d*:
+
+- *d *= diameter of the wheel = 2 × *r*
+- *d* = 2 × 0.52 = 1.04 m **[1 mark] **
+
+Use the equation for moment of a couple to calculate the magnitude of the force, *F*, exerted by each hand:
+
+- *M* = *F *× *d*
+- *F = *$\frac{M}{d}$*= *$\frac{38}{1.04}$* =* 36.5 N** [1 mark]**** **
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- Force applied to the steering wheel by one hand, *F* = 36.5 N (from part (c))
+- Distance between hand and pivot, *r* = 52 cm = 0.52 m
+
+Calculate the moment produced by the hand which remains on steering wheel, *M*:
+
+- *M* = 36.5 × 0.52 **[1 mark]**
+- *M* = 19.0 N m **[1 mark]**** **
+
+**[Total: 2 marks]**
+
+> *Don't forget to use the **radius** for a single moment. Diameter is only used for a couple.*
+
+### Q7
+(i) A couple is:
+
+- A <u>pair</u> of forces that act to produce rotation <u>only</u>; **[1 mark]**
+
+(ii) The forces in a couple must be:
+
+- Equal in magnitude; **[1 mark]**
+- Opposite in direction; **[1 mark]**
+- Perpendicular to the distance between them; **[1 mark]**
+
+**[Total: 4 marks]**
+(i) State the definition and units of torque:
+
+- The moment of a couple **AND **N m; **[1 mark]**
+
+(ii) For the couple in Fig. 1.1 state the equation which can be used to determine the torque:
+
+- Torque / *T */* τ = Fs* ; **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the torque of this couple:
+
+List the known quantities:
+
+- Force, *F* = 15 N
+- Perpendicular distance between forces, *s* = 0.5 m
+
+Write the equation and calculate:
+
+- $τ=F\timess=15\times0.5$ **[1 mark]**
+- $τ=7.5Nm$ **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the new torque on the wheel.
+
+Determine the component of the force, *F* which is perpendicular to the horizontal line between the forces:
+
+![screenshot-2023-03-22-at-12-07-13](assets/044-screenshot-2023-03-22-at-12-07-13.png)
+
+- $F=15\times\mathrm{sin}60=12.99\mathrm{or}13N$ **[1 mark]**
+
+Calculate the torque:
+
+- $τ=F\timess=12.99\times0.5\mathrm{or}13\times0.5$ **[1 mark]**
+- $τ=6.5Nm$ **[1 mark]**
+
+**[Total: 3 marks]**

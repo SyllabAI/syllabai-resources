@@ -365,7 +365,7 @@ Using the data in Table 1.1, calculate the acoustic impedance of
 
 The intensity reflection coefficient $α$ for two media is given by
 
-`alpha space equals space open parentheses Z subscript 1 space minus space Z subscript 2 close parentheses squared over open parentheses Z subscript 1 space plus space Z subscript 2 close parentheses squared`
+$\\alpha = \frac{( Z_{1} - Z_{2} )^{2}}{( Z_{1} + Z_{2} )^{2}}$
 
 Where $Z_{1}$ and $Z_{2}$ are the specific acoustic impedances of the two media.
 

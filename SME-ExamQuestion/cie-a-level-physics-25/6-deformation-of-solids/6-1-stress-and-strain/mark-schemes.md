@@ -389,3 +389,551 @@ The Young modulus, E, is determined by the atomic bonding in the material. A wir
   - For wire X : $F_{X}=\frac{EAx}{l}$
   - For wire Y : $F_{Y} = \frac{E ( \text{bevelled} \frac{A}{2} ) x}{2 l} = \frac{E A x}{4 l} = F_\frac{{X}}{4}$
 - So, the ratio `= F _ X / F _ Y = (F _ X)/(( begin display style bevelled F _ X / 4 )) = 4 / 1`
+
+## Structured Questions (8 questions)
+
+
+### Q1
+(i) Deformation is defined as:
+
+- Changing the <u>size / shape</u> (of an object); **[1 mark]**
+
+(ii) The force which stretches an object is called:
+
+- Tensile (stress / force); **[1 mark]**
+
+(iii) The force which squashes an object is called:
+
+- Compressive (stress / force); **[1 mark]**
+
+**[Total: 3 marks]**
+Hooke's Law can be written as:
+
+- $F=kx$ **[1 mark]**
+- Where *F* = force, *k* = spring constant and *x* is the extension; **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the spring constant, expressing your answer in S.I. units:
+
+List the known quantities:
+
+- Load, *F* = 5.0 N
+- Extension, *x* = 4.2 cm = 0.042 m** [1 mark]**
+
+Use the equation for the spring constant and calculate:
+
+- Hooke's law:  $F=kx\Rightarrowk=\frac{F}{x}$
+- Spring constant:  $k=\frac{5.0}{0.042}$** [1 mark]**
+- Spring constant:  $k = 120 \mathrm{N} \mathrm{m}^{- 1} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**
+Calculate the spring constant, expressing your answer in S.I. units:
+
+List the known quantities:
+
+- Compressive force, *F* = 6.3 N
+- Compression, *x* = 2.4 cm = 0.024 m** [1 mark]**
+
+Use the equation for the spring constant and calculate:
+
+- Spring constant:  $k=\frac{F}{x}=\frac{6.3}{0.024}$ ** [1 mark]**
+- Spring constant:  $k = 260 Nm^{- 1} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Hooke's Law questions are nearly always asked about springs under tension, being stretched. However, be aware that exactly the same equation also applies to compressive forces and that it's used in the same way.*
+
+### Q2
+(i) Tensile stress is defined as:
+
+- The ratio of the force to the cross-sectional area **OR**
+- Stress = $\frac{F}{A}$, where *F* = force and *A* = cross-sectional area; **[1 mark]**
+
+(ii) Tensile strain is defined as:
+
+- The ratio of extension to initial length; **OR**
+- Strain = $\frac{x}{L}$, where x = extension and L = original length; **[1 mark]**
+
+(iii) The Young modulus is defined as:
+
+- The ratio of stress to strain; **OR**
+- Young modulus = $\frac{s t r e s s}{s t r a i n} ( = \frac{F L}{A x} )$ **[1 mark]**
+
+**[Total: 3 marks]**
+The correct labels are:
+
+![6-1-2b-e-6-1-e-stress-strain-graph-ma1](assets/015-6-1-2b-e-6-1-e-stress-strain-graph-ma1.png)
+
+- Elastic limit (as shown); **[1 mark]**
+- Ultimate tensile strength / UTS / breaking stress (as shown); **[1 mark]**
+
+Elastic limit is defined as:
+
+- The point beyond which the wire will not return to its original length / shape / size when the load / force is removed; **[1 mark]**
+
+Ultimate tensile strength / breaking stress is defined as:
+
+- The maximum stress the wire is able to support / before it breaks; **[1 mark]**
+
+**[Total: 4 marks]**
+The wire with the greater Young modulus is
+
+- Wire X; **[1 mark]**
+
+Because:
+
+- X has the steeper gradient / larger value of stress/strain (before breaking); **[1 mark]**
+
+**[Total: 2 marks]**
+(i) Determine the Young modulus of wire X:
+
+![6-1-2b-e-6-1-e-stress-strain-graph-ma2](assets/016-6-1-2b-e-6-1-e-stress-strain-graph-ma2.png)
+
+- (From graph) when stress = 1.6 GPa, strain = 2.0 × 10<sup>−3</sup> **[1 mark]**
+- Young modulus = gradient of the stress-strain graph
+- Young modulus = $\frac{stress}{strain}=\frac{1.6\times10^{9}}{2.0\times10^{-3}}$ **[1 mark]**
+- Young modulus = 8.0 × 10<sup>11</sup> Pa **OR** 800 GPa **[1 mark]**
+
+(ii) Determine the extension of wire Y when the stress is 1.2 GPa:
+
+![6-1-2b-e-6-1-e-stress-strain-graph-ma3](assets/017-6-1-2b-e-6-1-e-stress-strain-graph-ma3.png)
+
+- (From graph) when stress = 1.2 GPa, strain = 8.0 × 10<sup>−3</sup> **[1 mark]**
+- Original length, L = 2.0 m
+- Extension:  $ε=\frac{x}{L}\Rightarrowx=εL$
+- Extension:  $x = ( 8.0 \times 10^{- 3} ) \times 2.0$ **[1 mark]**
+- Extension:  $x$ = 0.016 m **OR** 1.6 cm **OR** 16 mm **[1 mark]**
+
+**[Total: 6 marks]**
+
+### Q3
+Measurements the student needs to make:
+
+- Young Modulus = $\frac{tensilestress}{tensilestrain}$ = $\frac{F\timesL}{A\times\DeltaL}$
+- Therefore, the student needs to measure the original length **AND **the diameter of the wire; **[1 mark]**
+
+Measurements from the graph:
+
+- The gradient is equal to $( \frac{F}{\Delta L} )$ and then substitute that into the equation below; **[1 mark] **
+- Calculate the Young Modulus using the equation `(F x L)/( pi ( d / 2 ) ^2 x \Delta L)` **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *In your answer, you are allowed to say convert the results into a stress-strain graph and determine the gradient.*
+List the known quantities:
+
+- The Young Modulus = 154 GPa = 154 × 10<sup>9</sup> Pa
+- Diameter of the cable, *d* = 4.9 mm = 4.9 × 10<sup>–3</sup> m
+- Percentage strain = 0.40%
+
+Calculate the stress on the wire:
+
+- Young Modulus = $\frac{stress}{strain}$ therefore, Stress = Young Modulus* ×* Strain
+- 0.40% is equal to a strain of 0.004
+- Stress* *= (154 × 10<sup>9</sup>) × 0.004 = 6.16 × 10<sup>8</sup> Pa **[1 mark]**
+
+Calculate the radius of the cable, *r *:
+
+- *r * = $\frac{d}{2}$ = $\frac{4.9\times10^{-3}}{2}$
+- *r*  = 2.45 × 10<sup>−3</sup> m
+
+Calculate the force, *F *:
+
+- Stress = $\frac{F}{A}$ therefore, *F* = stress × *A *= stress × π*r *<sup>2</sup>
+- *F* = (6.16 × 10<sup>8</sup>) × π × (2.45 × 10<sup>−3</sup>)<sup>2</sup> = 11 616.16 N **[1 mark]**
+- *F* = 12 000 N **OR **12 kN (2 s.f.) **[1 mark]**** **
+
+**[Total: 3 marks]**** **
+
+> *Remember to check you enter the correct value of the diameter or radius in your calculation for the cross-sectional area i.e. **A **=*$\mathrm{πr}^{2}$* or **A** =*`pi ( d / 2 ) ^2`
+Consider the situation and obtain equations in terms of the force applied, *F*:
+
+- Two springs connected in series provide a longer, flimsier spring
+- When a force is applied to the combined spring the same force is applied evenly to each individual spring
+- The springs have different spring constants so the extension they undergo is different
+- Hence when *x*<sub>1</sub> is the extension for spring *k*<sub>1</sub> and *x*<sub>2</sub> is the extension of spring *k*<sub>2</sub>:
+
+  - *F *= *K*(*x*<sub>*1*</sub> + *x*<sub>*2*</sub>) (Equation 1) **AND**
+  - *F *= *k*<sub>1</sub>*x*<sub>1 </sub>(Equation 2) **AND**
+  - *F *= *k*<sub>2</sub>*x*<sub>*2 *</sub>(Equation 3) **[1 mark]**
+
+Combine equations 2 and 3 to make *x*<sub>*1*</sub> the subject:
+
+- *k*<sub>1</sub>*x*<sub>1</sub> = *k*<sub>2</sub>*x*<sub>*2*</sub>
+- $x_{1}=\frac{k_{2}x_{2}}{k_{1}}$ **[1 mark]**
+
+Substitute for *x*<sub>*1*</sub> in equation 1:
+
+- $F = K ( ( \frac{k_{2} x_{2} }{k_{1} } ) + x_{2} )$
+- $F = K ( \frac{k_{2}}{k_{1}} + 1 ) x_{2}$ **[1 mark]**
+
+Combine this equation with equation 3 and rearrange to make *K *the subject:
+
+- $k_{2} x_{2} = K ( \frac{k_{2}}{k_{1}} + 1 ) x_{2}$
+- $k_{2} = K ( \frac{k_{2}}{k_{1}} + 1 )$
+- $\frac{k_{2}}{ ( \frac{k_{2}}{k_{1}} + 1 ) } = K$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Take your time and work through this type of question slowly thinking about the force applied when two wires are in series. You won't get marks for it because the question asks you **to show **but you will need to check you have completed the question correctly by rearranging this final equation for **K **as follows:*
+
+![file-000-12](assets/019-file-000-12.png)
+
+### Q4
+The correct labels are as follows:
+
+![3a-mark-scheme](assets/021-3a-mark-scheme.png)
+
+- Tape marker / marker; **[1 mark]**
+- Pulley; **[1 mark]**
+- G–clamp; **[1 mark]**
+- Ruler; **[1 mark]**
+- Weights / masses; **[1 mark]** **One mark for each correct label**
+
+**[Total: 5 marks]**
+A safety consideration for this experiment is:
+
+**EITHER**
+
+- Wearing safety goggles at all times; **[1 mark]**
+- Explanation: in case the wire snaps; **[1 mark]**
+
+**OR**
+
+- Placing a cushion / mat directly below the mass hanger; **[1 mark]**
+- Explanation: in case the masses fall onto the ground / student's foot; **[1 mark]**
+
+**[Total: 2 marks]**
+The expected variation of strain with stress for this experiment is as follows:
+
+![3c-mark-scheme](assets/023-3c-mark-scheme.png)
+
+- Straight line drawn; **[1 mark]**
+- Through the origin; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The question states that the wire is not stretched beyond the limit of proportionality. This means that **Hooke’s law** is **obeyed**, therefore the stress will be **directly proportiona**l to the strain. This means the graph will be a **straight line** through the **origin**. *
+
+> *Remember to use a ruler or straight edge for any lines, messy graphs will often not get full marks!*
+The student could use the graph in Fig. 1.2 to determine the Young modulus because:
+
+- Young modulus = $\frac{stress}{strain}$ **[1 mark]**
+- Therefore, the gradient of the stress-strain graph = Young modulus; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q5
+The definition of work done:
+
+- Force × <u>displacement</u> in the direction of the force; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *You will see mark schemes allowing 'distance travelled' or 'distance moved' instead of displacement in this defintion.*
+
+> *However, the definition above is the one given in your specification, and you should learn it this way.*
+How work is done when a heavy suitcase is placed on a spring:
+
+- The weight (of the case) acts downwards and provides the force on the spring; **[1 mark]**
+- The weight of the case compresses the spring by a distance; **[1 mark]**
+- Work is done to compress the spring; this energy is stored as elastic potential energy in the spring; **[1 mark]**
+
+**[Total: 3 marks]**
+Calculate the spring constant of the spring:
+
+List the known quantities:
+
+- Mass of the suitcase, *m* = 22.6 kg
+- Compression of the spring,* x* = 3 cm = 0.03 m
+
+Calculate applied force by finding the weight of the suitcase:
+
+- $W=mg=22.6\times9.81=222N$ **[1 mark]**
+
+Use the equation for Hooke's Law to find the spring constant:
+
+- $F=kx$
+- $k=\frac{F}{x}=\frac{222}{0.03}=7400\mathrm{Nm}^{-1}$ **[1 mark]**
+
+**[Total: 2 marks]**
+For the weighing platform described in part (c) sketch a graph to show the known properties of the spring:
+
+Review the description of the weighing platform:
+
+- When load = 222 N, extension = 0.03 m
+- Platform returns to original position when applied load of 222 N is removed
+- No data for heavier loads
+
+Therefore the graph looks like:
+
+![screenshot-2023-02-11-at-15-57-55](assets/026-screenshot-2023-02-11-at-15-57-55.png)
+
+- Both axes labelled with variable and unit; **[1 mark]**
+- Line from (0, 0) to (0.03, 222); **[1 mark]**
+- Line is straight (obeys Hooke's Law); **[1 mark]**
+- Line does not extend beyond (0.03, 222); **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *If you are asked to sketch the shape of a graph in a question that includes data, make sure to include that data on your sketch. Do not make up any data or assume any knowledge of what might happen if the investigation was continued.*
+
+### Q6
+Determine the mass of nickel and the mass of chromium required to make a wire of nichrome of volume 0.50 × 10<sup>−3</sup> m<sup>3</sup>
+
+Determine how much of the total volume will consist of each metal:
+
+- Volume of nickel = 80% × total volume
+- Volume of nickel = $0.8\times(0.50\times10^{-3})=4.0\times10^{--4}m^{3}$
+- Volume of chromium = 20% × total volume
+- Volume of chromium = $0.2\times(0.50\times10^{-3})=1.0\times10^{--4}m^{3}$
+
+Use the equation for density to find the mass required:
+
+- $m=ρ\timesv$
+- Mass of nickel, $m_{n} = \rho_{n} \times v_{n} = ( 8.9 \times 10^{3} ) \times ( 4.0 \times 10^{- 4} ) = 3.56$
+- Mass of nickel, $m_{n} = 3.6 \text{kg} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+- Mass of chromium, $m_{c} = \rho_{c} \times v_{c} = ( 7.1 \times 10^{3} ) \times ( 1.0 \times 10^{- 4} ) = 0.71$
+- Mass of chromium, $m_{c} = 0.71 \text{kg} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 2 marks]**
+An experimental method and equipment:
+
+(i) The cross-sectional area of the wire:
+
+- Use (Vernier) caliper / micrometer to find <u>diameter</u>; **[1 mark]**
+- Measure in (at least) three places and take the average / mean; **[1 mark]**
+
+(ii) The applied load:
+
+- Use digital scales / balance to find <u>mass</u>; **[1 mark]**
+- Multiply by *g* / 9.81 to find weight **OR **W = mg **OR **F = mg; **[1 mark]** **OR**
+- Use force / Newton-meter; **[1 mark]**
+- to find <u>weight</u>; **[1 marks]**
+
+**[Total: 4 marks]**
+Calculate the breaking stress of nichrome
+
+List the known quantities:
+
+- Force, *F* = 72 kN = 72 000 N
+- Diameter of the wire, *d *= 5.7 mm = 5.7 × 10<sup>−3</sup> m
+
+Determine the cross-sectional area of the wire:
+
+- Area of a circle, $A = \mathrm{\pi } r^{2} = \mathrm{\pi } ( \frac{d}{2} )^{2} = \mathrm{\pi } \times ( \frac{5.7 \times 10^{- 3} }{2} )^{2}$ **[1 mark]**
+- $A=2.55\times10^{-5}m^{2}$
+
+Use the equation for stress:
+
+- $σ=\frac{F}{A}=\frac{72000}{2.55\times10^{-5}}=2.82\times10^{9}$ Pa **[1 mark]**
+
+Write answer to two sig figs and include the unit:
+
+- $σ=2.8\times10^{9}$ Pa **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q7
+(i) Force is defined as:
+
+- The rate of change of momentum **OR **change in momentum ÷ time taken; **[1 mark]**
+
+(ii) Work done is defined as:
+
+- Force × Displacement in the direction of the force; **[1 mark]**
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- Mass of block, $m$ = 0.40 kg
+- Velocity of block, $v$ = 0.30 m s<sup>−1</sup>
+
+(i) Calculate the initial kinetic energy of the block:
+
+- $E_{k}=\frac{1}{2}mv^{2}$ **[1 mark]**
+- $E_{k}=\frac{1}{2}\times0.4\times0.3^{2}$
+- $E_{k}=0.018J$ **[1 mark]**
+
+(ii) Calculate the maximum force *F*<sub>max</sub> exerted on the spring by the block:
+
+From the graph when $F=F_{max}$:
+
+- Compression, $x$ = 8.0 cm = 8 × 10<sup>−2</sup> m
+
+Equate the elastic potential $E_{p}$ and  $E_{k}$ of the block and rearrange for $F_{max}$:
+
+- $E_{k = E_{p} = 1 \frac{1}{2} ( F_{m} a x} ) x$
+- $0.018 = 1 \frac{1}{2} \times F_{m a x} \times ( 8 \times 10^{- 2} )$ ** [1 mark]**
+- $F_{m a x} = \frac{0.018 \times 2}{( 8 \times 10^{- 2} )}$
+- $F_{max}=0.45N$** [1 mark]**
+
+(iii) Calculate the maximum deceleration of the block:
+
+- $F=ma$ **[1 mark]**
+- $a=\frac{F_{max}}{m}$
+- $a=\frac{0.45}{0.40}$
+- $a = 1.125 \mathrm{m} \mathrm{s}^{- 2} = 1.1 \mathrm{m} \mathrm{s}^{- 2} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+(iv) Consider whether the block is in equilibrium during the following:
+
+Before it hits the spring:
+
+- The velocity is constant / the resultant force is zero, so the block is in equilibrium; **[1 mark]**
+
+When its speed becomes zero:
+
+- There is deceleration / the resultant force is not zero, so the block is <u>not</u> in equilibrium; **[1 mark]**
+
+(v) Calculate the magnitude of the change in momentum of the block:
+
+List the known quantities:
+
+- Initial velocity of block, $u$ = 0.25 m s<sup>−1</sup>
+- Final velocity of block, $v$ = −0.15 m s<sup>−1</sup>
+
+Calculate the change in momentum:
+
+- $p=mv$ **or** $mu=0.40\times0.25$ **or** $mv=0.40\times0.15$ **[1 mark]**
+- $\Deltaρ$ = momentum before − momentum after
+- $\Delta \\rho = m u - m v = m ( u - v )$
+- $\Delta \\rho = 0.4 \times ( 0.25 - ( - 0.15 ) )$
+- $\Deltaρ=0.16Ns$ **[1 mark]**
+
+**[Total: 10 marks]**
+
+- *In part (v) "moves back along its original path" tells you that the block's **direction** is **opposite*
+
+  - *So, the **velocity** is **negative*
+
+### Q8
+List the known quantities:
+
+- Original length, *L* = 3.0 m
+- Diameter, *d* = 0.92 mm = 0.92 × 10<sup>–3</sup> m
+- Tensile stress = 4.6 × 10<sup>8 </sup>Pa
+- Extension for Hooke’s law limit = 20 mm = 0.02 m
+- Breaking force, *F* = 350 N
+- Breaking extension = 12 cm = 0.12 m
+
+Calculate cross-sectional area, *A:*
+
+- *A* = π*r*<sup>*2*</sup> = $\frac{\mathrm{πd}^{2}}{4}$ = $\frac{ \mathrm{\pi } \times ( 0.92 \times 10^{- 3} )^{2}}{4}$
+- *A* = 6.65 × 10<sup>–7</sup> m<sup>2</sup>
+
+Calculate the breaking stress:
+
+- Breaking stress = $\frac{breakingforce}{area}$ = $\frac{350}{6.65\times10^{-7}}$
+- Breaking stress = 5.26 × 10<sup>8</sup> Pa **[1 mark]**
+
+Calculate the breaking strain:
+
+- Breaking strain = $\frac{Breakingextension}{L}$ = $\frac{0.12}{3}$ = 0.040 = 40 × 10<sup>−3</sup> **[1 mark] **
+
+Calculate the tensile strain:
+
+- Tensile strain = $\frac{ExtensionforHooke'slawlimit}{L}$ = $\frac{0.02}{3}$ = 0.0067 = 6.7 × 10<sup>−3</sup> **[1 mark] **
+
+A graph that would score 3 marks should look like:
+
+![img-1154](assets/030-img-1154.jpeg)
+
+- The graph line is a straight section up to the Hooke’s law limit and is curved in the tensile section of the graph; **[1 mark]**
+- Point at tensile stress and tensile strain (6.7 × 10<sup>−3</sup>, 4.6 × 10<sup>8</sup>); **[1 mark]**
+- Point at breaking stress and breaking strain (40, 5.26 × 10<sup>8</sup>); **[1 mark]**** **
+
+**[Total: 6 marks]**** **
+
+> *There are a few clues in the question as to the shape of this graph. ‘Hooke’s law is obeyed up to the point’ means that the stress–strain curve will only be a straight diagonal line up to a point. Beyond this point, if it doesn’t obey Hooke’s Law this means the line starts to curve (i.e., The material starts to plastically deform). The 'maximum load before breaking' implies that at this stress–strain point, this graph will end. Therefore, the two points to calculate on the graph are the stress­–strain at the end of the Hooke’s law section, and the final stress–strain before the wire breaks. *
+
+> *Remember to label your axes appropriately, including all the units and any powers of 10 (e.g., × 10*<sup>*8*</sup>*).*
+Advantages:
+
+- The second dog lead has a <u>larger</u> cross–sectional area, *A ***AND **since stress =$\frac{Force}{Area}$ , it has a <u>smaller</u> tensile stress; **[1 mark]**
+- It has the same Young Modulus, therefore, there is a smaller extension for the same force; **[1 mark]**
+- For a given force, there is a smaller extension therefore the lead can experience a greater force before breaking; **[1 mark]**
+
+Disadvantages:
+
+**Final answer:** **Any ****one**** from:**
+
+- The dog lead will be heavier / harder to hold over long periods of time); **[1 mark]**
+- The dog would be restricted by the lead; **[1 mark]**
+- It is more difficult to make a knot in / wind up / change its shape; **[1 mark]**
+
+**[Total: 4 marks]**** **
+
+> *It may not be enough to get the mark by just writing ‘stress and area are inversely proportional’ although it is encouraged to state this. Remember to go on further and explain ‘and therefore if the area increases, the stress decreases (for the same applied force), since stress = F/A’.*
+List the known quantities:
+
+- Original length, *L* = 3.0 m
+- Change in surface area = 4.1 × 10<sup>–3</sup> m<sup>2</sup>
+- Radius, *r*  = 2.3 mm = 2.3 × 10<sup>–3</sup> m
+- Young Modulus of leather = 0.05 GPa = 0.05 × 10<sup>9</sup> Pa
+
+Determine the equation for extension Δ*L* from the change in surface area, ΔSA:
+
+- Surface area of a cylinder = 2π*r L* + 2π*r*<sup>*2*</sup>
+- ΔSA = (2π*r*$L_{2}$*­*+ 2π*r*<sup>*2*</sup>) – (2π*r­*$L_{1}$+ 2π*r*<sup>*2*</sup>)
+- ΔSA = 2π*r *(­$L_{2}-L_{1}$) = 2π*r*Δ*L*
+- Δ*L*  = $\frac{\Delta\mathrm{SA}}{2\mathrm{πr}}$ **[1 mark]**
+
+Substitute into Young Modulus equation:
+
+- Young Modulus = $\frac{FL}{A\DeltaL}$ = $\frac{FL}{A\times\frac{\Delta\mathrm{SA}}{2πr}}$
+- Cross-sectional area, *A* = π*r*<sup>*2*</sup>
+- Young Modulus =$\frac{FL}{\mathrm{πr}^{2}\times\frac{\Delta\mathrm{SA}}{2\mathrm{πr}}}$ = $\frac{FL}{r\times\frac{\Delta\mathrm{SA}}{2}}$ = $\frac{2FL}{r\times\DeltaSA}$  **[1 mark]**
+
+Calculate force, *F*:
+
+- *F* = $\frac{Youngmodulus\timesr\times\DeltaSA}{2L}$
+- *F* = $\frac{( 0.05 \times 10^{9 ) \times ( 2.3 \times 10^{-3} } ) \times ( 4.1 \times 10^{- 3} )}{2 \times 3.0}$ **[1 mark]**
+- *F *= 78.58 = 79 N **[1 mark]**** **
+
+**[Total: 4 marks]**
+
+> *If you forget the formula for areas and volumes for 3D shapes, don’t panic! Just take time to figure them out from your GCSE Maths knowledge. For example: the curved surface area of the cylinder = 2π**rh **where **r** is the radius and **h** is the height of the cylinder. *
+
+> *The total surface area of a cylinder includes the areas of the two circular cross–sectionals on either side. To determine the surface area of any 3D shape, add up the area of all its faces. This is shown for the cylinder below:*
+
+![4-8-s-q--q3c-ma-hard-aqa-a-level-physics](assets/031-4-8-s-q-q3c-ma-hard-aqa-a-level-physics.png)
+
+> *Notice that the length of the shorter side of the rectangle that makes up the curved part of the cylinder is the circumference of a circle. The total surface area is therefore:*
+
+> *2π**r L** + π**r*<sup>*2*</sup>* + π**r*<sup>*2*</sup>* = 2π**r L** + 2π**r*<sup>*2*</sup>
+List the known quantities:
+
+- Diameter, *d* = 15 mm = 15 × 10<sup>–3</sup> m
+- Young Modulus of steel = 2.5 × 10<sup>11</sup>Pa
+- Extension of rod = 6 %
+
+Calculate the strain:
+
+- Strain = $\frac{\DeltaL}{L}$ = 6 % = 0.06 **[1 mark]**
+
+Calculate the cross-sectional area, *A*:
+
+- *A* = π*r*<sup>*2*</sup> = $\frac{\mathrm{πd}^{2}}{4}$
+- *A* = $\frac{ \mathrm{\pi } \times ( 15 \times 10^{- 3} )^{2}}{4}$ = 1.77 × 10<sup>–4</sup> m<sup>2 </sup>**[1 mark]**
+
+Calculate the stress:
+
+- Young Modulus = $\frac{stress}{strain}$ therefore, Stress = Strain × Young Modulus
+- Stress = 0.06 × (2.5 × 10<sup>11</sup>) = 1.50 × 10<sup>10</sup> Pa **[1 mark]**
+
+Calculate force, *F*:
+
+- Stress = $\frac{F}{A}$ therefore, *F* = Stress × *A*
+- *F* = (1.50 × 10<sup>10</sup>) × (1.77 × 10<sup>–4</sup>)
+- *F* = 2.66 × 10<sup>6</sup> N = 2.66 MN **[1 mark]**** **
+
+**[Total: 4 marks]**** **
+
+> *If the rod extends by 6 % that means the **ratio** of it extension to the original length is equal to 6 % or 0.06. You can check this by putting in some numbers:*
+
+> *For example:*
+
+- *If **L** = 5 m, therefore **L** + Δ**L** = 5 × 1.06 = 5.3 (increased by 6 %)*
+- *Strain = *$\frac{\DeltaL}{L}$* = *$\frac{5.3-5}{5}$* = 0.06*
+
+> *This force is the force exerted **on** the rod **by** the walls, but according to Newton's third law, this is equal in size to the force exerted **by** the rod **on** the walls.*

@@ -495,3 +495,712 @@ $R=795Ω$
   - $0.001 R_{V} = 6.0 - ( 1500 \times 0.001 ) = 4.5$
   - $R_{V}=\frac{4.5}{0.001}=4500Ω=4.5kΩ$
 - Therefore, at 0730 the variable resistor should be set to 4.5 kΩ
+
+## Structured Questions (9 questions)
+
+
+### Q1
+Kirchhoff's second law states:
+
+- The sum of the electromotive force(s) is equal to the sum of the potential difference(s) around a (closed) loop **[1 mark]**
+
+**[Total: 1 mark]**
+To derive an expression for the total resistance $R_{T}$ of the combination:
+
+- Use Kirchhoff's second law to write an expression for the total p.d. across the combination
+- The total p.d. across the resistors = the sum of the p.d.s across each resistor
+
+  - $V=V_{1}+V_{2}$ **[1 mark]**
+
+- Use Ohm's law to determine an expression for the resistances
+
+  - Ohm's law: $V=IR$
+
+Since, the current is the same in a series combination of resistors
+
+- $IR_{T}=IR_{1}+IR_{2}$ so $R_{T}=R_{1}+R_{2}$
+
+**OR**
+
+- $\frac{V}{I}=\frac{V_{1}}{I}+\frac{V_{2}}{I}$ so $R_{T}=R_{1}+R_{2}$ **[1 mark]**
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- e.m.f. of the battery, $E$ = 12.0 V
+- p.d. across the fixed resistor, $V_{1}$ = 9.00 V
+- Resistance of the fixed resistor, $R_{1}$ = 2.40 kΩ = 2400 Ω
+- Resistance of the LDR, $R_{2}=R_{L}$
+
+(i) To calculate the current in the circuit:
+
+$I=\frac{V_{1}}{R_{1}}$
+
+$I=\frac{9.00}{2400}$
+
+$I=$ $3.75\times10^{-3}A$ **[1 mark]**
+
+(ii) To calculate the resistance $R_{L}$ of the LDR:
+
+- Recall the potential divider equation:
+
+$V_{1} = ( \frac{R_{1} }{R_{1} + R_{2} } ) E$ **[1 mark]**
+
+- Substitute the known quantities into the equation to calculate $R_{L}$
+
+$\frac{9.0}{12.0}=\frac{2400}{2400+R_{L}}$
+
+$R_{L}=\frac{2400\times12.0}{9.0}-2400$
+
+$R_{L}=$ $800Ω$ **[1 mark]**
+
+**[Total: 3 marks]**
+As the light intensity decreases, the voltmeter reading:
+
+- Decreases **[1 mark]**
+
+Explanation:
+
+- The resistance of the LDR / $R_{L}$ increases **[1 mark]**
+- The current (in the circuit) decreases (so the p.d. across $R_{1}$ decreases) **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q2
+Label the direction of currents on Fig. 1.1:
+
+- Labels on Fig. 1.1 which would score full marks are shown below:
+
+![5-3-s-q--q3a--ma-hard-aqa-a-level-physics](assets/040-5-3-s-q-q3a-ma-hard-aqa-a-level-physics.png)
+
+- Arrows indicating correct directions for currents <u>in both loops</u> shown; **[1 mark]**
+- Three distinct currents labelled at the junction between $R_{1}$ and $R_{2}$ as shown (any subscript is acceptable as long as distinct); **[1 mark]**
+
+Write down the relationship between the currents at the junction between $R_{1}$  and $R_{2}$  :
+
+- Using Kirchhoff’s first law, the sum of currents into a junction must equal the sum of currents out of the junction
+- Therefore, $I_{1}$  + $I_{2}$  = $I_{3}$  (or any equation consistent with correct labelling on Fig. 1.1); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *When you see 'junction', this should be a hint to apply Kirchhoff's first law. No calculation is needed at this stage, the question only asks for an expression and a labelled diagram.*
+List the known quantities:
+
+- $R_{1}$= 0 Ω
+- $R_{2}$= 10 Ω
+- $R_{3}$= 30 Ω
+
+Apply Kirchhoff's second law to the top loop:
+
+- Kirchhoff's second law states that, in a closed loop, the total e.m.f. is equal to the sum of potential differences
+
+  - In the top loop, e.m.f. is 5 V so $ε=5=V_{1}+V_{3}$
+- $V_{1}$ must be 0 V, as resistor 1 has no resistance so there is no change in potential across it
+
+  - Therefore $V_{3}=5V$ **[1 mark]**
+
+Apply Kirchhoff's second law to the bottom loop:
+
+- In the bottom loop, e.m.f. is 6 V so $ε=6=V_{2}+V_{3}$
+
+  - $V_{3}$ is 5 V so $6=V_{2}+5$
+  - $V_{2}=1V$ **[1 mark]**
+
+Calculate the current through resistor $R_{2}$:
+
+- Using Ohm’s law across $R_{2}$  : $V_{2}$ = $I_{2}R_{2}$
+- Therefore, 1 = $I_{2}$ × 10
+- $I_{2}$= $\frac{1}{10}$  = 0.10 A **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Equally, you could have applied the second law to the bottom loop then the top loop, or a loop around the whole circuit. All should produce the same potential differences across each resistor. *
+State what happens to the potential difference across $R_{2}$ :
+
+- The potential difference across $R_{2}$  <u>increases</u> (as the potential difference across $R_{1}$  increases); **[1 mark]**
+
+To explain, describe how the potential difference across $R_{1}$  changes:
+
+- As the resistance of  $R_{1}$ increases, the potential difference ($V_{1}$) across it increases; **[1 mark]**
+
+Describe how the potential difference across $R_{1}$  affects the potential difference across $R_{3}$ :
+
+- (Because of Kirchhoff’s second law) the potential difference across $R_{3}$= 5 V – potential difference across $R_{1}$ **AND**
+- Therefore, as the potential difference across $R_{1}$ increases, the potential difference across $R_{3}$ <u>decreases</u>; **[1 mark]**
+
+Describe how the potential difference across $R_{3}$ affects the potential difference across $R_{2}$ :
+
+- (Because of Kirchhoff’s second law) the potential difference across $R_{2}$ = 6 V – potential difference across $R_{3}$ **AND**
+- Therefore as the potential difference across $R_{3}$ decreases, the potential difference across $R_{2}$ increases<u>;</u>** [1 mark]**
+
+**[Total: 4 marks]**
+
+> *This is a potential divider question in an unfamiliar context when you just consider the top loop. As **R*<sub>*1*</sub>* ** increases in resistance, the potential difference across it increases. There is only a total e.m.f. of 5 V in this top loop, so less is available to be 'spent' on **R*<sub>*3*</sub>*. *
+
+> *Then, this becomes a potential divider question for the lower loop. If **R*<sub>*3*</sub>*  has a greater potential difference, there is less available for **R*<sub>*2*</sub>*  following the conservation of energy.*
+
+> *The thought process for this question is simple, however this mark scheme is large because you needs to **explain** every step:*
+
+- *If p.d. across **R*<sub>*1*</sub>* increases then p.d. across **R*<sub>*3*</sub>* decreases*
+- *This is because the potential difference in the loop remains constant from **V = IR *
+- *So, p.d. across **R*<sub>*2*</sub>* will also increase by the same logic*
+List the known quantities:
+
+- $R_{1}$= 10 Ω
+- $R_{2}$= 10 Ω
+- $R_{3}$= 30 Ω
+- EMF<sub>1</sub>, $ε_{1}$ = 5 V
+- EMF<sub>2</sub>, $ε_{2}$ = 6 V
+
+Apply Kirchhoff’s second law to the loop containing EMF<sub>1</sub>:
+
+- Kirchhoff’s second law says the total EMF in a closed circuit (loop) equals the sum of potential differences across each component
+- Therefore, *ϵ*<sub>1</sub> = *V*<sub>1</sub> + *V*<sub>3 </sub>(where *V*<sub>1</sub> and *V*<sub>3</sub> are the voltages across *R*<sub>1</sub> and *R*<sub>3</sub> respectively)
+- Using Ohm’s Law, *ϵ*<sub>1</sub> = *I*<sub>1</sub>*R*<sub>1</sub> + *I*<sub>3</sub>*R*<sub>3</sub>
+- Therefore 5 = 10*I*<sub>1</sub> + 30*I*<sub>3</sub> (equation 1) **[1 mark]**
+
+Apply Kirchhoff’s second law to the loop containing EMF<sub>2</sub>:
+
+- *ϵ*<sub>2</sub> = *V*<sub>2</sub> + *V*<sub>3 </sub>(where *V*<sub>2</sub> and *V*<sub>3</sub> are the voltages across *R*<sub>2</sub> and *R*<sub>3</sub> respectively)
+- Again, using Ohm’s Law, *ϵ*<sub>2</sub> = *I*<sub>2</sub>*R*<sub>2</sub> + *I*<sub>3</sub>*R*<sub>3</sub>
+- Therefore 6 = 10*I*<sub>2</sub> + 30*I*<sub>3</sub> (equation 2) **[1 mark]**
+
+Substitute the expression from part (a) into equation 1 and equation 2:
+
+- Since there are three unknowns, there needs to be three independent equations to solve simultaneously
+- Therefore, from part (a), *I*<sub>1</sub> + *I*<sub>2</sub> = *I*<sub>3</sub> can be substituted for *I*<sub>3</sub> in equation 2 and equation 1
+- Equation 2 becomes: 6 = 10*I*<sub>2</sub> + 30(*I*<sub>1 </sub>+ *I*<sub>2</sub>) = 10*I*<sub>2 </sub>+ 30*I*<sub>1</sub> + 30*I*<sub>2</sub>
+- Simplifying, 6 = 40*I*<sub>2 </sub>+ 30*I*<sub>1</sub> (equation 3) **AND**
+- Equation 1 becomes: 5 = 10*I*<sub>1</sub> + 30(*I*<sub>1 </sub>+ *I*<sub>2</sub>) = 10*I*<sub>1 </sub>+ 30*I*<sub>1</sub> + 30*I*<sub>2</sub>
+
+- Simplifying, 5 = 30*I*<sub>2 </sub>+ 40*I*<sub>1</sub> (equation 4) **[1 mark]**
+
+Solve equation 3 and equation 4 simultaneously:
+
+- (Equation 3) × 3 gives: 18 = 120*I*<sub>2 </sub>+ 90*I*<sub>1</sub> (equation 5)
+- (Equation 4) × 4 gives: 20 = 120*I*<sub>2 </sub>+ 160*I*<sub>1</sub> (equation 6)
+- (Equation 6) – (Equation 5) gives: (20 –18) = (120*I*<sub>2</sub> – 120*I*<sub>2</sub>) + (160*I*<sub>1</sub> – 90*I*<sub>1</sub>)
+- Therefore 2 = 70*I*<sub>1</sub>
+- *I*<sub>1</sub>= $\frac{2}{70}$ = 0.029 A (2 s.f.) **[1 mark]**
+
+Substitute the value for *I*<sub>1</sub> into any equation to calculate *I*<sub>2</sub>:
+
+- Any equation can be used to calculate *I*<sub>2</sub> using the value for *I*<sub>1</sub>
+- Substituting *I*<sub>1</sub> = 0.029 into equation 4 gives: 5 = 30*I*<sub>2</sub> + 40(0.029)
+- 5 = 30*I*<sub>2</sub> + 1.16
+- *I*<sub>2</sub> = $\frac{5-1.16}{30}$ = 0.13 A (2 s.f.) **[1 mark]**
+
+Calculate *I*<sub>3</sub> using values for *I*<sub>1</sub> and *I*<sub>2</sub>:
+
+- Using the equation from part (a): *I*<sub>1</sub> + *I*<sub>2</sub> = *I*<sub>3</sub>
+- Therefore, $I_{3}$ = 0.13 + 0.029 = 0.16 A (2 s.f.) **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *This question is certainly very challenging; while circuits on the A Level paper are unlikely to require this level of analysis, there is nothing here outside the scope of your physics syllabus – notice, it only requires a very careful application of Kirchhoff’s laws and Ohm’s law. The image below shows how to apply Kirchhoff’s second law to closed loops in a circuit:*
+
+![5-3-s-q--q3d-ma-fig-1-hard-aqa-a-level-physics](assets/041-5-3-s-q-q3d-ma-fig-1-hard-aqa-a-level-physics.png)
+
+> *Notice that the loops ‘go in the direction’ of conventional current in the loop, and also that EMFs (power supplies) are distinct to the potential differences across components (sometimes called voltage drops, because energy from the current is transferred away from it to the component itself).*
+
+> *Another key takeaway from this question, which is a very useful problem-solving tool to bear in mind generally, is that there are three unknowns – i.e., the currents **I*<sub>*1*</sub>*, **I*<sub>*2*</sub>* and **I*<sub>*3*</sub>*. The number of unknown variables in any system tells you how many ‘independent’ (unique) equations you need to set up, in which every unknown appears at least once. So, in this question, we needed to set up **three** independent equations; after we did this, it was just a case of some mathematical juggling to solve for each unknown. The image below recaps the three unknowns and the three independent equations we set up:*
+
+![5-3-s-q--q3d-ma-fig-2-hard-aqa-a-level-physics](assets/042-5-3-s-q-q3d-ma-fig-2-hard-aqa-a-level-physics.png)
+
+> *There are of course multiple equivalent ways to solve simultaneous equations (depending on which variable you choose to eliminate first, and which equation to substitute into, etc.) but you should in principle be comfortable with solving simultaneous equations (two for two unknowns and three for three unknowns!). Have a look at the Save My Exam GCSE and / or A-level maths notes to refresh your knowledge on these if you are stuck!*
+
+### Q3
+The circuit symbols for:
+
+(i) the potentiometer is:
+
+![img-9f36eeb32f23-1](assets/043-img-9f36eeb32f23-1.jpeg)
+
+- Correct circuit symbol as shown above; **[1 mark]**
+
+(ii) the galvanometer is:
+
+![img-9768b27c2d0d-1](assets/044-img-9768b27c2d0d-1.jpeg)
+
+- Correct circuit symbol as shown above; **[1 mark]**
+
+**[Total: 2 marks]**
+The voltage output at:
+
+(i) A is:
+
+- 0 V **[1 mark]**
+
+(ii) B is:
+
+- 14 V **[1 mark]**
+
+(iii) C is:
+
+- 28 V **[1 mark]**
+
+**[Total: 3 marks]**
+A graph of the voltmeter reading *V* and length *l* of the jockey as it is moved from A to C is
+
+![img-6616f0d22513-1](assets/048-img-6616f0d22513-1.jpeg)
+
+- Straight line with a positive gradient;** [1 mark]**
+- Through the origin;** [1 mark]**
+
+**[Total: 2 marks]**
+(i) The student will not be able to find a point where the current in zero because:
+
+- The test cell is the wrong way around / the test cell needs to be reversed;** [1 mark]** **  **
+
+(ii) The e.m.f of the test cell is:
+
+List the known quantities:
+
+- Length AB at first balance point, *l*<sub>1</sub> = 25.6 cm
+- E.m.f of standard cell, *E*<sub>2</sub> = 1.545 V
+- Length AB at second balance point, *l*<sub>2</sub> = 37.2 cm
+
+Determine the equation linking the length and e.m.fs:
+
+- $\frac{l_{1}}{l_{2}}=\frac{E.m.foftestcell}{E_{2}}$ **[1 mark]**
+- $E.m.foftestcell=E_{2}\times\frac{l_{1}}{l_{2}}$
+
+Substitute in the values:
+
+- $E.m.foftestcell=1.545\times\frac{25.6}{37.2}$ **[1 mark]**
+- $E.m.foftestcell=1.06V$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q4
+Show that the e.m.f of the battery is 30 V
+
+List the known quantities:
+
+- Potential difference across R<sub>2</sub>, *V*<sub>out</sub> = 18 V
+- Resistance of R<sub>1, </sub>*R*<sub>1</sub> = 8.0 kΩ
+- Resistance of R<sub>2</sub>, *R*<sub>2</sub> = 12.0 kΩ
+
+State the potential divider equation:
+
+- `V_{o u t} = V_{i n} \times \left(\frac{R_{2}}{R_{1} + R_{2}}\right)` **[1 mark]**
+
+Rearrange for the e.m.f of the battery, *V*<sub>in</sub> and substitute in the values:
+
+- `V_{i n} = \frac{ V_{o u t}}{\left(\frac{R_{2}}{R_{1} + R_{2}}\right)} = \frac{18 . 0 }{\left(\frac{12 . 0}{8 . 0 + 12 . 0}\right)}` = 30 V **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *You do not need to convert from kΩ into Ω, since the fraction *$\frac{R_{2}}{R_{1}+R_{2}}$* will have no units (they cancel out) as long as they're all in kΩ.*
+Calculate the resistance of the LDR.
+
+List the known quantities:
+
+- Resistance of R<sub>1</sub>, *R*<sub>1</sub> = 8.0 kΩ
+- Resistance of R<sub>2</sub>, *R*<sub>2</sub> = 12.0 kΩ
+- Current in the battery, *I* = 1.94 mA = 1.94 × 10<sup>–3</sup> A
+- E.m.f of the battery, *V* = 30 V (from part a)
+
+Calculate the total resistance in the circuit, R<sub>T</sub>:
+
+- $R_{T}=\frac{V}{I}=\frac{30}{1.94\times10^{-3}}=15.46\mathrm{kΩ}$ **[1 mark]**
+
+Calculate the resistance of the LDR, *R*<sub>LDR</sub>:
+
+- $15.46=R_{\mathrm{parallel}}+8.0\RightarrowR_{parallel}=15.46-8.0=7.46\mathrm{kΩ}$
+- $\frac{1}{R_{parallel}}=\frac{1}{R_{2}}+\frac{1}{R_{LDR}}\Rightarrow\frac{1}{7.46}=\frac{1}{12.0}+\frac{1}{R_{LDR}}$
+- $R_{\mathrm{LDR}}=\frac{1}{\frac{1}{7.46}-\frac{1}{12.0}}$ **[1 mark]**
+- $R_{\mathrm{LDR}}=19.7=20\mathrm{kΩ}$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *You should be confident in combining resistors in parallel and in series. It is better to set out the values algebraically before substituting in values.*
+State and explain the effect, if any, of the increase in light intensity on the power produced by the battery
+
+- The LDR resistance decreases; **[1 mark]**
+- (So the total resistance decreases) so the current increases (in the battery); **[1 mark]**
+- Therefore, (since *P* = *IV* and *V* is constant) so the power increases; **[1 mark]**
+
+**[Total: 3 marks]**
+If the light intensity on the LDR decreases:
+
+- The resistance of the LDR increases; **[1 mark]**
+- The combined resistance of the 12.0 kΩ / R<sub>2</sub> and the LDR increases; **[1 mark]**
+- Therefore, the potential difference across R<sub>1</sub> decreases / R<sub>1 </sub>receives a smaller share of the potential difference; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The key to understanding potential divider questions is - if the resistance increases then so does the share of the potential difference (of the power supply) to that component. *
+
+### Q5
+Show that the resistance of R<sub>2</sub> is 16 Ω
+
+List the known quantities:
+
+- Resistance, *R*<sub>1</sub> = 6.5 Ω
+- Voltage across R<sub>1</sub>, *V*<sub>out</sub> = 7.0 V
+- E.m.f of the power supply, *V*<sub>in</sub> = 24.0 V
+
+State the correct potential divider equation:
+
+- $V_{o u t} = V_{i n } \times ( \frac{R_{1} }{R_{1} + R_{2} } )$
+
+Rearrange the potential divider equation for R<sub>2</sub>:
+
+- $R_{2 = ( \frac{R_{1} \times V_{i} n} }{V_{o u t} } ) - R_{1}$
+
+Substitute the values into the R<sub>2 </sub>equation:
+
+- $R_{2} = ( \frac{6.5 \times 24.0}{7.0} ) - 6.5$ **[1 mark]**
+- $R_{2}=15.786=16Ω$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *You must be confident with rearranging the potential divider equation. If you are struggling with this one, have a look at the sketch below:*
+
+![img-b4af4204e3b1-1](assets/052-img-b4af4204e3b1-1.jpeg)
+The current in lamp B is:
+
+List the known quantities:
+
+- Current in the battery, *I* = 4.12 A
+- E.m.f of the battery = 24.0 V
+
+Determine the potential difference through lamp B:
+
+- Since the slider is exactly in the middle, both lamps have a potential difference of $\frac{24.0}{2}=12V$
+
+Determine the current through lamp B at 12 V from the graph:
+
+![img-275040611c63-1](assets/055-img-275040611c63-1.jpeg)
+
+- 3.10 A **[1 mark]**
+
+**[Total: 1 mark]**
+Calculate the total resistance in the circuit
+
+List the known quantities:
+
+- Current through lamp B, *I*<sub>B</sub> = 3.10 A
+- Current in the battery, *I* = 4.12 A
+- E.m.f of the battery, *V* = 24.0 V
+
+Calculate the resistance of the potentiometer between its ends X and Y, *R*<sub>XY</sub>*:*
+
+- Current through XY, *I*<sub>XY</sub> = *I – I*<sub>B</sub> = 4.12 – 3.10 = 1.02 A
+- $R_{\mathrm{XY}}=\frac{V}{I_{\mathrm{XY}}}=\frac{24.0}{1.02}=23.529Ω$ **[1 mark]**
+
+Calculate the resistance of each lamp, *R*<sub>L</sub>:
+
+- $R_{L}=\frac{V}{I}=\frac{12}{3.10}=3.87Ω$ **[1 mark]**
+
+Calculate the combined resistance, *R*<sub>T</sub>:
+
+- `R _ s e r i e s end _ = R _ L ( l a m p A ) + R _ L ( l a m p B ) = 3.87 + 3.87 = 7.74 capital omega`
+- $\frac{1}{R_{T}}=\frac{1}{R_{series}}+\frac{1}{R_{XY}}=\frac{1}{7.74}+\frac{1}{23.529}$
+- $\frac{1}{R_{T}}=0.1712$
+- $R_{T}=5.824=5.82Ω$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Read carefully which current the question is referring to. Since the potentiometer is connected in **parallel** with the lamps, the current from the **battery** will **split** between them (Kirchhoff's first law). Lamp A and B will have the same current through them.*
+State and explain the effect on the current of lamps A and B when the slider of the potentiometer is moved to end X
+
+For lamp A:
+
+- The p.d. across lamp A decreases to zero **AND** so the current is 0 **[1 mark]**
+
+For lamp B:
+
+- p.d. across lamp B increases to 24.0 V **AND **so the current is 4.0 A **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It is important you understand how the sliding contact works for a potentiometer. When it is at point X, **all** the p.d. from the power supply is available only to lamp B, so there is 0 for lamp A. *
+
+> *Where you **can** give values for a 'state and explain' question, make sure you do! In this case, just saying 'the p.d. across lamp B increases and so a current flows' will **not** be enough detail to obtain the marks, as you can state specific values.*
+
+> *The 4.0 A is read from the I-V graph when lamp B has a voltage of 24 V.*
+
+### Q6
+(i) Calculate the minimum possible current:
+
+- $V=IR\RightarrowI=\frac{V}{R}$
+- $I\propto\frac{1}{R}$ so minimum current occurs with maximum resistance
+- In series:  *R*<sub>max</sub> = 8 + 12 = 20 Ω **[1 mark]**
+
+Calculate the minimum current:
+
+- $I_{min}=\frac{16}{20}$
+- $I_{min}=0.8A$ **[1 mark]**
+
+(ii) Calculate the maximum possible current:
+
+- Maximum current occurs with minimum resistance, *R*<sub>min</sub> = 8 Ω
+- $I_{max}=\frac{16}{8}$ **[1 mark]**
+- $I_{max}=2.0A$ **[1 mark]**
+
+**[Total: 4 marks]**
+The variation with *R* of current *I *in the circuit should look like:
+
+List the known quantities:
+
+- Maximum current = 2.0 A (from part a)
+- Minimum current = 0.8 A (from part a)
+
+![Graph of current I (amps) versus resistance R (ohms), showing a smooth downward curve from 2 A at 0 Ω to about 1 A at 10 Ω, on a square grid.](assets/058-graph-of-current-i-amps-versus-resistance-r-ohms.png)
+
+- Starting point at (0, 2.0) and end point at (12, 0.8); **[1 mark]**
+- Curve with decreasing gradient; **[1 mark]**
+
+**[Total: 2 marks]**
+Galvanometers are used in null methods by:
+
+- The galvanometer has no deflection;** [1 mark]**
+- When there is no current flow / no potential difference; **[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q7
+Use Fig 1.2 to state and explain the variation of the p.d. across resistor P as *R* is **decreased**
+
+**EITHER**
+
+- (As *R* decreases,) the current *I *increases; **[1 mark]**
+- So the p.d. (across P) increases; **[1 mark]**
+
+**OR**
+
+- The parallel resistance of (of Q and *R*) decreases; **[1 mark]**
+- The p.d. across the parallel resistors decreases, so p.d. across P increases; **[1 mark]**
+
+**[Total: 2 marks]**
+For *R* = 7.0 Ω, calculate the p.d. between points Y and Z
+
+List the known quantities:
+
+- Resistance of variable resistor, *R* = 7.0 Ω
+- Resistance of resistor P, *R*<sub>P</sub> = 7.5 Ω
+- E.m.f of the power supply, *V* = 32 V
+
+Use the graph to determine the current *I* when *R* = 7.0 Ω:
+
+![img-7305c24fc61f-1](assets/061-img-7305c24fc61f-1.jpeg)
+
+- *I* = 2.3 A **[1 mark]**
+
+**Method 1: Calculating p.d from current *****I***
+
+Calculate the p.d. across YZ:
+
+- P.d across YZ = p.d across XZ – p.d. across XY
+- P.d across YZ = 32 – (2.3 × 7.5) = 14.75 = 15 V **[1 mark]**
+
+**Method 2: Calculate p.d. from resistance**
+
+Determine the total resistance in the circuit, *R*<sub>T</sub>:
+
+- $R_{T}=\frac{V}{I}=\frac{32}{2.3}=13.91Ω$
+
+Calculate the p.d. across YZ:
+
+- Resistance in Q-R parallel combination, *R*<sub>QR</sub> = 13.91 – 7.5 = 6.41 Ω
+- P.d across YZ = *I *×* R*<sub>QR</sub>* = *2.3 × 6.41 = 14.74 = 15 V **[1 mark]**
+
+**[Total: 2 marks]**
+Show that the resistance of Q is 95 Ω
+
+List the known quantities:
+
+- Resistance of variable resistor, *R* = 7.0 Ω
+- P.d. across YZ = 15 V (from part b)
+- Current, *I* = 2.3 A (from part b)
+
+Calculate the total resistance of Q and R parallel combination, *R*<sub>T</sub> :
+
+- $R_{T}=\frac{V}{I}=\frac{15}{2.3}=6.52Ω$ **[1 mark]**
+
+Calculate the resistance of resistor Q, *R*<sub>Q</sub> :
+
+- $\frac{1}{R_{T}} = \frac{1}{R_{Q}} + \frac{1}{R}$ **[1 mark]**
+- $R_{Q}=\frac{1}{\frac{1}{R_{T}}-\frac{1}{R}}=\frac{1}{\frac{1}{6.52}-\frac{1}{7.0}}=95Ω$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *This question can also be done by calculating the current through Q, and then using *$R = \frac{V}{I}$* to calculate the resistance through resistor Q.*
+State and explain qualitatively how the power provided by the battery changes as the resistance *R* is decreased
+
+- The power increases **AND **
+- Because the e.m.f is constant / power = *V *×* *current and the current (*I*) increases **OR **power = $\frac{V^{2}}{resistance}$ and the resistance decreases;** [1 mark]**
+
+**[Total: 1 mark]**
+
+### Q8
+As the temperature increases:
+
+- The resistance of the thermistor decreases; **[1 mark]**
+- So *V*<sub>out</sub> increases;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *Potential dividers are all about the **sharing** of the potential from the battery (hence the name). When the resistance of the thermistor decreases, this means the voltage through it also decreases (from **V** = **IR** where **I** is the same for both resistors). *
+
+> *However, the battery has a set voltage. Therefore, the voltage of the fixed resistor must **increase** so the combined voltage of the thermistor and fixed resistor remains the same. **V*<sub>*out*</sub>* is the reading of the voltage from the fixed resistor.*
+The resistance of the LDR when the light intensity is 120 lux is:
+
+![img-2b154e0fd346-1](assets/065-img-2b154e0fd346-1.jpeg)
+
+- 8 kΩ **[1 mark]**
+
+**[Total: 1 mark]**
+*V*<sub>out</sub> when the light intensity is 120 lux is:
+
+List the known quantities:
+
+- Resistance of the LDR, *R*<sub>1</sub> = 8.0 kΩ (from part b)
+- Resistance of the fixed resistor, *R*<sub>2</sub><sub>* *</sub>= 6.0 kΩ
+- Voltage of the power supply, *V*<sub>in</sub> = 32 V
+
+Determine the equation for *V*<sub>out</sub>:
+
+- $V_{out}=\frac{R_{1}}{R_{1}+R_{2}}\timesV_{in}$ **[1 mark]**
+
+Substitute in the values:
+
+- $V_{out}=\frac{8.0}{8.0+6.0}\times32$ **[1 mark]**
+- $V_{out}=18.2857=18V$ **[1 mark]**
+
+**[Total: 3 marks]**
+The voltage across the 6.0 kΩ resistor is:
+
+List the known quantities:
+
+- Voltage across the LDR, *V*<sub>out</sub> = 18 V
+- Voltage of the power supply, *V*<sub>in</sub> = 32 V
+
+Calculate the voltage across the 6.0 kΩ resistor:
+
+- $V_{6.0\mathrm{kΩ}}=V_{in}-V_{out}=32-18$* ***[1 mark]**
+- $V_{6.0\mathrm{kΩ}}=14V$** ****[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q9
+- A graph which would score 2 marks should look like:
+
+![5-3-s-q--q4a-ma-hard-aqa-a-level-physics](assets/068-5-3-s-q-q4a-ma-hard-aqa-a-level-physics.png)
+
+- Straight line with a positive gradient; **[1 mark]**
+- At P, *V* = 0 V **AND** at Q, *V* = 6 V **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This circuit is a potential divider, because there are two resistors in series sharing the same EMF. As the slider moves, the potential is ‘divided’ between them. *
+
+> *By inspection, the resistances are in the ratio 1:2, so the potential is also split in the ratio 1:2 (with the bigger share of voltage across the larger resistance). Hence, the 9 V EMF is divided as 3 V and 6 V. This can be seen more explicitly using the potential divider equation, shown below:*
+
+![5-3-s-q--q4a-ma-fig-1-hard-aqa-a-level-physics](assets/069-5-3-s-q-q4a-ma-fig-1-hard-aqa-a-level-physics.png)
+
+> *Note that if the sliding contact C in Fig. 1.1 is at position P, then there is no potential difference across the variable pd (the voltage supplied is 0 V). The output pd (in parallel with the resistor) increases as more of the resistor is included between one end (position P) and the sliding C. This is illustrated below:*
+
+![5-3-s-q--q4a-fig-2-hard-aqa-a-level-physics](assets/070-5-3-s-q-q4a-fig-2-hard-aqa-a-level-physics.png)
+
+![5-3-s-q--q4a-ma-fig-3-hard-aqa-a-level-physics](assets/071-5-3-s-q-q4a-ma-fig-3-hard-aqa-a-level-physics.png)
+
+> *Therefore, the potentiometer can provide a variable potential difference output between 0 V and 6 V.*
+List the known quantities:
+
+- $V_{IN}$ = 12 V
+- Resistor $R_{1}$ = 4 Ω
+- Resistor $R_{2}$ = 2 Ω
+- Resistor $R_{3}$ = 3 Ω
+- Resistor $R_{4}$ = 1 Ω
+
+**Method 1 (clockwise current)**
+
+Determine the potential difference across $R_{1}$ :
+
+- The potential divider equation for resistor $R_{1}$ (which is in a series loop with resistor $R_{2}$ ) is  $V_{OUT}$ =$\frac{R_{1}}{R_{1}+R_{2}}V_{IN}$
+- Therefore  p.d. across *R*<sub>*1*</sub>*  *is $V_{1}$ = $\frac{4}{4+2}$ × 12 = $\frac{4}{6}$ × 12 = 8 V **[1 mark]**
+
+Determine the potential difference across $R_{3}$ :
+
+- The potential divider equation for resistor $R_{3}$ (which is in a series loop with resistor $R_{4}$) is  $V_{OUT}$ = $\frac{R_{3}}{R_{3}+R_{4}}V_{IN}$
+- Therefore p.d. across *R*<sub>*3*</sub>  is $V_{3}$ = $\frac{3}{3+1}$ × 12 = $\frac{3}{4}$ × 12 = 9 V **[1 mark]**
+
+Determine the potential at X and Y:
+
+- Charge transfers 8 V across resistors $R_{1}$
+- The potential at X is therefore 12 V – 8 V = 4 V **AND**
+- Similarly, charge transfers 9 V of potential across resistor $R_{3}$
+- The potential at Y is therefore 12 V – 9 V = 3 V **[1 mark]**
+
+Show the potential difference between X and Y is 1 V:
+
+- The potential difference between X and Y is therefore *V*<sub>*OUT *</sub> = 4 V – 3 V = 1 V **[1 mark]**** **
+
+**Method 2 (anticlockwise current)**
+
+Determine the potential difference across $R_{2}$ :
+
+- The potential divider equation for resistor $R_{2}$ (which is in a series loop with resistor $R_{1}$ ) is  $V_{OUT}$ =$\frac{R_{2}}{R_{2}+R_{1}}V_{IN}$
+- Therefore p.d. across *R*<sub>*2*</sub> is $V_{2}$ = $\frac{2}{2+4}$ × 12 = $\frac{2}{6}$ × 12 = 4 V **[1 mark]**
+
+Determine the potential difference across $R_{4}$ :
+
+- The potential divider equation for resistor $R_{4}$ (which is in a series loop with resistor $R_{3}$ ) is  $V_{OUT}$ =$\frac{R_{4}}{R_{4}+R_{3}}V_{IN}$
+- Therefore p.d. across *R*<sub>*4*</sub>  is $V_{4}$ = $\frac{1}{1+3}$ × 12 = $\frac{1}{4}$ × 12 = 3 V **[1 mark]**
+
+Determine the potential at X and Y:
+
+- Charge transfers 4 V across resistor $R_{2}$
+- The potential at X is therefore 12 V – 4 V = 8 V **AND**
+- Charge transfers 3 V across resistor $R_{4}$
+- The potential at X is therefore 12 V – 3 V = 9 V **[1 mark]**
+
+Show the potential difference between X and Y is 1 V:
+
+- The potential difference between X and Y is therefore *V*<sub>*OUT*</sub>  = 9 V – 8 V = 1 V **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Method 1** assumes that the current flows in a clockwise direction through the circuit: in other words, that the terminals of the power supply are oriented as shown in the sketch below. You should work your way through the four steps, to convince yourself that the potential at point X is 4V **if the current flows clockwise** through the circuit.*
+
+![5-3-s-q--q4b--ma-hard-aqa-a-level-physics](assets/073-5-3-s-q-q4b-ma-hard-aqa-a-level-physics.png)
+
+> *Following this reasoning, you should be able to check and see that the potential at Y is 12 V – 9 V = 3 V, so the potential **difference **between X and Y is 1 V. *
+
+> *Method 2** assumes the current flows in an anti-clockwise direction through the circuit; in that case, simply reverse the direction of the current in the illustration above and you should see that the potential at X is 12 V – 4 V = 8 V. Similarly, the potential at Y is 12 V – 3 V = 9 V, giving a potential difference between X and Y as 1 V again. *
+
+> *Clearly, either assumption is valid and will give the correct **potential difference **between **X** and **Y**. This question introduces you to a fact you will explore more in A Level physics: ‘potential’ as a quantity is relative (i.e., it depends on how you define directions), but potential **difference** is always absolute – so long as your working is consistent!*
+List the known quantities:
+
+- Resistance of the thermistor (at room temperature), *R* = 5 kΩ = 5000 Ω
+- Resistance between AC = 20 kΩ = 20 000 Ω
+- Resistance between CE = 20 kΩ = 20 000 Ω
+- Resistance between BD = 10 kΩ = 10 000 Ω
+- EMF of the battery = 12 V
+
+Determine the series resistances:
+
+- Resistors in series $R_{T} = R_{1} + R_{2} + R_{3} + \times \times \times$
+- There are two resistors in series between** **A and E, so $R_{T}=R_{1}+R_{2}$
+- Therefore, the total resistance between** **A and E = resistance between AC + resistance between CE = 20 000 + 20 000 = 40 000 Ω **AND**
+- There are two resistors in series between B and F, so $R_{T}=R_{1}+R_{2}$
+- Therefore, the total resistance between B and F = resistance between BD + resistance of the thermistor (at room temperature) = 10 000 + 5000 = 15 000 Ω **[1 mark]**
+
+Determine the total resistance of the circuit:
+
+- Resistors in parallel `1 over R subscript T equals 1 over R subscript 1 plus 1 over R subscript 2 plus 1 over R subscript 3 plus times times times`
+- The resistance between** **A and E is in parallel to the resistance between B and F
+- Therefore $\frac{1}{R_{T}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}=\frac{1}{40000}+\frac{1}{15000}=\frac{11}{120000}$
+- Therefore *R*<sub>T</sub> = $\frac{120000}{11}$ = 10 909 Ω **[1 mark]**
+
+Determine the current through the battery:
+
+- Using Ohm’s law across the battery, *V* = *IR*
+- *V* is the EMF *ϵ *of the cell
+- Therefore 12 = *I* × 10 909
+- *I* = $\frac{12}{10909}$ = 1.1 × 10<sup>–3</sup> A **[1 mark]**
+
+**[Total: 3 marks]**

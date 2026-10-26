@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:24:19Z",
+ "generated_utc": "2026-10-26T14:40:22Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -389,6 +389,20 @@
        "latex": "ω=\\frac{2π}{T}=\\frac{2π}{0.50}=4π\\mathrm{rad}s^{-1}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#969;</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow><mi>T</mi></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>2</mn><mi mathvariant=\"normal\">&#960;</mi></mrow><mrow><mn>0</mn><mo>.</mo><mn>50</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><mo>&#160;</mo><mi>rad</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "omega space equals space fraction numerator 2 straight pi over denominator T end fraction space equals space fraction numerator 2 straight pi over denominator 0.50 end fraction space equals space 4 straight pi space rad space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I space equals space I subscript 0 sin open parentheses omega t close parentheses",
+       "render": "$I = I_{0} \\sin ( \\\\omega t )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "I space equals space 3.4 sin open parentheses 4 straight pi t close parentheses",
+       "render": "$I = 3.4 \\sin ( 4 \\mathrm{\\pi } t )$",
+       "via": "alt-transpile"
       }
      ]
     },
@@ -461,6 +475,20 @@
      "problem_md": "A generator produces an alternating voltage which can be described by the equation\n\n$V = 150 \\sin ( 200 \\mathrm{\\pi } t )$\n\nwhere *V* is measured in volts and *t* is in seconds.\n\nFor this alternating voltage, determine\n\n(i) the peak voltage,\n\n[1]\n\n(ii) the r.m.s. voltage,\n\n[1]\n\n(iii) the frequency.\n\n[1]",
      "solution_md": "List the known quantities:\n\n- Alternating voltage: $V = 150 \\sin ( 200 \\mathrm{\\pi } t )$\n\n(i) Determine the peak voltage:\n\n- Alternating voltage:  $V=V_{0}\\mathrm{sin}ωt$\n- Hence, peak voltage, $V_{0}$ = 150 V** [1 mark]**\n\n(ii) Determine the r.m.s. voltage:\n\n- r.m.s. voltage:  $V_{rms}=\\frac{V_{0}}{\\sqrt{2}}$\n- r.m.s. voltage:  $V_{rms}=\\frac{150}{\\sqrt{2}}$ = 106 V** [1 mark]**\n\n(iii) Determine the frequency:\n\n- From $V=V_{0}\\mathrm{sin}ωt$:  $ω=200π$\n- Frequency:  $ω=2πf\\Rightarrowf=\\frac{ω}{2π}$\n- Frequency:  $f=\\frac{200π}{2π}$ = 100 Hz** [1 mark]**\n\n**[Total: 3 marks]**",
      "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V space equals space 150 space sin space open parentheses 200 straight pi t close parentheses",
+       "render": "$V = 150 \\sin ( 200 \\mathrm{\\pi } t )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V space equals space 150 space sin space open parentheses 200 straight pi t close parentheses",
+       "render": "$V = 150 \\sin ( 200 \\mathrm{\\pi } t )$",
+       "via": "alt-transpile"
+      },
       {
        "latex": "V=V_{0}\\mathrm{sin}ωt",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>V</mi><mn>0</mn></msub><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#969;</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
@@ -554,6 +582,34 @@
        "alt": "I subscript r m s end subscript space equals space fraction numerator 1.5 over denominator square root of 2 end fraction"
       },
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "open angle brackets P close angle brackets space equals space V subscript r m s end subscript I subscript r m s end subscript",
+       "render": "`< P > = V _ r m s end _ I _ r m s end _`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open angle brackets P close angle brackets space equals space 106 cross times 1.06",
+       "render": "`< P > = 106 x 1.06`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "open angle brackets P close angle brackets space equals space 112 space straight W",
+       "render": "`< P > = 112 W`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P subscript 0 space equals space 2 cross times open angle brackets P close angle brackets",
+       "render": "`P _ 0 = 2 x < P >`",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "P_{0}=2\\times112",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mn>0</mn></msub><mo> </mo><mo>=</mo><mo> </mo><mn>2</mn><mo>×</mo><mn>112</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "P subscript 0 space equals space 2 cross times 112"
@@ -627,6 +683,20 @@
        "latex": "V=V_{0}\\mathrm{sin}ωt",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><msub><mi>V</mi><mn>0</mn></msub><mo>&#160;</mo><mi>sin</mi><mo>&#160;</mo><mi>&#969;</mi><mi>t</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "V space equals space V subscript 0 space sin space omega t"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V space equals space 1.75 space sin space open parentheses fraction numerator 8 straight pi over denominator 5 end fraction t close parentheses",
+       "render": "$V = 1.75 \\sin ( \\frac{8 \\mathrm{\\pi } }{5} t )$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "V space equals space 1.75 space sin space open parentheses 5.03 t close parentheses",
+       "render": "$V = 1.75 \\sin ( 5.03 t )$",
+       "via": "alt-transpile"
       }
      ]
     },
@@ -742,6 +812,13 @@
      "problem_md": "A sinusoidal alternating voltage has a root-mean-square voltage of 5.1 V and a frequency of 40 Hz.\n\nThe alternating voltage is applied across a resistor of resistance 1430 Ω.\n\nCalculate the mean power dissipated by the resistor in mW.",
      "solution_md": "Calculate the mean power dissipated by the resistor:\n\nList the known quantities:\n\n- Root-mean-square voltage, *V*<sub>rms</sub>* *= 5.1 V\n- Resistance, *R *= 1430 Ω\n\nUse the equation for mean power:\n\n- $P_{m e a n} = \\frac{( V_{r. m. s} )^{2}}{R}$ **[1 mark]**\n- $P_{mean}=\\frac{5.1^{2}}{1430}$\n- $P_{mean}=0.018W$\n- $P_{mean}=18\\mathrm{mW}$ **[1 mark]**\n\n**[Total: 2 marks]**",
      "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P subscript m e a n end subscript space equals space open parentheses V subscript r. m. s end subscript close parentheses squared over R",
+       "render": "$P_{m e a n} = \\frac{( V_{r. m. s} )^{2}}{R}$",
+       "via": "alt-transpile"
+      },
       {
        "latex": "P_{mean}=\\frac{5.1^{2}}{1430}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>P</mi><mrow><mi>m</mi><mi>e</mi><mi>a</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>5</mn><mo>.</mo><msup><mn>1</mn><mn>2</mn></msup></mrow><mn>1430</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
@@ -955,6 +1032,13 @@
        "latex": "I_{rms}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><msub><mi>I</mi><mrow><mi>r</mi><mi>m</mi><mi>s</mi></mrow></msub><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "I subscript r m s end subscript"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P space equals space open parentheses I subscript r m s end subscript close parentheses squared R space space space space space rightwards double arrow space space space space space R space equals space P over open parentheses I subscript r m s end subscript close parentheses squared",
+       "render": "$P = ( I_{r m s} )^{2} R \\Leftrightarrow R = \\frac{P}{( I_{r m s} )^{2}}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "R=\\frac{1000}{10.6^{2}}",

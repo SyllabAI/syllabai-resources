@@ -1,0 +1,1945 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T13:28:19Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_9vgVJq4xGVkVQ4bR",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) AS Chemistry"
+ },
+ "section": {
+  "slug": "5-chemical-energetics",
+  "name": "5 Chemical Energetics"
+ },
+ "topic": {
+  "id": "top_Kh5QYQyxYTYxyRB8",
+  "slug": "5-1-enthalpy-change-h",
+  "name": "Enthalpy Change, ΔH",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "enthalpy-and-bond-energies",
+   "name": "Enthalpy & Bond Energies",
+   "revision_note_id": "rn_xrh88h2QrcfRmgF8"
+  },
+  {
+   "slug": "reaction-pathway-diagrams",
+   "name": "Reaction Pathway Diagrams",
+   "revision_note_id": "rn_kgcyPrDHTF3jzySW"
+  },
+  {
+   "slug": "standard-enthalpy-change",
+   "name": "Standard Enthalpy Change",
+   "revision_note_id": "rn_rfn7F7xyGV9cR4dH"
+  },
+  {
+   "slug": "enthalpy-change-h",
+   "name": "Enthalpy Change, ΔH",
+   "revision_note_id": "rn_NwK3jdJQyzNQg7cv"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_wSmShfskhWmCG4XY",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 19,
+   "questions_embedded": 19,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/5-chemical-energetics/5-1-enthalpy-change-h/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_r7fKNwTYVNQsDFGN",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 10,
+   "questions_embedded": 10,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/5-chemical-energetics/5-1-enthalpy-change-h/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 29,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-diagram-q7e.png": "001-diagram-of-a-simple-calorimetry-apparatus-a-spir.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-h-5.JPG": "002-skeletal-formula-of-cyclobutane-showing-a-square.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-e-8.JPG": "003-hand-drawn-dot-and-cross-diagram-of-a-pcl3-molec.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-diagram-q5e.png": "004-reaction-profile-diagram-showing-an-endothermic-.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-diagram-q4e.png": "005-reaction-profile-diagram-showing-an-endothermic-.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-e-4b.JPG": "006-hand-drawn-reaction-profile-diagram-showing-an-e.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-m-7.JPG": "007-four-reaction-profile-diagrams-labelled-a-to-d-e.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/05/1-5-m-7a.JPG": "008-two-hand-drawn-reaction-profile-diagrams-left-di.jpg",
+   "https://cdn.savemyexams.com/uploads/2026/01/54725-p2-q2-mb-distribution-t-high-1.png": "009-maxwell-boltzmann-distribution-curve-for-tempera.png",
+   "https://cdn.savemyexams.com/uploads/2026/01/11683-p2-q2-mb-distribution-t-high-2.png": "010-maxwell-boltzmann-distribution-curve-for-tempera.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/1-5-chemical-energetics-2a.png": "011-diagram-of-a-calorimeter-water-bath-with-stirrer.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/1-5-chemical-energetics-1b.png": "012-blank-reaction-profile-graph-with-horizontal-axi.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/6969ebca-3032-4f6e-9793-3174d9f7367d.jpeg": "013-enthalpy-profile-for-combustion-of-propane-showi.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/01/1-5-q1b-solution.PNG": "014-enthalpy-profile-showing-exothermic-reaction-c-h.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q1-5h-q3c.PNG": "015-diagram-of-hess-s-law-2c-s-2h-g-c-h-g-arrows-to-.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/63135bc3-4e2a-4ae7-8a16-64e63de7bb7d.jpeg": "016-structural-equation-showing-ethene-reacting-with.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/fcddd16f-651a-4a19-9a38-4543df1b32c3.jpeg": "017-reaction-scheme-ethane-reacting-with-two-bromine.jpeg",
+   "https://cdn.savemyexams.com/uploads/2026/05/14050-ea-equals-0-reaction-pathway-diagram.png": "018-reaction-pathway-diagram-showing-reactants-and-p.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_MXqz8zrGkrvpFzdY",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CnYKkRbfKdWHwxYP",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "Which row in the table correctly identifies the requirements for the standard enthalpy of formation of liquid ethanol, C<sub>2</sub>H<sub>5</sub>OH (l)?\n\n|   | **Standard state of carbon** | **Standard state of hydrogen** | **Moles of ethanol formed** |\n|---|---|---|---|\n| **A** | graphite | gaseous atoms | 1 |\n| **B** | graphite | gaseous molecules | 1 |\n| **C** | diamond | gaseous molecules | 1 |\n| **D** | graphite | gaseous molecules | 2 |",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The standard enthalpy of formation requires the reactant elements to be in their **standard states** at standard conditions (298 K, 101 kPa), and exactly **one mole** of product to be formed\n- **Carbon standard state:**\n\n  - Graphite, not diamond\n  - Both graphite and diamond are solid carbon, but graphite is the more stable allotrope at standard conditions, so row **C** is incorrect\n- **Hydrogen standard state:**\n\n  - H<sub>2</sub> (g) as gaseous molecules, not gaseous atoms\n  - Gaseous atoms (H) represent the enthalpy of atomisation, not the standard state of hydrogen, so row **A** is incorrect\n- **Moles of product:**\n\n  - The definition of Δ*H*<sub>f</sub><sup>⦵</sup> requires exactly 1 mole of compound to be formed\n  - Row **D** describes forming 2 moles of ethanol, which would represent 2 × Δ*H*<sub>f</sub><sup>⦵</sup>, not Δ*H*<sub>f</sub><sup>⦵</sup> itself",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_z3FHqkXGb9NcwFdq",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_74sHHGVDTJGXn9yq",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y3yg6TK2DsBDYF9g"
+     ],
+     "part_tier": null,
+     "problem_md": "The enthalpy change for the reaction H<sub>2</sub> (g) + X<sub>2</sub> (g) → 2HX (g) is -184 kJ mol<sup>-1</sup>.\n\nBond energies: H-H = 436 kJ mol<sup>-1</sup>; H-X = 432 kJ mol<sup>-1</sup>\n\nWhat is the bond energy of X-X?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- For bond energy calculations, always use:\n\nΔ*H *=* *∑(bonds broken)−∑(bonds formed)\n\n- Bonds broken:\n\n  - 1 × H−H = 436 kJ mol<sup>−1</sup>\n  - 1 × X−X = E(X−X)\n  - Σ(bonds broken) = 436 + E(X−X)\n- Bonds formed:\n\n  - 2 × H−X = 2 × 432 = 864 kJ mol<sup>−1</sup>\n- Substituting into the formula:\n\n−184 = (436 + E(X−X)) − 864\n\n−184 = E(X−X) − 428\n\nE(X−X) = 428 − 184 = **244 kJ mol**<sup>**−1**</sup>\n\n**A**, **B** and **C** are incorrect as they result from errors in setting up or rearranging the bond energy equation. Check that the correct number of bonds broken and formed are identified, and that Δ*H* = Σ(bonds broken) − Σ(bonds formed) is applied correctly.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "158 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "193 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "242 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "244 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XwrBdjBYgP2NDSbP",
+   "set_slug": "multiple-choice-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_FFMxNF8DV9gbWqT6",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Some bond energy values are listed below.\n\n| **Bond** | **Bond energy / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| Br−Br | 194 |\n| Cl−Cl | 247 |\n| C−H | 412 |\n| C−Cl | 338 |\n\nThese bond energy values relate to the following four reactions:\n\n| W | Br<sub>2</sub> (g) → 2Br (g) |\n|---|---|\n| X | 2Cl (g) → Cl<sub>2</sub> (g) |\n| Y | CH<sub>3</sub> (g) + Cl (g) → CH<sub>3</sub>Cl (g) |\n| Z | CH<sub>4</sub> (g) → CH<sub>3</sub> (g) + H (g) |\n\nWhat is the correct order of enthalpy changes of the above reactions from most negative to most positive?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Using Δ*H* = Σ(bonds broken) − Σ(bonds formed):\n- W: Br<sub>2</sub> (g) → 2Br (g):\n\nΔ*H* = +194 − 0 = +194 kJ mol<sup>−1</sup>\n\n- X: 2Cl (g) → Cl<sub>2</sub> (g):\n\nΔ*H* = 0 − 247 = −247 kJ mol<sup>−1</sup>\n\n- Y: CH<sub>3</sub> (g) + Cl (g) → CH<sub>3</sub>Cl (g):\n\nΔ*H* = 0 − 338 = −338 kJ mol<sup>−1</sup>\n\n- Z: CH<sub>4</sub> (g) → CH<sub>3</sub> (g) + H (g):\n\nΔ*H* = +412 − 0 = +412 kJ mol<sup>−1</sup>\n\n- In each case only one bond is broken or formed\n\n  - So, the enthalpy change equals the relevant bond energy (positive for breaking, negative for forming)\n- Ordering from most negative to most positive:\n\n  - Y (−338), X (−247), W (+194), Z (+412)\n  - Y, X, W, Z",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Y, Z, W, X"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Z, W, X, Y"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Y, X, W, Z"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "X, Y, Z, W"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Xc6dCsMNZ537SfFy",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_gVYcMrWVkbSMYPHR",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "The complete combustion of ethyne, C<sub>2</sub>H<sub>2</sub>, is shown in the equation below.\n\nH−C≡C−H + 2½ O=O → H−O−H + 2O=C=O\n\n| **Bond** | **Bond energy / kJ mol**<sup>-1</sup> |\n|---|---|\n| C−H | 390 |\n| C≡C | 870 |\n| O=O | 489 |\n| C=O | 790 |\n| O−H | 510 |\n| O−C | 290 |\n\nUsing the bond energies given in the table, what is the enthalpy change of combustion of ethyne?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The bond energy formula is:\n\nΔ*H* = Σ(bond energies of bonds broken) − Σ(bond energies of bonds formed)\n\n- Bonds broken:\n\n  - 2 × C−H = 2 × 390 = 780 kJ mol<sup>−1</sup>\n  - 1 × C≡C = 870 kJ mol<sup>−1</sup>\n  - 2½ × O=O = 2.5 × 489 = 1222.5 kJ mol<sup>−1</sup>\n  - Σ(bonds broken) = 2872.5 kJ mol<sup>−1</sup>\n- Bonds formed:\n\n  - 2 × O−H = 2 × 510 = 1020 kJ mol<sup>−1</sup>\n  - 4 × C=O = 4 × 790 = 3160 kJ mol<sup>−1</sup>\n  - Σ(bonds formed) = 4180 kJ mol<sup>−1</sup>\n- Applying the formula:\n\nΔ*H* = 2872.5 − 4180 = **−1307.5 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as the sign is reversed. The temperature rises during combustion, indicating an exothermic reaction, so Δ*H* must be negative.\n\n**C** is incorrect as a coefficient of 2 was used for O=O instead of 2½. The balanced equation requires 2½ mol of O<sub>2</sub> per mol of C<sub>2</sub>H<sub>2</sub>.\n\n**D** is incorrect as the O−C bond energy (290 kJ mol<sup>−1</sup>) was used for the O−H bonds in water instead of the O−H bond energy (510 kJ mol<sup>−1</sup>).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "+ 1307.5 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "- 1307.5 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "−1552 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "−867.5 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tShnPYmNVPzBQjcF",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Pw32pVTsqMFqmZHy",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "Which equation can represent both an enthalpy change of formation and combustion?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The standard enthalpy change of formation is the enthalpy change when one mole of a compound is formed from its elements in their standard states under standard conditions\n\n  - The only reactions that start with elements in their standard states are **B** and **D**\n- The standard enthalpy change of combustion is the enthalpy change when one mole of a substance reacts completely with oxygen under standard conditions\n\n  - The only reaction showing one mole of a substance reacting with oxygen is **D**\n\n**A** is incorrect as this does not represent formation because the products are not being formed from the elements\n\n**B** is incorrect as this represents formation (one mole of Na<sub>2</sub>O is formed from its elements) but does not represent combustion as 2 moles of sodium are reacting\n\n**C** is incorrect as this represents the enthalpy change of neutralisation, not formation or combustion",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "CH<sub>4</sub> (g) + 2O<sub>2</sub> (g) → CO<sub>2</sub> (g) + 2H<sub>2</sub>O (l)"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "2Na (s) + ½O<sub>2</sub> (g)  →  Na<sub>2</sub>O (s)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "HCl (aq) + NaOH (aq) → NaCl (aq) + H<sub>2</sub>O (l)"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "C (s) + O<sub>2</sub> (g)  →  CO<sub>2</sub> (g)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_t8TStg3bSR3NDtd3",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_TkDXbN6W9X2frrtt",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "An experiment was carried out to determine the approximate value for the molar enthalpy change of neutralisation.\n\n75 cm<sup>3</sup> of 3.00 mol dm<sup>−3</sup> hydrochloric acid was placed in a polystyrene cup of negligible heat capacity. Its temperature was recorded, then 75 cm<sup>3</sup> of 3.00 mol dm<sup>−3</sup> potassium hydroxide at the same temperature was quickly added and the solution was stirred.\n\nThe temperature rose by 14 <sup>o</sup>C. The resulting solution may be considered to have a specific heat capacity of 4.18 J g<sup>−1</sup> K<sup>−1</sup>. Assume the density of the mixture is 1.00 g cm<sup>−3</sup>.\n\nWhat is the molar enthalpy change of neutralisation?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The energy transferred as heat is given by *q* = *mc*Δ*T*\n\n  - Where *q* is heat transferred (J), *m* is the mass of the solution (g), *c* is the specific heat capacity (J g<sup>−1</sup> K<sup>−1</sup>), and Δ*T* is the temperature change (K)\n- Known quantities:\n\n  - Total volume of solution = 75 + 75 = 150 cm<sup>3</sup>\n  - Mass of solution = 150 × 1.00 = 150 g\n  - Temperature change = 14 <sup>o</sup>C = 14 K\n  - Specific heat capacity = 4.18 J g<sup>−1</sup> K<sup>−1</sup>\n- Calculate the energy transferred:\n\n*q* = 150 × 4.18 × 14 = 8778 J\n\n- Calculate the moles of HCl (or KOH):\n\n*n* = 3.00 × (75/1000) = 0.225 mol\n\n- HCl and KOH react in a 1:1 molar ratio at equal concentrations, so the moles of one reactant equals the moles of water formed\n- Calculate the molar enthalpy change:\n\nΔ*H* = −*q*/*n* = −8778 / 0.225 = −39 013 J mol<sup>−1</sup>\n\n- Convert to kJ mol<sup>−1</sup>: **−39.0 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as only 75 g (one solution) was used to calculate *q* instead of the total mass of 150 g.\n\n**C** is incorrect as the temperature rises, so the reaction is exothermic and Δ*H* must be negative.\n\n**D** is incorrect as only 75 g was used to calculate *q*, and the total moles of both reactants (0.450 mol) was used instead of the moles of one reactant.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "-19.5 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "-39.0 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+39.0 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "-9.75 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Sz79Rm2MXKTHdpqD",
+   "set_slug": "multiple-choice-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_F6jYJVPYvmDwTcPd",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "In the gas phase, phosphorus pentachloride can be thermally decomposed into gaseous phosphorus trichloride and chlorine.\n\nPCl<sub>5</sub> (g) → PCl<sub>3</sub> (g) + Cl<sub>2</sub> (g)\n\nThe table below gives the relevant bond energies.\n\n| **Bond** | **Bond energy / kJ mol^−1^** |\n|---|---|\n| P−Cl (in both chlorides) | 328 |\n| Cl−Cl | 241 |\n\nWhat is the enthalpy change for this reaction?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Using the bond energy formula:\n\nΔ*H* = Σ(bonds broken) − Σ(bonds formed)\n\n- Bonds broken:\n\n  - PCl<sub>5</sub> contains 5 P−Cl bonds\n  - 5 × P−Cl = 5 × 328 = 1640 kJ mol<sup>−1</sup>\n- Bonds formed:\n\n  - PCl<sub>3</sub> contains 3 P−Cl bonds; Cl<sub>2</sub> contains 1 Cl−Cl bond\n  - 3 × P−Cl = 3 × 328 = 984 kJ mol<sup>−1</sup>\n  - 1 × Cl−Cl = 241 kJ mol<sup>−1</sup>\n  - Σ(bonds formed) = 1225 kJ mol<sup>−1</sup>\n- Applying the formula:\n\nΔ*H* = 1640 − 1225 = **+415 kJ mol**<sup>**−1**</sup>\n\n- The positive value confirms the reaction is endothermic as more energy is required to break the P−Cl bonds in PCl<sub>5</sub> than is released when forming the bonds in PCl<sub>3</sub> and Cl<sub>2</sub>\n\n**A** is incorrect as the sign is reversed. Breaking more bonds than are formed requires a net energy input, so Δ*H* is positive.\n\n**C** is incorrect as the Cl−Cl bond formed in Cl<sub>2</sub> was not included in the bonds formed calculation. Both the P−Cl bonds in PCl<sub>3</sub> and the Cl−Cl bond in Cl<sub>2</sub> must be counted.\n\n**D** is incorrect as only 3 P−Cl bonds were counted as broken, matching PCl<sub>3</sub>, instead of the 5 P−Cl bonds present in PCl<sub>5</sub>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "– 415 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "+ 415 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+656 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "−241 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_RMsbqbNcMGGqbDN9",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_WFMRvcth2fTmf5DB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "A student carried out an experiment to determine the enthalpy change for the combustion of ethanol.\n\nThe following results were obtained by the student. The specific heat capacity of water is 4.18 J g<sup>−1</sup> °C<sup>−1</sup>.\n\n![Diagram of a simple calorimetry apparatus: a spirit burner with flame sitting on a tripod stand, heating a glass beaker of liquid with a thermometer inserted from above into the liquid.](assets/001-diagram-of-a-simple-calorimetry-apparatus-a-spir.png)\n\n| Start temperature of the water | 21 °C |\n|---|---|\n| Final temperature of the water | 54 °C |\n| Mass of spirit burner before burning | 259.75 g |\n| Mass of spirit burner after burning | 259.18 g |\n| Mass of glass beaker plus water | 150.00 g |\n| Mass of glass beaker | 50.0 g |\n\nHow much heat energy is transferred to the water?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The heat energy transferred to the water is found using *q* = *mc*Δ*T*\n- Known quantities:\n\n  - Mass of water = 150.00 − 50.0 = 100 g\n  - Temperature change = 54 − 21 = 33 °C\n  - Specific heat capacity, *c* = 4.18 J g<sup>−1</sup> °C<sup>−1</sup>\n- Calculate the heat energy transferred:\n\n*q* = *mc*Δ*T* = 100 x 4.18 x 33 = **13 794 J**\n\n**A** is incorrect as this uses the mass of the empty glass beaker (50.0 g) instead of the mass of water alone: 50.0 x 4.18 x 33 = 6897 J\n\n**B** is incorrect as this uses the combined mass of beaker and water (150.0 g) instead of the mass of water alone: 150.0 x 4.18 x 33 = 20 691 J\n\n**C** is incorrect as this uses the final temperature (54 °C) rather than the temperature change (Δ*T* = 33 °C): 100 x 4.18 x 54 = 22 572 J",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "6897 J"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "20691 J"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "22572 J"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "13794 J"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KtddS56kT8zZt37r",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BrStpndcKKKW67rS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "A student mixed 30.0 cm<sup>3</sup> of 0.0250 mol dm<sup>-3</sup> potassium hydroxide solution with 30.0 cm<sup>3</sup> of 0.0250 mol dm<sup>-3</sup> nitric acid. The temperature rose by 0.50 <sup>o</sup>C. Assume no heat was lost to the surroundings.\n\nThe specific heat capacity of the mixture is 4.18 J g<sup>-1</sup> K<sup>-1</sup>. Assume the mixture has a density of 1.00 g cm<sup>-3</sup>.\n\nWhat is the enthalpy change of neutralisation?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- The energy transferred as heat is given by *q* = *mc*Δ*T*\n\n  - Where *q* is heat transferred (J), *m* is the mass of the solution (g), *c* is the specific heat capacity (J g<sup>−1</sup> K<sup>−1</sup>), and Δ*T* is the temperature change (K)\n- Known quantities:\n\n  - Total volume of solution = 30.0 + 30.0 = 60.0 cm<sup>3</sup>\n  - Mass of solution = 60.0 × 1.00 = 60.0 g\n  - Temperature change = 0.50 <sup>o</sup>C = 0.50 K\n  - Specific heat capacity = 4.18 J g<sup>−1</sup> K<sup>−1</sup>\n\n- Calculate the energy transferred:\n\n*q* = *mc*Δ*T* = 60.0 × 4.18 × 0.50 = 125.4 J\n\n- Calculate the moles of KOH (or HNO~3~):\n\n*n* = 0.0250 × (30.0/1000) = 7.50 × 10<sup>−4</sup> mol\n\n- KOH and HNO<sub>3</sub> react in a 1:1 molar ratio at equal concentrations, so the moles of one reactant equals the moles of water formed\n- Calculate the enthalpy change of neutralisation:\n\nΔ*H* = −*q*/*n* = −125.4 / (7.50 × 10<sup>−4</sup>) = −167 200 J mol<sup>-1</sup>\n\n- Convert to kJ mol<sup>-1</sup>: **−167.2 kJ mol**<sup>**-1**</sup>\n\n**A** is incorrect as only 30.0 g was used to calculate *q* instead of the total mass of 60.0 g, and the total moles of both reactants (1.50 × 10<sup>−3</sup> mol) was used instead of the moles of one reactant.\n\n**B** is incorrect as the total moles of both reactants (1.50 × 10<sup>−3</sup> mol) was used instead of the moles of one reactant (7.50 × 10<sup>−4</sup> mol). The enthalpy change of neutralisation is expressed per mole of water formed, so only the moles of one reactant should be used.\n\n**C** is incorrect as the temperature rises, so the reaction is exothermic and Δ*H* must be negative.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "-41.8 kJ mol<sup>-1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "-83.6 kJ mol<sup>-1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "+167.2 kJ mol<sup>-1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "-167.2 kJ mol<sup>-1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_J7TzsH96dXYDwHvN",
+   "set_slug": "multiple-choice-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_pXY7R9xrB9jPXvJc",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows the skeletal formula of cyclobutane.\n\n![Skeletal formula of cyclobutane showing a square four-membered carbon ring](assets/002-skeletal-formula-of-cyclobutane-showing-a-square.jpg)\n\nThe enthalpy change of formation of cyclobutane is +75.1 kJ mol<sup>– 1</sup>, and the enthalpy change of atomisation of graphite is +712 kJ mol<sup>–1</sup>.\n\nThe bond energy of C–H is 390 kJ mol<sup>–1</sup> and of H–H is 429 kJ mol<sup>–1</sup>.\n\nWhat is the average bond energy of the C–C bond in cyclobutane, rounded to the nearest whole number?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Cyclobutane, C<sub>4</sub>H<sub>8</sub>, contains 4 C−C bonds (ring) and 8 C−H bonds\n- The balanced equation for formation from elements is:\n\n4C (s) + 4H<sub>2</sub> (g) → C<sub>4</sub>H<sub>8</sub> (g)\n\n- Using Δ*H* = Σ(bonds broken) − Σ(bonds formed):\n- Bonds broken:\n\n  - 4 × C (graphite) → C (g): 4 × 712 = 2848 kJ mol<sup>−1</sup>\n  - 4 × H−H: 4 × 429 = 1716 kJ mol<sup>−1</sup>\n  - Σ(bonds broken) = 4564 kJ mol<sup>−1</sup>\n- Bonds formed:\n\n  - 8 × C−H: 8 × 390 = 3120 kJ mol<sup>−1</sup>\n  - 4 × C−C: 4*x* kJ mol<sup>−1</sup>\n  - Σ(bonds formed) = 3120 + 4*x*\n- Applying the formula:\n\n75.1 = 4564 − (3120 + 4*x*)\n\n75.1 = 1444 − 4*x*\n\n4*x* = 1444 − 75.1 = 1368.9\n\n*x* = **342 kJ mol**<sup>**−1**</sup>\n\n**A** is incorrect as Δ*H*<sub>f</sub> was not incorporated (effectively set to zero). This gives (4564 − 3120) / 4 = 361 kJ mol<sup>−1</sup>.\n\n**B** is incorrect as +75.1 kJ mol<sup>−1</sup> was added rather than subtracted in the Hess equation. This sign error gives (4564 − 3120 + 75.1) / 4 ≈ 380 kJ mol<sup>−1</sup>.\n\n**D** is incorrect as only 4 C−H bonds were included in bonds formed instead of 8. Cyclobutane has 2 C−H bonds per carbon atom, giving 8 C−H bonds in total.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "361 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "380 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "342 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "732 kJ mol<sup>−1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Hz2CXZFJXr66JhmF",
+   "set_slug": "multiple-choice-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_y54JbgmZCB928Dtn",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "In a calorimetric experiment 2.50 g of a fuel is burnt in oxygen. 30% of the energy released during the combustion is absorbed by 500 g of water, the temperature of which rises from 25.0 <sup>o</sup>C to 68.0 <sup>o</sup>C.\n\nThe specific heat capacity of water is 4.18 J g<sup>−1</sup> K<sup>−1</sup>.\n\nWhat is the total energy released per gram of fuel burnt?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Known quantities:\n\n  - Mass of water = 500 g\n  - Temperature change = 68.0 − 25.0 = 43.0 <sup>o</sup>C = 43.0 K\n  - Specific heat capacity = 4.18 J g<sup>−1</sup> K<sup>−1</sup>\n- Energy absorbed by the water:\n\n*q* = *mc*Δ*T* = 500 × 4.18 × 43.0 = 89 870 J\n\n- This represents only 30% of the total energy released by the fuel\n- Total energy released:\n\nTotal = 89 870 × $\\frac{100}{30}$ = 299 567 J\n\n- Energy per gram of fuel:\n\nEnergy per gram = 299 567 / 2.50 = 119 827 J g<sup>−1</sup> = **120 kJ g**<sup>**−1**</sup>\n\n**A** is incorrect as *q* was multiplied by (30/100) instead of (100/30). Since *q* is only 30% of the total energy, multiplying by (100/30) is needed to recover the total.\n\n**B** is incorrect as the 30% efficiency factor was not applied. *q* represents only 30% of the energy released, so the total must be found using *q* × (100/30).\n\n**D** is incorrect as the total energy was not divided by the mass of fuel (2.50 g). The question asks for energy per gram of fuel.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "10.8 kJ g<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "35.9 kJ g<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "120 kJ g<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "300 kJ g<sup>−1</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{100}{30}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>30</mn></mfrac></math>",
+       "alt": "\\frac{100}{30}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Hsp7hdCF9wxzJWD5",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BRdCyM6tVp9y8Sjz",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "The standard enthalpy change *∆H*<sup>*θ*</sup> for the below reaction is -1776 kJ.\n\n2N (g) + 6F (g) → 2NF<sub>3</sub> (g)\n\nWhat is the bond energy of the N–F bond?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Reactants: 2N atoms and 6F atoms\n\n  - All individual gaseous atoms with no bonds to break\n- Products: 2 molecules of NF<sub>3</sub>\n- Each NF<sub>3</sub> molecule contains 3 N–F bonds, so total bonds formed = 2 × 3 = 6 N–F bonds\n- Using the bond energy formula:\n\nΔ*H* = Σ(bond energies of bonds broken) − Σ(bond energies of bonds formed)\n\n- Since the reactants are individual atoms, there are no bonds broken:\n\nΔ*H* = 0 − 6 × E(N–F)\n\n−1776 = −6 × E(N–F)\n\nE(N–F) = $\\frac{1776}{6}$ = **+296 kJ mol**<sup>**−1**</sup>\n\n- Bond energies are always positive as energy is always required to break a bond\n\n**A** is incorrect as this uses only 3 N–F bonds (one NF<sub>3</sub> molecule) instead of 6, and assigns a negative value. Bond energies are always positive.\n\n**B** is incorrect as this uses only 3 N–F bonds (one NF<sub>3</sub> molecule) instead of the 6 N–F bonds formed across both product molecules.\n\n**D** is incorrect as bond energies are always positive values. A negative bond energy has no physical meaning.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "−592 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "−296 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "+296 kJ mol<sup>−1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "+592 kJ mol<sup>−1</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{1776}{6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1776</mn><mn>6</mn></mfrac></math>",
+       "alt": "\\frac{1776}{6}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GXF5xhqWbGmfQvvc",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_QDNrWcbjcyJKXzS9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement describes the bond energy of the H–I bond?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- The bond energy of the H–I bond is the energy required to break one mole of H–I bonds in the gas phase.\n- Bond breaking is an endothermic process, so it is always defined as energy **required**, not released\n\n**A** is incorrect as bond energy is defined per **mole** of bonds (kJ mol<sup>−1</sup>), not for a single individual bond\n\n**C** is incorrect as bond energy is defined as the energy required to **break** one mole of bonds, not the energy released when bonds form. Bond forming is exothermic; bond breaking is endothermic\n\n**D** is incorrect as 'energy stored' is not the correct thermodynamic definition. Bond energy specifically describes the energy input needed to break bonds, not energy stored within them",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "The energy required to break one H–I bond in the gas phase."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "The energy required to break one mole of H–I bonds in the gas phase."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The energy released when one mole of H–I bonds is formed in the gas phase."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The energy stored in one mole of H–I bonds in the gas phase."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dYFhMGXHrDHbQ2S4",
+   "set_slug": "multiple-choice-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Jb8RYZKfcc4ygVPx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which equation shows how the bond energy for the covalent bond Y-Z can be calculated by dividing Δ*H* by n?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Bond energy is defined as the energy required to break one mole of a covalent bond in the gaseous phase to give gaseous atoms\n- For Y−Z bond energy = Δ*H*/*n*, the equation must break exactly *n* Y−Z bonds and produce separate gaseous atoms of Y and Z\n- **YZ**<sub>**n**</sub>** (g) → Y (g) + *****n *****Z (g)** breaks all *n* Y−Z bonds in one step, giving one Y atom and *n* isolated Z atoms\n- Dividing the enthalpy change by *n* gives the energy per mole of Y−Z bonds broken\n\n**A** is incorrect as the products include Z<sub>2</sub> molecules, not gaseous Z atoms. The energy to form the Z−Z bond in Z<sub>2</sub> is included in Δ*H*, so dividing by *n* would not give the Y−Z bond energy directly.\n\n**B** is incorrect as YZ appears on both sides of the equation. No net bonds are broken, so Δ*H*/*n* cannot give the bond energy.\n\n**C** is incorrect as YZ<sub>n</sub> is shown as a liquid, not a gas. Bond energy calculations require all species to be in the gaseous state. Using a liquid reactant would include the enthalpy of vaporisation, not just the bond energy.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "n YZ (g) → n Y (g) + $\\frac{n}{2}$ Z<sub>2</sub> (g)"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Z (g) + Y Z<sub>n-1</sub> (g) → YZ<sub>n </sub>(g)"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "2 YZ<sub>n</sub> (g) → 2 YZ<sub>n-1 </sub>(g) + Y<sub>2</sub> (g)"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "YZ<sub>n</sub> (g) → Y (g) + nZ (g)"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{n}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mi>n</mi><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "n over 2"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dKc3mk3kBnwT8pFZ",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_hZDjN7J26f4xGp85",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G57NmSHkVfNqRmDK",
+      "spcpt_3G5VshJ2mzwT8ssc"
+     ],
+     "part_tier": null,
+     "problem_md": "PCl<sub>5</sub> (g) dissociates as follows.\n\nPCl<sub>5</sub> (g) ⇌ PCl<sub>3</sub> (g) + Cl<sub>2</sub> (g)\n\nThe yield of the products increases as the temperature is raised from 80 °C to 110 °C.\n\nWhich row gives the PCl<sub>3</sub> molecule and the forward reaction?\n\n|   | **Shape of PCl**<sub>**3**</sub>** molecule** | **The reaction is** |\n|---|---|---|\n| **A** | Trigonal pyramidal | Endothermic |\n| **B** | Trigonal pyramidal | Exothermic |\n| **C** | Trigonal planar | Endothermic |\n| **D** | Trigonal planar | Exothermic |",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- According to Le Chatelier's Principle, increasing the temperature shifts the position of equilibrium in the endothermic direction.\n\n  - As the yield of products increases when temperature rises, the forward reaction is **endothermic**\n\n- In PCl<sub>3</sub>, the phosphorus atom forms 3 bonding pairs (one to each chlorine) and has 1 lone pair.\n\n  - According to VSEPR theory, lone pair–bond pair repulsion is greater than bond pair–bond pair repulsion, pushing the bonds closer together\n\n- This gives PCl<sub>3</sub> a **trigonal pyramidal** shape (bond angle approximately 107°)\n\n![Hand-drawn dot-and-cross diagram of a PCl3 molecule showing a central phosphorus atom bonded to three chlorine atoms with one lone pair of electrons above the phosphorus. The bond angle of 107 degrees is annotated.](assets/003-hand-drawn-dot-and-cross-diagram-of-a-pcl3-molec.jpg)\n\n**B** is incorrect as the reaction is endothermic, not exothermic. An exothermic forward reaction would shift equilibrium to the left at higher temperatures, decreasing product yield\n\n**C** is incorrect as a trigonal planar shape requires 3 bonding pairs and no lone pairs (e.g. BCl<sub>3</sub>). The lone pair on phosphorus produces a trigonal pyramidal shape\n\n**D** is incorrect as the reaction is endothermic and the shape is trigonal pyramidal, not trigonal planar",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8XBNfgCYBzrBB7hG",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_HbwXsKhZSDcpDFfK",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "The energy profile for a reversible reaction is shown below.\n\n![Reaction profile diagram showing an endothermic reaction. Reactants at low energy on the left, a single tall activation energy peak, and products at a higher energy level on the right. Annotated with 60 kJ mol^-1^ showing the energy gap from the products level to the transition state peak, and 30 kJ mol^-1^ showing the enthalpy change from reactants to products.](assets/004-reaction-profile-diagram-showing-an-endothermic-.png)\n\nWhich statement is correct?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- The activation energy is the minimum energy required for a collision to be successful, measured from the reactants' energy level to the transition state (the peak of the energy profile)\n\n- For the forward reaction, this is the energy difference from the reactants (left energy level) to the peak = +90 kJ mol<sup>–1</sup>\n\n**B** is incorrect as the activation energy of the reverse reaction is measured from the products (right energy level) to the peak. As the forward reaction is endothermic (Δ*H* = +30 kJ mol<sup>–1</sup>), the reverse Ea = 90 − 30 = +60 kJ mol<sup>–1</sup>, not +90 kJ mol<sup>–1</sup>\n\n**C** is incorrect as the products are at higher energy than the reactants, so the forward reaction is endothermic and Δ*H* = +30 kJ mol<sup>–1</sup>. The value −30 kJ mol<sup>–1</sup> is the enthalpy change of the **reverse** reaction\n\n**D** is incorrect as the products are at a higher energy level than the reactants, meaning energy is absorbed from the surroundings. The forward reaction is endothermic",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "The activation energy of the forward reaction is +90 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The activation energy of the reverse reaction is +90 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "The enthalpy change of the forward reaction is −30 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The forward reaction is exothermic"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_7MbzyBS5J2zFnh7x",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_KkQyTb43bxy3Hqc7",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction pathway for a reversible reaction is shown below:\n\n![Reaction profile diagram showing an endothermic reaction. Reactants at low energy on the left, a single activation energy peak, and products at a higher energy level on the right. Annotated with 20 kJ mol^-1^ showing the gap between the transition state and the products energy level, and 70 kJ mol^-1^ showing the enthalpy change from reactants to products.](assets/005-reaction-profile-diagram-showing-an-endothermic-.png)\n\nWhich statement is correct?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The activation energy is the minimum energy required to reach the transition state (the peak of the energy profile), measured as the energy difference from the reactants' energy level\n\n- For the **reverse** reaction, the reactants are the products on the right side of the diagram.\n- The energy difference from the right energy level to the transition state is +20 kJ mol<sup>–1</sup>\n\n![Hand-drawn reaction profile diagram showing an endothermic reaction. Reactants at low energy on the left, a single activation energy peak, and products at higher energy on the right. Annotated with a Reverse reaction arrow at the top, 20 kJ mol^-1^ between the transition state and the products level, and delta H of 70 kJ mol^-1^ for the enthalpy change from reactants to products.](assets/006-hand-drawn-reaction-profile-diagram-showing-an-e.jpg)\n\n**A** is incorrect as +90 kJ mol<sup>–1</sup> is the activation energy of the **forward** reaction, not the reverse reaction\n\n**B** is incorrect as the forward activation energy is measured from the left energy level to the transition state: 70 + 20 = +90 kJ mol<sup>–1</sup>, not +20 kJ mol<sup>–1</sup>\n\n**D** is incorrect as the forward reaction is endothermic (products at higher energy than reactants), so Δ*H* must be positive",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "The activation energy of the reverse reaction is +90 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "The activation energy of the forward reaction is +20 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "The activation energy of the reverse reaction is +20 kJ mol<sup>–1</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The enthalpy change of the forward reaction is −70 kJ mol<sup>–1</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3b9MDg8w9j5RYPz6",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_mwGs4dVB2RVxXPRh",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "In a reaction converting compound *R* into compound *T*, it was found that the reaction proceeded by way of compound *S*, which could be isolated. The following steps were involved.\n\n*R* → *S*;   Δ*H* is positive\n\n*S* → *T*;   Δ*H* is negative\n\nWhich reaction profile fits these data?\n\n![Four reaction profile diagrams labelled A to D, each with energy on the y-axis and progress of reaction on the x-axis. A: two-hump profile with R at low energy, S as a stable intermediate in an energy valley between two activation energy peaks, and T at the lowest energy. B: single-hump profile with R at medium energy, S at the top of the peak, and T at low energy. C: monotonically rising profile with R at the lowest energy, S at intermediate energy, and T at the highest energy. D: profile showing R at the highest energy, falling to S in a low-energy valley, then rising slightly to T at medium energy.](assets/007-four-reaction-profile-diagrams-labelled-a-to-d-e.jpg)",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Since S can be isolated, it exists as a stable intermediate in an energy well between the two stages of the reaction\n- The reaction profile therefore shows two separate activation energy peaks, with S sitting in a valley between them\n- The reaction R → S is endothermic (Δ*H* is positive), so S is at a higher energy level than R\n- The reaction S → T is exothermic (Δ*H* is negative), so T is at a lower energy level than S\n- The energy profile diagrams for each stage are shown below:\n\n![Two hand-drawn reaction profile diagrams. Left diagram labelled endothermic reaction: reactants at low energy, a single activation energy peak, and products at higher energy than reactants, annotated with gaining energy. Right diagram labelled exothermic reaction: reactants at high energy, a single activation energy peak, and products at lower energy than reactants, annotated with releasing energy. Both show energy per kJ mol on the y-axis and extent of reaction on the x-axis.](assets/008-two-hand-drawn-reaction-profile-diagrams-left-di.jpg)\n\n- Combining these two steps gives a profile that rises from R to the first activation energy peak, falls to S in an energy valley, rises again to a second activation energy peak, then falls to T\n- This two-hump profile with S in the valley is option **A**",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_29m6TP7wcQZy7bXh",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_22TM4z35cQkYvkFC",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows three types of standard enthalpy change:\n\n'+' means that this type of standard enthalpy change can only have positive values.\n\n'–' means that this type of standard enthalpy change can only have negative values.\n\n'+ / –' means that either positive or negative values are possible.\n\nWhich row is correct?\n\n|   | **Formation** | **Combustion** | **Neutralisation** |\n|---|---|---|---|\n| **A** | + | + | + / – |\n| **B** | + / – | + | + / – |\n| **C** | + / – | – | – |\n| **D** | – | – | + |",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- **Standard enthalpy of formation** (Δ*H*<sub>f</sub><sup>θ</sup>):\n\n  - The enthalpy change when one mole of a compound is formed from its elements in their standard states under standard conditions\n  - Enthalpy changes of formation can be either exothermic (negative) or endothermic (positive), so the sign is + / −\n  - For example, Δ*H*<sub>f</sub><sup>θ</sup>[CO<sub>2</sub>] = −393 kJ mol<sup>−1</sup> (exothermic), whereas Δ*H*<sub>f</sub><sup>θ</sup>[NO] = +90 kJ mol<sup>−1</sup> (endothermic)\n- **Standard enthalpy of combustion** (Δ*H*<sub>c</sub><sup>θ</sup>):\n\n  - The enthalpy change when one mole of a substance burns completely in excess oxygen under standard conditions\n  - Combustion reactions always release energy to the surroundings, so Δ*H*<sub>c</sub><sup>θ</sup> is always negative (−)\n- **Standard enthalpy of neutralisation** (Δ*H*<sub>neut</sub><sup>θ</sup>):\n\n  - The enthalpy change when one mole of water is formed from the reaction of an acid with an alkali under standard conditions\n  - Neutralisation reactions are always exothermic, so Δ*H*<sub>neut</sub><sup>θ</sup> is always negative (−)",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yRhGvzMn4bwydsnc",
+   "set_slug": "structured-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_KYyxYBXWXwzy6wGt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mc6MCFF78DmWCrk8"
+     ],
+     "part_tier": null,
+     "problem_md": "Compound **A** is a liquid containing carbon, hydrogen and oxygen. Quantitative analysis shows that **A** has the empirical formula CH<sub>2</sub>O.\n\nA sample of **A** with a mass of 0.240 g is vaporised. At 80.0 °C and 101 kPa, the vapour occupies a volume of 116 cm<sup>3</sup>.\n\nCalculate the relative molecular mass, *M*<sub>r</sub>, of **A**.\n\nShow your working.\n\n*M*<sub>r</sub> = .............",
+     "solution_md": "To calculate the relative molecular mass, *M*<sub>r</sub>, of **A**:\n\n- Convert units to SI:\n\n*V* = 116 cm<sup>3</sup> = 116 × 10<sup>-6</sup> m<sup>3</sup>\n\n*T* = 80.0 °C = 353 K\n\n*p* = 101 kPa = 101 000 Pa\n\n**[1 mark]**\n\n- Calculate the number of moles, *n*, using *pV* = *nRT*:\n\n*n* = $\\frac{pV}{RT}$\n\n*n* = $\\frac{101000\\times(116\\times10^{-6})}{8.31\\times353}$\n\n*n* = 3.99 × 10<sup>-3</sup> mol\n\n**[1 mark]**\n\n- Calculate *M*<sub>r</sub>:\n\n*M*<sub>r</sub> = $\\frac{\\mathrm{mass}}{\\mathrm{moles}}$\n\n*M*<sub>r</sub> = $\\frac{0.240}{3.99\\times10^{-3}}$\n\n*M*<sub>r</sub> = **60.1 (to 3 s.f.)**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct conversions of volume, temperature **AND **pressure to SI units\n> \n> Answers given to more than 3 significant figures are accepted, if supported by workings\n\n> **[exam-tip]**\n> Watch units carefully.\n> \n> If you use *R* = 8.31, you must use SI units. This means converting **kPa to Pa**, **cm**<sup>**3**</sup>** to m**<sup>**3**</sup>, and **°C to K** before substituting into *pV* = *nRT*.\n> \n> A missed conversion (especially pressure or volume) is the most common reason these questions lose marks.",
+     "equations": [
+      {
+       "latex": "\\frac{pV}{RT}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mi>V</mi></mrow><mrow><mi>R</mi><mi>T</mi></mrow></mfrac></math>",
+       "alt": "\\frac{pV}{RT}"
+      },
+      {
+       "latex": "\\frac{101000\\times(116\\times10^{-6})}{8.31\\times353}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>101000</mn><mo>&#xD7;</mo><mo>(</mo><mn>116</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>6</mn></mrow></msup><mo>)</mo></mrow><mrow><mn>8</mn><mo>.</mo><mn>31</mn><mo>&#xD7;</mo><mn>353</mn></mrow></mfrac></math>",
+       "alt": "\\frac{101000 \\times (116 \\times 10^{-6})}{8.31 \\times 353}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{\\mathrm{moles}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><mi>moles</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over moles"
+      },
+      {
+       "latex": "\\frac{0.240}{3.99\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>240</mn></mrow><mrow><mn>3</mn><mo>.</mo><mn>99</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></math>",
+       "alt": "\\frac{0.240}{3.99 \\times 10^{-3}}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_c8QgCpwvMGFmhQj4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v",
+      "spcpt_mqCCKGsGRn8qBZ3X"
+     ],
+     "part_tier": null,
+     "problem_md": "Methyl methanoate, HCOOCH<sub>3</sub>, is a liquid ester.\n\ni) Define the term standard enthalpy change of formation.\n\n[2]\n\nii) The standard enthalpy changes of combustion, Δ*H*<sup>θ</sup><sub>c</sub>, in **Table 2.1** are for complete combustion to CO<sub>2</sub> (g) and H<sub>2</sub>O (l) under standard conditions.\n\n**Table 2.1**\n\n| Substance | Standard enthalpy change of combustion, Δ*H*<sup>θ</sup><sub>c</sub> / kJ mol<sup>-1</sup> |\n|---|---|\n| C (s) | –394 |\n| H<sub>2</sub> (g) | –286 |\n| HCOOCH<sub>3</sub> (l) | –975 |\n\nThe enthalpy of formation of methyl methanoate refers to the reaction:\n\n2C (s) + 2H<sub>2</sub> (g) + O<sub>2</sub> (g) → HCOOCH<sub>3</sub> (l)\n\nUse the data in Table 2.1 to calculate the standard enthalpy change of formation, Δ*H*<sup>θ</sup><sub>f</sub>, of liquid methyl methanoate.\n\nShow your working.\n\nΔ*H*<sup>θ</sup><sub>f</sub> = ........................ kJ mol<sup>-1</sup>\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) Standard enthalpy change of formation is:\n> \n> - The enthalpy change when one mole / 1 mol of a compound is formed from its elements **[1 mark]**\n> - In their standard states under standard conditions **[1 mark]**\n\nii) To calculate the standard enthalpy change of formation, Δ*H*<sup>θ</sup><sub>f</sub>, of liquid methyl methanoate:\n\n- State the relationship used:\n\nΔ*H*<sup>θ</sup><sub>f</sub> + Δ*H*<sup>θ</sup><sub>c</sub>(compound) = Δ*H*<sup>θ</sup><sub>c</sub>(reactants)  **[1 mark]**\n\n- Calculate the total enthalpy of combustion of the reactants:\n\nΔ*H*<sup>θ</sup><sub>c</sub>(reactants) = (2 x C) + (2 x H<sub>2</sub>)\n\nΔ*H*<sup>θ</sup><sub>c</sub>(reactants) = (2 x -394) + (2 x -286)\n\nΔ*H*<sup>θ</sup><sub>c</sub>(reactants) = −1360 kJ mol<sup>-1</sup> **[1 mark]**\n\n- Calculate Δ*H*<sup>θ</sup><sub>f</sub>:\n\nΔ*H*<sup>θ</sup><sub>f</sub> = −1360 − (−975)\n\nΔ*H*<sup>θ</sup><sub>f</sub> = **−385 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for Δ*H*<sup>θ</sup><sub>f</sub> + Δ*H*<sup>θ</sup><sub>c</sub>(compound) = Δ*H*<sup>θ</sup><sub>c</sub>(reactants)\n> \n> 1 mark for Δ*H*<sup>θ</sup><sub>c</sub>(reactants) = (2 x C) + (2 x H<sub>2</sub>) **OR** Δ*H*<sup>θ</sup><sub>c</sub>(reactants) = (2 x 394) + (2 x -286) **OR** Δ*H*<sup>θ</sup><sub>c</sub>(reactants) = −1360 kJ mol<sup>-1</sup>\n> \n> 1 mark for a final negative Δ*H*<sup>θ</sup><sub>f</sub> value = −385 kJ mol<sup>-1</sup>\n> \n> 3 marks can be awarded for a correct final answer with or without working\n> \n> Only 1 mark is awarded for a final answer of +385 kJ mol<sup>-1</sup>\n\n> **[exam-tip]**\n> In formation definitions, do not forget the two precision points:\n> \n> 1. One mole / 1 mol\n> 2. Standard states under standard conditions.\n> \n> In the Hess calculation, the most common error is missing the stoichiometry from the formation equation. Multiply the combustion values by the coefficients first (here, 2 for C and 2 for H<sub>2</sub>) before combining them with the ester’s combustion value."
+    },
+    {
+     "id": "qstnprt_YyXzNz5msFj9Ggs3",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y3yg6TK2DsBDYF9g",
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation for the formation of gaseous methyl methanoate from gaseous atoms is shown.\n\n2C (g) + 4H (g) + 2O (g) → HCOOCH<sub>3</sub> (g)\n\nUse bond energy data from the Data Booklet to calculate the enthalpy change for this reaction.\n\nShow your working.",
+     "solution_md": "To calculate the enthalpy change for this reaction:\n\n- The reactants are gaseous atoms, so there are no bonds to break\n\nΔ*H*<sub>(bonds broken)</sub> = 0\n\n- Identify the bonds formed in HCOOCH<sub>3</sub> (g):\n\n1 × C=O\n\n2 × C–O\n\n4 × C–H\n\n**[1 mark]**\n\n- Use bond energies from the Data Booklet to calculate the total energy of the bonds formed:\n\nΔ*H*<sub>(bonds formed)</sub> = - (C=O + (2 x C–O) + (4 x C–H))\n\nΔ*H*<sub>(bonds formed)</sub> = - ((740) + (2 x 360) + (4 x 410))\n\nΔ*H*<sub>(bonds formed)</sub> = **- 3100 (kJ mol**<sup>**-1**</sup>**)**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for Identify the bonds formed in HCOOCH<sub>3</sub> (g)\n> \n> 1 mark for a final negative Δ*H*<sub>(bonds formed)</sub> value = - 3100 (kJ mol<sup>-1</sup>)\n> \n> 2 marks can be awarded for a correct final answer with or without working\n\n> **[exam-tip]**\n> Since the reactants are gaseous atoms, this is a bond formation only question as there are no bonds to break. The enthalpy change is the negative of the total bond energies for all bonds formed.\n> \n> The most common mistakes are:\n> \n> - Treating it like a normal bond energy cycle and trying to “break” bonds in the reactants\n> - Missing one of the C–O bonds in the ester group\n> - Forgetting the negative sign"
+    },
+    {
+     "id": "qstnprt_SbthrFHgt47nvbJM",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w4fyM4CPRXhQHM4b"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigates the rate of reaction of methyl methanoate with dilute hydrochloric acid.\n\ni) A Boltzmann distribution curve for the reactant molecules at temperature ***T**** *is shown.\n\n![Maxwell Boltzmann distribution curve for temperature T, to have a higher temperature added.](assets/009-maxwell-boltzmann-distribution-curve-for-tempera.png)\n\nOn the same axes, sketch the Boltzmann distribution curve for the reactant molecules at a higher temperature, ***T***<sub>**high**</sub>.\n\nLabel the curve ***T***<sub>**high**</sub> and mark the activation energy, *E*<sub>a</sub>, on the x-axis.\n\n[2]\n\nii) Use your Boltzmann distribution curves to explain why the rate of reaction is greater at **T**<sub>**high**</sub>.\n\n[2]",
+     "solution_md": "i) The Boltzmann distribution curve for the reactant molecules at temperature *T*<sub>high</sub> is:\n\n![Maxwell Boltzmann distribution curve for temperature T, with a labelled higher temperature curve T_high and activation energy Ea marked on the x-axis.](assets/010-maxwell-boltzmann-distribution-curve-for-tempera.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for *T*<sub>high</sub> curve with lower peak, shifted to the right, crossing the original curve once\n> \n> 1 mark for activation energy *E*<sub>a</sub> marked on the x-axis and curve clearly labelled *T*<sub>high</sub>\n\n> **[exam-tip]**\n> For Boltzmann distribution sketches, accuracy of shape and labels matters more than artistic quality.\n> \n> Make sure the curve starts at the origin and does not touch the x-axis again.\n\n> **[mark-scheme]**\n> ii) At a higher temperature, the rate of reaction is greater because:\n> \n> - A greater proportion / fraction / percentage of molecules have energy greater than or equal to the activation energy (*E* ≥ *E*<sub>a</sub>) **[1 mark]**\n> - There is an increase in the frequency of successful / effective collisions per unit time **[1 mark]**\n\n> **[exam-tip]**\n> When explaining the effect of temperature, avoid vague statements like “particles move faster.”\n> \n> The marks are for linking:\n> \n> - Higher temperature\n> - → larger fraction of molecules above *E*<sub>a</sub>\n> - → more successful collisions\n> - → faster rate"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WF8mVrZBmY93Dzrb",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_MS49VBzSW79Fkhgh",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "The apparatus shown in **Fig. 2.1** can be used to determine the enthalpy of combustion of butan-1-ol, C<sub>4</sub>H<sub>9</sub>OH (*M*<sub>r</sub> = 74.12 g mol<sup>-1</sup>).\n\n![Diagram of a calorimeter: water bath with stirrer, thermometer and copper spiral coil, heated butan‑1‑ol sample below, oxygen gas supply and suction pump attached](assets/011-diagram-of-a-calorimeter-water-bath-with-stirrer.png)\n\n**Fig. 2.1**\n\ni) Construct an equation to represent the standard enthalpy change of combustion of butan-1-ol.\n\nInclude state symbols.\n\n[2]\n\nii) Suggest the purpose of the copper spiral and small electric heater in the apparatus.\n\n[2]",
+     "solution_md": "i) The equation for the standard enthalpy change of combustion of butan-1-ol is:\n\nC<sub>4</sub>H<sub>9</sub>OH (l) + 6O<sub>2</sub> (g) → 4CO<sub>2</sub> (g) + 5H<sub>2</sub>O (l)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct products (4CO<sub>2</sub> and 5H<sub>2</sub>O with state symbols)\n> \n> 1 mark for correct balancing and all state symbols correct\n\n> **[mark-scheme]**\n> ii) The purpose of the copper spiral and small electric heater in the apparatus:\n> \n> - The copper spiral ensures complete heat exchange with the surrounding water / conducts heat from the combustion products to the water **[1 mark]**\n> - To ignite (and vaporise) the butan-1-ol **[1 mark]**\n\n> **[exam-tip]**\n> Be careful when balancing combustion reactions of alcohols as the oxygen atom in the alcohol itself is easy to miss.\n> \n> Stating that the heater only vaporises the alcohol is not enough for the second mark as the key idea is that combustion (burning) occurs."
+    },
+    {
+     "id": "qstnprt_Rvnz4Pg8yFQpmP4s",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "An experiment was carried out and the following measurements were recorded in Table 2.1\n\n**Table 2.1**\n\n| Mass of butan-1-ol / g | 2.20 |\n|---|---|\n| Volume of water / cm<sup>3</sup> | 875 |\n| Initial temperature of water / °C | 22.5 |\n| Final temperature of water / °C | 25.0 |\n\n(Specific heat capacity of water = 4.18 J g<sup>-1</sup> K<sup>-1</sup>)\n\nUse the data to calculate the energy change, *q*, for the reaction.\n\nShow your working.\n\nGive your answer to two significant figures.\n\n*q* = ........................................... kJ",
+     "solution_md": "To calculate the energy change, *q*:\n\n- Write the equation and substitute known values:\n\n*q* = *mc*Δ*T*\n\n*q* = 875 x 4.18 x 2.5 **[1 mark]**\n\n- Calculate *q* and convert to kJ:\n\n*q* = $\\frac{9143.75}{1000}$\n\n*q* = **9.1 kJ (to 2 s.f.) ****[1 mark]**\n\n> **[mark-scheme]**\n> An answer in J only, without conversion to kJ, is not accepted\n\n> **[exam-tip]**\n> The unit in the answer space is kJ, so make sure to divide your answer in J by 1000.\n> \n> Failing to round to two significant figures will lose the final mark.",
+     "equations": [
+      {
+       "latex": "\\frac{9143.75}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>9143</mn><mo>.</mo><mn>75</mn></mrow><mn>1000</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 9143.75 over denominator 1000 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ckPHprT9VTsm96Y3",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe apparatus shown in **Fig. 2.1** can be used to determine the enthalpy of combustion of butan-1-ol, C~4~H~9~OH (*M*~r~ = 74.12 g mol^-1^).\n\n**Table 2.1**\n\n| Mass of butan-1-ol / g | 2.20 |\n| --- | :---: |\n| Volume of water / cm^3^ | 875 |\n| Initial temperature of water / °C | 22.5 |\n| Final temperature of water / °C | 25.0 |\n\n(Specific heat capacity of water = 4.18 J g^-1^ K^-1^)\n\nDetermine the enthalpy of combustion of butan-1-ol using Table 2.1 and your answer to part **(b)**.\n\nShow your working.\n\nGive your answer to three significant figures.\n\nΔ*H* = ..................... kJ mol<sup>-1</sup>",
+     "solution_md": "To determine the enthalpy of combustion of butan-1-ol:\n\n- Calculate the moles of butan-1-ol burned:\n\n*n* = $\\frac{mass}{M_{r}}$\n\nmoles of butan-1-ol burned = $\\frac{2.20}{74.12}$\n\nmoles of butan-1-ol burned = 0.02968 mol **[1 mark]**\n\n- Calculate Δ*H*:\n\nΔ*H* = $\\frac{q}{n}$\n\nΔ*H* = $\\frac{9143.75}{0.02968}$\n\nΔ*H* = 308077.8 J mol<sup>-1</sup> **[1 mark]**\n\n- Convert to kJ mol<sup>-1</sup> and apply sign:\n\nΔ*H*<sub>c</sub> = $\\frac{308077.8}{1000}$\n\nΔ*H*<sub>c</sub> = **−308 kJ mol**<sup>**-1**</sup>** (to 3 s.f.) ****[1 mark]**\n\n> **[mark-scheme]**\n> Values given to 3 (or more) significant figures during the working steps are accepted; but any values given to 2 (or less) significant figures are not accepted\n> \n> Allow error carried forward from part (b) if the method is correct\n> \n> A correct final answer, including the negative sign, with no working shown still gains full marks.\n\n> **[exam-tip]**\n> Do not round intermediate values. Use *q* = 9143.75 J (not 9100 J) to avoid accumulating rounding errors.\n> \n> Using *q* = 9100 J from part (b) gives −307 kJ mol<sup>-1</sup> and loses the final mark.",
+     "equations": [
+      {
+       "latex": "\\frac{mass}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>a</mi><mi>s</mi><mi>s</mi></mrow><msub><mi>M</mi><mi>r</mi></msub></mfrac></math>",
+       "alt": "\\frac{mass}{M_r}"
+      },
+      {
+       "latex": "\\frac{2.20}{74.12}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>20</mn></mrow><mrow><mn>74</mn><mo>.</mo><mn>12</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.20}{74.12}"
+      },
+      {
+       "latex": "\\frac{q}{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>q</mi><mi>n</mi></mfrac></math>",
+       "alt": "\\frac{q}{n}"
+      },
+      {
+       "latex": "\\frac{9143.75}{0.02968}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9143</mn><mo>.</mo><mn>75</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>02968</mn></mrow></mfrac></math>",
+       "alt": "\\frac{9143.75}{0.02968}"
+      },
+      {
+       "latex": "\\frac{308077.8}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>308077</mn><mo>.</mo><mn>8</mn></mrow><mn>1000</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 308077.8 over denominator 1000 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tkDfG6B6pmdc6Rhb",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_3NZBYkCdQ8gzDGBV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "The enthalpy change of solution for ammonium chloride can be measured using calorimetry. 12.04 g of ammonium chloride is dissolved in 125.0 cm<sup>3</sup> of water at 19.5 °C.\n\nThe standard enthalpy change of solution of ammonium chloride is +15.1 kJ mol<sup>-1</sup>. Calculate the energy change, *q*, in J, when 12.04 g of ammonium chloride is dissolved in 125.0 cm<sup>3</sup> of water.\n\nShow your working.\n\n*q* = ................................. J",
+     "solution_md": "To calculate the energy change, *q*, in J:\n\n- Calculate the moles of ammonium chloride:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\n*n*(NH<sub>4</sub>Cl) = $\\frac{12.04}{53.5}$\n\n*n*(NH<sub>4</sub>Cl) = 0.2250 mol **[1 mark]**\n\n- Convert Δ*H*<sub>sol</sub> from kJ mol<sup>-1</sup> to J mol<sup>-1</sup>:\n\nΔ*H*<sub>sol</sub> = 15.1 x 1000\n\nΔ*H*<sub>sol</sub> = 15100 J mol<sup>-1</sup>\n\n- Calculate the energy change:\n\n*q* = *n* x Δ*H*<sub>sol</sub>\n\n*q* = 0.2250 x 15 100\n\n*q* = **3397.5 J** (to 3 s.f.) **[1 mark]**\n\n> **[mark-scheme]**\n> The final answer must be given to 2 or more significant figures\n> \n> Δ*H*<sub>sol</sub> must be converted from kJ mol<sup>-1</sup> to J mol<sup>-1</sup> (×1000) to score the second mark\n\n> **[exam-tip]**\n> Work backwards from Δ*H*<sub>sol</sub> to find the energy change for the actual amount used (0.225 mol, not 1 mol).",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{12.04}{53.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><mo>.</mo><mn>04</mn></mrow><mrow><mn>53</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{12.04}{53.5}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_n3rKV2vZGnWqMbJw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe enthalpy change of solution for ammonium chloride can be measured using calorimetry. 12.04 g of ammonium chloride is dissolved in 125.0 cm^3^ of water at 19.5 °C.\n\nThe standard enthalpy change of solution of ammonium chloride is +15.1 kJ mol^-1^.\n\nUse your answer to part (a) to calculate the final temperature, in °C, of the solution.\n\nThe specific heat capacity of the solution is 4.18 J g<sup>-1</sup> K<sup>-1</sup>.\n\nShow your working.\n\nFinal temperature = ................................. °C",
+     "solution_md": "To calculate the final temperature of the solution:\n\n- Calculate the temperature change:\n\n*q* = *mc*Δ*T*\n\nΔ*T* = $\\frac{q}{mc}$\n\nΔ*T* = $\\frac{3398}{125.0\\times4.18}$\n\nΔ*T* = 6.5 °C **[1 mark]**\n\n- The dissolution is endothermic, so the temperature decreases:\n\n*T*<sub>final</sub> = 19.5 °C − 6.5 °C\n\n*T*<sub>final</sub> = **13.0 °C** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward from part (a) if method is correct\n\n> **[exam-tip]**\n> The positive enthalpy of solution (+15.1 kJ mol<sup>-1</sup>) tells you that dissolution is endothermic. Heat is absorbed from the surroundings, so the temperature of the solution decreases.\n> \n> Subtract the temperature change from the initial temperature to find the final temperature.",
+     "equations": [
+      {
+       "latex": "\\frac{q}{mc}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>q</mi><mrow><mi>m</mi><mi>c</mi></mrow></mfrac></math>",
+       "alt": "\\frac{q}{mc}"
+      },
+      {
+       "latex": "\\frac{3398}{125.0\\times4.18}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3398</mn><mrow><mn>125</mn><mo>.</mo><mn>0</mn><mo>&#xD7;</mo><mn>4</mn><mo>.</mo><mn>18</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3398}{125.0 \\times 4.18}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rR8msP2RtPNGxQRD",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_jzVkk4QNCcqBxjZY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Propane gas is used widely as a fuel which can be used in camping gas stoves. The enthalpy of combustion for propane is −2219.2 kJ mol<sup>-1</sup>.\n\nCalculate the minimum mass of fuel needed to bring 150 cm<sup>3</sup> of water from 25.0°C to its boiling point of 100.0°C.\n\nShow your working.\n\n................... g",
+     "solution_md": "To calculate the minimum mass of propane needed:\n\n- Calculate the energy required to heat the water:\n\n*q* = *mc*Δ*T*\n\n*q* = 150 x 4.18 x 75\n\n*q* = 47025 J\n\n- Convert from J to kJ:\n\n*q* = $\\frac{47025}{1000}$\n\n*q* = 47.025 kJ **[1 mark]**\n\n- Rearrange the Δ*H* equation for *n*:\n\nΔ*H* = $\\frac{q}{n}$\n\n*n* = $\\frac{q}{ΔH}$\n\n- Calculate the moles of propane required:\n\n*n* = $\\frac{47.025}{2219.2}$\n\n*n* = 0.02119 mol **[1 mark]**\n\n- Calculate the *M*<sub>r</sub> of propane:\n\n*M*<sub>r</sub> of propane = (3 × 12) + (8 × 1)\n\n*M*<sub>r</sub> of propane = 44.0 g mol<sup>-1</sup>\n\n- Calculate the mass of propane:\n\nmass = moles × *M*<sub>r</sub>\n\nmass of propane = 0.02119 x 44.0\n\nmass of propane = **0.93 g** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward if method is correct\n\n> **[exam-tip]**\n> *q* is calculated in J, so you must divide by 1000 to convert to kJ before using the enthalpy of combustion value (in kJ mol<sup>-1</sup>).",
+     "equations": [
+      {
+       "latex": "\\frac{47025}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>47025</mn><mo>&#160;</mo></mrow><mn>1000</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 47025 space over denominator 1000 end fraction"
+      },
+      {
+       "latex": "\\frac{q}{n}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>q</mi><mi>n</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "q over n"
+      },
+      {
+       "latex": "\\frac{q}{ΔH}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>q</mi><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>H</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator q over denominator straight capital delta H end fraction"
+      },
+      {
+       "latex": "\\frac{47.025}{2219.2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>47</mn><mo>.</mo><mn>025</mn></mrow><mrow><mn>2219</mn><mo>.</mo><mn>2</mn></mrow></mfrac></math>",
+       "alt": "\\frac{47.025}{2219.2}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_cbwb682hSs5cMrGH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropane gas is used widely as a fuel which can be used in camping gas stoves. The enthalpy of combustion for propane is −2219.2 kJ mol⁻¹.\n\nCalculate the minimum mass of fuel needed to bring 150 cm³ of water from 25.0°C to its boiling point of 100.0°C.\n\nSuggest why more propane may be required than calculated in part **(a)**.",
+     "solution_md": "> **[mark-scheme]**\n> More propane may be required than calculated in part (a) because:\n> \n> - Some of the heat / energy is lost to the surroundings **[1 mark]**\n\n> **[exam-tip]**\n> Draw on your practical experience of calorimetry experiments. Heat loss to the surroundings is the most common source of error."
+    },
+    {
+     "id": "qstnprt_PwCbjjJzzZfnxXg5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropane gas is used widely as a fuel which can be used in camping gas stoves. The enthalpy of combustion for propane is −2219.2 kJ mol^-1^.\n\nUsing Fig. 5.1, Sketch a labelled reaction pathway diagram for the reaction in part **(a)** including the activation energy.\n\n![Blank reaction profile graph with horizontal axis labelled “Progress of reaction” and vertical axis labelled “Enthalpy”, both with arrows showing positive direction.](assets/012-blank-reaction-profile-graph-with-horizontal-axi.png)\n\n**Fig. 5.1**",
+     "solution_md": "The completed reaction pathway diagram is:\n\n![Enthalpy profile for combustion of propane, showing C₃H₈ + 5O₂ to 3CO₂ + 4H₂O, with activation energy peak and negative ΔHᵣ arrow.](assets/013-enthalpy-profile-for-combustion-of-propane-showi.jpeg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct location and stoichiometry of reactants and products\n> \n> 1 mark for upward arrow labelled as activation energy\n> \n> 1 mark for downward arrow labelled as Δ*H*<sub>r</sub> / enthalpy change / Δ*H*<sub>c</sub>\n\n> **[exam-tip]**\n> The combustion of propane is exothermic, so the products must be at a lower energy level than the reactants.\n> \n> Write the reactants and products as balanced equations on the diagram."
+    }
+   ]
+  },
+  {
+   "id": "qstn_mJ56g6SfKJTJJgHN",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_jzPXqHjTf5cGZsmM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Propane reacts with chlorine to form chloropropane.\n\nC<sub>3</sub>H<sub>8</sub> (g) + Cl<sub>2</sub> (g) → C<sub>3</sub>H<sub>7</sub>Cl (g) + HCl (g)\n\ni) Use bond energies from Table 1.1 to calculate the enthalpy change for this reaction.\n\nShow your working.\n\n**Table 1.1**\n\n| **Bond** | **Bond Energy / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| C-H | 410 |\n| C-Cl | 340 |\n| Cl-Cl | 242 |\n| H-Cl | 431 |\n\nInclude a sign in your answer.\n\nenthalpy change = ................................. kJ mol<sup>–1</sup>\n\n[3]\n\nii) State the conditions needed for this reaction to occur.\n\n[1]",
+     "solution_md": "i) To calculate the enthalpy change for this reaction:\n\n- List the bond energies broken:\n\nE(C–H) = 410 kJ mol<sup>-1</sup>\n\nE(Cl–Cl) = 242 kJ mol<sup>-1</sup>\n\nTotal bonds broken = +652 kJ mol<sup>-1</sup> **[1 mark]**\n\n- List the bond energies formed:\n\nE(C–Cl) = 340 kJ mol<sup>-1</sup>\n\nE(H–Cl) = 431 kJ mol<sup>-1</sup>\n\nTotal bonds formed = −771 kJ mol<sup>-1</sup> **[1 mark]**\n\n- Calculate the enthalpy change:\n\nΔ*H* = Σ bond energies broken + Σ bond energies formed\n\nΔ*H* = +652 + (−771)\n\nΔ*H* = **−119 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> ii) The conditions needed for this reaction to occur are:\n> \n> - UV light / sunlight \n> **OR**\n> High temperature **[1 mark]**\n\n> **[exam-tip]**\n> Take a methodical approach to bond energy calculations by listing bonds broken and bonds formed separately before calculating the totals.\n> \n> Check whether more than one of the same type of bond is broken or formed.\n> \n> Bonds broken require energy (positive value); bonds formed release energy (negative value)."
+    },
+    {
+     "id": "qstnprt_bNqBXcbPjhd3z9r4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropane reacts with chlorine to form chloropropane.\n\nC₃H₈ (g) + Cl₂ (g) → C₃H₇Cl (g) + HCl (g)\n\nUsing Fig. 1.1, sketch a labelled reaction pathway diagram for the reaction in part **(a)** including the activation energy.\n\n![Blank enthalpy profile graph with vertical axis labelled “Enthalpy” and horizontal axis labelled “Progress of reaction”, both indicated by arrows](assets/012-blank-reaction-profile-graph-with-horizontal-axi.png)\n\n**Fig. 1.1**",
+     "solution_md": "The completed reaction pathway diagram for the reaction in part (a) is:\n\n![Enthalpy profile showing exothermic reaction C₃H₈ + Cl₂ to C₃H₇Cl + HCl, with activation energy peak and enthalpy change ΔHᵣ marked](assets/014-enthalpy-profile-showing-exothermic-reaction-c-h.png)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct location of reactants and products\n> \n> 1 mark for upward arrow labelled as activation energy\n> \n> 1 mark for downward arrow labelled as Δ*H*<sub>r</sub> / enthalpy change\n\n> **[exam-tip]**\n> There is no need to add the numerical values for the enthalpy changes from part (a) as the diagram only requires the relative starting and finishing positions of the reactants and products."
+    },
+    {
+     "id": "qstnprt_bqQcfhQmm2xRVqp3",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropane reacts with chlorine to form chloropropane.\n\nC₃H₈ (g) + Cl₂ (g) → C₃H₇Cl (g) + HCl (g)\n\ni) Use bond energies from Table 1.1 to calculate the enthalpy change for this reaction.\n\nTable 1.1\n\n| Bond | Bond Energy / kJ mol⁻¹ |\n| :---: | :---: |\n| C-H | 410 |\n| C-Cl | 340 |\n| Cl-Cl | 242 |\n| H-Cl | 431 |\n\nii) State the conditions needed for this reaction to occur.\n\nEthane and chlorine will also react together under the same conditions.\n\nState and explain the difference in enthalpy change for the two reactions",
+     "solution_md": "> **[mark-scheme]**\n> The difference in enthalpy change for the two reactions:\n> \n> - There is no / little difference in enthalpy change for the reactions **[1 mark]**\n> - The same number and type of bonds are broken and formed in both reactions **[1 mark]**\n\n> **[exam-tip]**\n> Bond energies are average values obtained from a range of similar compounds.\n> \n> There may be a very slight difference in bond energy between compounds, as the presence of other atoms and bonds can have a small influence on bond strength. However, this difference is too small to affect the calculated value significantly."
+    },
+    {
+     "id": "qstnprt_FfR6bhHPbKSVG9PS",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropane reacts with chlorine to form chloropropane.\n\nC₃H₈ (g) + Cl₂ (g) → C₃H₇Cl (g) + HCl (g)\n\nTable 1.1\n\n| Bond | Bond Energy / kJ mol⁻¹ |\n| :---: | :---: |\n| C-H | 410 |\n| C-Cl | 340 |\n| Cl-Cl | 242 |\n| H-Cl | 431 |\n\nPropane will react with bromine in a similar reaction to part **(a)**.\n\nSuggest, with a reason, whether the sum of the bonds broken would be larger or smaller compared to the reaction between propane and chlorine.",
+     "solution_md": "> **[mark-scheme]**\n> Whether the sum of bonds broken would be larger or smaller compared to propane reacting with chlorine:\n> \n> - Smaller **[1 mark]**\n> - Bromine is a larger atom than chlorine\n> **AND**\n> The Br–Br bond is (longer and) weaker than Cl–Cl **[1 mark]**\n\n> **[exam-tip]**\n> Atomic radius increases down Group 17, so Br–Br bonds are longer than Cl–Cl bonds.\n> \n> Longer covalent bonds are weaker than shorter bonds, so less energy is required to break Br–Br compared to Cl–Cl."
+    }
+   ]
+  },
+  {
+   "id": "qstn_HkWqj4K9PZXKFJg5",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_KVqprV4xRh5kSyH7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WXp9yV6RjmGqJnn3",
+      "spcpt_HmMgqHYYJMyF6nVN"
+     ],
+     "part_tier": null,
+     "problem_md": "Two common oxides of nitrogen are nitrogen monoxide, NO, and nitrogen dioxide, NO<sub>2</sub>.\n\ni) Complete Table 3.1 to show the oxidation number of nitrogen in each compound.\n\n**Table 3.1**\n\n| **Compound** | **NO** | **NO**<sub>**2**</sub> |\n|---|---|---|\n| oxidation number of N |   |   |\n\n[1]\n\nii) Construct equations for the formation of NO<sub>2</sub> by:\n\n- The reaction of N<sub>2</sub> with O<sub>2</sub>\n\n- The reaction of NO with O<sub>2</sub>\n\n[2]",
+     "solution_md": "i) The completed table showing the oxidation number of nitrogen in each compound:\n\n| **Compound** | **NO** | **NO**<sub>**2**</sub> |\n|---|---|---|\n| oxidation number of N | **Final answer:** **+2** | **Final answer:** **+4** |\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for both oxidation numbers correct: +2 (NO) and +4 (NO<sub>2</sub>)\n\n> **[mark-scheme]**\n> ii) The equations for the formation of NO<sub>2</sub>:\n> \n> - ½N<sub>2</sub> (g) + O<sub>2</sub> (g) → NO<sub>2</sub> (g)\n> **OR**\n> N<sub>2</sub> (g) + 2O<sub>2</sub> (g) → 2NO<sub>2</sub> (g) **[1 mark]**\n> \n> - NO (g) + ½O<sub>2</sub> (g) → NO<sub>2</sub> (g)\n> **OR**\n> 2NO (g) + O<sub>2</sub> (g) → 2NO<sub>2</sub> (g) **[1 mark]**\n> \n> State symbols are not required\n\n> **[exam-tip]**\n> For oxidation numbers in neutral compounds, the sum of all oxidation numbers must equal zero.\n> \n> For NO: oxygen = −2, so nitrogen = +2.\n> \n> For NO<sub>2</sub>: two oxygen atoms give −4 total, so nitrogen = +4."
+    },
+    {
+     "id": "qstnprt_YKqN3VGgwxrxCzrb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Molecules of NO<sub>2</sub> can be formed by the reaction between N<sub>2</sub> and O<sub>2</sub>. The bond between the N and O atoms in NO<sub>2</sub> is a double covalent bond.\n\nThe enthalpy change of reaction for this reaction is +497 kJ mol<sup>–1</sup>. Calculate the bond energy, in kJ mol<sup>–1</sup>, of the N=O bond.\n\nShow your working.\n\nUse relevant data from **Table 3.2**.\n\n**Table 3.2**\n\n| **Bond** | **Bond energy / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| N≡N | 941 |\n| O=O | 495 |\n\nBond energy of the N=O bond = ............................. kJ mol<sup>–1</sup>",
+     "solution_md": "To calculate the bond energy of the N=O bond:\n\n- The equation for the reaction is:\n\nN<sub>2</sub> (g) + 2O<sub>2</sub> (g) → 2NO<sub>2</sub> (g)\n\n- Calculate the total energy for bonds broken:\n\n1 × N≡N = 941 kJ mol<sup>-1</sup>\n\n2 × O=O = 2 × 495 = 990 kJ mol<sup>-1</sup>\n\nTotal bonds broken = +1931 kJ mol<sup>-1</sup> **[1 mark]**\n\n- Set up the Δ*H*<sub>r</sub> equation:\n\nΔ*H*<sub>r</sub> = Σ(bonds broken) − Σ(bonds formed)\n\n+497 = +1931 − 4(N=O) **[1 mark]**\n\n- Solve for the bond energy of N=O:\n\n4(N=O) = 1931 − 497\n\n4(N=O) = 1434\n\nN=O = $\\frac{1434}{4}$\n\nN=O = **358.5 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[exam-tip]**\n> The reaction equation is N<sub>2</sub> (g) + 2O<sub>2</sub> (g) → 2NO<sub>2</sub> (g), so 1 N≡N bond and 2 O=O bonds are broken, and 4 N=O bonds are formed.\n> \n> Work step by step:\n> \n> - Find the total bond energy for bonds broken\n> - Set up the Δ*H*<sub>r</sub> equation\n> - Solve for the N=O bond energy",
+     "equations": [
+      {
+       "latex": "\\frac{1434}{4}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1434</mn><mn>4</mn></mfrac></math>",
+       "alt": "\\frac{1434}{4}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_TTJ6kQMxHctRBMcD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_G57NmSHkVfNqRmDK",
+      "spcpt_cfW8F5MnhRBc3BcZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The boiling points of carbon dioxide and nitrogen dioxide are -78.5 <sup>o</sup>C and 21 <sup>o</sup>C respectively.\n\nSuggest a reason for the difference.",
+     "solution_md": "> **[mark-scheme]**\n> A reason for the difference in boiling points between carbon dioxide and nitrogen dioxide:\n> \n> - The van der Waals / intermolecular forces are (much) stronger in NO<sub>2</sub> / weaker in CO<sub>2</sub> **[1 mark]**\n> \n> Plus, any **one** from:\n> \n> - NO<sub>2</sub> has permanent dipole-dipole attractions between molecules; CO<sub>2</sub> does not\n> - NO<sub>2</sub> is polar but CO<sub>2</sub> is not\n> - In CO<sub>2</sub> the molecule is symmetrical and the dipoles cancel out / there is no net dipole\n> \n> **[1 mark]**\n\n> **[exam-tip]**\n> The C=O bond is actually more polar than the N=O bond (greater electronegativity difference), but NO<sub>2</sub> has a lone pair on nitrogen that makes it a bent molecule, whereas CO<sub>2</sub> is linear.\n> \n> The linear shape of CO<sub>2</sub> causes the bond dipoles to cancel, giving no net dipole. So, CO<sub>2</sub> only has weaker dispersion (London) forces, resulting in a much lower boiling point."
+    },
+    {
+     "id": "qstnprt_WH4ynMPKd8tTzxYm",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "Construct an equation that represents the standard enthalpy change of formation of nitrogen monoxide, NO.\n\nInclude state symbols.",
+     "solution_md": "> **[mark-scheme]**\n> The equation for the standard enthalpy change of formation of nitrogen monoxide, NO:\n> \n> - ½N<sub>2</sub> (g) + ½O<sub>2</sub> (g) → NO (g) **[1 mark]**\n> \n> State symbols are required\n\n> **[exam-tip]**\n> The standard enthalpy change of formation requires exactly 1 mole of product to be formed.\n> \n> Writing N<sub>2</sub> (g) + O<sub>2</sub> (g) → 2NO (g) is a common error. This produces 2 moles of NO rather than 1, so it does not represent the standard enthalpy change of formation."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8GTpRFdVB3ttXnBh",
+   "set_slug": "structured-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_Rvn8tFYfW5cqyHjm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the data in Table 2.1 to calculate the enthalpy change of reaction for the hydrogenation of propene.\n\nShow your working.\n\n**Table 2.1**\n\n| **Bond** | **Bond energy / kJ mol**<sup>**-1**</sup> |\n|---|---|\n| H–H | 435 |\n| C–H | 413 |\n| C–C | 347 |\n| C=C | 619 |\n\nEnthalpy of hydrogenation, Δ*H*<sub>r</sub> = ................................. kJ mol<sup>–1</sup>",
+     "solution_md": "To calculate the enthalpy change of reaction for the hydrogenation of propene:\n\n- Construct the equation for the hydrogenation:\n\nCH<sub>3</sub>CH=CH<sub>2</sub> (g) + H<sub>2</sub> (g) → C<sub>3</sub>H<sub>8</sub> (g)\n\n**[1 mark]**\n\n- Identify and calculate bonds broken:\n\nBonds broken = 1 × C=C + 1 × H–H\n\nBonds broken = 619 + 435\n\nBonds broken = +1054 kJ mol<sup>-1</sup>\n\n- Identify and calculate bonds formed:\n\nBonds formed = 1 × C–C + 2 × C–H\n\nBonds formed = 347 + 2(413)\n\nBonds formed = −1173 kJ mol<sup>-1</sup>\n\n**[1 mark]**\n\n- Calculate Δ*H*<sub>r</sub>:\n\nΔ*H*<sub>r</sub> = +1054 + (−1173)\n\nΔ*H*<sub>r</sub> = **−119 kJ mol**<sup>**-1**</sup>\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct hydrogenation equation: CH<sub>3</sub>CH=CH<sub>2</sub> + H<sub>2</sub> → C<sub>3</sub>H<sub>8</sub>\n> \n> 1 mark for bonds broken = +1054 kJ mol<sup>-1</sup> (C=C + H–H) **AND** bonds formed = −1173 kJ mol<sup>-1</sup> (C–C + 2 × C–H)\n> \n> 1 mark for Δ*H*<sub>r</sub> = −119 kJ mol<sup>-1</sup>\n> \n> Allow the full bond energy approach (using all bonds in propene and propane) for full marks if method and answer are correct\n\n> **[exam-tip]**\n> Only bonds that change in the reaction need to be counted. In the hydrogenation of propene, the C=C becomes C–C and H–H is broken while two new C–H bonds form. Bonds in CH<sub>3</sub> groups are identical on both sides and cancel out."
+    },
+    {
+     "id": "qstnprt_hyHRz4zfHCGVJbkV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**Table 2.1**\n\n| **Bond** | **Bond energy / kJ mol**^**-1**^ |\n| :---: | :---: |\n| H–H | 435 |\n| C–H | 413 |\n| C–C | 347 |\n| C=C | 619 |\n\nUse the data in Table 2.1 to suggest, with a reason, whether the polymerisation of propene is exothermic or endothermic",
+     "solution_md": "> **[mark-scheme]**\n> The polymerisation of propene is\n> \n> - Exothermic \n> **OR**\n> There is a net release of energy **[1 mark]**\n> - One C=C bond is broken and two C–C bonds are formed\n> **OR**\n> One C=C bond is weaker than two C–C bonds (619 kJ mol<sup>-1</sup> vs 2 × 347 = 694 kJ mol<sup>-1</sup>) **[1 mark]**\n\n> **[exam-tip]**\n> For each repeat unit of the polymer, one C=C bond breaks and two new C–C bonds form.\n> \n> The energy released in forming two C–C bonds (2 × 347 = 694 kJ mol<sup>-1</sup>) is greater than the energy required to break one C=C bond (619 kJ mol<sup>-1</sup>), giving a net release of energy."
+    },
+    {
+     "id": "qstnprt_25kRYpCxpD9MVfgy",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2007",
+      "number": "2",
+      "question_number": 1,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_mqCCKGsGRn8qBZ3X",
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Carbon, hydrogen and ethene each undergo complete combustion in oxygen.\n\n| Equation | Δ*H*<sup>θ</sup><sub>c</sub> / kJ mol<sup>–1</sup> |\n|---|---|\n| C (s) + O<sub>2</sub> (g) → CO<sub>2</sub> (g) | −393.7 |\n| H<sub>2</sub> (g) + ½O<sub>2</sub> (g) → H<sub>2</sub>O (l) | −285.9 |\n| C<sub>2</sub>H<sub>4</sub> (g) + 3O<sub>2</sub> (g) → 2CO<sub>2</sub> (g) + 2H<sub>2</sub>O (l) | −1411.0 |\n\nUse the data to calculate the standard enthalpy change of formation, Δ*H*<sup>*θ*</sup><sub>f</sub>, in kJ mol<sup>–1</sup>, of ethene at 298 K.\n\nShow your working.\n\nΔ*H*<sup>θ</sup><sub>f</sub> = ................................. kJ mol<sup>–1</sup>",
+     "solution_md": "To calculate the standard enthalpy change of formation, Δ*H*<sup>θ</sup><sub>f</sub>, of ethene:\n\n- Apply Hess’s Law:\n\nΔ*H*<sup>θ</sup><sub>f</sub> = 2Δ*H*<sup>θ</sup><sub>c</sub>(C) + 2Δ*H*<sup>θ</sup><sub>c</sub>(H<sub>2</sub>) − Δ*H*<sup>θ</sup><sub>c</sub>(C<sub>2</sub>H<sub>4</sub>) **[1 mark]**\n\n- Substitute values and calculate:\n\nΔ*H*<sup>θ</sup><sub>f</sub> = 2(−393.7) + 2(−285.9) − (−1411.0)\n\nΔ*H*<sup>θ</sup><sub>f</sub> = −787.4 − 571.8 + 1411.0\n\nΔ*H*<sup>θ</sup><sub>f</sub> = **+51.8 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for applying Hess’s Law correctly: Δ*H*<sup>θ</sup><sub>f</sub> = 2Δ*H*<sup>θ</sup><sub>c</sub>(C) + 2Δ*H*<sup>θ</sup><sub>c</sub>(H<sub>2</sub>) − Δ*H*<sup>θ</sup><sub>c</sub>(C<sub>2</sub>H<sub>4</sub>)\n> \n> Allow 1 mark for a correctly labelled Hess cycle showing the correct route\n> \n> ![Diagram of Hess’s law: 2C(s) + 2H₂(g) → C₂H₄(g), arrows to 2CO₂(g) + 2H₂O(l) with enthalpy values −393.7×2, −285.9×2 and −1411.0 kJ](assets/015-diagram-of-hess-s-law-2c-s-2h-g-c-h-g-arrows-to-.png)\n> \n> 1 mark for a final positive Δ*H*<sup>θ</sup><sub>f</sub> value = +51.8 kJ mol<sup>-1</sup>\n\n> **[exam-tip]**\n> Use Hess’s Law: the enthalpy change for the direct route (formation of ethene from its elements) equals the enthalpy change via combustion.\n> \n> Construct the formation equation from the definition. 1 mole of compound formed from its elements in their standard states:\n> \n> 2C (s) + 2H<sub>2</sub> (g) → C<sub>2</sub>H<sub>4</sub> (g)\n> \n> Remember to multiply the combustion values by the stoichiometric coefficients in the formation equation before combining them."
+    }
+   ]
+  },
+  {
+   "id": "qstn_wVf8P88bsSRFkwdv",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_bhvdX9tV7C9rrbRP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "Standard enthalpy changes include enthalpy of formation, enthalpy of combustion and enthalpy of neutralisation.\n\ni) Define the term standard enthalpy change of formation.\n\n[2]\n\nii) Construct an equation that represents the standard enthalpy change of formation of ammonia, NH<sub>3</sub>. Include state symbols.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The standard enthalpy change of formation is:\n> \n> - The enthalpy change when one mole of a compound is formed from its elements **[1 mark]**\n> - In their standard states, under standard conditions (298 K and 100 kPa) **[1 mark]**\n> \n> ii) The equation representing the standard enthalpy change of formation of ammonia is:\n> \n> - ½N<sub>2</sub> (g) + 1½H<sub>2</sub> (g) → NH<sub>3</sub> (g) **[1 mark]**\n> \n> Equations using integers (e.g. N<sub>2</sub> (g) + 3H<sub>2</sub> (g) → 2NH<sub>3</sub> (g)) are not accepted as they do not represent the formation of one mole of NH<sub>3</sub>\n\n> **[exam-tip]**\n> For part i), both marking points must be included to score both marks. The enthalpy change involves forming one mole of a compound from its elements, and the elements must be in their standard states — the most stable form of each element at 298 K and 100 kPa. For example, the standard state of carbon is graphite (not diamond), and the standard state of bromine is liquid Br<sub>2</sub> (not gas).\n> \n> For part ii), CIE accepts fractional coefficients in enthalpy of formation equations. The equation must produce exactly one mole of NH<sub>3</sub>. Using N<sub>2</sub> (g) + 3H<sub>2</sub> (g) → 2NH<sub>3</sub> (g) does not score the mark because it represents the formation of two moles."
+    },
+    {
+     "id": "qstnprt_Q9rV54DWx2qr5PvQ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by standard conditions in enthalpy measurements.",
+     "solution_md": "> **[mark-scheme]**\n> Standard conditions in enthalpy measurements are:\n> \n> - A temperature of 298 K\n> **AND**\n> A pressure of 100 kPa **[1 mark]**\n\n> **[exam-tip]**\n> A common error is to give the temperature in degrees Celsius (25 °C) rather than kelvin. CIE requires the temperature in kelvin (298 K) and the pressure in kPa (100 kPa)."
+    },
+    {
+     "id": "qstnprt_k4t4n2H2qMW2jVB8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_sxWZPvSF3Y2Jk76v"
+     ],
+     "part_tier": null,
+     "problem_md": "The equation for the reaction between dilute sulfuric acid and aqueous sodium hydroxide is shown.\n\nH<sub>2</sub>SO<sub>4</sub> (aq) + 2NaOH (aq) → Na<sub>2</sub>SO<sub>4</sub> (aq) + 2H<sub>2</sub>O (l)\n\nExplain why the enthalpy change for this reaction does not represent the standard enthalpy change of neutralisation.",
+     "solution_md": "> **[mark-scheme]**\n> The enthalpy change does not represent the standard enthalpy change of neutralisation because:\n> \n> - The standard enthalpy change of neutralisation is defined as the enthalpy change when one mole of water is formed from the reaction of an acid and a base **[1 mark]**\n> - This reaction produces two moles of water / the equation must be halved so that only one mole of water is produced **[1 mark]**\n\n> **[exam-tip]**\n> The key criterion for the standard enthalpy change of neutralisation is that exactly one mole of water must be formed. The identity of the acid and base does not matter.\n> \n> Always check the coefficient of water in any neutralisation equation. If it is not 1, the equation does not directly represent the standard enthalpy change of neutralisation."
+    }
+   ]
+  },
+  {
+   "id": "qstn_kNJzPhkVmYVmVQ2h",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_XJpcFXc8DXHgjwm4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term bond energy.",
+     "solution_md": "> **[mark-scheme]**\n> The definition of bond energy is:\n> \n> - The energy required to break one mole of a specified bond **[1 mark]**\n> - In a gaseous molecule, averaged over a range of similar compounds **[1 mark]**\n\n> **[exam-tip]**\n> The definition must include both marking points:\n> \n> - Bond energy relates to breaking one mole of a specific bond\n> - It is an average value taken from a variety of gaseous molecules.\n> \n> The average is necessary because the exact energy depends on the molecular environment. A C–H bond in methane has a slightly different energy from a C–H bond in ethanol. Bond energies are always positive (endothermic) because breaking bonds always requires an input of energy."
+    },
+    {
+     "id": "qstnprt_pqdr43dwGtpKsnyS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe definition of bond energy is:\n\n- The energy required to break one mole of a specified bond\n- In a gaseous molecule, averaged over a range of similar compounds\n\nSuggest why the value of Δ*H*<sub>r</sub> calculated using bond energies may differ from the value obtained by experiment.",
+     "solution_md": "> **[mark-scheme]**\n> The calculated value may differ from the experimental value because:\n> \n> - Bond energies are average values (taken over a range of compounds and molecular environments) and not exact values for the specific bonds in the molecules **[1 mark]**\n\n> **[exam-tip]**\n> Bond energy data tables list average values calculated from many different compounds. For example, the C–H bond energy is an average of the C–H bond energy in methane, ethane, ethanol, and many other molecules. The actual C–H bond energy in a specific molecule may differ slightly from this average, introducing a small error into the calculated enthalpy change."
+    },
+    {
+     "id": "qstnprt_nQR87v7Jb5Wx5cN2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Use the data given in Table 3.1 to calculate the enthalpy change for the hydration of ethene to form ethanol. Show your working.\n\nCH<sub>2</sub>=CH<sub>2</sub> (g) + H<sub>2</sub>O (g) → CH<sub>3</sub>CH<sub>2</sub>OH (l)\n\n**Table 3.1**\n\n| Bond | Bond energy / kJ mol<sup>-1</sup> |\n|---|---|\n| C–C | 346 |\n| C=C | 614 |\n| C–H | 414 |\n| C–O | 358 |\n| O–H | 463 |",
+     "solution_md": "To calculate the enthalpy change for the hydration of ethene:\n\n- List the bonds broken (endothermic) in the reactants:\n\nE(C=C) = 1 x 614 = 614 kJ mol<sup>-1</sup>\n\nE(C–H) = 4 x 414 = 1656 kJ mol<sup>-1</sup>\n\nE(O–H) = 2 x 463 = 926 kJ mol<sup>-1</sup>\n\nTotal bonds broken = 614 + 1656 + 926 = 3196 kJ mol<sup>-1</sup> **[1 mark]**\n\n- List the bonds formed (exothermic) in the products:\n\nE(C–C) = 1 x 346 = 346 kJ mol<sup>-1</sup>\n\nE(C–H) = 5 x 414 = 2070 kJ mol<sup>-1</sup>\n\nE(C–O) = 1 x 358 = 358 kJ mol<sup>-1</sup>\n\nE(O–H) = 1 x 463 = 463 kJ mol<sup>-1</sup>\n\nTotal bonds formed = 346 + 2070 + 358 + 463 = 3237 kJ mol<sup>-1</sup> **[1 mark]**\n\n- Calculate the enthalpy change:\n\nΔ*H*<sub>r</sub> = total bonds broken − total bonds formed\n\nΔ*H*<sub>r</sub> = 3196 − 3237\n\nΔ*H*<sub>r</sub> = **−41 kJ mol**<sup>**−1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct total bonds broken: 3196 kJ mol<sup>-1</sup>\n> \n> 1 mark for correct total bonds formed: 3237 kJ mol<sup>-1</sup>\n> \n> 1 mark for correct final answer: −41 kJ mol<sup>-1</sup>\n\n> **[exam-tip]**\n> Drawing out the full structural formulae of the reactants and products helps you identify every bond.\n> \n> ![Structural equation showing ethene reacting with water to form ethanol, with carbon–carbon double bond becoming single and –OH group added](assets/016-structural-equation-showing-ethene-reacting-with.jpeg)\n> \n> In ethene (CH<sub>2</sub>=CH<sub>2</sub>), there are four C–H bonds and one C=C bond. Water (H<sub>2</sub>O) has two O–H bonds.\n> \n> In ethanol (CH<sub>3</sub>CH<sub>2</sub>OH), there are five C–H bonds, one C–C bond, one C–O bond, and one O–H bond."
+    },
+    {
+     "id": "qstnprt_56Cf2QMk2j6924sR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethane reacts with bromine to form 1,2-dibromoethane and hydrogen bromide.\n\nConstruct an equation for this reaction. Hence, use the data in Table 3.2 to calculate the enthalpy change for this reaction. Show your working.\n\n| Bond | Bond enthalpy / kJ mol<sup>-1</sup> |\n|---|---|\n| C–C | 346 |\n| C–H | 414 |\n| C–Br | 285 |\n| H–Br | 366 |\n| Br–Br | 193 |\n\n**Table 3.2**",
+     "solution_md": "To calculate the enthalpy change for the reaction of ethane with bromine:\n\n- Construct the balanced equation:\n\nCH<sub>3</sub>CH<sub>3</sub> (g) + 2Br<sub>2</sub> (g) → CH<sub>2</sub>BrCH<sub>2</sub>Br (g) + 2HBr (g) **[1 mark]**\n\n- List the bonds broken (endothermic) in the reactants:\n\nE(C–C) = 1 x 346 = 346 kJ mol<sup>-1</sup>\n\nE(C–H) = 6 x 414 = 2484 kJ mol<sup>-1</sup>\n\nE(Br–Br) = 2 x 193 = 386 kJ mol<sup>-1</sup>\n\nTotal bonds broken = 346 + 2484 + 386 = 3216 kJ mol<sup>-1</sup> **[1 mark]**\n\n- List the bonds formed (exothermic) in the products:\n\nE(C–C) = 1 x 346 = 346 kJ mol<sup>-1</sup>\n\nE(C–H) = 4 x 414 = 1656 kJ mol<sup>-1</sup>\n\nE(C–Br) = 2 x 285 = 570 kJ mol<sup>-1</sup>\n\nE(H–Br) = 2 x 366 = 732 kJ mol<sup>-1</sup>\n\nTotal bonds formed = 346 + 1656 + 570 + 732 = 3304 kJ mol<sup>-1</sup> **[1 mark]**\n\n- Calculate the enthalpy change:\n\nΔ*H*<sub>r</sub> = total bonds broken − total bonds formed\n\nΔ*H*<sub>r</sub> = 3216 − 3304\n\nΔ*H*<sub>r</sub> = **−88 kJ mol**<sup>**−1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for a correctly balanced equation: CH<sub>3</sub>CH<sub>3</sub> (g) + 2Br<sub>2</sub> (g) → CH<sub>2</sub>BrCH<sub>2</sub>Br (g) + 2HBr (g)\n> \n> 1 mark for correct total bonds broken: 3216 kJ mol<sup>-1</sup>\n> \n> 1 mark for correct total bonds formed: 3304 kJ mol<sup>-1</sup>\n> \n> 1 mark for correct final answer: −88 kJ mol<sup>-1</sup>\n\n> **[exam-tip]**\n> Drawing out the structural formulae helps identify all the bonds in each molecule.\n> \n> ![Reaction scheme: ethane reacting with two bromine molecules to form 1,2-dibromoethane and two hydrogen bromide molecules, drawn as structural formulae.](assets/017-reaction-scheme-ethane-reacting-with-two-bromine.jpeg)\n> \n> Ethane (CH<sub>3</sub>CH<sub>3</sub>) has one C–C bond and six C–H bonds.\n> \n> The product 1,2-dibromoethane (CH<sub>2</sub>BrCH<sub>2</sub>Br) has one C–C bond, four C–H bonds, and two C–Br bonds. Notice that the C–C bond appears on both sides of the calculation and effectively cancels out as it has not changed during the reaction."
+    }
+   ]
+  },
+  {
+   "id": "qstn_DXfYjtPkzZn78D9h",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_wJHJ8X8qZM6rHtBk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JGgWc2RK3Vc99QBw"
+     ],
+     "part_tier": null,
+     "problem_md": "Freon 21 is a hydrochlorofluorocarbon that was used as a propellant and refrigerant but later withdrawn from use because of its effect on ozone depletion. The formula is CHCl<sub>2</sub>F.\n\nFreon 21 is produced by reacting hydrogen fluoride with trichloromethane in the following reaction:\n\nCHCl<sub>3</sub> (g) + HF (g) → CHCl<sub>2</sub>F (g) + HCl (g)\n\nUse the data in Table 2.1 to calculate the standard enthalpy change of reaction, Δ*H*°<sub>r</sub>, for this reaction. Show your working.\n\n| Compound | Standard enthalpy change of formation, Δ*H*°<sub>f</sub> / kJ mol<sup>–1</sup> |\n|---|---|\n| CHCl<sub>3</sub> (g) | –103.2 |\n| CHCl<sub>2</sub>F (g) | –284.1 |\n| HF (g) | –273.3 |\n| HCl (g) | –92.3 |\n\n**Table 2.1**",
+     "solution_md": "To calculate the standard enthalpy change of reaction, Δ*H*°<sub>r</sub>:\n\n- State the relationship:\n\nΔ*H*°<sub>r</sub> = ΣΔ*H*°<sub>f</sub> (products) − ΣΔ*H*°<sub>f</sub> (reactants)\n\n- Substitute the values from Table 2.1:\n\nΔ*H*°<sub>r</sub> = [(–284.1) + (–92.3)] − [(–103.2) + (–273.3)] **[1 mark]**\n\nΔ*H*°<sub>r</sub> = –376.4 − (–376.5)\n\nΔ*H*°<sub>r</sub> = **+0.1 kJ mol**<sup>**–1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct substitution: [(–284.1) + (–92.3)] − [(–103.2) + (–273.3)]\n> \n> 1 mark for correct final answer: +0.1 kJ mol<sup>–1</sup> (allow 0.1 kJ mol<sup>–1</sup>)\n\n> **[exam-tip]**\n> The formula for calculating the standard enthalpy change of reaction using standard enthalpies of formation is:\n> \n> Δ*H*°<sub>r</sub> = ΣΔ*H*°<sub>f</sub> (products) − ΣΔ*H*°<sub>f</sub> (reactants)\n> \n> All four values in the table are negative. Be careful with the signs when subtracting a group of negative values — use brackets around each set of products and reactants to avoid sign errors.\n> \n> The answer is very close to zero (+0.1 kJ mol<sup>–1</sup>), meaning the reaction is approximately thermoneutral. This affects how you draw the reaction pathway diagram in part (b): the two horizontal lines should be at almost the same height."
+    },
+    {
+     "id": "qstnprt_pGD4w9q4TGqRgWvV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFreon 21 is a hydrochlorofluorocarbon that was used as a propellant and refrigerant but later withdrawn from use because of its effect on ozone depletion. The formula is CHCl₂F.\n\nFreon 21 is produced by reacting hydrogen fluoride with trichloromethane in the following reaction:\n\nCHCl₃ (g) + HF (g) → CHCl₂F (g) + HCl (g)\n\nUse the data in Table 2.1 to calculate the standard enthalpy change of reaction, Δ*H*°r, for this reaction.\n\nOn Fig. 2.1, sketch a reaction pathway diagram for this reaction. Label the diagram to show the enthalpy change of reaction, Δ*H*°<sub>r</sub>, and the activation energy, *E*<sub>a</sub>.\n\n![Blank reaction pathway diagram with energy on the y-axis and reaction coordinate on the x-axis](assets/012-blank-reaction-profile-graph-with-horizontal-axi.png)\n\n**Fig. 2.1**",
+     "solution_md": "The completed reaction pathway diagram is:\n\n![Reaction pathway diagram showing reactants and products at almost the same energy level with a curved hump above; ΔH°r labelled as a near-zero energy difference between reactants and products, and Ea labelled as an upward arrow from the reactants level to the peak of the curve](assets/018-reaction-pathway-diagram-showing-reactants-and-p.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a correctly drawn reaction profile with reactants and products labelled and at approximately the same energy level (Δ*H*°<sub>r</sub> ≈ 0), with a smooth curve showing a hump\n> \n> 1 mark for activation energy *E*<sub>a</sub> correctly labelled as an upward arrow from the reactants energy level to the peak of the curve\n\n> **[exam-tip]**\n> Since the standard enthalpy change of reaction from part (a) is +0.1 kJ mol<sup>–1</sup>, which is very close to zero, the reactants and products should be drawn at almost identical heights. If you draw them far apart, you have not correctly applied the calculated value.\n> \n> The activation energy is always shown as an arrow from the energy level of the reactants up to the peak of the curve. It represents the minimum energy that reactant particles must have to react."
+    },
+    {
+     "id": "qstnprt_rvZQknZKyzD8W8vT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term activation energy.",
+     "solution_md": "> **[mark-scheme]**\n> The definition of activation energy is:\n> \n> - The minimum energy required for a reaction to occur / the minimum energy that colliding particles must possess for a successful collision **[1 mark]**\n\n> **[exam-tip]**\n> The activation energy, *E*<sub>a</sub>, is shown on a reaction pathway diagram as an arrow from the energy level of the reactants to the peak of the curve. It represents the energy barrier that reacting particles must overcome for the reaction to proceed."
+    }
+   ]
+  }
+ ]
+}

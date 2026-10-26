@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:42:27Z",
+ "generated_utc": "2026-10-26T14:33:28Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/",
@@ -136,6 +136,13 @@
      "solution_md": "(i) Simpson’s index of diversity (D) for the dung beetles on the grassland site that was not grazed by cattle is...\n\n- $\\frac{n}{N}$ figures correctly calculated in table 2; **[1 mark]**\n- $( \\frac{n}{N} )^{2}$figures calculated **AND** total calculated in tabled 2; **[1 mark]**\n- (*D* =) 0.228; **[1 mark]**\n\n*Calculated figures should be as follows:*\n\n| **dung beetle** **species** | **number of dung** **beetles on grassland** **not grazed by cattle** | $\\frac{n}{N}$ | $(\\frac{n}{N})^{2}$ |\n|---|---|---|---|\n| **A** | 6641 | 0.873 | 0.762 |\n| **B** | 774 | 0.102 | 0.010 |\n| **C** | 108 | 0.014 | 0.000 |\n| **D** | 85 | 0.011 | 0.000 |\n| **total** | 7608 |   | 0.772 |\n\n(ii) The results in Table 1 and both figures for Simpson’s index of diversity show that the effect of grazing by cattle on the diversity of dung beetles is as follows...\n\n- There is greater species evenness on grazed grassland / beetles on not-grazed grassland are mostly of one species/species A; **[1 mark]**\n- Grazing increases (dung beetle species) diversity; **[1 mark]**\n\n***Accept**** reverse arguments for both marking points, e.g. \"there is lower species evenness on not-grazed grassland\" (mp1) and \"Having no grazing decreases beetle diversity\" (mp2). *\n\n**[Total: 5 marks]**\n\n> *i) Diversity index can be calculated as follows...*\n\n![rIL1B_Xh_untitled-1](assets/001-ril1b-xh-untitled-1.png)\n\n> *ii) Biodiversity is measured using two factors; the number of different species present (species richness) and the number of individuals of each species present (species evenness). Table 9.1 shows that both grassland sites have the same species richness, but that the **species evenness** of the not-grazed site is lower; most of the beetles on this site are species A and the numbers of other species are low. *\n\n> *Both species richness and species evenness are taken into account when the index of diversity is calculated, so this results in the not-grazed site having a lower index of diversity than the grazed site. This suggests that grazing is good for beetle diversity in a grassland habitat.*",
      "equations": [
       {
+       "latex": null,
+       "mathml": null,
+       "alt": "D equals 1 minus open parentheses straight capital sigma open parentheses straight n over straight N close parentheses squared close parentheses",
+       "render": "`D = 1 - ( capital sigma ( n / N ) ^2 )`",
+       "via": "alt-transpile"
+      },
+      {
        "latex": "\\frac{n}{N}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"bold-italic\">n</mi><mi mathvariant=\"bold-italic\">N</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "bold italic n over bold italic N"
@@ -149,6 +156,13 @@
        "latex": "\\frac{n}{N}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mi>n</mi><mi>N</mi></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "n over N"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 14px style open parentheses n over N close parentheses squared end style",
+       "render": "$( \\frac{n}{N} )^{2}$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{n}{N}",
@@ -1066,7 +1080,16 @@
      ],
      "part_tier": null,
      "problem_md": "**Extract:**\n\n**Table 1** shows the results of pond sampling from two different ponds.\n\n**Table 1**\n\n| Species | Pond A | Pond B |\n| Stonefly nymph | 12 | 1 |\n| Caddisfly larva | 14 | 2 |\n| Bloodworm | 0 | 25 |\n| Mosquito larva | 0 | 53 |\n| Freshwater shrimp | 15 | 19 |\n| Pond snail | 17 | 3 |\n\nThe index of diversity for pond **B **is 0.6485.\n\nUsing the formula below, calculate the index of diversity for pond **A**.\n\n`d = 1 - ( SUM_ _ to _ of ( n / N ) ^2 )`",
-     "solution_md": "The index of diversity for pond **A** is calculated as follows...\n\n- 0.2534; **[1 mark]**\n- = 0.7466/0.747; **[1 mark] **\n\n*Full marks can be awarded for the correct answer of 0.7466 in the absence of other calculations.*\n\n**[Total: 2 marks]**\n\n![ma9](assets/016-ma9.png)"
+     "solution_md": "The index of diversity for pond **A** is calculated as follows...\n\n- 0.2534; **[1 mark]**\n- = 0.7466/0.747; **[1 mark] **\n\n*Full marks can be awarded for the correct answer of 0.7466 in the absence of other calculations.*\n\n**[Total: 2 marks]**\n\n![ma9](assets/016-ma9.png)",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "straight d equals space 1 minus open parentheses sum from blank to blank of open parentheses straight n over straight N close parentheses squared close parentheses",
+       "render": "`d = 1 - ( SUM_ _ to _ of ( n / N ) ^2 )`",
+       "via": "alt-transpile"
+      }
+     ]
     },
     {
      "id": "qstnprt_pGrXw3Bh9zKZWz6J",

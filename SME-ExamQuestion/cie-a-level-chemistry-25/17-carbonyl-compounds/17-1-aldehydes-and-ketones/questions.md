@@ -1,6 +1,6 @@
 # Exam Questions — Aldehydes & Ketones
 **17. Carbonyl Compounds** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 21 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 29 questions across 2 sets
 
 
 ## Multiple Choice Questions (21 questions)
@@ -220,3 +220,454 @@ What is the name of this type of mechanism?
 **Q21** [1 mark]
 
 What is formed when butanone is warmed with a solution of NaBH<sub>4</sub>?
+
+## Structured Questions (8 questions)
+
+
+### Q1 — medium — 13 marks
+
+**Q1** [6 marks]
+
+2-hydroxybutanoic acid can be synthesised from propanal via a reaction with hydrogen cyanide and subsequent hydrolysis of 2-hydroxybutanenitrile. A possible pathway is shown in **Fig. 3.1**. The incomplete mechanism for reaction **2** is shown in **Fig. 3.2**.
+
+compound **A** $\overset{\mathrm{reaction}1}{\rightarrow}$ propanal $\overset{\mathrm{reaction}2}{\rightarrow}$ 2-hydroxybutanenitrile $\overset{\mathrm{reaction}3}{\rightarrow}$ 2-hydroxybutanoic acid
+
+**Fig. 3.1**
+
+![Incomplete mechanism for the reaction of propanal with cyanide ion ](assets/017-incomplete-mechanism-for-the-reaction-of-propana.png)
+
+**Fig. 3.2**
+
+i) State the reagents and conditions required for reaction **2**.
+
+[2]
+
+ii) Complete the mechanism for this reaction, showing all relevant curly arrows, lone pairs, and partial charges.
+
+[4]
+
+**Q1** [2 marks]
+
+2-hydroxybutanenitrile contains a chiral centre. Draw the three-dimensional structures of the two optical isomers.
+
+|   |   |
+|---|---|
+
+**Q1** [1 mark]
+
+**Extract:**
+
+2-hydroxybutanoic acid can be synthesised from propanal via a reaction with hydrogen cyanide and subsequent hydrolysis of 2-hydroxybutanenitrile. A possible pathway is shown in **Fig. 3.1**.
+
+compound **A** \$\$\overset{reaction 1}{\rightarrow}\$\$ propanal \$\$\overset{reaction 2}{\rightarrow}\$\$ 2-hydroxybutanenitrile \$\$\overset{reaction 3}{\rightarrow}\$\$ 2-hydroxybutanoic acid
+
+State the reagent(s) for reaction **3**.
+
+**Q1** [1 mark]
+
+Compound **A** forms propanal when oxidised with acidified potassium dichromate(VI) under distillation conditions.
+
+Draw the structural formula of compound **A**.
+
+**Q1** [3 marks]
+
+Compound **A** (propan-1-ol) and propanal are each tested with the reagents shown in **Table 3.1**.
+
+Complete **Table 3.1** by identifying which compound(s) give a positive result for each test. If neither gives a positive result, write 'neither'.
+
+**Table 3.1**
+
+| **Reagent** | **Compound(s) giving a positive result** |
+|---|---|
+| Alkaline I<sub>2</sub> (aq) |   |
+| Na<sub>2</sub>CO<sub>3</sub> (aq) |   |
+| 2,4-DNPH |   |
+
+### Q2 — medium — 15 marks
+
+**Q2** [1 mark]
+
+Compound **W** can be converted into three different organic compounds as shown by the reaction scheme in **Fig. 2.1**.
+
+![Reaction scheme: propanal (W, CH₃CH₂CHO) forms product X with NaBH₄, product Y with HCN, and propanoic acid (CH₃CH₂COOH) with acidified K₂Cr₂O₇ under reflux](assets/020-reaction-scheme-propanal-w-ch-ch-cho-forms-produ.png)
+
+**Fig. 2.1**
+
+Construct an equation for the formation of **X**, using [H] to represent one atom of hydrogen from the reducing agent.
+
+**Q2** [5 marks]
+
+**Extract:**
+
+Compound **W** can be converted into three different organic compounds as shown by the reaction scheme in **Fig. 2.1**.
+
+{align=center} **Fig. 2.1**
+
+Product **Y** is formed from compound **W** as shown in **Fig. 2.1**.
+
+i) State the specific type of stereoisomerism shown by product **Y**.
+
+[1]
+
+ii) Draw the mechanism for the nucleophilic addition of HCN to compound **W**. Show all relevant curly arrows, dipoles, and lone pairs.
+
+[3]
+
+iii) Explain how the mechanism leads to the formation of optical isomers of **Y**.
+
+[1]
+
+**Q2** [3 marks]
+
+When 5.00 cm<sup>3</sup> of propanal (*M*<sub>r</sub> = 58.0) were reacted with an excess of acidified potassium dichromate(VI) solution, 4.25 g of propanoic acid (*M*<sub>r</sub> = 74.0) were obtained.
+
+The density of propanal is 0.810 g cm<sup>−3</sup>.
+
+Calculate the percentage yield for this reaction. Show your working.
+
+**Q2** [3 marks]
+
+A different carbonyl compound, **Q**, has an *M*<sub>r</sub> of 72. Compound **Q** reacts with 2,4-dinitrophenylhydrazine but not with Tollens' reagent.
+
+i) State the observation when **Q** reacts with 2,4-dinitrophenylhydrazine.
+
+[1]
+
+ii) State the functional group present in **Q**.
+
+[1]
+
+iii) Deduce the name or structural formula of compound **Q**.
+
+[1]
+
+**Q2** [3 marks]
+
+**Extract:**
+
+A different carbonyl compound, **Q**, has an *M*~r~ of 72. Compound **Q** reacts with 2,4-dinitrophenylhydrazine but not with Tollens' reagent.
+
+ii) The functional group present in Q:
+- Ketone
+
+iii) Compound Q is:
+- Butanone / CH~3~COCH~2~CH~3~
+
+Compound **Q** can be reduced to compound **R**.
+
+i) State a suitable reducing agent for this reaction.
+
+[1]
+
+ii) State the functional group present in compound **R**.
+
+[1]
+
+iii) Draw the structural formula of compound **R**.
+
+[1]
+
+### Q3 — hard — 10 marks
+
+**Q3** [4 marks]
+
+This question is about the reactions of an organic compound **R**.
+
+Analysis of 15.0 g of an organic compound, **R**, showed it to contain 69.8% carbon, 2.79 g of oxygen and the remaining mass was hydrogen.
+
+i) Calculate the empirical formula of **R**. Show your working.
+
+[3]
+
+ii) The relative molecular mass, *M*<sub>r</sub>, of compound **R** is 86.0. Deduce the molecular formula of compound **R**.
+
+[1]
+
+**Q3** [4 marks]
+
+**Extract:**
+
+Analysis of 15.0 g of an organic compound, **R**, showed it to contain 69.8% carbon, 2.79 g of oxygen and the remaining mass was hydrogen.
+
+ii) The relative molecular mass, *M*~r~, of compound **R** is 86.0. Deduce the molecular formula of compound **R**.
+
+Molecular formula = C~5~H~10~O
+
+Compound **R** is a straight chain organic compound. Compound **R** reacts with HCN, followed by dilute acid, to form compound **S**, which shows optical isomerism.
+
+Compounds **R** and **S** were tested with acidified potassium dichromate(VI) and Tollens' reagent. The results are shown in **Table 2.1**.
+
+**Table 2.1**
+
+|   | **R** | **S** |
+|---|---|---|
+| Acidified potassium dichromate(VI) | Green solution | Green solution |
+| Tollens' reagent | Silver mirror formed | No visible change |
+
+Using this information and your answer from part **(a)**, deduce the identities of compounds **R** and **S**. Justify your answer.
+
+**Q3** [1 mark]
+
+**Extract:**
+
+Compound **R** is a straight chain organic compound. Compound **R** reacts with HCN, followed by dilute acid, to form compound **S**, which shows optical isomerism.
+
+Compound S is 2-hydroxyhexanenitrile.
+
+Draw the three-dimensional structures of the two optical isomers of compound **S**.
+
+**Q3** [1 mark]
+
+**Extract:**
+
+Compound **R** is a straight chain organic compound. Compound **R** reacts with HCN, followed by dilute acid, to form compound **S**, which shows optical isomerism.
+
+Compound S is formed from compound R (pentanal) by reaction with HCN and compound S is 2-hydroxyhexanenitrile.
+
+Draw the skeletal formulae of two straight-chain positional isomers of compound **S** that do not exhibit optical isomerism.
+
+### Q4 — easy — 6 marks
+
+**Q4** [2 marks]
+
+Complete **Table 3.1** to show the observations when an aldehyde and a ketone are each tested with Tollens' reagent.
+
+**Table 3.1**
+
+|   | **Initial observation** | **Final observation** |
+|---|---|---|
+| **Ketone** | Colourless solution |   |
+| **Aldehyde** | Colourless solution |   |
+
+**Q4** [2 marks]
+
+Complete **Table 3.2** to show the observations when an aldehyde and a ketone are each warmed separately with Fehling's solution.
+
+**Table 3.2**
+
+|   | **Initial observation** | **Final observation** |
+|---|---|---|
+| **Ketone** | Blue solution |   |
+| **Aldehyde** | Blue solution |   |
+
+**Q4** [2 marks]
+
+Ethanal and propanal are each warmed separately with alkaline iodine solution, I<sub>2</sub>(aq).
+
+i) State which compound gives a yellow precipitate in this reaction.
+
+[1]
+
+ii) Explain your answer to part **(c)(i)**.
+
+[1]
+
+### Q5 — medium — 15 marks
+
+**Q5** [1 mark]
+
+Calcium and its compounds have a large variety of applications.
+
+Calcium metal reacts readily with most acids.
+
+When calcium metal is placed in dilute sulfuric acid, it reacts vigorously at first.
+
+After a short time, a layer of calcium sulfate forms on the calcium metal and the reaction stops. Some of the calcium metal and dilute sulfuric acid remain unreacted.
+
+Suggest an explanation for these observations.
+
+*Source: 2022 Specimen Paper 2 Q3A*
+
+
+**Q5** [3 marks]
+
+Calcium ethanedioate is formed when calcium reacts with ethanedioic acid, HOOCCOOH.
+
+Calcium ethanedioate contains one cation and one anion.
+
+i) State the full electronic configuration of the cation in calcium ethanedioate.
+
+[1]
+
+ii) Deduce the charge on the cation.
+
+[1]
+
+iii) Draw the fully displayed formula of ethanedioic acid.
+
+[1]
+
+*Source: 2022 Specimen Paper 2 Q3B*
+
+
+**Q5** [3 marks]
+
+Calcium chlorate(I), Ca(ClO)<sub>2</sub>, is used as an alternative to sodium chlorate(I), NaClO, in some household products.
+
+i) The chlorate(I) ion is formed when cold aqueous sodium hydroxide reacts with chlorine.
+
+Write an ionic equation for this reaction. State symbols are **not** required.
+
+[1]
+
+ii) The chlorate(I) ion is unstable and decomposes when heated as shown.
+
+3ClO<sup>–</sup> → 2Cl<sup>–</sup> + ClO<sub>3</sub><sup>–</sup>
+
+This reaction can be described as a disproportionation reaction. Describe what is meant by disproportionation reaction.
+
+[1]
+
+iii) Deduce the oxidation number of chlorine in each species for the equation in **(c)(ii). **
+
+Complete the boxes.
+
+![Chemistry question showing 3ClO⁻ → 2Cl⁻ + ClO₃⁻ with three boxes to fill in oxidation numbers of chlorine; first box already has +1 filled in.](assets/025-chemistry-question-showing-3clo-2cl-clo-with-thr.png)
+
+[1]
+
+*Source: 2022 Specimen Paper 2 Q3C*
+
+
+**Q5** [8 marks]
+
+Calcium carbonate reacts with 2-hydroxypropanoic acid to form product Y.
+
+![Diagram showing structural formula of 2-hydroxypropanoic acid and its salt Y, labelled as calcium 2-hydroxypropanoate, Ca(CH₃CH(OH)COO)₂](assets/027-diagram-showing-structural-formula-of-2-hydroxyp.png)
+
+**Fig. 1.1**
+
+i) Identify the **two** other products of the reaction of 2-hydroxypropanoic acid with calcium carbonate.
+
+[1]
+
+Two possible methods of making 2-hydroxypropanoic acid are shown in Fig. 1.2.
+
+![Reaction scheme showing conversion of ethanal to 2‑hydroxypropanoic acid and propane-1,2-diol to 2‑hydroxypropanoic acid ](assets/028-reaction-scheme-showing-conversion-of-ethanal-to.png)
+
+**Fig. 1.2**
+
+ii) State suitable reagents and conditions for reactions **1** and **3. **
+
+reaction **1** .......................................................................
+
+reaction **3 **........................................................................
+
+[4]
+
+iii) Deduce the type of reaction that occurs in reaction **2**.
+
+[1]
+
+iv) The reagent for reaction **4** is NaBH<sub>4</sub>.
+
+Identify the role of NaBH<sub>4</sub> in this reaction.
+
+[1]
+
+v) 2-hydroxypropanoic acid has a chiral centre.
+
+State what is meant by chiral centre.
+
+[1]
+
+*Source: 2022 Specimen Paper 2 Q3D*
+
+
+### Q6 — easy — 7 marks
+
+**Q6** [2 marks]
+
+State the class of alcohol that can be oxidised to give:
+
+i) an aldehyde
+
+[1]
+
+ii) a ketone
+
+[1]
+
+**Q6** [2 marks]
+
+State the oxidation product of:
+
+i) an aldehyde
+
+[1]
+
+ii) a ketone
+
+[1]
+
+**Q6** [3 marks]
+
+Describe how 2,4-dinitrophenylhydrazine (2,4-DNPH) and melting point data can be used to determine the identity of an unknown carbonyl compound.
+
+### Q7 — hard — 10 marks
+
+**Q7** [2 marks]
+
+Aqueous sodium tetrahydridoborate, NaBH<sub>4</sub>, is a common reducing agent.
+
+State the systematic names of **two** isomers with the formula C<sub>3</sub>H<sub>6</sub>O that **cannot** be reduced by aqueous NaBH<sub>4</sub>.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+Aqueous sodium tetrahydridoborate, NaBH~4~, is a common reducing agent.
+
+State the systematic names of the **two** isomers with the formula C<sub>3</sub>H<sub>6</sub>O that **can** be reduced by aqueous NaBH<sub>4</sub>.
+
+**Q7** [4 marks]
+
+When NaBH<sub>4</sub> is used as a reducing agent, carbonyl compounds are reduced to alcohols.
+
+i) State the class of alcohol formed when each of the following is reduced by NaBH<sub>4</sub>:
+
+an aldehyde (e.g. propanal)
+
+a ketone (e.g. butanone)
+
+[2]
+
+ii) Explain why the reduction product of butanone can exhibit optical isomerism, but the reduction product of propanal cannot.
+
+[2]
+
+**Q7** [2 marks]
+
+**Extract:**
+
+When NaBH4 is used as a reducing agent, carbonyl compounds are reduced to alcohols.
+
+Classes of alcohol formed:
+- An aldehyde (e.g. propanal) is reduced to a primary alcohol
+- A ketone (e.g. butanone) is reduced to a secondary alcohol
+
+Explain why the reduction product of a carbonyl compound, by NaBH<sub>4</sub> and acid, cannot be a tertiary alcohol.
+
+### Q8 — easy — 6 marks
+
+**Q8** [4 marks]
+
+Butanone reacts with potassium cyanide, KCN, in the presence of a dilute acid catalyst to produce a hydroxynitrile by nucleophilic addition.
+
+Complete the mechanism for this reaction.
+
+![Incomplete mechanism for the reaction of a cyanide ion with butan-2-one](assets/029-incomplete-mechanism-for-the-reaction-of-a-cyani.jpeg)
+
+**Fig. 2.1**
+
+**Q8** [1 mark]
+
+**Extract:**
+
+Butanone reacts with potassium cyanide, KCN, in the presence of a dilute acid catalyst to produce a hydroxynitrile by nucleophilic addition.
+
+State the systematic name of the organic **product** formed in part **(a)**.
+
+**Q8** [1 mark]
+
+Explain why a number is not required to indicate the position of the carbonyl group in the name butanone.

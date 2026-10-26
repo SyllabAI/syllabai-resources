@@ -1,6 +1,6 @@
 # Exam Questions — Potential Dividers
 **10. D.C. Circuits** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 29 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 38 questions across 2 sets
 
 
 ## Multiple Choice Questions (29 questions)
@@ -353,3 +353,463 @@ The thermistor is connected to the potential divider circuit as shown.
 At 0730, an output of 6.0 V is required.
 
 What value of the variable resistor should be set at this time?
+
+## Structured Questions (9 questions)
+
+
+### Q1 — medium — 9 marks
+
+**Q1** [1 mark]
+
+State Kirchhoff’s second law.
+
+**Q1** [2 marks]
+
+A battery with negligible internal resistance is connected in series with two resistors of resistances $R_{1}$ and $R_{2}$, as shown in Fig. 7.1.
+
+![Circuit diagram with two resistors, R1 and R2, in series and a battery connected. Current I flows clockwise through the circuit.](assets/037-circuit-diagram-with-two-resistors-r1-and-r2-in-.png)
+
+**Fig. 7.1**
+
+The potential differences (p.d.s) across $R_{1}$ and $R_{2}$ are $V_{1}$ and $V_{2}$, respectively.
+
+The p.d. across the combination of resistors is $V$.
+
+The current in the circuit is $I$.
+
+Use Kirchhoff’s laws to show that the total resistance $R_{T}$ of the combination is given by
+
+$R_{T}=R_{1}+R_{2}$
+
+**Q1** [3 marks]
+
+The resistor $R_{2}$ in Fig. 7.1 is replaced by a light-dependent resistor (LDR). The battery has an electromotive force (e.m.f.) of 12.0 V. The resistor $R_{1}$ has a fixed resistance of 2.40 kΩ.
+
+A voltmeter is connected across the fixed resistor, as shown in Fig. 7.2. The reading on the voltmeter is 9.00 V.
+
+![Circuit with a 12-volt battery, a 2.4 kiloohm resistor, and a light-dependent resistor labelled RL, connected in series. A voltmeter is connected in parallel with the fixed resistor.](assets/038-circuit-with-a-12-volt-battery-a-2-4-kiloohm-res.png)
+
+**Fig. 7.2**
+
+(i) Calculate the current in the circuit.
+
+[1]
+
+(ii) Calculate the resistance $R_{L}$ of the LDR.
+
+[2]
+
+**Q1** [3 marks]
+
+**Extract:**
+
+The resistor \$\$R_{2}\$\$ in Fig. 7.1 is replaced by a light-dependent resistor (LDR). The battery has an electromotive force (e.m.f.) of 12.0 V. The resistor \$\$R_{1}\$\$ has a fixed resistance of 2.40 kΩ.
+
+A voltmeter is connected across the fixed resistor, as shown in Fig. 7.2. The reading on the voltmeter is 9.00 V.
+
+The intensity of the light illuminating the LDR decreases.
+
+By reference to the current in the circuit, state and explain the change, if any, to the voltmeter reading.
+
+### Q2 — hard — 16 marks
+
+**Q2** [3 marks]
+
+A circuit is set up as shown in Fig. 1.1 below:
+
+![5-3-s-q--q3a-hard-aqa-a-level-physics](assets/039-5-3-s-q-q3a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The cells in Fig. 1.1 have negligible internal resistance. The cell at the top has an e.m.f. of 5 V and the cell at the bottom has an e.m.f. of 6 V.
+
+$R_{1}$ is a variable resistor with a resistance that varies between 0 and 10 Ω, and $R_{2}$  and $R_{3}$  are fixed resistors with a resistance of 10 Ω and 30 Ω respectively.
+
+Initially, $R_{1}$  is set such that its resistance is 0 Ω.
+
+By labelling the direction of current on Fig. 1.1, write down the relationship between three currents $I_{1}$ , $I_{2}$  and $I_{3}$  at the junction between $R_{1}$ and $R_{2}$ .
+
+**Q2** [3 marks]
+
+**Extract:**
+
+A circuit is set up as shown in Fig. 1.1 below. The cells in Fig. 1.1 have negligible internal resistance. The cell at the top has an e.m.f. of 5 V and the cell at the bottom has an e.m.f. of 6 V. R1 is a variable resistor with a resistance that varies between 0 and 10 Ω, and R2 and R3 are fixed resistors with a resistance of 10 Ω and 30 Ω respectively. Initially, R1 is set such that its resistance is 0 Ω.
+
+Determine the current through the resistor $R_{2}$ .
+
+**Q2** [4 marks]
+
+**Extract:**
+
+A circuit is set up as shown in Fig. 1.1 below:
+
+The cells in Fig. 1.1 have negligible internal resistance. The cell at the top has an e.m.f. of 5 V and the cell at the bottom has an e.m.f. of 6 V.
+
+\$\$R_{1}\$\$ is a variable resistor with a resistance that varies between 0 and 10 Ω, and \$\$R_{2}\$\$  and \$\$R_{3}\$\$  are fixed resistors with a resistance of 10 Ω and 30 Ω respectively.
+
+Initially, \$\$R_{1}\$\$  is set such that its resistance is 0 Ω.
+
+State and explain what happens to the potential difference across $R_{2}$  as the resistance of $R_{1}$  is gradually increased from zero.
+
+**Q2** [6 marks]
+
+**Extract:**
+
+A circuit is set up as shown in Fig. 1.1 below. The cells in Fig. 1.1 have negligible internal resistance. The cell at the top has an e.m.f. of 5 V and the cell at the bottom has an e.m.f. of 6 V. R1 is a variable resistor with a resistance that varies between 0 and 10 Ω, and R2 and R3 are fixed resistors with a resistance of 10 Ω and 30 Ω respectively. By labelling the direction of current on Fig. 1.1, write down the relationship between three currents I1, I2 and I3 at the junction between R1 and R2. Using Kirchhoff's first law: I1 + I2 = I3.
+
+Calculate the current flowing through each resistor when *R*<sub>1</sub> is set to a resistance of 10 Ω.
+
+### Q3 — easy — 11 marks
+
+**Q3** [2 marks]
+
+Sketch the circuits symbols for
+
+(i) the potentiometer
+
+[1]
+
+(ii) the galvanometer
+
+[1]
+
+**Q3** [3 marks]
+
+Fig. 1.1 shows a circuit with a potentiometer.
+
+![10-2-1-b-e-abc-potentiometer](assets/045-10-2-1-b-e-abc-potentiometer.png)
+
+**Fig. 1.1**
+
+Fixed ends AC are connected across the battery so that there is a full battery voltage across the whole resistor.
+
+State the voltage output, *V*<sub>out</sub> when the sliding connect is at
+
+(i) A
+
+[1]
+
+(ii) B
+
+[1]
+
+(iii) C
+
+[1]
+
+**Q3** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a circuit with a potentiometer. Fixed ends AC are connected across the battery so that there is a full battery voltage across the whole resistor.
+
+The resistor is now replaced with a uniform resistance wire connected between ends AC, as shown in Fig. 1.2a. The 28 V cell is replaced with a cell of unknown e.m.f.
+
+![10-2-1c-e-wire-potentiometer](assets/046-10-2-1c-e-wire-potentiometer.png)
+
+**Fig. 1.2a**
+
+Sketch a graph of Fig 1.2b to show the voltmeter reading *V* against length *l* as the jockey is moved from point A to point C.
+
+![10-2-1c-e-voltage-length-graph](assets/047-10-2-1c-e-voltage-length-graph.png)
+
+**Fig 1.2b**
+
+**Q3** [4 marks]
+
+**Extract:**
+
+The resistor is now replaced with a uniform resistance wire connected between ends AC, as shown in Fig. 1.2a. The 28 V cell is replaced with a cell of unknown e.m.f.
+
+A potentiometer can be used to compare e.m.fs of cells or potential differences.
+
+A test cell is added to the circuit in Fig. 1.2a. A student sets up the circuit shown in Fig. 1.3.
+
+![10-2-1d-e-testing-two-e-mf-](assets/049-10-2-1d-e-testing-two-e-mf.png)
+
+**Fig. 1.3**
+
+(i) State why the student will not be able to find a point where the current is zero.
+
+[1]
+
+(ii) The student fixes the issue from **(a)(i)** and achieves a balance point when the length of the wire AB is 25.6 cm.
+
+They repeat the experiment with a standard cell of e.m.f 1.545 V. The balance point using this cell is 37.2 cm.
+
+Calculate the e.m.f of the test cell.
+
+[3]
+
+### Q4 — medium — 11 marks
+
+**Q4** [2 marks]
+
+A battery of negligible internal resistance is connected to a light-dependent resistor, a switch X and two fixed resistors, as shown in Fig. 1.1.
+
+![10-2-3a-m-potential-divider-circuit-ldr](assets/050-10-2-3a-m-potential-divider-circuit-ldr.png)
+
+**Fig 1.1**
+
+Resistor R<sub>1</sub> has resistance 8.0 kΩ and resistor R<sub>2</sub> has resistance 12.0 kΩ. When switch X is open, the potential difference across R<sub>2</sub> is 18 V.
+
+Show that the e.m.f of the battery is 30 V.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A battery of negligible internal resistance is connected to a light-dependent resistor, a switch X and two fixed resistors, as shown in Fig. 1.1. Resistor R~1~ has resistance 8.0 kΩ and resistor R~2~ has resistance 12.0 kΩ. When switch X is open, the potential difference across R~2~ is 18 V. Show that the e.m.f of the battery is 30 V.
+
+Switch X is now closed. The current in the battery is 1.94 mA.
+
+Calculate the resistance of the LDR.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A battery of negligible internal resistance is connected to a light-dependent resistor, a switch X and two fixed resistors, as shown in Fig. 1.1. Resistor R~1~ has resistance 8.0 kΩ and resistor R~2~ has resistance 12.0 kΩ. When switch X is open, the potential difference across R~2~ is 18 V.
+
+The switch X in the circuit in (a) remains closed. The light intensity on the LDR increases.
+
+By reference to the current in the battery, state and explain the effect, if any, of the increase in light intensity on the power produced by the battery.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A battery of negligible internal resistance is connected to a light-dependent resistor, a switch X and two fixed resistors, as shown in Fig. 1.1. Resistor R~1~ has resistance 8.0 kΩ and resistor R~2~ has resistance 12.0 kΩ. When switch X is open, the potential difference across R~2~ is 18 V.
+
+The light intensity on the LDR decreases.
+
+State and explain what happens to the potential difference across R<sub>1</sub>.
+
+### Q5 — medium — 8 marks
+
+**Q5** [2 marks]
+
+Fig 1.1 shows a potential divider circuit with a battery of electromotive force (e.m.f.) 24.0 V connected to two resistors R<sub>1</sub> and R<sub>2</sub>.
+
+![10-2-2a-m-potential-divider-circuit-2](assets/051-10-2-2a-m-potential-divider-circuit-2.png)
+
+**Fig 1.1**
+
+When the resistance of R<sub>1</sub> is 6.5 Ω, the voltage across it is 7.0 V.
+
+Show that the resistance of R<sub>2</sub> is 16 Ω.
+
+**Q5** [1 mark]
+
+**Extract:**
+
+Fig 1.1 shows a potential divider circuit with a battery of electromotive force (e.m.f.) 24.0 V connected to two resistors R~1~ and R~2~.
+
+The resistors are replaced with identical filament lamps A and B and the battery is connected in parallel to a linear potentiometer XY, as shown in Fig 1.2.
+
+![iNio3slw_10-2-2b-m-potential-divider-circuit-3](assets/053-inio3slw-10-2-2b-m-potential-divider-circuit-3.png)
+
+**Fig 1.2**
+
+The lamps each have the same* I–V *characteristic shown in Fig. 1.3.
+
+![10-2-2b-i-v-characteristic](assets/054-10-2-2b-i-v-characteristic.png)
+
+**Fig 1.3**
+
+When the slider of the potentiometer is at its midpoint, as shown in Fig. 1.2, the current *I* in the battery is 4.12 A.
+
+Determine the current in lamp B.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+The resistors are replaced with identical filament lamps A and B and the battery is connected in parallel to a linear potentiometer XY, as shown in Fig 1.2. The lamps each have the same I–V characteristic shown in Fig. 1.3. When the slider of the potentiometer is at its midpoint, as shown in Fig. 1.2, the current I in the battery is 4.12 A. Determine the current in lamp B.
+The current in lamp B is 3.10 A (at 12 V, since both lamps have a potential difference of 24.0/2 = 12 V). E.m.f of the battery = 24.0 V.
+
+Calculate the total resistance in the circuit.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+The resistors are replaced with identical filament lamps A and B and the battery is connected in parallel to a linear potentiometer XY, as shown in Fig 1.2. The lamps each have the same I–V characteristic shown in Fig. 1.3. When the slider of the potentiometer is at its midpoint, as shown in Fig. 1.2, the current I in the battery is 4.12 A. The battery has an e.m.f. of 24.0 V.
+
+The slider of the potentiometer in (c) is moved to end X. State and explain the effect on the current of lamps A and B.
+
+### Q6 — easy — 8 marks
+
+**Q6** [4 marks]
+
+A variable resistor is used to control the circuit shown in Fig. 1.1.
+
+![10-2-3a-e-variable-resistor-circuit](assets/056-10-2-3a-e-variable-resistor-circuit.png)
+
+**Fig. 1.1**
+
+The variable resistor is connected in series with a 16 V power supply of negligible internal resistance, an ammeter and an 8.0 Ω resistor.
+
+The resistance *R* of the variable resistor can be varied between 0 to 12 Ω.
+
+Calculate
+
+(i) the minimum possible current
+
+[2]
+
+(ii) the maximum possible current
+
+[2]
+
+**Q6** [2 marks]
+
+**Extract:**
+
+A variable resistor is used to control the circuit shown in Fig. 1.1. The variable resistor is connected in series with a 16 V power supply of negligible internal resistance, an ammeter and an 8.0 Ω resistor. The resistance R of the variable resistor can be varied between 0 to 12 Ω. Minimum current I_min = 0.8 A (with maximum resistance). Maximum current I_max = 2.0 A (with minimum resistance).
+
+On Fig 1.2, sketch the variation with *R* of current *I *in the circuit.
+
+![10-2-3b-e-current-resistance-graph](assets/057-10-2-3b-e-current-resistance-graph.png)
+
+**Fig. 1.2**
+
+**Q6** [2 marks]
+
+Galvanometers are used in* null methods. *
+
+Explain how a galvanometer is used in *null methods*.
+
+### Q7 — medium — 8 marks
+
+**Q7** [2 marks]
+
+A battery is connected in series with resistors P and Q, as shown in Fig 1.1.
+
+![10-2-1a-m-potential-divider-circuit-1](assets/059-10-2-1a-m-potential-divider-circuit-1.png)
+
+The resistance of P is 7.5 Ω. The resistance of Q is constant. A variable resistor of resistance *R* is connected in parallel with Q.
+
+The current *I* from the battery is changed by varying *R* from 5 Ω to 20 Ω. The variation with *R* of *I* is shown in Fig 1.2.
+
+![10-2-1a-m-variation-of-r-with-i](assets/060-10-2-1a-m-variation-of-r-with-i.png)
+
+Use Fig 1.2 to state and explain the variation of the p.d. across resistor P as *R* is **decreased**. Numerical values are not required.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+A battery is connected in series with resistors P and Q, as shown in Fig 1.1. The resistance of P is 7.5 Ω. The resistance of Q is constant. A variable resistor of resistance R is connected in parallel with Q. The current I from the battery is changed by varying R from 5 Ω to 20 Ω. The variation with R of I is shown in Fig 1.2.
+
+For *R* = 7.0 Ω, calculate the p.d. between points Y and Z.
+
+**Q7** [3 marks]
+
+**Extract:**
+
+A battery is connected in series with resistors P and Q, as shown in Fig 1.1. The resistance of P is 7.5 Ω. The resistance of Q is constant. A variable resistor of resistance R is connected in parallel with Q. The current I from the battery is changed by varying R from 5 Ω to 20 Ω.
+For R = 7.0 Ω, calculate the p.d. between points Y and Z. Known quantities: Resistance of variable resistor, R = 7.0 Ω; E.m.f of the power supply, V = 32 V; the current I when R = 7.0 Ω is I = 2.3 A; P.d across YZ = 15 V.
+
+Show that the resistance of Q is 95 Ω.
+
+**Q7** [1 mark]
+
+**Extract:**
+
+A battery is connected in series with resistors P and Q, as shown in Fig 1.1. The resistance of P is 7.5 Ω. The resistance of Q is constant. A variable resistor of resistance *R* is connected in parallel with Q. The current *I* from the battery is changed by varying *R* from 5 Ω to 20 Ω. The variation with *R* of *I* is shown in Fig 1.2.
+
+State and explain qualitatively how the power provided by the battery changes as the resistance *R* is decreased.
+
+### Q8 — easy — 8 marks
+
+**Q8** [2 marks]
+
+Fig 1.1 shows a potential divider circuit containing a fixed resistor and thermistor.
+
+![10-2-2a-e-thermistor-potential-divider](assets/062-10-2-2a-e-thermistor-potential-divider.png)
+
+**Fig 1.1**
+
+** **Explain what happens to *V*<sub>out</sub> as the temperature of the thermistor increases.
+
+**Q8** [1 mark]
+
+The thermistor is now replaced with an LDR and the output voltage is now taken from the LDR, as shown in Fig. 1.2a.
+
+![10-2-2b-e-ldr-potential-divider-circuit](assets/063-10-2-2b-e-ldr-potential-divider-circuit.png)
+
+**Fig. 1.2a**
+
+Using Fig. 1.2b, determine the resistance of the LDR when the light intensity is 120 lux.
+
+![10-2-2b-e-light-intensity-graph](assets/064-10-2-2b-e-light-intensity-graph.png)
+
+**Fig. 1.2b**
+
+**Q8** [3 marks]
+
+**Extract:**
+
+The thermistor is now replaced with an LDR and the output voltage is now taken from the LDR, as shown in Fig. 1.2a. Using Fig. 1.2b, determine the resistance of the LDR when the light intensity is 120 lux. [Answer: The resistance of the LDR when the light intensity is 120 lux is 8 kΩ]
+
+Using your answer to part **(b)**, calculate *V*<sub>out</sub> when the light intensity is 120 lux.
+
+**Q8** [2 marks]
+
+**Extract:**
+
+Using your answer to part (b), calculate V~out~ when the light intensity is 120 lux.
+
+List the known quantities:
+- Resistance of the LDR, R~1~ = 8.0 kΩ (from part b)
+- Resistance of the fixed resistor, R~2~ = 6.0 kΩ
+- Voltage of the power supply, V~in~ = 32 V
+
+V~out~ = R1/(R1+R2) × Vin = 8.0/(8.0+6.0) × 32 = 18.2857 = 18 V
+
+Using your answer to part **(c)**, determine the voltage across the 6.0 kΩ resistor at a light intensity of 120 lux.
+
+### Q9 — hard — 9 marks
+
+**Q9** [2 marks]
+
+Fig. 1.1 shows a potentiometer in action. The wire in the potentiometer is represented by a fixed resistor of resistance 10 Ω and the sliding contact C can move from one end of the wire (at position P) to the other end of the wire (position Q). This allows the output potential difference (p.d.) to be varied. The potentiometer is in series with another fixed resistor of 5 Ω.
+
+![5-3-s-q--q4a-hard-aqa-a-level-physics](assets/066-5-3-s-q-q4a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+This circuit is powered by a 9 V power supply and is used to supply a variable potential difference to another circuit.
+
+Sketch a graph on the axes provided in Fig. 1.2 to show how the supplied potential difference *V* varies as the moving contact C is moved from position P to position Q.
+
+![5-3-s-q--q4a-fig-1-hard-aqa-a-level-physics](assets/067-5-3-s-q-q4a-fig-1-hard-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+Sketch a graph on the axes provided in Fig. 1.2 to show how the supplied potential difference *V* varies as the moving contact C is moved from position P to position Q.
+
+**Q9** [4 marks]
+
+Potential divider circuits generally comprise of two or more resistors in series with each other.
+
+Some potential divider circuits have multiple branches connected in parallel, such as that shown in Fig. 1.3:
+
+![5-3-s-q--q4b-hard-aqa-a-level-physics](assets/072-5-3-s-q-q4b-hard-aqa-a-level-physics.png)
+
+**Fig. 1.3**
+
+Show that the potential difference between X and Y, *V*<sub>*OUT*</sub> , is 1 V.
+
+**Q9** [3 marks]
+
+Fig. 1.4 shows another potential divider circuit which includes a thermistor with resistance *R*.
+
+![5-3-s-q--q4d-hard-aqa-a-level-physics](assets/074-5-3-s-q-q4d-hard-aqa-a-level-physics.png)
+
+**Fig. 1.4**
+
+The battery has an EMF of 12 V, with negligible internal resistance. At room temperature, the resistance of the thermistor is 5 kΩ.
+
+Calculate the current in the battery at room temperature.

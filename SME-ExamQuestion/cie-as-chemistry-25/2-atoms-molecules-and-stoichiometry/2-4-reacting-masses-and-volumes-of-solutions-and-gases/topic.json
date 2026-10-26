@@ -1,0 +1,2386 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T13:24:44Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_9vgVJq4xGVkVQ4bR",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) AS Chemistry"
+ },
+ "section": {
+  "slug": "2-atoms-molecules-and-stoichiometry",
+  "name": "2. Atoms, Molecules & Stoichiometry"
+ },
+ "topic": {
+  "id": "top_CQVkVrnJQ8fk9mcr",
+  "slug": "2-4-reacting-masses-and-volumes-of-solutions-and-gases",
+  "name": "Reacting Masses & Volumes (of Solutions & Gases)",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "reacting-masses-and-volumes",
+   "name": "Reacting Masses & Volumes",
+   "revision_note_id": "rn_8tCDcRtjVVnttWjh"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_ZFgp5BmHqks4y3k2",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 19,
+   "questions_embedded": 19,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-4-reacting-masses-and-volumes-of-solutions-and-gases/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_yMh4YgQqZ8jxVWk9",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/2-atoms-molecules-and-stoichiometry/2-4-reacting-masses-and-volumes-of-solutions-and-gases/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 27,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2023/05/1-2-q9h-image-2.png": "001-diagram-of-a-column-containing-ion-exchange-resi.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/q1aiv-9701-y22-sp-5-cie-ial-chem.png": "002-empty-graph-axes-for-sketching-the-volume-of-gas.png",
+   "https://cdn.savemyexams.com/uploads/2022/11/a3f01e2f-288c-42f7-8d86-df4d2e7853bc.jpeg": "003-diagram-showing-a-divided-conical-flask-or-solid.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/11/screen-shot-2022-11-21-at-11-13-43.png": "004-completed-sketch-graph-with-volume-of-gas-on-the.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/e2595afd-ded8-4202-b011-198318c70583.jpeg": "005-diagram-showing-the-cross-over-method-for-determ.jpeg",
+   "https://cdn.savemyexams.com/uploads/2026/05/1867-logx-versus-logdm-empty-graph-grid.png": "006-empty-graph-grid-for-plotting-log-d-m-on-the-y-a.png",
+   "https://cdn.savemyexams.com/uploads/2026/05/44165-logx-versus-logdm-plotted-graph-grid.jpeg": "007-graph-showing-log-d-m-on-the-y-axis-versus-log-x.jpeg",
+   "https://cdn.savemyexams.com/uploads/2026/05/41870-logx-versus-logdm-anomaly.png": "008-log-log-scatter-plot-with-a-green-trend-line-and.png",
+   "https://cdn.savemyexams.com/uploads/2026/05/25521-logx-versus-logdm-y-intercept.png": "009-log-log-graph-with-green-data-points-and-a-fitte.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_g4yFT2mgkqYfPz3S",
+   "set_slug": "multiple-choice-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_n3j3knbrvtrxH4G9",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3",
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "Two distinct organic compounds, **X** and **Y**, are found to have the same empirical formula.\n\nWhich of the following **must** be identical for both compounds?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Compounds with the same empirical formula share the same simplest ratio of atoms.\n- This means the percentage by mass of each element must be identical, regardless of the molecular formula.\n\n**A** is incorrect as compounds with the same empirical formula can have different molecular formulae and therefore different *M*<sub>r</sub> values.\n\n**C** is incorrect as the integer multiplier used to convert an empirical formula to a molecular formula does not have to be the same for different compounds.\n\n**D** is incorrect as different molecular formulae contain different numbers of atoms per molecule, so one mole of each compound contains a different total number of atoms.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Their relative molecular masses, *M*<sub>r</sub>."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "The percentage by mass of each element present in the compounds."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Their molecular formulae are formed by multiplying the empirical formula by the same integer"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The total number of atoms present in one mole of each compound."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yXkZ5T6xcYpnTgJF",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_f6HF89QFhShZfH43",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Solid fertilisers often contain the elements N, P and K in a ratio of 15 g : 30 g : 15 g per 100 g of fertiliser. It is recommended that the fertiliser is used at 28 g of fertiliser per 5 dm<sup>3</sup> of water.\n\nWhat is the concentration of nitrogen atoms in the solution?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Calculate mass of nitrogen in 28 g of fertiliser:\n\nmass of N = 28 x $\\frac{15}{100}$\n\nmass of N = 4.2 g\n\n- Calculate moles of nitrogen:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{4.2}{14.0}$\n\nmoles = 0.30 mol\n\n- Calculate concentration of nitrogen:\n\nconcentration = $\\frac{\\mathrm{moles}}{\\mathrm{volume}}$\n\nconcentration = $\\frac{0.30}{5}$\n\nconcentration = 0.060 mol dm<sup>-3</sup>\n\n**A** is incorrect as 0.030 mol dm<sup>-3</sup> uses the molar mass of N<sub>2</sub> (28 g mol<sup>-1</sup>) instead of N atoms (14 g mol<sup>-1</sup>) when converting mass to moles.\n\n**C** is incorrect as 0.40 mol dm<sup>-3</sup> misses out the 15% mass fraction. Instead, it divides the total fertiliser mass directly by *M*<sub>r</sub>(N) and the volume without accounting for the nitrogen content.\n\n**D** is incorrect as 0.84 mol dm<sup>-3</sup> reports a mass concentration rather than a molar concentration, i.e. the mass of nitrogen (4.2 g) is divided by volume without first converting to moles.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0.030 mol dm<sup>-3</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "0.060 mol dm<sup>-3</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "0.40 mol dm<sup>-3</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "0.84 mol dm<sup>-3</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{15}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{15}{100}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{4.2}{14.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>2</mn></mrow><mrow><mn>14</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.2}{14.0}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{moles}}{\\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>moles</mi><mi>volume</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "moles over volume"
+      },
+      {
+       "latex": "\\frac{0.30}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>30</mn></mrow><mn>5</mn></mfrac></math>",
+       "alt": "\\frac{0.30}{5}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_syq7Pffx9HYGpGht",
+   "set_slug": "multiple-choice-questions",
+   "order": 18,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_w43QK8V9fQ2DqKM8",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Some fireworks can use the reaction between aluminium powder and anhydrous barium nitrate as a propellant. Metal oxides and nitrogen are the only products.\n\n10Al + 3Ba(NO<sub>3</sub>)<sub>2</sub> → 5Al<sub>2</sub>O<sub>3</sub> + 3BaO + 3N<sub>2</sub>\n\n0.783 g of anhydrous barium nitrate reacts with an excess of aluminium.\n\nWhat volume of nitrogen is produced?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Balanced equation:\n\n10Al + 3Ba(NO<sub>3</sub>)<sub>2</sub> → 5Al<sub>2</sub>O<sub>3</sub> + 3BaO + 3N<sub>2</sub>\n\n- Calculate *M*<sub>r</sub> of Ba(NO<sub>3</sub>)<sub>2</sub>:\n\n*M*<sub>r</sub> = 137.3 + 2(14.0) + 6(16.0) = 261.3 g mol<sup>-1</sup>\n\n- Calculate moles of Ba(NO<sub>3</sub>)<sub>2</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{0.783}{261.3}$\n\nmoles of Ba(NO<sub>3</sub>)<sub>2</sub> = 0.00300 mol\n\n- From the equation, Ba(NO<sub>3</sub>)<sub>2</sub> : N<sub>2</sub> = 3:3 = 1:1:\n\nmoles of N<sub>2</sub> = 0.00300 mol\n\n- Calculate volume of N<sub>2</sub> at r.t.p.:\n\nvolume = moles x molar volume\n\nvolume = 0.00300 x 24 000\n\nvolume = 72.0 cm<sup>3</sup>\n\n**A** is incorrect as 1.62 cm<sup>3</sup> results from a decimal point error in the moles calculation, giving a value approximately 44 times smaller than the correct number of moles.\n\n**C** is incorrect as 93.6 cm<sup>3</sup> results from using an incorrect molar mass for Ba(NO<sub>3</sub>)<sub>2</sub>, treating it as a single nitrate unit rather than the full barium dinitrate formula.\n\n**D** is incorrect as 144.0 cm<sup>3</sup> results from counting moles of nitrogen atoms rather than nitrogen molecules. Each Ba(NO<sub>3</sub>)<sub>2</sub> contains 2 nitrogen atoms, but these combine to form 1 molecule of N<sub>2</sub>, not 2.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1.62 cm<sup>3</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "72.0 cm<sup>3</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "93.6 cm<sup>3</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "144.0 cm<sup>3</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{0.783}{261.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>783</mn></mrow><mrow><mn>261</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.783}{261.3}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_SD3rpM9fsPNsQgRt",
+   "set_slug": "multiple-choice-questions",
+   "order": 17,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_rFwTgHT9XzymWBfG",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "A solution of Sn<sup>2</sup><sup>*+*</sup>* *ions will reduce MnO<sub>4</sub><sup>-</sup> ions to Mn<sup>2+</sup> ions when acidified. The Sn<sup>2+</sup> ions are oxidised to Sn<sup>4+</sup> ions in this reaction.\n\nHow many moles of Mn<sup>2+</sup> ions are formed when a solution containing 9.5 g of Sn*C*l<sub>2</sub> (*M*<sub>r</sub>: 190) is added to an excess of acidified KMnO<sub>4</sub> solution?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Half-equations:\n\nSn<sup>2+</sup> → Sn<sup>4+</sup> + 2e<sup>-</sup>\n\nMnO<sub>4</sub><sup>-</sup> + 8H<sup>+</sup> + 5e<sup>-</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O\n\n- Balance electrons (×5 for Sn, ×2 for Mn) to give the overall equation:\n\n5Sn<sup>2+</sup> + 2MnO<sub>4</sub><sup>-</sup> + 16H<sup>+</sup> → 5Sn<sup>4+</sup> + 2Mn<sup>2+</sup> + 8H<sub>2</sub>O\n\n- Calculate moles of Sn<sup>2+</sup>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{9.5}{190}$\n\nmoles of Sn<sup>2+</sup> = 0.050 mol\n\n- From the 5:2 ratio (Sn<sup>2+</sup> : Mn<sup>2+</sup>), calculate moles of Mn<sup>2+</sup>:\n\nmoles of Mn<sup>2+</sup> = 0.050 x $\\frac{2}{5}$\n\nmoles of Mn<sup>2+</sup> = 0.020 mol\n\n**A** is incorrect as 0.010 mol uses a 5:1 ratio, which results from treating Sn<sup>2+</sup> as losing only 1 electron (Sn<sup>2+</sup> → Sn<sup>3+</sup>) rather than the correct 2 electrons (Sn<sup>2+</sup> → Sn<sup>4+</sup>).\n\n**B** is incorrect as 0.015 mol results from an error in balancing the half-equations, giving an incorrect Sn to Mn mole ratio.\n\n**D** is incorrect as 0.050 mol applies a 1:1 ratio of Sn<sup>2+</sup> to Mn<sup>2+</sup>, ignoring the electron-balancing step that gives the 5:2 ratio.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0.010"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "0.015"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "0.020"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "0.050"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{9.5}{190}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><mo>.</mo><mn>5</mn></mrow><mn>190</mn></mfrac></math>",
+       "alt": "\\frac{9.5}{190}"
+      },
+      {
+       "latex": "\\frac{2}{5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>",
+       "alt": "\\frac{2}{5}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rZPjxxJs282cMNNP",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_YTzhGtHngY9BbDsP",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "What is the number of molecules in 500 cm<sup>3</sup> of oxygen at room temperature and pressure (r.t.p.)?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Convert volume to dm<sup>3</sup>:\n\n500 cm<sup>3</sup> = 0.500 dm<sup>3</sup>\n\n- Calculate moles of O<sub>2</sub>:\n\nmoles = $\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}$\n\nmoles = $\\frac{0.500}{24.0}$\n\nmoles = 0.0208 mol\n\n- Calculate number of molecules:\n\nnumber of molecules = moles x L\n\nnumber of molecules = 0.0208 x 6.02 x 10<sup>23</sup>\n\nnumber of molecules = 1.25 x 10<sup>22</sup>\n\n**B** is incorrect as 1.34 x 10<sup>22</sup> uses the molar volume at s.t.p. (22.4 dm<sup>3</sup> mol<sup>-1</sup>) rather than r.t.p. (24.0 dm<sup>3</sup> mol<sup>-1</sup>).\n\n**C** is incorrect as 2.51 x 10<sup>22</sup> counts oxygen atoms rather than molecules. O<sub>2</sub> has 2 atoms per molecule, giving double the correct value.\n\n**D** is incorrect as 1.25 x 10<sup>25</sup> uses 500 dm<sup>3</sup> rather than the correct 0.500 dm<sup>3</sup> (500 cm<sup>3</sup> ÷ 1000).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "1.25 x 10<sup>22</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.34 x 10<sup>22</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "2.51 x 10<sup>22</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "1.25 x 10<sup>25</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mrow><mi>molar</mi><mo>&#160;</mo><mi>volume</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator volume over denominator molar space volume end fraction"
+      },
+      {
+       "latex": "\\frac{0.500}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>500</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.500}{24.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Q3D9Wtyfn32BctmN",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_hHhTrs67nTmBmgD3",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "When heated magnesium nitrate, Mg(NO<sub>3</sub>)<sub>2</sub>, will decompose to a white solid and a mixture of gases. One of the gases released is an oxide of nitrogen, **X**.\n\n7.4 g of anhydrous magnesium nitrate is heated until no further reaction takes place.\n\nWhat is the mass of **X** produced?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Balanced equation:\n\n2Mg(NO<sub>3</sub>)<sub>2</sub> (s) → 2MgO (s) + 4NO<sub>2</sub> (g) + O<sub>2</sub> (g)\n\n- Calculate moles of Mg(NO<sub>3</sub>)<sub>2</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{7.4}{148.3}$\n\nmoles = 0.0499 mol\n\n- From the equation, the ratio of Mg(NO<sub>3</sub>)<sub>2</sub> to NO<sub>2</sub> is 1:2:\n\nmoles of NO<sub>2</sub> = 0.0499 x 2 = 0.0998 mol\n\n- Calculate mass of NO<sub>2</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 0.0998 x 46.0\n\nmass = 4.6 g\n\n**A** is incorrect as 1.5 g uses the molar mass of NO (30 g mol<sup>-1</sup>) instead of NO<sub>2</sub> (46 g mol<sup>-1</sup>), and applies a 1:1 mole ratio instead of 1:2.\n\n**B** is incorrect as 2.3 g applies a 1:1 mole ratio of Mg(NO<sub>3</sub>)<sub>2</sub> to NO<sub>2</sub> rather than the correct 1:2 ratio from the equation.\n\n**C** is incorrect as 3.0 g uses the molar mass of NO (30 g mol<sup>-1</sup>) instead of NO<sub>2</sub> (46 g mol<sup>-1</sup>), though the 1:2 mole ratio is applied correctly.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1.5 g"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "2.3 g"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "3.0 g"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "4.6 g"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{7.4}{148.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>.</mo><mn>4</mn></mrow><mrow><mn>148</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{7.4}{148.3}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PT7t3sZmQfBhVB7q",
+   "set_slug": "multiple-choice-questions",
+   "order": 16,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_PBQQS4GWxfX294b4",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "10 cm<sup>3</sup> of methane and 10 cm<sup>3</sup> of ethane were sparked with an excess of oxygen. Once cooled the remaining gas was passed through aqueous potassium hydroxide.\n\nAssume all measurements were taken at 25˚C and 1 atm pressure.\n\nWhich volume of gas is absorbed by the alkali?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Combustion equations:\n\nCH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O\n\nC<sub>2</sub>H<sub>6</sub> + 3.5O<sub>2</sub> → 2CO<sub>2</sub> + 3H<sub>2</sub>O\n\n- At 25 °C, water condenses to a liquid and contributes no gas volume\n- Only CO<sub>2</sub> is absorbed by aqueous KOH: CO<sub>2</sub> + 2KOH → K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O\n\n- Volume of CO<sub>2</sub> from CH<sub>4</sub> (1 mol CH<sub>4</sub> : 1 mol CO<sub>2</sub>):\n\nvolume of CO<sub>2</sub> = 10 cm<sup>3</sup>\n\n- Volume of CO<sub>2</sub> from C<sub>2</sub>H<sub>6</sub> (1 mol C<sub>2</sub>H<sub>6</sub> : 2 mol CO<sub>2</sub>):\n\nvolume of CO<sub>2</sub> = 10 x 2 = 20 cm<sup>3</sup>\n\n- Total volume of gas absorbed by KOH:\n\ntotal volume = 10 + 20 = 30 cm<sup>3</sup>\n\n**A** is incorrect as 10 cm<sup>3</sup> counts only the CO<sub>2</sub> produced from methane, ignoring the 20 cm<sup>3</sup> of CO<sub>2</sub> produced from ethane.\n\n**B** is incorrect as 20 cm<sup>3</sup> counts only the CO<sub>2</sub> produced from ethane, ignoring the 10 cm<sup>3</sup> of CO<sub>2</sub> produced from methane.\n\n**D** is incorrect as 45 cm<sup>3</sup> results from adding the CO<sub>2</sub> from methane (10 cm<sup>3</sup>) to the volume of O<sub>2</sub> consumed by ethane combustion (35 cm<sup>3</sup>), incorrectly treating O<sub>2</sub> as a gas absorbed by KOH.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "10 cm<sup>3</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "20 cm<sup>3</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "30 cm<sup>3</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "45 cm<sup>3</sup>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_PnqP643VNX5jXHsQ",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_X2KxnM8Rwsyq66GQ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "A metal element of mass 1.15 g reacted with 300 cm<sup>3</sup> of oxygen at room conditions to form an oxide which contains O<sup>2-</sup> ions.\n\nWhich one of these is the metal?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Calculate moles of O<sub>2</sub>:\n\nmoles = $\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}$\n\nmoles = $\\frac{0.300}{24.0}$\n\nmoles of O<sub>2</sub> = 0.0125 mol\n\n- Test Group 1 (oxide M<sub>2</sub>O): 4M + O<sub>2</sub> → 2M<sub>2</sub>O, so moles of metal = 4 x moles of O<sub>2</sub>:\n\nmoles of metal = 4 x 0.0125 = 0.050 mol\n\n- Calculate *M*<sub>r</sub> of metal:\n\n*M*<sub>r</sub> = $\\frac{\\mathrm{mass}}{\\mathrm{moles}}$\n\n*M*<sub>r</sub> = $\\frac{1.15}{0.050}$\n\n*M*<sub>r</sub> = 23 → sodium (Group 1)\n\n- Test Group 2 (oxide MO): 2M + O<sub>2</sub> → 2MO, so moles of metal = 2 x moles of O<sub>2</sub>:\n\nmoles of metal = 2 x 0.0125 = 0.025 mol\n\n*M*<sub>r</sub> = 1.15 ÷ 0.025 = 46 → no matching Group 2 element\n\n- The metal is sodium, *M*<sub>r</sub> = 23\n\n**A** is incorrect as calcium has *M*<sub>r</sub> = 40, which does not match either calculated value (23 for Group 1 or 46 for Group 2).\n\n**B** is incorrect as magnesium has *M*<sub>r</sub> = 24, which does not match the Group 2 calculated value of 46.\n\n**C** is incorrect as potassium has *M*<sub>r</sub> = 39, which does not match the Group 1 calculated value of 23.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Calcium"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Magnesium"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Potassium"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "Sodium"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mrow><mi>molar</mi><mo>&#160;</mo><mi>volume</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator volume over denominator molar space volume end fraction"
+      },
+      {
+       "latex": "\\frac{0.300}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>300</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.300}{24.0}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{\\mathrm{moles}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><mi>moles</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over moles"
+      },
+      {
+       "latex": "\\frac{1.15}{0.050}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>15</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>050</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.15}{0.050}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nq8s7Fqm5PxWPXjP",
+   "set_slug": "multiple-choice-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dw4VX8GxVQ8fFc3X",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "The concentration of calcium ions in a sample of water can be determined by using an ion-exchange column, shown in the diagram below:\n\n![Diagram of a column containing ion‑exchange resin beads, with a labelled water sample added at the top and an Erlenmeyer flask collecting the outflow below](assets/001-diagram-of-a-column-containing-ion-exchange-resi.png)\n\nA 50 cm<sup>3</sup> sample of water was passed through the ion-exchange resin, this contained dissolved calcium sulfate\n\nEach calcium ion in the sample was exchanged for two hydrogen ions. The resulting acidic solution, collected in the flask, required 25 cm<sup>3</sup> of 1.0 x 10<sup>-2</sup> mol dm<sup>-3</sup> potassium hydroxide for complete neutralisation.\n\nWhat is the concentration of the calcium sulfate in the original sample?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Ion exchange: each Ca<sup>2+</sup> in the sample is exchanged for 2H<sup>+</sup> ions from the resin\n- The H<sup>+</sup> ions are then neutralised: H<sup>+</sup> (aq) + KOH (aq) → K<sup>+</sup> (aq) + H<sub>2</sub>O (l)\n\n- Calculate moles of KOH:\n\nmoles = concentration x volume\n\nmoles = 1.0 x 10<sup>-2</sup> x 0.025\n\nmoles of KOH = 2.5 x 10<sup>-4</sup> mol\n\n- Moles of H<sup>+</sup> = moles of KOH = 2.5 x 10<sup>-4</sup> mol\n\n- From the Ca<sup>2+</sup> : H<sup>+</sup> exchange ratio of 1:2, calculate moles of Ca<sup>2+</sup>:\n\nmoles of Ca<sup>2+</sup> = 2.5 x 10<sup>-4</sup> ÷ 2 = 1.25 x 10<sup>-4</sup> mol\n\n- Calculate concentration of CaSO<sub>4</sub>:\n\nconcentration = $\\frac{\\mathrm{moles}}{\\mathrm{volume}}$\n\nconcentration = $\\frac{1.25\\times10^{-4}}{0.050}$\n\nconcentration = 2.5 x 10<sup>-3</sup> mol dm<sup>-3</sup>\n\n**B** is incorrect as 1.0 x 10<sup>-2</sup> mol dm<sup>-3</sup> is the concentration of the KOH solution itself, not the CaSO<sub>4</sub> concentration in the original sample.\n\n**C** is incorrect as 2.0 x 10<sup>-2</sup> mol dm<sup>-3</sup> results from using the KOH titration volume (25 cm<sup>3</sup>) instead of the sample volume (50 cm<sup>3</sup>) in the concentration step.\n\n**D** is incorrect as 4.0 x 10<sup>-2</sup> mol dm<sup>-3</sup> results from combining errors: using the Ca<sup>2+</sup> to H<sup>+</sup> ratio in reverse (doubling rather than halving) and applying the wrong volume.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "2.5 x 10<sup>-3</sup> mol dm<sup>-3</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.0 x 10<sup>-2</sup> mol dm<sup>-3</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "2.0 x 10<sup>-2</sup> mol dm<sup>-3</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "4.0 x 10<sup>-2</sup> mol dm<sup>-3</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{moles}}{\\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>moles</mi><mi>volume</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "moles over volume"
+      },
+      {
+       "latex": "\\frac{1.25\\times10^{-4}}{0.050}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>25</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>4</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>050</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.25 \\times 10^{-4}}{0.050}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_McGXH9wWfwpptDZ8",
+   "set_slug": "multiple-choice-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_CqXKwkpyRWpTRBsV",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Excess acidified aqueous potassium dichromate(VI) was mixed with 2.76 g of ethanol. The reaction mixture was then boiled under reflux for one hour. The organic product was collected by distillation.\n\nThe yield of the product was 75.0%\n\nWhat is the mass of the product collected?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Reaction:\n\nCH<sub>3</sub>CH<sub>2</sub>OH → CH<sub>3</sub>COOH (oxidation using excess acidified K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>)\n\n- Calculate moles of ethanol:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{2.76}{46.0}$\n\nmoles of ethanol = 0.0600 mol\n\n- 1:1 molar ratio, so theoretical moles of ethanoic acid = 0.0600 mol\n- Calculate theoretical mass of ethanoic acid:\n\ntheoretical mass = moles x *M*<sub>r</sub>\n\ntheoretical mass = 0.0600 x 60.0\n\ntheoretical mass = 3.60 g\n\n- Apply the 75.0% yield:\n\nactual mass = 3.60 x 0.750\n\nactual mass = 2.70 g\n\n**A** is incorrect as 1.98 g uses the molar mass of partial oxidation product ethanal (CH<sub>3</sub>CHO, *M*<sub>r</sub> = 44) rather than the full oxidation product ethanoic acid (*M*<sub>r</sub> = 60).\n\n**B** is incorrect as 2.07 g multiplies the starting mass of ethanol directly by the percentage yield, without first converting to moles and calculating the theoretical product mass.\n\n**D** is incorrect as 4.80 g divides the theoretical mass by the percentage yield rather than multiplying, inverting the yield calculation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1.98 g"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "2.07 g"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "2.70 g"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "4.80 g"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{2.76}{46.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>76</mn></mrow><mrow><mn>46</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.76}{46.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_KsbWjzpkSKHgRf4c",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_bgX7gt59Z7KyVtZ3",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Excess aqueous cold sodium hydroxide is reacted with 0.125 mol of chlorine gas, Cl<sub>2</sub>. One of the products is a compound of sodium, oxygen and chlorine.\n\nWhat mass of the product is formed?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Balanced equation:\n\n2NaOH (aq) + Cl<sub>2</sub> (g) → NaClO (aq) + NaCl (aq) + H<sub>2</sub>O (l)\n\n- From the equation, 1 mol Cl<sub>2</sub> produces 1 mol NaClO:\n\nmoles of NaClO = 0.125 mol\n\n- Calculate *M*<sub>r</sub> of NaClO:\n\n*M*<sub>r</sub> = 23.0 + 35.5 + 16.0 = 74.5 g mol<sup>-1</sup>\n\n- Calculate mass of NaClO:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 0.125 x 74.5\n\nmass = 9.31 g\n\n**B** is incorrect as 13.3 g uses the molar mass of NaClO<sub>3</sub> (106.5 g mol<sup>-1</sup>), the product of the reaction with hot concentrated NaOH, rather than NaClO from the cold reaction.\n\n**C** is incorrect as 18.6 g doubles the moles of product to 0.250 mol, treating the ratio as 2 mol NaOH producing 2 mol NaClO rather than the correct 2:1 ratio.\n\n**D** is incorrect as 26.6 g combines both errors: using the molar mass of NaClO<sub>3</sub> (106.5 g mol<sup>-1</sup>) and double the moles (0.250 mol).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "9.31 g"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "13.3 g"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "18.6 g"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "26.6 g"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_JWFJNbjDScxYK6Kz",
+   "set_slug": "multiple-choice-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4zn3pbtHKBTN4TWB",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "1.00 g of carbon is combusted in a limited supply of oxygen. 0.50 g of the carbon combusts to form CO<sub>2</sub> and 0.50 g of the carbon combusts to form CO.\n\nThese were passed through excess NaOH (aq) and the remaining gas then dried and collected.\n\nAssuming that all gas volumes were taken at room conditions, what is the volume of gas at the end of the reaction?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Combustion reactions:\n\nC + O<sub>2</sub> → CO<sub>2</sub>\n\n2C + O<sub>2</sub> → 2CO\n\n- CO<sub>2</sub> is absorbed by excess NaOH:\n\nCO<sub>2</sub> + 2NaOH → Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O\n\n- CO does not react with NaOH, so only CO remains after passing through the solution\n- Calculate moles of CO produced:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{0.50}{12.0}$\n\nmoles of CO = 0.0417 mol\n\n- Calculate volume of CO remaining:\n\nvolume = moles x molar volume\n\nvolume = 0.0417 x 24.0\n\nvolume = 1.0 dm<sup>3</sup>\n\n**B** is incorrect as 1.5 dm<sup>3</sup> arises from incorrectly including part of the CO<sub>2</sub> volume. Only the CO that remains after absorption should be counted.\n\n**C** is incorrect as 2 dm<sup>3</sup> is the total volume of CO and CO<sub>2</sub> produced before passing through NaOH, without accounting for the absorption of CO<sub>2</sub>.\n\n**D** is incorrect as 3 dm<sup>3</sup> results from including oxygen gas volumes alongside the carbon oxide products in the final calculation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "1 dm<sup>3</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "1.5 dm<sup>3</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "2 dm<sup>3</sup>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "3 dm<sup>3</sup>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{0.50}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>50</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.50}{12.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_FVkwCGKnfgj2hvQB",
+   "set_slug": "multiple-choice-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_2GSDg39DNTdwdkXS",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Bromide ions are oxidised to bromine by lead (IV) chloride. The Pb<sup>4+</sup> ions are reduced to Pb<sup>2+</sup> ions in this reaction.\n\n6.980 g of lead (IV) chloride is added to an excess of sodium bromide solution.\n\nWhat is the mass of bromine produced?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Balanced equation:\n\nPbCl<sub>4</sub> + 2NaBr → PbCl<sub>2</sub> + Br<sub>2</sub> + 2NaCl\n\n- Calculate *M*<sub>r</sub> of PbCl<sub>4</sub>:\n\n*M*<sub>r</sub> = 207.2 + (4 x 35.5) = 349.2 g mol<sup>-1</sup>\n\n- Calculate moles of PbCl<sub>4</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{6.980}{349.2}$\n\nmoles of PbCl<sub>4</sub> = 0.0200 mol\n\n- From the 1:1 ratio (PbCl<sub>4</sub> : Br<sub>2</sub>):\n\nmoles of Br<sub>2</sub> = 0.0200 mol\n\n- Calculate mass of Br<sub>2</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 0.0200 x 159.8\n\nmass = 3.196 g\n\n**A** is incorrect as 0.799 g uses a 4:1 ratio of PbCl<sub>4</sub> to Br<sub>2</sub>, as if each chloride in PbCl<sub>4</sub> independently reduces one bromide without pairing to form Br<sub>2</sub>.\n\n**C** is incorrect as 6.392 g uses a 1:2 ratio of PbCl<sub>4</sub> to Br<sub>2</sub>, doubling the moles of Br<sub>2</sub> produced.\n\n**D** is incorrect as 1598 g results from using the relative atomic mass of bromine (79.9) rather than the molar mass of Br<sub>2</sub> (159.8), then applying an incorrect factor of 1000.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0.799 g"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "3.196 g"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "6.392 g"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "1598 g"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{6.980}{349.2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>.</mo><mn>980</mn></mrow><mrow><mn>349</mn><mo>.</mo><mn>2</mn></mrow></mfrac></math>",
+       "alt": "\\frac{6.980}{349.2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fgj9NRvfpg4SqG7S",
+   "set_slug": "multiple-choice-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ZYd4QH4KWVw6gK7q",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "When a sample of potassium oxide, K<sub>2</sub>O, is dissolved in 250 cm<sup>3</sup> of distilled water, 25 cm<sup>3</sup> of this solution is titrated against sulfuric acid with a concentration of 2.00 mol dm<sup>-3</sup>. Complete neutralisation takes place with 15 cm<sup>3</sup> of sulfuric acid.\n\nWhat is the mass of the original sample of potassium oxide dissolved in 250 cm<sup>3</sup> of distilled water?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Reactions:\n\nK<sub>2</sub>O + H<sub>2</sub>O → 2KOH and 2KOH + H<sub>2</sub>SO<sub>4</sub> → K<sub>2</sub>SO<sub>4</sub> + 2H<sub>2</sub>O\n\n- Calculate moles of H<sub>2</sub>SO<sub>4</sub>:\n\nmoles = concentration x volume\n\nmoles = 2.00 x $\\frac{15}{1000}$\n\nmoles of H<sub>2</sub>SO<sub>4</sub> = 0.030 mol\n\n- From the 2:1 ratio (KOH : H<sub>2</sub>SO<sub>4</sub>), calculate moles of KOH in the 25 cm<sup>3</sup> aliquot:\n\nmoles of KOH = 0.030 x 2 = 0.060 mol\n\n- Scale up to the full 250 cm<sup>3</sup> solution:\n\nmoles of KOH = 0.060 x $\\frac{250}{25}$ = 0.60 mol\n\n- From K<sub>2</sub>O + H<sub>2</sub>O → 2KOH (ratio 1:2), calculate moles of K<sub>2</sub>O:\n\nmoles of K<sub>2</sub>O = $\\frac{0.60}{2}$ = 0.30 mol\n\n- Calculate mass of K<sub>2</sub>O:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 0.30 x 94.2\n\nmass = 28.3 g\n\n**A** is incorrect as 2.83 g uses only the 25 cm<sup>3</sup> titration aliquot without scaling up to the full 250 cm<sup>3</sup> solution.\n\n**C** is incorrect as 47.1 g results from an error in the stoichiometric ratio between K<sub>2</sub>O and KOH in the dissolving step, leading to an incorrect number of moles of K<sub>2</sub>O.\n\n**D** is incorrect as 56.6 g treats the K<sub>2</sub>O to KOH ratio as 1:1 rather than 1:2, using 0.60 mol K<sub>2</sub>O directly in the mass calculation.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "2.83 g"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "28.3 g"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "47.1 g"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "56.6 g"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{15}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{15}{1000}"
+      },
+      {
+       "latex": "\\frac{250}{25}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>250</mn><mn>25</mn></mfrac></math>",
+       "alt": "\\frac{250}{25}"
+      },
+      {
+       "latex": "\\frac{0.60}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>60</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.60}{2}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CZYpjSKtGrW36WXh",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_dv8Vx4xpBT76kDf2",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "A 5.62 g sample of anhydrous sodium sulfate, Na<sub>2</sub>SO<sub>4</sub>, is dissolved in water and the solution made up to 250 cm<sup>3</sup> in a volumetric flask.\n\nWhat is the concentration in mol dm<sup>-3</sup> of the sodium sulfate solution?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Calculate *M*<sub>r</sub> of Na<sub>2</sub>SO<sub>4</sub>:\n\n*M*<sub>r</sub> = (2 x 23.0) + 32.1 + (4 x 16.0) = 142.1 g mol<sup>-1</sup>\n\n- Calculate moles of Na<sub>2</sub>SO<sub>4</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{5.62}{142.1}$\n\nmoles = 0.0395 mol\n\n- Convert volume to dm<sup>3</sup>:\n\n250 cm<sup>3</sup> = 0.250 dm<sup>3</sup>\n\n- Calculate concentration:\n\nconcentration = $\\frac{\\mathrm{moles}}{\\mathrm{volume}}$\n\nconcentration = $\\frac{0.0395}{0.250}$\n\nconcentration = 0.158 mol dm<sup>-3</sup>\n\n**A** is incorrect as 1.6 x 10<sup>-4</sup> mol dm<sup>-3</sup> results from dividing moles by 250 cm<sup>3</sup> without first converting to dm<sup>3</sup>.\n\n**B** is incorrect as 0.016 mol dm<sup>-3</sup> results from using 2.50 dm<sup>3</sup> instead of 0.250 dm<sup>3</sup> as the volume.\n\n**D** is incorrect as 0.61 mol dm<sup>-3</sup> results from inverting the moles calculation, dividing *M*<sub>r</sub> by mass rather than mass by *M*<sub>r</sub>.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1.6 x 10<sup>-4</sup>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "0.016"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "0.158"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "0.61"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{5.62}{142.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>62</mn></mrow><mrow><mn>142</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.62}{142.1}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{moles}}{\\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>moles</mi><mi>volume</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "moles over volume"
+      },
+      {
+       "latex": "\\frac{0.0395}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0395</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.0395}{0.250}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8rc94mKJWmTJ2Yg3",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ys4xMMKCjM5Tmwgz",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "A volume of nitrogen gas, 2.00 dm<sup>3</sup> measured at room temperature and pressure (r.t.p.), was reacted with a large volume of hydrogen gas to produce ammonia. Only 15.0% of the nitrogen gas reacted to produce ammonia.\n\nWhat mass of ammonia was produced?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Calculate moles of N<sub>2</sub> at r.t.p.:\n\nmoles = $\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}$\n\nmoles = $\\frac{2.00}{24.0}$\n\nmoles = 0.0833 mol\n\n- Apply the 15.0% yield to find moles that react:\n\nmoles of N<sub>2</sub> that react = 0.0833 x 0.150 = 0.0125 mol\n\n- From N<sub>2</sub> + 3H<sub>2</sub> → 2NH<sub>3</sub>, calculate moles of NH<sub>3</sub>:\n\nmoles of NH<sub>3</sub> = 0.0125 x 2 = 0.0250 mol\n\n- Calculate mass of NH<sub>3</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 0.0250 x 17.0\n\nmass = 0.425 g\n\n**A** is incorrect as 0.213 g uses a 1:1 molar ratio of N<sub>2</sub> to NH<sub>3</sub> rather than the correct 1:2 ratio from the equation.\n\n**C** is incorrect as 0.455 g uses the molar volume at s.t.p. (22.4 dm<sup>3</sup> mol<sup>-1</sup>) instead of r.t.p. (24.0 dm<sup>3</sup> mol<sup>-1</sup>).\n\n**D** is incorrect as 2.83 g does not apply the 15.0% yield, instead it assumes all of the nitrogen reacts to form ammonia.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "0.213 g"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "0.425 g"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "0.455 g"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "2.83 g"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mrow><mi>molar</mi><mo>&#160;</mo><mi>volume</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator volume over denominator molar space volume end fraction"
+      },
+      {
+       "latex": "\\frac{2.00}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.00}{24.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6GDN8GMCqhpYmFCR",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_Yrrtb85GkgNvDfcG",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MvkYWRftfSrXcvT3",
+      "spcpt_Js5fp3VP5t5SnnJY"
+     ],
+     "part_tier": null,
+     "problem_md": "Excess water and 0.144 g of an aluminium compound **X** were reacted to form a gas. The gas burns completely in O<sub>2</sub> to form H<sub>2</sub>O and 72 cm<sup>3</sup> of CO<sub>2</sub> only. The volume of CO<sub>2</sub> was measured at room temperature and pressure.\n\nWhat is the formula for **X**?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The compound reacts with water to give Al(OH)<sub>3</sub> and CH<sub>4</sub>.\n\n  - The methane burns completely to give CO<sub>2</sub>.\n\n- Convert volume and calculate moles of CO<sub>2</sub>:\n\nvolume of CO<sub>2</sub> = 72 ÷ 1000 = 0.072 dm<sup>3</sup>\n\nmoles = $\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}$\n\nmoles = $\\frac{0.072}{24.0}$\n\nmoles of CO<sub>2</sub> = 0.003 mol\n\n- Moles of C in the original compound = moles of CO<sub>2</sub> = 0.003 mol\n\n- Calculate mass of C:\n\nmass of C = 0.003 x 12.0 = 0.036 g\n\n- Calculate mass of Al:\n\nmass of Al = 0.144 − 0.036 = 0.108 g\n\n- Calculate moles of Al:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{0.108}{27.0}$\n\nmoles of Al = 0.004 mol\n\n- Determine the ratio Al : C:\n\nAl : C = 0.004 : 0.003 = 4 : 3\n\n- The formula is Al<sub>4</sub>C<sub>3</sub>\n\n**A** is incorrect as Al<sub>2</sub>C<sub>3</sub> has a ratio of 2:3, which does not match the calculated Al to C mole ratio of 4:3.\n\n**B** is incorrect as Al<sub>3</sub>C<sub>4</sub> inverts the mole ratio, placing the smaller value (C) as the Al subscript and the larger value (Al) as the C subscript.\n\n**D** is incorrect as Al<sub>5</sub>C<sub>3</sub> does not correspond to the calculated mole ratio and results from an error in determining the mass of aluminium in the compound.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Al<sub>2</sub>C<sub>3</sub>"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Al<sub>3</sub>C<sub>4</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "Al<sub>4</sub>C<sub>3</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Al<sub>5</sub>C<sub>3</sub>"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mrow><mi>molar</mi><mo>&#160;</mo><mi>volume</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator volume over denominator molar space volume end fraction"
+      },
+      {
+       "latex": "\\frac{0.072}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>072</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.072}{24.0}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{0.108}{27.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>108</mn></mrow><mrow><mn>27</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.108}{27.0}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4Bbd6xTrGXp3c7Qf",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_3jqPJpq9FJg9PD6b",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Methane and steam can be used to prepare hydrogen and carbon monoxide as shown by the equation below.\n\nCH<sub>4</sub> (g) + H<sub>2</sub>O (g) → 3H<sub>2</sub> (g) + CO (g)\n\n200 g of methane was reacted with an excess of steam to produce 642 dm<sup>3</sup> of hydrogen gas at r.t.p.\n\nWhat is the percentage yield of hydrogen?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Calculate moles of CH<sub>4</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles = $\\frac{200}{16.0}$\n\nmoles = 12.5 mol\n\n- From the equation, 1 mol CH<sub>4</sub> produces 3 mol H<sub>2</sub>:\n\ntheoretical yield = 12.5 x 3 = 37.5 mol\n\n- Calculate actual yield of H<sub>2</sub>:\n\nactual yield = $\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}$\n\nactual yield = $\\frac{642}{24.0}$\n\nactual yield = 26.75 mol\n\n- Calculate percentage yield:\n\npercentage yield = $\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}$ x 100\n\npercentage yield = $\\frac{26.75}{37.5}$ x 100\n\npercentage yield = 71.3%\n\n**A** is incorrect as 33.3% divides the moles of CH<sub>4</sub> (12.5 mol) by the theoretical yield of H<sub>2</sub> (37.5 mol), confusing the two quantities.\n\n**B** is incorrect as 46.7% uses a 1:1 ratio of CH<sub>4</sub> to H<sub>2</sub> (theoretical yield = 12.5 mol) and then inverts the percentage yield formula, dividing theoretical by actual.\n\n**D** is incorrect as 140.2% inverts the percentage yield formula, dividing the theoretical yield by the actual yield rather than actual by theoretical.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "33.3%"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "46.7%"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "71.3%"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "140.2%"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi>r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript r"
+      },
+      {
+       "latex": "\\frac{200}{16.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>200</mn><mrow><mn>16</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{200}{16.0}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mrow><mi>molar</mi><mo>&#160;</mo><mi>volume</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator volume over denominator molar space volume end fraction"
+      },
+      {
+       "latex": "\\frac{642}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>642</mn><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{642}{24.0}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>actual</mi><mo>&#160;</mo><mi>yield</mi></mrow><mrow><mi>theoretical</mi><mo>&#160;</mo><mi>yield</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator actual space yield over denominator theoretical space yield end fraction"
+      },
+      {
+       "latex": "\\frac{26.75}{37.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>26</mn><mo>.</mo><mn>75</mn></mrow><mrow><mn>37</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{26.75}{37.5}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_3yddmZqvGPcR8PnN",
+   "set_slug": "multiple-choice-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_DN73dKbCnDwxmtPp",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "The eggshell of a chicken egg makes up 5% of the total egg mass.\n\nThe average egg has a mass of 50 g.\n\nAssume that chicken eggshell is pure calcium carbonate.\n\nWhat is the number of eggshells needed to neutralise 50 cm<sup>3</sup> of 2.0 mol dm<sup>-3</sup> ethanoic acid?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Balanced equation:\n\n2CH<sub>3</sub>COOH + CaCO<sub>3</sub> → (CH<sub>3</sub>COO)<sub>2</sub>Ca + CO<sub>2</sub> + H<sub>2</sub>O\n\n- Calculate moles of CaCO<sub>3</sub> per eggshell (*M*<sub>r</sub> of CaCO<sub>3</sub> = 100):\n\nmass of eggshell per egg = 5% x 50 = 2.5 g\n\nmoles of CaCO<sub>3</sub> = $\\frac{2.5}{100}$ = 0.025 mol per eggshell\n\n- Calculate moles of ethanoic acid:\n\nmoles = concentration x volume\n\nmoles = 2.0 x $\\frac{50}{1000}$\n\nmoles of CH<sub>3</sub>COOH = 0.10 mol\n\n- From the 2:1 ratio, calculate moles of CaCO<sub>3</sub> needed:\n\nmoles of CaCO<sub>3</sub> = $\\frac{0.10}{2}$ = 0.050 mol\n\n- Calculate number of eggshells:\n\nnumber of eggshells = $\\frac{0.050}{0.025}$ = 2\n\n**A** is incorrect as 1 eggshell results from using the full egg mass (50 g) as if it were entirely CaCO<sub>3</sub>, greatly underestimating the moles of carbonate per shell.\n\n**C** is incorrect as 3 eggshells results from an error in applying the 2:1 acid-to-carbonate mole ratio, leading to an overestimate of the CaCO<sub>3</sub> required.\n\n**D** is incorrect as 4 eggshells results from using a 1:1 ratio of ethanoic acid to CaCO<sub>3</sub> rather than the correct 2:1 ratio, doubling the moles of carbonate required.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "1"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "2"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "3"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "4"
+      }
+     ],
+     "equations": [
+      {
+       "latex": "\\frac{2.5}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>5</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{2.5}{100}"
+      },
+      {
+       "latex": "\\frac{50}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>50</mn><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{50}{1000}"
+      },
+      {
+       "latex": "\\frac{0.10}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>10</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.10}{2}"
+      },
+      {
+       "latex": "\\frac{0.050}{0.025}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>050</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>025</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.050}{0.025}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZBf4G4SsWtvt7CST",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_3kdC56SrJvQNsF7N",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about the reactions of ionic compounds.\n\nSodium carbonate is manufactured in a two-stage process as shown.\n\nNaCl + NH<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O → NaHCO<sub>3</sub> + NH<sub>4</sub>Cl\n\n2NaHCO<sub>3</sub> → Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O + CO<sub>2</sub>\n\nCalculate the maximum mass of sodium carbonate that can be obtained from 0.75 kg of sodium chloride.\n\nShow your working.",
+     "solution_md": "To calculate the maximum mass of sodium carbonate from 0.75 kg of sodium chloride:\n\n- Calculate the *M*<sub>r</sub> of NaCl:\n\n*M*<sub>r</sub> of NaCl = 23.0 + 35.5\n\n*M*<sub>r</sub> of NaCl = 58.5\n\n- Calculate the moles of NaCl:\n\nmoles = $\\frac{mass ( \\mathrm{g} )}{M_{r} }$\n\nmoles of NaCl = $\\frac{750}{58.5}$\n\nmoles of NaCl = 12.8 mol\n\n**[1 mark]**\n\n- Use the two equations to find the moles of Na<sub>2</sub>CO<sub>3</sub>:\n\nequation 1 ratio NaCl : NaHCO<sub>3</sub> = 1 : 1\n\nmoles of NaHCO<sub>3</sub> = 12.8 mol\n\nequation 2 ratio NaHCO<sub>3</sub> : Na<sub>2</sub>CO<sub>3</sub> = 2 : 1\n\nmoles of Na<sub>2</sub>CO<sub>3</sub> = $\\frac{12.8}{2}$ = 6.41 mol\n\n**[1 mark]**\n\n- Calculate the *M*<sub>r</sub> of Na<sub>2</sub>CO<sub>3</sub>:\n\n*M*<sub>r</sub> of Na<sub>2</sub>CO<sub>3</sub> = (2 × 23.0) + 12.0 + (3 × 16.0)\n\n*M*<sub>r</sub> of Na<sub>2</sub>CO<sub>3</sub> = 106.0\n\n- Calculate the mass of Na<sub>2</sub>CO<sub>3</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\nmass = 6.41 × 106.0\n\nmass = **679 g**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *M*<sub>r</sub> of NaCl = 58.5 **AND** moles of NaCl = 12.8 mol\n> \n> 1 mark for moles of NaHCO<sub>3</sub> = 12.8 mol **AND** moles of Na<sub>2</sub>CO<sub>3</sub> = 6.41 mol\n> \n> 1 mark for *M*<sub>r</sub> of Na<sub>2</sub>CO<sub>3</sub> = 106.0 **AND** mass of Na<sub>2</sub>CO<sub>3</sub> = 679 g\n> \n> Allow error carried forward if an incorrect moles value is used\n\n> **[exam-tip]**\n> Note that 0.75 kg must be converted to grams: 0.75 kg = 750 g.\n> \n> This is a two-step conversion. From equation 1, the NaCl : NaHCO<sub>3</sub> ratio is 1 : 1. From equation 2, the NaHCO<sub>3</sub> : Na<sub>2</sub>CO<sub>3</sub> ratio is 2 : 1. Apply both ratios in sequence.\n> \n> Keep the full calculator value for moles throughout to avoid rounding errors accumulating.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator mass space open parentheses straight g close parentheses over denominator M subscript straight r end fraction",
+       "render": "$\\frac{mass ( \\mathrm{g} )}{M_{r} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\frac{750}{58.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>750</mn><mrow><mn>58</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{750}{58.5}"
+      },
+      {
+       "latex": "\\frac{12.8}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><mo>.</mo><mn>8</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{12.8}{2}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Y8Tj5TKr7htfYbhB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Norgessaltpeter, Ca(NO<sub>3</sub>)<sub>2</sub>, was the first nitrogen fertiliser to be manufactured in Norway. It is produced by the reaction of calcium carbonate with nitric acid.\n\nIn an experiment, an excess of powdered calcium carbonate was added to 37.4 cm<sup>3</sup> of 0.531 mol dm<sup>–3</sup> nitric acid.\n\nCalculate the minimum mass of CaCO<sub>3</sub> that should be added to react with all of the nitric acid. Give your answer to an appropriate number of significant figures.\n\nShow your working.",
+     "solution_md": "To calculate the minimum mass of CaCO<sub>3</sub> needed to react with 37.4 cm<sup>3</sup> of 0.531 mol dm<sup>–3</sup> nitric acid:\n\n- Write the balanced equation for the reaction:\n\nCaCO<sub>3</sub> + 2HNO<sub>3</sub> → Ca(NO<sub>3</sub>)<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O\n\n**[1 mark]**\n\n- Calculate the moles of HNO<sub>3</sub>:\n\nmoles = concentration × $\\frac{\\mathrm{volume}}{1000}$\n\nmoles of HNO<sub>3</sub> = 0.531 × $\\frac{37.4}{1000}$\n\nmoles of HNO<sub>3</sub> = 0.0199 mol\n\n**[1 mark]**\n\n- Calculate the moles and *M*<sub>r</sub> of CaCO<sub>3</sub>:\n\nratio CaCO<sub>3</sub> : HNO<sub>3</sub> = 1 : 2\n\nmoles of CaCO<sub>3</sub> = $\\frac{0.0199}{2}$ = 9.93 × 10<sup>–3</sup> mol\n\n*M*<sub>r</sub> of CaCO<sub>3</sub> = 40.1 + 12.0 + (3 × 16.0) = 100.1\n\n**[1 mark]**\n\n- Calculate the mass of CaCO<sub>3</sub>:\n\nmass = moles × *M*<sub>r</sub>\n\nmass = 9.93 × 10<sup>–3</sup> × 100.1\n\nmass = **0.994 g (to 3 s.f.)**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the balanced equation\n> \n> 1 mark for moles of HNO<sub>3</sub> = 0.0199 mol (allow 0.01986)\n> \n> 1 mark for moles of CaCO<sub>3</sub> = 9.93 × 10<sup>–3</sup> mol **AND** *M*<sub>r</sub> of CaCO<sub>3</sub> = 100.1\n> \n> 1 mark for mass of CaCO<sub>3</sub> = 0.994 g to 3 significant figures\n> \n> The data in the question are given to 3 significant figures, so the answer must be to 3 significant figures\n> \n> Allow error carried forward if an incorrect equation or moles value is used\n\n> **[exam-tip]**\n> The balanced equation comes from the general rule: carbonate + acid → salt + carbon dioxide + water.\n> \n> The moles of acid is calculated using: moles = concentration × volume (in dm<sup>3</sup>). Remember to convert cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000.\n> \n> The question asks for an appropriate number of significant figures. Since the given data are all to 3 significant figures (37.4, 0.531), the answer must also be to 3 significant figures.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{volume}}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mn>1000</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "volume over 1000"
+      },
+      {
+       "latex": "\\frac{37.4}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>37</mn><mo>.</mo><mn>4</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{37.4}{1000}"
+      },
+      {
+       "latex": "\\frac{0.0199}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0199</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.0199}{2}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_mHRM4SdWSY8rMWc6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "A 0.0830 mol sample of pure zinc oxide was added to 75.0 cm<sup>3</sup> of 0.90 mol dm<sup>−3</sup> hydrochloric acid.\n\nAssuming the reaction has a percentage yield of 60.6%, calculate the mass of anhydrous zinc chloride that could be obtained from the products of this reaction.\n\nShow your working.",
+     "solution_md": "To calculate the mass of zinc chloride with a 60.6% yield:\n\n- Write the balanced equation for the reaction:\n\nZnO + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>O\n\n**[1 mark]**\n\n- Calculate the moles of HCl:\n\nmoles = concentration x volume (dm<sup>3</sup>)\n\nmoles of HCl = 0.90 × $\\frac{75.0}{1000}$\n\nmoles of HCl = 0.0675 mol\n\n- HCl required for all ZnO = 0.0830 × 2 = 0.166 mol\n\n  - This is more than the available 0.0675 mol\n  - So, HCl is the limiting reagent\n- Calculate the moles of ZnCl<sub>2</sub>:\n\nmolar ratio HCl : ZnCl<sub>2</sub> = 2 : 1\n\nmoles of ZnCl<sub>2</sub> = $\\frac{0.0675}{2}$ = 0.03375 mol\n\n**[1 mark]**\n\n- Calculate the theoretical mass of ZnCl<sub>2</sub>:\n\n*M*<sub>r</sub> of ZnCl<sub>2</sub> = 65.4 + (2 × 35.5) = 136.4\n\ntheoretical mass = 0.03375 × 136.4 = 4.60 g\n\n**[1 mark]**\n\n- Calculate the mass of ZnCl<sub>2</sub> with a 60.6% yield:\n\nmass = $\\frac{4.60}{100}$ × 60.6\n\nmass = **2.8 g**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the balanced equation for the reaction\n> \n> 1 mark for moles of HCl = 0.0675 mol **AND** moles of ZnCl<sub>2</sub> = 0.03375 mol\n> \n> 1 mark for *M*<sub>r</sub> of ZnCl<sub>2</sub> = 136.4 **AND** theoretical mass of ZnCl<sub>2</sub> = 4.60 g\n> \n> 1 mark for mass of ZnCl<sub>2</sub> at 60.6% yield = 2.8 g\n> \n> Allow error carried forward if an incorrect theoretical mass is used in the yield step\n\n> **[exam-tip]**\n> When both reactants are given as amounts (or can be converted to moles), always check which is the limiting reagent before calculating the product.\n> \n> Here, 0.0830 mol ZnO would need 0.166 mol HCl (ratio 1 : 2), but only 0.0675 mol HCl is available. HCl is the limiting reagent, so use moles of HCl in the calculation.\n> \n> To apply the percentage yield: multiply the theoretical mass by (60.6 ÷ 100), or equivalently by 0.606.",
+     "equations": [
+      {
+       "latex": "\\frac{75.0}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>75</mn><mo>.</mo><mn>0</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{75.0}{1000}"
+      },
+      {
+       "latex": "\\frac{0.0675}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0675</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.0675}{2}"
+      },
+      {
+       "latex": "\\frac{4.60}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>60</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{4.60}{100}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_vPfn2x5py9thnJQw",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Magnesium nitride, Mg<sub>3</sub>N<sub>2</sub>, reacts with water to form magnesium hydroxide and ammonia.\n\nCalculate the number of molecules of ammonia gas produced by the reaction of 12.62 g of magnesium nitride.\n\nShow your working.",
+     "solution_md": "To calculate the number of molecules of NH<sub>3</sub> produced by the reaction of 12.62 g of Mg<sub>3</sub>N<sub>2</sub>:\n\n- Write the balanced equation for the reaction:\n\nMg<sub>3</sub>N<sub>2</sub> + 6H<sub>2</sub>O → 3Mg(OH)<sub>2</sub> + 2NH<sub>3</sub>\n\n**[1 mark]**\n\n- Calculate the moles of Mg<sub>3</sub>N<sub>2</sub>:\n\n*M*<sub>r</sub> of Mg<sub>3</sub>N<sub>2</sub> = (3 × 24.3) + (2 × 14.0) = 100.9\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of Mg<sub>3</sub>N<sub>2</sub> = $\\frac{12.62}{100.9}$\n\nmoles of Mg<sub>3</sub>N<sub>2</sub> = 0.125 mol\n\n**[1 mark]**\n\n- Calculate the number of molecules of NH<sub>3</sub>:\n\nmolar ratio Mg<sub>3</sub>N<sub>2</sub> : NH<sub>3</sub> = 1 : 2\n\nmoles of NH<sub>3</sub> = 0.125 × 2 = 0.250 mol\n\nnumber of molecules = 0.250 × 6.02 × 10<sup>23</sup>\n\nnumber of molecules = **1.51 × 10**<sup>**23**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for the balanced equation for the reaction\n> \n> 1 mark for *M*<sub>r</sub> of Mg<sub>3</sub>N<sub>2</sub> = 100.9 **AND** moles of Mg<sub>3</sub>N<sub>2</sub> = 0.125 mol\n> \n> 1 mark for number of molecules of NH<sub>3</sub> = 1.51 × 10<sup>23</sup>\n> \n> Allow error carried forward if an incorrect equation or moles value is used\n\n> **[exam-tip]**\n> Start by constructing the unbalanced equation from the names given in the question:\n> \n> Mg<sub>3</sub>N<sub>2</sub> + H<sub>2</sub>O → Mg(OH)<sub>2</sub> + NH<sub>3</sub>\n> \n> The three Mg atoms form 3Mg(OH)<sub>2</sub>, and the two N atoms form 2NH<sub>3</sub>. Balancing the hydrogen atoms then requires 6H<sub>2</sub>O:\n> \n> Mg<sub>3</sub>N<sub>2</sub> + 6H<sub>2</sub>O → 3Mg(OH)<sub>2</sub> + 2NH<sub>3</sub>\n> \n> From the equation, the Mg<sub>3</sub>N<sub>2</sub> : NH<sub>3</sub> ratio is 1 : 2. Multiply moles of Mg<sub>3</sub>N<sub>2</sub> by 2 to find moles of NH<sub>3</sub>.\n> \n> One mole of any substance contains *L* = 6.02 × 10<sup>23</sup> mol<sup>–1</sup> molecules. Multiply moles of NH<sub>3</sub> by *L* to find the number of molecules.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{12.62}{100.9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><mo>.</mo><mn>62</mn></mrow><mrow><mn>100</mn><mo>.</mo><mn>9</mn></mrow></mfrac></math>",
+       "alt": "\\frac{12.62}{100.9}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_mxFggrbKpvmkqdC5",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_j5PdZyJPCt5rTY6g",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Fireworks contain elements to give them their colour, as well as oxygen-containing compounds to facilitate speedy combustion.\n\nIn a firework, solid potassium nitrate, KNO<sub>3</sub>, decomposes to form solid potassium nitrite, KNO<sub>2</sub>, and oxygen, O<sub>2</sub>.\n\nCalculate the mass, in g, of potassium nitrate, KNO<sub>3</sub>, required to make 1.5 g of oxygen. Give your answer to 2 significant figures.\n\nShow your working.",
+     "solution_md": "To calculate the mass of KNO<sub>3</sub> required to produce 1.5 g of oxygen:\n\n- Write the balanced equation for the decomposition of KNO<sub>3</sub>:\n\n2KNO<sub>3</sub> (s) → 2KNO<sub>2</sub> (s) + O<sub>2</sub> (g) **[1 mark]**\n\n- Calculate the moles of O<sub>2</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of O<sub>2</sub> = $\\frac{1.5}{32.0}$\n\nmoles of O<sub>2</sub> = 0.0469 mol **[1 mark]**\n\n- Calculate the moles of KNO<sub>3</sub>:\n\nmolar ratio KNO<sub>3</sub> : O<sub>2</sub> = 2 : 1\n\nmoles of KNO<sub>3</sub> = 0.0469 x 2\n\nmoles of KNO<sub>3</sub> = 0.0938 mol **[1 mark]**\n\n- Calculate the *M*<sub>r</sub> of KNO<sub>3</sub>:\n\n*M*<sub>r</sub> of KNO<sub>3</sub> = 39.1 + 14.0 + (3 x 16.0)\n\n*M*<sub>r</sub> of KNO<sub>3</sub> = 101.1\n\n- Calculate the mass of KNO<sub>3</sub>:\n\nmass = moles × *M*<sub>r</sub>\n\nmass of KNO<sub>3</sub> = 0.0938 x 101.1\n\nmass of KNO<sub>3</sub> = **9.5 g (to 2 s.f.)** **[1 mark]**\n\n> **[mark-scheme]**\n> Final answers must be given to 2 significant figures\n> \n> Allow error carried forward throughout if an incorrect equation is used\n\n> **[exam-tip]**\n> Always write and check the balanced equation before starting. The stoichiometric ratio (2 : 1 for KNO<sub>3</sub> : O<sub>2</sub>) is essential for the moles step.\n> \n> Retain the full calculator value for moles of O<sub>2</sub> throughout the calculation rather than rounding at each step, otherwise small rounding errors accumulate and the final answer may be slightly off.\n> \n> Check that *M*<sub>r</sub> values are given to 1 decimal place, in line with the Periodic Table (e.g. K = 39.1, not 39).",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{1.5}{32.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>5</mn></mrow><mrow><mn>32</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.5}{32.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bqQKRxKN9Xkg5t8v",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFireworks contain elements to give them their colour, as well as oxygen-containing compounds to facilitate speedy combustion.\n\nIn a firework, solid potassium nitrate, KNO~3~, decomposes to form solid potassium nitrite, KNO~2~, and oxygen, O~2~.\n\nCalculate the mass, in g, of potassium nitrate, KNO~3~, required to make 1.5 g of oxygen.\n\nmoles of O~2~ = 0.0469 mol\n\nCalculate the volume, in dm<sup>3</sup>, of gas that is produced when solid potassium nitrate, KNO<sub>3</sub>, decomposes at room conditions. Give your answer to 2 significant figures.",
+     "solution_md": "To calculate the volume of gas produced at room conditions:\n\nvolume = moles × molar volume\n\nvolume of gas produced = 0.0469 x 24.0\n\nvolume of gas produced = **1.1 dm**<sup>**3**</sup> **(to 2 s.f.)** **[1 mark]**\n\n> **[mark-scheme]**\n> Answers must be given to 2 significant figures\n> \n> Allow error carried forward if an incorrect moles value from part (a) is used\n\n> **[exam-tip]**\n> One mole of any gas at room conditions occupies 24.0 dm<sup>3</sup>.\n> \n> For the most accurate answer, use the unrounded moles of O<sub>2</sub> from part (a) rather than the rounded value.\n> \n> Here, 1.5 ÷ 32.0 = 0.046875 mol, giving a volume of 0.046875 x 24.0 = 1.125 dm<sup>3</sup>, which rounds to 1.1 dm<sup>3</sup> at 2 significant figures."
+    },
+    {
+     "id": "qstnprt_HkdBPPKY9Wq6NCqD",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Potassium can form a superoxide, KO<sub>2</sub> (s), which will react with carbon dioxide, CO<sub>2</sub> (g), to produce potassium carbonate, K<sub>2</sub>CO<sub>3</sub> (s) and oxygen, O<sub>2</sub> (g).\n\nCalculate the volume, in dm<sup>3</sup>, at room conditions, of carbon dioxide that will react with 5.00 g of the superoxide. Give your answer to 3 significant figures.\n\nShow your working.",
+     "solution_md": "To calculate the volume of CO<sub>2</sub> that will react with 5.00 g of KO<sub>2</sub> at room conditions:\n\n- Write the balanced equation for the reaction:\n\n4KO<sub>2</sub> + 2CO<sub>2</sub> → 2K<sub>2</sub>CO<sub>3</sub> + 3O<sub>2</sub> **[1 mark]**\n\n- Calculate the moles of KO<sub>2</sub>:\n\n*M*<sub>r</sub> of KO<sub>2</sub> = 39.1 + (2 x 16.0) = 71.1\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of KO<sub>2</sub> = $\\frac{5.00}{71.1}$\n\nmoles of KO<sub>2</sub> = 0.0703 mol **[1 mark]**\n\n- Calculate the moles of CO<sub>2</sub>:\n\nratio KO<sub>2</sub> : CO<sub>2</sub> = 4 : 2 = 2 : 1\n\nmoles of CO<sub>2</sub> = $\\frac{0.0703}{2}$\n\nmoles of CO<sub>2</sub> = 0.0352 mol **[1 mark]**\n\n- Calculate the volume of CO<sub>2</sub> at room conditions:\n\nvolume = moles x molar volume\n\nvolume of CO<sub>2</sub> = 0.0352 x 24.0\n\nvolume of CO<sub>2</sub> = **0.844 dm**<sup>**3**</sup>  **(to 3 s.f.)** **[1 mark]**\n\n> **[mark-scheme]**\n> Final answers must be given to 3 significant figures\n> \n> Allow error carried forward if an incorrect equation or moles value is used\n\n> **[exam-tip]**\n> Always start with a balanced equation. This question is less structured than some, so you need to choose the steps yourself.\n> \n> Start with what you know: 5.00 g of KO<sub>2</sub>. Calculate moles of KO<sub>2</sub>, use the molar ratio from the equation to find moles of CO<sub>2</sub>, then multiply by *V*<sub>m</sub> (24.0 dm<sup>3</sup> mol<sup>-1</sup>) to find the volume.\n> \n> The question specifies 3 significant figures — not decimal places. 0.844 is to 3 sf.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{5.00}{71.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>00</mn></mrow><mrow><mn>71</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.00}{71.1}"
+      },
+      {
+       "latex": "\\frac{0.0703}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0703</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.0703}{2}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_RtXGBBKtpckvwbvm",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPotassium can form a superoxide, KO~2~ (s), which will react with carbon dioxide, CO~2~ (g), to produce potassium carbonate, K~2~CO~3~ (s) and oxygen, O~2~ (g).\n\nBalanced equation: 4KO~2~ + 2CO~2~ → 2K~2~CO~3~ + 3O~2~\n\nmoles of KO~2~ = 5.00 / 71.1 = 0.0703 mol\n\n2.61 g of potassium carbonate, K<sub>2</sub>CO<sub>3</sub>, was produced during the reaction in part (c).\n\nCalculate the percentage yield of potassium carbonate. Give your answer to 2 decimal places.\n\nShow your working.",
+     "solution_md": "To calculate the percentage yield of potassium carbonate:\n\n- Calculate the theoretical moles of K<sub>2</sub>CO<sub>3</sub>:\n\nratio KO<sub>2</sub> : K<sub>2</sub>CO<sub>3</sub> = 4 : 2 = 2 : 1\n\nmoles of K<sub>2</sub>CO<sub>3</sub> = $\\frac{0.0703}{2}$ = 0.0352 mol **[1 mark]**\n\n- Calculate the *M*<sub>r</sub> of K<sub>2</sub>CO<sub>3</sub>:\n\n*M*<sub>r</sub> of K<sub>2</sub>CO<sub>3</sub> = (2 x 39.1) + 12.0 + (3 x 16.0)\n\n*M*<sub>r</sub> of K<sub>2</sub>CO<sub>3</sub> = 138.2\n\n- Calculate the theoretical mass (yield) of K<sub>2</sub>CO<sub>3</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\ntheoretical mass = 0.0352 x 138.2\n\ntheoretical mass = **4.86 g** **[1 mark]**\n\n- Calculate the percentage yield:\n\npercentage yield = $\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}$ x 100\n\npercentage yield = $\\frac{2.61}{4.86}$ x 100\n\npercentage yield = **53.71%** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow 53.70% if the rounded 4.86 g is used in the final step\n> \n> Allow error carried forward from part (c) if an incorrect moles value is carried forward\n\n> **[exam-tip]**\n> The actual yield is given in the question (2.61 g). The theoretical yield must be calculated using the moles of KO<sub>2</sub> from part (c).\n> \n> From the balanced equation, the ratio of KO<sub>2</sub> : K<sub>2</sub>CO<sub>3</sub> = 4 : 2 = 2 : 1. Use the unrounded moles of KO<sub>2</sub> from part (c) to maximise precision in the theoretical mass.",
+     "equations": [
+      {
+       "latex": "\\frac{0.0703}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0703</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.0703}{2}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>actual</mi><mo>&#160;</mo><mi>yield</mi></mrow><mrow><mi>theoretical</mi><mo>&#160;</mo><mi>yield</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator actual space yield over denominator theoretical space yield end fraction"
+      },
+      {
+       "latex": "\\frac{2.61}{4.86}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>61</mn></mrow><mrow><mn>4</mn><mo>.</mo><mn>86</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.61}{4.86}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_yf3J2p55cc8Tkf7W",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_pRd7DVpPf7dtdRVk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_rBJCH5cMmx33QRxp",
+      "spcpt_CcsxDHpz2T4Njdty"
+     ],
+     "part_tier": null,
+     "problem_md": "This question is about the formation and reaction of silane, SiH<sub>4</sub>.\n\n0.50 g of quartz sand and 0.50 g of powdered silica are mixed with 2.40 g of magnesium powder. The resulting mixture is placed in a pot half filled with sand. A magnesium ribbon fuse is added and the mixture is ignited to form magnesium oxide and solid magnesium silicide, Mg<sub>2</sub>Si.\n\ni) Construct an equation for this reaction.\n\nInclude state symbols.\n\n[2]\n\nii) Deduce which reagent is the limiting reagent. Show your working.\n\n[2]",
+     "solution_md": "i) The equation for the reaction of silica with magnesium is:\n\nSiO<sub>2</sub> (s) + 4Mg (s) → 2MgO (s) + Mg<sub>2</sub>Si (s)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct chemical species **AND** correct state symbols\n> \n> 1 mark for correct balancing\n\nii) To deduce which reagent is the limiting reagent:\n\n- Calculate the *M*<sub>r</sub> of silica:\n\n*M*<sub>r</sub> of SiO<sub>2</sub> = 28.1 + (2 x 16.0)\n\n*M*<sub>r</sub> of SiO<sub>2</sub> = 60.1\n\n- Calculate the moles of silica:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of SiO<sub>2</sub> = $\\frac{0.50}{60.1}$\n\nmoles of SiO<sub>2</sub> = 8.32 x 10<sup>-3</sup> mol\n\n**[1 mark]**\n\n- Calculate the moles of magnesium:\n\nmoles of Mg = $\\frac{2.40}{24.3}$\n\nmoles of Mg = 9.88 x 10<sup>-2</sup> mol\n\n- So, silica is the limiting reagent.\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *M*<sub>r</sub> of SiO<sub>2</sub> = 60.1 **AND** amount of SiO<sub>2</sub> = 8.32 x 10<sup>-3</sup> mol\n> \n> 1 mark for amount of Mg = 9.88 x 10<sup>-2</sup> mol **AND** silica is the limiting reagent\n\n> **[exam-tip]**\n> For part (i), note that quartz sand and silica are both forms of SiO<sub>2</sub>. The quartz sand is a distractor and does not appear in the equation. Only the powdered silica reacts with the magnesium.\n> \n> Balance the equation systematically:\n> \n> - The two oxygen atoms in SiO<sub>2</sub> form 2MgO on the right-hand side\n> - That gives 2 Mg in MgO plus 2 Mg in Mg<sub>2</sub>Si, so 4Mg on the left\n> \n> For part (ii), calculate the moles of each reactant, then compare with the 1:4 molar ratio from the equation (1 mol SiO<sub>2</sub> reacts with 4 mol Mg). The reactant present in the smaller stoichiometric quantity is the limiting reagent.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{0.50}{60.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>50</mn></mrow><mrow><mn>60</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.50}{60.1}"
+      },
+      {
+       "latex": "\\frac{2.40}{24.3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>40</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>3</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.40}{24.3}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Qzgk9DCxyNnT6pKc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_XrDVCr5BKxW9xv8b",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "The magnesium silicide is reacted with hydrochloric acid according to the following equation:\n\nMg<sub>2</sub>Si (s) + 4HCl (aq) → 2MgCl<sub>2</sub> (aq) + SiH<sub>4</sub> (g)\n\nThe gaseous silane formed spontaneously ignites in air.\n\nState the type of reaction and construct an equation for this reaction.\n\nInclude state symbols.",
+     "solution_md": "The equation for the combustion of silane, including state symbols, is:\n\nSiH<sub>4</sub> (g) + 2O<sub>2</sub> (g) → SiO<sub>2</sub> (s) + 2H<sub>2</sub>O (l)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct chemical species **AND** correct state symbols\n> \n> 1 mark for correct balancing\n> \n> The type of reaction:\n> \n> - Oxidation\n> **OR**\n> Combustion **[1 mark]**\n\n> **[exam-tip]**\n> Silane igniting spontaneously in air means it is reacting with oxygen. Any reaction with oxygen that releases energy is a combustion reaction, which is also an oxidation reaction (silicon and hydrogen are both oxidised).\n> \n> Construct the equation by analogy with methane combustion. Silicon goes to SiO<sub>2</sub> and the four hydrogen atoms form 2H<sub>2</sub>O:\n> \n> SiH<sub>4</sub> (g) + O<sub>2</sub> (g) → SiO<sub>2</sub> (s) + 2H<sub>2</sub>O (l)\n> \n> Balance the oxygens last: SiO<sub>2</sub> needs 2 O and 2H<sub>2</sub>O needs 2 O, so 4 O total = 2O<sub>2</sub>."
+    },
+    {
+     "id": "qstnprt_8pHxtxfs4cnv7wpZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "An alternative method to produce silane involves the reaction of silicon with hydrochloric acid to form trichlorosilane, HSiCl<sub>3</sub>.\n\nSi (s) + 3HCl (aq) → HSiCl<sub>3</sub> (l) + H<sub>2</sub> (g)\n\nCalculate the maximum mass of trichlorosilane produced from the reaction of 35.125 g of silicon. Show your working.",
+     "solution_md": "To calculate the maximum mass of trichlorosilane produced from the reaction of 35.125 g of silicon:\n\n- Calculate the moles of silicon:\n\nmoles = $\\frac{\\mathrm{mass}}{A_{r}}$\n\nmoles of Si = $\\frac{35.125}{28.1}$\n\nmoles of Si = 1.25 mol **[1 mark]**\n\n- Calculate the *M*<sub>r</sub> of trichlorosilane, HSiCl<sub>3</sub>:\n\n*M*<sub>r</sub> of HSiCl<sub>3</sub> = 1.0 + 28.1 + (3 x 35.5)\n\n*M*<sub>r</sub> of HSiCl<sub>3</sub> = 135.6 **[1 mark]**\n\n- Calculate the mass of trichlorosilane, HSiCl<sub>3</sub>:\n\nmolar ratio Si : HSiCl<sub>3</sub> = 1 : 1\n\nmoles of HSiCl<sub>3</sub> = 1.25 mol\n\nmass = moles x *M*<sub>r</sub>\n\nmass of HSiCl<sub>3</sub> = 1.25 x 135.6\n\nmass of HSiCl<sub>3</sub> = **169.5 g** **[1 mark]**\n\n> **[exam-tip]**\n> This is a standard reacting mass calculation. Work through these steps:\n> \n> 1. Calculate the moles of one species from the chemical equation\n> 2. Apply the molar ratio\n> 3. Calculate the moles of the target species\n> 4. Calculate the mass of the target species",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>A</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over A subscript straight r"
+      },
+      {
+       "latex": "\\frac{35.125}{28.1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>35</mn><mo>.</mo><mn>125</mn></mrow><mrow><mn>28</mn><mo>.</mo><mn>1</mn></mrow></mfrac></math>",
+       "alt": "\\frac{35.125}{28.1}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kN5B5k9Cdxtn4PdD",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Another method of silane production involves the reduction of silicon dioxide by aluminium and hydrogen gas.\n\n3SiO<sub>2</sub> (s) + 6H<sub>2</sub> (g) + 4Al (s) → 3SiH<sub>4</sub> (g) + 2Al<sub>2</sub>O<sub>3</sub> (s)\n\nCalculate the volume, in dm<sup>3</sup>, of hydrogen gas required to produce 10.0 dm<sup>3</sup> of silane gas. Explain your answer.\n\nAssume all volumes are measured under the same conditions.",
+     "solution_md": "> **[mark-scheme]**\n> The volume of hydrogen gas required to produce 10.0 dm<sup>3</sup> of silane gas is:\n> \n> - 20.0 (dm<sup>3</sup>) **[1 mark]**\n> - (Because,) the ratio of H<sub>2</sub> (g) : SiH<sub>4</sub> (g) is 6 : 3\n> **OR**\n> The ratio of H<sub>2</sub> (g) : SiH<sub>4</sub> (g) is 2 : 1\n> **OR**\n> There are twice as many moles of hydrogen as silane **[1 mark]**\n\n> **[exam-tip]**\n> When all gases are measured under the same conditions, volumes are proportional to moles. You do not need to use the molar volume (24.0 dm<sup>3</sup> mol<sup>-1</sup>).\n> \n> The equation shows 6 mol H<sub>2</sub> produces 3 mol SiH<sub>4</sub>, a ratio of 2 : 1. So to produce 10.0 dm<sup>3</sup> of SiH<sub>4</sub>, you need 20.0 dm<sup>3</sup> of H<sub>2</sub>."
+    }
+   ]
+  },
+  {
+   "id": "qstn_qmMZMQ7BTXBhPHC6",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_HY3m2N2Vzckfqyk8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction of nitrous oxide gas, N<sub>2</sub>O (g), with carbon disulfide vapour, CS<sub>2</sub> (g), is an example of a chemical luminescence reaction producing a flame with a bright blue light.\n\n2N<sub>2</sub>O (g) + CS<sub>2</sub> (g) → 2S (s) + 2N<sub>2</sub> (g) + CO<sub>2</sub> (g)\n\nThe brightness of the light produced was a reason why this reaction was once used in low-light photography.\n\nWhen nitrous oxide and carbon disulfide are placed together there is no immediate reaction.\n\nExplain how a flame can help initiate the reaction.",
+     "solution_md": "> **[mark-scheme]**\n> A flame helps initiate the reaction by:\n> \n> - Providing the particles with the required activation energy\n> **OR**\n> Increasing the energy of some particles so that it is greater than the activation energy **[1 mark]**\n\n> **[exam-tip]**\n> This question is about activation energy.\n> \n> The reaction between N<sub>2</sub>O and CS<sub>2</sub> requires a large activation energy, meaning the particles need a substantial energy input before they can react.\n> \n> A flame provides this initial energy. Once the reaction starts, the energy released by the exothermic reaction is sufficient to sustain it."
+    },
+    {
+     "id": "qstnprt_rdjqdH2j3QMjZZRN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VnC68jpxv3TKmwXX",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe reaction of nitrous oxide gas, N~2~O (g), with carbon disulfide vapour, CS~2~ (g), is an example of a chemical luminescence reaction producing a flame with a bright blue light.\n\n2N~2~O (g) + CS~2~ (g) → 2S (s) + 2N~2~ (g) + CO~2~ (g)\n\nA measuring cylinder containing 100 cm<sup>3</sup> of nitrous oxide is used in a demonstration of the reaction between nitrous oxide and carbon disulfide.\n\ni) Calculate the amount, in mol, of nitrous oxide in the measuring cylinder.\n\n[1]\n\nii) Calculate the number of carbon disulfide molecules required to react with the nitrous oxide at room conditions. Show your working.\n\n[2]",
+     "solution_md": "i) To calculate the amount, in mol, of nitrous oxide in the measuring cylinder:\n\nvolume = 100 ÷ 1000 = 0.100 dm<sup>3</sup>\n\nmoles = $\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}$\n\nmoles of N<sub>2</sub>O = $\\frac{0.100}{24.0}$\n\nmoles of N<sub>2</sub>O = 4.17 x 10<sup>-3</sup> mol **[1 mark]**\n\nii) To calculate the number of carbon disulfide molecules required to react with the nitrous oxide:\n\n- Calculate the amount of carbon disulfide:\n\nmolar ratio N<sub>2</sub>O : CS<sub>2</sub> = 2 : 1\n\nmoles of CS<sub>2</sub> = $\\frac{4.17\\times10^{-3}}{2}$\n\nmoles of CS<sub>2</sub> = 2.08 x 10<sup>-3</sup> mol **[1 mark]**\n\n- Calculate the number of molecules:\n\nnumber of molecules = amount x *L*\n\nnumber of molecules = 2.08 x 10<sup>-3</sup> x 6.022 x 10<sup>23</sup>\n\nnumber of molecules = **1.25 x 10**<sup>**21**</sup> **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), convert the volume from cm<sup>3</sup> to dm<sup>3</sup> first: 100 ÷ 1000 = 0.100 dm<sup>3</sup>. Then divide by *V*<sub>m</sub> = 24.0 dm<sup>3</sup> mol<sup>-1</sup> at room conditions.\n> \n> For part (ii), use the 2:1 molar ratio from the equation to find moles of CS<sub>2</sub>. Then multiply by the Avogadro constant *L* = 6.022 x 10<sup>23</sup> mol<sup>-1</sup> to convert moles to number of molecules.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{volume}}{\\mathrm{molar} \\mathrm{volume}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mrow><mi>molar</mi><mo>&#160;</mo><mi>volume</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator volume over denominator molar space volume end fraction"
+      },
+      {
+       "latex": "\\frac{0.100}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>100</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.100}{24.0}"
+      },
+      {
+       "latex": "\\frac{4.17\\times10^{-3}}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>17</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{4.17 \\times 10^{-3}}{2}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_NVfKvbrt9MJsySGq",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe reaction of nitrous oxide gas, N₂O (g), with carbon disulfide vapour, CS₂ (g), is an example of a chemical luminescence reaction producing a flame with a bright blue light.\n\n2N₂O (g) + CS₂ (g) → 2S (s) + 2N₂ (g) + CO₂ (g)\n\nIn a second demonstration, 10.8 dm<sup>3</sup> of nitrous oxide is reacted with 5.6 dm<sup>3</sup> carbon disulfide vapour.\n\ni) Explain which reagent is in excess. Show your working.\n\n[2]\n\nii) Calculate the maximum mass of sulfur that will be produced from this demonstration.\n\n[1]",
+     "solution_md": "i) To deduce which reagent is in excess:\n\n- Calculate the moles of each reagent:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of N<sub>2</sub>O = $\\frac{10.8}{24.0}$ = 0.450 mol\n\nmoles of CS<sub>2</sub> = $\\frac{5.6}{24.0}$ = 0.233 mol\n\n**[1 mark]**\n\n- Use the molar ratio from the equation:\n\n2 mol N<sub>2</sub>O requires 1 mol CS<sub>2</sub>\n\n0.450 mol N<sub>2</sub>O requires only 0.225 mol CS<sub>2</sub>\n\nthere is 0.233 mol CS<sub>2</sub> present\n\nSo, carbon disulfide is in excess.\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for amount of N<sub>2</sub>O = 0.450 mol **AND** amount of CS<sub>2</sub> = 0.233 mol\n> \n> 1 mark for carbon disulfide is in excess **AND** 0.450 mol N<sub>2</sub>O requires only 0.225 mol CS<sub>2</sub> / the ratio is 2:1 and more CS<sub>2</sub> is present than required / nitrous oxide is the limiting reagent\n\nii) To calculate the maximum mass of sulfur produced:\n\nmolar ratio N<sub>2</sub>O : S = 2 : 2 = 1 : 1\n\nmoles of sulfur = 0.450 mol\n\nmass = amount x *A*<sub>r</sub>\n\nmass of S = 0.450 x 32.1\n\nmass of S = **14.4 g**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of S = 0.450 mol **AND** mass of S = 14.4 g\n\n> **[exam-tip]**\n> For part (i), calculate the moles of both reagents, then compare the actual mole ratio with the stoichiometric ratio from the equation (2N<sub>2</sub>O : 1CS<sub>2</sub>). The reagent present in greater than the stoichiometric proportion is in excess.\n> \n> For part (ii), use the limiting reagent (N<sub>2</sub>O) to find the theoretical yield. The 2N<sub>2</sub>O : 2S ratio simplifies to 1:1, so moles of S = moles of N<sub>2</sub>O used.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{10.8}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>.</mo><mn>8</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{10.8}{24.0}"
+      },
+      {
+       "latex": "\\frac{5.6}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>6</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.6}{24.0}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_dcYMtBC5QTd5Y8WX",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe reaction of nitrous oxide gas, N~2~O (g), with carbon disulfide vapour, CS~2~ (g), is an example of a chemical luminescence reaction producing a flame with a bright blue light.\n\n2N~2~O (g) + CS~2~ (g) → 2S (s) + 2N~2~ (g) + CO~2~ (g)\n\nThe demonstration is performed a third time to determine the percentage yield of sulfur of the reaction.\n\nFor this demonstration, 16.50 dm<sup>3</sup> of nitrous oxide is reacted with an excess of carbon disulfide at room conditions. This produces 14.32 g of sulfur.\n\nCalculate the percentage yield for this demonstration. Show your working.",
+     "solution_md": "To calculate the percentage yield for the demonstration using 16.50 dm<sup>3</sup> of nitrous oxide:\n\n- Calculate the moles of nitrous oxide:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of N<sub>2</sub>O = $\\frac{16.50}{24.0}$\n\nmoles of N<sub>2</sub>O = 0.6875 mol **[1 mark]**\n\n- Determine the moles of sulfur:\n\nmolar ratio N<sub>2</sub>O : S = 1 : 1\n\nmoles of sulfur = 0.6875 mol\n\n- Calculate the theoretical mass (yield) of sulfur:\n\nmass = amount x *A*<sub>r</sub>\n\ntheoretical mass of S = 0.6875 x 32.1\n\ntheoretical mass of S = 22.07 g **[1 mark]**\n\n- Calculate the percentage yield:\n\npercentage yield = $\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}$ x 100\n\npercentage yield = $\\frac{14.32}{22.07}$ x 100\n\npercentage yield = **64.9%** **[1 mark]**\n\n> **[exam-tip]**\n> Work through three steps:\n> \n> 1. Moles of N<sub>2</sub>O from volume\n> 2. Theoretical yield of S from moles\n> 3. Percentage yield from actual and theoretical masses.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{16.50}{24.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>16</mn><mo>.</mo><mn>50</mn></mrow><mrow><mn>24</mn><mo>.</mo><mn>0</mn></mrow></mfrac></math>",
+       "alt": "\\frac{16.50}{24.0}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>actual</mi><mo>&#160;</mo><mi>yield</mi></mrow><mrow><mi>theoretical</mi><mo>&#160;</mo><mi>yield</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator actual space yield over denominator theoretical space yield end fraction"
+      },
+      {
+       "latex": "\\frac{14.32}{22.07}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn><mo>.</mo><mn>32</mn></mrow><mrow><mn>22</mn><mo>.</mo><mn>07</mn></mrow></mfrac></math>",
+       "alt": "\\frac{14.32}{22.07}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_qjFnfc5mSxZHNrKJ",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_FVNFtHcMwpJDz3r8",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 5",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Verdigris is a green pigment that contains both copper(II) carbonate, CuCO<sub>3</sub>, and copper(II) hydroxide, Cu(OH)<sub>2</sub>, in varying amounts. Both copper compounds react with dilute hydrochloric acid.\n\nCuCO<sub>3</sub> (s) + 2HCl (aq) → CuCl<sub>2</sub> (aq) + CO<sub>2</sub> (g) + H<sub>2</sub>O (l)\n\nCu(OH)<sub>2</sub> (s) + 2HCl (aq) → CuCl<sub>2</sub> (aq) + 2H<sub>2</sub>O (l)\n\nYou are to plan an experiment to determine the percentage of copper(II) carbonate in a sample of verdigris. Your method should involve the reaction of verdigris with excess dilute hydrochloric acid.\n\nYou are provided with the following:\n\n- 0.494 g of verdigris\n- 10.0 mol dm<sup>–3</sup> hydrochloric acid, HCl (aq)\n- commonly available laboratory reagents and equipment\n\nYou may assume that any other material present in verdigris is unaffected by heating and is **not** acidic or basic.\n\ni) A student suggests that finding the volume of dilute hydrochloric acid required to react with a known mass of verdigris would be a suitable method to determine the percentage of copper(II) carbonate in a sample of verdigris.\n\nSuggest why this method would **not** work.\n\n[1]\n\nii) The 10.0 mol dm<sup>–3</sup> HCl is too concentrated for use in the experiment. Instead, a more dilute solution should be prepared.\n\nDescribe how you would accurately prepare 250.0 cm<sup>3</sup> of 0.500 mol dm<sup>–3</sup> hydrochloric acid from the 10.0 mol dm<sup>–3</sup> HCl provided.\n\nYour answer should state the name and capacity in cm<sup>3</sup> of any apparatus you would use.\n\n[3]\n\niii) The percentage of copper(II) carbonate in a sample of verdigris can be determined by measuring the volume of gas produced when excess hydrochloric acid is added to the sample of verdigris.\n\nDraw a diagram to show how you would set up the apparatus and chemicals to measure the total volume of gas produced in this reaction.\n\nLabel your diagram.\n\n[2]\n\niv) Sketch a graph on the axes to show how the volume of gas produced would change during your experiment. The independent variable should be on the x-axis.\n\n- Label both axes.\n- Extend the graph beyond the point at which the reaction is complete.\n\n![Empty graph axes for sketching the volume of gas produced over time](assets/002-empty-graph-axes-for-sketching-the-volume-of-gas.png)\n\n[2]\n\nv) A student thinks that their 0.494 g sample of verdigris only contains CuCO<sub>3</sub>.\n\nCalculate the minimum volume, in cm<sup>3</sup>, of 0.500 mol dm<sup>–3</sup> HCl that is needed to completely react with this sample if the student is correct. Show your working. [*M*<sub>r</sub>: CuCO<sub>3</sub> = 123.5]\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The method would not work because:\n> \n> - CuCO<sub>3</sub> and Cu(OH)<sub>2</sub> both react with HCl / two reactions consume HCl so it is not possible to distinguish between them **[1 mark]**\n> \n> ii) To prepare 250.0 cm<sup>3</sup> of 0.500 mol dm<sup>–3</sup> HCl from 10.0 mol dm<sup>–3</sup> HCl:\n> \n> - Transfer 12.5 cm<sup>3</sup> of 10.0 mol dm<sup>–3</sup> HCl **[1 mark]**\n> - Using a burette / graduated pipette **[1 mark]**\n> - Add to a 250 cm<sup>3</sup> volumetric flask **AND** make up to the graduation mark with distilled water **[1 mark]**\n\niii) A suitable apparatus set-up to measure the total volume of gas produced:\n\n![Diagram showing a divided conical flask or solid suspended above the acid in a test tube, connected via tubing to a gas syringe to collect CO2 without initial gas loss](assets/003-diagram-showing-a-divided-conical-flask-or-solid.jpeg)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> iii)\n> \n> 1 mark for suitable apparatus for CO<sub>2</sub> production without initial gas loss (e.g. divided conical flask, or solid suspended in a test tube above the acid)\n> \n> 1 mark for a suitable means of measuring the CO<sub>2</sub> produced (e.g. gas syringe, or inverted measuring cylinder over water)\n> \n> Ensure all joints are sealed so no gas escapes before measurement begins\n\niv) A sketch graph showing how the volume of gas produced changes during the experiment:\n\n![Completed sketch graph with volume of gas on the y-axis and time on the x-axis, showing a curve rising from the origin and levelling off at a plateau when the reaction is complete](assets/004-completed-sketch-graph-with-volume-of-gas-on-the.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> iv)\n> \n> 1 mark for correct axis labels: y-axis volume (of gas) **AND** x-axis time (or *t*)\n> \n> 1 mark for a curved line from the origin that rises and levels off at a plateau\n\nv) To calculate the minimum volume of 0.500 mol dm<sup>–3</sup> HCl needed to completely react with 0.494 g of CuCO<sub>3</sub>:\n\n- Calculate the moles of CuCO<sub>3</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of CuCO<sub>3</sub> = $\\frac{0.494}{123.5}$\n\nmoles of CuCO<sub>3</sub> = 4.00 × 10<sup>–3</sup> mol **[1 mark]**\n\n- Calculate the volume of HCl:\n\nratio CuCO<sub>3</sub> : HCl = 1 : 2\n\nmoles of HCl = 2 × 4.00 × 10<sup>–3</sup> = 8.00 × 10<sup>–3</sup> mol\n\nvolume = $\\frac{\\mathrm{moles}}{\\mathrm{concentration}}$\n\nvolume = $\\frac{8.00\\times10^{-3}}{0.500}$ = 0.0160 dm<sup>3</sup>\n\nvolume = **16.0 cm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward if an incorrect moles value is used to calculate the volume\n\n> **[exam-tip]**\n> For part i, both CuCO<sub>3</sub> and Cu(OH)<sub>2</sub> react with HCl. This means the total volume of HCl used reflects both reactions combined — you cannot separate the contribution of each compound. However, only CuCO<sub>3</sub> produces a gas (CO<sub>2</sub>), which is why measuring gas volume is a valid method.\n> \n> For part ii, calculate the volume of concentrated HCl needed using *C*<sub>1</sub>*V*<sub>1</sub> = *C*<sub>2</sub>*V*<sub>2</sub>: 10.0 × *V*<sub>1</sub> = 0.500 × 250.0, so *V*<sub>1</sub> = 12.5 cm<sup>3</sup>.\n> \n> For part iii, the key design challenge is preventing gas loss before measurement begins. A divided flask (reactants kept separate until sealed) or a solid suspended above the acid in a test tube achieves this.\n> \n> For part v, use the 1 : 2 molar ratio from the balanced equation to find moles of HCl, then use volume = moles ÷ concentration to get dm<sup>3</sup>, and multiply by 1000 for cm<sup>3</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{0.494}{123.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>494</mn></mrow><mrow><mn>123</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.494}{123.5}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{moles}}{\\mathrm{concentration}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>moles</mi><mi>concentration</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "moles over concentration"
+      },
+      {
+       "latex": "\\frac{8.00\\times10^{-3}}{0.500}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>.</mo><mn>00</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>500</mn></mrow></mfrac></math>",
+       "alt": "\\frac{8.00 \\times 10^{-3}}{0.500}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_FmfkNSbm9MKJXYQC",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 5",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp",
+      "spcpt_8cNrtVG6kjCS6NYV"
+     ],
+     "part_tier": null,
+     "problem_md": "Azurite is a blue copper-containing mineral. The copper compound in azurite has the formula Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub>. This copper compound reacts with sulfuric acid according to the equation.\n\nCu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> (s) + 3H<sub>2</sub>SO<sub>4</sub> (aq) → 3CuSO<sub>4</sub> (aq) + 2CO<sub>2</sub> (g) + 4H<sub>2</sub>O (l)\n\nA student carries out a series of titrations on 1.50 g samples of solid azurite using 0.400 mol dm<sup>–3</sup> sulfuric acid.\n\nAssume that any other material present in azurite does not react with sulfuric acid. Some titration data is given in Table 1.1.\n\n**Table 1.1**\n\n| **titration** | **rough** | **1** | **2** | **3** |\n|---|---|---|---|---|\n| final reading / cm<sup>3</sup> | 25.55 | 23.90 | 48.30 | 28.10 |\n| initial reading / cm<sup>3</sup> | 0.00 | 0.00 | 23.90 | 3.95 |\n| titre / cm<sup>3</sup> |   |   |   |   |\n\nThe indicator for the titration is bromophenol blue. Bromophenol blue is blue at pH 4.6 and yellow at pH 3.0.\n\ni) Complete Table 1.1.\n\n[1]\n\nii) Calculate the percentage uncertainty in titre 1.\n\n[1]\n\niii) The student concludes that 24.15 cm<sup>3</sup> of 0.400 mol dm<sup>–3</sup> sulfuric acid completely reacts with 1.50 g of azurite. Calculate the percentage by mass of Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> in the sample of azurite using the student's value of 24.15 cm<sup>3</sup> of 0.400 mol dm<sup>–3</sup> sulfuric acid.\n\nWrite your answer to **three** significant figures. Show your working. [*M*<sub>r</sub>: Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> = 344.5]\n\n[3]\n\niv) Identify **two** possible problems with the student's titration experiment and suggest improvements to it.\n\nproblem 1\n\nimprovement 1\n\nproblem 2\n\nimprovement 2\n\n[4]",
+     "solution_md": "i) The completed Table 1.1 is:\n\n| **titration** | **rough** | **1** | **2** | **3** |\n|---|---|---|---|---|\n| final reading / cm<sup>3</sup> | 25.55 | 23.90 | 48.30 | 28.10 |\n| initial reading / cm<sup>3</sup> | 0.00 | 0.00 | 23.90 | 3.95 |\n| titre / cm<sup>3</sup> | **Final answer:** **25.55** | **Final answer:** **23.90** | **Final answer:** **24.40** | **Final answer:** **24.15** |\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for all four titres correct: 25.55, 23.90, 24.40, and 24.15 cm<sup>3</sup>\n\nii) To calculate the percentage uncertainty in titre 1:\n\npercentage uncertainty = $\\frac{\\mathrm{total} \\mathrm{uncertainty}}{\\mathrm{measurement}}$ × 100\n\npercentage uncertainty = $\\frac{2\\times0.05}{23.90}$ × 100\n\npercentage uncertainty = **0.418%** **[1 mark]**\n\n> **[mark-scheme]**\n> Percentage uncertainty values rounded to 2 or 3 significant figures are accepted\n\niii) To calculate the percentage by mass of Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> in the azurite sample:\n\n- Calculate the moles of H<sub>2</sub>SO<sub>4</sub>:\n\nmoles = concentration × $\\frac{\\mathrm{volume}}{1000}$\n\nmoles of H<sub>2</sub>SO<sub>4</sub> = 0.400 × $\\frac{24.15}{1000}$\n\nmoles of H<sub>2</sub>SO<sub>4</sub> = 9.66 × 10<sup>–3</sup> mol **[1 mark]**\n\n- Calculate the moles of Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub>:\n\nratio Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> : H<sub>2</sub>SO<sub>4</sub> = 1 : 3\n\nmoles of Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> = $\\frac{9.66\\times10^{-3}}{3}$ = 3.22 × 10<sup>–3</sup> mol\n\n- Calculate the mass of Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub>:\n\nmass = 3.22 × 10<sup>–3</sup> × 344.5\n\nmass = **1.11 g** **[1 mark]**\n\n- Calculate the percentage by mass:\n\n% by mass = $\\frac{1.11}{1.50}$ × 100\n\n% by mass = **74.0%** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward for percentage by mass if an incorrect mass is used\n\n> **[mark-scheme]**\n> iv) Two possible problems and improvements are:\n> \n> - Problem 1: titres are not concordant / too far apart (titres 1 and 3 differ by 0.50 cm<sup>3</sup>) **[1 mark]**\n> - Improvement 1: repeat titrations until two concordant titres are obtained (within 0.10 cm<sup>3</sup>) **[1 mark]**\n> - Problem 2: the colour change of bromophenol blue is difficult to see clearly at the endpoint **[1 mark]**\n> - Improvement 2: use an alternative / named indicator **[1 mark]**\n> \n> Each improvement must be correctly paired with an associated problem to achieve the improvement mark\n\n> **[exam-tip]**\n> For part ii, a common error is to not double the uncertainty. Since two burette readings are taken (initial and final), the total absolute uncertainty is 2 × 0.05 = 0.10 cm<sup>3</sup>.\n> \n> For part iii, use the 1 : 3 molar ratio from the balanced equation (Cu<sub>3</sub>(CO<sub>3</sub>)<sub>2</sub>(OH)<sub>2</sub> : H<sub>2</sub>SO<sub>4</sub>) to find moles of the copper compound, then calculate mass = moles × *M*<sub>r</sub>.\n> \n> For part iv, concordant titres are typically within 0.10 cm<sup>3</sup> of each other. Here, titres 1 and 3 differ by 0.50 cm<sup>3</sup>, which is too large. An indicator that gives a clear colour change between two distinct colours makes the endpoint easier to identify.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{total} \\mathrm{uncertainty}}{\\mathrm{measurement}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>total</mi><mo>&#160;</mo><mi>uncertainty</mi></mrow><mi>measurement</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator total space uncertainty over denominator measurement end fraction"
+      },
+      {
+       "latex": "\\frac{2\\times0.05}{23.90}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>05</mn></mrow><mrow><mn>23</mn><mo>.</mo><mn>90</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2 \\times 0.05}{23.90}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{volume}}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>volume</mi><mn>1000</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "volume over 1000"
+      },
+      {
+       "latex": "\\frac{24.15}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>24</mn><mo>.</mo><mn>15</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{24.15}{1000}"
+      },
+      {
+       "latex": "\\frac{9.66\\times10^{-3}}{3}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><mo>.</mo><mn>66</mn><mo>&#xD7;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow><mn>3</mn></mfrac></math>",
+       "alt": "\\frac{9.66 \\times 10^{-3}}{3}"
+      },
+      {
+       "latex": "\\frac{1.11}{1.50}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>11</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>50</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.11}{1.50}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_h6HZQF5sFyYqqVXQ",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_pjFTHnKXqRnnfD9T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WpJSvwGhQxKyqdHc",
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "Copper(II) chloride can be produced by the reaction of hydrochloric acid with different copper(II) compounds.\n\ni) Suggest why the reaction of copper with hydrochloric acid is not used to form copper(II) chloride.\n\n[1]\n\nii) Complete Table 1.1 by constructing the equation for the formation of copper(II) chloride using hydrochloric acid and each of the copper(II) compounds.\n\n**Table 1.1 **\n\n| Copper(II) compound | Chemical equation |\n|---|---|\n| Copper(II) oxide,<br>CuO |   |\n| Copper(II) hydroxide,<br>Cu(OH)<sub>2</sub> |   |\n| Copper(II) carbonate,<br>CuCO<sub>3</sub> |   |\n\n** **[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) The reaction of copper with hydrochloric acid is not used to form copper(II) chloride because:\n> \n> - Copper is unreactive\n> **OR**\n> Copper is lower in the reactivity series than hydrogen **[1 mark]**\n\nii) The completed table is:\n\n| Copper(II) compound | Chemical equation |\n|---|---|\n| Copper(II) oxide,<br>CuO | CuO + 2HCl → CuCl<sub>2</sub> + H<sub>2</sub>O |\n| Copper(II) hydroxide,<br>Cu(OH)<sub>2</sub> | Cu(OH)<sub>2</sub> + 2HCl → CuCl<sub>2</sub> + 2H<sub>2</sub>O |\n| Copper(II) carbonate,<br>CuCO<sub>3</sub> | CuCO<sub>3</sub> + 2HCl → CuCl<sub>2</sub> + H<sub>2</sub>O + CO<sub>2</sub> |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for the correct chemical equation for copper(II) oxide, CuO\n> \n> 1 mark for the correct chemical equation for copper(II) hydroxide, Cu(OH)<sub>2</sub>\n> \n> 1 mark for the correct chemical equation for copper(II) carbonate, CuCO<sub>3</sub>\n\n> **[exam-tip]**\n> For part (i), recall that copper sits below hydrogen in the reactivity series. This means copper cannot displace hydrogen from an acid and will not react with hydrochloric acid.\n> \n> For part (ii), use the general reaction patterns for copper(II) compounds with acid:\n> \n> - Metal oxide + acid → metal salt + water\n> - Metal hydroxide + acid → metal salt + water\n> - Metal carbonate + acid → metal salt + water + carbon dioxide\n> \n> In each case, two moles of HCl are needed because CuCl<sub>2</sub> contains two chloride ions. Check that both sides of each equation are balanced before writing your final answer."
+    },
+    {
+     "id": "qstnprt_DT32SyHGSWykbYJ6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCopper(II) chloride can be produced by the reaction of hydrochloric acid with different copper(II) compounds.\n\nTable 1.1\n\n| Copper(II) compound | Chemical equation |\n| --- | --- |\n| Copper(II) oxide, CuO | CuO + 2HCl → CuCl₂ + H₂O |\n\n11.93 g of copper(II) oxide is reacted with 50.0 cm<sup>3</sup> of 2.00 mol dm<sup>-3</sup> hydrochloric acid.\n\ni) Calculate the amount, in mol, of copper(II) oxide and hydrochloric acid. Show your working.\n\n[2]\n\nii) Deduce which chemical is the limiting reagent.\n\n[1]",
+     "solution_md": "i) To calculate the amount, in mol, of copper(II) oxide and hydrochloric acid:\n\n- Calculate the amount of copper(II) oxide:\n\n*M*<sub>r</sub> of CuO = 63.5 + 16.0 = 79.5\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of CuO = $\\frac{11.93}{79.5}$\n\nmoles of CuO = 0.150 mol **[1 mark]**\n\n- Calculate the amount of hydrochloric acid:\n\nmoles = concentration x volume\n\nmoles of HCl = 2.00 x 0.0500\n\nmoles of HCl = 0.100 mol **[1 mark]**\n\n> **[mark-scheme]**\n> ii) The limiting reagent is:\n> \n> - Hydrochloric acid\n> **AND**\n> (because) there are fewer moles of hydrochloric acid **[1 mark]**\n\n> **[exam-tip]**\n> Remember to convert the volume from cm<sup>3</sup> to dm<sup>3</sup> before using the concentration equation: 50.0 ÷ 1000 = 0.0500 dm<sup>3</sup>.\n> \n> For part (ii), use the 1:2 molar ratio from the equation CuO + 2HCl → CuCl<sub>2</sub> + H<sub>2</sub>O. You have 0.150 mol CuO and 0.100 mol HCl. To react with all the CuO you would need 0.300 mol HCl, but only 0.100 mol is present. HCl is the limiting reagent.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{11.93}{79.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>11</mn><mo>.</mo><mn>93</mn></mrow><mrow><mn>79</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{11.93}{79.5}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DBNMyNFYFwFGsbVg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCopper(II) hydroxide, Cu(OH)~2~: Cu(OH)~2~ + 2HCl → CuCl~2~ + 2H~2~O\n\n22.43 g of copper(II) hydroxide reacts with hydrochloric acid to form 23.63 g of copper(II) chloride.\n\nComplete Table 1.2 to calculate the percentage yield of this reaction.\n\n**Table 1.2**\n\n| Relative formula mass of copper(II) hydroxide | ........................................ |\n|---|---|\n| Moles of copper(II) hydroxide | ........................................ |\n| Relative formula mass of copper(II) chloride | ........................................ |\n| Theoretical yield of copper(II) chloride | ........................................ |\n| Percentage yield of copper(II) chloride | ........................................ |",
+     "solution_md": "To complete Table 1.2:\n\n- Calculate the *M*<sub>r</sub> of Cu(OH)<sub>2</sub>:\n\n*M*<sub>r</sub> Cu(OH)<sub>2</sub> = 63.5 + (16.0 + 1.0) x 2\n\n*M*<sub>r</sub> Cu(OH)<sub>2</sub> = 97.5\n\n- Calculate the moles of Cu(OH)<sub>2</sub>:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of Cu(OH)<sub>2</sub> = $\\frac{22.43}{97.5}$\n\nmoles of Cu(OH)<sub>2</sub> = 0.230 mol\n\n- Calculate the *M*<sub>r</sub> of CuCl<sub>2</sub>:\n\n*M*<sub>r</sub> CuCl<sub>2</sub> = 63.5 + (35.5 x 2)\n\n*M*<sub>r</sub> CuCl<sub>2</sub> = 134.5\n\n- Calculate the theoretical mass (yield) of CuCl<sub>2</sub>:\n\nmass = moles x *M*<sub>r</sub>\n\ntheoretical mass of CuCl<sub>2</sub> = 0.230 x 134.5\n\ntheoretical mass of CuCl<sub>2</sub> = 30.9 g\n\n- Calculate the percentage yield:\n\npercentage yield = $\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}$ x 100\n\npercentage yield = $\\frac{23.63}{30.9}$ x 100\n\npercentage yield = 76.4%\n\nSo, the completed Table 1.2 is:\n\n| Relative formula mass of copper(II) hydroxide | **Final answer:** **97.5** |\n|---|---|\n| Moles of copper(II) hydroxide | **Final answer:** **0.230** |\n| Relative formula mass of copper(II) chloride | **Final answer:** **134.5** |\n| Theoretical yield of copper(II) chloride | **Final answer:** **30.9** |\n| Percentage yield of copper(II) chloride | **Final answer:** **76.4%** |\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for *M*<sub>r</sub> of Cu(OH)<sub>2</sub> = 97.5 **AND** moles of Cu(OH)<sub>2</sub> = 0.230\n> \n> 1 mark for *M*<sub>r</sub> of CuCl<sub>2</sub> = 134.5 **AND** theoretical yield = 30.9 g (allow 30.94)\n> \n> 1 mark for percentage yield = 76.4%",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{22.43}{97.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>22</mn><mo>.</mo><mn>43</mn></mrow><mrow><mn>97</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{22.43}{97.5}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{actual} \\mathrm{yield}}{\\mathrm{theoretical} \\mathrm{yield}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>actual</mi><mo>&#160;</mo><mi>yield</mi></mrow><mrow><mi>theoretical</mi><mo>&#160;</mo><mi>yield</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator actual space yield over denominator theoretical space yield end fraction"
+      },
+      {
+       "latex": "\\frac{23.63}{30.9}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>23</mn><mo>.</mo><mn>63</mn></mrow><mrow><mn>30</mn><mo>.</mo><mn>9</mn></mrow></mfrac></math>",
+       "alt": "\\frac{23.63}{30.9}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8jNqw2v2RcWy39XT",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nii) Complete Table 1.1 by constructing the equation for the formation of copper(II) chloride using hydrochloric acid and each of the copper(II) compounds.\n\nTable 1.1\n\n| Copper(II) compound | Chemical equation |\n| --- | --- |\n| Copper(II) oxide, CuO |   |\n| Copper(II) hydroxide, Cu(OH)~2~ |   |\n| Copper(II) carbonate, CuCO~3~ |   |\n\n22.23 g of copper(II) carbonate reacts with hydrochloric acid at room conditions. One of the products is a gas.\n\nCalculate the volume, in cm<sup>3</sup>, of the gas produced. Show your working.",
+     "solution_md": "To calculate the volume, in cm<sup>3</sup>, of the gas produced:\n\n- Calculate the *M*<sub>r</sub> of copper(II) carbonate:\n\n*M*<sub>r</sub> of CuCO<sub>3</sub> = 63.5 + 12.0 + (16.0 x 3)\n\n*M*<sub>r</sub> of CuCO<sub>3</sub> = 123.5\n\n- Calculate the moles of copper(II) carbonate:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\namount = $\\frac{22.23}{123.5}$\n\namount = 0.180 mol **[1 mark]**\n\n- Calculate the volume of carbon dioxide produced:\n\nvolume = moles x molar volume\n\nvolume of CO<sub>2</sub> produced = 0.180 x 24 000\n\nvolume of CO<sub>2</sub> produced = **4 320 cm**<sup>**3**</sup> **[1 mark]**\n\n> **[exam-tip]**\n> The equation from part (a)(ii) is:\n> \n> CuCO<sub>3</sub> + 2HCl → CuCl<sub>2</sub> + H<sub>2</sub>O + CO<sub>2</sub>\n> \n> It shows a 1:1 molar ratio between CuCO<sub>3</sub> and CO<sub>2</sub>. So, the amount of CO<sub>2</sub> produced equals the amount of CuCO<sub>3</sub> that reacted.\n> \n> At room conditions, one mole of any gas occupies 24.0 dm<sup>3</sup> (24 000 cm<sup>3</sup>). Multiplying the moles of CO<sub>2</sub> by 24 000 converts directly to the volume in cm<sup>3</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{22.23}{123.5}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>22</mn><mo>.</mo><mn>23</mn></mrow><mrow><mn>123</mn><mo>.</mo><mn>5</mn></mrow></mfrac></math>",
+       "alt": "\\frac{22.23}{123.5}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_fv6z9ZK65M86fs4y",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_cbNnzQ9Mt4tFcWDq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jHXFWjBrkFcCCgVD"
+     ],
+     "part_tier": null,
+     "problem_md": "Iron compounds have a variety of uses. Many iron compounds are found in fertilisers and as food additives and supplements.\n\nIron sulfate is used to treat and prevent iron deficiency anaemia.\n\nSuggest **two** possible formulae for iron sulfate.",
+     "solution_md": "> **[mark-scheme]**\n> Two possible formulae for iron sulfate are:\n> \n> - FeSO<sub>4</sub>\n> **AND**\n> Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> **[1 mark]**\n\n> **[exam-tip]**\n> This question does not specify iron(II) or iron(III), so both possible formulae must be given to score the mark.\n> \n> The sulfate ion has the formula SO<sub>4</sub><sup>2–</sup> and a charge of 2–.\n> \n> Iron(II) ions, Fe<sup>2+</sup>, carry a 2+ charge. The 2+ from Fe<sup>2+</sup> and the 2– from SO<sub>4</sub><sup>2–</sup> balance, giving the formula FeSO<sub>4</sub>.\n> \n> Iron(III) ions, Fe<sup>3+</sup>, carry a 3+ charge. To achieve charge balance, two Fe<sup>3+</sup> ions (total 6+) and three SO<sub>4</sub><sup>2–</sup> ions (total 6–) are needed, giving the formula Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>.\n> \n> The cross-over method (Figure 1) is a useful tool for working out the formula of an ionic compound from its ionic charges:\n> \n> ![Diagram showing the cross-over method for determining the formulae of ionic compounds from their ionic charges](assets/005-diagram-showing-the-cross-over-method-for-determ.jpeg)"
+    },
+    {
+     "id": "qstnprt_mFx23zzywyRph6RR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Iron reacts with chlorine to form iron(III) chloride.\n\ni) Construct an equation for this reaction of iron with chlorine.\n\nState symbols are **not** required.\n\n[1]\n\nii) Calculate the mass of iron(III) chloride produced from 5.02 g of iron, assuming a 78% yield.\n\nShow your working.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) The equation for the reaction of iron with chlorine:\n> \n> - 2Fe + 3Cl<sub>2</sub> → 2FeCl<sub>3</sub> **[1 mark]**\n> \n> State symbols are not required\n\nii) To calculate the mass of iron(III) chloride produced from 5.02 g of iron, assuming a 78% yield:\n\n- Calculate the moles of iron:\n\nmoles = $\\frac{\\mathrm{mass}}{A_{r}}$\n\nmoles of Fe = $\\frac{5.02}{55.8}$\n\nmoles of Fe = 0.0900 mol\n\n- The ratio of Fe : FeCl<sub>3</sub> is 1 : 1, so:\n\nmoles of FeCl<sub>3</sub> = 0.0900 mol\n\n**[1 mark]**\n\n- Calculate the *M*<sub>r</sub> of FeCl<sub>3</sub>:\n\n*M*<sub>r</sub> of FeCl<sub>3</sub> = 55.8 + (3 × 35.5)\n\n*M*<sub>r</sub> of FeCl<sub>3</sub> = 162.3\n\n- Calculate the mass of FeCl<sub>3</sub> assuming 100% yield:\n\nmass = moles × *M*<sub>r</sub>\n\nmass = 0.0900 × 162.3\n\nmass = **14.6 g**\n\n**[1 mark]**\n\n- Calculate the mass of FeCl<sub>3</sub> at a 78% yield:\n\nmass = $\\frac{14.6}{100}$ × 78\n\nmass = **11.4 g**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of Fe = 0.0900 mol **AND** moles of FeCl<sub>3</sub> = 0.0900 mol\n> \n> 1 mark for mass of FeCl<sub>3</sub> at 100% yield = 14.6 g\n> \n> 1 mark for mass of FeCl<sub>3</sub> at 78% yield = 11.4 g\n> \n> The mass of FeCl<sub>3</sub> = 14.5 g is accepted but only if *A*<sub>r</sub> of Fe = 56.0 is used\n> \n> Allow error carried forward if an incorrect mass of FeCl<sub>3</sub> assuming 100% yield is used in the final step\n\n> **[exam-tip]**\n> The key to this question is having a correctly balanced equation before starting the calculation.\n> \n> For part i, build the unbalanced equation from the information given:\n> \n> Fe + Cl<sub>2</sub> → FeCl<sub>3</sub>\n> \n> With two chlorine atoms on the left and three on the right, use six chlorine atoms on both sides:\n> \n> Fe + 3Cl<sub>2</sub> → 2FeCl<sub>3</sub>\n> \n> There are now two iron atoms on the right, so double the iron on the left:\n> \n> 2Fe + 3Cl<sub>2</sub> → 2FeCl<sub>3</sub>\n> \n> For part ii, the 1 : 1 ratio of Fe : FeCl<sub>3</sub> means the moles of FeCl<sub>3</sub> equal the moles of Fe.\n> \n> The *M*<sub>r</sub> of FeCl<sub>3</sub> = 55.8 + (3 × 35.5) = 162.3.\n> \n> To apply the 78% yield, multiply the theoretical mass by 0.78, or calculate (14.6 ÷ 100) × 78.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{A_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>A</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over A subscript straight r"
+      },
+      {
+       "latex": "\\frac{5.02}{55.8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>02</mn></mrow><mrow><mn>55</mn><mo>.</mo><mn>8</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.02}{55.8}"
+      },
+      {
+       "latex": "\\frac{14.6}{100}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn><mo>.</mo><mn>6</mn></mrow><mn>100</mn></mfrac></math>",
+       "alt": "\\frac{14.6}{100}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hygXVPPMyxXy6zCn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "Iron(III) oxide is reduced to Fe with carbon at a temperature of 1200 °C in the blast furnace.\n\n2Fe<sub>2</sub>O<sub>3</sub> + 3C → 4Fe + 3CO<sub>2</sub>\n\nAn example reaction is set up by heating 9.86 g of iron(III) oxide with an excess of carbon powder. After the reaction is complete, it is left to cool to room temperature.\n\nCalculate the volume of carbon dioxide, in dm<sup>3</sup>, produced at room conditions by this reduction of 9.86 g of iron(III) oxide.\n\nShow your working.",
+     "solution_md": "To calculate the volume of carbon dioxide produced by the reduction of 9.86 g of iron(III) oxide:\n\n- Calculate the *M*<sub>r</sub> of iron(III) oxide:\n\n*M*<sub>r</sub> of Fe<sub>2</sub>O<sub>3</sub> = (2 × 55.8) + (3 × 16.0)\n\n*M*<sub>r</sub> of Fe<sub>2</sub>O<sub>3</sub> = 159.6\n\n- Calculate the moles of iron(III) oxide:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of Fe<sub>2</sub>O<sub>3</sub> = $\\frac{9.86}{159.6}$\n\nmoles of Fe<sub>2</sub>O<sub>3</sub> = 0.0618 mol **[1 mark]**\n\n- Calculate the moles of carbon dioxide:\n\nmolar ratio Fe<sub>2</sub>O<sub>3</sub> : CO<sub>2</sub> = 2 : 3\n\nmoles of CO<sub>2</sub> = $\\frac{0.0618}{2}$ × 3\n\nmoles of CO<sub>2</sub> = 0.0927 mol **[1 mark]**\n\n- Calculate the volume of carbon dioxide at room conditions:\n\nvolume = moles × molar volume\n\nvolume of carbon dioxide = 0.0927 × 24.0\n\nvolume of carbon dioxide = **2.22 dm**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of Fe<sub>2</sub>O<sub>3</sub> = 0.0618 mol\n> \n> 1 mark for moles of CO<sub>2</sub> = 0.0927 mol\n> \n> 1 mark for volume of CO<sub>2</sub> = 2.22 dm<sup>3</sup>\n> \n> Allow error carried forward for the volume step if an incorrect number of moles is used\n\n> **[exam-tip]**\n> Calculate the *M*<sub>r</sub> of Fe<sub>2</sub>O<sub>3</sub> first: *M*<sub>r</sub> = (2 × 55.8) + (3 × 16.0) = 159.6.\n> \n> Use the balanced equation to find the molar ratio: Fe<sub>2</sub>O<sub>3</sub> : CO<sub>2</sub> = 2 : 3. For every 2 moles of Fe<sub>2</sub>O<sub>3</sub>, 3 moles of CO<sub>2</sub> are produced.\n> \n> One mole of any gas at room conditions occupies 24.0 dm<sup>3</sup>. Multiply the moles of CO<sub>2</sub> by 24.0 to find the volume.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{9.86}{159.6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><mo>.</mo><mn>86</mn></mrow><mrow><mn>159</mn><mo>.</mo><mn>6</mn></mrow></mfrac></math>",
+       "alt": "\\frac{9.86}{159.6}"
+      },
+      {
+       "latex": "\\frac{0.0618}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0618</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.0618}{2}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_P88jzfjNZS9TYSVg",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp"
+     ],
+     "part_tier": null,
+     "problem_md": "A student reacts 4.95 g of iron(III) oxide with 1.12 g of carbon.\n\nThe resulting products are 3.46 g of iron and 2.60 g of carbon monoxide.\n\nDeduce the equation for this reaction. Show your working.",
+     "solution_md": "To deduce the equation for the reaction:\n\n- Calculate the moles of each species:\n\nmoles = $\\frac{\\mathrm{mass}}{M_{r}}$\n\nmoles of Fe<sub>2</sub>O<sub>3</sub> = $\\frac{4.95}{159.6}$ = 0.0310 mol\n\nmoles of C = $\\frac{1.12}{12.0}$ = 0.0933 mol\n\nmoles of Fe = $\\frac{3.46}{55.8}$ = 0.0620 mol\n\nmoles of CO = $\\frac{2.60}{28.0}$ = 0.0929 mol\n\n**[1 mark]**\n\n- Determine the molar ratio by dividing each value by the smallest (0.0310 mol):\n\nFe<sub>2</sub>O<sub>3</sub> : C : Fe : CO = 1 : 3.01 : 2.00 : 2.997\n\n- Round the molar ratio values to whole numbers:\n\n  - (No scaling required as they are all close to whole numbers)\n\nFe<sub>2</sub>O<sub>3</sub> : C : Fe : CO ≈ 1 : 3 : 2 : 3\n\n**[1 mark]**\n\n- Deduce the equation using the molar ratios as stoichiometric coefficients:\n\n**Final answer:** **Fe**<sub>**2**</sub>**O**<sub>**3**</sub>** + 3C → 2Fe + 3CO**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct moles of all four species: Fe<sub>2</sub>O<sub>3</sub> = 0.0310 mol, C = 0.0933 mol, Fe = 0.0620 mol, CO = 0.0929 mol\n> \n> 1 mark for molar ratio Fe<sub>2</sub>O<sub>3</sub> : C : Fe : CO = 1 : 3 : 2 : 3\n> \n> 1 mark for Fe<sub>2</sub>O<sub>3</sub> + 3C → 2Fe + 3CO\n> \n> Accept 2 or 3 significant figures throughout\n\n> **[exam-tip]**\n> You cannot score all three marks by writing a balanced equation alone — you must show the mole calculations and molar ratios.\n> \n> Calculate the moles of each species using moles = mass ÷ *M*<sub>r</sub> (or *A*<sub>r</sub> for elements).\n> \n> Divide every mole value by the smallest mole value to find the simplest whole-number ratio. These ratios become the stoichiometric coefficients in the equation.\n> \n> The moles of CO (0.0929) divided by the smallest value (0.0310) gives 2.997, which rounds to 3. Values within approximately 5% of a whole number should be rounded to that whole number.",
+     "equations": [
+      {
+       "latex": "\\frac{\\mathrm{mass}}{M_{r}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi>mass</mi><msub><mi>M</mi><mi mathvariant=\"normal\">r</mi></msub></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "mass over M subscript straight r"
+      },
+      {
+       "latex": "\\frac{4.95}{159.6}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>4</mn><mo>.</mo><mn>95</mn></mrow><mrow><mn>159</mn><mo>.</mo><mn>6</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 4.95 over denominator 159.6 end fraction"
+      },
+      {
+       "latex": "\\frac{1.12}{12.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>1</mn><mo>.</mo><mn>12</mn></mrow><mrow><mn>12</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 1.12 over denominator 12.0 end fraction"
+      },
+      {
+       "latex": "\\frac{3.46}{55.8}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>3</mn><mo>.</mo><mn>46</mn></mrow><mrow><mn>55</mn><mo>.</mo><mn>8</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 3.46 over denominator 55.8 end fraction"
+      },
+      {
+       "latex": "\\frac{2.60}{28.0}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>2</mn><mo>.</mo><mn>60</mn></mrow><mrow><mn>28</mn><mo>.</mo><mn>0</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 2.60 over denominator 28.0 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_9DGDrqP5hFNk6pKm",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_V5GNKDzxpXBWxSvQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 5",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Activated charcoal is a form of carbon with a very high surface area. It can be used to remove impurities from mixtures. It does this by a process called adsorption, where particles of the impurity bond (adsorb) to the activated charcoal surface.\n\nA student wants to determine the ability of activated charcoal to adsorb a blue dye (the impurity) from aqueous solution.\n\nThe equation that links the mass of activated charcoal with the amount of blue dye adsorbed is shown.\n\nlog `\\left(\\frac{\\mathit{D}}{\\mathit{m}}\\right)` = A + b log [X]\n\nD = difference in concentration of dye (in g dm<sup>–3</sup>) before and after adsorption\nm = mass of activated charcoal (in g)\n[X] = final concentration of dye (in g dm<sup>–3</sup>) after adsorption\nA and b are constants\n\nThe student uses the following procedure to investigate the ability of activated charcoal to adsorb a blue dye from an aqueous solution.\n\n- Place a 50.0 cm<sup>3</sup> sample of a 25.00 g dm<sup>–3</sup> solution of blue dye in a conical flask.\n- Add a weighed mass of activated charcoal to the flask.\n- Stir the contents of the flask for three minutes and then leave for one hour.\n- Filter the mixture.\n- Determine the final concentration of the blue dye, [X].\n- Repeat the procedure using different masses of activated charcoal.\n\nThe procedure is carried out. The final concentrations of blue dye, [X], are shown in Table 2.1.\n\ni) Process the results to complete Table 2.1.\n\nRecord your data to **two** decimal places.\n\n**Table 2.1**\n\n| **mass of** **activated** **charcoal,** **m / g** | **initial** **concentration** **of blue dye /** **g dm**<sup>**–3**</sup> | **final** **concentration** **of blue dye,** **[X] / g dm**<sup>**–3**</sup> | **difference in** **concentration** **of blue dye,** ***D***** / g dm**<sup>**–3**</sup> | $\\frac{D}{m}$ | **log**$\\frac{D}{m}$ | **log [X]** |\n|---|---|---|---|---|---|---|\n| 0.20 | 25.00 | 0.96 |   | 120.20 | 2.08 |   |\n| 0.25 | 25.00 | 0.69 |   | 97.24 | 1.99 |   |\n| 0.30 | 25.00 | 0.60 |   | 81.33 | 1.91 |   |\n| 0.35 | 25.00 | 0.41 |   | 70.26 | 1.85 |   |\n| 0.40 | 25.00 | 0.33 |   | 61.68 | 1.79 |   |\n| 0.45 | 25.00 | 0.27 |   | 54.96 | 1.74 |   |\n| 0.50 | 25.00 | 0.23 |   | 49.54 | 1.69 |   |\n| 0.55 | 25.00 | 0.20 |   | 45.09 | 1.65 |   |\n| 0.60 | 25.00 | 0.17 |   | 41.38 | 1.62 |   |\n\n[2]\n\nii) Identify the dependent variable in this experiment.\n\n[1]\n\niii) State and explain the effect, if any, of increasing the mass of activated charcoal, *m*, on the amount of adsorption that occurs.\n\n[2]",
+     "solution_md": "i) The completed Table 2.1 is:\n\n| **mass of** **activated** **charcoal,** **m / g** | **initial** **concentration** **of blue dye /** **g dm**<sup>**–3**</sup> | **final** **concentration** **of blue dye,** **[X] / g dm**<sup>**–3**</sup> | **difference in** **concentration** **of blue dye,** ***D***** / g dm**<sup>**–3**</sup> | $\\frac{D}{m}$ | **log**$\\frac{D}{m}$ | **log [X]** |\n|---|---|---|---|---|---|---|\n| 0.20 | 25.00 | 0.96 | **Final answer:** **24.04** | 120.20 | 2.08 | **Final answer:** **–0.02** |\n| 0.25 | 25.00 | 0.69 | **Final answer:** **24.31** | 97.24 | 1.99 | **Final answer:** **–0.16** |\n| 0.30 | 25.00 | 0.60 | **Final answer:** **24.40** | 81.33 | 1.91 | **Final answer:** **–0.22** |\n| 0.35 | 25.00 | 0.41 | **Final answer:** **24.59** | 70.26 | 1.85 | **Final answer:** **–0.39** |\n| 0.40 | 25.00 | 0.33 | **Final answer:** **24.67** | 61.68 | 1.79 | **Final answer:** **–0.48** |\n| 0.45 | 25.00 | 0.27 | **Final answer:** **24.73** | 54.96 | 1.74 | **Final answer:** **–0.57** |\n| 0.50 | 25.00 | 0.23 | **Final answer:** **24.77** | 49.54 | 1.69 | **Final answer:** **–0.64** |\n| 0.55 | 25.00 | 0.20 | **Final answer:** **24.80** | 45.09 | 1.65 | **Final answer:** **–0.70** |\n| 0.60 | 25.00 | 0.17 | **Final answer:** **24.83** | 41.38 | 1.62 | **Final answer:** **–0.77** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all *D* values correct to 2 decimal places\n> \n> 1 mark for all log [X] values correct to 2 decimal places\n> \n> ii) The dependent variable in this experiment:\n> \n> - Final concentration of blue dye / [X] **[1 mark]**\n> \n> iii) The effect of increasing the mass of activated charcoal on the amount of adsorption:\n> \n> - As the mass of charcoal increases, the final concentration of blue dye [X] decreases **[1 mark]**\n> - Greater surface area is available, leading to higher adsorption **[1 mark]**\n\n> **[exam-tip]**\n> For part i, calculate *D* as: *D* = initial concentration – final concentration = 25.00 – [X]. Give all values to two decimal places.\n> \n> For log [X]: since all [X] values are less than 1 g dm<sup>–3</sup>, all log [X] values will be negative.\n> \n> For part ii:\n> \n> - The independent variable is what is deliberately changed (mass of charcoal)\n> - The controlled variables are kept constant\n> - The dependent variable is what is measured to observe the effect.\n> \n> The dependent variable here is [X], the final concentration of blue dye.\n> \n> For part iii, as more charcoal is added, more surface area is available for dye molecules to adsorb onto, so the final concentration of dye in solution decreases.",
+     "equations": [
+      {
+       "latex": "\\frac{D}{m}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"italic\">D</mi><mi mathvariant=\"italic\">m</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "italic D over italic m"
+      },
+      {
+       "latex": "\\frac{D}{m}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"italic\">D</mi><mi mathvariant=\"italic\">m</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "D over m"
+      },
+      {
+       "latex": "\\frac{D}{m}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"italic\">D</mi><mi mathvariant=\"italic\">m</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "italic D over italic m"
+      },
+      {
+       "latex": "\\frac{D}{m}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mi mathvariant=\"italic\">D</mi><mi mathvariant=\"italic\">m</mi></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "D over m"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_fGSYk9G2VkHVk5r8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "plot",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 5",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe equation that links the mass of activated charcoal with the amount of blue dye adsorbed is shown.\n\nlog (D/m) = A + b log [X]\n\nD = difference in concentration of dye (in g dm^–3^) before and after adsorption\n\nm = mass of activated charcoal (in g)\n\n[X] = final concentration of dye (in g dm^–3^) after adsorption\n\nA and b are constants\n\n**Table 2.1**\n\n| **mass of** **activated** **charcoal,** **m / g** | **initial** **concentration** **of blue dye /** **g dm**^**–3**^ | **final** **concentration** **of blue dye,** **[X] / g dm**^**–3**^ | **difference in** **concentration** **of blue dye,** ***D***** / g dm**^**–3**^ | D/m | **log** D/m | **log [X]** |\n| :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 0.20 | 25.00 | 0.96 | 24.04 | 120.20 | 2.08 | –0.02 |\n| 0.25 | 25.00 | 0.69 | 24.31 | 97.24 | 1.99 | –0.16 |\n| 0.30 | 25.00 | 0.60 | 24.40 | 81.33 | 1.91 | –0.22 |\n| 0.35 | 25.00 | 0.41 | 24.59 | 70.26 | 1.85 | –0.39 |\n| 0.40 | 25.00 | 0.33 | 24.67 | 61.68 | 1.79 | –0.48 |\n| 0.45 | 25.00 | 0.27 | 24.73 | 54.96 | 1.74 | –0.57 |\n| 0.50 | 25.00 | 0.23 | 24.77 | 49.54 | 1.69 | –0.64 |\n| 0.55 | 25.00 | 0.20 | 24.80 | 45.09 | 1.65 | –0.70 |\n| 0.60 | 25.00 | 0.17 | 24.83 | 41.38 | 1.62 | –0.77 |\n\nPlot a graph on the grid to show the relationship between log `\\left(\\frac{\\mathit{D}}{\\mathit{m}}\\right)` and log [X].\n\nUse a cross (×) to plot each data point. Draw the straight line of best fit.\n\n![Empty graph grid for plotting log(D/m) on the y-axis versus log[X] on the x-axis](assets/006-empty-graph-grid-for-plotting-log-d-m-on-the-y-a.png)",
+     "solution_md": "The plotted data points and line of best fit are:\n\n![Graph showing log(D/m) on the y-axis versus log[X] on the x-axis, with nine data points plotted as crosses and a straight line of best fit drawn through them](assets/007-graph-showing-log-d-m-on-the-y-axis-versus-log-x.jpeg)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for all nine points correctly plotted using crosses (×)\n> \n> 1 mark for a single straight line of best fit with an approximately equal number of points above and below the line\n\n> **[exam-tip]**\n> Use the log [X] values from Table 2.1 for the x-axis and the log(D/*m*) values for the y-axis.\n> \n> Plot each point using a cross (×) so that the points remain visible when the line of best fit is drawn through them.\n> \n> For the line of best fit, use a ruler and aim for an equal number of points above and below the line. Do not force the line through the origin.\n> \n> Note that each small square on the x-axis represents 0.01 and each small square on the y-axis represents 0.005 — take care when plotting."
+    },
+    {
+     "id": "qstnprt_y4pkbFsnCcpPvkBm",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 5",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nActivated charcoal is a form of carbon with a very high surface area. It can be used to remove impurities from mixtures. It does this by a process called adsorption, where particles of the impurity bond (adsorb) to the activated charcoal surface.\n\nA student wants to determine the ability of activated charcoal to adsorb a blue dye (the impurity) from aqueous solution.\n\nThe student uses the following procedure to investigate the ability of activated charcoal to adsorb a blue dye from an aqueous solution.\n\n- Place a 50.0 cm^3^ sample of a 25.00 g dm^–3^ solution of blue dye in a conical flask.\n- Add a weighed mass of activated charcoal to the flask.\n- Stir the contents of the flask for three minutes and then leave for one hour.\n- Filter the mixture.\n- Determine the final concentration of the blue dye, [X].\n- Repeat the procedure using different masses of activated charcoal.\n\nCircle the most anomalous point on the graph.\n\nSuggest why this anomaly may have happened during the experimental procedure.",
+     "solution_md": "The anomalous point is at coordinates (–0.22, 1.91):\n\n![Log–log scatter plot with a green trend line and labelled anomaly point above the line, axes showing log[X] horizontally and log(D/m) vertically.](assets/008-log-log-scatter-plot-with-a-green-trend-line-and.png)\n\nThis anomaly may have happened during the experimental procedure because:\n\nAny **one** from:\n\n- Not enough stirring during the experiment\n- Not left for long enough (less than one hour)\n- Coagulation of charcoal particles\n- Charcoal particles too bulky / too large\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct identification of the anomalous point **AND **a correct suggestion for how it happened\n\n> **[exam-tip]**\n> The anomalous point lies above the line of best fit, meaning adsorption was lower than expected for that mass of charcoal. Think about what could have prevented full adsorption from occurring.\n> \n> Any factor that reduces the effective surface area of the charcoal, or reduces contact time between the dye and the charcoal, would produce a reading lower than expected."
+    },
+    {
+     "id": "qstnprt_WmRJgPFqMFwtRBDq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2022",
+      "number": "Specimen Paper 5",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe equation that links the mass of activated charcoal with the amount of blue dye adsorbed is shown.\n\nlog (D/m) = A + b log [X]\n\nD = difference in concentration of dye (in g dm^–3^) before and after adsorption\n\nm = mass of activated charcoal (in g)\n\n[X] = final concentration of dye (in g dm^–3^) after adsorption\n\nA and b are constants\n\ni) Use the graph to determine the gradient of the line of best fit. State the coordinates of both points you used in your calculation. These must be selected from your line of best fit.\n\nWrite your answer to **three** significant figures.\n\ncoordinates 1 ....................\n\ncoordinates 2 ..........................\n\ngradient = ..........................................\n\n[2]\n\nii) Use the graph to deduce a value for A.\n\nA = ....................\n\n[1]",
+     "solution_md": "i) To determine the gradient of the line of best fit:\n\n- Read two coordinates from the line of best fit, choosing points as far apart as possible:\n\nExample using line coordinates (–0.70, 1.65) and (–0.02, 2.08)\n\n**[1 mark]**\n\n- Calculate the gradient:\n\ngradient = $\\frac{Δy}{Δx}$\n\ngradient = $\\frac{2.08-1.65}{-0.02-(-0.70)}$\n\ngradient = $\\frac{0.43}{0.68}$\n\ngradient = **0.632** **[1 mark]**\n\n> **[mark-scheme]**\n> i)\n> \n> 1 mark for correctly reading two coordinates from the line\n> \n> 1 mark for correct gradient calculation; expected value ≈ 0.625 (accept 0.59–0.66)\n> \n> Both coordinates must be read from the line of best fit, not taken directly from the data table (unless the data points lie exactly on the line)\n> \n> The difference between the y-coordinates must be at least 0.3 **AND** the difference between the x-coordinates must be at least 0.45\n\nTo determine a value for A:\n\n![Log–log graph with green data points and a fitted diagonal line of log(D/m) versus log(X), plus a horizontal line at log(D/m) ≈ 2.09.](assets/009-log-log-graph-with-green-data-points-and-a-fitte.png)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> ii) Values in the range 2.09 to 2.10 are accepted\n\n> **[exam-tip]**\n> For part i, always use two points on your line of best fit to calculate the gradient — never use data points from the table unless they happen to lie exactly on your line. Choose points as far apart as possible to minimise reading error.\n> \n> The gradient of the line equals the constant b in the equation log(D/*m*) = A + b log [X], by comparison with y = mx + c.\n> \n> For part ii, A is the y-intercept of the line, i.e. the value of log(D/*m*) when log [X] = 0. Read this directly from the y-axis where your line of best fit crosses it.",
+     "equations": [
+      {
+       "latex": "\\frac{Δy}{Δx}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>y</mi></mrow><mrow><mi mathvariant=\"normal\">&#916;</mi><mi>x</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator straight capital delta y over denominator straight capital delta x end fraction"
+      },
+      {
+       "latex": "\\frac{2.08-1.65}{-0.02-(-0.70)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>08</mn><mo>-</mo><mn>1</mn><mo>.</mo><mn>65</mn></mrow><mrow><mo>-</mo><mn>0</mn><mo>.</mo><mn>02</mn><mo>-</mo><mo>(</mo><mo>-</mo><mn>0</mn><mo>.</mo><mn>70</mn><mo>)</mo></mrow></mfrac></math>",
+       "alt": "\\frac{2.08 - 1.65}{-0.02 - (-0.70)}"
+      },
+      {
+       "latex": "\\frac{0.43}{0.68}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>43</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>68</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.43}{0.68}"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

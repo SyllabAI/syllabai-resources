@@ -126,3 +126,217 @@
 **C** is incorrect as metals contain metallic bonds, not covalent bonds.
 
 **D** is incorrect as metallic bonds are relatively strong, which is reflected in the high melting points and hardness of most metals.
+
+## Structured Questions (3 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> The structure and bonding present in solid magnesium:
+> 
+> - A regular (lattice) arrangement of metal ions / positive ions / cations / Mg<sup>2+</sup> ions; **[1 mark]**
+> - (Surrounded by) delocalised electrons; **[1 mark]**
+> - (Strong) electrostatic attraction between the positive ions and delocalised electrons; **[1 mark]**
+
+> **[exam-tip]**
+> Three distinct ideas earn the three marks:
+> 
+> 1. **The arrangement of cations.** A regular lattice of positive metal ions (Mg<sup>2+</sup>).
+> 2. **The presence of delocalised electrons.** Outer electrons that are not associated with any single ion. Often described as a 'sea' of electrons in textbooks, but the CIE mark scheme just says 'delocalised electrons'.
+> 3. **The bonding force itself.** The electrostatic attraction between the positive ions and the delocalised electrons.
+> 
+> A common slip is to describe only the structure (the lattice of ions) without mentioning the delocalised electrons, or to describe only the bonding without locating the ions in a lattice. All three points are independently marked.
+> 
+> You can support your written answer with a labelled diagram of a metallic lattice showing positive ions, delocalised electrons, and the electrostatic attraction. Some examiners look for marking points within supporting diagrams.
+> **[mark-scheme]**
+> Magnesium has a higher boiling point than sodium because:
+> 
+> - Mg forms Mg<sup>2+</sup> ions
+> **AND**
+> Na forms Na<sup>+</sup> ions / Mg has more delocalised electrons per atom than Na (2 vs 1); **[1 mark]**
+> - (This results in) stronger electrostatic attraction between the positive ions and delocalised electrons in magnesium; **[1 mark]**
+> - (Therefore) more energy is required to overcome the (stronger) attraction in magnesium than in sodium; **[1 mark]**
+
+> **[exam-tip]**
+> The strength of metallic bonding is determined by three factors:
+> 
+> - Charge on the cation (higher = stronger).
+> - Number of delocalised electrons per atom (more = stronger).
+> - Size of the cation (smaller = stronger).
+> 
+> For Mg vs Na:
+> 
+> - Mg forms Mg<sup>2+</sup> (vs Na<sup>+</sup>), giving twice the cation charge.
+> - Mg releases 2 outer electrons per atom into the 'sea' (vs 1 for Na).
+> - Mg<sup>2+</sup> has a smaller ionic radius than Na<sup>+</sup>.
+> 
+> All three factors point the same way: Mg has stronger metallic bonding, so more energy is required to overcome the electrostatic attraction between the cations and delocalised electrons.
+> 
+> For full marks, link the factor (charge / delocalised electrons / size) to the strength of attraction AND to the energy needed to overcome it. Stating only 'stronger forces' will not score the third mark.
+> **[mark-scheme]**
+> Metals are suitable for manufacturing shaped objects because:
+> 
+> - Metals are malleable (can be hammered / shaped without breaking); **[1 mark]**
+> - The layers of positive ions can slide over each other (when force is applied); **[1 mark]**
+> - The positive ions are attracted to delocalised electrons in all directions
+> **OR**
+> The metallic bonding is non-directional; **[1 mark]**
+
+> **[exam-tip]**
+> Metals are malleable (can be shaped under force) because of two structural features:
+> 
+> - The layers of positive ions in the metallic lattice can slide past one another when a force is applied.
+> - The metallic bond is non-directional. The delocalised electrons are equally attracted to all surrounding positive ions, so the electrostatic attraction is maintained even when the layers move.
+> 
+> This is what allows metals to be hammered, rolled, or extruded into shapes (railings, sheets, wires) without the metallic bonding breaking.
+> 
+> By contrast, ionic and covalent solids are brittle because their bonds ARE directional. When layers slide in an ionic solid, like charges meet and the lattice shatters; in a covalent solid, the directional bonds are broken irreversibly.
+> 
+> A common slip is to say only 'metals are malleable' without explaining the underlying reason. The mark scheme expects you to explain both WHAT the property is (malleability) and WHY (sliding layers + non-directional bonding).
+
+### Q2
+> **[mark-scheme]**
+> Metallic bonding is:
+> 
+> - The (strong) electrostatic attraction between positively charged metal ions / cations
+> **AND**
+> Delocalised electrons; **[1 mark]**
+
+> **[exam-tip]**
+> This is a 1-mark CIE definition. Both elements must be present to score:
+> 
+> - 'Electrostatic attraction' (not just 'attraction' or 'force')
+> - 'Between positive ions / cations / metal ions' AND 'delocalised electrons'
+> 
+> Saying only 'attraction between ions and electrons' is too vague. Specify that the ions are positive AND that the electrons are delocalised.
+> 
+> A common slip is to describe metallic bonding as 'sharing of electrons' (covalent) or 'transfer of electrons' (ionic). Metallic bonding is neither. The outer electrons become delocalised across the metallic lattice.
+> **[mark-scheme]**
+> For each row of Table 2.1:
+> 
+> Covalent bonding:
+> 
+> - Similarity: electrons are shared / both involve electrostatic attraction; **[1 mark]**
+> - Difference: covalent bonding shares electrons between atoms
+> **AND**
+> metallic bonding has electrons delocalised between (positive) ions; **[1 mark]**
+> 
+> Ionic bonding:
+> 
+> - Similarity: involves the (transfer of) electrons / involves positively charged ions / both involve electrostatic attraction; **[1 mark]**
+> - Difference: ionic bonding forms positive AND negative ions
+> **AND**
+> metallic bonding forms positive ions only; **[1 mark]**
+
+> **[exam-tip]**
+> This is a comparison question, so each response needs a similarity AND a difference. The mark scheme expects you to fill all four cells of Table 2.1.
+> 
+> Each type of bonding involves an electrostatic attraction:
+> 
+> - Metallic: between positive ions and delocalised electrons.
+> - Ionic: between oppositely charged ions.
+> - Covalent: between nuclei and the shared bonding electrons.
+> 
+> Similarities to metallic:
+> 
+> - Covalent: both involve sharing of electrons (delocalised electrons in metallic CAN be thought of as 'shared' between cations).
+> - Ionic: both involve transfer of electrons to form ions (the outer electrons in metallic atoms are 'transferred' to the delocalised pool, leaving cations).
+> 
+> Differences from metallic:
+> 
+> - Covalent: localised between two specific atoms (vs delocalised across the whole lattice).
+> - Ionic: forms BOTH positive and negative ions (vs only positive ions in metallic).
+> 
+> A common slip is to give a similarity that applies to all three bonding types ('all involve electrostatic attraction'). This is true but very generic. Be specific about HOW each type differs from metallic.
+> **[mark-scheme]**
+> Two factors that affect the strength of metallic bonding:
+> 
+> Any **two** from (1 mark for each point):
+> 
+> - The number of delocalised / outer / valence electrons per atom
+> **OR**
+> The charge of the metal ion
+> - The size of the metal ion / ionic radius / charge density
+> - The arrangement of atoms in the metallic lattice / packing efficiency
+> 
+> **[2 marks]**
+
+> **[exam-tip]**
+> The strength of metallic bonding (which determines properties like melting point, boiling point, and hardness) depends on three main factors:
+> 
+> 1. **Number of delocalised electrons.** More outer electrons released per atom means a higher concentration of delocalised electrons, giving stronger attraction. Mg<sup>2+</sup> (2 electrons released) gives stronger bonding than Na<sup>+</sup> (1 electron released).
+> 2. **Cation charge.** Closely related to the first factor. A higher charge on the cation gives stronger electrostatic attraction to the delocalised electrons.
+> 3. **Cation size / charge density.** Smaller cations pack more closely and have higher charge density, giving stronger attraction. Mg<sup>2+</sup> is smaller than Na<sup>+</sup>, contributing to Mg's higher melting point.
+> 
+> Any two of these factors will score the marks. CIE accepts 'higher charge density' as a single descriptor that combines size and charge.
+
+### Q3
+The diagram showing the structure of magnesium:
+
+![Diagram of the giant metallic lattice of magnesium showing regularly arranged 2+ positive ions with delocalised electrons (e⁻) between them](assets/002-diagram-of-the-giant-metallic-lattice-of-magnesi.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for a regular (lattice) arrangement of metal ions / positive ions / cations AND each ion shown with a 2+ charge.
+> 
+> 1 mark for delocalised electrons drawn between the ions AND labelled (as 'delocalised electrons' or shown as a 'sea of delocalised electrons').
+
+> **[exam-tip]**
+> A magnesium metallic lattice diagram needs three features for full marks:
+> 
+> - A regular array of cations (rows and columns).
+> - A 2+ charge clearly shown on each ion (Mg loses 2 outer electrons, so ions are Mg<sup>2+</sup>, not Mg<sup>+</sup>).
+> - Delocalised electrons shown between the ions AND labelled. CIE examiner reports flag unlabelled electrons as a frequent reason for losing marks.
+> 
+> Common errors specific to magnesium:
+> 
+> - Showing the charge as just '+' (this would be sodium). Mg<sup>2+</sup> requires '2+'.
+> - Drawing a single isolated ion. The lattice arrangement must show multiple ions in a regular pattern.
+> - Drawing electrons inside the ion circles instead of between them. Delocalised electrons sit in the gaps between the cations.
+The highest energy orbital in Mg is the 3s orbital.
+
+![Diagram showing a circle to represent the shape of an s-orbital](assets/003-diagram-showing-a-circle-to-represent-the-shape-.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for identification as 3s AND a correct spherical sketch (representing an s-orbital).
+
+> **[exam-tip]**
+> Magnesium's electron configuration is 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup>, so the highest energy occupied orbital is 3s.
+> 
+> The s-orbital is spherical (a single sphere centred on the nucleus). Don't draw a 'p-orbital' shape (figure-of-eight / dumbbell). That's wrong for an s-orbital.
+> 
+> Quick electron-configuration check for Mg:
+> 
+> - Period 3, Group 2, so 2 electrons in the third shell.
+> - Both electrons go into the 3s subshell (3s<sup>2</sup>).
+> - 3s is higher in energy than 2p, which fills first.
+> 
+> Both halves of the answer are required for the single mark: state '3s' AND draw a sphere.
+The dot-and-cross diagram for Mg<sub>2</sub>Si:
+
+![Dot-and-cross diagram showing two Mg²⁺ ions each with a full outer shell and one Si⁴⁻ ion with eight electrons, illustrating ionic bonding and charge.](assets/004-dot-and-cross-diagram-showing-two-mg-ions-each-w.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for two [Mg]<sup>2+</sup> ions, each with empty outer shells (or 8 electrons shown if the second shell is drawn as the outermost), with a 2+ charge as superscript outside the bracket.
+> 
+> 1 mark for one [Si]<sup>4-</sup> ion with 8 electrons in the outer shell (4 of one symbol AND 4 of the other, showing electron transfer from the two Mg atoms) and a 4- charge as superscript outside the bracket.
+
+> **[exam-tip]**
+> Mg<sub>2</sub>Si is an ionic compound formed by complete electron transfer:
+> 
+> - Each Mg atom loses 2 electrons (the 3s<sup>2</sup> pair), forming Mg<sup>2+</sup> (electron configuration 2,8).
+> - One Si atom gains 4 electrons (the 4 electrons released by the 2 Mg atoms), forming Si<sup>4-</sup> (electron configuration 2,8,8).
+> 
+> For full marks:
+> 
+> - Use square brackets around each ion.
+> - Show charges as superscripts outside the brackets, e.g. [Mg]<sup>2+</sup> and [Si]<sup>4-</sup> (use '2+' and '4-', not '+2' or '-4').
+> - For Si<sup>4-</sup>, show 8 electrons in the outer shell with 4 dots (Si's own electrons) and 4 crosses (the electrons from the two Mg atoms) to demonstrate electron transfer.
+> - For Mg<sup>2+</sup>, the outer shell is empty because the 3s electrons have transferred away. The second shell is now the outermost shell shown, with 8 electrons.
+> 
+> A common slip is to draw all 8 electrons on Si<sup>4-</sup> as the same symbol. This fails to show the electron transfer and loses the mark.

@@ -1,0 +1,518 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:37:56Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "10-data-types-and-structures-",
+  "name": "10. Data Types & Structures"
+ },
+ "topic": {
+  "id": "top_C3CpXgbs6SgddkKb",
+  "slug": "introduction-to-abstract-data-types-adt",
+  "name": "Introduction to Abstract Data Types (ADT)",
+  "order": 3
+ },
+ "subtopics": [
+  {
+   "slug": "adt-overview",
+   "name": "ADT overview",
+   "revision_note_id": "rn_WpSYjvPcWngpTnJK"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_fpvdm8jJ5trJXb5D",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/10-data-types-and-structures-/introduction-to-abstract-data-types-adt/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/27243_screenshot-2025-11-14-174420.png": "001-diagram-of-a-queue-with-five-boxes-labelled-d3-d.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/48682_screenshot-2025-11-14-174612.png": "002-array-with-8-indices-all-empty-variables-shown-f.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/38626_screenshot-2025-11-14-174736.png": "003-queue-representation-with-indices-1-8-items-d3-d.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/64646_screenshot-2025-11-14-140844.png": "004-flowchart-with-two-pathways-ptr1-and-ptr2-showin.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/50011_screenshot-2025-11-14-141046.png": "005-diagram-showing-a-variable-table-with-start-poin.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/63382_screenshot-2025-11-14-141223.png": "006-diagram-displaying-a-table-with-indexes-data-and.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/46120_screenshot-2025-11-14-141834.png": "007-two-rows-of-flow-diagrams-labelled-ptr1-and-ptr2.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/63067_screenshot-2025-11-14-130324.png": "008-diagram-of-a-stack-data-structure-with-five-laye.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/62335_screenshot-2025-11-14-130433.png": "009-diagram-of-an-array-with-eight-elements-labelled.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/1114_screenshot-2025-11-14-130734.png": "010-array-with-labelled-elements-data-stored-from-d2.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/42532_screenshot-2025-11-13-183951.png": "011-flowchart-with-two-horizontal-processes-the-top-.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/38007_screenshot-2025-11-13-165031.png": "012-flowchart-with-a-start-oval-at-the-top-and-end-o.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/10874_screenshot-2025-11-13-165219.png": "013-flowchart-with-a-loop-starts-at-index-1-checks-i.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_dYZY5Jkr5S2vnSYp",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_WVns6JjwJnWNn49M",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/32",
+      "question_number": 9,
+      "question_part": "ai,aii"
+     },
+     "spec_point_ids": [
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_ywfgTSkKDNwWtyth"
+     ],
+     "part_tier": null,
+     "problem_md": "A stack Abstract Data Type (ADT) is to be implemented using pseudocode, with procedures to initialise it and to push new items onto the stack.\n\nA 1D array `Stack` stores the contents of the stack.\n\n(i) Study the pseudocode in **part (a)(ii)** and complete the table of identifiers by writing the missing data types and descriptions.\n\n| **Identifier** | **Data type** | **Description** |\n|---|---|---|\n| `BasePointer` |   |   |\n| `TopPointer` |   |   |\n| `Stack` | `REAL` |   |\n\n[2]\n\n(ii) Complete the pseudocode.\n\n`CONSTANT MaxSize = 40 `\n`DECLARE BasePointer : INTEGER `\n`DECLARE TopPointer : INTEGER `\n`DECLARE Stack : ARRAY[1:40] OF REAL `\n\n`// initialisation of stack `\n`PROCEDURE Initialise() `\n\n`   ...................................................................`$\\leftarrow$  `1 .`\n\n`   ...................................................................`$\\leftarrow$ `0 `\n`ENDPROCEDURE `\n\n`// push an item onto the stack `\n`PROCEDURE Push(NewItem : REAL) `\n\n`   ..............................................................MaxSize THEN`\n\n`     .................................................................... `\n\n`     Stack[TopPointer]`$\\leftarrow$`..................................................`\n`   ENDIF `\n`ENDPROCEDURE `\n\n[5]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> **Two **marks for all five empty boxes correct \n> **One **mark for any three or four empty boxes correct\n> \n> | **Identifier** | **Data type** | **Description** |\n> |---|---|---|\n> | `BasePointer` | `INTEGER` | Points to the bottom of the stack |\n> | `TopPointer` | `INTEGER` | Points to the top of the stack |\n> | `Stack` | `REAL` | List of decimal numbers stored in the stack |\n> \n> (ii)\n> \n> **One **mark for each correctly completed line **(Max 5) **\n> \n> `CONSTANT MaxSize = 40 `\n> `DECLARE BasePointer : INTEGER `\n> `DECLARE TopPointer : INTEGER `\n> `DECLARE Stack : ARRAY[1:40] OF REAL `\n> \n> `// initialisation of stack `\n> `PROCEDURE Initialise() `\n>         **BasePointer** $\\leftarrow$ `1 `\n>         **TopPointer** $\\leftarrow$ `0` \n> `ENDPROCEDURE `\n> \n> `// adding an item to the stack `\n> `PROCEDURE Push(NewItem) `\n>         **IF TopPointer <** `MaxSize THEN` \n>               **TopPointer **$\\leftarrow$** TopPointer + 1 **\n>               `Stack[TopPointer] `$\\leftarrow$` NewItem `\n> `  ENDIF `\n> `ENDPROCEDURE`",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kcBywPbkPGpJg848",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/32",
+      "question_number": 9,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_ywfgTSkKDNwWtyth",
+      "spcpt_Y338wwMbry4QFs9p"
+     ],
+     "part_tier": null,
+     "problem_md": "Justify the use of a linked list instead of an array to implement a stack.",
+     "solution_md": "> **[mark-scheme]**\n> **One **mark for linked list and one mark for array **(Max 2)**\n> \n> **Linked list **\n> MP1    A linked list is a dynamic data structure / not restricted in size \n> MP2   Has greater freedom to expand or contract by adding or removing nodes as necessary \n> MP3  Allows more efficient editing using pointers (instead of moving the data).\n> \n> **Array **\n> MP4  An array is a static data structure1 generally fixed in size \n> MP5  When the array is full, the stack cannot be extended any further."
+    }
+   ]
+  },
+  {
+   "id": "qstn_4XxMdJ425B4KGGDJ",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_4bwJSVJ6yPNpqjRW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/23",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_RgSwb9JrytxxJ6Cv"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram represents a queue Abstract Data Type (ADT).\n\nThe organisation of this queue may be summarised as follows:\n\n- The `FrontOfQueue` pointer points to the next data item to be removed.\n- The `EndOfQueue` pointer points to the last data item added.\n\n![Diagram of a queue with five boxes labelled D3, D4, D1, D2, and D5 from top to bottom, with arrows marking FrontOfQueue and EndOfQueue.](assets/001-diagram-of-a-queue-with-five-boxes-labelled-d3-d.png)\n\nThe queue is implemented using three variables and a 1D array of eight elements as shown. The variable `NumItems` stores the number of items in the queue.\n\nThe pointer variables store indices (index numbers) of the array.\n\nComplete the diagram to represent the state of the queue as shown above.\n\n![Array with 8 indices, all empty. Variables shown: FrontOfQueue, EndOfQueue, NumItems set to 5, indicating the number of items in queue.](assets/002-array-with-8-indices-all-empty-variables-shown-f.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Queue representation with indices 1-8, items D3-D5 in positions 2-6. Variables show FrontOfQueue: 2, EndOfQueue: 6, NumItems: 5.](assets/003-queue-representation-with-indices-1-8-items-d3-d.png)\n> \n> **MP1   **D3, D4, D1, D2 and D5 in question order or reversed - in any five consecutive locations \n> **MP2**   `FoQ` value matches index with D3 \n> **MP3**  `EoQ` value matches index with D5"
+    },
+    {
+     "id": "qstnprt_RtsZWkrY9YMc2nSY",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/23",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_YW2jThzvjb9XGHXr",
+      "spcpt_RgSwb9JrytxxJ6Cv",
+      "spcpt_nxXYPdhQmhNPS4bX"
+     ],
+     "part_tier": null,
+     "problem_md": "A module `AddTo()` will add a value to the queue by manipulating the array and variables in part **(a)**.\n\nThe queue implementation is circular. When pointers reach the end of the queue, they will ‘wrap around’ to the beginning.\n\nBefore a value can be added to the queue, it is necessary to check the queue is not full.\n\nThe algorithm to add a value to the queue is expressed in six steps.\n\nComplete the steps.\n\n1. If `NumItems `.............................. then jump to step 6.\n2. Increment ................................... .\n3. If ................................................. then set `EndOfQueue` to .............................. .\n4. Increment ................................... .\n5. Set the ............................ at the index stored in ........................... to the ............................ being added.\n6. Stop.",
+     "solution_md": "> **[mark-scheme]**\n> **MP1**  If` NumItems` <u>**is / = 8 **</u>**// (queue) full** then jump to step 6 \n> **MP2**  Increment **EndOfQueue **\n> **MP3**  If **EndOfQueue = 9** then set `EndOfQueue` to **1 **\n> **MP4**  Increment **NumItems **\n> \n> **MP5**  Set the **Element** at the index … \n> **MP6**  stored in **EndOfQueue** to **value/data/item** being added\n> \n> Mark as follows: \n> Steps 1 to 4: One mark for gaps filled as shown \n> Step 5: One mark for 'element' and one mark for other two terms"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sNgpMtNwqdjCpvCJ",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_vhjrqqNjcHtMDxGX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/22",
+      "question_number": 8,
+      "question_part": "ci,cii"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth"
+     ],
+     "part_tier": null,
+     "problem_md": "The program contains a module `GetFile()` which receives text files sent from another computer.\n\nLines from the file are sent one at a time. Each message contains one line and `ProcessMsg()` from part **(b)** adds each message as it is received onto stack 1.\n\nModule `GetFile()` removes messages from stack 1 and writes the data to a text file.\n\nThere is a problem. Under certain circumstances, the received file does not appear as expected.\n\nAssume that while a file is being received `ProcessMsg()` receives only messages containing lines from the file.\n\n(i) Describe the circumstances and explain the problem.\n\nCircumstances ........................................................................................................\n\nExplanation .............................................................................................................\n\n[3]\n\n(ii) Suggest a more appropriate Abstract Data Type that could be used to store the messages that would not have the same problem.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> (i)\n> \n> One mark per point** Max 3 **marks:\n> \n> **Decide on scenario and mark accordingly. **\n> **Scenario one:**\n> \n> - If more than one line is / all lines are stored on the stack (before line(s) are removed)\n> - The stack operates as a FILO device // Last item added to stack will be in first item out\n> - So **lines in the file** appear out of sequence\n> \n> **Scenario two: **\n> \n> - Stack is Full\n> - Not all lines can be stored on the stack\n> - so resulting **file **will not contain **all the original lines **\n> \n> **Scenario three: **\n> \n> - (All) the data in a line read can’t be stored on the stack\n> - Stack elements have not been allocated enough memory\n> - so only **part of each line** is stored in the **file**\n> \n> **Scenario four: **\n> \n> - Stack is empty\n> - The stack is being read faster than it is being written to\n> - so **blank lines** may be inserted into the **file**\n> \n> (ii)\n> \n> Queue"
+    }
+   ]
+  },
+  {
+   "id": "qstn_n55Yp53K3Wb696JS",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_95RS2Zt7MZvj8KKp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/22",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_Y338wwMbry4QFs9p"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram represents a linked list Abstract Data Type (ADT).\n\n- Ptr1 is the start pointer. Ptr2 is the free list pointer.\n- Labels D40, D32, D11 and D100 represent the data items of nodes in the list.\n- Labels F1, F2, F3 and F4 represent the data items of nodes in the free list.\n- The symbol Ø represents a null pointer.\n\n![Flowchart with two pathways, Ptr1 and Ptr2, showing sequences of nodes: D40, D32, D11, D100, Ø, and F1, F2, F3, F4, Ø respectively.](assets/004-flowchart-with-two-pathways-ptr1-and-ptr2-showin.png)\n\nThe linked list is implemented using two variables and two 1D arrays as shown.\n\nThe pointer variables and the elements of the Pointer array store the indices (index numbers) of elements in the Data array.\n\nComplete the diagram to show how the linked list as shown above may be represented using the variables and arrays.\n\n![Diagram showing a variable table with 'Start_Pointer' and 'Free_List_Pointer' set to 5, and two arrays: Data containing 'D32', 'D40', 'F2', and Pointer with values '2', '3', '7'.](assets/005-diagram-showing-a-variable-table-with-start-poin.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Diagram displaying a table with indexes, data and pointer arrays, highlighting \"D11,\" \"D100,\" \"F1,\" \"F3,\" and pointers for Start and Free List.](assets/006-diagram-displaying-a-table-with-indexes-data-and.png)\n> \n> Mark as follows:\n> \n> - One mark for `Start_Pointer` value\n> - One mark each group of row(s):\n> - 2\n> - 3 and 4\n> - 5\n> - 7 and 8\n> \n> For null pointer: accept 0 / ∅ / an out-of-bound index value less than 1, greater than 8"
+    },
+    {
+     "id": "qstnprt_B67S9StDHdFFFY5W",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/22",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Y338wwMbry4QFs9p"
+     ],
+     "part_tier": null,
+     "problem_md": "The original linked list is to be modified. A new node D6 is inserted between nodes D32 and D11.\n\n![Two rows of flow diagrams labelled Ptr1 and Ptr2. Ptr1 has nodes D40, D32, D11, D100. Ptr2 includes nodes F1, F2, F3, F4. Both end with null symbols.](assets/007-two-rows-of-flow-diagrams-labelled-ptr1-and-ptr2.png)\n\nThe algorithm required is expressed in four steps as shown.\n\nComplete the steps.\n\n1. Assign the data item .................................. to .................................. .\n2. Set the .................................. of this node to point to .................................. .\n3. Set Ptr2 to point to .................................. .\n4. Set pointer of .................................. to point to .................................. .",
+     "solution_md": "> **[mark-scheme]**\n> One mark per step:\n> \n> 1. Assign the data item **D6** to **F1 **\n> 2. Set the **pointer **of this node to point to **D11**\n> 3. Set Ptr2 to point to **F2**\n> 4. Set pointer of **D32** to point to **D6**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_jxkdJmpdYGxwj2Hg",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_2vK4JKNWxJ9xc56b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/21",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_z595zm7HJjPQnskj",
+      "spcpt_ywfgTSkKDNwWtyth"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram represents an Abstract Data Type (ADT).\n\nThe operation of this stack may be summarised as follows:\n\n- The `TopOfStack` pointer points to the last item added to the stack.\n- The `BottomOfStack` pointer points to the first item on the stack.\n\n![Diagram of a stack data structure with five layers labelled D1 to D5, marked \"TopOfStack\" at D1 and \"BottomOfStack\" at D2.](assets/008-diagram-of-a-stack-data-structure-with-five-laye.png)\n\nThe stack is implemented using two variables and a 1D array of 8 elements as shown.\n\nThe variables are used to reference individual elements of the array, in such a way that:\n\n- the array is filled from the lowest indexed element towards the highest\n- all the elements of the array are available for the stack.\n\nComplete the diagram to represent the state of the stack as shown above.\n\n![Diagram of an array with eight elements labelled 1 to 8, empty data cells; variables TopOfStack and BottomOfStack beside with empty boxes.](assets/009-diagram-of-an-array-with-eight-elements-labelled.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Array with labelled elements; data stored from D2 at bottom to D1 at top. Variables: TopOfStack is 5, BottomOfStack is 1.](assets/010-array-with-labelled-elements-data-stored-from-d2.png)\n> \n> **MP1**   all values in the order and location shown \n> **MP2**  `TopOfStack `value is index of element containing D1 \n> **MP3**  `BottomOfStack` value is index of element containing D2"
+    },
+    {
+     "id": "qstnprt_svHMsWNpp6cQBnH6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2023",
+      "number": "9618/21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth",
+      "spcpt_YW2jThzvjb9XGHXr",
+      "spcpt_VMP6ksfMD7mZPq5Y"
+     ],
+     "part_tier": null,
+     "problem_md": "A function `Push()` will add a value onto the stack by manipulating the array and variables in **part (a)**.\n\nBefore adding a value onto the stack, the algorithm will check that space is available.\n\nIf the value is added to the stack, the function will return `TRUE,` otherwise it will return `FALSE.`\n\nThe algorithm is expressed in five steps.\n\nComplete the steps.\n\n1. If ........................................................ then return `FALSE`\n2. Otherwise .......................................... `TopOfStack `\n3. Use `TopOfStack `as an ................................... to the array.\n4. Set the element at this ...................................... to the .............................. being added.\n5. Return .............................. .",
+     "solution_md": "> **[mark-scheme]**\n> **MP1**   If **TopOfStack = 8 // (stack) full **then return `FALSE`\n> \n> **MP2**  Otherwise,** increment** `TopOfStack `\n> \n> **MP3  **Use `TopOfStack `as an **index** to the Array\n> \n> **MP4  **Set the element at this** index / location / position** to the **value / data / item** being added\n> \n> **MP5**  Return **TRUE**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_29B9KT9ySNbSwx2T",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_FvnNjcntDGszxpqp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Y338wwMbry4QFs9p"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram shows an Abstract Data Type (ADT) representation of a linked list after data items have been added.\n\n- PS is the start pointer.\n- PF is the free list pointer.\n- Labels Df, Dc, Db and Dy represent the data items of nodes in the list.\n- Labels Fg, Fh, Fm and Fw represent the data items of nodes in the free list.\n- The symbol Ø represents a null pointer.\n\n![Flowchart with two horizontal processes. The top shows PS to Df, Dc, Db, Dy, Ø. The bottom shows PF to Fg, Fh, Fm, Fw, Ø.](assets/011-flowchart-with-two-horizontal-processes-the-top-.png)\n\nDescribe the linked list immediately after initialisation, before **any** data items are added.",
+     "solution_md": "> **[mark-scheme]**\n> One mark per point:\n> \n> 1. The PS contains a null pointer\n> 2. The PF points to the first element on the free list\n> 3. All the nodes are on the free list"
+    }
+   ]
+  },
+  {
+   "id": "qstn_NXyw48sszmsQMX9c",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_JS4HpTbBnZRYhNSy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/23",
+      "question_number": 3,
+      "question_part": "ai"
+     },
+     "spec_point_ids": [
+      "spcpt_Y338wwMbry4QFs9p"
+     ],
+     "part_tier": null,
+     "problem_md": "The implementation of a linked list uses an integer variable and a 1D array `List` of type `Node`.\n\nRecord type `Node` is declared in pseudocode as follows:\n\n`TYPE Node `\n`   DECLARE Data : STRING `\n`   DECLARE Pointer : INTEGER `\n`ENDTYPE `\n\nThe array `List` is declared in pseudocode as follows:\n\n`DECLARE List : ARRAY[1:200] OF Node`\n\nThe linked list will operate as follows:\n\n- Integer variable `HeadPointer` will store the array index for the first node in the linked list.\n- The `Pointer` field of a node contains the index value of the next array element (the next node) in the linked list.\n- The value 0 is used as a null pointer.\n\nState why the value 0 has been selected as the null pointer.",
+     "solution_md": "> **[mark-scheme]**\n> 0 is not a valid <u>array / </u>`List`<u> index</u> value // No 0<sup>th</sup> element in the array"
+    },
+    {
+     "id": "qstnprt_n9TKwW92D6MD4NfN",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/23",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Y338wwMbry4QFs9p"
+     ],
+     "part_tier": null,
+     "problem_md": "The array List will be initialised so that each node points to the following node. The last node will contain a null pointer.\n\nComplete the program flowchart to represent the algorithm for this operation.\n\n![Flowchart with a \"Start\" oval at the top and \"End\" oval at the bottom, connected by an arrow indicating sequence.](assets/012-flowchart-with-a-start-oval-at-the-top-and-end-o.png)",
+     "solution_md": "> **[mark-scheme]**\n> ![Flowchart with a loop. Starts at 'Index = 1', checks if 'Index = 200'. If no, increments 'Index' by one. If yes, sets 'Pointer' to zero, then ends.](assets/013-flowchart-with-a-loop-starts-at-index-1-checks-i.png)\n> \n> Mark as follows: \n> **MP1**   Use of variable as array index **and** initialisation to 1 / to first element of array \n> **MP2**   Loop for 199 / 200 iterations \n> **MP3**   Assign Index+1 to each pointer field in a loop \n> **MP4**   Assign 0 to 200<sup>th</sup> pointer field"
+    },
+    {
+     "id": "qstnprt_Bycq26gHdTg9BqgM",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/23",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "An algorithm outputs the `Data` field from all nodes in the array `List`. The order the `Data` is output should be the same order it is stored in the linked list.\n\nDescribe the algorithm in **four** steps.\n\nDo **not** use pseudocode statements in your answer.\n\nStep 1 ......................................................................................................................\n\nStep 2 .....................................................................................................................\n\nStep 3 .....................................................................................................................\n\nStep 4 .....................................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> One mark per step:\n> \n> **MP1   **Assign `HeadPointer` to `ThisPointer` / Current Pointer // Identify first node using <u>headpointer</u>\n> \n> **MP2**   Loop the following until `ThisPointer `value is 0 (zero) / null <u>pointer</u> reached\n> \n> **MP3**   … Output data (field) from array element at index `ThisPointer `// Output data (field) of the current node / array element\n> \n> **MP4**   … Assign pointer field from current array element / index / to `ThisPointer `/ Current Pointer // Assign pointer field from current node to` ThisPointer` / Current Pointer"
+    }
+   ]
+  },
+  {
+   "id": "qstn_xK7QwZPhYSgWV9xP",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_4z8Syd2Qjt96mx3P",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 3,
+      "question_part": "ai,aii"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth"
+     ],
+     "part_tier": null,
+     "problem_md": "A program uses a stack to hold up to 60 numeric values. \nThe stack is implemented using two integer variables and a 1D array.\n\nThe array is declared in pseudocode as shown:\n\n`DECLARE ThisStack : ARRAY[1:60] OF REAL `\n\nThe stack operates as follows:\n\n- Global variable `SP` acts as a stack pointer that points to the next available stack location. The value of `SP` represents an array index.\n- Global variable `OnStack` represents the number of values currently on the stack.\n- The stack grows upwards from array element index 1.\n\n(i) Give the initial values that should be assigned to the **two** variables.\n\n`SP` ............................................................................................................\n\n`OnStack` ...................................................................................................\n\n[1]\n\n(ii) Explain why it is not necessary to initialise the array elements before the stack is used.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> (i)`    `\n> \n> `     SP`: 1 \n> `OnStack`: 0\n> \n> One mark for both correct values\n> \n> (ii)\n> \n> **MP1**   Unused values cannot be popped / taken off the stack // initialised values would never be used / unused elements cannot be accessed\n> \n> **MP2**   ... until a value has first been pushed / written // overwrites previous value"
+    },
+    {
+     "id": "qstnprt_6HxzYgDcsz7KpxzP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_ywfgTSkKDNwWtyth"
+     ],
+     "part_tier": null,
+     "problem_md": "A function to add a value to `ThisStack` is expressed in pseudocode as shown. The function will return a value to indicate whether the operation was successful or not.\n\nComplete the pseudocode by filling in the gaps.\n\n`FUNCTION Push(ThisValue : REAL) RETURNS BOOLEAN `\n\n`   DECLARE ReturnValue : BOOLEAN `\n\n`   IF ................................................ THEN `\n\n`      RETURN ................................................ // stack is already full `\n\n`   ENDIF `\n\n`   ................................................`$\\leftarrow$`ThisValue `\n\n`   SP`$\\leftarrow$` ................................................ `\n\n`   OnStack`$\\leftarrow$ `OnStack + 1 `\n\n`   RETURN TRUE `\n\n`ENDFUNCTION`",
+     "solution_md": "> **[mark-scheme]**\n> Example solution:\n> \n> `FUNCTION Push(ThisValue : REAL) RETURNS BOOLEAN `\n> `   DECLARE ReturnValue : BOOLEAN `\n>         `IF` **OnStack = 60 / >59 // SP = 61 / SP > 60** `// SP` **outside the range 1 to 60 **`THEN `\n>                `RETURN` **FALSE** `// Stack is already full` \n>         `ENDIF` \n>         **ThisStack[SP]** $\\leftarrow$ `ThisValue` \n>         `SP` $\\leftarrow$ **SP + 1 **\n>         `OnStack `$\\leftarrow$` OnStack + 1 `\n> `   RETURN TRUE `\n> `ENDFUNCTION1 `\n> \n> Mark as follows: \n> One mark per gap",
+     "equations": [
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      },
+      {
+       "latex": "\\leftarrow",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mo>&#8592;</mo><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "leftwards arrow"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

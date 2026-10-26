@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:55:44Z",
+ "generated_utc": "2026-10-26T14:56:16Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -48,19 +48,43 @@
    "question_count": 9,
    "questions_embedded": 9,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/8-reaction-kinetics/8-3-homogeneous-and-heterogeneous-catalysts/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_YWTWhrYbqH4WFxSH",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 4,
+   "questions_embedded": 4,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/8-reaction-kinetics/8-3-homogeneous-and-heterogeneous-catalysts/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 9,
+  "questions_embedded": 13,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/1-8-cie-ial-chemistry-diagram-q7hard.png": "001-graph-with-amount-of-product-t-on-the-y-axis-and.png",
    "https://cdn.savemyexams.com/uploads/2023/06/2-1.png": "002-maxwell-boltzmann-distribution-curve-with-peak-q.png",
-   "https://cdn.savemyexams.com/uploads/2023/06/jNpe6DId_26.JPG": "003-maxwell-boltzmann-distribution-curve-showing-the.jpg"
+   "https://cdn.savemyexams.com/uploads/2023/06/jNpe6DId_26.JPG": "003-maxwell-boltzmann-distribution-curve-showing-the.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/07/lJm_oKlA_3.png": "004-concentration-time-graph-showing-the-concentrati.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/UnkcbR03_5.jpg": "005-completed-concentration-time-graph-showing-the-c.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/07/MfK-5Mso_6.jpg": "006-completed-concentration-time-graph-with-the-lett.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/07/P5iChsAC_7.png": "007-blank-axes-for-sketching-a-boltzmann-distributio.png",
+   "https://cdn.savemyexams.com/uploads/2023/07/DHVmVS3l_8.jpg": "008-completed-boltzmann-distribution-at-constant-tem.jpg",
+   "https://cdn.savemyexams.com/uploads/2024/03/blank-reaction-pathway-diagram.png": "009-blank-reaction-profile-graph-with-vertical-axis-.png",
+   "https://cdn.savemyexams.com/uploads/2024/03/h2o2-two-catalyst-reaction-pathway-diagram.png": "010-reaction-pathway-diagram-for-the-exothermic-deco.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/xAu0N0~R_graph.png": "011-blank-axes-for-sketching-boltzmann-distribution-.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/t1-and-t2.png": "012-completed-boltzmann-distribution-showing-two-ove.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/reaction-profile.png": "013-reaction-energy-profile-diagram-showing-an-exoth.png"
   }
  },
  "questions": [
@@ -522,6 +546,296 @@
        "text_md": "it shifts the position of equilibrium of the reaction"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_y4xcvCc5WPy8MtCJ",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_mT75hYg6vbsxPfNT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WvCr2JB5DYnqQ3vt"
+     ],
+     "part_tier": null,
+     "problem_md": "Gaseous **A** and **B** were added together to produce **C** as shown.\n\n**A (g) + 2B (g) ⇌ C (g)**\n\n**Fig. 3.1** shows the production of **C** over time.\n\n![Concentration-time graph showing the concentration of C increasing and levelling off at equilibrium](assets/004-concentration-time-graph-showing-the-concentrati.png)\n\n**Fig. 3.1**\n\ni) On Fig. 3.1, sketch a line to show what happens to the concentrations of **A** and **B** during the progress of the reaction.\n\n[2]\n\nii) On Fig. 3.1, label the point at which an equilibrium is first established.\n\n[1]",
+     "solution_md": "i) The completed graph showing the concentrations of **A** and **B** is:\n\n![Completed concentration-time graph showing the concentrations of A and B as inverted curves decreasing from their initial values and levelling off at equilibrium without reaching zero, mirroring the shape of the curve for C](assets/005-completed-concentration-time-graph-showing-the-c.jpg)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for curves of the same inverted shape as **C**, showing **A** and **B** reducing over time **AND** not reaching zero\n> \n> 1 mark for the curves levelling off at the same point as the curve for **C**\n\nii) The point at which equilibrium is first established is:\n\n![Completed concentration-time graph with the letter E marked at the point where all concentration curves become horizontal straight lines, indicating the establishment of equilibrium](assets/006-completed-concentration-time-graph-with-the-lett.jpg)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> ii) The equilibrium point:\n> \n> 1 mark for **E** marked at any correct position on the graph, at the point where both concentration curves first become horizontal straight lines\n\n> **[exam-tip]**\n> For part (i), the concentrations of **A** and **B** decrease at the same rate as **C** increases, so the curves are an inverted version of the **C** curve. The lines should not reach zero, because the reaction is reversible; some **C** reacts to reform **A** and **B**, so a non-zero equilibrium concentration of **A** and **B** is maintained.\n> \n> For part (ii), equilibrium is established when the concentrations of all species stop changing. Mark **E** at the point where all curves become flat horizontal lines."
+    },
+    {
+     "id": "qstnprt_QJ26RsSrNywkyYKr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nGaseous **A** and **B** were added together to produce **C** as shown.\n\n**A (g) + 2B (g) ⇌ C (g)**\n\nState and explain the effect of a catalyst on the rate of reaction and the equilibrium yield of the reaction in **(a)**.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of a catalyst on the rate of reaction and the equilibrium yield is:\n> \n> - The rate of reaction increases / the reaction reaches equilibrium faster **[1 mark]**\n> - A catalyst provides an alternative reaction pathway of lower activation energy **[1 mark]**\n> - The equilibrium yield is unchanged, because the rates of the forward and reverse reactions increase equally (so the equilibrium position does not change) **[1 mark]**\n\n> **[exam-tip]**\n> A catalyst speeds up the reaction by providing an alternative reaction pathway of lower activation energy, increasing the rate of both the forward and reverse reactions equally. Equilibrium is therefore reached more quickly. However, the equilibrium position is unchanged, meaning the yield of products is the same as without a catalyst."
+    },
+    {
+     "id": "qstnprt_vQcZJmSjk4mqMrWN",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nGaseous A and B were added together to produce C as shown.\n\nA (g) + 2B (g) ⇌ C (g)\n\nA catalyst was added to speed up the rate of reaction in part **(a)**.\n\ni) Sketch a Boltzmann distribution on the axes in **Fig. 3.2** to show the distribution of molecular energies at a constant temperature with **and** without a catalyst.\n\nUse *E*<sub>a</sub> to label the activation energy without a catalyst. Use *E*<sub>a,cat</sub> to label the activation energy with a catalyst.\n\n[3]\n\n![Blank axes for sketching a Boltzmann distribution, with number of molecules on the y-axis and energy on the x-axis](assets/007-blank-axes-for-sketching-a-boltzmann-distributio.png)\n\n**Fig. 3.2**\n\nii) Use the Boltzmann distribution to explain how the addition of a catalyst increases the rate of reaction.\n\n[3]",
+     "solution_md": "i) The completed Boltzmann distribution is:\n\n![Completed Boltzmann distribution at constant temperature showing a single curve with Ea labelled to the right of the peak and the activation energy with catalyst labelled to the left of Ea, closer to the origin](assets/008-completed-boltzmann-distribution-at-constant-tem.jpg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for both axes correctly labelled: y-axis (number of / proportion of) molecules; x-axis (kinetic) energy\n> \n> 1 mark for a single correct Boltzmann distribution curve: starts at / near the origin and does not touch the x-axis at higher energies\n> \n> 1 mark for *E*<sub>a</sub> correctly labelled to the right of the peak **AND** *E*<sub>a,cat</sub> correctly labelled to the left of *E*<sub>a</sub>\n\n> **[mark-scheme]**\n> ii) Using the Boltzmann distribution to explain how a catalyst increases the rate of reaction:\n> \n> - Without a catalyst, only a small proportion of molecules have energy greater than or equal to the activation energy (*E*<sub>a</sub>) **[1 mark]**\n> - Adding a catalyst lowers the activation energy (to *E*<sub>a,cat</sub>) **[1 mark]**\n> - With a catalyst, a greater proportion of molecules have energy greater than or equal to *E*<sub>a,cat</sub>, so more collisions are successful and the rate increases **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), since the temperature is constant, only one Boltzmann distribution curve is needed. The catalyst lowers the activation energy but does not change the distribution of molecular energies. Label *E*<sub>a</sub> to the right of the peak and *E*<sub>a,cat</sub> closer to the origin, to the left of *E*<sub>a</sub>.\n> \n> For part (ii), the key idea is that a catalyst lowers the activation energy. This means a greater proportion of molecules in the same distribution have sufficient energy to react. More frequent successful collisions lead to a higher rate of reaction."
+    }
+   ]
+  },
+  {
+   "id": "qstn_KXb7dkWgKHcMRTfd",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_qx4zgfdn7hYjzFQR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "The decomposition of 3% hydrogen peroxide solution into water and oxygen is a very slow chemical reaction.\n\nConstruct an equation for this reaction. Include state symbols.",
+     "solution_md": "The equation for the decomposition of hydrogen peroxide is:\n\n2H<sub>2</sub>O<sub>2</sub> (aq) → 2H<sub>2</sub>O (l) + O<sub>2</sub> (g)\n\n**OR**\n\nH<sub>2</sub>O<sub>2</sub> (aq) → H<sub>2</sub>O (l) + ½O<sub>2</sub> (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct species and correct balancing\n> \n> 1 mark for all correct state symbols: (aq), (l), (g)\n\n> **[exam-tip]**\n> This is a standard decomposition reaction. The products are water and oxygen:\n> \n> - Hydrogen peroxide solution is aqueous: H<sub>2</sub>O<sub>2</sub> (aq)\n> - Water is liquid at room temperature: H<sub>2</sub>O (l)\n> - Oxygen is released as a gas: O<sub>2</sub> (g)\n> \n> A catalyst is often used in this reaction to increase the rate of decomposition."
+    },
+    {
+     "id": "qstnprt_xTqZPKPzhznXMXCg",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "The decomposition of 3% hydrogen peroxide solution can be catalysed by different chemicals including solid manganese dioxide and catalase solution.\n\nState whether each catalyst acts as a homogeneous or heterogeneous catalyst. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The type of catalysis for each catalyst is:\n> \n> - Manganese dioxide: heterogeneous\n> **AND**\n> The catalyst is in a different state / phase to the reactants **[1 mark]**\n> - Catalase solution: homogeneous\n> **AND**\n> The catalyst is in the same state / phase as the reactants **[1 mark]**\n\n> **[exam-tip]**\n> Homogeneous catalysts are in the same physical state as the reactants. Heterogeneous catalysts are in a different physical state from the reactants.\n> \n> - Hydrogen peroxide solution is aqueous (aq)\n> - Manganese dioxide is a solid (s), which is a different state from H<sub>2</sub>O<sub>2</sub> (aq), making it a heterogeneous catalyst\n> - Catalase is in solution (aq), the same state as H<sub>2</sub>O<sub>2</sub> (aq), making it a homogeneous catalyst"
+    },
+    {
+     "id": "qstnprt_P2F9WGHVXYbHcjDt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "For the exothermic decomposition of hydrogen peroxide, manganese dioxide gives a greater increase in the rate of reaction than catalase solution.\n\nOn Fig. 2.1:\n\n- Sketch a reaction pathway diagram for the reaction using each catalyst.\n- Label the diagram to show the enthalpy change, Δ*H*, and the activation energy, *E*<sub>a</sub>, for each reaction.\n\n![Blank reaction profile graph with vertical axis labelled enthalpy and horizontal axis labelled progress of reaction, both axes ending in arrows](assets/009-blank-reaction-profile-graph-with-vertical-axis-.png)\n\n**Fig. 2.1**",
+     "solution_md": "The reaction pathway diagram for the reaction using each catalyst is:\n\n![Reaction pathway diagram for the exothermic decomposition of hydrogen peroxide showing two curves, one for manganese dioxide and one for catalase, with the manganese dioxide curve having a lower activation energy peak, and both Ea and ΔH labelled](assets/010-reaction-pathway-diagram-for-the-exothermic-deco.png)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a correct exothermic profile: both curves start at the same reactant level (H<sub>2</sub>O<sub>2</sub>) and end at the same lower product level (H<sub>2</sub>O + O<sub>2</sub>), each with a 'hump'\n> \n> 1 mark for the curve for manganese dioxide drawn lower (smaller hump) than the curve for catalase solution\n> \n> 1 mark for activation energy arrows (*E*<sub>a</sub>) **AND** enthalpy change arrows (Δ*H*) correctly labelled on the diagram\n\n> **[exam-tip]**\n> The reaction profile shows the same exothermic reaction taking place via two different catalysts:\n> \n> - Both curves start and finish at the same energy levels (same reactants and products)\n> - The enthalpy change Δ*H* is identical for both\n> - Manganese dioxide is a more effective catalyst, lowering the activation energy more than catalase, so its curve has a smaller 'hump'\n> \n> Make sure you label both the activation energy arrows (*E*<sub>a</sub>) from the reactant level to the peak of each curve, and both enthalpy change arrows (Δ*H*) from reactants to products."
+    }
+   ]
+  },
+  {
+   "id": "qstn_HV6P8cXcFdG6Bx8j",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_GvH8v3wnYVk9Dj53",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_w4fyM4CPRXhQHM4b"
+     ],
+     "part_tier": null,
+     "problem_md": "Reaction rates can be affected by a range of factors including changes in pressure and temperature.\n\n**Fig 1.1**\n\n![Blank axes for sketching Boltzmann distribution curves, with number of molecules on the y-axis and energy on the x-axis](assets/011-blank-axes-for-sketching-boltzmann-distribution-.png)\n\nOn Fig 1.1:\n\ni) Sketch one Boltzmann distribution labelled *T*<sub>1</sub> and a second Boltzmann distribution at a higher temperature labelled *T*<sub>2</sub>.\n\n[2]\n\nii) Use Fig 1.1 to state how the proportion of molecules with energy greater than or equal to the activation energy, *E*<sub>a</sub>, changes when temperature increases from *T*<sub>1</sub> to *T*<sub>2</sub>.\n\n[1]",
+     "solution_md": "i) A labelled Boltzmann distribution for *T*<sub>1</sub> and *T*<sub>2</sub> is:\n\n![Completed Boltzmann distribution showing two overlapping curves T₁ and T₂, where T₂ has a lower peak shifted to the right, with both axes labelled](assets/012-completed-boltzmann-distribution-showing-two-ove.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for axes correctly labelled: y-axis (number of) molecules; x-axis (kinetic) energy\n> \n> 1 mark for *T*<sub>2</sub> correctly drawn: lower peak than *T*<sub>1</sub>, shifted to the right, crossing *T*<sub>1</sub> once, with *T*<sub>2</sub> above *T*<sub>1</sub> at higher energies **AND** both curves start at or near the x-axis and neither goes below the x-axis\n\n> **[mark-scheme]**\n> ii) When temperature increases from *T*<sub>1</sub> to *T*<sub>2</sub>:\n> \n> - The proportion of molecules with energy greater than or equal to *E*<sub>a</sub> increases **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), key features of Boltzmann distribution curves:\n> \n> - Curves start at or near the origin (very few molecules have very low energy)\n> - Curves do not touch the x-axis at high energies (there is no upper energy limit)\n> - *T*<sub>2</sub> is at a higher temperature, so it has a lower peak and a longer tail at higher energies\n> \n> For part (ii), at higher temperature the Boltzmann distribution shifts to the right, meaning a greater area under the curve lies to the right of *E*<sub>a</sub>. A greater proportion of molecules therefore have energy greater than or equal to *E*<sub>a</sub>, leading to more frequent successful collisions and a higher rate of reaction."
+    },
+    {
+     "id": "qstnprt_Ym69fw4QBGwdZPsR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6",
+      "spcpt_WvCr2JB5DYnqQ3vt",
+      "spcpt_qD2VzcDXjsjC5k9j"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrogen iodide can be used in the manufacturing of pharmaceuticals and can be broken down back into its elements in standard form, iodine and hydrogen.\n\n2HI (g) → H<sub>2</sub> (g) + I<sub>2</sub> (g)  Δ*H* = −52 kJ mol<sup>-1</sup>\n\nThe activation energy when uncatalysed is +183 kJ mol<sup>-1</sup> and when catalysed with gold it is +105 kJ mol<sup>-1</sup>.\n\ni) Sketch a reaction profile for the reaction, including the curves for the activation energies for both the catalysed and uncatalysed reactions.\n\n[2]\n\nii) Calculate the activation energy for the *reverse reaction* in both the uncatalysed and catalysed reactions. Show your working.\n\n[2]\n\niii) Explain why increasing the concentration of hydrogen iodide gas results in a faster reaction rate.\n\n[2]",
+     "solution_md": "i) The reaction profile for the decomposition of hydrogen iodide is:\n\n![Reaction energy profile diagram showing an exothermic reaction with reactants 2HI(g) at higher energy and products H₂(g) + I₂(g) at lower energy, with two activation energy humps where the uncatalysed hump is higher than the catalysed hump](assets/013-reaction-energy-profile-diagram-showing-an-exoth.png)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a correct exothermic energy profile: reactants (2HI (g)) at a higher energy level than products (H<sub>2</sub> (g) + I<sub>2</sub> (g)), both curves starting from the reactant level and ending at the product level\n> \n> 1 mark for the uncatalysed curve drawn higher (larger hump) than the catalysed curve\n\nii) The activation energy for the reverse reaction is calculated by adding |Δ*H*| to *E*<sub>a</sub> of the forward reaction:\n\n- Calculate *E*<sub>a</sub> for the uncatalysed reverse reaction:\n\n*E*<sub>a</sub> (reverse, uncatalysed) = 183 + 52\n\n*E*<sub>a</sub> (reverse, uncatalysed) = **(+) 235 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n- Calculate *E*<sub>a</sub> for the catalysed reverse reaction:\n\n*E*<sub>a</sub> (reverse, catalysed) = 105 + 52\n\n*E*<sub>a</sub> (reverse, catalysed) = **(+) 157 kJ mol**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *E*<sub>a</sub> uncatalysed (reverse) = 235 kJ mol<sup>-1</sup>\n> \n> 1 mark for *E*<sub>a</sub> catalysed (reverse) = 157 kJ mol<sup>-1</sup>\n\n> **[mark-scheme]**\n> iii) Increasing the concentration of hydrogen iodide gas increases the rate of reaction because:\n> \n> - More molecules are present in the same volume / molecules are closer together **[1 mark]**\n> - The frequency of successful collisions increases **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), make sure the catalysed and uncatalysed curves do not merge before reaching the products; each should have a distinct, separate peak.\n> \n> For part (ii), to find the activation energy of the reverse reaction, add the magnitude of Δ*H* to the forward *E*<sub>a</sub>. The forward reaction is exothermic (Δ*H* = −52 kJ mol<sup>-1</sup>), so the products are at a lower energy level than the reactants. Reversing the direction means starting from the products and climbing up to the transition state, so the reverse *E*<sub>a</sub> = forward *E*<sub>a</sub> + |Δ*H*|.\n> \n> For part (iii), increasing the concentration places more molecules in the same volume, so collisions between reactant molecules are more frequent. More total collisions per unit time means more successful collisions (those with sufficient energy and the correct orientation), increasing the rate of reaction."
+    },
+    {
+     "id": "qstnprt_sjrd5gDYkVZvywcg",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nHydrogen iodide can be used in the manufacturing of pharmaceuticals and can be broken down back into its elements in standard form, iodine and hydrogen.\n\n2HI (g) → H₂ (g) + I₂ (g)  Δ*H* = −52 kJ mol^-1^\n\nThe activation energy when uncatalysed is +183 kJ mol^-1^ and when catalysed with gold it is +105 kJ mol^-1^.\n\nCatalysts are often used in industrial processes and can be used in a variety of forms.\n\ni) Explain why it is likely that the solid gold catalyst was used in powder form to catalyse the reaction mentioned in part **(b)**.\n\n[1]\n\nii) Gold is a heterogeneous catalyst used in the formation of hydrogen iodide. State the difference between a homogeneous and heterogeneous catalyst.\n\n[1]\n\niii) State how, if at all, the area under the curve of a Boltzmann distribution changes as a catalyst is introduced, without changing the temperature or the total number of molecules.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) Gold was used in powdered form because:\n> \n> - (Powder form) increases the surface area (available for the reaction to occur on) **[1 mark]**\n\n> **[mark-scheme]**\n> ii) The difference between a homogeneous and heterogeneous catalyst is:\n> \n> - A homogeneous catalyst is in the same physical state / phase as the reactants\n> **AND**\n> A heterogeneous catalyst is in a different physical state / phase from the reactants **[1 mark]**\n\n> **[mark-scheme]**\n> iii) When a catalyst is introduced, the area under the Boltzmann distribution curve:\n> \n> - Stays the same / is unchanged **[1 mark]**\n\n> **[exam-tip]**\n> Heterogeneous catalysts often work in powdered form or as a honeycomb structure to maximise the available surface area. Reactant molecules are adsorbed onto the catalyst surface, react, and then the products are desorbed. Increasing the surface area allows more reactant molecules to interact with the catalyst at the same time.\n> \n> The area under the Boltzmann distribution represents the total number of molecules. Since no molecules are added or removed when a catalyst is used, the area is unchanged. A catalyst lowers the activation energy but does not change the distribution of molecular energies."
+    },
+    {
+     "id": "qstnprt_2zzbm9jGBbxb6568",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6",
+      "spcpt_CyX4C6k8JDR3zMhQ"
+     ],
+     "part_tier": null,
+     "problem_md": "The Contact process is an important industrial process, contributing to the production of sulfuric acid. In the Contact process, solid vanadium(V) oxide, a heterogeneous catalyst, is used to make sulfur trioxide from sulfur dioxide and oxygen. This process is reversible.\n\ni) Construct a balanced symbol equation for this reaction. Include state symbols in your answer.\n\n[1]\n\nii) Explain the mode of action of the vanadium(V) oxide catalyst in the Contact process.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The balanced equation for the Contact process is:\n> \n> - 2SO<sub>2</sub> (g) + O<sub>2</sub> (g) ⇌ 2SO<sub>3</sub> (g) **[1 mark]**\n\n> **[mark-scheme]**\n> ii) The mode of action of the vanadium(V) oxide catalyst is:\n> \n> - Reactant molecules (SO<sub>2</sub> and/or O<sub>2</sub>) are adsorbed onto the surface of the catalyst **[1 mark]**\n> - Product molecules (SO<sub>3</sub>) are desorbed from the surface of the catalyst **[1 mark]**\n\n> **[exam-tip]**\n> For part (i), all the information needed to construct the equation is in the question:\n> \n> - Sulfur dioxide + oxygen → sulfur trioxide: SO<sub>2</sub> + O<sub>2</sub> → SO<sub>3</sub>\n> - Balance by inspection: 2SO<sub>2</sub> + O<sub>2</sub> → 2SO<sub>3</sub>\n> - The reaction is reversible: use ⇌\n> - All species are gases (g)\n> \n> For part (ii), heterogeneous catalysts work by adsorption and desorption. Reactant molecules (SO<sub>2</sub> and O<sub>2</sub>) bind to the solid surface of the catalyst (adsorption). After the reaction takes place on the surface, the product molecules (SO<sub>3</sub>) leave the surface (desorption), freeing up the catalyst surface for further reactions."
+    }
+   ]
+  },
+  {
+   "id": "qstn_3X3nPJqTN4ZJqj6y",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_4YJ5hJGKZfzTBKcD",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "construct",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW"
+     ],
+     "part_tier": null,
+     "problem_md": "The first step in the production of nitric acid involves the reversible reaction of gaseous ammonia in air to form nitrogen(II) oxide gas and water vapour.\n\nConstruct an equation for this reaction. Include state symbols.",
+     "solution_md": "The equation for this reaction is:\n\n4NH<sub>3</sub> (g) + 5O<sub>2</sub> (g) ⇌ 4NO (g) + 6H<sub>2</sub>O (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct species and correct balancing\n> \n> 1 mark for all correct state symbols: (g), (g), (g), (g)\n\n> **[exam-tip]**\n> All the information required to construct the equation is in the question:\n> \n> - Gaseous ammonia: NH<sub>3</sub> (g)\n> - Reacts in air: + O<sub>2</sub> (g)\n> - Reversible reaction: ⇌\n> - Forms nitrogen(II) oxide gas: NO (g)\n> - Forms water vapour: H<sub>2</sub>O (g)\n> \n> NH<sub>3</sub> + O<sub>2</sub> ⇌ NO + H<sub>2</sub>O\n> \n> Then balance the equation."
+    },
+    {
+     "id": "qstnprt_yBKHbHRqyng9zdZv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe first step in the production of nitric acid involves the reversible reaction of gaseous ammonia in air to form nitrogen(II) oxide gas and water vapour.\n\n4NH₃ (g) + 5O₂ (g) ⇌ 4NO (g) + 6H₂O (g)\n\nFor this reaction, a fine mesh is powder-coated with a mixture of platinum and rhodium catalysts.\n\nState whether the catalyst acts as a homogeneous or heterogeneous catalyst in this reaction. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The type of catalysis is heterogeneous:\n> \n> - Heterogeneous **[1 mark]**\n> - The catalyst is in a different state / phase to the reactants\n> **OR**\n> The catalyst is solid **AND **the reactants are gaseous **[1 mark]**\n\n> **[exam-tip]**\n> From Part (a), the reactants (NH<sub>3</sub> and O<sub>2</sub>) are gaseous. The platinum and rhodium catalysts are powder-coated onto a solid mesh, which means that they are solid. A heterogeneous catalyst is in a different phase to the reactants."
+    },
+    {
+     "id": "qstnprt_gR73J7Qyv4PzWff6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YSQfmtB7RFM428Q6"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe first step in the production of nitric acid involves the reversible reaction of gaseous ammonia in air to form nitrogen(II) oxide gas and water vapour.\n\n4NH₃ (g) + 5O₂ (g) ⇌ 4NO (g) + 6H₂O (g)\n\nExplain why the catalyst does not affect the yield of the products in the reaction described in **(a)**.",
+     "solution_md": "> **[mark-scheme]**\n> The catalyst does not affect the yield because:\n> \n> - It increases the rate of the forward and reverse reactions equally (so the equilibrium position is unchanged) **[1 mark]**\n\n> **[exam-tip]**\n> A catalyst speeds up the reaction so equilibrium is reached more quickly. However, because both the forward and reverse reaction rates are increased equally, the equilibrium position is unchanged — the same equilibrium yield of products is obtained."
     }
    ]
   }

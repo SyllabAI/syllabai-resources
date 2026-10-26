@@ -1,6 +1,6 @@
 # Exam Questions — Movement into & out of Cells
 **4. Cell Membranes & Transport** · Cambridge (CIE) A-LEVEL biology (9700)
-> Source: [https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/](https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/) · 30 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/](https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/) · 45 questions across 2 sets
 
 
 ## Multiple Choice Questions (30 questions)
@@ -362,3 +362,797 @@ What is the correct equation for calculating the total water potential (Ψ) from
 ![screenshot-2023-05-08-153900](assets/013-screenshot-2023-05-08-153900.png)
 
 What form of cellular transport is shown in the diagram above?
+
+## Structured Questions (15 questions)
+
+
+### Q1 — hard — 12 marks
+
+**Q1** [3 marks]
+
+A plant palisade mesophyll cell is 4 μm in width and depth, and 25 μm in length.
+
+Its shape is approximately cuboid.
+
+Calculate the surface area to volume ratio of this cell. Show your working.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+A plant palisade mesophyll cell is 4 μm in width and depth, and 25 μm in length.
+
+Its shape is approximately cuboid.
+
+If the palisade cell in part (a) has a large central vacuole, so that the cytoplasm (not including the vacuole) extends inward 500 nm from the plasma membrane of the cell.
+
+Calculate the surface area to cytoplasmic volume ratio. Show your working.
+
+**Q1** [3 marks]
+
+Explain the importance of the surface area to volume ratio to a growing bacterial cell.
+
+**Q1** [3 marks]
+
+Palisade mesophyll cells and bacterial cells are both approximately cuboid in shape.
+
+Explain the benefit of this shape for the functioning of the cell.
+
+### Q2 — hard — 12 marks
+
+**Q2** [1 mark]
+
+The graph in Fig.1 shows the increase in mass of a potato chip when placed into a solution.
+
+![osmosis-and-potatos-1](assets/017-osmosis-and-potatos-1.png)
+
+**Fig.1**
+
+Describe the water potential of the solution at 25 minutes.
+
+**Q2** [3 marks]
+
+**Extract:**
+
+The graph in Fig.1 shows the increase in mass of a potato chip when placed into a solution.
+
+Explain the trend shown in Fig.1 from 0-24 minutes.
+
+**Q2** [4 marks]
+
+Contrast the processes of osmosis and exocytosis.
+
+**Q2** [4 marks]
+
+Explain the role of exocytosis in the digestion of starch in the small intestines.
+
+### Q3 — hard — 13 marks
+
+**Q3** [6 marks]
+
+Design an experiment to estimate the glucose concentration of the cell contents of sweet potato tuber. The following equipment has been provided.
+
+- Sweet potato
+- 1 mol dm<sup>3 </sup>glucose solution
+- Cork borers
+- Other common laboratory supplies and reagents.
+
+Outline the steps you would take and the way that you would process the data that you would generate.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+Design an experiment to estimate the glucose concentration of the cell contents of sweet potato tuber. The following equipment has been provided.
+
+- Sweet potato
+- 1 mol dm^3 ^glucose solution
+- Cork borers
+- Other common laboratory supplies and reagents.
+
+Outline the steps you would take and the way that you would process the data that you would generate.
+
+An experiment to estimate the glucose concentration of the cell contents of sweet potato tuber would include...
+
+- Serial dilution / dilution series of various concentrations of glucose between 0 and 1 mol dm^-3^ ; 
+- Cut near-identical tubes of sweet potato, pat dry, weigh; 
+- Totally immerse tubes in glucose solutions; 
+- Leave for a set time, between 20-30 minutes, remove, pat dry, re-weigh; 
+- Calculate percentage / % change in mass; 
+- Plot % change in mass vs glucose concentration; where the curve crosses the x-axis is the concentration of glucose in the cells / isotonic;
+
+Sketch a graph of the expected results from the experiment in question 3a).
+
+**Q3** [2 marks]
+
+Define the term, ‘water potential’ and explain why values of water potential are expressed in kilopascals (kPa).
+
+**Q3** [2 marks]
+
+**Extract:**
+
+Water potential is the tendency of water to diffuse across a partially permeable membrane.
+
+Explain why an aqueous solution has a lower water potential than pure water.
+
+### Q4 — hard — 8 marks
+
+**Q4** [1 mark]
+
+Some membranes are described as *semi-permeable*; this means that only water and a few small solutes can pass through the membrane.
+
+However, the preferred term to describe most biological membranes is *selectively permeable*.
+
+Explain why *selectively permeable *is the preferred term for biological membranes.
+
+**Q4** [2 marks]
+
+Diffusion can be studied using visking tubing. Visking tubing (or dialysis tubing) is a plastic-like material that water and small solute molecules can pass through.
+
+Students set up an investigation in which equal volumes of each of the following solutions were placed into separate visking tubings:
+
+0.7 mol dm<sup>-3 </sup>sodium chloride
+
+0.7 mol dm<sup>-3</sup> glucose
+
+The visking tubings, each of the same size, were placed in distilled water and maintained at a constant temperature of 23°C. The volume and mass of the bags were measured at 5 minute intervals for 160 minutes.
+
+The data recorded is shown below.
+
+![1-3-h-3b-paper-2](assets/019-1-3-h-3b-paper-2.png)
+
+Calculate the rates of increase in mass and in volume for the visking tubing containing glucose solution during the first 30 minutes.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+Diffusion can be studied using visking tubing. Visking tubing (or dialysis tubing) is a plastic-like material that water and small solute molecules can pass through.
+
+Students set up an investigation in which equal volumes of each of the following solutions were placed into separate visking tubings:
+
+0.7 mol dm^-3 ^sodium chloride
+
+0.7 mol dm^-3^ glucose
+
+The visking tubings, each of the same size, were placed in distilled water and maintained at a constant temperature of 23°C. The volume and mass of the bags were measured at 5 minute intervals for 160 minutes.
+
+The data recorded is shown below.
+
+![1-3-h-3b-paper-2](https://cdn.savemyexams.com/uploads/2022/08/1-3-h-3b-paper-2.png)
+
+Compare and contrast the rates of change in mass for the two visking tubings.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Diffusion can be studied using visking tubing. Visking tubing (or dialysis tubing) is a plastic-like material that water and small solute molecules can pass through.
+
+Students set up an investigation in which equal volumes of each of the following solutions were placed into separate visking tubings:
+
+0.7 mol dm^-3 sodium chloride
+
+0.7 mol dm^-3 glucose
+
+The visking tubings, each of the same size, were placed in distilled water and maintained at a constant temperature of 23°C.
+
+Explain why the volumes of both visking tubings increases over time.
+
+### Q5 — hard — 9 marks
+
+**Q5** [2 marks]
+
+A student investigated the effect of changing the size of a cube on the rate of diffusion.
+
+Coloured agar was created using a dilute sodium hydroxide solution and universal indicator. The agar was cut into cubes of different sizes (**A **to** E**) and their surface area and volume were calculated in order to determine the surface area to volume ratio.
+
+The cubes were placed into boiling tubes containing 10 cm<sup>3</sup> of dilute hydrochloric acid and the time taken for the agar cubes to become colourless was measured and recorded.
+
+The results of the investigation is represented in Table 1.
+
+**Table 1**
+
+| **Cube** | **Surface area / cm**<sup>**2**</sup> | **Volume / cm**<sup>**3**</sup> | **Surface area: Volume** | **Time taken for the cube to turn colourless / s** |
+|---|---|---|---|---|
+| **A** | 1.5 | 0.13 | 11.5 : 1 | 175 |
+| **B** | 6.0 | 1.00 | 6 : 1 | 256 |
+| **C** | 13.5 | 3.38 |   | 312 |
+| **D** | 24.0 | 8.00 | 3 : 1 | 384 |
+| **E** | 37.5 | 15.63 | 2.4 : 1 | 428 |
+
+Calculate the surface area to volume ratio for cube** C**.
+
+Show your work and round your answer to the nearest whole number.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+A student investigated the effect of changing the size of a cube on the rate of diffusion.
+
+Coloured agar was created using a dilute sodium hydroxide solution and universal indicator. The agar was cut into cubes of different sizes (A to E) and their surface area and volume were calculated in order to determine the surface area to volume ratio.
+
+The cubes were placed into boiling tubes containing 10 cm³ of dilute hydrochloric acid and the time taken for the agar cubes to become colourless was measured and recorded.
+
+The results of the investigation is represented in Table 1.
+
+Table 1
+
+| Cube | Surface area / cm² | Volume / cm³ | Surface area: Volume | Time taken for the cube to turn colourless / s |
+| A | 1.5 | 0.13 | 11.5 : 1 | 175 |
+| B | 6.0 | 1.00 | 6 : 1 | 256 |
+| C | 13.5 | 3.38 | 4 : 1 | 312 |
+| D | 24.0 | 8.00 | 3 : 1 | 384 |
+| E | 37.5 | 15.63 | 2.4 : 1 | 428 |
+
+Describe the results shown in Table 1.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+A student investigated the effect of changing the size of a cube on the rate of diffusion.
+
+Coloured agar was created using a dilute sodium hydroxide solution and universal indicator. The agar was cut into cubes of different sizes (A to E) and their surface area and volume were calculated in order to determine the surface area to volume ratio.
+
+The cubes were placed into boiling tubes containing 10 cm^3^ of dilute hydrochloric acid and the time taken for the agar cubes to become colourless was measured and recorded.
+
+The results of the investigation is represented in Table 1.
+
+Table 1
+
+| **Cube** | **Surface area / cm**^**2**^ | **Volume / cm**^**3**^ | **Surface area: Volume** | **Time taken for the cube to turn colourless / s** |
+| **A** | 1.5 | 0.13 | 11.5 : 1 | 175 |
+| **B** | 6.0 | 1.00 | 6 : 1 | 256 |
+| **C** | 13.5 | 3.38 |   | 312 |
+| **D** | 24.0 | 8.00 | 3 : 1 | 384 |
+| **E** | 37.5 | 15.63 | 2.4 : 1 | 428 |
+
+Explain the significance of the results shown in Table 1 for living organisms.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+A student investigated the effect of changing the size of a cube on the rate of diffusion.
+
+Coloured agar was created using a dilute sodium hydroxide solution and universal indicator. The agar was cut into cubes of different sizes (A to E) and their surface area and volume were calculated in order to determine the surface area to volume ratio.
+
+The cubes were placed into boiling tubes containing 10 cm³ of dilute hydrochloric acid and the time taken for the agar cubes to become colourless was measured and recorded.
+
+The results of the investigation is represented in Table 1.
+
+Table 1
+
+| Cube | Surface area / cm² | Volume / cm³ | Surface area: Volume | Time taken for the cube to turn colourless / s |
+| A | 1.5 | 0.13 | 11.5 : 1 | 175 |
+| B | 6.0 | 1.00 | 6 : 1 | 256 |
+| C | 13.5 | 3.38 |   | 312 |
+| D | 24.0 | 8.00 | 3 : 1 | 384 |
+| E | 37.5 | 15.63 | 2.4 : 1 | 428 |
+
+Suggest a possible outcome for the investigation described in part** (a)** if the agar cubes were placed in a more concentrated solution of hydrochloric acid.
+
+### Q6 — medium — 9 marks
+
+**Q6** [2 marks]
+
+An investigation was conducted to estimate water potential in plant tissue. The following method was used:
+
+- The investigators made a range of dilutions of a 1 mol dm<sup>-3</sup> solution of sodium chloride.
+- A cork borer was used to cut three potato cylinders for each sodium chloride concentration.
+- The initial mass of each potato cylinder was recorded.
+- The potato cylinders were placed in boiling tubes, each containing 10 cm<sup>3</sup> of sodium chloride solution of a different concentration. One of the boiling tubes contained only distilled water.
+- The boiling tubes were placed in a water bath at 25 °C and left for a period of 5 hours.
+- The final mass of each potato cylinder was measured and recorded for each sodium chloride solution.
+- The mean initial and final mass was calculated for each sodium chloride solution.
+
+The results for this investigation is shown in Table 1
+
+**Table 1**
+
+| **Concentration of sodium chloride solution / mol dm**<sup>**-3**</sup> | **Mean initial mass / g** | **Mean final mass / g** | **Mean % change in mass / %** |
+|---|---|---|---|
+| 0.00 | 4.50 | 4.95 | 10 |
+| 0.25 | 4.52 | 4.60 | 1.8 |
+| 0.50 | 4.51 | 4.51 | 0 |
+| 0.75 | 4.51 | 4.30 |   |
+| 1.00 | 4.50 | 4.27 | -5.1 |
+
+Calculate the mean percentage change in mass of the potato cylinders in the 0.75 mol dm<sup>-3</sup> sodium chloride solution. Show your working.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+An investigation was conducted to estimate water potential in plant tissue. The following method was used:
+
+- The investigators made a range of dilutions of a 1 mol dm^-3^ solution of sodium chloride.
+- A cork borer was used to cut three potato cylinders for each sodium chloride concentration.
+- The initial mass of each potato cylinder was recorded.
+- The potato cylinders were placed in boiling tubes, each containing 10 cm^3^ of sodium chloride solution of a different concentration. One of the boiling tubes contained only distilled water.
+- The boiling tubes were placed in a water bath at 25 °C and left for a period of 5 hours.
+- The final mass of each potato cylinder was measured and recorded for each sodium chloride solution.
+- The mean initial and final mass was calculated for each sodium chloride solution.
+
+The results for this investigation is shown in Table 1
+
+**Table 1**
+
+| **Concentration of sodium chloride solution / mol dm**^**-3**^ | **Mean initial mass / g** | **Mean final mass / g** | **Mean % change in mass / %** |
+| 0.00 | 4.50 | 4.95 | 10 |
+| 0.25 | 4.52 | 4.60 | 1.8 |
+| 0.50 | 4.51 | 4.51 | 0 |
+| 0.75 | 4.51 | 4.30 |   |
+| 1.00 | 4.50 | 4.27 | -5.1 |
+
+Explain why there was no change in mass for the potato cylinders in the 0.5 mol dm<sup>-3</sup> sodium chloride solution.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+An investigation was conducted to estimate water potential in plant tissue. The following method was used:
+
+- The investigators made a range of dilutions of a 1 mol dm^-3^ solution of sodium chloride.
+- A cork borer was used to cut three potato cylinders for each sodium chloride concentration.
+- The initial mass of each potato cylinder was recorded.
+- The potato cylinders were placed in boiling tubes, each containing 10 cm^3^ of sodium chloride solution of a different concentration. One of the boiling tubes contained only distilled water.
+- The boiling tubes were placed in a water bath at 25 °C and left for a period of 5 hours.
+- The final mass of each potato cylinder was measured and recorded for each sodium chloride solution.
+- The mean initial and final mass was calculated for each sodium chloride solution.
+
+The results for this investigation is shown in Table 1
+
+Table 1
+
+| Concentration of sodium chloride solution / mol dm^-3^ | Mean initial mass / g | Mean final mass / g | Mean % change in mass / % |
+| 0.00 | 4.50 | 4.95 | 10 |
+| 0.25 | 4.52 | 4.60 | 1.8 |
+| 0.50 | 4.51 | 4.51 | 0 |
+| 0.75 | 4.51 | 4.30 |   |
+| 1.00 | 4.50 | 4.27 | -5.1 |
+
+Explain the change in mass that occurred in the potato cylinder placed in the boiling tube containing distilled water.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+An investigation was conducted to estimate water potential in plant tissue. The following method was used:
+
+- The investigators made a range of dilutions of a 1 mol dm^-3^ solution of sodium chloride.
+- A cork borer was used to cut three potato cylinders for each sodium chloride concentration.
+- The initial mass of each potato cylinder was recorded.
+- The potato cylinders were placed in boiling tubes, each containing 10 cm^3^ of sodium chloride solution of a different concentration. One of the boiling tubes contained only distilled water.
+- The boiling tubes were placed in a water bath at 25 °C and left for a period of 5 hours.
+- The final mass of each potato cylinder was measured and recorded for each sodium chloride solution.
+- The mean initial and final mass was calculated for each sodium chloride solution.
+
+The results for this investigation is shown in Table 1
+
+**Table 1**
+
+| **Concentration of sodium chloride solution / mol dm**^**-3**^ | **Mean initial mass / g** | **Mean final mass / g** | **Mean % change in mass / %** |
+| 0.00 | 4.50 | 4.95 | 10 |
+| 0.25 | 4.52 | 4.60 | 1.8 |
+| 0.50 | 4.51 | 4.51 | 0 |
+| 0.75 | 4.51 | 4.30 |   |
+| 1.00 | 4.50 | 4.27 | -5.1 |
+
+Sketch one of the potato cells that was kept in the 1.00 mol dm<sup>-3</sup> sodium chloride solution. Label the cell wall, cell membrane and cytoplasm in your diagram.
+
+### Q7 — medium — 10 marks
+
+**Q7** [3 marks]
+
+Active transport plays an important role in the absorption of the products of digestion in the small intestine.
+
+Compare the process of active transport with the process of facilitated diffusion.
+
+**Q7** [3 marks]
+
+Fig.1 illustrates another type of membrane transport.
+
+![4-2-fig-3-1](assets/025-4-2-fig-3-1.png)
+
+**                                                                    Fig. 1**
+
+(i)Identify the type of transport that is illustrated in Fig. 1
+
+[1]
+
+(ii)Describe the process identified in part i)
+
+[2]
+
+**Q7** [2 marks]
+
+A gastric chief cell is a type of gland cell that secretes pepsinogen and other digestive enzymes in the stomach.
+
+Fig. 2 shows a diagram of a gastric chief cell.
+
+![4-2-fig-3-2](assets/026-4-2-fig-3-2.png)
+
+**                                                                   Fig. 2**
+
+Gastric chief cells contain a large number of structure **X**.
+
+Explain the reason for this.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+A gastric chief cell is a type of gland cell that secretes pepsinogen and other digestive enzymes in the stomach.
+
+Fig. 2 shows a diagram of a gastric chief cell.
+
+Describe the process by which gastric chief cells will release these digestive enzymes into the stomach.
+
+### Q8 — medium — 10 marks
+
+**Q8** [2 marks]
+
+A group of students investigated the effect of concentration gradient on the rate of diffusion. They filled a length of Visking tubing with a glucose solution of known concentration and suspended the tubing in a boiling tube filled with distilled water. Samples from the water surrounding the Visking tubing were removed at regular time intervals and tested for levels of glucose using Benedict's test. The experiment was repeated several times with different concentrations of glucose placed in the Visking tubing.
+
+The students plotted a graph of glucose concentration against diffusion rate. Fig. 1 shows a representation of the results.
+
+![4-2-fig-1-1](assets/027-4-2-fig-1-1.png)
+
+**Fig. 1**
+
+Describe and explain the results shown in Fig. 1
+
+**Q8** [2 marks]
+
+**Extract:**
+
+A group of students investigated the effect of concentration gradient on the rate of diffusion. They filled a length of Visking tubing with a glucose solution of known concentration and suspended the tubing in a boiling tube filled with distilled water. Samples from the water surrounding the Visking tubing were removed at regular time intervals and tested for levels of glucose using Benedict's test. The experiment was repeated several times with different concentrations of glucose placed in the Visking tubing.
+
+The students plotted a graph of glucose concentration against diffusion rate. Fig. 1 shows a representation of the results.
+
+The students repeated the experiment from part a) at a temperature that was 10 °C lower.
+
+Suggest how this would affect the results of the investigation.
+
+**Q8** [3 marks]
+
+The students conducted a similar investigation by using animal cells placed in glucose solutions of different concentrations. The rate at which glucose entered the cells was determined for each glucose concentration.
+
+The results of this investigation are shown in Fig. 2.
+
+![4-2-fig-1-2](assets/028-4-2-fig-1-2.png)
+
+**                                                          Fig. 2**
+
+(i) Identify the specific type of membrane transport by which glucose enters the cells in Fig. 2
+
+**[1]**
+
+(ii) Suggest an explanation for your answer to part i).
+
+**[2]**
+
+**Q8** [3 marks]
+
+**Extract:**
+
+The students conducted a similar investigation by using animal cells placed in glucose solutions of different concentrations. The rate at which glucose entered the cells was determined for each glucose concentration.
+
+The results of this investigation are shown in Fig. 2.
+
+4-2-fig-1-2
+
+Fig. 2
+
+(i) Identify the specific type of membrane transport by which glucose enters the cells in Fig. 2
+
+(ii) Suggest an explanation for your answer to part i).
+
+The investigation in part c) was carried out at room temperature.
+
+Predict the possible outcome if the investigation in part c) were conducted at 60 °C **and** state a reason for your answer.
+
+### Q9 — medium — 11 marks
+
+**Q9** [4 marks]
+
+Fig.1 shows a light micrograph of a series of onion cells that have been placed in distilled water for several hours.
+
+![4-2-fig-5-1](assets/029-4-2-fig-5-1.png)
+
+**                                                               Fig. 1**
+
+Explain the events that led to the appearance of the cells in Fig. 1
+
+**Q9** [2 marks]
+
+**Extract:**
+
+Fig.1 shows a light micrograph of a series of onion cells that have been placed in distilled water for several hours.
+
+Fig.2 shows another set of onion cells.
+
+![4-2-fig-5-2](assets/030-4-2-fig-5-2.png)
+
+**                                                                   Fig. 2**
+
+Explain why the cells in Fig.2 differ in appearance from the cells shown in Fig. 1.
+
+**Q9** [3 marks]
+
+Emphysematous pyelonephritis (EPN) is a very rare complication that can develop as a result of an untreated kidney infection. It is a severe infection during which bacteria destroy kidney tissue, eventually leading to kidney failure. If kidney failure is left untreated the kidneys are unable to regulate the amount of water in the body and the blood plasma becomes more dilute than normal.
+
+Describe the effect that this would have on red blood cells.
+
+**Q9** [2 marks]
+
+Explain why changes in cell volume affect animal cells more severely than plant cells.
+
+### Q10 — medium — 11 marks
+
+**Q10** [2 marks]
+
+Some scientists investigated the uptake of magnesium ions in rice plants. They divided the plants into two groups and placed their roots in solutions containing radioactive magnesium ions.
+
+**   Group Y:** plants had a substance that inhibited respiration added to the solution **   **
+**Group Z:** plants did **not **have the respiratory inhibitor added to the solution
+
+The scientists calculated the total amount of magnesium ions absorbed by the plants every 5 minutes. Their results are shown in the graph in **Figure 1** below:
+
+**Figure 1**
+
+![q3a-fig-1-2-4-medium-aqa-a-level-biology](assets/031-q3a-fig-1-2-4-medium-aqa-a-level-biology.png)
+
+Calculate the ratio of the mean rate of uptake of magnesium ions in the first 20 minutes to the mean rate of uptake of magnesium ions in the second 20 minutes for group **Z** plants. Show your working.
+
+**Q10** [4 marks]
+
+**Extract:**
+
+Some scientists investigated the uptake of magnesium ions in rice plants. They divided the plants into two groups and placed their roots in solutions containing radioactive magnesium ions.
+
+Group Y: plants had a substance that inhibited respiration added to the solution
+
+Group Z: plants did not have the respiratory inhibitor added to the solution
+
+The scientists calculated the total amount of magnesium ions absorbed by the plants every 5 minutes. Their results are shown in the graph in Figure 1 below:
+
+Figure 1
+
+![q3a-fig-1-2-4-medium-aqa-a-level-biology](https://cdn.savemyexams.com/uploads/2023/08/q3a-fig-1-2-4-medium-aqa-a-level-biology.png)
+
+Consider the graph in **Figure 1**. Explain the results of the students’ investigation.
+
+**Q10** [2 marks]
+
+**Extract:**
+
+Some scientists investigated the uptake of magnesium ions in rice plants. They divided the plants into two groups and placed their roots in solutions containing radioactive magnesium ions.
+
+Group Y: plants had a substance that inhibited respiration added to the solution
+
+Group Z: plants did not have the respiratory inhibitor added to the solution
+
+The scientists calculated the total amount of magnesium ions absorbed by the plants every 5 minutes. Their results are shown in the graph in Figure 1 below:
+
+Figure 1
+
+q3a-fig-1-2-4-medium-aqa-a-level-biology
+
+Using the graph in **Figure 1**, calculate the rate of uptake of magnesium ions for group **Y **plants during the investigation. Give suitable units.
+
+**Q10** [3 marks]
+
+**Extract:**
+
+Some scientists investigated the uptake of magnesium ions in rice plants. They divided the plants into two groups and placed their roots in solutions containing radioactive magnesium ions.
+
+**Group Y:** plants had a substance that inhibited respiration added to the solution
+
+**Group Z:** plants did **not** have the respiratory inhibitor added to the solution
+
+State the names of three other substances that would **not** be absorbed into the group Y plants.
+
+### Q11 — easy — 8 marks
+
+**Q11** [3 marks]
+
+Define the term **active transport**.
+
+**Q11** [3 marks]
+
+List **three** factors that affect the rate of diffusion of substances across a membrane.
+
+**Q11** [1 mark]
+
+State the name of the process by which materials are transported from structures **S** to **R** in Fig. 1 below
+
+![1-3-e-2c-paper-2](assets/034-1-3-e-2c-paper-2.png)
+
+**Fig. 1**
+
+**Q11** [1 mark]
+
+**Extract:**
+
+State the name of the process by which materials are transported from structures **S** to **R** in Fig. 1 below
+
+![1-3-e-2c-paper-2](https://cdn.savemyexams.com/uploads/2022/08/1-3-e-2c-paper-2.png)
+
+**Fig. 1**
+
+Name **one** material that could be transported from structure **S** to **R**.
+
+### Q12 — easy — 15 marks
+
+**Q12** [4 marks]
+
+Fig. 1 shows a section of membrane from a cell.
+
+![cell-membrane](assets/035-cell-membrane.png)
+
+**Fig. 1**
+
+Substances can pass across this membrane by diffusion or by facilitated diffusion.
+
+With reference to transport across a membrane such as that in Fig.1, compare and contrast diffusion with facilitated diffusion.
+
+**Q12** [3 marks]
+
+Fig. 2 shows three different membrane proteins.
+
+The boxes on the right show their various descriptions.
+
+![LbacbVLs_cie-ial-4-2-q2be---sq](assets/036-lbacbvls-cie-ial-4-2-q2be-sq.png)
+
+**Fig. 2**
+
+Join the boxes on the left with the appropriate box on the right with three straight lines.
+
+**Q12** [5 marks]
+
+Compete the following passage about osmosis using appropriate words, some of which should be topic-specific keywords.
+
+Do not use the word 'osmosis' as one of your answers.
+
+| Plant roots absorb _______ by osmosis from the surrounding soil. It moves by a process of _______ from an area of _______ concentration to an area of _______ concentration across a _______ membrane. |
+|---|
+
+**Q12** [3 marks]
+
+(i) Complete the following statement:
+
+As solute concentration increases, water potential ___________.
+
+[1]
+
+(ii) Explain your choice of word in part (d) (i).
+
+[2]
+
+### Q13 — easy — 10 marks
+
+**Q13** [4 marks]
+
+**Figure 1** below shows a cell surface membrane and some molecules of a small, nonpolar substance known as substance **X**.
+
+**Figure 1**
+
+![7FyW42_E_2](assets/038-7fyw42-e-2.png)
+
+Predict and explain what will happen to substance **X** in **Figure 1**.
+
+**Q13** [1 mark]
+
+**Extract:**
+
+Figure 1 below shows a cell surface membrane and some molecules of a small, nonpolar substance known as substance X.
+
+Give a possible name for substance **X**.
+
+**Q13** [2 marks]
+
+Substance **Y** is a large molecule and is not lipid-soluble. Describe how substance **Y**  would travel across a cell membrane from an area of high to low concentration.
+
+**Q13** [3 marks]
+
+**Figure 2** shows a molecule (X) that is about to be transported across a cell membrane.
+
+**Figure 2**
+
+![q4b-2-4-cell-membrane-and-transportation-easy](assets/039-q4b-2-4-cell-membrane-and-transportation-easy.png)
+
+Describe the events that would take place in order for molecule **X** in **Figure 2 **to move from the exterior of the cell into the cytoplasm.
+
+### Q14 — easy — 9 marks
+
+**Q14** [2 marks]
+
+Complete **Table 1** by placing a tick (✓) in the appropriate boxes.
+
+**Table 1**
+
+|   | **Simple diffusion** | **Osmosis** | **Facilitated diffusion** | **Active Transport** |
+|---|---|---|---|---|
+| Movement of glucose from high to low concentration |   |   |   |   |
+| Movement down a concentration gradient |   |   |   |   |
+| Movement of water from high water potential to low water potential. |   |   |   |   |
+| Movement of oxygen from the plasma into a red blood cell |   |   |   |   |
+
+**Q14** [3 marks]
+
+**Figure 1** below shows a group of onion cells viewed under an optical microscope.
+
+**Figure 1**
+
+![e5cAMwLp_3](assets/040-e5camwlp-3.png)
+
+Explain the appearance of the cytoplasm that can be seen in **Figure 1**.
+
+**Q14** [2 marks]
+
+A student took a cheek cell sample using a cotton swab and placed the cells into a test tube containing pure water. Predict what would happen to the cheek cells in the test tube.
+
+**Q14** [2 marks]
+
+**Extract:**
+
+A student took a cheek cell sample using a cotton swab and placed the cells into a test tube containing pure water. Predict what would happen to the cheek cells in the test tube.
+
+The cheek cells in the test tube of pure water would...
+- Take on water / water would move into the cheek cells by osmosis; [1 mark]
+- The cells would swell AND eventually burst; [1 mark]
+
+The onion cells from part b) were also placed into pure water, but the effect on these cells were slightly different. State how the effect would be different and explain why.
+
+### Q15 — easy — 6 marks
+
+**Q15** [1 mark]
+
+Complete the following sentence.
+
+The size of an organism is _____________ proportional to its surface area to volume ratio.
+
+**Q15** [1 mark]
+
+In an experiment using agar blocks immersed in a diffusion solution, the blocks are made up containing sodium hydroxide and a universal indicator solution.
+
+Suggest a suitable solution to immerse these blocks to examine diffusion.
+
+**Q15** [2 marks]
+
+Two organisms are described in **Table 1**.
+
+**Table 1**
+
+|   | **organism A** | **organism B** |
+|---|---|---|
+| surface area / cm<sup>2</sup> | 18 970 | 79.8 |
+| volume / dm<sup>3</sup> | 70 | 0.019 |
+| SA: VOL ratio |   |   |
+
+Complete **Table 1** by calculating the missing surface area to volume ratios.
+
+Do not include units.
+
+**Q15** [2 marks]
+
+**Extract:**
+
+Two organisms are described in **Table 1**.
+
+**Table 1**
+
+|   | **organism A** | **organism B** |
+| surface area / cm^2^ | 18 970 | 79.8 |
+| volume / dm^3^ | 70 | 0.019 |
+| SA: VOL ratio | 271 | 4 200 |
+
+**Table 1** from part (c) shows two organisms, **A **and **B**.
+
+One of these is a mouse, the other is a human. Identify which animal is represented by **A**.
+
+Give a reason for your answer.

@@ -1,6 +1,6 @@
 # Exam Questions — Shapes of Molecules
 **3. Chemical Bonding** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 10 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 15 questions across 2 sets
 
 
 ## Multiple Choice Questions (10 questions)
@@ -106,3 +106,157 @@ Which change occurs in both reactions?
 **Q10** [1 mark]
 
 Which diagram shows the structure and bond angle of a molecule of hydrazine, N<sub>2</sub>H<sub>4</sub>?
+
+## Structured Questions (5 questions)
+
+
+### Q1 — easy — 7 marks
+
+**Q1** [2 marks]
+
+Sulfur can form bonds with six fluorine atoms to form sulfur hexafluoride, SF<sub>6</sub>.
+
+i) State the number of electrons in the outer shell of the sulfur atom in SF<sub>6</sub>.
+
+[1]
+
+ii) State the reason why the sulfur atom is able to accommodate this number of electrons.
+
+[1]
+
+**Q1** [1 mark]
+
+State the shape of a molecule of SF<sub>6</sub>.
+
+**Q1** [1 mark]
+
+State the F-S-F bond angles in SF<sub>6</sub>.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+Sulfur can form bonds with six fluorine atoms to form sulfur hexafluoride, SF~6~.
+
+The shape of a molecule of SF~6~: Octahedral
+
+Sulfur has an electronegativity value of 2.58 and fluorine has an electronegativity value of 3.98.
+
+i) Deduce whether the S-F bond is polar.
+
+[1]
+
+ii) Deduce whether the SF<sub>6</sub> molecule is polar. Explain your answer.
+
+[2]
+
+### Q2 — medium — 10 marks
+
+**Q2** [3 marks]
+
+State the basic principles of the Valence Shell Electron Pair Repulsion (VSEPR) theory used to predict the shapes of molecules.
+
+**Q2** [3 marks]
+
+State the shape of, and the F-O-F bond angle in, a molecule of OF<sub>2</sub>. Explain your answer.
+
+**Q2** [4 marks]
+
+State the shape of, and the bond angle in, each of the following molecules.
+
+i) BF<sub>3</sub>
+
+[2]
+
+ii) NBr<sub>3</sub>
+
+[2]
+
+### Q3 — medium — 5 marks
+
+**Q3** [2 marks]
+
+The shapes of the molecules BH<sub>3</sub> and NH<sub>3</sub> are shown in Fig. 1.1.
+
+![Structural diagrams showing the trigonal planar shape of BH3 with 120° bond angles and the pyramidal shape of NH3.](assets/011-structural-diagrams-showing-the-trigonal-planar-.png)
+
+**Fig. 1.1**
+
+Explain why each bond angle in BH<sub>3</sub> is 120°.
+
+**Q3** [1 mark]
+
+**Extract:**
+
+The shapes of the molecules BH~3~ and NH~3~ are shown in Fig. 1.1.
+
+{align=center} **Fig. 1.1**
+
+State the H-N-H bond angle in a molecule of NH<sub>3</sub>.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+The shapes of the molecules BH~3~ and NH~3~ are shown in Fig. 1.1.
+
+The bond angle in BH~3~ is 120° because:
+- BH~3~ has 3 bonding pairs of electrons and no lone pairs
+- The bonding pairs repel each other equally and arrange as far apart as possible to minimise repulsion
+
+The H-N-H bond angle in NH~3~:
+- 107°
+
+Explain this difference in bond angles.
+
+### Q4 — hard — 13 marks
+
+**Q4** [2 marks]
+
+Methanamide, HCONH<sub>2</sub>, is the simplest aliphatic amide.
+
+Draw a dot-and-cross diagram to show the bonding in a molecule of methanamide.
+
+Show outer shell electrons only.
+
+**Q4** [6 marks]
+
+**Extract:**
+
+Methanamide, HCONH~2~, is the simplest aliphatic amide.
+
+State and explain the H-C-N and C-N-H bond angles around the C and N atoms in HCONH<sub>2</sub>.
+
+**Q4** [2 marks]
+
+State the shape around each of the C and N atoms in HCONH<sub>2</sub>.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+Methanamide, HCONH₂, is the simplest aliphatic amide.
+
+The shapes around C and N in HCONH₂:
+- Around C: trigonal planar
+- Around N: trigonal pyramidal / pyramidal
+
+State, with a reason, whether HCONH<sub>2</sub> is a polar molecule.
+
+### Q5 — medium — 8 marks
+
+**Q5** [5 marks]
+
+State and explain the H-C-H bond angle in ethene, C<sub>2</sub>H<sub>4</sub>, and the H-N-H bond angle in hydrazine, N<sub>2</sub>H<sub>4</sub>.
+
+**Q5** [2 marks]
+
+Hydrazine can be oxidised to form diimide, HN=NH.
+
+State the shape around each nitrogen atom in diimide and predict the H-N-N bond angle.
+
+**Q5** [1 mark]
+
+Hydrazine forms a cation with an ethane-like structure called hydrazinediium, N<sub>2</sub>H<sub>6</sub><sup>2+</sup>.
+
+Predict the H-N-H bond angle in the N<sub>2</sub>H<sub>6</sub><sup>2+</sup> cation.

@@ -1,0 +1,346 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:38:55Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "5-system-software-",
+  "name": "5. System Software"
+ },
+ "topic": {
+  "id": "top_4G83MkXcXcg3Nsgj",
+  "slug": "operating-systems",
+  "name": "Operating Systems",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "utility-software-",
+   "name": "Utility software",
+   "revision_note_id": "rn_tCTGNpJJ7Z6mNyV4"
+  },
+  {
+   "slug": "operating-system-fundamentals",
+   "name": "Operating System fundamentals",
+   "revision_note_id": "rn_DYP7r8xM89mB6zkJ"
+  },
+  {
+   "slug": "program-libraries",
+   "name": "Program libraries",
+   "revision_note_id": "rn_zmNM9QRRPr4XWgNk"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_rdHzZCXwQPJtKWfY",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/5-system-software-/operating-systems/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 8,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/1825_june-2024-9618-13-7e.png": "001-cartoon-robot-waiter-with-tray-shelves-stands-ne.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_fGkw3dHZFsTxpTMH",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_wvhtwzw3TXGchsZx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/23",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The program makes use of complex statistical functions. The required functions are not built-in to the programming language and are too complicated for the programmer to write.\n\nOne solution would be to employ another programmer who has experience of writing these functions, as there is no time to train the existing programmer.\n\nState **one other** way that these functions may be provided for inclusion in the program.",
+     "solution_md": "> **[mark-scheme]**\n> The use of a program <u>library </u>(routines)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V7VkVPrqvntTgJnG",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_gvBtCgNtyfkQxVqm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Qvb42C5bb4FRt58W"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has an Operating System (OS).\n\nState **one **purpose of the Operating System.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 1**)\n> \n> - To hide the complexities of the hardware from the user\n> - To provide a platform for software to run\n> - To provide a user interface"
+    },
+    {
+     "id": "qstnprt_52kWjxm4nvbG6K5d",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nvxrKjs25gBy5rv5"
+     ],
+     "part_tier": null,
+     "problem_md": "The Operating System has utility software.\n\nThe purpose of some utility software is to improve security.\n\nIdentify **one **example of utility software that is **not **intended to improve security.\n\nExplain why this software is needed.",
+     "solution_md": "**1 mark** for the name of the utility software\n\n**2 marks **for the explanation\n\n- Defragmentation software\n- … because over time saving and deleting of small files fragments the disk\n- ... the software makes (individual) files contiguous\n- … so access time to the files is improved\n- … because head movement is reduced\n- Disk contents analysis/disk repair software\n- … to identify and mark bad sectors\n- ... to restore corrupted files\n- ... to recover lost data (due to hardware failure)\n- File compression\n- … to reduce the size of files\n- ... which saves storage and memory space // by example\n- ... and reduces transmission time // by example\n- Disk formatter\n- … to prepare a disk for use // set up the file system\n- ... to partition the disc\n- ... to delete all the data from the disc"
+    }
+   ]
+  },
+  {
+   "id": "qstn_CwFRWFZ9xrs2MFPc",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_bRZsstnfBm3Hbwkj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 7,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "Robots are used to serve food and drink to customers at a restaurant.\n\n![Cartoon robot waiter with tray shelves stands near restaurant tables and chairs, prepared to serve or collect dishes.](assets/001-cartoon-robot-waiter-with-tray-shelves-stands-ne.png)\n\nProgram libraries were used when writing the robot’s software.\n\n(i) State what is meant by a program library.\n\n(1)\n\n(ii) Some program libraries include Dynamic Link Library (DLL) files.\n\nDescribe the benefits of a programmer using a library with DLL files instead of using a library that does not include DLL files.\n\n(4)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for:\n> \n> Pre-written code/functions/routines that can be **imported/called** in another program\n> \n> (ii) **1 mark** each to** max 4**:\n> \n> - Maintenance not needed to be done by the programmer\n> - ... because the DLL is separate from program\n> - The calling program does not need recompilation by the programmer when a DLL file changes\n> - ... because the DLL file can be updated independently of the calling program\n> - … updates will apply to all programs that use the DLL file"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cp5vc8qN5tvYCS2F",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_wGfCmsMmNxPwWnp9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The programmer uses program libraries when developing the program.\n\nDescribe **two **benefits to the programmer of using program libraries.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **each to **max 2**:\n> \n> - Saves programming/testing time as code does not have to be written/rewritten from scratch // code does not have to be tested\n> - Code is already tested so it is more robust/likely to work\n> - The programmer does not need to maintain the library // library routines are updated automatically\n> - Can perform complex calculations that the programmer may be unable to do\n> - Makes code more easily readable"
+    }
+   ]
+  },
+  {
+   "id": "qstn_8TV54mF3kRdk48wr",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_PJgtjWwN2pD58zJk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer has an Operating System (OS).\n\nMemory management and process management are two OS tasks.\n\nExplain how memory management **and** process management support multi-tasking.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 4**\n> \n> **Max 3** marks for each management task:\n> \n> *Memory management*: **Max 3 marks**\n> \n> - Stores data from all currently running programs concurrently in RAM\n> - Stops the data from overwriting each other in RAM/primary storage\n> - Decides which processes should be in main memory\n> - Makes efficient use of memory\n> \n> *Process management:**** *****Max 3 marks**\n> \n> - Allows one process to be paused whilst another process can be actioned\n> - Decides which process is to be run next\n> - Switches between processes to allow them to share the use of the processor\n> - Identification/description of scheduling"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SPZt8dcBHS5N4WGD",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_kkytgP87pZHYNS9C",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The programmers created a new program library whilst developing the program.\n\nDescribe the benefits to the programmers of creating a program library.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for each bullet point (max 3)\n> \n> e.g.\n> \n> - Subroutines can be shared / reused\n> - … between team members who are working independently\n> - … without having to rewrite/re-test them which saves the programmers’ time\n> - A program library provides continuity between programs/programmers\n> - Individual programmers can contribute their specialisms to the library // Individual programmers can use the specialisms of others"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Vj97KBzpJkjCYbH9",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_SPFrj26JTptHtbkk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer has an Operating System (OS). One of the key management tasks of the OS is process management.\n\nDescribe the process management tasks performed by an OS.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 4**)\n> \n> e.g.\n> \n> - It manages the scheduling of processes // Decides which process is to be run next\n> - Allows multi-tasking/multi-processing\n> - Ensures fair access\n> - Handles interrupts\n> - Manages / allocates which resources the processes require\n> - Facilitates the sharing and exchange of data between processes\n> - Prevents interference between processes // conflict resolution"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bnPPpn9r53wVNm8d",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_GkKMzgXGdsgrXwxB",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Qvb42C5bb4FRt58W",
+      "spcpt_nvxrKjs25gBy5rv5",
+      "spcpt_jkYK6w8Q6sPrtB2v"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses a laptop to write a program that is saved as a text file.\n\nThe laptop has utility software and an Operating System (OS).\n\n(i) Describe the file management tasks carried out by an OS.\n\n(2)\n\n(ii) Explain the need for back-up software.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for each bullet point (**max 2**)\n> \n> e.g.\n> \n> - Secondary storage space is divided into file allocation units\n> - Space on secondary storage is allocated to particular files\n> - Maintains/creates directory structures\n> - Specifies the logical method of file storage e.g. FAT or NTFS\n> - Provides file naming conventions\n> - Controls user access // implements access rights // implements password protection // Makes file sharing possible\n> - Controls access to the file by other software\n> - Specifies tasks that can be performed on a file e.g. open, close, delete, copy, create, move, etc\n> - Allows searching for a file\n> \n> (ii) **1 mark** for each bullet point (**max 2**)\n> \n> - To allow data to be retrieved / restored when lost\n> - To automatically make a duplicate copy of data…\n> - …so the user does not have to remember to backup data\n> - To make regular duplicate copies of data"
+    },
+    {
+     "id": "qstnprt_qSBGzPQvYqmJqypB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_g6TNRdCzR526mkHk"
+     ],
+     "part_tier": null,
+     "problem_md": "The student used a program library when writing their program.\n\nExplain the benefits to the student of using library files when writing a program.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for each bullet point (**max 3**)\n> \n> e.g.\n> \n> - It saves development time for the student\n> - … by using pre-written code\n> - There is less testing to do // the routines are more likely to work correctly\n> - … because they have already been tested and are error-free\n> - It results in a more robust program\n> - Subroutines can be used that they do not have the skill to write\n> - … which enables a more complex program to be written"
+    }
+   ]
+  }
+ ]
+}

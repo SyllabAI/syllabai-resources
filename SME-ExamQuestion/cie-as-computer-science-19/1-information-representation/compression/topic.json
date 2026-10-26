@@ -1,0 +1,337 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:37:31Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "1-information-representation",
+  "name": "1. Information representation"
+ },
+ "topic": {
+  "id": "top_kWckFBxfKvZs4xpy",
+  "slug": "compression",
+  "name": "Compression",
+  "order": 2
+ },
+ "subtopics": [
+  {
+   "slug": "compression-techniques",
+   "name": "Compression techniques",
+   "revision_note_id": "rn_tQ2RPdzSD7qDhMgZ"
+  },
+  {
+   "slug": "compression",
+   "name": "Compression",
+   "revision_note_id": "rn_yXms9PZTq9fDHnnF"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_pVVwqRhWCdnjsZGm",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/1-information-representation/compression/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/50326_q6a-9618-22-june-2023-cie-as-cs.png": "001-simple-black-curved-line-on-a-white-background-r.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_2Fxp8yJzkg6Np2pT",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_BVnp7XqJcBqqP8yk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx",
+      "spcpt_fmwRkQgR9K4kRNxC"
+     ],
+     "part_tier": null,
+     "problem_md": "Music is stored as a sequence of digital samples.\n\nEach digital sample is a denary value in the range 0 to 99999999 (8 digits).\n\nThe samples are to be stored in a text file. Each sample is converted to a numeric string and 32 samples are concatenated (joined) to form a single line of the text file.\n\nEach numeric string is 8 characters in length; leading ‘0’ characters are added as required.\n\nExample:\n\n| Sample | Denary value | String |\n|---|---|---|\n| 1 | `456` | `\"00000456\"` |\n| 2 | `48` | `\"00000048\"` |\n| 3 | `37652` | `\"00037652\"` |\n| ![Simple black curved line on a white background, resembling an abstract shape with one gentle bend at the midpoint, creating an S-like form.](assets/001-simple-black-curved-line-on-a-white-background-r.png) | ![Simple black curved line on a white background, resembling an abstract shape with one gentle bend at the midpoint, creating an S-like form.](assets/001-simple-black-curved-line-on-a-white-background-r.png) | ![Simple black curved line on a white background, resembling an abstract shape with one gentle bend at the midpoint, creating an S-like form.](assets/001-simple-black-curved-line-on-a-white-background-r.png) |\n| 32 | `673` | `\"00000673\"` |\n\nThe example samples will be stored in the text file as a single line:\n\n`\"000004560000004800037652...00000673\"`\n\n(i) Identify one drawback of adding leading ‘0’ characters to each numeric string.\n\n(1)\n\n(ii) Suggest an alternative method of storing the samples which does **not **involve adding leading ‘0’ characters but which would still allow each individual sample to be extracted.\n\n(1)\n\n(iii) State **one **drawback of the alternative method given in part **(b)(ii)**.\n\n(1)",
+     "solution_md": "(i) A (very) large **file **is created // redundant zeroes are stored in the file\n\n(ii) One mark for:\n\n- Values are delimited by a special character / a separator character\n- First character indicates **sample **length\n\n**Max 1 mark**\n\n(iii) The **algorithm **to **store **/ **extract / separate **the individual values is more complex / takes longer to execute / run / process\n\nNE Algorithm is more complicated"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZbwqNshrPGFxmJsW",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_ymrH6HgPtGYNwnFT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 5,
+      "question_part": "b(i)"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "The program is distributed by downloading the source code and its library files from a web server.\n\nExplain the reasons for compressing the files.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**).\n> \n> - To reduce the time it takes to download the program files from the web server // to upload them to the server in the first place\n> - To reduce the amount of storage space used on the web server // user’s device"
+    }
+   ]
+  },
+  {
+   "id": "qstn_6h2wMTstRmrqTy5n",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_vc49pFx2tBxQ8RKT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "A real-time video of a music concert needs to be streamed to subscribers.\n\nTick (✓) one box to identify the most appropriate type of compression and justify your answer.\n\n| Lossy | Lossless |\n|---|---|\n|   |   |",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 3**)\n> \n> Lossy compression (ticked)\n> \n> - Loss of quality will not be noticed\n> - Needs to be viewed in real time so less bandwidth needed if file size smaller\n> - Smaller file sizes will reduce buffering so the video will play more smoothly\n> - Viewers may watch on different devices, so may not need high quality resolution\n> \n> Lossless compression (ticked)\n> \n> - Original recording may not have been made in high resolution\n> - Could be streaming to high bandwidth devices\n> - The reduction in the file size is sufficient for the receiving device\n> - Viewers do not want any loss of quality"
+    }
+   ]
+  },
+  {
+   "id": "qstn_bS8JbvJGTDm3r6kJ",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_4Hw3s8fzZShYDHNR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why a bitmap image is often compressed before it is attached to an email.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> - Reduced bandwidth usage when transmitting the message\n> - Reduced transmission time from email client to email server\n> - Reduced storage space **on the email**\n> - Email accounts often have a maximum size for an attachment"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M796Cc8p6tvN3ggz",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_PtMdkXqmmqmXhZgv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "The photograph is compressed before being uploaded to a web server.\n\n(i) Give **three **benefits of this photograph being compressed using lossy compression instead of lossless compression.\n\n(3)\n\n(ii) Explain how run-length encoding (RLE) will compress the photograph.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** each to **max 3**:\n> \n> - The file takes less storage space on the web server than if lossless compression was used\n> - The file is faster to upload/download to/from the server than if lossless compression was used\n> - The file uses less bandwidth to transmit than if lossless compression was used\n> - The file consumes less data allowance than if lossless compression was used\n> \n> (ii) **1 mark **each:\n> \n> - Identifies **consecutive **repeating **pixels **of the same colour\n> - Stores the colour /pattern and the number of times it repeats"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Y6hjn4twFfpcCg3s",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_chz79RPNvbVKwV8C",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "d(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_jvdKMHxvtM9crtGx"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer can transmit a video made from bitmap images and vector graphic animations to the VR headset.\n\nThe bitmap video is not compressed before transmission to the VR headset.\n\nGive **two **reasons why the video does **not** need to be compressed.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - Dedicated connection to the headset // not sharing bandwidth\n> - Already fast connection that can transmit the data without slowing\n> - Video may already be a small file size and does not need further reduction\n> - Video is not saved so storage is not an issue in the headset"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vRNGqRGS6KfMYYD4",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6sjZGGQdbzp2F9j5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 6,
+      "question_part": "b(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_fmwRkQgR9K4kRNxC",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "The colour of each pixel in a bitmapped image is represented by 8 bits.\n\nA bitmap image can be compressed using lossy compression.\n\nExplain the reasons why lossy compression is often suitable for a bitmap image.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 2**)\n> \n> e.g.\n> \n> - The change may not be noticeable // Data removed is usually not noticed by the human eye\n> - … for example, changes in shade/detail\n> - It produces a larger decrease in file size compared to lossless // Lossy decreases file size considerably"
+    }
+   ]
+  },
+  {
+   "id": "qstn_WtWYdw2bGmfwpSHC",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_47sbdYKw78pF7FF3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "a(iii)"
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **one **lossless method of compressing an image.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for correct method\n> \n> For example:\n> \n> - Run-Length Encoding"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GVCQGc9tnQj3mdKP",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_Q3Gn9dYBgkdPBgM9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kPFqHZBnn5Wk2ztV",
+      "spcpt_jvdKMHxvtM9crtGx",
+      "spcpt_87TFdzgnwr8ybjNV"
+     ],
+     "part_tier": null,
+     "problem_md": "A student uses a laptop to write a program that is saved as a text file.\n\nThe student compresses the file before it is emailed to their teacher as an attachment.\n\n(i) Explain the benefits to the teacher of the attachment being a compressed file.\n\n(3)\n\n(ii) Describe **one **lossless method of compressing a text file.\n\n(3)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark **for each bullet point (**max 3**)\n> \n> e.g.\n> \n> - Less of the teacher’s storage space is used\n> - ... so more student work can be stored\n> - Transmission time is reduced\n> - … so the teacher does not have to wait as long for it to arrive\n> - Bandwidth usage is reduced\n> - … so other transmissions are not adversely affected\n> - Less data allowance is used on the teacher’s email system\n> \n> (ii) **1 mark** for each bullet point (**max 3**)\n> \n> - Run-Length Encoding // RLE\n> - Repeated sequences of the same characters are replaced by\n> - ... a single copy of the character\n> - ... and a count of the number of characters"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_g8sjd6PVPvy9XrKJ",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/2-communication-/networks-and-the-internet/network-topologies-",
+ "title": "Network topologies",
+ "page_title": "Network topologies | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "2-communication-",
+   "networks-and-the-internet",
+   "network-topologies-"
+  ],
+  "section": "2-communication-",
+  "topic": "networks-and-the-internet",
+  "leaf": "network-topologies-"
+ },
+ "titles": {
+  "section": "2. Communication",
+  "topic": "Networks & the Internet",
+  "subtopic": "Network topologies"
+ },
+ "updated_at": "2025-07-14T08:20:00.180Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_VHypZnvZQn7CxhFg",
+  "spcpt_dtwd7cH4W9hw9JZj",
+  "spcpt_YNMv32YVRTphK4Cd",
+  "spcpt_zgHfwBb7btTbZM3J"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 31,
+  "figures": 3,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a network topology?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A network topology is the **physical structure of the network**\n- It defines **how the network hardware will be arranged** to create the network\n- Topologies to understand for the exam are:\n\n  - **Star topology**\n  - **Bus topology**\n  - **Mesh topology**\n  - **Hybrid topology**"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_VHypZnvZQn7CxhFg",
+   "name": "Bus",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Bus"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a bus topology?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A bus topology is all** devices connected by one single ‘bus’ cable**, terminated at each end\n- The terminators** stop the signal bouncing back** and **causing errors**\n- A bus topology works by each device:\n\n  - **‘Listening’ **to electrical signals\n  - **Checking **data packets for their specific address\n  - **Ignoring **data packets it does not recognise\n- A bus topology has been replaced by much more **efficient network topologies** such as the **star topology**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/04/bus-topology.png",
+   "file": "assets/7dfba7dfd55f-bus-topology.png",
+   "alt": "Diagram of a bus network with five computer nodes connected in a line between two terminators, each node has a monitor and keyboard.",
+   "caption": ""
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Bus topology - advantages vs disadvantages"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| **Easy and cheap** to set up – only one cable is needed | **Low security** – data is visible to all devices |\n| **Does not rely** on other network hardware (e.g. central server or switch) | **Slow data transfer** – prone to data collisions |\n|   | If the cable breaks, the **whole network is affected** (central point of failure) |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_dtwd7cH4W9hw9JZj",
+   "name": "Star",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Star"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a star topology?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A star topology **has a central switch** which all other devices connect to\n- A switch is an i**ntelligent devic**e which **ensures that traffic only goes to the intended device**\n- A star topology is commonly seen in most **homes**, **businesses**, **organisations **and **schools**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/star-topology.png",
+   "file": "assets/dbed74dcdfe6-star-topology.png",
+   "alt": "Diagram of four computers with keyboards connected to a central server, illustrating a network configuration with dashed lines.",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- Traffic (packets) on a star topology is **handled differently depending on the device **used as the central node\n\n  - A **hub **will send traffic to all devices on the network, if the address in the packet matches a device it will be accepted, otherwise it is ignored\n  - A **switch **will only send traffic to devices on the network where the address in the packet is a match"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Star topology - advantages vs disadvantages"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| If **one cable fails**, the rest of the network still works | The **central switch is a single point of failure** |\n| A problem with **one device** (e.g. a school computer) won’t affect others | If the **switch stops working**, **all devices lose connection** to the network and its resources |\n| More **reliable** than other topologies like bus or ring | Can be **expensive** to install due to the switch and extra cabling (not mentioned but useful add-on) |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_YNMv32YVRTphK4Cd",
+   "name": "Mesh",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Mesh"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a mesh topology?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A mesh topology allows **all computers to be connected to all other computers**\n- This is known as a **full mesh** network topology\n- LANs can make use of mesh networks however, they are **more commonly seen in ***IoT* devices such as **wearable technology** and** smart home** devices"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2024/03/full-mesh.png",
+   "file": "assets/25e0398fb713-full-mesh.png",
+   "alt": "Four computers arranged in a square, connected by lines forming a mesh network, indicating full interconnectivity among the devices.",
+   "caption": ""
+  },
+  {
+   "type": "bullets",
+   "md": "- Traffic (packets) on a mesh topology can follow two different methods:\n\n  - **Routing **- devices are given routing logic (act like a router) to ensure packets are sent to the correct device in the shortest route\n  - **Flooding **- all packets are sent to all devices using no routing logic, this can lead to network flooding causing performance issues"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Mesh topology - advantages vs disadvantages"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| If **one cable fails**, the network still works – data can use an **alternate route** | Requires **lots of hardware, cables, and switches** |\n| Provides **high fault tolerance** – multiple paths for data to travel | **High cost** to set up due to the amount of equipment needed |\n| Very **reliable** – good for critical systems | **Hard to scale** – adding new devices is more complex than in a star topology |\n|   | A **partial mesh topology** is often used as a more practical and cost-effective alternative |"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_zgHfwBb7btTbZM3J",
+   "name": "Hybrid",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Hybrid"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is a hybrid topology?"
+  },
+  {
+   "type": "bullets",
+   "md": "- A hybrid topology is a** mix of two of more different** network topologies\n- For example, bus & star, star & mesh etc\n- A typical use of a hybrid topology would be when there is a **need to join different networks** together\n- Imagine a large education trust takes over three schools: **School A**, **School B**, and **School C**.\n\n  - **School A** uses a **bus topology** to connect classroom computers with a simple shared cable\n  - **School B** uses a **star topology** to link all devices to a central switch in the IT room\n  - **School C** uses a **mesh topology** to make sure every building (e.g. science block, library) stays connected, even if one cable fails\n- When the trust wants to connect all three schools into a single network, it uses a **hybrid topology**\n- This allows:\n\n  - Each school to **keep its own existing setup** (bus, star, or mesh)\n  - The schools to be **linked together efficiently**\n  - **Easy expansion**, such as adding a new school or admin office without changing everything\n  - The network to be more **flexible and reliable**, using the strengths of each topology"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Hybrid topology - advantages vs disadvantages"
+  },
+  {
+   "type": "table",
+   "md": "| **Advantages** | **Disadvantages** |\n|---|---|\n| **Combines** the strengths of multiple topologies (e.g. reliability of mesh, simplicity of bus) | **Complex to design** – needs careful planning to combine different topologies |\n| **Flexible **– different parts of the network can be optimised for different needs | **Expensive **– more hardware and maintenance may be needed |\n| **Scalable **– new segments (e.g. a new site or building) can be added without changing the whole setup | **Troubleshooting can be harder **– different parts use different systems and rules |\n| **Reliable **– failures in one part don’t necessarily affect the rest of the network |   |"
+  }
+ ]
+}

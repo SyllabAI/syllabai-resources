@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:39:07Z",
+ "generated_utc": "2026-10-26T13:58:10Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/",
@@ -41,6 +41,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_7ccFqWnSYbbcsGrX",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/4-electrochemistry/4-2-applications-of-electrolysis/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_9WjztPP6xNtkkFZ8",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -53,10 +65,24 @@
    "question_count": 21,
    "questions_embedded": 18,
    "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/4-electrochemistry/4-2-applications-of-electrolysis/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_R45J7GCMdJGkv66c",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 15,
+   "questions_embedded": 15,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/4-electrochemistry/4-2-applications-of-electrolysis/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 18,
+  "questions_embedded": 34,
   "questions_missing": [
    "qstn_Tw2VfZXnzhf8B7Bv",
    "qstn_tcx2hfvB28nFDhjm",
@@ -64,21 +90,110 @@
   ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/02/32554-paper-1-q13-image-1.png": "001-simple-diagram-of-an-electrochemical-cell-with-t.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/4-2-5e-electroplating-with-silver.png": "002-4-2-5e-electroplating-with-silver.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/ms1-4-2-cie-igcse-chemistry.png": "003-ms1-4-2-cie-igcse-chemistry.png",
-   "https://cdn.savemyexams.com/uploads/2022/09/4-2-q3-cie-igcse-mcq-electroplating-with-copper.png": "004-4-2-q3-cie-igcse-mcq-electroplating-with-copper.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q2-4-2-hard-cie-igcse-chemistry.png": "005-q2-4-2-hard-cie-igcse-chemistry.png",
-   "https://cdn.savemyexams.com/uploads/2022/09/4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon.png": "006-4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q3-4-2-medium-cie-igcse-chemistry.png": "007-q3-4-2-medium-cie-igcse-chemistry.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/q1-4-2-medium-cie-igcse-chem.png": "008-q1-4-2-medium-cie-igcse-chem.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/ms1-4-2-medium-cie-igcse-chemistry.png": "009-ms1-4-2-medium-cie-igcse-chemistry.png"
+   "https://cdn.savemyexams.com/uploads/2022/09/electroplating-spoon.png": "001-electroplating-spoon.png",
+   "https://cdn.savemyexams.com/uploads/2026/02/32554-paper-1-q13-image-1.png": "002-simple-diagram-of-an-electrochemical-cell-with-t.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/4-2-5e-electroplating-with-silver.png": "003-4-2-5e-electroplating-with-silver.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/ms1-4-2-cie-igcse-chemistry.png": "004-ms1-4-2-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/4-2-q3-cie-igcse-mcq-electroplating-with-copper.png": "005-4-2-q3-cie-igcse-mcq-electroplating-with-copper.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q2-4-2-hard-cie-igcse-chemistry.png": "006-q2-4-2-hard-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon.png": "007-4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q3-4-2-medium-cie-igcse-chemistry.png": "008-q3-4-2-medium-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/q1-4-2-medium-cie-igcse-chem.png": "009-q1-4-2-medium-cie-igcse-chem.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/ms1-4-2-medium-cie-igcse-chemistry.png": "010-ms1-4-2-medium-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/05/fuel-cell.png": "011-fuel-cell.png",
+   "https://cdn.savemyexams.com/uploads/2022/05/reaction-profile-v-to-z.png": "012-reaction-profile-v-to-z.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/electroplating-steel-2-.png": "013-electroplating-steel-2.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/hydrogen-fuel-cell.png": "014-hydrogen-fuel-cell.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/electroplating-parts.png": "015-electroplating-parts.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/electroplating-parts-answers.png": "016-electroplating-parts-answers.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/fTV0_z57_4-2-3b-e-electroplating-diagram-a.png": "017-ftv0-z57-4-2-3b-e-electroplating-diagram-a.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/electroplating-labels-answers.png": "018-electroplating-labels-answers.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/4-2-5a-h-food-tin-cans.png": "019-4-2-5a-h-food-tin-cans.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/4-2-5b-h-bulging-food-can.png": "020-4-2-5b-h-bulging-food-can.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/silver-plated-rose.png": "021-silver-plated-rose.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/electroplating-incorrect-diagram.png": "022-electroplating-incorrect-diagram.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/electroplating-spoon.png": "023-electroplating-spoon.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/2-4m-q2c-reaction-pathway-diagram.png": "024-2-4m-q2c-reaction-pathway-diagram.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/methanol-reaction-pathway.png": "025-methanol-reaction-pathway.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/CkgdjNgX_4-2-3b-h-incorrect-silver-plating-a-spoon.png": "026-ckgdjngx-4-2-3b-h-incorrect-silver-plating-a-spo.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/aqa-gcse-5-2e-tq3c-hydrogen-fuel-cell.png": "027-aqa-gcse-5-2e-tq3c-hydrogen-fuel-cell.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/4-2-4b-h-ring-dimensions.png": "028-4-2-4b-h-ring-dimensions.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/4-2-4d-h-electroplating-a-ring-a.png": "029-4-2-4d-h-electroplating-a-ring-a.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_jvv9CsKpWmHgkHFt",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_34zXGgsjBckvyCnz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2009",
+      "number": "6",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "A steel spoon can be coated in silver using electrolysis. The spoon must be very clean and free of grease.\n\n![electroplating-spoon](assets/001-electroplating-spoon.png)\n\nSuggest\n\ni) **one** advantage of putting a thin layer of silver on the spoon,\n\n[1]\n\nii) **one** disadvantage if the spoon is used frequently,\n\n[1]\n\niii) why the spoon must be very clean and free of grease?\n\n[1]",
+     "solution_md": "a)\n\ni) **One** advantage of putting a thin layer of silver on the spoon is:\n\n- Prevent rusting \n**OR** \ncorrosion / more attractive \n**OR** \nshiny / so it doesn’t oxidise; ** [1 mark]** \n*Not less reactive or answers about value *\n\nii) **One** disadvantage if the spoon is used frequently\n\n- Silver wears off / will need re-coating; ** [1 mark]** \n*Ignore references to rusting*\n\niii) The spoon must be very clean and free of grease:\n\n- So that silver can coat the spoon/stick to the spoon owtte; ** [1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_qwfmVk9M85gS9Mpq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": "2009",
+      "number": "6",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA steel spoon can be coated in silver using electrolysis. The spoon must be very clean and free of grease.\n\nWhich electrode should be the spoon?",
+     "solution_md": "b) The spoon should be the:\n\n- Negative electrode / cathode; ** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The anode is made from the pure metal you want to coat your object with, in this case silver *\n- *The cathode is the object to be plated, in this case the spoon*\n- *The electrolyte is an aqueous solution of a soluble salt of the pure metal at the anode *"
+    },
+    {
+     "id": "qstnprt_6Fcpq7RRmq8ZXNys",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2009",
+      "number": "6",
+      "question_number": 2,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA steel spoon can be coated in silver using electrolysis. The spoon must be very clean and free of grease.\n\nIdentify the metal from which the other electrode is made.",
+     "solution_md": "c) The other electrode should be made from:\n\n- Silver; ** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The anode is made from the pure metal you want to coat your object with, in this case silver *\n\n  - *Silver atoms at the anode will lose electrons to form silver ions in the solution*\n- *The cathode is the object to be plated, in this case the spoon*\n\n  - *The silver ions gain electrons at the cathode, forming silver atoms which deposit onto the spoon coating it with a layer of silver*"
+    }
+   ]
+  },
   {
    "id": "qstn_gGqGjdjbXNdW7bS6",
    "set_slug": "multiple-choice-questions",
@@ -156,7 +271,7 @@
       "spcpt_DvDPhGBPSVn82Y57"
      ],
      "part_tier": null,
-     "problem_md": "An iron tray is electroplated with pure silver to improve its appearance. The diagram shows the electrochemical cell with labels X, Y and Z.\n\n![Simple diagram of an electrochemical cell with two electrodes, labelled X and Y, immersed in solution Z, connected to a battery with positive and negative terminals.](assets/001-simple-diagram-of-an-electrochemical-cell-with-t.png)\n\nWhich row correctly identifies the half-equations occurring at electrodes X and Y, and the identity of electrolyte Z?\n\n|   | half-equation at X | half-equation at Y | electrolyte Z |\n|---|---|---|---|\n| **A** | Ag<sup>+ </sup>+ e<sup>− </sup>→ Ag | Ag → Ag<sup>+</sup>+ e<sup>−</sup> | aqueous silver nitrate |\n| **B** | Ag → Ag<sup>+</sup>+ e<sup>−</sup> | Ag<sup>+ </sup>+ e<sup>− </sup>→ Ag | aqueous silver nitrate |\n| **C** | Ag<sup>+ </sup>+ e<sup>− </sup>→ Ag | Fe<sup>2+ </sup>+ 2e<sup>− </sup>→ Fe | aqueous iron(II) nitrate |\n| **D** | Fe<sup>2+ </sup>+ 2e<sup>− </sup>→ Fe | Ag → Ag<sup>+</sup>+ e<sup>−</sup> | aqueous silver nitrate |",
+     "problem_md": "An iron tray is electroplated with pure silver to improve its appearance. The diagram shows the electrochemical cell with labels X, Y and Z.\n\n![Simple diagram of an electrochemical cell with two electrodes, labelled X and Y, immersed in solution Z, connected to a battery with positive and negative terminals.](assets/002-simple-diagram-of-an-electrochemical-cell-with-t.png)\n\nWhich row correctly identifies the half-equations occurring at electrodes X and Y, and the identity of electrolyte Z?\n\n|   | half-equation at X | half-equation at Y | electrolyte Z |\n|---|---|---|---|\n| **A** | Ag<sup>+ </sup>+ e<sup>− </sup>→ Ag | Ag → Ag<sup>+</sup>+ e<sup>−</sup> | aqueous silver nitrate |\n| **B** | Ag → Ag<sup>+</sup>+ e<sup>−</sup> | Ag<sup>+ </sup>+ e<sup>− </sup>→ Ag | aqueous silver nitrate |\n| **C** | Ag<sup>+ </sup>+ e<sup>− </sup>→ Ag | Fe<sup>2+ </sup>+ 2e<sup>− </sup>→ Fe | aqueous iron(II) nitrate |\n| **D** | Fe<sup>2+ </sup>+ 2e<sup>− </sup>→ Fe | Ag → Ag<sup>+</sup>+ e<sup>−</sup> | aqueous silver nitrate |",
      "solution_md": "**Final answer:** **The correct answer is A**\n\n- **Electrolyte Z:**\n\n  - For electroplating, the electrolyte must be a soluble salt of the metal being plated onto the object\n  - Since the tray is being plated with silver, the electrolyte must contain silver ions (Ag<sup>+</sup>)\n  - Aqueous silver nitrate is a soluble silver salt.\n- **At electrode X (negative electrode / cathode):**\n\n  - The object to be plated (the iron tray) must always be placed at the cathode\n  - Here, positive silver ions from the electrolyte are attracted to the negative electrode\n  - They are reduced at the electrode where they gain electrons and deposit as solid silver\n  - The half-equation is:\n  \n    - Ag<sup>+ </sup>+ e<sup>− </sup>→ Ag (Reduction)\n- **At electrode Y (positive electrode / anode):**\n\n  - The pure plating metal (silver) must be placed at the anode\n  - The silver atoms lose electrons (oxidized) to continually replace the silver ions in the electrolyte\n  - The half-equation is:\n  \n    - Ag → Ag<sup>+</sup>+ e<sup>−</sup> (Oxidation).\n\n**B **is incorrect as the half equations are swapped\n\n**C **is incorrect as uses iron(II) nitrate as the electrolyte\n\n**D** is incorrect as at X (cathode), silver ions should be reduced to form a silver coating, not  iron ions. The half-equation Fe²⁺ + 2e⁻ → Fe would deposit iron, not silver.\n\n> **[exam-tip]**\n> In electroplating questions, examiners often use a **3-column table** to test whether you understand the entire setup, not just half-equations.\n> \n> A common trap is choosing an option that has correct half-equations but places the **object to be plated at the anode**.\n> \n> Remember the fundamental rule: the object being coated must always be the **cathode (negative electrode)**.",
      "choices": [
       {
@@ -207,7 +322,7 @@
       "spcpt_k7wqYwV7VMxjMXyg"
      ],
      "part_tier": null,
-     "problem_md": "An iron tray is electroplated with pure silver to improve its appearance. The diagram shows the electrochemical cell with labels X, Y and Z.\n\n![Simple diagram of an electrochemical cell with two electrodes, labelled X and Y, immersed in solution Z, connected to a battery with positive and negative terminals.](assets/001-simple-diagram-of-an-electrochemical-cell-with-t.png)\n\nWhich row correctly identifies X, Y, and the electrolyte Z?\n\n|   | Electrode X (at the negative terminal) | Electrode Y (at the positive terminal) | Electrolyte Z |\n|---|---|---|---|\n| **A** | Pure silver | Iron tray | Silver nitrate |\n| **B** | Pure silver | Iron tray | Iron (II) chloride |\n| **C** | Iron tray | Pure silver | Silver nitrate |\n| **D** | Iron tray | Pure silver | Silver chloride |",
+     "problem_md": "An iron tray is electroplated with pure silver to improve its appearance. The diagram shows the electrochemical cell with labels X, Y and Z.\n\n![Simple diagram of an electrochemical cell with two electrodes, labelled X and Y, immersed in solution Z, connected to a battery with positive and negative terminals.](assets/002-simple-diagram-of-an-electrochemical-cell-with-t.png)\n\nWhich row correctly identifies X, Y, and the electrolyte Z?\n\n|   | Electrode X (at the negative terminal) | Electrode Y (at the positive terminal) | Electrolyte Z |\n|---|---|---|---|\n| **A** | Pure silver | Iron tray | Silver nitrate |\n| **B** | Pure silver | Iron tray | Iron (II) chloride |\n| **C** | Iron tray | Pure silver | Silver nitrate |\n| **D** | Iron tray | Pure silver | Silver chloride |",
      "solution_md": "**Final answer:** **The correct answer is C**\n\n- **Electrode X (Cathode):** This is connected to the **negative terminal**\n\n  - In electroplating, the **object to be coated** (the iron tray) must be the cathode so that positive metal ions are attracted to it\n- **Electrode Y (Anode):** This is connected to the **positive terminal**\n\n  - The anode must be made of the **pure metal** you are using for the coating (silver)\n  - As the reaction proceeds, the silver anode dissolves to replace the silver ions in the solution\n- **Electrolyte Z:** This must be a **soluble salt** of the plating metal\n\n  - **Silver nitrate** is the standard choice\n  - Silver chloride (**Choice D**) is incorrect because it is insoluble and will not conduct electricity in this setup",
      "choices": [
       {
@@ -258,7 +373,7 @@
       "spcpt_k7wqYwV7VMxjMXyg"
      ],
      "part_tier": null,
-     "problem_md": "#### Separate: Chemistry Only\n\nA student sets up the following equipment to investigate electroplating.\n\n![4-2-5e-electroplating-with-silver](assets/002-4-2-5e-electroplating-with-silver.png)\n\nWhat would they see occur during the electroplating process?",
+     "problem_md": "#### Separate: Chemistry Only\n\nA student sets up the following equipment to investigate electroplating.\n\n![4-2-5e-electroplating-with-silver](assets/003-4-2-5e-electroplating-with-silver.png)\n\nWhat would they see occur during the electroplating process?",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- The cathode is the negative electrode, which is the copper rod\n- Silver ions in solution are attracted to the cathode where they gain electrons, forming silver atoms:\n\n  - Ag<sup>+</sup> + e<sup>–</sup> → Ag\n- These deposit on the surface of the copper rod, causing it to be coated in a layer of silver\n\n**A** is incorrect as at the anode, silver atoms lose electrons to form silver ions\n\n**C** is incorrect as at the cathode, silver atoms are deposited, not copper atoms\n\n**D **is incorrect as the cathode becomes covered in a silver coating",
      "choices": [
       {
@@ -310,7 +425,7 @@
      ],
      "part_tier": null,
      "problem_md": "Which metal could **not** be used for electroplating by using an aqueous solution?",
-     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n![ms1-4-2-cie-igcse-chemistry](assets/003-ms1-4-2-cie-igcse-chemistry.png)\n\n- In electrolysis of aqueous solutions only one type of ion can be discharged at each electrode.\n- The H<sup>+</sup> and OH<sup>-</sup> ions produced by the dissociation of water in aqueous solutions compete with the other ions in solution.\n- **At the cathode**, the** more reactive** a metal is the **more it tends to remain as ions** in solution.\n- For electroplating to take place, the metal which is being used as the **coating** must be **unreactive.**\n- Sodium could not be used for this purpose as it is too reactive.\n\n**A, B** and **C **are incorrect as they could all be used as these metals are unreactive and are commonly used for electroplating.",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n![ms1-4-2-cie-igcse-chemistry](assets/004-ms1-4-2-cie-igcse-chemistry.png)\n\n- In electrolysis of aqueous solutions only one type of ion can be discharged at each electrode.\n- The H<sup>+</sup> and OH<sup>-</sup> ions produced by the dissociation of water in aqueous solutions compete with the other ions in solution.\n- **At the cathode**, the** more reactive** a metal is the **more it tends to remain as ions** in solution.\n- For electroplating to take place, the metal which is being used as the **coating** must be **unreactive.**\n- Sodium could not be used for this purpose as it is too reactive.\n\n**A, B** and **C **are incorrect as they could all be used as these metals are unreactive and are commonly used for electroplating.",
      "choices": [
       {
        "label": "A",
@@ -514,7 +629,7 @@
       "spcpt_k7wqYwV7VMxjMXyg"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows an electrolysis experiment using X and Y as electrodes.\n\n![4-2-q3-cie-igcse-mcq-electroplating-with-copper](assets/004-4-2-q3-cie-igcse-mcq-electroplating-with-copper.png)\n\nCopper is used to coat the other metal.\n\nWhich metal becomes coated and which solution is used?\n\n|   | **aqueous solution** | **metal** |\n|---|---|---|\n| **A** | CoCl<sub>3</sub> | Y |\n| **B** | CuCl<sub>2</sub> | Y |\n| **C** | CuCl<sub>2</sub> | X |\n| **D** | CoCl<sub>3</sub> | X |",
+     "problem_md": "The diagram shows an electrolysis experiment using X and Y as electrodes.\n\n![4-2-q3-cie-igcse-mcq-electroplating-with-copper](assets/005-4-2-q3-cie-igcse-mcq-electroplating-with-copper.png)\n\nCopper is used to coat the other metal.\n\nWhich metal becomes coated and which solution is used?\n\n|   | **aqueous solution** | **metal** |\n|---|---|---|\n| **A** | CoCl<sub>3</sub> | Y |\n| **B** | CuCl<sub>2</sub> | Y |\n| **C** | CuCl<sub>2</sub> | X |\n| **D** | CoCl<sub>3</sub> | X |",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- The electrolyte is always an aqueous solution of a soluble salt of the metal being used to coat the other metal\n- In this case we are coating a metal in copper so the electrolyte will be a copper salt, which eliminates A and D\n- During electroplating, the anode is always the metal you are coating with and the cathode is the metal being coated\n- This is because positive metal ions in the solution (in this case copper) will be attracted towards to cathode and coat the metal\n- Metal Y is the cathode as it is connected to the negative terminal and so this is the one being coated\n\n**A** and **D** are incorrect as this is not the correct electrolyte\n\n**C** is incorrect as metal X would act as the copper anode and is the metal coating the other metal",
      "choices": [
       {
@@ -565,7 +680,7 @@
       "spcpt_k7wqYwV7VMxjMXyg"
      ],
      "part_tier": null,
-     "problem_md": "Winston Churchill, a British Prime Minister, had his false teeth electroplated with gold.\n\nThe teeth were coated with a thin layer of carbon and were then placed in the apparatus shown.\n\n![q2-4-2-hard-cie-igcse-chemistry](assets/005-q2-4-2-hard-cie-igcse-chemistry.png)\n\n|   | **terminal X is** | **the carbon powder could be** |\n|---|---|---|\n| **A** | negative | diamond |\n| **B** | negative | graphite |\n| **C** | positive | diamond |\n| **D** | positive | graphite |",
+     "problem_md": "Winston Churchill, a British Prime Minister, had his false teeth electroplated with gold.\n\nThe teeth were coated with a thin layer of carbon and were then placed in the apparatus shown.\n\n![q2-4-2-hard-cie-igcse-chemistry](assets/006-q2-4-2-hard-cie-igcse-chemistry.png)\n\n|   | **terminal X is** | **the carbon powder could be** |\n|---|---|---|\n| **A** | negative | diamond |\n| **B** | negative | graphite |\n| **C** | positive | diamond |\n| **D** | positive | graphite |",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- In electroplating, the **anode** is always the metal that is being used to coat the other metal.\n- Coating occurs as the **positive** **metal** **ions** are attracted to the object to be coated which is the **negatively** **charged** **cathode**.\n- The object to be coated is thus the cathode which attracts the positive metal ions.\n- In the diagram terminal X is therefore negative.\n- The carbon powder must be graphite as it conducts electricity due to the free  electrons in between the layers of carbon atoms.\n\n**A **is incorrect as diamond is a hard substance which does not conduct electricity.\n\n**C** and **D **are incorrect as terminal X is negative, not positive.",
      "choices": [
       {
@@ -616,7 +731,7 @@
       "spcpt_k7wqYwV7VMxjMXyg"
      ],
      "part_tier": null,
-     "problem_md": "The following apparatus for plating a spoon with silver is shown.\n\n![4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon](assets/006-4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon.png)\n\nWhich statements are correct?\n\n1  The metal electrode would be connected to the negative terminal of the power supply\n\n2  The spoon would be connected to the negative terminal of the power supply\n\n3  At the cathode, silver ions lose electrons to form silver atoms\n\n4  At the anode, silver atoms lose electrons to form silver ions",
+     "problem_md": "The following apparatus for plating a spoon with silver is shown.\n\n![4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon](assets/007-4-2-q5-cie-igcse-mcq-electroplating-of-a-spoon.png)\n\nWhich statements are correct?\n\n1  The metal electrode would be connected to the negative terminal of the power supply\n\n2  The spoon would be connected to the negative terminal of the power supply\n\n3  At the cathode, silver ions lose electrons to form silver atoms\n\n4  At the anode, silver atoms lose electrons to form silver ions",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- Positive silver metal ions in the solution will be attracted to the cathode\n- The metal being coated is therefore used as the cathode and connected to the negative terminal\n- Silver would be used as the anode\n- During electrolysis, the silver atoms at the anode will lose electrons to form ions which will go into the solution\n- They will be attracted to the cathode where they will gain electrons to form silver atoms which are deposited on the spoon coating it\n\n**A **is incorrect as 4 is also correct\n\n**B** is incorrect as the metal electrode would be connected to the positive terminal\n\n**D** is incorrect as the metal electrode would be connected to the positive terminal and at the cathode, silver ions gain, not lose electrons to form atoms",
      "choices": [
       {
@@ -770,7 +885,7 @@
       "spcpt_DvDPhGBPSVn82Y57"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a simple cell.\n\n![q3-4-2-medium-cie-igcse-chemistry](assets/007-q3-4-2-medium-cie-igcse-chemistry.png)\n\nWhich statement about the process occurring when the cell is in operation is correct?",
+     "problem_md": "The diagram shows a simple cell.\n\n![q3-4-2-medium-cie-igcse-chemistry](assets/008-q3-4-2-medium-cie-igcse-chemistry.png)\n\nWhich statement about the process occurring when the cell is in operation is correct?",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- Zinc is a more reactive metal than copper, therefore, zinc is more likely to lose  electrons than copper.\n- Zinc is at the anode and undergoes loss of electrons (oxidation), liberating two  electrons into solution.\n- Copper ions in solution will gain two electrons at the cathode (reduction) to form  copper metal.\n\n**A **is incorrect as Cu<sup>2+</sup> ions are formed at the anode.\n\n**B **is incorrect as electrons travel through the electrodes and the wires, ions travel through the solution.\n\n**D **is incorrect as reduction (electron gain) occurs at the cathode, therefore the cathode increases in mass. In this case zinc is the anode, so this electrode decreases in mass.",
      "choices": [
       {
@@ -821,8 +936,8 @@
       "spcpt_k7wqYwV7VMxjMXyg"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows a failed attempt to copper-plate a pan.\n\n![q1-4-2-medium-cie-igcse-chem](assets/008-q1-4-2-medium-cie-igcse-chem.png)\n\nWhich can be done to plate the pan with copper?",
-     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Copper is a metal and forms positive cations in solution.\n- The cathode is the negative electrode and attracts the positive cations.\n- Switching the pan to the cathode will attract the copper cations and plate the pan with copper.\n\n![ms1-4-2-medium-cie-igcse-chemistry](assets/009-ms1-4-2-medium-cie-igcse-chemistry.png)\n\n**A, B** and **C **are incorrect as the problem is that the cathode and the anode are the wrong way around meaning there is no flow of ions. Changing the voltage or temperature of the solution would only change the rate of the reaction, if there were any.",
+     "problem_md": "The diagram shows a failed attempt to copper-plate a pan.\n\n![q1-4-2-medium-cie-igcse-chem](assets/009-q1-4-2-medium-cie-igcse-chem.png)\n\nWhich can be done to plate the pan with copper?",
+     "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Copper is a metal and forms positive cations in solution.\n- The cathode is the negative electrode and attracts the positive cations.\n- Switching the pan to the cathode will attract the copper cations and plate the pan with copper.\n\n![ms1-4-2-medium-cie-igcse-chemistry](assets/010-ms1-4-2-medium-cie-igcse-chemistry.png)\n\n**A, B** and **C **are incorrect as the problem is that the cathode and the anode are the wrong way around meaning there is no flow of ions. Changing the voltage or temperature of the solution would only change the rate of the reaction, if there were any.",
      "choices": [
       {
        "label": "A",
@@ -998,6 +1113,1224 @@
        "text_md": "They produce oxides of nitrogen."
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_zRHqGKBkCwZq9PnG",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_CqkjZXpQf5qkw6KT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK",
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram below shows a fuel cell.\n\n![fuel-cell](assets/011-fuel-cell.png)\n\nHydrogen can be used as the fuel.\n\nComplete the balanced symbol equation for the reaction that occurs in a hydrogen fuel cell.\n\n___ H<sub>2</sub>   +   O<sub>2</sub>   →   ___ H<sub>2</sub>O",
+     "solution_md": "a) The balanced symbol equation is:\n\n2H<sub>2</sub>   +   O<sub>2</sub>   →   2H<sub>2</sub>O\n\n- 2H<sub>2</sub>   \n**AND**\n2H<sub>2</sub>O; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *To balance the equation, the same number of atoms of each element must be the same either side of the reaction*\n- *Balance the oxygen atoms first, there are 2 oxygen atoms on the left-hand side of the unbalanced equation, but 1 on the right-hand side, to balance put a 2 in front of H*<sub>*2*</sub>*O:*\n\n  - *H*<sub>*2*</sub>*   +   O*<sub>*2*</sub>*   →   **2**H*<sub>*2*</sub>*O*\n- *Now there are 4 H atoms on the right, so to balance, put a 2 in front of H*<sub>*2*</sub>*:*\n\n  - *2**H*<sub>*2*</sub>*   +   O*<sub>*2*</sub>*   →   2H*<sub>*2*</sub>*O*\n- *Both numbers must be correct to gain the mark*"
+    },
+    {
+     "id": "qstnprt_DCP8XRTnBf7yb4jj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK",
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe graph below shows the reaction pathway diagram for the reaction of hydrogen and water in a hydrogen fuel cell.\n\n![reaction-profile-v-to-z](assets/012-reaction-profile-v-to-z.png)\n\nWhich of the labels represents hydrogen and oxygen?  Tick **one **box.\n\n| **V** |   |\n|---|---|\n|   |   |\n| **W** |   |\n|   |   |\n| **X** |   |\n|   |   |\n| **Y** |   |\n|   |   |\n| **Z** |   |",
+     "solution_md": "b) The label that represents hydrogen and oxygen is:\n\n- V;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Hydrogen and oxygen are the reactants in this reaction*\n- *The reactants are shown by label **V*"
+    },
+    {
+     "id": "qstnprt_TcXjH38hnd8vxnBQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK",
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe graph below shows the reaction pathway diagram for the reaction of hydrogen and water in a hydrogen fuel cell. Which of the labels represents hydrogen and oxygen? Tick one box. V, W, X, Y, Z\n\n#### Extended Only\n\nWhich of the labels in the reaction pathway diagram in part (b) represents water?  Tick **one **box.\n\n| **V** |   |\n|---|---|\n|   |   |\n| **W** |   |\n|   |   |\n| **X** |   |\n|   |   |\n| **Y** |   |\n|   |   |\n| **Z** |   |",
+     "solution_md": "c) The label that represents water is:\n\n- Y; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Water is the product of the reaction*\n- *Label **Y** represents the products*\n- *The remaining labels on the reaction profile are used to represent the following:*\n\n  - *W** - activation energy of the reaction*\n  - *X** - the overall enthalpy change of the reaction*\n  - *Z** - the energy released when new bonds are formed *"
+    },
+    {
+     "id": "qstnprt_6MSBww33NfJGzf9N",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pfj5hd8K9tr6sZn5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe first vehicle powered by a hydrogen fuel cell was built in 1966 by General Motors. It could travel at up to 70 mph in 30 seconds.\n\nSuggest **two** disadvantages of using a hydrogen fuel cell in a car.",
+     "solution_md": "d) A disadvantage of using hydrogen fuel cells in cars is:\n\n**Final answer:** **Any ****two ****from the following:**\n\n- Hydrogen filling stations are not widely available; **[1 mark]**\n- Hydrogen takes up a lot of space \n**OR** \nIt is difficult to store;** [1 mark]**\n- Hydrogen can be highly flammable / explosive;** [1 mark]**\n- Hydrogen is often made from fossil fuels so it is not renewable;** [1 mark]**\n- Fuel cells are expensive to manufacture; **[1 mark]**\n- Fuel cells are less efficient at low temperatures; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The biggest disadvantages of hydrogen fuel cells come from the use of hydrogen as a fuel*\n- *Hydrogen is more difficult and expensive to store compared to petrol as it is very flammable and easily explodes when under pressure *\n- *Hydrogen is often obtained by methods that involve the combustion of fossil fuels, therefore releasing carbon dioxide and other pollutants into the atmosphere*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YwDrTv6b5H3fnt9C",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_rHS6RxNw8k8mSTqc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "predict",
+     "source_paper": {
+      "date": "2010",
+      "number": "O23",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jxPK72xT9PSVKKw6"
+     ],
+     "part_tier": null,
+     "problem_md": "Chromium is a transition element.\n\ni) Predict **two **differences in the physical properties of chromium and sodium.\n\n[2]\n\nii) Predict **two **differences in the chemical properties of chromium and sodium.\n\n[2]",
+     "solution_md": "a)\n\ni) **Two **differences in the physical properties of chromium and sodium are:\n\nAny **two** from:\n\n- Chromium is harder; **[1 mark]**\n- Chromium has a higher density; **[1 mark]**\n- Chromium has a higher melting / boiling point; **[1 mark]**\n- Chromium is stronger; **[1 mark]** *The answer must be a comparison*\n\nii) **Two **differences in the chemical properties of chromium and sodium are:\n\nAny **two **from:\n\n- Chromium is less reactive than sodium; **[1 mark]**\n- Chromium forms coloured compounds \n**AND **\nSodium does not form coloured compounds; **[1 mark]**\n- Chromium does not react with cold water \n**AND **\nSodium reacts with cold water; **[1 mark]**\n- Chromium forms complex ions \n**AND **\nSodium does not form complex ions; **[1 mark]** *The answer must be a comparison*\n\n**[Total: 4 marks]**\n\n- *Make sure that you can identify which differences are chemical and which are physical *\n- *It is a common question to ask how the properties of transition metals differ from other metals *"
+    },
+    {
+     "id": "qstnprt_MdrMZ783S8q3DrvD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "O23",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SQ73kHsS4dxX6WDb",
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "Chromium is used to electroplate steel objects. The diagram shows how this could be done.\n\n![electroplating-steel-2-](assets/013-electroplating-steel-2.png)\n\ni) Give **two **reasons why steel objects are plated with chromium.\n\n[2]\n\nii) The formula of the chromium(III) ion is Cr<sup>3+</sup> and of the sulfate ion is SO<sub>4</sub><sup>2–</sup>. Give the formula of chromium(III) sulfate.\n\n[1]\n\niii) Write the equation for the reaction at the negative electrode (cathode).\n\n[2]\n\niv) A colourless gas, which relights a glowing splint, is formed at the positive electrode (anode). Name this gas.\n\n[1]\n\nv) During electrolysis, it is necessary to add more chromium(III) sulfate but during copper-plating using a copper anode, it is not necessary to add more copper(II) sulfate. Explain.\n\n[2]",
+     "solution_md": "b)\n\ni) **Two **reasons why steel objects are plated with chromium are:\n\nAny **two** from:\n\n- Improve appearance / shiny / more attractive / decoration;** [1 mark]**\n- Resist corrosion / rusting; ** [1 mark]**\n- Hard surface; ** [1 mark]**\n\nii)  The formula of chromium(III) sulfate is:\n\n- Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>; ** [1 mark] ***Ignore charges on ions*\n\niii) The equation for the reaction at the negative electrode (cathode) is:\n\nCr<sup>3+</sup> + 3e<sup>-</sup> → Cr\n\n- Correct species; **[1 mark]**\n- Correctly balanced;** [1 mark]**\n\niv) A colourless gas, which relights a glowing splint is:\n\n- Oxygen: **[1 mark]**\n\nv) It is necessary to add more chromium(III) sulfate but during copper-plating using a copper anode, it is not necessary to add more copper(II) sulfate:\n\n- To replace the chromium ions \n**OR** \nBecause chromium sulfate is used up; **[1 mark]**\n- Copper ions are replaced from copper anode  \n**OR** \nThe solution of copper sulfate does not change; **[1 mark]**\n\n**[Total: 8 marks]**\n\n- * To cancel out the charges, there needs to be two Cr*<sup>*3+ *</sup>*ions and three SO*<sub>*4*</sub><sup>*2–*</sup>* ions*\n- *For part (v), you can extract the answer to this question from the information given to you*\n\n  - *In the electrolysis of chromium sulfate, the diagram shows a lead anode as being used*\n  - *In the question, in the electrolysis of copper (II) sulfate, you are told a copper anode is used *\n  - *Therefore, you will not have the anode providing the chromium ions and need to replace them another way*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ysBBY2zJd79M8msz",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Q6TPy7Gyb6tKC7NP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2015",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZbbnBBCMqtS3vmSK",
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "A fuel cell produces electrical energy by the oxidation of a fuel by oxygen. The fuel is usually hydrogen but methane and methanol are two other fuels which may be used. A diagram of a hydrogen fuel cell is given below.\n\n![hydrogen-fuel-cell](assets/014-hydrogen-fuel-cell.png)\n\nWhen the fuel is hydrogen, the only product is water.\n\nWhat additional product would be formed if methane was used?",
+     "solution_md": "a) The additional product would be:\n\n- Carbon dioxide / CO<sub>2</sub>;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Methane contains carbon atoms which would be oxidised during the oxidation of a fuel to form carbon dioxide *\n- *The equation would be:*\n\n  - *methane + oxygen → water + carbon dioxide*\n  - *CH*<sub>*4 *</sub>*+  2O*<sub>*2*</sub>* →   2H*<sub>*2*</sub>*O +  CO*<sub>*2*</sub>\n- *Using methanol would also produce carbon dioxide and water*"
+    },
+    {
+     "id": "qstnprt_JV2tRgmDFvFWFcN7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2014",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA fuel cell produces electrical energy by the oxidation of a fuel by oxygen. The fuel is usually hydrogen but methane and methanol are two other fuels which may be used. When the fuel is hydrogen, the only product is water.\n\nWrite the symbol equation for the chemical reaction that takes place in a hydrogen fuel cell.",
+     "solution_md": "b) The equation that takes place is:\n\n- 2H<sub>2 </sub>+ O<sub>2</sub> → 2H<sub>2</sub>O;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The only product from a hydrogen fuel cell is water and thus has no polluting effects when used *"
+    },
+    {
+     "id": "qstnprt_7dKH7R8Nzr4byyhn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2014",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pfj5hd8K9tr6sZn5"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA fuel cell produces electrical energy by the oxidation of a fuel by oxygen. The fuel is usually hydrogen but methane and methanol are two other fuels which may be used. When the fuel is hydrogen, the only product is water.\n2H~2 ~+ O~2~ → 2H~2~O\n\n#### Extended Only\n\nFuel cells are used to propel cars. Give **two **advantages of a fuel cell over a gasoline-fuelled engine.",
+     "solution_md": "c) Two advantages of fuel cells over a gasoline fuelled engine are:\n\nAny **two** from:\n\n- Lightweight; **[1 mark]**\n- Quieter; **[1 mark]**\n- Fewer working parts/less maintenance; **[1 mark]**\n- More efficient or less energy wasted or more energy produced; **[1 mark]**\n- Conserves a limited resource/petroleum/fossil fuels; **[1 mark]**\n- Unlimited supplies of renewable resource(of hydrogen from water); **[1 mark]**\n- No or less greenhouse effect; **[1 mark]**\n- No or less acid rain; **[1 mark]**\n- No or less toxic gases; **[1 mark]**\n- No or less smog; **[1 mark]**\n- No or less C/soot; **[1 mark]**\n- No or less CO<sub>2</sub>; **[1 mark]**\n- No or less CO; **[1 mark]**\n- No or less SO<sub>2</sub>; **[1 mark]**\n- No or less oxides of nitrogen/NO/NO<sub>2</sub>/N<sub>2</sub>O<sub>4</sub>/NOx; **[1 mark]**\n- No or less (unburnt) hydrocarbons; **[1 mark]**\n- No or less low level ozone; **[1 mark]**\n- H<sub>2</sub>O is the only product; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Gasoline fuelled engines will contain fuel that has elements such as carbon and sulfur in*\n- *These elements will undergo combustion, forming carbon dioxide which causes global warming and sulfur dioxide  which causes acid rain*\n- *The high temperatures in a combustion engine also cause nitrogen to react with oxygen, forming oxides of nitrogen which also causes acid rain*\n- *Unburnt hydrocarbons can cause global dimming *\n- *As seen in part b) the only product is water which has no harmful environmental effects *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_y7HDzbryYxMF9NPg",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_2csJcMcg5spJRntH",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "match",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Chemistry Only\n\nA student wanted to use electrolysis to electroplate an object with nickel.\n\nMatch the part of the apparatus used for electroplating on the left with its correct identity on the right.\n\n![electroplating-parts](assets/015-electroplating-parts.png)",
+     "solution_md": "a) The correct pairs are:\n\n![electroplating-parts-answers](assets/016-electroplating-parts-answers.png)\n\n- Cathode - object to be plated; **[1 mark]**\n- Electrolyte - nickel ions; **[1 mark]**\n- Anode - nickel metal; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Make sure you know what is used for each part of the electroplating process*\n\n  - *The cathode is always the object that is to be plated*\n  - *The anode is always made of the metal that is used to coat the object with*\n  - *The electrolyte always contains the metal ions of the metal that is used to coat the object with*"
+    },
+    {
+     "id": "qstnprt_dW7VbW7dvMD5SSbK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student wanted to use electrolysis to electroplate an object with nickel.\n\n#### Chemistry Only\n\nWhich of the following equations shows the correct half-equation for the reaction that occurs at the cathode? Tick **one** box.\n\n| Ni<sup>2+</sup> → Ni + e<sup>–</sup> |   |\n|---|---|\n|   |   |\n| Ni + e<sup>– </sup>→ Ni<sup>2+</sup> |   |\n|   |   |\n| Ni<sup>2+</sup> + 2e<sup>– </sup>→ Ni |   |\n|   |   |\n| Ni + 2e<sup>– </sup>→ Ni<sup>2+</sup> |   |",
+     "solution_md": "b) The correct half-equation for the reaction that occurs at the cathode is:\n\n- Ni<sup>2+ </sup>+ 2e<sup>–</sup>→ Ni<sup> </sup>;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The cathode is negative so positive nickel ions will be attracted to it and discharged *\n- *As the nickel ion has a 2+ charge, they will gain 2 electrons to form nickel atoms which are then deposited on the surface of the object that is being electroplated*\n- *Careful**: The half-equation Ni → Ni*<sup>*2+*</sup>* + 2e*<sup>*– *</sup>* is the half-equation that occurs at the anode*"
+    },
+    {
+     "id": "qstnprt_wtKpCj8t4ssMcHSx",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student wanted to use electrolysis to electroplate an object with nickel.\nAnode - nickel metal\n\n#### Chemistry Only\n\nWhat occurs at the anode, oxidation or reduction?",
+     "solution_md": "c) The process that occurs as the anode is:\n\n- Oxidation;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *At the anode, metal atoms lose electrons to form metal ions in solution*\n- *Loss of electrons is oxidation *\n- *Remember**: **OIL RIG** - **O**xidation **I**s **L**oss, **R**eductions **I**s **G**ain of electrons*"
+    },
+    {
+     "id": "qstnprt_rcyk3T4D8X9gpMRF",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Chemistry Only\n\nWhich **two** of the reasons about why objects are electroplated are correct. Tick **two **boxes.\n\n| It improves the appearance of the object |   |\n|---|---|\n|   |   |\n| It is more expensive |   |\n|   |   |\n| It increases the melting point of the object |   |\n|   |   |\n| It makes the object more resistance to corrosion |   |\n|   |   |\n| It makes the object harder |   |",
+     "solution_md": "d) The two reasons why objects are electroplated are:\n\n- It improves the appearance of the object; **[1 mark]**\n- It makes the object more resistance to corrosion;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *These are the two most common reasons for electroplating*\n- *Electroplating can also reduce costs as it is cheaper to coat an object with an expensive metal, such as gold, than have the whole object made from gold*\n- *Careful**: Electroplating does not change the properties of the object itself, but the coating offers protection from corrosion*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_vfN5Zt6SMyd4NXD9",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_5YgcvCGwHtmSDDCr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nAn application of electrolysis is electroplating.\n\nWhich of the these statements about electroplating is correct? Tick **one **box.\n\n| It is used to extract metals from their ores |   |\n|---|---|\n|   |   |\n| It is a process used to break down a substance using heat |   |\n|   |   |\n| It is used to coat the surface of one metal with a layer of a different metal |   |\n|   |   |\n| It is a method of sacrificial protection |   |",
+     "solution_md": "a) The correct statement about electroplating is:\n\n- It is used to coat the surface of one metal with a layer of a different metal;** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_gcVPpxqsqcKqZNM4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nThe diagram shows the equipment needed to electroplate a metal spoon with silver.  Complete the labels in the boxes using words from the list.\n\n| **anode** | **power supply** | **electrolyte** |\n|---|---|---|\n|   |   |   |\n| **electrolysis** | **cathode** |   |\n\n![fTV0_z57_4-2-3b-e-electroplating-diagram-a](assets/017-ftv0-z57-4-2-3b-e-electroplating-diagram-a.png)",
+     "solution_md": "b) The correct labels are:\n\n![electroplating-labels-answers](assets/018-electroplating-labels-answers.png)\n\n- Anode; **[1 mark]**\n- Cathode; **[1 mark]**\n- Electrolyte; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *In electroplating, the object to be plated is used as the cathode*\n- *The anode is made from the metal that is used to coat the object*\n- *The electrolyte is an aqueous solution of a soluble salt of the pure metal at the anode*\n- *Remember**: The anode is the positive electrode and the cathode is the negative electrode*\n\n  - *You can use the mnemonic **PANIC** to help remember this **P**ositive **A**node, **N**egative **I**s **C**athode)*"
+    },
+    {
+     "id": "qstnprt_rMpWnyJH6yS9NhN6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe electrolyte is an aqueous solution of a soluble salt of the pure metal at the anode.\nAn electrolyte needs to be an aqueous solution of a soluble salt of the metal which is used to coat the spoon with, in this case, a silver salt such as silver nitrate.\n\n#### Separate: Chemistry Only\n\nWhich **one** of these substances would be a suitable electrolyte when plating an iron spoon with silver? Tick **one** box.\n\n| Silver |   |\n|---|---|\n|   |   |\n| Iron |   |\n|   |   |\n| Silver nitrate |   |\n|   |   |\n| Iron(II) nitrate |   |",
+     "solution_md": "c) The substance that would be a suitable electrolyte when plating an iron spoon with silver is:\n\n- Silver nitrate;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *An electrolyte needs to be an aqueous solution of a soluble salt of the metal which is used to coat the spoon with, in this case, a silver salt such as silver nitrate*"
+    },
+    {
+     "id": "qstnprt_tGd7rF86hThBw9Dq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe diagram shows the equipment needed to electroplate a metal spoon with silver. Complete the labels in the boxes using words from the list: anode, power supply, electrolyte, electrolysis, cathode.\n\nThe correct labels are: Anode; Cathode; Electrolyte. In electroplating, the object to be plated is used as the cathode. The anode is made from the metal that is used to coat the object. The electrolyte is an aqueous solution of a soluble salt of the pure metal at the anode.\n\n#### Separate: Chemistry Only\n\nGive **one** change that would need to be made to the equipment in part (b) to coat the metal spoon with nickel instead of silver.",
+     "solution_md": "d) One change that is needed to the equipment in part (b) to coat the metal spoon with nickel is:\n\n- Change the anode / negative electrode to nickel \n**OR** \nChange the electrolyte so it contains nickel ions / Ni<sup>2+</sup> / a named soluble nickel salt, e.g. nickel nitrate;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Both the electrolyte and the anode need changing, either is acceptable for the mark*\n- *Make sure you say **how **it needs changing, just stating 'change the electrolyte' or 'change the anode' is insufficient*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Tp89KRfTHymyVJ79",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_XZdTfkBD5htrw2rK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_KTcy6y55k5r9dsyn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nElectroplating is generally done for decorative purposes or for protection.\n\nFood cans are generally made from three different materials:\n\n- aluminium\n- tin-coated steel / tinplate\n- electrolytic chromium coated steel\n\n![4-2-5a-h-food-tin-cans](assets/019-4-2-5a-h-food-tin-cans.png)\n\nExplain why aluminium food cans do not need to be electroplated.",
+     "solution_md": "a) Aluminium food cans do not need to be electroplated because:\n\n- They form a protective layer of aluminium oxide; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Aluminium is a highly reactive metal*\n- *It will readily react with oxygen to form aluminium oxide, which acts as a protective layer*"
+    },
+    {
+     "id": "qstnprt_2pnjmJwhNpGzcFtb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MKvXKMnctwDqYdms"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nTin-coated steel food cans and electrolytic chromium coated steel food cans that contain acidic foods can bulge as shown. The bulging is a result of a redox reaction inside the can forming a gas.\n\n![4-2-5b-h-bulging-food-can](assets/020-4-2-5b-h-bulging-food-can.png)\n\ni) Give the ionic equation forming the gaseous product during the reaction between the metal food can and the acidic food.\n\n[1]\n\nii) Explain how this shows that there is a break in the tin coating or chromium plating.\n\n[2]",
+     "solution_md": "b)\n\ni) The ionic equation forming the gaseous product during the reaction between the metal food can and the acidic food is:\n\n- 2H<sup>+</sup> + 2e<sup>–</sup> → H<sub>2</sub>;** [1 mark]**\n\nii) This shows that there is a break in the tin coating or chromium plating because:\n\n- Tin and chromium are relatively unreactive / low in the reactivity series; **[1 mark]**\n- A break in the tin coating or chromium plating exposes the steel to the acidic food \n**AND **\nSteel contains iron which reacts with acids; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The reaction that is taking place inside the food can is:*\n\n  - *Metal + acid → (metal) salt + hydrogen*\n  - *Therefore, the ionic equation forming the gaseous product uses the hydrogen ions / H*<sup>*+*</sup>* from the acidic food to form hydrogen gas*\n  \n    - *H*<sup>*+*</sup>* → H*<sub>*2*</sub>* *\n  - *You need two hydrogen ions to form a molecule of hydrogen*\n  \n    - *2H*<sup>*+*</sup>* → H*<sub>*2*</sub>* *\n  - *You need two electrons to balance the 2+ charge on the left-hand side of the equation*\n  \n    - *2H*<sup>*+*</sup>* + 2e*<sup>*–*</sup>* → H*<sub>*2*</sub>* *\n- *Food cans are coated / plated in tin or chromium because they are relatively unreactive metals*\n\n  - *This means that they should not react with any acids within the food that they contain*\n  - *It is the iron / steel underneath the tin / chromium that provides the electrons for the reaction to form hydrogen*"
+    },
+    {
+     "id": "qstnprt_M8PMRKFyVf7yb685",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nCommon electroplated gifts used to include items such as jewellery, jewellery boxes, shaving kits, cutlery, hip flasks, candlesticks and other ornamental pieces.\n\nMore recent developments in electroplating mean that plastic and organic items, such as the rose shown, can be metal plated.\n\n![silver-plated-rose](assets/021-silver-plated-rose.png)\n\nPlastic and organic items are sprayed or coated with a fine film to allow electroplating to occur.\n\nName a material that the film must contain. Explain your answer.",
+     "solution_md": "c) The film must contain:\n\n- Metal \n**AND **\nTo provide a conductive surface (for the electroplating); **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Remember:** Electroplating occurs best when the material that is being plated is able to conduct electricity*"
+    },
+    {
+     "id": "qstnprt_jgdxSQdZTFvs7Bbb",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Hg5gvdxnKJwg8DC8"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCommon electroplated gifts used to include items such as jewellery, jewellery boxes, shaving kits, cutlery, hip flasks, candlesticks and other ornamental pieces. More recent developments in electroplating mean that plastic and organic items, such as the rose shown, can be metal plated. Plastic and organic items are sprayed or coated with a fine film to allow electroplating to occur.\n\nThere are a number of steps in the process of gold-plating a rose.\n\n- Surface Cleaning\n- Surface Preparation\n- Electro Cleaning and Steam Cleaning\n- Water Rinse\n- Flashing / Striking\n- Applying Base Coat\n- Electroplating\n- Final Rinse and Drying\n- Final Polish\n\nDuring the flashing / striking step, a thin layer of high-quality nickel is plated on to the rose. This step improves the bonding between the rose and the gold-plating due to the electrical conductivity of the nickel.\n\nSuggest another reason for applying a thin layer of nickel. Explain your answer.",
+     "solution_md": "d) Another reason for applying a thin layer of nickel is:\n\n- To provide strength / structure to the rose; **[1 mark]**\n- (Because,) gold is a soft metal **OR **(Because,) the rose will deteriorate / decompose; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You should be aware that gold is a relatively soft metal*\n- *If the rose was directly plated with gold, it would typically have a gold coating of around 0.01 mm.*\n\n  - *This is a very thin layer and could result in the rose being very flexible*\n- *Since the rose is organic, it will decompose over time*\n\n  - *This will again mean that the gold-plated rose could lose its shape over time*\n  - *It could also mean that over time, the gold plate on the rose could tarnish due to the moisture from the rose inside*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RChgsQ2WkqGgDKMr",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_zNsGJM3QRvBhm4Wf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nA student wants to electroplate objects made out of different materials.\n\nWhich of the following materials would **not** be suitable for electroplating? You may tick more than one box.\n\n| Glass |   |\n|---|---|\n| Copper |   |\n| Poly(ethene) |   |\n| Iron |   |",
+     "solution_md": "a) The materials that would **not** be suitable for electroplating are:\n\n- Glass; **[1 mark]**\n- Poly(ethene); **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Only objects that conduct electricity can be electroplated, therefore only the metals, copper and iron, would be suitable*\n- *Glass and poly(ethene) do not conduct electricity, so would not be suitable*"
+    },
+    {
+     "id": "qstnprt_M2Pgzj7w99KZXPXJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nThe student sets up the following equipment to electroplate an iron rod with nickel.\n\n![electroplating-incorrect-diagram](assets/022-electroplating-incorrect-diagram.png)\n\nWhat error did they make when setting up the equipment? Tick **one** box.\n\n| The solution should contain iron ions |   |\n|---|---|\n| The circuit should contain a switch |   |\n| Both electrodes should be made from iron |   |\n| The strip of nickel and iron rod are connected to the wrong terminal of the power supply |   |",
+     "solution_md": "b) The error they made is:\n\n- The strip of nickel and iron rod are connected to the wrong terminal of the power supply;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *When electroplating, the anode (the positive electrode) should be made of the pure metal that you want to coat the object  with, in this case, nickel*\n- *The cathode (the negative terminal) should be made from the object that is to be electroplated, in this case, the iron rod*\n- *The equipment used shows the iron rod and strip of nickel metal connected to the wrong terminal, i.e. the iron rod is the anode and the strip of nickel is the cathode*"
+    },
+    {
+     "id": "qstnprt_sKcm426sV8mQrq2P",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2SDcCH3Hyy4Qw9Yz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIn a different experiment, copper was used to electroplate a metal spoon. This was the half-equation on the surface of the spoon.\n\nCu<sup>2+</sup> + 2e<sup>–</sup> → Cu\n\nExplain how this equation shows that copper is reduced.",
+     "solution_md": "c) This equation shows that copper is reduced because:\n\n- Copper / Cu<sup>2+</sup> / it has gained electrons / its oxidation number has decreased; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *There is no oxygen present so your answer should be in terms of electrons or oxidation number*\n- *In terms of electrons, **O**xidation **I**s Loss,** R**eduction** I**s **G**ain (**OIL RIG**)*\n\n  - *The electrons are added to the copper, therefore copper is reduced*\n- *In terms of oxidation number, if the oxidation number decreases, reduction has occurred*\n\n  - *The oxidation number of copper in Cu*<sup>*2+*</sup>* is +2 and in Cu it is 0, so its oxidation number has decreased*"
+    },
+    {
+     "id": "qstnprt_F3SCXjP3XKkCqw3f",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nWhich of the following substances could be used as the electrolyte when electroplating an iron spoon with copper? Tick **one** box.\n\n| an iron rod |   |\n|---|---|\n| aqueous iron nitrate |   |\n| a copper rod |   |\n| aqueous copper nitrate |   |",
+     "solution_md": "d) The substance that could be used as the electrolyte when electroplating an iron spoon with copper is:\n\n- Aqueous copper nitrate;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *An electrolyte needs to be able to carry charge from one electrode to the other, so needs to have mobile charge carriers*\n- *An electrolyte is therefore an ionic compound in a molten or dissolve solution*\n\n  - *This rules out the iron rod and copper rod*\n- *When electroplating, the electrolyte needs to contain ions of the metal that is being used to coat the object with*\n\n  - *In this case, the spoon is being coated with copper, so copper ions are needed*\n  - *An aqueous solution of copper nitrate will provide copper ions*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_PMFNFMGwrfkB4fch",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_3y9Y5MWS3XRXXWbg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "Specimen",
+      "number": "03",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nMetal objects can be electroplated with silver.\n\nDescribe how a metal spoon can be electroplated with silver. Include:\n\n- what to use as the positive electrode and as the negative electrode\n- what to use as the electrolyte\n- an ionic half-equation to show the formation of silver.\n\nYou may include a diagram in your answer.",
+     "solution_md": "a) A metal spoon can be electroplated with silver by:\n\n![electroplating-spoon](assets/023-electroplating-spoon.png)\n\n- Use the spoon as cathode; **[1 mark]**\n- (Pure) silver as the anode; **[1 mark]**\n- Aqueous silver nitrate as the electrolyte; **[1 mark]**\n- Ag<sup>+</sup> +  e<sup>-</sup>  →   Ag; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *The first 3 marks could have been awarded from a suitable labelled diagram*\n- *When electroplating:*\n\n  - *The anode is always made from the pure metal that you want to electroplate with*\n  - *The cathode is the object that is to be electroplated*\n  - *The electrolyte is an aqueous solution of a soluble salt of the pure metal at the anode - nitrate salts are soluble so often used as the electrolyte*\n  \n    - *Careful**: Many silver salts are insoluble, for example, the silver halides, so would not be acceptable*\n- *The silver ions in solution are attracted to the object to be plated as it is negatively charged, where they gain an electron to form silver atoms which are deposited on the surface of the object*\n- *Over time, this builds up a layer of silver on the object*\n- *At the anode, the silver atoms lose an electron to form Ag*<sup>*+*</sup>\n\n  - *Ag  → Ag*<sup>*+*</sup>* +  e*<sup>*-*</sup>* *"
+    },
+    {
+     "id": "qstnprt_9f4zGMwhXChCgzQz",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju43/04",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nGive one reason why metal spoons are electroplated with silver.",
+     "solution_md": "b)\n\nMetal spoons are electroplated with silver to:\n\n**Final answer:** **Any ****one ****from the following:**\n\n- Improve appearance;** [1 mark]**\n- Prevent / resist corrosion / oxidation; **[1 mark]**\n- Antibacterial; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *These are common reasons for electroplating, whatever the application*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_MqpnJhPPS8D45Nzr",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_b6PMZZfPDXCcpFWn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2015",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "A fuel cell produces electrical energy by the oxidation of a fuel by oxygen. The fuel is usually hydrogen but methane and methanol are two other fuels which may be used. A diagram of a hydrogen fuel cell is given below in Figure 1.\n\n![hydrogen-fuel-cell](assets/014-hydrogen-fuel-cell.png)\n\n**Figure 1**\n\nWhen the fuel is hydrogen, the hydrogen is oxidised to form water, which is the only product.\n\nSuggest what additional product would be formed if methanol was used.",
+     "solution_md": "a) The additional product would be:\n\n- Carbon dioxide / CO<sub>2</sub>;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Methanol contains carbon, hydrogen and oxygen atoms which would be oxidised during the oxidation of a fuel to form carbon dioxide and water*\n- *The equation is the same as for the complete combustion of methanol:*\n\n  - *methanol + oxygen → water + carbon dioxide*\n  - *CH*<sub>*3*</sub>*OH + 1½O*<sub>*2*</sub>* → 2H*<sub>*2*</sub>*O + CO*<sub>*2*</sub>\n- *The 'suggest' command word should indicate that you are not expected to know this but you should apply your knowledge*\n- *You are told in the question hydrogen is oxidised to water and you should know the formula of methanol is CH*<sub>*3*</sub>*OH*\n- *You can make a logical assumption that the carbon is oxidised as well as the hydrogen*"
+    },
+    {
+     "id": "qstnprt_3tSY7vZMf7gWJwyt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2014",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA fuel cell produces electrical energy by the oxidation of a fuel by oxygen. The fuel is usually hydrogen but methane and methanol are two other fuels which may be used. When the fuel is hydrogen, the hydrogen is oxidised to form water, which is the only product.\n\nGive the chemical equation for the reaction that takes place in a hydrogen fuel cell.",
+     "solution_md": "b) The equation for the reaction that takes place in a hydrogen fuel cell is:\n\n- 2H<sub>2 </sub>+ O<sub>2</sub> → 2H<sub>2</sub>O;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The only product from a hydrogen fuel cell is water and thus has no polluting effects when used *"
+    },
+    {
+     "id": "qstnprt_rpKSmyBnMzKGpqDT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2014",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK",
+      "spcpt_DvDPhGBPSVn82Y57"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIn a hydrogen fuel cell, hydrogen loses electrons at the anode. Write the half equation to show the reaction at the anode.",
+     "solution_md": "c) The half equation to show the reaction at the anode is:\n\nH<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>–  </sup>**   **\n**OR**    \nH<sub>2</sub> - 2e<sup>–</sup>→ 2H<sup>+</sup>\n\n- Correct formulae;** [1 mark]**\n- Correct balancing; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *When hydrogen loses electrons, it forms hydrogen ions, H*<sup>*+*</sup>\n- *Hydrogen has the formula H*<sub>*2*</sub>*, so 2 hydrogen ions will be formed, each losing one electron*\n- *You do not need to know this equation, but you should be able to construct it from the information given in the question*\n- *You will be familiar with writing half equations for electrolytic cells, where ions are attracted to the oppositely charged electrode and gain or lose electrons*\n- *The fuel cell half equations are different as molecules (not ions) gain or lose electrons at the electrodes*\n- *In a fuel cell, the anode is the electrode where electrons are removed and the cathode is the electrode where electrons are gained*\n- *In a hydrogen-oxygen fuel cell, the half equation at the cathode is:*\n\n  - *O*<sub>*2*</sub>* + 4H*<sup>*+*</sup>* + 4e*<sup>*– *</sup>*→ 2H*<sub>*2*</sub>*O*\n- *Again, you do not need to know this half equation*"
+    },
+    {
+     "id": "qstnprt_m9JKFmxDcDnHDt2C",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rQw9qc9pNRFRyPKB"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nb) The equation for the reaction that takes place in a hydrogen fuel cell is: 2H~2 ~+ O~2~ → 2H~2~O\n\n#### Extended Only\n\nHydrogen and oxygen can also react in a combustion reaction forming water vapour. Calculate the mass of water vapour produced when 500 cm<sup>3</sup> of hydrogen combusts in excess oxygen.\n\nMass of water vapour ...................................... (g)",
+     "solution_md": "d) The mass of water vapour produced when 500 cm<sup>3</sup> of hydrogen combusts in excess oxygen is:\n\n- Moles of hydrogen = $\\frac{500}{24000}=0.02083$ (mol); **[1 mark]**\n- *M*<sub>r</sub> of water = 18; **[1 mark]**\n- Mass of water = $0.02083 \\times 18 = 0.375 ( \\mathrm{g} )$;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *When asked to find the mass of a species in a reaction, you will be given enough information to calculate the moles of one reactant or product in the reaction*\n- *You then need to use the stoichiometry of the reaction to find out the number of moles of the species asked about*\n- *Then you can use this to find the mass*\n- *You should be familiar with all of the equations that can be used to calculate moles*\n- *In this case, you are dealing with gases, so you will need to use the equation involving molar gas volume to calculate the moles of hydrogen:*\n\n  - *Volume (cm*<sup>*3*</sup>*) = moles x 24 000*\n- *You need to work out the stoichiometry of the reaction: *\n\n  - *2H*<sub>*2*</sub>* + O*<sub>*2*</sub>* → 2H*<sub>*2*</sub>*O*\n- *2 moles of hydrogen produces 2 moles of water, so 0.02803 moles of hydrogen produces 0.02803 moles of water*\n- *To calculate the mass of water, use the equation*\n\n  - *Mass = moles x molar mass*\n- *The molar mass is the same value as the **M*<sub>*r*</sub>*, but has the units g / mol, so you need to calculate the **M*<sub>*r*</sub>* of water to find the mass:*\n\n  - *M*<sub>*r*</sub>* = (2 x 1) + 16 = 18*\n- *Remember**: Show your working so that you can pick up marks, even if you make an error*",
+     "equations": [
+      {
+       "latex": "\\frac{500}{24000}=0.02083",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mn>500</mn><mrow><mn>24</mn><mo> </mo><mn>000</mn></mrow></mfrac><mo> </mo><mo>=</mo><mo> </mo><mn>0</mn><mo>.</mo><mn>02083</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 500 over denominator 24 space 000 end fraction space equals space 0.02083"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "0.02083 space cross times space 18 space equals space 0.375 space open parentheses straight g close parentheses",
+       "render": "$0.02083 \\times 18 = 0.375 ( \\mathrm{g} )$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GxxpBm7WxXQTjWnx",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_K7KCWNzsSznsscpP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju43/04",
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pfj5hd8K9tr6sZn5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nSome cars use hydrogen–oxygen fuel cells as a source of energy. Explain one advantage to the environment of using a hydrogen–oxygen fuel cell instead of a petrol engine.",
+     "solution_md": "a)\n\nOne advantage to the environment of using a hydrogen–oxygen fuel cell instead of a petrol engine is:\n\n- Only water formed; **[1 mark]**\n- Water is not a pollutant / no CO<sub>2</sub> is formed; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The overall equation for the reaction within a hydrogen fuel cell is:*\n\n  - *hydrogen   +   oxygen   →   water *\n- *When petrol is burnt in a combustion engine, carbon dioxide is one of the products formed*\n- *As this question is worth 2 marks, it is not sufficient to state that water is formed, you need to explain why this makes it better for the environment than petrol*"
+    },
+    {
+     "id": "qstnprt_68Vy6jy8sP3MghNS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pfj5hd8K9tr6sZn5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nFuel cells can be used with alternative fuels. One alternative fuel is the liquid fuel, methanol, CH<sub>3</sub>OH.\n\nSuggest an advantage of using methanol instead of hydrogen in a fuel cell to power vehicles.",
+     "solution_md": "b) An advantage of using methanol instead of hydrogen in a fuel cell to power vehicles is:\n\nAny **one **of the following:\n\n- Methanol / it is eas<u>ier</u> to store as it is a liquid; **[1 mark]**\n- Methanol / it releases <u>more</u> energy per kilogram of fuel; **[1 mark]**\n- Existing filing stations could be used to distribute it; **[1 mark]**\n- Methanol / it is not as flammable; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *You must make sure that your suggestion has some comparison between methanol and hydrogen, just stating, for example, that methanol is easily stored is not sufficient*\n- *The 'suggest' command word means that this is something you don't need to specifically know, but you do need to apply your knowledge to*\n- *You should be aware of some of the disadvantages of using hydrogen, so think about how using methanol would be an improvement on these points*"
+    },
+    {
+     "id": "qstnprt_dWD6tf9qFZ9KCgPb",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_63Sm3Nx7FY4VbpV7"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFuel cells can be used with alternative fuels. One alternative fuel is the liquid fuel, methanol, CH~3~OH.\n\n#### Extended Only\n\nWhen methanol reacts with oxygen in a methanol-oxygen fuel cell, carbon dioxide and water are produced. Draw the reaction pathway diagram for the reaction on the axes below. Label the following:\n\n- reactants\n- products\n- activation energy\n- overall energy change\n\n![2-4m-q2c-reaction-pathway-diagram](assets/024-2-4m-q2c-reaction-pathway-diagram.png)",
+     "solution_md": "c) The reaction pathway diagram for the reaction between methanol and oxygen is:\n\n![methanol-reaction-pathway](assets/025-methanol-reaction-pathway.png)\n\n- Reactants  \n**AND **\nProducts labelled; **[1 mark]**\n- Reactants higher than the products; **[1 mark]**\n- Overall energy change labelled;** [1 mark]**\n- Activation energy labelled; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *The reaction profile should show an exothermic reaction, i.e. the reactants are higher than the products, as this is the reaction that accompanies the use of methanol as a fuel*\n- *A fuel releases energy, therefore this will be an exothermic reaction*\n- *The arrow for both the overall energy change and the activation energy should start from the reactants line*\n- *The arrow for the overall energy change should point to the product line*\n- *The arrow for the activation energy should point to the peak of the curve*\n- *Use a ruler for this and make sure your arrow touches the reactant line and the curve or product line*"
+    },
+    {
+     "id": "qstnprt_V2V5q592HMJKqM5d",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kNtMbKZV3K649rrn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFuel cells can be used with alternative fuels. One alternative fuel is the liquid fuel, methanol, CH~3~OH.\nWhen methanol reacts with oxygen in a methanol-oxygen fuel cell, carbon dioxide and water are produced.\n\nWrite the balanced symbol equation for the reaction between methanol and oxygen in a methanol-oxygen fuel cell.",
+     "solution_md": "d) The balanced symbol equation for the reaction between methanol and oxygen in a methanol-oxygen fuel cell is:\n\n2CH<sub>3</sub>OH + 3O<sub>2</sub> → 2CO<sub>2</sub> + 4H<sub>2</sub>O\n\n- Correct formulae of all reactants and products; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Part (b) told you enough information to construct the unbalanced equation:*\n\n  - *CH*<sub>*3*</sub>*OH + O*<sub>*2*</sub>* → CO*<sub>*2*</sub>* + H*<sub>*2*</sub>*O*\n- *The carbon atoms are balanced so balance the hydrogen atoms:*\n\n  - *CH*<sub>*3*</sub>*OH + O*<sub>*2*</sub>* → CO*<sub>*2*</sub>* + **2**H*<sub>*2*</sub>*O*\n- *Then balance the oxygen atoms:*\n\n  - *CH*<sub>*3*</sub>*OH + *$\\frac{3}{2}$*O*<sub>*2*</sub>* → CO*<sub>*2*</sub>* + 2H*<sub>*2*</sub>*O*\n- *You would get a mark for this, or you can multiply all of the balancing numbers by 2 to get a whole number ratio:*\n\n  - *2**CH*<sub>*3*</sub>*OH +** 3**O*<sub>*2*</sub>* → **2**CO*<sub>*2*</sub>* + **4**H*<sub>*2*</sub>*O*",
+     "equations": [
+      {
+       "latex": "\\frac{3}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac mathcolor=\"#265BF6\"><mn mathvariant=\"bold\">3</mn><mn mathvariant=\"bold\">2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style bold 3 over bold 2 end style"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_gWVskCCJqbbKkHCK",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_5d5VWDBMb5F2BQRF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK",
+      "spcpt_DvDPhGBPSVn82Y57"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe Gemini and Apollo moon probes use hydrogen fuel cells to generate an electric current and do not need to be electrically recharged. The product of this reaction can be used to supplement the drinking water for astronauts.\n\nDeduce the half equations for the reactions at each electrode in a hydrogen fuel cell, and then the overall equation for the hydrogen-oxygen fuel cell, to show the product used to supplement drinking water.",
+     "solution_md": "The equations for the reaction occurring at the electrodes, and the overall equation, in the hydrogen-oxygen fuel cell are :\n\n- H<sub>2</sub> → 2H<sup>+</sup> + 2e<sup>–</sup>; **[1 mark]**\n- O<sub>2</sub> + 4e<sup>–</sup> → 2O<sup>2–</sup>; **[1 mark]**\n- (Overall) 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O ;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *Remember:** A hydrogen fuel cell is an electrochemical cell where the fuel donates electrons at one electrode and oxygen gains electrons at the other electrode*\n- *The overall reaction can be determined without the ionic half equations and is marked independently so this mark can be awarded even if the ionic half equations are incorrect*"
+    },
+    {
+     "id": "qstnprt_bXd7PpQHbn2dZ2Q8",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "A hydrogen fuel cell is an electrochemical device that converts chemical energy into electrical energy. A continuous supply of fuel is supplied to one electrode and a continuous supply of air is supplied to the other electrode.\n\nSuggest why a fuel cell does not need to be recharged.",
+     "solution_md": "b) Fuel cells do not need to be recharged because:\n\n- There is a constant supply of hydrogen **AND** oxygen  \n**OR** \nHydrogen **AND **oxygen are continuously fed into the cell;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *This question is much simpler than it appears*\n- *The answer is almost given to you in the question when it says that '**a continuous supply of fuel is supplied to one electrode and a continuous supply of air is supplied to the other electrode**'*\n\n  - *You have to use this information to state that there is a continuous feed of hydrogen and oxygen*"
+    },
+    {
+     "id": "qstnprt_BXtNDc6btpDFmjTY",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZbbnBBCMqtS3vmSK",
+      "spcpt_pfj5hd8K9tr6sZn5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe General Motors Electrovan was built in 1966. It was the first vehicle powered by a hydrogen fuel cell and could travel at up to 70 mph for 30 seconds.\n\nSuggest **two **environmental advantages of using a hydrogen fuel cell rather than an internal combustion engine.",
+     "solution_md": "c) **Two **environmental advantages of using a hydrogen fuel cell rather than an internal combustion engine:\n\n**Final answer:** **Any ****two**** from:**\n\n- More energy is released per kilogram of hydrogen compared to either petrol or diesel \n**OR **\nMore / a greater proportion of the energy available from the hydrogen–oxygen reaction is converted into useful energy **OR** \nLess energy from the hydrogen–oxygen reaction is wasted;** [1 mark]**\n- They do not produce oxides of nitrogen / carbon dioxide / sulfur dioxide; **[1 mark]**\n- Hydrogen fuel cells are quieter so less noise pollution compared to an internal combustion engine; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Since hydrogen fuel cells work at low temperatures, they do not produce oxides of nitrogen like internal combustion engines*\n- *Hydrogen fuel cells do not lose power in the transmission as there are no moving parts, unlike an internal combustion engine*\n\n  - *While this is an advantage, it is not an environmental advantage so it does not gain a mark*"
+    },
+    {
+     "id": "qstnprt_xR32QsYPBBxzwBT4",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pfj5hd8K9tr6sZn5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nHydrogen fuel cells are commonly considered to be carbon neutral by the general public because they do not release any carbon dioxide or other greenhouse gases when they are used. This is not technically correct.\n\nSuggest why hydrogen fuel cells cannot be classed as carbon neutral.",
+     "solution_md": "d) Hydrogen fuel cells cannot be classed as carbon neutral because:\n\n- Carbon dioxide / CO<sub>2</sub> is released when the fuel cell is manufactured / made \n**OR **\nCarbon dioxide / CO<sub>2</sub> is released when the raw materials to make the fuel cell are transported to the factory / assembly plant \n**OR **\nCarbon dioxide / CO<sub>2</sub> is released when hydrogen is produced; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Hydrogen is mainly produced by the reaction of steam with methane*\n\n  - *CH*<sub>*4*</sub>* + H*<sub>*2*</sub>*O → CO + 3H*<sub>*2*</sub>* *\n  - *The carbon monoxide products often oxidise to form carbon dioxide*\n- *Most of the manufacturing processes used to make the hydrogen fuel cell are dependent on the use of fossil fuels to power the warehouses and to transport the raw materials*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_btNB7gWj9Pndt4Gq",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_xBX8NSDsHRngh4sy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nElectrolysis can be used to silver-plate metal cutlery.\n\nGive **two **reasons why metal cutlery is sometimes silver-plated.",
+     "solution_md": "a) **Two **reasons why metal cutlery is sometimes silver-plated are:\n\nAny **two **from:\n\n- To improve appearance / make it look nice; **[1 mark]**\n- To prevent corrosion; **[1 mark]**\n- To make it more durable / last longer; **[1 mark]**\n- It is cheaper / stronger than solid silver; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You should know that the main reasons for electroplating any material are:*\n\n  - *Aesthetics*\n  - *Durablity*\n  - *Strength*\n  - *Corrosion resistance*"
+    },
+    {
+     "id": "qstnprt_tdTpwXgNMCy7wzyj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nThe apparatus used to electroplate a metal spoon with silver is shown. The apparatus has not been set up correctly.\n\n![CkgdjNgX_4-2-3b-h-incorrect-silver-plating-a-spoon](assets/026-ckgdjngx-4-2-3b-h-incorrect-silver-plating-a-spo.png)\n\nThe metal spoon erodes and a thin layer of copper forms on the pure silver electrode.\n\nExplain **two **changes that should be made to this apparatus in order to be able to silver plate the metal spoon.",
+     "solution_md": "b) **Two **changes that should be made to this apparatus in order to be able to silver plate the metal spoon are:\n\n**Change 1 with reason:**\n\n- The solution should be silver nitrate \n**OR **\nThe solution should contain silver ions;** [1 mark]**\n- Otherwise, copper will be deposited \n**OR **\nOtherwise, silver will not be deposited; **[1 mark]**\n\n**Change 2 with reason:**\n\n- The spoon should be the negative electrode / cathode;** [1 mark]**\n- Because silver ions have a positive charge \n**OR **\nBecause silver ions go to the negative electrode \n**OR **\nBecause silver ions are discharged at the negative electrode; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *The information in the question tells you that:*\n\n  - *Copper is being deposited*\n  \n    - *The copper must come from the copper sulfate solution*\n    - *Therefore, you need to change this solution to one that contains silver ions, e.g. silver nitrate*\n  - *The metal spoon is eroding*\n  \n    - *This means that the metal from the spoon is going into the copper sulfate solution *\n    - *This is the opposite to what you want to happen*\n    - *Therefore, you need to switch the electrodes around, i.e. make the metal spoon the negative electrode*"
+    },
+    {
+     "id": "qstnprt_W7FPWT94J3RKMHgP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nSuggest why it is difficult to electroplate a plastic object.",
+     "solution_md": "c) It is difficult to electroplate a plastic object because:\n\n- It / plastic is a poor conductor (of electricity) \n**OR **\nIt / plastic does not conduct electricity \n**OR **\nIt / plastic is an insulator \n**OR **\nIt / plastic does not contain electrons that are free to move / mobile;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *Electroplating works best when the material being plated conducts electricity, i.e. is a metal*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_B75VzPn3mv3KqXJr",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_6g8XFdnPkf3GSzPG",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nElectroplating steel objects with silver involves a three-step process.\n\n**step 1**   A coating of copper is applied to the object. **step 2**   A coating of nickel is applied to the object. **step 3   **The coating of silver is applied to the object.\n\nA diagram of the apparatus used for step 1 is shown.\n\nThe chemical process taking place on the surface of the object is\n\nCu<sup>2+ </sup>(aq) + 2e<sup>–</sup> → Cu (s)\n\ni) Explain whether this process is oxidation or reduction.\n\n[1]\n\nii) Explain why the concentration of copper ions in the electrolyte remains constant throughout step 1.\n\n[2]",
+     "solution_md": "a)\n\ni) This process is:\n\n- Reduction** **\n**AND** \n(Because) the copper ions are gaining electrons / decreasing in oxidation number; **[1 mark]**\n\nii) The concentration of copper ions remains constant because:\n\n- The formation of Cu<sup>2+</sup> / copper ions at the anode happens at the same rate as; **[1 mark]**\n- The removal of Cu<sup>2+</sup> / copper ions at the cathode; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Part i) asks you to explain and the question is only 1 mark which indicates you need to state whether it is reduction or oxidation with a reason for your answer *\n- *Remember: **The copper ions in the electrolyte will migrate to the steel cathode, gain electrons and form a copper coating, but are replaced by copper ions forming at the anode and entering the solution *"
+    },
+    {
+     "id": "qstnprt_pfbqP9PBzFsHtTzy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nElectroplating steel objects with silver involves a three-step process. step 1 A coating of copper is applied to the object. step 2 A coating of nickel is applied to the object. step 3 The coating of silver is applied to the object. A diagram of the apparatus used for step 1 is shown. The chemical process taking place on the surface of the object is Cu^2+ (aq) + 2e^– → Cu (s)\n\n#### Separate: Chemistry Only\n\nGive **two** changes which would be needed in order to coat nickel onto the object in **step 2.**",
+     "solution_md": "b) Two changes needed to coat nickel onto the object are:\n\n- Replace (anode of) copper with nickel;** [1 mark]**\n- Replace electrolyte with nickel(II) sulfate / NiSO<sub>4</sub>; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The anode should be made from the coating metal *\n- *The electrolyte should contain ions of the coating metal *\n- *The cathode should be the object being coated*"
+    },
+    {
+     "id": "qstnprt_KpD8bDdpzRkjJpb2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju41",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jxPK72xT9PSVKKw6"
+     ],
+     "part_tier": null,
+     "problem_md": "Copper, nickel and silver are transition elements.\n\nTypical physical properties of transition elements are a high density and a high melting point.\n\nGive** three** different properties of transition metals which are not typical of other metals.",
+     "solution_md": "c) Three properties of transition metals, not typical of other metals are:\n\n- (Good) catalysts; **[1 mark]**\n- Variable oxidation numbers; **[1 mark]**\n- Form coloured compounds / coloured ions;**[1 mark]**\n\n**[Total: 3 marks]**\n\n- *This is a common question so you need to learn these *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7PWpNQPMDFSYD2Pp",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_s2s8tG6fwqhqz3Qy",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrogen and oxygen react together to form water.\n\nComplete the word equation for this reaction:\n\nhydrogen   +   ____________________   →   water",
+     "solution_md": "a) The missing word is:\n\n- Oxygen;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *The equation is:*\n\n  - *hydrogen   +   oxygen   →   water*"
+    },
+    {
+     "id": "qstnprt_sVBcD5FHngyztkHc",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "The reaction between hydrogen and oxygen is used in hydrogen fuel cells.\n\nComplete these sentences about hydrogen fuel cells using words from the list.\n\n| **reduction** | **combustion** | **electricity** |\n|---|---|---|\n|   |   |   |\n| **temperature change** | **gas** | **oxidation** |\n\nWater is produced when hydrogen undergoes ....................................................... This causes the fuel cell to produce  ..................................................",
+     "solution_md": "b) The correct words are:\n\n- (In a hydrogen fuel cell, water is produced when hydrogen undergoes) oxidation;** [1 mark]**\n- (This causes the fuel cell to produce) electricity;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *The hydrogen gains oxygen to form water therefore it is oxidised*\n- *Hydrogen donates electrons at one electrode and oxygen gains electrons at the other electrode which causes a flow of charge through the circuit, generating electricity*"
+    },
+    {
+     "id": "qstnprt_PBfN5f6jrSypMn9p",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Yf3KSfXJ9cqnxpHK"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagram below shows a hydrogen fuel cell.\n\n![aqa-gcse-5-2e-tq3c-hydrogen-fuel-cell](assets/027-aqa-gcse-5-2e-tq3c-hydrogen-fuel-cell.png)\n\nComplete the table to show the functions each of the substances perform in a hydrogen fuel cell using words from the list.\n\n| **electrolyte** | **electrode** | **waste product** |\n|---|---|---|\n|   |   |   |\n| **source of oxygen** | **fuel** | **anode** |\n\n| **Substance** | **Function** |\n|---|---|\n| Potassium hydroxide solution |   |\n| Hydrogen |   |\n| Water |   |",
+     "solution_md": "c) The correct functions are:\n\n- Potassium hydroxide solution - electrolyte; **[1 mark]**\n- Hydrogen - fuel;** [1 mark]**\n- Water - waste product; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_4fWj39NPTC4mbZs6",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pfj5hd8K9tr6sZn5"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nGive **two** advantages of using hydrogen fuel cells compared with using petrol engines to power motor vehicles.",
+     "solution_md": "d) Advantages of hydrogen fuel cells are:\n\nAny **two** from the following:\n\n- Does not need to be recharged \n**OR** \nContinues to produce electricity as long as hydrogen is fed into the cell;** [1 mark]**\n- It only produces water \n**OR** \nIt doesn't produce harmful / polluting products;** [1 mark]**\n- Hydrogen can be made renewable if hydrogen is obtained from electrolysis using renewable energy;** [1 mark]**\n- It releases more energy per kilogram than petrol; **[1 mark]**\n- No power is lost in transmission as there are no moving parts; **[1 mark]**\n- Quieter / less noise pollution; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *You may be asked to evaluate the use of hydrogen fuel cells in comparison with gasoline or petrol engines in vehicles, so you need to be able to give the advantages and disadvantages of each*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3pYGCxbnM85nJgHK",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_nVHCkr6wXJf5sYDV",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ZQnVgy6KZsP5b2NS"
+     ],
+     "part_tier": null,
+     "problem_md": "Hallmarked precious metals such as gold, silver, platinum and palladium are often plated on jewellery. It is usually cheaper to have plated jewellery than solid pieces made from these heavy, expensive and precious metals.\n\nA base metal, often copper or nickel, is manipulated into the desired shape for the piece of jewellery. The precious metal is then plated onto the piece of jewellery.\n\nGive the name used to describe the electroplated base metal.",
+     "solution_md": "a) The name used to describe the electroplated base metal is:\n\n- Alloy; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Remember: **An alloy is a mixture of two or more metals or metal with a non-metal such as carbon*\n- *Therefore, an electroplated piece of jewellery is technically an alloy as it contains a mixture of two (or more) metals*\n\n  - *In this case, the atoms of the second metal are grouped together forming a layer on the surface of the base metal*"
+    },
+    {
+     "id": "qstnprt_d5b3rcCnF7sPh57V",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Around 85% of female wedding rings are 1.5 - 2.5 mm wide. The depth of a female wedding ring depends on the shape of the ring. The dimensions of a flat profile ring are shown.\n\n![4-2-4b-h-ring-dimensions](assets/028-4-2-4b-h-ring-dimensions.png)\n\nWith wedding rings, electroplating to a depth of 8 microns (0.008 mm) is considered thick plating.\n\ni) Calculate the cross-sectional area of:\n\n- an average female, flat profile wedding ring.\n- an average female, flat profile wedding ring with thick plating.\n\n[2]\n\nii) Calculate the percentage of the ring that is plating.\n\n[1]",
+     "solution_md": "b)\n\ni) The cross-sectional areas are:\n\n- Average female, flat profile wedding ring = 2.8 (mm<sup>2</sup>); **[1 mark]**\n- Average female, flat profile wedding ring with thick plating = 2.827 (mm<sup>2</sup>); **[1 mark]**\n\nii) The percentage of the ring that is plating is:\n\n- 0.955% \n**OR **\n0.96%; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *The width of an average female, flat profile wedding ring is 2 mm*\n- *The depth of an average female, flat profile wedding ring is 1.4 mm*\n\n  - *Therefore, the cross-sectional area of an average female, flat profile wedding ring is 2 x 1.4 = 2.8 mm*<sup>*2*</sup>*  *\n- *The width of an average female, flat profile wedding ring with thick plating is 2.008 mm*\n- *The depth of an average female, flat profile wedding ring with thick plating is 1.408 mm*\n\n  - *Therefore, the cross-sectional area of an average female, flat profile wedding ring is 2.008 x 1.408 = 2.827264 mm*<sup>*2*</sup>*  *\n- *This means that the plating accounts for 2.827264 - 2.8 = 0.027264 of the total ring with thick plating*\n\n  - *Therefore, the percentage of an average female, flat profile wedding ring that is the plating is* $\\frac{0.027264}{2.827264}\\times100$ *= 0.96%*\n  - *Depending on when and how you round your answers during the calculation, you may get an acceptable answer of 0.955%*",
+     "equations": [
+      {
+       "latex": "\\frac{0.027264}{2.827264}\\times100",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac mathcolor=\"#265BF6\"><mrow><mn>0</mn><mo>.</mo><mn>027264</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>827264</mn></mrow></mfrac><mo mathcolor=\"#265BF6\">×</mo><mn mathcolor=\"#265BF6\">100</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.027264 over denominator 2.827264 end fraction cross times 100"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_wpP7GKm625hWtgX8",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_S6xxPdtkW4RG4jcm"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nii) The percentage of the ring that is plating is: 0.955% OR 0.96%\n\n#### Extended Only\n\nMost wedding rings contain between 4 and 6 g of metal. Wedding rings that are 18-carat gold are plated with gold that contains 750 parts per 1000 of gold.\n\nUsing your answer to part (b), calculate the number of moles of gold that is required to plate an average wedding ring with 18-carat gold.",
+     "solution_md": "c) The number of moles required to gold plate an average wedding ring is:\n\nCalculations using 0.955% from part (b):\n\n- Average mass of a wedding ring = 5 (g) **AND **Mass of gold = 0.0358(125) (g); **[1 mark]**\n- Moles of gold = 1.82 x 10<sup>-4</sup>  \n**OR **\n0.000182; **[1 mark]**\n\nCalculations using 0.96% from part (b):\n\n- Average mass of a wedding ring = 5 (g) **AND **Mass of gold = 0.036 (g); **[1 mark]**\n- Moles of gold = 1.83 x 10<sup>-4</sup>  \n**OR **\n0.000183; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The mass of an average wedding ring is *$\\frac{4+6}{2}$* = 5 g*\n- *The mass of gold in an average wedding ring, assuming that the plating is 100% gold, is 0.955% (or your answer from part (b))*\n\n  - *This gives a mass of* $\\frac{5}{100}\\times0.955$ *= 0.04775 g *\n- *But 750 parts per 1000 or 75% of this mass is actually gold*\n\n  - *This means that the actual mass of gold is* $\\frac{0.04775}{100}\\times75$ *= 0.0358125 g*\n- *Remember:** Moles = *$\\frac{\\mathrm{mass}}{A_{r}}$\n\n  - *Therefore, the number of moles of gold required is* $\\frac{0.0358125}{197}$* = 1.82 x 10*<sup>*-4*</sup>* rounded to 2 decimal places*",
+     "equations": [
+      {
+       "latex": "\\frac{4+6}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac mathcolor=\"#265BF6\"><mrow><mn>4</mn><mo>+</mo><mn>6</mn></mrow><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style fraction numerator 4 plus 6 over denominator 2 end fraction end style"
+      },
+      {
+       "latex": "\\frac{5}{100}\\times0.955",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac mathcolor=\"#265BF6\"><mn>5</mn><mn>100</mn></mfrac><mo mathcolor=\"#265BF6\">×</mo><mn mathcolor=\"#265BF6\">0</mn><mo mathcolor=\"#265BF6\">.</mo><mn mathcolor=\"#265BF6\">955</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "5 over 100 cross times 0.955"
+      },
+      {
+       "latex": "\\frac{0.04775}{100}\\times75",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac mathcolor=\"#265BF6\"><mrow><mn>0</mn><mo>.</mo><mn>04775</mn></mrow><mn>100</mn></mfrac><mo mathcolor=\"#265BF6\">×</mo><mn mathcolor=\"#265BF6\">75</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.04775 over denominator 100 end fraction cross times 75"
+      },
+      {
+       "latex": "\\frac{\\mathrm{mass}}{A_{r}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac mathcolor=\"#265BF6\"><mi>mass</mi><msub><mi>A</mi><mi>r</mi></msub></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "mass over A subscript r"
+      },
+      {
+       "latex": "\\frac{0.0358125}{197}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac mathcolor=\"#265BF6\"><mrow><mn>0</mn><mo>.</mo><mn>0358125</mn></mrow><mn>197</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style fraction numerator 0.0358125 over denominator 197 end fraction end style"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_XDYnyHpPcGp9gxtB",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_k7wqYwV7VMxjMXyg"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry Only\n\nThe wedding ring can be electroplated using the apparatus shown.\n\n![4-2-4d-h-electroplating-a-ring-a](assets/029-4-2-4d-h-electroplating-a-ring-a.png)\n\nLabel the anode and the cathode on the diagram. Explain your answer in terms of gold ions.",
+     "solution_md": "d) The diagram with the anode and cathode labelled is:\n\n- Ring correctly identified as the cathode \n**AND **\nBar / other electrode identified as the anode; **[1 mark]**\n\nExplanation:\n\n- Gold ions are positive **AND **they are attracted to the negative electrode / cathode \n**OR **\nGold ions are positive **AND **they gain electrons at the negative electrode / cathode; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Gold is a metal which means that it forms positive ions*\n- *Positive ions are attracted to the negative electrode *\n\n  - *Remember:** PANIC - Positive anode, negative is cathode*\n- *The gold ions will gain an electron as they plate onto the ring*\n\n  - *Au*<sup>*+*</sup>* + e*<sup>*–*</sup>* → Au*"
     }
    ]
   }

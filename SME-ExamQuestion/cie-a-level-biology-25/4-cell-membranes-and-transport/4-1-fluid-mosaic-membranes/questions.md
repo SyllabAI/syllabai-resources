@@ -1,6 +1,6 @@
 # Exam Questions — Fluid Mosaic Membranes
 **4. Cell Membranes & Transport** · Cambridge (CIE) A-LEVEL biology (9700)
-> Source: [https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/](https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/) · 30 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/](https://www.savemyexams.com/a-level/biology/cie/25/topic-questions/) · 39 questions across 2 sets
 
 
 ## Multiple Choice Questions (30 questions)
@@ -325,3 +325,341 @@ Which row correctly labels this diagram of a cell surface membrane?
 **Q30** [1 mark]
 
 What is the function of cholesterol in the cell surface membrane?
+
+## Structured Questions (9 questions)
+
+
+### Q1 — hard — 9 marks
+
+**Q1** [2 marks]
+
+Linoleic acid is an unsaturated fatty acid that is found in some triglycerides and some phospholipids.
+
+Phospholipids are components of cell membranes.
+
+Fig. 1 shows a molecule of linoleic acid.
+
+![fig2-1-qp-mayjune-2019-9700-21](assets/012-fig2-1-qp-mayjune-2019-9700-21.png)
+
+**Fig. 1**
+
+The composition of cell membranes of plants changes in response to changes in temperature.
+
+At the start of the cold season, there is an increase in the proportion of phospholipids with unsaturated fatty acids in the chickpea, *Cicer arietinum*. Chickpea plants that do not make this change do not survive.
+
+Suggest how the increase in the proportion of phospholipids with unsaturated fatty acids helps plants, such as chickpea, survive decreases in temperature.
+
+*Source: May/June 2019 9700/21 Q2A*
+
+
+**Q1** [3 marks]
+
+(i) State why triglycerides and phospholipids **cannot **be described as polymers.
+
+[1]
+
+(ii) State two **differences **in the **structure **of triglycerides and phospholipids.
+
+[2]
+
+*Source: May/June 2019 9700/21 Q2B*
+
+
+**Q1** [4 marks]
+
+Platelets metabolise linoleic acid to produce a molecule known as thromboxane.
+
+Thromboxane is released by platelets when blood loss occurs. Thromboxane acts on smooth muscle cells in the walls of arteries. This causes arteries to constrict, which reduces blood flow.
+
+Explain why the constriction of arteries following blood loss is an example of cell signalling.
+
+*Source: May/June 2019 9700/21 Q2C*
+
+
+### Q2 — hard — 8 marks
+
+**Q2** [2 marks]
+
+Glucagon is a hormone that affects the activity of liver cells, leading to an increase in blood glucose levels. Glucagon acts as a ligand.
+
+Suggest the features of glucagon that make it an example of a ligand.
+
+**Q2** [2 marks]
+
+Glucagon is a hydrophilic peptide hormone, while oestrogen is a hydrophobic steroid hormone.
+
+Using your knowledge of the cell surface membrane:
+
+(i) Suggest one contrasting feature between the mechanism of action of glucagon and oestrogen signalling molecules.
+
+[1]
+
+(ii) Explain your answer to part (i).
+
+[1]
+
+**Q2** [4 marks]
+
+Glycoproteins play an important role in cell signalling.
+
+Explain the role of glycoproteins in initiating a response inside a cell.
+
+### Q3 — hard — 8 marks
+
+**Q3** [1 mark]
+
+Fig. 1 shows the molecular diagram of part of the fluid mosaic structure of the plasma membrane. These molecules play an important role in maintaining the stability of the plasma membrane.
+
+![1-3-h-2a-paper-2](assets/013-1-3-h-2a-paper-2.png)
+
+**Fig. 1**
+
+Identify the part of the fluid mosaic structure of the plasma membrane represented by the molecular diagram in Fig.1.
+
+**Q3** [3 marks]
+
+Scientists have found that wheat crops adapted to grow in winter have increased unsaturated phospholipid content.
+
+Suggest why the presence of unsaturated phospholipids would be advantageous.
+
+**Q3** [2 marks]
+
+Pieces of phospholipid bilayer were analysed from two different mammalian cell surface membranes. Sample **X** contained phospholipid molecules at a density of 4.2 x 10<sup>6</sup> molecules µm<sup>-2</sup>, whereas sample **Y** contained phospholipid molecules at a density of 5.5 x 10<sup>6</sup> molecules µm<sup>-2</sup>. One sample was from an exocrine pancreatic cell and the other was from a skin cell. Identify, with reasons, which cell type corresponds to samples **X** and** Y**.
+
+**Q3** [2 marks]
+
+Researchers have discovered that an individual phospholipid molecule can exchange places with its neighbouring phospholipid molecule in a monolayer as frequently as 10<sup>7</sup> times per second.
+
+By contrast, phospholipid molecules almost never exchange places with each other from one monolayer to the other within a bilayer, referred to as a ‘flip-flop’ exchange. The ‘flip-flop’ takes place around once a month for a typical phospholipid molecule.
+
+Suggest why there is this difference in molecular behaviour.
+
+### Q4 — medium — 9 marks
+
+**Q4** [1 mark]
+
+Fig. 1 is an electron micrograph of part of a eukaryotic cell.
+
+A ruler is shown in the image for scale.
+
+![image-for-cie-ial-22-spec-p2-q1c](assets/014-image-for-cie-ial-22-spec-p2-q1c.png)
+
+**Fig. 1**
+
+State how it is possible to deduce that Fig. 1 is a transmission electron micrograph and **not** a scanning electron micrograph.
+
+*Source: Specimen 2022 9700/02 Q1A*
+
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Fig. 1 is an electron micrograph of part of a eukaryotic cell.
+
+A ruler is shown in the image for scale.
+
+Both the Golgi body and the rough endoplasmic reticulum are part of the network of membranes inside cells.
+
+Outline structural features shown in Fig. 1 that identify **G** as the Golgi body and **not** the rough endoplasmic reticulum.
+
+*Source: Specimen 2022 9700/02 Q1B*
+
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Fig. 1 is an electron micrograph of part of a eukaryotic cell.
+
+A ruler is shown in the image for scale.
+
+Calculate the actual diameter, **X–Y,** of the mitochondrion labelled in Fig. 1
+
+Write down the formula that you will use to make your calculation. Give your answer to the nearest whole **nanometre** (nm).
+
+*Source: Specimen 2022 9700/02 Q1C*
+
+
+**Q4** [4 marks]
+
+Many of the cell structures in Fig. 1 are surrounded by membranes.
+
+Membranes are approximately 6 nm to 7 nm wide.
+
+(i)Describe the fluid mosaic model of membrane structure.
+
+[3]
+
+(ii)The inner membrane of the mitochondrial envelope is much less permeable than the outer membrane.
+
+Suggest **one** way in which the structure of the inner membrane of the mitochondrion may differ from that of the outer membrane to produce a **less permeable** inner membrane.
+
+[1]
+
+*Source: Specimen 2022 9700/02 Q1DI & DII*
+
+
+### Q5 — medium — 11 marks
+
+**Q5** [5 marks]
+
+Some components of the cell surface membrane include:
+
+- Phospholipid molecules
+- Protein molecules
+- Cholesterol molecules
+
+Draw a labelled diagram of a section through a cell surface membrane to show how the components mentioned above are organised within the membrane. Include other named components and label the inner and outer surfaces of the membrane.
+
+**Q5** [2 marks]
+
+The cell surface membrane is said to be partially permeable.
+
+Explain how the structure of a phospholipid prevents some substances from diffusing directly between the phospholipids that make up the cell surface membrane.
+
+**Q5** [3 marks]
+
+High temperatures can denature membrane proteins.
+
+Suggest the effect this would have on a cell surface membrane.
+
+**Q5** [1 mark]
+
+State **one** role of phospholipid bilayers **within** the cell.
+
+### Q6 — medium — 11 marks
+
+**Q6** [2 marks]
+
+In 1935 a model describing the structure of the cell surface membrane was proposed by the biologists Davson and Danielli. Fig. 1 shows a representation of their proposal.
+
+![4-1-fig-1-1](assets/017-4-1-fig-1-1.png)
+
+**                                                                 Fig. 1**
+
+The model shown in Fig. 1 was replaced in 1972 when two other scientists, Singer and Nicolson, proposed the fluid mosaic model to describe the structure of the cell surface membrane.
+
+Describe what is meant by the term 'fluid mosaic'.
+
+**Q6** [4 marks]
+
+**Extract:**
+
+In 1935 a model describing the structure of the cell surface membrane was proposed by the biologists Davson and Danielli. Fig. 1 shows a representation of their proposal.
+
+The model shown in Fig. 1 was replaced in 1972 when two other scientists, Singer and Nicolson, proposed the fluid mosaic model to describe the structure of the cell surface membrane.
+
+Compare the model of membrane structure shown in Fig. 1 with the fluid mosaic model that replaced it.
+
+**Q6** [3 marks]
+
+Explain how the features of a phospholipid contribute to the structure of a cell surface membrane.
+
+**Q6** [2 marks]
+
+State **two** features of cell membranes **other than** the structure that can be explained by the fluid mosaic model.
+
+### Q7 — easy — 10 marks
+
+**Q7** [3 marks]
+
+(i) State the **two** types of molecules that most often act as receptors on the surfaces of cell membranes.
+
+[2]
+
+(ii) State the generic name of the signalling molecules that are secreted from certain cells.
+
+[1]
+
+**Q7** [2 marks]
+
+Describe the step that occurs between the secretion of the signalling compound stated in part (a)(ii) and its arrival at the membrane compound stated in part (a)(i).
+
+**Q7** [4 marks]
+
+Fig. 1 shows some keywords from the cell signalling pathway involved in the regulation of blood glucose levels.
+
+![2ZZ6supx_cie-ial-4-1-q3ce---sq](assets/018-2zz6supx-cie-ial-4-1-q3ce-sq.png)
+
+**Fig. 1**
+
+Link each box on the left with the most appropriate one on the right using a straight line.
+
+**Q7** [1 mark]
+
+Hormones, like insulin mentioned in part (c), act as messengers in cell signalling in the endocrine system.
+
+Name the group of chemical messengers that play a role in the transmission of nervous impulses.
+
+### Q8 — easy — 8 marks
+
+**Q8** [2 marks]
+
+Fig. 1 shows a diagram of part of a cell surface membrane.
+
+![4-1-fig-3-1](assets/020-4-1-fig-3-1.png)
+
+**                                                              Fig. 1**
+
+Identify molecules **A **and **B**.
+
+**Q8** [2 marks]
+
+**Extract:**
+
+Fig. 1 shows a diagram of part of a cell surface membrane.
+
+Describe the role of molecule **C** in Fig. 1.
+
+**Q8** [2 marks]
+
+**Extract:**
+
+Fig. 1 shows a diagram of part of a cell surface membrane.
+
+State **two **functions of molecule **D** in Fig. 1.
+
+**Q8** [2 marks]
+
+**Extract:**
+
+Fig. 1 shows a diagram of part of a cell surface membrane.
+
+Explain the importance of molecule **E **in Fig. 1 when the cell is exposed to **high** temperatures.
+
+### Q9 — easy — 9 marks
+
+**Q9** [4 marks]
+
+Fig. 1 shows a cell surface membrane and some molecules of a small, nonpolar substance shown as substance **X**.
+
+![2](assets/021-2.png)
+
+**Fig. 1**
+
+Predict and explain what will happen to substance **X **in Fig. 1.
+
+**Q9** [1 mark]
+
+**Extract:**
+
+Fig. 1 shows a cell surface membrane and some molecules of a small, nonpolar substance shown as substance **X**.
+
+Give a possible name for substance **X**.
+
+**Q9** [2 marks]
+
+Substance **Y **is a large molecule and is not lipid-soluble.
+
+Describe how substance **Y **would travel across a cell membrane from an area of high to low concentration.
+
+[2]
+
+**Q9** [2 marks]
+
+**Extract:**
+
+Substance **Y** is a large molecule and is not lipid-soluble.
+
+State and explain how an increase in temperature would affect the rate of movement of substance **Y **across a cell membrane.

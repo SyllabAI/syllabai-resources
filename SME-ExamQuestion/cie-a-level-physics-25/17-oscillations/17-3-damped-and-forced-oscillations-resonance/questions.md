@@ -300,7 +300,7 @@ Fig. 1.2 shows the variation with time *t *of the displacements of the two pendu
 
 The variation with *t *of the displacement *x *of the light pendulum is given by
 
-`x space equals space 0.5 space sin space open parentheses 2.5 pi space t close parentheses`
+$x = 0.5 \sin ( 2.5 \pi t )$
 
 where *x *is in metres and *t *is in seconds.
 

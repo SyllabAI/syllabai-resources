@@ -367,3 +367,139 @@
 **A** is incorrect; it is missing one of the disadvantages
 
 **C** and **D** are incorrect; they contain at least one advantage
+
+## Structured Questions (4 questions)
+
+
+### Q1
+Calculate the interest on drawings
+
+- Akila $5 \% \times 19400 = 970$
+- Darius $5 \% \times 16320 = 816$
+
+Calculate the interest on capital
+
+- Akila $3 \% \times 90000 = 2700$
+- Darius $3 \% \times 65000 = 1950$
+
+Akila and Darius 
+Appropriation Account for the year ended 30 April 2023
+
+|   | \$ |   | \$ |   |   |
+|---|---|---|---|---|---|
+| Profit for the year |   |   | 42 304 |   |   |
+| Add interest on drawings | Akila | 970 | **[1]** |   |   |
+| Darius | <u>816</u> | <u>1 786</u> |   |   |   |
+|   |   |   | 44 090 |   |   |
+| Less |   |   |   |   |   |
+| Interest on capital | Akila | 2 700 | **[1]** |   |   |
+| Darius | <u>1 950</u> |   |   |   |   |
+|   | 4 650 |   |   |   |   |
+| Salary | Akila | <u>9 500</u> | **[1]** | <u>14 150</u> |   |
+|   |   |   | 29 940 | **[1]** |   |
+| Profit share | Akila | 17 964 | **[1]** |   |   |
+| Darius | <u>11 976</u> | **[1]** | <u>29 940</u> |   |   |
+
+> **[mark-scheme]**
+> 6 marks in total.
+> 
+> - 1 mark for the correct figures for interest on drawings for **both **Akila **and **Darius
+> - 1 mark  for the correct figures for the interest on capital for **both **Akila **and **Darius
+> - 1 mark for the salary for Akila
+> - 1 mark for the correct residual profit to share
+> - 1 mark for **own figure** for Akila's share found by multiplying the residual profit by 60%
+> - 1 mark for **own figure** for Darius' share found by multiplying the residual profit by 40%
+Akila 
+Current account
+
+| Date | Details |   | \$ | Date | Details |   | \$ |
+|---|---|---|---|---|---|---|---|
+| 2022 |   |   |   | 2023 |   |   |   |
+| May 1 | Balance b/d | **[1]** | 2 600 | Apr 30 | Interest on capital | **[1]** | 2 700 |
+| 2023 |   |   |   |   | Salary | 9 500 |   |
+| Apr 30 | Drawings | **[1]** | 19 400 |   | Profit share | **[1]** | 17 964 |
+|   | Interest on drawings | 970 |   |   |   |   |   |
+|   | Balance c/d | **[1]** | 7 194 |   |   |   |   |
+|   |   |   | <u>30 164</u> |   |   |   | <u>30 164</u> |
+|   |   |   |   | May 1 | Balance b/d |   | 7 194 |
+
+> **[mark-scheme]**
+> 5 marks in total.
+> 
+> - 1 mark for the correct balance b/d on the debit side
+> - 1 mark for **both **the drawings **and **interest in drawings on the debit side
+> 
+>   - You can use your **own figure** for the interest on drawings
+> - 1 mark for **both **the interest on capital **and **salary on the credit side
+> 
+>   - You can use your **own figure** for the interest on capital
+> - 1 mark for your** own figure** for the profit share on the credit side
+> - 1 mark for your **own figure** for the balance c/d which balances the account
+
+> **[exam-tip]**
+> The question did not ask you to balance the account. However, it is always advisable to balance all accounts.
+**Final answer:** **\$7 594**
+
+Calculate the reduction in Akila's share of the profit
+
+$60 \% \times 1000 = 600$
+
+|   | \$ |
+|---|---|
+| Original balance | 7 194 |
+| Add loan interest | 1 000 |
+| Less reduction in profit share | <u>(600)</u> |
+| Revised balance | 7 594 |
+
+> **[mark-scheme]**
+> You can use your own figure for the original balance.
+> 
+> - 1 mark for adding the loan interest
+> - 1 mark for subtracting the correct figure for the reduction in the profit share
+
+> **[exam-tip]**
+> You do not need to make a new appropriation account or current account. The question is only worth two marks. The profit for the year is reduced by \$1000, so reduce the profit share by the appropriate amount. And remember that loan interest increases the balance of the current account.
+
+### Q2
+> **[mark-scheme]**
+> 1 mark for each item, up to a maximum of 2 marks.
+> 
+> - Interest on partners' loans
+> - Capital to be invested by each partner
+> - Any limit on partners' drawings
+> - Responsibilities for decision making
+> - Other valid points are accepted
+
+### Q3
+Lucy could introduce more capital **[1]** if Roger enters into a partnership with her. Also, Roger and Lucy could share the decision-making **[1]** within the business.
+
+A partnership would mean that Roger does not get to keep all the profits to himself **[1]** any more. Also, Roger and Lucy could have disagreements **[1]** about the business.
+
+Roger should form a partnership **[1]** as the advantages outweigh the disadvantages.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - Maximum 4 marks for **advantages **and **disadvantages **of forming a partnership.
+> 
+>   - Up to 2 marks for **advantages **of forming a partnership.
+>   - Up to 2 marks for **disadvantages **of forming a partnership.
+> 
+> **Advantages** may include:
+> 
+> - More capital can be introduced
+> - The business can expand / improve liquidity
+> - Workload shared with Lucy
+> - Roger and Lucy might have different specialities
+> - Shared decision-making
+> - More and potentially better ideas can be generated
+> - Absence cover so business continues if one partner is away
+> - Any other valid advantage
+> 
+> **Disadvantages** may include:
+> 
+> - Roger keeps less profit for himself
+> - Possible disagreements
+> - Potential for slow decision-making
+> - Any other valid disadvantage

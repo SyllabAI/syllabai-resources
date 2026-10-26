@@ -438,3 +438,324 @@ $\frac{\mathrm{Trade} \mathrm{payables}}{\mathrm{Credit} \mathrm{purchases}}\tim
 **B** is incorrect; this is what you would get if you used \$130 000 for the cost of sales (instead of subtracting the closing inventory to get \$115 000), and if you used \$24 000 for the average inventory (instead of dividing by 2 to get \$12 000)
 
 **D** is incorrect; this is what you would get if you used \$130 000 for the cost of sales (instead of subtracting the closing inventory to get \$115 000)
+
+## Structured Questions (8 questions)
+
+
+### Q1
+The formula for the gross margin is $\frac{\mathrm{Gross} \mathrm{profit}}{\mathrm{Revenue}}\times100$
+
+| Gross margin |   |
+|---|---|
+| workings | answer |
+| $\frac{27065}{69860}\times100=38.741...$* ***[1]** | **38.74%** **[1]** |
+
+> **[mark-scheme]**
+> - 1 mark for the whole formula
+> - 1 mark for your **own figure** for the gross margin
+
+> **[exam-tip]**
+> For revenue, you should use the net revenue figure rather than the actual revenue figure. This ensures that the ratio is accurate.
+The gross profit margins are similar, which is to be expected for businesses in the same trade **[1]**. Hector has a slightly higher profit margin, which is likely because he does not have to pay rent **[1]**, which means he has lower expenses. Ahmadi should be satisfied **[1]** as the gross profit margins are similar, and his profit margin is only slightly lower than Hector's.
+
+> **[mark-scheme]**
+> 3 marks in total.
+> 
+> - 1 mark for an explanation about gross profit margins. For example:
+> 
+>   - Businesses in the trade are likely to have similar gross profit margins
+> - 1 mark for an explanation about profit margins. For example:
+> 
+>   - Amadi's profit margin might be lower because he has to pay rent
+>   - Hector's profit margin might be higher because he does not have to pay rent
+>   - Hector might have to pay for building repairs or maintenance costs
+> - 1 mark for a conclusion. For example:
+> 
+>   - Amadi should be satisfied as his gross profit margin is similar to Hector's
+>   - Amadi should not be satisfied as his expenses ratio is higher than Hector's
+> 
+> Other valid points are accepted.
+
+### Q2
+Calculate the gross profit and profit for the year
+
+|   | \$ | \$ |
+|---|---|---|
+| Revenue |   | 98 420 |
+| Cost of sales |   |   |
+| Opening inventory | 6 175 |   |
+| Purchases | <u>78 130</u> |   |
+|   | 84 305 |   |
+| Less Closing inventory | <u>6 265</u> | <u>78 040</u> |
+| Gross profit |   | 20 380 |
+| Less Expenses |   | <u>11 325</u> |
+| Profit for the year |   | <u>9 055</u> |
+
+- The formula for the gross margin is $\frac{\mathrm{Gross} \mathrm{profit}}{\mathrm{Revenue}}\times100$
+- The formula for the profit margin is $\frac{\mathrm{Profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Revenue}}\times100$
+- The formula for the return on capital employed is $\frac{\mathrm{Operating} \mathrm{profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Capital} \mathrm{employed}}\times100$
+- The formula for the rate of inventory turnover is $\frac{\mathrm{Cost} \mathrm{of} \mathrm{sales}}{\mathrm{Average} \mathrm{inventory}}$
+- The formula for the liquid ratio is $\frac{\mathrm{Current} \mathrm{assets}-\mathrm{Inventory}}{\mathrm{Current} \mathrm{liabilities}}$
+
+| Ratio | Working | Answer (to 2 decimal places ) |
+|---|---|---|
+| Gross margin | $\frac{20380}{98420}\times100=20.707...$** [1]** | **20.71% **** [1]** |
+| Profit margin | $\frac{9055}{98420}\times100=9.200...$* *** [1]** | **9.20% **** [1]** |
+| Return on capital employed (ROCE) | $\frac{9055}{125000}\times100=7.244$* *** [1]** | **7.24% **** [1]** |
+| Rate of inventory turnover (times) | $\frac{78040}{( 6175 + 6265 ) \div 2} = 12.546...$* *** [2]** | **12.55 times **** [1]** |
+| Liquid (acid test) ratio | $\frac{992}{4880}=0.203...$* *** [1]** | **0.20 : 1 **** [1]** |
+
+> **[mark-scheme]**
+> 11 marks in total.
+> 
+> - Gross margin
+> 
+>   - 1 mark for dividing the correct gross profit by the revenue
+>   - 1 mark for your **own figure** for the answer
+> - Profit margin
+> 
+>   - 1 mark for dividing your **own figure** for the profit for the year by the revenue
+>   - 1 mark for your **own figure** for the answer
+> - Return on capital employed
+> 
+>   - 1 mark for dividing your **own figure** for the profit for the year by the capital
+>   - 1 mark for your **own figure** for the answer
+> - Rate of inventory turnover
+> 
+>   - 1 mark for calculating the average inventory
+>   - 1 mark for calculating the cost of sales
+>   - 1 mark for your **own figure** for the answer
+> - Liquid ratio
+> 
+>   - 1 mark for dividing the cash at the bank (the only current asset which is not inventory) by the trade payables
+>   - 1 mark for your **own figure** for the answer
+> **[mark-scheme]**
+> 3 marks in total.
+> 
+> - 1 mark for an explanation about gross profit margins. For example:
+> 
+>   - Nala's gross profit margin might be lower than her competitor's
+> - 1 mark for an explanation about profit margins. For example:
+> 
+>   - Nala's profit margin might reduce because of the increase in advertising expenses
+> - 1 mark for an explanation about inventory. For example:
+> 
+>   - Nala's sales might not be more than her competitor's despite selling inventory faster
+>   - Nala needs to sell more inventory to significantly increase profits
+> 
+> Other valid points are accepted.
+If Nala obtained a bank loan to expand the business, then her profits might increase **[1]**. And once the loan is paid off, Nala will have no liability to the bank **[1]**.
+
+However, Nala will have to pay the loan back and if she can't then her non-current assets might be at risk **[1]**. Also, she will have to pay interest on the loan, which will reduce the profits **[1]**.
+
+Nala should not obtain a bank loan **[1]** as her profit margin is already low.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - Maximum 4 marks for **points for **and **points against **obtaining a bank loan to expand the business.
+> 
+>   - Up to 2 marks for **points for**.
+>   - Up to 2 marks for **points against**.
+> 
+> **Points for **may include:
+> 
+> - The profit might increase if Nala expands the business
+> - Nala will not have any liability to the bank once the loan is paid off
+> - Nala has five years to repay the loan
+> - Other valid points for are accepted
+> 
+> **Points against **may include:
+> 
+> - The loan must be repaid
+> - Nala will have to pay interest on the loan
+> - Nala would likely need to use the property or other non-current assets as security for the loan
+> - The bank might be unwilling to offer a loan
+> - Other valid points against are accepted
+> **[mark-scheme]**
+> 1 mark for any one of the following:
+> 
+> - The bank manager needs to assess whether Nala can repay the loan
+> - The bank manager needs to assess whether Nala can afford the loan interest
+> - The bank manager needs to assess whether Nala has sufficient assets which could be used to secure the loan
+
+### Q3
+**Final answer:** **0.64 : 1**
+
+The formula for the liquid (acid test) ratio is
+
+$\frac{\mathrm{Current} \mathrm{assets}-\mathrm{Inventory}}{\mathrm{Current} \mathrm{liabilities}}:1$
+
+- Substitute into the formula
+
+$\frac{71975-51790}{31450}=0.641...$* ***[1 mark]**
+
+- Round to 2 decimal places
+
+$0.64:1$** ****[1 mark]**
+
+> **[mark-scheme]**
+> 2 marks in total.
+> 
+> - 1 mark for using the correct formula with your **own figures**
+> 
+>   - You can add together all the current assets except the inventory
+> - 1 mark for the correct answer based on your **own figures**
+> 
+>   - You must write it in the form $x:1$
+
+### Q4
+The formula for the current ratio is $\frac{\mathrm{Current} \mathrm{assets}}{\mathrm{Current} \mathrm{liabilities}}$
+
+| current ratio |   |
+|---|---|
+| workings | answer to **two** decimal places |
+| $\frac{5100+8500}{6100+4300+1400}=1.152...$* ***[1]** | **1.15 : 1** **[1]** |
+
+The formula for the liquid (acid test) ratio is $\frac{\mathrm{Current} \mathrm{assets}-\mathrm{Inventory}}{\mathrm{Current} \mathrm{liabilities}}$
+
+| liquid (acid test) ratio |   |
+|---|---|
+| workings | answer to **two** decimal places |
+| $\frac{8500}{6100+4300+1400}=0.720...$* ***[1]** | **0.72 : 1** **[1]** |
+
+The formula for the return on capital employed (ROCE) is $\frac{\mathrm{Operating} \mathrm{profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Capital} \mathrm{employed}}\times100$
+
+| return on capital employed (ROCE) |   |
+|---|---|
+| workings | answer to **two** decimal places |
+| $\frac{9000}{104000}\times100=8.653...$* ***[1]** | **8.65%** **[1]** |
+
+> **[mark-scheme]**
+> 6 marks in total. For each ratio, 1 mark for the working and 1 mark for the correct answer.
+> 
+> **Explanation**
+> 
+> - Current ratio
+> 
+>   - Current assets are inventory and trade receivables
+>   - Current liabilities are bank overdraft, trade payables and other payables
+> - Liquid (acid test) ratio
+> 
+>   - Remove inventory from current assets
+> - Return on capital employed (ROCE)
+> 
+>   - Use the profit for the year as the operating profit
+>   - The capital employed is the equity only as there are no non-current liabilities
+
+> **[exam-tip]**
+> Sense-check your answers. For example, the current ratio is normally around 2 : 1. If you got an answer of 20 : 1, then you should double-check your working.
+Reducing the inventory would free up some cash **[1]** which might be useful as the bank account is overdrawn **[1]**. However, sales might be lost **[1]** if the business does not have enough inventory available to sell. This would cause the return on capital employed to decrease **[1]**.
+
+The directors of K Limited should not reduce the inventory **[1]**, they should find other ways to improve liquidity and profitability.
+
+> **[mark-scheme]**
+> 5 marks in total:
+> 
+> - 1 mark for your **decision**.
+> - Maximum 4 marks for relevant comments.
+> 
+> Comments may include:
+> 
+> - Cash might be tied up in the inventory
+> - The bank account is overdrawn
+> - There might be storage costs associated with the inventory
+> - There is a risk of damage and *obsolescence* to the inventory
+> - The current ratio would fall
+> - There would be no change to the liquid (acid test) ratio
+> - The trade payables might decrease
+> - K Limited might not have enough inventory to meet the demands
+> - Sales could decrease
+> - The ROCE would decrease if profits fall
+> - Trade receivables might decrease which would mean lower current and liquid ratios
+> - Other valid points are accepted
+
+### Q5
+K Limited would not be satisfied **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for stating "unsatisfied" or "not satisfied".
+> 
+> This is because the trade receivables turnover is greater than the credit period allowed by K Limited.
+K Limited are allowed 30 days to pay their credit suppliers but are taking 22 days longer on average to pay them **[1]**. They might have to pay interest on the amounts they owe suppliers **[1]**. This would reduce their profits. They will not be able to take advantage of cash discounts **[1]**.
+
+> **[mark-scheme]**
+> 3 marks in total. 1 mark for each comment.
+> 
+> Comments may include:
+> 
+> - They are paying their credit suppliers 22 days after the allowed period
+> - This might damage their relationship with suppliers
+> - Suppliers might stop allowing credit on K Limited's purchases
+> - Suppliers might stop trading with K Limited
+> - K Limited might be charged interest on their overdue accounts
+> - They will not be able to take advantage of cash discounts
+
+### Q6
+Increase the selling price of the goods **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for **any **relevant point such as:
+> 
+> - Increase the selling price
+> - Increase the mark-up
+> - Reduce cost of manufacturing
+> - Purchase cheaper raw materials
+> - Purchase cheaper finished goods
+> - Reduce the trade discount that is allowed to customers
+> - Take advantage of trade discount by purchasing finished goods in bulk
+> - Reduce wages of factory operatives
+> - Reduce factory overheads
+
+> **[exam-tip]**
+> The formula for gross margin is
+> 
+> $\frac{\mathrm{Gross} \mathrm{profit}}{\mathrm{Revenue}}\times100$
+> 
+> To  increase this, you need to increase gross profit. This means increasing revenue or decreasing cost of sales.
+> 
+> Remember, Gross profit = Revenue - Cost of sales.
+
+### Q7
+**Final answer:** **16.95%**
+
+The formula for the return on capital employed is
+
+$\frac{\mathrm{Operating} \mathrm{profit} \mathrm{for} \mathrm{the} \mathrm{year}}{\mathrm{Capital} \mathrm{employed}}\times100$
+
+- Substitute into the formula
+
+$\frac{23650}{106500 + 33000} \times 100 = 16.953... \%$* ***[3 marks]**
+
+- Round to 2 decimal places
+
+$= 16.95 \%$** ****[1 mark]**
+
+> **[mark-scheme]**
+> 4 marks in total:
+> 
+> - 1 mark for each of the following values in the correct place in the formula:
+> 
+>   - the profit from operations can be your **own figure** from part (b)
+>   - the equity can be your **own figure** from in part (a)
+>   - the total of non-current liabilities \$33 000
+> - 1 mark for using the formula correctly with your **own figures** and rounding to two decimal places.
+
+> **[exam-tip]**
+> Remember that capital employed is equity plus non-current liabilities. Current liabilities do not form part of the capital employed.
+**Final answer:** **\$5 950**
+
+The formula for the current ratio is
+
+$\frac{\mathrm{Current} \mathrm{assets}}{\mathrm{Current} \mathrm{liabilities}}:1$
+
+- Substitute into the formula
+
+$\frac{\mathrm{Current} \mathrm{assets}}{3500}=1.7$
+
+- Multiply the current ratio by the current liabilities
+
+$3500\times1.7$* ***[1 mark]**
+
+$=5950$** ****[1 mark]**

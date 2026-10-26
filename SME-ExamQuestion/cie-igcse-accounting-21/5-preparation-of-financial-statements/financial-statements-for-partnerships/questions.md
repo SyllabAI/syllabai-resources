@@ -1,6 +1,6 @@
 # Exam Questions — Financial Statements for Partnerships
 **5. Preparation of Financial Statements** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 15 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 18 questions across 2 sets
 
 
 ## Multiple Choice Questions (15 questions)
@@ -207,3 +207,104 @@ Grace is a sole trader. She is considering forming a partnership with her friend
 2. Kelly may bring additional skills to the business.
 3. Kelly would be entitled to drawings.
 4. The responsibility for running the business would be shared between Grace and Kelly.
+
+## Structured Questions (4 questions)
+
+
+### Q1 — medium — 13 marks
+
+**Q1** [6 marks]
+
+Akila and Darius are in partnership. The partnership agreement provides for the following:
+
+- interest on capital of 3% per annum
+- interest on drawings of 5%
+- a salary to Akila of \$9500 per annum
+- residual profits and losses to be shared 60% to Akila and 40% to Darius
+
+The partners provided the following list of balances.
+
+|   | \$ |
+|---|---|
+| Capital accounts at 1 May 2022 |   |
+| Akila | 90 000 |
+| Darius | 65 000 |
+| Current accounts at 1 May 2022 |   |
+| Akila | 2 600 debit |
+| Darius | 4 745 credit |
+| Drawings for the year ended 30 April 2023 |   |
+| Akila | 19 400 |
+| Darius | 16 320 |
+
+The profit for the year ended 30 April 2023 was \$42 304.
+
+**REQUIRED **
+
+Prepare the appropriation account on the opposite page for Akila and Darius for the year ended 30 April 2023
+
+Akila and Darius 
+Appropriation Account for the year ended 30 April 2023
+
+|   | \$ | \$ |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+*Source: June 2023 0452/22 Q4A*
+
+
+**Q1** [5 marks]
+
+Prepare Akila’s current account for the year ended 30 April 2023.
+
+Akila 
+Current account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/22 Q4B*
+
+
+**Q1** [2 marks]
+
+Calculate the balance on Akila’s current account at 30 April 2023 if he had been due \$1000 loan interest from the partnership.
+
+### Q2 — medium — 2 marks
+
+**Q2** [2 marks]
+
+Akila and Darius’s partnership agreement provided for salary, interest on capital, interest on drawings, and profit share.
+
+State two other items which are usually included in a partnership agreement.
+
+*Source: June 2023 0452/22 Q4C*
+
+
+### Q3 — easy — 5 marks
+
+**Q3** [5 marks]
+
+Roger is trader. He provides window cleaning services to customers. Roger is considering turning his business into a partnership with his friend Lucy.
+
+**REQUIRED**
+
+Advise Roger whether or not he should form a partnership with Lucy. Justify your answer with **two **advantages and **two **disadvantages of forming a partnership with Lucy.

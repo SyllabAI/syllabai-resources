@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:23Z",
+ "generated_utc": "2026-10-26T14:31:33Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -83,14 +83,30 @@
    "question_count": 15,
    "questions_embedded": 15,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/5-preparation-of-financial-statements/financial-statements-for-sole-traders/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_wXhqnvMSgF4P4wD4",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/5-preparation-of-financial-statements/financial-statements-for-sole-traders/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 15,
-  "questions_missing": [],
+  "questions_embedded": 16,
+  "questions_missing": [
+   "qstn_xhPrH4J26rztc8hk",
+   "qstn_mFXrZpbJYzrcrmzf"
+  ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -861,6 +877,35 @@
        "text_md": "a grocery store"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xmqRBj9mDzYzW7rF",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_XKtHgJwFbxNSR4Zn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/22",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_7ywB8qQWTXQ3WWSk"
+     ],
+     "part_tier": null,
+     "problem_md": "Amadi prepared the following trial balance at 31 March 2023.\n\nAmadi \nCorrected Trial Balance at 31 March 2023\n\n|   | Debit | Credit |\n|---|---|---|\n|   | \\$ | \\$ |\n| Fittings and equipment at cost | 30 000 |   |\n| Provision for depreciation of fittings and equipment |   | 7 500 |\n| Trade receivables | 6 100 |   |\n| Bank overdraft |   | 3 106 |\n| Trade payables |   | 3 485 |\n| Capital |   | 20 000 |\n| Sales |   | 73 250 |\n| Purchases | 41 785 |   |\n| Discount received |   | 1 990 |\n| Sales returns | 3 390 |   |\n| Carriage inwards | 1 223 |   |\n| General expenses | 6 430 |   |\n| Rent and rates | 7 380 |   |\n| Drawings | 9 500 |   |\n| Inventory | 3 752 |   |\n| Suspense |   | 229 |\n|   | <u>109 560</u> | <u>109 560</u> |\n\nInventory at 31 March 2023 was \\$3 965.\n\n**REQUIRED**\n\nPrepare the trading section of Amadi’s income statement for the year ended 31 March 2023\n\nAmadi \nIncome Statement (trading section) for the year ended 31 March 2023\n\n|   | \\$ | \\$ |\n|---|---|---|\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |",
+     "solution_md": "Amadi \nIncome Statement (trading section) for the year ended 31 March 2023\n\n|   | \\$ |   | \\$ |   |\n|---|---|---|---|---|\n| Revenue |   |   | 73 250 |   |\n| Less Sales returns |   |   | <u>(3 390)</u> |   |\n| Less cost of sales |   |   | 69 860 | **[1]** |\n| Opening inventory | 3 752 |   |   |   |\n| Purchases | 41 785 |   |   |   |\n| Carriage inwards | <u>1 223</u> |   |   |   |\n|   | 46 760 | **[1]** |   |   |\n| Less Closing inventory | <u>(3 965)</u> |   | <u>42 795</u> | **[1]** |\n| Gross profit |   |   | <u>27 065</u> | **[1]** |\n\n> **[mark-scheme]**\n> 4 marks in total.\n> \n> - 1 mark for the correct figure for net revenue\n> - 1 mark for the correct figure for the total of net purchases and opening inventory\n> - 1 mark for your **own figure** for cost of sales using the correct formula\n> - 1 mark for your **own figure** for gross profit by subtracting cost of sales from net revenue"
     }
    ]
   }

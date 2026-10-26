@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:02Z",
+ "generated_utc": "2026-10-26T14:30:48Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -63,14 +63,29 @@
    "question_count": 20,
    "questions_embedded": 20,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/the-trial-balance-and-correction-of-errors/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_vhQs4j7BZpm4jhkX",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 8,
+   "questions_embedded": 8,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/the-trial-balance-and-correction-of-errors/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 20,
+  "questions_embedded": 28,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -1099,6 +1114,520 @@
        "text_md": "trial balance"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6mVf3tfyHZjQwDCg",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_S2zvFFrwHcBGvPJY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/22",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_t83ZfyP7c4B3j88c",
+      "spcpt_mjq5Zhf33pzS463X"
+     ],
+     "part_tier": null,
+     "problem_md": "Amadi prepared the following trial balance which is not yet totalled and contains errors.\n\nAmadi \nTrial balance at 31 March 2023\n\n|   | Debit | Credit |\n|---|---|---|\n|   | \\$ | \\$ |\n| Fittings and equipment at cost |   | 30 000 |\n| Provision for depreciation of fittings and equipment | 7 500 |   |\n| Trade receivables | 6 100 |   |\n| Bank overdraft | 3 106 |   |\n| Trade payables |   | 3 485 |\n| Capital |   | 20 000 |\n| Sales |   | 73 250 |\n| Purchases |   | 41 785 |\n| Discount received | 1 990 |   |\n| Sales returns | 3 390 |   |\n| Carriage inwards | 1 223 |   |\n| General expenses | 6 430 |   |\n| Rent and rates | 7 380 |   |\n| Drawings | 9 500 |   |\n| Inventory at 1 April 2022 |   | 3 752 |\n| Inventory at 31 March 2023 | 3 965 |   |\n\n**REQUIRED**\n\nPrepare a corrected trial balance at 31 March 2023. Show the remaining difference between the debit and credit totals as ‘suspense.’\n\nAmadi \nCorrected Trial Balance at 31 March 2023\n\n|   | Debit | Credit |\n|---|---|---|\n|   | \\$ | \\$ |\n| Fittings and equipment at cost |   |   |\n| Provision for depreciation of fittings and equipment |   |   |\n| Trade receivables |   |   |\n| Bank overdraft |   |   |\n| Trade payables |   |   |\n| Capital |   |   |\n| Sales |   |   |\n| Purchases |   |   |\n| Discount received |   |   |\n| Sales returns |   |   |\n| Carriage inwards |   |   |\n| General expenses |   |   |\n| Rent and rates |   |   |\n| Drawings |   |   |\n| Inventory |   |   |\n| Suspense |   |   |\n|   |   |   |",
+     "solution_md": "Amadi \nCorrected Trial Balance at 31 March 2023\n\n|   | Debit | Credit |   |\n|---|---|---|---|\n|   | \\$ | \\$ |   |\n| Fittings and equipment at cost | 30 000 |   | **[1]** |\n| Provision for depreciation of fittings and equipment |   | 7 500 |   |\n| Trade receivables | 6 100 |   |   |\n| Bank overdraft |   | 3 106 | **[1]** |\n| Trade payables |   | 3 485 |   |\n| Capital |   | 20 000 |   |\n| Sales |   | 73 250 |   |\n| Purchases | 41 785 |   | **[1]** |\n| Discount received |   | 1 990 |   |\n| Sales returns | 3 390 |   |   |\n| Carriage inwards | 1 223 |   |   |\n| General expenses | 6 430 |   |   |\n| Rent and rates | 7 380 |   |   |\n| Drawings | 9 500 |   |   |\n| Inventory | 3 752 |   | **[1]** |\n| Suspense |   | 229 | **[1]** |\n|   | <u>109 560</u> | <u>109 560</u> | **[1]** |\n\n> **[mark-scheme]**\n> 6 marks in total.\n> \n> - 1 mark for the **correct figures** for the totals of **both **columns\n> - 1 mark for your** own figure** for the suspense account which balances the two columns\n> - 1 mark for getting the following items in the correct place\n> \n>   - **Both **fittings and equipment at cost **and **provision for depreciation of fittings and equipment\n>   - Bank overdraft\n>   - **Both **purchases **and **discount received\n>   - Inventory\n\n> **[exam-tip]**\n> Remember, the closing inventory does not appear on the trial balance."
+    },
+    {
+     "id": "qstnprt_F9Y7CryXJwZDhC4s",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/22",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH",
+      "spcpt_7bshbZmVH6xDzXRR"
+     ],
+     "part_tier": null,
+     "problem_md": "Amadi then discovered the following errors.\n\n1. The general expenses account had been undercast by \\$200.\n2. A rent payment, \\$516, had been posted to the rent and rates account as \\$615.\n3. The total for discount received in the cash book for February 2023, \\$165, had been debited to the drawings account. No other entry for this total had been made.\n\n**REQUIRED **\n\nPrepare the suspense account.\n\nAmadi \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2023 |   |   | 2023 |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Amadi \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2023 |   |   | 2023 |   |   |\n| Mar 31 | Rent and rates** [1]** | 99 | Mar 31 | Difference on trial balance **[1]** | 229 |\n|   | Drawings **[1]** | 165 |   | General expenses **[1]** | 200 |\n|   | Discount received **[1]** | 165 |   |   |   |\n|   |   | <u>429</u> |   |   | <u>429</u> |\n\n> **[mark-scheme]**\n> 5 marks in total.\n> \n> - 1 mark for using your **own figure** for the difference on trial balance\n> - 1 mark for each other correct entry\n> \n> **Explanation**\n> \n> - Error 1: The debit total for general expenses is under by \\$200\n> \n>   - Debit general expenses\n>   - Credit suspense\n> - Error 2: The debit total for rent and rates is over by \\$99\n> \n>   - Credit rent and rates\n>   - Debit suspense\n> - Error 3: The debit total for drawings is over by \\$165\n> \n>   - Credit drawings\n>   - Debit suspense\n> - Error 3: The credit total for discount received is under by \\$165\n> \n>   - Credit discount received\n>   - Debit suspense\n\n> **[exam-tip]**\n> You can use this part to check your previous part. If the account balances, then it suggests your suspense total on the trial balance is correct.\n> \n> Just be careful as the question does not say that these are **all **the errors, there might be more, in which case the suspense account would not balance."
+    }
+   ]
+  },
+  {
+   "id": "qstn_sxTwdcTw9HjnXcVn",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_XHqYdFGm5d9Bqg4T",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/22",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WqNTxrcGp79cBYTK",
+      "spcpt_kf8J3mV9z6q5qZmt",
+      "spcpt_CGVQCfr4VHtRQkJR",
+      "spcpt_7bsxTZQQSHvWHtNy",
+      "spcpt_6YJQ8smNcMnRnYbQ",
+      "spcpt_56hBY4XTggS6j84N"
+     ],
+     "part_tier": null,
+     "problem_md": "Ramla has calculated her draft profit figure for the year ended 28 February 2023. Adjustments in Ramla’s ledger accounts have still to be made for the following items\n\n1. An amount of \\$99 owed to Ramla by Mai is to be written off as irrecoverable.\n2. Fixtures and fittings, \\$875, were purchased on credit from Padma.\n3. A loan repayment, \\$500, had been incorrectly recorded as loan interest.\n4. Rent paid, \\$350, had been recorded as \\$530.\n5. Drawings, \\$120, had been debited to the wages account\n\n**REQUIRED **\n\nPrepare the journal entries required for items 1–5. Narratives are **not **required.\n\nRamla \nJournal\n\n| Item number | Details | Debit <br>\\$ | Credit <br>\\$ |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "Ramla \nJournal\n\n| Item number | Details | Debit <br>\\$ | Credit <br>\\$ |\n|---|---|---|---|\n| 1 | Irrecoverable debts **[1]** | 99 |   |\n|   | Mai **[1]** |   | 99 |\n| 2 | Fixtures and fittings **[1]** | 875 |   |\n|   | Padma **[1]** |   | 875 |\n| 3 | Loan **[1]** | 500 |   |\n|   | Loan interest **[1]** |   | 500 |\n| 4 | Bank or cash **[1]** | 180 |   |\n|   | Rent paid **[1]** |   | 180 |\n| 5 | Drawings **[1]** | 120 |   |\n|   | Wages **[1]** |   | 120 |\n\n> **[mark-scheme]**\n> 10 marks in total. 1 mark for each entry with correct details and amount in the correct column.\n> \n> **Explanation**\n> \n> - Item 1: Irrecoverable debts has not been entered into the accounts\n> \n>   - Credit Mai's account as it reduces how much is owed to Ramla\n>   - Debit the irrecoverable debts account\n> - Item 2: Purchase of fixtures and fittings has not been entered into the accounts\n> \n>   - Debit the fixture and fittings account as Ramla owns more assets\n>   - Credit Padma's account as Ramla owes Padma more\n> - Item 3: Loan repayment was debited in the loan interest account\n> \n>   - Credit the loan interest account to undo the error\n>   - Debit the loan account to reduce how much Ramla owes\n> - Item 4: The debit entry in the rent paid account and the credit entry in the cash book have been overcast by \\$180\n> \n>   - Credit the rent paid account to undo the error\n>   - Debit the bank (or cash) account to undo the error\n> - Item 5: Wages was debited instead of drawings\n> \n>   - Credit the wages account to undo the error\n>   - Debit the drawings account as it reduces the capital"
+    },
+    {
+     "id": "qstnprt_dkWZmjhZ28QxZ8MH",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/22",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following table by entering the amount of each adjustment required to calculate Ramla’s adjusted profit. If an item has no effect on profit, enter zero (0) in the ‘no effect on profit’ box.\n\n| Item | Increase in profit<br><br>\\$ | Decrease in profit <br>\\$ | No effect on profit | Profit <br>\\$ |\n|---|---|---|---|---|\n| Draft profit |   |   |   | 11 650 |\n| 1 |   |   |   |   |\n| 2 |   |   |   |   |\n| 3 |   |   |   |   |\n| 4 |   |   |   |   |\n| 5 |   |   |   |   |\n| Adjusted profit |   |   |   |   |",
+     "solution_md": "| Item | Increase in profit<br><br>\\$ | Decrease in profit <br>\\$ | No effect on profit | Profit <br>\\$ |   |\n|---|---|---|---|---|---|\n| Draft profit |   |   |   | 11 650 |   |\n| 1 |   | 99 |   |   | **[1]** |\n| 2 |   |   | 0 | **[1]** |   |\n| 3 | 500 |   |   | **[1]** |   |\n| 4 | 180 |   |   | **[1]** |   |\n| 5 | 120 |   |   | **[1]** |   |\n| Adjusted profit | 800 | 99 | 0 | 12 351 | **[1]** |\n\n> **[mark-scheme]**\n> 6 marks in total:\n> \n> - 1 mark for correctly identifying the effect of each error.\n> - 1 mark for using your **own figures** to calculate the adjusted profit.\n> \n> **Explanation**\n> \n> - Item 1: Decreases profit\n> \n>   - as irrecoverable debts is an expense\n> - Item 2: No effect on profit\n> \n>   - as the purchase was a non-current asset\n> - Item 3: Increase profit\n> \n>   - as loan interest (expense) is reduced\n>   - and the loan is a liability not an expense\n> - Item 4: Increase profit\n> \n>   - as rent paid (expense) is reduced\n> - Item 5: Increase profit\n> \n>   - as wages (expense) is reduced\n\n> **[exam-tip]**\n> An easy way to determine the effects on the profit is to identify the accounts which relate to expenses or income. Then any credit entries in these accounts increase profit and any debits decrease the profit."
+    }
+   ]
+  },
+  {
+   "id": "qstn_7BW8Bx56TzZFR8Hw",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_H5rp5q8FWm3FBZvp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vfNB97tQQRqFPg4k",
+      "spcpt_C7r59XBDpbKhPgQr",
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Rachel is a trader. \nThe totals of Rachel’s trial balance prepared on 30 September 2023 did not agree and the difference was placed in a suspense account.\n\nRachel later discovered the errors shown in the following table.\n\n**REQUIRED**\n\nComplete the following table to show the entries required to correct each error. The first one has been completed as an example.\n\n| Error | Entries required to correct the error |   |   |   |\n|---|---|---|---|---|\n| Debit | Credit |   |   |   |\n| Account | \\$ | Account | \\$ |   |\n| A payment for rent, \\$350, had been debited to the wages account | *Rent payable* | *350* | *Wages* | *350* |\n| The sales journal for September had been overcast by \\$90. |   |   |   |   |\n| Sales returns, \\$110, had been recorded as purchases returns |   |   |   |   |\n| A payment for office expenses, \\$18, had been recorded in the office expenses account as \\$81. |   |   |   |   |\n| A petty cash book payment, \\$29, to Cole, a supplier, had been recorded in the column for motor expenses. |   |   |   |   |",
+     "solution_md": "| Error | Entries required to correct the error |   |   |   |\n|---|---|---|---|---|\n| Debit | Credit |   |   |   |\n| Account | \\$ | Account | \\$ |   |\n| A payment for rent, \\$350, had been debited to the wages account | *Rent payable* | *350* | *Wages* | *350* |\n| The sales journal for September had been overcast by \\$90. | Sales **[1]** | 90 | Suspense **[1]** | 90 |\n| Sales returns, \\$110, had been recorded as purchases returns | Purchases returns **[1]** | 110 | Suspense **[1]** | 220 |\n| Sales returns **[1]** | 110 |   |   |   |\n| A payment for office expenses, \\$18, had been recorded in the office expenses account as \\$81. | Suspense **[1]** | 63 | Office expenses **[1]** | 63 |\n| A petty cash book payment, \\$29, to Cole, a supplier, had been recorded in the column for motor expenses. | Cole **[1]** | 29 | Motor expenses **[1]** | 29 |\n\n> **[mark-scheme]**\n> 9 marks in total. 1 mark for each correct account and amount.\n> \n> **Explanation**\n> \n> - The credit balance in the sales account is \\$90 too high\n> \n>   - Debit the sales account to reduce the balance\n>   - Credit the suspense account to balance\n> - The credit balance in the purchases returns account is \\$110 too high and the debit balance in the sales returns account is \\$110 too low\n> \n>   - Debit the purchases returns account to reduce the balance\n>   - Debit the sales returns account to increase the balance\n>   - Credit the suspense with double the value to balance the entries\n> - The debit balance in the office expenses account is \\$63 too high\n> \n>   - Credit the office expenses account to reduce the balance\n>   - Debit the suspense account to balance\n> - The debit balance in the motor expenses account is \\$29 too high and the credit balance in Cole's account is \\$29 too high\n> \n>   - Debit Cole's account to reduce his balance\n>   - Credit the motor expenses account to reduce the balance\n\n> **[exam-tip]**\n> This question has 8 empty boxes but 9 marks. This should signal that one box has two entries."
+    },
+    {
+     "id": "qstnprt_DTZmWNbbtqFvhr2s",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare the suspense account. Include the balancing figure as the original difference on the trial balance.\n\nRachel \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Rachel \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2023 |   |   | 2023 |   |   |\n| Sep 30 | Difference on trial balance **[1]** | 247 | Sep 30 | Sales **[1]** | 90 |\n|   | Office expenses **[1]** | 63 |   | Purchases returns **[1]** | 110 |\n|   |   |   |   | Sales returns **[1]** | 110 |\n|   |   | <u>310</u> |   |   | <u>310</u> |\n\n> **[mark-scheme]**\n> 5 marks in total. 1 mark for each correct entry and amount. You get the mark for the difference on trial balance for using your **own figure**."
+    },
+    {
+     "id": "qstnprt_mpDW4VMWMZbn788y",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Rachel’s draft profit before the errors were discovered was \\$18 243.\n\n**REQUIRED**\n\nCalculate Rachel’s profit for the year ended 30 September 2023 **after **the errors in the table have been corrected.",
+     "solution_md": "**Final answer:** **\\$18 025**\n\n|   | \\$ |   | \\$ |   |\n|---|---|---|---|---|\n| Original profit |   |   | 18 243 |   |\n| Add: |   |   |   |   |\n| Office expenses | 63 | **[1]** |   |   |\n| Motor expenses | <u>29</u> | **[1]** | <u>92</u> |   |\n|   |   |   | 18 335 |   |\n| Less: |   |   |   |   |\n| Sales | 90 | **[1]** |   |   |\n| Purchases returns | 110 | **[1]** |   |   |\n| Sales returns | <u>110</u> | <u>310</u> |   |   |\n| Correct profit |   |   | <u>18 025</u> | **[1]** |\n\n> **[mark-scheme]**\n> 5 marks in total.\n> \n> - 1 mark for adding each of the following:\n> \n>   - office expenses\n>   - motor expenses\n> - 1 mark for subtracting each of the following:\n> \n>   - sales\n>   - **both **purchases returns **and **sales returns\n> - 1 mark for your **own figure** for the correct profit\n\n> **[exam-tip]**\n> Remember, entries which increase profit are on the credit side and entries which decrease profit are on the debit side. Therefore, look through the entries and pick out the ones which involve expenses or income."
+    }
+   ]
+  },
+  {
+   "id": "qstn_fHvhw3q4GDJp2gRG",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 20,
+   "parts": [
+    {
+     "id": "qstnprt_6s2X7r34pcv2xRWm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 11,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vfNB97tQQRqFPg4k"
+     ],
+     "part_tier": null,
+     "problem_md": "Asia is a trader. She prepared her trial balance at 31 August 2023. The credit side totalled \\$273 more than the debit side. Asia placed the difference in a suspense account.\n\nAsia later discovered the following errors.\n\n1. A credit purchase, \\$112, from Jacques, had been entered twice in the purchases journal.\n2. The wages account had been overcast by \\$300.\n3. Cash received, \\$75, from Savanah, a trade receivable, had only been entered in the cash book.\n4. The total of the sales returns journal for August 2023 of \\$198, had been credited to both the sales returns account and the purchases returns account.\n5. A payment to Sophie, \\$93, had been recorded as \\$39 in Sophie’s account.\n\n**REQUIRED**\n\nPrepare the journal entries to correct errors 1–5. Narratives are **not **required.\n\nAsia\nJournal\n\n| Error number | Details | Debit<br><br>\\$ | Credit<br><br>\\$ |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "Asia\nJournal\n\n| Error number | Details | Debit<br><br>\\$ | Credit<br><br>\\$ |   |\n|---|---|---|---|---|\n| 1 | Jacques | 112 |   | **[1]** |\n|   | Purchases |   | 112 | **[1]** |\n| 2 | Suspense | 300 |   | **[1]** |\n|   | Wages |   | 300 | **[1]** |\n| 3 | Suspense | 75 |   | **[1]** |\n|   | Savanah |   | 75 | **[1]** |\n| 4 | Sales returns | 396 |   | **[1]** |\n|   | Purchases returns | 198 |   | **[1]** |\n|   | Suspense |   | 594 | **[1]** |\n| 5 | Sophie | 54 |   | **[1]** |\n|   | Suspense |   | 54 | **[1]** |\n\n> **[mark-scheme]**\n> 11 marks in total. 1 mark for each correct account with the correct amount.\n> \n> **Explanation**\n> \n> - Error 1: The debit balance for purchases is \\$112 overcast and the credit balance for Jacques is overcast by \\$112\n> \n>   - Credit the purchases account to reduce the balance\n>   - Debit Jacques' account to reduce the balance\n> - Error 2: The wages account was overcast by \\$300\n> \n>   - Credit the wages account to reduce the balance\n>   - Debit the suspense account to balance\n> - Error 3: The cash received from Savanah was not credited to her account\n> \n>   - Credit Savanah's account to enter the payment correctly\n>   - Debit the suspense account to balance\n> - Error 4: The sales returns account should have been debited not credited and the purchases returns account should not have been used\n> \n>   - Debit the sales returns account by double the amount to undo the error and enter it correctly\n>   - Debit the purchases returns account to undo the error\n>   - Credit the suspense account by triple the amount to balance\n> - Error 5: The entries for the payment to Sophie  were undercast by \\$54\n> \n>   - Debit Sophie's account to increase the amount paid\n>   - Credit the suspense account to balance\n\n> **[exam-tip]**\n> If you struggle with these questions, then draw up the accounts with how the transactions have been entered. Draw up another set of accounts with how the transactions should have been entered. Then make the entries needed to undo the errors."
+    },
+    {
+     "id": "qstnprt_bPPnyG8kmXmKxqvD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "042/21",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare the suspense account, including the original difference on the trial balance\n\nAsia \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Asia \nSuspense account\n\n| Date | Details |   | \\$ | Date | Details |   | \\$ |\n|---|---|---|---|---|---|---|---|\n| 2023 |   |   |   | 2023 |   |   |   |\n| Aug 31 | Difference on trial balance | **[1]** | 273 | Aug 31 | Sales returns | **[1]** | 396 |\n|   | Wages | **[1]** | 300 |   | Purchases returns | 198 |   |\n|   | Savanah | **[1]** | 75 |   | Sophie | **[1]** | 54 |\n|   |   |   | <u>648</u> |   |   |   | <u>648</u> |\n\n> **[mark-scheme]**\n> 5 marks in total. 1 mark for the correct details and amount for:\n> \n> - difference on trial balance\n> - wages\n> - Savanah\n> - **both **sales returns **and **purchases returns\n> - Sophie"
+    },
+    {
+     "id": "qstnprt_DVhknkm2VWcw5PMn",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following table by placing a tick (✓) to show the effect of each error. The first one has been completed as an example.\n\n| Error number | Error | Gross profit | Profit for the year | No effect |   |   |\n|---|---|---|---|---|---|---|\n| + | - | + | - |   |   |   |\n| 1 | A credit purchase, \\$112, from Jacques, had been debited twice to the purchases account. |   | ✓ |   | ✓ |   |\n| 2 | The wages  account had been overcast by \\$300. |   |   |   |   |   |\n| 3 | Cash received, \\$75 from Savanah, a trade receivable, had only been entered in the cash book. |   |   |   |   |   |\n| 4 | The total of the sales returns journal for August 2023, \\$198, had been credited to both the sales returns account and the purchases returns account. |   |   |   |   |   |\n| 5 | A payment to Sophie, \\$93, had been recorded as \\$39 in Sophie’s account. |   |   |   |   |   |",
+     "solution_md": "| Error number | Error | Gross profit | Profit for the year | No effect |   |   |   |\n|---|---|---|---|---|---|---|---|\n| + | - | + | - |   |   |   |   |\n| 1 | A credit purchase, \\$112, from Jacques, had been debited twice to the purchases account. |   | ✓ |   | ✓ |   |   |\n| 2 | The wages  account had been overcast by \\$300. |   |   |   | ✓ |   | **[1]** |\n| 3 | Cash received, \\$75 from Savanah, a trade receivable, had only been entered in the cash book. |   |   |   |   | ✓ | **[1]** |\n| 4 | The total of the sales returns journal for August 2023, \\$198, had been credited to both the sales returns account and the purchases returns account. | ✓ |   | ✓ |   |   | **[1]** |\n| 5 | A payment to Sophie, \\$93, had been recorded as \\$39 in Sophie’s account. |   |   |   |   | ✓ | **[1]** |\n\n> **[mark-scheme]**\n> 4 marks in total. 1 mark for each correct row.\n> \n> **Explanation**\n> \n> - Error 2: Decrease profit for the year but no effect on gross profit.\n> \n>   - This is because wages are an expense, and it is overcast, which reduces profit for the year.\n>   - It is not a trading expense, so does not affect the gross profit.\n> - Error 3: No effect on either profit.\n> \n>   - This is because Savanah is a trade receivable. Trade receivables and bank are assets and their balances do not affect the profit.\n> - Error 4: Increase both the profits.\n> \n>   - This is because purchases returns have been overcast and sales returns have been undercast. These both make the gross profit increase.\n> - Error 5: No effect on either profit.\n> \n>   - This is because Sarah is a trade payable. Trade payables are liabilities and the bank is an asset, and their balances do not affect the profit."
+    }
+   ]
+  },
+  {
+   "id": "qstn_8C9CvZtxFcjyKTbr",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 20,
+   "parts": [
+    {
+     "id": "qstnprt_QzKTS6MdqzB8PyBv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_WqNTxrcGp79cBYTK",
+      "spcpt_vfNB97tQQRqFPg4k",
+      "spcpt_kf8J3mV9z6q5qZmt",
+      "spcpt_C7r59XBDpbKhPgQr",
+      "spcpt_6YJQ8smNcMnRnYbQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Eshe is a trader. She has prepared a trial balance at 31 March 2023. The totals did not agree and the difference was placed in a suspense account.\n\nEshe later discovered the errors shown in the following table.\n\n**REQUIRED **\n\nComplete the table to show the entries required to correct each error. The first one has been completed as an example.\n\n| Error | Entries required to correct the error |   |   |   |\n|---|---|---|---|---|\n| Debit | Credit |   |   |   |\n| Account | \\$ | Account | \\$ |   |\n| A payment for rent, \\$300, had been debited to the insurance account. | *Rent paid* | *300* | *Insurance* | *300* |\n| Credit sales to Raymond of \\$105 had been debited to the sales account and credited to Raymond’s account. |   |   |   |   |\n| Eshe’s total drawings from the bank for her own use, \\$9500, had been debited to the cash account. |   |   |   |   |\n| A purchases invoice from Danika for \\$137 had been recorded in her account and in the purchases journal as \\$173. |   |   |   |   |\n| Returns inwards, \\$44, had not been recorded in the returns inwards account. |   |   |   |   |\n| The motor expenses account had been overcast by \\$100. |   |   |   |   |",
+     "solution_md": "| Error | Entries required to correct the error |   |   |   |\n|---|---|---|---|---|\n| Debit | Credit |   |   |   |\n| Account | \\$ | Account | \\$ |   |\n| A payment for rent, \\$300, had be | *Rent paid* | *300* | *Insurance* | *300* |\n| Credit sales to Raymond of \\$105 had been debited to the sales account and credited to Raymond’s account. | Raymond **[1]** | 210 | Sales **[1]** | 210 |\n| Eshe’s total drawings from the bank for her own use, \\$9500, had been debited to the cash account. | Drawings **[1]** | 9 500 | Cash **[1]** | 9 500 |\n| A purchases invoice from Danika for \\$137 had been recorded in her account and in the purchases journal as \\$173. | Danika **[1]** | 36 | Purchases **[1]** | 36 |\n| Sales returns, \\$44, had not been recorded in the sales returns account. | Sales returns **[1]** | 44 | Suspense **[1]** | 44 |\n| The motor expenses account had been overcast by \\$100. | Suspense **[1]** | 100 | Motor expenses **[1]** | 100 |\n\n> **[mark-scheme]**\n> 10 marks in total. 1 mark for each correct account with the correct amount.\n> \n> **Explanation**\n> \n> - The entries for the credit sales have been reversed\n> \n>   - Debit Raymond's account by double the amount to undo the error and enter it correctly\n>   - Credit the sales account by double the amount to undo the error and enter it correctly\n> - The entry for drawings was debited to the cash account instead of the drawings account\n> \n>   - Credit the cash account to undo the error\n>   - Debit the drawings account to enter it correctly\n> - The entries for Danika's purchase was overcast by \\$36\n> \n>   - Debit Danika's account to reduce the balance\n>   - Credit the purchases account to reduce the balance\n> - The entry for sales returns was not recorded into the sales returns account\n> \n>   - Debit the sales returns account to enter it correctly\n>   - Credit the suspense account to balance\n> - The motor expenses account was overcast by \\$100\n> \n>   - Credit the motor expenses account to reduce the balance\n>   - Debit the suspense account to balance"
+    },
+    {
+     "id": "qstnprt_NMbNNdS8X6YZXf9g",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare the suspense account. Include the balancing figure as the original difference on the trial balance.\n\nEshe \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Eshe \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2023 |   |   | 2023 |   |   |\n| Mar 31 | Motor expenses **[1]** | 100 | Mar 31 | Difference on trial balance **[1]** | 56 |\n|   |   |   |   | Sales returns **[1]** | 44 |\n|   |   | <u>100</u> |   |   | <u>100</u> |\n\n> **[mark-scheme]**\n> 3 marks in total.\n> \n> - 1 mark for sales returns on the credit side\n> - 1 mark for motor expenses on the debit side\n> - 1 mark for balancing your **own figures** with the difference on trial balance"
+    },
+    {
+     "id": "qstnprt_NPNPq23zYvpdpR8w",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw",
+      "spcpt_CmkWQBxPVRMZ42Sw"
+     ],
+     "part_tier": null,
+     "problem_md": "Eshe’s capital at 1 April 2022 was \\$31000. Her draft profit for the year ended 31 March 2023 before correction of the errors was \\$15600.\n\n**REQUIRED **\n\nCalculate Eshe’s capital at 31 March 2023 **after** the errors have been corrected.",
+     "solution_md": "**Final answer:** **\\$37 402**\n\nCalculation of closing capital\n\n|   | \\$ |   | \\$ |   | \\$ |   |\n|---|---|---|---|---|---|---|\n| Capital at 1 April 2022 |   |   |   |   | 31 000 | **[1]** |\n| Draft profit |   |   | 15 600 |   |   |   |\n| Add Credit sales to Raymond | 210 | **[1]** |   |   |   |   |\n| Purchase from Danika | 36 | **[1]** |   |   |   |   |\n| Motor expenses | <u>100</u> | **[1]** | <u>346</u> |   |   |   |\n|   |   |   | 15 946 |   |   |   |\n| Less Sales returns |   |   | <u>44</u> | **[1]** | <u>15 902</u> |   |\n|   |   |   |   |   | 46 902 |   |\n| Less Drawings |   |   |   |   | <u>9 500</u> | **[1]** |\n|   |   |   |   |   | <u>37 402</u> | **[1]** |\n\n> **[mark-scheme]**\n> 7 marks in total.\n> \n> **Explanation**\n> \n> - 1 mark for adding the draft profit to the opening capital\n> - 1 mark **each **for adding the following to the draft profit\n> \n>   - Sales invoice to Raymond\n>   - Purchases invoice from Danika\n>   - Motor expenses\n> - 1 mark for subtracting the sales returns from the draft profit\n> - 1 mark for subtracting the drawings from the opening capital\n> - 1 mark for using your **own figures** to calculate the closing capital\n> \n> You do not need to set your answer out like a table. However, it is a logical method and clearly shows your calculation.\n\n> **[exam-tip]**\n> Remember, the formula to find the closing capital:\n> \n> closing capital = opening capital + profit for the year - drawings\n> \n> An easy way to determine the effects on the profit is to identify the accounts which relate to expenses or income. Then any credit entries in these account increase profit and any debits decrease the profit."
+    }
+   ]
+  },
+  {
+   "id": "qstn_9gpKPnzw49wgv7JY",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 20,
+   "parts": [
+    {
+     "id": "qstnprt_cvXT28hzt2HWCWHf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_vfNB97tQQRqFPg4k",
+      "spcpt_kf8J3mV9z6q5qZmt",
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Wasim is a trader. His financial year ends on 31 March.\n\nThe totals of his trial balance on 31 March 2017 did not agree. The difference was a shortage on the debit side of \\$495. This was entered in a suspense account.\n\nThe following errors were later discovered.\n\n1. The total of a page of the purchases account, \\$3842, had been carried forward as \\$3824.\n2. A cheque received from DEC Limited, \\$150, had been credited to the account of DDE Limited.\n3. The balance of the petty cash book, \\$100, had been omitted from the trial balance.\n4. Repairs to a motor vehicle, \\$283, had been debited to the motor vehicles account.\n5. Purchase of fixtures, \\$2000, on credit from OS Supplies had been debited to OS Supplies and credited to fixtures account.\n6. The total of the discount allowed column in the cash book, \\$250, had been credited to the discount received account in the ledger.\n7. The total of the analysis column for stationery in the petty cash book, \\$67, had not been transferred to the stationery account in the ledger.\n\n**REQUIRED **\n\nPrepare the suspense account. Start with the balance arising from the difference on the trial balance. The account should be balanced or totalled as necessary.\n\nWasim \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Wasim \nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2017 |   |   | 2017 |   |   |\n| Mar 31 | Difference on trial balance **[1]** | 495 | Mar 31 | Purchases **[1]** | 18 |\n|   | Balance c/d | 190 |   | Petty cash **[1]** | 100 |\n|   |   |   |   | Discount received **[1]** | 250 |\n|   |   |   |   | Discount allowed **[1]** | 250 |\n|   |   |   |   | Stationery **[1]** | 67 |\n|   |   | <u>685</u> |   |   | <u>685</u> |\n|   |   |   | Apr 1 | Balance b/d **[1]** | 190 |\n\n> **[mark-scheme]**\n> 7 mark in total.\n> \n> - 1 mark for the correct details and amount for each of the following.\n> \n> **Explanation**\n> \n> Go through each error individually and consider the correct entries.\n> \n> - Put the difference on trial balance of \\$495 on the debit side\n> \n>   - This is because the credit total was \\$495 more than the debit balance\n> - Put an entry of \\$18 for purchases on the credit side\n> \n>   - **Error 1** is an addition error\n>   - The purchases debit balance is undercast by \\$18\n>   - Fix the error by:\n>   \n>     - debiting the purchases account\n>     - crediting the suspense account\n> - Put an entry of \\$100 for petty cash on the credit side\n> \n>   - **Error 3** is an error of partial omission\n>   - The petty cash debit balance has been omitted\n>   - Fix the error by:\n>   \n>     - debiting the petty cash account\n>     - crediting the suspense account\n> - Put an entry of \\$250 for discount received on the credit side\n> \n>   - **Error 6** is an error of posting\n>   - The discount received account had been credited by mistake\n>   - Fix the error by:\n>   \n>     - debiting the discount received account\n>     - crediting the suspense account\n> - Put an entry of \\$250 for discount allowed on the credit side\n> \n>   - **Error 6** is an error of posting\n>   - The debit entry has been missed from the discount allowed account\n>   - Fix the error by:\n>   \n>     - debiting the discount allowed  account\n>     - crediting the suspense account\n> - Put an entry of \\$67 for stationery on the credit side\n> \n>   - **Error 7** is an error of partial omission\n>   - The debit entry has been missed from the stationery account\n>   - Fix the error by:\n>   \n>     - debiting the stationery  account\n>     - crediting the suspense account\n> - Balance the account and bring down the balance\n> \n>   - You get the mark for using your **own figures**\n\n> **[exam-tip]**\n> Normally, suspense accounts balance out. However, this one does not. This means there are further undiscovered errors. The question hints at this by saying \"The account should be balanced or totalled as necessary\".\n> \n> Errors 2, 4 and 5 do not affect the trial balance and do not require the suspense account to fix them.\n> \n> Error 2 is an error of commission. The total for trade receivables is correct even though the balances for individual accounts are incorrect\n> \n> Error 4 is an error of principle. The balance for motor vehicles repairs is under by \\$283 and the balance for motor vehicles is over by \\$283. Both accounts have debit balances, so the errors balance out.\n> \n> Error 5 is an error of complete reversal. The amounts are correct, but the debit and credit entries are the wrong way around."
+    },
+    {
+     "id": "qstnprt_S6RDYBpFwsvKS57g",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_kf8J3mV9z6q5qZmt"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare journal entries to correct** two** of the errors which do **not **require correcting by means of the suspense account. Narratives **are **required.\n\nWasim\nJournal\n\n| Error number | Details | Debit<br>\\$ | Credit<br>\\$ |\n|---|---|---|---|\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "Wasim\nJournal\n\n| Error number | Details | Debit<br>\\$ | Credit<br>\\$ |\n|---|---|---|---|\n| 2 | DDE Limited **[1]** | 150 |   |\n|   | DEC Limited **[1]** |   | 150 |\n|   | Correction of error of commission between DDE credited and DEC. **[1]** |   |   |\n| 4 | Motor vehicles repairs **[1]** | 283 |   |\n|   | Motor vehicles **[1]** |   | 283 |\n|   | Correction of error of principle between motor vehicles and motor vehicles repairs. **[1]** |   |   |\n| 5 | Fixtures **[1]** | 4000 |   |\n|   | OS Supplies **[1]** |   | 4000 |\n|   | Correction of error of complete reversal. **[1]** |   |   |\n\n> **[mark-scheme]**\n> You get marks for a maximum of two errors.\n> \n> For each error, 1 mark for the following:\n> \n> - the correct debit entry and amount\n> - the correct credit entry and amount\n> - a correct narrative explaining the error\n> \n> **Explanation**\n> \n> Consider **Error 2**\n> \n> - It was credited to the wrong account of the correct type\n> \n>   - This is an error of commission\n> - Fix the error by:\n> \n>   - debiting DDE account\n>   - crediting DEC account\n> \n> Consider** Error 4**\n> \n> - It was debited to the wrong account of the incorrect type\n> \n>   - This is an error of principle\n> - Fix the error by:\n> \n>   - debiting motor vehicles repairs account\n>   - crediting motor vehicles account\n> \n> Consider** Error 5**\n> \n> - The entries are the wrong way around\n> \n>   - This is an error of complete reversal\n> - Double the amount to fix the error\n> \n>   - The first amount removes the mistake\n>   - The second amount records the transaction correctly\n> - Fix the error by:\n> \n>   - debiting fixtures account\n>   - crediting OS Supplies account"
+    },
+    {
+     "id": "qstnprt_n799ZQ4rn7pkFX6T",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_4RgSNcmjWkMgkfvz"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the type of error made in **Error 2**.",
+     "solution_md": "**Error of commission** **[1 mark]**\n\n> **[mark-scheme]**\n> DEC Limited should have been credited instead of the DDE Limited. This means it is either an error of commission or principle.\n> \n> Both DEC Limited and DDE Limited are both trade receivables, so the type of account was correct. This means it was an error of commission."
+    },
+    {
+     "id": "qstnprt_zbRDNWhWcMmyV9vy",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "Specimen 2020",
+      "number": "0452/02",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Wasim prepared draft financial statements for the year.\n\n**REQUIRED **\n\nComplete the following table by placing a tick (✓) in the correct column to indicate whether the profit for the year would be affected by **each** of the errors. Ignore depreciation of non-current assets.\n\nThe first one has been completed as an example.\n\n| error number | affects the profit for the year | does not affect the profit for the year |\n|---|---|---|\n| 1 | ✓ |   |\n| 2 |   |   |\n| 3 |   |   |\n| 4 |   |   |\n| 5 |   |   |\n| 6 |   |   |\n| 7 |   |   |",
+     "solution_md": "| error number | affects the profit for the year | does not affect the profit for the year |\n|---|---|---|\n| 1 | ✓ |   |\n| 2 |   | ✓ **[1]** |\n| 3 |   | ✓ **[1]** |\n| 4 | ✓ **[1]** |   |\n| 5 |   | ✓ **[1]** |\n| 6 | ✓ **[1]** |   |\n| 7 | ✓ **[1]** |   |\n\n> **[mark-scheme]**\n> 1 mark for each correct row.\n> \n> **Explanation**\n> \n> Consider each error individually.\n> \n> - **Error 2** does not affect profit\n> \n>   - DEC Limited and DDE Limited are asset accounts\n>   \n>     - They are not income or expenses\n> - **Error 3**  does not affect profit\n> \n>   - The petty cash balance is an asset account\n>   \n>     - It is not an income or an expense\n> - **Error 4** does affect the profit\n> \n>   - The motor vehicles repairs account has been undercast by \\$283\n>   \n>     - The expenses is undercast by \\$283\n>     - The profit is overcast by \\$283\n> - **Error 5** does not affect profit\n> \n>   - Fixtures is an asset account and OS Supplies is a liability account\n>   \n>     - They are not income or expenses\n> - **Error 6** does affect the profit\n> \n>   - The discount received has been overcast by \\$250 and the discount allowed has been undercast by \\$250\n>   \n>     - The income is overcast by \\$250 and the expense is undercast by \\$250\n>     - The profit is overcast by \\$500\n> - **Error 7** does affect the profit\n> \n>   - The stationery account has been undercast by \\$67\n>   \n>     - The expenses is undercast by \\$67\n>     - The profit is overcast by \\$67\n\n> **[exam-tip]**\n> Remember, only income and expenses affect the profit for the year."
+    }
+   ]
+  },
+  {
+   "id": "qstn_hdGJbHWtrQ896fRp",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 18,
+   "parts": [
+    {
+     "id": "qstnprt_DVqwrMjXnMmY557K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kf8J3mV9z6q5qZmt"
+     ],
+     "part_tier": null,
+     "problem_md": "Nabila is a trader. Her financial year ends on 30 September.\n\nThe trial balance totals at 30 September 2025 did not agree. The total of the debit balances was \\$108 more than the total of the credit balances. The difference was placed in a suspense account.\n\nThe following errors were later discovered.\n\n1. An electricity payment \\$78, by direct debit, was not recorded.\n2. A cheque \\$246 received from K. Patel was correctly entered in the cash book, but was credited to the account of N. Patel.\n3. Drawings \\$360 from the business bank account had been debited to wages.\n4. A contra entry \\$190 to set off mutual balances between Nabila and Jazeem was only recorded in the sales ledger.\n5. Discount received column total \\$84 in the cash book was debited to discount allowed in the ledger.\n6. The sales returns journal for September was overcast by \\$220.\n7. A purchase of office equipment \\$1 540 on credit from ByteTech Ltd was entered into the office equipment account as \\$1 450.\n\n**REQUIRED**\n\nPrepare journal entries to correct **Error 1** and **Error 2**. Narratives **are **required.\n\n| Error number | Details | Debit<br>\\$ | Credit<br>\\$ |\n|---|---|---|---|\n| 1 |   |   |   |\n|   |   |   |   |\n|   |   |   |   |\n| 2 |   |   |   |\n|   |   |   |   |\n|   |   |   |   |",
+     "solution_md": "| Error number | Details | Debit<br>\\$ | Credit<br>\\$ |\n|---|---|---|---|\n| 1 | Electricity **[1]** | 78 |   |\n|   | Bank **[1]** |   | 78 |\n|   | Correction of an error of omission of an electricity payment **[1]** |   |   |\n| 2 | N. Patel **[1]** | 246 |   |\n|   | K. Patel **[1]** |   | 246 |\n|   | Correction of an error of commission between N. Patel and K. Patel **[1]** |   |   |\n\n> **[mark-scheme]**\n> For each error, 1 mark for the following:\n> \n> - the correct debit entry and amount\n> - the correct credit entry and amount\n> - a correct narrative explaining the error\n> \n> **Explanation**\n> \n> Consider **Error 1**\n> \n> - The electricity payment was not recorded\n> \n>   - This is an error of omission\n> - Record the payment by:\n> \n>   - debiting the electricity account\n>   - crediting the bank account\n> \n> Consider** Error 2**\n> \n> - It was credited to the wrong account of the correct type\n> \n>   - This is an error of commission\n> - Fix the error by:\n> \n>   - debiting N. Patels' account\n>   - crediting K. Patel's account"
+    },
+    {
+     "id": "qstnprt_rzBWV6tvNPdxZrDV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_6YJQ8smNcMnRnYbQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the type of error made in **Error 3**.",
+     "solution_md": "**Error of principle** **[1 mark]**\n\n> **[mark-scheme]**\n> The drawings account should have been debited instead of the wages. This means it is either an error of commission or principle.\n> \n> The drawings account and wages accounts are different types, therefore it is an error of principle."
+    },
+    {
+     "id": "qstnprt_VHVd7m4yCggWMyW2",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_8hGVCZkWws9nBhnH"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare the suspense account, including the original difference on the trial balance.\n\nNabila\nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Nabila\nSuspense account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n| 2025 |   |   | 2025 |   |   |\n| Sep 30 | Discount allowed | 84 | Sep 30 | Difference on trial balance **[1]** | 108 |\n|   | Discount received **[1]** | 84 |   | Jazeem **[1]** | 190 |\n|   | Sales returns **[1]** | 220 |   | Office equipment **[1]** | 90 |\n|   |   | <u>388</u> |   |   | <u>388</u> |\n\n> **[mark-scheme]**\n> 5 mark in total.\n> \n> - 1 mark for the correct details and amount for each of the following.\n> \n> **Explanation**\n> \n> Go through each error individually and consider the correct entries.\n> \n> - Put the difference on trial balance of \\$108 on the credit side\n> \n>   - This is because the debit total was \\$108 more than the credit balance\n> - Put an entry of \\$190 for Jazeem on the credit side\n> \n>   - **Error 4** is an error of partial omission\n>   - Jazeem's account  in the sales ledger was credited\n>   - Jazeem's account in the purchases ledger was **not **debited\n>   - Fix the error by:\n>   \n>     - debiting Jazeem's account in the purchases ledger\n>     - crediting the suspense account\n> - Put an entry of \\$84 for discount allowed **and **an entry of \\$84 for discount received on the debit side\n> \n>   - **Error 5** is a posting error\n>   - The discount allowed account was debited by mistake\n>   - The discount received account should have been credited\n>   - Fix the error by:\n>   \n>     - crediting the discount allowed account\n>     - crediting the discount received account\n>     - debiting the suspense account\n> - Put an entry of \\$220 for sales returns on the debit side\n> \n>   - **Error 6** is an addition error\n>   - The debit balance on the sales returns account is \\$220 too high\n>   - Fix the error by:\n>   \n>     - crediting the sales returns account\n>     - debiting the suspense account\n> - Put an entry of \\$90 for office equipment on the credit side\n> \n>   - **Error 7** is an error of unequal posting (transposition)\n>   - The debit entry in the office equipment account was not high enough\n>   - Fix the error by:\n>   \n>     - debiting the office equipment account the extra amount\n>     - crediting the suspense account\n>   - You can also get the mark if you put \\$1 540 on the credit side **and \\$**1 450 on the debit side both for office equipment\n\n> **[exam-tip]**\n> Errors 1, 2 and 3 do not affect the trial balance and do not require the suspense account to fix them.\n> \n> Error 1 is an error of omission. The balances for the bank and electricity are both under by \\$78. Therefore, the debit and credit totals are balanced.\n> \n> Error 2 is an error of commission. The balances for the bank and trade receivables totals are correct. Therefore, the debit and credit totals are balanced.\n> \n> Error 3 is an error of principle. The balance for the bank is correct. The balance for drawings is under by \\$360 and the balance for wages is over by \\$360. These are both debit balances so overall the debit and credit totals are balanced."
+    },
+    {
+     "id": "qstnprt_gDkvG4qw6hcW3k9x",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JBFfXmh5Pvbt6KSw"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following table by placing a tick (✓) to show the effect of each error. The first one has been completed as an example.\n\nIgnore depreciation of non-current assets.\n\n| Error number | Increases the profit for the year | Decreases the profit for the year | No effect on the profit for the year |\n|---|---|---|---|\n| 1 | ✓ |   |   |\n| 2 |   |   |   |\n| 3 |   |   |   |\n| 4 |   |   |   |\n| 5 |   |   |   |\n| 6 |   |   |   |\n| 7 |   |   |   |",
+     "solution_md": "| Error number | Increases the profit for the year | Decreases the profit for the year | No effect on the profit for the year |\n|---|---|---|---|\n| 1 | ✓ |   |   |\n| 2 |   |   | ✓ **[1]** |\n| 3 |   | ✓ **[1]** |   |\n| 4 |   |   | ✓ **[1]** |\n| 5 |   | ✓ **[1]** |   |\n| 6 |   | ✓ **[1]** |   |\n| 7 |   |   | ✓ **[1]** |\n\n> **[mark-scheme]**\n> 1 mark for each correct row.\n> \n> **Explanation**\n> \n> Consider each error individually.\n> \n> - **Error 2** does not affect the income or expenses\n> \n>   - K. Patel and N. Patel have incorrect balances\n>   - The overall total for the trade receivables accounts is correct\n>   \n>     - This does not affect the profit\n> - **Error 3** decreases the profit\n> \n>   - It has overstated the expenses\n> - **Error 4** does not affect the income or expenses\n> \n>   - The trade payables account is understated\n>   - This affects the liabilities not the expenses or income\n> - **Error 5** decreases the profit\n> \n>   - It has overstated the expenses and understated the income\n> - **Error 6** decreases the profit\n> \n>   - It has understated the income\n> - **Error 7** does not affect the income or expenses\n> \n>   - The office equipment account is understated\n>   - This affects the assets not the expenses or income"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2PbQSxJ5YBky233W",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_vNWkVkB8gQJrKFfz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_t83ZfyP7c4B3j88c"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **reasons for preparing a trial balance.",
+     "solution_md": "- To assist in the preparation of financial statements **[1 mark]**\n- To check for arithmetical accuracy/errors with the double-entry records **[1 mark]**\n\n> **[mark-scheme]**\n> These are the only two statements that get the marks.\n\n> **[exam-tip]**\n> You must use a word such as \"arithmetical\" or \"numerical\" when describing the accuracy or errors."
     }
    ]
   }

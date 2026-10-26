@@ -331,3 +331,198 @@
 **B** is incorrect; the commission owed is an asset, not a liability
 
 **C** and **D** are incorrect; a prepaid income is an income for the next financial period that has been paid inadvance
+
+## Structured Questions (3 questions)
+
+
+### Q1
+Logan 
+Rent payable account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2022 |   |   | 2023 |   |   |
+| Oct 1 | Balance b/d **[1]** | 820 | Sep 30 | Income statement **[1]** | 4 940 |
+| Dec 1 | Bank **[1]** | 2 460 |   | Balance c/d | 830 |
+| 2023 |   |   |   |   |   |
+| Jun 1 | Bank **[1]** | 2 490 |   |   |   |
+|   |   | <u>5 770</u> |   |   | <u>5 770</u> |
+| Oct 1 | Balance b/d **[1]** | 830 |   |   |   |
+
+All dates correct **[1 mark]**
+
+> **[mark-scheme]**
+> 6 marks in total:
+> 
+> - 1 mark the for correct details and amount for:
+> 
+>   - Balance b/d 2022
+>   - Bank in Dec 2022
+>   - Bank in Jun 2023
+>   - Income statement
+> - 1 mark for using your **own figure** from balance c/d for the balance b/d 2023.
+> - 1 mark for entering all the dates correctly.
+
+### Q2
+Find the prepaid rates at the end of the year
+
+- Calculate the amount per month
+
+$2560\div16=160$
+
+- Identify the number of months that are prepaid
+
+*Jan 2017 = 1 month*
+
+- Calculate the prepaid amount
+
+$160\times1=160$
+
+Find the prepaid insurance at the end of the year
+
+- Calculate the amount per month
+
+$2400\div12=200$
+
+- Identify the number of months that are prepaid
+
+*Jan 2017 to Apr 2017 = 4 months*
+
+- Calculate the prepaid amount
+
+$200\times4=800$
+
+Calculate the amount to charge to the income statement
+
+- Rates is 12 months of the cheque paid
+
+$160\times12=1920$
+
+- Insurance is 8 months of the cheque paid plus the four months prepaid from the previous year
+
+$200\times8+700=2300$
+
+Amla 
+Rates and insurance account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2016 |   |   | 2016 |   |   |
+| Jan 1 | Balance b/d (insurance) **[1]** | 700 | Jan 1 | Balance b/d (rates) **[1]** | 480 |
+| Dec 31 | Bank (rates) **[1]** | 2 560 | Dec 31 | Income statement<br>(rates 1 920) **[1]**<br>(insurance 2 300) **[1]** | 4 220 |
+|   | Bank (insurance) **[1]** | 2 400 |   | Balance c/d<br>(rates 160)<br>(insurance 800) | 960 |
+|   |   | <u>5 660</u> |   |   | <u>5 660</u> |
+| 2017 |   |   |   |   |   |
+| Jan 1 | Balance b/d<br>(rates 160) **[1]**<br>(insurance 800) **[1]** | 960 |   |   |   |
+
+All dates correct **[1 mark]**
+
+> **[mark-scheme]**
+> 9 marks in total.
+> 
+> - 1 mark for entering all the dates correctly.
+> - 8 marks for the correct details and amounts explained below.
+> 
+> **Explanation**
+> 
+> - Accrual of rates at the start of 2016
+> 
+>   - Balance b/d on the credit side as it is still owed by Alma
+>   - Dated Jan 1 2016
+> - Prepayment of insurance at the start of 2016
+> 
+>   - Balance b/d on the debit side as it reduces the amount owed by Alma
+>   - Dated Jan 1 2016
+> - Bank payments for rates and insurance
+> 
+>   - Bank on the debit side as it reduces the amount owed by Alma
+>   - Dated Dec 31 2016
+>   - 1 mark for each correct figure
+> - Amount transferred to the income statement
+> 
+>   - Income statement on the credit side
+>   - 1 mark for each correct figure
+> - Prepayment of rates and insurance at the start of 2017
+> 
+>   - Balance b/d on the debit side as it reduces the amount owed by Alma
+>   - Dated Jan 1 2017
+>   - 2 marks for the correct figure **or **1 mark for using your **own figures**
+
+> **[exam-tip]**
+> There are many ways to do this. The example above shows how all the figures are found. However, you only need three values from:
+> 
+> - Accrual/prepayment at the start of the year
+> - The actual amount paid
+> - The amount due for the year
+> - Accrual/prepayment at the end of the year
+> 
+> The fourth can be found as the balancing figure.
+Section of statement of financial position: Current assets **[1 mark]**
+
+Reason: The rates and insurance are both prepaid at the end of the year **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the section and 1 mark for the reason.
+> 
+> You can get the reason mark by stating that the account has a debit balance.
+
+### Q3
+Calculate the amount per month
+
+$4800\div12=400$
+
+Calculate the amount received for the two months
+
+$400\times2=800$
+
+Calculate the amount due for the accounting year
+
+*Oct 2016 to Dec 2016 = 3 months*
+
+$400\times3=1200$
+
+Calculate the amount accrued at the end of the year
+
+*3 months - 2 months = 1 month*
+
+$400\times1=400$
+
+Amla 
+Rent receivable account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2016 |   |   | 2016 |   |   |
+| Dec 31 | Income statement **[1]** | 1 200 | Oct 1 | Bank **[1]** | 800 |
+|   |   |   | Dec 31 | Balance c/d | 400 |
+|   |   | <u>1 200</u> |   |   | <u>1 200</u> |
+| 2017 |   |   |   |   |   |
+| Jan 1 | Balance b/d **[1]** | 400 |   |   |   |
+
+All dates correct **[1 mark]**
+
+> **[mark-scheme]**
+> 4 marks in total.
+> 
+> - 1 mark for entering all the dates correctly.
+> - 3 marks for the correct details and amounts explained below.
+> 
+> **Explanation**
+> 
+> - Bank receipt for rent
+> 
+>   - Bank on the credit side as it reduces the amount owed to Amla
+> - Amount transferred to the income statement
+> 
+>   - Income statement on the debit side
+> - Accrual of rent at the start of 2017
+> 
+>   - Balance b/d on the debit side as it is owed to Alma
+Section of statement of financial position: Current assets **[1 mark]**
+
+Reason: Alma is owed the rent at the end of the year **[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for the section and 1 mark for the reason.
+> 
+> You can get the reason mark by stating that the account has a debit balance **or **for stating that it is an accrual of income.

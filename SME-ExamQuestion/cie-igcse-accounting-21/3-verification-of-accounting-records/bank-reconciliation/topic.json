@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:31:58Z",
+ "generated_utc": "2026-10-26T14:30:38Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -53,14 +53,29 @@
    "question_count": 8,
    "questions_embedded": 8,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/bank-reconciliation/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_V55ZGG3yGCrwTvhz",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/3-verification-of-accounting-records/bank-reconciliation/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 8,
-  "questions_missing": [],
+  "questions_embedded": 10,
+  "questions_missing": [
+   "qstn_9wjrThKpMhHBjyP7"
+  ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -472,6 +487,66 @@
        "text_md": "the bank statement balance"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_N9njQGHqmhV3j35k",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_zXbdrw4SDMKHBRBS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_yBccpvmcrXJtFHdQ",
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Shakir received a bank statement dated 30 September 2023. The bank statement showed that Shakir had \\$763 in the bank account. The bank balance in the cash book was \\$1 013. On comparing the bank statement to his cash book, Shakir noted the following.\n\nBank charges, \\$35, were charged by the bank in September. \nCash Sales, \\$175, had been paid for by credit transfer but not recorded in the cash book. \nThe cheque received from Sydney had not yet been cleared by the bank. \nThe cash sales, \\$290, had been omitted from the bank statement in error.\n\n**REQUIRED**\n\nCalculate the corrected bank balance.",
+     "solution_md": "**Final answer:** **\\$1 153**\n\n**Method 1**\n\nStart with the balance in the cash book\n\n|   | \\$ |\n|---|---|\n| Balance in cash book **[1]** | 1 013 |\n| Add cash sales by credit transfer **[1]** | 175 |\n| Less bank charges **[1]** | (35) |\n| Corrected bank balance **[1]** | 1 153 |\n\n**Method 2**\n\nStart with the balance on the bank balance\n\n|   | \\$ |\n|---|---|\n| Balance on bank statement **[1]** | 763 |\n| Uncredited deposit (Sydney) **[1]** | 100 |\n| Bank error **[1]** | 290 |\n| Corrected bank balance **[1]** | 1 153 |\n\n> **[mark-scheme]**\n> **Explanation**\n> \n> Work through each item individually.\n> \n> - Bank charges: This is on the bank statement but not the cash book\n> \n>   - Subtract from the balance in the cash book\n> - Cash sales: This is on the bank statement but not the cash book\n> \n>   - Add to the balance in the cash book\n> - Cheque from Sydney: This is in the cash book but not on the bank statement\n> \n>   - Add to the balance on the bank statement as it is an uncredited deposit\n> - Bank error of cash sales: This is in the cash book but not on the bank statement\n> \n>   - Add to the balance on the bank statement"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DVKfs26MfcqVqZVs",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_JHMcNbZQRMYqC93v",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yBccpvmcrXJtFHdQ",
+      "spcpt_ShDsTtvdYVYd3xtQ"
+     ],
+     "part_tier": null,
+     "problem_md": "On 30 September 2025, the bank balance in Hashim's cash book was \\$1 061. A bank statement dated 30 September 2025 showed that Hashim has \\$1 529 in the bank account, Hashim compared the bank statement and the cash book and found the following.\n\nElectricity, \\$87, has been paid by direct debit but not recorded in the cash book.\nThe cheque for rent, \\$630, dated 3 September does not appear on the bank statement.\nThe cheque received by Jai, \\$196, on 24 September had not yet been cleared by the bank.\nA refund, \\$121, had been received by credit transfer from a supplier but not recorded in the cash book.\n\n**REQUIRED**\n\nCalculate the corrected bank balance.",
+     "solution_md": "**Final answer:** **\\$1 095**\n\n**Method 1**\n\nStart with the balance in the cash book\n\n|   | \\$ |\n|---|---|\n| Balance in cash book **[1]** | 1 061 |\n| Add refund from supplier **[1]** | 121 |\n| Less electricity **[1]** | (87) |\n| Corrected bank balance **[1]** | 1 095 |\n\n**Method 2**\n\nStart with the balance on the bank balance\n\n|   | \\$ |\n|---|---|\n| Balance on bank statement **[1]** | 1 529 |\n| Add uncredited deposit (Jai) **[1]** | 196 |\n| Less unpresented cheque (rent) **[1]** | (630) |\n| Corrected bank balance **[1]** | 1 095 |\n\n> **[mark-scheme]**\n> **Explanation**\n> \n> Work through each item individually.\n> \n> - Electricity: This is on the bank statement but not the cash book\n> \n>   - Subtract from the balance in the cash book\n> - Rent: This is in the cash book but not on the bank statement\n> \n>   - Subtract from the balance on the bank statement as it is an unpresented cheque\n> - Jai: This is in the cash book but not on the bank statement\n> \n>   - Add to the balance on the bank statement as it is an uncredited deposit\n> - Refund: This is on the bank statement but not the cash book\n> \n>   - Add to the balance in the cash book"
     }
    ]
   }

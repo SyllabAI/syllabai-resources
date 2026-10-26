@@ -1,6 +1,6 @@
 # Exam Questions — Electric Current
 **9. Electricity** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 19 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 26 questions across 2 sets
 
 
 ## Multiple Choice Questions (19 questions)
@@ -190,3 +190,260 @@ Which equation that links some of the following terms is correct?
 | energy | *E* |
 | power | *P* |
 | time | *t* |
+
+## Structured Questions (7 questions)
+
+
+### Q1 — medium — 4 marks
+
+**Q1** [1 mark]
+
+Define the *coulomb*.
+
+**Q1** [1 mark]
+
+An electric current is a flow of charge carriers.
+
+In the following list, underline the possible charges for a charge carrier.
+
+1.6 × 10<sup>–20</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 1.6 × 10<sup>–19</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 4.0 × 10<sup>–19</sup> C ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 8.0 × 10<sup>–19</sup> C
+
+**Q1** [2 marks]
+
+The diameter of a wire XY varies linearly with distance along the wire as shown in Fig. 6.1.
+
+![A cylindrical conductor with current I flowing from left to right. Diameter at point X is 2d, narrowing to d at point Y. Drift speed at X is indicated as Vx.](assets/008-a-cylindrical-conductor-with-current-i-flowing-f.png)
+
+**Fig. 6.1**
+
+There is a current $I$ in the wire. At end X of the wire, the diameter is $2d$ and the average drift speed of the free electrons is $v_{X}$. At end Y of the wire, the diameter is $d$.
+
+On Fig. 6.2, sketch a graph to show the variation of the average drift speed with position along the wire between X and Y.
+
+![Grid graph with x-axis labelled "position along wire" from X to Y, and y-axis labelled "average drift speed" with increments vx to 4vx.](assets/009-grid-graph-with-x-axis-labelled-position-along-w.png)
+
+**Fig. 6.2**
+
+### Q2 — medium — 6 marks
+
+**Q2** [1 mark]
+
+A power source is connected across a component. The current in the component is 40.0 mA.
+
+Calculate the total charge that flows past a point in the component in 3 minutes.
+
+**Q2** [1 mark]
+
+**Extract:**
+
+A power source is connected across a component. The current in the component is 40.0 mA. Calculate the total charge that flows past a point in the component in 3 minutes.
+Current, I = 40.0 mA = 40.0 × 10^−3 A; Time, t = 3 minutes = 180 s; Q = It = (40.0 × 10^−3) × 180 = 7.2 C
+
+Calculate the number of electron charge carriers passing the same point in the conductor in this time.
+
+**Q2** [4 marks]
+
+**Extract:**
+
+A power source is connected across a component. The current in the component is 40.0 mA. Calculate the total charge that flows past a point in the component in 3 minutes. [Answer: Q = It = (40.0 × 10^−3) × 180 = 7.2 C]
+
+8.6 J of energy are transferred to the conductor in this time.
+
+(i) Calculate the potential difference across the component.
+
+[2]
+
+(ii) Calculate the resistance of the conductor.
+
+[2]
+
+### Q3 — easy — 9 marks
+
+**Q3** [2 marks]
+
+The Standard International System of Units (SI) is a system of measurement based on seven base units.
+
+State the **symbol **and the **SI unit **for electric charge.
+
+**Q3** [2 marks]
+
+In a circuit, a current of 2.0 A flows through a resistor for 90 minutes.
+
+Calculate the total charge passing through the resistor in this time.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+In a circuit, a current of 2.0 A flows through a resistor for 90 minutes. Calculate the total charge passing through the resistor in this time. Q = 2.0 × 5400 = 10 800 C
+
+Determine the number of electrons that pass a point in the resistor in part (b).
+
+**Q3** [3 marks]
+
+When a copper wire is exposed to a potential difference, a current is detected in it.
+
+Explain, with reference to charge carriers and electric fields, why there is a current detected in the wire.
+
+### Q4 — easy — 11 marks
+
+**Q4** [2 marks]
+
+Define the amp.
+
+**Q4** [2 marks]
+
+A charge of 60 × 10<sup>–6</sup> C flows through a given section of a conductor in 140 × 10<sup>–3</sup> s. Calculate the electric current, stating the final answer in mA.
+
+**Q4** [4 marks]
+
+Use words from the list below to complete the description of the movement of charge carriers in a conductor.
+
+| **current** | **delocalised** | **electric force** |
+|---|---|---|
+| **electric field** | **randomly** | **drift** |
+
+The charge carriers in a metal conductor are ...................... electrons.
+
+Normally the electrons move ..................... in all directions, but if a potential difference is applied between two points on the conductor, then an ..................... is created.
+
+This causes an ..................... to act on the charge carriers, causing them to ..................... along the conductor in a resultant direction.
+
+Therefore we can say that a steady ..................... flows through the conductor.
+
+**Q4** [3 marks]
+
+**Extract:**
+
+A charge of 60 × 10^–6^ C flows through a given section of a conductor in 140 × 10^–3^ s. Calculate the electric current, stating the final answer in mA.
+I = 4.3 × 10^-4 A = 0.43 mA (2 s.f.)
+
+The conductor described in part (d) has a cross-sectional area of 1.1 × 10<sup>−7</sup> m<sup>2</sup> and the electrons have an average drift speed of 18 mm s<sup>−1</sup>.
+
+Using the current calculated in part (b), calculate the number density of electrons in this conductor.
+
+### Q5 — medium — 8 marks
+
+**Q5** [4 marks]
+
+The smallest conductor within a computer processing chip can be represented as a rectangular block that is one atom high, four atoms wide and twenty atoms long. One such block is shown in Fig. 1.1.
+
+![9-1-2a-m-conducting-chip](assets/011-9-1-2a-m-conducting-chip.png)
+
+**Fig. 1.1.**
+
+The block is made from phosphorus atoms of diameter *d* = 3.8 × 10<sup>–10</sup> m. The atoms are deposited on an insulating surface. This ensures that the atoms touch each other.
+
+The processing chip has a resistance, measured from **P** to **Q**, of 220 Ω.
+
+(i) Define current.
+
+[1]
+
+(ii) Describe for this processing chip the properties which will affect the current.
+
+[3]
+
+**Q5** [1 mark]
+
+**Extract:**
+
+The block is made from phosphorus atoms of diameter d = 3.8 × 10^–10 m. The atoms are deposited on an insulating surface. This ensures that the atoms touch each other.
+
+Calculate the number density of free electrons within the block.
+
+Assume that each phosphorus atom contributes one free electron.
+
+**Q5** [3 marks]
+
+**Extract:**
+
+The smallest conductor within a computer processing chip can be represented as a rectangular block that is one atom high, four atoms wide and twenty atoms long. The block is made from phosphorus atoms of diameter d = 3.8 × 10^–10 m. The atoms are deposited on an insulating surface. This ensures that the atoms touch each other. The processing chip has a resistance, measured from P to Q, of 220 Ω.
+Calculate the number density of free electrons within the block. Assume that each phosphorus atom contributes one free electron. n = 1/d^3 = 1/(3.8 × 10^–10)^3 = 1.8 × 10^28 m^-3
+
+Calculate the current between P and Q when the mean drift velocity of free electrons in the block is 1.9 × 10<sup>–5</sup> m s<sup>–1</sup>.
+
+### Q6 — easy — 11 marks
+
+**Q6** [3 marks]
+
+Electric current is defined as the rate of flow of electric charge.
+
+(i) State the particle responsible for carrying electric charge around a circuit
+
+[1]
+
+(ii) Calculate the total electric charge carried by ten million of these particles
+
+[2]
+
+**Q6** [3 marks]
+
+A lamp forms part of a circuit. A current of 0.30 mA passes through the lamp for a period of 5 minutes.
+
+Calculate the amount of charge which passes a point in the lamp over those 5 minutes.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+A lamp forms part of a circuit. A current of 0.30 mA passes through the lamp for a period of 5 minutes.
+- Current, I = 0.30 mA = 0.30 × 10^–3 A
+
+A section of wire in the lamp in part (b) has a cross-sectional area of 4.5 × 10<sup>−5</sup> m<sup>2</sup>.
+
+Using the current calculated in part (b), calculate the average drift velocity of the electrons when the number density of electrons in this section of wire is 3.6 × 10<sup>22</sup> m<sup>−3</sup>.
+
+**Q6** [3 marks]
+
+Fig. 1.1 shows a typical electric circuit involving a battery, lamp and two resistors.** **
+
+There is a gap in the circuit between points **X** and **Y**.
+
+![5-1-s-q--q1b-easy-aqa-a-level-physics](assets/013-5-1-s-q-q1b-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Sketch on** **Fig. 1.1:
+
+(i) An **ammeter** between **X** and **Y** that would measure the current in the circuit
+
+[2]
+
+(ii) The direction of **conventional current** in the circuit
+
+[1]
+
+### Q7 — medium — 10 marks
+
+**Q7** [2 marks]
+
+Nancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb.
+
+Sketch a possible circuit diagram to show this experimental setup.
+
+**Q7** [3 marks]
+
+**Extract:**
+
+Nancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb. Sketch a possible circuit diagram to show this experimental setup.
+
+Explain why the ammeter needs to be connected in series.
+
+**Q7** [3 marks]
+
+**Extract:**
+
+Nancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb.
+
+Explain the results Nancy should expect to obtain, assuming the resistance of the bulb, ammeter and circuit remain constant.
+
+**Q7** [2 marks]
+
+**Extract:**
+
+Nancy is testing a new type of light bulb. She records the amount of current and the relative brightness of the light coming from the bulb. Sketch a possible circuit diagram to show this experimental setup.
+
+Nancy sets up her circuit and begins to conduct her experiment. Her first readings are negative values of current.
+
+Identify the problem and suggest a solution.

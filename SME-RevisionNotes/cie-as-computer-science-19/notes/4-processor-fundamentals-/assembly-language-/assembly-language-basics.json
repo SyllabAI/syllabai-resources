@@ -1,0 +1,107 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_FRDNydKVD5BwKnQ6",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/4-processor-fundamentals-/assembly-language-/assembly-language-basics",
+ "title": "Assembly language basics",
+ "page_title": "Assembly language basics | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "4-processor-fundamentals-",
+   "assembly-language-",
+   "assembly-language-basics"
+  ],
+  "section": "4-processor-fundamentals-",
+  "topic": "assembly-language-",
+  "leaf": "assembly-language-basics"
+ },
+ "titles": {
+  "section": "4. Processor Fundamentals",
+  "topic": "Assembly Language",
+  "subtopic": "Assembly language basics"
+ },
+ "updated_at": "2025-04-08T11:18:36.476Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_PfZ6VmBkxyXVhWZd"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 10,
+  "figures": 1,
+  "worked_examples": 0,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_PfZ6VmBkxyXVhWZd",
+   "name": "Machine code vs assembly",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Machine code vs assembly"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is machine code?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Machine code** is a first-generation language\n- Instructions are **directly executable by the processor**\n- Written in **binary code**"
+  },
+  {
+   "type": "figure",
+   "orig_src": "https://cdn.savemyexams.com/uploads/2025/04/39794_2025-04-04-0pu-kleki.png",
+   "file": "assets/a5e4d7097e16-39794-2025-04-04-0pu-kleki.png",
+   "alt": "Diagram showing programming language abstraction levels: machine code (binary), assembly, high-level compiled (C, C++), and interpreted (Python, JavaScript).",
+   "caption": "Levels of Abstraction of Programming Languages"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is assembly?"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Assembly code** is a second-generation language\n- The code is written using **mnemonics**, abbreviated text commands such as **LDA (Load), STA(Store) **\n- Using this language programmers can write **human-readable programs** that correspond **almost exactly to machine code**\n- **One assembly language instruction** translates to **one machine code instruction**\n- **Needs to be translated **into machine code for the computer to be able to execute it\n- Each type of computer CPU has a **specific** **instruction set**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Instruction set"
+  },
+  {
+   "type": "bullets",
+   "md": "- An instruction set is a list of **all the commands** that can be **processed by a CPU**\n- Each command has a **binary code** which is the **machine code**\n- In assembly the binary code is written using mnemonics and split into an **opcode **and **operand**\n- The **opcode** is the **part of an instruction** that tells the CPU what **operation** to perform\n- It's short for **\"operation code\"**\n- Example operations: *LDA* (load), *STA* (store), *ADD*, *INP*, *OUT*, *BRZ*, *BRA*\n- The **operand** is the **data** or **memory address** the opcode will work with\n- It gives the **extra detail** the CPU needs to complete the instruction\n- Often used to specify a **memory address**, a **value**, or a **label**"
+  },
+  {
+   "type": "table",
+   "md": "| **Opcode** | **Operand** | **Explanation** |\n|---|---|---|\n| `LDM` | `#n` | Immediate addressing. Load the number `n` to the accumulator (ACC). |\n| `LDD` | `<address>` | Direct addressing. Load the contents of the location at the given address to ACC. |\n| `LDI` | `<address>` | Indirect addressing. Use the value at the given address as a new address. Load contents to ACC. |\n| `LDX` | `<address>` | Indexed addressing. Use `<address> + index register` to get the final address. Load to ACC. |\n| `LDR` | `#n` | Immediate addressing. Load the number `n` to the index register (IX). |\n| `MOV` | `<register>` | Move the contents of ACC to the given register (e.g. IX). |\n| `STO` | `<address>` | Store the contents of ACC at the given memory address. |\n| `ADD` | `<address>` | Add the contents of the given address to ACC. |\n| `SUB` | `<address>` | Subtract the contents of the given address from ACC. |\n| `INC` | `<register>` | Increment the contents of the register (ACC or IX) by 1. |\n| `DEC` | `<register>` | Decrement the contents of the register (ACC or IX) by 1. |\n| `JMP` | `<address>` | Unconditional jump to the given address. |\n| `CMP` | `<address>` | Compare the contents of ACC with the contents of the given address. |\n| `CMP` | `#n` | Compare the contents of ACC with the number `n`. |\n| `CMI` | `<address>` | Indirect addressing. Compare ACC with the contents at the address stored in `<address>`. |\n| `JPE` | `<address>` | Jump to `<address>` if the previous compare result was **true** (equal). |\n| `JPN` | <address> | Jump to `<address>` if the previous compare result was **false** (not equal). |\n| `IN` |   | Take input from the keyboard and store its ASCII value in ACC. |\n| `OUT` |   | Output to the screen the character stored in ACC. |\n| `END` |   | End the program and return control to the operating system |\n| All questions will assume there is only one general purpose register available (Accumulator)<br><br>`ACC` denotes Accumulator<br><br>`IX` denotes Index Register<br><br>`<address>` can be an absolute or symbolic address<br><br>`#` denotes a denary number, e.g. #123<br><br>`B` denotes a binary number, e.g. B01001010<br><br>`&` denotes a hexadecimal number, e.g. &4A |   |   |"
+  }
+ ]
+}

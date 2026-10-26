@@ -590,3 +590,383 @@ Therefore, one alpha particle and two beta particles are emitted
   - $K E ( P b ) [ 1 + \frac{1}{0.0194} ] = E_{k}$
   - So, $K E ( P b ) = \frac{E_{k} }{( 1 + \frac{1}{0.0194} )} = 0.0190 E_{k}$
 - Therefore, the kinetic energy of `P presubscript 82 presuperscript 206 b` is between 0 and $\frac{E_{k}}{2}$
+
+## Structured Questions (8 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> (i) The observation that most alpha-particles pass through the foil implies:
+> 
+> - Most of an atom is empty space **OR** The nucleus (volume) is (very) small compared with the atom **[1 mark]**
+> 
+> (ii) The observation that very few alpha-particles were deflected through angles greater than 90° implies:
+> 
+> - The nucleus is charged **[1 mark]**
+> - The majority of the mass of an atom is in the nucleus **[1 mark]**
+
+### Q2
+To correctly fill in the boxes for Po:
+
+- Top number (mass number) = 180** ****[1 mark]**
+- Bottom number (atomic number) = 72 **[1 mark]**
+
+**[Total: 2 marks]**
+Explain why mass number does not change:
+
+- Number of neutrons decreases by one; **[1 mark]**
+- Number of protons increases by one; **[1 mark]**
+- Both (protons and neutrons) have a (relative) mass of 1 **OR** both have the same (relative) mass; **[1 mark]**
+
+**[Total: 3 marks]**
+To correctly fill in Xe:
+
+- Top number (mass number) = 128** [1 mark]**
+- Bottom number (atomic number) = 54 **[1 mark]**
+
+**[Total: 2 marks]**
+Another particle emitted in beta minus decay is:
+
+- An anti electron neutrino;** ****[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q3
+The values of *a*, *b*, *x* and *y* are:
+
+`Pu _ 94 ^ 239 + n _ 0 ^ 1 -> Xe _ 54 ^ 134 + Zr _ 40 ^ 103 + 3 n _ 0 ^ 1`
+
+- *a *= 1 **AND** *b* = 0 **[1 mark]**
+
+Calculate *x*:
+
+- 239 + 1 = *x* + 103 + (3 × 1)
+- *x* = 240 – 106
+- *x* = 134 **[1 mark]**
+
+Calculate *y*:
+
+- 94 + 0 = 54 + *y* + (3 × 0)
+- *y* = 94 – 54
+- *y* = 40 **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *On the right-hand side, *`3 n presubscript 0 presuperscript 1 space`*means that there are **3** neutrons, so **both** the mass number (1) and the atomic number (0) must be **multiplied** by 3.*
+Three quantities that are conserved in the fission reaction in part (a) are:
+
+- mass and energy / mass–energy; **[1 mark]**
+- momentum; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Be specific in your wording. Just 'mass' or 'energy' conservation would not be accepted here, since energy and mass are interchangeable and are often referred to as the same thing in particle physics (e.g. rest-mass energy).*
+Calculate the radius of a Plutonium-239 nucleus
+
+List the known quantities:
+
+- Mean density of the Plutonium-239 nucleus,* ρ* = 1.3 × 10<sup>17</sup> kg m<sup>–3</sup>
+
+Calculate the mass of the Plutonium nucleus, *m*:
+
+- *m* = mass number × atomic mass unit = 239 × 1 u
+- *m* = 239 × (1.66 × 10<sup>–27</sup>) = 3.9674 × 10<sup>–25</sup> kg **[1 mark]**
+
+Calculate the radius of the Plutonium nucleus, *r*:
+
+- $ρ=\frac{m}{V}=\frac{m}{\frac{4}{3}πr^{3}}=\frac{3m}{4πr^{3}}$ **[1 mark]**
+- $r = \sqrt[3]{ \frac{3 m}{4 \mathrm{\pi } \\rho } } = \sqrt[3]{ \frac{3 \times ( 3.9674 \times 10^{- 25} )}{4 \mathrm{\pi } \times ( 1.3 \times 10^{17} )} }$ = 8.996 × 10<sup>–15</sup> = 9.0 × 10<sup>–15</sup> m **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *You can approximate a nucleus as a sphere, but you must remember the equation for the volume of a sphere, as this will not be given on your data sheet! However, the value of the atomic mass unit (u) will be given.*
+Aside from their structure, distinguish between an α-particle and a β-particle.
+
+**Final answer:** **Any ****three**** from:**
+
+- The speed of an α-particle is less than the speed of a β-particle; **[1 mark]**
+- An α-particle has discrete values of energy / speed whilst β-particles have a continuous spectrum / range of energies; **[1 mark]**
+- α-particles have greater ionising power than β-particles **OR **α-particles have a shorter range than β-particles; **[1 mark]**
+- α-particles are positive whilst β-particles are negative; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Reverse arguments would be accepted for all of these answers e.g. the speed of a β-particle is greater than the speed of an α-particle. The main thing is to remember that a comparison must mention both.*
+
+> *Read the question carefully, as it says 'aside from their structure'. This means answers such as 'an α-particle is two protons and two neutrons and a β-particle is an electron' will not be accepted.*
+
+### Q4
+A graph that would score 3 marks should look like this:
+
+![energy-distribution-of-beta-particles](assets/014-energy-distribution-of-beta-particles.png)
+
+- The y-axis is labelled with the relative number of beta particles with energy *E* **AND** the x-axis is labelled with kinetic energy *E* / 10<sup>−13</sup> J; **[1 mark]**
+- The graph arcs upwards from a positive intercept on the y-axis to a maximum close to the top **AND **then curves back down to the x-axis; **[1 mark]**
+- The graph ends at X marked on the x-axis close to the end of the space allocated; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Read this question carefully. The energy released by each decaying nucleus is not the same as the total energy released per second. After reading the question you should know what type of graph you need to draw for the **energy distribution of the beta particles**.*
+
+> *Make sure the graph you sketch covers most of the space you have allocated on the axis. *
+List the known quantities:
+
+- Activity* *= 120 Bq
+- Total source energy released per second = 7.5 × 10<sup>–11</sup> J
+
+Calculation of X:
+
+- Activity × energy released from one nucleus per decay = total source energy released per second
+- 120 × X = 7.5 × 10<sup>–11</sup>
+- X = 6.25 × 10<sup>–13</sup> J **[1 mark]**
+
+State the value of X to 2 significant figures, as used in the question:
+
+- X = 6.3 × 10<sup>–13 </sup>J **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Clearly, the mathematics required for this question is quite straightforward, but the underlying physics requires advanced understanding. *
+
+> *Reflect on the fact that the total energy released per second is the activity × the energy released per decay. This requires a comfortable knowledge of the definition of activity (the number of decays per second) and a careful appreciation of units.*
+No beta particles have an energy equal to X because:
+
+**Final answer:** **Any**** one**** from:**
+
+- Another particle is emitted during beta decay; **[1 mark]**
+- A neutrino / an anti-neutrino is emitted; **[1 mark]**
+- The nucleus recoils; **[1 mark]**
+
+None of the beta particles have an energy equal to X because:
+
+- The other particle / anti-neutrino/nucleus takes some of the rest mass energy available; **[1 mark]**
+
+**[Total: 2 marks]**** **
+
+> *It is important to note that there will always be some minimum energy required to form a neutrino so that the maximum energy of a beta particle is*
+
+> *X − **E*<sub>*(mass of neutrino)*</sub>
+
+> *However, this mass is so small that the difference between X and the maximum energy of a beta particle is not visible on the scale of the X-axis. *
+
+> *While the recoil of the nucleus during radioactive decay is true, the main cause for the upper limit on the energy of beta particles was due to the presence of another particle – the neutrino / anti-neutrino (depending on whether it was β+ or β− decay). Remember to link this important discovery to questions asking about the distribution of energy of beta particles.*
+The first equation represents β− decay:
+
+- `X _ Z ^ A -> Y _ Z + 1 ^ A + beta _ - 1 ^ 0 + v -bar _ 0 ^ 0 _ e`** [1 mark]**
+
+The second equation represents β+ decay:
+
+- `X _ Z ^ A -> Y _ Z - 1 ^ A + beta _ + 1 ^ 0 + v _ 0 ^ 0 _ e` **[1 mark]**
+
+Where:
+
+- X is the <u>parent</u> nuclei with nucleon number A and proton number Z **AND**
+- Y is the <u>daughter</u> nuclei with the nucleon number A and proton number Z ±1 **AND**
+- `beta _ +/- 1 ^ 0` is the beta particle **AND**
+- `v -bar _ 0 ^ 0 _ e` is the (electron) anti-neutrino **AND **$v_{0}^{0}_{e}$** **the (electron) neutrino; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The question does not say whether the decay is β+ or β−, so you must include both equations. You should think of these equations automatically when considering β decay. *
+
+> *You are asked to define all the terms in your equations so make sure you do so carefully. This is time-consuming but easy marks! Make sure you use the correct language of **parent **and **daughter **nuclei. *
+
+### Q5
+State the environment the apparatus must be enclosed in and explain why this is required for the experiment.
+
+The apparatus must be enclosed in:
+
+- A vacuum; **[1 mark]**
+
+Because:
+
+- α-particles travel / are absorbed by a short distance in air; **[1 mark]**
+
+**[Total: 2 marks]**
+Explain the readings detected by D and the conclusions that were made about the nature of atoms at points
+
+(i) W:
+
+- A <u>very</u> small proportion deviated in the backwards direction / at large angles; **[1 mark]**
+- This shows that the mass <u>and</u> charge are concentrated in a (very small) nucleus; **[1 mark]**
+
+(ii) X:
+
+- The majority went straight through; **[1 mark]**
+- This shows that most of the atom is <u>empty</u> space / the nucleus is very small compared with the atom; **[1 mark]**
+
+**[Total: 4 marks]**
+State what the readings detected by D at position Y conclude about the charge of the nucleus. Explain why.
+
+- The charge of the nucleus is positive; **[1 mark]**
+- Because the alpha particle is positive **AND** it is repelled / deflected (at an angle);** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *Remember the alpha particle is just a helium **nucleus** with two protons and two neutrons. Only protons have a charge in the nucleus (which is positive) so all nuclei are always positive. *
+Calculate the number of α-particles per second passing a point in the beam
+
+List the known quantities:
+
+- Current, *I* = 3.5 pA = 3.5 × 10<sup>–12</sup> A
+
+State the equation for current, *I*:
+
+- $Q=It\RightarrowI=\frac{Q}{t}$ **[1 mark]**
+
+Determine an equation for the number of α-particles, *n*:
+
+- $I=n\times\frac{Q}{t}\Rightarrow\frac{n}{t}=\frac{I}{Q}$
+- $\frac{n}{t} = \frac{3.5 \times 10^{- 12} }{2 \times ( 1.60 \times 10^{- 19} )}$ **[1 mark]**
+- $\frac{n}{t}=1.094\times10^{6}=1.1\times10^{6}s^{-1}$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *An alpha particle is a helium nucleus of **2** protons and **2** neutrons. Therefore, its charge is the 2 × charge of a proton (**e** = 1.60 × 10*<sup>*–19*</sup>* C). You will be expected to remember the composition of an alpha particle, and the charge **e** is given on your data sheet.*
+
+> *The wording 'per second' means 'every 1 second'. Therefore, the 'number of particles, **n**, per second' is represented as an equation *$\frac{n}{t}$*.*
+
+### Q6
+List the known quantities:
+
+- Alpha particle = `alpha presubscript 2 presuperscript 4`
+- Beta–minus particle = `beta presubscript negative 1 end presubscript presuperscript 0`
+
+Combine the equations for alpha and beta–minus into one decay equation:
+
+- `X _ 85 ^ 229 -> Y _ Z ^ A + alpha _ 2 ^ 4 + beta _ - 1 ^ 0 + v _ e -bar` **[1 mark]**
+
+State the values of A and Z:
+
+- A = 225, Z = 84 **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Don't forget to include the anti-neutrino! *
+
+> *Read the question carefully. It tells you what the daughter nucleus is, so don't get confused with using the daughter nucleus from either the alpha or beta decay. *
+Determine the resulting nuclide after these successive transformations:
+
+- During $α$ emission, an alpha particle `alpha presubscript 2 presuperscript 4` is released from each starting atom
+
+  - The mass number decreases by 4 and the proton number decreases by 2
+- During $β$ emission, an electron (or positron) is released
+
+  - The proton number increases by 1, but there is no change in the mass number
+- During $γ$ emission, electromagnetic gamma rays are emitted
+
+  - There is no reduction in mass or proton number
+
+A flow diagram of the processes involved is obtained using the periodic table:
+
+- $Th_{90}^{232} \rightarrow Ra_{88}^{228} \rightarrow Ac_{89}^{228} \rightarrow Th_{90}^{228} \rightarrow Th_{90}^{228} \rightarrow Ra_{88}^{224}$
+
+  - All $α$ decays correct; **[1 mark]**
+  - All  $β$decays correct; **[1 mark]**
+
+State the final decay product:
+
+- `Ra presubscript 88 presuperscript 224`** [1 mark]**
+
+**[Total: 3 marks]**
+
+> *Remember that the proton number of each element in the periodic table is unique. Look up each proton number to obtain the correct element. *
+Determine the condition required for the formation of the isotope:
+
+- For the decay sequence to result in the formation of an isotope of the original nucleus, the proton number must remain the same; **[1 mark]**
+
+Determine the simplest sequence that can achieve this:
+
+- (The simplest sequence is) 1 alpha (decay) **and** 2 beta (decays); **[1 mark]** **OR** In equation form: `Z _ X ^ A -> alpha _ 2 ^ 4 + 2 beta _ - 1 ^ 0 + Y _ X ^ A - 4` **[1 mark]**
+
+An explanation is:
+
+- Change in proton number: 2 + 2 × (–1) = 0 **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *When explaining your reasoning, make it clear why your answer is correct by backing it up with any calculations for full marks (like is done in this explanation). It is not enough just to say ‘the proton number remains the same’.*
+
+- *Alpha decay decreases the proton number by 2*
+- *Beta decay increases the proton number by 1*
+Write a decay equation for this reaction:
+
+- $\text{Bh} pre_{Y} pre^{X} \rightarrow Md_{101}^{255} + 3 \ \\alpha pre_{2} pre^{4}$ **[1 mark]**
+
+Calculate the number of neutrons:
+
+- X = 255 + (3 × 4) = 267
+- Y = 101 + (3 × 2) = 107
+- Therefore, Bohrium = `Bh presubscript 107 presuperscript 267`
+
+  - Hence, the number of neutrons = 267 – 107 = 160** ****[1 mark]**
+
+**[Total: 2 marks]**
+
+### Q7
+A completed Table 1.1 that would score full credit is shown below:
+
+| **Type** | **Nuclear notation** | **Relative charge** |
+|---|---|---|
+| **Alpha** | $\ \\alpha pre_{2} pre^{4}$** ****OR**** **`He presubscript 2 presuperscript 4` | +2 |
+| **Beta** | `beta _ - 1 ^ 0` | **Final answer:** **–1** |
+| **Gamma** | $\ \\gamma pre_{0} pre^{0}$ | **Final answer:** **0** |
+
+- **[1 mark]** for each correct entry
+
+**[Total: 4 marks]**
+A similarity between alpha particles and beta particles:
+
+**Final answer:** **Any ****one**** from:**
+
+- Both particles are charged;** [1 mark]**
+- Both particles can cause ionisation / are ionising;** [1 mark] **
+- Both particles are emitted from the nucleus during radioactive decay; **[1 mark]**
+
+A difference between alpha particles and beta particles:
+
+**Final answer:** **Any ****one**** from:**
+
+- Alpha particles have double the magnitude of charge of beta particles; **[1 mark]**
+- Alpha particles have more mass than beta particles / beta particles have less mass than alpha particles; **[1 mark]**
+- Beta particles are fundamental particles whereas alpha particles are not; **[1 mark]**
+- Alpha particles are positively charged** **<u>whereas</u> beta particles are negatively charged; **[1 mark]**
+
+**[Total: 2 marks] **
+
+> *Avoid saying that both particles are ‘radioactive’, as this is technically incorrect. The alpha or beta particles are themselves not radioactive: the nuclei that decayed and emitted these particles are radioactive.*
+The type of ionising radiation scattered by gold foil in Rutherford’s experiment was:
+
+- Alpha particles / radiation; **[1 mark]**
+
+**[Total: 1 mark]**
+Observations and conclusions have been matched as shown below:
+
+![ms-q1b](assets/016-ms-q1b.png)
+
+- **[1 mark]** for each correct match
+
+**[Total: 3 marks]**** **
+
+> *When revising Rutherford’s experiment, remember to memorise **both **the observations **and** the conclusions that can be drawn about atomic structure.*
+
+### Q8
+For the decay:
+
+`X -> Na _ 11 ^ 23 + beta ^ + _ + 1 ^ 0 + nu -bar`
+
+Nucleus X has:
+
+- Mass number = 23 + 0 = 23 protons + neutrons
+- Number of protons = 11 + 1 = 12 protons; **[1 mark]**
+- Number of neutrons = 23 − 12 = 11 neutrons; **[1 mark]**
+
+**[Total: 2 marks]**
+β<sup>+</sup> and β<sup>–</sup> particles have the same:
+
+**Final answer:** **Either ****one ****from:**
+
+- (Rest) mass; **[1 mark]**
+- (Magnitude of) charge; **[1 mark]**
+
+**[Total: 1 mark]**

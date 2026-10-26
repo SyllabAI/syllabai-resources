@@ -23,8 +23,8 @@ List the known quantities:
 Use the work done on a gas equation:
 
 - $W=p\DeltaV$ **[1 mark]**
-- `W space equals space p space open parentheses V subscript X space minus space V subscript Y close parentheses`
-- `W space equals space open parentheses 0.6 space cross times space 10 to the power of 5 close parentheses space cross times space open parentheses 0.12 space minus space 0.04 close parentheses`
+- $W = p ( V_{X} - V_{Y} )$
+- $W = ( 0.6 \times 10^{5} ) \times ( 0.12 - 0.04 )$
 - $W=4800J=4.8\mathrm{kJ}$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -228,7 +228,7 @@ List the known quantities:
 Use the work done by a gas equation:
 
 - $W=p\DeltaV$ **[1 mark]**
-- `W space equals space open parentheses 1.0 space cross times space 10 to the power of 5 close parentheses space cross times space 0.82`
+- $W = ( 1.0 \times 10^{5} ) \times 0.82$
 - $W=82000J=8.2\times10^{4}J$ **[1 mark]**
 
 **[Total: 2 marks]**
@@ -246,7 +246,7 @@ Determine the sign of the work done by the gas:
 Use the first law of thermodynamics:
 
 - $\DeltaU=q+W$
-- `increment U space equals space open parentheses 9.5 space minus space 0.82 close parentheses space cross times space 10 to the power of 5 space equals space 8.68 space cross times space 10 to the power of 5 space straight J` **[1 mark]**
+- $\Delta U = ( 9.5 - 0.82 ) \times 10^{5} = 8.68 \times 10^{5} \mathrm{J}$ **[1 mark]**
 
 **[Total: 2 marks]**
 When the atmospheric pressure is greater then the specific latent heat of vapourisation will be as follows:
@@ -290,7 +290,7 @@ Apply Newton's second law:
 
 Calculate the force from the gas:
 
-- `F subscript g a s end subscript space equals space m open parentheses a space plus space g close parentheses space equals space 0.75 open parentheses 3.5 space plus space 9.81 close parentheses`
+- $F_{g a s} = m ( a + g ) = 0.75 ( 3.5 + 9.81 )$
 - $F_{gas}=9.983N$ **[1 mark]**
 
 Determine the work done, *W *:

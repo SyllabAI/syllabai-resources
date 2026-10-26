@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T01:55:26Z",
+ "generated_utc": "2026-10-26T14:55:53Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/",
@@ -73,17 +73,35 @@
    "question_count": 27,
    "questions_embedded": 27,
    "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/7-equilibria/7-1-chemical-equilibria-reversible-reactions-and-dynamic-equilibrium/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_dK8r6TDddkkG8xsC",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 11,
+   "questions_embedded": 11,
+   "page_url": "https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/7-equilibria/7-1-chemical-equilibria-reversible-reactions-and-dynamic-equilibrium/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 27,
+  "questions_embedded": 38,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2023/05/1-7-diagram-q5e.png": "001-process-flow-diagram-of-ammonia-synthesis-showin.png"
+   "https://cdn.savemyexams.com/uploads/2023/05/1-7-diagram-q5e.png": "001-process-flow-diagram-of-ammonia-synthesis-showin.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/3-6_q5a-ocr-a-as--a-level-hard-sq.png": "002-graph-fig-2-1-showing-equilibrium-yield-against-.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/3-6_q5c-ocr-a-as--a-level-hard-sq.png": "003-graph-fig-2-2-showing-kc-against-temperature-kc-.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/0b34e702-1b1c-49d4-aa27-e07d01de97eb.jpeg": "004-weak-acid-strong-base-ph-titration-curve-showing.jpeg"
   }
  },
  "questions": [
@@ -278,6 +296,13 @@
       }
      ],
      "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket Fe to the power of 3 plus end exponent right square bracket over denominator left square bracket Ag to the power of plus right square bracket left square bracket Fe to the power of 2 plus end exponent right square bracket end fraction",
+       "render": "$\\frac{[ Fe^{3} + ]}{[ Ag^{ + } ] [ Fe^{2} + ]}$",
+       "via": "alt-transpile"
+      },
       {
        "latex": "\\frac{0.28}{(0.22\\times0.22)}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>28</mn></mrow><mrow><mo>(</mo><mn>0</mn><mo>.</mo><mn>22</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>22</mn><mo>)</mo></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
@@ -1212,6 +1237,29 @@
        "is_correct": false,
        "text_md": "mol<sup>3</sup> dm<sup>-9</sup>"
       }
+     ],
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket straight H subscript 2 space left parenthesis straight g right parenthesis right square bracket cubed left square bracket straight C subscript 2 straight H subscript 2 space left parenthesis straight g right parenthesis right square bracket over denominator left square bracket CH subscript 4 space left parenthesis straight g right parenthesis right square bracket squared end fraction",
+       "render": "`(left square bracket H _ 2 ( g ) right square bracket ^3 left square bracket C _ 2 H _ 2 ( g ) right square bracket)/(left square bracket CH _ 4 ( g ) right square bracket ^2)`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket mol space dm to the power of negative 3 end exponent right parenthesis right square bracket cubed left square bracket mol space dm to the power of negative 3 end exponent right square bracket over denominator left square bracket mol space dm to the power of negative 3 end exponent right square bracket squared end fraction",
+       "render": "$\\frac{[ \\text{mol} dm^{ - } 3 ) ] ^{3} [ \\text{mol} dm^{ - } 3 ]}{[ \\text{mol} dm^{ - } 3 ] ^{2} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "left square bracket mol space dm to the power of negative 3 end exponent right parenthesis right square bracket space left square bracket mol space dm to the power of negative 3 end exponent right square bracket",
+       "render": "$[ \\text{mol} dm^{ - } 3 ) ] [ \\text{mol} dm^{ - } 3 ]$",
+       "via": "alt-transpile"
+      }
      ]
     }
    ]
@@ -1656,6 +1704,1160 @@
        "label": "D",
        "is_correct": false,
        "text_md": "Increased pressure gives a higher equilibrium amount of SO<sub>2</sub>."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_tFvtTQbxbfRMCt33",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_rgWkrSpzTqmZVcJs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "During the manufacture of sulfuric acid in the Contact process, sulfur dioxide, SO<sub>2</sub>, is oxidised to sulfur trioxide, SO<sub>3</sub>.\n\n2SO<sub>2</sub> (g) + O<sub>2</sub> (g) ⇌ 2SO<sub>3</sub> (g)   Δ*H* = −197 kJ mol<sup>−1</sup>\n\nState the effect of an increase in temperature on the rate of this reaction.",
+     "solution_md": "> **[mark-scheme]**\n> When the temperature increases:\n> \n> - The rate increases **[1 mark]**\n\n> **[exam-tip]**\n> This question asks about rate, not yield. An increase in temperature always increases the rate of reaction, regardless of whether the forward reaction is exothermic or endothermic. More particles have the energy needed to react, so collisions are more frequent and more successful."
+    },
+    {
+     "id": "qstnprt_8HF3NGwFFCPXrSJG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDuring the manufacture of sulfuric acid in the Contact process, sulfur dioxide, SO~2~, is oxidised to sulfur trioxide, SO~3~.\n\n2SO~2~ (g) + O~2~ (g) ⇌ 2SO~3~ (g)   Δ*H* = −197 kJ mol^−1^\n\nState and explain the effect of an increase in temperature on the equilibrium yield of sulfur trioxide.",
+     "solution_md": "> **[mark-scheme]**\n> When the temperature increases:\n> \n> - The equilibrium yield of sulfur trioxide decreases **[1 mark]**\n> - The forward reaction is exothermic\n> **OR**\n> The backward reaction is endothermic **[1 mark]**\n\n> **[exam-tip]**\n> Two common mistakes here:\n> \n> 1. Over-answering:\n> \n>   - The best answer to why the yield decreases is simply that the forward reaction is exothermic.\n>   - There is no need to discuss collision theory as that explains rate, not equilibrium position.\n> 2. Under-answering:\n> \n>   - You must specify which reaction is exothermic (the forward reaction) or endothermic (the backward reaction).\n>   - A vague reference to 'the reaction' being exothermic or endothermic without specifying the direction will not gain the mark."
+    },
+    {
+     "id": "qstnprt_tPCg43BnjqdzpZNv",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDuring the manufacture of sulfuric acid in the Contact process, sulfur dioxide, SO~2~, is oxidised to sulfur trioxide, SO~3~.\n\n2SO~2~ (g) + O~2~ (g) ⇌ 2SO~3~ (g)   Δ*H* = −197 kJ mol^−1^\n\nState and explain the effect of a decrease in pressure on the equilibrium yield of sulfur trioxide.",
+     "solution_md": "> **[mark-scheme]**\n> When the pressure decreases:\n> \n> - The equilibrium yield of sulfur trioxide decreases **[1 mark]**\n> \n> Explanation:\n> \n> - The equilibrium shifts to the left **[1 mark]**\n> - There are more moles / molecules of gas on the left-hand side\n> **OR**\n> There are fewer moles / molecules of gas on the right-hand side **[1 mark]**\n\n> **[exam-tip]**\n> Changes in conditions can have opposite effects on rate and yield. Decreasing pressure decreases the rate of reaction but also decreases the equilibrium yield of sulfur trioxide, as the equilibrium shifts in the direction of more moles of gas.\n> \n> The equation below shows 3 moles of gas on the left and 2 moles on the right.\n> \n> 2SO<sub>2</sub> (g) + O<sub>2</sub> (g) ⇌ 2SO<sub>3</sub> (g)\n> \n> Decreasing pressure favours the left (more moles), shifting the equilibrium backwards and reducing the yield of SO<sub>3</sub>."
+    }
+   ]
+  },
+  {
+   "id": "qstn_PspbqcKjcksCFFTY",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_yhRNv5JndBMVpqGQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Td9GY22ydztvn7RW",
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrogen chloride undergoes a reversible reaction with oxygen at 400 °C in the presence of copper(II) chloride catalyst forming chlorine and water.\n\ni) Construct the equation for this reaction. Include state symbols.\n\n[2]\n\nii) The reaction exists in dynamic equilibrium. The reaction was repeated at the same temperature but at a lower pressure.\n\nState and explain the effect on the composition of the equilibrium mixture of the change in pressure.\n\n[2]",
+     "solution_md": "i) The equation for this reaction is:\n\n4HCl (g) + O<sub>2</sub> (g) ⇌ 2Cl<sub>2</sub> (g) + 2H<sub>2</sub>O (g)\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct balancing: 4HCl + O<sub>2</sub> : 2Cl<sub>2</sub> + 2H<sub>2</sub>O\n> \n> 1 mark for all four species with state symbol (g)\n> \n> ii) The effect of decreasing pressure on the composition of the equilibrium mixture:\n> \n> - There are more moles of gas on the left-hand side (5 mol) than the right-hand side (4 mol) **[1 mark]**\n> - Position of equilibrium shifts to the left / towards HCl and O<sub>2</sub>\n> **AND**\n> The proportion of Cl<sub>2</sub> and H<sub>2</sub>O decreases **[1 mark]**\n\n> **[exam-tip]**\n> Balance the equation starting with oxygen: 1 mol O<sub>2</sub> gives 2 mol H<sub>2</sub>O (using 4 H atoms from 4 HCl). This gives 2 mol Cl<sub>2</sub> from the 4 HCl. Count the moles of gas: 4 + 1 = 5 on the left and 2 + 2 = 4 on the right. Decreasing pressure shifts the equilibrium to the side with more moles of gas (the left)."
+    },
+    {
+     "id": "qstnprt_NwjyDRWcnBJysxvq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n4HCl (g) + O~2~ (g) ⇌ 2Cl~2~ (g) + 2H~2~O (g)\n\nWhen 2.00 mol of HCl are mixed in a sealed container with 0.600 mol of O<sub>2</sub> at 400 °C, 0.700 mol of Cl<sub>2</sub> and 0.700 mol of H<sub>2</sub>O are formed.\n\nThe total pressure inside the container is 1.15 × 10<sup>5</sup> Pa.\n\ni) Calculate the amounts, in mol, of HCl and O<sub>2</sub> in the equilibrium mixture. Show your working.\n\nHCl = .............................. mol\n\nO<sub>2</sub> = .............................. mol\n\n[2]\n\nii) Calculate the equilibrium partial pressure of each species in the equilibrium mixture.\n\n*p*HCl = .............................. Pa\n\n*p*O<sub>2</sub> = .............................. Pa\n\n*p*Cl<sub>2</sub> = .............................. Pa\n\n*p*H<sub>2</sub>O = .............................. Pa\n\n[3]\n\niii) Write an expression for *K*<sub>p</sub> for this reaction.\n\n*K*<sub>p</sub> =\n\n[1]\n\niv) Calculate a value for *K*<sub>p</sub> and state its units. Show your working.\n\n*K*<sub>p</sub> = .................................\n\nunits = .................................\n\n[2]",
+     "solution_md": "i) To calculate amounts of HCl and O<sub>2</sub> at equilibrium:\n\n- From stoichiometry (4HCl consumed for every 2Cl<sub>2</sub> produced):\n\nmoles of HCl at equilibrium = 2.00 − (2 x 0.700)\n\nmoles of HCl at equilibrium = **0.600** mol **[1 mark]**\n\n- From stoichiometry (1 mol O<sub>2</sub> consumed for every 2 mol Cl<sub>2</sub> produced):\n\nmoles of O<sub>2</sub> at equilibrium = 0.600 − $\\frac{0.700}{2}$\n\nmoles of O<sub>2</sub> at equilibrium = **0.250** mol **[1 mark]**\n\nii) To calculate the equilibrium partial pressures:\n\n- Calculate total moles at equilibrium:\n\nn<sub>total</sub> = 0.600 + 0.250 + 0.700 + 0.700\n\nn<sub>total</sub> = 2.250 mol\n\n- Calculate partial pressures (mole fraction x total pressure):\n\n*p*HCl = $\\frac{0.600}{2.250}$ x 1.15 x 10<sup>5</sup>\n\n*p*HCl = **30 667** Pa\n\n**[1 mark]**\n\n*p*O<sub>2</sub> = $\\frac{0.250}{2.250}$ x 1.15 x 10<sup>5</sup>\n\n*p*O<sub>2</sub> = **12 778** Pa\n\n**[1 mark]**\n\n*p*Cl<sub>2</sub> = *p*H<sub>2</sub>O = $\\frac{0.700}{2.250}$ x 1.15 x 10<sup>5</sup>\n\n*p*Cl<sub>2</sub> = *p*H<sub>2</sub>O = **35 778** Pa\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *p*HCl = 30667 Pa\n> \n> 1 mark for *p*O<sub>2</sub> = 12778 Pa\n> \n> 1 mark for *p*Cl<sub>2</sub> = 35778 Pa **AND ***p*H<sub>2</sub>O = 35778 Pa\n\n> **[mark-scheme]**\n> iii) The *K*<sub>p</sub> expression for this reaction:\n> \n> - *K*<sub>p</sub> = $\\frac{p(\\mathrm{Cl}_{2})^{2}\\timesp(H_{2}O)^{2}}{p(\\mathrm{HCl})^{4}\\timesp(O_{2})}$ **[1 mark]**\n> \n> Allow equivalent forms with exponents applied correctly.\n\niv) To calculate *K*<sub>p</sub>:\n\n- Substitute partial pressures into the *K*<sub>p</sub> expression:\n\n*K*<sub>p</sub> = $\\frac{(35778)^{2}\\times(35778)^{2}}{(30667)^{4}\\times12778}$\n\n*K*<sub>p</sub> = **1.45 x 10**<sup>**-4**</sup> **[1 mark]**\n\n- Determine the units of *K*<sub>p</sub>:\n\nunits = $\\frac{\\mathrm{Pa}^{2}\\times\\mathrm{Pa}^{2}}{\\mathrm{Pa}^{4}\\times\\mathrm{Pa}}$\n\nunits = **Pa**<sup>**-1**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward for partial pressures in part iv) if moles in part i) are incorrect but the method is correct.\n\n> **[exam-tip]**\n> Mole fractions are calculated by dividing the moles of each species at equilibrium by the total moles (2.250 mol).\n> \n> The partial pressure of each species is then: mole fraction x total pressure.",
+     "equations": [
+      {
+       "latex": "\\frac{0.700}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>700</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{0.700}{2}"
+      },
+      {
+       "latex": "\\frac{0.600}{2.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>600</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.600}{2.250}"
+      },
+      {
+       "latex": "\\frac{0.250}{2.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.250}{2.250}"
+      },
+      {
+       "latex": "\\frac{0.700}{2.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>700</mn></mrow><mrow><mn>2</mn><mo>.</mo><mn>250</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.700}{2.250}"
+      },
+      {
+       "latex": "\\frac{p(\\mathrm{Cl}_{2})^{2}\\timesp(H_{2}O)^{2}}{p(\\mathrm{HCl})^{4}\\timesp(O_{2})}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>p</mi><msup><mrow><mo>(</mo><msub><mi>Cl</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup><mo>&#215;</mo><mi>p</mi><msup><mrow><mo>(</mo><msub><mi mathvariant=\"normal\">H</mi><mn>2</mn></msub><mi mathvariant=\"normal\">O</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mi>p</mi><msup><mrow><mo>(</mo><mi>HCl</mi><mo>)</mo></mrow><mn>4</mn></msup><mo>&#215;</mo><mi>p</mi><mo>(</mo><msub><mi mathvariant=\"normal\">O</mi><mn>2</mn></msub><mo>)</mo></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator p left parenthesis Cl subscript 2 right parenthesis squared cross times p left parenthesis straight H subscript 2 straight O right parenthesis squared over denominator p left parenthesis HCl right parenthesis to the power of 4 cross times p left parenthesis straight O subscript 2 right parenthesis end fraction"
+      },
+      {
+       "latex": "\\frac{(35778)^{2}\\times(35778)^{2}}{(30667)^{4}\\times12778}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>35</mn><mo>&#x200A;</mo><mn>778</mn><msup><mo>)</mo><mn>2</mn></msup><mo>&#xD7;</mo><mo>(</mo><mn>35</mn><mo>&#x200A;</mo><mn>778</mn><msup><mo>)</mo><mn>2</mn></msup></mrow><mrow><mo>(</mo><mn>30</mn><mo>&#x200A;</mo><mn>667</mn><msup><mo>)</mo><mn>4</mn></msup><mo>&#xD7;</mo><mn>12</mn><mo>&#x200A;</mo><mn>778</mn></mrow></mfrac></math>",
+       "alt": "\\frac{(35\\,778)^2 \\times (35\\,778)^2}{(30\\,667)^4 \\times 12\\,778}"
+      },
+      {
+       "latex": "\\frac{\\mathrm{Pa}^{2}\\times\\mathrm{Pa}^{2}}{\\mathrm{Pa}^{4}\\times\\mathrm{Pa}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mi>Pa</mi><mn>2</mn></msup><mo>&#215;</mo><msup><mi>Pa</mi><mn>2</mn></msup></mrow><mrow><msup><mi>Pa</mi><mn>4</mn></msup><mo>&#215;</mo><mi>Pa</mi></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator Pa squared cross times Pa squared over denominator Pa to the power of 4 cross times Pa end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kr8FqNXkXzgWzWXZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_74qGNPtqhh3SNbcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nHydrogen chloride undergoes a reversible reaction with oxygen at 400 °C in the presence of copper(II) chloride catalyst forming chlorine and water.\n\n4HCl (g) + O2 (g) ⇌ 2Cl2 (g) + 2H2O (g)\n\nThe reaction is repeated without a catalyst. State the effect of this on the value of *K*<sub>p</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of removing the catalyst on the value of *K*<sub>p</sub>:\n> \n> - The value of *K*<sub>p</sub> is unchanged / removing the catalyst does not affect *K*<sub>p</sub> **[1 mark]**\n\n> **[exam-tip]**\n> The equilibrium constant (*K*<sub>p</sub> or *K*<sub>c</sub>) is only affected by changes in temperature. Catalysts increase the rate at which equilibrium is reached but do not change the position of equilibrium or the value of the equilibrium constant."
+    }
+   ]
+  },
+  {
+   "id": "qstn_pFMBj3gvCQhy5nH3",
+   "set_slug": "structured-questions",
+   "order": 10,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 17,
+   "parts": [
+    {
+     "id": "qstnprt_FW3yvWcpFMqttBVY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "At high temperatures, gaseous phosphorus(V) chloride dissociates according to the following equation:\n\nPCl<sub>5</sub> (g) ⇌ PCl<sub>3</sub> (g) + Cl<sub>2</sub> (g)\n\nAt 550 K, the equilibrium amount of each gas is shown in Table 3.1.\n\n**Table 3.1**\n\n| **Chemical** | PCl<sub>5</sub> (g) | PCl<sub>3</sub> (g) | Cl<sub>2</sub> (g) |\n|---|---|---|---|\n| **Equilibrium moles** | 0.192 | 0.822 | 0.822 |\n\nCalculate the total pressure of the reaction, if *K*<sub>p</sub> = 526 kPa. Give your answer to an appropriate number of significant figures. Show your working.\n\n*P* = ........................... kPa",
+     "solution_md": "To calculate the total pressure of the equilibrium mixture:\n\n- Calculate the total moles:\n\ntotal moles = 0.192 + 0.822 + 0.822\n\ntotal moles = 1.836 mol **[1 mark]**\n\n- Calculate the mole fractions:\n\nx(PCl<sub>5</sub>) = $\\frac{0.192}{1.836}$ = 0.1046\n\nx(PCl<sub>3</sub>) = x(Cl<sub>2</sub>) = $\\frac{0.822}{1.836}$ = 0.4477\n\n**[1 mark]**\n\n- Write the *K*<sub>p</sub> expression and substitute partial pressures in terms of *P*:\n\n*K*<sub>p</sub> = $\\frac{p\\mathrm{PCl}_{3}\\timesp\\mathrm{Cl}_{2}}{p\\mathrm{Cl}_{5}}$\n\n526 = $\\frac{(0.4477\\timesP)\\times(0.4477\\timesP)}{(0.1046\\timesP)}$\n\n526 = $\\frac{(0.4477)^{2}\\timesP}{0.1046}$ **[1 mark]**\n\n- Rearrange and solve for *P*:\n\n*P* = $\\frac{526\\times0.1046}{0.4477^{2}}$\n\n*P* = **274** kPa (3 s.f.) **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for total moles = 1.836 mol\n> \n> 1 mark for mole fractions: x(PCl<sub>5</sub>) = 0.1046 **AND** x(PCl<sub>3</sub>) = x(Cl<sub>2</sub>) = 0.4477\n> \n> 1 mark for correct algebraic substitution showing *K*<sub>p</sub> = (0.4477)<sup>2</sup> x *P* / 0.1046\n> \n> 1 mark for *P* = 274 kPa (allow 274–275 kPa, 3 s.f.)\n> \n> Allow error carried forward from incorrect mole fractions if the algebraic method is correct.\n\n> **[exam-tip]**\n> When total pressure is unknown, represent it as *P* in the partial pressure expressions: p = mole fraction x *P*. Substituting into *K*<sub>p</sub> gives a linear expression in *P* (the *P*<sup>2</sup> terms in numerator and denominator cancel for this reaction), which can be rearranged directly.\n> \n> PCl<sub>3</sub> and Cl<sub>2</sub> have equal equilibrium moles, so their mole fractions are equal. The *K*<sub>p</sub> expression therefore simplifies to (0.4477)<sup>2</sup> x *P* / 0.1046.",
+     "equations": [
+      {
+       "latex": "\\frac{0.192}{1.836}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>192</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>836</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.192}{1.836}"
+      },
+      {
+       "latex": "\\frac{0.822}{1.836}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>822</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>836</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.822}{1.836}"
+      },
+      {
+       "latex": "\\frac{p\\mathrm{PCl}_{3}\\timesp\\mathrm{Cl}_{2}}{p\\mathrm{Cl}_{5}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mi>p</mi><msub><mi>PCl</mi><mn>3</mn></msub><mo>&#215;</mo><mi>p</mi><msub><mi>Cl</mi><mn>2</mn></msub></mrow><mrow><mi>p</mi><msub><mi>Cl</mi><mn>5</mn></msub></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator p PCl subscript 3 cross times p Cl subscript 2 over denominator p Cl subscript 5 end fraction"
+      },
+      {
+       "latex": "\\frac{(0.4477\\timesP)\\times(0.4477\\timesP)}{(0.1046\\timesP)}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mo>(</mo><mn>0</mn><mo>.</mo><mn>4477</mn><mo>&#215;</mo><mi>P</mi><mo>)</mo><mo>&#215;</mo><mo>(</mo><mn>0</mn><mo>.</mo><mn>4477</mn><mo>&#215;</mo><mi>P</mi><mo>)</mo></mrow><mrow><mo>(</mo><mn>0</mn><mo>.</mo><mn>1046</mn><mo>&#215;</mo><mi>P</mi><mo>)</mo></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis 0.4477 cross times P right parenthesis cross times left parenthesis 0.4477 cross times P right parenthesis over denominator left parenthesis 0.1046 cross times P right parenthesis end fraction"
+      },
+      {
+       "latex": "\\frac{(0.4477)^{2}\\timesP}{0.1046}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><msup><mrow><mo>(</mo><mn>0</mn><mo>.</mo><mn>4477</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&#215;</mo><mi>P</mi></mrow><mrow><mn>0</mn><mo>.</mo><mn>1046</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis 0.4477 right parenthesis squared cross times P over denominator 0.1046 end fraction"
+      },
+      {
+       "latex": "\\frac{526\\times0.1046}{0.4477^{2}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>526</mn><mo>&#215;</mo><mn>0</mn><mo>.</mo><mn>1046</mn></mrow><mrow><mn>0</mn><mo>.</mo><msup><mn>4477</mn><mn>2</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 526 cross times 0.1046 over denominator 0.4477 squared end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_HnrFHgZRS9wKVsCr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "Nitrogen dioxide decomposes according to the following equation:\n\n2NO<sub>2</sub> (g) ⇌ 2NO (g) + O<sub>2</sub> (g)\n\nAt 700 K, the equilibrium amount of each gas is shown in Table 3.2.\n\n**Table 3.2**\n\n| **Chemical** | NO<sub>2</sub> (g) | NO (g) | O<sub>2</sub> (g) |\n|---|---|---|---|\n| **Equilibrium moles** | 0.920 | 0.0600 | 0.0400 |\n\nCalculate the total pressure of the reaction, if *K*<sub>p</sub> = 9.8 x 10<sup>-3</sup> kPa. Show your working.\n\n*P* = ................... kPa",
+     "solution_md": "To calculate the total pressure of the equilibrium mixture:\n\n- Calculate the total moles:\n\ntotal moles = 0.920 + 0.0600 + 0.0400 = 1.020 mol **[1 mark]**\n\n- Calculate the mole fractions:\n\nx(NO<sub>2</sub>) = $\\frac{0.920}{1.020}$ = 0.9020\n\nx(NO) = $\\frac{0.0600}{1.020}$ = 0.05882\n\nx(O<sub>2</sub>) = $\\frac{0.0400}{1.020}$ = 0.03922\n\n**[1 mark]**\n\n- Write the *K*<sub>p</sub> expression and substitute partial pressures in terms of *P*:\n\n*K*<sub>p</sub> = (pNO)<sup>2</sup> x pO<sub>2</sub> / (pNO<sub>2</sub>)<sup>2</sup>\n\n9.8 x 10<sup>-3</sup> = (0.05882 x *P*)<sup>2</sup> x (0.03922 x *P*) / (0.9020 x *P*)<sup>2</sup>\n\n9.8 x 10<sup>-3</sup> = (0.05882)<sup>2</sup> x 0.03922 x *P* / (0.9020)<sup>2</sup> **[1 mark]**\n\n- Solve for *P*:\n\n9.8 x 10<sup>-3</sup> = 1.668 x 10<sup>-4</sup> x *P*\n\n*P* = **58.8** kPa **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for total moles = 1.02 mol\n> \n> 1 mark for mole fractions: x(NO<sub>2</sub>) = 0.9020, x(NO) = 0.05882, x(O<sub>2</sub>) = 0.03922\n> \n> 1 mark for correct algebraic substitution showing *P*<sup>2</sup> terms cancel to give a linear expression in *P*\n> \n> 1 mark for *P* = 58.8 kPa (allow 58.7–58.9 kPa)\n> \n> Allow error carried forward from incorrect mole fractions if the algebraic method is correct.\n\n> **[exam-tip]**\n> In this *K*<sub>p</sub> expression, (pNO)<sup>2</sup> appears in the numerator and (pNO<sub>2</sub>)<sup>2</sup> in the denominator. When substituting p = mole fraction x *P*, the *P*<sup>2</sup> terms cancel, leaving a single *P* term that can be rearranged directly.\n> \n> Work through the algebra carefully: expand each bracket, identify cancelling *P*<sup>2</sup> terms, then collect the remaining *P* terms before dividing to find *P*.",
+     "equations": [
+      {
+       "latex": "\\frac{0.920}{1.020}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>920</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>020</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.920}{1.020}"
+      },
+      {
+       "latex": "\\frac{0.0600}{1.020}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0600</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>020</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.0600}{1.020}"
+      },
+      {
+       "latex": "\\frac{0.0400}{1.020}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0400</mn></mrow><mrow><mn>1</mn><mo>.</mo><mn>020</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.0400}{1.020}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_qPhNYvgnxhRyvdHT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "Hydrogen iodide can undergo thermal decomposition according to the following equation:\n\n2HI (g) ⇌ H<sub>2</sub> (g) + I<sub>2</sub> (g)\n\nThe value of *K*<sub>p</sub> for this reaction at 700 K is 0.0185.\n\nCalculate the total pressure when the partial pressure of hydrogen iodide, at equilibrium, is 133 kPa. Give your answer to an appropriate number of significant figures. Show your working.\n\n*P* = ......................... kPa",
+     "solution_md": "To calculate the total pressure when pHI = 133 kPa:\n\n- Write the *K*<sub>p</sub> expression:\n\n*K*<sub>p</sub> = pH<sub>2</sub> x pI<sub>2</sub> / pHI<sup>2</sup> **[1 mark]**\n\n- Recognise that H<sub>2</sub> and I<sub>2</sub> are produced in a 1:1 ratio, so pH<sub>2</sub> = pI<sub>2</sub>. Simplify the expression:\n\n*K*<sub>p</sub> = pH<sub>2</sub><sup>2</sup> / pHI<sup>2</sup> **[1 mark]**\n\n- Rearrange and calculate pH<sub>2</sub>:\n\n0.0185 = pH<sub>2</sub><sup>2</sup> / 133<sup>2</sup>\n\npH<sub>2</sub><sup>2</sup> = 0.0185 x 133<sup>2</sup> = 327.2\n\npH<sub>2</sub> = pI<sub>2</sub> = $\\sqrt{327.2}$ = 18.1 kPa **[1 mark]**\n\n- Calculate the total pressure:\n\n*P* = pHI + pH<sub>2</sub> + pI<sub>2</sub>\n\n*P* = 133 + 18.1 + 18.1 = **169** kPa **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *K*<sub>p</sub> = pH<sub>2</sub> x pI<sub>2</sub> / pHI<sup>2</sup>\n> \n> 1 mark for recognising pH<sub>2</sub> = pI<sub>2</sub> and simplifying to *K*<sub>p</sub> = pH<sub>2</sub><sup>2</sup> / pHI<sup>2</sup>\n> \n> 1 mark for pH<sub>2</sub> = pI<sub>2</sub> = 18.1 kPa (allow 18.0–18.1 kPa)\n> \n> 1 mark for *P* = 169 kPa (3 s.f.) (allow 169–170 kPa)\n> \n> Allow error carried forward from incorrect pH<sub>2</sub> if the method is correct.\n\n> **[exam-tip]**\n> The key insight is that H<sub>2</sub> and I<sub>2</sub> are produced in a 1:1 molar ratio (from the stoichiometry 2HI ⇌ H<sub>2</sub> + I<sub>2</sub>), so their partial pressures at equilibrium are equal. This allows the *K*<sub>p</sub> expression to simplify to *K*<sub>p</sub> = pH<sub>2</sub><sup>2</sup> / pHI<sup>2</sup>, which can be rearranged directly without needing mole fractions.\n> \n> *K*<sub>p</sub> for this reaction is dimensionless (no units) because Δ*n* = 0 — equal moles of gas on each side. The partial pressures and total pressure are all in kPa.",
+     "equations": [
+      {
+       "latex": "\\sqrt{327.2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>327</mn><mo>.</mo><mn>2</mn></msqrt></math>",
+       "alt": "\\sqrt{327.2}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kNGBgTKKzvXBKBbR",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "Dinitrogen tetroxide decomposes according to the following equilibrium:\n\nN<sub>2</sub>O<sub>4</sub> (g) ⇌ 2NO<sub>2</sub> (g)\n\nThe value of *K*<sub>p</sub> for this reaction at 300 K is 385 kPa.\n\nThe equilibrium mixture contained 2.40 mol of nitrogen dioxide after an initial 3.00 mol of dinitrogen tetroxide were heated at 300 K.\n\nCalculate the partial pressures of N<sub>2</sub>O<sub>4</sub> (g) and NO<sub>2</sub> (g). Give your answer to an appropriate number of significant figures. Show your working.\n\n*p*N<sub>2</sub>O<sub>4</sub> = ................... kPa\n\n*p*NO<sub>2</sub> = ................... kPa",
+     "solution_md": "To calculate the partial pressures of N<sub>2</sub>O<sub>4</sub> (g) and NO<sub>2</sub> (g):\n\n- Deduce the equilibrium moles of N<sub>2</sub>O<sub>4</sub>:\n\n|   | N<sub>2</sub>O<sub>4</sub> (g) | NO<sub>2</sub> (g) |\n|---|---|---|\n| Initial moles | 3.00 | 0 |\n| Change / mol | −1.20 | +2.40 |\n| Equilibrium moles | **1.80** | **2.40** |\n\n**[1 mark]**\n\n- Calculate the total moles and mole fractions:\n\ntotal moles = 1.80 + 2.40 = 4.20 mol\n\nx(N<sub>2</sub>O<sub>4</sub>) = $\\frac{1.80}{4.20}$ = 0.4286\n\nx(NO<sub>2</sub>) = $\\frac{2.40}{4.20}$ = 0.5714\n\n**[1 mark]**\n\n- Write the *K*<sub>p</sub> expression and substitute partial pressures in terms of *P*:\n\n*K*<sub>p</sub> = pNO<sub>2</sub><sup>2</sup> / pN<sub>2</sub>O<sub>4</sub>\n\n385 = (0.5714 x *P*)<sup>2</sup> / (0.4286 x *P*)\n\n385 = (0.5714)<sup>2</sup> x *P* / 0.4286 **[1 mark]**\n\n- Solve for total pressure *P*:\n\n*P* = 385 x 0.4286 / (0.5714)<sup>2</sup> = **505** kPa **[1 mark]**\n\n- Calculate the partial pressures:\n\n*p*N<sub>2</sub>O<sub>4</sub> = 0.4286 x 505 = **217** kPa\n\n*p*NO<sub>2</sub> = 0.5714 x 505 = **289** kPa\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for N<sub>2</sub>O<sub>4</sub> equilibrium moles = 1.80 mol\n> \n> 1 mark for mole fractions: x(N<sub>2</sub>O<sub>4</sub>) = 0.4286 **AND** x(NO<sub>2</sub>) = 0.5714\n> \n> 1 mark for correct algebraic substitution showing *P*<sup>2</sup> cancels to give a linear expression in *P*\n> \n> 1 mark for total pressure *P* = 505 kPa (allow 505–506 kPa)\n> \n> 1 mark for *p*N<sub>2</sub>O<sub>4</sub> = 217 kPa (allow 216–217) **AND** *p*NO<sub>2</sub> = 289 kPa (allow 288–289)\n> \n> Allow error carried forward from incorrect mole fractions or incorrect *P* if the method is correct.\n\n> **[exam-tip]**\n> The equilibrium moles of N<sub>2</sub>O<sub>4</sub> must be found first. Since NO<sub>2</sub> and N<sub>2</sub>O<sub>4</sub> react in a 2:1 ratio, the change in N<sub>2</sub>O<sub>4</sub> = 2.40/2 = 1.20 mol, giving 3.00 − 1.20 = 1.80 mol at equilibrium.\n> \n> Once total pressure *P* is found by the algebraic method, multiply each mole fraction by *P* to obtain the individual partial pressures.\n> \n> Answers should be given to 3 significant figures, consistent with the data provided.",
+     "equations": [
+      {
+       "latex": "\\frac{1.80}{4.20}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>.</mo><mn>80</mn></mrow><mrow><mn>4</mn><mo>.</mo><mn>20</mn></mrow></mfrac></math>",
+       "alt": "\\frac{1.80}{4.20}"
+      },
+      {
+       "latex": "\\frac{2.40}{4.20}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>.</mo><mn>40</mn></mrow><mrow><mn>4</mn><mo>.</mo><mn>20</mn></mrow></mfrac></math>",
+       "alt": "\\frac{2.40}{4.20}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_NYcNdrZFTykg2yWy",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_rPVdBprDV86xwRtb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanol has a great number of uses. For industrial purposes, it can be manufactured via the following reversible reaction.\n\nC<sub>2</sub>H<sub>4</sub> (g) + H<sub>2</sub>O (g) ⇌ C<sub>2</sub>H<sub>5</sub>OH (g)   Δ*H* = −46 kJ mol<sup>-1</sup>\n\nThe optimum pressure for this reaction is between 60 and 70 atm.\n\nState and explain the effect that increasing the overall pressure would have on the equilibrium yield of ethanol.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of increasing overall pressure on the equilibrium yield of ethanol:\n> \n> - Equilibrium yield of ethanol increases **[1 mark]**\n> - There are fewer moles of gas on the right-hand side (1 mol) than the left-hand side (2 mol) / the forward reaction reduces the number of gas molecules **[1 mark]**\n> \n> Stating that 'the equilibrium shifts to the right' without reference to the number of moles of gas is not accepted for the second mark.\n\n> **[exam-tip]**\n> When explaining the effect of pressure on equilibrium position, identify which side of the equation has fewer moles of gas. Increasing pressure shifts the equilibrium to that side, as this reduces the total number of gas molecules and opposes the pressure increase."
+    },
+    {
+     "id": "qstnprt_4VK57RVFwwvptrhW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEthanol has a great number of uses. For industrial purposes, it can be manufactured via the following reversible reaction.\n\nC~2~H~4~ (g) + H~2~O (g) ⇌ C~2~H~5~OH (g)   Δ*H* = −46 kJ mol^-1^\n\nAlthough a compromise must often be made when selecting the best conditions for a reaction, Le Chatelier's principle helps to identify the optimum conditions.\n\ni) State and explain whether a high or low temperature should be used to produce the maximum equilibrium yield of ethanol in the reaction from part (a).\n\n[2]\n\nii) Suggest one disadvantage of using this temperature.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The optimum temperature to maximise the equilibrium yield of ethanol:\n> \n> - Low temperature **[1 mark]**\n> - The forward reaction is exothermic (Δ*H* = −46 kJ mol<sup>-1</sup>) / the backward reaction is endothermic **[1 mark]**\n> \n> A statement that 'the equilibrium shifts to the right at low temperature' is not accepted without explaining why in terms of exothermicity.\n> \n> ii) One disadvantage of using a low temperature:\n> \n> - A low temperature results in a slow rate of reaction / product is formed too slowly **[1 mark]**\n\n> **[exam-tip]**\n> For exothermic reactions, a low temperature shifts the equilibrium to the right (towards products), increasing the yield. However, a very low temperature also reduces the rate of reaction, meaning equilibrium is reached much more slowly. In practice, a compromise temperature is used."
+    },
+    {
+     "id": "qstnprt_2nqRD3XVkxXSQgTV",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanol can be used as a reactant in another equilibrium reaction; the manufacture of ethyl ethanoate.\n\nCH<sub>3</sub>CH<sub>2</sub>OH (l) + CH<sub>3</sub>COOH (l) ⇌ CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub> (l) + H<sub>2</sub>O (l)\n\nWrite an expression for the equilibrium constant, *K*<sub>c</sub>, for this equilibrium.",
+     "solution_md": "> **[mark-scheme]**\n> The *K*<sub>c</sub> expression for this equilibrium:\n> \n> - *K*<sub>c</sub> = `(left square bracket CH _ 3 COOCH _ 2 CH _ 3 right square bracket left square bracket H _ 2 O right square bracket)/(left square bracket CH _ 3 CH _ 2 OH right square bracket left square bracket CH _ 3 COOH right square bracket)` **[1 mark]**\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> For *K*<sub>c</sub> expressions, place the equilibrium concentrations of products in the numerator and reactants in the denominator. Square brackets represent 'concentration of'.\n> \n> Since all stoichiometric coefficients are 1, no powers are needed in this expression.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket CH subscript 3 COOCH subscript 2 CH subscript 3 right square bracket left square bracket straight H subscript 2 straight O right square bracket over denominator left square bracket CH subscript 3 CH subscript 2 OH right square bracket left square bracket CH subscript 3 COOH right square bracket end fraction",
+       "render": "`(left square bracket CH _ 3 COOCH _ 2 CH _ 3 right square bracket left square bracket H _ 2 O right square bracket)/(left square bracket CH _ 3 CH _ 2 OH right square bracket left square bracket CH _ 3 COOH right square bracket)`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Gj4pDWprxjpKzVgp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEthanol can be used as a reactant in another equilibrium reaction; the manufacture of ethyl ethanoate.\n\nCH~3~CH~2~OH (l) + CH~3~COOH (l) ⇌ CH~3~COOCH~2~CH~3~ (l) + H~2~O (l)\n\nA student set up the esterification reaction seen in part **(c)**, adding ethanol and ethanoic acid to a reaction vessel. They set the reaction up in a closed system, at a constant temperature and allowed equilibrium to be reached.\n\nThe reaction was done in a container with a volume of 250 cm<sup>3</sup>.\n\nTable 1.1 shows the amount of each substance present in the equilibrium mixture.\n\n**Table 1.1**\n\n| Substance | Amount / mol |\n|---|---|\n| CH<sub>3</sub>CH<sub>2</sub>OH | 0.0375 |\n| CH<sub>3</sub>COOH | 0.0615 |\n| CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub> | 0.0776 |\n| H<sub>2</sub>O | 0.0834 |\n\nCalculate *K*<sub>c</sub> for this reaction to 2 decimal places, and state its units. Show your working.",
+     "solution_md": "To calculate *K*<sub>c</sub> for this reaction:\n\n- List the known values:\n\n  - Volume of container = 250 cm<sup>3</sup> = 0.250 dm<sup>3</sup>\n\n- Convert amounts in moles to concentrations (divide by volume in dm<sup>3</sup>):\n\n[CH<sub>3</sub>CH<sub>2</sub>OH] = $\\frac{0.0375}{0.250}$ = 0.15 mol dm<sup>-3</sup>\n\n[CH<sub>3</sub>COOH] = $\\frac{0.0615}{0.250}$ = 0.246 mol dm<sup>-3</sup>\n\n[CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub>] = $\\frac{0.0776}{0.250}$ = 0.3104 mol dm<sup>-3</sup>\n\n[H<sub>2</sub>O] = $\\frac{0.0834}{0.250}$ = 0.3336 mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Substitute into the *K*<sub>c</sub> expression:\n\n*K*<sub>c</sub> = `(left square bracket CH _ 3 COOCH _ 2 CH _ 3 right square bracket left square bracket H _ 2 O right square bracket)/(left square bracket CH _ 3 CH _ 2 OH right square bracket left square bracket CH _ 3 COOH right square bracket)`\n\n*K*<sub>c</sub> = $\\frac{[ 0.3104 ] [ 0.3336 ]}{[ 0.15 ] [ 0.246 ]}$ **[1 mark]**\n\n*K*<sub>c</sub> = **2.81** **[1 mark]**\n\n- State the units of *K*<sub>c</sub>:\n\nUnits = **no units** **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for all four concentrations correctly calculated\n> \n> 1 mark for correct substitution into the *K*<sub>c</sub> expression\n> \n> 1 mark for *K*<sub>c</sub> = 2.81 (to 2 decimal places, correctly rounded)\n> \n> 1 mark for no units\n> \n> Substitution of molar amounts directly into the *K*<sub>c</sub> expression is accepted, as the volume cancels and the numerical answer is the same.\n\n> **[exam-tip]**\n> Convert cm<sup>3</sup> to dm<sup>3</sup> by dividing by 1000: 250 cm<sup>3</sup> = 0.250 dm<sup>3</sup>. Each molar amount is then divided by 0.250 to give the concentration.\n> \n> In this reaction the units cancel because the *K*<sub>c</sub> expression has equal numbers of concentration terms on top and bottom.",
+     "equations": [
+      {
+       "latex": "\\frac{0.0375}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0375</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.0375 over denominator 0.250 end fraction"
+      },
+      {
+       "latex": "\\frac{0.0615}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0615</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.0615 over denominator 0.250 end fraction"
+      },
+      {
+       "latex": "\\frac{0.0776}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0776</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.0776 over denominator 0.250 end fraction"
+      },
+      {
+       "latex": "\\frac{0.0834}{0.250}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mn>0</mn><mo>.</mo><mn>0834</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>250</mn></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.0834 over denominator 0.250 end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket CH subscript 3 COOCH subscript 2 CH subscript 3 right square bracket left square bracket straight H subscript 2 straight O right square bracket over denominator left square bracket CH subscript 3 CH subscript 2 OH right square bracket left square bracket CH subscript 3 COOH right square bracket end fraction",
+       "render": "`(left square bracket CH _ 3 COOCH _ 2 CH _ 3 right square bracket left square bracket H _ 2 O right square bracket)/(left square bracket CH _ 3 CH _ 2 OH right square bracket left square bracket CH _ 3 COOH right square bracket)`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket 0.3104 right square bracket left square bracket 0.3336 right square bracket over denominator left square bracket 0.15 right square bracket left square bracket 0.246 right square bracket end fraction",
+       "render": "$\\frac{[ 0.3104 ] [ 0.3336 ]}{[ 0.15 ] [ 0.246 ]}$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_nRqcB3d7t9cRDZFc",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_hTrss6TtxX2FDVJ5",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_ddWBfX2tFBNQ6ZTz"
+     ],
+     "part_tier": null,
+     "problem_md": "Dinitrogen pentoxide, N<sub>2</sub>O<sub>5</sub> (g), decomposes to form oxygen and nitrogen dioxide. The equation for the decomposition is shown.\n\n2N<sub>2</sub>O<sub>5</sub> (g) ⇌ O<sub>2</sub> (g) + 4NO<sub>2</sub> (g)\n\nWrite an expression for the equilibrium constant, *K*<sub>p</sub>, for this reaction.\n\n*K*<sub>p</sub> =",
+     "solution_md": "> **[mark-scheme]**\n> The expression for *K*<sub>p</sub> is:\n> \n> - *K*<sub>p</sub> = $\\frac{p_{O_{2}}\\times(p_{\\mathrm{NO}_{2}})^{4}}{(p_{N_{2}O_{5}})^{2}}$ **[1 mark]**\n> \n> Expressions with alternative partial pressure notation are accepted\n> \n> Square brackets are not accepted\n\n> **[exam-tip]**\n> The *K*<sub>p</sub> expression always has products in the numerator and reactants in the denominator, with each partial pressure raised to the power of its stoichiometric coefficient.\n> \n> Check each component:\n> \n> - p(O<sub>2</sub>)<sup>1</sup> in the numerator (coefficient 1, which is usually omitted)\n> - (p(NO<sub>2</sub>))<sup>4</sup> in the numerator (coefficient 4)\n> - (p(N<sub>2</sub>O<sub>5</sub>))<sup>2</sup> in the denominator (coefficient 2)",
+     "equations": [
+      {
+       "latex": "\\frac{p_{O_{2}}\\times(p_{\\mathrm{NO}_{2}})^{4}}{(p_{N_{2}O_{5}})^{2}}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mfrac><mrow><msub><mi>p</mi><msub><mi mathvariant=\"normal\">O</mi><mn>2</mn></msub></msub><mo>×</mo><msup><mrow><mo stretchy=\"true\">(</mo><msub><mi>p</mi><msub><mi>NO</mi><mn>2</mn></msub></msub><mo stretchy=\"true\">)</mo></mrow><mn>4</mn></msup></mrow><msup><mrow><mo stretchy=\"true\">(</mo><msub><mi>p</mi><mrow><msub><mi mathvariant=\"normal\">N</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">O</mi><mn>5</mn></msub></mrow></msub><mo stretchy=\"true\">)</mo></mrow><mn>2</mn></msup></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator p subscript straight O subscript 2 end subscript cross times stretchy left parenthesis p subscript NO subscript 2 end subscript stretchy right parenthesis to the power of 4 over denominator stretchy left parenthesis p subscript straight N subscript 2 straight O subscript 5 end subscript stretchy right parenthesis squared end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_QYy6PNWSBQKTXK4V",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDinitrogen pentoxide, N~2~O~5~ (g), decomposes to form oxygen and nitrogen dioxide. The equation for the decomposition is shown.\n\n2N~2~O~5~ (g) ⇌ O~2~ (g) + 4NO~2~ (g)\n\nThe expression for *K*~p~ is:\n\n*K*~p~ = p(O~2~) × (p(NO~2~))^4 / (p(N~2~O~5~))^2\n\nThe equilibrium partial pressures of the gases at temperature *T* are shown in Table 4.1.\n\n**Table 4.1**\n\n| gas | equilibrium partial pressure / Pa |\n|---|---|\n| N<sub>2</sub>O<sub>5</sub> (g) | 10 000 |\n| O<sub>2</sub> (g) | 400 |\n| NO<sub>2</sub> (g) | 600 |\n\nUse your expression in **(a)** and the data in Table 4.1 to calculate the value of *K*<sub>p</sub> at temperature *T*. State its units. Show your working.\n\n*K*<sub>p</sub> = .......... units = ..........",
+     "solution_md": "To calculate the value of *K*<sub>p</sub> and its units:\n\n- Substitute the equilibrium partial pressures into the *K*<sub>p</sub> expression:\n\n*K*<sub>p</sub> = p(O<sub>2</sub>) x (p(NO<sub>2</sub>))<sup>4</sup> / (p(N<sub>2</sub>O<sub>5</sub>))<sup>2</sup>\n\n*K*<sub>p</sub> = 400 x (600)<sup>4</sup> / (10 000)<sup>2</sup> **[1 mark]**\n\n*K*<sub>p</sub> = **518 400** **[1 mark]**\n\n- Determine the units:\n\nunits = Pa x Pa<sup>4</sup> / Pa<sup>2</sup> = **Pa**<sup>**3**</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for correct substitution: 400 x (600)<sup>4</sup> / (10 000)<sup>2</sup>\n> \n> 1 mark for the correct value: 518 400 (allow 5.18 x 10<sup>5</sup>)\n> \n> 1 mark for correct units: Pa<sup>3</sup>\n\n> **[exam-tip]**\n> The partial pressures given in Table 4.1 are equilibrium values, so substitute them directly into your *K*<sub>p</sub> expression from part (a).\n> \n> To find the units, write out the units of each partial pressure term and simplify:\n> \n> - p(O<sub>2</sub>) contributes Pa<sup>1</sup>\n> - (p(NO<sub>2</sub>))<sup>4</sup> contributes Pa<sup>4</sup>\n> - (p(N<sub>2</sub>O<sub>5</sub>))<sup>2</sup> contributes Pa<sup>2</sup> in the denominator\n> \n> The overall units are Pa<sup>(1+4-2)</sup> = Pa<sup>3</sup>."
+    },
+    {
+     "id": "qstnprt_w6zFhWcJ4kg3FNQG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_74qGNPtqhh3SNbcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nDinitrogen pentoxide, N₂O₅ (g), decomposes to form oxygen and nitrogen dioxide. The equation for the decomposition is shown.\n\n2N₂O₅ (g) ⇌ O₂ (g) + 4NO₂ (g)\n\nThe reaction is repeated at a lower pressure. State the effect of a decrease in pressure on the value of *K*<sub>p</sub>.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of a decrease in pressure on the value of *K*<sub>p</sub>:\n> \n> - *K*<sub>p</sub> does not change / is unaffected **[1 mark]**\n\n> **[exam-tip]**\n> The value of an equilibrium constant (*K*<sub>c</sub> or *K*<sub>p</sub>) is only affected by a change in temperature. Changes in pressure or concentration shift the position of equilibrium but do not alter the numerical value of the equilibrium constant."
+    }
+   ]
+  },
+  {
+   "id": "qstn_NrGzXHdrvSJYYbyW",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_PjXs4nRYPSM7XxNn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mC6Zc75wwfjzDW3J"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain what is meant by the term dynamic equilibrium.",
+     "solution_md": "> **[mark-scheme]**\n> A dynamic equilibrium is one in which:\n> \n> - The rate of the forward reaction is equal to the rate of the reverse reaction **[1 mark]**\n> - The concentrations of reactants and products remain constant **[1 mark]**\n> \n> 'The concentrations of reactants and products are the same' is not accepted\n\n> **[exam-tip]**\n> Students often confuse 'equal rates' with 'equal concentrations'. The concentrations of reactants and products do not need to be equal to each other. They just need to stop changing.\n> \n> When explaining dynamic equilibrium, two key ideas are needed: that forward and reverse reactions are occurring at equal rates, and that concentrations are not changing over time. Missing either loses a mark."
+    },
+    {
+     "id": "qstnprt_kHsqzPzqwKYgqXMF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv"
+     ],
+     "part_tier": null,
+     "problem_md": "A general reaction exists in the following dynamic equilibrium.\n\n3A + 2B ⇌ C<sub>2</sub> + D\n\nState the condition required for this equilibrium to be established.",
+     "solution_md": "> **[mark-scheme]**\n> The condition required for this equilibrium to be established:\n> \n> - Closed system / the system must be closed / no exchange of matter with the surroundings **[1 mark]**\n\n> **[exam-tip]**\n> A closed system is one where matter cannot enter or leave the system, for example a sealed container or flask. Without a closed system, reactants or products could escape, preventing the concentrations from reaching a constant value and the forward and reverse rates from becoming equal."
+    },
+    {
+     "id": "qstnprt_v5ZMg3WVNh8fN5gs",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "The gases nitrogen dioxide, NO<sub>2</sub> (g), and dinitrogen tetroxide, N<sub>2</sub>O<sub>4</sub> (g), exist in the following dynamic equilibrium.\n\n2NO<sub>2</sub> (g) ⇌ N<sub>2</sub>O<sub>4</sub> (g)\n\nAn increase in pressure shifts this equilibrium to the right. Explain why.",
+     "solution_md": "> **[mark-scheme]**\n> An increase in pressure shifts this equilibrium to the right because:\n> \n> - There are fewer moles / molecules of gas on the right-hand side / product side\n> **OR**\n> There are 2 moles of gaseous reactants and only 1 mole of gaseous product **[1 mark]**\n\n> **[exam-tip]**\n> When answering questions about pressure effects on equilibrium, you must be specific about which side of the equilibrium has fewer moles of gas.\n> \n> Refer to the stoichiometric coefficients in the equation: 2NO<sub>2</sub> on the left versus 1 N<sub>2</sub>O<sub>4</sub> on the right. Increasing pressure favours the side with fewer moles of gas, which is the right-hand side."
+    }
+   ]
+  },
+  {
+   "id": "qstn_JqBgwsMkb9g8xGZy",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_k7cKK5rwWGQmJVTd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia can be manufactured from nitrogen and hydrogen gases in the Haber process.\n\nThe equilibrium is shown below.\n\nN<sub>2</sub> (g) + 3H<sub>2</sub> (g) ⇌ 2NH<sub>3</sub> (g)   Δ*H* = –91 kJ mol<sup>–1</sup>\n\nWrite an expression for *K*<sub>c</sub> for this equilibrium.\n\n*K*<sub>c</sub> =",
+     "solution_md": "> **[mark-scheme]**\n> The *K*<sub>c</sub> expression for this equilibrium:\n> \n> - *K*<sub>c</sub> = `(left square bracket NH _ 3 right square bracket ^2)/(left square bracket N _ 2 right square bracket left square bracket H _ 2 right square bracket ^3)` **[1 mark]**\n> \n> State symbols are not required.\n\n> **[exam-tip]**\n> For *K*<sub>c</sub> expressions, products go in the numerator and reactants in the denominator.\n> \n> Apply the stoichiometric coefficients as powers: NH<sub>3</sub> has a coefficient of 2 (so [NH<sub>3</sub>]<sup>2</sup>) and H<sub>2</sub> has a coefficient of 3 (so [H<sub>2</sub>]<sup>3</sup>).",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket NH subscript 3 right square bracket squared over denominator left square bracket straight N subscript 2 right square bracket left square bracket straight H subscript 2 right square bracket cubed end fraction",
+       "render": "`(left square bracket NH _ 3 right square bracket ^2)/(left square bracket N _ 2 right square bracket left square bracket H _ 2 right square bracket ^3)`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_d2kff7z6D7vtH3Gv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAmmonia can be manufactured from nitrogen and hydrogen gases in the Haber process.\n\nThe equilibrium is shown below.\n\nN~2~ (g) + 3H~2~ (g) ⇌ 2NH~3~ (g)   Δ*H* = –91 kJ mol^–1^\n\nA chemist carries out a series of experiments to investigate the conversion of nitrogen and hydrogen into ammonia under different conditions.\n\nThe chemist mixes together 10.40 mol N<sub>2</sub> and 22.50 mol H<sub>2</sub> and pressurises the gases so that the total gas volume is 5.00 dm<sup>3</sup>.\n\nThe mixture is allowed to reach equilibrium at constant temperature and without changing the total gas volume. The equilibrium mixture contains 5.60 mol NH<sub>3</sub>.\n\ni) Calculate *K*<sub>c</sub> at this temperature. Give your answer to three significant figures.\n\nShow your working.\n\n*K*<sub>c</sub> = ......................\n\n[5]\n\nii) State the units for *K*<sub>c</sub>.\n\nunits = ...............\n\n[1]",
+     "solution_md": "i) To calculate *K*<sub>c</sub> at this temperature:\n\n- Calculate moles of N<sub>2</sub> at equilibrium:\n\nmoles of N<sub>2</sub> = 10.40 − $\\frac{5.60}{2}$ = 7.60 mol\n\n**[1 mark]**\n\n- Calculate moles of H<sub>2</sub> at equilibrium:\n\nmoles of H<sub>2</sub> = 22.50 − (1.5 x 5.60) = 14.10 mol\n\n**[1 mark]**\n\n- Calculate concentrations at equilibrium:\n\n[N<sub>2</sub>] = $\\frac{7.60}{5.00}$ = 1.52 mol dm<sup>-3</sup>\n\n[H<sub>2</sub>] = $\\frac{14.10}{5.00}$ = 2.82 mol dm<sup>-3</sup>\n\n[NH<sub>3</sub>] = $\\frac{5.60}{5.00}$ = 1.12 mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Substitute into the *K*<sub>c</sub> expression:\n\n*K*<sub>c</sub> = [NH<sub>3</sub>]<sup>2</sup> / ([N<sub>2</sub>][H<sub>2</sub>]<sup>3</sup>)\n\n*K*<sub>c</sub> = $\\frac{(1.12)^{2}}{1.52\\times(2.82)^{3}}$\n\n**[1 mark]**\n\n*K*<sub>c</sub> = **0.0368**\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for moles of N<sub>2</sub> = 7.60 mol at equilibrium\n> \n> 1 mark for moles of H<sub>2</sub> = 14.10 mol at equilibrium\n> \n> 1 mark for all three concentrations correctly calculated\n> \n> 1 mark for correct substitution into the *K*<sub>c</sub> expression\n> \n> 1 mark for *K*<sub>c</sub> = 0.0368\n> \n> Answers written in standard form, e.g. 3.68 × 10<sup>-2</sup> are accepted\n> \n> Answers must be given to 3 significant figures\n\nii) The units of *K*<sub>c</sub> are:\n\nUnits = $\\frac{(\\mathrm{mol} \\mathrm{dm}^{-3})^{2}}{(\\mathrm{mol} \\mathrm{dm}^{-3})\\times(\\mathrm{mol} \\mathrm{dm}^{-3})^{3}}$\n\nunits = **dm**<sup>**6**</sup>** mol**<sup>**-2**</sup> **[1 mark]**\n\n> **[exam-tip]**\n> To find moles of N<sub>2</sub> at equilibrium: the N<sub>2</sub> : NH<sub>3</sub> ratio is 1:2, so moles of N<sub>2</sub> consumed = 5.60 / 2 = 2.80 mol.\n> \n> For H<sub>2</sub>: the H<sub>2</sub> : NH<sub>3</sub> ratio is 3:2, so moles of H<sub>2</sub> consumed = 5.60 x 1.5 = 8.40 mol.",
+     "equations": [
+      {
+       "latex": "\\frac{5.60}{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>60</mn></mrow><mn>2</mn></mfrac></math>",
+       "alt": "\\frac{5.60}{2}"
+      },
+      {
+       "latex": "\\frac{7.60}{5.00}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>.</mo><mn>60</mn></mrow><mrow><mn>5</mn><mo>.</mo><mn>00</mn></mrow></mfrac></math>",
+       "alt": "\\frac{7.60}{5.00}"
+      },
+      {
+       "latex": "\\frac{14.10}{5.00}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>14</mn><mo>.</mo><mn>10</mn></mrow><mrow><mn>5</mn><mo>.</mo><mn>00</mn></mrow></mfrac></math>",
+       "alt": "\\frac{14.10}{5.00}"
+      },
+      {
+       "latex": "\\frac{5.60}{5.00}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>.</mo><mn>60</mn></mrow><mrow><mn>5</mn><mo>.</mo><mn>00</mn></mrow></mfrac></math>",
+       "alt": "\\frac{5.60}{5.00}"
+      },
+      {
+       "latex": "\\frac{(1.12)^{2}}{1.52\\times(2.82)^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>1</mn><mo>.</mo><mn>12</mn><msup><mo>)</mo><mn>2</mn></msup></mrow><mrow><mn>1</mn><mo>.</mo><mn>52</mn><mo>&#xD7;</mo><mo>(</mo><mn>2</mn><mo>.</mo><mn>82</mn><msup><mo>)</mo><mn>3</mn></msup></mrow></mfrac></math>",
+       "alt": "\\frac{(1.12)^2}{1.52 \\times (2.82)^3}"
+      },
+      {
+       "latex": "\\frac{(\\mathrm{mol} \\mathrm{dm}^{-3})^{2}}{(\\mathrm{mol} \\mathrm{dm}^{-3})\\times(\\mathrm{mol} \\mathrm{dm}^{-3})^{3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><msup><mrow><mo>(</mo><mi>mol</mi><mo>&#160;</mo><msup><mi>dm</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>)</mo></mrow><mn>2</mn></msup><mrow><mo>(</mo><mi>mol</mi><mo>&#160;</mo><msup><mi>dm</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>)</mo><mo>&#215;</mo><msup><mrow><mo>(</mo><mi>mol</mi><mo>&#160;</mo><msup><mi>dm</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>)</mo></mrow><mn>3</mn></msup></mrow></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis mol space dm to the power of negative 3 end exponent right parenthesis squared over denominator left parenthesis mol space dm to the power of negative 3 end exponent right parenthesis cross times left parenthesis mol space dm to the power of negative 3 end exponent right parenthesis cubed end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_SSmdNmtK9qVGJ6hd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_74qGNPtqhh3SNbcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAmmonia can be manufactured from nitrogen and hydrogen gases in the Haber process.\n\nThe equilibrium is shown below.\n\nN~2~ (g) + 3H~2~ (g) ⇌ 2NH~3~ (g)   Δ*H* = –91 kJ mol^–1^\n\nThe chemist repeats the experiment several times. In each experiment, the chemist makes one change.\n\nThe chemist heats the mixture to a higher temperature at constant pressure.\n\nExplain whether the value of *K*<sub>c</sub> would be greater, smaller or the same.",
+     "solution_md": "> **[mark-scheme]**\n> The value of *K*<sub>c</sub> after increasing the temperature:\n> \n> - Smaller\n> **AND**\n> The forward reaction is exothermic / Δ*H* is negative **[1 mark]**\n\n> **[exam-tip]**\n> The value of *K*<sub>c</sub> only changes with temperature.\n> \n> For an exothermic reaction, increasing temperature shifts equilibrium to the left (towards reactants), reducing the concentration of products relative to reactants. This means *K*<sub>c</sub> decreases."
+    },
+    {
+     "id": "qstnprt_SRXQDnFWhZYtZQxN",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_74qGNPtqhh3SNbcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAmmonia can be manufactured from nitrogen and hydrogen gases in the Haber process.\n\nThe equilibrium is shown below.\n\nN~2~ (g) + 3H~2~ (g) ⇌ 2NH~3~ (g)   Δ*H* = –91 kJ mol^–1^\n\nThe chemist increases the pressure of the mixture at constant temperature.\n\nExplain whether the value of *K*<sub>c</sub> would be greater, smaller or the same.",
+     "solution_md": "> **[mark-scheme]**\n> The value of *K*<sub>c</sub> after increasing the pressure:\n> \n> - The same\n> **AND**\n> *K*<sub>c</sub> is only affected by temperature / pressure does not change the value of *K*<sub>c</sub> **[1 mark]**\n\n> **[exam-tip]**\n> The equilibrium constant (*K*<sub>c</sub> or *K*<sub>p</sub>) is only affected by temperature. Changes in pressure, concentration, or the presence of a catalyst do not change the value of the equilibrium constant. They may shift the equilibrium position, but the constant remains the same."
+    }
+   ]
+  },
+  {
+   "id": "qstn_GpbKQFBJw8wnHXtS",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Pb4h3Rtcq9h3HHGQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "Ammonia is manufactured from nitrogen and hydrogen in the Haber process.\n\nN<sub>2</sub> (g) + 3H<sub>2</sub> (g) ⇌ 2NH<sub>3</sub> (g)\n\nState the effect of an iron catalyst on the position of equilibrium.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of an iron catalyst on the position of equilibrium:\n> \n> - No effect **[1 mark]**\n\n> **[exam-tip]**\n> A catalyst increases the rate of both the forward and reverse reactions equally, so the equilibrium is reached more quickly. However, once established, the position of the equilibrium is unchanged. A catalyst affects only how fast equilibrium is reached, not where that equilibrium lies."
+    },
+    {
+     "id": "qstnprt_FJv8rhCVHtw3CDws",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAmmonia is manufactured from nitrogen and hydrogen in the Haber process.\n\nN~2~ (g) + 3H~2~ (g) ⇌ 2NH~3~ (g)\n\nWrite an expression for the equilibrium constant, *K*<sub>c</sub>, for this reaction.\n\n*K*<sub>c</sub> =",
+     "solution_md": "> **[mark-scheme]**\n> The expression for *K*<sub>c</sub> is:\n> \n> - *K*<sub>c</sub> = `(left square bracket NH _ 3 right square bracket ^2)/([ N _ 2 ] [ H _ 2 ] ^3)` **[1 mark]**\n\n> **[exam-tip]**\n> The *K*<sub>c</sub> expression always places products in the numerator and reactants in the denominator, with each concentration term raised to the power of its stoichiometric coefficient.\n> \n> For N<sub>2</sub> (g) + 3H<sub>2</sub> (g) ⇌ 2NH<sub>3</sub> (g):\n> \n> - [NH<sub>3</sub>]<sup>2</sup> in the numerator (coefficient 2)\n> - [N<sub>2</sub>] in the denominator (coefficient 1)\n> - [H<sub>2</sub>]<sup>3</sup> in the denominator (coefficient 3)",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket NH subscript 3 right square bracket squared over denominator open square brackets straight N subscript 2 close square brackets space open square brackets straight H subscript 2 close square brackets cubed end fraction",
+       "render": "`(left square bracket NH _ 3 right square bracket ^2)/([ N _ 2 ] [ H _ 2 ] ^3)`",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_hThWgMdqyCtyb8S9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAmmonia is manufactured from nitrogen and hydrogen in the Haber process.\n\nN2 (g) + 3H2 (g) ⇌ 2NH3 (g)\n\nThe expression for Kc is:\n\nKc = [NH3]^2 / ([N2][H2]^3)\n\nThe equilibrium concentrations of the gases at 450 °C are shown in Table 3.1.\n\n**Table 3.1**\n\n| gas | equilibrium concentration / mol dm<sup>-3</sup> |\n|---|---|\n| N<sub>2</sub> (g) | 17.4 |\n| H<sub>2</sub> (g) | 0.850 |\n| NH<sub>3</sub> (g) | 1.25 |\n\nCalculate the value of *K*<sub>c</sub> at 450 °C. Give your answer to three significant figures. Show your working.",
+     "solution_md": "To calculate the value of *K*<sub>c</sub>:\n\n- Substitute the equilibrium concentrations into the *K*<sub>c</sub> expression:\n\n*K*<sub>c</sub> = `(left square bracket NH _ 3 right square bracket ^2)/([ N _ 2 ] [ H _ 2 ] ^3)`\n\n*K*<sub>c</sub> = $\\frac{[ 1.25 ] ^{2} }{ [ 17.4 ] [ 0.850 ] ^{3} }$ **[1 mark]**\n\n*K*<sub>c</sub> = **0.146** **[1 mark]**\n\n> **[exam-tip]**\n> The concentration values in Table 3.1 are equilibrium values, so substitute them directly into the *K*<sub>c</sub> expression from part (b). No further calculation is needed before substituting.\n> \n> Apply the stoichiometric coefficients as powers: [NH<sub>3</sub>] is squared (coefficient 2) and [H<sub>2</sub>] is cubed (coefficient 3). Forgetting to cube [H<sub>2</sub>] is a common error that will give an incorrect final answer.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket NH subscript 3 right square bracket squared over denominator open square brackets straight N subscript 2 close square brackets space open square brackets straight H subscript 2 close square brackets cubed end fraction",
+       "render": "`(left square bracket NH _ 3 right square bracket ^2)/([ N _ 2 ] [ H _ 2 ] ^3)`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket 1.25 right square bracket squared over denominator open square brackets 17.4 close square brackets space open square brackets 0.850 close square brackets cubed end fraction",
+       "render": "$\\frac{[ 1.25 ] ^{2} }{ [ 17.4 ] [ 0.850 ] ^{3} }$",
+       "via": "alt-transpile"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_GHVjxHc8K2J7ym27",
+   "set_slug": "structured-questions",
+   "order": 9,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_Hdb4tsBZQpPMkT74",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mC6Zc75wwfjzDW3J",
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "The graph in **Fig. 2.1** shows the effect of pressure and temperature on the equilibrium yield of a gaseous product.\n\n![Graph (Fig. 2.1) showing equilibrium yield / % against temperature for three pressures (5 MPa, 20 MPa and 30 MPa). At each pressure, yield decreases as temperature increases and is greatest at the lowest pressure (5 MPa).](assets/002-graph-fig-2-1-showing-equilibrium-yield-against-.png)\n\n**Fig. 2.1**\n\nUse **Fig. 2.1** to deduce whether the forward reaction is exothermic or endothermic. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> Using Fig. 2.1 to deduce whether the forward reaction is exothermic or endothermic:\n> \n> - The forward reaction is exothermic **[1 mark]**\n> - As temperature increases, the equilibrium yield decreases, so the equilibrium shifts to oppose the increase in temperature by favouring the reverse / endothermic reaction **[1 mark]**\n\n> **[exam-tip]**\n> From Fig. 2.1, the equilibrium yield decreases as temperature increases at all pressures. By Le Chatelier's principle, this means the system opposes the temperature increase by favouring the endothermic (reverse) reaction, which lowers the yield. The forward reaction must therefore be exothermic.\n> \n> Structure your answer clearly: state the conclusion (exothermic), then justify it using evidence from the graph and Le Chatelier's principle."
+    },
+    {
+     "id": "qstnprt_vHwCRkbpggZ7CRPq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_mC6Zc75wwfjzDW3J",
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe graph in **Fig. 2.1** shows the effect of pressure and temperature on the equilibrium yield of a gaseous product.\n\n{align=center} **Fig. 2.1**\n\nAt each pressure, yield decreases as temperature increases and is greatest at the lowest pressure (5 MPa).\n\nUse **Fig. 2.1** to deduce whether the forward reaction produces an increase or a decrease in the number of moles of gas. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> Using Fig. 2.1 to deduce the change in moles of gas in the forward reaction:\n> \n> - The forward reaction produces an increase in the number of moles of gas **[1 mark]**\n> - As pressure increases, the equilibrium yield decreases, so the equilibrium shifts to the side with fewer moles of gas (left / backward reaction)\n> **OR**\n> as pressure decreases, the equilibrium yield increases, so the equilibrium shifts to the side with more moles of gas (right / forward reaction) **[1 mark]**\n\n> **[exam-tip]**\n> From Fig. 2.1, yield is greatest at the lowest pressure (5 MPa) and lowest at the highest pressure (30 MPa). By Le Chatelier's principle, increasing pressure shifts the equilibrium to the side with fewer moles of gas. Since higher pressure gives lower yield (less product), the product side must have more moles of gas than the reactant side — the forward reaction increases the number of moles of gas."
+    },
+    {
+     "id": "qstnprt_38D54WQk7KV6D7hB",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_74qGNPtqhh3SNbcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Fig. 2.2** shows the relationship between temperature and *K*<sub>c</sub> for a different dynamic equilibrium.\n\n![Graph (Fig. 2.2) showing Kc against temperature. Kc decreases as temperature increases, indicating the forward reaction is exothermic.](assets/003-graph-fig-2-2-showing-kc-against-temperature-kc-.png)\n\n**Fig. 2.2**\n\nUse the information in **Fig. 2.2** to deduce whether the forward reaction is exothermic or endothermic. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> Using Fig. 2.2 to deduce whether the forward reaction is exothermic or endothermic:\n> \n> - The forward reaction is exothermic **[1 mark]**\n> - As temperature increases, *K*<sub>c</sub> decreases, so the equilibrium shifts to the left / favours the reverse / endothermic reaction at higher temperatures **[1 mark]**\n\n> **[exam-tip]**\n> *K*<sub>c</sub> can only change with temperature. If *K*<sub>c</sub> decreases as temperature increases, the concentration of products decreases relative to reactants. By Le Chatelier's principle, the system opposes the increase in temperature by favouring the endothermic (reverse) reaction, so the forward reaction must be exothermic."
+    },
+    {
+     "id": "qstnprt_yTcDrdVwP7jSdfDT",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_74qGNPtqhh3SNbcd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\n**Fig. 2.2** shows the relationship between temperature and *K*~c~ for a different dynamic equilibrium.\n\nGraph (Fig. 2.2) showing Kc against temperature. Kc decreases as temperature increases, indicating the forward reaction is exothermic.\n\nThe equilibrium in **Fig. 2.2** is used to manufacture a gaseous product industrially.\n\nSuggest one reason why the industrial temperature may be higher than the temperature that gives the maximum equilibrium yield.",
+     "solution_md": "> **[mark-scheme]**\n> One reason why the industrial temperature may be higher than the temperature that gives the maximum equilibrium yield:\n> \n> - A higher temperature increases the rate of reaction **[1 mark]**\n> - The rate at the temperature of maximum yield is too slow to be economically viable / to produce product at an acceptable rate **[1 mark]**\n\n> **[exam-tip]**\n> This is the classic industrial compromise between rate and yield. At the temperature that gives maximum equilibrium yield, the reaction may be so slow that very little product forms per unit time, making the process uneconomical. A higher temperature sacrifices some equilibrium yield but greatly increases the rate of product formation.\n> \n> A one-mark answer stating 'to increase the rate' is not sufficient on its own — you must explain why a slower rate at the optimum yield temperature is a problem (economic viability or unacceptably slow production)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_cMbYRkKTn4cWqTPW",
+   "set_slug": "structured-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_pS4xQ8XM9gGBRyqk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanoic acid can be reacted with methanol to form methyl ethanoate, and an equilibrium mixture is formed.\n\nCH<sub>3</sub>COOH (l) + CH<sub>3</sub>OH (l) ⇌ CH<sub>3</sub>COOCH<sub>3</sub> (l) + H<sub>2</sub>O (l)\n\nThe reaction is usually carried out in the presence of an acid catalyst.\n\nWrite an expression for the equilibrium constant, *K*<sub>c</sub>, for this reaction, clearly stating the units.\n\n*K*<sub>c</sub> =",
+     "solution_md": "> **[mark-scheme]**\n> The *K*<sub>c</sub> expression and units for this reaction:\n> \n> - *K*<sub>c</sub> = $\\frac{[ CH_{3} COOCH_{3} ] [ \\mathrm{H}_{2} \\mathrm{O} ]}{[ CH_{3} \\text{COOH} ] [ CH_{3} \\text{OH} ]}$ **[1 mark]**\n> - No units **[1 mark]**\n> \n> State symbols are not required in the *K*<sub>c</sub> expression.\n\n> **[exam-tip]**\n> For *K*<sub>c</sub> expressions, products go in the numerator and reactants in the denominator. Since the stoichiometry is 1:1:1:1, no powers are needed. The units cancel because there is an equal number of concentration terms on each side.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 14px style fraction numerator open square brackets CH subscript 3 COOCH subscript 3 close square brackets open square brackets straight H subscript 2 straight O close square brackets over denominator open square brackets CH subscript 3 COOH close square brackets open square brackets CH subscript 3 OH close square brackets end fraction end style",
+       "render": "$\\frac{[ CH_{3} COOCH_{3} ] [ \\mathrm{H}_{2} \\mathrm{O} ]}{[ CH_{3} \\text{COOH} ] [ CH_{3} \\text{OH} ]}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_H6yxR7Gxpx357XGy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hhsQcFzVK8SK2Fpk"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEthanoic acid can be reacted with methanol to form methyl ethanoate, and an equilibrium mixture is formed.\n\nCH~3~COOH (l) + CH~3~OH (l) ⇌ CH~3~COOCH~3~ (l) + H~2~O (l)\n\nThe reaction is usually carried out in the presence of an acid catalyst.\n\nIn an experiment to determine *K*<sub>c</sub> a student placed together in a conical flask 0.20 mol of ethanoic acid, 0.20 mol of methanol, and 0.01 mol of hydrogen chloride catalyst.\n\nThe flask was sealed and kept at 25 °C for ten days. After this time, the student titrated all of the contents of the flask with 1.80 mol dm<sup>–3</sup> KOH. At the end-point, 26.30 cm<sup>3</sup> of KOH had been used.\n\ni) Construct a balanced equation for the reaction between ethanoic acid and potassium hydroxide.\n\n[1]\n\nii) Suggest a suitable choice of indicator for the titration.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The balanced equation for the reaction between ethanoic acid and potassium hydroxide:\n> \n> - CH<sub>3</sub>COOH + KOH → CH<sub>3</sub>COOK + H<sub>2</sub>O **[1 mark]**\n> \n> ii) A suitable indicator for this titration:\n> \n> - Phenolphthalein **[1 mark]**\n\n> **[exam-tip]**\n> This is a weak acid–strong base neutralisation. The equivalence point is above pH 7 because the salt formed (CH<sub>3</sub>COOK) is slightly alkaline through hydrolysis. Phenolphthalein is therefore the correct indicator choice."
+    },
+    {
+     "id": "qstnprt_N5zdZZctzg9BN6gc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rBJCH5cMmx33QRxp",
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nEthanoic acid can be reacted with methanol to form methyl ethanoate, and an equilibrium mixture is formed.\n\nCH~3~COOH (l) + CH~3~OH (l) ⇌ CH~3~COOCH~3~ (l) + H~2~O (l)\n\nIn an experiment to determine *K*~c~ a student placed together in a conical flask 0.20 mol of ethanoic acid, 0.20 mol of methanol, and 0.01 mol of hydrogen chloride catalyst.\n\nThe flask was sealed and kept at 25 °C for ten days. After this time, the student titrated all of the contents of the flask with 1.80 mol dm^–3^ KOH. At the end-point, 26.30 cm^3^ of KOH had been used.\n\nThe student carried out the following calculations.\n\ni) Calculate the amount, in moles, of KOH used in the titration.\n\n[1]\n\nii) State the amount, in moles, of KOH that reacted with the hydrogen chloride.\n\n[1]\n\niii) Hence calculate the amount, in moles, of KOH that reacted with the ethanoic acid.\n\n[1]\n\niv) Use your results from parts **(i)**, **(ii)** and **(iii)** to calculate the amount, in moles, of ethanoic acid present at equilibrium.\n\nHence complete the table below.\n\n[2]\n\n|   | CH<sub>3</sub>COOH | CH<sub>3</sub>OH | CH<sub>3</sub>COOCH<sub>3</sub> | H<sub>2</sub>O |\n|---|---|---|---|---|\n| Initial amount / mol | 0.20 | 0.20 | 0 | 0 |\n| Equilibrium amount / mol |   |   |   |   |\n\nv) Use your results to calculate a value for *K*<sub>c</sub> for this reaction. State its units.\n\n*K*<sub>c</sub> = ........................\n\nunits = .......................\n\n[2]",
+     "solution_md": "i) To calculate the amount, in moles, of KOH used in the titration:\n\nmoles of KOH = 1.80 x $\\frac{26.30}{1000}$\n\nmoles of KOH = 0.04734 mol **[1 mark]**\n\nii) The amount, in moles, of KOH that reacted with HCl:\n\nmoles of KOH = moles of HCl\n\nmoles of HCl = 0.01 mol **[1 mark]**\n\niii) To calculate the amount, in moles, of KOH that reacted with ethanoic acid:\n\nmoles of KOH reacted with CH<sub>3</sub>COOH = 0.04734 − 0.01\n\nmoles of KOH reacted with CH<sub>3</sub>COOH = 0.03734 mol **[1 mark]**\n\niv) To calculate the moles of CH<sub>3</sub>COOH consumed:\n\nmoles of CH<sub>3</sub>COOH consumed= 0.20 − 0.03734\n\nmoles of CH<sub>3</sub>COOH consumed= 0.16266 mol\n\nThe completed table is:\n\n|   | CH<sub>3</sub>COOH | CH<sub>3</sub>OH | CH<sub>3</sub>COOCH<sub>3</sub> | H<sub>2</sub>O |\n|---|---|---|---|---|\n| Initial amount / mol | 0.20 | 0.20 | 0 | 0 |\n| Change / mol | −0.16266 | −0.16266 | +0.16266 | +0.16266 |\n| Equilibrium amount / mol | **Final answer:** **0.03734** | **Final answer:** **0.03734** | **Final answer:** **0.16266** | **Final answer:** **0.16266** |\n\n**[2 marks]**\n\n> **[mark-scheme]**\n> 1 mark for correct equilibrium amounts of CH<sub>3</sub>COOH and CH<sub>3</sub>OH (0.03734 mol each)\n> \n> 1 mark for correct equilibrium amounts of CH<sub>3</sub>COOCH<sub>3</sub> and H<sub>2</sub>O (0.16266 mol each)\n> \n> Allow error carried forward from part iii) for the equilibrium amounts\n\nv) To calculate *K*<sub>c</sub>:\n\n*K*<sub>c</sub> = `(left square bracket CH _ 3 COOCH _ 3 right square bracket left square bracket H _ 2 O right square bracket)/(left square bracket CH _ 3 COOH right square bracket left square bracket CH _ 3 OH right square bracket)`\n\n*K*<sub>c</sub> = $\\frac{0.16266\\times0.16266}{0.03734\\times0.03734}$\n\n*K*<sub>c</sub> = **18.97** **[1 mark]**\n\nUnits = **no units** **[1 mark]**\n\n> **[mark-scheme]**\n> Allow error carried forward from parts iii)  and iv) for the *K*<sub>c</sub> calculation.\n\n> **[exam-tip]**\n> In this reaction, the total volume cancels out in the *K*<sub>c</sub> expression because there is 1 mol of each species on each side. This means you can substitute molar amounts directly into the expression without converting to concentrations.\n> \n> For the titration: both neutralisation reactions (KOH + CH<sub>3</sub>COOH and KOH + HCl) have a 1:1 ratio, so moles of KOH equal moles of each acid separately.",
+     "equations": [
+      {
+       "latex": "\\frac{26.30}{1000}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>26</mn><mo>.</mo><mn>30</mn></mrow><mn>1000</mn></mfrac></math>",
+       "alt": "\\frac{26.30}{1000}"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator left square bracket CH subscript 3 COOCH subscript 3 right square bracket left square bracket straight H subscript 2 straight O right square bracket over denominator left square bracket CH subscript 3 COOH right square bracket left square bracket CH subscript 3 OH right square bracket end fraction",
+       "render": "`(left square bracket CH _ 3 COOCH _ 3 right square bracket left square bracket H _ 2 O right square bracket)/(left square bracket CH _ 3 COOH right square bracket left square bracket CH _ 3 OH right square bracket)`",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\frac{0.16266\\times0.16266}{0.03734\\times0.03734}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>16266</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>16266</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>03734</mn><mo>&#xD7;</mo><mn>0</mn><mo>.</mo><mn>03734</mn></mrow></mfrac></math>",
+       "alt": "\\frac{0.16266 \\times 0.16266}{0.03734 \\times 0.03734}"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_bCdxXHMBn5wKc9F5",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_hp29KmkdFhKN6DZk"
+     ],
+     "part_tier": null,
+     "problem_md": "The student performed another titration between the ethanoic acid used in the formation of the ester and the potassium hydroxide solution. The volume of potassium hydroxide added from the burette was recorded.\n\nSketch a pH titration curve for this reaction.",
+     "solution_md": "The pH titration curve for this reaction is:\n\n![Weak acid–strong base pH titration curve showing pH starting above 3, rising gradually, with a steep S-shaped section above pH 7 at the equivalence point, and ending around pH 13](assets/004-weak-acid-strong-base-ph-titration-curve-showing.jpeg)\n\n**[4 marks]**\n\n> **[mark-scheme]**\n> 1 mark for the curve starting above pH 3 (reflecting a weak acid, not fully dissociated)\n> \n> 1 mark for the equivalence point above pH 7\n> \n> 1 mark for the curve ending around pH 13 (strong base in excess)\n> \n> 1 mark for an S-shaped curve with a near-vertical section at the equivalence point, with alkali added on the x-axis\n\n> **[exam-tip]**\n> This is a weak acid–strong base titration (ethanoic acid + KOH). Key features to draw:\n> \n> - The starting pH is above 3 (weak acid is only partially dissociated)\n> - The equivalence point is above pH 7 (the salt formed, potassium ethanoate, undergoes slight hydrolysis to give an alkaline solution)\n> - The curve shows a characteristic S-shape with a steep vertical section at the equivalence point."
+    }
+   ]
+  },
+  {
+   "id": "qstn_9RjZbGwkcFzn8k7r",
+   "set_slug": "structured-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_nfxvVjvD2zjP5vWM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv",
+      "spcpt_mC6Zc75wwfjzDW3J"
+     ],
+     "part_tier": null,
+     "problem_md": "The following dynamic equilibrium was reached at temperature *T* in a closed container.\n\n3A (g) + 2B (g) ⇌ 2C (g)    Δ*H* = −65 kJ mol<sup>-1</sup>\n\nThe value of *K*<sub>c</sub> for the reaction was 255 mol<sup>-3</sup> dm<sup>9</sup> when the equilibrium mixture contained 3.34 mol of **A** and 4.28 mol of **C**.\n\ni) Explain what is meant by the term *dynamic equilibrium*.\n\n[2]\n\nii) Write an expression for the equilibrium constant, *K*<sub>c</sub>, for this reaction.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The term *dynamic equilibrium* means:\n> \n> - The rate of the forward reaction equals the rate of the reverse reaction **[1 mark]**\n> - The concentrations of reactants and products remain constant **[1 mark]**\n> \n> ii) The expression for *K*<sub>c</sub>:\n> \n> - *K*<sub>c</sub> = $\\frac{[ C ] ^{2} }{[ A ] ^{3} [ B ] ^{2} }$ **[1 mark]**\n> \n> Square brackets must be used for concentrations; round brackets are not accepted.\n\n> **[exam-tip]**\n> For part i), two distinct points are required for 2 marks: the equal rates point and the constant concentrations point. Stating only one will score 1 mark.\n> \n> For part ii), products go in the numerator and reactants in the denominator. The powers match the stoichiometric coefficients: [C]<sup>2</sup>, [A]<sup>3</sup>, and [B]<sup>2</sup>.",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 14px style fraction numerator left square bracket bold C right square bracket squared over denominator left square bracket bold A right square bracket cubed left square bracket bold B right square bracket squared end fraction end style",
+       "render": "$\\frac{[ C ] ^{2} }{[ A ] ^{3} [ B ] ^{2} }$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DkJwVBNq438T6sWr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dpbQmxNt2DFDXbDr"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe following dynamic equilibrium was reached at temperature *T* in a closed container.\n\n3A (g) + 2B (g) ⇌ 2C (g)    Δ*H* = −65 kJ mol^-1^\n\nThe value of *K*~c~ for the reaction was 255 mol^-3^ dm^9^ when the equilibrium mixture contained 3.34 mol of **A** and 4.28 mol of **C**.\n\nCalculate the concentration of **B** in the equilibrium mixture if the volume of the container is 8.00 dm<sup>3</sup>. Give your answer to 3 significant figures. Show your working.",
+     "solution_md": "To calculate the concentration of **B** in the equilibrium mixture:\n\n- Calculate the concentrations of **A** and **C** by dividing moles by volume:\n\n[**A**] = $\\frac{3.34}{8.00}$ = 0.4175 mol dm<sup>-3</sup>\n\n[**C**] = $\\frac{4.28}{8.00}$ = 0.535 mol dm<sup>-3</sup>\n\n**[1 mark]**\n\n- Write the *K*<sub>c</sub> expression and rearrange to make [**B**]<sup>2</sup> the subject:\n\n*K*<sub>c</sub> = $\\frac{[ C ] ^{2} }{[ A ] ^{3} [ B ] ^{2} }$\n\n[**B**]<sup>2</sup> = [**C**]<sup>2</sup> / ([**A**]<sup>3</sup> x *K*<sub>c</sub>) **[1 mark]**\n\n- Substitute values and calculate [**B**]<sup>2</sup>:\n\n[**B**]<sup>2</sup> = $\\frac{[ 0.535 ]^{2}}{[ 0.4175 ]^{3} \\times 255}$\n\n[**B**]<sup>2</sup> = 0.01542 **[1 mark]**\n\n- Take the square root to find [**B**]:\n\n[**B**] = **0.124** mol dm<sup>-3</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for [**A**] = 0.4175 mol dm<sup>-3</sup> **AND** [**C**] = 0.535 mol dm<sup>-3</sup>\n> \n> 1 mark for correct rearranged expression: [**B**]<sup>2</sup> = [**C**]<sup>2</sup> / ([**A**]<sup>3</sup> x *K*<sub>c</sub>)\n> \n> 1 mark for [**B**]<sup>2</sup> = 0.0154\n> \n> 1 mark for [**B**] = 0.124 mol dm<sup>-3</sup> (3 s.f.)\n> \n> Allow error carried forward from incorrect concentrations if the rearrangement method is correct.\n\n> **[exam-tip]**\n> The first step is to convert moles to concentrations by dividing by the volume. Using moles directly in the *K*<sub>c</sub> expression instead of concentrations is the most common error in this type of question.\n> \n> After rearranging, calculate [**B**]<sup>2</sup> first, then take the square root. Forgetting the square root at the end is a common final step error.",
+     "equations": [
+      {
+       "latex": "\\frac{3.34}{8.00}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>.</mo><mn>34</mn></mrow><mrow><mn>8</mn><mo>.</mo><mn>00</mn></mrow></mfrac></math>",
+       "alt": "\\frac{3.34}{8.00}"
+      },
+      {
+       "latex": "\\frac{4.28}{8.00}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>.</mo><mn>28</mn></mrow><mrow><mn>8</mn><mo>.</mo><mn>00</mn></mrow></mfrac></math>",
+       "alt": "\\frac{4.28}{8.00}"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "begin mathsize 14px style fraction numerator left square bracket bold C right square bracket squared over denominator left square bracket bold A right square bracket cubed left square bracket bold B right square bracket squared end fraction end style",
+       "render": "$\\frac{[ C ] ^{2} }{[ A ] ^{3} [ B ] ^{2} }$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator open square brackets 0.535 close square brackets blank squared over denominator open square brackets 0.4175 close square brackets cubed cross times 255 end fraction",
+       "render": "$\\frac{[ 0.535 ]^{2}}{[ 0.4175 ]^{3} \\times 255}$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_xNndN26x77tqf7py",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_c7vFrg8fTnmm4kcp"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe following dynamic equilibrium was reached at temperature *T* in a closed container.\n\n3A (g) + 2B (g) ⇌ 2C (g)    Δ*H* = −65 kJ mol^-1^\n\nState and explain the effect of an increase in temperature on the equilibrium concentration of **B**.",
+     "solution_md": "> **[mark-scheme]**\n> The effect of an increase in temperature on the equilibrium concentration of **B**:\n> \n> - The concentration of **B** increases **[1 mark]**\n> - Increasing temperature favours the reverse / endothermic reaction **[1 mark]**\n\n> **[exam-tip]**\n> The forward reaction is exothermic (Δ*H* = −65 kJ mol<sup>-1</sup>). By Le Chatelier's principle, increasing temperature shifts the position of equilibrium in the direction that opposes the change, favouring the reverse (endothermic) reaction. This consumes C and produces more A and B, so the concentration of **B** increases.\n> \n> State the effect first (concentration increases), then give the reason using Le Chatelier's principle. Both points are required for full marks."
+    },
+    {
+     "id": "qstnprt_GnXpNb6VbytTKY2c",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Y6Qj4KVdMvB2kpqv"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe following dynamic equilibrium was reached at temperature *T* in a closed container.\n\n3A (g) + 2B (g) ⇌ 2C (g)    Δ*H* = −65 kJ mol^-1^\n\nThe value of *K*~c~ for the reaction was 255 mol^-3^ dm^9^ when the equilibrium mixture contained 3.34 mol of **A** and 4.28 mol of **C**.\n\nCalculate the value of the equilibrium constant for the following reaction at temperature *T*. Show your working.\n\n2**C** (g) ⇌ 3**A** (g) + 2**B** (g)",
+     "solution_md": "To calculate the value of *K*<sub>c</sub> for the reverse reaction:\n\n- This reaction is the reverse of the original equilibrium, so *K*<sub>c</sub> (reverse) = $\\frac{1}{K_{c}\\text{(forward)}}$:\n\n*K*<sub>c</sub> = $\\frac{1}{255}$\n\n*K*<sub>c</sub> = **3.92 x 10**<sup>**-3**</sup> mol<sup>3</sup> dm<sup>-9</sup> **[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for *K*<sub>c</sub> = 1/255 = 3.92 × 10<sup>-3</sup> mol<sup>3</sup> dm<sup>-9</sup>\n> \n> Allow 0.00392 mol<sup>3</sup> dm<sup>-9</sup>\n\n> **[exam-tip]**\n> When an equation is reversed, the *K*<sub>c</sub> value is inverted: *K*<sub>c</sub> (reverse) = 1 / *K*<sub>c</sub> (forward) = 1/255 = 3.92 × 10<sup>-3</sup>.\n> \n> For units: the forward reaction (3A + 2B ⇌ 2C) has Δ*n* = 2 − 5 = −3, giving units of mol<sup>-3</sup> dm<sup>9</sup>. The reverse reaction has Δ*n* = +3, so units are mol<sup>3</sup> dm<sup>-9</sup>.",
+     "equations": [
+      {
+       "latex": "\\frac{1}{K_{c}\\text{(forward)}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msub><mi>K</mi><mi>c</mi></msub><mtext>(forward)</mtext></mrow></mfrac></math>",
+       "alt": "\\frac{1}{K_c \\text{(forward)}}"
+      },
+      {
+       "latex": "\\frac{1}{255}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>255</mn></mfrac></math>",
+       "alt": "\\frac{1}{255}"
       }
      ]
     }

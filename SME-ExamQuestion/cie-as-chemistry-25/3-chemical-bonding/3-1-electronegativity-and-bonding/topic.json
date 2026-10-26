@@ -1,0 +1,956 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T13:26:16Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "chemistry",
+  "exam_code": "9701",
+  "sme_course_id": "crs_9vgVJq4xGVkVQ4bR",
+  "syllabus_version": "2023",
+  "sme_alias_path": "25",
+  "course_name": "Cambridge (CIE) AS Chemistry"
+ },
+ "section": {
+  "slug": "3-chemical-bonding",
+  "name": "3. Chemical Bonding"
+ },
+ "topic": {
+  "id": "top_XxWyBzJYWnKXq2fn",
+  "slug": "3-1-electronegativity-and-bonding",
+  "name": "Electronegativity & Bonding",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "trends-in-electronegativity-",
+   "name": "Trends in Electronegativity",
+   "revision_note_id": "rn_9zCPwvdVz7kmGgqF"
+  },
+  {
+   "slug": "electronegativity",
+   "name": "Electronegativity",
+   "revision_note_id": "rn_4qq2D3ZpssWP6kn5"
+  },
+  {
+   "slug": "electronegativity-and-bonding",
+   "name": "Electronegativity & Bonding",
+   "revision_note_id": "rn_V2JBjNxSMt4Z2pPC"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_x5TK5wfGVKnrc6Kg",
+   "slug": "multiple-choice-questions",
+   "name": "Multiple Choice Questions",
+   "order": 0,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/3-chemical-bonding/3-1-electronegativity-and-bonding/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_s4PWww7dBS8WV8WH",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 5,
+   "questions_embedded": 5,
+   "page_url": "https://www.savemyexams.com/as/chemistry/cie/25/topic-questions/3-chemical-bonding/3-1-electronegativity-and-bonding/structured-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 14,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "multiple-choice-questions",
+   "structured-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2026/06/19689-electronegativity-trend-in-periodic-table.JPG": "001-periodic-table-diagram-with-green-arrows-showing.jpg",
+   "https://cdn.savemyexams.com/uploads/2026/06/28302-hydrogen-bonding-in-water.jpg": "002-diagram-of-two-water-molecules-showing-oxygen-wi.jpg",
+   "https://cdn.savemyexams.com/uploads/2023/03/electronegativity-values.png": "003-electronegativity-values.png",
+   "https://cdn.savemyexams.com/uploads/2026/05/17746-p4o6-or-p4o10": "004-two-schematic-phosphorus-oxygen-cage-structures-.bin"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_XxFBFFRCZBYyS7m2",
+   "set_slug": "multiple-choice-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_BFcBNgVpnFZrDmwV",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which compound is the most ionic?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- Ionic character increases with the difference in electronegativity between the two atoms.\n- Electronegativity decreases down a group and increases across a period.\n- Rubidium is in Group 1, Period 5, making it the least electronegative metal among the options.\n- Chlorine is in Group 17, Period 3, making it the most electronegative non-metal among the options.\n- Therefore, RbCl has the largest electronegativity difference of the four compounds, giving it the greatest ionic character.\n\n**A** is incorrect as potassium is higher in Group 1 than rubidium, making it more electronegative. Bromine is lower in Group 17 than chlorine, making it less electronegative. Both effects reduce the electronegativity difference, so KBr is less ionic than RbCl.\n\n**B** is incorrect as magnesium is in Group 2, Period 3, making it more electronegative than rubidium. Bromine is also less electronegative than chlorine. The smaller electronegativity difference means MgBr~2~ has less ionic character than RbCl.\n\n**C** is incorrect as sodium is higher in Group 1 than rubidium, making it more electronegative. The electronegativity difference between sodium and chlorine is therefore smaller than between rubidium and chlorine, giving NaCl less ionic character than RbCl.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "KBr"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "MgBr<sub>2</sub>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "NaCl"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "RbCl"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_Wd6j5rbQ2pvTpB7S",
+   "set_slug": "multiple-choice-questions",
+   "order": 8,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_ydvmRbKHXdcw8Dnw",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kXRXDrTrjgyqkQnj"
+     ],
+     "part_tier": null,
+     "problem_md": "Which species is polar?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- H<sub>2</sub>S has 2 bonding pairs and 2 lone pairs around the central sulfur atom, giving a non-linear (V-shaped) molecular geometry.\n- Because the molecule is non-linear, the S–H bond dipoles do not cancel out, resulting in a net dipole moment and a polar molecule.\n\n**B** is incorrect as ICl<sub>4</sub><sup>–</sup> has an octahedral electron geometry (4 bonding pairs and 2 lone pairs). The 2 lone pairs sit directly opposite each other, forcing the 4 Cl atoms into a square planar arrangement. The I–Cl bond dipoles cancel out symmetrically, making the ion non-polar.\n\n**C** is incorrect as PF<sub>5</sub> has a trigonal bipyramidal geometry (5 bonding pairs, 0 lone pairs). The arrangement is symmetrical and the P–F bond dipoles cancel out, making the molecule non-polar.\n\n**D** is incorrect as SO<sub>3</sub> has a trigonal planar geometry (3 bonding regions, 0 lone pairs). The arrangement is symmetrical and the S=O bond dipoles cancel out, making the molecule non-polar.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "H<sub>2</sub>S"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "ICl<sub>4</sub><sup>-</sup>"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "PF<sub>5</sub>"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "SO<sub>3</sub>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_w56hvGrjGGyM892C",
+   "set_slug": "multiple-choice-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_znPXWS3Qt2NNZQg8",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhKk4653BYD9KxN3",
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement correctly describes the relationship between electronegativity difference and bond type?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- Bonding exists on a continuum from non-polar covalent to ionic, determined by the electronegativity difference between the two atoms.\n- When the electronegativity difference is zero, electrons are shared equally and the bond is non-polar covalent (e.g. Cl~2~).\n- A moderate electronegativity difference results in unequal sharing, giving a polar covalent bond (e.g. H–Cl).\n- A large electronegativity difference results in electron transfer rather than sharing, forming an ionic bond (e.g. NaCl).\n- As electronegativity difference increases, ionic character increases.\n\n**A** is incorrect as two atoms with the same electronegativity share the bonding electrons equally. This produces a non-polar covalent bond, not a polar covalent bond.\n\n**B** is incorrect as a large electronegativity difference leads to electron transfer and the formation of an ionic bond. Polar covalent bonds arise from a moderate electronegativity difference, not a large one.\n\n**D** is incorrect as electronegativity difference is the key factor in determining bond type. A large difference favours ionic bonding, while a small or zero difference favours covalent bonding.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Two atoms with the same electronegativity always form a polar covalent bond"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "A large electronegativity difference always produces a polar covalent bond"
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": "As the electronegativity difference between two atoms increases, the ionic character of the bond increases"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Electronegativity has no effect on whether a bond is ionic or covalent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_vRx8ysQXxj2pVTG4",
+   "set_slug": "multiple-choice-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_cqdNN8Mf4kDZJzNq",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement about electronegativity and ionic bonding is correct?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Ionic bonds form when there is a large difference in electronegativity between two atoms.\n- A large difference means one atom attracts the bonding electrons much more strongly than the other, resulting in electron transfer to form ions rather than electron sharing.\n- Bonding exists on a continuum from pure covalent to purely ionic.\n\n  - The greater the difference in electronegativity, the greater the ionic character.\n\n**A** is incorrect as when both atoms have high electronegativity values (e.g. two non-metals such as O and Cl), they both attract the bonding pair strongly. This results in electron sharing and the formation of a covalent bond.\n\n**C** is incorrect as when two atoms have identical electronegativity values, the bonding electrons are shared equally between the two atoms, forming a non-polar pure covalent bond (e.g. Cl<sub>2</sub> or H<sub>2</sub>).\n\n**D** is incorrect as the more electronegative atom in an ionic bond gains electrons to become a negative ion (anion). It is the less electronegative atom that loses electrons to become a positive ion (cation).",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "An ionic bond forms when both atoms have high electronegativity values."
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "An ionic bond forms when there is a large difference in electronegativity between two atoms."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "An ionic bond forms when two atoms have identical electronegativity values."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "The more electronegative atom in an ionic bond loses electrons."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CSzjHqftP5CWfJvZ",
+   "set_slug": "multiple-choice-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_hnTNss3QYbV3PWzg",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhKk4653BYD9KxN3",
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which bond is not correctly labelled with its dipole?",
+     "solution_md": "**Final answer:** **The correct answer is C**\n\n- The C–H bond is effectively non-polar as there is negligible difference in electronegativity between C and H.\n- Also, carbon is slightly more electronegative than hydrogen\n\n  - So, any dipole that exists would give <sup>δ–</sup>C–H<sup>δ+</sup>.\n\n**A** is incorrect as oxygen is more electronegative than carbon. It attracts the bonding pair of electrons towards itself, making <sup>δ+</sup>C−O<sup>δ–</sup> the correct label for this bond.\n\n**B** is incorrect as oxygen is more electronegative than carbon. It attracts the bonding pair of electrons towards itself, making <sup>δ+</sup>C=O<sup>δ–</sup> the correct label for this bond.\n\n**D** is incorrect as chlorine is more electronegative than carbon. It attracts the bonding pair of electrons towards itself, making <sup>δ+</sup>C−Cl<sup>δ–</sup> the correct label for this bond.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CjVsHt5fSJsxSpmK",
+   "set_slug": "multiple-choice-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_DDxgjmtkjWsXHdZH",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows the Pauling electronegativity values for five elements.\n\n|   | **Element** | **Pauling electronegativity value** |\n|---|---|---|\n|   | Fluorine | 4.0 |\n| **A** | Copper | 1.95 |\n| **B** | Hydrogen | 2.2 |\n| **C** | Magnesium | 1.3 |\n| **D** | Potassium | 0.82 |\n\nWhich element forms a covalent bond with fluorine?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n- Bonding exists on a continuum from pure covalent to purely ionic. A smaller difference in electronegativity results in greater covalent character, as the atoms share the bonding electrons more equally.\n- Hydrogen (2.2) has the closest Pauling value to fluorine (4.0), giving a difference of 1.8, which is the smallest of the four options.\n- Therefore, hydrogen forms the bond with the greatest covalent character with fluorine, making HF a polar covalent molecule.\n\n**A** is incorrect as the difference in electronegativity between copper (1.95) and fluorine (4.0) is 2.05, which is larger than the H–F difference. CuF has greater ionic character than HF.\n\n**C** is incorrect as the difference between magnesium (1.3) and fluorine (4.0) is 2.70. Magnesium is a Group 2 metal and MgF<sub>2</sub> is an ionic compound.\n\n**D** is incorrect as potassium (0.82) has the largest difference with fluorine (3.18) of all the options. KF is an almost purely ionic compound.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": ""
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": ""
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_chBvT9ydfNWBqcdB",
+   "set_slug": "multiple-choice-questions",
+   "order": 7,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_8Vf98SN4wXjKFrmX",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GqxmXbGXD9vnQ6wd"
+     ],
+     "part_tier": null,
+     "problem_md": "Which statement about first ionisation energy and electronegativity is correct?",
+     "solution_md": "**Final answer:** **The correct answer is A**\n\n- Both first ionisation energy and electronegativity are governed by the attraction between the nucleus and the valence electrons.\n- Down a group, atomic radius increases and the number of inner electron shells increases, causing greater electron shielding.\n- This reduces the effective nuclear charge experienced by the outermost electrons, weakening the nuclear attraction and causing both properties to decrease down a group.\n\n**B** is incorrect as both properties do not increase down a group. This describes the trend observed across a period (left to right), where nuclear charge increases with similar shielding.\n\n**C** is incorrect as electronegativity does not increase down a group. Increased shielding and atomic radius reduce nuclear attraction for bonding electrons, so electronegativity decreases down a group alongside first ionisation energy.\n\n**D** is incorrect as first ionisation energy does not increase down a group. Increased shielding and atomic radius reduce the energy needed to remove the outermost electron, so first ionisation energy decreases down a group.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": true,
+       "text_md": "Both first ionisation energy and electronegativity generally decrease down a group."
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "Both first ionisation energy and electronegativity generally increase down a group."
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "First ionisation energy decreases down a group, but electronegativity increases."
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "First ionisation energy increases down a group, but electronegativity decreases."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_BQsqjZPgq8fbsqjn",
+   "set_slug": "multiple-choice-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_D2yg6Pz7g4NxMsQx",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which substance contains polar covalent bonds?",
+     "solution_md": "**Final answer:** **The correct answer is D**\n\n- In sulfur dichloride (SCl<sub>2</sub>), there is a difference in electronegativity between sulfur and chlorine.\n- Chlorine is more electronegative than sulfur, so it attracts the bonding pair of electrons towards itself.\n- This creates a polar S<sup>δ+</sup>–Cl<sup>δ–</sup> covalent bond.\n\n**A** is incorrect as calcium bromide (CaBr<sub>2</sub>) is formed from a metal and a non-metal with a large difference in electronegativity. This results in electron transfer, forming an ionic bond rather than a covalent bond.\n\n**B** is incorrect as chlorine (Cl<sub>2</sub>) is a diatomic molecule consisting of two identical atoms. There is no difference in electronegativity, so the bonding pair of electrons is shared equally, forming a non-polar pure covalent bond.\n\n**C** is incorrect as the C–H bonds in ethane (C<sub>2</sub>H<sub>6</sub>) have a negligible difference in electronegativity between carbon and hydrogen. The C–H bonds are effectively non-polar.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "calcium bromide"
+      },
+      {
+       "label": "B",
+       "is_correct": false,
+       "text_md": "chlorine"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "ethane"
+      },
+      {
+       "label": "D",
+       "is_correct": true,
+       "text_md": "sulfur dichloride"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_8NNxTCF2gtjDYm92",
+   "set_slug": "multiple-choice-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_gW8BfRNJ2Xd4qnZQ",
+     "order": 0,
+     "question_type": "multiple_choice",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhKk4653BYD9KxN3",
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Which atom is the most electronegative?",
+     "solution_md": "**Final answer:** **The correct answer is B**\n\n![Periodic table diagram with green arrows showing electronegativity increases from left to right across a period and decreases down a group](assets/001-periodic-table-diagram-with-green-arrows-showing.jpg)\n\n- Electronegativity increases across a period (left to right) as nuclear charge increases with similar electron shielding.\n- Electronegativity decreases down a group as atomic radius and shielding increase, weakening the nuclear attraction for the bonding pair of electrons.\n- Chlorine is the furthest right element in Period 3 among the options given, and is higher in Group 17 than bromine, making it the most electronegative.\n\n**A** is incorrect as bromine is in the same group as chlorine (Group 17) but is one period lower. The increased atomic radius and shielding reduce the nuclear attraction for bonding electrons, giving bromine a lower electronegativity than chlorine.\n\n**C** is incorrect as magnesium is in Group 2, on the left-hand side of the periodic table. Electronegativity increases across a period, so magnesium is significantly less electronegative than chlorine.\n\n**D** is incorrect as sodium is in Group 1, the furthest left of the Period 3 elements present. It has the lowest electronegativity of the options given.",
+     "choices": [
+      {
+       "label": "A",
+       "is_correct": false,
+       "text_md": "Br"
+      },
+      {
+       "label": "B",
+       "is_correct": true,
+       "text_md": "Cl"
+      },
+      {
+       "label": "C",
+       "is_correct": false,
+       "text_md": "Mg"
+      },
+      {
+       "label": "D",
+       "is_correct": false,
+       "text_md": "Na"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_xgJ5GFRxGDbv7qkR",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_mS6RQG3VkYnY8DW9",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhKk4653BYD9KxN3"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term electronegativity.",
+     "solution_md": "> **[mark-scheme]**\n> The term electronegativity means:\n> \n> - The ability of an atom / nucleus to attract electrons / a bonding pair of electrons (to itself); **[1 mark]**\n> - In a covalent bond; **[1 mark]**\n\n> **[exam-tip]**\n> This is a high-frequency exam definition, so learn it precisely.\n> \n> The two marks are awarded for two distinct ideas: the attraction of electrons by an atom, and the specific context of a covalent bond. Stating only 'an atom that attracts electrons' will score 1 of the 2 marks.\n> \n> A common slip is to write 'the ability to attract atoms' or 'to form a bond'. Neither gains the first mark. Be specific: it is electrons (or a bonding pair of electrons) that the atom attracts."
+    },
+    {
+     "id": "qstnprt_SqdHxt5PTZYWNrJq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "A bond between nitrogen and hydrogen can be represented as $\\overset{δ-}{N}\\overset{δ+}{H}$.\n\ni) In this representation, state the meaning of the symbol δ+.\n\n[1]\n\nii) From this bond representation, state what can be deduced about the electronegativity of nitrogen relative to that of hydrogen.\n\n[1]",
+     "solution_md": "> **[mark-scheme]**\n> i) The meaning of the symbol δ<sup>+</sup>:\n> \n> - (Slightly / partially) positive charge / electron deficient; **[1 mark]**\n> \n> ii) From this bond representation it can be deduced that:\n> \n> - Nitrogen is more electronegative than hydrogen; **[1 mark]**\n\n> **[exam-tip]**\n> The δ symbol means 'partial'. So δ+ indicates a partial positive charge, and δ- indicates a partial negative charge.\n> \n> In a polar covalent bond, the more electronegative atom carries the δ- charge because it pulls the bonding pair of electrons closer to itself. The less electronegative atom is left δ+ because the bonding electrons are drawn away from it.\n> \n> For part i), 'partial positive charge' or 'slightly positive' is the most direct answer; 'electron deficient' is also accepted.\n> \n> For part ii), the symbol δ- sits on nitrogen, so nitrogen is the more electronegative atom. This is a one-step deduction directly from the bond polarity diagram, so do not over-explain.",
+     "equations": [
+      {
+       "latex": "\\overset{δ-}{N}\\overset{δ+}{H}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mover><mi mathvariant=\"normal\">N</mi><mrow><mi mathvariant=\"normal\">δ</mi><mo>-</mo></mrow></mover><mo> </mo><mover><mi mathvariant=\"normal\">H</mi><mrow><mi mathvariant=\"normal\">δ</mi><mo>+</mo></mrow></mover></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight N with straight delta minus on top space straight H with straight delta plus on top"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PPygZbFPXfMW6F4M",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GqxmXbGXD9vnQ6wd"
+     ],
+     "part_tier": null,
+     "problem_md": "State **three** factors which affect the electronegativity of an element.",
+     "solution_md": "> **[mark-scheme]**\n> Three factors which affect the electronegativity of an element:\n> \n> - Nuclear charge; **[1 mark]**\n> - Atomic radius; **[1 mark]**\n> - Shielding (by inner electrons); **[1 mark]**\n\n> **[exam-tip]**\n> The more electronegative an element, the more strongly it attracts the bonding pair of electrons in a covalent bond. Each of the three factors influences the strength of that attraction:\n> \n> - Nuclear charge: the more protons in the nucleus, the stronger the pull on the bonding electrons.\n> - Atomic radius: the smaller the distance between the nucleus and the bonding pair, the stronger the attraction.\n> - Shielding: the more inner electron shells, the more the bonding pair is screened from the nuclear charge, weakening the attraction.\n> \n> A common error is to write 'number of protons' or 'number of electrons' alone. The precise terms (nuclear charge, atomic radius, and shielding) are what the mark scheme expects."
+    },
+    {
+     "id": "qstnprt_CJq2CRwdj6xhX6Nj",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_45K6F3xzDKJt8C25"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThree factors which affect the electronegativity of an element:\n- Nuclear charge\n- Atomic radius\n- Shielding (by inner electrons)\n\ni) Identify the element in Period 4 with the highest electronegativity value.\n\n[1]\n\nii) Explain why fluorine is more electronegative than oxygen.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The element in Period 4 with the highest electronegativity value:\n> \n> - Bromine; **[1 mark]**\n> \n> ii) Fluorine is more electronegative than oxygen because:\n> \n> - The nuclear charge of fluorine is greater\n> **AND**\n> The atomic radius of fluorine is smaller; **[1 mark]**\n> - (The two elements have) similar shielding; **[1 mark]**\n\n> **[exam-tip]**\n> Going across a period, electronegativity increases. Each successive element gains one more proton (greater nuclear charge), but the number of inner electron shells stays the same, so shielding is essentially unchanged. The smaller atomic radius across the period also brings the bonding electrons closer to the nucleus, strengthening the attraction.\n> \n> For part i), be careful with period numbering. Period 1 contains hydrogen and helium, not lithium. Period 4 begins with potassium and ends with krypton, so the most electronegative element in Period 4 is bromine (the only halogen in that row).\n> \n> For part ii), simply stating 'fluorine has more protons' will not score the first mark on its own. You need to refer to greater nuclear charge AND smaller atomic radius together for one mark, plus similar shielding for the second mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_SMHnt6HqyKy432Rp",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_xpqGSGsRTHybkBSW",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine (Cl) reacts with boron (B) to form boron trichloride (BCl<sub>3</sub>).\n\ni) What type of bond is the B-Cl bond?\n\n[1]\n\nii) How is this bond formed?\n\n[1]\n\niii) The electronegativities of boron, chlorine and hydrogen are 2.0, 3.2 and 2.2 respectively. Is the B-Cl more or less polar than a B-H bond in borane (BH<sub>3</sub>)? Explain your answer.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The type of bond between B and Cl:\n> \n> - Covalent; **[1 mark]**\n> \n> ii) The B-Cl bond is formed from:\n> \n> - A shared pair of electrons between the B and Cl atoms\n> **OR**\n> The sharing of one electron from B and one electron from Cl; **[1 mark]**\n> \n> iii) The B-Cl bond is more polar than the B-H bond because:\n> \n> - The B-H bond is less polar than the B-Cl bond; **[1 mark]**\n> - The difference in electronegativity in B-H is smaller / 0.2\n> **OR**\n> The difference in electronegativity in B-Cl is larger / 1.2; **[1 mark]**\n\n> **[exam-tip]**\n> For part i), the answer is 'covalent'. Both B and Cl are non-metals, so they form a covalent bond by sharing electrons. The bond is polar (because of the electronegativity difference shown in part iii)), but the bond type is still classified as covalent.\n> \n> For part ii), the sharing must be specified clearly. 'A shared pair of electrons' or 'one electron from each atom' both work; vague phrases like 'they share electrons' may not score.\n> \n> For part iii), a 2-mark explain question requires a comparison and a reason:\n> \n> - Comparison: B-H is less polar OR B-Cl is more polar\n> - Reason: smaller (or larger) difference in electronegativity, with the calculated values where possible\n> \n> The calculated electronegativity differences are:\n> \n> - B-H: ΔEN = 2.2 − 2.0 = 0.2\n> - B-Cl: ΔEN = 3.2 − 2.0 = 1.2\n> \n> The larger difference (1.2 vs 0.2) means the B-Cl bond is more polar. Citing the numerical values is the safest way to secure the second mark."
+    },
+    {
+     "id": "qstnprt_rXvpFQNcV2zcjsY4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WqHBvB6FP88QRGXb"
+     ],
+     "part_tier": null,
+     "problem_md": "Molecules and separate atoms (such as noble gases) are attracted to one another by intermolecular forces.\n\ni) What is the strongest type of intermolecular force that takes place between water (H<sub>2</sub>O) molecules?\n\n[1]\n\nii) Draw a diagram that illustrates the interaction between two water molecules. Indicate any lone pairs of electrons and partial charges in your diagram.\n\n[3]",
+     "solution_md": "> **[mark-scheme]**\n> i) The strongest type of intermolecular force between water molecules:\n> \n> - Hydrogen bonding; **[1 mark]**\n\nii) The completed diagram is:\n\n![Diagram of two water molecules showing δ− oxygen with two lone pairs, δ+ hydrogens, and a dotted line labelled hydrogen bond between them](assets/002-diagram-of-two-water-molecules-showing-oxygen-wi.jpg)\n\n**[3 marks]**\n\n> **[mark-scheme]**\n> 1 mark for a hydrogen bond (clearly labelled) going from a hydrogen atom in one molecule to an oxygen atom in another molecule.\n> \n> 1 mark for a partial positive (δ<sup>+</sup>) charge on all hydrogen atoms AND a partial negative (δ<sup>-</sup>) charge on both oxygen atoms.\n> \n> 1 mark for two lone pairs on each oxygen atom, with the hydrogen bond clearly starting at a lone pair.\n\n> **[exam-tip]**\n> Hydrogen bonding only occurs when a hydrogen atom is covalently bonded to a very electronegative atom (F, O or N), leaving the H electron-deficient.\n> \n> In water, the more electronegative oxygen carries a δ<sup>-</sup> charge while the hydrogen atoms carry δ<sup>+</sup> charges. The hydrogen bond forms between the δ<sup>+</sup> hydrogen of one molecule and a lone pair on the δ<sup>-</sup> oxygen of another.\n> \n> Common diagram errors include:\n> \n> - Drawing the hydrogen bond starting at the oxygen atom itself rather than at a lone pair.\n> - Forgetting to label δ<sup>+</sup> / δ<sup>-</sup> on all atoms.\n> - Showing only one lone pair on each oxygen atom (oxygen has two).\n> \n> The hydrogen bond is conventionally drawn as a dashed line between the H of one molecule and a lone pair on the O of another."
+    },
+    {
+     "id": "qstnprt_HM33DTdk6DKC5wZG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_cfW8F5MnhRBc3BcZ"
+     ],
+     "part_tier": null,
+     "problem_md": "The boiling point of tetrachloromethane (CCl<sub>4</sub>) is 77 °C whereas the boiling point of water (H<sub>2</sub>O) is 100 °C.\n\ni) Suggest why the boiling point of H<sub>2</sub>O is higher than that of CCl<sub>4</sub>.\n\n[2]\n\nii) Predict whether the boiling point of methane (CH<sub>4</sub>) is higher or lower than the boiling point of CCl<sub>4</sub>. Explain your answer.\n\n[4]",
+     "solution_md": "> **[mark-scheme]**\n> i) The boiling point of H<sub>2</sub>O is higher than that of CCl<sub>4</sub> because:\n> \n> - There are stronger intermolecular forces / hydrogen bonds between the H<sub>2</sub>O molecules (in addition to the other intermolecular forces); **[1 mark]**\n> - More energy is required to break the intermolecular forces between the H<sub>2</sub>O molecules; **[1 mark]**\n> \n> ii) The boiling point of CH<sub>4</sub>:\n> \n> - Will be lower than that of CCl<sub>4</sub>; **[1 mark]**\n> - (Because) there are more electrons in CCl<sub>4</sub>; **[1 mark]**\n> - (Therefore) there are more / stronger Van der Waals' forces in CCl<sub>4</sub>; **[1 mark]**\n> - (So) more energy is required to break the intermolecular forces between the CCl<sub>4</sub> molecules; **[1 mark]**\n\n> **[exam-tip]**\n> Boiling point depends on the strength of the intermolecular forces between molecules, NOT on the strength of the covalent bonds within molecules. The covalent bonds stay intact on boiling; only the intermolecular forces break.\n> \n> For part i), the key fact is that H<sub>2</sub>O has hydrogen bonds (because each H is bonded to a very electronegative O, leaving the H electron-deficient), whereas CCl<sub>4</sub> has only Van der Waals' forces. Although the C-Cl bonds are polar, the tetrahedral symmetry of CCl<sub>4</sub> means the bond dipoles cancel and the molecule has no permanent dipole. Hydrogen bonds are much stronger than Van der Waals' forces, so H<sub>2</sub>O boils at the higher temperature.\n> \n> For part ii), CCl<sub>4</sub> molecules have far more electrons (74 in total) than CH<sub>4</sub> molecules (10), so the Van der Waals' forces between CCl<sub>4</sub> molecules are stronger.\n> \n> A common slip is to compare the strengths of C-H and C-Cl bonds. These are covalent bonds within the molecule and do not affect boiling point.\n> \n> For full marks, work through the cause-and-effect chain explicitly: more electrons in CCl<sub>4</sub> → stronger Van der Waals' forces → more energy needed to break IMFs → higher boiling point for CCl<sub>4</sub> (so CH<sub>4</sub> has the lower boiling point)."
+    }
+   ]
+  },
+  {
+   "id": "qstn_pDGTFmKmZWQhd7Kf",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_yqycDc3CMG9jMhHS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "predict",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "The Pauling electronegativity values of different elements are shown in Fig. 3.1.\n\n![electronegativity-values](assets/003-electronegativity-values.png)\n\n**Fig. 3.1**\n\nA compound formed from magnesium and oxygen has a different structure to a compound formed from phosphorus and oxygen.\n\nPredict the type of bonds that will occur in each compound. Explain your answer.",
+     "solution_md": "> **[mark-scheme]**\n> The type of bonds in each compound:\n> \n> - The bond between Mg and O is ionic; **[1 mark]**\n> - The difference in electronegativity is greater than 1.7; **[1 mark]**\n> - The bond between P and O is polar covalent / covalent with some ionic character; **[1 mark]**\n> - The difference in electronegativity is between 0.4 and 1.7; **[1 mark]**\n\n> **[exam-tip]**\n> The presence of Pauling electronegativity values in the figure is your cue to use them. A response based only on 'magnesium is a metal and oxygen is a non-metal, while phosphorus and oxygen are both non-metals' will not score at this level. You must reference the electronegativity differences explicitly.\n> \n> Use these threshold values to decide bond type:\n> \n> - ΔEN ≈ 0.0 to 0.4: non-polar covalent\n> - ΔEN ≈ 0.4 to 1.7: polar covalent (or 'covalent with some ionic character')\n> - ΔEN ≳ 1.7: predominantly ionic\n> \n> For Mg-O, ΔEN ≈ 3.5 − 1.2 = 2.3, which is greater than 1.7, so the bond is ionic. For P-O, ΔEN ≈ 3.5 − 2.1 = 1.4, which sits between 0.4 and 1.7, so the bond is polar covalent.\n> \n> A common slip is to give the bond type without the supporting electronegativity reasoning. Each bond type and its justification is awarded as a separate mark, so state the rule and the calculation explicitly."
+    },
+    {
+     "id": "qstnprt_c98Cjq2C4fqzGSq6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_YvVs8rP9WBKRWmt8"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain why the melting point of phosphorus(III) oxide, P<sub>4</sub>O<sub>6</sub>, is lower than that of magnesium oxide in terms of their bonding and structure.",
+     "solution_md": "> **[mark-scheme]**\n> The melting point of phosphorus(III) oxide is lower than that of magnesium oxide because:\n> \n> - MgO has a giant ionic lattice with strong ionic bonds\n> **AND**\n> P<sub>4</sub>O<sub>6</sub> has a simple molecular / covalent structure with weak intermolecular forces; **[1 mark]**\n> - More energy is required to break the (ionic) bonds in MgO than to overcome the weak intermolecular forces in P<sub>4</sub>O<sub>6</sub>; **[1 mark]**\n\n> **[exam-tip]**\n> The key distinction here is between bonding within molecules (intramolecular) and bonding between molecules (intermolecular). P<sub>4</sub>O<sub>6</sub> has strong intramolecular covalent bonds, but it is the weak intermolecular forces between P<sub>4</sub>O<sub>6</sub> molecules that are overcome on melting.\n> \n> A common error is to compare 'covalent bonds' against 'ionic bonds' directly and conclude that ionic must be stronger. The comparison is between ionic bonds and intermolecular forces, not ionic bonds and covalent bonds.\n> \n> Acceptable terms for the intermolecular forces in P<sub>4</sub>O<sub>6</sub> include:\n> \n> - London dispersion forces\n> - Van der Waals' forces\n> - Permanent dipole-permanent dipole forces\n> \n> State explicitly that MgO has a giant ionic lattice and P<sub>4</sub>O<sub>6</sub> has a simple molecular structure to secure the first mark. Describing the bonding alone is not enough."
+    },
+    {
+     "id": "qstnprt_KrZQ6jK4pFxwFwTF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_FCG6wCWXhVz8jMdM"
+     ],
+     "part_tier": null,
+     "problem_md": "Phosphorus(III) oxide, P<sub>4</sub>O<sub>6</sub>, contains no P–P or O–O bonds.\n\nIn the P<sub>4</sub>O<sub>6</sub> molecule, all oxygen atoms are bonded to two other atoms and all phosphorus atoms are bonded to three other atoms.\n\nSketch a structure for P<sub>4</sub>O<sub>6</sub>.",
+     "solution_md": "A structure for P<sub>4</sub>O<sub>6</sub> is:\n\n![Two schematic phosphorus–oxygen cage structures, left undetailed, right with several P=O double bonds, illustrating different polyphosphate arrangements.](assets/004-two-schematic-phosphorus-oxygen-cage-structures-.bin)\n\n**[1 mark]**\n\n> **[mark-scheme]**\n> 1 mark for a structure where each P atom is bonded to three O atoms AND each O atom is bonded to two atoms (a P=O double bond counts as the O being divalent in the alternative structure).\n\n> **[exam-tip]**\n> The first diagram is the canonical P<sub>4</sub>O<sub>6</sub> cage structure: four phosphorus atoms at the corners of a tetrahedron, with six oxygen atoms bridging the P-P edges. The second diagram is also accepted, with two of the oxygen atoms forming P=O double bonds (treated as divalent in this counting).\n> \n> Check your structure has the correct bond count: each P with three bonds and each O with two bonds (or one double bond), giving six P-O linkages in total.\n> \n> Common errors are drawing P=O bonds in positions that leave a P with only two bonds, or omitting one or more of the six oxygen atoms."
+    },
+    {
+     "id": "qstnprt_DkYNnX8tZZRgBqkh",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_45K6F3xzDKJt8C25"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe Pauling electronegativity values of different elements are shown in Fig. 3.1.\n\n![electronegativity-values](https://cdn.savemyexams.com/uploads/2023/03/electronegativity-values.png)\n\n{align=center} **Fig. 3.1**\n\nExplain the difference in electronegativity shown in Fig. 3.1 between magnesium and calcium.",
+     "solution_md": "> **[mark-scheme]**\n> The difference in electronegativity between magnesium and calcium is because:\n> \n> - Calcium has more shielding (than magnesium); **[1 mark]**\n> - Calcium has a larger atomic radius (than magnesium); **[1 mark]**\n> - (Therefore) there is less attraction between the calcium nucleus and the bonding pair of electrons; **[1 mark]**\n\n> **[exam-tip]**\n> Magnesium and calcium are in the same group (Group 2), so the key factors that change down the group are atomic radius and shielding, not nuclear charge. Although calcium has a greater nuclear charge than magnesium, the increase is more than offset by the larger atomic radius and additional inner shells of shielding electrons.\n> \n> When explaining electronegativity differences, anchor your reasoning to the attraction between the nucleus and the bonding pair of electrons:\n> \n> - Down a group: atomic radius and shielding both increase, weakening the attraction. Electronegativity decreases.\n> - Across a period: nuclear charge increases while shielding stays similar, strengthening the attraction. Electronegativity increases.\n> \n> The third mark requires you to state the consequence explicitly: less attraction for the bonding pair means lower electronegativity. Listing only the two factors (shielding and radius) without the attraction outcome will score 2 of the 3 marks.\n> \n> You can also gain credit by reversing the comparison. For example, 'magnesium has less shielding than calcium' scores the same mark as 'calcium has more shielding than magnesium'."
+    }
+   ]
+  },
+  {
+   "id": "qstn_9FdMh5N24j94TsRc",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_VjnzwwzVqsczGGCC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhKk4653BYD9KxN3"
+     ],
+     "part_tier": null,
+     "problem_md": "Define the term *electronegativity*.",
+     "solution_md": "> **[mark-scheme]**\n> Electronegativity is:\n> \n> - The ability of an atom to attract a pair of electrons / a bonding pair of electrons towards itself in a covalent bond; **[1 mark]**\n\n> **[exam-tip]**\n> This is a high-frequency exam definition, so learn it precisely.\n> \n> The definition packs three ideas into a single mark: an atom (the agent), attracting a pair of electrons (the action), in a covalent bond (the context). All three must be present to score the mark.\n> \n> A common slip is to omit 'in a covalent bond', which leaves the definition incomplete. Another is to write 'attract atoms' or 'attract electrons' without specifying that it is a pair (or bonding pair) of electrons. Be precise about each of the three elements."
+    },
+    {
+     "id": "qstnprt_kYrWHyzr8F4HVGHy",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_45K6F3xzDKJt8C25"
+     ],
+     "part_tier": null,
+     "problem_md": "State and explain the general trend in electronegativity across a period.",
+     "solution_md": "> **[mark-scheme]**\n> The general trend in electronegativity across a period:\n> \n> - (Electronegativity) shows a general increase; **[1 mark]**\n> \n> Explanation:\n> \n> - (Across the period) there is a greater / increased nuclear charge\n> **OR**\n> There are more protons in the nucleus; **[1 mark]**\n> - The electrons are added to the same shell\n> **OR**\n> The shielding is the same / shielding does not change\n> **OR**\n> There are no additional shells of electrons (added); **[1 mark]**\n> - (Therefore,) there is a stronger attraction between the (bonding) electrons and the nucleus; **[1 mark]**\n\n> **[exam-tip]**\n> The 'state and explain' command requires both the trend and the underlying reasoning. A one-word answer ('increases') will only score the first mark.\n> \n> Anchor the explanation to the three factors that affect electronegativity. Across a period:\n> \n> - Nuclear charge increases (one extra proton per element)\n> - Atomic radius decreases (electrons added to the same shell are pulled closer by the greater nuclear charge)\n> - Shielding stays roughly the same (no new inner shell)\n> \n> The combined effect is a stronger attraction between the nucleus and the bonding pair of electrons, so electronegativity increases.\n> \n> A common error is to state only that 'there are more protons' without linking this to the attraction for the bonding electrons. The fourth mark is awarded for connecting the cause (greater nuclear charge, same shielding) to the consequence (stronger attraction)."
+    },
+    {
+     "id": "qstnprt_Jqd8KNcmy9gwr2fJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "Chlorine, Cl<sub>2</sub>, reacts with boron, B, to form boron trichloride, BCl<sub>3</sub>.\n\ni) What type of bond is the B-Cl bond?\n\n[1]\n\nii) How is this bond formed?\n\n[1]\n\niii) The electronegativities of boron, chlorine and hydrogen are 2.0, 3.2 and 2.2 respectively. Is the B-Cl more or less polar than a B-H bond in borane, BH<sub>3</sub>? Explain your answer.\n\n[2]",
+     "solution_md": "> **[mark-scheme]**\n> i) The type of bond between B and Cl:\n> \n> - Covalent; **[1 mark]**\n> \n> ii) The B-Cl bond is formed from:\n> \n> - A shared pair of electrons between the B and Cl atoms\n> **OR**\n> The sharing of one electron from B and one electron from Cl; **[1 mark]**\n> \n> iii) The B-Cl bond is more polar than the B-H bond because:\n> \n> - The B-H bond is less polar than the B-Cl bond; **[1 mark]**\n> - The difference in electronegativity in B-H is smaller / 0.2\n> **OR**\n> The difference in electronegativity in B-Cl is larger / 1.2; **[1 mark]**\n\n> **[exam-tip]**\n> For part i), the answer is 'covalent'. Both B and Cl are non-metals, so they form a covalent bond by sharing electrons. The bond is polar (because of the electronegativity difference shown in part iii)), but the bond type is still classified as covalent.\n> \n> For part ii), the sharing must be specified clearly. 'A shared pair of electrons' or 'one electron from each atom' both work; vague phrases like 'they share electrons' may not score.\n> \n> For part iii), a 2-mark explain question requires a comparison and a reason:\n> \n> - Comparison: B-H is less polar OR B-Cl is more polar\n> - Reason: smaller (or larger) difference in electronegativity, with the calculated values where possible\n> \n> The calculated electronegativity differences are:\n> \n> - B-H: ΔEN = 2.2 − 2.0 = 0.2\n> - B-Cl: ΔEN = 3.2 − 2.0 = 1.2\n> \n> The larger difference (1.2 vs 0.2) means the B-Cl bond is more polar. Citing the numerical values is the safest way to secure the second mark."
+    }
+   ]
+  },
+  {
+   "id": "qstn_7DCQt8WnNGrG5rvF",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_mcRQdVjYyX6QXRBn",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yhKk4653BYD9KxN3"
+     ],
+     "part_tier": null,
+     "problem_md": "The electronegativities of some elements are shown in Table 3.1.\n\n**Table 3.1**\n\n| **Element** | **Electronegativity** |\n|---|---|\n| Li | 1.0 |\n| H | 2.1 |\n| C | 2.5 |\n| N | 3.0 |\n| Cl | 3.0 |\n\nDefine the term electronegativity.",
+     "solution_md": "> **[mark-scheme]**\n> The term electronegativity means:\n> \n> - The ability of an atom to attract electrons / a pair of electrons / a bonding pair of electrons towards itself; **[1 mark]**\n> - In a covalent bond; **[1 mark]**\n\n> **[exam-tip]**\n> This is a high-frequency exam definition, so learn it precisely.\n> \n> The two marks are awarded for two distinct ideas: the attraction of electrons by an atom, and the specific context of a covalent bond. Stating only 'an atom that attracts electrons' will score 1 of the 2 marks.\n> \n> A common slip is to write 'the ability to attract atoms' or 'to form a bond'. Neither gains the first mark. Be specific: it is electrons (or a pair of electrons) that the atom attracts, in the context of a covalent bond."
+    },
+    {
+     "id": "qstnprt_Fpq7C7kVMcswvc87",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GqxmXbGXD9vnQ6wd",
+      "spcpt_45K6F3xzDKJt8C25"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe electronegativities of some elements are shown in Table 3.1.\n\nTable 3.1\n\n| Element | Electronegativity |\n| --- | --- |\n| Li | 1.0 |\n| H | 2.1 |\n| C | 2.5 |\n| N | 3.0 |\n| Cl | 3.0 |\n\nUse Table 3.1 to explain the trend in electronegativity across a period of the Periodic Table.",
+     "solution_md": "> **[mark-scheme]**\n> The trend in electronegativity across a period:\n> \n> - (Electronegativity) increases (across the period); **[1 mark]**\n> - Nuclear charge increases\n> **AND**\n> Atomic radius decreases; **[1 mark]**\n> - (But) shielding stays similar; **[1 mark]**\n\n> **[exam-tip]**\n> Use Table 3.1 to anchor the trend in real values: H (2.1) < C (2.5) < N (3.0). Electronegativity rises across the row.\n> \n> Three factors drive this:\n> \n> - Nuclear charge increases (one extra proton per element).\n> - Atomic radius decreases (electrons added to the same shell are pulled closer by the greater nuclear charge).\n> - Shielding stays similar (no new inner shell is added).\n> \n> The combined effect is a stronger attraction between the nucleus and the bonding pair of electrons, so electronegativity increases.\n> \n> A common error is to state only 'more protons' without linking to the attraction for the bonding electrons. The mark scheme rewards the cause-and-effect: greater nuclear charge plus smaller atomic radius plus similar shielding lead to stronger attraction."
+    },
+    {
+     "id": "qstnprt_2ZPTsPNQMXcG8WKW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_kXRXDrTrjgyqkQnj"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe electronegativities of some elements are shown in Table 3.1.\n\n**Table 3.1**\n\n| **Element** | **Electronegativity** |\n| --- | --- |\n| Li | 1.0 |\n| H | 2.1 |\n| C | 2.5 |\n| N | 3.0 |\n| Cl | 3.0 |\n\nExplain how the carbon-hydrogen bond (such as in CH<sub>4</sub>) differs from the nitrogen-hydrogen bond (such as in NH<sub>3</sub>) in terms of the bond polarity.",
+     "solution_md": "> **[mark-scheme]**\n> The N-H bond is more polar than the C-H bond because:\n> \n> - The N-H bond is more polar than the C-H bond; **[1 mark]**\n> - The difference in electronegativity in C-H is smaller / 0.4\n> **OR**\n> The difference in electronegativity in N-H is larger / 0.9; **[1 mark]**\n\n> **[exam-tip]**\n> A 2-mark 'explain' question on bond polarity needs both a comparison and a reason. The comparison alone is not enough.\n> \n> Use Table 3.1 to calculate:\n> \n> - C-H: ΔEN = 2.5 − 2.1 = 0.4\n> - N-H: ΔEN = 3.0 − 2.1 = 0.9\n> \n> The larger electronegativity difference (0.9 > 0.4) means the bonding pair of electrons is more strongly drawn towards the nitrogen atom in N-H, making it the more polar bond.\n> \n> A common pitfall is to quote the individual electronegativity values without taking the difference. Examiners want the comparison of ΔEN, not just '2.5 vs 3.0'."
+    },
+    {
+     "id": "qstnprt_6W4QmyvSj2w78pSg",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_W79MQwTT3nRz5Dzw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe electronegativities of some elements are shown in Table 3.1.\n\n**Table 3.1**\n\n| **Element** | **Electronegativity** |\n| --- | --- |\n| Li | 1.0 |\n| H | 2.1 |\n| C | 2.5 |\n| N | 3.0 |\n| Cl | 3.0 |\n\nExplain, in terms of electronegativity, why the bonding in ammonia (NH<sub>3</sub>) is covalent but the bonding in lithium chloride (LiCl) is ionic.",
+     "solution_md": "> **[mark-scheme]**\n> The bonding in NH<sub>3</sub> is covalent but the bonding in LiCl is ionic because:\n> \n> For NH<sub>3</sub>:\n> \n> - The difference in electronegativity between N and H is small; **[1 mark]**\n> - (So) the electrons are shared (between the two atoms); **[1 mark]**\n> \n> For LiCl:\n> \n> - The difference in electronegativity between Li and Cl is large; **[1 mark]**\n> - (So) the electron is transferred from Li to Cl (forming Li<sup>+</sup> and Cl<sup>-</sup> ions); **[1 mark]**\n\n> **[exam-tip]**\n> Bonding type (covalent vs ionic) is determined by the electronegativity difference between the two atoms in the bond. Use Table 3.1 to anchor your reasoning:\n> \n> - N-H: ΔEN = 3.0 − 2.1 = 0.9 (small difference, so the bonding pair is shared between the atoms, giving a covalent bond)\n> - Li-Cl: ΔEN = 3.0 − 1.0 = 2.0 (large difference, so the electron is fully transferred from Li to Cl, giving an ionic bond)\n> \n> The question says 'in terms of electronegativity', so do not score by reasoning from 'metals vs non-metals' alone. The marks are awarded for:\n> \n> 1. Stating that the electronegativity difference is small (NH<sub>3</sub>) or large (LiCl).\n> 2. Linking that difference to electron sharing (covalent) or transfer (ionic).\n> \n> For the fourth mark, the direction of electron transfer matters: lithium loses an electron to chlorine. Stating 'electrons are transferred' without specifying which atom gains and which atom loses will not score the fourth mark."
+    }
+   ]
+  }
+ ]
+}

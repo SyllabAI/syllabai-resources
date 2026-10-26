@@ -1,6 +1,6 @@
 # Exam Questions — Financial Statements for Sole Traders
 **5. Preparation of Financial Statements** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 15 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 16 questions across 2 sets
 
 
 ## Multiple Choice Questions (15 questions)
@@ -169,3 +169,60 @@ Which statements about a statement of financial position are correct?
 **Q15** [1 mark]
 
 What is **not **a service business?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 4 marks
+
+**Q1** [4 marks]
+
+Amadi prepared the following trial balance at 31 March 2023.
+
+Amadi 
+Corrected Trial Balance at 31 March 2023
+
+|   | Debit | Credit |
+|---|---|---|
+|   | \$ | \$ |
+| Fittings and equipment at cost | 30 000 |   |
+| Provision for depreciation of fittings and equipment |   | 7 500 |
+| Trade receivables | 6 100 |   |
+| Bank overdraft |   | 3 106 |
+| Trade payables |   | 3 485 |
+| Capital |   | 20 000 |
+| Sales |   | 73 250 |
+| Purchases | 41 785 |   |
+| Discount received |   | 1 990 |
+| Sales returns | 3 390 |   |
+| Carriage inwards | 1 223 |   |
+| General expenses | 6 430 |   |
+| Rent and rates | 7 380 |   |
+| Drawings | 9 500 |   |
+| Inventory | 3 752 |   |
+| Suspense |   | 229 |
+|   | <u>109 560</u> | <u>109 560</u> |
+
+Inventory at 31 March 2023 was \$3 965.
+
+**REQUIRED**
+
+Prepare the trading section of Amadi’s income statement for the year ended 31 March 2023
+
+Amadi 
+Income Statement (trading section) for the year ended 31 March 2023
+
+|   | \$ | \$ |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+*Source: June 2023 0452/22 Q5C*
+

@@ -173,3 +173,95 @@
 **B** is incorrect; a recovered debt that had been written off would never be recorded by a credit entry in the trade payable account
 
 **D** is incorrect; irrecoverable debt has to do with a business and its customers, not a business and its suppliers
+
+## Structured Questions (3 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> Maximum 2 marks for reasons such as:
+> 
+> - It is likely that some trade receivables will not pay the amount they owe
+> - To apply the accounting principle of prudence by ensuring profit is not overstated
+> - To apply the accounting principle of prudence by ensuring trade receivables is not overstated
+> - To apply the accounting principle of matching by ensuring that sales which are unlikely to be received are taken into account for the year that the sales took place
+
+### Q2
+Calculate the provision at the start of the year
+
+$4 \% \times 7500 = 300$
+
+Calculate the provision at the end of the year
+
+- Subtract the irrecoverable debts
+
+$8700-325=8375$
+
+- Find the provision
+
+$4 \% \times 8375 = 335$
+
+Calculate the increase
+
+$335-300=35$
+
+Logan 
+Provision for doubtful debts account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2023 |   |   | 2022 |   |   |
+| Sep 30 | Balance c/d **[1]** | 335 | Oct 1 | Balance b/d **[1]** | 300 |
+|   |   |   | 2023 |   |   |
+|   |   |   | Sep 30 | Income statement **[1]** | 35 |
+|   |   | <u>335</u> |   |   | <u>335</u> |
+|   |   |   | Oct 1 | Balance b/d **[1]** | 335 |
+
+> **[mark-scheme]**
+> 4 marks in total:
+> 
+> - 1 mark for the correct balance b/d
+> - 1 mark for the correct balance c/d
+> - 1 mark for using your **own figure** to find the amount for the income statement
+> - 1 mark for using your **own figure** for balance c/d to create the balance b/d
+
+> **[exam-tip]**
+> Don't forget to subtract the irrecoverable debts before calculating the provision for doubtful debts.
+
+### Q3
+Find the provision for doubtful debts at the start of the year
+
+$4 \% \times 75000 = 3000$
+
+Find the provision for doubtful debts at the end of the year
+
+$4 \% \times 77000 = 3080$
+
+Find the increase in the provision for doubtful debts
+
+$3080-3000=80$
+
+Stalla 
+Provision for doubtful debts account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+| 2022 |   |   | 2022 |   |   |
+| Dec 31 | Balance c/d | 3 080 | Jan 1 | Balance b/d **[1]** | 3 000 |
+|   |   |   | Dec 31 | Income statement **[1]** | 80 |
+|   |   | <u>3 080</u> |   |   | <u>3 080</u> |
+|   |   |   | 2023 |   |   |
+|   |   |   | Jan 1 | Balance b/d **[1]** | 3 080 |
+
+> **[mark-scheme]**
+> 3 marks in total. 1 mark for the correct date, details and amount(s) for each of the items below.
+> 
+> **Explanation**
+> 
+> - 1 Jan 2022: \$3000 as the balance b/d on the credit side
+> 
+>   - It is a credit because it is a provision for the reduction in an asset balance
+> - 31 Dec 2022: Make an entry on the credit side for the income statement
+> 
+>   - This mark is for subtracting your **own figures **for the starting and ending balances
+> - 1 Jan 2023: \$3080 as the balance b/d on the credit side

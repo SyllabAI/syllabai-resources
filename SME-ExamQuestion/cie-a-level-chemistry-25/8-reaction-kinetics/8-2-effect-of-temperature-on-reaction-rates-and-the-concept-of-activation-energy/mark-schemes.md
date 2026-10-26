@@ -250,3 +250,393 @@
 **C** is incorrect as a change in pressure alters the proximity of gaseous reactant molecules, affecting collision frequency, but does not change the activation energy.
 
 **D** is incorrect as a change in temperature alters the proportion of particles with energy ≥ *E*<sub>a</sub> (by shifting the Boltzmann distribution), but the activation energy value itself remains unchanged.
+
+## Structured Questions (6 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> i) The x and y axes of the graph are:
+> 
+> - x (horizontal) axis: Energy / Molecular energy / Kinetic energy
+> **AND**
+> y (vertical) axis: Number / proportion of molecules **[1 mark]**
+
+ii) The sketch of the distribution at higher temperature *T*<sub>2</sub> is:
+
+![Boltzmann distribution showing two curves at T1 and T2; the higher temperature T2 curve has a lower peak shifted to the right, immediately separates from T1, crosses T1 only once, and finishes above T1 at high energies](assets/024-boltzmann-distribution-showing-two-curves-at-t1-.jpg)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the peak of *T*<sub>2</sub> being lower in height **AND **shifted to the right compared to *T*<sub>1</sub>
+> 
+> 1 mark for the *T*<sub>2</sub> curve immediately separating from *T*<sub>1</sub> after the peak **AND **crossing *T*<sub>1</sub> only once AND finishing above *T*<sub>1</sub> at high energies **AND **showing a similar total area under the curve
+
+> **[exam-tip]**
+> At a higher temperature, molecules have more energy on average. The peak shifts to the right (higher most probable energy) and becomes lower because more molecules are spread across a wider energy range. The total area under the curve is unchanged because the total number of molecules is unchanged.
+> 
+> Check your sketch as the two curves should cross only once. If they cross more than once, the shape is incorrect. The peak of *T*<sub>2</sub> must be lower and to the right of *T*<sub>1</sub>.
+> **[mark-scheme]**
+> A Boltzmann distribution curve always starts at the origin because:
+> 
+> - There are no molecules with zero energy / all molecules have some energy / all molecules are moving **[1 mark]**
+> 
+> The area under the curve represents:
+> 
+> - The total number of molecules / particles in the sample **[1 mark]**
+
+> **[exam-tip]**
+> The curve starts at (0, 0) because at zero energy there are zero molecules. All particles are in motion and therefore possess some kinetic energy.
+> 
+> The total area under the curve represents the total number of molecules. This does not change with temperature, which is why Boltzmann curves at different temperatures always enclose the same total area.
+> **[mark-scheme]**
+> For each of the following changes, the effects on the Boltzmann distribution are:
+> 
+> i) The temperature of the original reaction is increased:
+> 
+> - The area under the curve is unchanged, as the number of molecules is unchanged; **[1 mark]**
+> - The most probable energy of the molecules / the position of the peak shifts to the right / increases
+> **AND**
+> The proportion of molecules with energy greater than or equal to *E*<sub>a</sub> increases; **[1 mark]**
+> 
+> ii) The number of molecules in the original reaction mixture is increased:
+> 
+> - The area under the curve increases, as the number of molecules increases; **[1 mark]**
+> - The most probable energy of the molecules / the position of the peak does not change
+> **AND**
+> The proportion of molecules with energy ≥ *E*<sub>a</sub> remains the same / is unchanged (though the total number of molecules with energy ≥ *E*<sub>a</sub> increases); **[1 mark]**
+> 
+> iii) A catalyst is added to the original reaction mixture:
+> 
+> - The area under the curve is unchanged, as the number of molecules is unchanged; **[1 mark]**
+> - The most probable energy of the molecules / the position of the peak does not change
+> **AND**
+> The proportion of molecules with energy greater than or equal to *E*<sub>a</sub> increases, as the addition of a catalyst lowers the activation energy; **[1 mark]**
+
+> **[exam-tip]**
+> A catalyst lowers the activation energy by providing an alternative reaction pathway. This increases the proportion of molecules with energy ≥ *E*<sub>a</sub>, even though the shape of the Boltzmann distribution itself does not change.
+> 
+> When the number of molecules increases at constant temperature, the curve scales upward (greater total area) but its shape and peak position are unchanged. The proportion of molecules with energy ≥ *E*<sub>a</sub> therefore stays the same, even though the total number of such molecules increases.
+> 
+> Increasing the temperature shifts the peak to the right and lowers it. The area under the curve remains constant because the total number of molecules is unchanged.
+
+### Q2
+> **[mark-scheme]**
+> The forward reaction is endothermic:
+> 
+> - Endothermic **[1 mark]**
+> - The energy level of the products is higher than / greater than / above the energy level of the reactants **[1 mark]**
+> 
+> 'Exothermic' is not accepted.
+
+> **[exam-tip]**
+> In an endothermic reaction, energy is taken in from the surroundings, so the products end up at a higher energy level than the reactants. In Fig. 1.1, C + D are at a higher energy level than A + B, confirming the forward reaction is endothermic.
+> 
+> Do not confuse the direction of Δ*H* with the direction of activation energy. The activation energy arrow always points upward from the reactants to the peak of the curve. The Δ*H* arrow shows the overall energy change between reactants and products.
+> **[mark-scheme]**
+> The activation energy, *E*<sub>a</sub>, is:
+> 
+> - The minimum energy required **[1 mark]**
+> - For a collision to be effective / for a reaction to take place **[1 mark]**
+
+> **[exam-tip]**
+> The syllabus defines activation energy as the minimum energy required for a collision to be effective. Both parts of the definition are required for full marks:
+> 
+> - The minimum energy threshold
+> - The requirement that the collision is effective (not just any collision).
+> 
+> The activation energy of a reaction is not changed by temperature. It is only lowered by a catalyst, which provides an alternative reaction pathway of lower activation energy.
+To determine the activation energies from Fig. 1.1:
+
+- Forward reaction:
+
+activation energy = 150 + 180
+
+activation energy = 330 kJ mol<sup>-1</sup> **[1 mark]**
+
+- Reverse reaction:
+
+activation energy = 180 kJ mol<sup>-1</sup> **[1 mark]**
+
+> **[exam-tip]**
+> The activation energy of the forward reaction is the energy difference between the reactants (A + B) and the peak of the curve. Since the reaction is endothermic, the forward activation energy equals the enthalpy change Δ*H* plus the activation energy of the reverse reaction: 150 + 180 = 330 kJ mol<sup>-1</sup>.
+> 
+> The activation energy of the reverse reaction is the energy difference between the products (C + D) and the peak of the curve: 180 kJ mol<sup>-1</sup>. For an endothermic forward reaction, the reverse activation energy is always less than the forward activation energy.
+> **[mark-scheme]**
+> The addition of a catalyst increases the rate of reaction because:
+> 
+> - It provides an alternative pathway / route for the reaction **[1 mark]**
+> - The alternative pathway has a lower activation energy / *E*<sub>a</sub> **[1 mark]**
+> - A greater proportion of molecules have energy greater than or equal to *E*<sub>a</sub>, so there are more frequent effective collisions **[1 mark]**
+
+> **[exam-tip]**
+> A catalyst does not change the energy levels of the reactants or products, or the shape of the Boltzmann distribution. It only provides an alternative reaction mechanism with a lower activation energy, as shown by the lower peak in Fig. 1.2.
+> 
+> The answer is:
+> 
+> - alternative pathway
+> - → lower *E*<sub>a</sub>
+> - → greater proportion of molecules with energy ≥ *E*<sub>a</sub>
+> - → more frequent effective collisions
+> - → faster rate.
+
+### Q3
+> **[mark-scheme]**
+> i) The temperature of the original reaction is increased, but no other changes are made:
+> 
+> - Area under the curve is unchanged (as number of molecules is unchanged) **[1 mark]**
+> - The most probable energy increases / peak of the curve shifts to the right
+> **AND**
+> Proportion of molecules with energy greater than or equal to *E*<sub>a</sub> increases **[1 mark]**
+> 
+> ii) A catalyst is added to the original reaction mixture, but no other changes are made:
+> 
+> - Area under the curve is unchanged (as number of molecules is unchanged) **[1 mark]**
+> - The most probable energy does not change / peak of the curve does not shift
+> **AND**
+> Proportion of molecules with energy greater than or equal to *E*<sub>a</sub> increases (as the activation energy has been lowered by the addition of a catalyst) **[1 mark]**
+
+> **[exam-tip]**
+> A catalyst lowers the activation energy by providing a different reaction pathway of lower activation energy. This means more molecules have energy greater than or equal to *E*<sub>a</sub>, so the proportion of molecules that can react increases. However, the Boltzmann distribution curve shape does not change as the area under the curve and the most probable energy both remain the same.
+i) The labelled Boltzmann distribution curves are:
+
+![Boltzmann distribution curves labelled 100 K, 300 K, and 700 K, with 100 K having the tallest and narrowest peak and 700 K the flattest and broadest peak](assets/029-boltzmann-distribution-curves-labelled-100-k-300.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> i)
+> 
+> 1 mark for temperatures labelled correctly, with the lowest peak (100 K) on the left and the flattest and broadest curve (700 K) on the right
+> 
+> ii) The student's statement is:
+> 
+> - Incorrect **[1 mark]**
+> - The Boltzmann distribution curves for 700 K and 300 K overlap / there are molecules with both high and low energy values at both temperatures **[1 mark]**
+> - The most probable energy is greater at 700 K than at 300 K
+> **OR**
+> The peak of the curve is at a higher energy value at 700 K than at 300 K **[1 mark]**
+
+> **[exam-tip]**
+> When the temperature increases, the Boltzmann distribution curve flattens and shifts to the right:
+> 
+> - The most probable energy of the molecules increases
+> - The area under the curve is unchanged (as the number of molecules is unchanged)
+> - The proportion of molecules with energy greater than or equal to *E*<sub>a</sub> increases
+> **[mark-scheme]**
+> i) One reason why most collisions do not lead to the formation of hydrogen chloride is:
+> 
+> - The molecules do not have sufficient energy / the colliding molecules have energy less than the activation energy (*E* < *E*<sub>a</sub>)
+> **OR**
+> The orientation of the molecules is unfavourable / incorrect **[1 mark]**
+> 
+> ii) Two ways to speed up the formation of hydrogen chloride are:
+> 
+> - Increase concentration / decrease the volume
+> **OR**
+> Increase pressure **[1 mark]**
+> - This increases the frequency of effective collisions (per unit time) **[1 mark]**
+> - Add a suitable catalyst **[1 mark]**
+> - This lowers the activation energy, *E*<sub>a</sub> (by providing an alternative reaction pathway of lower activation energy) **[1 mark]**
+
+> **[exam-tip]**
+> For a collision to lead to a reaction, the colliding molecules must have the correct orientation **and** sufficient energy to overcome the activation energy barrier.
+> 
+> For gas-phase reactants, changing pressure and changing concentration are the same thing. Increasing the pressure forces molecules closer together, reducing the volume and increasing the concentration. Do not list both pressure and concentration as separate methods, as they count as one way.
+
+### Q4
+The completed reaction pathway diagram is:
+
+![Reaction pathway diagram showing the exothermic synthesis of ammonia, with reactants N2 + 3H2 at a higher energy level, products 2NH3 labelled at a lower energy level, a downward arrow for ΔH from reactants to products, and upward arrows from the reactants to the peaks of the uncatalysed curve labelled Ea and the catalysed curve labelled Ea,cat, with the catalysed peak lower than the uncatalysed peak](assets/031-reaction-pathway-diagram-showing-the-exothermic-.png)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for exothermic profile with products (2NH<sub>3</sub>) correctly labelled **AND **at a lower energy level than the reactants
+> 
+> 1 mark for Δ*H* correctly labelled with an arrow from the energy level of the reactants to the energy level of the products
+> 
+> 1 mark for *E*<sub>a</sub> **AND ***E*<sub>a,cat</sub> both labelled with arrows from the reactants to the peak of each respective curve, with the *E*<sub>a,cat</sub> peak lower than the *E*<sub>a</sub> peak
+
+> **[exam-tip]**
+> Use single-headed arrows throughout. Double-headed arrows will not be credited.
+> 
+> The activation energy arrow points from the energy level of the reactants to the peak of the curve, not to the energy level of the products. The Δ*H* arrow points from the reactants energy level to the products energy level.
+> 
+> The peak of the catalysed curve (*E*<sub>a,cat</sub>) must be lower than the uncatalysed peak (*E*<sub>a</sub>), since the catalyst lowers the activation energy. If you draw an endothermic profile (reactants lower than products), you will lose the first mark but could still gain the remaining two.
+To calculate the activation energy of the catalysed decomposition of ammonia:
+
+- The decomposition of NH<sub>3</sub> is the reverse of the synthesis, so:
+
+activation energy = *E*<sub>a,cat</sub> + Δ*H*(decomposition):
+
+activation energy = 109 + 92 **[1 mark]**
+
+activation energy = **201 kJ mol**<sup>**-1**</sup> **[1 mark]**
+
+> **[mark-scheme]**
+> The final mark is awarded for a correct value with correct units
+
+> **[exam-tip]**
+> The decomposition of ammonia (N<sub>2</sub> + H<sub>2</sub> → NH<sub>3</sub>) is the reverse of the synthesis reaction. On the reaction pathway diagram, the activation energy of the reverse catalysed reaction is measured from the energy level of the products (2NH<sub>3</sub>) to the peak of the catalysed curve.
+> 
+> Since the synthesis is exothermic (Δ*H* = −92 kJ mol<sup>-1</sup>), the products are 92 kJ mol<sup>-1</sup> lower in energy than the reactants. The activation energy of the reverse catalysed reaction is therefore: 109 + 92 = 201 kJ mol<sup>-1</sup>.
+> 
+> ![Enthalpy profile for N₂(g) + 3H₂(g) → 2NH₃(g), showing lower-energy products, −92 kJ mol⁻¹ enthalpy change and 201 kJ mol⁻¹ activation energy.](assets/032-enthalpy-profile-for-n-g-3h-g-2nh-g-showing-lowe.png)
+> **[mark-scheme]**
+> An iron catalyst increases the rate of reaction because:
+> 
+> - It provides an alternative reaction mechanism / pathway with a lower activation energy / *E*<sub>a,cat</sub>; **[1 mark]**
+> - A greater proportion of molecules have energy greater than or equal to *E*<sub>a,cat</sub>; **[1 mark]**
+> - So there are more frequent effective collisions; **[1 mark]**
+
+> **[exam-tip]**
+> The answer is:
+> 
+> - lower *E*<sub>a,cat</sub>
+> - → greater proportion of molecules with energy ≥ *E*<sub>a,cat</sub>
+> - → more frequent effective collisions
+> - → faster rate
+> 
+> ![Boltzmann distribution diagram with number of molecules on the y-axis and energy on the x-axis, showing the uncatalysed activation energy Ea and the lower catalysed activation energy Ea,cat, with a larger shaded area to the right of Ea,cat indicating the greater proportion of molecules with sufficient energy to react](assets/033-boltzmann-distribution-diagram-with-number-of-mo.png)
+> 
+> The distribution of molecular energies is determined only by temperature.
+> 
+> A catalyst does not change the shape of the Boltzmann distribution, it only shifts the position of the activation energy line to the left.
+> **[mark-scheme]**
+> i) The type of catalyst is:
+> 
+> - Heterogeneous; **[1 mark]**
+> 
+> ii) The nitrogen is:
+> 
+> - Reduced; **[1 mark]**
+> - The oxidation number of nitrogen decreases from +2 in NO to 0 in N<sub>2</sub>; **[1 mark]**
+
+> **[exam-tip]**
+> Platinum is a solid catalyst; the reactants (NO and CO) are gases. Because the catalyst and reactants are in different phases, platinum is a heterogeneous catalyst.
+> 
+> When explaining whether an element is oxidised or reduced, always state both the initial and final oxidation numbers. A decrease in oxidation number indicates reduction; an increase indicates oxidation. Here, nitrogen decreases from +2 to 0, confirming reduction.
+
+### Q5
+> **[mark-scheme]**
+> When the temperature is decreased:
+> 
+> - The curve shifts to the left
+> **AND**
+> The peak of the curve is higher / the maximum moves up **[1 mark]**
+> - The curve finishes below the level of the original curve **[1 mark]**
+
+> **[exam-tip]**
+> At a lower temperature, molecules have less energy on average. The peak of the distribution shifts to the left (towards lower energy) and becomes higher because more molecules cluster around the lower most probable energy value.
+> 
+> The curve must also finish below the original at high energies, since fewer molecules have very high kinetic energies at a lower temperature.
+> 
+> ![Boltzmann distribution curves at two temperatures, showing that the lower temperature curve has a higher peak shifted to the left and finishes below the original curve at high energies](assets/035-boltzmann-distribution-curves-at-two-temperature.png)
+> 
+> Make sure you read the question carefully. Many students incorrectly describe the changes for an increase in temperature when the question asks about a decrease.
+> **[mark-scheme]**
+> With changing temperature, the total area under the Boltzmann distribution:
+> 
+> - Does not change / remains the same **[1 mark]**
+
+> **[exam-tip]**
+> The total area under the Boltzmann distribution curve represents the total number of molecules in the sample.
+> 
+> This number does not change with temperature, so the area under the curve remains constant regardless of the temperature.
+> **[mark-scheme]**
+> When a catalyst is added:
+> 
+> - The activation energy / *E*<sub>a</sub> decreases / is lower 
+> **OR**
+> The line for *E*<sub>a</sub> shifts to the left **[1 mark]**
+
+> **[exam-tip]**
+> Adding a catalyst does not change the distribution of molecular energies or the Boltzmann distribution curve. It only provides an alternative reaction mechanism with a lower activation energy.
+> 
+> Since *E*<sub>a</sub> is lower, a greater proportion of molecules in the existing distribution now have sufficient energy to react, which increases the rate of reaction.
+> **[mark-scheme]**
+> The shaded area of Fig. 2.2 represents:
+> 
+> - The number of molecules that do not have enough energy to react
+> **OR**
+> The number of molecules with energy less than or equal to *E*<sub>a</sub>; **[1 mark]**
+
+> **[exam-tip]**
+> Boltzmann distribution questions often focus on the unshaded area to the right of *E*<sub>a</sub>, which represents the molecules with sufficient energy to react. The shaded area is the complement: molecules with energy less than *E*<sub>a</sub> that cannot react.
+> 
+> Mark schemes often express the shaded region as *E* ≤ *E*<sub>a</sub>. If you are unsure about inequality symbols, describe them in words instead. For example, 'molecules with energy less than or equal to the activation energy'.
+
+### Q6
+i) The sketch of the Boltzmann distribution at lower temperature *T*<sub>2</sub> is:
+
+![Boltzmann distribution diagram showing the original curve at temperature T and a new distribution curve at lower temperature T2; the T2 curve has a higher peak shifted to the left, crosses the original curve once, and finishes below it at high energies](assets/038-boltzmann-distribution-diagram-showing-the-origi.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> i)
+> 
+> 1 mark for the peak of *T*<sub>2</sub> being higher than and to the left of the original curve
+> 
+> 1 mark for the *T*<sub>2</sub> curve starting at the origin, crossing the original curve only once, and finishing below it at high energies
+
+> **[mark-scheme]**
+> ii) The effect of a decrease in temperature on the activation energy, *E*<sub>a</sub>:
+> 
+> - No effect / the activation energy remains the same / *E*<sub>a</sub> is unchanged **[1 mark]**
+
+> **[exam-tip]**
+> The shape of the Boltzmann distribution changes with temperature, but the activation energy *E*<sub>a</sub> is a fixed property of the reaction. It is determined by the energy required to break bonds in the transition state, not by the temperature of the system.
+> 
+> Check your sketch: the two curves should cross only once. If they cross more than once, the shape is incorrect. The peak of *T*<sub>2</sub> must be higher and to the left of the original, and the *T*<sub>2</sub> curve must finish below the original at high energies.
+> **[mark-scheme]**
+> The activation energy, *E*<sub>a</sub>, is:
+> 
+> - The minimum energy required; **[1 mark]**
+> - For a collision to be effective / for a reaction to take place; **[1 mark]**
+
+> **[exam-tip]**
+> The syllabus defines activation energy as the minimum energy required for a collision to be effective. Both parts of the definition are required for full marks: the minimum energy threshold, and the requirement that the collision is effective.
+> 
+> Activation energy does not change with temperature. The Boltzmann distribution shifts with temperature, but the position of *E*<sub>a</sub> on the energy axis remains fixed.
+i) The position of *E*<sub>a,cat</sub> is:
+
+![Boltzmann distribution diagram showing the uncatalysed activation energy Ea and the catalysed activation energy Ea,cat marked to the left of Ea on the energy axis, with a larger shaded area to the right of Ea,cat indicating more molecules with sufficient energy to react](assets/039-boltzmann-distribution-diagram-showing-the-uncat.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> i)
+> 
+> 1 mark for *E*<sub>a,cat</sub> placed to the left of *E*<sub>a</sub> on the energy axis
+
+> **[mark-scheme]**
+> ii) The catalyst results in a faster rate of reaction because:
+> 
+> - A greater proportion of molecules have energy greater than or equal to *E*<sub>a,cat</sub> **[1 mark]**
+> - So there are more frequent effective collisions **[1 mark]**
+
+> **[exam-tip]**
+> A catalyst lowers the activation energy by providing an alternative reaction mechanism. In terms of the Boltzmann distribution, a lower *E*<sub>a,cat</sub> means a larger proportion of the molecules in the existing distribution now have sufficient energy to react.
+> 
+> The two marks for the explanation are:
+> 
+> 1. More molecules with energy ≥ *E*<sub>a,cat</sub>
+> 2. More frequent effective collisions.
+> 
+> Both are required for full marks.
+> **[mark-scheme]**
+> Reactions 1 and 2 occur at different rates because:
+> 
+> - Reaction 1 requires energy to break covalent C–Br bonds / has a higher activation energy / greater *E*<sub>a</sub>; **[1 mark]**
+> - Reaction 2 involves the reaction between oppositely charged ions (H<sup>+</sup> + OH<sup>-</sup> → H<sub>2</sub>O) / has a lower activation energy / *E*<sub>a</sub>; **[1 mark]**
+> - At room temperature, a greater proportion of molecules have energy ≥ *E*<sub>a</sub> for Reaction 2, leading to more frequent effective collisions; **[1 mark]**
+
+> **[exam-tip]**
+> The rate of a reaction depends on the activation energy.
+> 
+> Reaction 1 has a high activation energy because covalent C–Br bonds must be broken.
+> 
+> Reaction 2 is effectively H<sup>+</sup> (aq) + OH<sup>-</sup> (aq) → H<sub>2</sub>O (l), which has a very low activation energy because no strong bonds need to be broken and the ions are attracted to each other.

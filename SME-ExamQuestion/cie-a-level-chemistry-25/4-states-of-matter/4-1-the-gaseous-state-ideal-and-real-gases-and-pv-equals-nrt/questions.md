@@ -1,6 +1,6 @@
 # Exam Questions — The Gaseous State: Ideal & Real Gases & pV = nRT
 **4. States of Matter** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 25 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 33 questions across 2 sets
 
 
 ## Multiple Choice Questions (25 questions)
@@ -236,3 +236,305 @@ Which row gives the identities of gases **W**, **X** and **Y**?
 | **B** | H<sub>2</sub> | NH<sub>3</sub> | N<sub>2</sub> |
 | **C** | N<sub>2</sub> | H<sub>2</sub> | NH<sub>3</sub> |
 | **D** | N<sub>2</sub> | NH<sub>3</sub> | H<sub>2</sub> |
+
+## Structured Questions (8 questions)
+
+
+### Q1 — hard — 19 marks
+
+**Q1** [2 marks]
+
+Airbags are safety devices fitted to modern cars. They are designed to rapidly inflate in the event of a collision, in order to protect the occupants of the car from the effects of the impact, and then quickly deflate.
+
+The inflation of an airbag depends on the chemical decomposition of sodium azide, NaN<sub>3</sub>.
+
+The azide ion, N<sub>3</sub><sup>–</sup>, contains one triple bond. Draw a ‘dot-and-cross’ diagram to show the arrangement of outer electrons present in an azide ion.
+
+**Q1** [3 marks]
+
+**Extract:**
+
+Airbags are safety devices fitted to modern cars. They are designed to rapidly inflate in the event of a collision, in order to protect the occupants of the car from the effects of the impact, and then quickly deflate.
+
+The inflation of an airbag depends on the chemical decomposition of sodium azide, NaN3.
+
+The azide ion, N3–, contains one triple bond.
+
+Suggest **three** properties of sodium azide. Explain your answer.
+
+**Q1** [5 marks]
+
+Sodium azide can be manufactured by reacting sodium amide, NaNH<sub>2</sub>, with dinitrogen monoxide. Sodium hydroxide and ammonia are also produced.
+
+550 g of sodium azide was produced in a reaction with a yield of 95.0%.
+
+Construct an equation for this reaction. Hence calculate the mass, in g, of sodium amide required.
+
+Show your working.
+
+**Q1** [4 marks]
+
+In a serious collision, the airbag deploys and rapidly fills with nitrogen as sodium azide decomposes.
+
+2NaN<sub>3</sub> (s) → 2Na (s) + 3N<sub>2</sub> (g)
+
+Assume nitrogen behaves as an ideal gas.
+
+Calculate the mass of sodium azide that must decompose in order to inflate an airbag to a volume of 7.50 x 10<sup>-2</sup> m<sup>3</sup> at a pressure of 150 kPa and a temperature of 35.0 °C.
+
+Show your working.
+
+**Q1** [5 marks]
+
+Sodium azide is toxic. It can be destroyed by reacting it with acidified nitrous acid, HNO<sub>2</sub>.
+
+i) Complete the equation for this reaction:
+
+2NaN<sub>3</sub> + ...HNO<sub>2</sub> + ...HCl → ...N<sub>2</sub> + ...NO + ...NaCl + 2H<sub>2</sub>O
+
+[2]
+
+ii) Calculate the total volume of gas released, in dm<sup>3</sup>, when 75.0 g of sodium azide reacts with an excess of acidified nitrous acid and hydrochloric acid at room conditions.
+
+Show your working.
+
+[3]
+
+### Q2 — medium — 7 marks
+
+**Q2** [3 marks]
+
+When magnesium reacts with hydrochloric acid, the following reaction occurs:
+
+Mg (s) + 2HCl (aq) → MgCl<sub>2</sub> (aq) + H<sub>2</sub> (g)
+
+During the reaction, the hydrogen produced occupies 103 cm<sup>3</sup> at 25.0 °C and 100 kPa.
+
+Calculate the amount, in mol, of hydrogen gas produced in this reaction. Show your working.
+
+.................................... mol
+
+**Q2** [2 marks]
+
+**Extract:**
+
+When magnesium reacts with hydrochloric acid, the following reaction occurs:
+
+Mg (s) + 2HCl (aq) → MgCl~2~ (aq) + H~2~ (g)
+
+During the reaction, the hydrogen produced occupies 103 cm^3^ at 25.0 °C and 100 kPa.
+
+Use your answer to (a) to calculate the volume, in cm<sup>3</sup>, of 0.150 mol dm<sup>-3</sup> HCl required to produce this amount of hydrogen gas. Give your answer to 3 significant figures. Show your working.
+
+volume = ..................... cm<sup>3</sup>
+
+**Q2** [2 marks]
+
+**Extract:**
+
+When magnesium reacts with hydrochloric acid, the following reaction occurs:
+
+Mg (s) + 2HCl (aq) → MgCl~2~ (aq) + H~2~ (g)
+
+In a separate experiment, 3.75 g of magnesium reacts with an excess of hydrochloric acid.
+
+Calculate the mass, in g, of magnesium chloride produced. Show your working.
+
+mass magnesium chloride = ....................... g
+
+### Q3 — easy — 8 marks
+
+**Q3** [2 marks]
+
+Two assumptions made about ideal gas behaviour are that ideal gases have zero particle volume and no intermolecular forces of attraction
+
+Explain why helium comes very close to ideal gas behaviour.
+
+**Q3** [3 marks]
+
+The ideal gas equation is *p*V = *n*RT where *R* is the molar gas constant with a value of 8.31 J K<sup>-1</sup> mol<sup>-1</sup>.
+
+State the meaning of each of the following terms, and give the units for each to correspond with the value of *R*.
+
+*p* ..............................................................................................
+
+*V* ..............................................................................................
+
+*T* ..............................................................................................
+
+**Q3** [3 marks]
+
+**Extract:**
+
+The ideal gas equation is *p*V = *n*RT where *R* is the molar gas constant with a value of 8.31 J K^-1^ mol^-1^.
+
+Calculate the volume, in dm<sup>3</sup>, of one mole of helium gas at 10.0 °C and 92.0 kPa. Give your answer to 3 significant figures. Show your working.
+
+volume of one mole of helium gas = ............................................... dm<sup>3</sup>
+
+### Q4 — hard — 11 marks
+
+**Q4** [3 marks]
+
+Oxygen exists as a diatomic gas, O<sub>2</sub> (g). A sample of O<sub>2</sub> (g) was made during a chemical reaction. When measured at 303 kPa and 28.0 °C the sample occupied a volume of 95.0 cm<sup>3</sup>.
+
+Assume that oxygen behaves as an ideal gas under these conditions.
+
+Calculate the mass, in g, of oxygen formed.
+
+Show your working.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Oxygen exists as a diatomic gas, O~2~ (g). A sample of O~2~ (g) was made during a chemical reaction. When measured at 303 kPa and 28.0 °C the sample occupied a volume of 95.0 cm^3^.
+
+Calculated: n(O~2~) = 0.01151 mol
+
+Use your answer to (a) to calculate the number of electrons involved in the bonding of this sample of oxygen.
+
+Show your working.
+
+**Q4** [2 marks]
+
+O<sub>2</sub> (g) does not behave as an ideal gas. Explain why O<sub>2</sub> (g) deviates more from ideal gas behaviour at:
+
+- very high pressures
+- very low temperatures
+
+**Q4** [4 marks]
+
+The homologous series of alkanes undergo combustion with oxygen. A 2.00 dm<sup>3</sup> flask contains 10.84 g of a gaseous alkane, **X**. The pressure in the flask is 300 kPa and the temperature is 20.0 °C.
+
+Calculate the relative molecular mass, *M*<sub>r</sub>, of **X** and hence deduce its molecular formula. Construct an equation for the complete combustion of **X**.
+
+Show your working.
+
+### Q5 — hard — 9 marks
+
+**Q5** [2 marks]
+
+Phosphine, PH<sub>3</sub>, is a gas formed by heating phosphorous acid, H<sub>3</sub>PO<sub>3</sub>, in the absence of air.
+
+4H<sub>3</sub>PO<sub>3</sub> (s) → PH<sub>3</sub> (g) + 3H<sub>3</sub>PO<sub>4</sub> (s)
+
+State the shape and bond angle in PH<sub>3</sub> (g).
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Phosphine, PH~3~, is a gas formed by heating phosphorous acid, H~3~PO~3~, in the absence of air.
+
+4H~3~PO~3~ (s) → PH~3~ (g) + 3H~3~PO~4~ (s)
+
+3.45 x 10<sup>-2</sup> mol of H<sub>3</sub>PO<sub>3</sub> is completely decomposed at a pressure of 100 kPa and 210 °C.
+
+Calculate the volume occupied, in cm<sup>3</sup>, by the phosphine gas produced.
+
+Show your working.
+
+**Q5** [3 marks]
+
+1.85 g of white phosphorus was reacted with 75.00 cm<sup>3</sup> of 1.25 mol dm<sup>-3</sup> sodium hydroxide solution to make phosphine.
+
+P<sub>4</sub> (s) + 3OH<sup>-</sup> (aq) + 3H<sub>2</sub>O (l) → PH<sub>3</sub> (g) + 3H<sub>2</sub>PO<sub>2</sub><sup>-</sup> (aq)
+
+Show by calculation which reagent is in excess.
+
+Show your working.
+
+**Q5** [1 mark]
+
+**Extract:**
+
+1.85 g of white phosphorus was reacted with 75.00 cm^3^ of 1.25 mol dm^-3^ sodium hydroxide solution to make phosphine.
+
+P~4~ (s) + 3OH^-^ (aq) + 3H~2~O (l) → PH~3~ (g) + 3H~2~PO~2~^-^ (aq)
+
+n(P~4~) = 1.85/124.0 = 0.01492 mol
+
+Use the information in part (c) to calculate the volume, in cm<sup>3</sup>, of phosphine that was produced at room conditions. Give your answer to 3 significant figures.
+
+### Q6 — medium — 9 marks
+
+**Q6** [2 marks]
+
+The kinetic theory of gases is used to explain the large scale (macroscopic) properties of gases by considering how individual molecules behave.
+
+State **two** basic assumptions of the kinetic theory as applied to an ideal gas.
+
+**Q6** [2 marks]
+
+State **two **conditions under which the behaviour of a real gas approaches that of an ideal gas.
+
+**Q6** [3 marks]
+
+Deduce the order of decreasing ideal gas behaviour for the following gases.
+
+ammonia, neon, nitrogen
+
+most ideal .............................. > .............................. > .............................. least ideal
+
+Explain your answer.
+
+**Q6** [2 marks]
+
+Explain, in terms of intermolecular forces and kinetic energy, why a liquid changes into a gas when its temperature is increased.
+
+### Q7 — easy — 7 marks
+
+**Q7** [4 marks]
+
+This question is about ideal gases.
+
+i) State three assumptions of the kinetic theory applied to an ideal gas.
+
+[3]
+
+ii) Explain why a gas exerts a pressure.
+
+[1]
+
+**Q7** [1 mark]
+
+As the volume of a gas is changed, the pressure of the gas changes. A graph of the volume of gas against $\frac{1}{\mathrm{pressure}}$ at constant temperature is shown in Fig. 1.1.
+
+![Graph of volume of gas (y-axis) against 1/pressure (x-axis) at constant temperature, showing a straight line through the origin](assets/004-graph-of-volume-of-gas-y-axis-against-1-pressure.png)
+
+**Fig. 1.1**
+
+State the relationship between the volume of gas and pressure at constant temperature shown by the graph in Fig. 1.1.
+
+**Q7** [2 marks]
+
+Changing the temperature of a gas, at constant pressure, will affect the volume of the gas.
+
+Sketch a graph on the axes in Fig. 1.2 to show the relationship between the temperature and the volume of the gas.
+
+![Blank graph with volume of gas on the y-axis and temperature on the x-axis](assets/005-blank-graph-with-volume-of-gas-on-the-y-axis-and.png)
+
+**Fig. 1.2**
+
+### Q8 — medium — 8 marks
+
+**Q8** [2 marks]
+
+State two basic assumptions of the kinetic theory as applied to an ideal gas.
+
+**Q8** [1 mark]
+
+Carbon dioxide does not behave as an ideal gas.
+
+Suggest **one** reason why not.
+
+**Q8** [2 marks]
+
+Explain why CO<sub>2</sub> is a gas at room temperature.
+
+**Q8** [3 marks]
+
+Carbon dioxide can be used to inflate life jackets.
+
+State and explain the effect of decreasing the temperature of the carbon dioxide on the pressure inside a life jacket. Assume the volume remains constant.

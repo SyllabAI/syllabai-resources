@@ -1,6 +1,6 @@
 # Exam Questions — Stationary Waves
 **8. Superposition** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 29 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 36 questions across 2 sets
 
 
 ## Multiple Choice Questions (29 questions)
@@ -320,3 +320,296 @@ The diagram shows the pattern produced by the superposition of sound waves from 
 Q, R, S and T are four points on the line through the centre of these waves.
 
 Which of the following statements is correct?
+
+## Structured Questions (7 questions)
+
+
+### Q1 — medium — 12 marks
+
+**Q1** [4 marks]
+
+A stationary wave on a string is shown in Fig. 1.1.
+
+Explain how the wave is formed, referring to the principle of superposition in your answer.
+
+![8-1-2a-m-standing-wave](assets/028-8-1-2a-m-standing-wave.png)
+
+**Q1** [5 marks]
+
+Fig. 1.2 shows the appearance of a stationary wave on a stretched string at one instant in time.
+
+![8-1-2c--m-stationary-wave-1-q](assets/029-8-1-2c-m-stationary-wave-1-q.png)
+
+Mark clearly on the diagram
+
+(i) the equilibrium position,
+
+[1]
+
+(ii) at least two nodes by labelling them **N**, and two antinodes by labelling them **A**,
+
+[2]
+
+(iii) the direction in which points **Q**, **R**, **S** and **T** are about to move.
+
+[2]
+
+**Q1** [3 marks]
+
+**Extract:**
+
+Fig. 1.2 shows the appearance of a stationary wave on a stretched string at one instant in time.
+![8-1-2c--m-stationary-wave-1-q]
+
+For the wave in Fig. 1.2 the frequency of vibration is 180 Hz and the speed of the waves along the string is 60 m s<sup>–1</sup>.
+
+For this wave
+
+(i) Calculate the time period the stationary wave on the string.
+
+[1]
+
+(ii) Calculate the length of the string.
+
+[2]
+
+### Q2 — easy — 9 marks
+
+**Q2** [2 marks]
+
+Describe the phase difference between two points on
+
+(i) a progressive transverse wave
+
+[1]
+
+(ii) a stationary wave.
+
+[1]
+
+**Q2** [3 marks]
+
+Fig. 1.1 shows four progressive transverse waves.
+
+![3-2-s-q--q5b-easy-aqa-a-level-physics](assets/032-3-2-s-q-q5b-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+State the pair of waves from Fig. 1.1 which superpose to create the following
+
+![r8Ip5QkY_8-1-stationary-waves-e-q3i](assets/033-r8ip5qky-8-1-stationary-waves-e-q3i.png)
+
+[1]
+
+![8-1-stationary-waves-e-q3ii](assets/034-8-1-stationary-waves-e-q3ii.png)
+
+[1]
+
+![8-1-stationary-waves-e-q3iii](assets/035-8-1-stationary-waves-e-q3iii.png)
+
+[1]
+
+**Q2** [2 marks]
+
+Fig. 1.2 shows a stationary wave on a stretched guitar string of length 0.58 m when it is plucked.
+
+![3-2-s-q--q5c-easy-aqa-a-level-physics](assets/036-3-2-s-q-q5c-easy-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+Determine the wavelength of the stationary wave.
+
+**Q2** [2 marks]
+
+**Extract:**
+
+Fig. 1.2 shows a stationary wave on a stretched guitar string of length 0.58 m when it is plucked. Determine the wavelength of the stationary wave.
+Mark scheme: Length of string, L = 0.58 m. Over the length of the string, there is half a wavelength, or L = λ/2, so wavelength λ = 2L. λ = 2 × 0.58 = 1.16 m = 1.2 m (2 s.f.)
+
+The frequency of the note played on the guitar string is 276 Hz.
+
+Calculate the speed of the stationary wave in Fig. 1.2.
+
+### Q3 — hard — 12 marks
+
+**Q3** [2 marks]
+
+Sound waves, like waves on a string, can produce stationary waves inside air columns.
+
+A physics technician demonstrates how sound can set up stationary waves using a tall tube of cross-sectional area 4.0 × 10<sup>–3</sup> m<sup>2</sup> and a loudspeaker connected to a signal generator, as shown in Fig. 1.1.
+
+![3-2-s-q--q2a-hard-aqa-a-level-physics](assets/037-3-2-s-q-q2a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The signal generator is switched on so that sound waves enter the tube. He slowly pours water into the tube and the sound gradually increases in volume, reaching a first maximum at a particular instant. Immediately after the volume begins to decrease.
+
+Water continues to be added until the volume rises again, reaching a second and final maximum after a further 3.2 × 10<sup>–3 </sup>m<sup>3</sup> of water is poured in.
+
+Determine the wavelength of the sound waves.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+Sound waves, like waves on a string, can produce stationary waves inside air columns. A physics technician demonstrates how sound can set up stationary waves using a tall tube of cross-sectional area 4.0 × 10^–3 m^2 and a loudspeaker connected to a signal generator. The signal generator is switched on so that sound waves enter the tube. He slowly pours water into the tube and the sound gradually increases in volume, reaching a first maximum at a particular instant.
+
+To help explain the demo, the technician sketches how particles of air move around in a tube when a stationary sound wave is set up. This sketch is shown in Fig. 1.2.
+
+A displacement anti-node is the maximum movement of particles in the air column. A displacement node is where there is no movement of particles in the air column.
+
+![3-2-s-q--q2b-hard-aqa-a-level-physics](assets/039-3-2-s-q-q2b-hard-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+On Fig. 1.2, label all positions where there are displacement nodes.
+
+**Q3** [3 marks]
+
+**Extract:**
+
+To help explain the demo, the technician sketches how particles of air move around in a tube when a stationary sound wave is set up. This sketch is shown in Fig. 1.2. A displacement anti-node is the maximum movement of particles in the air column. A displacement node is where there is no movement of particles in the air column. Fig. 1.2 On Fig. 1.2, label all positions where there are displacement nodes.
+
+At a displacement node, particles do not move, but the pressure oscillates strongly between compression and rarefaction. This produces the maximum pressure change.
+
+One of the technician’s students asks, “Are positions of displacement nodes the same as positions where the air pressure is maximum?”
+
+With reference to the meaning of a displacement node, and using Fig. 1.2, suggest how the technician might respond to the student.
+
+**Q3** [4 marks]
+
+**Extract:**
+
+To help explain the demo, the technician sketches how particles of air move around in a tube when a stationary sound wave is set up. This sketch is shown in Fig. 1.2. A displacement anti-node is the maximum movement of particles in the air column. A displacement node is where there is no movement of particles in the air column. Fig. 1.2
+
+In the space provided in Fig. 1.3 below, sketch the shape of the stationary sound wave set up in Fig. 1.2
+
+![3-2-s-q--q2d-hard-aqa-a-level-physics](assets/043-3-2-s-q-q2d-hard-aqa-a-level-physics.png)
+
+**Fig. 1.3**
+
+### Q4 — easy — 7 marks
+
+**Q4** [1 mark]
+
+State the principle of superposition.
+
+**Q4** [2 marks]
+
+State **two** necessary conditions for a stationary wave to be set up on a string.
+
+**Q4** [2 marks]
+
+A stationary wave is made up of nodes and antinodes.
+
+State what is meant by:
+
+(i) a node
+
+[1]
+
+(ii) an antinode.
+
+[1]
+
+**Q4** [2 marks]
+
+Fig 1.1 shows a stationary wave on a string which is fixed at both ends.
+
+![3-2-s-q--q1d-easy-aqa-a-level-physics](assets/045-3-2-s-q-q1d-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Annotate Fig. 1.1 to clearly show the nodes (N) and antinodes (A).
+
+### Q5 — medium — 11 marks
+
+**Q5** [3 marks]
+
+Fig. 1.1 shows a stationary wave formed on a guitar string fixed at **P** and **Q** when it is plucked at its centre.
+
+![8-1-3a-m-standing-wave](assets/047-8-1-3a-m-standing-wave.png)
+
+**X** is a point on the string at maximum displacement.
+
+Explain why a stationary wave is formed on the string
+
+**Q5** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a stationary wave formed on a guitar string fixed at P and Q when it is plucked at its centre. X is a point on the string at maximum displacement.
+
+The stationary wave in Fig. 1.1 is the D string of the guitar which has a frequency of 146.83 Hz.
+
+Calculate the time taken for the string at point X to move from maximum displacement to its next maximum displacement.
+
+**Q5** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a stationary wave formed on a guitar string fixed at P and Q when it is plucked at its centre. X is a point on the string at maximum displacement.
+The stationary wave in Fig. 1.1 is the D string of the guitar which has a frequency of 146.83 Hz.
+
+The progressive waves on the string travel at a speed of 190 m s<sup>–1</sup>.
+
+Calculate length of the D string.
+
+**Q5** [3 marks]
+
+A guitarist presses on the string at point R to shorten it and create the higher note ‘E’. The distance between R and Q in Fig. 1.2 is 0.29 m.
+
+![8-1-3d-m-shortened-string](assets/050-8-1-3d-m-shortened-string.png)
+
+The speed of the progressive wave remains at 190 m s<sup>–1</sup> and the tension remains constant.
+
+Calculate the frequency of note E.
+
+### Q6 — easy — 12 marks
+
+**Q6** [2 marks]
+
+Explain the difference between energy transfers in progressive waves and stationary waves.
+
+**Q6** [3 marks]
+
+Fig 1.1 shows a violin string. One way to produce a musical note is to pull the centre of the string to one side and then release it quickly. This produces a stationary wave.
+
+![3-2-s-q--q4b-easy-aqa-a-level-physics](assets/051-3-2-s-q-q4b-easy-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Explain why a stationary wave is formed on the string.
+
+**Q6** [4 marks]
+
+Fig. 1.1 shows a clarinet producing notes of different pitch. Each note corresponds to a stationary wave of a different number of wavelengths, or half wavelengths.
+
+![8-1-stationary-waves-e-q2](assets/052-8-1-stationary-waves-e-q2.png)
+
+**Fig. 1.1**
+
+On Fig 1.1, draw lines from each stationary wave formed in the clarinet to its corresponding wavelength.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a clarinet producing notes of different pitch. Each note corresponds to a stationary wave of a different number of wavelengths, or half wavelengths.
+
+State and explain the number of wavelengths that would produce the highest note.
+
+### Q7 — medium — 3 marks
+
+**Q7** [3 marks]
+
+(i) By reference to the direction of transfer of energy, state what is meant by a transverse wave.
+
+[1]
+
+(ii) State the principle of superposition.
+
+[2]
+
+*Source: Specimen 2022 Paper 2 Q4A*
+

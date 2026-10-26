@@ -1,6 +1,6 @@
 # Exam Questions — Financial Statements for Clubs & Societies
 **5. Preparation of Financial Statements** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 11 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 14 questions across 2 sets
 
 
 ## Multiple Choice Questions (11 questions)
@@ -141,3 +141,116 @@ Which items are included in an income and expenditure account prepared for a gol
 **Q11** [1 mark]
 
 What is included in the income and expenditure account of a badminton club?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 2 marks
+
+**Q1** [2 marks]
+
+State the meaning of the following terms: 
+
+(i) receipts and payments account
+
+(ii) accumulated fund
+
+*Source: June 2023 0452/22 Q3D*
+
+
+### Q2 — medium — 13 marks
+
+**Q2** [7 marks]
+
+The Favourite Book Club was formed several years ago. The subscription amount of \$52 per annum has remained unchanged since the club started. All subscriptions are paid by cheque or credit transfer.
+
+The treasurer provided the following information
+
+|   | At 1 January 2022 | At 31 December 2022 |
+|---|---|---|
+|   | \$ | \$ |
+| Subscriptions in advance | 260 | 156 |
+| Subscriptions in arrears | 468 | 1040 |
+| Insurance paid in advance | 348 | 366 |
+| Cash at bank | 68 | 114 |
+
+For the year to 31 December 2022:
+
+|   | \$ |
+|---|---|
+| Receipts |   |
+| Subscriptions received | 5356 |
+| Payments |   |
+| Rent paid | 2080 |
+| Insurance paid | 732 |
+| General expenses paid | 2498 |
+
+The club had 128 members in 2021 and 120 in 2022. The treasurer is aware that 4 current members will not pay their subscriptions for 2022. She has decided to write these subscriptions off.
+
+**REQUIRED**
+
+Prepare the subscriptions account for the year ended 31 December 2022. Balance the account and bring down the balances on 1 January 2023.
+
+Favourite Book Club 
+Subscriptions account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: June 2023 0452/22 Q3A*
+
+
+**Q2** [6 marks]
+
+Prepare the income and expenditure account for the year ended 31 December 2022.
+
+Favourite Book Club 
+Income and Expenditure Account for the year ended 31 December 2022
+
+|   | \$ | \$ |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+*Source: June 2023 0452/22 Q3B*
+
+
+### Q3 — medium — 5 marks
+
+**Q3** [5 marks]
+
+The Favourite Book Club was formed several years ago. The subscription amount of \$52 per annum has remained unchanged since the club started. All subscriptions are paid by cheque or credit transfer.
+
+The treasurer provided the following information
+
+|   | At 1 January 2022 | At 31 December 2022 |
+|---|---|---|
+|   | \$ | \$ |
+| Subscriptions in advance | 260 | 156 |
+| Subscriptions in arrears | 468 | 1040 |
+
+The club had 128 members in 2021 and 120 in 2022. The treasurer is aware that 4 current members will not pay their subscriptions for 2022. She has decided to write these subscriptions off.
+
+The treasurer is considering increasing the subscription amount in order to obtain sufficient funds to purchase computer equipment. The equipment would cost \$400 and would be used to maintain the club records.
+
+**REQUIRED **
+
+Advise the treasurer whether she should fund the purchase of the computer equipment by increasing the subscription amount. Justify your answer by making points for **and **against increasing the subscription amount. Calculations are **not **required.
+
+*Source: June 2023 0452/22 Q3C*
+

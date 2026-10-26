@@ -1,6 +1,6 @@
 # Exam Questions — Formulas, Functional Groups & the Naming of Organic Compounds
 **13. An Introduction to AS Level Organic Chemistry** · Cambridge (CIE) A-LEVEL chemistry (9701)
-> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 14 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/](https://www.savemyexams.com/a-level/chemistry/cie/25/topic-questions/) · 18 questions across 2 sets
 
 
 ## Multiple Choice Questions (14 questions)
@@ -150,3 +150,162 @@ Which row gives the empirical and molecular formulae of limonene?
 | **B** | C<sub>5</sub>H<sub>9</sub> | C<sub>10</sub>H<sub>18</sub> |
 | **C** | C<sub>9</sub>H<sub>13</sub> | C<sub>9</sub>H<sub>13</sub> |
 | **D** | C<sub>10</sub>H<sub>16</sub> | C<sub>10</sub>H<sub>16</sub> |
+
+## Structured Questions (4 questions)
+
+
+### Q1 — hard — 8 marks
+
+**Q1** [3 marks]
+
+Terpenes are a class of organic compounds widely used as fragrances in products such as perfumes. Nerol is a terpene found in many essential oils such as lemongrass and hops. The structure of nerol is shown in Fig. 1.1.
+
+![Skeletal formula of nerol, a 10-carbon unsaturated alcohol with a hydroxyl group](assets/023-skeletal-formula-of-nerol-a-10-carbon-unsaturate.png)
+
+**Fig. 1.1**
+
+i) Deduce the molecular formula of nerol.
+
+[1]
+
+ii) Calculate the relative molecular mass, *M*<sub>r</sub>, of nerol. Show your working.
+
+[1]
+
+iii) Deduce the empirical formula of nerol.
+
+[1]
+
+**Q1** [3 marks]
+
+**Extract:**
+
+Terpenes are a class of organic compounds widely used as fragrances in products such as perfumes. Nerol is a terpene found in many essential oils such as lemongrass and hops. The structure of nerol is shown in Fig. 1.1.
+
+Deduce whether molecules of nerol show geometrical (cis-trans) isomerism and whether they show optical isomerism. Explain your answers.
+
+**Q1** [2 marks]
+
+Two structural isomers of nerol are linalool and geraniol. The IUPAC names for linalool and geraniol are shown in Table 1.1.
+
+**Table 1.1**
+
+| **Isomer** | **IUPAC name** |
+|---|---|
+| Linalool | 3,7-dimethylocta-1,6-dien-3-ol |
+| Geraniol | 3,7-dimethylocta-2,6-dien-1-ol |
+
+Draw the skeletal formulae for linalool and geraniol.
+
+### Q2 — medium — 5 marks
+
+**Q2** [2 marks]
+
+**X**, **Y** and **Z** are all organic compounds.
+
+**X** can be manufactured by the oxidation of propene.
+
+CH<sub>3</sub>CH=CH<sub>2</sub> + O<sub>2</sub> → CH<sub>2</sub>=CHCHO + H<sub>2</sub>O
+
+Name **X** and name all the functional groups present in **X**.
+
+**Q2** [2 marks]
+
+Fig. 1.1 shows the skeletal formula of **Y**.
+
+![Skeletal formula of isobutyric acid (2-methylpropanoic acid) showing a branched 4-carbon chain with a carboxylic acid group](assets/026-skeletal-formula-of-isobutyric-acid-2-methylprop.png)
+
+**Fig. 1.1**
+
+Deduce the empirical and molecular formulae of **Y**.
+
+**Q2** [1 mark]
+
+**Z** is a saturated hydrocarbon that is a structural isomer of pentene.
+
+Draw the skeletal formula of **Z**.
+
+### Q3 — medium — 10 marks
+
+**Q3** [4 marks]
+
+A selection of chemical compounds is analysed. The displayed formulae of these compounds are shown in Table 3.1.
+
+**Table 3.1**
+
+| **Compound** | **Displayed formula** | **Functional group(s) present** |
+|---|---|---|
+| **1** | ![Structure of 3-bromo-2-methylpropan-1-ol](assets/029-structure-of-3-bromo-2-methylpropan-1-ol.png) |   |
+| **2** | ![Structure of 2-chloropropanal](assets/030-structure-of-2-chloropropanal.png) |   |
+| **3** | ![Structure of 2-chloro-but-2-en-1-ol](assets/031-structure-of-2-chloro-but-2-en-1-ol.png) |   |
+| **4** | ![Structure of but-2-enoic-acid](assets/032-structure-of-but-2-enoic-acid.png) |   |
+
+Complete Table 3.1 by naming all the functional groups present in compounds **1**–**4**.
+
+**Q3** [4 marks]
+
+Give the systematic name of each of compounds **1**–**4**.
+
+**Q3** [2 marks]
+
+**Extract:**
+
+A selection of chemical compounds is analysed. The displayed formulae of these compounds are shown in Table 3.1.
+
+**Table 3.1**
+
+| **Compound** | **Displayed formula** | **Functional group(s) present** |
+| --- | :---: | :---: |
+| **1** | [Structure of 3-bromo-2-methylpropan-1-ol] |   |
+| **2** | [Structure of 2-chloropropanal] |   |
+| **3** | [Structure of 2-chloro-but-2-en-1-ol] |   |
+| **4** | [Structure of but-2-enoic-acid] |   |
+
+The systematic names of the compounds are:
+- Compound 1 = 3-bromo-2-methylpropan-1-ol
+- Compound 2 = 2-chloropropanal
+- Compound 3 = 2-chlorobut-2-en-1-ol
+- Compound 4 = but-2-enoic acid
+
+Deduce which of compounds **1**–**4** have an empirical formula that is the same as their molecular formula. Explain your answer.
+
+### Q4 — medium — 8 marks
+
+**Q4** [1 mark]
+
+Crotonic acid has the molecular formula C<sub>4</sub>H<sub>6</sub>O<sub>2</sub>. Deduce the empirical formula of crotonic acid.
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Crotonic acid has the molecular formula C4H6O2.
+
+The systematic name of crotonic acid is but-2-enoic acid.
+
+Draw the displayed formulae of **two** structural isomers of crotonic acid that also contain the carboxylic acid functional group.
+
+**Q4** [5 marks]
+
+**Extract:**
+
+Crotonic acid has the molecular formula C4H6O2.
+The systematic name of crotonic acid is but-2-enoic acid.
+
+The structure of oleic acid is shown in Fig. 2.1.
+
+![Skeletal formula of oleic acid (C18H34O2), showing a long hydrocarbon chain with one cis C=C double bond and a carboxylic acid group](assets/036-skeletal-formula-of-oleic-acid-c18h34o2-showing-.png)
+
+**Fig. 2.1**
+
+i) State the type of formula shown in Fig. 2.1.
+
+[1]
+
+ii) Deduce the molecular formula of oleic acid.
+
+[1]
+
+iii) Explain whether oleic acid belongs to the same homologous series as crotonic acid.
+
+[3]

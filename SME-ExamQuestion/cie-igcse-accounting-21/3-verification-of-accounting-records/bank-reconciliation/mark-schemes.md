@@ -267,3 +267,92 @@
 **C** is incorrect; uncredited deposits are cheques deposited by the business which have not yet been cleared by the bank (they should appear on a subsequent statement)
 
 **D** is incorrect; the bank statement balance is not expected match the current balance in the cash book (because of timing issues or errors, for example)
+
+## Structured Questions (3 questions)
+
+
+### Q1
+**Final answer:** **\$1 153**
+
+**Method 1**
+
+Start with the balance in the cash book
+
+|   | \$ |
+|---|---|
+| Balance in cash book **[1]** | 1 013 |
+| Add cash sales by credit transfer **[1]** | 175 |
+| Less bank charges **[1]** | (35) |
+| Corrected bank balance **[1]** | 1 153 |
+
+**Method 2**
+
+Start with the balance on the bank balance
+
+|   | \$ |
+|---|---|
+| Balance on bank statement **[1]** | 763 |
+| Uncredited deposit (Sydney) **[1]** | 100 |
+| Bank error **[1]** | 290 |
+| Corrected bank balance **[1]** | 1 153 |
+
+> **[mark-scheme]**
+> **Explanation**
+> 
+> Work through each item individually.
+> 
+> - Bank charges: This is on the bank statement but not the cash book
+> 
+>   - Subtract from the balance in the cash book
+> - Cash sales: This is on the bank statement but not the cash book
+> 
+>   - Add to the balance in the cash book
+> - Cheque from Sydney: This is in the cash book but not on the bank statement
+> 
+>   - Add to the balance on the bank statement as it is an uncredited deposit
+> - Bank error of cash sales: This is in the cash book but not on the bank statement
+> 
+>   - Add to the balance on the bank statement
+
+### Q2
+**Final answer:** **\$1 095**
+
+**Method 1**
+
+Start with the balance in the cash book
+
+|   | \$ |
+|---|---|
+| Balance in cash book **[1]** | 1 061 |
+| Add refund from supplier **[1]** | 121 |
+| Less electricity **[1]** | (87) |
+| Corrected bank balance **[1]** | 1 095 |
+
+**Method 2**
+
+Start with the balance on the bank balance
+
+|   | \$ |
+|---|---|
+| Balance on bank statement **[1]** | 1 529 |
+| Add uncredited deposit (Jai) **[1]** | 196 |
+| Less unpresented cheque (rent) **[1]** | (630) |
+| Corrected bank balance **[1]** | 1 095 |
+
+> **[mark-scheme]**
+> **Explanation**
+> 
+> Work through each item individually.
+> 
+> - Electricity: This is on the bank statement but not the cash book
+> 
+>   - Subtract from the balance in the cash book
+> - Rent: This is in the cash book but not on the bank statement
+> 
+>   - Subtract from the balance on the bank statement as it is an unpresented cheque
+> - Jai: This is in the cash book but not on the bank statement
+> 
+>   - Add to the balance on the bank statement as it is an uncredited deposit
+> - Refund: This is on the bank statement but not the cash book
+> 
+>   - Add to the balance in the cash book

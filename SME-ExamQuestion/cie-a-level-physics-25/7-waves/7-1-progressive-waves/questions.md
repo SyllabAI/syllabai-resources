@@ -1,6 +1,6 @@
 # Exam Questions — Progressive Waves
 **7. Waves** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 20 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 26 questions across 2 sets
 
 
 ## Multiple Choice Questions (20 questions)
@@ -225,3 +225,272 @@ If the graph was to give a straight line through the origin which of the followi
 A light wave is incident normally on a surface of area *S* with an amplitude *A*. The power per unit area reaching the surface is *P*.
 
 If the light is focused on a smaller area of $\frac{1}{3}S$, and the amplitude of wave is doubled to 2*A* what is the power per unit area?
+
+## Structured Questions (6 questions)
+
+
+### Q1 — hard — 14 marks
+
+**Q1** [3 marks]
+
+Fig. 1.1 shows a vertical cross-section through a water wave moving from left to right.
+
+![3-1-s-q--q1a-hard-aqa-a-level-physics](assets/013-3-1-s-q-q1a-hard-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+Determine the point at which the water is moving upwards at maximum speed and explain your reasoning.
+
+**Q1** [4 marks]
+
+While a microphone is connected to a cathode-ray oscilloscope, a student strikes a tuning fork nearby. The sound wave produced by the tuning fork is displayed as a trace on the screen.
+
+Fig. 1.2 shows the resulting trace. The time-base and gain are given on the screen.
+
+![3-1-s-q--q1b-hard-aqa-a-level-physics](assets/015-3-1-s-q-q1b-hard-aqa-a-level-physics.png)
+
+**Fig. 1.2**
+
+Use Fig. 1.2** **to calculate the wavelength of the sound wave produced.
+
+(The speed of sound is approximately 330 m s<sup>–1</sup>).
+
+**Q1** [3 marks]
+
+**Extract:**
+
+While a microphone is connected to a cathode-ray oscilloscope, a student strikes a tuning fork nearby. The sound wave produced by the tuning fork is displayed as a trace on the screen. Fig. 1.2 shows the resulting trace. The time-base and gain are given on the screen.
+The time-base on the X-axis is set to a scale of 400 μs / div. One time period is 4 divisions.
+
+The student’s lab partner strikes another identical tuning fork near the microphone, so that both sound wave signals can be overlaid on the oscilloscope trace. Fig. 1.3 shows the new trace.
+
+![3-1-s-q--q1c-hard-aqa-a-level-physics](assets/017-3-1-s-q-q1c-hard-aqa-a-level-physics.png)
+
+**Fig. 1.3**
+
+Using Fig. 1.3, determine the phase difference between the two signals as shown on the oscilloscope trace.
+
+Give a suitable unit with your answer.
+
+**Q1** [4 marks]
+
+The oscilloscope trace is known as a ‘time-view’ of the sound wave because it shows the displacement of an oscillating signal against time. One of the students makes a time-view sketch as shown in Fig. 1.4, including a label *M*.
+
+An oscillating signal can also be shown in terms of a ‘space-view’, which would show the displacement of the signal against its position. The other student makes a space-view sketch as shown in Fig. 1.5, including a label *N*.
+
+![3-1-s-q--q1d-image1-hard-aqa-a-level-physics](assets/019-3-1-s-q-q1d-image1-hard-aqa-a-level-physics.png)
+
+**Fig. 1.4**
+
+![c7YeQlBD_3-1-s-q--q1d-image2-hard-aqa-a-level-physics](assets/020-c7yeqlbd-3-1-s-q-q1d-image2-hard-aqa-a-level-phy.png)
+
+**Fig. 1.5**
+
+Show that the wave speed *v *is given by:
+
+$v=\frac{3N}{2M}$
+
+### Q2 — hard — 13 marks
+
+**Q2** [2 marks]
+
+Ultrasound is used to measure the depth of oceans, seas and lakes.
+
+Fig. 1.1 shows a pulse of ultrasound being emitted from the boat, travelling down to the sea bed and being reflected back to the boat.
+
+![sl-sq-4-2-hard-q3a-ultrasound-ship](assets/023-sl-sq-4-2-hard-q3a-ultrasound-ship.png)
+
+**Fig.1.1**
+
+State which type of wave ultrasound is and explain your answer.
+
+**Q2** [3 marks]
+
+A cathode-ray oscilloscope (C.R.O.) is used to trace the ultrasound pulses sent from the boat and the reflected pulses returning to the boat. The C.R.O. trace is shown in Fig. 1.2.
+
+![sl-sq-4-2-hard-q3b-trace-of-ultrasound-pulses](assets/024-sl-sq-4-2-hard-q3b-trace-of-ultrasound-pulses.png)
+
+**Fig. 1.2**
+
+The ultrasound travels through water at 1452 m s<sup>−1</sup>, and the wavelength of the pulse is 0.023 m.
+
+For the ultrasound pulses:
+
+(i) Calculate the frequency
+
+[1]
+
+(ii) Calculate the distance to the sea bed
+
+[2]
+
+**Q2** [8 marks]
+
+**Extract:**
+
+Ultrasound is used to measure the depth of oceans, seas and lakes. Fig. 1.1 shows a pulse of ultrasound being emitted from the boat, travelling down to the sea bed and being reflected back to the boat.
+
+A cathode-ray oscilloscope (C.R.O.) is used to trace the ultrasound pulses sent from the boat and the reflected pulses returning to the boat. The C.R.O. trace is shown in Fig. 1.2. The ultrasound travels through water at 1452 m s^−1^, and the wavelength of the pulse is 0.023 m.
+
+The boat moves out to an area where the sea is deeper.
+
+(i) State and explain two changes that would occur on the cathode-ray oscilloscope trace. You may include diagrams in your answer.
+
+[4]
+
+(ii) When the sea is over 450 m deep, the pulses must be transmitted less frequently. Explain why this is the case.
+
+[4]
+
+### Q3 — medium — 5 marks
+
+**Q3** [5 marks]
+
+Circular water waves are produced by vibrating dippers at points P and Q, as illustrated in Fig. 4.1.
+
+![q4b-paper-2-specimen-2022-cie-ial-physics](assets/025-q4b-paper-2-specimen-2022-cie-ial-physics.png)
+
+**Fig. 4.1** (not to scale)
+
+The waves from P alone have the same amplitude at point R as the waves from Q alone. Distance PR is 44 cm and distance QR is 29 cm.
+
+The dippers vibrate in phase with a period of 1.5 s to produce waves of speed 4.0 cm s<sup>–1</sup>.
+
+(i) Calculate the wavelength of the waves.
+
+wavelength = .................................................... cm [2]
+
+(ii) Calculate the path difference at point R of the waves from P and Q.
+
+Give your answer in terms of the wavelength λ of the waves.
+
+path difference = ....................................................... λ [1]
+
+(iii) Describe the motion, if any, of the water particles at point R.
+
+Explain your answer.
+
+[2]
+
+*Source: Specimen 2022 Paper 2 Q4B*
+
+
+### Q4 — easy — 6 marks
+
+**Q4** [1 mark]
+
+State the type of wave for which the oscillations are perpendicular to the direction of energy transfer.
+
+**Q4** [2 marks]
+
+State two objects that can be used in the classroom to demonstrate wave motion.
+
+**Q4** [1 mark]
+
+Fig. 1.1 shows a waveform consisting of compressions and rarefactions.
+
+![longitudinal-wave-form](assets/027-longitudinal-wave-form.png)
+
+**Fig. 1.1**
+
+Annotate the diagram to show one complete wavelength, and label it *λ.*
+
+**Q4** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 shows a waveform consisting of compressions and rarefactions. Fig. 1.1
+
+The compression wave in Fig. 1.1 is a progressive wave in which 5 compressions pass a fixed point every 2 seconds.
+
+Determine the frequency of the wave.
+
+### Q5 — easy — 12 marks
+
+**Q5** [2 marks]
+
+Fig. 1.1 shows a displacement-distance graph for a travelling wave.
+
+![4-2-1a-question-stem-sl-sq-easy-phy](assets/030-4-2-1a-question-stem-sl-sq-easy-phy.png)
+
+**Fig. 1.1**
+
+Annotate Fig. 1.1, by adding labels to show:
+
+(i) the wavelength
+
+[1]
+
+(ii) the amplitude
+
+[1]
+
+**Q5** [5 marks]
+
+Identify the key word and its correct definition by connecting them with a line.
+
+![ye-K4JGI_4-2-sl-sq-1b-question-stem](assets/032-ye-k4jgi-4-2-sl-sq-1b-question-stem.png)
+
+**Q5** [1 mark]
+
+Fig. 1.2 shows a displacement-time graph for an oscillating object.
+
+![3b-figure-1](assets/034-3b-figure-1.png)
+
+**Fig. 1.2**
+
+Determine the time period *T *for this oscillation
+
+**Q5** [4 marks]
+
+**Extract:**
+
+Fig. 1.2 shows a displacement-time graph for an oscillating object. Determine the time period T for this oscillation. Correctly determine the period T = 10 s;
+
+The oscillation shown in Fig. 1.2 has a wavelength *λ* of 5 m.
+
+Calculate:
+
+(i) the frequency *f *of the oscillation
+
+[2]
+
+(ii) the wave speed *v*.
+
+[2]
+
+### Q6 — medium — 9 marks
+
+**Q6** [2 marks]
+
+Fig. 1.1** **represents a progressive wave travelling from left to right on a stretched string.
+
+![3-1-s-q--q2a-medium-aqa-a-level-physics](assets/037-3-1-s-q-q2a-medium-aqa-a-level-physics.png)
+
+**Fig. 1.1**
+
+The frequency of the wave is 30 Hz. Calculate the speed of the wave.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 represents a progressive wave travelling from left to right on a stretched string. The frequency of the wave is 30 Hz. XY = 70 cm = 5/4 λ (λ = 56 cm = 0.56 m).
+
+State the phase difference between points **X** and **Y** on the string, giving an appropriate unit.
+
+**Q6** [3 marks]
+
+**Extract:**
+
+Fig. 1.1 represents a progressive wave travelling from left to right on a stretched string. The frequency of the wave is 30 Hz.
+
+Describe how the vertical displacement of point **X** on the string varies in the next period.
+
+**Q6** [2 marks]
+
+**Extract:**
+
+Fig. 1.1 represents a progressive wave travelling from left to right on a stretched string. The frequency of the wave is 30 Hz.
+
+Determine the phase difference between the current position of **X** and the position of **X** 0.0825 s later.

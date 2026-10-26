@@ -1,0 +1,185 @@
+{
+ "schema": "syllabai.sme-revision-note/1.0",
+ "note_id": "rn_CdFdXG8bK83R9DKB",
+ "course_slug": "cie-as-computer-science-19",
+ "url": "https://www.savemyexams.com/as/computer-science/cie/19/revision-notes/6-security-privacy-and-data-integrity-/data-security/security-measures",
+ "title": "Security measures",
+ "page_title": "Security measures | Cambridge (CIE) AS Computer Science Revision Notes 2019",
+ "path": {
+  "segs": [
+   "6-security-privacy-and-data-integrity-",
+   "data-security",
+   "security-measures"
+  ],
+  "section": "6-security-privacy-and-data-integrity-",
+  "topic": "data-security",
+  "leaf": "security-measures"
+ },
+ "titles": {
+  "section": "6. Security, Privacy & Data Integrity",
+  "topic": "Data Security",
+  "subtopic": "Security measures"
+ },
+ "updated_at": "2026-05-07T08:22:11.357Z",
+ "is_ai_assisted": false,
+ "authors": [
+  {
+   "id": "athr_jvjz38TF8KDKbJh8",
+   "name": "Robert Hampton",
+   "role": "Curriculum Expert"
+  }
+ ],
+ "reviewers": [
+  {
+   "id": "athr_9wf4J4rc3cM3SCxQ",
+   "name": "James Woodhouse",
+   "role": "Portfolio Lead"
+  }
+ ],
+ "guided_study": {
+  "lesson_ids": []
+ },
+ "pdf_url": null,
+ "spec_point_ids": [
+  "spcpt_XDpr3szNcPW7PdyK",
+  "spcpt_dTCKSSntqmpQVQ4j"
+ ],
+ "spec_point_codes": [],
+ "equations": [],
+ "stats": {
+  "blocks": 27,
+  "figures": 0,
+  "worked_examples": 1,
+  "exam_hints": 0,
+  "case_studies": 0,
+  "equations": 0
+ },
+ "blocks": [
+  {
+   "type": "spec_point",
+   "id": "spcpt_XDpr3szNcPW7PdyK",
+   "name": "Security, privacy, integrity",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Security, privacy, integrity"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "What is the difference between data security, privacy and integrity?"
+  },
+  {
+   "type": "table",
+   "md": "| Term | Definition | Key focus | Example |\n|---|---|---|---|\n| **Data Security** | Protecting data against **loss**, **damage**, or **corruption** | **Preventing **data from being lost or destroyed | Using backups, firewalls, and anti-malware to prevent data loss |\n| **Data Privacy** | Protecting data against **unauthorised access** | **Controlling **who is allowed to access personal data | Using passwords, access rights, and encryption so only authorised users can read the data |\n| **Data Integrity** | Ensuring data is **accurate**, **complete**, and **unaltered **during storage or transfer | **Maintaining **correctness and reliability | Using checksums or validation rules to detect accidental or unauthorised changes |"
+  },
+  {
+   "type": "bullets",
+   "md": "- **Security** = keeping data safe from being lost\n- **Privacy** = keeping data safe from being seen by the wrong people\n- **Integrity** = keeping data accurate and unchanged"
+  },
+  {
+   "type": "spec_point",
+   "id": "spcpt_dTCKSSntqmpQVQ4j",
+   "name": "Protection techniques",
+   "definition": ""
+  },
+  {
+   "type": "heading",
+   "level": 2,
+   "text": "Protection techniques"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "User accounts"
+  },
+  {
+   "type": "bullets",
+   "md": "- User accounts are designed to **control access** to computer systems\n- They help protect data and system resources by ensuring only **authorised individuals** can log in and perform specific tasks"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Passwords"
+  },
+  {
+   "type": "bullets",
+   "md": "- Passwords are a **digital lock** to prevent unauthorised access to an account\n- They are often stored as an **encrypted/ciphered** text entry in a database, ensuring that even with unauthorised access to a database, a hacker would not be able to gain access to the individual passwords of users"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Authentication"
+  },
+  {
+   "type": "bullets",
+   "md": "- Authentication is the process of **ensuring that a system is secure** by asking the user to **complete tasks to prove they are an authorised** user of the system\n- Authentication is done because **bots can submit data in online forms**\n- Authentication can be done in several ways, including:\n\n  - **Digital signatures**\n  - **Biometrics**"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Digital signatures"
+  },
+  {
+   "type": "bullets",
+   "md": "- A digital signature is a secure way to **prove that a digital message or document was sent by a specific person** and that it **has not been altered**\n- It acts like a **digital stamp of approval**, confirming:\n\n  - **Who sent the data** (authentication)\n  - **That the data hasn’t been changed** (integrity)"
+  },
+  {
+   "type": "heading",
+   "level": 4,
+   "text": "Biometrics"
+  },
+  {
+   "type": "bullets",
+   "md": "- Biometrics are an individuals **personal characteristics used to identify them**, such as\n\n  - **Fingerprints**\n  - **Iris/retina scans (eyes)**\n  - **Voice recognition**\n- Biometrics provide a **very secure method** of confirming a users **identity **before allowing access/permission to a computer system\n- Biometric measures are often **used on mobile devices **to provide secure access"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Firewall"
+  },
+  {
+   "type": "bullets",
+   "md": "- A firewall is a **barrier** between a network and the internet\n- A firewall prevents **unwanted traffic** from entering a network by filtering requests to ensure they are **legitimate**\n- It can be both **hardware** and **software** and they are often used together to provide stronger security to a network\n\n  - **Hardware firewalls** will protect the whole network and prevent unauthorised traffic\n  - **Software firewalls** will protect the individual devices on the network, monitoring the data going to and from each computer"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Anti-virus software"
+  },
+  {
+   "type": "bullets",
+   "md": "- Anti-virus software is a term used to describe a combination of different software to prevent computers from being susceptible to **viruses** and other **malicious software**\n- Anti-virus **scans** through **email** attachments, **websites** and downloaded **files** to search for issues\n- Anti-virus software has a list of known malware **signatures to block** immediately if they try to access your device in any way\n- Anti-virus will also perform **checks for updates** to ensure the database of known issues is up to date"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Anti-spyware software"
+  },
+  {
+   "type": "bullets",
+   "md": "- Anti-spyware is a type of **security software** designed to **detect, block, and remove spyware** from a computer system\n- Spyware is a type of **malicious software (malware)** that secretly gathers information about a user without their knowledge\n- It can:\n\n  - **Record keystrokes** (e.g. passwords, credit card numbers)\n  - **Monitor browsing habits**\n  - **Access files** and send them to a third party"
+  },
+  {
+   "type": "heading",
+   "level": 3,
+   "text": "Encryption"
+  },
+  {
+   "type": "bullets",
+   "md": "- Encryption is the process of **converting data into a secret code** so that **only authorised users** can read it\n- It protects sensitive information (like passwords, personal data, or messages) from **unauthorised access**, especially when data is stored or sent over a network"
+  },
+  {
+   "type": "table",
+   "md": "| **Type** | **Description** |\n|---|---|\n| **Symmetric** | The **same key** is used to encrypt and decrypt. Fast but key must be shared securely |\n| **Asymmetric** | Uses a **public key** for encryption and a **private key** for decryption. More secure for sending data |"
+  },
+  {
+   "type": "callout",
+   "variant": "worked-example",
+   "label": "Worked Example",
+   "md": "A company has several security measures in place to prevent unauthorised access to the data on its computers.\n\nDescribe the difference between the security and privacy of data.**[2]**\n\n**Final answer:** **Answer**\n\n- Security protects data against loss **[1 mark]**\n- Privacy protects data against unauthorised access  **[1 mark]**"
+  }
+ ]
+}

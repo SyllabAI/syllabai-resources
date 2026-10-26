@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:37:48Z",
+ "generated_utc": "2026-10-26T13:57:52Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/",
@@ -51,6 +51,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_DMxYN2pSC8cqTGs5",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 1,
+   "questions_embedded": 1,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/11-organic-chemistry/11-1-formulae-functional-groups-and-terminology/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_YrK2qr5b6N3k9Nx7",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -63,10 +75,24 @@
    "question_count": 23,
    "questions_embedded": 19,
    "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/11-organic-chemistry/11-1-formulae-functional-groups-and-terminology/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_ThWNkHQPQ758bJS8",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 26,
+   "questions_embedded": 26,
+   "page_url": "https://www.savemyexams.com/igcse/chemistry/cie/23/topic-questions/11-organic-chemistry/11-1-formulae-functional-groups-and-terminology/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 19,
+  "questions_embedded": 46,
   "questions_missing": [
    "qstn_RzwzqqfZMgxmbZY2",
    "qstn_K6BV5hrpg4r7tBZM",
@@ -75,29 +101,162 @@
   ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2026/03/30943-paper-2-q32-image-1.png": "001-four-carbon-chain-c-c-c-c-first-carbon-bonded-to.png",
-   "https://cdn.savemyexams.com/uploads/2026/04/32497-52916-paper-1-q34-image-1.webp": "002-four-chemical-structures-labelled-a-b-c-and-d-a-.webp",
-   "https://cdn.savemyexams.com/uploads/2023/03/6e58eed3-267c-44d1-9b45-7e7907f0f840.jpeg": "003-6e58eed3-267c-44d1-9b45-7e7907f0f840.jpeg",
-   "https://cdn.savemyexams.com/uploads/2023/03/d6806b07-f0d4-45f9-bba7-999c5d44d5ce.jpeg": "004-d6806b07-f0d4-45f9-bba7-999c5d44d5ce.jpeg",
-   "https://cdn.savemyexams.com/uploads/2023/04/q2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "005-q2-easy-mcq-11-1-organic-chemistry-cie-igcse-che.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "006-q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "007-q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/11-1-4h-hydrocarbons-and-products.png": "008-11-1-4h-hydrocarbons-and-products.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/11-1-5h-reaction-scheme-a.png": "009-11-1-5h-reaction-scheme-a.png",
-   "https://cdn.savemyexams.com/uploads/2023/03/11-1-5h-reaction-scheme-b.png": "010-11-1-5h-reaction-scheme-b.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q5-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "011-q5-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q6-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "012-q6-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "013-ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcs.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/lKKAS8oy_q1-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "014-lkkas8oy-q1-medium-mcq-11-1-organic-chemistry-ci.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "015-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png",
-   "https://cdn.savemyexams.com/uploads/2023/04/ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "016-ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcs.png",
-   "https://cdn.savemyexams.com/uploads/2022/05/4-1-q3-edexcel-igcse-chemistry-mcq.png": "017-4-1-q3-edexcel-igcse-chemistry-mcq.png"
+   "https://cdn.savemyexams.com/uploads/2022/09/XD3Y41lP_alkane-combustion-homologous-series-graph.png": "001-xd3y41lp-alkane-combustion-homologous-series-gra.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/YeRbYAoO_alkane-combustion-homologous-series-graph-and-best-fit.png": "002-yerbyaoo-alkane-combustion-homologous-series-gra.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/alkane-combustion-homologous-series-graph-and-extrapolation.png": "003-alkane-combustion-homologous-series-graph-and-ex.png",
+   "https://cdn.savemyexams.com/uploads/2026/03/30943-paper-2-q32-image-1.png": "004-four-carbon-chain-c-c-c-c-first-carbon-bonded-to.png",
+   "https://cdn.savemyexams.com/uploads/2026/04/32497-52916-paper-1-q34-image-1.webp": "005-four-chemical-structures-labelled-a-b-c-and-d-a-.webp",
+   "https://cdn.savemyexams.com/uploads/2023/03/6e58eed3-267c-44d1-9b45-7e7907f0f840.jpeg": "006-6e58eed3-267c-44d1-9b45-7e7907f0f840.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/03/d6806b07-f0d4-45f9-bba7-999c5d44d5ce.jpeg": "007-d6806b07-f0d4-45f9-bba7-999c5d44d5ce.jpeg",
+   "https://cdn.savemyexams.com/uploads/2023/04/q2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "008-q2-easy-mcq-11-1-organic-chemistry-cie-igcse-che.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "009-q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "010-q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/11-1-4h-hydrocarbons-and-products.png": "011-11-1-4h-hydrocarbons-and-products.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/11-1-5h-reaction-scheme-a.png": "012-11-1-5h-reaction-scheme-a.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/11-1-5h-reaction-scheme-b.png": "013-11-1-5h-reaction-scheme-b.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q5-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "014-q5-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q6-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "015-q6-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "016-ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcs.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/lKKAS8oy_q1-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "017-lkkas8oy-q1-medium-mcq-11-1-organic-chemistry-ci.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "018-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png",
+   "https://cdn.savemyexams.com/uploads/2023/04/ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry.png": "019-ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcs.png",
+   "https://cdn.savemyexams.com/uploads/2022/05/4-1-q3-edexcel-igcse-chemistry-mcq.png": "020-4-1-q3-edexcel-igcse-chemistry-mcq.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/petrol-pump.png": "021-petrol-pump.png",
+   "https://cdn.savemyexams.com/uploads/2019/04/Butane-Displayed-Formula.png": "022-butane-displayed-formula.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/butyl-ethanoate-ester-highlight.png": "023-butyl-ethanoate-ester-highlight.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/chloropropane-isomers.PNG": "024-chloropropane-isomers.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q6c-0620-s20-qp-42.png": "025-q6c-0620-s20-qp-42.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/ms6di-0620-s20-qp-42.png": "026-ms6di-0620-s20-qp-42.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/polyester-structure.png": "027-polyester-structure.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/polyester-monomers.png": "028-polyester-monomers.png",
+   "https://cdn.savemyexams.com/uploads/2022/08/polyester-monomers-answers.png": "029-polyester-monomers-answers.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/but-2-ene.PNG": "030-but-2-ene.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/1VxTzFC__ethene-dot-and-cross.PNG": "031-1vxtzfc-ethene-dot-and-cross.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/butanoic-acid-ms-black.png": "032-butanoic-acid-ms-black.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q7_0620-s20-qp-31_cie-igcse-chemistry.png": "033-q7-0620-s20-qp-31-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/alkane.PNG": "034-alkane.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q5-0620_s19_qp_41.png": "035-q5-0620-s19-qp-41.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q5f-0620_s19_qp_41.png": "036-q5f-0620-s19-qp-41.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/propan-1-ol-and-propan-2-ol.PNG": "037-propan-1-ol-and-propan-2-ol.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/cyclobutane-displayed-black.png": "038-cyclobutane-displayed-black.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/methyl-cyclopropane.png": "039-methyl-cyclopropane.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/but-1-ene.png": "040-but-1-ene.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/but-2-ene.png": "041-but-2-ene.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/methylpropene.png": "042-methylpropene.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/but-2-ene-exam-q-structure.png": "043-but-2-ene-exam-q-structure.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/polybut-2-ene-ms-black.png": "044-polybut-2-ene-ms-black.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/1-2-dibromoethane-ms-black.png": "045-1-2-dibromoethane-ms-black.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/qp5qASid_q5-0620_s19_qp_33.png": "046-qp5qasid-q5-0620-s19-qp-33.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/compound-s.PNG": "047-compound-s.png",
+   "https://cdn.savemyexams.com/uploads/2023/01/70571020-9c44-41b5-89be-c206bc6b6fbc.jpeg": "048-ethanol-displayed-formula.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/07/Zm7YJV~p_q5e_0620-s20-qp-41_cie-igcse-chemistry.png": "049-zm7yjv-p-q5e-0620-s20-qp-41-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/propanone.PNG": "050-propanone.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/oxidation-of-butanol-equipment.png": "051-oxidation-of-butanol-equipment.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/rate-graph.png": "052-rate-graph.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/6-compounds-cie-igcse.png": "053-6-compounds-cie-igcse.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/polybut-2-ene-ms-image.png": "054-polybut-2-ene-ms-image.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/polybut-2-ene-ms-explain.png": "055-polybut-2-ene-ms-explain.png",
+   "https://cdn.savemyexams.com/uploads/2022/04/propan-1-ol-displayed-formula.png": "056-propan-1-ol-displayed-formula.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/propan-1-ol-ms-black.png": "057-propan-1-ol-ms-black.png",
+   "https://cdn.savemyexams.com/uploads/2022/09/propan-2-ol-ms-black.png": "058-propan-2-ol-ms-black.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/dFPHIipH_q1-0620_s19_qp_32.png": "059-dfphiiph-q1-0620-s19-qp-32.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q2c_specimen-paper-0620-03-cie-igcse-chemistry.png": "060-q2c-specimen-paper-0620-03-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/carboxylic-acid-group.PNG": "061-carboxylic-acid-group.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/ethene-displayed-formula.png": "062-ethene-displayed-formula.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/ethane.PNG": "063-ethane.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/butane.PNG": "064-butane.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q5f-0620_s19_qp_32.png": "065-q5f-0620-s19-qp-32.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/i5ablJmz_q7_0620-s20-qp-32_cie-igcse-chemistry.png": "066-i5abljmz-q7-0620-s20-qp-32-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2022/07/q7_0620-s20-qp-32_cie-igcse-chemistry.png": "067-q7-0620-s20-qp-32-cie-igcse-chemistry.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/nerol.PNG": "068-nerol.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_ynvKZ32gfkRMf2J2",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_9p3BM8v3FGmphKHZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2015",
+      "number": "O61",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "The alkanes are a homologous series of hydrocarbons which are used as fuels. Their general formula is C<sub>n</sub>H<sub>2n+2</sub>.\n\nThe energy released when equal amounts of the first five alkanes were burned was measured. The results are shown plotted on the grid below.\n\n![XD3Y41lP_alkane-combustion-homologous-series-graph](assets/001-xd3y41lp-alkane-combustion-homologous-series-gra.png)\n\nDraw a line of best fit on the grid.",
+     "solution_md": "a) The line of best fit is:\n\n![YeRbYAoO_alkane-combustion-homologous-series-graph-and-best-fit](assets/002-yerbyaoo-alkane-combustion-homologous-series-gra.png)\n\n- Straight line missing the point at n = 3; **[1 mark] **\n*The line must be drawn with a ruler*\n\n**[Total: 1 mark]**\n\n- *When you are asked to draw a line of best fit make sure that you are using a ruler*\n- *The line should go through as many points as possible **OR** aim to have an equal number of points on either side of the line of best fit*\n- *If there is a point that doesn't seem to fit the pattern (outlier / anomaly), e.g. the point at n = 3, then you should ignore it when you are drawing your line of best fit*"
+    },
+    {
+     "id": "qstnprt_X529W3VHsD8DXkXP",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2015",
+      "number": "O61",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe alkanes are a homologous series of hydrocarbons which are used as fuels. Their general formula is CnH2n+2. The energy released when equal amounts of the first five alkanes were burned was measured. The results are shown plotted on the grid below. Draw a line of best fit on the grid.\n\nSuggest **two **reasons why not all of the points lie on the line of best fit.\n\n1 ....................................................................................................\n\n2 ....................................................................................................",
+     "solution_md": "b) **Two **reasons why not all of the points lie on the line of best fit are:\n\nAny **two **of the following:\n\n- Measuring / recording error / anomalous result;** [1 mark]**\n- Equal amounts not burnt; **[1 mark]**\n- Heat losses; **[1 mark]**\n- Incomplete combustion; **[1 mark]** *Human error is not an accepted answer Impurities is an ignore answer*\n\n**[Total: 2 marks]**\n\n- *Although the phrase **fair test** will not get you any marks in an exam nowadays, the idea of the experiment being a fair test can help you answer this question*\n- *This will involve the following:*\n\n  - *Independent variable = the alkane / fuel being burned*\n  - *Dependent variable = the energy released when burned*\n  \n    - *This can lead to a measuring error*\n  - *Control variables = the amount (mass or volume) of fuel / the amount of oxygen / heat losses*"
+    },
+    {
+     "id": "qstnprt_ntpZpbZH4xGvwVq6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2015",
+      "number": "O61",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe alkanes are a homologous series of hydrocarbons which are used as fuels. Their general formula is C~n~H~2n+2~. The energy released when equal amounts of the first five alkanes were burned was measured. The results are shown plotted on the grid below. (graph of energy released in kJ/mol against value of n in general formula)\n\n**Use your graph **to work out the amount of energy released when the same amount of hexane, C<sub>6</sub>H<sub>14</sub>, is burned. Show clearly how you worked out your answer.",
+     "solution_md": "c) The amount of energy released when the same amount of hexane, C<sub>6</sub>H<sub>14</sub>, is burned is:\n\n![alkane-combustion-homologous-series-graph-and-extrapolation](assets/003-alkane-combustion-homologous-series-graph-and-ex.png)\n\n- Indication of extrapolation from the graph; **[1 mark]**\n- Reading from the graph (expected answer = 4100 ± 50);** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *This question wants you to read off the graph at n = 6 for hexane to get the amount of energy released*\n- *The question very clearly states to use our graph and show how you worked out your answer*\n\n  - *This means that is very likely that one mark will be for some working being visible on your graph*"
+    },
+    {
+     "id": "qstnprt_jznppb3KGG6PYqw8",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2015",
+      "number": "O61",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe alkanes are a homologous series of hydrocarbons which are used as fuels. Their general formula is C~n~H~2n+2~. The energy released when equal amounts of the first five alkanes were burned was measured. The results are shown plotted on the grid below.\n\nA student predicted that the energy released by burning butane would be two times the energy produced by burning ethane.\n\nSuggest why she made this prediction and compare the values obtained for these two alkanes.",
+     "solution_md": "d) The student made this prediction because:\n\n- Butane has a value of n = 4  \n**AND**\nEthane has a value of n = 2; **[1 mark]**\n\nComparing the values for these two alkanes:\n\n- Value for ethane = 1550;** [1 mark]**\n- Value for butane = 2800 / (about) twice the value of ethane; **[1 mark] **\n\n**[Total: 3 marks]**\n\n- *The question states to compare the values for the energy released by butane and ethane*\n- *This clearly suggests that you need to consider the amount of energy released as well as the value of n in the general formula*\n\n  - *When n =2, the energy released = 1550 kJ / mol*\n  - *When n = 4, the energy released = 2800 kJ / mol*\n  \n    - *The number n has doubled*\n    - *The energy released has almost doubled *"
+    }
+   ]
+  },
   {
    "id": "qstn_TZwYyfnmhtqqKYf9",
    "set_slug": "multiple-choice-questions",
@@ -174,7 +333,7 @@
       "spcpt_8xpHHNyCy8V8QNb6"
      ],
      "part_tier": null,
-     "problem_md": "The displayed formula of an organic compound is shown.\n\n![Four-carbon chain C–C–C–C. First carbon bonded to three H. Second carbon bonded to two H. Third carbon bonded to one H and an –OH group. Fourth carbon bonded to three H.](assets/001-four-carbon-chain-c-c-c-c-first-carbon-bonded-to.png)\n\nWhat is the name of this compound?",
+     "problem_md": "The displayed formula of an organic compound is shown.\n\n![Four-carbon chain C–C–C–C. First carbon bonded to three H. Second carbon bonded to two H. Third carbon bonded to one H and an –OH group. Fourth carbon bonded to three H.](assets/004-four-carbon-chain-c-c-c-c-first-carbon-bonded-to.png)\n\nWhat is the name of this compound?",
      "solution_md": "**Final answer:** **The correct answer is B**\n\nTo name an organic compound correctly,  you must apply IUPAC naming rules:\n\n**Step 1: Count the carbon chain**\n\n- The longest continuous chain contains 4 carbon atoms, so the prefix is **but-**\n\n**Step 2: Identify the functional group**\n\n- The molecule contains an **–OH** group, which means it is an alcohol and takes the suffix **-ol**\n\n**Step 3: Number the position**\n\n- You must number the carbon chain from the end closest to the –OH group to give it the lowest possible number\n- Numbering from the correct side puts the –OH on carbon number 2\n- Therefore, the number **2** must be included\n\nThe correct name is **butan-2-ol**.\n\n**A  **is incorrect because even if it is a 4-carbon chain, the alcohol group is not on carbon 1\n\n**C **is incorrect because the carbon chain was numbered from left-to-right automatically, rather than numbering from the side closest to the functional group (**which would give the lower number, 2**).\n\n**D **is incorrect because the position of the alcohol group is not specified",
      "choices": [
       {
@@ -226,7 +385,7 @@
       "spcpt_4FXDK5F56GFh2HnT"
      ],
      "part_tier": null,
-     "problem_md": "Which diagram shows the correct displayed formula for butanoic acid?\n\n![Four chemical structures labelled A, B, C, and D. A has a carbon triple bond; B has single bonds; C and D have a carbon double-bonded to oxygen.](assets/002-four-chemical-structures-labelled-a-b-c-and-d-a-.webp)",
+     "problem_md": "Which diagram shows the correct displayed formula for butanoic acid?\n\n![Four chemical structures labelled A, B, C, and D. A has a carbon triple bond; B has single bonds; C and D have a carbon double-bonded to oxygen.](assets/005-four-chemical-structures-labelled-a-b-c-and-d-a-.webp)",
      "solution_md": "**Final answer:** **The correct answer is C**\n\n- Butanoic acid is a carboxylic acid, so it must contain the** –COOH** functional group\n- The –COOH group means the last (or first) carbon has no hydrogens, is double bonded to O, and single bonded to –OH\n- Butanoic acid has 4 carbons in a chain ending in –COOH\n- Option C shows a 4-carbon chain where carbon 4 (from left to right) has C=O and C–O–H, with no H on carbon 4 (from left to right), so it is butanoic acid\n\n**A **is incorrect because it contains a **C=C double bond** and ends with –OH, so it is not a carboxylic acid\n\n**B **is incorrect because it ends with **–OH only** and carbon 4  (from left to right) is full of hydrogen, so it is an alcohol (butanol), not a carboxylic acid\n\n**D **is incorrect because carbon 4 (from left to right)   has an extra **hydrogen**. Carbon is forming 5 bonds, so the structure is incorrect. Carbon is in Group IV, so it can only form four covalent bonds",
      "choices": [
       {
@@ -330,8 +489,8 @@
       "spcpt_pNhC2gNnbwfcsp3h"
      ],
      "part_tier": null,
-     "problem_md": "The structures of four organic compounds are shown.\n\nWhich one does **not** show the displayed formula of the compound?\n\n![6e58eed3-267c-44d1-9b45-7e7907f0f840](assets/003-6e58eed3-267c-44d1-9b45-7e7907f0f840.jpeg)",
-     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Displayed formula shows all of the atoms and the bonds between them\n- Diagram B does not show the covalent bonds linking the atoms together\n- The displayed formula of B is:\n\n![d6806b07-f0d4-45f9-bba7-999c5d44d5ce](assets/004-d6806b07-f0d4-45f9-bba7-999c5d44d5ce.jpeg)\n\n**A**, **C** and **D** are correct as these are all correct displayed formulas as all bonds are shown",
+     "problem_md": "The structures of four organic compounds are shown.\n\nWhich one does **not** show the displayed formula of the compound?\n\n![6e58eed3-267c-44d1-9b45-7e7907f0f840](assets/006-6e58eed3-267c-44d1-9b45-7e7907f0f840.jpeg)",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Displayed formula shows all of the atoms and the bonds between them\n- Diagram B does not show the covalent bonds linking the atoms together\n- The displayed formula of B is:\n\n![d6806b07-f0d4-45f9-bba7-999c5d44d5ce](assets/007-d6806b07-f0d4-45f9-bba7-999c5d44d5ce.jpeg)\n\n**A**, **C** and **D** are correct as these are all correct displayed formulas as all bonds are shown",
      "choices": [
       {
        "label": "A",
@@ -381,7 +540,7 @@
       "spcpt_pGKQShf69kHQbB7w"
      ],
      "part_tier": null,
-     "problem_md": "Which of the following structures shows a compound that belongs to a different homologous series to octane?\n\n![q2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/005-q2-easy-mcq-11-1-organic-chemistry-cie-igcse-che.png)",
+     "problem_md": "Which of the following structures shows a compound that belongs to a different homologous series to octane?\n\n![q2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/008-q2-easy-mcq-11-1-organic-chemistry-cie-igcse-che.png)",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because: **\n\n- This is the only structure with a **carbon-carbon double bond**. **Alkenes** have a carbon-carbon double bond.\n\n- A **homologous** series is a family of chemicals with **similar properties** that share the same general formula and which have the same **functional group**.\n- Octane is from a homologous series called **alkanes.**\n- Alkanes are **saturated** hydrocarbons, which means that they only have single bonds in their structure and have the general formula C<sub>n</sub>H<sub>2n+2</sub>.\n- Molecules **A**, **B** and **D** are all alkanes.",
      "choices": [
       {
@@ -432,7 +591,7 @@
       "spcpt_pGKQShf69kHQbB7w"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows the structure of ethene.\n\n![q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/006-q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png)\n\nWhich of these compounds has similar chemical properties of ethene?\n\n![q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/007-q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png)",
+     "problem_md": "The diagram shows the structure of ethene.\n\n![q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/009-q3-1-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png)\n\nWhich of these compounds has similar chemical properties of ethene?\n\n![q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/010-q3-2-easy-mcq-11-1-organic-chemistry-cie-igcse-c.png)",
      "solution_md": "**Final answer:** **The correct answer is ****A**** because **\n\n- A **homologous** series is a family of chemicals with **similar properties** that share the same general formula and which have the same **functional group**.\n- The molecules shown in A have a carbon carbon double bond which is the same as ethene..\n- The functional group of the alkene series is a carbon carbon double bond.\n\n**B **and** C **are incorrect as both of these structures show an alkane.\n\n**D **is incorrect as this structure shows an alcohol.",
      "choices": [
       {
@@ -585,7 +744,7 @@
       "spcpt_T55krCGQvzKt8RYD"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended Only\n\nThe diagram below shows some simple hydrocarbons and the products of two reactions.\n\n![11-1-4h-hydrocarbons-and-products](assets/008-11-1-4h-hydrocarbons-and-products.png)\n\nWhich of these structures are named correctly?\n\n|   | ** Structure 1** | **Structure 2** | **Structure 3** |\n|---|---|---|---|\n| **A** | x | ✔ | ✔ |\n| **B** | ✔ | ✔ | ✔ |\n| **C** | x | ✔ | x |\n| **D** | ✔ | x | ✔ |",
+     "problem_md": "#### Extended Only\n\nThe diagram below shows some simple hydrocarbons and the products of two reactions.\n\n![11-1-4h-hydrocarbons-and-products](assets/011-11-1-4h-hydrocarbons-and-products.png)\n\nWhich of these structures are named correctly?\n\n|   | ** Structure 1** | **Structure 2** | **Structure 3** |\n|---|---|---|---|\n| **A** | x | ✔ | ✔ |\n| **B** | ✔ | ✔ | ✔ |\n| **C** | x | ✔ | x |\n| **D** | ✔ | x | ✔ |",
      "solution_md": "**Final answer:** **The correct answer is ****D**** because:**\n\n- Structure 1 is dibromoethane, it is an alkane with 2 bromine atoms attached\n- Structure 3 is ethanol, it is a 2-carbon alkane with the alcohol functional group (R-OH)\n- Structure 2 is named incorrectly as this is a 2-carbon hydrocarbon with a carbon-carbon double bond / C=C\n\n  - This means that its name should be ethene\n\n**A**, **B** and **C** are incorrect as these do not identify the correct structure-name combinations",
      "choices": [
       {
@@ -637,8 +796,8 @@
       "spcpt_4FXDK5F56GFh2HnT"
      ],
      "part_tier": null,
-     "problem_md": "#### Extended Only\n\nThe diagram below shows a reaction scheme. What are the names of all of the compounds?\n\n![11-1-5h-reaction-scheme-a](assets/009-11-1-5h-reaction-scheme-a.png)\n\n|   | **P** | **Q** | **R** | **S** |\n|---|---|---|---|---|\n| **A** | ethene | ethane | ethanoic acid | ethanol |\n| **B** | ethane | ethene | ethanol | ethanoic acid |\n| **C** | ethene | ethane | ethanol | ethanoic acid |\n| **D** | ethane | ethene | ethanoic acid | ethanol |",
-     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Butane is cracked to make an alkane and an alkene\n- When you react an alkene with steam, you make an alcohol\n- When an alcohol is oxidised, it produces a carboxylic acid ![11-1-5h-reaction-scheme-b](assets/010-11-1-5h-reaction-scheme-b.png)\n- P is ethane as there is a carbon-carbon single bond\n- Q is ethene as there is a carbon-carbon double bond\n- R is ethanol as it has the -OH functional group for an alcohol\n- S is ethanoic acid as it has the -COOH functional group for a carboxylic acid\n\n**A**, **C** and **D** are incorrect as these do not identify the correct structure-name combinations",
+     "problem_md": "#### Extended Only\n\nThe diagram below shows a reaction scheme. What are the names of all of the compounds?\n\n![11-1-5h-reaction-scheme-a](assets/012-11-1-5h-reaction-scheme-a.png)\n\n|   | **P** | **Q** | **R** | **S** |\n|---|---|---|---|---|\n| **A** | ethene | ethane | ethanoic acid | ethanol |\n| **B** | ethane | ethene | ethanol | ethanoic acid |\n| **C** | ethene | ethane | ethanol | ethanoic acid |\n| **D** | ethane | ethene | ethanoic acid | ethanol |",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- Butane is cracked to make an alkane and an alkene\n- When you react an alkene with steam, you make an alcohol\n- When an alcohol is oxidised, it produces a carboxylic acid ![11-1-5h-reaction-scheme-b](assets/013-11-1-5h-reaction-scheme-b.png)\n- P is ethane as there is a carbon-carbon single bond\n- Q is ethene as there is a carbon-carbon double bond\n- R is ethanol as it has the -OH functional group for an alcohol\n- S is ethanoic acid as it has the -COOH functional group for a carboxylic acid\n\n**A**, **C** and **D** are incorrect as these do not identify the correct structure-name combinations",
      "choices": [
       {
        "label": "A",
@@ -688,7 +847,7 @@
       "spcpt_pGKQShf69kHQbB7w"
      ],
      "part_tier": null,
-     "problem_md": "The first three members of a homologous series are shown.\n\n![q5-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/011-q5-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png)\n\nWhy do these molecules represent a homologous series?",
+     "problem_md": "The first three members of a homologous series are shown.\n\n![q5-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/014-q5-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png)\n\nWhy do these molecules represent a homologous series?",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- A homologous series is a family of chemicals with **similar properties** that share the same general formula and which have the same **functional group**.\n- Each atom in the series has an oxygen atom with a double bond to a carbon. This is a series called **aldehydes. **This is not a group that you need to be able to draw or recall, but you must be able to look at a structure and see the pattern in a series and recognise it as a functional group.\n\n**A **is incorrect as this would be the definition of a **hydrocarbon**\n\n**B **is incorrect as the molecules shown have saturated carbon-carbon bonds, but this does not make a homologous series.\n\n**D **is incorrect as a homologous series will have similar chemical properties.",
      "choices": [
       {
@@ -790,7 +949,7 @@
       "spcpt_pGKQShf69kHQbB7w"
      ],
      "part_tier": null,
-     "problem_md": "Which pair of the following structures shows a homologous series?\n\n![q6-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/012-q6-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png)",
+     "problem_md": "Which pair of the following structures shows a homologous series?\n\n![q6-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/015-q6-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png)",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because: **\n\n- A **homologous** series is a family of chemicals with **similar properties** that share the same general formula and which have the same **functional group**.\n- The molecules shown in **B** are both alkanes.\n- Alkanes are saturated hydrocarbons, which means that they only have single bonds in their structure and have the general formula C<sub>n</sub>H<sub>2n+2</sub>.\n\n**A **is incorrect as the first molecule is an alcohol, with the functional group OH and the second molecule is a carboxylic acid, with the functional group COOH.\n\n**C **is incorrect as the first molecule is an alkane and the second is an alkene, with the carbon carbon double bond as the functional group.\n\n**D **is incorrect as the first molecule is an alkene with the functional group of a carbon carbon double bond and the second molecule is a polymer.",
      "choices": [
       {
@@ -843,7 +1002,7 @@
      ],
      "part_tier": null,
      "problem_md": "When the number of atoms in a molecule of a hydrocarbon increases, the amount of energy released when it burns increases.\n\nWhat is the correct order?\n\n|   | **less energy** | **→** | **more energy released** |\n|---|---|---|---|\n| **A** | methane | ethene | ethane |\n| **B** | ethene | ethane | methane |\n| **C** | ethene | methane | ethane |\n| **D** | methane | ethane | ethene |",
-     "solution_md": "**Final answer:** **The correct answer is ****A**** because: **\n\n- The number of atoms in methane is **5**, in ethene it is **6 **and in ethane it is **8**.\n- The question states that as the number of atoms increases in a hydrocarbon, the amount of energy released when it is burnt increases.\n\n![ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/013-ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcs.png)\n\nThe other possible answers in this question are not in the correct order.",
+     "solution_md": "**Final answer:** **The correct answer is ****A**** because: **\n\n- The number of atoms in methane is **5**, in ethene it is **6 **and in ethane it is **8**.\n- The question states that as the number of atoms increases in a hydrocarbon, the amount of energy released when it is burnt increases.\n\n![ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/016-ms-q3-medium-mcq-11-1-organic-chemistry-cie-igcs.png)\n\nThe other possible answers in this question are not in the correct order.",
      "choices": [
       {
        "label": "A",
@@ -893,7 +1052,7 @@
       "spcpt_SgnGqsqVtztg5tqV"
      ],
      "part_tier": null,
-     "problem_md": "Which one of the following structures is correctly named?\n\n![lKKAS8oy_q1-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/014-lkkas8oy-q1-medium-mcq-11-1-organic-chemistry-ci.png)",
+     "problem_md": "Which one of the following structures is correctly named?\n\n![lKKAS8oy_q1-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/017-lkkas8oy-q1-medium-mcq-11-1-organic-chemistry-ci.png)",
      "solution_md": "**The correct answer is ****B**** because **the structure has two saturated carbons making it ethan- prefix and the functional group of OH so the suffix of -ol.\n\n**A **is incorrect as this molecule has 3 carbon atoms and a carbon double bond; so the correct name for this is **propene**.\n\n**C **is incorrect as this molecule has two carbon atoms and is saturated so the correct name is **ethane.**\n\n**D** is incorrect as this molecule has 3 carbon atoms and a carboxylic acid group (-COOH), hence the correct name is **propanoic acid**.\n\nRevision Tip\n\nUse this mnemonic to memorise the first 4 hydrocarbon prefixes:\n\n**M**onkeys - **Meth**-\n\n**E**at - **Eth**-\n\n**P**eeled - **Prop**-\n\n**B**ananas - **But**-",
      "choices": [
       {
@@ -944,7 +1103,7 @@
       "spcpt_pNhC2gNnbwfcsp3h"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below represents the molecule of a compound.\n\n![q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/015-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png)\n\nWhat is the name of this compound?",
+     "problem_md": "The diagram below represents the molecule of a compound.\n\n![q3-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/018-q3-medium-mcq-11-1-organic-chemistry-cie-igcse-c.png)\n\nWhat is the name of this compound?",
      "solution_md": "**Final answer:** **The correct answer is ****B**** because:**\n\n- There are two **saturated** carbons in this molecule.\n- There are no **double bonds** in this molecule.\n- The **functional group** contains OH, this makes the molecule an alcohol\n\n**A **is incorrect as **ethane** is a **hydrocarbon**, a molecule that contains hydrogen and carbon only.\n\n**C **is incorrect as **ethanoic acid** has two carbons and the **functional group** of **COOH**\n\n**D **is incorrect as **ethene **is an **unsaturated hydrocarbon** with a **carbon carbon double bond.**",
      "choices": [
       {
@@ -996,7 +1155,7 @@
      ],
      "part_tier": null,
      "problem_md": "Organic compounds can have names that have the suffixes of -ane, -ene, -ol or -oic acid.\n\nHow many of these have at least one double bond in their structure",
-     "solution_md": "**Final answer:** **The correct answer is ****B**** because: **\n\n- Compounds with names ending in** -ene** and **-ioic** acid both have double bonds in their structure:\n\n  - The **-ene** series all have at least one carbon double bond making them unsaturated.\n  - The **-oic** acid series have a carbon/oxygen double bond in the carboxylic acid functional group (-COOH)\n\n![ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/016-ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcs.png)\n\nThe **-ane** (**alkane**) series are saturated and do not have any double bonds in their structure. The **-ol** series have the functional group of **-OH** and are called **alcohols**.\n\nIt is common to forget to include the double bond in the carboxylic acid functional group!",
+     "solution_md": "**Final answer:** **The correct answer is ****B**** because: **\n\n- Compounds with names ending in** -ene** and **-ioic** acid both have double bonds in their structure:\n\n  - The **-ene** series all have at least one carbon double bond making them unsaturated.\n  - The **-oic** acid series have a carbon/oxygen double bond in the carboxylic acid functional group (-COOH)\n\n![ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcse-chemistry](assets/019-ms-q2-medium-mcq-11-1-organic-chemistry-cie-igcs.png)\n\nThe **-ane** (**alkane**) series are saturated and do not have any double bonds in their structure. The **-ol** series have the functional group of **-OH** and are called **alcohols**.\n\nIt is common to forget to include the double bond in the carboxylic acid functional group!",
      "choices": [
       {
        "label": "A",
@@ -1046,7 +1205,7 @@
       "spcpt_j8JtMXpfnSVvY5hz"
      ],
      "part_tier": null,
-     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe structures of six organic compounds compound **A** are shown.\n\n![4-1-q3-edexcel-igcse-chemistry-mcq](assets/017-4-1-q3-edexcel-igcse-chemistry-mcq.png)\n\nWhich two compounds are isomers of one another?",
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe structures of six organic compounds compound **A** are shown.\n\n![4-1-q3-edexcel-igcse-chemistry-mcq](assets/020-4-1-q3-edexcel-igcse-chemistry-mcq.png)\n\nWhich two compounds are isomers of one another?",
      "solution_md": "**Final answer:** **The correct answer is ****C**** because:**\n\n- Isomers have the same molecular formula but different displayed formula\n- **C** and **F** both have the molecular formula C<sub>5</sub>H<sub>12 </sub> but their atoms are arranged differently\n\n**A**, **B **and **D** are incorrect as the compounds do not have the same molecular formula.",
      "choices": [
       {
@@ -1070,6 +1229,1944 @@
        "text_md": "**C** and **E**"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_XdZXM3Qr35VvhT82",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_QHzSjkmwszJXXZd7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju32",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY",
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nMethanoic acid is the first member of the homologous series of carboxylic acids.\n\nGive **two **general characteristics of a homologous series.",
+     "solution_md": "a) **Two **general characteristics of a homologous series are:\n\nAny **two **of the following:\n\n- Same general formula; **[1 mark]**\n- Similar chemical properties; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Physical properties vary in a predictable way; **[1 mark]**\n- Common methods of preparation; **[1 mark]**\n- Consecutive members differ by CH<sub>2</sub>; **[1 mark] ***Mark the first two points made and ignore any others unless they contradict an awarded mark*\n\n**[Total: 2 marks]**\n\n- *You need to know what a homologous series is and the general characteristics*"
+    },
+    {
+     "id": "qstnprt_p3DbH5d96JKGcPS9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju32",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC",
+      "spcpt_MKvXKMnctwDqYdms"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIn some areas when water is boiled, the inside of kettles become coated with a layer of calcium carbonate. This can be removed by adding methanoic acid.\n\ni) Complete the equation.\n\n............ HCOOH + CaCO<sub>3</sub> → Ca(HCOO)<sub>2</sub> + ................. + .................\n\n[2]\n\nii) Methanoic acid reacts with most metals above hydrogen in the reactivity series.\n\nComplete the word equation.\n\nzinc + methanoic acid → ................................. + ..................................\n\n[2]",
+     "solution_md": "b)\n\ni) The completed equation is:\n\n2HCOOH + CaCO<sub>3</sub> → Ca(HCOO)<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O\n\n- CO<sub>2</sub> and H<sub>2</sub>O products; **[1 mark]**\n- Correct balancing; **[1 mark] **\n\nii) The completed word equation is:\n\nzinc + methanoic acid → zinc methanoate + hydrogen\n\n- Zinc methanoate product; **[1 mark]**\n- Hydrogen product; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *There are some standard reactions that you should be aware of:*\n\n  - *Metal carbonate + acid → metal salt + carbon dioxide + water*\n  - *Metal + acid → metal salt + hydrogen*\n  - *These 2 general equations indicate the answers for parts (i) and (ii)*"
+    },
+    {
+     "id": "qstnprt_v2s6chfbTn7S5z9n",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju32",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_TM7nqQNY64FxC6QT",
+      "spcpt_pGKQShf69kHQbB7w",
+      "spcpt_4TV53pyBRWZWJM6H"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethanoic acid is the first member of the homologous series of carboxylic acids.\n\n#### Separate: Chemistry and Extended Only\n\nGive the name, molecular formula and empirical formula of the fourth acid in this series.\n\nname ..................................................\n\n[1]\n\nmolecular formula ..................................................\n\n[1]\n\nempirical formula ..................................................\n\n[1]",
+     "solution_md": "c) The name, molecular formula and empirical formula of the fourth acid in the homologous series are:\n\n- Name: butanoic acid;** [1 mark]**\n- Molecular formula: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH / C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> / C<sub>3</sub>H<sub>7</sub>COOH / C<sub>4</sub>H<sub>7</sub>OOH;** [1 mark]**\n- Empirical formula: C<sub>2</sub>H<sub>4</sub>O;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *The fourth member of the carboxylic acids will have four carbons *\n\n  - *This means that it will be butanoic acid*\n- *The functional group of a carboxylic acid is -COOOH*\n\n  - *If you draw four carbons in a chain and make the last one be the COOH, then you can add the remaining hydrogens to complete the molecule, e.g. C-C-C-COOH → CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*COOH*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wmT6V4HfhgcXB6dy",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_Nw3HpQBZGdj5M62G",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2011",
+      "number": "O32",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_GddVjVfG62RvgxmP"
+     ],
+     "part_tier": null,
+     "problem_md": "Petrol is a mixture of hydrocarbons and additives. The combustion of petrol in car engines is a major source of air pollution. This is reduced by catalytic converters.\n\nPetrol is obtained from the gasoline fraction, boiling point range 40 °C to 100 °C, from the distillation of petroleum.\n\nExplain the term *fraction*.",
+     "solution_md": "a) The term *fraction* means:\n\n- The distillate collected; **[1 mark]**\n- In the stated range; **[1 mark] ***Accept between 40 – 100 *<sup>*o*</sup>*C as given in the question*\n\n**[Total: 2 marks]**\n\n- *A fraction is the chemical that collects during the process of fractional distillation*\n- *The distillation process forms distillates at various temperature ranges *"
+    },
+    {
+     "id": "qstnprt_2fdS4JXywKM3gpqS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2011",
+      "number": "O32",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC",
+      "spcpt_8xpHHNyCy8V8QNb6"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIn many countries, a lead compound of the type Pb(C<sub>2</sub>H<sub>5</sub>)<sub>n</sub> used to be added to petrol to improve its combustion. After combustion, lead oxide was formed.\n\n![petrol-pump](assets/021-petrol-pump.png)\n\ni) Octane is a constituent of petrol. Write the equation for the complete combustion of octane.\n\nC<sub>8</sub>H<sub>18</sub> + .......... O<sub>2</sub> → .......... + ..........\n\n[2]\n\nii) Dibromoethane was added to petrol to remove the lead oxide from inside the engine. Lead bromide was formed which escaped into the environment through the exhaust. Leaded petrol cannot be used with a catalytic converter.\n\nGive another reason why leaded petrol is no longer used.\n\n[1]\n\niii) What does each of the following tell you about the structure of dibromoethane?\n\ndibromo ..........................................................................................................\n\neth ..........................................................................................................\n\nane ..........................................................................................................\n\n[2]\n\niv) What additional information is needed to draw the structural formula of dibromoethane?\n\n[1]",
+     "solution_md": "b)\n\ni) The equation for the complete combustion of octane is:\n\nC<sub>8</sub>H<sub>18</sub> + 12.5O<sub>2</sub> → 8CO<sub>2</sub> + 9H<sub>2</sub>O\n\n- Correct products; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\nii) Another reason why leaded petrol is no longer used is because:\n\n- It is poisonous / toxic \n**OR **\nIt damages health / brain / kidneys; **[1 mark]** *Harmful is not sufficient for the mark*\n\niii) The parts of the dibromoethane name tell you:\n\nDibromo = 2 bromine atoms\n\nEth = 2 carbon atoms\n\nAne = single bonds / C-C / no double bonds / no C=C / saturated\n\n- All three points correct; **[2 marks]**\n- Only two points correct; **[1 mark]**\n\niv) The additional information that is needed to draw the structural formula of dibromoethane is:\n\n- The position of the bromine atom(s); **[1 mark]**\n\n**[Total: 6 marks]**\n\n- *For part (i), you are told that the reaction is complete combustion which means that the products will be carbon dioxide and water*\n\n  - *To balance the equation:*\n  \n    - *8 carbons in octane will form 8 carbon dioxide / CO*<sub>*2*</sub>\n    - *18 hydrogens in octane will form 9 water / H*<sub>*2*</sub>*O*\n    - *This gives a total of 25 oxygen atoms on the products side*\n    - *Therefore, 12.5 oxygen / O*<sub>*2*</sub>* will be needed as there are two oxygen atoms per molecule*\n- *Part (ii) is a general question about the known hazards of lead*\n- *Parts (iii) and (iv) test your understanding of how chemicals are named so be sure you understand the answer to this specific question*"
+    },
+    {
+     "id": "qstnprt_TnCZT3Bx9YcKT2kS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2011",
+      "number": "O32",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nAn analysis of the compound, Pb(C<sub>2</sub>H<sub>5</sub>)<sub>n</sub>, showed that 0.026 moles of Pb was combined with 0.104 moles of C<sub>2</sub>H<sub>5</sub> groups.\n\nWhat is the value of n? Show how you arrived at your answer.",
+     "solution_md": "c) The value of n is:\n\n- $\\frac{0.104}{0.026}$; **[1 mark]**\n- n = 4; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *This question is an application of your knowledge of moles calculations and has an aspect of empirical formula calculations*\n- *You can assume the reaction is: Pb + nC*<sub>*2*</sub>*H*<sub>*5*</sub>* → Pb(C*<sub>*2*</sub>*H*<sub>*5*</sub>*)*<sub>*n*</sub>* *\n- *The reaction equation shows a 1 : n ratio and the question gives you a 0.026 : 0.104 ratio*\n\n  - *0.026 : 0.104 simplifies to 1 : 4*",
+     "equations": [
+      {
+       "latex": "\\frac{0.104}{0.026}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mn>0</mn><mo>.</mo><mn>104</mn></mrow><mrow><mn>0</mn><mo>.</mo><mn>026</mn></mrow></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 0.104 over denominator 0.026 end fraction"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_kf6Gz5Nr4Jkw5H7p",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2011",
+      "number": "O32",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_2GFN3PbbbxkVkrkV"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nSome of the pollutants emitted by vehicle exhausts are carbon monoxide, oxides of nitrogen and unburnt hydrocarbons. Explain how the emission of these gases is reduced by a catalytic converter.",
+     "solution_md": "d) A catalytic converter reduces emissions of these gases by:\n\n- (Oxides of nitrogen) changing carbon monoxide into carbon dioxide \n**OR **\n2NO + 2CO → N<sub>2</sub> + 2CO<sub>2</sub>; **[1 mark]**\n- The oxides of nitrogen then become nitrogen \n**OR **\n2NO → N<sub>2</sub> + O<sub>2</sub>; **[1 mark]**\n- (Oxides of nitrogen) change hydrocarbons into carbon dioxide and water \n**OR **\nA balanced symbol equation showing the oxidation of hydrocarbons, e.g. C<sub>8</sub>H<sub>18</sub> + 12.5O<sub>2</sub> → 8CO<sub>2</sub> + 9H<sub>2</sub>O; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Your exam technique should help you identify that there are three marks and three pollutants*\n- *This means that you need to make one comment per pollutant*\n- *The main issue is that the reduction of carbon monoxide and unburnt hydrocarbons emissions by a catalytic converter produces carbon dioxide which is still a pollutant*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tNGTRHrNzGWj7srm",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_mtgWqMSY2dhXTSSq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_zcjHMGnpDkQvZpXP",
+      "spcpt_yRMDGDvtMpR5tgnY"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nTwo homologous series of hydrocarbons are the alkanes and the alkenes.\n\nOne general characteristic of a homologous series is that the physical properties vary in a predictable way.\n\ni) State **three **other general characteristics of a homologous series.\n\n[3]\n\nii) How can the molecular formula of a hydrocarbon show whether it is an alkane or an alkene?\n\n[2]\n\niii) How do alkanes and alkenes differ in their molecular structures?\n\n[2]",
+     "solution_md": "a)\n\ni) **Three **other general characteristics of a homologous series are:\n\nAny **three **of the following:\n\n- Same general formula; **[1 mark]**\n- Consecutive members differ by CH<sub>2</sub>; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Common (allow similar) methods of preparation; **[1 mark]**\n- Similar chemical properties / reactions; **[1 mark]**\n\nii) The molecular formula of a hydrocarbon shows whether it is an alkane or an alkene:\n\n- C<sub>n</sub>H<sub>2n</sub> alkene; **[1 mark]**\n- C<sub>n</sub>H<sub>2n+2</sub> alkane; **[1 mark]**\n\niii) The way(s) that alkanes and alkenes differ in their molecular structures is / are:\n\n- Alkanes have all or only (C–C) single bonds / no double bonds / no multiple bonds; **[1 mark]**\n- Alkenes have (at least one) C=C / double bond / multiple bond; **[1 mark]**\n\n**[Total: 7 marks]**\n\n- *Part (i) is a standard question asking for the general characteristics of a homologous series*\n- *Part (ii) is basically asking for the general formulae of alkanes and alkenes but it is worded in a strange way that doesn't necessarily make you think of the answer*\n- *Part (iii) is about the differences between alkanes and alkenes*\n\n  - *A surprisingly large number of people will miss one of these marks because they will only talk about alkanes and forget to make a similar statement for the alkenes because they think it's obvious / implied*"
+    },
+    {
+     "id": "qstnprt_nh6QZDkSZH5p43QK",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2015",
+      "number": "O33",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_57VkQzhsgvqF5Hkf"
+     ],
+     "part_tier": null,
+     "problem_md": "Cracking is the thermal decomposition of alkanes into smaller hydrocarbons and possibly hydrogen.\n\ni) State **two **conditions required for the cracking of an alkane.\n\n[2]\n\nii) One type of cracking produces an alkane and an alkene.\n\nComplete an equation for the cracking of heptane into an alkane and an alkene.\n\nC<sub>7</sub>H<sub>16</sub> → ................ + ................\n\n[1]\n\niii) Complete an equation for the cracking of heptane into hydrogen and two other products.\n\nC<sub>7</sub>H<sub>16</sub> → ................ + ................ + H<sub>2</sub>\n\n[1]\n\niv) Suggest **one **reason why cracking is important.\n\n[1]",
+     "solution_md": "b)\n\ni) **Two **conditions required for the cracking of an alkane are:\n\nAny **two **of the following\n\n- Heat / high temperature / temperature between 450 °C and 800 °C; **[1 mark]**\n- Catalyst / named catalyst, e.g. zeolites, alumina, aluminium oxide, aluminosilicate, silica or oxides of chromium; **[1 mark]**\n- High pressure/ pressure in the range of 2 – 70 atm; **[1 mark]**\n- Steam; **[1 mark]**\n- Absence of air/ oxygen; **[1 mark]**\n\nii) An equation for the cracking of heptane into an alkane and an alkene is:\n\n- C<sub>7</sub>H<sub>16</sub> → CH<sub>4</sub> + C<sub>6</sub>H<sub>12</sub> \n**OR **\nC<sub>7</sub>H<sub>16</sub> → C<sub>2</sub>H<sub>6</sub> + C<sub>5</sub>H<sub>10 </sub>\n**OR **\nC<sub>7</sub>H<sub>16</sub> → C<sub>3</sub>H<sub>8</sub> + C<sub>4</sub>H<sub>8 </sub>\n**OR **\nC<sub>7</sub>H<sub>16</sub> → C<sub>4</sub>H<sub>10</sub> + C<sub>3</sub>H<sub>6 </sub>\n**OR **\nC<sub>7</sub>H<sub>16</sub> → C<sub>5</sub>H<sub>12</sub> + C<sub>2</sub>H<sub>4</sub>; **[1 mark]**\n\niii) An equation for the cracking of heptane into hydrogen and two other products is:\n\n- C<sub>7</sub>H<sub>16</sub> → C<sub>2</sub>H<sub>4</sub> + C<sub>5</sub>H<sub>10</sub> + H<sub>2 </sub>\n**OR **\nC<sub>7</sub>H<sub>16</sub> → C<sub>3</sub>H<sub>6</sub> + C<sub>4</sub>H<sub>8</sub> + H<sub>2</sub>; **[1 mark]**\n\niv) **One **reason why cracking is important is:\n\nAny **one **of the following:\n\n- Alkenes are more useful than alkanes; **[1 mark]**\n- Alkenes are used to make polymers / plastics; **[1 mark]**\n- Alkenes are used to make chemicals / petrochemicals; **[1 mark]**\n- Shorter alkanes / smaller molecules are used as fuels; **[1 mark]**\n- Cracking produces more petrol (fraction) or hydrogen; **[1 mark]**\n- Cracking produces lighter fractions from heavier fractions or suitable example, e.g. naphtha to gasoline; **[1 mark]**\n- Cracking produces more useful smaller molecules; **[1 mark]**\n- There is more demand for smaller molecules / fractions; **[1 mark]**\n- Hydrogen produced from cracking is used to make ammonia / in Haber process / to hydrogenate vegetable oils / to make HCl; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *You need to know how cracking happens in terms of:*\n\n  - *The conditions *\n  - *Writing cracking equations*\n  \n    - *Make sure that the products of your equations add up to the number of carbons and hydrogens in the reactant*\n  - *The need for cracking, which is generally to form more useful, smaller fractions*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_TcqxNb5v4ykFW2k2",
+   "set_slug": "theory-questions",
+   "order": 24,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_F9wc2HcYfwJx5yxf",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "insert",
+     "source_paper": {
+      "date": "2012",
+      "number": "Ju31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rQw9qc9pNRFRyPKB"
+     ],
+     "part_tier": null,
+     "problem_md": "Butane is an alkane. It has the following structural formula\n\n![Butane Displayed Formula](assets/022-butane-displayed-formula.png)\n\nThe equation for the complete combustion of butane is given below. Insert the two missing volumes.\n\n2C<sub>4</sub>H<sub>10</sub> (g) +  13O<sub>2</sub> (g)  →  8CO<sub>2</sub> (g)  +  10H<sub>2</sub>O (g)\n\nvolume of gas / cm<sup>3 </sup>..........  ..........  40",
+     "solution_md": "a) The missing volumes are:\n\n2C<sub>4</sub>H<sub>10</sub> (g) +  13O<sub>2</sub> (g)  →  8CO<sub>2</sub> (g)  +  10H<sub>2</sub>O (g)\n\nvolume of gas / cm<sup>3    </sup>10;** [1 mark]**        65; **[1 mark]**  40\n\n**[Total: 2 marks]**\n\n- *In this question, 8 moles of carbon dioxide gas occupy 40 cm*<sup>*3*</sup>\n\n  - *Therefore, one mole of gas occupies 5 cm*<sup>*3*</sup>\n  - *There are 2 moles of butane gas, 2 x 5 = 10 cm*<sup>*3*</sup>\n  - *There are 13 moles of oxygen, 13 x 5 = 65 cm*<sup>*3*</sup>*  *"
+    },
+    {
+     "id": "qstnprt_gbh3Wv2w9YhSpwvG",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2012",
+      "number": "Ju31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_jFxmxcjbSWVF3CCs",
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "Butane reacts with chlorine to form two isomers of chlorobutane.\n\ni) What type of reaction is this?\n\n[1]\n\nii) Explain the term *isomer*.\n\n[2]\n\niii) Draw the structural formulae of these two chlorobutanes.\n\n[2]",
+     "solution_md": "b)\n\ni) The type of reaction is:\n\n- Chlorination / halogenation  \n**OR **\nSubstitution \n**OR **\nPhotochemical \n**OR **\nExothermic \n**OR **\nFree radical; **[1 mark]**\n\nii) The term isomer means compounds with:\n\n- The same molecular formula; **[1 mark]**\n- Different structural formula / structure / arrangement of atoms; **[1 mark]**\n\niii) The structural formulae of these two chlorobutanes are:\n\n- CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–Cl; **[1 mark]**\n- CH<sub>3</sub>–CH<sub>2</sub>–CH(Cl)–CH<sub>3</sub>; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *Alkanes are relatively unreactive chemicals *\n\n  - *They can react by a photochemical reaction *\n  - *The hydrogens of butane are swapped with chlorine atoms, so this reaction can also be described as substitution or chlorination / halogenation*\n- *As soon as you see the prefix iso-, you should think about same and different:*\n\n  - *Isomer - same molecular formula but different structural formula*\n  - *Isotope - same number of protons but different number of neutrons*\n- *If a hydrogen atom in butane is substituted by a chlorine atom, it can only happen on carbon 1 or carbon 2*\n\n  - *Substitution on carbon 3 is the mirror image of carbon 2*\n  - *Substitution on carbon 4 is the mirror image of carbon 1*"
+    },
+    {
+     "id": "qstnprt_5tgD3tNJgWVM2Cbc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2012",
+      "number": "Ju31",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WmryHNKGHBzfdg8V",
+      "spcpt_cDfTFF6Wy2cyyhKn"
+     ],
+     "part_tier": null,
+     "problem_md": "One of the chlorobutanes reacts with sodium hydroxide to form butan-1-ol. Butan-1-ol can be oxidised to a carboxylic acid.\n\ni) State a reagent, other than oxygen, which will oxidise butan-1-ol to a carboxylic acid.\n\n[1]\n\nii) Name the carboxylic acid formed.\n\n[1]\n\niii) Butan-1-ol reacts with ethanoic acid to form an ester. Name this ester and give its structural formula showing all the individual bonds.\n\nname ..........................................................................................................\n\n[1]\n\nstructural formula\n\n[2]",
+     "solution_md": "c)\n\ni) A reagent, other than oxygen, which will oxidise butan-1-ol to a carboxylic acid is:\n\n- Potassium manganate(VII) / Potassium dichromate(VI) / Copper(II) oxide; **[1 mark] **\n*Oxidation numbers / roman numerals are not required, however they ****must**** be correct if used*\n\nii) The carboxylic acid formed is:\n\n- Butanoic acid;; **[1 mark]**\n\niii) The name and structural formula of the ester formed when butan-1-ol reacts with ethanoic are:\n\nName:\n\n- Butyl ethanoate; **[1 mark]**\n\nStructural formula:\n\n![butyl-ethanoate-ester-highlight](assets/023-butyl-ethanoate-ester-highlight.png)\n\n- Correct ester linkage (as highlighted); **[1 mark]**\n- Correct overall structure; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *The most common reagent to oxidise an alcohol is (acidified) potassium dichromate(VI)*\n\n  - *Depending on the reaction conditions and the type of alcohol used, an aldehyde or ketone or carboxylic acid will be formed*\n- *The carboxylic acid formed will be based on the butan-1-ol used*\n\n  - *Therefore, the acid is butanoic acid*\n- *Naming and drawing esters is challenging*\n\n  - *The alcohol provides the first name and the acid provides the surname*\n  \n    - *Therefore, using butan-1-ol and ethanoic acid we get the ester butyl ethanoate*\n  - *When drawing:*\n  \n    - *The alcohol forms the portion after the -COO-*\n    - *The acid forms the portion before the -COO- but also includes the carbon of the -COO-*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_RWKhYmH8P5WvJst8",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_tmmWbgqmb6g5dc4K",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju42",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h",
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nPropane reacts with chlorine in a photochemical reaction as shown.\n\n$C_{3}H_{8}+\\mathrm{Cl}\\rightarrowC_{3}H_{7}\\mathrm{Cl}+\\mathrm{HCl}$\n\nDraw two structural isomers of compounds with the formula C<sub>3</sub>H<sub>7</sub>Cl.\n\nShow all of the atoms and all of the bonds.\n\n|   |   |\n|---|---|",
+     "solution_md": "a)  The two structural isomers of compounds with the formula C<sub>3</sub>H<sub>7</sub>Cl:\n\n![chloropropane-isomers](assets/024-chloropropane-isomers.png)\n\n- Each correct structure; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Structural isomers are compounds with the same molecular formula, but different structural formulae*",
+     "equations": [
+      {
+       "latex": "C_{3}H_{8}+\\mathrm{Cl}\\rightarrowC_{3}H_{7}\\mathrm{Cl}+\\mathrm{HCl}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>8</mn></msub><mo> </mo><mo>+</mo><mi>Cl</mi><mo> </mo><mo>→</mo><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>7</mn></msub><mi>Cl</mi><mo> </mo><mo>+</mo><mo> </mo><mi>HCl</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight C subscript 3 straight H subscript 8 space plus Cl space rightwards arrow straight C subscript 3 straight H subscript 7 Cl space plus space HCl"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_PKNztdGSHp4Dhzxm",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "name",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju42",
+      "question_number": 6,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "There are three functional groups in compound A.\n\n![q6c-0620-s20-qp-42](assets/025-q6c-0620-s20-qp-42.png)\n\nName the homologous series of compounds that contains the following structures.\n\nC=C       ............................... \n–OH       .............................. \n–COOH ...............................",
+     "solution_md": "b) The homologous series of compounds that contains the following structures:\n\n- Alkene; **[1 mark]**\n- Alcohols / alkanols;** [1 mark]**\n- Carboxylic acids / alkanoic acids;** [1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_bzvCmPdZHxs8jrr7",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju43",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_y6gGXXX3Cvm9YrGN"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThere are three functional groups in compound A. Name the homologous series of compounds that contains the following structures: C=C, –OH, –COOH. The structure shows: COOH and CH2OH groups attached to carbons: — C(COOH)(H) — C(CH2OH)(H) —\n\n#### Extended Only\n\nCompound A can be used as a single monomer to produce two different polymers.\n\nDraw one repeat unit of the addition polymer formed from compound A.",
+     "solution_md": "a) One repeat unit of the addition polymer formed from compound A:\n\n![ms6di-0620-s20-qp-42](assets/026-ms6di-0620-s20-qp-42.png)\n\n- Only one C-C shown in the chain; **[1 mark]**\n- Each C bonded to:\n\n–CH<sub>2</sub>OH / –COOH and H with no other atoms + extension bonds; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pWgyf49KHZkcqyZQ",
+   "set_slug": "theory-questions",
+   "order": 20,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 16,
+   "parts": [
+    {
+     "id": "qstnprt_y4yZB45X6sGHRKfs",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SgnGqsqVtztg5tqV",
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "Alkanes and alkenes are examples of hydrocarbons.\n\ni) What is meant by the term hydrocarbon?\n\n[1]\n\nii) Give the general formula of straight-chain\n\nalkanes.\n\nalkenes.\n\n[2]",
+     "solution_md": "a)\n\ni) A hydrocarbon is:\n\n- A compound containing carbon and hydrogen **only**; **[1 mark]**\n\nii) The general formulae are:\n\n- Alkanes: C<sub>n</sub>H<sub>2n+2</sub>; **[1 mark]**\n- Alkenes: C<sub>n</sub>H<sub>2n</sub>;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *The word 'only' is very important when defining hydrocarbons, you will not gain the mark if you do not include it!*\n- *This is because there are many compounds that contain carbon and hydrogen and other elements which are not classed as hydrocarbons*"
+    },
+    {
+     "id": "qstnprt_Xkbv2pZ3jPkhCfSk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rgYFJhx9jshyrjvG"
+     ],
+     "part_tier": null,
+     "problem_md": "A compound X contains carbon, hydrogen and oxygen only.\n\nX contains 54.54% of carbon by mass, 9.09% of hydrogen by mass and 36.37% of oxygen by mass.\n\ni) Calculate the empirical formula of compound X.\n\n[2]\n\nii) Compound X has a relative molecular mass of 88.\n\nDeduce the molecular formula of compound X.\n\n[2]",
+     "solution_md": "b)\n\ni) The empirical formula of compound X is found by:\n\n- (Moles of) C = 54.54/12 **OR **4.5 \n**AND** \n(Moles of) H = 9.09/1 **OR **9.09 \n**AND** \n(Moles of) O = 36.37/16 **OR **2.27; **[1 mark]**\n- Empirical formula: C<sub>2</sub>H<sub>4</sub>O; **[1 mark]**\n\nii) The molecular formula of compound X is found by:\n\n- *M*<sub>r</sub> of C<sub>2</sub>H<sub>4</sub>O = 44;** [1 mark]**\n- (88/44 = 2 therefore molecular formula is) C<sub>4</sub>H<sub>8</sub>O<sub>2</sub>;** [1 mark]**\n\n**[Total: 4 marks]**\n\n- *To calculate the empirical formula when given percentages, it is easiest to assume that you have 100 g of the sample, then you can work out the number of moles of each element in 100 g by using the **M*<sub>*r*</sub>*:*\n\n|   | > *C* | > *H* | > *O* |\n|---|---|---|---|\n| > *Calculate the number of moles of each element in 100g (%/**M*<sub>*r*</sub>*)* | $\\frac{54.54}{12}\\,=4.5$ | $\\frac{9.09}{1}\\,=9.09$ | $\\frac{36.37}{16}\\,=2.27$ |\n| > *Divide by the smallest number to find the smallest ratio* | > * 4.5/2.27 = 2* | > * 9.09/2.27 = 4* | > * 2.27/2.27 = 1* |\n\n- *The empirical formula is therefore C*<sub>*2*</sub>*H*<sub>*4*</sub>*O*\n- *Compound X has twice the** M*<sub>*r*</sub>* of the empirical formula, therefore compound X must contain twice the number of atoms that appears in the empirical formula*",
+     "equations": [
+      {
+       "latex": "\\frac{54.54}{12}\\,=4.5",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mo> </mo><mo> </mo><mo> </mo><mfrac><mrow><mn>54</mn><mo>.</mo><mn>54</mn></mrow><mn>12</mn></mfrac><mspace linebreak=\"newline\"/><mo>=</mo><mo> </mo><mn>4</mn><mo>.</mo><mn>5</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space space space fraction numerator 54.54 over denominator 12 end fraction\nequals space 4.5"
+      },
+      {
+       "latex": "\\frac{9.09}{1}\\,=9.09",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mo> </mo><mo> </mo><mo> </mo><mfrac><mrow><mn>9</mn><mo>.</mo><mn>09</mn></mrow><mn>1</mn></mfrac><mspace linebreak=\"newline\"/><mo>=</mo><mo> </mo><mn>9</mn><mo>.</mo><mn>09</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space space space fraction numerator 9.09 over denominator 1 end fraction\nequals space 9.09"
+      },
+      {
+       "latex": "\\frac{36.37}{16}\\,=2.27",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mo> </mo><mo> </mo><mo> </mo><mfrac><mrow><mn>36</mn><mo>.</mo><mn>37</mn></mrow><mn>16</mn></mfrac><mspace linebreak=\"newline\"/><mo>=</mo><mo> </mo><mn>2</mn><mo>.</mo><mn>27</mn></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "space space space fraction numerator 36.37 over denominator 16 end fraction\nequals space 2.27"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_jVjhKbWJkJZM4PfP",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WmryHNKGHBzfdg8V",
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nAn ester has the molecular formula C<sub>3</sub>H<sub>6</sub>O<sub>2</sub>.\n\nName and give the structural formulae of two esters with the molecular formula C<sub>3</sub>H<sub>6</sub>O<sub>2</sub>.\n\n| **Name of ester** |   |   |\n|---|---|---|\n| **Structural formula** |   |   |",
+     "solution_md": "c) The names and structural formulae of two esters with the molecular formula C<sub>3</sub>H<sub>6</sub>O<sub>2</sub> are:\n\n| **Name of ester** | methyl ethanoate; **[1 mark]** | ethyl methanoate;** [1 mark]** |\n|---|---|---|\n| **Structural formula** | CH<sub>3</sub>COOCH<sub>3</sub>;** [1 mark]** | HCOOC<sub>2</sub>H<sub>5</sub>; **[1 mark]** |\n\n**[Total: 4 marks]**\n\n- *Esters are produced from the reaction between an alcohol and a carboxylic acid (water is also formed)*\n- *There are two possibilities of producing an ester with 3 carbons:*\n\n  - *Where the alcohol provides 1 carbon (methanol) and the carboxylic acid provides 2 carbons (ethanoic acid), resulting in methyl ethanoate*\n  - *Where the alcohol provides 2 carbons (ethanol) and the carboxylic acid provides 1 carbon (methanoic acid), resulting in ethyl methanoate*\n- *The name of the ester takes the first part from the alcohol used and the second part from the carboxylic acid*"
+    },
+    {
+     "id": "qstnprt_pymwbkgpWDMk4w92",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "name",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WmryHNKGHBzfdg8V"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nName the ester produced from the reaction of propanoic acid and methanol.",
+     "solution_md": "d) The ester produced from the reaction of propanoic acid and methanol is:\n\n- Methyl propanoate; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The name of the ester takes the first part from the alcohol used and the second part from the carboxylic acid*\n\n  - *The alcohol is methanol, therefore the first part of the name is methyl*\n  - *The carboxylic acid is propanoic acid, therefore the second part of the name is propanoate*"
+    },
+    {
+     "id": "qstnprt_F9Dn9T9Ddv25ycqD",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ja42",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_SFDygBdRgfTgv9z3"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nA polyester is represented by the structure shown.\n\n![polyester-structure](assets/027-polyester-structure.png)\n\ni) What type of polymerisation is used for the production of polyesters?\n\n[1]\n\nii) Which simple molecule is removed when the polyester is formed?\n\n[1]\n\niii) Complete the diagrams below to show the structures of the monomers used to produce the polyester. Show all atoms and bonds.\n\n![polyester-monomers](assets/028-polyester-monomers.png)\n\n[2]",
+     "solution_md": "e)\n\ni) The type of polymerisation used for the production of polyesters is:\n\n- Condensation;** [1 mark]**\n\nii) The simple molecule removed when the polyester is formed is:\n\n- Water / H<sub>2</sub>O; **[1 mark]**\n\niii) The correct diagrams to show the structures of the monomers used to produce the polyester are:\n\n![polyester-monomers-answers](assets/029-polyester-monomers-answers.png)\n\n- Dicarboxylic acid;** [1 mark]** *Allow diacyl chloride for 1 mark*\n- Diol; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *Polyesters are made from dicarboxylic acid monomers (a carboxylic with a -COOH group at either end) and diols (alcohol with an -OH group at either end)*\n- *Remember:** Show the bonds between the O and H as the question asks you to show all of the bonds*\n- *Diacyl chlorides (similar to dicarboxylic acids but the -OH groups are replaced with -Cl) can also be used but these are not covered at this level*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_n2dbnwKT5xHYMg2D",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_j8RYPqTPT85tvTpd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen4",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h",
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "Alkynes and alkenes are homologous series of unsaturated hydrocarbons. All alkynes contain a C≡C triple bond.\n\nComplete Table 10.1 showing information about the first **three **alkynes.\n\n**Table 10.1**\n\n| formula | $C_{2}H_{2}$ | $C_{3}H_{4}$ |   |\n|---|---|---|---|\n| structure |   | $H-C\\equivC-\\mathrm{CH}_{3}$ | $H-C\\equivC-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}$ |\n| names | ethyne |   | but-1-yne |",
+     "solution_md": "a) The completed table is:\n\n| formula | $C_{2}H_{2}$ | $C_{3}H_{4}$ | C<sub>4</sub>H<sub>6</sub>; **[1 mark]** |\n|---|---|---|---|\n| structure | $H-C\\equivC-H$ | $H-C\\equivC-\\mathrm{CH}_{3}$ | $H-C\\equivC-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}$ |\n| names | ethyne | propyne; **[1 mark]** | but-1-yne |\n\n**[Total: 2 marks]**\n\n- *Alkynes take their name from the pattern alkan+ yne*\n- *A three carbon alkane would be propane, so the stem is prop*\n- *Although you are not expected to recall information about alkynes, all the information in this question can be deduced from your knowledge of alkenes*",
+     "equations": [
+      {
+       "latex": "C_{2}H_{2}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>2</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight C subscript 2 straight H subscript 2"
+      },
+      {
+       "latex": "C_{3}H_{4}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>4</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight C subscript 3 straight H subscript 4"
+      },
+      {
+       "latex": "H-C\\equivC-\\mathrm{CH}_{3}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">H</mi><mo>-</mo><mi mathvariant=\"normal\">C</mi><mo>≡</mo><mi mathvariant=\"normal\">C</mi><mo>-</mo><msub><mi>CH</mi><mn>3</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H minus straight C identical to straight C minus CH subscript 3"
+      },
+      {
+       "latex": "H-C\\equivC-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">H</mi><mo>-</mo><mi mathvariant=\"normal\">C</mi><mo>≡</mo><mi mathvariant=\"normal\">C</mi><mo>-</mo><msub><mi>CH</mi><mn>2</mn></msub><mo>-</mo><msub><mi>CH</mi><mn>3</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H minus straight C identical to straight C minus CH subscript 2 minus CH subscript 3"
+      },
+      {
+       "latex": "C_{2}H_{2}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>2</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 16px style C subscript 2 H subscript 2 end style"
+      },
+      {
+       "latex": "C_{3}H_{4}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi mathvariant=\"normal\">C</mi><mn>3</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>4</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 16px style C subscript 3 H subscript 4 end style"
+      },
+      {
+       "latex": "H-C\\equivC-H",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">H</mi><mo>-</mo><mi mathvariant=\"normal\">C</mi><mo>≡</mo><mi mathvariant=\"normal\">C</mi><mo>-</mo><mi mathvariant=\"normal\">H</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H minus straight C identical to straight C minus straight H"
+      },
+      {
+       "latex": "H-C\\equivC-\\mathrm{CH}_{3}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">H</mi><mo>-</mo><mi mathvariant=\"normal\">C</mi><mo>≡</mo><mi mathvariant=\"normal\">C</mi><mo>-</mo><msub><mi>CH</mi><mn>3</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H minus straight C identical to straight C minus CH subscript 3"
+      },
+      {
+       "latex": "H-C\\equivC-\\mathrm{CH}_{2}-\\mathrm{CH}_{3}",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><mi mathvariant=\"normal\">H</mi><mo>-</mo><mi mathvariant=\"normal\">C</mi><mo>≡</mo><mi mathvariant=\"normal\">C</mi><mo>-</mo><msub><mi>CH</mi><mn>2</mn></msub><mo>-</mo><msub><mi>CH</mi><mn>3</mn></msub></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight H minus straight C identical to straight C minus CH subscript 2 minus CH subscript 3"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zSX4Kvf4vFyS6yfn",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen4",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nCompounds in the same homologous series have the same general formula.\n\nGive two **other **characteristics of members of a homologous series.",
+     "solution_md": "b) Two **other **characteristics of members of a homologous series:\n\nAny **two **of the following:\n\n- Contain the same functional group; **[1 mark]**\n- Contain the same functional group; **[1 mark]**\n- Differ from one member to the next by a –CH2– unit; **[1 mark]**\n- Trend in physical properties; **[1 mark]**\n- Similar chemical properties; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_dt8PSWHBQrhtHBn9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen4",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_SgnGqsqVtztg5tqV"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAlkynes and alkenes are homologous series of unsaturated hydrocarbons. All alkynes contain a C≡C triple bond. Table 10.1 showing information about the first three alkynes: formula: C2H2, C3H4, C4H6; structure: H-C≡C-H, H-C≡C-CH3, H-C≡C-CH2-CH3; names: ethyne, propyne, but-1-yne.\n\n#### Separate: Chemistry Only\n\nDeduce the general formula of alkynes. Use the information from Table 10.1 to help you.",
+     "solution_md": "c)  The general formula of alkynes is:\n\n- C<sub>n</sub>H<sub>2n–2</sub>; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_Kffgc8Wghzp4fGKn",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen4",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_znn26bCY2Fpv8CZQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Alkynes are unsaturated.\n\nDescribe a test for unsaturation.\n\ntest   ........................\n\nresult ........................",
+     "solution_md": "d) Describing a test for unsaturation:\n\n- Test: Add a few drops of bromine water / aqueous bromine;** [1 mark]**\n- Result: Changes to colourless / decolourises;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *Bromine water is orange or yellow*\n- *When added to an unsaturated compound the bromine breaks the double bond and adds across the bond*\n- *The result is a colourless compound*"
+    },
+    {
+     "id": "qstnprt_VkFfKfhXvSbsRW9B",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen4",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nEthene and but-2-ene are alkenes. Draw the displayed formula of but-2-ene.",
+     "solution_md": "e) The displayed formula of but-2-ene.\n\n![but-2-ene](assets/030-but-2-ene.png)\n\n- A structure showing all the bonds for C<sub>4</sub>H<sub>8</sub>; **[1 mark]**\n- The double bond lies between the second and third carbon; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *There must be four carbon atoms and the double bond must be between the second and third carbons*"
+    },
+    {
+     "id": "qstnprt_KHTHyfMvqNQFRhbK",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen4",
+      "question_number": 6,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_7QFDs7HdjVHz3hh3"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nDraw a dot-and-cross diagram to show a molecule of ethene, CH<sub>2</sub>=CH<sub>2</sub>. Show outer shell electrons only.",
+     "solution_md": "f)  A dot-and-cross diagram to show a molecule of ethene, CH<sub>2</sub>=CH<sub>2</sub>:\n\n![1VxTzFC__ethene-dot-and-cross](assets/031-1vxtzfc-ethene-dot-and-cross.png)\n\n- One shared pair of electrons between each H and a C atom; **[1 mark]**\n- Two shared pairs of electrons between the C atoms and no other unpaired electrons; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *Carbon is in Group 4, so it must have four outer electrons and four bonds*\n- *Hydrogen has one outer electron*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mXfbhXHW8HQ29h7q",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_zDPH2bWVtkF4FcmK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju31",
+      "question_number": 8,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nMethanoic acid is the first member of the homologous series of carboxylic acids.\n\nGive **two **general characteristics of a homologous series.",
+     "solution_md": "a) **Two **general characteristics of a homologous series are:\n\nAny **two** from:\n\n- (Same) general (molecular) formula; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Consecutive members differ by –CH<sub>2</sub>; **[1 mark]**\n- Common methods of preparation; **[1 mark]**\n- Physical properties vary in a predictable way; **[1 mark]**\n- Similar / same chemical properties;** [1 mark]**\n\n**[Total: 2 marks]**\n\n- *Remember: **Chemicals in a homologous series have the same general formula but are slightly different in terms of how they are produced, their actual structure and their chemical properties *"
+    },
+    {
+     "id": "qstnprt_5ckyHkjtCbpz3TFj",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju31",
+      "question_number": 8,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_qfwhmmkgrtk422RQ",
+      "spcpt_KTcy6y55k5r9dsyn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nIn some areas when water is boiled, the inside of kettles become coated with a layer of calcium carbonate. This can be removed by adding methanoic acid.\n\ni) Complete the equation.\n\n............ HCOOH + CaCO<sub>3</sub> → Ca(HCOO)<sub>2</sub> + ................. + .................\n\n[2]\n\nii) Methanoic acid reacts with most metals above hydrogen in the reactivity series. Complete the word equation.\n\nzinc + methanoic acid → ............................................ + ............................................\n\n[2]\n\niii) Aluminium is also above hydrogen in the reactivity series.\n\nWhy does methanoic acid not react with an aluminium kettle?\n\n[1]",
+     "solution_md": "b)\n\ni) The completed equation is:\n\n**2**HCOOH + CaCO<sub>3</sub> → Ca(HCOO)<sub>2</sub> + **CO**<sub>**2**</sub> + **H**<sub>**2**</sub>**O**\n\n- Correct species; **[1 mark]**\n- Correct balancing; **[1 mark]**\n\nii) The completed word equation is:\n\nzinc + methanoic acid → **zinc methanoate** +** hydrogen**\n\n- Zinc methanoate; **[1 mark]**\n- Hydrogen; **[1 mark]**\n\niii) Methanoic acid does not react with an aluminium kettle because:\n\n- (Aluminium is) protected by <u>oxide</u> layer; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *Carboxylic acids will undergo typical acidic reactions, so the general equations for acids will apply*\n\n  - *metal carbonate + acid → salt + carbon dioxide + water*\n  - *metal + acid → salt + hydrogen*\n- *Carboxylic acids form salts which end in '-anoate'*\n- *Aluminium will not react despite it being high in the reactivity series because it reacts readily with oxygen, forming a protective layer of aluminium oxide which is very thin *\n- *This layer prevents reaction with water and dilute acids, so aluminium can behave as if it is unreactive*"
+    },
+    {
+     "id": "qstnprt_nN3znZZgNHWnF2nT",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2010",
+      "number": "Ju31",
+      "question_number": 8,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_TM7nqQNY64FxC6QT"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nMethanoic acid is the first member of the homologous series of carboxylic acids.\n\n#### Separate: Chemistry and Extended Only\n\nGive the name, molecular formula and empirical formula of the fourth acid in this series.\n\nname ..........................................................................................................\n\n[1]\n\nmolecular formula .......................................................................................................\n\n[1]\n\nempirical formula ........................................................................................................\n\n[1]",
+     "solution_md": "c) The name, molecular formula and empirical formula of the fourth acid in this series are:\n\n- Name: butanoic acid; **[1 mark]**\n- Molecular formula: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH / C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> / C<sub>3</sub>H<sub>7</sub>COOH / C<sub>4</sub>H<sub>7</sub>OOH; **[1 mark]**\n- Empirical formula: C<sub>2</sub>H<sub>4</sub>O; **[1 mark] ***Mark ecf to molecular formula*\n\n**[Total: 3 marks]**\n\n- *The molecular formula is the formula that shows the number and type of each atom in a molecule*\n- *The empirical formula is the simplest whole number ratio of the atoms of each element present in one molecule or formula unit of the compound*\n- *If the number of all of the atoms in the molecular formula are all divisible by the same whole number, then you can simplify the molecular formula:*\n\n  - *In C*<sub>*4*</sub>*H*<sub>*8*</sub>*O*<sub>*2*</sub>*, all the numbers can be divided by 2 to give the empirical formula of C*<sub>*2*</sub>*H*<sub>*4*</sub>*O*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_mDhGjYSGxw8dqjq3",
+   "set_slug": "theory-questions",
+   "order": 23,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_nFRtR58XqGWXpCcZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "O33",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY",
+      "spcpt_j8JtMXpfnSVvY5hz",
+      "spcpt_fVMpg2mgd2R6GRMr"
+     ],
+     "part_tier": null,
+     "problem_md": "Butane is oxidised to a mixture of carboxylic acids by oxygen in the presence of a catalyst. The acids formed are methanoic acid, ethanoic acid and propanoic acid – the first three members of the carboxylic acid homologous series.\n\ni) Give the name and structural formula of the fourth member of this series.\n\nname ..........................................................................................................\n\nstructural formula showing all the atoms and bonds\n\n[3]\n\nii) State **three **characteristics of a homologous series.\n\n[3]\n\niii) All members of this series are weak acids.\n\nWhat is meant by the term *weak acid*?\n\n[3]",
+     "solution_md": "a)\n\ni) The name and structural formula of the fourth member of this series are:\n\n- Name: butanoic acid / butyric acid; **[1 mark]**\n- Structural formula:\n\n![butanoic-acid-ms-black](assets/032-butanoic-acid-ms-black.png)\n\n;** [1 mark]**\n\nii) **Three **characteristics of a homologous series are:\n\nAny **three **of the following:\n\n- Same general formula; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Successive / consecutive members differ by CH<sub>2</sub>; **[1 mark]**\n- Same or similar chemical properties; **[1 mark]**\n- A gradual change / trend in physical properties\n**OR**\nAn example of a gradual change / trend in a physical property i.e. melting point / boiling point / volatility; **[1 mark]**\n\niii) The term *weak acid* means:\n\n- A proton / hydrogen ion / H<sup>+</sup> donor; **[1 mark]**\n- That partially / incompletely / slightly \n**OR**\nDoes not fully; **[1 mark]**\n- Dissociate / ionise / split up in aqueous solution / water; **[1 mark]**\n\n**[Total: 9 marks]**\n\n> **[exam-tip]**\n> For part (i), the carbon in the -COOH group counts as one of the four carbons in butanoic acid. A common mistake is drawing five carbons by adding four carbons to the functional group carbon.\n> \n> When asked for a structural formula, draw every bond line explicitly. It is good practice as sometimes writing -OH instead of -O-H will lose you a mark.\n> \n> For part (ii), write \"similar chemical properties,\" not \"same.\" Members undergo the same types of reactions but rates vary with molecular size. Write \"gradual change\" or \"trend\" for physical properties, not just \"different physical properties.\"\n> \n> For part (iii), \"partially dissociates\" scores 2 of the 3 marks on its own. To get the third, you must state that it is a proton / H⁺ donor. Do not confuse \"weak\" with \"dilute\" — dilute refers to concentration, weak refers to incomplete ionisation."
+    },
+    {
+     "id": "qstnprt_8KQfx9wJJtntcw3d",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "O33",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_WmryHNKGHBzfdg8V"
+     ],
+     "part_tier": null,
+     "problem_md": "Carboxylic acids react with alcohols to form esters. Ethanol reacts with ethanoic acid to form the ester ethyl ethanoate, CH<sub>3</sub>COOCH<sub>2</sub>CH<sub>3</sub>.\n\ni) Give the name and formula of the ester which is formed from methanol and propanoic acid.\n\nname ..........................................................................................................\n\nformula ..........................................................................................................\n\n[2]\n\nii) What is the name of the ester which has the formula CH<sub>3</sub>COOCH<sub>3</sub>?\n\n[1]",
+     "solution_md": "b)\n\ni) The name and formula of the ester which is formed from methanol and propanoic acid are:\n\n- Name: methyl propanoate; **[1 mark]**\n- Formula: CH<sub>3</sub>CH<sub>2</sub>COOCH<sub>3</sub> / CH<sub>3</sub>CH<sub>2</sub>CO<sub>2</sub>CH<sub>3</sub> / C<sub>2</sub>H<sub>5</sub>COOCH<sub>3</sub> / C<sub>2</sub>H<sub>5</sub>CO<sub>2</sub>CH<sub>3</sub>; **[1 mark]**\n\nii) The name of the ester which has the formula CH<sub>3</sub>COOCH<sub>3</sub> is:\n\n- Methyl ethanoate; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Naming esters is always challenging*\n\n  - *The alcohol provides the first name and the acid provides the surname, for example:*\n  - *Methanol becomes methyl*\n  - *Propanoic acid becomes propanoate*\n  - *The ester is called methyl propanoate*\n- *When you are given the formula of an ester:*\n\n  - *The number of carbons after the COO is the first name*\n  - *The number of carbon before the COO is the surname but make sure you include the carbon in the COO*\n  - *In  the CH*<sub>*3*</sub>*COOCH*<sub>*3*</sub>* example:*\n  \n    - *There is a CH*<sub>*3*</sub>* after the COO - 1 carbon = methyl*\n    - *There are 2 carbons before (and including) the COO = ethyl*\n    - *The ester is called methyl ethanoate*"
+    },
+    {
+     "id": "qstnprt_GS4GcYTB87pz4h6S",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "O33",
+      "question_number": 7,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MQrwDm2SwKxcVVHC",
+      "spcpt_cDfTFF6Wy2cyyhKn"
+     ],
+     "part_tier": null,
+     "problem_md": "i) Complete the equation for the oxidation of butane to propanoic acid.\n\n3C<sub>4</sub>H<sub>10</sub> + .........O<sub>2</sub> → 4C<sub>2</sub>H<sub>5</sub>COOH + .......H<sub>2</sub>O\n\n[1]\n\nii) Name another compound which can be oxidised to propanoic acid.\n\n[1]",
+     "solution_md": "c)\n\ni) The balanced equation for the oxidation of butane to propanoic acid is:\n\n- 3C<sub>4</sub>H<sub>10</sub> + **5.5**O<sub>2</sub> → 4C<sub>2</sub>H<sub>5</sub>COOH + **3**H<sub>2</sub>O; **[1 mark] **\n\nii) Another compound which can be oxidised to propanoic acid is:\n\n- Propanol / propan-1-ol **OR **Propanal; **[1 mark] **\n\n**[Total: 2 marks]**\n\n- *Balancing equations is a skill that you should practice because it often comes up in exams*\n\n  - *A balanced equation can also be the starting point of several calculations*\n- *The method given to form propanoic acid in this question is quite unusual*\n\n  - *It is more common to use an oxidising agent such as acidified potassium dichromate(VI) to form the acid from either the alcohol or aldehyde*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_kQYb9VpngxZ9JYCc",
+   "set_slug": "theory-questions",
+   "order": 19,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_QzsBhwFHh3kQnwCP",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju31",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of myrcene is shown.\n\n![q7_0620-s20-qp-31_cie-igcse-chemistry](assets/033-q7-0620-s20-qp-31-cie-igcse-chemistry.png)\n\nDeduce the formula of myrcene to show the number of atoms of carbon and hydrogen.",
+     "solution_md": "a) The formula of myrcene showing the number of atoms of carbon and hydrogen is:\n\n- C<sub>10</sub>H<sub>16</sub>; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_Y3phQp8JQBMJsZfd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju31",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_znn26bCY2Fpv8CZQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Myrcene is an unsaturated hydrocarbon. Describe a chemical test to distinguish between a saturated and an unsaturated hydrocarbon.\n\ntest ................................... \nobservations with saturated hydrocarbon ............................................. \nobservations with unsaturated hydrocarbon .........................................",
+     "solution_md": "b)  A chemical test to distinguish between a saturated and an unsaturated hydrocarbon:\n\n- Bromine / bromine water / aqueous bromine; **[1 mark]**\n- With saturated hydrocarbon: no colour change / stays orange; **[1 mark]**\n- With unsaturated hydrocarbon: decolourised / (goes) colourless; **[1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_Dvht2KFbNH6rtYw9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju31",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "Butane is a saturated hydrocarbon.\n\nTo which homologous series does butane belong?\n\nDraw a circle around the correct answer.\n\n**alcohol                    alkane                   alkene                   carboxylic acid**",
+     "solution_md": "c) The homologous series to which butane belongs:\n\n![alkane](assets/034-alkane.png)\n\n- Correct homologous series circled; **[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KpCbJs9SPRKTD8T2",
+   "set_slug": "theory-questions",
+   "order": 18,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_pQ5kcj5t4wNNjSMK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju41",
+      "question_number": 5,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "The structures of five alkenes, A, B, C, D and E, are shown.\n\n![q5-0620_s19_qp_41](assets/035-q5-0620-s19-qp-41.png)\n\nWhat is the general formula of alkenes?",
+     "solution_md": "a) The general formula of alkene:\n\n- C<sub>n</sub>H<sub>2n</sub>; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Choose any of the structures and work out the C to H ratio, then check the answer against one of the others to be sure you have it right*"
+    },
+    {
+     "id": "qstnprt_bykPzkbrVTbfxdV4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju31",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_T55krCGQvzKt8RYD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structures of five alkenes, A, B, C, D and E, are shown. ![q5-0620_s19_qp_41]\n\n#### Extended Only\n\nTwo different alcohols can be produced from alkene **B** by an addition reaction.\n\n![q5f-0620_s19_qp_41](assets/036-q5f-0620-s19-qp-41.png)\n\nDraw the structures of the **two **alcohols. Show all of the atoms and all of the bonds.",
+     "solution_md": "b) The structures of the **two **alcohols:\n\n![propan-1-ol-and-propan-2-ol](assets/037-propan-1-ol-and-propan-2-ol.png)\n\n- Correct structure of propan-1-ol; **[1 mark]**\n- Correct structure of propan-2-ol;** [1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_hdPGKFznPSvHNkvG",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_X5xvggkfG2S7cCXK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "O32",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w",
+      "spcpt_j8JtMXpfnSVvY5hz",
+      "spcpt_4TV53pyBRWZWJM6H"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nA hydrocarbon has the following structural formula.\n\n![cyclobutane-displayed-black](assets/038-cyclobutane-displayed-black.png)\n\ni) State the molecular formula and the empirical formula of this hydrocarbon.\n\nmolecular formula ........................................................\n\nempirical formula ........................................................\n\n[2]\n\nii) Draw the structural formula of an isomer of the above hydrocarbon.\n\n[1]\n\niii) Explain why these two hydrocarbons are isomers.\n\n[2]\n\niv) Are these two hydrocarbons members of the same homologous series? Give a reason for your choice.\n\n[1]",
+     "solution_md": "a)\n\ni) The formulae of this compound are:\n\n- Molecular: C<sub>4</sub>H<sub>8</sub>; **[1 mark]**\n- Empirical: CH<sub>2</sub>; **[1 mark]**\n\nii) The structural formula of an isomer of the hydrocarbon is:\n\nAny **one **of the following:\n\n- Structural formula of methyl cyclopropane, e.g. (CH<sub>2</sub>)<sub>2</sub>CHCH<sub>3</sub> **OR** ![methyl-cyclopropane](assets/039-methyl-cyclopropane.png) ; **[1 mark]  **\n- Structural formula of but-1-ene, e.g. CH<sub>2</sub>CHCH<sub>2</sub>CH<sub>3</sub> **OR** ![but-1-ene](assets/040-but-1-ene.png) ;** [1 mark]  **\n- Structural formula of but-2-ene, e.g. CH<sub>3</sub>CHCHCH<sub>3</sub> **OR** ![but-2-ene](assets/041-but-2-ene.png) ; **[1 mark]  **\n- Structural formula of methylpropene, e.g. CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub> **OR** ![methylpropene](assets/042-methylpropene.png) ; **[1 mark]**\n\niii) These two hydrocarbons are isomers because:\n\n- They have the same molecular formula; **[1 mark]**\n- But different structural formulae / different structures / different arrangement of atoms; **[1 mark]**\n\niv) Explanation of whether these two hydrocarbons belong to the same homologous series:\n\nIf but-1-ene, but-2-ene or methylpropene is given in part (iii):\n\n- No **AND **one is an alkane while the other is an alkene\n**OR **\nNo **AND **one if saturated / has single bonds while the other is unsaturated / has a double bond;** [1 mark]**\n\nIf methyl cyclopropane is given in part (iii):\n\n- Yes **AND **both are alkanes  \n**OR **\nYes **AND **both are saturated / have single bonds;** [1 mark]**\n\n**[Total: 6 marks]**\n\n- *This question relies on your knowledge of certain facts:*\n\n  - *Molecular formulae show the actual ratio of different atoms in a chemical*\n  - *Empirical formulae show the simplest ratio of different atoms in a chemical*\n  - *Structural formulae show the atoms in such a way that the structure is shown, they can be simple or displayed*\n  - *Isomers are chemicals with the same molecular formula but a different arrangement of atoms / structural formula*\n  - *Homologous series is a series of chemicals that have the same functional groups / features and undergo similar reactions*"
+    },
+    {
+     "id": "qstnprt_fQ5fXJb3c6QJcMxh",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "O32",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_57VkQzhsgvqF5Hkf"
+     ],
+     "part_tier": null,
+     "problem_md": "Alkenes can be made from alkanes by cracking.\n\ni) Explain the term *cracking*.\n\n[2]\n\nii) One mole of an alkane, when cracked, produced one mole of hexane, C<sub>6</sub>H<sub>14</sub>, and two moles of ethene.\n\nWhat is the molecular formula of the original alkane?\n\n[1]",
+     "solution_md": "b)\n\ni) Cracking is:\n\n- Using heat / catalyst to breakdown an alkane \n**OR **\nThermal decomposition of an alkane; **[1 mark]** \n*Steam and pressure are ignored*\n- Long-chained molecules / alkanes form smaller molecules / alkanes / alkenes; **[1 mark]** \n*Smaller fraction is not accepted*\n\nii) The molecular formula of the original alkane is:\n\n- C<sub>10</sub>H<sub>22</sub>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Cracking is the process of producing more useful / shorter chain / higher demand hydrocarbons from longer chain hydrocarbons*\n- *Hexane has the formula C*<sub>*6*</sub>*H*<sub>*14*</sub>* and ethene has the formula C*<sub>*2*</sub>*H*<sub>*4*</sub>\n\n  - *You are told that the original alkane cracks to form one hexane and two ethenes*\n  - *C*<sub>*6*</sub>*H*<sub>*14*</sub>* + C*<sub>*2*</sub>*H*<sub>*4*</sub>* + C*<sub>*2*</sub>*H*<sub>*4*</sub>* → C*<sub>*10*</sub>*H*<sub>*22*</sub>"
+    },
+    {
+     "id": "qstnprt_Qk2XgK2spms7vzVk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "O32",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_y6gGXXX3Cvm9YrGN"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nAlkenes are used in polymerisation reactions and addition reactions.\n\ni) Draw the structural formula of the product formed by the addition polymerisation of but-2-ene. Its formula is given below.\n\n![but-2-ene-exam-q-structure](assets/043-but-2-ene-exam-q-structure.png)\n\n[3]\n\nii) Give the name and structural formula of the addition product formed from ethene and bromine.\n\nname ..............................................................\n\nstructural formula ..............................................................\n\n[2]",
+     "solution_md": "c)\n\ni) The structural formula of the product formed by the addition polymerisation of but-2-ene is:\n\n![polybut-2-ene-ms-black](assets/044-polybut-2-ene-ms-black.png)\n\n- Correct repeat unit structure; **[1 mark]**\n- Continuation bonds;** [1 mark]**\n- Brackets and subscript ‘n’; **[1 mark]**\n\nii) The name and structural formula of the addition product formed from ethene and bromine are:\n\n- Name: dibromoethane / 1,2-dibromoethane; **[1 mark]**\n- Structural formula: ![1-2-dibromoethane-ms-black](assets/045-1-2-dibromoethane-ms-black.png) ; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *Remember:** The C=C double bond breaks open to form a C-C single bond and continuation bonds on either side*\n- *Bromine adds \"across\" the C=C double bond which means that each carbon will have a bromine atom and a C-C single bond *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_gnCQKmzJz7gKyJ32",
+   "set_slug": "theory-questions",
+   "order": 17,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_Fj8SFTXg6hFFsNw6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of compound S is shown.\n\n![qp5qASid_q5-0620_s19_qp_33](assets/046-qp5qasid-q5-0620-s19-qp-33.png)\n\nDraw a circle around the carboxylic acid functional group in this structure.",
+     "solution_md": "a)  The carboxylic acid functional group in this structure:\n\n![compound-s](assets/047-compound-s.png)\n\n- Circle around COOH group only;** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_tjNY9rCZBBbn8vFB",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "how",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju33",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structure of compound S is shown.\n\nHow many different **types **of atom are shown in this structure?",
+     "solution_md": "b) The number of different **types **of atom that are shown in this structure is:\n\n- 3; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The three different types of atom are carbon, hydrogen and oxygen*"
+    },
+    {
+     "id": "qstnprt_8qzxN2zZQDDFVN5v",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju41",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "Ethanol can be converted into ethene by passing ethanol vapour over a catalyst of aluminium oxide.\n\n$C_{2}H_{5}\\mathrm{OH}\\rightarrowC_{2}H_{4}+X$\n\nDraw the structure of a molecule of ethanol. Show all of the atoms and all of the bonds.",
+     "solution_md": "c) The structure of a molecule of ethanol:\n\n![Ethanol displayed formula](assets/048-ethanol-displayed-formula.jpeg)\n\n- Correct structure showing all the bonds; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *Don't forget the O-H bond here- it's an easy mark to lose if you are not careful*",
+     "equations": [
+      {
+       "latex": "C_{2}H_{5}\\mathrm{OH}\\rightarrowC_{2}H_{4}+X",
+       "mathml": "<math style=\"font-family:Arial\" class=\"wrs_chemistry\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"16px\"><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>5</mn></msub><mi>OH</mi><mo> </mo><mo>→</mo><mo> </mo><msub><mi mathvariant=\"normal\">C</mi><mn>2</mn></msub><msub><mi mathvariant=\"normal\">H</mi><mn>4</mn></msub><mo> </mo><mo>+</mo><mi mathvariant=\"normal\">X</mi></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "straight C subscript 2 straight H subscript 5 OH space rightwards arrow space straight C subscript 2 straight H subscript 4 space plus straight X"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_d24hFVgyKHvG36DY",
+   "set_slug": "theory-questions",
+   "order": 25,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_VcFjKYh6NXcxngt2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju41",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "The table shows some information about aldehydes.\n\nComplete the table.\n\n| name | .......................... | ethanal | propanal | butanal |\n|---|---|---|---|---|\n| molecular formula | CH<sub>2</sub>O | C<sub>2</sub>H<sub>4</sub>O | C<sub>3</sub>H<sub>6</sub>O | ................... |",
+     "solution_md": "a)  Completing the table about aldehydes:\n\n| name | methanal;** [1 mark]** | ethanal | propanal | butanal;** [1 mark]** |\n|---|---|---|---|---|\n| molecular formula | CH<sub>2</sub>O | C<sub>2</sub>H<sub>4</sub>O | C<sub>3</sub>H<sub>6</sub>O | C<sub>4</sub>H<sub>8</sub>O |\n\n**[Total: 2 marks]**\n\n- *Aldehydes are not a specific organic group that you have to learn, but in this question you can use you knowledge of a homologous series to deduce the answers*\n- *You can see the formula increases by one carbon and two hydrogens each time*\n- *This is sometimes called the homologous increment*"
+    },
+    {
+     "id": "qstnprt_DjtygyRHd5fYZys3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju41",
+      "question_number": 5,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe table shows some information about aldehydes.\n\n| name | methanal | ethanal | propanal | butanal |\n| molecular formula | CH2O | C2H4O | C3H6O | C4H8O |\n\nDeduce the general formula of aldehydes.",
+     "solution_md": "b) The general formula of aldehydes:\n\n- C<sub>n</sub>H<sub>2n</sub>O; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The general formula means expressing the number of atoms with respect to the number of carbons, which is given the symbol, n*\n- *You can see from the table that the number of hydrogen is always double the number of carbons in aldehydes*"
+    },
+    {
+     "id": "qstnprt_Qs4XGHVygdpNqZW5",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju41",
+      "question_number": 5,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY"
+     ],
+     "part_tier": null,
+     "problem_md": "The structural formula of ethanal is shown.\n\n![Zm7YJV~p_q5e_0620-s20-qp-41_cie-igcse-chemistry](assets/049-zm7yjv-p-q5e-0620-s20-qp-41-cie-igcse-chemistry.png)\n\nThe C=O group in aldehydes is at the end of the carbon chain. This is a reactive part of the molecule.\n\nWhat is the name given to the reactive part of any organic molecule?",
+     "solution_md": "c)  The name given to the reactive part of any organic molecule:\n\n- Functional group; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_j8XMJZTY77tdQjQn",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju41",
+      "question_number": 5,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "Propanone belongs to a homologous series called ketones. Ketones have the same C=O group as aldehydes but the C=O group is not at the end of the carbon chain. Propanone has the same molecular formula as propanal, C<sub>3</sub>H<sub>6</sub>O.\n\nWhat term is used to describe molecules with different structures but with the same molecular formula?",
+     "solution_md": "d) The term is used to describe molecules with different structures but with the same molecular formula?\n\n- (Structural) isomers; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The word structural is not needed to score the mark*"
+    },
+    {
+     "id": "qstnprt_SnJVyqynXXKnrhmB",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju42",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropanone belongs to a homologous series called ketones. Ketones have the same C=O group as aldehydes but the C=O group is not at the end of the carbon chain. Propanone has the same molecular formula as propanal, C~3~H~6~O.\n\nSuggest the structure of propanone, C<sub>3</sub>H<sub>6</sub>O. Show all of the atoms and all of the bonds.",
+     "solution_md": "e)  The structure of propanone, C<sub>3</sub>H<sub>6</sub>O. Show all of the atoms and all of the bonds.\n\n![propanone](assets/050-propanone.png)\n\n- Any structure with correct number of bonds on each atom and formula of C<sub>3</sub>H<sub>6</sub>O; **[1 mark]**\n- The C=O bond is on second carbon (of a chain of 3); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *Make sure you learn the number of bonds that should be around each atom ( also called the valencies)*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Cx5Dp3Vt424qC5qt",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 15,
+   "parts": [
+    {
+     "id": "qstnprt_NjY9DysgrWPfRhYx",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2013",
+      "number": "O33",
+      "question_number": 6,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w",
+      "spcpt_MQrwDm2SwKxcVVHC"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe alcohols form a homologous series. The first five members are given in the table below.\n\n| alcohol | formula | heat of combustion in kJ / mol |\n|---|---|---|\n| methanol | CH<sub>3</sub>OH | 730 |\n| ethanol | CH<sub>3</sub>–CH<sub>2</sub>–OH | 1380 |\n| propan-1-ol |   |   |\n| butan-1-ol | CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–OH | 2680 |\n| pentan-1-ol | CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–OH | 3350 |\n\ni) Complete the table.\n\n[2]\n\nii) Complete the equation for the combustion of pentan-1-ol in excess oxygen.\n\nC<sub>5</sub>H<sub>11</sub>OH + .......O<sub>2</sub> → ..................... + .....................\n\n[1]",
+     "solution_md": "a)\n\ni) The completed table is:\n\n| alcohol | formula | heat of combustion in kJ / mol |\n|---|---|---|\n| methanol | CH<sub>3</sub>OH | 730 |\n| ethanol | CH<sub>3</sub>–CH<sub>2</sub>–OH | 1380 |\n| propan-1-ol | **CH**<sub>**3**</sub>**–CH**<sub>**2**</sub>**–CH**<sub>**2**</sub>**–OH**; **[1 mark]** | **Value in the range of 2030 - 2050**; **[1 mark]** |\n| butan-1-ol | CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–OH | 2680 |\n| pentan-1-ol | CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–OH | 3350 |\n\nii) The completed equation for the combustion of pentan-1-ol in excess oxygen is:\n\n- C<sub>5</sub>H<sub>11</sub>OH + 7.5O<sub>2</sub> → 5CO<sub>2</sub> + 6H<sub>2</sub>O;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *The mark for the missing formula can be achieved by spotting the pattern in the formula, which is gaining a CH*<sub>*2*</sub>* as you move down the alcohols*\n- *The heat of combustion should be a value in between the values for ethanol and butan-1-ol, e.g. *$\\frac{(1380+2680)}{2}$* = 2030 kJ / mol*\n- *To balance the equation:*\n\n  - *You are told that it is excess oxygen, which means that you are looking at complete combustion*\n  - *5 carbons on the reactants side will form 5 carbon dioxide*\n  \n    - *C*<sub>*5*</sub>*H*<sub>*11*</sub>*OH + .......O*<sub>*2*</sub>* → 5CO*<sub>*2*</sub>* + ..........*\n  - *12 hydrogens on the reactants side will form 6 waters*\n  \n    - *C*<sub>*5*</sub>*H*<sub>*11*</sub>*OH + .......O*<sub>*2*</sub>* → 5CO*<sub>*2*</sub>* + 6H*<sub>*2*</sub>*O*\n  - *This means that you now have 16 oxygen atoms on the product side There is one oxygen atom in the alcohol, which means that 15 more oxygen atoms need to be accounted for The \"missing\" oxygen atoms come from the O*<sub>*2*</sub>* / oxygen molecule, which means that you need *$\\frac{15}{2}$* or 7.5 oxygen molecules*\n  \n    - *C*<sub>*5*</sub>*H*<sub>*11*</sub>*OH + 7.5O*<sub>*2*</sub>* → 5CO*<sub>*2*</sub>* + 6H*<sub>*2*</sub>*O*",
+     "equations": [
+      {
+       "latex": "\\frac{(1380+2680)}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mrow><mo>(</mo><mn>1380</mn><mo>+</mo><mn>2680</mn><mo>)</mo></mrow><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator left parenthesis 1380 plus 2680 right parenthesis over denominator 2 end fraction"
+      },
+      {
+       "latex": "\\frac{15}{2}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>15</mn><mn>2</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "begin mathsize 14px style 15 over 2 end style"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_KX2RB7vpqhQNdfm3",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2013",
+      "number": "O33",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY",
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nState **three **characteristics of a homologous series other than the variation of physical properties down the series.",
+     "solution_md": "b) **Three **characteristics of a homologous series other than the variation of physical properties down the series are:\n\nAny **three** of the following:\n\n- Same general formula; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Similar chemical properties; **[1 mark]**\n- Same methods of preparation; **[1 mark]**\n- Consecutive members differ by CH<sub>2</sub>; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Remember: **Chemicals in a homologous series have the same general formula but are slightly different in terms of how they are produced, their actual structure and their chemical properties *"
+    },
+    {
+     "id": "qstnprt_NNc4rj8zvwDqzcGW",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2013",
+      "number": "O33",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe following alcohols are isomers.\n\nCH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–OH   and   (CH<sub>3</sub>)<sub>2</sub>CH–CH<sub>2</sub>–OH\n\ni) Explain why they are isomers.\n\n[2]\n\nii) Draw the structural formula of another isomer of the above alcohols.\n\n[1]",
+     "solution_md": "c)\n\ni) They are isomers because they:\n\n- Have the same molecular formula; **[1 mark]**\n- But, different structures / different structural formulae / different arrangements of atoms; **[1 mark]**\n\nii) The structural formula of another isomer is:\n\n- CH<sub>3</sub>–CH<sub>2</sub>–CH(OH)–CH<sub>3</sub>  \n**OR **\n(CH<sub>3</sub>)<sub>3</sub>C–OH;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *You should know and be able to apply the definition of an isomer*\n- *Tip: **When you are looking for isomers, it can help to draw the molecule out and look at moving the OH functional group or seeing if you can form an alternative carbon backbone *"
+    },
+    {
+     "id": "qstnprt_SXcKj5drm8z28PwF",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2013",
+      "number": "O33",
+      "question_number": 6,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_VcPXRNFPNFRYJtMh",
+      "spcpt_S6xxPdtkW4RG4jcm"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nAlcohols can be made by fermentation and from petroleum.\n\ni) Ethanol is made from sugars by fermentation.\n\nC<sub>6</sub>H<sub>12</sub>O<sub>6</sub> → 2C<sub>2</sub>H<sub>5</sub>OH + 2CO<sub>2</sub>\n\nThe mass of one mole of glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, is 180 g.\n\nCalculate the maximum mass of ethanol which could be obtained from 72 g of glucose.\n\n[3]\n\nii) Describe how ethanol is made from petroleum.\n\n**petroleum (alkanes) → ethene → ethanol**\n\n** **[3]",
+     "solution_md": "d)\n\ni) The maximum mass of ethanol that can be obtained from 72 g of glucose is:\n\nOption 1:\n\n- Moles of glucose: $\\frac{72}{180}$ = 0.4; **[1 mark]**\n- Maximum number of moles ethanol: 0.8; **[1 mark]**\n- Maximum mass of ethanol *M*<sub>r</sub> = 46 g \n**AND ** 0.8 × 46 = 36.8 g; **[1 mark]**\n\nOption 2:\n\n- 180 (g) produces 2 × 46 = 92 (g); **[1 mark]**\n- (72 (g) produces) $\\frac{72}{180}$ × 92; **[1 mark]**\n- 36.8 (g); **[1 mark]**\n\nii) Ethanol is made from petroleum by:\n\n- Cracking (petroleum or alkane); **[1 mark]**\n- Then reacting the ethene formed with water / hydrate (ethene to make ethanol); **[1 mark]**\n\nConditions:\n\n**   One **of the following conditions for cracking:\n\n- Temperature of 450 <sup>o</sup>C - 800 <sup>o</sup>C; **[1 mark]**\n\n  - (Catalyst) zeolites / aluminosilicates / silica / aluminium oxide / alumina / china / broken pot / chromium oxide; **[1 mark]**\n\n**   OR**\n\n**One** of the following conditions for hydration:\n\n- Temperature of 300 <sup>o</sup>C; **[1 mark] **\n\n  - Pressure of 60 atmospheres; **[1 mark]**\n  - Phosphoric acid (catalyst); **[1 mark]**\n\n**[Total: 6 marks]**\n\n- *To calculate the maximum mass of ethanol that can be produced, you need to determine the number of moles of ethanol that can be produced by 72 g of glucose*\n\n  - *This can be done by working out the number of moles in 72 g of glucose *\n  - *Then you use the equation to see that 1 glucose reacts to form 2 ethanol*\n  - *Therefrore, the number of moles of ethanol will be double the number of moles of glucose*\n  - *Finally, you multiply the number of moles of ethanol by the **M*<sub>*r*</sub>* of ethanol*\n- *Part (ii) requires you to recognise that the first reaction is cracking to form ethene and the second step is hydration of ethene*\n\n  - *Since this question is for 3 marks, you need to add some more information so the conditions for cracking or hydration would be a sensible idea*",
+     "equations": [
+      {
+       "latex": "\\frac{72}{180}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>72</mn><mn>180</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "72 over 180"
+      },
+      {
+       "latex": "\\frac{72}{180}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mstyle mathsize=\"14px\"><mfrac><mn>72</mn><mn>180</mn></mfrac></mstyle><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "72 over 180"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_CQM7vVBG2fdBpvp8",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_krWyky2zVx7mVFzr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 8,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY",
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe alcohols form a homologous series.\n\nGive **three **characteristics of a homologous series.",
+     "solution_md": "a) **Three **characteristics of a homologous series are:\n\nAny **three **of the following:\n\n- Same general formula; **[1 mark]**\n- Consecutive members differ by CH<sub>2</sub>; **[1 mark]**\n- Similar chemical properties; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Physical properties vary in a predictable way / give trends such as mp increases with n; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *You need to know what a homologous series is and how this affects the properties of the chemicals within  a homologous series*"
+    },
+    {
+     "id": "qstnprt_ShtVG2Gkfq8gHnrv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 8,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe following two alcohols are members of an homologous series and they are isomers.\n\nCH<sub>3</sub>―CH<sub>2</sub>―CH<sub>2</sub>―CH<sub>2</sub>―OH   and   (CH<sub>3</sub>)<sub>2</sub>CH―CH<sub>2</sub>―OH\n\ni) Explain why they are isomers.\n\n[2]\n\nii) Deduce the structural formula of another alcohol which is also an isomer of these alcohols.\n\n[1]",
+     "solution_md": "b)\n\ni) They are isomers because:\n\n- They have the same molecular formula; **[1 mark]** *General formula is not accepted*\n- But different structures / structural formulae / different arrangement of atoms;** [1 mark]**\n\nii) The structural formula of another alcohol which is an isomer of these alcohols is:\n\n- CH<sub>3</sub>-CH<sub>2</sub>-CH(OH)-CH<sub>3</sub> \n**OR **\n(CH<sub>3</sub>)<sub>3</sub>-C-OH; **[1 mark]** *The names butan-2-ol and 2-methylpropan-2-ol are accepted*\n\n**[Total: 3 marks]**\n\n- *You must know the definition of an isomer*\n- *To identify isomers you should look at moving the functional group to another carbon, e.g. butan-2-ol, or seeing if you break and branch the chain, e.g. 2-methylpropan-2-ol*"
+    },
+    {
+     "id": "qstnprt_MDtQMbRqNhgBNX3K",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "Sp4",
+      "question_number": 8,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w",
+      "spcpt_cDfTFF6Wy2cyyhKn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nCopper(II) oxide can oxidise butanol to liquid X, whose pH is 4.\n\nThe name of another reagent which can oxidise butanol is:\n- (Acidified) potassium manganate(VII) \nOR\nOxygen / air \nOR\n(Acidified) potassium chromate(VI)\n\nThe homologous series that liquid X belongs to is:\n- Carboxylic acid; *Aldehyde / ketone are acceptable answers*\n\nThe formula of liquid X is:\n- CH3CH2CH2COOH / C3H7COOH / C4H8O2 / C4H7OOH; *Error carried forward from part (ii) is allowed, so the chemical formulae of butanal and butanone are accepted answers*\n\nAlcohols are oxidised to aldehydes / ketones and can be further oxidised to carboxylic acids. Since the parent alcohol is butanol:\n- The aldehyde will be butanal / CH3CH2CH2CHO\n- The ketone will be butanone / CH3COCH2CH3\n- The carboxylic acid will be butanoic acid / CH3CH2CH2COOH\n- The most common reagents for this oxidation are acidified potassium manganate(VII) solution and acidified potassium dichromate(VI) solution\n\n#### Separate: Chemistry and Extended Only\n\nCopper(II) oxide can oxidise butanol to liquid **X**, whose pH is 4.\n\n![oxidation-of-butanol-equipment](assets/051-oxidation-of-butanol-equipment.png)\n\ni) Give the name of another reagent which can oxidise butanol.\n\n[1]\n\nii) Which homologous series does liquid **X** belong to?\n\n[1]\n\niii) State the formula of liquid **X**.\n\n[1]",
+     "solution_md": "c)\n\ni) The name of another reagent which can oxidise butanol is:\n\n- (Acidified) potassium manganate(VII) \n**OR **\nOxygen / air \n**OR** \n(Acidified) potassium chromate(VI); **[1 mark]**\n\nii) The homologous series that liquid **X** belongs to is:\n\n- Carboxylic acid;** [1 mark] ***Aldehyde / ketone are acceptable answers*\n\niii) The formula of liquid **X** is:\n\n- CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH / C<sub>3</sub>H<sub>7</sub>COOH / C<sub>4</sub>H<sub>8</sub>O<sub>2</sub> / C<sub>4</sub>H<sub>7</sub>OOH; **[1 mark] ***Error carried forward from part (ii) is allowed, so the chemical formulae of butanal and butanone are accepted answers*\n\n**[Total: 3 marks]**\n\n- *Alcohols are oxidised to aldehydes / ketones and can be further oxidised to carboxylic acids *\n\n  - *Since the parent alcohol is butanol:*\n  \n    - *The aldehyde will be butanal / CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*CHO*\n    - *The ketone will be butanone / CH*<sub>*3*</sub>*COCH*<sub>*2*</sub>*CH*<sub>*3*</sub>\n    - *The carboxylic acid will be butanoic acid / CH*<sub>*3*</sub>*CH*<sub>*2*</sub>*CH*<sub>*2*</sub>*COOH*\n- *The most common reagents for this oxidation are acidified potassium manganate(VII) solution and acidified potassium dichromate(VI) solution *"
+    },
+    {
+     "id": "qstnprt_fMsmYPhV9p2PpJsv",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2016",
+      "number": "O31",
+      "question_number": 8,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_VcPXRNFPNFRYJtMh",
+      "spcpt_ggXs8vKGz2BvfVCd"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Separate: Chemistry and Extended Only\n\nThe alcohol ethanol can be made by fermentation. Yeast is added to aqueous glucose.\n\nC<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (aq) → 2C<sub>2</sub>H<sub>5</sub>OH (aq) + 2CO<sub>2</sub> (g)\n\nCarbon dioxide is given off and the mixture becomes warm, as the reaction is exothermic. The graph shows how the rate of reaction varies over several days.\n\n![rate-graph](assets/052-rate-graph.png)\n\ni) Suggest a method of measuring the rate of this reaction.\n\n[2]\n\nii) Why does the rate initially increase?\n\n[1]\n\niii) Suggest **two **reasons why the rate eventually decreases.\n\n[2]",
+     "solution_md": "d)\n\ni) A method of measuring the rate of this reaction is:\n\n- Measure the volume of gas released; **[1 mark]**\n- Measure time; **[1 mark]**\n\nii) The rate initially increases because:\n\n- Of an increase in temperature \n**OR **\nOf more yeast present \n**OR **\nThe yeast multiplies; **[1 mark]**\n\niii) **Two **reasons why the rate eventually decreases are:\n\n- The glucose is all used up; **[1 mark]**\n- The concentration of ethanol gets high enough to kill the yeast; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *Since the reaction produces carbon dioxide, you can measure the amount of gas produced over time to get the rate of reaction*\n\n  - *Theoretically, you could measure the mass lost from the reaction vessel but this was not a given answer in the official mark scheme*\n- *Parts (ii) and (iii) focus on fermentation as a method to produce ethanol but you need to be aware of the fermentation method and hydration of then method*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_BjkHzGcJJXMsQC5d",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_NfC8PbKNbGnF5v2Y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju43",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_4FXDK5F56GFh2HnT"
+     ],
+     "part_tier": null,
+     "problem_md": "The structures of six organic compounds are shown.\n\n![6-compounds-cie-igcse](assets/053-6-compounds-cie-igcse.png)\n\nGive the name of **F**.",
+     "solution_md": "a) The name of **F** is:\n\n- Butane; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *The main carbon chain / backbone contains 4 carbons*\n\n  - *This means that the name will be based on \"but-\"*\n- *There are only single bonds and no other atoms apart from hydrogens*\n\n  - *Therefore, the name will be \"-ane\" based*\n- *This leads to the overall name being butane*"
+    },
+    {
+     "id": "qstnprt_pMwqPy8kkh4p6JQb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju43",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_SgnGqsqVtztg5tqV",
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structures of six organic compounds are shown.\n\n#### Separate: Chemistry Only\n\nIdentify **two **of the compounds that are members of the same homologous series.\n\nGive the general formula of this homologous series.\n\ncompounds ..................................................\n\ngeneral formula ..................................................",
+     "solution_md": "b) The **two **compounds that are members of the same homologous series are:\n\nOption 1:\n\n- Compounds: **A** and **B**\n**OR**\nBut(-2-)ene and ethene; **[1 mark]**\n- General formula: C<sub>n</sub>H<sub>2n</sub>; **[1 mark]**\n\nOption 2:\n\n- Compounds: **E** and **F**\n**OR**\n1-methyl propane and butane; **[1 mark]**\n- General formula: C<sub>n</sub>H<sub>2n+2</sub>; **[1mark]**\n\n**[Total: 2 marks]**\n\n- *For questions like these, most of the compounds will have carbon atoms, hydrogen atoms and single carbon-carbon / carbon-hydrogen bonds*\n- *This means that you need to look at the other features of the compounds: *\n\n  - *A** has one double bond between carbons / C=C*\n  - *B** has one double bond between carbons / C=C*\n  \n    - *Therefore **A** and **B** belong to the same homologous series*\n  - *C** has oxygen atoms, one double bond between carbon and oxygen / C=O, one single bond between carbon and oxygen / C-O and one single bond between oxygen and hydrogen / O-H *\n  - *D** has one oxygen atom, one single bond between carbon and oxygen / C-O and one single bond between oxygen and hydrogen / O-H *\n  - *E** has no \"interesting chemistry\", only carbon and hydrogen atoms with all single bonds *\n  - *F** has no \"interesting chemistry\", only carbon and hydrogen atoms with all single bonds*\n  \n    - *Therefore **E** and **F** belong to the same homologous series*"
+    },
+    {
+     "id": "qstnprt_KScG9zRh9p88TsHX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju43",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structures of six organic compounds are shown.\n\n#### Separate: Chemistry and Extended Only\n\nWhich **two **compounds are isomers of each other?\n\nExplain why they are isomers.\n\ncompounds ........................................................................\n\nexplanation ........................................................................",
+     "solution_md": "c) The **two **compounds that are isomers of each other are:\n\n- Compounds: **E** and **F**; **[1 mark]**\n- Explanation: They have the same molecular formula / contain the same number of atoms of each element;** [1 mark]**\n- But they have different structures / different structural formulae / a different arrangement of atoms;** [1 mark]**\n\n**[Total: 3 marks]**\n\n- *Remember: **Isomers are compounds with the same molecular formula but a different arrangement of atoms*\n\n  - *A **has the general formula C*<sub>*4*</sub>*H*<sub>*8*</sub>* *\n  - *B **has the general formula C*<sub>*2*</sub>*H*<sub>*4*</sub>* *\n  - *C **has the general formula C*<sub>*2*</sub>*H*<sub>*4*</sub>*O*<sub>*2*</sub>* *\n  - *D **has the general formula C*<sub>*2*</sub>*H*<sub>*6*</sub>*O*\n  - *E **has the general formula C*<sub>*4*</sub>*H*<sub>*10*</sub>* *\n  - *F **has the general formula C*<sub>*4*</sub>*H*<sub>*10*</sub>* *\n  \n    - *E** and **F **are the only compounds with the same molecular formula and can, therefore, be the only ones that could be isomers of each other*"
+    },
+    {
+     "id": "qstnprt_2s8rt3rPwJs2DJSh",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju43",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_zcjHMGnpDkQvZpXP"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structures of six organic compounds are shown. [6-compounds-cie-igcse image]\n\nB is ethene; B has one double bond between carbons / C=C; B contains only carbon and hydrogen atoms.\n\nExplain why **B** is an unsaturated hydrocarbon.",
+     "solution_md": "d) **B** is an unsaturated hydrocarbon because it contains:\n\n- A double bond / not all bonds are single bonds;** [1 mark]**\n- Contains C and H only;** [1 mark] **\n\n**[Total: 2 marks]**\n\n- *You can use the **S** of **S**aturated compounds to help you remember that they contain only **S**ingle bonds*\n- *The standard definition of a hydrocarbon is a compound that contains **only** hydrogen and carbon*"
+    },
+    {
+     "id": "qstnprt_k8rG7mMqRjqTNRh5",
+     "order": 4,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju43",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_VcPXRNFPNFRYJtMh",
+      "spcpt_T55krCGQvzKt8RYD"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structures of six organic compounds are shown. [6-compounds-cie-igcse]\n\nB is ethene, general formula C~2~H~4~.\n\nB has the general formula C~2~H~4~\nD has the general formula C~2~H~6~O\n\n#### Extended Only\n\nDescribe how **D** is manufactured from **B**. Give a chemical equation for the reaction.",
+     "solution_md": "e) **D** is manufactured from **B** using:\n\nAny **two** of the following:\n\n- High temperature / 220 °C – 350 °C;** [1 mark]**\n- High pressure / 60 atm – 70 atm; **[1 mark]**\n- Phosphoric acid catalyst; **[1 mark]**\n\nThe chemical equation for the reaction is:\n\n- C<sub>2</sub>H<sub>4</sub> + H<sub>2</sub>O → C<sub>2</sub>H<sub>5</sub>OH; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *By looking at compounds **B** and **D**, you should be able to see that a water molecule has been added to **B** to form **D** *\n- *The reaction conditions are facts that you will need to learn  *"
+    },
+    {
+     "id": "qstnprt_r3pv9SS5gg2F9VFz",
+     "order": 5,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2016",
+      "number": "Ju43",
+      "question_number": 2,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_y6gGXXX3Cvm9YrGN"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nBut(-2-)ene and ethene; General formula: C~n~H~2n~ (A and B belong to same homologous series, A has one double bond between carbons / C=C)\nA has the general formula C~4~H~8~\n\n#### Extended Only\n\nCompound **A** forms an addition polymer.\n\nDraw **two **repeat units of the addition polymer formed from **A**.",
+     "solution_md": "f) The addition polymer of compound **A** showing **two **repeat units is:\n\n![polybut-2-ene-ms-image](assets/054-polybut-2-ene-ms-image.png)\n\n- Correct carbon structure with only single bonds; **[1 mark] ***The CH*<sub>*3*</sub>* groups can be all up, all down or alternating up and down*\n- Continuation bonds; **[1 mark]**\n\n**[Total: 2 marks]**\n\n- *The best way to draw a polymer is:*\n\n  1. *Start with the carbon=carbon double bond*\n  2. *Add the atoms / groups of atoms above and below the C=C*\n  3. *Replace the C=C with -C-C-* ![polybut-2-ene-ms-explain](assets/055-polybut-2-ene-ms-explain.png)\n  4. *If you require more than one repeat unit to be shown, like this question, then draw another molecule (as you have just drawn) and connect them together*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5T6FF65RKqrMpJPp",
+   "set_slug": "theory-questions",
+   "order": 21,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 18,
+   "parts": [
+    {
+     "id": "qstnprt_znFZ8CJVdcRvnccZ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "Ju32",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w",
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "Propanoic acid is a carboxylic acid. Its formula is CH<sub>3</sub>–CH<sub>2</sub>–COOH.\n\nPropanoic acid is the third member of the homologous series of carboxylic acids.\n\ni) Give the name and structural formula of the fourth member of this series.\n\nname ...............................................................\n\nformula ...............................................................\n\n[2]\n\nii) Members of a homologous series have very similar chemical properties.\n\nState **three **other characteristics of a homologous series.\n\n[3]",
+     "solution_md": "a)\n\ni) The name and structural formula of the fourth member of this series are:\n\n- Name: butanoic acid\n**OR**\nButyric acid; **[1 mark]**\n- Formula: CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>COOH\n**OR**\nC<sub>2</sub>H<sub>5</sub>CH<sub>2</sub>COOH; **[1 mark]**\n\nii) **Three **other characteristics of a homologous series are:\n\nAny **three **of the following:\n\n- (Same) general / molecular formula; **[1 mark]**\n- (Consecutive members) differ by CH<sub>2</sub>; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Common methods of preparation; **[1 mark]**\n- Physical properties vary in predictable manner / show trends / gradually change\n**OR**\nAn example of a physical property variation i.e. melting point / boiling point / volatility; **[1 mark]**\n\n**[Total: 5 marks]**\n\n- *You need to know the prefixes for the first six hydrocarbons:*\n\n1. *Meth-*\n2. *Eth-*\n3. *Prop- *\n4. *But-*\n5. *Pent-*\n6. *Hex-*\n\n- *You also need to know what a homologous series is and how this affects the properties of the chemicals within  a homologous series*\n\n> **[exam-tip]**\n> Remember the carbon in COOH counts, so butanoic acid needs only three more carbons before it, not four"
+    },
+    {
+     "id": "qstnprt_JkrGmRTwSGFkN2CV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2014",
+      "number": "Ju32",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_j8JtMXpfnSVvY5hz"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropanoic acid is a carboxylic acid. Its formula is CH~3~–CH~2~–COOH. Propanoic acid is the third member of the homologous series of carboxylic acids.\n\nCarboxylic acids can be made by the oxidation of alcohols.\n\ni) Draw the structural formula of the alcohol which can be oxidised to propanoic acid. Show all atoms and bonds.\n\n[1]\n\nii) Name a reagent, other than oxygen, which can oxidise alcohols to carboxylic acids.\n\n[2]",
+     "solution_md": "b)\n\ni) The structural formula of the alcohol which can be oxidised to propanoic acid is:\n\n![propan-1-ol-displayed-formula](assets/056-propan-1-ol-displayed-formula.png)\n\n- ; **[1 mark]**\n\nii) A reagent, other than oxygen, which can oxidise alcohols to carboxylic acids is:\n\n- Acidified; **[1 mark]**\n- Potassium manganate(VII) / potassium permanganate / KMnO<sub>4</sub> **OR **Potassium dichromate(VI) / K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> / potassium dichromate; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *Alcohols can be oxidised to carboxylic acids*\n- *The name of the acid will reflect the original alcohol, e.g. ethanoic acid from ethanol, propanoic acid from propanol*\n- *The most common reagent given as an answer is potassium dichromate but it must be **acidified*"
+    },
+    {
+     "id": "qstnprt_PRWjV8ZJfYSYr4jS",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2014",
+      "number": "Ju32",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_M582ppKPXY8tBNrJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nPropanoic acid is a carboxylic acid. Its formula is CH~3~–CH~2~–COOH.\n\nComplete the following equations for some of the reactions of propanoic acid.\n\nThe salts of this acid are called propanoates.\n\ni) zinc + propanoic acid → .................... .................... + hydrogen\n\n[1]\n\nii) calcium oxide + propanoic acid → .................... .................... + ...........................\n\n[1]\n\niii) LiOH + CH<sub>3</sub>CH<sub>2</sub>COOH → .................... + ....................\n\n[1]",
+     "solution_md": "c) The completed equations are:\n\ni) Zinc + propanoic acid → **zinc propanoate **+ hydrogen; **[1 mark]**\n\nii) Calcium oxide + propanoic acid → **calcium propanoate + water**;** [1 mark]**\n\niii) LiOH + CH<sub>3</sub>CH<sub>2</sub>COOH → **CH**<sub>**3**</sub>**CH**<sub>**2**</sub>**COOLi + H**<sub>**2**</sub>**O**; **[1 mark]**\n\n**[Total: 3 marks]**\n\n- *There are some standard reactions with acids that you are expected to know:*\n\n  - *Metal + acid → Metal salt + hydrogen*\n  - *Metal oxide + acid → Metal salt + water*\n  - *Metal hydroxide + acid → Metal salt + water*\n  - *Metal carbonate + acid → Metal salt + carbon dioxide + water*"
+    },
+    {
+     "id": "qstnprt_JmJTzK9B5BVpZTjp",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2014",
+      "number": "Ju32",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_t2Fg75X3JTxhX6xB"
+     ],
+     "part_tier": null,
+     "problem_md": "A piece of magnesium was added to 100 cm<sup>3</sup> of an aqueous acid. The time taken for the metal to react completely was measured. This experiment was repeated using different aqueous acids. The same volume of acid was used in each experiment and the pieces of magnesium used were identical. In one experiment the reaction was carried out at a different temperature.\n\n| experiment | acid | concentration in mol / dm<sup>3</sup> | temperature / <sup>o</sup>C | time / minutes |\n|---|---|---|---|---|\n| A | propanoic | 1.0 | 20 | 5 |\n| B | propanoic | 1.0 | 30 | 3 |\n| C | propanoic | 0.5 | 20 | 8 |\n| D | hydrochloric | 1.0 | 20 | 1 |\n\nExplain the following in terms of collision rate between reacting particles.\n\ni) Why is the rate in experiment **C** slower than the rate in experiment **A**?\n\n[2]\n\nii) Why is the rate in experiment **B** faster than the rate in experiment **A**?\n\n[2]\n\niii) Why is the rate in experiment **D** faster than the rate in experiment **A**?\n\n[3]",
+     "solution_md": "d)\n\ni) The rate in experiment **C** is slower than the rate in experiment **A** because:\n\n- The concentration (of acid in **C**) is less / halved \n**OR **\nThe concentration of **A** is more / doubled; **[1 mark]**\n- Therefore, there are less <u>frequent</u> (successful) collisions in **C**\n**OR **\nTherefore, there are more <u>frequent</u> (successful) collisions in **A**; **[1 mark]**\n\nii) The rate in experiment **B** is faster than the rate in experiment **A** because:\n\n- The particles in **B** move faster / have more energy / more have *E*<sub>a</sub> \n**OR **\nThe particles in **A** move slower / have less energy / less have *E*<sub>a</sub>; **[1 mark]** \n*Accept molecules or atoms in place of the word particles*\n- Therefore, there are less <u>frequent</u> (successful) collisions in **A OR **\nTherefore, there are more <u>frequent</u> (successful) collisions in **B**; **[1 mark] **\n\niii) The rate in experiment **D** is faster than the rate in experiment **A** because:\n\n- **D** is a strong acid **AND **A is a weak acid \n**OR **\n**D** is a stronger acid / **A **is a weaker acid \n**OR **\n**D** ionises / dissociates more \n**OR **\n**A** ionises / dissociates less;** [1 mark]**\n- **D **has a higher concentration of hydrogen ions \n**OR **\n**A** has a lower concentration of hydrogen ions; **[1 mark]**\n- Therefore, there are less <u>frequent</u> (successful) collisions in **A OR **\nTherefore, there are more <u>frequent</u> (successful) collisions in **D**; **[1 mark] **\n\n**[Total: 7 marks]**\n\n- *The key to this question is recognising what each row of information is actually telling you and then linking that change to the appropriate collision theory explanation*\n\n  - *Rows **A **and **B** have different temperatures*\n  \n    - *This should lead you to ideas about the energy of the particles and the frequency of collisions*\n  - *Rows **A** and **C** have different acid concentrations*\n  \n    - *This should lead you to ideas about the number of particles and the frequency of collisions*\n  - *Rows **A **and **D **have different acid strengths*\n  \n    - *This is more subtle than rows **A **and **C **because it is still about the concentration of the particles but this is changing due to the strength of the acid and how much it dissociates into its ions*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3S3w9dNRBFJkGQ99",
+   "set_slug": "theory-questions",
+   "order": 22,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_546HX8CGKrBfchxt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2005",
+      "number": "O31",
+      "question_number": 4,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yRMDGDvtMpR5tgnY",
+      "spcpt_S6xxPdtkW4RG4jcm",
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "The alcohols form a homologous series. The first member is methanol and the fourth is butanol.\n\n| CH<sub>3</sub>–OH <br>methanol | CH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–OH butanol |\n|---|---|\n\ni) Give **two **general characteristics of a homologous series.\n\n[2]\n\nii) Calculate the mass of one mole of the C<sub>8</sub> alcohol.\n\n[2]",
+     "solution_md": "a)\n\ni) **Two **general characteristics of a homologous series are:\n\nAny **two **of the following:\n\n- General molecular formula; **[1 mark]**\n- Same functional group; **[1 mark]**\n- Physical properties show trend — bp increase with n; **[1 mark]**\n- Similar chemical properties; **[1 mark]**\n- Common methods of preparation; **[1 mark]**\n\nii) The mass of one mole of the C<sub>8</sub> alcohol is:\n\n- C<sub>8</sub>H<sub>17</sub>OH; **[1 mark]**\n- Mass of one mole = 130 (g);** [1 mark]**\n\n**[Total: 4 marks]**\n\n- *The general characteristics of a homologous series are just a set of facts that you need to know*\n\n  - *This can be for 2 or 3 marks*\n- *To calculate the mass of one mole of the C*<sub>*8*</sub>* alcohol, you first have to deduce the formula of the alcohol*\n\n  - *Once you have deduced that the alcohol is C*<sub>*8*</sub>*H*<sub>*17*</sub>*OH, you can use the periodic table to calculate the mass of one mole (8 x 12) + (17 x 1) + 16 + 1 = 130 g*"
+    },
+    {
+     "id": "qstnprt_X4JYNYWzh7Ndty4Y",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2005",
+      "number": "O31",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe alcohols form a homologous series. The first member is methanol and the fourth is butanol. CH~3~–OH methanol | CH~3~–CH~2~–CH~2~–CH~2~–OH butanol\n\nGive the name and structural formula of the third member of this series.\n\nname ..................................................\n\n[1]\n\nstructural formula ..................................................\n\n[1]",
+     "solution_md": "b) The name and structural formula of the third member of this series are:\n\nAlternative 1:\n\n- Name: propan-1-ol; **[1 mark]**\n- Structural formula: ![propan-1-ol-ms-black](assets/057-propan-1-ol-ms-black.png) ; **[1 mark] **\n*Accept CH*<sub>*3*</sub>*-CH*<sub>*2*</sub>*-CH*<sub>*2*</sub>*-OH*\n\n**OR **\nAlternative 2\n\n- Name: propan-2-ol; **[1 mark]**\n- Structural formula: ![propan-2-ol-ms-black](assets/058-propan-2-ol-ms-black.png) ; **[1 mark]**  \n*Accept CH*<sub>*3*</sub>*-CH(-OH)-CH*<sub>*3*</sub>* *\n\n**[Total: 2 marks]**\n\n- *Third member of the homologous series of alcohols will contain 3 carbons and an -OH group*\n\n  - *This gives 2 options:*\n  \n    - *C-C-C-OH*\n    - *C-C(-OH)-C*\n  - *You can then add the hydrogens to complete the molecules*\n  \n    - *CH*<sub>*3*</sub>*-CH*<sub>*2*</sub>*-CH*<sub>*2*</sub>*-OH*\n    - *CH*<sub>*3*</sub>*-CH(-OH)-CH*<sub>*3*</sub>* *\n- *The alcohol that contains 3 carbons will have a prop- based name*\n\n  - *It is propan-1-ol or propan-2-ol*\n  \n    - *Prop = 3 carbons*\n    - *an = single bonds*\n    - *1-ol or 2-ol = an OH group on carbon 1 or 2*"
+    },
+    {
+     "id": "qstnprt_KhyRg5rGW9GkXPt9",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2005",
+      "number": "O31",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "The structural formula of the fifth member, pentan-1-ol, is drawn below.\n\nCH<sub>3</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>2</sub>–OH\n\ni) Draw the structural formula of an isomer of this alcohol.\n\n[1]\n\nii)Predict the names of the product(s) formed when pentan-1-ol\n\n- reacts with an excess of oxygen,\n\n....................................... and .......................................\n\n[1]\n\n- is dehydrated to form an alkene,\n\n..................................................\n\n[1]\n\n- is oxidised by acidified potassium dichromate(VI).\n\n..................................................\n\n[1]",
+     "solution_md": "c)\n\ni) The structural formula of an isomer of pentan-1-ol is:\n\n- CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHOHCH<sub>3 </sub>\n**OR **\nCH<sub>3</sub>CH<sub>2</sub>CHOHCH<sub>2</sub>CH<sub>3</sub>  \n**OR **\nCH<sub>3</sub>CH<sub>2</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>OH \n**OR **\nCH<sub>3</sub>CH(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>OH \n**OR **\nCH<sub>3</sub>CH<sub>2</sub>C(CH<sub>3</sub>)OHCH<sub>3</sub>; **[1 mark] **\n*Displayed formulae are also acceptable *\n\nii) The names of the product(s) formed when pentan-1-ol undergoes the following reactions are:\n\n- Reacts with an excess of oxygen = <u>carbon dioxide</u> and <u>water</u>; **[1 mark]**\n- Dehydrated to form an alkene = pent-1-ene \n**OR **\nPentene;** [1 mark]**\n- Oxidation by acidified potassium dichromate(VI) = pentanal  **OR** \nPentanoic acid; **[1 mark]**\n\n**[Total: 4 marks]**\n\n- *The easiest way to draw one of the isomers is to essentially \"snap\" the OH group off carbon 1 and swap it with a hydrogen atom from carbon 2 or 3*\n- *Pentan-1-ol can be used as a fuel*\n\n  - *So the reaction with excess oxygen will be complete combustion resulting in carbon dioxide and water*\n- *Dehydration means removing water*\n\n  - *This means that the OH group will be removed from carbon 1 and a hydrogen atom will be removed from carbon 2*\n  - *This will form a carbon=carbon double bond on carbon 1 resulting in pentene / pent-1-ene*\n- * Alcohols can oxidise to form aldehydes, ketones and carboxylic acids*\n\n  - *Since the OH group is attached to carbon 1, only aldehydes or carboxylic acids are possible, meaning that ther product will be either pentanal or pentanoic acid*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZZ9d7XcQQvVPKH9N",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_bkvq4VjFF5dCxTV7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju32",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "The diagrams show part of the structures of five substances, A, B, C, D and E.\n\n![dFPHIipH_q1-0620_s19_qp_32](assets/059-dfphiiph-q1-0620-s19-qp-32.png)\n\nWhich one of these structures, A, B, C, D or E is an alcohol?",
+     "solution_md": "Which one of these structures, A, B, C, D or E is an alcohol:\n\n- A / methanol / CH<sub>3</sub>OH;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *An alcohol must contain an -OH group*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ZTGn7mVkmXsKXDg5",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_6H9Q3GsWq2V5y8Nr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen3",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "One of the organic acids present in milk is lactic acid.\n\nThe displayed formula of lactic acid is shown in Fig. 2.2.\n\n![q2c_specimen-paper-0620-03-cie-igcse-chemistry](assets/060-q2c-specimen-paper-0620-03-cie-igcse-chemistry.png)\n\n**Fig. 2.2**\n\nDraw a circle around the carboxylic acid functional group on the structure.",
+     "solution_md": "a) Drawing a circle around the carboxylic acid functional group on the structure:\n\n- Correct group circled;** [1 mark]**\n\n![carboxylic-acid-group](assets/061-carboxylic-acid-group.png)\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_NfFBSHFstVXNPwmr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "deduce",
+     "source_paper": {
+      "date": "2016",
+      "number": "Specimen3",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nOne of the organic acids present in milk is lactic acid. The displayed formula of lactic acid is shown in Fig. 2.2.\n\nDeduce the molecular formula of lactic acid.",
+     "solution_md": "b) The molecular formula of lactic acid is:\n\n- C<sub>3</sub>H<sub>6</sub>O<sub>3</sub>; **[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_V2V3D9vBfmSjYqQT",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_QTpTVCsN5FVyCPd3",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "which",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju31",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_8kSCN2GwfnqgmTzQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Coal gas is made by heating coal in the absence of air. The list shows the main gases present in coal gas.\n\n**carbon dioxide** \n**carbon monoxide** \n**ethene** \n**hydrogen** \n**methane** \n**nitrogen**\n\nWhich one of these gases is an alkane?",
+     "solution_md": "a) The gas which is an alkane:\n\n- Methane; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_fdfNkqBQQYY9BRvD",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju32",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_4FXDK5F56GFh2HnT"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw the structure of a molecule of ethene. Show all of the atoms and all of the bonds.",
+     "solution_md": "b)  The structure of a molecule of ethene:\n\n![ethene-displayed-formula](assets/062-ethene-displayed-formula.png)\n\n- **Correct structure; [1 mark]**\n\n**[Total: 1 mark]**\n\n> *You can show the bonds at right angles and still score the mark*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sxJ7ZCNg7R6rRDhp",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_hyYWtkYtD3PY3Qf6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju32",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h",
+      "spcpt_4FXDK5F56GFh2HnT"
+     ],
+     "part_tier": null,
+     "problem_md": "Methane, ethane and ethene are hydrocarbons.\n\nDraw the structure of a molecule of ethane. Show all of the atoms and all of the bonds.",
+     "solution_md": "a) The structure of a molecule of ethane:\n\n![ethane](assets/063-ethane.png)\n\n- Correct structure;** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_dqxfCCsJmnbtcJQk",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju32",
+      "question_number": 5,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_pGKQShf69kHQbB7w"
+     ],
+     "part_tier": null,
+     "problem_md": "Which one of these compounds belongs to the same homologous series as methane?\n\nDraw a circle around the correct answer.\n\n**butane                    methanoic acid                    methanol              propene**",
+     "solution_md": "b)  The compound which belongs to the same homologous series as methane:\n\n![butane](assets/064-butane.png)\n\n- Correct compound circled; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_YNtvsGbkWMYpdXwJ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju32",
+      "question_number": 5,
+      "question_part": "f"
+     },
+     "spec_point_ids": [
+      "spcpt_zcjHMGnpDkQvZpXP"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of a monomer used to make a polymer is shown.\n\n![q5f-0620_s19_qp_32](assets/065-q5f-0620-s19-qp-32.png)\n\nWhat structural feature of this molecule shows that it is unsaturated?",
+     "solution_md": "c) The structural feature of this molecule that shows it is unsaturated is:\n\n- The carbon-carbon double bond / C=C bond;** [1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_2gV3rbnRxHkpJBXc",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2019",
+      "number": "Ju33",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_znn26bCY2Fpv8CZQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe structure of a monomer used to make a polymer is shown. [image q5f-0620_s19_qp_32] What structural feature of this molecule shows that it is unsaturated?\n\nDescribe a test to show that this compound is unsaturated. test                     .................................................... observations     ....................................................",
+     "solution_md": "d) A test to show that this compound is unsaturated:\n\n- Add drops of aqueous bromine / bromine water / bromine; **[1 mark]**\n- It is decolourised / turns colourless; **[1 mark]**\n\n**[Total: 1 mark]**\n\n- *It is important not to add too much bromine as the colour may only fade and not turn colourless*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_qBFTYDRdzqPKVm74",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_B6w4HwNnDmGStHtw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju32",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_zcjHMGnpDkQvZpXP"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of nerol is shown.\n\n![i5ablJmz_q7_0620-s20-qp-32_cie-igcse-chemistry](assets/066-i5abljmz-q7-0620-s20-qp-32-cie-igcse-chemistry.png)\n\nWhat feature of the nerol molecule shows that it is an unsaturated compound?",
+     "solution_md": "The feature of the nerol molecule shows that it is an unsaturated compound?\n\n- C=C bond / carbon-carbon double bond;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- *In your answer you must state carbon-carbon double bonds*\n- *This is to ensure it is clear which atoms the bond is between*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_9sxpTPZwfxkqkKBp",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_4fCMq5t3D44fzrwQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "what",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju41",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_zcjHMGnpDkQvZpXP"
+     ],
+     "part_tier": null,
+     "problem_md": "Sulfur dioxide, SO<sub>2</sub>, is used in the manufacture of sulfuric acid.\n\nWhen propan-1-ol is heated with concentrated sulfuric acid as a catalyst an unsaturated hydrocarbon of relative molecular mass 42 is formed and one other product.\n\nWhat is meant by the term unsaturated?",
+     "solution_md": "The term unsaturated means:\n\nAny **one** from:\n\n- Not all (C–C) bonds are single\n- Contains / has a carbon-carbon double bond / C=C double bond\n- Contains / has double or triple bond(s) between carbon atoms\n- Contains at least one carbon-carbon double bond or triple bond\n\n**[1 mark]**\n\n*Do not accept \"contains a double bond\" without specifying carbon-carbon*\n\n**[Total: 1 mark]**\n\n- *Make sure you specify that the double or triple bond is between carbon atoms, not just \"a double bond\"*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3f3gK4HvKpxmZCrc",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_b4fX7g672VJsmbrJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "2020",
+      "number": "Ju31",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_pNhC2gNnbwfcsp3h"
+     ],
+     "part_tier": null,
+     "problem_md": "The structure of nerol is shown below:\n\n![q7_0620-s20-qp-32_cie-igcse-chemistry](assets/067-q7-0620-s20-qp-32-cie-igcse-chemistry.png)\n\nDraw a circle around the alcohol functional group in nerol.",
+     "solution_md": "The alcohol functional group in nerol:\n\n![nerol](assets/068-nerol.png)\n\n- Correct functional group circled;** [1 mark]**\n\n**[Total: 1 mark]**\n\n- Alcohols contain an OH group\n- Therefore, your answer must circle the OH on the structure"
     }
    ]
   }

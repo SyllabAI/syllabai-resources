@@ -208,3 +208,56 @@
 **C** is incorrect; providing a summary of the trade receivables' transactions is the main reason for preparing a sales ledger control account
 
 **D** is incorrect; the balance in the sales ledger control account should match the total of the sales ledger accounts, so a sales ledger control account **is** useful for proving that the sales ledger entries are arithmetically correct
+
+## Structured Questions (1 questions)
+
+
+### Q1
+Calculate the total amount received from trade receivables
+
+$423+400=823$
+
+Calculate the discount allowed
+
+$450-423=27$
+
+Seok 
+Sales ledger control account
+
+| Date | Details | \$ |   | Date | Details | \$ |   |
+|---|---|---|---|---|---|---|---|
+| 2023 |   |   |   | 2023 |   |   |   |
+| Aug 1 | Balance b/d | 991 | **[1]** | Aug 31 | Sales returns | 37 | **[1]** |
+| 31 | Sales | 845 | **[1]** |   | Bank | 823 | **[1]** |
+|   |   |   |   |   | Discount allowed | 27 | **[1]** |
+|   |   |   |   |   | Irrecoverable debts | 155 | **[1]** |
+|   |   |   |   |   | Balance c/d | 794 |   |
+|   |   | <u>1 836</u> |   |   |   | <u>1 836</u> |   |
+| Sep 1 | Balance b/d | 794 | **[1]** |   |   |   |   |
+
+> **[mark-scheme]**
+> 7 marks in total. 1 mark for the correct date and details for the following.
+> 
+> **Explanation**
+> 
+> - Balance b/d for 1 Aug on the debit side with the correct figure
+> 
+>   - This is because money is owed to Seok
+> - Sales entry on the debit side with the correct figure
+> 
+>   - This is because the amount owed to Seok is increasing
+> - Sales returns on the credit side with the correct figure
+> 
+>   - This is because the amount owed to Seok is decreasing
+> - Bank on the credit side with the correct figure
+> 
+>   - This is because the amount owed to Seok is decreasing
+> - Discount allowed on the credit side with the correct figure
+> 
+>   - This is because the amount owed to Seok is decreasing
+> - Irrecoverable debts on the credit side with the correct figure
+> 
+>   - This is because the amount owed to Seok is decreasing
+> - Balance b/d for 1 Sep on the debit side with your** own figure **used for balance c/d
+> 
+>   - This is because money is owed to Seok

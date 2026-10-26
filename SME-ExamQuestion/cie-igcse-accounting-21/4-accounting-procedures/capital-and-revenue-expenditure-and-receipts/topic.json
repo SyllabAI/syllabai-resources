@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:04Z",
+ "generated_utc": "2026-10-26T14:30:51Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -53,14 +53,28 @@
    "question_count": 6,
    "questions_embedded": 6,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/capital-and-revenue-expenditure-and-receipts/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_GpRPrg5BwfFMKkNn",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium",
+    "hard"
+   ],
+   "question_count": 2,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/4-accounting-procedures/capital-and-revenue-expenditure-and-receipts/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 6,
+  "questions_embedded": 8,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -370,6 +384,64 @@
        "text_md": ""
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_k7BD7J78hKJ6PBqw",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_hKdcQV8Wh36g8293",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "June 2023",
+      "number": "0452/21",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_m5qQMDtkdg7xFC9Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Stalla had an extension to her retail premises built during 2023. The extension will be used as an office.\n\n**REQUIRED **\n\nPlace a tick (✓) in the correct box below to indicate whether each cost is capital expenditure or revenue expenditure\n\n|   | Capital expenditure | Revenue expenditure |\n|---|---|---|\n| Legal fees for obtaining permission to build the extension |   |   |\n| Building costs for the extension |   |   |\n| Insurance for the office |   |   |\n| Painting the office extension |   |   |\n| Office calendar for 2023 |   |   |\n| Purchase of office equipment |   |   |\n| Installation of office equipment |   |   |\n| Stationery for office |   |   |",
+     "solution_md": "|   | Capital expenditure | Revenue expenditure |   |\n|---|---|---|---|\n| Legal fees for obtaining permission to build the extension | ✓ |   | **[1]** |\n| Building costs for the extension | ✓ |   |   |\n| Insurance for the office |   | ✓ | **[1]** |\n| Painting the office extension | ✓ |   |   |\n| Office calendar for 2023 |   | ✓ | **[1]** |\n| Purchase of office equipment | ✓ |   |   |\n| Installation of office equipment | ✓ |   | **[1]** |\n| Stationery for office |   | ✓ |   |\n\n> **[mark-scheme]**\n> 4 marks in total. 1 mark for each correct pair.\n> \n> **Explanation**\n> \n> Capital expenditure includes:\n> \n> - Cost of a non-current asset\n> - Cost of an extension\n> - Installation costs\n> - Delivery costs\n> - Legal fees\n> - Decoration of new non-current assets\n> \n> Revenue expenses are items which are expected  to last less than a year."
+    }
+   ]
+  },
+  {
+   "id": "qstn_yrmBxWhtrYw3B29G",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_yhBbFkM5qgzxz7TY",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_m5qQMDtkdg7xFC9Q"
+     ],
+     "part_tier": null,
+     "problem_md": "Roger purchases new window cleaning equipment which is to be installed in the business vehicles.\n\n**REQUIRED**\n\nComplete the table by inserting a tick (✓) to show how **each **item of expenditure should be classified. The first one has been completed as an example.\n\n|   | Capital expenditure | Revenue expenditure |\n|---|---|---|\n| Purchase of the equipment | ✓ |   |\n| Installation costs of the equipment |   |   |\n| Carriage costs for the equipment |   |   |\n| Insurance costs for the equipment |   |   |",
+     "solution_md": "|   | Capital expenditure | Revenue expenditure |\n|---|---|---|\n| Purchase of the equipment | ✓ |   |\n| Installation costs of the equipment | ✓ **[1]** |   |\n| Carriage costs for the equipment | ✓ **[1]** |   |\n| Insurance costs for the equipment |   | ✓ **[1]** |\n\n> **[exam-tip]**\n> Students commonly mistake carriage costs of a non-current asset as revenue expenditure.\n> \n> - Carriage of inventory is a revenue expense because it relates to sales and trading\n> - But carriage of a non-current asset relates to making that asset ready for long-term use, so it’s capitalised"
     }
    ]
   }

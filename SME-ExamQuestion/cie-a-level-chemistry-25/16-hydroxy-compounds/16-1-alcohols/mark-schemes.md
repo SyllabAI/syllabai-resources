@@ -566,3 +566,634 @@ actual yield = $\frac{70}{100}$ × 2.2 g = **1.54 g**
 **B** is incorrect as this compound contains 1 carboxylic acid group, 1 alcohol group and an aldehyde group. **Na**: reacts with the alcohol and carboxylic acid group and hence would form an organic ion with charge –2. **Aqueous NaOH**: reacts with the carboxylic acid group only and hence would form an organic ion with charge –1.
 
 **D** is incorrect as this compound contains 1 alcohol group, 1 aldehyde group and 1 ketone group. **Na**: reacts with the alcohol group only and hence would form an organic ion with charge –1. **Aqueous NaOH**: reacts with no groups and hence the organic ion has charge 0.
+
+## Structured Questions (10 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> i) The colour change is:
+> 
+> - Purple / violet to colourless **[1 mark]**
+> 
+> ii) The equation for this oxidation:
+> 
+> - CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH + [O] → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CHO + H<sub>2</sub>O **[1 mark]**
+
+> **[exam-tip]**
+> When butan-1-ol is added dropwise and the product distilled off immediately, the primary alcohol is oxidised only to the aldehyde (butanal). If heated under reflux instead, oxidation continues to give the carboxylic acid.
+> **[mark-scheme]**
+> The systematic name of the organic product is:
+> 
+> - Butanoic acid **[1 mark]**
+
+> **[exam-tip]**
+> Heating under reflux with an excess of acidified KMnO<sub>4</sub> allows full oxidation:
+> 
+> butan-1-ol → butanal → butanoic acid.
+> 
+> Reflux conditions prevent the aldehyde from escaping, so it is oxidised further to the carboxylic acid.
+The structural formulae and systematic names of the two isomers are:
+
+|   | **Isomer A** | **Isomer B** |
+|---|---|---|
+| Name | 2-methylpropan-1-ol | 2-methylpropan-2-ol |
+| Structure | ![Structure of 2-methylpropan-1-ol](assets/018-structure-of-2-methylpropan-1-ol.jpeg) | ![Structure of 2-methylpropan-2-ol](assets/019-structure-of-2-methylpropan-2-ol.jpeg) |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct name of Isomer **A** (2-methylpropan-1-ol)
+> 
+> 1 mark for correct structure of Isomer **A**
+> 
+> 1 mark for correct name of Isomer **B** (2-methylpropan-2-ol)
+> 
+> 1 mark for correct structure of Isomer **B**
+
+> **[exam-tip]**
+> Isomer **A** must be a primary alcohol (can be oxidised).
+> 
+> Isomer **B** must be tertiary (cannot be oxidised).
+> 
+> Both must be branched C<sub>4</sub> alcohols.
+> 
+> The only primary branched C<sub>4</sub> alcohol is 2-methylpropan-1-ol; the only tertiary C<sub>4</sub> alcohol is 2-methylpropan-2-ol.
+> **[mark-scheme]**
+> The ionic half-equation for the reduction of MnO<sub>4</sub><sup>-</sup> is:
+> 
+> - MnO<sub>4</sub><sup>-</sup> + 8H<sup>+</sup> + 5e<sup>-</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O **[1 mark]**
+
+> **[exam-tip]**
+> To balance this half-equation:
+> 
+> - Write MnO<sub>4</sub><sup>-</sup> → Mn<sup>2+</sup>
+> 
+> MnO<sub>4</sub><sup>-</sup> → Mn<sup>2+</sup>
+> 
+> - Add 4H<sub>2</sub>O to balance O
+> 
+> MnO<sub>4</sub><sup>-</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O
+> 
+> - Add 8H<sup>+</sup> to balance H
+> 
+> MnO<sub>4</sub><sup>-</sup> + 8H<sup>+</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O
+> 
+> - Add 5e<sup>-</sup> on the left to balance charge
+> 
+> MnO<sub>4</sub><sup>-</sup> + 8H<sup>+</sup> + 5e<sup>-</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O
+> 
+> Check:
+> 
+> - Left charge = –1 + 8 – 5 = +2
+> - Right charge = +2
+
+### Q2
+The structures of alkenes **X**, **Y** and **Z** are:
+
+![Three skeletal alkene structures labelled X, Y and Z, each showing different positions of a carbon–carbon double bond along a zigzag carbon chain](assets/020-three-skeletal-alkene-structures-labelled-x-y-an.jpeg)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for the correct structure of **X** / trans-pent-2-ene
+> 
+> 1 mark for the correct structure of **Y** / cis-pent-2-ene
+> 
+> 1 mark for the correct structure of **Z** / pent-1-ene
+> 
+> Structures **X** and **Y** are interchangeable.
+
+> **[exam-tip]**
+> Elimination of pentan-2-ol (loss of water) can give pent-1-ene or pent-2-ene.
+> 
+> Pent-2-ene shows E/Z stereoisomerism because each carbon of the C=C has two different substituents, which gives the two stereoisomers **X** and **Y**.
+> 
+> The question asks for skeletal structures.
+> **[mark-scheme]**
+> Stereoisomers **X** and **Y** arise because:
+> 
+> - The C=C bond has two different atoms / groups bonded to each carbon **[1 mark]**
+> - The C=C bond cannot rotate **[1 mark]**
+
+> **[exam-tip]**
+> E/Z stereoisomerism requires both carbons of the C=C to each bear two different substituents. In pent-2-ene, one carbon has H and CH<sub>3</sub>; the other has H and CH<sub>2</sub>CH<sub>3</sub>. The rigid C=C bond prevents rotation, locking the groups into fixed spatial arrangements.
+> **[mark-scheme]**
+> i) The equation with oxygen:
+> 
+> - 2CH<sub>3</sub>CHOHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + 15O<sub>2</sub> → 10CO<sub>2</sub> + 12H<sub>2</sub>O **[1 mark]**
+> 
+> State symbols are not required.
+> 
+> ii) The equation with sodium:
+> 
+> - 2CH<sub>3</sub>CHOHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + 2Na → 2CH<sub>3</sub>CHO<sup>-</sup>Na<sup>+</sup>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + H<sub>2</sub> **[1 mark]**
+> 
+> State symbols are not required.
+> 
+> iii) The equation with phosphorus(V) chloride:
+> 
+> - CH<sub>3</sub>CHOHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + PCl<sub>5</sub> → CH<sub>3</sub>CHClCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> + HCl + POCl<sub>3</sub> **[1 mark]**
+> 
+> State symbols are not required.
+
+> **[exam-tip]**
+> For combustion: balance C, H, then O. Doubling the alcohol molecule helps.
+> 
+> For Na: the O–H hydrogen is replaced, forming a sodium alkoxide and H<sub>2</sub>.
+> 
+> For PCl<sub>5</sub>: the products are always chloroalkane + HCl + POCl<sub>3</sub>.
+The apparatus for heating under reflux is:
+
+![Diagram of a round-bottom flask heated from below, attached to a vertical condenser with a cold water jacket, water in at the bottom and water out at the top](assets/021-diagram-of-a-round-bottom-flask-heated-from-belo.jpeg)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for round / pear-shaped flask with condenser set up vertically for reflux, with no gaps other than at the very top
+> 
+> 1 mark for water in and water out correctly labelled on the condenser
+
+> **[exam-tip]**
+> The condenser must be vertical and open at the top as a sealed top creates a dangerous closed system. Water enters at the bottom of the condenser jacket and exits at the top to ensure effective cooling.
+
+### Q3
+> **[mark-scheme]**
+> The systematic name of alcohol **C** is:
+> 
+> - 2-methylpropan-2-ol **[1 mark]**
+> 
+> Alcohol **C** is:
+> 
+> - Tertiary **[1 mark]**
+
+> **[exam-tip]**
+> A tertiary alcohol has the C–OH group bonded to three other carbon atoms. In 2-methylpropan-2-ol, the central carbon bears three methyl groups, which is the defining feature of a tertiary alcohol.
+> **[mark-scheme]**
+> i) The systematic name of the organic product is:
+> 
+> - Propanoic acid **[1 mark]**
+> 
+> ii) The colour change is from:
+> 
+> - Orange to green **[1 mark]**
+
+> **[exam-tip]**
+> Alcohol **A** (propan-1-ol) is a primary alcohol. Heating under reflux with acidified potassium dichromate(VI) fully oxidises it to a carboxylic acid. The dichromate(VI) is reduced from Cr<sup>6+</sup> (orange) to Cr<sup>3+</sup> (green).
+> **[mark-scheme]**
+> The alcohol that gives a yellow precipitate is:
+> 
+> - (Alcohol) **B** **[1 mark]**
+
+> **[exam-tip]**
+> The iodoform (triiodomethane) test is positive for alcohols containing the CH<sub>3</sub>CH(OH)– group.
+> 
+> Alcohol **B** (propan-2-ol) contains this group.
+> 
+> Alcohol **A** (propan-1-ol, primary, except ethanol) and alcohol **C** (2-methylpropan-2-ol, tertiary) do not give a positive result.
+
+### Q4
+To deduce the systematic name of compound **Y**:
+
+- Calculate the molar mass of compound **Y**:
+
+*M*<sub>r</sub> = $\frac{\mathrm{mass}}{\mathrm{moles}}$
+
+*M*<sub>r</sub> = $\frac{5.508}{0.054}$
+
+*M*<sub>r</sub> = 102.0 g mol<sup>-1</sup> **[1 mark]**
+
+- Identify the systematic name:
+
+Compound **Y** = **Pentanoic acid** **[1 mark]**
+
+- Justification: compound **Y** has the formula C<sub>5</sub>H<sub>10</sub>O<sub>2</sub> 
+**AND** 
+Is an oxidation product of compound **X** **[1 mark]**
+
+> **[exam-tip]**
+> There is a lot of information given in the question and the first step will be to calculate the *M*<sub>r</sub> of compound **Y**
+> 
+> You know that it contains 5 C atoms so that is most of the molecule accounted for
+> 
+> You are aware that it is an oxidation product so must contain at least 1 oxygen atom
+> 
+> In this case, it contains 2 oxygen atoms
+> 
+> The *M*<sub>r</sub> of pentanoic acid is 102.0 whereas the *M*<sub>r</sub> of pentanal is 86.0
+> 
+> Therefore, compound **Y** has to be pentanoic acid
+i) The displayed formula of compound **W** is:
+
+![Structure of pentyl pentanoate](assets/023-structure-of-pentyl-pentanoate.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula of pentyl pentanoate
+> 
+> ii) Compound **Z** is formed by:
+> 
+> - Compound **Z** is water / H<sub>2</sub>O
+> **AND**
+> Produced by condensation reaction between pentanoic acid and pentan-1-ol / compounds **X** and **Y** **[1 mark]**
+
+> **[exam-tip]**
+> The reaction between a carboxylic acid and an alcohol produces an ester (compound **W**) and water (compound **Z**). This is a condensation reaction because a small molecule (water) is eliminated.
+> 
+> Concentrated H<sub>2</sub>SO<sub>4</sub> acts as a catalyst.
+> **[mark-scheme]**
+> A student could stop the full oxidation of compound **X** by:
+> 
+> - Using compound **X** / pentan-1-ol / primary alcohol in excess **[1 mark]**
+> - Distilling off the aldehyde / pentanal as soon as it is produced **[1 mark]**
+
+> **[exam-tip]**
+> Full oxidation of a primary alcohol proceeds:
+> 
+> alcohol → aldehyde → carboxylic acid.
+> 
+> To stop at the aldehyde stage, remove the aldehyde from the reaction mixture immediately by distillation. Using the alcohol in excess ensures the oxidising agent is the limiting reagent and cannot drive the reaction to the carboxylic acid.
+> **[mark-scheme]**
+> i) A structural formula of a tertiary isomer of compound **X** is:
+> 
+> - CH<sub>3</sub>C(CH<sub>3</sub>)(OH)CH<sub>2</sub>CH<sub>3</sub> **[1 mark]**
+> 
+> Any other correct tertiary C<sub>5</sub> alcohol structure is accepted.
+> 
+> ii) The isomer will not react because:
+> 
+> - Tertiary alcohols cannot be oxidised **[1 mark]**
+
+> **[exam-tip]**
+> For part (i), any tertiary C<sub>5</sub> alcohol is valid but the carbon bearing the –OH group must be bonded to three other carbon atoms.
+> 
+> For part (ii), oxidation requires a C–H bond at the carbon bearing the –OH group. Tertiary alcohols lack this bond, so no C=O can form.
+
+### Q5
+The structural formula of alcohol **A** is:
+
+![Structure of butan-2-ol](assets/024-structure-of-butan-2-ol.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct structure of butan-2-ol
+
+> **[exam-tip]**
+> Aqueous OH<sup>-</sup> acts as a nucleophile, replacing the Br at carbon 2. The product is butan-2-ol, which is a secondary alcohol with the –OH group at position 2.
+The reaction mechanism for the formation of alcohol **A** is:
+
+![Reaction mechanism for the formation of butan-2-ol from 2-bromobutane](assets/025-reaction-mechanism-for-the-formation-of-butan-2-.jpeg)
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for δ+ on carbon bonded to Br and δ– on bromine correctly identified
+> 
+> 1 mark for curly arrow from lone pair on OH<sup>-</sup> nucleophile to δ+ carbon
+> 
+> 1 mark for curly arrow from C–Br bond to δ– bromine atom
+
+> **[exam-tip]**
+> Curly arrows must start from an area of high electron density (a lone pair or a bond) and point towards a lower electron density region. All partial charges (δ+ and δ–) must be shown. This is an S<sub>N</sub>2 mechanism: the OH<sup>-</sup> attacks while the Br<sup>-</sup> leaves simultaneously.
+The structure of compound **B** is:
+
+![Displayed formula of compound B (butan-2-yl ethanoate)](assets/026-displayed-formula-of-compound-b-butan-2-yl-ethan.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct ester structure
+
+> **[exam-tip]**
+> The –OH of butan-2-ol reacts with the –COOH of ethanoic acid to form the ester linkage (–COO–). The systematic name of compound **B** is butan-2-yl ethanoate.
+> **[mark-scheme]**
+> Alcohol **A** is a weaker acid than water because:
+> 
+> - Alkyl R group has a positive inductive effect / donates electron density to the O<sup>-</sup> atom **[1 mark]**
+> - The alkoxide O<sup>-</sup> has more electron density and more readily accepts H<sup>+</sup> / the dissociation equilibrium lies further to the left compared with water **[1 mark]**
+
+> **[exam-tip]**
+> Compare the alkoxide ion (RO<sup>-</sup>) with hydroxide (OH<sup>-</sup>). The alkyl group donates electron density to O<sup>-</sup>, making it a better base. Therefore, it more readily accepts H<sup>+</sup> and reforms the alcohol. This means the alcohol dissociates less than water, making it the weaker acid.
+
+### Q6
+The completed Table 2.1 is:
+
+| Alcohol | Class of alcohol |
+|---|---|
+| 2-methylpropan-2-ol | **Final answer:** **Tertiary** |
+| Butan-1-ol | **Final answer:** **Primary** |
+| Butan-2-ol | **Final answer:** **Secondary** |
+| 2-methylpropan-1-ol | **Final answer:** **Primary** |
+
+**[4 marks]**
+
+> **[mark-scheme]**
+> 1 mark for tertiary for 2-methylpropan-2-ol
+> 
+> 1 mark for primary for butan-1-ol
+> 
+> 1 mark for secondary for butan-2-ol
+> 
+> 1 mark for primary for 2-methylpropan-1-ol
+
+> **[exam-tip]**
+> Count the carbon atoms bonded to the carbon bearing the –OH group:
+> 
+> - One other carbon = primary
+> - Two = secondary
+> - Three = tertiary
+> 
+> Drawing out the displayed formula first makes this easier to see.
+> **[mark-scheme]**
+> i) The equation for the dissociation of water:
+> 
+> - H<sub>2</sub>O (l) $\rightleftharpoons$ OH<sup>-</sup> (aq) + H<sup>+</sup> (aq) **[1 mark]**
+> 
+> State symbols are not required.
+> 
+> A reversible arrow must be written for the mark to be awarded.
+> 
+> ii) The equation for the dissociation of butan-1-ol:
+> 
+> - CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>OH (aq) $\rightleftharpoons$ CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>O<sup>-</sup> (aq) + H<sup>+</sup> (aq) **[1 mark]**
+> 
+> State symbols are not required.
+> 
+> A reversible arrow must be written for the mark to be awarded.
+
+> **[exam-tip]**
+> Both water and alcohols are weak acids, so they only partially dissociate, so the reversible arrows ($\rightleftharpoons$) are essential.
+> 
+> The species formed when an alcohol dissociates is an alkoxide ion (RO<sup>-</sup>).
+> **[mark-scheme]**
+> Alcohols are weaker acids than water because:
+> 
+> - Alkyl group has a positive inductive effect / donates electron density to the negatively charged O<sup>-</sup> atom **[1 mark]**
+> - The alkoxide O<sup>-</sup> has greater electron density and more readily accepts H<sup>+</sup> / the dissociation equilibrium lies further to the left compared with water **[1 mark]**
+
+> **[exam-tip]**
+> Compare the alkoxide ion (RO<sup>-</sup>) with hydroxide (OH<sup>-</sup>). The alkyl R group donates electron density to O<sup>-</sup>, making RO<sup>-</sup> a better base as it more readily reforms the alcohol by accepting H<sup>+</sup>. This shifts the equilibrium to the left, making alcohols weaker acids than water.
+
+### Q7
+The completed Table 2.1 is:
+
+| Reagent | Observation with glycolic acid | Functional group |
+|---|---|---|
+| Mg (s) | **Final answer:** **Effervescence / fizzing / bubbling** | **Final answer:** **–COOH / carboxylic acid** |
+| 2,4-DNPH | **Final answer:** **No visible reaction** | **Final answer:** **—** |
+| Acidified KMnO<sub>4</sub> | **Final answer:** **Purple to colourless** | **Final answer:** **–OH / alcohol** |
+
+**[3 marks]**
+
+> **[mark-scheme]**
+> 1 mark for effervescence / fizzing **AND** –COOH / carboxylic acid for Mg(s)
+> 
+> 1 mark for no visible reaction for 2,4-DNPH (no functional group required)
+> 
+> 1 mark for purple to colourless **AND** –OH / alcohol for acidified KMnO<sub>4</sub>
+
+> **[exam-tip]**
+> Make sure you pick out the correct functional groups for each reaction. It can help to circle the functional groups present:
+> 
+> ![Identifying the functional groups of glyolic acid](assets/028-identifying-the-functional-groups-of-glyolic-aci.jpeg)
+> 
+> Carboxylic acids react with the more reactive metals to produce a salt and hydrogen
+> 
+> 2,4-DNPH detects carbonyl compounds (aldehydes and ketones). Glycolic acid has no carbonyl group, so no reaction occurs.
+> 
+> For the KMnO<sub>4</sub> row, both the observation and the responsible functional group are needed for the mark.
+> **[mark-scheme]**
+> i) The role of NaBH<sub>4</sub> is:
+> 
+> - Reducing agent / reductant **[1 mark]**
+> 
+> ii) The equation for this reaction:
+> 
+> - C<sub>2</sub>H<sub>2</sub>O<sub>3</sub> + 2[H] → C<sub>2</sub>H<sub>4</sub>O<sub>3</sub> **[1 mark]**
+> 
+> iii) NaBH<sub>4</sub> is suitable because:
+> 
+> - It reduces the C=O / aldehyde group of glyoxylic acid **AND** does not reduce the COOH group **[1 mark]**
+
+> **[exam-tip]**
+> NaBH<sub>4</sub> is a selective reducing agent, which reduces aldehydes and ketones but not carboxylic acids.
+> 
+> LiAlH<sub>4</sub> reduces both.
+> 
+> This selectivity makes NaBH<sub>4</sub> the right choice here, where only the aldehyde group should be reduced.
+> **[mark-scheme]**
+> i) Glycolic acid would show absorptions not present in the spectrum of **Y**:
+> 
+> - An absorption in the range 2500–3000 cm<sup>-1</sup> due to O–H of RCO<sub>2</sub>H / carboxylic acid **[1 mark]**
+> - An absorption in the range 3200–3600 cm<sup>-1</sup> due to O–H of R–OH / alcohol **[1 mark]**
+
+ii) A possible structure for **Y** is:
+
+![Structure of 1,4-dioxane-2,5-dione](assets/031-structure-of-1-4-dioxane-2-5-dione.png)
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for an ester group **AND** molecular formula C<sub>4</sub>H<sub>4</sub>O<sub>4</sub>
+> 
+> 1 mark for a correct cyclic structure
+
+> **[exam-tip]**
+> For part (i), compare the functional groups in glycolic acid (–OH and –COOH) with what is absent from compound **Y**.
+> 
+> For part (ii), glycolic acid can react with itself: the –OH of one molecule reacts with the –COOH of another to form a cyclic di-ester (lactide). The molecular formula must be C<sub>4</sub>H<sub>4</sub>O<sub>4</sub>.
+
+### Q8
+The equation for the complete combustion of butan-1-ol is:
+
+C<sub>4</sub>H<sub>9</sub>OH + 6O<sub>2</sub> → 4CO<sub>2</sub> + 5H<sub>2</sub>O
+
+**[2 marks]**
+
+> **[mark-scheme]**
+> 1 mark for correct reactants and products
+> 
+> 1 mark for correct balancing
+
+> **[exam-tip]**
+> Write out the molecular formula of butan-1-ol (C<sub>4</sub>H<sub>9</sub>OH) before balancing. Balance in the order: C, H, then O.
+> 
+> A common mistake is to omit O<sub>2</sub> as a reactant, but combustion always requires oxygen.
+> **[mark-scheme]**
+> i) The reagents and conditions for Reaction 1:
+> 
+> - Al<sub>2</sub>O<sub>3</sub> / aluminium oxide catalyst
+> **AND**
+> Heat
+> 
+> **OR**
+> 
+> - Concentrated H<sub>2</sub>SO<sub>4</sub> / concentrated H<sub>3</sub>PO<sub>4</sub>
+> **AND**
+> Heat
+> 
+> **[2 marks]**
+> 
+> ii) The reagent for Reaction 3:
+> 
+> Any **one** from:
+> 
+> - NaBr / KBr **AND** concentrated H<sub>2</sub>SO<sub>4</sub>
+> - HBr
+> - PBr<sub>3</sub> with heat
+> 
+> **[1 mark]**
+
+> **[exam-tip]**
+> For Reaction 1 (dehydration), both Al<sub>2</sub>O<sub>3</sub> and concentrated acid catalysts are valid and heat is always required.
+> 
+> For Reaction 3 (substitution to a halogenoalkane), the acid-salt mixture (NaBr + conc H<sub>2</sub>SO<sub>4</sub>) generates HBr in situ; naming HBr directly is also accepted.
+> **[mark-scheme]**
+> The systematic name of compound **A** is:
+> 
+> - Butanone / butan-2-one **[1 mark]**
+
+> **[exam-tip]**
+> Butan-2-ol is a secondary alcohol. Secondary alcohols are oxidised to ketones when heated under reflux with acidified potassium dichromate(VI).
+> 
+> Since the C=O group can only sit at position 2, the number is not strictly necessary, but butanone and butan-2-one are both accepted answers.
+
+### Q9
+i) The structure of compound **A** is:
+
+![Structure of trans-but-2-ene](assets/033-structure-of-trans-but-2-ene.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct structure of trans-but-2-ene
+> 
+> ii) Compound **A** is less soluble in water than butan-2-ol because:
+> 
+> - It does not contain an OH / hydroxyl group
+> **OR**
+> It is not an alcohol **[1 mark]**
+> - It cannot form hydrogen bonds with water **[1 mark]**
+
+> **[exam-tip]**
+> For part (i), the question asks for the stereoisomer of cis-but-2-ene, which is trans-but-2-ene, check carefully before drawing.
+> 
+> For part (ii), solubility in water depends on the ability to form hydrogen bonds. Alkenes lack an OH group and cannot hydrogen bond with water molecules.
+> **[mark-scheme]**
+> i) Reagent **Y** is:
+> 
+> - Phosphorus pentachloride / PCl<sub>5</sub> **[1 mark]**
+> 
+> ii) The formulae of the **two** other products are:
+> 
+> - HCl **[1 mark]**
+> - POCl<sub>3</sub> **[1 mark]**
+
+> **[exam-tip]**
+> The clue to the identity of reagent **Y** is the reaction conditions: room temperature. PCl<sub>5</sub> reacts with alcohols at room temperature, whereas PCl<sub>3</sub> requires heat. The products are always the chloroalkane, HCl, and POCl<sub>3</sub>.
+> **[mark-scheme]**
+> The equation for the overall reaction is:
+> 
+> - PBr<sub>3</sub> + 3C<sub>4</sub>H<sub>9</sub>OH → 3C<sub>4</sub>H<sub>9</sub>Br + H<sub>3</sub>PO<sub>3</sub> **[1 mark]**
+> 
+> State symbols are not required.
+
+> **[exam-tip]**
+> One mole of PBr<sub>3</sub> reacts with three moles of the alcohol.
+> 
+> The inorganic by-product is phosphorous acid (H<sub>3</sub>PO<sub>3</sub>), not phosphoric acid (H<sub>3</sub>PO<sub>4</sub>). Take care not to confuse the inorganic by-product.
+> **[mark-scheme]**
+> i) Reagent **X** is:
+> 
+> - SOCl<sub>2</sub> / thionyl chloride **[1 mark]**
+
+ii) The structure of compound **B** is:
+
+![Structure of 2-chlorobutane](assets/034-structure-of-2-chlorobutane.jpeg)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct structure of 2-chlorobutane
+
+> **[exam-tip]**
+> The clue to reagent **X** is the other products: HCl and SO<sub>2</sub>.
+> 
+> Only thionyl chloride (SOCl<sub>2</sub>) produces both of these alongside the chloroalkane. Compound **B** is 2-chlorobutane, with the Cl at position 2.
+
+### Q10
+i) The displayed formula of alcohol **A** is:
+
+![3,3-dimethylbutan-2-ol displayed formula](assets/035-3-3-dimethylbutan-2-ol-displayed-formula.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula of 3,3-dimethylbutan-2-ol
+> 
+> The systematic name of alcohol **A** is:
+> 
+> - 3,3-dimethylbutan-2-ol **[1 mark]**
+
+ii) The product formed when alcohol **A** is heated under reflux with acidified potassium dichromate(VI) is:
+
+![3,3-dimethylbutan-2-one displayed formula](assets/036-3-3-dimethylbutan-2-one-displayed-formula.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula of the 3,3-dimethylbutan-2-one product
+
+iii) The product formed when alcohol **B** is heated under reflux with acidified potassium dichromate(VI) is:
+
+![3,3-dimethylbutanoic acid displayed formula](assets/037-3-3-dimethylbutanoic-acid-displayed-formula.png)
+
+**[1 mark]**
+
+> **[mark-scheme]**
+> 1 mark for correct displayed formula of the 3,3-dimethylbutanoic acid product
+> 
+> Alcohol **B** gives a different product because:
+> 
+> - A carboxylic acid is formed instead of a ketone **[1 mark]**
+> - Alcohol **B** is a primary alcohol whereas alcohol **A** is a secondary alcohol **[1 mark]**
+
+> **[exam-tip]**
+> Alcohol **A** is secondary (C–OH bonded to two alkyl groups) so oxidises to a ketone.
+> 
+> Alcohol **B** is primary (C–OH bonded to one alkyl group) so oxidises fully to a carboxylic acid under reflux.
+> **[mark-scheme]**
+> i) The type of reaction is:
+> 
+> - Substitution **[1 mark]**
+> 
+> ii) Suitable reagents are:
+> 
+> - NaBr / KBr **AND** concentrated H<sub>2</sub>SO<sub>4</sub> **[1 mark]**
+> 
+> HBr is also accepted.
+
+> **[exam-tip]**
+> The NaBr / conc H<sub>2</sub>SO<sub>4</sub> mixture generates HBr in situ, which reacts with the alcohol by nucleophilic substitution. The OH<sup>-</sup> of the alcohol is replaced by Br<sup>-</sup>.
+> **[mark-scheme]**
+> Both alcohols are soluble in water because:
+> 
+> - They contain O–H bonds / hydroxy groups **[1 mark]**
+> - Hydrogen bonds can form between the O–H of the alcohol and water molecules **[1 mark]**
+
+> **[exam-tip]**
+> Hydrogen bonding occurs between the lone pairs on the electronegative oxygen of the alcohol and the H atoms of water molecules (and vice versa). Solubility in water decreases as the non-polar hydrocarbon chain lengthens, but both alcohols here are sufficiently short-chain to remain water-soluble.
+> **[mark-scheme]**
+> When heated with alkaline I<sub>2</sub> (aq):
+> 
+> - Alcohol **A**: yellow precipitate **[1 mark]**
+> - Alcohol **B**: no visible change **[1 mark]**
+
+> **[exam-tip]**
+> The iodoform test is positive for alcohols containing the CH<sub>3</sub>CH(OH)– group.
+> 
+> Alcohol **A** (3,3-dimethylbutan-2-ol) contains this structural feature
+> 
+> Alcohol **B** (3,3-dimethylbutan-1-ol, primary) does not, and primary alcohols (except ethanol) do not give a positive iodoform test.

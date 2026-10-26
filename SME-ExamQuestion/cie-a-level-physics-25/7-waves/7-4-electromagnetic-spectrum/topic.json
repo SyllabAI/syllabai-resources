@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:29:08Z",
+ "generated_utc": "2026-10-26T14:43:44Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/",
@@ -48,21 +48,38 @@
    "question_count": 18,
    "questions_embedded": 18,
    "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/7-waves/7-4-electromagnetic-spectrum/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_DVTWMsTB4FxMVFFR",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard"
+   ],
+   "question_count": 7,
+   "questions_embedded": 7,
+   "page_url": "https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/7-waves/7-4-electromagnetic-spectrum/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 18,
+  "questions_embedded": 25,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images346png.png": "001-cie-ial-images346png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images344png.png": "002-cie-ial-images344png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images345png.png": "003-cie-ial-images345png.png",
    "https://cdn.savemyexams.com/uploads/2023/05/cie-ial-images347png.png": "004-cie-ial-images347png.png",
-   "https://cdn.savemyexams.com/uploads/2024/01/cie-7-4-mcq-hard-q2-cie-ial-physics.png": "005-cie-7-4-mcq-hard-q2-cie-ial-physics.png"
+   "https://cdn.savemyexams.com/uploads/2024/01/cie-7-4-mcq-hard-q2-cie-ial-physics.png": "005-cie-7-4-mcq-hard-q2-cie-ial-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-1-s-q--q4a-answer-hard-aqa-a-level-physics.png": "006-3-1-s-q-q4a-answer-hard-aqa-a-level-physics.png",
+   "https://cdn.savemyexams.com/uploads/2023/05/3-1-s-q--q4a-answer-image1-hard-aqa-a-level-physics.png": "007-3-1-s-q-q4a-answer-image1-hard-aqa-a-level-physi.png"
   }
  },
  "questions": [
@@ -831,6 +848,13 @@
        "latex": "c=fλ",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>=</mo><mi>f</mi><mi>λ</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "c equals f lambda"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "c equals open parentheses f over 2 close parentheses open parentheses 2 lambda close parentheses",
+       "render": "$c = ( \\frac{f}{2} ) ( 2 \\\\lambda )$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1081,6 +1105,13 @@
        "latex": "λ=\\frac{dsinθ}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#955;</mi><mo>=</mo><mfrac><mrow><mi>d</mi><mo>&#160;</mo><mi>s</mi><mi>i</mi><mi>n</mi><mi>&#952;</mi></mrow><mn>2</mn></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
        "alt": "lambda equals fraction numerator d space s i n theta over denominator 2 end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "lambda equals fraction numerator open parentheses 0.02 cross times 10 to the power of negative 3 end exponent close parentheses cross times sin space open parentheses 3.96 close parentheses over denominator 2 end fraction",
+       "render": "$\\\\lambda = \\frac{( 0.02 \\times 10^{- 3} ) \\times \\sin ( 3.96 )}{2}$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -1263,6 +1294,790 @@
        "latex": "λ=\\frac{3.00\\times10^{8}}{3\\times10^{19}}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>&#955;</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>3</mn><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><msup><mn>10</mn><mn>19</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
        "alt": "lambda equals fraction numerator 3.00 space cross times space 10 to the power of 8 over denominator 3 space cross times space 10 to the power of 19 end fraction"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_rX7WQrC3bGfh5M4J",
+   "set_slug": "structured-questions",
+   "order": 5,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_YNSGQJ9J4f8YXh8V",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "justify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "Justify the approximation of the speed of light in air as 3.00×10<sup>8</sup> m s<sup>−1</sup>.",
+     "solution_md": "Justify the approximation of the speed of light in air as 3.00×10<sup>8</sup> m s<sup>−1</sup>:\n\n- 3.00×10<sup>8</sup> m s<sup>−1 </sup>is the speed of light in free space / a vacuum;** [1 mark]**\n- The reduction in speed as light travels through air is negligible (therefore 3.00×10<sup>8</sup> m s<sup>−1</sup> is a reasonable approximation); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The CIE IAL Physics specification defines **justify** as 'support a case with evidence / argument'.*\n\n> *Therefore, you must provide evidence (speed of light in free space) and then present your argument or reason as to why this is a reasonable approximation of the speed of light in air (that the decrease in speed is negligible).*"
+    },
+    {
+     "id": "qstnprt_TX2CTk6YqdQn5XtS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "sketch",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "Frequency and wavelength are fundamental properties of all waves. The relationship between them depends on the context of interaction and on the type of wave in question.\n\nSketch a graph showing the relationship between the frequency and wavelength of an electromagnetic wave.",
+     "solution_md": "The relationship between the frequency and wavelength of an electromagnetic wave:\n\n- A sketch graph that would score 2 marks:\n\n![3-1-s-q--q4a-answer-hard-aqa-a-level-physics](assets/006-3-1-s-q-q4a-answer-hard-aqa-a-level-physics.png)\n\n- Inverse proportion curve;** [1 mark]**\n- Axes labelled frequency / *f ***AND** wavelength / *λ*;** [1 mark] **\n\n**[Total: 2 marks]**** **\n\n> *The axes could be labelled either way around because the relationship is still inversely proportional.*\n\n> *This question assesses your understanding of the fact that the speed of electromagnetic waves is constant. We know the equation for wave speed is given by: *\n\n> *v = fλ                         *\n\n> *Therefore, if the speed **v** is constant, then it is true that **f** is inversely proportional to **λ**. Examiners sometimes like to test your recognition of inverse-proportionality graphs – not to be confused with inverse-square relationships (which look steeper). This distinction is sketched below:*\n\n![3-1-s-q--q4a-answer-image1-hard-aqa-a-level-physics](assets/007-3-1-s-q-q4a-answer-image1-hard-aqa-a-level-physi.png)"
+    },
+    {
+     "id": "qstnprt_n7f8htR7WGq35Jjj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "Electromagnetic waves carry energy through the vacuum of space as progressive transverse waves.\n\nDescribe the motion of an electromagnetic wave with reference to the appropriate fields.",
+     "solution_md": "Describe the motion of the fields which comprise an electromagnetic wave:\n\n- Electromagnetic waves are made of electric and magnetic fields; **[1 mark]**\n- These fields oscillate at 90 degrees / perpendicular to each other; **[1 mark] **\n\nDescribe the direction of energy transfer:\n\n- (Because electromagnetic waves are transverse,) energy transfer is 90 degrees / perpendicular to the direction of (field) oscillations; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pVgMw7r442jMJrt4",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_6SRHW7dZqNf3fHNt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "Give the name of electromagnetic wave with the\n\n(i) Lowest energy.\n\n[1]\n\n(ii) Shortest wavelength.\n\n[1]\n\n(iii) Lowest frequency.\n\n[1]",
+     "solution_md": "(i) The EM wave with the lowest energy is...\n\n- Radio; **[1 mark]**\n\n(ii) The EM wave with the shortest wavelength is...\n\n- Gamma; **[1 mark]**\n\n(iii) The EM wave with the lowest frequency is...\n\n- Radio; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *The shorter the wavelength, the higher the frequency. The higher the frequency, the higher the energy. You need to be super confident in these relationships. Questions may be asked in terms of increasing or decreasing wavelength and frequency. Make sure you are never caught out by this. *"
+    },
+    {
+     "id": "qstnprt_dmCWrB4FBvny3Zh7",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "State the range of wavelengths for infrared radiation.",
+     "solution_md": "EM radiation falls between...\n\n- 7×10<sup>−7 </sup>m **[1 mark]** to\n- 1×10<sup>−3 </sup>m **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *You need to give your answer as a range to score the mark.*"
+    },
+    {
+     "id": "qstnprt_4TKwhJxFJ3Mj6JWQ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nState the range of wavelengths for infrared radiation.\nEM radiation falls between 7×10^−7 m to 1×10^−3 m\n\nDetermine the range of frequencies for infrared radiation.",
+     "solution_md": "To determine the range of frequencies for infrared radiation:\n\nList the known quantities:\n\n- Longest wavelength = 1×10<sup>−3</sup> m (from part (b))\n- Shortest wavelength = 7×10<sup>−7</sup> m (from part (b))\n- Speed of light in free space, c = 3.00×10<sup>8</sup> m s<sup>−1</sup> (from the data page)\n\nTo determine the highest frequency:\n\n- $v=fλ\\rightarrowf=\\frac{v}{λ}$\n- $f_{H}=\\frac{3.00\\times10^{8}}{7\\times10^{-7}}$ **[1 mark]**\n- $f_{H}=4\\times10^{14}\\mathrm{Hz}$** [1 mark]**\n\nTo determine the lowest frequency:\n\n- $f_{L}=\\frac{3.00\\times10^{8}}{1\\times10^{-3}}$** [1 mark]**\n- $f_{L}=3\\times10^{11}\\mathrm{Hz}$** [1 mark]**\n\n**[Total: 4 marks]**\n\n> *Remember that to calculate the highest frequency you need to use the shortest wavelength and vice versa.*\n\n> *The expected final answers here are expressed to 1 significant figure, consistent with the data given. Marks are awarded for correct working and a correct final answer — you will not be penalised for expressing a correct answer to more significant figures*",
+     "equations": [
+      {
+       "latex": "v=fλ\\rightarrowf=\\frac{v}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>f</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>f</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>v</mi><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space f lambda space space rightwards arrow space space f space equals space v over lambda"
+      },
+      {
+       "latex": "f_{H}=\\frac{3.00\\times10^{8}}{7\\times10^{-7}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mi>H</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>7</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript H space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 7 cross times 10 to the power of negative 7 end exponent end fraction"
+      },
+      {
+       "latex": "f_{H}=4\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mi>H</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript H space equals space 4 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "f_{L}=\\frac{3.00\\times10^{8}}{1\\times10^{-3}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mi>L</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript L space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 1 cross times 10 to the power of negative 3 end exponent end fraction"
+      },
+      {
+       "latex": "f_{L}=3\\times10^{11}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mi>L</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mn>11</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript L space equals space 3 cross times 10 to the power of 11 space Hz"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_MzcMc9mBVSnW7Mnv",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "show",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dRVGB6f6RGsF4xJd"
+     ],
+     "part_tier": null,
+     "problem_md": "The visible region of the electromagnetic spectrum has frequencies ranging from 4.3×10<sup>14</sup> Hz to 7.5×10<sup>14</sup> Hz.\n\nShow that the wavelength of visible light is 400 nm to 700 nm.",
+     "solution_md": "To show that the wavelength of visible light is 400 nm to 700 nm:\n\nList the known quantities:\n\n- Lowest frequency = 4.3×10<sup>14</sup> Hz\n- Highest frequency = 7.5×10<sup>14</sup> Hz\n- Speed of light in free space, c = 3.00×10<sup>8</sup> m s<sup>−1</sup> (from the data page)\n\nTo determine the longest wavelength:\n\n- $v = f λ \\rightarrow λ = \\frac{v}{f}$ **[1 mark]**\n- $λ_{L}=\\frac{3.00\\times10^{8}}{4.3\\times10^{14}}=7.0\\times10^{-7}m=700\\times10^{-9}m=700\\mathrm{nm}$** [1 mark]**\n\nTo determine the shortest wavelength:\n\n- $λ_{S}=\\frac{3.00\\times10^{8}}{7.5\\times10^{14}}=4\\times10^{-7}m=400\\times10^{-9}m=400\\mathrm{nm}$** [1 mark]**\n\n**[Total: 3 marks]**\n\n> *Remember that to calculate the longest wavelength you need to use the lowest frequency and vice versa.*",
+     "equations": [
+      {
+       "latex": "v = f λ \\rightarrow λ = \\frac{v}{f}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mi>f</mi><mi>&#x3BB;</mi><mo>&#x2192;</mo><mi>&#x3BB;</mi><mo>=</mo><mfrac><mi>v</mi><mi>f</mi></mfrac></math>",
+       "alt": "v = f \\lambda \\rightarrow \\lambda = \\frac{v}{f}"
+      },
+      {
+       "latex": "λ_{L}=\\frac{3.00\\times10^{8}}{4.3\\times10^{14}}=7.0\\times10^{-7}m=700\\times10^{-9}m=700\\mathrm{nm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mi>L</mi></msub><mo>=</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>4</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup></mrow></mfrac><mo>=</mo><mn>7</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>=</mo><mn>700</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>=</mo><mn>700</mn><mo>&#160;</mo><mi>nm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "lambda subscript L equals fraction numerator 3.00 cross times 10 to the power of 8 over denominator 4.3 cross times 10 to the power of 14 end fraction equals 7.0 cross times 10 to the power of negative 7 end exponent space straight m equals 700 cross times 10 to the power of negative 9 end exponent space straight m equals 700 space nm"
+      },
+      {
+       "latex": "λ_{S}=\\frac{3.00\\times10^{8}}{7.5\\times10^{14}}=4\\times10^{-7}m=400\\times10^{-9}m=400\\mathrm{nm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mi>S</mi></msub><mo>=</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>7</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup></mrow></mfrac><mo>=</mo><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>=</mo><mn>400</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>=</mo><mn>400</mn><mo>&#160;</mo><mi>nm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "lambda subscript S equals fraction numerator 3.00 cross times 10 to the power of 8 over denominator 7.5 cross times 10 to the power of 14 end fraction equals 4 cross times 10 to the power of negative 7 end exponent space straight m equals 400 cross times 10 to the power of negative 9 end exponent space straight m equals 400 space nm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_dHfJhH8DVKMsVbs3",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 8,
+   "parts": [
+    {
+     "id": "qstnprt_qbXFq6njjFBjkkR4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "EM waves consist of oscillations in two perpendicular fields.\n\nState the names of the fields.",
+     "solution_md": "The perpendicular fields in which EM waves oscillate are:\n\n- Electric; **[1 mark]**\n- Magnetic; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_9HqZ3HBZpwXSq55R",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "Table 1.1 lists the names of the waves in the EM spectrum in order of increasing frequency.\n\n**Table 1.1**\n\n| **EM wave** |\n|---|\n| Radio |\n|   |\n| Infrared |\n|   |\n| Ultraviolet |\n|   |\n| Gamma |\n\nComplete Table 1.1 by adding in the missing information.",
+     "solution_md": "A table scoring 3 marks:\n\n| **EM wave** |\n|---|\n| Radio |\n| **Microwave****; ****[1 mark]** |\n| Infrared |\n| **Visible light****; ****[1 mark]** |\n| Ultraviolet |\n| **X-rays****; ****[1 mark]** |\n| Gamma |\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_yQYHct3qjyTXgpbh",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "State two uses for infrared radiation.",
+     "solution_md": "Uses of infrared radiation:\n\n**Final answer:** **Any ****two**** from:**\n\n- Remote controls; **[1 mark]**\n- Fibre optic communication; **[1 mark]**\n- Wireless communications; **[1 mark]**\n- Thermal imaging; **[1 mark]**\n- Night vision; **[1 mark]**\n- Heating; **[1 mark]**\n- Cooking; **[1 mark]**\n- Motion sensors; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *You should know this already from IGCSE, but make sure you can name a couple of uses for each EM wave.*"
+    },
+    {
+     "id": "qstnprt_xRbZ9mKkZG8QN65X",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "Give a value for the speed of gamma radiation travelling through a vacuum.",
+     "solution_md": "The speed of gamma radiation travelling through a vacuum is:\n\n- 3.00×10<sup>8</sup> m s<sup>−1</sup> **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *This question can be asked in many ways, but it will always have the same answer! **All** EM waves travel at the speed of light!*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_cnnQh3zHYJQMDd6T",
+   "set_slug": "structured-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_27GMmwkMk98BPn9h",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "State the three types of EM radiation that are used for communications.",
+     "solution_md": "The three types of EM radiation that are used for communications are...\n\n- Radio waves\n- Microwaves\n- Infrared\n\n**All correct for 1 mark**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_yX695kgXj7sy6Qz6",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "State the properties common to all electromagnetic radiation.",
+     "solution_md": "The properties common to all types of EM radiation are:\n\n- Travel at the speed of light (3.00×10<sup>8</sup> m s<sup>−1</sup>) in free space; **[1 mark]**\n- Transverse **OR** oscillations are perpendicular to the direction of energy transfer; **[1 mark]**\n- Progressive waves **OR** carry energy; **[1 mark]**\n- Can be polarised / diffracted / refracted / reflected / undergo interference; **[1 mark]**\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_vQBhp2tzyxQYBRpj",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn",
+      "spcpt_dRVGB6f6RGsF4xJd"
+     ],
+     "part_tier": null,
+     "problem_md": "Dogs can see wavelengths in the range of 430 - 475 nm which they perceive as blue, and 500 - 620 nm which they perceive as yellow.\n\nDetermine the range of frequencies which dog's eyes can detect.",
+     "solution_md": "To determine the range of frequencies which dog's eyes can detect:\n\nList the known quantities:\n\nBlue:\n\n- $λ_{Bmax}=475\\mathrm{nm}=475\\times10^{-9}m$\n- $λ_{Bmin}=430\\mathrm{nm}=430\\times10^{-9}m$\n\nYellow:\n\n- $λ_{Ymax}=620\\mathrm{nm}=620\\times10^{-9}m$\n- $λ_{Ymin}=500\\mathrm{nm}=500\\times10^{-9}m$\n\nFrom the data page:\n\n- Speed of light in free space, $c=3.00\\times10^{8}ms^{-1}$\n\nTo determine the range for (perceived) blue light:\n\n- Using the wave speed equation, $v=fλ\\Rightarrowf=\\frac{c}{λ}$\n\n  - $f_{Bmax}=\\frac{3.00\\times10^{8}}{430\\times10^{-9}}=7.0\\times10^{14}\\mathrm{Hz}$** [1 mark]**\n  - $f_{Bmin}=\\frac{3.00\\times10^{8}}{475\\times10^{-9}}=6.32\\times10^{14}\\mathrm{Hz}$** [1 mark]**\n\nTo determine the range for (perceived) yellow light:\n\n- $f_{Ymax}=\\frac{3.00\\times10^{8}}{500\\times10^{-9}}=6\\times10^{14}\\mathrm{Hz}$** [1 mark]**\n- $f_{Ymin}=\\frac{3.00\\times10^{8}}{620\\times10^{-9}}=4.8\\times10^{14}\\mathrm{Hz}$** [1 mark]**\n\nState the range of frequencies that a dog's eye can detect:\n\n- $4.8\\times10^{14}\\mathrm{Hz}$  to  $7.0\\times10^{14}\\mathrm{Hz}$ **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *Remember that when calculating ranges, to find the maximum frequency you need to use the minimum wavelength and vice versa.*",
+     "equations": [
+      {
+       "latex": "λ_{Bmax}=475\\mathrm{nm}=475\\times10^{-9}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>B</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>475</mn><mo>&#160;</mo><mi>nm</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>475</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript B space m a x end subscript space equals space 475 space nm space equals space 475 cross times 10 to the power of negative 9 end exponent space straight m"
+      },
+      {
+       "latex": "λ_{Bmin}=430\\mathrm{nm}=430\\times10^{-9}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>B</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>430</mn><mo>&#160;</mo><mi>nm</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>430</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript B space m i n end subscript space equals space 430 space nm space equals space 430 cross times 10 to the power of negative 9 end exponent space straight m"
+      },
+      {
+       "latex": "λ_{Ymax}=620\\mathrm{nm}=620\\times10^{-9}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>Y</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>620</mn><mo>&#160;</mo><mi>nm</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>620</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript Y space m a x end subscript space equals space 620 space nm space equals space 620 cross times 10 to the power of negative 9 end exponent space straight m"
+      },
+      {
+       "latex": "λ_{Ymin}=500\\mathrm{nm}=500\\times10^{-9}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>Y</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>500</mn><mo>&#160;</mo><mi>nm</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>500</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript Y space m i n end subscript space equals space 500 space nm space equals space 500 cross times 10 to the power of negative 9 end exponent space straight m"
+      },
+      {
+       "latex": "c=3.00\\times10^{8}ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c space equals space 3.00 cross times 10 to the power of 8 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "v=fλ\\Rightarrowf=\\frac{c}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>f</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>f</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>c</mi><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space f lambda space space rightwards double arrow space space f space equals space c over lambda"
+      },
+      {
+       "latex": "f_{Bmax}=\\frac{3.00\\times10^{8}}{430\\times10^{-9}}=7.0\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>B</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>430</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>7</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript B space m a x end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 430 cross times 10 to the power of negative 9 end exponent end fraction space equals space 7.0 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "f_{Bmin}=\\frac{3.00\\times10^{8}}{475\\times10^{-9}}=6.32\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>B</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>475</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn><mo>.</mo><mn>32</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript B space m i n end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 475 cross times 10 to the power of negative 9 end exponent end fraction space equals space 6.32 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "f_{Ymax}=\\frac{3.00\\times10^{8}}{500\\times10^{-9}}=6\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>Y</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>500</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>6</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript Y space m a x end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 500 cross times 10 to the power of negative 9 end exponent end fraction space equals space 6 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "f_{Ymin}=\\frac{3.00\\times10^{8}}{620\\times10^{-9}}=4.8\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>Y</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>620</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>9</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f subscript Y space m i n end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 620 cross times 10 to the power of negative 9 end exponent end fraction space equals space 4.8 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "4.8\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4</mn><mo>.</mo><mn>8</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4.8 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "7.0\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>7</mn><mo>.</mo><mn>0</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "7.0 cross times 10 to the power of 14 space Hz"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_6zhrrHfFb97bKJTZ",
+   "set_slug": "structured-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_5vCNv6YfkXHBYgHF",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the table by stating the correct electromagnetic wave for each range of wavelengths.\n\n| EM wave | Range of wavelengths / m |\n|---|---|\n|   | 10<sup>−1</sup> - 10<sup>6</sup> |\n|   | 4×10<sup>−7</sup> - 7×10<sup>−7</sup> |\n|   | 10<sup>−16</sup> -  10<sup>−10</sup> |",
+     "solution_md": "A table scoring three marks:\n\n| EM wave | Range of wavelengths / m |\n|---|---|\n| **Radio waves****; [1 mark]** | 10<sup>−1</sup> - 10<sup>6</sup> |\n| **Visible light****; [1 mark]** | 4×10<sup>−7</sup> - 7×10<sup>−7</sup> |\n| **Gamma****; ****[1 mark]** | 10<sup>−16</sup> -  10<sup>−10</sup> |\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_v9HJ5YdPcRwzP74d",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "determine",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nComplete the table by stating the correct electromagnetic wave for each range of wavelengths.\n\nEM wave / Range of wavelengths / m\nRadio waves: 10^−1 - 10^6\nVisible light: 4×10^−7 - 7×10^−7\nGamma: 10^−16 - 10^−10\n\nDetermine the range of frequencies for the three waves given in part (a).",
+     "solution_md": "To determine the range of frequencies for the three waves given in part (a):\n\nRadio waves:\n\n- $λ_{Rmax}=1\\times10^{6}m$\n- $λ_{Rmin}=1\\times10^{-1}m$\n- Speed of light in free space, $c=3.00\\times10^{8}ms^{-1}$\n\n- Using the wave speed equation:\n\n  - $v=fλ\\Rightarrowf=\\frac{c}{λ}$\n  - $f_{Rmin}=\\frac{3.00\\times10^{8}}{1\\times10^{6}}=300\\mathrm{Hz}$ **[1 mark]**\n  - $f_{Rmax}=\\frac{3.00\\times10^{8}}{1\\times10^{-1}}=3.00\\times10^{9}\\mathrm{Hz}$ **[1 mark]**\n\nVisible light:\n\n- $λ_{Vmax}=7\\times10^{-7}m$\n- $λ_{Vmin}=4\\times10^{-7}m$\n\n- Using the wave speed equation:\n\n  - $f_{Vmin}=\\frac{3.00\\times10^{8}}{7\\times10^{-7}}=4.3\\times10^{14}\\mathrm{Hz}$ **[1 mark]**\n  - $f_{Vmax}=\\frac{3.00\\times10^{8}}{4\\times10^{-7}}=7.5\\times10^{14}\\mathrm{Hz}$ **[1 mark]**\n\nGamma radiation:\n\n- $λ_{Gmax}=1\\times10^{-10}m$\n- $λ_{Gmin}=1\\times10^{-16}m$\n\n- Using the wave speed equation:\n\n  - $f_{Gmin}=\\frac{3.00\\times10^{8}}{1\\times10^{-10}}=3\\times10^{18}\\mathrm{Hz}$ **[1 mark]**\n  - $f_{Gmax}=\\frac{3.00\\times10^{8}}{1\\times10^{-16}}=3\\times10^{24}\\mathrm{Hz}$ **[1 mark]**\n\n**[Total: 6 marks]**\n\n> *Remember that to find the **minimum** frequency of a range you need to use the **maximum** wavelength and vice versa.*",
+     "equations": [
+      {
+       "latex": "λ_{Rmax}=1\\times10^{6}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>R</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript R space m a x end subscript space equals space 1 cross times 10 to the power of 6 space straight m"
+      },
+      {
+       "latex": "λ_{Rmin}=1\\times10^{-1}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>R</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript R space m i n end subscript space equals space 1 cross times 10 to the power of negative 1 end exponent space straight m"
+      },
+      {
+       "latex": "c=3.00\\times10^{8}ms^{-1}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi><mo>&#160;</mo><msup><mi mathvariant=\"normal\">s</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "c space equals space 3.00 cross times 10 to the power of 8 space straight m space straight s to the power of negative 1 end exponent"
+      },
+      {
+       "latex": "v=fλ\\Rightarrowf=\\frac{c}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>f</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#8658;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>f</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>c</mi><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space f lambda space space rightwards double arrow space space f space equals space c over lambda"
+      },
+      {
+       "latex": "f_{Rmin}=\\frac{3.00\\times10^{8}}{1\\times10^{6}}=300\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>R</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mn>6</mn></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>300</mn><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript R space m i n end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 1 cross times 10 to the power of 6 end fraction space equals space 300 space Hz"
+      },
+      {
+       "latex": "f_{Rmax}=\\frac{3.00\\times10^{8}}{1\\times10^{-1}}=3.00\\times10^{9}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>R</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript R space m a x end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 1 cross times 10 to the power of negative 1 end exponent end fraction space equals space 3.00 cross times 10 to the power of 9 space Hz"
+      },
+      {
+       "latex": "λ_{Vmax}=7\\times10^{-7}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>V</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>7</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript V space m a x end subscript space equals space 7 cross times 10 to the power of negative 7 end exponent space straight m"
+      },
+      {
+       "latex": "λ_{Vmin}=4\\times10^{-7}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>V</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript V space m i n end subscript space equals space 4 cross times 10 to the power of negative 7 end exponent space straight m"
+      },
+      {
+       "latex": "f_{Vmin}=\\frac{3.00\\times10^{8}}{7\\times10^{-7}}=4.3\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>V</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>7</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mo>.</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript V space m i n end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 7 cross times 10 to the power of negative 7 end exponent end fraction space equals space 4.3 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "f_{Vmax}=\\frac{3.00\\times10^{8}}{4\\times10^{-7}}=7.5\\times10^{14}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>V</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>7</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>7</mn><mo>.</mo><mn>5</mn><mo>&#215;</mo><msup><mn>10</mn><mn>14</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript V space m a x end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 4 cross times 10 to the power of negative 7 end exponent end fraction space equals space 7.5 cross times 10 to the power of 14 space Hz"
+      },
+      {
+       "latex": "λ_{Gmax}=1\\times10^{-10}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>G</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>10</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript G space m a x end subscript space equals space 1 cross times 10 to the power of negative 10 end exponent space straight m"
+      },
+      {
+       "latex": "λ_{Gmin}=1\\times10^{-16}m",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>&#955;</mi><mrow><mi>G</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>16</mn></mrow></msup><mo>&#160;</mo><mi mathvariant=\"normal\">m</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "lambda subscript G space m i n end subscript space equals space 1 cross times 10 to the power of negative 16 end exponent space straight m"
+      },
+      {
+       "latex": "f_{Gmin}=\\frac{3.00\\times10^{8}}{1\\times10^{-10}}=3\\times10^{18}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>G</mi><mo>&#160;</mo><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>10</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mn>18</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript G space m i n end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 1 cross times 10 to the power of negative 10 end exponent end fraction space equals space 3 cross times 10 to the power of 18 space Hz"
+      },
+      {
+       "latex": "f_{Gmax}=\\frac{3.00\\times10^{8}}{1\\times10^{-16}}=3\\times10^{24}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mrow><mi>G</mi><mo>&#160;</mo><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>16</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mn>24</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "f subscript G space m a x end subscript space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 1 cross times 10 to the power of negative 16 end exponent end fraction space equals space 3 cross times 10 to the power of 24 space Hz"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_zK2DS42nCTfp35yc",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn",
+      "spcpt_dRVGB6f6RGsF4xJd"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nComplete the table by stating the correct electromagnetic wave for each range of wavelengths. Visible light: 4×10^−7 - 7×10^−7 (Range of wavelengths / m)\n\nSuggest a reasonable estimate for the wavelength of green light. Explain your answer.",
+     "solution_md": "A reasonable estimate for the wavelength of green light is...\n\n- 550 nm **OR** 5.5 × 10<sup>−7</sup> m **[1 mark]**\n\nExplanation:\n\n- There are seven colours in the visible spectrum and green is exactly in the middle; **[1 mark]**\n\n  - Red, orange, yellow, green, blue, indigo, violet\n- The range of visible light is 400 nm - 700 nm, so green light is exactly in the middle of this range; **[1 mark]**\n\n  - Range = $700-400=300\\mathrm{nm}$\n  - Half of range = $\\frac{300}{2}=150\\mathrm{nm}$\n  - Min wavelength + half of range  = $400+150=550\\mathrm{nm}$\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "700-400=300\\mathrm{nm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>700</mn><mo>&#160;</mo><mo>-</mo><mo>&#160;</mo><mn>400</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>300</mn><mo>&#160;</mo><mi>nm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "700 space minus space 400 space equals space 300 space nm"
+      },
+      {
+       "latex": "\\frac{300}{2}=150\\mathrm{nm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>300</mn><mn>2</mn></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>150</mn><mo>&#160;</mo><mi>nm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "300 over 2 space equals space 150 space nm"
+      },
+      {
+       "latex": "400+150=550\\mathrm{nm}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>400</mn><mo>&#160;</mo><mo>+</mo><mo>&#160;</mo><mn>150</mn><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>550</mn><mo>&#160;</mo><mi>nm</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "400 space plus space 150 space equals space 550 space nm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_4fZsqTctSv2Xwv8N",
+   "set_slug": "structured-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_8tWyRDr4D4kjXcCd",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "list",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "List the electromagnetic waves in order of increasing wavelength.",
+     "solution_md": "The electromagnetic waves in order of increasing wavelength are:\n\n- Gamma\n- X-rays\n- Ultraviolet\n- Visible light\n- Infrared\n- Microwaves\n- Radio waves\n\n**All correct for 1 mark**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_TZybhFHsfwJbMpsf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "State the two types of electromagnetic radiation that can knock electrons out of orbit.",
+     "solution_md": "Two types of EM radiation that can cause ionisation are:\n\n**Final answer:** **Any**** two**** from:**\n\n- Gamma; **[1 mark]**\n- X-rays; **[1 mark]**\n- Ultraviolet;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_cG3mXSvZ2Rp762Qt",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following sentence about electromagnetic radiation by choosing the correct word.\n\n| **wavelength** | **frequency** | **amplitude**<sup>**2**</sup> |\n|---|---|---|\n\nThe energy of an electromagnetic wave is directly proportional to ..............................",
+     "solution_md": "The energy of an electromagnetic wave is directly proportional to....\n\n- Frequency; **[1 mark]**\n\n**[Total: 1 mark]**\n\n> *Energy is **inversely** **proportional** to wavelength (the shorter wavelengths have the highest energy), and **intensity** is **proportional** to amplitude squared. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_34Tt2q6NBd9x34vC",
+   "set_slug": "structured-questions",
+   "order": 6,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_2hKq2PJd9K5prYwj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_JkmKvs9X3TBRdnRn"
+     ],
+     "part_tier": null,
+     "problem_md": "Microwaves can be used in communications between satellites.\n\nCalculate the frequency range for microwaves.",
+     "solution_md": "To determine the range of frequencies for microwave radiation:\n\nList the known quantities:\n\n- Speed of light in free space, *c* = 3.00×10<sup>8</sup> m s<sup>−1</sup> (from the data page)\n- Range of wavelengths for microwave radiation = 0.1 m - 1×10<sup>−3</sup> m **[1 mark]**\n\nDetermine the highest and lowest frequency:\n\n- Highest frequency comes from the shortest wavelength\n- Lowest frequency comes from the longest wavelength\n\n- $v=fλ\\rightarrowf=\\frac{v}{λ}$\n- $f_{H}=\\frac{3.00\\times10^{8}}{1\\times10^{-3}}=3\\times10^{11}\\mathrm{Hz}$\n- $f_{L}=\\frac{3.00\\times10^{8}}{0.1}=3\\times10^{9}\\mathrm{Hz}$** **\n- Range of frequencies of microwave radiation = 3×10<sup>11</sup> Hz - 3×10<sup>9</sup> Hz **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *You are expected to be able to recall the ranges of wavelengths for the different waves in the EM spectrum.*",
+     "equations": [
+      {
+       "latex": "v=fλ\\rightarrowf=\\frac{v}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>f</mi><mi>&#955;</mi><mo>&#160;</mo><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>f</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>v</mi><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space f lambda space space rightwards arrow space space f space equals space v over lambda"
+      },
+      {
+       "latex": "f_{H}=\\frac{3.00\\times10^{8}}{1\\times10^{-3}}=3\\times10^{11}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mi>H</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>1</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>3</mn></mrow></msup></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mn>11</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f subscript H space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 1 cross times 10 to the power of negative 3 end exponent end fraction space equals space 3 cross times 10 to the power of 11 space Hz"
+      },
+      {
+       "latex": "f_{L}=\\frac{3.00\\times10^{8}}{0.1}=3\\times10^{9}\\mathrm{Hz}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>f</mi><mi>L</mi></msub><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow><mrow><mn>0</mn><mo>.</mo><mn>1</mn></mrow></mfrac><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>3</mn><mo>&#215;</mo><msup><mn>10</mn><mn>9</mn></msup><mo>&#160;</mo><mi>Hz</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "f subscript L space equals space fraction numerator 3.00 cross times 10 to the power of 8 over denominator 0.1 end fraction space equals space 3 cross times 10 to the power of 9 space Hz"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_Xzjkrk4x6bWqGbD5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "calculate",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "A satellite passing Neptune communicates with Earth using a microwave transmitter with an output power of 24.0 W and wavelength 78 900 µm.\n\nThe satellite's controller is located on Earth, at a distance of 4.40 × 10<sup>12 </sup>m when the signal is transmitted.\n\nFor this communication\n\n(i) Calculate the time taken for the signal to be detected by the controller.\n\n[1]\n\n(ii) Calculate the energy of a microwave photon.\n\n[2]",
+     "solution_md": "(i) Calculate the time taken for the signal to be detected by the controller:\n\nList the known quantities:\n\n- Distance from satellite to controller, *s* = 4.40 × 10<sup>12 </sup>m\n- Speed of light in free space, *c* = 3.00 × 10<sup>8 </sup>m s<sup>−1</sup> (from the data page)\n\nUsing the speed equation, calculate time taken:\n\n- $v=\\frac{d}{t}\\rightarrowt=\\frac{d}{v}$\n- $t=\\frac{4.40\\times10^{12}}{3.00\\times10^{8}}$ = 1.47 × 10<sup>4</sup> s** [1 mark]  **\n\n(ii) Calculate the energy of a microwave photon:\n\nList the known quantities:\n\n- Wavelength of microwave, *λ* = 78 900 µm\n- Planck constant, *h* = 6.63 × 10<sup>−34</sup> J s (from the data page)\n\nCombine the photon energy and wave speed equations to give a formula for energy using wavelength:\n\n- Wave speed, $v=fλ$ and photon energy, $E=hf$\n- $E=\\frac{hc}{λ}$ **[1 mark]**\n\nSubstitute the known values to calculate the energy of a microwave photon:\n\n- $E = \\frac{( 6.63 \\times 10^{- 34} ) \\times ( 3.00 \\times 10^{8 )}{78900 \\times 10^{-6} } }$ = 2.52 × 10<sup>−24</sup> J (3 s.f.) **[1 mark]**\n\n**[Total: 3 marks]**",
+     "equations": [
+      {
+       "latex": "v=\\frac{d}{t}\\rightarrowt=\\frac{d}{v}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>d</mi><mi>t</mi></mfrac><mo>&#160;</mo><mo>&#160;</mo><mo>&#8594;</mo><mo>&#160;</mo><mo>&#160;</mo><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mi>d</mi><mi>v</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space d over t space space rightwards arrow space space t space equals space d over v"
+      },
+      {
+       "latex": "t=\\frac{4.40\\times10^{12}}{3.00\\times10^{8}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>t</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>4</mn><mo>.</mo><mn>40</mn><mo>&#215;</mo><msup><mn>10</mn><mn>12</mn></msup></mrow><mrow><mn>3</mn><mo>.</mo><mn>00</mn><mo>&#215;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "t space equals space fraction numerator 4.40 cross times 10 to the power of 12 over denominator 3.00 cross times 10 to the power of 8 end fraction"
+      },
+      {
+       "latex": "v=fλ",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>f</mi><mi>&#955;</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "v space equals space f lambda"
+      },
+      {
+       "latex": "E=hf",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mi>h</mi><mi>f</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "E space equals space h f"
+      },
+      {
+       "latex": "E=\\frac{hc}{λ}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>h</mi><mi>c</mi></mrow><mi>&#955;</mi></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "E space equals space fraction numerator h c over denominator lambda end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "E space equals space fraction numerator open parentheses 6.63 cross times 10 to the power of negative 34 end exponent close parentheses space cross times space open parentheses 3.00 cross times 10 to the power of 8 close parentheses over denominator 78900 cross times 10 to the power of negative 6 end exponent end fraction",
+       "render": "$E = \\frac{( 6.63 \\times 10^{- 34} ) \\times ( 3.00 \\times 10^{8 )}{78900 \\times 10^{-6} } }$",
+       "via": "alt-transpile"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_GM7zzSfFTfnTbdxG",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MZ2VMVghHJ4prn34"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA satellite passing Neptune communicates with Earth using a microwave transmitter with an output power of 24.0 W and wavelength 78 900 µm. The satellite's controller is located on Earth, at a distance of 4.40 × 10^12 m when the signal is transmitted.\n\n(ii) Calculate the energy of a microwave photon: E = hc/λ = (6.63 × 10^−34 × 3.00 × 10^8)/(78900 × 10^−6) = 2.52 × 10^−24 J (3 s.f.)\n\nThe controller dish aerial has an effective area of 258 m<sup>2</sup>.\n\nFor the communication from part (b)\n\n(i) Determine the power received by the controller dish aerial. You may assume that the power transmitted by the satellite radiates uniformly in all directions.\n\n[2]\n\n(ii) The actual power received by the controller dish aerial is 1.4 × 10<sup>−15</sup> W. Suggest why this is different to the calculated power received.\n\n[2]\n\n(iii) Calculate the rate at which microwave photons arrive at the controller dish aerial.\n\n[2]",
+     "solution_md": "(i) Determine the power received by the controller dish aerial:\n\nList the known quantities:\n\n- Output power of satellite = 24.0 W (from part (b))\n- Distance from satellite to controller = 4.40 × 10<sup>12</sup> m\n- Area of controller dish aerial = 258 m<sup>2</sup>\n\nDevise a formula for the amount of power reaching the controller dish:\n\n- Surface area of a sphere, $A=4πr^{2}$\n- Since the power transmitted by the satellite is assumed to radiate uniformly in all directions\n- $P=\\frac{\\mathrm{Output} \\mathrm{power}}{4πr^{2}}\\times\\mathrm{area} \\mathrm{of} \\mathrm{controller} \\mathrm{dish}$** [1 mark]**\n\nSubstitute the known values to calculate the power reaching the controller dish:\n\n- $P = \\frac{24.0}{4 \\mathrm{\\pi } \\times ( 4.40 \\times 10^{12} )^{2}} \\times 258$ = 2.55 × 10<sup>−23</sup> W (3 s.f.)** [1 mark]**\n\n(ii) The actual power received by the controller dish aerial is 1.4 × 10<sup>−15</sup> W. Suggest why this is different to the calculated power received:\n\n- The calculation <u>assumed that power is radiated uniformly in all directions</u>, but (in reality) the signal emitted by the satellite is directed to Earth (by a dish); **[1 mark]**\n- Therefore, the calculated power received is less than the actual power received because <u>less power is lost</u> (radiating in different directions); **[1 mark]**\n\n(iii) Calculate the rate at which the microwave photons actually arrive at the controller dish aerial:\n\nList the known quantities:\n\n- Energy of a microwave photon, *E* = 2.52 × 10<sup>−24 </sup>J (from part (b))\n\nDevise a formula for the rate of photon detection:\n\n- $\\mathrm{Rate} \\mathrm{of} \\mathrm{photon} \\mathrm{detection}=\\frac{\\mathrm{Power} \\mathrm{received}}{\\mathrm{Energy} \\mathrm{of}a\\mathrm{microwave} \\mathrm{photon}}$**[1 mark]**\n\nSubstitute in the known values to calculate the rate of photon detection:\n\n- $\\mathrm{Rate} \\mathrm{of} \\mathrm{photon} \\mathrm{detection}=\\frac{1.4\\times10^{-15}}{2.52\\times10^{-24}}$ = 5.6 × 10<sup>8 </sup>s<sup>-1</sup> (2 s.f.)** [1 mark]**\n\n**[Total: 6 marks]**\n\n> *This question is synoptic; it draws on content from multiple topics, as exam questions frequently do. If you need some help with the maths, it is covered in more detail in the *[*Luminosity & Radiant Flux*](https://www.savemyexams.com/a-level/physics/cie/25/revision-notes/25-astronomy-and-cosmology/25-1-standard-candles/luminosity-and-radiant-flux/)* Revision Note.*",
+     "equations": [
+      {
+       "latex": "A=4πr^{2}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "A space equals space 4 straight pi r squared"
+      },
+      {
+       "latex": "P=\\frac{\\mathrm{Output} \\mathrm{power}}{4πr^{2}}\\times\\mathrm{area} \\mathrm{of} \\mathrm{controller} \\mathrm{dish}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mi>Output</mi><mo>&#160;</mo><mi>power</mi></mrow><mrow><mn>4</mn><mi mathvariant=\"normal\">&#960;</mi><msup><mi>r</mi><mn mathvariant=\"italic\">2</mn></msup></mrow></mfrac><mo>&#160;</mo><mo>&#215;</mo><mo>&#160;</mo><mi>area</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>controller</mi><mo>&#160;</mo><mi>dish</mi></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "P space equals space fraction numerator Output space power over denominator 4 straight pi r to the power of italic 2 end fraction space cross times space area space of space controller space dish"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "P space equals space fraction numerator 24.0 over denominator 4 straight pi space cross times open parentheses 4.40 cross times 10 to the power of 12 close parentheses squared end fraction space cross times 258",
+       "render": "$P = \\frac{24.0}{4 \\mathrm{\\pi } \\times ( 4.40 \\times 10^{12} )^{2}} \\times 258$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "\\mathrm{Rate} \\mathrm{of} \\mathrm{photon} \\mathrm{detection}=\\frac{\\mathrm{Power} \\mathrm{received}}{\\mathrm{Energy} \\mathrm{of}a\\mathrm{microwave} \\mathrm{photon}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Rate</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>photon</mi><mo>&#160;</mo><mi>detection</mi><mo>&#160;</mo><mo>=</mo><mfrac><mrow><mi>Power</mi><mo>&#160;</mo><mi>received</mi></mrow><mrow><mi>Energy</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi mathvariant=\"normal\">a</mi><mo>&#160;</mo><mi>microwave</mi><mo>&#160;</mo><mi>photon</mi></mrow></mfrac><mo>&#160;</mo></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "Rate space of space photon space detection space equals fraction numerator Power space received over denominator Energy space of space straight a space microwave space photon end fraction space"
+      },
+      {
+       "latex": "\\mathrm{Rate} \\mathrm{of} \\mathrm{photon} \\mathrm{detection}=\\frac{1.4\\times10^{-15}}{2.52\\times10^{-24}}",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Rate</mi><mo>&#160;</mo><mi>of</mi><mo>&#160;</mo><mi>photon</mi><mo>&#160;</mo><mi>detection</mi><mo>&#160;</mo><mo>=</mo><mo>&#160;</mo><mfrac><mrow><mn>1</mn><mo>.</mo><mn>4</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>15</mn></mrow></msup></mrow><mrow><mn>2</mn><mo>.</mo><mn>52</mn><mo>&#215;</mo><msup><mn>10</mn><mrow><mo>-</mo><mn>24</mn></mrow></msup></mrow></mfrac></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\"}</annotation></semantics></math>",
+       "alt": "Rate space of space photon space detection space equals space fraction numerator 1.4 cross times 10 to the power of negative 15 end exponent over denominator 2.52 cross times 10 to the power of negative 24 end exponent end fraction"
       }
      ]
     }

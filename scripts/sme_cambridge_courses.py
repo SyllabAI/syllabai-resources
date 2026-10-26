@@ -48,16 +48,29 @@ CACHE = Path("/home/z/my-project/.cache")
 CENSUS = CACHE / "sme_cambridge_sitemap_census.json"
 
 # (level, subject, mid) per lane; mid may span variant segments.
+# 2026-10-26 operator directive (zai-web trace 1a178211cb946f29 "Order a
+# scrape lane"): adds a-level geography 21 (post-census SME addition, found
+# by the SME-COVERAGE-AUDIT r0 live-sitemap diff) and reverses the 2026-10-17
+# subset-view exclusion for the 7 AS lanes (biology 25, business 23,
+# chemistry 25, computer-science 19, maths 20, physics 25, accounting 21) —
+# syllabai now mirrors SME's own course catalog per level. Known tradeoff:
+# AS trees overlap the a-level lanes' AS content (disclosed in the PR).
 A_LEVEL = [("accounting", "21"), ("biology", "25"), ("business", "23"),
            ("chemistry", "25"), ("computer-science", "19"),
-           ("economics", "23"),
+           ("economics", "23"), ("geography", "21"),
            ("maths", "20/mechanics"), ("maths", "20/pure-1"),
            ("maths", "20/pure-3"),
            ("maths", "20/probability-and-statistics-1"),
            ("maths", "20/probability-and-statistics-2"),
            ("physics", "25")]
-AS_ONLY = [("english", "general-paper/21"),
-           ("environmental-management", "20")]
+AS_ONLY = [("accounting", "21"),
+           ("biology", "25"), ("business", "23"), ("chemistry", "25"),
+           ("computer-science", "19"), ("english", "general-paper/21"),
+           ("environmental-management", "20"),
+           ("maths", "20/mechanics"), ("maths", "20/pure-1"),
+           ("maths", "20/pure-2"),
+           ("maths", "20/probability-and-statistics-1"),
+           ("physics", "25")]
 IGCSE = [("accounting", "21"), ("accounting", "25"), ("biology", "23"),
          ("business", "23"), ("business", "25"), ("chemistry", "23"),
          ("computer-science", "23"), ("economics", "20"),

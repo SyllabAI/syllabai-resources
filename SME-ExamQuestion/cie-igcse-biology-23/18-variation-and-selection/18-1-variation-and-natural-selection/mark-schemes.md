@@ -272,3 +272,482 @@ Carbon dioxide can only enter the plant through the stomata. Carbon dioxide is n
 A person's weight is determined by both **genetic factors** and the amount of food they have access to and choose to eat, and how active they are (environmental factors).
 
 All the other answers are incorrect as these refer to characteristics that are determined by** genetic factors **only.
+
+## Theory Questions (12 questions)
+
+
+### Q1
+(i)
+
+- 17;  **[1 mark]**
+- 4 + 13 = 17
+
+(ii)
+
+- 1;  **[1 mark]**
+- 5 - 4 = 1
+
+(iii)
+
+- There are two / limited / discrete / distinct, categories / groups;  **[1 mark]**
+- There are no, intermediates / range / intervals; **[1 mark]**
+
+(iv)
+
+- The ability to roll your tongue; **[1 mark]**
+
+*Accept any other valid suggestion e.g. blood type / earlobe attachment / eye colour; * **[1 mark]**
+
+(v)
+
+- Height; **[1 mark]**
+
+*Accept any other valid suggestion e.g. weight / IQ / blood pressure / foot size; * **[1 mark]**
+
+**[Total: 6 marks]**
+![A biology worksheet with blanks filled: "genetic", "alleles", "ionising", and "increase", each worth 1 mark.](assets/007-a-biology-worksheet-with-blanks-filled-genetic-a.png)
+
+**[Total: 4 marks]**
+
+### Q2
+Any three from:
+
+- Breed / cross / mate two white goats; **[1 mark]**
+- Select offspring with white coats and breed again / do not breed the offspring with black coats; **[1 mark]**
+- (Repeat this process) over many generations;  **[1 mark]**
+- (To increase the chance that all the sheep will be) homozygous dominant;  **[1 mark]**
+
+It is important to memorise the steps in this process because the mark schemes for these kinds of questions always follow a very similar format with different examples of species.
+
+**[Total: 3 marks]**
+
+### Q3
+> **[mark-scheme]**
+> The changes in mean beak depth shown in Table 1 can be described as follows:
+> 
+> Any **two** of the following:
+> 
+> - Mean beak depth increased (on both islands); **[1 mark]**
+> - Island B had a greater increase in mean beak depth than Island A; **[1 mark]**
+> - Island A had an increase in beak depth from 9.4 to 10.7 mm / of 1.3 mm; **[1 mark]**
+> - Island B had an increase in beak depth from 9.5 to 11.1 mm / of 1.6 mm; **[1 mark]**
+> 
+> **[Total: 2 marks]**
+> **[mark-scheme]**
+> The mean beak depth of finches increased on both islands after the drought because:
+> 
+> Any **three** of the following:
+> 
+> - Finches with deeper beaks were able to find more food / eat the larger seeds; **[1 mark]**
+> - Finches with deeper beaks had a greater chance of surviving than those with smaller beaks;
+> - Finches with deeper beaks were more likely to reproduce; **[1 mark]**
+> - The alleles for deeper beaks were passed on to offspring. **[1 mark]**
+> 
+> **[Total: 3 marks]**
+> **[mark-scheme]**
+> (i) A prolonged increase in rainfall would affect the beak depth of the finch populations as follows:
+> 
+> - Average beak depth would decrease; **[1 mark]**
+> 
+> (ii) This can be explained as follows:
+> 
+> - Seeds would soak up more water and become softer; **[1 mark]**
+> - Finches with smaller beaks would be better able to eat the (softer) seeds / finches with deeper beaks would find the softer seeds more difficult to eat; **[1 mark]**
+> - Finches with smaller beaks more likely to survive and reproduce; **[1 mark]**
+> 
+> **[Total: 4 marks]**
+> **[mark-scheme]**
+> The student's statement can be evaluated as follows:
+> 
+> *Incorrect:*
+> 
+> - Mutations are <u>random</u> and not caused by environmental change; **[1 mark]**
+> 
+> *Correct:*
+> 
+> - Natural selection acts on variation that occurs due to mutation / mutation can give rise to new alleles on which natural selection can act; **[1 mark]**
+> 
+> **[Total: 2 marks]**
+
+### Q4
+The environment xerophytes are adapted to are:
+
+- A dry/arid environment *(accept a named dry environment such as salt marsh, desert, polar regions);* **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *A xerophyte is a type of plant that has adaptations to survive in an environment with little **liquid** water. A common mistake is to think that this environment has to be hot or tropical. *
+(i) The type of variation shown in the graph is:
+
+- Discontinuous; **[1 mark]**
+
+(ii) The type of leaf spike is an example of the variation because:
+
+Any **two **from the following:
+
+- There are a limited number of phenotypes / only three categories; **[1 mark]**
+- There are no intermediates / discrete / separate categories; **[1 mark]**
+- (Leaf variation is) caused by genes only; **[1 mark]**
+- The data is displayed as a bar chart (which has gaps); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+Two named features of leaves that show the type of variation shown in Fig. 2. are:
+
+Any **two **from the following:
+
+- The thickness / length / width / mass / concentration of pigment / volume / surface area of any leaf feature; **[1 mark]**
+- The density of stomata; **[1 mark]**
+- The number of veins / chloroplasts / spikes; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Continuous variation is when there are very many small degrees of difference for a particular characteristic between individuals and they are arranged in order and can usually be measured on a scale. So this might be leaf length for example. *
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+One reason for the difference in variation of leaf feature **B** after one year is:
+
+Any **one **from the following:
+
+- (The ecologist) measured different leaves; **[1 mark]**
+- (There was a) change in (a named) environmental (feature) *(You must have a named environmental feature for this mark)*; **[1 mark]**
+- (The plant/xerophyte) adapted to the environment; **[1 mark]**
+- The leaves / plant have grown / gotten older; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+
+### Q5
+The coat colours of horses in the table are as follows...
+
+| **genotype** | **black coat** | **red coat** |
+|---|---|---|
+| **EE** | **✔** |   |
+| **Ee** | **✔** |   |
+| **ee** |   | **✔** |
+| ** ** | ; **[1 mark]** | ; **[1 mark]** |
+
+**[1 mark]*** is awarded per correct column of ticks.*
+
+**[Total: 2 marks]**
+The term used to describe the difference between individuals of the same species is...
+
+- Variation; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Breeds are groups of organisms within a species that share certain characteristics. These differences between breeds are still within a single species, and we refer to differences with a species as **variation**.*
+The process of selective breeding involves the following...
+
+Any **three **of the following:
+
+- Humans choose/select individuals with (named) desirable features; **[1 mark]**
+- (Selected individuals) mate/breed/are crossed together; **[1 mark]**
+- The offspring with (the same) desired feature is/are selected; **[1 mark]**
+- Repeat (the above) over many generations; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Selective breeding is a process that takes many generations. Individuals with desired characteristics are selected and bred together, and then any **offspring** showing the same desired characteristics are bred together. This process needs to be **repeated many times** before the characteristics appear consistently.*
+Natural selection differs from selective breeding as follows...
+
+- Characteristics/features are not selected by humans; **[1 mark]**
+- (Characteristics/features provide) adaptation to environment / increased chance of survival in environment; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The principles behind natural and artificial selection are the same; they both involve selection of a favourable characteristic and then an increased likelihood of that characteristics being passed on to the next generation. The difference is the source of the selection; in artificial selection, the favourable characteristics is selected by **humans** (e.g. because it is useful or looks nice), while in natural selection the favourable characteristic is 'selected' by the **environment** in which an individual lives due to the characteristic being **adaptive**, e.g. the ability to run fast would be 'selected' by the presence of a predator (because slow individuals would be killed), or thick fur would be selected by a cold climate (because individuals with thin fur would die from cold).*
+
+### Q6
+The term *species* refers to:
+
+- A (group of) organisms that can reproduce...;** [1 mark]**
+- ...to produce fertile offspring; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question part covers core content but is taken from an extended paper 4 question.*
+Apart from the presence of hair, other features that distinguish mammals from all other vertebrates include:
+
+Any **two **from the following:
+
+- Pinna(e) / external ears;** [1 mark]**
+- Mammary glands / milk glands / production of milk / lactating / suckling / breast feeding / nipples;** [1 mark]**
+- Diaphragm; ** [1 mark]**
+- (Three) bones in the middle ear;** [1 mark]**
+- (Four) different types of teeth / two sets of teeth; ** [1 mark]**
+- Sweat glands; ** [1 mark]**
+- Enucleated red blood cells / red blood cells with no nucleus; ** [1 mark]**
+- Uterus / placenta / navel;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question part covers core content but is taken from an extended paper 4 question.*
+The steps that breeders would take to breed sheep that have wool with very thin hairs include:
+
+Any **five **from the following:
+
+- Select parent(s)/sheep with fine/thin hairs (in wool) **OR** use Merino sheep from South Africa **and** NZ sheep;** [1 mark]**
+- Cross/breed them together / use artificial insemination/IVF;**[1 mark]**
+- Measure/assess the hairs in the wool of all the offspring; **[1 mark]**
+- Select offspring with fine/thin hairs (in their wool);**[1 mark]**
+- Cross/breed/mate offspring (with thin hairs) together; **[1 mark]**
+- Continue/repeat selection and/or breeding;**[1 mark]**
+- (Repeat) over many generations;**[1 mark]**
+
+*A maximum of four marks can be awarded here if no reference is made to the quality of wool as this is the selected desirable characteristics.*
+
+**[Total: 5 marks]**
+
+> *This question part covers core content but is taken from an extended paper 4 question.*
+Natural selection differs from selective breeding in the following ways:
+
+Any **three **from the following:
+
+Note that all of the below statements relate to natural selection.
+
+- Features (evolved through natural selection) are adaptive / adaptations (for environment); **[1 mark]**
+- (Features are selected for) by the environment /  an organism's surroundings; **[1 mark]**
+- (There is) competition between individuals for (named) resource(s); **[1 mark]**
+- Reference to named selective agent(s), e.g. food availability, presence of predators, cold temperatures etc.; **[1 mark]**
+- Slow(er) (than artificial selection); **[1 mark]**
+- Increases the ability (of the individuals) to survive **AND** reproduce (in their environment); **[1 mark]**
+- Maintains (genetic) variation / selective breeding reduces genetic variation; **[1 mark]**
+- Random mating (as opposed to planned mating in selecting breeding);**[1 mark]**
+
+**[Total: 3 marks]**
+
+> *In natural selection features of the environment (e.g. the presence of predators or a lack of food) 'select' the characteristics that will be passed on to the next generation; individuals with characteristics that increase their survival chances within their environment are more likely to **survive** and **reproduce** and so **pass on these advantageous characteristics**.*
+
+> *In artificial selection it is **humans that select** the most desirable characteristics and plan a breeding programme to ensure that these characteristics are passed on. The features selected by humans are desirable but may not increase the survival chances of the individual organisms in the wild, and by breeding related individuals together the genetic variation of a population is reduced.*
+
+### Q7
+Fig. 1 shows that blood group is an example of discontinuous variation because:
+
+Any **one **from the following:
+
+- Limited number of phenotypes / categories / groups; **[1 mark]**
+- No intermediates; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *There is a common misconception that discontinuous variation describes a type of characteristic that cannot change throughout an individual's lifetime. Remember that discontinuous variation is always plotted as a bar chart because the data is always split into categories. *
+The examples of discontinuous variation are:
+
+| Attached or unattached earlobes | ✓; **[1 mark]** |
+|---|---|
+| Foot length |   |
+| Height |   |
+| Tongue rolling | ✓;**[1 mark]** |
+| Weight |   |
+
+**[Total: 2 marks]**
+The correct sentences about mutation are:
+
+![cie-igcse-2018-s2-may-p3-q8c-mutation-question-ms](assets/015-cie-igcse-2018-s2-may-p3-q8c-mutation-question-m.png)
+
+**[1 mark] ***for each correct line*
+
+**[Total: 3 marks]**
+
+> *If the question says to draw three lines you need to make sure to draw the exact correct number. Any more or less may mean marks are not awarded. Always draw lines with a ruler to avoid confusion. *
+
+### Q8
+A comparison of natural selection with artificial selection is...
+
+- Natural selection occurs naturally due to selection pressures within the environment **whereas **artificial selection is carried out by humans (selecting organisms with the most suitable characteristics); **[1 mark]**
+- Natural selection results in populations with features/characteristics better adapted to the environment **whereas **artificial selection results in populations (more) useful to humans; **[1 mark]**
+- Natural selection takes many generations / a long time to occur **whereas **artificial selection takes fewer generations / less time to occur; **[1 mark]**
+
+**[Total: 3 marks]**
+Selective breeding of the Wild Mustard Plant has led to the development of the Kale plant by...
+
+- Individual plants with large/many leaves are selected by humans; **[1 mark]**
+- (These individual plants) are bred together/crossed; **[1 mark]**
+- Offspring with large/many leaves are selected **and **bred together/crossed; **[1 mark]**
+- Over many/lots of generations; **[1 mark]**
+
+***Accept ****description of plant breeding for marking point 2*
+
+**[Total: 4 marks]**
+
+> *You do not need to give details on how to breed and cross plants here. But you should be specific to the context of the question, which in this case is about Kale. You can see from Fig. 1 that kale has larger leaves compared to the mustard plant so this is the feature that is desired and has been selected for. *
+The data shows...
+
+- As the generations increase the frequency of variant **X** increases; **[1 mark]**
+- Because variant **X** is resistant to streptomycin; **[1 mark]**
+- As the generations increase the frequency of variant **Y** decreases; **[1 mark]**
+- Because variant **Y** is not resistant to streptomycin **OR** variant **Y** is killed/affected by streptomycin; **[1 mark]**
+
+**[Total: 4 marks]**
+The process that has led to the results shown by variant **X** is...
+
+Any **four **of the following from:
+
+- Variation occurs with the population of variant **X**; **[1 mark]**
+- Some bacteria show resistance to streptomycin **OR **variant **X** has a gene for resistance to streptomycin; **[1 mark]**
+- Variant **X** is better adapted to the environment (with streptomycin) **and **survive and reproduce; **[1 mark]**
+- Other variants will not survive and therefore will not reproduce; **[1 mark]**
+- Better adapted bacteria / variant **X** will pass on their alleles to the next generation; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Variant **X** is able to reproduce and pass on their alleles to the next generation which will result in an increase in the number of variant **X** within the population. At the same time, variant **Y** will be killed by the presence of streptomycin since they do not contain the allele that would make them resistant to streptomycin. Over many generations, this will result in variant **X** making up a greater proportion of the total population compared to variant **Y** and this is reflected in the data from Table 1.*
+
+### Q9
+(i) A mutation is...
+
+- A random change in the base sequence of DNA; **[1 mark]**
+
+(ii) Fig. 1 shows...
+
+- As the dose of UV radiation increased the percentage of mutations increased; **[1 mark]**
+- Because radiation can damage bonds in DNA **OR **can alter the base sequence of DNA; **[1 mark]**
+
+(iii) The percentage change is...
+
+- (50 ÷ 2.5) x 100; **[1 mark]**
+- 2000 (%); **[1 mark]**
+
+**[Total: 5 marks]**
+
+![WJnOkwPZ_picture1](assets/018-wjnokwpz-picture1.png)
+An explanation as to whether all mutations are harmful or not is...
+
+- No, **BECAUSE** some (mutations are) neutral which cause no harm to the individual; **[1 mark]**
+- Some (mutations) form new alleles which may be beneficial/advantageous / increase the chance of survival; **[1 mark]**
+
+***Accept ****named example for either marking point such as extra digit for marking point 1 or resistance to disease for marking point 2*
+
+**[Total: 2 marks]**
+
+> *You do not need to know specific examples of mutations and their effects in order to answer this question. *
+The classification of ant is:
+
+- Kingdom: Animal; **[1 mark]**
+- Phylum: Arthropod; **[1 mark]**
+- Class: Insect; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *You can tell that the ant is an arthropod due to its jointed legs. It has three body parts and six legs meaning it is an insect. *
+This tells you this about adaptive features of ants...
+
+- The adaptive features of ants are well suited to their habitats; **[1 mark]**
+- **Because **little or no natural selection has taken place; **[1 mark]**
+- **Therefore **individuals with variation have not been selected for **OR **these individuals have not reproduced; **[1 mark]**
+- (And have) not passed on their alleles to the next generation; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *There has been little change in the physical structures of ants, as shown by fossil records, which tells us that ants are well adapted animals. There has been little need for adaptations through natural selection to take place. *
+
+> *You do need to fully explain your answer here, given the command word in the question stem and indicated by the number of marks available. *
+
+### Q10
+(i) Characteristics in which these students show continuous variation are:
+
+Any **three **from the following:
+
+- Height; **[1 mark]**
+- Weight; **[1 mark]**
+- Skin colour; **[1 mark]**
+- Hair colour / length; **[1 mark]**
+- Any other valid point such as arm length or leg length;**[1 mark]**
+
+(ii) An example of discontinuous variation is:
+
+Any **one **from the following:
+
+- Tongue rolling; **[1 mark]**
+- Gender; **[1 mark]**
+- Any other valid example such as eye colour or blood group; **[1 mark]**
+
+**[Total: 4 marks]**
+
+### Q11
+Two adaptive features visible in Fig. 1 are...
+
+Any **two** from the following:
+
+- Rolled leaf; **[1 mark]**
+- Hairs; **[1 mark]**
+- Thick (waxy) cuticle; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Although sunken stomata are a key feature of xerophytic plants, they are not clearly visible in the image shown in Fig. 1.*
+
+![4d714aec-d0d2-4c49-bd85-a38409fe739a](assets/023-4d714aec-d0d2-4c49-bd85-a38409fe739a.jpeg)
+The feature is an adaptation for the plant because...
+
+- **Rolled leaf:**
+- Moist air is trapped and prevents air movement across stomata; **[1 mark]**
+- This reduces the evaporation rate; **[1 mark]**
+
+**OR**
+
+- **Hairs**:
+- Traps moist air and prevents air movement across stomata; **[1 mark]**
+- This reduces transpiration; **[1 mark]**
+
+**OR**
+
+- **Thick waxy cuticle:**
+- Reduces water loss; **[1 mark]**
+- By acting as a barrier to evaporation **OR **the shiny surface reflects heat and so lowers the temperature; **[1 mark]**
+
+**[Total: 2 marks]**
+The leaf shown in Fig. 2 is from...
+
+- A hydrophyte; **[1 mark]**
+- Large air spaces (in the leaf); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *You should be able to recognise this adaptation clearly from Fig. 2 as it is a common and distinctive adaptation of hydrophyte plants which live in water or very wet conditions. The air spaces help the leaf float close to the surface of the water, thereby maximising the absorption of light for photosynthesis. *
+(i) The type of data is shown by the depth of roots within the sediment is.
+
+- Continuous data; **[1 mark]**
+- **Because **there are many small degrees of difference for depth of roots between individuals and depth is measured on a scale; **[1 mark]**
+
+(ii) The type of graph best suited for the data shown in Table 1 is...
+
+- Bar graph; **[1 mark]**
+- **Because **submergence is discontinuous variation; **[1 mark]**
+
+(iii) A conclusion for the data is....
+
+- Plants with floating leaves have deeper roots; **[1 mark]**
+- Plants with submerged leaves have more shallow roots **OR **as leaves become more submerged their roots are more shallow; **[1 mark]**
+
+**[Total: 6 marks]**
+
+### Q12
+The breed of sheep that would be most suitable for both meat and wool would be:
+
+- Merino; **[1 mark]**
+
+The reason for this is:
+
+- It has a good yield for wool / meat / very good wool quality; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The Merino breed of sheep provides the best of both worlds for the farmer. They produce a good yield of wool that is of very good quality, while also providing a good meat yield. All the other breeds of sheep listed in the table are either average or poor for at least one of these qualities.*
+The process a farmer would use to produce a new breed of sheep with very good milk yield and wool quality is:
+
+Any **four **from the following:
+
+- They would use Awassi and Merino sheep; **[1 mark]**
+- Breed/cross/mate the sheep together; **[1 mark]**
+- Pick/select the offspring with the desired characteristics/phenotype; **[1 mark]**
+- The chosen offspring would be allowed to breed with each other; **[1 mark]**
+- The chosen offspring could be bred/crossed with Awassi/Merino sheep; **[1 mark]**
+- This process would be repeated for many/several generations; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Make sure that you know the steps involved with selective breeding very well. You will need to apply the general outline of the process to the specific example given in the question, in this case, the different breeds of sheep. It would make sense to breed the Awassi (very good milk yield) and the Merino (very good wool quality) together in order to produce offspring that would have both of these desired characteristics. By selecting and breeding the offspring that display these characteristics over many generations, will lead to a population of sheep that will all have these qualities.*

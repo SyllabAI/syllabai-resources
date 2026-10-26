@@ -270,3 +270,303 @@
 **C **is incorrect because if there is no internal resistance in the battery (and the wires have negligible resistance), the sum of p.d. across the components connected to the battery will be 9.0 V
 
 **D **is incorrect because the e.m.f of a battery does not tell anything about its internal resistance. If the battery has some internal resistance, the p.d. across the battery terminals will not be exactly 9.0 V, but less
+
+## Structured Questions (5 questions)
+
+
+### Q1
+Definitions and units for the variables:
+
+(i) *I  *is:
+
+- Current **AND** (Measured in) Amps / A; **[1 mark]**
+
+(ii) *R  *is:
+
+- <u>Load</u> resistance / resistance of load **AND** (Measured in) Ohms / Ω; **[1 mark]**
+
+(iii) *r * is:
+
+- <u>Internal</u> resistance **AND** (Measured in) Ohms / Ω; **[1 mark]**** **
+
+**[Total: 3 marks]**
+A sketch that would score 5 marks should look like:
+
+![ms-ir](assets/016-ms-ir.png)
+
+- **[1 mark] **for each variable in its correct box** **
+
+**[Total: 5 marks]**
+List the known quantities:
+
+- Current, *I* = 0.6 mA
+- Resistance, *R* = 2.5 kΩ** **
+
+Convert *I* into amps and *R* into ohms:
+
+- *I* = 0.6 mA = 0.6 × 10<sup>–3</sup> A **AND** *R* = 2.5 kΩ = 2.5 × 10<sup>3</sup> Ω **[1 mark]**** **
+
+Calculate the terminal potential difference, *V* :
+
+- Recall the equation for Ohm's Law:* V* = *IR*
+- *V* = (0.6 × 10<sup>–3</sup>) × (2.5 × 10<sup>3</sup>) **[1 mark]**
+- *V *= 1.5 V **[1 mark]**** **
+
+**[Total: 3 marks]**
+List the known quantities:
+
+- Terminal potential difference *V* = 1.5 V (from part (c))
+- Internal resistance, *r* = 1.3 kΩ
+- Current, *I* = 0.6 mA = 0.6 × 10<sup>–3</sup> A
+
+Convert *r*  into ohms:
+
+- *r* = 1.3 kΩ = 1.3 × 10<sup>3</sup> Ω **[1 mark]**
+
+Calculate the emf, *E*:
+
+- *ε* = *IR* + *Ir* = *V* + *Ir*
+- *ε* = 1.5 + (0.6 × 10<sup>–3</sup>) × (1.3 × 10<sup>3</sup>) **[1 mark]**
+- *ε *= 2.28 = 2.3 V **[1 mark]**** **
+
+**[Total: 3 marks]**
+
+### Q2
+The terminal p.d of a cell may be different to the e.m.f of the cell because:
+
+- The terminal p.d is <u>less</u> than the e.m.f (of the cell); **[1 mark]**
+- (Because) there are lost volts **OR** energy is used / dissipated within the cell; **[1 mark]**
+- Due to internal resistance (in the cell) when a current is supplied; **[1 mark]**
+
+**[Total: 3 marks]**
+List the known quantities:
+
+- Electromotive force (e.m.f), *E* = 6.2 V
+- Resistance of resistor, *R* = 11 Ω
+- Internal resistance, *r* = 7.0 Ω
+
+(i) Determine the internal resistance *r* of the battery
+
+- $E = I ( R + r )$ **[1 mark]**
+- $I=\frac{E}{R+r}=\frac{6.2}{11+7.0}$ **[1 mark]**
+- $I$ = 0.34 A **[1 mark]**
+
+(ii) Determine the terminal p.d. of the battery
+
+- $V=IR$ **[1 mark]**
+- *V* = 0.34 × 11 = 3.74 = 3.7 V **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *The e.m.f. equation is **not** given in your data and formulae sheet, so you must memorise this for your exam and be confident in rearranging it for any variable.*
+The **resistance **in the circuit:
+
+- Increases from (7 + 11 =) 18 Ω to (7 + 11 + 11 =) 29 Ω; **[1 mark]**
+
+The **current **in the circuit:
+
+- Decreases from $( \frac{6.2}{18} = )$ 0.34 A to $( \frac{6.2}{29} = )$ 0.21 A; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *'Quantitatively' means with regards to **numbers**. This implies you must do a calculation to support your answer. Therefore, only using the terms 'increases' or 'decreases' without any numerical justification will not be enough to get the mark here.*
+When the 11 Ω resistor is added in parallel to the initial 11 Ω resistor:
+
+- The battery heats up / there is a heating effect / gets hotter; **[1 mark]**
+- Because the (circuit) resistance decreases; **[1 mark]**
+- So the current / $I$ increases; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *The current increase affects all components of the circuit, including the battery. Heating effects are always related to the **current** (which links to the power dissipated).*
+
+> *'Qualitatively' means no calculations are required in this question, however, it may help you to use numerical relationships to help you form your answer. Remember that when resistors are connected in **parallel**, their overall resistance is **less** than the resistance of each resistor. You can calculate the total resistance for these two resistors connected in parallel to prove this - you should get a value of 5.5 Ω.*
+
+### Q3
+The e.m.f of a cell with internal resistance may be more than the terminal p.d. of the cell because:
+
+- There are lost volts within the cell **OR** energy used / spent on internal resistance; **[1 mark]**
+- When the cell drives a current; **[1 mark]**
+
+**[Total: 2 marks]**
+Comparing the definitions of e.m.f and p.d.:
+
+- E.m.f is the transfer of (chemical) energy from the cell to (electrical) energy in the circuit; **[1 mark]**
+- Whilst p.d. is the transfer of (electrical) energy from the circuit to the surroundings via the components; **[1 mark]**
+- Per unit charge; **[1 mark]**
+
+**[Total: 3 marks]**
+Internal resistance is:
+
+- The resistance <u>of a cell </u>causing loss of voltage / energy loss; **[1 mark]**
+
+**[Total: 1 mark]**
+To calculate *r* of the battery:
+
+List the known quantities:
+
+- Electromotive force, *E* = 15.2 V
+- Current through resistor *A, I* = 400 mA = 0.4 A
+- Power dissipated, *P* = 6 W
+
+Calculate the potential difference *V *through resistor A:
+
+- $P=IV\RightarrowV=\frac{P}{I}$
+- $V=\frac{6}{0.4}=15V$ **[1 mark]**
+
+Calculate the internal resistance, *r*:
+
+- $E=V+Ir\Rightarrowr=\frac{E-V}{I}$
+- $r=\frac{15.2-15}{0.4}$ **[1 mark]**
+- $r=0.5Ω$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q4
+Internal resistance:
+
+- The battery has <u>internal resistance;</u> **[1 mark]**
+
+Lost volts:
+
+**Final answer:** **Any ****one**** from:**
+
+- Some p.d. is used (or lost) to pass current (or charge) through the internal resistance; **[1 mark]**
+- The internal resistance results in / leads to lost volts; **[1 mark]**
+- Terminal p.d. *V* = e.m.f. – lost volts (= e.m.f. ­– (current × internal resistance)); **[1 mark]**
+
+Difference in lost volts between circuits X and Y:
+
+- In X, there is no current / it is an open circuit (therefore) no p.d. is lost; **[1 mark]** **OR**
+- In** **Y, there is a current (therefore) p.d. is lost; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *If you use an equation to explain something in an exam question, either use the worded version of the equation, or make sure you define each term. If you do not do this, you may not be awarded the mark. *
+List the known quantities:
+
+- Terminal p.d., *V* = 4.9 V
+- E.m.f., *ε* = 12 V
+- Current, *I *= 0.41 A
+
+Rearrange e.m.f. equation for internal resistance *r*:
+
+- *ε* *= V + Ir  *therefore, *r = *$\frac{ε-V}{I}$**[1 mark]*** *
+
+Determine the internal resistance *r*:
+
+- *r *= $\frac{12-4.9}{0.41}$ = 17.32*  ***[1 mark]**
+
+Internal resistance *r* of a single cell:
+
+- There are 4 cells
+- So, $\frac{r}{4}$ =* *17.32* × *$\frac{1}{4}$ = 4.329 = 4.3 Ω (2 s.f.) **[1 mark]**** **
+
+**[Total: 3 marks]**
+List the known quantities:
+
+- Total internal resistance, *r* = 17.32 Ω (from part (b))
+- p.d. across each cell, p.d. = $\frac{12}{4}$ = 3.0 V
+- Resistance of load resistor, *R* = 5.2 Ω
+
+Determine the new e.m.f., *ε*:
+
+- Voltmeter reading in circuit** **X = 3.0 + 3.0 + 3.0 – 3.0 = 6.0 V = new e.m.f. in Y **[1 mark]**
+
+Rearrange e.m.f. equation for current *I*:
+
+- *ε* =* V *+* Ir *=* IR *+* Ir*
+- *I *=* *$\frac{ε}{R+r}$* *
+
+Calculate current *I *in circuit Y:
+
+- *I *= $\frac{6.0}{5.2+17.32}$* ***[1 mark]**
+- *I* = 0.27 A **[1 mark]**** **
+
+**[Total: 3 marks]**** **
+
+> *The sum of the p.d. in a closed loop must equal the sum of the e.m.f. (Kirchhoff’s second law). The e.m.f. of each cell can be treated like a vector and the vector sum gives the total e.m.f. of the four connected cells. Despite one of the cells in the battery reversing, the internal resistances are still added up in series. *
+Graph:
+
+- Straight line graph; **[1 mark]**
+- With a negative gradient; **[1 mark]**
+
+![5-4-s-q--q1d-ma-medium-easy-aqa-a-level-physics](assets/021-5-4-s-q-q1d-ma-medium-easy-aqa-a-level-physics.png)
+
+** **Values of *ε* and *r*:
+
+- E.m.f. *ε* is the intercept on the voltage /  y-axis; **[1 mark]**
+- Internal resistance *r* is the gradient; **[1 mark]**** **
+
+**[Total: 4 marks]**
+
+### Q5
+List the known quantities:
+
+- Current, *I* = 2.3 A
+- E.m.f., *ε* = 60.0 V
+
+Calculate total resistance *R* of the circuit:
+
+- Resistance of parallel combination: $\frac{1}{R_{T}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}=\frac{1}{5.0}+\frac{1}{3.0}=\frac{8}{15}$
+- *R*<sub>*T*</sub>* *= $\frac{15}{8}$= 1.875 Ω
+- Total resistance *R * of circuit = 1.875 + 2.0 + 7.0 = 10.875 Ω **[1 mark]**
+
+Calculate terminal pd *V*:
+
+- *V = I ×* *R* = 2.3 × 10.875 = 25.0125 V **[1 mark]**
+
+Calculate the internal resistance *r*:
+
+- *ε* *= V + Ir*, therefore *r =   *$\frac{ε-V}{I}$
+- *r*  = $\frac{60.0-25.0125}{2.3}$ **[1 mark]**
+- *r* = 15.2 Ω = 15 Ω (2 s.f.) **[1 mark]**** **
+
+**[Total: 4 marks]**
+List the known quantities:
+
+- Time, *t* = 4.0 minutes = 4 × 60 = 240 s
+- Current, *I* = 2.3 A (from part (a))
+- Internal resistance, *r* = 15.2 Ω (from part (a))
+
+Energy dissipation calculation:
+
+- Energy dissipated in the battery = energy dissipated by internal resistance
+- *P* = *I*<sup>*2*</sup>*R*
+- Energy = power × time = (*I*<sup>*2*</sup>* × * *r) ×* *t* **[1 mark]**
+- Energy = (2.3)<sup>2</sup> × 15.2 × 240 = 19297.92 J = 19 000 J (2 s.f.) **[1 mark]**** **
+
+**[Total: 2 marks]**
+List the known quantities:
+
+- Time, *t* = 4.0 minutes = 4 × 60 = 240 s
+- Current, *I* = 2.3 A  (from part (a))
+- E.m.f.,  ε = 60.0 V (from part (a))
+- Energy dissipated by battery = 19297.92 J (from part (b))
+
+Calculate total energy transformed by battery:
+
+- *P *= *IV *so here *P *= *Iε*
+- Energy = power × time = *I  × ε*  ×* t*
+- *W* = 2.3 × 60.0 × 240 = 33 120 J **[1 mark]**
+
+Calculate the percentage that is dissipated:
+
+- $\frac{energydissipatedininternalresistance}{energytransformedbybattery}$× 100 = $\frac{19297.92}{33120}$ × 100 = 58.3 % (58 %) **[1 mark]**** **
+
+**[Total: 2 marks]**
+Cause of internal resistance:
+
+- Internal resistance is due to chemicals / components inside the battery; **[1 mark]**
+- The charge carriers collide (with ions) inside the battery as the current passes through causing internal resistance; **[1 mark]**** **
+
+How efficiency is affected:
+
+**Final answer:** **Any ****one**** from:**
+
+- The internal resistance of the battery dissipates energy (which is wasted); **[1 mark]**
+- The voltage across the circuit is reduced; **[1 mark]**
+- The terminal p.d. is reduced; **[1 mark]**
+- This results in lost volts; **[1 mark]**** **
+
+**[Total: 3 marks]**

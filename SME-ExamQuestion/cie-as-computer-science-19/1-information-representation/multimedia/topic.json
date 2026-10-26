@@ -1,0 +1,474 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:37:37Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "1-information-representation",
+  "name": "1. Information representation"
+ },
+ "topic": {
+  "id": "top_Z27kxRPHyf89dy9n",
+  "slug": "multimedia",
+  "name": "Multimedia",
+  "order": 1
+ },
+ "subtopics": [
+  {
+   "slug": "sound-representation",
+   "name": "Sound representation",
+   "revision_note_id": "rn_6mMB8XWNrTng4nwT"
+  },
+  {
+   "slug": "vector-graphics-",
+   "name": "Vector graphics",
+   "revision_note_id": "rn_Bsw7s2BBCbSpg2T6"
+  },
+  {
+   "slug": "bitmap-images",
+   "name": "Bitmap images",
+   "revision_note_id": "rn_Kgg8jY49FTfqS5CF"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_NnDdKhwgPSM9qh33",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 9,
+   "questions_embedded": 9,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/1-information-representation/multimedia/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 9,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {
+   "https://cdn.savemyexams.com/uploads/2025/11/22125_q1b-9618-13-nov-2023-cie-as-cs.png": "001-three-terms-with-descriptions-sampling-regular-i.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/21720_ans1b-9618-13-nov-2023-cie-as-cs.png": "002-diagram-showing-terms-sampling-sampling-rate-sam.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/62363_q1a-9618-11-nov-cie-as-cs.png": "003-two-column-table-with-terms-drawing-list-drawing.png",
+   "https://cdn.savemyexams.com/uploads/2025/11/42842_ans1a-9618-11-nov-cie-as-cs.png": "004-diagram-showing-a-matching-exercise-where-drawin.png"
+  }
+ },
+ "questions": [
+  {
+   "id": "qstn_xBstvFRsnd9JwVyk",
+   "set_slug": "exam-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_Dv2RrZbfjV8t5FF7",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Gwtm7fDtNzWtR75x"
+     ],
+     "part_tier": null,
+     "problem_md": "Describe the impact of increasing the image resolution on the quality of a bitmap graphic.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point:\n> \n> - more pixels can be stored / are available\n> - the image is sharper / less pixelated"
+    },
+    {
+     "id": "qstnprt_mSS2bVg2bhK4yqTM",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_MWjXCg8hDQwNBCQn"
+     ],
+     "part_tier": null,
+     "problem_md": "Calculate the file size of a bitmap image using the following information:\n\n- image resolution of 2048 pixels wide and 1024 pixels high\n- bit depth of 16 bits.\n\nGive your answer in kibibytes. Show your working.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for answer. **1 mark** for working\n> \n> Answer: 4096 kibibytes\n> \n> Working:\n> \n> File size = (2048 x 1024 x 16) / (8 x 1024)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_pJJdnxQvdDxBcvH5",
+   "set_slug": "exam-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_xXPCCpjmS7Vv9VFp",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_XjJ6QDc8QQjfDmS6"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by **analogue data**.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for:\n> \n> - data values that are continuously changing // variable // any value"
+    },
+    {
+     "id": "qstnprt_TmFrvckTswYvCCjr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/13",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_XjJ6QDc8QQjfDmS6",
+      "spcpt_WHbBx8dF2xkkkZDB"
+     ],
+     "part_tier": null,
+     "problem_md": "Draw **one **line from each term to its most appropriate description.\n\n![Three terms with descriptions: sampling - regular interval measurements; sampling rate - samples per second; sampling resolution - bits per sample.](assets/001-three-terms-with-descriptions-sampling-regular-i.png)",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for 1 correct line\n> \n> **2 marks** for 3 correct lines\n> \n> ![Diagram showing terms: sampling, sampling rate, sampling resolution, matched with descriptions about sample frequency, measurement intervals, and bit storage.](assets/002-diagram-showing-terms-sampling-sampling-rate-sam.png)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_GwpNwGdBktYhktzp",
+   "set_slug": "exam-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_pfvm4YtvrpF7mdDT",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_WHbBx8dF2xkkkZDB"
+     ],
+     "part_tier": null,
+     "problem_md": "Explain the impact of changing the sampling resolution on the accuracy of a sound recording.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each bullet point (**max 3**)\n> \n> Increase sampling resolution\n> \n> - … the number of bits used for each sample is increased\n> - … there will be more values available to represent each sample // more amplitudes can be represented\n> - … each binary amplitude/note in the digital recording is closer to the analogue amplitude/note\n> - … quantisation errors are reduced\n> - … the digital soundwave is closer to the original analogue soundwave\n> \n> Decrease sampling resolution\n> \n> - … the number of bits used for each sample is decreased\n> - … there will be fewer values available to represent each sample // fewer amplitudes can be stored\n> - … each binary amplitude/note in the digital recording is further from the analogue amplitude/note\n> - … quantisation errors are increased\n> - … the digital soundwave is less like the original analogue soundwave"
+    },
+    {
+     "id": "qstnprt_J8KygTf48HsVSXcf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_MWjXCg8hDQwNBCQn"
+     ],
+     "part_tier": null,
+     "problem_md": "A bitmap image has a resolution of 2048 pixels wide and 1024 pixels high.\n\nThe image has a bit depth of 10 bits per pixel.\n\nEstimate the file size of the bitmap image in mebibytes. Show your working.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for answer, **1 mark** for working\n> \n> Answer: 2.5 mebibytes\n> \n> Working:\n> \n> (2048 x 1024 x 10) / (8 x 1024 x 1024)"
+    }
+   ]
+  },
+  {
+   "id": "qstn_nvdymJTcZcT8mjBV",
+   "set_slug": "exam-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_tKYBxKX4gKYtybBj",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "Draw **one **line from each vector graphic term to its most appropriate description.\n\n![Two-column table with terms: \"drawing list\", \"drawing object\", \"property\"; descriptions: \"component using formula\", \"defines characteristic\", \"data for components\".](assets/003-two-column-table-with-terms-drawing-list-drawing.png)",
+     "solution_md": "> **[mark-scheme]**\n> **2 marks **for all 3 lines correct** **\n> \n> **1 mark **for 1 line correct\n> \n> ![Diagram showing a matching exercise where \"drawing list\" matches with \"data required to create all components,\" \"drawing object\" with \"a component created using a formula,\" and \"property\" with \"defines one characteristic.\"](assets/004-diagram-showing-a-matching-exercise-where-drawin.png)"
+    },
+    {
+     "id": "qstnprt_4SCwS6RJdXPdYDBS",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "9618/11",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_njs3DqJ4DBNZfMM5",
+      "spcpt_Gwtm7fDtNzWtR75x"
+     ],
+     "part_tier": null,
+     "problem_md": "State what is meant by the **bit depth** of a bitmap image **and **explain how changing the bit depth affects the image.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for the definition\n> \n> - The number of bits used to represent each colour\n> \n> **1 mark** for each bullet point for the explanation\n> \n> - Increase in bit depth means the image has a greater range of colours // Decrease in bit depth means the image has a smaller range of colours\n> - Increase in bit depth makes the image closer to the original / more realistic // Decrease in bit depth makes the image less like the original / less realistic"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Bnf6qr55kM8gMVYt",
+   "set_slug": "exam-questions",
+   "order": 4,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_dWG7snQ85vKfMm9y",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_MWjXCg8hDQwNBCQn"
+     ],
+     "part_tier": null,
+     "problem_md": "A photograph is stored as a bitmap image.\n\nThe photograph has a resolution of 4000 pixels wide by 3000 pixels high. The bit depth is 4 bytes.\n\nCalculate an estimate for the file size of the photograph in megabytes.\n\nShow your working.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark **for working:\n> \n> - 4000 * 3000 * *4\n> \n> **1 mark** for correct answer:\n> \n> - 48MB"
+    },
+    {
+     "id": "qstnprt_MzsDZB3jbPmx8cx5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/13",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Gwtm7fDtNzWtR75x"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify **two** elements of a bitmap image that can be changed to reduce its file size.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** each to **max 2**:\n> \n> - Colour/bit depth\n> - Image resolution"
+    }
+   ]
+  },
+  {
+   "id": "qstn_5T9PHDZRYQSRVcpK",
+   "set_slug": "exam-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_XHZVq3dBvS4Zxv79",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/12",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_njs3DqJ4DBNZfMM5"
+     ],
+     "part_tier": null,
+     "problem_md": "The computer can transmit a video made from bitmap images and vector graphic animations to the VR headset.\n\n(i) Describe how the data for a bitmapped image is encoded.\n\n(3)\n\n(ii) Describe the contents of a vector graphic drawing list.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** each:\n> \n> Image is made of pixels and each pixel has one colour\n> \n> Each colour has a **unique **binary code\n> \n> **Code for the colour** of each pixel is stored in **sequence.**\n> \n> (ii)** 1 mark** each to **max 2**:\n> \n> - List of objects in the drawing\n> - A list that stores the command/description/equation required to draw each object\n> - Properties of each object e.g. the fill colour, line weight/colour"
+    }
+   ]
+  },
+  {
+   "id": "qstn_N8Pt4yprgN2RWXhp",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_zxWZT8z63VwgsNkX",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/11",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_XjJ6QDc8QQjfDmS6",
+      "spcpt_WHbBx8dF2xkkkZDB"
+     ],
+     "part_tier": null,
+     "problem_md": "The digital camera has a microphone which is used to record the sound for the video.\n\nThe user changes the sampling rate that the microphone uses from 44.1kHz to 88.2kHz.\n\nDescribe how this change in sampling rate will affect the performance of the video doorbell.",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark each to max 3: **\n> \n> - Data transmission to user’s smartphone will take longer\n> - … because there is more data to transmit\n> - The secondary storage device will fill faster\n> - … fewer videos will be able to be stored long-term // videos are overwritten more often"
+    }
+   ]
+  },
+  {
+   "id": "qstn_2ssWGSz3r57ThP24",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_JMWv6VqZHbJ4gkvw",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 6,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_njs3DqJ4DBNZfMM5",
+      "spcpt_MWjXCg8hDQwNBCQn",
+      "spcpt_Gwtm7fDtNzWtR75x"
+     ],
+     "part_tier": null,
+     "problem_md": "A computer system stores text, images and sound.\n\nThe colour of each pixel in a bitmapped image is represented by 8 bits.\n\n(i) State the largest number of different colours that can be represented by 8 bits.\n\n(1)\n\n(ii) State **one** drawback of increasing the number of bits that represents each pixel in the bitmap image.\n\n(1)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark **for:\n> \n> 256 // 2<sup>8</sup>\n> \n> (ii)** 1 mark **for:\n> \n> Increased file size"
+    },
+    {
+     "id": "qstnprt_q5DgcfYzmK8vtrz4",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/13",
+      "question_number": 6,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_XjJ6QDc8QQjfDmS6",
+      "spcpt_WHbBx8dF2xkkkZDB"
+     ],
+     "part_tier": null,
+     "problem_md": "(i) Explain how an analogue sound wave is converted into digital data.\n\n(2)\n\n(ii) Describe **one **method of compressing a sound file using lossy compression.\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i)** 1 mark** for each bullet point (**max 2**)\n> \n> - Value/magnitude/size of the analogue sound wave is measured a set number of times each second/time / at set intervals\n> - Each sample/reading/measurement is given the binary number and stored in sequence\n> \n> (ii) **1 mark** for each correct point and **1 mark** for matching expansion\n> \n> e.g.\n> \n> - Decrease sample rate\n> - … fewer samples/readings/measurements stored per second // fewer bits per second stored\n> - Decrease sample resolution\n> - … fewer bits per sample/reading/measurement // each sample has fewer bits\n> - Sound outside of set/human hearing range is removed\n> - … fewer measurements are stored / decreases the number of possible binary values so fewer bits are stored"
+    }
+   ]
+  },
+  {
+   "id": "qstn_M6Y7cPrpS6SCSztj",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_3pjB3vhnvXKvwVSJ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_njs3DqJ4DBNZfMM5",
+      "spcpt_Gwtm7fDtNzWtR75x"
+     ],
+     "part_tier": null,
+     "problem_md": "A student takes a photograph of a science experiment.\n\nThe photograph is saved as a bitmapped image.\n\n(i) Define the following bitmap terms.\n\nColour depth .................\n\nFile header  ....................\n\n(2)\n\n(ii) Explain why changing the image resolution will affect the image quality and file size.\n\nImage quality .................\n\nFile size ...........................\n\n(2)",
+     "solution_md": "> **[mark-scheme]**\n> (i) **1 mark **for each correct definition\n> \n> Colour depth:\n> \n> - the number of bits used to represent a colour // the number of colours that can be represented in an image\n> \n> File header:\n> \n> - stores data about the image file / metadata\n> \n> (ii) **1 mark** for each correct explanation\n> \n> Image quality:\n> \n> - Decreasing resolution means details within the image are lost because there are fewer pixels // Increasing resolution means the image is more detailed because there are more pixels\n> \n> File size:\n> \n> - Decreasing the resolution will decrease the file size because there are fewer pixels therefore less data // Increasing the resolution will increase the file size because there are more pixels therefore more data"
+    },
+    {
+     "id": "qstnprt_VdTpTzNgsXYhCSsf",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": null,
+     "source_paper": {
+      "date": "Nov 2024",
+      "number": "9618/12",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [],
+     "part_tier": null,
+     "problem_md": "The student draws a picture on paper that is scanned into the computer and saved as a vector graphic.\n\nDefine the vector graphic terms property and drawing list.\n\nProperty ........................\n\nDrawing list ...................",
+     "solution_md": "> **[mark-scheme]**\n> **1 mark** for each correct definition\n> \n> Property:\n> \n> - an attribute of a drawing object // data about a shape // defines one aspect of the appearance of a drawing object\n> \n> Drawing list:\n> \n> - all the drawing objects/shapes in an image // stores the commands/descriptions / mathematical equations required to draw each object"
+    }
+   ]
+  }
+ ]
+}

@@ -262,3 +262,637 @@
 **Final answer:** **These straight chains of cellulose can pack together, forming a structure called a microfibril; the cellulose molecules in a microfibril are held together by ****hydrogen bonds****.**
 
 > *Ionic bonds are not a feature of bonding in carbohydrates and lipids, but they are one of the bonding types found in the tertiary structure of **proteins**.*
+
+## Structured Questions (15 questions)
+
+
+### Q1
+Comparison between amylopectin and glycogen:
+
+**Final answer:** **Any ****two**** of the following:**
+
+*Similarities:*
+
+- Both are composed of <u>α-glucose</u> molecules;** [1 mark]**
+- Molecules are branched / contain both <u>1,4 and 1,6 linkages/glycosidic bonds</u>; **[1 mark]**
+
+*Differences:*
+
+- Glycogen is more branched / contains more 1,6 branching points/linkages/glycosidic bonds (than amylopectin) **OR** Amylopectin is less branched / contains less 1,6 branching points/linkages/glycosidic bonds (than glycogen); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Remember that glycogen and amylopectin share a similar molecular structure with one another. It is important to specify the type of glucose that both are made of, i.e. α-glucose, not just glucose.*
+The importance to cells of storing glucose in an appropriate form would include the following:
+
+- Glucose could decrease the water potential in the cell / make the cell contents too concentrated (due to its solubility); **[1 mark]**
+- This would have a serious effect on the <u>osmotic properties</u> of the cell / water would be drawn in from neighbouring cells; **[1 mark]**
+- Excess glucose would interfere with normal cell chemistry (as it is a very reactive molecule); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Storing glucose in the form of starch (in plant cells) and glycogen (in animal cells) will eliminate the** osmotic effect** that glucose would have on the cell. Linking many glucose molecules together through condensation reactions makes them **unreactive** and **insoluble**. Storage polysaccharides are also **compact**, which means that a large amount of glucose can be stored in a relatively small area of the cell.*
+The structure of cellulose molecules makes it suitable for its structural role in cell walls due to:
+
+Any **four** of the following:
+
+- Alternate glucose molecules are rotated/inverted / many OH groups are present **SO** hydrogen bonds form between molecules
+- Hydrogen bonds hold cellulose <u>molecules</u> together **SO **they form fibrils / microfibrils **[1 mark]**
+- Fibrils/microfibrils contain many cellulose molecules **SO** are very strong / have high tensile strength
+- The molecules are straight/linear **SO** they can be arranged parallel to each other / can be packed together **[1 mark]**
+- Cellulose fibres are arranged at angles / in a criss-cross pattern **SO** provide increased strength **[1 mark]**
+- Cellulose chains are tightly packed together / water cannot get between the cellulose chains **SO** cellulose is insoluble **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *Note that this is an **explain** question, so every point made about cellulose structure needs to clearly relate to an explanation of its importance.*
+Covalent bonds are of great importance in the formation of polysaccharides because...
+
+- They are very stable and require a substantial amount of energy to break (the bonds); **[1 mark]**
+- They link monomers/monosaccharides together during condensation reactions to form polymers/polysaccharides (that have important functions in organisms); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Covalent bonds involve the **sharing of electron pairs** between atoms. When the electron orbitals of two monomers overlap, a covalent bond can form due to the sharing of electrons between them. This is the main type of bond that hold biological molecules, such as carbohydrates, lipids and proteins, together.*
+
+### Q2
+(i) Lipase solution was freshly prepared because...
+
+- Enzymes (solutions) can denature / lose activity if left in solution; **[1 mark]**
+
+(ii) Whole milk was used because...
+
+- Whole milk has a higher fat (lipid) content than semi-skimmed milk; **[1 mark]**
+
+**[Total: 2 marks]**
+All three curves...
+
+- Show a reduction of pH due to the production of fatty acids / hydrolysis/breakdown of lipids; **[1 mark]**
+
+The 5°C curve...
+
+- Shows a smaller decrease in pH level **BECAUSE** of low molecular kinetic energy / fewer E-S complexes formed; **[1 mark]**
+
+The 35°C curve...
+
+- Is the fastest curve go to completion / fully hydrolyse the lipids **BECAUSE** it is the <u>optimum</u> temperature; **[1 mark]**
+
+The 55°C curve...
+
+- Remains at the highest pH level / pH remains stable **BECAUSE** lipase has been denatured / loses its activity / can’t form E-S complexes / fatty acids are not formed; **[1 mark]**
+
+**[Total: 4 marks]     **
+Features of the curve for phospholipids:
+
+- Curve starts at pH 8.0;** [1 mark]**
+- Curve drops but stays above the milk curve **AND** plateaus at a higher pH than the milk curve;** [1 mark]**
+
+**[Total: 2 marks]  ****   **
+
+> *Phospholipids contain 2 fatty acids per molecule, whereas triglycerides (in milk) contain 3 fatty acids. This means that fewer acid molecules will be generated by the hydrolysis of phospholipids, resulting in fewer H*<sup>*+*</sup>* ions being released into the solution. This means that the pH will not fall as sharply, nor will the pH at the end be as low as that for the milk.  *
+
+![change-in-ph-during-lipid-hydrolysis-ma](assets/025-change-in-ph-during-lipid-hydrolysis-ma.png)
+Triglycerides are metabolised for…
+
+**Final answer:** **Any ****three**** of the following:**
+
+- Synthesis of new plasma membranes (as phospholipids); **[1 mark]**
+- Converted to other fatty acids / fatty tissue / adipose tissue (for energy storage); **[1 mark]**
+- Respired (to generate energy); **[1 mark]**
+- Converted to transport fat-soluble substances e.g. some vitamins / steroid hormones; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q3
+The structure of the triglyceride should show...
+
+- Three fatty acids, all ester bonded to one glycerol; **[1 mark]**
+- At least one ester bond labelled; **[1 mark]**
+- Correct configuration of ester bonds; **[1 mark]**
+- Water as a by-product (1 or 3 molecules); **[1 mark]**  ** **
+- Correct length of fatty acid chains; **[1 mark]**  ** **
+
+**[Total: 5 marks]**
+
+![triglyceride-formation-ma](assets/027-triglyceride-formation-ma.png)
+Triglycerides are not polymers because...
+
+- Polymers contain many repeated monomers bonded together **WHILE **triglycerides only contain three fatty acids /** **contain more than one type of molecule / contain fatty acid and glycerol molecules;** [1 mark]**
+
+**[Total: 1 mark]  ****   **
+The energy content of fat is:
+
+- 0.3 (30%) x 8400 = 2520
+- 2520 ÷ 55 = 45.8; **[1 mark]**
+- 46 kJ g<sup>-1</sup> **OR** kJ/g **OR** kJ/gram; **[1 mark]**  ** **
+
+**[Total: 2 marks]**
+
+> *Make sure to read the question to follow the instructions about rounding and expressing units; omitting these details by writing as your answer 45.81 will score zero, even though you will have performed the calculations correctly. Care needed!*
+
+![energy-intake-ma](assets/028-energy-intake-ma.png)
+A function of chylomicrons could be...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- The transport of lipids/triglycerides across membranes; **[1 mark]**
+- The absorption of lipids/triglycerides from the small intestine; **[1 mark]**
+- The transport of lipids/triglycerides to the liver / fat stores / cardiac muscle / skeletal muscle; **[1 mark]**
+
+**AND**
+
+The structure of chylomicrons makes them suitable for this because...
+
+- The hydrophobic parts/regions are inside SO can interact with hydrophobic lipids** OR** the hydrophilic parts/regions are on the outside SO can interact with watery/aqueous surroundings; **[1 mark]**
+
+**[Total: 3 marks]    **** **
+
+### Q4
+(i) The structure of sucrose must show:
+
+- By-product water / H<sub>2</sub>O shown; **[1 mark]**
+- Correctly-drawn sugar structure away from the glycosidic bond; **[1 mark]**
+
+(ii) The bond should be drawn as shown...
+
+- Correctly drawn between the two sugar molecules; **[1 mark]**
+- Labelled glycosidic bond; **[1 marks]**
+
+**[Total: 4 marks]**
+
+![sucrose-formation-ma](assets/031-sucrose-formation-ma.png)
+The percentage improvement in finishing time is:
+
+- 182 seconds improvement (1,412 - 1,230) **OR** 3 minutes 2 seconds; **[1 mark]**
+- As a percentage of 1412 seconds **OR** of 23.533 minutes
+- 12.9% **OR** 13%; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *When working out percentage changes in time, it is helpful to convert all times into seconds for ease of mathematical calculations. A common mathematical error here would be to use minutes and state that a time of 23:32 = 23.32 minutes. A time of 23:32 is in fact 23.53 minutes, expressed as a decimal. *
+
+![sugar-drink-per-cent-change-ma](assets/032-sugar-drink-per-cent-change-ma.png)
+(i) Explanation of results in **Table 1**:
+
+- Solutions containing glucose and fructose produce faster time trial results than water **BECAUSE** they are respiratory substrates that can release energy / produce ATP through respiration; **[1 mark]**
+- There is an incremental/small decrease in time trial results when using mixed monosaccharides **BECAUSE** although the glucose transport channels become saturated, fructose has its own separate absorption channels (in the ileum); **[1 mark]**
+
+(ii) Assessment of the scientific method:
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Only 8 subjects were observed in the trial / small sample size; **[1 mark]**
+- All cyclists were male adults / no data for females or children; **[1 mark]**
+- No data on other sports / endurance events; **[1 mark]**
+- No data was given on age / ethnicity / underlying medical conditions of the subjects; **[1 mark]**
+
+**[Total: 4 marks]  **
+
+> *The command word here is 'assess' which asks you to make an informed judgement on the information available. You need to look at the information and data as a whole before answering the question to ensure you cover all points. *
+Humans can metabolise fructose because…
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Fructose is a naturally-occurring monosaccharide e.g. in many fruits; **[1 mark]**
+- Fructose has a high calorific content so is a good food source; **[1 mark]**
+- Fructose makes up part of sucrose, so is formed naturally as a digestion product of cane/beet/table sugar; **[1 mark]**
+
+**[Total: 2 marks]  **
+
+### Q5
+Calculating the daily lipid intake for adult men:
+
+- 8100 x 0.25 = 2025 kJ day<sup>-1</sup>; **[1 mark]**
+- 2025 ÷ 38 = <u>53.3</u> g;** [1 mark]**
+
+*Full marks awarded for the correct answer only.*
+
+**[Total: 2 marks]**
+
+![modelanswer3cie](assets/033-modelanswer3cie.png)
+PGME cannot be digested in the stomach because:
+
+- It does not contain any ester bonds **OR** the bonds between glycerol/fatty acid and propylene glycol are different; **[1 mark]**
+- Lipase is specific to triglycerides shape/bonds **OR** PGME does not fit in / does not have a complementary shape to the active site (of lipase) **OR** no enzyme-substrate complex formed;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *This question requires some general knowledge of how enzymes function. It is important to remember that lipase breaks the ester bonds between glycerol and fatty acids. Since PGME does not contain ester bonds between glycerol and fatty acids, lipase would be unable to break it down in the stomach. Enzyme active sites are also very specific to the shape of the substrate that binds to it, any deviations from that shape would not be able to fit.*
+Phospholipids can form cell membranes because:
+
+- They have a polar head group / phosphate group;** [1 mark]**
+- (The phosphate head) can form <u>hydrogen bonds</u> with water / is <u>hydrophilic</u>;** [1 mark]**
+- Fatty acid tails are non-polar/hydrophobic;** [1 mark]**
+- (Phospholipids) will therefore form a <u>bilayer</u> (when placed in a watery environment); **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *It is the fact that phospholipids have a hydrophilic head and hydrophobic tails that makes them arrange themselves with the heads (phosphate groups) pointing outward towards the watery environment, while the fatty acid tails will point towards each other to form the hydrophobic core of the membrane.*
+
+![phospholipid](assets/035-phospholipid.png)
+
+### Q6
+(i) Drawing two amino acids forming a dipeptide:
+
+- Water (H<sub>2</sub>O) formed from –OH and –H; **[1 mark]**
+- Peptide bond shown correctly between C of carboxylic acid and N of amino group; **[1 mark]**
+- Complete dipeptide drawn; **[1 mark]**
+
+(ii) R<sub>1</sub> and R<sub>2</sub> represent...
+
+- An R group / variable group; **[1 mark]**
+- Different amino acids; **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *For (a)(i) don't forget to draw out the water molecule produced in your diagram!*
+
+> *While R groups do play a role in stabilising the structure of proteins mentioning this in your answer won't get you a mark for (a)(ii) as the examiner is looking for you to identify that the R groups are specific to different types of amino acid. *
+
+![ma-for-18-nov-series-3-p2-q2a](assets/037-ma-for-18-nov-series-3-p2-q2a.png)
+How the **structure** of a cellulose molecule differs from the **structure** of an amylose molecule is...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- Cellulose is a linear/straight chain polymer whereas amylose is a helical molecule; **[1 mark]**
+- In cellulose β-glucose is present whereas α-glucose is present in amylose **OR** β-1:4 glycosidic bonds are present in cellulose whereas α-1:4 glycosidic bonds are present in amylose; **[1 mark]**
+- (In cellulose) β-glucose monomers are arranged rotated 180° to each other; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *A detailed answer here should **compare** the structure of these two polymers instead of simply stating facts about one of them. Make sure that you clearly write the symbols for alpha and beta glucose, if they are unclear you may not get the mark!*
+Cellulose is suitable as a component of plant cell walls because...
+
+**Final answer:** **Any ****four**** of the following:**
+
+- Cellulose molecules form fibrils and fibres; **[1 mark]**
+- There is hydrogen bonding between (cellulose) <u>molecules</u>; **[1 mark]**
+- Cellulose molecules are linear which allows them to lie parallel to each other; **[1 mark]**
+- Providing strength to the cell wall to prevent cell bursting / withstand (turgor) pressure; **[1 mark]**
+- There are several gaps in cell walls/between fibres, which makes cell wall permeable; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *In order to gain full marks for this question you need to relate the structure of cellulose to its function. For example, the permeability of cell walls is linked to the gaps between cellulose fibres.*
+
+### Q7
+Unsaturated fatty acids are...
+
+**Final answer:** **Any**** three**** of the following:**
+
+- Long hydrocarbon chains **OR** long chains of carbon and hydrogen; **[1 mark]**
+- There is a carboxylic acid/carboxyl/RCOOH group at the end OR there is a terminal carboxylic acid/carboxyl/RCOOH group; **[1 mark]**
+- (The hydrocarbon chain) contains one or more double bonds;** [1 mark]**
+- (These double bonds occur) between neighbouring carbon atoms; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *In order to receive all the marks for this question, ensure that you give a full explanation of the term. Remember to be specific in your answer - if you say that the molecule contains double bonds, you need to state between which atoms these bonds are found. Make sure you define both "unsaturated" and "fatty acid" in your answer.*
+The results show the following:
+
+- Higher omega-3 intake is linked to a lower risk of developing cardiovascular disease; **[1 mark]**
+- The greatest decrease in risk occurs between a consumption of 50 to 100 mg per day; **[1 mark]**
+- Any data points quoted (i.e. risk decreased from 1 to around 0.6 as omega-3 consumption increased from 50 to 100 mg per day); **[1 mark]**
+- Very little variation (in relative risk) at higher omega-3 consumption; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *For description of data questions you need to pay close attention to what is happening on the graph. Note any **major increases** or **decreases** in data, as well as any areas of the graph that seem to reach a **plateau**. You will always receive a mark if you can back up your description by quoting a relevant data point. No need to provide explanations for the graph if you're only asked to describe.*
+A triglyceride forms in the following way:
+
+- Three fatty acids combine with (an alcohol) glycerol;** [1 mark]**
+- Each hydroxyl/OH group of glycerol undergoes a <u>condensation reaction</u> with a fatty acid; **[1 mark]**
+- This forms three <u>ester</u> bonds;** [1 mark]**
+
+**[Total: 3 marks]**
+
+> *Be specific when answering this question. You need to mention the chemical groups that are involved in the condensation reaction and the formation of the ester bonds. Remember that glycerol has three hydroxyl/OH groups that can each form an ester bond with a fatty acid.*
+Triglycerides make excellent energy stores because....
+
+- They contain many carbon-hydrogen/C-H bonds; **[1 mark]**
+- The breakdown of these bonds will yield a high amount of energy (per given mass); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The secret to the high energy content of triglycerides lies in the number of carbon-hydrogen/C-H bonds. These bonds are able to store large amounts of energy which is released when the bonds are broken.*
+
+### Q8
+Sucrose is made of the monomers:
+
+- (α) Glucose; **[1 mark]**
+- Fructose;** [1 mark]**
+
+**[Total: 2 marks]**
+
+> *The three most common disaccharides that you will come across is:*
+
+- *Maltose = glucose + glucose*
+- *Lactose = glucose + galactose*
+- *Sucrose = glucose + fructose*
+
+> *Note how they all contain at least one molecule of glucose.*
+The calculation would be as follows:
+
+- 0.74 - 0.05 = 0.69; **[1 mark]**
+- 0.69 ÷ 0.05 = 13.8 ; **[1 mark]**
+- 13.8 x 100 = 1380; **[1 mark]**
+
+*Full marks are awarded for the correct answer only.*
+
+**[Total: 3 marks]**
+
+![model-answer2](assets/040-model-answer2.png)
+The reason sucrose was hydrolysed first is because...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- Sucrose is a non-reducing sugar / non-reducing / not a reducing sugar; **[1 mark]**
+- (Sucrose will not reduce) (blue) copper II ions to (red) copper I ions / will not react with Benedict's reagent; **[1 mark]**
+- Cannot donate electrons; **[1 mark]**
+
+**[Total: 2 marks]**
+The main structural differences between sucrose and sucralose is:
+
+- (Three) hydroxyl/OH- groups have been replaced by chlorine/Cl- atoms (in sucralose); **[1 mark]**
+- The chlorine/Cl- atom (on the 6C ring of sucralose) is above the plane (of the molecule) OR The hydroxyl/OH- group (on the 6C ring of sucrose) is below the plane (of the molecule); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *It is important to be able to apply knowledge to unfamiliar scenarios. You will need to pay close attention to the structure of the molecules in order to spot any differences between them.*
+
+### Q9
+Marks will be allocated for the following aspects of the completed diagram:
+
+- Indicate the formation of a molecule of water (H<sub>2</sub>O); **[1 mark]**
+- Glycosidic bond correctly shown as the oxygen atom (O) linking carbon 1 and 4 of α-glucose molecules;** [1 mark]**
+- Complete disaccharide drawn; **[1 mark]**
+
+**[Total: 3 marks]**
+
+![model-answer](assets/043-model-answer.png)
+A non-reducing sugar:
+
+- Cannot donate electrons / act as a reducing agent (and therefore cannot be oxidised); **[1 mark]**
+- Must first be hydrolysed before a Benedict's test can be done / Does not react / give a positive result with Benedict's solution (on its own); **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *The ability of a sugar to donate electrons is what classifies it as either a reducing or non-reducing sugar. By donating electrons, the sugar becomes a **reducing** agent (therefore a **reducing** sugar) to the molecule that accepts those electrons. Non-reducing sugars do not have the ability to donate electrons and reduce another molecule.*
+The completed table is as follows...
+
+|   | Cellulose | Glycogen | Amylose | Amylopectin |
+|---|---|---|---|---|
+| Contains 1-6 glycosidic bonds |   | ✓ |   | ✓ |
+| Contains α glucose |   | ✓ | ✓ | ✓ |
+| Contains hydrogen bonds | ✓ |   | ✓ |   |
+
+**[1 mark] **for each correct row
+
+**[Total: 3 marks]**
+The breakdown of lactose involves the following steps:
+
+- The (α 1,4-) glycosidic bond breaks; **[1 mark]**
+- During a hydrolysis reaction; **[1 mark]**
+- (This is done) by the addition of a water molecule; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Remember that the covalent bonds that form between biological molecules are all broken by hydrolysis reactions. This requires enzymes that will add a molecule of water to separate the monomers from one another.*
+
+### Q10
+Structures A-C are...
+
+- A = glycerol; **[1 mark]**
+- B = fatty acid; **[1 mark]**
+- C = phosphate; **[1 mark]**
+
+**[Total: 3 marks]     **
+
+> *You must be able to recognise the constituents of phospholipids and triglycerides and know how they fit together. *
+The R stands for...
+
+- R = hydrocarbon chain **OR** chain made of carbons and hydrogens; **[1 mark]**
+
+**[Total: 1 mark]****     **
+
+> *R is often used to represent a group or a chain of molecules that aren’t required in a reaction or bond. Fatty acid R groups are long chains of carbons with hydrogens attached and can be between 4 and 24 carbons long. *
+The correct sketch would appear as follows...
+
+- Glycerol drawn correctly; **[1 mark]**
+- Three correctly drawn ester bonds **AND** at least one labelled bond; **[1 mark]**
+- Three correctly drawn fatty acid chains;** [1 mark]**
+
+**[Total: 3 marks]**
+
+![triglyceride-drawing-ma](assets/045-triglyceride-drawing-ma.png)
+In the formation of a phospholipid...
+
+- <u>Three</u> water molecules are <u>produced</u>; **[1 mark]**
+
+**[Total: 1 mark] ****    **
+
+> *A phospholipid is made from one glycerol molecule, two fatty acid molecules and one phosphate molecule. The fatty acids and phosphate each join to one of glycerol's three alcohol (OH) groups. These are condensation reactions and each will produce one molecule of water. Phospholipids are broken down in hydrolysis reactions, these use water (hydro) molecules to break (lysis) the molecule. *
+
+### Q11
+The type of bond that forms between two sugar molecules in a disaccharide is:
+
+- (A) <u>glycosidic</u> bond; **[1 mark]**
+
+**[Total: 1 mark]**
+The drawing should be annotated as follows:
+
+- Ring around the oxygen in the glycosidic bond; **[1 mark]**
+
+**[Total: 1 mark]**
+
+![Chemical structure of sucrose showing glucose and fructose rings connected by an oxygen bridge, with a blue circle highlighting the bridging oxygen.](assets/047-chemical-structure-of-sucrose-showing-glucose-an.jpg)
+The completed table is as follows...
+
+|   | **Reducing sugar** | **Non-reducing sugar** |
+|---|---|---|
+| Glucose | ✓ |   |
+| Maltose | ✓ |   |
+| Sucrose |   | ✓ |
+| Lactose | ✓ |   |
+
+*Award 1 mark*** ***for each correct ****column***
+
+**[Total: 2 marks]**
+(i) Molecules A and B are...
+
+- A = water; **[1 mark]**
+- B = glucose; **[1 mark]**
+
+> *The breakdown of disaccharides (maltose, fructose and lactose) requires water. A **common incorrect answer** for this question is to state that the enzyme maltase is a reactant, this is incorrect as maltase is only used to speed up the reaction and is not used up in the reaction.*
+
+(ii) The type of chemical reaction is...
+
+- Hydrolysis; **[1 mark]**
+
+> *Water is used (hydro) to break down (lysis) the maltose.*
+
+**[Total: 3 marks]**
+
+### Q12
+Properties of starch that make it an effective storage polysaccharide are...
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Compact / folded; **[1 mark]**
+- Insoluble; **[1 mark]**
+- Branched; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Because the command word is 'state' this means that no elaboration or explanation is needed. You can literally write each property. *
+(i) The names of the bonds are...
+
+- 1,6 glycosidic bond; **[1 mark]**
+- 1,4 glycosidic bond; **[1 mark]**
+
+(ii) The reasons for the names are...
+
+- The name comes from which numbered carbons are joined together e.g. carbon 4 on one glucose with carbon 1 on the other makes a 1,4 glycosidic bond; **[1 mark]**
+
+**[Total: 3 marks]**
+
+![a1d38fd5-9066-46dd-b52f-7886bdd541c6](assets/049-a1d38fd5-9066-46dd-b52f-7886bdd541c6.jpeg)
+Glycogen's highly branched structure helps by...
+
+**Final answer:** **Any**** two**** of the following:**
+
+- Creates many free ends / terminal glucose molecules; **[1 mark]**
+- That can be quickly hydrolysed off / added; **[1 mark]**
+- Glucose can be quickly stored / mobilised when needed; **[1 mark]**
+
+**[Total: 2 marks]**
+To determine if the granules contained starch, you could...
+
+- Add iodine **AND** granules will turn blue/black (if starch is present);** [1 mark]**
+
+**[Total: 1 mark]**
+
+### Q13
+The low oxygen content of lipids enables them to be more energy-dense forms of energy storage than carbohydrates because:
+
+**Final answer:** **Any ****one**** of the following:**
+
+- (More) oxygen is used from the air in respiration; **[1 mark]**
+- So (lipids) can store energy in C-H and C-C bonds / rely on oxygen for respiration / releasing energy; **[1 mark]**
+
+**[Total: 1 mark]**
+The lipids sector of the chart is so much larger than that of carbohydrates because:
+
+**Final answer:** **Any ****one**** of the following:**
+
+- Lipids are more energy-rich / energy-dense than carbohydrates;** [1 mark]**
+- Better for a growing chick's/embryos nutrition; **[1 mark]**
+
+**[Total: 1 mark]**
+Two other advantages to a mammal of having fat in its tissues are…
+
+**Final answer:** **Any ****two ****of the following:**
+
+- Insulation (against heat / electrical insulation of nerves); **[1 mark]**
+- Protection of organs (e.g. fat layer around the heart); **[1 mark]**
+- Buoyancy; **[1 mark]**
+
+**[Total: 2 marks]   ****  **
+
+> *The myelin sheath that insulates nerve axons has a high fat content. This helps in allowing nerves to transmit impulses accurately and quickly. Fat tissue also helps animals who live in cold habitats retain body heat, e.g. seal blubber. Large internal organs such as the heart and liver carry a permanent layer of fat tissue around them, which gives the organs some protection against physical damage.  Fat tissue is usually less dense than water so can assist in helping semi-aquatic, air-breathing animals stay near the surface or float back up to the surface for breathing.*
+(i) Parts **A** and **B** in **Figure 2 **are...
+
+- **A** = phosphate group; **[1 mark]**
+- **B** = (unsaturated) fatty acid chain / hydrocarbon chain; **[1 mark]   **
+
+(ii) The structural aspect of a phospholipid that causes phospholipid molecules to assemble in a bilayer in an aqueous environment is...
+
+- The hydrophobic/nonpolar tail;** [1 mark]**
+
+Phospholipids assemble in a bilayer because...
+
+- Tails arrange ‘toe-to-toe’ to minimise contact with water / aqueous environment;** [1 mark]**
+
+**[Total: 4 marks]**
+
+### Q14
+The two distinct parts of a typical fatty acid molecule are...
+
+- (Carboxylic) acid / -COOH group; **[1 mark]**
+- Hydrocarbon chain; **[1 mark]**
+
+**[Total: 2 marks]**
+(i) The type of fatty acid shown is...
+
+- A <u>saturated</u> fatty acid;** [1 mark]**
+
+(ii) The reason for this is...
+
+- (Because) it has 100% C-C single bonds / no C=C double bonds / there is no more room for more hydrogen atoms to be added;** [1 mark]**
+
+**[Total: 2 marks]**
+The completed table is as follows:
+
+| Monounsaturated | Polyunsaturated | Saturated |
+|---|---|---|
+|   | **✓** |   |
+
+| All Cis | All Trans | Mixture of Cis- and Trans- |
+|---|---|---|
+| **✓** |   |   |
+
+**[1 mark] **for each correct table
+
+**[Total: 2 marks]**
+
+> *The fatty acid is **poly**unsaturated because there are **two or more** C=C double bonds in its hydrocarbon tail.*
+
+> *Both double bonds are in the Cis- formation because the H atoms at the ends of the double bonds are both oriented on the same side of the chain as each other. Do not be put off by the fact that one double bond is drawn with both H atoms above the chain, and the other with both H atoms below the chain; they are both Cis- but drawn differently. *
+The alcohol is...
+
+- Common name is <u>glycerol</u>; **[1 mark]**
+- Bonds to fatty acids/a phosphate group to form lipids/phospholipids/triglycerides; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Each hydroxyl group (-OH) loses its H atom during condensation reactions with fatty acids, allowing the formation of an ester bond. Three fatty acids can join in this way, forming a triglyceride. *
+
+### Q15
+Properties of cellulose that make it an effective structural polysaccharide are...
+
+**Final answer:** **Any**** two**** of the following:**
+
+- (Chemically) inert **OR** not easily digested/broken down/hydrolysed; **[1 mark]**
+- Strong/durable; **[1 mark]**
+- Insoluble; **[1 mark]**
+- (Slightly) elastic; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Because the command word is 'list' this means that no elaboration or explanation is needed. You can literally write a list. *
+β-glucose has the following structure...
+
+![beta-glucose-ma](assets/056-beta-glucose-ma.jpg)
+
+**[Total: 1 mark]**
+
+> *Remember that beta glucose has the -OH group above carbon 1, whereas alpha glucose has the -OH group below carbon 1.*
+The structure of β-glucose helps to increase the strength of cellulose by...
+
+**Final answer:** **Any ****two**** of the following:**
+
+- The glucose molecules are rotated 180°/upside down compared to the next; **[1 mark]**
+- Glucose molecules are able to form hydrogen bond cross links between the chains; **[1 mark]**
+- Large quantity of hydrogen bonds increases the strength of the cellulose; **[1 mark]**
+
+**[Total: 2 marks]**
+Plant cells use starch as a storage molecule rather than glucose because...
+
+**Final answer:** **Any ****one**** of the following:**
+
+- Starch is insoluble so does not affect <u>water potential</u> / has no osmotic effect / cannot leave the cell; **[1 mark]**
+- Starch has a coiled/helical/spiral structure so can fit many molecules into small area / compact / tightly packed; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *When answering ‘explain’ questions use the phrase "which means that" or "therefore" or "so" for each statement you make - this will ensure that you fully explain what is happening. For example, “starch is insoluble **which means that** it cannot leave the cell, whereas glucose is soluble so is not trapped/stored in the cell”.*

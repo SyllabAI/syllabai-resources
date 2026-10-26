@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:25Z",
+ "generated_utc": "2026-10-26T14:31:37Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/",
@@ -63,14 +63,29 @@
    "question_count": 14,
    "questions_embedded": 14,
    "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/5-preparation-of-financial-statements/incomplete-records/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_KHDyC8VnTScW4bhc",
+   "slug": "structured-questions",
+   "name": "Structured Questions",
+   "order": 1,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 2,
+   "page_url": "https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/5-preparation-of-financial-statements/incomplete-records/structured-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 14,
-  "questions_missing": [],
+  "questions_embedded": 16,
+  "questions_missing": [
+   "qstn_9bMBH3XYNHRpWkYW"
+  ],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "multiple-choice-questions",
+   "structured-questions"
   ],
   "asset_map": {}
  },
@@ -133,6 +148,13 @@
        "latex": "\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Opening</mi><mo>&#160;</mo><mi>inventory</mi><mo>+</mo><mi>Closing</mi><mo>&#160;</mo><mi>inventory</mi></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "fraction numerator Opening space inventory plus Closing space inventory over denominator 2 end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator $ 38 space 000 space plus space $ 46 space 000 over denominator 2 end fraction equals $ 42 space 000",
+       "render": "$\\frac{\\$ 38 000 + \\$ 46 000}{2} = \\$ 42 000$",
+       "via": "alt-transpile"
       },
       {
        "latex": "\\frac{\\mathrm{Gross} \\mathrm{profit}}{\\mathrm{Cost} \\mathrm{of} \\mathrm{sales}}\\times100",
@@ -371,6 +393,13 @@
        "latex": "\\frac{\\mathrm{Opening} \\mathrm{inventory}+\\mathrm{Closing} \\mathrm{inventory}}{2}",
        "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mfrac><mrow><mi>Opening</mi><mo>&#160;</mo><mi>inventory</mi><mo>+</mo><mi>Closing</mi><mo>&#160;</mo><mi>inventory</mi></mrow><mn>2</mn></mfrac><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
        "alt": "fraction numerator Opening space inventory plus Closing space inventory over denominator 2 end fraction"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "fraction numerator $ 7 space 400 plus $ 8 space 200 over denominator 2 end fraction equals $ 7 space 800",
+       "render": "$\\frac{\\$ 7 400 + \\$ 8 200}{2} = \\$ 7 800$",
+       "via": "alt-transpile"
       }
      ]
     }
@@ -851,6 +880,173 @@
        "text_md": "opening capital + closing capital - drawings"
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_V5t7HypqN5xQCCXV",
+   "set_slug": "structured-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 20,
+   "parts": [
+    {
+     "id": "qstnprt_pb8n3pp27ZT3KmRK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 3,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_YdGfdyKcXpv9c88Z",
+      "spcpt_QF7bYYGmVMgG3qYK",
+      "spcpt_hvQ8cMB843R9WhXc",
+      "spcpt_7ywB8qQWTXQ3WWSk"
+     ],
+     "part_tier": null,
+     "problem_md": "Lionel started trading on 1 July 2022. He paid \\$15 000 of his own personal money into the business bank account. He did not keep full accounting records but has supplied the following information at 30 June 2023.\n\n1. Cash sales of \\$90 000 were made and paid into the bank. No other money was received. Lionel marks up his goods by 50%.\n2. Payments from the bank:\n\n|   | \\$ |\n|---|---|\n| Purchase of motor vehicle (van) | 8000 |\n| Payments to credit suppliers | 55 000 |\n| Wages | 8 060 |\n| General expenses | 1 140 |\n| Rent and insurance | 5 585 |\n| Motor expenses | 4 992 |\n| Cash drawn from bank | 14 600 |\n\n3. Purchases returns amounted to \\$3000.\n4. Inventory at 30 June 2023 was valued at \\$4175.\n5. One third of the motor expenses paid were for Lionel’s private car.\n6. A full year’s depreciation at 25% is to be charged on the van using the reducing balance method.\n7. Lionel withdrew \\$1000 each month from the business cash, for personal use. The remaining cash drawn from the bank was used to pay wages.\n\n**REQUIRED**\n\nPrepare Lionel’s income statement for the year ended 30 June 2023.\n\nLionel \nIncome Statement for the year ended 30 June 2023\n\n|   | \\$ | \\$ |\n|---|---|---|\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |\n|   |   |   |",
+     "solution_md": "Calculate the **cost of sales**\n\n- Divide the sales by the mark up\n\n$90000 \\div 150 \\% = 60000$\n\nCalculate the **purchases **of goods\n\n- Add the closing inventory and the purchases returns to the cost of sales\n\n$60000+4175+3000=67175$\n\nCalculate the adjusted figure for **motor expenses**\n\n- Find one third\n\n$\\frac{1}{3}\\times4992=1664$\n\n- Subtract from the amount\n\n$4992-1664=3328$\n\nCalculate the **depreciation of the motor vehicle**\n\n- Multiply the net book value by the percentage\n\n$25 \\% \\times 8000 = 2000$\n\nCalculate the figure for **wages**\n\n- Subtract \\$12 000 from the cash drawn from the bank\n\n$14600-12000=2600$\n\n- Add this to the amount paid from the bank\n\n$2600+8060=10660$\n\nLionel \nIncome Statement for the year ended 30 June 2023\n\n|   | \\$ |   | \\$ |   |\n|---|---|---|---|---|\n| Revenue |   |   | 90 000 | **[1]** |\n| Cost of sales |   |   |   |   |\n| Purchases | 67 175 | **[1]** |   |   |\n| Less Purchases returns | <u>3 000</u> |   |   |   |\n|   | 64 175 | **[1]** |   |   |\n| Less Closing inventory | <u>4 175</u> |   | 60 000 |   |\n| Gross profit |   |   | 30 000 | **[1]** |\n| Less Expenses |   |   |   |   |\n| Wages | 10 660 | **[1]** |   |   |\n| General expenses | 1 140 | **[1]** |   |   |\n| Rent and insurance | 5 585 |   |   |   |\n| Motor expenses | 3 328 | **[1]** |   |   |\n| Depreciation of motor vehicles | <u>2 000</u> | **[1]** | <u>22 713</u> |   |\n| Profit for the year |   |   | <u>7 287</u> | **[1]** |\n\n> **[mark-scheme]**\n> 9 marks in total.\n> \n> 1 mark for each of the following in the correct place with correct figures:\n> \n> - revenue\n> - gross profit\n> - wages\n> - motor expenses\n> - **both **general expenses **and **rates and insurance\n> - depreciation\n> \n> 1 mark for each of the following in the correct place with your own figures:\n> \n> - purchases\n> - net purchases\n> - profit for the year",
+     "equations": [
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "90000 divided by 150 percent sign equals 60000",
+       "render": "$90000 \\div 150 \\% = 60000$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "60000+4175+3000=67175",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>60000</mn><mo>+</mo><mn>4175</mn><mo>+</mo><mn>3000</mn><mo>=</mo><mn>67175</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "60000 plus 4175 plus 3000 equals 67175"
+      },
+      {
+       "latex": "\\frac{1}{3}\\times4992=1664",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&#215;</mo><mn>4992</mn><mo>=</mo><mn>1664</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "1 third cross times 4992 equals 1664"
+      },
+      {
+       "latex": "4992-1664=3328",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>4992</mn><mo>-</mo><mn>1664</mn><mo>=</mo><mn>3328</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "4992 minus 1664 equals 3328"
+      },
+      {
+       "latex": null,
+       "mathml": null,
+       "alt": "25 percent sign cross times 8000 equals 2000",
+       "render": "$25 \\% \\times 8000 = 2000$",
+       "via": "alt-transpile"
+      },
+      {
+       "latex": "14600-12000=2600",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>14600</mn><mo>-</mo><mn>12000</mn><mo>=</mo><mn>2600</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "14600 minus 12000 equals 2600"
+      },
+      {
+       "latex": "2600+8060=10660",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2600</mn><mo>+</mo><mn>8060</mn><mo>=</mo><mn>10660</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "2600 plus 8060 equals 10660"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_ytSYqTTyHtqyKBTv",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "prepare",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 3,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_KgzRTngWVf3gtKdt"
+     ],
+     "part_tier": null,
+     "problem_md": "Prepare Lionel’s capital account for the year ended 30 June 2023. Balance the account and bring down the balance at 1 July 2023.\n\nLionel\n Capital account\n\n| Date | Details | \\$ | Date | Details | \\$ |\n|---|---|---|---|---|---|\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |\n|   |   |   |   |   |   |",
+     "solution_md": "Calculate the total amount of **drawings **taken\n\n- Add the cash drawn from the bank with personal motor expenses\n\n$12000+1664=13664$\n\nLionel\n Capital account\n\n| Date | Details | \\$ |   | Date | Details | \\$ |   |\n|---|---|---|---|---|---|---|---|\n| 2023 |   |   |   | 2022 |   |   |   |\n| Jun 30 | Drawings | 13 664 | **[2]** | Jul 1 | Bank | 15 000 | **[1]** |\n|   | Balance c/d | 8 623 |   | 2023 |   |   |   |\n|   |   |   |   | Jun 30 | Income statement (profit for the year) | 7 287 | **[1]** |\n|   |   | <u>22 287</u> |   |   |   | <u>22 287</u> |   |\n|   |   |   |   | Jul 1 | Balance b/d | 8 623 | **[1]** |\n\n> **[mark-scheme]**\n> 5 marks in total:\n> \n> - 2 marks for drawings with the correct figure\n> \n>   - 1 mark for \\$12 000\n>   - 1 mark for \\$1 664\n> - 1 mark for bank with the correct figure\n> - 1 mark for your **own figure** for the profit\n> - 1 mark for your **own figure** for balance b/d using your balance c/d",
+     "equations": [
+      {
+       "latex": "12000+1664=13664",
+       "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>12000</mn><mo>+</mo><mn>1664</mn><mo>=</mo><mn>13664</mn></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true,\"toolbar\":\"<toolbar ref='general'><tab ref='general'><removeItem ref='setColor'/><removeItem ref='bold'/><removeItem ref='italic'/><removeItem ref='autoItalic'/><removeItem ref='setUnicode'/><removeItem ref='mtext' /><removeItem ref='rtl'/><removeItem ref='forceLigature'/><removeItem ref='setFontFamily' /><removeItem ref='setFontSize'/></tab></toolbar>\"}</annotation></semantics></math>",
+       "alt": "12000 plus 1664 equals 13664"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_8tFtZjr5QGB2pnCd",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 3,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_rfn6Cb7v3fTVM9P7"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one **reason why Lionel should keep double-entry bookkeeping records.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for any one correct reason.\n> \n> - Lionel would know the full details of the assets, liabilities, income and expenses of his business\n> - Lionel would be able to prepare the financial statements relatively easily\n> - The profit or loss for the year is more likely to be accurate\n> - Lionel would be able to make more informed decisions about the business\n> - The risk of fraud would be reduced\n> - Lionel would be able to compare his information with previous years or other businesses more easily\n> - Lionel would have the details for reference reasons\n> - Lionel would have information readily available for the bank and other lenders"
+    },
+    {
+     "id": "qstnprt_FvjzS32C2skHrY8F",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "advise",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/22",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_DJNFj2BSwmrWJ4YK"
+     ],
+     "part_tier": null,
+     "problem_md": "Lionel currently makes cash sales only. He would like to start selling on credit and is considering whether to offer a 10% trade discount to regular customers or a 3% discount for payment within 21 days.\n\n**REQUIRED**\n\nAdvise Lionel whether he should offer the 10% trade discount **or **the 3% cash discount. Justify your answer.",
+     "solution_md": "If Lionel allowed trade discount, then it might encourage his credit customers to make repeat orders **[1]**. If it is successful, then it should increase his revenue and gross profit **[1]**.\n\nIf Lionel allowed cash discount, then it might encourage his credit customers to pay their invoices promptly **[1]**. It might also reduce the risk of irrecoverable debts occurring **[1]**.\n\nLionel should allow trade discount **[1] **as it has the possibility of forming loyal customers, which is especially important during the first few years of business.\n\n> **[mark-scheme]**\n> 5 marks in total:\n> \n> - 1 mark for your **decision**.\n> - Maximum 4 marks for comments about allowing trade and cash discount.\n> \n>   - Up to 3 marks for comments about **trade discount**.\n>   - Up to 3 marks for comments about **cash discount**.\n> \n> Points about **trade discount** may include:\n> \n> - It may encourage customers to place repeat orders\n> - If it is successful it might increase revenue and gross profit\n> - If it is unsuccessful, it might decrease revenue and gross profit\n> - Customers who do not purchase regularly might feel they are being overcharged\n> - Lionel will need to keep track of which customers order regularly to allow trade discount\n> - Other valid points are accepted\n> \n> Points about **cash discount ** may include:\n> \n> - It may encourage customers to pay more quickly\n> - Cash discount will reduce profit for the year\n> - Some customers might think 3% discount is not worth the early payment\n> - It might reduce the risk of irrecoverable debts\n> - Other valid points are accepted"
+    }
+   ]
+  },
+  {
+   "id": "qstn_XyVQvCNpcZH2DdwC",
+   "set_slug": "structured-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_HrZBkdqvhDkFPcZq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Nov 2023",
+      "number": "0452/21",
+      "question_number": 1,
+      "question_part": "a(i)(ii)"
+     },
+     "spec_point_ids": [
+      "spcpt_xGpzcNHqZBkPtR74",
+      "spcpt_GFCZzW9fjGR377Vy"
+     ],
+     "part_tier": null,
+     "problem_md": "State **two **advantages of maintaining double entry records.",
+     "solution_md": "> **[mark-scheme]**\n> 1 mark for each advantage, up to a maximum of 2 marks.\n> \n> - All information about assets, liabilities, income and expenses is available\n> - It is easier to prepare financial statements\n> - The calculation for the profit or loss is more likely to be accurate\n> - It reduces the risk of fraud\n> - It enables more informed decision making\n> - It is easier to make comparisons with previous years or other businesses\n> - Information needed for the bank or other lenders is easily available\n> - It is easier to have more control over business activities"
     }
    ]
   }

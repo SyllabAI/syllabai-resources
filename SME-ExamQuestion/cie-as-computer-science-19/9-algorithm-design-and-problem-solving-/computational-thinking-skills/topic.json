@@ -1,0 +1,168 @@
+{
+ "schema": "syllabai.sme-exam-questions/1.1",
+ "generated_utc": "2026-10-26T12:39:28Z",
+ "source": {
+  "provider": "Save My Exams",
+  "landing_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/",
+  "registry": "scripts/sme_cambridge_examq_scrape.py",
+  "license": "operator-authorized; see repo LICENSE-DATA.md (SME attestation 2026-09-17)"
+ },
+ "curriculum": {
+  "board": "Cambridge (CIE)",
+  "level": "as",
+  "subject": "computer-science",
+  "exam_code": "9618",
+  "sme_course_id": "crs_5gnmGkgb4TQZkswD",
+  "syllabus_version": "2019",
+  "sme_alias_path": "19",
+  "course_name": "Cambridge (CIE) AS Computer Science"
+ },
+ "section": {
+  "slug": "9-algorithm-design-and-problem-solving-",
+  "name": "9. Algorithm Design & Problem-solving"
+ },
+ "topic": {
+  "id": "top_YtP9qz3tmFXdWKQs",
+  "slug": "computational-thinking-skills",
+  "name": "Computational Thinking Skills",
+  "order": 0
+ },
+ "subtopics": [
+  {
+   "slug": "computational-thinking-skills",
+   "name": "Computational Thinking Skills",
+   "revision_note_id": "rn_wq3XmQHDqTDMsRPK"
+  }
+ ],
+ "question_sets": [
+  {
+   "id": "tqst_92K7JxW8fdpyxqXX",
+   "slug": "exam-questions",
+   "name": "Exam Questions",
+   "order": 0,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 3,
+   "questions_embedded": 3,
+   "page_url": "https://www.savemyexams.com/as/computer-science/cie/19/topic-questions/9-algorithm-design-and-problem-solving-/computational-thinking-skills/exam-questions/"
+  }
+ ],
+ "scrape": {
+  "questions_embedded": 3,
+  "questions_missing": [],
+  "asset_failures": [],
+  "sets_completed": [
+   "exam-questions"
+  ],
+  "asset_map": {}
+ },
+ "questions": [
+  {
+   "id": "qstn_bW7GJvcc2Gw3RsWG",
+   "set_slug": "exam-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_zPwd5Ry4KNQZf2mq",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/22",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_BT28pP7VkkWZYZbM"
+     ],
+     "part_tier": null,
+     "problem_md": "A fitness club has a computerised membership system.\n\nThe system stores information for each club member: name, home address, email address, mobile phone number, date of birth and exercise preferences.\n\nMany classes are full, and the club creates a waiting list for each class. The club adds details of members who want to join a class that is full to the waiting list for that class.\n\nWhen the system identifies that a space is available in one of the classes, a new module will send a text message to each member who is on the waiting list.\n\nDecomposition will be used to break the new module into sub‑modules (sub‑problems).\n\nIdentify **three** sub‑modules that could be used in the design and describe their use.\n\nSub‑module 1 ..........................................................................................................\n\nUse ..........................................................................................................................\n\nSub‑module 2 .........................................................................................................\n\nUse ..........................................................................................................................\n\nSub‑module 3 .........................................................................................................\n\nUse ..........................................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> Examples include:\n> \n> Module: `IdentifyMember() `\n> Use: Identifies a club member who has expressed an interest in a given class\n> \n> Module: `GetMemberPhoneNumber() `\n> Use: Gets the mobile phone number of a member\n> \n> Module: `CreateMessage() `\n> Use: Generates a text message to a member\n> \n> Module: `SendMessage() `\n> Use: Sends a text message to a member in the waiting list\n> \n> One mark for name **and** use\n> \n> **Note: max 3 marks**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YhPP9z8xSb8Wr6qc",
+   "set_slug": "exam-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 1,
+   "parts": [
+    {
+     "id": "qstnprt_rKR9MkKQSpnYgwDr",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "June 2024",
+      "number": "9618/21",
+      "question_number": 7,
+      "question_part": "ai"
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A fitness club has a computerised membership system. The fitness club offers a number of different exercise classes.\n\nThe following information is stored for each club member: name, home address, email address, mobile phone number, date of birth and the exercise(s) they are interested in.\n\nWhen an exercise class is planned, a new module will send personalised text messages to each member who has expressed an interest in that exercise. Members wishing to join the class send a text message back. Members may decide **not **to receive future text messages by replying with the message ‘STOP’.\n\nThe process of abstraction is used to filter out unnecessary information.\n\nState **one** advantage of applying abstraction to this problem.",
+     "solution_md": "> **[mark-scheme]**\n> To make the solution easier to design / implement / solve"
+    }
+   ]
+  },
+  {
+   "id": "qstn_rDQc328ThMjFT7Y3",
+   "set_slug": "exam-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_TFYWtT2mc9XGTBH2",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "A coffee shop runs a computerised loyalty card system.\n\nCustomers are issued with a loyalty card with their name together with a unique customer ID.\n\nLoyalty points are added to their card each time they spend money at the shop.\n\nThe following information is stored for each customer: ID, name, home address, email address, mobile phone number, date of birth, number of points, date of last visit and amount of money spent at last visit.\n\nA new module will generate a personalised email message to each loyalty card customer who has not visited the coffee shop in the last three months. The message will include a unique voucher code which can be used to authorise a discount if the customer goes to the shop within the next two weeks.\n\nIdentify **three **items of customer information that will be used by the new module **and** justify your choices.\n\nItem 1 .....................................................................................................................\n\nJustification ............................................................................................................\n\nItem 2 .......................................................................................................................\n\nJustification ............................................................................................................\n\nItem 3 ......................................................................................................................\n\nJustification ............................................................................................................",
+     "solution_md": "> **[mark-scheme]**\n> - Customer ID – to reference the other customer details\n> - Email address – to send the email\n> - Name – to personalise the email\n> - Date of last visit – to select which customers should receive an email\n> - Unique voucher code (or method of code generation) – to include in the email\n> \n> Mark as follows:\n> \n> One mark per item **and** justification\n> \n> **Max 3 marks**"
+    },
+    {
+     "id": "qstnprt_qnnrhvNvGScPNcBV",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": null,
+     "source_paper": {
+      "date": "November 2024",
+      "number": "9618/22",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_jMSSWQwbp23xmKMM"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the computational thinking skill that you needed to use to answer part (a).",
+     "solution_md": "> **[mark-scheme]**\n> Abstraction"
+    }
+   ]
+  }
+ ]
+}

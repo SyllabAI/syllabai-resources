@@ -465,3 +465,701 @@ The cross for red-eyed flies would be:
 **B** is incorrect because the 1:1 ratio would depend on the genotype of the red-eyed fly in the cross and can’t be concluded from the information given.
 
 **D** is incorrect because we do not need to do a cross to find the 3:1 ratio just to find out which of the alleles are dominant.
+
+## Theory Questions (19 questions)
+
+
+### Q1
+> **[mark-scheme]**
+> (i) Allele:
+> 
+> - An alternative form/version of a gene **[1 mark]**
+> 
+> (ii) Heterozygous:
+> 
+> - Having two different alleles of a gene **[1 mark]**
+To predict the genotypes and phenotypes of the offspring:
+
+- Identify parent genotypes
+
+heterozygous, polled cow = Pp **AND** horned bull = pp **[1 mark]**
+
+- Complete Punnett square
+
+|   | **p** | **p** |
+|---|---|---|
+| **P** | Pp | Pp |
+| **p** | pp | pp |
+
+**[1 mark]**
+
+- Indicate phenotypes of offspring
+
+Pp = polled **AND** pp = horned **[1 mark]**
+
+- State phenotype ratio
+
+1 polled : 1 horned **[1 mark]**
+
+> **[mark-scheme]**
+> Award marking point 3 for a correctly labelled Punnett square.
+> 
+> Allow 2 polled : 2 horned / 50% polled and 50% horned for marking point 4.
+
+> **[exam-tip]**
+> The question tells us that the polled cow is heterozygous, so we know that her genotype must be Pp.
+> 
+> Because horns are recessive, the horned bull must be pp since a recessive trait can only be expressed when both alleles are recessive.
+> 
+> Make sure to state the phenotypes in full words — the letter combinations alone only represent the genotypes and that final mark will not be awarded without them.
+> **[mark-scheme]**
+> - Breed together a cow with a high milk yield and a suitable bull / a bull that produces female offspring with high milk yield **[1 mark]**
+> - Breed together the offspring with the highest milk yield **[1 mark]**
+> - Repeatover many generations **[1 mark]**
+
+### Q2
+Any three from:
+
+- Active transport;**[1 mark]**
+- Movement occurs against a concentration gradient / from low concentration to high concentration; **[1 mark]**
+- The CFTR protein changes shape to move (chloride) ions;**[1 mark]**
+- Energy is needed; **[1 mark]**
+
+Note that you are not expected to know anything about cystic fibrosis, but instead you should be able to apply your knowledge of active transport to this context.
+Any three from:
+
+- Chloride ions (in duct) decrease water potential; **[1 mark]**
+- Water moves by <u>osmosis</u>; **[1 mark]**
+- Water moves down a water potential gradient / from high water potential to low water potential; **[1 mark]**
+- Water moves through a partially permeable membrane; **[1 mark]**
+(i)
+
+- Parents of 5 and 7 / individuals 2 and 3 do not have cystic fibrosis;** [1 mark]**
+- Individuals 2 and 3 must be heterozygous / carriers (of the cystic fibrosis allele); **[1 mark]**
+
+(ii)
+
+- One parent has the genotype aa;**[1 mark]**
+- One parent has the genotype Aa; **[1 mark]**
+- Parental gametes are a **AND** a** AND** A** AND** a; **[1 mark]**
+- Offspring genotypes are Aa **AND** aa** AND** Aa **AND** aa; **[1 mark]**
+- Clear indication that Aa = no cystic fibrosis and aa = cystic fibrosis **AND** the probability of being a sufferer is 50%/half/0.5; **[1 mark]**
+
+![Genetic diagram showing inheritance probabilities for cystic fibrosis. Parental genotypes: Aa and Aa. Offspring genotypes: Aa, aa. 50% chance cystic fibrosis.](assets/015-genetic-diagram-showing-inheritance-probabilitie.png)
+
+### Q3
+- A length/section of DNA; **[1 mark]**
+- That codes for a protein; **[1 mark]**
+
+**[Total: 2 marks]**
+(i)
+
+- 1/one; **[1 mark]**
+
+The information provided in the question tells us that the smooth coat allele (r) is recessive, so only individuals with the genotype rr will have smooth coats. In the key we can see that unfilled shapes represent individuals with the genotype rr, and individual F is the only guinea pig in Fig. 3.2 represented by an unfilled shape.
+
+(ii)
+
+- D;  **[1 mark]**
+
+The key provided in Fig. 3.2 allows us to see that individual D is the only guinea pig with the genotype RR.
+
+(iii)
+
+- 3/three;  **[1 mark]**
+
+The key shows that squares represent male guinea pigs, so individuals A, D and F are males.
+
+**[Total: 3 marks]**
+- Male gametes = R and R **AND** female gametes = R and r; **[1 mark]**
+- Offspring genotypes = RR **AND** RR **AND** Rr **AND** Rr; **[1 mark]**
+- Probability of having a smooth coat = 0/zero; **[1 mark]**
+
+![Punnett square diagram showing genetic cross: female alleles R, r; male alleles R, R. Results: two RR and two Rr combinations.](assets/019-punnett-square-diagram-showing-genetic-cross-fem.png)
+
+![Genetic cross diagram showing male (RR) and female (Rr) guinea pigs. Offspring genotypes: RR, Rr. No rr offspring. Annotations highlight correct answers.](assets/020-genetic-cross-diagram-showing-male-rr-and-female.png)
+
+**[Total: 3 marks]**
+- Pure; **[1 mark]**
+
+**[Total: 1 mark]**
+
+### Q4
+(i)
+
+- **(P) X**<sup>**H**</sup>**X**<sup>**h**</sup>; **[1 mark]**
+- **(Q) X**<sup>**h**</sup>**Y**;** [1 mark]**
+- **(R) X**<sup>**H**</sup>**Y**; **[1 mark]**
+
+P must be heterozygous because they pass on their X<sup>h </sup>chromosome for haemophilia to their son Q.
+
+(ii) 0.25; **[1 mark]**
+
+![Pedigree diagram showing haemophilia inheritance: circles and squares represent females and males. Includes Punnett square and handwritten probability notes.](assets/022-pedigree-diagram-showing-haemophilia-inheritance.png)
+
+(iii)
+
+- The gene is located on a sex chromosome; **[1 mark] **
+- The characteristic is more common in / one sex (than the other); **[1 mark]**
+
+**[Total: 6 marks]**
+
+### Q5
+(i)
+
+- X or Y; **[1 mark]**
+
+(ii)
+
+- A gene is a length of **DNA**…; **[1 mark]**
+- …that codes for a **protein**; **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q6
+- (Male and female gametes) **A** and **a**; **[1 mark]**
+- (Offspring) **AA**, **Aa**,** Aa** and** aa**;** [1 mark]**
+- (Phenotypic ratio) 3 (white) : 1 (black); **[1 mark]**
+
+![A Punnett square shows a genetic cross between heterozygous goats (Aa x Aa) with a phenotypic ratio of 3 white to 1 black offspring.](assets/025-a-punnett-square-shows-a-genetic-cross-between-h.png)
+
+**[Total: 3 marks]**
+
+### Q7
+(i) The type of cell division that produces gametes is:
+
+- Meiosis; **[1 mark]**
+
+(ii) The name of the cell formed when the nuclei of two gametes join together is:
+
+- Zygote; **[1 mark]**
+
+**[Total: 2 marks]**
+(i) The term *homozygous* means:
+
+- Having two identical alleles of a (particular) gene; **[1 mark]**
+
+(ii) The dominant allele for fur colour is:
+
+- **B**/black; **[1 mark]**
+- All of the offspring have black fur / brown fur not seen in offspring; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *If you're struggling to remember the difference between homozygous and heterozygous, remember that "homo" means 'the same' and "hetero" means 'different'.*
+
+> *When the two rabbits are crossed all of the offspring will have the genotype Bb (they will be heterozygous), and the fact that all of these rabbits have black fur tells us that the allele for black fur (B) must be dominant over the allele for brown fur (b).*
+
+![untitled-13](assets/027-untitled-13.png)
+The phenotype of an organism is different to its genotype because:
+
+- Phenotype is the observable features/appearance **WHILE** genotype is alleles present / whether the individuals are heterozygous or homozygous; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Whenever a question asks you to give a **difference **your answer should always give both sides of the story; here, for example, you need to correctly define **both** phenotype and genotype to get the mark.*
+The completed genetic diagram is as follows:
+
+![cie-igcse-2018-s3-may-p3-q6d-inheritance-q-layout-ms](assets/029-cie-igcse-2018-s3-may-p3-q6d-inheritance-q-layou.png)
+
+*Phenotypes must match with the corresponding genotype for mark point 3 to be awarded.*
+
+**[Total: 4 marks]**
+
+> *You need to make sure that the offspring genotypes and the phenotypes on the line below match up, i.e. whenever you write bb then it must say brown directly below, and Bb must say black directly below. Otherwise, you won't get the mark for offspring phenotypes. *
+
+> *The offspring are half brown and half black; this is expressed in ratio form as 1:1.*
+The stages in the process of selective breeding are:
+
+Any **three **from the following:
+
+- Choose (parents with) desired feature/trait; **[1 mark]**
+- Breed/cross/mate (individuals with the trait together); **[1 mark]**
+- Choose offspring with the feature; **[1 mark]**
+- Breed offspring with feature (together); **[1 mark]**
+- For several/many generations; **[1 mark]**
+
+*Stages must be stated in the correct order for marks to be awarded.*
+
+**[Total: 3 marks]**
+
+> *You should make sure your stages are in the correct order; even if you write something that is on the mark scheme, if it doesn't make sense in the context in which it is written then you can't get the mark. *
+
+> *If you just say "repeat" for the last marking point, you can't get the mark. You should say repeat for **several **generations**.*
+
+### Q8
+The diploid number of chromosomes of the female muntjac deer is:
+
+- 6 *(accept 3 pairs)*; **[1 mark]**
+
+**[Total: 1 mark]**
+
+From the diagram, you can see there are six individual chromosomes (these are the sausage/worm shaped structures) or three pairs. Be sure to write your response in context to the question, i.e. **not** about humans in this case. You have to apply your knowledge of chromosomes to what is being asked of you in the question. You also should make sure your terminology is correct and refer to chromosome **pairs**, rather than just chromosomes.
+
+This question covers core knowledge but is taken from an extended paper 4 question.
+The sex chromosomes of the male muntjac deer shown in Fig. 2 differ from those of the female shown in Fig. 1 by:
+
+Any **two **from the following:
+
+- Different lengths of (sex) chromosomes; **[1 mark]**
+- Different banding (patterns) of (sex) chromosome; **[1 mark]**
+- Different numbers of (sex) chromosomes; **[1 mark]**
+- The female has XX (chromosomes) and male has, XYY (chromosomes) *(accept alternative wording of the same idea)*; **[1 mark]**
+- The female chromosomes are the same as each other / male chromosomes differ from each other ; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *This is like a game of 'spot the difference' in comparing the two diagrams; you need to state what you see as differences. *
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+Meiosis can result in variation because:
+
+Any **four **from the following:
+
+- (Meiosis) produces gametes ; **[1 mark]**
+- (**Gametes**) are haploid / contain one (complete) set of **chromosomes**; **[1 mark]**
+- **Gametes** are genetically different (from each other); **[1 mark]**
+- (There is then) fusion of **gametes**; **[1 mark]**
+- (Which happens) at random; **[1 mark]**
+- The zygotes / offspring are genetically different (from the parent); **[1 mark]**
+- Sexual reproduction causes variation; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *A common mistake here is to describe the fusion of chromosomes rather than the fusion of gametes. Be clear in your response as to what meiosis is and isn't; another common mistake is to include fertilisation in the stages of meiosis. *
+A new allele can be formed by:
+
+Any **three **from the following:
+
+- An allele is a version of a gene *(accept alternative descriptions of the same idea)*; **[1 mark]**
+- Mutations (can cause new alleles to form); **[1 mark]**
+- (Mutations lead to a) change in the base / DNA sequence; **[1 mark]**
+- (Ionising) radiation / (named) chemicals can cause mutations; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Don't get confused here with different combinations of alleles as opposed to generating new alleles. Natural selection and sexual reproduction (meiosis) will lead to new allele **combinations** but only mutations will create new alleles. *
+
+> *This question covers core knowledge taken from an extended only paper 4 question.*
+
+### Q9
+(i) Cell **T** is a
+
+- Zygote; **[1 mark]**
+
+(ii) The name of the process that takes place at **S **to form cell **T **in Fig. 1 is:
+
+Any **one **from the following:
+
+- Fertilisation; **[1 mark]**
+- <u>Nuclear</u> fusion; **[1 mark]**
+
+(iii) In the human body, process **S** takes place in the:
+
+- Oviduct; **[1 mark]**
+
+A common misconception is that fertilisation takes place in the uterus or vagina; the sperm travels as far as the oviduct. This long journey is one reason why so many sperm are released when only one is needed to fertilise the egg.
+
+**[Total: 3 marks]**
+(i) The completed table is as follows:
+
+| Individual | Genotype |
+|---|---|
+| **1** | > *Tt* |
+| **3** | > *Tt* |
+| **4** | > *Tt* |
+
+**[1 mark]** for each correct row.
+
+> *Individual **1 **is heterozygous as stated in the question, so it **Tt**.*
+
+> *Individuals **3 **and **4 **must both be heterozygous in order to both be tongue-rollers **AND **to have one child, a daughter, who cannot roll her tongue. She must have inherited the recessive allele from both parents, so the conclusion is that both parents must be heterozygous, **Tt**.*
+
+![tongue-rolling-page-1-ma](assets/035-tongue-rolling-page-1-ma.png)
+
+(b) (ii) The possible offspring phenotypes and the prediction of the ratio of phenotypes for the couple's children are as follows:
+
+- Possible offspring genotypes: **Tt **and **tt**; **[1 mark] **
+- Ratio of phenotypes: 1:1 / 50:50 etc; **[1 mark]**
+
+![tongue-rolling-page-2-ma](assets/036-tongue-rolling-page-2-ma.png)
+
+**[Total: 5 marks]**
+
+> *Be sure you know what the question is asking you for. The question requires **genotypes** in your answer. Genotypes are 2-letter abbreviations showing the alleles that an individual possesses for a particular gene. So a genotype of **Tt** means that the owner is heterozygous ie. possesses two different alleles, one dominant and the other recessive. This question has nothing to do with sex chromosomes X and Y. The fact that the photograph in Fig. 2 shows two boys (and no girls) is irrelevant to the answer. *
+
+### Q10
+(i) The genotypes of the people identified as **P**, **Q** and **R** in Fig. 1 are...
+
+- **P** = X<sup>H</sup>X<sup>h</sup>; **[1 mark]**
+- **Q** = X<sup>h</sup>Y; **[1 mark]**
+- **R** = X<sup>H</sup>Y<sup>; </sup>**[1 mark]**
+
+(ii) The probability that the child of **S** and **T** will have haemophilia is...
+
+- 0.25 / 25% / <sup>1</sup>/<sub>4</sub>; **[1 mark]**
+
+(iii) The term sex-linked characteristic refers to...
+
+- A gene located on a sex chromosome; **[1 mark]**
+- (The gene being on the sex chromosome means that the) characteristic is more common in one sex than the other; **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *Provided that you have been given the correct information it should be possible to work out an individual's genotype in a pedigree diagram; here we have been told that haemophilia is sex-linked and that it is a recessive condition (indicated by the use of lower-case 'h' to represent haemophilia). You should consider whether an individual is male (XY) or female (XX), whether they are healthy or haemophiliac, and the health of any offspring:*
+
+![untitled](assets/038-untitled.png)
+
+> *Individual **S** must be heterozygous for haemophilia for the same reason as individual **P**; they are healthy females, meaning that they have two copies of the X chromosome, one of which must be X*<sup>*H*</sup>*. They also have a haemophiliac son so their other X chromosome must be X*<sup>*h*</sup>*. Individual **T** is a healthy male so must be X*<sup>*H*</sup>*Y. In a cross between X*<sup>*H*</sup>*X*<sup>*h*</sup>* and X*<sup>*H*</sup>*Y there is a probability of 0.25 that the child will have haemophilia:*
+
+![untitled-19](assets/039-untitled-19.png)
+
+### Q11
+(i) The genotype of a heterozygous female carrier is:
+
+- X<sup>B</sup>X<sup>b</sup>; **[1 mark]**
+
+(ii) The genotype of a colour-blind male is:
+
+- X<sup>b</sup>Y; **[1 mark]**
+
+(iii) The correct symbol for person **13 **is:
+
+- Solid shaded square; **[1 mark]**
+
+![cie-igcse-2018-s1-oct-p4-q4d-pedigree-chart-ma](assets/041-cie-igcse-2018-s1-oct-p4-q4d-pedigree-chart-ma.png)
+
+(iv) Females 4 and 5 are carriers even though their mother is not a carrier because:
+
+Any **two **from the following:
+
+- (They would inherit) one X chromosome from each parent / an X chromosome from their father; **[1 mark]**
+- (Their) mother does not have any colour-blind alleles / father passes on one colour-blind allele (to them); **[1 mark]**
+- (All female offspring would be) heterozygous / X<sup>B</sup>X<sup>b</sup>; **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *Remember that it is not possible for there to be a carrier male for sex-linked characteristics because males only have one X chromosome and will therefore always express the allele on their X chromosome, whether it is dominant or recessive.*
+
+### Q12
+(i) The genotypes are as follows...
+
+- P = X<sup>H</sup>X<sup>h</sup>; **[1 mark]**
+- Q = X<sup>h </sup>Y; **[1 mark]**
+- R = X<sup>H</sup>Y; **[1 mark]**
+
+(ii) The probability that S and T will have a child with haemophilia is...
+
+- 0.25 / 25 % / 1 in 4 / ¼; **[1 mark]**
+
+(iii) Sex-linked can be defined as...
+
+- (A sex-linked) gene is located on a sex chromosome / X or Y chromosome / X / Y ; **[1 mark]**
+- (A sex-linked) characteristic is more common in males / in one sex (than the other); **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *Provided that you have been given the correct information it should be possible to work out an individual's genotype in a pedigree diagram; here we have been told that haemophilia is sex-linked and that it is a recessive condition (indicated by the use of lower-case 'h' to represent haemophilia). You should consider whether an individual is male (XY) or female (XX), whether they are healthy or haemophiliac, and the health of any offspring:*
+
+![Li1oAz-1_untitled](assets/043-li1oaz-1-untitled.png)
+
+> *Individual S must be heterozygous for haemophilia for the same reason as individual P; they are healthy females, meaning that they have two copies of the X chromosome, one of which must be XH. They also have a haemophiliac son so their other X chromosome must be Xh. Individual T is a healthy male so must be XHY. In a cross between XHXh and XHY there is a probability of 0.25 that the child will have haemophilia:*
+
+![ZiVueqSm_untitled-19](assets/044-zivueqsm-untitled-19.png)
+
+> *A sex-linked characteristic is more common in the sex which has only one allele for that gene. In humans and many other species this is males; males have only one X chromosome so will only have one allele got any gene located on the x chromosome.*
+
+### Q13
+(i) The evidence visible in the figure (that identifies the cells of *A. cepa* as plant cells) includes:
+
+Any **one **from the following:
+
+- Cell wall; **[1 mark]**
+- Cells are a regular shape **OR** cells have (relatively) straight sides; **[1 mark]**
+- Vacuole(s) (are present); **[1 mark]**
+
+***Ignore**** references to chloroplasts.*
+
+(ii) The role of mitosis in a shoot tip is:
+
+Any **one **from the following:
+
+- Growth; **[1 mark]**
+- Producing cells; **[1 mark]**
+- Increase length of shoot / elongation of shoot; **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *There are no chloroplasts **visible** in the micrograph, so the answer ‘chloroplasts’ in part (a) (i) would be **ignored** and would gain no marks.*
+Mitochondria have an important role in dividing cells because:
+
+Any **three **from the following:
+
+- Dividing cells / cell division/mitosis needs energy; **[1 mark]**
+- (Mitochondria) carry out <u>aerobic respiration</u>; **[1 mark]**
+- (Respiration) releases energy; **[1 mark]**
+- (For) a named function in dividing cells, e.g. movement of chromosomes **OR** making new cell wall **OR** making new (named) molecules (e.g. protein/DNA) **OR **making (named) organelle(s); **[1 mark]**
+
+***Reject**** references to energy being produced or made.*
+
+**[Total: 3 marks]**
+
+> *One very common misconception amongst students is that mitochondria ‘**produce**’ energy - this goes against the laws of physics and so is **incorrect**! You would **not gain a mark** for this incorrect statement. Mitochondria **RELEASE** energy.*
+It is important that only some of the genes in cell **A** are expressed because:
+
+Any **three **from the following:
+
+- Plants have different structures/parts / specialised cells; **[1 mark]**
+- Different parts / specialised cells have different functions/roles/features; **[1 mark]**
+- Specific/different proteins are required in different parts / specialised cells; **[1 mark]**
+- Genes code for proteins; **[1 mark]**
+- Therefore/so some genes are required / are not required; **[1 mark]**
+
+***Accept ****for a mark the idea that it is a waste of the plant's/cell's resource(s) if all genes are expressed***.**
+
+**[Total: 3 marks]**
+
+### Q14
+The term allele can be defined as...
+
+- A version of a <u>gene</u>; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *This question covers core knowledge but is taken from a paper 4 (extended content) paper.*
+A mutation could result in an abnormal enzyme as follows...
+
+Any **three **of the following:
+
+- (A mutation causes a) change in base (sequence of DNA); **[1 mark]**
+- The DNA/gene/base sequence codes for a protein/enzyme; **[1 mark]**
+- (Incorrect DNA sequence is transcribed to) mRNA; **[1 mark]**
+- (This results in a) different (sequence of) amino acids in protein/polypeptide/enzyme (during translation); **[1 mark]**
+- (The mutated/changed) enzyme / active site has a different shape/structure; **[1 mark]**
+- (The enzyme / active site is) not complementary to the substrate **OR** enzyme-substrate complexes cannot form **OR** the substrate will not fit into / bind (with the enzyme); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Remember that enzymes are specific to their substrate so a change in the active site, however small, could result in a non-functional enzyme.*
+
+> *A common mistake is to confuse DNA structure with the structure of the protein. A mutation changes the base sequence in the DNA which in turn can alter the amino acid sequence of the protein.*
+It is possible to achieve this ratio because...
+
+- The allele for dwarfism is recessive/t; **[1 mark]**
+- Both parents are heterozygous (so do not express the allele and are themselves tall); **[1 mark]**
+
+**[Total: 2 marks]**
+
+![untitled-10](assets/048-untitled-10.png)
+
+> *This question covers core knowledge taken from a paper 4 (extended content) paper.*
+(i) The type of reproduction shown can be explained as follows...
+
+- (These are cuttings which is an example of) <u>asexual reproduction</u>; **[1 mark]**
+- (The plantlets/cells/offspring grow by) <u>mitosis</u>; **[1 mark]**
+- (This means that) all cells / new plants are <u>genetically identical</u>; **[1 mark]**
+
+(ii) The disadvantages of this type of reproduction include...
+
+Any **three **of the following:
+
+- There will be increased/more competition for resources as all individuals are close together; **[1 mark]**
+- There is an increased risk of inheriting harmful alleles/features/traits **OR** any harmful alleles will (always) be passed on to offspring; **[1 mark]**
+- (As there is) no/little (genetic) variation; **[1 mark]**
+- No new adaptive features (will arise/be introduced into the population); **[1 mark]**
+- (This means) no evolution/(natural) selection/artificial selection (can occur); **[1 mark]**
+- (No selection means that) there is no/little ability to respond to (named) environmental change; **[1 mark]**
+- (No variation means that) all individuals are susceptible to the same diseases/pests; **[1 mark]**
+- There will be a higher risk of <u>extinction</u> (in the event of environmental change or disease); **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *When cuttings are taken the offspring are genetically identical to each other and to the parent plant; they are clones. This can be advantageous for gardeners seeking to replicate desirable plant features but means that any resulting plant population will be susceptible to dying out if the environment changes. This is because they will be unable to evolve by natural selection due to their lack of genetic variation.*
+
+### Q15
+(i) The number of goats with white fur is:
+
+- Five / 5; **[1 mark]**
+
+(ii) The phenotype of goat **5** will be:
+
+- <u>Black</u> (fur / coat); **[1 mark]**
+
+(iii) Two terms that can be used to describe the genotype of goat **6** would be:
+
+- Homozygous; **[1 mark]**
+- Dominant; **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *For part (a) (i), the white allele (**A**) is written as a capital letter, which indicates that it is dominant over the black allele (**a**). This means that any goat containing at least one white (**A**) allele in its genotype will have white fur.*
+
+![061031-nov-q7ai-ma](assets/052-061031-nov-q7ai-ma.png)
+
+> *For part (a) (ii), the genotype of goat 5 is **aa**, meaning that it has two black alleles for coat colour and will therefore have black fur.*
+
+> *For part (a) (iii), the genotype of goat 6 is **AA**. This means that the goat is homozygous for coat colour, since both alleles are the same (**A**). The alleles are written in capital letters, which means that they are both dominant.*
+The type of variation shown by fur colour in these goats is:
+
+- <u>Discontinuous</u> (variation); **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *Discontinuous variation is that which fits into a discrete set of categories. Sometimes the data which tells us about this variation is referred to as being discrete or categorical as well as being discontinuous. Conversely, continuous variation gives data which can have any numerical value on a scale e.g. height.*
+The genetic cross can be done as follows:
+
+**Marks are allocated to the following:**
+
+- Male and female gametes: **A** and **a**; **[1 mark]**
+- Genotypes of the offspring: **AA**, **Aa**, **Aa**, **aa**; **[1 mark]**
+- Phenotypic ratio: 3 (white) : 1 (black); **[1 mark]**
+
+*Error carried forward would apply from the step before.*
+
+**[Total: 3 marks]**
+
+![2018-nov-061031-q7cima](assets/054-2018-nov-061031-q7cima.png)
+The process a farmer could use to breed a herd of white goats includes:
+
+Any **three **from the following:
+
+- (They could) use selective breeding; **[1 mark]**
+- (The farmer should) breed / cross / mate two white goats; **[1 mark]**
+- (They should) select the offspring with white coats and breed them again **OR** do not breed the offspring with black coats / remove the black goats from the breeding stock; **[1 mark]**
+- (Breeding the white goats) should be done over many/several generations; **[1 mark]**
+- To ensure/create a population of (white) goats that are homozygous dominant; **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *For the fourth marking point, you must be specific about the process being repeated over **many generations**. If you just state that the process is repeated you can't get the mark. *
+
+> *By continuously selecting the individuals with the white coat colour to breed ensures that a population of homozygous white goats will be produced over the course of many generations.*
+
+### Q16
+The term *allele* means:
+
+- The (two) versions of a gene / the two or more alternative forms of a gene; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *It is really important you learn the definitions of the key words in inheritance. In this example, all pea plants will have the gene for coloured flowers, but there will be two forms of this gene: one for red flowers and one for white flowers. This is defined as the allele of the gene. *
+The dominant allele is:
+
+- (Allele for) red (flowers) / **R**; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *You can tell that the red allele is the dominant one because all the plant's offspring were red, meaning that this allele was expressed over the white version, which would be recessive in this case. *
+(i) A Punnet square for the diagram is:
+
+- All alleles (parent genotypes) correct; **[1 mark]**
+- All offspring genotypes correct; **[1 mark]**
+
+(ii) The phenotypic ratio is:
+
+- 3 <u>red</u> : 1 <u>white</u> (colours must be stated); **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Rr could be shown as rR and still be correct. *
+
+![b03183c1-42c2-47cf-a1c0-c1c427df08cd](assets/057-b03183c1-42c2-47cf-a1c0-c1c427df08cd.jpeg)
+
+### Q17
+There is usually a 1:1 ratio of male babies born to female babies because:
+
+Any **three** from the following:
+
+- Males carry an X & a Y chromosome, females carry 2 X chromosomes; **[1 mark]**
+- Males produce half of sperm/gametes carrying X, half carrying Y; **[1 mark]**
+- Females produce all eggs/gametes carrying X; **[1 mark]**
+- Fertilisation will produce XY or XX with even chances / 50:50 / 50% each; **[1 mark]**
+
+*Allow a suitable Punnett square or genetic diagram to illustrate the answer*
+
+**[Total: 3 marks]**
+Processes P and Q in Fig. 1 are:
+
+- P = transcription; **[1 mark]**
+- Q = translation; **[1 mark]**
+
+**[Total: 2 marks]**
+The items are as follows:
+
+(i) The molecule that leaves the nucleus carrying the genetic code is
+
+- mRNA / messenger RNA; **[1 mark]**
+
+(ii) The cell structure where protein synthesis takes place is:
+
+- Ribosome / ribosomes; **[1 mark]**
+
+(iii) The feature of a DNA molecule that determines the amino acid sequence is:
+
+- Base sequence / triplet code / codon; **[1 mark]**
+
+**[Total: 3 marks]**
+The correct words to use to fill the gaps are as follows:
+
+Mitosis is a process of cell **division **in which two **identical **daughter cells are produced. Because these cells all have two copies of each **chromosome**, they are known as **diploid **cells.
+
+Mitosis allows for **repair **of damaged tissues as well as to provide more cells during periods of **growth**.
+
+**[1 mark]** for each correct word in the correct place.
+
+**[Total: 6 marks]**
+
+### Q18
+The correctly-completed genotypes in Table 1 are:
+
+| number of individual in Fig. 2 | genotype of individual |
+|---|---|
+| 1 | bb |
+| 2 | Bb |
+| 4 | Bb |
+| 14 | bb |
+
+**[1 mark]** *for each correct genotype.*
+
+**[Total: 4 marks]**
+
+> *Unless you are crystal clear on the difference between phenotypes and genotypes, this question will be very challenging. The question asks for **genotypes**, so that means pairs of letters like BB, Bb and bb. Phenotypes are the cats' appearances, so not required in your answers!*
+
+- *Individuals 1 and 14 must be bb because they are normal-toed cats, so do not possess the dominant allele B*
+- *Individual 2 must be Bb; they have extra toes, so must have **a copy of the dominant allele**, but must **also have a copy of recessive b** in order to produce normal-toed offspring (e.g. individual 7)*
+- *Individual 4 must be Bb; they have extra toes so must have dominant allele B, but parent 1 has normal toes, so 4 can only have inherited a single copy of B*
+
+![GIp5UDY9_2](assets/061-gip5udy9-2.png)
+
+### Q19
+The completed diagram is as follows:
+
+![cie-igcse-2020-specimen-p4-q4a-ms](assets/064-cie-igcse-2020-specimen-p4-q4a-ms.png)
+
+**[Total: 3 marks]**
+
+> *Both **R** and** Y** are required for the parent genotypes mark. *
+The completed table is as follows:
+
+|   | genotypes of Offspring |   |
+|---|---|---|
+| **cross 2** | offspring of **cross 1** × offspring of **cross 1** | **RR, YY, RY**; **[1 mark]** |
+| **cross 3** | offspring of **cross 1** × red-flowered plant | **RR, RY**; **[1 mark]** |
+| **cross 4** | offspring of** cross 1** × yellow-flowered plant | **YY, RY**; **[1 mark]** |
+
+**[Total: 3 marks]**
+
+> *If you got the answer to part (a) incorrect you can still get marks for error carried forward. *
+
+![ma-for-2020-spec-paper-4-q4b](assets/065-ma-for-2020-spec-paper-4-q4b.png)
+The results of the crosses show that the alleles for flower colour are not dominant or recessive because:
+
+Any **three **from the following:
+
+- Phenotype of **RY** (offspring of **cross 1**) is different from either parent or the homozygous genotypes; **[1 mark]**
+- The phenotype was intermediate / mixture of two colours; **[1 mark]**
+- Offspring of **cross 2** gives three phenotypes not two; **[1 mark]**
+- Offspring of **crosses 3** and **4** both give two phenotypes; **[1 mark]**
+- If dominance **cross 3** or **4** would give one phenotype only / incomplete dominance / both alleles are expressed; **[1 mark]**
+
+**[Total: 3 marks]**

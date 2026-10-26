@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.sme-exam-questions/1.1",
- "generated_utc": "2026-10-17T02:32:54Z",
+ "generated_utc": "2026-10-26T14:12:23Z",
  "source": {
   "provider": "Save My Exams",
   "landing_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/",
@@ -46,6 +46,18 @@
  ],
  "question_sets": [
   {
+   "id": "tqst_kMCNb452XWpX6JpR",
+   "slug": "alternative-to-practical-questions",
+   "name": "Alternative to Practical Questions",
+   "order": 2,
+   "difficulties": [
+    "medium"
+   ],
+   "question_count": 4,
+   "questions_embedded": 4,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/12-respiration/12-1-respiration/alternative-to-practical-questions/"
+  },
+  {
    "id": "tqst_k6m73mFCPDjdcjnT",
    "slug": "multiple-choice-questions",
    "name": "Multiple Choice Questions",
@@ -58,26 +70,385 @@
    "question_count": 28,
    "questions_embedded": 28,
    "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/12-respiration/12-1-respiration/multiple-choice-questions/"
+  },
+  {
+   "id": "tqst_CwsJV6FPvpW8dNMk",
+   "slug": "theory-questions",
+   "name": "Theory Questions",
+   "order": 1,
+   "difficulties": [
+    "easy",
+    "medium",
+    "hard",
+    "very_hard"
+   ],
+   "question_count": 17,
+   "questions_embedded": 17,
+   "page_url": "https://www.savemyexams.com/igcse/biology/cie/23/topic-questions/12-respiration/12-1-respiration/theory-questions/"
   }
  ],
  "scrape": {
-  "questions_embedded": 28,
+  "questions_embedded": 49,
   "questions_missing": [],
   "asset_failures": [],
   "sets_completed": [
-   "multiple-choice-questions"
+   "alternative-to-practical-questions",
+   "multiple-choice-questions",
+   "theory-questions"
   ],
   "asset_map": {
-   "https://cdn.savemyexams.com/uploads/2025/05/3962_screenshot-2025-05-31-145710.png": "001-bar-chart-showing-oxygen-uptake-in-cm-over-time-.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/12--image-2-respiration-rat.png": "002-12-image-2-respiration-rat.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/12--image-4-yeast-experiment.png": "003-12-image-4-yeast-experiment.png",
-   "https://cdn.savemyexams.com/uploads/2022/10/word-equation-for-aerobic-respiration-igcse-and-gcse-chemistry-revision-notes.png": "004-word-equation-for-aerobic-respiration-igcse-gcse.png",
-   "https://cdn.savemyexams.com/uploads/2022/10/061062-may-2018-paper-6-q1-respiration---atp-sq.png": "005-061062-may-2018-paper-6-q1-respiration-atp-sq.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/12--image-3-yeast-experimen.png": "006-12-image-3-yeast-experimen.png",
-   "https://cdn.savemyexams.com/uploads/2023/02/12--image-1-gas-exchange-leaf.png": "007-12-image-1-gas-exchange-leaf.png"
+   "https://cdn.savemyexams.com/uploads/2025/06/6108_screenshot-2025-06-01-134319.png": "001-diagram-showing-a-woodlouse-in-a-tube-with-potas.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/50177_screenshot-2025-06-01-134622.png": "002-diagram-of-a-capillary-tube-experiment-with-rule.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/2651_screenshot-2025-06-01-134919.png": "003-table-showing-the-rate-of-movement-of-coloured-l.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/41895_screenshot-2025-06-01-135252.png": "004-a-grid-of-evenly-spaced-black-lines-on-a-white-b.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/36180_screenshot-2025-06-01-135137.png": "005-table-showing-the-rate-of-liquid-movement-for-sp.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/64254_screenshot-2025-06-01-135346.png": "006-bar-chart-showing-rate-of-coloured-liquid-moveme.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/42651_screenshot-2025-06-01-161930.png": "007-close-up-of-a-woodlouse-with-a-segmented-shell-s.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/17674_screenshot-2025-06-01-162218.png": "008-magnification-equals-the-length-of-line-pq-divid.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/19996_screenshot-2025-06-01-162057.png": "009-hand-drawn-insect-with-eight-segments-projection.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/34759_screenshot-2025-06-01-162321.png": "010-a-diagram-of-a-woodlouse-under-magnification-wit.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061062-may-2018-paper-6-q1-respiration---atp-sq.png": "011-061062-may-2018-paper-6-q1-respiration-atp-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061062-may-2018-paper-6-q1-respiration-tally---atp-sq.png": "012-061062-may-2018-paper-6-q1-respiration-tally-atp.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061062-may-2018-paper-6-q1-thermometeres---atp-sq.png": "013-061062-may-2018-paper-6-q1-thermometeres-atp-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/5aG~2Wqe_061062-may-2018-paper-6-q1ai-bubbles---ma.png": "014-5ag-2wqe-061062-may-2018-paper-6-q1ai-bubbles-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061062-may-2018-paper-6-q1-graph-paper---atp-sq.png": "015-061062-may-2018-paper-6-q1-graph-paper-atp-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/4ZDKSUEY_061062-may-2018-paper-6-q1-graph-paper---atp-sq.png": "016-4zdksuey-061062-may-2018-paper-6-q1-graph-paper-.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061062-may-2018-paper-6-q1-graph-paper---atp-sq2.png": "017-061062-may-2018-paper-6-q1-graph-paper-atp-sq2.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/experiment.png": "018-experiment.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/rate-of-respiration.png": "019-rate-of-respiration.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/K0LpDba7_picture4.png": "020-k0lpdba7-picture4.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/lHnpKd92_picture3.png": "021-lhnpkd92-picture3.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2023specimenq2a.png": "022-2023specimenq2a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/woodlouse-respiration-rate.png": "023-woodlouse-respiration-rate.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/unnamed.png": "024-unnamed.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/screenshot-2022-10-19-15-07-11.png": "025-screenshot-2022-10-19-15-07-11.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/vsfXl-9N_graph.png": "026-vsfxl-9n-graph.png",
+   "https://cdn.savemyexams.com/uploads/2025/05/3962_screenshot-2025-05-31-145710.png": "027-bar-chart-showing-oxygen-uptake-in-cm-over-time-.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/12--image-2-respiration-rat.png": "028-12-image-2-respiration-rat.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/12--image-4-yeast-experiment.png": "029-12-image-4-yeast-experiment.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/word-equation-for-aerobic-respiration-igcse-and-gcse-chemistry-revision-notes.png": "030-word-equation-for-aerobic-respiration-igcse-gcse.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/12--image-3-yeast-experimen.png": "031-12-image-3-yeast-experimen.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/12--image-1-gas-exchange-leaf.png": "032-12-image-1-gas-exchange-leaf.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/12045_screenshot-2025-06-02-114429.png": "033-graph-showing-total-mass-of-carbon-dioxide-produ.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/62229_screenshot-2025-06-02-125057.png": "034-flowchart-with-respiration-leading-to-options-pr.png",
+   "https://cdn.savemyexams.com/uploads/2025/06/18604_screenshot-2025-06-02-125658.png": "035-table-listing-life-processes-breathing-excretion.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061041-may-2018-paper-4-q5b-horse-walking---sq.png": "036-061041-may-2018-paper-4-q5b-horse-walking-sq.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/061041-may-2018-paper-4-q5b-horse-walking---ma.png": "037-061041-may-2018-paper-4-q5b-horse-walking-ma.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/0610p31q4b.png": "038-0610p31q4b.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/q4bima.png": "039-q4bima.png",
+   "https://cdn.savemyexams.com/uploads/2023/02/graph-paper.png": "040-graph-paper.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/3a2a1d67-3b3e-4c13-a549-743343883dc0.jpeg": "041-3a2a1d67-3b3e-4c13-a549-743343883dc0.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-p4-q5b.png": "042-cie-igcse-2018-s3-p4-q5b.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2018-s3-p4-q5e.png": "043-cie-igcse-2018-s3-p4-q5e.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/co2-production.png": "044-co2-production.png",
+   "https://cdn.savemyexams.com/uploads/2023/03/49f70146-b9b1-4fab-8701-dfd1ed5935f0.jpeg": "045-49f70146-b9b1-4fab-8701-dfd1ed5935f0.jpeg",
+   "https://cdn.savemyexams.com/uploads/2022/06/animal-cell-mitochondria-1.png": "046-animal-cell-mitochondria-1.png",
+   "https://cdn.savemyexams.com/uploads/2022/06/u_2i9pRC_words.png": "047-u-2i9prc-words.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018mj0610p42q5a.png": "048-2018mj0610p42q5a.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/2018mj0610p42q5c.png": "049-2018mj0610p42q5c.png",
+   "https://cdn.savemyexams.com/uploads/2022/10/cie-igcse-2020-specimen-p4-q2a-thermometer.png": "050-cie-igcse-2020-specimen-p4-q2a-thermometer.png"
   }
  },
  "questions": [
+  {
+   "id": "qstn_Y9zBCYzwYWpjK7gJ",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 3,
+   "difficulty": "medium",
+   "style": "exam_whole",
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_F93DsrmVkFC7x3BQ",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "A woodlouse is a small animal.\n\nThe rate of respiration of a woodlouse can be measured using a simple respirometer as shown in Fig. 2.1.\n\nAs the woodlouse respires the drop of coloured liquid moves along the capillary tube.\n\n![Diagram showing a woodlouse in a tube with potassium hydroxide and a mesh barrier, connected to a capillary tube with a coloured liquid drop and ruler.](assets/001-diagram-showing-a-woodlouse-in-a-tube-with-potas.png)\n\n(i) Record the position of the drop of coloured liquid in the capillary tube shown in Fig. 2.1 at the **start** and** after 30 minutes**.\n\n[1]\n\n(ii) Calculate the distance moved by the drop of coloured liquid in 30 minutes.\n\n[1]\n\n(iii) Calculate the rate of movement of the drop of coloured liquid in mm per minute. Give your answer to one decimal place.\n\n[2]",
+     "solution_md": "(i)\n\n*start *\n\n- 44 / 45 / 46 (mm)\n\n*and after 30 minutes *\n\n- 4 / 5 / 6 (mm); **[1 mark]**\n\n(ii)\n\n- 40 (mm); **[1 mark]**\n\n(iii)\n\n1.3 mm per minute; **[1 mark]**\n\n![Diagram of a capillary tube experiment with ruler showing liquid positions at start (44 mm) and after 30 minutes (4 mm); calculations included.](assets/002-diagram-of-a-capillary-tube-experiment-with-rule.png)\n\n**[Total: 4 marks]**"
+    },
+    {
+     "id": "qstnprt_4dMFbsXMkzGz37bw",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "The rate of movement of the drop of coloured liquid along the respirometer can be used to estimate the rate of respiration.\n\nA student used a respirometer to investigate the rate of respiration in four animal species.\n\nThe results are shown in Table 2.1.\n\n![Table showing the rate of movement of coloured liquid in mm per minute for species A, B, C, D over three trials, with calculated mean values.](assets/003-table-showing-the-rate-of-movement-of-coloured-l.png)\n\n(i) Calculate the missing mean for animal species **A**.\n\nWrite your answer in Table 2.1.\n\n[1]\n\n(ii) Plot a bar chart on the grid to show the mean rate of movement of the drop of coloured liquid in the capillary tube for the four animal species.\n\n![A grid of evenly spaced black lines on a white background, forming small squares across the entire image, resembling graph paper.](assets/004-a-grid-of-evenly-spaced-black-lines-on-a-white-b.png)\n\n[3]\n\n(iii) State the letter of the animal species which has the highest rate of respiration.\n\n[1]\n\n(iv) Suggest a suitable control for the investigation described in (b).\n\n[1]\n\n(v) The student decided it would be better to calculate the rate of respiration per gram of animal so that the values could be compared.\n\nDescribe how the student could find out the rate of respiration per gram of animal.\n\n[2]",
+     "solution_md": "(i)\n\n1.5; **[1 mark]**\n\n![Table showing the rate of liquid movement for species A in mm/min: trials 1 to 3 are 1.5, 1.7, 1.3; the mean is 1.5. Calculations shown below.](assets/005-table-showing-the-rate-of-liquid-movement-for-sp.png)\n\n(ii)\n\n- Axes labelled as animal species **and** mean rate of movement (of the drop of coloured liquid) / mm per minute; **[1 mark]**\n- Suitable scale and occupies at least half the grid on both axes;**[1 mark]**\n- All bars plotted accurately ± half a small square, bars do not touch and are the same width; **[1 mark]**\n\n![Bar chart showing rate of coloured liquid movement for animal species A, B, C, and D, with feedback on axes labels, bar spacing, and mean rates.](assets/006-bar-chart-showing-rate-of-coloured-liquid-moveme.png)\n\n(iii)\n\n- C; **[1 mark]**\n\n(iv)\n\n- Replace the woodlice with inert material (in the respirometer);**[1 mark]**\n\nRemember that a control is an investigation that is identical to the original but with the factor you are investigating removed. This allows for comparison in order to determine that the factor that is being investigated is the thing that is causing the results.\n\n(v)\n\n- Measure the mass of the animal; **[1 mark]**\n- Divide the rate of respiration / movement of bubble by the mass (in grams); **[1 mark]**\n\n**[Total: 8 marks]**"
+    },
+    {
+     "id": "qstnprt_5tkZ87cSw8MqGs3t",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "specimen 2023",
+      "number": "paper 6",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_VTzh9khD4dMpywHJ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 2.2 shows a photograph of a woodlouse.\n\nThe magnification of the woodlouse in Fig. 2.2 is ×9.\n\nMeasure the length of the line PQ on Fig. 2.2.\n\nlength of PQ ............................................................ mm\n\nCalculate the actual width of the woodlouse using the formula and your measurement.\n\nmagnification = length of line PQ / actual width of woodlouse\n\nGive your answer to three significant figures.\n\nFig. 2.2 shows a photograph of a woodlouse.\n\n![Close-up of a woodlouse with a segmented shell, six legs, labelled P and Q indicating a section, magnified nine times, labelled as Fig. 2.2.](assets/007-close-up-of-a-woodlouse-with-a-segmented-shell-s.png)\n\n(i) Draw a large diagram of the woodlouse in Fig. 2.2.\n\n[4]\n\n(ii) The magnification of the woodlouse in Fig. 2.2 is ×9.\n\nMeasure the length of the line PQ on Fig. 2.2.\n\nlength of PQ ............................................................ mm\n\nCalculate the actual width of the woodlouse using the formula and your measurement.\n\n![Magnification equals the length of line PQ divided by the actual width of the woodlouse, shown as a mathematical formula.](assets/008-magnification-equals-the-length-of-line-pq-divid.png)\n\nGive your answer to three significant figures.\n\nSpace for working.\n\n[3]",
+     "solution_md": "(i)\n\n- Outline: single clear line and no shading; **[1 mark]**\n- Size: equal to / larger than, original;  **[1 mark]**\n- Detail 1: at least eight distinct segments;  **[1 mark]**\n- Detail 2: two projections at the front and two at the back;  **[1 mark]**\n\n![Hand-drawn insect with eight segments, projections on both ends. Annotations indicate marks for outline, size, projections, and distinct segments.](assets/009-hand-drawn-insect-with-eight-segments-projection.png)\n\n(ii)\n\n- Length of PQ 48 (mm) ± 1 mm;  **[1 mark]**\n- 5.22–5.44 (mm);  **[1 mark]**\n\n![A diagram of a woodlouse under magnification with a ruler for scale. Text explains a calculation to determine the woodlouse's actual width using magnification.](assets/010-a-diagram-of-a-woodlouse-under-magnification-wit.png)\n\n**[Total: 7 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_yJhnmDd3cwg2gD7m",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 1,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 26,
+   "parts": [
+    {
+     "id": "qstnprt_YFF3vvkJgTq8GhXk",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "A student investigated the rate of respiration of yeast at two different temperatures.\n\n| Step 1 | The student was provided with a yeast suspension which also contained glucose. Two identical sets of equipment were set up as shown in Fig. 1 |\n|---|---|\n\n![061062-may-2018-paper-6-q1-respiration---atp-sq](assets/011-061062-may-2018-paper-6-q1-respiration-atp-sq.png)\n\n**Fig. 1**\n\n| Step 2 | One set of the equipment shown in Fig. 1 was placed into a **warm** water-bath and the starting temperature of the water-bath was recorded as 50°C. The other set was placed into a **cool** water-bath which had a starting temperature of 25°C. The volume of water in each water bath was the same. |\n|---|---|\n|   |   |\n| Step 3 | The student counted the number of gas bubbles produced by the yeast suspension in five minutes and recorded the results in a tally chart. This is shown in Fig. 2. |\n\n![061062-may-2018-paper-6-q1-respiration-tally---atp-sq](assets/012-061062-may-2018-paper-6-q1-respiration-tally-atp.png)\n\n**Fig. 2**\n\n(i)\n\nPrepare a table and record the student’s results shown in Fig. 2.\n\n[3]\n\n| Step 4 | At the end of the investigation the final temperature of the water in both water baths was measured. The results are shown in Fig. 3 |\n|---|---|\n\n![061062-may-2018-paper-6-q1-thermometeres---atp-sq](assets/013-061062-may-2018-paper-6-q1-thermometeres-atp-sq.png)\n\n**Fig. 3**\n\n(ii)\n\nUse the information in step 2 and Fig. 3 to complete Table 1.\n\n**Table 1**\n\n| Water bath | Starting temperature / °C | Final temperature / °C |\n|---|---|---|\n| Warm |   |   |\n| Cool |   |   |\n\n[1]",
+     "solution_md": "(i) The students' results table of the date in Fig. 2 should contain the following features:\n\n- One table drawn with (ruled) header line and minimum two columns;** [1 mark]**\n- Appropriate headings;** [1 mark]**\n- Number of bubbles recorded for warm 19 and cool 7; **[1 mark]**\n\n![5aG~2Wqe_061062-may-2018-paper-6-q1ai-bubbles---ma](assets/014-5ag-2wqe-061062-may-2018-paper-6-q1ai-bubbles-ma.png)\n\n(ii) The completed table 1 would look as follows:\n\n| Water bath | Starting temperature / °C | Final temperature / °C |\n|---|---|---|\n| Warm | 50 | 43 |\n| Cool | 25 | 21 |\n\n**[1 mark]** for fully correct, completed table\n\n**[Total: 4 marks]**\n\n> *In your table for part (i) you need to make sure that the heading has the units (°C) but that the units are **not** written next to each temperature value. If you include the units next to the number then you will loose the mark. *"
+    },
+    {
+     "id": "qstnprt_MgTw4hXh66RCj96c",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 7,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA student investigated the rate of respiration of yeast at two different temperatures.\n\nStep 1: The student was provided with a yeast suspension which also contained glucose. Two identical sets of equipment were set up as shown in Fig. 1\n\nStep 2: One set of the equipment shown in Fig. 1 was placed into a warm water-bath and the starting temperature of the water-bath was recorded as 50°C. The other set was placed into a cool water-bath which had a starting temperature of 25°C. The volume of water in each water bath was the same.\n\nStep 3: The student counted the number of gas bubbles produced by the yeast suspension in five minutes and recorded the results in a tally chart. Number of bubbles recorded for warm: 19 and cool: 7.\n\nStep 4: At the end of the investigation the final temperature of the water in both water baths was measured. Warm: 43°C, Cool: 21°C.\n\n(i)\n\nState a conclusion for the results.\n\n[1]\n\n(ii)\n\nCounting the number of gas bubbles produced may not be an accurate method of measurement.\n\nExplain why **and **suggest an improvement.\n\n[2]\n\n(iii)\n\nIdentify a variable that **should **have been kept constant during this investigation but was not. Suggest how this variable could have been kept constant.\n\n[2]\n\n(iv)\n\nIdentify the variable that was changed (independent variable) **and** the variable that was measured (dependent variable) in this investigation.\n\n[2]",
+     "solution_md": "(i) A conclusion for the results is...\n\n**Final answer:** **Any**** one ****from the following:**\n\n- The higher/warmer the temperature the more bubbles are produced / (rate of) respiration is greater at higher temperatures; **[1 mark]**\n- The lower/cooler/colder the temperature the fewer bubbles are produced / (rate of) respiration is lower at lower temperatures; **[1 mark]**\n\n(ii) Counting the number of gas bubbles produced may not be an accurate method of measurement because...\n\n*Explanation*\n\n**Final answer:** **Any**** one ****from the following:**\n\n- It's easy to miscount bubbles; **[1 mark]**\n- Bubbles may be different sizes; **[1 mark]**\n- Volume of gas produced is unknown;** [1 mark]**\n\n*Improvement*\n\n- A method to collect gas (eg. gas syringe, upturned measuring cylinder over water) and measure volume described / measure height of foam; **[1 mark]**\n\n(iii) A variable that should have been kept constant during this investigation but was not is...\n\n*Variable*\n\n- <u>Temperature</u> (of each water-bath / test-tube); **[1 mark]**\n\n*How this variable could have been kept constant*\n\n- Using a thermostatically controlled water bath / description of method that could be used to keep the temperature constant; **[1 mark]**\n\n(iv)  The variable that was changed (independent variable) was...\n\n- Temperature; **[1 mark]**\n\nThe variable that was measured (dependent variable) was...\n\n- The number / amount of bubbles (produced); **[1 mark]**\n\n**[Total: 7 marks]**"
+    },
+    {
+     "id": "qstnprt_93TJfnXm82sb7ZrN",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 10,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "A group of scientists investigated the effect of different concentrations of glucose on the rate of carbon dioxide production in yeast cells. They measured the volume of carbon dioxide produced by the yeast cells in five minutes.\n\nThe scientists decided to test their method before beginning the investigation.\n\nThey performed three trials using one concentration of glucose.\n\nThe results are given in Table 2.\n\n**Table 2**\n\n| Trial | Volume of carbon dioxide produced in 5 minutes / cm<sup>3</sup> |\n|---|---|\n| 1 | 13.6 |\n| 2 | 14.3 |\n| 3 | 12.9 |\n\n(i)\n\nCalculate the average volume of carbon dioxide produced in 5 minutes.\n\nGive your answer in cm<sup>3</sup>\n\nCalculate the average rate of carbon dioxide production per minute.\n\nGive your answer in cm<sup>3</sup> per minute\n\n[2]\n\n(ii)\n\nThe scientists performed the investigation. Their results are shown in Table 3.\n\n**Table 3**\n\n| Percentage concentration of glucose | Average rate of carbon dioxide production / cm<sup>3</sup> per minute |\n|---|---|\n| 0.5 | 1.3 |\n| 1.0 | 2.6 |\n| 1.5 | 3.8 |\n| 2.0 | 4.3 |\n| 2.5 | 4.4 |\n| 3.0 | 4.4 |\n\nPlot a graph on the grid, using the data in Table 3, to show the effect of glucose concentration on the rate of carbon dioxide production. Include a line of best fit.\n\n![061062-may-2018-paper-6-q1-graph-paper---atp-sq](assets/015-061062-may-2018-paper-6-q1-graph-paper-atp-sq.png)\n\n[4]\n\n(iii)\n\nDescribe the effect of glucose concentration on the rate of carbon dioxide production by respiring yeast cells, shown in your graph.\n\n[3]\n\n(iv)\n\nEstimate the concentration of glucose the scientists used to test their method. Use your answer for **c)i)** and your graph to find this value.\n\nGive your answer using the unit %.\n\n[1]",
+     "solution_md": "(i) The average volume of carbon dioxide produced in 5 minutes is...\n\n**Final answer:** **Any ****one ****from the following:**\n\n- (Mean rate) $\\frac{13.6+14.3+12.9}{3}=\\frac{40.8}{3}=13.6\\mathrm{cm}^{3}$; **[1 mark]**\n- (Median rate) 12.9 < 13.6 < 14.3 so 13.6 cm<sup>3</sup> is the median (middle value); **[1 mark]**\n\nThe average rate of carbon dioxide produced in 5 minutes is...\n\n- $\\frac{13.6}{5}=2.72OR2.7cm^{3}min^{-1}$;** [1 mark]**\n\n> *The average volume could be a median or mean, and in this case, gives the same answer of 13.6 cm*<sup>*3*</sup>*. The average rate has to be a mean value because we don't know how much gas was produced in each minute of the 5-minute experiment. The rate would typically start higher and tail off towards the end of the experiment. In most cases, in a science exam, the term **average** denotes the **mean**. *\n\n(ii) The graph from data in Table 1.3 would have the following features:\n\n- Axes – labelled with units i.e. percentage concentration of glucose and <u>average</u> rate of carbon dioxide production / cm<sup>3</sup> per minute; **[1 mark]**\n- Scale – suitable even scale and data occupies more than half the grid in both directions; **[1 mark]**\n- Plot – all points plotted accurately ± half a small square; **[1 mark]**\n- Lines – suitable line drawn (point to point or a smoothed curve); **[1 mark]**\n\n![4ZDKSUEY_061062-may-2018-paper-6-q1-graph-paper---atp-sq](assets/016-4zdksuey-061062-may-2018-paper-6-q1-graph-paper-.png)\n\n> *Avoid the temptation to extend the plot line down to (0, 0). There is no data point in the experiment for a concentration of 0% glucose, so extending the line beyond our data points would be pure guesswork. *\n\n(iii) The effect of glucose concentration on the rate of carbon dioxide production by respiring yeast cells, shown in the graph from part c) ii) is...\n\n- As concentration (of glucose) increases the rate (of CO<sub>2</sub> production) increases; **[1 mark]**\n- Levels off (at 2.0 or 2.5%) / rate of carbon dioxide production decreases (at 1.5–2.0%); **[1 mark]**\n- Data quote with units e.g. rises from 1.3 cm<sup>3</sup> per min to 4.3 / 4.4 cm<sup>3</sup> per min **OR** levels off at 2.0 / 2.5% (glucose) **OR** levels off at 4.3 / 4.4 cm<sup>3</sup> per min (of carbon dioxide); **[1 mark]**\n\n> *Pay close attention to the command word, in this case, it is 'describe'. To describe, you just need to paint a mental picture of the graph to someone who can't see it. You don't need to go into details about the reasons why the plot is shaped the way it is. *\n\n(iv) An estimate of the concentration of glucose the scientists used to test their method is...\n\n- Using answer to c) i) and your graph, 1.05%;** [1 mark]**\n\n**[Total: 10 marks]**\n\n![061062-may-2018-paper-6-q1-graph-paper---atp-sq2](assets/017-061062-may-2018-paper-6-q1-graph-paper-atp-sq2.png)",
+     "equations": [
+      {
+       "latex": "\\frac{13.6+14.3+12.9}{3}=\\frac{40.8}{3}=13.6\\mathrm{cm}^{3}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>13</mn><mo>.</mo><mn>6</mn><mo>+</mo><mn>14</mn><mo>.</mo><mn>3</mn><mo>+</mo><mn>12</mn><mo>.</mo><mn>9</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>40</mn><mo>.</mo><mn>8</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mn>13</mn><mo>.</mo><mn>6</mn><mo> </mo><msup><mi>cm</mi><mn>3</mn></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 13.6 plus 14.3 plus 12.9 over denominator 3 end fraction equals fraction numerator 40.8 over denominator 3 end fraction equals 13.6 space cm cubed"
+      },
+      {
+       "latex": "\\frac{13.6}{5}=2.72OR2.7cm^{3}min^{-1}",
+       "mathml": "<math style=\"font-family:Arial\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mn>13</mn><mo>.</mo><mn>6</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mn>2</mn><mo>.</mo><mn>72</mn><mo> </mo><mi>O</mi><mi>R</mi><mo> </mo><mn>2</mn><mo>.</mo><mn>7</mn><mo> </mo><mi>c</mi><msup><mi>m</mi><mn>3</mn></msup><mo> </mo><mi>m</mi><mi>i</mi><msup><mi>n</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow><annotation encoding=\"application/vnd.wiris.mtweb-params+json\">{\"language\":\"en\",\"fontFamily\":\"Times New Roman\",\"fontSize\":\"18\",\"autoformat\":true}</annotation></semantics></math>",
+       "alt": "fraction numerator 13.6 over denominator 5 end fraction equals 2.72 space O R space 2.7 space c m cubed space m i n to the power of negative 1 end exponent"
+      }
+     ]
+    },
+    {
+     "id": "qstnprt_DhHmnNbfMzVhXJMr",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/62",
+      "question_number": 1,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_zWw6jqdvgXTt2kdq"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA group of scientists investigated the effect of different concentrations of glucose on the rate of carbon dioxide production in yeast cells. They measured the volume of carbon dioxide produced by the yeast cells in five minutes.\n\nThe scientists decided to test their method before beginning the investigation.\n\nThey performed three trials using one concentration of glucose.\n\nThe results are given in Table 2.\n\n**Table 2**\n\n| Trial | Volume of carbon dioxide produced in 5 minutes / cm<sup>3</sup> |\n|---|---|\n| 1 | 13.6 |\n| 2 | 14.3 |\n| 3 | 12.9 |\n\n(i)\n\nDescribe how the student could show that the glucose used in the investigation is a simple (reducing) sugar.\n\n[3]\n\n(ii)\n\nIdentify one hazard when testing for simple (reducing) sugars.\n\nDescribe one precaution that could be taken to reduce the risk.\n\n[2]",
+     "solution_md": "(i) The student could show that the glucose used in the investigation is a simple (reducing) sugar by...\n\n- Adding Benedict’s reagent; **[1 mark]**\n- (Adding) heat / heating; **[1 mark]**\n- If the final colour is green / orange / yellow / red colour, this shows the presence of reducing sugars;** [1 mark]**\n\n(ii) One hazard when testing for simple reducing sugars is...\n\n**Final answer:** **Any ****pair**** of points from the following:**\n\n- (Hazard =) Benedict's solution; **[1 mark]**\n- (Precaution =) goggles / gloves worn;** [1 mark]**\n\n**OR**\n\n- (Hazard =) hot water / could cause burns; **[1 mark]**\n- (Precaution =) use a thermostatically controlled water-bath for heating;** [1 mark]**\n\n**[Total: 5 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_wgGX4QxyFvsNrVfG",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 2,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 19,
+   "parts": [
+    {
+     "id": "qstnprt_TKDVwc3SyJGrP6sb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "An investigation was conducted to determine the effect of temperature on the rate of respiration in yeast.\n\nThe experimental procedure was conducted as follows:\n\n1. A thermostatically controlled water bath was set up at 20°C\n2. The investigators added 10 cm<sup>3</sup> of a yeast suspension and 20 cm<sup>3</sup> of a 10% glucose solution to each of three test-tubes\n3. The test-tubes were placed in the water bath and left for 10 minutes\n4. After 10 minutes, five drops of methylene blue were added to each test-tube using a dropper pipette and the test-tubes were then shaken for 10 seconds to mix\n5. The test-tubes were returned to the water bath\n6. A stop watch was started when the drops were added\n7. The time taken for the methylene blue to turn colourless in each test tube was recorded\n8. Steps 1 to 7 were repeated at temperatures of 30°C, 40°C, 50°C and 60°C\n\nFig. 1 shows the experimental set up of one test tube.\n\n![experiment](assets/018-experiment.png)\n\n**Fig. 1**\n\nThe mean time taken for a colour change to occur was calculated at each temperature and this was used to calculate the rate of respiration.\n\nTable 1 shows the results of the investigation.\n\n**Table 1**\n\n| **temperature / °C** | **time taken to turn colourless / s** | **rate of respiration / s**<sup>**-1**</sup> |\n|---|---|---|\n| 20 | 604 | 0.0017 |\n| 30 | 345 | 0.0029 |\n| 40 | 105 | 0.0095 |\n| 50 | 274 | 0.0036 |\n| 60 | 583 |   |\n\n(i)\n\nCalculate the rate of respiration at 60°C.\n\n[1]\n\n(ii)\n\nIdentify a potential source of error in step 7 and suggest a possible improvement.\n\n[2]",
+     "solution_md": "(i) The rate of respiration at 60°C can be calculated as follows...\n\n- (1 ÷ 583) = 0.0017 (s<sup>-1</sup>); **[1 mark]**\n\n> *The clue is in the unit of this column; s*<sup>*-1*</sup>* indicates that 1 was divided by the time taken for the colour change to occur(s). You can confirm this by looking at the other values for the rate of respiration and you will see they were all calculated by 1 ÷ s.*\n\n![rate-of-respiration](assets/019-rate-of-respiration.png)\n\n(ii) The source of error in step 7, as well as a possible improvement is...\n\n**Error:**\n\n- Judging colour change / subjectivity in determining when the solution is colourless / determining the end point of the colour change; **[1 mark]**\n\n**Improvement:**\n\nAny **one** of the following:\n\n- Place next to a test tube containing only yeast and glucose / no methylene blue (for comparison); **[1 mark]**\n- Place test tube against a white background; **[1 mark]**\n\n**OR**\n\n**Error:**\n\n- Timing three test tubes simultaneously; **[1 mark]**\n\n**Improvement:**\n\n- Repeat experiment with only one test tube at a time (for each temperature); **[1 mark]**\n\n> *You can remember this one for any experiment that involves judging a colour change. It is not always easy to determine when the colour change is complete, particularly when colour is disappearing from a reaction, so having a white background or a control test tube next to the one you are measuring may help.*\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_8wTxYMwjCtf6WXww",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 9,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn investigation was conducted to determine the effect of temperature on the rate of respiration in yeast.\n\nThe experimental procedure was conducted as follows:\n\n1. A thermostatically controlled water bath was set up at 20°C\n2. The investigators added 10 cm^3^ of a yeast suspension and 20 cm^3^ of a 10% glucose solution to each of three test-tubes\n3. The test-tubes were placed in the water bath and left for 10 minutes\n4. After 10 minutes, five drops of methylene blue were added to each test-tube using a dropper pipette and the test-tubes were then shaken for 10 seconds to mix\n5. The test-tubes were returned to the water bath\n6. A stop watch was started when the drops were added\n7. The time taken for the methylene blue to turn colourless in each test tube was recorded\n8. Steps 1 to 7 were repeated at temperatures of 30°C, 40°C, 50°C and 60°C\n\nThe mean time taken for a colour change to occur was calculated at each temperature and this was used to calculate the rate of respiration.\n\nTable 1 shows the results of the investigation.\n\nTable 1\n| temperature / °C | time taken to turn colourless / s | rate of respiration / s^-1^ |\n| 20 | 604 | 0.0017 |\n| 30 | 345 | 0.0029 |\n| 40 | 105 | 0.0095 |\n| 50 | 274 | 0.0036 |\n| 60 | 583 |   |\n\n(i)\n\nState a conclusion for the results.\n\n[2]\n\n(ii)\n\nIdentify **two** variables that should be kept constant and describe how this would be achieved for each.\n\n[4]\n\n(iii)\n\nUsing a dropper pipette to add the methylene blue may not be the most accurate method.\n\nExplain why and suggest an improvement.\n\n[2]\n\n(iv)\n\nIdentify the dependent variable in this investigation.\n\n[1]",
+     "solution_md": "(i) A conclusion for the results would include...\n\n- As the temperature increases to 40°C, there is an increase in the rate of respiration / decrease in the time taken for methylene blue to turn colourless; **[1 mark]**\n- At temperatures above 40°C the rate of respiration decreases / the time taken for methylene blue to turn colourless increases; **[1 mark]**\n\n> *Make sure that your conclusion covers the results across the entire range of temperatures across which the experiment was conducted.*\n\n(ii) Variables that should be kept constant and ways in which this was achieved include the following...\n\nAny **two** variables and their relevant description:\n\n- Volume / concentration of methylene blue solution added to test tube; **[1 mark]**\n- Count the same number of drops added to the test tube **OR** use from the same methylene blue solution for each test tube; **[1 mark]**\n\n**OR**\n\n- Volume / concentration of yeast suspension added to the test tube; **[1 mark]**\n- Measure the same volume of yeast suspension using a graduated measuring cylinder / syringe **OR** use from the same yeast solution for each test tube; **[1 mark]**\n\n**OR**\n\n- Concentration of glucose; **[1 mark]**\n- Use from the same glucose solution for each test tube **OR** add a constant mass of glucose powder to a constant volume of distilled water when mixing the glucose solution (for the experiment); **[1 mark]**\n\n**OR**\n\n- pH of the solution; **[1 mark]**\n- Add a constant volume of buffer solution to each test tube; **[1 mark]**\n\n> *These control variables are important to keep constant in order to ensure that no other factor is affecting the rate of respiration.*\n\n(iii) A dropper pipette is not the most accurate method because...\n\nAny **one** of the following:\n\n- The drops may not be equal in size; **[1 mark]**\n- More than one drop may be (accidentally) released at a time; **[1 mark]**\n- The volume of methylene blue added is unknown; **[1 mark]**\n\n**AND**\n\n**Improvement:**\n\n- A method to measure the volume of methylene blue to be added e.g. using a graduated pipette / (1 cm<sup>3</sup>) syringe; **[1 mark]**\n\n(iv) The dependent variable in this experiment would be...\n\n- Time taken for colour change to occur / rate of respiration; **[1 mark]**\n\n> *Remember that the dependent variable is always the one that is measured by the investigator.*\n\n**[Total: 9 marks]**"
+    },
+    {
+     "id": "qstnprt_vNFXJYCdn5WRbr2b",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 1\n\ntemperature / °C | time taken to turn colourless / s | rate of respiration / s^-1^\n20 | 604 | 0.0017\n30 | 345 | 0.0029\n40 | 105 | 0.0095\n50 | 274 | 0.0036\n60 | 583 |\n\n(i)\n\nUse the data in Table 1 to plot a line graph on the grid to show the effect of temperature on the rate of respiration.\n\n![K0LpDba7_picture4](assets/020-k0lpdba7-picture4.png)\n\n[4]\n\n(ii)\n\nEstimate the rate of respiration at 36°C.\n\nIndicate on your graph to show how the answer was obtained.\n\n[1]",
+     "solution_md": "(i) The mark allocation for the graph would be as follows...\n\n- Both axes labelled **and** units included (**x** = temperature / °C, **y** = rate of respiration / s<sup>-1</sup>)<sup>;</sup> **[1 mark]**\n- Even scale and plot area occupying at least half the grid; **[1 mark]**\n- All points plotted correctly; **[1 mark]**\n- Smooth line connecting plotted points only; **[1 mark]**\n\n*Error carried forward for point plotted at 60°C if the rate of respiration was calculated incorrectly at part (a)(i)*\n\n(ii) The rate of respiration at 36°C would be...\n\n- 0.007 (s<sup>-1</sup>); **[1 mark]**\n\n**[Total: 5 marks]**\n\n> *The graph would look as follows:*\n\n![lHnpKd92_picture3](assets/021-lhnpkd92-picture3.png)"
+    },
+    {
+     "id": "qstnprt_cVBJ6rcH75qrrYTG",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAn investigation was conducted to determine the effect of temperature on the rate of respiration in yeast.\n\nThe experimental procedure was conducted as follows:\n\n1. A thermostatically controlled water bath was set up at 20°C\n2. The investigators added 10 cm^3^ of a yeast suspension and 20 cm^3^ of a 10% glucose solution to each of three test-tubes\n3. The test-tubes were placed in the water bath and left for 10 minutes\n4. After 10 minutes, five drops of methylene blue were added to each test-tube using a dropper pipette and the test-tubes were then shaken for 10 seconds to mix\n5. The test-tubes were returned to the water bath\n6. A stop watch was started when the drops were added\n7. The time taken for the methylene blue to turn colourless in each test tube was recorded\n8. Steps 1 to 7 were repeated at temperatures of 30°C, 40°C, 50°C and 60°C\n\nThe mean time taken for a colour change to occur was calculated at each temperature and this was used to calculate the rate of respiration.\n\nExplain the importance of repeating this experiment at least three times.",
+     "solution_md": "The importance of repeating the experiment includes...\n\nAny **two** of the following:\n\n- Increase the reliability of results; **[1 mark]**\n- To identify (and eliminate) anomalous data points; **[1 mark]**\n- To calculate a reliable mean (time taken for methylene blue to turn colourless); **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Rh5VhCnsWXgHZF8s",
+   "set_slug": "alternative-to-practical-questions",
+   "order": 0,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 12,
+   "parts": [
+    {
+     "id": "qstnprt_sHWkdcnQQYgFHNmt",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2023",
+      "number": "0970/06",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "A woodlouse is a small animal.\n\nThe rate of respiration of a woodlouse can be measured using a simple respirometer as shown in Fig. 1.\n\nAs the woodlouse respires the drop of coloured liquid moves along the capillary tube.\n\n![2023specimenq2a](assets/022-2023specimenq2a.png)\n\n**Fig. 1**\n\n(i)\n\nRecord the position of the drop of coloured liquid in the capillary tube shown in Fig. 1 at the start **and** after 30 minutes.\n\nGive your answer in mm.\n\n[1]\n\n(ii)\n\nCalculate the distance moved by the drop of coloured liquid in 30 minutes.\n\nGive your answer in mm.\n\n[1]\n\n(iii)\n\nCalculate the rate of movement of the drop of coloured liquid in mm per minute.\n\nGive your answer in mm per minute and to **one** decimal place.\n\n[2]",
+     "solution_md": "(i) The position of the drop of coloured liquid would be as follows...\n\n- (At the start =) 44/45/46 (mm) **AND **(after 30 minutes =) 4/5/6 (mm);** [1 mark]**\n\n(ii) The distance moved by the drop in 30 minutes would be...\n\n- (44/45/46 - 4/5/6 =) 40 (mm); **[1 mark]**\n\n***Accept**** error carried forward here, meaning that correct calculations involving incorrect readings from 2 a) i) can still be credited.*\n\n(iii) The rate of movement can be calculated as follows...\n\n- 1.3 recurring (or use of the recurring symbol / 1.333...); **[1 mark]**\n- 1.3 (mm per minute); **[1 mark]**\n\n*Full marks can be awarded for the correct answer in the absence of the unrounded value.*\n\n***Accept ****error carried forward here, meaning that an incorrect answer from 2 a) ii) correctly divided by 30 and rounded to one decimal place can be credited.*\n\n**[Total: 4 marks]**\n\n> *Reading the position of the drop for a) i):*\n\n![woodlouse-respiration-rate](assets/023-woodlouse-respiration-rate.png)\n\n> *For the calculations at a) ii) and a) iii):*\n\n![unnamed](assets/024-unnamed.png)"
+    },
+    {
+     "id": "qstnprt_4qPcggSnfsSX797Z",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 8,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2023",
+      "number": "0970/06",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nA woodlouse is a small animal.\n\nThe rate of respiration of a woodlouse can be measured using a simple respirometer as shown in Fig. 1.\n\nAs the woodlouse respires the drop of coloured liquid moves along the capillary tube.\n\nThe rate of movement of the drop of coloured liquid along the respirometer can be used to estimate the rate of respiration.\n\nA student used a respirometer to investigate the rate of respiration in four animal species.\n\nThe results are shown in Table 1.\n\n**Table 1**\n\n| **Animal species** | **Rate of movement of the drop of coloured liquid / mm per minute** |   |   |   |\n|---|---|---|---|---|\n| **Trial 1** | **Trial 2** | **Trial 3** | **Mean** |   |\n| **A** | 1.5 | 1.7 | 1.3 |   |\n| **B** | 0.9 | 1.0 | 0.7 | 0.9 |\n| **C** | 2.4 | 2.6 | 2.5 | 2.5 |\n| **D** | 1.9 | 2.0 | 1.9 | 1.9 |\n\n(i)\n\nCalculate the missing mean for animal species **A**.\n\n[1]\n\n(ii)\n\nPlot a bar chart on the grid to show the **mean** rate of movement of the drop of coloured liquid in the capillary tube for the four animal species.\n\n![screenshot-2022-10-19-15-07-11](assets/025-screenshot-2022-10-19-15-07-11.png)\n\n[3]\n\n(iii)\n\nState the letter of the animal species which has the highest rate of respiration.\n\n[1]\n\n(iv)\n\nSuggest a suitable control for the investigation described in **1b)**.\n\n[1]\n\n(v)\n\nThe student decided it would be better to calculate the rate of respiration per gram of animal so that the values could be compared.\n\nDescribe how the student could find out the rate of respiration per gram of animal.\n\n[2]",
+     "solution_md": "(i) The mean for animal species **A** can be calculated as follows...\n\n- ((1.5 + 1.7 + 1.3) ÷ 3 =) 1.5;** [1 mark]**\n\n(ii) The mark allocation for the bar chart is as follows...\n\n- Axes labelled as 'animal species' **AND** 'mean rate of movement (of the drop of coloured liquid) / mm per minute'; **[1 mark]**\n- A suitable scale is used that occupies at least half the grid on both axes; **[1 mark]**\n- All bars plotted accurately ± half a small square **AND** bars do not touch **AND** bars are the same width; **[1 mark]**\n\n![vsfXl-9N_graph](assets/026-vsfxl-9n-graph.png)\n\n***Accept**** error carried forward for the plotting of the bar for species A here, meaning that a correctly plotted bar from an incorrectly calculated value from 2 b) i) can be credited.*\n\n(iii) The animal species with the highest rate of respiration is...\n\n- C; **[1 mark]**\n\n(iv) A suitable control for the investigation would be...\n\n- Replace the woodlice with an inert / non-living material (in the respirometer);** [1 mark]**\n\n(v) The respiration rate per gram of animal can be determined as follows...\n\n- Measure the mass of the animal;** [1 mark]**\n- Divide the rate of respiration / distance moved by the bubble by the mass (in grams);** [1 mark]**\n\n**[Total: 8 marks]**\n\n> *Remember that you will very often be asked to draw a graph in an alternative to practical paper, so make sure you know how to gain marks when drawing graphs; marks will frequently be available for:*\n\n- *Correct axis labels and units*\n- *Correct scale*\n- *Good use of the space provided*\n- *Correct plotting of data*\n- *Correct line through the points (where relevant)*"
+    }
+   ]
+  },
   {
    "id": "qstn_V6ZVkbYRZ5mXgSsw",
    "set_slug": "multiple-choice-questions",
@@ -457,7 +828,7 @@
       "spcpt_dRMHjYst5PgT52BQ"
      ],
      "part_tier": null,
-     "problem_md": "The diagram shows the oxygen uptake by germinating seeds at two different temperatures.\n\n![Bar chart showing oxygen uptake in cm³ over time in minutes at 10°C and 20°C. Oxygen uptake increases with temperature and time.](assets/001-bar-chart-showing-oxygen-uptake-in-cm-over-time-.png)\n\nAt which time is the oxygen uptake at 20 °C four times greater than at 10 °C?",
+     "problem_md": "The diagram shows the oxygen uptake by germinating seeds at two different temperatures.\n\n![Bar chart showing oxygen uptake in cm³ over time in minutes at 10°C and 20°C. Oxygen uptake increases with temperature and time.](assets/027-bar-chart-showing-oxygen-uptake-in-cm-over-time-.png)\n\nAt which time is the oxygen uptake at 20 °C four times greater than at 10 °C?",
      "solution_md": "**Final answer:** **The correct answer is ****D****.**\n\n- This is because at 20 °C the oxygen uptake is 0.36, which is four times greater than the oxygen uptake at 10 °C, which is 0.09\n- 0.09 x 4 = 0.36\n\n**A** is incorrect because at 5 minutes at 20 °C the oxygen uptake is 0.1, which is not four times greater than the oxygen uptake at 10 °C, which is 0.06.\n\n**B** is incorrect because at 10 minutes at 20 °C the oxygen uptake is 0.19, which is not four times greater than the oxygen uptake at 10 °C, which is 0.07.\n\n**C** is incorrect because at 15 minutes at 20 °C the oxygen uptake is 0.255, which is not four times greater than the oxygen uptake at 10 °C, which is 0.085.",
      "choices": [
       {
@@ -814,7 +1185,7 @@
       "spcpt_dRMHjYst5PgT52BQ"
      ],
      "part_tier": null,
-     "problem_md": "The graph below shows the results of an investigation into how the rate of respiration of an organism is affected by changing the temperature.\n\n![12--image-2-respiration-rat](assets/002-12-image-2-respiration-rat.png)\n\nWhich of the following statements would explain the difference between the rate of respiration at 10 °C and that at 30 °C?",
+     "problem_md": "The graph below shows the results of an investigation into how the rate of respiration of an organism is affected by changing the temperature.\n\n![12--image-2-respiration-rat](assets/028-12-image-2-respiration-rat.png)\n\nWhich of the following statements would explain the difference between the rate of respiration at 10 °C and that at 30 °C?",
      "solution_md": "**Final answer:** **The correct answer is ****A**** (enzyme activity is higher at 30 °C because more frequent collisions are occurring than at 10 °C) because:**\n\nIncreasing the temperature of an enzyme to its optimum increases the rate of the chemical reaction it catalyses as enzymes and substrates will have more kinetic energy and therefore will collide successfully more often.\n\n**B** is incorrect because the graph shows the rate of the enzyme’s activity increasing up to 40°C, so the bonds holding the structure together cannot have been altered.\n\n**C** is incorrect because the optimum for the enzyme is somewhere between 30°C and 50°C.\n\n**D** is incorrect because enzymes are denatured at temperatures above their optimum, not at low temperatures.",
      "choices": [
       {
@@ -865,7 +1236,7 @@
       "spcpt_xM8T2jHS5DXvmTsZ"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows an experiment set up by a teacher to demonstrate how an investigation into anaerobic respiration in yeast cells can be carried out.\n\n![12--image-4-yeast-experiment](assets/003-12-image-4-yeast-experiment.png)\n\nPredict what would happen to the coloured liquid in the glass tube.",
+     "problem_md": "The diagram below shows an experiment set up by a teacher to demonstrate how an investigation into anaerobic respiration in yeast cells can be carried out.\n\n![12--image-4-yeast-experiment](assets/029-12-image-4-yeast-experiment.png)\n\nPredict what would happen to the coloured liquid in the glass tube.",
      "solution_md": "**Final answer:** **The correct answer is ****B**** (moves to the left) because:**\n\nAs the yeast respires anaerobically, it produces carbon dioxide gas which would be released into the tube, increasing the pressure inside the tube and pushing the drop of coloured liquid to the left.",
      "choices": [
       {
@@ -917,7 +1288,7 @@
      ],
      "part_tier": null,
      "problem_md": "Glucose is broken down in the chemical processes of aerobic respiration.\n\nWhich row of the table below shows the correct products of this breakdown?\n\n|   | energy | water | lactic acid | carbon dioxide |\n|---|---|---|---|---|\n| **A** | **X** | **X** | **✔** | **X** |\n| **B** | **✔** | **X** | **X** | **✔** |\n| **C** | **X** | **✔** | **X** | **✔** |\n| **D** | **✔** | **✔** | **X** | **✔** |",
-     "solution_md": "**Final answer:** **The correct answer is ****D ****because:**\n\n- The purpose of any form of respiration is to release energy stored in the chemical bonds of molecules like glucose, so all types of respiration release energy\n- The overall equation for aerobic respiration is (energy released is not shown)\n\n![Word equation for aerobic respiration, IGCSE & GCSE Chemistry revision notes](assets/004-word-equation-for-aerobic-respiration-igcse-gcse.png)\n\nLactic acid is not produced as a waste product in aerobic respiration, but in anaerobic respiration (animals only).",
+     "solution_md": "**Final answer:** **The correct answer is ****D ****because:**\n\n- The purpose of any form of respiration is to release energy stored in the chemical bonds of molecules like glucose, so all types of respiration release energy\n- The overall equation for aerobic respiration is (energy released is not shown)\n\n![Word equation for aerobic respiration, IGCSE & GCSE Chemistry revision notes](assets/030-word-equation-for-aerobic-respiration-igcse-gcse.png)\n\nLactic acid is not produced as a waste product in aerobic respiration, but in anaerobic respiration (animals only).",
      "choices": [
       {
        "label": "A",
@@ -1070,7 +1441,7 @@
       "spcpt_dRMHjYst5PgT52BQ"
      ],
      "part_tier": null,
-     "problem_md": "A student investigated respiration in yeast. They set up the experiment as shown in the diagram below.\n\n![061062-may-2018-paper-6-q1-respiration---atp-sq](assets/005-061062-may-2018-paper-6-q1-respiration-atp-sq.png)\n\nEvery 30 minutes they replaced the water with the same volume but it was 10 <sup>o</sup>C warmer and counted the bubbles given off in 2 minutes.\n\nWhat are the independent and dependent variables in this experiment?\n\n|   | independent | dependent |\n|---|---|---|\n| **A** | number of bubbles | time |\n| **B** | time | number of bubbles |\n| **C** | water temperature | number of bubbles |\n| **D** | water temperature | volume of water |",
+     "problem_md": "A student investigated respiration in yeast. They set up the experiment as shown in the diagram below.\n\n![061062-may-2018-paper-6-q1-respiration---atp-sq](assets/011-061062-may-2018-paper-6-q1-respiration-atp-sq.png)\n\nEvery 30 minutes they replaced the water with the same volume but it was 10 <sup>o</sup>C warmer and counted the bubbles given off in 2 minutes.\n\nWhat are the independent and dependent variables in this experiment?\n\n|   | independent | dependent |\n|---|---|---|\n| **A** | number of bubbles | time |\n| **B** | time | number of bubbles |\n| **C** | water temperature | number of bubbles |\n| **D** | water temperature | volume of water |",
      "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\nThe independent variable, the temperature of water, is what is changed during an experiment. The dependent variable, the number of bubbles, is what is measured and **depends **on the independent variable.\n\nThe other answers are incorrect because the time and the volume of water are **control variables** and are something that needs to be kept the same throughout the experiment.",
      "choices": [
       {
@@ -1441,7 +1812,7 @@
       "spcpt_dRMHjYst5PgT52BQ"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows an experiment set up by a group of students to investigate respiration in yeast.\n\n![12--image-3-yeast-experimen](assets/006-12-image-3-yeast-experimen.png)\n\nWhich row of the table below correctly describes the contents of the flask after 20 hours?\n\n|   | new compound | gas produced |\n|---|---|---|\n| **A** | ethanol (alcohol) | oxygen |\n| **B** | ethanol (alcohol) | carbon dioxide |\n| **C** | lactic acid | oxygen |\n| **D** | lactic acid | carbon dioxide |",
+     "problem_md": "The diagram below shows an experiment set up by a group of students to investigate respiration in yeast.\n\n![12--image-3-yeast-experimen](assets/031-12-image-3-yeast-experimen.png)\n\nWhich row of the table below correctly describes the contents of the flask after 20 hours?\n\n|   | new compound | gas produced |\n|---|---|---|\n| **A** | ethanol (alcohol) | oxygen |\n| **B** | ethanol (alcohol) | carbon dioxide |\n| **C** | lactic acid | oxygen |\n| **D** | lactic acid | carbon dioxide |",
      "solution_md": "**Final answer:** **The correct answer is ****B ****because:**\n\nThe yeast cells would largely be respiring **anaerobically **after oxygen in the flask was used up. The reaction for this is:\n\nglucose $\\rightarrow$ alcohol + carbon dioxide\n\nThe other answers are incorrect because oxygen is never a gas produced in a respiration reaction. Lactic acid is only produced in animal cells when oxygen is not available.",
      "choices": [
       {
@@ -1499,7 +1870,7 @@
       "spcpt_VWZ2cKQfS6y6BgTn"
      ],
      "part_tier": null,
-     "problem_md": "The diagram below shows an experimental set-up which can be used to investigate gas exchange in a plant leaf.\n\n![12--image-1-gas-exchange-leaf](assets/007-12-image-1-gas-exchange-leaf.png)\n\nIn which direction would the ink drop move and for what reason?\n\n|   | direction | reason |\n|---|---|---|\n| **A** | to the right | photosynthesis |\n| **B** | to the left | photosynthesis |\n| **C** | to the right | respiration |\n| **D** | to the left | respiration |",
+     "problem_md": "The diagram below shows an experimental set-up which can be used to investigate gas exchange in a plant leaf.\n\n![12--image-1-gas-exchange-leaf](assets/032-12-image-1-gas-exchange-leaf.png)\n\nIn which direction would the ink drop move and for what reason?\n\n|   | direction | reason |\n|---|---|---|\n| **A** | to the right | photosynthesis |\n| **B** | to the left | photosynthesis |\n| **C** | to the right | respiration |\n| **D** | to the left | respiration |",
      "solution_md": "**Final answer:** **The correct answer is ****C ****because:**\n\n- The leaf will **not** **photosynthesise** as there is a black cover around the tube,  meaning no light can get in\n- The leaf will **respire** as all living cells must respire to release energy\n- Available oxygen in the tube will be absorbed by the plant for aerobic respiration and the waste gas carbon dioxide will be produced. This is absorbed by the substance at the bottom of the tube\n- The ink drop in the tube will move to the right as the air pressure in the test tube will decrease as the number of gas molecules decreases (because any carbon dioxide is absorbed)\n\nWhen answering a question like this, it is important to consider all the information in the diagram before making your choice of answer.",
      "choices": [
       {
@@ -1523,6 +1894,1018 @@
        "text_md": ""
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "qstn_46VrFWTvfBgjcw7z",
+   "set_slug": "theory-questions",
+   "order": 16,
+   "difficulty": "very_hard",
+   "style": "exam_part",
+   "total_marks": 6,
+   "parts": [
+    {
+     "id": "qstnprt_4twBzHJwG6ZW5YF4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Blue whales can dive for up to 20 minutes. During these dives, the whale's heart rate slows significantly, and the muscle cells switch to anaerobic respiration.\n\nState the word equation for anaerobic respiration in a whale's muscle cells.",
+     "solution_md": "> **[mark-scheme]**\n> - Glucose → lactic acid\n> \n> Accept -> for →.\n\n> **[exam-tip]**\n> Many students accidentally give the equation for yeast. In mammals, the only product is **lactic acid**."
+    },
+    {
+     "id": "qstnprt_ttwCGCCXyK9qCRK9",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Kn8WvVFgqJGRgbyw"
+     ],
+     "part_tier": "extended_only",
+     "problem_md": "**Extract:**\n\nBlue whales can dive for up to 20 minutes. During these dives, the whale's heart rate slows significantly, and the muscle cells switch to anaerobic respiration.\n\nAfter the whale returns to the surface, its heart rate and breathing rate remain high for a period of time.\n\nExplain why this is the case.",
+     "solution_md": "> **[mark-scheme]**\n> - There is an oxygen debt **[1 mark]**\n> - Lactic acid has built up in the muscles / blood (due to anaerobic respiration) **[1 mark]**\n> - High heart rate transports the lactic acid to the liver **[1 mark]**\n> - High breathing rate supplies the blood with extra oxygen **[1 mark]**\n> - Aerobic respiration / breakdown of lactic acid occurs in the liver **[1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Db58KDyS9PN7w4wB",
+   "set_slug": "theory-questions",
+   "order": 11,
+   "difficulty": "medium",
+   "style": "exam_part",
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_5m5nKGsZ4J5gvvj4",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "define",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Aerobic respiration occurs in the cells of the athlete.\n\nDefine the term *aerobic respiration*.",
+     "solution_md": "> **[mark-scheme]**\n> - A chemical reaction **[1 mark]**\n> - Uses oxygen to break down nutrient / glucose molecules **[1 mark]**\n> - To release energy **[1 mark]**\n> \n> Reject references to energy being made or produced."
+    }
+   ]
+  },
+  {
+   "id": "qstn_W5t64N8Zymmw8K6j",
+   "set_slug": "theory-questions",
+   "order": 4,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_CWn8nnc3VtYpd48b",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "june 2022",
+      "number": "paper 3",
+      "question_number": 7,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ"
+     ],
+     "part_tier": null,
+     "problem_md": "A scientist measured the mass of carbon dioxide produced by anaerobic respiration in yeast cells for 1200 minutes.\n\nFig. 7.1 shows the results.\n\n![Graph showing total mass of carbon dioxide produced over time. The mass increases steeply until 250 minutes, then levels off at 7.5 grams.](assets/033-graph-showing-total-mass-of-carbon-dioxide-produ.png)\n\n(i) Complete the sentences to describe the results shown in Fig. 7.1.\n\nThe yeast cells produced a total of .............................. g of carbon dioxide during 1200 minutes.\n\nThe yeast cells stopped producing carbon dioxide at .............................. minutes.\n\n[2]\n\n(ii) The investigation was repeated with boiled yeast cells.\n\nPredict the effect on the mass of carbon dioxide produced and explain your prediction.\n\n[2]\n\n(iii) State the name of **one other** product of anaerobic respiration in yeast cells.\n\n[1]",
+     "solution_md": "(i)\n\n- The yeast cells produced a total of **7.4** g of carbon dioxide during 1200 minutes; **[1 mark]**\n- The yeast cells stopped producing carbon dioxide at **300** minute;**[1 mark]**\n\n(ii)\n\n*Prediction:*\n\n- A decrease in mass of carbon dioxide / no carbon dioxide is produced; **[1 mark]**\n\n*Explanation:*\n\n- Enzymes are inactive / yeast cells have been killed/destroyed; **[1 mark]**\n\n(iii)\n\n- Alcohol / ethanol; **[1 mark]**\n\n**[Total: 5 marks]**"
+    },
+    {
+     "id": "qstnprt_WHv9x4vGbwQ8nzgq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "draw",
+     "source_paper": {
+      "date": "june 2022",
+      "number": "paper 3",
+      "question_number": 7,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "The box on the left contains the term ‘Respiration’.\n\nThe boxes on the right contain sentence endings. \n\nDraw **two** lines to join the term ‘Respiration’ to two boxes on the right to make** two** correct sentences.\n\n![Flowchart with \"Respiration\" leading to options: produces carbon dioxide, necessary for diffusion, occurs in animals, releases energy, uses glucose.](assets/034-flowchart-with-respiration-leading-to-options-pr.png)",
+     "solution_md": "- (Respiration) releases energy; **[1 mark]**\n- (Respiration) uses glucose; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_HZfr3vwvWJrnm4Kk",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": "june 2022",
+      "number": "paper 3",
+      "question_number": 7,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_yrSCdjZPGBDpxy8F"
+     ],
+     "part_tier": null,
+     "problem_md": "State **one** substance required for aerobic respiration that is not required for anaerobic respiration.",
+     "solution_md": "- Oxygen; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_dTf7G6hMgwDZXHQN",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "tick",
+     "source_paper": {
+      "date": "june 2022",
+      "number": "paper 3",
+      "question_number": 7,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_QSrnzfzcBpPttwm7"
+     ],
+     "part_tier": null,
+     "problem_md": "Respiration is one of the characteristics of living things. \n\nTick (**✓**) **two** boxes to show two other characteristics of **all** living things.\n\n![Table listing life processes: breathing, excretion, growth, photosynthesis, sexual reproduction. Each term is in a separate row with empty adjacent columns.](assets/035-table-listing-life-processes-breathing-excretion.png)",
+     "solution_md": "- Excretion ✓; **[1 mark]**\n- Growth ✓; **[1 mark]**\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_FYmxnDd6sz7MshJz",
+   "set_slug": "theory-questions",
+   "order": 15,
+   "difficulty": "hard",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_7BJmBBdVqSTSFMfz",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/04",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Ygv8JxsB2T2JwBGv"
+     ],
+     "part_tier": null,
+     "problem_md": "Yeast can respire aerobically and anaerobically.\n\nState the balanced chemical equation for aerobic respiration",
+     "solution_md": "- C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> → 6H<sub>2</sub>O + 6CO<sub>2</sub>; **[2 marks]**\n\n**[Total: 2 marks]**\n\n**[1 mark]** for the correct symbol equation but not balanced"
+    }
+   ]
+  },
+  {
+   "id": "qstn_YGVxvr3dhCqPc7FN",
+   "set_slug": "theory-questions",
+   "order": 3,
+   "difficulty": "easy",
+   "style": "exam_whole",
+   "total_marks": 2,
+   "parts": [
+    {
+     "id": "qstnprt_B44nb3rTRR9C4YJb",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "Specimen 2023",
+      "number": "0970/03",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Aerobic respiration increases during exercise.\n\n(i)\n\nState the name of the gas required for aerobic respiration.\n\n[1]\n\n(ii)\n\nState where aerobic respiration occurs in a cell.\n\n[1]",
+     "solution_md": "(i)\n\n- Oxygen; **[1 mark]**\n\nRemember that aerobic respiration requires oxygen and anaerobic respiration does not.\n\n(ii)\n\n- Mitochondria; **[1 mark] **\n\n**[Total: 2 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_Ybm7qRhvGfrvQPj5",
+   "set_slug": "theory-questions",
+   "order": 7,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_2xHrvtzFCzhHFKRC",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Researchers in the Czech Republic investigated oxygen consumption in horses.\n\nThey measured the oxygen consumption of the horses while they were exercising at four different paces: walking, trotting, cantering and galloping.\n\nThe results are shown in Fig. 1.\n\n![061041-may-2018-paper-4-q5b-horse-walking---sq](assets/036-061041-may-2018-paper-4-q5b-horse-walking-sq.png)\n\n**Fig. 1**\n\nCalculate the percentage increase in the average rate of oxygen consumption as the horses change from walking to trotting.\n\nShow your working.\n\n** **____________%** **",
+     "solution_md": "The percentage increase in the average rate of oxygen consumption as the horses change from walking to trotting is:\n\n- Final answer of 150%;** [2 marks]**\n- If the final answer is incorrect but has correct working (50-20)÷20; **[1 mark]**\n\n**[Total: 2 marks]**\n\n![061041-may-2018-paper-4-q5b-horse-walking---ma](assets/037-061041-may-2018-paper-4-q5b-horse-walking-ma.png)\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_3fZSsFkJ3ydtd3wW",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ",
+      "spcpt_Kn8WvVFgqJGRgbyw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe researchers also calculated the oxygen debt for each type of exercise.\n\nThey found that the horses developed a larger oxygen debt when they exercised by galloping and cantering rather than when they walked.\n\nExplain why the horses developed an oxygen debt when they exercised.",
+     "solution_md": "The horses developed an oxygen debt when they exercised because:\n\nAny **three** of the following from:\n\n- Demand for, energy / oxygen, increases; **[1 mark]**\n- (Rate of) respiration increases;** [1 mark]**\n- Limited supply of oxygen to <u>muscle</u> (tissue); **[1 mark]**\n- Idea that the heart / pulse / breathing rate cannot increase enough (to meet demand); **[1 mark]**\n- (Therefore) muscles respire <u>anaerobic</u>ally; **[1 mark]**\n- Lactic acid is produced;** [1 mark]**\n\n**[Total: 3 marks]**"
+    },
+    {
+     "id": "qstnprt_ZmTH49GK7QsRKgBX",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "describe",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/41",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ",
+      "spcpt_Kn8WvVFgqJGRgbyw"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nThe horses developed an oxygen debt when they exercised because:\n\nAny three of the following from:\n\n- Demand for, energy / oxygen, increases; [1 mark]\n- (Rate of) respiration increases; [1 mark]\n- Limited supply of oxygen to muscle (tissue); [1 mark]\n- Idea that the heart / pulse / breathing rate cannot increase enough (to meet demand); [1 mark]\n- (Therefore) muscles respire anaerobically; [1 mark]\n- Lactic acid is produced; [1 mark]\n\n#### Extended Only\n\nDescribe how the horses would recover from an oxygen debt when they stop exercising.",
+     "solution_md": "The horses would recover from an oxygen debt when they stop exercising by:\n\nAny **four** of the following from:\n\n- Horses continue to breathe, at high rate / deeper breaths / more volume per breath; **[1 mark]**\n- Continue with a high heart / pulse rate; **[1 mark]**\n- To provide enough oxygen (to ‘pay-off’ the debt); **[1 mark]**\n- Lactic acid moves / diffuses (from muscle) into blood;**[1 mark]**\n- Lactic acid transported to the liver; **[1 mark]**\n- (In the liver) lactic acid is, broken down / oxidised / respired (aerobically); **[1 mark]**\n\n**[Total: 4 marks]**\n\n> *A misconception here is that lactic acid is broken down in the respiring cells. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_tHntvKrGtTgxJ5BC",
+   "set_slug": "theory-questions",
+   "order": 14,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 10,
+   "parts": [
+    {
+     "id": "qstnprt_Pct5CJQ2RVknBbZS",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "write",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Respiration releases energy.\n\nWrite the word equation for aerobic respiration.",
+     "solution_md": "The mark allocation for the word equation of aerobic respiration is as follows:\n\n- (Reactants) Glucose + oxygen; **[1 mark] **\n- (Products) Carbon dioxide + water;** [1 mark]**\n\n*Reactants in either order; products in either order. *\n\n**glucose + oxygen → carbon dioxide + water**\n\n**[Total: 2 marks]**\n\n> *During aerobic respiration, oxygen is used to break down glucose to release energy. In the process, carbon dioxide and water are produced as waste products.*"
+    },
+    {
+     "id": "qstnprt_mzfqdVt5RNRZY8Qd",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows the average daily energy requirement of different groups of males and females.\n\n![0610p31q4b](assets/038-0610p31q4b.png)\n\n**Fig. 1**\n\n(i)\n\nState the average energy requirement of a five-year-old female. Give your answer in kJ per day.\n\n[1]\n\n(ii)\n\nAn eleven-year-old male received only 8000 kJ per day for four months.\n\nUse the data in Fig. 1 to suggest **two** ways this could affect him.\n\n[2]",
+     "solution_md": "(i) The average energy requirement of a five-year-old female is:\n\n- 6200 (kJ per day); **[1 mark]**\n\n(ii) Two ways in which a diet of 8000 kJ would affect an eleven-year-old male includes:\n\nAny **two** from the following:\n\n- The energy input (for a male) would be (too) low / below their requirements/needs **OR** 8000 kJ would be suitable for / meet the requirements/needs of an eleven-year-old female;**[1 mark]**\n- (This would result in) weight loss / they would become thin(ner); **[1 mark]**\n- It would reduce / stop normal growth (in the male); **[1 mark]**\n- (This would result in) fatigue / tiredness / weakness / being less active;**[1 mark]**\n- (They may be) more susceptible to infection / disease **OR** their immune system may weaken; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *For (b) (i), the average energy requirement of a five-year-old female can be read from the graph:*\n\n![q4bima](assets/039-q4bima.png)"
+    },
+    {
+     "id": "qstnprt_3Nkhvh8Frph5wNPR",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "compare",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 4,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nFig. 1 shows the average daily energy requirement of different groups of males and females.\n\n[Graph not included, but referenced for energy values of 17 year olds and adults, including inactive and active adults, and males and females.]\n\nUse the data in Fig. 1 to make **three** comparisons between the energy requirements of individuals aged 17 years and adults.",
+     "solution_md": "The following comparisons can be made between the 17 year-olds and adults:\n\n- 17 year olds require more energy / have higher energy needs than inactive adults **OR** inactive adults require less energy / have lower energy needs than 17 year olds;** [1 mark]**\n- 17 year olds require less energy / have lower energy needs than active adults **OR** active adults require more energy / have higher energy needs than 17 year olds; ** [1 mark]**\n- Comparative data quote with the correct units in support of the previous two comparisons eg. 17 year old males require 10 800 kJ per day and 17 year old females require 8 800 kJ per day versus inactive adult males that require 10 000 kJ per day and inactive adult females that require 8 200 kJ per day; ** [1 mark]**\n\n**[Total: 3 marks]**\n\n> *The command word 'compare' requires you to comment on any similarities or differences between the energy requirements of 17 year olds and adults. Any comparisons involving other age groups would be ignored for this question.*\n\n> *To earn the third mark, you must have quoted comparative data from the graph to illustrate your points in the other 2 marking points. *"
+    },
+    {
+     "id": "qstnprt_PgJwH7hknTqXxFY7",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/31",
+      "question_number": 4,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ",
+      "spcpt_PnQVP9vCZ9pfZ9Vd"
+     ],
+     "part_tier": null,
+     "problem_md": "Yeast cells can respire anaerobically.\n\nBiotechnology makes use of this.\n\nState **two** ways that the products of anaerobic respiration in yeast are used by humans.",
+     "solution_md": "The products of anaerobic respiration in yeast are used by humans in the following ways:\n\nAny **two **from the following:\n\n- (The carbon dioxide produced) can be used to make dough rise / to bake bread / in baking; ** [1 mark]**\n- (The alcohol/ethanol produced) can be used in the brewing/production of alcoholic beverages/beer **OR** the carbon dioxide produced will give alcoholic beverages fizziness;** [1 mark]**\n- (The alcohol/ethanol produced) can be used to produce biofuels / can be used as fuel;** [1 mark]**\n\n**[Total: 2 marks]**** **"
+    }
+   ]
+  },
+  {
+   "id": "qstn_SyPJ5RWzsTBVq746",
+   "set_slug": "theory-questions",
+   "order": 6,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 4,
+   "parts": [
+    {
+     "id": "qstnprt_vFryCxTvZqhDvr9J",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2023",
+      "number": "3/1/0970",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Aerobic respiration increases during exercise.\n\n(i)\n\nState the name of the gas required for aerobic respiration.\n\n[1]\n\n(ii)\n\nState where aerobic respiration occurs in a cell.\n\n[1]",
+     "solution_md": "(i) The gas required for aerobic respiration is oxygen:\n\n- Oxygen/O<sub>2</sub>;** [1 mark]**\n\n(ii) Aerobic respiration occurs in the:\n\n- Mitochondria;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_H4KmSXtymChcxcCJ",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2023",
+      "number": "3/1/0970",
+      "question_number": 2,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_yrSCdjZPGBDpxy8F",
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Anaerobic respiration can occur when exercising vigorously.\n\n(i)\n\nState the word equation for anaerobic respiration in muscle cells.\n\n[1]\n\n(ii)\n\nState **one **advantage of using aerobic rather than anaerobic respiration in humans.\n\n[1]",
+     "solution_md": "(i) The word equation for anaerobic respiration in muscle cells is as follows:\n\n- Glucose → lactic acid; **[1 mark]**\n\n(ii) One advantage of using aerobic rather than anaerobic respiration is:\n\n- (Aerobic respiration) releases more energy (per molecule of glucose);** [1 mark]**\n\n**[Total: 2 marks]**\n\n> *You cannot get the marks for putting symbols in your equation because the question specifically asks for a **word **equation. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_sYGp8jVCYYPQrvQ2",
+   "set_slug": "theory-questions",
+   "order": 8,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 3,
+   "parts": [
+    {
+     "id": "qstnprt_VGv99yF2HDVgWYdK",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "complete",
+     "source_paper": {
+      "date": "2018 (Series 1)",
+      "number": "0610/31",
+      "question_number": 3,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Aerobic respiration increases during exercise.\n\nUse the words from the list to complete the definition of *aerobic respiration*.\n\nEach word or phrase may be used once, more than once or not at all.\n\n**cells                  carbon dioxide                    DNA                    oxygen**\n\n**the heart                     the brain                    nutrient **\n\nAerobic respiration is the chemical reactions in ....................................... that use ....................................... to break down ....................................... molecules to release energy.",
+     "solution_md": "The completed sentence is as follows...\n\nAward **one** **mark** for each correct answer:\n\n- Aerobic respiration is the chemical reactions in **cells**** **that use **oxygen**** **to break down **nutrient**** **molecules to release energy; **[3 marks]**\n\n**[Total: 3 marks]**\n\n> *Remember that you must use the words from the list only, any other word, such as glucose for the third word, will not be awarded a mark.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_KRKBmKkf4jnKfp5t",
+   "set_slug": "theory-questions",
+   "order": 13,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_7bVxbv6hnpPQ84jc",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 4,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_Ygv8JxsB2T2JwBGv"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nYeast can respire aerobically and anaerobically.\n\nState the balanced chemical equation for aerobic respiration.",
+     "solution_md": "The balanced chemical equation for aerobic respiration is...\n\nC<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> → 6H<sub>2</sub>O + 6CO<sub>2</sub>\n\n- C<sub>6</sub>H<sub>12</sub>O<sub>6 </sub>**AND **O<sub>2</sub> **AND** H<sub>2</sub>O **AND** CO<sub>2</sub>; **[1 mark]**\n- <u>1</u> molecule of glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) **AND** <u>6</u> molecules of oxygen (O<sub>2</sub>) **AND** <u>6</u> molecules of water (H<sub>2</sub>O) **AND** <u>6</u> molecules of carbon dioxide (CO<sub>2</sub>); **[1 mark]**\n\n*Marking point 1 is awarded for the correct use of chemical symbols and marking point 2 is awarded for correct balancing of the equation.*\n\n**[Total: 2 marks]**\n\n> *You will not be awarded any marks for giving the word equation as the question specifically asks for a chemical equation. *"
+    },
+    {
+     "id": "qstnprt_SdnXjX2WQpb98G3Y",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "suggest",
+     "source_paper": {
+      "date": "2023",
+      "number": "970/04",
+      "question_number": 4,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "When yeast respires anaerobically, ethanol is produced.\n\nEthanol is a type of sustainable resource that can be made from a wide range of crop plants.\n\nIt can be used as a biofuel.\n\nTable 1 summarises some information about crop plants that are used to make biofuel.\n\n**Table 1**\n\n| **crop plant** | **biofuel produced** | **energy yield / GJ per ha** | **optimum growth temperature / °C** | **optimum annual rainfall range / mm** |\n|---|---|---|---|---|\n| wheat | ethanol | 53-84 | 24 | 800-1200 |\n| corn | ethanol | 63-76 | 18 | 360-1000 |\n| sugar beet | ethanol | 110-122 | 18 | 360-1000 |\n| sugarcane | ethanol | 110-140 | 28 | 800-1200 |\n| oil palm | oil | 150-166 | 28 | 1100-2500 |\n\nA country has a mean temperature range of 12 °C to 24 °C. The country has a mean annual rainfall of 1000 mm.\n\nSuggest **and** explain which crop plant would be the **most** suitable crop to grow to produce biofuel in the country.\n\nUse the information in Table 1 to support your choice.",
+     "solution_md": "The crop plant would be the most suitable crop to grow to produce biofuel in the country which has a mean temperature range of 12 °C to 24 °C and a mean annual rainfall of 1000 mm is...\n\n- Sugar beet; **[1 mark]**\n\nThis is because...\n\nAny **two **of the following:\n\n- It grows at an appropriate temperature; **[1 mark]**\n- It grows at an appropriate level of rainfall;**[1 mark]**\n- It has a greater energy yield than wheat/corn; **[1 mark]**\n- Data quoted from the table to support any of the above points, e.g. it grows at 18 °C / within the temperature range of 12-24 °C **OR** it grows at a rainfall range of 360-1000 mm / at a rainfall level of 1000 mm **OR** it has an energy yield of 110-122 GJ per ha in comparison to 53-84 / 53-76 GJ per ha; **[1 mark]**\n\n***Accept*** *correct explanations for marking points 2 and 3 even if the incorrect crop has been identified for marking point 1.*\n\n**[Total: 3 marks]**\n\n> *Sugar beet has the highest energy yield of the crops that will grow at the climate conditions described. While there are other crops with a higher energy yield these would require warmer temperatures or more rainfall.*\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_krJFHzP5484nmKQq",
+   "set_slug": "theory-questions",
+   "order": 0,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 14,
+   "parts": [
+    {
+     "id": "qstnprt_SZk6rWvpcd3MSFjg",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "State **three **uses of energy required by a living organism.",
+     "solution_md": "Three uses of energy required by a living organism would include...\n\nAny **three **from the following:\n\n- Muscle contraction; **[1 mark]**\n- Protein synthesis; **[1 mark]**\n- Cell division; **[1 mark]**\n- Active transport; **[1 mark]**\n- Maintenance of a constant body temperature; **[1 mark]**\n- Growth; **[1 mark]**\n- The passage of nerve impulses; **[1 mark]**\n\n**[Total: 3 marks]**\n\n> *It is required by your specification that you need to know these examples specifically. *"
+    },
+    {
+     "id": "qstnprt_BxXn77NYKGWY4mvb",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn",
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "Give the missing answers in the following sentences using words from the box.  Each word may only be used once.\n\n| energy        oxygen      organisms     chemical        cells |\n|---|\n\nAerobic respiration is a ____________ reaction that takes place in ___________of living ____________.\n\nIt uses ______________ as part of the reaction to release _________.",
+     "solution_md": "The completed sentence is as follows:\n\n**One **mark for each correct word:\n\n- Aerobic respiration is a **chemical **reaction that takes place in **cells **of living **organisms**.\n- It uses **oxygen **as part of the reaction to release **energy**.\n\n**[Total: 5 marks]**\n\n> *It is important to be able to recall the key facts about aerobic respiration assessed in this question. *"
+    },
+    {
+     "id": "qstnprt_Y2MPXJ7dMXHWGd4q",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "draw",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nTable 1\n\n| plant type         | oxygen consumption / mL kg^−1 h^−1 |\n|--------------------|------------------------------------|\n| Asparagus Fern     | 25                                 |\n| Chinese Evergreen  | 36                                 |\n| Monstera           | 62                                 |\n| Prayer Plant       | 45                                 |\n\nThe oxygen consumption of a range of indoor plants was measured to give an indication of the rate of respiration.\n\nTable 1 shows the results recorded.\n\n**Table 1**\n\n| **plant type** | **oxygen consumption / mL kg**<sup>**−1**</sup>** h**<sup>**−1**</sup> |\n|---|---|\n| Asparagus Fern | 25 |\n| Chinese Evergreen | 36 |\n| Monstera | 62 |\n| Prayer Plant | 45 |\n\nDraw a graph of the results on the grid shown in Fig. 1\n\n![graph-paper](assets/040-graph-paper.png)\n\n**Fig. 1**",
+     "solution_md": "The mark allocation for the graph of the results would be...\n\n- Axes labelled (x and y axis); **[1 mark]**\n- Appropriate scale on y axis; **[1 mark]**\n- Bars plotted correctly within +/- one small square; **[1 mark]**\n- Bar chart (not a line graph); **[1 mark]**\n\n**[Total: 4 marks]**\n\n![3a2a1d67-3b3e-4c13-a549-743343883dc0](assets/041-3a2a1d67-3b3e-4c13-a549-743343883dc0.jpeg)"
+    },
+    {
+     "id": "qstnprt_gSqyf4MQRkksFnDq",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Identify the missing reactants and products from the word equation for aerobic respiration.\n\n____________ + glucose → ____________ + water + (energy)",
+     "solution_md": "The missing reactants and products are...\n\n- Missing reactant: oxygen; **[1 mark]**\n- Missing product: carbon dioxide; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *The word equation would be as follows:*\n\n> *oxygen + glucose → carbon dioxide + water + (energy)*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DMSNcx6jjGyZKm3b",
+   "set_slug": "theory-questions",
+   "order": 10,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_ZfcSwpMpVyydXjTM",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "show",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 5,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Ygv8JxsB2T2JwBGv"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nStudents investigated the rate of respiration of crickets (a type of insect) using a carbon dioxide sensor and laptop as shown in Fig. 1. The sensor was fitted inside an airtight glass jar. The apparatus was set up in a room with a constant temperature of 17°C.\n\n![cie-igcse-2018-s3-p4-q5b](assets/042-cie-igcse-2018-s3-p4-q5b.png)\n\n**Fig. 1**\n\nThe students found that the concentration of carbon dioxide inside the jar increased by 50ppm in 120 seconds.\n\nCalculate the rate of carbon dioxide production as ppm per second.\n\nShow your working and express your answer to two significant figures.\n\nGive your answer in ppm s<sup>-1</sup>.",
+     "solution_md": "The rate of carbon dioxide production can be calculated as follows:\n\n- 50 ÷ 120 = 0.4166666\n- 0.42 (ppm s<sup>–1</sup>); **[1 mark]**\n\n**[Total: 1 mark]**\n\nYour answer should be rounded to 2 significant figures so you cannot obtain the mark if you write 0.416"
+    },
+    {
+     "id": "qstnprt_3gPTfC88qGKSvzqt",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Ygv8JxsB2T2JwBGv"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nStudents investigated the rate of respiration of crickets (a type of insect) using a carbon dioxide sensor and laptop as shown in Fig. 1. The sensor was fitted inside an airtight glass jar. The apparatus was set up in a room with a constant temperature of 17°C.\n\n#### Extended only\n\nAfter 10 minutes, the students opened the jar by removing the sensor. They left the jar open for 5 minutes but made sure that the crickets remained in the jar. They then replaced the sensor and took more readings for another 10 minutes.\n\nState **and** explain one reason for opening the jar after 10 minutes",
+     "solution_md": "The reason for opening the jar is...\n\nAny **two **from the following:\n\n- To allow oxygen to enter the chamber;** [1 mark]**\n- This will keep the crickets respiring aerobically; **[1 mark]**\n- (Also) to remove carbon dioxide; **[1 mark]**\n- This will prevent death of crickets; **[1 mark]**\n- Ethical treatment of animals is necessary; **[1 mark]**\n- Maintaining similar conditions / refreshing the air in the chamber / resetting for repeat readings; **[1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_W7bqbc63vkgXmgf6",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nStudents investigated the rate of respiration of crickets (a type of insect) using a carbon dioxide sensor and laptop as shown in Fig. 1. The sensor was fitted inside an airtight glass jar. The apparatus was set up in a room with a constant temperature of 17°C.\n\nDuring the investigation the temperature inside the jar increased. The temperature outside the jar remained constant.\n\nExplain why the temperature inside the jar increased.",
+     "solution_md": "The temperature in the jar increased because:\n\nAny **two **from the following:\n\n- Heat (energy) is released by crickets; **[1 mark]**\n- (Heat energy is released from) movement / reference to kinetic energy; **[1 mark]**\n- There may be a pressure increase; **[1 mark]**\n- Increased carbon dioxide leading to greenhouse effect; **[1 mark]**\n- Small closed space (meaning greenhouse effect leads to temperature rise); **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_sQ5DPYckVZyS6bSZ",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "justify",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/43",
+      "question_number": 5,
+      "question_part": "e"
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ"
+     ],
+     "part_tier": null,
+     "problem_md": "Researchers in Chile also investigated the rate of respiration in crickets.\n\nThey investigated the effect of temperature and body mass on the rate of respiration. They measured the rate of oxygen consumption in crickets with different body masses, at different temperatures.\n\nThe researchers’ results are shown in Fig. 2.\n\n![cie-igcse-2018-s3-p4-q5e](assets/043-cie-igcse-2018-s3-p4-q5e.png)\n\n**Fig. 2**\n\nState **two** conclusions that can be made from the data in Fig. 2 **and** support each conclusion with evidence from the graph.",
+     "solution_md": "Two conclusions that may be drawn could include:\n\n- The rate of oxygen consumption increases with body mass of crickets (for each temperature); **[1 mark]**\n- Any suitable data quote comparing rate at different masses (at same temperature) e.g. at 17 °C, when body mass was 10 mg, oxygen consumption was 4 x 10<sup>-3 </sup>cm<sup>3</sup>h<sup>-1</sup> and 78mg, the rate of oxygen consumption was 15 x 10<sup>-3</sup>cm<sup>3</sup>h<sup>-1</sup>; **[1 mark]**\n- The rate of oxygen consumption increases with temperature; **[1 mark]**\n- Any suitable data quote comparing rate at two temperatures (for the same body mass) e.g when body mass was 60 mg, the rate of oxygen consumption was 22 x 10<sup>-3</sup>cm<sup>3</sup>h<sup>-1</sup> higher at 27 °C than at 7 °C;**[1 mark]**\n\n**[Total: 4 marks]**\n\n> *When quoting data in this way, you should make sure that the data is valuable. It is not useful just to quote random points unless they are being compared to other points on the same graph. As this question specifically asks for you to support your conclusions, you must quote data to obtain full marks.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_DJn7bRcMPshfVb94",
+   "set_slug": "theory-questions",
+   "order": 1,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 7,
+   "parts": [
+    {
+     "id": "qstnprt_8Z3Mf6CZXfd2zNjm",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ"
+     ],
+     "part_tier": null,
+     "problem_md": "At student investigated the effect of temperature on respiration in yeast over 1 hour. They used three different temperatures on the yeast species *Saccharomyces cerevisiae.*\n\nThey collected data and drew a graph of their results shown in Fig. 1.\n\n![co2-production](assets/044-co2-production.png)\n\n**Fig. 1**\n\n(i)\n\nState the temperature at which *Saccharomyces cerevisiae* carried out most respiration.\n\n[1]\n\n(ii)\n\nState the volume of CO<sub>2</sub> produced at 30 minutes when *Saccharomyces cerevisiae *was kept at 25°C.\n\n[1]\n\n(iii)\n\nState the total volume of CO<sub>2 </sub>produced by *Saccharomyces cerevisiae *at 30°C.\n\n[1]",
+     "solution_md": "(i) The temperature at which *Saccharomyces cerevisiae* carried out most respiration is...\n\n- 35°C; **[1 mark]**\n\n(ii) The volume of CO<sub>2</sub> produced at 30 minutes when *Saccharomyces cerevisiae *was kept at 25°C is...\n\n- 1 cm<sup>3</sup>; **[1 mark]**\n\n***Do not accept ****an answer of 1 without units*\n\n(iii) The total volume of CO<sub>2 </sub>produced by *Saccharomyces cerevisiae *at 30°C is...\n\n- 3.3 cm<sup>3</sup>; **[1 mark]**\n\n***Accept ****answers within a range of 3.3 to 3.4 cm*<sup>*3*</sup>*** Do not accept ****an answer within range without units*\n\n**[Total: 3 marks]**\n\n![49f70146-b9b1-4fab-8701-dfd1ed5935f0](assets/045-49f70146-b9b1-4fab-8701-dfd1ed5935f0.jpeg)"
+    },
+    {
+     "id": "qstnprt_SfF87rjbfvbxqGX5",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "give",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ"
+     ],
+     "part_tier": null,
+     "problem_md": "**Extract:**\n\nAt student investigated the effect of temperature on respiration in yeast over 1 hour. They used three different temperatures on the yeast species Saccharomyces cerevisiae.   They collected data and drew a graph of their results shown in Fig. 1.  (i) The temperature at which Saccharomyces cerevisiae carried out most respiration is... - 35°C; (ii) The volume of CO2 produced at 30 minutes when Saccharomyces cerevisiae was kept at 25°C is... - 1 cm^3^; (iii) The total volume of CO2 produced by Saccharomyces cerevisiae at 30°C is... - 3.3 cm^3^; Accept answers within a range of 3.3 to 3.4 cm^3^\n\nA student wrote the following conclusion for the data shown in Fig. 1:\n\n*As temperature increases the rate of respiration increases. *\n\nUsing data from Fig. 1, give evidence as to why the student is correct in their conclusion.",
+     "solution_md": "Evidence as to why the student is correct in their conclusion is...\n\n- An example of a lower and higher temperature with corresponding volume of CO<sub>2</sub> produced; **[1 mark]**\n- Same time used for each temperature; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *An example answer could be:*\n\n> *At 25°C the volume of CO*<sub>*2*</sub>* produced in 30 minutes is 1 cm*<sup>*3*</sup>*, whereas at 35°C the volume of CO*<sub>*2*</sub>* produced in 30 minutes is 3.4 cm*<sup>*3*</sup>*.*"
+    },
+    {
+     "id": "qstnprt_Fw4rYBn3YHxjgDkZ",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Yeast respire anaerobically.\n\nWith reference to oxygen, describe the difference between aerobic and anaerobic respiration.",
+     "solution_md": "The difference between aerobic and anaerobic respiration is...\n\n- Aerobic respiration requires oxygen **AND **anaerobic respiration does not require oxygen; **[1 mark]**\n\n**[Total: 1 mark]**"
+    },
+    {
+     "id": "qstnprt_r7FqKXcDH5cvJry8",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 1,
+     "command_word": "state",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_yrSCdjZPGBDpxy8F"
+     ],
+     "part_tier": null,
+     "problem_md": "State which type of respiration releases the greatest amount of energy.",
+     "solution_md": "The type of respiration that releases the greatest amount of energy is...\n\n- aerobic (respiration); **[1 mark]**\n\n**[Total: 1 mark]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_ctcZcg8HF97Gq3xs",
+   "set_slug": "theory-questions",
+   "order": 2,
+   "difficulty": "easy",
+   "style": null,
+   "total_marks": 11,
+   "parts": [
+    {
+     "id": "qstnprt_xMBhJBqw4NnfhMyR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "identify",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_rrbnjSkPB3h5YGQP"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows an animal cell.\n\n![animal-cell-mitochondria-1](assets/046-animal-cell-mitochondria-1.png)\n\n**Fig. 1**\n\nIdentify which letter represents the cell structure where respiration takes place **and** name the cell structure.",
+     "solution_md": "The cell structure where respiration takes place is....\n\n- Y; **[1 mark]**\n- (The) mitochondria;** [1 mark]**\n\n**[Total: 2 marks]**"
+    },
+    {
+     "id": "qstnprt_8FdBWrYXjFbhv7sF",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_VWZ2cKQfS6y6BgTn"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete the following sentence about respiration:\n\n![u_2i9pRC_words](assets/047-u-2i9prc-words.png)\n\nRespiration releases energy from __________ to be used in life processes such as ___________ reactions, __________ contraction and maintaining a constant body ____________.",
+     "solution_md": "The sentence should be completed as follows:\n\n- Respiration releases energy from **glucose**, to be used in life processes such as **chemical **reactions, **muscle **contraction and maintaining a constant body **temperature**.\n\n*Award*** [1 mark] ***per correct answer.*\n\n**[Total: 4 marks]**\n\n> *The energy stored in glucose is chemical energy, this energy is transferred to other forms of energy once it is released during the process of respiration.*"
+    },
+    {
+     "id": "qstnprt_ChQQKM8nMBRDn8Ch",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "complete",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_xM8T2jHS5DXvmTsZ"
+     ],
+     "part_tier": null,
+     "problem_md": "Complete Table 1 with a (**✔**) or a (**X**) to show the products and reactants of anaerobic respiration in animals.\n\n**Table 1**\n\n|   | **product** | **reactant** |\n|---|---|---|\n| oxygen |   |   |\n| carbon dioxide |   |   |\n| lactic acid |   |   |\n| glucose |   |   |\n| water |   |   |\n| ethanol |   |   |\n\n[2]",
+     "solution_md": "The table should be completed as follows:\n\n|   | **product** | **reactant** |\n|---|---|---|\n| oxygen | **Final answer:** **X** | **Final answer:** **X** |\n| carbon dioxide | **Final answer:** **X** | **Final answer:** **X** |\n| lactic acid | **Final answer:** **✔** | **Final answer:** **X** |\n| glucose | **Final answer:** **X** | **Final answer:** **✔** |\n| water | **Final answer:** **X** | **Final answer:** **X** |\n| ethanol | **Final answer:** **X** | **Final answer:** **X** |\n\n*Award ***[1 mark] ***for each correct column*\n\n**[Total: 2 marks]**\n\n> *It is important to make sure you read the instructions carefully and fill every box with either a  (**✔**) or a (**X**). Leaving blank spaces will result in the marks being lost.*"
+    },
+    {
+     "id": "qstnprt_GD6Tr4pQGfg8vvJ4",
+     "order": 3,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "describe",
+     "source_paper": {
+      "date": null,
+      "number": null,
+      "question_number": null,
+      "question_part": null
+     },
+     "spec_point_ids": [
+      "spcpt_Kn8WvVFgqJGRgbyw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nAn oxygen debt is often associated with anaerobic respiration.\n\nDescribe the process that occurs in the body during an oxygen debt.",
+     "solution_md": "The process that occurs in the body during an oxygen debt is...\n\nAny **three **from the following:\n\n- Anaerobic respiration causes a build up of lactic acid (in the muscles) **OR **lactic acid builds up during vigorous exercise; **[1 mark]**\n- Continuation of deeper and faster breathing to supply oxygen; **[1 mark]**\n- Lactic acid is transported to the liver (from the muscles); **[1 mark]**\n- Aerobic respiration of lactic acid in the liver **OR **Lactic acid is oxidised in the liver; **[1 mark]**\n\n**[Total: 3 marks]**"
+    }
+   ]
+  },
+  {
+   "id": "qstn_7t5ctCx9ZdtGjcGs",
+   "set_slug": "theory-questions",
+   "order": 9,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 13,
+   "parts": [
+    {
+     "id": "qstnprt_QKGk6xzY6PxtK6Z6",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "state",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 5,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_qmyGwyncmkdTykJv"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows an adult fly, *Chrysomya megacephala*.\n\n![2018mj0610p42q5a](assets/048-2018mj0610p42q5a.png)\n\n**Fig. 1**\n\nState **three** visible features from Fig. 1 that could be used to distinguish adult insects from other arthropods.",
+     "solution_md": "Visible features that distinguish adult insects from other arthropods include:\n\nAny **three** from the following:\n\n- Three pairs of legs; **[1 mark]**\n- Three body segments** OR** the body is divided into a head, thorax and abdomen;**[1 mark]**\n- (The presence of) wings; **[1 mark]**\n- (A pair of) antennae; **[1 mark]**\n- (The presence of) compound eyes; **[1 mark]**\n\n**[1 mark]**\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_6Tvy4wXvpGNvQBSR",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 6,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 5,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "A respirometer is shown in Fig. 2. It can be used to estimate an organism’s rate of respiration.\n\n![2018mj0610p42q5c](assets/049-2018mj0610p42q5c.png)\n\n**Fig. 2**\n\n(i)\n\nComplete the sentences:\n\nA respirometer can be used to calculate the ............................. of oxygen used by the fly larvae by measuring the ............................. the droplet of oil moves in one minute. A water-bath is used to ............................. the temperature of the apparatus.\n\n[3]\n\n(ii)\n\nThe soda lime in the respirometer absorbs carbon dioxide.\n\nExplain why this is important in this investigation.\n\n[1]\n\n(iii)\n\nFly larvae respire to release energy.\n\nState **two** uses of energy in a fly larva.\n\n[2]",
+     "solution_md": "(i) The sentence can be completed using the following words:\n\n- volume; **[1 mark]**\n- distance/length; **[1 mark]**\n- control/maintain/regulate/stabilise/keep constant/sustain; **[1 mark]**\n\n*Words must be listed in the correct sequence to obtain marks.*\n\n(ii) It is important to absorb carbon dioxide in the respirometer because:\n\nAny **one** from the following:\n\n- Carbon dioxide will affect the results / volume of gas (in the respirometer) **OR **to ensure that only (changes in) oxygen (levels) is measured;** [1 mark]**\n- (High levels of) carbon dioxide could kill the larvae; **[1 mark]**\n\n(iii) Energy is used in a fly larva for the following:\n\nAny **two** from the following:\n\n- Growth/development; **[1 mark]**\n- Active transport; **[1 mark]**\n- Protein synthesis; **[1 mark]**\n- Cell division / mitosis; **[1 mark]**\n- (For the) passage/conduction of nerve impulses;**[1 mark]**\n- Muscle contraction; **[1 mark]**\n\n***Accept ****references to the life processes for one mark, e.g. movement / breathing / egestion / digestion / excretion / metabolism.*\n\n***Accept**** metamorphosis into an adult fly.*\n\n**[Total: 6 marks]**\n\n> *Respirometers are very useful in studying the rate of respiration of organisms. They measure the volume of oxygen used by the organisms so it is important to remove any carbon dioxide that is released in order to prevent this from affecting the results.*\n\n> *This question covers core knowledge but is taken from an extended paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_xjzfRdPydf44FWpF",
+     "order": 2,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "predict",
+     "source_paper": {
+      "date": "2018",
+      "number": "0610/42",
+      "question_number": 5,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_dRMHjYst5PgT52BQ",
+      "spcpt_bWFsrk7vr3qVsrjn"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended only\n\nA student used a respirometer to investigate the effect of temperature on the rate of respiration of germinating seeds.\n\nPredict the results of this investigation and explain your prediction.",
+     "solution_md": "A prediction and explanation of the results of this experiment are as follows...\n\nPrediction\n\n- As the temperature increases the respiration rate will increase **OR** as the temperature decreases the respiration rate will decrease; **[1 mark]**\n- (The respiration rate will) then decrease (at high temperatures); **[1 mark]**\n\nExplanation\n\nA maximum of **three** from the following:\n\n- There will be an <u>optimum</u> temperature for seed germination/respiration; **[1 mark]**\n- (Respiration/germination is controlled by) <u>enzymes</u>; **[1 mark]**\n- At high temperatures enzymes will denature / the shape of the enzyme active site will change / will not be complementary to the substrate; **[1 mark]**\n- At low temperatures there is not enough (kinetic) energy / enzyme and substrate molecules move too slowly for effective collisions; **[1 mark]**\n\n***Accept**** references to the effect of temperature on gas pressure, e.g. the temperature will affect the gas pressure in the respirometer / the gas pressure will increase at high temperatures / decrease at low temperatures.*\n\n**[Total: 4 marks]**\n\n> *This question requires you to refer back to your knowledge on enzymes. Remember that the rate of biochemical reactions (such as respiration) relies on the action of enzymes. There will be an increase in the rate of a reaction as the temperature increases toward the optimum as the enzyme and substrate molecules are moving faster and colliding more often. Above the optimum temperature the molecules would have so much kinetic energy that the chemical bonds holding the shape of the active site together break. At this point the enzyme is said to be denatured and it cannot catalyse the reaction any more.*"
+    }
+   ]
+  },
+  {
+   "id": "qstn_66T7WJQpSxpVWDVR",
+   "set_slug": "theory-questions",
+   "order": 5,
+   "difficulty": "medium",
+   "style": null,
+   "total_marks": 5,
+   "parts": [
+    {
+     "id": "qstnprt_XWb9cvWxqZYXDVhv",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 3,
+     "command_word": "give",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/04",
+      "question_number": 2,
+      "question_part": "a"
+     },
+     "spec_point_ids": [
+      "spcpt_nmv87sRx2kSG2Q6y"
+     ],
+     "part_tier": null,
+     "problem_md": "Fig. 1 shows a person sitting in a room.\n\nA thermometer shows the temperature of the room.\n\n![cie-igcse-2020-specimen-p4-q2a-thermometer](assets/050-cie-igcse-2020-specimen-p4-q2a-thermometer.png)\n\n**Fig. 1**\n\nGive **three **uses of energy in the body of the person in Fig. 1.",
+     "solution_md": "Three uses of energy in the body are:\n\nAny **three **from the following:\n\n- Muscular contraction / movement / pump blood / maintain posture; **[1 mark]**\n- Maintenance of body temperature; **[1 mark]**\n- Active transport / example such as nerve impulses; **[1 mark]**\n- Metabolic reactions / example eg. excretion / protein synthesis / digestion; **[1 mark]**\n- Mitosis / nuclear division / cell division; **[1 mark]**\n- Growth / replacement / repair; **[1 mark]**\n- Making gametes / sperm;**[1 mark]**\n\n**[Total: 3 marks]**\n\n> *Try not to repeat yourself, for example, if you said 'keep the heart beating' and 'movement' they're both classed as the same marking point because they're both referring to muscle contraction. *\n\n> *This question covers core knowledge taken from an extended only paper 4 question.*"
+    },
+    {
+     "id": "qstnprt_sJBPWmTQFRMfC8mq",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 2,
+     "command_word": "multiple",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/04",
+      "question_number": 2,
+      "question_part": "b"
+     },
+     "spec_point_ids": [
+      "spcpt_Ygv8JxsB2T2JwBGv"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\n(i)\n\nName the process carried out by the person in Fig. 1 that releases energy.\n\n[1]\n\n(ii)\n\nState the balanced chemical equation that describes this process.\n\n[1]",
+     "solution_md": "(i) The process carried out by the person that releases energy is:\n\n- Respiration; **[1 mark]**\n\n(ii) The balanced chemical question that describes this process is:\n\n- C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> → 6CO<sub>2</sub> + 6H<sub>2</sub>O; **[1 mark]**\n\n**[Total: 2 marks]**\n\n> *An unbalanced equation would not get you the mark here. You need to make sure to read the question carefully. *"
+    }
+   ]
+  },
+  {
+   "id": "qstn_3JzP7jNPg3BJ6yqg",
+   "set_slug": "theory-questions",
+   "order": 12,
+   "difficulty": "hard",
+   "style": null,
+   "total_marks": 9,
+   "parts": [
+    {
+     "id": "qstnprt_8nH4xtnVVY6NhnJR",
+     "order": 0,
+     "question_type": "structured",
+     "marks": 4,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/04",
+      "question_number": 2,
+      "question_part": "c"
+     },
+     "spec_point_ids": [
+      "spcpt_Kn8WvVFgqJGRgbyw"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nA person leaves a room and runs very fast for 200m. When the person stops running, his breathing rate and his heart rate remain high for several minutes.\n\nExplain why the person’s breathing rate and heart rate remain high.",
+     "solution_md": "The person's breathing rate and heart rate remain high because:\n\nAny **four **from the following:\n\n- Takes time for...; **[1 mark]**\n- ...oxygen debt (to be repaid); **[1 mark]**\n- More oxygen needed; **[1 mark]**\n- Lactic acid / lactate; **[1 mark]**\n- Builds up in muscles / needs to be cleared away; **[1 mark]**\n- Lactic acid is broken down / respired;**[1 mark]**\n\n**[Total: 4 marks]**\n\n> *When lactic acid is broken down in the liver it reacts with oxygen to produce carbon dioxide and water, which can both be easily removed from the body. *"
+    },
+    {
+     "id": "qstnprt_DX5rsxDRSwhKXWVr",
+     "order": 1,
+     "question_type": "structured",
+     "marks": 5,
+     "command_word": "explain",
+     "source_paper": {
+      "date": "2020",
+      "number": "0610/04",
+      "question_number": 2,
+      "question_part": "d"
+     },
+     "spec_point_ids": [
+      "spcpt_GWW9kxYWV9r8WtXr"
+     ],
+     "part_tier": null,
+     "problem_md": "#### Extended Only\n\nThe run results in changes in the skin involving the blood vessels and the sweat glands.\n\nDescribe what happens to the blood vessels and sweat glands during the run.\n\nExplain why these changes happen.",
+     "solution_md": "The changes happen because:\n\nAny **five **from the following:\n\n- As body temperature increases;** [1 mark]**\n- Vasodilation; **[1 mark]**\n- (Relaxation) of arterioles / arteries; **[1 mark]**\n- Increase in supply of blood to skin capillaries; **[1 mark]**\n- (Causes) loss of heat...; **[1 mark]**\n- ...by conduction / convection / radiation; **[1 mark]**\n- Increase in blood flow to sweat glands; **[1 mark]**\n- Increased production of sweat;**[1 mark]**\n- Loss of heat by evaporation; **[1 mark]**\n\n**[Total: 5 marks]**"
     }
    ]
   }

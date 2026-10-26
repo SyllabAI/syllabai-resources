@@ -584,3 +584,784 @@ Therefore, the electrical power output of the turbine is 650 kW
 
 - direction of force = on piston (the gas in the atmosphere exerts force on the surface of the piston) ✓
 - direction of motion = piston moves outwards ✓
+
+## Structured Questions (11 questions)
+
+
+### Q1
+Work done is defined as:
+
+- Force × displacement in the direction of the force; **[1 mark]**
+
+**[Total: 1 mark]**
+
+> *You may see mark schemes allowing 'distance travelled' or 'distance moved' instead of displacement in this definition.*
+
+> *However, the definition above is the one given in your specification, and you should learn it this way.*
+When a heavy bag is pulled across a rough surface:
+
+- Work is done against friction (between the bag and the ground); **[1 mark]**
+- This causes it to get hot / heat up **OR** energy is transferred to (the bag's) thermal energy store / internal energy; **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the rate of work done moving the bag:
+
+List the known quantities:
+
+- Mass of the bag, *m* = 64 kg
+- Time, *t* = 0.1 minutes = 0.1 × 60 = 6 s
+
+Determine the work done against gravity:
+
+![5-1-pythagoras-work-done-ma](assets/018-5-1-pythagoras-work-done-ma.png)
+
+- Vertical height lifted:  $\Delta h = \sqrt{( 2.25 )^{2} - ( 1.25 )^{2}} = 1.871 \mathrm{m}$ **[1 mark]**
+- Work done against gravity (GPE):  $W=mg\Deltah$
+- $W=64\times9.81\times1.871=1175J$ **[1 mark]**
+
+Calculate the rate of work done using the power equation:
+
+- Rate of work done (power):  $P=\frac{E}{t}=\frac{1175}{6}$
+- $P=196=200W$ (2 s.f.) **[1 mark]**
+
+**[Total: 3 marks]**
+
+> *Notice that the question asks for the 'rate of doing work' which is the definition of power, hence the final unit being the watt (W). The units W and J s*<sup>*−1*</sup>* are equivalent, so you can use either.*
+(i) Calculate the power used by the crane's motor to lift the bag in part (c):
+
+List the known quantities:
+
+- Efficiency = 74% = 0.74
+- Useful power = 200 W (from **(c)**)
+
+Calculate the total power used by the motor to lift the bag:
+
+- $efficiency=\frac{usefulpower}{totalpower}\Rightarrowtotalpower=\frac{usefulpower}{efficiency}$
+- $totalpower=\frac{200}{0.74}=270W$ **[1 mark]**
+
+(ii) The difference in efficiency would affect the number of bags the crane can lift because:
+
+**Final answer:** **Any ****three ****from:**
+
+- More energy is needed for the same work done; **[1 mark]**
+- At 80% efficiency, the motor would need 120 J less per bag; **[1 mark]**
+- Total energy difference: 120 J × 400 bags = 48 000 J; **[1 mark]**
+- (This is significant because) this is the equivalent of 44 bags per day; **[1 mark]**
+
+(iii) A change which would increase the efficiency of the motor:
+
+**EITHER**
+
+- Lubricate / oil any moving parts; **[1 mark]**
+- This would reduce (energy) losses due to friction / heat; **[1 mark]**
+
+**OR**
+
+- Tighten / secure / fasten any parts which move / rattle; **[1 mark]**
+- This would reduce (energy) losses due to sound / kinetic energy; **[1 mark]**
+
+**[Total: 6 marks]**
+
+> *In part (ii), the full calculation is as follows:*
+
+- *Energy required per 60 kg bag = **mg**Δ**h** = 60 × 9.81 × 1.871 = 1100 J*
+- *At 74% efficiency, it uses 270 × 6 = 1620 J*
+- *At 80% efficiency, it would use (200/0.80) × 6 = 1500 J*
+- *Energy difference = 1620 − 1500 = 120 J per bag*
+
+- *After lifting 400 bags, this equates to a total energy difference of 120 × 400 = 48 000 J wasted per day*
+- *Which is equivalent to (48 000/1100) ≈ 44 bags per day*
+
+> *This means a motor with 80% efficiency could lift 44 more bags per day than a motor working at 74% efficiency.*
+
+> *In part (iii) you are asked to increase the efficiency of the motor, not the process. Responses to do with changing the height of the loading platform won't affect the running of the motor.*
+
+> *To answer a question like this one, where you probably don't know and are having to infer the answers, first think where energy losses could happen. Mostly concentrate on thermal, kinetic and sound energy. Then think how this would happen, and finally how to address the problem.*
+
+### Q2
+Calculate the minimum power required from the battery:
+
+List the known quantities:
+
+- Mass, *m* = 72.8 kg
+- Weight, *W* = *mg* = 72.8 × 9.81
+- Velocity, *v* = 6.0 m s<sup>−1</sup>
+
+Determine the angle of the slope:
+
+![screenshot-2023-02-27-at-11-02-30](assets/020-screenshot-2023-02-27-at-11-02-30.png)
+
+- The force is the weight acting down the slope
+- The incline is 5%, therefore for each 100 m travelled height increases by 5 m
+- Angle of incline:  $\\theta = \tan ^{- 1} ( \frac{5}{100} ) = 2.86^{\circ}$ **[1 mark]**
+
+Calculate the resistive force *F* due to the bike and cyclist:
+
+- Force parallel to the slope:  $F=W\mathrm{sin}θ$ **[1 mark]**
+- $F = ( 72.8 \times 9.81 ) \times \sin ( 2.86^{\circ} )$
+- $F=35.6N$ **[1 mark]**
+
+Calculate the power required:
+
+- Power:  $P=Fv$ **[1 mark]**
+- $P=35.6\times6.0=213.6$
+- $P=210W$ (2 s.f.)  **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *Since the incline of the slope is 5% you may have instinctively assumed that the angle is 5°.*
+
+> *Be careful of making these quick assumptions. Always sketch diagrams (or annotate the diagram you are provided with) to check **before **you start calculating.*
+List the known quantities:
+
+- Mass, *m* = 72.8 kg
+- Initial velocity, *u* = 6.0 m s<sup>−1</sup>
+- Final velocity, *v* = 0 m s<sup>−1</sup>
+- Time, *t* = 1.6 s
+- Component of weight down slope, $mg\mathrm{sin}θ=35.6N$ (from part (a))
+
+(i) Show that the bicycle travels about 5 m before coming to a stop:
+
+- Frictional force is constant, therefore acceleration is constant
+- SUVAT (missing *a*):  $s = ( \frac{v + u}{2} ) \times t$ **[1 mark]**
+- $s = ( \frac{6.0}{2} ) \times 1.6$
+- $s$ = 4.8 m **[1 mark]**
+
+(ii) Calculate the frictional force which slows down the bicycle:
+
+- SUVAT (missing *t*):  $v^{2}=u^{2}+2as\Rightarrowa=\frac{u^{2}}{2s}$
+- $a=\frac{6.0^{2}}{2\times4.8}$
+- $a$ = 3.75 m s<sup>−2</sup>** [1 mark]**
+
+Use Newton's second law to find force:
+
+- Frictional force:  $F=ma-mg\mathrm{sin}θ$ **[1 mark]**
+- $F$ = (72.8 × 3.75) - 35.6
+- $F$ = 237.4 = 240 N (2 s.f.) **[1 mark]**
+
+**[Total: 5 marks]**
+List the known quantities:
+
+- Length of hill = 35 m
+- Angle of inclination = 2.86° (from **(a)**)
+- Mass of cyclist, *m* = 72.8 kg
+- Velocity at bottom of hill, *v* = 8.8 m s<sup>−1</sup>
+
+(i) Calculate the energy the cyclist has at the top of the hill:
+
+- Change in height:  $\Deltah=35\mathrm{sin}(2.86)=1.75m$ **[1 mark]**
+- Gravitational potential energy:  $\DeltaE_{p}=mg\Deltah$
+- $\DeltaE_{p}=72.8\times9.81\times1.75$
+- $\DeltaE_{p}=1250J$ **[1 mark]**
+
+(ii) Calculate the energy the cyclist has at the bottom of the hill:
+
+- Kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}$
+- $E_{k}=\frac{1}{2}\times72.8\times8.8^{2}$ **[1 mark]**
+- $E_{k}=2819J$ **[1 mark]**
+
+(iii) Compare the two values you have calculated and suggest a reason for the difference:
+
+*Comparison:*
+
+- Energy has increased (between the top and bottom of the hill); **[1 mark]**
+
+*Suggested reason:*
+
+**Final answer:** **Any ****two**** from:**
+
+- Work has been done on the bicycle <u>in addition to the weight / gravity</u> in the direction of motion; **[1 mark]**
+- Force has been applied to the bicycle; **[1 mark]**
+- The person must have been pedaling **[1 mark]**
+
+**[Total: 7 marks]**
+
+### Q3
+Calculate the component of the weight of the block which acts parallel to the slope:
+
+Draw a vector triangle to identify the correct component:
+
+![work done block on slope MA](assets/022-work-done-block-on-slope-ma.png)
+
+Calculate for the component of weight parallel to slope:
+
+- $W_{slope}=W\mathrm{sin}30=4.25\times\mathrm{sin}30$** [1 mark]**
+- $W_{s l o p e} = 2.1 \mathrm{N} ( 2 \mathrm{s} . \mathrm{f} . )$ ** [1 mark]**
+
+**[Total: 2 marks]**
+Calculate the work done in displacing the block 6.0 m up the slope:
+
+Use the equation for work done:
+
+- $W=Fs$ where *F* = force in the direction of the displacement
+- $W=2.1\times6.0$ **[1 mark]**
+- $W=13J\mathrm{or}12.6J$ **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the power needed to move the block in this amount of time:
+
+Use the equation for power:
+
+- $P=\frac{W}{t}=\frac{13}{18}\mathrm{or}\frac{12.6}{18}$**[1 mark]**
+- $P = 0.72 \mathrm{W} \text{or} 0.70 \mathrm{W} ( 2 \mathrm{s} . \mathrm{f} . )$ **[1 mark]**
+
+**[Total: 2 marks]**
+
+> *Notice that to quote 0.7 to 2 significant figures you need to include the final zero.*
+
+### Q4
+State the principle of conservation of energy:
+
+- Energy cannot be created or destroyed; **[1 mark]**
+- It can only be transferred from one store to another; **[1 mark]**
+
+**[Total: 2 marks]**
+Explain whether the student is correct, giving your reason:
+
+- The student is not correct;** [1 mark]**
+- (Conservation of energy means the) energy in a <u>closed system</u> remains constant;** [1 mark]**
+- Heating ice is <u>not closed</u> / <u>energy escapes</u> (from the system / from the heater / through convection / conduction);** [1 mark]**
+
+**[Total: 3 marks]**
+
+### Q5
+To calculate the power of the turbine:
+
+List the known quantities:
+
+- Blade length,* r* = 50 m
+- Wind speed, *v* = 15 m s<sup>–1</sup>
+- Density of air, $ρ$= 1.2 kg m<sup>–3</sup>
+
+Determine an equation for the power of one turbine:
+
+- Power, *P* =$\frac{Energy}{time}$
+- The type of energy that the turbine converts is the <u>kinetic energy</u>,$E_{k}$
+- *P* =$\frac{E_{k}}{t}$ **[1 mark]**
+
+  - Power is the kinetic energy <u>per second</u>
+
+Determine an equation for the kinetic energy per unit volume of air transferred from the wind to the turbine:
+
+- Kinetic energy for a certain mass, $E_{k}$= $\frac{1}{2}$*mv*<sup>*2*</sup>
+- Density, *ρ* =$\frac{m}{V}$ therefore, *m* = *ρV*
+- Kinetic energy per unit volume of air from the wind, $E_{k}$=  $\frac{1}{2}$ *ρv*<sup>*2 *</sup>**[1 mark]**
+
+Determine an equation for the kinetic energy for the volume of air the turbine sweeps through in one second:
+
+- The volume can be modelled as a cylinder of air passing through the turbine each second, with the turbines sweeping out an area *A* and wind speed *v*
+- Therefore, *V* = *vA*
+- Kinetic energy per second,$E_{k}$= $\frac{1}{2}$ *ρv*<sup>*2*</sup>* × vA* = $\frac{1}{2}$ *ρv*<sup>3</sup>*A  ***[1 mark]**
+
+Calculate the area swept by the blade, *A *in one second and use this to determine the power:
+
+- The shape of the area that the blades sweep out is a circle
+- *A* =$\mathrm{πr}^{2}$ where *r* is the blade length
+- Therefore*, P* = $E_{k}$= $\frac{1}{2}$ *ρv*<sup>3</sup>π*r*<sup>2</sup>
+- *P* = $\frac{1}{2}$ × 1.2 × (15)<sup>3</sup> × π × (50)<sup>2 </sup>**[1 mark]**
+- *P *= 15.904 × 10<sup>6</sup> W = 16 MW **[1 mark]**** **
+
+**[Total: 5 marks]**** **
+
+> *The key point to understand in this question is that the power is the kinetic energy **per second**. In other words, if we calculate the kinetic energy for 1 second, this is equal to the power. *
+
+> *Calculating the volume of air that the blades sweep through can be difficult to visualise. The volume of a cylinder **V** = **A** × *$l$* where **A** is the cross–sectional area (the circle =*$\mathrm{πr}^{2}$* ) and *$l$* **is the longer side of the cylinder. In this case, we are calculating the volume **per second**, therefore we can use the speed **v **for this side instead of *$l$*. *
+
+> *This may be clearer through looking at the units. **A** has units m*<sup>*2*</sup>* and **v** units m s*<sup>*–1*</sup>* therefore **V** has the units m*<sup>*3*</sup>* s*<sup>*–1*</sup>* i.e. the volume per second.*
+
+![4-6-s-q--q1a-ma-hard-aqa-a-level-physics](assets/025-4-6-s-q-q1a-ma-hard-aqa-a-level-physics.png)
+List the known quantities:
+
+- Power of wind turbine, *P*<sub>*W*</sub> = 16 MW = 16 × 10<sup>6</sup> W (from part a)
+- Energy use per year per factory, *E*<sub>*F*</sub> =14 100 kWh = 14.1×10<sup>3</sup> kWh
+- Time = 1 year = 365 days
+
+Calculate the total energy produced by one wind turbine in one year, *E*<sub>*W*</sub>:
+
+- When the wind blows at 15 ms<sup>-1</sup>, *P*<sub>*W*</sub> = 16 × 10<sup>6</sup> W
+- Which is 16 × 10<sup>6</sup> J s<sup>−1</sup>
+- In one year, the turbine operates for 60 × 60 × 24 × 365 = 3.15 × 10<sup>7</sup> s **[1 mark]**
+- Therefore the energy it generates in one year is
+
+  - *E*<sub>*W *</sub>= (16 × 10<sup>6</sup> J s<sup>−1</sup>) × (3.15 × 10<sup>7</sup> s) = 5.04 × 10<sup>14</sup> J** [1 mark]**
+
+Convert the energy required per factory in one year to J:
+
+- Energy required per factory, *E*<sub>*F*</sub> = 14 100 kWh = 14.1 × 10<sup>6</sup> Wh
+- Convert Wh to Ws
+
+  - (14.1 × 10<sup>6</sup>) × (60 × 60) = 5.076 × 10<sup>10 </sup>Ws
+- $P=\frac{E}{t}$ therefore, $E=Pt$
+
+  - Therefore, 1 J = 1 Ws
+  - Hence, *E*<sub>*F *</sub>= 5.076 × 10<sup>10 </sup>Ws = 5.076 × 10<sup>10 </sup>J **[1 mark]**
+
+Calculate the number of factories that can be powered by the wind turbine, *N*:
+
+- Number of factories = $\frac{\mathrm{Energy} \mathrm{generated} \mathrm{by} \mathrm{one} \mathrm{wind} \mathrm{turbine} \mathrm{in} \mathrm{one} \mathrm{year}}{\mathrm{Energy} \mathrm{required} \mathrm{by} \mathrm{one} \mathrm{factory} \mathrm{in} \mathrm{one} \mathrm{year}}$
+- *N *=$\frac{E_{W}}{E_{F}}$ = $\frac{5.04\times10^{14}}{5.076\times10^{10}}$ = 9900 (2 s.f.) **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *You may think that it is not possible for one wind turbine to power 9900 factories for a year but actually these turbines are much bigger than current turbines and offshore the wind is blowing more quickly meaning more power is generated. The radius of the wind turbine is 50 m, this is the length of an Olympic sized swimming pool. *
+
+> *Don’t be put off by the unit ‘kWh’ (kilo–watt hour). This is just a unit of energy equal to 1 kW (1000 W) of power sustained for 1 hour.*
+
+> *If you correctly used a power of 15.9 MW from part (a), you also would have gained an answer that rounds to 9900 and full marks. The final answer is given to 2 s.f. because the input values from part (a) were to 2 s.f.*
+List the known quantities:
+
+- Power output from turbine, *P* = 16 MW = 16 × 10<sup>6</sup> W (from part a)
+- Betz limit = 59.3 %
+
+Calculate the coefficient of power, $C_{p}$:
+
+- 0.70 × 59.3 % = 41.51 % **[1 mark]**
+
+Calculate revised power output:
+
+- Power output =$C_{p}$ × *P* = 0.4151 × (16 × 10<sup>6</sup>) = 6.6 MW **[1 mark]**** **
+
+**[Total: 2 marks]**** **
+
+> *The Betz limit seems like a very low value of energy conservation. Since wind turbines work by slowing down passing wind, if a wind turbine was 100% efficient, then all of the wind would have to stop completely upon contact with the turbine. We know this is not the case because the wind then travels behind it. *
+
+> *In order to stop the wind completely, the air wouldn't move out of the way to the back of the turbine, which would prevent further air from coming in, causing the turbine to stop spinning. However, it would not be generating electricity if it stopped spinning! Other facts such as friction between the parts will also reduce efficiency.*
+
+### Q6
+Plan an investigation to determine the kinetic energy of the car at a point on the ramp:
+
+(i) The additional equipment and the method to be used are:
+
+**Final answer:** **Any ****three ****from:**
+
+- Mark a starting point (so that all readings are taken from the same position); **[1 mark]**
+- Release the trolley from rest each time; **[1 mark] **
+- Add an interrupt card on the trolley; **[1 mark]**
+- Set up a light gate (and timer /** **data logger) at least halfway down the ramp **OR** use a video camera; **[1 mark]**
+- Repeat the experiment at least three times; **[1 mark] **
+
+(ii) The measurements to be taken and the measuring instruments to be used are:
+
+**Final answer:** **Any ****two ****from:**
+
+- Measure time using timer **OR **light gates and data logger **OR **from video camera; **[1 mark]**
+- Measure distance / ramp length using meter rule **OR **tape measure; **[1 mark]**
+- Measure the width of the interrupt card using 30 cm ruler **OR** vernier callipers; **[1 mark]**
+- Measure the mass of the trolley using digital balance / scales; **[1 mark]**
+
+(iii) Explain how the data will be analysed:
+
+- Determine <u>average</u> velocity from $v=\frac{distance}{averagetime}$ **[1 mark]**
+- Calculate kinetic energy using $E_{k}=\frac{1}{2}mv^{2}$ **[1 mark]**
+
+**[Total: 7 marks]**
+(i) Add the labels **GPE** for gravitational potential energy and **KE** for kinetic energy:
+
+- Line **A** labelled **GPE**;** [1 mark]**
+- Line **B** labelled **KE**; **[1 mark]**
+
+(ii) Line **A** is linear and line **B** is not because:
+
+- GPE is directly proportional to height (and therefore distance on a straight ramp); **[1 mark]**
+- Not <u>all</u> GPE is transferred to KE **AND **<u>friction</u> causes some transfer to <u>heat / thermal</u>; **[1 mark]**
+
+**[Total: 4 marks]**
+Use the graph in Fig. 1.2. to estimate the energy transferred to thermal energy:
+
+![5-2-ke-gpe-graph-ma](assets/028-5-2-ke-gpe-graph-ma.png)
+
+- (From the graph): max GPE = 0.50 J **AND **max KE = 0.36 J **[1 mark]**
+- Energy transferred = 0.50 − 0.36 = 0.14 J **[1 mark]**
+
+**[Total: 2 marks]**
+Determine the average resistive force acting on the toy car:
+
+List the known quantities:
+
+- Work done = 0.14 J (from **(c)**)
+- (From the graph): distance travelled = 0.9 m
+
+Use the equation for work done to find the force:
+
+- $work=F\timesd$ **[1 mark]**
+- $F=\frac{W}{d}=\frac{0.14}{0.9}$ **[1 mark]**
+- $F=0.16N$ **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q7
+List the known quantities:
+
+- Total mass of the cyclist and bicycle, *m* = 80 + 12 = 92 kg
+- Change in height, Δ*h* = 20 m
+- Final velocity, *v* = 12 m s<sup>−1</sup>
+- Gravitational field strength, *g* = 9.81 m s<sup>−2</sup>
+
+(i) Calculate the change in gravitational potential energy:
+
+- Gravitational potential energy:  $\DeltaE_{p}=mg\Deltah$
+- $\DeltaE_{p}=92\times9.81\times20$ **[1 mark]**
+- $\Delta E_{p} = 18 050 = 18 000 \mathrm{J} ( 2 \mathrm{s} . \mathrm{f} . )$** [1 mark]**
+
+(ii) Calculate the gain in kinetic energy:
+
+- Kinetic energy:  $E_{k}=\frac{1}{2}mv^{2}$
+- $E_{k}=\frac{1}{2}\times92\times12^{2}$ **[1 mark]**
+- $E_{k}$ = 6624 = 6600 J (2 s.f.) **[1 mark]**
+
+**[Total: 4 marks]**
+(i) The main resistive forces to the motion are:
+
+- Air resistance **AND **friction between <u>tyres / wheels / bicycle</u> and the <u>road</u>; **[1 mark]**
+
+(ii) Calculate the work done against these forces during the descent:
+
+- Work done = Initial GPE − final KE
+- Work done = 18 000 − 6600 = 11 400 J **[1 mark]**
+
+**[Total: 2 marks]**
+Calculate the average resistive force on the cyclist during the descent:
+
+List the known quantities:
+
+- Work done, *W* = 11 400 J (from **(b)**)
+- Distance travelled, *s* = 650 m
+
+Use the equation relating work done to force and distance:
+
+- Average resistive force:  $W=F\timess\RightarrowF=\frac{W}{s}$
+- $F=\frac{11400}{650}$ **[1 mark]**
+- $F$ = 17.538 = 18 N (2 s.f.) **[1 mark]**
+
+**[Total: 2 marks]**
+Deduce whether the claim that the new tyres *'increase efficiency by 30% compared to your old tyres' *is correct or incorrect:
+
+List the known quantities:
+
+- KE with old tyres = 6600 J
+- Change in GPE = 18 000 J
+- Top speed with new tyres, *v*<sub>*new*</sub> = 14 m s<sup>−1</sup>
+
+Determine the efficiency of the old and new tyres:
+
+- Efficiency = $\frac{usefulenergyout}{totalenergyin}$ **[1 mark]**
+- In this case, the useful energy is the final kinetic energy, and the total energy is the initial GPE
+- Efficiency = $\frac{finalKE}{initialGPE}$ **[1 mark]**
+- Efficiency of old tyres = $\frac{6600}{18000}=0.367$
+- Efficiency of new tyres = $\frac{\frac{1}{2}\times92\times14^{2}}{18000}=0.501$
+
+Determine the % increase in efficiency:
+
+- Ratio of efficiencies:  $\frac{eff_{new}}{eff_{old}}=\frac{0.501}{0.367}=1.37$ **OR** $\frac{eff_{old}}{eff_{new}}=0.73$ **[1 mark]**
+- % increase = 1.37 = 37% **OR** (100 − 73)% = 37%
+- % increase = 37% **[1 mark]**
+
+Write a concluding sentence:
+
+- The claim of a 30% increase is correct as the new tyres lead to a 37% increase in efficiency (compared to the old tyres); **[1 mark]**
+
+**[Total: 5 marks]**
+
+> *Note that a 30 % increase does not mean adding 30 % to the original number, it means increasing the original number by 30 % of itself. *
+
+> *To make this question a lot easier, you can use the fact that efficiency is directly proportional to the kinetic energy gained, as this is the sole useful energy output we are interested in. As a result, you can simply plug in the squares of the velocities to get a ratio which is exactly the same as the ratio of the efficiencies, but you don't have to go to the trouble of calculating the new KE or old and new efficiencies. A much more efficient approach!*
+
+- *The initial GPE and the mass of the cyclist stay the same, so: *$efficiency\proptofinalKE\proptov^{2}$* *
+- *% increase = *$( \frac{e f f_{n e w} }{e f f_{o l d} } - 1 )$* **OR** *$( \frac{K E_{n e w} }{K E_{o l d} } - 1 )$* **OR** *`( v _ n e w end _ ^2 / v _ o l d end _ ^2 - 1 )`* *
+- *% increase = *$( \frac{14^{2}}{12^{2}} - 1 ) \times 100 \% = 36 \%$* *
+
+### Q8
+Calculate the work done against gravity when the glider travels through point **B**:
+
+List the known quantities:
+
+- Mass of the glider and passengers, *m* = 350 kg
+- Displacement, *s* = 2.5 m
+- Angle, *θ* = 30°
+
+Calculate the vertical displacement:
+
+- $Δh=2.5\times\mathrm{sin}30^{\circ}=1.25m$
+
+Calculate the work done in the direction of motion:
+
+- $W=FΔh=mg\times1.25$ **[1 mark]**
+- $W=350\times9.81\times1.25$ **[1 mark]**
+- *W* = 4288 = 4300 J (2 s.f.) **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Calculate the maximum possible height above **A**:
+
+List the known quantities:
+
+- Mass of the passengers and glider, *m* = 350 kg
+- Maximum speed of glider, *v* = 30 m s<sup>−1</sup>
+
+Equate the equations for kinetic energy and GPE:
+
+- $E_{k}=\frac{1}{2}mv^{2}$ and $\DeltaE_{p}=mg\Deltah$
+- Equate and rearrange:  $\frac{1}{2}mv^{2}=mg\Deltah\Rightarrow\Deltah=\frac{v^{2}}{2g}$  **[1 mark]**
+- $\Deltah=\frac{30^{2}}{2\times9.81}$ **[1 mark]**
+- $\Deltah$ = 45.87 = 46 m (2 s.f.) **[1 mark]**
+
+(ii) The ride is built to 28 m instead of 46 m because:
+
+**Final answer:** **Any ****one**** from:**
+
+- To reach 46 m, all of the kinetic energy would need to be transferred to GPE; **[1 mark]**
+- This would require there to be no energy loss (between **A** and **C**), which is not possible; **[1 mark]**
+- Energy losses will occur due to sound and heat from friction / drag forces; **[1 mark]**
+
+**[Total: 4 marks]**
+Determine the efficiency of the ride:
+
+List the known quantities:
+
+- Mass of the glider and passengers, *m* = 350 kg
+- Final speed, *v* = 22 m s<sup>−1</sup>
+- Height of ride, Δ*h* = 28 m
+
+Determine the GPE of the glider at **C**:
+
+- $\DeltaE_{p}=mg\Deltah=350\times9.81\times28$ **[1 mark]**
+- GPE at **C** = 96 138 J
+
+Determine the KE of the glider at **D**:
+
+- $E_{k}=\frac{1}{2}mv^{2}=\frac{1}{2}\times350\times22^{2}$ **[1 mark]**
+- KE at **D** = 84 700 J
+
+Calculate the efficiency of the ride:
+
+- Efficiency = $\frac{u s e f u l e n e r g y o u t }{t o t a l e n e r g y i n} \times 100 \%$
+- Efficiency = $\frac{84 700}{96 138} \times 100 \%$
+- Efficiency = 88 % **[1 mark]**
+
+**[Total: 3 marks]**
+Calculate the decelerating force on the glider from the water:
+
+List the known quantities:
+
+- Initial velocity, *u* = 22 m s<sup>−1</sup>
+- Final velocity, *v* = 0 m s<sup>−1</sup>
+- Distance, *s* = 8.5 m
+
+Calculate the deceleration:
+
+- SUVAT (missing *t*):  $v^{2}=u^{2}+2as\Rightarrowa=\frac{u^{2}}{2s}$
+- $a=\frac{22^{2}}{2\times8.5}$
+- $a$ = 28.47 = 28 m s<sup>−2</sup> **[1 mark]**
+
+Use Newton's second law to find the decelerating force:
+
+- $F=ma$
+- $F=350\times28=9800N$ **[1 mark]**
+
+State any assumptions:
+
+- The decelerating force / acceleration is constant (so SUVAT equations can be used); **[1 mark]**
+
+**[Total: 3 marks]**
+
+### Q9
+List the known quantities:
+
+- Speed, *v* = 5.0 m s<sup>–1</sup>
+- Mass, *m* = 70 kg
+- Distance, *s* = 27 m for every 2.0 m gained in height
+
+![4-6-s-q--q2a-ma-hard-aqa-a-level-physics](assets/030-4-6-s-q-q2a-ma-hard-aqa-a-level-physics.png)
+
+Determine an equation for the force on the cyclist, *F*:
+
+- The only force on the cyclist is their weight pulling them down the slope
+- *F* = *W* sin*θ *= *mg* sin*θ*
+
+  - *W* is the weight of the rider and bicycle
+
+Calculate sin*θ*:
+
+- sin*θ* = $\frac{opposite}{hypotenuse}$= $\frac{2.0}{27}$ **[1 mark]**
+
+Substitute in values to calculate the force, *F*:
+
+- *F* = 70 × 9.81 ×$\frac{2.0}{27}$ = 50.87 N **[1 mark]**
+
+Calculate the power, *P*:
+
+- *P* = *Fv* = 50.87 × 5.0 = 254.35 = 250 W (2 s. f.) **[1 mark]**** **
+
+**[Total: 3 marks]**** **
+
+> *The power is developed by the cyclist as it moves against the resistive force of gravity. In other words, the cyclist must do work **against** the force of gravity to travel up the incline (this is sometimes known as ‘negative’ work). The force is the **component** of the weight that acts **along** the incline, since **P** = **Fv** is derived from **W** = **Fs** where **W** is the work done, **F** is the force and **s** is the distance moved in the direction of the force. *
+
+> *P** = **Fv** is very commonly misused. It can only be used if the object is moving at **constant** velocity (which is the case in this question) and the force must be in the direction **parallel** to the distance moved. Therefore, the most common way students lose marks in this question is by not resolving components of the weight.*
+
+> *You could also have gotten to the same answer by using the work done against the gravitational force (weight) per unit time. This method would also gain full marks.*
+List the known quantities:
+
+- Speed, *v* = 5.0 m s<sup>–1</sup>
+- Mass, *m* = 70 kg
+- Angle of incline, *θ* = 6.5º
+
+Write an equation with power *P* and work done *W*:
+
+- The work done by cyclist equals their gravitational potential energy gained
+- $\DeltaE_{p}=mg\Deltah$
+- Power, *P* =$\frac{W}{t}$ =$\frac{mg\Deltah}{t}$
+
+Calculate height, *h*:
+
+- Sin*θ *= $\frac{opposite}{hypotenuse}$=$\frac{\Deltah}{5.0}$
+- Δ*h* = 5.0 sin*θ* = 5.0 sin(6.5) **[1 mark]**
+
+Substitute in the values:
+
+- Since power is the change in energy per unit **time**, we can substitute time as 1 second
+- *P* = $\frac{70 \times 9.81 \times 5.0 \times \sin ( 6.5 )}{1}$= 390 W **[1 mark]**
+
+Discussion:
+
+- The power output on the steeper incline is <u>higher</u>; **[1 mark]**
+- This is because the cyclist has to do more <u>work</u> against gravity; **[1 mark]**** **
+
+**[Total: 4 marks]**
+
+> *This question might look a little confusing as to why we would use the distance of the hypotenuse in m s*<sup>*–1*</sup>* (the velocity). This is because we want the unit of power to be in J s*<sup>*–1*</sup>* (W) or N m s*<sup>*–1*</sup>*, which means we don’t just want the distance but the distance **each second**. This might make more sense when looking at the units: *
+
+> *P **= *$\frac{mg\Deltah}{t}$* = *$\frac{[ k g ] [ N k g^{- 1} ] [ m ]}{s}$*=*$\frac{[ N ] [ m ]}{[ s ]}$
+
+> *Therefore, *$\frac{m}{s}$* or m s*<sup>*–1*</sup>* must come from the velocity (which has units m s*<sup>*–1*</sup>*)*
+
+> *Since the angle of incline has now changed for this question, make sure **not** to use the value of Δ**h** given in part (a), since this has now changed!*
+
+![4-6-s-q--q2b-ma-hard-aqa-a-level-physics](assets/031-4-6-s-q-q2b-ma-hard-aqa-a-level-physics.png)
+List the known quantities:
+
+- Speed, *v* = 5.0 m s<sup>–1</sup>
+- Mass, *m* = 70 kg
+- Angle of incline, *θ* = 6.5º
+
+Determine the energy transfers:
+
+- The initial kinetic energy of the cyclist is transferred to the gain in gravitational potential energy
+
+Calculate the initial kinetic energy, $E_{k}$:
+
+- $E_{k}$=$\frac{1}{2}$*mv*<sup>*2*</sup> = $\frac{1}{2}$× 70 × (5.0)<sup>2</sup> = 875 J
+- Therefore, the gain in GPE, $\DeltaE_{p}$ is also 875 J; **[1 mark]**
+
+Calculate the height the cyclist has travelled, *h*:
+
+- $\DeltaE_{p}=mg\Deltah$
+- $\Deltah=\frac{\DeltaE_{p}}{mg}$ = $\frac{875}{70\times9.81}$= 1.27 m **[1 mark]**
+
+Calculate displacement, *s*:
+
+![4-6-s-q--q2c-ma-hard-aqa-a-level-physics](assets/032-4-6-s-q-q2c-ma-hard-aqa-a-level-physics.png)
+
+- sin*θ *=$\frac{opposite}{hypotenuse}$ =$\frac{h}{s}$
+- *s* =$\frac{h}{sinθ}$ =$\frac{1.27}{s i n ( 6.5 )}$ = 11 m **[1 mark]**** **
+
+**[Total: 3 marks]**
+
+### Q10
+State the definition of work done and write the equation.:
+
+- The energy needed to <u>displace</u> an object by an <u>external force</u> applied in the <u>direction of its displacement</u>;** [1 mark]**
+- $W=Fs$;** [1 mark]**
+
+**[Total: 2 marks]**
+Write an equation which would be used to calculate the work done on the suitcase by the adult:
+
+- Work done on an incline: $W=Fs\mathrm{cos}θ$ **[1 mark]**
+- Where $F\mathrm{cos}θ$ = the component of the force (in the direction of the motion) and $s$ = horizontal displacement
+- $W=Fs\mathrm{cos}70$ ** [1 mark]**
+
+**[Total: 2 marks]**
+(i) Calculate the work done by the child:
+
+Substitute the values and calculate:
+
+- $W=20\times2.5$ **[1 mark]**
+- $W=50J$ **[1 mark]**
+
+(ii) Calculate the work done by the adult:
+
+- $W = ( 20 \times \cos 70 ) \times 2.5$ **[1 mark]**
+- $W=17J$ **[1 mark]**
+
+**[Total: 4 marks]**
+
+> *You must have correct values **and **units to get the two 'final answer' marks.*
+State whether the child or the adult is more efficient at moving the suitcase, explaining your reasoning:
+
+- The child is more efficient: **[1 mark]**
+
+- They exert the same force over the same distance with the same energy input; **[1 mark]**
+
+- The child pushes horizontally over a smooth floor, so all the 50 J is useful energy output; however, the adult pulls at an angle so only 17 J is useful energy output;** [1 mark]**
+
+**[Total: 3 marks]**
+
+> **[exam-tip]**
+> $\mathrm{Efficiency}=\frac{\mathrm{useful} \mathrm{energy} \mathrm{output}}{\mathrm{total} \mathrm{energy} \mathrm{input}}$
+> 
+> Both exert 20 N over 2.5 m = 50 J total input each.
+> 
+> The child pushes horizontally on a smooth floor, so all 50 J is useful (efficiency = 100%). The adult pulls at 70°, so only F cos70 × s = 17 J is useful horizontal work (efficiency = 17/50 = 34%).
+> 
+> Therefore, the child is more efficient.
+
+### Q11
+Power is defined as:
+
+- The work done per unit time **AND**
+- (The unit of power is) watts / W; **[1 mark]**
+
+**[Total: 1 mark]**
+Calculate the average wind speed at Hornsea Two:
+
+List the known quantities:
+
+- Power output of turbine, *P* = 8 MW = 8 × 10<sup>6</sup> W
+- Density of air, *ρ* = 1.225 kg m<sup>−3</sup>
+- Length of blades, *r* = 81 m
+
+Determine the circular area swept out by the blades:
+
+- $A=πr^{2}=π\times81^{2}=20612$
+- Area, *A* = 20 600 m<sup>2</sup> **[1 mark]**
+
+Use the equation given in the question:
+
+- $P=\frac{1}{2}ρAv^{3}$
+
+Rearrange and substitute:
+
+- $v = \sqrt[3]{ \frac{2 P}{\\rho A} }$
+- $v = \sqrt[3]{ \frac{2 \times ( 8 \times 10^{6} )}{1.225 \times 20 600} }$ **[1 mark]**
+
+State the answer to two sig figs and include the unit:
+
+- $v=8.59=8.6ms^{-1}(2s.f.)$ **[1 mark]**
+
+**[Total: 3 marks]**
+(i) Calculate the energy from the wind to achieve the desired power output:
+
+- Total power output = 1.4 GW = 1.4 × 10<sup>9</sup> W
+- Efficiency of the turbines = 40% = 0.4
+
+Use the efficiency equation:
+
+- $efficiency=\frac{poweroutput}{powerinput}$
+- Power input = $\frac{1.4\times10^{9}}{0.4}$ **[1 mark]**
+- Power input = energy transferred each second = 3.5 × 10<sup>9</sup> J s<sup>−1</sup> **[1 mark]**
+
+(ii) It is impossible to transfer all the energy available from the wind because:
+
+- The wind's energy is in the form of <u>kinetic</u> energy; **[1 mark]**
+- Transferring all the kinetic energy would mean the wind would stop moving; **[1 mark]**
+- (Hence) the blades would stop moving; **[1 mark]**
+
+**[Total: 5 marks]**

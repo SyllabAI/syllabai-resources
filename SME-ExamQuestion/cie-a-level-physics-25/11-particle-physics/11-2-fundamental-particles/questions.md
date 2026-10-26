@@ -1,6 +1,6 @@
 # Exam Questions — Fundamental Particles
 **11. Particle Physics** · Cambridge (CIE) A-LEVEL physics (9702)
-> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 22 questions across 1 sets
+> Source: [https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/](https://www.savemyexams.com/a-level/physics/cie/25/topic-questions/) · 29 questions across 2 sets
 
 
 ## Multiple Choice Questions (22 questions)
@@ -190,3 +190,185 @@ Which elementary particle is a lepton ?
 **Q22** [1 mark]
 
 Light is made up of which type of elementary particle?
+
+## Structured Questions (7 questions)
+
+
+### Q1 — medium — 3 marks
+
+**Q1** [3 marks]
+
+State the quark composition of:
+
+(i) a proton
+
+[1]
+
+(ii) a neutron
+
+[1]
+
+(iii) an alpha-particle.
+
+[1]
+
+### Q2 — easy — 12 marks
+
+**Q2** [2 marks]
+
+State the particles that form a meson.
+
+**Q2** [3 marks]
+
+A student proposes an undiscovered baryon with the following structure:
+
+$\text{tt} \vec{b}$
+
+State whether it is possible for this baryon to exist.
+
+Explain your answer.
+
+**Q2** [3 marks]
+
+Describe the changes to a proton's quark composition when it undergoes beta plus decay.
+
+**Q2** [4 marks]
+
+Show that an anti-proton has a relative charge of −*e*, where *e*  is the elementary charge, using its quark composition.
+
+### Q3 — medium — 7 marks
+
+**Q3** [1 mark]
+
+State the number of 'up' quarks in the nucleus of `Al presubscript 13 presuperscript 27`.
+
+**Q3** [2 marks]
+
+The $D$ particle has a quark structure $u\overline{c}$ .
+
+Determine
+
+(i) the classification of the $D$ particle,
+
+[1]
+
+(ii) the charge on the $D$ particle.
+
+[1]
+
+**Q3** [1 mark]
+
+Using the quark model, show that the magnitude of the charge of a proton is equal to the charge of an electron.
+
+**Q3** [3 marks]
+
+Using the quark model for β<sup>+</sup> decay, show that charge is conserved in this decay.
+
+### Q4 — easy — 10 marks
+
+**Q4** [3 marks]
+
+A student is listing the flavours of quarks they can recall from memory. Their list is below:
+
+- Bottom
+- Strange
+- Down
+
+Name the flavours of quarks missing from their list.
+
+**Q4** [4 marks]
+
+Complete Table 1.1 below. The right hand column is in units of the elementary charge, *e*.
+
+**Table 1.1**
+
+| **Quark Flavour** | **Charge / *****e*** |
+|---|---|
+| Strange |   |
+| Charm |   |
+| Down |   |
+| Top |   |
+
+**Q4** [2 marks]
+
+Explain why a proton is not a fundamental particle.
+
+**Q4** [1 mark]
+
+Describe the difference between quarks and antiquarks.
+
+### Q5 — medium — 10 marks
+
+**Q5** [4 marks]
+
+Carbon–10 `( C _ 6 ^ 10 )` is an isotope that decays to an isotope of boron (symbol $B$) by the emission of a β<sup>+</sup> particle.
+
+(i) Complete the nuclear equation for this decay, including the proton and nucleon numbers of all the particles involved.
+
+`C _ 6 ^ 10 ->`
+
+[3]
+
+(ii) During the decay, a quark in the carbon-10 nucleus changes into a different type.
+
+State the change of quark that occurs.
+
+[1]
+
+**Q5** [2 marks]
+
+**Extract:**
+
+Carbon–10 (_{6}^{10}C) is an isotope that decays to an isotope of boron (symbol B) by the emission of a β^+ particle.
+
+State the two leptons in this decay.
+
+**Q5** [3 marks]
+
+State and explain why a hadron with charge –3*e *cannot exist.
+
+*e* is the elementary charge.
+
+**Q5** [1 mark]
+
+State the possible quark combination for a hadron of charge +2*e*.
+
+### Q6 — medium — 8 marks
+
+**Q6** [2 marks]
+
+State the quark composition of an alpha particle.
+
+**Q6** [2 marks]
+
+Use the quark model to show that the charge on the anti-neutron is 0.
+
+**Q6** [3 marks]
+
+A sigma baryon Σ is a hadron that consists of an up (u) quark, a down (d) quark and a strange (s) quark.
+
+State the quark composition of Σ<sup>+</sup> , Σ<sup>0</sup> and Σ<sup>–</sup> .
+
+**Q6** [1 mark]
+
+Explain why a baryon with the quark composition $u\overline{d}s$ cannot exist.
+
+### Q7 — medium — 3 marks
+
+**Q7** [1 mark]
+
+State the quark composition of a meson.
+
+*Source: Specimen 2022 Paper 2 Q7C*
+
+
+**Q7** [2 marks]
+
+A hadron consists of two down quarks and a charm quark.
+
+Determine the charge of the hadron. Show your working.
+
+charge = ..................................... C
+
+*Source: Specimen 2022 Paper 2 Q7D*
+

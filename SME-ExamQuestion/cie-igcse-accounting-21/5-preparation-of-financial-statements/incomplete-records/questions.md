@@ -1,6 +1,6 @@
 # Exam Questions — Incomplete Records
 **5. Preparation of Financial Statements** · Cambridge (CIE) IGCSE accounting (0452 & 0985)
-> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 14 questions across 1 sets
+> Source: [https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/](https://www.savemyexams.com/igcse/accounting/cie/21/topic-questions/) · 16 questions across 2 sets
 
 
 ## Multiple Choice Questions (14 questions)
@@ -177,3 +177,104 @@ Which transactions caused this?
 A trader does not keep a full set of accounting records.
 
 How can he calculate the profit for the year?
+
+## Structured Questions (3 questions)
+
+
+### Q1 — medium — 20 marks
+
+**Q1** [9 marks]
+
+Lionel started trading on 1 July 2022. He paid \$15 000 of his own personal money into the business bank account. He did not keep full accounting records but has supplied the following information at 30 June 2023.
+
+1. Cash sales of \$90 000 were made and paid into the bank. No other money was received. Lionel marks up his goods by 50%.
+2. Payments from the bank:
+
+|   | \$ |
+|---|---|
+| Purchase of motor vehicle (van) | 8000 |
+| Payments to credit suppliers | 55 000 |
+| Wages | 8 060 |
+| General expenses | 1 140 |
+| Rent and insurance | 5 585 |
+| Motor expenses | 4 992 |
+| Cash drawn from bank | 14 600 |
+
+3. Purchases returns amounted to \$3000.
+4. Inventory at 30 June 2023 was valued at \$4175.
+5. One third of the motor expenses paid were for Lionel’s private car.
+6. A full year’s depreciation at 25% is to be charged on the van using the reducing balance method.
+7. Lionel withdrew \$1000 each month from the business cash, for personal use. The remaining cash drawn from the bank was used to pay wages.
+
+**REQUIRED**
+
+Prepare Lionel’s income statement for the year ended 30 June 2023.
+
+Lionel 
+Income Statement for the year ended 30 June 2023
+
+|   | \$ | \$ |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+*Source: Nov 2023 0452/22 Q3A*
+
+
+**Q1** [5 marks]
+
+Prepare Lionel’s capital account for the year ended 30 June 2023. Balance the account and bring down the balance at 1 July 2023.
+
+Lionel
+ Capital account
+
+| Date | Details | \$ | Date | Details | \$ |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+
+*Source: Nov 2023 0452/22 Q3B*
+
+
+**Q1** [1 mark]
+
+State **one **reason why Lionel should keep double-entry bookkeeping records.
+
+*Source: Nov 2023 0452/22 Q3C*
+
+
+**Q1** [5 marks]
+
+Lionel currently makes cash sales only. He would like to start selling on credit and is considering whether to offer a 10% trade discount to regular customers or a 3% discount for payment within 21 days.
+
+**REQUIRED**
+
+Advise Lionel whether he should offer the 10% trade discount **or **the 3% cash discount. Justify your answer.
+
+*Source: Nov 2023 0452/22 Q3D*
+
+
+### Q2 — medium — 2 marks
+
+**Q2** [2 marks]
+
+State **two **advantages of maintaining double entry records.
+
+*Source: Nov 2023 0452/21 Q1A(I)(II)*
+
