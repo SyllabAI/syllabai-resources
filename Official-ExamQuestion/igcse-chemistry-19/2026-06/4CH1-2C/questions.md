@@ -6,7 +6,7 @@
 
 This question is about polymerisation.
 
-**(c)** This is the displayed formula for butane‑1,4‑dioic acid. H H O O C C C C H O O H H H
+**(c)** This is the displayed formula for butane‑1,4‑dioic acid.
 
 ### 1(a) [4]
 
@@ -35,7 +35,9 @@ The box gives some names used in polymerisation. addition alkane alkene condensa
 
 ### 1(b) [1]
 
-Which structure shows the correct repeating unit for poly(propene)? H H H H H H A C C C B C C C H H H H H CH3 H C C C D C C H H CH3
+Which structure shows the correct repeating unit for poly(propene)?
+
+![repeating-unit structures A-D — official paper figure (qp.pdf p.4)](assets/asset_1_b_structures.png)
 
 
 **Mark scheme answer**
@@ -55,6 +57,8 @@ Which structure shows the correct repeating unit for poly(propene)? H H H H H H 
 
 Determine the molecular formula for butane‑1,4‑dioic acid.
 
+![displayed formula of butane-1,4-dioic acid — official paper figure (qp.pdf p.5)](assets/asset_1_c_displayed-formula.png)
+
 
 **Mark scheme answer**
 
@@ -64,7 +68,9 @@ Determine the molecular formula for butane‑1,4‑dioic acid.
 
 ### 1(c)(ii) [2]
 
-Complete the chemical equation for the reaction between butane‑1,4‑dioic acid and sodium. O H H O O H H O C C C C + C C C C + – – HO OH O O H H Na+ H H Na+
+Complete the chemical equation for the reaction between butane‑1,4‑dioic acid and sodium.
+
+![equation to complete (acid + sodium -> salt + hydrogen) — official paper figure (qp.pdf p.5)](assets/asset_1_c_ii_equation.png)
 
 
 **Mark scheme answer**
@@ -78,7 +84,9 @@ Complete the chemical equation for the reaction between butane‑1,4‑dioic aci
 
 ### 1(c)(iii) [2]
 
-Butane‑1,4‑dioic acid can react to form this polyester. O O O CH2 CH2 CH2 CH2 O C CH2 CH2 C Draw a circle around the part of the polyester that comes from a butane‑1,4‑dioic acid molecule.
+Butane‑1,4‑dioic acid can react to form this polyester. Draw a circle around the part of the polyester that comes from a butane‑1,4‑dioic acid molecule.
+
+![polyester repeating unit — official paper figure (qp.pdf p.5)](assets/asset_1_c_iii_polyester.png)
 
 
 **Mark scheme answer**
@@ -164,7 +172,7 @@ The student plans this method for their titration. • add 25.0 cm3 of an alkali
 
 ### 2(d)(i) [1]
 
-Concordant results are those within 0.20 cm3 of each other. Add ticks (ü) to the table to show the concordant results.
+Concordant results are those within 0.20 cm3 of each other. Add ticks (✓) to the table to show the concordant results.
 
 ![table — official paper figure (qp.pdf p.8) — shared with asset_2_d_table_stem](assets/asset_2_d_table_stem.png)
 

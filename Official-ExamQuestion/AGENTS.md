@@ -539,3 +539,22 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
    the QP footer universe — this rule exists so that class of blindness dies here. Corollary:
    "battery green" always means "green against the enumerated universe" — say which universe,
    and grow it from source-format evidence, not from incident diffs alone.
+4. **Serve-render shape audit (the F96 lesson).** Text-shape classes are part of the furniture
+   universe: a gate that only counts figure MENTION nouns (table/diagram/grid/apparatus) is
+   blind to printed drawings whose text layers linearize into atom-run garbage — the same
+   structural blind spot as F87 one level deeper, and it shipped through every battery for the
+   corpus's whole life. Every serve-facing text field gets a SHAPE census (atom runs, bond
+   fragments, margin-note fragments, mojibake slots), not just a keyword census; G3 (MCQ
+   candidates), G4 (drawing gaps) and G7 (mp answer gaps) now carry theirs. When a shape class
+   is surfaced: converter census + gate arm + canary in the SAME wave, then corpus-wide census
+   before ship (F63 law 5). Corollary: a figure queue built from figure-language mentions
+   inherits the mention blind spot — queue candidates come from the shape census too.
+5. **Reproducibility debt is a tracked hazard (the 0.23.0 lesson).** The corpus of record is a
+   MIX of full converter runs and surgical wave patches; a full re-run from HEAD inputs is the
+   only proof the corpus is re-derivable, and it MUST be run (dry, diffed against the
+   committed state, delta-classified) before any wave that needs one — never assume "the
+   converter produces the corpus". Known-divergent slices (at 0.23.0: 14, all default-paper
+   1C — MCQ positional keys, exponent restore firing, deferred MS-grid classes) are listed in
+   AUDIT-2026-10-27; waves touching them ship surgically with disclosure, and the
+   reconciliation wave owns re-deriving them from HEAD converter + staged layers.
+

@@ -970,6 +970,24 @@
    "series": "*",
    "assertion": "F89 hygiene-v2: no served string carries a flattened standard-form exponent ('× 1023' printed for 10²³) — restore_flat_exponents normalizes at source with the validity rule that keeps the legit × 100 / × 1000 multipliers and refuses out-of-range tails ('× 1050'); corpus census 125 instances across 19 slices + 68 hub strings restored; chemistry-lane-gated in the converter (physics C74 pin of record carries flat forms — 4PH1 decides its own tranche).",
    "check": "no_flat_exponent_forms"
+  },
+  {
+   "id": "C96-tick-glyph-canonical",
+   "series": "*",
+   "check": "tick_glyph_canonical",
+   "assertion": "F92 (Task 19 deep-audit wave): the printed tick never serves as the Latin-1 mojibake 'ü' inside the ticks-instruction phrase — the served form is 'ticks (✓)'. Census at fix time: 3 instruction instances (2025-06 2C 5(c)(i), 2025-11 2C 1(a), 2026-06 2C 2(d)(i)); the printed table-cell tick in 2025-11 2C 1(a) is question content and stays verbatim. The sub is mirrored into the page-normalized anchoring text (F92 mirror law, the F70 pattern) so the subbed parts keep their page anchors."
+  },
+  {
+   "id": "C97-bare-answer-solution",
+   "series": "*",
+   "check": "no_empty_solution_with_answer",
+   "assertion": "F97 (Task 19 deep-audit wave): a linked part carrying marks and a real (non-fragment) mark_point must emit a solution_md — the F97 bare-answer fallback re-emits the part's own verbatim MP text (census at fix time: 2021-06 1C 2(b)(ii) '25', 2021-11 2C 1(d) '73'). The only honest empty state is the MS-answer-is-a-drawing class whose MPs are margin-note fragments or the marks-digit leak (2023-06 2CR 7(c)(i) class), which the G7 mp_answer_gap census + review queue carry fail-visibly."
+  },
+  {
+   "id": "C98-drawing-linearization-census",
+   "series": "*",
+   "check": "drawing_linearization_census",
+   "assertion": "F96 (Task 19 deep-audit wave): the drawing-linearization open census is PINNED at 15 parts (problem_md carries >=4 single-letter atom-token runs or bond-fragment triples with no figure asset). The 2026-06 2C tranche (1(b), 1(c)(ii), 1(c)(iii)) was cropped+stripped in this wave; the 15 remaining are the disclosed crop-wave queue (disclosure 2026-10-27-task19-deep-audit.json, key drawing_linearization_open). The 2026-06 2C 1(c) intro displayed formula is served via asset_1_c_displayed-formula on 1(c)(i) (sibling-embed)."
   }
  ]
 }

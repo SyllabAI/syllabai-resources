@@ -1,5 +1,76 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.23.0 — 2026-10-27 · Task 19: the deep-audit shape-hygiene wave (F92–F98) — the drawing-linearization class opens and the 2026-06 2C tranche closes
+
+A user-served report ("It has so many issues", `june-2026-4ch1-2c`) drove a corpus-wide deep
+audit beyond the furniture universe (battery v3: furniture families + NEW shape families +
+consistency re-checks over all 54 slices / 2,607 parts). The audit found the NEXT blind-spot
+class: **drawing-linearization** — printed structures/equations whose text layers serve as
+atom-run garbage (`H H H H H H A C C C B C C C ...`) with no figure asset — plus four smaller
+classes. Task 18's CONTINUES finding had already closed at 0.21.1 (F87); this wave closes the
+shape class the furniture battery could never see.
+
+- **F92 — the tick-glyph mojibake sub**: `ticks (ü)` → `ticks (✓)` (the printed tick surfaces
+  as Latin-1 ü in the text layer; F48/F033 family). Scoped to the instruction phrase — the
+  printed table-cell tick (2025-11 2C 1(a) grid) is question content and stays verbatim.
+  Census: 3 instruction instances (2025-06 2C 5(c)(i), 2025-11 2C 1(a), 2026-06 2C 2(d)(i)).
+  **The F92 mirror law**: the sub is mirrored into the page-normalized anchoring text (the F70
+  BEL-strip pattern) — found live: without the mirror the subbed parts lose their page anchor
+  (2025-06 2C 5(c)(i) and 2025-11 2C 1(a) both dropped to source_page None + crop-required
+  downgrade in the first run).
+- **F93 — the third footer word order**: `Total for question = N marks` (number after the
+  equals) joins the F87 pair. Found in the re-run reconciliation (2022-01 1C Q9 tail).
+- **F94 — G3 drawing-option MCQ candidates**: parts asking "Which structure/diagram..." with a
+  bare A–D run but no `choices[]` are now censused in G3 details + review queue. The v0.22.0
+  gate reported "0 MCQ parts" for 2026-06 2C while Q1(b) is one — a vacuous pass, now visible.
+- **F95 — G7 mp_answer_gap census**: parts whose EVERY mark_point is a margin-note fragment or
+  the marks-digit leak (the MS-answer-is-a-drawing class the sum law cannot see — G7 passed
+  2026-06 2C 5(a) while its served MPs were "If M1 and M2 not fully" / "max 1 mark"). Census +
+  review queue, never a FAIL (the fragments are verbatim; the missing half is a drawing only an
+  MS-side crop can restore — filed follow-up).
+- **F96 — G4 drawing-linearization census**: problem_md carrying ≥4 single-letter atom-token
+  runs or bond-fragment triples with NO figure asset is censused + queued. The v0.22.0 gate
+  counted only table/diagram/grid/apparatus MENTION nouns — the same mention-driven blind spot
+  the G8 figure queue inherited, which is why ~15 untracked garbage parts never entered any
+  queue.
+- **F97 — the bare-answer fallback**: a linked part with marks>0, empty solution_md, and real
+  (non-fragment) mark_point text re-emits its OWN verbatim MP text as the solution body,
+  disclosed through edits[] (structural-repair). Census: 2021-06 1C 2(b)(ii) '25', 2021-11 2C
+  1(d) '73'. Refuses the marks-digit-leak class (2023-06 2CR 7(c)(i): MP "1" == part marks —
+  the real answer is a printed drawing; re-emitting would fabricate an answer).
+- **F98 — text-repairs table generalized to file-scoped + the chemistry tranche**: the v0.22.0
+  lane-gate (`igcse-maths-b-16`) becomes file-scoped (rule keys ARE exact staged filenames —
+  cross-lane contamination impossible; maths-B behavior byte-identical by construction). 18 new
+  sha1-guarded line rules blank the drawing-linearization remains of 2026-06 2C QP 1(b)/1(c)/
+  1(c)(ii)/1(c)(iii) — each line's printed figure is served by an eyeballed crop asset.
+- **The 2026-06 2C crop tranche** (user-reported paper): 4 part-level crops via the wave-20
+  stemFigure + F45 manual_crop path — `asset_1_b_structures` (the four poly(propene) option
+  structures), `asset_1_c_displayed-formula`, `asset_1_c_ii_equation`, `asset_1_c_iii_polyester`;
+  rects eyeballed against 150 dpi page renders and re-verified on the rendered PNGs. STEM-
+  RESTORE `2026-06/4CH1-2C:Q1` + CROP-REVIEW `2026-06:2C` + FIGURE-QUEUE cropped 25→29.
+- **Canaries C96/C97/C98** (93→96): C96 tick-glyph canonical (no `ticks (ü)` in served
+  problem_md), C97 bare-answer-solution law (no linked part with marks + real MP text serves an
+  empty solution; the MP-gap refusal class is the disclosed exception), C98 the
+  drawing-linearization open census PINNED at 15 (the disclosed crop-wave queue; moving the pin
+  requires moving the disclosure in the same commit). C94's furniture regex gains the F93 order.
+- **Surgical applications (the 0.21.1 pattern, no re-run)**: 2025-06 2C 5(c)(i) ü→✓ and the two
+  F97 parts — because a v0.23.0 re-run of THOSE slices would regress unrelated committed state
+  (see the reproducibility-debt lesson, AGENTS.md standing rule 5). 2025-11 2C and 2026-06 2C
+  re-ran clean (their only deltas are this wave's).
+- **Reproducibility debt found and disclosed (NOT fixed here)**: a full v0.22.0 re-run of the
+  committed corpus diverges from the corpus of record on 14 slices (all default-paper 1C) —
+  lost MCQ positional keys (choices[].is_correct dropped, "Answer B: 3" → raw MS block),
+  re-flat-ened exponents where the committed corpus carries superscripts, and MS-grid residue
+  classes the 0.21.1 wave deliberately deferred. The corpus of record is NOT re-derivable from
+  HEAD inputs on those slices; a reconciliation wave (converter-side) is filed in
+  AUDIT-2026-10-27 before any future full re-run ships.
+- **Exporter disclosure**: `scripts/exporter-disclosures/2026-10-27-task19-deep-audit.json` —
+  9 changed parts: 7 this wave (the 2C tranche + the two ü parts) + 2 CARRIED from wave-26
+  (offp_2020-11_1c_9-c-ii, offp_2019-06_2cr_7-c — the wave-26 enrichment exponent
+  normalization reached the corpus after the last v2 sync; consumed here). G-E1..G-E4 green;
+  census constants unchanged (6,600 marks / 2,607 parts / 54 sets; figure crops 442→446).
+
+
 ## 0.22.0 — 2026-10-26 · T-OEQ-MATHSB-SERVE-1 run-001: the maths-B serve-hygiene wave (F91) — the broken-symbol-font text layers repair
 
 The wave-25 serve card's G-S4 gate caught the maths-B emission carrying 35 C1

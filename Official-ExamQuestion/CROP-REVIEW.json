@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.crop-review/0.1",
  "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
- "reviewed_utc": "2026-10-22T08:00:00Z",
+ "reviewed_utc": "2026-10-27",
  "reviewed_by": "session agent (2CR tranche, trace 1a16373bc7d373fd: all 11 v0.13.0-emitted crops + 3 crop-required stubs viewed against their source PDF pages rendered at 150 dpi; 8 emitted crops accepted as-is; the 3 stubs became F45 manual crops with the rects above - CROP-REVIEW verdicts apply to part-attached assets only)",
  "reviews": {
   "2020-01": {
@@ -660,6 +660,58 @@
    "asset_2_b_apparatus": {
     "verdict": "accepted",
     "note": "titration apparatus (burette + stand + 250 cm3 beaker, bung/burette/beaker labels) matches p7"
+   },
+   "asset_1_b_structures": {
+    "verdict": "accepted",
+    "manual_crop": {
+     "page": 4,
+     "rect": [
+      88.0,
+      554.0,
+      552.0,
+      736.0
+     ]
+    },
+    "notes": "four printed poly(propene) repeating-unit structures (option drawings of the 1(b) MCQ); the text layer linearizes them into the served atom-run garbage"
+   },
+   "asset_1_c_displayed-formula": {
+    "verdict": "accepted",
+    "manual_crop": {
+     "page": 5,
+     "rect": [
+      215.0,
+      83.0,
+      380.0,
+      150.0
+     ]
+    },
+    "notes": "printed displayed formula that names the molecular-formula task"
+   },
+   "asset_1_c_ii_equation": {
+    "verdict": "accepted",
+    "manual_crop": {
+     "page": 5,
+     "rect": [
+      40.0,
+      276.0,
+      548.0,
+      354.0
+     ]
+    },
+    "notes": "printed half-completed equation with displayed structures the student completes"
+   },
+   "asset_1_c_iii_polyester": {
+    "verdict": "accepted",
+    "manual_crop": {
+     "page": 5,
+     "rect": [
+      130.0,
+      415.0,
+      465.0,
+      485.0
+     ]
+    },
+    "notes": "printed polyester unit the circle-the-residue task refers to"
    }
   },
   "2019-06": {

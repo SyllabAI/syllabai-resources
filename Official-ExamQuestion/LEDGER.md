@@ -560,3 +560,75 @@ C73->C87, C74->C88. The v0.17.0-of-the-maths-line version string retires
   the \x1f inequality/angle/minus slots, i-acute minus, IPA-lambda pi) — pre-existing serving
   style, no H2 regression, filed for a follow-up census. Receipts: T-OEQ-MATHSB-SERVE-1/
   run-001-hygiene-wave.json + evidence-r2/.
+
+## The deep-audit shape-hygiene wave (Task 19 r2, converter v0.23.0, F92–F98)
+
+A user-served report on `june-2026-4ch1-2c` ("It has so many issues") drove the corpus-wide
+deep audit beyond the furniture universe (battery v3: 30 furniture families + 10 shape
+families + consistency re-checks, all 54 slices / 2,607 parts, corpus+hub+live). The audit's
+head finding: the gates' figure machinery is MENTION-driven ("table/diagram/grid/apparatus"
+nouns), so printed drawings whose text layers linearize into atom-run garbage served for
+years with zero gate coverage — the same battery-blind-spot shape as F87 one level deeper.
+
+- **F92 — the tick-glyph mojibake sub + the mirror law**: `ticks (ü)` → `ticks (✓)`, scoped to
+  the instruction phrase (census: 3 instances — 2025-06 2C 5(c)(i), 2025-11 2C 1(a), 2026-06
+  2C 2(d)(i); the printed grid-cell tick in 2025-11 2C 1(a) stays verbatim — question content).
+  The sub MUST be mirrored into the page-normalized anchoring text: without the mirror the
+  subbed parts lost their page anchor live (2025-06 2C 5(c)(i), 2025-11 2C 1(a) → source_page
+  None + crop-required downgrade, caught in the wave's own first run). Same mirror pattern as
+  the F70 BEL strip.
+- **F93 — the third question-total footer word order**: `Total for question = N marks` (number
+  after the equals; the F87 pair covered `Q<N> =` and `Question <N> =`). Found in the full
+  re-run reconciliation (2022-01 1C Q9 solution tail); the corpus of record is already clean
+  (surgical wave), the converter + C94 regex close the class for future runs.
+- **F94 — G3 drawing-option MCQ candidates (the vacuous pass)**: 2026-06 2C Q1(b) is a
+  printed-options MCQ keyed C whose options are drawings; the v0.22.0 gate reported "0 MCQ
+  parts" and passed vacuously. G3 now censuses which-structure/A–D-run parts without
+  choices[] into details + review queue. Corpus census: 9 true drawing-option MCQ parts
+  (2020-11 2CR 1(b), 2021-11 1C 1(a)(i)–(iii), 2023-01 2C 2(a)(i)–(iii), 2026-06 2C 1(b)) +
+  2 battery false positives dismissed (2023-06 1CR 2(c) dye letters, 2023-06 2CR 5(d)
+  electrode labels). None ever lost a key — the enrichment layer answered all of them.
+- **F95 — G7 mp_answer_gap census (the sum-law blind spot)**: G7 verifies ΣMP == marks, never
+  MP content — 2026-06 2C 5(a) passed with served MPs "If M1 and M2 not fully" / "max 1 mark"
+  (two fragments of ONE margin note; the two printed displayed-formula answers absent).
+  Census: 4 parts (2026-06 2C 5(a), 2023-06 2CR 7(c)(ii), 2024-06 1CR 10(b)(ii), 2025-06 2C
+  5(d)(ii)) — the MS-answer-is-a-drawing class; fix needs MS-side crop support (converter
+  renders QP-side only today), filed as open wave.
+- **F96 — G4 drawing-linearization census (the mention-driven blind spot)**: problem_md with
+  ≥4 single-letter atom-token runs or bond-fragment triples and NO figure asset. Corpus census
+  at fix time: 18 parts across 14 slices — only 3 had ever entered the G8 figure queue (the
+  queue's source census was itself mention-driven). The 2026-06 2C tranche (1(b), 1(c)(ii),
+  1(c)(iii)) is fixed in this wave; the remaining 15 are the PINNED open queue (C98 +
+  disclosure `drawing_linearization_open`).
+- **F97 — the bare-answer fallback (completes F90's queued intent for the real-answer
+  parts)**: linked part + marks>0 + empty solution_md + real (non-fragment) MP text ⇒
+  re-emit the part's own verbatim MP text as solution_md, disclosed via edits[]. Census:
+  2021-06 1C 2(b)(ii) `25`, 2021-11 2C 1(d) `73` — exactly 2 of F90's 4 known instances.
+  REFUSES the marks-digit-leak shape (bare digit == part marks; 2023-06 2CR 7(c)(i) `1` —
+  the printed answer is a drawing; re-emitting would fabricate). The refusal class is
+  fail-visible via F95 + review queue. The 4th F90 instance (2021-01 2CR 6(c)(i) `/1000`
+  line) is untouched — its solution_md is non-empty; the missing conversion line is a
+  fragment-tranche item for the same MS-crop wave.
+- **F98 — text-repairs go file-scoped + the chemistry tranche**: the v0.22.0
+  `lane == "igcse-maths-b-16"` gate becomes file-scoped (rule keys are exact staged
+  filenames; maths-B behavior byte-identical by construction). 18 new sha1-guarded rules
+  blank the 2026-06 2C drawing-linearization lines (1(b): 6; 1(c): 5; 1(c)(ii): 5;
+  1(c)(iii): 2) — each blanked line's printed content is served by an eyeballed crop.
+- **The 2026-06 2C crop tranche**: `asset_1_b_structures` (p4 [88,554,552,736]), 
+  `asset_1_c_displayed-formula` (p5 [215,83,380,150]), `asset_1_c_ii_equation` (p5
+  [40,276,548,354]), `asset_1_c_iii_polyester` (p5 [130,415,465,485]) — stemFigure stubs +
+  F45 manual_crop renders at 150 dpi, eyeballed twice (rect derivation + rendered PNG).
+- **The reproducibility-debt disclosure (a new hazard class)**: a full v0.22/v0.23 re-run of
+  the committed corpus diverges from the corpus of record on 14 slices (all default-paper
+  1C): MCQ positional keys lost (choices[].is_correct dropped; "Answer B: 3" → raw MS block
+  + review-queue), committed superscripts re-flatten (the 0.21.1 restore pass does not fire
+  on the staged layers as committed), and the deferred MS-grid residue classes re-enter. The
+  corpus of record is NOT re-derivable from HEAD converter + staged layers on those slices;
+  the wave therefore shipped SURGICALLY (2 regenerated slices + 3 surgical patches) and the
+  reconciliation is filed in AUDIT-2026-10-27 before any future full re-run.
+- Ship state: 2 slices regenerated (2026-06 2C: crops + strips + ✓; 2025-11 2C: ✓),
+  3 surgical patches (2025-06 2C ✓; 2021-06 1C + 2021-11 2C F97), converter + text-repairs +
+  ledgers + 3 canaries (96 total), disclosure 2026-10-27-task19-deep-audit.json (9 changed
+  parts = 7 this wave + 2 carried from wave-26). Battery: G0–G7 ALL PASS on both regenerated
+  slices; C96/C97/C98 + C22/C73 green on the full 54-slice staging; C13/C71 remain
+  red-on-main (pre-existing, the same disclosed 7(c)(i) class) — recorded, not worsened.

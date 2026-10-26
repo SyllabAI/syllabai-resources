@@ -100,3 +100,21 @@
 `git_dirty` is recorded as a boolean when the checkout has uncommitted
 Official-ExamQuestion changes (a dirty-tree battery pass is advisory, never
 citable as the state of main).
+
+## Shape batteries (added 2026-10-27, the deep-audit wave)
+
+The furniture battery (C77/C94) guards the footer/watermark UNIVERSE. The deep-audit wave
+added the SHAPE universe as standing battery legs, all convertable to one command each:
+
+1. **Shape sweep** (offline): the battery-v3 walker over all 54 topic.json — furniture
+   families, atom-run/bond-fragment drawing garbage, MCQ-candidate shapes, MP fragment
+   shapes, mojibake slots, consistency re-checks (MP sums, empty fields). Session receipt
+   `da-sweep.json` is the head census; re-run it after any converter emission change.
+2. **Gate censuses** (every conversion): G3 drawing-option MCQ candidates (F94), G4
+   drawing-linearization gaps (F96), G7 mp_answer_gap (F95) — report-only arms + review-queue
+   entries so a shape class can never again pass vacuously.
+3. **Canaries**: C96 tick-glyph canonical, C97 bare-answer-solution law, C98 the pinned
+   drawing-linearization open census (15). A pinned census moves only with its disclosure in
+   the same commit (law 8's fix-and-disclose applied to counts, not just diffs).
+4. **The self-check pair** (standing rules 1 + 4): battery + canaries fresh AND one live page
+   per affected family read end-to-end as a user sees it. The 2026-06 2C wave verified both.
