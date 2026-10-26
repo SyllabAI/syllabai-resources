@@ -586,7 +586,13 @@ for c in cans:
                 r"^\s*\(?\s*Total\s+(?:marks\s+)?for\s+(?:Question\s+\d{1,2}|Paper)\s*=\s*\d{1,3}\)?\s*(?:marks?)?\s*\)?\s*$"
                 r"|^\s*\(?\s*Total\s*=\s*\d{0,3}\)?\s*(?:marks?)?\s*\)?\s*$"
                 r"|^\s*Pearson\s+(?:Education\s+Limited|Edexcel)\b"
-                r"|^\s*with\s+its\s+registered\s+office\b",
+                r"|^\s*with\s+its\s+registered\s+office\b"
+                r"|QUESTION\s*\d{0,2}\s*CONTINUES\s+ON\s+(?:THE\s+)?(?:NEXT|BACK)(?:\s*/\s*(?:NEXT|BACK))?\s+PAGE\.?"
+                r"|^\s*Total\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}\s*(?:marks?)?\s*$"
+                r"|^\s*Total\s+for\s+question\s+\d{1,2}\s*=\s*\d{1,3}\s*(?:marks?)?\s*$"
+                r"|^\s*Question\s+(?:Number\s+)?Answer(?:\s+Notes)?(?:\s+Marks?)?\s*$"
+                r"|^\s*number\s+Answer\s+Notes\s+Marks\s*$"
+                r"|^\s*Total\s*$",
                 _re.I | _re.M)
             ok = True
             n = 0
@@ -598,14 +604,49 @@ for c in cans:
                     for q in t["questions"]:
                         for p in q["parts"]:
                             n += 1
-                            texts = [p.get("solution_md") or ""] + [
+                            texts = [p.get("solution_md") or "", p.get("problem_md") or "",
+                                     q.get("stem_md") or ""] + [
                                 m.get("text_md") or "" for m in (p.get("mark_points") or [])]
+                            for g in (q.get("groups") or {}).values():
+                                texts.append(g.get("group_stem_md") or "")
                             for txt in texts:
                                 m = furn.search(txt)
                                 if m:
                                     ok = False
                                     print(f"  ! {d.name}/{pd.name} {p['part_number']}: MS furniture survived at {m.group(0)[:50]!r}")
             print(f"  (solution/mark-point blocks scanned: {n})")
+        elif chk == "no_flat_exponent_forms":
+            # C95 (v0.21.1/F89): no served string carries a flattened standard-form
+            # exponent ("× 1023" for 10²³) — the restore pass normalizes at source.
+            # × 100 / × 1000 multipliers and out-of-range tails are excluded by the
+            # validity rule (sign, or 1-digit 1-9, or 2-digit 20-29).
+            import re as _re2
+            _flat = _re2.compile(r"×\s?10(-|−)?(\d{1,3})\b")
+            def _valid(m2):
+                d2 = m2.group(2)
+                return bool(m2.group(1)) or (d2[0] != "0" and (len(d2) == 1 or 20 <= int(d2) <= 29))
+            ok = True
+            n = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    stack = [t]
+                    while stack:
+                        o = stack.pop()
+                        if isinstance(o, str):
+                            n += 1
+                            for m2 in _flat.finditer(o):
+                                if _valid(m2):
+                                    ok = False
+                                    print(f"  ! {d.name}/{pd.name}: flat exponent {m2.group(0)!r}")
+                        elif isinstance(o, dict):
+                            stack.extend(o.values())
+                        elif isinstance(o, list):
+                            stack.extend(o)
+            print(f"  (strings scanned for flat exponents: {n})")
+
         elif chk == "no_orphan_assets":
             # C79 (v0.18.0/F71): every PNG under any slice's assets/ is
             # referenced by that slice's topic.json — superseded crops are

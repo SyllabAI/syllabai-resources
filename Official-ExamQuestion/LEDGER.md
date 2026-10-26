@@ -468,3 +468,67 @@ C73->C87, C74->C88. The v0.17.0-of-the-maths-line version string retires
   lexeme fix with its own corpus-wide re-receipt) is queued as open wave #5 of the physics
   LANE-STATUS. Battery of record after this wave: 91 canaries, 90 hold on the fresh
   corpus; the 1 exception is C61 (disclosed above, exonerated by the A/B).
+
+## The hygiene-v2 wave (Task 19, converter v0.21.1, F87 + F88 + F89)
+
+- **F87 — the CONTINUES-footer class (the leak the batteries never knew)**: a user surfaced the
+  live leak `…Refer to structure and bonding in your answer. QUESTION 11 CONTINUES ON BACK PAGE`
+  on june-2026-4ch1-1cr 11(c). The battery v2 sweep (fa_sweep: every content string of all 54
+  corpus slices + 54 hub sets + all 54 live Vercel pages) proved the class corpus-wide: **9 parts
+  across 9 papers** (2020-01 1C 10(c)(ii), 2021-01 1C 11(b)(iii), 2023-01 1C 12(b), 2024-11 1C
+  11(a)(iv), 2025-11 1C 10(b)(iii), 2024-06 1CR 12(b)(ii), 2026-06 1CR 11(c), 2022-06 2CR 7(c),
+  2026-06 2CR 7(b)(ii)) in **5 print shapes** (caps, mixed case, no-number, the
+  `NEXT / BACK PAGE` slash form, trailing period), corpus→hub→live end-to-end. Root cause of
+  record: the converter battery (F69/v0.18.0, unchanged through v0.21.0) never enumerated the QP
+  footer universe — the CONTINUES family was absent from FURNITURE_SUBS/FURNITURE_LINE, so the
+  G-gates, the wave-25 census battery and canary C77 were all blind by construction. Task 15's
+  "furniture=0" and Task 16's "100% done" were battery-limited, not absolute — disclosed verbatim
+  per the honest-verdict law. Fix: the FURNITURE_SUBS regex (case-insensitive, all 5 shapes) +
+  the abbreviated `Total for QN = M` footer variant the same sweep proved the v0.18.0 battery
+  also missed; exporter gains `_strip_continues` serve-time defense on problemMd too (previously
+  strip_furniture covered solution/markPoints only); canary C94 widens the C77 arm to the QP
+  footer universe AND to problem_md/stem/group-stem fields. Corpus strips are surgical
+  (9 problem_md blocks) and byte-mirror the converter rule; the next full re-run must reproduce
+  them (battery covers the family now).
+- **F88 — the deep-audit drive-bies (fa_deep battery v3 over corpus+hub)**: (1) **MS-grid residue
+  in corpus solution/mark-point texts** — 151 solution + 84 mark-point blocks carried grid
+  furniture the serve-time F-W15-2 strip had been silently removing at export: bare
+  `Total`/`Answer`/`Notes Marks` lines, the `Question Answer Notes Marks` header row, bare
+  `N marks` total rows, and the abbreviated `Total for Q1 = 5` / `Total for question = 5`
+  footers (the v0.18.0 battery matched only the spelled-out "Question" word order). The corpus
+  of record now carries the serve-clean form via the exporter's own strip semantics (VERBATIM
+  clone) plus a mid-text strip limited to the unambiguous classes (bare `Total`-family and
+  header rows only — bare `answer`/`mark`/`marks`/`Number` lines are wrap-ambiguous, as when
+  "1 mark" splits across lines, and stay); mark-point parity hub↔corpus is EXACT at
+  2,607/2,607 after the wave; canary C94 guards it. The converter-side bare-grid strip is
+  deliberately NOT added in this wave — the MS-table parser may anchor on header lines; queued
+  with that caveat. (2) **one `\x08` backspace** in 2024-06 2C's group stem (`+\x08–`, the
+  flattened +/- terminal labels of the electrolysis diagram) — dropped at source like the F70
+  BEL law. (3) **one authored caret** (`4.5 × 10^7 dm³` in 2019-06 2CR 7(d)'s authored
+  solution) → proper superscript on the hub. (4) Classes measured and disclosed, NOT fixed:
+  flat formula subscripts (N2/H2O — house convention of record, C56 pin), flat units (cm3/dm3 —
+  F70 note of record), MS sig-fig notation `(3)` and per-row `(1)` tails (MS-faithful),
+  answer-line digit runs and flattened table digits (faithful flatten, cosmetic).
+- **F89 — the flat-exponent restore**: 125 corpus instances (19 slices) + 68 hub strings (52
+  strings) printed `× 1023`/`× 105`/`× 10-23` where the papers print
+  `× 10²³`/`× 10⁵`/`× 10⁻²³` — an information-loss class (reads as one thousand twenty-three),
+  distinct in kind from the disclosed subscript/unit conventions. `restore_flat_exponents`
+  normalizes at source with a validity rule that keeps the legit `× 100`/`× 1000` multipliers
+  and refuses out-of-range tails (`× 1050`); canary C95 (`no_flat_exponent_forms`) guards it.
+  Applied to both layers so the serve-layer composition (stemFigure transforms) stays exact.
+  The converter pass is **gated to the chemistry lane** (`ACTIVE_SPEC_CODE == "4ch1"`): the
+  physics lane's pin of record (C74) carries flat `× 103`/`× 108` forms, so 4PH1 decides its
+  own tranche after its own census — cross-lane behavior changes are not smuggled through a
+  chemistry wave.
+- **Deep-audit green axes (re-executed this wave)**: assets 381/381 rawUrls HEAD 200; MCQ 143
+  choice-parts 0 anomalies (exactly-one-correct, no dupes, no empty options); marks sums — every
+  2C-family paper Σ=70, 1C-family Σ=110; empties 0/2,607 parts both layers; PUA/replacement/
+  zero-width census clean of NEW classes; the 467 hub-vs-corpus problem transforms decomposed to
+  the disclosed wave-19/20 stemFigure machinery (dropTail + stemFigure crop) and verified
+  intact. Over-strip guard: the first transform pass used a wrong furniture word-set (stripped
+  bare answer values `3`/`13`/`149`) — caught by pre-push eyeball, reverted, re-run with the
+  exporter's verbatim word-set; the shipped prep strips NO numeric-only lines (verified:
+  4(b)(i) "3", 9(a) "×2 149" tails intact). Post-transform verify: CONTINUES 0/0, grid
+  furniture 0, `\x08` 0, valid flat exponents 0/0, MP parity 2,607/2,607. Battery of record
+  after this wave: 93 canaries. Receipts: scripts/live-audit/ (FA-AUDIT.json, fa-sweep.json,
+  fa-deep.json, prep-receipt.json + disclosure 2026-10-26-oeq-hygiene-v2.json).

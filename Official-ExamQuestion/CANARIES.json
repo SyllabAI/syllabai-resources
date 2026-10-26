@@ -958,6 +958,18 @@
    "check": "part_structured",
    "part": "1(a)",
    "assertion": "Task 18 QP-side wave (F85): 1(a) 'Give the names of objects A, B, C and D' (4 marks) is a labelling question whose A-D answer lines (dot-runs) must never serve as MCQ choices (v0.20.0 served the raw dot-runs as choice texts). v0.21.0 serves it structured with the letters verbatim and the MS naming scheme linked. Regresses if the marks-law disqualification reverts."
+  },
+  {
+   "id": "C94-qp-furniture-free",
+   "series": "*",
+   "assertion": "F87/F88 hygiene-v2: the C77 battery widened to the QP footer universe — the CONTINUES footer in its 5 print shapes ('QUESTION 11 CONTINUES ON BACK PAGE', mixed case, no-number, 'NEXT / BACK PAGE' slash form, trailing period), the abbreviated 'Total for QN = M' and 'Total for question N = M' footers, the MS-grid header rows ('Question Answer Notes Marks') and bare 'Total' lines — and the arm now scans problem_md, question stems and group stems alongside solution_md/mark_points. 9 CONTINUES parts + 235 solution/mark-point grid-residue blocks cleaned at source by the hygiene-v2 wave (serve-form adopted; parity exact 2,607/2,607); the exporter's serve-time _strip_continues is the redundant second line of defense, never the only one.",
+   "check": "no_ms_furniture_lines"
+  },
+  {
+   "id": "C95-flat-exponent-free",
+   "series": "*",
+   "assertion": "F89 hygiene-v2: no served string carries a flattened standard-form exponent ('× 1023' printed for 10²³) — restore_flat_exponents normalizes at source with the validity rule that keeps the legit × 100 / × 1000 multipliers and refuses out-of-range tails ('× 1050'); corpus census 125 instances across 19 slices + 68 hub strings restored; chemistry-lane-gated in the converter (physics C74 pin of record carries flat forms — 4PH1 decides its own tranche).",
+   "check": "no_flat_exponent_forms"
   }
  ]
 }
