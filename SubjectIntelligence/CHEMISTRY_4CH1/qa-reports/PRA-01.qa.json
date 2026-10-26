@@ -7,48 +7,40 @@
     "context": {},
     "counts": {
       "ERROR": 0,
-      "INFO": 1,
-      "WARNING": 4
+      "INFO": 4,
+      "WARNING": 0
     },
     "issues": [
       {
         "artifact_id": "PRA-01",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[2.21]",
-        "message": "anchor 2.21 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 2.21 resolves to registry entry",
         "record_id": "PRA-001",
-        "severity": "WARNING"
+        "severity": "INFO"
       },
       {
         "artifact_id": "PRA-01",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[3.9]",
-        "message": "anchor 3.9 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 3.9 resolves to registry entry",
         "record_id": "PRA-001",
-        "severity": "WARNING"
+        "severity": "INFO"
       },
       {
         "artifact_id": "PRA-01",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[1.10]",
-        "message": "anchor 1.10 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 1.10 resolves to registry entry",
         "record_id": "PRA-002",
-        "severity": "WARNING"
+        "severity": "INFO"
       },
       {
         "artifact_id": "PRA-01",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[1.13]",
-        "message": "anchor 1.13 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 1.13 resolves to registry entry",
         "record_id": "PRA-002",
-        "severity": "WARNING"
-      },
-      {
-        "artifact_id": "PRA-01",
-        "code": "SIB-ANCH-003",
-        "field": "curriculum_anchor_refs",
-        "message": "no curriculum registry supplied; anchor existence not checked",
-        "record_id": "",
         "severity": "INFO"
       }
     ],

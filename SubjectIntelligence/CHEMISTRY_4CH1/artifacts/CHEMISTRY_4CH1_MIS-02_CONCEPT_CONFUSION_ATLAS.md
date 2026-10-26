@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-02
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -28,7 +28,7 @@ generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-013"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
+    syllabai_resources: "74d76bbab72378ac8db02068943b195b5099b3ca"
 ---
 
 # MIS-02 — Concept Confusion Atlas
@@ -148,7 +148,7 @@ intermolecular forces)".
 ### MIS-015 — Evaporation explained with reaction-collision language
 
 **Concepts:** states of matter; evaporation; kinetic theory vs reaction kinetics
-**Specification Points:** 1.6
+**Specification Points:** 1.2
 Temporal scope: CURRENT — AUTHORITATIVE
 **The confusion:** the rates-of-reaction frame (frequency of collisions) is imported into
 a physical change.
@@ -169,7 +169,7 @@ by talking about greater frequency of collisions."
 ### MIS-016 — Change of state answered as a chemical change
 
 **Concepts:** condensation; physical vs chemical change; state symbols
-**Specification Points:** 1.5, 1.6
+**Specification Points:** 1.2
 Temporal scope: CURRENT — AUTHORITATIVE
 **The confusion:** the instruction "write an equation" triggers a new-substance equation
 where a state-symbol equation was asked.
@@ -190,7 +190,7 @@ themselves."
 ### MIS-017 — "Particles do not move": vibration vs movement
 
 **Concepts:** states of matter; particle model; vibration
-**Specification Points:** 1.6
+**Specification Points:** 1.1
 Temporal scope: CURRENT — AUTHORITATIVE
 **The confusion:** everyday "not moving" (no translation) vs the kinetic model, where
 vibration IS movement; adjacent descriptions (forces, energy, fixed shape) are

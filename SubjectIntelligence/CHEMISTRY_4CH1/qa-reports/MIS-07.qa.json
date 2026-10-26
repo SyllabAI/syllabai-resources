@@ -1,62 +1,46 @@
 {
   "artifact_id": "MIS-07",
-  "content_sha256": "bae35755e14ca47a4bf486324ccf32edae33d9430967a2a3489ec6c0c2579d98",
+  "content_sha256": "6301f8a866fbc4cd4b1098b75d9b44c5309e5cb7411bd5ee4c01ce655adaca3f",
   "filename": "CHEMISTRY_4CH1_MIS-07_EXAM_ANSWER_ERRORS.md",
   "qa_passed": true,
   "report": {
     "context": {},
     "counts": {
       "ERROR": 0,
-      "INFO": 1,
-      "WARNING": 5
+      "INFO": 4,
+      "WARNING": 0
     },
     "issues": [
       {
         "artifact_id": "MIS-07",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[1.7]",
-        "message": "anchor 1.7 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 1.7 resolves to registry entry",
         "record_id": "MIS-051",
-        "severity": "WARNING"
+        "severity": "INFO"
       },
       {
         "artifact_id": "MIS-07",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[2.44]",
-        "message": "anchor 2.44 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 2.44 resolves to registry entry",
         "record_id": "MIS-051",
-        "severity": "WARNING"
+        "severity": "INFO"
       },
       {
         "artifact_id": "MIS-07",
-        "code": "SIB-ANCH-002",
-        "field": "curriculum_anchor_refs[1.21]",
-        "message": "anchor 1.21 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "code": "SIB-ANCH-004",
+        "field": "curriculum_anchor_refs[1.25]",
+        "message": "anchor 1.25 resolves to registry entry",
         "record_id": "MIS-055",
-        "severity": "WARNING"
+        "severity": "INFO"
       },
       {
         "artifact_id": "MIS-07",
-        "code": "SIB-ANCH-002",
-        "field": "curriculum_anchor_refs[1.22]",
-        "message": "anchor 1.22 is structurally valid but unresolvable (no registry); reported, not repaired",
-        "record_id": "MIS-055",
-        "severity": "WARNING"
-      },
-      {
-        "artifact_id": "MIS-07",
-        "code": "SIB-ANCH-002",
+        "code": "SIB-ANCH-004",
         "field": "curriculum_anchor_refs[3.14]",
-        "message": "anchor 3.14 is structurally valid but unresolvable (no registry); reported, not repaired",
+        "message": "anchor 3.14 resolves to registry entry",
         "record_id": "MIS-055",
-        "severity": "WARNING"
-      },
-      {
-        "artifact_id": "MIS-07",
-        "code": "SIB-ANCH-003",
-        "field": "curriculum_anchor_refs",
-        "message": "no curriculum registry supplied; anchor existence not checked",
-        "record_id": "",
         "severity": "INFO"
       }
     ],
