@@ -1,0 +1,33 @@
+stage: S4
+date: "2026-10-26"
+agent: "T-BOOK-064 r0 (session web-c414c074 chat 08b3170a, trace 1a1783201085a551)"
+prompt_version: "lesson-prose@2.0.0"
+lane: "u1 voice-retrofit r3 - SOURCES-SYNC (right-root landing of the r2 de-trip; operator lane order 'c01-c06 voice retrofit debt', trace 1a1783201085a551; standing merge+flip trace 1a1658a2da08e5bd)"
+trace_id: "1a1783201085a551"
+summary: >-
+  T-BOOK-063 r2 de-tripped four 'printed' residuals in this pack but landed its
+  intended section-source edits at the WRONG ROOT (top-level lessons/ tree,
+  removed this lane; f-0034) while the flip commit 9361afff applied the same
+  four de-trips DIRECTLY to the emitted qa/lessonPackV1.json markdown fields.
+  Net state before this lane: shipped/baked/live artifact voice-clean, section
+  sources still carrying the residuals (emit-divergence: any future emit would
+  silently revert the voice fix). This lane syncs the four section SOURCES to
+  the shipped JSON word-for-word, restoring source-emit consistency with ZERO
+  artifact byte change. The four synced edits (byte-exact vs the wrong-root r2
+  intent files, verified identical): s06 'The number\nprinted against chlorine'
+  -> 'The number\nbeside chlorine'; s10 'the Periodic Table printed in your
+  exam paper carries' -> 'the Periodic Table in your exam paper carries';
+  s11 'you will need the Periodic Table printed in your exam paper.)' -> 'you
+  will need the Periodic Table in your exam paper.)'.
+kept_disclosed:
+  - 's04 misconception quote "The bigger number printed on the Periodic Table is the mass number." — KEPT per the r2 VOICE_PAT adjudication of record (exam-artifact reference class; ships identically inside the published pack JSON; fleet superset sweep discloses it as the only remaining raw hit across c01-c07)'
+artifact_plane: >-
+  ZERO byte change of record: qa/lessonPackV1.json sha256 bc5baef0 (this pack)
+  unchanged pre/post lane; regression proof run in-lane — lessonctl emit from
+  the synced sources reproduces the shipped JSON BYTE-IDENTICALLY except the
+  single status field (emit writes draft per the suggested law), so the voice
+  fix can no longer be reverted by an emit. No law-7 flip (no draft->published
+  event exists to flip), no v2 bake (nothing baked changes), no production
+  delta (live c6ce214a stands).
+cleanup:
+  - 'the six r2 wrong-root strays under the top-level lessons/ tree REMOVED in this lane (the tree contained ONLY those six files); finding f-0034 carries the class record'

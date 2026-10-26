@@ -10,7 +10,7 @@ authored: true
 ---
 
 Look up chlorine on the [[periodic-table]] and you meet a paradox. The number
-printed against chlorine appears to be a **mass number of 35.5**. Try the
+beside chlorine appears to be a **mass number of 35.5**. Try the
 §s04 formula on it:
 
 > number of neutrons = 35.5 − 17 = 18.5

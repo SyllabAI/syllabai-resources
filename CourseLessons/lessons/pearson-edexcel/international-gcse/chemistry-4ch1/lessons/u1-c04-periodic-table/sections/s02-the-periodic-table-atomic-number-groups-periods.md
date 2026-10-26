@@ -30,7 +30,7 @@ usually dropped out of their proper places and written separately at the
 bottom of the table. There is a good reason: if you put them where they
 belong, everything has to be drawn slightly smaller to fit on the page,
 which makes the table harder to read. For a larger version of the table
-with atomic numbers, use the Periodic Table printed in your exam paper —
+with atomic numbers, use the Periodic Table in your exam paper —
 you will need it throughout the course.
 
 :::did-you-know
