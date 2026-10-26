@@ -1,0 +1,196 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-008",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "7ff30654d9a256bab02b9371b658ad9b9e589959",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "TUT-01",
+      "filename": "CHEMISTRY_4CH1_TUT-01_SUBJECT_TUTOR_KNOWLEDGE_BASE.md",
+      "evidence_pack": "evidence/TUT-01/evidence_pack.json",
+      "evidence_pack_sha256": "0bdc3dc77381e911e2d99f5d01801bf58f1a27f87f824aa366a1cadbe2d1d064",
+      "artifact_sha256": "0d4f05e825deb0bb733a94e660374693c261e06f6db065e89b4ae5ad0a53d496",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-01.qa.json"
+    },
+    {
+      "artifact_id": "TUT-02",
+      "filename": "CHEMISTRY_4CH1_TUT-02_COMMON_STUDENT_QUESTIONS.md",
+      "evidence_pack": "evidence/TUT-02/evidence_pack.json",
+      "evidence_pack_sha256": "64d5753b79dc66cdea517550e3690d79e59fa1eb3fe04d95b996020bbe9386b6",
+      "artifact_sha256": "1474d9dfee096e061c2c19c3bb12031df921947161357853de9a84581cd55e91",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-02.qa.json"
+    },
+    {
+      "artifact_id": "TUT-03",
+      "filename": "CHEMISTRY_4CH1_TUT-03_FOLLOW_UP_QUESTION_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-03/evidence_pack.json",
+      "evidence_pack_sha256": "b808e3603ae875b878dcb8c3ea2fa18baa033f3dee51f8f08c8e7c77fffa9146",
+      "artifact_sha256": "a6940922cd4b06e2d977e4349c3922117f74d5e7fe317c0df1c1721d6c520d35",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-03.qa.json"
+    },
+    {
+      "artifact_id": "TUT-04",
+      "filename": "CHEMISTRY_4CH1_TUT-04_SOCRATIC_QUESTION_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-04/evidence_pack.json",
+      "evidence_pack_sha256": "8f33e5dbc960cf1cbe38ed8c2b29ede29b3f77c105e22ad880284a6f1c197ca5",
+      "artifact_sha256": "13866d6a825b2edbc3abb674de41d59b066e2d1123d2f8b4e0cdb6f7d8f876c1",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-04.qa.json"
+    },
+    {
+      "artifact_id": "TUT-05",
+      "filename": "CHEMISTRY_4CH1_TUT-05_HINT_STRATEGIES.md",
+      "evidence_pack": "evidence/TUT-05/evidence_pack.json",
+      "evidence_pack_sha256": "f5bb61f8996d10c1c40078577450a0f324c113791164b8f4c53bec3e31bc5505",
+      "artifact_sha256": "681c8a573bda886e668a85efbe8da937d3ca5274cc3180a6cfecc10ffd26682b",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-05.qa.json"
+    },
+    {
+      "artifact_id": "TUT-06",
+      "filename": "CHEMISTRY_4CH1_TUT-06_MISCONCEPTION_RESPONSE_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-06/evidence_pack.json",
+      "evidence_pack_sha256": "bfb81de292f98b50711028793c89713a5834a9942c6d9d27da943e65be5353d6",
+      "artifact_sha256": "7024d45df46e3af5250d7205784ef46bdf595fa8c1a84bd921d50ff2674f202a",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-06.qa.json"
+    },
+    {
+      "artifact_id": "TUT-07",
+      "filename": "CHEMISTRY_4CH1_TUT-07_EXAM_FEEDBACK_PATTERNS.md",
+      "evidence_pack": "evidence/TUT-07/evidence_pack.json",
+      "evidence_pack_sha256": "7ed9d87966a54d154487c4c9d8759ffb2a203807f7dc574745b6f50c6cbc026a",
+      "artifact_sha256": "9e21b285619e3229b04f5c7a2ad308420499e0e7c9076fd62548d99eab8cbd47",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-07.qa.json"
+    },
+    {
+      "artifact_id": "TUT-08",
+      "filename": "CHEMISTRY_4CH1_TUT-08_CONCEPT_COMPARISON_GUIDES.md",
+      "evidence_pack": "evidence/TUT-08/evidence_pack.json",
+      "evidence_pack_sha256": "eb7354b27cc6a39badd7999a075e6c5eb76549534b2546585ab3a5ccaa4be626",
+      "artifact_sha256": "76371547562a9add27f4cbd8e18ab90b94ff58835ef139c6291f5ea5b1546a6c",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-08.qa.json"
+    },
+    {
+      "artifact_id": "TUT-09",
+      "filename": "CHEMISTRY_4CH1_TUT-09_DEEP_DIVE_EXPLANATIONS.md",
+      "evidence_pack": "evidence/TUT-09/evidence_pack.json",
+      "evidence_pack_sha256": "ab528dddc02ba1cad920fce4a56265385208589c497c5463297675f75463b8e8",
+      "artifact_sha256": "5080e656c738b8d17eaeb939e2fbe87586d91f903f46f3c1ea14241e16b87b26",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-09.qa.json"
+    },
+    {
+      "artifact_id": "TUT-10",
+      "filename": "CHEMISTRY_4CH1_TUT-10_SUBJECT_SPECIFIC_TUTOR_GUIDANCE.md",
+      "evidence_pack": "evidence/TUT-10/evidence_pack.json",
+      "evidence_pack_sha256": "b6d44f71c0910ab14926aa517d2220bdddf5637b36e1589457c777b0e5282d94",
+      "artifact_sha256": "5ccf8528852326ea444273e5f490d4dbd9ceef01f7215fe8124b84175f51a53f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (TUT primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 94 citations checked, 0 violations first-pass; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans, output usefulness — each record is tutor-actionable)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/TUT-10.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": [
+    "SRC-SPEC-4CH1 used in TUT packs per evidence_policy TUT primary role; the source_manifest v1.2.3 feeds_families instantiation does not list TUT for SRC-SPEC-4CH1 — the policy file governs pack composition (RUN-006 precedent: SPEC rode PED packs as policy supplementary); declared here fail-closed rather than silently ridden",
+    "preflight resolved 6/17 sources; 11 failed sources disclosed (SRC-SME-EXAMQ-4CH1, SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1, SRC-GRAPH-4CH1, SRC-SPECLINKS-4CH1, SRC-LESSONS-4CH1, SRC-RAG-PKG-4CH1, SRC-QPMS-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-ER-4CH0-LEGACY + sparse-cone scope) — none is a TUT primary; TUT primary coverage carried by SRC-BOOK-4CH1-SB1 (RESOLVED, both declared sha256 digests matched)",
+    "every policy-selected resolved source planned per artifact (no auto-pulled entries): in-turn repair wave 1 re-specced all 10 packs after the first build showed auto-pulled fallback excerpts; wave 2 added TUT-07 SB1 identity entry + TUT-10 ER presence entry; TUT-01 ER window extended for one corroborating citation — all pre-record, deterministic rebuilds, sha256s of record in census.json",
+    "the garbled 2024-06 4CH1 1C examiner report stays excluded of record (RUN-005 exclusion carried forward); pack ER windows avoid it"
+  ]
+}

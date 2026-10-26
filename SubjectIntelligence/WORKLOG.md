@@ -237,3 +237,46 @@ records HIS-001..042 (family-continuous numbering).
   artifact plus the OPTIONAL HIS family complete. Remaining queue: pass 8 TUT
   (10 REQUIRED; sources PRESENT; eBook upgrade optional), pass 9 GAP (last by
   design). Staging/publication remain operator-ordered.
+
+## 2026-10-26 — SIB-CHEMISTRY_4CH1-RUN-008 (BL-008 pass 8: TUT) — zai_agent lane
+
+Operator order 'pass 8 TUT' (trace 1a1781fd0f57ada1, channel zai-web). Run
+SIB-CHEMISTRY_4CH1-RUN-008 = TUT-01..10, the 10 REQUIRED Tutor Intelligence
+artifacts, 60 records TUT-001..060 (family-continuous numbering).
+
+- Fetch-first after sandbox recycle: resources main @ 7ff30654 (pass-6 and
+  pass-7 merges of record in ancestry; sibling UGM PR #145 merged 2026-10-25,
+  zero SubjectIntelligence overlap), master @ 357ace0a pin unchanged (= main
+  tip), pastpapers @ 2cb92fe5; sparse clones rebuilt fresh (resources cone:
+  SubjectIntelligence + books + Official-Specifications/igcse-chemistry;
+  pastpapers non-cone: 4ch1 er.pdf only — 24 reports of record materialized).
+- Preflight PASS for TUT: primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared
+  sha256 digests matched (student-book.pdf d48020e0…, chunks_v3.jsonl
+  b2c67eaf…); SRC-SPEC-4CH1 also RESOLVED; 6/17 sources resolved, 11 absent
+  corpora disclosed run-wide (none a TUT primary). SRC-SPEC-4CH1 x TUT
+  feeds_families instantiation gap (v1.2.3 does not list TUT) disclosed in the
+  run receipts; the machine-readable evidence_policy governs pack composition
+  (RUN-006 precedent).
+- Packs: 10 agent-authored pack specs (every policy-selected resolved source
+  planned per artifact — no auto-pulled entries; two disclosed in-turn repair
+  waves to that posture before any authoring: auto-pull suppression re-spec of
+  all 10, then TUT-07 SB1 identity entry + TUT-10 ER presence entry; TUT-01 ER
+  window extended for one corroborating 2024-11 citation). SB1 chunks cited by
+  line+chunk locators; TL/ER/SPEC by page locators; caps enforced by the pack
+  builder; census annex (sib-run-census/1.0, per-source-class counters).
+- Authoring from packs alone; all 60 records CURRENT — AUTHORITATIVE (TUT
+  legacy: none); tutor guidance grounded on the validated book spine per the
+  family forbidden-law; OCR-garbled spans avoided by clean sub-span quoting
+  (never-repair law).
+- QA CHAIN: validator qa @ 357ace0a 10/10 qa_passed, 0 errors / 0 warnings
+  (qa-reports/ x10 written by the validator of record); evidence-claim QA r4
+  94 citations / 0 violations FIRST-PASS (no repair cycle — the runs 5-6
+  citation-window failures were prevented by per-artifact pull-before-author);
+  educational review PASS on the five pilot criteria per artifact; run manifest
+  add-artifact x10 + validate OK (source_revisions: resources 7ff30654,
+  pastpapers 2cb92fe5, master 357ace0a).
+- LEDGER: manifest.yaml BL-008 description appended with the PASS 8 EXECUTED
+  entry (YAML re-parse verified). Scoreboard: 87/95 artifacts GENERATED —
+  every REQUIRED artifact plus the OPTIONAL HIS family complete except the GAP
+  audit. Remaining queue: pass 9 GAP (8 REQUIRED — final audit, runs last by
+  design). Staging/publication remain operator-ordered.

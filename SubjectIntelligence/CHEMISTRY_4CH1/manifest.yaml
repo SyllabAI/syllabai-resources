@@ -424,4 +424,24 @@ backlog:
       EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7) — every REQUIRED artifact plus the
       OPTIONAL HIS family. Remaining queue: pass 8 TUT (10 REQUIRED; sources
       PRESENT since SB1 v3 + SRC-TL-4CH1; operator native-text eBook upgrade
-      lane optional), pass 9 GAP (final audit — runs last by design)."
+      lane optional), pass 9 GAP (final audit — runs last by design).
+      PASS 8 EXECUTED 2026-10-26 (operator order 'pass 8 TUT' trace
+      1a1781fd0f57ada1, channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-008 =
+      TUT-01..10 (10 REQUIRED artifacts, 60 records TUT-001..060,
+      family-continuous numbering) through the full chain — preflight PASS (TUT
+      primary SRC-BOOK-4CH1-SB1 RESOLVED with both declared sha256 digests
+      matched; SRC-SPEC-4CH1 also RESOLVED per policy primary; 6/17 sources
+      resolved, 11 absent corpora disclosed run-wide), 10 agent-authored pack
+      specs + packs (SB1 chunk excerpts with line+chunk locators across the
+      glossary, key points, HINT boxes, question batteries, the electrolysis
+      chapter and the practical appendix; TL topic-guide, core-practical-guide,
+      exemplar-commentary and practical-terminology pages; ER feedback windows;
+      SPEC command-word/AO/assessment pages; every policy-selected source
+      planned per artifact so no auto-pulled entries), authoring from packs
+      alone, validator QA @ 357ace0a 0 errors x10 / 0 warnings, evidence-claim
+      QA r4 94 citations / 0 violations first-pass, run manifest validate OK
+      (SPEC-x-TUT feeds_families instantiation gap disclosed in the run
+      receipts; the policy file governs pack composition). TUT 10/10 COMPLETE;
+      87 artifacts now GENERATED in the 4CH1 library (CUR 8 + MIS 9 + EXP 8 +
+      ASM 10 + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7 + TUT 10). Remaining
+      queue: pass 9 GAP (final audit — runs last by design)."
