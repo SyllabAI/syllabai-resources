@@ -1,0 +1,27 @@
+{
+  "artifact_id": "TUT-01",
+  "content_sha256": "0d4f05e825deb0bb733a94e660374693c261e06f6db065e89b4ae5ad0a53d496",
+  "filename": "CHEMISTRY_4CH1_TUT-01_SUBJECT_TUTOR_KNOWLEDGE_BASE.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "TUT-01",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "TUT-01"
+  },
+  "sib_protocol": "SIB-1.0"
+}
