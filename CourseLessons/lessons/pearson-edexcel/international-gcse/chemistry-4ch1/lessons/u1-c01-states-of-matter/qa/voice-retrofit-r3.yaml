@@ -1,0 +1,14 @@
+stage: S4
+date: "2026-10-27"
+agent: "T-BOOK-064 r1 (session web-c414c074 chat 08b3170a, trace 1a1795102ee10235)"
+prompt_version: "lesson-prose@2.0.0"
+lane: "u1 voice-retrofit r3 - SOURCES-SYNC COMPLETION c01/c02/c05/c06 (operator lane order 'restore T-BOOK-064 to the c01/c02/c05/c06 refactoring', trace 1a1795102ee10235; standing merge+flip trace 1a1658a2da08e5bd)"
+trace_id: "1a1795102ee10235"
+summary: >-
+  T-BOOK-064 r0 closed the c03+c04 'printed' stragglers; this lane closes c01. Pre-edit emit-parity PROVEN (emit from sources reproduces the shipped JSON byte-identically modulo status), so sources and artifact were in sync — but the sync carried LIVE voice debt: s01 named the platform and narrated the lesson-link apparatus, s02 carried a course token. two de-trips (byte-exact, zero substance change): s01 prior-knowledge box 'This is the first chapter of Unit 1 — there is no earlier lesson / in this course to link back to, so the Prior Knowledge you need is from / KS3, not from SyllabAI.' -> 'This is the first chapter of Unit 1 — there is no earlier lesson / to link back to, so the Prior Knowledge you need is from KS3.' (drops the course token, the lesson-link apparatus narration and the platform name); s02 key-point 'Every substance you will meet in this course is' -> 'Every substance you will meet is' (course-token filler dropped). Re-emit carries the de-trips; law-7 flip r3 lands the artifact; source-emit parity restored post-lane.
+artifact_plane: >-
+  qa/lessonPackV1.json sha256 47321b77 (42099B, pre-lane shipped) -> 7fc13511 (42049B, post-flip r3): the delta is exactly the two de-tripped s01/s02 markdown bodies + the status field cycle (law-7 +4B exactly-1 held at flip). No v2 bake in-lane — the bake lane fires post-merge (c01 byte delta expected).
+kept_disclosed:
+  - 'this lesson' family (By the end of this lesson / Before this lesson / This lesson's practice is wired to the question bank below) — KEPT as house style of record: authored by the r1 retrofit (T-BOOK-039 r1), internal navigation of the reading unit, and rule 3 bans PRINT question-bank narration only (the wired-template rides c01 s13 / c02 s10 / c04 / c05 s36 / c06 s15)
+  - c05 learningObjective 'for reactions studied in this course' — KEPT: Edexcel 4CH1 spec-point wording (1.19/1.20 class), verbatim-pinned from course.yaml by the emit law (spec-verbatim class, same family as the misconception-quote adjudication)
+flip: 'law-7 flip r3 single-field byte-precise (exactly-1 held; 42045 -> 42049 bytes, +4; sha256 e9fa6451... -> 7fc13511e992915e512bf4e6eeaa57bc74069d366cacf3ab3f84743c5f4a7bc1...); head at flip 74d38814'

@@ -8,3 +8,14 @@ pack_identity: '10 sections; sources sha-pinned (bookOfRecord edexcel-..., parse
 post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + residual standalone-voice scan 0 hits across all 10 section bodies (census classes: attribution voice, figure/table/page citations, QA leakage, PDF-deflection)'
 tracker_transaction: 'law-10 tx rides with the wave tracker commit (six-pack retrofit tx: board rows -> PUBLISHED r1 + notes mirror)'
 next: 'v2 bake lane fires after the wave merge (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c01-c06 r1 + c07 r1 re-bake together, lessons-index additive) — merge = the git-connected hub auto-bake at the production origin of record syllabai-hub-v2.vercel.app (T-C20 battery --expect-packs 7 re-run at the bake gate)'
+
+# law-7 flip receipt (r3) — u1-c02-elements-compounds-mixtures voice-retrofit r3 sources-sync completion
+command: 'operator lane order "restore T-BOOK-064 to the c01/c02/c05/c06 refactoring" (trace 1a1795102ee10235) — r3 flip under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-27T00:14:11+06:00'
+head_at_flip: 74d38814
+agent: "T-BOOK-064 r1 (session web-c414c074 chat 08b3170a, trace 1a1795102ee10235)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 37068 -> 37072 bytes, +4; sha256 6ed3cb98... -> f56133cf04910b3b442560184f5a2dba76141aa3d6c1f19a9825ea927996ada6...) — the r3 re-emit carries the de-trip(s), so unlike r0 this r3 flip DOES move artifact bytes (the voice fix leaves production at the post-merge bake)'
+pack_identity: '10 sections; sources sha-pinned (course.yaml bookOfRecord/parseOfRecord); pre-edit emit-parity proven modulo status; paperRoute per lesson.yaml'
+post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON); tracker_check.py exit 0 (V10 gate, f-0035) rides the lane commit'
+tracker_transaction: 'law-10 tx rides this lane commit (tracker.yaml last_receipt/last_agent/updated_at + TRACKER.md row Owner tail)'
+next: 'v2 bake lane post-merge (c01+c02 byte deltas expected; c05/c06 + remaining 25 packs byte-identical assert; G4 x29 index-driven + 4 suites 34/34 + T-C20 battery --expect-packs 29)'

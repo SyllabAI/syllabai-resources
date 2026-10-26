@@ -12,7 +12,7 @@ authored: true
 So how many elements are there? **118**, and every single one of them lives
 on the **[[periodic-table]]** — the chart that hangs on every chemistry
 laboratory wall. Most of them occur naturally on Earth: hydrogen, helium
-and sulfur are everyday examples you will meet throughout this course. A
+and sulfur are everyday examples you will meet throughout your studies. A
 few do not occur naturally at all and have to be made artificially, in
 particle accelerators and nuclear reactors; einsteinium is one of these.
 
