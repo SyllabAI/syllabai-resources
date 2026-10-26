@@ -1,0 +1,58 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-010",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "295fb5b698b37026417e4100551b025579c5f90f",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "ASM-10",
+      "filename": "CHEMISTRY_4CH1_ASM-10_ASSESSMENT_COVERAGE_ANALYSIS.md",
+      "evidence_pack": "evidence/ASM-10/evidence_pack.json",
+      "evidence_pack_sha256": "62238476063d08c5fac94218a9d8a3d6925016928b398b3a54dbdb793f200917",
+      "artifact_sha256": "fff0a97dacceeccaea3392502362e8ca70a9f8191d5f1846f8849bd310a6a976",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (ASM primaries SRC-SPEC-4CH1 + SRC-QPMS-4CH1 + SRC-SAMS-4CH1 RESOLVED; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (r4: 10 citations / 0 violations first-pass)",
+        "educational_review": "PASS (corrected claim re-verified against the source of record: Topic 1 carries nine named sub-topics (a)-(i) per the spec p17 extraction; count v1.0 came from a window truncated at '(g) Cov')",
+        "remediation_scope": "PASS (surgical: count statements + ASM-059 example locators only; record substance byte-stable)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-01",
+      "filename": "CHEMISTRY_4CH1_MIS-01_MISCONCEPTION_ATLAS.md",
+      "evidence_pack": "evidence/MIS-01/evidence_pack.json",
+      "evidence_pack_sha256": "fd9d8b4a3346d5d106c263c5a48e2f22c54f96fa427665bb94b572f9545e6e90",
+      "artifact_sha256": "6c2a6ca14464597b9b06b4ecff6a98faf5777154e750dec3ebbbca4d292246ed",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (MIS primaries SRC-ER-4CH1 + SRC-QPMS-4CH1 RESOLVED; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors; 23 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 28 citations / 0 violations first-pass — the wave-1 prose citations upgraded to the r4 grammar, same sources/pages/quotes)",
+        "educational_review": "PASS (corrected census re-verified against the materialized corpus of record: 24 physical er.pdf holdings across SEVEN sessions @ pastpapers 2cb92fe5; 23 clean of record with the garbled 2024-06 1C excluded — matches the RUN-009 GAP-03 census)",
+        "remediation_scope": "PASS (surgical: census statements + citation-grammar upgrade only; all 12 records' substance byte-stable)"
+      },
+      "qa_report": ""
+    }
+  ],
+  "gates": {},
+  "disclosures": [
+    "Pre-author quote pre-verification flagged 6 candidate mismatches; all resolved before packs: 2 checker session-mapping errors, 2 cross-document ellipsis spans (grounded on co-cited files), 2 union-grounded on the correct co-cited page — no attribution errors found in v1.0 record quotes",
+    "TL identity entry rides as Chemical-bonding---FINAL.pdf p1 cover (the provenance-JSON path is a pointer entry the plan-inheritance cannot see); identity-presence posture per RUN-009"
+  ]
+}

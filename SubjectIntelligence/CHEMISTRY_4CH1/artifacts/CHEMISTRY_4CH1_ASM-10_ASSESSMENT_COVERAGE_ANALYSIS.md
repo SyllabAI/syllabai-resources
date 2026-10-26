@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: ASM-10
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -28,15 +28,15 @@ generated_at: 2026-10-26
 
 provenance:
   source_manifest: "SRC-QPMS-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-010"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "295fb5b698b37026417e4100551b025579c5f90f"
 ---
 
 # ASM-10 — Assessment Coverage Analysis
@@ -68,8 +68,8 @@ family).
 ## Executive Summary
 
 The specification frames the content as four numbered topics, with Topic 1
-(Principles of chemistry) itself split into seven named sub-topics from states of
-matter through covalent bonding. The held papers demonstrably probe that frame: their
+(Principles of chemistry) itself split into nine named sub-topics, (a) States of
+matter through (i) Electrolysis. The held papers demonstrably probe that frame: their
 question announcements name principles topics (bonding, atomic structure), organic
 chemistry (alkanes, alkenes, crude oil fractions) and the physical/inorganic strands,
 with topic-marker excerpts appearing across 2019-2023 sessions. The
@@ -83,12 +83,12 @@ than uncovered.
 ### ASM-055 — The specification's topic frame
 
 **Claim:** the specification organises content into numbered topics, with Topic 1
-(Principles of chemistry) carrying seven named sub-topics.
+(Principles of chemistry) carrying nine named sub-topics, (a) through (i).
 **Evidence:** the Topic 1 page lists "The following sub-topics are covered in this
-section." followed by "(a) States of matter (b) Elements, compounds and mixtures (c)
-Atomic structure (d) The Periodic Table (e) Chemical formulae, equations and
-calculations (f) Ionic bonding (g) Cov..." — the covalent-bonding sub-topic heading
-visible in the same excerpt (SRC-SPEC-4CH1, Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf p17).
+section." followed by the full nine-item list "(a) States of matter (b) Elements,
+compounds and mixtures (c) Atomic structure (d) The Periodic Table (e) Chemical
+formulae, equations and calculations (f) Ionic bonding (g) Covalent bonding (h)
+Metallic bonding (i) Electrolysis" (SRC-SPEC-4CH1, Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf p17).
 Temporal scope: CURRENT — AUTHORITATIVE.
 
 ### ASM-056 — Topic 1 coverage is demonstrably probed
@@ -124,9 +124,11 @@ Temporal scope: CURRENT — AUTHORITATIVE.
 **Claim:** excerpt windows prove that a topic IS probed; they cannot prove that a
 topic is NOT probed — areas outside the excerpt net are recorded as not-proven.
 **Evidence:** the pack's topic-marker excerpts appear in seven of its held paper
-files — for example the 2022-01 and 2023-01 1CR files carry topic-marker windows
- — while other sessions of the corpus sit
-outside this pack entirely and are therefore claimed for nothing here.
+files — for example the 2022-01 1CR chromatography marker (SRC-QPMS-4CH1,
+2022-01/4CH1-1CR/questions.md lines 184-198) and the 2023-01 1CR alkanes marker
+(SRC-QPMS-4CH1, 2023-01/4CH1-1CR/questions.md lines 133-147) — while other sessions
+of the corpus sit outside this pack entirely and are therefore claimed for nothing
+here.
 Temporal scope: CURRENT — AUTHORITATIVE.
 
 ### ASM-060 — Coverage synthesis for revision design
@@ -141,11 +143,12 @@ Temporal scope: CURRENT — AUTHORITATIVE.
 
 ## Evidence / Source Basis
 
-Primary evidence: SRC-SPEC-4CH1 (Issue 3 specification PDF — Topic 1 sub-topic list
-and assessment-objectives pages, page-located excerpts) and SRC-QPMS-4CH1
-(topic-marker line-window excerpts across the pack's 2019-2023 papers). No ER
-evidence consumed; no specimen material cited; supplementary sources not consumed
-for claims.
+Primary evidence: SRC-SPEC-4CH1 (Issue 3 specification PDF — the Topic 1 sub-topic
+list, quoted here as the full (a)–(i) nine-item list, and the assessment-objectives
+page, page-located excerpts) and SRC-QPMS-4CH1 (topic-marker line-window excerpts
+across the pack's 2019-2023 papers). SRC-SAMS-4CH1 and SRC-TL-4CH1 ride as one-page
+identity-presence entries consumed for no claims (SAMS identity law; supplementary
+texture law). No ER evidence consumed; no specimen material cited for claims.
 
 ## Limitations / Coverage Gaps
 
@@ -157,7 +160,11 @@ claimed nor denied. No canonical planes were written.
 
 ## Research Status
 
-GENERATED under SIB-CHEMISTRY_4CH1-RUN-005 (BL-008 pass 5) from the run's evidence
-pack alone; validator of record tools/sib @ 357ace0a; claim QA r3 bound all citations
-to pack excerpts. Research artifact — evidence-backed, not canonical educational
-truth.
+GENERATED v1.1 under SIB-CHEMISTRY_4CH1-RUN-010 (BL-010 pass 10 remediation,
+operator order trace 1a178e533eaa1b81) from the run's evidence pack alone; validator
+of record tools/sib @ 357ace0a; claim QA r4 bound all citations to pack excerpts.
+Remediation of record: the Topic 1 sub-topic count corrected from seven to nine
+against the full p17 sub-topic list — the v1.0 excerpt window truncated at "(g) Cov"
+and the sub-topic count was taken from the truncated window; ASM-059's example
+citations upgraded to line-located windows (same files, same claim). Research
+artifact — evidence-backed, not canonical educational truth.
