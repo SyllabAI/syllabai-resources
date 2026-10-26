@@ -215,6 +215,19 @@ there. Nothing in this directory renders or embeds UGM content.
   Picks: r6959 (3.8.1, 3.8.4) / r7410 (3.8.2, 3.8.3) — both riding joins, the r6018-style disclosure applies
   lane-wide.
 
+- **Lane 17 (CIE 9709 Pure 3 3.9 Complex numbers)** —
+  `cie-a-level-maths-20-pure-3-complex-numbers.json`: the **ninth and FINAL spine subtopic on the pure-3 course
+  plane** and the **corpus-boundary lane of record** — **ZERO aligned rows (the first zero-aligned lane of
+  record)**, zero fresh bodies, zero cross-lane joins; psp blocks 8 = 0/0/0/0/0/0/0/0 (all honest-empty, no
+  picks); 1 non-overlap companion disclosure (absurder — the conjugate-pair factorisation `a²+b²=(a+ib)(a−ib)`
+  derived from `i²=−1` as a solution aside; the lane-9 row stands) and 42 of-record candidates rejected with
+  reasons carrying the six registers of record. **THE CORPUS-BOUNDARY DISCLOSURE, TOTAL**: the site's
+  complex-numbers substrate was never published — complex-numbers-faces (id 8) and complex-numbers-plane (id 9)
+  are post-freeze AcademicReview stations with ZERO public resources (live-verified with the vector-geometry 27
+  control and the differential-equations 0 control; matrices id 17 likewise 0) — the 855/25 corpus of record is
+  final. No coverage is manufactured (rule 3): the corpus poverty is the site's, disclosed not repaired.
+
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.

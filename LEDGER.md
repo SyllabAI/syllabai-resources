@@ -826,3 +826,35 @@ served bundle PR carries a full disclosure census.
   SUGGESTED, 53 candidates closed exactly, stationScope five-station-plus-rejects, corpus-boundary
   disclosure carried). Both README lane-16 sections. Audits fail-closed ALL GREEN (closure exact
   53 = 2 + 4 + 47; MANIFEST additive; 0 collisions trivially; spine rows verbatim).
+
+- **T-UGM-MODE1-17 — UGM lane 17 cross-map, Pure 3 3.9 Complex numbers (this run)**:
+  sixteenth landing; operator order "eyeball+merge on #391 → the pure-3 hub serve spans 8 lanes →
+  lane 17" (trace `1a177fc5081804bd`; the lane-16 closure named "3.9 Complex numbers is the natural
+  lane 17 per the spine's remaining SUB3.9 row, with lane 16's corpus-boundary caution applying").
+  FOUR sweep angles over the 855-resource corpus of record (title/desc regex; full-text 12-signature
+  regex; the de Moivre / √(negative) / number-system angle; the pre-baked-bearing check — none exist
+  in the 16 enrichments of record) → 43 candidates closed exactly: **0 aligned (the FIRST
+  ZERO-ALIGNED lane of record), 1 companion disclosure (absurder — the a²+b²=(a+ib)(a−ib)
+  conjugate-pair factorisation derived from i²=−1 as a solution aside; the lane-9 non-overlap row
+  stands), 42 rejections with reasons** carrying the six registers of record (the conjugate-pair
+  aside; the optional ±i substitution in r7243; the teacher-facing discriminant link in
+  discriminating(+TS); the x=√−4 notational shorthand in two-way-algebra; the elsewhere-deferral in
+  domain-and-range-dominoes; the named-never-executed method in r5927). THE CORPUS-BOUNDARY FINDING,
+  TOTAL: the site's complex-numbers substrate was never published — complex-numbers-faces (id 8) +
+  complex-numbers-plane (id 9) are post-freeze AcademicReview shells with ZERO public resources
+  (live API 0/0; ~7 KB station pages with zero resource links; controls vector-geometry 27 +
+  differential-equations 0 re-verified; matrices-linear-transformations id 17 likewise 0) — all four
+  never-captured stations are empty shells, nothing to crawl, the 855/25 corpus of record is final.
+  All eight spec points 3.9.1–3.9.8 honest-empty, no picks; corpus-wide zeroes: argand 0,
+  roots-of-unity 0, purely-imaginary 0, Re/Im(z) 0, de Moivre 0. Cross-map
+  `cross-map-p3-complex-numbers.json` @ syllabai-experimental `2d6c5d6a` (spine export +3.9.1–3.9.8,
+  35 → 43 — the pure-3 spine COMPLETE of record).
+- **T-UGM-IMPORT-17 — UGM text corpus import, Pure 3 Complex numbers lane (this run)**:
+  eighteenth landing; the candidate-model law continues with the ZERO-FRESH, ZERO-ALIGNED adaptation:
+  NO new body files (`file_count` 628 → 628 unchanged; `pure-3-complex-numbers/` not created), no
+  aligned rows to record, the ONE companion disclosure rides byref (`bodyImported: false`), MANIFEST
+  v17 → v18 (lane-17 block appended; lane-1..16 rows + v9 assets untouched; strictly additive).
+  Enrichment `cie-a-level-maths-20-pure-3-complex-numbers.json` (schema 1.0, SUGGESTED, 43 candidates
+  closed exactly, stationScope eighteen-station-plus-rejects, the corpus-boundary disclosure carried).
+  Both README lane-17 sections. Audits fail-closed ALL GREEN (closure exact 43 = 0 + 1 + 42; MANIFEST
+  additive; 0 collisions trivially; spine rows verbatim).

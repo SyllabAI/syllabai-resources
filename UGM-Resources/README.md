@@ -178,6 +178,30 @@ live with a populated-station control); the DE exam-register substrate the spec 
 wells) closes the boundary fail-closed. Picks: r6959 (3.8.1, 3.8.4) / r7410 (3.8.2, 3.8.3) — both riding joins,
 the r6018-style disclosure applies lane-wide. MANIFEST v16 → v17 (628 → 628, zero body files).
 
+## Lane 17 — CIE 9709 Pure 3 3.9 Complex numbers (T-UGM-IMPORT-17)
+
+The **ninth and FINAL spine subtopic on the pure-3 course plane**, and the CORPUS-BOUNDARY LANE OF RECORD —
+the lane-16 caution applied and hardened: ZERO aligned rows (**the first zero-aligned lane of record**) and
+**zero fresh bodies** (`pure-3-complex-numbers/` is therefore NOT created; `file_count` 628 → 628). The
+corpus-boundary finding is total: the UGM site never published its complex-numbers substrate — both
+complex-numbers stations (complex-numbers-faces id 8, "The Many Faces of Complex Numbers"; complex-numbers-plane
+id 9, "Complex Numbers in the Plane") are post-freeze `AcademicReview` shells with **zero public resources**
+(verified live this lane: the station resource APIs return 0/0 and both public station pages are ~7 KB shells
+with zero resource links; populated-station control vector-geometry 27 and the lane-16 differential-equations 0
+control re-verified; matrices-linear-transformations id 17 likewise 0 — all four never-captured stations are
+empty shells). Nothing was crawlable: the 855-resource / 25-station corpus of record is final, and the lane is
+screened entirely against it. 43 candidates of record closed exactly: **1 companion disclosure** (absurder —
+the Approach-2 aside derives the conjugate-pair factorisation `a²+b² = (a+ib)(a−ib)` from `i² = −1`, bodyImported
+false; the lane-9 non-overlap row stands) and **42 rejections with reasons** carrying the six registers of
+record (the conjugate-pair aside; the optional ±i substitution in r7243; the teacher-facing "Link to complex
+numbers" line in discriminating(+TS); the `x = √−4` notational shorthand in two-way-algebra; the
+"you may learn about those elsewhere" deferral in domain-and-range-dominoes; the named-never-executed complex
+method in r5927). All eight spec points 3.9.1–3.9.8 are honest-empty blocks (resourceCount 0 / ugmIds [],
+`primaryPick: null`) — no picks, and no pickDisclosure arises. Corpus-wide signature zeroes: `argand` 0,
+`roots of unity` 0, `purely imaginary` 0, Re/Im(z) 0, de Moivre 0. The pure-3 spine 3.1–3.9 is COMPLETE of
+record at 43 spine rows. MANIFEST v17 → v18 (628 → 628, zero body files).
+
+
 ## Rights and licensing authority
 
 - **Rights holder:** © University of Cambridge (Underground Mathematics); sourced
