@@ -1,0 +1,110 @@
+stage: S4
+date: "2026-10-26"
+agent: "T-BOOK-061 r0 (session web-c414c074 chat 08b3170a, trace 1a177472e66eb2e5)"
+prompt_version: "lesson-prose@2.0.0"
+lint: "PASS"
+trace_id: "1a177472e66eb2e5"
+summary: >-
+  u4:c28 Esters authored end-to-end S4 6/6 under lesson-prose@2.0.0
+  standalone voice (r0, no retrofit debt; the seventh Unit-4 chapter — operator
+  lane order "go: c28", trace 1a177472e66eb2e5; standing merge+flip trace
+  1a1658a2da08e5bd). State reconciliation first: production lessons-index 27/27
+  packs u1-c01…u4-c27 (c27 published by T-BOOK-060); remote resources main
+  8b5a64f1 re-verified at lane start (c27 r1 state); gate N re-derived = 28 for
+  this lane. join_set DERIVED at S0-L0 from the printed objectives box (chunk
+  1158 — all SIX bullets present; the LO box prints TWO-COLUMN, left column
+  4.38C/4.39C/4.40C and right column 4.41C/4.42C/4.43C, and the parse
+  linearized it with the third/fifth bullets transposed [4.41C read before
+  4.40C]; mapping by title to the spine is unambiguous, NO point missing) x
+  spine igcse-chemistry-T4:SUBg = 4.38C-4.43C ALL CHEMISTRY-ONLY 0+6 (papers
+  [2C] only, double_award_shared false on all six) — the THIRD consecutive
+  all-C pack after c26 0+5 and c27 0+4 and the seventh overall (f-0015 sibling
+  audit run SUBSTANTIVELY: u1 all-core x7 / all-C x3; c11/c12 mixed 3+1; c13/c14
+  all-core; c15 all-C; c16 mixed 5+1; c17 mixed 7+3; c18 all-core; c19 mixed
+  5+3; c20 mixed 7+1; c21 mixed 2+4; c22 ALL-CORE 6+0; c23 ALL-CORE 12+0; c24
+  ALL-CORE 4+0; c25 ALL-CORE 6+0; c26 ALL-C 0+5; c27 ALL-C 0+4; c28 ALL-C 0+6 —
+  no mixed-shape drift). chem_only: true (spine applicability governs; the
+  printed CHEMISTRY ONLY banner sits ABOVE the chapter heading on p297 —
+  f-0027 class banner, located by page OCR + 300-dpi image inspection since the
+  parse dropped the standalone banner chunk — and END OF CHEMISTRY ONLY closes
+  p301: whole-chapter block; BOTH banner lines are parse-absent).
+  DISCLOSED f-0016 cover (spine-canonical pin, spine node igcse-chemistry-T4:SUBg):
+  the 4.38C spine title ends at "the functional group" with the group identity
+  carried by the spec DRAWING, which the book prints INSIDE the objectives
+  bullet (C=O joined through —C—O—, condensed -COO-) — taught in s01/s03; the
+  chunk renders the condensed form garbled as "-Coo-" — l/I glyph class
+  repaired to -COO- throughout.
+  Raw map verified byte-equal against the committed pre-derived
+  section-maps/u4-c28.json (4 sections, pages [297,299]; parse sha b2c67eaf
+  re-verified at lane start), then refined raw 4 -> authored 6 with
+  receipt-disclosed re-homings mirroring the PRINTED book order: 1159 raw-s01
+  -> s02 (nail-polish DYK prints p298 left margin beside MAKING); 1160/1161
+  raw-s01 -> s03 (EXTENSION H/OH detail prints beside Fig 28.2; the oate KEY
+  POINT prints beside Fig 28.3); 1164/1166/1167 stay s03 (KEY POINTs + HINT +
+  DYK/reverse glue — the 1167 glue split: DYK fruity is the p299 margin box,
+  the reverse-method prose + Fig 28.4 taught in body); 1169 raw-s04 -> s05
+  (the Safety Note prints p300 left margin directly beside the PRACTICAL box;
+  the parse kept it under the USES heading run); 1170 home s04 by bulk
+  (solubility EXTENSION prints p300 margin above the practical heading, uses
+  context); 1173/1174 -> s06 (questions close, c11-c27 precedent). The s05
+  practical is PROMOTED from the raw s04 run on its printed PRACTICAL heading
+  (c26/c27 banner-promotion precedent). NO borrower sections: every authored
+  section owns an exclusive census home (the c27 shared-pointer class not
+  needed; 17 pointers / 17 unique).
+  Absent-slot audit: slots 1157..1174 = 18 with 1165 ABSENT — the
+  image-rendered p299 Table 28.1 nine-ester grid (per position between KEY
+  POINT 1164 and HINT 1166; recovered by 300-dpi OCR and taught as content in
+  s03: methanol/ethanol/propan-1-ol rows x methanoic/ethanoic/propanoic acid
+  columns = nine esters; figure-slot law). NO absent-equation restores needed
+  (1165 is a table, not an equation object; both chapter equations survive
+  in-chunk).
+  TWO equations of record carried with in-chunk repairs (print-verified at
+  300 dpi; the f-0028 identity gate ran before every crop: pdfinfo Pages ==
+  383 AND sha256 d48020e0): CH3COOH(l) + CH3CH2OH(l) -> CH3COOCH2CH3(l) +
+  H2O(l) in s02 (chunk garbles: doubled subscript glyph "CH₃3COOH", letter-I
+  state symbols "(I)" x3, arrow lost to "=" — all repaired per the printed
+  equation; atom-balanced C4H10O3 = C4H10O3) and the reverse splitting
+  equation in s03, CH3COOCH2CH3(l) + H2O(l) -> CH3COOH(l) + CH3CH2OH(l)
+  (print-true from the Fig 28.4 zone; atom-balanced). ONE opener-garble
+  restore: chunk 1157 renders the printed opener-band first sentence as a
+  garble ("Alel as s o e a a s a...") — restored per print in s01 ("Alcohols,
+  carboxylic acids and esters are organic compounds that contain oxygen as
+  well as carbon and hydrogen. They are closely related."). ONE
+  parse-truncation repair (NEW f-0031 class FILED closed in-lane): chunk 1171
+  ends mid-word ("makes them easy to sm") — the printed step 7 (wafting
+  instruction) truncated by the parse; restored verbatim per print in s05 and
+  the step-6 word completed ("easy to smell").
+  f-0017 print-ref strips -> in-product pointers: the
+  carboxylic-acids-from-oxidation opener sentence -> u4:c26; Chapter 21
+  equilibrium callback -> u3:c21; condensation forward reference -> u4:c29;
+  rates-lesson catalyst callback -> u3:c20; carbonate-acid rule -> u2:c16; no
+  Figure/Table/page deflection in student prose (figure slots x6 taught in
+  words: the fats-and-oils photo, the formation diagram, the two-ways-round
+  drawing, the splitting diagram, the cosmetics-researcher photo, the
+  test-tube practical diagram; Table 28.1 taught as content with its
+  colour-coding taught as the red-alcohol/blue-acid fragment trace).
+  Safety: the f-0029 recipe APPLIED (all five experiment-bearing pages
+  p297-301 OCR-checked) — ONE printed safety panel exists and IS
+  parse-present (chunk 1169: goggles + fume cupboard + skin contact +
+  wafting): honest presence, carried as the s05 census-true safety box — the
+  course's FIRST parse-present safety panel (c26/c27 were honest absences).
+  Questions bank: FIVE printed questions (Q1 draw/name six compounds across
+  structural + displayed + named levels; Q2 four-part all-esters-from-two-
+  alcohols-two-acids planning set with method + detection + uses; Q3 decode
+  named and drawn esters to their parent pairs; Q4 ethanol-as-only-organic-
+  starting-material multi-step route to ethyl ethanoate with oxidation
+  callback; Q5 three unlabelled samples identified without smelling) —
+  page-jump-only per the licensing law, shapes taught not text.
+  Voice audit 0 hits across 6 sections ("this chapter" self-reference is the
+  c27 s07 verbatim precedent). Boxes: exam-hint + misconception + quick-check
+  x6 (every section); key-point x2 (s02 catalyst rule authored from 1162
+  prose — disclosed; s03 oate rule census-true 1161 + which-bond census-true
+  1164; the colours KEY POINT 1164a taught in s03 prose — disclosed);
+  did-you-know x2 (s02 nail-polish census-true 1159; s03 fruity census-true
+  1167); safety x1 s05 census-true 1169; worked-example x1 s03 authored
+  disclosed (the grid decode walk; c23/c24 precedent); prior-knowledge x1
+  s01; cross-curricular honestly absent this lane; summary + can-you s06.
+  Chip convergence pass: per-section body chip-set == front-matter list
+  everywhere (S0.23). Glossary 18 entries, full ms layer (ms_accepts +
+  ms_avoids + chunkRef source). verifier verify_c28_s0.py committed in-repo
+  (f-0023 law) with ALL GREEN at emit time.
