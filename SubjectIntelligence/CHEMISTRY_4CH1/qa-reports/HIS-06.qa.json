@@ -1,0 +1,27 @@
+{
+  "artifact_id": "HIS-06",
+  "content_sha256": "ead86fab15bf6270fad5b0f33f89ea671f738969cc5d570af5cb2313e226f6bf",
+  "filename": "CHEMISTRY_4CH1_HIS-06_PERSISTENT_PATTERNS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "HIS-06",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "HIS-06"
+  },
+  "sib_protocol": "SIB-1.0"
+}

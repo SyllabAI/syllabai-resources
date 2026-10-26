@@ -1,0 +1,140 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-007",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai_resources": "4920c4640615c14a7c769c875bb87b40b361f0c2"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "HIS-01",
+      "filename": "CHEMISTRY_4CH1_HIS-01_SPECIFICATION_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-01/evidence_pack.json",
+      "evidence_pack_sha256": "76d4eeed14da1602a8c54721aee318f8fb6a862cae9fb13cbc50099a3a4f0e64",
+      "artifact_sha256": "e0a632bf811e37c50dfad3959867c4a22fa74904891ef6c7d12a6f0338ce8ef2",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 9 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and legacy-PDF page locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/HIS-01.qa.json"
+    },
+    {
+      "artifact_id": "HIS-02",
+      "filename": "CHEMISTRY_4CH1_HIS-02_LEGACY_TO_CURRENT_MAPPING.md",
+      "evidence_pack": "evidence/HIS-02/evidence_pack.json",
+      "evidence_pack_sha256": "532589e51d2c112085e877fca7eeef68317b5bf72794aa70c9d8a3458004e38e",
+      "artifact_sha256": "a14998b9ae874a36201a3d1df16823d1793b9782b3619d479ff5d24e18a4ccc8",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 14 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and legacy-PDF page locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/HIS-02.qa.json"
+    },
+    {
+      "artifact_id": "HIS-03",
+      "filename": "CHEMISTRY_4CH1_HIS-03_ASSESSMENT_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-03/evidence_pack.json",
+      "evidence_pack_sha256": "cf3c1ef9ce432669cf797312cece12174edb024981aba58a041c41c8ff40ac70",
+      "artifact_sha256": "81f48c5ea4496498b75d02290ae92f32207951497408e9760e7ace12b721b11e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 12 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and legacy-PDF page locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/HIS-03.qa.json"
+    },
+    {
+      "artifact_id": "HIS-04",
+      "filename": "CHEMISTRY_4CH1_HIS-04_TERMINOLOGY_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-04/evidence_pack.json",
+      "evidence_pack_sha256": "3bb5dc31dda8f4c53b8a6c5b8cf442c5a8a6dbb18fd05299e45c67ee6765d7e1",
+      "artifact_sha256": "d344056fa15ce8ea6a12130606c02de293d0f519735c9dddd54c73b1102846e5",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 15 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and legacy-PDF page locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/HIS-04.qa.json"
+    },
+    {
+      "artifact_id": "HIS-05",
+      "filename": "CHEMISTRY_4CH1_HIS-05_QUESTION_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-05/evidence_pack.json",
+      "evidence_pack_sha256": "e5ad99257d7270e9e46065ce1f802e07083189dffc952f6c58bbff8ca4bb2255",
+      "artifact_sha256": "1144c5c31fa63966c57d847310382af6d0e4a14220afae2b580e55ad87580c98",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 8 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and legacy-PDF page locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/HIS-05.qa.json"
+    },
+    {
+      "artifact_id": "HIS-06",
+      "filename": "CHEMISTRY_4CH1_HIS-06_PERSISTENT_PATTERNS.md",
+      "evidence_pack": "evidence/HIS-06/evidence_pack.json",
+      "evidence_pack_sha256": "55e7e739ee3bbf8d47d2b624ba66cb530242c2972d74fe593010ac660d7d4355",
+      "artifact_sha256": "ead86fab15bf6270fad5b0f33f89ea671f738969cc5d570af5cb2313e226f6bf",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 16 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and legacy-PDF page locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/HIS-06.qa.json"
+    },
+    {
+      "artifact_id": "HIS-07",
+      "filename": "CHEMISTRY_4CH1_HIS-07_HISTORICAL_RELEVANCE_ANALYSIS.md",
+      "evidence_pack": "evidence/HIS-07/evidence_pack.json",
+      "evidence_pack_sha256": "78b9bb34d83022e7a0824f01fe25fa299c5c1bb049f42818b548d86f073155cd",
+      "artifact_sha256": "ce6eb053c78b61cd32f96dd2f4a9413c1fe7aa88b33770c53400cb3f149d8204",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (HIS primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1 all RESOLVED; 10/17 sources resolved, 7 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; INFO SIB-ANCH-003 registry note disclosed)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 15 citations checked, 0 violations; (SRC-*, locator) incl. markdown-range and legacy-PDF page locators all resolve to the artifact's own pack; quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation, educational accuracy, output usefulness)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/HIS-07.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

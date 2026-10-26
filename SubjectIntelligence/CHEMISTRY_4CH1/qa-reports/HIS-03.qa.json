@@ -1,0 +1,27 @@
+{
+  "artifact_id": "HIS-03",
+  "content_sha256": "81f48c5ea4496498b75d02290ae92f32207951497408e9760e7ace12b721b11e",
+  "filename": "CHEMISTRY_4CH1_HIS-03_ASSESSMENT_EVOLUTION.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "HIS-03",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "HIS-03"
+  },
+  "sib_protocol": "SIB-1.0"
+}

@@ -1,0 +1,27 @@
+{
+  "artifact_id": "HIS-01",
+  "content_sha256": "e0a632bf811e37c50dfad3959867c4a22fa74904891ef6c7d12a6f0338ce8ef2",
+  "filename": "CHEMISTRY_4CH1_HIS-01_SPECIFICATION_EVOLUTION.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "HIS-01",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "HIS-01"
+  },
+  "sib_protocol": "SIB-1.0"
+}

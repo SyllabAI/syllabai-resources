@@ -1,0 +1,27 @@
+{
+  "artifact_id": "HIS-05",
+  "content_sha256": "1144c5c31fa63966c57d847310382af6d0e4a14220afae2b580e55ad87580c98",
+  "filename": "CHEMISTRY_4CH1_HIS-05_QUESTION_EVOLUTION.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "HIS-05",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "HIS-05"
+  },
+  "sib_protocol": "SIB-1.0"
+}
