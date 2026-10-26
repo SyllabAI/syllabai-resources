@@ -1,0 +1,27 @@
+{
+  "artifact_id": "GAP-02",
+  "content_sha256": "cf2edfbf2af14a3dd2b3907be934373efe51c702ad7c3b239151609215f7f22d",
+  "filename": "CHEMISTRY_4CH1_GAP-02_KG_COVERAGE_GAPS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "GAP-02",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "GAP-02"
+  },
+  "sib_protocol": "SIB-1.0"
+}

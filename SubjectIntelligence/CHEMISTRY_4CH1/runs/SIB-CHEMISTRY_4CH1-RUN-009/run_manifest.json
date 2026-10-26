@@ -1,0 +1,164 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-009",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "6ef8c89291a6662f11fc6dc5ada151c47b172075",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "GAP-01",
+      "filename": "CHEMISTRY_4CH1_GAP-01_CURRICULUM_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-01/evidence_pack.json",
+      "evidence_pack_sha256": "7de4375ce3695fa72c410cde33f5b94954d3755c21d39a0d4ffd3060b1bf6afc",
+      "artifact_sha256": "209bfde2b2ecd5da15304cc8008a9a8e651865997539b73b978ab49e615c910b",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-01.qa.json"
+    },
+    {
+      "artifact_id": "GAP-02",
+      "filename": "CHEMISTRY_4CH1_GAP-02_KG_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-02/evidence_pack.json",
+      "evidence_pack_sha256": "9c478786c9ff46c0ab27b35d4386ffa3cf6c0be200bd3faf65313e62e3586994",
+      "artifact_sha256": "cf2edfbf2af14a3dd2b3907be934373efe51c702ad7c3b239151609215f7f22d",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-02.qa.json"
+    },
+    {
+      "artifact_id": "GAP-03",
+      "filename": "CHEMISTRY_4CH1_GAP-03_ASSESSMENT_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-03/evidence_pack.json",
+      "evidence_pack_sha256": "0ec96cdac4e20eb86bb97119fb36e20eda2ca3671ea1f5c7420fa73055407493",
+      "artifact_sha256": "5d3ff39aa26b84e3c8fad992731898ec432a22de7ddfe55dd3d89d1814b50187",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-03.qa.json"
+    },
+    {
+      "artifact_id": "GAP-04",
+      "filename": "CHEMISTRY_4CH1_GAP-04_MISCONCEPTION_COVERAGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-04/evidence_pack.json",
+      "evidence_pack_sha256": "ca11fe3478a3bc1b6a8e25e5504827fc6addef571381e3e2ead419496c67de81",
+      "artifact_sha256": "e212273622384a596eae2c589e0785049c5d3e315d6388b7eabbd1b8ad5e5383",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-04.qa.json"
+    },
+    {
+      "artifact_id": "GAP-05",
+      "filename": "CHEMISTRY_4CH1_GAP-05_RESOURCE_QUALITY_GAPS.md",
+      "evidence_pack": "evidence/GAP-05/evidence_pack.json",
+      "evidence_pack_sha256": "06cdc9dcf46c7fff632c4612e62815ae87efe51b95fcc4a825625919691f9ef1",
+      "artifact_sha256": "d4599aec4d466f0fe28324f266f9dc1de0645b227b583b55f645a215f173092a",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-05.qa.json"
+    },
+    {
+      "artifact_id": "GAP-06",
+      "filename": "CHEMISTRY_4CH1_GAP-06_RETRIEVAL_RISK_ANALYSIS.md",
+      "evidence_pack": "evidence/GAP-06/evidence_pack.json",
+      "evidence_pack_sha256": "2599896fcb4fc7b973dd04d431e0625de1e3ae402d6198f32af8aab563310a93",
+      "artifact_sha256": "fb45f1a06d0fe349da9ef82caaa845f891ee96b9f5344852524cd91d8233a834",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-06.qa.json"
+    },
+    {
+      "artifact_id": "GAP-07",
+      "filename": "CHEMISTRY_4CH1_GAP-07_TUTOR_KNOWLEDGE_GAPS.md",
+      "evidence_pack": "evidence/GAP-07/evidence_pack.json",
+      "evidence_pack_sha256": "fba52a567a9f0497d4c2df797298ec607142b302404ce8cae2687aca83ce33a5",
+      "artifact_sha256": "c457ced2ead7db3f1aff36123d59caf891370d84ee5134ae8ea6c9ac9a53b09d",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-07.qa.json"
+    },
+    {
+      "artifact_id": "GAP-08",
+      "filename": "CHEMISTRY_4CH1_GAP-08_SUBJECT_RESEARCH_BACKLOG.md",
+      "evidence_pack": "evidence/GAP-08/evidence_pack.json",
+      "evidence_pack_sha256": "f73c7e7efebd86c484fcc0f9f8edacd01facf196d47f4c3c50c8615c94421edb",
+      "artifact_sha256": "681881319c9741f1e84b16269e444419874a6341f8654812861df644787395b7",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched per policy primary; 6/17 sources resolved, 11 absent corpora disclosed run-wide)",
+        "structural": "PASS (tools.sib.cli qa @ validator of record 357ace0a: 0 errors, 0 warnings; qa-reports/ written by the validator)",
+        "evidence_claim_qa": "PASS (sib_evidence_claim_qa.py r4: 120 citations checked, 0 violations final after one disclosed in-turn repair cycle of 13 out-of-window citations; every (SRC-*, locator) resolves to the artifact's own pack, quoted fragments bound per-record)",
+        "educational_review": "PASS (five pilot acceptance criteria applied per artifact: citation resolution, source coverage, current/legacy separation — all records CURRENT — AUTHORITATIVE, educational accuracy — claims bounded by quoted spans with gaps disclosed never filled, output usefulness — each record is an audit finding or a research commitment an operator can act on)",
+        "staging_publication": "NOT REQUESTED (operator gates)"
+      },
+      "qa_report": "qa-reports/GAP-08.qa.json"
+    }
+  ],
+  "gates": {},
+  "disclosures": [
+    "GAP supplementary '*' selects every resolved source (6/17): each of the 8 packs explicitly plans all six resolved sources — SRC-SPEC-4CH1 (policy primary), SRC-BOOK-4CH1-SB1, SRC-ER-4CH1, SRC-TL-4CH1, plus SRC-ROOT-BOOK-COPIES-4CH1 and SRC-SAMS-4CH1 as one-page identity-presence entries consumed for identity claims only (global_forbidden honored: no grounding on un-adjudicated root book copies; SAMS identity law honored: no live-session evidence claim)",
+    "preflight resolved 6/17 sources; 11 failed sources disclosed (SRC-SME-EXAMQ-4CH1, SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1, SRC-GRAPH-4CH1, SRC-SPECLINKS-4CH1, SRC-LESSONS-4CH1, SRC-RAG-PKG-4CH1, SRC-QPMS-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-ER-4CH0-LEGACY + sparse-cone scope) — none is the GAP primary; GAP primary SRC-SPEC-4CH1 RESOLVED with declared digest matched",
+    "SRC-GRAPH-4CH1 is absent of record: GAP-02's KG claims are grounded on the specification content map and the book's learning-objectives nodes only; the KG-corpus absence is disclosed in-artifact (gaps disclosed, never filled)",
+    "GAP-03's SRC-BOOK-4CH1-SB1 planned query matched no chunk text ('EXAM HINT' is the parse v3 content-type label, not chunk text) — the SB1 entry resolved identity-only and is consumed for no claim; disclosed rather than re-queried post-authoring",
+    "evidence-claim QA first pass reported 13 violations — every one a citation pointing outside its artifact's own pack window (GAP-02: SB1 line 8 + spec p29; GAP-04: two TL cover pages, ER 2019-06 1C cover, spec p15; GAP-05: SB1 lines 1100/1078 + 2024-06 2C cover; GAP-06: ellipsis quote-pairing; GAP-08: fitz column-order reflow of the spec change-summary table) — all re-pointed to in-pack locators before any record was committed; deterministic rebuild, sha256s of record in census.json; final r4 pass: 120 citations, 0 violations",
+    "the garbled 2024-06 4CH1 1C examiner report stays excluded of record (RUN-005 exclusion carried forward); the GAP-03 ER census of record is 23 clean covers, deliberately without it"
+  ]
+}

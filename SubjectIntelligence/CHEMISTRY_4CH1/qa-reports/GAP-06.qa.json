@@ -1,0 +1,27 @@
+{
+  "artifact_id": "GAP-06",
+  "content_sha256": "fb45f1a06d0fe349da9ef82caaa845f891ee96b9f5344852524cd91d8233a834",
+  "filename": "CHEMISTRY_4CH1_GAP-06_RETRIEVAL_RISK_ANALYSIS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "GAP-06",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "GAP-06"
+  },
+  "sib_protocol": "SIB-1.0"
+}

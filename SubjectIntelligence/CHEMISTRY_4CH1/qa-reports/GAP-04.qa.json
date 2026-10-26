@@ -1,0 +1,27 @@
+{
+  "artifact_id": "GAP-04",
+  "content_sha256": "e212273622384a596eae2c589e0785049c5d3e315d6388b7eabbd1b8ad5e5383",
+  "filename": "CHEMISTRY_4CH1_GAP-04_MISCONCEPTION_COVERAGE_GAPS.md",
+  "qa_passed": true,
+  "report": {
+    "context": {},
+    "counts": {
+      "ERROR": 0,
+      "INFO": 1,
+      "WARNING": 0
+    },
+    "issues": [
+      {
+        "artifact_id": "GAP-04",
+        "code": "SIB-ANCH-003",
+        "field": "curriculum_anchor_refs",
+        "message": "no curriculum registry supplied; anchor existence not checked",
+        "record_id": "",
+        "severity": "INFO"
+      }
+    ],
+    "qa_passed": true,
+    "unit": "GAP-04"
+  },
+  "sib_protocol": "SIB-1.0"
+}
