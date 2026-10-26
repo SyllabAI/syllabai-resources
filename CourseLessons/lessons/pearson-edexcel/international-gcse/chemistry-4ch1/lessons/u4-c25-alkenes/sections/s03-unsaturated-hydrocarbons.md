@@ -38,8 +38,7 @@ bond, they can be told apart from saturated ones with a single
 test-tube reagent. Saturation is not just vocabulary — it is a
 property you can *detect*. Keep the two definitions paired in your
 notes: saturated = single bonds only, unsaturated = at least one
-double or triple bond, alkenes = the unsaturated family you meet
-in this course.
+double or triple bond, alkenes = the unsaturated family.
 
 :::key-point
 Saturated means single C–C bonds only; unsaturated means the

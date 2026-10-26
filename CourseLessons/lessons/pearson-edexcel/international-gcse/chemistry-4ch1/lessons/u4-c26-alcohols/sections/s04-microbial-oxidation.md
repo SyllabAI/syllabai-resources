@@ -22,7 +22,7 @@ aigre*, which over the centuries has been distorted into
 **vinegar** — the word on the label is a record of this reaction.
 
 Ethanoic acid is the family's first look at the carboxylic acids —
-a later chapter in this course (u4:c27) takes that family properly.
+a later chapter (u4:c27) takes that family properly.
 What matters here is the transformation: ethanol's –OH carbon gains
 a bond to oxygen, and the –CH₂CH₃ end of the molecule becomes the
 –COOH (carboxylic acid) group. Drawn as displayed formulae, ethanol

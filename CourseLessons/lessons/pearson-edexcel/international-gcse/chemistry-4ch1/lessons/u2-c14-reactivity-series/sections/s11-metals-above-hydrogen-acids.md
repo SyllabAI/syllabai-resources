@@ -16,7 +16,7 @@ is a mnemonic for it, and it is worth adopting permanently:
 **MASH** — Metal + Acid → Salt + Hydrogen.
 
 Say the pattern rather than memorising dozens of individual reactions:
-every metal-acid equation you will write in this course is MASH with
+every metal-acid equation you will write is MASH with
 the names filled in, and the salt's name comes automatically from the
 acid (sulfuric acid gives sulfates, hydrochloric acid gives chlorides —
 the next sections fill the table in). The hydrogen, meanwhile, is the
@@ -40,7 +40,7 @@ mnemonic is scaffolding, not the answer.
 
 :::misconception
 "Acid strength and metal position are two independent factors you must
-weigh up." For the dilute acids of this course, the metal's position
+weigh up." For dilute acids, the metal's position
 decides everything: above hydrogen reacts, below hydrogen does not, and
 vigour climbs with position. The acid's identity only chooses the salt
 half of the product. Treating the acid as a variable to negotiate with

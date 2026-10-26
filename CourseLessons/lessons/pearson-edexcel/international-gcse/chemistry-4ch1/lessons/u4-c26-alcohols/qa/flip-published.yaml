@@ -30,3 +30,14 @@ post_flip_checks:
   re_lint: 'PASS 0/0 at published'
   verifier: 'verify_c26_s0.py ALL GREEN 66 checks at published (committed in-repo, f-0023 law)'
 tracker_tx: 'law-10: tracker.yaml (u4-c26-alcohols pack_status=published sections 9/9) + TRACKER.md (header, board row 26, Unit-4 phase 5/8) + f-0029 in the SAME commit as the flip'
+
+# law-7 flip receipt (r2) — u4-c26-alcohols fleet de-trip (f-0036 ruling executed)
+command: 'operator ruling "fleet de-trip lane" (trace 1a179816098091b5) — r2 flip under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-27T00:53:05+06:00'
+head_at_flip: 720245a9
+agent: "T-BOOK-064 r2 (session web-c414c074 chat 08b3170a, trace 1a179816098091b5)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 40144 -> 40148 bytes, +4; sha256 6d8afc31... -> 7616c587df792426473dd2c96b51e2d2df064df32ce1b13f8174dc9d06fbaee6...) — the r2 re-emit carries the fleet de-trip(s), so this flip DOES move artifact bytes (the voice fix leaves production at the post-merge bake)'
+pack_identity: '9 sections; sources sha-pinned (course.yaml bookOfRecord/parseOfRecord); pre-edit emit-parity proven modulo status; paperRoute per lesson.yaml'
+post_flip_checks: 're-lint GREEN 0 errors (V1-V9 at stage S4, V5/V6 gates ON); tracker_check.py exit 0 (V10 gate, f-0035) rides the lane commit'
+tracker_transaction: 'law-10 tx rides this lane commit (tracker.yaml last_receipt/last_agent/updated_at + TRACKER.md row Owner tail)'
+next: 'v2 bake lane post-merge (9 pack byte deltas expected; 20 packs byte-identical assert; G4 x29 index-driven + 4 books suites + T-C20 battery --expect-packs 29)'

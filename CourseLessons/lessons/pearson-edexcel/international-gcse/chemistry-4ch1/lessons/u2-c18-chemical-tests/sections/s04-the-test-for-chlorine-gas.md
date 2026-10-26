@@ -11,7 +11,7 @@ glossary: [bleach]
 Hold a piece of **damp litmus paper** (or damp universal indicator paper) at
 the mouth of the tube or inside it. Chlorine **bleaches** the damp litmus
 paper — it turns the paper white. To [[bleach]] is to strip colour, and
-chlorine is the only gas on this course that does it.
+chlorine is the only gas you will meet that does it.
 
 The dampness matters. Chlorine dissolves in the water on the wet paper and
 reacts with it; dry paper is a much weaker positive result. And the order of

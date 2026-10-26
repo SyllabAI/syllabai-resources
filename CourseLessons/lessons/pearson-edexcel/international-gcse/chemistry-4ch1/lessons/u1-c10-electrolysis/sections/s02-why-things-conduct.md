@@ -8,7 +8,7 @@ blocks: []
 glossary: [delocalised-electron, lattice, anion, cation]
 ---
 
-One rule runs every conduction question in this course: **for a substance to
+One rule runs every conduction question: **for a substance to
 conduct electricity it must contain charged particles, and those charged
 particles must be free to move.** Both conditions matter. Charged but
 immobile conducts nothing; mobile but neutral conducts nothing either. The

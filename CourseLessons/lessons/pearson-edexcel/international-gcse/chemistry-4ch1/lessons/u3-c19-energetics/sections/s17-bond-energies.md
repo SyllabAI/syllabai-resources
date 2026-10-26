@@ -55,7 +55,7 @@ valid (see the next section's worked example).
 "A bond energy of 432 kJ/mol for H–Cl means one HCl molecule needs 432 kJ
 to break." The value is per **mole** of bonds — one molecule needs 432 kJ
 divided by the Avogadro number, an utterly tiny amount. All bond-energy
-arithmetic in this course runs in per-mole quantities multiplied by the
+arithmetic runs in per-mole quantities multiplied by the
 equation's coefficients.
 :::
 

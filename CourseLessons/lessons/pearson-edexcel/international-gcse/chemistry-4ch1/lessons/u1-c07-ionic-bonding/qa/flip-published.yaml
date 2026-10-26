@@ -8,3 +8,14 @@ pack_identity: '15 sections; sources sha-pinned (bookOfRecord d48020e0..., parse
 post_flip_checks: 're-lint GREEN 0 errors / 0 warnings (V1-V9 at stage S4, V5/V6 gates ON) + byte-level wikilink scan 16 chips / 15 sections / 0 unresolved'
 tracker_transaction: 'law-10 via lessonctl tracker: pack_status=published, last_receipt=qa/flip-published.yaml, lesson.yaml receipts mirror append; TRACKER.md board row 7 -> PUBLISHED + Unit-1-rest phase row updated + the c06 phases-row DRAFT drift and the missing f-0012 digest row fixed in the same commit (regeneration debt, disclosed in the tx commit)'
 next: 'v2 bake lane fires next in syllabai-v2 (apps/hub/scripts/import_lesson_packs.py fetch-first, token env-only; c07 FIRST bake, c01-c06 byte-identical expected, lessons-index 6->7 additive) — merge = the git-connected hub auto-bake: the u1:c07 Lesson toggle + shelf entry go live at the production origin of record syllabai-hub-v2.vercel.app (T-C20 published-only serving; battery scripts/tc20-battery.mjs --expect-packs 7 DEFERRED to the operator DB all-clear — B3/C3 are f-0011-class until then)'
+
+# law-7 flip receipt (r2) — u1-c07-ionic-bonding fleet de-trip (f-0036 ruling executed)
+command: 'operator ruling "fleet de-trip lane" (trace 1a179816098091b5) — r2 flip under the standing merge+flip authorization trace 1a1658a2da08e5bd'
+executed_at: '2026-10-27T00:53:05+06:00'
+head_at_flip: 720245a9
+agent: "T-BOOK-064 r2 (session web-c414c074 chat 08b3170a, trace 1a179816098091b5)"
+edit: 'qa/lessonPackV1.json single-field byte-precise: "status": "draft" -> "published" (exactly-1 assertion held; 53535 -> 53539 bytes, +4; sha256 d54a5681... -> c9d1e7467c7b4d9b0f2ce9d15d1ab4e60fa0e9584a72c1d0c7f0eaa19fbcab0a...) — the r2 re-emit carries the fleet de-trip(s), so this flip DOES move artifact bytes (the voice fix leaves production at the post-merge bake)'
+pack_identity: '15 sections; sources sha-pinned (course.yaml bookOfRecord/parseOfRecord); pre-edit emit-parity proven modulo status; paperRoute per lesson.yaml'
+post_flip_checks: 're-lint GREEN 0 errors (V1-V9 at stage S4, V5/V6 gates ON); tracker_check.py exit 0 (V10 gate, f-0035) rides the lane commit'
+tracker_transaction: 'law-10 tx rides this lane commit (tracker.yaml last_receipt/last_agent/updated_at + TRACKER.md row Owner tail)'
+next: 'v2 bake lane post-merge (9 pack byte deltas expected; 20 packs byte-identical assert; G4 x29 index-driven + 4 books suites + T-C20 battery --expect-packs 29)'
