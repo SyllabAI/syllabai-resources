@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:42:02Z",
+ "generated_utc": "2026-10-26T11:30:54Z",
  "series": "2019-06",
  "paper": "01R",
  "gates": [
@@ -47,10 +47,10 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 10 remain crop-required; 14 parts without page anchor",
+   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 10 remain crop-required; 16 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 14,
+    "pages_unanchored": 16,
     "crop_stats": {
      "crops": 1,
      "pending": 10,
@@ -157,10 +157,221 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (356 instances / 13 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (183 instances / 13 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
+ "text_repairs": {
+  "qp": {
+   "applied": 49,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": [
+    {
+     "line": 81,
+     "sha1_12": "0b4cf96c88ec"
+    },
+    {
+     "line": 107,
+     "sha1_12": "e456b785ff5e"
+    },
+    {
+     "line": 174,
+     "sha1_12": "d0078e923dd0"
+    },
+    {
+     "line": 175,
+     "sha1_12": "2141285b38c6"
+    },
+    {
+     "line": 244,
+     "sha1_12": "99b59b48bc1e"
+    },
+    {
+     "line": 245,
+     "sha1_12": "6485316bad7e"
+    },
+    {
+     "line": 246,
+     "sha1_12": "ebe3690c7f5c"
+    },
+    {
+     "line": 299,
+     "sha1_12": "99d0fef325dc"
+    },
+    {
+     "line": 310,
+     "sha1_12": "4c2f8bf8c1b6"
+    },
+    {
+     "line": 332,
+     "sha1_12": "e1f659ae8265"
+    },
+    {
+     "line": 352,
+     "sha1_12": "aaab500cd548"
+    },
+    {
+     "line": 490,
+     "sha1_12": "a8f87a3e8938"
+    },
+    {
+     "line": 492,
+     "sha1_12": "14a73200c351"
+    },
+    {
+     "line": 493,
+     "sha1_12": "f1840cb76f5f"
+    },
+    {
+     "line": 524,
+     "sha1_12": "8849b3a21b10"
+    },
+    {
+     "line": 536,
+     "sha1_12": "973fe949ad4b"
+    },
+    {
+     "line": 575,
+     "sha1_12": "bf8484569455"
+    },
+    {
+     "line": 597,
+     "sha1_12": "3fa4bab1333d"
+    },
+    {
+     "line": 631,
+     "sha1_12": "3a8a47700243"
+    },
+    {
+     "line": 636,
+     "sha1_12": "e159e4ec8f81"
+    },
+    {
+     "line": 637,
+     "sha1_12": "71093a60625d"
+    },
+    {
+     "line": 638,
+     "sha1_12": "adae12a6eae2"
+    },
+    {
+     "line": 853,
+     "sha1_12": "a6e12b4dad4f"
+    },
+    {
+     "line": 893,
+     "sha1_12": "ef69b68664ef"
+    },
+    {
+     "line": 919,
+     "sha1_12": "c1b551489ca1"
+    },
+    {
+     "line": 921,
+     "sha1_12": "71b00fe39c9e"
+    },
+    {
+     "line": 955,
+     "sha1_12": "bc48fa3b5ad0"
+    },
+    {
+     "line": 964,
+     "sha1_12": "482661730b44"
+    },
+    {
+     "line": 965,
+     "sha1_12": "85cffe7d7898"
+    },
+    {
+     "line": 967,
+     "sha1_12": "370d11c57e8c"
+    },
+    {
+     "line": 968,
+     "sha1_12": "73c18b18157b"
+    },
+    {
+     "line": 970,
+     "sha1_12": "1eaf27748dcc"
+    },
+    {
+     "line": 971,
+     "sha1_12": "59e5931302e7"
+    },
+    {
+     "line": 973,
+     "sha1_12": "38aab5047321"
+    },
+    {
+     "line": 974,
+     "sha1_12": "ac4a4f942531"
+    },
+    {
+     "line": 976,
+     "sha1_12": "9d36ce1b0726"
+    },
+    {
+     "line": 977,
+     "sha1_12": "09676729b364"
+    },
+    {
+     "line": 980,
+     "sha1_12": "e55855068efa"
+    },
+    {
+     "line": 1014,
+     "sha1_12": "97012938177f"
+    },
+    {
+     "line": 1015,
+     "sha1_12": "9728e8ec5e0e"
+    },
+    {
+     "line": 1017,
+     "sha1_12": "74de8ab00768"
+    },
+    {
+     "line": 1018,
+     "sha1_12": "c9d8cf7ad5e8"
+    },
+    {
+     "line": 1019,
+     "sha1_12": "a3f956a1b36a"
+    },
+    {
+     "line": 1020,
+     "sha1_12": "38fcd5ab1b60"
+    },
+    {
+     "line": 1021,
+     "sha1_12": "a10669668869"
+    },
+    {
+     "line": 1022,
+     "sha1_12": "c3b1ac81b11e"
+    },
+    {
+     "line": 1024,
+     "sha1_12": "937267b2b3bb"
+    },
+    {
+     "line": 1025,
+     "sha1_12": "e68f19b4c95c"
+    },
+    {
+     "line": 1071,
+     "sha1_12": "e2f248ece05c"
+    }
+   ]
+  },
+  "ms": {
+   "applied": 0,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": []
+  }
+ },
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
@@ -172,19 +383,19 @@
  "control_char_fallback": {
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
-   "0x1": 4,
-   "0x11": 12,
-   "0x13": 4,
-   "0x14": 4,
-   "0x15": 18,
-   "0x17": 4,
-   "0x18": 8,
-   "0x19": 8,
-   "0x1a": 36,
+   "0x1": 2,
+   "0x11": 6,
+   "0x13": 2,
+   "0x14": 2,
+   "0x15": 9,
+   "0x17": 2,
+   "0x18": 4,
+   "0x19": 4,
+   "0x1a": 18,
    "0x1d": 10,
-   "0x2": 4,
-   "0x3": 240,
-   "0xf": 4
+   "0x2": 2,
+   "0x3": 120,
+   "0xf": 2
   }
  }
 }

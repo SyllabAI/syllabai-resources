@@ -13,13 +13,12 @@ Calculate the size, in degrees, of the angle of the sector in the pie chart for 
 
 **Mark scheme answer**
 
-> 48 2 M1 Allow 23+47+56+48+26 for denominator.
-> � � × 360
-> 200
+> 2 M1 Allow 23+47+56+48+26 for denominator.
+> (48/200) × 360
 > 86.4 A1 Ignore anything after number (eg. %)
 > Allow 86 with working seen.
 
-- **(2)** 48 2 M1 Allow 23+47+56+48+26 for denominator.
+- **(2)** 2 M1 Allow 23+47+56+48+26 for denominator.
 
 ### 1(b) [4]
 
@@ -76,8 +75,7 @@ Calculate the number of males in the Central Region in 2017 Give your answer in 
 **Mark scheme answer**
 
 > 2 M1
-> "11 280 000"
-> � × 3�
+> ("11 280 000"/10) × 3
 > 3.384 × 106 A1 Allow answers between 3.38 × 106 and 3.39 × 106
 > inclusive must be in standard form. Allow a final answer
 > of 3.4 × 106 if an acceptable value is seen not written in
@@ -169,7 +167,7 @@ Calculate the length, in cm to 3 significant figures, of the arc ABC.
 
 ## Question 4 (12 marks)
 
-Triangle A is drawn on the grid opposite. 7KH SRLQWV í DQG DUH WKH YHUWLFHV RI WULDQJOH B.
+Triangle A is drawn on the grid opposite. The points (1, 2), (3, −2) and (1, 4) are the vertices of triangle B.
 
 ### 4(a) [1]
 
@@ -225,20 +223,18 @@ On the grid, draw and label triangle D. Triangle C is the image of triangle D un
 
 **Mark scheme answer**
 
-> −0.5 0 2 6 2 3 M2 for a matrix solution or list of coordinates containing
-> � �"� � "=
-> 0.5 −1 4 -4 8 at least 4 correct values seen or for 2 correct coordinates
-> −1 −3 −1 plotted
-> � �
-> −3 7 −7 Otherwise M1 for a correctly stated matrix product to
+> (−0.5 0) (2 6 2) = 3 M2 for a matrix solution or list of coordinates containing
+> ( 0.5 −1) (4 −4 8) at least 4 correct values seen or for 2 correct coordinates
+> (−1 −3 −1)
+> (−3 7 −7)
 > calculate the coordinates of triangle D
 > Triangle D drawn A1 cao
 
-- **(3)** −0.5 0 2 6 2 3 M2 for a matrix solution or list of coordinates containing
+- **(3)** (−0.5 0) (2 6 2) = 3 M2 for a matrix solution or list of coordinates containing
 
 ### 4(e) [3]
 
-Find the matrix N. ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix ⎜ is ⎥ ⎣ ⎝ c d ⎟⎠ ad − bc ⎜⎝ −c a ⎟⎠ ⎦ y í í í O 2 4 6 8 x A í í í í for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y í í í O 2 4 6 8 x A í í í í
+Find the matrix N. ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix ⎜ is ⎥ ⎣ ⎝ c d ⎟⎠ ad − bc ⎜⎝ −c a ⎟⎠ ⎦ y −6 −4 −2 A −2 −4 −6 −8 for a spare grid if you need to redraw your triangles. Only use this grid if you need to redraw your triangles. y −6 −4 −2 A −2 −4 −6 −8
 
 ![grid — official paper figure (qp.pdf p.9) — shared with asset_4_a_grid](assets/asset_4_a_grid.png)
 
@@ -247,25 +243,19 @@ Find the matrix N. ⎡ ⎛ a b⎞ 1 ⎛ d − b⎞ ⎤ ⎢The inverse of matrix 
 
 > Recognising that N = M −1 3
 > M1 Either state N = M −1 or NM=I or −1×−0.5−0×0.5 seen
-> −1
-> or � � seen.
-> −0.5 −0.5
+> or (−1 0 / −0.5 −0.5) seen.
 > A2
-> −1 0 A1 for one correct row or column including the 2.
-> 2� �
-> −0.5 −0.5 The factor of 2 may be included in matrix.
+> 2 (−1 0 / −0.5 −0.5)
 > Any A marks imply M1 if not already awarded.
-> ALT 𝑃𝑃 𝑄𝑄 −1 −3 −1
-> � �"� �" =
-> 𝑅𝑅 𝑆𝑆 −3 7 −7
-> 2 6 2
-> "� �”
+> ALT (𝑃𝑃 𝑄𝑄) (−1 −3 −1) =
+> (𝑅𝑅 𝑆𝑆) (−3 7 −7)
+> (2 6 2)
+> (4 −4 8)
 > and states at least 2 linear equations
 > in 2 variables derived from this.
-> A2
 > −2
-> � � A1 for one correct row or column or for 3 of the variables
-> −1 −1 listed correctly 𝑃𝑃 = −2, 𝑄𝑄 = 0, 𝑅𝑅 = −1, 𝑆𝑆 = −1
+> (−2 0 / −1 −1) A1 for one correct row or column or for 3 of the variables
+> listed correctly 𝑃𝑃 = −2, 𝑄𝑄 = 0, 𝑅𝑅 = −1, 𝑆𝑆 = −1
 > Total 12 marks
 > C
 > B
@@ -290,7 +280,7 @@ Calculate the length, in cm to 3 significant figures, of BE.
 > (𝐵𝐵𝐵𝐵 2 =)52 + 82 − 2(5)(8)cos(30)
 > M1 dep. Correct expression for BE.
 > Must demonstrate correct order of operations.
-> (𝐵𝐵𝐵𝐵 =)�52 + 82 − 40√3 We must see 40√3 or values which round to 69.3, 19.7 or
+> (𝐵𝐵𝐵𝐵 =)√(52 + 82 − 40√3) We must see 40√3 or values which round to 69.3, 19.7 or
 > 4.4 to award this mark.
 > AWRT 4.44 (cm) A1
 
@@ -328,10 +318,8 @@ Calculate the length, in cm to 3 significant figures, of CD. ⎡ ⎤ ⎢Cosine r
 > × 8 × "4.44" × sin "34.3"
 > M1 dep. This mark is not awarded until a square root is
 > Length scale factor
-> taken if a method involving 𝐶𝐶𝐶𝐶2 is used.
 > 18.9 + "10"
-> (𝑘𝑘 =)� (= 1.7)
-> "10"
+> (𝑘𝑘 =)√((18.9 + "10")/"10") (= 1.7)
 > M1 dep. Length scale factor multiplied by their value
 > 𝐶𝐶𝐶𝐶 = "1.7" × "4.44"
 > from (a)
@@ -385,9 +373,8 @@ Calculate the probability she passes test A. Preety has two attempts to pass tes
 
 **Mark scheme answer**
 
-> 3 2 2 2 3 3 3 2 2 2 3
-> +� × �+� × × � M2, M1 for either 5 × 5 or 5 × 5 × 8
-> 5 5 5 5 5 8
+> 3
+> 3/5 + (2/5 × 2/5) + (2/5 × 3/5 × 3/8) M2, M1 for either 5 × 5 or 5 × 5 × 8
 > 17 A1 oe.
 > or 0.85
 > ALT 1− × × M2, M1 for 5 × 5 × 8
@@ -395,7 +382,7 @@ Calculate the probability she passes test A. Preety has two attempts to pass tes
 > 17 A1 oe
 > or 0.85
 
-- **(3)** 3 2 2 2 3 3 3 2 2 2 3
+- **(3)** 3
 
 ### 7(b) [3]
 
@@ -404,19 +391,18 @@ Calculate the probability that Preety passes test B on her second attempt, given
 
 **Mark scheme answer**
 
-> 3 2 3 3 3 2 3 2 3 3
-> + 5 𝑝𝑝 = 4 or �4 − 5� ÷ 5 M2 or M1 for p (oe) or � − � seen
-> 5 5 4 5
+> 3
+> 3/5 + 2/5 𝑝𝑝 = 3/4 or (3/4 − 3/5) ÷ 2/5 M2 or M1 for 2/5 𝑝𝑝 (oe) or (3/4 − 3/5) seen
 > 3 A1 oe
 > or 0.375
 > ALT
-> = 5 × 𝑞𝑞 �𝑞𝑞 = 8�
+> 1/4 = 2/5 × 𝑞𝑞 (𝑞𝑞 = 5/8)
 > 5 M1 dep. Do not award if their value of q is not in the
 > 1−" " range 0 ≤ 𝑞𝑞 ≤ 1
 > 3 A1 oe
 > or 0.375
 
-- **(3)** 3 2 3 3 3 2 3 2 3 3
+- **(3)** 3
 
 ### 7(c) [2]
 
@@ -453,7 +439,6 @@ Find and simplify an expression for P in terms of x. The area of the lawn is A m
 
 > (𝑃𝑃 =)4𝑥𝑥 + (5𝑥𝑥 + 3) + (2𝑥𝑥 + 3) + 5𝑥𝑥 2 M1 Sum of four terms in x
 > (𝑃𝑃 =)16𝑥𝑥 + 6 oe A1
-> 1
 
 - **(2)** (𝑃𝑃 =)4𝑥𝑥 + (5𝑥𝑥 + 3) + (2𝑥𝑥 + 3) + 5𝑥𝑥 2 M1 Sum of four terms in x
 
@@ -464,12 +449,12 @@ Show that A = 14x2 + 12x The owner of the lawn wants the perimeter of the lawn t
 
 **Mark scheme answer**
 
-> 𝐴𝐴 = 2 �(2𝑥𝑥 + 3) + (5𝑥𝑥 + 3)�(4𝑥𝑥) oe 2 M1 Allow 𝐴𝐴 = (2𝑥𝑥 + 3) × 4𝑥𝑥 + 2 × 3𝑥𝑥 × 4𝑥𝑥 or
-> (7𝑥𝑥 + 6) × 4𝑥𝑥
+> 𝐴𝐴 = ½((2𝑥𝑥 + 3) + (5𝑥𝑥 + 3))(4𝑥𝑥) oe 2 M1 Allow 𝐴𝐴 = (2𝑥𝑥 + 3) × 4𝑥𝑥 + 2 × 3𝑥𝑥 × 4𝑥𝑥 or
+> ½(7𝑥𝑥 + 6) × 4𝑥𝑥
 > 𝐴𝐴 = 14𝑥𝑥 2 + 12𝑥𝑥 A1 Must be clearly shown with no incorrect steps. At
 > least one correct intermediate step must be seen.
 
-- **(2)** 𝐴𝐴 = 2 �(2𝑥𝑥 + 3) + (5𝑥𝑥 + 3)�(4𝑥𝑥) oe 2 M1 Allow 𝐴𝐴 = (2𝑥𝑥 + 3) × 4𝑥𝑥 + 2 × 3𝑥𝑥 × 4𝑥𝑥 or
+- **(2)** 𝐴𝐴 = ½((2𝑥𝑥 + 3) + (5𝑥𝑥 + 3))(4𝑥𝑥) oe 2 M1 Allow 𝐴𝐴 = (2𝑥𝑥 + 3) × 4𝑥𝑥 + 2 × 3𝑥𝑥 × 4𝑥𝑥 or
 
 ### 8(c) [6]
 
@@ -511,12 +496,12 @@ Find the range of possible values of x. Show clear algebraic working. ⎡ 1 ⎤ 
 
 ### 9(a) [5]
 
-Show that x2 í x í Given that x 0
+Show that x2 − 3x − 9 = 0 Given that x > 0
 
 
 **Mark scheme answer**
 
-> �(2𝑥𝑥 − 1)2 + 𝑦𝑦 2 = √98 5 M1 Correct use of modulus to form any correct equation
+> √((2𝑥𝑥 − 1)2 + 𝑦𝑦 2) = √98 5 M1 Correct use of modulus to form any correct equation
 > (2𝑥𝑥 − 1) + (𝑦𝑦 + 3) = 7 M1 oe e.g. 2𝑥𝑥 + 𝑦𝑦 = 5
 > (2𝑥𝑥 − 1)2 + (5 − 2𝑥𝑥)2 = 98 oe M1 dep. on both previous M marks.
 > Remove square-roots and substitute to gain an equation in
@@ -531,7 +516,7 @@ Show that x2 í x í Given that x 0
 > 𝑥𝑥 2 − 3𝑥𝑥 − 9 = 0 A1 As answer given sufficient working must be shown.
 > No incorrect work can be seen.
 
-- **(5)** �(2𝑥𝑥 − 1)2 + 𝑦𝑦 2 = √98 5 M1 Correct use of modulus to form any correct equation
+- **(5)** √((2𝑥𝑥 − 1)2 + 𝑦𝑦 2) = √98 5 M1 Correct use of modulus to form any correct equation
 
 ### 9(b)(i) [2]
 
@@ -544,8 +529,7 @@ find the exact value of x,
 > − ( −3) ± ( −3) − 4(1)(−9)
 > x=
 > 2(1)
-> 3 2
-> or �𝑥𝑥 − 2� − 4 − 9 = 0
+> or (𝑥𝑥 − 3/2)2 − 9/4 − 9 = 0
 > 3 + 3√5 3+√45
 > 𝑥𝑥 = A1 Accept other equivalent exact forms eg 2
 > 2 Do not accept ± for the final answer, they must indicate
@@ -556,18 +540,18 @@ find the exact value of x,
 
 ### 9(b)(ii) [2]
 
-show that y í 5
+show that y = 2 − 3√5
 
 
 **Mark scheme answer**
 
 > 3 + 3√5 2 M1 Substitute their x which must be an expression
-> 𝑦𝑦 = 5 − 2 � � involving surds into linear equation to find y
+> 𝑦𝑦 = 5 − 2 ((3 + 3√5)/2) involving surds into linear equation to find y
 > If using equation for y2 must obtain
 > 𝑦𝑦 2 = 98 − 49 − 12√5 or simpler to gain this mark.
 > 𝑦𝑦 = 2 − 3√5 A1 As answer given sufficient working must be shown
 > Allow 𝑦𝑦 2 = 49 − 12√5 from modulus equation and
-> expansion of �2 − 3√5� = 49 − 12√5 along with an
+> expansion of (2 − 3√5)2 = 49 − 12√5 along with an
 > appropriate comment.
 > Do not isw answer given as a decimal.
 
@@ -582,12 +566,12 @@ Find the exact value of |q|2 Show your working clearly. ⎡ 2 −b ± b 2 − 4a
 
 > (|𝐪𝐪|2 =) 3 M1 Attempt q= q12 + q2 2 - allow in terms of y or x
 > 2
-> �2 − 3√5 + 3� + �−�2 − 3√5�� Eg. (𝑦𝑦 + 3)2 + 𝑦𝑦 2 or (8 − 2𝑥𝑥)2 + (5 − 2𝑥𝑥)2
+> (2 − 3√5 + 3)2 + (−(2 − 3√5))2 Eg. (𝑦𝑦 + 3)2 + 𝑦𝑦 2 or (8 − 2𝑥𝑥)2 + (5 − 2𝑥𝑥)2
 > Allow an expression for |𝐪𝐪|
 > = 25 − 30 5 + 45 + 45 − 12 5 + 4 M1 dep expand brackets must involve surds.
 > Allow square root of this.
 > 119 − 42√5 or A1 cao Do not isw answer given as a decimal.
-> 7�17 − 6√5�
+> 7(17 − 6√5)
 > Total 12 marks
 > Question Working Answer Mark Notes
 
@@ -600,7 +584,7 @@ The curve C has equation y = 2x3 + ax2 + bx + 10 where a and b are constants. Th
 
 ### 10(a) [1]
 
-Write down an equation in a and b. The tangent to C at the point A KDV JUDGLHQW í
+Write down an equation in a and b. The tangent to C at the point A has gradient −8
 
 
 **Mark scheme answer**
@@ -612,13 +596,13 @@ Write down an equation in a and b. The tangent to C at the point A KDV JUDGLHQW 
 
 ### 10(b) [3]
 
-Show that 2a + b í
+Show that 2a + b = −14
 
 
 **Mark scheme answer**
 
 > 3 M1 at least two of these terms shown
-> �𝑓𝑓 / (𝑥𝑥) =�6𝑥𝑥 2 + 2𝑎𝑎𝑎𝑎 + 𝑏𝑏
+> (𝑓𝑓′(𝑥𝑥) =)6𝑥𝑥 2 + 2𝑎𝑎𝑎𝑎 + 𝑏𝑏
 > M1 dep clear indication of substitution for x = 1 into their
 > 6 × 12 + 2𝑎𝑎 × 1 + 𝑏𝑏 = −8
 > derivative and equates to −8
@@ -644,7 +628,7 @@ Hence find the value of a and the value of b. Show clear algebraic working. Usin
 
 ### 10(d) [3]
 
-find the x coordinate of each of the points on C where the tangent to C is parallel to the line with equation y í x. Show clear algebraic working.
+find the x coordinate of each of the points on C where the tangent to C is parallel to the line with equation y = 7 − 4x. Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -670,7 +654,7 @@ Diagram NOT accurately drawn h cm r cm Figure 4 A child’s toy is made by fixin
 
 ### 11(a) [2]
 
-find the upper bound for the value of r. Give a reason for your answer. The volume of the toy is V cm3 1 2
+find the upper bound for the value of r. Give a reason for your answer. The volume of the toy is V cm3
 
 
 **Mark scheme answer**
@@ -683,7 +667,7 @@ find the upper bound for the value of r. Give a reason for your answer. The volu
 
 ### 11(b) [3]
 
-Show that V = ʌU௘ í r) 3 ⎡ 1 2 ⎤ ⎢ Volume of cone = 3 πr h ⎥ ⎢ ⎥ ⎢ Volume of sphere = 4 πr 3 ⎥ ⎢⎣ 3 ⎥⎦ Question 11 continues on the next page 1 2
+Show that V = (1/3)πr2(15 − 4r) ⎡ 1 2 ⎤ ⎢ Volume of cone = 3 πr h ⎥ ⎢ ⎥ ⎢ Volume of sphere = 4 πr 3 ⎥ ⎢⎣ 3 ⎥⎦ 1 2
 
 
 **Mark scheme answer**
@@ -709,7 +693,7 @@ Show that V = ʌU௘ í r) 3 ⎡ 1 2 ⎤ ⎢ Volume of cone = 3 πr h ⎥ ⎢ �
 
 ### 11(c) [3]
 
-Complete the following table of values for V = ʌU௘ í r) Give your values of V to one decimal place. r 0 0.4 0.8 1.2 1.6 2.0 2.4 V 0 7.9 29.3 32.6
+Complete the following table of values for V = (1/3)πr2(15 − 4r) Give your values of V to one decimal place. r 0 0.4 0.8 1.2 1.6 2.0 2.4 V 0 7.9 29.3 32.6
 
 ![table — official paper figure (qp.pdf p.34)](assets/asset_11_c_table.png)
 

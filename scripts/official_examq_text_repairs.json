@@ -1,0 +1,1298 @@
+{
+ "schema": "syllabai.official-examq.text-repairs/0.1",
+ "generated_utc": "2026-10-26T00:00:00Z",
+ "law": "per-line render-adjudicated repairs for the broken-symbol-font text layers of the maths-B corpus. Key (file, 1-based line ordinal) guarded by sha1-12 of the exact raw line, fail-closed at apply time. repaired null = blank the line (structural absorption). Evidence: wave receipts evidence-r2/ page renders; SME twin UIUX-TIER-B-RUN-004 for the 2019-06/02 MS; trace 1a177a00bc816e05. G4 (U+FFFC strip) is a converter law, not a line rule.",
+ "rules_by_file": {
+  "official-2018-06-01-qp.txt": {
+   "342": {
+    "sha1_12": "8146f18a782a",
+    "raw": "     BC = BA and CAB = 32°",
+    "repaired": "BC = BA and ∠CAB = 32°"
+   },
+   "344": {
+    "sha1_12": "6ca758495bd7",
+    "raw": "     (a) COB",
+    "repaired": "(a) ∠COB"
+   },
+   "353": {
+    "sha1_12": "44117bd14655",
+    "raw": "     (b) OCA",
+    "repaired": "(b) ∠OCA"
+   },
+   "437": {
+    "sha1_12": "cb40955fb595",
+    "raw": "     ADB = ABD",
+    "repaired": "∠ADB = ∠ABD"
+   },
+   "933": {
+    "sha1_12": "4bfd2af298cb",
+    "raw": "     ABC = 120°",
+    "repaired": "∠ABC = 120°"
+   },
+   "934": {
+    "sha1_12": "bf9de82063a9",
+    "raw": "     Find the size, in degrees to 3 significant figures, of ACB.",
+    "repaired": "Find the size, in degrees to 3 significant figures, of ∠ACB."
+   },
+   "956": {
+    "sha1_12": "87f7399a0c1b",
+    "raw": "                                         ACB = . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . °",
+    "repaired": "∠ACB = ................................................................................... °"
+   },
+   "788": {
+    "sha1_12": "5c8e2edfd8f2",
+    "raw": "     (a) Show that 8A = 2 ʌN 2 – 3k2",
+    "repaired": "     (a) Show that 8A = 2λN 2 – 3k2"
+   },
+   "810": {
+    "sha1_12": "919f18abf105",
+    "raw": "                            (b) Hence find an expression for k in terms of A and ʌ.",
+    "repaired": "                            (b) Hence find an expression for k in terms of A and λ."
+   }
+  },
+  "official-2018-06-01R-qp.txt": {
+   "191": {
+    "sha1_12": "a4747f72942f",
+    "raw": "    BEG\u0003LV\u0003D\u0003VWUDLJKW\u0003OLQH\u0003DQG\u0003ǻEFG is isosceles with EF = EG and EGF = 63°",
+    "repaired": "BEG is a straight line and ΔEFG is isosceles with EF = EG and ∠EGF = 63°"
+   },
+   "192": {
+    "sha1_12": "254f3d2decdc",
+    "raw": "    Find the size, in degrees, of ABE.",
+    "repaired": "Find the size, in degrees, of ∠ABE."
+   },
+   "199": {
+    "sha1_12": "f586d8e39f49",
+    "raw": "                                                                   ABE = . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "repaired": "∠ABE = . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+   },
+   "539": {
+    "sha1_12": "531b54f8fcd3",
+    "raw": "     ABC = 38°",
+    "repaired": "∠ABC = 38°"
+   },
+   "540": {
+    "sha1_12": "3994d8ea6095",
+    "raw": "     Giving your reasons, find the size, in degrees, of ACB.",
+    "repaired": "Giving your reasons, find the size, in degrees, of ∠ACB."
+   },
+   "551": {
+    "sha1_12": "7bfd11e92a34",
+    "raw": "                                                                        ACB = ................................................ . . . . . . . . . . . . . . . . . . .",
+    "repaired": "∠ACB = ................................................ . . . . . . . . . . . . . . . . . . ."
+   },
+   "154": {
+    "sha1_12": "f9edfd137aca",
+    "raw": "               12",
+    "repaired": null
+   },
+   "155": {
+    "sha1_12": "e1cd7a0feb11",
+    "raw": "    express        in the form a + b 5 where a and b are integers.",
+    "repaired": "    express 12/(3 − √5) in the form a + b√5 where a and b are integers."
+   },
+   "161": {
+    "sha1_12": "64471d2af4db",
+    "raw": "              3− 5",
+    "repaired": null
+   }
+  },
+  "official-2018-06-02-qp.txt": {
+   "702": {
+    "sha1_12": "c0d9a23c3011",
+    "raw": "              Given that A2 – B = ȜI where Ȝ is an integer and I = ⎜",
+    "repaired": "              Given that A2 – B = λI where λ is an integer and I = ⎜"
+   },
+   "704": {
+    "sha1_12": "ed9dff5e616a",
+    "raw": "              find the value of a and the value of Ȝ\u0011",
+    "repaired": "find the value of a and the value of λ."
+   },
+   "941": {
+    "sha1_12": "d9a8cbe7ec0b",
+    "raw": "    (a) X \u0001Y",
+    "repaired": "(a) X ∩ Y"
+   },
+   "948": {
+    "sha1_12": "fb19d9c475fd",
+    "raw": "    (b) (X  Y ) \u0001=ү",
+    "repaired": "(b) (X ∪ Y ) ∩ Z′"
+   },
+   "951": {
+    "sha1_12": "5e009d039950",
+    "raw": "    (c) n([X  Y ]ү)",
+    "repaired": "(c) n([X ∪ Y ]′)"
+   },
+   "953": {
+    "sha1_12": "c22161ef2972",
+    "raw": "    (d) n([X \u0001Z ] \u0003<ү)",
+    "repaired": "(d) n([X ∩ Z ] ∪ Y′)"
+   },
+   "958": {
+    "sha1_12": "037f8df94101",
+    "raw": "                                             \u0003 \u0003 \u0003 \u0003 \u0003 \u0003 \u0003 \u0003 \u0003 \u0003 \u0003 \u0003 ",
+    "repaired": "∈      ∅      ⊂      ∉      ∩"
+   },
+   "2668": {
+    "sha1_12": "e49f09ab28ba",
+    "raw": "             Ȝb",
+    "repaired": "             λb"
+   },
+   "2688": {
+    "sha1_12": "b8f456c13086",
+    "raw": "    In Figure 2, OA = a, OB = b, FE = Ȝb and ED = ȝa, where Ȝ and ȝ are positive constants.",
+    "repaired": "    In Figure 2, OA = a, OB = b, FE = λb and ED = μa, where λ and μ are positive constants."
+   },
+   "2694": {
+    "sha1_12": "4e6312625453",
+    "raw": "    (b) Find, in terms of a, b, Ȝ and where necessary ȝ, simplifying your answers where possible,",
+    "repaired": "    (b) Find, in terms of a, b, λ and where necessary μ, simplifying your answers where possible,"
+   },
+   "2702": {
+    "sha1_12": "b731bfb106f4",
+    "raw": "    (c) find the value of ȝ and the value of Ȝ.",
+    "repaired": "    (c) find the value of μ and the value of λ."
+   },
+   "2705": {
+    "sha1_12": "68a9843e169d",
+    "raw": "    (d) calculate the size, in degrees to 3 significant figures, of CFE.",
+    "repaired": "(d) calculate the size, in degrees to 3 significant figures, of ∠CFE."
+   }
+  },
+  "official-2019-06-01-qp.txt": {
+   "375": {
+    "sha1_12": "bcc38931f932",
+    "raw": "     The diagram shows \u0002ABC.",
+    "repaired": "The diagram shows △ABC."
+   },
+   "383": {
+    "sha1_12": "8c3db7017380",
+    "raw": "     Prove that \u0002PBQ and \u0002RQC are congruent.",
+    "repaired": "Prove that △PBQ and △RQC are congruent."
+   },
+   "457": {
+    "sha1_12": "eed73bd723ec",
+    "raw": "17 Here is \u0002ABC.",
+    "repaired": "17 Here is △ABC."
+   },
+   "473": {
+    "sha1_12": "a5d686241c74",
+    "raw": "   (a) Calculate the area, in cm2, of \u0002ABC.",
+    "repaired": "(a) Calculate the area, in cm2, of △ABC."
+   },
+   "481": {
+    "sha1_12": "248dc2179b94",
+    "raw": "   Here is \u0002PQR.",
+    "repaired": "Here is △PQR."
+   },
+   "608": {
+    "sha1_12": "424b9844b1b4",
+    "raw": "                                        10 -\u0001t ",
+    "repaired": "                                        10 ⩽ t < 20"
+   },
+   "609": {
+    "sha1_12": "b1245f630d09",
+    "raw": " 20                5",
+    "repaired": "                    5"
+   },
+   "611": {
+    "sha1_12": "34814815c52d",
+    "raw": "                                        20 -\u0001t ",
+    "repaired": "                                        20 ⩽ t < 25"
+   },
+   "612": {
+    "sha1_12": "3e06cad50452",
+    "raw": " 25                8",
+    "repaired": "                    8"
+   },
+   "614": {
+    "sha1_12": "8f259c9a6f20",
+    "raw": "                                        25 -\u0001t ",
+    "repaired": "                                        25 ⩽ t < 30"
+   },
+   "615": {
+    "sha1_12": "300f276ead27",
+    "raw": " 30",
+    "repaired": null
+   },
+   "617": {
+    "sha1_12": "67ca16563a1e",
+    "raw": "                                        30 -\u0001t ",
+    "repaired": "                                        30 ⩽ t < 45"
+   },
+   "618": {
+    "sha1_12": "7cc4b7ff1f4c",
+    "raw": " 45",
+    "repaired": null
+   },
+   "624": {
+    "sha1_12": "4db30eea1105",
+    "raw": "                                        45 -\u0001t ",
+    "repaired": "                                        45 ⩽ t < 60"
+   },
+   "625": {
+    "sha1_12": "82445400eb1c",
+    "raw": " 60                3",
+    "repaired": "                    3"
+   },
+   "762": {
+    "sha1_12": "8763fb19d2ed",
+    "raw": "   (c) Find n(H‫[\u0001 މ‬L  G])",
+    "repaired": "(c) Find n(H′ ∩ [L ∪ G])"
+   },
+   "798": {
+    "sha1_12": "6f7c70540bd9",
+    "raw": "                                 The diagram shows \u0002OXY where OX = 2a + 3b and OY = –3a + 5b",
+    "repaired": "The diagram shows △OXY where OX = 2a + 3b and OY = –3a + 5b"
+   },
+   "940": {
+    "sha1_12": "9967203d2ff4",
+    "raw": "     Given that P = A, find an expression for x in terms of ʌ\u0011",
+    "repaired": "Given that P = A, find an expression for x in terms of π."
+   }
+  },
+  "official-2019-06-01R-qp.txt": {
+   "81": {
+    "sha1_12": "0b4cf96c88ec",
+    "raw": "2   The nth term of a sequence is given by 9n\u0003í\u0003\u001a",
+    "repaired": "2   The nth term of a sequence is given by 9n − 7"
+   },
+   "107": {
+    "sha1_12": "e456b785ff5e",
+    "raw": "                                                                   w\u0003 \u0003 \u0003 \u0003 \u0003 \u0003 \u001a\u0003 \u0003 \u0003 \u0003 \u0003 \u0003 x     24",
+    "repaired": "w      7      x     24"
+   },
+   "174": {
+    "sha1_12": "d0078e923dd0",
+    "raw": "6   Q = cð\u0003í\u0003\u0017c",
+    "repaired": "6   Q = c² − 4c"
+   },
+   "175": {
+    "sha1_12": "2141285b38c6",
+    "raw": "    Work out the value of Q when c\u0003 \u0003í\u0019",
+    "repaired": "Work out the value of Q when c = −6"
+   },
+   "244": {
+    "sha1_12": "99b59b48bc1e",
+    "raw": "                                             7",
+    "repaired": null
+   },
+   "245": {
+    "sha1_12": "6485316bad7e",
+    "raw": "                            9   y = 4x3\u0003í\u0003",
+    "repaired": "9   y = 4x3 − 7/x2"
+   },
+   "246": {
+    "sha1_12": "ebe3690c7f5c",
+    "raw": "                                             x2",
+    "repaired": null
+   },
+   "299": {
+    "sha1_12": "99d0fef325dc",
+    "raw": "                                                     \u001a\u0003FP",
+    "repaired": "                                                     7 cm"
+   },
+   "310": {
+    "sha1_12": "4c2f8bf8c1b6",
+    "raw": "                               AP\u0003 \u0003\u001a\u0003FP\u0003 \u0003 \u0003 \u0003 \u0003 \u0003 PB = 5 cm            PD = 4 cm",
+    "repaired": "                               AP = 7 cm            PB = 5 cm            PD = 4 cm"
+   },
+   "332": {
+    "sha1_12": "e1f659ae8265",
+    "raw": "                                                        \u001a",
+    "repaired": "7"
+   },
+   "352": {
+    "sha1_12": "aaab500cd548",
+    "raw": "                                                                1     2     3     4     5      6     \u001a x",
+    "repaired": "                                                                1     2     3     4     5      6     7 x"
+   },
+   "490": {
+    "sha1_12": "a8f87a3e8938",
+    "raw": "     BD\u0003 \u0003\u001a\u0011\u0015\u0003FP\u0003WR\u0003\u0015\u0003VLJQLILFDQW\u0003ILJXUHV\u0011",
+    "repaired": "     BD = 7.2 cm to 2 significant figures."
+   },
+   "492": {
+    "sha1_12": "14a73200c351",
+    "raw": "     Area of \u0002BCD = 15.4 cm2 to 3 significant figures.",
+    "repaired": "     Area of △BCD = 15.4 cm2 to 3 significant figures."
+   },
+   "493": {
+    "sha1_12": "f1840cb76f5f",
+    "raw": "     Calculate the upper bound, to 3 significant figures, for the area of \u0002ACE.",
+    "repaired": "     Calculate the upper bound, to 3 significant figures, for the area of △ACE."
+   },
+   "524": {
+    "sha1_12": "8849b3a21b10",
+    "raw": "                                                                        \u0019\u001a",
+    "repaired": "67°"
+   },
+   "536": {
+    "sha1_12": "973fe949ad4b",
+    "raw": "                                 ABD\u0003 \u0003\u0019\u001a\u0003\u0003DQG\u0003\u0003BEF = 123°",
+    "repaired": "∠ABD = 67° and ∠BEF = 123°"
+   },
+   "575": {
+    "sha1_12": "bf8484569455",
+    "raw": "\u0003   6X]\\\u0003KDV\u0003\u001a\u0003IHZHU\u0003FUD\\RQV\u0003WKDQ\u0003-RQDV\u0011",
+    "repaired": "    Suzy has 7 fewer crayons than Jonas."
+   },
+   "597": {
+    "sha1_12": "3fa4bab1333d",
+    "raw": "19\u0003 7KH\u0003VXP\u0003RI\u0003WKH\u0003LQWHULRU\u0003DQJOHV\u0003RI\u0003D\u0003UHJXODU\u0003SRO\\JRQ\u0003LV\u0003\u0015\u001a\u0013\u0013",
+    "repaired": "19  The sum of the interior angles of a regular polygon is 2700°"
+   },
+   "631": {
+    "sha1_12": "3a8a47700243",
+    "raw": "                                                                                        (\u0015\u0003í\u0003 2 ) cm           accurately drawn",
+    "repaired": "(2 − √2 ) cm           accurately drawn"
+   },
+   "636": {
+    "sha1_12": "e159e4ec8f81",
+    "raw": "                                 AD = BC = (\u0015\u0003í\u0003 2 ) cm",
+    "repaired": "AD = BC = (2 − √2 ) cm"
+   },
+   "637": {
+    "sha1_12": "71093a60625d",
+    "raw": "                                 Area of ABCD = 3(5 2 \u0003í\u0003\u0015) cm2",
+    "repaired": "Area of ABCD = 3(5√2 − 2) cm2"
+   },
+   "638": {
+    "sha1_12": "adae12a6eae2",
+    "raw": "                                 Show that the length of AB can be written in the form (a + b 2 ) cm",
+    "repaired": "                                 Show that the length of AB can be written in the form (a + b√2 ) cm"
+   },
+   "853": {
+    "sha1_12": "a6e12b4dad4f",
+    "raw": "                            26 (a) Use the factor theorem to show that (2x\u0003í\u0003\u0014 \u0003LV\u0003D\u0003IDFWRU\u0003RI\u0003\u0019x3 + 23x2\u0003í\u0003\u0018x\u0003í\u0003\u0017",
+    "repaired": "26 (a) Use the factor theorem to show that (2x − 1) is a factor of 6x3 + 23x2 − 5x − 4"
+   },
+   "893": {
+    "sha1_12": "ef69b68664ef",
+    "raw": "                             \u001a\u0011\u0015\u0003FP                                         Diagram NOT",
+    "repaired": "7.2 cm                                         Diagram NOT"
+   },
+   "919": {
+    "sha1_12": "c1b551489ca1",
+    "raw": "   AB\u0003 \u0003\u001a\u0011\u0015\u0003FP\u0003 \u0003 \u0003 \u0003 \u0003 \u0003 BC = 9 cm      CD = 6.4 cm",
+    "repaired": "   AB = 7.2 cm            BC = 9 cm      CD = 6.4 cm"
+   },
+   "921": {
+    "sha1_12": "71b00fe39c9e",
+    "raw": "   \u0001ABC = 128°           \u0001ADC = 85°",
+    "repaired": "   ∠ABC = 128°           ∠ADC = 85°"
+   },
+   "955": {
+    "sha1_12": "bc48fa3b5ad0",
+    "raw": "28\u0003 7KH\u0003WDEOH\u0003EHORZ\u0003JLYHV\u0003LQIRUPDWLRQ\u0003DERXW\u0003WKH\u0003OHQJWKV\u0003RI\u0003WLPH\u000f\u0003LQ\u0003PLQXWHV\u000f\u0003WKDW\u0003\u001a\u0018\u0003FDUV\u0003",
+    "repaired": "28  The table below gives information about the lengths of time, in minutes, that 75 cars "
+   },
+   "964": {
+    "sha1_12": "482661730b44",
+    "raw": "                                    0",
+    "repaired": null
+   },
+   "965": {
+    "sha1_12": "85cffe7d7898",
+    "raw": "t-5                        8",
+    "repaired": "                                    0 < t ⩽ 5                    8"
+   },
+   "967": {
+    "sha1_12": "370d11c57e8c",
+    "raw": "                                    5 ",
+    "repaired": null
+   },
+   "968": {
+    "sha1_12": "73c18b18157b",
+    "raw": " t - 20                 10",
+    "repaired": "                                    5 < t ⩽ 20                  10"
+   },
+   "970": {
+    "sha1_12": "1eaf27748dcc",
+    "raw": "                                  20 ",
+    "repaired": null
+   },
+   "971": {
+    "sha1_12": "59e5931302e7",
+    "raw": " t - 30                  15",
+    "repaired": "                                    20 < t ⩽ 30                 15"
+   },
+   "973": {
+    "sha1_12": "38aab5047321",
+    "raw": "                                  30 ",
+    "repaired": null
+   },
+   "974": {
+    "sha1_12": "ac4a4f942531",
+    "raw": " t - 40                  \u0014\u001a",
+    "repaired": "                                    30 < t ⩽ 40                 17"
+   },
+   "976": {
+    "sha1_12": "9d36ce1b0726",
+    "raw": "                                  40 ",
+    "repaired": null
+   },
+   "977": {
+    "sha1_12": "09676729b364",
+    "raw": " t - 60                  25",
+    "repaired": "                                    40 < t ⩽ 60                 25"
+   },
+   "980": {
+    "sha1_12": "e55855068efa",
+    "raw": "       WKDW\u0003WKH\u0003\u001a\u0018\u0003FDUV\u0003ZHUH\u0003SDUNHG\u0003LQ\u0003WKH\u0003FDU\u0003SDUN\u0003RQ\u00036XQGD\\\u0011",
+    "repaired": "       that the 75 cars were parked in the car park on Sunday."
+   },
+   "1014": {
+    "sha1_12": "97012938177f",
+    "raw": "                                  0",
+    "repaired": null
+   },
+   "1015": {
+    "sha1_12": "9728e8ec5e0e",
+    "raw": "t-5                       12",
+    "repaired": "                                    0 < t ⩽ 5                   12"
+   },
+   "1017": {
+    "sha1_12": "74de8ab00768",
+    "raw": "                                  5 ",
+    "repaired": null
+   },
+   "1018": {
+    "sha1_12": "c9d8cf7ad5e8",
+    "raw": " t - 20",
+    "repaired": "                                    5 < t ⩽ 20"
+   },
+   "1019": {
+    "sha1_12": "a3f956a1b36a",
+    "raw": "                                 20 ",
+    "repaired": null
+   },
+   "1020": {
+    "sha1_12": "38fcd5ab1b60",
+    "raw": " t - 30",
+    "repaired": "                                    20 < t ⩽ 30"
+   },
+   "1021": {
+    "sha1_12": "a10669668869",
+    "raw": "                                 30 ",
+    "repaired": null
+   },
+   "1022": {
+    "sha1_12": "c3b1ac81b11e",
+    "raw": " t - 40                 \u0015\u001a",
+    "repaired": "                                    30 < t ⩽ 40                 27"
+   },
+   "1024": {
+    "sha1_12": "937267b2b3bb",
+    "raw": "                                 40 ",
+    "repaired": null
+   },
+   "1025": {
+    "sha1_12": "e68f19b4c95c",
+    "raw": " t - 60                 18",
+    "repaired": "                                    40 < t ⩽ 60                 18"
+   },
+   "1071": {
+    "sha1_12": "e2f248ece05c",
+    "raw": "   Given also that P is inversely proportional to y and that P\u0003 \u0003\u001a\u0018\u0003ZKHQ\u0003y = 4",
+    "repaired": "   Given also that P is inversely proportional to y and that P = 75 when y = 4"
+   }
+  },
+  "official-2019-06-02-ms.txt": {
+   "140": {
+    "sha1_12": "90218164c0a3",
+    "raw": "1     (a)     48                                      2     M1 Allow 23+47+56+48+26 for denominator.",
+    "repaired": "1     (a)                                            2     M1 Allow 23+47+56+48+26 for denominator."
+   },
+   "141": {
+    "sha1_12": "8d3b9cc951fb",
+    "raw": "            �    � × 360",
+    "repaired": "            (48/200) × 360"
+   },
+   "142": {
+    "sha1_12": "efc73453cd55",
+    "raw": "             200",
+    "repaired": null
+   },
+   "174": {
+    "sha1_12": "945eaf0a8e08",
+    "raw": "             \"11 280 000\"",
+    "repaired": null
+   },
+   "175": {
+    "sha1_12": "2c412dd6c823",
+    "raw": "            �             × 3�",
+    "repaired": "            (\"11 280 000\"/10) × 3"
+   },
+   "176": {
+    "sha1_12": "e8c68332e446",
+    "raw": "                  10",
+    "repaired": null
+   },
+   "247": {
+    "sha1_12": "ce404a0d0200",
+    "raw": "     (d)     −0.5  0     2 6 2                             3     M2 for a matrix solution or list of coordinates containing",
+    "repaired": "     (d)     (−0.5   0) (2   6   2) =               3     M2 for a matrix solution or list of coordinates containing"
+   },
+   "248": {
+    "sha1_12": "66e9a9dca6d4",
+    "raw": "           �         �\"�        � \"=",
+    "repaired": null
+   },
+   "249": {
+    "sha1_12": "48c9afdfe3f1",
+    "raw": "              0.5 −1    4  -4 8                                  at least 4 correct values seen or for 2 correct coordinates",
+    "repaired": "              ( 0.5  −1) (4  −4   8)                                  at least 4 correct values seen or for 2 correct coordinates"
+   },
+   "250": {
+    "sha1_12": "f51baab29825",
+    "raw": "             −1 −3 −1                                            plotted",
+    "repaired": "             (−1  −3  −1)"
+   },
+   "251": {
+    "sha1_12": "4cc88797075b",
+    "raw": "           �            �",
+    "repaired": null
+   },
+   "252": {
+    "sha1_12": "3017cac58b42",
+    "raw": "             −3   7 −7                                           Otherwise M1 for a correctly stated matrix product to",
+    "repaired": "             (−3   7  −7)"
+   },
+   "263": {
+    "sha1_12": "5a4531d869b3",
+    "raw": "                                                                            −1      0",
+    "repaired": null
+   },
+   "264": {
+    "sha1_12": "fd7ded1ceaa6",
+    "raw": "                                                                      or �             � seen.",
+    "repaired": "                                                                      or (−1 0 / −0.5 −0.5) seen."
+   },
+   "265": {
+    "sha1_12": "ff94321b418d",
+    "raw": "                                                                           −0.5 −0.5",
+    "repaired": null
+   },
+   "267": {
+    "sha1_12": "2ba9ee98aeea",
+    "raw": "                                                      −1   0          A1 for one correct row or column including the 2.",
+    "repaired": null
+   },
+   "268": {
+    "sha1_12": "474759efe213",
+    "raw": "                                                   2�         �",
+    "repaired": "                                                      2 (−1 0 / −0.5 −0.5)"
+   },
+   "269": {
+    "sha1_12": "abf9a3d299c8",
+    "raw": "                                                     −0.5 −0.5        The factor of 2 may be included in matrix.",
+    "repaired": null
+   },
+   "272": {
+    "sha1_12": "39d0dc5c7bbc",
+    "raw": "    ALT     𝑃𝑃 𝑄𝑄     −1 −3 −1",
+    "repaired": "    ALT     (𝑃𝑃  𝑄𝑄) (−1  −3  −1) ="
+   },
+   "273": {
+    "sha1_12": "b843704d3958",
+    "raw": "          �       �\"�                  �\" =",
+    "repaired": null
+   },
+   "274": {
+    "sha1_12": "40beca21a5a1",
+    "raw": "            𝑅𝑅 𝑆𝑆     −3       7 −7",
+    "repaired": "            (𝑅𝑅  𝑆𝑆)   (−3     7  −7)"
+   },
+   "275": {
+    "sha1_12": "5903d9d3e918",
+    "raw": "              2    6 2",
+    "repaired": "            (2     6   2)"
+   },
+   "276": {
+    "sha1_12": "597b54747b64",
+    "raw": "          \"�             �”",
+    "repaired": null
+   },
+   "277": {
+    "sha1_12": "6a7441f89102",
+    "raw": "              4 −4 8",
+    "repaired": "            (4  −4   8)"
+   },
+   "280": {
+    "sha1_12": "bb688f0496cb",
+    "raw": "                                                                      A2",
+    "repaired": null
+   },
+   "282": {
+    "sha1_12": "e750705e8eb9",
+    "raw": "                                                    �       �         A1 for one correct row or column or for 3 of the variables",
+    "repaired": "                                                      (−2  0 / −1 −1)         A1 for one correct row or column or for 3 of the variables"
+   },
+   "283": {
+    "sha1_12": "593a6c5826a8",
+    "raw": "                                                      −1 −1           listed correctly 𝑃𝑃 = −2, 𝑄𝑄 = 0, 𝑅𝑅 = −1, 𝑆𝑆 = −1",
+    "repaired": "                                                                                                                    listed correctly 𝑃𝑃 = −2, 𝑄𝑄 = 0, 𝑅𝑅 = −1, 𝑆𝑆 = −1"
+   },
+   "313": {
+    "sha1_12": "e36aacf686d0",
+    "raw": "           (𝐵𝐵𝐵𝐵 =)�52 + 82 − 40√3                                      We must see 40√3 or values which round to 69.3, 19.7 or",
+    "repaired": "           (𝐵𝐵𝐵𝐵 =)√(52 + 82 − 40√3)                                      We must see 40√3 or values which round to 69.3, 19.7 or"
+   },
+   "335": {
+    "sha1_12": "e536587e1dc3",
+    "raw": "                                                                        taken if a method involving 𝐶𝐶𝐶𝐶2 is used.",
+    "repaired": null
+   },
+   "337": {
+    "sha1_12": "d1c13b88eb0b",
+    "raw": "           (𝑘𝑘 =)�            (= 1.7)",
+    "repaired": "           (𝑘𝑘 =)√((18.9 + \"10\")/\"10\")  (= 1.7)"
+   },
+   "338": {
+    "sha1_12": "6f3006ab3bca",
+    "raw": "                     \"10\"",
+    "repaired": null
+   },
+   "379": {
+    "sha1_12": "0acada51bf9a",
+    "raw": "7     (a)   3   2 2   2 3 3                                      3                           2       2   2   3   3",
+    "repaired": "7     (a)                                            3"
+   },
+   "380": {
+    "sha1_12": "f511fb639115",
+    "raw": "              +� × �+� × × �                                           M2, M1 for either 5 × 5 or 5 × 5 × 8",
+    "repaired": "              3/5 + (2/5 × 2/5) + (2/5 × 3/5 × 3/8)                                           M2, M1 for either 5 × 5 or 5 × 5 × 8"
+   },
+   "381": {
+    "sha1_12": "0c373eaee531",
+    "raw": "            5   5 5   5 5 8",
+    "repaired": null
+   },
+   "391": {
+    "sha1_12": "52bfacd392f0",
+    "raw": "      (b)   3   2     3     3     3   2                          3                      2            3 3",
+    "repaired": "      (b)                                            3"
+   },
+   "392": {
+    "sha1_12": "eec2daa1d4f5",
+    "raw": "              + 5 𝑝𝑝 = 4 or �4 − 5� ÷ 5                                M2 or M1 for       p (oe) or � − � seen",
+    "repaired": "              3/5 + 2/5 𝑝𝑝 = 3/4 or (3/4 − 3/5) ÷ 2/5                                M2 or M1 for       2/5 𝑝𝑝 (oe) or (3/4 − 3/5) seen"
+   },
+   "393": {
+    "sha1_12": "edc2fe83857e",
+    "raw": "            5                                                                           5            4 5",
+    "repaired": null
+   },
+   "399": {
+    "sha1_12": "c3fceb50b71f",
+    "raw": "      ALT   4",
+    "repaired": "      ALT"
+   },
+   "400": {
+    "sha1_12": "6bcd9e6e3342",
+    "raw": "              = 5 × 𝑞𝑞 �𝑞𝑞 = 8�",
+    "repaired": "              1/4 = 2/5 × 𝑞𝑞 (𝑞𝑞 = 5/8)"
+   },
+   "401": {
+    "sha1_12": "da39a3ee5e6b",
+    "raw": "",
+    "repaired": null
+   },
+   "429": {
+    "sha1_12": "37b901d7406b",
+    "raw": "                  1                                                                                               1",
+    "repaired": null
+   },
+   "430": {
+    "sha1_12": "82523e9f3dac",
+    "raw": "      (b)   𝐴𝐴 = 2 �(2𝑥𝑥 + 3) + (5𝑥𝑥 + 3)�(4𝑥𝑥) oe                          2     M1 Allow 𝐴𝐴 = (2𝑥𝑥 + 3) × 4𝑥𝑥 + 2 × 3𝑥𝑥 × 4𝑥𝑥 or",
+    "repaired": "      (b)   𝐴𝐴 = ½((2𝑥𝑥 + 3) + (5𝑥𝑥 + 3))(4𝑥𝑥) oe                          2     M1 Allow 𝐴𝐴 = (2𝑥𝑥 + 3) × 4𝑥𝑥 + 2 × 3𝑥𝑥 × 4𝑥𝑥 or"
+   },
+   "431": {
+    "sha1_12": "65c20ba52c61",
+    "raw": "                                                                                  1",
+    "repaired": null
+   },
+   "432": {
+    "sha1_12": "8b28df85740d",
+    "raw": "                                                                                    (7𝑥𝑥 + 6) × 4𝑥𝑥",
+    "repaired": "                                                                                    ½(7𝑥𝑥 + 6) × 4𝑥𝑥"
+   },
+   "433": {
+    "sha1_12": "17bb3ea1016a",
+    "raw": "                                                                                  2",
+    "repaired": null
+   },
+   "466": {
+    "sha1_12": "0d13282bc874",
+    "raw": "9     (a)      �(2𝑥𝑥 − 1)2 + 𝑦𝑦 2 = √98                                   5     M1 Correct use of modulus to form any correct equation",
+    "repaired": "9     (a)      √((2𝑥𝑥 − 1)2 + 𝑦𝑦 2) = √98                                   5     M1 Correct use of modulus to form any correct equation"
+   },
+   "486": {
+    "sha1_12": "11f522b7bfa5",
+    "raw": "                        3 2     9",
+    "repaired": null
+   },
+   "487": {
+    "sha1_12": "2effa888068e",
+    "raw": "               or �𝑥𝑥 − 2� − 4 − 9 = 0",
+    "repaired": "               or (𝑥𝑥 − 3/2)2 − 9/4 − 9 = 0"
+   },
+   "500": {
+    "sha1_12": "017a8bca5751",
+    "raw": "          𝑦𝑦 = 5 − 2 �          �                                    involving surds into linear equation to find y",
+    "repaired": "          𝑦𝑦 = 5 − 2 ((3 + 3√5)/2)                                    involving surds into linear equation to find y"
+   },
+   "501": {
+    "sha1_12": "4acd55312dfb",
+    "raw": "                            2",
+    "repaired": null
+   },
+   "507": {
+    "sha1_12": "26bb2524e042",
+    "raw": "                                                                     expansion of �2 − 3√5� = 49 − 12√5 along with an",
+    "repaired": "                                                                     expansion of (2 − 3√5)2 = 49 − 12√5 along with an"
+   },
+   "514": {
+    "sha1_12": "bf58c3f488aa",
+    "raw": "          �2 − 3√5 + 3� + �−�2 − 3√5��                               Eg. (𝑦𝑦 + 3)2 + 𝑦𝑦 2 or (8 − 2𝑥𝑥)2 + (5 − 2𝑥𝑥)2",
+    "repaired": "          (2 − 3√5 + 3)2 + (−(2 − 3√5))2                               Eg. (𝑦𝑦 + 3)2 + 𝑦𝑦 2 or (8 − 2𝑥𝑥)2 + (5 − 2𝑥𝑥)2"
+   },
+   "519": {
+    "sha1_12": "bd508aa8081c",
+    "raw": "                                                  7�17 − 6√5�",
+    "repaired": "                                                  7(17 − 6√5)"
+   },
+   "531": {
+    "sha1_12": "3f12992fb18b",
+    "raw": "            �𝑓𝑓 / (𝑥𝑥) =�6𝑥𝑥 2 + 2𝑎𝑎𝑎𝑎 + 𝑏𝑏",
+    "repaired": "            (𝑓𝑓′(𝑥𝑥) =)6𝑥𝑥 2 + 2𝑎𝑎𝑎𝑎 + 𝑏𝑏"
+   }
+  },
+  "official-2019-06-02-qp.txt": {
+   "685": {
+    "sha1_12": "77d90bbc83b0",
+    "raw": "\u0003             7KH\u0003SRLQWV\u0003 \u0014\u000f\u0003\u0015 \u000f\u0003 \u0016\u000f\u0003í\u0015 \u0003DQG\u0003 \u0014\u000f\u0003\u0017 \u0003DUH\u0003WKH\u0003YHUWLFHV\u0003RI\u0003WULDQJOH\u0003B.",
+    "repaired": "              The points (1, 2), (3, −2) and (1, 4) are the vertices of triangle B."
+   },
+   "797": {
+    "sha1_12": "25bfc98324ed",
+    "raw": "                                                    í\u0019                                          í\u0017                                          í\u0015                                     O                                                 2                                           4                                           6                                           8                               x",
+    "repaired": "−6                                          −4                                          −2               "
+   },
+   "800": {
+    "sha1_12": "57fafd0b0c87",
+    "raw": "                                                                                                                                                                           í\u0003\u0015",
+    "repaired": "−2"
+   },
+   "804": {
+    "sha1_12": "49e7ac56535f",
+    "raw": "                                                                                                                                                                             í\u0017",
+    "repaired": "−4"
+   },
+   "808": {
+    "sha1_12": "a759fd7e6a10",
+    "raw": "                                                                                                                                                                             í\u0019",
+    "repaired": "−6"
+   },
+   "812": {
+    "sha1_12": "fba2b9cf9a29",
+    "raw": "                                                                                                                                                                             í\u001b",
+    "repaired": "−8"
+   },
+   "988": {
+    "sha1_12": "25bfc98324ed",
+    "raw": "                                                    í\u0019                                          í\u0017                                          í\u0015                                     O                                                 2                                           4                                           6                                           8                               x",
+    "repaired": "−6                                          −4                                          −2               "
+   },
+   "991": {
+    "sha1_12": "57fafd0b0c87",
+    "raw": "                                                                                                                                                                           í\u0003\u0015",
+    "repaired": "−2"
+   },
+   "995": {
+    "sha1_12": "49e7ac56535f",
+    "raw": "                                                                                                                                                                             í\u0017",
+    "repaired": "−4"
+   },
+   "999": {
+    "sha1_12": "a759fd7e6a10",
+    "raw": "                                                                                                                                                                             í\u0019",
+    "repaired": "−6"
+   },
+   "1005": {
+    "sha1_12": "fba2b9cf9a29",
+    "raw": "                                                                                                                                                                             í\u001b",
+    "repaired": "−8"
+   },
+   "2340": {
+    "sha1_12": "d6607e70d24c",
+    "raw": "              (a) Show that x2\u0003í\u0003\u0016x\u0003í\u0003",
+    "repaired": "(a) Show that x2 − 3x − 9 = 0"
+   },
+   "2341": {
+    "sha1_12": "9fc8838141ac",
+    "raw": "\u0003 \u0003\u0013",
+    "repaired": null
+   },
+   "2343": {
+    "sha1_12": "8cbb56fae13e",
+    "raw": "              Given that x \u001f 0",
+    "repaired": "Given that x > 0"
+   },
+   "2346": {
+    "sha1_12": "76383a536a7a",
+    "raw": "                         (ii) show that y\u0003 \u0003\u0015\u0003í\u0003\u0016 5",
+    "repaired": "(ii) show that y = 2 − 3√5"
+   },
+   "2784": {
+    "sha1_12": "79e12c4078d0",
+    "raw": "              The tangent to C at the point A\u0003KDV\u0003JUDGLHQW\u0003í\u001b",
+    "repaired": "The tangent to C at the point A has gradient −8"
+   },
+   "2785": {
+    "sha1_12": "df6187133311",
+    "raw": "              (b) Show that 2a + b\u0003 \u0003í\u0014\u0017",
+    "repaired": "(b) Show that 2a + b = −14"
+   },
+   "2792": {
+    "sha1_12": "7148c52b619c",
+    "raw": "                  the line with equation y\u0003 \u0003\u001a\u0003í\u0003\u0017x.",
+    "repaired": "the line with equation y = 7 − 4x."
+   },
+   "3255": {
+    "sha1_12": "d3bcaca23be5",
+    "raw": "                                                                                         1 2",
+    "repaired": null
+   },
+   "3256": {
+    "sha1_12": "4acc2f813aaf",
+    "raw": "              (b) Show that V =                                                            ʌU௘ \u0014\u0018\u0003í\u0003\u0017r)",
+    "repaired": "              (b) Show that V = (1/3)πr2(15 − 4r)"
+   },
+   "3257": {
+    "sha1_12": "eb82af527eda",
+    "raw": "                                                                                         3                                                                                                                                                                                                                                                                    (3)",
+    "repaired": "                                                                                        (3)"
+   },
+   "3417": {
+    "sha1_12": "6b58cb7cae05",
+    "raw": "              (c) Complete the following table of values for V =                                                                                                                                                    ʌU௘ \u0014\u0018\u0003í\u0003\u0017r)",
+    "repaired": "              (c) Complete the following table of values for V = (1/3)πr2(15 − 4r)"
+   }
+  },
+  "official-2025-06-01R-qp.txt": {
+   "102": {
+    "sha1_12": "5ed90935260d",
+    "raw": "                                                                                                                                                                              3   Make x the subject of t \u001f 6 ",
+    "repaired": "3   Make x the subject of t = 6(x + 4)"
+   },
+   "103": {
+    "sha1_12": "ea31e8b43909",
+    "raw": " x ",
+    "repaired": null
+   },
+   "104": {
+    "sha1_12": "929096177251",
+    "raw": " 4 ",
+    "repaired": null
+   },
+   "131": {
+    "sha1_12": "6de011271c56",
+    "raw": "                 \u001f 4 xy ",
+    "repaired": "                 (4xy5)3 / 2xy"
+   },
+   "132": {
+    "sha1_12": "b02727234f95",
+    "raw": "    5 3",
+    "repaired": null
+   },
+   "135": {
+    "sha1_12": "f76a45cc8888",
+    "raw": "                          2 xy",
+    "repaired": null
+   },
+   "148": {
+    "sha1_12": "cad148e8cc33",
+    "raw": "                                 x 2 \u001f 6 x ",
+    "repaired": "                                 x 2 + 6 x − 15 = ( x + a )2 − b  where a and b are integers"
+   },
+   "149": {
+    "sha1_12": "7509a0dca884",
+    "raw": " 15 \u001b ",
+    "repaired": null
+   },
+   "150": {
+    "sha1_12": "9365d4e8d697",
+    "raw": " x \u001f a ",
+    "repaired": null
+   },
+   "151": {
+    "sha1_12": "b858cb282617",
+    "raw": " ",
+    "repaired": null
+   },
+   "152": {
+    "sha1_12": "40fa8db4dd1c",
+    "raw": " b where a and b are integers",
+    "repaired": null
+   },
+   "153": {
+    "sha1_12": "87cc6a73128f",
+    "raw": "                                                        2",
+    "repaired": null
+   },
+   "189": {
+    "sha1_12": "71f9d1fe4fac",
+    "raw": "                                                                                                                                                                               \u001fBEF ",
+    "repaired": null
+   },
+   "190": {
+    "sha1_12": "4d03bf5380d2",
+    "raw": " 56° and \u001fCBF ",
+    "repaired": "∠BEF = 56° and ∠CBF = 72°"
+   },
+   "191": {
+    "sha1_12": "7f8a265f950d",
+    "raw": " 72°",
+    "repaired": null
+   },
+   "198": {
+    "sha1_12": "8a7354ae6d27",
+    "raw": "                                                                                                                                                                                                                                                    \u001fEBF ",
+    "repaired": "∠EBF"
+   },
+   "235": {
+    "sha1_12": "ec2cd536cabf",
+    "raw": "9       (a) Solve the inequality 5 y \u001f 20 ",
+    "repaired": "9       (a) Solve the inequality 5 y < 20 + 3y"
+   },
+   "391": {
+    "sha1_12": "fdf5d612e0bd",
+    "raw": "1\u001a          ",
+    "repaired": null
+   },
+   "393": {
+    "sha1_12": "2b6e311219f9",
+    "raw": "4\u001a",
+    "repaired": null
+   },
+   "394": {
+    "sha1_12": "1c6faab5a444",
+    "raw": "15 The points O, A and B are such that      \u001f \u001b \u0018 and       \u001f\u001b \u0018",
+    "repaired": "15 The points O, A and B are such that OA = (−1/5) and OB = (−4/2)"
+   },
+   "396": {
+    "sha1_12": "7f3952c13f37",
+    "raw": " 5\u0019           ",
+    "repaired": null
+   },
+   "397": {
+    "sha1_12": "6e371e98cfe7",
+    "raw": " 2\u0019",
+    "repaired": null
+   },
+   "404": {
+    "sha1_12": "e8bc2150903b",
+    "raw": "      The point C is such that AC = 125 and AC is parallel to OB",
+    "repaired": "      The point C is such that |AC| = √125 and AC is parallel to OB"
+   },
+   "407": {
+    "sha1_12": "934c62bccae8",
+    "raw": "      Find",
+    "repaired": "      Find BC"
+   },
+   "408": {
+    "sha1_12": "9ad4f6f09d80",
+    "raw": "                                   \u001fc",
+    "repaired": null
+   },
+   "410": {
+    "sha1_12": "51424a1fc251",
+    "raw": "      Give your answer in the form ",
+    "repaired": "      Give your answer in the form (c/d) where c and d are integers"
+   },
+   "411": {
+    "sha1_12": "a2599f8d209c",
+    "raw": " \u001a where c and d are integers",
+    "repaired": null
+   },
+   "413": {
+    "sha1_12": "6b7fd623ed37",
+    "raw": "d \u001b",
+    "repaired": null
+   },
+   "420": {
+    "sha1_12": "4ef2226f01fc",
+    "raw": "                                                                                         \u001f          ",
+    "repaired": null
+   },
+   "422": {
+    "sha1_12": "71d14b085788",
+    "raw": "                                                                                     \u001f   ",
+    "repaired": null
+   },
+   "423": {
+    "sha1_12": "9611babcb7c1",
+    "raw": "          \u001a",
+    "repaired": null
+   },
+   "424": {
+    "sha1_12": "95c1d13bb482",
+    "raw": "                                                                                    BC ",
+    "repaired": "                                                                                    BC = (      )"
+   },
+   "426": {
+    "sha1_12": "9611babcb7c1",
+    "raw": "          \u001a",
+    "repaired": null
+   },
+   "428": {
+    "sha1_12": "9611babcb7c1",
+    "raw": "          \u001a",
+    "repaired": null
+   },
+   "430": {
+    "sha1_12": "9611babcb7c1",
+    "raw": "          \u001a",
+    "repaired": null
+   },
+   "432": {
+    "sha1_12": "23eeb8f8d800",
+    "raw": "          \u001b",
+    "repaired": null
+   },
+   "454": {
+    "sha1_12": "b0f093079ec6",
+    "raw": "                                                                                                                                                                                   OABC is a sector of a circle, centre O with \u001fAOC ",
+    "repaired": "OABC is a sector of a circle, centre O with ∠AOC = 120°"
+   },
+   "455": {
+    "sha1_12": "a7b95f720ff0",
+    "raw": " 120°",
+    "repaired": null
+   },
+   "475": {
+    "sha1_12": "1e9fe766005c",
+    "raw": "                        4\u001f2 7",
+    "repaired": "                        (4 + 2√7)/(3 − √7)"
+   },
+   "476": {
+    "sha1_12": "781e4a274009",
+    "raw": "                        3",
+    "repaired": null
+   },
+   "477": {
+    "sha1_12": "62b388fba0b4",
+    "raw": " 7",
+    "repaired": null
+   },
+   "479": {
+    "sha1_12": "ee6d58b2f001",
+    "raw": "      in the form a + b where a and b are integers.",
+    "repaired": "      in the form a + √b where a and b are integers."
+   },
+   "514": {
+    "sha1_12": "71fd09fa9ecd",
+    "raw": "                                                                                                                                                                               \u001fABC ",
+    "repaired": null
+   },
+   "515": {
+    "sha1_12": "37c7952198ca",
+    "raw": " 52",
+    "repaired": null
+   },
+   "516": {
+    "sha1_12": "8910838bf8b6",
+    "raw": " and the reflex angle AOC � \u001f x",
+    "repaired": "∠ABC = 52° and the reflex angle AOC = x°"
+   },
+   "525": {
+    "sha1_12": "560127629d2e",
+    "raw": "                                                                                                                                                                                                                                                     \u001fADC ",
+    "repaired": null
+   },
+   "553": {
+    "sha1_12": "8114f13b2a65",
+    "raw": "      c \u001f 4 ",
+    "repaired": "      c = 4 × 10^(−8n) where n is an integer."
+   },
+   "554": {
+    "sha1_12": "88f82b91aeea",
+    "raw": " 10 ",
+    "repaired": null
+   },
+   "555": {
+    "sha1_12": "c085109b0fb6",
+    "raw": "8 n where n is an integer.",
+    "repaired": null
+   },
+   "558": {
+    "sha1_12": "7d3bf7586405",
+    "raw": "   (b) Find an expression for c 2 in terms of n",
+    "repaired": "   (b) Find an expression for c^(−1/2) in terms of n"
+   },
+   "588": {
+    "sha1_12": "1d02f2ee23c5",
+    "raw": "                                                                                                                                                                                 (b) Factorise x 2 \u001f 8 x ",
+    "repaired": "(b) Factorise x 2 + 8 x − 20"
+   },
+   "682": {
+    "sha1_12": "9d1424bd180f",
+    "raw": "            0 < w \u001f 10                  x",
+    "repaired": "            0 < w ⩽ 10                  x"
+   },
+   "684": {
+    "sha1_12": "dc38d82c7780",
+    "raw": "           10 < w \u001f 15                 24",
+    "repaired": "           10 < w ⩽ 15                 24"
+   },
+   "686": {
+    "sha1_12": "e3615e109131",
+    "raw": "           15 < w \u001f 25                 40",
+    "repaired": "           15 < w ⩽ 25                 40"
+   },
+   "688": {
+    "sha1_12": "b5081417b88d",
+    "raw": "           25 < w \u001f 35                 60",
+    "repaired": "           25 < w ⩽ 35                 60"
+   },
+   "690": {
+    "sha1_12": "28875574f3e2",
+    "raw": "           35 < w \u001f 55                  y",
+    "repaired": "           35 < w ⩽ 55                  y"
+   },
+   "692": {
+    "sha1_12": "39096918cfd0",
+    "raw": "           55 < w \u001f 65                 20",
+    "repaired": "           55 < w ⩽ 65                 20"
+   },
+   "739": {
+    "sha1_12": "7dbbe4cf43fe",
+    "raw": " 1          \u001b",
+    "repaired": null
+   },
+   "740": {
+    "sha1_12": "24a37c25217c",
+    "raw": "          \u001f       \u001f2 \u0019                  ",
+    "repaired": null
+   },
+   "741": {
+    "sha1_12": "fe5346ebb272",
+    "raw": " x \u001f8 \u001a",
+    "repaired": null
+   },
+   "742": {
+    "sha1_12": "2cf2ecd74071",
+    "raw": "      A=",
+    "repaired": "      A = (−1/2  −2 / 0  1)"
+   },
+   "743": {
+    "sha1_12": "73a2a412c294",
+    "raw": " 2            \t\t       BA \u001f1 ",
+    "repaired": "      BA⁻¹ = ( x   −8 / 1   x ) where x > 0"
+   },
+   "744": {
+    "sha1_12": "65c107073f3e",
+    "raw": " \u001b      \u0018 where x > 0",
+    "repaired": null
+   },
+   "746": {
+    "sha1_12": "fff50dac40a1",
+    "raw": "            \u0019",
+    "repaired": null
+   },
+   "753": {
+    "sha1_12": "e29804573d48",
+    "raw": "1 x \u0019",
+    "repaired": null
+   },
+   "760": {
+    "sha1_12": "ab95aebfb440",
+    "raw": " 0        1\u001a",
+    "repaired": null
+   },
+   "762": {
+    "sha1_12": "2521c677d6d7",
+    "raw": "                                                       1",
+    "repaired": null
+   },
+   "763": {
+    "sha1_12": "c4d3d0a9e2b4",
+    "raw": "      Given that the determinant of matrix B −1 is −",
+    "repaired": "      Given that the determinant of matrix B⁻¹ is −1/6"
+   },
+   "764": {
+    "sha1_12": "99bb75f77119",
+    "raw": "                                                       6",
+    "repaired": null
+   },
+   "773": {
+    "sha1_12": "752586346a63",
+    "raw": "              \u001a",
+    "repaired": null
+   },
+   "774": {
+    "sha1_12": "ab2f204e15bf",
+    "raw": "                                                                                    \u001b              \u0018",
+    "repaired": null
+   },
+   "775": {
+    "sha1_12": "021625914edb",
+    "raw": "                                                                           B \u001f1 ",
+    "repaired": "                                                                           B⁻¹ = (      )"
+   },
+   "776": {
+    "sha1_12": "85a6bd5550ad",
+    "raw": "   \u001b              \u0018",
+    "repaired": null
+   },
+   "777": {
+    "sha1_12": "ab2f204e15bf",
+    "raw": "                                                                                    \u001b              \u0018",
+    "repaired": null
+   },
+   "778": {
+    "sha1_12": "ab2f204e15bf",
+    "raw": "                                                                                    \u001b              \u0018",
+    "repaired": null
+   },
+   "780": {
+    "sha1_12": "6cecf0978d7c",
+    "raw": "              \u0019",
+    "repaired": null
+   },
+   "791": {
+    "sha1_12": "673352e93e92",
+    "raw": "                                                                                                                                                                                                                                               9 \u001f xy ",
+    "repaired": "9 − xy = x2"
+   },
+   "792": {
+    "sha1_12": "238d4f49ea36",
+    "raw": " x 2",
+    "repaired": null
+   },
+   "799": {
+    "sha1_12": "57cdc6e1d66a",
+    "raw": "                                                                                                                                                                                                                                               4 y \u001f x ",
+    "repaired": "4y − x = 11"
+   },
+   "800": {
+    "sha1_12": "cdd8e95f4b66",
+    "raw": " 11",
+    "repaired": null
+   },
+   "881": {
+    "sha1_12": "d180ca48947c",
+    "raw": "   (a) Find g ",
+    "repaired": "   (a) Find g(−2)"
+   },
+   "882": {
+    "sha1_12": "29ae32822a93",
+    "raw": " \u001f2 ",
+    "repaired": null
+   }
+  }
+ }
+}

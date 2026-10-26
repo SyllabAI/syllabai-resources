@@ -354,11 +354,11 @@ Simplify fully 4 x 2 − 36
 
 ## Question 15 (3 marks)
 
-A Diagram NOT R accurately drawn C P Q B The diagram shows ABC. APQR is a parallelogram where P is the midpoint of AB, Q is the midpoint of BC and R is the midpoint of AC. Prove that PBQ and RQC are congruent.
+A Diagram NOT R accurately drawn C P Q B The diagram shows △ABC. APQR is a parallelogram where P is the midpoint of AB, Q is the midpoint of BC and R is the midpoint of AC. Prove that △PBQ and △RQC are congruent.
 
 ### 15 [3]
 
-A Diagram NOT R accurately drawn C P Q B The diagram shows ABC. APQR is a parallelogram where P is the midpoint of AB, Q is the midpoint of BC and R is the midpoint of AC. Prove that PBQ and RQC are congruent.
+A Diagram NOT R accurately drawn C P Q B The diagram shows △ABC. APQR is a parallelogram where P is the midpoint of AB, Q is the midpoint of BC and R is the midpoint of AC. Prove that △PBQ and △RQC are congruent.
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -428,11 +428,11 @@ Calculate the probability that when the spinner is spun once it lands on number 
 
 ## Question 17 (4 marks)
 
-Here is ABC. C Diagram NOT accurately drawn 6 cm 30q A 2 cm B
+Here is △ABC. C Diagram NOT accurately drawn 6 cm 30q A 2 cm B
 
 ### 17(a) [2]
 
-Calculate the area, in cm2, of ABC cm2 Here is PQR. Q Diagram NOT accurately drawn 12 cm x° R 4 cm P
+Calculate the area, in cm2, of △ABC cm2 Here is △PQR. Q Diagram NOT accurately drawn 12 cm x° R 4 cm P
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -531,11 +531,11 @@ The period, T seconds, of a simple pendulum of length L metres is given by the f
 
 ## Question 20 (4 marks)
 
-The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework. Frequency density 10 20 30 40 50 60 70 Time taken (t minutes) Time taken (t minutes) Number of students 10 - t 20 5 20 - t 25 8 25 - t 30 - t 45 - t 60 3 Complete the histogram and the table.
+The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework. Frequency density 10 20 30 40 50 60 70 Time taken (t minutes) Time taken (t minutes) Number of students 10 ⩽ t < 20 20 ⩽ t < 25 25 ⩽ t < 30 30 ⩽ t < 45 45 ⩽ t < 60 Complete the histogram and the table.
 
 ### 20 [4]
 
-The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework. Frequency density 10 20 30 40 50 60 70 Time taken (t minutes) Time taken (t minutes) Number of students 10 - t 20 5 20 - t 25 8 25 - t 30 - t 45 - t 60 3 Complete the histogram and the table.
+The incomplete histogram and the incomplete table give information about the time taken, in minutes, for some students to each complete a piece of homework. No student took less than 10 minutes to complete the homework and no student took longer than 60 minutes to complete the homework. Frequency density 10 20 30 40 50 60 70 Time taken (t minutes) Time taken (t minutes) Number of students 10 ⩽ t < 20 20 ⩽ t < 25 25 ⩽ t < 30 30 ⩽ t < 45 45 ⩽ t < 60 Complete the histogram and the table.
 
 ![table — official paper figure (qp.pdf p.13)](assets/asset_20_table.png)
 
@@ -652,7 +652,7 @@ Find the number of students who study History but not Latin.
 
 ### 23(c) [1]
 
-Find n(H‫[  މ‬L  G])
+Find n(H′ ∩ [L ∪ G])
 
 
 **Mark scheme answer**
@@ -667,7 +667,7 @@ Find n(H‫[  މ‬L  G])
 
 ## Question 24 (5 marks)
 
-Y Diagram NOT Z accurately drawn –3a + 5b X 2a + 3b O → → The diagram shows OXY where OX = 2a + 3b and OY = –3a + 5b →
+Y Diagram NOT Z accurately drawn –3a + 5b X 2a + 3b O → → The diagram shows △OXY where OX = 2a + 3b and OY = –3a + 5b →
 
 ### 24(a) [2]
 
@@ -806,11 +806,11 @@ A=⎜ B=⎜ ⎝ −5 1⎟⎠ ⎝ 1 −1⎟⎠ The determinant of the matrix A2 �
 
 ## Question 27 (6 marks)
 
-A 2x cm B Diagram NOT accurately drawn The diagram shows a semicircle, with diameter AB, where AB = 2x cm. The diagram also shows a circle, which is the circle with the greatest possible radius that can be drawn inside the semicircle. The perimeter of the shaded region is P cm and the area of the shaded region is A cm2. Given that P = A, find an expression for x in terms of ʌ x = .......................................................
+A 2x cm B Diagram NOT accurately drawn The diagram shows a semicircle, with diameter AB, where AB = 2x cm. The diagram also shows a circle, which is the circle with the greatest possible radius that can be drawn inside the semicircle. The perimeter of the shaded region is P cm and the area of the shaded region is A cm2. Given that P = A, find an expression for x in terms of π. x = .......................................................
 
 ### 27 [6]
 
-A 2x cm B Diagram NOT accurately drawn The diagram shows a semicircle, with diameter AB, where AB = 2x cm. The diagram also shows a circle, which is the circle with the greatest possible radius that can be drawn inside the semicircle. The perimeter of the shaded region is P cm and the area of the shaded region is A cm2. Given that P = A, find an expression for x in terms of ʌ x =
+A 2x cm B Diagram NOT accurately drawn The diagram shows a semicircle, with diameter AB, where AB = 2x cm. The diagram also shows a circle, which is the circle with the greatest possible radius that can be drawn inside the semicircle. The perimeter of the shaded region is P cm and the area of the shaded region is A cm2. Given that P = A, find an expression for x in terms of π. x =
 
 ![diagram — official paper figure (qp.pdf p.20) — shared with asset_27_q_diagram_stem](assets/asset_27_q_diagram_stem.png)
 

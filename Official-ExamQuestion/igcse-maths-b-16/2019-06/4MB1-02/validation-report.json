@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:42:04Z",
+ "generated_utc": "2026-10-26T11:36:26Z",
  "series": "2019-06",
  "paper": "02",
  "gates": [
@@ -47,10 +47,10 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "8 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 0 remain crop-required; 6 parts without page anchor",
+   "summary": "8 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 0 remain crop-required; 8 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 6,
+    "pages_unanchored": 8,
     "crop_stats": {
      "crops": 3,
      "pending": 0,
@@ -78,18 +78,15 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 37/37 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 9 parts, agrees with QP marks on 1",
+   "summary": "solution_md on 37/37 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 5 parts, agrees with QP marks on 0",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
-    "ms_marks_seen": 9,
-    "ms_marks_agree": 1,
+    "ms_marks_seen": 5,
+    "ms_marks_agree": 0,
     "ms_marks_disagree": [
      "4(e) (ms=1 qp=3)",
-     "7(b) (ms=4 qp=3)",
      "7(c) (ms=20 qp=2)",
-     "8(a) (ms=1 qp=2)",
-     "9(b)(i) (ms=9 qp=2)",
      "9(c) (ms=2 qp=3)",
      "10(d) (ms=5 qp=3)",
      "11(b) (ms=2 qp=3)"
@@ -126,10 +123,330 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (172 instances / 15 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (92 instances / 15 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
+ "text_repairs": {
+  "qp": {
+   "applied": 22,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": [
+    {
+     "line": 685,
+     "sha1_12": "77d90bbc83b0"
+    },
+    {
+     "line": 797,
+     "sha1_12": "25bfc98324ed"
+    },
+    {
+     "line": 800,
+     "sha1_12": "57fafd0b0c87"
+    },
+    {
+     "line": 804,
+     "sha1_12": "49e7ac56535f"
+    },
+    {
+     "line": 808,
+     "sha1_12": "a759fd7e6a10"
+    },
+    {
+     "line": 812,
+     "sha1_12": "fba2b9cf9a29"
+    },
+    {
+     "line": 988,
+     "sha1_12": "25bfc98324ed"
+    },
+    {
+     "line": 991,
+     "sha1_12": "57fafd0b0c87"
+    },
+    {
+     "line": 995,
+     "sha1_12": "49e7ac56535f"
+    },
+    {
+     "line": 999,
+     "sha1_12": "a759fd7e6a10"
+    },
+    {
+     "line": 1005,
+     "sha1_12": "fba2b9cf9a29"
+    },
+    {
+     "line": 2340,
+     "sha1_12": "d6607e70d24c"
+    },
+    {
+     "line": 2341,
+     "sha1_12": "9fc8838141ac"
+    },
+    {
+     "line": 2343,
+     "sha1_12": "8cbb56fae13e"
+    },
+    {
+     "line": 2346,
+     "sha1_12": "76383a536a7a"
+    },
+    {
+     "line": 2784,
+     "sha1_12": "79e12c4078d0"
+    },
+    {
+     "line": 2785,
+     "sha1_12": "df6187133311"
+    },
+    {
+     "line": 2792,
+     "sha1_12": "7148c52b619c"
+    },
+    {
+     "line": 3255,
+     "sha1_12": "d3bcaca23be5"
+    },
+    {
+     "line": 3256,
+     "sha1_12": "4acc2f813aaf"
+    },
+    {
+     "line": 3257,
+     "sha1_12": "eb82af527eda"
+    },
+    {
+     "line": 3417,
+     "sha1_12": "6b58cb7cae05"
+    }
+   ]
+  },
+  "ms": {
+   "applied": 54,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": [
+    {
+     "line": 140,
+     "sha1_12": "90218164c0a3"
+    },
+    {
+     "line": 141,
+     "sha1_12": "8d3b9cc951fb"
+    },
+    {
+     "line": 142,
+     "sha1_12": "efc73453cd55"
+    },
+    {
+     "line": 174,
+     "sha1_12": "945eaf0a8e08"
+    },
+    {
+     "line": 175,
+     "sha1_12": "2c412dd6c823"
+    },
+    {
+     "line": 176,
+     "sha1_12": "e8c68332e446"
+    },
+    {
+     "line": 247,
+     "sha1_12": "ce404a0d0200"
+    },
+    {
+     "line": 248,
+     "sha1_12": "66e9a9dca6d4"
+    },
+    {
+     "line": 249,
+     "sha1_12": "48c9afdfe3f1"
+    },
+    {
+     "line": 250,
+     "sha1_12": "f51baab29825"
+    },
+    {
+     "line": 251,
+     "sha1_12": "4cc88797075b"
+    },
+    {
+     "line": 252,
+     "sha1_12": "3017cac58b42"
+    },
+    {
+     "line": 263,
+     "sha1_12": "5a4531d869b3"
+    },
+    {
+     "line": 264,
+     "sha1_12": "fd7ded1ceaa6"
+    },
+    {
+     "line": 265,
+     "sha1_12": "ff94321b418d"
+    },
+    {
+     "line": 267,
+     "sha1_12": "2ba9ee98aeea"
+    },
+    {
+     "line": 268,
+     "sha1_12": "474759efe213"
+    },
+    {
+     "line": 269,
+     "sha1_12": "abf9a3d299c8"
+    },
+    {
+     "line": 272,
+     "sha1_12": "39d0dc5c7bbc"
+    },
+    {
+     "line": 273,
+     "sha1_12": "b843704d3958"
+    },
+    {
+     "line": 274,
+     "sha1_12": "40beca21a5a1"
+    },
+    {
+     "line": 275,
+     "sha1_12": "5903d9d3e918"
+    },
+    {
+     "line": 276,
+     "sha1_12": "597b54747b64"
+    },
+    {
+     "line": 277,
+     "sha1_12": "6a7441f89102"
+    },
+    {
+     "line": 280,
+     "sha1_12": "bb688f0496cb"
+    },
+    {
+     "line": 282,
+     "sha1_12": "e750705e8eb9"
+    },
+    {
+     "line": 283,
+     "sha1_12": "593a6c5826a8"
+    },
+    {
+     "line": 313,
+     "sha1_12": "e36aacf686d0"
+    },
+    {
+     "line": 335,
+     "sha1_12": "e536587e1dc3"
+    },
+    {
+     "line": 337,
+     "sha1_12": "d1c13b88eb0b"
+    },
+    {
+     "line": 338,
+     "sha1_12": "6f3006ab3bca"
+    },
+    {
+     "line": 379,
+     "sha1_12": "0acada51bf9a"
+    },
+    {
+     "line": 380,
+     "sha1_12": "f511fb639115"
+    },
+    {
+     "line": 381,
+     "sha1_12": "0c373eaee531"
+    },
+    {
+     "line": 391,
+     "sha1_12": "52bfacd392f0"
+    },
+    {
+     "line": 392,
+     "sha1_12": "eec2daa1d4f5"
+    },
+    {
+     "line": 393,
+     "sha1_12": "edc2fe83857e"
+    },
+    {
+     "line": 399,
+     "sha1_12": "c3fceb50b71f"
+    },
+    {
+     "line": 400,
+     "sha1_12": "6bcd9e6e3342"
+    },
+    {
+     "line": 401,
+     "sha1_12": "da39a3ee5e6b"
+    },
+    {
+     "line": 429,
+     "sha1_12": "37b901d7406b"
+    },
+    {
+     "line": 430,
+     "sha1_12": "82523e9f3dac"
+    },
+    {
+     "line": 431,
+     "sha1_12": "65c20ba52c61"
+    },
+    {
+     "line": 432,
+     "sha1_12": "8b28df85740d"
+    },
+    {
+     "line": 433,
+     "sha1_12": "17bb3ea1016a"
+    },
+    {
+     "line": 466,
+     "sha1_12": "0d13282bc874"
+    },
+    {
+     "line": 486,
+     "sha1_12": "11f522b7bfa5"
+    },
+    {
+     "line": 487,
+     "sha1_12": "2effa888068e"
+    },
+    {
+     "line": 500,
+     "sha1_12": "017a8bca5751"
+    },
+    {
+     "line": 501,
+     "sha1_12": "4acd55312dfb"
+    },
+    {
+     "line": 507,
+     "sha1_12": "26bb2524e042"
+    },
+    {
+     "line": 514,
+     "sha1_12": "bf58c3f488aa"
+    },
+    {
+     "line": 519,
+     "sha1_12": "bd508aa8081c"
+    },
+    {
+     "line": 531,
+     "sha1_12": "3f12992fb18b"
+    }
+   ]
+  }
+ },
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
@@ -141,21 +458,21 @@
  "control_char_fallback": {
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
-   "0x13": 2,
-   "0x14": 10,
-   "0x15": 14,
-   "0x16": 6,
-   "0x17": 18,
-   "0x18": 4,
-   "0x19": 8,
-   "0x1a": 2,
-   "0x1b": 6,
+   "0x13": 1,
+   "0x14": 5,
+   "0x15": 7,
+   "0x16": 3,
+   "0x17": 9,
+   "0x18": 2,
+   "0x19": 4,
+   "0x1a": 1,
+   "0x1b": 3,
    "0x1c": 1,
    "0x1d": 6,
-   "0x1f": 2,
-   "0x3": 80,
+   "0x1f": 1,
+   "0x3": 40,
    "0xb": 5,
-   "0xf": 8
+   "0xf": 4
   }
  }
 }

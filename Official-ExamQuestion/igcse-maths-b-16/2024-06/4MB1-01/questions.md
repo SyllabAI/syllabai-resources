@@ -183,7 +183,7 @@ Solve the inequality 3w 4 ≤ 8w
 
 ### 6(b) [2]
 
-On the number line, show the inequality 4 x ≤ 2 x −5 −4 −3 −2 −1 0 1 2 3 4 5 ￼
+On the number line, show the inequality 4 x ≤ 2 x −5 −4 −3 −2 −1 0 1 2 3 4 5
 
 
 **Mark scheme answer**

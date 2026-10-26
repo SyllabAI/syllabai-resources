@@ -1,5 +1,46 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.22.0 — 2026-10-26 · T-OEQ-MATHSB-SERVE-1 run-001: the maths-B serve-hygiene wave (F91) — the broken-symbol-font text layers repair
+
+The wave-25 serve card's G-S4 gate caught the maths-B emission carrying 35 C1
+controls + 107 U+FFFD (run-003, trace 1a1777580eb2a10d); the operator ruled
+option A — the resources-side hygiene wave (trace 1a177a00bc816e05). The root
+cause class is wider than the gate caught: broken-symbol-font glyph slots in
+the staged pdftotext layers (SymbolMT subsets mapping math glyphs into C0/C1,
+broken TimesNewRoman subsets applying a uniform -29 ASCII shift — space->0x03,
+'.'->0x11, digits->0x13..0x1c, lowercase->uppercase-29 — with the '=' glyph
+becoming an invisible real space), U+FFFD unresolvable-OCR structures (the
+2019-06/02 MS's fraction bars / radicals / matrix parens), RTL/bidi wrapper
+marks, Cyrillic/Thaana/Latin-1/IPA oddball slots, and U+FFFC object
+placeholders. This release:
+
+- Adds `scripts/official_examq_text_repairs.py` + the committed table
+  `scripts/official_examq_text_repairs.json` (256 per-line rules over 8
+  staging files: the 7 serve-blocker sets' QP/MS layers + the 2019-06/02 QP).
+  Every rule was adjudicated eyes-on against 150/300/600dpi page renders of
+  the printed papers (evidence pack in the wave receipts, evidence-r2/) and
+  the 2019-06/02 MS rules cross-checked against the SME twin's
+  UIUX-TIER-B-RUN-004 lineage. Rules carry a sha1 guard per line: a drifted
+  staged layer fails the run (fail-closed), never silently re-interprets.
+- Applies the repairs at the txt read inside main() — the repaired text IS
+  the extraction of record, so G2-D provenance, source_norm and the emission
+  move together. Lane-scoped to igcse-maths-b-16; chemistry/physics runs are
+  measured no-ops (byte-identity re-proven at this base: 2020-11 1C and
+  2023-06 1P regenerate content-identical modulo generated_utc).
+- G4 (F90-family hygiene): U+FFFC object placeholders strip corpus-wide
+  (11 instances over 6 maths-B staging files; zero in chemistry/physics).
+- The 12 affected maths-B sets re-emitted (11 rule sets + 2020-11/01 as the
+  untouched-maths canary): every set G0-G7 ALL PASS; the corpus census is
+  EXACT at 66 sets / 1281 q / 2443 p / 6600 marks with question/part/marks
+  structure and part ids STABLE on all 12 changed sets; the emission diff
+  audit shows repair-class changes only (the 2019-06/02 structured per-field
+  audit: 40/122 field blocks, every hunk a repaired structure).
+- Known residual (disclosed, NOT this wave): the 2023-2026 generation QPs
+  carry the same slot class at lower density (~900 txt-layer lines across
+  ~25 files: the \x1f inequality/angle/minus slots, i-acute minus, IPA-lambda
+  pi) — outside the serve blocker, pre-existing corpus style, filed for a
+  follow-up hygiene census.
+
 ## 0.21.1 — 2026-10-26 · Task 19: the hygiene-v2 wave (F87) — the CONTINUES-footer class closes; the deep-audit drive-bies land (F88/F89)
 
 A user-served leak (`QUESTION 11 CONTINUES ON BACK PAGE` glued into 2026-06 1CR 11(c)'s problem

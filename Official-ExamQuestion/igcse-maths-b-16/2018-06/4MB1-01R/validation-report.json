@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:40:57Z",
+ "generated_utc": "2026-10-26T11:30:50Z",
  "series": "2018-06",
  "paper": "01R",
  "gates": [
@@ -159,10 +159,61 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (12 instances / 1 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (6 instances / 1 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
+ "text_repairs": {
+  "qp": {
+   "applied": 9,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": [
+    {
+     "line": 154,
+     "sha1_12": "f9edfd137aca"
+    },
+    {
+     "line": 155,
+     "sha1_12": "e1cd7a0feb11"
+    },
+    {
+     "line": 161,
+     "sha1_12": "64471d2af4db"
+    },
+    {
+     "line": 191,
+     "sha1_12": "a4747f72942f"
+    },
+    {
+     "line": 192,
+     "sha1_12": "254f3d2decdc"
+    },
+    {
+     "line": 199,
+     "sha1_12": "f586d8e39f49"
+    },
+    {
+     "line": 539,
+     "sha1_12": "531b54f8fcd3"
+    },
+    {
+     "line": 540,
+     "sha1_12": "3994d8ea6095"
+    },
+    {
+     "line": 551,
+     "sha1_12": "7bfd11e92a34"
+    }
+   ]
+  },
+  "ms": {
+   "applied": 0,
+   "fffc_stripped": 0,
+   "table_sha256": "6450220aec0b2bdb477b88f6a532f689597d5110e525f50f2087488ce83c2fee",
+   "rules": []
+  }
+ },
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
@@ -174,7 +225,7 @@
  "control_char_fallback": {
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
-   "0x3": 12
+   "0x3": 6
   }
  }
 }

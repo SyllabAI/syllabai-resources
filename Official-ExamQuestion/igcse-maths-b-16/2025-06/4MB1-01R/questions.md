@@ -57,11 +57,11 @@ N Diagram NOT accurately drawn N K 214° J The diagram shows the position of two
 
 ## Question 3 (2 marks)
 
-Make x the subject of t 6 x
+Make x the subject of t = 6(x + 4)
 
 ### 3 [2]
 
-Make x the subject of t 6 x
+Make x the subject of t = 6(x + 4)
 
 
 **Mark scheme answer**
@@ -111,11 +111,11 @@ The price of a television is reduced by 8% in a sale. The price of the televisio
 
 ## Question 5 (2 marks)
 
-Simplify fully 4 xy 5 3 2 xy
+Simplify fully (4xy5)3 / 2xy
 
 ### 5 [2]
 
-Simplify fully 4 xy 5 3 2 xy
+Simplify fully (4xy5)3 / 2xy
 
 
 **Mark scheme answer**
@@ -132,11 +132,11 @@ Simplify fully 4 xy 5 3 2 xy
 
 ## Question 6 (2 marks)
 
-Given that, for all values of x, x 2 6 x x a b where a and b are integers find the value of a and the value of b a = ......................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . b = ......................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Given that, for all values of x, x 2 + 6 x − 15 = ( x + a )2 − b where a and b are integers find the value of a and the value of b a = ......................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . b = ......................... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 ### 6 [2]
 
-Given that, for all values of x, x 2 6 x x a b where a and b are integers find the value of a and the value of b a = b =
+Given that, for all values of x, x 2 + 6 x − 15 = ( x + a )2 − b where a and b are integers find the value of a and the value of b a = b =
 
 
 **Mark scheme answer**
@@ -157,11 +157,11 @@ Given that, for all values of x, x 2 6 x x a b where a and b are integers find t
 
 ## Question 7 (3 marks)
 
-A B C Diagram NOT accurately drawn 72° 56° D E F G In the diagram ABC and DEFG are parallel straight lines. BEF 56° and CBF 72° Find the size, in degrees, of ∠EBF Give reasons for each stage of your working. EBF ............................. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . °
+A B C Diagram NOT accurately drawn 72° 56° D E F G In the diagram ABC and DEFG are parallel straight lines. ∠BEF = 56° and ∠CBF = 72° Find the size, in degrees, of ∠EBF Give reasons for each stage of your working. ∠EBF ............................. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . °
 
 ### 7 [3]
 
-A B C Diagram NOT accurately drawn 72° 56° D E F G In the diagram ABC and DEFG are parallel straight lines. BEF 56° and CBF 72° Find the size, in degrees, of ∠EBF Give reasons for each stage of your working. EBF °
+A B C Diagram NOT accurately drawn 72° 56° D E F G In the diagram ABC and DEFG are parallel straight lines. ∠BEF = 56° and ∠CBF = 72° Find the size, in degrees, of ∠EBF Give reasons for each stage of your working. ∠EBF °
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -227,7 +227,7 @@ Find the median of these 10 marks.
 ## Question 9 (3 marks)
 ### 9(a) [2]
 
-Solve the inequality 5 y 20 3 y
+Solve the inequality 5 y < 20 + 3y 3 y
 
 
 **Mark scheme answer**
@@ -452,11 +452,11 @@ Xiou records the time, in minutes, it takes each of the 30 students in his class
 
 ## Question 15 (4 marks)
 
-The points O, A and B are such that and The point C is such that AC = 125 and AC is parallel to OB Find c Give your answer in the form where c and d are integers d such that c < 0 and d > 0 Show all your working. BC
+The points O, A and B are such that OA = (−1/5) and OB = (−4/2) The point C is such that |AC| = √125 and AC is parallel to OB Find BC Give your answer in the form (c/d) where c and d are integers such that c < 0 and d > 0 Show all your working. BC = ( )
 
 ### 15 [4]
 
-The points O, A and B are such that and The point C is such that AC = 125 and AC is parallel to OB Find c Give your answer in the form where c and d are integers d such that c < 0 and d > 0 Show all your working. BC
+The points O, A and B are such that OA = (−1/5) and OB = (−4/2) The point C is such that |AC| = √125 and AC is parallel to OB Find BC Give your answer in the form (c/d) where c and d are integers such that c < 0 and d > 0 Show all your working. BC = ( )
 
 
 **Mark scheme answer**
@@ -538,11 +538,11 @@ The points O, A and B are such that and The point C is such that AC = 125 and AC
 
 ## Question 16 (4 marks)
 
-A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre O with AOC 120° The length of arc ABC is 17.2 cm Calculate the area, in cm 2 to 3 significant figures, of the sector. ................................... . . . . . . . . . . . . . . . . . . . . . . . . . cm2
+A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre O with ∠AOC = 120° The length of arc ABC is 17.2 cm Calculate the area, in cm 2 to 3 significant figures, of the sector. ................................... . . . . . . . . . . . . . . . . . . . . . . . . . cm2
 
 ### 16 [4]
 
-A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre O with AOC 120° The length of arc ABC is 17.2 cm Calculate the area, in cm 2 to 3 significant figures, of the sector cm2
+A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre O with ∠AOC = 120° The length of arc ABC is 17.2 cm Calculate the area, in cm 2 to 3 significant figures, of the sector cm2
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -582,11 +582,11 @@ A Diagram NOT accurately drawn B 120° O C OABC is a sector of a circle, centre 
 
 ## Question 17 (4 marks)
 
-Without using a calculator and showing all your working, express 4 2 7 in the form a + b where a and b are integers.
+Without using a calculator and showing all your working, express (4 + 2√7)/(3 − √7) in the form a + √b where a and b are integers.
 
 ### 17 [4]
 
-Without using a calculator and showing all your working, express 4 2 7 in the form a + b where a and b are integers.
+Without using a calculator and showing all your working, express (4 + 2√7)/(3 − √7) in the form a + √b where a and b are integers.
 
 
 **Mark scheme answer**
@@ -627,11 +627,11 @@ Without using a calculator and showing all your working, express 4 2 7 in the fo
 
 ## Question 18 (5 marks)
 
-B Diagram NOT accurately drawn 52° x° O A C D In the diagram A, B, C and D are points on a circle, centre O ABC and the reflex angle AOC � x
+B Diagram NOT accurately drawn 52° x° O A C D In the diagram A, B, C and D are points on a circle, centre O ∠ABC = 52° and the reflex angle AOC = x°
 
 ### 18(a) [2]
 
-Find the size, in degrees, of ∠ADC Give a reason for your answer. ADC °
+Find the size, in degrees, of ∠ADC Give a reason for your answer °
 
 
 **Mark scheme answer**
@@ -682,7 +682,7 @@ Find the value of x Give a reason for your answer. x =
 ## Question 19 (5 marks)
 ### 19(a) [2]
 
-Calculate 3.6 × 10103 × 7.5 × 10101 Give your answer in standard form. c 4 8 n where n is an integer. −
+Calculate 3.6 × 10103 × 7.5 × 10101 Give your answer in standard form. c = 4 × 10^(−8n) where n is an integer. −
 
 
 **Mark scheme answer**
@@ -695,7 +695,7 @@ Calculate 3.6 × 10103 × 7.5 × 10101 Give your answer in standard form. c 4 8 
 
 ### 19(b) [3]
 
-Find an expression for c 2 in terms of n Give your answer in standard form.
+Find an expression for c^(−1/2) in terms of n Give your answer in standard form.
 
 
 **Mark scheme answer**
@@ -755,7 +755,7 @@ Find an expression in terms of x for the perimeter, in metres, of the rectangle.
 
 ### 20(b) [2]
 
-Factorise x 2 8 x
+Factorise x 2 + 8 x − 20
 
 
 **Mark scheme answer**
@@ -847,11 +847,11 @@ E Diagram NOT accurately drawn C D A B The diagram shows a right solid pyramid A
 
 ## Question 22 (6 marks)
 
-The weights, in grams, of tomatoes harvested by a gardener last month were measured. The incomplete table and incomplete histogram below give information about the weight, in grams, of each tomato harvested last month. Weight (w grams) Number of tomatoes 0 < w 10 x 10 < w 15 24 15 < w 25 40 25 < w 35 60 35 < w 55 y 55 < w 65 20 Frequency density 0 5 10 15 20 25 30 35 40 45 50 55 60 65 Weight (w grams)
+The weights, in grams, of tomatoes harvested by a gardener last month were measured. The incomplete table and incomplete histogram below give information about the weight, in grams, of each tomato harvested last month. Weight (w grams) Number of tomatoes 0 < w ⩽ 10 x 10 < w ⩽ 15 24 15 < w ⩽ 25 40 25 < w ⩽ 35 60 35 < w ⩽ 55 y 55 < w ⩽ 65 20 Frequency density 0 5 10 15 20 25 30 35 40 45 50 55 60 65 Weight (w grams)
 
 ### 22(a) [2]
 
-Show that y = 16 A tomato for which w ≤ 35 grams is classed as a small tomato. A small tomato is selected at random. The probability that this tomato weighs less than or equal to 15 grams is ￼
+Show that y = 16 A tomato for which w ≤ 35 grams is classed as a small tomato. A small tomato is selected at random. The probability that this tomato weighs less than or equal to 15 grams is
 
 
 **Mark scheme answer**
@@ -915,11 +915,11 @@ Complete the histogram.
 
 ## Question 23 (5 marks)
 
-x 8 A= 2 BA 1 where x > 0 1 x 0 1 Given that the determinant of matrix B −1 is − find matrix B –1 Give the elements of this matrix as numbers. Show all your working. B 1
+A = (−1/2 −2 / 0 1) BA⁻¹ = ( x −8 / 1 x ) where x > 0 Given that the determinant of matrix B⁻¹ is −1/6 find matrix B –1 Give the elements of this matrix as numbers. Show all your working. B⁻¹ = ( )
 
 ### 23 [5]
 
-x 8 A= 2 BA 1 where x > 0 1 x 0 1 Given that the determinant of matrix B −1 is − find matrix B –1 Give the elements of this matrix as numbers. Show all your working. B 1
+A = (−1/2 −2 / 0 1) BA⁻¹ = ( x −8 / 1 x ) where x > 0 Given that the determinant of matrix B⁻¹ is −1/6 find matrix B –1 Give the elements of this matrix as numbers. Show all your working. B⁻¹ = ( )
 
 
 **Mark scheme answer**
@@ -985,11 +985,11 @@ x 8 A= 2 BA 1 where x > 0 1 x 0 1 Given that the determinant of matrix B −1 is
 
 ## Question 24 (6 marks)
 
-Solve the simultaneous equations 9 xy x 2 4 y x Show clear algebraic working.
+Solve the simultaneous equations 9 − xy = x2 4y − x = 11 Show clear algebraic working.
 
 ### 24 [6]
 
-Solve the simultaneous equations 9 xy x 2 4 y x Show clear algebraic working.
+Solve the simultaneous equations 9 − xy = x2 4y − x = 11 Show clear algebraic working.
 
 
 **Mark scheme answer**
@@ -1151,7 +1151,7 @@ The function g is defined by g:x ↦ 3 − x < 0 x
 
 ### 26(a) [1]
 
-Find g
+Find g(−2)
 
 
 **Mark scheme answer**
@@ -1176,7 +1176,7 @@ Find the range of g
 
 ### 26(c) [3]
 
-Express the inverse function g −1 in the form g −1 : x ↦ ... g −1 : x ↦ The function h is defined by h : x ↦ ￼ x<0 2x − 3 ax + b
+Express the inverse function g −1 in the form g −1 : x ↦ ... g −1 : x ↦ The function h is defined by h : x ↦ x<0 2x − 3 ax + b
 
 
 **Mark scheme answer**
