@@ -324,3 +324,70 @@ GAP-001..048 (family-continuous numbering).
   SIB taxonomy for CHEMISTRY_4CH1 is COMPLETE (CUR 8 + MIS 9 + EXP 8 + ASM 10
   + MS 8 + EXM 6 + PED 9 + PRA 5 + PRO 7 + HIS 7 + TUT 10 + GAP 8). No
   remaining generation queue. Staging/publication remain operator-ordered.
+
+## 2026-10-26 — SIB-CHEMISTRY_4CH1-RUN-010 (BL-010 pass 10: external-review remediation) — zai_agent lane
+
+Operator order 'open the remediation pass (RUN-010) starting with items 1-2' (trace
+1a178e533eaa1b81, channel zai-web). Run SIB-CHEMISTRY_4CH1-RUN-010 = the remediation
+pair ASM-10 v1.1 + MIS-01 v1.1, arising from the operator-supplied external review of
+the 95-artifact library (both P0 findings verified against main @ 295fb5b before any
+edit).
+
+- Verified defects of record: ASM-10 claimed Topic 1 carries SEVEN named sub-topics —
+  its own evidence excerpt was truncated mid-word at '(g) Cov' and the count was taken
+  from the truncated window; the official p17 list runs (a) States of matter through
+  (i) Electrolysis (nine), matching CUR-01's S1-a..S1-i and the registry census
+  (28 = 9+8+3+8). MIS-01 claimed '24 reports across the 8 sessions' while listing
+  SEVEN sessions and counting the garbled 2024-06 1C file; the census of record
+  (RUN-009 GAP-03) is 23 clean reports across seven sessions — re-verified at source
+  against the materialized pastpapers tree @ 2cb92fe5 (24 physical er.pdf holdings,
+  4+4+4+2+4+2+4).
+- Fetch-first: resources main @ 295fb5b6 (unchanged from assessment clone), master
+  @ 357ace0a pin unchanged, pastpapers @ 2cb92fe5. Sparse cones: SubjectIntelligence +
+  Official-Specifications/igcse-chemistry + Official-ExamQuestion/igcse-chemistry-19
+  (new for this run: ASM-10's QPMS citations) + pastpapers 4ch1 er.pdf-only sparse.
+- Preflight PASS: 6/17 sources resolved, 11 absent corpora disclosed run-wide (same
+  posture as RUN-006..009); ASM primaries RESOLVED (SRC-SPEC-4CH1 declared sha1
+  matched; SRC-QPMS-4CH1 tree_sha verified; SRC-SAMS-4CH1 RESOLVED), MIS primaries
+  RESOLVED (SRC-ER-4CH1 tree_sha verified; SRC-QPMS-4CH1).
+- Packs: 2 agent-authored pack specs, every policy-selected resolved source planned
+  explicitly (no auto-pulled entries). ASM-10: spec p17+p35; 7 QPMS paper files with
+  targeted marker-window queries landing the exact cited locators (2019-06 2C
+  lines 223-237 + 230-244; 2019-06 1CR 309-323; 2020-01 2C 69-83; 2020-11 1CR 129-143;
+  2022-01 1CR 184-198; 2023-01 1CR 133-147; 2022-06 2C 186-200) so ASM-059's
+  'seven of its held paper files' holds of the RUN-010 pack; SAMS + TL one-page
+  identity-presence covers. MIS-01: the 23 clean ER reports (identity covers + p3
+  introductions; June-2023 1C p6 and June-2025 1C pp4-5 deep pages), QPMS identity row
+  (MULTI-SERIES-REPORT.md head), TL identity cover. Pack sha256s of record in the run
+  manifest.
+- Pre-author verification (fail-closed, before packs): every quote the remediated
+  artifacts carry was checked against its cited page/window of the materialized
+  sources. 6 candidate mismatches resolved before any pack was built: 2 checker
+  session-mapping errors; 2 cross-document ellipsis spans (MIS-004's 'an on-going
+  issue' grounds on the co-cited 2023-06 2CR p3); 2 quotes union-grounded on the
+  correct co-cited page (MIS-008's practical-work quotes on 2023-06 1CR p3). NO
+  attribution errors found in the v1.0 record quotes.
+- Authoring from packs alone (surgical): ASM-10 — Exec Summary + ASM-055 count 7 -> 9
+  with the full nine-item list quoted; ASM-059 examples upgraded to line-located
+  windows (same files, same claim); Source Basis notes the full-list quote; Research
+  Status carries the remediation record. MIS-01 — Scope/Source Basis/Limitations
+  census statements aligned to 23 clean / seven sessions with the garbled-1C exclusion
+  disclosed; all 12 records' substance byte-stable with citations upgraded from the
+  wave-1 prose form '(er.pdf p3) - SRC-ER-4CH1:' to the r4 binding grammar
+  '(SRC-ER-4CH1, <session>/<paper>/er.pdf pN)' (same sources, pages and quotes).
+- QA CHAIN: validator qa @ 357ace0a — ASM-10 0 errors / 0 warnings; MIS-01 0 errors /
+  23 warnings (the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed
+  since RUN-003: registry points live under spec_point_codes while the validator's
+  loader reads specification_points/identifiers; reported, not repaired);
+  qa-reports/ x2 written by the validator of record. Evidence-claim QA r4: 38
+  citations / 0 violations FIRST-PASS (10 ASM-10 + 28 MIS-01). Educational review
+  PASS: corrected claims re-verified against the sources of record. Run manifest
+  add-artifact x2 + validate OK (source_revisions: resources 295fb5b6, pastpapers
+  2cb92fe5, master 357ace0a).
+- LEDGER: manifest.yaml BL-008 description appended with the PASS 10 EXECUTED entry
+  (YAML re-parse verified). Scoreboard: 95/95 artifacts GENERATED with ASM-10 + MIS-01
+  corrected at v1.1. Remediation queue remaining (operator-ordered, not yet
+  scheduled): claim-type labels for the MIS family why-it-occurs/intervention
+  sections; authority-stamp vocabulary definition; manifest.yaml notebook-field/status
+  hygiene; coverage-status field; run-record publication posture; EXP-06 <-> TUT-08
+  cross-family seam reference. Staging/publication remain operator-ordered.

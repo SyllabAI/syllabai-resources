@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-25
+generated_at: 2026-10-26
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-001"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-010"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
-    syllabai: "22eccac6e6eade7c6d7fdef50478bd379e870f91"
-    syllabai_pastpapers: "ab92cee62aad2e17ccef72a457f3ae8a1357f57c"
-    syllabai_resources: "59f1ba186d6e53bc7b52c5c1781720067932bb77"
+    syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "295fb5b698b37026417e4100551b025579c5f90f"
 ---
 
 # MIS-01 — Misconception Atlas
@@ -56,9 +56,10 @@ observations into canonical educational truth (Subject Intelligence Build v1, §
 ## Scope
 
 **Covers:** current assessment evidence only (official examiner corpus). Twelve misconception records
-(MIS-001 … MIS-012) grounded on the official 4CH1 examiner reports held by the
-library — 24 reports across the 8 sessions with public ERs (2019-06, 2022-06,
-2023-06, 2023-11, 2024-06, 2024-11, 2025-06), covering papers 1C/2C/1CR/2CR as held.
+(MIS-001 … MIS-012) grounded on the official 4CH1 examiner reports of record —
+the 23 clean reports across the seven sessions with public ERs (2019-06, 2022-06,
+2023-06, 2023-11, 2024-06, 2024-11, 2025-06), covering papers 1C/2C/1CR/2CR as
+held; the June 2024 Paper 1C report is excluded of record as OCR-garbled.
 Each record states the concept, the misconception, why it occurs, the correct
 understanding, the typical manifestation and the diagnostic/intervention signals, with
 the examiner-report citation(s) that ground it.
@@ -112,8 +113,7 @@ movement.
 **Intervention ideas:** Three-column drill (arrangement / movement / energy) per state;
 explicitly name vibration as movement; mark-scheme-language practice ("vibrate about
 fixed positions", "move around freely").
-**Evidence:** Pearson examiner report June 2019 4CH1/1CR, Question 1 (er.pdf p3) —
-SRC-ER-4CH1: candidates "gave the impression they did not appreciate that vibration is
+**Evidence:** Pearson examiner report June 2019 4CH1/1CR, Question 1 (SRC-ER-4CH1, 2019-06/4CH1-1CR/er.pdf p3): candidates "gave the impression they did not appreciate that vibration is
 a type of movement"; some "described the forces between particles… or referred to the
 amount of energy" where arrangement+movement was asked.
 
@@ -135,7 +135,7 @@ collision-frequency answer as the kinetics frame mis-applied.
 **Intervention ideas:** Contrast pair drill: rate-of-reaction explanation vs
 evaporation explanation, same stimulus (heating); require the words "more energetic
 particles escape".
-**Evidence:** Pearson examiner report November 2023 4CH1/1C, Q1b (er.pdf p3) — SRC-ER-4CH1:
+**Evidence:** Pearson examiner report November 2023 4CH1/1C, Q1b (SRC-ER-4CH1, 2023-11/4CH1-1C/er.pdf p3):
 "Far fewer went on to explain that evaporation involves the more energetic particles
 escaping the liquid. Some confused this process with reactions by talking about greater
 frequency of collisions."
@@ -159,8 +159,8 @@ was asked.
 the molecular formula changes across the arrow.
 **Intervention ideas:** Physical-vs-chemical change sort with equations; drill
 state-symbol equations for melting/boiling/condensing/freezing.
-**Evidence:** Pearson examiner report November 2023 4CH1/1C, Q1c(ii) (er.pdf p3) —
-SRC-ER-4CH1: "A few incorrectly wrote an equation for the formation of water. They did
+**Evidence:** Pearson examiner report November 2023 4CH1/1C, Q1c(ii) (SRC-ER-4CH1, 2023-11/4CH1-1C/er.pdf p3):
+"A few incorrectly wrote an equation for the formation of water. They did
 not realise that a change of state does not alter the molecules themselves."
 
 ### MIS-004 — Halogens vs halide ions (and -ine/-ide naming)
@@ -185,9 +185,9 @@ label every species as element or ion before writing.
 **Intervention ideas:** -ine/-ide suffix table drill; insist on species-type labelling
 in displacement answers; examiners' own advice: "use the correct terminology when
 describing these reactions".
-**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Q07(d) (er.pdf p3) and
-4CH1/2CR, Introduction (er.pdf p3) — SRC-ER-4CH1: "confusion between halogens and
-halide ions… an on-going issue"; and November 2023 4CH1/2C, Question 1 (er.pdf p3) —
+**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Q07(d) (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3) and
+4CH1/2CR, Introduction (SRC-ER-4CH1, 2023-06/4CH1-2CR/er.pdf p3): "confusion between halogens and
+halide ions… an on-going issue"; and November 2023 4CH1/2C, Question 1 (SRC-ER-4CH1, 2023-11/4CH1-2C/er.pdf p3):
 "stating that chlorine displaces bromide and iodide is incorrect rather than displaces
 bromine and iodine."
 
@@ -215,10 +215,10 @@ the exact phrase usage.
 **Intervention ideas:** Diagram drill: two molecules with a bond inside each and a
 force between them — label what is overcome at the boiling point; examiner-worded model
 sentences.
-**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Introduction (er.pdf p3) —
-SRC-ER-4CH1: "Some candidates also do not fully understand the difference between a
+**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3):
+"Some candidates also do not fully understand the difference between a
 bond between two atoms in a molecule, and an intermolecular force between molecules";
-and June 2025 4CH1/1C, Introduction (er.pdf p3) — long-response candidates "lacked a
+and June 2025 4CH1/1C, Introduction (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3) — long-response candidates "lacked a
 firm grasp of key terminology (eg incorrect use of intermolecular forces)".
 
 ### MIS-006 — Premature rounding and truncation in calculations
@@ -242,11 +242,11 @@ mass number of the dominant isotope.
 the script.
 **Intervention ideas:** "Round once, at the end" rule; examiner advice verbatim:
 "work to at least the same number of significant figures as the data in the question".
-**Evidence:** Pearson examiner report June 2023 4CH1/1C, Introduction (er.pdf p3) —
-SRC-ER-4CH1: "lost marks through rounding their answer too early, or by truncating the
+**Evidence:** Pearson examiner report June 2023 4CH1/1C, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p3):
+"lost marks through rounding their answer too early, or by truncating the
 answer on their calculator screen eg by showing 0.36 as 0.3"; and June 2019 4CH1/2CR,
-Question 2 (er.pdf p3) — rounding the RAM answer "defeats the purpose of doing the
-calculation"; and June 2025 4CH1/2CR, Introduction (er.pdf p3) — "a significant number
+Question 2 (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3) — rounding the RAM answer "defeats the purpose of doing the
+calculation"; and June 2025 4CH1/2CR, Introduction (SRC-ER-4CH1, 2025-06/4CH1-2CR/er.pdf p3) — "a significant number
 of candidates lost marks through simple rounding errors".
 
 ### MIS-007 — Stoichiometric ratio: neglected or double-counted
@@ -269,10 +269,10 @@ the working.
 **Intervention ideas:** Mole-map (mass ↔ moles ↔ ratio ↔ moles ↔ mass) with the ratio
 labelled at exactly one step; error-carried-forward awareness so a ratio slip costs one
 mark, not the chain.
-**Evidence:** Pearson examiner reports June 2022 4CH1/1C, Introduction (er.pdf p3) —
-SRC-ER-4CH1: "Ratios in equations were a problem for some candidates and this was often
-missed"; June 2023 4CH1/2CR, Introduction (er.pdf p3) — "consider the ratio only once…
-but then consider it again later"; June 2024 4CH1/2CR, Introduction (er.pdf p3) —
+**Evidence:** Pearson examiner reports June 2022 4CH1/1C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3) —
+"Ratios in equations were a problem for some candidates and this was often
+missed"; June 2023 4CH1/2CR, Introduction (SRC-ER-4CH1, 2023-06/4CH1-2CR/er.pdf p3) — "consider the ratio only once…
+but then consider it again later"; June 2024 4CH1/2CR, Introduction (SRC-ER-4CH1, 2024-06/4CH1-2CR/er.pdf p3) —
 "the stoichiometric ratio was neglected".
 
 ### MIS-008 — Practical chemistry under-preparation (AO3 strand)
@@ -298,12 +298,11 @@ lower marks than more theoretical questions".
 **Intervention ideas:** Map every Core Practical to its likely unfamiliar-context
 variant; require direction-of-error statements in evaluation practice; examiners'
 advice: "candidates need plenty of experience in doing chemistry experiments".
-**Evidence:** Pearson examiner reports June 2019 4CH1/1C, Introduction (er.pdf p3);
-June 2023 4CH1/1CR, Introduction (er.pdf p3) — "many candidates had done very little
-practical work"; June 2024 4CH1/1CR, Introduction (er.pdf p3); June 2025 4CH1/1C,
-Introduction (er.pdf p3) — practical questions "showed the greatest variation in
-performance… qualitative analysis as a key area for improvement within AO3" — all
-SRC-ER-4CH1.
+**Evidence:** Pearson examiner reports June 2019 4CH1/1C, Introduction (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p3);
+June 2023 4CH1/1CR, Introduction (SRC-ER-4CH1, 2023-06/4CH1-1CR/er.pdf p3) — "many candidates had done very little
+practical work"; June 2024 4CH1/1CR, Introduction (SRC-ER-4CH1, 2024-06/4CH1-1CR/er.pdf p3); June 2025 4CH1/1C,
+Introduction (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf p3) — practical questions "showed the greatest variation in
+performance… qualitative analysis as a key area for improvement within AO3".
 
 ### MIS-009 — Extended-response answers: unlinked chains and vague prose
 
@@ -326,9 +325,9 @@ chain steps.
 **Intervention ideas:** Draft-then-tick practice (examiners' own advice: "draft their
 ideas first or tick parts of the question off when they appear in the answer"); chain
 scaffolds.
-**Evidence:** Pearson examiner reports June 2022 4CH1/1C, Introduction (er.pdf p3);
-June 2022 4CH1/2C, Introduction (er.pdf p3); June 2024 4CH1/1CR, Introduction (er.pdf
-p3) — all SRC-ER-4CH1.
+**Evidence:** Pearson examiner reports June 2022 4CH1/1C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p3);
+June 2022 4CH1/2C, Introduction (SRC-ER-4CH1, 2022-06/4CH1-2C/er.pdf p3); June 2024 4CH1/1CR, Introduction (SRC-ER-4CH1, 2024-06/4CH1-1CR/er.pdf
+p3).
 
 ### MIS-010 — Metallic/ionic conduction and "the ions move"
 
@@ -352,10 +351,10 @@ mobile species named in each answer.
 **Intervention ideas:** Species-table drill (which particles move where); examiner
 wording as model answers ("layers moved and slid over each other"; "delocalised
 electrons" moving).
-**Evidence:** Pearson examiner report November 2024 4CH1/2C, Question 2 (er.pdf p3) —
-SRC-ER-4CH1: marks lost "for stating that the ions moved"; malleability answers
+**Evidence:** Pearson examiner report November 2024 4CH1/2C, Question 2 (SRC-ER-4CH1, 2024-11/4CH1-2C/er.pdf p3) —
+marks lost "for stating that the ions moved"; malleability answers
 "started saying that electrons moved or slid"; and June 2025 4CH1/2CR, Introduction
-(er.pdf p3) — "imprecise terminology related to metallic and ionic bonding led to lower
+(SRC-ER-4CH1, 2025-06/4CH1-2CR/er.pdf p3) — "imprecise terminology related to metallic and ionic bonding led to lower
 average marks".
 
 ### MIS-011 — Naming rust: oxidation states omitted
@@ -376,9 +375,9 @@ state, or "oxidation" as the name.
 **Diagnostic signals:** Any corrosion question; require the full chemical name.
 **Intervention ideas:** Naming-with-oxidation-state drill on common compounds; contrast
 iron(II) vs iron(III) oxide formulas.
-**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Q2(a)(i) (er.pdf p6) —
-SRC-ER-4CH1: "the oxidation state was frequently missing and so no mark was scored";
-November 2024 4CH1/1C, Q3(a)(ii) (er.pdf p3) — errors "iron(II) oxide, iron hydroxide,
+**Evidence:** Pearson examiner reports June 2023 4CH1/1C, Q2(a)(i) (SRC-ER-4CH1, 2023-06/4CH1-1C/er.pdf p6) —
+"the oxidation state was frequently missing and so no mark was scored";
+November 2024 4CH1/1C, Q3(a)(ii) (SRC-ER-4CH1, 2024-11/4CH1-1C/er.pdf p3) — errors "iron(II) oxide, iron hydroxide,
 and iron oxide with no oxidation state given".
 
 ### MIS-012 — Atomic-structure arithmetic: labels, masses and electron shells
@@ -404,17 +403,17 @@ inference items.
 flash questions.
 **Intervention note:** spelling of particle names is itself a flagged loss source —
 examiners applied "benefit of doubt" but warn on illegibility.
-**Evidence:** Pearson examiner reports June 2019 4CH1/2CR, Question 2 (er.pdf p3);
-November 2024 4CH1/2C, Question 1 (er.pdf p3); June 2025 4CH1/1C, Q1(a)/Q1(b) (er.pdf
-pp4–5) — SRC-ER-4CH1.
+**Evidence:** Pearson examiner reports June 2019 4CH1/2CR, Question 2 (SRC-ER-4CH1, 2019-06/4CH1-2CR/er.pdf p3);
+November 2024 4CH1/2C, Question 1 (SRC-ER-4CH1, 2024-11/4CH1-2C/er.pdf p3); June 2025 4CH1/1C, Q1(a)/Q1(b) (SRC-ER-4CH1, 2025-06/4CH1-1C/er.pdf
+pp4–5).
 
 ## Evidence / Source Basis
 
-- **Primary evidence:** SRC-ER-4CH1 — 24 official Pearson examiner
-  reports (8 sessions: 2019-06, 2022-06, 2023-06, 2023-11, 2024-06, 2024-11, 2025-06;
-  papers 1C/2C/1CR/2CR as held), bounded page excerpts with page locators in the run's
-  evidence pack (pack sha256 of record in the run manifest); paper/session identity per
-  the ER titles.
+- **Primary evidence:** SRC-ER-4CH1 — the official Pearson examiner
+  reports of record: 23 clean reports across seven sessions (2019-06, 2022-06,
+  2023-06, 2023-11, 2024-06, 2024-11, 2025-06; papers 1C/2C/1CR/2CR as held),
+  bounded page excerpts with page locators in the run's evidence pack (pack sha256
+  of record in the run manifest); paper/session identity per the ER titles.
 - **Paper/session identity:** SRC-QPMS-4CH1 — the official QP/MS
   corpus of record; cited for paper/session identity context (each ER is commentary on
   its own paper), identity row in the pack.
@@ -426,15 +425,17 @@ pp4–5) — SRC-ER-4CH1.
 - **No public ER exists** for 4CH1 sessions 2020-01, 2020-11, 2021-01, 2021-11,
   2022-01, 2023-01 (COVID-era + January/November publishing; zero Pearson catalog
   rows) and 2021-06 (cancelled series); Nov-2025/June-2026 PEFs sit behind Pearson's
-  silver tier. The atlas covers exactly the 8 sessions the corpus holds — nothing is
-  extrapolated across the gaps.
-- **Extraction-quality disclosure:** the 2024-06 4CH1/1C ER pages extracted into the
-  pack (pp3–6) are glyph-garbled (embedded-font text-extraction failure) and are NOT
-  cited by any record; that session's 1CR/2C/2CR introductions ground their records
-  normally. Re-extraction of the 1C report from the source PDF is a candidate repair.
-- The pack carries bounded excerpts (page-3 introductions for all 24 reports; deeper
-  question-level pages for June-2023/2024/2025 1C), so records reflect the granularity
-  the pack holds; question-level nuance beyond those pages is not claimed.
+  silver tier. The atlas covers exactly the seven clean sessions of record — nothing
+  is extrapolated across the gaps.
+- **Extraction-quality disclosure:** the June 2024 Paper 1C report is excluded of
+  record as OCR-garbled (embedded-font text-extraction failure observed at intake;
+  exclusion carried forward from RUN-001 and consistent with the RUN-009
+  examiner-report census of record), so no record grounds on it; that session's
+  1CR/2C/2CR introductions ground their records normally.
+- The pack carries bounded excerpts (identity covers and page-3 introductions for the
+  23 clean reports of record; deeper question-level pages for June 2023 1C (p6) and
+  June 2025 1C (pp4–5)), so records reflect the granularity the pack holds;
+  question-level nuance beyond those pages is not claimed.
 - Examiner sentiment is session-specific commentary, not a controlled study; recurrence
   across series (stated where examiners say so) is the atlas's only trend evidence.
 - Mark-scheme-side error patterns belong to the MS family and are deliberately not
@@ -442,9 +443,14 @@ pp4–5) — SRC-ER-4CH1.
 
 ## Research Status
 
-status: GENERATED (research artifact; not educational truth). Generated by the SIB-GEN
-pilot run SIB-CHEMISTRY_4CH1-RUN-001 under the provider-neutral pipeline, grounded
-exclusively on the run's MIS-01 evidence pack. Current/legacy separation: fully CURRENT
-assessment evidence; no legacy claims (legacy ER corpus exists separately for HIS/EXM).
+status: GENERATED (research artifact; not educational truth). v1.1 remediation
+generated under SIB-CHEMISTRY_4CH1-RUN-010 (operator order trace 1a178e533eaa1b81),
+grounded exclusively on the run's MIS-01 evidence pack. Remediation of record: the
+corpus statement aligned to the examiner-report census of record — 23 clean reports
+across the seven sessions with public ERs, the garbled June 2024 Paper 1C report
+excluded (v1.0 stated "24 reports across the 8 sessions" while listing seven sessions
+and counting the garbled file); evidence citations upgraded to the r4 binding grammar
+(same sources, pages and quotes). Current/legacy separation: fully CURRENT assessment
+evidence; no legacy claims (legacy ER corpus exists separately for HIS/EXM).
 Determinism: content fingerprint recorded in the run manifest; regeneration produces a
 new artifact_version.
