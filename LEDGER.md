@@ -798,3 +798,31 @@ served bundle PR carries a full disclosure census.
   residuals absent from every lane-15 title). MANIFEST v15 (lane-15 block appended; lane-1..14 rows + v9
   assets untouched; file_count 608 → 628). Fleet audits: sha256 20/20, delimiter parity 20/20, fm↔enrichment
   membership 20/20 aligned rows (all fresh), primaryPick 6/6 unique, 0 `ugm_id` collisions against lanes 1–14.
+- **T-UGM-MODE1-16 — UGM lane 16 cross-map, Pure 3 3.8 Differential equations (this run)**:
+  fifteenth landing; operator order "lane 16" (trace 1a1774f478685021); lane-15 closure of record named "next 3.8 (then
+  3.9)". FIVE sweep angles over the 855-resource corpus (title/desc regex; full-text regex; formulation
+  signatures; the type-10 review-question rate scan — exactly ONE RQ of 569 mentions a rate: r6959; manual
+  dossier reads) → 53 candidates closed exactly: 2 aligned BOTH cross-lane joins (r6959 rides its
+  pure-1-differentiation 1.7.3 body — part (i) formulates `dA/dt = 5`, integrates with the initial condition,
+  interprets via the chain rule; r7410 rides its pure-1-integration 1.8.2 body — part (ii) writes the DE from
+  the proportionality statement, integrates, evaluates the constant from `y(2)=1`) + 4 non-overlap
+  companion disclosures (the modelling-recognition class picture-the-process-i/ii — cooling/decay/logistic
+  narrated or matched, never formulated; the beyond-spec separable-DE class weight-pulling +
+  from-parabolas-to-catenaries — genuine separable skeletons, cosec/arcosh/cosh execution outside the 9709
+  function set) + 47 rejections with reasons (prior-alignment riders, register class, mechanics class,
+  exponential-fluency class, no-calculus noise). THE ZERO-FRESH LANE OF RECORD — the mirror of lane 15.
+  Corpus-boundary audits fail-closed: raw main pages 855/855 parity with the clean wells; the site's own
+  differential-equations station verified EMPTY on the live API (0 resources, id 11, created 2015-11-04 —
+  control probe: vector-geometry 27); zero '3.8' mentions across all 15 prior enrichments (no pre-baked
+  bearings). Cross-map of record: `undergroundmathematics/resources/derived/cross-map-p3-differential-equations.json`
+  + narrative `undergroundmathematics/docs/cross-map-p3-differential-equations.md` @ syllabai-experimental
+  b3700b809a9421364a3ab00a49e0cc057817a2ae.
+- **T-UGM-IMPORT-16 — UGM text corpus import, Pure 3 Differential equations lane (this run)**:
+  seventeenth landing; the candidate-model law continues (lane-8..15 shape) with the ZERO-FRESH adaptation:
+  NO new body files (`file_count` 628 → 628 unchanged; `pure-3-differential-equations/` not created), the 2
+  aligned rows recorded as cross-lane joins with `textOfRecordUnder`/`ofRecordLane` pointers (r6018-style pick
+  disclosure lane-wide), MANIFEST v16 → v17 (lane-16 block appended; lane-1..15 rows + v9 assets untouched;
+  strictly additive). Enrichment `cie-a-level-maths-20-pure-3-differential-equations.json` (schema 1.0,
+  SUGGESTED, 53 candidates closed exactly, stationScope five-station-plus-rejects, corpus-boundary
+  disclosure carried). Both README lane-16 sections. Audits fail-closed ALL GREEN (closure exact
+  53 = 2 + 4 + 47; MANIFEST additive; 0 collisions trivially; spine rows verbatim).

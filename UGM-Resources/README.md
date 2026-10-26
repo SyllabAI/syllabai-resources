@@ -157,6 +157,27 @@ DESIGNED HONEST GAP: 3.7.7 is the spec's own exclusion row and carries zero rows
 hit-the-spot (3.7.1) / r8215 (3.7.2) / r9575 (3.7.3) / lots-of-vector-lines (3.7.4) / three-lines (3.7.5) /
 r6493 (3.7.6). MANIFEST v15 → v16 (608 → 628).
 
+## Lane 16 — CIE 9709 Pure 3 3.8 Differential equations (T-UGM-IMPORT-16)
+
+The **eighth lane on the pure-3 course plane**, and the ZERO-FRESH-BODY lane of record — the exact mirror of
+lane 15: 2 aligned rows, **both cross-lane joins** (the lane-6 one-to-many law, r7553/r9527 precedent; the
+ugm_id-collision audit forbids fresh duplicates and none were manufactured), **zero new text bodies**
+(`pure-3-differential-equations/` is therefore NOT created; `file_count` 628 → 628): r6959 (the 1979 UCLES
+patch-of-fluid exam question — part (i) formulates `dA/dt = 5` from the rate statement, integrates with
+`A = 0` at `t = 0`, and interprets the radius and `dr/dt` via the chain rule — riding its pure-1-differentiation
+1.7.3 body of record) and r7410 (the 1969 UCLES question — part (ii) writes `dy/dx = c/x²` from the
+proportionality statement, integrates to the general form, and evaluates the constant from `y(2) = 1` — riding
+its pure-1-integration 1.8.2 body of record). 4 non-overlap companion disclosures: the modelling-recognition
+class (picture-the-process-i — Newton's cooling narrated in the solution; picture-the-process-ii — decay/
+logistic/damped-oscillation equations matched, never derived) and the beyond-spec separable-DE class
+(weight-pulling — the tractrix DE separated but solved with cosec/arcosh machinery; from-parabolas-to-catenaries
+— the arc-length DE solved to `cosh`). 47 candidates rejected with reasons. THE CORPUS-BOUNDARY DISCLOSURE: the
+site's own differential-equations station is EMPTY (0 resources, created 2015-11-04, never populated — verified
+live with a populated-station control); the DE exam-register substrate the spec expects does not exist in the
+855-resource corpus beyond the two part-question embodiments; the raw-parity audit (855/855 main pages = clean
+wells) closes the boundary fail-closed. Picks: r6959 (3.8.1, 3.8.4) / r7410 (3.8.2, 3.8.3) — both riding joins,
+the r6018-style disclosure applies lane-wide. MANIFEST v16 → v17 (628 → 628, zero body files).
+
 ## Rights and licensing authority
 
 - **Rights holder:** © University of Cambridge (Underground Mathematics); sourced

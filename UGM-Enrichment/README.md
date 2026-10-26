@@ -202,6 +202,19 @@ there. Nothing in this directory renders or embeds UGM content.
   Picks: hit-the-spot (3.7.1) / r8215 (3.7.2) / r9575 (3.7.3) / lots-of-vector-lines (3.7.4) / three-lines
   (3.7.5) / r6493 (3.7.6) — all riding fresh bodies.
 
+- **Lane 16 (CIE 9709 Pure 3 3.8 Differential equations)** —
+  `cie-a-level-maths-20-pure-3-differential-equations.json`: the **eighth lane on the pure-3 course plane** and
+  the **ZERO-FRESH-BODY lane of record** — 2 aligned rows, both cross-lane joins riding of-record pure-1 bodies
+  (r6959 under pure-1-differentiation 1.7.3; r7410 under pure-1-integration 1.8.2; the lane-6 one-to-many law);
+  psp rows 0 = 0/0/0/0 (fresh-only counting — coverage rides the joins); 4 non-overlap companion disclosures
+  (the modelling-recognition class picture-the-process-i/ii; the beyond-spec separable-DE machinery
+  weight-pulling + from-parabolas-to-catenaries); 47 of-record candidates rejected with reasons.
+  **THE CORPUS-BOUNDARY DISCLOSURE**: the UGM site's own differential-equations station is EMPTY (0 resources,
+  created 2015-11-04, never populated — verified live; the station is one of the four never captured alongside
+  the two complex-numbers stations and matrices) — the corpus poverty is the site's, disclosed not repaired.
+  Picks: r6959 (3.8.1, 3.8.4) / r7410 (3.8.2, 3.8.3) — both riding joins, the r6018-style disclosure applies
+  lane-wide.
+
 ## Rights
 
 UGM content © University of Cambridge; sourced exam questions © UCLES.
