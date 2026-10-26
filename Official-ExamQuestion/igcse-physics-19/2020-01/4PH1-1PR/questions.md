@@ -921,7 +921,7 @@ Calculate the weight of the wire. Give your answer in mN. weight = mN
 
 ### 12(b)(ii) [5]
 
-There is an upwards magnetic force of 34 mN acting on the wire. Calculate the acceleration of the wire. acceleration = m/s2 QUESTION 12 CONTINUES ON NEXT PAGE
+There is an upwards magnetic force of 34 mN acting on the wire. Calculate the acceleration of the wire. acceleration = m/s2
 
 
 **Mark scheme answer**

@@ -306,7 +306,7 @@ In extreme conditions, the isotope lithium-6 can be made to undergo nuclear fiss
 
 Complete the nuclear equation by writing the numbers in the boxes.
 
-> 🖼 crop required: boxes (qp.pdf p.8)
+![boxes — official paper figure (qp.pdf p.8)](assets/asset_4_a_i_boxes.png)
 
 
 **Mark scheme answer**

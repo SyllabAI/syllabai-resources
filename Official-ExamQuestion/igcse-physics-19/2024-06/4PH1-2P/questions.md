@@ -681,7 +681,7 @@ The table shows some information about the heating element in the water bath and
 
 ### 8(b)(iii) [3]
 
-Calculate the mass of water being heated. Assume that all the energy is transferred to the thermal store of the water. [for water, specific heat capacity = 4200 J / kg °C] mass of water = kg QUESTION CONTINUES ON THE NEXT PAGE
+Calculate the mass of water being heated. Assume that all the energy is transferred to the thermal store of the water. [for water, specific heat capacity = 4200 J / kg °C] mass of water = kg
 
 
 **Mark scheme answer**

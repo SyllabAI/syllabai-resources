@@ -465,7 +465,7 @@ Table 2 shows the student’s results. Length of wire in field Force in mm in N 
 
 > 🖼 crop required: graph (qp.pdf p.18)
 
-> 🖼 crop required: grid (qp.pdf p.18)
+![grid — official paper figure (qp.pdf p.19)](assets/asset_6_b_ii_grid.png)
 
 ![table — official paper figure (qp.pdf p.18)](assets/asset_6_b_ii_table.png)
 
@@ -498,7 +498,7 @@ Draw a line of best fit.
 
 The student repeats the experiment but with a smaller current in the wire. Draw another line on the grid to show the expected results when using a smaller current.
 
-> 🖼 crop required: grid (qp.pdf p.19)
+![grid — official paper figure (qp.pdf p.19)](assets/asset_6_b_iv_grid.png)
 
 
 **Mark scheme answer**
@@ -997,7 +997,7 @@ The liquid in the manometer is oil, which has a density of 820 kg/m3. The pressu
 
 ### 12(b)(ii) [2]
 
-Different liquids can be used in the manometer. Liquid mercury has a density of 14 000 kg / m3. Suggest why liquid mercury would be more appropriate to use in the manometer when measuring very large pressure differences. QUESTION 12 CONTINUES ON NEXT PAGE.
+Different liquids can be used in the manometer. Liquid mercury has a density of 14 000 kg / m3. Suggest why liquid mercury would be more appropriate to use in the manometer when measuring very large pressure differences.
 
 
 **Mark scheme answer**

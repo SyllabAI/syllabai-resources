@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-26T09:19:21Z",
+ "generated_utc": "2026-10-26T21:35:57Z",
  "series": "2020-01",
  "paper": "1PR",
  "gates": [
@@ -69,7 +69,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 52 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 0 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": []
@@ -110,19 +110,15 @@
   {
    "part": "5(a)",
    "reason": "figure crop required (table, page 11)"
-  },
-  {
-   "part": "10(b)(ii)",
-   "reason": "figure crop emitted — human verify (assets/asset_10_b_ii_graph.png)"
   }
  ],
  "ocr_pages": [],
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
-  "tagged": 0,
+  "tagged": 52,
   "parts": 52,
-  "pending_llm": 52,
+  "pending_llm": 0,
   "no_spec_point": 0
  }
 }

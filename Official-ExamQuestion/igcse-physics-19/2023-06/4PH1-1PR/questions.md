@@ -328,7 +328,7 @@ Which of these substances is not attracted to a bar magnet?
 
 ### 4(b) [3]
 
-Diagram 1 shows a bar magnet. NS Diagram 1 Draw magnetic field lines on diagram 1 to show the shape and direction of the magnetic field around the bar magnet.
+Diagram 1 shows a bar magnet. NS Diagram 1 Draw magnetic field lines on diagram 1 to show the shape and direction of the magnetic field around the bar magnet.
 
 ![diagram — official paper figure (qp.pdf p.13) — shared with asset_4_b_diagram_stem](assets/asset_4_b_diagram_stem.png)
 
@@ -584,7 +584,7 @@ On the axes below, sketch a graph for the decay of the sample of protactinium‑
 
 When protactinium‑234 undergoes beta ( β –) decay it becomes uranium‑234. The incomplete nuclear equation shows this process. 234 234 Pa 92 U + β Complete the nuclear equation to show the beta decay of protactinium‑234. Write your answers in the dashed boxes.
 
-> 🖼 crop required: boxes (qp.pdf p.19)
+![boxes — official paper figure (qp.pdf p.19)](assets/asset_7_a_iii_boxes.png)
 
 
 **Mark scheme answer**

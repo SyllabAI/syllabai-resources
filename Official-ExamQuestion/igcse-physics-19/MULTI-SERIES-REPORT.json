@@ -1,9 +1,9 @@
 {
  "schema": "syllabai.official-paper-questions.multi-series/0.1",
- "generated_utc": "2026-10-26T09:29:43Z",
+ "generated_utc": "2026-10-26T21:38:24Z",
  "baseline": null,
- "converter": "official_examq_extract.py v0.21.0 (ADR-039) — the F85 QP-side wave (repeat-first-label completion + marks-law structural disqualification) + the F85 chemistry tick-repair lane override",
- "corpus": "4PH1 1P/1PR/2P/2PR — 53 of 58 census paper dirs, all series in syllabai-pastpapers (landed Task 16; re-generated Task 17 after the MS-table parser wave; re-generated Task 18 after the F85 QP-side wave; 5 dirs dispositioned: 3 archive-gap NO-QP, 1 image-only scan crash, 1 archive mislabel — see LANE-STATUS.md)",
+ "converter": "official_examq_extract.py v0.24.0 (ADR-039) — the Task 21 waves: F99 (the crop-eyeball wave: 'rejected' withdraws wrong-region crops, 'recrop' re-renders them at eyeballed boxes, F45 page_move consent) + F100 (the spec-labels wave consumption: 4ph1-<series>[-<paper>].json)",
+ "corpus": "4PH1 1P/1PR/2P/2PR — 53 of 58 census paper dirs, all series in syllabai-pastpapers (landed Task 16; re-generated Task 17, Task 18, and Task 21 after the crop-eyeball + spec-labels waves; 5 dirs dispositioned: 3 archive-gap NO-QP, 1 image-only scan crash, 1 archive mislabel — see LANE-STATUS.md)",
  "series": [
   {
    "series": "2019-06",
@@ -32,7 +32,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 48,
+    "pending_llm": 0,
+    "no_spec_point": 6
+   }
   },
   {
    "series": "2019-06",
@@ -61,7 +66,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 31,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2019-06",
@@ -90,7 +100,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 34,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2020-01",
@@ -125,7 +140,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 3
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 50,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2020-01",
@@ -154,7 +174,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 2
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 52,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2020-01",
@@ -183,7 +208,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 3
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 31,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2020-01",
@@ -212,7 +242,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 33,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2020-06",
@@ -241,7 +276,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 42,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2020-06",
@@ -270,7 +310,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 53,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2020-06",
@@ -299,7 +344,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 33,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2020-06",
@@ -328,7 +378,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 30,
+    "pending_llm": 0,
+    "no_spec_point": 6
+   }
   },
   {
    "series": "2020-11",
@@ -357,7 +412,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 42,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2021-01",
@@ -393,7 +453,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 50,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2021-01",
@@ -429,7 +494,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 2
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 47,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2021-01",
@@ -464,7 +534,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 3
+   "review_queue_items": 2,
+   "spec_tagging": {
+    "tagged": 36,
+    "pending_llm": 0,
+    "no_spec_point": 1
+   }
   },
   {
    "series": "2021-01",
@@ -500,7 +575,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 1
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 31,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2021-06",
@@ -534,7 +614,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 3
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 48,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2021-06",
@@ -570,7 +655,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 30,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2021-11",
@@ -606,7 +696,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 2
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 48,
+    "pending_llm": 0,
+    "no_spec_point": 5
+   }
   },
   {
    "series": "2021-11",
@@ -644,7 +739,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 1
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 37,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2022-01",
@@ -681,7 +781,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 53,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2022-01",
@@ -717,7 +822,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 2
+   "review_queue_items": 2,
+   "spec_tagging": {
+    "tagged": 46,
+    "pending_llm": 0,
+    "no_spec_point": 3
+   }
   },
   {
    "series": "2022-01",
@@ -752,7 +862,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 29,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2022-01",
@@ -788,7 +903,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 29,
+    "pending_llm": 0,
+    "no_spec_point": 1
+   }
   },
   {
    "series": "2022-06",
@@ -817,7 +937,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 52,
+    "pending_llm": 0,
+    "no_spec_point": 7
+   }
   },
   {
    "series": "2022-06",
@@ -851,7 +976,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 1
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 49,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2022-06",
@@ -887,7 +1017,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 3
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 28,
+    "pending_llm": 0,
+    "no_spec_point": 3
+   }
   },
   {
    "series": "2022-06",
@@ -923,7 +1058,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 30,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2023-01",
@@ -960,7 +1100,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 3
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 48,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2023-01",
@@ -996,7 +1141,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 55,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2023-01",
@@ -1030,7 +1180,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 28,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2023-01",
@@ -1064,7 +1219,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 34,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2023-06",
@@ -1093,7 +1253,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 42,
+    "pending_llm": 0,
+    "no_spec_point": 3
+   }
   },
   {
    "series": "2023-06",
@@ -1130,7 +1295,12 @@
     ],
     "affected_questions": []
    },
-   "review_queue_items": 4
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 46,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2023-06",
@@ -1159,7 +1329,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 2
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 26,
+    "pending_llm": 0,
+    "no_spec_point": 4
+   }
   },
   {
    "series": "2023-11",
@@ -1188,7 +1363,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 2
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 49,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2023-11",
@@ -1217,7 +1397,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 29,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2024-06",
@@ -1246,7 +1431,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 3
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 51,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2024-06",
@@ -1275,7 +1465,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 2
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 50,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2024-06",
@@ -1304,7 +1499,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 31,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2024-06",
@@ -1333,7 +1533,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 3
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 25,
+    "pending_llm": 0,
+    "no_spec_point": 5
+   }
   },
   {
    "series": "2024-11",
@@ -1362,7 +1567,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 53,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2024-11",
@@ -1391,7 +1601,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 35,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2025-06",
@@ -1420,7 +1635,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 49,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2025-06",
@@ -1449,7 +1669,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 43,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2025-06",
@@ -1478,7 +1703,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 31,
+    "pending_llm": 0,
+    "no_spec_point": 1
+   }
   },
   {
    "series": "2025-06",
@@ -1507,7 +1737,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 31,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2025-11",
@@ -1536,7 +1771,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 4
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 50,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2025-11",
@@ -1565,7 +1805,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 36,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2026-06",
@@ -1594,7 +1839,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 3
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 46,
+    "pending_llm": 0,
+    "no_spec_point": 0
+   }
   },
   {
    "series": "2026-06",
@@ -1623,7 +1873,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 44,
+    "pending_llm": 0,
+    "no_spec_point": 3
+   }
   },
   {
    "series": "2026-06",
@@ -1652,7 +1907,12 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 1
+   "review_queue_items": 1,
+   "spec_tagging": {
+    "tagged": 25,
+    "pending_llm": 0,
+    "no_spec_point": 2
+   }
   },
   {
    "series": "2026-06",
@@ -1681,14 +1941,31 @@
     "N3-fake-spec-code": "DETECTED"
    },
    "source_defects": null,
-   "review_queue_items": 0
+   "review_queue_items": 0,
+   "spec_tagging": {
+    "tagged": 27,
+    "pending_llm": 0,
+    "no_spec_point": 1
+   }
   }
  ],
  "landing_disclosure": {
-  "verdict": "LANDED (Task 18 supersedes the Task 17 state) under ADR-039 (fail-closed honesty): every slice passes every gate — G0 identity, G1 structure (physics footer law 1P=110/2P=70, every part-sum exact), G2-D disclosure, G3 MCQ integrity, G4 figures, G5 answer linkage (2,171/2,171 corpus-complete), G6 registry, G7 solutions; negative controls 3/3 per slice. The Task 17 open delta is closed: G3 MCQ keying is now corpus-complete — the 4 QP-side structural fails are fixed by the F85 wave (2020-01 1PR 1(b) print-defect completion with the relabel disclosed on value_trace.choices; 2023-06 2PR 7(a) tick-table, 2022-06 2PR 1(a) matching and 2026-06 1PR 1(a) labelling re-typed structured via the marks law — which also removed 7(a)'s false served key 'C 500 Hz' and the dot-run choice texts of 2026-06 1PR 1(a)). Review queue 67 -> 65 (the two 'MCQ key unresolved' entries cleared)."
+  "verdict": "Task 21 re-emission of record: every asset review flag cleared (65/65 eyeball verdicts: 23 crops accepted, 5 wrong-region crops rejected to honest stubs, 7 crops recropped at eyeballed boxes incl. 4 disclosed page moves, 12 stubs resolved by F45 manual crops incl. 4 page moves, 18 stubs stub-accepted) and spec tagging corpus-complete (2,106 llm-spec-wave + 65 no-spec-point + 0 pending-llm). The 23 remaining review-queue items are the chemistry-convention disclosures for resolved stubs (18 stub-accepted + 5 rejected), matching the served 4CH1 1CR/2C convention; the asset-level review surface is empty."
  },
- "generalization_findings": [
-  "F85 (v0.21.0, Task 18): the QP-side wave — corpus census 138 option-run parts: 129 true 1-mark MCQs + exactly 3 marks>=2 structural shapes + 1 repeat-first-label print defect. Two 4PH1-gated parser laws (parse_mcq_block completion; finalize_part marks-law disqualification) close all four G3 fails; the chemistry 2023-06 1C parity receipt stays byte-identical (10/10 files) and the F85 battery additions C89-C93 pin all four parts.",
-  "F85 drive-by repair: the battery assembly caught the run-004 union regression — the SymbolMT digit range (F030-F039) clobbered chemistry's F48 tick mapping (F033 -> '3' instead of the evidence-backed ✓) — repaired as a chemistry pua_override lane-split (the union's own F068/F06a/F075 pattern); census: exactly 1 F03x occurrence across 54 chemistry staging layers."
- ]
+ "generalization_findings": [],
+ "summary": {
+  "slices": 53,
+  "fully_pass": 53,
+  "questions": 520,
+  "parts": 2171,
+  "marks": 4790,
+  "mcq_keyed": "135/135",
+  "spec_tagging": {
+   "llm_spec_wave": 2106,
+   "no_spec_point": 65,
+   "pending_llm": 0
+  },
+  "review_queue_items": 23,
+  "asset_review_flags_remaining": 0
+ }
 }

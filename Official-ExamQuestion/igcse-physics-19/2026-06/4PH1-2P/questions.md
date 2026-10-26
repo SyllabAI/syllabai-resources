@@ -361,7 +361,7 @@ State the formula linking efficiency, useful output energy and total output ener
 
 In the power station, the fission of 1.0 kg of uranium-235 fuel gives a power output of 2.4 ×1010 W for 3600 seconds. 3.2 × 1013 J of the energy is transferred usefully to the National Grid. Calculate the efficiency of the power station. Give your answer as a percentage. efficiency = %
 
-![grid — official paper figure (qp.pdf p.10)](assets/asset_4_c_ii_grid.png)
+> 🖼 crop required: grid (qp.pdf p.10)
 
 
 **Mark scheme answer**
@@ -723,7 +723,7 @@ Explain why the frequency of the sound heard by the observer is higher than the 
 
 ### 8(b) [2]
 
-Diagram 2 shows a spacecraft directly below the International Space Station (ISS). direction of travel ISS spacecraft Diagram 2 When radio signals pass between the ISS and the spacecraft, there is no Doppler effect. Explain why there is no Doppler effect in radio signals between the ISS and the spacecraft even though both are in orbit around the Earth and travelling very quickly. QUESTION 8 CONTINUES ON THE NEXT PAGE
+Diagram 2 shows a spacecraft directly below the International Space Station (ISS). direction of travel ISS spacecraft Diagram 2 When radio signals pass between the ISS and the spacecraft, there is no Doppler effect. Explain why there is no Doppler effect in radio signals between the ISS and the spacecraft even though both are in orbit around the Earth and travelling very quickly.
 
 ![diagram — official paper figure (qp.pdf p.23)](assets/asset_8_b_diagram.png)
 

@@ -39,11 +39,14 @@ Official-ExamQuestion/
                                                 1CR since v0.12 — R-VARIANT tranche 1)
   igcse-physics-19/<series>/4PH1-<paper>/   SECOND LANE (landed Task 16; MS-table parser
                                                 wave Task 17 F72; QP-side wave Task 18
-                                                F85): 53 slices LANDED under ADR-039,
-                                                53/53 fully PASS (G3 135/135, G5 2,171/2,171)
-                                                — its LANE-STATUS.md is the disclosure of
-                                                record; converter lane key `--spec 4ph1`
-                                                (v0.16.0)
+                                                F85; crop-eyeball + spec-labels waves
+                                                Task 21 F99/F100): 53 slices LANDED
+                                                under ADR-039, 53/53 fully PASS (G3
+                                                135/135, G5 2,171/2,171, spec tags
+                                                2,171/2,171 terminal, asset review
+                                                flags 0) — its LANE-STATUS.md is the
+                                                disclosure of record; converter lane
+                                                key `--spec 4ph1` (v0.16.0)
     topic.json              syllabai.official-paper-questions/0.1 (the product)
     questions.md            human-readable render
     validation-report.json  G0–G7 receipts + negative controls + review queue
@@ -458,15 +461,15 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   `STEM-RESTORE.json`); the stem FIGURES remain the open crop tranche (see the
   ledger's tranche flags — ~28 figures/tables + 9 formulae letter-runs).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
-- igcse-physics-19 open waves (Task 18 after F85 closed the QP-side wave: the lane is
-  53/53 fully PASS — G3 135/135, G5 2,171/2,171, the withheld surface EMPTY): crop eyeball
-  (65 flagged + 30 stubs → CROP-REVIEW 4ph1 homes), spec-labels (2,171 pending-llm),
-  2019-06 1P OCR layer (+ the empty-footer-census crash → attribution fix), pastpapers
-  repairs (2023-06 2P mislabel bytes), chemistry re-staging (F86: regenerate the chemistry
-  staging txt layers with the method of record so fresh re-emissions reproduce the served
-  corpus — C56 pin misses + C61 — and give the row-lane rebuttal regex its missing
-  alternation); hub handover NOT started. run_all.sh and make_multiseries_report.py remain
-  chemistry-scoped until generalized.
+- igcse-physics-19 open waves (Task 21 after F99/F100 closed the crop-eyeball and
+  spec-labels waves: the lane is 53/53 fully PASS — G3 135/135, G5 2,171/2,171, spec tags
+  2,171/2,171 terminal, the asset review surface EMPTY): 2019-06 1P OCR layer (+ the
+  empty-footer-census crash → attribution fix), pastpapers repairs (2023-06 2P mislabel
+  bytes), chemistry re-staging (F86: regenerate the chemistry staging txt layers with the
+  method of record so fresh re-emissions reproduce the served corpus — C56 pin misses +
+  C61 — and give the row-lane rebuttal regex its missing alternation); hub handover NOT
+  started. run_all.sh and make_multiseries_report.py remain chemistry-scoped until
+  generalized (the physics lane re-emits via --spec 4ph1 with its own report generator).
 - 2C follow-ups (F34 wave): (a) DONE v0.9.0 — the 22 review-queue figure items
   were eyeballed and 17 verdicts recorded in CROP-REVIEW.json under
   `<series>:2C` keys (F40 documents the 9 defect mechanisms behind them);

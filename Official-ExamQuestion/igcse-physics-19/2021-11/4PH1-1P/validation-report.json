@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:06:23Z",
+ "generated_utc": "2026-10-26T21:36:20Z",
  "series": "2021-11",
  "paper": "1P",
  "gates": [
@@ -51,14 +51,15 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 7 cropped to assets/*.png (150 dpi), 1 remain crop-required; 2 parts without page anchor",
+   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 7 cropped to assets/*.png (150 dpi), 1 remain crop-required; 2 parts without page anchor; 1 wrong-region crops withdrawn by eyeball verdict",
    "details": {
     "dangling": [],
     "pages_unanchored": 2,
     "crop_stats": {
      "crops": 7,
      "pending": 1,
-     "shared": 7
+     "shared": 7,
+     "withdrawn": 1
     }
    }
   },
@@ -73,7 +74,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 53 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 0 parts pending-llm tagging; 5 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": []
@@ -113,11 +114,7 @@
  "review_queue": [
   {
    "part": "6(c)",
-   "reason": "figure crop emitted — human verify (assets/asset_6_c_graph.png)"
-  },
-  {
-   "part": "7",
-   "reason": "figure crop required (diagram, page 17)"
+   "reason": "figure crop required (graph, page 17)"
   }
  ],
  "ocr_pages": [],
@@ -132,9 +129,9 @@
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
-  "tagged": 0,
+  "tagged": 48,
   "parts": 53,
-  "pending_llm": 53,
-  "no_spec_point": 0
+  "pending_llm": 0,
+  "no_spec_point": 5
  }
 }

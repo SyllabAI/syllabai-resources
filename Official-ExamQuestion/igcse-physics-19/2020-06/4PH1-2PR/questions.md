@@ -348,7 +348,7 @@ State how the student should deal with the anomalous result.
 
 Explain why a line graph is the correct type of graph to display these results.
 
-![graph — official paper figure (qp.pdf p.14)](assets/asset_4_b_v_graph.png)
+> 🖼 crop required: graph (qp.pdf p.14)
 
 
 **Mark scheme answer**

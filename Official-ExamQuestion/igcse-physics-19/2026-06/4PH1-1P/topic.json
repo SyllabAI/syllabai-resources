@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T22:07:14Z",
- "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2026-06 paper=1P",
+ "generated_utc": "2026-10-26T21:37:11Z",
+ "generator": "official_examq_extract.py v0.24.0 (ADR-039) series=2026-06 paper=1P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/1P",
  "source": {
   "qp_sha256": "fece9f0d68d50d96254dcefaba38e9d4c9d33bbb8d12d3e52dedbef001cd8b8a",
@@ -56,8 +56,10 @@
        "text_coverage": 0.141
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "8.9"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -82,8 +84,10 @@
      ],
      "source_page": 3,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.25"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -108,8 +112,10 @@
      ],
      "source_page": 3,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.26"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -144,8 +150,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.7"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -170,8 +178,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.6"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -196,8 +206,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.21"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -222,8 +234,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.15"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -248,8 +262,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.19"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -312,8 +328,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "8.5"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "ms-positional",
@@ -352,8 +370,10 @@
        "ref_part": "asset_3_a_diagram_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "8.4"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -378,8 +398,10 @@
      ],
      "source_page": 7,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "8.6"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -404,8 +426,10 @@
      ],
      "source_page": 7,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "8.3"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -444,8 +468,10 @@
      ],
      "source_page": 9,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.22"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -475,15 +501,19 @@
        "kind": "crop",
        "mention": "table",
        "source": "qp.pdf",
-       "page": 9,
-       "review": true,
+       "page": 10,
+       "review": false,
        "path": "assets/asset_4_b_table.png",
        "render": "vector",
-       "text_coverage": 0.184
+       "text_coverage": 0.133,
+       "manual_crop": true,
+       "review_verdict": "recrop"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.5"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -522,8 +552,10 @@
        "ref_part": "asset_4_c_graph_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.23"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -562,8 +594,10 @@
        "ref_part": "asset_4_c_graph_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.24"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -602,8 +636,10 @@
      ],
      "source_page": 12,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.7"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -640,8 +676,10 @@
        "text_coverage": 0.026
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.15"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -678,8 +716,10 @@
        "text_coverage": 0.016
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.18"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -704,8 +744,10 @@
      ],
      "source_page": 13,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.18"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -744,8 +786,10 @@
        "ref_part": "5(c)(i)"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.20"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -782,8 +826,10 @@
        "text_coverage": 0.001
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.21"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -843,8 +889,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.12"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "ms-positional",
@@ -869,8 +917,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.10"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -895,8 +945,10 @@
      ],
      "source_page": 16,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.5"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -921,8 +973,10 @@
      ],
      "source_page": 17,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "4.6"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -957,8 +1011,10 @@
      ],
      "source_page": 18,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.8"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -983,8 +1039,10 @@
      ],
      "source_page": 18,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.20"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1009,8 +1067,10 @@
      ],
      "source_page": 19,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.12"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1035,8 +1095,10 @@
      ],
      "source_page": 19,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.13"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1075,8 +1137,10 @@
      ],
      "source_page": 20,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.6"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1101,8 +1165,10 @@
      ],
      "source_page": 20,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "6.12"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1127,8 +1193,10 @@
      ],
      "source_page": 21,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "6.16"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1169,14 +1237,18 @@
        "mention": "table",
        "source": "qp.pdf",
        "page": 23,
-       "review": true,
+       "review": false,
        "path": "assets/asset_9_a_i_table.png",
        "render": "vector",
-       "text_coverage": 0.239
+       "text_coverage": 0.276,
+       "manual_crop": true,
+       "review_verdict": "recrop"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.10"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1201,8 +1273,10 @@
      ],
      "source_page": 23,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.10"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1233,14 +1307,17 @@
        "mention": "grid",
        "source": "qp.pdf",
        "page": 25,
-       "review": true,
+       "review": false,
        "path": "assets/asset_9_b_i_grid.png",
        "render": "vector",
-       "text_coverage": 0.0
+       "text_coverage": 0.0,
+       "review_verdict": "accepted"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.3"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1265,8 +1342,10 @@
      ],
      "source_page": 24,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.3"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1291,8 +1370,10 @@
      ],
      "source_page": 25,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.3"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1331,8 +1412,10 @@
        "ref_part": "asset_9_b_i_grid"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.5"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1374,8 +1457,10 @@
      ],
      "source_page": 28,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.11"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1414,8 +1499,10 @@
        "ref_part": "asset_10_a_diagram_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.12"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1440,8 +1527,10 @@
      ],
      "source_page": 28,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.13"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1480,8 +1569,10 @@
        "ref_part": "asset_10_a_diagram_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.7"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1537,8 +1628,10 @@
      ],
      "source_page": 31,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "4.12"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "ms-positional",
@@ -1563,8 +1656,10 @@
      ],
      "source_page": 31,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "4.11"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1601,8 +1696,10 @@
        "text_coverage": 0.063
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.10"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",

@@ -183,7 +183,7 @@ Calculate the force that the rope exerts on the truck. force = N
 
 The winch has an efficiency of 25% when pulling the truck. Draw a Sankey diagram for this energy transfer.
 
-![diagram — official paper figure (qp.pdf p.7)](assets/asset_3_b_i_diagram.png)
+> 🖼 crop required: diagram (qp.pdf p.7)
 
 
 **Mark scheme answer**

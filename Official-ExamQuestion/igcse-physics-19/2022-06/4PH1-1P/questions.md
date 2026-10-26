@@ -1087,7 +1087,7 @@ Predict a value for the current if the wire is moved faster between the poles of
 
 ### 12(c) [1]
 
-Photograph 2 shows the structure of the ammeter. The ammeter has a needle attached to a coil of wire which can move freely around a magnet. When there is a current in the coil, the needle moves. The larger the current, the more the coil turns. needle coil of wire magnet Photograph 2 Suggest how the design of the ammeter could be modified to increase its sensitivity. QUESTION 12 CONTINUES ON NEXT PAGE
+Photograph 2 shows the structure of the ammeter. The ammeter has a needle attached to a coil of wire which can move freely around a magnet. When there is a current in the coil, the needle moves. The larger the current, the more the coil turns. needle coil of wire magnet Photograph 2 Suggest how the design of the ammeter could be modified to increase its sensitivity.
 
 
 **Mark scheme answer**

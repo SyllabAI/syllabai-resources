@@ -308,7 +308,7 @@ Describe a method that a student could use for their investigation. Refer to saf
 
 Add one tick (ü) to each row of the table to show the independent, dependent and control variables in this investigation. Name of variable Independent Dependent Control extension material of wire temperature applied force
 
-![table — official paper figure (qp.pdf p.9)](assets/asset_4_b_table.png)
+![table — official paper figure (qp.pdf p.10)](assets/asset_4_b_table.png)
 
 
 **Mark scheme answer**

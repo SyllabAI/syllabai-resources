@@ -85,19 +85,20 @@ is the executed precedent.
   spec tagging), 2019-06 re-ingest, then new courses per ADR-037 §6 (4XCH1 modular,
   4SD0 shared papers).
 
-## Status — igcse-physics-19 (second lane, landed Task 16; MS-parser wave Task 17; QP-side wave Task 18)
+## Status — igcse-physics-19 (second lane, landed Task 16; MS-parser wave Task 17; QP-side wave Task 18; crop-eyeball + spec-labels waves Task 21)
 
 - **53 of 58 census paper dirs of 4PH1 (all 17 series, 2019-06 … 2026-06) are converted
-  and LANDED under ADR-039**: 520 questions, 2,171 parts, 4,790 marks, converter v0.21.0.
-  **Every slice passes every gate (G0–G7), the lane is 53/53 fully PASS, and the battery
-  is 91 canaries with 90 holding (the 1 exception is a disclosed pre-existing staging-era
-  item, LEDGER F86).** Task 17 (F72) closed G5 corpus-wide (2,171/2,171 parts carry their
-  verbatim MS block); Task 18 (F85, the QP-side wave) closed G3 corpus-wide (135/135
-  keyed): the 2020-01 1PR 1(b) print-defect row completes as `D S` (keyed B, relabel
-  disclosed on value_trace.choices), and the three marks≥2 structural shapes
-  (2023-06 2PR 7(a) tick-table, 2022-06 2PR 1(a) matching, 2026-06 1PR 1(a) labelling)
-  type `structured` with their rows verbatim — which also removed 7(a)'s false served key
-  (`C 500 Hz`) and 2026-06 1(a)'s dot-run choice texts. The withheld surface is now EMPTY.
+  and LANDED under ADR-039**: 520 questions, 2,171 parts, 4,790 marks, converter v0.24.0.
+  **Every slice passes every gate (G0–G7), the lane is 53/53 fully PASS.** Task 17 (F72)
+  closed G5 corpus-wide (2,171/2,171 parts carry their verbatim MS block); Task 18 (F85,
+  the QP-side wave) closed G3 corpus-wide (135/135 keyed); **Task 21 (F99 the crop-eyeball
+  wave + F100 the spec-labels wave) cleared the human-review surface and completed spec
+  tagging**: all 65 review-flagged assets eyeballed (23 crops accepted, 5 wrong-region
+  crops rejected to honest stubs, 7 recropped at eyeballed boxes, 12 stubs resolved by
+  manual crops — every replacement rect proof-rendered before shipping) and all 2,171
+  parts terminal (2,106 registry-validated llm-spec-wave codes + 65 no-spec-point
+  decisions + 0 pending-llm). The withheld surface is now EMPTY and the asset review
+  flags are zero.
 - 5 dirs dispositioned with standing receipts: 2020-11 1PR/2P/2PR (no QP in archive,
   `na:pmt-not-listed`), 2019-06 1P (image-only scan, OCR wave open), 2023-06 2P
   (archive bytes are an Examiners' Report — pastpapers repair owed).

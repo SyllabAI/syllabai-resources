@@ -808,7 +808,7 @@ State the independent variable in the student’s investigation.
 
 Plot the student’s results on the grid.
 
-> 🖼 crop required: grid (qp.pdf p.30)
+![grid — official paper figure (qp.pdf p.31)](assets/asset_12_c_ii_grid.png)
 
 
 **Mark scheme answer**

@@ -485,7 +485,7 @@ Calculate the refractive index of the glass block. refractive index =
 
 A teacher suggests that a more accurate value for the refractive index can be found using a graphical method. Design a method to obtain a value for the refractive index of the glass block using a graph. You may draw a diagram to support your answer.
 
-![graph — official paper figure (qp.pdf p.17)](assets/asset_6_c_graph.png)
+> 🖼 crop required: graph (qp.pdf p.17)
 
 
 **Mark scheme answer**
@@ -511,7 +511,7 @@ The diagram shows the construction of a simple loudspeaker. paper tube N magnet 
 
 The diagram shows the construction of a simple loudspeaker. paper tube N magnet S N coil of wire a.c. power supply loudspeaker cone A coil of wire is wrapped around a paper tube attached to the loudspeaker cone. When there is an alternating current (a.c.) in the coil, the cone moves. Explain how the loudspeaker produces a sound wave.
 
-> 🖼 crop required: diagram (qp.pdf p.17)
+![diagram — official paper figure (qp.pdf p.17)](assets/asset_7_diagram.png)
 
 
 **Mark scheme answer**

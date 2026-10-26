@@ -988,6 +988,40 @@
    "series": "*",
    "check": "drawing_linearization_census",
    "assertion": "F96 (Task 19 deep-audit wave): the drawing-linearization open census is PINNED at 15 parts (problem_md carries >=4 single-letter atom-token runs or bond-fragment triples with no figure asset). The 2026-06 2C tranche (1(b), 1(c)(ii), 1(c)(iii)) was cropped+stripped in this wave; the 15 remaining are the disclosed crop-wave queue (disclosure 2026-10-27-task19-deep-audit.json, key drawing_linearization_open). The 2026-06 2C 1(c) intro displayed formula is served via asset_1_c_displayed-formula on 1(c)(i) (sibling-embed)."
+  },
+  {
+   "id": "C99-physics-rejected-crop-demoted",
+   "spec": "4ph1",
+   "series": "2020-06",
+   "paper": "2PR",
+   "check": "asset_state",
+   "part": "4(b)(v)",
+   "kind": "crop-required",
+   "assertion": "Task 21 crop-eyeball wave (F99): the v0.21.0 crop for 4(b)(v) grabbed the solar-thermal-panel photograph (a stem figure) for the conceptual 'line graph' mention - no printed graph exists (the graph is the student's answer construct). The 'rejected' verdict withdraws the wrong-region crop to an honest crop-required stub with review_verdict 'rejected'. Regresses if the rejected demotion path or its kind guard is lost."
+  },
+  {
+   "id": "C100-physics-recrop-page-move",
+   "spec": "4ph1",
+   "series": "2026-06",
+   "paper": "1P",
+   "check": "asset_state",
+   "part": "4(b)",
+   "kind": "crop",
+   "page": 10,
+   "assertion": "Task 21 crop-eyeball wave (F99): the emitted crop for 4(b) was the stem's p9 apparatus diagram; the figure of record is the independent/dependent/control tick table on p10. The 'recrop' verdict re-renders the same asset id at the eyeballed box with an explicit page_move disclosure. Regresses if the recrop path or its page_move consent guard is lost."
+  },
+  {
+   "id": "C101-physics-spec-tags-complete",
+   "spec": "4ph1",
+   "series": "*",
+   "check": "spec_tag_terminal",
+   "papers": [
+    "1P",
+    "1PR",
+    "2P",
+    "2PR"
+   ],
+   "assertion": "Task 21 spec-labels wave (F100): all 2,171 parts of the 53 landed 4PH1 slices are terminal - zero pending-llm corpus-wide; 2,106 parts carry registry-validated llm-spec-wave codes and 65 carry no_spec_point decisions (pure graph/table skills, apparatus-choice, safety, design critiques, and data-relationship tests - the F38 wave convention) that agree bidirectionally with the 4ph1-<series>[-<paper>].json label files. Regresses if a labels file drifts from the corpus or any part falls back to pending-llm."
   }
  ]
 }

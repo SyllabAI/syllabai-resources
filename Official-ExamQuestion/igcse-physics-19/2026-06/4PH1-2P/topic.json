@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T22:07:18Z",
- "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2026-06 paper=2P",
+ "generated_utc": "2026-10-26T21:37:15Z",
+ "generator": "official_examq_extract.py v0.24.0 (ADR-039) series=2026-06 paper=2P",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2026-06:4PH1/2P",
  "source": {
   "qp_sha256": "60c15a9983355e19fedeb85d1fbd250041f6b67276b6dbe8014ab8a0aabe43c8",
@@ -58,8 +58,10 @@
        "ref_part": "asset_1_a_apparatus_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.14P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -105,8 +107,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.14P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "ms-positional",
@@ -131,8 +135,10 @@
      ],
      "source_page": 4,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.5"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -157,8 +163,10 @@
      ],
      "source_page": 5,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "5.13P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -197,8 +205,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.30P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -223,8 +233,10 @@
      ],
      "source_page": 6,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.30P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -261,8 +273,10 @@
        "text_coverage": 0.254
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.32P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -301,8 +315,10 @@
      ],
      "source_page": 8,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "6.9P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -327,8 +343,10 @@
      ],
      "source_page": 9,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "6.2"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -367,8 +385,10 @@
        "ref_part": "asset_3_b_diagram_stem"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "6.10P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -407,8 +427,11 @@
      ],
      "source_page": 10,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.17",
+      "4.18P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -433,8 +456,10 @@
      ],
      "source_page": 11,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "7.16"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -460,8 +485,10 @@
      ],
      "source_page": 11,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "4.4"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -488,18 +515,18 @@
      "assets": [
       {
        "id": "asset_4_c_ii_grid",
-       "kind": "crop",
+       "kind": "crop-required",
        "mention": "grid",
        "source": "qp.pdf",
        "page": 10,
-       "review": true,
-       "path": "assets/asset_4_c_ii_grid.png",
-       "render": "vector",
-       "text_coverage": 0.127
+       "review": false,
+       "review_verdict": "rejected"
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "4.4"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -546,8 +573,10 @@
        "text_coverage": 0.049
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.24P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -584,8 +613,10 @@
        "text_coverage": 0.094
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "2.24P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -641,8 +672,10 @@
      ],
      "source_page": 17,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.24P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "ms-positional",
@@ -667,8 +700,10 @@
      ],
      "source_page": 17,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.26P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -705,8 +740,10 @@
        "text_coverage": 0.112
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.3"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -744,7 +781,7 @@
       }
      ],
      "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "tagging": "no-spec-point",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -784,7 +821,7 @@
       }
      ],
      "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "tagging": "no-spec-point",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -823,8 +860,10 @@
      ],
      "source_page": 20,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "8.18P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -861,8 +900,10 @@
        "text_coverage": 0.16
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "8.16P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -918,8 +959,10 @@
      ],
      "source_page": 22,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.8"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "ms-positional",
@@ -944,8 +987,10 @@
      ],
      "source_page": 22,
      "assets": [],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.8"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -957,7 +1002,7 @@
      "part_number": "8(b)",
      "marks": 2,
      "question_type": "structured",
-     "problem_md": "Diagram 2 shows a spacecraft directly below the International Space Station (ISS). direction of travel ISS spacecraft Diagram 2 When radio signals pass between the ISS and the spacecraft, there is no Doppler effect. Explain why there is no Doppler effect in radio signals between the ISS and the spacecraft even though both are in orbit around the Earth and travelling very quickly. QUESTION 8 CONTINUES ON THE NEXT PAGE",
+     "problem_md": "Diagram 2 shows a spacecraft directly below the International Space Station (ISS). direction of travel ISS spacecraft Diagram 2 When radio signals pass between the ISS and the spacecraft, there is no Doppler effect. Explain why there is no Doppler effect in radio signals between the ISS and the spacecraft even though both are in orbit around the Earth and travelling very quickly.",
      "choices": [],
      "answer_status": "linked",
      "solution_md": "any TWO from:\nMP1 ISS and spacecraft are not moving relative to condone ‘distance\neach other / eq; between ISS and\nspacecraft is constant’\nMP2 so must be travelling at the same speed;\nMP3 (so) waves from one source come from a condone reference to\nsource that’s not moving compared to the any type of wave\nobserver;",
@@ -982,8 +1027,10 @@
        "text_coverage": 0.042
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "3.8"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
@@ -1020,8 +1067,10 @@
        "text_coverage": 0.022
       }
      ],
-     "spec_point_codes": [],
-     "tagging": "pending-llm",
+     "spec_point_codes": [
+      "1.27P"
+     ],
+     "tagging": "llm-spec-wave",
      "edit_status": "extracted",
      "value_trace": {
       "keys": "n/a",
