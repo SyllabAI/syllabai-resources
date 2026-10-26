@@ -1,5 +1,26 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.22.0 — 2026-10-26 · T-OEQ-MATHSB-SERVE-1 verdict-A hygiene wave (F91) — the maths-B SymbolMT C1 class closes at source; the line-patch staging law lands
+
+The v2 serve-card G-S4 blocker of record (35 C1 ctrl + 107 U+FFFD across 7 maths-B sets) decomposed
+into two machinery classes and closed at source, operator verdict A (trace 1a177a00bc816e05).
+
+- **F91 — `_MB1_C1_MAP` (4MB1-lane scoped)**: the evidenced C1 glyph map — 0x91→∠ (19 inst),
+  0x88→∩ / 0x89→∪ (Q4 run + the five-symbols box positional pin ∈∅⊂∉∩), 0x8f→∈, 0x87→∅,
+  0x8d→⊂, 0x90→∉, 0x83→°, ү(U+048F)→′. Unmapped C1 keeps the F64 logged single-space fallback
+  (a served string can never carry a C1 byte). Chemistry/physics byte-identity preserved
+  (lane-split per the v0.21.0 lesson).
+- **F91b — the line-patch staging law** (`scripts/prep_line_patches_hygiene.py`,
+  syllabai.examq-line-patch/0.1): 49 sha-pinned line transcriptions (fail-closed on original-line
+  sha at apply time) for the layers glyph maps cannot recover — the 2019-06 custom-encoded math
+  runs (lowercase +3, digits U+0013..U+001C, '='/'('/')' dropped, í −/√, ð ²) and the 2019-06/02
+  OCR-sandwich MS (U+FFFD at bars/brackets/radicals). Transcriptions from 600-dpi renders,
+  cross-checked vs tesseract + the repaired SME twin.
+- **Re-emission**: all 66 maths-B sets; G0-G7 ALL PASS on the 7 target sets; G-S4 classes 0/0/0
+  corpus-wide; parity residuals = ts+version + the F87 CONTINUES strip reaching maths-B
+  (exactly 3 parts / 3 papers, leaf-diff proven). Canaries 84/86 — C13/C71 fail identically on
+  pristine main (the queued F90 class); zero new violations.
+
 ## 0.21.1 — 2026-10-26 · Task 19: the hygiene-v2 wave (F87) — the CONTINUES-footer class closes; the deep-audit drive-bies land (F88/F89)
 
 A user-served leak (`QUESTION 11 CONTINUES ON BACK PAGE` glued into 2026-06 1CR 11(c)'s problem

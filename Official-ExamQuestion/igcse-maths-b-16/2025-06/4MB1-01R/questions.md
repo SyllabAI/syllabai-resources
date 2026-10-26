@@ -627,7 +627,7 @@ Without using a calculator and showing all your working, express 4 2 7 in the fo
 
 ## Question 18 (5 marks)
 
-B Diagram NOT accurately drawn 52° x° O A C D In the diagram A, B, C and D are points on a circle, centre O ABC and the reflex angle AOC � x
+B Diagram NOT accurately drawn 52° x° O A C D In the diagram A, B, C and D are points on a circle, centre O ∠ABC = 52° and the reflex angle AOC = x°
 
 ### 18(a) [2]
 

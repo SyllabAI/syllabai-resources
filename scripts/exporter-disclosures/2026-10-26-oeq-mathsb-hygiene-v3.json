@@ -1,0 +1,31 @@
+{
+  "schema": "syllabai.oeq-disclosure/0.1",
+  "wave": "oeq maths-B hygiene-v3 (F91) — T-OEQ-MATHSB-SERVE-1 verdict-A resources-side lane",
+  "date": "2026-10-26",
+  "operator_verdict": "option A (trace 1a177a00bc816e05): resources-side hygiene wave — extend the converter glyph map for the maths-B SymbolMT C1 classes and rule the 2019-06/02 OCR-sandwich MS re-extraction, then re-export at the new pin",
+  "card": "T-OEQ-MATHSB-SERVE-1 (v2) run-004; serve-card G-S4 blocker of record: 35 C1 ctrl + 107 U+FFFD",
+  "changes": [
+    {
+      "id": "F91",
+      "law": "the evidenced maths-B SymbolMT C1 glyph map (_MB1_C1_MAP, 4MB1-lane scoped): 0x91->∠ (19 inst), 0x88->∩ / 0x89->∪ (2018-06/02 p10 Q4 run + five-symbols box ∈∅⊂∉∩ positional pin + 2019-06/01 p16), 0x8f->∈, 0x87->∅, 0x8d->⊂, 0x90->∉, 0x83->° (2019-06/01R p11), ү(U+048F)->′ (2018-06/02 p10); unmapped C1 keeps the F64 logged single-space fallback (a served string can never carry a C1 byte)",
+      "evidence": "600-dpi page renders (2018-06/01 p8+p10, 2018-06/01R p4+p12, 2018-06/02 p10 x3 crops incl. the five-symbols box and the (a)/(b) 400dpi crop, 2019-06/01 p16, 2019-06/01R p11, 2019-06/02 p10); archived in the lane scratch evidence pack, hashes + contexts in upload/emission-defect-contexts.json and hygiene-hit-contexts.json"
+    },
+    {
+      "id": "F91b",
+      "law": "the line-patch staging layer (scripts/prep_line_patches_hygiene.py, schema syllabai.examq-line-patch/0.1): 49 sha-pinned line transcriptions across 5 QP layers + 1 MS layer where the embedded-font cmap is broken beyond glyph-mapping — the 2019-06 papers' custom-encoded math runs (lowercase +3 shift, digits at U+0013..U+001C, '=' '(' ')' dropped, í = −/√ context-dependent, ð = ²) and the 2019-06/02 OCR-sandwich MS (U+FFFD at fraction bars, matrix brackets, radicals)",
+      "evidence": "every patch pins the original line sha256 at apply time (fail-closed); transcriptions from the 600/200-dpi renders cross-checked against tesseract drafts and the repaired SME twin (UIUX-TIER-B-RUN-004) as independent same-paper source; digit-map anchors verified end-to-end (\\x19\\x1a=67 on the ∠ABD row, \\x15\\x1a\\x13\\x13=2700 on the polygon row, \\x1a\\x11\\x15=7.2 on the BD row)"
+    }
+  ],
+  "re_emission": {
+    "scope": "all 66 maths-B sets re-converted at converter v0.22.0 (pdftotext 25.03.0, poppler basis unchanged)",
+    "target_sets": ["2018-06/01", "2018-06/01R", "2018-06/02", "2019-06/01", "2019-06/01R", "2019-06/02", "2025-06/01R"],
+    "target_gates": "G0-G7 ALL PASS 7/7; G-S4 classes 0 C1 / 0 U+FFFD / 0 ү corpus-wide",
+    "parity_classes_disclosed": [
+      "topic.json generated_utc + generator version strings (the run-004 disclosed class)",
+      "F87 CONTINUES-footer strip reaching maths-B on re-emission: exactly 3 parts across 3 papers (2019-01/02R 6(c)(ii), 2020-06/02R + 2020-11/02R 11(b)) — the v0.21.1 law's own class, serving-positive, zero non-class residuals (56 sets carry ts+version only, proven by the leaf-level diff census)"
+    ],
+    "canaries": "84/86 green; C13-solution-emission + C71-solution-enrichment-ledger fail IDENTICALLY on pristine main 295fb5b6 (the ledger's queued F90 bare-number class, pre-existing and disclosed 2026-10-26 hygiene-v2 r1) — zero new violations from this wave",
+    "asset_fleet": "untouched — zero asset files modified"
+  },
+  "serving_effect": "the official plane no longer serves replacement chars, C1 bytes, cipher words or eaten constants on any maths-B set; the 2019-06/02 set now serves the printed MS (fraction stacks as flat corpus-convention fractions, matrix brackets restored, radicals restored) — the handover rule's worse-serving blocker class is closed at source"
+}

@@ -123,7 +123,7 @@ The Venn diagram shows information about the elements in a universal set, E, and
 
 ### 4(a) [1]
 
-X  Y
+X Y
 
 
 **Mark scheme answer**
@@ -134,7 +134,7 @@ X  Y
 
 ### 4(b) [1]
 
-(X  Y )  =ү Find
+(X ∪ Y) ∩ Z′ Find
 
 
 **Mark scheme answer**
@@ -145,7 +145,7 @@ X  Y
 
 ### 4(c) [1]
 
-n([X  Y ]ү)
+n([X Y ]ү)
 
 
 **Mark scheme answer**
@@ -156,7 +156,7 @@ n([X  Y ]ү)
 
 ### 4(d) [1]
 
-n([X  Z ]  <ү) Here are five symbols used in connection with sets.     
+n([X ∩ Z] ∪ Y′) Here are five symbols used in connection with sets.
 
 
 **Mark scheme answer**
@@ -571,7 +571,7 @@ find the value of ȝ and the value of Ȝ. Given also that ]a] = 4 cm, ]b] = 1 cm
 
 ### 9(d) [4]
 
-calculate the size, in degrees to 3 significant figures, of CFE. ⎡ 1 ⎤ ⎢⎣ Area of trapezium = 2 (a + b)h ⎥⎦
+calculate the size, in degrees to 3 significant figures, of CFE. ⎡ 1 ⎤ ⎢⎣ Area of trapezium = 2 (a + b)h ⎥⎦
 
 
 **Mark scheme answer**

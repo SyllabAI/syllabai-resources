@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:42:02Z",
+ "generated_utc": "2026-10-26T16:05:27Z",
  "series": "2019-06",
  "paper": "01R",
  "gates": [
@@ -47,10 +47,10 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 10 remain crop-required; 14 parts without page anchor",
+   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 1 cropped to assets/*.png (150 dpi), 10 remain crop-required; 16 parts without page anchor",
    "details": {
     "dangling": [],
-    "pages_unanchored": 14,
+    "pages_unanchored": 16,
     "crop_stats": {
      "crops": 1,
      "pending": 10,
@@ -106,7 +106,7 @@
    "id": "N2-paraphrase",
    "expected_gate": "G2-D/edits[]",
    "detected": true,
-   "target": "28(a)"
+   "target": "16"
   },
   {
    "id": "N3-fake-spec-code",
@@ -157,7 +157,7 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (356 instances / 13 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (255 instances / 15 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
@@ -173,18 +173,20 @@
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
    "0x1": 4,
-   "0x11": 12,
-   "0x13": 4,
-   "0x14": 4,
-   "0x15": 18,
-   "0x17": 4,
-   "0x18": 8,
-   "0x19": 8,
-   "0x1a": 36,
+   "0x11": 9,
+   "0x13": 2,
+   "0x14": 3,
+   "0x15": 12,
+   "0x17": 2,
+   "0x18": 4,
+   "0x19": 5,
+   "0x1a": 29,
    "0x1d": 10,
    "0x2": 4,
-   "0x3": 240,
-   "0xf": 4
+   "0x3": 159,
+   "0x83": 4,
+   "0x91": 6,
+   "0xf": 2
   }
  }
 }

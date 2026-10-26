@@ -38,7 +38,7 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.21.1"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.22.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -539,6 +539,36 @@ ACTIVE_PUA_OVERRIDES = {}
 ACTIVE_SPEC_CODE = "4ch1"
 ACTIVE_FOOTER_RE = None   # per-run lane footer, set in main() (clean_lines anchor)
 
+# F91 (v0.22.0, T-OEQ-MATHSB-SERVE-1 verdict-A hygiene wave): the maths-B
+# SymbolMT C1 class — pdftotext emits raw C1 codes (and the stray Cyrillic
+# U+048F) where the embedded font carries math glyphs with no ToUnicode.
+# Every entry is evidenced from the 600-dpi page renders archived with the
+# lane receipt (T-OEQ-MATHSB-SERVE-1 run-004 evidence pack):
+#   0x91 '∠' — 2018-06/01 p8 'BC = BA and ∠CAB = 32°' class (19 instances,
+#              every hit sits immediately before vertex letters);
+#   0x88 '∩' / 0x89 '∪' — 2018-06/02 p10 Q4 (a)-(d) '(X ∪ Y) ∩ Z′' family
+#              (two independent runs agree) + 2019-06/01 p16 'n(H′ ∩ [L ∪ G])';
+#   0x8f '∈' / 0x87 '∅' / 0x8d '⊂' / 0x90 '∉' / 0x88 '∩' — 2018-06/02 p10 the
+#              five-symbols display box '∈ ∅ ⊂ ∉ ∩' (positional order pins all
+#              five, and the box's 0x88=∩ agrees with the Q4 run);
+#   0x83 '°' — 2019-06/01R p11 '∠ABD = 67° and ∠BEF = 123°';
+#   ү (U+048F) '′' — 2018-06/02 p10 the prime in '(X ∪ Y) ∩ Z′'.
+# Unmapped C1 chars keep the F64 policy (logged single-space fallback) so a
+# served string can never carry a C1 byte (the G-S4 born-clean law). 4MB1-lane
+# scoped: chemistry/physics layers carry zero C1 of record and must keep
+# byte-identity (the v0.21.0 lane-split lesson).
+_MB1_C1_MAP = {
+    "\x83": "\u00b0",   # ° degree sign
+    "\u048f": "\u2032", # ү -> ′ prime
+    "\x87": "\u2205",   # ∅ empty set
+    "\x88": "\u2229",   # ∩ intersection
+    "\x89": "\u222a",   # ∪ union
+    "\x8d": "\u2282",   # ⊂ subset
+    "\x8f": "\u2208",   # ∈ element of
+    "\x90": "\u2209",   # ∉ not element of
+    "\x91": "\u2220",   # ∠ angle
+}
+
 
 def normalize_pua(s: str) -> str:
     """F48: map every known PUA char to its real Unicode form; REFUSE unknown
@@ -565,6 +595,12 @@ def normalize_pua(s: str) -> str:
             and any((ord(c) < 0x20 and c not in "\t\n\r\x0c") for c in s)):
         s = "".join((_ctl_note(hex(ord(c))) or " ") if (ord(c) < 0x20 and c not in "\t\n\r\x0c") else c
                     for c in s)
+    # F91 (v0.22.0): the evidenced C1 glyph map (4MB1 lane only — see the
+    # _MB1_C1_MAP evidence block above); any C1 codepoint the map does not
+    # witness falls back per the F64 policy (logged, never served).
+    if ACTIVE_SPEC_CODE == "4MB1" and any(0x80 <= ord(c) <= 0x9F for c in s):
+        s = "".join((_ctl_note(hex(ord(c))) or " ") if 0x80 <= ord(c) <= 0x9F else c
+                    for c in s.translate(_MB1_C1_MAP))
     if not any(0xE000 <= ord(c) <= 0xF8FF for c in s):
         return s
     # F66 (v0.16.1): sequence-first law (run-002b ordering law) — composed

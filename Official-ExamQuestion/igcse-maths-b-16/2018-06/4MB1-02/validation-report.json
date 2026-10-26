@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:40:59Z",
+ "generated_utc": "2026-10-26T16:05:24Z",
  "series": "2018-06",
  "paper": "02",
  "gates": [
@@ -135,7 +135,7 @@
   },
   {
    "part": "(corpus)",
-   "reason": "C0 control chars in the QP text layer (35 instances / 4 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
+   "reason": "C0 control chars in the QP text layer (52 instances / 11 codepoints) resolved to single space per spec §3.4 — probable SymbolMT private-use operators (×/÷ class) between numeric terms; font-trace + page-render adjudication owed before these serve as operators"
   }
  ],
  "ocr_pages": [],
@@ -150,10 +150,17 @@
  "control_char_fallback": {
   "policy": "spec §3.4 single-space fallback, logged per-instance (F64)",
   "instances": {
-   "0x1": 6,
+   "0x1": 4,
    "0x11": 2,
    "0x1d": 1,
-   "0x3": 26
+   "0x3": 25,
+   "0x87": 2,
+   "0x88": 6,
+   "0x89": 4,
+   "0x8d": 2,
+   "0x8f": 2,
+   "0x90": 2,
+   "0x91": 2
   }
  }
 }

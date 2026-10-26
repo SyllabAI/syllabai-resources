@@ -652,7 +652,7 @@ Find the number of students who study History but not Latin.
 
 ### 23(c) [1]
 
-Find n(H‫[  މ‬L  G])
+Find n(H′ ∩ [L ∪ G])
 
 
 **Mark scheme answer**

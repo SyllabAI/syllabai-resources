@@ -251,11 +251,11 @@ Express as a single fraction in its simplest form 3 4 − 2x − 1 x + 2
 
 ## Question 12 (3 marks)
 
-Diagram NOT accurately drawn A O 32q C B ABC is a triangle such that the points A, B and C lie on a circle, centre O. BC = BA and CAB = 32° Find the size, in degrees, of
+Diagram NOT accurately drawn A O 32q C B ABC is a triangle such that the points A, B and C lie on a circle, centre O. BC = BA and CAB = 32° Find the size, in degrees, of
 
 ### 12(a) [1]
 
-COB °
+COB °
 
 
 **Mark scheme answer**
@@ -266,7 +266,7 @@ Diagram NOT accurately drawn A O 32q C B ABC is a triangle such that the points 
 
 ### 12(b) [2]
 
-OCA °
+OCA °
 
 
 **Mark scheme answer**
@@ -332,11 +332,11 @@ Prove that (4n + 3)2 – (4n – 3)2 is a multiple of 12 for all positive intege
 
 ## Question 15 (3 marks)
 
-B Diagram NOT accurately drawn A C D A, B and D are three points on a circle. The point C is such that CD and CB are tangents to the circle. ADB = ABD Prove that 'ABC and 'ADC are congruent.
+B Diagram NOT accurately drawn A C D A, B and D are three points on a circle. The point C is such that CD and CB are tangents to the circle. ADB = ABD Prove that 'ABC and 'ADC are congruent.
 
 ### 15 [3]
 
-B Diagram NOT accurately drawn A C D A, B and D are three points on a circle. The point C is such that CD and CB are tangents to the circle. ADB = ABD Prove that 'ABC and 'ADC are congruent.
+B Diagram NOT accurately drawn A C D A, B and D are three points on a circle. The point C is such that CD and CB are tangents to the circle. ADB = ABD Prove that 'ABC and 'ADC are congruent.
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 
@@ -703,11 +703,11 @@ Find the area of triangle AOB, where O is the origin.
 
 ## Question 27 (6 marks)
 
-B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram shows triangle ABC in which AB = (x + 3) cm BC = 2x cm AC = (3x + 1) cm ABC = 120° Find the size, in degrees to 3 significant figures, of ACB. ACB = . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . °
+B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram shows triangle ABC in which AB = (x + 3) cm BC = 2x cm AC = (3x + 1) cm ABC = 120° Find the size, in degrees to 3 significant figures, of ACB. ACB = . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . °
 
 ### 27 [6]
 
-B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram shows triangle ABC in which AB = (x + 3) cm BC = 2x cm AC = (3x + 1) cm ABC = 120° Find the size, in degrees to 3 significant figures, of ACB. ACB = °
+B Diagram NOT accurately drawn 120q (x + 3) cm 2x cm A (3x + 1) cm C The diagram shows triangle ABC in which AB = (x + 3) cm BC = 2x cm AC = (3x + 1) cm ABC = 120° Find the size, in degrees to 3 significant figures, of ACB. ACB = °
 
 > 🖼 crop required: diagram (qp.pdf p.None)
 

@@ -626,7 +626,7 @@ Find the value of k. Diagram NOT 20 cm accurately drawn 102 cm Figure 4 Figure 4
 
 ### 11(b) [1]
 
-Calculate the value of V. Give your answer in terms of π. Volume of a cylinder πr 2 h Volume of a cone 1 2 = πr h Question 11 continues on the next page. Figure 5 below shows a door stop made from a hollow hemisphere and a hollow right circular cone. Diagram NOT accurately drawn 108 cm h cm 30 cm Figure 5 The radius of the base of the cone and the radius of the hemisphere are both 30 cm. The centre of the base of the cone coincides with the centre of the hemisphere. The height of the cone is 108 cm. The door stop rests on horizontal ground with the cone on top of the hemisphere and the axis of symmetry of the door stop vertical. The door stop contains sand to a height of h cm. Given that the volume of sand in the door stop is V cm3, where V cm3 is the volume of the cylinder in Figure 4
+Calculate the value of V. Give your answer in terms of π. Volume of a cylinder πr 2 h Volume of a cone 1 2 = πr h Figure 5 below shows a door stop made from a hollow hemisphere and a hollow right circular cone. Diagram NOT accurately drawn 108 cm h cm 30 cm Figure 5 The radius of the base of the cone and the radius of the hemisphere are both 30 cm. The centre of the base of the cone coincides with the centre of the hemisphere. The height of the cone is 108 cm. The door stop rests on horizontal ground with the cone on top of the hemisphere and the axis of symmetry of the door stop vertical. The door stop contains sand to a height of h cm. Given that the volume of sand in the door stop is V cm3, where V cm3 is the volume of the cylinder in Figure 4
 
 ![diagram — official paper figure (qp.pdf p.30)](assets/asset_11_b_diagram.png)
 

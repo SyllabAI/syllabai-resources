@@ -334,7 +334,7 @@ n(R ∪ F )
 
 ### 6(c)(ii) [2]
 
-n(R ∩ [C ∪ F ]) Question 6 continues on the next page. Some of the 14 students in class 11T, who like rugby, play for a rugby club team. The incomplete probability tree diagram gives information about these 14 students. plays for a club team boy does not play for a club team plays for a club team girl does not play for a club team
+n(R ∩ [C ∪ F ]) Some of the 14 students in class 11T, who like rugby, play for a rugby club team. The incomplete probability tree diagram gives information about these 14 students. plays for a club team boy does not play for a club team plays for a club team girl does not play for a club team
 
 ![diagram — official paper figure (qp.pdf p.20) — shared with 6(a)](assets/asset_6_a_diagram.png)
 
