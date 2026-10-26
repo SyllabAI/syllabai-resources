@@ -1104,25 +1104,27 @@ The expressionsincalculusnotation are:
 rate = d[product]/dt rate = − d[reactant]/dt
 
 Thisrateofreactionissometimescalledthe'overallrateof reaction'.
-TECHNIQUESFORMEASURINGTHERATEOF REACTION
 
-Beforeinvestigatingtherate ofaparticularreaction,itis necessarytoknowtheoverallequation,includingstatesymbols, forthereactionsothatwecandecidewhattechniquetouseto follow the reaction.
+#### TECHNIQUESFORMEASURINGTHERATEOF REACTION
+TECHNIQUES FOR MEASURING THE RATE OF REACTION
 
-There arevarioustechniques availabletouse,suchas:
+Before investigating the rate of a particular reaction, it is necessary to know the overall equation, including state symbols, for the reaction so that we can decide what technique to use to follow the reaction.
 
-• 1measuring the volume of a gas evolved
+There are various techniques available to use, such as:
 
-• 2 measuringthe change inmass of areactionmixture
+• 1 measuring the volume of a gas evolved
 
-• 3 monitoring the change in intensity of colour of a reaction mixture(colorimetry)
+• 2 measuring the change in mass of a reaction mixture
 
-• measuringthechangeinconcentrationofareactant or productusingtitration
+• 3 monitoring the change in intensity of colour of a reaction mixture (colorimetry)
+
+• measuring the change in concentration of a reactant or product using titration
 
 • 2 collection using a gas syringe (fig B).
 
-The technique chosenwill depend partly on thelevel ofprecision required.Thegassyringehasagreaterdegreeofprecision,but if a large volume of gas isbeing measured,the difference in the degree ofmeasurement uncertaintybecomesso small thateither instrument is sufficientlyprecise.
+The technique chosen will depend partly on the level of precision required. The gas syringe has a greater degree of precision, but if a large volume of gas is being measured, the difference in the degree of measurement uncertainty becomes so small that either instrument is sufficiently precise.
 
-figACollectingagas overwater.
+fig A Collecting a gas over water.
 EXAM HINT
 
 Reactionsproducinggasesthatareverysolubleinwater,suchas sulfur dioxide,cannotusethegascollectionoverwatertecUique.
@@ -1385,13 +1387,13 @@ Whatwillbetheincreaseinrateif:
 • (c)What istheoverallorderof reaction?
 SUBJECT VOCABULARY
 
-rateequationanequationexpressingthemathematicalrelationshipbetweentherateofreactionandthe concentrationsofthereactants
+rate equation an equation expressing the mathematical relationship between the rate of reaction and the concentrations of the reactants
 
-order(ofareactantspecies)thepowertowhichtheconcentrationofthespeciesisraisedintherate equation
+order (of a reactant species) the power to which the concentration of the species is raised in the rate equation
 
-overallorder(ofareaction)thesumofalltheindividualorders
+overall order (of a reaction) the sum of all the individual orders
 
-rate-determiningstep(ofareaction)thesloweststepinthemechanismforthereaction
+rate-determining step (of a reaction) the slowest step in the mechanism for the reaction
 LEARNING OBJECTIVES
 
 • Understand theterms:
@@ -1721,33 +1723,35 @@ Yet, the reaction is thought to involve several steps and a number ofintermediat
 ALKALINEHYDROLYSISOFHALOGENOALKANES
 
 weintroduced inTopic10 (Book1:IAS).Thehydroxideion acts asanucleophileandreplacesthehalogeninthehalogenoalkanes. Thereaction,therefore,can alsobedescribed asnucleophilic substitution.
-HYDROLYSISOFATERTIARYHALOGENOALKANE
+
+#### HYDROLYSISOFATERTIARYHALOGENOALKANE
+HYDROLYSIS OF A TERTIARY HALOGENOALKANE
 
 The equation for the alkaline hydrolysis of 2-chloromethylpropane is:
 
 (CH₃)₃CCl + OH⁻ → (CH₃)₃COH + Cl⁻
 
-The experimentally determined rate equation for this reaction is: rate =k[(CH)CCl]
+The experimentally determined rate equation for this reaction is: rate = k[(CH)CCl]
 
-The reaction is first order with respect to 2-chloromethylpropane, butzeroorderwithrespecttothehydroxideion.
+The reaction is first order with respect to 2-chloromethylpropane, but zero order with respect to the hydroxide ion.
 
-Thesensibleconclusiontoreachisthatthe2-chloromethylpropane undergoes slow ionisation as therate-determining step.This is then followed by a very fast step involving attack by the hydroxide ion on thecarbocationformed inStep1.
+The sensible conclusion to reach is that the 2-chloromethylpropane undergoes slow ionisation as the rate-determining step. This is then followed by a very fast step involving attack by the hydroxide ion on the carbocation formed in Step 1.
 
 Step 1: (CH₃)₃CCl → (CH₃)₃C⁺ + Cl⁻ SLOW Step 2: (CH₃)₃C⁺ + OH⁻ → (CH₃)₃COH FAST
 
 CH₃CH₂CH₂CH₂Cl + OH⁻ → CH₃CH₂CH₂CH₂OH + Cl⁻
 
-This type of mechanism is named Sn1,i.e.Substitution Nucleophilic unimolecular.
+This type of mechanism is named SN1, i.e. Substitution Nucleophilic unimolecular.
 
-The rate-determining step is said to be unimolecular because there is only one reactant particle present, (CHs)sCCl.
+The rate-determining step is said to be unimolecular because there is only one reactant particle present, (CH₃)₃CCl.
 
-The carbocation, (CHs)C+, formed in Step 1 is an intermediate (seeSection 11A.6).
+The carbocation, (CH₃)₃C⁺, formed in Step 1 is an intermediate (see Section 11A.6).
 
-HYDROLYSISOFAPRIMARYHALOGENOALKANE
+HYDROLYSIS OF A PRIMARY HALOGENOALKANE
 
-The equation for the alkaline hydrolysis of 1-chlorobutane is: CH;CHCHCHCI + OH-→ CH;CHCHCH2OH + Cl
+The equation for the alkaline hydrolysis of 1-chlorobutane is: CH₃CH₂CH₂CH₂Cl + OH⁻ → CH₃CH₂CH₂CH₂OH + Cl⁻
 
-The experimentally determined rate equation for this reaction is: rate = K[CHCH2CH2CH2C][OH-]
+The experimentally determined rate equation for this reaction is: rate = k[CH₃CH₂CH₂CH₂Cl][OH⁻]
 TOPIC11
 
 This time the reaction isfirst order with respect toeach reactant,so it is reasonable to suggest that oneparticleofeachreactantispresentintherate-determiningstepofthemechanism.
@@ -1806,13 +1810,13 @@ Thiswould suggest thefollowing reaction asthefirst step of thereaction:
 Similar reactions in other mechanisms are very fast, so this reaction is unlikely to be the rate-determining step ofthisreaction.
 EXAM HINT
 
-Examinersmayaskyouto evaluatedifferentmethodsfor investigatingratesofreaction. Onelimitationofthemethod describedhereisthetimedelay betweenwithdrawingareaction samplebypipetteand quenchingitwithsodium hydrogencarbonate.
+Examiners may ask you to evaluate different methods for investigating rates of reaction. One limitation of the method described here is the time delay between withdrawing a reaction sample by pipette and quenching it with sodium hydrogencarbonate.
 
-Thesecond stepprobably controlstherateof thereaction and producesH+that,beingacatalyst,isnotusedupinthereaction:
+The second step probably controls the rate of the reaction and produces H+ that, being a catalyst, is not used up in the reaction:
 
-This rearrangement is likely tobe very slow and hence is probably the rate-determiningstepofthereaction.
+This rearrangement is likely to be very slow and hence is probably the rate-determining step of the reaction.
 
-lodinecannowreactinafaststepasfollows:
+Iodine can now react in a fast step as follows:
 
 #### Testingthemechanism
 Testing the mechanism
@@ -2149,7 +2153,7 @@ This provides an experimental method for determining the activation energy of a 
 Theinterceptwith thevertical axisgives InA.
 WORKED EXAMPLE
 
-TableAshowssomedatarelatedtothereactionbetweenperoxydisulfateandiodideionsinaqueous solution:
+Table A shows some data related to the reaction between peroxydisulfate and iodide ions in aqueous solution:
 
 S₂O₈²⁻(aq) + 2I⁻(aq) → 2SO₄²⁻(aq) + I₂(aq)
 
@@ -2672,15 +2676,15 @@ Whenareactionreachesapointofequilibrium,what determineswhethertheequilibriumwill
 This question is answered using theSecond Law of Thermodynamics, in which the concept of entropy is introduced.
 ENTROPY
 
-TheSecond Law of Thermodynamics allows us to predict whether aprocessis likelyto occur.It is,therefore,thekey tounderstandingwhatdriveschemicalreactionsandwhat determines theposition ofequilibrium.
+The Second Law of Thermodynamics allows us to predict whether a process is likely to occur. It is, therefore, the key to understanding what drives chemical reactions and what determines the position of equilibrium.
 
-As we discovered inTopic9(Book1:IAS),theposition of equilibriumcanbereachedfromeitherdirection.Thismeans that ifweplacesomeNzO4(g) ina sealed containerat room temperature,some ofitwill decompose toformNO2(g).So,an endothermicreactionistakingplaceatroomtemperaturewithout usdoing anythingtoit.Wesay thatthereactionisspontaneous (seelaterin thissection).
+As we discovered in Topic 9 (Book 1: IAS), the position of equilibrium can be reached from either direction. This means that if we place some N₂O₄(g) in a sealed container at room temperature, some of it will decompose to form NO₂(g). So, an endothermic reaction is taking place at room temperature without us doing anything to it. We say that the reaction is spontaneous (see later in this section).
 
-Clearly,itisnotonlyexothermicreactionsthatcantakeplace spontaneously.Thedrivingforceforspontaneousendothermic reactionscannotbetheformationofmoreenergetically favourable, i.e. lower-energy, products but must involve another factorwehaveyettoconsider.
+Clearly, it is not only exothermic reactions that can take place spontaneously. The driving force for spontaneous endothermic reactions cannot be the formation of more energetically favourable, i.e. lower-energy, products but must involve another factor we have yet to consider.
 
-That factor is a quantity known as entropy, which is governed by theSecondLawofThermodynamics.
+That factor is a quantity known as entropy, which is governed by the Second Law of Thermodynamics.
 
-But first, we need to appreciate what is meant by the term spontaneousprocess.
+But first, we need to appreciate what is meant by the term spontaneous process.
 SPONTANEOUSPROCESSES
 
 Aspontaneousprocessisonethattakesplacewithoutcontinuous interventionby us.
@@ -2711,37 +2715,37 @@ When the cover slipbetween the two gas jars is removed, the bromine andairdiffus
 To understand why this happens we canlook at a much simpler examplewherethereareonlyfivemolecules.FigDshowstwo gas jars. The left-hand jar contains five molecules of bromine and theright-hand jarcontainsnomolecules.
 EXAM HINT
 
-It issatisfyingtomakelinks betweentopicsin chemistry.If youmultiplytheBoltzmann constantk(1.38x10-23)bythe AvogadroconstantL(6.02x 1023),
+It is satisfying to make links between topics in chemistry. If you multiply the Boltzmann constant k(1.38×10-23) by the Avogadro constant L(6.02× 1023),
 
-you will get 8.31.This is also knownasthegasconstant,R, whichyoushouldremember fromPV=nRTinTopic1 (Book 1: IAS).
+you will get 8.31. This is also known as the gas constant, R, which you should remember from PV=nRT in Topic 1 (Book 1: IAS).
 
-Assoonasthecoverslipisremoved,themoleculesarefree tomovebetween the jars
+As soon as the coverslip is removed, the molecules are free to move between the jars
 
 • present but have not been shown.
 
-Eachmolecule has twopossible arrangements.It can bein either theleft-hand jar or the right-hand jar Wecanwrite the number of possible arrangements for molecule1 as W,and the number of possible arrangements for molecule 2 as W2, and so on.
+Each molecule has two possible arrangements. It can be in either the left-hand jar or the right-hand jar. We can write the number of possible arrangements for molecule 1 as W₁, and the number of possible arrangements for molecule 2 as W₂, and so on.
 
-As there are two possible arrangements for molecule 1, W, = 2. For molecule 2, W2 = 2, and so on.
+As there are two possible arrangements for molecule 1, W₁ = 2. For molecule 2, W₂ = 2, and so on.
 
 The equation for the total number of ways, W, that the five molecules can be arranged is given by:
 
-W=W×W2×W×W×W5 =2×2×2×2×2 = 25 =32
+W=W₁×W₂×W₃×W₄×W₅ =2×2×2×2×2 = 2⁵ =32
 
-Most of the 32 possible arrangements have molecules in both jars. Only one has all five molecules in theleft-handjarItwouldbesurprisingif this arrangementhappenedveryoften.
+Most of the 32 possible arrangements have molecules in both jars. Only one has all five molecules in the left-hand jar. It would be surprising if this arrangement happened very often.
 
-If we increase the number of molecules to100,Wbecomes 21oo. The left-hand gas jar would contain all100 molecules only once in every 3.2× 1022years!We would have towait for a verylong time indeedtoseeall100moleculesintheleft-handjar!
+If we increase the number of molecules to 100, W becomes 2¹⁰⁰. The left-hand gas jar would contain all 100 molecules only once in every 3.2× 10²² years! We would have to wait for a very long time indeed to see all 100 molecules in the left-hand jar!
 
-You can see that as the number of molecules increases,the number of possible arrangements also increasesveryrapidly.Tomakethenumberseasiertoworkwithweneedtouseanequationtohelp us.You do notneed to remember the equation,but it helps us toseehow the spreadingout of the molecules is related toanincrease in entropy.
+You can see that as the number of molecules increases, the number of possible arrangements also increases very rapidly. To make the numbers easier to work with we need to use an equation to help us. You do not need to remember the equation, but it helps us to see how the spreading out of the molecules is related to an increase in entropy.
 
-Entropy, S, is linked to Wby the equation
+Entropy, S, is linked to W by the equation
 
 S=klnW
 
-whereWisthenumberofwaysofarrangingthemolecules,kisaconstantcalledtheBoltzmann
+where W is the number of ways of arranging the molecules, k is a constant called the Boltzmann
 
-Entropy is measured in units of JK-1mol-1.
+Entropy is measured in units of JK⁻¹mol⁻¹.
 
-showthatthisisthecaseforwatervapour,waterandice.
+show that this is the case for water vapour, water and ice.
 
 #### EXAM HINT
 tableAEntropiesofwatervapour,waterandice.
@@ -4153,23 +4157,25 @@ MgCO3(s) → MgO(s) + CO2(g) MgCO(s), MgO(s) and CO2(g).
 [3]
 
 • (b)E Explain why hydrogen does not react with oxygen unless the mixture is ignited. [1]
-(TotalforQuestion10=8marks)
+
+#### (TotalforQuestion10=8marks)
+(Total for Question 10 = 8 marks)
 
 • 11 Ammonia can be made by reacting together nitrogen and hydrogen. The reaction is reversible.
 
--0I-= (00) H'V (3)HN =(3)H +()N Stotal (700 K) = -78.7 JK-1 mol-1
+-0I-= (00) H'V (3)HN =(3)H +()N Stotal (700 K) = -78.7 JK⁻¹ mol⁻¹
 
-• (a)The°symbol represents standard conditions of a specifiedtemperature andstandardpressure.In this instance,thetemperature specified is700K.State the standard pressureforthermodynamicmeasurements.[1]
+• (a) The ° symbol represents standard conditions of a specified temperature and standard pressure. In this instance, the temperature specified is 700 K. State the standard pressure for thermodynamic measurements. [1]
 
-• (b) Calculate △S suroundings (700 K).
+• (b) Calculate ΔS surroundings (700 K).
 
 • [2]
 
-• (c) Calculate △S system (700 K). [2]
+• (c) Calculate ΔS system (700 K). [2]
 
-• (d) If the reactionmixture is left forlongenough,in contact withasuitablecatalyst,itispossibletoestablish an equilibrium between the nitrogen, hydrogen and the ammonia.
+• (d) If the reaction mixture is left for long enough, in contact with a suitable catalyst, it is possible to establish an equilibrium between the nitrogen, hydrogen and the ammonia.
 
-Comment on what the value of △Stotal (7o0 K) indicates about the relative proportions of nitrogen,hydrogen and ammonia in the equilibrium mixture at 700 K. [1]
+Comment on what the value of ΔStotal (700 K) indicates about the relative proportions of nitrogen, hydrogen and ammonia in the equilibrium mixture at 700 K. [1]
 
 ## Topic 13: Unit 4: Rates, Equilibria and Further Organic Chemistry
 
@@ -4373,7 +4379,7 @@ SKILLS
 ADAPTIVELEARNING
 EXAM HINT
 
-Inquestion2,theamountof acidatequilibriumcanbe quantifiedbytitration.You mightexpecttheequilibriumto shifttotheleftastheacidis neutralised.However,therate ofthisreactionisveryslow (notethatthereactionisleftfor severaldays).Thismeansthat theamountofacidcanbe quantifiedbeforethe equilibrium has had time to respond.
+In question 2, the amount of acid at equilibrium can be quantified by titration. You might expect the equilibrium to shift to the left as the acid is neutralised. However, the rate of this reaction is very slow (note that the reaction is left for several days). This means that the amount of acid can be quantified before the equilibrium has had time to respond.
 SUBJECT VOCABULARY
 
 homogeneous reaction a reaction in which all the reactants and products are in the same phase
@@ -4820,25 +4826,25 @@ You may think this is impossible. To explain it we can look at the equilibriumre
 fig B A mixture of NO4 gas and NO2 gas in a gas syringe: (a) at room temperature:(b)immersed inhotwater;(c)immersed in crushed ice.
 LEARNING TIP
 
-ThethermodynamicvalueofK calculated from△Stotal=RInk hasnounits.This isbecauseyou cantakethelogarithmofa numberbutnotofaquantity withunits.ThevalueofK calculatedfromexperimental data doeshave units.
+The thermodynamic value of K calculated from △S_total = R ln K has no units. This is because you can take the logarithm of a number but not of a quantity with units. The value of K calculated from experimental data does have units.
 
-Toconvertanexperimental valueofK,intoa thermodynamicvalue,youneed toremove theunitsbydividing eachpartialpressurebythe standardpressureof1atm. Sinceeachpartialpressurehas beendividedbyafactorof1,the numericalvaluedoesnotalter.
+To convert an experimental value of K, into a thermodynamic value, you need to remove the units by dividing each partial pressure by the standard pressure of 1 atm. Since each partial pressure has been divided by a factor of 1, the numerical value does not alter.
 
-The same istrueforK.To convertanexperimentalvalue ofKintoathermodynamic value,youneedtoremovethe unitsbydividingeach concentrationbythestandard concentrationof1mol dm-3.
+The same is true for K_c. To convert an experimental value of K_c into a thermodynamic value, you need to remove the units by dividing each concentration by the standard concentration of 1 mol dm⁻³.
 
 The differences in colour in fig B show how the position of equilibrium changes as the temperature changes.
 
-In hot water the mixture becomes darker brown.The equilibrium position has shifted to the right to produce moreNO2. Note that thevolumehas becomelargerbecause themixture expands as it getshotter.
+In hot water the mixture becomes darker brown. The equilibrium position has shifted to the right to produce more NO₂. Note that the volume has become larger because the mixture expands as it gets hotter.
 
-In iced water, the mixture becomes lighter brown. This shows that the equilibrium position has shifted to the left toproduce moreNzO4.Note that the volume has become smaller because thereaction mixture has cooled.
+In iced water, the mixture becomes lighter brown. This shows that the equilibrium position has shifted to the left to produce more N₂O₄. Note that the volume has become smaller because the reaction mixture has cooled.
 
-Fig C showshow it ispossiblefor thereaction tobe spontaneousin each direction.
+Fig C shows how it is possible for the reaction to be spontaneous in each direction.
 
-• figCA graph of entropy against percentage NO2 in a mixture of NzO4 and NO2.
+• Fig C: A graph of entropy against percentage NO₂ in a mixture of N₂O₄ and NO₂.
 
-The entropy of NzO4 is less than the entropy of the equilibrium mixture. The change in entropy from pure NzO4 to the equilibrium mixture is positive, so the change is spontaneous.
+The entropy of N₂O₄ is less than the entropy of the equilibrium mixture. The change in entropy from pure N₂O₄ to the equilibrium mixture is positive, so the change is spontaneous.
 
-Similarly, the change in entropy from NO2 to the equilibrium mixture is also positive.
+Similarly, the change in entropy from NO₂ to the equilibrium mixture is also positive.
 
 #### LEARNING TIP
 The entropy change for a mixture of the two gases in any proportions moving to the equilibrium mixtureis alsopositive,sosuchchangesarespontaneous.
@@ -6263,33 +6269,35 @@ This gives a pH for the buffer solution of 4.76.
 LEARNING TIP
 
 Apotential trapwhencalculatingthepHofabuffersolutionisnot understandingthatwhentwosolutionsaremixedthereisadilution. If50cmofonesolutionismixedwith50cm3ofanothersolution, thenthetotalvolumeofthemixturewillbe100cm3.So,the concentration of each solution will be halved onmixing.
-HOWDOESTHEBUFFERACTIONWORK?
 
-Whenasmallamountofacidisaddedtothebuffersolution,the majority of the H+ions added react with the CHCOO-ions to form CHCOOH molecules:
+#### HOWDOESTHEBUFFERACTIONWORK?
+HOW DOES THE BUFFER ACTION WORK?
+
+When a small amount of acid is added to the buffer solution, the majority of the H+ ions added react with the CHCOO- ions to form CHCOOH molecules:
 
 CH;COO-(aq) + H+(aq) → CH;COOH(aq)
 
-When a little base is added,the majority of the OH-ions added reactwiththeCHCOOHmolecules:
+When a little base is added, the majority of the OH- ions added react with the CHCOOH molecules:
 
 CH;COOH(aq) + OH-(aq) → CH;COO-(aq) + H2O(l)
 
-Anewequilibriummixturewill beestablishedinwhichthe concentrationsofbothCHCOOH and CHCOO-willhavechanged slightly from their original values. So, there willbe a change in pH, but this willbe minimal. This is shown by the following argument.
+A new equilibrium mixture will be established in which the concentrations of both CHCOOH and CHCOO- will have changed slightly from their original values. So, there will be a change in pH, but this will be minimal. This is shown by the following argument.
 
-To show that the pH has changed very little,we once again need tomake use of the expressionforKaofthe acid:
+To show that the pH has changed very little, we once again need to make use of the expression for Ka of the acid:
 
 Rearranging this equation gives:
 
-As there are a relatively large number of CHCOOH molecules in thesolution,astheextentofdissociationoftheacidisverysmall, the change in [CH;COOH(aq)] will be negligible.
+As there are a relatively large number of CHCOOH molecules in the solution, as the extent of dissociation of the acid is very small, the change in [CH;COOH(aq)] will be negligible.
 
-Also, the change in [CHCOO-(aq)] will be negligible because there are a relatively large number of CHCOO-ions present, resultingfromthetotaldissociationoftheCHCOONa.
+Also, the change in [CHCOO-(aq)] will be negligible because there are a relatively large number of CHCOO- ions present, resulting from the total dissociation of the CHCOONa.
 
-[CH;COOH(aq)] This means that the ratio will remainfairly constant. [CH,COO-(aq)]
+[CH;COOH(aq)] This means that the ratio will remain fairly constant. [CH,COO-(aq)]
 
-If thisratio remains fairly constant, then [H+(aq)] remains fairly constant because,atagiventemperature,Kis also constant.
+If this ratio remains fairly constant, then [H+(aq)] remains fairly constant because, at a given temperature, K is also constant.
 
 If [H+(aq)] remains fairly constant, then the pH remains fairly constant.
 
-To summarise,a buffer solution of a weak acid and its conjugate basemaintainsafairlyconstantpHbecausetheratioof [CHCOOH(aq)] to [CH;COO-(aq)] remains fairly constant when smallamountsofeitheracidorbaseareadded.
+To summarise, a buffer solution of a weak acid and its conjugate base maintains a fairly constant pH because the ratio of [CHCOOH(aq)] to [CH;COO-(aq)] remains fairly constant when small amounts of either acid or base are added.
 
 #### HOWDOESTHEBUFFERACTIONWORK?
 The best way to demonstrate the effect of addinga small amount of acid on the pH of a buffer solution is to calculate the pH of the bufferbothbeforeandafteraddingtheacid.
@@ -6980,9 +6988,9 @@ LEARNING TIP
 It isreallyworthwhileusingmolecularmodelstomakesomemodels ofsimplestructurestochecktheideaofmirrorimagesand superimposability.
 CHECKPOINT
 
-• 1. Whatisthemainsimilarityandthemaindifferencebetween opticalisomersandgeometricisomers?
+• 1. What is the main similarity and the main difference between optical isomers and geometric isomers?
 
-• 2. Howmanychiral centresarethereineachofthesemolecules? (a) CH;CCICH3
+• 2. How many chiral centres are there in each of these molecules? (a) CH;CCICH3
 
 • (b) CH;CH(OH)COOH
 
@@ -7010,17 +7018,17 @@ Somenaturalmaterials,andsyntheticmaterialssuchasPolaroid(thematerialusedinsome s
 Fig B shows that the second sheet of Polaroid has horizontal lines, which means that only horizontally plane-polarised lightcanpass through.Asthefirst sheet hasproducedvertically planepolarised light,then nolight canpass through thesecond sheet.
 POLARIMETRY
 
-Polarimetry is the use of a polarimeter to measure the amount of optical activity,if any, of a substance. Fig C shows how a polarimeter works.A monochromatic light source (light of only one colour or frequency) passes through a polarising filter (such as a piece of Polaroid). This is called the polarised light then passes through a sample tube containing some of the substance in solution. If thesubstanceis opticallyactive(becauseit containsanenantiomer),thentheplaneofpolarisation
+Polarimetry is the use of a polarimeter to measure the amount of optical activity, if any, of a substance. Fig C shows how a polarimeter works. A monochromatic light source (light of only one colour or frequency) passes through a polarising filter (such as a piece of Polaroid). This is called the polarised light then passes through a sample tube containing some of the substance in solution. If the substance is optically active (because it contains an enantiomer), then the plane of polarisation
 
-willberotatedsothatitisnolongervertical.Inthisexample therotationisanticlockwise,and thesubstancecanthereforebe describedaslaevorotatory'.If therotationisclockwise,thenthe substance is'dextrorotatory'.
+will be rotated so that it is no longer vertical. In this example the rotation is anticlockwise, and the substance can therefore be described as 'laevorotatory'. If the rotation is clockwise, then the substance is 'dextrorotatory'.
 
 light
 
 source
 
-figCYoucanseehowtheplaneofpolarisationofthepolarisedlightis rotatedanticlockwiseasitpassesthroughthesampletube.
+fig C You can see how the plane of polarisation of the polarised light is rotated anticlockwise as it passes through the sample tube.
 
-Thesecondpolarisingfilter,knownastheanalyser,isrotatedtoa positionwherethemaximumlightintensitycanbeseen.Theangle of rotation (α) is measured, and is quoted as a positive value if therotationisclockwiseandasanegativevalueiftherotationis anticlockwise. In fig C, the rotation, α, is approximately -90°.
+The second polarising filter, known as the analyser, is rotated to a position where the maximum light intensity can be seen. The angle of rotation (α) is measured, and is quoted as a positive value if the rotation is clockwise and as a negative value if the rotation is anticlockwise. In fig C, the rotation, α, is approximately -90°.
 PROPERTIESOFENANTIOMERS
 
 Two enantiomers have identical physical properties, with one exception.Theenantiomersrotatetheplaneofpolarisationof plane-polarised light by equal angles, but in opposite directions. So,if therotationforoneenantiomeris+60°,thentherotationfor theotherenantiomeris-60°.
@@ -7298,23 +7306,23 @@ Alloftheseoxidationreactionscanbecarriedoutinthelaboratoryin a test tube,by mixi
 Safety Note:Weareyeprotection and avoid skin contact.Only heatinhotwaterfromanelectrickettle,NOToveraflame.
 LEARNING TIP
 
-Thereductionreactions areincludedtoshowtheconversionof aldehydesandketonestoalcohols.
+The reduction reactions are included to show the conversion of aldehydes and ketones to alcohols.
 
-The oxidationreactionsareincluded toshowhowtodistinguish betweenaldehydesandketones.
+The oxidation reactions are included to show how to distinguish between aldehydes and ketones.
 
 As for the reduction reaction equations, all of the oxidising agents in table A can be represented by [O]. This is the symbol for an
 
 atom of oxygen provided by the oxidising agent in an unspecified way. Here are some examples of equations.
 
-Oxidation of propanal to propanoic acid: CHCH2CHO +[O] → CHCHCOOH
+Oxidation of propanal to propanoic acid: CHCH2CHO + [O] → CHCHCOOH
 
-Oxidation ofbutanal tobutanoic acid: CHCH,CH,CHO + [O] → CHCH,CH,COOH
+Oxidation of butanal to butanoic acid: CHCH,CH,CHO + [O] → CHCH,CH,COOH
 
-The oxidation reactions using Fehling's solution, Benedict's solution and Tollens'reagent are often used to distinguishbetween aldehydesandketones.Apositiveresult,asdescribedintableA, indicates the presence of an aldehyde. A negative result indicates the absence of an aldehyde. If it is also known that the substance being tested is a carbonyl compound,then the negative result can betakenas confirmationofthepresenceofaketone.
+The oxidation reactions using Fehling's solution, Benedict's solution and Tollens' reagent are often used to distinguish between aldehydes and ketones. A positive result, as described in table A, indicates the presence of an aldehyde. A negative result indicates the absence of an aldehyde. If it is also known that the substance being tested is a carbonyl compound, then the negative result can be taken as confirmation of the presence of a ketone.
 
-• figBColourchangeofFehling'ssolutionfrom a bluesolutiontoa red precipitateinthetestforan aldehyde.
+• figB Colour change of Fehling's solution from a blue solution to a red precipitate in the test for an aldehyde.
 
-figCColourchangeof Tollens'reagentfromacolourlesssolutiontoa silvermirrorin thetestforan aldehyde.
+figC Colour change of Tollens' reagent from a colourless solution to a silver mirror in the test for an aldehyde.
 REACTIONSWITHIODINE
 
 Another redox reaction of some carbonyl compounds is rather different-itused tobeknownastheiodoformreaction,butis now described asthetriodomethanereaction.This isbecause the product is CHI3,a yellow insoluble solid.
@@ -8374,11 +8382,11 @@ CHECKPOINT
 • 2. Suggest why water(H2O) is less suitable than TMS as a reference in NMRspectroscopy.
 SUBJECT VOCABULARY
 
-nuclearmagneticresonancespectroscopy(NMR) a technique used tofindthestructuresoforganiccompounds.Itdependsontheability ofnucleitoresonateinamagneticfield
+nuclear magnetic resonance spectroscopy (NMR) a technique used to find the structures of organic compounds. It depends on the ability of nuclei to resonate in a magnetic field
 
-chemical shift(ofa protonorgroupof protons) a number (in the units ppm) that indicates its behaviour in a magnetic field comparedwithtetramethylsilane.Itcanbeusedtoidentifythe chemicalenvironmentofthecarbonatomsorofthehydrogenatoms (protons)attachedtoit
+chemical shift (of a proton or group of protons) a number (in the units ppm) that indicates its behaviour in a magnetic field compared with tetramethylsilane. It can be used to identify the chemical environment of the carbon atoms or of the hydrogen atoms (protons) attached to it
 
-13CNMR theuse of NMRspectroscopy to detect 13Cnucleiwithin the moleculesofasubstance,inordertodeterminethestructure protonNMRtheuseofNMRspectroscopytodetectHnucleiwithin themoleculesofasubstance,inordertodeterminethestructure
+13C NMR the use of NMR spectroscopy to detect 13C nuclei within the molecules of a substance, in order to determine the structure proton NMR the use of NMR spectroscopy to detect H nuclei within the molecules of a substance, in order to determine the structure
 LEARNING OBJECTIVES
 
 • Understand that 13C NMR spectroscopy provides information about the positions of 13C atoms in a molecule.
@@ -8514,7 +8522,7 @@ SUBJECT VOCABULARY
 chemicalenvironmentsthechemicalenvironmentsofcarbonatomsinamoleculearerelatedtowhether thecarbonatomsareidentically,ordifferently,positionedwithinamolecule
 LEARNING TIP
 
-Whenyouneedtodecidehow many differentchemical environmentsthereareforthe carbonatomsinamolecule,itis agoodideatowritethestructure withthecarbon atomsseparated, e.g.CH3-CH(OH)-CH3.
+When you need to decide how many different chemical environments there are for the carbon atoms in a molecule, it is a good idea to write the structure with the carbon atoms separated, e.g. CH3-CH(OH)-CH3.
 LEARNING OBJECTIVES
 
 • Be abletousebothlow andhighresolutionprotonNMRspectroscopyto:
@@ -9193,21 +9201,21 @@ With copper, electrons would flow from the hydrogen electrode to the copper elec
 that the metal electrode is negative with respect to the hydrogen electrode, while a positive sign indicates the reverse.
 
 #### LEARNING TIP
-The differencein potential measured,together with the appropriate sign, is called the standard electrodepotentialofthemetal.Standardelectrodepotentialisgiventhesymbol E°.
+The difference in potential measured, together with the appropriate sign, is called the standard electrode potential of the metal. Standard electrode potential is given the symbol E°.
 
-Standardelectrodepotentials arequoted togetherwiththerelevanthalf-cellreaction.Forexample, formagnesiumandcoppertheyare:
+Standard electrode potentials are quoted together with the relevant half-cell reaction. For example, for magnesium and copper they are:
 
-Mg²+(aq) + 2e-= Mg(s) E=-2.37V
+Mg²+(aq) + 2e⁻ = Mg(s) E° = -2.37V
 
-Cu²+(aq)+2e-= Cu(s)
+Cu²+(aq) + 2e⁻ = Cu(s)
 
-E=+0.34V
+E° = +0.34V
 
-By convention,thestandard electrodepotentialofthestandard hydrogenelectrode is zero.
+By convention, the standard electrode potential of the standard hydrogen electrode is zero.
 
-H+(aq) +e = H2(g)
+H⁺(aq) + e⁻ = H₂(g)
 
-Some otherEvalues,togetherwith therelevant half-cell reactions,are shown intable A.
+Some other E° values, together with the relevant half-cell reactions, are shown in table A.
 
 #### LEARNING TIP
 | HALF-CELLREACTION     |   E/N |
@@ -9710,15 +9718,15 @@ The electrode potential for equilibrium 2 becomes less positive because the redo
 The net effect is that the electrode potential of equilibrium 2 becomes less positive (more negative) than that of equilibrium 1, so the chloride ions can now release electrons to manganese(IV) oxide.Thereactionhasbecomethermodynamicallyfeasible underthesenon-standardconditions.
 SUMMARY
 
-• ·Thethermodynamicfeasibilityofachemicalreactioncanbe predicted usingstandard electrodepotentials.
+• ·The thermodynamic feasibility of a chemical reaction can be predicted using standard electrode potentials.
 
-• Althoughthestandardelectrodepotentialsindicatethata reactionisthermodynamicallyfeasible,itmaynottakeplace fortworeasons:
+• Although the standard electrode potentials indicate that a reaction is thermodynamically feasible, it may not take place for two reasons:
 
-• othereactantsmaybekineticallystablebecausethe activationenergyforthereactionisverylarge,and
+• other reactants may be kinetically stable because the activation energy for the reaction is very large, and
 
-• ·Areactionthatisnotthermodynamicallyfeasibleunder standardconditionsmaybecomefeasiblewhentheconditions are altered.
+• ·A reaction that is not thermodynamically feasible under standard conditions may become feasible when the conditions are altered.
 
-• Changingthe conditions mayalter the electrodepotential,E, ofahalf-cellbecausethepositionofequilibriumofthehalfcell reaction may change.
+• Changing the conditions may alter the electrode potential, E, of a half-cell because the position of equilibrium of the half-cell reaction may change.
 DISPROPORTIONATIONREACTIONS
 
 InTopic8(Book1:IAS)welearnedthatadisproportionation reactionis oneinwhich anelementina speciesisboth oxidised andreducedinthesamereactionatthesametime.
@@ -10272,25 +10280,25 @@ Zn(s) + 4NH₃(aq) + 2MnO₂(s) + 2H₂O(l) → [Zn(NH₃)₄]²⁺(aq) + 2MnO�
 fig A Alkaline-manganese batteries.
 Alkaline-manganese
 
-Thesebatteriesdevelopedfromthezinc-carboncellandbecame availablefordomesticuseinthe1960s andquicklygainedin popularity because they were less prone to polarisation, had greater capacity andwerelesslikely toleak.
+These batteries developed from the zinc-carbon cell and became available for domestic use in the 1960s and quickly gained in popularity because they were less prone to polarisation, had greater capacity and were less likely to leak.
 
-Here the anodeispowderedzinc,which providesagreaterreactive surface area and thus more power.Theelectrolyteis an alkali,in contrast totheprevious cell,whichwas acidic.
+Here the anode is powdered zinc, which provides a greater reactive surface area and thus more power. The electrolyte is an alkali, in contrast to the previous cell, which was acidic.
 
-Anode:Znmetalpowder
+Anode: Zn metal powder
 
-Cathode:MnO2powderwithgraphitepowderforelectrical conduction
+Cathode: MnO₂ powder with graphite powder for electrical conduction
 
-Electrolyte:KOH(aq)
+Electrolyte: KOH(aq)
 
-Zn+2MnO2→ZnO+Mn2O3E=1.5V
+Zn + 2MnO₂ → ZnO + Mn₂O₃ E = 1.5V
 
-Developmentof thesebatteriescontinues,andPanasonicintroduced a vacuum-formingprocesstocompactmanganesedioxideandgraphite powders,which the companyclaims givesimproved capacity.
+Development of these batteries continues, and Panasonic introduced a vacuum-forming process to compact manganese dioxide and graphite powders, which the company claims gives improved capacity.
 
-FromAfterBatteryPowerbyTonyHargreaves.https://eic.rsc.org/section/feature/battery-power/2020096.article
+From After Battery Power by Tony Hargreaves. https://eic.rsc.org/section/feature/battery-power/2020096.article
 
 SCIENCE COMMUNICATION
 
-• 1 In the final sentence of the extract, the author tells us that Panasonic claim their vacuum forming would the technology need togo through beforePanasonic's claimwasproven?
+• 1 In the final sentence of the extract, the author tells us that Panasonic claim their vacuum forming would the technology need to go through before Panasonic's claim was proven?
 CHEMISTRY IN DETAIL
 
 • 2Write half-equations forthereactions takingplace at the anode and the cathode of the zinccarboncell.
@@ -10302,29 +10310,29 @@ CHEMISTRY IN DETAIL
 • 5 In the alkaline-manganese cell, the standard electrode potential for Zn is -0.76 V. Calculate hydroxide given that the Ecell = 1.50 V.
 ACTIVITY
 
-One of the major technological developments over the lastfewyearshasbeen the lithiumionbattery.This has enabledmobile devices tobe rechargeable and light-weight.Produce a presentation on the technology behind lithium-ion batteries.Your presentation should be 5-8 slides inlengthandshouldinclude:
+One of the major technological developments over the last few years has been the lithium-ion battery. This has enabled mobile devices to be rechargeable and light-weight. Produce a presentation on the technology behind lithium-ion batteries. Your presentation should be 5-8 slides in length and should include:
 
-• ·the reactions involved in generating thevoltage
+• ·the reactions involved in generating the voltage
 
-• theadvantagesof lithium-ionbatteriesoverearliersecondarycells
+• the advantages of lithium-ion batteries over earlier secondary cells
 
-• anydisadvantagesassociatedwith lithium-ionbatteries.
+• any disadvantages associated with lithium-ion batteries.
 
-INTERPRETATIONNOTE
+INTERPRETATION NOTE
 
-Thinkabouttheroleofthe scientificcommunityin validating newknowledge and ensuring integrity.
+Think about the role of the scientific community in validating new knowledge and ensuring integrity.
 
-WRITINGSCIENTIFICALLY
+WRITING SCIENTIFICALLY
 
-Equations, diagrams and calculationscanallbeuseful toolstohelpjustify an answer, particularly when a question uses the command words 'explain' or 'justify'.
+Equations, diagrams and calculations can all be useful tools to help justify an answer, particularly when a question uses the command words 'explain' or 'justify'.
 
 THINKING BIGGER TIP
 
-Thinkabouttheelectronic configuration of the Zn2+ ion.
+Think about the electronic configuration of the Zn2+ ion.
 
 DID YOU KNOW?
 
-In2013,around five billion lithium-ionbatterieswere sold tosupplyelectronic devices such asphones, laptops,tablets,cameras, powertoolsandevenelectric cars.
+In 2013, around five billion lithium-ion batteries were sold to supply electronic devices such as phones, laptops, tablets, cameras, power tools and even electric cars.
 16 EXAM PRACTICE
 
 • 1 Mg²+(aq) + 2e- = Mg(s)
@@ -11244,11 +11252,11 @@ Exactly the same observations can bemade during the careful addition of aqueous 
 [Cu(H2O)]2+ + 2NH3 → [Cu(H2O)4(OH)2] + 2NH4+
 DID YOU KNOW?
 
-Theformulaforthecopper(ll)-ammine complexin aqueous solutionis sometimesgiven as[Cu(NH)4]²+.Thisis not correct. Thecorrectformulaisshowninthetext.Theconfusionarose becausethebondsfromtheCu²+iontothewaterligandsare longerthanthebondsfromtheCu²+iontotheammonialigands. Thisistheresult of something called theJahn-Tellereffect.The explanationforthiseffectisbeyondtheaimsofthisbook.
+The formula for the copper(II)-ammine complex in aqueous solution is sometimes given as [Cu(NH₃)₄]²⁺. This is not correct. The correct formula is shown in the text. The confusion arose because the bonds from the Cu²⁺ ion to the water ligands are longer than the bonds from the Cu²⁺ ion to the ammonia ligands. This is the result of something called the Jahn-Teller effect. The explanation for this effect is beyond the aims of this book.
 
-• figBThe pale blue solution contains[Cu(HO)]²+,the paleblueprecipitatecontains [Cu(HO)(OH)]andthe deepblue solution contains [Cu(NH3)(H2O)2]+
+• fig B The pale blue solution contains [Cu(H₂O)₆]²⁺, the pale blue precipitate contains [Cu(H₂O)₄(OH)₂] and the deep blue solution contains [Cu(NH₃)₄(H₂O)₂]²⁺
 
-figCThepaleblue solution contains[Cu(HO)]²+,theyellow solution on therightcontains [CuCl]-and thegreen solution inthemiddlecontainsamixture of the two.
+fig C The pale blue solution contains [Cu(H₂O)₆]²⁺, the yellow solution on the right contains [CuCl₄]²⁻ and the green solution in the middle contains a mixture of the two.
 SUBJECT VOCABULARY
 
 It is again easyto see that this equation involves a deprotonation-two of the waterligands transfer a hydrogen ion to the ammonia molecules.
@@ -13081,19 +13089,19 @@ Methylamineisa strongerbasethanammoniabecause themethylgroupis electron-releasin
 • figAThe diagram shows the formationof hydrogenbonds between a primary amine and water.
 LEARNING TIP
 
-Notethebigdifferencein basicitybetweenaliphatic aminesandaromaticamines andthesmalldifferencesin basicitybetweendifferent aliphaticamines.
+Note the big difference in basicity between aliphatic amines and aromatic amines and the small differences in basicity between different aliphatic amines.
 
-• increaseinelectrondensityonthenitrogenatoms.
+• increase in electron density on the nitrogen atoms.
 
-Theequationforthereactionofbutylaminewithwateris
+The equation for the reaction of butylamine with water is
 
-CHCHCHCHNH+HO=CHCHCHCH,NH+OH-
+CHCHCHCHNH + HO = CHCHCHCH,NH + OH-
 
-The situation with phenylamine is very different.Think back to the diagram inSection 18A.4 showing that in phenol one of the lone pairs of electrons on oxygen is incorporated into the delocalised electrons in the benzene ring. A similar thing happens with phenylamine, and this makesthenitrogenlesselectron-richand thelonepairofelectronslessavailablefordonatingto thehydrogenofawatermolecule.FigCshowshowthedelocalisedelectronsnowextend above and below the nitrogen.So,as the original lone pair of electrons on nitrogen is now part of the delocalised system, it is less availableforbondingto thehydrogen of a water molecule.
+The situation with phenylamine is very different. Think back to the diagram in Section 18A.4 showing that in phenol one of the lone pairs of electrons on oxygen is incorporated into the delocalised electrons in the benzene ring. A similar thing happens with phenylamine, and this makes the nitrogen less electron-rich and the lone pair of electrons less available for donating to the hydrogen of a water molecule. Fig C shows how the delocalised electrons now extend above and below the nitrogen. So, as the original lone pair of electrons on nitrogen is now part of the delocalised system, it is less available for bonding to the hydrogen of a water molecule.
 
-lonepair now delocalised withtheringelectrons
+lone pair now delocalised with the ring electrons
 
-• figCTheelectronsfromthelonepaironthenitrogenhavejoinedwith thedelocalisedelectronsonthe benzene ring.
+• Fig C The electrons from the lone pair on the nitrogen have joined with the delocalised electrons on the benzene ring.
 REACTIONSWITHACIDS
 
 Even though the amines vary in their basicity, they all react with strong acids to form ionic salts. Sample equations are:
@@ -13436,11 +13444,11 @@ table C
 
 | NAME                      | DISPLAYEDFORMULA   | SKELETALFORMULA   |
 |---------------------------|--------------------|-------------------|
-| 2-aminoethanoic acid      | H —H H             | O ~OH             |
-| 2-aminopropanoicacid      | H H -H H           | O HO NH,          |
-| 3-aminopropanoicacid      | H H H O—H H H      | O H,N ~OH         |
-| 3-aminobutanoicacid       | H H H O一H N H     | HN HO             |
-| 2-aminophenylethanoicacid | H 一H              | HO                |
+| 2-aminoethanoic acid      | H₂N—CH₂COOH        | H₂N~COOH          |
+| 2-aminopropanoic acid     | H₂N—CH(CH₃)COOH    | H₂N~C(OH)CH₃      |
+| 3-aminopropanoic acid     | H₂N—CH₂CH₂COOH     | H₂N~CH₂~COOH      |
+| 3-aminobutanoic acid      | H₂N—CH₂CH₂COOH     | H₂N~CH₂~COOH      |
+| 2-aminophenylethanoic acid| H₂N—C₆H₄—CH₂COOH   | H₂N~C₆H₄~COOH     |
 ACIDICANDBASICPROPERTIES
 
 Thevalues of theisoelectricpoints of the amino acids have been included to helpyou understand their acid-basecharacterTheyare allsolubleinwater, and youcanimaginethatoneoftworeactions might occur The molecule could act as a base and form an alkaline solution in a reaction like this:
@@ -14842,73 +14850,67 @@ figB (a) Oestrogen and (b) testosterone
 [1]
 (Total for Question 5 = 4 marks)
 
-• 6Two organic compounds,P and Q,have the same molecular formula, CHgO.
+• 6 Two organic compounds, P and Q, have the same molecular formula, CH₃O.
 
 • Both compounds contain a carbonyl group.
 
-• (a)Describewhatyouwouldseewhen 2,4-dinitrophenylhydrazineis addedtoeitherofthese compounds.
+• (a) Describe what you would see when 2,4-dinitrophenylhydrazine is added to either of these compounds.
 
 [1]
 
-• (b)Outline a testyoucould performto show thatPisaketone andthatQisan aldehyde. [3]
+• (b) Outline a test you could perform to show that P is a ketone and that Q is an aldehyde. [3]
 
-• (c) (i)Give the structural formulae of the two possible isomers
-
-• A Step1
-
-• BStep 2
-
-• C Step3
-
-• D Step 4 [1]
-
-• ofQ thatare aldehydes.
+• (c) (i) Give the structural formulae of the two possible isomers of Q that are aldehydes.
 
 [1]
 
-• (b)Which step is most likely to need a mixture of concentrated nitric acid andconcentratedsulfuricacid?
+• (b) Which step is most likely to need a mixture of concentrated nitric acid and concentrated sulfuric acid?
 
-• (i)Name the technique you would use to purify the product of thetest with 2,4-dinitrophenylhydrazine. [1]
+• A Step 1 B Step 2
 
-• A Step 1 B Step2
-
-• C Step3
+• C Step 3
 
 • D Step 4 [1]
 
-• (c)Which step is most likely to need a catalyst of aluminium chloride?
+• (i) Name the technique you would use to purify the product of the test with 2,4-dinitrophenylhydrazine. [1]
 
-• A Step1
+• A Step 1 B Step 2
 
-• B Step 2
+• C Step 3
 
-• C Step3
+• D Step 4 [1]
+
+• (c) Which step is most likely to need a catalyst of aluminium chloride?
+
+• A Step 1 B Step 2
+
+• C Step 3
 
 D Step 4
 
 [1]
 
-(Total for Question 4 =3marks)
+(Total for Question 4 = 3 marks)
 
-• (i) Other than by spectroscopic techniques, explain how youwould use thepurified product toidentify compoundQ.
-
-[2]
-
-(TotalforQuestion6=8marks)
-
-• 7Procaine can be synthesised from benzoic acid. The simplified reaction route is:
-
-• (a)Suggest the two reagents needed for step 1.
-
-• (b)Suggest why the reaction mixture in step 2 needs to be heated underreflux.
+• (i) Other than by spectroscopic techniques, explain how you would use the purified product to identify compound Q.
 
 [2]
 
-• (c)Give the structural formula for the organic reagent needed in step 3.
+(Total for Question 6 = 8 marks)
+
+• 7 Procaine can be synthesised from benzoic acid. The simplified reaction route is:
+
+• (a) Suggest the two reagents needed for step 1.
+
+• (b) Suggest why the reaction mixture in step 2 needs to be heated under reflux.
+
+[2]
+
+• (c) Give the structural formula for the organic reagent needed in step 3.
 
 [1]
 
-• (d)Name the type of reaction taking place in step 4. [1]
+• (d) Name the type of reaction taking place in step 4. [1]
 (Total for Question 7 = 6 marks)
 
 • 8A student produced a sampleof aspirinby the esterification of 9.40 g of 2-hydroxybenzoic acid with excess ethanoic anhydride:

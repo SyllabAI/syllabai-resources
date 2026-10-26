@@ -191,3 +191,38 @@ Stage Summary:
 - Polish R1 parked at **79/800** (done-set 86 -> todo 714). The grind recipe
   is unchanged and the intermittent wall makes every ping turn productive;
   the 182-record rescue sidecar still awaits the fresh-parse (v2) lane.
+
+---
+Task ID: T-PARSE-YCH12-1-POLISH-CONT-2
+Agent: Z.ai (main, zai-web)
+Task: Polish R1 continuation ("continue", trace 1a179d250651d205) after another
+sandbox reset — workspace rebuilt from the repo recipe, sdk reinstalled,
+baseline validator green pre-grind.
+
+Work Log:
+- Grind windows (PROBE_MAX 3-8, CONC 1): W1 walled clean (3x429, 0 harvest);
+  W2 opening 20:20-20:24Z +12; W3 opening 20:30-20:34Z +12; W4 slit 20:40Z +3;
+  W5 opening 20:50-20:53Z +6. Evidence 93 -> 126 records = 103 ok / 12
+  rejected / 11 error-cum-429. llm_repaired 79 -> 103; todo 697.
+- INCIDENT (self-caught, disclosed): the first merge ran on an out/ seeded
+  from the LANDED corpus instead of the pristine reset — merge re-stamps
+  text_original = current text on every ok id, so 103 chunks lost their
+  pre-polish truth. Caught by the three-way reconciliation (vs pristine 103
+  vs landed 24 + text_original==pristine check, which FAILED). Redone per the
+  YCH11 r1-lesson law: pristine reset + FULL evidence applied once -> vs
+  pristine 103 / vs landed 24 / text_original = pristine truth True. The
+  clobber law fires on BOTH sides (evidence re-copy post-harvest AND
+  landed-seed rebuild); the recipe's "reset to .pristine first" wording is
+  the load-bearing step, not a style choice.
+- Landing: parsed/ corpus + full_book_docling.md + parse_report_v1.json +
+  evidence/llm_repairs_ych12.jsonl refreshed. merge anchor check PASS (0
+  drift); audit: 0 Unicode-unit regressions, remaining 18+ lowercase runs all
+  genuine chemistry words (dinitrophenylhydrazine, disproportionation,
+  ethylenediaminetetraacetic class); validate ALL CHECKS PASSED.
+- Ledgers updated in the same commit (lane README 3x, CATALOG row 12).
+
+Stage Summary:
+- Polish R1 parked at **103/800** (todo 697). The burst-harvest regime
+  remains the recipe; openings ran ~10 min apart this session (4 caught of
+  5 windows). The 182-record rescue sidecar still awaits the fresh-parse
+  (v2) lane.
