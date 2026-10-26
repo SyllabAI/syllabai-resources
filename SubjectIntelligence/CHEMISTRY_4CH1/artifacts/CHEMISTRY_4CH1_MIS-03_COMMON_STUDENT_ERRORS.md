@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: MIS-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-003"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "04df741df6185d2f5b6ccefd219244f36e24d40b"
-    syllabai_resources: "2453da51e3d7ab089e3989acfe0843357dab59a4"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
 ---
 
 # MIS-03 — Common Student Errors
@@ -51,6 +51,22 @@ record is grounded on an official Pearson examiner report for a named session an
 carried in the run's evidence pack with page identity. It is a research artifact: it does
 not promote these observations into canonical educational truth (Subject Intelligence
 Build v1, §5).
+
+**Claim-type labeling (BL-011, RUN-011):** records separate what the official
+examiner corpus says from what SyllabAI infers from it and proposes for the classroom.
+`[OBSERVED_IN_SOURCE]` marks fields whose content quotes or directly paraphrases the
+cited official evidence (Evidence / Motivating evidence / Examiner guidance fields).
+`[SIB_INFERENCE]` marks SyllabAI's own explanatory and diagnostic reasoning, grounded
+on but not stated by that evidence (Why it occurs / Why the reasoning fails /
+Diagnostic signals / Signal tested / Fail pattern / Pass pattern). `[PROPOSED_INTERVENTION]`
+marks proposed classroom actions, not observed facts (Intervention ideas / Intervention /
+Intervention note / Drill design / Success signal / Probe). The remaining record fields
+(Concepts, Specification Points, Temporal scope, Assessment context, Misconception /
+Error / The confusion, Correct understanding / distinction / reasoning / technique /
+usage, Typical manifestation, Credit-worthy form) are record descriptors whose grounding
+is the record's cited evidence. The per-record `Temporal scope: CURRENT — AUTHORITATIVE`
+stamp carries the source-classification vocabulary defined in SOURCE_REQUIREMENTS.md
+§4.1 (definitions of record).
 
 ## Scope
 
@@ -84,14 +100,14 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** candidates answer an 'explain' question by restating given information —
 "just stated that the elements were in the same group, which was just a repeat of the
 stem of the question and is, therefore, not creditworthy".
-**Why it occurs:** the stem's wording feels like content; the extra reasoning step the
+**Why it occurs [SIB_INFERENCE]:** the stem's wording feels like content; the extra reasoning step the
 command word demands is not performed.
 **Credit-worthy form:** the explanation must add the causal link the stem does not carry.
 **Typical manifestation:** stem-paraphrase answers scoring zero on explanation marks.
-**Diagnostic signals:** 'explain' items; compare the answer against the stem for novelty.
-**Examiner guidance:** the report contrasts the failing pattern with answers that give "a
+**Diagnostic signals [SIB_INFERENCE]:** 'explain' items; compare the answer against the stem for novelty.
+**Examiner guidance [OBSERVED_IN_SOURCE]:** the report contrasts the failing pattern with answers that give "a
 clear explanation as to why R has 33 protons".
-**Evidence:** Pearson examiner report June 2019 4CH1/1C, Question 2(b)-(c) (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/1C, Question 2(b)-(c) (SRC-ER-4CH1,
 2019-06/4CH1-1C/er.pdf p4).
 
 ### MIS-022 — Wrong layer of the model in 'why' answers
@@ -101,15 +117,15 @@ clear explanation as to why R has 33 protons".
 Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** candidates answer a proton-level question with electron/shell talk — "Some
 lost marks by talking about electrons and electron shells rather than protons."
-**Why it occurs:** electron-configuration facts are more rehearsed than the identity law
+**Why it occurs [SIB_INFERENCE]:** electron-configuration facts are more rehearsed than the identity law
 (proton number defines the element), so the dominant fact displaces the asked one.
 **Credit-worthy form:** the answer must operate at the particle layer the question names.
 **Typical manifestation:** correct-but-irrelevant electronic structure prose beside a
 proton question.
-**Diagnostic signals:** atomic-identity items; check the particle named in the answer.
-**Examiner guidance:** examiners reward answers that name the layer explicitly ("This is
+**Diagnostic signals [SIB_INFERENCE]:** atomic-identity items; check the particle named in the answer.
+**Examiner guidance [OBSERVED_IN_SOURCE]:** examiners reward answers that name the layer explicitly ("This is
 an 'explain' question so an explanation needs to be given").
-**Evidence:** Pearson examiner report June 2019 4CH1/1C, Question 2(c) (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/1C, Question 2(c) (SRC-ER-4CH1,
 2019-06/4CH1-1C/er.pdf p4).
 
 ### MIS-023 — Half-answers on observations and tests
@@ -123,13 +139,13 @@ or powder or ash was needed"; precipitate claims offered where none is physicall
 possible — "A few candidates lost the mark for stating that there was a white
 precipitate. A precipitate would only occur if it formed a precipitate at the bottom of
 a solution, not in the basin."
-**Why it occurs:** observation vocabulary is recalled as single tokens; the mark scheme
+**Why it occurs [SIB_INFERENCE]:** observation vocabulary is recalled as single tokens; the mark scheme
 pays for complete descriptions (test AND result, colour AND solid).
 **Credit-worthy form:** both axes of the observation, in the physical context asked.
 **Typical manifestation:** one-mark scripts on two-mark observation items.
-**Diagnostic signals:** observation/test items; require both axes before accepting.
-**Examiner guidance:** examiners model the complete two-axis form.
-**Evidence:** Pearson examiner report November 2023 4CH1/2C, Question 2 (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** observation/test items; require both axes before accepting.
+**Examiner guidance [OBSERVED_IN_SOURCE]:** examiners model the complete two-axis form.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report November 2023 4CH1/2C, Question 2 (SRC-ER-4CH1,
 2023-11/4CH1-2C/er.pdf p3).
 
 ### MIS-024 — Imprecise naming of test products and ions
@@ -140,15 +156,15 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** candidates name the test's chemistry at the wrong grain — "just wrote
 'lithium' or 'Li' rather than giving the formula of the ion"; "rather than writing
 'silver bromide' many just wrote 'bromide', 'bromine' or sometimes 'bromine nitrate'".
-**Why it occurs:** the everyday name and the species name coincide in speech; the mark
+**Why it occurs [SIB_INFERENCE]:** the everyday name and the species name coincide in speech; the mark
 pays for the species.
 **Credit-worthy form:** ion formulae in flame-test answers; the precipitate's compound
 name in halide tests.
 **Typical manifestation:** known chemistry scoring zero on naming marks.
-**Diagnostic signals:** qualitative analysis items; check the species named.
-**Examiner guidance:** candidates "need to mention impurities etc. which may be on the
+**Diagnostic signals [SIB_INFERENCE]:** qualitative analysis items; check the species named.
+**Examiner guidance [OBSERVED_IN_SOURCE]:** candidates "need to mention impurities etc. which may be on the
 wire" for the cleaning mark.
-**Evidence:** Pearson examiner report June 2019 4CH1/1C, Question 3(a)-(d)(i)
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2019 4CH1/1C, Question 3(a)-(d)(i)
 (SRC-ER-4CH1, 2019-06/4CH1-1C/er.pdf p6).
 
 ### MIS-025 — Method answers that answer a different question
@@ -160,16 +176,16 @@ Temporal scope: CURRENT — AUTHORITATIVE
 have been asked to produce crystals of salt from salt solution. The comments about
 filtering at the start were therefore ignored as filtering would add nothing to the
 method."
-**Why it occurs:** crystallisation methods are memorised as full pipelines; the question
+**Why it occurs [SIB_INFERENCE]:** crystallisation methods are memorised as full pipelines; the question
 starts mid-pipeline.
 **Credit-worthy form:** "Read the question twice. Highlight what is important before
 answering" (examiners' own instruction).
 **Typical manifestation:** irrelevant first steps; marks dropped without wrong chemistry.
-**Diagnostic signals:** method items with a given starting point; check each step against
+**Diagnostic signals [SIB_INFERENCE]:** method items with a given starting point; check each step against
 the demand.
-**Examiner guidance:** examiners explicitly ignored the irrelevant step — the error is
+**Examiner guidance [OBSERVED_IN_SOURCE]:** examiners explicitly ignored the irrelevant step — the error is
 demand-mapping, not chemistry.
-**Evidence:** Pearson examiner report June 2022 4CH1/1C, Question 2(b)(iii)
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2022 4CH1/1C, Question 2(b)(iii)
 (SRC-ER-4CH1, 2022-06/4CH1-1C/er.pdf p5).
 
 ### MIS-026 — Ranges given where the specification quotes a value
@@ -180,13 +196,13 @@ Temporal scope: CURRENT — AUTHORITATIVE
 **Error:** answers widen a quoted condition into a losing range — "Avoid giving a range
 for answers. The specification quotes 600-700ºC so the range given here doesn't score
 marks as 750ºC is too high."
-**Why it occurs:** candidates hedge with ranges; the mark scheme pays for the
+**Why it occurs [SIB_INFERENCE]:** candidates hedge with ranges; the mark scheme pays for the
 specification value.
 **Credit-worthy form:** the specification's own value range, not an extended one.
 **Typical manifestation:** 750ºC offered where 600-700ºC was quoted.
-**Diagnostic signals:** condition items; compare against the spec's quoted window.
-**Examiner guidance:** the report names the repair directly ("Avoid giving a range").
-**Evidence:** Pearson examiner report June 2022 4CH1/1C, Question 3(b)(i) (SRC-ER-4CH1,
+**Diagnostic signals [SIB_INFERENCE]:** condition items; compare against the spec's quoted window.
+**Examiner guidance [OBSERVED_IN_SOURCE]:** the report names the repair directly ("Avoid giving a range").
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2022 4CH1/1C, Question 3(b)(i) (SRC-ER-4CH1,
 2022-06/4CH1-1C/er.pdf p7).
 
 ### MIS-027 — Practical under-preparation as a structural error source
@@ -200,16 +216,16 @@ little practical work as questions involving practical work and demonstrations t
 score lower marks than more theoretical questions"; and "Candidates need plenty of
 experience in doing chemistry experiments in order to help them answer questions which
 are related to the practical aspects of chemistry."
-**Why it occurs:** exam questions assess practical skills on paper; candidates without
+**Why it occurs [SIB_INFERENCE]:** exam questions assess practical skills on paper; candidates without
 hands-on work cannot import the sensory and procedural detail the answers need.
 **Credit-worthy form:** specific detail and direction-of-error reasoning in practical
 answers.
 **Typical manifestation:** strong theory beside weak practical-context scores.
-**Diagnostic signals:** practical-context items answered below the candidate's theory
+**Diagnostic signals [SIB_INFERENCE]:** practical-context items answered below the candidate's theory
 average.
-**Examiner guidance:** examiners tie the deficit to intervention ("plenty of experience
+**Examiner guidance [OBSERVED_IN_SOURCE]:** examiners tie the deficit to intervention ("plenty of experience
 in doing chemistry experiments").
-**Evidence:** Pearson examiner reports June 2023 4CH1/1CR, Introduction (SRC-ER-4CH1,
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner reports June 2023 4CH1/1CR, Introduction (SRC-ER-4CH1,
 2023-06/4CH1-1CR/er.pdf p3); June 2024 4CH1/1CR, Introduction (SRC-ER-4CH1,
 2024-06/4CH1-1CR/er.pdf p3); June 2019 4CH1/1C, Introduction (SRC-ER-4CH1,
 2019-06/4CH1-1C/er.pdf p3).
@@ -223,15 +239,15 @@ Temporal scope: CURRENT — AUTHORITATIVE
 "All of these were explanations. Many of the candidates struggled with these questions
 and only the very best scored full marks. They needed to link the statements to gain all
 the marks which many candidates found difficult."
-**Why it occurs:** long answers are drafted as fact dumps; linking is not rehearsed as a
+**Why it occurs [SIB_INFERENCE]:** long answers are drafted as fact dumps; linking is not rehearsed as a
 skill.
 **Credit-worthy form:** each mark is a linked step: identify → because → so → therefore.
 **Typical manifestation:** all facts present, few marks awarded; vagueness alongside —
 "lost unnecessary marks as they were often too vague when writing their answers".
-**Diagnostic signals:** 4+ mark explanations; compare script content against the mark
+**Diagnostic signals [SIB_INFERENCE]:** 4+ mark explanations; compare script content against the mark
 scheme's chain steps.
-**Examiner guidance:** the linking requirement itself is the examiners' named criterion.
-**Evidence:** Pearson examiner report June 2024 4CH1/1CR, Introduction (SRC-ER-4CH1,
+**Examiner guidance [OBSERVED_IN_SOURCE]:** the linking requirement itself is the examiners' named criterion.
+**Evidence [OBSERVED_IN_SOURCE]:** Pearson examiner report June 2024 4CH1/1CR, Introduction (SRC-ER-4CH1,
 2024-06/4CH1-1CR/er.pdf p3); June 2022 4CH1/2C, Introduction (SRC-ER-4CH1,
 2022-06/4CH1-2C/er.pdf p3).
 

@@ -1,16 +1,27 @@
 # CHEMISTRY_4CH1 — SIB v1 subject manifest
 # Generated against the 95-artifact taxonomy of record (SyllabAI/syllabai tools/sib/taxonomy.py @ aa32db1413ea).
 # Applicability per SUBJECT_INTELLIGENCE_BUILD_V1.md §3/§6: the taxonomy is universal,
-# applicability is subject-specific. Statuses are left empty until artifacts exist
-# (the validator rejects landing artifacts that self-declare past GENERATED).
+# applicability is subject-specific. Row statuses are intentionally left empty: the
+# validator rejects landing artifacts that self-declare past GENERATED, so the
+# authoritative per-artifact state lives in the artifact front matter + qa-reports/
+# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..011;
+# see coverage_status below and runs/).
 sib_protocol: SIB-1.0
 manifest_version: "1.0"
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
 curriculum_version: "2017"
-notebook: 4CH1-SIB-NOTEBOOK-001 (provisioned at generation time per docs/PIPELINE.md §3)
+# notebook id of record; NotebookLM provisioning superseded by the provider-neutral
+# SIB-GEN pipeline before provisioning happened (BL-003 SUPERSEDED, docs/PIPELINE.md §3)
+notebook: 4CH1-SIB-NOTEBOOK-001
 source_manifest: source_manifest.yaml
+coverage_status:
+  generated: "95/95 artifacts GENERATED (runs RUN-001..011 of record; per-artifact receipts in runs/ + qa-reports/)"
+  families: "CUR 8, EXP 8, MIS 9, ASM 10, MS 8, EXM 6, PED 9, PRA 5, PRO 7, HIS 7, TUT 10, GAP 8"
+  disclosed_absent_sources: "SRC-BOOK-4CH1-SB1 text extraction pending (identity-only in packs), SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-SPECLINKS-4CH1, SRC-LESSONS-4CH1, SRC-RAG-PKG-4CH1, SRC-EXT-NOTES-4CH1, SRC-PMT-4CH1 (source_manifest.yaml of record; gaps disclosed, never filled)"
+  publication: "staging/publication remain operator-ordered (validator publication law)"
+  updated: "2026-10-27 (RUN-011, BL-011)"
 artifacts:
   - artifact_id: CUR-01
     applicability: REQUIRED
@@ -495,4 +506,28 @@ backlog:
       disclosed since RUN-003), evidence-claim QA r4 38 citations / 0 violations
       FIRST-PASS, run manifest add-artifact x2 + validate OK. Remediation
       scoreboard: 95/95 artifacts GENERATED with ASM-10 + MIS-01 corrected at
-      v1.1. Staging/publication remain operator-ordered."
+      v1.1. Staging/publication remain operator-ordered.
+      PASS 11 EXECUTED 2026-10-27 (operator order 'items 3-8 of the remediation
+      queue', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-011 = remediation-queue
+      items 3-8 through the chain — preflight PASS (families MIS/TUT/EXP; 6/17
+      sources resolved, 11 absent corpora disclosed run-wide), grounding packs
+      carried over byte-identical from the origin runs (MIS-01: RUN-010;
+      MIS-02..09: RUN-003; TUT-08: RUN-008; EXP-06: RUN-004; pack sha256s
+      cross-checked against the origin run manifests — items 3-8 alter claim
+      labels, governance files and cross-references only, zero new or altered
+      source claims), item 3 = MIS-family claim-type labeling (legend block in
+      all 9 MIS artifacts; field labels tagged OBSERVED_IN_SOURCE x106 /
+      SIB_INFERENCE x126 / PROPOSED_INTERVENTION x49; citation tokens
+      byte-identical pre/post edit; MIS-01 v1.2, MIS-02..09 v1.1), item 4 =
+      SOURCE_REQUIREMENTS.md section 4.1 classification + claim-type vocabulary
+      definitions of record, item 5 = manifest.yaml header/notebook hygiene,
+      item 6 = coverage_status block added, item 7 = run-record/pack
+      publication closed as verified-of-record (RUN-001..010 receipts + packs +
+      digests committed in-repo since RUN-001; runs/README.md documents the
+      convention), item 8 = TUT-046 (TUT-08 v1.1) <-> EXP-045 (EXP-06 v1.1)
+      family seam cross-references (same book passage, no new citations),
+      validator QA @ 357ace0a 0 errors x11 (MIS warnings = the pre-existing
+      SIB-ANCH-002 anchor-registry degradation, reported not repaired),
+      evidence-claim QA r4 149 citations / 0 violations, run manifest
+      add-artifact x11 + validate OK. Remediation queue: ALL 8 items closed.
+      Staging/publication remain operator-ordered."

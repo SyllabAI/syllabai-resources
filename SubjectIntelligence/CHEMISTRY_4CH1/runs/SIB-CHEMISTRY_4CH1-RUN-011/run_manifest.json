@@ -1,0 +1,213 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-011",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "a7a34cd97cdff29ee698a86b171c7148bc5e29ed",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "MIS-01",
+      "filename": "CHEMISTRY_4CH1_MIS-01_MISCONCEPTION_ATLAS.md",
+      "evidence_pack": "evidence/MIS-01/evidence_pack.json",
+      "evidence_pack_sha256": "fd9d8b4a3346d5d106c263c5a48e2f22c54f96fa427665bb94b572f9545e6e90",
+      "artifact_sha256": "92a108f630b02eb83e84116bc80c828ca0277c93b20930b5c0e2686fc42d8a90",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 23 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 28 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-010)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-02",
+      "filename": "CHEMISTRY_4CH1_MIS-02_CONCEPT_CONFUSION_ATLAS.md",
+      "evidence_pack": "evidence/MIS-02/evidence_pack.json",
+      "evidence_pack_sha256": "c0e41c39d029abe754ad56006d80d555ee6ce655c9cf6db11a43d1d70b1c981c",
+      "artifact_sha256": "fd3274e1204c79b49c4add1e3f4b0a6c32f18a9492028ad4e3febc96e7326c66",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 14 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 12 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-03",
+      "filename": "CHEMISTRY_4CH1_MIS-03_COMMON_STUDENT_ERRORS.md",
+      "evidence_pack": "evidence/MIS-03/evidence_pack.json",
+      "evidence_pack_sha256": "d92bded92beb226a2588b3d6f48159cde3e966a2deae766225a961b6dc8aeea1",
+      "artifact_sha256": "72f62d5cb7e68651756077c881f2bb947c6cdb820392ac4e8890fc1ba0575c53",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 13 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 11 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-04",
+      "filename": "CHEMISTRY_4CH1_MIS-04_REASONING_ERRORS.md",
+      "evidence_pack": "evidence/MIS-04/evidence_pack.json",
+      "evidence_pack_sha256": "de0e184a0fda920965dce02ecc8f4ed6ce289943161f0379dd2e4df698449683",
+      "artifact_sha256": "8a300ee0679ba6964d89d0578f793cbe8cb23a3c0fd314cf17b940269ba613cd",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 12 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 8 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-05",
+      "filename": "CHEMISTRY_4CH1_MIS-05_CALCULATION_ERRORS.md",
+      "evidence_pack": "evidence/MIS-05/evidence_pack.json",
+      "evidence_pack_sha256": "a6c28a457c33534305dbc1e6b8e82abe5cdd38dc11193f3d6044c1278eae2509",
+      "artifact_sha256": "71800a5d785bcfd61b2079d4b36401942ef2eb72127373ccaa2d7d76de670844",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 15 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 10 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-06",
+      "filename": "CHEMISTRY_4CH1_MIS-06_TERMINOLOGY_ERRORS.md",
+      "evidence_pack": "evidence/MIS-06/evidence_pack.json",
+      "evidence_pack_sha256": "d40ee1ef95fd2e78644561b21962372811ac1aec2830fe89bf87b7209613cb2c",
+      "artifact_sha256": "4e7efa1db8a4c5d31908e6b4a71e7ef8fd599d1811996a381a82939f5c9fda59",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 14 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 12 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-07",
+      "filename": "CHEMISTRY_4CH1_MIS-07_EXAM_ANSWER_ERRORS.md",
+      "evidence_pack": "evidence/MIS-07/evidence_pack.json",
+      "evidence_pack_sha256": "a123310e80954b59e0f803ee711a38f1ccac093a5bd0c75f71e5d23af24946cd",
+      "artifact_sha256": "bae35755e14ca47a4bf486324ccf32edae33d9430967a2a3489ec6c0c2579d98",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 5 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 9 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-08",
+      "filename": "CHEMISTRY_4CH1_MIS-08_MISCONCEPTION_DIAGNOSTICS.md",
+      "evidence_pack": "evidence/MIS-08/evidence_pack.json",
+      "evidence_pack_sha256": "41d6be3275f23c06f37667ab4274515a410ae9bb589d401df479a1bec5e73316",
+      "artifact_sha256": "4c48c5f08c6816a901c8d6c2612bdef57a4e90000e0cd0567b3bf39cd79fdbbc",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 12 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 10 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "MIS-09",
+      "filename": "CHEMISTRY_4CH1_MIS-09_MISCONCEPTION_INTERVENTIONS.md",
+      "evidence_pack": "evidence/MIS-09/evidence_pack.json",
+      "evidence_pack_sha256": "1231c58b02d48e19efc87533c0a071bf5e15feeca96ea2f6341ce5a59941c70e",
+      "artifact_sha256": "e49507d7aa46805e0c2a4aa3dadb51e58974c46246b09a0cb2267b23aa4c2259",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors; 15 warnings = the pre-existing SIB-ANCH-002 anchor-registry degradation disclosed since RUN-003, reported not repaired)",
+        "evidence_claim_qa": "PASS (r4: 14 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-003)",
+        "claim_labeling": "PASS (field-label claim-type tags + legend applied; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "TUT-08",
+      "filename": "CHEMISTRY_4CH1_TUT-08_CONCEPT_COMPARISON_GUIDES.md",
+      "evidence_pack": "evidence/TUT-08/evidence_pack.json",
+      "evidence_pack_sha256": "eb7354b27cc6a39badd7999a075e6c5eb76549534b2546585ab3a5ccaa4be626",
+      "artifact_sha256": "e3a1d2cea559fdaf9085b17259bd438d9c20ec6a73c932018f9c5d453f012e91",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors)",
+        "evidence_claim_qa": "PASS (r4: 8 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-008)",
+        "seam_reference": "PASS (family seam cross-reference added; no new source citations introduced; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "EXP-06",
+      "filename": "CHEMISTRY_4CH1_EXP-06_CONCEPTUAL_DISTINCTIONS.md",
+      "evidence_pack": "evidence/EXP-06/evidence_pack.json",
+      "evidence_pack_sha256": "26295969171dc6bcf224e35826d808ec9c837dca1ce0791e689d9ba1da1dddf2",
+      "artifact_sha256": "d9b0e25e98acfb55ac11fcdefe2889c2554d2788740a1a22bcf74f167973f443",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved; family primaries RESOLVED; 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors)",
+        "evidence_claim_qa": "PASS (r4: 27 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-004)",
+        "seam_reference": "PASS (family seam cross-reference added; no new source citations introduced; record substance unchanged)",
+        "remediation_scope": "PASS (surgical items 3-8 edits only)"
+      },
+      "qa_report": ""
+    }
+  ],
+  "gates": {},
+  "disclosures": [
+    "Resources base advanced a7a34cd -> 74d3881 mid-pass (sibling CourseLessons doctrine wave PR #172) between preflight/QA and push; fetch-first caught it pre-push; diff on SubjectIntelligence/ is EMPTY and CourseLessons is not a SIB source, so the QA-time source pin (a7a34cd, source_revisions) remains the revision of record for the pins — RUN-010 precedent (295fb5b pin, c0d12159 base).",
+    "Grounding packs carried over BYTE-IDENTICAL from the origin runs (MIS-01: RUN-010; MIS-02..09: RUN-003; TUT-08: RUN-008; EXP-06: RUN-004) — every pack sha256 cross-checked against the origin run manifest receipt. Items 3-8 alter claim labels, governance files and cross-references only: zero new or altered source claims, so the packs of record are reused, not rebuilt (no auto-pull; no new extraction).",
+    "Item 7 (run-record/pack publication) closed as VERIFIED-OF-RECORD: runs RUN-001..010 with manifests, packs, bodies, censuses and preflight receipts are committed in-repo (the assessment-stage 'runs untracked' claim was corrected during RUN-010); runs/README.md documents the publication convention.",
+    "One in-turn repair: the EXP-06 seam's first draft quoted the TUT-046 title and was rejected by the r4 quote-binding law (1 violation); re-phrased without quote marks, re-run clean 149/0 — the gate working as designed on cross-artifact references."
+  ]
+}

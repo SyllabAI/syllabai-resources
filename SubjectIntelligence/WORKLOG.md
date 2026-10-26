@@ -391,3 +391,67 @@ edit).
   sections; authority-stamp vocabulary definition; manifest.yaml notebook-field/status
   hygiene; coverage-status field; run-record publication posture; EXP-06 <-> TUT-08
   cross-family seam reference. Staging/publication remain operator-ordered.
+
+## 2026-10-27 — SIB-CHEMISTRY_4CH1-RUN-011 (BL-011 pass 11: remediation-queue items 3-8) — zai_agent lane
+
+- OPERATOR ORDER: 'items 3-8 of the remediation queue' (channel zai-web; the queue
+  filed by the external-review assessment). Item 3 = MIS-family claim-type labels;
+  item 4 = authority/classification vocabulary definitions; item 5 = manifest.yaml
+  hygiene; item 6 = coverage-status field; item 7 = run-record/pack publication;
+  item 8 = EXP-06 <-> TUT-08 seam cross-references. Items 1-2 were closed by
+  RUN-010 (73d1c1a2).
+- PREFLIGHT: run SIB-CHEMISTRY_4CH1-RUN-011 initialized (provider z.ai / GLM /
+  SIB-GEN-r0; source_revisions resources a7a34cd9, pastpapers 2cb92fe5 — re-verified
+  UNCHANGED from the RUN-010 pin, zero source drift, master 357ace0a). Families
+  MIS/TUT/EXP: gate PASS (6/17 sources resolved — SRC-ER-4CH1 + SRC-QPMS-4CH1 +
+  SRC-SPEC-4CH1 + SRC-SAMS-4CH1 + SRC-TL-4CH1 + SRC-ROOT-BOOK-COPIES-4CH1; 11 absent
+  corpora disclosed run-wide incl. SRC-BOOK-4CH1-SB1 identity-only, per the RUN-010
+  posture). resources base advanced 295fb5b -> a7a34cd9 mid-cycle (sibling maths-B
+  serve-hygiene wave PR #165): diff vs RUN-010 merge on SubjectIntelligence/ is
+  EMPTY — zero path overlap, fetch-first verified.
+- EVIDENCE: grounding packs carried over BYTE-IDENTICAL from the origin runs
+  (MIS-01: RUN-010; MIS-02..09: RUN-003; TUT-08: RUN-008; EXP-06: RUN-004) with
+  every pack sha256 cross-checked against the origin run manifest receipt — items
+  3-8 alter claim labels, governance files and cross-references only; zero new or
+  altered source claims, so the packs of record are reused, not rebuilt.
+- ITEM 3 (claim-type labels): legend block inserted in all 9 MIS artifacts defining
+  OBSERVED_IN_SOURCE / SIB_INFERENCE / PROPOSED_INTERVENTION; field labels tagged
+  family-wide — OBSERVED_IN_SOURCE x106 (Evidence 70, Motivating evidence 14,
+  Examiner guidance 22), SIB_INFERENCE x126 (Why it occurs 49, Why the reasoning
+  fails 7, Diagnostic signals 49, Signal tested 7, Fail pattern 7, Pass pattern 7),
+  PROPOSED_INTERVENTION x49 (Intervention ideas 20, Intervention note 1,
+  Intervention 7, Drill design 7, Success signal 7, Probe 7). Citation tokens
+  byte-identical pre/post edit (enforced by the QA grammar regex). MIS-01 v1.2;
+  MIS-02..09 v1.1. One in-turn repair disclosed: the EXP-06 seam's first draft
+  quoted the TUT-046 title and was rejected by the r4 quote-binding law
+  (1 violation); re-phrased without quote marks, re-run clean — the quote-binding
+  gate working as designed on cross-artifact references.
+- ITEM 4 (vocabulary definitions): SOURCE_REQUIREMENTS.md section 4.1 added —
+  definitions of record for CURRENT — AUTHORITATIVE / CURRENT — ASSESSMENT EVIDENCE /
+  SUPPLEMENTARY / LEGACY — HISTORICAL / RESEARCH / INFERRED (the 547-occurrence
+  undefined-stamp finding) + the three claim-type labels.
+- ITEMS 5+6 (manifest hygiene + coverage-status): header comment refreshed to the
+  95/95 GENERATED state with the validator's empty-status law stated; notebook field
+  reduced to the clean id (provisioning supersession noted per BL-003); top-level
+  coverage_status block added (generated / families / disclosed_absent_sources /
+  publication / updated) — unknown-top-level-key tolerance of the validator of
+  record verified in tools/sib/manifest_model.py first. YAML re-parse verified.
+- ITEM 7 (run-record/pack publication): CLOSED AS VERIFIED-OF-RECORD — the
+  assessment-stage 'runs untracked' claim was corrected during RUN-010: runs
+  RUN-001..010 with manifests, packs, bodies, censuses and preflight receipts are
+  committed in-repo. runs/README.md added documenting the publication convention.
+- ITEM 8 (family seam): TUT-08 (TUT-046) and EXP-06 (EXP-045) gained explicit
+  cross-family seam lines for the strong-versus-weak-versus-concentrated duplication
+  (same book passage, chunks line 1006); no new source citations introduced. Both
+  artifacts v1.1.
+- QA CHAIN: validator qa @ 357ace0a — 0 errors x11 (MIS warnings = the pre-existing
+  SIB-ANCH-002 anchor-registry degradation, reported not repaired; TUT-08 + EXP-06
+  0 warnings); qa-reports/ x11 written by the validator of record. Evidence-claim
+  QA r4: 149 citations / 0 violations (the carried packs bound into the run dir).
+  census.json annex + run manifest add-artifact x11 + validate OK.
+- LEDGER: manifest.yaml BL-008 description appended with the PASS 11 EXECUTED entry
+  (YAML re-parse verified). REMEDIATION SCOREBOARD: all 8 external-review queue
+  items CLOSED (1-2 by RUN-010, 3-8 by RUN-011). 95/95 artifacts GENERATED:
+  93 at v1.0/v1.1-of-origin, ASM-10 + MIS-01 v1.1 (RUN-010), MIS-01 v1.2 +
+  MIS-02..09 v1.1 + TUT-08 v1.1 + EXP-06 v1.1 (RUN-011). Staging/publication remain
+  operator-ordered.

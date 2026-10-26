@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXP-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-004"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "04df741df6185d2f5b6ccefd219244f36e24d40b"
-    syllabai_resources: "c15fc29289e3db199474dd9f0d36c90de2531054"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
 ---
 
 # EXP-06 — Conceptual Distinctions
@@ -175,6 +175,11 @@ edexcel_igcse_chemistry_chunks_v3.jsonl line 1003); the pH scale and its
 concentration-dependence note (SRC-BOOK-4CH1-SB1,
 edexcel_igcse_chemistry_chunks_v3.jsonl line 571); spec Topic 4(f) area at
 (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p29).
+
+**Family seam (RUN-011):** the tutor-comparison framing of this same contrast
+lives in TUT-08 record TUT-046 (the dissociation criterion, not degree); both records
+ground on the same book passage cited in their Evidence lines and are consistent by
+construction.
 
 ### EXP-046 — Corrosion versus rusting
 
