@@ -126,5 +126,35 @@
   "ctrl_0x08": 0,
   "valid_flat_exponents": 0
  },
- "over_strip_guard": "first pass used a wrong furniture word-set (stripped bare answer values 3/13/149); caught by pre-push eyeball, reverted, re-run with the exporter's verbatim word-set; shipped prep strips NO numeric-only lines"
+ "over_strip_guard": "first pass used a wrong furniture word-set (stripped bare answer values 3/13/149); caught by pre-push eyeball, reverted, re-run with the exporter's verbatim word-set; shipped prep strips NO numeric-only lines",
+ "r1": {
+  "date": "2026-10-26",
+  "restored_bare_digit_answer_values": [
+   {
+    "slice": "2021-06/4CH1-1C",
+    "part": "offp_2021-06_1c_2-b-ii",
+    "mp": 0,
+    "restored": "25"
+   },
+   {
+    "slice": "2021-11/4CH1-2C",
+    "part": "offp_2021-11_2c_1-d",
+    "mp": 0,
+    "restored": "73"
+   },
+   {
+    "slice": "2021-01/4CH1-2CR",
+    "part": "offp_2021-01_2cr_6-c-i",
+    "mp": 0,
+    "restored": "mol (KOH) = 0.0370 x 25\n1000"
+   },
+   {
+    "slice": "2023-06/4CH1-2CR",
+    "part": "offp_2023-06_2cr_7-c-i",
+    "mp": 0,
+    "restored": "1"
+   }
+  ],
+  "new_finding_filed": "F90 (queued): converter bare ^\\d{1,2}$ page-number rule empties 1-2-digit MS answer values in mark_points; corpus restored to serve-form, converter fix queued"
+ }
 }
