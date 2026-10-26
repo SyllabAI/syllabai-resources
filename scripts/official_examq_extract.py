@@ -38,8 +38,12 @@ RES_DIR     = SCRIPTS_DIR.parent                         # the checkout root
 UPLOAD = Path(os.environ.get("EXAMQ_UPLOAD_DIR", "/home/z/my-project/upload"))
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.20.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
-# v0.19.0 (run-004 reconciliation v2, trace 1a174f587f822f61): the maths-B lane
+CONVERTER_VERSION = "0.21.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+# v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
+# repeat-first-label print-defect completion in parse_mcq_block, (2) the
+# marks-law structural disqualification in finalize_part. Chemistry/4MB1
+# behavior unchanged (both fixes gate on ACTIVE_SPEC_CODE == "4PH1").
+# v0.20.0 (run-004 reconciliation v2, trace 1a174f587f822f61): the maths-B lane
 # (branch 139ee931, v0.17.0-of-the-maths-line) unions onto the spec-lane
 # architecture as SPECS["4mb1"]; chemistry/physics behavior unchanged.
 
@@ -108,6 +112,19 @@ SPECS = {
         # + answer content share a printed row) -> parse_ms. 'row' is the default
         # for any lane that does not name a layout.
         ms_layout="row",
+        # v0.21.0 (F85) lane-override repair: the run-004 union added the
+        # SymbolMT digit range (uF030-uF039) to the GLOBAL PUA map for the
+        # maths lane's 2020-01 02R decode, silently clobbering chemistry's
+        # evidence-backed ZapfDingbatsITCbyBT tick mapping (uF033 -> CHECK MARK,
+        # the F48 'Place ticks (✓) in three boxes' entry, v0.19.0 line 262).
+        # The battery caught it: a fresh chemistry re-emission served
+        # 'Place ticks (3)' (2019-06 1CR 2(a)) where the corpus of record
+        # serves the tick. The collision is the union's OWN F068/F06a/F075
+        # class — lane-split it the same way: chemistry evidence wins here,
+        # maths keeps the digit in its pua_overrides. Corpus census: exactly
+        # ONE uF03x occurrence across all 54 chemistry staging txt layers
+        # (this line), so the override's blast radius is this glyph alone.
+        pua_overrides={"\uf033": "\u2713"},
     ),
     "4ph1": dict(
         lane="igcse-physics-19",
@@ -768,6 +785,26 @@ def parse_mcq_block(lines):
             choices.append({"label": m.group(1), "text_md": m.group(2).strip()})
             consumed.add(i)
             expect += 1
+        elif (m and len(choices) == 3 and expect == 3
+              and m.group(1) == choices[0]["label"]
+              and ACTIVE_SPEC_CODE == "4PH1"):
+            # v0.21.0 (F85): the QP print-defect class — the FINAL row of a
+            # 4-option run repeats the FIRST label. 2020-01 1PR 1(b) prints
+            # 'A S' where the run is A/B/C/D-S; the MS of record keys the
+            # block AND its rebuttal row names 'D is incorrect as arrow S',
+            # corroborating the intended label. The canonical printed run is
+            # A–D, so a repeat of choices[0]'s label at expect==3 completes
+            # the run in exactly one way: relabel to the next expected letter
+            # and disclose (value_trace.choices, LEDGER F85, C90). The row
+            # previously leaked into problem_md and the run served short
+            # (labels A–C). Corpus census (the F85 wave, 53 slices): exactly
+            # 1 instance. The '_relabel' marker rides the choice record only
+            # as far as the provenance block, which pops it into
+            # value_trace.choices — it never serializes.
+            choices.append({"label": chr(65 + expect), "text_md": m.group(2).strip(),
+                            "_relabel": m.group(1)})
+            consumed.add(i)
+            expect += 1
         elif choices:
             break
     return (choices if len(choices) >= 3 else []), consumed
@@ -866,6 +903,21 @@ def finalize_part(lines):
                 break
 
     choices, consumed = parse_mcq_block(kept)
+    # v0.21.0 (F85): the structural choice-bearing class — a printed option
+    # run on a part carrying >=2 marks is NOT a single-select MCQ. Corpus law
+    # (the F85 wave census, 53 slices, 138 option-run parts): every true 4PH1
+    # MCQ prints exactly 1 mark; the marks>=2 exceptions are exactly the
+    # mis-typed structural shapes — 2023-06 2PR 7(a) place-ticks-in-the-table
+    # (2 marks), 2022-06 2PR 1(a) draw-matching-lines (4), 2026-06 1PR 1(a)
+    # name-the-object answer lines (4). Serving them as MCQs produced a FALSE
+    # key (7(a)'s compound tick rule 'C and D ticked...' keyed C 500 Hz) and
+    # dot-run answer lines served as choice texts. The rows stay in the
+    # problem text verbatim; the part types structured and links its MS block
+    # through the ordinary G5 lane. 4PH1-gated: chemistry/4MB1 outputs are
+    # bit-identical by construction (parity receipt, C-pin battery).
+    if (choices and ACTIVE_SPEC_CODE == "4PH1"
+            and marks is not None and marks > 1):
+        choices, consumed = [], set()
     if choices:
         kept = [ln for i, ln in enumerate(kept) if i not in consumed]
     source_norm = norm(strip_dotrun(" ".join(kept)))   # final ground truth (marks + options removed)
@@ -3830,6 +3882,18 @@ def main():
                                            if _p.get("_marks_fill")
                                            else (_p.pop("marks_inferred", None) or "ms-printed")),
                                  "numbers": "source-printed"}
+            # v0.21.0 (F85): pop the repeat-label print-defect markers into the
+            # part's value_trace — disclosed on the record, never serialized on
+            # the choice rows.
+            _rel = [c["_relabel"] for c in (_p.get("choices") or []) if "_relabel" in c]
+            for _c in _p.get("choices") or []:
+                _c.pop("_relabel", None)
+            if _rel:
+                _p["value_trace"]["choices"] = (
+                    f"normalized:qp-print-defect-repeat-label "
+                    f"({len(_rel)} option row(s) printed '{_rel[0]}' where the "
+                    f"A–D run required the next letter; completed per the "
+                    f"canonical printed run — MS of record corroborates; F85)")
 
     # ---- gates ---------------------------------------------------------------
     def gate(name, ok, summary, details=None):

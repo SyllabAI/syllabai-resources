@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T22:06:02Z",
- "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2020-01 paper=1PR",
+ "generated_utc": "2026-10-26T09:19:22Z",
+ "generator": "official_examq_extract.py v0.21.0 (ADR-039) series=2020-01 paper=1PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2020-01:4PH1/1PR",
  "source": {
   "qp_sha256": "04a650a3a37615aa469709fb34d711fbd44b19797b3d9d792e451f5e107dab67",
@@ -78,7 +78,7 @@
      "part_number": "1(b)",
      "marks": 1,
      "question_type": "multiple_choice",
-     "problem_md": "Which arrow represents the wavelength of the wave? A S",
+     "problem_md": "Which arrow represents the wavelength of the wave?",
      "choices": [
       {
        "label": "A",
@@ -93,6 +93,11 @@
       {
        "label": "C",
        "text_md": "R",
+       "is_correct": false
+      },
+      {
+       "label": "D",
+       "text_md": "S",
        "is_correct": false
       }
      ],
@@ -113,7 +118,8 @@
      "value_trace": {
       "keys": "ms-positional",
       "marks": "ms-printed",
-      "numbers": "source-printed"
+      "numbers": "source-printed",
+      "choices": "normalized:qp-print-defect-repeat-label (1 option row(s) printed 'A' where the A–D run required the next letter; completed per the canonical printed run — MS of record corroborates; F85)"
      }
     },
     {

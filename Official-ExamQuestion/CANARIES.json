@@ -1,916 +1,963 @@
 {
-  "schema": "syllabai.official-paper-questions.canaries/0.1",
-  "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping. Under ADR-039 the controls target undisclosed mutation: N1 surfaces as a value_trace violation, N2 as a missing edits[] entry, N3 still refused by G6.",
-  "converter_version_floor": 0.15,
-  "canaries": [
-    {
-      "id": "C3-baseline-unchanged",
-      "series": "2020-11",
-      "assertion": "all gates PASS and 6/6 MCQs keyed (baseline; regression sentinel for F12/F14 keying changes)",
-      "check": "all_gates_pass_and_mcq_keyed",
-      "mcq_keyed": 6
-    },
-    {
-      "id": "C4-archive-damage-repaired",
-      "series": "2019-06",
-      "assertion": "G1-structure == PASS with 15 questions summing 110/110 after the F41 OCR source-layer recovery of the rasterized pages (the pre-repair honest-REVIEW state is retired; the recovery is pinned by C48-C53)",
-      "check": "gate_status",
-      "gate": "G1-structure",
-      "expected": "PASS",
-      "marks_total": 110
-    },
-    {
-      "id": "C5-elimination-keying",
-      "series": "2023-06",
-      "assertion": "part 9(a)(i) keyed to choice B (glued 'B4' answer cell + rebuttal census; finding F14)",
-      "check": "part_keyed_to",
-      "part": "9(a)(i)",
-      "label": "B"
-    },
-    {
-      "id": "C6-elimination-keying-2",
-      "series": "2026-06",
-      "assertion": "part 1(a) keyed to choice D ('<L> (answer)' cell + 'is not the formula' rebuttals; finding F14)",
-      "check": "part_keyed_to",
-      "part": "1(a)",
-      "label": "D"
-    },
-    {
-      "id": "C7-count-registry",
-      "series": "2026-06",
-      "assertion": "exactly 9 questions extracted (verified against printed footers summing to 110; finding F4/F13)",
-      "check": "question_count",
-      "expected": 9
-    },
-    {
-      "id": "C8-count-registry-2",
-      "series": "2023-01",
-      "assertion": "exactly 12 questions extracted (verified against printed footers summing to 110)",
-      "check": "question_count",
-      "expected": 12
-    },
-    {
-      "id": "C9-negative-controls",
-      "series": "*",
-      "assertion": "negative controls N1-N3 DETECTED as undisclosed-mutation violations on every series, every run (ADR-039 §5: N1 → value_trace, N2 → missing edits[], N3 → G6 refusal)",
-      "check": "negative_controls_all_detected"
-    },
-    {
-      "id": "C10-cross-diff",
-      "series": "*",
-      "assertion": "independent-parse cross-diff holds 100% marks agreement on every series that has a repo parsed/ layer (2024-06, 2025-06, 2026-06)",
-      "check": "cross_diff_full_agreement"
-    },
-    {
-      "id": "C11-manifest-schema-v2",
-      "series": "2026-06",
-      "assertion": "G0 passes and records the schema-v2 annotation (manifest without series.printed must not crash; finding F13)",
-      "check": "g0_summary_contains",
-      "substring": "manifest schema v2"
-    },
-    {
-      "id": "C12-no-hardcoded-output-root",
-      "series": "*",
-      "assertion": "converter/diff/report scripts derive output roots from their own checkout location; the machine-specific mirror path must never reappear (finding F15)",
-      "check": "no_hardcoded_output_root"
-    },
-    {
-      "id": "C13-solution-emission",
-      "series": "*",
-      "assertion": "every MS-linked part carries a non-empty solution_md and its mark_points[] sum exactly to the part marks (v0.5 reveal + Smart Mark layer; LEDGER wave 5)",
-      "check": "solution_fields_consistent"
-    },
-    {
-      "id": "C14-figure-crops",
-      "series": "*",
-      "assertion": "figure crop pass emitted PNGs for at least 100 asset stubs corpus-wide, every emitted crop file exists, is >=250 B (recalibrated 1000->250 by F45: the sparse text-only scaffold class is legitimately small after PNG compression) and >=60x40 px (the degenerate-sliver guard the byte floor was proxying)",
-      "check": "figure_crops_present",
-      "min_crops": 100,
-      "min_png_bytes": 250,
-      "min_px_w": 60,
-      "min_px_h": 40
-    },
-    {
-      "id": "C15-backref-share",
-      "series": "2019-06",
-      "assertion": "13(b)(i) 'on the grid in part (a)' resolves to a shared reference of 13(a)(i)'s grid — the footer-barcode mis-crop must never return (F18/F20)",
-      "check": "asset_state",
-      "part": "13(b)(i)",
-      "kind": "crop",
-      "shared": true,
-      "ref_part": "13(a)(i)"
-    },
-    {
-      "id": "C16-spurious-mention-suppressed",
-      "series": "2020-11",
-      "assertion": "5(a) 'position … in the Periodic Table' creates NO asset records — spurious figure mentions stay suppressed (F19)",
-      "check": "asset_state",
-      "part": "5(a)",
-      "empty": true
-    },
-    {
-      "id": "C17-stem-figure-share",
-      "series": "2024-11",
-      "assertion": "7(c) 'the results in the table' shares the stem-introduced results table crop (F21)",
-      "check": "asset_state",
-      "part": "7(c)",
-      "kind": "crop",
-      "shared": true,
-      "path_contains": "table_stem"
-    },
-    {
-      "id": "C18-anaphora-stem-graph",
-      "series": "2021-01",
-      "assertion": "10(a)(iii) 'the graph' shares the group-stem boiling-points graph — the 10(b) isomers mis-crop must never return (F20)",
-      "check": "asset_state",
-      "part": "10(a)(iii)",
-      "kind": "crop",
-      "shared": true,
-      "path_contains": "graph_stem"
-    },
-    {
-      "id": "C19-scaffold-manual-crop",
-      "series": "2024-06",
-      "assertion": "7(b) 'Complete the dot-and-cross diagram … N N' crops the printed N-N skeleton (p14) via the F45 manual-crop box in CROP-REVIEW.json - the AUTOMATIC pass still never force-crops text-only scaffolds (F19b doctrine unchanged); the manual pass is the eyeballed human decision",
-      "check": "asset_state",
-      "part": "7(b)",
-      "kind": "crop",
-      "page": 14,
-      "path_contains": "asset_7_b_diagram"
-    },
-    {
-      "id": "C20-adjacent-page-grid",
-      "series": "2025-11",
-      "assertion": "3(c)(i) crops the plotting grid printed on the NEXT page (p9) — adjacent continuation figures resolve (F23)",
-      "check": "asset_state",
-      "part": "3(c)(i)",
-      "kind": "crop",
-      "page": 9
-    },
-    {
-      "id": "C21-furniture-free-tables",
-      "series": "2019-06",
-      "assertion": "3(d)(ii) crops the printed Property table — the margin-stripe mega-cluster defect must never zero out a page again (F18)",
-      "check": "asset_state",
-      "part": "3(d)(ii)",
-      "kind": "crop",
-      "path_contains": "asset_3_d_ii_table"
-    },
-    {
-      "id": "C22-crop-review-ledger",
-      "series": "*",
-      "assertion": "every accepted verdict in CROP-REVIEW.json references an existing crop asset, and every asset carrying review_verdict is ledger-accepted — the eyeball record and the corpus never drift apart (F29)",
-      "check": "crop_review_ledger"
-    },
-    {
-      "id": "C23-table-diagram-distinct",
-      "series": "2024-11",
-      "assertion": "6(a)(i) 'Complete the table' crops the formulae table via the group-stem anchor while 6(b) crops the Mg/Cl diagram — the two assets must never alias one file again, and the real table must never go uncropped (F33)",
-      "check": "asset_state",
-      "part": "6(a)(i)",
-      "kind": "crop",
-      "path_contains": "asset_6_a_table_stem"
-    },
-    {
-      "id": "C24-drawn-scaffold-crop",
-      "series": "2024-11",
-      "assertion": "6(c)(i) 'Complete the dot-and-cross diagram' crops the DRAWN ammonia scaffold (N circle + three H circles printed as vector art) instead of stubbing — the text-only scaffold signature must not swallow drawn scaffolds (F32)",
-      "check": "asset_state",
-      "part": "6(c)(i)",
-      "kind": "crop",
-      "page": 19,
-      "path_contains": "asset_6_c_i_diagram"
-    },
-    {
-      "id": "C25-2c-slice-count",
-      "series": "2022-06",
-      "paper": "2C",
-      "assertion": "4CH1/2C is extracted as its own paper slice: 7 questions (footer-verified probe, F34); the paper parametrization must never collapse 2C back onto the 1C slice or drop the slice",
-      "check": "question_count",
-      "expected": 7
-    },
-    {
-      "id": "C26-2c-g1-marks",
-      "series": "2022-06",
-      "paper": "2C",
-      "assertion": "4CH1/2C 2022-06 G1 structure PASSES with the 2C paper total of 70 marks (footer-verified 16/16 series, F34) — the per-variant PAPER_TOTALS registry must hold",
-      "check": "gate_status",
-      "gate": "G1-structure",
-      "expected": "PASS",
-      "marks_total": 70
-    },
-    {
-      "id": "C27-2c-sentence-positive",
-      "series": "2021-11",
-      "paper": "2C",
-      "assertion": "1(e) keys to D via the sentence-form positive 'The only correct answer is D' (F36) — sentence-style 2C MS entries must key on a single distinct positive without answer-row corroboration",
-      "check": "part_keyed_to",
-      "part": "1(e)",
-      "label": "D"
-    },
-    {
-      "id": "C28-adjudicated-key-ii",
-      "series": "2020-01",
-      "assertion": "part 7(a)(ii) keys to C chlorine (palest colour; MCQ-KEYS.json adjudication of the misprinted MS layout; finding F37)",
-      "check": "part_keyed_to",
-      "part": "7(a)(ii)",
-      "label": "C"
-    },
-    {
-      "id": "C29-adjudicated-gate",
-      "series": "2020-01",
-      "assertion": "G3-mcq-integrity status == PASS (with the adjudicated keys applied, the 2020-01 MCQ set is fully keyed — the F6 honest-refusal FAIL state is retired; F37)",
-      "check": "gate_status",
-      "gate": "G3-mcq-integrity",
-      "expected": "PASS"
-    },
-    {
-      "id": "C30-adjudicated-key-iii",
-      "series": "2020-01",
-      "assertion": "part 7(a)(iii) keys to A astatine (least reactive; MCQ-KEYS.json adjudication; finding F37) — replaces the C1-honest-refusal unkeyed pin",
-      "check": "part_keyed_to",
-      "part": "7(a)(iii)",
-      "label": "A"
-    },
-    {
-      "id": "C31-mcq-keys-ledger",
-      "series": "*",
-      "assertion": "MCQ-KEYS.json and the emitted corpus agree in both directions: every entry is applied (key set, answer_key_source marker, report lists it) and no corpus part claims adjudication without a ledger entry (finding F37)",
-      "check": "mcq_keys_ledger"
-    },
-    {
-      "id": "C32-spec-tag-terminal",
-      "series": "*",
-      "assertion": "spec tagging is terminal on the spec-labelled 1C tranche: zero pending-llm parts there; every no-spec-point part has a matching no_spec_point entry in its series spec-labels file, and every entry resolves to a real part carrying no codes (finding F38)",
-      "check": "spec_tag_terminal"
-    },
-    {
-      "id": "C33-2c-spec-tag-terminal",
-      "series": "*",
-      "paper": "2C",
-      "assertion": "spec tagging is terminal on the 2C tranche after its first wave (F40 wave): 0 pending-llm parts across all 16 2C slices, and the no-spec-point state agrees bidirectionally with the <series>-2C.json label files",
-      "check": "spec_tag_terminal"
-    },
-    {
-      "id": "C34-2c-stem-table-2022-06",
-      "series": "2022-06",
-      "paper": "2C",
-      "assertion": "7(d)(i) 'the table' resolves to the REAL bond-energy table via the 7(d) group stem (asset_7_d_table_stem, p18) as a shared ref — not the p19 energy diagram the v0.8.1 own-page rescue cropped (F40c)",
-      "check": "asset_state",
-      "part": "7(d)(i)",
-      "kind": "crop",
-      "shared": true,
-      "ref_part": "asset_7_d_table_stem",
-      "page": 18
-    },
-    {
-      "id": "C35-2c-stem-table-2024-11",
-      "series": "2024-11",
-      "paper": "2C",
-      "assertion": "5(b)(i) 'Complete the table' resolves to the results table via the group stem (asset_5_b_table_stem, p13) — not the p12 burette diagram the v0.8.1 adjacent fallback stole (F40c)",
-      "check": "asset_state",
-      "part": "5(b)(i)",
-      "kind": "crop",
-      "shared": true,
-      "ref_part": "asset_5_b_table_stem",
-      "page": 13
-    },
-    {
-      "id": "C36-2c-stem-table-2023-01",
-      "series": "2023-01",
-      "paper": "2C",
-      "assertion": "7(b)(i) 'the table' resolves to the bond-energy table via the group stem (asset_7_b_table_stem, p24) — not the p23 hydrazine displayed-formula circles (F40c)",
-      "check": "asset_state",
-      "part": "7(b)(i)",
-      "kind": "crop",
-      "shared": true,
-      "ref_part": "asset_7_b_table_stem",
-      "page": 24
-    },
-    {
-      "id": "C37-2c-stem-table-2023-11",
-      "series": "2023-11",
-      "paper": "2C",
-      "assertion": "7(d)(i) 'the values in the table' resolves to the bond-energy table via the group stem (asset_7_d_table_stem, p22) — v0.8.1 stubbed it (F40c)",
-      "check": "asset_state",
-      "part": "7(d)(i)",
-      "kind": "crop",
-      "shared": true,
-      "ref_part": "asset_7_d_table_stem",
-      "page": 22
-    },
-    {
-      "id": "C38-2c-axis-rescue-2021-11",
-      "series": "2021-11",
-      "paper": "2C",
-      "assertion": "7(c) 'Draw an energy level diagram' crops the printed Energy axis scaffold on its own page (p23) — v0.8.1 stole the 7(b) bond table via the adjacent whole-stem fallback (F40a/F40d)",
-      "check": "asset_state",
-      "part": "7(c)",
-      "kind": "crop",
-      "page": 23,
-      "path_contains": "asset_7_c_diagram"
-    },
-    {
-      "id": "C39-2c-axis-rescue-2025-06",
-      "series": "2025-06",
-      "paper": "2C",
-      "assertion": "2(e) 'Draw a reaction profile diagram' crops the printed Energy axis scaffold on p7 — v0.8.1 stole the Q2 stem apparatus (F40a/F40d)",
-      "check": "asset_state",
-      "part": "2(e)",
-      "kind": "crop",
-      "page": 7,
-      "path_contains": "asset_2_e_diagram"
-    },
-    {
-      "id": "C40-2c-axis-rescue-2019-06",
-      "series": "2019-06",
-      "paper": "2C",
-      "assertion": "5(c) 'Draw an energy level diagram' crops the printed energy axis scaffold on p12 (archive-damaged series still resolves) (F40d)",
-      "check": "asset_state",
-      "part": "5(c)",
-      "kind": "crop",
-      "page": 12,
-      "path_contains": "asset_5_c_diagram"
-    },
-    {
-      "id": "C41-2c-pua-anchor-2022-01",
-      "series": "2022-01",
-      "paper": "2C",
-      "assertion": "6(a)(iii) 'the graph' gets its page anchor despite the PUA bullets in problem_md (F40e) and resolves UP to the printed plotting grid on p21 (F40b) — v0.8.1 stubbed it with page=None",
-      "check": "asset_state",
-      "part": "6(a)(iii)",
-      "kind": "crop",
-      "page": 21,
-      "path_contains": "asset_6_a_iii_graph"
-    },
-    {
-      "id": "C42-2c-anchor-2022-06",
-      "series": "2022-06",
-      "paper": "2C",
-      "assertion": "3(c) 'The table shows...' (sentence-initial noun) anchors ABOVE its printed electronic-configuration table on p6 — the v0.8.1 2-word probe landed on the instruction line and stubbed it (F40f)",
-      "check": "asset_state",
-      "part": "3(c)",
-      "kind": "crop",
-      "page": 6,
-      "path_contains": "asset_3_c_table"
-    },
-    {
-      "id": "C43-2c-anchor-2023-11",
-      "series": "2023-11",
-      "paper": "2C",
-      "assertion": "3(c) 'The diagram represents...' crops the pure-Al/alloy particle diagram on p9 — v0.8.1 stubbed it (F40f)",
-      "check": "asset_state",
-      "part": "3(c)",
-      "kind": "crop",
-      "page": 9,
-      "path_contains": "asset_3_c_diagram"
-    },
-    {
-      "id": "C44-2c-anchor-2025-11",
-      "series": "2025-11",
-      "paper": "2C",
-      "assertion": "6(b) 'The table gives some bond energies' crops the printed table on p19 — v0.8.1 stubbed it (F40f)",
-      "check": "asset_state",
-      "part": "6(b)",
-      "kind": "crop",
-      "page": 19,
-      "path_contains": "asset_6_b_table"
-    },
-    {
-      "id": "C45-2c-mention-suppressed-2026-06",
-      "series": "2026-06",
-      "paper": "2C",
-      "assertion": "4(c) 'Include suitable calculations and apparatus in your answer' carries NO asset — the 'apparatus in your answer' mention is student-provided, never a printed figure (F40g)",
-      "check": "asset_state",
-      "part": "4(c)",
-      "empty": true
-    },
-    {
-      "id": "C46-2c-ms-linkage-2021-01",
-      "series": "2021-01",
-      "paper": "2C",
-      "assertion": "1(b) links to the MS block the printed MS sub-numbered '1 (b) (i)' (marks-matched single-part fallback, F40h) — v0.8.1 left it unmatched",
-      "check": "part_linked",
-      "part": "1(b)"
-    },
-    {
-      "id": "C47-2c-ms-linkage-2025-06",
-      "series": "2025-06",
-      "paper": "2C",
-      "assertion": "1(b)(ii) links to the MS row printed '(II)' — roman-numeral case normalization (F40i) — and carries the adjudicated-by-layout solution block; v0.8.1 left it unmatched",
-      "check": "part_linked",
-      "part": "1(b)(ii)"
-    },
-    {
-      "id": "C48-ocr-layer-receipts",
-      "series": "2019-06",
-      "paper": "1C",
-      "assertion": "F41 OCR source layer: validation receipts carry exactly pages [4,12,16,18,20,26] (fail-closed sha verification happens in G0 at run time)",
-      "check": "ocr_pages_receipt",
-      "pages": [
-        4,
-        12,
-        16,
-        18,
-        20,
-        26
-      ]
-    },
-    {
-      "id": "C49-ocr-q7-stem-verbatim",
-      "series": "2019-06",
-      "paper": "1C",
-      "assertion": "Q7 (lost entirely to rasterization, recovered by F41) exists with its verbatim stem",
-      "check": "part_problem_md_contains",
-      "question": 7,
-      "substring": "Diamond, graphite and silicon dioxide all have giant covalent structures"
-    },
-    {
-      "id": "C50-ocr-equation-pin",
-      "series": "2019-06",
-      "paper": "1C",
-      "assertion": "Q11(a) carries the transcribed combustion equation (subscripts below the 144-dpi OCR floor; transcribed from the 600-dpi render, corroborated by the MS text layer)",
-      "check": "part_problem_md_contains",
-      "question": 11,
-      "contains_all": [
-        "CH4(g) + 2O2(g)",
-        "CO2(g) + 2H2O(g)"
-      ]
-    },
-    {
-      "id": "C51-ocr-table-values-pin",
-      "series": "2019-06",
-      "paper": "1C",
-      "assertion": "Q12 stem carries the results-table values 20.0/14.2 (dropped by every OCR variant; transcribed from the render, corroborated by MS 'M1 14.2 - 20.0 = (-)5.8')",
-      "check": "part_problem_md_contains",
-      "question": 12,
-      "contains_all": [
-        "20.0",
-        "14.2"
-      ]
-    },
-    {
-      "id": "C52-ms-image-answer-adjudicated",
-      "series": "2019-06",
-      "paper": "1C",
-      "assertion": "3(d)(ii) links through the F47 manual-linkage ledger: its MS answer cell is a printed image (bordered Property table with ticks), so the answer of record is the eyeballed verbatim transcription in MS-LINK-OVERRIDES.json with rendered-page evidence — never model guessing (supersedes the F42 honest-refusal pin)",
-      "check": "part_linked",
-      "part": "3(d)(ii)"
-    },
-    {
-      "id": "C53-ms-bare-marker-linkage",
-      "series": "2019-06",
-      "paper": "1C",
-      "assertion": "F42 early-MS bare-marker linkage: 3(d)(i), 10(a)(i), 10(b)(i), 13(b)(i), 14(f)(ii), 11(b)(iii), 15(b)(i) all linked with solutions (also pins the damage-repair renumber 15(b)(i..iii)/11(b)(iii))",
-      "check": "parts_all_linked",
-      "parts": [
-        "3(d)(i)",
-        "10(a)(i)",
-        "10(b)(i)",
-        "13(b)(i)",
-        "14(f)(ii)",
-        "11(b)(iii)",
-        "15(b)(i)"
-      ]
-    },
-    {
-      "id": "C54-solution-blocks-header-free",
-      "series": "*",
-      "assertion": "F43: no served solution_md or mark_points text carries the repeated MS page-table header ('Question / Answer Notes Marks / number') — the v0.6-era block-boundary leak cleaned corpus-wide in v0.10.0 (278 blocks)",
-      "check": "solution_blocks_header_free"
-    },
-    {
-      "id": "C55-manual-crop-raster",
-      "series": "2019-06",
-      "assertion": "15(a) tests table crops straight from the rasterized p26 archive scan via the F45 manual-crop box (render=raster) - a rasterized page is no longer an automatic stub when an eyeballed rect exists (F41's no-crop decision superseded)",
-      "check": "asset_state",
-      "paper": "1C",
-      "part": "15(a)",
-      "kind": "crop",
-      "page": 26,
-      "path_contains": "asset_15_a_table"
-    },
-    {
-      "id": "C56-pua-free-corpus",
-      "series": "*",
-      "assertion": "F48 PUA pass: no served string in any topic.json carries a Private Use Area char (U+E000-U+F8FF) — every symbol-font glyph surfaces as its evidenced real Unicode form; the pins re-prove eleven of the mappings at their exact parts 1CR-wave pins: the ZapfDingbats tick and the Symbol big-bracket trio.",
-      "check": "no_pua_served",
-      "pins": [
-        {
-          "series": "2019-06",
-          "paper": "1C",
-          "part": "5(c)(i)",
-          "field": "solution",
-          "contains": "N2 + 3H2 → 2NH3"
-        },
-        {
-          "series": "2019-06",
-          "paper": "1C",
-          "part": "3(d)(ii)",
-          "field": "problem",
-          "contains": "Add ticks (✓)"
-        },
-        {
-          "series": "2020-01",
-          "paper": "1C",
-          "part": "6(a)",
-          "field": "solution",
-          "contains": "zinc + hydrochloric acid → zinc chloride + hydrogen"
-        },
-        {
-          "series": "2019-06",
-          "paper": "2C",
-          "part": "7(a)",
-          "field": "stem",
-          "contains": "N2O4(g) ⇌ 2NO2(g)"
-        },
-        {
-          "series": "2021-01",
-          "paper": "2C",
-          "part": "3(a)(i)",
-          "field": "stem",
-          "contains": "• pour some carboxylic acid"
-        },
-        {
-          "series": "2022-06",
-          "paper": "2C",
-          "part": "7(d)(i)",
-          "field": "solution",
-          "contains": "Σ bonds broken = 4 x C−H"
-        },
-        {
-          "series": "2024-06",
-          "paper": "2C",
-          "part": "3(c)(i)",
-          "field": "solution",
-          "contains": "700 (°C"
-        },
-        {
-          "series": "2025-06",
-          "paper": "1C",
-          "part": "5(c)(ii)",
-          "field": "solution",
-          "contains": "H─C─C─C─C─H"
-        },
-        {
-          "series": "2022-06",
-          "paper": "2C",
-          "part": "7(d)(ii)",
-          "field": "solution",
-          "contains": "↑\nEnergy"
-        },
-        {
-          "series": "2019-06",
-          "paper": "1CR",
-          "part": "2(a)",
-          "field": "problem",
-          "contains": "Place ticks (✓) in three boxes"
-        },
-        {
-          "series": "2022-06",
-          "paper": "1CR",
-          "part": "7(d)(i)",
-          "field": "problem",
-          "contains": "⎡"
-        }
-      ]
-    },
-    {
-      "id": "C57-ms-link-overrides-ledger",
-      "series": "*",
-      "assertion": "MS-LINK-OVERRIDES.json and the corpus agree in both directions: every adjudicated entry is applied (linked, answer_key_source marker, validation report lists it, solution_md rebuilt from the adjudicated block) and no part claims adjudication without a ledger entry",
-      "check": "ms_link_overrides_ledger"
-    },
-    {
-      "id": "C58-deep-roman-linkage",
-      "series": "2023-11",
-      "paper": "1C",
-      "assertion": "F46 deep-indent roman rows: 6(c)(ii) 'best fit curve starting at 0 and levelling off at 94 cm3' and 6(d)(ii) 'M1 curve less steep / M2 levelling off at 46-48 cm3' link to their printed MS blocks (indent-22 '(ii)' rows the {0,20} window used to absorb into the (i) blocks)",
-      "check": "parts_all_linked",
-      "parts": [
-        "6(c)(ii)",
-        "6(d)(ii)"
-      ]
-    },
-    {
-      "id": "C59-qstart-first-match-1cr",
-      "series": "2023-06",
-      "paper": "1CR",
-      "assertion": "F49 QSTART first-match law: Q3 parses WHOLE — the isotope label row '3  Li   73Li' inside the question body no longer truncates the region (cur[-1] did exactly that), so 3(a)(i) exists and keys to A (electron); Q3 carries its printed 8 marks across 6 parts",
-      "check": "part_keyed_to",
-      "part": "3(a)(i)",
-      "label": "A"
-    },
-    {
-      "id": "C60-1cr-degraded-markers-2019-06",
-      "series": "2019-06",
-      "paper": "1CR",
-      "assertion": "F50 degraded-marker linkage: the old-format Summer-2019 MS rows '3 c (i)' (bare letter + one space + paren roman), 'a (ii)' (letter repeated on the roman row) and the glued 'b(iv)' marker-only row between M1/M2 all link — 3(c)(i)-(iii), 4(b)(iv) and 5(a)(ii) reach their printed blocks",
-      "check": "parts_all_linked",
-      "parts": [
-        "3(c)(i)",
-        "3(c)(ii)",
-        "3(c)(iii)",
-        "4(b)(iv)",
-        "5(a)(ii)"
-      ]
-    },
-    {
-      "id": "C61-1cr-5a-ii-keyed-B",
-      "series": "2019-06",
-      "paper": "1CR",
-      "assertion": "the repaired 5(a)(ii) linkage carries its MS key ('B gas is given off' + rebuttal rows) — the G3 MCQ census heals with no MCQ-KEYS adjudication needed",
-      "check": "part_keyed_to",
-      "part": "5(a)(ii)",
-      "label": "B"
-    },
-    {
-      "id": "C62-1cr-half-paren-markers-2020-11",
-      "series": "2020-11",
-      "paper": "1CR",
-      "assertion": "F50 half-paren markers: 'b)     i)' and the 'ii)' continuation row both parse — 3(b)(i) and 3(b)(ii) link",
-      "check": "parts_all_linked",
-      "parts": [
-        "3(b)(i)",
-        "3(b)(ii)"
-      ]
-    },
-    {
-      "id": "C63-1cr-bare-roman-2026-06",
-      "series": "2026-06",
-      "paper": "1CR",
-      "assertion": "F50 paren-letter + bare-roman rows: '(e)      i   nitrogen' and the 'ii' continuation parse — 1(e)(i) and 1(e)(ii) link",
-      "check": "parts_all_linked",
-      "parts": [
-        "1(e)(i)",
-        "1(e)(ii)"
-      ]
-    },
-    {
-      "id": "C64-1cr-sidebar-marker-2022-01",
-      "series": "2022-01",
-      "paper": "1CR",
-      "assertion": "F50 sidebar-marker branch + F47 override: the rotated-margin strip ('all clip with graph') no longer hides 8(b) — (ii)-(v) link positionally and (b)(i) links via the MS-LINK-OVERRIDES transcription of its wrap-split answer cell",
-      "check": "parts_all_linked",
-      "parts": [
-        "8(b)(i)",
-        "8(b)(ii)",
-        "8(b)(iii)",
-        "8(b)(iv)",
-        "8(b)(v)"
-      ]
-    },
-    {
-      "id": "C65-delta-normalization",
-      "series": "*",
-      "assertion": "F52 source-char normalization: no served string in any topic.json carries U+01FB (the MyriadPro-It italic-Delta artifact, bytes C7 BB) — every printed italic Delta surfaces as U+0394; pins re-prove the three fixed parts at their exact strings.",
-      "check": "no_pua_served",
-      "extra_chars": [
-        [
-          507,
-          916
-        ]
-      ],
-      "pins": [
-        {
-          "series": "2020-01",
-          "paper": "1CR",
-          "part": "6(c)(i)",
-          "field": "problem",
-          "contains": "Calculate the molar enthalpy change, ΔH, in kJ/mol."
-        },
-        {
-          "series": "2020-01",
-          "paper": "2CR",
-          "part": "6(b)(iv)",
-          "field": "problem",
-          "contains": "the enthalpy change, ΔH."
-        },
-        {
-          "series": "2020-01",
-          "paper": "2CR",
-          "part": "6(c)",
-          "field": "problem",
-          "contains": "calculate the enthalpy change, ΔH,"
-        }
-      ]
-    },
-    {
-      "id": "C66-stem-figures-ledger",
-      "series": "*",
-      "assertion": "wave-20 (F-W20-1): every STEM-RESTORE.json stemFigures spec is realized in the corpus as a kind=crop asset flagged stem_figure + manual_crop (rendered through the F45 branch), and every corpus stem_figure asset traces back to its ledger entry — bidirectional, corpus-wide",
-      "check": "stem_figures_ledger"
-    },
-    {
-      "id": "C67-stem-chromatogram-2019-06",
-      "series": "2019-06",
-      "assertion": "wave-20: the Q4 chromatography apparatus (dropped by every prior wave) is a real crop on 4(a) — the first-part stem figure the restored stem needs",
-      "check": "asset_state",
-      "paper": "1C",
-      "part": "4(a)",
-      "kind": "crop",
-      "path_contains": "asset_4_stem_chromatogram"
-    },
-    {
-      "id": "C68-stem-bond-tables-2019-06",
-      "series": "2019-06",
-      "assertion": "wave-20: the (a)-group bond-energy tables print above 5(a)(i) with no part-owned crop — the ledger-targeted stub renders them on the part that reads them",
-      "check": "asset_state",
-      "paper": "2C",
-      "part": "5(a)(i)",
-      "kind": "crop",
-      "path_contains": "asset_5_stem_bond-tables"
-    },
-    {
-      "id": "C69-stem-raster-structures-2019-06",
-      "series": "2019-06",
-      "assertion": "wave-20: Q7's three-structure diagram lives on the rasterized p12 archive scan (no text anchors) — the manual crop is render=raster and carries the key",
-      "check": "asset_state",
-      "paper": "1C",
-      "part": "7(a)",
-      "kind": "crop",
-      "path_contains": "asset_7_stem_structures"
-    },
-    {
-      "id": "C70-stem-formulae-2020-01",
-      "series": "2020-01",
-      "assertion": "wave-20: the six displayed formulae PQRSTU (flattened to a letter run in the stem text) are a real crop on 5(a)(i) — the formulae letter-run tranche closes",
-      "check": "asset_state",
-      "paper": "1C",
-      "part": "5(a)(i)",
-      "kind": "crop",
-      "path_contains": "asset_5_stem_displayed-formulae"
-    },
-    {
-      "id": "C71-solution-enrichment-ledger",
-      "series": "*",
-      "assertion": "wave-20 Part C (F-W20-3): every SOLUTION-ENRICH.json entry resolves to a real part, carries the authored review state, enriches (differs from) the MS cell - and the corpus topic.json still holds the MS-derived solution (enrichment is export-only, never baked into the data plane) | wave-22: the corpus is COMPLETE - min_entries=2607 (every solution-bearing part of the 54 official sets carries an authored, verifier-clean worked answer); the floor fails if the ledger ever shrinks",
-      "check": "solution_enrichment_ledger",
-      "min_entries": 2607
-    },
-    {
-      "id": "C72-mcq-choice-scripts-2026-06",
-      "series": "2026-06",
-      "assertion": "wave-24 (F64): the printed MCQ scripts survive extraction — 1(a) A carries a RAISED 4 (distractor) while D is the true ammonium ion; the G8 audit's duplicate-choice ambiguity is closed and pinned byte-exact",
-      "check": "mcq_choices",
-      "paper": "1C",
-      "part": "1(a)",
-      "expect": {
-        "A": "NH⁴⁺",
-        "D": "NH₄⁺"
-      }
-    },
-    {
-      "id": "C73-figure-queue-disposition",
-      "series": "*",
-      "assertion": "wave-24 (G8): FIGURE-QUEUE.json is bidirectionally consistent with the corpus — every cropped/served_via entry resolves to a real asset (on the part, or on a same-question carrier), every dismissal is a real QP-verified decision (nothing UNREVIEWED); the queue is finished when it is empty",
-      "check": "figure_queue"
-    },
-    {
-      "id": "C74-physics-pua-tranche-guard",
-      "spec": "4ph1",
-      "series": "*",
-      "check": "no_pua_served",
-      "assertion": "Task 16 landing (F66): the 4PH1 corpus serves ZERO Private Use Area chars - every symbol-font glyph surfaces as its real Unicode form via PUA_MAP. Guards the v0.17.3 physics PUA tranche (5 evidenced mappings, merge 2254347353) against a recurrence of the concurrent-merge clobber class that reverted it once already (#136 tree-snapshot merge). TASK 17 CORRECTION (F72): the pi pin moved from 1(b)(ii) to 1(c) - the v0.19.0 marker census proved Task 16's own pin had codified a MIS-LINK (the old parser never opened the 1(c) letter entry, so the fallback served the (c) block at (b)(ii); the MS of record prints 'allow use of 3.14, 22/7 for pi' as Q1(c) notes and (b)(ii) is the 'B - gravitational;' MCQ). The pin re-proves the U+F070->pi mapping at its CORRECT served part; without the tranche the pin strings carry U+F070 and fail both laws.",
-      "pins": [
-        {
-          "series": "2024-11",
-          "paper": "1P",
-          "part": "1(c)",
-          "field": "solution",
-          "contains": "22/7\nfor π"
-        },
-        {
-          "series": "2022-06",
-          "paper": "2PR",
-          "part": "3(c)(ii)",
-          "field": "solution",
-          "contains": "orbital period = (2 × π × 1.1(× 103)) ÷ 2.9 × 108"
-        }
-      ]
-    },
-    {
-      "id": "C75-physics-2p-footer-law",
-      "spec": "4ph1",
-      "series": "2024-06",
-      "paper": "2P",
-      "check": "gate_status",
-      "gate": "G1-structure",
-      "expected": "PASS",
-      "marks_total": 70,
-      "assertion": "Task 16 landing: the physics 2P footer law (Task 14 F34-physics verification from the archive of record) - 4PH1 2P papers total exactly 70 marks and G1 proves every part-sum exact. Regresses if PAPER_TOTALS or the footer regex lose the 4ph1 lane."
-    },
-    {
-      "id": "C76-physics-1p-question-count",
-      "spec": "4ph1",
-      "series": "2023-06",
-      "paper": "1P",
-      "check": "question_count",
-      "expected": 12,
-      "assertion": "Task 16 landing: 4PH1 1P 2023-06 prints 12 questions (footer-verified, sum 110) - the physics EXPECT_QUESTIONS seed. Regresses if the 4ph1 lane loses its count registry."
-    },
-    {
-      "id": "C77-ms-furniture-free",
-      "series": "*",
-      "assertion": "no MS page-bottom furniture (question-total footer in either printed word order, the paper-total line, the bare 'Total = N' fragment, the Pearson copyright block or its office continuation) survives in any served solution_md or mark_points text corpus-wide (F69; the exporter's serve-time strip is now a redundant second line of defense, never the only one)",
-      "check": "no_ms_furniture_lines"
-    },
-    {
-      "id": "C78-bel-free-corpus",
-      "series": "*",
-      "assertion": "no BEL U+0007 control char anywhere in a served topic.json string — the numbered-method-step pdftotext artifact is normalized at source in clean_lines and the page_norm anchor index (F67); the exporter's stem-side strip becomes a no-op",
-      "check": "no_pua_served",
-      "extra_chars": [
-        [
-          7,
-          32
-        ]
-      ]
-    },
-    {
-      "id": "C79-no-orphan-assets",
-      "series": "*",
-      "assertion": "every PNG under any slice's assets/ is referenced by that slice's topic.json — superseded crops are pruned in the wave that supersedes them, never left to accumulate (F71; 57 pre-existing orphans pruned by wave-25)",
-      "check": "no_orphan_assets"
-    },
-    {
-      "id": "C80-image-answer-ledger-2021-01-2cr-7d",
-      "series": "2021-01",
-      "paper": "2CR",
-      "assertion": "7(d) links through the F47 MS-LINK-OVERRIDES ledger — the printed MS answer cell is a drawn displayed-formula image (methylpropane); the pre-v0.18.0 footer-as-solution state must never return (F66)",
-      "check": "part_linked",
-      "part": "7(d)"
-    },
-    {
-      "id": "C81-continuation-row-ledger-2025-06-2cr-7c-ii",
-      "series": "2025-06",
-      "paper": "2CR",
-      "assertion": "7(c)(ii) links through the F47 ledger to its printed row ('ethyl ethanoate' / 'IGNORE hyphens') — pre-v0.18.0 the parser served the page-bottom furniture block as its solution (F66)",
-      "check": "part_linked",
-      "part": "7(c)(ii)"
-    },
-    {
-      "id": "C82-drawing-answer-ledger-2025-06-1cr-9d-ii",
-      "series": "2025-06",
-      "paper": "1CR",
-      "assertion": "9(d)(ii) links through the F47 ledger to the two hand-drawn isomer structures — pre-v0.18.0 the parser served Q8's footer fragment 'Total = 13' as its solution (F66)",
-      "check": "part_linked",
-      "part": "9(d)(ii)"
-    },
-    {
-      "id": "C83-physics-triple-glue-mcq",
-      "spec": "4ph1",
-      "series": "2024-06",
-      "paper": "2P",
-      "check": "gate_status",
-      "gate": "G3-mcq-integrity",
-      "expected": "PASS",
-      "assertion": "Task 17 MS-table wave (F72): the 2024-06 2P MCQ parts 4(a)(i)/(ii) live in triple rows '4 (a)   (i)   A (friction);' whose roman marker the v0.17.4 lane swallowed into content. v0.19.0 opens the roman entries and keys both parts. Regresses if the triple-glue rule or the vertical keying path loses the qn+letter+roman family."
-    },
-    {
-      "id": "C84-physics-qn-content-bootstrap",
-      "spec": "4ph1",
-      "series": "2023-01",
-      "paper": "2P",
-      "check": "gate_status",
-      "gate": "G5-answer-linkage",
-      "expected": "PASS",
-      "assertion": "Task 17 MS-table wave (F72): 2023-01 2P Q1 is a whole-question part whose MS row '1   electrons;   5' sits at indent 1 with the marks digit as the tail - the qn+content family needs the ascending+tail+indent<=3 triple gate (181 of 198 stripped-shape rows are numeric answer content). Regresses if the mqc gate over-tightens back to column-0 or loses the tail signature."
-    },
-    {
-      "id": "C85-physics-orphan-roman-reanchor",
-      "spec": "4ph1",
-      "series": "2026-06",
-      "paper": "2P",
-      "check": "gate_status",
-      "gate": "G5-answer-linkage",
-      "expected": "PASS",
-      "assertion": "Task 17 MS-table wave (F72): 2026-06 2P Q4(c) prints (c)(ii) with no preceding (c) cell (pdftotext merged it) and (c)(i)'s answer is an embedded equation image - the orphan-roman re-anchor opens (4,c,ii) and the F42-doctrine MS-LINK-OVERRIDES entry carries the eyeballed transcription for 4(c)(i). Regresses if the re-anchor fires on indented cross-references or the override ledger entry is lost."
-    },
-    {
-      "id": "C86-maths-tranche1-gates",
-      "series": "2025-11",
-      "assertion": "F74: the first igcse-maths-b-16 slice of record (2025-11 4MB1-02, v0.16.0 tranche-1) — all gates G0-G7 PASS, all negative controls DETECTED, the spec §3.4 control-char fallback present and disclosed in the report, exactly 34 parts (31 marker parts + 3 implicit single-part), and every part carries a linked solution_md",
-      "check": "maths_tranche1_gates",
-      "paper": "02",
-      "expected_parts": 34,
-      "spec": "4mb1"
-    },
-    {
-      "id": "C87-course-registry-chemistry-default",
-      "series": "*",
-      "assertion": "F73: the SPECS registry chemistry entry stays identical to the chemistry-of-record defaults (lane igcse-chemistry-19, prefix 4CH1, PAPER_TOTALS {1C:110,2C:70,1CR:110,2CR:70}, the '=' footer regex) and the registry knows exactly the three lanes 4ch1/4ph1/4mb1 (4MB1 totals 100 x4) — a divergence means a lane entry and the chemistry defaults drifted apart; chemistry outputs regenerate byte-identical only while this holds. (run-004 union: adapted from the branch line's COURSES assertion — the union migrated the course axis to SPECS[\"4mb1\"]; the branch's COURSE_PREFIX/OUTROOT globals no longer exist.)",
-      "check": "course_registry_chemistry_default",
-      "spec": "4mb1"
-    },
-    {
-      "id": "C88-maths-drain-state",
-      "series": "*",
-      "assertion": "run-003 drain-closure state of record: the igcse-maths-b-16 corpus holds 66 converted slices, ALL with gates G0-G7 PASS (the 2018-2021 first-sitting-era tail closed by LEDGER F82-F84: text-glued/vector-drawn QP marks recovery, the singular-mark footer law, and the numeral-only MS rows; 2019-01 both papers via the F41 OCR layer, prep_ocr_layer_2019mb.py). Either count moving without a ledger entry fails this canary.",
-      "check": "maths_drain_state",
-      "expected_pass": 66,
-      "expected_failing": 0,
-      "spec": "4mb1"
+ "schema": "syllabai.official-paper-questions.canaries/0.1",
+ "purpose": "Machine-checkable regression assertions for the ADR-037 pipeline. check_canaries.py re-verifies every assertion on each run; any violation exits non-zero and blocks shipping. Under ADR-039 the controls target undisclosed mutation: N1 surfaces as a value_trace violation, N2 as a missing edits[] entry, N3 still refused by G6.",
+ "converter_version_floor": 0.15,
+ "canaries": [
+  {
+   "id": "C3-baseline-unchanged",
+   "series": "2020-11",
+   "assertion": "all gates PASS and 6/6 MCQs keyed (baseline; regression sentinel for F12/F14 keying changes)",
+   "check": "all_gates_pass_and_mcq_keyed",
+   "mcq_keyed": 6
+  },
+  {
+   "id": "C4-archive-damage-repaired",
+   "series": "2019-06",
+   "assertion": "G1-structure == PASS with 15 questions summing 110/110 after the F41 OCR source-layer recovery of the rasterized pages (the pre-repair honest-REVIEW state is retired; the recovery is pinned by C48-C53)",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "PASS",
+   "marks_total": 110
+  },
+  {
+   "id": "C5-elimination-keying",
+   "series": "2023-06",
+   "assertion": "part 9(a)(i) keyed to choice B (glued 'B4' answer cell + rebuttal census; finding F14)",
+   "check": "part_keyed_to",
+   "part": "9(a)(i)",
+   "label": "B"
+  },
+  {
+   "id": "C6-elimination-keying-2",
+   "series": "2026-06",
+   "assertion": "part 1(a) keyed to choice D ('<L> (answer)' cell + 'is not the formula' rebuttals; finding F14)",
+   "check": "part_keyed_to",
+   "part": "1(a)",
+   "label": "D"
+  },
+  {
+   "id": "C7-count-registry",
+   "series": "2026-06",
+   "assertion": "exactly 9 questions extracted (verified against printed footers summing to 110; finding F4/F13)",
+   "check": "question_count",
+   "expected": 9
+  },
+  {
+   "id": "C8-count-registry-2",
+   "series": "2023-01",
+   "assertion": "exactly 12 questions extracted (verified against printed footers summing to 110)",
+   "check": "question_count",
+   "expected": 12
+  },
+  {
+   "id": "C9-negative-controls",
+   "series": "*",
+   "assertion": "negative controls N1-N3 DETECTED as undisclosed-mutation violations on every series, every run (ADR-039 §5: N1 → value_trace, N2 → missing edits[], N3 → G6 refusal)",
+   "check": "negative_controls_all_detected"
+  },
+  {
+   "id": "C10-cross-diff",
+   "series": "*",
+   "assertion": "independent-parse cross-diff holds 100% marks agreement on every series that has a repo parsed/ layer (2024-06, 2025-06, 2026-06)",
+   "check": "cross_diff_full_agreement"
+  },
+  {
+   "id": "C11-manifest-schema-v2",
+   "series": "2026-06",
+   "assertion": "G0 passes and records the schema-v2 annotation (manifest without series.printed must not crash; finding F13)",
+   "check": "g0_summary_contains",
+   "substring": "manifest schema v2"
+  },
+  {
+   "id": "C12-no-hardcoded-output-root",
+   "series": "*",
+   "assertion": "converter/diff/report scripts derive output roots from their own checkout location; the machine-specific mirror path must never reappear (finding F15)",
+   "check": "no_hardcoded_output_root"
+  },
+  {
+   "id": "C13-solution-emission",
+   "series": "*",
+   "assertion": "every MS-linked part carries a non-empty solution_md and its mark_points[] sum exactly to the part marks (v0.5 reveal + Smart Mark layer; LEDGER wave 5)",
+   "check": "solution_fields_consistent"
+  },
+  {
+   "id": "C14-figure-crops",
+   "series": "*",
+   "assertion": "figure crop pass emitted PNGs for at least 100 asset stubs corpus-wide, every emitted crop file exists, is >=250 B (recalibrated 1000->250 by F45: the sparse text-only scaffold class is legitimately small after PNG compression) and >=60x40 px (the degenerate-sliver guard the byte floor was proxying)",
+   "check": "figure_crops_present",
+   "min_crops": 100,
+   "min_png_bytes": 250,
+   "min_px_w": 60,
+   "min_px_h": 40
+  },
+  {
+   "id": "C15-backref-share",
+   "series": "2019-06",
+   "assertion": "13(b)(i) 'on the grid in part (a)' resolves to a shared reference of 13(a)(i)'s grid — the footer-barcode mis-crop must never return (F18/F20)",
+   "check": "asset_state",
+   "part": "13(b)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "13(a)(i)"
+  },
+  {
+   "id": "C16-spurious-mention-suppressed",
+   "series": "2020-11",
+   "assertion": "5(a) 'position … in the Periodic Table' creates NO asset records — spurious figure mentions stay suppressed (F19)",
+   "check": "asset_state",
+   "part": "5(a)",
+   "empty": true
+  },
+  {
+   "id": "C17-stem-figure-share",
+   "series": "2024-11",
+   "assertion": "7(c) 'the results in the table' shares the stem-introduced results table crop (F21)",
+   "check": "asset_state",
+   "part": "7(c)",
+   "kind": "crop",
+   "shared": true,
+   "path_contains": "table_stem"
+  },
+  {
+   "id": "C18-anaphora-stem-graph",
+   "series": "2021-01",
+   "assertion": "10(a)(iii) 'the graph' shares the group-stem boiling-points graph — the 10(b) isomers mis-crop must never return (F20)",
+   "check": "asset_state",
+   "part": "10(a)(iii)",
+   "kind": "crop",
+   "shared": true,
+   "path_contains": "graph_stem"
+  },
+  {
+   "id": "C19-scaffold-manual-crop",
+   "series": "2024-06",
+   "assertion": "7(b) 'Complete the dot-and-cross diagram … N N' crops the printed N-N skeleton (p14) via the F45 manual-crop box in CROP-REVIEW.json - the AUTOMATIC pass still never force-crops text-only scaffolds (F19b doctrine unchanged); the manual pass is the eyeballed human decision",
+   "check": "asset_state",
+   "part": "7(b)",
+   "kind": "crop",
+   "page": 14,
+   "path_contains": "asset_7_b_diagram"
+  },
+  {
+   "id": "C20-adjacent-page-grid",
+   "series": "2025-11",
+   "assertion": "3(c)(i) crops the plotting grid printed on the NEXT page (p9) — adjacent continuation figures resolve (F23)",
+   "check": "asset_state",
+   "part": "3(c)(i)",
+   "kind": "crop",
+   "page": 9
+  },
+  {
+   "id": "C21-furniture-free-tables",
+   "series": "2019-06",
+   "assertion": "3(d)(ii) crops the printed Property table — the margin-stripe mega-cluster defect must never zero out a page again (F18)",
+   "check": "asset_state",
+   "part": "3(d)(ii)",
+   "kind": "crop",
+   "path_contains": "asset_3_d_ii_table"
+  },
+  {
+   "id": "C22-crop-review-ledger",
+   "series": "*",
+   "assertion": "every accepted verdict in CROP-REVIEW.json references an existing crop asset, and every asset carrying review_verdict is ledger-accepted — the eyeball record and the corpus never drift apart (F29)",
+   "check": "crop_review_ledger"
+  },
+  {
+   "id": "C23-table-diagram-distinct",
+   "series": "2024-11",
+   "assertion": "6(a)(i) 'Complete the table' crops the formulae table via the group-stem anchor while 6(b) crops the Mg/Cl diagram — the two assets must never alias one file again, and the real table must never go uncropped (F33)",
+   "check": "asset_state",
+   "part": "6(a)(i)",
+   "kind": "crop",
+   "path_contains": "asset_6_a_table_stem"
+  },
+  {
+   "id": "C24-drawn-scaffold-crop",
+   "series": "2024-11",
+   "assertion": "6(c)(i) 'Complete the dot-and-cross diagram' crops the DRAWN ammonia scaffold (N circle + three H circles printed as vector art) instead of stubbing — the text-only scaffold signature must not swallow drawn scaffolds (F32)",
+   "check": "asset_state",
+   "part": "6(c)(i)",
+   "kind": "crop",
+   "page": 19,
+   "path_contains": "asset_6_c_i_diagram"
+  },
+  {
+   "id": "C25-2c-slice-count",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "4CH1/2C is extracted as its own paper slice: 7 questions (footer-verified probe, F34); the paper parametrization must never collapse 2C back onto the 1C slice or drop the slice",
+   "check": "question_count",
+   "expected": 7
+  },
+  {
+   "id": "C26-2c-g1-marks",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "4CH1/2C 2022-06 G1 structure PASSES with the 2C paper total of 70 marks (footer-verified 16/16 series, F34) — the per-variant PAPER_TOTALS registry must hold",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "PASS",
+   "marks_total": 70
+  },
+  {
+   "id": "C27-2c-sentence-positive",
+   "series": "2021-11",
+   "paper": "2C",
+   "assertion": "1(e) keys to D via the sentence-form positive 'The only correct answer is D' (F36) — sentence-style 2C MS entries must key on a single distinct positive without answer-row corroboration",
+   "check": "part_keyed_to",
+   "part": "1(e)",
+   "label": "D"
+  },
+  {
+   "id": "C28-adjudicated-key-ii",
+   "series": "2020-01",
+   "assertion": "part 7(a)(ii) keys to C chlorine (palest colour; MCQ-KEYS.json adjudication of the misprinted MS layout; finding F37)",
+   "check": "part_keyed_to",
+   "part": "7(a)(ii)",
+   "label": "C"
+  },
+  {
+   "id": "C29-adjudicated-gate",
+   "series": "2020-01",
+   "assertion": "G3-mcq-integrity status == PASS (with the adjudicated keys applied, the 2020-01 MCQ set is fully keyed — the F6 honest-refusal FAIL state is retired; F37)",
+   "check": "gate_status",
+   "gate": "G3-mcq-integrity",
+   "expected": "PASS"
+  },
+  {
+   "id": "C30-adjudicated-key-iii",
+   "series": "2020-01",
+   "assertion": "part 7(a)(iii) keys to A astatine (least reactive; MCQ-KEYS.json adjudication; finding F37) — replaces the C1-honest-refusal unkeyed pin",
+   "check": "part_keyed_to",
+   "part": "7(a)(iii)",
+   "label": "A"
+  },
+  {
+   "id": "C31-mcq-keys-ledger",
+   "series": "*",
+   "assertion": "MCQ-KEYS.json and the emitted corpus agree in both directions: every entry is applied (key set, answer_key_source marker, report lists it) and no corpus part claims adjudication without a ledger entry (finding F37)",
+   "check": "mcq_keys_ledger"
+  },
+  {
+   "id": "C32-spec-tag-terminal",
+   "series": "*",
+   "assertion": "spec tagging is terminal on the spec-labelled 1C tranche: zero pending-llm parts there; every no-spec-point part has a matching no_spec_point entry in its series spec-labels file, and every entry resolves to a real part carrying no codes (finding F38)",
+   "check": "spec_tag_terminal"
+  },
+  {
+   "id": "C33-2c-spec-tag-terminal",
+   "series": "*",
+   "paper": "2C",
+   "assertion": "spec tagging is terminal on the 2C tranche after its first wave (F40 wave): 0 pending-llm parts across all 16 2C slices, and the no-spec-point state agrees bidirectionally with the <series>-2C.json label files",
+   "check": "spec_tag_terminal"
+  },
+  {
+   "id": "C34-2c-stem-table-2022-06",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "7(d)(i) 'the table' resolves to the REAL bond-energy table via the 7(d) group stem (asset_7_d_table_stem, p18) as a shared ref — not the p19 energy diagram the v0.8.1 own-page rescue cropped (F40c)",
+   "check": "asset_state",
+   "part": "7(d)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_7_d_table_stem",
+   "page": 18
+  },
+  {
+   "id": "C35-2c-stem-table-2024-11",
+   "series": "2024-11",
+   "paper": "2C",
+   "assertion": "5(b)(i) 'Complete the table' resolves to the results table via the group stem (asset_5_b_table_stem, p13) — not the p12 burette diagram the v0.8.1 adjacent fallback stole (F40c)",
+   "check": "asset_state",
+   "part": "5(b)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_5_b_table_stem",
+   "page": 13
+  },
+  {
+   "id": "C36-2c-stem-table-2023-01",
+   "series": "2023-01",
+   "paper": "2C",
+   "assertion": "7(b)(i) 'the table' resolves to the bond-energy table via the group stem (asset_7_b_table_stem, p24) — not the p23 hydrazine displayed-formula circles (F40c)",
+   "check": "asset_state",
+   "part": "7(b)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_7_b_table_stem",
+   "page": 24
+  },
+  {
+   "id": "C37-2c-stem-table-2023-11",
+   "series": "2023-11",
+   "paper": "2C",
+   "assertion": "7(d)(i) 'the values in the table' resolves to the bond-energy table via the group stem (asset_7_d_table_stem, p22) — v0.8.1 stubbed it (F40c)",
+   "check": "asset_state",
+   "part": "7(d)(i)",
+   "kind": "crop",
+   "shared": true,
+   "ref_part": "asset_7_d_table_stem",
+   "page": 22
+  },
+  {
+   "id": "C38-2c-axis-rescue-2021-11",
+   "series": "2021-11",
+   "paper": "2C",
+   "assertion": "7(c) 'Draw an energy level diagram' crops the printed Energy axis scaffold on its own page (p23) — v0.8.1 stole the 7(b) bond table via the adjacent whole-stem fallback (F40a/F40d)",
+   "check": "asset_state",
+   "part": "7(c)",
+   "kind": "crop",
+   "page": 23,
+   "path_contains": "asset_7_c_diagram"
+  },
+  {
+   "id": "C39-2c-axis-rescue-2025-06",
+   "series": "2025-06",
+   "paper": "2C",
+   "assertion": "2(e) 'Draw a reaction profile diagram' crops the printed Energy axis scaffold on p7 — v0.8.1 stole the Q2 stem apparatus (F40a/F40d)",
+   "check": "asset_state",
+   "part": "2(e)",
+   "kind": "crop",
+   "page": 7,
+   "path_contains": "asset_2_e_diagram"
+  },
+  {
+   "id": "C40-2c-axis-rescue-2019-06",
+   "series": "2019-06",
+   "paper": "2C",
+   "assertion": "5(c) 'Draw an energy level diagram' crops the printed energy axis scaffold on p12 (archive-damaged series still resolves) (F40d)",
+   "check": "asset_state",
+   "part": "5(c)",
+   "kind": "crop",
+   "page": 12,
+   "path_contains": "asset_5_c_diagram"
+  },
+  {
+   "id": "C41-2c-pua-anchor-2022-01",
+   "series": "2022-01",
+   "paper": "2C",
+   "assertion": "6(a)(iii) 'the graph' gets its page anchor despite the PUA bullets in problem_md (F40e) and resolves UP to the printed plotting grid on p21 (F40b) — v0.8.1 stubbed it with page=None",
+   "check": "asset_state",
+   "part": "6(a)(iii)",
+   "kind": "crop",
+   "page": 21,
+   "path_contains": "asset_6_a_iii_graph"
+  },
+  {
+   "id": "C42-2c-anchor-2022-06",
+   "series": "2022-06",
+   "paper": "2C",
+   "assertion": "3(c) 'The table shows...' (sentence-initial noun) anchors ABOVE its printed electronic-configuration table on p6 — the v0.8.1 2-word probe landed on the instruction line and stubbed it (F40f)",
+   "check": "asset_state",
+   "part": "3(c)",
+   "kind": "crop",
+   "page": 6,
+   "path_contains": "asset_3_c_table"
+  },
+  {
+   "id": "C43-2c-anchor-2023-11",
+   "series": "2023-11",
+   "paper": "2C",
+   "assertion": "3(c) 'The diagram represents...' crops the pure-Al/alloy particle diagram on p9 — v0.8.1 stubbed it (F40f)",
+   "check": "asset_state",
+   "part": "3(c)",
+   "kind": "crop",
+   "page": 9,
+   "path_contains": "asset_3_c_diagram"
+  },
+  {
+   "id": "C44-2c-anchor-2025-11",
+   "series": "2025-11",
+   "paper": "2C",
+   "assertion": "6(b) 'The table gives some bond energies' crops the printed table on p19 — v0.8.1 stubbed it (F40f)",
+   "check": "asset_state",
+   "part": "6(b)",
+   "kind": "crop",
+   "page": 19,
+   "path_contains": "asset_6_b_table"
+  },
+  {
+   "id": "C45-2c-mention-suppressed-2026-06",
+   "series": "2026-06",
+   "paper": "2C",
+   "assertion": "4(c) 'Include suitable calculations and apparatus in your answer' carries NO asset — the 'apparatus in your answer' mention is student-provided, never a printed figure (F40g)",
+   "check": "asset_state",
+   "part": "4(c)",
+   "empty": true
+  },
+  {
+   "id": "C46-2c-ms-linkage-2021-01",
+   "series": "2021-01",
+   "paper": "2C",
+   "assertion": "1(b) links to the MS block the printed MS sub-numbered '1 (b) (i)' (marks-matched single-part fallback, F40h) — v0.8.1 left it unmatched",
+   "check": "part_linked",
+   "part": "1(b)"
+  },
+  {
+   "id": "C47-2c-ms-linkage-2025-06",
+   "series": "2025-06",
+   "paper": "2C",
+   "assertion": "1(b)(ii) links to the MS row printed '(II)' — roman-numeral case normalization (F40i) — and carries the adjudicated-by-layout solution block; v0.8.1 left it unmatched",
+   "check": "part_linked",
+   "part": "1(b)(ii)"
+  },
+  {
+   "id": "C48-ocr-layer-receipts",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "F41 OCR source layer: validation receipts carry exactly pages [4,12,16,18,20,26] (fail-closed sha verification happens in G0 at run time)",
+   "check": "ocr_pages_receipt",
+   "pages": [
+    4,
+    12,
+    16,
+    18,
+    20,
+    26
+   ]
+  },
+  {
+   "id": "C49-ocr-q7-stem-verbatim",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "Q7 (lost entirely to rasterization, recovered by F41) exists with its verbatim stem",
+   "check": "part_problem_md_contains",
+   "question": 7,
+   "substring": "Diamond, graphite and silicon dioxide all have giant covalent structures"
+  },
+  {
+   "id": "C50-ocr-equation-pin",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "Q11(a) carries the transcribed combustion equation (subscripts below the 144-dpi OCR floor; transcribed from the 600-dpi render, corroborated by the MS text layer)",
+   "check": "part_problem_md_contains",
+   "question": 11,
+   "contains_all": [
+    "CH4(g) + 2O2(g)",
+    "CO2(g) + 2H2O(g)"
+   ]
+  },
+  {
+   "id": "C51-ocr-table-values-pin",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "Q12 stem carries the results-table values 20.0/14.2 (dropped by every OCR variant; transcribed from the render, corroborated by MS 'M1 14.2 - 20.0 = (-)5.8')",
+   "check": "part_problem_md_contains",
+   "question": 12,
+   "contains_all": [
+    "20.0",
+    "14.2"
+   ]
+  },
+  {
+   "id": "C52-ms-image-answer-adjudicated",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "3(d)(ii) links through the F47 manual-linkage ledger: its MS answer cell is a printed image (bordered Property table with ticks), so the answer of record is the eyeballed verbatim transcription in MS-LINK-OVERRIDES.json with rendered-page evidence — never model guessing (supersedes the F42 honest-refusal pin)",
+   "check": "part_linked",
+   "part": "3(d)(ii)"
+  },
+  {
+   "id": "C53-ms-bare-marker-linkage",
+   "series": "2019-06",
+   "paper": "1C",
+   "assertion": "F42 early-MS bare-marker linkage: 3(d)(i), 10(a)(i), 10(b)(i), 13(b)(i), 14(f)(ii), 11(b)(iii), 15(b)(i) all linked with solutions (also pins the damage-repair renumber 15(b)(i..iii)/11(b)(iii))",
+   "check": "parts_all_linked",
+   "parts": [
+    "3(d)(i)",
+    "10(a)(i)",
+    "10(b)(i)",
+    "13(b)(i)",
+    "14(f)(ii)",
+    "11(b)(iii)",
+    "15(b)(i)"
+   ]
+  },
+  {
+   "id": "C54-solution-blocks-header-free",
+   "series": "*",
+   "assertion": "F43: no served solution_md or mark_points text carries the repeated MS page-table header ('Question / Answer Notes Marks / number') — the v0.6-era block-boundary leak cleaned corpus-wide in v0.10.0 (278 blocks)",
+   "check": "solution_blocks_header_free"
+  },
+  {
+   "id": "C55-manual-crop-raster",
+   "series": "2019-06",
+   "assertion": "15(a) tests table crops straight from the rasterized p26 archive scan via the F45 manual-crop box (render=raster) - a rasterized page is no longer an automatic stub when an eyeballed rect exists (F41's no-crop decision superseded)",
+   "check": "asset_state",
+   "paper": "1C",
+   "part": "15(a)",
+   "kind": "crop",
+   "page": 26,
+   "path_contains": "asset_15_a_table"
+  },
+  {
+   "id": "C56-pua-free-corpus",
+   "series": "*",
+   "assertion": "F48 PUA pass: no served string in any topic.json carries a Private Use Area char (U+E000-U+F8FF) — every symbol-font glyph surfaces as its evidenced real Unicode form; the pins re-prove eleven of the mappings at their exact parts 1CR-wave pins: the ZapfDingbats tick and the Symbol big-bracket trio.",
+   "check": "no_pua_served",
+   "pins": [
+    {
+     "series": "2019-06",
+     "paper": "1C",
+     "part": "5(c)(i)",
+     "field": "solution",
+     "contains": "N2 + 3H2 → 2NH3"
+    },
+    {
+     "series": "2019-06",
+     "paper": "1C",
+     "part": "3(d)(ii)",
+     "field": "problem",
+     "contains": "Add ticks (✓)"
+    },
+    {
+     "series": "2020-01",
+     "paper": "1C",
+     "part": "6(a)",
+     "field": "solution",
+     "contains": "zinc + hydrochloric acid → zinc chloride + hydrogen"
+    },
+    {
+     "series": "2019-06",
+     "paper": "2C",
+     "part": "7(a)",
+     "field": "stem",
+     "contains": "N2O4(g) ⇌ 2NO2(g)"
+    },
+    {
+     "series": "2021-01",
+     "paper": "2C",
+     "part": "3(a)(i)",
+     "field": "stem",
+     "contains": "• pour some carboxylic acid"
+    },
+    {
+     "series": "2022-06",
+     "paper": "2C",
+     "part": "7(d)(i)",
+     "field": "solution",
+     "contains": "Σ bonds broken = 4 x C−H"
+    },
+    {
+     "series": "2024-06",
+     "paper": "2C",
+     "part": "3(c)(i)",
+     "field": "solution",
+     "contains": "700 (°C"
+    },
+    {
+     "series": "2025-06",
+     "paper": "1C",
+     "part": "5(c)(ii)",
+     "field": "solution",
+     "contains": "H─C─C─C─C─H"
+    },
+    {
+     "series": "2022-06",
+     "paper": "2C",
+     "part": "7(d)(ii)",
+     "field": "solution",
+     "contains": "↑\nEnergy"
+    },
+    {
+     "series": "2019-06",
+     "paper": "1CR",
+     "part": "2(a)",
+     "field": "problem",
+     "contains": "Place ticks (✓) in three boxes"
+    },
+    {
+     "series": "2022-06",
+     "paper": "1CR",
+     "part": "7(d)(i)",
+     "field": "problem",
+     "contains": "⎡"
     }
-  ]
+   ]
+  },
+  {
+   "id": "C57-ms-link-overrides-ledger",
+   "series": "*",
+   "assertion": "MS-LINK-OVERRIDES.json and the corpus agree in both directions: every adjudicated entry is applied (linked, answer_key_source marker, validation report lists it, solution_md rebuilt from the adjudicated block) and no part claims adjudication without a ledger entry",
+   "check": "ms_link_overrides_ledger"
+  },
+  {
+   "id": "C58-deep-roman-linkage",
+   "series": "2023-11",
+   "paper": "1C",
+   "assertion": "F46 deep-indent roman rows: 6(c)(ii) 'best fit curve starting at 0 and levelling off at 94 cm3' and 6(d)(ii) 'M1 curve less steep / M2 levelling off at 46-48 cm3' link to their printed MS blocks (indent-22 '(ii)' rows the {0,20} window used to absorb into the (i) blocks)",
+   "check": "parts_all_linked",
+   "parts": [
+    "6(c)(ii)",
+    "6(d)(ii)"
+   ]
+  },
+  {
+   "id": "C59-qstart-first-match-1cr",
+   "series": "2023-06",
+   "paper": "1CR",
+   "assertion": "F49 QSTART first-match law: Q3 parses WHOLE — the isotope label row '3  Li   73Li' inside the question body no longer truncates the region (cur[-1] did exactly that), so 3(a)(i) exists and keys to A (electron); Q3 carries its printed 8 marks across 6 parts",
+   "check": "part_keyed_to",
+   "part": "3(a)(i)",
+   "label": "A"
+  },
+  {
+   "id": "C60-1cr-degraded-markers-2019-06",
+   "series": "2019-06",
+   "paper": "1CR",
+   "assertion": "F50 degraded-marker linkage: the old-format Summer-2019 MS rows '3 c (i)' (bare letter + one space + paren roman), 'a (ii)' (letter repeated on the roman row) and the glued 'b(iv)' marker-only row between M1/M2 all link — 3(c)(i)-(iii), 4(b)(iv) and 5(a)(ii) reach their printed blocks",
+   "check": "parts_all_linked",
+   "parts": [
+    "3(c)(i)",
+    "3(c)(ii)",
+    "3(c)(iii)",
+    "4(b)(iv)",
+    "5(a)(ii)"
+   ]
+  },
+  {
+   "id": "C61-1cr-5a-ii-keyed-B",
+   "series": "2019-06",
+   "paper": "1CR",
+   "assertion": "the repaired 5(a)(ii) linkage carries its MS key ('B gas is given off' + rebuttal rows) — the G3 MCQ census heals with no MCQ-KEYS adjudication needed",
+   "check": "part_keyed_to",
+   "part": "5(a)(ii)",
+   "label": "B"
+  },
+  {
+   "id": "C62-1cr-half-paren-markers-2020-11",
+   "series": "2020-11",
+   "paper": "1CR",
+   "assertion": "F50 half-paren markers: 'b)     i)' and the 'ii)' continuation row both parse — 3(b)(i) and 3(b)(ii) link",
+   "check": "parts_all_linked",
+   "parts": [
+    "3(b)(i)",
+    "3(b)(ii)"
+   ]
+  },
+  {
+   "id": "C63-1cr-bare-roman-2026-06",
+   "series": "2026-06",
+   "paper": "1CR",
+   "assertion": "F50 paren-letter + bare-roman rows: '(e)      i   nitrogen' and the 'ii' continuation parse — 1(e)(i) and 1(e)(ii) link",
+   "check": "parts_all_linked",
+   "parts": [
+    "1(e)(i)",
+    "1(e)(ii)"
+   ]
+  },
+  {
+   "id": "C64-1cr-sidebar-marker-2022-01",
+   "series": "2022-01",
+   "paper": "1CR",
+   "assertion": "F50 sidebar-marker branch + F47 override: the rotated-margin strip ('all clip with graph') no longer hides 8(b) — (ii)-(v) link positionally and (b)(i) links via the MS-LINK-OVERRIDES transcription of its wrap-split answer cell",
+   "check": "parts_all_linked",
+   "parts": [
+    "8(b)(i)",
+    "8(b)(ii)",
+    "8(b)(iii)",
+    "8(b)(iv)",
+    "8(b)(v)"
+   ]
+  },
+  {
+   "id": "C65-delta-normalization",
+   "series": "*",
+   "assertion": "F52 source-char normalization: no served string in any topic.json carries U+01FB (the MyriadPro-It italic-Delta artifact, bytes C7 BB) — every printed italic Delta surfaces as U+0394; pins re-prove the three fixed parts at their exact strings.",
+   "check": "no_pua_served",
+   "extra_chars": [
+    [
+     507,
+     916
+    ]
+   ],
+   "pins": [
+    {
+     "series": "2020-01",
+     "paper": "1CR",
+     "part": "6(c)(i)",
+     "field": "problem",
+     "contains": "Calculate the molar enthalpy change, ΔH, in kJ/mol."
+    },
+    {
+     "series": "2020-01",
+     "paper": "2CR",
+     "part": "6(b)(iv)",
+     "field": "problem",
+     "contains": "the enthalpy change, ΔH."
+    },
+    {
+     "series": "2020-01",
+     "paper": "2CR",
+     "part": "6(c)",
+     "field": "problem",
+     "contains": "calculate the enthalpy change, ΔH,"
+    }
+   ]
+  },
+  {
+   "id": "C66-stem-figures-ledger",
+   "series": "*",
+   "assertion": "wave-20 (F-W20-1): every STEM-RESTORE.json stemFigures spec is realized in the corpus as a kind=crop asset flagged stem_figure + manual_crop (rendered through the F45 branch), and every corpus stem_figure asset traces back to its ledger entry — bidirectional, corpus-wide",
+   "check": "stem_figures_ledger"
+  },
+  {
+   "id": "C67-stem-chromatogram-2019-06",
+   "series": "2019-06",
+   "assertion": "wave-20: the Q4 chromatography apparatus (dropped by every prior wave) is a real crop on 4(a) — the first-part stem figure the restored stem needs",
+   "check": "asset_state",
+   "paper": "1C",
+   "part": "4(a)",
+   "kind": "crop",
+   "path_contains": "asset_4_stem_chromatogram"
+  },
+  {
+   "id": "C68-stem-bond-tables-2019-06",
+   "series": "2019-06",
+   "assertion": "wave-20: the (a)-group bond-energy tables print above 5(a)(i) with no part-owned crop — the ledger-targeted stub renders them on the part that reads them",
+   "check": "asset_state",
+   "paper": "2C",
+   "part": "5(a)(i)",
+   "kind": "crop",
+   "path_contains": "asset_5_stem_bond-tables"
+  },
+  {
+   "id": "C69-stem-raster-structures-2019-06",
+   "series": "2019-06",
+   "assertion": "wave-20: Q7's three-structure diagram lives on the rasterized p12 archive scan (no text anchors) — the manual crop is render=raster and carries the key",
+   "check": "asset_state",
+   "paper": "1C",
+   "part": "7(a)",
+   "kind": "crop",
+   "path_contains": "asset_7_stem_structures"
+  },
+  {
+   "id": "C70-stem-formulae-2020-01",
+   "series": "2020-01",
+   "assertion": "wave-20: the six displayed formulae PQRSTU (flattened to a letter run in the stem text) are a real crop on 5(a)(i) — the formulae letter-run tranche closes",
+   "check": "asset_state",
+   "paper": "1C",
+   "part": "5(a)(i)",
+   "kind": "crop",
+   "path_contains": "asset_5_stem_displayed-formulae"
+  },
+  {
+   "id": "C71-solution-enrichment-ledger",
+   "series": "*",
+   "assertion": "wave-20 Part C (F-W20-3): every SOLUTION-ENRICH.json entry resolves to a real part, carries the authored review state, enriches (differs from) the MS cell - and the corpus topic.json still holds the MS-derived solution (enrichment is export-only, never baked into the data plane) | wave-22: the corpus is COMPLETE - min_entries=2607 (every solution-bearing part of the 54 official sets carries an authored, verifier-clean worked answer); the floor fails if the ledger ever shrinks",
+   "check": "solution_enrichment_ledger",
+   "min_entries": 2607
+  },
+  {
+   "id": "C72-mcq-choice-scripts-2026-06",
+   "series": "2026-06",
+   "assertion": "wave-24 (F64): the printed MCQ scripts survive extraction — 1(a) A carries a RAISED 4 (distractor) while D is the true ammonium ion; the G8 audit's duplicate-choice ambiguity is closed and pinned byte-exact",
+   "check": "mcq_choices",
+   "paper": "1C",
+   "part": "1(a)",
+   "expect": {
+    "A": "NH⁴⁺",
+    "D": "NH₄⁺"
+   }
+  },
+  {
+   "id": "C73-figure-queue-disposition",
+   "series": "*",
+   "assertion": "wave-24 (G8): FIGURE-QUEUE.json is bidirectionally consistent with the corpus — every cropped/served_via entry resolves to a real asset (on the part, or on a same-question carrier), every dismissal is a real QP-verified decision (nothing UNREVIEWED); the queue is finished when it is empty",
+   "check": "figure_queue"
+  },
+  {
+   "id": "C74-physics-pua-tranche-guard",
+   "spec": "4ph1",
+   "series": "*",
+   "check": "no_pua_served",
+   "assertion": "Task 16 landing (F66): the 4PH1 corpus serves ZERO Private Use Area chars - every symbol-font glyph surfaces as its real Unicode form via PUA_MAP. Guards the v0.17.3 physics PUA tranche (5 evidenced mappings, merge 2254347353) against a recurrence of the concurrent-merge clobber class that reverted it once already (#136 tree-snapshot merge). TASK 17 CORRECTION (F72): the pi pin moved from 1(b)(ii) to 1(c) - the v0.19.0 marker census proved Task 16's own pin had codified a MIS-LINK (the old parser never opened the 1(c) letter entry, so the fallback served the (c) block at (b)(ii); the MS of record prints 'allow use of 3.14, 22/7 for pi' as Q1(c) notes and (b)(ii) is the 'B - gravitational;' MCQ). The pin re-proves the U+F070->pi mapping at its CORRECT served part; without the tranche the pin strings carry U+F070 and fail both laws.",
+   "pins": [
+    {
+     "series": "2024-11",
+     "paper": "1P",
+     "part": "1(c)",
+     "field": "solution",
+     "contains": "22/7\nfor π"
+    },
+    {
+     "series": "2022-06",
+     "paper": "2PR",
+     "part": "3(c)(ii)",
+     "field": "solution",
+     "contains": "orbital period = (2 × π × 1.1(× 103)) ÷ 2.9 × 108"
+    }
+   ]
+  },
+  {
+   "id": "C75-physics-2p-footer-law",
+   "spec": "4ph1",
+   "series": "2024-06",
+   "paper": "2P",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "PASS",
+   "marks_total": 70,
+   "assertion": "Task 16 landing: the physics 2P footer law (Task 14 F34-physics verification from the archive of record) - 4PH1 2P papers total exactly 70 marks and G1 proves every part-sum exact. Regresses if PAPER_TOTALS or the footer regex lose the 4ph1 lane."
+  },
+  {
+   "id": "C76-physics-1p-question-count",
+   "spec": "4ph1",
+   "series": "2023-06",
+   "paper": "1P",
+   "check": "question_count",
+   "expected": 12,
+   "assertion": "Task 16 landing: 4PH1 1P 2023-06 prints 12 questions (footer-verified, sum 110) - the physics EXPECT_QUESTIONS seed. Regresses if the 4ph1 lane loses its count registry."
+  },
+  {
+   "id": "C77-ms-furniture-free",
+   "series": "*",
+   "assertion": "no MS page-bottom furniture (question-total footer in either printed word order, the paper-total line, the bare 'Total = N' fragment, the Pearson copyright block or its office continuation) survives in any served solution_md or mark_points text corpus-wide (F69; the exporter's serve-time strip is now a redundant second line of defense, never the only one)",
+   "check": "no_ms_furniture_lines"
+  },
+  {
+   "id": "C78-bel-free-corpus",
+   "series": "*",
+   "assertion": "no BEL U+0007 control char anywhere in a served topic.json string — the numbered-method-step pdftotext artifact is normalized at source in clean_lines and the page_norm anchor index (F67); the exporter's stem-side strip becomes a no-op",
+   "check": "no_pua_served",
+   "extra_chars": [
+    [
+     7,
+     32
+    ]
+   ]
+  },
+  {
+   "id": "C79-no-orphan-assets",
+   "series": "*",
+   "assertion": "every PNG under any slice's assets/ is referenced by that slice's topic.json — superseded crops are pruned in the wave that supersedes them, never left to accumulate (F71; 57 pre-existing orphans pruned by wave-25)",
+   "check": "no_orphan_assets"
+  },
+  {
+   "id": "C80-image-answer-ledger-2021-01-2cr-7d",
+   "series": "2021-01",
+   "paper": "2CR",
+   "assertion": "7(d) links through the F47 MS-LINK-OVERRIDES ledger — the printed MS answer cell is a drawn displayed-formula image (methylpropane); the pre-v0.18.0 footer-as-solution state must never return (F66)",
+   "check": "part_linked",
+   "part": "7(d)"
+  },
+  {
+   "id": "C81-continuation-row-ledger-2025-06-2cr-7c-ii",
+   "series": "2025-06",
+   "paper": "2CR",
+   "assertion": "7(c)(ii) links through the F47 ledger to its printed row ('ethyl ethanoate' / 'IGNORE hyphens') — pre-v0.18.0 the parser served the page-bottom furniture block as its solution (F66)",
+   "check": "part_linked",
+   "part": "7(c)(ii)"
+  },
+  {
+   "id": "C82-drawing-answer-ledger-2025-06-1cr-9d-ii",
+   "series": "2025-06",
+   "paper": "1CR",
+   "assertion": "9(d)(ii) links through the F47 ledger to the two hand-drawn isomer structures — pre-v0.18.0 the parser served Q8's footer fragment 'Total = 13' as its solution (F66)",
+   "check": "part_linked",
+   "part": "9(d)(ii)"
+  },
+  {
+   "id": "C83-physics-triple-glue-mcq",
+   "spec": "4ph1",
+   "series": "2024-06",
+   "paper": "2P",
+   "check": "gate_status",
+   "gate": "G3-mcq-integrity",
+   "expected": "PASS",
+   "assertion": "Task 17 MS-table wave (F72): the 2024-06 2P MCQ parts 4(a)(i)/(ii) live in triple rows '4 (a)   (i)   A (friction);' whose roman marker the v0.17.4 lane swallowed into content. v0.19.0 opens the roman entries and keys both parts. Regresses if the triple-glue rule or the vertical keying path loses the qn+letter+roman family."
+  },
+  {
+   "id": "C84-physics-qn-content-bootstrap",
+   "spec": "4ph1",
+   "series": "2023-01",
+   "paper": "2P",
+   "check": "gate_status",
+   "gate": "G5-answer-linkage",
+   "expected": "PASS",
+   "assertion": "Task 17 MS-table wave (F72): 2023-01 2P Q1 is a whole-question part whose MS row '1   electrons;   5' sits at indent 1 with the marks digit as the tail - the qn+content family needs the ascending+tail+indent<=3 triple gate (181 of 198 stripped-shape rows are numeric answer content). Regresses if the mqc gate over-tightens back to column-0 or loses the tail signature."
+  },
+  {
+   "id": "C85-physics-orphan-roman-reanchor",
+   "spec": "4ph1",
+   "series": "2026-06",
+   "paper": "2P",
+   "check": "gate_status",
+   "gate": "G5-answer-linkage",
+   "expected": "PASS",
+   "assertion": "Task 17 MS-table wave (F72): 2026-06 2P Q4(c) prints (c)(ii) with no preceding (c) cell (pdftotext merged it) and (c)(i)'s answer is an embedded equation image - the orphan-roman re-anchor opens (4,c,ii) and the F42-doctrine MS-LINK-OVERRIDES entry carries the eyeballed transcription for 4(c)(i). Regresses if the re-anchor fires on indented cross-references or the override ledger entry is lost."
+  },
+  {
+   "id": "C86-maths-tranche1-gates",
+   "series": "2025-11",
+   "assertion": "F74: the first igcse-maths-b-16 slice of record (2025-11 4MB1-02, v0.16.0 tranche-1) — all gates G0-G7 PASS, all negative controls DETECTED, the spec §3.4 control-char fallback present and disclosed in the report, exactly 34 parts (31 marker parts + 3 implicit single-part), and every part carries a linked solution_md",
+   "check": "maths_tranche1_gates",
+   "paper": "02",
+   "expected_parts": 34,
+   "spec": "4mb1"
+  },
+  {
+   "id": "C87-course-registry-chemistry-default",
+   "series": "*",
+   "assertion": "F73: the SPECS registry chemistry entry stays identical to the chemistry-of-record defaults (lane igcse-chemistry-19, prefix 4CH1, PAPER_TOTALS {1C:110,2C:70,1CR:110,2CR:70}, the '=' footer regex) and the registry knows exactly the three lanes 4ch1/4ph1/4mb1 (4MB1 totals 100 x4) — a divergence means a lane entry and the chemistry defaults drifted apart; chemistry outputs regenerate byte-identical only while this holds. (run-004 union: adapted from the branch line's COURSES assertion — the union migrated the course axis to SPECS[\"4mb1\"]; the branch's COURSE_PREFIX/OUTROOT globals no longer exist.)",
+   "check": "course_registry_chemistry_default",
+   "spec": "4mb1"
+  },
+  {
+   "id": "C88-maths-drain-state",
+   "series": "*",
+   "assertion": "run-003 drain-closure state of record: the igcse-maths-b-16 corpus holds 66 converted slices, ALL with gates G0-G7 PASS (the 2018-2021 first-sitting-era tail closed by LEDGER F82-F84: text-glued/vector-drawn QP marks recovery, the singular-mark footer law, and the numeral-only MS rows; 2019-01 both papers via the F41 OCR layer, prep_ocr_layer_2019mb.py). Either count moving without a ledger entry fails this canary.",
+   "check": "maths_drain_state",
+   "expected_pass": 66,
+   "expected_failing": 0,
+   "spec": "4mb1"
+  },
+  {
+   "id": "C89-physics-qp-print-defect-completion",
+   "spec": "4ph1",
+   "series": "2020-01",
+   "paper": "1PR",
+   "check": "gate_status",
+   "gate": "G3-mcq-integrity",
+   "expected": "PASS",
+   "assertion": "Task 18 QP-side wave (F85): 2020-01 1PR 1(b) prints its 4th option row as 'A S' (the QP's own typo — the MS of record rebuts 'D is incorrect as arrow S'). v0.21.0 completes the run (repeat-first-label law) so the slice serves A-D and G3 passes. Regresses if the repeat-label completion or its 4PH1 gate is lost."
+  },
+  {
+   "id": "C90-physics-relabel-choice-keyed-B",
+   "spec": "4ph1",
+   "series": "2020-01",
+   "paper": "1PR",
+   "check": "part_keyed_to",
+   "part": "1(b)",
+   "label": "B",
+   "assertion": "Task 18 QP-side wave (F85): the completed 1(b) block keys B ('B - arrow Q') from the MS of record positionally, with the relabel disclosed on value_trace.choices. Regresses if the 4th choice drops again (labels A-C) or the key resolution loses the block."
+  },
+  {
+   "id": "C91-physics-tick-table-structured",
+   "spec": "4ph1",
+   "series": "2023-06",
+   "paper": "2PR",
+   "check": "part_structured",
+   "part": "7(a)",
+   "assertion": "Task 18 QP-side wave (F85): 7(a) 'Place ticks in the table' (2 marks) is a multi-select tick-table, NOT a single-select MCQ — v0.21.0's marks law disqualifies the option-run extraction, killing the FALSE served key ('C 500 Hz' is_correct from the compound tick rule) and serving the printed rows verbatim with the MS tick rule linked. Regresses if the marks-law disqualification reverts."
+  },
+  {
+   "id": "C92-physics-matching-structured",
+   "spec": "4ph1",
+   "series": "2022-06",
+   "paper": "2PR",
+   "check": "part_structured",
+   "part": "1(a)",
+   "assertion": "Task 18 QP-side wave (F85): 1(a) 'Draw lines connecting each point to the correct star classification' (4 marks) is a matching-lines question — the A-D point column must never type as multiple_choice. v0.21.0 serves it structured with the columns verbatim and the MS marking scheme linked. Regresses if the marks-law disqualification reverts."
+  },
+  {
+   "id": "C93-physics-labelling-structured",
+   "spec": "4ph1",
+   "series": "2026-06",
+   "paper": "1PR",
+   "check": "part_structured",
+   "part": "1(a)",
+   "assertion": "Task 18 QP-side wave (F85): 1(a) 'Give the names of objects A, B, C and D' (4 marks) is a labelling question whose A-D answer lines (dot-runs) must never serve as MCQ choices (v0.20.0 served the raw dot-runs as choice texts). v0.21.0 serves it structured with the letters verbatim and the MS naming scheme linked. Regresses if the marks-law disqualification reverts."
+  }
+ ]
 }

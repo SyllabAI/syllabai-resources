@@ -38,10 +38,12 @@ Official-ExamQuestion/
   igcse-chemistry-19/<series>/4CH1-<paper>/   (1C since the prototype; 2C since v0.8/F34;
                                                 1CR since v0.12 — R-VARIANT tranche 1)
   igcse-physics-19/<series>/4PH1-<paper>/   SECOND LANE (landed Task 16; MS-table parser
-                                                wave Task 17, F72): 53 slices LANDED under
-                                                ADR-039, all gates green — its
-                                                LANE-STATUS.md is the disclosure of record;
-                                                converter lane key `--spec 4ph1` (v0.16.0)
+                                                wave Task 17 F72; QP-side wave Task 18
+                                                F85): 53 slices LANDED under ADR-039,
+                                                53/53 fully PASS (G3 135/135, G5 2,171/2,171)
+                                                — its LANE-STATUS.md is the disclosure of
+                                                record; converter lane key `--spec 4ph1`
+                                                (v0.16.0)
     topic.json              syllabai.official-paper-questions/0.1 (the product)
     questions.md            human-readable render
     validation-report.json  G0–G7 receipts + negative controls + review queue
@@ -456,13 +458,14 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
   `STEM-RESTORE.json`); the stem FIGURES remain the open crop tranche (see the
   ledger's tranche flags — ~28 figures/tables + 9 formulae letter-runs).
 - 2020-06 never ran (COVID); do not "fix" its absence in the archive.
-- igcse-physics-19 open waves (Task 17 after F72 closed the MS-table parser wave: G5 now
-  corpus-complete 2,171/2,171, G3 134/138): QP-side structural fixes for the 4 G3 fails
-  (choice-label drops 2020-01 1PR 1(b) + 2023-06 2PR 7(a); question-typing for the matching
-  2022-06 2PR 1(a) and labelling 2026-06 1PR 1(a) questions), crop eyeball (65 flagged + 30
-  stubs → CROP-REVIEW 4ph1 homes), spec-labels (2,171 pending-llm), 2019-06 1P OCR layer
-  (+ the empty-footer-census crash → attribution fix), pastpapers repairs (2023-06 2P mislabel
-  bytes); hub handover NOT started. run_all.sh and make_multiseries_report.py remain
+- igcse-physics-19 open waves (Task 18 after F85 closed the QP-side wave: the lane is
+  53/53 fully PASS — G3 135/135, G5 2,171/2,171, the withheld surface EMPTY): crop eyeball
+  (65 flagged + 30 stubs → CROP-REVIEW 4ph1 homes), spec-labels (2,171 pending-llm),
+  2019-06 1P OCR layer (+ the empty-footer-census crash → attribution fix), pastpapers
+  repairs (2023-06 2P mislabel bytes), chemistry re-staging (F86: regenerate the chemistry
+  staging txt layers with the method of record so fresh re-emissions reproduce the served
+  corpus — C56 pin misses + C61 — and give the row-lane rebuttal regex its missing
+  alternation); hub handover NOT started. run_all.sh and make_multiseries_report.py remain
   chemistry-scoped until generalized.
 - 2C follow-ups (F34 wave): (a) DONE v0.9.0 — the 22 review-queue figure items
   were eyeballed and 17 verdicts recorded in CROP-REVIEW.json under

@@ -1,7 +1,7 @@
 {
  "schema": "syllabai.official-paper-questions/0.2",
- "generated_utc": "2026-10-25T22:06:39Z",
- "generator": "official_examq_extract.py v0.19.0 (ADR-039) series=2022-06 paper=2PR",
+ "generated_utc": "2026-10-26T09:19:59Z",
+ "generator": "official_examq_extract.py v0.21.0 (ADR-039) series=2022-06 paper=2PR",
  "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2022-06:4PH1/2PR",
  "source": {
   "qp_sha256": "81a797320f4eb725cbe5434730692bce45dd2bafee6f056b58080eaa6246c9bc",
@@ -30,26 +30,9 @@
     {
      "part_number": "1(a)",
      "marks": 4,
-     "question_type": "multiple_choice",
-     "problem_md": "The boxes give four points, A, B, C and D, and four star classifications. Draw lines connecting each point to the correct star classification. Point Star classification",
-     "choices": [
-      {
-       "label": "A",
-       "text_md": "star similar to the Sun"
-      },
-      {
-       "label": "B",
-       "text_md": "white dwarf"
-      },
-      {
-       "label": "C",
-       "text_md": "red giant"
-      },
-      {
-       "label": "D",
-       "text_md": "very bright blue star"
-      }
-     ],
+     "question_type": "structured",
+     "problem_md": "The boxes give four points, A, B, C and D, and four star classifications. Draw lines connecting each point to the correct star classification. Point Star classification A star similar to the Sun B white dwarf C red giant D very bright blue star",
+     "choices": [],
      "answer_status": "linked",
      "solution_md": "1 mark for each correct line;;;;\nreject any box from the\nleft with 2 lines",
      "mark_points": [
@@ -77,7 +60,7 @@
      "tagging": "pending-llm",
      "edit_status": "extracted",
      "value_trace": {
-      "keys": "unresolved:review-queue",
+      "keys": "n/a",
       "marks": "ms-printed",
       "numbers": "source-printed"
      }

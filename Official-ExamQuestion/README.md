@@ -85,16 +85,19 @@ is the executed precedent.
   spec tagging), 2019-06 re-ingest, then new courses per ADR-037 §6 (4XCH1 modular,
   4SD0 shared papers).
 
-## Status — igcse-physics-19 (second lane, landed Task 16, MS-parser wave Task 17)
+## Status — igcse-physics-19 (second lane, landed Task 16; MS-parser wave Task 17; QP-side wave Task 18)
 
 - **53 of 58 census paper dirs of 4PH1 (all 17 series, 2019-06 … 2026-06) are converted
-  and LANDED under ADR-039**: 520 questions, 2,171 parts, 4,790 marks, converter v0.19.0.
-  **Every slice passes every gate (G0–G7) and the battery is 83/83.** The Task 17
-  MS-table parser wave (F72) closed the Task 16 disclosed deltas: G5 answer linkage is
-  corpus-complete (2,171/2,171 parts carry their verbatim MS block; baseline was 1,235),
-  G3 MCQ keying is 134/138 — the 4 remaining fails are QP-side structural classes
-  (choice-label extraction drops + non-MCQ question typing), disclosed in LANE-STATUS,
-  never guessed.
+  and LANDED under ADR-039**: 520 questions, 2,171 parts, 4,790 marks, converter v0.21.0.
+  **Every slice passes every gate (G0–G7), the lane is 53/53 fully PASS, and the battery
+  is 91 canaries with 90 holding (the 1 exception is a disclosed pre-existing staging-era
+  item, LEDGER F86).** Task 17 (F72) closed G5 corpus-wide (2,171/2,171 parts carry their
+  verbatim MS block); Task 18 (F85, the QP-side wave) closed G3 corpus-wide (135/135
+  keyed): the 2020-01 1PR 1(b) print-defect row completes as `D S` (keyed B, relabel
+  disclosed on value_trace.choices), and the three marks≥2 structural shapes
+  (2023-06 2PR 7(a) tick-table, 2022-06 2PR 1(a) matching, 2026-06 1PR 1(a) labelling)
+  type `structured` with their rows verbatim — which also removed 7(a)'s false served key
+  (`C 500 Hz`) and 2026-06 1(a)'s dot-run choice texts. The withheld surface is now EMPTY.
 - 5 dirs dispositioned with standing receipts: 2020-11 1PR/2P/2PR (no QP in archive,
   `na:pmt-not-listed`), 2019-06 1P (image-only scan, OCR wave open), 2023-06 2P
   (archive bytes are an Examiners' Report — pastpapers repair owed).

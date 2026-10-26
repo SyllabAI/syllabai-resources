@@ -1,5 +1,52 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.21.0 — 2026-10-26 · Task 18: the QP-side wave (F85) — the 4 QP-side structural G3 fails close; the lane goes 53/53 fully PASS
+
+The Task 17 disclosure named exactly 4 QP-side fails ("open wave #1"). The F85 census
+(instrumented re-parse of all 53 landed 4PH1 slices' QP text layers) proved the corpus law
+and closed them with two 4PH1-gated parser changes, plus one drive-by repair the battery
+assembly caught:
+
+- **parse_mcq_block — the repeat-first-label print-defect completion** (4PH1-gated): 2020-01
+  1PR 1(b) prints its 4th option row as `A S` where the run is A/B/C/D-S (Pearson typo; the
+  MS of record keys `B – arrow Q` and rebuts `D is incorrect as arrow S`). The row previously
+  leaked into problem_md and the run served labels A–C. The completion fires only when the
+  final row of a 4-option run repeats the FIRST label at expect==3 (unique completion of the
+  canonical A–D run); corpus census: exactly 1 instance. Disclosed on the part via
+  `value_trace.choices` (popped from the choice record at the provenance block — it never
+  serializes). Canaries C89/C90.
+- **finalize_part — the marks-law structural disqualification** (4PH1-gated): the census
+  proved every true 4PH1 single-select MCQ prints exactly 1 mark (129/138 option-run parts);
+  the marks≥2 exceptions are exactly the structural shapes mis-typed as `multiple_choice` —
+  2023-06 2PR 7(a) place-ticks-in-the-table (2 marks), 2022-06 2PR 1(a) draw-matching-lines
+  (4), 2026-06 1PR 1(a) name-the-object labelling (4). Serving them as MCQs produced a FALSE
+  served key (7(a) keyed `C 500 Hz` from the compound tick rule `C and D ticked…` + a false
+  mark_point `Answer C: 500`) and dot-run answer lines served as choice texts (2026-06 1(a)).
+  The option-run extraction is refused; the rows serve verbatim in `problem_md`; the part
+  types `structured` and links its MS block through the ordinary G5 lane. Canaries
+  C91/C92/C93 (new `part_structured` checker arm).
+- **the F033 tick repair** (chemistry `pua_override`, the battery's drive-by catch — F86):
+  run-004's global SymbolMT digit range clobbered chemistry's F48 tick mapping
+  (`F033 → '3'` instead of the evidence-backed ✓). Repaired as a `4ch1` lane override —
+  the union's own F068/F06a/F075 lane-split pattern; exactly 1 `F03x` occurrence across 54
+  chemistry staging layers.
+- **Corpus result (53/53 re-run fresh)**: every slice passes every gate — **53/53 fully
+  PASS** for the first time (Task 16: 11; Task 17: 49). G3 MCQ keying 135/135 (the false
+  key removed with its part), G5 linkage 2,171/2,171 unchanged, review queue 67 → 65.
+  Serving corrections (all disclosed): 2020-01 1PR 1(b) gains its 4th choice (`D S`) keyed
+  B; 7(a)'s false key + false mark_point removed; 3 parts re-typed structured with their
+  printed rows verbatim. A/B of record: 49/53 slices byte-clean; 4 slices carry exactly the
+  designed corrections.
+- **Parity receipts**: chemistry 2023-06 1C pre (v0.20.0) vs post (v0.21.0) on identical
+  ledger-complete staging: 10/10 files byte-identical (7 assets byte-exact; topic.json /
+  validation-report.json / questions.md identical modulo `generated_utc` + generator
+  string); gate stdout identical modulo the version string + sandbox path line. The 4MB1
+  lane untouched by construction; C87 holds.
+- **Battery**: 91 canaries (C89–C93 join); 90/91 hold on the freshly re-emitted chemistry
+  (54) + physics (53) corpus with the maths lane fetched (untouched). The 1 exception (C61)
+  is a pre-existing staging-era boundary, exonerated by the A/B — LEDGER F86 carries the
+  full forensics incl. the dormant `\b\b` row-rebuttal quirk.
+
 ## 0.20.0 — 2026-10-26 · run-004: the maths-B line unions onto the spec-lane architecture (SPECS["4mb1"])
 
 The desk-merge conflict check of PR #110 (trace 1a174ec1255522d9) found the maths-B
