@@ -1,0 +1,74 @@
+{
+  "stage": "INT-1",
+  "title": "Full mechanical ingest — every MANIFEST v9 entry @ INT-0 pin",
+  "generated_at_utc": "2026-10-26T09:17:12Z",
+  "operator_trace": "1a17763c15632259",
+  "pin": {
+    "commit": "4d857c472fd725597ac21db189542c8f12c82dba",
+    "parent": "7edece446d24e71cfe15f89dd9383e9a25740839",
+    "tree": "abc2c32dfda6bd451bae30993d171c1281499e5d",
+    "main_head_at_promotion": "3cd29bcccfaab0210deba025283098dfa6c875b6",
+    "ahead_by": 30,
+    "manifest_self_sha256": "f110d40b446d3d6d9918ca06c72b9e5ae32027e8bcb9d7c371d1382b1f17fd8e"
+  },
+  "entries_total": 499,
+  "by_kind": {
+    "layer": 112,
+    "other": 143,
+    "timing": 112,
+    "wavereceipt": 10,
+    "eventlog": 122
+  },
+  "content_gate": {
+    "content_entries": 356,
+    "exact": true
+  },
+  "aux_gate": {
+    "aux_entries": 143,
+    "exceptions": 3,
+    "unexplained": 0
+  },
+  "stale_index_exceptions_of_record": [
+    {
+      "path": "SME-GuidedLessons/wave-1/snapshot-pin-reverify-20261024.json",
+      "expected": {
+        "sha256": "189df1f7c925b1a78030559592cbbc2689731b8470f99328387db1982440f51a",
+        "bytes": 3312
+      },
+      "actual": {
+        "sha256": "7d68e4220a43d350d631eaeea317965b1ef585eed5787fd0588f80a8de2da223",
+        "bytes": 3312
+      },
+      "classification": "stale-pinned-blob (manifest ahead)",
+      "evidence": "MANIFEST sha == local survivor 189df1f7 (at 2026-10-24T21:14:06Z); pin blob 7d68e422 is the earlier revision (at 2026-10-23T18:27:51Z); both record snapshot pin e23e2ab7; 3312B both"
+    },
+    {
+      "path": "SME-GuidedLessons/tooling/wave3-round-verify.js",
+      "expected": {
+        "sha256": "6a35da22ba438b702ffa54cf6a83eabbc97a3275503c12f7a663b1cb2b1007bd",
+        "bytes": 8204
+      },
+      "actual": {
+        "sha256": "965d0fa9d73f9fb82d005ea316160383ee0d25388db3550afef52433a2aa2c8b",
+        "bytes": 5494
+      },
+      "classification": "stale-pinned-blob (manifest ahead)",
+      "evidence": "MANIFEST sha == local extended copy 6a35da22 (8204B); pin holds pre-extension 965d0fa9 (5494B); verification tooling, non-content"
+    },
+    {
+      "path": "SME-GuidedLessons/README.md",
+      "expected": {
+        "sha256": "10f096458d70287eab8f4f8a631232793291270367446a003d6378876729bded",
+        "bytes": 8215
+      },
+      "actual": {
+        "sha256": "7ed088894d512bf2b91f9b0cdbd5b286d628eaef7fe8c399b46c3663ace776b4",
+        "bytes": 12276
+      },
+      "classification": "stale-manifest-entry (pin ahead)",
+      "evidence": "pin blob 7ed08889 carries \"112 / 112 notes authored — CORPUS COMPLETE\" + wave-10 row (newest); manifest entry 10f09645 (8215B) is an early-mint record; index bookkeeping only; repaired additively in MANIFEST v10"
+    }
+  ],
+  "all_content_verified": true,
+  "mirror": "download/corpus-mirror/ (layers, timing receipts, event logs, wave receipts)"
+}

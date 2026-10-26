@@ -1,0 +1,93 @@
+{
+  "round": "ROUND-PILOT-LANDING-20261026",
+  "operator_trace": "1a1774a86c1b5a41",
+  "absorbed_directives": [
+    {
+      "trace": "1a1751f592e67391",
+      "directive": "start the adapter spec",
+      "delivered": "ADAPTER-SPEC-guided-lesson-0.1-to-hub.md + 2 normative target schemas"
+    },
+    {
+      "trace": "1a1752f8f676c7f1",
+      "directive": "run the pilot",
+      "delivered": "INT-1..INT-5 records + transformed corpus + integration manifest v1 + surface sample"
+    }
+  ],
+  "generated_at_utc": "2026-10-26T08:42:58Z",
+  "rollback_disclosure": "Prior local round artifacts (Ten-Wave-Retrospective-Brief docx, INT-0-pin-adoption JSON, wave-10 local mirror, verify-wave10-append/int0-pin-adoption/retrospective-brief scripts) were lost in a sandbox rollback discovered at round open; the remote arbitrates. This landing re-established first-hand contact with the pin: commit/parent/tree, ancestry, MANIFEST v9 self-sha256, and all 25 wave-10 entries were re-verified per-file sha256 at INT-1.",
+  "pin": {
+    "commit": "4d857c472fd725597ac21db189542c8f12c82dba",
+    "parent": "7edece446d24e71cfe15f89dd9383e9a25740839",
+    "tree": "abc2c32dfda6bd451bae30993d171c1281499e5d",
+    "main_head_at_landing": "8b5a64f1b18724208ff19969b002028d3ed41bed",
+    "ahead_by_at_landing": 27,
+    "laws": [
+      "additive-only (wave outputs never edited in place)",
+      "pin frozen, does not track main",
+      "any deviation surfaces as sha256 mismatch at INT-1"
+    ]
+  },
+  "adapter": {
+    "id": "guided-lesson-0.1--hub-lesson-import-1.0",
+    "spec": "ADAPTER-SPEC-guided-lesson-0.1-to-hub.md",
+    "schemas": [
+      "schema/hub-lesson-import.1.0.schema.json",
+      "schema/sme-question-package.1.0.schema.json"
+    ],
+    "confidence_gate_semantics": "decided in spec §6 (ratingsScale passthrough; two const-true invariants import-blocking; postCheckRecalibration verbatim)"
+  },
+  "pilot_scope": {
+    "wave": "wave-10",
+    "notes": 8,
+    "lessons": 17,
+    "checks": 85,
+    "keyPoints": 85,
+    "distractors": 255,
+    "glossary": 42,
+    "authored_chars_conserved": 82981
+  },
+  "stages": {
+    "INT-1": {
+      "record": "INT-1-ingest-record-wave10.json",
+      "result": "PASS — 25/25 files sha256+bytes verified @ pin; pin pre-flight green"
+    },
+    "INT-2": {
+      "record": "INT-2-gate-replay-record-wave10.json",
+      "result": "PASS — gates S/C1..C7 green; totals reconcile receipt of record"
+    },
+    "INT-3": {
+      "record": "INT-3-transform-record-wave10.json",
+      "result": "PASS — adapter transform, M/Q/Φ conservation proven per note"
+    },
+    "INT-4": {
+      "record": "INT-4-load-record-wave10.json",
+      "result": "PASS — integration manifest v1 (16 artifacts), additive-only, no remote write"
+    },
+    "INT-5": {
+      "record": "INT-5-surface-smoke-record-wave10.json",
+      "result": "PASS — cold schema validation, cross-refs, arithmetic on surfaced data, render sample"
+    }
+  },
+  "stage_record_shas": {
+    "INT-1": "462e66a25a1f50f70addb3a94d0f5f3f6570c206ae75892aae23a96141dfb2af",
+    "INT-2": "a8b27eb4efd99c7051b8380782a581d918ac33ee85880c0a77c76bcb2a636816",
+    "INT-3": "f602017724107d346db036b0558b2f44b92508e353e263654d40c539432dcf4f",
+    "INT-4": "6139c83866e53ceee38be3126e88baf68727f05c3fdfb6fd69da835045e53975",
+    "INT-5": "e5d6e00128aa9ba5981e38dc1291f8757df65f1f1c8956c6f592444c36272bc3"
+  },
+  "closing_identity_linkage": "wave-10 pilot slice of the corpus closing identity (112/239/1195/1212/654/3565/361272): 8 notes / 17 lessons / 85 checks / 85 keyPoints / 42 glossary / 255 distractors / 20,546 bodyChars declared",
+  "promotion_gate": {
+    "pilot_status": "GREEN",
+    "full_corpus_promotion": "CLEARED-PENDING-OPERATOR-GO",
+    "note": "Per the integration plan, a green pilot arms the full 112-layer run (INT-1..INT-5 + QA sampling between pilot and full); promotion executes only on explicit operator go, as an additive commit on top of the then-current main."
+  },
+  "artifacts_index": {
+    "adapter_spec": "ADAPTER-SPEC-guided-lesson-0.1-to-hub.md",
+    "schemas": "schema/",
+    "transformed": "transformed/wave-10/",
+    "manifest_v1": "hub-import-manifest-v1.json",
+    "stage_records": "INT-{1..5}-*-wave10.json",
+    "surface_sample": "surface-smoke/surface-sample-rn_2z53qk2CdWrVVc7V-L1.html",
+    "local_mirror_restored": "download/wave10/ (25 files, sha256-verified vs pin)"
+  }
+}

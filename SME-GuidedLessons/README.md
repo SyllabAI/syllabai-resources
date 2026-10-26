@@ -122,3 +122,7 @@ The operator asked for this work to be saved either in a new folder or inside
   + tooling x19 including the per-note layer builders + manifest v9 refresh, the FINAL
   append of the register): operator trace `1a174e627dda7171` verbatim "Go wave-10",
   same single-commit method.
+
+## Integration — downstream import (of record)
+
+The full authored corpus is promoted for hub import via adapter `guided-lesson-0.1--hub-lesson-import-1.0` (spec: `integration/ADAPTER-SPEC-guided-lesson-0.1-to-hub.md`, target schemas `hub/lesson-import/1.0` + `sme-question-package/1.0`). Contents: `integration/hub-import/` 112 lesson-import files, `integration/question-packages/` 112 question packages (1,195 explained checks), `integration/hub-import-manifest-v2.json` (per-file sha256), `integration/records/` stage records of record (wave-10 pilot GREEN trace `1a1774a86c1b5a41`; full-corpus promotion GREEN trace `1a17763c15632259` "promote"). Gates at promotion: per-file sha256 ingest 499/499 @ pin `4d857c472fd725597ac21db189542c8f12c82dba` (356/356 content EXACT + 3 disclosed stale-index auxiliary entries), deterministic gate replay ×112, closing identity reconciled exactly (112 notes / 239 lessons / 1,195 checks / 1,212 key points / 654 glossary terms / 3,565 distractors / 361,272 source chars), authored-char stream conservation 1,347,771 chars sha256-equal pre/post transform, wave-10 pilot idempotence 8/8 byte-identical, seeded QA sampling 12/12 green.

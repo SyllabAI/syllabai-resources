@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sme-question-package/1.0",
+  "title": "SME question-package v1.0 (net-new target of the guided-lesson/0.1 adapter)",
+  "description": "One file per source layer carries every explained check item of that note, flattened from lessons[].check in module order. Minted by ADAPTER-SPEC-guided-lesson-0.1-to-hub.md for the wave-10 pilot; draft-07, additionalProperties false throughout. Option content is verbatim passthrough; the correct option's misconception stays null exactly as authored.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "adapter",
+    "source",
+    "packageId",
+    "subject",
+    "questions"
+  ],
+  "properties": {
+    "format": { "const": "sme-question-package/1.0" },
+    "adapter": { "const": "guided-lesson-0.1--hub-lesson-import-1.0" },
+    "source": { "$ref": "#/definitions/sourceBlock" },
+    "packageId": { "type": "string", "pattern": "^igcse-chemistry::rn_[A-Za-z0-9]+$" },
+    "subject": { "const": "igcse-chemistry" },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 25,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "moduleId", "stem", "misconceptionClass", "options"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^rn_[A-Za-z0-9]+::L[1-5]::Q[1-5]$" },
+          "moduleId": { "type": "string", "pattern": "^rn_[A-Za-z0-9]+::L[1-5]$" },
+          "stem": { "type": "string", "minLength": 1 },
+          "misconceptionClass": { "type": "string", "minLength": 1 },
+          "options": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["key", "text", "correct", "explanation", "misconception"],
+              "properties": {
+                "key": { "enum": ["A", "B", "C", "D", "E"] },
+                "text": { "type": "string", "minLength": 1 },
+                "correct": { "type": "boolean" },
+                "explanation": { "type": "string", "minLength": 1 },
+                "misconception": {
+                  "type": ["string", "null"],
+                  "description": "Named misconception for distractors; null on the keyed correct option, preserved verbatim."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "sourceBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceFormat", "noteId", "corpusVersion", "sourceLayerSha256", "pinnedRef"],
+      "properties": {
+        "sourceFormat": { "const": "guided-lesson/0.1" },
+        "noteId": { "type": "string", "pattern": "^rn_[A-Za-z0-9]+$" },
+        "corpusVersion": { "type": "string", "minLength": 1 },
+        "sourceLayerSha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "pinnedRef": { "type": "string", "pattern": "^[0-9a-f]{40}$" }
+      }
+    }
+  }
+}

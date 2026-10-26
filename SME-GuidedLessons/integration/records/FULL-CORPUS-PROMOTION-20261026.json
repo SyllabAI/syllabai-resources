@@ -1,0 +1,97 @@
+{
+  "round": "ROUND-FULLCORPUS-PROMOTION-20261026",
+  "operator_trace": "1a17763c15632259",
+  "arming_of_record": {
+    "pilot": "PILOT-LANDING-20261026.json",
+    "pilot_trace": "1a1774a86c1b5a41",
+    "pilot_status": "GREEN"
+  },
+  "generated_at_utc": "2026-10-26T09:17:18Z",
+  "pin": {
+    "commit": "4d857c472fd725597ac21db189542c8f12c82dba",
+    "parent": "7edece446d24e71cfe15f89dd9383e9a25740839",
+    "tree": "abc2c32dfda6bd451bae30993d171c1281499e5d",
+    "main_head_at_promotion": "3cd29bcccfaab0210deba025283098dfa6c875b6",
+    "ahead_by": 30
+  },
+  "closing_identity_reconciled": {
+    "notes": 112,
+    "lessons": 239,
+    "checks": 1195,
+    "keyPoints": 1212,
+    "distractors": 3565,
+    "glossaryTerms": 654,
+    "bodyChars": 361272,
+    "of_record": {
+      "notes": 112,
+      "lessons": 239,
+      "checks": 1195,
+      "keyPoints": 1212,
+      "glossaryTerms": 654,
+      "distractors": 3565,
+      "bodyChars": 361272
+    },
+    "match": true
+  },
+  "qa_sampling": {
+    "method": "seeded mulberry32 from pin prefix; 1 sample/wave + 2 extras (w5, w8)",
+    "samples": 12,
+    "all_green": true
+  },
+  "known_issues_of_record": {
+    "stale_index_entries": 3,
+    "content_impact": "NONE — 356/356 content-bearing entries exact",
+    "detail": "see INT-1 record stale_index_exceptions_of_record; index repaired additively in MANIFEST v10"
+  },
+  "pilot_idempotence": {
+    "note_pairs_checked": 8,
+    "byte_identical": 8
+  },
+  "stages": {
+    "INT-1": {
+      "record": "INT-1-ingest-record-fullcorpus.json",
+      "result": "PASS — 499/499 entries verified @ pin: 356/356 content entries EXACT (hard), 140/143 auxiliary exact + 3 pre-classified stale-index exceptions disclosed"
+    },
+    "INT-2": {
+      "record": "INT-2-gate-replay-record-fullcorpus.json",
+      "result": "PASS — gates ×112, per-wave ×10, closing identity, QA ×12"
+    },
+    "INT-3": {
+      "record": "INT-3-transform-record-fullcorpus.json",
+      "result": "PASS — transform ×112, conservation, pilot idempotence 8/8"
+    },
+    "INT-4": {
+      "record": "INT-4-load-record-fullcorpus.json",
+      "result": "PASS — integration manifest v2 (224 artifacts), additive over pilot v1"
+    },
+    "INT-5": {
+      "record": "INT-5-surface-smoke-record-fullcorpus.json",
+      "result": "PASS — cold ×224, cross-refs, arithmetic, wave-1 render sample"
+    }
+  },
+  "stage_record_shas": {
+    "INT-1": "7bf691f4de080b496234e4ec139d5d2c393ec891f61b1b352433990cccf5f5f4",
+    "INT-2": "03ef14ba0d782b37ed5f4139f8b0256855073de1b4bd0ea8d25fe550c2adffd0",
+    "INT-3": "c9cee91f9f9d62efccb1df7941484b0a3af000e84cb098169ee0248d913bf214",
+    "INT-4": "6b52a02336727597d286a0bce8a94bf61be5c36802ce0016464d4406904c6f5a",
+    "INT-5": "f82a7e44718e0a916b40ec2b6e7f2c667dffb137f78c6872ed67173aeb38f0f8"
+  },
+  "conservation": {
+    "authored_chars_conserved": 1347771,
+    "authored_stream_sha256": "397ab9f6af67a9c0f4c86022d242a7ae3e58813b7e7d6cfff96f8c418e0ac75f",
+    "wave_stream_sha256": {
+      "wave-1": "077283710ac13cb7b4fcd36c76011697f6b67ab3e9b0f429387a9996c9668b98",
+      "wave-2": "7ddc9d1dcb960fb068c1973fd2b704cbea703d6ff57e6dff78529724db1196c0",
+      "wave-3": "cb6b9ea7ff0e4aece1d391fbe48ff0f248e07e543874b1c07c080767e441ff29",
+      "wave-4": "cd5c86aec1782b67892d11f84cdde530f70d5b112eaf64ccfc6f87c0e9106bd6",
+      "wave-5": "a1319d4e01fea051f19b3ff5e3f41217ad0f92063db165e5c20bb204143c820d",
+      "wave-6": "cf0e4c2c9bf55292fbe3d729c3c85f51d31386bbb18984d754ecf9c83b20666d",
+      "wave-7": "399873ff796a6befb56ba2df05b0d1cc09eee545ed001849c03079b037d8115d",
+      "wave-8": "43d649437e9e426a75e9299909859c0cc863f67bbfdf1f9886a5040b6e8bf191",
+      "wave-9": "791cc7b9d4e2bbf3fc350df183da4c36676f332b0a0a979738aa42917b3c4df3",
+      "wave-10": "ca0b65dac4754966ba9b054821cb3e1b66405a055c3b54ffb56ef920067e8142"
+    }
+  },
+  "promotion_commit": "executed by promote-commit.js immediately after this record — see promotion_commit block in the repo receipt (this field updated post-commit)",
+  "status": "GREEN"
+}

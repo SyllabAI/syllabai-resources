@@ -1,0 +1,140 @@
+{
+  "stage": "INT-2",
+  "title": "Gate replay — deterministic authoring gates on the ingested wave-10 set",
+  "generated_at_utc": "2026-10-26T08:42:58Z",
+  "operator_trace": "1a1774a86c1b5a41",
+  "gates": {
+    "S": "ajv draft-07 x8 PASS",
+    "C1": "check integrity x8",
+    "C2": "spec-code set equality x8 (three-code flattening integrity)",
+    "C3": "wave totals vs receipt",
+    "C4": "confidence-gate contract x8",
+    "C5": "receipt+timing cross-check x8",
+    "C6": "event-log ground truth x8 (19 events, P0 unflagged, 1 export)",
+    "C7": "arithmetic re-verification (first port since wave-8)"
+  },
+  "totals_disk": {
+    "notes": 8,
+    "lessons": 17,
+    "checks": 85,
+    "keyPoints": 85,
+    "distractors": 255,
+    "glossaryTerms": 42
+  },
+  "totals_receipt": {
+    "notes": 8,
+    "lessons": 17,
+    "keyPoints": 85,
+    "checks": 85,
+    "distractors": 255,
+    "glossaryTerms": 42,
+    "bodyChars": 20546,
+    "focusedSeconds": 0,
+    "focusedHours": 0,
+    "meanSecondsPerNote": 0,
+    "wallSecondsAll": 0,
+    "loggedPauses": 0,
+    "meanSecondsPerLesson": 0,
+    "secondsPerChar": 0
+  },
+  "bodyChars_sum": 20546,
+  "per_note": [
+    {
+      "noteId": "rn_2z53qk2CdWrVVc7V",
+      "subtopicTitle": "Carboxylic acids",
+      "lessons": 2,
+      "checks": 10,
+      "keyPoints": 10,
+      "distractors": 30,
+      "glossary": 5,
+      "workedExample": "present",
+      "arithmetic": "2/2",
+      "streamSha256": "fa4f7cf52775098e30006c77a272a622b6343106aa4cf3a2ea31d698e2314b77"
+    },
+    {
+      "noteId": "rn_7ZMc3T3J4SJXfNdR",
+      "subtopicTitle": "Esters",
+      "lessons": 2,
+      "checks": 10,
+      "keyPoints": 10,
+      "distractors": 30,
+      "glossary": 5,
+      "workedExample": "null",
+      "arithmetic": "n/a",
+      "streamSha256": "c92132c5b1952ef274c86a731d4b36fee1ff62c78da687a7496b65609e641c0b"
+    },
+    {
+      "noteId": "rn_8T5GfPn2q7sY2YCh",
+      "subtopicTitle": "Alcohols",
+      "lessons": 2,
+      "checks": 10,
+      "keyPoints": 10,
+      "distractors": 30,
+      "glossary": 5,
+      "workedExample": "null",
+      "arithmetic": "n/a",
+      "streamSha256": "726147f7bd1f48dbf8bf771947adbb53f909521f87c3ddaf5cf4808c59803405"
+    },
+    {
+      "noteId": "rn_BBGMYy3Yx9Nm4GV3",
+      "subtopicTitle": "Carboxylic acids",
+      "lessons": 2,
+      "checks": 10,
+      "keyPoints": 10,
+      "distractors": 30,
+      "glossary": 5,
+      "workedExample": "null",
+      "arithmetic": "n/a",
+      "streamSha256": "6d367325aea980abae77c90a7b7932ce33b49925bd071fcef39d431e6cb23f41"
+    },
+    {
+      "noteId": "rn_BDkhS5vQpRd4hvwf",
+      "subtopicTitle": "Esters",
+      "lessons": 2,
+      "checks": 10,
+      "keyPoints": 10,
+      "distractors": 30,
+      "glossary": 5,
+      "workedExample": "null",
+      "arithmetic": "n/a",
+      "streamSha256": "7506c108e9bb75ff76c976c6e52bd9fb56b5a63b01b5427fc1525c7536a55c88"
+    },
+    {
+      "noteId": "rn_bGgYrQXP2tqrYwdV",
+      "subtopicTitle": "Synthetic polymers",
+      "lessons": 3,
+      "checks": 15,
+      "keyPoints": 15,
+      "distractors": 45,
+      "glossary": 6,
+      "workedExample": "null",
+      "arithmetic": "n/a",
+      "streamSha256": "b937d90a2a3d3e283e6d169eff27a0926490e260c2e60e72a2de20ba59ff9d0e"
+    },
+    {
+      "noteId": "rn_bvyrkKqRBMKCRzHM",
+      "subtopicTitle": "Synthetic polymers",
+      "lessons": 2,
+      "checks": 10,
+      "keyPoints": 10,
+      "distractors": 30,
+      "glossary": 5,
+      "workedExample": "null",
+      "arithmetic": "n/a",
+      "streamSha256": "b06420979da9cf225ade276a5fc3d77c680aec87ed6b99f1a85d0baa2b6816f2"
+    },
+    {
+      "noteId": "rn_ncFJkGhXFsKrkNkH",
+      "subtopicTitle": "Alcohols",
+      "lessons": 2,
+      "checks": 10,
+      "keyPoints": 10,
+      "distractors": 30,
+      "glossary": 6,
+      "workedExample": "null",
+      "arithmetic": "n/a",
+      "streamSha256": "81c531c455d58fbadf20eeb4ed88bd1a2b6b0d79b89534437a2b6c5eba875936"
+    }
+  ],
+  "snapshot_independence_note": "Replay is snapshot-independent by design: source-fidelity and body-derived gates remain authoring-time of record (lint receipts archived in timing receipts); bodyChars/bodySha256 are cross-verified three-way (wave receipt vs timing receipt vs totals) without DB contact."
+}
