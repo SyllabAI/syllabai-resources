@@ -746,7 +746,7 @@ Explain why nuclear fusion can only happen at high temperatures and pressures.
 
 ### 8(e)(i) [1]
 
-Which of these is the time taken for the number of undecayed nuclei in a radioactive isotope to halve? QUESTION 8 CONTINUES ON THE NEXT PAGE.
+Which of these is the time taken for the number of undecayed nuclei in a radioactive isotope to halve?
 
 - **(A)** activity
 - **(B)** becquerels

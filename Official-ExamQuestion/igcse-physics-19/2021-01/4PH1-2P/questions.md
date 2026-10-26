@@ -205,7 +205,7 @@ Plot a graph of the student’s results on the grid.
 
 > 🖼 crop required: graph (qp.pdf p.8)
 
-> 🖼 crop required: grid (qp.pdf p.8)
+![grid — official paper figure (qp.pdf p.9)](assets/asset_3_c_i_grid.png)
 
 
 **Mark scheme answer**

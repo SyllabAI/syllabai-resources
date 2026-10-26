@@ -378,7 +378,7 @@ Plot a graph of the mean frequency and string length data on the grid.
 
 > 🖼 crop required: graph (qp.pdf p.12)
 
-> 🖼 crop required: grid (qp.pdf p.12)
+![grid — official paper figure (qp.pdf p.13)](assets/asset_5_b_iii_grid.png)
 
 
 **Mark scheme answer**

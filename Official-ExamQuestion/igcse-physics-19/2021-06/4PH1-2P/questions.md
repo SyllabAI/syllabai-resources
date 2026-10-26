@@ -601,7 +601,7 @@ Using ideas about momentum, show that the speed of the large block is about 1 m/
 
 ### 7(c) [3]
 
-The small block takes 0.11 s to reach 6 m/s. Calculate the mean force exerted on the small block by the spring. mean force = N QUESTION 7 CONTINUES ON NEXT PAGE
+The small block takes 0.11 s to reach 6 m/s. Calculate the mean force exerted on the small block by the spring. mean force = N
 
 
 **Mark scheme answer**

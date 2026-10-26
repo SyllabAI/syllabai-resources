@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T22:07:09Z",
+ "generated_utc": "2026-10-26T21:37:06Z",
  "series": "2025-11",
  "paper": "1P",
  "gates": [
@@ -50,13 +50,13 @@
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "17 asset records cover every table/diagram/grid/apparatus mention: 10 cropped to assets/*.png (150 dpi), 3 remain crop-required; 0 parts without page anchor",
+   "summary": "17 asset records cover every table/diagram/grid/apparatus mention: 12 cropped to assets/*.png (150 dpi), 1 remain crop-required; 0 parts without page anchor",
    "details": {
     "dangling": [],
     "pages_unanchored": 0,
     "crop_stats": {
-     "crops": 10,
-     "pending": 3,
+     "crops": 12,
+     "pending": 1,
      "shared": 7
     }
    }
@@ -72,7 +72,7 @@
   {
    "gate": "G6-registry-codes",
    "status": "PASS",
-   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 50 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
+   "summary": "all emitted codes ∈ spec_point_resolution registry (184 codes) or documented gaps→review; 0 parts pending-llm tagging; 0 parts no-spec-point (terminal, documented per part)",
    "details": {
     "violations": [],
     "allowed_gaps": []
@@ -113,27 +113,15 @@
   {
    "part": "6(b)(ii)",
    "reason": "figure crop required (graph, page 18)"
-  },
-  {
-   "part": "6(b)(ii)",
-   "reason": "figure crop required (grid, page 18)"
-  },
-  {
-   "part": "6(b)(iv)",
-   "reason": "figure crop required (grid, page 19)"
-  },
-  {
-   "part": "9(a)",
-   "reason": "figure crop emitted — human verify (assets/asset_9_a_graph.png)"
   }
  ],
  "ocr_pages": [],
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {
-  "tagged": 0,
+  "tagged": 50,
   "parts": 50,
-  "pending_llm": 50,
+  "pending_llm": 0,
   "no_spec_point": 0
  }
 }

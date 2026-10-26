@@ -1,8 +1,8 @@
 {
  "schema": "syllabai.crop-review/0.1",
- "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. Anything not in this ledger keeps the converter's own confidence flag. Re-eyeball after any converter change to the crop pass (AGENTS.md review taxonomy).",
- "reviewed_utc": "2026-10-27",
- "reviewed_by": "session agent (2CR tranche, trace 1a16373bc7d373fd: all 11 v0.13.0-emitted crops + 3 crop-required stubs viewed against their source PDF pages rendered at 150 dpi; 8 emitted crops accepted as-is; the 3 stubs became F45 manual crops with the rects above - CROP-REVIEW verdicts apply to part-attached assets only)",
+ "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. v0.24.0 (F99) adds the physics eyeball tranche's replacement verdicts: 'recrop' re-renders a wrong-region emitted crop at the eyeballed box (same asset id), and 'rejected' withdraws a wrong-region emitted crop to an honest crop-required stub. F45/F99 manual_crop boxes are the human decision rendered deterministically at CROP_DPI; a box on a different page than the asset's own anchor must carry page_move:true. Chemistry homes keep the F39 legacy keying (bare series for 1C, '<series>:<paper>' for other papers); physics homes are namespaced '4ph1-<series>:<paper>'. Anything not in this ledger keeps the converter's own confidence flag.",
+ "reviewed_utc": "2026-10-27T00:00:00Z",
+ "reviewed_by": "session agent (Task 21 physics crop-eyeball tranche, operator order 'crop eyeball (65+30)' continuing the 4PH1 lane: all 35 v0.21.0-emitted review-flagged crops + all 30 crop-required stubs across the 53 landed slices viewed against their source QP pages rendered at 150 dpi; 23 crops accepted as-is; 5 wrong-region crops rejected to honest stubs; 7 crops recropped at eyeballed boxes; 12 stubs resolved by F45/F99 manual crops (5 with disclosed page moves); 18 stubs stub-accepted (false mentions, student-draws, duplicates) - every replacement rect proof-rendered and eyeballed before shipping; verdict workspace physics-intake/qpwave2/verdicts.json + proofs/). Chemistry verdicts unchanged byte-for-byte.",
  "reviews": {
   "2020-01": {
    "asset_4_b_ii_boxes": {
@@ -660,58 +660,6 @@
    "asset_2_b_apparatus": {
     "verdict": "accepted",
     "note": "titration apparatus (burette + stand + 250 cm3 beaker, bung/burette/beaker labels) matches p7"
-   },
-   "asset_1_b_structures": {
-    "verdict": "accepted",
-    "manual_crop": {
-     "page": 4,
-     "rect": [
-      88.0,
-      554.0,
-      552.0,
-      736.0
-     ]
-    },
-    "notes": "four printed poly(propene) repeating-unit structures (option drawings of the 1(b) MCQ); the text layer linearizes them into the served atom-run garbage"
-   },
-   "asset_1_c_displayed-formula": {
-    "verdict": "accepted",
-    "manual_crop": {
-     "page": 5,
-     "rect": [
-      215.0,
-      83.0,
-      380.0,
-      150.0
-     ]
-    },
-    "notes": "printed displayed formula that names the molecular-formula task"
-   },
-   "asset_1_c_ii_equation": {
-    "verdict": "accepted",
-    "manual_crop": {
-     "page": 5,
-     "rect": [
-      40.0,
-      276.0,
-      548.0,
-      354.0
-     ]
-    },
-    "notes": "printed half-completed equation with displayed structures the student completes"
-   },
-   "asset_1_c_iii_polyester": {
-    "verdict": "accepted",
-    "manual_crop": {
-     "page": 5,
-     "rect": [
-      130.0,
-      415.0,
-      465.0,
-      485.0
-     ]
-    },
-    "notes": "printed polyester unit the circle-the-residue task refers to"
    }
   },
   "2019-06": {
@@ -1443,6 +1391,529 @@
      ]
     },
     "notes": "wave-23 fix (G8 audit): boiling tube of potassium nitrate solution in a beaker of hot water with thermometer; rect derived from document geometry on qp.pdf p.8 (vector page), proof crop eyeballed against the printed page before shipping"
+   }
+  },
+  "4ph1-2020-01:1P": {
+   "asset_11_a_graph": {
+    "verdict": "accepted",
+    "note": "complete printed graph scaffold: Activity in Bq 0-200 vs Time in hours 0-25 (technetium-99m decay plot task)"
+   },
+   "asset_9_e_i_grid": {
+    "verdict": "accepted",
+    "note": "bare grid exactly as printed (bar-chart plot task; axes are student-supplied), page-verified"
+   },
+   "asset_2_a_i_diagram": {
+    "verdict": "accepted",
+    "note": "ship diagram printed on the stub's own page: ship + upthrust arrow + 'surface of sea' label; the part draws the second vertical force on it.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 4,
+     "rect": [
+      118.0,
+      128.0,
+      538.0,
+      258.0
+     ]
+    }
+   }
+  },
+  "4ph1-2020-01:1PR": {
+   "asset_10_b_ii_graph": {
+    "verdict": "accepted",
+    "note": "bare grid exactly as printed (sin(i)/sin(r) plot task), page-verified"
+   },
+   "asset_5_a_table": {
+    "verdict": "stub-accepted",
+    "note": "FALSE MENTION: 'table' harvested from 'table tennis ball'; the page prints no figure."
+   }
+  },
+  "4ph1-2020-01:2P": {
+   "asset_6_b_diagram": {
+    "verdict": "accepted",
+    "note": "incomplete HR diagram: absolute magnitude axis + blue/white/yellow/red band, the axes the part asks to complete"
+   },
+   "asset_5_b_iii_grid": {
+    "verdict": "accepted",
+    "note": "the printed plot grid for the sonometer results sits on p13, one page after the mention anchor (p12); PAGE MOVE disclosed. Twin mention asset_5_b_iii_graph stub-accepted as duplicate.",
+    "page_move": true,
+    "manual_crop": {
+     "page": 13,
+     "rect": [
+      119.1,
+      63.1,
+      515.9,
+      403.6
+     ]
+    }
+   },
+   "asset_5_b_iii_graph": {
+    "verdict": "stub-accepted",
+    "note": "duplicate mention of the printed grid served once via its twin stub asset_5_b_iii_grid (manual_crop p13)."
+   }
+  },
+  "4ph1-2021-01:1PR": {
+   "asset_7_b_diagram": {
+    "verdict": "accepted",
+    "note": "the printed diagram is exactly the labelled bubble circle (page-verified); complete"
+   },
+   "asset_12_c_ii_grid": {
+    "verdict": "accepted",
+    "note": "printed plot grid for the voltage/current results sits on p31, one page after the mention anchor (p30); PAGE MOVE disclosed.",
+    "page_move": true,
+    "manual_crop": {
+     "page": 31,
+     "rect": [
+      113.7,
+      88.7,
+      481.7,
+      372.2
+     ]
+    }
+   }
+  },
+  "4ph1-2021-01:2PR": {
+   "asset_1_a_i_graph": {
+    "verdict": "accepted",
+    "note": "temperature-time graph P-Q-R-S-T, complete and correct for the melting-section MCQ"
+   }
+  },
+  "4ph1-2022-06:1PR": {
+   "asset_6_b_ii_grid": {
+    "verdict": "accepted",
+    "note": "bare grid exactly as printed (loudspeaker power plot task)"
+   }
+  },
+  "4ph1-2022-06:2P": {
+   "asset_5_a_boxes": {
+    "verdict": "accepted",
+    "note": "tick table complete: Moderator/Control rod columns, all 5 statement rows"
+   },
+   "asset_7_d_graph": {
+    "verdict": "accepted",
+    "note": "printed cooling graph scaffold complete: Temperature in C 40 to -20 vs Time"
+   },
+   "asset_1_b_table": {
+    "verdict": "stub-accepted",
+    "note": "'Draw a results table' - the table is the student's answer; results print as text lines in the notepad Diagram 1."
+   }
+  },
+  "4ph1-2023-01:1P": {
+   "asset_1_b_graph": {
+    "verdict": "accepted",
+    "note": "bare sketch axes with arrowheads exactly as printed (Hooke's law sketch task)"
+   },
+   "asset_4_b_ii_graph": {
+    "verdict": "accepted",
+    "note": "bare grid exactly as printed (count rate vs lead thickness plot task)"
+   },
+   "asset_3_b_i_diagram": {
+    "verdict": "rejected",
+    "note": "emitted crop is the energy-store tick table (belongs to another sub-part) grabbed for the 'Draw a Sankey diagram' mention in 3(b)(i); the Sankey is student-drawn, nothing printed to crop. Withdrawn.",
+    "reason_class": "wrong-region student-draws"
+   }
+  },
+  "4ph1-2023-06:1PR": {
+   "asset_8_b_i_graph": {
+    "verdict": "accepted",
+    "note": "distance-time oscillation graph with caption, complete; the gradient the part asks about"
+   },
+   "asset_7_a_ii_graph": {
+    "verdict": "recrop",
+    "note": "emitted crop cut the printed y-axis label 'Activity in ......' (the blank the student fills); rect extended left. Same page; proof eyeballed.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 19,
+     "rect": [
+      70.0,
+      253.0,
+      458.0,
+      536.0
+     ]
+    }
+   },
+   "asset_7_a_iii_boxes": {
+    "verdict": "accepted",
+    "note": "printed nuclear equation 234-Pa -> 234-U + boxes-beta; the part completes the dashed boxes.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 19,
+     "rect": [
+      150.0,
+      596.0,
+      418.0,
+      688.0
+     ]
+    }
+   },
+   "asset_6_a_diagram": {
+    "verdict": "stub-accepted",
+    "note": "'Draw a circuit diagram' - student-drawn (page-verified)."
+   }
+  },
+  "4ph1-2023-06:2PR": {
+   "asset_6_b_iii_graph": {
+    "verdict": "accepted",
+    "note": "printed plot grid with Mass in g axis 0-600 exactly as printed (y scale student-supplied)"
+   },
+   "asset_6_b_iii_grid": {
+    "verdict": "stub-accepted",
+    "note": "duplicate 'grid' mention on the same printed grid already served as crop asset_6_b_iii_graph (accepted)."
+   }
+  },
+  "4ph1-2023-11:1P": {
+   "asset_7_b_i_grid": {
+    "verdict": "accepted",
+    "note": "bare grid exactly as printed (carbon dating plot task)"
+   },
+   "asset_1_d_diagram": {
+    "verdict": "stub-accepted",
+    "note": "'You may include a diagram' - optional student diagram, nothing printed (page-verified)."
+   }
+  },
+  "4ph1-2024-06:1P": {
+   "asset_5_a_graph": {
+    "verdict": "accepted",
+    "note": "bare sketch axes with 0-0 origin exactly as printed (spring Hooke sketch task)"
+   },
+   "asset_2_a_table": {
+    "verdict": "accepted",
+    "note": "printed isotope MCQ table rows A-D (number of protons/neutrons); row letters included, answer tick boxes excluded as MCQ furniture.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 4,
+     "rect": [
+      104.0,
+      158.0,
+      382.0,
+      280.0
+     ]
+    }
+   },
+   "asset_9_a_diagram": {
+    "verdict": "accepted",
+    "note": "sealed-bottle photograph (Diagram 1) with air/water labels and caption, printed on the stub's own page.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 20,
+     "rect": [
+      157.0,
+      124.0,
+      374.0,
+      375.0
+     ]
+    }
+   }
+  },
+  "4ph1-2024-06:1PR": {
+   "asset_12_b_apparatus": {
+    "verdict": "accepted",
+    "note": "boiling-tube-in-beaker apparatus diagram complete with all four labels"
+   },
+   "asset_3_b_diagram": {
+    "verdict": "recrop",
+    "note": "emitted crop was the stem's p8 vehicle illustration; the part's figure of record is the p9 constant-speed diagram (direction of travel, vehicle, driving force, ground line). Recropped with page move; proof eyeballed.",
+    "page_move": true,
+    "manual_crop": {
+     "page": 9,
+     "rect": [
+      58.0,
+      80.0,
+      538.0,
+      180.0
+     ]
+    }
+   }
+  },
+  "4ph1-2024-06:2P": {
+   "asset_3_b_graph": {
+    "verdict": "accepted",
+    "note": "Temperature/Time bare axes exactly as printed (IR absorption curves task)"
+   }
+  },
+  "4ph1-2024-06:2PR": {
+   "asset_1_a_diagram": {
+    "verdict": "accepted",
+    "note": "HR diagram plot region complete: axes are bare lines as printed, all shaded regions A/B/C/D/Sun present"
+   },
+   "asset_3_b_graph": {
+    "verdict": "accepted",
+    "note": "Temperature in C / Time bare axes exactly as printed (gallium cooling task)"
+   },
+   "asset_6_b_i_table": {
+    "verdict": "accepted",
+    "note": "printed results box complete: all 6 distance/voltage pairs"
+   }
+  },
+  "4ph1-2025-06:1P": {
+   "asset_10_c_i_grid": {
+    "verdict": "accepted",
+    "note": "plot grid complete with printed scales: Balance reading in g 194.00-196.00 vs 0.00-3.00"
+   }
+  },
+  "4ph1-2025-11:1P": {
+   "asset_9_a_graph": {
+    "verdict": "accepted",
+    "note": "velocity-time graph P/Q/R/S complete with printed scales"
+   },
+   "asset_6_b_ii_grid": {
+    "verdict": "accepted",
+    "note": "printed plot grid for the magnetism results sits on p19, one page after the mention anchor (p18); PAGE MOVE disclosed. Twin mention asset_6_b_ii_graph stub-accepted as duplicate.",
+    "page_move": true,
+    "manual_crop": {
+     "page": 19,
+     "rect": [
+      127.6,
+      88.7,
+      524.4,
+      372.2
+     ]
+    }
+   },
+   "asset_6_b_iv_grid": {
+    "verdict": "accepted",
+    "note": "the same printed grid serves 6(b)(iv) 'draw another line on the grid'; the stub anchors on p19 itself, no page move.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 19,
+     "rect": [
+      127.6,
+      88.7,
+      524.4,
+      372.2
+     ]
+    }
+   },
+   "asset_6_b_ii_graph": {
+    "verdict": "stub-accepted",
+    "note": "duplicate mention of the printed grid served once via twin stub asset_6_b_ii_grid (manual_crop p19)."
+   }
+  },
+  "4ph1-2026-06:1P": {
+   "asset_9_b_i_grid": {
+    "verdict": "accepted",
+    "note": "bare grid exactly as printed (ramp data plot task)"
+   },
+   "asset_4_b_table": {
+    "verdict": "recrop",
+    "note": "emitted crop was the stem's apparatus diagram (p9); the figure of record is the independent/dependent/control tick table on p10. Recropped with page move; proof eyeballed.",
+    "page_move": true,
+    "manual_crop": {
+     "page": 10,
+     "rect": [
+      48.0,
+      112.0,
+      548.0,
+      264.0
+     ]
+    }
+   },
+   "asset_9_a_i_table": {
+    "verdict": "recrop",
+    "note": "emitted crop was the ramp diagram (stem figure); the figure of record is Table 1 (ball diameter / light-gate time) with its caption. Same page; proof eyeballed.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 23,
+     "rect": [
+      135.0,
+      299.0,
+      460.0,
+      399.0
+     ]
+    }
+   }
+  },
+  "4ph1-2020-06:2PR": {
+   "asset_4_b_v_graph": {
+    "verdict": "rejected",
+    "note": "emitted crop is the solar-thermal-panel photograph (stem figure on p14) grabbed for the conceptual 'line graph' mention in 4(b)(v); no printed graph exists - the graph is the student's answer construct. Withdrawn to an honest stub.",
+    "reason_class": "wrong-region conceptual mention"
+   }
+  },
+  "4ph1-2021-11:1P": {
+   "asset_6_c_graph": {
+    "verdict": "rejected",
+    "note": "emitted crop is the loudspeaker diagram (another question's stem figure) grabbed for the conceptual 'graphical method' mention in 6(c); no printed graph exists for the refractive-index method design. Withdrawn to an honest stub.",
+    "reason_class": "wrong-region conceptual mention"
+   },
+   "asset_7_diagram": {
+    "verdict": "accepted",
+    "note": "loudspeaker construction diagram printed on the stub's own page with all five labels.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 17,
+     "rect": [
+      159.0,
+      80.0,
+      434.0,
+      278.0
+     ]
+    }
+   }
+  },
+  "4ph1-2023-01:2PR": {
+   "asset_3_c_graph": {
+    "verdict": "rejected",
+    "note": "emitted crop is the tumble-dryer cylinder diagram (stem figure) grabbed for the 'which type of graph' conceptual mention in 3(c); no printed graph exists. Withdrawn.",
+    "reason_class": "wrong-region conceptual mention"
+   }
+  },
+  "4ph1-2026-06:2P": {
+   "asset_4_c_ii_grid": {
+    "verdict": "rejected",
+    "note": "emitted crop is the fission-reactor stem diagram grabbed for the 'National Grid' phrase in 4(c)(ii) - a proper noun, not a figure mention; the part is a calculation with no printed figure. Withdrawn.",
+    "reason_class": "false mention (National Grid)"
+   }
+  },
+  "4ph1-2021-06:1P": {
+   "asset_11_a_i_diagram": {
+    "verdict": "recrop",
+    "note": "emitted crop captured Diagram 1 (the stem figure) plus question text; the part's figure of record is Diagram 2 - incident ray at 64 deg, normal, boundary, X, refracted ray, 'Diagram 2' caption. Recropped on the same page; proof eyeballed.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 26,
+     "rect": [
+      124.0,
+      371.0,
+      471.0,
+      655.0
+     ]
+    }
+   },
+   "asset_2_b_diagram": {
+    "verdict": "accepted",
+    "note": "magnetic field-pattern diagram printed on the stub's own page: bar magnet N/S with field lines (three planted mistakes); the part circles the mistakes on it.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 6,
+     "rect": [
+      58.0,
+      251.0,
+      537.0,
+      647.0
+     ]
+    }
+   },
+   "asset_2_a_apparatus": {
+    "verdict": "stub-accepted",
+    "note": "'Name the apparatus' - the apparatus (compass) is the answer, nothing printed."
+   }
+  },
+  "4ph1-2023-06:1P": {
+   "asset_10_b_i_grid": {
+    "verdict": "recrop",
+    "note": "emitted crop was the results table; the figure of record is the printed Distance in cm / Time in s plot grid on the NEXT page (p27). Recropped with page move; proof eyeballed.",
+    "page_move": true,
+    "manual_crop": {
+     "page": 27,
+     "rect": [
+      106.0,
+      58.0,
+      486.0,
+      402.0
+     ]
+    }
+   }
+  },
+  "4ph1-2025-06:1PR": {
+   "asset_5_b_boxes": {
+    "verdict": "recrop",
+    "note": "emitted crop was too tight (cut the 226/88 numbers and the alpha); rect widened to the full equation 226-Ra -> Rn + boxes alpha. Same page; proof eyeballed.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 16,
+     "rect": [
+      126.0,
+      598.0,
+      472.0,
+      702.0
+     ]
+    }
+   }
+  },
+  "4ph1-2021-01:2P": {
+   "asset_3_c_i_grid": {
+    "verdict": "accepted",
+    "note": "printed plot grid for the moments results sits on p9, one page after the mention anchor (p8); PAGE MOVE disclosed. Twin mention asset_3_c_i_graph stub-accepted as duplicate.",
+    "page_move": true,
+    "manual_crop": {
+     "page": 9,
+     "rect": [
+      113.5,
+      63.1,
+      481.5,
+      346.6
+     ]
+    }
+   },
+   "asset_3_d_graph": {
+    "verdict": "stub-accepted",
+    "note": "'the table or the graph' references the earlier parts' figures; 3(d) prints no figure of its own."
+   },
+   "asset_3_c_i_graph": {
+    "verdict": "stub-accepted",
+    "note": "duplicate mention of the printed grid served once via twin stub asset_3_c_i_grid (manual_crop p9)."
+   }
+  },
+  "4ph1-2021-11:2P": {
+   "asset_4_a_i_boxes": {
+    "verdict": "accepted",
+    "note": "printed nuclear equation 6-Li + 1-n -> 4-He + boxes-H; the part writes the numbers in the boxes.",
+    "page_move": false,
+    "manual_crop": {
+     "page": 8,
+     "rect": [
+      128.0,
+      155.0,
+      465.0,
+      238.0
+     ]
+    }
+   }
+  },
+  "4ph1-2019-06:1PR": {
+   "asset_7_a_diagram": {
+    "verdict": "stub-accepted",
+    "note": "design-question bullet mentions ('a labelled diagram'); nothing printed to crop - the diagram is the student's answer."
+   }
+  },
+  "4ph1-2019-06:2PR": {
+   "asset_6_b_ii_table": {
+    "verdict": "stub-accepted",
+    "note": "'Draw a table of these results' - the table is the student's answer; results print as text lines in the notepad illustration."
+   }
+  },
+  "4ph1-2020-06:2P": {
+   "asset_4_b_grid": {
+    "verdict": "stub-accepted",
+    "note": "FALSE MENTION: 'grid' from 'The National Grid' (proper noun); no figure."
+   }
+  },
+  "4ph1-2022-01:1PR": {
+   "asset_7_a_apparatus": {
+    "verdict": "stub-accepted",
+    "note": "design-question bullet mentions ('the apparatus needed'); nothing printed."
+   },
+   "asset_7_a_diagram": {
+    "verdict": "stub-accepted",
+    "note": "design-question bullet mentions ('a labelled diagram'); nothing printed."
+   }
+  },
+  "4ph1-2022-06:1P": {
+   "asset_8_b_iii_diagram": {
+    "verdict": "stub-accepted",
+    "note": "'Draw a labelled Sankey diagram' - student-drawn, no printed scaffold (page-verified)."
+   }
+  },
+  "4ph1-2023-01:1PR": {
+   "asset_4_a_diagram": {
+    "verdict": "stub-accepted",
+    "note": "'Draw a circuit diagram' - student-drawn, equipment list is text (page-verified)."
+   }
+  },
+  "4ph1-2025-11:2P": {
+   "asset_2_a_i_graph": {
+    "verdict": "stub-accepted",
+    "note": "'scatter graph is the correct way to display this data' - conceptual mention; the printed table is data surface, no printed graph."
    }
   }
  }

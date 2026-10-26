@@ -1,5 +1,51 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.24.0 — 2026-10-27 · Task 21: the crop-eyeball + spec-labels waves (F99–F100) — the physics review surface empties and spec tagging goes corpus-complete
+
+Two operator-ordered waves landed as one re-emission of record for the 4PH1 lane (53 slices,
+all 53 fully PASS before and after; chemistry 2023-06 1C parity byte-identical).
+
+- **F99 — the crop-eyeball wave**: all 35 review-flagged crops + all 30 crop-required stubs
+  of the 53 landed 4PH1 slices were eyeballed against their source QP pages rendered at
+  150 dpi. Verdict vocabulary extension (both fail-closed, both data-driven — chemistry has
+  no such ledger entries, so bit-identity holds by construction AND by receipt):
+  **'rejected'** (kind==crop only) withdraws a wrong-region emitted crop to an honest
+  crop-required stub (review_verdict 'rejected'; 5 instances — the solar-panel photo grabbed
+  for a conceptual 'line graph' mention, the loudspeaker diagram grabbed cross-question, an
+  energy-store table grabbed for a Sankey mention, the tumble-dryer stem figure, and the
+  'National Grid' proper-noun false mention); **'recrop'** (kind==crop only) re-renders the
+  same asset id at an eyeballed box (review_verdict 'recrop'; 7 instances — Diagram 1 served
+  for a Diagram 2 part, a results table served for the plot grid one page later, a cut
+  y-axis label, a p8 stem illustration served for the p9 force diagram, a too-tight nuclear
+  equation, a stem apparatus served for the variables table, a ramp diagram served for
+  Table 1). **F45 page moves**: a manual_crop box on a different page than the asset's own
+  anchor now requires explicit `page_move: true` (4 next-page plot grids + the 4 recrop
+  page moves above); the asset's page follows the box and the move is visible on the record.
+  CROP-REVIEW.json gains the first 34 `4ph1-<series>:<paper>` homes (65 verdicts: 23
+  accepted, 5 rejected, 7 recrop, 12 accepted+manual_crop, 18 stub-accepted — false mentions
+  ('table tennis ball', 'The National Grid'), student-draws, and duplicate mentions). Every
+  replacement rect was proof-rendered and eyeballed before shipping.
+- **F100 — the spec-labels wave**: every one of the 2,171 pending-llm parts is now terminal.
+  Per-slice LLM adjudication over the part's printed stem, problem, choices and verbatim MS
+  answer block against the SME igcse-physics-19 registry (186 codes, closed vocabulary);
+  9 near-miss/junk codes adjudicated by hand against the registry wordings (1.28→1.28P,
+  3.19P→3.19 ×2, a part-label-as-code →6.16, 8.1→8.2, 5.4P→5.4 ×2, 2.22P+5.4P→2.23P,
+  1.22P→1.22) and 93 unresolved parts individually dispositioned per the F38 wave
+  convention — 65 terminal no_spec_point decisions (pure graph/table skills, apparatus
+  choice, safety, design critiques, graph-type justifications, data-relationship tests)
+  plus 28 hand-filled content tags. Final: **2,106 llm-spec-wave + 65 no-spec-point +
+  0 pending-llm**; C101 pins the terminal state 4-papers-wide with bidirectional
+  labels↔corpus agreement.
+- **New canaries** C99 (the rejected demotion), C100 (the recrop page move), C101 (the
+  spec-tag terminal battery); the `spec_tag_terminal` arm is lane-aware for prefixed label
+  files and multi-paper batteries (chemistry resolution untouched).
+- **A/B receipts**: v0.24.0 vs v0.22.0 on pristine ledgers = **0 diffs across all 53 physics
+  slices** (topic.json + validation-report.json + questions.md + every PNG, modulo
+  generated_utc + version string) and **chemistry 2023-06 1C = 0 diffs** — the converter
+  delta is purely data-driven. The fixed-vs-baseline delta is exactly the designed surface:
+  147 files (53 topic.json + 53 validation-report.json + 17 questions.md + 24 asset
+  changes: 12 added crops, 5 withdrawn, 7 re-rendered).
+
 ## 0.23.0 — 2026-10-27 · Task 19: the deep-audit shape-hygiene wave (F92–F98) — the drawing-linearization class opens and the 2026-06 2C tranche closes
 
 A user-served report ("It has so many issues", `june-2026-4ch1-2c`) drove a corpus-wide deep

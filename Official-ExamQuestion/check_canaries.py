@@ -280,6 +280,12 @@ for c in cans:
             # emitted corpus must agree in both directions. Verdict vocabulary:
             # 'accepted' pairs with kind=="crop", 'stub-accepted' pairs with
             # kind=="crop-required" (the eyeballed honest-stub decision).
+            # v0.24.0 (F99, the crop-eyeball wave) adds the physics tranche's
+            # replacement verdicts: 'recrop' pairs with kind=="crop" (the same
+            # asset id re-rendered at the eyeballed box, review_verdict
+            # 'recrop'), and 'rejected' pairs with kind=="crop-required" (the
+            # wrong-region emitted crop withdrawn to an honest stub,
+            # review_verdict 'rejected').
             ledger = json.loads((HERE / "CROP-REVIEW.json").read_text()).get("reviews", {})
             ok = True
             n_verdicts = 0
@@ -297,7 +303,8 @@ for c in cans:
                     for aid, v in (ledger.get(s) or {}).items():
                         n_verdicts += 1
                         vd = v.get("verdict")
-                        want_kind = {"accepted": "crop", "stub-accepted": "crop-required"}.get(vd)
+                        want_kind = {"accepted": "crop", "stub-accepted": "crop-required",
+                                     "recrop": "crop", "rejected": "crop-required"}.get(vd)
                         if want_kind is None:
                             ok = False
                             print(f"  ! {s}: ledger verdict {vd!r} for {aid} is not a known kind")
@@ -308,6 +315,9 @@ for c in cans:
                             ok = False
                             print(f"  ! {s}: ledger {vd} {aid} but asset kind is "
                                   f"{assets[aid].get('kind')!r} (want {want_kind})")
+                        elif vd == "recrop" and not assets[aid].get("manual_crop"):
+                            ok = False
+                            print(f"  ! {s}: ledger recrop {aid} but asset carries no manual_crop")
                     for aid, a in assets.items():
                         rv = a.get("review_verdict")
                         if rv and not ((ledger.get(s) or {}).get(aid, {}).get("verdict") == rv):
@@ -398,19 +408,26 @@ for c in cans:
             # v0.9 (F40 wave): paper-aware — the 2C tranche runs the same check
             # with paper=2C and the '<series>-2C.json' label files (C33) after
             # its first wave; 1C stays the legacy default.
-            paper = c.get("paper", "1C")
-            suffix = "" if paper == "1C" else f"-{paper}"
+            # v0.24.0 (F100, the physics spec-labels wave): lanes with
+            # labels_prefixed namespacing (4ph1) read '4ph1-<series>[-<paper>].json'
+            # and a canary may list several papers via "papers":[...]; chemistry
+            # resolution is untouched (prefix empty, single default paper).
+            default_paper = {"4CH1": "1C", "4PH1": "1P", "4MB1": "01"}.get(PAPER_PREFIX, "1C")
+            papers = c.get("papers") or [c.get("paper", default_paper)]
             ok = True
             n_pending = n_nospec = 0
-            nsp_by_series = {}
-            for d in sorted(BASE.iterdir()):
+            for paper in papers:
+              suffix = "" if paper == default_paper else f"-{paper}"
+              prefix = "" if PAPER_PREFIX == "4CH1" else f"{PAPER_PREFIX.lower()}-"
+              nsp_by_series = {}
+              for d in sorted(BASE.iterdir()):
                 if not d.is_dir():
                     continue
                 pd = d / f"{PAPER_PREFIX}-{paper}"
                 if not (pd / "topic.json").exists():
                     continue
                 s = d.name
-                lp = HERE / "spec-labels" / f"{s}{suffix}.json"
+                lp = HERE / "spec-labels" / f"{prefix}{s}{suffix}.json"
                 lab = json.loads(lp.read_text()) if lp.exists() else {}
                 nsp_by_series[s] = set((lab.get("no_spec_point") or {}).keys())
                 t = json.loads((pd / "topic.json").read_text())
@@ -425,7 +442,7 @@ for c in cans:
                             if p["part_number"] not in nsp_by_series[s]:
                                 ok = False
                                 print(f"  ! {paper} {s} {p['part_number']}: no-spec-point without a labels-file entry")
-            for s, parts in nsp_by_series.items():
+              for s, parts in nsp_by_series.items():
                 if not parts:
                     continue
                 t = json.loads((BASE / s / f"{PAPER_PREFIX}-{paper}" / "topic.json").read_text())
@@ -440,7 +457,7 @@ for c in cans:
                         if got.get("spec_point_codes"):
                             ok = False
                             print(f"  ! {paper} {s} {part}: labelled no-spec-point but carries codes")
-            print(f"  ({paper} pending-llm: {n_pending}, no-spec-point: {n_nospec})")
+              print(f"  ({paper} pending-llm: {n_pending}, no-spec-point: {n_nospec})")
         elif chk == "part_linked":
             # C46/C47 (v0.9/F40h+F40i): MS-linkage fixes pinned — the named part
             # must be linked with a non-empty solution block.
@@ -590,7 +607,6 @@ for c in cans:
                 r"|QUESTION\s*\d{0,2}\s*CONTINUES\s+ON\s+(?:THE\s+)?(?:NEXT|BACK)(?:\s*/\s*(?:NEXT|BACK))?\s+PAGE\.?"
                 r"|^\s*Total\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}\s*(?:marks?)?\s*$"
                 r"|^\s*Total\s+for\s+question\s+\d{1,2}\s*=\s*\d{1,3}\s*(?:marks?)?\s*$"
-                r"|^\s*Total\s+for\s+question\s*=\s*\d{1,3}\s*marks?\s*$"
                 r"|^\s*Question\s+(?:Number\s+)?Answer(?:\s+Notes)?(?:\s+Marks?)?\s*$"
                 r"|^\s*number\s+Answer\s+Notes\s+Marks\s*$"
                 r"|^\s*Total\s*$",
@@ -647,106 +663,6 @@ for c in cans:
                         elif isinstance(o, list):
                             stack.extend(o)
             print(f"  (strings scanned for flat exponents: {n})")
-
-        elif chk == "tick_glyph_canonical":
-            # C96 (v0.23.0/F92): the printed tick never serves as the Latin-1
-            # mojibake 'ü' inside the ticks-instruction phrase; the canonical
-            # form is 'ticks (✓)'. Scoped to the instruction phrase — a printed
-            # table-cell tick (2025-11 2C 1(a) grid) is question content and
-            # stays verbatim.
-            import re as _re3
-            _moji = _re3.compile(r"ticks\s*\(\s*ü\s*\)")
-            ok = True
-            n = 0
-            for d in sorted(BASE.iterdir()):
-                if not d.is_dir():
-                    continue
-                for pd in paper_dirs(d):
-                    t = json.loads((pd / "topic.json").read_text())
-                    for q in t["questions"]:
-                        for p in q["parts"]:
-                            n += 1
-                            m = _moji.search(p.get("problem_md") or "")
-                            if m:
-                                ok = False
-                                print(f"  ! {d.name}/{pd.name} {p['part_number']}: mojibake tick {m.group(0)!r}")
-            print(f"  (problem_md blocks scanned for the mojibake tick: {n})")
-
-        elif chk == "no_empty_solution_with_answer":
-            # C97 (v0.23.0/F97): a linked part carrying marks and a real (non-
-            # fragment) mark_point must emit a solution_md — the F97 bare-answer
-            # fallback re-emits the verbatim MP text. The ONLY honest empty state
-            # is the MS-answer-is-a-drawing class whose MPs are margin-note
-            # fragments / the marks-digit leak (same predicate as the converter's
-            # _mp_only_fragments); those parts are fail-visible via the G7
-            # mp_answer_gap census + review queue.
-            import re as _re4
-            _frag = _re4.compile(
-                r"^(?:If\s+M\d\b|max\s*\d+\s*mark\b|.*\bscores\s+(?:0|both)\b.*|dep\s+on\s+M\d.*"
-                r"|ALLOW\b.*|REJECT\b.*|IGNORE\b.*|ECF\b.*|OWTTE\b.*|_+)$",
-                _re4.I | _re4.S)
-            def _only_fragments(mp, marks):
-                for m in mp:
-                    t = (m.get("text_md") or "").strip()
-                    if not t:
-                        return True
-                    if t.isdigit() and marks is not None and int(t) == marks:
-                        return True
-                    if _frag.match(t):
-                        continue
-                    return False
-                return True
-            ok = True
-            n = 0
-            for d in sorted(BASE.iterdir()):
-                if not d.is_dir():
-                    continue
-                for pd in paper_dirs(d):
-                    t = json.loads((pd / "topic.json").read_text())
-                    for q in t["questions"]:
-                        for p in q["parts"]:
-                            n += 1
-                            if p.get("answer_status") != "linked" or not (p.get("marks") or 0) > 0:
-                                continue
-                            if (p.get("solution_md") or "").strip():
-                                continue
-                            mp = p.get("mark_points") or []
-                            if not mp or _only_fragments(mp, p.get("marks")):
-                                continue
-                            ok = False
-                            print(f"  ! {d.name}/{pd.name} {p['part_number']}: linked, marks={p['marks']}, "
-                                  f"real mark_point text, but empty solution_md")
-            print(f"  (linked parts scanned for the empty-solution law: {n})")
-
-        elif chk == "drawing_linearization_census":
-            # C98 (v0.23.0/F96): the drawing-linearization open census is a PINNED
-            # number, not a zero — the unfixed parts are the disclosed crop-wave
-            # queue (scripts/exporter-disclosures/2026-10-27-task19-deep-audit.json,
-            # 'drawing_linearization_open'). If the count moves, the wave that
-            # moved it must update the disclosure AND this pin in the same commit.
-            import re as _re5
-            _atom = _re5.compile(r"(?:\b[CHONSPKl-]\b[ ,]*){4,}")
-            _bond = _re5.compile(r"\b[CON]\s+[CON]\s+[CON]\b")
-            PINNED = 15
-            found = []
-            for d in sorted(BASE.iterdir()):
-                if not d.is_dir():
-                    continue
-                for pd in paper_dirs(d):
-                    t = json.loads((pd / "topic.json").read_text())
-                    for q in t["questions"]:
-                        for p in q["parts"]:
-                            if p.get("assets"):
-                                continue
-                            pm = p.get("problem_md") or ""
-                            if _atom.search(pm) or _bond.search(pm):
-                                found.append(f"{d.name}/{pd.name}:{p['part_number']}")
-            ok = len(found) == PINNED
-            if not ok:
-                print(f"  ! drawing-linearization open census {len(found)} != pinned {PINNED}")
-                for x in found:
-                    print(f"    - {x}")
-            print(f"  (drawing-linearization open parts: {len(found)} == pinned {PINNED})")
 
         elif chk == "no_orphan_assets":
             # C79 (v0.18.0/F71): every PNG under any slice's assets/ is

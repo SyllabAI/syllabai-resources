@@ -769,7 +769,7 @@ Complete the table by placing a tick (ü) to show which variables are the indepe
 
 Plot the student’s data on the grid.
 
-![grid — official paper figure (qp.pdf p.26)](assets/asset_10_b_i_grid.png)
+![grid — official paper figure (qp.pdf p.27)](assets/asset_10_b_i_grid.png)
 
 
 **Mark scheme answer**
@@ -905,7 +905,7 @@ Describe the difference between direct current (d.c.) and alternating current (a
 
 ### 12(b)(ii) [3]
 
-Alternating current is supplied to the transmitter coil. Diagram 2 shows a gold ring in the soil below the metal detector. metal detector air soil ring Diagram 2 Explain why there is an alternating current in the gold ring. QUESTION 12 CONTINUES ON NEXT PAGE
+Alternating current is supplied to the transmitter coil. Diagram 2 shows a gold ring in the soil below the metal detector. metal detector air soil ring Diagram 2 Explain why there is an alternating current in the gold ring.
 
 ![diagram — official paper figure (qp.pdf p.31)](assets/asset_12_b_ii_diagram.png)
 

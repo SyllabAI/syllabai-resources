@@ -114,7 +114,7 @@ Name the apparatus that the student could use to find the direction of the field
 
 The student draws a diagram of the magnetic field pattern of the magnet. The student makes three mistakes. Draw a circle around each mistake on the diagram. N S
 
-> 🖼 crop required: diagram (qp.pdf p.6)
+![diagram — official paper figure (qp.pdf p.6)](assets/asset_2_b_diagram.png)
 
 
 **Mark scheme answer**
@@ -875,7 +875,7 @@ State the formula linking refractive index and critical angle.
 
 ### 11(a)(vi) [2]
 
-Calculate the critical angle for the transparent material. critical angle = degrees QUESTION 11 CONTINUES ON NEXT PAGE
+Calculate the critical angle for the transparent material. critical angle = degrees
 
 
 **Mark scheme answer**

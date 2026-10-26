@@ -195,7 +195,7 @@ Explain how the squares of material stick together. Use ideas about electrostati
 
 The table shows some of the student’s results. Mean force to separate squares Material in N wool 5.4 polyester 3.2 acrylic 6.5 Explain which type of graph is the most appropriate to present the results from this investigation.
 
-![graph — official paper figure (qp.pdf p.8)](assets/asset_3_c_graph.png)
+> 🖼 crop required: graph (qp.pdf p.8)
 
 ![table — official paper figure (qp.pdf p.9)](assets/asset_3_c_table.png)
 

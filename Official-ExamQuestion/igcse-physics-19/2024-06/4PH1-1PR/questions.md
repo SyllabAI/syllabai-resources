@@ -175,7 +175,7 @@ During the test, the vehicle travelled past two markers. The markers were placed
 
 The diagram shows the vehicle travelling at a constant speed. direction of travel driving force One of the horizontal forces acting on the vehicle has been drawn. Complete the diagram by drawing a labelled arrow for the other horizontal force acting on the vehicle.
 
-![diagram — official paper figure (qp.pdf p.8)](assets/asset_3_b_diagram.png)
+![diagram — official paper figure (qp.pdf p.9)](assets/asset_3_b_diagram.png)
 
 
 **Mark scheme answer**

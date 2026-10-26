@@ -35,7 +35,7 @@ A ship floats on the sea. upthrust surface of sea
 
 The upward force acting on the ship is called upthrust. This force is shown on the diagram. Draw another labelled arrow on the diagram to show the other vertical force acting on the ship.
 
-> 🖼 crop required: diagram (qp.pdf p.4)
+![diagram — official paper figure (qp.pdf p.4)](assets/asset_2_a_i_diagram.png)
 
 
 **Mark scheme answer**

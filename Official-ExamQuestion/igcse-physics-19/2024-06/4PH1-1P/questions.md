@@ -86,7 +86,7 @@ The nucleus of an atom of carbon has 6 protons and 8 neutrons. Which row of the 
 - **(C)** 8                       6
 - **(D)** 8                       8
 
-> 🖼 crop required: table (qp.pdf p.4)
+![table — official paper figure (qp.pdf p.4)](assets/asset_2_a_table.png)
 
 
 **Mark scheme answer**
@@ -678,7 +678,7 @@ This question is about air pressure.
 
 During an aeroplane flight, a passenger drinks some water from a plastic bottle. The passenger then replaces the top to seal the bottle, as shown in diagram 1. air water Diagram 1 The air pressure outside the bottle is 80 kPa. State the air pressure inside the bottle just after the bottle has been sealed. air pressure = kPa
 
-> 🖼 crop required: diagram (qp.pdf p.20)
+![diagram — official paper figure (qp.pdf p.20)](assets/asset_9_a_diagram.png)
 
 
 **Mark scheme answer**
