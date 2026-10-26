@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: PRO-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-006"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-012"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "3b6a443d4e3643f461a1cca12c6e1ad47ab6b596"
-    syllabai_resources: "8b5a64f1b18724208ff19969b002028d3ed41bed"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "0261a2b908751ac5c0a4331c1f7463c4956ec664"
 ---
 
 # PRO-01 — Problem-Solving Frameworks
@@ -48,7 +48,7 @@ assessment-objective frame that weights application and analysis, the command
 word taxonomy that fixes what each demand means, the mark-scheme answer
 skeletons that publish the solution framework for multi-step problems, the
 precision gating and alternative routes built into those skeletons, and the
-book's own decision frameworks of SRC-SPEC-4CH1, SRC-QPMS-4CH1, SRC-TL-4CH1 and SRC-BOOK-4CH1-SB1. Claims ride only on this artifact's own bounded pack
+book's own decision frameworks. Grounding: SRC-SPEC-4CH1, SRC-QPMS-4CH1, SRC-TL-4CH1 and SRC-BOOK-4CH1-SB1. Claims ride only on this artifact's own bounded pack
 excerpts. Canonical planes are untouched.
 
 ## Scope

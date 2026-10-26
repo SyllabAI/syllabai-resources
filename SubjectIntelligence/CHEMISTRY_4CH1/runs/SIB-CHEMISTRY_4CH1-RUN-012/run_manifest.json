@@ -1,0 +1,72 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-012",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "0261a2b908751ac5c0a4331c1f7463c4956ec664",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "TUT-08",
+      "filename": "CHEMISTRY_4CH1_TUT-08_CONCEPT_COMPARISON_GUIDES.md",
+      "evidence_pack": "evidence/TUT-08/evidence_pack.json",
+      "evidence_pack_sha256": "eb7354b27cc6a39badd7999a075e6c5eb76549534b2546585ab3a5ccaa4be626",
+      "artifact_sha256": "640979f33c810555540fe3841d09be8d6bcc53414b3551af2cc57a523833940e",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (TUT/PRO on SRC-SPEC-4CH1, EXM on SRC-ER-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors)",
+        "evidence_claim_qa": "PASS (r4: 8 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "disclosure_repair": "PASS (SIB-ASSESS-r1 D1: manifest.yaml coverage_status rewritten to the verified per-source state; zero new or altered source claims in artifacts)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D1/D5 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "EXM-01",
+      "filename": "CHEMISTRY_4CH1_EXM-01_EXAMINER_REPORT_SYNTHESIS.md",
+      "evidence_pack": "evidence/EXM-01/evidence_pack.json",
+      "evidence_pack_sha256": "27f41f27607963512c8cfff60f9f76964670c80e9c81bccf29796670c514d56a",
+      "artifact_sha256": "7f916e6c81a068e24cf58a3d755b1c0206aafc16267accaea2516c0676e168c3",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (TUT/PRO on SRC-SPEC-4CH1, EXM on SRC-ER-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors)",
+        "evidence_claim_qa": "PASS (r4: 8 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-005)",
+        "editorial_repair": "PASS (SIB-ASSESS-r1 D5: surgical text repair; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D1/D5 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "PRO-01",
+      "filename": "CHEMISTRY_4CH1_PRO-01_PROBLEM_SOLVING_FRAMEWORKS.md",
+      "evidence_pack": "evidence/PRO-01/evidence_pack.json",
+      "evidence_pack_sha256": "3d610a8fe09a9c3bb537160c89ce2422eb002ff2ad42141d93564291be133df1",
+      "artifact_sha256": "d2003a813fe1267a7a45c061b6b033bcafbea7d3f8661d9381e87d48803ff9ce",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; family primaries RESOLVED (TUT/PRO on SRC-SPEC-4CH1, EXM on SRC-ER-4CH1); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a: 0 errors)",
+        "evidence_claim_qa": "PASS (r4: 11 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-006)",
+        "editorial_repair": "PASS (SIB-ASSESS-r1 D5: surgical text repair; citation tokens byte-identical pre/post edit; record substance unchanged)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D1/D5 edits only)"
+      },
+      "qa_report": ""
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

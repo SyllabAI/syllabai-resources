@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: TUT-08
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -28,7 +28,7 @@ generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-012"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
+    syllabai_resources: "0261a2b908751ac5c0a4331c1f7463c4956ec664"
 ---
 
 # TUT-08 — Concept Comparison Guides
@@ -146,8 +146,8 @@ own numbers.
 **Evidence:** the book states "Yeast is killed by more than about 15% of alcohol
 in the mixture" and "This takes advantage of the difference in boiling point
 between ethanol and water. Water boils at 100 °C whereas ethanol boils at78℃.",
-then lists the hydration route's "Temperature: 300℃", "Pressure: 60-70
-atmospheres" and "Catalyst: phosphoric acid" (SRC-BOOK-4CH1-SB1,
+then lists the hydration route's conditions as label/value lines — temperature
+300℃, pressure 60-70 atmospheres, catalyst phosphoric acid (SRC-BOOK-4CH1-SB1,
 parsed/edexcel_igcse_chemistry_chunks_v3.jsonl line 990). Temporal scope:
 CURRENT — AUTHORITATIVE.
 

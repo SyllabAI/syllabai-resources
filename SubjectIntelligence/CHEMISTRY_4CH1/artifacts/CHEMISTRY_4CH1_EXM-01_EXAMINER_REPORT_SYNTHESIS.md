@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXM-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-ER-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-005"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-012"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "f61a5bafe6cacdf538e5e06d86f818e7737cbfe3"
-    syllabai_resources: "367b5d61cd5f1ab115f9947ba2981f08389540ee"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "0261a2b908751ac5c0a4331c1f7463c4956ec664"
 ---
 
 # EXM-01 — Examiner Report Synthesis
@@ -44,7 +44,7 @@ provenance:
 ## Purpose
 
 This artifact synthesises the structure and voice of the official 4CH1 examiner
-reports held in the corpus of record : what a report contains, how it speaks about performance, and
+reports held in the corpus of record: what a report contains, how it speaks about performance, and
 which recurring commentary forms it uses. Every claim is carried on a bounded,
 page-located excerpt from the run's evidence pack, with paper/session identity
 preserved per the EXM family's citation law. Research artifact; canonical planes
