@@ -96,6 +96,17 @@ HUB_CURRENT = sys.argv[2] if len(sys.argv) > 2 else "/tmp/hub-chem-questions.jso
 RAW = "https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/Official-ExamQuestion/igcse-chemistry-19"
 SERIES_LABEL = {"01": "January", "06": "June", "11": "November"}
 OFFICIAL_SLUG_PREFIX = "official-4ch1-"
+_CHEM_MANIFEST_NOTE = None   # chemistry keeps its per-wave note hardcode at the staging site
+_PHYS_MANIFEST_NOTE = (
+    "4PH1 lane bootstrap (Task 22, F103): the first official-papers.json for "
+    "igcse-physics-19 - 55 official sets (17x1P + 16x2P + 11x1PR + 11x2PR; the 3 "
+    "2020-11 NO-QP dirs stay na:pmt-not-listed), rebuilt from the resources "
+    "Official-ExamQuestion/igcse-physics-19 corpus of record (converter v0.25.0, "
+    "all 55 slices fully PASS; G3 142/142, G5 2,254/2,254, spec tags terminal). "
+    "Wave-15 UX doctrine governs under ADR-039 fix-and-disclose: best learner "
+    "experience, values never invented. The SME questions.json is a byte-identical "
+    "passthrough (G-E4); the export is disclosed by "
+    "scripts/exporter-disclosures/2026-10-27-task22-physics-bootstrap.json.")
 
 
 def series_label(series):
@@ -107,11 +118,129 @@ def part_slug(pn):
     return pn.replace("(", "-").replace(")", "")
 
 
-PAPER = os.environ.get("EXAMQ_EXPORT_PAPERS", "1C,2C")
+PAPER = os.environ.get("EXAMQ_EXPORT_PAPERS", "1C,2C")   # legacy env (unused by the v4 flow)
+
+# Task 22 hub-export wave: the lane registry (the Task 14 converter pattern).
+# 4ch1 stays the DEFAULT lane: the module constants below keep their chemistry
+# values at import time, so the default behavior is byte-identical; --spec 4ph1
+# rebinds the lane-scoped globals via apply_lane().
+LANE_SPEC = "4ch1"
+LANES = {
+    "4ch1": dict(lane="igcse-chemistry-19", code="4CH1", prefix="official-4ch1-",
+                 subject="Chemistry", syllabus="2017 (Issue 3)",
+                 topic_seed=lambda series, paper: series,
+                 manifest_note=_CHEM_MANIFEST_NOTE),
+    "4ph1": dict(lane="igcse-physics-19", code="4PH1", prefix="official-4ph1-",
+                 subject="Physics", syllabus="2017",
+                 topic_seed=lambda series, paper: "4ph1-" + series + "-" + paper,
+                 manifest_note=_PHYS_MANIFEST_NOTE),
+}
+
+
+def apply_lane(spec):
+    """Rebind the lane-scoped globals for --spec 4ph1. The 4ch1 branch is the
+    identity (the module constants are already the chemistry values)."""
+    global CORPUS, RAW, OFFICIAL_SLUG_PREFIX, PAPER_SERIES, PAPERS, EXPECTED_CENSUS, LANE_SPEC
+    cfg = LANES[spec]
+    LANE_SPEC = spec
+    if spec == "4ch1":
+        return cfg
+    CORPUS = str(Path(__file__).resolve().parents[1] / "Official-ExamQuestion" / cfg["lane"])
+    RAW = ("https://raw.githubusercontent.com/SyllabAI/syllabai-resources/main/"
+           "Official-ExamQuestion/" + cfg["lane"])
+    OFFICIAL_SLUG_PREFIX = cfg["prefix"]
+    PAPER_SERIES = {"1P": list(_PH_SERIES_1P), "2P": list(_PH_SERIES_2P),
+                    "1PR": list(_PH_SERIES_1PR), "2PR": list(_PH_SERIES_2PR)}
+    PAPERS = tuple(PAPER_SERIES)
+    EXPECTED_CENSUS = _PH_EXPECTED_CENSUS
+    return cfg
+
+
+# physics topicId seed: lane-scoped (chemistry's of-record topicIds are
+# "off_" + sha1(series)[:12] - the G-E1b identity law keeps them byte-identical;
+# a physics set seeded with the bare series would COLLIDE with chemistry's in
+# the hub's package-global id space - the F44 collision class, lane-wide).
+# The physics law of record: "off_" + sha1("4ph1-<series>-<paper>")[:12].
+# The physics frozen census of record (Task 22; generated from
+# igcse-physics-19/MULTI-SERIES-REPORT.json @ converter v0.25.0 - 55 slices).
+# (questions, parts, marks) per slice; a mismatch is a hard stop (G-E3).
+_PH_EXPECTED_CENSUS = {
+    "1P": {
+        "2019-06": (12, 47, 110),
+        "2020-01": (12, 50, 110),
+        "2020-06": (11, 42, 110),
+        "2020-11": (11, 42, 110),
+        "2021-01": (11, 50, 110),
+        "2021-06": (11, 48, 110),
+        "2021-11": (12, 53, 110),
+        "2022-01": (12, 55, 110),
+        "2022-06": (12, 59, 110),
+        "2023-01": (11, 50, 110),
+        "2023-06": (12, 45, 110),
+        "2023-11": (12, 49, 110),
+        "2024-06": (12, 51, 110),
+        "2024-11": (11, 53, 110),
+        "2025-06": (11, 49, 110),
+        "2025-11": (12, 50, 110),
+        "2026-06": (11, 46, 110),
+    },
+    "1PR": {
+        "2019-06": (11, 54, 110),
+        "2020-01": (12, 52, 110),
+        "2020-06": (13, 53, 110),
+        "2021-01": (12, 47, 110),
+        "2022-01": (12, 49, 110),
+        "2022-06": (12, 49, 110),
+        "2023-01": (11, 55, 110),
+        "2023-06": (11, 46, 110),
+        "2024-06": (12, 50, 110),
+        "2025-06": (11, 43, 110),
+        "2026-06": (11, 47, 110),
+    },
+    "2P": {
+        "2019-06": (9, 31, 70),
+        "2020-01": (8, 31, 70),
+        "2020-06": (8, 35, 70),
+        "2021-01": (8, 37, 70),
+        "2021-06": (7, 32, 70),
+        "2021-11": (8, 37, 70),
+        "2022-01": (9, 31, 70),
+        "2022-06": (7, 31, 70),
+        "2023-01": (8, 28, 70),
+        "2023-06": (8, 36, 70),
+        "2023-11": (8, 29, 70),
+        "2024-06": (8, 33, 70),
+        "2024-11": (8, 35, 70),
+        "2025-06": (8, 32, 70),
+        "2025-11": (8, 36, 70),
+        "2026-06": (8, 27, 70),
+    },
+    "2PR": {
+        "2019-06": (8, 34, 70),
+        "2020-01": (8, 33, 70),
+        "2020-06": (8, 36, 70),
+        "2021-01": (8, 33, 70),
+        "2022-01": (8, 30, 70),
+        "2022-06": (7, 30, 70),
+        "2023-01": (8, 34, 70),
+        "2023-06": (8, 30, 70),
+        "2024-06": (9, 30, 70),
+        "2025-06": (8, 31, 70),
+        "2026-06": (8, 28, 70),
+    },
+}
+# Physics paper schedules of record: 1P = all 17 series; 2P = 16 (the 2020-11
+# NO-QP trio: 1PR/2P/2PR carry no qp.pdf); 1PR/2PR = 11 (the five two-variant
+# sessions 2021-06/2021-11/2023-11/2024-11/2025-11 never printed R variants,
+# the COVID/November pattern - same shape as the chemistry R1CR schedule).
+_PH_SERIES_1P = ["2019-06", "2020-01", "2020-06", "2020-11", "2021-01", "2021-06", "2021-11", "2022-01", "2022-06", "2023-01", "2023-06", "2023-11", "2024-06", "2024-11", "2025-06", "2025-11", "2026-06"]
+_PH_SERIES_2P = ["2019-06", "2020-01", "2020-06", "2021-01", "2021-06", "2021-11", "2022-01", "2022-06", "2023-01", "2023-06", "2023-11", "2024-06", "2024-11", "2025-06", "2025-11", "2026-06"]
+_PH_SERIES_1PR = ["2019-06", "2020-01", "2020-06", "2021-01", "2022-01", "2022-06", "2023-01", "2023-06", "2024-06", "2025-06", "2026-06"]
+_PH_SERIES_2PR = ["2019-06", "2020-01", "2020-06", "2021-01", "2022-01", "2022-06", "2023-01", "2023-06", "2024-06", "2025-06", "2026-06"]
 
 
 def raw_url(series, paper, rel_path):
-    return f"{RAW}/{series}/4CH1-{paper}/{rel_path}"
+    return f"{RAW}/{series}/{LANES[LANE_SPEC]['code']}-{paper}/{rel_path}"
 
 
 def resolve_asset_path(a, by_id):
@@ -213,7 +342,7 @@ def restore_stem(q, series, paper, ledger, by_part_num):
     if not stem:
         return None
     qnum = str(q["question_number"])
-    entry = ledger.get("verdicts", {}).get(f"{series}/4CH1-{paper}:Q{qnum}")
+    entry = ledger.get("verdicts", {}).get(f"{series}/{LANES[LANE_SPEC]['code']}-{paper}:Q{qnum}")
     first_md = (q["parts"][0].get("problem_md") or "") if q["parts"] else ""
     norm = lambda s: re.sub(r"\s+", " ", s).strip()
     if norm(stem)[:60] and norm(stem)[:60] in norm(first_md):
@@ -277,7 +406,7 @@ def restore_stem(q, series, paper, ledger, by_part_num):
 
 def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
     if topic is None:
-        tp = f"{CORPUS}/{series}/4CH1-{paper}/topic.json"
+        tp = f"{CORPUS}/{series}/{LANES[LANE_SPEC]['code']}-{paper}/topic.json"
         topic = json.load(open(tp))
     tj = topic
     # asset id -> asset (for shared-ref resolution)
@@ -295,7 +424,7 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
         stem_md = restore_stem(q, series, paper, stem_ledger or {}, by_part_num)
         # F-W20-1: stem-level figures render inside the stem block
         stem_figs_md = []
-        s_entry = (stem_ledger or {}).get("verdicts", {}).get(f"{series}/4CH1-{paper}:Q{qnum}") or {}
+        s_entry = (stem_ledger or {}).get("verdicts", {}).get(f"{series}/{LANES[LANE_SPEC]['code']}-{paper}:Q{qnum}") or {}
         ref = (s_entry.get("stemFigureRef") or {}).get("asset")
         if ref:
             ra = by_id.get(ref)
@@ -411,7 +540,7 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
                 "choices": choices,
                 "sourcePaper": {
                     "date": series_label(series),
-                    "number": f"4CH1/{paper}",
+                    "number": f"{LANES[LANE_SPEC]['code']}/{paper}",
                     "questionNumber": int(qnum) if qnum.isdigit() else None,
                     "questionPart": None,
                 },
@@ -426,7 +555,8 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
         })
 
     return {
-        "topicId": "off_" + hashlib.sha1(series.encode()).hexdigest()[:12],
+        "topicId": "off_" + hashlib.sha1(
+            LANES[LANE_SPEC]["topic_seed"](series, paper).encode()).hexdigest()[:12],
         "slug": OFFICIAL_SLUG_PREFIX + paper.lower() + "-" + series,
         "name": f"{series_label(series)} — Paper {paper} (official past paper)",
         "setName": "Official Past Paper",
@@ -435,19 +565,19 @@ def export_series(series, paper, topic=None, stem_ledger=None, enrich=None):
         # one shared topicSlug with per-set restarting orders collided 12 base
         # refs and the frozen package-global seenRefs gate refused the bundle).
         "topicSlug": OFFICIAL_SLUG_PREFIX + paper.lower() + "-" + series,
-        "section": f"Official past papers (4CH1/{paper})",
+        "section": f"Official past papers ({LANES[LANE_SPEC]['code']}/{paper})",
         "sectionSlug": "official-past-papers",
         "curriculum": {
             "board": "Pearson Edexcel",
             "level": "IGCSE",
-            "subject": "Chemistry",
-            "code": "4CH1",
-            "syllabusVersion": "2017 (Issue 3)",
+            "subject": LANES[LANE_SPEC]["subject"],
+            "code": LANES[LANE_SPEC]["code"],
+            "syllabusVersion": LANES[LANE_SPEC]["syllabus"],
         },
         "source": {
             "provider": "Pearson Edexcel (operator archive, ADR-037 verbatim extraction)",
             "license": "operator-archive; extracted verbatim from the licensed archive PDFs — see syllabai-resources Official-ExamQuestion/README.md",
-            "pageUrl": f"https://github.com/SyllabAI/syllabai-resources/tree/main/Official-ExamQuestion/igcse-chemistry-19/{series}/4CH1-{paper}",
+            "pageUrl": f"https://github.com/SyllabAI/syllabai-resources/tree/main/Official-ExamQuestion/{LANES[LANE_SPEC]['lane']}/{series}/{LANES[LANE_SPEC]['code']}-{paper}",
         },
         "schema": "syllabai.official-paper-questions/0.1",
         "relatedNoteIds": [],
@@ -629,7 +759,8 @@ def verify_source_cut(topics_dir, source_cut):
                     f"G-E5: staging topics file missing for {series}/{paper}: "
                     f"{staged_path} (stage the declared cut's corpus topics first)")
             staged = _topic_data_plane(open(staged_path, "rb").read())
-            rel = f"Official-ExamQuestion/igcse-chemistry-19/{series}/4CH1-{paper}/topic.json"
+            rel = (f"Official-ExamQuestion/{LANES[LANE_SPEC]['lane']}/{series}/"
+                   f"{LANES[LANE_SPEC]['code']}-{paper}/topic.json")
             at_cut = _topic_data_plane(_cut_topic_bytes(source_cut, rel))
             if json.dumps(staged, sort_keys=True) != json.dumps(at_cut, sort_keys=True):
                 raise ExportGateError(
@@ -653,7 +784,7 @@ def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path,
     n_slices = 0
     for paper in PAPERS:
         for series in PAPER_SERIES[paper]:
-            s = next(t for t in out_sets if t["slug"] == f"official-4ch1-{paper.lower()}-{series}")
+            s = next(t for t in out_sets if t["slug"] == f"{LANES[LANE_SPEC]['prefix']}{paper.lower()}-{series}")
             c = census(s)
             exp = EXPECTED_CENSUS[paper][series]
             if c != exp:
@@ -681,7 +812,7 @@ def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path,
     n_common = 0
     for paper in PAPERS:
         for series in PAPER_SERIES[paper]:
-            slug = f"official-4ch1-{paper.lower()}-{series}"
+            slug = f"{LANES[LANE_SPEC]['prefix']}{paper.lower()}-{series}"
             rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger, enrich)
             of_record = by_slug.get(slug)
             if of_record is None:
@@ -720,7 +851,7 @@ def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path,
             rename_n = content_n = 0
             for paper in PAPERS:
                 for series in PAPER_SERIES[paper]:
-                    slug = f"official-4ch1-{paper.lower()}-{series}"
+                    slug = f"{LANES[LANE_SPEC]['prefix']}{paper.lower()}-{series}"
                     rebuilt = export_series(series, paper, topics_src(series, paper), stem_ledger, enrich)
                     of_record = by_slug[slug]
                     smap = expected_probe["idRenames"].get(slug)
@@ -808,6 +939,15 @@ def run_gates(out_sets, raw_sme_bytes, raw_official_bytes, expected_deltas_path,
           f"{len(sme_sets)} SME sets)")
 
 
+
+
+def _manifest_note_text():
+    """Task 22: the lane-aware note of record. Chemistry returns None (the
+    chemistry note above stays the per-wave hardcode of record, byte-safe);
+    physics returns the bootstrap note (LANES["4ph1"]["manifest_note"])."""
+    return LANES[LANE_SPEC].get("manifest_note")
+
+
 def main():
     import argparse
     ap = argparse.ArgumentParser()
@@ -826,11 +966,14 @@ def main():
                          "disclosed in the 'new' census class instead of refusing")
     ap.add_argument("--manifest", default=None,
                     help="manifest.json beside the bundle of record; staged with bumped note")
+    ap.add_argument("--spec", default="4ch1", choices=sorted(LANES),
+                    help="corpus lane (Task 22): 4ch1 (default, byte-identical) | 4ph1")
     ap.add_argument("--source-cut", default=None,
                     help="the data cut this run consumes, main@<40-hex> (F51: REQUIRED "
                          "with --manifest — stamped into importSource.ref and proven by "
                          "G-E5 against the staging copies)")
     args = ap.parse_args()
+    apply_lane(args.spec)
     topics_dir = args.topics_dir or os.path.join(os.getcwd(), "topics")
     source_cut = None
     if args.manifest and not args.source_cut:
@@ -874,7 +1017,7 @@ def main():
     run_gates(out, raw, raw_op, args.expected_deltas, topics_src, args.allow_new_official,
               stem_ledger, enrich)
 
-    dest = os.path.join(args.out_stage, "content", "igcse-chemistry-19")
+    dest = os.path.join(args.out_stage, "content", LANES[LANE_SPEC]["lane"])
     os.makedirs(dest, exist_ok=True)
     with open(os.path.join(dest, "questions.json"), "wb") as f:
         f.write(json.dumps(kept, indent=1, ensure_ascii=False).encode())
@@ -896,7 +1039,7 @@ def main():
         # F51: the pin law — the staged manifest names the data cut the run
         # consumed (G-E5-proven above), never a stale or tool-identity ref.
         manifest["importSource"]["ref"] = source_cut
-        manifest["importSource"]["note"] = (
+        manifest["importSource"]["note"] = _manifest_note_text() or (
             "ADR-037 converter v0.23.0 corpus (Task 19 r2 deep-audit shape-hygiene wave, "
             "F92-F98): the user-served june-2026-4ch1-2c report drove the corpus-wide deep "
             "audit (battery v3, 54 slices / 2,607 parts, corpus+hub+live). Task 18's "

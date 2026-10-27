@@ -79,6 +79,83 @@ import sys
 import tempfile
 
 OFFICIAL_PREFIX = "official-4ch1-"
+# Task 22 hub-export wave: the lane registry (--spec; default 4ch1 byte-identical).
+# The physics frozen census of record: igcse-physics-19/MULTI-SERIES-REPORT.json
+# @ converter v0.25.0 - (questions, parts, sum(parts.marks), sum(question
+# totalMarks)) per slice; both mark layers agree on all 55 sets (the footer law).
+_LANES = {
+    "4ch1": dict(prefix="official-4ch1-"),
+    "4ph1": dict(prefix="official-4ph1-"),
+}
+LANE_SPEC = "4ch1"
+_PH_EXPECTED_CENSUS_V = {
+    ("2019-06", "1P"): (12, 47, 110, 110),
+    ("2019-06", "1PR"): (11, 54, 110, 110),
+    ("2019-06", "2P"): (9, 31, 70, 70),
+    ("2019-06", "2PR"): (8, 34, 70, 70),
+    ("2020-01", "1P"): (12, 50, 110, 110),
+    ("2020-01", "1PR"): (12, 52, 110, 110),
+    ("2020-01", "2P"): (8, 31, 70, 70),
+    ("2020-01", "2PR"): (8, 33, 70, 70),
+    ("2020-06", "1P"): (11, 42, 110, 110),
+    ("2020-06", "1PR"): (13, 53, 110, 110),
+    ("2020-06", "2P"): (8, 35, 70, 70),
+    ("2020-06", "2PR"): (8, 36, 70, 70),
+    ("2020-11", "1P"): (11, 42, 110, 110),
+    ("2021-01", "1P"): (11, 50, 110, 110),
+    ("2021-01", "1PR"): (12, 47, 110, 110),
+    ("2021-01", "2P"): (8, 37, 70, 70),
+    ("2021-01", "2PR"): (8, 33, 70, 70),
+    ("2021-06", "1P"): (11, 48, 110, 110),
+    ("2021-06", "2P"): (7, 32, 70, 70),
+    ("2021-11", "1P"): (12, 53, 110, 110),
+    ("2021-11", "2P"): (8, 37, 70, 70),
+    ("2022-01", "1P"): (12, 55, 110, 110),
+    ("2022-01", "1PR"): (12, 49, 110, 110),
+    ("2022-01", "2P"): (9, 31, 70, 70),
+    ("2022-01", "2PR"): (8, 30, 70, 70),
+    ("2022-06", "1P"): (12, 59, 110, 110),
+    ("2022-06", "1PR"): (12, 49, 110, 110),
+    ("2022-06", "2P"): (7, 31, 70, 70),
+    ("2022-06", "2PR"): (7, 30, 70, 70),
+    ("2023-01", "1P"): (11, 50, 110, 110),
+    ("2023-01", "1PR"): (11, 55, 110, 110),
+    ("2023-01", "2P"): (8, 28, 70, 70),
+    ("2023-01", "2PR"): (8, 34, 70, 70),
+    ("2023-06", "1P"): (12, 45, 110, 110),
+    ("2023-06", "1PR"): (11, 46, 110, 110),
+    ("2023-06", "2P"): (8, 36, 70, 70),
+    ("2023-06", "2PR"): (8, 30, 70, 70),
+    ("2023-11", "1P"): (12, 49, 110, 110),
+    ("2023-11", "2P"): (8, 29, 70, 70),
+    ("2024-06", "1P"): (12, 51, 110, 110),
+    ("2024-06", "1PR"): (12, 50, 110, 110),
+    ("2024-06", "2P"): (8, 33, 70, 70),
+    ("2024-06", "2PR"): (9, 30, 70, 70),
+    ("2024-11", "1P"): (11, 53, 110, 110),
+    ("2024-11", "2P"): (8, 35, 70, 70),
+    ("2025-06", "1P"): (11, 49, 110, 110),
+    ("2025-06", "1PR"): (11, 43, 110, 110),
+    ("2025-06", "2P"): (8, 32, 70, 70),
+    ("2025-06", "2PR"): (8, 31, 70, 70),
+    ("2025-11", "1P"): (12, 50, 110, 110),
+    ("2025-11", "2P"): (8, 36, 70, 70),
+    ("2026-06", "1P"): (11, 46, 110, 110),
+    ("2026-06", "1PR"): (11, 47, 110, 110),
+    ("2026-06", "2P"): (8, 27, 70, 70),
+    ("2026-06", "2PR"): (8, 28, 70, 70),
+}
+
+
+def apply_lane(spec):
+    global OFFICIAL_PREFIX, EXPECTED_CENSUS, LANE_SPEC
+    LANE_SPEC = spec
+    if spec == "4ph1":
+        OFFICIAL_PREFIX = _LANES["4ph1"]["prefix"]
+        EXPECTED_CENSUS = dict(_PH_EXPECTED_CENSUS_V)
+    else:
+        OFFICIAL_PREFIX = _LANES["4ch1"]["prefix"]
+        EXPECTED_CENSUS = dict(_CHEM_EXPECTED_CENSUS)
 # The v0.8.1-parity classes (F-187 G-E1): where the of-record bundle may
 # honestly differ from a fresh regeneration. Anything else refuses.
 # wave-22 (F62): "choices" joins — the 2020-01 2CR 1(b)(i) MCQ re-key is the
@@ -97,7 +174,7 @@ DISCLOSED_DELTA_CLASSES = {
 # census only).
 # (questions, parts, sum(parts.marks), sum(question totalMarks)) — the two mark
 # layers are pinned separately and AGREE on all 32 sets as of v0.10.0.
-EXPECTED_CENSUS = {
+_CHEM_EXPECTED_CENSUS = {
     ("2019-06", "1C"): (15, 64, 110, 110),  # 2019-06 damage REPAIRED by v0.10.0 (was 14,53,90,104)
     ("2020-01", "1C"): (10, 60, 110, 110),
     ("2020-11", "1C"): (10, 64, 110, 110),
@@ -585,6 +662,9 @@ def self_test(stage_path, stage_official_path, current_path, current_official_pa
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="mode", required=True)
+    for sp in (v, t):
+        sp.add_argument("--spec", default="4ch1", choices=sorted(_LANES),
+                        help="corpus lane (Task 22): 4ch1 (default) | 4ph1")
     v = sub.add_parser("verify", help="verify a staged export against the bundle of record")
     v.add_argument("--stage", required=True)
     v.add_argument("--stage-official-papers", required=True)
@@ -604,6 +684,7 @@ def main():
     t.add_argument("--disclosure", default=None,
                    help="rename-wave disclosure: the clean baseline passes through it")
     args = ap.parse_args()
+    apply_lane(args.spec)
     try:
         if args.mode == "verify":
             run_gates(args.stage, args.stage_official_papers, args.current,
