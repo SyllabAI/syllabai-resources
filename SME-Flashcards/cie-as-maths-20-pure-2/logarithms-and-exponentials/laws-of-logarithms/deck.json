@@ -1,0 +1,549 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-27T18:44:40Z",
+ "course_slug": "cie-as-maths-20-pure-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/as/maths/cie/20/pure-2/flashcards/logarithms-and-exponentials/laws-of-logarithms/",
+  "section_slug": "logarithms-and-exponentials",
+  "section_name": "Logarithms & Exponentials",
+  "topic_slug": "laws-of-logarithms",
+  "title": "Laws of Logarithms",
+  "order": 1
+ },
+ "card_count": 16,
+ "card_types": {
+  "fill_in_the_blanks": 2,
+  "question_and_answer": 10,
+  "true_or_false": 3,
+  "keyword_definition": 1
+ },
+ "spec_link_cards": 16,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_2gMvpwKxnY4Yjh2s",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the three laws of logarithms:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} x y = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} \\left(\\frac{x}{y}\\right) = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} x^{k} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed laws are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} x y = \\mathrm{log}_{a} x + \\mathrm{log}_{a} y$"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log_{a} \\left(\\frac{x}{y}\\right) = \\log_{a} x - \\log_{a} y`"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{log}_{a} x^{k} = k \\mathrm{log}_{a} x$"
+    },
+    {
+     "type": "paragraph",
+     "md": "In words: multiplying becomes adding, dividing becomes subtracting, and a power becomes a multiplier out in front."
+    }
+   ],
+   "front_md": "Complete the three laws of logarithms:\n\n`\\log_{a} x y = \\_\\_\\_\\_\\_\\_`\n\n`\\log_{a} \\left(\\frac{x}{y}\\right) = \\_\\_\\_\\_\\_\\_`\n\n`\\log_{a} x^{k} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed laws are:\n\n$\\mathrm{log}_{a} x y = \\mathrm{log}_{a} x + \\mathrm{log}_{a} y$\n\n`\\log_{a} \\left(\\frac{x}{y}\\right) = \\log_{a} x - \\log_{a} y`\n\n$\\mathrm{log}_{a} x^{k} = k \\mathrm{log}_{a} x$\n\nIn words: multiplying becomes adding, dividing becomes subtracting, and a power becomes a multiplier out in front.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Sbq6VNHhGpnzPHrC",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where do the laws of logarithms come from?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are the **laws of indices** in disguise, because a logarithm is itself a power."
+    },
+    {
+     "type": "paragraph",
+     "md": "Behind the product law sits $a^{x} \\times a^{y} = a^{x+y}$, and behind the power law sits `\\left(a^{x}\\right)^{y} = a^{x y}`."
+    }
+   ],
+   "front_md": "Where do the laws of logarithms come from?\n",
+   "back_md": "They are the **laws of indices** in disguise, because a logarithm is itself a power.\n\nBehind the product law sits $a^{x} \\times a^{y} = a^{x+y}$, and behind the power law sits `\\left(a^{x}\\right)^{y} = a^{x y}`.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wYDPdk9MYkfrWMZp",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\log \\left(x + y\\right) = \\log x + \\log y`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "There is no law that breaks up the logarithm of a **sum**: only a product, a quotient or a power can be split."
+    },
+    {
+     "type": "paragraph",
+     "md": "Taking $x = y = 10$ in base $10$ gives $\\mathrm{log} 20 \\approx 1 . 301$ on the left, against $1 + 1 = 2$ on the right."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\log \\left(x + y\\right) = \\log x + \\log y`\n",
+   "back_md": "**False.**\n\nThere is no law that breaks up the logarithm of a **sum**: only a product, a quotient or a power can be split.\n\nTaking $x = y = 10$ in base $10$ gives $\\mathrm{log} 20 \\approx 1 . 301$ on the left, against $1 + 1 = 2$ on the right.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vfvcpPpZwQqJMXp6",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are $\\mathrm{log}_{a} a$ and $\\mathrm{log}_{a} 1$ equal to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The first is $1$ and the second is $0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both come straight from reading a logarithm as a power: you raise $a$ to the power $1$ to get $a$, and to the power $0$ to get $1$."
+    }
+   ],
+   "front_md": "What are $\\mathrm{log}_{a} a$ and $\\mathrm{log}_{a} 1$ equal to?\n",
+   "back_md": "The first is $1$ and the second is $0$.\n\nBoth come straight from reading a logarithm as a power: you raise $a$ to the power $1$ to get $a$, and to the power $0$ to get $1$.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ygG6N34rVPf7bvfB",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Do the laws of logarithms apply to $\\mathrm{ln}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Yes, because $\\mathrm{ln} x$ is simply $\\mathrm{log}_{\\text{e}} x$, a logarithm whose base happens to be $\\text{e}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Nothing in any of the laws depends on which base is used, so every one of them applies to $\\mathrm{ln}$ unchanged."
+    }
+   ],
+   "front_md": "Do the laws of logarithms apply to $\\mathrm{ln}$?\n",
+   "back_md": "Yes, because $\\mathrm{ln} x$ is simply $\\mathrm{log}_{\\text{e}} x$, a logarithm whose base happens to be $\\text{e}$.\n\nNothing in any of the laws depends on which base is used, so every one of them applies to $\\mathrm{ln}$ unchanged.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kf9jzD8pYDcxP2Sg",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does `\\log_{a} \\left(\\frac{1}{x}\\right)` simplify to?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It simplifies to $- \\mathrm{log}_{a} x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing $\\frac{1}{x}$ as $x^{-1}$ makes it $\\mathrm{log}_{a} x^{-1}$, and the power law then brings the $- 1$ out to the front."
+    }
+   ],
+   "front_md": "What does `\\log_{a} \\left(\\frac{1}{x}\\right)` simplify to?\n",
+   "back_md": "It simplifies to $- \\mathrm{log}_{a} x$.\n\nWriting $\\frac{1}{x}$ as $x^{-1}$ makes it $\\mathrm{log}_{a} x^{-1}$, and the power law then brings the $- 1$ out to the front.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_hRtJS7kz4VmWT9NG",
+   "card_type": "true_or_false",
+   "order": 6,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A logarithm can come out negative."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For example $\\mathrm{log}_{10} 0 . 01 = - 2$, because $10^{-2} = 0 . 01$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is the number you take the logarithm **of** that has to be positive; the logarithm itself can be any real number."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA logarithm can come out negative.\n",
+   "back_md": "**True.**\n\nFor example $\\mathrm{log}_{10} 0 . 01 = - 2$, because $10^{-2} = 0 . 01$.\n\nIt is the number you take the logarithm **of** that has to be positive; the logarithm itself can be any real number.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_S99qbSCMNTQxcrTC",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You have reduced a logarithmic equation to `\\log_{2} \\left(\\frac{x^{2}}{x + 6}\\right) = 3`. What is the next move?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Undo the logarithm by making each side a power of the base, giving $\\frac{x^{2}}{x+6} = 2^{3} = 8$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That removes the logarithm altogether and leaves an ordinary equation, here a quadratic once you multiply up by $x + 6$."
+    }
+   ],
+   "front_md": "You have reduced a logarithmic equation to `\\log_{2} \\left(\\frac{x^{2}}{x + 6}\\right) = 3`. What is the next move?\n",
+   "back_md": "Undo the logarithm by making each side a power of the base, giving $\\frac{x^{2}}{x+6} = 2^{3} = 8$.\n\nThat removes the logarithm altogether and leaves an ordinary equation, here a quadratic once you multiply up by $x + 6$.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_PhBZJ9M4PrX3Q9Dq",
+   "card_type": "question_and_answer",
+   "order": 8,
+   "set_id": "flst_N85mSyZTbNfghJDn",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why must you check the solutions of a logarithmic equation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $\\mathrm{log}_{a} x$ is only defined when $x > 0$, so any value making a logarithm in the original equation take a negative or zero argument must be rejected."
+    },
+    {
+     "type": "paragraph",
+     "md": "Solving `2 \\log_{2} x = 3 + \\log_{2} \\left(x + 6\\right)` gives $x = 12$ and $x = - 4$, and $- 4$ goes because `\\log_{2} \\left(- 4\\right)` does not exist."
+    }
+   ],
+   "front_md": "Why must you check the solutions of a logarithmic equation?\n",
+   "back_md": "Because $\\mathrm{log}_{a} x$ is only defined when $x > 0$, so any value making a logarithm in the original equation take a negative or zero argument must be rejected.\n\nSolving `2 \\log_{2} x = 3 + \\log_{2} \\left(x + 6\\right)` gives $x = 12$ and $x = - 4$, and $- 4$ goes because `\\log_{2} \\left(- 4\\right)` does not exist.\n",
+   "spec_links": [
+    "spcpt_PCpf3jBwZjZyVDhQ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zCcWMHrf8BhVx7r6",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_zBqmSJNbyW5BjryW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define an **exponential equation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An equation in which the **unknown is a power**."
+    },
+    {
+     "type": "paragraph",
+     "md": "For example $3^{3x} - 4 = 9^{x} + 5$."
+    }
+   ],
+   "front_md": "Define an **exponential equation**.\n",
+   "back_md": "An equation in which the **unknown is a power**.\n\nFor example $3^{3x} - 4 = 9^{x} + 5$.\n",
+   "spec_links": [
+    "spcpt_cMmmKhpspFd2qwy4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_KnCqfHfCcnKWSpHJ",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_zBqmSJNbyW5BjryW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When can an exponential equation be solved without using logarithms at all?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When both sides can be written as powers of the **same base**, because then the powers themselves must be equal."
+    },
+    {
+     "type": "paragraph",
+     "md": "$5^{2x}=125\\Rightarrow5^{2x}=5^{3}$, so $2 x = 3$ and $x=\\frac{3}{2}$."
+    }
+   ],
+   "front_md": "When can an exponential equation be solved without using logarithms at all?\n",
+   "back_md": "When both sides can be written as powers of the **same base**, because then the powers themselves must be equal.\n\n$5^{2x}=125\\Rightarrow5^{2x}=5^{3}$, so $2 x = 3$ and $x=\\frac{3}{2}$.\n",
+   "spec_links": [
+    "spcpt_cMmmKhpspFd2qwy4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c8Y5Q7rxtSB6TWHH",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_zBqmSJNbyW5BjryW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you solve an exponential equation whose two sides **cannot** be written as powers of the same base?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Take **logarithms of both sides**, then use $\\mathrm{log}_{a} x^{k} = k \\mathrm{log}_{a} x$ to bring each power down as a multiplier, then rearrange for $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Natural logarithms are usual, and exact answers are normally left in terms of $\\mathrm{ln}$."
+    }
+   ],
+   "front_md": "How do you solve an exponential equation whose two sides **cannot** be written as powers of the same base?\n",
+   "back_md": "Take **logarithms of both sides**, then use $\\mathrm{log}_{a} x^{k} = k \\mathrm{log}_{a} x$ to bring each power down as a multiplier, then rearrange for $x$.\n\nNatural logarithms are usual, and exact answers are normally left in terms of $\\mathrm{ln}$.\n",
+   "spec_links": [
+    "spcpt_cMmmKhpspFd2qwy4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_pWXY86z4Ds3G4kNS",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_zBqmSJNbyW5BjryW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\mathrm{ln}42}{\\mathrm{ln}6} = \\mathrm{ln} 7$"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Logarithms cannot be cancelled or divided like that. $\\frac{\\mathrm{ln}42}{\\mathrm{ln}6}$ is one number divided by another and does not simplify."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is **subtraction** that combines them: $\\mathrm{ln} 42 - \\mathrm{ln} 6 = \\mathrm{ln} 7$."
+    }
+   ],
+   "front_md": "**True or False?**\n\n$\\frac{\\mathrm{ln}42}{\\mathrm{ln}6} = \\mathrm{ln} 7$\n",
+   "back_md": "**False.**\n\nLogarithms cannot be cancelled or divided like that. $\\frac{\\mathrm{ln}42}{\\mathrm{ln}6}$ is one number divided by another and does not simplify.\n\nIt is **subtraction** that combines them: $\\mathrm{ln} 42 - \\mathrm{ln} 6 = \\mathrm{ln} 7$.\n",
+   "spec_links": [
+    "spcpt_cMmmKhpspFd2qwy4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_K7kMS8vCfBXXt2Ht",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_zBqmSJNbyW5BjryW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you spot and handle a hidden quadratic in an exponential equation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Look for one exponential term that is the **square** of another: `4^{x} = \\left(2^{x}\\right)^{2}` and `\\text{e}^{2x} = \\left(\\text{e}^{x}\\right)^{2}`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then substitute, for example, $y=\\text{e}^{x}$, solve the resulting quadratic, then solve $\\text{e}^{x}=y$ for each root."
+    }
+   ],
+   "front_md": "How do you spot and handle a hidden quadratic in an exponential equation?\n",
+   "back_md": "Look for one exponential term that is the **square** of another: `4^{x} = \\left(2^{x}\\right)^{2}` and `\\text{e}^{2x} = \\left(\\text{e}^{x}\\right)^{2}`.\n\nThen substitute, for example, $y=\\text{e}^{x}$, solve the resulting quadratic, then solve $\\text{e}^{x}=y$ for each root.\n",
+   "spec_links": [
+    "spcpt_cMmmKhpspFd2qwy4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BQY3p7kV4sj6QNFS",
+   "card_type": "fill_in_the_blanks",
+   "order": 5,
+   "set_id": "flst_zBqmSJNbyW5BjryW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rearrangement into quadratic form:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$21 \\text{e}^{x} - 4 = 5 \\text{e}^{2x}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "becomes"
+    },
+    {
+     "type": "paragraph",
+     "md": "$5 ( \\underline{\\quad} ) ^{2} - \\underline{\\quad} ( \\text{e}^{x} ) + \\underline{\\quad} = 0$"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The rearrangement gives:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`5\\left(\\text{e}^{x}\\right)^{2} - 21\\left(\\text{e}^{x}\\right) + 4 = 0`"
+    },
+    {
+     "type": "paragraph",
+     "md": "which factorises as `\\left(5\\text{e}^{x} - 1\\right)\\left(\\text{e}^{x} - 4\\right) = 0`."
+    }
+   ],
+   "front_md": "Complete the rearrangement into quadratic form:\n\n$21 \\text{e}^{x} - 4 = 5 \\text{e}^{2x}$\n\nbecomes\n\n$5 ( \\underline{\\quad} ) ^{2} - \\underline{\\quad} ( \\text{e}^{x} ) + \\underline{\\quad} = 0$\n",
+   "back_md": "The rearrangement gives:\n\n`5\\left(\\text{e}^{x}\\right)^{2} - 21\\left(\\text{e}^{x}\\right) + 4 = 0`\n\nwhich factorises as `\\left(5\\text{e}^{x} - 1\\right)\\left(\\text{e}^{x} - 4\\right) = 0`.\n",
+   "spec_links": [
+    "spcpt_cMmmKhpspFd2qwy4"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_7YSKF93dWq9yhWyt",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_zBqmSJNbyW5BjryW",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "An answer must be given as $x = \\frac{\\mathrm{ln}p}{\\mathrm{ln}q}$ with $p$ and $q$ integers. How do you get there from $x = \\frac{6\\mathrm{ln}2+\\mathrm{ln}3}{2\\mathrm{ln}3+\\mathrm{ln}2}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use the laws of logarithms in **reverse** to collapse the top and bottom into single logarithms."
+    },
+    {
+     "type": "paragraph",
+     "md": "$6 \\mathrm{ln} 2 = \\mathrm{ln} 64$, so the top is $\\mathrm{ln} 64 + \\mathrm{ln} 3 = \\mathrm{ln} 192$. The bottom is $\\mathrm{ln} 9 + \\mathrm{ln} 2 = \\mathrm{ln} 18$, giving $x = \\frac{\\mathrm{ln}192}{\\mathrm{ln}18}$."
+    }
+   ],
+   "front_md": "An answer must be given as $x = \\frac{\\mathrm{ln}p}{\\mathrm{ln}q}$ with $p$ and $q$ integers. How do you get there from $x = \\frac{6\\mathrm{ln}2+\\mathrm{ln}3}{2\\mathrm{ln}3+\\mathrm{ln}2}$?\n",
+   "back_md": "Use the laws of logarithms in **reverse** to collapse the top and bottom into single logarithms.\n\n$6 \\mathrm{ln} 2 = \\mathrm{ln} 64$, so the top is $\\mathrm{ln} 64 + \\mathrm{ln} 3 = \\mathrm{ln} 192$. The bottom is $\\mathrm{ln} 9 + \\mathrm{ln} 2 = \\mathrm{ln} 18$, giving $x = \\frac{\\mathrm{ln}192}{\\mathrm{ln}18}$.\n",
+   "spec_links": [
+    "spcpt_cMmmKhpspFd2qwy4"
+   ],
+   "flags": []
+  }
+ ]
+}

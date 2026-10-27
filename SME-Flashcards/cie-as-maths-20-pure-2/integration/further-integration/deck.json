@@ -1,0 +1,713 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-27T18:44:40Z",
+ "course_slug": "cie-as-maths-20-pure-2",
+ "deck": {
+  "url": "https://www.savemyexams.com/as/maths/cie/20/pure-2/flashcards/integration/further-integration/",
+  "section_slug": "integration",
+  "section_name": "Integration",
+  "topic_slug": "further-integration",
+  "title": "Further Integration",
+  "order": 0
+ },
+ "card_count": 20,
+ "card_types": {
+  "fill_in_the_blanks": 3,
+  "question_and_answer": 11,
+  "true_or_false": 5,
+  "keyword_definition": 1
+ },
+ "spec_link_cards": 20,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_jRyNgWNtNMmZN5p8",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_jdqKrJJ977gwgK47",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete these three standard integrals:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sin x \\text{d} x = \\_\\_\\_\\_\\_\\_ + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sec^{2} x \\text{d} x = \\_\\_\\_\\_\\_\\_ + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\text{e}^{x} \\text{d} x = \\_\\_\\_\\_\\_\\_ + c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed integrals are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sin x \\text{d} x = - \\cos x + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\sec^{2} x \\text{d} x = \\tan x + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\text{e}^{x} \\text{d} x = \\text{e}^{x} + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Each one is a **standard derivative read backwards**: $\\mathrm{tan} x$ appears, for instance, because its derivative is $\\mathrm{sec}^{2} x$."
+    }
+   ],
+   "front_md": "Complete these three standard integrals:\n\n`\\int \\sin x \\text{d} x = \\_\\_\\_\\_\\_\\_ + c`\n\n`\\int \\sec^{2} x \\text{d} x = \\_\\_\\_\\_\\_\\_ + c`\n\n`\\int \\text{e}^{x} \\text{d} x = \\_\\_\\_\\_\\_\\_ + c`\n",
+   "back_md": "The completed integrals are:\n\n`\\int \\sin x \\text{d} x = - \\cos x + c`\n\n`\\int \\sec^{2} x \\text{d} x = \\tan x + c`\n\n`\\int \\text{e}^{x} \\text{d} x = \\text{e}^{x} + c`\n\nEach one is a **standard derivative read backwards**: $\\mathrm{tan} x$ appears, for instance, because its derivative is $\\mathrm{sec}^{2} x$.\n",
+   "spec_links": [
+    "spcpt_KpkfJZF2Mbzc8tpt"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_8x7Sb7mM64vyJT8x",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_jdqKrJJ977gwgK47",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is `\\int \\frac{1}{x} \\text{d} x`, and why does the answer need a modulus sign?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The integral is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{1}{x} \\text{d} x = \\ln \\left| x \\right| + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\mathrm{ln} x$ is only defined for $x > 0$, but $\\frac{1}{x}$ exists for negative values of $x$ as well, so the **modulus** is what lets the result cover both."
+    }
+   ],
+   "front_md": "What is `\\int \\frac{1}{x} \\text{d} x`, and why does the answer need a modulus sign?\n",
+   "back_md": "The integral is:\n\n`\\int \\frac{1}{x} \\text{d} x = \\ln \\left| x \\right| + c`\n\n$\\mathrm{ln} x$ is only defined for $x > 0$, but $\\frac{1}{x}$ exists for negative values of $x$ as well, so the **modulus** is what lets the result cover both.\n",
+   "spec_links": [
+    "spcpt_KpkfJZF2Mbzc8tpt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Dfsk45chgV2xnCjZ",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_jdqKrJJ977gwgK47",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $\\mathrm{cos} x$ introduces a minus sign, but integrating $\\mathrm{cos} x$ does not."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d} x} \\left(\\cos x\\right) = - \\sin x`, whereas `\\int \\cos x \\text{d} x = \\sin x + c`."
+    },
+    {
+     "type": "paragraph",
+     "md": "The minus sign belongs to **differentiating** $\\mathrm{cos} x$ and to **integrating** $\\mathrm{sin} x$, not to $\\mathrm{cos} x$ in both directions."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDifferentiating $\\mathrm{cos} x$ introduces a minus sign, but integrating $\\mathrm{cos} x$ does not.\n",
+   "back_md": "**True.**\n\n`\\frac{\\text{d}}{\\text{d} x} \\left(\\cos x\\right) = - \\sin x`, whereas `\\int \\cos x \\text{d} x = \\sin x + c`.\n\nThe minus sign belongs to **differentiating** $\\mathrm{cos} x$ and to **integrating** $\\mathrm{sin} x$, not to $\\mathrm{cos} x$ in both directions.\n",
+   "spec_links": [
+    "spcpt_KpkfJZF2Mbzc8tpt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_c4bFQyXYGD9yPZxg",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_jdqKrJJ977gwgK47",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find `\\int \\text{e}^{5 x} \\text{d} x`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The integral is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\text{e}^{5 x} \\text{d} x = \\frac{1}{5} \\text{e}^{5 x} + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $\\text{e}^{5x}$ would multiply it by 5, so integrating has to **divide** by 5 to undo that."
+    }
+   ],
+   "front_md": "Find `\\int \\text{e}^{5 x} \\text{d} x`.\n",
+   "back_md": "The integral is:\n\n`\\int \\text{e}^{5 x} \\text{d} x = \\frac{1}{5} \\text{e}^{5 x} + c`\n\nDifferentiating $\\text{e}^{5x}$ would multiply it by 5, so integrating has to **divide** by 5 to undo that.\n",
+   "spec_links": [
+    "spcpt_KpkfJZF2Mbzc8tpt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_nWxNcPR69jVy78rv",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_jdqKrJJ977gwgK47",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{4}{x^{2}} \\text{d} x = 4 \\ln \\left| x^{2} \\right| + c`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{4}{x^{2}}$ is $4 x^{-2}$, an ordinary power of $x$, and integrating it gives $- \\frac{4}{x} + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A logarithm appears only when the power of $x$ in the denominator is exactly **1**."
+    }
+   ],
+   "front_md": "**True or False?**\n\n`\\int \\frac{4}{x^{2}} \\text{d} x = 4 \\ln \\left| x^{2} \\right| + c`\n",
+   "back_md": "**False.**\n\n$\\frac{4}{x^{2}}$ is $4 x^{-2}$, an ordinary power of $x$, and integrating it gives $- \\frac{4}{x} + c$.\n\nA logarithm appears only when the power of $x$ in the denominator is exactly **1**.\n",
+   "spec_links": [
+    "spcpt_KpkfJZF2Mbzc8tpt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p5y4YcMzpZsg4fyq",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_jdqKrJJ977gwgK47",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find `\\int \\frac{1}{2 x + 3} \\text{d} x`."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The integral is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int \\frac{1}{2 x + 3} \\text{d} x = \\frac{1}{2} \\ln \\left| 2 x + 3 \\right| + c`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The whole linear bracket goes **inside** the logarithm unchanged, and the $\\frac{1}{2}$ is there because $x$ has a coefficient of 2."
+    }
+   ],
+   "front_md": "Find `\\int \\frac{1}{2 x + 3} \\text{d} x`.\n",
+   "back_md": "The integral is:\n\n`\\int \\frac{1}{2 x + 3} \\text{d} x = \\frac{1}{2} \\ln \\left| 2 x + 3 \\right| + c`\n\nThe whole linear bracket goes **inside** the logarithm unchanged, and the $\\frac{1}{2}$ is there because $x$ has a coefficient of 2.\n",
+   "spec_links": [
+    "spcpt_KpkfJZF2Mbzc8tpt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Qy6vrmP5jWnfjYVY",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_jdqKrJJ977gwgK47",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does reversing a standard derivative work for $\\text{e}^{5x}$ but not for $\\text{e}^{x^{2}}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because differentiating $\\text{e}^{5x}$ brings out a **constant** factor, whereas differentiating $\\text{e}^{x^{2}}$ brings out $2 x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A constant can be compensated for, but a factor containing $x$ cannot."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is why the standard results are only quoted for **linear** brackets of the form $a x + b$."
+    }
+   ],
+   "front_md": "Why does reversing a standard derivative work for $\\text{e}^{5x}$ but not for $\\text{e}^{x^{2}}$?\n",
+   "back_md": "Because differentiating $\\text{e}^{5x}$ brings out a **constant** factor, whereas differentiating $\\text{e}^{x^{2}}$ brings out $2 x$.\n\nA constant can be compensated for, but a factor containing $x$ cannot.\n\nThis is why the standard results are only quoted for **linear** brackets of the form $a x + b$.\n",
+   "spec_links": [
+    "spcpt_KpkfJZF2Mbzc8tpt"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZVSNP4WYSbmKqDnk",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_zNWnJFCqRG4TxHkX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are `\\int \\sec^{2} x \\text{ d} x` and `\\int \\text{cosec}^{2} x \\text{ d} x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "They are $\\mathrm{tan} x + c$ and $- \\mathrm{cot} x + c$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both are just the matching derivatives read backwards, which is why neither needs an identity first."
+    }
+   ],
+   "front_md": "What are `\\int \\sec^{2} x \\text{ d} x` and `\\int \\text{cosec}^{2} x \\text{ d} x`?\n",
+   "back_md": "They are $\\mathrm{tan} x + c$ and $- \\mathrm{cot} x + c$.\n\nBoth are just the matching derivatives read backwards, which is why neither needs an identity first.\n",
+   "spec_links": [
+    "spcpt_4gB9kJCGSJWph7Rs",
+    "spcpt_23tNQxHx7XQvT4bw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_X3F5yx4tz8z4v2Dk",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_zNWnJFCqRG4TxHkX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you integrate $\\mathrm{tan}^{2} x$ and $\\mathrm{cot}^{2} x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite each one first: $\\mathrm{tan}^{2} x = \\mathrm{sec}^{2} x - 1$ and $\\mathrm{cot}^{2} x = \\text{cosec}^{2} x - 1$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Neither squared function can be integrated as it stands, but both of the rearranged pieces can be."
+    }
+   ],
+   "front_md": "How do you integrate $\\mathrm{tan}^{2} x$ and $\\mathrm{cot}^{2} x$?\n",
+   "back_md": "Rewrite each one first: $\\mathrm{tan}^{2} x = \\mathrm{sec}^{2} x - 1$ and $\\mathrm{cot}^{2} x = \\text{cosec}^{2} x - 1$.\n\nNeither squared function can be integrated as it stands, but both of the rearranged pieces can be.\n",
+   "spec_links": [
+    "spcpt_4gB9kJCGSJWph7Rs",
+    "spcpt_23tNQxHx7XQvT4bw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_gwJFfzympcvtFxcZ",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_zNWnJFCqRG4TxHkX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rearrangement that makes $\\mathrm{sin}^{2} x$ integrable, given $\\mathrm{cos} 2 A \\equiv 1 - 2 \\mathrm{sin}^{2} A$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sin^{2} A \\equiv \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rearrangement is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\sin^{2} A \\equiv \\frac{1}{2} \\left(1 - \\cos 2 A\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating that gives `\\int \\sin^{2} x \\text{ d} x = \\frac{1}{2} x - \\frac{1}{4} \\sin 2 x + c`, and the same trick with $\\mathrm{cos} 2 A \\equiv 2 \\mathrm{cos}^{2} A - 1$ handles $\\mathrm{cos}^{2} x$."
+    }
+   ],
+   "front_md": "Complete the rearrangement that makes $\\mathrm{sin}^{2} x$ integrable, given $\\mathrm{cos} 2 A \\equiv 1 - 2 \\mathrm{sin}^{2} A$:\n\n`\\sin^{2} A \\equiv \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rearrangement is:\n\n`\\sin^{2} A \\equiv \\frac{1}{2} \\left(1 - \\cos 2 A\\right)`\n\nIntegrating that gives `\\int \\sin^{2} x \\text{ d} x = \\frac{1}{2} x - \\frac{1}{4} \\sin 2 x + c`, and the same trick with $\\mathrm{cos} 2 A \\equiv 2 \\mathrm{cos}^{2} A - 1$ handles $\\mathrm{cos}^{2} x$.\n",
+   "spec_links": [
+    "spcpt_4gB9kJCGSJWph7Rs",
+    "spcpt_23tNQxHx7XQvT4bw"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_hvr2cvG2fjxKyjH6",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_zNWnJFCqRG4TxHkX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you integrate $\\mathrm{sin} 6 x \\mathrm{cos} 6 x$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use $\\mathrm{sin} 2 A \\equiv 2 \\mathrm{sin} A \\mathrm{cos} A$ with $A = 6 x$, so that $\\mathrm{sin} 6 x \\mathrm{cos} 6 x = \\frac{1}{2} \\mathrm{sin} 12 x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "That replaces a product with a single term, and the integral comes out as $- \\frac{1}{24} \\mathrm{cos} 12 x + c$."
+    }
+   ],
+   "front_md": "How do you integrate $\\mathrm{sin} 6 x \\mathrm{cos} 6 x$?\n",
+   "back_md": "Use $\\mathrm{sin} 2 A \\equiv 2 \\mathrm{sin} A \\mathrm{cos} A$ with $A = 6 x$, so that $\\mathrm{sin} 6 x \\mathrm{cos} 6 x = \\frac{1}{2} \\mathrm{sin} 12 x$.\n\nThat replaces a product with a single term, and the integral comes out as $- \\frac{1}{24} \\mathrm{cos} 12 x + c$.\n",
+   "spec_links": [
+    "spcpt_4gB9kJCGSJWph7Rs",
+    "spcpt_23tNQxHx7XQvT4bw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_cfw3vz9sDH3bT8w8",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_zNWnJFCqRG4TxHkX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Integrating $\\mathrm{sin} x \\mathrm{cos}^{3} x$ requires a trigonometric identity."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "No identity is needed, because $\\mathrm{sin} x$ is already the derivative of $\\mathrm{cos} x$, apart from a sign."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral is $- \\frac{1}{4} \\mathrm{cos}^{4} x + c$, and the expression only looks as though it wants an identity because of the two trigonometric factors."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIntegrating $\\mathrm{sin} x \\mathrm{cos}^{3} x$ requires a trigonometric identity.\n",
+   "back_md": "**False.**\n\nNo identity is needed, because $\\mathrm{sin} x$ is already the derivative of $\\mathrm{cos} x$, apart from a sign.\n\nThe integral is $- \\frac{1}{4} \\mathrm{cos}^{4} x + c$, and the expression only looks as though it wants an identity because of the two trigonometric factors.\n",
+   "spec_links": [
+    "spcpt_4gB9kJCGSJWph7Rs",
+    "spcpt_23tNQxHx7XQvT4bw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dZ7DDV6P9NzqbtmR",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_zNWnJFCqRG4TxHkX",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two students integrate $\\mathrm{sin} x \\mathrm{cos} x$ and get $- \\frac{1}{4} \\mathrm{cos} 2 x$ and $\\frac{1}{2} \\mathrm{sin}^{2} x$. Both can be right."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two expressions differ by the constant $\\frac{1}{4}$, and the arbitrary constant of integration absorbs any difference of that kind."
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating each of them is the quickest way to confirm that both are genuine antiderivatives."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo students integrate $\\mathrm{sin} x \\mathrm{cos} x$ and get $- \\frac{1}{4} \\mathrm{cos} 2 x$ and $\\frac{1}{2} \\mathrm{sin}^{2} x$. Both can be right.\n",
+   "back_md": "**True.**\n\nThe two expressions differ by the constant $\\frac{1}{4}$, and the arbitrary constant of integration absorbs any difference of that kind.\n\nDifferentiating each of them is the quickest way to confirm that both are genuine antiderivatives.\n",
+   "spec_links": [
+    "spcpt_4gB9kJCGSJWph7Rs",
+    "spcpt_23tNQxHx7XQvT4bw"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bgRVH6Htg74gWbVH",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_c3m5kB2nGSg2ZQws",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **trapezium rule**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A numerical method for estimating the value of a **definite integral**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The region is divided into strips of equal width, and each strip is treated as a **trapezium** rather than as its exact shape."
+    }
+   ],
+   "front_md": "Define the **trapezium rule**.\n",
+   "back_md": "A numerical method for estimating the value of a **definite integral**.\n\nThe region is divided into strips of equal width, and each strip is treated as a **trapezium** rather than as its exact shape.\n",
+   "spec_links": [
+    "spcpt_QzpfK3ZQD5hPS8bj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_BXDcZHv5xkDzT6dW",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_c3m5kB2nGSg2ZQws",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the trapezium rule, filling in the two missing groups of $y$-values:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{a}^{b} y \\text{d} x \\approx \\frac{1}{2} h \\left[ \\left( \\_\\_\\_\\_\\_\\_ \\right) + 2 \\left( \\_\\_\\_\\_\\_\\_ \\right) \\right]`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\int_{a}^{b} y \\text{d} x \\approx \\frac{1}{2} h \\left[ \\left( y_{0} + y_{n} \\right) + 2 \\left( y_{1} + y_{2} + \\ldots + y_{n - 1} \\right) \\right]`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The **first and last** $y$-values are counted once, and every one in between is counted twice."
+    }
+   ],
+   "front_md": "Complete the trapezium rule, filling in the two missing groups of $y$-values:\n\n`\\int_{a}^{b} y \\text{d} x \\approx \\frac{1}{2} h \\left[ \\left( \\_\\_\\_\\_\\_\\_ \\right) + 2 \\left( \\_\\_\\_\\_\\_\\_ \\right) \\right]`\n",
+   "back_md": "The completed rule is:\n\n`\\int_{a}^{b} y \\text{d} x \\approx \\frac{1}{2} h \\left[ \\left( y_{0} + y_{n} \\right) + 2 \\left( y_{1} + y_{2} + \\ldots + y_{n - 1} \\right) \\right]`\n\nThe **first and last** $y$-values are counted once, and every one in between is counted twice.\n",
+   "spec_links": [
+    "spcpt_QzpfK3ZQD5hPS8bj"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Q723sbXWJ4TKHSJV",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_c3m5kB2nGSg2ZQws",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A definite integral from $x = 1$ to $x = 9$ is to be estimated using 4 strips. What is the strip width, and how many $y$-values are needed?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The strip width is $h = \\frac{9-1}{4} = 2$, from $h = \\frac{b-a}{n}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "**Five** $y$-values are needed, $y_{0}$ to $y_{4}$, because $n$ strips have $n + 1$ edges."
+    },
+    {
+     "type": "paragraph",
+     "md": "Questions often call the strips **intervals** instead."
+    }
+   ],
+   "front_md": "A definite integral from $x = 1$ to $x = 9$ is to be estimated using 4 strips. What is the strip width, and how many $y$-values are needed?\n",
+   "back_md": "The strip width is $h = \\frac{9-1}{4} = 2$, from $h = \\frac{b-a}{n}$.\n\n**Five** $y$-values are needed, $y_{0}$ to $y_{4}$, because $n$ strips have $n + 1$ edges.\n\nQuestions often call the strips **intervals** instead.\n",
+   "spec_links": [
+    "spcpt_QzpfK3ZQD5hPS8bj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7WZRHsp664SFQwkq",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_c3m5kB2nGSg2ZQws",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The curve `y = \\text{f} \\left(x\\right)` bends upwards throughout the interval, like $y = x^{2}$. Does the trapezium rule over-estimate or under-estimate `\\int_{a}^{b} \\text{f} \\left(x\\right) \\text{d} x`, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It **over-estimates** it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The top of each strip is a straight chord joining two points on the curve, and where the curve bends upwards it sags **below** that chord, so every trapezium carries a sliver of extra area."
+    },
+    {
+     "type": "paragraph",
+     "md": "A curve bending the other way, such as $y = \\mathrm{ln} x$, gives an under-estimate."
+    }
+   ],
+   "front_md": "The curve `y = \\text{f} \\left(x\\right)` bends upwards throughout the interval, like $y = x^{2}$. Does the trapezium rule over-estimate or under-estimate `\\int_{a}^{b} \\text{f} \\left(x\\right) \\text{d} x`, and why?\n",
+   "back_md": "It **over-estimates** it.\n\nThe top of each strip is a straight chord joining two points on the curve, and where the curve bends upwards it sags **below** that chord, so every trapezium carries a sliver of extra area.\n\nA curve bending the other way, such as $y = \\mathrm{ln} x$, gives an under-estimate.\n",
+   "spec_links": [
+    "spcpt_QzpfK3ZQD5hPS8bj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_x3Gx3ph6HHRjgR9c",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_c3m5kB2nGSg2ZQws",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "If the graph is a straight line, the trapezium rule gives the exact value of the integral, however few strips are used."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A trapezium's sloping top joins two points on the graph, so for a straight line it lies **along** the graph itself."
+    },
+    {
+     "type": "paragraph",
+     "md": "The trapezium and the region are then identical, and even a single strip gives the exact answer."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIf the graph is a straight line, the trapezium rule gives the exact value of the integral, however few strips are used.\n",
+   "back_md": "**True.**\n\nA trapezium's sloping top joins two points on the graph, so for a straight line it lies **along** the graph itself.\n\nThe trapezium and the region are then identical, and even a single strip gives the exact answer.\n",
+   "spec_links": [
+    "spcpt_QzpfK3ZQD5hPS8bj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wmwqtBWmktv7gyNj",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_c3m5kB2nGSg2ZQws",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the trapezium rule needed to evaluate `\\int_{0}^{2} \\sqrt{1 + x^{3}} \\text{d} x`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $\\sqrt{1+x^{3}}$ cannot be matched to any of the standard integrals, so there is no exact answer to be found by reversing a derivative."
+    },
+    {
+     "type": "paragraph",
+     "md": "The integral still has a definite value, and the trapezium rule estimates it from a small number of $y$-values."
+    }
+   ],
+   "front_md": "Why is the trapezium rule needed to evaluate `\\int_{0}^{2} \\sqrt{1 + x^{3}} \\text{d} x`?\n",
+   "back_md": "Because $\\sqrt{1+x^{3}}$ cannot be matched to any of the standard integrals, so there is no exact answer to be found by reversing a derivative.\n\nThe integral still has a definite value, and the trapezium rule estimates it from a small number of $y$-values.\n",
+   "spec_links": [
+    "spcpt_QzpfK3ZQD5hPS8bj"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YzBr6G7552hFTfKG",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_c3m5kB2nGSg2ZQws",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does increasing the number of strips change a trapezium rule estimate?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It makes the estimate **more accurate**."
+    },
+    {
+     "type": "paragraph",
+     "md": "Narrower strips mean each sloping top stays closer to the curve, so less area is wrongly included or left out."
+    }
+   ],
+   "front_md": "How does increasing the number of strips change a trapezium rule estimate?\n",
+   "back_md": "It makes the estimate **more accurate**.\n\nNarrower strips mean each sloping top stays closer to the curve, so less area is wrongly included or left out.\n",
+   "spec_links": [
+    "spcpt_QzpfK3ZQD5hPS8bj"
+   ],
+   "flags": []
+  }
+ ]
+}

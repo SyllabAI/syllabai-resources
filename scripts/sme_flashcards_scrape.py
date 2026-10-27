@@ -161,6 +161,32 @@ REGISTRY: dict[str, dict] = {
         "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
     "cie-as-environmental-management-20": {"status": MISSING,
         "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
+    # --- SME-WAVE2 r0 (live probe 2026-10-28, scripts/sme_wave2_flash_probe.py):
+    # 7 AS lanes publish decks; 5 lanes 404 on the /flashcards/ landing.
+    "cie-as-chemistry-25":
+        {"path": "as/chemistry/cie/25", "expected_decks": 49},
+    "cie-as-biology-25":
+        {"path": "as/biology/cie/25", "expected_decks": 24},
+    "cie-as-physics-25":
+        {"path": "as/physics/cie/25", "expected_decks": 32},
+    "cie-as-maths-20-pure-1":
+        {"path": "as/maths/cie/20/pure-1", "expected_decks": 22},
+    "cie-as-maths-20-pure-2":
+        {"path": "as/maths/cie/20/pure-2", "expected_decks": 15},
+    "cie-as-maths-20-mechanics":
+        {"path": "as/maths/cie/20/mechanics", "expected_decks": 10},
+    "cie-as-maths-20-probability-and-statistics-1":
+        {"path": "as/maths/cie/20/probability-and-statistics-1", "expected_decks": 10},
+    "cie-as-business-23": {"status": MISSING,
+        "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"},
+    "cie-as-computer-science-19": {"status": MISSING,
+        "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"},
+    "cie-as-accounting-21": {"status": MISSING,
+        "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"},
+    "cie-a-level-geography-21": {"status": MISSING,
+        "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"},
+    "igcse-history-17": {"status": MISSING,
+        "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"},
     "cie-igcse-accounting-21": {"status": MISSING,
         "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"},
     "cie-igcse-accounting-25":

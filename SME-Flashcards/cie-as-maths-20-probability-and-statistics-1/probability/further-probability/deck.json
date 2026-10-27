@@ -1,0 +1,1099 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-27T18:44:57Z",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/flashcards/probability/further-probability/",
+  "section_slug": "probability",
+  "section_name": "Probability",
+  "topic_slug": "further-probability",
+  "title": "Further Probability",
+  "order": 2
+ },
+ "card_count": 30,
+ "card_types": {
+  "keyword_definition": 1,
+  "fill_in_the_blanks": 5,
+  "question_and_answer": 20,
+  "true_or_false": 4
+ },
+ "spec_link_cards": 30,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_6WZNRJfJnqhvzHy9",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **empty set**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **empty set** is the set with no elements in it at all, and it is written $\\emptyset$."
+    },
+    {
+     "type": "paragraph",
+     "md": "In probability it is what you get when two events cannot both happen: their intersection contains no outcomes, so it is the empty set."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is worth having a symbol for, because \"the intersection is empty\" is a statement about the events themselves rather than about any particular experiment."
+    }
+   ],
+   "front_md": "Define the **empty set**.\n",
+   "back_md": "The **empty set** is the set with no elements in it at all, and it is written $\\emptyset$.\n\nIn probability it is what you get when two events cannot both happen: their intersection contains no outcomes, so it is the empty set.\n\nIt is worth having a symbol for, because \"the intersection is empty\" is a statement about the events themselves rather than about any particular experiment.\n",
+   "spec_links": [
+    "spcpt_g5pddg4MDHhfn69F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_8V6phfWKznqZFf9P",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the missing symbol in each result, watching what happens between the two sides:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(A \\cup B\\right)' = A' \\_\\_\\_\\_\\_\\_ B'`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(A \\cap B\\right)' = A' \\_\\_\\_\\_\\_\\_ B'`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(A \\cup B\\right)' = A' \\cap B'`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\left(A \\cap B\\right)' = A' \\cup B'`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The union and the intersection **swap over** when the complement is taken, which is the part that catches people out."
+    },
+    {
+     "type": "paragraph",
+     "md": "In words, \"neither $A$ nor $B$\" is the same as \"not $A$ and not $B$\", while \"not both\" is the same as \"not $A$ or not $B$\"."
+    }
+   ],
+   "front_md": "Fill in the missing symbol in each result, watching what happens between the two sides:\n\n`\\left(A \\cup B\\right)' = A' \\_\\_\\_\\_\\_\\_ B'`\n\n`\\left(A \\cap B\\right)' = A' \\_\\_\\_\\_\\_\\_ B'`\n",
+   "back_md": "The completed results are:\n\n`\\left(A \\cup B\\right)' = A' \\cap B'`\n\n`\\left(A \\cap B\\right)' = A' \\cup B'`\n\nThe union and the intersection **swap over** when the complement is taken, which is the part that catches people out.\n\nIn words, \"neither $A$ nor $B$\" is the same as \"not $A$ and not $B$\", while \"not both\" is the same as \"not $A$ or not $B$\".\n",
+   "spec_links": [
+    "spcpt_g5pddg4MDHhfn69F"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_BhPZ27dqCXSdZWyn",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does shading tell you which region an expression such as $S ' \\cap D$ describes?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Shade the first set, shade the second in a different colour, then take the region shaded **twice** for an intersection and every region shaded **at all** for a union."
+    },
+    {
+     "type": "paragraph",
+     "md": "So for $S ' \\cap D$ you shade everything outside $S$, then shade $D$, and the answer is the part of $D$ that lies outside $S$."
+    },
+    {
+     "type": "paragraph",
+     "md": "With several symbols in one expression this is far more reliable than trying to read it in one go."
+    }
+   ],
+   "front_md": "How does shading tell you which region an expression such as $S ' \\cap D$ describes?\n",
+   "back_md": "Shade the first set, shade the second in a different colour, then take the region shaded **twice** for an intersection and every region shaded **at all** for a union.\n\nSo for $S ' \\cap D$ you shade everything outside $S$, then shade $D$, and the answer is the part of $D$ that lies outside $S$.\n\nWith several symbols in one expression this is far more reliable than trying to read it in one go.\n",
+   "spec_links": [
+    "spcpt_g5pddg4MDHhfn69F"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5JX8CK6nGKPWVvfd",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does the vertical bar in `\\text{P}(A \\vert B)` mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It means \"**given that**\", so `\\text{P}(A \\vert B)` is the probability that $A$ happens given that $B$ has already happened."
+    },
+    {
+     "type": "paragraph",
+     "md": "Being told that $B$ happened shrinks the sample space to $B$ alone, so you are no longer asking how likely $A$ is out of everything, but how likely it is out of the cases where $B$ happened."
+    },
+    {
+     "type": "paragraph",
+     "md": "Phrases such as \"of those who\" and \"among the ones that\" mean the same thing without using the word \"given\"."
+    }
+   ],
+   "front_md": "What does the vertical bar in `\\text{P}(A \\vert B)` mean?\n",
+   "back_md": "It means \"**given that**\", so `\\text{P}(A \\vert B)` is the probability that $A$ happens given that $B$ has already happened.\n\nBeing told that $B$ happened shrinks the sample space to $B$ alone, so you are no longer asking how likely $A$ is out of everything, but how likely it is out of the cases where $B$ happened.\n\nPhrases such as \"of those who\" and \"among the ones that\" mean the same thing without using the word \"given\".\n",
+   "spec_links": [
+    "spcpt_FzzVfjwhkyjcBrzK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_g3s8C85QG2JwnyTR",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the formula for a conditional probability:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(A \\vert B) = \\frac{\\text{P}(A \\cap B)}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(A \\vert B) = \\frac{\\text{P}(A \\cap B)}{\\text{P}(B)}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The event you are **given** goes underneath, because it is the new sample space you are working inside."
+    },
+    {
+     "type": "paragraph",
+     "md": "Rearranged, the same result gives the multiplication form `\\text{P}(A \\cap B) = \\text{P}(B) \\times \\text{P}(A \\vert B)`, which is the more useful direction when the intersection is what you are after."
+    }
+   ],
+   "front_md": "Fill in the formula for a conditional probability:\n\n`\\text{P}(A \\vert B) = \\frac{\\text{P}(A \\cap B)}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n`\\text{P}(A \\vert B) = \\frac{\\text{P}(A \\cap B)}{\\text{P}(B)}`\n\nThe event you are **given** goes underneath, because it is the new sample space you are working inside.\n\nRearranged, the same result gives the multiplication form `\\text{P}(A \\cap B) = \\text{P}(B) \\times \\text{P}(A \\vert B)`, which is the more useful direction when the intersection is what you are after.\n",
+   "spec_links": [
+    "spcpt_FzzVfjwhkyjcBrzK"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Khs68sWxXc7zBsdH",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $A$ and $B$ are independent, what is `\\text{P}(A \\vert B)`, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is just $\\text{P} ( A )$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Independence means that $B$ happening has no effect on how likely $A$ is, so being told that $B$ happened tells you nothing new and leaves the probability where it was."
+    },
+    {
+     "type": "paragraph",
+     "md": "This gives a second way of testing independence, by checking whether `\\text{P}(A \\vert B)` and $\\text{P} ( A )$ come out the same."
+    }
+   ],
+   "front_md": "If $A$ and $B$ are independent, what is `\\text{P}(A \\vert B)`, and why?\n",
+   "back_md": "It is just $\\text{P} ( A )$.\n\nIndependence means that $B$ happening has no effect on how likely $A$ is, so being told that $B$ happened tells you nothing new and leaves the probability where it was.\n\nThis gives a second way of testing independence, by checking whether `\\text{P}(A \\vert B)` and $\\text{P} ( A )$ come out the same.\n",
+   "spec_links": [
+    "spcpt_FzzVfjwhkyjcBrzK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_sy4pJvJ9xrFFVNm3",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In `\\text{P}\\left(\\left(A \\cap B\\right) \\vert \\left(A \\cup B\\right)\\right)`, what does the numerator `\\text{P}\\left(\\left(A \\cap B\\right) \\cap \\left(A \\cup B\\right)\\right)` simplify to, and why?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It simplifies to $\\text{P} ( A \\cap B )$, because every outcome that is in both events is certainly in at least one of them, so intersecting with the union throws nothing away."
+    },
+    {
+     "type": "paragraph",
+     "md": "With regions of $0 . 2$, $0 . 2$, $0 . 3$ and $0 . 3$ that leaves $\\frac{0.2}{0.7} = \\frac{2}{7}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Spotting that one set sits entirely inside another is what turns a forbidding expression into an easy one."
+    }
+   ],
+   "front_md": "In `\\text{P}\\left(\\left(A \\cap B\\right) \\vert \\left(A \\cup B\\right)\\right)`, what does the numerator `\\text{P}\\left(\\left(A \\cap B\\right) \\cap \\left(A \\cup B\\right)\\right)` simplify to, and why?\n",
+   "back_md": "It simplifies to $\\text{P} ( A \\cap B )$, because every outcome that is in both events is certainly in at least one of them, so intersecting with the union throws nothing away.\n\nWith regions of $0 . 2$, $0 . 2$, $0 . 3$ and $0 . 3$ that leaves $\\frac{0.2}{0.7} = \\frac{2}{7}$.\n\nSpotting that one set sits entirely inside another is what turns a forbidding expression into an easy one.\n",
+   "spec_links": [
+    "spcpt_FzzVfjwhkyjcBrzK"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Rdvms6RJCjYHJRMK",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do the cells of a two-way table for two events correspond to the regions of a Venn diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The four inner cells are the four regions $A \\cap B$, $A ' \\cap B$, $A \\cap B '$ and $A ' \\cap B '$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The Total row and Total column give the events themselves, $A$, $A '$, $B$ and $B '$, and the grand total is the whole sample space."
+    },
+    {
+     "type": "paragraph",
+     "md": "A two-way table is therefore the same information in a different shape, so either can be used on the same question."
+    }
+   ],
+   "front_md": "How do the cells of a two-way table for two events correspond to the regions of a Venn diagram?\n",
+   "back_md": "The four inner cells are the four regions $A \\cap B$, $A ' \\cap B$, $A \\cap B '$ and $A ' \\cap B '$.\n\nThe Total row and Total column give the events themselves, $A$, $A '$, $B$ and $B '$, and the grand total is the whole sample space.\n\nA two-way table is therefore the same information in a different shape, so either can be used on the same question.\n",
+   "spec_links": [
+    "spcpt_jwXsq7gMvT7TxSpP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_HB7V343vNqCcn85p",
+   "card_type": "true_or_false",
+   "order": 8,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "On a two-way table, the number of pets that are dogs **or** are fed wet food is the dog total added to the wet-food total."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The 28 pets that are dogs **and** are fed wet food sit inside the dog total and inside the wet-food total, so adding the two totals counts them twice over."
+    },
+    {
+     "type": "paragraph",
+     "md": "That shared cell has to come off once, giving $47 + 47 - 28 = 66$ out of the 80 pets."
+    }
+   ],
+   "front_md": "**True or False?**\n\nOn a two-way table, the number of pets that are dogs **or** are fed wet food is the dog total added to the wet-food total.\n",
+   "back_md": "**False.**\n\nThe 28 pets that are dogs **and** are fed wet food sit inside the dog total and inside the wet-food total, so adding the two totals counts them twice over.\n\nThat shared cell has to come off once, giving $47 + 47 - 28 = 66$ out of the 80 pets.\n",
+   "spec_links": [
+    "spcpt_jwXsq7gMvT7TxSpP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_snQzyqMycDQyjhp9",
+   "card_type": "question_and_answer",
+   "order": 9,
+   "set_id": "flst_Vk6dWHGyCyVQwxXT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a two-way table, how do you find the probability that a pet is fed raw food **given** that it is a dog?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Work inside the dog row only, so the denominator becomes the dog total rather than the grand total."
+    },
+    {
+     "type": "paragraph",
+     "md": "With 8 of the 47 dogs fed raw food, the probability is $\\frac{8}{47}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A two-way table makes conditioning easy to see, because the row or column you are told about is literally the only part of the table you use."
+    }
+   ],
+   "front_md": "On a two-way table, how do you find the probability that a pet is fed raw food **given** that it is a dog?\n",
+   "back_md": "Work inside the dog row only, so the denominator becomes the dog total rather than the grand total.\n\nWith 8 of the 47 dogs fed raw food, the probability is $\\frac{8}{47}$.\n\nA two-way table makes conditioning easy to see, because the row or column you are told about is literally the only part of the table you use.\n",
+   "spec_links": [
+    "spcpt_jwXsq7gMvT7TxSpP"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7MkNWDq5xMgsvTFg",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_KMP9RsVjysXB8fPV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find `\\text{P}(A \\vert B)` from a completed Venn diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Add up the regions inside $B$ to get the denominator, then take as the numerator only the part of that which is also inside $A$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The grand total plays no part at all, because being told $B$ has happened restricts you to $B$'s regions and nothing else."
+    },
+    {
+     "type": "paragraph",
+     "md": "Shading $B$ first and then $A$ makes it visible: the answer is the doubly shaded part over the singly shaded part."
+    }
+   ],
+   "front_md": "How do you find `\\text{P}(A \\vert B)` from a completed Venn diagram?\n",
+   "back_md": "Add up the regions inside $B$ to get the denominator, then take as the numerator only the part of that which is also inside $A$.\n\nThe grand total plays no part at all, because being told $B$ has happened restricts you to $B$'s regions and nothing else.\n\nShading $B$ first and then $A$ makes it visible: the answer is the doubly shaded part over the singly shaded part.\n",
+   "spec_links": [
+    "spcpt_FZtYScDC38fJ2CY2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yPmhYCdsy7XrWVqm",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_KMP9RsVjysXB8fPV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a Venn diagram, the bubble for $B$ lies entirely inside the bubble for $A$. Fill in the two gaps:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Whenever event $B$ happens, event $A$ also `\\_\\_\\_\\_\\_\\_`."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(A \\vert B) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed statements are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "Whenever event $B$ happens, event $A$ also **happens**."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(A \\vert B) = 1`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Restricted to $B$, every single outcome is also inside $A$, so the conditional probability is certain."
+    },
+    {
+     "type": "paragraph",
+     "md": "The reverse does not follow: $A$ can perfectly well happen without $B$, so `\\text{P}(B \\vert A)` is not 1."
+    }
+   ],
+   "front_md": "On a Venn diagram, the bubble for $B$ lies entirely inside the bubble for $A$. Fill in the two gaps:\n\nWhenever event $B$ happens, event $A$ also `\\_\\_\\_\\_\\_\\_`.\n\n`\\text{P}(A \\vert B) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed statements are:\n\nWhenever event $B$ happens, event $A$ also **happens**.\n\n`\\text{P}(A \\vert B) = 1`\n\nRestricted to $B$, every single outcome is also inside $A$, so the conditional probability is certain.\n\nThe reverse does not follow: $A$ can perfectly well happen without $B$, so `\\text{P}(B \\vert A)` is not 1.\n",
+   "spec_links": [
+    "spcpt_FZtYScDC38fJ2CY2"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_Sn8mW8Kv8RrjBKvF",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_KMP9RsVjysXB8fPV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "On a Venn diagram for three events, $\\text{P} ( A \\cap B )$ is the number written in the region where $A$ and $B$ overlap but $C$ does not."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The region where all three events happen is also inside $A$ and inside $B$, so it belongs to $A \\cap B$ too and has to be added in."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $0 . 16$ in the first of those regions and $0 . 1$ in the one where all three overlap, $\\text{P} ( A \\cap B ) = 0 . 26$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nOn a Venn diagram for three events, $\\text{P} ( A \\cap B )$ is the number written in the region where $A$ and $B$ overlap but $C$ does not.\n",
+   "back_md": "**False.**\n\nThe region where all three events happen is also inside $A$ and inside $B$, so it belongs to $A \\cap B$ too and has to be added in.\n\nWith $0 . 16$ in the first of those regions and $0 . 1$ in the one where all three overlap, $\\text{P} ( A \\cap B ) = 0 . 26$.\n",
+   "spec_links": [
+    "spcpt_FZtYScDC38fJ2CY2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_VbSTV7RnnghdsV3G",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_KMP9RsVjysXB8fPV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Three events $A$, $B$ and $C$ are such that $A$ and $C$ cannot both happen. How is that shown on a Venn diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The bubbles for $A$ and $C$ are drawn so that they do not overlap each other, while both may still overlap $B$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The diagram then has six regions instead of the usual eight, because the region for $A$ and $C$ together, and the region where all three happen, do not exist."
+    },
+    {
+     "type": "paragraph",
+     "md": "Drawing the shape correctly at the start is what stops you looking for values that were never going to be there."
+    }
+   ],
+   "front_md": "Three events $A$, $B$ and $C$ are such that $A$ and $C$ cannot both happen. How is that shown on a Venn diagram?\n",
+   "back_md": "The bubbles for $A$ and $C$ are drawn so that they do not overlap each other, while both may still overlap $B$.\n\nThe diagram then has six regions instead of the usual eight, because the region for $A$ and $C$ together, and the region where all three happen, do not exist.\n\nDrawing the shape correctly at the start is what stops you looking for values that were never going to be there.\n",
+   "spec_links": [
+    "spcpt_FZtYScDC38fJ2CY2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zdPcbgBFkcn5XvCv",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_KMP9RsVjysXB8fPV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you fill in a three-event Venn diagram when the question gives you probabilities in set notation?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Put each given straight into the region it names, so an intersection goes into the overlap it describes and a complement of a union goes outside all the bubbles."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then work outwards by subtraction: $\\text{P} ( A ' )$ gives you $\\text{P} ( A )$, and taking away the parts of $A$ you have already filled leaves the region belonging to $A$ alone."
+    },
+    {
+     "type": "paragraph",
+     "md": "Whatever is missing from a total of 1 fills the last region, which also checks everything you have done."
+    }
+   ],
+   "front_md": "How do you fill in a three-event Venn diagram when the question gives you probabilities in set notation?\n",
+   "back_md": "Put each given straight into the region it names, so an intersection goes into the overlap it describes and a complement of a union goes outside all the bubbles.\n\nThen work outwards by subtraction: $\\text{P} ( A ' )$ gives you $\\text{P} ( A )$, and taking away the parts of $A$ you have already filled leaves the region belonging to $A$ alone.\n\nWhatever is missing from a total of 1 fills the last region, which also checks everything you have done.\n",
+   "spec_links": [
+    "spcpt_FZtYScDC38fJ2CY2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_tykzgVqx2XR6Y5NX",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_KMP9RsVjysXB8fPV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find `\\text{P}(A' \\vert C')` from a Venn diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The event you are given is $C '$, so the denominator is everything outside $C$, which is $1 - \\text{P} ( C )$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The numerator is the part of that which is also outside $A$, so you add up only the regions lying outside **both** bubbles."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $\\text{P} ( C ) = 0 . 45$ and those regions totalling $0 . 3$, the answer is $\\frac{0.3}{0.55} = \\frac{6}{11}$."
+    }
+   ],
+   "front_md": "How do you find `\\text{P}(A' \\vert C')` from a Venn diagram?\n",
+   "back_md": "The event you are given is $C '$, so the denominator is everything outside $C$, which is $1 - \\text{P} ( C )$.\n\nThe numerator is the part of that which is also outside $A$, so you add up only the regions lying outside **both** bubbles.\n\nWith $\\text{P} ( C ) = 0 . 45$ and those regions totalling $0 . 3$, the answer is $\\frac{0.3}{0.55} = \\frac{6}{11}$.\n",
+   "spec_links": [
+    "spcpt_FZtYScDC38fJ2CY2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qzmTYg5fBxH83C6n",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_KMP9RsVjysXB8fPV",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A probability question could be drawn as a Venn diagram, a tree diagram or a two-way table. What decides which one fits?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Use a **tree diagram** when one event follows another, such as drawing two beads without replacing the first, because a tree is what shows the second event's probabilities changing."
+    },
+    {
+     "type": "paragraph",
+     "md": "Use a **two-way table** when the items are classified in two ways at once, such as a year group split by gender and by chosen sport."
+    },
+    {
+     "type": "paragraph",
+     "md": "A **Venn diagram** suits most other cases, and is the natural choice when the question is written in set notation to begin with."
+    }
+   ],
+   "front_md": "A probability question could be drawn as a Venn diagram, a tree diagram or a two-way table. What decides which one fits?\n",
+   "back_md": "Use a **tree diagram** when one event follows another, such as drawing two beads without replacing the first, because a tree is what shows the second event's probabilities changing.\n\nUse a **two-way table** when the items are classified in two ways at once, such as a year group split by gender and by chosen sport.\n\nA **Venn diagram** suits most other cases, and is the natural choice when the question is written in set notation to begin with.\n",
+   "spec_links": [
+    "spcpt_FZtYScDC38fJ2CY2"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fJFNpbvXn8BKR7FW",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_KP9CcBCv5zBGC9ck",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a tree diagram, what does the number written on a branch of the **second** experiment actually represent?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is a **conditional** probability: the probability of that second outcome **given** the first outcome you travelled through to reach it, written `\\text{P}(B \\vert A)`."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is exactly why the upper set of second branches can carry different numbers from the lower set."
+    },
+    {
+     "type": "paragraph",
+     "md": "A tree diagram therefore displays conditional probabilities directly, which no other diagram does."
+    }
+   ],
+   "front_md": "On a tree diagram, what does the number written on a branch of the **second** experiment actually represent?\n",
+   "back_md": "It is a **conditional** probability: the probability of that second outcome **given** the first outcome you travelled through to reach it, written `\\text{P}(B \\vert A)`.\n\nThat is exactly why the upper set of second branches can carry different numbers from the lower set.\n\nA tree diagram therefore displays conditional probabilities directly, which no other diagram does.\n",
+   "spec_links": [
+    "spcpt_qqShgKnf3SR5y4KX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_k5xrWDdJKPnfh75X",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_KP9CcBCv5zBGC9ck",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On a tree diagram for events $F$ and $W$, which complete paths make up $F ' \\cap W$, and which make up $F \\cup W$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "$F ' \\cap W$ is the single path that goes through $F '$ and then through $W$."
+    },
+    {
+     "type": "paragraph",
+     "md": "$F \\cup W$ is three of the four paths: every one except the path that goes through $F '$ and then $W '$, since that is the only path on which neither event happens."
+    },
+    {
+     "type": "paragraph",
+     "md": "Translating the set notation into paths before calculating anything is what keeps a wordy question straight."
+    }
+   ],
+   "front_md": "On a tree diagram for events $F$ and $W$, which complete paths make up $F ' \\cap W$, and which make up $F \\cup W$?\n",
+   "back_md": "$F ' \\cap W$ is the single path that goes through $F '$ and then through $W$.\n\n$F \\cup W$ is three of the four paths: every one except the path that goes through $F '$ and then $W '$, since that is the only path on which neither event happens.\n\nTranslating the set notation into paths before calculating anything is what keeps a wordy question straight.\n",
+   "spec_links": [
+    "spcpt_qqShgKnf3SR5y4KX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_v8JkFgSKrSKXr5J5",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_KP9CcBCv5zBGC9ck",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Every \"given that\" probability in a question can be read straight off a branch of the tree diagram."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Only conditionals of the form \"second outcome given first outcome\" appear as branch labels, because that is the order the tree is built in."
+    },
+    {
+     "type": "paragraph",
+     "md": "A reversed one such as `\\text{P}(F \\vert W)`, where $W$ is the second event, is nowhere on the diagram and has to be worked backwards from the completed paths."
+    }
+   ],
+   "front_md": "**True or False?**\n\nEvery \"given that\" probability in a question can be read straight off a branch of the tree diagram.\n",
+   "back_md": "**False.**\n\nOnly conditionals of the form \"second outcome given first outcome\" appear as branch labels, because that is the order the tree is built in.\n\nA reversed one such as `\\text{P}(F \\vert W)`, where $W$ is the second event, is nowhere on the diagram and has to be worked backwards from the completed paths.\n",
+   "spec_links": [
+    "spcpt_qqShgKnf3SR5y4KX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TGgTTHty5TMpG5k2",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_KP9CcBCv5zBGC9ck",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The probability along a complete path is the product of its branch labels. Given that $\\text{P} ( F ' \\cap W ) = 0 . 15$ and $\\text{P} ( F ' ) = 0 . 25$, what is the branch label for $W$ after $F '$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $0 . 6$, found by dividing:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{0.15}{0.25} = 0 . 6$"
+    },
+    {
+     "type": "paragraph",
+     "md": "That label is `\\text{P}(W \\vert F')`, the probability of $W$ given that $F '$ happened."
+    },
+    {
+     "type": "paragraph",
+     "md": "A path probability given in a question is nearly always meant to be divided like this, because it is one step further on than the branch you actually need."
+    }
+   ],
+   "front_md": "The probability along a complete path is the product of its branch labels. Given that $\\text{P} ( F ' \\cap W ) = 0 . 15$ and $\\text{P} ( F ' ) = 0 . 25$, what is the branch label for $W$ after $F '$?\n",
+   "back_md": "It is $0 . 6$, found by dividing:\n\n$\\frac{0.15}{0.25} = 0 . 6$\n\nThat label is `\\text{P}(W \\vert F')`, the probability of $W$ given that $F '$ happened.\n\nA path probability given in a question is nearly always meant to be divided like this, because it is one step further on than the branch you actually need.\n",
+   "spec_links": [
+    "spcpt_qqShgKnf3SR5y4KX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Bcvw5yqQMz6zPGWW",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_KP9CcBCv5zBGC9ck",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the missing path so that the probability of the second event is complete:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(B) = \\text{P}(A \\cap B) + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed result is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( B ) = \\text{P} ( A \\cap B ) + \\text{P} ( A ' \\cap B )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Event $B$ can be reached along two paths, one through $A$ and one through $A '$, and there is no third way to get there."
+    },
+    {
+     "type": "paragraph",
+     "md": "Adding them is what turns branch information into a probability for the second event on its own, which a tree never shows you directly."
+    }
+   ],
+   "front_md": "Fill in the missing path so that the probability of the second event is complete:\n\n`\\text{P}(B) = \\text{P}(A \\cap B) + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed result is:\n\n$\\text{P} ( B ) = \\text{P} ( A \\cap B ) + \\text{P} ( A ' \\cap B )$\n\nEvent $B$ can be reached along two paths, one through $A$ and one through $A '$, and there is no third way to get there.\n\nAdding them is what turns branch information into a probability for the second event on its own, which a tree never shows you directly.\n",
+   "spec_links": [
+    "spcpt_qqShgKnf3SR5y4KX"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_GHDh9s59xnyyB8Hr",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_KP9CcBCv5zBGC9ck",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find `\\text{P}(F' \\vert W')` from a tree diagram?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find $\\text{P} ( F ' \\cap W ' )$ by multiplying along that one path, find $\\text{P} ( W ' )$ by adding both paths that end in $W '$, then divide the first by the second."
+    },
+    {
+     "type": "paragraph",
+     "md": "With $0 . 1$ on the path and $0 . 15 + 0 . 1 = 0 . 25$ for $W '$ altogether, the answer is $\\frac{0.1}{0.25} = 0 . 4$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The conditioning event is the one on the **second** set of branches here, which is why the calculation runs backwards along the tree."
+    }
+   ],
+   "front_md": "How do you find `\\text{P}(F' \\vert W')` from a tree diagram?\n",
+   "back_md": "Find $\\text{P} ( F ' \\cap W ' )$ by multiplying along that one path, find $\\text{P} ( W ' )$ by adding both paths that end in $W '$, then divide the first by the second.\n\nWith $0 . 1$ on the path and $0 . 15 + 0 . 1 = 0 . 25$ for $W '$ altogether, the answer is $\\frac{0.1}{0.25} = 0 . 4$.\n\nThe conditioning event is the one on the **second** set of branches here, which is why the calculation runs backwards along the tree.\n",
+   "spec_links": [
+    "spcpt_qqShgKnf3SR5y4KX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ThK2jgG66DFDYKWt",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_KP9CcBCv5zBGC9ck",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A tree diagram has three possible outcomes at each of three experiments. How many complete paths does it have, and what does that mean for using it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It has $3 \\times 3 \\times 3 = 27$ complete paths, because the number of outcomes at each stage multiplies."
+    },
+    {
+     "type": "paragraph",
+     "md": "With that many, listing every path and its probability is not practical, so you identify only the paths the question actually asks about and work out those."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is why a tree stops being the best diagram once there are more than two or three outcomes per event."
+    }
+   ],
+   "front_md": "A tree diagram has three possible outcomes at each of three experiments. How many complete paths does it have, and what does that mean for using it?\n",
+   "back_md": "It has $3 \\times 3 \\times 3 = 27$ complete paths, because the number of outcomes at each stage multiplies.\n\nWith that many, listing every path and its probability is not practical, so you identify only the paths the question actually asks about and work out those.\n\nThis is why a tree stops being the best diagram once there are more than two or three outcomes per event.\n",
+   "spec_links": [
+    "spcpt_qqShgKnf3SR5y4KX"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_yDPRZJ9VTh9Nf8mZ",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_9d6QS7Nm8jJhgj5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Fill in the missing term in the addition formula:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(A \\cup B) = \\text{P}(A) + \\text{P}(B) - \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( A \\cup B ) = \\text{P} ( A ) + \\text{P} ( B ) - \\text{P} ( A \\cap B )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Adding $\\text{P} ( A )$ and $\\text{P} ( B )$ counts the outcomes where both events happen **twice**, once inside each event, so they have to be taken off once."
+    },
+    {
+     "type": "paragraph",
+     "md": "On a Venn diagram this is the region shaded twice over, which is where the formula comes from."
+    }
+   ],
+   "front_md": "Fill in the missing term in the addition formula:\n\n`\\text{P}(A \\cup B) = \\text{P}(A) + \\text{P}(B) - \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed formula is:\n\n$\\text{P} ( A \\cup B ) = \\text{P} ( A ) + \\text{P} ( B ) - \\text{P} ( A \\cap B )$\n\nAdding $\\text{P} ( A )$ and $\\text{P} ( B )$ counts the outcomes where both events happen **twice**, once inside each event, so they have to be taken off once.\n\nOn a Venn diagram this is the region shaded twice over, which is where the formula comes from.\n",
+   "spec_links": [
+    "spcpt_4XqYGqKNNWgv2SVd"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_k4sV7d8Mq5Phc3rJ",
+   "card_type": "true_or_false",
+   "order": 1,
+   "set_id": "flst_9d6QS7Nm8jJhgj5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The addition formula holds for any two events, whether or not they are mutually exclusive."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Unlike the two rules that come with conditions attached to them, this one carries no condition at all."
+    },
+    {
+     "type": "paragraph",
+     "md": "The subtracted term takes care of whatever overlap the two events happen to have, so nothing has to be checked before using it."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe addition formula holds for any two events, whether or not they are mutually exclusive.\n",
+   "back_md": "**True.**\n\nUnlike the two rules that come with conditions attached to them, this one carries no condition at all.\n\nThe subtracted term takes care of whatever overlap the two events happen to have, so nothing has to be checked before using it.\n",
+   "spec_links": [
+    "spcpt_4XqYGqKNNWgv2SVd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rZYbkBbTDGt2Mzhv",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_9d6QS7Nm8jJhgj5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A question gives $\\text{P} ( A )$, $\\text{P} ( B )$ and $\\text{P} ( A \\cup B )$, and asks for $\\text{P} ( A \\cap B )$. How do you get it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rearrange the addition formula to"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( A \\cap B ) = \\text{P} ( A ) + \\text{P} ( B ) - \\text{P} ( A \\cup B )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The two arrangements look almost identical, differing only in which of the union and the intersection is on the left."
+    },
+    {
+     "type": "paragraph",
+     "md": "So write down which of the two the question has actually given you before you substitute anything."
+    }
+   ],
+   "front_md": "A question gives $\\text{P} ( A )$, $\\text{P} ( B )$ and $\\text{P} ( A \\cup B )$, and asks for $\\text{P} ( A \\cap B )$. How do you get it?\n",
+   "back_md": "Rearrange the addition formula to\n\n$\\text{P} ( A \\cap B ) = \\text{P} ( A ) + \\text{P} ( B ) - \\text{P} ( A \\cup B )$\n\nThe two arrangements look almost identical, differing only in which of the union and the intersection is on the left.\n\nSo write down which of the two the question has actually given you before you substitute anything.\n",
+   "spec_links": [
+    "spcpt_4XqYGqKNNWgv2SVd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_D3Z7JtGBKHgkHCMy",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_9d6QS7Nm8jJhgj5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why is the addition formula not needed when two events are mutually exclusive?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because mutually exclusive events share no outcomes at all, so nothing has been counted twice and the term being subtracted is zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "The formula then collapses to the simpler rule that the probabilities just add."
+    },
+    {
+     "type": "paragraph",
+     "md": "That simpler rule is a special case of the addition formula rather than a separate result, which is why you only ever need to remember one of them."
+    }
+   ],
+   "front_md": "Why is the addition formula not needed when two events are mutually exclusive?\n",
+   "back_md": "Because mutually exclusive events share no outcomes at all, so nothing has been counted twice and the term being subtracted is zero.\n\nThe formula then collapses to the simpler rule that the probabilities just add.\n\nThat simpler rule is a special case of the addition formula rather than a separate result, which is why you only ever need to remember one of them.\n",
+   "spec_links": [
+    "spcpt_4XqYGqKNNWgv2SVd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_r2DmWxrz8jGZ57wX",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_9d6QS7Nm8jJhgj5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Most probability questions can be answered from a diagram. When is a formula the more practical route?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When the question gives you probabilities and nothing that would fill a diagram, so there are no regions or branches to read anything off."
+    },
+    {
+     "type": "paragraph",
+     "md": "That happens whenever you are told the probabilities of **combined** events, such as a union or an intersection, without being told how the individual outcomes split up."
+    },
+    {
+     "type": "paragraph",
+     "md": "A diagram can often be built afterwards, once a formula has supplied the missing value."
+    }
+   ],
+   "front_md": "Most probability questions can be answered from a diagram. When is a formula the more practical route?\n",
+   "back_md": "When the question gives you probabilities and nothing that would fill a diagram, so there are no regions or branches to read anything off.\n\nThat happens whenever you are told the probabilities of **combined** events, such as a union or an intersection, without being told how the individual outcomes split up.\n\nA diagram can often be built afterwards, once a formula has supplied the missing value.\n",
+   "spec_links": [
+    "spcpt_4XqYGqKNNWgv2SVd"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Qq9YYJSyYzxDPt28",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_9d6QS7Nm8jJhgj5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The probability that the first match runs long is 0.15, that both of the first two do is 0.06, and that at least one of them does is 0.32. What is the probability that the second runs long?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is $0 . 23$."
+    },
+    {
+     "type": "paragraph",
+     "md": "\"At least one\" is the union and \"both\" is the intersection, so substituting into the addition formula gives"
+    },
+    {
+     "type": "paragraph",
+     "md": "$0 . 32 = 0 . 15 + \\text{P} ( M_{2} ) - 0 . 06$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Turning the wording into unions and intersections is the whole difficulty in a question like this, and once that is done it is a single equation."
+    }
+   ],
+   "front_md": "The probability that the first match runs long is 0.15, that both of the first two do is 0.06, and that at least one of them does is 0.32. What is the probability that the second runs long?\n",
+   "back_md": "It is $0 . 23$.\n\n\"At least one\" is the union and \"both\" is the intersection, so substituting into the addition formula gives\n\n$0 . 32 = 0 . 15 + \\text{P} ( M_{2} ) - 0 . 06$\n\nTurning the wording into unions and intersections is the whole difficulty in a question like this, and once that is done it is a single equation.\n",
+   "spec_links": [
+    "spcpt_4XqYGqKNNWgv2SVd"
+   ],
+   "flags": []
+  }
+ ]
+}
