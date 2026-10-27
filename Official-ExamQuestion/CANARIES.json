@@ -993,7 +993,7 @@
    "id": "C97-bare-answer-solution",
    "series": "*",
    "check": "no_empty_solution_with_answer",
-   "assertion": "F97 (Task 19 deep-audit wave): a linked part carrying marks and a real (non-fragment) mark_point must emit a solution_md — the F97 bare-answer fallback re-emits the part's own verbatim MP text (census at fix time: 2021-06 1C 2(b)(ii) '25', 2021-11 2C 1(d) '73'). The only honest empty state is the MS-answer-is-a-drawing class whose MPs are margin-note fragments or the marks-digit leak (2023-06 2CR 7(c)(i) class), which the G7 mp_answer_gap census + review queue carry fail-visibly."
+   "assertion": "F97 (Task 19 deep-audit wave): a linked part carrying marks and a real (non-fragment) mark_point must emit a solution_md — the F97 bare-answer fallback re-emits the part's own verbatim MP text (census at fix time: 2021-06 1C 2(b)(ii) '25', 2021-11 2C 1(d) '73'). The only honest empty state is the MS-answer-is-a-drawing class whose MPs are margin-note fragments or the marks-digit leak (2023-06 2CR 7(c)(i) class), which the G7 mp_answer_gap census + review queue carry fail-visibly. (F107 supersession: the 2023-06 2CR 7(c)(i) honest-empty state was materialized through the F47 ledger + corpus transcription — the empty state retires; C109 pins the part.)"
   },
   {
    "id": "C98-drawing-linearization-census",
@@ -1085,6 +1085,14 @@
    "part": "6(a)(i)",
    "kind": "crop-required",
    "assertion": "Task 22 crop eyeball (2023-06 2P tranche): the 6(a)(i) 'grid' mention is the National Grid (the F99 false-mention class recurring corpus-wide) - the emitted crop (the Q6 stem photograph) is withdrawn by the 'rejected' verdict to an honest crop-required stub. Pins the F99 rejected demotion as data-driven machinery on its second occurrence. Regresses if the verdict path is lost."
+  },
+  {
+   "id": "C109-ms-image-answer-2023-06-2cr-7ci",
+   "series": "2023-06",
+   "paper": "2CR",
+   "assertion": "7(c)(i) links through the F47 MS-LINK-OVERRIDES ledger — the printed MS answer cell is a hand-annotated photograph of the QP displayed formula with the ester functional group circled; the pre-repair states must never return (the marks-digit leak '1' as the answer, or the hygiene-era honest-empty solution_md that left C13/C71 red on main; supersedes the C99 honest-empty class for this part)",
+   "check": "part_linked",
+   "part": "7(c)(i)"
   }
  ]
 }

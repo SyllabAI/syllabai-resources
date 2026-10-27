@@ -1,5 +1,21 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.28.0 — 2026-10-27 · F107: the 2023-06 4CH1-2CR image-answer repair + the 7(c)(ii) graded-value correction
+
+Post-#192 verification wave (converter unchanged, v0.25.0; hand-repair + ledger + canaries):
+
+- **7(c)(i) (C13/C71 red-state repair)**: the printed MS answer cell is a hand-annotated
+  photograph (the QP displayed formula with the ester functional group circled). The
+  marks-digit leak ('1' as the answer) had been emptied by hygiene-v2 r0 into an
+  undocumented honest-empty state that left canaries C13/C71 red on main. Repaired per
+  the F47 doctrine: eyeballed verbatim transcription materialized in the corpus with
+  full edits[] disclosure, F47 ledger entry with the 300-dpi evidence chain, canary C109.
+- **7(c)(ii) (Mode B graded-value correction)**: the served enrichment claimed
+  'propanoic acid, CH₃CH₂COOH'; the printed MS image answer and the QP displayed formula
+  are 2-methylpropanoic acid / methyl 2-methylpropanoate (branched). Corrected with
+  correction_of_record disclosure; exporter disclosure census 2026-10-27-f107-ms-image-answer.json.
+- C99 assertion carries the F107 supersession note (the honest-empty state retires).
+
 ## 0.27.0 — 2026-10-27 · G9 aggregation law as code (F105) + the asset-byte guard (the F104 boundary fix) + benchmark v2 (F106)
 
 Verification-layer release; converter unchanged (still v0.25.0). Three corrections of record:
