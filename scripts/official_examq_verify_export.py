@@ -402,7 +402,12 @@ def gate_e3(official_sets, report_path=None):
             raise GateRefusal("G-E3", f"{key}: exported census {census} != frozen {exp}")
     if report_path:
         rep = json.load(open(report_path))
-        rows = {(e["series"], e["paper"]): (e["questions"], e["parts"], e["marks_total"])
+        # Task 22: the report key is the lane's own marks column name — chemistry
+        # reports carry marks_total; the physics report of record (Task 22 regen)
+        # carries marks. Parsed-level the two are the same G1-measurable layer.
+        def _rmarks(e):
+            return e.get("marks_total", e.get("marks"))
+        rows = {(e["series"], e["paper"]): (e["questions"], e["parts"], _rmarks(e))
                 for e in rep["series"]}
         for key, exp in sorted(EXPECTED_CENSUS.items()):
             if key in rows:
@@ -662,9 +667,6 @@ def self_test(stage_path, stage_official_path, current_path, current_official_pa
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="mode", required=True)
-    for sp in (v, t):
-        sp.add_argument("--spec", default="4ch1", choices=sorted(_LANES),
-                        help="corpus lane (Task 22): 4ch1 (default) | 4ph1")
     v = sub.add_parser("verify", help="verify a staged export against the bundle of record")
     v.add_argument("--stage", required=True)
     v.add_argument("--stage-official-papers", required=True)
@@ -683,6 +685,10 @@ def main():
     t.add_argument("--allow-new-official", action="store_true")
     t.add_argument("--disclosure", default=None,
                    help="rename-wave disclosure: the clean baseline passes through it")
+    for sp in (v, t):
+        sp.add_argument("--spec", default="4ch1", choices=sorted(_LANES),
+                        help="corpus lane (Task 22): 4ch1 (default) | 4ph1")
+
     args = ap.parse_args()
     apply_lane(args.spec)
     try:
