@@ -1,5 +1,33 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.25.0 — 2026-10-27 · Task 22: the OCR + repair-reconversion waves (F101–F102) — the 4PH1 convertible corpus completes (55/55)
+
+Two operator-ordered waves landed as one conversion-completion re-emission for the 4PH1 lane
+(53 → 55 slices, 55/55 fully PASS; chemistry 2023-06 1C parity byte-identical modulo headers).
+
+- **F101 — the 2019-06 1P OCR source layer**: the image-only archive scan (Pearson DAM
+  print-to-PDF; zero text layer; the Task 15 CRASH-RECEIPT class) recovered through the F41
+  machinery: 25 content pages transcribed from the 600-dpi render (tesseract drafts
+  cross-checked against the MS text layer; per-page corrections ledger with evidence),
+  staged sha-pinned as `UPLOAD/ocr/2019-06-1P/`, prep committed as
+  `scripts/prep_ocr_layer_1p_2019.py` (deterministic, idempotent). G1 footer law holds on
+  the recovered census (12 questions, 110/110, every part-sum exact); page anchors work
+  end-to-end; 10 F45 manual crops on the raster pages (proof-rendered + eyeballed first;
+  emitted PNGs byte-identical to the proofs). **The empty-footer-census branch fails
+  closed with a machine-readable G1 FAIL attribution instead of a bare ValueError**
+  (negative-control-proven on the original 32-byte text layer).
+- **F102 — the 2023-06 2P repair-reconversion**: the Task 15 archive repair verified and
+  consumed (repaired QP sha-pinned, cover/log-number/footer-sum verified, G0-D clean);
+  the slice of record restored (36 parts, G5 36/36, 70/70) with its own spec-labels wave
+  (34 + 2 terminal) and crop eyeball (2 accepted; the 6(a)(i) National-Grid false-mention
+  crop REJECTED — the F99 class recurring; the 3(a)(i) oscilloscope-grid stub-accepted).
+- **Count registry hardened**: `expect_questions["1P"]["2019-06"] = 12` and
+  `expect_questions["2P"]["2023-06"] = 8` (both footer-verified this wave).
+- Chemistry parity: questions.md byte-identical; 7/7 assets byte-identical;
+  topic.json/validation-report identical modulo `generated_utc` + generator version.
+- Canaries +6 (C102–C106 + the battery at 104): OCR footer law, OCR count, repaired-2P
+  footer law, repaired-2P count, National-Grid rejection demotion.
+
 ## 0.24.0 — 2026-10-27 · Task 21: the crop-eyeball + spec-labels waves (F99–F100) — the physics review surface empties and spec tagging goes corpus-complete
 
 Two operator-ordered waves landed as one re-emission of record for the 4PH1 lane (53 slices,

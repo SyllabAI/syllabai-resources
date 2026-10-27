@@ -1,10 +1,41 @@
 {
  "schema": "syllabai.official-paper-questions.multi-series/0.1",
- "generated_utc": "2026-10-26T21:38:24Z",
- "baseline": null,
- "converter": "official_examq_extract.py v0.24.0 (ADR-039) — the Task 21 waves: F99 (the crop-eyeball wave: 'rejected' withdraws wrong-region crops, 'recrop' re-renders them at eyeballed boxes, F45 page_move consent) + F100 (the spec-labels wave consumption: 4ph1-<series>[-<paper>].json)",
- "corpus": "4PH1 1P/1PR/2P/2PR — 53 of 58 census paper dirs, all series in syllabai-pastpapers (landed Task 16; re-generated Task 17, Task 18, and Task 21 after the crop-eyeball + spec-labels waves; 5 dirs dispositioned: 3 archive-gap NO-QP, 1 image-only scan crash, 1 archive mislabel — see LANE-STATUS.md)",
+ "generated_utc": "2026-10-27T05:20:49Z",
+ "converter": "official_examq_extract.py v0.25.0 (ADR-039) \u2014 the Task 22 waves: F101 (the 2019-06 1P OCR source layer, the physics twin of the F41 chemistry wave + the empty-footer-census fail-closed attribution) and the 2023-06 2P repair-reconversion after the Task 15 pastpapers mislabel-repair",
+ "corpus": "4PH1 1P/1PR/2P/2PR \u2014 55 of 58 census paper dirs, all series in syllabai-pastpapers (landed Task 16; re-generated Tasks 17, 18, 21; Task 22 lands the 2019-06 1P OCR source layer and the 2023-06 2P repair-reconversion; 3 dirs dispositioned: the 2020-11 NO-QP trio, na:pmt-not-listed \u2014 see LANE-STATUS.md)",
  "series": [
+  {
+   "series": "2019-06",
+   "paper": "1P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2019-06:4PH1/1P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
+   },
+   "questions": 12,
+   "parts": 47,
+   "marks": 110,
+   "marks_expected": 110,
+   "mcq_parts": 4,
+   "mcq_keyed": 4,
+   "tags": {
+    "llm-spec-wave": 47,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
+   }
+  },
   {
    "series": "2019-06",
    "paper": "1PR",
@@ -21,22 +52,20 @@
    },
    "questions": 11,
    "parts": 54,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 6,
    "mcq_keyed": 6,
-   "ms_linkage": "MS linkage 54/54 (100%)",
+   "tags": {
+    "llm-spec-wave": 48,
+    "no-spec-point": 6,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 48,
-    "pending_llm": 0,
-    "no_spec_point": 6
    }
   },
   {
@@ -55,22 +84,20 @@
    },
    "questions": 9,
    "parts": 31,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 31/31 (100%)",
+   "tags": {
+    "llm-spec-wave": 31,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 31,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -89,22 +116,20 @@
    },
    "questions": 8,
    "parts": 34,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 34/34 (100%)",
+   "tags": {
+    "llm-spec-wave": 34,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 34,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -123,28 +148,20 @@
    },
    "questions": 12,
    "parts": 50,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 50/50 (100%)",
+   "tags": {
+    "llm-spec-wave": 50,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     20,
-     32
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 50,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -163,22 +180,20 @@
    },
    "questions": 12,
    "parts": 52,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 7,
    "mcq_keyed": 7,
-   "ms_linkage": "MS linkage 52/52 (100%)",
+   "tags": {
+    "llm-spec-wave": 52,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 52,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -197,22 +212,20 @@
    },
    "questions": 8,
    "parts": 31,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 31/31 (100%)",
+   "tags": {
+    "llm-spec-wave": 31,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 31,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -231,22 +244,20 @@
    },
    "questions": 8,
    "parts": 33,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 33/33 (100%)",
+   "tags": {
+    "llm-spec-wave": 33,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 33,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -265,22 +276,20 @@
    },
    "questions": 11,
    "parts": 42,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 42/42 (100%)",
+   "tags": {
+    "llm-spec-wave": 42,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 42,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -299,22 +308,20 @@
    },
    "questions": 13,
    "parts": 53,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 53/53 (100%)",
+   "tags": {
+    "llm-spec-wave": 53,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 53,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -333,22 +340,20 @@
    },
    "questions": 8,
    "parts": 35,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 35/35 (100%)",
+   "tags": {
+    "llm-spec-wave": 33,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 33,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -367,22 +372,20 @@
    },
    "questions": 8,
    "parts": 36,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 4,
    "mcq_keyed": 4,
-   "ms_linkage": "MS linkage 36/36 (100%)",
+   "tags": {
+    "llm-spec-wave": 30,
+    "no-spec-point": 6,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 30,
-    "pending_llm": 0,
-    "no_spec_point": 6
    }
   },
   {
@@ -401,22 +404,20 @@
    },
    "questions": 11,
    "parts": 42,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 42/42 (100%)",
+   "tags": {
+    "llm-spec-wave": 42,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 42,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -435,29 +436,20 @@
    },
    "questions": 11,
    "parts": 50,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 50/50 (100%)",
+   "tags": {
+    "llm-spec-wave": 50,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     30,
-     31,
-     32
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 50,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -476,29 +468,20 @@
    },
    "questions": 12,
    "parts": 47,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 47/47 (100%)",
+   "tags": {
+    "llm-spec-wave": 47,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     14,
-     22,
-     32
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 47,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -517,28 +500,20 @@
    },
    "questions": 8,
    "parts": 37,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 37/37 (100%)",
+   "tags": {
+    "llm-spec-wave": 36,
+    "no-spec-point": 1,
+    "pending-llm": 0
+   },
+   "review_queue_items": 2,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     23,
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 2,
-   "spec_tagging": {
-    "tagged": 36,
-    "pending_llm": 0,
-    "no_spec_point": 1
    }
   },
   {
@@ -557,29 +532,20 @@
    },
    "questions": 8,
    "parts": 33,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 33/33 (100%)",
+   "tags": {
+    "llm-spec-wave": 31,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     18,
-     19,
-     20
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 31,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -598,27 +564,20 @@
    },
    "questions": 11,
    "parts": 48,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 48/48 (100%)",
+   "tags": {
+    "llm-spec-wave": 48,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     12
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 48,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -637,29 +596,20 @@
    },
    "questions": 7,
    "parts": 32,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 32/32 (100%)",
+   "tags": {
+    "llm-spec-wave": 30,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     14,
-     23,
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 30,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -678,29 +628,20 @@
    },
    "questions": 12,
    "parts": 53,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 53/53 (100%)",
+   "tags": {
+    "llm-spec-wave": 48,
+    "no-spec-point": 5,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     30,
-     31,
-     32
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 48,
-    "pending_llm": 0,
-    "no_spec_point": 5
    }
   },
   {
@@ -719,31 +660,20 @@
    },
    "questions": 8,
    "parts": 37,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 37/37 (100%)",
+   "tags": {
+    "llm-spec-wave": 37,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     12,
-     18,
-     22,
-     23,
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 37,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -762,30 +692,20 @@
    },
    "questions": 12,
    "parts": 55,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
    "mcq_keyed": 4,
-   "ms_linkage": "MS linkage 55/55 (100%)",
+   "tags": {
+    "llm-spec-wave": 53,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     16,
-     22,
-     26,
-     36
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 53,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -804,29 +724,20 @@
    },
    "questions": 12,
    "parts": 49,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 49/49 (100%)",
+   "tags": {
+    "llm-spec-wave": 46,
+    "no-spec-point": 3,
+    "pending-llm": 0
+   },
+   "review_queue_items": 2,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     30,
-     31,
-     32
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 2,
-   "spec_tagging": {
-    "tagged": 46,
-    "pending_llm": 0,
-    "no_spec_point": 3
    }
   },
   {
@@ -845,28 +756,20 @@
    },
    "questions": 9,
    "parts": 31,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 31/31 (100%)",
+   "tags": {
+    "llm-spec-wave": 29,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     14,
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 29,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -885,29 +788,20 @@
    },
    "questions": 8,
    "parts": 30,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 30/30 (100%)",
+   "tags": {
+    "llm-spec-wave": 29,
+    "no-spec-point": 1,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     22,
-     23,
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 29,
-    "pending_llm": 0,
-    "no_spec_point": 1
    }
   },
   {
@@ -926,22 +820,20 @@
    },
    "questions": 12,
    "parts": 59,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 6,
    "mcq_keyed": 6,
-   "ms_linkage": "MS linkage 59/59 (100%)",
+   "tags": {
+    "llm-spec-wave": 52,
+    "no-spec-point": 7,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 52,
-    "pending_llm": 0,
-    "no_spec_point": 7
    }
   },
   {
@@ -960,27 +852,20 @@
    },
    "questions": 12,
    "parts": 49,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 49/49 (100%)",
+   "tags": {
+    "llm-spec-wave": 49,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     28
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 49,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -999,29 +884,20 @@
    },
    "questions": 7,
    "parts": 31,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 31/31 (100%)",
+   "tags": {
+    "llm-spec-wave": 28,
+    "no-spec-point": 3,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     22,
-     23,
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 28,
-    "pending_llm": 0,
-    "no_spec_point": 3
    }
   },
   {
@@ -1040,29 +916,20 @@
    },
    "questions": 7,
    "parts": 30,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 30/30 (100%)",
+   "tags": {
+    "llm-spec-wave": 30,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     22,
-     23,
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 30,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1081,30 +948,20 @@
    },
    "questions": 11,
    "parts": 50,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 50/50 (100%)",
+   "tags": {
+    "llm-spec-wave": 48,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     8,
-     16,
-     24,
-     32
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 48,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -1123,29 +980,20 @@
    },
    "questions": 11,
    "parts": 55,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 55/55 (100%)",
+   "tags": {
+    "llm-spec-wave": 55,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     30,
-     31,
-     32
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 55,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1164,27 +1012,20 @@
    },
    "questions": 8,
    "parts": 28,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 28/28 (100%)",
+   "tags": {
+    "llm-spec-wave": 28,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     20
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 28,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1203,27 +1044,20 @@
    },
    "questions": 8,
    "parts": 34,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 34/34 (100%)",
+   "tags": {
+    "llm-spec-wave": 34,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": {
-    "image_only_pages": [
-     24
-    ],
-    "affected_questions": []
-   },
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 34,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1242,22 +1076,20 @@
    },
    "questions": 12,
    "parts": 45,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 45/45 (100%)",
+   "tags": {
+    "llm-spec-wave": 42,
+    "no-spec-point": 3,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 42,
-    "pending_llm": 0,
-    "no_spec_point": 3
    }
   },
   {
@@ -1276,30 +1108,52 @@
    },
    "questions": 11,
    "parts": 46,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
    "mcq_keyed": 4,
-   "ms_linkage": "MS linkage 46/46 (100%)",
+   "tags": {
+    "llm-spec-wave": 46,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
+   }
+  },
+  {
+   "series": "2023-06",
+   "paper": "2P",
+   "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/2P",
+   "gates": {
+    "G0-identity": "PASS",
+    "G1-structure": "PASS",
+    "G2-D-disclosure": "PASS",
+    "G3-mcq-integrity": "PASS",
+    "G4-figure-resolution": "PASS",
+    "G5-answer-linkage": "PASS",
+    "G6-registry-codes": "PASS",
+    "G7-solution-emission": "PASS"
    },
-   "source_defects": {
-    "image_only_pages": [
-     8,
-     18,
-     22,
-     32
-    ],
-    "affected_questions": []
+   "questions": 8,
+   "parts": 36,
+   "marks": 70,
+   "marks_expected": 70,
+   "mcq_parts": 3,
+   "mcq_keyed": 3,
+   "tags": {
+    "llm-spec-wave": 34,
+    "no-spec-point": 2,
+    "pending-llm": 0
    },
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 46,
-    "pending_llm": 0,
-    "no_spec_point": 0
+   "review_queue_items": 2,
+   "negative_controls": {
+    "N1-mark-bump": "DETECTED",
+    "N2-paraphrase": "DETECTED",
+    "N3-fake-spec-code": "DETECTED"
    }
   },
   {
@@ -1318,22 +1172,20 @@
    },
    "questions": 8,
    "parts": 30,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 30/30 (100%)",
+   "tags": {
+    "llm-spec-wave": 26,
+    "no-spec-point": 4,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 26,
-    "pending_llm": 0,
-    "no_spec_point": 4
    }
   },
   {
@@ -1352,22 +1204,20 @@
    },
    "questions": 12,
    "parts": 49,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 49/49 (100%)",
+   "tags": {
+    "llm-spec-wave": 49,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 49,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1386,22 +1236,20 @@
    },
    "questions": 8,
    "parts": 29,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 29/29 (100%)",
+   "tags": {
+    "llm-spec-wave": 29,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 29,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1420,22 +1268,20 @@
    },
    "questions": 12,
    "parts": 51,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
    "mcq_keyed": 4,
-   "ms_linkage": "MS linkage 51/51 (100%)",
+   "tags": {
+    "llm-spec-wave": 51,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 51,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1454,22 +1300,20 @@
    },
    "questions": 12,
    "parts": 50,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 50/50 (100%)",
+   "tags": {
+    "llm-spec-wave": 50,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 50,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1488,22 +1332,20 @@
    },
    "questions": 8,
    "parts": 33,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 33/33 (100%)",
+   "tags": {
+    "llm-spec-wave": 31,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 31,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -1522,22 +1364,20 @@
    },
    "questions": 9,
    "parts": 30,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 30/30 (100%)",
+   "tags": {
+    "llm-spec-wave": 25,
+    "no-spec-point": 5,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 25,
-    "pending_llm": 0,
-    "no_spec_point": 5
    }
   },
   {
@@ -1556,22 +1396,20 @@
    },
    "questions": 11,
    "parts": 53,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 53/53 (100%)",
+   "tags": {
+    "llm-spec-wave": 53,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 53,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1590,22 +1428,20 @@
    },
    "questions": 8,
    "parts": 35,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 35/35 (100%)",
+   "tags": {
+    "llm-spec-wave": 35,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 35,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1624,22 +1460,20 @@
    },
    "questions": 11,
    "parts": 49,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 49/49 (100%)",
+   "tags": {
+    "llm-spec-wave": 49,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 49,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1658,22 +1492,20 @@
    },
    "questions": 11,
    "parts": 43,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 4,
    "mcq_keyed": 4,
-   "ms_linkage": "MS linkage 43/43 (100%)",
+   "tags": {
+    "llm-spec-wave": 43,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 43,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1692,22 +1524,20 @@
    },
    "questions": 8,
    "parts": 32,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 2,
    "mcq_keyed": 2,
-   "ms_linkage": "MS linkage 32/32 (100%)",
+   "tags": {
+    "llm-spec-wave": 31,
+    "no-spec-point": 1,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 31,
-    "pending_llm": 0,
-    "no_spec_point": 1
    }
   },
   {
@@ -1726,22 +1556,20 @@
    },
    "questions": 8,
    "parts": 31,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 1,
    "mcq_keyed": 1,
-   "ms_linkage": "MS linkage 31/31 (100%)",
+   "tags": {
+    "llm-spec-wave": 31,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 31,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1760,22 +1588,20 @@
    },
    "questions": 12,
    "parts": 50,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 5,
    "mcq_keyed": 5,
-   "ms_linkage": "MS linkage 50/50 (100%)",
+   "tags": {
+    "llm-spec-wave": 50,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 50,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1794,22 +1620,20 @@
    },
    "questions": 8,
    "parts": 36,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 36/36 (100%)",
+   "tags": {
+    "llm-spec-wave": 36,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 36,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1828,22 +1652,20 @@
    },
    "questions": 11,
    "parts": 46,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 46/46 (100%)",
+   "tags": {
+    "llm-spec-wave": 46,
+    "no-spec-point": 0,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 46,
-    "pending_llm": 0,
-    "no_spec_point": 0
    }
   },
   {
@@ -1862,22 +1684,20 @@
    },
    "questions": 11,
    "parts": 47,
-   "marks_total": 110,
+   "marks": 110,
    "marks_expected": 110,
    "mcq_parts": 5,
    "mcq_keyed": 5,
-   "ms_linkage": "MS linkage 47/47 (100%)",
+   "tags": {
+    "llm-spec-wave": 44,
+    "no-spec-point": 3,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 44,
-    "pending_llm": 0,
-    "no_spec_point": 3
    }
   },
   {
@@ -1896,22 +1716,20 @@
    },
    "questions": 8,
    "parts": 27,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 3,
    "mcq_keyed": 3,
-   "ms_linkage": "MS linkage 27/27 (100%)",
+   "tags": {
+    "llm-spec-wave": 25,
+    "no-spec-point": 2,
+    "pending-llm": 0
+   },
+   "review_queue_items": 1,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 1,
-   "spec_tagging": {
-    "tagged": 25,
-    "pending_llm": 0,
-    "no_spec_point": 2
    }
   },
   {
@@ -1930,42 +1748,44 @@
    },
    "questions": 8,
    "parts": 28,
-   "marks_total": 70,
+   "marks": 70,
    "marks_expected": 70,
    "mcq_parts": 0,
    "mcq_keyed": 0,
-   "ms_linkage": "MS linkage 28/28 (100%)",
+   "tags": {
+    "llm-spec-wave": 27,
+    "no-spec-point": 1,
+    "pending-llm": 0
+   },
+   "review_queue_items": 0,
    "negative_controls": {
     "N1-mark-bump": "DETECTED",
     "N2-paraphrase": "DETECTED",
     "N3-fake-spec-code": "DETECTED"
-   },
-   "source_defects": null,
-   "review_queue_items": 0,
-   "spec_tagging": {
-    "tagged": 27,
-    "pending_llm": 0,
-    "no_spec_point": 1
    }
   }
  ],
  "landing_disclosure": {
-  "verdict": "Task 21 re-emission of record: every asset review flag cleared (65/65 eyeball verdicts: 23 crops accepted, 5 wrong-region crops rejected to honest stubs, 7 crops recropped at eyeballed boxes incl. 4 disclosed page moves, 12 stubs resolved by F45 manual crops incl. 4 page moves, 18 stubs stub-accepted) and spec tagging corpus-complete (2,106 llm-spec-wave + 65 no-spec-point + 0 pending-llm). The 23 remaining review-queue items are the chemistry-convention disclosures for resolved stubs (18 stub-accepted + 5 rejected), matching the served 4CH1 1CR/2C convention; the asset-level review surface is empty."
+  "verdict": "Task 22 conversion-completion wave: the two open conversion gaps of record are closed \u2014 (1) 2019-06 1P converts end-to-end through the sha-pinned OCR source layer (25 transcribed pages, corrections ledger, fail-closed converter verification; the image-only scan's empty-footer-census crash is now an honest machine-readable G1 attribution); (2) 2023-06 2P converts from the repaired archive QP (the Task 15 mislabel-repair verified: cover 4PH1/2P June 2023, log P71957A, footer sum 70). Spec tagging stays corpus-complete (2187 llm-spec-wave + 67 no-spec-point + 0 pending-llm; the 47 + 36 new parts hand-verified against the registry wordings; 2 new no_spec_point dispositions: scale-reading and equipment recall); asset review flags stay 0 (10 F45 manual crops on the 1P raster pages; the 2P 'grid' false-mention pair resolved: 1 rejected National-Grid class + 1 stub-accepted). The review-queue items are the chemistry-convention disclosures for resolved stubs."
  },
  "generalization_findings": [],
  "summary": {
-  "slices": 53,
-  "fully_pass": 53,
-  "questions": 520,
-  "parts": 2171,
-  "marks": 4790,
-  "mcq_keyed": "135/135",
+  "slices": 55,
+  "fully_pass": 55,
+  "questions": 540,
+  "parts": 2254,
+  "marks": 4970,
+  "mcq_keyed": "142/142",
   "spec_tagging": {
-   "llm_spec_wave": 2106,
-   "no_spec_point": 65,
+   "llm_spec_wave": 2187,
+   "no_spec_point": 67,
    "pending_llm": 0
   },
-  "review_queue_items": 23,
-  "asset_review_flags_remaining": 0
+  "review_queue_items": 25,
+  "asset_review_flags_remaining": 0,
+  "assets": {
+   "crops": 520,
+   "stubs": 25
+  }
  }
 }

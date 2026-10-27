@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.24.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.25.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -146,8 +146,8 @@ SPECS = {
         # only the footer-verified slices carry an expectation; every other
         # series runs with count gate skipped (None) until verified
         expect_questions={
-            "1P": {"2023-06": 12},
-            "2P": {"2024-06": 8},
+            "1P": {"2023-06": 12, "2019-06": 12},
+            "2P": {"2024-06": 8, "2023-06": 8},
         },
         seeds={},                        # no demo seeds for physics
         seeds_paper="1P",
@@ -2367,6 +2367,26 @@ def main():
     # 2019-06 Q7 — absent from the PDF text layer itself) splits the following
     # region into a footer-less question (marks inferred from parts -> REVIEW)
     footer_qnums = {q for _, q, _ in footers}
+    # F101 (v0.25.0): an EMPTY footer census means the QP text layer carries no
+    # question footers at all — the image-only archive-scan class (2019-06 4PH1-1P
+    # Task 15 CRASH-RECEIPT: this branch previously crashed with a bare ValueError
+    # from max()). Fail closed with an honest, machine-readable G1 attribution
+    # instead of a traceback: the run still aborts (never serve from a census-less
+    # extraction), but the receipt now names the defect class and the OCR-layer
+    # remedy. Chemistry/4MB1/normal physics runs never reach this branch (their
+    # footers always exist), so no served corpus changes.
+    if not footer_qnums:
+        report["gates"].append({
+            "gate": "G1-structure", "status": "FAIL",
+            "summary": "empty footer census: 0 'Total for Question' rows in the QP text "
+                       "layer — image-only archive scan without an OCR source layer "
+                       "(stage UPLOAD/ocr/<series>-<paper>/qp-pNN.txt + ocr-pages.json "
+                       "per LEDGER F41/F101); previous behaviour: bare ValueError crash "
+                       "(Task 15 CRASH-RECEIPT)",
+            "details": {"qp_txt_bytes": len(QP_TEXT_SRC)}})
+        print("G1 FAIL — empty footer census (fail-closed attribution, F101)")
+        json.dump(report, sys.stdout, indent=1)
+        return 1
     max_q = max(footer_qnums)
     missing = [n for n in range(1, max_q + 1) if n not in footer_qnums]
 
