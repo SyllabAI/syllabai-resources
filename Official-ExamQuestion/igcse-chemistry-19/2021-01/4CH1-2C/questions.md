@@ -67,7 +67,6 @@ There are two isotopes of this element. Give one way, in terms of sub-atomic par
 > IGNORE references to
 > mass number and
 > atomic number.
-> 5 marks
 
 - **(1)** same number of protons ALLOW same number
 - **(1)** different number of neutrons
@@ -131,7 +130,6 @@ Describe the test for hydrogen gas.
 **Mark scheme answer**
 
 > lighted splint (produces squeaky) pop
-> 5 marks
 
 - **(1)** lighted splint (produces squeaky) pop
 
@@ -215,7 +213,6 @@ An ester is formed by adding ethanoic acid to ethanol in the presence of sulfuri
 > structure
 > M2 rest of molecule correct as a fully displayed
 > structure
-> 8 marks
 
 - **(1)** ester linkage as a displayed
 - **(1)** rest of molecule correct as a fully displayed
@@ -292,7 +289,6 @@ Explain why potassium is more reactive than sodium. Refer to the electronic conf
 > potassium)
 > M3 therefore (outer shell electron) is more easily ALLOW reverse
 > lost argument for sodium
-> 9 marks
 
 - **(1)** electron configuration of sodium is 2,8,1 and ALLOW the outer shell
 - **(1)** outer electron less attracted (to the nucleus of
@@ -437,7 +433,6 @@ Draw an energy level diagram for the reaction between aluminium and iron(III) ox
 > M2 and M3 can be
 > scored from an
 > endothermic diagram
-> 14 marks
 
 - **(1)** right hand line below left hand line
 - **(1)** correct name / formula of both reactants
@@ -578,7 +573,6 @@ In an experiment using different solutions, the mass of silver chloride produced
 > M1 (0.744 ÷ 0.850) × 100
 > M2 87.5(%) ALLOW 2 or more
 > significant figures
-> 15 marks
 
 - **(1)** (0.744 ÷ 0.850) × 100
 - **(1)** 87.5(%) ALLOW 2 or more
@@ -588,7 +582,7 @@ In an experiment using different solutions, the mass of silver chloride produced
 
 This question is about octane (C8H18) which is produced in the gasoline fraction during fractional distillation of crude oil.
 
-**(c)** A car is driven at constant speed for 4.00 km. The exhaust gases are collected and their volume at room temperature and pressure (rtp) is 5.02 × 105 cm3. The exhaust gases include carbon dioxide and oxides of nitrogen. The carbon dioxide is removed from the exhaust gases. The volume of the remaining gases at rtp is 2.96 × 105 cm3.
+**(c)** A car is driven at constant speed for 4.00 km. The exhaust gases are collected and their volume at room temperature and pressure (rtp) is 5.02 × 10⁵ cm3. The exhaust gases include carbon dioxide and oxides of nitrogen. The carbon dioxide is removed from the exhaust gases. The volume of the remaining gases at rtp is 2.96 × 10⁵ cm3.
 
 ### 7(a) [4]
 
@@ -677,9 +671,9 @@ Show that the car produces less than 100 g of carbon dioxide per km. [molar volu
 
 > Example calculation
 > M1 volume of carbon dioxide = 206 000 cm3 /
-> 2.06×105 cm3 / 206 dm3
+> 2.06× 10⁵ cm3 / 206 dm3
 > M2 volume of carbon dioxide per km = 51 500 cm3/ Division by 4 can
-> 5.15×104 cm3 / 51.5 dm3 happen in M1, M2, M3
+> 5.15× 10⁴ cm3 / 51.5 dm3 happen in M1, M2, M3
 > or M5
 > ALLOW M1 ÷ 4
 > M3 (51 500 ÷ 24 000) = 2.15 moles ALLOW M2 or
@@ -690,7 +684,6 @@ Show that the car produces less than 100 g of carbon dioxide per km. [molar volu
 > incorrect Mr
 > Correct answer of 94 –
 > 95 g scores 5 marks.
-> 14 marks
 
 - **(1)** volume of carbon dioxide = 206 000 cm3 /
 - **(1)** volume of carbon dioxide per km = 51 500 cm3/ Division by 4 can

@@ -483,7 +483,6 @@ Sulfuric acid reacts with ammonia to form ammonium sulfate, (NH4)2SO4 Calculate 
 > long as 132 used correctly
 > Correct answer without
 > working scores 2
-> 3Answer Notes Marks
 
 - **(1)** (2 x 14 ÷ 132) x 100
 - **(1)** 21.21 (%) ALLOW any number of sig

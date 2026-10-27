@@ -243,7 +243,6 @@ Complete the equation for this cracking reaction. C12H26 → C9H20 +
 **Mark scheme answer**
 
 > C12H26 → C9H20 + C3H6
-> Question number Answer Notes Marks
 
 - **(1)** C12H26 → C9H20 + C3H6
 
@@ -302,7 +301,6 @@ Suggest two possible mistakes that could have caused the anomalous result. 1 2
 > for M1 and M2 only
 > M3 not enough potassium nitrate was added
 > M4 the solution was not stirred
-> Question number Answer Notes Marks
 
 - **(2)** Any two from
 

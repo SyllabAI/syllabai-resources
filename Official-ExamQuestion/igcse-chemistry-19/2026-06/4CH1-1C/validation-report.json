@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T21:36:24Z",
+ "generated_utc": "2026-10-27T20:27:25Z",
  "series": "2026-06",
  "paper": "1C",
  "gates": [
@@ -39,15 +39,16 @@
   {
    "gate": "G3-mcq-integrity",
    "status": "PASS",
-   "summary": "5 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "summary": "5 MCQ parts; all have printed A–D and MS-keyed answer: True; 0 drawing-option MCQ candidates (census, F94)",
    "details": {
-    "issues": []
+    "issues": [],
+    "drawing_option_mcq_candidates": []
    }
   },
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
+   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 4 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor; 0 drawing-linearization gaps (census, F96)",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
@@ -55,7 +56,8 @@
      "crops": 4,
      "pending": 1,
      "shared": 2
-    }
+    },
+    "drawing_gaps": []
    }
   },
   {
@@ -80,13 +82,21 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 56/56 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 54 parts, agrees with QP marks on 54",
+   "summary": "solution_md on 56/56 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 54 parts, agrees with QP marks on 54; 1 mark-point answer gaps (census, F95)",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
     "ms_marks_seen": 54,
     "ms_marks_agree": 54,
-    "ms_marks_disagree": []
+    "ms_marks_disagree": [],
+    "mp_answer_gap": [
+     {
+      "part": "8(b)(i)",
+      "mp_texts": [
+       "M1 the two (fluorine) atoms in a molecul"
+      ]
+     }
+    ]
    }
   }
  ],
@@ -112,6 +122,10 @@
   {
    "part": "6(b)",
    "reason": "figure crop required (diagram, page 18)"
+  },
+  {
+   "part": "8(b)(i)",
+   "reason": "mark-point answer gap: MPs are margin-note fragments / marks digit (MS answer is a printed drawing)"
   }
  ],
  "ocr_pages": [],

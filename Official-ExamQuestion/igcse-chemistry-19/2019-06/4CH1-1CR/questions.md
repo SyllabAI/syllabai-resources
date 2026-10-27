@@ -296,8 +296,6 @@ One dye in ink Y moves 4.3 cm when the solvent front moves 6.5 cm. Calculate the
 > can score M2 and M3
 > ECF provided use 4.3 and
 > 6.5 and do a division
-> Total
-> number Answer Notes Marks
 
 - **(1)** 4.3 Award one mark if correct
 - **(1)** 0.6615 ACCEPT any number of
@@ -388,7 +386,9 @@ One of the products of incomplete combustion is a poisonous gas. State why this 
 
 ### 4(b)(iv) [2]
 
-C5H12 has three isomers. The displayed formula for one of these isomers is H H H H H H C C C C C H H H H H H Draw the displayed formulae of the other two isomers.
+C5H12 has three isomers. The displayed formula for one of these isomers is Draw the displayed formulae of the other two isomers.
+
+![displayed formula of one C5H12 isomer (pentane) — official paper figure (qp.pdf p.9)](assets/asset_4_b_iv_isomer.png)
 
 
 **Mark scheme answer**
@@ -594,7 +594,6 @@ Explain, using the particle collision theory, how increasing the temperature wou
 > collisions between
 > particles having ≥
 > activation energy
-> Total
 
 - **(1)** (rate) increases
 - **(1)** (mean kinetic) energy of particles increases ALLOW particles
@@ -638,8 +637,6 @@ Chloroethene has the percentage composition by mass C = 38.4% H = 4.8% Cl = 56.8
 > 62.5 62.5 62.5
 > M3 all x 100
 > = 38.4(%) 4.8(%) 56.8(%)
-> Question Answer Notes Marks
-> Number
 
 - **(3)** • Dividing percentages by atomic 0 marks if division
 
@@ -767,8 +764,6 @@ Draw a dot‑and‑cross diagram to represent a molecule of chloroethene. Show o
 > shells even if
 > incorrect
 > M2 DEP on M1
-> Total
-> number Answer Notes Marks
 
 - **(1)** 2 shared pairs between C atoms ACCEPT any
 - **(1)** rest of structure fully correct and crosses.
@@ -915,7 +910,6 @@ The actual mass of crystals that the student obtains is 4.8 g. Calculate the per
 > both score 0
 > Answers of 25% and Total
 > 20% score 1
-> Question number Answer Notes Marks
 
 - **(2)** • Setting out of calculation
 
@@ -1029,8 +1023,6 @@ The point where the lines cross shows • the volume of acid needed to exactly n
 > between the
 > lines 0 marks
 > for (ii)
-> Total
-> Question number Answer Notes Marks
 
 - **(1)** volume reading read from graph +/- 0.5 (cm3) Award 1 mark
 - **(1)** temp reading read from graph to +/- 0.1 (°C) correct but
@@ -1170,7 +1162,6 @@ Graphite is another naturally‑occurring form of carbon. Graphite can be used i
 > If reference to ions for
 > conduction of electricity Total
 > no M4 M5 M6
-> Question number Answer Notes Marks
 
 - **(5)** An explanation linking any five of
 
@@ -1244,7 +1235,6 @@ Show that the heat energy change (Q) is about 1300 J. [for the solution, c = 4.1
 > If answer in kJ unit must
 > be given
 > ALLOW use of 4.2 for all 3
-> marks (= 1312.5)
 
 - **(1)** (31.5 – 19.0) OR 12.5
 - **(1)** Q = 25 x 4.18 x 12.5 25 x 4.18 x (31.5 – 19.0)
@@ -1291,7 +1281,6 @@ Calculate the value of the enthalpy change (ΔH), in kilojoules per mole, for th
 > 105 all score 2
 > -104.5(04) -104.48 -104.8 Total
 > -105 all score 3
-> Total marks 110
 
 - **(1)** Q OR 1300 OR answer to b(i) figs in the numerator
 - **(1)** ∆H = (–) 104 (kJ/mol) figs

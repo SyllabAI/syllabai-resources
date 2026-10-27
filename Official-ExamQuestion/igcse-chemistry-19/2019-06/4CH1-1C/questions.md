@@ -731,7 +731,6 @@ The boiling point of Halon 1301 is −58 °C. Explain why Halon 1301 has a low b
 > bonds/metallic bonds
 > breaking scores 0 out
 > of 2
-> Question Answer Notes Marks
 
 - **(1)** the intermolecular forces (of attraction) are ACCEPT London
 - **(1)** therefore little energy is required to ALLOW little energy is
@@ -958,7 +957,6 @@ Show that the heat energy change, Q, is about 2400 J. [mass of 1.00 cm3 of solut
 > and M3 (= 2618)
 > 2400 alone scores 0
 > ALLOW use of 4.2 for all 3
-> marks (= 2436)
 
 - **(1)** 14.2 – 20.0 = (-)5.8
 - **(1)** Q = 100 × 4.18 × (‒)5.8

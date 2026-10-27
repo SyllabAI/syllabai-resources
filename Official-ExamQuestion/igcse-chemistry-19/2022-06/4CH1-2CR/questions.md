@@ -474,7 +474,9 @@ State what is meant by the term functional group.
 
 ### 5(c)(ii) [1]
 
-This is the structural formula of aspirin. O O CH3 C O C6H4 C O H Draw a circle around the carboxylic acid functional group.
+This is the structural formula of aspirin. Draw a circle around the carboxylic acid functional group.
+
+![structural formula of aspirin — official paper figure (qp.pdf p.13)](assets/asset_5_c_ii_aspirin.png)
 
 
 **Mark scheme answer**
@@ -585,6 +587,7 @@ The student makes the improvements and repeats the titration. The sulfuric acid 
 > M1 amount of NaOH = 25.0 x 1.50 OR 0.0375 (mol) correct answer without
 > 1000 working scores 3
 > M2 amount of H2SO4 = 0.0375 OR 0.01875 (mol) ALLOW ECF throughout
+> 2
 > M3 volume of H2SO4 = (0.01875 x 1000) = 31.25 (cm3) ALLOW 2, 3 or 4 sig
 > (0.600) figs throughout
 > Penalise use of 1 sig fig
@@ -710,7 +713,7 @@ The reaction mixture is kept at a temperature of 450 °C, but the pressure is in
 
 ### 7(c) [3]
 
-Draw an energy level diagram for the reaction between nitrogen and hydrogen. Include the reactants, products and ΔH in your diagram. energy QUESTION 7 CONTINUES ON NEXT PAGE
+Draw an energy level diagram for the reaction between nitrogen and hydrogen. Include the reactants, products and ΔH in your diagram. energy
 
 ![diagram — official paper figure (qp.pdf p.19)](assets/asset_7_c_diagram.png)
 

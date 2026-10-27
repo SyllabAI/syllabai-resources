@@ -231,22 +231,22 @@ Give the formula of the compound that forms when Z reacts with fluorine.
 
 ### 3(b) [2]
 
-One mole of Z contains 6.0 × 1023 atoms. Calculate the number of electrons in one mole of atoms of element Z. Give your answer in standard form. number of electrons =
+One mole of Z contains 6.0 × 10²³ atoms. Calculate the number of electrons in one mole of atoms of element Z. Give your answer in standard form. number of electrons =
 
 
 **Mark scheme answer**
 
-> M1 12 × 6.0 × 1023
+> M1 12 × 6.0 × 10²³
 > ALLOW ecf if incorrect
 > number of electrons x
-> M2 7.2 × 1024
+> M2 7.2 × 10²⁴
 > 6.0 x 1023
 > ALLOW ecf if /12 ONLY
 > rather than x12 giving
 > 5(.0) x1022
 
-- **(1)** 12 × 6.0 × 1023
-- **(1)** 7.2 × 1024
+- **(1)** 12 × 6.0 × 10²³
+- **(1)** 7.2 × 10²⁴
 
 ### 3(c) [4]
 
@@ -780,7 +780,9 @@ Explain what is meant by the term isomers.
 
 ### 8(a)(ii) [2]
 
-The displayed formula of one of the isomers of the alkene is shown. H H H H H C C C C H H H Draw displayed formulae for two other alkene isomers with the molecular formula C4H8 alkene isomer 1 alkene isomer 2
+The displayed formula of one of the isomers of the alkene is shown. Draw displayed formulae for two other alkene isomers with the molecular formula C4H8 alkene isomer 1 alkene isomer 2
+
+![displayed formula of one alkene isomer (but-1-ene) — official paper figure (qp.pdf p.16)](assets/asset_8_a_ii_isomer.png)
 
 
 **Mark scheme answer**

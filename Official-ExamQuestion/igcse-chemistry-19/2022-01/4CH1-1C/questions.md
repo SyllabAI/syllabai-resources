@@ -79,7 +79,6 @@ Determine the number of atoms in a molecule of C3H5N3O9
 **Mark scheme answer**
 
 > 20
-> Total for question = 7 marks
 
 - **(1)** 20
 
@@ -184,7 +183,6 @@ Give two other methods used to prevent iron from rusting. 1 2
 > chromium plating
 > sacrificial protection
 > cathodic protection
-> Total for question = 9 marks
 
 - **(2)** Any two from:
 
@@ -266,7 +264,6 @@ Concentrated ammonia solution and concentrated hydrochloric acid are corrosive. 
 > apron / lab coat
 > ALLOW put a bung /
 > cork in both ends
-> Total for question = 7 marks
 
 - **(1)** eye protection / wear safety glasses / goggles
 
@@ -372,7 +369,6 @@ Suggest one reason why the calculated percentage of oxygen in the mixture may no
 > temperature)
 > IGNORE not all oxygen
 > reacted
-> Total for question = 8 marks
 
 - **(1)** Any one from:
 
@@ -448,22 +444,22 @@ A sample of magnesium contains these percentages of the three isotopes. Mg‑24 
 
 ### 5(b)(iv) [2]
 
-One mole of magnesium has a mass of 24.32 g. There are 6.022 × 1023 atoms in one mole. Calculate the mass, in grams, of one atom of magnesium. Give your answer to 4 significant figures. mass = g
+One mole of magnesium has a mass of 24.32 g. There are 6.022 × 10²³ atoms in one mole. Calculate the mass, in grams, of one atom of magnesium. Give your answer to 4 significant figures. mass = g
 
 
 **Mark scheme answer**
 
-> M1 24.32÷(6.022×1023)
-> M2 4.039 × 10-23 ALLOW ecf from M1 as
+> M1 24.32÷(6.022× 10²³)
+> M2 4.039 × 10⁻²³ ALLOW ecf from M1 as
 > long as answer is given
 > to 4 sig figs
 > Correct answer of 4.039
-> × 10-23 g to 4 sig sigs
+> × 10⁻²³ g to 4 sig sigs
 > scores 2 with or without
 > working
 
-- **(1)** 24.32÷(6.022×1023)
-- **(1)** 4.039 × 10-23 ALLOW ecf from M1 as
+- **(1)** 24.32÷(6.022× 10²³)
+- **(1)** 4.039 × 10⁻²³ ALLOW ecf from M1 as
 
 ### 5(c) [1]
 
@@ -473,7 +469,6 @@ The equation for the reaction between magnesium and oxygen is 2Mg + O2 → 2MgO 
 **Mark scheme answer**
 
 > (moles of MgO) = 0.40
-> Total for question = 11
 
 - **(1)** (moles of MgO) = 0.40
 
@@ -553,7 +548,6 @@ When sodium oxide is heated it reacts to form sodium metal and sodium peroxide, 
 **Mark scheme answer**
 
 > 2Na2O → 2Na + Na2O2
-> Total for question = 9 marks
 
 - **(1)** 2Na2O → 2Na + Na2O2
 
@@ -661,7 +655,6 @@ Give an advantage of mixing solutions containing equal amounts, in moles, of sil
 > were in excess, it would
 > contaminate the sodium
 > nitrate OWTTE
-> Total for question = 8 marks
 
 - **(1)** any one from:
 
@@ -775,13 +768,16 @@ The relative formula mass (Mr ) of G is 127 Determine the molecular formula of G
 > M2 Molecular formula = C4H8Cl2
 > Answer of C4H8Cl2
 > without working scores
+> 2
 
 - **(1)** 127÷63.5=2
 - **(1)** Molecular formula = C4H8Cl2
 
 ### 8(d)(i) [2]
 
-Complete the equation to show part of the polymer formed from two molecules of compound E. H H H 2 C C C H C C C C H H
+Complete the equation to show part of the polymer formed from two molecules of compound E.
+
+![equation to complete: 2 molecules of compound E -> polymer chain — official paper figure (qp.pdf p.22)](assets/asset_8_d_i_equation.png)
 
 
 **Mark scheme answer**
@@ -805,7 +801,6 @@ Give one problem caused by the disposal of addition polymers.
 > Any one from:
 > landfill sites are getting full
 > toxic / greenhouse gases are produced when burned
-> Total for question = 15 marks
 
 - **(1)** Any one from:
 
@@ -952,7 +947,6 @@ Explain why changing the concentration of hydrochloric acid has an effect on the
 > frequency of collisions
 > REJECT increased /
 > changed energy / speed
-> Total for question = 15 marks
 
 - **(1)** change in number of particles (per unit volume) ALLOW particles are
 - **(1)** change in collisions per unit time ALLOW change in
@@ -1035,7 +1029,6 @@ Graphite and C60 fullerene contain covalent bonds, but have different structures
 > Mention of breaking
 > covalent bonds in C60 no
 > M4 or M5
-> Total for question = 9 marks
 
 - **(4)** Any four from:
 
@@ -1102,7 +1095,6 @@ The equation for the decomposition of hydrated zinc sulfate is ZnSO4·7H2O(s) �
 > Correct answer of 5.6
 > cm3 to 1dp with or
 > without working scores
-> 5 marks
 
 - **(1)** mass of hydrated zinc sulfate = 54.46-41.64 OR
 - **(1)** Moles of hydrated zinc sulfate = 12.82÷287 OR ALLOW M1÷287
@@ -1147,7 +1139,6 @@ Explain an improvement to the apparatus that would increase the percentage yield
 > condenses
 > ALLOW less water
 > evaporates
-> Total for question = 12
 
 - **(2)** M1 stand the measuring cylinder in a beaker of ice ALLOW any way of
 

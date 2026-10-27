@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T21:35:41Z",
+ "generated_utc": "2026-10-27T20:27:49Z",
  "series": "2023-01",
  "paper": "2CR",
  "gates": [
@@ -43,15 +43,16 @@
   {
    "gate": "G3-mcq-integrity",
    "status": "PASS",
-   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "summary": "2 MCQ parts; all have printed A–D and MS-keyed answer: True; 0 drawing-option MCQ candidates (census, F94)",
    "details": {
-    "issues": []
+    "issues": [],
+    "drawing_option_mcq_candidates": []
    }
   },
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "3 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 0 remain crop-required; 1 parts without page anchor",
+   "summary": "3 asset records cover every table/diagram/grid/apparatus mention: 3 cropped to assets/*.png (150 dpi), 0 remain crop-required; 1 parts without page anchor; 0 drawing-linearization gaps (census, F96)",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
@@ -59,7 +60,8 @@
      "crops": 3,
      "pending": 0,
      "shared": 0
-    }
+    },
+    "drawing_gaps": []
    }
   },
   {
@@ -84,13 +86,14 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 40/40 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 38 parts, agrees with QP marks on 38",
+   "summary": "solution_md on 40/40 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 38 parts, agrees with QP marks on 38; 0 mark-point answer gaps (census, F95)",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
     "ms_marks_seen": 38,
     "ms_marks_agree": 38,
-    "ms_marks_disagree": []
+    "ms_marks_disagree": [],
+    "mp_answer_gap": []
    }
   }
  ],

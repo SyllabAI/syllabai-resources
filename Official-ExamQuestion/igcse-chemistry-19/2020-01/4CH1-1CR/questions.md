@@ -550,6 +550,7 @@ Calculate the heat energy change, in joules, for the reaction. [mass of 1.00 cm3
 
 > M1 Temperature rise = 36.1(°C) Correct answer with or
 > without working scores
+> 2
 > M2 15 162J ALLOW ecf from M1
 > ALLOW 2 or more
 > significant figures
@@ -907,7 +908,9 @@ State the type of polymerisation used to form poly(ethene).
 
 ### 9(b)(ii) [2]
 
-Complete the equation for the polymerisation of ethene. H H n C C C C H H
+Complete the equation for the polymerisation of ethene.
+
+![equation to complete: n ethene -> polymer repeat-unit bracket — official paper figure (qp.pdf p.26)](assets/asset_9_b_ii_equation.png)
 
 
 **Mark scheme answer**
@@ -1162,7 +1165,7 @@ State why carbon monoxide should not be released into the atmosphere.
 
 ### 11(c)(iii) [4]
 
-Calculate the maximum mass, in tonnes, of iron that can be produced when 30.0 tonnes of iron(III) oxide are reacted with an excess of carbon. [1 tonne = 1.0 × 106 g] mass = tonnes
+Calculate the maximum mass, in tonnes, of iron that can be produced when 30.0 tonnes of iron(III) oxide are reacted with an excess of carbon. [1 tonne = 1.0 × 10⁶ g] mass = tonnes
 
 
 **Mark scheme answer**

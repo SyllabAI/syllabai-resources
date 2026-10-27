@@ -693,6 +693,7 @@ The equation for the thermal decomposition of potassium hydrogencarbonate is 2KH
 > M2 amount KHCO3 = 2.50 = 0.025 (mol)
 > 100
 > M3 amount K2CO3 = 0.025 = 0.0125 (mol)
+> 2
 > M4 mass K2CO3 (= 0.0125 x 138) = 1.725 (g) ALLOW 2 or more SF
 > M2 M3 M4 ECF M1
 > correct answer with
@@ -908,7 +909,6 @@ Describe tests the student could do to show that the mixture contains potassium 
 > M7 yellow ppt/solid
 > M7 DEP on mention of
 > silver nitrate
-> Question number Answer Notes Marks
 
 - **(6)** Description including six of following points
 

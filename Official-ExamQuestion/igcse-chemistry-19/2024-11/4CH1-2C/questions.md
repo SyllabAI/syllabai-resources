@@ -69,9 +69,9 @@ A proton has a mass of 1.6726 × 10–24 g. A neutron has a mass of 1.6740 × 10
 
 **Mark scheme answer**
 
-> M1 (3×1.6726×10-24)+(4×1.6740×10-24) 1.17138×10-23 without
+> M1 (3×1.6726× 10⁻²⁴)+(4×1.6740× 10⁻²⁴) 1.17138× 10⁻²³ without
 > working scores 2
-> M2 1.1714×10-23
+> M2 1.1714× 10⁻²³
 > answer must be in
 > correct standard form
 > ALLOW any number of
@@ -84,8 +84,8 @@ A proton has a mass of 1.6726 × 10–24 g. A neutron has a mass of 1.6740 × 10
 > mark for 3.3466 x 10-24
 > 1.00398 x 10-23
 
-- **(1)** (3×1.6726×10-24)+(4×1.6740×10-24) 1.17138×10-23 without
-- **(1)** 1.1714×10-23
+- **(1)** (3×1.6726× 10⁻²⁴)+(4×1.6740× 10⁻²⁴) 1.17138× 10⁻²³ without
+- **(1)** 1.1714× 10⁻²³
 
 
 ## Question 2 (8 marks)

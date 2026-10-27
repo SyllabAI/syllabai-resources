@@ -420,7 +420,9 @@ State the term used for compounds with the same molecular formula but different 
 
 ### 5(c)(i) [2]
 
-Complete the equation for this polymerisation reaction. H CH3 nC C → H H
+Complete the equation for this polymerisation reaction.
+
+![equation to complete: n propene -> poly(propene) — official paper figure (qp.pdf p.11)](assets/asset_5_c_i_equation.png)
 
 
 **Mark scheme answer**
@@ -1006,6 +1008,7 @@ Show that the maximum mass of lead(II) chloride that can be made from 0.0370 mol
 > • evaluation to show that the value is about 5 g
 > Example calculation
 > M1 n(PbCl2) = 0.0370 OR 0.0185 (mol)
+> 2
 > M2 mass of PbCl2 = 0.0185 x 278 (g) MAX 1 for 0.0370 x 278
 > if no division by 2 in M1
 > M3 5.143 (g)

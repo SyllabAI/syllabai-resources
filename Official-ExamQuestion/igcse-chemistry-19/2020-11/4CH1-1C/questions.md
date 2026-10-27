@@ -111,7 +111,6 @@ Which of these is the least reactive element in Group 1?
 > reactive element in Group 1
 > D is not correct because sodium is not the least
 > reactive element in Group 1
-> Total for Q1 = 7 marks
 
 - **(1)** Answer B: lithium
 
@@ -158,7 +157,6 @@ A student has two solids, X and Y. One of these solids is a pure substance and t
 > freezing point as
 > opposed to
 > melting point
-> Total for Q2 = 6 marks
 
 - **(1)** measure the melting point ALLOW measure
 - **(1)** if fixed/sharp melting point the substance is pure M1 and
@@ -274,7 +272,6 @@ Explain which substance is the oxidising agent.
 > mark for M2
 > IGNORE references to
 > electrons
-> Total for Q3 = 8 marks
 > - -
 
 - **(1)** copper(II) oxide/CuO
@@ -432,7 +429,6 @@ Calculate the mass, in grams, of nitrogen in 1.0 kg of ammonium sulfate. mass = 
 > working
 > ALLOW any number
 > of sig figs except 1
-> Total for Q4 = 10
 
 - **(3)** Example calculation mark CQ from (i)
 
@@ -677,7 +673,6 @@ Draw the structure of this polymer. Include the displayed formula of the repeat 
 > M1 correct repeat unit Ignore bond angles
 > ALLOW use of CH3
 > M2 brackets and n and extension bonds M2 DEP M1
-> Total for Q6 = 14
 
 - **(1)** correct repeat unit Ignore bond angles
 - **(1)** brackets and n and extension bonds M2 DEP M1
@@ -1251,7 +1246,6 @@ A student is given a sample of solid red lead oxide and some dilute nitric acid.
 > not just dry the crystals
 > No M8 if crystals are
 > washed after drying
-> Total for Q10 = 13 marks
 
 - **(6)** description that makes reference to the following
 

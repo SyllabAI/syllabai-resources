@@ -40,7 +40,6 @@ Particles in a solid are closely packed, arranged in a regular pattern and vibra
 > M3 random movement / move freely
 > M4 move (very) quickly IGNORE references to
 > kinetic energy
-> 6 marks
 
 - **(3)** A description that refers to any three of the
 
@@ -142,7 +141,6 @@ Suggest how the melting point of a pure substance changes when an impurity is ad
 > the (impure) substance will melt over a range of ALLOW the (impure)
 > temperatures substance will have a
 > lower melting point
-> 5 marks
 
 - **(1)** the (impure) substance will melt over a range of ALLOW the (impure)
 
@@ -226,7 +224,6 @@ Complete the chemical equation for the reaction between lead nitrate and potassi
 > Pb(NO3)2(aq) + 2KI(aq) → PbI2(s) +
 > fractions
 > 2KNO3(aq)
-> 7 marks
 
 - **(1)** ALLOW multiples and
 
@@ -300,7 +297,6 @@ Some car manufacturers use paint containing tiny particles of zinc. Explain how 
 > /before iron zinc rusting
 > IGNORE references to
 > galvanising
-> 7 marks
 
 - **(1)** zinc is more reactive/higher in the reactivity ALLOW zinc is a
 - **(1)** zinc will oxidise / react / corrode instead of IGNORE references to
@@ -375,8 +371,8 @@ A different chromatography experiment is set up. A spot of food colouring is pla
 > Example calculation Correct answer of 86 or
 > 86.4 (mm) with or
 > M1 120 × 0.72 without working scores
+> 2
 > M2 86 / 86.4 (mm)
-> 10 marks
 
 - **(1)** 120 × 0.72 without working scores
 - **(1)** 86 / 86.4 (mm)
@@ -443,7 +439,6 @@ A student has four unlabelled beakers, each containing a colourless solution of 
 > with potassium iodide
 > If this alternative given no
 > M5
-> 9 marks
 
 - **(6)** A description that refers to any six of the following
 
@@ -548,7 +543,6 @@ Give a reason why the scientist does the experiment in a polystyrene cup.
 
 > polystyrene is a good insulator /poor conductor (of ALLOW prevent heat loss
 > heat) OR to minimise/reduce heat loss
-> 13 marks
 
 - **(1)** polystyrene is a good insulator /poor conductor (of ALLOW prevent heat loss
 
@@ -679,7 +673,6 @@ The ionic equation for the reaction between bromine and sodium iodide is Br2(aq)
 > -
 > loses electrons so is
 > oxidised
-> 12 marks
 
 - **(2)** M1 bromine is reduced and iodide (ions)/I- is
 
@@ -795,7 +788,6 @@ Give the name of this type of reaction.
 **Mark scheme answer**
 
 > substitution
-> 12 marks
 
 - **(1)** substitution
 
@@ -918,7 +910,6 @@ The equation for the complete combustion of one mole of an alkane can be represe
 > M3 balancing number = 11 or Z = 11 ALLOW ecf from
 > incorrect values of X and
 > Y
-> 14 marks
 
 - **(1)** moles of CO2 = 7 or X = 7
 - **(1)** moles of H2O = 8 or Y = 8
@@ -972,6 +963,7 @@ Calculate the mean (average) rate of reaction, in cm3 / s, in the first 120 s. m
 > M2 2.33 ALLOW ecf from M1
 > ALLOW any number of
 > significant figures except
+> 1
 
 - **(1)** 280 ÷ 120
 - **(1)** 2.33 ALLOW ecf from M1
@@ -1001,7 +993,7 @@ The equation for the reaction between zinc and hydrochloric acid is Zn(s) + 2HCl
 
 ### 11(b)(iii) [2]
 
-The student repeats the experiment at a higher temperature but keeps all other conditions the same. On the grid, draw the curve you would expect to see in this experiment. Question continues on next page
+The student repeats the experiment at a higher temperature but keeps all other conditions the same. On the grid, draw the curve you would expect to see in this experiment.
 
 ![grid — official paper figure (qp.pdf p.34) — shared with asset_11_b_grid_stem](assets/asset_11_b_grid_stem.png)
 
@@ -1030,21 +1022,20 @@ Explain why the rate of reaction is greater if the same mass of zinc powder is u
 
 ### 11(c) [2]
 
-In another experiment, the student adds 0.55 g of zinc to a solution containing 2.50 × 10−2 moles of hydrochloric acid. Use the equation to show that hydrochloric acid is in excess. Zn(s) + 2HCl(aq) → ZnCl2(aq) + H2(g) [Ar of Zn = 65]
+In another experiment, the student adds 0.55 g of zinc to a solution containing 2.50 × 10⁻² moles of hydrochloric acid. Use the equation to show that hydrochloric acid is in excess. Zn(s) + 2HCl(aq) → ZnCl2(aq) + H2(g) [Ar of Zn = 65]
 
 
 **Mark scheme answer**
 
-> M1 8.46 × 10-3 mol of zinc ALLOW any number of
+> M1 8.46 × 10⁻³ mol of zinc ALLOW any number of
 > sig figs including one e.g.
-> M2 therefore 1.69 × 10-2 mol hydrochloric acid 0.008 moles of zinc,
-> needed (which is less than 2.50 × 10-2 mol) therefore 0.016 moles of
+> M2 therefore 1.69 × 10⁻² mol hydrochloric acid 0.008 moles of zinc,
+> needed (which is less than 2.50 × 10⁻² mol) therefore 0.016 moles of
 > acid needed scores M1
 > OR and M2
-> M1 1.25 × 10-2 mol of zinc are needed
+> M1 1.25 × 10⁻² mol of zinc are needed
 > M2 therefore 0.8(13) g of zinc is needed (and there
 > is only 0.55g)
-> 15 marks
 
-- **(2)** M1 8.46 × 10-3 mol of zinc ALLOW any number of
+- **(2)** M1 8.46 × 10⁻³ mol of zinc ALLOW any number of
 

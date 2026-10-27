@@ -105,7 +105,7 @@ These are the student’s results. mass of empty evaporating basin = 60.5 g mass
 
 ## Question 3 (9 marks)
 
-When 10.0 kg of a solid fuel is burned, the heat energy produced is 3.28 × 105 kJ.
+When 10.0 kg of a solid fuel is burned, the heat energy produced is 3.28 × 10⁵ kJ.
 
 **(b)** The fuel actually contains some impurities, including sulfur. There is 600 g of sulfur in 20 kg of fuel.
 
@@ -117,17 +117,17 @@ Calculate the heat energy, in kJ/mol, produced by the fuel. You should assume th
 **Mark scheme answer**
 
 > M1 calculating heat energy in kJ/g
-> = (3.28 × 105 ÷ 10 000) OR 32.8
+> = (3.28 × 10⁵ ÷ 10 000) OR 32.8
 > M2 calculating heat energy in kJ/mol
 > = (M1 × 12) OR 393.6
-> M3 = 394 OR 3.94 × 102 kJ/mol IGNORE sign
+> M3 = 394 OR 3.94 × 10² kJ/mol IGNORE sign
 > M3 subsumes M2
 > OR
 > M1 calculating amount of carbon
 > = 10 000 ÷ 12 OR 833.3
 > M2 calculating heat energy in kJ/mol
-> = (3.28 × 105 ÷ M1) OR 393.6
-> M3 = 394 OR 3.94 × 102 kJ/mol IGNORE sign
+> = (3.28 × 10⁵ ÷ M1) OR 393.6
+> M3 = 394 OR 3.94 × 10² kJ/mol IGNORE sign
 > M3 subsumes M2
 > correct answer with no working
 > scores 3
@@ -161,14 +161,14 @@ When the fuel burns, the 600 g of sulfur produces sulfur dioxide gas. S + O2 →
 
 > M1 mol of sulfur = 600 ÷ 32 OR 18.75
 > M2 vol SO2 = M1 × 24 OR 450 (dm3) ALLOW ECF from incorrect Ar in M1
-> M3 = 450 000 OR 4.5 × 105 (cm3) ALLOW ECF M2 (dm 3) × 1000
+> M3 = 450 000 OR 4.5 × 10⁵ (cm3) ALLOW ECF M2 (dm 3) × 1000
 > M3 subsumes M2
 > correct answer with no working
 > scores 3
 
 - **(1)** mol of sulfur = 600 ÷ 32 OR 18.75
 - **(1)** vol SO2 = M1 × 24 OR 450 (dm3) ALLOW ECF from incorrect Ar in M1
-- **(1)** = 450 000 OR 4.5 × 105 (cm3) ALLOW ECF M2 (dm 3) × 1000
+- **(1)** = 450 000 OR 4.5 × 10⁵ (cm3) ALLOW ECF M2 (dm 3) × 1000
 
 ### 3(b)(iii) [1]
 
@@ -602,10 +602,10 @@ Calculate the amount, in moles, of NaOH that reacts. amount of NaOH = mol
 
 **Mark scheme answer**
 
-> moles of NaOH = (0.350 × 18.80) = 0.00658 ACCEPT 6.58 × 10−3
+> moles of NaOH = (0.350 × 18.80) = 0.00658 ACCEPT 6.58 × 10⁻³
 > (1000)
 
-- **(1)** moles of NaOH = (0.350 × 18.80) = 0.00658 ACCEPT 6.58 × 10−3
+- **(1)** moles of NaOH = (0.350 × 18.80) = 0.00658 ACCEPT 6.58 × 10⁻³
 
 ### 7(d)(ii) [1]
 

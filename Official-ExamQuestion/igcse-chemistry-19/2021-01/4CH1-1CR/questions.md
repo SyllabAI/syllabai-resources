@@ -742,7 +742,9 @@ Name the type of polymerisation that occurs in the formation of the polymer.
 
 ### 8(b)(iii) [2]
 
-Complete the equation for the polymerisation reaction. H CH3 n C C H COOCH3
+Complete the equation for the polymerisation reaction.
+
+![equation to complete: n methyl methacrylate -> polymer — official paper figure (qp.pdf p.23)](assets/asset_8_b_iii_equation.png)
 
 
 **Mark scheme answer**
@@ -896,7 +898,6 @@ Explain a change to the method that would improve the accuracy of the experiment
 > hydroxide and
 > temperature of
 > (hydrochloric) acid for 2
-> marks
 
 - **(2)** explanation linking either
 

@@ -641,6 +641,53 @@ for c in cans:
                                     ok = False
                                     print(f"  ! {d.name}/{pd.name} {p['part_number']}: MS furniture survived at {m.group(0)[:50]!r}")
             print(f"  (solution/mark-point blocks scanned: {n})")
+        elif chk == "no_grid_furniture_lines":
+            # C110 (v0.28.0/F108): the F88 MS-GRID furniture universe at source —
+            # the families the serve-time strip had been silently removing
+            # (LEDGER F88: 151 solution + 84 mark-point blocks): MS-table header
+            # rows (any line whose alpha tokens are all furniture words, >=2 of
+            # them — 'Question Answer Notes Marks', 'Answer Additional guidance
+            # Marks') and bare Total-family lines. Deliberately NOT matched:
+            # single-token and bare 'N marks' lines — the wrap-ambiguous class
+            # F88 disclosed and kept ('0 marks if no answer given' is note
+            # content; 'except 1' wraps). Trailing-position furniture is caught
+            # by the end-strip port; this census guards the MID-TEXT classes.
+            import re as _reg
+            words = {"question", "number", "answer", "notes", "marks",
+                     "additional", "guidance", "total", "for"}
+            def _grid_furniture(line):
+                toks = [t for t in _re.split(r"[^A-Za-z]+", line) if t]
+                return len(toks) >= 2 and all(t.lower().lstrip("0123456789") in words for t in toks)
+            ok = True
+            n = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            n += 1
+                            texts = [p.get("solution_md") or ""] + [
+                                m.get("text_md") or "" for m in (p.get("mark_points") or [])]
+                            for txt in texts:
+                                for ln in txt.splitlines():
+                                    if _grid_furniture(ln):
+                                        ok = False
+                                        print(f"  ! {d.name}/{pd.name} {p['part_number']}: grid furniture survived {ln[:50]!r}")
+            print(f"  (solution/mark-point blocks scanned: {n})")
+        elif chk == "part_solution_md_contains":
+            # C111 (v0.29.0/F108): the Finding-5 MS answer-grid reconstruction
+            # pins — the two match-description parts whose printed grids
+            # linearized into scrambled text must serve the reconstructed
+            # two-column tables (verbatim tokens, rows reassembled).
+            t = json.loads((BASE / series / f"{PAPER_PREFIX}-{c.get('paper', '1C')}" / "topic.json").read_text())
+            got = [p for q in t["questions"] for p in q["parts"] if p["part_number"] == c["part"]]
+            text = (got[0].get("solution_md") or "") if got else ""
+            needles = c.get("contains_all") or ([c["substring"]] if c.get("substring") else [])
+            ok = bool(text) and all(nd in text for nd in needles)
+            if not ok:
+                print(f"  ! {series} {c['part']}: solution_md missing one of {needles!r} (got {text[:80]!r})")
         elif chk == "no_flat_exponent_forms":
             # C95 (v0.21.1/F89): no served string carries a flattened standard-form
             # exponent ("× 1023" for 10²³) — the restore pass normalizes at source.

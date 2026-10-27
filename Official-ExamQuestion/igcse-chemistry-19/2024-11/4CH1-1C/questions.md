@@ -887,7 +887,9 @@ Draw the displayed formula of another alkene that is an isomer of these two alke
 
 ### 10(c) [3]
 
-The reaction used to make poly(ethene) can be represented by this equation. ( ( H H H H n C C C C H H H H n Describe the differences between the reactant and the product in this reaction. Refer to carbon chain length, type of bond and state of matter in your answer.
+The reaction used to make poly(ethene) can be represented by this equation. Describe the differences between the reactant and the product in this reaction. Refer to carbon chain length, type of bond and state of matter in your answer.
+
+![poly(ethene) equation: n ethene -> repeat unit — official paper figure (qp.pdf p.29)](assets/asset_10_c_equation.png)
 
 
 **Mark scheme answer**
@@ -948,7 +950,7 @@ Give a reason why sulfur dioxide should not be released into the atmosphere.
 
 ### 11(a)(iii) [3]
 
-This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of lead(II) oxide is heated in a furnace with an excess of carbon. Calculate the maximum mass, in tonnes, of carbon dioxide that could be released into the atmosphere. [1 tonne = 1 × 106 g] [for PbO, Mr = 223 for CO2 , Mr = 44] mass = tonnes
+This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of lead(II) oxide is heated in a furnace with an excess of carbon. Calculate the maximum mass, in tonnes, of carbon dioxide that could be released into the atmosphere. [1 tonne = 1 × 10⁶ g] [for PbO, Mr = 223 for CO2 , Mr = 44] mass = tonnes
 
 
 **Mark scheme answer**
@@ -958,13 +960,12 @@ This is the equation for stage 2. 2PbO + C → 2Pb + CO2 A mass of 892 tonnes of
 > throughout
 > M2 (moles of carbon dioxide) = 2 000 000 ALLOW M1÷2
 > M3(mass of carbon dioxide) = 88 (tonnes) 88 (tonnes) scores 3
-> marks
 
 - **(3)** M1 (moles lead(II) oxide) = 892 000 000 ÷ 223 OR ALLOW calculations
 
 ### 11(a)(iv) [5]
 
-The diagram shows the structures of lead(II) sulfide and sulfur dioxide. Lead(II) sulfide Sulfur dioxide Explain, in terms of bonding and structure, why lead(II) sulfide is a solid with a very high melting point at room temperature and why sulfur dioxide is a gas at room temperature. lead(II) sulfide sulfur dioxide QUESTION 11 CONTINUES ON NEXT / BACK PAGE.
+The diagram shows the structures of lead(II) sulfide and sulfur dioxide. Lead(II) sulfide Sulfur dioxide Explain, in terms of bonding and structure, why lead(II) sulfide is a solid with a very high melting point at room temperature and why sulfur dioxide is a gas at room temperature. lead(II) sulfide sulfur dioxide
 
 ![diagram — official paper figure (qp.pdf p.31)](assets/asset_11_a_iv_diagram.png)
 

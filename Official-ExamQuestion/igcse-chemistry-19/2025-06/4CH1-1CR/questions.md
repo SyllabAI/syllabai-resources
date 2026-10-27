@@ -296,7 +296,6 @@ A sample of magnesium contains 79.0% of 24Mg, 10.0% of 25Mg and 11.0% of 26Mg. C
 > M3 24.3 ALLOW ecf from
 > M2 to 1dp
 > 24.3 scores 3
-> marks
 
 - **(1)** ((79×24)+(10×25)+(26×11))÷100
 - **(1)** 24.32
@@ -806,7 +805,9 @@ Explain what is meant by the term isomers.
 
 ### 9(d)(ii) [2]
 
-This is the displayed formula of one of the isomers. H H H H H H C C C C C H H H H H H Draw the displayed formula of each of the other two isomers.
+This is the displayed formula of one of the isomers. Draw the displayed formula of each of the other two isomers.
+
+![displayed formula of one isomer (pentane) — official paper figure (qp.pdf p.21)](assets/asset_9_d_ii_isomer.png)
 
 
 **Mark scheme answer**
@@ -891,6 +892,7 @@ The table shows the student’s results. volume of copper(II) sulfate solution i
 > M2 25×4.2×30.1 ALLOW ecf from M1
 > M3 3160.5(J) ALLOW any number of
 > significant figures from
+> 2
 
 - **(1)** ΔT = 30.1(°C)
 - **(1)** 25×4.2×30.1 ALLOW ecf from M1

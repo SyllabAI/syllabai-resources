@@ -64,7 +64,6 @@ State what is meant by the term mass number.
 
 > (the sum of) the number of protons and neutrons (in ALLOW amount of
 > the nucleus) protons and neutrons
-> total for question = 5
 
 - **(1)** (the sum of) the number of protons and neutrons (in ALLOW amount of
 
@@ -138,7 +137,6 @@ The equation shows the reaction of methane with bromine. CH4 + Br2 → CH3Br + H
 **Mark scheme answer**
 
 > substitution ALLOW redox (reaction)
-> total for question = 6
 
 - **(1)** substitution ALLOW redox (reaction)
 
@@ -229,7 +227,6 @@ Magnalium is a mixture of magnesium atoms and aluminium atoms. The diagram shows
 > as long as a percentage
 > sum and correctly
 > rounded.
-> total for question = 8
 
 - **(1)** (3 ÷ 18) × 100
 - **(1)** 16.7% ALLOW ecf from M1
@@ -288,7 +285,7 @@ State, with reference to the electronic configurations of atoms, why these eleme
 
 ### 4(c)(ii) [1]
 
-The table shows the atomic radius of a lithium atom, a sodium atom and a potassium atom. Atom Atomic radius in cm lithium 1.82 × 10−12 sodium 2.27 × 10−12 potassium 2.80 × 10−12 Deduce the relationship between the atomic radius and the reactivity of the metals.
+The table shows the atomic radius of a lithium atom, a sodium atom and a potassium atom. Atom Atomic radius in cm lithium 1.82 × 10⁻¹² sodium 2.27 × 10⁻¹² potassium 2.80 × 10⁻¹² Deduce the relationship between the atomic radius and the reactivity of the metals.
 
 ![table — official paper figure (qp.pdf p.11)](assets/asset_4_c_ii_table.png)
 
@@ -297,7 +294,6 @@ The table shows the atomic radius of a lithium atom, a sodium atom and a potassi
 
 > as the atomic radius increases they get more
 > reactive OWTTE
-> total for question = 6
 
 - **(1)** as the atomic radius increases they get more
 
@@ -381,7 +377,6 @@ Calculate the Rf value of the dye in food colouring W. Rf =
 > sig figs as long as it is
 > correctly rounded.
 > ALLOW ECF from M1
-> total for question = 7
 
 - **(1)** distance moved by the dye from 1.1 to 1.4 (cm)
 - **(1)** distance moved by the dye ÷ distance moved by e.g. 0.17 / 0.18 / 0.2(0)
@@ -471,7 +466,6 @@ In this experiment, the calculated value of ΔH is less than the value given in 
 > heat absorbed by the metal can
 > incomplete combustion
 > heat lost to the surroundings ALLOW heat loss
-> total for question = 11
 
 - **(1)** any one from
 
@@ -576,7 +570,6 @@ Explain the shape of the graph in these regions. from 0 s to 60 s from 60 s to 1
 > M5 the reaction has stopped / curve levels ALLOW the volume of
 > off/becomes flat/plateaus gas becomes constant
 > M6 because the (sulfuric) acid has been used up
-> total for question = 13
 
 - **(1)** gradient is steepest
 - **(1)** because there are most acid particles (per unit ACCEPT because
@@ -649,7 +642,6 @@ Fuels obtained from crude oil may contain impurities. Explain how an impurity fo
 > rain
 > M3 dep on M1 or M2 or
 > NO2 or SO3
-> total for question = 11
 
 - **(1)** fuels contain sulfur IGNORE C / CO / CO2
 - **(1)** which burns producing sulfur dioxide
@@ -762,7 +754,6 @@ Explain why magnesium chloride has a much higher melting point than hydrogen chl
 > M5 (much) more energy is required to break the REJECT any reference
 > (ionic) bonds in MgCl2 than to overcome the to breaking covalent
 > (intermolecular) forces in HCl bonds in HCl or MgCl2
-> total for question = 14
 
 - **(1)** hydrogen chloride is simple molecular / simple ALLOW molecular
 - **(1)** magnesium chloride is giant ionic / ionic lattice ALLOW giant structure
@@ -813,7 +804,6 @@ The student waits until the hydrogen peroxide solution completely decomposes. De
 > M2 allow it to dry
 > M3 reweigh the catalyst, the same mass should be
 > left / mass is still 1 g
-> total for question = 6
 
 - **(1)** filter out the manganese(IV) oxide
 - **(1)** allow it to dry
@@ -895,7 +885,7 @@ Explain why diamond is hard but graphite is soft.
 
 ### 11(d) [3]
 
-Another form of carbon has molecules with the formula Cx x represents the number of carbon atoms in each molecule. Each molecule of Cx has a mass of 1.40 × 10−21 g. One mole of Cx contains 6.02 × 1023 molecules. Calculate the Mr of Cx and the value of x [for carbon, Ar = 12] Mr = x =
+Another form of carbon has molecules with the formula Cx x represents the number of carbon atoms in each molecule. Each molecule of Cx has a mass of 1.40 × 10⁻²¹ g. One mole of Cx contains 6.02 × 10²³ molecules. Calculate the Mr of Cx and the value of x [for carbon, Ar = 12] Mr = x =
 
 
 **Mark scheme answer**
@@ -904,13 +894,12 @@ Another form of carbon has molecules with the formula Cx x represents the number
 > M2 Mr ÷ 12
 > M3 answer given as an integer
 > exemplar
-> M1 1.40 × 10−21 × 6.02 × 1023 OR 842.8 ALLOW any number of
+> M1 1.40 × 10⁻²¹ × 6.02 × 10²³ OR 842.8 ALLOW any number of
 > significant figures from
 > M2 842.8 ÷ 12 (= 70.23) ALLOW ECF if division
 > by atomic number 6
 > M3 70 Answer of 70 without
 > working scores 3
-> total for question = 12
 
 - **(3)** M1 calculation Mr of Cx
 
@@ -952,7 +941,7 @@ State how the data in the table shows that the reaction is complete.
 
 ### 12(b)(ii) [3]
 
-Use the data to show that the formula of tantalum chloride is TaCl5 [for tantalum, Ar = 181 for chlorine, Ar = 35.5] QUESTION 12 CONTINUES ON NEXT PAGE.
+Use the data to show that the formula of tantalum chloride is TaCl5 [for tantalum, Ar = 181 for chlorine, Ar = 35.5]
 
 
 **Mark scheme answer**
@@ -1034,7 +1023,6 @@ Calculate the maximum mass, in grams, of tantalum that can be obtained from 2000
 > scores 1
 > 4000 × 362 = 1 448 000
 > scores 1
-> total for question = 11
 
 - **(1)** (2 × 2000 =) 4000 moles of tantalum
 - **(1)** (4000 × 181=) 724 000 g of tantalum ALLOW ECF for incorrect

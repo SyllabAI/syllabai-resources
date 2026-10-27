@@ -719,7 +719,9 @@ Explain why cracking is a useful process. Refer to the products of the reaction 
 
 ### 8(c) [3]
 
-Complete the equation for the polymerisation of compound B. H H H n H C C C C H H H H
+Complete the equation for the polymerisation of compound B.
+
+![equation to complete: n but-2-ene -> polymer — official paper figure (qp.pdf p.19)](assets/asset_8_c_equation.png)
 
 
 **Mark scheme answer**
@@ -757,6 +759,7 @@ A sample of copper contains two isotopes. • Cu with relative abundance 62.5% �
 > scores M1
 > Answer of 64
 > without working scores
+> 0
 
 - **(1)** ((63 × 62.5) + (65 × 37.5)) ÷ 100
 - **(1)** 63.75 OR 63.8 NO ECF from M1
@@ -1010,7 +1013,7 @@ Explain, in terms of its structure, why graphite can act as a lubricant.
 
 ### 11(c) [5]
 
-Explain why diamond has a much higher boiling point than C60 fullerene. Refer to structure and bonding in your answer. QUESTION 11 CONTINUES ON BACK PAGE
+Explain why diamond has a much higher boiling point than C60 fullerene. Refer to structure and bonding in your answer.
 
 
 **Mark scheme answer**
@@ -1050,14 +1053,14 @@ Explain why diamond has a much higher boiling point than C60 fullerene. Refer to
 
 ### 11(d) [3]
 
-Calculate the mass, in g, of one molecule of C60 fullerene. Give your answer in standard form. [one mole contains 6.02 × 1023 particles] [for C Ar = 12] mass = g
+Calculate the mass, in g, of one molecule of C60 fullerene. Give your answer in standard form. [one mole contains 6.02 × 10²³ particles] [for C Ar = 12] mass = g
 
 
 **Mark scheme answer**
 
 > correct answer scores 3
 > M1 Mr of C60 = 720
-> M2 720 ÷ 6.02 × 1023 ECF from M1
+> M2 720 ÷ 6.02 × 10²³ ECF from M1
 > M3 mass of 1 molecule = 1.196 × 10–21(g) ECF from M2 for correct
 > calculation method and
 > answer in standard form
@@ -1065,6 +1068,6 @@ Calculate the mass, in g, of one molecule of C60 fullerene. Give your answer in 
 > SF except 1
 
 - **(1)** Mr of C60 = 720
-- **(1)** 720 ÷ 6.02 × 1023 ECF from M1
+- **(1)** 720 ÷ 6.02 × 10²³ ECF from M1
 - **(1)** mass of 1 molecule = 1.196 × 10–21(g) ECF from M2 for correct
 

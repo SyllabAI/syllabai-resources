@@ -482,6 +482,7 @@ A mass of 0.500 g of lithium reacts with an excess of water. Calculate the volum
 
 > M1 n(Li) = 0.500 OR 0.0714
 > M2 n(H2) = 0.0714 OR 0.0357 ALLOW ECF from M1
+> 2
 > M3 volume of H2 (= 0.0357 x 24000) = 857 (cm3) ALLOW ECF M2 x 24 000
 > M3 must be to 3 sig fig
 > Correct answer to 3 sig
@@ -713,6 +714,7 @@ When 4 mol of glucose is fermented, a mass of 55.2 g of ethanol is produced. Sho
 > 368
 > Alternative method:
 > M1 actual yield of ethanol in mol = 55.2 = 1.2
+> 46
 > M2 1.2 x 100 (=15%)
 
 - **(2)** M1 maximum mass of ethanol = 8 x 46 = 368 (g)

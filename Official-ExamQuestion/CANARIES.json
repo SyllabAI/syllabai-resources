@@ -1093,6 +1093,38 @@
    "assertion": "7(c)(i) links through the F47 MS-LINK-OVERRIDES ledger — the printed MS answer cell is a hand-annotated photograph of the QP displayed formula with the ester functional group circled; the pre-repair states must never return (the marks-digit leak '1' as the answer, or the hygiene-era honest-empty solution_md that left C13/C71 red on main; supersedes the C99 honest-empty class for this part)",
    "check": "part_linked",
    "part": "7(c)(i)"
+  },
+  {
+   "id": "C110-grid-furniture-free-at-source",
+   "series": "*",
+   "assertion": "F108 leg 1 (closes the F88 caveat): no MS-GRID furniture survives in any served solution_md or mark_points corpus-wide — header rows (>=2 furniture-word tokens, e.g. 'Question Answer Notes Marks' / 'Answer Additional guidance Marks') and bare Total-family lines. The converter strips these classes at source (the exporter's serve-time strip is the redundant second line of defense). Single-token and bare 'N marks' lines stay by design (wrap-ambiguous, F88).",
+   "check": "no_grid_furniture_lines"
+  },
+  {
+   "id": "C111-ms-answer-grid-reconstruction",
+   "series": "2021-06",
+   "paper": "1C",
+   "assertion": "F108 leg 2 (AUDIT-2026-10-27 Finding 5, the MS-box parser tranche): the 2021-06 1C 1(a) match-description answer grid serves as the reconstructed two-column table, not the scrambled linearization",
+   "check": "part_solution_md_contains",
+   "part": "1(a)",
+   "contains_all": [
+    "| Information | Substance formulae |",
+    "| a good conductor of electricity | copper |",
+    "| a non-metallic element that is a solid at room temperature | iodine |"
+   ]
+  },
+  {
+   "id": "C112-ms-answer-grid-reconstruction-2cr",
+   "series": "2023-06",
+   "paper": "1CR",
+   "assertion": "F108 leg 2: the 2023-06 1CR 4(a) match-description answer grid (the blank-separated-row geometry with interleaved right-cell wraps) serves as the reconstructed two-column table",
+   "check": "part_solution_md_contains",
+   "part": "4(a)",
+   "contains_all": [
+    "| Information | Gas |",
+    "| a toxic gas that is a product of incomplete combustion of hydrocarbons | carbon monoxide |",
+    "| a gas produced by the fractional distillation of crude oil | methane |"
+   ]
   }
  ]
 }

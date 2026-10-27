@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T21:36:03Z",
+ "generated_utc": "2026-10-27T20:27:55Z",
  "series": "2024-06",
  "paper": "2CR",
  "gates": [
@@ -39,23 +39,25 @@
   {
    "gate": "G3-mcq-integrity",
    "status": "PASS",
-   "summary": "4 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "summary": "4 MCQ parts; all have printed A–D and MS-keyed answer: True; 0 drawing-option MCQ candidates (census, F94)",
    "details": {
-    "issues": []
+    "issues": [],
+    "drawing_option_mcq_candidates": []
    }
   },
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "5 asset records cover every table/diagram/grid/apparatus mention: 5 cropped to assets/*.png (150 dpi), 0 remain crop-required; 0 parts without page anchor",
+   "summary": "6 asset records cover every table/diagram/grid/apparatus mention: 6 cropped to assets/*.png (150 dpi), 0 remain crop-required; 0 parts without page anchor; 0 drawing-linearization gaps (census, F96)",
    "details": {
     "dangling": [],
     "pages_unanchored": 0,
     "crop_stats": {
-     "crops": 5,
+     "crops": 6,
      "pending": 0,
      "shared": 1
-    }
+    },
+    "drawing_gaps": []
    }
   },
   {
@@ -80,13 +82,27 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 38/38 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 38 parts, agrees with QP marks on 38",
+   "summary": "solution_md on 38/38 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 38 parts, agrees with QP marks on 38; 2 mark-point answer gaps (census, F95)",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
     "ms_marks_seen": 38,
     "ms_marks_agree": 38,
-    "ms_marks_disagree": []
+    "ms_marks_disagree": [],
+    "mp_answer_gap": [
+     {
+      "part": "7(b)(i)",
+      "mp_texts": [
+       "M1 (bonds broken) (4 × 414) + 614 + (2 ×"
+      ]
+     },
+     {
+      "part": "7(b)(ii)",
+      "mp_texts": [
+       "An explanation that links together the f"
+      ]
+     }
+    ]
    }
   }
  ],
@@ -108,8 +124,20 @@
    "detected": true
   }
  ],
- "review_queue": [],
+ "review_queue": [
+  {
+   "part": "7(b)(i)",
+   "reason": "mark-point answer gap: MPs are margin-note fragments / marks digit (MS answer is a printed drawing)"
+  },
+  {
+   "part": "7(b)(ii)",
+   "reason": "mark-point answer gap: MPs are margin-note fragments / marks digit (MS answer is a printed drawing)"
+  }
+ ],
  "ocr_pages": [],
+ "wave20": {
+  "stem_figure_stubs": 1
+ },
  "mcq_keys_applied": [],
  "ms_link_overrides_applied": [],
  "spec_tagging": {

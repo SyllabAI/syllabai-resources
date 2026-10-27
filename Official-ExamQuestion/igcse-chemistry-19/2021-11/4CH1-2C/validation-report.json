@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T21:35:14Z",
+ "generated_utc": "2026-10-27T20:26:57Z",
  "series": "2021-11",
  "paper": "2C",
  "gates": [
@@ -41,23 +41,25 @@
   {
    "gate": "G3-mcq-integrity",
    "status": "PASS",
-   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True; 0 drawing-option MCQ candidates (census, F94)",
    "details": {
-    "issues": []
+    "issues": [],
+    "drawing_option_mcq_candidates": []
    }
   },
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "7 asset records cover every table/diagram/grid/apparatus mention: 5 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor",
+   "summary": "8 asset records cover every table/diagram/grid/apparatus mention: 6 cropped to assets/*.png (150 dpi), 1 remain crop-required; 1 parts without page anchor; 0 drawing-linearization gaps (census, F96)",
    "details": {
     "dangling": [],
     "pages_unanchored": 1,
     "crop_stats": {
-     "crops": 5,
+     "crops": 6,
      "pending": 1,
      "shared": 2
-    }
+    },
+    "drawing_gaps": []
    }
   },
   {
@@ -82,13 +84,14 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 41/41 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 35 parts, agrees with QP marks on 35",
+   "summary": "solution_md on 41/41 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 35 parts, agrees with QP marks on 35; 0 mark-point answer gaps (census, F95)",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
     "ms_marks_seen": 35,
     "ms_marks_agree": 35,
-    "ms_marks_disagree": []
+    "ms_marks_disagree": [],
+    "mp_answer_gap": []
    }
   }
  ],
@@ -119,6 +122,9 @@
  "ocr_pages": [],
  "wave24": {
   "choice_script_restored": 4
+ },
+ "wave20": {
+  "stem_figure_stubs": 1
  },
  "source_defects": {
   "image_only_pages": [

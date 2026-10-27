@@ -84,7 +84,6 @@ Describe a test for carbon dioxide.
 > mention of limewater
 > REJECT addition of
 > extra reagent for both
-> marks
 
 - **(1)** bubble/pass/add carbon dioxide/gas into IGNORE ‘limewater
 - **(1)** (limewater) turns cloudy/milky ALLOW white
@@ -357,6 +356,7 @@ Use the tangent to determine the rate of reaction at 60 s. Include the units for
 > M2 gradient calculated (expected value approx. 0.5-
 > 0.7 cm3/s)
 > ALLOW cm3/second
+> 3
 > M3 correct units of cm /s ALLOW cm3s-1
 
 - **(1)** suitable values taken from the graph for two If no tangent drawn
@@ -853,7 +853,7 @@ Describe how two fluorine atoms combine to form a fluorine molecule.
 
 ### 8(b)(ii) [3]
 
-One mole of fluorine gas contains 6.0 × 1023 molecules. Calculate the number of molecules in 100 g of fluorine. Give your answer in standard form. number of molecules =
+One mole of fluorine gas contains 6.0 × 10²³ molecules. Calculate the number of molecules in 100 g of fluorine. Give your answer in standard form. number of molecules =
 
 
 **Mark scheme answer**

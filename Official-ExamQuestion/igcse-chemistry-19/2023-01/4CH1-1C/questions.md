@@ -77,7 +77,6 @@ Explain why hot water evaporates more quickly than cold water.
 > collisions, activation
 > energy or rate of
 > reaction
-> Total for question = 6
 
 - **(1)** (particles / molecules have) more (kinetic) ALLOW hot water has
 - **(1)** can overcome / break the (intermolecular) ALLOW can overcome /
@@ -202,7 +201,6 @@ After one day the student does two tests on the liquid in the beaker. The table 
 > ALLOW in either order
 > If name correct ignore
 > incorrect formula
-> Total for question = 7
 
 - **(1)** potassium / K+ potassium sulfate scores 2
 - **(1)** sulfate / SO42- K2SO4 scores 2
@@ -293,7 +291,6 @@ The table shows the student’s results. initial length of column of gas 75 mm f
 > without working scores 2
 > answer of 40% without
 > working scores 1
-> Total for question = 6
 
 - **(1)** 75 − 30 OR 45 (mm)
 - **(1)** (45 ÷ 75 × 100) = 60(%) ALLOW ecf from M1
@@ -363,7 +360,6 @@ Give a reason why the blue dye has a larger R f value than the yellow dye.
 > ORA as long as yellow food colouring is referred to IGNORE blue colour/it
 > travels further up the
 > paper
-> Total for question = 7
 
 - **(1)** the blue food colouring/it is more soluble (in water)
 
@@ -452,7 +448,6 @@ This ionic equation represents the reaction between magnesium and aluminium nitr
 > aluminium ions/Al3+
 > IGNORE Mg is oxidised
 > M2 dep on M1
-> Total for question = 7 marks
 
 - **(1)** magnesium /Mg (is the reducing agent)
 - **(1)** magnesium /Mg donates electrons (causing Al 3+ ALLOW magnesium / Mg
@@ -464,12 +459,14 @@ This question is about polymers.
 
 ### 6(a) [1]
 
-This is the structure of a monomer. H Cl C C H H What is the name of this monomer?
+This is the structure of a monomer. What is the name of this monomer?
 
 - **(A)** chloroethane
 - **(B)** chloroethene  ✔
 - **(C)** chloropropane
 - **(D)** chloropropene
+
+![structure of the monomer (chloroethene) — official paper figure (qp.pdf p.12)](assets/asset_6_a_monomer.png)
 
 
 **Mark scheme answer**
@@ -483,7 +480,9 @@ This is the structure of a monomer. H Cl C C H H What is the name of this monome
 
 ### 6(b) [1]
 
-Complete the equation to show the repeat unit of the polymer that forms from this monomer. H Cl n C C H H n
+Complete the equation to show the repeat unit of the polymer that forms from this monomer.
+
+![equation to complete: n chloroethene -> repeat-unit bracket — official paper figure (qp.pdf p.12)](assets/asset_6_b_equation.png)
 
 
 **Mark scheme answer**
@@ -545,7 +544,6 @@ A different polymer molecule contains 10 600 atoms of carbon, 10 600 atoms of hy
 > order
 > Answer of CHCl3 without
 > working scores 2
-> Total for question = 10
 
 - **(1)** 1:1:3 / 31 800 ÷ 10 600 ALLOW other evidence
 - **(1)** CHCl3 ALLOW the atoms in any
@@ -674,7 +672,6 @@ Describe how the combustion of sulfur-free petrol in a car engine produces gases
 > oxides of nitrogen
 > M4 which react with/dissolve in water forming M4 dep on M3
 > nitric acid /HNO3 /acid rain
-> Total for question = 12
 
 - **(3)** A description that refers to any 3 from
 
@@ -765,7 +762,6 @@ Lithium oxide has a giant ionic structure. Explain why lithium oxide has a high 
 > of covalent bonds,
 > intermolecular forces or
 > molecules
-> Total for question = 10
 
 - **(1)** strong (electrostatic) forces of attraction ALLOW strong ionic
 - **(1)** between oppositely charged ions
@@ -833,7 +829,6 @@ Graphite is a naturally-occurring form of carbon. Explain why graphite is soft a
 > M5 (one) delocalised electron (per carbon / atom) REJECT molecules/ions
 > M6 (delocalised) electrons flow / move / are mobile
 > (to conduct electricity)
-> Total for question = 10
 
 - **(5)** An explanation that links any five from
 
@@ -911,7 +906,6 @@ In the reaction, 0.0500 mol of hydrochloric acid completely react. Calculate the
 > sig fig except 1 in M3
 > Correct answer without
 > working scores 3
-> Total for question = 9
 
 - **(3)** M1 2880 ÷ 1000 OR 2.880 kJ
 
@@ -1010,7 +1004,6 @@ The student repeats the experiment and records the volume of hydrogen gas collec
 > If no tangent drawn allow
 > 1 mark for
 > 240 ÷ 40 = 6 (cm3/s)
-> Total for question = 13
 
 - **(1)** tangent drawn (at 40 s)
 - **(1)** change in volume of hydrogen ÷ change in time
@@ -1081,7 +1074,7 @@ Determine the value of x in BaCl2 . xH2O Show your working. [for BaCl2 , Mr = 20
 
 ### 12(b) [2]
 
-Describe a physical test to show that the water in tube B is pure. QUESTION 12 CONTINUES ON NEXT PAGE
+Describe a physical test to show that the water in tube B is pure.
 
 
 **Mark scheme answer**
@@ -1126,18 +1119,17 @@ Describe how the reaction can be used to show that a liquid contains water.
 
 ### 12(c)(iii) [2]
 
-Calculate the maximum number of water molecules in tube B after the sample of hydrated copper(II) sulfate has completely reacted. One mole of any substance contains 6 × 1023 particles. maximum number of molecules =
+Calculate the maximum number of water molecules in tube B after the sample of hydrated copper(II) sulfate has completely reacted. One mole of any substance contains 6 × 10²³ particles. maximum number of molecules =
 
 
 **Mark scheme answer**
 
 > M1 moles of water = 0.02 x 5 OR 0.1
-> M2 molecules of water = 6 × 1022 ALLOW ecf from M1
+> M2 molecules of water = 6 × 10²² ALLOW ecf from M1
 > Correct answer without
 > working scores 2
 > 1.2 x 1022 scores 1
-> Total for question = 13
 
 - **(1)** moles of water = 0.02 x 5 OR 0.1
-- **(1)** molecules of water = 6 × 1022 ALLOW ecf from M1
+- **(1)** molecules of water = 6 × 10²² ALLOW ecf from M1
 

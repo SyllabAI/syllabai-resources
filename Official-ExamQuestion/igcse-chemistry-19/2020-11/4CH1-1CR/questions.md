@@ -258,7 +258,6 @@ Draw the displayed formulae of the two isomers with the formula C2H4Cl2 isomer 1
 > M2 Cl H
 > H C C H
 > Cl H
-> Total
 
 - **(1)** H H
 - **(1)** Cl H
@@ -623,7 +622,6 @@ A student compares the reactivity of the elements bromine, chlorine and iodine. 
 > ALLOW 1 mark for correct
 > order of reactivity given if
 > M3 and M6 not scored
-> Total
 
 - **(1)** (solution) turns orange ACCEPT yellow
 - **(1)** (because) chlorine displaces bromine ACCEPT correct word
@@ -724,6 +722,7 @@ The student uses 0.0200 mol of dilute sulfuric acid in her preparation. Show tha
 
 > • multiply moles by Mr correct answer (5.74)
 > • evaluation without working scores
+> 2
 > Example calculation
 > M1 (mass of ZnSO4.7H2O =) 287 x 0.02(00) ALLOW ecf from (i)
 > M2 (mass of ZnSO4.7H2O =) 5.74 (g)
@@ -749,7 +748,6 @@ The student obtains a mass of 4.28 g of zinc sulfate crystals. Calculate the per
 > answer of 71.3
 > Must be 3 sig figs to
 > score M3
-> Total
 
 - **(1)** 4.28÷5.74 OR 0.7456 correct answer to 3 sig
 - **(1)** 0.7456 × 100 ALLOW any number of

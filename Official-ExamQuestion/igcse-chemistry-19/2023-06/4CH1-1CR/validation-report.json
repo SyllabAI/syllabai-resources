@@ -1,6 +1,6 @@
 {
  "schema": "syllabai.official-paper-questions.validation/0.2",
- "generated_utc": "2026-10-25T21:35:46Z",
+ "generated_utc": "2026-10-27T20:27:50Z",
  "series": "2023-06",
  "paper": "1CR",
  "gates": [
@@ -34,7 +34,7 @@
   {
    "gate": "G2-D-disclosure",
    "status": "PASS",
-   "summary": "provenance matches reality for all 59 parts (0 disclosed, 59 extracted at ≥0.95 5-gram): True",
+   "summary": "provenance matches reality for all 59 parts (1 disclosed, 58 extracted at ≥0.95 5-gram): True",
    "details": {
     "violations": [],
     "min_ratio": 1.0
@@ -43,23 +43,27 @@
   {
    "gate": "G3-mcq-integrity",
    "status": "PASS",
-   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True",
+   "summary": "3 MCQ parts; all have printed A–D and MS-keyed answer: True; 1 drawing-option MCQ candidates (census, F94)",
    "details": {
-    "issues": []
+    "issues": [],
+    "drawing_option_mcq_candidates": [
+     "2(c)"
+    ]
    }
   },
   {
    "gate": "G4-figure-resolution",
    "status": "PASS",
-   "summary": "11 asset records cover every table/diagram/grid/apparatus mention: 10 cropped to assets/*.png (150 dpi), 0 remain crop-required; 2 parts without page anchor",
+   "summary": "12 asset records cover every table/diagram/grid/apparatus mention: 11 cropped to assets/*.png (150 dpi), 0 remain crop-required; 2 parts without page anchor; 0 drawing-linearization gaps (census, F96)",
    "details": {
     "dangling": [],
     "pages_unanchored": 2,
     "crop_stats": {
-     "crops": 10,
+     "crops": 11,
      "pending": 0,
      "shared": 2
-    }
+    },
+    "drawing_gaps": []
    }
   },
   {
@@ -84,13 +88,14 @@
   {
    "gate": "G7-solution-emission",
    "status": "PASS",
-   "summary": "solution_md on 59/59 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 58 parts, agrees with QP marks on 58",
+   "summary": "solution_md on 59/59 linked parts; mark_points sum == part marks everywhere: True; MS marks-column digit read for 58 parts, agrees with QP marks on 58; 0 mark-point answer gaps (census, F95)",
    "details": {
     "missing_solution": [],
     "sum_mismatches": [],
     "ms_marks_seen": 58,
     "ms_marks_agree": 58,
-    "ms_marks_disagree": []
+    "ms_marks_disagree": [],
+    "mp_answer_gap": []
    }
   }
  ],
@@ -112,10 +117,15 @@
    "detected": true
   }
  ],
- "review_queue": [],
+ "review_queue": [
+  {
+   "part": "2(c)",
+   "reason": "drawing-option MCQ candidate (options linearized in problem_md, no choices[])"
+  }
+ ],
  "ocr_pages": [],
  "wave20": {
-  "stem_figure_stubs": 2
+  "stem_figure_stubs": 3
  },
  "source_defects": {
   "image_only_pages": [

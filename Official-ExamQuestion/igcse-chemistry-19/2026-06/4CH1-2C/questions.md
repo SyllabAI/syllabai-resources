@@ -390,6 +390,7 @@ Molten sodium chloride is electrolysed to give 5000 mol of chlorine gas. Calcula
 
 > Correct answer with or
 > without working scores
+> 2
 > M1 (5000 × 24 000 =) 120 000 000 (cm3)
 > M2 120 000 (dm3) ALLOW
 > 5000 x 24 = 120 000
