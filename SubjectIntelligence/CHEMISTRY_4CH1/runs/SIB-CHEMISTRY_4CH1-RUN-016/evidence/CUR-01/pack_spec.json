@@ -1,0 +1,25 @@
+{
+  "SRC-SPEC-4CH1": {
+    "files": [
+      {"path_suffix": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf", "pdf_pages": [1, 8, 9, 10, 13, 14, 15]}
+    ]
+  },
+  "SRC-GRAPH-4CH1": {
+    "files": [
+      {"path_suffix": "graph/igcse-chemistry/topics.yaml", "md_query": "^(topics:|- code: 4CH1-S\\d|  title: |- code: 4CH1-S\\d+[A-Z]?-\\d+|subtopics:|spec_points:|practicals:)"},
+      {"path_suffix": "graph/igcse-chemistry/assessment_objectives.yaml", "md_query": "^(assessment_objectives:|- code: AO|  title: |  weighting_overall: |  weighting_by_paper: |    ao1: |    ao2: |    ao3: |papers:|- code: 4CH1/)"},
+      {"path_suffix": "graph/igcse-chemistry/practicals.yaml", "md_query": "^(practicals:|- code:|  title:|topic_ref:)"},
+      {"path_suffix": "graph/igcse-chemistry/command_words.yaml", "md_query": "^(command_words:|- code:|  title:)"}
+    ]
+  },
+  "SRC-TL-4CH1": {
+    "files": [
+      {"path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/gstt-int-gcse-chemistry.pdf", "pdf_pages": [3, 4, 5]},
+      {"path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/Chemical-bonding---FINAL.pdf", "pdf_pages": [3]},
+      {"path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/Chemical-equilibrium---FINAL.pdf", "pdf_pages": [3]},
+      {"path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/international-gcse-chemistry-scheme-of-work.docx"},
+      {"path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/international-gcse-chemistry-linear-course-planner.pptx"},
+      {"path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/int-gcse-command-words.docx"}
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "finding": "SIB-ASSESS-r2 D8 (6 grammar-form debt tokens, gate-legal) + D9 (CUR-01 5 debt forms + never-gated)",
+  "law": "the change IS the substance; every old/new token disclosed here; resolvability of every new locator enforced by the stage-2 gate",
+  "edits": [
+    {
+      "artifact": "CUR-01",
+      "label": "D9 spec p1 pathless -> real filename (p1 in RUN-001 pack)",
+      "old": "(SRC-SPEC-4CH1, spec p1)",
+      "new": "(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p1)"
+    },
+    {
+      "artifact": "CUR-01",
+      "label": "D9 gstt abbreviation + en-dash -> real filename pp3-4 (pages 3,4 in pack)",
+      "old": "(SRC-TL-4CH1, gstt pp3–4)",
+      "new": "(SRC-TL-4CH1, gstt-int-gcse-chemistry.pdf pp3-4)"
+    },
+    {
+      "artifact": "CUR-01",
+      "label": "D9 gstt abbreviation + en-dash -> real filename pp3-5 (pages 3,4,5 in pack)",
+      "old": "(SRC-TL-4CH1, gstt pp3–5)",
+      "new": "(SRC-TL-4CH1, gstt-int-gcse-chemistry.pdf pp3-5)"
+    },
+    {
+      "artifact": "CUR-01",
+      "label": "D9 'identity row' -> the documented identity form",
+      "old": "(SRC-SAMS-4CH1, identity row)",
+      "new": "(SRC-SAMS-4CH1, identity)"
+    },
+    {
+      "artifact": "CUR-01",
+      "label": "D9 hidden prose-paren -> spec p15 citation + topics.yaml lines 42-56 citation (codes/titles/ordering verbatim in the lines 42-56 excerpt)",
+      "old": "(spec p15/PDF;\ncodes, titles and ordering from the validated graph SRC-GRAPH-4CH1 topics.yaml, whose\ntitles and subsecti",
+      "new": "(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15); codes, titles and ordering follow the validate"
+    },
+    {
+      "artifact": "CUR-05",
+      "label": "D8 prose-paren -> hedge moved outside the citation paren",
+      "old": "(store meta law; SRC-GRAPH-4CH1",
+      "new": "— the store meta law (SRC-GRAPH-4CH1"
+    },
+    {
+      "artifact": "CUR-08",
+      "label": "D8 prose-paren -> attribution moved outside the citation paren",
+      "old": "(CUR-07's store census; SRC-SPEC-4CH1",
+      "new": "— CUR-07's store census (SRC-SPEC-4CH1"
+    },
+    {
+      "artifact": "PRO-07",
+      "label": "D8 semicolon-joined pair split one-per-paren; 'p 1' -> 'p1'",
+      "old": "(SRC-TL-4CH1, Transferable-skills-Chemistry.pdf p 1; SRC-TL-4CH1, Transferable-Skills-Mapping-for-Chemistry.pdf p 1)",
+      "new": "(SRC-TL-4CH1, Transferable-skills-Chemistry.pdf p1); (SRC-TL-4CH1, Transferable-Skills-Mapping-for-Chemistry.pdf p1)"
+    },
+    {
+      "artifact": "PRO-07",
+      "label": "D8 semicolon-joined pair split one-per-paren; 'p 1' -> 'p1'",
+      "old": "(SRC-TL-4CH1, international-gcse-maths-in-science-percentages.pdf p 1; SRC-TL-4CH1, international-gcse-maths-in-science-",
+      "new": "(SRC-TL-4CH1, international-gcse-maths-in-science-percentages.pdf p1); (SRC-TL-4CH1, international-gcse-maths-in-science"
+    },
+    {
+      "artifact": "EXP-01",
+      "label": "D8 prose locator -> the documented identity form (source present in pack)",
+      "old": "(SRC-BOOK-4CH1-SB1, v3 chunk corpus)",
+      "new": "(SRC-BOOK-4CH1-SB1, identity)"
+    },
+    {
+      "artifact": "EXP-01",
+      "label": "D8 de-cited to prose: the cited source failed preflight (the sentence's own claim) and is absent from the pack — citing it was unsound; ids stay in prose",
+      "old": "(SRC-SME-NOTES-4CH1, SRC-SME-EXAMQ-4CH1)",
+      "new": "SRC-SME-NOTES-4CH1 and its sibling bank SRC-SME-EXAMQ-4CH1"
+    }
+  ]
+}

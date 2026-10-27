@@ -1,0 +1,28 @@
+{
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-016",
+  "finding": "F4 (SIB-ASSESS-r2) — the validator models the landing lifecycle only",
+  "F4a": {
+    "observation": "validate_manifest's REQUIRED-presence check reads artifacts/ only (MANIFEST_MISSING_REQ), while publication evidence correctly probes staged/ and published/; a library that executes the designed lifecycle flips validate-manifest red at the moment it becomes servable",
+    "post_lifecycle_state": {
+      "qa_passed": false,
+      "codes": {
+        "SIB-MANI-007": 88,
+        "SIB-MANI-011": 4,
+        "SIB-MANI-012": 7
+      },
+      "note": "88x SIB-MANI-007 = every REQUIRED row; landing zone empty BY DESIGN; the 11 designed gap/backlog WARN/INFO disclosures are unchanged"
+    },
+    "disposition": "OBSERVED + DISCLOSED, never worked around; upstream fix (presence check honors staged/published for status-advanced rows) belongs to SyllabAI/syllabai@tools/sib — operator lane"
+  },
+  "F4b": {
+    "observation": "validate_artifact's status rule rejects QA_PASSED/STAGED/PUBLISHED location-blind (SIB-STATUS-001 semantics), so published artifacts cannot be re-validated in place",
+    "disposition": "by the validator's own design the evidence chain for published artifacts is the governed transition receipts: stage (QA content-bound) -> publish (QA re-verified) — all 95 recorded in lifecycle_receipt.json"
+  },
+  "gates_of_record_post_lifecycle": [
+    "pre-lifecycle validate-manifest qa_passed TRUE (executed in SIB-ASSESS-r2, the last full-scoreboard green gate)",
+    "validator qa 95/95 at 0 errors / 0 warnings immediately before staging",
+    "stage x95 + publish x95 receipts, each machine-checked by the validator (SIB-ING-002 content binding at stage; QA re-verification at publish)",
+    "chunks x95 deterministic (re-run byte-identical)",
+    "run_manifest validate OK (5 repaired artifacts)"
+  ]
+}
