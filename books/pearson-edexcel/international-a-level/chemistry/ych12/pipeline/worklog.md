@@ -269,3 +269,49 @@ Stage Summary:
   by id — the v1 corpus + evidence remain landed and in history). Next:
   polish grind on v2 (llm_repair recipe re-targeted at the v2 corpus +
   ids file), pack-floor follow-up task, serving lane.
+
+---
+Task ID: T-PARSE-YCH12-2-POLISH-CONT-V2
+Agent: Z.ai (main, zai-web)
+Task: "v2 polish" (trace 1a17e9a6f1fb8471) — resume the polish grind on the v2
+corpus of record, and report all lane learnings to the self-improving playbook
+(books/README.md §9).
+
+Work Log:
+- SANDBOX RESET #5 recovered (fetch + ff-only to f65758e8d == origin/main;
+  sparse-add ych12); disk was 100% full (ENOSPC blocked the SDK reinstall) —
+  freed 1.4 GB by deleting the rebuildable docling venv + ~/.cache + the two
+  local PDF copies (derivative sha256 re-verified == repo pin before delete).
+- SCRIPTS parameterized per the L-026 law: llm_repair_ych12.js /
+  merge_llm_ych12.py / audit_polish_ych12.py gained the env surface
+  (YCH12_CORPUS / YCH12_IDS / YCH12_REPAIRS / YCH12_PRISTINE / YCH12_MD /
+  YCH12_REPORT / YCH12_LOG); no-env defaults = the original v1 paths.
+- ERRATA E-005 found + fixed: the scripts' comments claimed
+  "YCH12_VERSION=2" but VER interpolates directly (id regex + report
+  filename) — the working value is "v2"; proven by the validator crash with
+  "2" then ALL CHECKS PASSED with "v2".
+- BASELINE: v2 validator ALL CHECKS PASSED (1406 chunks) before grinding.
+- GRIND: 9 foreground windows; openings caught 18:30 / 18:50 / 19:10 / 19:30
+  / 19:50 (~20 min cadence this session, 1–4 min bursts); evidence 0 → 49
+  records (40 ok / 3 rejected / 6 error-cum-429; errors self-heal); 43/801
+  unique done.
+- MERGE (clobber law observed): out_v2 corpus reset from the v2 .pristine,
+  FULL evidence applied ONCE — 40 llm_repaired / 40 text changed, anchor
+  PASS 0 drift. THREE-WAY RECONCILIATION ALL PASS: vs pristine 40 expected
+  fixes / vs landed 40 net-new (landed had 0) / text_original == pristine on
+  every repaired chunk; untouched chunks byte-identical; id set unchanged.
+- AUDIT: corpus space_run 3675 -> 3242; changed chunks space_run 437 -> 4,
+  camel_glue 43 -> 0; 0 Unicode-unit regressions; 3 residual long runs all
+  genuine chemistry words (benign class as in v1).
+- VALIDATE: YCH12_VERSION=v2 ALL CHECKS PASSED post-merge.
+- LANDED: parsed/ chunks_v2 + full_book_docling_v2 + parse_report_v2 +
+  evidence/llm_repairs_ych12_v2.jsonl (49 records); scripts + ledgers same
+  commit. PLAYBOOK REPORT-BACK (§9): L-024/L-025/L-026 + E-003
+  reconstituted + E-005 + R-007/R-008/R-009 retro-records + R-010 (this
+  task) + changelog v1.7 + CATALOG row 12/§3.6 updates.
+
+Stage Summary:
+- v2 polish R1 at **40/801 applied (43 done incl. 3 rejected)**, todo 758;
+  recipe unchanged (quota-walled burst-harvest, ~20 min window cadence this
+  session); v1 corpus + evidence remain landed/history. Open follow-ups:
+  pack-floor fold fix (own gate), serving lane.

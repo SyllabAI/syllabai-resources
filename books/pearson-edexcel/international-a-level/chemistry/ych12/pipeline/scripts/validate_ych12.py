@@ -41,7 +41,9 @@ errors = []
 chunks = [json.loads(l) for l in open(CORPUS)]
 print(f"loaded {len(chunks)} chunks")
 
-# v2 fresh-parse lane: YCH12_VERSION=2 asserts the ych2_v2_ grammar (default v1)
+# v2 fresh-parse lane: YCH12_VERSION=v2 asserts the ych2_v2_ grammar (default
+# v1). (VER interpolates DIRECTLY into the id regex and the report filename —
+# the value must be "v2", not "2": E-005 in books/README.md.)
 VER = os.environ.get("YCH12_VERSION", "v1")
 ID_RE = re.compile(rf"ych2_{VER}_u\d+_c\d+_pdf\d{{3}}_\d{{4}}")
 

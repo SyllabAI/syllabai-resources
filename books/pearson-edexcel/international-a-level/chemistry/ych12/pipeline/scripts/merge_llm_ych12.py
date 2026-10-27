@@ -10,11 +10,15 @@ import json, os, sys, collections
 sys.path.insert(0, "/home/z/my-project/gh_repos/syllabai-resources/books/pearson-edexcel/international-a-level/chemistry/ych12/pipeline/scripts")
 from book_structure_ych12 import BOOK_TITLE, BOOK_AUTHOR
 
-ZJSONL = "/home/z/my-project/data/ych12_sb2/out/edexcel_ial_chemistry_ych12_sb2_chunks_v1.jsonl"
-PRISTINE = "/home/z/my-project/data/ych12_sb2/out/edexcel_ial_chemistry_ych12_sb2_chunks_v1.pristine"
-REPAIRS = "/home/z/my-project/data/ych12_sb2/llm_repairs_ych12.jsonl"
-MD_OUT = "/home/z/my-project/data/ych12_sb2/out/full_book_docling.md"
-REPORT = "/home/z/my-project/data/ych12_sb2/out/parse_report_v1.json"
+# v2-lane convention (T-PARSE-YCH12-2): paths via env, defaults = v1
+# (byte-proven unchanged). CLOBBER LAW: for a v2 merge, YCH12_CORPUS must be
+# seeded from the v2 .pristine BEFORE this script runs — a landed/seeded
+# corpus gets its text_original re-clobbered by the re-apply.
+ZJSONL = os.environ.get("YCH12_CORPUS", "/home/z/my-project/data/ych12_sb2/out/edexcel_ial_chemistry_ych12_sb2_chunks_v1.jsonl")
+PRISTINE = os.environ.get("YCH12_PRISTINE", "/home/z/my-project/data/ych12_sb2/out/edexcel_ial_chemistry_ych12_sb2_chunks_v1.pristine")
+REPAIRS = os.environ.get("YCH12_REPAIRS", "/home/z/my-project/data/ych12_sb2/llm_repairs_ych12.jsonl")
+MD_OUT = os.environ.get("YCH12_MD", "/home/z/my-project/data/ych12_sb2/out/full_book_docling.md")
+REPORT = os.environ.get("YCH12_REPORT", "/home/z/my-project/data/ych12_sb2/out/parse_report_v1.json")
 ANCHOR_KEYS = ("id", "unit_no", "chapter_no", "content_type",
                "pdf_pages", "book_pages", "section", "unit_name", "chapter_title")
 

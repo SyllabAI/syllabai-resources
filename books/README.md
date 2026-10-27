@@ -57,7 +57,7 @@ books/
 | Edexcel IAL Physics YPH11 **SB1** (Miles Hudson), 225 pp | `yph1_v1_…` | v1 **881** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1): first IAL lane, OCR route; page law book = pdf−11 (book page 1 absent from the PDF); 4 topics / 11 chapters; 260 display equations rescued by manual transcription (docling 2.33 blank-formula bug); validation green; polish R1 partial (1/404, quota-walled) |
 | Edexcel IAL Physics YPH11 **SB2** (Miles Hudson), 237 pp | `yph2_v1_…` | v1 **826** chunks | Parsed 2026-10-22 (T-PARSE-YPH11-1 SB2 delta lane): page law book = pdf−10 (no printed page 1); 7 topics / 13 chapters; intake archive copy was TRUNCATED — re-sourced + replaced (E-004, L-021/L-022); validators ALL CHECKS PASSED; 278 formula orphans logged for the manual-transcription rescue; polish R1 staged (794/826), quota-walled |
 | Edexcel IAL Chemistry YCH11 **SB1** (Curtis, Murgatroyd & Scott), 329 pp | `ych1_v1_…` | v1 **1571** chunks | Parsed 2026-10-24 (T-PARSE-YCH11-1): page law book = pdf−13 (no printed page 1); 2 units / 10 topics / 35 chapters; 291 blank formula regions + 4 fraction-mangled items recovered by verbatim manual transcription (295-record sidecar, 8 adjudicated slivers); validators ALL CHECKS PASSED; image-only periodic-table page + graph-paper end leaf registered as by-design gaps; polish R1-R3 partial (90/800 across five quota windows, pristine-baseline merges anchor 0 drift, quota-walled, resumable) |
-| Edexcel IAL Chemistry YCH12 **SB2** (Curtis, Murgatroyd & Scott), 320 pp | `ych2_v1_…` | v1 **1400** chunks | Parsed 2026-10-25 (T-PARSE-YCH12-1): page law book = pdf−12, roman = pdf−0 (i absent; no printed page 1); 2 units / 10 topics / 19 chapters (11A–20A); 315 blank formula regions exported, 133 verbatim-transcribed (127 fills + 6 adjudicated), 182 resumable; validator ALL CHECKS PASSED, byte-identity double-run verified; periodic-table page + FOUR graph-paper end leaves registered as by-design gaps; polish R1 partial (74/800 across intermittent quota windows, pristine-baseline merge anchor 0 drift, quota-walled, resumable) |
+| Edexcel IAL Chemistry YCH12 **SB2** (Curtis, Murgatroyd & Scott), 320 pp | `ych2_v1_…` / `ych2_v2_…` | v1 1400 / **v2 1406** chunks (v2 = corpus of record) | Parsed 2026-10-25 (T-PARSE-YCH12-1): page law book = pdf−12, roman = pdf−0 (i absent; no printed page 1); 2 units / 10 topics / 19 chapters (11A–20A); 315 blank formula regions exported, 133 verbatim-transcribed (127 fills + 6 adjudicated), 182 banked by rescue R2 (315/315 sidecar, bbox-verified position-true); validator ALL CHECKS PASSED, byte-identity double-run verified; periodic-table page + FOUR graph-paper end leaves registered as by-design gaps; polish R1 v1 partial 103/800 (quota-walled, burst-harvest). **v2 fresh-parse lane (T-PARSE-YCH12-2, 2026-10-27): corpus of record switched to v2 — 1406 chunks (`ych2_v2_`), FULL 315/315 sidecar consumed (305/306 fills in chunk text, METHOD D-12), validator ALL CHECKS PASSED; v1 corpus + its 103-repair evidence remain landed/history (repairs do not carry by id); v2 polish R1 re-staged 801 ids, grind in progress (quota-walled regime, L-024/L-025/L-026)** |
 
 ## 2. Read order (do not skip)
 
@@ -564,6 +564,46 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   `validate_ych11.py`. Action: at phase 6, classify zero-text pages first
   (blank / image-only-but-content-bearing / decorative); register the latter
   two, never chunk them silently.
+- **L-024** (2026-10-26, T-PARSE-YCH12-1 POLISH-CONT-2, zai-web): a polish
+  merge run against a corpus seeded from the LANDED (already-polished) state
+  silently re-clobbers `text_original` — the merge writes
+  `text_original = current text` before applying each ok record, so
+  re-applying the same evidence re-stamps already-repaired chunks with
+  repaired text as their "original". The YCH11 r1 lesson fires on the
+  corpus side too, and on BOTH sides of the recipe (re-copy evidence after
+  harvest AND seed the merge from pristine). Evidence: ych12 pipeline
+  worklog POLISH-CONT-2 (caught by three-way reconciliation: vs-pristine
+  expected-fixes 103 / vs-landed net-new 24 / text_original==pristine FAIL).
+  Action: the recipe's "reset to .pristine FIRST, then apply the FULL
+  evidence exactly once" is a load-bearing step, not a style choice; run the
+  three-way reconciliation before every landing.
+- **L-025** (2026-10-27, T-PARSE-YCH12-2, zai-web): an OCR re-run after a
+  workspace reset is NOT byte-faithful even with identical declared
+  versions (unpinned onnxruntime backend): the rescue-R2 rebuilt 320-page
+  set failed the pre-declared re-chunk diff gate (33% chunk-id renumber,
+  68% shared-id text drift). Two defenses made this survivable: (a)
+  PRE-DECLARED GATES — declare the acceptable diff budget BEFORE the
+  re-run, so a non-faithful rebuild is caught before it can contaminate the
+  corpus of record; (b) FRESH-PARSE CONSUMPTION LANES — bank heavy repair
+  sidecars (bbox+context aligned, idempotent) so a later deterministic
+  re-chunk from whatever faithful pages exist can consume them wholesale;
+  and bank the page checkpoints themselves in-repo (docling_pages 320pp,
+  2.2 MB — survived the recycle and made a 10–14-window OCR re-run
+  unnecessary). Evidence: ych12 lane README + rescue R2 README + METHOD
+  D-12. Action: never assume a re-run reproduces bytes; pin page
+  checkpoints in-repo; design rescue sidecars for a fresh-parse consumer;
+  declare gates before attempting reproduction.
+- **L-026** (2026-10-27, T-PARSE-YCH12-2, zai-web): versioned-corpus lanes
+  should parameterize scripts IN PLACE via env (`YCH12_VERSION`,
+  `YCH12_CORPUS`, `YCH12_REPAIRS`, …) instead of forking script copies —
+  with the no-env default wired to the ORIGINAL v1 paths, proven by a
+  prefix-swap diff producing identical output ("default byte-proven
+  unchanged"). Note the corollary: polish id staging does NOT carry across
+  corpus versions — chunk ids embed the version tag (`ych2_v1_` vs
+  `ych2_v2_`), so v1's 103 repairs stay v1-history and v2 re-stages a fresh
+  selection (801 ids on v2). Evidence: ych12 parse/validate/select env
+  surface + worklog T-PARSE-YCH12-2. Action: parameterize in place,
+  prove the default unchanged, re-stage polish per corpus version.
 ### 9.5 Errata ledger
 
 - **E-001** (2026-10-21, T-INTAKE-4BI1-1): `books/CATALOG.md` §4.1 queue
@@ -597,6 +637,26 @@ rm -f "$GIT_INDEX_FILE"; unset GIT_INDEX_FILE
   fresh complete 145dpi derivative landed (48,278,974 B, sha256
   `f8f3fc62…ce82d`, OCR parity 1.0000), lane `source/student-book-2.pdf`
   replaced + README derivation note updated in the same commit.
+
+- **E-003** (2026-10-22, T-PARSE-YPH11-1; RECONSTITUTED 2026-10-27,
+  T-PARSE-YCH12-2 catch-up): this entry was referenced as "filed" by review
+  record R-004 but never actually landed in this ledger (the ledger jumps
+  E-002 → E-004). Per R-004, its content: committed 4ph1 pipeline scripts
+  contain a corrupted env var — flagged to the lane owner, not fixed in that
+  task. Evidence: R-004 (§9.6). Disposition: PROPOSED FOR OPERATOR GATE /
+  lane-owner fix (reconstituted here so the ledger numbering is continuous;
+  no repo content changed).
+
+- **E-005** (2026-10-27, T-PARSE-YCH12-2): the `YCH12_VERSION` env comments
+  in `ych12/pipeline/scripts/parse_docling_ych12.py` and
+  `validate_ych12.py` say "YCH12_VERSION=2" but VER interpolates DIRECTLY
+  into both the chunk-id regex `ych2_{VER}_…` and the report filename
+  `parse_report_{VER}.json` — the value that works is `YCH12_VERSION=v2`
+  (`"2"` builds `ych2_2_…`, which matches nothing, and
+  `parse_report_2.json`, which does not exist). Proven while running the v2
+  baseline validator (first attempt with "2" crashed on the report path;
+  "v2" passed ALL CHECKS). Disposition: FIXED HERE (comment corrections in
+  both scripts, same commit — comments only, no behavior change).
 
 
 *(template for future entries; superseding entries must reference the
@@ -723,6 +783,75 @@ E-ID they correct)*
   (METHOD D-9); (3) image-only end matter registered as by-design gaps
   (L-023) rather than chunked. Lessons appended: L-023. Errata filed: none.
 
+- **R-007** (2026-10-25, T-PARSE-YCH12-1, YCH12 SB2): pages parsed 320/320
+  (9 foreground windows, ~9.2 s/page avg, 0 page errors); chunks **1400**
+  (`ych2_v1_`); content types 17; offset −12 with roman = pdf−0 (4-way
+  confirmed; book page 1 print-blank omitted, roman i absent); validation
+  **ALL CHECKS PASSED** + byte-identity double-run verified; formula rescue:
+  315 blank display-equation regions exported, 133 verbatim-transcribed
+  (127 fills + 6 adjudicated), 182 orphans banked by rescue R2 the same day
+  (315/315 sidecar, bbox-verified position-true against an independent
+  second OCR run); LLM polish R1: 800 ids staged, 79 applied at close
+  (quota-walled). Deviations from playbook: (1) formula-enrichment OFF base
+  corpus (L-019/L-020 ladder law); (2) FOUR graph-paper end leaves +
+  periodic-table page as by-design gaps (L-023); (3) EP banks per-TOPIC
+  typed `chapter_questions` (YPH11 D-9 precedent). Lessons appended: none
+  (playbook confirmed; quota-regime per L-007/L-017). Errata filed: none.
+  (Record appended retro-actively 2026-10-27 — the lane closed without its
+  §9 record; caught up during T-PARSE-YCH12-2.)
+
+- **R-008** (2026-10-26, T-PARSE-YCH12-1 POLISH-CONT-2, YCH12 SB2 v1 polish
+  resume): pages parsed n/a (polish resume); chunks unchanged **1400**;
+  validation ALL CHECKS PASSED post-merge; LLM polish R1 v1: 79 → **103**
+  (5 foreground windows, 4 quota openings caught, ~10 min apart, 3–4 min
+  bursts; evidence 93 → 126 records: 103 ok / 12 rejected / 11 error-cum-429,
+  errors self-heal on resume); merge anchor 0 drift; audit 0 Unicode-unit
+  regressions (residual long runs = genuine chemistry words).
+  Deviations: **one self-caught incident** — the first merge ran on a
+  landed-seeded out/ and re-clobbered text_original on 103 chunks; caught
+  by the three-way reconciliation, redone from the pristine baseline (the
+  corpus-side half of the YCH11 r1 law — now L-024). Lessons appended:
+  L-024. Errata filed: none. (Record appended retro-actively 2026-10-27.)
+
+- **R-009** (2026-10-27, T-PARSE-YCH12-2, YCH12 SB2 v2 fresh-parse): pages
+  parsed 320/320 — as ALREADY-BANKED pages: the R2 docling_pages survived
+  the recycle WITH the FULL 315-record sidecar applied (re-verified 306+9
+  item-for-item), so the planned multi-window OCR re-run was consumed as
+  done, no docling env needed; chunks **1406** (`ych2_v2_`, deterministic
+  re-run == R2 count); content types 17; offset unchanged; validation **ALL
+  CHECKS PASSED**; adjudication vs v1-pristine (METHOD D-12): error-class
+  rates identical on all 5 classes, structure identical, 305/306 sidecar
+  fills in chunk text (1 residual = pre-existing <40-char pack-floor drop of
+  the WORKED EXAMPLE 2 micro-segment, same in v1 — pack-floor fold fix
+  registered as its own follow-up); drift disclosure 947/1406 shared slots,
+  326 identical text (different OCR run, position-true per R2); rescue
+  COMPLETE (315/315 consumed); v2 polish re-staged **801** ids (v1's 103 do
+  not carry by id — L-026); landing includes docling_pages_v2 (320pp, 2.2 MB
+  — reset-proof v2 provenance). Deviations: (1) scripts parameterized via
+  env with byte-proven v1 defaults (L-026); (2) landing done WITHOUT any
+  OCR re-run because the banked pages were proven faithful. Lessons
+  appended: L-025, L-026. Errata filed: E-005. (This record also catches up
+  R-007/R-008 above.)
+
+- **R-010** (2026-10-27, T-PARSE-YCH12-2 POLISH-CONT-V2, YCH12 SB2 v2 polish
+  resume): pages parsed n/a (polish resume); chunks unchanged **1406**
+  (v2 = corpus of record); validation ALL CHECKS PASSED post-merge (v2
+  grammar); LLM polish R1-v2: 801 staged, **40 applied** (40 text changed),
+  3 rejected (guard; raws in evidence), 6 error-cum-429 (self-heal on
+  resume; 43/801 done); 9 foreground windows, openings 18:30/18:50/19:10/
+  19:30/19:50 (~20 min cadence, 1–4 min bursts, +5–15/burst); merge from
+  the v2 pristine (clobber law L-024 observed), anchor **0 drift**,
+  three-way reconciliation ALL PASS (vs pristine 40 / vs landed 40 net-new
+  / text_original == pristine; untouched chunks byte-identical); audit 0
+  Unicode-unit regressions (corpus space_run 3675→3242; changed chunks
+  space_run 437→4, camel_glue 43→0; 3 residual long runs genuine chemistry
+  words — benign class). Deviations from playbook: polish tooling now env-
+  parameterized per L-026 (no-env defaults byte-proven v1); E-005 comment
+  errata fixed in the same commit. Lessons appended: none new (L-024/025/
+  026 filed under R-008/R-009; this run CONFIRMS the playbook: quota
+  regime per L-007/L-017, clobber law per L-024, replay-free clean merge).
+  Errata filed: none new.
+
 ```
 - **R-<seq>** (<date>, <TASK-ID>, <book>): pages parsed N/N; chunks N;
   content types N; offset N (3-way confirmed); validation ALL CHECKS PASSED
@@ -732,6 +861,25 @@ E-ID they correct)*
 ```
 
 ## 10. Change log
+
+- **2026-10-27 — v1.7 (T-PARSE-YCH12-2 + POLISH-CONT-V2):** YCH12 v2
+  fresh-parse lane landed as the corpus of record (1406 chunks `ych2_v2_`,
+  FULL 315/315 rescue sidecar consumed, validator green — see R-009) and
+  the v2 polish grind resumed (R-010: 40/801 applied, anchor 0 drift,
+  validator green). Playbook report-back: lessons **L-024** (polish-merge
+  clobber law — pristine reset is load-bearing, three-way reconciliation
+  before every landing), **L-025** (post-reset OCR re-runs are not
+  byte-faithful — pre-declared gates + fresh-parse consumption lanes +
+  in-repo page-checkpoint banking), **L-026** (env-parameterize versioned-
+  lane scripts in place, no-env defaults byte-proven unchanged; polish
+  staging does not carry across corpus versions); errata **E-003**
+  reconstituted (referenced by R-004 but never landed) + **E-005**
+  (YCH12_VERSION comment says "=2", working value is "v2" — fixed in
+  scripts, same commit); retro review records **R-007/R-008/R-009**
+  (YCH12 v1 parse / v1 polish CONT-2 / v2 fresh-parse — the lane had been
+  closing without §9 records) + **R-010**. Ledgers: CATALOG row 12 tracker
+  + §3.6 parse-of-record updated; §1 book table YCH12 row now carries the
+  v2-of-record state.
 
 - **2026-10-25 — v1.6 (T-PARSE-YCH12-1):** IAL chemistry SB2 (YCH12) lane
   executed end-to-end per the operator directive "Restore polish R2, and if

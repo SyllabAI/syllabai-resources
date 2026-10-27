@@ -113,3 +113,23 @@ parked YCH11 polish at 48/800 (2026-10-24) was probe-verified still up
    identical on 326 shared slots (34.4%) — a different OCR run of the same
    scan (position-true per R2), disclosed not defective. The 103 v1 polish
    repairs do NOT carry over by id; polish restarts on the v2 pristine.
+
+## D-13 Polish R1-v2: env-parameterized grind on the v2 corpus of record (T-PARSE-YCH12-2 POLISH-CONT-V2, 2026-10-27)
+
+1. SCRIPTS: `llm_repair_ych12.js` / `merge_llm_ych12.py` /
+   `audit_polish_ych12.py` gained the lane env surface (`YCH12_CORPUS`,
+   `YCH12_IDS`, `YCH12_REPAIRS`, `YCH12_PRISTINE`, `YCH12_MD`,
+   `YCH12_REPORT`, `YCH12_LOG`). No-env defaults are the original v1 paths,
+   byte-proven unchanged (the L-026 law); the clobber-law warning lives in
+   the merge docstring.
+2. STAGING: 801 ids on v2 (`pipeline/evidence/llm_repair_ids_ych12_v2.json`;
+   force-inclusion pushed one over the 800 cap — the runner consumes the
+   list as-is). Baseline: v2 validator ALL CHECKS PASSED before grinding.
+3. GRIND: burst-harvest regime as POLISH-CONT-2 (probe loop 5x60s,
+   quota-stop after 2 consecutive 429 chunks, append-only JSONL resume;
+   evidence `llm_repairs_ych12_v2.jsonl` SEPARATE from the v1 evidence —
+   v1 history stays intact).
+4. MERGE LAW (restated, load-bearing — L-024): seed the v2 corpus from the
+   v2 `.pristine`, apply the FULL evidence exactly once, three-way reconcile
+   (vs pristine expected-fixes / vs landed net-new /
+   text_original==pristine), then audit + validate (YCH12_VERSION=v2).

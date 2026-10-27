@@ -15,7 +15,11 @@ so the landed v1 corpus stands byte-untouched; consumption needs a fresh-parse
 resumable). **v2 fresh-parse lane COMPLETE (T-PARSE-YCH12-2, 2026-10-27): the R2 pages survived the
 recycle with the FULL 315-record sidecar applied (re-verified 306+9=315/315) — consumed as the v2
 corpus of record (1406 chunks, `ych2_v2_`, validator ALL CHECKS PASSED; adjudication: error-class
-rates identical to r0, structure identical, 305/306 fills in chunk text — METHOD D-12).** SB1 = parsed in the sibling `ych11` lane. Scaffold per
+rates identical to r0, structure identical, 305/306 fills in chunk text — METHOD D-12).** v2 polish R1
+grind resumed (POLISH-CONT-V2, 2026-10-27): runner/merge/audit parameterized via env (defaults = v1
+byte-proven unchanged, L-026), 40/801 applied across 5 quota windows (openings ~20 min apart,
++5-15/burst), merge anchor 0 drift from the v2 pristine, audit 0 Unicode-unit regressions, validator
+ALL CHECKS PASSED — resumable (43 done incl. 3 rejected, 6 error records self-heal). SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
 ## Books of this lane
@@ -58,7 +62,13 @@ v2 hub course ial-chemistry-17 · specKey
    byte-faithful; see the rescue R2 README). Consumption = a fresh-parse (v2)
    lane applying the full 315-record sidecar, OR a byte-faithful env
    reproduction (pin the onnxruntime backend, reuse the r0 model artifacts).
-2. LLM polish R1 (800 ids staged at `pipeline/evidence/llm_repair_ids_ych12.json`): the YCH11 `llm_repair_ych11.js` pattern re-targeted at `ych12_sb2` — 103/800 done, quota-walled as of 2026-10-26 (intermittent 429 wall;
-  burst-harvest grind windows).
+2. ~~LLM polish R1 (800 ids staged at `pipeline/evidence/llm_repair_ids_ych12.json`)~~ —
+   superseded by the v2 lane: polish re-targeted at the v2 corpus of record,
+   **801 ids staged at `pipeline/evidence/llm_repair_ids_ych12_v2.json`**
+   (v1's 103 repairs remain v1-history; repairs do not carry by id — L-026).
+   Runner/merge/audit parameterized via env (`YCH12_CORPUS`/`YCH12_IDS`/
+   `YCH12_REPAIRS`, defaults = v1 byte-proven unchanged). Grind resumed
+   2026-10-27 (POLISH-CONT-V2), quota-walled burst-harvest regime
+   (openings ~10–19 min apart this session).
 3. Serving lane (TEXTBOOK doc + book_chapters + slices manifest + T-C20 flip).
 4. Update `books/CATALOG.md` tracker in the same commit as each state change.

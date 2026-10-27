@@ -31,8 +31,10 @@ from book_structure_ych12 import (CHAPTERS, EXTRA_SECTIONS, TOPIC_DIVIDERS,
 
 PAGES_DIR = "/home/z/my-project/data/ych12_sb2/docling_pages"
 OUT_DIR = os.environ.get("YCH12_OUT_DIR", "/home/z/my-project/data/ych12_sb2/out")
-# v2 fresh-parse lane (T-PARSE-YCH12-2): YCH12_VERSION=2 re-tags ids/filenames
+# v2 fresh-parse lane (T-PARSE-YCH12-2): YCH12_VERSION=v2 re-tags ids/filenames
 # (ych2_v2_). Default "v1" reproduces the r0 parse of record byte-for-byte.
+# (VER interpolates DIRECTLY into the id tag and filenames — the value must
+# be "v2", not "2": E-005 in books/README.md.)
 VER = os.environ.get("YCH12_VERSION", "v1")
 TARGET_MIN, TARGET_MAX, HARD_MAX, MERGE_MIN = 350, 1600, 2400, 250
 FIRST_ARABIC_PDF = OFFSET + 2  # book 2 = PDF 14 (book 1 print-blank omitted)
