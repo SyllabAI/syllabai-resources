@@ -98,3 +98,17 @@ pre-existing classes — recorded, not worsened, by this wave.
 - Verified: battery v3 re-run post-fix shows the 2C paper with zero shape hits; crops
   eyeball-verified; hub bundle spot-checked (1(b) clean + asset; `ticks (✓)`; 5(a) MPs
   honestly unchanged + queued).
+
+## Task 20 closure (same day) — the Finding 2 queue executed
+
+The C98-pinned 15 were cropped+stripped (16 crops incl. the F94 particles owner; rects
+eyeballed against 150 dpi page renders, PNGs re-verified), and the closure re-census found
+the census UNDER-INCLUSIVE: 6 further parts (2020-01 2C 6(d)(ii), 2021-01 1CR 8(b)(iii),
+2021-06 1C 5(c)(i), 2022-06 1CR 7(d)(i), 2022-06 2CR 5(c)(ii), 2023-06 1CR 10(c)(i)) whose
+atom runs are broken by multi-char tokens (`HO`/`CH3`/`COOCH3`/`C6H4`/bracket glyphs) were
+cropped+stripped in the same wave. The F94 option-drawing follow-up landed as shared refs
+(2020-11 2CR 1(b); 2023-01 2C 2(a)(ii)/(iii)) + the 2021-11 1C particles owner crop. C98's
+checker arm (missing from this wave's ship — see LEDGER F104) now pins the census at 0;
+C22 green via 4 backfilled ledger entries; C56's bracket pin re-homed. Canary suite 6→2 red
+(C13/C71 recorded). The 4 solution_md-only residue parts remain open with the reconciliation
+wave.

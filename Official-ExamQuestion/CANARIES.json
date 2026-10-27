@@ -493,7 +493,7 @@
   {
    "id": "C56-pua-free-corpus",
    "series": "*",
-   "assertion": "F48 PUA pass: no served string in any topic.json carries a Private Use Area char (U+E000-U+F8FF) — every symbol-font glyph surfaces as its evidenced real Unicode form; the pins re-prove eleven of the mappings at their exact parts 1CR-wave pins: the ZapfDingbats tick and the Symbol big-bracket trio.",
+   "assertion": "F48 PUA pass: no served string in any topic.json carries a Private Use Area char (U+E000-U+F8FF) — every symbol-font glyph surfaces as its evidenced real Unicode form; the pins re-prove eleven of the mappings at their exact parts (the 1CR bracket pin moved to 2023-01 2CR 4(b)(ii) by the Task 20 crop wave, which cropped+stripped the 7(d)(i) linearization the old pin lived in — the Symbol big-bracket mapping itself unchanged): the ZapfDingbats tick and the Symbol big-bracket trio.",
    "check": "no_pua_served",
    "pins": [
     {
@@ -567,9 +567,9 @@
      "contains": "Place ticks (✓) in three boxes"
     },
     {
-     "series": "2022-06",
-     "paper": "1CR",
-     "part": "7(d)(i)",
+     "series": "2023-01",
+     "paper": "2CR",
+     "part": "4(b)(ii)",
      "field": "problem",
      "contains": "⎡"
     }
@@ -987,7 +987,8 @@
    "id": "C98-drawing-linearization-census",
    "series": "*",
    "check": "drawing_linearization_census",
-   "assertion": "F96 (Task 19 deep-audit wave): the drawing-linearization open census is PINNED at 15 parts (problem_md carries >=4 single-letter atom-token runs or bond-fragment triples with no figure asset). The 2026-06 2C tranche (1(b), 1(c)(ii), 1(c)(iii)) was cropped+stripped in this wave; the 15 remaining are the disclosed crop-wave queue (disclosure 2026-10-27-task19-deep-audit.json, key drawing_linearization_open). The 2026-06 2C 1(c) intro displayed formula is served via asset_1_c_displayed-formula on 1(c)(i) (sibling-embed)."
+   "assertion": "F96 (Task 19; queue CLOSED by the Task 20 crop wave): the drawing-linearization open census (problem_md with >=4 single-letter atom-token runs and NO asset entry) is pinned by expected_open. Task 19 pinned 15 and disclosed the crop-wave queue; the Task 20 wave cropped+stripped all 15 (16 crops incl. the F94 particles owner) and backfilled the checker arm itself, which the Task 19 ship had left as an unknown check type (red-on-main since Task 19). Regresses if any new part serves atom-run garbage without a figure asset.",
+   "expected_open": 0
   },
   {
    "id": "C99-physics-rejected-crop-demoted",

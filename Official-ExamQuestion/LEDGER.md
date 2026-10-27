@@ -600,6 +600,19 @@ years with zero gate coverage — the same battery-blind-spot shape as F87 one l
   queue's source census was itself mention-driven). The 2026-06 2C tranche (1(b), 1(c)(ii),
   1(c)(iii)) is fixed in this wave; the remaining 15 are the PINNED open queue (C98 +
   disclosure `drawing_linearization_open`).
+
+  **Task 20 closure (2026-10-27): the pinned 15 were cropped+stripped (16 crops incl. the F94
+  particles owner) — and the closure re-census found the census itself UNDER-INCLUSIVE: 6 more
+  parts whose atom runs are broken by multi-char tokens (`HO`/`CH3`/`COOCH3`/`C6H4`/bracket
+  glyphs) never matched the ≥4-consecutive-shape reads: 2020-01 2C 6(d)(ii), 2021-01 1CR
+  8(b)(iii), 2021-06 1C 5(c)(i), 2022-06 1CR 7(d)(i), 2022-06 2CR 5(c)(ii), 2023-06 1CR
+  10(c)(i). All six cropped+stripped in the same wave (same machinery, same eyeball ledger).
+  The C98 arm counts ≥4 single-letter atom tokens corpus-wide after stripping authored
+  element=value patterns ("C = 44.7%" percentage/Ar composition text is chemistry, not
+  linearization — the 2026-06 2CR 6(a) false-positive class), pins expected_open = 0, and
+  self-validated 15→15+6 on the pre-wave corpus. The 4 solution_md-only residue parts and
+  2023-01 2CR 4(b)(ii)'s residual bracket-linearized equation (own crop already serves the
+  printed figure) remain the reconciliation wave's class.
 - **F97 — the bare-answer fallback (completes F90's queued intent for the real-answer
   parts)**: linked part + marks>0 + empty solution_md + real (non-fragment) MP text ⇒
   re-emit the part's own verbatim MP text as solution_md, disclosed via edits[]. Census:
@@ -639,3 +652,16 @@ years with zero gate coverage — the same battery-blind-spot shape as F87 one l
 
 | F103 | 2026-10-27 (Task 22 hub-export wave) | the hub plane: igcse-physics-19 served NO official past-paper sets (no official-papers.json; the SME provenance reconstructions were the only Past-Papers source — noisy labels back to 2012, sparse keyed MCQs) and the exporter/verifier of record were chemistry-hardcoded (CORPUS/RAW/slug prefix/EXPECTED_CENSUS/stem-ledger keys/G-E5 rel path/curriculum/topicId seed/dest/manifest note) | the lane-registry generalization (--spec 4ch1\|4ph1, the Task 14 pattern): chemistry default byte-identical (parity receipt: staged questions.json + official-papers.json byte-identical vs the pre-change exporter at the cut; G-E1 no-op; G-E1b 54/54; self-test 4/4); physics lane with the 55-slice frozen census (Task 22 MULTI-SERIES-REPORT @ v0.25.0); topicId seed lane-scoped (the bare-series seed would collide with chemistry's topicIds — the F44 collision class, lane-wide); the bootstrap export (empty official seed + --allow-new-official, 2,254-part 'new' census disclosed exactly: scripts/exporter-disclosures/2026-10-27-task22-physics-bootstrap.json; G-E5 55/55 staging-vs-cut; the compact-serialized v2 questions.json normalized to the canonical indent=1 form, content parsed-level identical — the G-E4 byte law then holds going forward); the F-187 verify green pre-sync + self-test 4/4 post-sync; CI: the physics bootstrap disclosure shadowed the global $LATEST slot (the Task 21 class) — filed the post-bootstrap emptied chemistry census as the new $LATEST, then the verifier artifact sync fix (the run-repo copies of the arg-order + report-key fixes had not made PR #184's first commit) | **H3 CUTOVER LANED**: v2 PR #403 merged c89c71e64aee — official-papers.json (55 official sets: 540 questions / 2,254 parts / 4,970 marks) serves the Past Papers plane, questions.json canonical (24 SME sets content-identical), manifest ref stamped main@6298eb94479a25e3f3d22d66a51c29eb8b67e071; the handover receipts: H1 baseline + H2 comparison (55 official rows vs 43 SME provenance rows, 0 blockers; SME-only rows are the legacy 4PH0-era sessions + the 3 NO-QP 2020-11 dirs; first-match-wins keeps SME there) | the exporter gates are the guard (F51 convention: no canary for a manifest-plane wave); G8 post-completion audit of record in the wave receipt |
 
+- **F104 — canaries shipped without checker dispatch arms (the vacuous-red lesson)**: Task 19
+  added C96/C97/C98 to CANARIES.json but check_canaries.py never learned their check types —
+  every run failed them as `unknown check type` (red-on-main since Task 19, alongside C22's
+  three unledgered `review_verdict: accepted` assets from the 2026-06 2C tranche, flagged by
+  C22's reverse direction). Nothing downstream gated on it: a red canary suite merged twice
+  (Task 19 r2, physics #185) without anyone noticing the arms were missing. Task 20 lands the
+  three arms (tick-mojibake sweep, empty-solution law with the fragment/marks-digit honest
+  class, the F96 census with expected_open), backfills the 4 missing CROP-REVIEW entries from
+  the STEM-RESTORE rects, and re-homes the C56 Symbol-bracket pin (2022-06 1CR 7(d)(i) →
+  2023-01 2CR 4(b)(ii)) because the wave cropped+stripped the linearization the old pin lived
+  in. **Rules: (1) a canary PR that adds a new check type MUST add the dispatch arm in the
+  same commit — CI must gate check_canaries.py exit code; (2) a wave that removes a pinned
+  string re-homes or retires the pin in the same wave with evidence.**
