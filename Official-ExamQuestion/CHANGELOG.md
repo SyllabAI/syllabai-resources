@@ -1,5 +1,39 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.23.0+task20 — 2026-10-27 · Task 20: the C98 crop wave (data + canary-arm wave — converter unchanged)
+
+The Task 19 deep audit's disclosed crop-wave queue (Finding 2, C98-pinned at 15) executed
+end-to-end, surgically per AGENTS.md law 5 (every touched slice is a known-divergent or
+re-derivation-pending one):
+
+- **22 crops, 2 tranches**: the pinned 15 (2019-06 1CR 4(b)(iv), 2020-01 1CR 9(b)(ii),
+  2021-11 1C 6(a)(iii)/(iv), 2021-11 2C 6(e)(ii), 2022-01 1C 8(d)(i), 2022-01 2C 7(e),
+  2022-06 1CR 7(c), 2023-01 1C 6(a)/(b), 2024-06 1C 8(a)(ii), 2024-06 2CR 7(c)(i),
+  2024-11 1C 10(c), 2025-06 1CR 9(d)(ii), 2026-06 1CR 8(c)) + the F94 option-drawing
+  follow-up (2021-11 1C 1(a)(i) particles owner + 1(a)(ii)/(iii) shared refs; 2020-11 2CR
+  1(b) shared ref to the stem apparatus crop; 2023-01 2C 2(a)(ii)/(iii) shared refs to the
+  properties table) — and the closure re-census's 6 newly-found parts (2020-01 2C 6(d)(ii),
+  2021-01 1CR 8(b)(iii), 2021-06 1C 5(c)(i), 2022-06 1CR 7(d)(i), 2022-06 2CR 5(c)(ii),
+  2023-06 1CR 10(c)(i)). Every rect eyeballed against the 150 dpi page render and the
+  rendered PNG re-verified; rendered at the F45 manual_crop semantics (dpi 150, block-overlap
+  text_coverage, raster containment) so a future clean re-run reproduces them byte-for-byte
+  from the ledger boxes.
+- **Strips**: linearized atom-run/bond-fragment garbage removed from the 21 problem_mds
+  (single-line, wave-19 style); the 2024-06 8(a)(ii) answer-box labels ("alkene isomer 1/2")
+  kept verbatim (outside the F96 class; disclosed).
+- **Ledgers**: STEM-RESTORE stemFigure specs for all 22 owner crops (10 new entries, 6
+  merged, 6 new-tranche); CROP-REVIEW accepted+manual_crop verdicts for all 22 + the 4
+  Task-19 2026-06 2C entries backfilled (C22's reverse direction green again). C56's
+  Symbol-bracket pin re-homed to 2023-01 2CR 4(b)(ii) (the 7(d)(i) pin site was cropped+
+  stripped; the mapping itself unchanged).
+- **Checker arms landed (F104)**: C96 tick-mojibake sweep, C97 empty-solution law (the
+  MS-answer-is-a-drawing fragment/marks-digit class is the only honest empty state), C98
+  drawing-linearization census (expected_open = 0; element=value composition patterns
+  excluded; self-validated 15→21 on the pre-wave corpus). C22 fixed via the ledger backfill.
+  Canary suite: 6 red at base → 2 red (C13/C71, the recorded F97-class reconciliation items).
+- **Hub**: official-papers.json regenerated through the exporter with the serve-side battery
+  re-run (see the disclosure file `scripts/exporter-disclosures/2026-10-27-task20-crop-wave.json`).
+
 ## 0.25.0 — 2026-10-27 · Task 22: the OCR + repair-reconversion waves (F101–F102) — the 4PH1 convertible corpus completes (55/55)
 
 Two operator-ordered waves landed as one conversion-completion re-emission for the 4PH1 lane

@@ -418,6 +418,13 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 20 (2026-10-27) CLOSED the C98 drawing-linearization queue end-to-end: the pinned 15
+  plus the 6 the closure re-census discovered (F96 update) are cropped+stripped with durable
+  eyeball ledgers (STEM-RESTORE stemFigure specs + CROP-REVIEW manual_crop verdicts), the
+  three Task-19 canaries finally have checker arms (F104), and the C98 arm pins the census at
+  expected_open = 0 corpus-wide. Residual drawing-linearization classes (4 solution_md-only
+  residues; 2023-01 2CR 4(b)(ii)'s bracket residue under its own crop) stay with the
+  reconciliation wave, as does re-deriving the known-divergent slices.
 - Wave-20 (v0.14.0) CLOSED the wave-19 tranche flags: all 48 stem figures/tables the
   restored stems reference are eyeballed crops rendered through the F45 manual-crop
   branch from STEM-RESTORE.json stemFigures specs (converter v0.14.0 question-stem

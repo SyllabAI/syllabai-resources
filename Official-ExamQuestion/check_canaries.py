@@ -912,6 +912,102 @@ for c in cans:
                     ok = False
                     print(f"  ! {c['id']}: dismissed {e['part']} is UNREVIEWED")
             print(f"  (figure queue: {n_c} cropped / {n_s} served_via / {n_d} dismissed)")
+        elif chk == "tick_glyph_canonical":
+            # C96 (F92, Task 19): the printed tick never serves as the Latin-1
+            # mojibake "(ü)" — the served form is "ticks (✓)" (F92 mirror law).
+            # Corpus-wide string sweep; the printed table-cell tick (✓) is
+            # question content and is unaffected.
+            ok = True
+            n = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    stack = [t]
+                    while stack:
+                        o = stack.pop()
+                        if isinstance(o, str):
+                            n += 1
+                            if "(\u00fc)" in o:
+                                ok = False
+                                print(f"  ! {d.name}/{pd.name}: mojibake tick in {o[:70]!r}")
+                        elif isinstance(o, dict):
+                            stack.extend(o.values())
+                        elif isinstance(o, list):
+                            stack.extend(o)
+            print(f"  (strings scanned for the mojibake tick: {n})")
+
+        elif chk == "no_empty_solution_with_answer":
+            # C97 (F97, Task 19): a linked part carrying marks and a real
+            # (non-fragment) mark_point must emit a solution_md. The honest
+            # empty state is the MS-answer-is-a-drawing class: every MP a
+            # margin-note fragment or the marks-digit leak (== part marks).
+            ok = True
+            _FRAG_RE = re.compile(
+                r"^(?:allow|reject|do not accept|do not credit|max |ignore\b|if m\d|"
+                r"penalise|penalize|condone|award|cep\b|tec\b|owa\b)", re.I)
+            n_linked = n_empty = 0
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            if p.get("answer_status") != "linked":
+                                continue
+                            n_linked += 1
+                            if p.get("solution_md"):
+                                continue
+                            n_empty += 1
+                            marks = p.get("marks")
+                            mps = p.get("mark_points") or []
+                            def _is_frag(mp):
+                                txt = str(mp.get("text_md", "")).strip()
+                                if not txt:
+                                    return True
+                                if txt.isdigit() and marks is not None \
+                                        and int(txt) == int(marks):
+                                    return True
+                                return bool(_FRAG_RE.match(txt))
+                            if mps and not all(_is_frag(mp) for mp in mps):
+                                ok = False
+                                print(f"  ! {d.name}/{pd.name} {p['part_number']}: "
+                                      f"linked, marks={marks}, empty solution_md, real MP text")
+            print(f"  (linked parts: {n_linked}, empty-solution states: {n_empty})")
+
+        elif chk == "drawing_linearization_census":
+            # C98 (F96, Task 19; closed by the Task 20 crop wave): problem_md
+            # carrying >=4 single-letter atom-token runs with NO asset entry at
+            # all = untracked drawing-linearization garbage (the mention-driven
+            # blind spot). Pinned by expected_open in the canary entry.
+            _ATOM = re.compile(r"^(?:H|C|O|N|S|P|K|B|F|I|W|Br|Cl)$")
+            expected = int(c.get("expected_open", 0))
+            open_parts = []
+            for d in sorted(BASE.iterdir()):
+                if not d.is_dir():
+                    continue
+                for pd in paper_dirs(d):
+                    t = json.loads((pd / "topic.json").read_text())
+                    for q in t["questions"]:
+                        for p in q["parts"]:
+                            pmd = p.get("problem_md") or ""
+                            if not pmd or (p.get("assets") or []):
+                                continue
+                            # authored element=value patterns ("C = 44.7%", "H=1")
+                            # are chemistry content, not linearized drawings
+                            pmd_scan = re.sub(r"[A-Z][a-z]?\s*=\s*[\d.]+\s*%?", " ", pmd)
+                            runs = sum(1 for w in pmd_scan.split()
+                                       if len(w) == 1 and _ATOM.match(w))
+                            if runs >= 4:
+                                open_parts.append(
+                                    f"{d.name}/{pd.name.split('-')[1]} {p['part_number']}")
+            ok = len(open_parts) == expected
+            for x in open_parts:
+                print("  ! drawing-linearization open:", x)
+            print(f"  (drawing-linearization open census: {len(open_parts)} (pinned {expected}))")
+
         else:
             ok = False
             print(f"  ! unknown check type {chk}")

@@ -246,7 +246,33 @@
   "2022-06/4CH1-1CR:Q7": {
    "verdict": "replace",
    "stemMd": "Crude oil is separated into useful fractions. Some fractions are used to make other chemicals.\n\ncrude oil → (process 1) → kerosene → (process 2) → ethene → (process 3) → chloroethene → (process 4) → poly(chloroethene)",
-   "why": "reaction scheme rebuilt verbatim from the flattened run (no crop exists)"
+   "why": "reaction scheme rebuilt verbatim from the flattened run (no crop exists); Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.; Task 20 crop wave (detector-discovered drawing-linearization tranche): the Task 19 census was under-inclusive (atom runs broken by multi-char tokens like HO/CH3/COOCH3); rect eyeballed against the 150 dpi page render; rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_7_c_equation",
+     "page": 20,
+     "rect": [
+      178,
+      495,
+      415,
+      575
+     ],
+     "mention": "equation: ethene + chlorine -> 1,2-dichloroethane",
+     "target": "7(c)"
+    },
+    {
+     "id": "asset_7_d_i_equation",
+     "page": 21,
+     "rect": [
+      158,
+      96,
+      438,
+      184
+     ],
+     "mention": "equation to complete: n chloroethene -> repeat-unit bracket",
+     "target": "7(d)(i)"
+    }
+   ]
   },
   "2025-11/4CH1-1C:Q6": {
    "verdict": "replace",
@@ -667,7 +693,7 @@
   },
   "2022-01/4CH1-1C:Q8": {
    "verdict": "keep",
-   "why": "six displayed structures A-F flattened as letter runs; not cropped",
+   "why": "six displayed structures A-F flattened as letter runs; not cropped; Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
    "stemFigures": [
     {
      "id": "asset_8_stem_structures",
@@ -680,6 +706,18 @@
      ],
      "mention": "six displayed structures A-F",
      "target": null
+    },
+    {
+     "id": "asset_8_d_i_equation",
+     "page": 22,
+     "rect": [
+      82,
+      162,
+      495,
+      252
+     ],
+     "mention": "equation to complete: 2 molecules of compound E -> polymer chain",
+     "target": "8(d)(i)"
     }
    ],
    "dropTail": "A B C H H H H H H H C H H H H C C H C C C H C C C C H H H H H H H CH3 H C C H H D E F H H H H H H H H H C C C C H C C C H H C H H H H H H H H"
@@ -1177,7 +1215,7 @@
   },
   "2026-06/4CH1-1CR:Q8": {
    "verdict": "keep",
-   "why": "six displayed formulae A-F flattened; not cropped",
+   "why": "six displayed formulae A-F flattened; not cropped; Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
    "stemFigures": [
     {
      "id": "asset_8_stem_structures",
@@ -1190,6 +1228,18 @@
      ],
      "mention": "six displayed formulae A-F",
      "target": null
+    },
+    {
+     "id": "asset_8_c_equation",
+     "page": 19,
+     "rect": [
+      37,
+      616,
+      240,
+      706
+     ],
+     "mention": "equation to complete: n but-2-ene -> polymer",
+     "target": "8(c)"
     }
    ],
    "dropTail": "A B C H H H H H H H H H H C C C H H C C C C H H C C C H H H H H H H H H H C H H D E F H H H H H H C H H C C H H C C H H H C C H Br Br H H"
@@ -1269,7 +1319,7 @@
   },
   "2021-11/4CH1-1C:Q6": {
    "verdict": "keep",
-   "why": "wave-23 fix: figure verified missing from the served corpus (G8 audit queue)",
+   "why": "wave-23 fix: figure verified missing from the served corpus (G8 audit queue); Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
    "stemFigures": [
     {
      "id": "asset_6_stem_compounds-grid",
@@ -1282,6 +1332,30 @@
      ],
      "mention": "displayed formulae of compounds U, V, W, X and Y",
      "target": "6(a)(i)"
+    },
+    {
+     "id": "asset_6_a_iii_structure",
+     "page": 16,
+     "rect": [
+      232,
+      676,
+      375,
+      764
+     ],
+     "mention": "structure formed with bromine + UV (2-bromobutane)",
+     "target": "6(a)(iii)"
+    },
+    {
+     "id": "asset_6_a_iv_repeat-unit",
+     "page": 17,
+     "rect": [
+      250,
+      100,
+      345,
+      192
+     ],
+     "mention": "addition polymer repeat unit (poly(propene))",
+     "target": "6(a)(iv)"
     }
    ]
   },
@@ -1660,6 +1734,288 @@
      ],
      "mention": "polyester repeating unit",
      "target": "1(c)(iii)"
+    }
+   ]
+  },
+  "2019-06/4CH1-1CR:Q4": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_4_b_iv_isomer",
+     "page": 9,
+     "rect": [
+      252,
+      130,
+      398,
+      215
+     ],
+     "mention": "displayed formula of one C5H12 isomer (pentane)",
+     "target": "4(b)(iv)"
+    }
+   ]
+  },
+  "2020-01/4CH1-1CR:Q9": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_9_b_ii_equation",
+     "page": 26,
+     "rect": [
+      150,
+      638,
+      442,
+      742
+     ],
+     "mention": "equation to complete: n ethene -> polymer repeat-unit bracket",
+     "target": "9(b)(ii)"
+    }
+   ]
+  },
+  "2021-11/4CH1-1C:Q1": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_1_a_i_particles",
+     "page": 4,
+     "rect": [
+      112,
+      102,
+      480,
+      212
+     ],
+     "mention": "F94 option-drawing follow-up: the four particle boxes A-D the (i)-(iii) trio answers from; siblings carry shared refs",
+     "target": "1(a)(i)"
+    }
+   ]
+  },
+  "2021-11/4CH1-2C:Q6": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_6_e_ii_repeat-unit",
+     "page": 20,
+     "rect": [
+      220,
+      78,
+      372,
+      158
+     ],
+     "mention": "polyester repeat unit",
+     "target": "6(e)(ii)"
+    }
+   ]
+  },
+  "2022-01/4CH1-2C:Q7": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_7_e_structures",
+     "page": 26,
+     "rect": [
+      140,
+      78,
+      452,
+      162
+     ],
+     "mention": "structures of the two organic compounds (ethanedioic acid + ethane-1,2-diol)",
+     "target": "7(e)"
+    }
+   ]
+  },
+  "2023-01/4CH1-1C:Q6": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_6_a_monomer",
+     "page": 12,
+     "rect": [
+      246,
+      100,
+      344,
+      182
+     ],
+     "mention": "structure of the monomer (chloroethene)",
+     "target": "6(a)"
+    },
+    {
+     "id": "asset_6_b_equation",
+     "page": 12,
+     "rect": [
+      96,
+      376,
+      492,
+      496
+     ],
+     "mention": "equation to complete: n chloroethene -> repeat-unit bracket",
+     "target": "6(b)"
+    }
+   ]
+  },
+  "2024-06/4CH1-1C:Q8": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_8_a_ii_isomer",
+     "page": 16,
+     "rect": [
+      232,
+      278,
+      363,
+      370
+     ],
+     "mention": "displayed formula of one alkene isomer (but-1-ene)",
+     "target": "8(a)(ii)"
+    }
+   ]
+  },
+  "2024-06/4CH1-2CR:Q7": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_7_c_i_equation",
+     "page": 21,
+     "rect": [
+      155,
+      425,
+      430,
+      655
+     ],
+     "mention": "esterification equation to complete (acid + alcohol <=> + ester A)",
+     "target": "7(c)(i)"
+    }
+   ]
+  },
+  "2024-11/4CH1-1C:Q10": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_10_c_equation",
+     "page": 29,
+     "rect": [
+      165,
+      74,
+      422,
+      170
+     ],
+     "mention": "poly(ethene) equation: n ethene -> repeat unit",
+     "target": "10(c)"
+    }
+   ]
+  },
+  "2025-06/4CH1-1CR:Q9": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (C98 drawing-linearization queue closure): printed structure the text layer linearizes into atom-run garbage; rect eyeballed against the 150 dpi page render (crop-wave previews); rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_9_d_ii_isomer",
+     "page": 21,
+     "rect": [
+      218,
+      248,
+      380,
+      333
+     ],
+     "mention": "displayed formula of one isomer (pentane)",
+     "target": "9(d)(ii)"
+    }
+   ]
+  },
+  "2020-01/4CH1-2C:Q6": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (detector-discovered drawing-linearization tranche): the Task 19 census was under-inclusive (atom runs broken by multi-char tokens like HO/CH3/COOCH3); rect eyeballed against the 150 dpi page render; rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_6_d_ii_equation",
+     "page": 13,
+     "rect": [
+      64,
+      212,
+      554,
+      356
+     ],
+     "mention": "polyester equation to complete (ethanedioic acid + ethane-1,2-diol)",
+     "target": "6(d)(ii)"
+    }
+   ]
+  },
+  "2021-01/4CH1-1CR:Q8": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (detector-discovered drawing-linearization tranche): the Task 19 census was under-inclusive (atom runs broken by multi-char tokens like HO/CH3/COOCH3); rect eyeballed against the 150 dpi page render; rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_8_b_iii_equation",
+     "page": 23,
+     "rect": [
+      112,
+      88,
+      305,
+      168
+     ],
+     "mention": "equation to complete: n methyl methacrylate -> polymer",
+     "target": "8(b)(iii)"
+    }
+   ]
+  },
+  "2021-06/4CH1-1C:Q5": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (detector-discovered drawing-linearization tranche): the Task 19 census was under-inclusive (atom runs broken by multi-char tokens like HO/CH3/COOCH3); rect eyeballed against the 150 dpi page render; rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_5_c_i_equation",
+     "page": 11,
+     "rect": [
+      86,
+      474,
+      188,
+      556
+     ],
+     "mention": "equation to complete: n propene -> poly(propene)",
+     "target": "5(c)(i)"
+    }
+   ]
+  },
+  "2022-06/4CH1-2CR:Q5": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (detector-discovered drawing-linearization tranche): the Task 19 census was under-inclusive (atom runs broken by multi-char tokens like HO/CH3/COOCH3); rect eyeballed against the 150 dpi page render; rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_5_c_ii_aspirin",
+     "page": 13,
+     "rect": [
+      204,
+      224,
+      382,
+      284
+     ],
+     "mention": "structural formula of aspirin",
+     "target": "5(c)(ii)"
+    }
+   ]
+  },
+  "2023-06/4CH1-1CR:Q10": {
+   "verdict": "keep",
+   "why": "Task 20 crop wave (detector-discovered drawing-linearization tranche): the Task 19 census was under-inclusive (atom runs broken by multi-char tokens like HO/CH3/COOCH3); rect eyeballed against the 150 dpi page render; rendered by the F45 manual_crop path.",
+   "stemFigures": [
+    {
+     "id": "asset_10_c_i_equation",
+     "page": 26,
+     "rect": [
+      118,
+      142,
+      292,
+      222
+     ],
+     "mention": "equation to complete: n propene -> poly(propene)",
+     "target": "10(c)(i)"
     }
    ]
   }
