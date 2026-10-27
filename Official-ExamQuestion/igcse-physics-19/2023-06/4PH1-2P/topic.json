@@ -1,0 +1,1245 @@
+{
+ "schema": "syllabai.official-paper-questions/0.2",
+ "generated_utc": "2026-10-27T05:11:15Z",
+ "generator": "official_examq_extract.py v0.25.0 (ADR-039) series=2023-06 paper=2P",
+ "paper_id": "pearson-edexcel:international-gcse:physics:4ph1:2023-06:4PH1/2P",
+ "source": {
+  "qp_sha256": "5f46e82134287b4a0215f8ff037e76f0f140beef0727686cafc0ffe32d18eda3",
+  "ms_sha256": "d87e90b620c9577d1dd08db69d8932e9b6c4fe2c7bd5a27ca70070375d02ff9b",
+  "series": "2023-06",
+  "printed": "June 2023",
+  "archive": [
+   "PhysicsAndMathsTutor.com",
+   "Paperlords (paperlords.org archive CDN)",
+   "Paperlords (paperlords.org archive CDN)"
+  ]
+ },
+ "paper_info": {
+  "code": "4PH1/2P",
+  "session": "2023-06",
+  "total_marks": 70,
+  "course_id": "igcse-physics-19"
+ },
+ "questions": [
+  {
+   "id": "4PH1-2P-01",
+   "question_number": 1,
+   "total_marks": 6,
+   "total_marks_source": "printed-footer",
+   "stem_md": "A pencil has a weight of 0.16 N.",
+   "parts": [
+    {
+     "part_number": "1(a)",
+     "marks": 1,
+     "question_type": "multiple_choice",
+     "problem_md": "What is the mass of the pencil?",
+     "choices": [
+      {
+       "label": "A",
+       "text_md": "1.6 g",
+       "is_correct": false
+      },
+      {
+       "label": "B",
+       "text_md": "16 g",
+       "is_correct": true
+      },
+      {
+       "label": "C",
+       "text_md": "160 g",
+       "is_correct": false
+      },
+      {
+       "label": "D",
+       "text_md": "1600 g",
+       "is_correct": false
+      }
+     ],
+     "answer_status": "linked",
+     "solution_md": "B – 16 g;\nA cannot be correct as g on Earth is not 100\nC cannot be correct as g on Earth is not 1\nD cannot be correct as g on Earth is not 0.1",
+     "mark_points": [
+      {
+       "id": "2023-06-1-a-MP1",
+       "marks": 1,
+       "text_md": "Answer B: 16 g"
+      }
+     ],
+     "source_page": 4,
+     "assets": [],
+     "spec_point_codes": [
+      "1.18"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "ms-positional",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "1(b)(i)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "The weight of the pencil is 0.16 N. Calculate the moment of the weight of the pencil about the pivot. Use the formula moment = force × perpendicular distance from the pivot moment = N cm",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula; ignore units here\ncorrect evaluation; accept 0.00592 Nm (i.e.\nunit on answer line\nchanged)\ncondone 1sf answer\ncorrect answer: 0.59(2) (N cm) accept 0.00592 Nm (i.e.\nunit on answer line\nchanged)\n-1 POT error otherwise\ne.g.\nmoment = 0.16 × 3.7\nmoment = 0.592 (N cm)",
+     "mark_points": [
+      {
+       "id": "2023-06-1-b-i-MP1",
+       "marks": 2,
+       "text_md": "substitution into given formula; ignore units here\ncorrect evaluation; accept 0.00592 Nm (i.e.\nunit on answer line\nchanged)\ncondone 1sf answer\ncorrect answer: 0.59(2) (N cm) accept 0.00592 Nm (i.e.\nunit on answer line\nchanged)\n-1 POT error otherwise\ne.g.\nmoment = 0.16 × 3.7\nmoment = 0.592 (N cm)"
+      }
+     ],
+     "source_page": 4,
+     "assets": [],
+     "spec_point_codes": [
+      "1.30P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "1(b)(ii)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "State the moment of the force F. moment = N cm",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "0.59(2) (N cm); ECF candidate’s answer\nfrom (i)",
+     "mark_points": [
+      {
+       "id": "2023-06-1-b-ii-MP1",
+       "marks": 1,
+       "text_md": "0.59(2) (N cm); ECF candidate’s answer\nfrom (i)"
+      }
+     ],
+     "assets": [],
+     "spec_point_codes": [
+      "1.30P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "1(b)(iii)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Show that force F is 0.080 N.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "substitution; ECF candidate’s answer\nfrom (ii) for substitution\nonly\nre-arrangement and evaluation; ignore reverse\nargument\ne.g. accept 0.16 x 3.7 for\n0.592 = F × 7.4 0.59(2)\nF = 0.592 ÷ 7.4 = 0.08(0)\n0.592/7.4 = 0.080\nor 0.59 /7.4 = 0.0797…\nor 0.6 /7.4 = 0.08108…\nall score 2 marks\nTotal for question 1: 6 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-1-b-iii-MP1",
+       "marks": 2,
+       "text_md": "substitution; ECF candidate’s answer\nfrom (ii) for substitution\nonly\nre-arrangement and evaluation; ignore reverse\nargument\ne.g. accept 0.16 x 3.7 for\n0.592 = F × 7.4 0.59(2)\nF = 0.592 ÷ 7.4 = 0.08(0)\n0.592/7.4 = 0.080\nor 0.59 /7.4 = 0.0797…\nor 0.6 /7.4 = 0.08108…\nall score 2 marks\nTotal for question 1: 6 marks\nAnswer Notes Marks"
+      }
+     ],
+     "source_page": 5,
+     "assets": [],
+     "spec_point_codes": [
+      "1.30P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {
+    "b": {
+     "group_stem_md": "The diagram shows the pencil with one end resting on a small block. F 7.4 cm pivot 3.7 cm 0.16 N A finger provides an upwards force, F, to keep the pencil horizontal."
+    }
+   }
+  },
+  {
+   "id": "4PH1-2P-02",
+   "question_number": 2,
+   "total_marks": 8,
+   "total_marks_source": "printed-footer",
+   "stem_md": "A solid bar of chocolate is taken from a refrigerator. (Source: © MarySan/Shutterstock)",
+   "parts": [
+    {
+     "part_number": "2(a)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "The temperature of the chocolate bar is 5 °C. Describe the arrangement and motion of the particles inside the chocolate bar.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "arrangement:\nfixed (position) / eq; condone ideas of\n“regular” or “uniform”\nmotion:\nvibrating /eq ;",
+     "mark_points": [
+      {
+       "id": "2023-06-2-a-MP1",
+       "marks": 2,
+       "text_md": "arrangement:\nfixed (position) / eq; condone ideas of\n“regular” or “uniform”\nmotion:\nvibrating /eq ;"
+      }
+     ],
+     "source_page": 6,
+     "assets": [],
+     "spec_point_codes": [
+      "5.10P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "2(b)(i)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Describe the motion of the particles in the chocolate when the chocolate is at a temperature of 45 °C.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "ignore references to\nbonds, spacing or\narrangement\n(movement now) random;\nidea that particles are no longer in fixed allow flowing past each\nposition; other, reference to\nnon-zero speed, non-\nzero KE\ncondone ‘free to move’",
+     "mark_points": [
+      {
+       "id": "2023-06-2-b-i-MP1",
+       "marks": 2,
+       "text_md": "ignore references to\nbonds, spacing or\narrangement\n(movement now) random;\nidea that particles are no longer in fixed allow flowing past each\nposition; other, reference to\nnon-zero speed, non-\nzero KE\ncondone ‘free to move’"
+      }
+     ],
+     "source_page": 6,
+     "assets": [],
+     "spec_point_codes": [
+      "5.10P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "2(b)(ii)",
+     "marks": 1,
+     "question_type": "multiple_choice",
+     "problem_md": "Which of these is used to measure the temperature of the chocolate?",
+     "choices": [
+      {
+       "label": "A",
+       "text_md": "balance",
+       "is_correct": false
+      },
+      {
+       "label": "B",
+       "text_md": "ruler",
+       "is_correct": false
+      },
+      {
+       "label": "C",
+       "text_md": "stopwatch",
+       "is_correct": false
+      },
+      {
+       "label": "D",
+       "text_md": "thermometer",
+       "is_correct": true
+      }
+     ],
+     "answer_status": "linked",
+     "solution_md": "D - thermometer;\nA cannot be the answer as a balance measures\nmass\nB cannot be the answer as a ruler measures\nlength\nC cannot be the answer as a stopwatch\nmeasures time",
+     "mark_points": [
+      {
+       "id": "2023-06-2-b-ii-MP1",
+       "marks": 1,
+       "text_md": "Answer D: thermometer"
+      }
+     ],
+     "source_page": 6,
+     "assets": [],
+     "spec_point_codes": [
+      "5.16"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "ms-positional",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "2(b)(iii)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "Use the axes to sketch a graph of how the temperature of the chocolate changes with time when it is heated from 5 °C to 45 °C. Temperature in °C Time",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "temperature increases from 5 oC to 45 oC;\ntemperature remains constant at some stage\nbelow 45 degrees;\nsingle constant temperature section at 32 oC; ignore first constant\nsection at 5 degrees\nignore second constant\nsection at 45 degrees\nTotal for question 2: 8 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-2-b-iii-MP1",
+       "marks": 3,
+       "text_md": "temperature increases from 5 oC to 45 oC;\ntemperature remains constant at some stage\nbelow 45 degrees;\nsingle constant temperature section at 32 oC; ignore first constant\nsection at 5 degrees\nignore second constant\nsection at 45 degrees\nTotal for question 2: 8 marks\nAnswer Notes Marks"
+      }
+     ],
+     "source_page": 7,
+     "assets": [
+      {
+       "id": "asset_2_b_iii_graph",
+       "kind": "crop",
+       "mention": "graph",
+       "source": "qp.pdf",
+       "page": 7,
+       "review": false,
+       "path": "assets/asset_2_b_iii_graph.png",
+       "render": "vector",
+       "text_coverage": 0.025,
+       "review_verdict": "accepted"
+      }
+     ],
+     "spec_point_codes": [
+      "5.11P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {
+    "b": {
+     "group_stem_md": "The chocolate is heated at a constant rate until the temperature reaches 45 °C. The chocolate has a melting point of 32 °C and a boiling point of 55 °C."
+    }
+   }
+  },
+  {
+   "id": "4PH1-2P-03",
+   "question_number": 3,
+   "total_marks": 12,
+   "total_marks_source": "printed-footer",
+   "stem_md": "The diagram shows the inside of an oscilloscope. Electrons leave the electron supply and accelerate towards the screen. The stream of electrons hits the screen. – + stream of electrons electron supply positively charged screen grid",
+   "parts": [
+    {
+     "part_number": "3(a)(i)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Explain, in terms of the movement of particles, how the grid has become positively charged.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "reject reference to\npositive electrons\nidea of transfer of electrons (from grid);\ngrid has lost electrons; this statement alone\nscores 2\nreject “lost from\nelectron supply”",
+     "mark_points": [
+      {
+       "id": "2023-06-3-a-i-MP1",
+       "marks": 2,
+       "text_md": "reject reference to\npositive electrons\nidea of transfer of electrons (from grid);\ngrid has lost electrons; this statement alone\nscores 2\nreject “lost from\nelectron supply”"
+      }
+     ],
+     "source_page": 9,
+     "assets": [
+      {
+       "id": "asset_3_a_i_grid",
+       "kind": "crop-required",
+       "mention": "grid",
+       "source": "qp.pdf",
+       "page": 9,
+       "review": false,
+       "review_verdict": "stub-accepted"
+      }
+     ],
+     "spec_point_codes": [
+      "2.24P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "3(a)(ii)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "State the formula linking kinetic energy, mass and speed.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "KE = ½ m v2 accept word equation\naccept velocity for\nspeed\nallow either case letters",
+     "mark_points": [
+      {
+       "id": "2023-06-3-a-ii-MP1",
+       "marks": 1,
+       "text_md": "KE = ½ m v2 accept word equation\naccept velocity for\nspeed\nallow either case letters"
+      }
+     ],
+     "source_page": 9,
+     "assets": [],
+     "spec_point_codes": [
+      "4.14"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "3(a)(iii)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "Calculate the speed of an electron when it has 1.3 × 10 –15 J of kinetic energy. The mass of an electron is 9.1 × 10 –31 kg. speed = m / s",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "substitution in correct formula;\nre-arrangement;\ncorrect evaluation; unrounded answer is\n53452248 (m/s)\ncorrect answer: 5.3 × 107 (m/s)\nallow full credit for\ne.g. correct answer with no\n1.3 × 10−15 = ½ × 9.1 x 10−31 × v2 working\nv2 = 2.857… × 1015 POT in final answer e.g.\nv = 5.345… × 107 (m/s) 5.345… x 103 for 2\nPOT in v2 giving 1.69… x\n10n (m/s) for v for 2\naccept unrooted answer\nwithout POT error i.e.\n2.857… x 1015 (m/s) for\n2 marks\naccept POT and\nunrooted answer e.g.\n2.86 x 10n (m/s) for 1\nmark max\naccept answer in any\nform except fractional",
+     "mark_points": [
+      {
+       "id": "2023-06-3-a-iii-MP1",
+       "marks": 3,
+       "text_md": "substitution in correct formula;\nre-arrangement;\ncorrect evaluation; unrounded answer is\n53452248 (m/s)\ncorrect answer: 5.3 × 107 (m/s)\nallow full credit for\ne.g. correct answer with no\n1.3 × 10−15 = ½ × 9.1 x 10−31 × v2 working\nv2 = 2.857… × 1015 POT in final answer e.g.\nv = 5.345… × 107 (m/s) 5.345… x 103 for 2\nPOT in v2 giving 1.69… x\n10n (m/s) for v for 2\naccept unrooted answer\nwithout POT error i.e.\n2.857… x 1015 (m/s) for\n2 marks\naccept POT and\nunrooted answer e.g.\n2.86 x 10n (m/s) for 1\nmark max\naccept answer in any\nform except fractional"
+      }
+     ],
+     "source_page": 9,
+     "assets": [],
+     "spec_point_codes": [
+      "4.14"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "3(b)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "The stream of electrons spreads out as it travels towards the screen. Explain why the electrons in the stream move apart from each other.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "idea that electrons are (all) negatively charged/like reject idea of positive\ncharged; electrons for this MP\nonly\ncondone ‘similar\ncharge’\nlike charges repel;\naccept idea of like\ncharges experiencing a\nrepulsive force",
+     "mark_points": [
+      {
+       "id": "2023-06-3-b-MP1",
+       "marks": 2,
+       "text_md": "idea that electrons are (all) negatively charged/like reject idea of positive\ncharged; electrons for this MP\nonly\ncondone ‘similar\ncharge’\nlike charges repel;\naccept idea of like\ncharges experiencing a\nrepulsive force"
+      }
+     ],
+     "source_page": 10,
+     "assets": [],
+     "spec_point_codes": [
+      "2.25P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "3(c)(i)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "Use the scale to determine the radius of the circle. radius = cm",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "2.5 (cm); allow 2.4 - 2.6 (cm)",
+     "mark_points": [
+      {
+       "id": "2023-06-3-c-i-MP1",
+       "marks": 1,
+       "text_md": "2.5 (cm); allow 2.4 - 2.6 (cm)"
+      }
+     ],
+     "source_page": 10,
+     "assets": [],
+     "spec_point_codes": [],
+     "tagging": "no-spec-point",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "3(c)(ii)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "The time taken for the electrons to complete one orbit of the circle is 24 ms. Calculate the orbital speed of the electrons. Use the formula 2π × orbital radius orbital speed = time period orbital speed = m / s",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula; ECF candidate’s answer\nto (c)(i)\nignore POT at this point\nconversion of ms to s and cm to m;\ncorrect evaluation using radius; allow 654 cm/s (i.e. cm\nfor m on answer line)\ncorrect answer: 6.5 (m/s) allow full credit for\ncorrect answer with no\ne.g. working\norbital speed = 2 π r ÷ T allow answers that\norbital speed = 2 π 2.5 x 10−2 ÷ (24 × 10−3) round to the range 6.3\norbital speed = 6.544… m/s to 6.8 (m/s)\n-1 for POT\nconversion of\nmilliseconds to minutes\nscores 2 (393 m/s)\nTotal for question 3: 12 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-3-c-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution into given formula; ECF candidate’s answer\nto (c)(i)\nignore POT at this point\nconversion of ms to s and cm to m;\ncorrect evaluation using radius; allow 654 cm/s (i.e. cm\nfor m on answer line)\ncorrect answer: 6.5 (m/s) allow full credit for\ncorrect answer with no\ne.g. working\norbital speed = 2 π r ÷ T allow answers that\norbital speed = 2 π 2.5 x 10−2 ÷ (24 × 10−3) round to the range 6.3\norbital speed = 6.544… m/s to 6.8 (m/s)\n-1 for POT\nconversion of\nmilliseconds to minutes\nscores 2 (393 m/s)\nTotal for question 3: 12 marks\nAnswer Notes Marks"
+      }
+     ],
+     "source_page": 11,
+     "assets": [],
+     "spec_point_codes": [
+      "1.4"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {
+    "a": {
+     "group_stem_md": "The grid is connected to the positive terminal of a high voltage power supply."
+    },
+    "c": {
+     "group_stem_md": "The oscilloscope can cause the electrons to move in a circle. This produces a circular pattern on the screen. 1 cm 1 cm"
+    }
+   }
+  },
+  {
+   "id": "4PH1-2P-04",
+   "question_number": 4,
+   "total_marks": 7,
+   "total_marks_source": "printed-footer",
+   "stem_md": "The diagram shows two birds, just before bird X catches the smaller bird Y. Both birds are travelling horizontally at constant velocity. bird X bird Y velocity = 13 m / s velocity mass = 0.41 kg",
+   "parts": [
+    {
+     "part_number": "4(a)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Show that the momentum of bird X is about 5 kg m / s.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "0.41 × 13;\n5.3(3);",
+     "mark_points": [
+      {
+       "id": "2023-06-4-a-MP1",
+       "marks": 2,
+       "text_md": "0.41 × 13;\n5.3(3);"
+      }
+     ],
+     "source_page": 12,
+     "assets": [],
+     "spec_point_codes": [
+      "1.25P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "4(b)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "The momentum of bird Y just before it is caught is 0.15 kg m / s. Calculate the total momentum of the birds just before bird X catches bird Y. momentum = kg m / s",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "5.15 / 5.45 / 5.48 / 5.5; allow ecf from (a)",
+     "mark_points": [
+      {
+       "id": "2023-06-4-b-MP1",
+       "marks": 1,
+       "text_md": "5.15 / 5.45 / 5.48 / 5.5; allow ecf from (a)"
+      }
+     ],
+     "source_page": 12,
+     "assets": [],
+     "spec_point_codes": [
+      "1.25P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "4(c)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "State the total momentum of the birds just after bird X has caught bird Y. momentum = kg m / s",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "same as candidate’s answer to (b)\ni.e. 5.48 (kg m/s);",
+     "mark_points": [
+      {
+       "id": "2023-06-4-c-MP1",
+       "marks": 1,
+       "text_md": "same as candidate’s answer to (b)\ni.e. 5.48 (kg m/s);"
+      }
+     ],
+     "source_page": 12,
+     "assets": [],
+     "spec_point_codes": [
+      "1.25P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "4(d)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "Bird Y has a mass of 0.17 kg. Calculate the velocity of the birds just after bird X has caught bird Y. velocity = m / s",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "total mass = 0.58 (kg);\nsubstitution of candidate’s answer to part (c); accept re-calculation of\ntotal momentum ‘from\nrearrangement and correct evaluation; first principles’\nacceptable values for\nthe velocity here are\n8.88…,9.40… , 9.448…,\n9.48… or ecf from (c)\ncorrect answer: 9.4 (m/s) allow full credit for\ncorrect answer with no\ne.g. total momentum = 5.48 kg m/s working\ntotal mass = 0.58 kg\nvelocity = 5.48 ÷ 0.58\nvelocity = 9.448… (m/s)\nTotal for question 4: 7 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-4-d-MP1",
+       "marks": 3,
+       "text_md": "total mass = 0.58 (kg);\nsubstitution of candidate’s answer to part (c); accept re-calculation of\ntotal momentum ‘from\nrearrangement and correct evaluation; first principles’\nacceptable values for\nthe velocity here are\n8.88…,9.40… , 9.448…,\n9.48… or ecf from (c)\ncorrect answer: 9.4 (m/s) allow full credit for\ncorrect answer with no\ne.g. total momentum = 5.48 kg m/s working\ntotal mass = 0.58 kg\nvelocity = 5.48 ÷ 0.58\nvelocity = 9.448… (m/s)\nTotal for question 4: 7 marks\nAnswer Notes Marks"
+      }
+     ],
+     "source_page": 13,
+     "assets": [],
+     "spec_point_codes": [
+      "1.25P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {}
+  },
+  {
+   "id": "4PH1-2P-05",
+   "question_number": 5,
+   "total_marks": 9,
+   "total_marks_source": "printed-footer",
+   "stem_md": "The diagram shows some of the components of a nuclear fission reactor. control rod coolant out moderator reactor vessel fuel rod coolant in",
+   "parts": [
+    {
+     "part_number": "5(a)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "Describe how a chain reaction occurs in a nuclear fission reactor.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "3\n(uranium) initial nucleus absorbs a neutron /eq ; ignore\ncollide/hit/aimed at\nreject\natoms/molecules/partic\nles etc\n(uranium) nucleus splits/fission releasing (further)\nneutron(s);\nidea of neutrons can be absorbed by or can cause\nfurther fissions with other (uranium) nuclei",
+     "mark_points": [
+      {
+       "id": "2023-06-5-a-MP1",
+       "marks": 3,
+       "text_md": "3\n(uranium) initial nucleus absorbs a neutron /eq ; ignore\ncollide/hit/aimed at\nreject\natoms/molecules/partic\nles etc\n(uranium) nucleus splits/fission releasing (further)\nneutron(s);\nidea of neutrons can be absorbed by or can cause\nfurther fissions with other (uranium) nuclei"
+      }
+     ],
+     "source_page": 14,
+     "assets": [],
+     "spec_point_codes": [
+      "7.20"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "5(b)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Describe the role of the control rods in a nuclear fission reactor.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "any TWO from: ignore named material\nabsorb neutron(s); e.g. boron\nidea of preventing them from causing fission;\nidea of slowing rate of fission; condone reduces rate of\nreaction\ncondone control rate of\nfission/rate of reaction",
+     "mark_points": [
+      {
+       "id": "2023-06-5-b-MP1",
+       "marks": 2,
+       "text_md": "any TWO from: ignore named material\nabsorb neutron(s); e.g. boron\nidea of preventing them from causing fission;\nidea of slowing rate of fission; condone reduces rate of\nreaction\ncondone control rate of\nfission/rate of reaction"
+      }
+     ],
+     "source_page": 14,
+     "assets": [],
+     "spec_point_codes": [
+      "7.21"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "5(c)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Describe how the process of nuclear fission is different from the process of nuclear fusion.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "fission is the splitting of a nucleus; allow reasonable\nalternative for split\nfusion is the combining of nuclei; allow reasonable\nalternative for\ncombining, including\n‘fusing’\nreject\natoms/particles/molecu\nles/neutrons",
+     "mark_points": [
+      {
+       "id": "2023-06-5-c-MP1",
+       "marks": 2,
+       "text_md": "fission is the splitting of a nucleus; allow reasonable\nalternative for split\nfusion is the combining of nuclei; allow reasonable\nalternative for\ncombining, including\n‘fusing’\nreject\natoms/particles/molecu\nles/neutrons"
+      }
+     ],
+     "source_page": 15,
+     "assets": [],
+     "spec_point_codes": [
+      "7.23"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "5(d)(i)",
+     "marks": 1,
+     "question_type": "multiple_choice",
+     "problem_md": "Which of these is the name of the nuclear process that is the main energy source for stars?",
+     "choices": [
+      {
+       "label": "A",
+       "text_md": "alpha decay",
+       "is_correct": false
+      },
+      {
+       "label": "B",
+       "text_md": "fission",
+       "is_correct": false
+      },
+      {
+       "label": "C",
+       "text_md": "fusion",
+       "is_correct": true
+      },
+      {
+       "label": "D",
+       "text_md": "gamma decay",
+       "is_correct": false
+      }
+     ],
+     "answer_status": "linked",
+     "solution_md": "C – fusion;\nA cannot be correct as there are very few nuclei\nwith Z > 82;\nB cannot be correct as there are very few nuclei\nwith A > 56;\nD cannot be correct as fusion is required to produce\nexcited nuclei",
+     "mark_points": [
+      {
+       "id": "2023-06-5-d-i-MP1",
+       "marks": 1,
+       "text_md": "Answer C: fusion"
+      }
+     ],
+     "source_page": 15,
+     "assets": [],
+     "spec_point_codes": [
+      "7.25"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "ms-positional",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "5(d)(ii)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "Give a reason why the nuclear process in stars does not happen at low temperatures and pressures.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "idea of (electrostatic) repulsion of nuclei or protons\n(prevents fusion);\nTotal for question 5: 9 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-5-d-ii-MP1",
+       "marks": 1,
+       "text_md": "idea of (electrostatic) repulsion of nuclei or protons\n(prevents fusion);\nTotal for question 5: 9 marks\nAnswer Notes Marks"
+      }
+     ],
+     "source_page": 15,
+     "assets": [],
+     "spec_point_codes": [
+      "7.26"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {}
+  },
+  {
+   "id": "4PH1-2P-06",
+   "question_number": 6,
+   "total_marks": 9,
+   "total_marks_source": "printed-footer",
+   "stem_md": "The National Grid is used in the United Kingdom for the large-scale transmission of electricity. The photograph shows solar panels connected to the National Grid. (Source: © Jenson/Shutterstock)",
+   "parts": [
+    {
+     "part_number": "6(a)(i)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Explain why a step-up transformer is used to supply the National Grid.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "(stepping up voltage) reduces current;\nreducing current reduces heating in the wire; allow idea of less\nenergy loss or less\npower loss\nignore unqualified\nreference to efficiency",
+     "mark_points": [
+      {
+       "id": "2023-06-6-a-i-MP1",
+       "marks": 2,
+       "text_md": "(stepping up voltage) reduces current;\nreducing current reduces heating in the wire; allow idea of less\nenergy loss or less\npower loss\nignore unqualified\nreference to efficiency"
+      }
+     ],
+     "source_page": 16,
+     "assets": [
+      {
+       "id": "asset_6_a_i_grid",
+       "kind": "crop-required",
+       "mention": "grid",
+       "source": "qp.pdf",
+       "page": 16,
+       "review": false,
+       "shared": true,
+       "ref_part": "asset_6_a_grid_stem",
+       "review_verdict": "rejected"
+      }
+     ],
+     "spec_point_codes": [
+      "6.18P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "6(a)(ii)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "This is the label on the step-up transformer. input voltage = 15 kV output voltage = 340 kV number of turns on primary coil = 1400 State the formula linking input voltage, output voltage and turns ratio for a transformer.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "(Np ÷ Ns) = (Vp ÷ Vs) input (primary) voltage\n÷ output (secondary)\nvoltage = primary turns\n÷ secondary turns;\nallow any correct\nrearrangement\nallow T or n for turns\ncondone ‘coils’ for\n‘turns’\nreject phrase ‘turns\nratio’",
+     "mark_points": [
+      {
+       "id": "2023-06-6-a-ii-MP1",
+       "marks": 1,
+       "text_md": "(Np ÷ Ns) = (Vp ÷ Vs) input (primary) voltage\n÷ output (secondary)\nvoltage = primary turns\n÷ secondary turns;\nallow any correct\nrearrangement\nallow T or n for turns\ncondone ‘coils’ for\n‘turns’\nreject phrase ‘turns\nratio’"
+      }
+     ],
+     "source_page": 17,
+     "assets": [],
+     "spec_point_codes": [
+      "6.19P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "6(a)(iii)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "Calculate the number of turns on the secondary coil of the step‑up transformer. number of turns =",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "substitution;\nre-arrangement;\ncorrect evaluation; -1 for PoT\ncorrect answer: 32 000 allow full credit for\ncorrect answer with no\nworking\n(Np ÷ Ns) = (Vp ÷ Vs) rounding at different\n(1400 ÷ Ns) = (15 ÷ 340) stages gives correct\nNs = (340 ÷ 15) × 1400 answers in range 31700\nNs = 31 733 - 35000 worth full",
+     "mark_points": [
+      {
+       "id": "2023-06-6-a-iii-MP1",
+       "marks": 3,
+       "text_md": "substitution;\nre-arrangement;\ncorrect evaluation; -1 for PoT\ncorrect answer: 32 000 allow full credit for\ncorrect answer with no\nworking\n(Np ÷ Ns) = (Vp ÷ Vs) rounding at different\n(1400 ÷ Ns) = (15 ÷ 340) stages gives correct\nNs = (340 ÷ 15) × 1400 answers in range 31700\nNs = 31 733 - 35000 worth full"
+      }
+     ],
+     "source_page": 17,
+     "assets": [],
+     "spec_point_codes": [
+      "6.19P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "6(b)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "Solar panels produce constant direct current (d.c.). Explain why a transformer will not work when connected to constant direct current.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "ignore references to\na.c.\nconstant current gives constant magnetic field; allow ‘flux’ or ‘field\nlines’ for ‘magnetic\nfield’\ninduction (in transformers) requires a changing allow idea about\nmagnetic field; requiring field line\ncutting for induction\nno voltage will be induced; condone current for\nvoltage\nTotal for question 6: 9 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-6-b-MP1",
+       "marks": 3,
+       "text_md": "ignore references to\na.c.\nconstant current gives constant magnetic field; allow ‘flux’ or ‘field\nlines’ for ‘magnetic\nfield’\ninduction (in transformers) requires a changing allow idea about\nmagnetic field; requiring field line\ncutting for induction\nno voltage will be induced; condone current for\nvoltage\nTotal for question 6: 9 marks\nAnswer Notes Marks"
+      }
+     ],
+     "source_page": 17,
+     "assets": [],
+     "spec_point_codes": [
+      "6.15"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {
+    "a": {
+     "group_stem_md": "Solar panels provide direct current to a device that outputs an alternating current so that the energy from the solar panels can be supplied to the National Grid."
+    }
+   }
+  },
+  {
+   "id": "4PH1-2P-07",
+   "question_number": 7,
+   "total_marks": 12,
+   "total_marks_source": "printed-footer",
+   "stem_md": "",
+   "parts": [
+    {
+     "part_number": "7(a)(i)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "State the name of the piece of equipment used to measure angles.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "protractor;",
+     "mark_points": [
+      {
+       "id": "2023-06-7-a-i-MP1",
+       "marks": 1,
+       "text_md": "protractor;"
+      }
+     ],
+     "source_page": 19,
+     "assets": [],
+     "spec_point_codes": [],
+     "tagging": "no-spec-point",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "7(a)(ii)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Measure the angle of incidence and the angle of refraction for the light entering the prism. angle of incidence = degrees angle of refraction = degrees",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "angle of incidence between 42 and 46 degrees;\nangle of refraction between 26 and 30 degrees;",
+     "mark_points": [
+      {
+       "id": "2023-06-7-a-ii-MP1",
+       "marks": 2,
+       "text_md": "angle of incidence between 42 and 46 degrees;\nangle of refraction between 26 and 30 degrees;"
+      }
+     ],
+     "source_page": 19,
+     "assets": [],
+     "spec_point_codes": [
+      "3.19"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "7(a)(iii)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "State the formula linking refractive index, angle of incidence and angle of refraction.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "refractive index = sin(angle of incidence) ÷ sin(angle of allow standard\nrefraction) symbols i.e.\nn or eta for ref.\nindex\ni , r etc",
+     "mark_points": [
+      {
+       "id": "2023-06-7-a-iii-MP1",
+       "marks": 1,
+       "text_md": "refractive index = sin(angle of incidence) ÷ sin(angle of allow standard\nrefraction) symbols i.e.\nn or eta for ref.\nindex\ni , r etc"
+      }
+     ],
+     "source_page": 19,
+     "assets": [],
+     "spec_point_codes": [
+      "3.18"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "7(a)(iv)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Calculate the refractive index of the glass. refractive index =",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "substitution; Allow ecf from (ii)\ncorrect evaluation;\ncorrect answer: 1.5 allow full credit for\ncorrect answer with\ne.g. no working\nn = sin(i) ÷ sin(r)\nn = sin() ÷ sin() = 1.479…\nreject division of i\nand r giving approx\n1.5-1.6\nrange of values with\n‘in tolerance’ values\nfor i and r is 1.34-\n1.64",
+     "mark_points": [
+      {
+       "id": "2023-06-7-a-iv-MP1",
+       "marks": 2,
+       "text_md": "substitution; Allow ecf from (ii)\ncorrect evaluation;\ncorrect answer: 1.5 allow full credit for\ncorrect answer with\ne.g. no working\nn = sin(i) ÷ sin(r)\nn = sin() ÷ sin() = 1.479…\nreject division of i\nand r giving approx\n1.5-1.6\nrange of values with\n‘in tolerance’ values\nfor i and r is 1.34-\n1.64"
+      }
+     ],
+     "source_page": 19,
+     "assets": [],
+     "spec_point_codes": [
+      "3.18"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "7(b)(i)",
+     "marks": 1,
+     "question_type": "structured",
+     "problem_md": "Calculate the difference between the astronomer’s value for the wavelength and the reference wavelength of red light. difference in wavelength = nm",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "15 (nm);",
+     "mark_points": [
+      {
+       "id": "2023-06-7-b-i-MP1",
+       "marks": 1,
+       "text_md": "15 (nm);"
+      }
+     ],
+     "source_page": 20,
+     "assets": [],
+     "spec_point_codes": [
+      "8.16P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "7(b)(ii)",
+     "marks": 3,
+     "question_type": "structured",
+     "problem_md": "The change in wavelength happens because galaxy A is moving away from the Earth. Calculate the speed of galaxy A. [speed of light = 3.0 × 108 m / s] speed = m / s",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "substitution into given formula; ecf from (i)\nre-arrangement; allow in either order\ncorrect evaluation;\ncorrect answer: 7 100 000 (m/s) allow full credit for\ncorrect answer with\ne.g. no working\nΔλ ÷ λ = v/c -1 POT error\n15 ÷ 630 = v ÷ (3.0 × 108) use of observed\nv = (3.0 × 108) × (15 ÷ 630) wavelength instead\nv = 7.14 × 10 6 (m/s) of 630 nm i.e. 645\nnm giving 6.976…\nx106 (m/s) gives 1\nmark max",
+     "mark_points": [
+      {
+       "id": "2023-06-7-b-ii-MP1",
+       "marks": 3,
+       "text_md": "substitution into given formula; ecf from (i)\nre-arrangement; allow in either order\ncorrect evaluation;\ncorrect answer: 7 100 000 (m/s) allow full credit for\ncorrect answer with\ne.g. no working\nΔλ ÷ λ = v/c -1 POT error\n15 ÷ 630 = v ÷ (3.0 × 108) use of observed\nv = (3.0 × 108) × (15 ÷ 630) wavelength instead\nv = 7.14 × 10 6 (m/s) of 630 nm i.e. 645\nnm giving 6.976…\nx106 (m/s) gives 1\nmark max"
+      }
+     ],
+     "source_page": 20,
+     "assets": [],
+     "spec_point_codes": [
+      "8.16P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "7(b)(iii)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Light from galaxy B has twice the redshift as light from galaxy A. Galaxy B is twice as far away from Earth as galaxy A. Explain how these observations support the Big Bang theory of the origin of the Universe.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "ignore references to\nsingle\npoint/singularity,\nuniverse expansion,\nBig Bang itself\nlink between twice the redshift and twice the speed; accept redshift and\nspeed are directly\nproportional\ncondone link\nbetween larger\nredshift and larger\nspeed\nPLUS one from:\nlink between larger speed and larger distance; accept quotation of\nHubble’s Law\n(which in turn means that) galaxies are moving apart\n/moving away from each other;\ncondone stars for\ngalaxies\nreject planets etc\nfor galaxies\nTotal for question 7: 12 marks\nAnswer Notes Marks",
+     "mark_points": [
+      {
+       "id": "2023-06-7-b-iii-MP1",
+       "marks": 2,
+       "text_md": "ignore references to\nsingle\npoint/singularity,\nuniverse expansion,\nBig Bang itself\nlink between twice the redshift and twice the speed; accept redshift and\nspeed are directly\nproportional\ncondone link\nbetween larger\nredshift and larger\nspeed\nPLUS one from:\nlink between larger speed and larger distance; accept quotation of\nHubble’s Law\n(which in turn means that) galaxies are moving apart\n/moving away from each other;\ncondone stars for\ngalaxies\nreject planets etc\nfor galaxies\nTotal for question 7: 12 marks\nAnswer Notes Marks"
+      }
+     ],
+     "source_page": 21,
+     "assets": [],
+     "spec_point_codes": [
+      "8.18P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {
+    "a": {
+     "group_stem_md": "A glass prism can be used to refract light. prism i r"
+    },
+    "b": {
+     "group_stem_md": "Two galaxies, A and B, emit red light with a reference wavelength of 630 nm. An astronomer measures the wavelength of red light from galaxy A when the light arrives at the Earth. The astronomer’s value for the wavelength is 645 nm."
+    }
+   }
+  },
+  {
+   "id": "4PH1-2P-08",
+   "question_number": 8,
+   "total_marks": 7,
+   "total_marks_source": "printed-footer",
+   "stem_md": "Concrete on top of buildings can be used to heat water. The photograph shows a concrete and water heating system being built into the roof of a house. (Source: © ejhgndrn/Shutterstock)",
+   "parts": [
+    {
+     "part_number": "8(a)",
+     "marks": 5,
+     "question_type": "structured",
+     "problem_md": "A scientist wants to determine the specific heat capacity of concrete. The diagram shows some of the equipment they could use. 12 V A V lid insulating material concrete thermometer electrical heater Describe a suitable method to find the specific heat capacity of concrete.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "Any FIVE from:\nMP1 mass found on balance; condone scales\nreject scale\nallow idea of a known\nmass e.g. 1 kg\nMP2 time measured on allow idea of a\ntimer/stopwatch/stopclock; specified time e.g. 10\nminutes\nMP3 temperature change = final temp – initial\ntemp; allow idea of a\nspecified temp change\ne.g. 10 degrees\naccept idea of\nmeasuring temperature\nchange\nMP4 energy supplied = voltmeter reading ×\nammeter reading × time; accept energy = power\nx time\naccept use of\nMP5 rearrangement of formula sheet equation; joulemeter\ni.e. c = energy supplied/(m × temp change)\nMP6 keep taking temperature after heater\nswitched off for max temp;\nMP7 plot a graph of temperature against time;\nMP8 find gradient of temperature-time graph;\nMP9 use of “equation gradient = power of heater\n/ m x c” or re-arrangement;\nMP10 (whole experiment) repeated and averaged;",
+     "mark_points": [
+      {
+       "id": "2023-06-8-a-MP1",
+       "marks": 5,
+       "text_md": "Any FIVE from:\nMP1 mass found on balance; condone scales\nreject scale\nallow idea of a known\nmass e.g. 1 kg\nMP2 time measured on allow idea of a\ntimer/stopwatch/stopclock; specified time e.g. 10\nminutes\nMP3 temperature change = final temp – initial\ntemp; allow idea of a\nspecified temp change\ne.g. 10 degrees\naccept idea of\nmeasuring temperature\nchange\nMP4 energy supplied = voltmeter reading ×\nammeter reading × time; accept energy = power\nx time\naccept use of\nMP5 rearrangement of formula sheet equation; joulemeter\ni.e. c = energy supplied/(m × temp change)\nMP6 keep taking temperature after heater\nswitched off for max temp;\nMP7 plot a graph of temperature against time;\nMP8 find gradient of temperature-time graph;\nMP9 use of “equation gradient = power of heater\n/ m x c” or re-arrangement;\nMP10 (whole experiment) repeated and averaged;"
+      }
+     ],
+     "source_page": 22,
+     "assets": [
+      {
+       "id": "asset_8_a_diagram",
+       "kind": "crop",
+       "mention": "diagram",
+       "source": "qp.pdf",
+       "page": 22,
+       "review": false,
+       "path": "assets/asset_8_a_diagram.png",
+       "render": "vector",
+       "text_coverage": 0.062,
+       "review_verdict": "accepted"
+      }
+     ],
+     "spec_point_codes": [
+      "5.13P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    },
+    {
+     "part_number": "8(b)",
+     "marks": 2,
+     "question_type": "structured",
+     "problem_md": "Explain the advantage of the concrete having a high specific heat capacity when it is used to heat water in the heating system.",
+     "choices": [],
+     "answer_status": "linked",
+     "solution_md": "concrete can store/absorb/release a lot of energy allow idea of large\n(because of high SHC); energy store per unit\nmass\nwater temp maintained for longer/ temp rise for allow idea of being able\nwater more than temp drop for concrete; to provide heating to\nthe water for a long\ntime\nTotal for question 8: 7 marks\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom",
+     "mark_points": [
+      {
+       "id": "2023-06-8-b-MP1",
+       "marks": 2,
+       "text_md": "concrete can store/absorb/release a lot of energy allow idea of large\n(because of high SHC); energy store per unit\nmass\nwater temp maintained for longer/ temp rise for allow idea of being able\nwater more than temp drop for concrete; to provide heating to\nthe water for a long\ntime\nTotal for question 8: 7 marks\nPearson Education Limited. Registered company number 872828\nwith its registered office at 80 Strand, London, WC2R 0RL, United Kingdom"
+      }
+     ],
+     "source_page": 23,
+     "assets": [],
+     "spec_point_codes": [
+      "5.12P"
+     ],
+     "tagging": "llm-spec-wave",
+     "edit_status": "extracted",
+     "value_trace": {
+      "keys": "n/a",
+      "marks": "ms-printed",
+      "numbers": "source-printed"
+     }
+    }
+   ],
+   "groups": {}
+  }
+ ]
+}

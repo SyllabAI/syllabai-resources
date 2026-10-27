@@ -1,8 +1,8 @@
 {
  "schema": "syllabai.crop-review/0.1",
  "note": "Durable human eyeball verdicts for emitted figure crops (F29) and honest crop-required stubs (F32). Verdict vocabulary: 'accepted' clears the review flag on real crops (kind==crop) on every re-run; 'stub-accepted' records the eyeballed no-croppable-figure decision for crop-required stubs (kind==crop-required) and clears their flag. v0.24.0 (F99) adds the physics eyeball tranche's replacement verdicts: 'recrop' re-renders a wrong-region emitted crop at the eyeballed box (same asset id), and 'rejected' withdraws a wrong-region emitted crop to an honest crop-required stub. F45/F99 manual_crop boxes are the human decision rendered deterministically at CROP_DPI; a box on a different page than the asset's own anchor must carry page_move:true. Chemistry homes keep the F39 legacy keying (bare series for 1C, '<series>:<paper>' for other papers); physics homes are namespaced '4ph1-<series>:<paper>'. Anything not in this ledger keeps the converter's own confidence flag.",
- "reviewed_utc": "2026-10-27T00:00:00Z",
- "reviewed_by": "session agent (Task 21 physics crop-eyeball tranche, operator order 'crop eyeball (65+30)' continuing the 4PH1 lane: all 35 v0.21.0-emitted review-flagged crops + all 30 crop-required stubs across the 53 landed slices viewed against their source QP pages rendered at 150 dpi; 23 crops accepted as-is; 5 wrong-region crops rejected to honest stubs; 7 crops recropped at eyeballed boxes; 12 stubs resolved by F45/F99 manual crops (5 with disclosed page moves); 18 stubs stub-accepted (false mentions, student-draws, duplicates) - every replacement rect proof-rendered and eyeballed before shipping; verdict workspace physics-intake/qpwave2/verdicts.json + proofs/). Chemistry verdicts unchanged byte-for-byte.",
+ "reviewed_utc": "2026-10-27T05:08:53Z",
+ "reviewed_by": "SyllabAI agent (Task 22 OCR-wave crop eyeball; F99 discipline)",
  "reviews": {
   "2020-01": {
    "asset_4_b_ii_boxes": {
@@ -1914,6 +1914,166 @@
    "asset_2_a_i_graph": {
     "verdict": "stub-accepted",
     "note": "'scatter graph is the correct way to display this data' - conceptual mention; the printed table is data surface, no printed graph."
+   }
+  },
+  "4ph1-2019-06:1P": {
+   "asset_2_b_diagram": {
+    "verdict": "accepted",
+    "note": "two bar magnets (N-S | S-N) printed mid-page; the field-pattern completion space is the surrounding blank, so the crop bounds the printed figure (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 7,
+     "rect": [
+      184.0,
+      210.0,
+      412.0,
+      260.0
+     ]
+    }
+   },
+   "asset_3_a_diagram": {
+    "verdict": "accepted",
+    "note": "gamma source to wooden box containing fruit irradiation diagram with ground line; both printed labels included (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 8,
+     "rect": [
+      158.0,
+      146.0,
+      440.0,
+      272.0
+     ]
+    }
+   },
+   "asset_4_a_i_graph": {
+    "verdict": "accepted",
+    "note": "velocity-time graph: 15 m/s plateau to 1.0 s then linear decrease to 0 at 4.0 s; axes labelled Velocity in m/s / Time in seconds (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 10,
+     "rect": [
+      122.0,
+      114.0,
+      418.0,
+      262.0
+     ]
+    }
+   },
+   "asset_7_c_iv_diagram": {
+    "verdict": "accepted",
+    "note": "torch underwater at 55 degrees to the normal, air above water, dashed normal line; the ray completion is the student's task (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 19,
+     "rect": [
+      150.0,
+      130.0,
+      447.0,
+      312.0
+     ]
+    }
+   },
+   "asset_8_a_i_diagram": {
+    "verdict": "accepted",
+    "note": "spacecraft heat-shield outline labelled 'spacecraft'; the labelled force arrows are the student's task (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 20,
+     "rect": [
+      210.0,
+      253.0,
+      388.0,
+      342.0
+     ]
+    }
+   },
+   "asset_9_a_diagram": {
+    "verdict": "accepted",
+    "note": "nuclear reactor: control rods, moderator, fuel rods in reactor vessel inside shielding, coolant in/out; all seven printed labels included (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 22,
+     "rect": [
+      113.0,
+      97.0,
+      473.0,
+      325.0
+     ]
+    }
+   },
+   "asset_9_a_table": {
+    "verdict": "accepted",
+    "note": "3-column function/materials table with printed blanks (the completion task); boron / graphite / prevents irradiation of workers pre-printed (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 22,
+     "rect": [
+      54.0,
+      425.0,
+      520.0,
+      712.0
+     ]
+    }
+   },
+   "asset_10_a_diagram": {
+    "verdict": "accepted",
+    "note": "series circuit: 9.2 V battery, 12 mA arrow, 240 ohm and R resistor boxes (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 25,
+     "rect": [
+      164.0,
+      117.0,
+      432.0,
+      296.0
+     ]
+    }
+   },
+   "asset_10_b_ii_diagram": {
+    "verdict": "accepted",
+    "note": "moving-coil ammeter: scale, pointer, return spring, permanent magnet (N-S), coil corners A-D, terminals + and - (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 26,
+     "rect": [
+      122.0,
+      113.0,
+      470.0,
+      356.0
+     ]
+    }
+   },
+   "asset_12_a_diagram": {
+    "verdict": "accepted",
+    "note": "ball of dough labelled at 92 cm above the floor with height arrow (eyeballed on the 600-dpi render; proof-rendered at CROP_DPI and verified before shipping — F45 manual crop on the image-only archive scan, F101 wave)",
+    "page_move": false,
+    "manual_crop": {
+     "page": 30,
+     "rect": [
+      176.0,
+      108.0,
+      380.0,
+      332.0
+     ]
+    }
+   }
+  },
+  "4ph1-2023-06:2P": {
+   "asset_6_a_i_grid": {
+    "verdict": "rejected",
+    "note": "the 'grid' mention is the National Grid (6(a)(i): 'Explain why a step-up transformer is used to supply the National Grid') — the F99 false-mention class, not a plottable grid; the crop served the Q6 stem photograph, which belongs to the question stem ('The photograph shows solar panels...') that this lane does not serve as a figure (0 STEM-RESTORE physics entries — the corpus convention). Crop withdrawn, stub disclosed."
+   },
+   "asset_3_a_i_grid": {
+    "verdict": "stub-accepted",
+    "note": "the 'grid' mention is the oscilloscope's positively charged grid (a labelled component inside the Q3 stem diagram 'The diagram shows the inside of an oscilloscope') — no croppable part-level figure; the stem diagram is the stem's own figure, which this lane does not serve (corpus convention; 20 served parts likewise carry no source_page under the same convention). Eyeballed on the 2023-06 2P p9 render."
+   },
+   "asset_2_b_iii_graph": {
+    "verdict": "accepted",
+    "note": "complete printed Temperature (5-45 deg C) vs Time plot scaffold exactly as printed (the 2(b)(iii) plot task); page-verified on the 2023-06 2P p7 render"
+   },
+   "asset_8_a_diagram": {
+    "verdict": "accepted",
+    "note": "apparatus diagram exactly as printed: 12 V supply + ammeter + voltmeter circuit over the insulated container (lid, concrete, electrical heater, thermometer, insulating material); all six printed labels included"
    }
   }
  }

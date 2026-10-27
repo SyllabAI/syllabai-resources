@@ -1022,6 +1022,56 @@
     "2PR"
    ],
    "assertion": "Task 21 spec-labels wave (F100): all 2,171 parts of the 53 landed 4PH1 slices are terminal - zero pending-llm corpus-wide; 2,106 parts carry registry-validated llm-spec-wave codes and 65 carry no_spec_point decisions (pure graph/table skills, apparatus-choice, safety, design critiques, and data-relationship tests - the F38 wave convention) that agree bidirectionally with the 4ph1-<series>[-<paper>].json label files. Regresses if a labels file drifts from the corpus or any part falls back to pending-llm."
+  },
+  {
+   "id": "C102-physics-ocr-1p-footer-law",
+   "spec": "4ph1",
+   "series": "2019-06",
+   "paper": "1P",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "PASS",
+   "marks_total": 110,
+   "assertion": "Task 22 OCR wave (F101, the physics twin of the F41 chemistry wave): the image-only 2019-06 4PH1-1P archive scan (Pearson DAM print-to-PDF, zero text layer) serves through the sha-pinned UPLOAD/ocr/2019-06-1P source layer (25 transcribed pages, corrections ledger, converter sha verification) and the physics 1P footer law holds on the recovered census (12 footers summing 110). Regresses if the OCR layer verification, the page_norm splice or the 1P footer law is lost."
+  },
+  {
+   "id": "C103-physics-ocr-1p-count",
+   "spec": "4ph1",
+   "series": "2019-06",
+   "paper": "1P",
+   "check": "question_count",
+   "expected": 12,
+   "assertion": "Task 22 OCR wave: 2019-06 1P prints 12 questions (footer-verified on the recovered OCR census, sum 110) - the physics EXPECT_QUESTIONS seed now carries it. Regresses if the count registry loses the seed."
+  },
+  {
+   "id": "C104-physics-2p-repair-footer-law",
+   "spec": "4ph1",
+   "series": "2023-06",
+   "paper": "2P",
+   "check": "gate_status",
+   "gate": "G1-structure",
+   "expected": "PASS",
+   "marks_total": 70,
+   "assertion": "Task 22 repair-reconversion wave: the 2023-06 4PH1-2P slice of record is restored after the Task 15 pastpapers mislabel-repair (the Examiners'-Report bytes that G0 could not see are gone; the archive qp.pdf is the content-verified Paperlords plain QP, sha-pinned in its manifest) - the physics 2P footer law holds (8 footers summing 70). Regresses if the slice or the 2P footer law is lost."
+  },
+  {
+   "id": "C105-physics-2p-repair-count",
+   "spec": "4ph1",
+   "series": "2023-06",
+   "paper": "2P",
+   "check": "question_count",
+   "expected": 8,
+   "assertion": "Task 22 repair-reconversion wave: 2023-06 2P prints 8 questions (footer-verified, sum 70) - the physics EXPECT_QUESTIONS seed now carries it."
+  },
+  {
+   "id": "C106-physics-national-grid-false-mention",
+   "spec": "4ph1",
+   "series": "2023-06",
+   "paper": "2P",
+   "check": "asset_state",
+   "part": "6(a)(i)",
+   "kind": "crop-required",
+   "assertion": "Task 22 crop eyeball (2023-06 2P tranche): the 6(a)(i) 'grid' mention is the National Grid (the F99 false-mention class recurring corpus-wide) - the emitted crop (the Q6 stem photograph) is withdrawn by the 'rejected' verdict to an honest crop-required stub. Pins the F99 rejected demotion as data-driven machinery on its second occurrence. Regresses if the verdict path is lost."
   }
  ]
 }

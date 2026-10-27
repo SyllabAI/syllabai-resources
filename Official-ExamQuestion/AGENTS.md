@@ -40,10 +40,12 @@ Official-ExamQuestion/
   igcse-physics-19/<series>/4PH1-<paper>/   SECOND LANE (landed Task 16; MS-table parser
                                                 wave Task 17 F72; QP-side wave Task 18
                                                 F85; crop-eyeball + spec-labels waves
-                                                Task 21 F99/F100): 53 slices LANDED
-                                                under ADR-039, 53/53 fully PASS (G3
-                                                135/135, G5 2,171/2,171, spec tags
-                                                2,171/2,171 terminal, asset review
+                                                Task 21 F99/F100; OCR layer +
+                                                repair-reconversion Task 22 F101/F102):
+                                                55 slices LANDED
+                                                under ADR-039, 55/55 fully PASS (G3
+                                                142/142, G5 2,254/2,254, spec tags
+                                                2,254/2,254 terminal, asset review
                                                 flags 0) — its LANE-STATUS.md is the
                                                 disclosure of record; converter lane
                                                 key `--spec 4ph1` (v0.16.0)
