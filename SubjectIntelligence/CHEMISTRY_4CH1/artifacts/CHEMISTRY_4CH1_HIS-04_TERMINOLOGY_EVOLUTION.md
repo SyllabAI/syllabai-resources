@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: HIS-04
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-LEGACY-SPEC-4CH0"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-007"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "4920c4640615c14a7c769c875bb87b40b361f0c2"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # HIS-04 — Terminology Evolution
@@ -176,6 +176,66 @@ confused between ammonium ions and ammonia gas or att"
 (SRC-ER-4CH0-LEGACY, 2012-01/4CH0-1C/er.pdf p3). Both are LEGACY — HISTORICAL
 witnesses.
 Temporal scope: LEGACY — HISTORICAL.
+
+### HIS-055 — Command-word meaning is examiner-policed with an explicit two-form rule
+
+**Claim:** the legacy ER polices command-word semantics directly: an 'Identify' item
+accepts either the name or the formula, but giving both requires both to be correct —
+a documented rule of reading command words that predates and parallels the current
+specification's formal taxonomy. **Evidence:** the Summer 2014 Paper 1C report states
+"Different command words are used when asking students to provide the name or formula
+of substances. In (a), the word 'Identify' was used. This means that candidates may
+give either the name or the formula. However, if both name and formula are given,
+then both must be correct." and records the consequence that "answers such as
+'magnesium chloride, MgCl' did not score" (SRC-ER-4CH0-LEGACY, 2014-06/4CH0-1C/er.pdf
+p4). Temporal scope: LEGACY — HISTORICAL. The current taxonomy (HIS-023) formalizes
+command words in the specification; this record shows the same discipline being
+taught by examiners from the marking side three years before the current
+specification issued.
+### HIS-056 — Accepted-but-avoided terminology is examiner-adjudicated
+
+**Claim:** the legacy ER documents a two-level terminology verdict — a term can be
+mark-scheme-accepted yet officially discouraged: 'giant molecules' and
+'macromolecules' for giant covalent structures were credited but named as forms to
+avoid. **Evidence:** the Summer 2012 Paper 1C report, discussing why candidates
+described covalent bonds to break as intermolecular forces, states "Perhaps this is
+because giant covalent structures are often incorrectly presented to them in text
+books as being giant molecules or macromolecules. Although these terms are accepted
+in the mark scheme as a description of the type of structure, they are best avoided"
+(SRC-ER-4CH0-LEGACY, 2012-06/4CH0-1C/er.pdf p6). Temporal scope: LEGACY —
+HISTORICAL. This is terminology intelligence of a kind a specification cannot carry:
+the distinction between what scores and what is chemically cleanest, adjudicated by
+the marking team and preserved only in the report series.
+### HIS-057 — Symbol and formula carelessness is policed once per paper by documented convention
+
+**Claim:** two reports from different years state the same convention: careless
+symbol or formula writing is penalized once per paper at a chosen location — a
+documented marking convention that makes symbol discipline a scored, bounded risk
+rather than a global hazard. **Evidence:** the January 2013 Paper 1C report states
+"Careless writing of symbols and use of subscripts is normally penalised once in each
+paper, and this part was chosen for the purpose - this meant that answers such as
+C2H4BR2 and C2H4Br2 did not score" (SRC-ER-4CH0-LEGACY, 2013-01/4CH0-1C/er.pdf p5);
+the Summer 2014 Paper 1C report states "There is usually one question on the paper
+where examiners penalise the poor use of chemical symbols and chemical formulae. In
+this paper it was Q7(b)." (SRC-ER-4CH0-LEGACY, 2014-06/4CH0-1C/er.pdf p4). Temporal
+scope: LEGACY — HISTORICAL. The consistency of the convention across sessions is the
+persistence finding; its boundedness (once per paper) is the actionable detail.
+### HIS-058 — State-symbol discipline is examiner-documented twice, with a readability warning
+
+**Claim:** the legacy ER documents state-symbol errors as a recurring scored
+precision point, including an examiner-side note that the letters themselves were
+hard to distinguish in handwriting — with the benefit of the doubt explicitly
+withheld. **Evidence:** the June 2011 Paper 2C report states "It would also be useful
+for teachers to point out that candidates should be extremely careful when writing
+state symbols. It was often difficult to distinguish an 's' from a 'g'. Examiners
+were instructed not to give the benefit of the doubt in such cases"
+(SRC-ER-4CH0-LEGACY, 2011-06/4CH0-2C/er.pdf p5); the Summer 2017 Paper 1C report
+records that "many gave the state symbol for hydrochloric acid as (l)"
+(SRC-ER-4CH0-LEGACY, 2017-06/4CH0-1C/er.pdf p6). Temporal scope: LEGACY —
+HISTORICAL. The six-year span between the two witnesses and the explicit
+no-benefit-of-the-doubt instruction make this a documented persistent precision
+demand, aligned with the state-symbol requirement in the current statement set
+(HIS-025's anchor).
 
 ## Evidence / Source Basis
 

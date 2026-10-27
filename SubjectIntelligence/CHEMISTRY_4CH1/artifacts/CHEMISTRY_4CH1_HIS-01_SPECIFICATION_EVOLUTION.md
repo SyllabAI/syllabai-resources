@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: HIS-01
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-LEGACY-SPEC-4CH0"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-007"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "4920c4640615c14a7c769c875bb87b40b361f0c2"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # HIS-01 — Specification Evolution
@@ -161,6 +161,76 @@ series amended to November and June ... Appendix 5: Command word taxonomy 'Which
 added to the command word taxonomy" (SRC-SPEC-4CH1,
 international-gcse-chemistry-2017-specification.pdf p3).
 Temporal scope: CURRENT — AUTHORITATIVE.
+
+### HIS-043 — The examiner-report cover series mirrors the qualification's identity evolution
+
+**Claim:** the legacy examiner-report covers document the same identity evolution the
+specification covers show: the 2011 covers name an Edexcel International GCSE
+Chemistry paper shared with the Double Award, the Summer 2014 cover carries the
+Pearson Edexcel imprint, and the January 2019 cover retains the same Pearson Edexcel
+International GCSE naming to the end of the series. **Evidence:** the June 2011 cover
+reads "Examiners' Report/ Principal Examiner Feedback June 2011 International GCSE
+Chemistry (4CH0) Paper 1C Science Double Award (4SC0) Paper 1C"
+(SRC-ER-4CH0-LEGACY, 2011-06/4CH0-1C/er.pdf p1); the Summer 2014 cover reads
+"Examiners' Report/ Principal Examiner Feedback Summer 2014 Pearson Edexcel
+International GCSE in Chemistry (4CH0) Paper 1C" (SRC-ER-4CH0-LEGACY,
+2014-06/4CH0-1C/er.pdf p1); the January 2019 cover reads "Examiners' Report Principal
+Examiner Feedback January 2019 Pearson Edexcel International GCSE In Chemistry
+(4CH0) Paper 1C" (SRC-ER-4CH0-LEGACY, 2019-01/4CH0-1C/er.pdf p1). Temporal scope:
+LEGACY — HISTORICAL. The cover series is thus a per-session documentary witness to
+the same Edexcel-to-Pearson imprint migration that HIS-019 and HIS-020 established
+from the specification documents themselves, and it keeps that witness current to
+the final legacy session in the pack.
+### HIS-044 — The Level 1/Level 2 Certificate co-branding window is legible inside the report series
+
+**Claim:** the ER covers bracket the Level 1/Level 2 Certificate era: covers from
+Summer 2012 and Summer 2016 co-brand the same paper for the Certificate
+qualification, while the January 2018 cover names only the International GCSE —
+so the Certificate co-branding appears, evolves, and disappears inside the report
+series itself. **Evidence:** the Summer 2012 cover reads "International GCSE
+Chemistry (4CH0) Paper 1C Science Double Award (4SC0) Paper 1C Edexcel Level 1/Level
+2 Certificate Chemistry (KCH0) Paper 1C Science (Double Award) (KSC0) Paper 1C"
+(SRC-ER-4CH0-LEGACY, 2012-06/4CH0-1C/er.pdf p1); the Summer 2016 cover carries the
+same four-stream layout under Pearson branding, reading "Pearson Edexcel
+International GCSE Chemistry (4CH0) Paper 1C Science Double Award (4SC0) Paper 1C
+Pearson Edexcel Level 1/Level 2 Certificate Chemistry (KCH0) Paper 1C Science
+(Double Award) (KSC0) Paper 1C" (SRC-ER-4CH0-LEGACY, 2016-06/4CH0-1C/er.pdf p1); the
+January 2018 cover reads only "Pearson Edexcel International GCSE In Chemistry
+(4CH0) Paper 1C" (SRC-ER-4CH0-LEGACY, 2018-01/4CH0-1C/er.pdf p1). Temporal scope:
+LEGACY — HISTORICAL. The certificate stream the current boundary artifact excludes
+(CUR-046's forbidden-combinations finding aside) was therefore a live co-qualification
+for the same assessment content through at least Summer 2016.
+### HIS-045 — The Certificate naming takes two forms across the covers
+
+**Claim:** even inside the co-branding window the Certificate's printed name varies:
+some covers carry the full "Level 1/Level 2 Certificate" form while the January 2017
+cover uses the shorter "Pearson Edexcel Certificate" form — the naming was not
+uniform even while the stream was live. **Evidence:** the Summer 2013 cover carries
+the full form "Edexcel Level 1/Level 2 Certificate Chemistry (KCH0) Paper 1C Science
+(Double Award) (KSC0) Paper 1C" (SRC-ER-4CH0-LEGACY, 2013-06/4CH0-1C/er.pdf p1);
+the January 2017 Paper 2C cover reads "International GCSE Chemistry (4CH0) Paper 2C
+Pearson Edexcel Certificate in Chemistry (KCH0) Paper 2C"
+(SRC-ER-4CH0-LEGACY, 2017-01/4CH0-2C/er.pdf p1). Temporal scope: LEGACY —
+HISTORICAL. For lineage work this means the Certificate's documentary trail must be
+sought under both name forms; a search keyed only on the Level 1/Level 2 form would
+miss the 2017 witness.
+### HIS-046 — The report series documents the paper model's continuity and the 2013-2017 CR-variant window
+
+**Claim:** the covers confirm the two-paper model (1C and 2C) at every session in the
+series, and document a resit/alternative variant window: 1CR and 2CR covers appear
+from Summer 2013 through Summer 2017 but are absent at both ends of the series
+(2011-2012 and 2018-2019). **Evidence:** the June 2011 Paper 2C cover reads
+"Examiners' Report/ Principal Examiner Feedback June 2011 International GCSE
+Chemistry (4CH0) Paper 2C" (SRC-ER-4CH0-LEGACY, 2011-06/4CH0-2C/er.pdf p1); the
+Summer 2013 series includes a Paper 2CR cover reading "Examiners' Report/ Principal
+Examiner Feedback Summer 2013 International GCSE Chemistry (4CH0) Paper 2CR"
+(SRC-ER-4CH0-LEGACY, 2013-06/4CH0-2CR/er.pdf p1); the January 2019 Paper 2C cover
+reads "Examiners' Report Principal Examiner Feedback January 2019 Pearson Edexcel
+International GCSE In Chemistry (4CH0) Paper 2C" (SRC-ER-4CH0-LEGACY,
+2019-01/4CH0-2C/er.pdf p1). Temporal scope: LEGACY — HISTORICAL. The paper-model
+continuity HIS-004 and HIS-018 established from the specifications is thus witnessed
+per-session by the report series, with the CR window as a documented intermediate
+variation.
 
 ## Evidence / Source Basis
 

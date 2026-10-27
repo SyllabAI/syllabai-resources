@@ -8,6 +8,10 @@ library; 4CH1 is the first onboarded course, not the template's boundary.
 **Protocol:** SIB v1 — `docs/SUBJECT_INTELLIGENCE_BUILD_V1.md` (PROPOSED of record,
 master-repo landed 2026-10-01). **Validator:** `SyllabAI/syllabai@tools/sib/`
 (IMPLEMENTED), canonical, not vendored here — see `docs/PIPELINE.md` §2.
+**Operational laws:** `docs/LESSONS_REGISTER.md` (the self-improving-pipeline register:
+the locator/quote grammar, pack discipline, receipts culture, and debt discipline every
+run and every new course inherits — wired into `docs/PIPELINE.md` §8 and
+`docs/COURSE_ONBOARDING.md` §7).
 
 ## What this is
 

@@ -1,0 +1,205 @@
+{
+  "repair": "RUN-015 Stage A: the 131 pathless citation tokens in CUR-03..08 upgraded to the r4 binding grammar (library register item filed by RUN-014: 'same-style debt remains in CUR-03..08/GAP'). Locator FORMAT only — pack file paths inserted per the covering pack excerpt locators; semicolon-joined multi-citations split one-per-paren; 'page N' -> 'pN'; prose hedges moved out of the citation parens (em-dash joined, words preserved); the chained 'through' connector (CUR-07, paren-internal formatting word) dropped. Sources/pages/line-ranges/prose preserved in substance; zero new claims. GAP-01..08 verified already path-conformant (0 pathless) — confirm-only re-gate, no edits.",
+  "pack_respec": {
+    "artifact": "CUR-06",
+    "precedent": "RUN-007 pack re-spec",
+    "change": "point_edges.yaml md_query extended with p:1.39; concepts.yaml md_query extended with ELECTRONIC-CONFIGURATION + FRACTIONAL-DISTILLATION",
+    "added_windows": {
+      "CUR-06": [
+        {
+          "path": "graph/igcse-chemistry/point_edges.yaml",
+          "locator": "lines 152-166",
+          "head": "this store is deliberately the only graph/ store without a corpus upstream (asym",
+          "chars": 711
+        },
+        {
+          "path": "graph/igcse-chemistry/concepts.yaml",
+          "locator": "lines 2779-2793",
+          "head": "created_at: '2026-09-12'\n  damage_flags: []\n- code: 4CH1-CON-ELECTRONIC-CONFIGUR",
+          "chars": 392
+        },
+        {
+          "path": "graph/igcse-chemistry/concepts.yaml",
+          "locator": "lines 3597-3611",
+          "head": "created_at: '2026-09-24'\n  damage_flags: []\n- code: 4CH1-CON-FRACTIONAL-DISTILLA",
+          "chars": 531
+        }
+      ],
+      "CUR-05": [
+        {
+          "path": "graph/igcse-chemistry/point_edges.yaml",
+          "locator": "lines 8-22",
+          "head": "edge_vocabulary: 'live V2 knowledge_edges enum (V2__curriculum_knowledge.sql): R",
+          "chars": 850
+        }
+      ]
+    },
+    "proof": "rebuilt via evidence_pack.py; diff vs the RUN-002 pack shows exactly the 3 added excerpts, zero drift in every other byte (excerpt texts, file shas, source order)"
+  },
+  "adjudications": {
+    "CUR-08": {
+      "51-65": "specification_points.yaml",
+      "93-107": "specification_points.yaml",
+      "141-155": "specification_points.yaml",
+      "86-100": "practicals.yaml"
+    }
+  },
+  "per_artifact": {
+    "CUR-03": {
+      "tokens_before": 19,
+      "tokens_after": 56,
+      "ranges": 22,
+      "adjudicated": {},
+      "moved_hedges": []
+    },
+    "CUR-04": {
+      "tokens_before": 14,
+      "tokens_after": 17,
+      "ranges": 10,
+      "adjudicated": {},
+      "moved_hedges": []
+    },
+    "CUR-05": {
+      "tokens_before": 20,
+      "tokens_after": 49,
+      "ranges": 40,
+      "adjudicated": {},
+      "moved_hedges": [
+        "context; store meta"
+      ]
+    },
+    "CUR-06": {
+      "tokens_before": 24,
+      "tokens_after": 53,
+      "ranges": 33,
+      "adjudicated": {},
+      "moved_hedges": []
+    },
+    "CUR-07": {
+      "tokens_before": 29,
+      "tokens_after": 38,
+      "ranges": 25,
+      "adjudicated": {},
+      "moved_hedges": [
+        "store meta"
+      ]
+    },
+    "CUR-08": {
+      "tokens_before": 25,
+      "tokens_after": 31,
+      "ranges": 10,
+      "adjudicated": {
+        "51-65": "specification_points.yaml",
+        "93-107": "specification_points.yaml",
+        "141-155": "specification_points.yaml",
+        "86-100": "practicals.yaml"
+      },
+      "moved_hedges": [
+        "context; pack specification_points windows"
+      ]
+    },
+    "quote_repairs": [
+      {
+        "artifact": "CUR-05",
+        "old": "(store meta law; SRC-GRAPH-4CH1, lines 32-46)",
+        "new": "(store meta law; SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 8-22)",
+        "grounding": "prose-paren hidden pathless citation; the direction contract lives at lines 10-12 (new re-spec window 8-22), not the 32-46 row window"
+      },
+      {
+        "artifact": "CUR-08",
+        "old": "(CUR-07's store census; SRC-SPEC-4CH1, page 3)",
+        "new": "(CUR-07's store census; SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p3)",
+        "grounding": "prose-paren hidden pathless citation; page 3 covered by the pack's SPEC p3 excerpt"
+      },
+      {
+        "artifact": "CUR-04",
+        "old": "(\"Don't forget to take into account the balancing numbers…\")",
+        "new": "(\"Don't forget to take into account the balancing numbers when working out how many of each type of bond is being broken/formed\")",
+        "grounding": "quote was truncated with an ellipsis although the full note IS verbatim in the cited window (concept_edges 13549-13563); extension removes the ellipsis pairing artifact and is a strict verbatim superset"
+      },
+      {
+        "artifact": "CUR-05",
+        "old": "RELATED_TO rows are stored verbatim and exported 1:1\" (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 32-46) — context; store meta",
+        "new": "RELATED_TO rows are stored verbatim and exported 1:1 as [from, to, ''rel''].\"  (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 8-22) — context; store meta",
+        "grounding": "quote dropped the contract's tail and used 'pre' where the file (YAML single-quote escaping) prints ''pre''; re-pointed to the actual meta window 8-22 (re-spec) and extended to the verbatim close"
+      },
+      {
+        "artifact": "CUR-07",
+        "old": "as they are often linked but do not need to be justified\"",
+        "new": "as they are often linked but do not need to include a justification or reason\"",
+        "grounding": "paraphrase-in-quotes: the store's Describe definition (window 156-170, already the cited locus) reads 'do not need to include a justification or reason'; repaired to verbatim"
+      },
+      {
+        "artifact": "CUR-07",
+        "old": "drawing on evidence including strengths, …\" — the definition continues in the store's window with the weaknesses/comparative elements truncated at the excerpt cap, and the official table carries the full sentence",
+        "new": "drawing on evidence including strengths, weaknesses, alternative actions, relevant data or information\" — the store's window carries the definition in full, and the official Appendix 5 table is the extraction source of record",
+        "grounding": "the truncation claim was false (window 293-307 carries the full definition: 'strengths, weaknesses, alternative actions, relevant data or information'); quote extended to the verbatim full definition, false narrative removed"
+      },
+      {
+        "artifact": "CUR-07",
+        "old": "The store flags its own excerpt boundary honestly; the full definition is verifiable against the official page cited.",
+        "new": "The store's provenance block records the deterministic Appendix 5 parse (spec_issue 3), so the definition is verifiable against the store window and the official table cited.",
+        "grounding": "follow-up sentence repaired with the Evaluate quote; the excerpt-cap note no longer applies (the window carries the definition in full)"
+      },
+      {
+        "artifact": "CUR-08",
+        "old": "(\"For first teaching September 2017, First examination June 2019\")",
+        "new": "(\"For first teaching September 2017 First examination June 2019\")",
+        "grounding": "comma injected by the writer; the SAMs p1 cover text carries no comma"
+      },
+      {
+        "artifact": "CUR-08",
+        "old": "\"SAMPLE ASSESSMENT MATERIALS, Pearson Edexcel International GCSE in Chemistry (4CH1), For first teaching September 2017, First examination June 2019, Issue 2\"",
+        "new": "\"SAMPLE ASSESSMENT MATERIALS Pearson Edexcel International GCSE in Chemistry (4CH1) For first teaching September 2017 First examination June 2019 Issue 2\"",
+        "grounding": "four commas injected by the writer; the SAMs p1 cover text carries none"
+      },
+      {
+        "artifact": "CUR-08",
+        "old": "(\"'Which' added to the command word taxonomy\", page 46)",
+        "new": "(\"“Which” added to the command word taxonomy\", page 46)",
+        "grounding": "nested single-quotes; the SPEC p3 changes page prints curly double quotes around Which (normalized match requires the source's own quoting)"
+      },
+      {
+        "artifact": "CUR-05",
+        "old": "the canonicalKG 'pre' contract by flipping: golden [to, from, 'pre']",
+        "new": "the canonicalKG ''pre'' contract by flipping: golden [to, from, ''pre'']",
+        "grounding": "the contract quote's middle carried single-quoted 'pre' where the file (YAML single-quote escaping) prints ''pre'' (second gating round; tail already repaired)"
+      },
+      {
+        "artifact": "CUR-07",
+        "old": "The multiple-choice tier is its own category: \"What, Why, Which — direct command words used for multiple-choice questions\" — the paper-format signature",
+        "new": "The multiple-choice tier is its own category, \"What, Why, Which\": \"Direct command words used for multiple-choice questions\" — the paper-format signature",
+        "grounding": "the quote prepended 'What, Why, Which — ' to the store's definition; the store carries the command word field and the definition as separate verbatim strings (window 587-601), now quoted separately (second gating round)"
+      },
+      {
+        "artifact": "CUR-08",
+        "old": "(\"specimen/SAM material cited as live-session evidence\" is a forbidden substitution)",
+        "new": "(citing specimen/SAM material as live-session evidence is a forbidden substitution)",
+        "grounding": "the quoted phrase is the evidence policy's own wording — not a pack excerpt; de-quoted with the attribution retained (the binding law covers pack-grounded quotes only) (second gating round)"
+      }
+    ]
+  },
+  "preflight": {
+    "resolved": [
+      "SRC-ER-4CH0-LEGACY",
+      "SRC-ER-4CH1",
+      "SRC-GRAPH-4CH1",
+      "SRC-LEGACY-SPEC-4CH0",
+      "SRC-QPMS-4CH1",
+      "SRC-ROOT-BOOK-COPIES-4CH1",
+      "SRC-SAMS-4CH1",
+      "SRC-SPEC-4CH1",
+      "SRC-TL-4CH1"
+    ],
+    "disclosed_failed": [
+      "SRC-BOOK-4CH1-SB1",
+      "SRC-EXT-NOTES-4CH1",
+      "SRC-LESSONS-4CH1",
+      "SRC-PMT-4CH1",
+      "SRC-RAG-PKG-4CH1",
+      "SRC-SME-EXAMQ-4CH1",
+      "SRC-SME-NOTES-4CH1",
+      "SRC-SPECLINKS-4CH1"
+    ]
+  }
+}

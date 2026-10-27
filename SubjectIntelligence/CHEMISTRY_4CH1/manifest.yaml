@@ -4,7 +4,7 @@
 # applicability is subject-specific. Row statuses are intentionally left empty: the
 # validator rejects landing artifacts that self-declare past GENERATED, so the
 # authoritative per-artifact state lives in the artifact front matter + qa-reports/
-# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..014;
+# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..015;
 # see coverage_status below and runs/).
 sib_protocol: SIB-1.0
 manifest_version: "1.0"
@@ -17,7 +17,7 @@ curriculum_version: "2017"
 notebook: 4CH1-SIB-NOTEBOOK-001
 source_manifest: source_manifest.yaml
 coverage_status:
-  generated: "95/95 artifacts GENERATED (runs RUN-001..014 of record; per-artifact receipts in runs/ + qa-reports/)"
+  generated: "95/95 artifacts GENERATED (runs RUN-001..015 of record; per-artifact receipts in runs/ + qa-reports/)"
   families: "CUR 8, EXP 8, MIS 9, ASM 10, MS 8, EXM 6, PED 9, PRA 5, PRO 7, HIS 7, TUT 10, GAP 8"
   grounding_consumed: "SRC-SPEC-4CH1, SRC-QPMS-4CH1, SRC-ER-4CH1, SRC-TL-4CH1,
     SRC-SAMS-4CH1, SRC-ROOT-BOOK-COPIES-4CH1, SRC-BOOK-4CH1-SB1 (validated v3
@@ -69,8 +69,32 @@ coverage_status:
     pre-existing grammar debt fail-closed at 34 violations on the unedited base.
     Citation-grammar debt of the same style remains in CUR-03..08/GAP (outside this
     run's edit scope), register item."
+  citation_grammar_pass: "RUN-015 closed the RUN-014 register item and the SIB-ASSESS-r1
+    OPTIONAL-HIS backlog in one run. Stage A: all 131 pathless citation tokens in
+    CUR-03..08 upgraded to the r4 binding grammar (paths inserted per covering pack
+    excerpt locators; multi-citations split one-per-paren; 'page N' -> 'pN'; prose
+    hedges moved out of the parens; 2 prose-paren hidden pathless forms repaired);
+    4 CUR-08 multi-cover ranges content-adjudicated; CUR-06 (+3 windows) and CUR-05
+    (+1 direction-contract window) packs re-spec'd via disclosed surgical appends
+    byte-built per _md_locate rules (full-rebuild path proven surface-unstable);
+    11 first-time quote-binding violations repaired verbatim-verified (2
+    paraphrase-in-quotes, 2 injected-comma quotes, 1 ellipsis-truncated quote, 1
+    contract quote completed incl. YAML ''-escaping, 1 false excerpt-cap narrative
+    removed, 1 quote de-quoted as policy wording, 1 nested-quote restored, 1 MCQ
+    quote split into the store's own strings, 1 verifier-noted verify). CUR-03..08
+    stamped v1.1. GAP-01..08 re-gated confirm-only: 120 citations / 0 violations —
+    the RUN-014 register note's GAP mention retired. Stage B: the 7 OPTIONAL-HIS
+    backlog artifacts deepened (HIS-01..07 v1.1) — 28 new records (HIS-043..070,
+    record-id continuity verified) grounded in widened legacy ER windows (1-8 -> 5-18
+    pages per artifact, up to 16 sessions 2011-2019), every quote verbatim-verified;
+    42 original records unchanged. Receipts:
+    runs/SIB-CHEMISTRY_4CH1-RUN-015/ (citation_repair_receipt.json,
+    advance_disclosure.json, census.json, evidence_claim_qa_report.json).
+    Self-improving pipeline: docs/LESSONS_REGISTER.md added (the operational laws of
+    record); PIPELINE.md r1 §8 + COURSE_ONBOARDING.md §7 wire it into every future
+    run and course onboarding."
   publication: "staging/publication remain operator-ordered (validator publication law)"
-  updated: "2026-10-27 (RUN-014, BL-011)"
+  updated: "2026-10-27 (RUN-015, BL-011)"
 artifacts:
   - artifact_id: CUR-01
     applicability: REQUIRED
@@ -631,4 +655,25 @@ backlog:
       citation tokens byte-identical pre/post for the D4 edits; validator qa
       @ 357ace0a 0 errors / 0 warnings x2 edited + 93 unchanged receipts
       refreshed — 95/95 clean; citation QA r4 81 citations / 0 violations; run
-      manifest add-artifact x2 + validate OK."
+      manifest add-artifact x2 + validate OK.
+      PASS 15 EXECUTED 2026-10-27 (operator order 'Proceed with CUR/GAP
+      citation-grammar pass, and the 7 OPTIONAL-HIS backlog artifacts. And also
+      remember to update the docs of the SubjectIntelligence folder... Basically a
+      self improving pipeline', channel zai-web, trace 1a17cb11a9858229): run
+      SIB-CHEMISTRY_4CH1-RUN-015 = the RUN-014 citation-grammar register item +
+      the SIB-ASSESS-r1 OPTIONAL-HIS backlog + docs self-improvement. Stage A:
+      131 pathless tokens repaired across CUR-03..08 (v1.1 x6) to the r4 binding
+      grammar; 2 prose-paren hidden forms; 4 multi-cover ranges adjudicated;
+      CUR-05/CUR-06 pack re-specs (disclosed surgical appends, minimal-diff
+      proven); 11 quote-binding repairs verbatim-verified (first-time r1 gating
+      of the RUN-002-era CUR family); GAP-01..08 confirm-clean (120 citations /
+      0 violations, register note retired). Stage B: HIS-01..07 v1.1 — 28 new
+      records (HIS-043..070) on widened legacy ER windows (5-18 pages/artifact,
+      sessions 2011-2019), 42 original records unchanged, all quotes
+      verbatim-verified. Stage C: docs/LESSONS_REGISTER.md (operational laws of
+      record) + PIPELINE.md r1 §8 + COURSE_ONBOARDING.md §7 + README pointer —
+      the self-improving-pipeline directive. Chain: preflight PASS (families
+      CUR/GAP/HIS; 9/17 resolved, legacy primaries live); packs carried/
+      re-spec'd byte-verified; validator qa @ 357ace0a 0 errors / 0 warnings —
+      95/95 receipts clean; citation QA r4: CUR 210 + GAP 120 + HIS 138
+      citations / 0 violations; run manifest add-artifact x13 + validate OK."

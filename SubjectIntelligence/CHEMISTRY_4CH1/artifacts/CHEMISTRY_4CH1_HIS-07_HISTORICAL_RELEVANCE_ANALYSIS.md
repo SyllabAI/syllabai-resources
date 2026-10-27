@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: HIS-07
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-LEGACY-SPEC-4CH0"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-007"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "4920c4640615c14a7c769c875bb87b40b361f0c2"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # HIS-07 — Historical Relevance Analysis
@@ -193,6 +193,63 @@ instruction that does not age (SRC-ER-4CH0-LEGACY, 2018-06/4CH0-2C/er.pdf p6).
 The current map is CURRENT — AUTHORITATIVE; the report witness is
 LEGACY — HISTORICAL.
 Temporal scope: CURRENT — AUTHORITATIVE.
+
+### HIS-067 — The examiners' significant-figure and fraction discipline remains instructive as technique
+
+**Claim:** the legacy examiners state two calculation-presentation rules that remain
+directly actionable for current learners: answers should carry the same number of
+significant figures as the question's data, and fractions are not acceptable final
+answers. **Evidence:** the Summer 2018 Paper 2C report states "Candidates need to be
+aware that ideally their answers need to be given to the same number of significant
+figures as the data given in the question." and "Candidates need to be aware that
+fractions are not acceptable as final answers to calculations in Chemistry
+examinations." (SRC-ER-4CH0-LEGACY, 2018-06/4CH0-2C/er.pdf p7). Temporal scope:
+LEGACY — HISTORICAL, offered as technique. These are technique rules of the craft
+(the relevance lens of this artifact): content-independent, examiner-stated, and as
+binding on a current candidate as on a legacy one.
+### HIS-068 — Industrial-process condition confusion is documented twice across seven years
+
+**Claim:** confusing the Haber and Contact process conditions is examiner-documented
+in 2011 and again in 2018 — in the later report the recorded error form is
+specifically a 200-atmosphere pressure offered for the Contact process "probably
+because of confusion with the Haber Process". **Evidence:** the June 2011 Paper 2C
+report records that "some confused the conditions for the Contact process with those
+for the Haber process" (SRC-ER-4CH0-LEGACY, 2011-06/4CH0-2C/er.pdf p5); the Summer
+2018 Paper 2C report records "Some thought a pressure of 200 atmospheres was used,
+probably because of confusion with the Haber Process" (SRC-ER-4CH0-LEGACY,
+2018-06/4CH0-2C/er.pdf p7). Temporal scope: LEGACY — HISTORICAL, offered as
+technique. The persistence across seven years is the relevance finding: the
+condition-set confusion is a stable hazard, and the 450C/200-atmosphere pairing the
+legacy specification printed (HIS-038's witness) is the source material the
+confusion feeds on.
+### HIS-069 — The examiners route teachers into the mark-scheme corpus as the answer authority
+
+**Claim:** the legacy ER explicitly recommends the mark schemes of recent papers as
+the authority for acceptable answers — a documented, examiner-stated bridge from the
+report layer to the mark-scheme corpus, which is exactly the consumption contract
+this library's ASM/MS intelligence assumes. **Evidence:** the Summer 2014 Paper 1CR
+report, on bromine colour descriptions, states "The specification requires candidates
+to know the colours of both bromine and bromine water, and teachers are recommended
+to look at the mark schemes for this and recent question papers for the acceptable
+answers" (SRC-ER-4CH0-LEGACY, 2014-06/4CH0-1CR/er.pdf p5). Temporal scope: LEGACY —
+HISTORICAL, offered as technique. The report's own navigation instruction validates
+treating the mark-scheme corpus (not the report prose) as the locus of accepted
+answers — the same precedence this library encodes in its evidence classes.
+### HIS-070 — Metallic-bonding explanation demands are examiner-documented at the era's end
+
+**Claim:** the final legacy session documents metallic-bonding explanation demands in
+their marked granularity: conductivity explanations failed when ions were described
+as the mobile charge carriers instead of delocalised electrons, and malleability
+explanations required the layer structure the question's diagram showed.
+**Evidence:** the January 2019 Paper 2C report records that "some candidates lost
+these marks for incorrectly describing the movement of ions instead of delocalised
+electrons. In explaining the malleability some candidates failed to mention that the
+ions (or equivalent term) are in layers as shown in the diagram in the question"
+(SRC-ER-4CH0-LEGACY, 2019-01/4CH0-2C/er.pdf p6). Temporal scope: LEGACY —
+HISTORICAL, offered as technique. The wrong-model forms (ion mobility in metals,
+missing layers) are precisely the misconception boundaries a current learner must
+hold on the corresponding current content, which is the historical-relevance verdict
+this artifact exists to deliver.
 
 ## Evidence / Source Basis
 

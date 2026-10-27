@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: CUR-07
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-25
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-002"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "4bae2886d123d0f597c0091dbe0c6d9f9acdb44d"
-    syllabai_resources: "ebe914b10cf938fa5c219f73881ae853922eef8a"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # CUR-07 — Terminology & Definitions
@@ -74,18 +74,16 @@ in this pack; no claim grounds on its internal text.
 - The taxonomy of record holds exactly 25 command words — 23 category main, 1
   verb-preceding-command-word ("Analyse the data/graph to explain"), 1
   multiple-choice-questions ("What, Why, Which") — defined verbatim in the validated
-  store and in the specification's Appendix 5 (SRC-GRAPH-4CH1, lines 45-59 through
-  SRC-GRAPH-4CH1, lines 587-601; SRC-SPEC-4CH1, page 51; RUN-COMPUTED: census.json,
-  command_words.entries; census.json, command_words.category_distribution).
+  store and in the specification's Appendix 5 (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 45-59); (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 587-601); (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p51) (RUN-COMPUTED: census.json, command_words.entries; census.json, command_words.category_distribution).
 - The recall tier is explicit in the official definitions: "Give/State/Name — all of
   these command words are really synonyms. They generally all require recall of one or
-  more pieces of information" (SRC-GRAPH-4CH1, lines 340-354).
+  more pieces of information" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 340-354).
 - The reasoning tier is anchored by Explain — "The answer must contain some element of
   reasoning/justification" — and by Deduce, Justify, Suggest and Comment on
-  (SRC-GRAPH-4CH1, lines 317-331; SRC-GRAPH-4CH1, lines 134-148).
+  (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 317-331); (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 134-148).
 - The quantitative tier is anchored by Calculate ("Obtain a numerical answer, showing
   relevant working") and Determine ("must have an element that is quantitative")
-  (SRC-GRAPH-4CH1, lines 68-82; SRC-GRAPH-4CH1, lines 179-193).
+  (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 68-82); (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 179-193).
 
 ## Main Analysis
 
@@ -95,15 +93,13 @@ The validated command-word store carries 25 entries, each with a code
 (4CH1-CW-*), the command word, a category, and the official definition; the store's
 own provenance note records that the words and definitions are verbatim from the
 canonical PDF-direct parse of appendix pages 51-52, with the category field a ratified
-overlay (SRC-GRAPH-4CH1, lines 45-59; store meta). The specification PDF confirms the
+overlay (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 45-59) — store meta. The specification PDF confirms the
 verbatim source: Appendix 5 "Command word taxonomy" opens at printed page 45 (PDF
-page 51) with the same table (SRC-SPEC-4CH1, page 51). The category census: 23 main
+page 51) with the same table (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p51). The category census: 23 main
 command words, 1 verb-preceding-command-word ("Analyse the data/graph to explain —
 examine the data/graph in detail to provide an explanation"), and 1
 multiple-choice-questions entry ("What, Why, Which — direct command words used for
-multiple-choice questions") (SRC-GRAPH-4CH1, lines 565-579; SRC-GRAPH-4CH1, lines
-587-601; RUN-COMPUTED: census.json, command_words.entries;
-census.json, command_words.category_distribution). Every definition quoted in this
+multiple-choice questions") (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 565-579); (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 587-601) (RUN-COMPUTED: census.json, command_words.entries; census.json, command_words.category_distribution). Every definition quoted in this
 artifact is verbatim from the store's definition fields; paraphrase is not used
 anywhere in this record set, because a paraphrased command-word definition would
 silently rewrite the assessment contract.
@@ -112,16 +108,15 @@ silently rewrite the assessment contract.
 
 Four definitions define the recall contract. Give/State/Name: "All of these command
 words are really synonyms. They generally all require recall of one or more pieces of
-information" (SRC-GRAPH-4CH1, lines 340-354). Identify: "Usually requires some key
-information to be selected from a given stimulus/resource" (SRC-GRAPH-4CH1, lines
-385-399). Predict: "Give an expected result" (SRC-GRAPH-4CH1, lines 453-467). Show
-that: "Verify the statement given in the question" (SRC-GRAPH-4CH1, lines 475-489).
+information" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 340-354). Identify: "Usually requires some key
+information to be selected from a given stimulus/resource" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 385-399). Predict: "Give an expected result" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 453-467). Show
+that: "Verify the statement given in the question" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 475-489).
 Two adjacent definitions bound the tier: State what is meant by — "When the meaning of
 a term is expected but there are different ways for how these can be described" —
-which is definitional recall with wording freedom (SRC-GRAPH-4CH1, lines 520-534);
+which is definitional recall with wording freedom (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 520-534);
 and Give a reason/reasons — "When a statement has been made and the requirement is
 only to give the reason(s) why" — recall of a cause, not construction of an argument
-(SRC-GRAPH-4CH1, lines 363-377). The interpretation law for downstream families:
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 363-377). The interpretation law for downstream families:
 these words cap the demanded depth; an ASM archetype that scores a
 Give/State/Name item as if it demanded justification has mis-graded the contract.
 
@@ -129,62 +124,51 @@ Give/State/Name item as if it demanded justification has mis-graded the contract
 
 Explain anchors the tier: "An explanation requires a justification/exemplification of
 a point. The answer must contain some element of reasoning/justification"
-(SRC-GRAPH-4CH1, lines 317-331). Deduce raises the input stakes — "Draw/reach
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 317-331). Deduce raises the input stakes — "Draw/reach
 conclusion(s) from the information provided" — the conclusion must come FROM the
-stimulus, not from memory alone (SRC-GRAPH-4CH1, lines 134-148). Justify: "Give
+stimulus, not from memory alone (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 134-148). Justify: "Give
 evidence to support (either the statement given in the question or an earlier
-answer)" — evidence-bearing support of a claim already in play (SRC-GRAPH-4CH1,
-lines 407-421). Comment on: "Requires the synthesis of a number of variables from
-data/information to form a judgement" (SRC-GRAPH-4CH1, lines 90-104). Suggest:
+answer)" — evidence-bearing support of a claim already in play (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 407-421). Comment on: "Requires the synthesis of a number of variables from
+data/information to form a judgement" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 90-104). Suggest:
 "Use your knowledge to propose a solution to a problem in a novel context" — the
-novelty flag distinguishes it from recall (SRC-GRAPH-4CH1, lines 543-557). Describe
+novelty flag distinguishes it from recall (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 543-557). Describe
 sits deliberately between the tiers — "To give an account of something. Statements in
-the response need to be developed, as they are often linked but do not need to be
-justified" — development without justification is the exact boundary between
-describe and explain (SRC-GRAPH-4CH1, lines 156-170). Discuss is the multi-part
+the response need to be developed, as they are often linked but do not need to include a justification or reason" — development without justification is the exact boundary between
+describe and explain (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 156-170). Discuss is the multi-part
 member: identify the issue, explore all aspects, then the store's definition
-continues in bullet form (SRC-GRAPH-4CH1, lines 225-239). This tier maps one-to-one
+continues in bullet form (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 225-239). This tier maps one-to-one
 onto CUR-02's UNDERSTAND_RELATION and EXPLAIN_HOW classes — the store's demanded
 substances and the official definitions are two views of the same contract.
 
 ### CUR-041 — The quantitative and production tier: working, graphs, diagrams
 
 Calculate: "Obtain a numerical answer, showing relevant working" — the working is
-part of the demand, not presentation polish (SRC-GRAPH-4CH1, lines 68-82).
+part of the demand, not presentation polish (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 68-82).
 Determine: "The answer must have an element that is quantitative from the stimulus
-provided, or must show how the answer can be reached quantitatively" (SRC-GRAPH-4CH1,
-lines 179-193). Estimate: "Find an approximate value, number or quantity from a
-diagram/given data or through a calculation" (SRC-GRAPH-4CH1, lines 271-285). The
+provided, or must show how the answer can be reached quantitatively" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 179-193). Estimate: "Find an approximate value, number or quantity from a
+diagram/given data or through a calculation" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 271-285). The
 diagram/graph family splits by precision: Draw — "Produce a diagram either using a
 ruler or freehand"; Plot — "Produce a graph by marking points accurately on a grid
 from data that is provided and then draw a line of best fit through these points. A
 suitable scale and appropriately labelled axes must be included if these are not
 provided in the question"; Sketch — "Produce a freehand drawing. For a graph, this
 would need a line and labelled axes with important features indicated. The axes are
-not scaled" (SRC-GRAPH-4CH1, lines 249-263; SRC-GRAPH-4CH1, lines 429-443;
-SRC-GRAPH-4CH1, lines 497-511). Complete — "Requires the completion of a
+not scaled" (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 249-263); (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 429-443); (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 497-511). Complete — "Requires the completion of a
 table/diagram" — and Add/Label — "Requires the addition or labelling of a stimulus
 material given in the question, for example labelling a diagram or adding units to a
-table" — complete the production set (SRC-GRAPH-4CH1, lines 112-126;
-SRC-GRAPH-4CH1, lines 45-59). Design — "Plan or invent a procedure from existing
+table" — complete the production set (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 112-126); (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 45-59). Design — "Plan or invent a procedure from existing
 principles/ideas" — is the constructive member, bridging toward the evaluation tier
-(SRC-GRAPH-4CH1, lines 203-217). These definitions operationalize CUR-02's
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 203-217). These definitions operationalize CUR-02's
 REPRESENT_DIAGRAM and CALCULATE classes at exam-facing grain.
 
 ### CUR-042 — The evaluation apex and the MCQ tier
 
 Evaluate is the taxonomy's apex: "Review information (e.g. data, methods) then bring
-it together to form a conclusion, drawing on evidence including strengths, …" — the
-definition continues in the store's window with the weaknesses/comparative elements
-truncated at the excerpt cap, and the official table carries the full sentence
-(SRC-GRAPH-4CH1, lines 293-307; SRC-SPEC-4CH1, page 51). The store flags its own
-excerpt boundary honestly; the full definition is verifiable against the official
-page cited. The multiple-choice tier is its own category: "What, Why, Which — direct
-command words used for multiple-choice questions" — the paper-format signature that
-distinguishes MCQ demand grammar from open-response grammar (SRC-GRAPH-4CH1, lines
-587-601). The verb-preceding category member ("Analyse the data/graph to explain")
+it together to form a conclusion, drawing on evidence including strengths, weaknesses, alternative actions, relevant data or information" — the store's window carries the definition in full, and the official Appendix 5 table is the extraction source of record
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 293-307); (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p51). The store's provenance block records the deterministic Appendix 5 parse (spec_issue 3), so the definition is verifiable against the store window and the official table cited. The multiple-choice tier is its own category, "What, Why, Which": "Direct command words used for multiple-choice questions" — the paper-format signature that
+distinguishes MCQ demand grammar from open-response grammar (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 587-601). The verb-preceding category member ("Analyse the data/graph to explain")
 shows the taxonomy handling compound stems where a processing verb precedes the
-command word (SRC-GRAPH-4CH1, lines 565-579). For ASM archetype work, these three
+command word (SRC-GRAPH-4CH1, graph/igcse-chemistry/command_words.yaml lines 565-579). For ASM archetype work, these three
 non-main entries are the formatting signals: an MCQ archetype keys on
 What/Why/Which; a data-processing archetype keys on the compound stem.
 

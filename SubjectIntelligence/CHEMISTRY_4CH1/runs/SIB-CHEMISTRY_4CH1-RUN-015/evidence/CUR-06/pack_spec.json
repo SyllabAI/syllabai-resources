@@ -1,0 +1,52 @@
+{
+  "SRC-SPEC-4CH1": {
+    "files": [
+      {
+        "path_suffix": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+        "pdf_pages": [
+          15,
+          17,
+          22,
+          27,
+          29
+        ]
+      }
+    ]
+  },
+  "SRC-GRAPH-4CH1": {
+    "files": [
+      {
+        "path_suffix": "graph/igcse-chemistry/point_edges.yaml",
+        "md_query": "^- from: p:1\\.(18|19|22|39)$"
+      },
+      {
+        "path_suffix": "graph/igcse-chemistry/concept_edges.yaml",
+        "md_query": "^- source: 4CH1-CON-(ANION-TESTS|BOND-ENERGY-CALC|CARBOXYLIC-ACID-REACTIONS|CATION-TESTS|COMBUSTION-O2|CRUDE-OIL$|CRUDE-OIL-FRACTIONS|ETHANOL-MANUFACTURE|ETHANOL-OXIDATION|EXTRACTION-METHOD|FUELS-COMBUSTION|G1-REACTIVITY-ECONFIG|G7-REACTIVITY-ECONFIG)"
+      },
+      {
+        "path_suffix": "graph/igcse-chemistry/concepts.yaml",
+        "md_query": "^- code: 4CH1-CON-(ION-CHARGE-RULES|COVALENT-BOND|ACID-REACTIONS|EXO-ENDO|ELECTROLYSIS$)"
+      }
+    ]
+  },
+  "SRC-TL-4CH1": {
+    "files": [
+      {
+        "path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/gstt-int-gcse-chemistry.pdf",
+        "pdf_pages": [
+          3
+        ]
+      }
+    ]
+  },
+  "SRC-SAMS-4CH1": {
+    "files": [
+      {
+        "path_suffix": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+        "pdf_pages": [
+          1
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: CUR-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-25
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-002"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "4bae2886d123d0f597c0091dbe0c6d9f9acdb44d"
-    syllabai_resources: "ebe914b10cf938fa5c219f73881ae853922eef8a"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # CUR-06 — Cross-Topic Connections
@@ -47,7 +47,7 @@ This artifact is the cross-topic synthesis of the CHEMISTRY_4CH1 curriculum inte
 where the four official topics exchange content — which later topics consume which
 earlier foundations, which foundations are silently re-used across the qualification,
 and where the of-record graph is structurally silent. The official specification
-presents chemistry content as four parallel topics (SRC-SPEC-4CH1, page 15); learning
+presents chemistry content as four parallel topics (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15); learning
 does not respect that presentation, and neither does the validated concept graph. This
 artifact reads the graph's cross-topic edges honestly — including the important
 negative result at the statement grain — and states the consumption contract for
@@ -84,14 +84,11 @@ across it.
   require S1's ion-charge rules and electronic configuration; S3 bond-energy
   calculation requires S1's covalent bond; S4 crude oil and ethanol manufacture
   require S1's mixture and fractional distillation concepts
-  (SRC-GRAPH-4CH1, lines 7939-7953; SRC-GRAPH-4CH1, lines 10023-10037;
-  SRC-GRAPH-4CH1, lines 8146-8160; SRC-GRAPH-4CH1, lines 8861-8875;
-  SRC-GRAPH-4CH1, lines 8918-8932).
+  (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 7939-7953); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 10023-10037); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8146-8160); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8861-8875); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8918-8932).
 - The dependencies are not strictly forward in topic order: two edges run S2→S3
   (combustion requiring exothermic/endothermic; extraction method requiring the
   reactivity-order concept), which the official S1→S4 topic presentation does not
-  advertise (SRC-GRAPH-4CH1, lines 8546-8560; SRC-GRAPH-4CH1, lines 9864-9878;
-  SRC-SPEC-4CH1, page 15).
+  advertise (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8546-8560); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9864-9878); (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15).
 
 ## Main Analysis
 
@@ -102,7 +99,7 @@ specification-point grain, the ratified store of record is entirely intra-topic:
 edges, 0 crossing topic boundaries (RUN-COMPUTED: census.json,
 point_edges.cross_topic_point_edges), with the in-pack shape samples showing the
 row anatomy (p:1.19 REQUIRES_PREREQUISITE p:1.18 and siblings — all within-topic
-pairs) (SRC-GRAPH-4CH1, lines 32-46; SRC-GRAPH-4CH1, lines 152-166). At the concept
+pairs) (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 32-46); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 152-166). At the concept
 grain, the graph DOES cross topics: 24 genuine cross-topic edges — defined as edges
 whose two endpoints anchor to spec points of different topics — all of relation
 REQUIRES_PREREQUISITE (RUN-COMPUTED: census.json,
@@ -114,10 +111,7 @@ while the concept grain records where understanding must actually transfer. The
 PART_OF windows ground every named bridge concept back into its official statements
 (anion tests → 2.48, bond-energy calculation → 3.7C, carboxylic-acid reactions →
 4.36C, combustion in oxygen → 2.11, crude oil → 4.7, electrolysis → 1.58C via its
-node, extraction method → 2.23C, G1 reactivity → 2.4C) (SRC-GRAPH-4CH1, lines
-944-958; SRC-GRAPH-4CH1, lines 1355-1369; SRC-GRAPH-4CH1, lines 1484-1498;
-SRC-GRAPH-4CH1, lines 1927-1941; SRC-GRAPH-4CH1, lines 2412-2426; SRC-GRAPH-4CH1,
-lines 3686-3700; SRC-GRAPH-4CH1, lines 4025-4039).
+node, extraction method → 2.23C, G1 reactivity → 2.4C) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 944-958); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 1355-1369); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 1484-1498); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 1927-1941); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 2412-2426); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 3686-3700); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 4025-4039).
 
 ### CUR-032 — S1 as the load-bearing foundation
 
@@ -125,21 +119,16 @@ The heaviest traffic INTO earlier topics targets S1. From S2: the anion-tests an
 cation-tests concepts each require the ion-charge-rules concept ("Common ion charges
 (group-based and named-ion table, with the deduction rule)", anchored at S1) — writing
 ionic equations for precipitate tests is impossible without the charge vocabulary
-(SRC-GRAPH-4CH1, lines 7939-7953; SRC-GRAPH-4CH1, lines 8383-8397;
-SRC-GRAPH-4CH1, lines 4478-4492); and the Group 1 and Group 7 reactivity concepts
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 7939-7953); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8383-8397); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 4478-4492); and the Group 1 and Group 7 reactivity concepts
 each require electronic configuration of the first 20 elements (1.19, S1) — the
-trend explanations ARE configuration arguments (SRC-GRAPH-4CH1, lines 10023-10037;
-SRC-GRAPH-4CH1, lines 10200-10214; SRC-GRAPH-4CH1, lines 2779-2793). From S2 into
+trend explanations ARE configuration arguments (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 10023-10037); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 10200-10214); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2779-2793). From S2 into
 S1 as well: the extraction-method concept requires the electrolysis concept (molten
-binary compounds, inert electrodes — 1.58C's ground) (SRC-GRAPH-4CH1, lines
-9801-9815; SRC-GRAPH-4CH1, lines 2733-2747). From S3: bond-energy calculation
+binary compounds, inert electrodes — 1.58C's ground) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9801-9815); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2733-2747). From S3: bond-energy calculation
 requires the covalent-bond concept (shared pair; electrostatic attraction between
-shared pair and nuclei) (SRC-GRAPH-4CH1, lines 8146-8160; SRC-GRAPH-4CH1,
-lines 2102-2116). From S4: crude oil requires the mixture concept (S1 separation
+shared pair and nuclei) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8146-8160); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2102-2116). From S4: crude oil requires the mixture concept (S1 separation
 grain), and the crude-oil-fractions and ethanol-manufacture concepts each require
 fractional distillation (the S1 separation technique, anchored at 1.10)
-(SRC-GRAPH-4CH1, lines 8861-8875; SRC-GRAPH-4CH1, lines 8918-8932; SRC-GRAPH-4CH1,
-lines 9634-9648; SRC-GRAPH-4CH1, lines 3597-3611). The didactic conclusion: S1 is
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8861-8875); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8918-8932); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9634-9648); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3597-3611). The didactic conclusion: S1 is
 not merely the first topic — it is the service layer every later topic draws on, and
 weakness there propagates everywhere.
 
@@ -147,22 +136,18 @@ weakness there propagates everywhere.
 
 The middle topics both supply and consume. S2 supplies S4 directly: carboxylic-acid
 reactions require the S2 acid-reactions concept (metals, bases, carbonates → salts)
-(SRC-GRAPH-4CH1, lines 8255-8269; SRC-GRAPH-4CH1, lines 360-374); ethanol oxidation
-requires the oxidation/reduction-agents concept (2.20's ground) (SRC-GRAPH-4CH1,
-lines 9704-9718); fuels-and-combustion requires the combustion-in-oxygen concept
-(2.11) (SRC-GRAPH-4CH1, lines 9940-9954; SRC-GRAPH-4CH1, lines 1927-1941). But S2
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8255-8269); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 360-374); ethanol oxidation
+requires the oxidation/reduction-agents concept (2.20's ground) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9704-9718); fuels-and-combustion requires the combustion-in-oxygen concept
+(2.11) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9940-9954); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 1927-1941). But S2
 also consumes S3: the combustion-in-oxygen concept requires exothermic/endothermic
 classification (3.1's ground), and the extraction-method concept requires the
-reactivity-order concept (SRC-GRAPH-4CH1, lines 8546-8560; SRC-GRAPH-4CH1,
-lines 3312-3326; SRC-GRAPH-4CH1, lines 9864-9878). These S2→S3 edges are the
+reactivity-order concept (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8546-8560); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3312-3326); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9864-9878). These S2→S3 edges are the
 sequence-relevant surprise: the official topic order lists Inorganic (2) before
-Physical (3) (SRC-SPEC-4CH1, page 15) (SRC-SPEC-4CH1, page 22) (SRC-SPEC-4CH1,
-page 27), yet two S2 application concepts depend on S3's classification vocabulary.
+Physical (3) (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15) (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p22) (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p27), yet two S2 application concepts depend on S3's classification vocabulary.
 S4 additionally consumes its own topic's chain intra-grain (ethanol manufacture
 requires alcohols and cracking; crude-oil fractions require crude oil) — the
 in-pack windows record these alongside the cross-topic ones
-(SRC-GRAPH-4CH1, lines 9586-9600; SRC-GRAPH-4CH1, lines 9610-9624;
-SRC-GRAPH-4CH1, lines 8890-8904).
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9586-9600); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9610-9624); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8890-8904).
 
 ### CUR-034 — What the bridge set is, and is not, of record
 
@@ -181,7 +166,7 @@ as sequencing law (the store's tier distribution and operator-only gate are reco
 at CUR-04; RUN-COMPUTED: census.json, concept_edges.validation_distribution). Third,
 no bridge edge is a statement-grain fact: the official specification's own structure
 (four topics, printed pages 11/16/21/23) is untouched by this analysis
-(SRC-SPEC-4CH1, page 15).
+(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15).
 
 ### CUR-035 — Didactic reading: a spiral with one documented twist
 
@@ -193,8 +178,7 @@ S3's energetics vocabulary reaches back into S2's applications. The documented t
 is the S2→S3 direction of the two Physical-chemistry dependencies: a center teaching
 in strict official topic order would meet combustion-in-oxygen and extraction-method
 before the exothermic/endothermic and reactivity-order concepts they require
-(SRC-GRAPH-4CH1, lines 8546-8560; SRC-GRAPH-4CH1, lines 9864-9878) (SRC-SPEC-4CH1,
-page 15). This artifact does not prescribe re-ordering — scheme-of-work decisions
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 8546-8560); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9864-9878) (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15). This artifact does not prescribe re-ordering — scheme-of-work decisions
 belong to the operator and the PED family — but it records the dependency-driven
 tension so sequencing consumers see it of record rather than discovering it in the
 classroom.
@@ -203,7 +187,7 @@ classroom.
 
 Three boundaries bound every downstream use. First, no re-scoping of official
 structure: the specification's four topics and their subtopics remain the official
-content map (SRC-SPEC-4CH1, page 15) (SRC-SPEC-4CH1, page 17); the bridges are
+content map (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15) (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p17); the bridges are
 understanding-level traffic, not an alternative syllabus. Second, no statement-grain
 invention: because the ratified point-edge store holds zero cross-topic rows, any
 claim that "statement X officially requires statement Y from another topic" is
@@ -219,7 +203,7 @@ Consumers (PED scheme-of-work analysis, TUT tutoring plans, EXP explanation orde
 should: key bridges by concept code pair, resolved through the PART_OF anchors to
 official statements; preserve direction (source requires target — the
 fractional-distillation example runs FROM ethanol-manufacture TO the S1 concept, not
-the reverse) (SRC-GRAPH-4CH1, lines 9634-9648); check per-edge validation_status
+the reverse) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concept_edges.yaml lines 9634-9648); check per-edge validation_status
 before promotion into teaching-order law; and treat the 24-edge census as the
 complete bridge inventory of record for this run, with the census annex's pinned
 input digests making the inventory reproducible

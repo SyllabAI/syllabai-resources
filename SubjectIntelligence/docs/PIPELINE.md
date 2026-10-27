@@ -1,6 +1,8 @@
 # SIB Pipeline — per-course operating procedure (ALL courses)
 
-**Status:** OPERATIONAL (2026-10-25; provider-neutral edition r0 — SIB-GEN program).
+**Status:** OPERATIONAL (2026-10-27; provider-neutral edition r1 — SIB-GEN program;
+r1 adds the per-run laws wiring to `docs/LESSONS_REGISTER.md`, established by
+RUN-015's self-improving-pipeline directive).
 Generalized from the validated CHEMISTRY_4CH1 single-course pipeline per the operator
 directive that SubjectIntelligence hosts **all courses**, not just 4CH1. The r0
 edition removes the single-provider assumption: generation runs are executed by the
@@ -170,3 +172,31 @@ via the generator of record rather than hand-editing where possible. New course
 libraries are scaffolded only by `pipeline/new_course.py` (never hand-mkdir'd). Every
 library state change of record ships with a worklog entry in this repo and, where
 material, a receipt.
+
+## 8. Per-run operating laws (binding — see `docs/LESSONS_REGISTER.md`)
+
+Every run on ANY library executes under the operational laws the CHEMISTRY_4CH1 runs
+earned; the authoritative statement is `docs/LESSONS_REGISTER.md` (this section is the
+binding pointer, not the full text). Non-negotiables, in run order:
+
+1. **Session preflight** (register §1): verify creds/clone/sparse/validator-pin;
+   fetch-first with advance-isolation proof + disclosure; trace ids into the worklogs.
+2. **Census before repair** (register §6.2): enumerate the full instance set with a
+   persisted script; classify mechanical vs content-adjudicated; repair from the
+   table with exact-match replaces + substance-multiset asserts.
+3. **Locator + quote grammar** (register §2): r4 citation grammar and the r1 quote-
+   binding law hold for EVERY artifact regardless of its generation era; gate the
+   STAGED bodies through the evidence-claim QA before stamping, and expect first-time
+   gating of old artifacts to surface registered debt.
+4. **Pack discipline** (register §3): caps, window math, carry-over byte-identity,
+   and the re-spec law (probe-then-rebuild, else surgical append with a diff proof).
+5. **Receipts culture** (register §4): stamp flow with no-overwrite hygiene,
+   library-wide 95/95 receipt refresh at 0 errors / 0 warnings, run-manifest gates
+   as the audit trail, census annex before the evidence-claim QA.
+6. **Debt discipline** (register §6): register adjacent debt with a `register_note`,
+   execute it only on operator order, and record confirm-clean re-gates as
+   deliverables.
+
+A run that cannot satisfy one of these laws stops and reports; it does not improvise
+a local exception. Lessons that generalize get appended to the register's earned-
+lessons table with the run id that earned them.

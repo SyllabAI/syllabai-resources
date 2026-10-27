@@ -1,0 +1,7 @@
+run_id: SIB-CHEMISTRY_4CH1-RUN-015
+families: CUR, GAP, HIS
+resolved_sources: 9/17
+gate: PASS (pack primaries RESOLVED: CUR/GAP on SRC-SPEC-4CH1 (+GRAPH); HIS on SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY + SRC-SPEC-4CH1; legacy primaries live on this surface — stronger than the RUN-012..014 6/17 state; the Stage-B ER/spec windows consume the live-resolved legacy corpora)
+disclosed_failed_sources: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1
+disclosed_partial_sources: none
+law: resolution surface = this clone's sparse checkout; corpus truth is stated by source_manifest.yaml + the RUN-012 coverage_status block. Stage A performs zero new source claims; packs carried byte-identical from origin runs except the disclosed CUR-06 re-spec.
