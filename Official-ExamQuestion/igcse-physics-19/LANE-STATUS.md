@@ -137,13 +137,19 @@ questions), C83–C85, C89–C93, C99–C101.
 
 ## Open waves (prioritized)
 
-1. **Hub export + handover**: the H1 baseline census is receipted (the SME bundle's
-   provenance rows reconstruct past papers from 2012 with noisy labels and sparse keyed
-   MCQs — the state the cutover improves); conversion + spec tagging are complete and
-   all gates green, so the H2 comparison and the H3 cutover (`official-papers.json` on
-   the dedicated hub plane, first-match-wins over the SME reconstructions) are next; the
-   two-file exporter runs of record with the bootstrap decision (no prior
-   `official-papers.json` for igcse-physics-19) after this wave's merge.
+1. ~~**Hub export + handover**~~ **CLOSED (Task 22, F103)**: the H1 baseline census
+   receipted, the H2 comparison clean (55 official rows vs 43 SME provenance rows, 0
+   blockers), and the **H3 cutover LANDED** — v2 PR #403 merged c89c71e64aee:
+   `official-papers.json` (55 official sets, 540 questions / 2,254 parts / 4,970 marks)
+   serves the Past Papers plane (first-match-wins over the SME reconstructions; the SME
+   legacy 4PH0-era sessions keep SME as their source), the manifest pin is stamped to the
+   data cut main@6298eb94479a25e3f3d22d66a51c29eb8b67e071, and the exporter/verifier of
+   record are lane-generalized (`--spec 4ch1|4ph1`; chemistry parity byte-identical). The
+   G8 post-completion audit of record: 55/55 slices fully PASS (G0–G7 + NC 3/3), the full
+   CI battery green on PRs #183/#184, the F-187 verify + self-test green on both lanes,
+   0 asset review flags, spec tagging terminal corpus-wide, and the served state
+   re-read post-merge (55 sets / 4,970 marks / pinned ref) — the course is DONE under
+   ADR-037/039 with the chemistry precedent complete.
 2. **Chemistry re-staging wave** (F86, unchanged): regenerate the chemistry staging txt
    layers with the method of record so fresh re-emissions reproduce the served corpus
    (C56 pin misses + C61). The physics analog closed WITH Task 21.
