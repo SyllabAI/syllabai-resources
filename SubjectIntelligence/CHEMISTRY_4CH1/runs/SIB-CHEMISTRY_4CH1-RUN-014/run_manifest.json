@@ -1,0 +1,57 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-014",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "d495810590b0d41a57989f7a086989e9202f6206",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "CUR-02",
+      "filename": "CHEMISTRY_4CH1_CUR-02_SPECIFICATION_INTERPRETATION.md",
+      "evidence_pack": "evidence/CUR-02/evidence_pack.json",
+      "evidence_pack_sha256": "62077d57e1d12426255ce62868cf3e8127e4795a7ce12d0c6b0725ceaefad1cc",
+      "artifact_sha256": "912cb4887508157457740fff0ab1361d18cddda531ac3a91c87b1e5248b0daac",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; pack primaries verified (CUR-02 SPEC RESOLVED; EXP-06 SB1 pack carried byte-identical from origin runs); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-013 clean state)",
+        "evidence_claim_qa": "PASS (r4: 54 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-002)",
+        "derived_quantity_labeling": "PASS (SIB-ASSESS-r1 D4: library-wide unquoted-figure sweep 225 hits / 78 distinct sites adjudicated; 3 repaired — CUR-02 census 33.2%->33.1% arithmetic repair vs the RUN-002 census of record, EXP-045 '1 in ~75' inline source attribution, EXP-045 pH 3-5 band labeled approximation; citation tokens byte-identical pre/post)",
+        "labeling_law": "PASS (SOURCE_REQUIREMENTS.md section 4.2 added: SOURCE-PRINTED default / RUN-COMPUTED derivation stated / APPROXIMATION labeled — the derived-quantity labeling law of record)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D4 edits only)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "EXP-06",
+      "filename": "CHEMISTRY_4CH1_EXP-06_CONCEPTUAL_DISTINCTIONS.md",
+      "evidence_pack": "evidence/EXP-06/evidence_pack.json",
+      "evidence_pack_sha256": "26295969171dc6bcf224e35826d808ec9c837dca1ce0791e689d9ba1da1dddf2",
+      "artifact_sha256": "c9cf6437e8c1eb340278a1014505942e7cda88400cfb515a69be59d7d107f269",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (6/17 sources resolved on the sparse-clone surface; pack primaries verified (CUR-02 SPEC RESOLVED; EXP-06 SB1 pack carried byte-identical from origin runs); 11 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-ER-4CH0-LEGACY, SRC-EXT-NOTES-4CH1, SRC-GRAPH-4CH1, SRC-LEGACY-SPEC-4CH0, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-013 clean state)",
+        "evidence_claim_qa": "PASS (r4: 27 citations / 0 violations; grounding pack carried over byte-identical from SIB-CHEMISTRY_4CH1-RUN-011)",
+        "derived_quantity_labeling": "PASS (SIB-ASSESS-r1 D4: library-wide unquoted-figure sweep 225 hits / 78 distinct sites adjudicated; 3 repaired — CUR-02 census 33.2%->33.1% arithmetic repair vs the RUN-002 census of record, EXP-045 '1 in ~75' inline source attribution, EXP-045 pH 3-5 band labeled approximation; citation tokens byte-identical pre/post)",
+        "labeling_law": "PASS (SOURCE_REQUIREMENTS.md section 4.2 added: SOURCE-PRINTED default / RUN-COMPUTED derivation stated / APPROXIMATION labeled — the derived-quantity labeling law of record)",
+        "remediation_scope": "PASS (surgical SIB-ASSESS-r1 D4 edits only)"
+      },
+      "qa_report": ""
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: EXP-06
-artifact_version: 1.1
+artifact_version: 1.2
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -28,7 +28,7 @@ generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-BOOK-4CH1-SB1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-011"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-014"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "a7a34cd97cdff29ee698a86b171c7148bc5e29ed"
+    syllabai_resources: "d495810590b0d41a57989f7a086989e9202f6206"
 ---
 
 # EXP-06 — Conceptual Distinctions
@@ -157,8 +157,8 @@ p18).
 
 **Side A:** strength is about dissociation — "Strong acids dissociate completely
 into their constituent ions in water"; in weak acids "the dissociation is only
-partial" (about 1 in ~75 ethanoic acid molecules). Ethanoic acid and the other
-carboxylic acids are the book's canonical weak acids, with pH around 3–5.
+partial" (the book's own figure: about 1 in ~75 ethanoic acid molecules). Ethanoic acid and the other
+carboxylic acids are the book's canonical weak acids, with pH around 3–5 (an approximate band, not a printed range — the book's printed figure is the 2.88 below).
 **Side B:** concentration is about how much acid is dissolved in how much water —
 a 0.10 mol/dm³ solution of ethanoic acid still has a pH of 2.88, showing the two
 axes are independent.

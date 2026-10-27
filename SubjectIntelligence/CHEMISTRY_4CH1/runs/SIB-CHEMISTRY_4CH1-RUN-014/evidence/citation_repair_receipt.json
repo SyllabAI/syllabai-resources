@@ -1,0 +1,138 @@
+{
+  "repair": "RUN-014 in-turn (disclosed): CUR-02 citation grammar upgrade to the r4 binding grammar. RUN-014 is the first run to gate CUR-02 through the r4 citation QA (CUR family generated at RUN-002, pre-r4; never re-gated by RUN-010..013). 34 violations on the UNEDITED base artifact (31 tokens; verified at d4958105) — pre-existing debt, not a D4 regression. Locator FORMAT only: pack file paths inserted, semicolon-joined multi-citations split one-per-paren, 'page N' -> 'pN' per _PAGE_RE, census-mixed token split into citation + standalone RUN-COMPUTED label. Sources/pages/line-ranges byte-identical in substance; all 20 GRAPH ranges verified present in the pack excerpt locators before rewrite.",
+  "violations_before": 34,
+  "tokens_rewritten": 31,
+  "register_note": "pathless GRAPH/SPEC citation style also exists in CUR-03..CUR-08 and GAP-family artifacts (out of RUN-014 edit scope) — filed as library citation-grammar debt for a dedicated operator-ordered pass.",
+  "rewrites": [
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 279-293; SRC-GRAPH-4CH1, lines 831-845; SRC-GRAPH-4CH1, lines 867-881; SRC-GRAPH-4CH1, lines 985-999; SRC-GRAPH-4CH1, lines 1000-1014)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 279-293); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 831-845); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 985-999); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1000-1014)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 264-278; SRC-GRAPH-4CH1, lines 536-550; SRC-GRAPH-4CH1, lines 521-535; SRC-GRAPH-4CH1, lines 867-881)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 536-550); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 521-535); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 279-293; SRC-GRAPH-4CH1, lines 831-845; SRC-GRAPH-4CH1, lines 1000-1014; SRC-GRAPH-4CH1, lines 1237-1251)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 279-293); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 831-845); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1000-1014); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1237-1251)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 342-356; SRC-GRAPH-4CH1, lines 387-401; SRC-SPEC-4CH1, page 27)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 387-401); (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p27)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 5982-5996; RUN-COMPUTED: census.json, command_kinds.coverage_gap_vs_spec_points)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 5982-5996) (RUN-COMPUTED: census.json, command_kinds.coverage_gap_vs_spec_points)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 259-273; SRC-GRAPH-4CH1, lines 420-434)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 259-273); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 420-434)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 264-278; SRC-GRAPH-4CH1, lines 536-550)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 536-550)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 342-356; SRC-GRAPH-4CH1, lines 387-401)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 387-401)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 867-881; SRC-GRAPH-4CH1, lines 985-999)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 985-999)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 264-278; SRC-GRAPH-4CH1, lines 342-356)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 2498-2512; SRC-GRAPH-4CH1, lines 84-98)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 2498-2512); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 84-98)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 2374-2388; SRC-GRAPH-4CH1, lines 2498-2512)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 2374-2388); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 2498-2512)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 84-98; SRC-GRAPH-4CH1, lines 264-278)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 84-98); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 831-845; SRC-GRAPH-4CH1, lines 867-881)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 831-845); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 985-999; SRC-GRAPH-4CH1, lines 1237-1251)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 985-999); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1237-1251)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 279-293; SRC-GRAPH-4CH1, lines 708-722)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 279-293); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 708-722)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 259-273)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 259-273)",
+      "count": 2
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 420-434)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 420-434)",
+      "count": 2
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 342-356)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 867-881)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 41-55)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 41-55)",
+      "count": 2
+    },
+    {
+      "old": "(SRC-GRAPH-4CH1, lines 3659-3673)",
+      "new": "(SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 3659-3673)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-SPEC-4CH1, page 13)",
+      "new": "(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p13)",
+      "count": 2
+    },
+    {
+      "old": "(SRC-SPEC-4CH1, page 17)",
+      "new": "(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p17)",
+      "count": 2
+    },
+    {
+      "old": "(SRC-SPEC-4CH1, page 27)",
+      "new": "(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p27)",
+      "count": 1
+    },
+    {
+      "old": "(SRC-SPEC-4CH1, page 15)",
+      "new": "(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15)",
+      "count": 1
+    }
+  ]
+}

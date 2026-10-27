@@ -1,0 +1,108 @@
+{
+  "finding": "SIB-ASSESS-r1 D4: derived-quantity provenance gap (exemplar: 'about 1 in ~75' in EXP-045 presented as an unlabeled parenthetical).",
+  "method": "library-wide sweep of unquoted numeric figures (char-level quote-span masking; 225 hits / 78 distinct figure sites across 95 artifacts), each figure verified against its artifact's evidence packs (union across runs) and the book chunk corpus (chunks_v3.jsonl sha b2c67eaf); per-site adjudication into SOURCE-PRINTED / RUN-COMPUTED / APPROXIMATION / NO-ACTION.",
+  "repaired": [
+    {
+      "artifact": "CUR-02",
+      "site": "Main-Analysis taxonomy bullet + CUR-002 record",
+      "figure": "33.2%",
+      "verdict": "RUN-COMPUTED (arithmetic error)",
+      "evidence": "runs/SIB-CHEMISTRY_4CH1-RUN-002/census.json command_kinds.guide_class_distribution: KNOW_TERM 60, entries 181; 60/181 = 33.149% -> 33.1% (45->24.9% OK; 34->18.8% OK; class sum 181 OK)",
+      "fix": "33.2% -> 33.1% x2; the RUN-COMPUTED: census.json derivation labels were already in place and are unchanged"
+    },
+    {
+      "artifact": "EXP-06 (EXP-045)",
+      "site": "Side A weak-acid parenthetical",
+      "figure": "about 1 in ~75 ethanoic acid molecules",
+      "verdict": "SOURCE-PRINTED, presented unlabeled",
+      "evidence": "chunks_v3.jsonl line 1006 verbatim: 'In weak acids, the dissociation is only partial. About 1 in ~75 CH3COOH molecules will dissociate into H+ and CH3COO in water.' (book p295-296, EXTENSION WORK)",
+      "fix": "inline attribution added: '(the book's own figure: about 1 in ~75 ...)'"
+    },
+    {
+      "artifact": "EXP-06 (EXP-045)",
+      "site": "Side A weak-acid pH band",
+      "figure": "pH around 3-5",
+      "verdict": "APPROXIMATION (not printed in any source)",
+      "evidence": "no chunk prints a weak-acid pH range; the book's printed figure is 'A 0.10mol/dm3 solution of ethanoic acid actually has a pH of 2.88.' (chunk 571, p167-168) — already carried in the same record's Side B",
+      "fix": "labeled as an approximate band, not a printed range, pointing at the printed 2.88 figure"
+    }
+  ],
+  "no_action_census": [
+    {
+      "artifact": "ASM-01/CUR-01/CUR-08/HIS-03/TUT-01",
+      "figures": "61.1%/38.9% paper weightings; 38-42%/19-21% AO bands; 23.2-25.7%/11.6-12.8%/14.8-16.3%/7.4-8.2% per-paper AO matrix",
+      "verdict": "SOURCE-PRINTED (spec assessment pages, pack-verified); record-level Evidence binding present"
+    },
+    {
+      "artifact": "HIS-03",
+      "figures": "66.6%/33.3% legacy weightings; 45-55%/25-35%/fixed 20% legacy AO bands",
+      "verdict": "SOURCE-PRINTED (legacy spec pack, verified); 'the legacy weighting table gave' attribution inline"
+    },
+    {
+      "artifact": "HIS-07 (HIS-038)",
+      "figures": "about 450C / about 200 atmospheres",
+      "verdict": "SOURCE-PRINTED — the LEGACY SPEC's own wording, quoted verbatim in the record (SRC-LEGACY-SPEC-4CH0 p28: 'i a temperature of about 450C ii a pressure of about 200 atmospheres')"
+    },
+    {
+      "artifact": "TUT-09 (TUT-054)",
+      "figures": "15% pass yield",
+      "verdict": "SOURCE-PRINTED — TL equilibrium guide quoted verbatim in Evidence ('is only about 15 %', Chemical-equilibrium---FINAL.pdf p7)"
+    },
+    {
+      "artifact": "TUT-10",
+      "figures": "11.00 cm3 / within 0.20 cm3 / 0.05 cm3",
+      "verdict": "SOURCE-PRINTED — book chunk 1084 (11.00/0.05) + TL guide ('titre values within 0.20 cm3 of each other')"
+    },
+    {
+      "artifact": "TUT-08 (TUT-047)",
+      "figures": "about 15% alcohol",
+      "verdict": "SOURCE-PRINTED — book chunk 990 ('killed by more than about 15% of alcohol'); 'the book's ethanol teaching' attribution inline"
+    },
+    {
+      "artifact": "PRA-01",
+      "figures": "0.0500 mol / 90.0 g / about -1.8 C / 2.67 g",
+      "verdict": "SOURCE-PRINTED — TL core-practical guide ('A mass of 2.67 g (0.0500 mol) dissolved in 90.0 g (5.00 mol) of water should produce a temperature change in the region of -1.8 C'); distinct from the book chapter's own 5.20 g / 100 cm3 version; 'teaching notes' attribution inline"
+    },
+    {
+      "artifact": "PRA-02 / PRO-02 / ASM-06 / MIS-05",
+      "figures": "0.200 mol/dm3; 3.2 g + 0.40 mol; 77.78%/22.22%; 0.00125",
+      "verdict": "SOURCE-PRINTED with same-sentence inline citations (book chunk; QP stem; ER pack)"
+    },
+    {
+      "artifact": "EXP-03 / EXP-05 / EXP-08",
+      "figures": "35.5 / 18.5; 20%/80% boron; about 600 m/s + 0.01 s; 17 vs 36.5",
+      "verdict": "SOURCE-PRINTED (chunks 97/101/34/38) with inline 'the book's ...' attribution or verbatim quotes"
+    },
+    {
+      "artifact": "EXP-06 (EXP-043)",
+      "figures": "about -0.6 C / about 100.2 C",
+      "verdict": "SOURCE-PRINTED (chunk 70); the hedges mirror the book's own 'about' wording"
+    },
+    {
+      "artifact": "EXP-01",
+      "figures": "about 0 to about 14 (pH scale)",
+      "verdict": "SOURCE-PRINTED (chunk 571: 'The pH scale ranges from about 0 to about 14'); hedge mirrors the source"
+    },
+    {
+      "artifact": "CUR-02 (practical exemplars)",
+      "figures": "~20% expected (2.14 iron-wool oxygen)",
+      "verdict": "SOURCE-PRINTED — the graph store's own examiner-tip field prints 'percentage = oxygen/initial x 100 ~ 20%' (SRC-GRAPH-4CH1); the tilde is the source's own"
+    },
+    {
+      "artifact": "CUR-05",
+      "figures": "confidence 1.0",
+      "verdict": "registry-native field value with RUN-COMPUTED census pointer already inline"
+    },
+    {
+      "artifact": "MIS-01",
+      "figures": "0.36 shown as 0.3",
+      "verdict": "SOURCE-PRINTED ER example, record-level Evidence binding (MIS claim-type labels present since RUN-011)"
+    },
+    {
+      "artifact": "PRO-03",
+      "figures": "about 2400 J",
+      "verdict": "pack-printed show-that value; 'a calorimetry item asks candidates' framing + record Evidence binding"
+    }
+  ],
+  "law": "SOURCE_REQUIREMENTS.md section 4.2 added by RUN-014 (the derived-quantity labeling law of record: SOURCE-PRINTED default / RUN-COMPUTED derivation stated / APPROXIMATION labeled)."
+}

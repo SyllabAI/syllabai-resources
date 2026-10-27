@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: CUR-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-25
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-002"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-014"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "4bae2886d123d0f597c0091dbe0c6d9f9acdb44d"
-    syllabai_resources: "ebe914b10cf938fa5c219f73881ae853922eef8a"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "d495810590b0d41a57989f7a086989e9202f6206"
 ---
 
 # CUR-02 — Specification Interpretation
@@ -82,7 +82,7 @@ unclassified.
 - The validated command-kind store classifies 181 of the 182 specification statements
   into seven demand classes; the single gap is 4CH1-4.15 (RUN-COMPUTED:
   census.json, command_kinds.coverage_gap_vs_spec_points).
-- KNOW_TERM is the largest class (60 of 181, 33.2%), followed by UNDERSTAND_RELATION
+- KNOW_TERM is the largest class (60 of 181, 33.1%), followed by UNDERSTAND_RELATION
   (45, 24.9%) and DESCRIBE_EXPERIMENT (34, 18.8%); CALCULATE (12),
   REPRESENT_DIAGRAM (18), EXPLAIN_HOW (9) and PRODUCE_EQUATION (3) complete the
   taxonomy (RUN-COMPUTED: census.json, command_kinds.guide_class_distribution).
@@ -102,45 +102,42 @@ unclassified.
 
 The validated command-kind store assigns every classified statement a verb, a guide
 class, and a demanded substance (the substance the statement actually requires the
-learner to command) (SRC-GRAPH-4CH1, lines 259-273). The seven classes observed in the
+learner to command) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 259-273). The seven classes observed in the
 store, with in-pack exemplars: KNOW_TERM — definitional recall demands, e.g. 1.14
 ("definitions of the terms atom and molecule") and 2.31 ("acids in aqueous solution as
 sources of hydrogen ions and alkalis … as sources of hydroxide ions — the
 solution-ionisation picture that makes a solution acidic or alkaline")
-(SRC-GRAPH-4CH1, lines 279-293; SRC-GRAPH-4CH1, lines 708-722);
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 279-293); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 708-722);
 UNDERSTAND_RELATION — relational understanding demands, e.g. 1.1 (particle-level
 description of the three states with the simple sphere model) and 1.41 (ionic bonding
 as electrostatic attraction between oppositely charged ions acting in all directions)
-(SRC-GRAPH-4CH1, lines 259-273; SRC-GRAPH-4CH1, lines 420-434);
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 259-273); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 420-434);
 DESCRIBE_EXPERIMENT — experimental description demands, e.g. 1.10 (the separation
 techniques and what each separates) and 1.7C (the solubility practical: saturate,
-evaporate, heat to constant mass, calculate) (SRC-GRAPH-4CH1, lines 264-278;
-SRC-GRAPH-4CH1, lines 536-550); REPRESENT_DIAGRAM — e.g. 1.40 (dot-and-cross diagrams
+evaporate, heat to constant mass, calculate) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 536-550); REPRESENT_DIAGRAM — e.g. 1.40 (dot-and-cross diagrams
 for ionic compound formation, outer electrons only, bracketed charges)
-(SRC-GRAPH-4CH1, lines 420-434); CALCULATE — e.g. 1.26 (Mr calculation procedure),
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 420-434); CALCULATE — e.g. 1.26 (Mr calculation procedure),
 1.34C (concentration/volume calculations) and 1.35C (molar gas volumes at RTP)
-(SRC-GRAPH-4CH1, lines 342-356; SRC-GRAPH-4CH1, lines 387-401); PRODUCE_EQUATION —
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 387-401); PRODUCE_EQUATION —
 e.g. 1.25 (word equations and balanced symbol equations with state symbols)
-(SRC-GRAPH-4CH1, lines 342-356); and EXPLAIN_HOW (class present in the store's
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356); and EXPLAIN_HOW (class present in the store's
 distribution; RUN-COMPUTED: census.json, command_kinds.guide_class_distribution).
 The demanded-substance fields are themselves interpretation of record: they expand
 list-shaped statements (1.10's wording ends in a colon; the demanded substance names
 simple distillation, fractional distillation, filtration, crystallisation and paper
 chromatography) and carry the store's own examiner tips where ratified (3.10's rate
 factors are flagged "a recall demand per the note's own examiner tip")
-(SRC-GRAPH-4CH1, lines 867-881; SRC-GRAPH-4CH1, lines 985-999).
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 985-999).
 
 ### CUR-002 — KNOW_TERM is the load-bearing class
 
-KNOW_TERM is the single largest demand class: 60 of 181 classified statements, 33.2%
+KNOW_TERM is the single largest demand class: 60 of 181 classified statements, 33.1%
 (RUN-COMPUTED: census.json, command_kinds.guide_class_distribution). Its spread is
 not confined to one topic: in-pack exemplars run from S1 language (1.14 atom and
 molecule; 1.15 atomic structure) through S2 fact demands (2.5 halogen colours, states
 and trends; 2.13 carbon dioxide as a greenhouse gas) to S3/S4 classification knowledge
 (3.1 exothermic/endothermic; 4.1 the hydrocarbon definition with its "only" qualifier;
-4.12 complete vs incomplete combustion products) (SRC-GRAPH-4CH1, lines 279-293;
-SRC-GRAPH-4CH1, lines 831-845; SRC-GRAPH-4CH1, lines 867-881; SRC-GRAPH-4CH1,
-lines 985-999; SRC-GRAPH-4CH1, lines 1000-1014). The interpretation consequence is
+4.12 complete vs incomplete combustion products) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 279-293); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 831-845); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 985-999); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1000-1014). The interpretation consequence is
 direct: a third of the specification's demands are definitional or factual recall
 grain, which is why the terminology layer (CUR-07) and the misconception-atlas' error
 grain (MIS family) matter at exactly this depth rather than deeper.
@@ -152,13 +149,12 @@ command_kinds.guide_class_distribution). The in-pack exemplars show where the
 quantitative demand sits: formula-mass calculations (1.26), mole-based stoichiometry
 (1.27 context), empirical/molecular formulae from experimental data, concentration and
 gas-volume arithmetic (1.34C, 1.35C) in S1, and calorimetry arithmetic (Q = mcΔT, molar
-enthalpy) in S3 (SRC-GRAPH-4CH1, lines 342-356; SRC-GRAPH-4CH1, lines 387-401;
-SRC-SPEC-4CH1, page 27). Two of the exemplar calculation demands are 'C' statements,
+enthalpy) in S3 (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 387-401); (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p27). Two of the exemplar calculation demands are 'C' statements,
 which places the deeper quantitative work (concentration, gas volumes) in Paper 2
-territory by the paper-content rule (SRC-SPEC-4CH1, page 13); the interpretation layer
+territory by the paper-content rule (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p13); the interpretation layer
 therefore expects calculation-heavy extended items in Paper 2 and core-grain
 arithmetic (Mr, Rf from chromatograms — 1.12 is classed CALCULATE) in Paper 1
-(SRC-GRAPH-4CH1, lines 264-278; SRC-GRAPH-4CH1, lines 342-356).
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 342-356).
 
 ### CUR-004 — Practical demand: class law and practical flag
 
@@ -170,12 +166,10 @@ determination; 1.60C electrolysis of aqueous solutions with product identificati
 gas tests; 2.14 the iron-wool determination of oxygen in air with its ~20% expected
 result) and technique descriptions (1.10 separation techniques; 1.13 the
 paper-chromatography practical with pencil baseline and solvent-below-start-line
-discipline) (SRC-GRAPH-4CH1, lines 264-278; SRC-GRAPH-4CH1, lines 536-550;
-SRC-GRAPH-4CH1, lines 521-535; SRC-GRAPH-4CH1, lines 867-881). The statement store
+discipline) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 536-550); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 521-535); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881). The statement store
 additionally carries a machine-readable practical flag distinguishing statements that
 ARE Core Practicals (exemplar 1.7C: practical: true) from statements that merely
-demand experimental description (exemplar 1.10: practical: false) (SRC-GRAPH-4CH1,
-lines 2498-2512; SRC-GRAPH-4CH1, lines 84-98). Both signals matter downstream: the
+demand experimental description (exemplar 1.10: practical: false) (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 2498-2512); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 84-98). Both signals matter downstream: the
 practical flag anchors PRA-family artifacts to the twelve Core Practicals, while the
 DESCRIBE_EXPERIMENT class predicts the AO3 examination surface beyond the named
 practicals.
@@ -184,15 +178,14 @@ practicals.
 
 The specification states the partition plainly: Paper 1 "assesses core content that is
 not in bold and does not have a 'C' reference", Paper 2 assesses all content
-(SRC-SPEC-4CH1, page 13). The statement store carries this per statement as data:
+(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p13). The statement store carries this per statement as data:
 non-suffixed 1.1 carries papers [1C, 2C] with the sharing rule "non-suffixed
 statements are shared with Science Double Award 4SD0 and assessed in both Paper 1C and
-Paper 2C" (SRC-GRAPH-4CH1, lines 41-55), while C-suffixed 1.5C ("know what is meant by
+Paper 2C" (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 41-55), while C-suffixed 1.5C ("know what is meant by
 the term solubility in the units g per 100 g of solvent") and 1.7C (the solubility
-practical) carry papers [2C] and double_award_shared: false (SRC-GRAPH-4CH1,
-lines 2374-2388; SRC-GRAPH-4CH1, lines 2498-2512). The same law reads off the official
+practical) carry papers [2C] and double_award_shared: false (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 2374-2388); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 2498-2512). The same law reads off the official
 topic pages: S1 statements 1.1-1.4 appear unmarked while 1.5C appears with the C
-suffix in the "Students should:" list (SRC-SPEC-4CH1, page 17). Interpretation
+suffix in the "Students should:" list (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p17). Interpretation
 consequence for every downstream family: a bold/'C' statement is simultaneously
 (a) Paper 2 territory and (b) not part of the 4SD0 Double Award route — two different
 boundaries that the single C suffix encodes, and which CUR-08 treats as boundary law.
@@ -203,12 +196,11 @@ The specification-point store is the wording authority of record: its official_w
 fields are verbatim from the official PDF (canonical PDF-direct parse,
 whitespace-normalised only), and its lineage block retires the earlier markdown-lineage
 extraction in favor of the definitive wording authority
-(SRC-GRAPH-4CH1, lines 41-55). Damage preservation is observable in-pack: 2.31's
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 41-55). Damage preservation is observable in-pack: 2.31's
 official wording reads "alkalis in a aqueous solution" — the specification's own
-article typo, preserved verbatim and never silently repaired (SRC-GRAPH-4CH1,
-lines 3659-3673). List-shaped statements keep their colon-and-list presentation
+article typo, preserved verbatim and never silently repaired (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 3659-3673). List-shaped statements keep their colon-and-list presentation
 (1.10's wording ends with a colon), with the demanded substance carrying the expanded
-content (SRC-GRAPH-4CH1, lines 84-98; SRC-GRAPH-4CH1, lines 264-278). Downstream
+content (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 84-98); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 264-278). Downstream
 families quoting specification wording MUST quote through this store's verbatim fields
 or the PDF itself — paraphrase presented as quotation is the failure mode this law
 exists to prevent.
@@ -220,8 +212,7 @@ The command-kind store classifies 181 statements; the specification-point store 
 census.json, specification_points.total). The gap is exactly 4CH1-4.15 — "explain how
 the combustion of some impurities in hydrocarbon fuels results in the formation of
 sulfur dioxide" (S4-b, papers [1C]) — present in the statement store with leading verb
-"explain" but absent from the command-kind store (SRC-GRAPH-4CH1, lines 5982-5996;
-RUN-COMPUTED: census.json, command_kinds.coverage_gap_vs_spec_points). This single gap
+"explain" but absent from the command-kind store (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 5982-5996) (RUN-COMPUTED: census.json, command_kinds.coverage_gap_vs_spec_points). This single gap
 also accounts for the two stores' explain-verb counts differing by one (16 in the
 statement store's leading verbs vs 15 in the command-kind store; RUN-COMPUTED:
 census.json, command_kinds.explain_verb_delta_vs_spec_points). By the verb census the
@@ -239,17 +230,14 @@ The class-by-topic census shows the demand mix is not uniform across the four to
 of chemistry) carries the largest share of every hands-on class — its subtopic list
 runs from states of matter through electrolysis, and its statement grain includes the
 separation techniques, the atom/molecule definitions, the equation-writing demands and
-the ionic/covalent diagram demands read off the official topic page (SRC-SPEC-4CH1,
-page 17) (SRC-GRAPH-4CH1, lines 259-273) (SRC-GRAPH-4CH1, lines 420-434). S2's
+the ionic/covalent diagram demands read off the official topic page (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p17) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 259-273) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 420-434). S2's
 in-pack exemplars skew KNOW_TERM plus DESCRIBE_EXPERIMENT (halogen facts, greenhouse
-role of CO2, the oxygen-in-air determination) (SRC-GRAPH-4CH1, lines 831-845;
-SRC-GRAPH-4CH1, lines 867-881). S3 mixes KNOW_TERM classification (3.1) with
+role of CO2, the oxygen-in-air determination) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 831-845); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881). S3 mixes KNOW_TERM classification (3.1) with
 CALCULATE calorimetry and the C-suffixed energy-level diagram work (3.5C-3.7C on the
-official page) (SRC-SPEC-4CH1, page 27) (SRC-GRAPH-4CH1, lines 867-881). S4's exemplars
+official page) (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p27) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 867-881). S4's exemplars
 are KNOW_TERM-heavy with DESCRIBE_EXPERIMENT industrial chemistry (4.8 fractional
-distillation of crude oil) (SRC-GRAPH-4CH1, lines 985-999; SRC-GRAPH-4CH1,
-lines 1237-1251). The four topic headings and their printed page starts (11/16/21/23)
-are the official structure this profile hangs from (SRC-SPEC-4CH1, page 15).
+distillation of crude oil) (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 985-999); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1237-1251). The four topic headings and their printed page starts (11/16/21/23)
+are the official structure this profile hangs from (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15).
 
 ### CUR-009 — The verb taxonomy itself
 
@@ -263,8 +251,7 @@ know (56), understand (54) and describe (27); the rest are explain (15), investi
 in-pack exemplars calibrate the big three: know → definitional/factual recall (1.14,
 2.5, 4.1); understand → relational explanation (1.1, 1.41, 4.13's carbon-monoxide
 poisoning mechanism); describe → experimental or process narration (1.10, 4.8)
-(SRC-GRAPH-4CH1, lines 279-293; SRC-GRAPH-4CH1, lines 831-845; SRC-GRAPH-4CH1,
-lines 1000-1014; SRC-GRAPH-4CH1, lines 1237-1251). The rare verbs concentrate in
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 279-293); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 831-845); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1000-1014); (SRC-GRAPH-4CH1, graph/igcse-chemistry/spec_command_kinds.yaml lines 1237-1251). The rare verbs concentrate in
 specific grades of demand (equations, diagrams, preparations) and are the natural
 seeds for the assessment-family archetypes (ASM) — but that mapping is those families'
 work, not this artifact's.
