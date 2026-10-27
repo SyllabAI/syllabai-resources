@@ -1,0 +1,828 @@
+{
+ "receipt_schema": "syllabai.g9-render-receipt/0.1",
+ "validator_version": "g9-render-check/0.4",
+ "benchmark_version": 2,
+ "label": "run1-f105",
+ "base_url": "http://localhost:3000",
+ "started_utc": "2026-10-27T13:12:43Z",
+ "cases": [
+  {
+   "case_id": "physics-2p-2023-06",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 blocks vs 8 expected; head=['offq_2023-06_2p_1', 'offq_2023-06_2p_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 questions \u00b7 70 marks \u00b7 \u2248 70 min"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "2 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=3 options=12 (expected mcq_parts=3)"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_2p_1-b-i",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_2p_2-a",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_2p_2-b-i",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "interaction:qblock-resolves",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offq_2023-06_2p_1"
+    },
+    {
+     "id": "interaction:submit-correct",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2023-06_2p_1-a: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': True, 'destructive': False}, 'feedback': ['Correct \u2014 well done.']}"
+    },
+    {
+     "id": "interaction:submit-distractor",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2023-06_2p_1-a: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': False, 'destructive': True}, 'feedback': ['Not quite. The correct answer is B.']}"
+    },
+    {
+     "id": "solution:solution-renders:offp_2023-06_2p_1-a",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact visible after reveal"
+    }
+   ]
+  },
+  {
+   "case_id": "physics-1p-2019-06",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 blocks vs 12 expected; head=['offq_2019-06_1p_1', 'offq_2019-06_1p_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 questions \u00b7 110 marks \u00b7 \u2248 2 hours"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=4 options=16 (expected mcq_parts=4)"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_1p_1-a-ii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_1p_1-b-ii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_1p_2-a",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "interaction:qblock-resolves",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offq_2019-06_1p_1"
+    },
+    {
+     "id": "interaction:submit-correct",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2019-06_1p_1-a-i: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': True, 'destructive': False}, 'feedback': ['Correct \u2014 well done.']}"
+    },
+    {
+     "id": "interaction:submit-distractor",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2019-06_1p_1-a-i: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': False, 'destructive': True}, 'feedback': ['Not quite. The correct answer is C.']}"
+    },
+    {
+     "id": "solution:solution-renders:offp_2019-06_1p_1-a-i",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact visible after reveal"
+    }
+   ]
+  },
+  {
+   "case_id": "physics-2p-2024-06",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 blocks vs 8 expected; head=['offq_2024-06_2p_1', 'offq_2024-06_2p_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 questions \u00b7 70 marks \u00b7 \u2248 70 min"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=2 options=8 (expected mcq_parts=2)"
+    },
+    {
+     "id": "semantic:fact:offp_2024-06_2p_1-a",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2024-06_2p_2-a",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2024-06_2p_2-b",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "interaction:qblock-resolves",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offq_2024-06_2p_4"
+    },
+    {
+     "id": "interaction:submit-correct",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2024-06_2p_4-a-i: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': True, 'destructive': False}, 'feedback': ['Correct \u2014 well done.']}"
+    },
+    {
+     "id": "interaction:submit-distractor",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2024-06_2p_4-a-i: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': False, 'destructive': True}, 'feedback': ['Not quite. The correct answer is A.']}"
+    },
+    {
+     "id": "solution:solution-modal:offp_2024-06_2p_1-a",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact visible in the View answer modal"
+    }
+   ]
+  },
+  {
+   "case_id": "physics-1p-2023-06",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 blocks vs 12 expected; head=['offq_2023-06_1p_1', 'offq_2023-06_1p_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 questions \u00b7 110 marks \u00b7 \u2248 2 hours"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "16 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=2 options=8 (expected mcq_parts=2)"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_1p_1-b",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_1p_1-c-i",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_1p_1-c-ii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "interaction:qblock-resolves",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offq_2023-06_1p_1"
+    },
+    {
+     "id": "interaction:submit-correct",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2023-06_1p_1-a: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': True, 'destructive': False}, 'feedback': ['Correct \u2014 well done.']}"
+    },
+    {
+     "id": "interaction:submit-distractor",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2023-06_1p_1-a: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': False, 'destructive': True}, 'feedback': ['Not quite. The correct answer is A.']}"
+    },
+    {
+     "id": "solution:solution-renders:offp_2023-06_1p_1-a",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact visible after reveal"
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-1c-2023-06",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 blocks vs 10 expected; head=['offq_2023-06_1c_1', 'offq_2023-06_1c_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 questions \u00b7 110 marks \u00b7 \u2248 2 hours"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "9 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=3 options=12 (expected mcq_parts=3)"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_1c_1-a-i",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_1c_1-a-ii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2023-06_1c_1-a-iii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "interaction:qblock-resolves",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offq_2023-06_1c_2"
+    },
+    {
+     "id": "interaction:submit-correct",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2023-06_1c_2-a-ii: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': True, 'destructive': False}, 'feedback': ['Correct \u2014 well done.']}"
+    },
+    {
+     "id": "interaction:submit-distractor",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2023-06_1c_2-a-ii: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': False, 'destructive': True}, 'feedback': ['Not quite. The correct answer is D.']}"
+    },
+    {
+     "id": "solution:reveal-presence:offq_2023-06_1c_2",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution reveal expands with non-empty content"
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-1c-2020-01",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 blocks vs 10 expected; head=['offq_2020-01_1c_1', 'offq_2020-01_1c_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 questions \u00b7 110 marks \u00b7 \u2248 2 hours"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "13 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=3 options=12 (expected mcq_parts=3)"
+    },
+    {
+     "id": "semantic:fact:offp_2020-01_1c_1-a-i",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2020-01_1c_1-a-ii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2020-01_1c_1-a-iv",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "interaction:qblock-resolves",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offq_2020-01_1c_7"
+    },
+    {
+     "id": "interaction:submit-correct",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2020-01_1c_7-a-i: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': True, 'destructive': False}, 'feedback': ['Correct \u2014 well done.']}"
+    },
+    {
+     "id": "interaction:submit-distractor",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2020-01_1c_7-a-i: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': False, 'destructive': True}, 'feedback': ['Not quite. The correct answer is B.']}"
+    },
+    {
+     "id": "solution:solution-modal:offp_2020-01_1c_1-a-i",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact visible in the View answer modal"
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-2c-2019-06",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 blocks vs 8 expected; head=['offq_2019-06_2c_1', 'offq_2019-06_2c_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 questions \u00b7 70 marks \u00b7 \u2248 70 min"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "7 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=1 options=4 (expected mcq_parts=1)"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_2c_1-a",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_2c_1-c",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_2c_2-a",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "interaction:qblock-resolves",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offq_2019-06_2c_6"
+    },
+    {
+     "id": "interaction:submit-correct",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2019-06_2c_6-a-ii: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': True, 'destructive': False}, 'feedback': ['Correct \u2014 well done.']}"
+    },
+    {
+     "id": "interaction:submit-distractor",
+     "area": "interaction",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "offp_2019-06_2c_6-a-ii: {'rowCorrect': {'success': True, 'destructive': False}, 'rowChosen': {'success': False, 'destructive': True}, 'feedback': ['Not quite. The correct answer is C.']}"
+    },
+    {
+     "id": "solution:solution-modal:offp_2019-06_2c_2-a",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact visible in the View answer modal"
+    }
+   ]
+  },
+  {
+   "case_id": "maths-02r-2019-06",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "completeness:question-blocks",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "11 blocks vs 11 expected; head=['offq_2019-06_02r_1', 'offq_2019-06_02r_2']"
+    },
+    {
+     "id": "completeness:marks-meta",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "11 questions \u00b7 100 marks \u00b7 \u2248 2 hours"
+    },
+    {
+     "id": "completeness:images-loaded",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "6 content imgs, broken=[]"
+    },
+    {
+     "id": "completeness:mcq-options-served",
+     "area": "completeness",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "radiogroups=0 options=0 (expected mcq_parts=0)"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_02r_1-a",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_02r_2-a-ii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "semantic:fact:offp_2019-06_02r_2-b-ii",
+     "area": "semantic",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "snippet visible in rendered text"
+    },
+    {
+     "id": "visual:no-katex-errors",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 .katex-error nodes"
+    },
+    {
+     "id": "visual:no-raw-tex",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 raw-TeX markers in page text"
+    },
+    {
+     "id": "visual:no-md-artifacts",
+     "area": "visual",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 markdown artifacts"
+    },
+    {
+     "id": "solution:solution-modal:offp_2019-06_02r_1-a",
+     "area": "solution",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact visible in the View answer modal"
+    }
+   ]
+  }
+ ],
+ "renderer": {
+  "class": "syllabai-v2-local-runtime",
+  "base_url": "http://localhost:3000",
+  "note": "production syllabai-v2 app (apps/hub) driven through a real browser; not a mock or standalone prototype"
+ },
+ "finished_utc": "2026-10-27T13:17:13Z",
+ "overall": "PASS"
+}
