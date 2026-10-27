@@ -32,7 +32,7 @@ re-derivation-pending one):
   excluded; self-validated 15→21 on the pre-wave corpus). C22 fixed via the ledger backfill.
   Canary suite: 6 red at base → 2 red (C13/C71, the recorded F97-class reconciliation items).
 - **Hub**: official-papers.json regenerated through the exporter with the serve-side battery
-  re-run (see the disclosure file `scripts/exporter-disclosures/2026-10-27-task20-crop-wave.json`).
+  re-run (see the disclosure file `scripts/exporter-disclosures/2026-10-27-wave27-c98-crop-wave.json`).
 
 ## 0.25.0 — 2026-10-27 · Task 22: the OCR + repair-reconversion waves (F101–F102) — the 4PH1 convertible corpus completes (55/55)
 
