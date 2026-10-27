@@ -4,7 +4,7 @@
 # applicability is subject-specific. Row statuses are intentionally left empty: the
 # validator rejects landing artifacts that self-declare past GENERATED, so the
 # authoritative per-artifact state lives in the artifact front matter + qa-reports/
-# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..013;
+# validator receipts. Coverage of record: 95/95 artifacts GENERATED (RUN-001..014;
 # see coverage_status below and runs/).
 sib_protocol: SIB-1.0
 manifest_version: "1.0"
@@ -17,7 +17,7 @@ curriculum_version: "2017"
 notebook: 4CH1-SIB-NOTEBOOK-001
 source_manifest: source_manifest.yaml
 coverage_status:
-  generated: "95/95 artifacts GENERATED (runs RUN-001..013 of record; per-artifact receipts in runs/ + qa-reports/)"
+  generated: "95/95 artifacts GENERATED (runs RUN-001..014 of record; per-artifact receipts in runs/ + qa-reports/)"
   families: "CUR 8, EXP 8, MIS 9, ASM 10, MS 8, EXM 6, PED 9, PRA 5, PRO 7, HIS 7, TUT 10, GAP 8"
   grounding_consumed: "SRC-SPEC-4CH1, SRC-QPMS-4CH1, SRC-ER-4CH1, SRC-TL-4CH1,
     SRC-SAMS-4CH1, SRC-ROOT-BOOK-COPIES-4CH1, SRC-BOOK-4CH1-SB1 (validated v3
@@ -52,8 +52,25 @@ coverage_status:
     the official wording of record — 10 old refs cited nonexistent plain-form points,
     2 cited wrong-locus points, 1 dropped a C suffix). Post-repair state: 95/95
     validator receipts at 0 errors / 0 warnings; anchor refs resolve as SIB-ANCH-004."
+  derived_quantity_labeling: "RUN-014 closed SIB-ASSESS-r1 finding D4: a library-wide
+    sweep of unquoted numeric figures (225 hits / 78 distinct figure sites across 95
+    artifacts) adjudicated every figure against its pack sources. Three repairs: the
+    CUR-02 demand-class percentage 33.2% corrected to 33.1% (60/181 per the RUN-002
+    census of record — an arithmetic rounding error; the RUN-COMPUTED derivation
+    labels were already in place), and two EXP-045 presentation-level attribution
+    gaps (the book-printed '1 in ~75' figure now attributed inline; the unprinted
+    'pH around 3-5' band labeled as an approximation). All other figures verified
+    SOURCE-PRINTED or record-bound (adjudication receipt:
+    runs/SIB-CHEMISTRY_4CH1-RUN-014/evidence/d4_adjudication.json). Labeling law of
+    record added at SOURCE_REQUIREMENTS.md section 4.2. In-turn disclosed repair:
+    CUR-02's 31 RUN-002-era citation tokens upgraded to the r4 binding grammar
+    (paths + one-citation-per-paren; sources/pages/line-ranges unchanged in
+    substance) — RUN-014 was the first run to gate CUR-02 through the r4 QA and the
+    pre-existing grammar debt fail-closed at 34 violations on the unedited base.
+    Citation-grammar debt of the same style remains in CUR-03..08/GAP (outside this
+    run's edit scope), register item."
   publication: "staging/publication remain operator-ordered (validator publication law)"
-  updated: "2026-10-27 (RUN-013, BL-011)"
+  updated: "2026-10-27 (RUN-014, BL-011)"
 artifacts:
   - artifact_id: CUR-01
     applicability: REQUIRED
@@ -599,4 +616,19 @@ backlog:
       refreshed — 95/95 receipts clean, the first warning-free library sweep
       since RUN-003 (anchor refs now resolve as SIB-ANCH-004 INFO); citation
       QA r4 79 citations / 0 violations; run manifest add-artifact x6 +
-      validate OK. Staging/publication remain operator-ordered."
+      validate OK. Staging/publication remain operator-ordered.
+      PASS 14 EXECUTED 2026-10-27 (operator order 'D4 (derived-quantity
+      labeling)', channel zai-web): run SIB-CHEMISTRY_4CH1-RUN-014 =
+      SIB-ASSESS-r1 finding D4. Library-wide unquoted-figure sweep (225 hits /
+      78 distinct sites) adjudicated against pack sources; three repairs —
+      CUR-02 v1.1 (census 33.2% -> 33.1%, 60/181 per the RUN-002 census of
+      record; + 31 citation tokens upgraded to the r4 binding grammar as a
+      disclosed in-turn repair after the gate fail-closed on pre-existing
+      RUN-002-era debt), EXP-06 v1.2 (EXP-045 '1 in ~75' attributed as the
+      book's own figure; 'pH around 3-5' labeled approximation). Labeling law
+      of record at SOURCE_REQUIREMENTS.md section 4.2. Packs carried
+      byte-identical (CUR-02 <- RUN-002, EXP-06 <- RUN-011 == RUN-004 origin);
+      citation tokens byte-identical pre/post for the D4 edits; validator qa
+      @ 357ace0a 0 errors / 0 warnings x2 edited + 93 unchanged receipts
+      refreshed — 95/95 clean; citation QA r4 81 citations / 0 violations; run
+      manifest add-artifact x2 + validate OK."

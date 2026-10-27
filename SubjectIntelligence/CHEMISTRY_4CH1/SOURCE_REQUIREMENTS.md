@@ -111,6 +111,32 @@ Claim-type labels (MIS-family record fields since RUN-011):
   but not stated by that evidence.
 - `PROPOSED_INTERVENTION` — a proposed classroom action, not an observed fact.
 
+### 4.2 Derived-quantity labeling law (BL-011, RUN-014, 2026-10-27)
+
+Numeric figures appearing in artifact prose OUTSIDE quoted spans carry provenance
+by one of three routes of record (the SIB-ASSESS-r1 D4 finding: an unquoted figure
+whose printed/derived/estimated status a reader cannot tell — exemplar: "about 1 in
+~75" presented as a bare parenthetical):
+
+- `SOURCE-PRINTED (default)` — the figure is printed in a pack source. The record
+  binds it through its Evidence block (the standing record-level law). A hedged
+  presentation ("about X", "~X") is acceptable where the hedge mirrors the source's
+  own wording; where the hedge would be the artifact's, the attribution must be
+  visible inline ("the book's own figure: ...").
+- `RUN-COMPUTED (derived)` — the figure is computed from named inputs of record.
+  The derivation must be stated inline with its count basis and stay arithmetically
+  correct at label time (the house pattern: `RUN-COMPUTED: census.json,
+  command_kinds.guide_class_distribution`).
+- `APPROXIMATION (SIB-estimated)` — the figure is neither printed in a source nor
+  computed in-repo. It must be labeled as an approximation and must never be
+  presented as printed or derived.
+
+First application (RUN-014): the library-wide unquoted-figure sweep adjudicated 78
+distinct figure sites across 95 artifacts; every figure resolved SOURCE-PRINTED or
+record-bound except the three repaired in RUN-014 (one RUN-COMPUTED arithmetic
+error, two presentation-level attribution gaps). The per-site adjudication of record
+is `runs/SIB-CHEMISTRY_4CH1-RUN-014/evidence/d4_adjudication.json`.
+
 ## 5. Recommended minimum corpus for 4CH1
 
 Before starting the full 95-artifact build, check that these six groups are accessible:

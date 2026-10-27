@@ -1,0 +1,60 @@
+{
+  "schema": "sib-run-census/1.0",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-014",
+  "library": "CHEMISTRY_4CH1",
+  "families": [
+    "CUR",
+    "EXP"
+  ],
+  "pass": "pass 14 (BL-011)",
+  "d4_repair": {
+    "repaired_sites": 3,
+    "no_action_families": 15,
+    "sweep_hits": 225,
+    "distinct_figure_sites": 78
+  },
+  "artifacts": {
+    "CUR-02": {
+      "artifact_sha256": "912cb4887508157457740fff0ab1361d18cddda531ac3a91c87b1e5248b0daac",
+      "artifact_version": "1.1",
+      "pack_sha256": "62077d57e1d12426255ce62868cf3e8127e4795a7ce12d0c6b0725ceaefad1cc",
+      "pack_spec": "evidence/CUR-02/pack_spec.json",
+      "origin_pack_source": "SIB-CHEMISTRY_4CH1-RUN-002",
+      "records": 9,
+      "sources_in_pack": 5,
+      "book_files": 1,
+      "book_excerpts": 0,
+      "book_chars": 0,
+      "graph_files": 2,
+      "graph_excerpts": 24,
+      "graph_chars": 14094,
+      "sams_files": 1,
+      "sams_excerpts": 1,
+      "sams_chars": 188,
+      "spec_files": 1,
+      "spec_excerpts": 7,
+      "spec_chars": 7247,
+      "tl_files": 2,
+      "tl_excerpts": 2,
+      "tl_chars": 2625
+    },
+    "EXP-06": {
+      "artifact_sha256": "c9cf6437e8c1eb340278a1014505942e7cda88400cfb515a69be59d7d107f269",
+      "artifact_version": "1.2",
+      "pack_sha256": "26295969171dc6bcf224e35826d808ec9c837dca1ce0791e689d9ba1da1dddf2",
+      "pack_spec": "evidence/EXP-06/pack_spec.json",
+      "origin_pack_source": "SIB-CHEMISTRY_4CH1-RUN-011",
+      "records": 8,
+      "sources_in_pack": 3,
+      "book_files": 1,
+      "book_excerpts": 18,
+      "book_chars": 15983,
+      "spec_files": 1,
+      "spec_excerpts": 6,
+      "spec_chars": 8968,
+      "tl_files": 0,
+      "tl_excerpts": 0,
+      "tl_chars": 0
+    }
+  }
+}

@@ -531,3 +531,69 @@ edit).
   MIS-01 v1.3, MIS-02/04/06/07/08 v1.2 (RUN-013). Staging/publication remain
   operator-ordered. SIB-ASSESS-r1 register: D4 derived-quantity labeling and
   D6/D7 (structural limits; staging/publication pass) remain open lanes.
+
+---
+
+## RUN-014 — SIB-ASSESS-r1 D4: derived-quantity labeling (BL-011 pass 14)
+
+**Date:** 2026-10-27
+**Operator order:** "D4 (derived-quantity labeling)" (channel zai-web, trace
+1a17c30ca2b54219)
+**Run:** SIB-CHEMISTRY_4CH1-RUN-014
+**Status:** COMPLETE — QA_PASSED, receipts validated
+
+**Scope.** The assessment's D4 finding: derived-quantity provenance gap — unquoted
+numeric figures whose printed/derived/estimated status a reader cannot tell
+(exemplar: "about 1 in ~75" in EXP-045, presented as a bare parenthetical).
+
+**Diagnosis of record.** Char-level quote-span-masked sweep of all 95 artifacts:
+225 unquoted-figure hits / 78 distinct figure sites. Every site verified against
+its artifact's evidence packs (union across runs) and the book chunk corpus
+(chunks_v3.jsonl, sha b2c67eaf...). Verdicts: the overwhelming majority
+SOURCE-PRINTED with record-level or same-sentence binding (spec assessment
+weightings 61.1/38.9, AO bands and per-paper matrix, legacy 66.6/33.3 and AO
+bands, Haber 450 C / 200 atm — the legacy spec's own wording, TL guide's 0.20 cm3
+concordance and 15 % pass yield, 2.67 g / 90.0 g / -1.8 C calorimetry figures,
+11.00 cm3 / 0.05 cm3 reading rules, QP stem 77.78/22.22, ER's 0.00125, boron
+20/80, 600 m/s / 0.01 s, 35.5/18.5, 36.5, -0.6/100.2 — the last two with the
+book's own hedges). Exactly one RUN-COMPUTED census and one approximation found:
+- CUR-02 demand-class percentage: 33.2% claimed, 60/181 = 33.1% per the RUN-002
+  census of record (command_kinds.guide_class_distribution) — arithmetic rounding
+  error; the RUN-COMPUTED derivation labels were already in place.
+- EXP-045 "pH around 3-5": printed by no source (the book's printed figure is
+  2.88 for 0.10 mol/dm3 ethanoic acid, chunk 571 — already in the same record).
+- EXP-045 "about 1 in ~75": book-printed verbatim (chunk 1006) but presented as
+  an unlabeled parenthetical.
+
+**Repairs.** CUR-02 v1.1 (33.2% -> 33.1% x2); EXP-06 v1.2 (EXP-045 "the book's own
+figure: about 1 in ~75 ..." attribution; the 3-5 band labeled as an approximate
+band pointing at the printed 2.88). Citation tokens byte-identical pre/post for
+the D4 edits.
+
+**In-turn disclosed repair.** The r4 citation QA fail-closed on CUR-02 with 34
+violations — on the UNEDITED base artifact too (verified at d4958105): the CUR
+family was generated at RUN-002 before the r4 binding grammar existed and was
+never re-gated. Repair (RUN-010 precedent): CUR-02's 31 tokens upgraded to the
+r4 grammar — pack file paths inserted (spec_command_kinds.yaml /
+specification_points.yaml / the spec PDF, per the pack excerpt locators covering
+each cited range), semicolon-joined multi-citations split one-per-paren, "page N"
+-> "pN", the census-mixed token split into citation + standalone RUN-COMPUTED
+label. Sources/pages/line-ranges unchanged in substance. Post-repair: 54 tokens,
+81 citations / 0 violations across the run's artifacts. Register note: the same
+pathless citation style remains in CUR-03..08/GAP-family artifacts (outside this
+run's edit scope) — library citation-grammar debt for a dedicated pass.
+
+**Chain.** init RUN-014 -> preflight PASS (families CUR, EXP; 6/17 sparse-surface
+resolved, 11 disclosed run-wide) -> packs x2 byte-identical (CUR-02 <- RUN-002;
+EXP-06 <- RUN-011, chain-verified byte-identical to the RUN-004 origin) -> D4
+edits + citation-grammar repair -> stamp x2 -> validator qa @ 357ace0a 0 errors /
+0 warnings x2 edited + 93 unchanged receipts refreshed = 95/95 clean (library
+holds the RUN-013 clean state) -> citation QA r4 81 citations / 0 violations ->
+census annex -> add-artifact x2 + validate OK -> governance (this entry,
+manifest.yaml header/coverage_status/BL-008 PASS 14 stamp,
+SOURCE_REQUIREMENTS.md section 4.2 labeling law of record).
+
+**Receipts.** runs/SIB-CHEMISTRY_4CH1-RUN-014/: run_manifest.json (validated),
+evidence/d4_adjudication.json (3 repaired sites + 15 no-action figure families
+with source pins), evidence/citation_repair_receipt.json, census.json,
+evidence_claim_qa_report.json, preflight/).
