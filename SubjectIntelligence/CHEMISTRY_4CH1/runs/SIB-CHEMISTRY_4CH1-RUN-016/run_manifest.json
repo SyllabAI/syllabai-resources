@@ -1,0 +1,106 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-016",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "1cd1b417d41e6a0dad3bc7a1e0cbe9e2dd519027",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "CUR-01",
+      "filename": "CHEMISTRY_4CH1_CUR-01_CURRICULUM_OVERVIEW.md",
+      "evidence_pack": "evidence/CUR-01/evidence_pack.json",
+      "evidence_pack_sha256": "cc3f660b1e61a021be1545dd5b05372a3845129da0609d14cd44087b7d15c80a",
+      "artifact_sha256": "47b93a2ca04c3aea1313613c27315d26469a65a7f097475c6aa93a0180b7219a",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (9/17 sources resolved on the sparse-clone surface — the RUN-015 state; packs carried byte-identical from origins (CUR-01 <- SIB-CHEMISTRY_4CH1-RUN-001); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "pre_stage_repair": "PASS (SIB-ASSESS-r2 D8/D9: exact-match replaces with occurrence asserts; disclosed old/new token diffs in evidence/d8_d9_repair_table.json; every new locator pack-verified by this gate)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-015 clean state)",
+        "evidence_claim_qa": "PASS (r4: 0 citations / 0 violations against the pack of record carried from SIB-CHEMISTRY_4CH1-RUN-001; first-time gate for this RUN-001-era artifact)",
+        "lifecycle_precondition": "PASS (receipt content_sha256 bound to the current landing content; artifact proceeds to the operator-ordered stage->publish->chunks pass over all 95)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "CUR-05",
+      "filename": "CHEMISTRY_4CH1_CUR-05_PREREQUISITE_KNOWLEDGE_MAP.md",
+      "evidence_pack": "evidence/CUR-05/evidence_pack.json",
+      "evidence_pack_sha256": "ee6c9afc3477b34b274007b75fd8332a477caab7be3c1cd83ead3f6ba2f38437",
+      "artifact_sha256": "bf629488a5393299db5ccbd4a52604b5d7540f7d3246a461abd84e9cb68bb429",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (9/17 sources resolved on the sparse-clone surface — the RUN-015 state; packs carried byte-identical from origins (CUR-05 <- SIB-CHEMISTRY_4CH1-RUN-015); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "pre_stage_repair": "PASS (SIB-ASSESS-r2 D8/D9: exact-match replaces with occurrence asserts; disclosed old/new token diffs in evidence/d8_d9_repair_table.json; every new locator pack-verified by this gate)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-015 clean state)",
+        "evidence_claim_qa": "PASS (r4: 49 citations / 0 violations against the pack of record carried from SIB-CHEMISTRY_4CH1-RUN-015; re-gate)",
+        "lifecycle_precondition": "PASS (receipt content_sha256 bound to the current landing content; artifact proceeds to the operator-ordered stage->publish->chunks pass over all 95)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "CUR-08",
+      "filename": "CHEMISTRY_4CH1_CUR-08_CURRICULUM_BOUNDARIES.md",
+      "evidence_pack": "evidence/CUR-08/evidence_pack.json",
+      "evidence_pack_sha256": "6068a87627e61367612acdb36f914ccfdda90cb907a23719ab34530ba86e4f97",
+      "artifact_sha256": "f65ead0a5e81750fd0f6b91aa7d8c640a19cc46fb069a5817e40cb23da3f8b54",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (9/17 sources resolved on the sparse-clone surface — the RUN-015 state; packs carried byte-identical from origins (CUR-08 <- SIB-CHEMISTRY_4CH1-RUN-015); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "pre_stage_repair": "PASS (SIB-ASSESS-r2 D8/D9: exact-match replaces with occurrence asserts; disclosed old/new token diffs in evidence/d8_d9_repair_table.json; every new locator pack-verified by this gate)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-015 clean state)",
+        "evidence_claim_qa": "PASS (r4: 26 citations / 0 violations against the pack of record carried from SIB-CHEMISTRY_4CH1-RUN-015; re-gate)",
+        "lifecycle_precondition": "PASS (receipt content_sha256 bound to the current landing content; artifact proceeds to the operator-ordered stage->publish->chunks pass over all 95)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "PRO-07",
+      "filename": "CHEMISTRY_4CH1_PRO-07_TRANSFER_PATTERNS.md",
+      "evidence_pack": "evidence/PRO-07/evidence_pack.json",
+      "evidence_pack_sha256": "f9f422012a3469054e744380ea2bbeb9f15dfb5886b49d00a5fba44583c90770",
+      "artifact_sha256": "9818c1dbef80af39c870c144b222ad6c55a40ffc827efc4e230375a62c4dd4f6",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (9/17 sources resolved on the sparse-clone surface — the RUN-015 state; packs carried byte-identical from origins (PRO-07 <- SIB-CHEMISTRY_4CH1-RUN-006); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "pre_stage_repair": "PASS (SIB-ASSESS-r2 D8/D9: exact-match replaces with occurrence asserts; disclosed old/new token diffs in evidence/d8_d9_repair_table.json; every new locator pack-verified by this gate)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-015 clean state)",
+        "evidence_claim_qa": "PASS (r4: 12 citations / 0 violations against the pack of record carried from SIB-CHEMISTRY_4CH1-RUN-006; re-gate)",
+        "lifecycle_precondition": "PASS (receipt content_sha256 bound to the current landing content; artifact proceeds to the operator-ordered stage->publish->chunks pass over all 95)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "EXP-01",
+      "filename": "CHEMISTRY_4CH1_EXP-01_CORE_CONCEPT_EXPLANATIONS.md",
+      "evidence_pack": "evidence/EXP-01/evidence_pack.json",
+      "evidence_pack_sha256": "b3764f56ca8318586e2a48ae2d66b29dbf7f8a1857323bd5c3d6e10e315277c4",
+      "artifact_sha256": "72afeb7e19256b1e6dc807ea1e7d547cf473850873af08b24e54d5169477e3aa",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (9/17 sources resolved on the sparse-clone surface — the RUN-015 state; packs carried byte-identical from origins (EXP-01 <- SIB-CHEMISTRY_4CH1-RUN-004); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "pre_stage_repair": "PASS (SIB-ASSESS-r2 D8/D9: exact-match replaces with occurrence asserts; disclosed old/new token diffs in evidence/d8_d9_repair_table.json; every new locator pack-verified by this gate)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-015 clean state)",
+        "evidence_claim_qa": "PASS (r4: 33 citations / 0 violations against the pack of record carried from SIB-CHEMISTRY_4CH1-RUN-004; re-gate)",
+        "lifecycle_precondition": "PASS (receipt content_sha256 bound to the current landing content; artifact proceeds to the operator-ordered stage->publish->chunks pass over all 95)"
+      },
+      "qa_report": ""
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

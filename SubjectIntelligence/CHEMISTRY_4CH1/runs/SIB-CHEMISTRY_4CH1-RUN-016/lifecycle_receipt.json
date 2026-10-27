@@ -1,0 +1,773 @@
+{
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-016",
+  "law": "GENERATED -> QA_PASSED -> STAGED -> PUBLISHED (lifecycle.py); stage/publish are explicit operator-ordered validator actions; chunks are deterministic retrieval JSONL",
+  "artifacts": [
+    {
+      "artifact_id": "ASM-01",
+      "filename": "CHEMISTRY_4CH1_ASM-01_ASSESSMENT_OVERVIEW.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-01.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-02",
+      "filename": "CHEMISTRY_4CH1_ASM-02_QUESTION_TAXONOMY.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-02.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-03",
+      "filename": "CHEMISTRY_4CH1_ASM-03_QUESTION_ARCHETYPES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-03.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-04",
+      "filename": "CHEMISTRY_4CH1_ASM-04_COMMAND_WORD_ANALYSIS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-04.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-05",
+      "filename": "CHEMISTRY_4CH1_ASM-05_MARK_ALLOCATION_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-05.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-06",
+      "filename": "CHEMISTRY_4CH1_ASM-06_QUESTION_DIFFICULTY_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-06.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-07",
+      "filename": "CHEMISTRY_4CH1_ASM-07_MULTI_CONCEPT_QUESTION_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-07.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-08",
+      "filename": "CHEMISTRY_4CH1_ASM-08_CONTEXT_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-08.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-09",
+      "filename": "CHEMISTRY_4CH1_ASM-09_QUESTION_PROGRESSION_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-09.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "ASM-10",
+      "filename": "CHEMISTRY_4CH1_ASM-10_ASSESSMENT_COVERAGE_ANALYSIS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "ASM-10.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "CUR-01",
+      "filename": "CHEMISTRY_4CH1_CUR-01_CURRICULUM_OVERVIEW.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-01.chunks.jsonl",
+      "chunks": 8
+    },
+    {
+      "artifact_id": "CUR-02",
+      "filename": "CHEMISTRY_4CH1_CUR-02_SPECIFICATION_INTERPRETATION.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-02.chunks.jsonl",
+      "chunks": 17
+    },
+    {
+      "artifact_id": "CUR-03",
+      "filename": "CHEMISTRY_4CH1_CUR-03_CONCEPT_TAXONOMY.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-03.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "CUR-04",
+      "filename": "CHEMISTRY_4CH1_CUR-04_CONCEPT_RELATIONSHIPS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-04.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "CUR-05",
+      "filename": "CHEMISTRY_4CH1_CUR-05_PREREQUISITE_KNOWLEDGE_MAP.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-05.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "CUR-06",
+      "filename": "CHEMISTRY_4CH1_CUR-06_CROSS_TOPIC_CONNECTIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-06.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "CUR-07",
+      "filename": "CHEMISTRY_4CH1_CUR-07_TERMINOLOGY_DEFINITIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-07.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "CUR-08",
+      "filename": "CHEMISTRY_4CH1_CUR-08_CURRICULUM_BOUNDARIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "CUR-08.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "EXM-01",
+      "filename": "CHEMISTRY_4CH1_EXM-01_EXAMINER_REPORT_SYNTHESIS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXM-01.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "EXM-02",
+      "filename": "CHEMISTRY_4CH1_EXM-02_RECURRING_EXAMINER_WARNINGS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXM-02.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "EXM-03",
+      "filename": "CHEMISTRY_4CH1_EXM-03_WHAT_EXAMINERS_REWARD.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXM-03.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "EXM-04",
+      "filename": "CHEMISTRY_4CH1_EXM-04_WHAT_EXAMINERS_PENALIZE.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXM-04.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "EXM-05",
+      "filename": "CHEMISTRY_4CH1_EXM-05_QUESTION_SPECIFIC_EXAMINER_INSIGHTS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXM-05.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "EXM-06",
+      "filename": "CHEMISTRY_4CH1_EXM-06_EXAM_TECHNIQUE_INSIGHTS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXM-06.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "EXP-01",
+      "filename": "CHEMISTRY_4CH1_EXP-01_CORE_CONCEPT_EXPLANATIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-01.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "EXP-02",
+      "filename": "CHEMISTRY_4CH1_EXP-02_SIMPLE_EXPLANATIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-02.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "EXP-03",
+      "filename": "CHEMISTRY_4CH1_EXP-03_DEEP_EXPLANATIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-03.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "EXP-04",
+      "filename": "CHEMISTRY_4CH1_EXP-04_ALTERNATIVE_EXPLANATIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-04.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "EXP-05",
+      "filename": "CHEMISTRY_4CH1_EXP-05_ANALOGIES_MENTAL_MODELS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-05.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "EXP-06",
+      "filename": "CHEMISTRY_4CH1_EXP-06_CONCEPTUAL_DISTINCTIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-06.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "EXP-07",
+      "filename": "CHEMISTRY_4CH1_EXP-07_WHY_IT_WORKS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-07.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "EXP-08",
+      "filename": "CHEMISTRY_4CH1_EXP-08_COMMON_WHY_QUESTIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "EXP-08.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "GAP-01",
+      "filename": "CHEMISTRY_4CH1_GAP-01_CURRICULUM_COVERAGE_GAPS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-01.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "GAP-02",
+      "filename": "CHEMISTRY_4CH1_GAP-02_KG_COVERAGE_GAPS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-02.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "GAP-03",
+      "filename": "CHEMISTRY_4CH1_GAP-03_ASSESSMENT_COVERAGE_GAPS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-03.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "GAP-04",
+      "filename": "CHEMISTRY_4CH1_GAP-04_MISCONCEPTION_COVERAGE_GAPS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-04.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "GAP-05",
+      "filename": "CHEMISTRY_4CH1_GAP-05_RESOURCE_QUALITY_GAPS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-05.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "GAP-06",
+      "filename": "CHEMISTRY_4CH1_GAP-06_RETRIEVAL_RISK_ANALYSIS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-06.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "GAP-07",
+      "filename": "CHEMISTRY_4CH1_GAP-07_TUTOR_KNOWLEDGE_GAPS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-07.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "GAP-08",
+      "filename": "CHEMISTRY_4CH1_GAP-08_SUBJECT_RESEARCH_BACKLOG.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "GAP-08.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "HIS-01",
+      "filename": "CHEMISTRY_4CH1_HIS-01_SPECIFICATION_EVOLUTION.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "HIS-01.chunks.jsonl",
+      "chunks": 18
+    },
+    {
+      "artifact_id": "HIS-02",
+      "filename": "CHEMISTRY_4CH1_HIS-02_LEGACY_TO_CURRENT_MAPPING.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "HIS-02.chunks.jsonl",
+      "chunks": 18
+    },
+    {
+      "artifact_id": "HIS-03",
+      "filename": "CHEMISTRY_4CH1_HIS-03_ASSESSMENT_EVOLUTION.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "HIS-03.chunks.jsonl",
+      "chunks": 18
+    },
+    {
+      "artifact_id": "HIS-04",
+      "filename": "CHEMISTRY_4CH1_HIS-04_TERMINOLOGY_EVOLUTION.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "HIS-04.chunks.jsonl",
+      "chunks": 18
+    },
+    {
+      "artifact_id": "HIS-05",
+      "filename": "CHEMISTRY_4CH1_HIS-05_QUESTION_EVOLUTION.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "HIS-05.chunks.jsonl",
+      "chunks": 18
+    },
+    {
+      "artifact_id": "HIS-06",
+      "filename": "CHEMISTRY_4CH1_HIS-06_PERSISTENT_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "HIS-06.chunks.jsonl",
+      "chunks": 18
+    },
+    {
+      "artifact_id": "HIS-07",
+      "filename": "CHEMISTRY_4CH1_HIS-07_HISTORICAL_RELEVANCE_ANALYSIS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "HIS-07.chunks.jsonl",
+      "chunks": 18
+    },
+    {
+      "artifact_id": "MIS-01",
+      "filename": "CHEMISTRY_4CH1_MIS-01_MISCONCEPTION_ATLAS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-01.chunks.jsonl",
+      "chunks": 20
+    },
+    {
+      "artifact_id": "MIS-02",
+      "filename": "CHEMISTRY_4CH1_MIS-02_CONCEPT_CONFUSION_ATLAS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-02.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "MIS-03",
+      "filename": "CHEMISTRY_4CH1_MIS-03_COMMON_STUDENT_ERRORS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-03.chunks.jsonl",
+      "chunks": 16
+    },
+    {
+      "artifact_id": "MIS-04",
+      "filename": "CHEMISTRY_4CH1_MIS-04_REASONING_ERRORS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-04.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "MIS-05",
+      "filename": "CHEMISTRY_4CH1_MIS-05_CALCULATION_ERRORS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-05.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "MIS-06",
+      "filename": "CHEMISTRY_4CH1_MIS-06_TERMINOLOGY_ERRORS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-06.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "MIS-07",
+      "filename": "CHEMISTRY_4CH1_MIS-07_EXAM_ANSWER_ERRORS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-07.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "MIS-08",
+      "filename": "CHEMISTRY_4CH1_MIS-08_MISCONCEPTION_DIAGNOSTICS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-08.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "MIS-09",
+      "filename": "CHEMISTRY_4CH1_MIS-09_MISCONCEPTION_INTERVENTIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MIS-09.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "MS-01",
+      "filename": "CHEMISTRY_4CH1_MS-01_MARK_SCHEME_STRUCTURE.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-01.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "MS-02",
+      "filename": "CHEMISTRY_4CH1_MS-02_MARK_POINT_TAXONOMY.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-02.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "MS-03",
+      "filename": "CHEMISTRY_4CH1_MS-03_REQUIRED_ANSWER_ELEMENTS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-03.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "MS-04",
+      "filename": "CHEMISTRY_4CH1_MS-04_ACCEPTABLE_ALTERNATIVES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-04.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "MS-05",
+      "filename": "CHEMISTRY_4CH1_MS-05_COMMON_MARK_LOSS_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-05.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "MS-06",
+      "filename": "CHEMISTRY_4CH1_MS-06_PARTIAL_CREDIT_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-06.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "MS-07",
+      "filename": "CHEMISTRY_4CH1_MS-07_EXAMINER_MARKING_LANGUAGE.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-07.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "MS-08",
+      "filename": "CHEMISTRY_4CH1_MS-08_ANSWER_QUALITY_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "MS-08.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PED-01",
+      "filename": "CHEMISTRY_4CH1_PED-01_LEARNING_SEQUENCE_ANALYSIS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-01.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PED-02",
+      "filename": "CHEMISTRY_4CH1_PED-02_PREREQUISITE_LEARNING_PATHS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-02.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PED-03",
+      "filename": "CHEMISTRY_4CH1_PED-03_DIFFICULTY_PROGRESSION.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-03.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PED-04",
+      "filename": "CHEMISTRY_4CH1_PED-04_EXPLANATION_STRATEGIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-04.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PED-05",
+      "filename": "CHEMISTRY_4CH1_PED-05_PRACTICE_STRATEGIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-05.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PED-06",
+      "filename": "CHEMISTRY_4CH1_PED-06_RETRIEVAL_PRACTICE_OPPORTUNITIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-06.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PED-07",
+      "filename": "CHEMISTRY_4CH1_PED-07_INTERLEAVING_OPPORTUNITIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-07.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PED-08",
+      "filename": "CHEMISTRY_4CH1_PED-08_SCAFFOLDING_STRATEGIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-08.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PED-09",
+      "filename": "CHEMISTRY_4CH1_PED-09_DIAGNOSTIC_TEACHING_STRATEGIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PED-09.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PRA-01",
+      "filename": "CHEMISTRY_4CH1_PRA-01_CORE_PROCEDURES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRA-01.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PRA-02",
+      "filename": "CHEMISTRY_4CH1_PRA-02_METHOD_TECHNIQUE_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRA-02.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PRA-03",
+      "filename": "CHEMISTRY_4CH1_PRA-03_PRACTICAL_EXPERIMENTAL_INTELLIGENCE.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRA-03.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PRA-04",
+      "filename": "CHEMISTRY_4CH1_PRA-04_PROCEDURE_ERRORS_AND_FAILURE_MODES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRA-04.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PRA-05",
+      "filename": "CHEMISTRY_4CH1_PRA-05_METHOD_SELECTION_GUIDE.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRA-05.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PRO-01",
+      "filename": "CHEMISTRY_4CH1_PRO-01_PROBLEM_SOLVING_FRAMEWORKS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRO-01.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PRO-02",
+      "filename": "CHEMISTRY_4CH1_PRO-02_PROBLEM_TYPE_TO_METHOD_MAPPING.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRO-02.chunks.jsonl",
+      "chunks": 15
+    },
+    {
+      "artifact_id": "PRO-03",
+      "filename": "CHEMISTRY_4CH1_PRO-03_MULTI_STEP_REASONING_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRO-03.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PRO-04",
+      "filename": "CHEMISTRY_4CH1_PRO-04_DECISION_POINTS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRO-04.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PRO-05",
+      "filename": "CHEMISTRY_4CH1_PRO-05_DEAD_ENDS_AND_FAILED_APPROACHES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRO-05.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PRO-06",
+      "filename": "CHEMISTRY_4CH1_PRO-06_WORKED_REASONING_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRO-06.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "PRO-07",
+      "filename": "CHEMISTRY_4CH1_PRO-07_TRANSFER_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "PRO-07.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-01",
+      "filename": "CHEMISTRY_4CH1_TUT-01_SUBJECT_TUTOR_KNOWLEDGE_BASE.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-01.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-02",
+      "filename": "CHEMISTRY_4CH1_TUT-02_COMMON_STUDENT_QUESTIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-02.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-03",
+      "filename": "CHEMISTRY_4CH1_TUT-03_FOLLOW_UP_QUESTION_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-03.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-04",
+      "filename": "CHEMISTRY_4CH1_TUT-04_SOCRATIC_QUESTION_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-04.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-05",
+      "filename": "CHEMISTRY_4CH1_TUT-05_HINT_STRATEGIES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-05.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-06",
+      "filename": "CHEMISTRY_4CH1_TUT-06_MISCONCEPTION_RESPONSE_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-06.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-07",
+      "filename": "CHEMISTRY_4CH1_TUT-07_EXAM_FEEDBACK_PATTERNS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-07.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-08",
+      "filename": "CHEMISTRY_4CH1_TUT-08_CONCEPT_COMPARISON_GUIDES.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-08.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-09",
+      "filename": "CHEMISTRY_4CH1_TUT-09_DEEP_DIVE_EXPLANATIONS.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-09.chunks.jsonl",
+      "chunks": 14
+    },
+    {
+      "artifact_id": "TUT-10",
+      "filename": "CHEMISTRY_4CH1_TUT-10_SUBJECT_SPECIFIC_TUTOR_GUIDANCE.md",
+      "stage": "STAGED",
+      "publish": "PUBLISHED",
+      "chunks_file": "TUT-10.chunks.jsonl",
+      "chunks": 14
+    }
+  ],
+  "summary": {
+    "staged_then_published": 95,
+    "chunks_files": 95,
+    "chunks_total": 1404,
+    "landing_zone": "EMPTY (by design)",
+    "statuses": "95x PUBLISHED"
+  }
+}

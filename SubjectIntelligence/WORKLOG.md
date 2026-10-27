@@ -659,3 +659,40 @@ HIS 138 citations / 0 violations -> run manifest add-artifact x13 + validate OK 
 governance (this entry, manifest.yaml header/coverage_status/BL-008 PASS 15 stamp) ->
 validate-manifest + full live sweep. Register: D6 (single-pipeline self-attestation
 structural limit) and D7 (staging/publication pass — 0 STAGED) remain operator-ordered.
+
+---
+
+## RUN-016 — the D7 staging/publication pass (pass 16, BL-011) + SIB-ASSESS-r2 (2026-10-28)
+
+Operator order "Go" (trace 1a17eb6123855fc9) on the queued backlog: the honest
+post-repair re-assessment, then the D7 pass it gates.
+
+**SIB-ASSESS-r2** (`ASSESSMENT_R2_2026-10-28.md`, commit 1 of this lane): four
+instruments — metrics (95/12 fams; 129,788 words +4,726, 644 records +28, 1,588
+citations +185 vs the r1 baseline), the r3 evidence-claim gate swept over **94/95
+artifacts** against the latest pack of record (1,514 citations / 0 violations;
+CUR-01 the one fail-closed skip — RUN-001 predates the census-annex law), live
+validator qa **95/95 at 0 errors / 0 warnings with receipts byte-identical across
+sessions** (determinism proven), repair-hold probes + the HIS-066 human spot-read.
+Verdict: every r1 repair HELD (D1/D2/D4/D5, CUR/GAP grammar, HIS quote binding); new
+findings **D8** (6 grammar-form debt tokens that pass the gate — prose-parens in
+CUR-05/CUR-08, semicolon-joined pairs in PRO-07, prose locators in EXP-01), **D9**
+(CUR-01's 5 debt forms + never-gated), **F4** (structural: the manifest validator
+models the landing lifecycle only); **GO**.
+
+**RUN-016**: pre-stage repairs first (post-publication repairs would burn artifact
+versions) — 11 exact-match edits across CUR-01 v1.1, CUR-05 v1.2, CUR-08 v1.2,
+PRO-07 v1.1, EXP-01 v1.1, every new locator pack-verified, **CUR-01 gated for the
+first time in the library's history** (census annex built from its RUN-001 pack of
+record); validator qa 0/0 x5 + 95/95 receipt refresh; citation QA r4 **120 citations
+/ 0 violations**; then the lifecycle: **stage x95 -> publish x95 -> chunks x95**
+(1,404 deterministic retrieval chunks; artifacts/ landing zone EMPTY by design;
+95x PUBLISHED; lifecycle_receipt.json). F4a/F4b structural disclosures filed with
+the exact post-lifecycle scoreboard (88x MANIFEST_MISSING_REQ — the scoreboard
+cannot model the state it certifies; OBSERVED + DISCLOSED, never worked around;
+lesson 12 appended to docs/LESSONS_REGISTER.md). Advance disclosures x2 (both
+SubjectIntelligence-isolated). **D7 CLOSED — the library is servable.**
+
+Register: D3 (REQUIRED-core depth ceiling), D6 (single-pipeline self-attestation
+limit), the F4 upstream validator fix, and the independent silver-tier ER review
+before production reliance remain operator-ordered.
