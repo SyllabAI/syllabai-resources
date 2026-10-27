@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: HIS-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-LEGACY-SPEC-4CH0"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-007"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "4920c4640615c14a7c769c875bb87b40b361f0c2"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # HIS-03 — Assessment Evolution
@@ -171,6 +171,68 @@ January 2019 report's opening commentary reads: "Question 1 Part (a) was very we
 answered with most candidates scoring all three marks." (SRC-ER-4CH0-LEGACY,
 2019-01/4CH0-1C/er.pdf p3). Both are LEGACY — HISTORICAL witnesses.
 Temporal scope: LEGACY — HISTORICAL.
+
+### HIS-051 — Embedded multiple-choice items are examiner-documented across papers and years
+
+**Claim:** the legacy ER documents embedded multiple-choice items inside the
+structured papers across at least three sessions and both paper numbers — Paper 2C
+carrying three such items in one question and Paper 1C carrying a multi-part
+multiple-choice question late in the paper. **Evidence:** the Summer 2018 Paper 2C
+report opens its Question 4 note with "The three multiple choice questions were
+answered correctly by the majority of candidates" (SRC-ER-4CH0-LEGACY,
+2018-06/4CH0-2C/er.pdf p4); the Summer 2016 Paper 2CR report records "The two
+multiple choice questions in parts (a) and (b) were answered correctly by the vast
+majority of the candidates" (SRC-ER-4CH0-LEGACY, 2016-06/4CH0-2CR/er.pdf p3); the
+January 2018 Paper 1C report notes "The multiple choice parts were usually well
+answered with parts (c) an (d) proving the most difficult" (SRC-ER-4CH0-LEGACY,
+2018-01/4CH0-1C/er.pdf p8). Temporal scope: LEGACY — HISTORICAL. The mixed question
+style the current specification declares (HIS-029) therefore has a documented legacy
+antecedent in live marking commentary, not merely in sample materials.
+### HIS-052 — The mark allocation is examiner-stated as a detail signal
+
+**Claim:** the legacy examiners explicitly teach the mark allocation as a signal of
+required answer detail — two recorded statements across five years make this a
+documented assessment-behaviour pattern, not a one-off remark. **Evidence:** the
+January 2019 Paper 2C report states "It would perhaps be helpful to remind candidates
+to look at the mark allocation when considering the detail required in their
+answers" (SRC-ER-4CH0-LEGACY, 2019-01/4CH0-2C/er.pdf p5); the January 2015 Paper 2C
+report records candidates who "gave either the observation that solid would appear,
+or the reason that the solubility of the solid decreases as the solution is cooled,
+but very few gave both despite the mark allocation of two, which indicated that two
+points were required to gain full marks" (SRC-ER-4CH0-LEGACY, 2015-01/4CH0-2C/er.pdf
+p4). Temporal scope: LEGACY — HISTORICAL. Both statements ground the reading-the-
+question craft that persists unchanged into current assessment practice.
+### HIS-053 — The examiner report names the assessment objectives as marking doctrine
+
+**Claim:** at least one legacy report states the specification's assessment
+objectives as the direct reason a graphical answer was not credited — the AOs are
+thereby documented as live marking doctrine, not front-matter decoration.
+**Evidence:** the June 2011 Paper 1C report, discussing best-fit lines, states "The
+examiners are aware, from seeing candidates' answers, that some centres train their
+candidates to draw a line of best fit as a straight line through the centre of a
+group of data points (a scatterplot). This approach was not credited in the mark
+scheme. The assessment objectives for this specification emphasise the
+identification of anomalies and candidates need to make allowances for those
+anomalies at all times" (SRC-ER-4CH0-LEGACY, 2011-06/4CH0-1C/er.pdf p4). Temporal
+scope: LEGACY — HISTORICAL. This is the assessment-objective layer that HIS-015
+tracked across the specification documents, here witnessed in marking behaviour; the
+anomaly-handling doctrine it states is exactly the AO3 skill the current weighting
+bands continue to reward.
+### HIS-054 — Live mark-scheme adaptation is documented inside a session
+
+**Claim:** the legacy ER documents a mark scheme being adapted during marking when
+responses showed knowledge beyond the specification's definitions — a documented
+instance of the mark scheme yielding to evidenced candidate knowledge. **Evidence:**
+the Summer 2016 Paper 1CR report states "It was felt that part (d) required some
+knowledge slightly beyond the specification (although from many of the responses it
+was evident that many centres do teach definitions of oxidation and reduction in
+addition to those in the specification, and appropriate ones were credited where
+correct). Hence the Mark Scheme was adapted to take this into account and a large
+majority of candidates were able to score at least one mark" (SRC-ER-4CH0-LEGACY,
+2016-06/4CH0-1CR/er.pdf p8). Temporal scope: LEGACY — HISTORICAL. For assessment
+lineage this documents that the legacy mark schemes were not immutable
+instruments within a session — a governance fact about the legacy assessment
+apparatus that any archival reconstruction should carry.
 
 ## Evidence / Source Basis
 

@@ -94,3 +94,37 @@ Proceed exactly as `docs/PIPELINE.md` §3: run preflight → evidence packs →
 generation passes (provider-neutral SIB-GEN run; legacy NotebookLM alternative) →
 QA → stage → publish → chunks → report. All transitions operator-ordered; the validator
 owns every lifecycle transition.
+
+## 7. Operational hygiene (step 7 — read `docs/LESSONS_REGISTER.md` before ANY run)
+
+The CHEMISTRY_4CH1 runs (RUN-001..015) paid for a set of operational laws that the
+next course library inherits instead of re-deriving. `docs/LESSONS_REGISTER.md` is
+the authoritative statement; its non-negotiables are wired into `docs/PIPELINE.md`
+§8. The onboarding-time subset:
+
+1. **Sparse surface:** expand the sparse checkout to cover every cone this course's
+   sources live in (specifications, graph plane, legacy corpus, past-paper subtree)
+   BEFORE preflight, and diagnose "missing" paths with `git ls-tree` first — the
+   worktree lies under sparse rules (register §1.2).
+2. **Fetch-first:** fetch and prove advance isolation before the first branch cut,
+   and again at the git phase; file an `advance_disclosure.json` on any advance
+   (register §1.3).
+3. **Citation grammar from day one:** author every artifact directly in the r4
+   grammar (path-qualified locators, `pN` page specs, one citation per paren,
+   RUN-COMPUTED labels outside citation parens) and respect the r1 quote-binding
+   law (quote only from pack excerpts you have read, preserving the source's own
+   punctuation) — do NOT inherit the pre-r4 styles that 4CH1's RUN-002-era artifacts
+   had to be repaired out of (register §2).
+4. **Gate staged bodies before stamping:** the evidence-claim QA runs on the staged
+   body first; a failed gate must never reach `artifacts/` (register §2.4).
+5. **Pack caps and window math:** plan packs under the 60/1600/40k caps, compute
+   md-query hit lines before writing `lines N-M` locators, and probe byte-identity
+   before any full pack rebuild (register §3).
+6. **Persist scripts + receipts:** every census/repair/gate script is saved under a
+   persistent path and re-runnable; the run record carries census.json, the repair
+   receipts, and the advance disclosure (register §1.1, §4).
+7. **Debt discipline:** adjacent defects found mid-run get a `register_note` in the
+   run receipt, not an unrequested scope expansion (register §6.1).
+
+A new course that follows §1-§7 starts where CHEMISTRY_4CH1 ended, not where it
+began — that is the point of this file and of the register.

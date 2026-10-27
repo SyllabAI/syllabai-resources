@@ -597,3 +597,65 @@ SOURCE_REQUIREMENTS.md section 4.2 labeling law of record).
 evidence/d4_adjudication.json (3 repaired sites + 15 no-action figure families
 with source pins), evidence/citation_repair_receipt.json, census.json,
 evidence_claim_qa_report.json, preflight/).
+
+---
+## RUN-015 — CUR/GAP citation-grammar pass + the 7 OPTIONAL-HIS backlog artifacts + docs self-improvement (2026-10-27)
+
+Operator order: "Proceed with CUR/GAP citation-grammar pass, and the 7 OPTIONAL-HIS
+backlog artifacts. And also remember to update the docs of the SubjectIntelligence
+folder, so that in the future when we add sib docs for other subjects, we wont face
+all these problems. Basically a self improving pipeline" (channel zai-web, trace
+1a17cb11a9858229; continuation traces 1a17d7ec94b4a7cd, 1a17e102c5190241).
+
+**Stage A — citation-grammar pass (the RUN-014 register item).** Fetch-first caught
+origin/main 6b9fe7d -> d9c94436 (4MB1/G9 lane; SubjectIntelligence diff EMPTY,
+isolation proven, advance_disclosure.json filed; local main FF'd). Census of record:
+131 pathless citation tokens across CUR-03..08 (GAP-01..08 already path-conformant).
+Repair: r4 grammar upgrade (pack file paths per covering pack excerpt locators;
+one-citation-per-paren splits; 'page N' -> 'pN'; prose hedges moved out of parens;
+the CUR-07 chained 'through' connector dropped), 2 prose-paren hidden pathless forms
+repaired, 4 CUR-08 multi-cover ranges content-adjudicated (51-65/93-107/141-155 ->
+specification_points.yaml; 86-100 -> practicals.yaml). Pack re-specs (RUN-007
+precedent, disclosed): CUR-06 +3 windows (152-166, 2779-2793, 3597-3611) and CUR-05
++1 window (8-22 direction contract) as surgical appends byte-built per _md_locate
+rules — the full-rebuild path was PROVEN surface-unstable (select_sources swapped
+BOOK->LEGACY-SPEC) and the HIS path was proven byte-stable by probe; the probe-then-
+choose law is now in the register. First-time r1 quote-binding gating of the
+RUN-002-era CUR family fail-closed at 7 + 3 violations across two rounds; 11 repairs,
+all verbatim-verified (2 paraphrase-in-quotes restored, 2 injected-comma quotes
+restored, 1 truncated quote completed, 1 contract quote completed with YAML
+''-escaping and re-pointed to the true meta window, 1 false excerpt-cap narrative
+removed, 1 policy wording de-quoted, 1 nested-quote restored, 1 MCQ quote split into
+the store's own command-word + definition strings). CUR-03..08 stamped v1.1.
+GAP-01..08 re-gated confirm-only: 120 citations / 0 violations — the RUN-014
+register note's GAP mention retired.
+
+**Stage B — the 7 OPTIONAL-HIS backlog artifacts (SIB-ASSESS-r1 D3 backlog).**
+HIS-01..07 stamped v1.1: 28 new records (HIS-043..070; record-id continuity HIS-043..070
+verified) grounded in widened legacy ER windows (SRC-ER-4CH0-LEGACY from 1-8 pages to
+5-18 pages per artifact across up to 16 sessions, 2011-2019): documentary lineage
+(HIS-01 cover series: Edexcel -> Pearson Edexcel imprint migration + the Level 1/Level 2
+Certificate co-branding window + the 2013-2017 CR-variant window), demand-grammar
+witnesses (HIS-02), assessment behaviour (HIS-03: embedded MCQs, mark-allocation-as-
+detail-signal, AO doctrine, live mark-scheme adaptation), terminology policing
+(HIS-04), question craft (HIS-05), pack-internal persistence pairs 2013->2019 (HIS-06),
+technique relevance (HIS-07). Every quote verbatim-verified against the pack excerpts;
+the 42 original records unchanged; packs rebuilt deterministically with byte-identity
+proofs on every pre-existing excerpt.
+
+**Stage C — the self-improving pipeline.** docs/LESSONS_REGISTER.md added (the
+operational laws of record: session preflight, locator/quote grammar, pack caps +
+re-spec law, run mechanics, git phase, debt discipline, 10 earned lessons with run
+ids); PIPELINE.md r1 §8 (binding per-run laws pointer); COURSE_ONBOARDING.md §7
+(onboarding-time hygiene checklist); README.md pointer. Future course libraries
+inherit the laws instead of re-deriving them.
+
+**Chain.** preflight PASS (families CUR/GAP/HIS; 9/17 resolved on the sparse surface —
+legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY live, stronger than the
+RUN-012..014 6/17 state) -> packs carried (CUR/GAP <- origins byte-identical; HIS <-
+RUN-007 base) -> Stage A/B packs -> stamps v1.1 x13 -> validator qa @ 357ace0a
+0 errors / 0 warnings — 95/95 receipts clean -> citation QA r4: CUR 210 + GAP 120 +
+HIS 138 citations / 0 violations -> run manifest add-artifact x13 + validate OK ->
+governance (this entry, manifest.yaml header/coverage_status/BL-008 PASS 15 stamp) ->
+validate-manifest + full live sweep. Register: D6 (single-pipeline self-attestation
+structural limit) and D7 (staging/publication pass — 0 STAGED) remain operator-ordered.

@@ -1,0 +1,7 @@
+{
+  "incident": "mid-run deploy wipe (disclosed, repaired in-run)",
+  "what": "Stage B's base-restore (git checkout HEAD -- SubjectIntelligence/CHEMISTRY_4CH1/artifacts/, run to clear the partial HIS stamps of its own first attempt) was scoped to ALL artifacts and also reverted the 6 Stage-A v1.1 deploys of CUR-03..08 that had already completed and been recorded. The Stage-A run receipts and the staged bodies were unaffected; the deployed files were not.",
+  "detection": "version sweep after governance: CUR-03..08 read v1.0 with no repair_run_id while the run manifest recorded v1.1 artifact sha256s.",
+  "repair": "Stage A stage-2 re-run re-stamped + re-deployed CUR-03..08 from the intact staged bodies (byte-deterministic: the re-deployed artifact sha256s EQUAL the receipts of record, verified for all 13 recorded artifacts); add-artifact correctly refused duplicates (no-duplicate law) so the manifest needed no change; CUR qa receipts refreshed x6; library re-swept 95/95 at 0 errors / 0 warnings; validate-manifest qa_passed true.",
+  "law filed": "docs/LESSONS_REGISTER.md earned-lessons #11: scope restores to the artifacts a stage owns; never git-checkout the whole artifacts/ tree mid-run."
+}

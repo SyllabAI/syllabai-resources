@@ -1,0 +1,55 @@
+{
+  "SRC-SPEC-4CH1": {
+    "files": [
+      {
+        "path_suffix": "Official-Specifications/igcse-chemistry/international-gcse-chemistry-2017-specification.pdf",
+        "pdf_pages": [
+          3,
+          13,
+          14,
+          15,
+          35
+        ]
+      }
+    ]
+  },
+  "SRC-GRAPH-4CH1": {
+    "files": [
+      {
+        "path_suffix": "graph/igcse-chemistry/specification_points.yaml",
+        "md_query": "^  (applicability:|    papers:|    double_award_shared:|    rule: )"
+      },
+      {
+        "path_suffix": "graph/igcse-chemistry/assessment_objectives.yaml",
+        "md_query": "^(- code: |  title: |  weighting_overall: |  weighting_by_paper: |    ao1: |    ao2: |    ao3: )"
+      },
+      {
+        "path_suffix": "graph/igcse-chemistry/practicals.yaml",
+        "md_query": "^(- code: |  title: |  topic_ref:)"
+      }
+    ]
+  },
+  "SRC-SAMS-4CH1": {
+    "files": [
+      {
+        "path_suffix": "Official-Specifications/igcse-chemistry/international-gcse-Chemistry-2017-SAM.pdf",
+        "pdf_pages": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "SRC-TL-4CH1": {
+    "files": [
+      {
+        "path_suffix": "Official-Specifications/igcse-chemistry/teaching-and-learning-materials/gstt-int-gcse-chemistry.pdf",
+        "pdf_pages": [
+          3,
+          4
+        ]
+      }
+    ]
+  }
+}

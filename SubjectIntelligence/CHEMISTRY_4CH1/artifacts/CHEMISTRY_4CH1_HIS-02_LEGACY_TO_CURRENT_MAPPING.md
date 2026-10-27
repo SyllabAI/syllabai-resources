@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: HIS-02
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-LEGACY-SPEC-4CH0"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-007"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "4920c4640615c14a7c769c875bb87b40b361f0c2"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # HIS-02 — Legacy → Current Mapping
@@ -196,6 +196,61 @@ from any topic area across the specification." (SRC-SPEC-4CH1,
 international-gcse-chemistry-2017-specification.pdf p33). Legacy statements are
 LEGACY — HISTORICAL; the current rule is CURRENT — AUTHORITATIVE.
 Temporal scope: CURRENT — AUTHORITATIVE.
+
+### HIS-047 — The separation-techniques demand grammar is examiner-documented at mid-era
+
+**Claim:** the legacy ER documents exactly the separation-techniques demand grammar
+that the current qualification's topic-1 content carries: candidates were expected to
+choose the best separation method for a stated mixture, and the examiners recorded
+both the chromatography misuse and the simple-versus-fractional distillation
+confusion. **Evidence:** the June 2013 Paper 2C report records that the opening
+question "about separation techniques produced mixed responses, with even some of the
+more able students thinking that using paper chromatography would extract the red dye
+from a sample of rose petals", and on distillation that "Although this method would
+produce a separation, it is not as good as fractional distillation, and the question
+called for the best method of separation to be given" (SRC-ER-4CH0-LEGACY,
+2013-06/4CH0-2C/er.pdf p3). Temporal scope: LEGACY — HISTORICAL. The mapping of these
+techniques into the current qualification is the finding of record of HIS-007 and
+HIS-011; this record adds the examiner-side witness that the demand was
+method-selection under best-method wording, not merely technique recognition.
+### HIS-048 — The ionic half-equation demand is examiner-documented at the era's end
+
+**Claim:** the final legacy session in the pack documents the ionic half-equation
+demand in electrolysis contexts, with the examiners recording specific wrong-answer
+forms — the same demand class the current spine carries. **Evidence:** the January
+2019 Paper 2C report states "Providing a correct ionic half-equation in part (b)
+proved to be difficult for very many candidates. A wide range of incorrect answers
+were seen with common examples being Mg2+ + 2e- 2Mg and Mg+ + e- Mg"
+(SRC-ER-4CH0-LEGACY, 2019-01/4CH0-2C/er.pdf p5). Temporal scope: LEGACY —
+HISTORICAL. The wrong-answer forms the examiners preserved (electron
+coefficient direction and charge balancing) are exactly the failure modes a current
+learner must avoid on the corresponding current content, which is why the report's
+own wrong-answer census remains instructive as technique.
+### HIS-049 — The bond-energy calculation demand is examiner-documented with sign discipline
+
+**Claim:** the legacy ER documents bond-energy calculations as a scored demand with
+explicit sign discipline: two thirds of candidates reached full marks and the
+recorded last-mark loss was the missing negative sign. **Evidence:** the Summer 2014
+Paper 2CR report records "Nearly two thirds were able to obtain full marks for the
+bond energy calculations in (c), although some failed to obtain the last mark by not
+including the negative sign" (SRC-ER-4CH0-LEGACY, 2014-06/4CH0-2CR/er.pdf p5).
+Temporal scope: LEGACY — HISTORICAL. The demand (bond-energy arithmetic with a
+signed result) is carried into the current qualification's energetics content per
+the mapping records of this artifact; the examiner note adds the marking detail that
+the sign is not cosmetic but mark-bearing.
+### HIS-050 — Precision of answer at paper end is examiner-stated as a marking law
+
+**Claim:** the legacy examiners state a precision law for identification items late
+in the paper: near the end, similar names are not interchangeable, with iodine versus
+iodide as the recorded example. **Evidence:** the Summer 2012 Paper 1C report states
+"Candidates need to be aware that, particularly towards the end of the paper, a high
+level of precision of answer is required. Hence 'iodine' is not an acceptable
+alternative to 'iodide'" (SRC-ER-4CH0-LEGACY, 2012-06/4CH0-1C/er.pdf p7). Temporal
+scope: LEGACY — HISTORICAL. This is examiner-side evidence for the
+terminology-precision discipline HIS-024 established from the specification side,
+and it locates the discipline in the paper's difficulty gradient (precision
+expectations rise with question position), which is itself technique-relevant to
+any learner working legacy papers for practice.
 
 ## Evidence / Source Basis
 

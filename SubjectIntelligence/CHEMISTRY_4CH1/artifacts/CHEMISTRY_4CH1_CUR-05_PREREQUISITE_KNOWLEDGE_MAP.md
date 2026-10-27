@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: CUR-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-25
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-002"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "4bae2886d123d0f597c0091dbe0c6d9f9acdb44d"
-    syllabai_resources: "ebe914b10cf938fa5c219f73881ae853922eef8a"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # CUR-05 — Prerequisite Knowledge Map
@@ -78,7 +78,7 @@ not hidden.
   point_edges.cross_topic_point_edges).
 - The store's direction contract is V2-native: `from` requires, `to` is the
   prerequisite — exemplified by p:1.19 REQUIRES_PREREQUISITE p:1.18 (electronic
-  configurations require Periodic Table arrangement) (SRC-GRAPH-4CH1, lines 32-46).
+  configurations require Periodic Table arrangement) (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 32-46).
 - Concept-grain prerequisite edges (209 of record, CUR-04) are a denser, partially
   AI-suggested layer above this fully-ratified statement-grain spine; the two layers
   agree in direction law but differ in validation tier.
@@ -91,11 +91,9 @@ The point-edge store is small, ratified and contract-bound: 35 edges, each carry
 validation_status OPERATOR_RATIFIED and confidence 1.0 (RUN-COMPUTED: census.json,
 point_edges.validation_distribution); every in-pack edge window shows the same
 record shape (from, relation, to, kg_direction, validation_status, confidence,
-version) (SRC-GRAPH-4CH1, lines 32-46; SRC-GRAPH-4CH1, lines 752-766). The meta
+version) (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 32-46); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 752-766). The meta
 block declares the direction contract: "REQUIRES_PREREQUISITE rows are V2-native:
-from REQUIRES to (to is the prerequisite). The kg exporter maps them to the
-canonicalKG 'pre' contract by flipping: golden [to, from, 'pre']. RELATED_TO rows are
-stored verbatim and exported 1:1" (SRC-GRAPH-4CH1, lines 32-46 context; store meta).
+from REQUIRES to (to is the prerequisite). The kg exporter maps them to the canonicalKG ''pre'' contract by flipping: golden [to, from, ''pre'']. RELATED_TO rows are stored verbatim and exported 1:1 as [from, to, ''rel'']."  (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 8-22) — context; store meta.
 Consumers must therefore read p:A REQUIRES_PREREQUISITE p:B as "A requires B" — and
 note that the canonical KG export flips the pair, so any cross-plane join must apply
 the documented flip rather than raw field equality. This is the only store in the
@@ -106,22 +104,17 @@ sequencing claims.
 
 S1 carries 11 of the 30 prerequisite edges (RUN-COMPUTED: census.json,
 point_edges.relation_distribution) — with in-pack windows lines 32-286
-(SRC-GRAPH-4CH1, lines 32-46). Three chains
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 32-46). Three chains
 structure the topic. First, the Periodic-Table spine: 1.19 (deduce electronic
 configurations of the first 20 elements from Periodic Table position) requires 1.18
-(how elements are arranged in the Periodic Table) (SRC-GRAPH-4CH1, lines 32-46;
-SRC-GRAPH-4CH1, lines 436-450; SRC-GRAPH-4CH1, lines 481-495), and 1.22 (electronic
-configuration relates to position) requires 1.19 (SRC-GRAPH-4CH1, lines 56-70;
-SRC-GRAPH-4CH1, lines 654-668) — a three-step chain ending at statement 1.18. Second,
+(how elements are arranged in the Periodic Table) (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 32-46); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 436-450); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 481-495), and 1.22 (electronic
+configuration relates to position) requires 1.19 (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 56-70); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 654-668) — a three-step chain ending at statement 1.18. Second,
 the mole chain: 1.28 (calculations involving amount of substance, Ar, Mr) requires
 both 1.25 (equations) and 1.27 (the mole), and 1.29 requires 1.28
-(SRC-GRAPH-4CH1, lines 80-94; SRC-GRAPH-4CH1, lines 104-118; SRC-GRAPH-4CH1,
-lines 128-142; SRC-GRAPH-4CH1, lines 915-929). Third, the bonding lattice: 1.42 and
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 80-94); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 104-118); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 128-142); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 915-929). Third, the bonding lattice: 1.42 and
 1.43 each require 1.41 (ionic bonding), 1.46 requires 1.44 (covalent bonding), 1.47
-requires 1.45, with 1.39 requiring 1.37 upstream (SRC-GRAPH-4CH1, lines 152-166;
-SRC-GRAPH-4CH1, lines 176-190; SRC-GRAPH-4CH1, lines 200-214; SRC-GRAPH-4CH1,
-lines 224-238; SRC-GRAPH-4CH1, lines 248-262). The electrolysis pair closes the
-topic: 1.58C requires 1.57C (SRC-GRAPH-4CH1, lines 272-286). The teaching-order
+requires 1.45, with 1.39 requiring 1.37 upstream (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 152-166); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 176-190); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 200-214); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 224-238); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 248-262). The electrolysis pair closes the
+topic: 1.58C requires 1.57C (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 272-286). The teaching-order
 consequence is direct: no learner meets 1.42/1.43 profitably before 1.41, and the
 entire calculation strand hangs from the 1.25/1.27 double root.
 
@@ -130,14 +123,13 @@ entire calculation strand hangs from the 1.25/1.27 double root.
 S2 carries 5 prerequisite edges (in-pack windows lines 296-430). The reactivity
 chain: both 2.17 (Group 7 displacement reactions) and 2.20 (oxidation-reduction in
 terms of electron transfer) require 2.15 (the reactivity series context)
-(SRC-GRAPH-4CH1, lines 296-310; SRC-GRAPH-4CH1, lines 320-334). The acid-base chain
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 296-310); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 320-334). The acid-base chain
 runs 2.31 → 2.29, then 2.32 requires 2.31: the solution-ionisation statement (2.31,
 "know that acids in aqueous solution are a source of hydrogen ions and alkalis in a
 aqueous solution are a source of hydroxide ions", verbatim including the
 specification's own article typo) is itself downstream of 2.29 and upstream of the
-neutralisation frame (SRC-GRAPH-4CH1, lines 344-358; SRC-GRAPH-4CH1, lines 392-406;
-SRC-GRAPH-4CH1, lines 3659-3673). The salt-preparation edge 2.36 → 2.35 completes
-the topic (SRC-GRAPH-4CH1, lines 368-382). Downstream consequence: the acid-base
+neutralisation frame (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 344-358); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 392-406); (SRC-GRAPH-4CH1, graph/igcse-chemistry/specification_points.yaml lines 3659-3673). The salt-preparation edge 2.36 → 2.35 completes
+the topic (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 368-382). Downstream consequence: the acid-base
 spine is a strict linear order (2.29 → 2.31 → 2.32), so diagnostic failures at 2.31
 propagate to every neutralisation demand later in the course.
 
@@ -146,10 +138,8 @@ propagate to every neutralisation demand later in the course.
 S3 carries 5 prerequisite edges (in-pack windows lines 416-526). Energetics: 3.5C
 (energy level diagrams) requires 3.1 (the exothermic/endothermic classification), and
 3.7C (bond-energy calculations) requires 3.6C (bond-breaking endothermic /
-bond-making exothermic) (SRC-GRAPH-4CH1, lines 416-430; SRC-GRAPH-4CH1, lines
-440-454). Rates: 3.11 requires 3.9 (SRC-GRAPH-4CH1, lines 464-478). Equilibria: 3.14C
-requires 3.13, and the C-suffixed pair 3.20C requires 3.19C (SRC-GRAPH-4CH1, lines
-488-502; SRC-GRAPH-4CH1, lines 512-526). Note the tier pattern: both energetics
+bond-making exothermic) (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 416-430); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 440-454). Rates: 3.11 requires 3.9 (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 464-478). Equilibria: 3.14C
+requires 3.13, and the C-suffixed pair 3.20C requires 3.19C (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 488-502); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 512-526). Note the tier pattern: both energetics
 edges end in C-suffixed statements, consistent with the Paper 2 placement of deeper
 energetics work recorded at CUR-02 — the prerequisite map and the paper-content
 partition tell the same story from independent directions.
@@ -158,16 +148,13 @@ partition tell the same story from independent directions.
 
 S4 carries 9 prerequisite edges, the largest topic share (in-pack windows lines
 536-742). The industrial pair opens it: 4.8 (fractional distillation of crude oil)
-requires 4.7 (crude oil as a mixture) (SRC-GRAPH-4CH1, lines 536-550). The homologous
+requires 4.7 (crude oil as a mixture) (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 536-550). The homologous
 chains follow: 4.20 requires 4.19; 4.25 and 4.27 both require 4.23; the C-suffixed
 cluster 4.31C and 4.32C each require 4.29C; 4.36C requires 4.34C; 4.40C requires
-4.39C; and 4.46 requires 4.44 (SRC-GRAPH-4CH1, lines 560-574; SRC-GRAPH-4CH1,
-lines 584-598; SRC-GRAPH-4CH1, lines 608-622; SRC-GRAPH-4CH1, lines 632-646;
-SRC-GRAPH-4CH1, lines 656-670; SRC-GRAPH-4CH1, lines 680-694; SRC-GRAPH-4CH1,
-lines 704-718; SRC-GRAPH-4CH1, lines 728-742). Six of the nine S4 edges terminate in
+4.39C; and 4.46 requires 4.44 (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 560-574); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 584-598); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 608-622); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 632-646); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 656-670); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 680-694); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 704-718); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 728-742). Six of the nine S4 edges terminate in
 C-suffixed statements — the organic chemistry extension demand is structurally
 stacked, which is why the official topic page order (S4 spanning printed pages
-23 onward) is also a dependency order here (SRC-SPEC-4CH1, page 29).
+23 onward) is also a dependency order here (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p29).
 
 ### CUR-029 — The RELATED_TO complement and the intra-topic boundary
 
@@ -175,11 +162,10 @@ Five RELATED_TO edges complement the prerequisite spine: 1.59C ↔ 1.60C (electr
 of molten binary compounds and of aqueous solutions — the two electrolysis contexts),
 2.34 ↔ 2.37 (metals + acids with salt preparations), 3.22C ↔ 3.21C, 4.8 ↔ 4.9
 (fractional distillation with the fractions and their uses), 4.27 ↔ 4.28
-(SRC-GRAPH-4CH1, lines 752-766; SRC-GRAPH-4CH1, lines 776-790; SRC-GRAPH-4CH1,
-lines 800-814; SRC-GRAPH-4CH1, lines 824-838; SRC-GRAPH-4CH1, lines 848-862).
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 752-766); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 776-790); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 800-814); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 824-838); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 848-862).
 RELATED_TO rows are stored verbatim and exported 1:1 per the direction contract —
 they are associations, not orderings, and must never be compiled into teaching
-sequence (store meta law; SRC-GRAPH-4CH1, lines 32-46). The boundary finding of
+sequence (store meta law; SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 8-22). The boundary finding of
 record: zero of the 35 point edges cross topic boundaries (RUN-COMPUTED: census.json,
 point_edges.cross_topic_point_edges) — at the official statement grain, the ratified
 dependency structure of 4CH1 is entirely intra-topic. Cross-topic connectivity that
@@ -193,8 +179,7 @@ Three rules govern any consumer of this map. First, direction: sequence must flo
 from prerequisite to dependent — teaching order within S1's bonding subtopic is 1.41
 before 1.42/1.43, within S2's acids subtopic 2.29 before 2.31 before 2.32, and the
 canonical-KG export's flipped pairs must be un-flipped before use
-(SRC-GRAPH-4CH1, lines 32-46; SRC-GRAPH-4CH1, lines 176-190; SRC-GRAPH-4CH1,
-lines 392-406). Second, tier discipline: the 35 point edges are all
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 32-46); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 176-190); (SRC-GRAPH-4CH1, graph/igcse-chemistry/point_edges.yaml lines 392-406). Second, tier discipline: the 35 point edges are all
 OPERATOR_RATIFIED and are the dependable spine; concept-grain REQUIRES_PREREQUISITE
 edges (CUR-04, 209 of record at mixed validation tiers) may enrich but not override
 the ratified spine (RUN-COMPUTED: census.json, point_edges.validation_distribution;

@@ -1,0 +1,267 @@
+{
+  "schema": "sib-run-manifest/1.0",
+  "program": "SIB-GEN",
+  "run_id": "SIB-CHEMISTRY_4CH1-RUN-015",
+  "library": "CHEMISTRY_4CH1",
+  "provider": {
+    "provider": "z.ai",
+    "model": "GLM",
+    "agent_version": "SIB-GEN-r0"
+  },
+  "source_revisions": {
+    "syllabai_resources": "d9c944362529a1ef4db481a349a0f33f1f6daf31",
+    "syllabai_pastpapers": "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007",
+    "syllabai": "357ace0a230f5e0095ad230320af587dca6bb71f"
+  },
+  "preflight": {},
+  "artifacts": [
+    {
+      "artifact_id": "CUR-03",
+      "filename": "CHEMISTRY_4CH1_CUR-03_CONCEPT_TAXONOMY.md",
+      "evidence_pack": "evidence/CUR-03/evidence_pack.json",
+      "evidence_pack_sha256": "ab5d9cc85ccbc3318af1ef581b0272c960947a0b0141b2e75e29ca25463b6654",
+      "artifact_sha256": "0e767e9ff1a123ff988744c2c5b754e13c7d56539d4ecbd1ee70b6d0f39e8957",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface — legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED (stronger than the RUN-012..014 6/17 state); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-014 clean state)",
+        "evidence_claim_qa": "PASS (r4: 51 citations / 0 violations; grounding pack carried byte-identical from SIB-CHEMISTRY_4CH1-RUN-002 (CUR-05/CUR-06 re-spec'd in-run, RUN-007 precedent))",
+        "citation_grammar": "PASS (the 131-token pathless debt in CUR-03..08 — library register item filed by RUN-014 — fully repaired to the r4 binding grammar: pack file paths inserted per covering pack excerpt locators, semicolon-joined multi-citations split one-per-paren, 'page N' -> 'pN', prose hedges moved out of the citation parens, chained 'through' connector dropped; sources/pages/line-ranges/prose preserved in substance; citation tokens byte-identical in substance pre/post)",
+        "quote_binding": "PASS (first-time r1 quote-binding gating of the CUR family exposed, across two gating rounds, 10 quote-binding violations + 2 prose-paren hidden pathless citation forms — 11 verbatim-verified quote repairs + 2 hidden-form repairs: 2 paraphrase-in-quotes restored to the store's wording (CUR-07 Describe/Evaluate), 1 MCQ quote split into the store's own command-word + definition strings (CUR-07), 2 injected-comma quotes restored to the SAMs p1 cover text (CUR-08), 1 ellipsis-truncated quote extended to the verbatim full note (CUR-04), 1 direction-contract quote extended to the verbatim close + ''-escaped per the YAML source + re-pointed to the true meta window (CUR-05), 1 false excerpt-cap narrative removed (CUR-042), 1 nested single-quote restored to the source's own curly quoting (CUR-049), 1 policy-wording phrase de-quoted with attribution retained (CUR-050); per-record adjudication in citation_repair_receipt.json)",
+        "pack_respec": "DISCLOSED (CUR-06 x3 + CUR-05 x1: point_edges/concepts md_query extensions -> windows 152-166 / 2779-2793 / 3597-3611 (CUR-06) and the direction-contract meta window 8-22 (CUR-05) resolvable; surgical append byte-built per _md_locate rules from the sha-pinned graph files; full-rebuild path proven surface-unstable (select_sources would swap BOOK->LEGACY-SPEC); diff vs the RUN-002 packs = exactly the added excerpts, zero drift elsewhere; 4 CUR-08 multi-cover ranges content-adjudicated: 51-65/93-107/141-155 -> specification_points.yaml (statement applicability metadata), 86-100 -> practicals.yaml (PR-03 row anatomy))",
+        "gap_confirm": "PASS (GAP-01..08 re-gated confirm-only: 120 citations / 0 violations — the RUN-014 register note's GAP mention retired; zero GAP edits)",
+        "remediation_scope": "PASS (citation-grammar locator FORMAT + disclosed pack re-specs + verbatim-verified quote repairs; zero new claims)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "CUR-04",
+      "filename": "CHEMISTRY_4CH1_CUR-04_CONCEPT_RELATIONSHIPS.md",
+      "evidence_pack": "evidence/CUR-04/evidence_pack.json",
+      "evidence_pack_sha256": "247facb23ec981d83946602a83b2672a9b9dcd0db73e9d08f7fd286441a24dd0",
+      "artifact_sha256": "ad383ebc9e00bb79aa2454f08e5ab967d82b6d3eab9647e38c7bccb6f23cacf0",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface — legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED (stronger than the RUN-012..014 6/17 state); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-014 clean state)",
+        "evidence_claim_qa": "PASS (r4: 12 citations / 0 violations; grounding pack carried byte-identical from SIB-CHEMISTRY_4CH1-RUN-002 (CUR-05/CUR-06 re-spec'd in-run, RUN-007 precedent))",
+        "citation_grammar": "PASS (the 131-token pathless debt in CUR-03..08 — library register item filed by RUN-014 — fully repaired to the r4 binding grammar: pack file paths inserted per covering pack excerpt locators, semicolon-joined multi-citations split one-per-paren, 'page N' -> 'pN', prose hedges moved out of the citation parens, chained 'through' connector dropped; sources/pages/line-ranges/prose preserved in substance; citation tokens byte-identical in substance pre/post)",
+        "quote_binding": "PASS (first-time r1 quote-binding gating of the CUR family exposed, across two gating rounds, 10 quote-binding violations + 2 prose-paren hidden pathless citation forms — 11 verbatim-verified quote repairs + 2 hidden-form repairs: 2 paraphrase-in-quotes restored to the store's wording (CUR-07 Describe/Evaluate), 1 MCQ quote split into the store's own command-word + definition strings (CUR-07), 2 injected-comma quotes restored to the SAMs p1 cover text (CUR-08), 1 ellipsis-truncated quote extended to the verbatim full note (CUR-04), 1 direction-contract quote extended to the verbatim close + ''-escaped per the YAML source + re-pointed to the true meta window (CUR-05), 1 false excerpt-cap narrative removed (CUR-042), 1 nested single-quote restored to the source's own curly quoting (CUR-049), 1 policy-wording phrase de-quoted with attribution retained (CUR-050); per-record adjudication in citation_repair_receipt.json)",
+        "pack_respec": "DISCLOSED (CUR-06 x3 + CUR-05 x1: point_edges/concepts md_query extensions -> windows 152-166 / 2779-2793 / 3597-3611 (CUR-06) and the direction-contract meta window 8-22 (CUR-05) resolvable; surgical append byte-built per _md_locate rules from the sha-pinned graph files; full-rebuild path proven surface-unstable (select_sources would swap BOOK->LEGACY-SPEC); diff vs the RUN-002 packs = exactly the added excerpts, zero drift elsewhere; 4 CUR-08 multi-cover ranges content-adjudicated: 51-65/93-107/141-155 -> specification_points.yaml (statement applicability metadata), 86-100 -> practicals.yaml (PR-03 row anatomy))",
+        "gap_confirm": "PASS (GAP-01..08 re-gated confirm-only: 120 citations / 0 violations — the RUN-014 register note's GAP mention retired; zero GAP edits)",
+        "remediation_scope": "PASS (citation-grammar locator FORMAT + disclosed pack re-specs + verbatim-verified quote repairs; zero new claims)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "CUR-05",
+      "filename": "CHEMISTRY_4CH1_CUR-05_PREREQUISITE_KNOWLEDGE_MAP.md",
+      "evidence_pack": "evidence/CUR-05/evidence_pack.json",
+      "evidence_pack_sha256": "ee6c9afc3477b34b274007b75fd8332a477caab7be3c1cd83ead3f6ba2f38437",
+      "artifact_sha256": "008170a3bd986ab2069a1fe02deb82449e552032b55c1ef5ea5fc2a25068f304",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface — legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED (stronger than the RUN-012..014 6/17 state); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-014 clean state)",
+        "evidence_claim_qa": "PASS (r4: 48 citations / 0 violations; grounding pack carried byte-identical from SIB-CHEMISTRY_4CH1-RUN-002 (CUR-05/CUR-06 re-spec'd in-run, RUN-007 precedent))",
+        "citation_grammar": "PASS (the 131-token pathless debt in CUR-03..08 — library register item filed by RUN-014 — fully repaired to the r4 binding grammar: pack file paths inserted per covering pack excerpt locators, semicolon-joined multi-citations split one-per-paren, 'page N' -> 'pN', prose hedges moved out of the citation parens, chained 'through' connector dropped; sources/pages/line-ranges/prose preserved in substance; citation tokens byte-identical in substance pre/post)",
+        "quote_binding": "PASS (first-time r1 quote-binding gating of the CUR family exposed, across two gating rounds, 10 quote-binding violations + 2 prose-paren hidden pathless citation forms — 11 verbatim-verified quote repairs + 2 hidden-form repairs: 2 paraphrase-in-quotes restored to the store's wording (CUR-07 Describe/Evaluate), 1 MCQ quote split into the store's own command-word + definition strings (CUR-07), 2 injected-comma quotes restored to the SAMs p1 cover text (CUR-08), 1 ellipsis-truncated quote extended to the verbatim full note (CUR-04), 1 direction-contract quote extended to the verbatim close + ''-escaped per the YAML source + re-pointed to the true meta window (CUR-05), 1 false excerpt-cap narrative removed (CUR-042), 1 nested single-quote restored to the source's own curly quoting (CUR-049), 1 policy-wording phrase de-quoted with attribution retained (CUR-050); per-record adjudication in citation_repair_receipt.json)",
+        "pack_respec": "DISCLOSED (CUR-06 x3 + CUR-05 x1: point_edges/concepts md_query extensions -> windows 152-166 / 2779-2793 / 3597-3611 (CUR-06) and the direction-contract meta window 8-22 (CUR-05) resolvable; surgical append byte-built per _md_locate rules from the sha-pinned graph files; full-rebuild path proven surface-unstable (select_sources would swap BOOK->LEGACY-SPEC); diff vs the RUN-002 packs = exactly the added excerpts, zero drift elsewhere; 4 CUR-08 multi-cover ranges content-adjudicated: 51-65/93-107/141-155 -> specification_points.yaml (statement applicability metadata), 86-100 -> practicals.yaml (PR-03 row anatomy))",
+        "gap_confirm": "PASS (GAP-01..08 re-gated confirm-only: 120 citations / 0 violations — the RUN-014 register note's GAP mention retired; zero GAP edits)",
+        "remediation_scope": "PASS (citation-grammar locator FORMAT + disclosed pack re-specs + verbatim-verified quote repairs; zero new claims)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "CUR-06",
+      "filename": "CHEMISTRY_4CH1_CUR-06_CROSS_TOPIC_CONNECTIONS.md",
+      "evidence_pack": "evidence/CUR-06/evidence_pack.json",
+      "evidence_pack_sha256": "10a4fbe8eccc1c15255cc7f66a99b6a2b10ecdffeeee576360495f5ffd7cb529",
+      "artifact_sha256": "68d9bd5f1a082bf370175dd85d9e97b8b0de1ae7d59e94cc61901235ee439d12",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface — legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED (stronger than the RUN-012..014 6/17 state); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-014 clean state)",
+        "evidence_claim_qa": "PASS (r4: 44 citations / 0 violations; grounding pack carried byte-identical from SIB-CHEMISTRY_4CH1-RUN-002 (CUR-05/CUR-06 re-spec'd in-run, RUN-007 precedent))",
+        "citation_grammar": "PASS (the 131-token pathless debt in CUR-03..08 — library register item filed by RUN-014 — fully repaired to the r4 binding grammar: pack file paths inserted per covering pack excerpt locators, semicolon-joined multi-citations split one-per-paren, 'page N' -> 'pN', prose hedges moved out of the citation parens, chained 'through' connector dropped; sources/pages/line-ranges/prose preserved in substance; citation tokens byte-identical in substance pre/post)",
+        "quote_binding": "PASS (first-time r1 quote-binding gating of the CUR family exposed, across two gating rounds, 10 quote-binding violations + 2 prose-paren hidden pathless citation forms — 11 verbatim-verified quote repairs + 2 hidden-form repairs: 2 paraphrase-in-quotes restored to the store's wording (CUR-07 Describe/Evaluate), 1 MCQ quote split into the store's own command-word + definition strings (CUR-07), 2 injected-comma quotes restored to the SAMs p1 cover text (CUR-08), 1 ellipsis-truncated quote extended to the verbatim full note (CUR-04), 1 direction-contract quote extended to the verbatim close + ''-escaped per the YAML source + re-pointed to the true meta window (CUR-05), 1 false excerpt-cap narrative removed (CUR-042), 1 nested single-quote restored to the source's own curly quoting (CUR-049), 1 policy-wording phrase de-quoted with attribution retained (CUR-050); per-record adjudication in citation_repair_receipt.json)",
+        "pack_respec": "DISCLOSED (CUR-06 x3 + CUR-05 x1: point_edges/concepts md_query extensions -> windows 152-166 / 2779-2793 / 3597-3611 (CUR-06) and the direction-contract meta window 8-22 (CUR-05) resolvable; surgical append byte-built per _md_locate rules from the sha-pinned graph files; full-rebuild path proven surface-unstable (select_sources would swap BOOK->LEGACY-SPEC); diff vs the RUN-002 packs = exactly the added excerpts, zero drift elsewhere; 4 CUR-08 multi-cover ranges content-adjudicated: 51-65/93-107/141-155 -> specification_points.yaml (statement applicability metadata), 86-100 -> practicals.yaml (PR-03 row anatomy))",
+        "gap_confirm": "PASS (GAP-01..08 re-gated confirm-only: 120 citations / 0 violations — the RUN-014 register note's GAP mention retired; zero GAP edits)",
+        "remediation_scope": "PASS (citation-grammar locator FORMAT + disclosed pack re-specs + verbatim-verified quote repairs; zero new claims)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "CUR-07",
+      "filename": "CHEMISTRY_4CH1_CUR-07_TERMINOLOGY_DEFINITIONS.md",
+      "evidence_pack": "evidence/CUR-07/evidence_pack.json",
+      "evidence_pack_sha256": "cd50878d87c45e2486b4bc2b1c06ea988da7826b55a7c587387a8bc33fda9e7e",
+      "artifact_sha256": "c39c5eefc62b70afc3da92c53416fe83407b749bab9a79da0dc863cc9c599bec",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface — legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED (stronger than the RUN-012..014 6/17 state); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-014 clean state)",
+        "evidence_claim_qa": "PASS (r4: 30 citations / 0 violations; grounding pack carried byte-identical from SIB-CHEMISTRY_4CH1-RUN-002 (CUR-05/CUR-06 re-spec'd in-run, RUN-007 precedent))",
+        "citation_grammar": "PASS (the 131-token pathless debt in CUR-03..08 — library register item filed by RUN-014 — fully repaired to the r4 binding grammar: pack file paths inserted per covering pack excerpt locators, semicolon-joined multi-citations split one-per-paren, 'page N' -> 'pN', prose hedges moved out of the citation parens, chained 'through' connector dropped; sources/pages/line-ranges/prose preserved in substance; citation tokens byte-identical in substance pre/post)",
+        "quote_binding": "PASS (first-time r1 quote-binding gating of the CUR family exposed, across two gating rounds, 10 quote-binding violations + 2 prose-paren hidden pathless citation forms — 11 verbatim-verified quote repairs + 2 hidden-form repairs: 2 paraphrase-in-quotes restored to the store's wording (CUR-07 Describe/Evaluate), 1 MCQ quote split into the store's own command-word + definition strings (CUR-07), 2 injected-comma quotes restored to the SAMs p1 cover text (CUR-08), 1 ellipsis-truncated quote extended to the verbatim full note (CUR-04), 1 direction-contract quote extended to the verbatim close + ''-escaped per the YAML source + re-pointed to the true meta window (CUR-05), 1 false excerpt-cap narrative removed (CUR-042), 1 nested single-quote restored to the source's own curly quoting (CUR-049), 1 policy-wording phrase de-quoted with attribution retained (CUR-050); per-record adjudication in citation_repair_receipt.json)",
+        "pack_respec": "DISCLOSED (CUR-06 x3 + CUR-05 x1: point_edges/concepts md_query extensions -> windows 152-166 / 2779-2793 / 3597-3611 (CUR-06) and the direction-contract meta window 8-22 (CUR-05) resolvable; surgical append byte-built per _md_locate rules from the sha-pinned graph files; full-rebuild path proven surface-unstable (select_sources would swap BOOK->LEGACY-SPEC); diff vs the RUN-002 packs = exactly the added excerpts, zero drift elsewhere; 4 CUR-08 multi-cover ranges content-adjudicated: 51-65/93-107/141-155 -> specification_points.yaml (statement applicability metadata), 86-100 -> practicals.yaml (PR-03 row anatomy))",
+        "gap_confirm": "PASS (GAP-01..08 re-gated confirm-only: 120 citations / 0 violations — the RUN-014 register note's GAP mention retired; zero GAP edits)",
+        "remediation_scope": "PASS (citation-grammar locator FORMAT + disclosed pack re-specs + verbatim-verified quote repairs; zero new claims)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "CUR-08",
+      "filename": "CHEMISTRY_4CH1_CUR-08_CURRICULUM_BOUNDARIES.md",
+      "evidence_pack": "evidence/CUR-08/evidence_pack.json",
+      "evidence_pack_sha256": "6068a87627e61367612acdb36f914ccfdda90cb907a23719ab34530ba86e4f97",
+      "artifact_sha256": "b18db37754f9f3325a956b343101064ce43bd7d02ff854af7b7b608d141e1812",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface — legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED (stronger than the RUN-012..014 6/17 state); 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings — holds the RUN-014 clean state)",
+        "evidence_claim_qa": "PASS (r4: 25 citations / 0 violations; grounding pack carried byte-identical from SIB-CHEMISTRY_4CH1-RUN-002 (CUR-05/CUR-06 re-spec'd in-run, RUN-007 precedent))",
+        "citation_grammar": "PASS (the 131-token pathless debt in CUR-03..08 — library register item filed by RUN-014 — fully repaired to the r4 binding grammar: pack file paths inserted per covering pack excerpt locators, semicolon-joined multi-citations split one-per-paren, 'page N' -> 'pN', prose hedges moved out of the citation parens, chained 'through' connector dropped; sources/pages/line-ranges/prose preserved in substance; citation tokens byte-identical in substance pre/post)",
+        "quote_binding": "PASS (first-time r1 quote-binding gating of the CUR family exposed, across two gating rounds, 10 quote-binding violations + 2 prose-paren hidden pathless citation forms — 11 verbatim-verified quote repairs + 2 hidden-form repairs: 2 paraphrase-in-quotes restored to the store's wording (CUR-07 Describe/Evaluate), 1 MCQ quote split into the store's own command-word + definition strings (CUR-07), 2 injected-comma quotes restored to the SAMs p1 cover text (CUR-08), 1 ellipsis-truncated quote extended to the verbatim full note (CUR-04), 1 direction-contract quote extended to the verbatim close + ''-escaped per the YAML source + re-pointed to the true meta window (CUR-05), 1 false excerpt-cap narrative removed (CUR-042), 1 nested single-quote restored to the source's own curly quoting (CUR-049), 1 policy-wording phrase de-quoted with attribution retained (CUR-050); per-record adjudication in citation_repair_receipt.json)",
+        "pack_respec": "DISCLOSED (CUR-06 x3 + CUR-05 x1: point_edges/concepts md_query extensions -> windows 152-166 / 2779-2793 / 3597-3611 (CUR-06) and the direction-contract meta window 8-22 (CUR-05) resolvable; surgical append byte-built per _md_locate rules from the sha-pinned graph files; full-rebuild path proven surface-unstable (select_sources would swap BOOK->LEGACY-SPEC); diff vs the RUN-002 packs = exactly the added excerpts, zero drift elsewhere; 4 CUR-08 multi-cover ranges content-adjudicated: 51-65/93-107/141-155 -> specification_points.yaml (statement applicability metadata), 86-100 -> practicals.yaml (PR-03 row anatomy))",
+        "gap_confirm": "PASS (GAP-01..08 re-gated confirm-only: 120 citations / 0 violations — the RUN-014 register note's GAP mention retired; zero GAP edits)",
+        "remediation_scope": "PASS (citation-grammar locator FORMAT + disclosed pack re-specs + verbatim-verified quote repairs; zero new claims)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "HIS-01",
+      "filename": "CHEMISTRY_4CH1_HIS-01_SPECIFICATION_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-01/evidence_pack.json",
+      "evidence_pack_sha256": "f4aa5085797ea5cc87d55dc587330b56c935bf845ec8841372090200631184fa",
+      "artifact_sha256": "6b87e717657249b61d4e70b3c36551e27463df2a4f027c31a96036da6e5c06b1",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface; legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED live; 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (r4: 20 citations / 0 violations; pack rebuilt from the RUN-007 spec with scout-verified ER window extensions; all pre-existing excerpts byte-identical, minimal-diff proven)",
+        "his_deepening": "PASS (SIB-ASSESS-r1 D3 backlog: 4 new records per artifact (HIS-043..070, 28 total; record-id continuity verified), all grounded in newly excerpted legacy examiner-report windows spanning 2011-2019 — documentary lineage (HIS-01), demand-grammar witnesses (HIS-02), assessment behaviour (HIS-03), terminology policing (HIS-04), question craft (HIS-05), pack-internal persistence pairs (HIS-06), technique relevance (HIS-07); every quote verbatim-verified against the pack excerpts; the 42 original records are unchanged",
+        "er_window_widening": "DISCLOSED (SRC-ER-4CH0-LEGACY windows widened from 1-8 pages to 5-18 pages per artifact across up to 16 sessions; pack_spec records the extended pdf_pages plans; rebuild deterministic on this surface, proven by byte-identity of every pre-existing excerpt)",
+        "remediation_scope": "PASS (additive depth only: new records + pack windows; zero edits to the 42 original records or any non-HIS artifact)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "HIS-02",
+      "filename": "CHEMISTRY_4CH1_HIS-02_LEGACY_TO_CURRENT_MAPPING.md",
+      "evidence_pack": "evidence/HIS-02/evidence_pack.json",
+      "evidence_pack_sha256": "52a7d5f0a8c01338f82eca29a8e155cc0a3c52afcffee31159d4c6808e834f2d",
+      "artifact_sha256": "11082d850e30770b19e0d856aa763710a31fbf3c064621cb88ac2e1e5db6788d",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface; legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED live; 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (r4: 18 citations / 0 violations; pack rebuilt from the RUN-007 spec with scout-verified ER window extensions; all pre-existing excerpts byte-identical, minimal-diff proven)",
+        "his_deepening": "PASS (SIB-ASSESS-r1 D3 backlog: 4 new records per artifact (HIS-043..070, 28 total; record-id continuity verified), all grounded in newly excerpted legacy examiner-report windows spanning 2011-2019 — documentary lineage (HIS-01), demand-grammar witnesses (HIS-02), assessment behaviour (HIS-03), terminology policing (HIS-04), question craft (HIS-05), pack-internal persistence pairs (HIS-06), technique relevance (HIS-07); every quote verbatim-verified against the pack excerpts; the 42 original records are unchanged",
+        "er_window_widening": "DISCLOSED (SRC-ER-4CH0-LEGACY windows widened from 1-8 pages to 5-18 pages per artifact across up to 16 sessions; pack_spec records the extended pdf_pages plans; rebuild deterministic on this surface, proven by byte-identity of every pre-existing excerpt)",
+        "remediation_scope": "PASS (additive depth only: new records + pack windows; zero edits to the 42 original records or any non-HIS artifact)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "HIS-03",
+      "filename": "CHEMISTRY_4CH1_HIS-03_ASSESSMENT_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-03/evidence_pack.json",
+      "evidence_pack_sha256": "009a40c45a24ad7dd545cf796ff90ad112ee197425e469caaca8497850c9642f",
+      "artifact_sha256": "01a8801f03ec8c32ca646557c86dbda22b9e2ff3fb6d9d95df477b33647a3714",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface; legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED live; 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (r4: 19 citations / 0 violations; pack rebuilt from the RUN-007 spec with scout-verified ER window extensions; all pre-existing excerpts byte-identical, minimal-diff proven)",
+        "his_deepening": "PASS (SIB-ASSESS-r1 D3 backlog: 4 new records per artifact (HIS-043..070, 28 total; record-id continuity verified), all grounded in newly excerpted legacy examiner-report windows spanning 2011-2019 — documentary lineage (HIS-01), demand-grammar witnesses (HIS-02), assessment behaviour (HIS-03), terminology policing (HIS-04), question craft (HIS-05), pack-internal persistence pairs (HIS-06), technique relevance (HIS-07); every quote verbatim-verified against the pack excerpts; the 42 original records are unchanged",
+        "er_window_widening": "DISCLOSED (SRC-ER-4CH0-LEGACY windows widened from 1-8 pages to 5-18 pages per artifact across up to 16 sessions; pack_spec records the extended pdf_pages plans; rebuild deterministic on this surface, proven by byte-identity of every pre-existing excerpt)",
+        "remediation_scope": "PASS (additive depth only: new records + pack windows; zero edits to the 42 original records or any non-HIS artifact)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "HIS-04",
+      "filename": "CHEMISTRY_4CH1_HIS-04_TERMINOLOGY_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-04/evidence_pack.json",
+      "evidence_pack_sha256": "dc53b85dc3fc5cdcafa0303799a22a273d2b9a8ca13c5d80211087b7ccc467bc",
+      "artifact_sha256": "a1daa3caebf2f6a5bb0111a9c5c90fd9e2bcb5b61eafcf1dc77752aeb79b28e7",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface; legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED live; 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (r4: 21 citations / 0 violations; pack rebuilt from the RUN-007 spec with scout-verified ER window extensions; all pre-existing excerpts byte-identical, minimal-diff proven)",
+        "his_deepening": "PASS (SIB-ASSESS-r1 D3 backlog: 4 new records per artifact (HIS-043..070, 28 total; record-id continuity verified), all grounded in newly excerpted legacy examiner-report windows spanning 2011-2019 — documentary lineage (HIS-01), demand-grammar witnesses (HIS-02), assessment behaviour (HIS-03), terminology policing (HIS-04), question craft (HIS-05), pack-internal persistence pairs (HIS-06), technique relevance (HIS-07); every quote verbatim-verified against the pack excerpts; the 42 original records are unchanged",
+        "er_window_widening": "DISCLOSED (SRC-ER-4CH0-LEGACY windows widened from 1-8 pages to 5-18 pages per artifact across up to 16 sessions; pack_spec records the extended pdf_pages plans; rebuild deterministic on this surface, proven by byte-identity of every pre-existing excerpt)",
+        "remediation_scope": "PASS (additive depth only: new records + pack windows; zero edits to the 42 original records or any non-HIS artifact)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "HIS-05",
+      "filename": "CHEMISTRY_4CH1_HIS-05_QUESTION_EVOLUTION.md",
+      "evidence_pack": "evidence/HIS-05/evidence_pack.json",
+      "evidence_pack_sha256": "f132dda1da907577685c58fb1308babbfb9027af85fd0279a049270e871078e2",
+      "artifact_sha256": "abdd405cee9c0cd3a90bb3c25374856507f509f478f1f0a76057233313aa362f",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface; legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED live; 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (r4: 16 citations / 0 violations; pack rebuilt from the RUN-007 spec with scout-verified ER window extensions; all pre-existing excerpts byte-identical, minimal-diff proven)",
+        "his_deepening": "PASS (SIB-ASSESS-r1 D3 backlog: 4 new records per artifact (HIS-043..070, 28 total; record-id continuity verified), all grounded in newly excerpted legacy examiner-report windows spanning 2011-2019 — documentary lineage (HIS-01), demand-grammar witnesses (HIS-02), assessment behaviour (HIS-03), terminology policing (HIS-04), question craft (HIS-05), pack-internal persistence pairs (HIS-06), technique relevance (HIS-07); every quote verbatim-verified against the pack excerpts; the 42 original records are unchanged",
+        "er_window_widening": "DISCLOSED (SRC-ER-4CH0-LEGACY windows widened from 1-8 pages to 5-18 pages per artifact across up to 16 sessions; pack_spec records the extended pdf_pages plans; rebuild deterministic on this surface, proven by byte-identity of every pre-existing excerpt)",
+        "remediation_scope": "PASS (additive depth only: new records + pack windows; zero edits to the 42 original records or any non-HIS artifact)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "HIS-06",
+      "filename": "CHEMISTRY_4CH1_HIS-06_PERSISTENT_PATTERNS.md",
+      "evidence_pack": "evidence/HIS-06/evidence_pack.json",
+      "evidence_pack_sha256": "1de15f4eeba09ba6b32ee48de9194b3f06d8cb0dd2d46746411181a4ed4b6f13",
+      "artifact_sha256": "c1e643486f212f14d182871108392bd590d36503694c31a3efea20b08f6d9dde",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface; legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED live; 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (r4: 24 citations / 0 violations; pack rebuilt from the RUN-007 spec with scout-verified ER window extensions; all pre-existing excerpts byte-identical, minimal-diff proven)",
+        "his_deepening": "PASS (SIB-ASSESS-r1 D3 backlog: 4 new records per artifact (HIS-043..070, 28 total; record-id continuity verified), all grounded in newly excerpted legacy examiner-report windows spanning 2011-2019 — documentary lineage (HIS-01), demand-grammar witnesses (HIS-02), assessment behaviour (HIS-03), terminology policing (HIS-04), question craft (HIS-05), pack-internal persistence pairs (HIS-06), technique relevance (HIS-07); every quote verbatim-verified against the pack excerpts; the 42 original records are unchanged",
+        "er_window_widening": "DISCLOSED (SRC-ER-4CH0-LEGACY windows widened from 1-8 pages to 5-18 pages per artifact across up to 16 sessions; pack_spec records the extended pdf_pages plans; rebuild deterministic on this surface, proven by byte-identity of every pre-existing excerpt)",
+        "remediation_scope": "PASS (additive depth only: new records + pack windows; zero edits to the 42 original records or any non-HIS artifact)"
+      },
+      "qa_report": ""
+    },
+    {
+      "artifact_id": "HIS-07",
+      "filename": "CHEMISTRY_4CH1_HIS-07_HISTORICAL_RELEVANCE_ANALYSIS.md",
+      "evidence_pack": "evidence/HIS-07/evidence_pack.json",
+      "evidence_pack_sha256": "9b783a17e73d847f264c973777074a7fc334694ddf117b6182e6a04b775b6e17",
+      "artifact_sha256": "b5dc668f75203029639d20d3951c30d63ba6b0289a71f4d59c8c5d7b007e8c13",
+      "attempts": 1,
+      "outcome": "QA_PASSED",
+      "gates": {
+        "source_preflight": "PASS (families CUR/GAP/HIS; 9/17 sources resolved on the sparse-clone surface; legacy primaries SRC-LEGACY-SPEC-4CH0 + SRC-ER-4CH0-LEGACY RESOLVED live; 8 failed sources disclosed run-wide: SRC-BOOK-4CH1-SB1, SRC-EXT-NOTES-4CH1, SRC-LESSONS-4CH1, SRC-PMT-4CH1, SRC-RAG-PKG-4CH1, SRC-SME-EXAMQ-4CH1, SRC-SME-NOTES-4CH1, SRC-SPECLINKS-4CH1)",
+        "structural": "PASS (tools.sib.cli qa @ 357ace0a230f: 0 errors / 0 warnings; library-wide receipt refresh 95/95 at 0 errors / 0 warnings)",
+        "evidence_claim_qa": "PASS (r4: 20 citations / 0 violations; pack rebuilt from the RUN-007 spec with scout-verified ER window extensions; all pre-existing excerpts byte-identical, minimal-diff proven)",
+        "his_deepening": "PASS (SIB-ASSESS-r1 D3 backlog: 4 new records per artifact (HIS-043..070, 28 total; record-id continuity verified), all grounded in newly excerpted legacy examiner-report windows spanning 2011-2019 — documentary lineage (HIS-01), demand-grammar witnesses (HIS-02), assessment behaviour (HIS-03), terminology policing (HIS-04), question craft (HIS-05), pack-internal persistence pairs (HIS-06), technique relevance (HIS-07); every quote verbatim-verified against the pack excerpts; the 42 original records are unchanged",
+        "er_window_widening": "DISCLOSED (SRC-ER-4CH0-LEGACY windows widened from 1-8 pages to 5-18 pages per artifact across up to 16 sessions; pack_spec records the extended pdf_pages plans; rebuild deterministic on this surface, proven by byte-identity of every pre-existing excerpt)",
+        "remediation_scope": "PASS (additive depth only: new records + pack windows; zero edits to the 42 original records or any non-HIS artifact)"
+      },
+      "qa_report": ""
+    }
+  ],
+  "gates": {},
+  "disclosures": []
+}

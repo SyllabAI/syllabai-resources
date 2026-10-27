@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: HIS-06
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-LEGACY-SPEC-4CH0"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-007"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "4920c4640615c14a7c769c875bb87b40b361f0c2"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # HIS-06 — Persistent Patterns
@@ -190,6 +190,65 @@ Which statement explains this observation?" (SRC-QPMS-4CH1, questions.md lines
 5-19). The legacy witnesses are LEGACY — HISTORICAL; the current instance is
 SUPPLEMENTARY texture.
 Temporal scope: SUPPLEMENTARY.
+
+### HIS-063 — The half-equation failure mode persists across the era (2013 to 2019)
+
+**Claim:** the same ionic half-equation failure mode is examiner-documented six
+years apart: in 2013 candidates repeated a given half-equation or mis-managed the
+oxygen equation; in 2019 the recorded wrong answers show electron-coefficient and
+charge errors on magnesium half-equations. **Evidence:** the January 2013 Paper 1C
+report records "A surprising number repeated the given half-equation for Al3+ in
+(a)(ii), while several attempts at the oxygen equation were unbalanced or began with
+O2 – instead of O2–" (SRC-ER-4CH0-LEGACY, 2013-01/4CH0-1C/er.pdf p5); the January
+2019 Paper 2C report records "A wide range of incorrect answers were seen with common
+examples being Mg2+ + 2e- 2Mg and Mg+ + e- Mg" (SRC-ER-4CH0-LEGACY,
+2019-01/4CH0-2C/er.pdf p5). Temporal scope: LEGACY — HISTORICAL. Both witnesses sit
+inside this pack, so the persistence claim is pack-internal: the demand and its
+characteristic failure mode were stable across the era's whole span.
+### HIS-064 — The bond-energy sign and direction error persists across the era (2014 to 2018)
+
+**Claim:** the bond-energy calculation's characteristic error is examiner-documented
+twice: in 2014 the missing negative sign cost the last mark; in 2018 the
+subtraction-direction error produced 103 instead of -103, with coefficient errors on
+the bond energies also recorded. **Evidence:** the Summer 2014 Paper 2CR report
+records candidates who "failed to obtain the last mark by not including the negative
+sign" (SRC-ER-4CH0-LEGACY, 2014-06/4CH0-2CR/er.pdf p5); the Summer 2018 Paper 2C
+report records candidates "usually by doing the subtraction the wrong way round and
+hence giving an answer of 103 instead of -103" and "multiplying the H-H and Br-Br
+bond energies by two or failing to multiply the H-Br bond energy by two"
+(SRC-ER-4CH0-LEGACY, 2018-06/4CH0-2C/er.pdf p4). Temporal scope: LEGACY —
+HISTORICAL. The two witnesses name the same trap from both sides (sign and
+direction), giving the persistence claim its precision.
+### HIS-065 — The distillation-choice confusion persists across the era (2013 to 2016)
+
+**Claim:** the simple-versus-fractional distillation choice confusion is
+examiner-documented three years apart: in 2013 candidates offered simple distillation
+for ethanol-water where the question demanded the best method; in 2016 the report
+names the confusion directly as a live observation. **Evidence:** the Summer 2013
+Paper 2C report records "Simple distillation was often given as a method of
+separating ethanol and water. Although this method would produce a separation, it is
+not as good as fractional distillation, and the question called for the best method
+of separation to be given" (SRC-ER-4CH0-LEGACY, 2013-06/4CH0-2C/er.pdf p3); the
+Summer 2016 Paper 1CR report records "it was evident there is some confusion about
+when to use simple and fractional distillation" (SRC-ER-4CH0-LEGACY,
+2016-06/4CH0-1CR/er.pdf p3). Temporal scope: LEGACY — HISTORICAL. The persistence is
+documented inside the era; the techniques themselves map forward per HIS-007.
+### HIS-066 — The mark-allocation misreading persists across the era (2015 to 2019)
+
+**Claim:** candidates under-reading the mark allocation as a detail signal is
+examiner-documented four years apart with nearly identical framing: in 2015 few gave
+both required points despite an explicit two-mark allocation; in 2019 the examiners
+recorded candidates missing the solid-state ion-immobility point that the mark
+allocation signaled. **Evidence:** the January 2015 Paper 2C report records
+"very few gave both despite the mark allocation of two, which indicated that two
+points were required to gain full marks" (SRC-ER-4CH0-LEGACY, 2015-01/4CH0-2C/er.pdf
+p4); the January 2019 Paper 2C report records candidates who "often scored only one
+mark because they failed to mention that ions do not move/flow when solid" and
+draws the general lesson "It would perhaps be helpful to remind candidates to look at
+the mark allocation when considering the detail required in their answers"
+(SRC-ER-4CH0-LEGACY, 2019-01/4CH0-2C/er.pdf p5). Temporal scope: LEGACY —
+HISTORICAL. The pattern pair is fully pack-internal and both halves carry the
+same craft lesson.
 
 ## Evidence / Source Basis
 

@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: CUR-03
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,19 +24,19 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-25
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-SPEC-4CH1"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-002"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
     agent_version: "SIB-GEN-r0"
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
-    syllabai_pastpapers: "4bae2886d123d0f597c0091dbe0c6d9f9acdb44d"
-    syllabai_resources: "ebe914b10cf938fa5c219f73881ae853922eef8a"
+    syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # CUR-03 — Concept Taxonomy
@@ -74,18 +74,18 @@ content.
 ## Executive Summary
 
 - The concept store holds 193 nodes — 167 CONCEPT and 26 MISCONCEPTION — per its own
-  meta census (SRC-GRAPH-4CH1, lines 251-265), matching the run census (RUN-COMPUTED:
+  meta census (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 251-265), matching the run census (RUN-COMPUTED:
   census.json, concepts.nodes).
 - Every concept node carries a code in the store's own namespace (4CH1-CON-* /
   4CH1-MIS-*), a title, an alias list, and one or more spec-point anchors with role
-  CORE (SRC-GRAPH-4CH1, lines 263-277).
+  CORE (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 263-277).
 - The store declares provenance_default: AI_SUGGESTED with an operator-only
   validation gate — "no promotion from generation; HUMAN_VALIDATED is operator-only"
-  (SRC-GRAPH-4CH1, lines 251-265). This artifact therefore treats every node as
+  (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 251-265). This artifact therefore treats every node as
   research content, never as validated curriculum truth.
 - The MISCONCEPTION family nodes are pattern-classified (in-pack exemplars all carry
   pattern_class: WRONG_ANSWER_PATTERN) and ground on mark-scheme evidence rows
-  (SRC-GRAPH-4CH1, lines 7542-7556; SRC-GRAPH-4CH1, lines 7591-7605).
+  (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7542-7556); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7591-7605).
 
 ## Main Analysis
 
@@ -94,17 +94,16 @@ content.
 A concept node is a machine-readable unit of subject understanding with five
 load-bearing fields: a code in the store's namespace, a family (CONCEPT or
 MISCONCEPTION), a title stating the concept's content in one sentence, an alias list,
-and spec-point anchors (SRC-GRAPH-4CH1, lines 263-277). The exemplar node
+and spec-point anchors (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 263-277). The exemplar node
 4CH1-CON-ACID-ALKALI-IONS shows the shape completely: family CONCEPT, title "Acids as
 hydrogen-ion sources and alkalis as hydroxide-ion sources in aqueous solution", three
 aliases ("hydrogen ions in solution", "hydroxide ions in solution", "what makes a
 solution acidic or alkaline"), anchored at 4CH1-2.31 with role CORE
-(SRC-GRAPH-4CH1, lines 263-277). Node codes are stable identifiers (4CH1-CON-* for
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 263-277). Node codes are stable identifiers (4CH1-CON-* for
 concepts, 4CH1-MIS-* for misconceptions), and each node carries creation metadata and
-a damage_flags field (empty in all in-pack exemplars) (SRC-GRAPH-4CH1, lines
-360-374; SRC-GRAPH-4CH1, lines 860-874). The store's own meta block publishes its
+a damage_flags field (empty in all in-pack exemplars) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 360-374); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 860-874). The store's own meta block publishes its
 census: 193 nodes, 167 concepts, 26 misconceptions, 211 PART_OF edges and 277
-semantic edges (SRC-GRAPH-4CH1, lines 251-265) — the same totals the run census
+semantic edges (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 251-265) — the same totals the run census
 computes over the store (RUN-COMPUTED: census.json, concepts.nodes;
 census.json, concept_edges.edges).
 
@@ -115,16 +114,9 @@ explicit role field (CORE in all in-pack exemplars): ACID-ALKALI-IONS → 2.31;
 ACID-REACTIONS → 2.37; ANION-TESTS → 2.48; CATION-TESTS → 2.47; COMBUSTION-O2 →
 2.11; COVALENT-BOND → 1.44; CRUDE-OIL → 4.7; ELECTROLYSIS → 1.58C;
 ELECTRONIC-CONFIGURATION → 1.19; ETHANOL-OXIDATION → 4.31C; EXO-ENDO → 3.1;
-FRACTIONAL-DISTILLATION → 1.10; OX-RED-AGENTS → 2.20 (SRC-GRAPH-4CH1, lines
-263-277; SRC-GRAPH-4CH1, lines 360-374; SRC-GRAPH-4CH1, lines 860-874;
-SRC-GRAPH-4CH1, lines 1553-1567; SRC-GRAPH-4CH1, lines 1869-1883; SRC-GRAPH-4CH1,
-lines 2102-2116; SRC-GRAPH-4CH1, lines 2272-2286; SRC-GRAPH-4CH1, lines 2733-2747;
-SRC-GRAPH-4CH1, lines 2779-2793; SRC-GRAPH-4CH1, lines 3246-3260; SRC-GRAPH-4CH1,
-lines 3312-3326; SRC-GRAPH-4CH1, lines 3597-3611; SRC-GRAPH-4CH1, lines
-5761-5775). The anchors reach across the whole specification: 1.10/1.19/1.44/1.58C in
+FRACTIONAL-DISTILLATION → 1.10; OX-RED-AGENTS → 2.20 (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 263-277); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 360-374); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 860-874); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 1553-1567); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 1869-1883); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2102-2116); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2272-2286); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2733-2747); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2779-2793); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3246-3260); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3312-3326); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3597-3611); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 5761-5775). The anchors reach across the whole specification: 1.10/1.19/1.44/1.58C in
 S1, 2.11/2.20/2.31/2.37/2.47/2.48 in S2, 3.1 in S3, 4.7/4.31C in S4 — the taxonomy's
-coverage follows the topics the official content section defines (SRC-SPEC-4CH1,
-page 15) (SRC-SPEC-4CH1, page 17). This anchoring law is what makes the concept store
+coverage follows the topics the official content section defines (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15) (SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p17). This anchoring law is what makes the concept store
 usable downstream: every explanation, misconception or remediation indexed by a node
 inherits a traceable path to official curriculum wording through the anchor.
 
@@ -136,12 +128,11 @@ attraction between the shared pair and the nuclei"), ELECTROLYSIS's title carrie
 scope ("decomposition by direct current: molten binary compounds and their element
 products, using inert electrodes"), ELECTRONIC-CONFIGURATION's title carries both the
 content and the consequence ("shells 2, 8, 8; configuration and Periodic Table
-position") (SRC-GRAPH-4CH1, lines 2102-2116; SRC-GRAPH-4CH1, lines 2733-2747;
-SRC-GRAPH-4CH1, lines 2779-2793). Alias lists are learner-language surfaces:
+position") (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2102-2116); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2733-2747); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2779-2793). Alias lists are learner-language surfaces:
 CATION-TESTS aliases include the phenomenology ("Fe2+ pale green precipitate", "Cu2+
 blue precipitate", "NH4+ test"), ANION-TESTS aliases include the reagent shorthand
 ("acidified silver nitrate halide test", "barium chloride sulfate test", "carbonate
-limewater test") (SRC-GRAPH-4CH1, lines 1553-1567; SRC-GRAPH-4CH1, lines 860-874).
+limewater test") (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 1553-1567); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 860-874).
 Downstream retrieval and tutoring layers should treat aliases as first-class
 vocabulary: they are how a learner's phrasing maps onto a canonical node.
 
@@ -157,12 +148,8 @@ conversion failure ("an answer of 10(.0) for 1 mark (i.e. failing to divide by
 molecules" is penalised), evaporating-to-dryness ("If evaporated to dryness then award
 no marks for whole question"), the CuO colour error ("black"), the neutralisation
 endpoint error ("temperature goes down/stops rising/stays constant"), and the J-vs-kJ
-enthalpy unit error (SRC-GRAPH-4CH1, lines 7542-7556; SRC-GRAPH-4CH1, lines
-7591-7605; SRC-GRAPH-4CH1, lines 7635-7649; SRC-GRAPH-4CH1, lines 7673-7687;
-SRC-GRAPH-4CH1, lines 7718-7732; SRC-GRAPH-4CH1, lines 7755-7769; SRC-GRAPH-4CH1,
-lines 7795-7809; SRC-GRAPH-4CH1, lines 7843-7857). Several nodes also carry
-remediation_evidence rows pointing at teaching notes (SRC-GRAPH-4CH1, lines
-7635-7649; SRC-GRAPH-4CH1, lines 7718-7732). The taxonomy consequence: the concept
+enthalpy unit error (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7542-7556); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7591-7605); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7635-7649); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7673-7687); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7718-7732); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7755-7769); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7795-7809); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7843-7857). Several nodes also carry
+remediation_evidence rows pointing at teaching notes (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7635-7649); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 7718-7732). The taxonomy consequence: the concept
 store already carries an error-model layer alongside its understanding layer, and the
 MIS artifact family (misconception atlases etc.) should index through these nodes
 rather than re-inventing a parallel error taxonomy. This artifact records the
@@ -176,7 +163,7 @@ evidence, never independently.
 The store's meta block is explicit: provenance_default: AI_SUGGESTED, and the
 validation gate is "operator review (pilot: graph/reports/C11_PILOT_REVIEW_SHEET.md;
 batch 1: … BATCH1_REVIEW_SHEET.md; batch 2: … BATCH2_REVIEW_SHEET.md) — no promotion
-from generation; HUMAN_VALIDATED is operator-only" (SRC-GRAPH-4CH1, lines 251-265).
+from generation; HUMAN_VALIDATED is operator-only" (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 251-265).
 The run census independently confirms the tier distribution: all 193 concept nodes
 stand at SUGGESTED, while the edge store mixes HUMAN_VALIDATED (389), SUGGESTED (97)
 and REVIEW_REQUIRED (2) tiers (RUN-COMPUTED: census.json, concepts.validation_distribution;
@@ -191,14 +178,9 @@ The in-pack exemplars span all four topics — S1 (separation techniques 1.10, e
 configuration 1.19, covalent bonding 1.44, electrolysis 1.58C), S2 (combustion in
 oxygen 2.11, oxidation/reduction 2.20, acids and alkalis 2.31, acid reactions 2.37,
 cation and anion tests 2.47/2.48), S3 (exothermic/endothermic 3.1) and S4 (crude oil
-4.7, ethanol oxidation 4.31C) (SRC-GRAPH-4CH1, lines 3597-3611; SRC-GRAPH-4CH1,
-lines 2779-2793; SRC-GRAPH-4CH1, lines 2102-2116; SRC-GRAPH-4CH1, lines 2733-2747;
-SRC-GRAPH-4CH1, lines 1869-1883; SRC-GRAPH-4CH1, lines 5761-5775; SRC-GRAPH-4CH1,
-lines 263-277; SRC-GRAPH-4CH1, lines 360-374; SRC-GRAPH-4CH1, lines 1553-1567;
-SRC-GRAPH-4CH1, lines 860-874; SRC-GRAPH-4CH1, lines 3312-3326; SRC-GRAPH-4CH1,
-lines 2272-2286; SRC-GRAPH-4CH1, lines 3246-3260). The official topic structure the
+4.7, ethanol oxidation 4.31C) (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3597-3611); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2779-2793); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2102-2116); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2733-2747); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 1869-1883); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 5761-5775); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 263-277); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 360-374); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 1553-1567); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 860-874); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3312-3326); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 2272-2286); (SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 3246-3260). The official topic structure the
 anchors hang from is the specification's own four-topic content section
-(SRC-SPEC-4CH1, page 15). The exemplar set is deliberately S1/S2-weighted (the store's
+(SRC-SPEC-4CH1, international-gcse-chemistry-2017-specification.pdf p15). The exemplar set is deliberately S1/S2-weighted (the store's
 file order and the pack's bounded excerpt caps concentrate there), and the run census
 carries the full 193-node store for exhaustive coverage questions — this artifact
 claims the coverage SHAPE (all four topics present, S1/S2 densest in the sampled
@@ -210,7 +192,7 @@ The concept store is not the canonical knowledge graph. The canonical planes
 (SpecPoints, knowledge graph, mastery, assessment identity) remain the authoritative
 curriculum truth of SyllabAI; this store is a research-layer index whose own meta
 block demotes it to AI_SUGGESTED with an operator-only promotion gate
-(SRC-GRAPH-4CH1, lines 251-265). Nothing in this artifact writes to, redefines, or
+(SRC-GRAPH-4CH1, graph/igcse-chemistry/concepts.yaml lines 251-265). Nothing in this artifact writes to, redefines, or
 overrides any canonical plane: the pipeline's relationship to the graph is read-only
 anchoring. Consumers should also not confuse node coverage with statement coverage —
 193 nodes index the specification's 182 statements plus cross-cutting ideas, but the

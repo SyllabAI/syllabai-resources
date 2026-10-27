@@ -1,7 +1,7 @@
 ---
 sib_protocol: SIB-1.0
 artifact_id: HIS-05
-artifact_version: 1.0
+artifact_version: 1.1
 subject: Chemistry
 qualification: International GCSE
 specification: 4CH1
@@ -24,11 +24,11 @@ source_scope:
 
 status: GENERATED
 generated_by: zai_agent
-generated_at: 2026-10-26
+generated_at: 2026-10-27
 
 provenance:
   source_manifest: "SRC-LEGACY-SPEC-4CH0"
-  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-007"
+  generation_run_id: "SIB-CHEMISTRY_4CH1-RUN-015"
   generator:
     provider: "z.ai"
     model: "GLM"
@@ -36,7 +36,7 @@ provenance:
   source_revisions:
     syllabai: "357ace0a230f5e0095ad230320af587dca6bb71f"
     syllabai_pastpapers: "2cb92fe5f56d22f1b231c129a7e0dbc27bf86007"
-    syllabai_resources: "4920c4640615c14a7c769c875bb87b40b361f0c2"
+    syllabai_resources: "d9c944362529a1ef4db481a349a0f33f1f6daf31"
 ---
 
 # HIS-05 — Question Evolution
@@ -165,6 +165,68 @@ There were a few instances of a curve being drawn to join two previously drawn
 straight lines. Some candidates would have benefited in (ii) from using a sharp
 pencil to draw their lines." (SRC-ER-4CH0-LEGACY, 2016-06/4CH0-1CR/er.pdf p6).
 Temporal scope: LEGACY — HISTORICAL.
+
+### HIS-059 — Alternative calculation methods are examiner-documented as creditable
+
+**Claim:** the legacy ER documents that non-canonical calculation routes earned full
+credit when correct — the hydrated-salt Mr route to x in MgSO4.xH2O is recorded as
+fully credited alongside the canonical mole-comparison method, and earlier reports
+state the general policy of crediting correct processing of a wrong prior answer.
+**Evidence:** the Summer 2017 Paper 1C report states "Although the expectation was
+for students to compare moles of anhydrous salt and moles of water as shown in the
+Mark Scheme, some mathematically minded students used a method which found the Mr of
+the hydrated salt" and continues on the next page "Methods such as these were given
+full credit" (SRC-ER-4CH0-LEGACY, 2017-06/4CH0-1C/er.pdf p7)
+(SRC-ER-4CH0-LEGACY, 2017-06/4CH0-1C/er.pdf p8); the June 2011 Paper 2C report
+records "Credit was given for any correct processing of an incorrect answer from
+(ii), of which there were quite a few" (SRC-ER-4CH0-LEGACY, 2011-06/4CH0-2C/er.pdf
+p5). Temporal scope: LEGACY — HISTORICAL. For question-style lineage this documents
+consequential marking and method-tolerance as live legacy practice — the grading
+philosophy inside which the era's calculation demands were actually marked.
+### HIS-060 — Graphical literacy is examiner-documented as a scored craft with a doctrine
+
+**Claim:** the legacy ER documents graph-drawing as scored craft with marking
+doctrine: plotting accuracy, freehand curves, and the anomaly-ignoring best-fit rule
+are all stated, with specific lost-mark behaviors recorded. **Evidence:** the Summer
+2017 Paper 1C report records that "the majority of candidates gained full marks for
+plotting the points and drawing a suitable curve of best fit" but "some joined the
+points with straight lines using a ruler and so did not gain the mark for the curve"
+(SRC-ER-4CH0-LEGACY, 2017-06/4CH0-1C/er.pdf p8); the June 2011 Paper 1C report states
+the doctrine that "if there are several points on an (almost) exact straight line and
+there is one further point that is a long way from the line (an outlier), then the
+line to draw is the one that goes through the several points, with the outlier being
+ignored" (SRC-ER-4CH0-LEGACY, 2011-06/4CH0-1C/er.pdf p4). Temporal scope: LEGACY —
+HISTORICAL. The 2011 doctrine statement grounds HIS-053's AO witness; this record
+adds the craft-level detail (ruler-joined points, plotting checks) that shows the
+demand's granularity as actually marked.
+### HIS-061 — Organic structure-drawing precision is examiner-documented with named error forms
+
+**Claim:** the legacy ER documents organic structure drawing as a precision demand
+with named error forms — five-bonded carbons, redrawn-identical isomers, and
+rotations mistaken for new structures. **Evidence:** the Summer 2017 Paper 1C report
+records, on the isomer-drawing part, that "some just redrew the branched structure
+that had been given, but as a rotation or a mirror image of the original. Others lost
+marks for drawing five bonds around a carbon atom or for drawing the same correct
+isomer twice" (SRC-ER-4CH0-LEGACY, 2017-06/4CH0-1C/er.pdf p4). Temporal scope:
+LEGACY — HISTORICAL. The named error forms are exactly the drawing disciplines the
+current organic content presumes; the record preserves them as examiner-stated
+rather than reconstructed.
+### HIS-062 — Practical-observation demands are examiner-documented with recorded wrong-model answers
+
+**Claim:** the legacy ER documents practical-observation questions with specific
+wrong-model answers: the iron-wool oxygen volume question drew 'iron used up'
+responses instead of oxygen-used-up reasoning, and flame-test technique lost marks
+for instrument choice. **Evidence:** the Summer 2016 Paper 2C report records "Many
+candidates thought the cause of the volume remaining at 80cm3 was that the iron had
+all been used" where the credited reasoning was that iron "reacted with oxygen until
+all the oxygen had reacted" (SRC-ER-4CH0-LEGACY, 2016-06/4CH0-2C/er.pdf p3); the
+Summer 2012 Paper 1C report records "There were many good descriptions of how to
+carry out a flame test that scored credit. However, some candidates lost marks for
+use inappropriate instruments to insert the solid into the flame and/or for not
+identifying correctly the type of flame to be used" (SRC-ER-4CH0-LEGACY,
+2012-06/4CH0-1C/er.pdf p7). Temporal scope: LEGACY — HISTORICAL. These preserve the
+legacy practical demand as marked behavior — the layer HIS-039 tracked
+structurally.
 
 ## Evidence / Source Basis
 
