@@ -11,11 +11,24 @@ marks law, count law, MCQ key law, expected semantic facts, asset presence and
 inline-figure occurrence counts.
 
 The rendered (browser) half lives in official_examq_g9_render_check.py. A green
-static leg NEVER implies the rendered leg ran — the two receipts are separate and
-the aggregate G9 disposition is PASS only when BOTH legs report PASS (NOT_RUN
-never promotes).
+static leg NEVER implies the rendered leg ran — the two receipts are separate
+and the OVERALL G9 gate (official_examq_g9_aggregate.py) is PASS only when all
+three mandatory legs (static-corpus, static-bundles, rendered) report PASS.
 
-Outcomes per check: PASS / FAIL / NOT_RUN. Exit code 0 iff every check PASSes.
+Aggregation law (F105 — official_examq_g9_semantics.py is its executable form):
+  - a required check that FAILs fails the case;
+  - a required check that is NOT_RUN can NEVER yield PASS — a case with any
+    unestablished required check dispositions REVIEW (pure-NOT_RUN cases stay
+    NOT_RUN) and the leg rises to REVIEW;
+  - a check that is genuinely not applicable at this layer is recorded
+    NOT_APPLICABLE and names the responsible validation layer(s) explicitly
+    ("delegated"); it is excluded from this layer's required set ONLY because
+    the contract assigns the property to mandatory legs, and the overall gate
+    stays blocked until those legs themselves run and PASS. It never silently
+    counts as a pass.
+
+Outcomes per check: PASS / FAIL / NOT_RUN / NOT_APPLICABLE(+responsibility).
+Exit code 0 iff the leg dispositions PASS.
 Usage:
   python3 scripts/official_examq_g9_static_check.py \
     --corpus Official-ExamQuestion [--cases benchmark/cases.json]
@@ -28,7 +41,21 @@ import re
 import sys
 from pathlib import Path
 
-VALIDATOR_VERSION = "g9-static-check/0.1"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from official_examq_g9_semantics import (  # noqa: E402
+    check as law_check, case_disposition, leg_disposition,
+    OUTCOME_PASS, OUTCOME_FAIL, OUTCOME_NOT_RUN, OUTCOME_NOT_APPLICABLE,
+)
+from official_examq_asset_bytes import validate_asset_file, AssetByteError  # noqa: E402
+
+VALIDATOR_VERSION = "g9-static-check/0.2"
+
+# Layer delegation of record (benchmark/README.md "Layer ownership"): these
+# properties are exporter/served-layer text or renderer-runtime behavior; the
+# corpus slice cannot establish them, and the contract assigns them to the
+# static-bundles leg and the rendered leg — both MANDATORY legs of the overall
+# gate. Delegation is only lawful because those legs are mandatory.
+RESP_SERVED_TEXT = "static-bundles + rendered legs"
 
 LANE_BY_SPEC = {"4ph1": "igcse-physics-19", "4ch1": "igcse-chemistry-19", "4mb1": "igcse-maths-b-16"}
 
@@ -130,11 +157,19 @@ def load_corpus_topic(corpus_dir, lane, series, paper):
 
 
 def check(name, ok, detail=""):
-    return {"id": name, "area": "static", "outcome": ("PASS" if ok else "FAIL"), "detail": detail}
+    return law_check((OUTCOME_PASS if ok else OUTCOME_FAIL), cid=name, area="static", detail=detail)
 
 
 def not_run(name, detail):
-    return {"id": name, "area": "static", "outcome": "NOT_RUN", "detail": detail}
+    return law_check(OUTCOME_NOT_RUN, cid=name, area="static", detail=detail)
+
+
+def delegated(name, detail, responsibility=RESP_SERVED_TEXT):
+    """NOT_APPLICABLE here — the contract assigns the property to the named
+    mandatory legs (never a silent pass; overall gate stays blocked until the
+    responsible legs run and pass)."""
+    return law_check(OUTCOME_NOT_APPLICABLE, requirement="delegated",
+                     responsibility=responsibility, cid=name, area="static", detail=detail)
 
 
 def main():
@@ -146,6 +181,8 @@ def main():
                     help="anti-gaming self-test: mutate the first frozen fact and prove "
                          "the corpus text layer REFUSES it while accepting the original "
                          "(exit 0 = control detected; exit 1 = harness integrity broken)")
+    ap.add_argument("--receipt-out", default=None,
+                    help="(negative-control mode) write an honest control receipt JSON here")
     args = ap.parse_args()
     if not args.corpus and not args.bundles:
         sys.exit("need --corpus or --bundles")
@@ -156,6 +193,15 @@ def main():
     cases = bench["cases"]
 
     if args.negative_control:
+        def ctl_out(status, detail):
+            if args.receipt_out:
+                Path(args.receipt_out).write_text(json.dumps({
+                    "receipt_schema": "syllabai.g9-negative-control-receipt/0.1",
+                    "control": "mutated-fact", "status": status,
+                    "validator_version": VALIDATOR_VERSION,
+                    "benchmark_version": bench.get("benchmark_version"),
+                    "corpus": args.corpus, "detail": detail,
+                }, indent=1))
         # Anti-gaming law: the mutated fact must be REFUSED by the corpus text
         # layer, and the original fact must be PRESENT (proves the probe is
         # non-vacuous — it would actually detect a real mutation).
@@ -164,6 +210,7 @@ def main():
         spec, paper, series = parsed
         raw = load_corpus_topic(args.corpus, LANE_BY_SPEC[spec], series, paper)
         if raw is None:
+            ctl_out("INCONCLUSIVE", "corpus slice not found")
             sys.exit("negative control: corpus slice not found")
         t = TopicSource(raw, "corpus")
         parts = t.parts()
@@ -179,6 +226,7 @@ def main():
         fact = case["fact_parts"][0]
         p = bypn.get(pnum(fact["part_id"]))
         if p is None:
+            ctl_out("INCONCLUSIVE", "part not found")
             sys.exit("negative control: part not found")
         md = norm(t.pproblem(p) or "") + " " + norm(p.get("stem_md") or "")
         q = None
@@ -192,11 +240,14 @@ def main():
                 md += " " + norm(g.get("group_stem_md") or "")
         mutated = fact["snippet"][:-8] + "MUTATED-VALUE 999."
         if mutated in md:
+            ctl_out("HARNESS-BROKEN", "mutated fact reported present")
             sys.exit("NEGATIVE-CONTROL FAILURE: mutated fact reported present — harness integrity broken")
         if fact["snippet"] not in md:
+            ctl_out("INCONCLUSIVE", "original fact is authored-layer text at the corpus layer")
             print("negative control: INCONCLUSIVE at the corpus layer (original fact is authored-layer text); "
                   "run against the serving bundles for the strict form")
             sys.exit(0)
+        ctl_out("DETECTED", "mutated fact refused, original accepted")
         print("negative control: DETECTED (mutated fact refused, original accepted)")
         sys.exit(0)
 
@@ -207,8 +258,6 @@ def main():
         "source": {"corpus": args.corpus, "bundles": args.bundles},
         "cases": [],
     }
-    overall = "PASS"
-    any_ran = False
 
     for case in cases:
         checks = []
@@ -228,9 +277,7 @@ def main():
                 topic, mode = TopicSource(raw, "corpus"), "corpus"
         if topic is None:
             checks.append(not_run("topic-resolved", f"topic {slug} not found in the requested source"))
-            overall = "REVIEW" if overall == "PASS" else overall
         else:
-            any_ran = True
             e = case["expected"]
             qs, parts = topic.questions(), topic.parts()
             marks = topic.qtotal()
@@ -255,8 +302,11 @@ def main():
                 n_crop, n_stub = len(topic.crop_assets()), len(topic.stub_assets())
                 checks.append(check("asset-kinds-present", (n_crop + n_stub) > 0,
                                     f"corpus assets: {n_crop} crop + {n_stub} crop-required (bundle: {e['crop_assets']}+{e['crop_required_stubs']}; exporter may demote)"))
-                checks.append(not_run("figures-inlined-count",
-                                      "exporter-side transform (crops are inlined into problemMd at export time)"))
+                checks.append(delegated("figures-inlined-count",
+                                        "exporter-side transform (crops are inlined into problemMd at export "
+                                        "time) — counted at the static-bundles leg; actually loading is proven "
+                                        "at the rendered leg",
+                                        RESP_SERVED_TEXT))
             # marks-sum law per question
             bad = [q.get("id") for q in qs if sum((p.get("marks") or 0) for p in (q.get("parts") or [])) != q.get("totalMarks", q.get("total_marks"))]
             checks.append(check("marks-sum-per-question", not bad, f"violations: {bad[:3]}"))
@@ -313,8 +363,10 @@ def main():
                     checks.append(check(f"fact:{fact['part_id']}", True,
                                         "fact present in this text layer"))
                 elif mode == "corpus":
-                    checks.append(not_run(f"fact:{fact['part_id']}",
-                                          "absent from the verbatim corpus layer (served text is the exporter/authored layer — verified at the bundle + render legs)"))
+                    checks.append(delegated(f"fact:{fact['part_id']}",
+                                            "absent from the verbatim corpus layer (served text is the "
+                                            "exporter/authored layer — required and verified at the "
+                                            "static-bundles leg and the rendered leg)"))
                 else:
                     checks.append(check(f"fact:{fact['part_id']}", False,
                                         f"EXPECTED FACT MISSING from the served text of {fact['part_id']} — semantic fidelity violation"))
@@ -326,8 +378,10 @@ def main():
                     checks.append(check(f"solfact:{fact['part_id']}", True,
                                         "solution fact present in this text layer"))
                 elif mode == "corpus":
-                    checks.append(not_run(f"solfact:{fact['part_id']}",
-                                          "absent from the verbatim corpus layer (served text is the exporter/authored layer — verified at the bundle + render legs)"))
+                    checks.append(delegated(f"solfact:{fact['part_id']}",
+                                            "absent from the verbatim corpus layer (served text is the "
+                                            "exporter/authored layer — required and verified at the "
+                                            "static-bundles leg and the rendered leg)"))
                 else:
                     checks.append(check(f"solfact:{fact['part_id']}", False,
                                         f"EXPECTED SOLUTION FACT MISSING from the served text of {fact['part_id']} — solution-integrity violation"))
@@ -348,23 +402,26 @@ def main():
                     + "-" + paper.upper())
                 missing = [a.get("path") for a in topic.crop_assets() if not (td / (a.get("path") or "_")).exists()]
                 checks.append(check("asset-files-exist", not missing, f"missing: {missing[:3]}"))
+                # F104 guard: the files that DO exist must be format-truth valid
+                # (PNG signature + full chunk/decode walk; UTF-8 mojibake of a
+                # binary asset is rejected even though a URL would return HTTP 200)
+                byte_fails = []
+                for a in topic.crop_assets():
+                    fp = td / (a.get("path") or "_")
+                    if not fp.exists():
+                        continue  # dangling already reported by asset-files-exist
+                    try:
+                        validate_asset_file(fp)
+                    except AssetByteError as exc:
+                        byte_fails.append(str(exc))
+                checks.append(check("asset-bytes-valid", not byte_fails,
+                                    f"{len(topic.crop_assets())} crop files byte-checked; "
+                                    + ("violations: " + str(byte_fails[:2]) if byte_fails else "all format-valid")))
 
-        outcomes = [c["outcome"] for c in checks]
-        if "FAIL" in outcomes:
-            disp = "FAIL"
-        elif outcomes and all(o == "NOT_RUN" for o in outcomes):
-            disp = "NOT_RUN"          # nothing actually ran
-        elif not outcomes:
-            disp = "NOT_RUN"
-        else:
-            disp = "PASS"             # ran and passed; explicit NOT_RUNs stay recorded
-        if disp == "FAIL":
-            overall = "FAIL"
-        elif disp == "NOT_RUN" and overall == "PASS":
-            overall = "REVIEW"        # a case could not be established — human sees it
-        receipt["cases"].append({"case_id": case["id"], "mode": mode, "disposition": disp, "checks": checks})
+        receipt["cases"].append({"case_id": case["id"], "mode": mode,
+                                 "disposition": case_disposition(checks), "checks": checks})
 
-    receipt["overall"] = ("NOT_RUN" if not any_ran else overall)
+    receipt["overall"] = leg_disposition(receipt["cases"])
     receipt["summary"] = {
         c["case_id"]: c["disposition"] for c in receipt["cases"]
     }
@@ -374,7 +431,11 @@ def main():
     for c in receipt["cases"]:
         fails = [k["id"] for k in c["checks"] if k["outcome"] == "FAIL"]
         nr = [k["id"] for k in c["checks"] if k["outcome"] == "NOT_RUN"]
-        print(f"  {c['case_id']}: {c['disposition']}" + (f" FAIL={fails}" if fails else "") + (f" NOT_RUN={nr}" if nr else ""))
+        na = [k["id"] for k in c["checks"] if k["outcome"] == "NOT_APPLICABLE"]
+        print(f"  {c['case_id']}: {c['disposition']}"
+              + (f" FAIL={fails}" if fails else "")
+              + (f" NOT_RUN={nr}" if nr else "")
+              + (f" NA(delegated)={na}" if na else ""))
     sys.exit(0 if receipt["overall"] == "PASS" else 1)
 
 

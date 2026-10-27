@@ -27,8 +27,16 @@ arguments — every eval snippet below is therefore double-quote-free (single-qu
 JS strings via the q() helper, find-by-attribute instead of quoted CSS selectors).
 
 Honesty law: if the hub is unreachable, agent-browser is missing, or a case
-cannot be driven, its checks are recorded NOT_RUN — never PASS. Exit codes:
-0 all-PASS, 1 any FAIL, 2 blocked/NOT_RUN.
+cannot be driven, its checks are recorded NOT_RUN — never PASS. Aggregation
+follows the G9 law (official_examq_g9_semantics.py, F105): a required check
+that did not run can never yield a PASSing case; a case whose required checks
+could not be established dispositions NOT_RUN and the leg rises to REVIEW in
+the overall gate (official_examq_g9_aggregate.py — all three legs
+static-corpus / static-bundles / rendered are mandatory for a PASS).
+Evidence-only captures (screenshots) are recorded with requirement=evidence
+and are excluded from the required set — they can neither pass nor fail a
+case, only decorate it.
+Exit codes: 0 all-PASS, 1 any FAIL, 2 blocked/NOT_RUN.
 
 Usage:
   python3 scripts/official_examq_g9_render_check.py \
@@ -45,7 +53,12 @@ import sys
 import time
 from pathlib import Path
 
-VALIDATOR_VERSION = "g9-render-check/0.3"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from official_examq_g9_semantics import (  # noqa: E402
+    case_disposition, leg_disposition, REQ_EVIDENCE, OUTCOME_PASS, OUTCOME_NOT_RUN,
+)
+
+VALIDATOR_VERSION = "g9-render-check/0.4"
 SCROLL_STEPS = 14
 
 AUDIT_JS = r"""
@@ -167,9 +180,10 @@ def drive_case(base_url, case, outdir, shots=True):
     checks = []
     url = base_url + case["url_path"]
 
-    def ck(area, name, ok, detail=""):
+    def ck(area, name, ok, detail="", requirement="required"):
         checks.append({"id": f"{area}:{name}", "area": area,
-                       "outcome": ("PASS" if ok else "FAIL"), "detail": str(detail)[:300]})
+                       "outcome": ("PASS" if ok else "FAIL"), "requirement": requirement,
+                       "detail": str(detail)[:300]})
 
     def open_page():
         try:
@@ -349,12 +363,11 @@ def drive_case(base_url, case, outdir, shots=True):
         try:
             ab("screenshot", str(outdir / f"case-{case['id']}-post-interaction.png"), timeout=60)
         except Exception as exc:
-            checks.append({"id": "evidence:screenshot", "area": "visual", "outcome": "NOT_RUN",
-                           "detail": f"screenshot failed: {exc}"})
+            checks.append({"id": "evidence:screenshot", "area": "visual",
+                           "outcome": "NOT_RUN", "requirement": REQ_EVIDENCE,
+                           "detail": f"screenshot failed (evidence-only, non-blocking): {exc}"})
 
-    outcomes = [c["outcome"] for c in checks]
-    disp = "FAIL" if "FAIL" in outcomes else "PASS"
-    return disp, checks, audit
+    return case_disposition(checks), checks, audit
 
 
 def main():
@@ -384,17 +397,17 @@ def main():
         "started_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "cases": [],
     }
-    overall, any_ran = "PASS", False
     try:
         wait_ready(args.base_url)
         renderer_class = "syllabai-v2-vercel" if "vercel.app" in args.base_url else "syllabai-v2-local-runtime"
     except Exception as exc:
         for c in cases:
             receipt["cases"].append({
-                "case_id": c["id"], "disposition": "NOT_RUN", "checks": [
-                    {"id": "renderer-available", "area": "completeness", "outcome": "NOT_RUN",
+                "case_id": c["id"], "disposition": OUTCOME_NOT_RUN, "checks": [
+                    {"id": "renderer-available", "area": "completeness",
+                     "outcome": OUTCOME_NOT_RUN, "requirement": "required",
                      "detail": f"hub/browser unavailable: {exc}"}]})
-        receipt["overall"] = "NOT_RUN"
+        receipt["overall"] = OUTCOME_NOT_RUN
         receipt["renderer"] = {"class": None, "note": "BLOCKED — renderer not reachable; NOT_RUN is not PASS"}
         (outdir / "g9-render-receipt.json").write_text(json.dumps(receipt, indent=1))
         print(f"G9 render check: BLOCKED ({exc}) — all cases NOT_RUN -> {outdir/'g9-render-receipt.json'}")
@@ -406,16 +419,14 @@ def main():
     for case in cases:
         try:
             disp, checks, audit = drive_case(args.base_url, case, outdir, shots=True)
-            any_ran = True
         except Exception as exc:
-            disp, checks = "NOT_RUN", [{"id": "case-driver", "area": "completeness", "outcome": "NOT_RUN",
-                                        "detail": f"driver error: {exc}"}]
+            disp, checks = OUTCOME_NOT_RUN, [{"id": "case-driver", "area": "completeness",
+                                              "outcome": OUTCOME_NOT_RUN, "requirement": "required",
+                                              "detail": f"driver error: {exc}"}]
         receipt["cases"].append({"case_id": case["id"], "disposition": disp, "checks": checks})
         print(f"  {case['id']}: {disp}")
-        if disp == "FAIL":
-            overall = "FAIL"
     receipt["finished_utc"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    receipt["overall"] = overall if any_ran else "NOT_RUN"
+    receipt["overall"] = leg_disposition(receipt["cases"])
     (outdir / "g9-render-receipt.json").write_text(json.dumps(receipt, indent=1))
     print(f"G9 render check: overall={receipt['overall']} -> {outdir/'g9-render-receipt.json'}")
     sys.exit(0 if receipt["overall"] == "PASS" else (2 if receipt["overall"] == "NOT_RUN" else 1))

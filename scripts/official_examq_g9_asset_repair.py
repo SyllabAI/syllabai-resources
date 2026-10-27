@@ -33,6 +33,9 @@ import time
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from official_examq_asset_bytes import publish_git_blob, AssetByteError  # F104 guard
+
 PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
 REPO = "SyllabAI/syllabai-resources"
 BRANCH = "g9-asset-byte-repair"
@@ -148,9 +151,13 @@ def main():
     def upload(item):
         u, rec = item
         fixed = fetch_bytes(u).decode("utf-8").encode("latin-1")
-        b = gh(f"/repos/{REPO}/git/blobs", "POST",
-               {"content": base64.b64encode(fixed).decode(), "encoding": "base64"}, token=token)
-        return u, b["sha"]
+        # F104 guard: validate the bytes by format truth BEFORE the POST, then
+        # verify the published blob reads back byte-identical (base64 always).
+        try:
+            published = publish_git_blob(REPO, rec.get("path") or u, fixed, token, gh=gh)
+        except AssetByteError as exc:
+            raise RuntimeError(f"asset-byte guard refused push for {u}: {exc}")
+        return u, published["sha"]
 
     with cf.ThreadPoolExecutor(max_workers=6) as ex:
         for i, (u, sha) in enumerate(ex.map(upload, bad.items())):

@@ -23,7 +23,7 @@ import json
 import re
 import sys
 
-BENCHMARK_VERSION = 1
+BENCHMARK_VERSION = 2  # F106 bump: maths-02r-2019-06 crop census moved with the run-012 figure wave (073639f) + the v2 serving sync — re-derived from the bundles of record
 VALIDATOR_VERSION = "g9-render-check/0.1"
 
 # (case_id, lane, course, topic_slug_suffix)

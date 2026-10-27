@@ -38,6 +38,10 @@ jobs:
         run: python3 scripts/c12_spec_tagger.py check scripts/c12_decisions/smoke-demo.agent-pass-1.yaml
       - name: sme speech transpile battery (T-RULE-T3-SUBSTRATE-1 pinned port-equivalence vs the of-record v2 ladder)
         run: python3 scripts/sme_speech_transpile_test.py
+      - name: G9 aggregation-law + asset-byte-guard tests (F105 — the seven required scenarios + F104 fixtures; zero network)
+        run: python3 scripts/official_examq_g9_tests.py
+      - name: F104 asset-byte guard scan (every assets/ file format-truth validated + dangling references)
+        run: python3 scripts/official_examq_asset_bytes.py --scan-corpus Official-ExamQuestion
 
   official-export-gates:
     runs-on: ubuntu-latest

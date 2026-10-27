@@ -1,0 +1,841 @@
+{
+ "receipt_schema": "syllabai.g9-static-receipt/0.1",
+ "validator_version": "g9-static-check/0.2",
+ "benchmark_version": 2,
+ "source": {
+  "corpus": null,
+  "bundles": "/home/z/my-project/g9fix/v2/apps/hub/content"
+ },
+ "cases": [
+  {
+   "case_id": "physics-2p-2023-06",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "36 vs 36"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "70 vs 70"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 3 vs 3; keyed 3 vs 3"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "2 vs 2"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "2 vs 2"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "2 vs 2"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2023-06_2p_1-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_2p_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_2p_2-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_2p_1-b-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "mcq-key:offp_2023-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "case_id": "physics-1p-2019-06",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 vs 12"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "47 vs 47"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 4 vs 4; keyed 4 vs 4"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 vs 10"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 vs 0"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 vs 10"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2019-06_1p_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_1p_1-b-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_1p_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_1p_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_1p_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "mcq-key:offp_2019-06_1p_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "case_id": "physics-2p-2024-06",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "33 vs 33"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "70 vs 70"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 2 vs 2; keyed 2 vs 2"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 vs 0"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2024-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2024-06_2p_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2024-06_2p_2-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2024-06_2p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2024-06_2p_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "mcq-key:offp_2024-06_2p_4-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "case_id": "physics-1p-2023-06",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "12 vs 12"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "45 vs 45"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 2 vs 2; keyed 2 vs 2"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "16 vs 16"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 vs 0"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "16 vs 16"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2023-06_1p_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1p_1-c-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1p_1-c-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_1p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2023-06_1p_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "mcq-key:offp_2023-06_1p_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-1c-2023-06",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 vs 10"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "55 vs 55"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 3 vs 3; keyed 3 vs 3"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 vs 0"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2023-06_1c_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1c_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2023-06_1c_1-a-iii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "mcq-key:offp_2023-06_1c_2-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-1c-2020-01",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "10 vs 10"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "60 vs 60"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "110 vs 110"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 3 vs 3; keyed 3 vs 3"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "13 vs 13"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 vs 0"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "13 vs 13"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2020-01_1c_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2020-01_1c_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2020-01_1c_1-a-iv",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2020-01_1c_1-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2020-01_1c_1-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "mcq-key:offp_2020-01_1c_7-a-i",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "case_id": "chemistry-2c-2019-06",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "8 vs 8"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "39 vs 39"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "70 vs 70"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 1 vs 1; keyed 1 vs 1"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "7 vs 7"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 vs 0"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "7 vs 7"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2019-06_2c_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_2c_1-c",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_2c_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_2c_2-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_2c_2-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "mcq-key:offp_2019-06_2c_6-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": ""
+    }
+   ]
+  },
+  {
+   "case_id": "maths-02r-2019-06",
+   "mode": "bundle",
+   "disposition": "PASS",
+   "checks": [
+    {
+     "id": "counts-questions",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "11 vs 11"
+    },
+    {
+     "id": "counts-parts",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "39 vs 39"
+    },
+    {
+     "id": "marks-total-law",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "100 vs 100"
+    },
+    {
+     "id": "counts-mcq",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "mcq 0 vs 0; keyed 0 vs 0"
+    },
+    {
+     "id": "counts-crops",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "11 vs 11"
+    },
+    {
+     "id": "counts-stubs",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "0 vs 0"
+    },
+    {
+     "id": "figures-inlined-count",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "6 vs 6"
+    },
+    {
+     "id": "marks-sum-per-question",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "violations: []"
+    },
+    {
+     "id": "fact:offp_2019-06_02r_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_02r_2-a-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "fact:offp_2019-06_02r_2-b-ii",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_02r_1-a",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    },
+    {
+     "id": "solfact:offp_2019-06_02r_1-b",
+     "area": "static",
+     "outcome": "PASS",
+     "requirement": "required",
+     "detail": "solution fact present in this text layer"
+    }
+   ]
+  }
+ ],
+ "overall": "PASS",
+ "summary": {
+  "physics-2p-2023-06": "PASS",
+  "physics-1p-2019-06": "PASS",
+  "physics-2p-2024-06": "PASS",
+  "physics-1p-2023-06": "PASS",
+  "chemistry-1c-2023-06": "PASS",
+  "chemistry-1c-2020-01": "PASS",
+  "chemistry-2c-2019-06": "PASS",
+  "maths-02r-2019-06": "PASS"
+ }
+}
