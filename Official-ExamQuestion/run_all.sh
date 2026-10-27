@@ -252,6 +252,15 @@ python3 "$RES/scripts/official_examq_enrich_verify.py" \
 battery_end 0
 
 # gate: every canary must hold before this corpus is shippable
+battery_begin "g9-static"
+# G9 learner-surface static leg (benchmark/README.md): the frozen rendered-question
+# contract verified against the corpus of record — marks law, count law, MCQ key
+# law, asset presence. The RENDERED leg is NOT part of the battery (needs a running
+# syllabai-v2 hub + a browser); its receipts live in benchmark/receipts/.
+python3 "$RES/scripts/official_examq_g9_static_check.py" --corpus "$ROOT" \
+  || { echo "G9 STATIC FAILED — corpus NOT shippable"; battery_end 1; finish_receipt; exit 1; }
+battery_end 0
+
 battery_begin "canaries"
 python3 "$ROOT/check_canaries.py" || { echo "CANARIES FAILED — corpus NOT shippable"; battery_end 1; finish_receipt; exit 1; }
 battery_end 0

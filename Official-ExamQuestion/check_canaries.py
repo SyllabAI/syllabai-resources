@@ -57,6 +57,15 @@ def find_part(topic, pn):
                 return p
     return None
 
+def _g9_static(args_label):
+    """Run the G9 static leg as a subprocess; returns (rc, tail)."""
+    import subprocess as sp
+    script = HERE.parent / "scripts" / "official_examq_g9_static_check.py"
+    r = sp.run([sys.executable, str(script), "--corpus", str(HERE)],
+               capture_output=True, text=True, timeout=600)
+    return r.returncode, (r.stdout + r.stderr)[-400:]
+
+
 for c in cans:
     cid, chk = c["id"], c["check"]
     series = c["series"]
@@ -1007,6 +1016,23 @@ for c in cans:
             for x in open_parts:
                 print("  ! drawing-linearization open:", x)
             print(f"  (drawing-linearization open census: {len(open_parts)} (pinned {expected}))")
+
+        elif chk == "g9_static_corpus_green":
+            # C107 (F104): the G9 learner-surface static leg holds on the corpus
+            rc, tail = _g9_static("corpus")
+            ok = (rc == 0)
+            if not ok:
+                print(f"  ! G9 static corpus leg FAILED rc={rc}: {tail}")
+
+        elif chk == "g9_mutated_fact_detected":
+            # C108 (F104): the mutated-fact negative control MUST be DETECTED
+            import subprocess as _sp
+            script = HERE.parent / "scripts" / "official_examq_g9_static_check.py"
+            r = _sp.run([sys.executable, str(script), "--corpus", str(HERE), "--negative-control"],
+                        capture_output=True, text=True, timeout=600)
+            ok = (r.returncode == 0 and "DETECTED" in (r.stdout + r.stderr))
+            if not ok:
+                print(f"  ! G9 mutated-fact control not DETECTED rc={r.returncode}: {(r.stdout + r.stderr)[-300:]}")
 
         else:
             ok = False

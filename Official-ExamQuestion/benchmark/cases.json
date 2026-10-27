@@ -1,0 +1,523 @@
+{
+ "benchmark_schema": "syllabai.g9-benchmark-cases/0.1",
+ "benchmark_version": 1,
+ "validator_version": "g9-render-check/0.1",
+ "note": "Frozen rendered-question benchmark contract. Expected facts derived from the syllabai-v2 hub official bundles of record (H3-cutover exports of the resources corpus of record). Re-derive only via official_examq_g9_casegen.py with a benchmark_version BUMP + LEDGER entry (anti-gaming rule).",
+ "cases": [
+  {
+   "id": "physics-2p-2023-06",
+   "lane": "igcse-physics-19",
+   "course": "igcse-physics-19",
+   "topic_slug": "official-4ph1-2p-2023-06",
+   "topic_id": "off_38b72975f6f8",
+   "paper": {
+    "date": "June 2023",
+    "number": "4PH1/2P"
+   },
+   "paper_key": "june-2023-4ph1-2p",
+   "url_path": "/courses/igcse-physics-19/past-papers/june-2023-4ph1-2p",
+   "selection": {
+    "rationale": "The F102 repair-reconversion slice (archive mislabel repaired, Task 15/22): end-to-end serving proof of the repaired bytes; carries MCQ, multipart, crops and honest crop-required stubs.",
+    "risk_classes": [
+     "multipart",
+     "mcq",
+     "figures",
+     "crop-required-stubs",
+     "repaired-source-F102"
+    ]
+   },
+   "expected": {
+    "questions": 8,
+    "parts": 36,
+    "marks_total": 70,
+    "mcq_parts": 3,
+    "mcq_keyed": 3,
+    "crop_assets": 2,
+    "crop_required_stubs": 2,
+    "mark_points": 36,
+    "crop_imgs_inlined": 2,
+    "solutions": 36
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2023-06_2p_1-b-i",
+     "snippet": "Calculate the moment of the weight of the pencil about the pivot."
+    },
+    {
+     "part_id": "offp_2023-06_2p_2-a",
+     "snippet": "A solid bar of chocolate is taken from a refrigerator."
+    },
+    {
+     "part_id": "offp_2023-06_2p_2-b-i",
+     "snippet": "Describe the motion of the particles in the chocolate when the chocolate is at a temperature of 45 °C."
+    }
+   ],
+   "solution_facts": [
+    {
+     "part_id": "offp_2023-06_2p_1-a",
+     "snippet": "A cannot be correct as g on Earth is not 100"
+    },
+    {
+     "part_id": "offp_2023-06_2p_1-b-i",
+     "snippet": "substitution into given formula; ignore units here"
+    }
+   ],
+   "mcq_interaction": {
+    "part_id": "offp_2023-06_2p_1-a",
+    "correct_label": "B",
+    "correct_text_snippet": "16 g",
+    "distractor_label": "A"
+   }
+  },
+  {
+   "id": "physics-1p-2019-06",
+   "lane": "igcse-physics-19",
+   "course": "igcse-physics-19",
+   "topic_slug": "official-4ph1-1p-2019-06",
+   "topic_id": "off_5a24529aa4f9",
+   "paper": {
+    "date": "June 2019",
+    "number": "4PH1/1P"
+   },
+   "paper_key": "june-2019-4ph1-1p",
+   "url_path": "/courses/igcse-physics-19/past-papers/june-2019-4ph1-1p",
+   "selection": {
+    "rationale": "The F101 OCR slice: image-only source scan recovered through the OCR source layer; page anchors must survive the serving path; the damaged-source regression class.",
+    "risk_classes": [
+     "damaged-source-OCR-F101",
+     "page-anchors",
+     "mcq",
+     "figures",
+     "multipart"
+    ]
+   },
+   "expected": {
+    "questions": 12,
+    "parts": 47,
+    "marks_total": 110,
+    "mcq_parts": 4,
+    "mcq_keyed": 4,
+    "crop_assets": 10,
+    "crop_required_stubs": 0,
+    "mark_points": 47,
+    "crop_imgs_inlined": 10,
+    "solutions": 47
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2019-06_1p_1-a-ii",
+     "snippet": "Draw a straight line linking each electromagnetic wave to its correct hazard."
+    },
+    {
+     "part_id": "offp_2019-06_1p_1-b-ii",
+     "snippet": "Which of these is a use for infrared waves?"
+    },
+    {
+     "part_id": "offp_2019-06_1p_2-a",
+     "snippet": "Describe an experiment to investigate the magnetic field pattern around a permanent bar magnet."
+    }
+   ],
+   "solution_facts": [
+    {
+     "part_id": "offp_2019-06_1p_1-a-i",
+     "snippet": "A is incorrect because it is a transverse wave"
+    },
+    {
+     "part_id": "offp_2019-06_1p_1-a-ii",
+     "snippet": "one mark for each correct line;;"
+    }
+   ],
+   "mcq_interaction": {
+    "part_id": "offp_2019-06_1p_1-a-i",
+    "correct_label": "C",
+    "correct_text_snippet": "sound",
+    "distractor_label": "A"
+   }
+  },
+  {
+   "id": "physics-2p-2024-06",
+   "lane": "igcse-physics-19",
+   "course": "igcse-physics-19",
+   "topic_slug": "official-4ph1-2p-2024-06",
+   "topic_id": "off_ac2e524f9cc2",
+   "paper": {
+    "date": "June 2024",
+    "number": "4PH1/2P"
+   },
+   "paper_key": "june-2024-4ph1-2p",
+   "url_path": "/courses/igcse-physics-19/past-papers/june-2024-4ph1-2p",
+   "selection": {
+    "rationale": "Graph-asset class: line-graph crops must resolve and load in the served DOM.",
+    "risk_classes": [
+     "figures",
+     "graph-assets",
+     "multipart"
+    ]
+   },
+   "expected": {
+    "questions": 8,
+    "parts": 33,
+    "marks_total": 70,
+    "mcq_parts": 2,
+    "mcq_keyed": 2,
+    "crop_assets": 8,
+    "crop_required_stubs": 0,
+    "mark_points": 33,
+    "crop_imgs_inlined": 8,
+    "solutions": 33
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2024-06_2p_1-a",
+     "snippet": "The Hertzsprung-Russell (HR) diagram shown can be used to classify stars."
+    },
+    {
+     "part_id": "offp_2024-06_2p_2-a",
+     "snippet": "Calculate the moment applied by the wrench on the nut."
+    },
+    {
+     "part_id": "offp_2024-06_2p_2-b",
+     "snippet": "State two changes that could be made to increase the size of the moment applied to the nut."
+    }
+   ],
+   "solution_facts": [
+    {
+     "part_id": "offp_2024-06_2p_1-a",
+     "snippet": "one mark for each correct line; reject mark if more"
+    },
+    {
+     "part_id": "offp_2024-06_2p_1-b",
+     "snippet": "(a measure of) brightness; allow power,"
+    }
+   ],
+   "mcq_interaction": {
+    "part_id": "offp_2024-06_2p_4-a-i",
+    "correct_label": "A",
+    "correct_text_snippet": "friction",
+    "distractor_label": "B"
+   }
+  },
+  {
+   "id": "physics-1p-2023-06",
+   "lane": "igcse-physics-19",
+   "course": "igcse-physics-19",
+   "topic_slug": "official-4ph1-1p-2023-06",
+   "topic_id": "off_c39a099491a8",
+   "paper": {
+    "date": "June 2023",
+    "number": "4PH1/1P"
+   },
+   "paper_key": "june-2023-4ph1-1p",
+   "url_path": "/courses/igcse-physics-19/past-papers/june-2023-4ph1-1p",
+   "selection": {
+    "rationale": "Heaviest crop surface of the 1P lane (16 crop assets) + the exact 110-mark footer law; figure-association stress case.",
+    "risk_classes": [
+     "figures",
+     "heavy-crop-surface",
+     "multipart",
+     "marks-law-110"
+    ]
+   },
+   "expected": {
+    "questions": 12,
+    "parts": 45,
+    "marks_total": 110,
+    "mcq_parts": 2,
+    "mcq_keyed": 2,
+    "crop_assets": 16,
+    "crop_required_stubs": 0,
+    "mark_points": 45,
+    "crop_imgs_inlined": 16,
+    "solutions": 45
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2023-06_1p_1-b",
+     "snippet": "Which of these is the correct description of the term half-life?"
+    },
+    {
+     "part_id": "offp_2023-06_1p_1-c-i",
+     "snippet": "The box gives the names of different pieces of equipment."
+    },
+    {
+     "part_id": "offp_2023-06_1p_1-c-ii",
+     "snippet": "Count rate in counts / s 0 10 20 30 40 50 Time in s Draw a circle around the anomalous result."
+    }
+   ],
+   "solution_facts": [
+    {
+     "part_id": "offp_2023-06_1p_1-a",
+     "snippet": "B is incorrect because it is the unit of mass"
+    },
+    {
+     "part_id": "offp_2023-06_1p_1-b",
+     "snippet": "A (time taken for the activity of a substance to"
+    }
+   ],
+   "mcq_interaction": {
+    "part_id": "offp_2023-06_1p_1-a",
+    "correct_label": "A",
+    "correct_text_snippet": "becquerel",
+    "distractor_label": "B"
+   }
+  },
+  {
+   "id": "chemistry-1c-2023-06",
+   "lane": "igcse-chemistry-19",
+   "course": "igcse-chemistry-19",
+   "topic_slug": "official-4ch1-1c-2023-06",
+   "topic_id": "off_be81a36ea17a",
+   "paper": {
+    "date": "June 2023",
+    "number": "4CH1/1C"
+   },
+   "paper_key": "june-2023-4ch1-1c",
+   "url_path": "/courses/igcse-chemistry-19/past-papers/june-2023-4ch1-1c",
+   "selection": {
+    "rationale": "The chemistry corpus-of-record slice: ce{} chemistry notation through KaTeX-mhchem, multi-point mark schemes, keyed MCQ.",
+    "risk_classes": [
+     "chemistry-notation",
+     "mark-points",
+     "mcq",
+     "figures"
+    ]
+   },
+   "expected": {
+    "questions": 10,
+    "parts": 55,
+    "marks_total": 110,
+    "mcq_parts": 3,
+    "mcq_keyed": 3,
+    "crop_assets": 8,
+    "crop_required_stubs": 0,
+    "mark_points": 86,
+    "crop_imgs_inlined": 8,
+    "solutions": 55
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2023-06_1c_1-a-i",
+     "snippet": "The box gives some methods that are involved in the separation of mixtures."
+    },
+    {
+     "part_id": "offp_2023-06_1c_1-a-ii",
+     "snippet": "Give the best method for separating the dyes in black ink."
+    },
+    {
+     "part_id": "offp_2023-06_1c_1-a-iii",
+     "snippet": "Give the best method for obtaining pure water from seawater."
+    }
+   ],
+   "solution_facts": [],
+   "mcq_interaction": {
+    "part_id": "offp_2023-06_1c_2-a-ii",
+    "correct_label": "D",
+    "correct_text_snippet": "oxidation",
+    "distractor_label": "A"
+   }
+  },
+  {
+   "id": "chemistry-1c-2020-01",
+   "lane": "igcse-chemistry-19",
+   "course": "igcse-chemistry-19",
+   "topic_slug": "official-4ch1-1c-2020-01",
+   "topic_id": "off_fa9570ecf079",
+   "paper": {
+    "date": "January 2020",
+    "number": "4CH1/1C"
+   },
+   "paper_key": "january-2020-4ch1-1c",
+   "url_path": "/courses/igcse-chemistry-19/past-papers/january-2020-4ch1-1c",
+   "selection": {
+    "rationale": "The MCQ adjudication-ledger class (MCQ-KEYS.json history): keys must stay attested, never auto-derived, in the served player.",
+    "risk_classes": [
+     "mcq-adjudication-ledger",
+     "figures",
+     "multipart"
+    ]
+   },
+   "expected": {
+    "questions": 10,
+    "parts": 60,
+    "marks_total": 110,
+    "mcq_parts": 3,
+    "mcq_keyed": 3,
+    "crop_assets": 13,
+    "crop_required_stubs": 0,
+    "mark_points": 93,
+    "crop_imgs_inlined": 13,
+    "solutions": 60
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2020-01_1c_1-a-i",
+     "snippet": "This question is about gases in the atmosphere."
+    },
+    {
+     "part_id": "offp_2020-01_1c_1-a-ii",
+     "snippet": "Identify a gas that makes up about 78% of the atmosphere."
+    },
+    {
+     "part_id": "offp_2020-01_1c_1-a-iv",
+     "snippet": "Identify a gas produced by the thermal decomposition of calcium carbonate."
+    }
+   ],
+   "solution_facts": [
+    {
+     "part_id": "offp_2020-01_1c_1-a-i",
+     "snippet": "Noble gases make up about 1% of dry air, mostly argon. Any Group 0 gas is credited."
+    },
+    {
+     "part_id": "offp_2020-01_1c_1-a-ii",
+     "snippet": "Nitrogen makes up about 78% of the atmosphere — the largest single component of dry air."
+    }
+   ],
+   "mcq_interaction": {
+    "part_id": "offp_2020-01_1c_7-a-i",
+    "correct_label": "B",
+    "correct_text_snippet": "bromine",
+    "distractor_label": "A"
+   }
+  },
+  {
+   "id": "chemistry-2c-2019-06",
+   "lane": "igcse-chemistry-19",
+   "course": "igcse-chemistry-19",
+   "topic_slug": "official-4ch1-2c-2019-06",
+   "topic_id": "off_025d4d9fa924",
+   "paper": {
+    "date": "June 2019",
+    "number": "4CH1/2C"
+   },
+   "paper_key": "june-2019-4ch1-2c",
+   "url_path": "/courses/igcse-chemistry-19/past-papers/june-2019-4ch1-2c",
+   "selection": {
+    "rationale": "The rasterized-archive legacy slice (2019-06 G1/G5 REVIEW history, later closed): serving-state proof for the oldest chemistry paper.",
+    "risk_classes": [
+     "rasterized-source-legacy",
+     "figures",
+     "multipart"
+    ]
+   },
+   "expected": {
+    "questions": 8,
+    "parts": 39,
+    "marks_total": 70,
+    "mcq_parts": 1,
+    "mcq_keyed": 1,
+    "crop_assets": 7,
+    "crop_required_stubs": 0,
+    "mark_points": 63,
+    "crop_imgs_inlined": 7,
+    "solutions": 39
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2019-06_2c_1-a",
+     "snippet": "The diagram shows the particles in an atom of an element."
+    },
+    {
+     "part_id": "offp_2019-06_2c_1-c",
+     "snippet": "Isotopes are atoms that have the same number of but have a different number of"
+    },
+    {
+     "part_id": "offp_2019-06_2c_2-a",
+     "snippet": "The table gives some information about the halogens, chlorine, bromine and iodine Complete the table."
+    }
+   ],
+   "solution_facts": [
+    {
+     "part_id": "offp_2019-06_2c_2-a",
+     "snippet": "The colour of iodine is black. This is a characteristic physical property of iodine at room temperature."
+    },
+    {
+     "part_id": "offp_2019-06_2c_2-b",
+     "snippet": "(35 × 77.78) + (37 × 22.22) = 3544.44"
+    }
+   ],
+   "mcq_interaction": {
+    "part_id": "offp_2019-06_2c_6-a-ii",
+    "correct_label": "C",
+    "correct_text_snippet": "30°C",
+    "distractor_label": "A"
+   }
+  },
+  {
+   "id": "maths-02r-2019-06",
+   "lane": "igcse-maths-b-16",
+   "course": "igcse-maths-b-16",
+   "topic_slug": "official-4mb1-02r-2019-06",
+   "topic_id": "off_9517ed4acc1e",
+   "paper": {
+    "date": "June 2019",
+    "number": "4MB1/02R"
+   },
+   "paper_key": "june-2019-4mb1-02r",
+   "url_path": "/courses/igcse-maths-b-16/past-papers/june-2019-4mb1-02r",
+   "selection": {
+    "rationale": "The maths typesetting class: LaTeX fractions/working through remark-math + KaTeX, M1/A1 mark codes through the MarkScheme component, zero MCQ.",
+    "risk_classes": [
+     "math-typesetting",
+     "mark-codes-M1A1",
+     "figures",
+     "no-mcq"
+    ]
+   },
+   "expected": {
+    "questions": 11,
+    "parts": 39,
+    "marks_total": 100,
+    "mcq_parts": 0,
+    "mcq_keyed": 0,
+    "crop_assets": 10,
+    "crop_required_stubs": 1,
+    "mark_points": 37,
+    "crop_imgs_inlined": 6,
+    "solutions": 39,
+    "crop_inline_gaps": [
+     {
+      "part_id": "offp_2019-06_02r_5-d",
+      "path": "assets/asset_5_b_grid_stem.png"
+     },
+     {
+      "part_id": "offp_2019-06_02r_6",
+      "path": "assets/asset_6_diagram.png"
+     },
+     {
+      "part_id": "offp_2019-06_02r_7-e",
+      "path": "assets/asset_7_a_table.png"
+     },
+     {
+      "part_id": "offp_2019-06_02r_11",
+      "path": "assets/asset_11_q_diagram_stem.png"
+     }
+    ]
+   },
+   "fact_parts": [
+    {
+     "part_id": "offp_2019-06_02r_1-a",
+     "snippet": "Complete the Venn diagram for the sets 2 A, B and C."
+    },
+    {
+     "part_id": "offp_2019-06_02r_2-a-ii",
+     "snippet": "Represent your solution onthe number line on the next page."
+    },
+    {
+     "part_id": "offp_2019-06_02r_2-b-ii",
+     "snippet": "Represent your solution on the same number line."
+    }
+   ],
+   "solution_facts": [
+    {
+     "part_id": "offp_2019-06_02r_1-a",
+     "snippet": "3 B3 all 6 regions correct"
+    },
+    {
+     "part_id": "offp_2019-06_02r_1-b",
+     "snippet": "{2, 4, 8} 1 B1 or ft their Venn diagram"
+    }
+   ],
+   "mcq_interaction": null
+  }
+ ]
+}

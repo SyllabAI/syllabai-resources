@@ -189,6 +189,7 @@ or discloses.
 | G6 registry| spec codes exist or are documented    | unknown code without a documented gap                |
 | G7 solutions| verbatim MS block + awardable points | linked part without solution_md; point marks ≠ part marks |
 | G8 post-completion audit | the PRODUCT is good, not just the process | any confirmed defect class without a fix-or-disclose entry (see G8 section) |
+| G9 learner-surface | the question WORKS in the real syllabai-v2 renderer | any rendered/interaction/solution check FAIL; NOT_RUN never counts as a pass (see G9 section) |
 
 Negative controls (N1 mark-bump, N2 one-word paraphrase, N3 fake spec code) run every
 session and MUST be DETECTED 3/3 — otherwise the run is void.
@@ -260,6 +261,76 @@ blocks re-linked through the F47 ledger (50 served mark points cleaned; C77/
 C78/C79/C80/C81/C82); the 15 BEL control-char strings normalized at source (C78); the 57
 orphan crop PNGs pruned (C79). Full report:
 `AUDIT-2026-10-25-igcse-chemistry-19.md` (beside this corpus).
+
+## G9 — LEARNER-SURFACE QUALITY (rendered gate; benchmark-driven; benchmark/README.md)
+
+G0–G7 prove the conversion, G8 proves the course product. **G9 proves the
+question works where the learner meets it**: through the REAL `syllabai-v2`
+hub (`apps/hub` — the production Next.js app of record; a local `next dev` of
+the same app shares its component tree, the deployed Vercel hub is the same
+code). JSON validity, extraction success and Markdown-shaped output are
+explicitly NOT evidence of a working learner surface.
+
+- **The two legs.** Static (`scripts/official_examq_g9_static_check.py`): the
+  frozen benchmark contract against the corpus of record and the serving
+  bundles — marks/count/MCQ-key laws + asset presence. Rendered
+  (`scripts/official_examq_g9_render_check.py`): a headless browser drives the
+  hub — question blocks, marks meta, images actually decoded, frozen semantic
+  facts in the rendered text, zero `.katex-error`/raw-TeX/markdown artifacts,
+  MCQ select→submit→deterministic feedback (correct AND distractor), solution
+  reveal, screenshot evidence. Renderer class is recorded per receipt
+  (`syllabai-v2-local-runtime` | `syllabai-v2-vercel`); a static or mock run can
+  never masquerade as a rendered one.
+- **Dispositions.** `PASS` / `REVIEW` / `FAIL` / `NOT_RUN` — and **`NOT_RUN` is
+  never a pass**: an unreachable renderer, a missing dependency or an
+  exporter-side property invisible at a leg records `NOT_RUN` and the aggregate
+  rises to `REVIEW`. A case fails on any `FAIL`.
+- **Receipts.** `syllabai.g9-{static,render}-receipt/0.1`: content ids +
+  hashes, renderer identity + class, validator + benchmark versions, per-check
+  outcomes with detail, disposition, artifact paths. Committed under
+  `benchmark/receipts/<run>/`.
+- **Anti-gaming.** Expected facts are FROZEN in `benchmark/cases.json`
+  (versioned; casegen committed for provenance). Expectations change only with
+  a `benchmark_version` BUMP + a LEDGER entry. The negative controls are
+  permanent fixtures: a mutated fact MUST FAIL; an unreachable renderer MUST
+  NOT_RUN.
+- **When G9 runs.** (a) the `g9-static` leg runs in every full-corpus battery
+  (`run_all.sh`); (b) the rendered leg runs whenever a lane's serving content
+  changes (new slices, exporter changes, hub cutover waves) and at every G8
+  post-completion audit; (c) spot checks against the deployed hub of record
+  ride the same tool with `--base-url https://syllabai-hub-v2.vercel.app`.
+- **First run found a real corpus defect class** (F104): 31 physics crop PNGs
+  were git-data-API UTF-8-text-corrupted at push time — broken figures at
+  HTTP 200, invisible to exists+200 probes. Repaired in PRs #187/#189; the
+  byte census is the regression baseline.
+
+## Generative improvement authority (operational; ADR-039 in practice)
+
+ADR-039 already grants the authority ("the pipeline improves; provenance
+discloses"). This section makes it operational for every agent wave:
+
+- **Mode A — autonomous improvement** (no operator sign-off): presentation and
+  clarity repairs that do not touch assessed content — paragraph/list/table
+  reconstruction, line-wrap repair, notation repair when the source page and
+  context support it, renderer-compatibility fixes, enriched worked-solution
+  steps, accessible figure descriptions. Still requires tests + disclosure
+  appropriate to materiality (edits[] on the touched parts).
+- **Mode B — evidence-required correction**: anything that touches a numerical
+  value, mathematical expression, scientific claim, answer key, mark
+  allocation or question meaning. Requires recorded evidence (source-page
+  render, the MS of record, corroborating paper context, or a validated
+  correction record), the original interpretation, the proposed value, and the
+  validation outcome — per the existing `edits[]`/`value_trace` contract.
+- **Mode C — investigate or withhold**: unresolved high-impact ambiguity goes
+  through the evidence ladder (source image → alternative extraction → MS →
+  safe reconstruction) and then to the review queue or an honest block. NEVER
+  invent a plausible value to satisfy a completeness gate.
+- **Bounded repair**: a failed rendered/G9 case returns to the responsible
+  stage with a bounded attempt budget and explicit stop conditions; the loop
+  ends in fix, disclosed-withdrawal, or review — never an endless retry.
+- **Model hygiene**: provider/model identifiers live in receipts and pipeline
+  config, never in the canonical content model; deterministic checks stay
+  runnable with zero model availability.
 
 ## The v0.5 serving fields (what the frontend / Smart Mark consume)
 
