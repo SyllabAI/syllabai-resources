@@ -1,5 +1,25 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.26.0 — 2026-10-27 · G9 learner-surface gate + rendered-question benchmark (F104) + the asset-byte repair
+
+The pipeline's first RENDERED-SURFACE gate. Converter unchanged (still v0.25.0); this wave adds the
+verification layer + repairs the first defect class it caught.
+
+- **G9 (named to avoid the existing G8 post-completion-audit collision)**: `benchmark/cases.json` v1 —
+  8 frozen real-corpus cases across 4PH1/4CH1/4MB1 (repaired slice, OCR slice, graph assets, heavy
+  crops, ce-notation, MCQ adjudication, rasterized legacy, LaTeX typesetting). Static leg
+  (`scripts/official_examq_g9_static_check.py`) in the `run_all.sh` battery (`g9-static`); rendered leg
+  (`scripts/official_examq_g9_render_check.py`) drives the REAL syllabai-v2 hub via a headless browser.
+  Dispositions PASS/REVIEW/FAIL/NOT_RUN; NOT_RUN never passes; renderer class recorded per receipt.
+- **F104 — the asset-byte defect of record**: 31 physics crop PNGs pushed as UTF-8 text blobs
+  (broken figures at HTTP 200) + 1 dangling crop reference. Repaired: PRs #187/#189 (byte-exact
+  reversal + the rebuilt 2023-01 crop). Census committed as the regression baseline.
+- **Verification state**: static corpus 8/8 + static bundles 8/8; rendered 8/8 (local syllabai-v2
+  runtime) + 2/2 deployed-hub spot; mutated-fact negative control FAILs; dead-renderer control
+  NOT_RUNs. Canaries C107/C108 pin the static leg + the negative control.
+- Docs: AGENTS.md (G9 section + operational generative-authority modes A/B/C), README.md (gate
+  table + the physics-status reconciliation to the 55/55 + H3-cutover truth), benchmark/README.md.
+
 ## 0.23.0+task20 — 2026-10-27 · Task 20: the C98 crop wave (data + canary-arm wave — converter unchanged)
 
 The Task 19 deep audit's disclosed crop-wave queue (Finding 2, C98-pinned at 15) executed

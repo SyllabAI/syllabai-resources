@@ -50,6 +50,18 @@
    "expected": 12
   },
   {
+   "id": "C107-g9-static-corpus-green",
+   "series": "*",
+   "assertion": "the G9 learner-surface static leg (benchmark/cases.json v1, corpus mode) holds on the corpus of record: marks law, count law, MCQ key law, asset presence on all 8 benchmark slices (F104)",
+   "check": "g9_static_corpus_green"
+  },
+  {
+   "id": "C108-g9-mutated-fact-detected",
+   "series": "*",
+   "assertion": "G9 negative control: a mutated expected fact MUST fail the static leg in serving-bundle mode (the harness detects semantic mutation; F104 anti-gaming law)",
+   "check": "g9_mutated_fact_detected"
+  },
+  {
    "id": "C9-negative-controls",
    "series": "*",
    "assertion": "negative controls N1-N3 DETECTED as undisclosed-mutation violations on every series, every run (ADR-039 §5: N1 → value_trace, N2 → missing edits[], N3 → G6 refusal)",

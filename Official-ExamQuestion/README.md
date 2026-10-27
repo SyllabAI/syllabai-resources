@@ -42,6 +42,7 @@
 | G7 solutions | every MS-linked part carries solution_md + mark_points summing to the part marks |
 | G5 answers | positional linkage into the official MS; coverage reported; unmatched → review |
 | G6 registry | spec codes must exist in the SME spec-point resolution registry or be documented gaps → review; nothing fabricated |
+| G9 learner-surface | the question works in the REAL syllabai-v2 renderer (rendered-question benchmark; `benchmark/README.md`) | any rendered/interaction/solution check FAIL; NOT_RUN never counts as a pass |
 
 Negative controls run every session and target **undisclosed** mutation (ADR-039 §5): a
 bumped mark must surface as a value_trace violation, a one-word paraphrase must surface
@@ -99,10 +100,18 @@ is the executed precedent.
   parts terminal (2,106 registry-validated llm-spec-wave codes + 65 no-spec-point
   decisions + 0 pending-llm). The withheld surface is now EMPTY and the asset review
   flags are zero.
-- 5 dirs dispositioned with standing receipts: 2020-11 1PR/2P/2PR (no QP in archive,
-  `na:pmt-not-listed`), 2019-06 1P (image-only scan, OCR wave open), 2023-06 2P
-  (archive bytes are an Examiners' Report — pastpapers repair owed).
-- Full disclosure, open waves and receipts: `igcse-physics-19/LANE-STATUS.md`;
-  per-slice matrix: `igcse-physics-19/MULTI-SERIES-REPORT.{md,json}`. Hub handover
-  NOT started (the hub still serves the SME sets for physics).
+- 5 dirs dispositioned with standing receipts — and the two conversion gaps CLOSED
+  by Task 22 (F101/F102): 2019-06 1P recovered through the OCR source layer, the
+  2023-06 2P repair-reconversion consumed, and the 2020-11 NO-QP trio stays
+  `na:pmt-not-listed` (one-round source probe receipted). **The lane is 55/55
+  fully PASS at converter v0.25.0** (LANE-STATUS.md is the disclosure of record).
+- **Hub handover LANDED (F103, H3 cutover)**: the hub's Past Papers plane serves
+  `official-papers.json` — 55 official sets (540 questions / 2,254 parts / 4,970
+  marks) exported from this corpus (manifest `importSource.ref` = the corpus
+  commit of record). The older "hub still serves the SME sets" state above is
+  historical.
+- **Learner-surface verification (G9)**: the rendered-question benchmark
+  (`benchmark/`) drives the real syllabai-v2 renderer over 8 frozen cases
+  spanning all three lanes — 8/8 PASS at `benchmark_version` 1; receipts in
+  `benchmark/receipts/`.
 
