@@ -1,8 +1,16 @@
 #!/usr/bin/env python3
 """Corrective commit for the G9 asset repair: move the 31 misplaced root
 assets/ blobs to their true slice paths (fresh blobs, collision-safe) and
-delete the stray root files added by 4a10484a99."""
-import base64, json, urllib.request, concurrent.futures as cf
+delete the stray root files added by 4a10484a99.
+
+Blob publication now routes through the F104 asset-byte guard
+(scripts/official_examq_asset_bytes.py): format-truth validation BEFORE the
+POST, base64-only binary encoding, read-back byte-identity after publish."""
+import base64, json, sys, urllib.request, concurrent.futures as cf
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from official_examq_asset_bytes import publish_git_blob, AssetByteError
 
 REPO = "SyllabAI/syllabai-resources"
 TOK = open("/home/z/my-project/.creds/gh.pat").read().strip()
@@ -38,9 +46,13 @@ def upload(item):
     full, rec = item
     u = [k for k, v in bad.items() if v is rec][0]
     fixed = urllib.request.urlopen(u, timeout=60).read().decode("utf-8").encode("latin-1")
-    assert fixed.startswith(b"\x89PNG"), full
-    b = gh(f"/repos/{REPO}/git/blobs", "POST", {"content": base64.b64encode(fixed).decode(), "encoding": "base64"})
-    return full, b["sha"]
+    # F104 guard: validate-before-push + read-back byte-identity (replaces the
+    # bare assert; an HTTP 200 or a bare magic check proves nothing alone)
+    try:
+        published = publish_git_blob(REPO, full, fixed, TOK, gh=gh)
+    except AssetByteError as exc:
+        raise RuntimeError(f"asset-byte guard refused push for {full}: {exc}")
+    return full, published["sha"]
 
 entries = []
 stray_names = set()

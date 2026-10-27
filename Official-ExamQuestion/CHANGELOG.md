@@ -1,5 +1,39 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.27.0 — 2026-10-27 · G9 aggregation law as code (F105) + the asset-byte guard (the F104 boundary fix) + benchmark v2 (F106)
+
+Verification-layer release; converter unchanged (still v0.25.0). Three corrections of record:
+
+- **F105 — the aggregation law is now code, not prose.** The README said a case that
+  could not be established rises to REVIEW, but the static checker dispositioned a case
+  PASS whenever any check passed (corpus-mode `figures-inlined-count: NOT_RUN` and
+  absent-from-verbatim fact/solfact NOT_RUNs rode inside PASS), and the render leg could
+  leave overall=PASS past a mid-run driver failure. Fix: `scripts/official_examq_g9_semantics.py`
+  (single source of truth — required/delegated/evidence check classes; NOT_RUN never
+  passes; NOT_APPLICABLE lawful only with an explicit responsible-layer contract, never
+  a silent pass; the OVERALL gate = all three mandatory legs green + every delegation
+  covered) + `scripts/official_examq_g9_aggregate.py` (the overall learner-surface gate
+  over the receipts). Static check 0.2 + render check 0.4 refactored onto the law; the
+  seven required scenarios are pinned by `scripts/official_examq_g9_tests.py` in
+  corpus-gates CI. Honesty correction: run0's evidence table cited three render/control
+  receipts that were never committed; run1 re-runs every leg under the law and commits
+  ALL receipts.
+- **The asset-byte guard — validation at the earliest reliable boundary (F104 class).**
+  `scripts/official_examq_asset_bytes.py`: format-truth validation by actual bytes
+  (PNG signature + chunk CRC walk + IDAT zlib decompression + scanline law; JPEG/GIF/
+  WEBP/PDF/SVG by their real formats — never assume PNG), UTF-8-mojibake rejection
+  (the observed C2 89 50 4E 47 class) with actionable path-naming errors,
+  `publish_git_blob()` (validate BEFORE push, base64 binary only, read-back sha256
+  byte-identity — an HTTP 200 is never evidence by itself), `--scan-corpus` (CI step:
+  every assets/ file + dangling references), the static leg's required
+  `asset-bytes-valid` check, and both committed repair pushers routed through the
+  guard. Provider-free validators; publication concerns stay in the infrastructure
+  layer. AGENTS.md iron rule 6.
+- **F106 — benchmark v1 -> v2 (documented bump).** The maths-B run-012 wave moved the
+  served `maths-02r-2019-06` slice (10 crops + 1 stub -> 11 + 0); the frozen v1 case no
+  longer matched the serving bundles of record. Re-derived via the committed casegen;
+  only the maths case moved; version bump + LEDGER entry per the anti-gaming law.
+
 ## 0.26.0 — 2026-10-27 · G9 learner-surface gate + rendered-question benchmark (F104) + the asset-byte repair
 
 The pipeline's first RENDERED-SURFACE gate. Converter unchanged (still v0.25.0); this wave adds the

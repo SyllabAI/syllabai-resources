@@ -113,6 +113,14 @@ Run the whole corpus and verify nothing regressed:
 5. **Registry or review.** Spec-point codes must exist in the SME spec-point resolution
    registry (`spec_point_resolution.json`) or be documented gaps. Unresolved codes go
    to the review queue tagged `pending-llm` / `registry-gap-review`.
+6. **Binary assets cross the boundary only through the byte guard (F104/F105).** Any
+   asset published or committed goes through `scripts/official_examq_asset_bytes.py`:
+   format-truth validation (by actual bytes, never extension or URL status; UTF-8-
+   mojibake binaries — the `C2 89 50 4E 47` class — rejected) BEFORE the push, base64
+   binary encoding only, and a read-back that demands sha256 byte-identity with the
+   source. An HTTP 200 from an API or CDN is never evidence of a healthy asset; byte
+   identity is. Wave scripts that push assets MUST import the guard — a bare git-data
+   POST is an iron-rule violation even when the bytes happen to be right.
 
 ## Operating culture — receipts & batteries (F63)
 
@@ -281,10 +289,18 @@ explicitly NOT evidence of a working learner surface.
   reveal, screenshot evidence. Renderer class is recorded per receipt
   (`syllabai-v2-local-runtime` | `syllabai-v2-vercel`); a static or mock run can
   never masquerade as a rendered one.
-- **Dispositions.** `PASS` / `REVIEW` / `FAIL` / `NOT_RUN` — and **`NOT_RUN` is
-  never a pass**: an unreachable renderer, a missing dependency or an
-  exporter-side property invisible at a leg records `NOT_RUN` and the aggregate
-  rises to `REVIEW`. A case fails on any `FAIL`.
+- **Dispositions.** `PASS` / `REVIEW` / `FAIL` / `NOT_RUN` / `NOT_APPLICABLE` — and
+  **`NOT_RUN` is never a pass**: a required check that did not run can never yield a
+  `PASS`ing case; mixed cases rise to `REVIEW`; a case fails on any `FAIL`. A check that
+  is genuinely not applicable at one layer is recorded `NOT_APPLICABLE` and NAMES the
+  responsible validation layer(s) ("delegated") — lawful only because those layers are
+  themselves mandatory legs of the overall gate; it never silently counts as a pass.
+  The aggregation law is code (`scripts/official_examq_g9_semantics.py`, F105) shared by
+  both legs, and the OVERALL learner-surface gate (`official_examq_g9_aggregate.py`) is
+  `PASS` only when all three mandatory legs (static-corpus, static-bundles, rendered)
+  and every required check completed successfully, with every delegation covered. The
+  law's seven required scenarios are pinned by `scripts/official_examq_g9_tests.py` in
+  CI (corpus-gates).
 - **Receipts.** `syllabai.g9-{static,render}-receipt/0.1`: content ids +
   hashes, renderer identity + class, validator + benchmark versions, per-check
   outcomes with detail, disposition, artifact paths. Committed under

@@ -1,6 +1,6 @@
 {
  "benchmark_schema": "syllabai.g9-benchmark-cases/0.1",
- "benchmark_version": 1,
+ "benchmark_version": 2,
  "validator_version": "g9-render-check/0.1",
  "note": "Frozen rendered-question benchmark contract. Expected facts derived from the syllabai-v2 hub official bundles of record (H3-cutover exports of the resources corpus of record). Re-derive only via official_examq_g9_casegen.py with a benchmark_version BUMP + LEDGER entry (anti-gaming rule).",
  "cases": [
@@ -469,8 +469,8 @@
     "marks_total": 100,
     "mcq_parts": 0,
     "mcq_keyed": 0,
-    "crop_assets": 10,
-    "crop_required_stubs": 1,
+    "crop_assets": 11,
+    "crop_required_stubs": 0,
     "mark_points": 37,
     "crop_imgs_inlined": 6,
     "solutions": 39,
@@ -482,6 +482,10 @@
      {
       "part_id": "offp_2019-06_02r_6",
       "path": "assets/asset_6_diagram.png"
+     },
+     {
+      "part_id": "offp_2019-06_02r_7-b",
+      "path": "assets/asset_7_7-b.png"
      },
      {
       "part_id": "offp_2019-06_02r_7-e",
