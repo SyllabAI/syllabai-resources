@@ -1,16 +1,16 @@
 {
  "schema": "syllabai.sme-flashcards/1.0",
- "generated_utc": "2026-10-17T03:46:57Z",
+ "generated_utc": "2026-10-27T18:46:08Z",
  "source": {
   "provider": "Save My Exams",
   "registry": "scripts/sme_flashcards_scrape.py REGISTRY",
   "license": "operator-authorized; see LICENSE-DATA.md (SME attestation)"
  },
  "totals": {
-  "courses_active": 70,
-  "decks": 1751,
-  "cards": 52846,
-  "flags": 1680,
+  "courses_active": 77,
+  "decks": 1913,
+  "cards": 56572,
+  "flags": 1852,
   "deck_failures": 0
  },
  "registry": {
@@ -265,6 +265,54 @@
   "cie-as-environmental-management-20": {
    "status": "missing_on_sme",
    "reason": "no flashcard decks on SME (Cambridge census 2026-10-17)"
+  },
+  "cie-as-chemistry-25": {
+   "path": "as/chemistry/cie/25",
+   "expected_decks": 49
+  },
+  "cie-as-biology-25": {
+   "path": "as/biology/cie/25",
+   "expected_decks": 24
+  },
+  "cie-as-physics-25": {
+   "path": "as/physics/cie/25",
+   "expected_decks": 32
+  },
+  "cie-as-maths-20-pure-1": {
+   "path": "as/maths/cie/20/pure-1",
+   "expected_decks": 22
+  },
+  "cie-as-maths-20-pure-2": {
+   "path": "as/maths/cie/20/pure-2",
+   "expected_decks": 15
+  },
+  "cie-as-maths-20-mechanics": {
+   "path": "as/maths/cie/20/mechanics",
+   "expected_decks": 10
+  },
+  "cie-as-maths-20-probability-and-statistics-1": {
+   "path": "as/maths/cie/20/probability-and-statistics-1",
+   "expected_decks": 10
+  },
+  "cie-as-business-23": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"
+  },
+  "cie-as-computer-science-19": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"
+  },
+  "cie-as-accounting-21": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"
+  },
+  "cie-a-level-geography-21": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"
+  },
+  "igcse-history-17": {
+   "status": "missing_on_sme",
+   "reason": "no flashcard decks on SME (live probe 2026-10-28: /flashcards/ landing HTTP 404)"
   },
   "cie-igcse-accounting-21": {
    "status": "missing_on_sme",
@@ -531,6 +579,118 @@
    "asset_failures": 0,
    "deck_failures": 0,
    "expected": 76
+  },
+  "cie-as-biology-25": {
+   "slug": "cie-as-biology-25",
+   "decks": 24,
+   "cards": 815,
+   "card_types": {
+    "keyword_definition": 152,
+    "question_and_answer": 433,
+    "fill_in_the_blanks": 139,
+    "true_or_false": 91
+   },
+   "flags": 0,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 24
+  },
+  "cie-as-chemistry-25": {
+   "slug": "cie-as-chemistry-25",
+   "decks": 49,
+   "cards": 1189,
+   "card_types": {
+    "keyword_definition": 234,
+    "true_or_false": 270,
+    "question_and_answer": 423,
+    "fill_in_the_blanks": 262
+   },
+   "flags": 5,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 49
+  },
+  "cie-as-maths-20-mechanics": {
+   "slug": "cie-as-maths-20-mechanics",
+   "decks": 10,
+   "cards": 207,
+   "card_types": {
+    "keyword_definition": 23,
+    "fill_in_the_blanks": 25,
+    "question_and_answer": 127,
+    "true_or_false": 32
+   },
+   "flags": 25,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 10
+  },
+  "cie-as-maths-20-probability-and-statistics-1": {
+   "slug": "cie-as-maths-20-probability-and-statistics-1",
+   "decks": 10,
+   "cards": 230,
+   "card_types": {
+    "keyword_definition": 17,
+    "question_and_answer": 140,
+    "fill_in_the_blanks": 38,
+    "true_or_false": 35
+   },
+   "flags": 38,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 10
+  },
+  "cie-as-maths-20-pure-1": {
+   "slug": "cie-as-maths-20-pure-1",
+   "decks": 22,
+   "cards": 448,
+   "card_types": {
+    "keyword_definition": 39,
+    "question_and_answer": 268,
+    "fill_in_the_blanks": 66,
+    "true_or_false": 75
+   },
+   "flags": 66,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 22
+  },
+  "cie-as-maths-20-pure-2": {
+   "slug": "cie-as-maths-20-pure-2",
+   "decks": 15,
+   "cards": 236,
+   "card_types": {
+    "keyword_definition": 13,
+    "question_and_answer": 138,
+    "fill_in_the_blanks": 35,
+    "true_or_false": 50
+   },
+   "flags": 35,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 15
+  },
+  "cie-as-physics-25": {
+   "slug": "cie-as-physics-25",
+   "decks": 32,
+   "cards": 601,
+   "card_types": {
+    "keyword_definition": 119,
+    "question_and_answer": 304,
+    "fill_in_the_blanks": 86,
+    "true_or_false": 92
+   },
+   "flags": 3,
+   "assets": 0,
+   "asset_failures": 0,
+   "deck_failures": 0,
+   "expected": 32
   },
   "cie-igcse-accounting-25": {
    "slug": "cie-igcse-accounting-25",

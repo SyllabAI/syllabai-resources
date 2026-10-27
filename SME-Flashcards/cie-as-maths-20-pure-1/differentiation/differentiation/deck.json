@@ -1,0 +1,835 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-27T18:44:29Z",
+ "course_slug": "cie-as-maths-20-pure-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/as/maths/cie/20/pure-1/flashcards/differentiation/differentiation/",
+  "section_slug": "differentiation",
+  "section_name": "Differentiation",
+  "topic_slug": "differentiation",
+  "title": "Differentiation",
+  "order": 0
+ },
+ "card_count": 25,
+ "card_types": {
+  "question_and_answer": 15,
+  "keyword_definition": 2,
+  "true_or_false": 5,
+  "fill_in_the_blanks": 3
+ },
+ "spec_link_cards": 25,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_3tDprwptyTbZ3RnW",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_yvQzcCvP2Jr3xTWb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is meant by the **gradient of a curve** at a particular point?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the gradient of the **tangent** to the curve at that point."
+    },
+    {
+     "type": "paragraph",
+     "md": "The gradient of a curve is not fixed: it changes from point to point, which is why a gradient can only be given **at a particular point**."
+    }
+   ],
+   "front_md": "What is meant by the **gradient of a curve** at a particular point?\n",
+   "back_md": "It is the gradient of the **tangent** to the curve at that point.\n\nThe gradient of a curve is not fixed: it changes from point to point, which is why a gradient can only be given **at a particular point**.\n",
+   "spec_links": [
+    "spcpt_wJGf7zpK3Gh4tmH7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_n9B5R7vYxGpMJmTP",
+   "card_type": "keyword_definition",
+   "order": 1,
+   "set_id": "flst_yvQzcCvP2Jr3xTWb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **tangent** to a curve."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A straight line that **touches** a curve at a given point, running in the same direction as the curve at that point."
+    },
+    {
+     "type": "paragraph",
+     "md": "At any given point of a **smooth** curve there is exactly **one** tangent."
+    }
+   ],
+   "front_md": "Define **tangent** to a curve.\n",
+   "back_md": "A straight line that **touches** a curve at a given point, running in the same direction as the curve at that point.\n\nAt any given point of a **smooth** curve there is exactly **one** tangent.\n",
+   "spec_links": [
+    "spcpt_wJGf7zpK3Gh4tmH7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bZgyf392nBsdnfGT",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_yvQzcCvP2Jr3xTWb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A line that is a tangent to a curve at one point cannot meet the curve anywhere else."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A tangent only has to **touch** the curve at the point where it is a tangent. Further along it may well **cut** the curve at another point."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA line that is a tangent to a curve at one point cannot meet the curve anywhere else.\n",
+   "back_md": "**False.**\n\nA tangent only has to **touch** the curve at the point where it is a tangent. Further along it may well **cut** the curve at another point.\n",
+   "spec_links": [
+    "spcpt_wJGf7zpK3Gh4tmH7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dVq4zCybBBzp27Wd",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_yvQzcCvP2Jr3xTWb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A tangent has been drawn to a curve at the point $A$ on an accurately drawn graph. Which two points should you use to work out the gradient of the curve at $A$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Any two points that lie **on the tangent line**, chosen where it passes through easily read coordinates; points on the **curve** itself must not be used."
+    },
+    {
+     "type": "paragraph",
+     "md": "The gradient is then the change in $y$ divided by the change in $x$ between those two points. So, **for example**, a tangent through `\\left(1 , - 2\\right)` and `\\left(3 , 4\\right)` has gradient:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{4 - \\left(- 2\\right)}{3 - 1} = \\frac{6}{2} = 3`"
+    }
+   ],
+   "front_md": "A tangent has been drawn to a curve at the point $A$ on an accurately drawn graph. Which two points should you use to work out the gradient of the curve at $A$?\n",
+   "back_md": "Any two points that lie **on the tangent line**, chosen where it passes through easily read coordinates; points on the **curve** itself must not be used.\n\nThe gradient is then the change in $y$ divided by the change in $x$ between those two points. So, **for example**, a tangent through `\\left(1 , - 2\\right)` and `\\left(3 , 4\\right)` has gradient:\n\n`\\frac{4 - \\left(- 2\\right)}{3 - 1} = \\frac{6}{2} = 3`\n",
+   "spec_links": [
+    "spcpt_wJGf7zpK3Gh4tmH7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_Rjj3zqKd3JVsYthJ",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_yvQzcCvP2Jr3xTWb",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Are there points on a graph where a curve has no gradient?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Yes. A tangent can only be drawn where the curve is **smooth**."
+    },
+    {
+     "type": "paragraph",
+     "md": "At a sharp corner, such as the vertex of the graph of `y = |\\text{f}(x)|`, no tangent can be drawn, so the gradient there is **undefined**."
+    }
+   ],
+   "front_md": "Are there points on a graph where a curve has no gradient?\n",
+   "back_md": "Yes. A tangent can only be drawn where the curve is **smooth**.\n\nAt a sharp corner, such as the vertex of the graph of `y = |\\text{f}(x)|`, no tangent can be drawn, so the gradient there is **undefined**.\n",
+   "spec_links": [
+    "spcpt_wJGf7zpK3Gh4tmH7"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_3kGRsNMXTZP8rHX5",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_2K8XvNZGx8G29gH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **differentiation**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Differentiation** is the operation that finds the **rate of change** of a function with respect to a variable."
+    },
+    {
+     "type": "paragraph",
+     "md": "The result of differentiating a function is called its **derivative**."
+    }
+   ],
+   "front_md": "Define **differentiation**.\n",
+   "back_md": "**Differentiation** is the operation that finds the **rate of change** of a function with respect to a variable.\n\nThe result of differentiating a function is called its **derivative**.\n",
+   "spec_links": [
+    "spcpt_W3hwHXtqPNktSS4H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rsSGpN44zBTgP44P",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_2K8XvNZGx8G29gH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A point $Q$ on a curve is moved closer and closer to a fixed point $P$ on the same curve. What happens to the chord $P Q$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It turns towards the **tangent** to the curve at $P$."
+    },
+    {
+     "type": "paragraph",
+     "md": "So the gradient of the chord closes in on the gradient of the curve at $P$, and that limiting value is the derivative there."
+    }
+   ],
+   "front_md": "A point $Q$ on a curve is moved closer and closer to a fixed point $P$ on the same curve. What happens to the chord $P Q$?\n",
+   "back_md": "It turns towards the **tangent** to the curve at $P$.\n\nSo the gradient of the chord closes in on the gradient of the curve at $P$, and that limiting value is the derivative there.\n",
+   "spec_links": [
+    "spcpt_W3hwHXtqPNktSS4H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_vPY7SHcxyBSzBn7N",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_2K8XvNZGx8G29gH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Two points on the curve `y = \\text{f}\\left(x\\right)` have $x$-coordinates $x$ and $x + h$. Complete the gradient of the chord joining them:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\_\\_\\_\\_\\_\\_ - \\text{f}\\left(x\\right)}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed gradient is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{f}\\left(x + h\\right) - \\text{f}\\left(x\\right)}{h}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The denominator is $h$ because that is exactly how far apart the two $x$-coordinates are."
+    }
+   ],
+   "front_md": "Two points on the curve `y = \\text{f}\\left(x\\right)` have $x$-coordinates $x$ and $x + h$. Complete the gradient of the chord joining them:\n\n`\\frac{\\_\\_\\_\\_\\_\\_ - \\text{f}\\left(x\\right)}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed gradient is:\n\n`\\frac{\\text{f}\\left(x + h\\right) - \\text{f}\\left(x\\right)}{h}`\n\nThe denominator is $h$ because that is exactly how far apart the two $x$-coordinates are.\n",
+   "spec_links": [
+    "spcpt_W3hwHXtqPNktSS4H"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_7R6Ycx7jZbq4vnHH",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_2K8XvNZGx8G29gH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does the gradient of $y = x^{2}$ behave as $x$ increases from $0$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It starts close to zero near the origin and gets steadily **larger**."
+    },
+    {
+     "type": "paragraph",
+     "md": "The curve is almost flat at the bottom and rises more and more steeply, so its rate of change grows as $x$ grows."
+    }
+   ],
+   "front_md": "How does the gradient of $y = x^{2}$ behave as $x$ increases from $0$?\n",
+   "back_md": "It starts close to zero near the origin and gets steadily **larger**.\n\nThe curve is almost flat at the bottom and rises more and more steeply, so its rate of change grows as $x$ grows.\n",
+   "spec_links": [
+    "spcpt_W3hwHXtqPNktSS4H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qNcVWpV5sGw6rqky",
+   "card_type": "true_or_false",
+   "order": 4,
+   "set_id": "flst_2K8XvNZGx8G29gH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative of a function is a single number."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "For most functions the rate of change differs at different values of $x$, so the derivative is an expression in $x$ rather than one value."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is a single number only in the special case of a straight line, whose gradient never changes."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe derivative of a function is a single number.\n",
+   "back_md": "**False.**\n\nFor most functions the rate of change differs at different values of $x$, so the derivative is an expression in $x$ rather than one value.\n\nIt is a single number only in the special case of a straight line, whose gradient never changes.\n",
+   "spec_links": [
+    "spcpt_W3hwHXtqPNktSS4H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j5CRnvmkWXbDNT63",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_2K8XvNZGx8G29gH8",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "On $y = x^{2}$, the chord from the point where $x = 5$ to the point where $x = 5 + h$ has gradient $10 + h$. What is the gradient of the curve at $x = 5$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The gradient is $10$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The chord gradient $10 + h$ can be brought as close to $10$ as you like by taking $h$ small enough, and that limiting value is the gradient at the point."
+    }
+   ],
+   "front_md": "On $y = x^{2}$, the chord from the point where $x = 5$ to the point where $x = 5 + h$ has gradient $10 + h$. What is the gradient of the curve at $x = 5$?\n",
+   "back_md": "The gradient is $10$.\n\nThe chord gradient $10 + h$ can be brought as close to $10$ as you like by taking $h$ small enough, and that limiting value is the gradient at the point.\n",
+   "spec_links": [
+    "spcpt_W3hwHXtqPNktSS4H"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_G25mWHXfhq5RxMWm",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for differentiating a power of $x$, filling in the missing **coefficient** and **index**:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d}x}\\left(x^{n}\\right) = \\_\\_\\_\\_\\_\\_ x^{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d}x}\\left(x^{n}\\right) = n x^{n-1}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiply by the **index**, then reduce the index by 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "This works for any constant $n$, including negative and fractional values."
+    }
+   ],
+   "front_md": "Complete the rule for differentiating a power of $x$, filling in the missing **coefficient** and **index**:\n\n`\\frac{\\text{d}}{\\text{d}x}\\left(x^{n}\\right) = \\_\\_\\_\\_\\_\\_ x^{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed rule is:\n\n`\\frac{\\text{d}}{\\text{d}x}\\left(x^{n}\\right) = n x^{n-1}`\n\nMultiply by the **index**, then reduce the index by 1.\n\nThis works for any constant $n$, including negative and fractional values.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_5yD6JsRBwjQBkcyj",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you differentiate a term such as $- 4 x^{5}$, where a power of $x$ has a constant multiplier?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate the power of $x$ and keep the multiplier:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}}{\\text{d}x}\\left(ax^{n}\\right) = anx^{n-1}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, $- 4 x^{5}$ differentiates to $- 4 \\times 5 x^{4} = - 20 x^{4}$."
+    }
+   ],
+   "front_md": "How do you differentiate a term such as $- 4 x^{5}$, where a power of $x$ has a constant multiplier?\n",
+   "back_md": "Differentiate the power of $x$ and keep the multiplier:\n\n`\\frac{\\text{d}}{\\text{d}x}\\left(ax^{n}\\right) = anx^{n-1}`\n\nSo, **for example**, $- 4 x^{5}$ differentiates to $- 4 \\times 5 x^{4} = - 20 x^{4}$.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7VCT7XrDnnkmcMnV",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Differentiating $x^{-4}$ gives $- 4 x^{-3}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The index is always **reduced** by 1, even when it is already negative: $- 4 - 1 = - 5$, so the derivative is $- 4 x^{-5}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Negative and fractional indices are a common place to lose marks for exactly this reason."
+    }
+   ],
+   "front_md": "**True or False?**\n\nDifferentiating $x^{-4}$ gives $- 4 x^{-3}$.\n",
+   "back_md": "**False.**\n\nThe index is always **reduced** by 1, even when it is already negative: $- 4 - 1 = - 5$, so the derivative is $- 4 x^{-5}$.\n\nNegative and fractional indices are a common place to lose marks for exactly this reason.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_y88kTBDGg9GQnKRM",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What must you do to terms such as $\\sqrt{x}$ and $\\frac{4}{x}$ before you can differentiate them?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Rewrite each one as a **power** of $x$, so that the rule for differentiating $x^{n}$ can be applied:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\sqrt{x} = x^{\\frac{1}{2}}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{4}{x} = 4 x^{-1}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative is often converted back into root or fraction form at the end."
+    }
+   ],
+   "front_md": "What must you do to terms such as $\\sqrt{x}$ and $\\frac{4}{x}$ before you can differentiate them?\n",
+   "back_md": "Rewrite each one as a **power** of $x$, so that the rule for differentiating $x^{n}$ can be applied:\n\n$\\sqrt{x} = x^{\\frac{1}{2}}$\n\n$\\frac{4}{x} = 4 x^{-1}$\n\nThe derivative is often converted back into root or fraction form at the end.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WSPDgxnDsGDvh9Tz",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you differentiate an expression that is a sum or difference of several terms?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate the terms **one at a time**, keeping them in the same order."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, $y = x^{4} - \\sqrt{x} + \\frac{4}{x}$ gives:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = 4 x^{3} - \\frac{1}{2\\sqrt{x}} - \\frac{4}{x^{2}}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Notice that the last term changes sign, because differentiating $4 x^{-1}$ gives $- 4 x^{-2}$."
+    }
+   ],
+   "front_md": "How do you differentiate an expression that is a sum or difference of several terms?\n",
+   "back_md": "Differentiate the terms **one at a time**, keeping them in the same order.\n\nSo, **for example**, $y = x^{4} - \\sqrt{x} + \\frac{4}{x}$ gives:\n\n$\\frac{\\text{d}y}{\\text{d}x} = 4 x^{3} - \\frac{1}{2\\sqrt{x}} - \\frac{4}{x^{2}}$\n\nNotice that the last term changes sign, because differentiating $4 x^{-1}$ gives $- 4 x^{-2}$.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7xsFTmPvHhkDwCxS",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The derivative of $y=\\sqrt{7}$ is $\\frac{1}{2\\sqrt{7}}$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\sqrt{7}$ is a **constant**: there is no $x$ in it. The derivative of any constant is **zero**, so $\\frac{\\text{d}y}{\\text{d}x} = 0$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The graph of a constant is a horizontal line, which has gradient zero everywhere."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe derivative of $y=\\sqrt{7}$ is $\\frac{1}{2\\sqrt{7}}$.\n",
+   "back_md": "**False.**\n\n$\\sqrt{7}$ is a **constant**: there is no $x$ in it. The derivative of any constant is **zero**, so $\\frac{\\text{d}y}{\\text{d}x} = 0$.\n\nThe graph of a constant is a horizontal line, which has gradient zero everywhere.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_4P33gndN64Mcnqp3",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the derivative of a term such as $- 5 x$, where $x$ has no visible index?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **coefficient** on its own, so $- 5$. In general:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}}{\\text{d}x} ( a x ) = a$"
+    },
+    {
+     "type": "paragraph",
+     "md": "This makes sense because $y = a x$ is a **straight line** with gradient $a$, the same at every point."
+    }
+   ],
+   "front_md": "What is the derivative of a term such as $- 5 x$, where $x$ has no visible index?\n",
+   "back_md": "The **coefficient** on its own, so $- 5$. In general:\n\n$\\frac{\\text{d}}{\\text{d}x} ( a x ) = a$\n\nThis makes sense because $y = a x$ is a **straight line** with gradient $a$, the same at every point.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_TVr8726fHkcRcTxJ",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_MMfV3Vkcy6ppZzqD",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the difference between $\\text{f} ' ( x )$ and $\\frac{\\text{d}y}{\\text{d}x}$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There is no difference in meaning: both stand for the **derivative**."
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{f} ' ( x )$ is used when a function has been defined as $\\text{f} ( x )$, and $\\frac{\\text{d}y}{\\text{d}x}$ when the curve is written as $y$ in terms of $x$."
+    }
+   ],
+   "front_md": "What is the difference between $\\text{f} ' ( x )$ and $\\frac{\\text{d}y}{\\text{d}x}$?\n",
+   "back_md": "There is no difference in meaning: both stand for the **derivative**.\n\n$\\text{f} ' ( x )$ is used when a function has been defined as $\\text{f} ( x )$, and $\\frac{\\text{d}y}{\\text{d}x}$ when the curve is written as $y$ in terms of $x$.\n",
+   "spec_links": [
+    "spcpt_Jzb4MpfMDbXWqFCZ"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_7PCfYzbjwB4ndDkv",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_dvP8R955fwX9kBFT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "If $y$ is a function of $u$, and $u$ is a function of $x$, complete the chain rule:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\_\\_\\_\\_\\_\\_} \\times \\frac{\\_\\_\\_\\_\\_\\_}{\\text{d}x}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}u} \\times \\frac{\\text{d}u}{\\text{d}x}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The $\\text{d} u$ sits on the bottom of one derivative and the top of the other, which is what links the two together."
+    }
+   ],
+   "front_md": "If $y$ is a function of $u$, and $u$ is a function of $x$, complete the chain rule:\n\n`\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\_\\_\\_\\_\\_\\_} \\times \\frac{\\_\\_\\_\\_\\_\\_}{\\text{d}x}`\n",
+   "back_md": "The completed rule is:\n\n$\\frac{\\text{d}y}{\\text{d}x} = \\frac{\\text{d}y}{\\text{d}u} \\times \\frac{\\text{d}u}{\\text{d}x}$\n\nThe $\\text{d} u$ sits on the bottom of one derivative and the top of the other, which is what links the two together.\n",
+   "spec_links": [
+    "spcpt_pPPkKgggBhJzKnDq"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_DY6PnPPWQzVwhbHv",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_dvP8R955fwX9kBFT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why use the chain rule on `\\left(3x + 2\\right)^{7}` rather than expanding the brackets?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because expanding a seventh power takes a long time and is easy to get wrong."
+    },
+    {
+     "type": "paragraph",
+     "md": "The chain rule also works when the index is negative or fractional, where expanding is not possible at all."
+    }
+   ],
+   "front_md": "Why use the chain rule on `\\left(3x + 2\\right)^{7}` rather than expanding the brackets?\n",
+   "back_md": "Because expanding a seventh power takes a long time and is easy to get wrong.\n\nThe chain rule also works when the index is negative or fractional, where expanding is not possible at all.\n",
+   "spec_links": [
+    "spcpt_pPPkKgggBhJzKnDq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_66TpdjXXMvjpzWfW",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_dvP8R955fwX9kBFT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "To differentiate $y = \\sqrt{2x+5}$ using a substitution, what do you let $u$ equal, and what does $y$ become?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Let $u = 2 x + 5$, so that $y = u^{\\frac{1}{2}}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The two parts are then differentiated separately and combined with the chain rule."
+    }
+   ],
+   "front_md": "To differentiate $y = \\sqrt{2x+5}$ using a substitution, what do you let $u$ equal, and what does $y$ become?\n",
+   "back_md": "Let $u = 2 x + 5$, so that $y = u^{\\frac{1}{2}}$.\n\nThe two parts are then differentiated separately and combined with the chain rule.\n",
+   "spec_links": [
+    "spcpt_pPPkKgggBhJzKnDq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_RRZFMm67QbqP95Q8",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_dvP8R955fwX9kBFT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The chain rule can be used even when the expression inside the bracket is not linear."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The inside can be any expression you know how to differentiate, such as $x^{3} + 1$, and all the rule needs is its derivative."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe chain rule can be used even when the expression inside the bracket is not linear.\n",
+   "back_md": "**True.**\n\nThe inside can be any expression you know how to differentiate, such as $x^{3} + 1$, and all the rule needs is its derivative.\n",
+   "spec_links": [
+    "spcpt_pPPkKgggBhJzKnDq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2pBDS8VKB58sngBT",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_dvP8R955fwX9kBFT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What is the quick pattern for differentiating `\\left(\\text{f}\\left(x\\right)\\right)^{n}` without introducing $u$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Differentiate the outer power as usual, then multiply by the derivative of the inside:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\frac{\\text{d}y}{\\text{d}x} = n\\,\\text{f}'\\left(x\\right)\\left(\\text{f}\\left(x\\right)\\right)^{n - 1}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, `\\left(2x^{2} - 4\\right)^{-\\frac{1}{2}}` differentiates to `-\\frac{1}{2}\\left(2x^{2} - 4\\right)^{-\\frac{3}{2}} \\times 4x`."
+    }
+   ],
+   "front_md": "What is the quick pattern for differentiating `\\left(\\text{f}\\left(x\\right)\\right)^{n}` without introducing $u$?\n",
+   "back_md": "Differentiate the outer power as usual, then multiply by the derivative of the inside:\n\n`\\frac{\\text{d}y}{\\text{d}x} = n\\,\\text{f}'\\left(x\\right)\\left(\\text{f}\\left(x\\right)\\right)^{n - 1}`\n\nSo, **for example**, `\\left(2x^{2} - 4\\right)^{-\\frac{1}{2}}` differentiates to `-\\frac{1}{2}\\left(2x^{2} - 4\\right)^{-\\frac{3}{2}} \\times 4x`.\n",
+   "spec_links": [
+    "spcpt_pPPkKgggBhJzKnDq"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qxX9xXvBswhxG7sW",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_dvP8R955fwX9kBFT",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "After using a substitution, why must $u$ be replaced at the end?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $\\frac{\\text{d}y}{\\text{d}x}$ has to be a function of $x$, and $u$ was only a temporary label for part of the expression."
+    },
+    {
+     "type": "paragraph",
+     "md": "An answer left in terms of $u$ cannot have an $x$-value substituted into it."
+    }
+   ],
+   "front_md": "After using a substitution, why must $u$ be replaced at the end?\n",
+   "back_md": "Because $\\frac{\\text{d}y}{\\text{d}x}$ has to be a function of $x$, and $u$ was only a temporary label for part of the expression.\n\nAn answer left in terms of $u$ cannot have an $x$-value substituted into it.\n",
+   "spec_links": [
+    "spcpt_pPPkKgggBhJzKnDq"
+   ],
+   "flags": []
+  }
+ ]
+}

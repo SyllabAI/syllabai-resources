@@ -1,0 +1,413 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-27T18:44:32Z",
+ "course_slug": "cie-as-maths-20-pure-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/as/maths/cie/20/pure-1/flashcards/series/geometric-progressions/",
+  "section_slug": "series",
+  "section_name": "Series",
+  "topic_slug": "geometric-progressions",
+  "title": "Geometric Progressions",
+  "order": 2
+ },
+ "card_count": 12,
+ "card_types": {
+  "keyword_definition": 1,
+  "question_and_answer": 7,
+  "fill_in_the_blanks": 2,
+  "true_or_false": 2
+ },
+ "spec_link_cards": 12,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_K3rrM35wXb7bkxgh",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_7565pvMTJNTxspX5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **geometric progression**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A **geometric progression** is a progression in which each term is found by multiplying the previous term by a fixed number."
+    },
+    {
+     "type": "paragraph",
+     "md": "That fixed number is called the **common ratio**, written $r$."
+    }
+   ],
+   "front_md": "Define **geometric progression**.\n",
+   "back_md": "A **geometric progression** is a progression in which each term is found by multiplying the previous term by a fixed number.\n\nThat fixed number is called the **common ratio**, written $r$.\n",
+   "spec_links": [
+    "spcpt_VSNb6zQgMQgcmHQp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bk4PZHPSKtJVCFFk",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_7565pvMTJNTxspX5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In a geometric progression with first term $a$ and common ratio $r$, what is the $n$th term?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The $n$th term is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$u_{n} = a r^{n-1}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Here $a$ is the first term and $r$ is the common ratio."
+    }
+   ],
+   "front_md": "In a geometric progression with first term $a$ and common ratio $r$, what is the $n$th term?\n",
+   "back_md": "The $n$th term is:\n\n$u_{n} = a r^{n-1}$\n\nHere $a$ is the first term and $r$ is the common ratio.\n",
+   "spec_links": [
+    "spcpt_VSNb6zQgMQgcmHQp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_p9ckkQz5rwd4GcZc",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_7565pvMTJNTxspX5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A geometric progression has first term $5$ and common ratio $2$. Complete the working for its 7th term, filling in the missing **index** and then the missing value:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`u_{7} = 5 \\times 2^{\\_\\_\\_\\_\\_\\_} = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed working is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$u_{7} = 5 \\times 2^{6} = 320$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The first term is already $5$, so reaching the 7th term multiplies by the common ratio only 6 times."
+    }
+   ],
+   "front_md": "A geometric progression has first term $5$ and common ratio $2$. Complete the working for its 7th term, filling in the missing **index** and then the missing value:\n\n`u_{7} = 5 \\times 2^{\\_\\_\\_\\_\\_\\_} = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed working is:\n\n$u_{7} = 5 \\times 2^{6} = 320$\n\nThe first term is already $5$, so reaching the 7th term multiplies by the common ratio only 6 times.\n",
+   "spec_links": [
+    "spcpt_VSNb6zQgMQgcmHQp"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_PxzNvKrgw8N99Hm5",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_7565pvMTJNTxspX5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In a geometric progression, a negative common ratio makes the terms alternate between positive and negative."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Multiplying by a negative number flips the sign every time: with first term $2$ and common ratio $- 0 . 5$ the progression is $2 ,  - 1 ,  0 . 5 ,  - 0 . 25 ,  \\dots$"
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn a geometric progression, a negative common ratio makes the terms alternate between positive and negative.\n",
+   "back_md": "**True.**\n\nMultiplying by a negative number flips the sign every time: with first term $2$ and common ratio $- 0 . 5$ the progression is $2 ,  - 1 ,  0 . 5 ,  - 0 . 25 ,  \\dots$\n",
+   "spec_links": [
+    "spcpt_VSNb6zQgMQgcmHQp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_H6YwTTgvjR5sgqtP",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_7565pvMTJNTxspX5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The first three terms of a geometric progression are $2 - x$, $3 x$ and $x^{2}$. What equation does being geometric give you?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "There is only one common ratio, so the second term divided by the first must equal the third divided by the second:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\frac{3x}{2-x} = \\frac{x^{2}}{3x}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Cross-multiplying gives `9x^{2} = x^{2}\\left(2 - x\\right)`, which rearranges to $x^{3} + 7 x^{2} = 0$."
+    }
+   ],
+   "front_md": "The first three terms of a geometric progression are $2 - x$, $3 x$ and $x^{2}$. What equation does being geometric give you?\n",
+   "back_md": "There is only one common ratio, so the second term divided by the first must equal the third divided by the second:\n\n$\\frac{3x}{2-x} = \\frac{x^{2}}{3x}$\n\nCross-multiplying gives `9x^{2} = x^{2}\\left(2 - x\\right)`, which rearranges to $x^{3} + 7 x^{2} = 0$.\n",
+   "spec_links": [
+    "spcpt_VSNb6zQgMQgcmHQp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qQFgPWxWNMJ3jKKx",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_7565pvMTJNTxspX5",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You know the 6th term and the 10th term of a geometric progression. Why do you divide one equation by the other rather than subtract?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because every term is the first term multiplied by a power of the common ratio, so dividing cancels the first term and leaves a single power of $r$, here $r^{4}$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting would leave both $a$ and $r$ in the equation, which gets you no closer to either of them."
+    }
+   ],
+   "front_md": "You know the 6th term and the 10th term of a geometric progression. Why do you divide one equation by the other rather than subtract?\n",
+   "back_md": "Because every term is the first term multiplied by a power of the common ratio, so dividing cancels the first term and leaves a single power of $r$, here $r^{4}$.\n\nSubtracting would leave both $a$ and $r$ in the equation, which gets you no closer to either of them.\n",
+   "spec_links": [
+    "spcpt_VSNb6zQgMQgcmHQp"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mym7RTNm7CJDM8pt",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_D5ghzm8v8gYfd4FP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What are the two formulae for the sum of the first $n$ terms of a geometric progression, and how do you choose between them?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The two forms are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{n} = \\frac{a\\left(1 - r^{n}\\right)}{1 - r}`   or   `S_{n} = \\frac{a\\left(r^{n} - 1\\right)}{r - 1}`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The first is more convenient when $r < 1$ and the second when $r > 1$, and they give the same answer either way."
+    }
+   ],
+   "front_md": "What are the two formulae for the sum of the first $n$ terms of a geometric progression, and how do you choose between them?\n",
+   "back_md": "The two forms are:\n\n`S_{n} = \\frac{a\\left(1 - r^{n}\\right)}{1 - r}`   or   `S_{n} = \\frac{a\\left(r^{n} - 1\\right)}{r - 1}`\n\nThe first is more convenient when $r < 1$ and the second when $r > 1$, and they give the same answer either way.\n",
+   "spec_links": [
+    "spcpt_NHY4TmNTZp5NHCT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_wXMftp9gHjRwrwsv",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_D5ghzm8v8gYfd4FP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "In the proof of the geometric series formula, why is the sum multiplied by $r$ and then subtracted from the original?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because multiplying by $r$ shifts every term along one place, so subtracting makes all the middle terms cancel in pairs."
+    },
+    {
+     "type": "paragraph",
+     "md": "Only the first term and one extra term at the end survive, which is what leaves a formula containing just $a$, $r$ and $n$."
+    }
+   ],
+   "front_md": "In the proof of the geometric series formula, why is the sum multiplied by $r$ and then subtracted from the original?\n",
+   "back_md": "Because multiplying by $r$ shifts every term along one place, so subtracting makes all the middle terms cancel in pairs.\n\nOnly the first term and one extra term at the end survive, which is what leaves a formula containing just $a$, $r$ and $n$.\n",
+   "spec_links": [
+    "spcpt_NHY4TmNTZp5NHCT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_GPVyGHqrS8M9kPSd",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_D5ghzm8v8gYfd4FP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A geometric progression has common ratio $0 . 9$, and the sum of its first 5 terms is $409 . 51$. How do you find the first term?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Substitute $r = 0 . 9$ and $n = 5$ into the sum formula, which turns everything apart from $a$ into a single number, $4 . 0951$."
+    },
+    {
+     "type": "paragraph",
+     "md": "The equation becomes $409 . 51 = 4 . 0951 a$, giving $a = 100$."
+    }
+   ],
+   "front_md": "A geometric progression has common ratio $0 . 9$, and the sum of its first 5 terms is $409 . 51$. How do you find the first term?\n",
+   "back_md": "Substitute $r = 0 . 9$ and $n = 5$ into the sum formula, which turns everything apart from $a$ into a single number, $4 . 0951$.\n\nThe equation becomes $409 . 51 = 4 . 0951 a$, giving $a = 100$.\n",
+   "spec_links": [
+    "spcpt_NHY4TmNTZp5NHCT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kn8pxmnhDj7x2tTx",
+   "card_type": "fill_in_the_blanks",
+   "order": 3,
+   "set_id": "flst_D5ghzm8v8gYfd4FP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula for the sum to infinity of a geometric progression with first term $a$ and common ratio $r$:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`S_{\\infty} = \\frac{a}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$S_{\\infty} = \\frac{a}{1-r}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is only valid when `|r| < 1`."
+    }
+   ],
+   "front_md": "Complete the formula for the sum to infinity of a geometric progression with first term $a$ and common ratio $r$:\n\n`S_{\\infty} = \\frac{a}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n$S_{\\infty} = \\frac{a}{1-r}$\n\nIt is only valid when `|r| < 1`.\n",
+   "spec_links": [
+    "spcpt_NHY4TmNTZp5NHCT4"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_SJDf9vG2bPHP7tzk",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_D5ghzm8v8gYfd4FP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why does a geometric progression only have a sum to infinity when `|r| < 1`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because each term is then smaller in size than the one before, so the terms shrink towards zero and the running total settles on a finite value."
+    },
+    {
+     "type": "paragraph",
+     "md": "If `|r| \\ge 1` the terms do not shrink towards zero, so the running total never settles on a single value and the series is said to **diverge**."
+    }
+   ],
+   "front_md": "Why does a geometric progression only have a sum to infinity when `|r| < 1`?\n",
+   "back_md": "Because each term is then smaller in size than the one before, so the terms shrink towards zero and the running total settles on a finite value.\n\nIf `|r| \\ge 1` the terms do not shrink towards zero, so the running total never settles on a single value and the series is said to **diverge**.\n",
+   "spec_links": [
+    "spcpt_NHY4TmNTZp5NHCT4"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_dTKrd58vt8XwXKc6",
+   "card_type": "true_or_false",
+   "order": 5,
+   "set_id": "flst_D5ghzm8v8gYfd4FP",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The sum to infinity of a geometric progression is always larger than the sum of its first few terms."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "With a negative common ratio the terms alternate in sign, so a partial sum can overshoot the sum to infinity."
+    },
+    {
+     "type": "paragraph",
+     "md": "For $a = 2$ and $r = - 0 . 5$ the sum to infinity is $\\frac{4}{3}$, but the first term on its own is already $2$."
+    }
+   ],
+   "front_md": "**True or False?**\n\nThe sum to infinity of a geometric progression is always larger than the sum of its first few terms.\n",
+   "back_md": "**False.**\n\nWith a negative common ratio the terms alternate in sign, so a partial sum can overshoot the sum to infinity.\n\nFor $a = 2$ and $r = - 0 . 5$ the sum to infinity is $\\frac{4}{3}$, but the first term on its own is already $2$.\n",
+   "spec_links": [
+    "spcpt_NHY4TmNTZp5NHCT4"
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,1155 @@
+{
+ "schema": "syllabai.sme-flashcard-deck/1.0",
+ "generated_utc": "2026-10-27T18:44:58Z",
+ "course_slug": "cie-as-maths-20-probability-and-statistics-1",
+ "deck": {
+  "url": "https://www.savemyexams.com/as/maths/cie/20/probability-and-statistics-1/flashcards/statistical-distributions/normal-distribution/",
+  "section_slug": "statistical-distributions",
+  "section_name": "Statistical Distributions",
+  "topic_slug": "normal-distribution",
+  "title": "Normal Distribution",
+  "order": 2
+ },
+ "card_count": 31,
+ "card_types": {
+  "keyword_definition": 2,
+  "question_and_answer": 19,
+  "true_or_false": 5,
+  "fill_in_the_blanks": 5
+ },
+ "spec_link_cards": 31,
+ "asset_failures": [],
+ "card_failures": [],
+ "cards": [
+  {
+   "id": "fl_FMnSD5r9dX52Zqds",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define **continuous random variable**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A continuous random variable is a random variable that can take **any value within a range**, rather than only certain separate values."
+    },
+    {
+     "type": "paragraph",
+     "md": "Continuous random variables usually **measure** something, so height, weight and time are all continuous."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is the contrast with a discrete random variable, which counts, and the difference decides which distributions can model the variable."
+    }
+   ],
+   "front_md": "Define **continuous random variable**.\n",
+   "back_md": "A continuous random variable is a random variable that can take **any value within a range**, rather than only certain separate values.\n\nContinuous random variables usually **measure** something, so height, weight and time are all continuous.\n\nThat is the contrast with a discrete random variable, which counts, and the difference decides which distributions can model the variable.\n",
+   "spec_links": [
+    "spcpt_HS83hxfdbps62xPW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_C6zfJ4YMFMQXynmt",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For a continuous distribution, what is `\\text{P} \\left(X = k\\right)`, and what follows from it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X = k\\right) = 0` for **every** value of $k$, because probability is the **area under the graph** and a single value is a line with no width."
+    },
+    {
+     "type": "paragraph",
+     "md": "What has a probability is a **range** of values: the area between $x = a$ and $x = b$ is `\\text{P} \\left(a \\leq X \\leq b\\right)`, and the total area under the graph is 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "What follows is convenient: since the endpoints contribute nothing, strict and weak inequalities give the same answer."
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X \\leq k\\right) = \\text{P} \\left(X < k\\right)`"
+    }
+   ],
+   "front_md": "For a continuous distribution, what is `\\text{P} \\left(X = k\\right)`, and what follows from it?\n",
+   "back_md": "`\\text{P} \\left(X = k\\right) = 0` for **every** value of $k$, because probability is the **area under the graph** and a single value is a line with no width.\n\nWhat has a probability is a **range** of values: the area between $x = a$ and $x = b$ is `\\text{P} \\left(a \\leq X \\leq b\\right)`, and the total area under the graph is 1.\n\nWhat follows is convenient: since the endpoints contribute nothing, strict and weak inequalities give the same answer.\n\n`\\text{P} \\left(X \\leq k\\right) = \\text{P} \\left(X < k\\right)`\n",
+   "spec_links": [
+    "spcpt_HS83hxfdbps62xPW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2pYwyb7X66NZTHky",
+   "card_type": "true_or_false",
+   "order": 2,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "In `X \\sim \\text{N} \\left(\\mu , \\sigma^{2}\\right)`, the second number in the bracket is the standard deviation."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "The second number is the **variance**, $σ^{2}$: the notation says so, but it is easy to read past."
+    },
+    {
+     "type": "paragraph",
+     "md": "So `W \\sim \\text{N} \\left(50 , 36\\right)` has variance 36 and standard deviation $\\sqrt{36} = 6$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This matters because calculators ask for the **standard deviation**, so entering the second number straight from the bracket is a common error; square root it first, unless the variance is already written as a square, as in `\\text{N} \\left(20 , 5^{2}\\right)`."
+    }
+   ],
+   "front_md": "**True or False?**\n\nIn `X \\sim \\text{N} \\left(\\mu , \\sigma^{2}\\right)`, the second number in the bracket is the standard deviation.\n",
+   "back_md": "**False.**\n\nThe second number is the **variance**, $σ^{2}$: the notation says so, but it is easy to read past.\n\nSo `W \\sim \\text{N} \\left(50 , 36\\right)` has variance 36 and standard deviation $\\sqrt{36} = 6$.\n\nThis matters because calculators ask for the **standard deviation**, so entering the second number straight from the bracket is a common error; square root it first, unless the variance is already written as a square, as in `\\text{N} \\left(20 , 5^{2}\\right)`.\n",
+   "spec_links": [
+    "spcpt_HS83hxfdbps62xPW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_JMpHWBVrgndTXrfM",
+   "card_type": "question_and_answer",
+   "order": 3,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "A normal distribution is symmetrical about $x = μ$. What two things follow from that?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The three averages all coincide:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{mean} = \\text{median} = \\text{mode} = μ$"
+    },
+    {
+     "type": "paragraph",
+     "md": "and half the area lies on each side of the mean:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P} \\left(X < \\mu\\right) = \\text{P} \\left(X > \\mu\\right) = 0.5`"
+    },
+    {
+     "type": "paragraph",
+     "md": "The second is worth having ready. It gives you a probability with no calculation, and it is often the quickest way to check that an answer is on the right side of the mean."
+    }
+   ],
+   "front_md": "A normal distribution is symmetrical about $x = μ$. What two things follow from that?\n",
+   "back_md": "The three averages all coincide:\n\n$\\text{mean} = \\text{median} = \\text{mode} = μ$\n\nand half the area lies on each side of the mean:\n\n`\\text{P} \\left(X < \\mu\\right) = \\text{P} \\left(X > \\mu\\right) = 0.5`\n\nThe second is worth having ready. It gives you a probability with no calculation, and it is often the quickest way to check that an answer is on the right side of the mean.\n",
+   "spec_links": [
+    "spcpt_HS83hxfdbps62xPW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j8kfR7fDcS3Q9FR9",
+   "card_type": "fill_in_the_blanks",
+   "order": 4,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the proportions of a normal distribution that lie within one, two and three standard deviations of the mean:"
+    },
+    {
+     "type": "paragraph",
+     "md": "within $μ \\pm σ$, about `\\_\\_\\_\\_\\_\\_`% of the data"
+    },
+    {
+     "type": "paragraph",
+     "md": "within $μ \\pm 2 σ$, about `\\_\\_\\_\\_\\_\\_`% of the data"
+    },
+    {
+     "type": "paragraph",
+     "md": "within $μ \\pm 3 σ$, about `\\_\\_\\_\\_\\_\\_`% of the data"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed proportions are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "within $μ \\pm σ$, about **68**% of the data, which is roughly two thirds"
+    },
+    {
+     "type": "paragraph",
+     "md": "within $μ \\pm 2 σ$, about **95**% of the data"
+    },
+    {
+     "type": "paragraph",
+     "md": "within $μ \\pm 3 σ$, about **99.7**% of the data, which is nearly all of it"
+    },
+    {
+     "type": "paragraph",
+     "md": "These are worth knowing by heart as a sense check. If a calculation says that 40% of the data lies within one standard deviation of the mean, something has gone wrong."
+    }
+   ],
+   "front_md": "Complete the proportions of a normal distribution that lie within one, two and three standard deviations of the mean:\n\nwithin $μ \\pm σ$, about `\\_\\_\\_\\_\\_\\_`% of the data\n\nwithin $μ \\pm 2 σ$, about `\\_\\_\\_\\_\\_\\_`% of the data\n\nwithin $μ \\pm 3 σ$, about `\\_\\_\\_\\_\\_\\_`% of the data\n",
+   "back_md": "The completed proportions are:\n\nwithin $μ \\pm σ$, about **68**% of the data, which is roughly two thirds\n\nwithin $μ \\pm 2 σ$, about **95**% of the data\n\nwithin $μ \\pm 3 σ$, about **99.7**% of the data, which is nearly all of it\n\nThese are worth knowing by heart as a sense check. If a calculation says that 40% of the data lies within one standard deviation of the mean, something has gone wrong.\n",
+   "spec_links": [
+    "spcpt_HS83hxfdbps62xPW"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_4Ydqn3K7q6r5CwGk",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Where are the points of inflection on a normal distribution curve?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "At $x = μ \\pm σ$, exactly **one standard deviation** either side of the mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "Those are the two places where the curve stops bending one way and starts bending the other, as it changes from falling ever more steeply to falling ever less steeply."
+    },
+    {
+     "type": "paragraph",
+     "md": "This gives you a way to read $σ$ off a sketch: it is the horizontal distance from the mean to a point of inflection."
+    }
+   ],
+   "front_md": "Where are the points of inflection on a normal distribution curve?\n",
+   "back_md": "At $x = μ \\pm σ$, exactly **one standard deviation** either side of the mean.\n\nThose are the two places where the curve stops bending one way and starts bending the other, as it changes from falling ever more steeply to falling ever less steeply.\n\nThis gives you a way to read $σ$ off a sketch: it is the horizontal distance from the mean to a point of inflection.\n",
+   "spec_links": [
+    "spcpt_HS83hxfdbps62xPW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_CNQ3kdnZmwT9JcJ7",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How does a normal curve change when $μ$ changes, and how when $σ^{2}$ changes?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Changing $μ$ **translates** the curve horizontally, moving the whole shape along without altering it."
+    },
+    {
+     "type": "paragraph",
+     "md": "Changing $σ^{2}$ **stretches** it horizontally: a small variance gives a tall curve with a narrow centre, and a large variance a short curve with a wide centre."
+    },
+    {
+     "type": "paragraph",
+     "md": "The reason a narrower curve has to be taller is that the **total area is always 1**, so squeezing the curve inwards must push it upwards."
+    }
+   ],
+   "front_md": "How does a normal curve change when $μ$ changes, and how when $σ^{2}$ changes?\n",
+   "back_md": "Changing $μ$ **translates** the curve horizontally, moving the whole shape along without altering it.\n\nChanging $σ^{2}$ **stretches** it horizontally: a small variance gives a tall curve with a narrow centre, and a large variance a short curve with a wide centre.\n\nThe reason a narrower curve has to be taller is that the **total area is always 1**, so squeezing the curve inwards must push it upwards.\n",
+   "spec_links": [
+    "spcpt_HS83hxfdbps62xPW"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zw2WMT55nt3c7FSv",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What has to be true of a real-life variable before a normal distribution is a sensible model for it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It must be **continuous**, so it measures something, its distribution must be **symmetrical** and **bell-shaped** with a **single mode**, and the population needs to be large enough."
+    },
+    {
+     "type": "paragraph",
+     "md": "So, **for example**, a variable produced by a random number generator cannot be modelled this way, because every value is equally likely and it has no mode."
+    },
+    {
+     "type": "paragraph",
+     "md": "Nor can how long a human lives, because that distribution is not symmetrical."
+    }
+   ],
+   "front_md": "What has to be true of a real-life variable before a normal distribution is a sensible model for it?\n",
+   "back_md": "It must be **continuous**, so it measures something, its distribution must be **symmetrical** and **bell-shaped** with a **single mode**, and the population needs to be large enough.\n\nSo, **for example**, a variable produced by a random number generator cannot be modelled this way, because every value is equally likely and it has no mode.\n\nNor can how long a human lives, because that distribution is not symmetrical.\n",
+   "spec_links": [
+    "spcpt_V6WDFPgHhTqd5tyN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_djnnK7dnmg5k2z3Z",
+   "card_type": "true_or_false",
+   "order": 8,
+   "set_id": "flst_mYzc3FFN4QzBfWxc",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A normal distribution cannot model height, because it allows any real value and a height cannot be negative."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "It is true that a normal distribution is defined for every real number, but values more than about **four standard deviations** from the mean have a probability density of practically zero."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a normal model of human height puts a negligible probability on the impossible values and describes the realistic ones well, which is what makes it usable for quantities like height and weight that have a natural floor."
+    },
+    {
+     "type": "paragraph",
+     "md": "A model does not have to be perfect to be useful, only good enough over the range that matters."
+    }
+   ],
+   "front_md": "**True or False?**\n\nA normal distribution cannot model height, because it allows any real value and a height cannot be negative.\n",
+   "back_md": "**False.**\n\nIt is true that a normal distribution is defined for every real number, but values more than about **four standard deviations** from the mean have a probability density of practically zero.\n\nSo a normal model of human height puts a negligible probability on the impossible values and describes the realistic ones well, which is what makes it usable for quantities like height and weight that have a natural floor.\n\nA model does not have to be perfect to be useful, only good enough over the range that matters.\n",
+   "spec_links": [
+    "spcpt_V6WDFPgHhTqd5tyN"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_63B5BvTf2yTHWgZ3",
+   "card_type": "keyword_definition",
+   "order": 0,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Define the **standard normal distribution**."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The **standard normal distribution** is the normal distribution with mean 0 and standard deviation 1, written `Z \\sim \\text{N}(0, 1^{2})`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Its probabilities have been worked out once and printed as a table, which can then be used for **every** normal distribution."
+    },
+    {
+     "type": "paragraph",
+     "md": "The letter $Z$ is reserved for it, so seeing $Z$ in a question tells you the mean and standard deviation without being told."
+    }
+   ],
+   "front_md": "Define the **standard normal distribution**.\n",
+   "back_md": "The **standard normal distribution** is the normal distribution with mean 0 and standard deviation 1, written `Z \\sim \\text{N}(0, 1^{2})`.\n\nIts probabilities have been worked out once and printed as a table, which can then be used for **every** normal distribution.\n\nThe letter $Z$ is reserved for it, so seeing $Z$ in a question tells you the mean and standard deviation without being told.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_V5GTb4nZy4BKZS3f",
+   "card_type": "fill_in_the_blanks",
+   "order": 1,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the formula that converts any normal variable to the standard one:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`Z = \\frac{X - \\_\\_\\_\\_\\_\\_}{\\_\\_\\_\\_\\_\\_}`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed formula is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$Z = \\frac{X-μ}{σ}$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting the mean shifts the distribution so that its centre sits at 0, and dividing by the standard deviation rescales it so that its spread is 1."
+    },
+    {
+     "type": "paragraph",
+     "md": "So standardising is a translation followed by a stretch, and it turns any normal curve into the same one."
+    }
+   ],
+   "front_md": "Complete the formula that converts any normal variable to the standard one:\n\n`Z = \\frac{X - \\_\\_\\_\\_\\_\\_}{\\_\\_\\_\\_\\_\\_}`\n",
+   "back_md": "The completed formula is:\n\n$Z = \\frac{X-μ}{σ}$\n\nSubtracting the mean shifts the distribution so that its centre sits at 0, and dividing by the standard deviation rescales it so that its spread is 1.\n\nSo standardising is a translation followed by a stretch, and it turns any normal curve into the same one.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_W5FdrZhCKStrVpwd",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does a $z$-value of $1 . 5$ tell you about a data value?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "That it lies **one and a half standard deviations above the mean**."
+    },
+    {
+     "type": "paragraph",
+     "md": "A negative $z$ means the value is below the mean, and $z = 0$ means it sits exactly at the mean."
+    },
+    {
+     "type": "paragraph",
+     "md": "So a $z$-value is a measure of position expressed in standard deviations rather than in the original units."
+    }
+   ],
+   "front_md": "What does a $z$-value of $1 . 5$ tell you about a data value?\n",
+   "back_md": "That it lies **one and a half standard deviations above the mean**.\n\nA negative $z$ means the value is below the mean, and $z = 0$ means it sits exactly at the mean.\n\nSo a $z$-value is a measure of position expressed in standard deviations rather than in the original units.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_2BvBbdGZGPrqYrcG",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Two students with different marks in different exams can have the same $z$-value."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "A $z$-value records how far a mark sits from **its own** mean, measured in **its own** standard deviations, so 70 in one exam and 55 in another can standardise to the same value."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is exactly what makes standardising worth doing: it puts results from different distributions onto one common scale so they can be compared."
+    }
+   ],
+   "front_md": "**True or False?**\n\nTwo students with different marks in different exams can have the same $z$-value.\n",
+   "back_md": "**True.**\n\nA $z$-value records how far a mark sits from **its own** mean, measured in **its own** standard deviations, so 70 in one exam and 55 in another can standardise to the same value.\n\nThat is exactly what makes standardising worth doing: it puts results from different distributions onto one common scale so they can be compared.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_YKT4cRXsc2pHSHZw",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What does $Φ ( z )$ mean?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "It is the probability that $Z$ is **less than** $z$, so $Φ ( z ) = \\text{P} ( Z < z )$."
+    },
+    {
+     "type": "paragraph",
+     "md": "This is the function the normal distribution table gives, and the table lists it for values of $z$ from 0 to 3."
+    },
+    {
+     "type": "paragraph",
+     "md": "Beyond $z = 3$ the remaining probability is small enough to be treated as negligible."
+    }
+   ],
+   "front_md": "What does $Φ ( z )$ mean?\n",
+   "back_md": "It is the probability that $Z$ is **less than** $z$, so $Φ ( z ) = \\text{P} ( Z < z )$.\n\nThis is the function the normal distribution table gives, and the table lists it for values of $z$ from 0 to 3.\n\nBeyond $z = 3$ the remaining probability is small enough to be treated as negligible.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_fPMYntcmmq8xFM5k",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you read $Φ ( 1 . 234 )$ from the normal distribution table?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find where the $1 . 2$ row meets the $3$ column, which gives $Φ ( 1 . 23 ) = 0 . 8907$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then use the ADD section to the right of the table for the third decimal place: the ADD 4 entry on that row is 7, meaning $0 . 0007$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Adding it gives $Φ ( 1 . 234 ) = 0 . 8914$, and the ADD entries are always counted in ten-thousandths."
+    }
+   ],
+   "front_md": "How do you read $Φ ( 1 . 234 )$ from the normal distribution table?\n",
+   "back_md": "Find where the $1 . 2$ row meets the $3$ column, which gives $Φ ( 1 . 23 ) = 0 . 8907$.\n\nThen use the ADD section to the right of the table for the third decimal place: the ADD 4 entry on that row is 7, meaning $0 . 0007$.\n\nAdding it gives $Φ ( 1 . 234 ) = 0 . 8914$, and the ADD entries are always counted in ten-thousandths.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_ZDMYZsnNYDmyTsQ8",
+   "card_type": "fill_in_the_blanks",
+   "order": 6,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The table only gives $Φ ( z )$ for positive $z$. Fill in the other two cases:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(Z > z) = \\_\\_\\_\\_\\_\\_`"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(Z > -z) = \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed results are:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( Z > z ) = 1 - Φ ( z )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "$\\text{P} ( Z > - z ) = Φ ( z )$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The first uses the total area being 1, and the second uses the curve being symmetrical about 0."
+    },
+    {
+     "type": "paragraph",
+     "md": "Between them, those two ideas turn the one column of table values into every case you could be asked for."
+    }
+   ],
+   "front_md": "The table only gives $Φ ( z )$ for positive $z$. Fill in the other two cases:\n\n`\\text{P}(Z > z) = \\_\\_\\_\\_\\_\\_`\n\n`\\text{P}(Z > -z) = \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed results are:\n\n$\\text{P} ( Z > z ) = 1 - Φ ( z )$\n\n$\\text{P} ( Z > - z ) = Φ ( z )$\n\nThe first uses the total area being 1, and the second uses the curve being symmetrical about 0.\n\nBetween them, those two ideas turn the one column of table values into every case you could be asked for.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_sr4npKCkRvnX2My8",
+   "card_type": "question_and_answer",
+   "order": 7,
+   "set_id": "flst_dybjXTD5zH47qP5k",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find $z$ when $\\text{P} ( Z < z ) = 0 . 3$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The table only lists probabilities of $0 . 5$ and above, so look up $1 - 0 . 3 = 0 . 7$ instead, which gives $0 . 524$."
+    },
+    {
+     "type": "paragraph",
+     "md": "A probability below $0 . 5$ puts the value to the **left** of the mean, so the answer is the negative of what you looked up: $z = - 0 . 524$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing the minus sign down at the start, before doing the lookup, is what stops it going missing."
+    }
+   ],
+   "front_md": "How do you find $z$ when $\\text{P} ( Z < z ) = 0 . 3$?\n",
+   "back_md": "The table only lists probabilities of $0 . 5$ and above, so look up $1 - 0 . 3 = 0 . 7$ instead, which gives $0 . 524$.\n\nA probability below $0 . 5$ puts the value to the **left** of the mean, so the answer is the negative of what you looked up: $z = - 0 . 524$.\n\nWriting the minus sign down at the start, before doing the lookup, is what stops it going missing.\n",
+   "spec_links": [
+    "spcpt_khQ8s7M7XpHHbF5t"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_j3mt2Bj6x2FFX58f",
+   "card_type": "question_and_answer",
+   "order": 0,
+   "set_id": "flst_jxZKq4JFXQBqJZxB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "What values can a normally distributed variable take?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Any real number**, including negative and non-integer values, however unlikely the extremes may be."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is the contrast with a binomial variable, which can only take whole numbers from 0 to $n$."
+    },
+    {
+     "type": "paragraph",
+     "md": "It is also why a normal question always concerns a range of values rather than a list of them."
+    }
+   ],
+   "front_md": "What values can a normally distributed variable take?\n",
+   "back_md": "**Any real number**, including negative and non-integer values, however unlikely the extremes may be.\n\nThat is the contrast with a binomial variable, which can only take whole numbers from 0 to $n$.\n\nIt is also why a normal question always concerns a range of values rather than a list of them.\n",
+   "spec_links": [
+    "spcpt_G3bwVT83ZxbRTDXc"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_swKZhBrVSnTMYrGb",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_jxZKq4JFXQBqJZxB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "How do you find $\\text{P} ( X < a )$ when `X \\sim \\text{N}(\\mu, \\sigma^{2})`?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Sketch the curve and shade the region you want, then standardise $a$ into a $z$-value."
+    },
+    {
+     "type": "paragraph",
+     "md": "Read the corresponding probability from the normal distribution table, and use the sketch to decide whether that is the answer or whether you need 1 minus it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The sketch is doing real work here: it is what settles the direction, and it costs a few seconds."
+    }
+   ],
+   "front_md": "How do you find $\\text{P} ( X < a )$ when `X \\sim \\text{N}(\\mu, \\sigma^{2})`?\n",
+   "back_md": "Sketch the curve and shade the region you want, then standardise $a$ into a $z$-value.\n\nRead the corresponding probability from the normal distribution table, and use the sketch to decide whether that is the answer or whether you need 1 minus it.\n\nThe sketch is doing real work here: it is what settles the direction, and it costs a few seconds.\n",
+   "spec_links": [
+    "spcpt_FQfrWpTYmFd4Q2NS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_WRqhGdgsBdyFzkYJ",
+   "card_type": "fill_in_the_blanks",
+   "order": 2,
+   "set_id": "flst_jxZKq4JFXQBqJZxB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rule for a normal probability between two values:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(a < X < b) = \\Phi\\left(\\frac{b - \\mu}{\\sigma}\\right) - \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rule is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`\\text{P}(a < X < b) = \\Phi\\left(\\frac{b - \\mu}{\\sigma}\\right) - \\Phi\\left(\\frac{a - \\mu}{\\sigma}\\right)`"
+    },
+    {
+     "type": "paragraph",
+     "md": "You are taking the area up to $b$ and removing the area up to $a$, leaving the strip between them."
+    },
+    {
+     "type": "paragraph",
+     "md": "Both ends are standardised with the **same** $μ$ and $σ$, and if either $z$ comes out negative you will need the symmetry result before you can look it up."
+    }
+   ],
+   "front_md": "Complete the rule for a normal probability between two values:\n\n`\\text{P}(a < X < b) = \\Phi\\left(\\frac{b - \\mu}{\\sigma}\\right) - \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rule is:\n\n`\\text{P}(a < X < b) = \\Phi\\left(\\frac{b - \\mu}{\\sigma}\\right) - \\Phi\\left(\\frac{a - \\mu}{\\sigma}\\right)`\n\nYou are taking the area up to $b$ and removing the area up to $a$, leaving the strip between them.\n\nBoth ends are standardised with the **same** $μ$ and $σ$, and if either $z$ comes out negative you will need the symmetry result before you can look it up.\n",
+   "spec_links": [
+    "spcpt_FQfrWpTYmFd4Q2NS"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_JpJjnXwdXvbzW27W",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_jxZKq4JFXQBqJZxB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Standardising changes the probability you are calculating."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**False.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Standardising is a change of **scale**, not a change of the event: the region under the curve is exactly the same region, measured in different units."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is precisely why a single table of probabilities is enough for every normal distribution there is."
+    }
+   ],
+   "front_md": "**True or False?**\n\nStandardising changes the probability you are calculating.\n",
+   "back_md": "**False.**\n\nStandardising is a change of **scale**, not a change of the event: the region under the curve is exactly the same region, measured in different units.\n\nThat is precisely why a single table of probabilities is enough for every normal distribution there is.\n",
+   "spec_links": [
+    "spcpt_FQfrWpTYmFd4Q2NS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_5Cq3ZT8mGMsXzM4V",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_jxZKq4JFXQBqJZxB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "For `X \\sim \\text{N}(20, 5^{2})`, how do you find $\\text{P} ( 18 \\leq X < 27 )$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Standardise both ends, which gives $z = - 0 . 4$ and $z = 1 . 4$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Then take the difference of the two cumulative probabilities:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$Φ ( 1 . 4 ) - Φ ( - 0 . 4 ) = 0 . 9192 - 0 . 3446 = 0 . 5746$"
+    },
+    {
+     "type": "paragraph",
+     "md": "The negative $z$ has to be converted before it can be looked up, which is the step most often rushed."
+    }
+   ],
+   "front_md": "For `X \\sim \\text{N}(20, 5^{2})`, how do you find $\\text{P} ( 18 \\leq X < 27 )$?\n",
+   "back_md": "Standardise both ends, which gives $z = - 0 . 4$ and $z = 1 . 4$.\n\nThen take the difference of the two cumulative probabilities:\n\n$Φ ( 1 . 4 ) - Φ ( - 0 . 4 ) = 0 . 9192 - 0 . 3446 = 0 . 5746$\n\nThe negative $z$ has to be converted before it can be looked up, which is the step most often rushed.\n",
+   "spec_links": [
+    "spcpt_FQfrWpTYmFd4Q2NS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_qHwZj6c4BVqHHPYC",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_jxZKq4JFXQBqJZxB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are told that $\\text{P} ( X > a ) = 0 . 7676$ and want to find $a$. What do you do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the $z$-value that gives that probability, then substitute it into $z = \\frac{a-μ}{σ}$ and solve for $a$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Here the probability is above $0 . 5$, so $a$ lies **below** the mean and $z$ is negative."
+    },
+    {
+     "type": "paragraph",
+     "md": "Finishing with a check that $a$ really is on the expected side of the mean catches a lost minus sign immediately."
+    }
+   ],
+   "front_md": "You are told that $\\text{P} ( X > a ) = 0 . 7676$ and want to find $a$. What do you do?\n",
+   "back_md": "Find the $z$-value that gives that probability, then substitute it into $z = \\frac{a-μ}{σ}$ and solve for $a$.\n\nHere the probability is above $0 . 5$, so $a$ lies **below** the mean and $z$ is negative.\n\nFinishing with a check that $a$ really is on the expected side of the mean catches a lost minus sign immediately.\n",
+   "spec_links": [
+    "spcpt_Gjxd6ZdfXrrzF7TM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_bSFNGRzWH5kZYg8x",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_jxZKq4JFXQBqJZxB",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You are told that `\\text{P}(\\mu - a < X < \\mu + a) = 80\\%`. How do you find $a$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The remaining 20% is shared **equally** between the two tails by symmetry, so 10% lies above $μ + a$ and therefore `\\text{P}(X < \\mu + a) = 90\\%`."
+    },
+    {
+     "type": "paragraph",
+     "md": "Look up the $z$-value for $0 . 9$, then use the fact that standardising $μ + a$ gives simply $\\frac{a}{σ}$, since the means cancel."
+    },
+    {
+     "type": "paragraph",
+     "md": "A sketch makes the halving obvious and is much easier than remembering a formula for it."
+    }
+   ],
+   "front_md": "You are told that `\\text{P}(\\mu - a < X < \\mu + a) = 80\\%`. How do you find $a$?\n",
+   "back_md": "The remaining 20% is shared **equally** between the two tails by symmetry, so 10% lies above $μ + a$ and therefore `\\text{P}(X < \\mu + a) = 90\\%`.\n\nLook up the $z$-value for $0 . 9$, then use the fact that standardising $μ + a$ gives simply $\\frac{a}{σ}$, since the means cancel.\n\nA sketch makes the halving obvious and is much easier than remembering a formula for it.\n",
+   "spec_links": [
+    "spcpt_Gjxd6ZdfXrrzF7TM"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SXFp2dJ9pWSSmRsj",
+   "card_type": "fill_in_the_blanks",
+   "order": 0,
+   "set_id": "flst_w5tHHHzWPtz8hQkm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Complete the rearrangement of the standardisation formula that is most useful when a parameter is unknown:"
+    },
+    {
+     "type": "paragraph",
+     "md": "`x = \\mu + \\_\\_\\_\\_\\_\\_`"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The completed rearrangement is:"
+    },
+    {
+     "type": "paragraph",
+     "md": "$x = μ + σ z$"
+    },
+    {
+     "type": "paragraph",
+     "md": "It says that any value is the mean plus so many standard deviations, which is the same statement as the standardisation formula read the other way round."
+    },
+    {
+     "type": "paragraph",
+     "md": "This form is the one to use here, because it is **linear** in $μ$ and $σ$ and so gives an equation that is easy to solve or to combine with another."
+    }
+   ],
+   "front_md": "Complete the rearrangement of the standardisation formula that is most useful when a parameter is unknown:\n\n`x = \\mu + \\_\\_\\_\\_\\_\\_`\n",
+   "back_md": "The completed rearrangement is:\n\n$x = μ + σ z$\n\nIt says that any value is the mean plus so many standard deviations, which is the same statement as the standardisation formula read the other way round.\n\nThis form is the one to use here, because it is **linear** in $μ$ and $σ$ and so gives an equation that is easy to solve or to combine with another.\n",
+   "spec_links": [
+    "spcpt_kPmz4sKBr5fYwwtS"
+   ],
+   "flags": [
+    "fitb_no_blank_marker"
+   ],
+   "blanks": {
+    "count": 0,
+    "answers": []
+   }
+  },
+  {
+   "id": "fl_2qsPKk6PDHVP7n3k",
+   "card_type": "question_and_answer",
+   "order": 1,
+   "set_id": "flst_w5tHHHzWPtz8hQkm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "You know $σ$ and one probability, and want to find $μ$. What do you do?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Find the $z$-value for that probability, then substitute the known $x$, $z$ and $σ$ into $x = μ + σ z$ and solve for $μ$."
+    },
+    {
+     "type": "paragraph",
+     "md": "One probability is enough because only one parameter is missing, so one equation determines it."
+    },
+    {
+     "type": "paragraph",
+     "md": "The same works the other way round: knowing $μ$ and one probability gives $σ$."
+    }
+   ],
+   "front_md": "You know $σ$ and one probability, and want to find $μ$. What do you do?\n",
+   "back_md": "Find the $z$-value for that probability, then substitute the known $x$, $z$ and $σ$ into $x = μ + σ z$ and solve for $μ$.\n\nOne probability is enough because only one parameter is missing, so one equation determines it.\n\nThe same works the other way round: knowing $μ$ and one probability gives $σ$.\n",
+   "spec_links": [
+    "spcpt_kPmz4sKBr5fYwwtS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_zXBTbg2k476RJkyQ",
+   "card_type": "question_and_answer",
+   "order": 2,
+   "set_id": "flst_w5tHHHzWPtz8hQkm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Both $μ$ and $σ$ are unknown. What must the question give you, and what do you do with it?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**Two** probabilities, each attached to a different value of $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each one gives a $z$-value and hence one equation in $μ$ and $σ$, and the pair is then solved simultaneously."
+    },
+    {
+     "type": "paragraph",
+     "md": "Writing both equations in the form $x = μ + σ z$ first is what makes the pair straightforward to handle."
+    }
+   ],
+   "front_md": "Both $μ$ and $σ$ are unknown. What must the question give you, and what do you do with it?\n",
+   "back_md": "**Two** probabilities, each attached to a different value of $x$.\n\nEach one gives a $z$-value and hence one equation in $μ$ and $σ$, and the pair is then solved simultaneously.\n\nWriting both equations in the form $x = μ + σ z$ first is what makes the pair straightforward to handle.\n",
+   "spec_links": [
+    "spcpt_kPmz4sKBr5fYwwtS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_rCnr936nWD3773mb",
+   "card_type": "true_or_false",
+   "order": 3,
+   "set_id": "flst_w5tHHHzWPtz8hQkm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True or False?**"
+    },
+    {
+     "type": "paragraph",
+     "md": "You can work out $σ$ without ever knowing $μ$."
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "**True.**"
+    },
+    {
+     "type": "paragraph",
+     "md": "Subtracting one of the two equations from the other removes $μ$ altogether, leaving a single equation in $σ$ alone."
+    },
+    {
+     "type": "paragraph",
+     "md": "So $σ$ comes out first, and $μ$ is recovered afterwards by substituting back, even though neither equation on its own determines either parameter."
+    }
+   ],
+   "front_md": "**True or False?**\n\nYou can work out $σ$ without ever knowing $μ$.\n",
+   "back_md": "**True.**\n\nSubtracting one of the two equations from the other removes $μ$ altogether, leaving a single equation in $σ$ alone.\n\nSo $σ$ comes out first, and $μ$ is recovered afterwards by substituting back, even though neither equation on its own determines either parameter.\n",
+   "spec_links": [
+    "spcpt_kPmz4sKBr5fYwwtS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_kwBJm7QNwKhmCm77",
+   "card_type": "question_and_answer",
+   "order": 4,
+   "set_id": "flst_w5tHHHzWPtz8hQkm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "When two equations are formed from two probabilities, what is the commonest mistake?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Pairing a $z$-value with the **wrong** $x$."
+    },
+    {
+     "type": "paragraph",
+     "md": "Each probability belongs to one particular value of $x$, and its $z$-value has to go into the equation for that value and no other."
+    },
+    {
+     "type": "paragraph",
+     "md": "Labelling them as $z_{1}$ with $x_{1}$ and $z_{2}$ with $x_{2}$ before substituting anything is what prevents it."
+    }
+   ],
+   "front_md": "When two equations are formed from two probabilities, what is the commonest mistake?\n",
+   "back_md": "Pairing a $z$-value with the **wrong** $x$.\n\nEach probability belongs to one particular value of $x$, and its $z$-value has to go into the equation for that value and no other.\n\nLabelling them as $z_{1}$ with $x_{1}$ and $z_{2}$ with $x_{2}$ before substituting anything is what prevents it.\n",
+   "spec_links": [
+    "spcpt_kPmz4sKBr5fYwwtS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_mnsmbprcdkFMkpH3",
+   "card_type": "question_and_answer",
+   "order": 5,
+   "set_id": "flst_w5tHHHzWPtz8hQkm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Why should a $z$-value be taken to three decimal places in this kind of question?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "Because $z$ gets **multiplied by** $σ$ and then added to $μ$, so any error in it is magnified into the final answer."
+    },
+    {
+     "type": "paragraph",
+     "md": "Three decimal places keeps the result reliable to three significant figures."
+    },
+    {
+     "type": "paragraph",
+     "md": "That is why the formula booklet carries a separate table of critical values quoted to exactly that accuracy."
+    }
+   ],
+   "front_md": "Why should a $z$-value be taken to three decimal places in this kind of question?\n",
+   "back_md": "Because $z$ gets **multiplied by** $σ$ and then added to $μ$, so any error in it is magnified into the final answer.\n\nThree decimal places keeps the result reliable to three significant figures.\n\nThat is why the formula booklet carries a separate table of critical values quoted to exactly that accuracy.\n",
+   "spec_links": [
+    "spcpt_kPmz4sKBr5fYwwtS"
+   ],
+   "flags": []
+  },
+  {
+   "id": "fl_SXc8p8x5N2rjGxKj",
+   "card_type": "question_and_answer",
+   "order": 6,
+   "set_id": "flst_w5tHHHzWPtz8hQkm",
+   "front_blocks": [
+    {
+     "type": "paragraph",
+     "md": "10% of students take under 12 minutes and 5% take over 40 minutes. How do you find $μ$ and $σ$?"
+    }
+   ],
+   "back_blocks": [
+    {
+     "type": "paragraph",
+     "md": "The two $z$-values are $- 1 . 282$ and $1 . 645$, one negative because 12 is below the mean and one positive because 40 is above it."
+    },
+    {
+     "type": "paragraph",
+     "md": "That gives the pair of equations"
+    },
+    {
+     "type": "paragraph",
+     "md": "$- 1 . 282 σ = 12 - μ \\text{and} 1 . 645 σ = 40 - μ$"
+    },
+    {
+     "type": "paragraph",
+     "md": "Solving them gives $σ = 9 . 57$ and $μ = 24 . 3$ minutes."
+    }
+   ],
+   "front_md": "10% of students take under 12 minutes and 5% take over 40 minutes. How do you find $μ$ and $σ$?\n",
+   "back_md": "The two $z$-values are $- 1 . 282$ and $1 . 645$, one negative because 12 is below the mean and one positive because 40 is above it.\n\nThat gives the pair of equations\n\n$- 1 . 282 σ = 12 - μ \\text{and} 1 . 645 σ = 40 - μ$\n\nSolving them gives $σ = 9 . 57$ and $μ = 24 . 3$ minutes.\n",
+   "spec_links": [
+    "spcpt_kPmz4sKBr5fYwwtS"
+   ],
+   "flags": []
+  }
+ ]
+}
