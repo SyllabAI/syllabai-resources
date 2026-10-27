@@ -82,3 +82,34 @@ select_noisy: 800/1400 selected (80 question chunks force-included), ids at
 pipeline/evidence/llm_repair_ids_ych12.json. The account-level 429 wall that
 parked YCH11 polish at 48/800 (2026-10-24) was probe-verified still up
 2026-10-25 — R1 not attempted beyond staging. Resumable per PM-3.
+
+## D-12 v2 fresh-parse lane (T-PARSE-YCH12-2, 2026-10-27)
+1. PAGES RECOVERED, NO OCR RE-RUN: the R2 rebuilt docling_pages (2026-10-25)
+   survived a later workspace recycle with the FULL 315-record sidecar already
+   applied — re-verified item-for-item at v2 session start (306 filled-exact +
+   9 adjudicated-empty = 315/315). The of-record v2 OCR env is therefore the
+   R2 rebuild: docling 2.33.0, rapidocr-onnxruntime 1.4.4, transformers
+   4.52.4, torch 2.14.1+cpu, onnxruntime 1.31.0 (the position-proven pin).
+2. VERSIONING LAW: `YCH12_VERSION` env re-tags ids + filenames
+   (`ych2_v2_u…`, chunks_v2.jsonl, parse_report_v2.json); the default v1
+   reproduces the r0 recipe — byte-proven (prefix-swap diff == identical).
+   Validator gains the same env assertion.
+3. RE-CHUNK: 1406 chunks (deterministic re-run of the same pages equals the
+   R2 count), validator ALL CHECKS PASSED (19 chapters, 10 topics, EP 10/10,
+   index pdf 311-316, by-design gaps asserted).
+4. ADJUDICATION (v2-raw vs v1-pristine, both pre-polish): error-class rates
+   per 10k chars statistically identical — space_run 41.21/41.55, caps_glue
+   7.92/7.98, camel_glue 2.96/2.98, latex_remnant 0/0, repeated_punct
+   30.75/30.98. Structure identical (17 content types, EP banks 20 pages /
+   10 ranges, thinking_bigger 69, units 11-20). 0 over-hard-max; char_count
+   41-2367.
+5. RESCUE CONSUMPTION: 305/306 sidecar fills verbatim-or-whitespace-
+   normalized in v2 chunk text. The 1 residual (p49 i9, `N₂(g) + 3H₂(g) →
+   2NH₃(g)`) is dropped by the <40-char pack floor via the WORKED EXAMPLE 2
+   micro-segment (heading 14 + formula 25 = 39 chars) — the SAME drop exists
+   in v1 (pre-existing edge, not a v2 regression); pages + sidecar retain it.
+   Follow-up task: a pack-floor fold fix with its own gate.
+6. DRIFT DISCLOSURE: 947/1406 id slots shared with v1 (67.4%); text
+   identical on 326 shared slots (34.4%) — a different OCR run of the same
+   scan (position-true per R2), disclosed not defective. The 103 v1 polish
+   repairs do NOT carry over by id; polish restarts on the v2 pristine.

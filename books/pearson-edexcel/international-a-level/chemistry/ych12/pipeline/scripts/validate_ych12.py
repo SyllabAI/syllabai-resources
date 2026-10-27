@@ -41,12 +41,16 @@ errors = []
 chunks = [json.loads(l) for l in open(CORPUS)]
 print(f"loaded {len(chunks)} chunks")
 
+# v2 fresh-parse lane: YCH12_VERSION=2 asserts the ych2_v2_ grammar (default v1)
+VER = os.environ.get("YCH12_VERSION", "v1")
+ID_RE = re.compile(rf"ych2_{VER}_u\d+_c\d+_pdf\d{{3}}_\d{{4}}")
+
 # 1. unique IDs + grammar
 ids = [c["id"] for c in chunks]
 if len(set(ids)) != len(ids):
     errors.append("duplicate chunk ids")
 for cid in ids:
-    if not re.fullmatch(r"ych2_v1_u\d+_c\d+_pdf\d{3}_\d{4}", cid):
+    if not ID_RE.fullmatch(cid):
         errors.append(f"bad id grammar: {cid}")
 
 # 2. 15-key grammar
@@ -85,7 +89,7 @@ def covered(pdf_lo, pdf_hi):
     return any(c["pdf_pages"][0] <= pdf_hi and c["pdf_pages"][1] >= pdf_lo for c in chunks)
 if not covered(311, 316):
     errors.append("index pages (pdf 311-316) not covered by any chunk")
-report_path = os.path.join(os.path.dirname(CORPUS), "parse_report_v1.json")
+report_path = os.path.join(os.path.dirname(CORPUS), f"parse_report_{VER}.json")
 gaps = {g["pdf_page"]: g for g in json.load(open(report_path)).get("by_design_gaps", [])}
 for pdf_page, kind in ((310, "periodic_table"), (317, "graph_paper"),
                        (318, "graph_paper"), (319, "graph_paper"), (320, "graph_paper")):

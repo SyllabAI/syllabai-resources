@@ -12,7 +12,10 @@ landing is BLOCKED — the sandbox reset destroyed `docling_pages/`, the rebuilt
 renumber, 68% shared-id text drift; suspected unpinned onnxruntime backend),
 so the landed v1 corpus stands byte-untouched; consumption needs a fresh-parse
 (v2) lane — see the rescue R2 README. LLM polish R1 at 103/800 (POLISH-CONT-2, 2026-10-26), quota-walled,
-resumable). SB1 = parsed in the sibling `ych11` lane. Scaffold per
+resumable). **v2 fresh-parse lane COMPLETE (T-PARSE-YCH12-2, 2026-10-27): the R2 pages survived the
+recycle with the FULL 315-record sidecar applied (re-verified 306+9=315/315) — consumed as the v2
+corpus of record (1406 chunks, `ych2_v2_`, validator ALL CHECKS PASSED; adjudication: error-class
+rates identical to r0, structure identical, 305/306 fills in chunk text — METHOD D-12).** SB1 = parsed in the sibling `ych11` lane. Scaffold per
 `books/README.md` §5 (copy of the `chemistry/ych11` IAL lane).
 
 ## Books of this lane

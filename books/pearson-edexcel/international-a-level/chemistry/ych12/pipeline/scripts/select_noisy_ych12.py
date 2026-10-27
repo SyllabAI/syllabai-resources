@@ -3,11 +3,11 @@
 Damage class = scan-wide dropped spaces (Chromium/Skia print-replica ->
 RapidOCR), same dominant class as 4PH1 (63% of chunks carry glue runs).
 Writes data/llm_repair_ids_ych12.json (worst first)."""
-import json, re
+import json, re, os
 from collections import Counter
 
-PATH = "/home/z/my-project/data/ych12_sb2/out/edexcel_ial_chemistry_ych12_sb2_chunks_v1.jsonl"
-OUT = "/home/z/my-project/data/ych12_sb2/llm_repair_ids_ych12.json"
+PATH = os.environ.get("YCH12_CORPUS", "/home/z/my-project/data/ych12_sb2/out/edexcel_ial_chemistry_ych12_sb2_chunks_v1.jsonl")
+OUT = os.environ.get("YCH12_IDS_OUT", "/home/z/my-project/data/ych12_sb2/llm_repair_ids_ych12.json")
 CAP = 800  # 1571-chunk book, scan-wide glue; resumable runner tolerates quota gaps
 
 COMMON = {"the", "of", "and", "a", "to", "in", "is", "are", "that", "it",

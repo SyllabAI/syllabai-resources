@@ -31,6 +31,9 @@ from book_structure_ych12 import (CHAPTERS, EXTRA_SECTIONS, TOPIC_DIVIDERS,
 
 PAGES_DIR = "/home/z/my-project/data/ych12_sb2/docling_pages"
 OUT_DIR = os.environ.get("YCH12_OUT_DIR", "/home/z/my-project/data/ych12_sb2/out")
+# v2 fresh-parse lane (T-PARSE-YCH12-2): YCH12_VERSION=2 re-tags ids/filenames
+# (ych2_v2_). Default "v1" reproduces the r0 parse of record byte-for-byte.
+VER = os.environ.get("YCH12_VERSION", "v1")
 TARGET_MIN, TARGET_MAX, HARD_MAX, MERGE_MIN = 350, 1600, 2400, 250
 FIRST_ARABIC_PDF = OFFSET + 2  # book 2 = PDF 14 (book 1 print-blank omitted)
 
@@ -326,7 +329,7 @@ class Chunker:
             bp1 = seg["end_page"] - OFFSET
             has_book_page = seg["start_page"] >= FIRST_ARABIC_PDF
             book_pages = [bp0, bp1] if has_book_page else None
-            cid = (f"ych2_v1_u{seg['unit_no'] or 0}_c{seg['chapter_no'] or 0}"
+            cid = (f"ych2_{VER}_u{seg['unit_no'] or 0}_c{seg['chapter_no'] or 0}"
                    f"_pdf{seg['start_page']:03d}_{self.idx:04d}")
             self.chunks.append({
                 "id": cid,
@@ -425,7 +428,7 @@ def main():
         else:
             merged.append(c)
     chunks = merged
-    out_jsonl = f"{OUT_DIR}/edexcel_ial_chemistry_ych12_sb2_chunks_v1.jsonl"
+    out_jsonl = f"{OUT_DIR}/edexcel_ial_chemistry_ych12_sb2_chunks_{VER}.jsonl"
     with open(out_jsonl, "w", encoding="utf-8") as f:
         for c in chunks:
             f.write(json.dumps(c, ensure_ascii=False) + "\n")
@@ -481,7 +484,7 @@ def main():
         ],
         "n_llm_polished": 0,
     }
-    json.dump(report, open(f"{OUT_DIR}/parse_report_v1.json", "w"), indent=2)
+    json.dump(report, open(f"{OUT_DIR}/parse_report_{VER}.json", "w"), indent=2)
     print(json.dumps(report, indent=2), file=sys.stderr)
 
 

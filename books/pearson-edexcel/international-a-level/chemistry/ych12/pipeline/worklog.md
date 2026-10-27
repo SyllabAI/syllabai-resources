@@ -226,3 +226,46 @@ Stage Summary:
   remains the recipe; openings ran ~10 min apart this session (4 caught of
   5 windows). The 182-record rescue sidecar still awaits the fresh-parse
   (v2) lane.
+
+---
+Task ID: T-PARSE-YCH12-2
+Agent: Z.ai (main, zai-web)
+Task: v2 fresh-parse lane — consume the banked rescue R2 sidecar as a new
+corpus of record (operator order "v2 fresh-parse lane", trace
+1a17e7ccd46f6181).
+
+Work Log:
+- SANDBOX RESET recovery (fetch-first): repo advanced to dec103e6e (SIB pass
+  15); ych12 sparse-restored; source PDF sha256 verified (7b1bc6cf…618).
+- THE PAGES SURVIVED: data/ych12_sb2/docling_pages intact (320/320, mtimes
+  2026-10-25 = the R2 rebuild) WITH the FULL sidecar already applied —
+  re-verified item-for-item: 306 filled-exact + 9 adjudicated-empty =
+  315/315. The planned 10-14 window OCR re-run was consumed as already done;
+  no docling env needed (parse/validate are stdlib-only).
+- SCRIPTING: parse_docling_ych12.py + validate_ych12.py + select_noisy_ych12.py
+  gained a YCH12_VERSION / YCH12_CORPUS env surface (default v1 byte-proven
+  unchanged via prefix-swap diff == identical).
+- RE-CHUNK: 1406 chunks ych2_v2_ (deterministic re-run == the R2 count);
+  validator ALL CHECKS PASSED (EP 10/10, index 311-316, gaps asserted).
+- ADJUDICATION (full numbers in METHOD D-12): error-class rates statistically
+  identical to v1-pristine on all 5 classes; structure identical (17 types,
+  EP 20 pages, thinking_bigger 69, units 11-20); 0 over-hard-max; rescue
+  consumption 305/306 (whitespace-normalized) — the 1 residual (p49 i9,
+  N₂(g) + 3H₂(g) → 2NH₃(g)) dropped by the <40-char pack floor via the
+  WORKED EXAMPLE 2 micro-segment (14+25=39 chars): SAME drop in v1,
+  pre-existing edge, provenance intact (pages + sidecar); pack-floor fold fix
+  registered as its own follow-up task. Drift disclosure: 947/1406 shared
+  slots, 326 identical text (different OCR run, position-true per R2).
+- LANDED: parsed/ chunks_v2.jsonl + .pristine (== pre-polish baseline) +
+  parse_report_v2.json + full_book_docling_v2.md + pipeline/docling_pages_v2/
+  (320 pages, 2.2 MB — the v2 provenance, banked reset-proof) +
+  evidence/llm_repair_ids_ych12_v2.json (801 staged — force-inclusion pushed
+  one over the 800 cap; the runner consumes the list as-is).
+- Ledgers same commit: METHOD D-12, lane README, CATALOG row 12.
+
+Stage Summary:
+- v2 is the corpus of record: rescue COMPLETE (315/315 consumed, 305 in
+  chunk text), polish resets to 0/801 staged (v1's 103 repairs do not carry
+  by id — the v1 corpus + evidence remain landed and in history). Next:
+  polish grind on v2 (llm_repair recipe re-targeted at the v2 corpus +
+  ids file), pack-floor follow-up task, serving lane.
