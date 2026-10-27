@@ -589,7 +589,9 @@ Give the name of this type of polymerisation.
 
 ### 6(d)(ii) [3]
 
-Complete the equation. Show only one repeat unit of the polyester. O O HO C CH2CH2 C OH + + HO CH2CH2 OH
+Complete the equation. Show only one repeat unit of the polyester.
+
+![polyester equation to complete (ethanedioic acid + ethane-1,2-diol) — official paper figure (qp.pdf p.13)](assets/asset_6_d_ii_equation.png)
 
 
 **Mark scheme answer**

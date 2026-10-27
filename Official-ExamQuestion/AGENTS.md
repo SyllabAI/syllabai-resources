@@ -505,6 +505,18 @@ way) or a **parser gap** (our regex/assumption doesn't cover a new layout). The 
 
 ## Known open work (pick up from here)
 
+- Task 23 (2026-10-28, F108) CLOSED the MS-grid parser tranche end-to-end: the
+  Finding-5 answer-grid parser (2021-06 1C 1(a), 2023-06 1CR 4(a) serve
+  reconstructed two-column tables), the F88-queued converter-side grid strip
+  (extraction emits the serve-clean form; re-runs reproduce it), and the F90
+  MS-side-aware bare-number rule (printed fraction denominators restore;
+  marks digits keep stripping). It also restored the Task-19-r2 converter hunks
+  the Task-21 merge had clobbered (F92/F93/F97 — the F66 class, caught by the
+  law-5 baseline dry-run). Remaining reconciliation classes (disclosed, open):
+  MCQ positional keys (Finding 8a, 33 parts), the exponent restore pass
+  (Finding 8b, 8 parts), and the Task-20 drawing-strip surgical patches
+  (14 problem_md regions) — a full re-run still diverges on those until their
+  own reconciliation waves land.
 - Task 20 (2026-10-27) CLOSED the C98 drawing-linearization queue end-to-end: the pinned 15
   plus the 6 the closure re-census discovered (F96 update) are cropped+stripped with durable
   eyeball ledgers (STEM-RESTORE stemFigure specs + CROP-REVIEW manual_crop verdicts), the

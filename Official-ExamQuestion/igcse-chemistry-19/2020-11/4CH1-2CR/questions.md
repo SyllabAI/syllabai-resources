@@ -34,6 +34,8 @@ Complete the table by giving the name of each piece of apparatus. Letter Name A 
 
 Which piece of apparatus can be used to measure the volume of a liquid? A B C D
 
+![four pieces of apparatus A-D — official paper figure (qp.pdf p.3) — shared with asset_1_stem_apparatus](assets/asset_1_stem_apparatus.png)
+
 
 **Mark scheme answer**
 
@@ -130,7 +132,6 @@ Calculate the relative atomic mass of this sample of thallium. Give your answer 
 > working scores M1 and M2
 > M3 204.4 Correct answer to 1 d.p. with
 > or without working scores 3
-> marks
 
 - **(1)** (203 x 30.8) + (205 x 69.2) OR 20438.4 ACCEPT 4, 5 or 6 sig fig
 - **(1)** 20438.4 ÷ 100 OR 204.384 ACCEPT 5 or 6 sig fig
@@ -323,7 +324,6 @@ The table shows the electronic configurations of sodium and potassium. Element E
 > full marks
 > Max 2 if no mention of
 > outer electron in the
-> answer
 
 - **(3)** An explanation that links three of the following four
 
@@ -575,7 +575,6 @@ The student needs 21.50 cm3 of hydrochloric acid to neutralise 25.0 cm3 of sodiu
 > M3 0.930 ALLOW any number of sig
 > fig except 1
 > ALLOW ecf on M2
-> Total
 
 - **(1)** n(NaOH) = 0.0250 x 0.800 or 0.02(00)
 - **(1)** conc = (0.02 ÷ 0.0215) answer to M1 ÷ 0.0215
@@ -755,7 +754,6 @@ Methanoic acid reacts with sodium carbonate to form sodium methanoate, carbon di
 > 0.6, 1200 and 2400
 > score 3
 > 1.2 and 2.4 score 2
-> Total
 
 - **(1)** n(HCOOH) = 2.3 ÷ 46 or 0.05(0)
 - **(1)** n(CO2) = 0.05(0) ÷ 2 or 0.025

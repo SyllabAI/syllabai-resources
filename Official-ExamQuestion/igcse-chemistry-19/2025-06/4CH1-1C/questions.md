@@ -55,7 +55,6 @@ Give the name of this element.
 **Mark scheme answer**
 
 > boron ALLOW B
-> Question number Answer Notes Marks
 
 - **(1)** boron ALLOW B
 
@@ -232,7 +231,6 @@ Calculate the Rf value for the dye in W. Give your answer to two significant fig
 > and M2
 > M4 0.32/0.33 ALLOW ecf corrected to
 > 2 sig figs
-> Question number Answer Notes Marks
 
 - **(1)** measurement to spot W = 2.2 cm/ 22 mm or ALLOW within range of
 - **(1)** measurement to solvent front = 6.9 cm/ 69 mm
@@ -724,6 +722,7 @@ Explain, with reference to its bonding, why diamond has a high melting point.
 > molecules or ions/ionic
 > bonding/metallic
 > bonding scores 0 out of
+> 3
 
 - **(1)** covalent bonds are strong ACCEPT strong
 - **(1)** many (covalent) bonds (need to be broken)
@@ -754,7 +753,6 @@ Explain why graphite is soft and is a conductor of electricity. Refer to structu
 > M7 electrons are free to move (therefore they IGNORE reference to
 > can conduct electricity) can carrying a
 > charge/current
-> number Answer Notes Marks
 
 - **(6)** An explanation that links six of the following
 
@@ -882,7 +880,6 @@ Ethane and ethene undergo different types of reaction with bromine. Describe the
 > M7 decolourises (immediately) / turns
 > colourless
 > M8 produces dibromoethane/C2H4Br2
-> Question number Answer Notes Marks
 
 - **(5)** A description that refers to any five of the
 

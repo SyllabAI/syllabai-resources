@@ -732,9 +732,19 @@ Draw a circle around the functional group of the ester.
 
 **Mark scheme answer**
 
-> 1
+> H        H              O
+> |        |              ||
+> H - C  -   C  -  C
+> |        |     \
+> H    H - C - H    O - C - H
+>      |                |
+>      H                H
+> 
+> (the printed answer cell is a hand-annotated photograph of the QP displayed
+> formula: a pen circle is drawn around the ester functional group - the
+> carbonyl C, its double-bond O and the bridging O, i.e. the C(=O)-O- linkage)
 
-- **(1)** 1
+- **(1)** H        H              O
 
 ### 7(c)(ii) [1]
 

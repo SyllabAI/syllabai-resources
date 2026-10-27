@@ -648,7 +648,6 @@ An organic compound has this percentage composition by mass. C = 19.2 % H = 4.0 
 > order
 > correct answer without
 > working scores 3
-> Question number Answer Notes Marks
 
 - **(1)** 19.2 4.0 12.8 64.0 0 marks for upside down
 - **(1)** 1.6 4.0 0.8 0.8
@@ -735,7 +734,6 @@ Explain in terms of particle collision theory how decreasing the concentration a
 > awarded here If kinetic
 > energy/particle
 > movement mentioned in
-> answer
 
 - **(1)** fewer particles (in the same volume) REJECT if reference to
 - **(1)** fewer collisions per unit time/less frequent collisions IGNORE less chance of
@@ -766,7 +764,6 @@ In this reaction, the manganese(IV) oxide acts as a catalyst. Explain how a cata
 > An explanation that links the following two points
 > M1 provides an alternative pathway/route
 > M2 with lower activation energy
-> Total
 
 - **(1)** provides an alternative pathway/route
 - **(1)** with lower activation energy
@@ -816,16 +813,19 @@ When chlorine gas is passed over heated iron powder, iron(III) chloride forms. T
 > M1 moles of iron = 2.8 ÷ 56 = 0.05(0)
 > M2 2 mol iron reacts with 3 mol chlorine
 > M3 moles of Fe to react with Cl2 = 0.060 × 2 = 0.04(0)
+> 3
 > (so iron is in excess)
 > OR
 > M2 2 mol iron reacts with 3 mol chlorine/ 3 mol
 > chlorine reacts with 2 mol iron
 > M3 moles of Fe to react with Cl2 = 0.060 × 2 = 0.04(0)
+> 3
 > M4 0.04(0) × 56 = 2.24 g (so iron is in excess)
 > OR
 > M1 moles of iron = 2.8 ÷ 56 = 0.05(0)
 > M2,M3
 > moles of Cl2 to react with Fe = 0.05(0) × 3 = 0.075
+> 2
 > (so 0.060 moles is not enough, so iron is in excess)
 > MAXIMUM 3 MARKS
 
@@ -922,22 +922,22 @@ Explain why graphite is a good conductor of electricity.
 
 ### 8(d) [2]
 
-C60 fullerene is a molecule made of 60 carbon atoms. The diagram shows the structure of C60 fullerene. One mole of atoms contains 6.0 × 1023 atoms. Determine the number of atoms in one mole of C60 fullerene. Give your answer in standard form. number of atoms =
+C60 fullerene is a molecule made of 60 carbon atoms. The diagram shows the structure of C60 fullerene. One mole of atoms contains 6.0 × 10²³ atoms. Determine the number of atoms in one mole of C60 fullerene. Give your answer in standard form. number of atoms =
 
 ![diagram — official paper figure (qp.pdf p.21)](assets/asset_8_d_diagram.png)
 
 
 **Mark scheme answer**
 
-> M1 (number of atoms =) 60 × 6.0 × 1023 correct answer
+> M1 (number of atoms =) 60 × 6.0 × 10²³ correct answer
 > without working
 > scores 2
-> M2 3.6 × 1025 answer must be in
+> M2 3.6 × 10²⁵ answer must be in
 > correct standard form
 > to 1 decimal place
 
-- **(1)** (number of atoms =) 60 × 6.0 × 1023 correct answer
-- **(1)** 3.6 × 1025 answer must be in
+- **(1)** (number of atoms =) 60 × 6.0 × 10²³ correct answer
+- **(1)** 3.6 × 10²⁵ answer must be in
 
 
 ## Question 9 (12 marks)

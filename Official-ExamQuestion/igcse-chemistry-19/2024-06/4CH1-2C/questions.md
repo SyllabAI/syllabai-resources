@@ -122,8 +122,6 @@ Explain how sacrificial protection prevents the rusting of iron.
 > M2 the more reactive metal will react /oxidise REJECT a more reactive
 > /corrode instead of iron metal rusts instead of
 > iron
-> Question Notes
-> Answer Marks
 
 - **(1)** a more reactive metal is connected to/coated on ACCEPT a suitable metal,
 - **(1)** the more reactive metal will react /oxidise REJECT a more reactive
@@ -449,7 +447,7 @@ A scientist reacts lead(II) nitrate solution with sodium bromide solution. This 
 
 **(b)** The scientist reacts an excess of lead(II) nitrate solution with 25 cm3 of sodium bromide solution of concentration 2.0 mol/dm3.
 
-**(c)** The scientist electrolyses molten lead(II) bromide using this apparatus. +– positive electrode negative electrode molten lead(II) bromide crucible
+**(c)** The scientist electrolyses molten lead(II) bromide using this apparatus. +– positive electrode negative electrode molten lead(II) bromide crucible
 
 **(d)** Bromine forms at the positive electrode. This is the half‑equation for the reaction at the positive electrode. 2Br– → Br2 + 2e–
 

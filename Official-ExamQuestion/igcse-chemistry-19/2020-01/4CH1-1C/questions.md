@@ -639,8 +639,6 @@ Deduce the order of reactivity of the five metals. most reactive least reactive
 > iron
 > tin
 > copper
-> Total
-> Answer Marks
 
 - **(1)** most reactive magnesium ACCEPT symbols
 
@@ -1166,6 +1164,7 @@ The equation for the reaction in stage 3 is 3NO2 + H2O → 2HNO3 + NO Calculate 
 > 3 calculator answer 166666.66
 > ALLOW working in megamoles
 > i.e. 2 x 0.25 OR 0.167 / 0.17
+> 3
 > ALLOW ECF from M2
 > M4 (167 000 x 63 g) = 10.5 (tonnes) 10.5 (tonnes) with no working
 > scores 4
@@ -1181,7 +1180,7 @@ The equation for the reaction in stage 3 is 3NO2 + H2O → 2HNO3 + NO Calculate 
 
 ### 10(c)(ii) [1]
 
-Suggest what use can be made of the nitrogen monoxide gas formed in stage 3. QUESTION 10 CONTINUES ON NEXT PAGE
+Suggest what use can be made of the nitrogen monoxide gas formed in stage 3.
 
 
 **Mark scheme answer**

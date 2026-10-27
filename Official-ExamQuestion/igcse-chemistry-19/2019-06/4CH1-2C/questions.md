@@ -16,7 +16,6 @@ The box gives the names of some particles. electron ion molecule neutron proton 
 **Mark scheme answer**
 
 > 1 mark for each correct
-> answer
 
 - **(3)** 1 mark for each correct
 
@@ -40,7 +39,6 @@ Complete the sentence about isotopes. Isotopes are atoms that have the same numb
 
 > M1 protons IGNORE electrons
 > M2 neutrons
-> Answer Additional guidance Marks
 
 - **(1)** protons IGNORE electrons
 - **(1)** neutrons
@@ -80,6 +78,7 @@ Chlorine has two isotopes of mass numbers 35 and 37 The relative percentage of e
 > 35.4444/35.444/35.44 with
 > no working scores 2
 > M3 35.4 35.4 with no working scores
+> 3
 > M3 can be ECF from an
 > incorrect M2
 
@@ -113,7 +112,6 @@ A student is given an aqueous solution of chlorine and an aqueous solution of po
 > “If a reaction occurs then
 > chlorine is more reactive
 > than bromine” scores M4
-> Question number Answer Additional guidance Marks
 
 - **(1)** add chlorine (solution) to potassium bromide ACCEPT mix the two
 - **(1)** (solution) turns orange ALLOW any combination of
@@ -188,8 +186,6 @@ Explain how the results show which alcohol evaporates most easily.
 > M1 methanol/CH3OH (evaporates most easily)
 > M2 because the time taken is the shortest ACCEPT because has lowest (mean)
 > time
-> Question Answer Additional Guidance Marks
-> Number
 
 - **(1)** methanol/CH3OH (evaporates most easily)
 - **(1)** because the time taken is the shortest ACCEPT because has lowest (mean)
@@ -208,7 +204,6 @@ State the relationship between the number of carbon atoms in the molecule and ho
 > evaporates
 > IGNORE references to time taken
 > ALLOW correct reverse argument
-> number Answer Additional guidance Marks
 
 - **(1)** as the number of carbon atoms increases
 - **(1)** the ease of evaporation decreases/the less ALLOW the less volatile the alcohol
@@ -253,7 +248,6 @@ Aluminium is malleable and can be easily shaped to make saucepans used for cooki
 > IGNORE unreactive/inert
 > M4 high melting point IGNORE references to recycling
 > M5 low density/lightweight/strong IGNORE light
-> Answer Additional guidance Marks
 
 - **(2)** Any two from the following:
 
@@ -291,7 +285,6 @@ Explain why magnalium is harder than aluminium.
 > slide over one another slide over one another
 > IGNORE references to strength of
 > metallic bonds
-> Question Answer Additional guidance Marks
 
 - **(1)** the regular arrangement of atoms is ALLOW lattice/layers/rows of
 - **(1)** because magnesium atoms are larger than ALLOW magnesium and aluminium
@@ -375,7 +368,6 @@ Explain, in terms of bonds broken and bonds made, why this reaction is exothermi
 > M2 than is taken in when the bonds are broken
 > ACCEPT correct reverse
 > argument
-> Answer Additional guidance Marks
 
 - **(1)** more energy is given out when the bonds are made If state/imply that energy
 - **(1)** than is taken in when the bonds are broken
@@ -400,7 +392,6 @@ Draw an energy level diagram for the reaction between N2H4 and H2O2 energy
 > reactants (on left) and
 > M3 correct names/formulae of both products products (on right) award
 > 1 mark from M2 and M3
-> Answer Additional guidance Marks
 
 - **(1)** right hand line below left hand line
 - **(1)** correct names/formulae of both reactants If only use words
@@ -494,7 +485,6 @@ Write a chemical equation for the complete combustion of ethanol in air.
 > C2H5OH + 3 O2 → 2 CO2 + 3 H2O ACCEPT multiples
 > M1 all formulae correct
 > M2 correctly balanced M2 DEP M1
-> Answer Additional guidance Marks
 
 - **(1)** all formulae correct
 - **(1)** correctly balanced M2 DEP M1
@@ -554,7 +544,6 @@ Complete the equation for the reaction of ethanoic acid with sodium CH3COOH(aq) 
 > M1 for both products correct
 > M2 for correctly balanced ACCEPT multiples
 > M2 DEP M1
-> Answer Additional guidance Marks
 
 - **(1)** for both products correct
 - **(1)** for correctly balanced ACCEPT multiples
@@ -646,7 +635,6 @@ A student suggests that the new equilibrium mixture would be lighter in colour t
 > ALLOW molecules/particles of NO2
 > are in a smaller volume
 > REJECT more NO2 produced
-> Answer Additional guidance Marks
 
 - **(1)** the concentration of NO2 has increased ALLOW molecules/particles of NO2
 
@@ -689,7 +677,6 @@ Write a chemical equation for the reaction between nitrogen monoxide, NO, and ca
 **Mark scheme answer**
 
 > 2 NO + 2 CO → N2 + 2 CO2 ACCEPT multiples and fractions
-> Answer Additional guidance Marks
 
 - **(1)** 2 NO + 2 CO → N2 + 2 CO2 ACCEPT multiples and fractions
 

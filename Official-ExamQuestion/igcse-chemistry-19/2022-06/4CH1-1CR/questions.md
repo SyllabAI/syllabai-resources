@@ -338,7 +338,7 @@ The teacher repeats the experiment with potassium instead of sodium. Give one si
 
 ### 4(d)(iii) [3]
 
-The reaction with sodium produces 0.036 g of hydrogen gas. One mole of hydrogen gas contains 6.0 × 1023 molecules. Calculate the number of molecules of hydrogen gas produced in the reaction with sodium. Give your answer to two significant figures. number of molecules of hydrogen gas =
+The reaction with sodium produces 0.036 g of hydrogen gas. One mole of hydrogen gas contains 6.0 × 10²³ molecules. Calculate the number of molecules of hydrogen gas produced in the reaction with sodium. Give your answer to two significant figures. number of molecules of hydrogen gas =
 
 
 **Mark scheme answer**
@@ -346,16 +346,16 @@ The reaction with sodium produces 0.036 g of hydrogen gas. One mole of hydrogen 
 > correct answer with no
 > Example calculation working scores 3 marks
 > M1 (moles of hydrogen) 0.036÷2 OR 0.018 mol
-> M2 0.018 × 6.0×1023 OR 1.08×1022 molecules ALLOW ECF M1 ×
-> 6.0×1023
-> M3 1.1×1022 ALLOW ECF M2 but
+> M2 0.018 × 6.0× 10²³ OR 1.08× 10²² molecules ALLOW ECF M1 ×
+> 6.0× 10²³
+> M3 1.1× 10²² ALLOW ECF M2 but
 > must be to 2 sig figs
 > 2.16 x 1022 scores 1
 > 2.2 x 1022 scores 2
 
 - **(1)** (moles of hydrogen) 0.036÷2 OR 0.018 mol
-- **(1)** 0.018 × 6.0×1023 OR 1.08×1022 molecules ALLOW ECF M1 ×
-- **(1)** 1.1×1022 ALLOW ECF M2 but
+- **(1)** 0.018 × 6.0× 10²³ OR 1.08× 10²² molecules ALLOW ECF M1 ×
+- **(1)** 1.1× 10²² ALLOW ECF M2 but
 
 
 ## Question 5 (11 marks)
@@ -630,12 +630,14 @@ Explain why cracking is a useful process in the oil industry.
 
 ### 7(c) [1]
 
-This is the equation for one of the reactions that may occur during process 3. H H H H C C + Cl2 H C C H H H Cl Cl What is the name of this type of reaction?
+This is the equation for one of the reactions that may occur during process 3. What is the name of this type of reaction?
 
 - **(A)** addition  ✔
 - **(B)** combustion
 - **(C)** decomposition
 - **(D)** substitution
+
+![equation: ethene + chlorine -> 1,2-dichloroethane — official paper figure (qp.pdf p.20)](assets/asset_7_c_equation.png)
 
 
 **Mark scheme answer**
@@ -655,7 +657,9 @@ This is the equation for one of the reactions that may occur during process 3. H
 
 ### 7(d)(i) [2]
 
-Complete the equation for the polymerisation of chloroethene in process 4. ⎣ H H ⎡ ⎢ ⎢ ⎢ n C C ⎢ ⎢ ⎢ ⎢ H Cl ⎢ ⎡ ⎣
+Complete the equation for the polymerisation of chloroethene in process 4.
+
+![equation to complete: n chloroethene -> repeat-unit bracket — official paper figure (qp.pdf p.21)](assets/asset_7_d_i_equation.png)
 
 
 **Mark scheme answer**
@@ -1059,7 +1063,7 @@ The teacher wears eye protection and a lab coat during the experiment. Give one 
 
 ### 11(b) [3]
 
-In industry, tungsten oxide is reduced on a large scale using hydrogen. The percentage yield of tungsten is 73.5% This is the equation for the reaction. WO3 + 3H2 → W + 3H2O Calculate the mass, in tonnes, of tungsten that is produced when 2784 tonnes of tungsten oxide are reacted with an excess of hydrogen. [1 tonne = 1 × 106 g] [for tungsten, Ar = 184 for oxygen, Ar = 16] mass of tungsten = tonnes
+In industry, tungsten oxide is reduced on a large scale using hydrogen. The percentage yield of tungsten is 73.5% This is the equation for the reaction. WO3 + 3H2 → W + 3H2O Calculate the mass, in tonnes, of tungsten that is produced when 2784 tonnes of tungsten oxide are reacted with an excess of hydrogen. [1 tonne = 1 × 10⁶ g] [for tungsten, Ar = 184 for oxygen, Ar = 16] mass of tungsten = tonnes
 
 
 **Mark scheme answer**
@@ -1069,7 +1073,7 @@ In industry, tungsten oxide is reduced on a large scale using hydrogen. The perc
 > ALLOW any number of
 > Example calculation significant figures ≥2
 > throughout
-> M1 moles of tungsten oxide = (2784 × 106 ÷ 232) = ALLOW other correct
+> M1 moles of tungsten oxide = (2784 × 10⁶ ÷ 232) = ALLOW other correct
 > methods
 > 12 000 000 ALLOW working in
 > megamoles
@@ -1078,7 +1082,7 @@ In industry, tungsten oxide is reduced on a large scale using hydrogen. The perc
 > M3 mass of tungsten (considering 73.5% yield) =
 > (73.5 × 2208 ÷ 100) = 1622.88 (tonnes) ALLOW ECF from M2
 
-- **(1)** moles of tungsten oxide = (2784 × 106 ÷ 232) = ALLOW other correct
+- **(1)** moles of tungsten oxide = (2784 × 10⁶ ÷ 232) = ALLOW other correct
 - **(1)** maximum mass of tungsten = (12 000 000 × 184)
 - **(1)** mass of tungsten (considering 73.5% yield) =
 

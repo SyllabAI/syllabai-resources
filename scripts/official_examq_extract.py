@@ -47,7 +47,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from official_examq_text_repairs import repair_source_text
 
 SCHEMA = "syllabai.official-paper-questions/0.2"
-CONVERTER_VERSION = "0.25.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
+CONVERTER_VERSION = "0.29.0"  # see Official-ExamQuestion/CHANGELOG.md + LEDGER.md
 # v0.21.0 (F85, the QP-side wave): two 4PH1-gated QP parser fixes — (1) the
 # repeat-first-label print-defect completion in parse_mcq_block, (2) the
 # marks-law structural disqualification in finalize_part. Chemistry/4MB1
@@ -121,6 +121,14 @@ SPECS = {
         # + answer content share a printed row) -> parse_ms. 'row' is the default
         # for any lane that does not name a layout.
         ms_layout="row",
+        # F108 (v0.28.0): the chemistry MS stream opts into the MS-stream
+        # clean_lines behaviors — the F90 geometry-aware bare-digit rule, and
+        # the collapsed blank-line preservation the Finding-5 answer-grid
+        # parser needs (the 2023-06 1CR 4(a) grid delimits rows with printed
+        # blanks). Col-0 bare numerals: census 1 corpus-wide (all 54 chemistry
+        # MS layers) — the F75 numeral keep is near-inert here; the maths lane
+        # keeps its own flag (F84 markers) unchanged.
+        keep_bare_numerals=True,
         # v0.21.0 (F85) lane-override repair: the run-004 union added the
         # SymbolMT digit range (uF030-uF039) to the GLOBAL PUA map for the
         # maths lane's 2020-01 02R decode, silently clobbering chemistry's
@@ -707,12 +715,31 @@ FURNITURE_SUBS = [
     # F87 (v0.21.1): the abbreviated question-total footer ("Total for Q1 = 5") —
     # the v0.18.0 battery only matched the spelled-out "Question" word order.
     (re.compile(r"\bTotal\s+for\s+Q\d{1,2}\s*=\s*\d{1,3}\b"), " "),
+    # F93 (v0.23.0): the third word order of the same footer — "Total for question
+    # = 15 marks" (number AFTER the equals, "question" spelled out). Found by the
+    # Task 19 deep-audit re-run reconciliation (2022-01 1C Q9 leak into
+    # solution_md tail); the F87 pair covers only the Q<digits> and
+    # "Question <digits> =" orders. Census: 1 staged instance (2022-01 1C MS).
+    (re.compile(r"\bTotal\s+for\s+question\s*=\s*\d{1,3}\s*marks\b", re.I), " "),
+    # F92 (v0.23.0): the tick-glyph mojibake — the printed tick (the F48/F033
+    # mapping family) surfaces in the QP text layer as Latin-1 'ü' inside the
+    # instruction "Add/Place ticks (ü) in/to the table". Scoped to the exact
+    # instruction phrase: a bare 'ü' sub would also rewrite PRINTED table-cell
+    # ticks (2025-11 2C 1(a) carries one in the printed grid, where the glyph is
+    # question content, not mojibake). Census: 3 instruction instances corpus-wide
+    # (2025-06 2C 5(c)(i), 2025-11 2C 1(a), 2026-06 2C 2(d)(i)) + 1 printed-cell
+    # instance deliberately left verbatim.
+    (re.compile(r"(?<=\bticks\s\()ü(?=\))"), "✓"),
 ]
 FURNITURE_LINE = [
     re.compile(r"^\s*PMT\s*$"),                     # archive watermark
     re.compile(r"^\s*BLANK PAGE\s*$"),
     re.compile(r"^\s*DO NOT WRITE IN THIS (AREA|MARGIN|SPACE)\s*$"),
-    re.compile(r"^\s*\d{1,2}\s*$"),                 # bare page number (1..36)
+    re.compile(r"^\s*\d{1,2}\s*$"),                 # bare page number (1..36) — see the F90
+    # geometry rule below: inside the MS stream (keep_bare_numerals=True) a bare
+    # digit at an ANSWER/NOTES-cell column is preserved (F108 leg 1), so this
+    # pattern effectively strips page numbers, question-column numerals and
+    # marks-column digits only.
     re.compile(r"^[\s.]*\.[\s.]*$"),                # dotted answer lines
     # F65 (v0.16.0): the printed formula scaffold in the maths answer space —
     # the quadratic-formula box every 4MB1 paper prints. normalize_pua runs
@@ -736,22 +763,97 @@ FURNITURE_LINE = [
 ]
 
 
+# F108 leg 0: marker-row pattern for the marks-digit adjacency guard —
+# an MS line opening with a part marker ('5 (c)', '(b) (i)', '2 (a) (i)').
+MS_MARKER_ROW_FOR_DIGIT = re.compile(r"^\s{0,8}\d{0,2}\s*\([a-z]{1,2}\)\s*\S")
+
+
+def _ms_header_columns(raw_lines):
+    """F108 leg 0 (F90 support): per-line MS table geometry.
+
+    Walks the raw MS text and, for every line index, records the x-columns of
+    the most recent printed table header (the 'Answer   Notes   Marks' band
+    every MS page repeats — F42). The printed header x-positions are the only
+    reliable discriminator between a bare digit that is PAGE/MARKS furniture
+    and one that is ANSWER-CELL content (the F90 class): a standalone digit
+    whose column sits left of the Marks column and right of the Question
+    column is inside the answer/notes cell region.
+
+    Returns {line_index: (x_answer, x_marks)} for lines that sit under a known
+    header (entries absent = no header seen yet -> fail-closed stripping)."""
+    header_rx = re.compile(r"^(?P<lead>\s*)(?P<ans>Answer)\s{2,}(?P<mid>.+?)?\s{2,}(?P<marks>Marks)\s*$")
+    cols: dict = {}
+    cur = None
+    for i, ln in enumerate(raw_lines):
+        m = header_rx.match(ln.rstrip("\n"))
+        if m:
+            x_ans = m.start("ans")
+            x_marks = m.start("marks")
+            cur = (x_ans, x_marks)
+        elif re.match(r"^\s*Question\s*$", ln) or re.match(r"^\s*number\s*$", ln):
+            pass  # the trio's other rows; geometry unchanged
+        cols[i] = cur
+    return cols
+
+
 def clean_lines(raw: str, keep_bare_numerals: bool = False):
     """F75: keep_bare_numerals preserves COLUMN-0 bare numeral lines ('6' —
     the MS question numeral whose Working cell wrapped to the next line,
     2021-06 1MS). INDENTED bare numerals (page footers, col 17+) strip in both
     streams; a col-0 numeral in the QP is a top-of-page continuation marker
-    and keeps stripping there — the flag is passed by the MS parse only."""
+    and keeps stripping there — the flag is passed by the MS parse only.
+
+    F108 leg 0 (v0.28.0, closes the F90 queued converter pass): inside the MS
+    stream the bare `^\\d{1,2}$` FURNITURE_LINE strip becomes GEOMETRY-AWARE.
+    The printed MS header band's x-columns split each page into the Question
+    region (left of Answer), the Answer/Notes cell region, and the Marks
+    column. A bare 1-2 digit line is page/marks furniture (stripped, unchanged
+    behavior) EXCEPT when its column sits inside the Answer/Notes cell region
+    of the page's most recent header — there it is an MS ANSWER VALUE the
+    printed table carries (the F90 class: 2021-06 1C 2(b)(ii) '25' family),
+    and it is preserved so the extraction matches the printed MS. The Marks
+    margin is 12 columns (measured: printed marks digits sit 8-12 columns
+    left of the header 'Marks' x — 2020-01-1C 7(b)(i) '2' @ col 88 vs header
+    98; content divisors sit deep inside the answer cell — the ÷3/÷7/÷2
+    fraction denominators at cols 27-32, 2021-01-1C 11(b)(i) 'except 1' at
+    col 79). Lines with no header above them strip unchanged (fail-closed)."""
+    raw_line_list = raw.splitlines()
+    header_cols = _ms_header_columns(raw_line_list) if keep_bare_numerals else {}
     out = []
-    for ln in raw.splitlines():
-        ln = normalize_pua(ln)   # F48: symbol-font PUA -> real Unicode before any parsing
+    for idx, ln0 in enumerate(raw_line_list):
+        ln = normalize_pua(ln0)   # F48: symbol-font PUA -> real Unicode before any parsing
         for rx, rep in FURNITURE_SUBS:
             ln = rx.sub(rep, ln)
             if ACTIVE_SPEC_CODE == "4ch1":
                 ln = restore_flat_exponents(ln)  # F89 (v0.21.1) — chemistry-gated; other lanes pending their own census (physics C74 pin of record carries flat forms)
+        # F108 leg 2: the MS stream keeps (collapsed) blank lines — the printed
+        # grid's blank row separators are layout information the Finding-5 box
+        # parser needs (the 2023-06 1CR 4(a) grid delimits rows with blanks);
+        # downstream consumers already skip empties (build_solution drops them).
+        # MUST run before the FURNITURE_LINE check, which drops `^\s*$` lines.
+        if keep_bare_numerals and not ln.strip():
+            if out and out[-1] != "":
+                out.append("")
+            continue
         if any(rx.match(ln) for rx in FURNITURE_LINE):
-            if not (keep_bare_numerals and ln and ln == ln.strip()
+            if (keep_bare_numerals and ln and ln == ln.strip()
                     and re.fullmatch(r"\d{1,2}", ln.strip())):
+                # F75: col-0 MS question numerals survive unchanged (the
+                # Working-cell-wrap law), ...
+                pass
+            elif (keep_bare_numerals
+                  and re.fullmatch(r"\s*\d{1,2}", ln)
+                  and not (out and MS_MARKER_ROW_FOR_DIGIT.match(out[-1]))
+                  and (lambda c: c is not None and c[0] - 8 <= len(ln) - len(ln.lstrip())
+                       and len(ln) - len(ln.lstrip()) < c[1] - 12)(header_cols.get(idx))):
+                # F108 leg 0 (F90): an indented bare digit inside the printed
+                # Answer/Notes cell region is MS answer content — preserve it.
+                # EXCEPT when it directly follows a marker row: pdftotext splits
+                # the marker's printed marks digit onto its own line there
+                # (2020-11 1C 5(c): '(c) Explanation including' + '2') — layout,
+                # not answer content.
+                pass
+            else:
                 continue
         out.append(ln.rstrip())
     # F65 (v0.16.0): the flattened quadratic-formula box — the scaffold prints
@@ -1377,6 +1479,17 @@ def parse_ms(ms_lines):
                 entries[cur].append(ln)
         elif cur is not None:
             entries[cur].append(ln)
+    # F108: trim leading/trailing blank lines from every entry (interior blanks
+    # survive — the Finding-5 grid parser needs them). The MS-LINK-OVERRIDES
+    # law keys on `not lines` (the image-cell 2019-06 3(d)(ii) case): an entry
+    # whose only lines are stripped blanks must stay FALSY so the override
+    # still applies.
+    for k in entries:
+        es = entries[k]
+        while es and not es[0].strip():
+            es.pop(0)
+        while es and not es[-1].strip():
+            es.pop()
     return entries
 
 
@@ -1708,6 +1821,226 @@ NOTES_COL_INDENT = 45   # answer-column content sits left of this in every obser
                         # starts at col ~60+ — never confuse its M-rows for points
 
 
+def _mp_only_fragments(mark_points, part_marks=None):
+    """F97 helper: True when EVERY mark_point text is a margin-note fragment or a
+    bare marks digit — the shapes the MS parser captures when the printed answer
+    is a drawing. Re-emitting those as a solution body would fabricate an answer,
+    so the F97 bare-answer fallback refuses to fire (fail-visible via the G7
+    mp_answer_gap census instead). A bare digit equal to the part's own marks is
+    the marks-column digit leak (2023-06 2CR 7(c)(i): answer cell is a printed
+    drawing, the parser captured the marks digit); any other bare token is a real
+    printed answer (2021-06 1C 2(b)(ii): '25') and must re-emit."""
+    frag = re.compile(
+        r"^(?:If\s+M\d\b|max\s*\d+\s*mark\b|.*\bscores\s+(?:0|both)\b.*|dep\s+on\s+M\d.*"
+        r"|ALLOW\b.*|REJECT\b.*|IGNORE\b.*|ECF\b.*|OWTTE\b.*|_+)$",
+        re.I | re.S)
+    # F108: a reconstructed MS answer-grid table (the Finding-5 parser) is the
+    # opposite of a margin-note fragment — the part's full printed answer grid.
+    # Its text may BEGIN with 'ALLOW ' (the grid's printed note row), which the
+    # fragment shapes would otherwise swallow whole (re.S).
+    if any((mp.get("text_md") or "").lstrip().startswith("| ")
+           or "\n| " in (mp.get("text_md") or "") for mp in mark_points):
+        return False
+    for mp in mark_points:
+        t = (mp.get("text_md") or "").strip()
+        if not t:
+            return True
+        if t.isdigit() and part_marks is not None and int(t) == part_marks:
+            return True
+        if frag.match(t):
+            continue
+        return False
+    return True
+
+
+# ------------------------------------------------------- v0.28.0: the MS-grid parser tranche
+# Three legs, one subsystem (the MS answer grid), landed together because they
+# share the failure surface (LEDGER F108):
+#   leg 0 — the F90 MS-side-aware bare-number rule (geometry-aware FURNITURE_LINE
+#           strip, implemented in clean_lines above);
+#   leg 1 — the F88-queued converter-side MS-grid furniture strip: the exporter's
+#           serve-time strip semantics (F-W15-2) ported byte-verbatim to the
+#           source, so a full re-run reproduces the serve-clean corpus of record
+#           instead of re-introducing grid furniture that the exporter then has
+#           to remove again (the reproducibility-debt class of AUDIT-2026-10-27
+#           Finding 8c);
+#   leg 2 — the Finding-5 MS answer-grid (box) parser: "match description"
+#           questions whose MS answer grid linearizes into scrambled text
+#           (2021-06 1C 1(a), 2023-06 1CR 4(a)); the F68 vertical-parser
+#           lineage adapted to the chemistry row-layout lane. The grid's two
+#           columns are reconstructed from the pdftotext -layout x-geometry and
+#           re-emitted as a readable two-column table (verbatim tokens, rows
+#           reassembled — Mode A presentation repair, disclosed per part).
+
+# Byte-verbatim port of the exporter's F-W15-2 word-set (official_examq_export_hub.py).
+MS_FURNITURE_WORDS = {"question", "number", "answer", "notes", "marks",
+                      "additional", "guidance", "total", "for"}
+
+
+def _ms_furniture_line(line):
+    toks = [t for t in re.split(r"[^A-Za-z]+", line) if t]
+    return bool(toks) and all(t.lower().lstrip("0123456789") in MS_FURNITURE_WORDS for t in toks)
+
+
+# The F88 mid-text classes (the two UNAMBIGUOUS ones only — bare answer/mark
+# lines are wrap-ambiguous, "1 mark" splits across lines, and stay mid-text):
+#   (a) bare Total-family rows ("Total", "Total 7", "Total for Question 3 = 7 marks");
+#   (b) MS-table header rows ("Question Answer Notes Marks", "Answer Additional
+#       guidance Marks") — >=2 furniture tokens.
+MS_TOTAL_LINE_RE = re.compile(
+    r"^Total(?:\s+\d+)?$"
+    r"|^Total\s+for\s+Question\s+\d+\s*=\s*\d+\s*marks$"
+    r"|^Total\s+for\s+Q\.?\s?\d+\s*=\s*\d+$",
+    re.I)
+MS_HEADER_ROW_MIN_TOKENS = 2
+
+
+def strip_ms_grid_furniture(text):
+    """F108 leg 1 (closes the F88 caveat 'the MS-table parser may anchor on
+    header lines'): the converter-side MS-grid furniture strip.
+
+    The strip runs on the ASSEMBLED solution/mark-point text — after the grid
+    rows have been consumed for linkage, keying and M-splitting — never on the
+    raw grid lines the parser anchors on. Semantics are the exporter's
+    strip_furniture ported verbatim (trailing furniture lines, up to 4, from
+    the end only) plus the F88 mid-text classes (bare Total-family lines and
+    header rows). A strip that would empty a whole text is refused
+    (fail-closed): the text stays and the class stays visible to the battery."""
+    if not text:
+        return text
+    lines = text.rstrip().splitlines()
+    mid = []
+    for ln in lines:
+        s = ln.strip()
+        toks = [t for t in re.split(r"[^A-Za-z]+", s) if t]
+        if s and (MS_TOTAL_LINE_RE.fullmatch(s)
+                  or (_ms_furniture_line(s) and len(toks) >= MS_HEADER_ROW_MIN_TOKENS)):
+            continue
+        mid.append(ln)
+    n = 0
+    while mid and n < 4:
+        last = mid[-1].strip()
+        if (_ms_furniture_line(last)
+                or re.fullmatch(r"Total\s+\d+", last)
+                or re.fullmatch(r"Total\s+for\s+Question\s+\d+\s*=\s*\d+\s*marks", last)):
+            mid.pop()
+            n += 1
+            continue
+        break
+    if not "\n".join(mid).strip():
+        return text                      # refuse to empty a text (fail-closed)
+    return "\n".join(mid).rstrip()
+
+
+MS_GRID_HEADER_RE = re.compile(r"^(?P<pad>\s*)Information(?P<gap>\s{2,})(?P<right>\S.*)$")
+MS_GRID_MARKER_RE = re.compile(r"^\s{0,12}\d{0,2}\s*\([a-z]{1,2}\)")
+MS_GRID_MAX_ROWS = 14
+MS_GRID_RIGHT_TOL = 10
+
+
+def restore_ms_answer_grids(ms_lines):
+    """F108 leg 2 (the Finding-5 MS-box parser tranche). Reconstructs the
+    printed 'match description' answer grid from the entry's layout-geometry
+    lines and re-emits it as a two-column table; verbatim tokens, rows
+    reassembled — no authoring, no paraphrase (Mode A + G2-D disclosure).
+
+    Returns (lines, meta): meta is None when no transform fired, else a dict
+    {"rows": n, "right_header": str} the caller turns into the part's
+    edits[] disclosure entry (structural-repair, evidence LEDGER F108).
+
+    Geometry (from the staged 2021-06 1C and 2023-06 1CR grids):
+      - a header line  'Information<2+ spaces><right header>'  fixes the right
+        column x (R = start of the right header text);
+      - a body line carrying text BOTH left of R-TOL and at/after R-TOL is a
+        two-column row line (new row; right cell = the trailing text);
+      - text only left of R-TOL continues the current row's description;
+      - text only at/after R-TOL continues the current row's answer (the
+        2023-06 grid wraps 'carbon'/'monoxide' on interleaved right-only
+        lines);
+      - a blank line closes the current row (the 2023-06 grid separates rows
+        with blanks; the 2021-06 grid starts each row with a two-column line —
+        both delimiters coexist).
+
+    Fail-closed: the transform fires only when the header parses, at least two
+    rows reconstruct, and EVERY reconstructed row has non-empty description
+    and answer cells; otherwise the entry lines are returned unchanged and
+    the part keeps its (disclosed-defective) verbatim block."""
+    lines = list(ms_lines)
+    h = None
+    hm = None
+    for i, ln in enumerate(lines):
+        m = MS_GRID_HEADER_RE.match(ln)
+        if m:
+            h, hm = i, m
+            break
+    if h is None:
+        return lines, None
+    right_x = hm.start("right")
+    rows = []           # [left_parts, right_parts]
+    cur = None
+
+    def close():
+        nonlocal cur
+        if cur is not None:
+            rows.append(cur)
+            cur = None
+
+    for ln in lines[h + 1:]:
+        s = ln.rstrip()
+        st = s.strip()
+        if not st:
+            close()
+            continue
+        if MS_GRID_MARKER_RE.match(s) or st in ("Question", "number", "PMT") \
+                or st.startswith("Total") or st.startswith("PMT"):
+            break
+        content_start = len(s) - len(s.lstrip())
+        zone = right_x - MS_GRID_RIGHT_TOL
+        left = right = None
+        if content_start >= zone:
+            right = st                       # right-only line (2023-06 'carbon')
+        else:
+            # split at the LAST internal 2+ space run whose text lands in the
+            # right zone — the printed column boundary is whitespace, never a
+            # mid-word cut (the fixed-offset cut broke 'product of' / 'the')
+            gstart = None
+            for m in re.finditer(r"\s{2,}\S", s):
+                if m.end() - 1 >= zone and s[:m.start()].strip():
+                    gstart = m.start()
+            if gstart is not None:
+                left = s[:gstart].strip()
+                right = s[gstart:].strip()
+            else:
+                left = st                    # left-only continuation line
+        if left is not None and right is not None:
+            close()
+            cur = [[left], [right]]
+        elif left:
+            if cur is None:
+                cur = [[left], []]
+            else:
+                cur[0].append(left)
+        elif right:
+            if cur is None:
+                cur = [[], [right]]
+            else:
+                cur[1].append(right)
+    close()
+    rows = [r for r in rows if r[0] or r[1]]
+    if len(rows) < 2 or len(rows) > MS_GRID_MAX_ROWS \
+            or any(not r[0] or not r[1] for r in rows):
+        return lines, None               # fail-closed: keep the verbatim block
+    right_header = " ".join(hm.group("right").split())
+    out = lines[:h]
+    out.append(f"| Information | {right_header} |")
+    out.append("| --- | --- |")
+    for lft, rgt in rows:
+        lcell = " ".join(" ".join(lft).split())
+        rcell = " ".join(" ".join(rgt).split())
+        out.append(f"| {lcell} | {rcell} |")
+    return out, {"rows": len(rows), "right_header": right_header}
+
+
 def build_solution(p, ms_lines, series):
     """v0.5: derive solution_md + mark_points[] from the linked MS entry.
 
@@ -1723,6 +2056,21 @@ def build_solution(p, ms_lines, series):
     splitter can only under-split, never invent; unlinked parts emit nothing.
     Returns (solution_md, mark_points, ms_marks_digit_or_None)."""
     marks = p["marks"]
+    # F108 leg 2: reconstruct printed match-description answer grids (Finding 5)
+    # BEFORE normalization — the transform needs the layout x-geometry that the
+    # per-line whitespace collapse below would destroy. A fired transform is a
+    # structural repair: it discloses through edits[] (G2-D) with the finding
+    # id as evidence, exactly like the F97 fallback.
+    ms_lines, grid_meta = restore_ms_answer_grids(list(ms_lines))
+    if grid_meta:
+        p.setdefault("edits", []).append({
+            "field": "solution_md", "kind": "structural-repair",
+            "tool": f"official_examq_extract.py v{CONVERTER_VERSION} (F108 MS answer-grid parser)",
+            "evidence_ref": (f"LEDGER F108 (AUDIT-2026-10-27 Finding 5); printed MS answer grid "
+                             f"reconstructed from the layout x-geometry — {grid_meta['rows']} rows, "
+                             f"right column '{grid_meta['right_header']}'; verbatim tokens, rows reassembled"),
+        })
+        p["edit_status"] = "corrected"
     lines = []                      # (raw indent, normalized text)
     ms_marks = None
     for ln in ms_lines:
@@ -1764,6 +2112,15 @@ def build_solution(p, ms_lines, series):
                             "text_md": "\n".join(seg)})
         if pts is None:
             pts = [{"id": f"{base}-MP1", "marks": marks, "text_md": solution_md}]
+    # F108 leg 1 (closes the F88 caveat): the converter-side MS-grid furniture
+    # strip — the serve-clean form IS the corpus form of record (F88 wave), so
+    # the extraction emits it directly and the exporter's serve-time strip
+    # becomes a redundant second line of defense instead of the only one.
+    solution_md = strip_ms_grid_furniture(solution_md)
+    for mp in pts or []:
+        stripped = strip_ms_grid_furniture(mp.get("text_md") or "")
+        if stripped.strip():
+            mp["text_md"] = stripped      # never empty an MP (fail-closed)
     return solution_md, pts, ms_marks
 
 
@@ -2902,6 +3259,28 @@ def main():
             # v0.5 solution emission (reveal + Smart Mark): verbatim MS block +
             # awardable points; unlinked parts emit nothing (fields stay None)
             p["solution_md"], p["mark_points"], p["_ms_marks"] = build_solution(p, lines, series)
+            # F97 (v0.23.0): the bare-answer row fallback — some printed MS rows
+            # carry ONLY the answer token (no notes cell), which the row parser
+            # routes to a single mark_point while solution_md stays empty. The
+            # part then serves an empty solution box next to a populated mark
+            # point (Task 19 deep-audit census: 2021-06 1C 2(b)(ii) '25',
+            # 2021-11 2C 1(d) '73'). The fallback re-emits the SAME verbatim
+            # token as the solution body — no authoring, no paraphrase — and
+            # discloses the re-emission through edits[] (G2-D). Refuses to fire
+            # when the MS text is only a margin-note fragment or a bare marks
+            # digit (the 2023-06 2CR 7(c)(i) class: the real answer is a printed
+            # drawing; re-emitting the marks digit would fabricate an answer).
+            if not (p["solution_md"] or "").strip() and (p.get("marks") or 0) > 0 \
+                    and p["mark_points"] and all((mp.get("text_md") or "").strip() for mp in p["mark_points"]) \
+                    and not _mp_only_fragments(p["mark_points"], p.get("marks")):
+                _fb = "\n".join(mp["text_md"].strip() for mp in p["mark_points"])
+                p["solution_md"] = _fb
+                p.setdefault("edits", []).append({
+                    "field": "solution_md", "kind": "structural-repair",
+                    "tool": f"official_examq_extract.py v{CONVERTER_VERSION} (F97 bare-answer fallback)",
+                    "evidence_ref": "Task 19 deep-audit da-sweep (empty-solution census); verbatim re-emission of the part's own mark_points text",
+                })
+                p["edit_status"] = "corrected"
             if cfg.get("ms_layout") == "vertical":
                 # v0.17.0: the vertical layout carries the marks digit on its own
                 # line — build_solution's tail-scan cannot see it; the vertical
@@ -2914,7 +3293,13 @@ def main():
     # F48: same mapping both sides. v0.18.0 (F70): the BEL strip mirrors
     # clean_lines so the fixed problem_md probes keep matching the page index
     # exactly as the BEL-bearing probes did (same pages anchor, same results).
-    page_norm = [norm(normalize_pua(pg.get_text()).replace("\x07", "")) for pg in pdf]
+    # F92 mirror law: the ü→✓ tick sub transforms problem_md, so the anchoring
+    # probes must see the SAME transform on the page side or the subbed parts
+    # lose their page anchor (found live: 2025-06 2C 5(c)(i) and 2025-11 2C 1(a)
+    # both dropped to source_page None + crop-required downgrade before this
+    # mirror). Same pattern as the F70 BEL-strip mirror.
+    _tick_sub = re.compile(r"(?<=\bticks\s\()ü(?=\))")
+    page_norm = [norm(_tick_sub.sub("✓", normalize_pua(pg.get_text())).replace("\x07", "")) for pg in pdf]
     # v0.10 (F41): OCR-covered pages contribute their prepared text to the
     # page-normalized index, so mentions on recovered pages anchor with real
     # page attribution.
@@ -4007,7 +4392,9 @@ def main():
                     _kt = "unresolved:review-queue"   # honest refusal, still in review
             else:
                 _kt = "n/a"
-            _p["edit_status"] = "corrected" if _p.get("_marks_fill") else "extracted"
+            _p["edit_status"] = ("corrected"
+                                 if (_p.get("_marks_fill") or _p.get("edit_status") == "corrected")
+                                 else "extracted")
             _p["value_trace"] = {"keys": _kt,
                                  "marks": ({"f73a": "corrected:qp-glued-marker-sum-law",
                                             "f73b": "corrected:render-ms-marks-patch"}[_p["_marks_fill"]]
@@ -4162,23 +4549,60 @@ def main():
         if not any(c.get("is_correct") for c in p["choices"]):
             g3_issues.append({"part": p["part_number"], "issue": "no keyed correct choice"})
             report["review_queue"].append({"part": p["part_number"], "reason": "MCQ key unresolved from MS"})
+    # F94 (v0.23.0) — the drawing-option MCQ-candidate census: 'Which structure /
+    # diagram / drawing ...?' problems that name a bare A-D option run but carry
+    # NO choices[] (the options are printed drawings the text layer linearizes).
+    # The v0.22.0 gate reported '0 MCQ parts' for 2026-06 2C while Q1(b) is one —
+    # a vacuous pass this census makes visible. Report-only (these parts are
+    # honestly structured; the option drawings are a crop-wave item).
+    _which_re = re.compile(r"\bwhich\s+(?:structure|diagram|drawing|row|particle|equation)\b", re.I)
+    _opt_run_re = re.compile(r"(?:^|\s)A\s{1,3}[BCD]\s{1,3}(?:C|B|D)?\b")
+    mcq_candidates = [p["part_number"] for q in doc_questions for p in q["parts"]
+                      if p["question_type"] != "multiple_choice"
+                      and (_which_re.search(p["problem_md"]) or _opt_run_re.search(p["problem_md"]))]
+    for pn in mcq_candidates:
+        report["review_queue"].append({"part": pn,
+                                       "reason": "drawing-option MCQ candidate (options linearized in problem_md, no choices[])"})
     gate("G3-mcq-integrity", not g3_issues,
-         f"{len(mcq)} MCQ parts; all have printed A–D and MS-keyed answer: {not g3_issues}",
-         {"issues": g3_issues})
+         f"{len(mcq)} MCQ parts; all have printed A–D and MS-keyed answer: {not g3_issues}; "
+         f"{len(mcq_candidates)} drawing-option MCQ candidates (census, F94)",
+         {"issues": g3_issues, "drawing_option_mcq_candidates": mcq_candidates})
 
     # G4 figure resolution
     dangling = [{"part": p["part_number"]} for q in doc_questions for p in q["parts"]
                 if figure_mentions(p["problem_md"]) and not p["assets"]]
+    # F96 (v0.23.0) — the drawing-linearization census: problem text carrying the
+    # linearized remains of a printed drawing (≥4 single-letter atom tokens in a
+    # run / bond-fragment letter triples) with NO figure asset. The v0.22.0 gate
+    # counted only table/diagram/grid/apparatus MENTION nouns, so 2026-06 2C
+    # Q1(b)/(c)(ii)/(c)(iii) passed G4 while serving 'H H H H H H A C C C B C C C
+    # ...' garbage. Report-only + review-queue entries; the content fix is a
+    # crop+strip wave per part (the 2C tranche ships with this release).
+    _atom_run_re = re.compile(r"(?:\b[CHONSPKl-]\b[ ,]*){4,}")
+    _bond_frag_re = re.compile(r"\b[CON]\s+[CON]\s+[CON]\b")
+    drawing_gaps = []
+    for q in doc_questions:
+        for p in q["parts"]:
+            if p.get("assets"):
+                continue
+            pm = p["problem_md"]
+            if _atom_run_re.search(pm) or _bond_frag_re.search(pm):
+                drawing_gaps.append({"part": p["part_number"],
+                                     "probe": (_atom_run_re.search(pm) or _bond_frag_re.search(pm)).group(0)[:40]})
+                report["review_queue"].append({"part": p["part_number"],
+                                               "reason": "drawing-linearization in problem_md without figure asset (F96)"})
     n_assets = sum(len(p["assets"]) for q in doc_questions for p in q["parts"])
     n_unanchored = sum(1 for q in doc_questions for p in q["parts"] if p["source_page"] is None)
     gate("G4-figure-resolution", not dangling,
          f"{n_assets} asset records cover every table/diagram/grid/apparatus mention: "
          f"{crop_stats['crops']} cropped to assets/*.png ({CROP_DPI} dpi), "
          f"{crop_stats['pending']} remain crop-required; "
-         f"{n_unanchored} parts without page anchor"
+         f"{n_unanchored} parts without page anchor; "
+         f"{len(drawing_gaps)} drawing-linearization gaps (census, F96)"
          + (f"; {crop_stats['withdrawn']} wrong-region crops withdrawn by eyeball verdict"
             if crop_stats.get("withdrawn") else ""),
-         {"dangling": dangling, "pages_unanchored": n_unanchored, "crop_stats": crop_stats})
+         {"dangling": dangling, "pages_unanchored": n_unanchored, "crop_stats": crop_stats,
+          "drawing_gaps": drawing_gaps})
     for q in doc_questions:
         for p in q["parts"]:
             for a in p.get("assets") or []:
@@ -4237,13 +4661,31 @@ def main():
                    for p in parts_all
                    if p.get("_ms_marks") is not None and p.get("marks") is not None
                    and p["_ms_marks"] != p["marks"]]
+    # F95 (v0.23.0) — the mark-point answer-gap census: parts whose EVERY
+    # mark_point text is a margin-note fragment or a marks-digit leak — the
+    # MS-answer-is-a-drawing class the sum law cannot see (G7 passed 2026-06
+    # 2C 5(a) while its served MPs were 'If M1 and M2 not fully' / 'max 1
+    # mark': two fragments of one margin note, the two printed formulae
+    # absent). Report-only + review-queue entries; the fix is an MS-side crop
+    # (converter MS-crop support = the filed follow-up wave).
+    mp_gap = []
+    for p in parts_all:
+        mp = p.get("mark_points") or []
+        if not mp or not (p.get("marks") or 0) > 0:
+            continue
+        if _mp_only_fragments(mp, p.get("marks")):
+            mp_gap.append({"part": p["part_number"],
+                           "mp_texts": [ (m.get("text_md") or "")[:40] for m in mp ]})
+            report["review_queue"].append({"part": p["part_number"],
+                                           "reason": "mark-point answer gap: MPs are margin-note fragments / marks digit (MS answer is a printed drawing)"})
     gate("G7-solution-emission", not no_sol and not sum_bad,
          f"solution_md on {len(sol_parts) - len(no_sol)}/{len(sol_parts)} linked parts; "
          f"mark_points sum == part marks everywhere: {not sum_bad}; "
-         f"MS marks-column digit read for {ms_seen} parts, agrees with QP marks on {ms_agree}",
+         f"MS marks-column digit read for {ms_seen} parts, agrees with QP marks on {ms_agree}; "
+         f"{len(mp_gap)} mark-point answer gaps (census, F95)",
          {"missing_solution": no_sol, "sum_mismatches": sum_bad,
           "ms_marks_seen": ms_seen, "ms_marks_agree": ms_agree,
-          "ms_marks_disagree": ms_disagree})
+          "ms_marks_disagree": ms_disagree, "mp_answer_gap": mp_gap})
 
     # ---- assemble document (before popping internal fields) ------------------
     topic = {

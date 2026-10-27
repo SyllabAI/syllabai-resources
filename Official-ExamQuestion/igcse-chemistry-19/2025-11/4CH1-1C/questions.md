@@ -1000,7 +1000,7 @@ State why the aluminium is added until it is in excess.
 
 ### 10(b)(iii) [2]
 
-Explain why powdered aluminium is used. Question 10 continues on the next page
+Explain why powdered aluminium is used.
 
 
 **Mark scheme answer**

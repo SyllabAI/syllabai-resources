@@ -263,8 +263,6 @@ Potassium bromide is an ionic compound. Draw diagrams to show the outer electron
 > M2 correct structure of bromide ion
 > M3 charges on both ions correct (with or
 > without square brackets).
-> Question Marks
-> Answer Notes
 
 - **(1)** correct structure of potassium ion ACCEPT any
 - **(1)** correct structure of bromide ion
@@ -361,8 +359,6 @@ Which substance is formed at the negative electrode (cathode)?
 > graphite electrodes are used Total 15
 > D is incorrect as water is not formed at the
 > cathode
-> Question Marks
-> Answer Notes
 
 - **(1)** Answer A: hydrogen
 
@@ -591,7 +587,6 @@ The diagram shows the burette readings at the start and end of one of the titrat
 > ALLOW ECF for M3 on
 > correct subtraction of
 > M1 – M2
-> Question number Answer Notes Marks
 
 - **(1)** final burette 22.70 are reversed.
 - **(1)** initial burette 2.15 MAX 2 if readings not
@@ -620,6 +615,7 @@ Use your ticked results to calculate the mean (average) volume of wine added. me
 > ip • setting out of calculation
 > • answer
 > M1 20.40 + 20.35 + 20.45
+> 3
 > M2 20.40 20.40 without working
 > scores 2
 > 20.4 with or without
@@ -693,6 +689,7 @@ Calculate the concentration, in mol/dm3, of CH3COOH in the wine. concentration o
 > 19.5
 > correctly evaluated to 2
 > or more sig figs. scores
+> 1
 > Do not penalise not
 > multiplying by 1000 in
 > (iii) if they have not
@@ -803,7 +800,6 @@ Calculate the volume, in dm3, of hydrogen gas at rtp that is produced when 10 to
 > still be awarded for
 > correct conversion to
 > standard form
-> TOTAL MARKS 70
 
 - **(1)** 10,000,000 OR 625,000 M2, M3 and M4.
 - **(1)** 625,000 x 3 OR 1,875,000

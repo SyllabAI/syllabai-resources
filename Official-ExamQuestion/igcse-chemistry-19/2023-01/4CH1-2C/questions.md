@@ -62,7 +62,6 @@ Explain why Y and Z are isotopes of the same element.
 > ALLOW “same atomic
 > number, different mass
 > number” for (1) mark
-> Total for question = 7
 
 - **(1)** same number of protons / both have 17 protons IGNORE all refs to
 - **(1)** different number of neutrons / one has two
@@ -141,7 +140,6 @@ Determine the number of atoms in a molecule of C10H16N2O3S
 **Mark scheme answer**
 
 > 32/thirty two
-> Total for question = 5
 
 - **(1)** 32/thirty two
 
@@ -245,7 +243,6 @@ A saturated solution of the salt in 100 g of water is cooled from 90 °C to 30 �
 > score M2 only
 > Mark ECF on (ii), even if
 > a straight line is drawn
-> Total for question = 8
 
 - **(1)** working shown on graph ALLOW any evidence of
 - **(1)** solubility at 90°C – solubility at 30°C Expected answer of 74-
@@ -365,7 +362,6 @@ Describe a test to show that ethene is unsaturated.
 > If reaction takes place
 > in presence of uv, then
 > score M1 only
-> Total for question = 13
 
 - **(1)** add bromine water ALLOW bromine solution
 - **(1)** which decolourises / turns colourless M2 dep on mention of
@@ -467,7 +463,6 @@ Copper can be produced by reacting an oxide of copper with methane. The diagram 
 > but must be 1:1 ratio
 > IF Ar is divided by mass,
 > then M1 only scores
-> Total for question = 11
 
 - **(1)** mass of copper = 3.81g and mass of oxygen =
 - **(1)** moles of copper = 0.06 and moles of oxygen = M2 allow ECF from M1
@@ -572,7 +567,6 @@ A student does a titration to find the accurate volume of sodium hydroxide solut
 > of solution added
 > M9 repeat until concordant results ALLOW repeat until two
 > results are ± 0.2 cm3
-> Total for question = 13
 
 - **(6)** Any 6 of the following:
 
@@ -614,7 +608,6 @@ Use the data in the table to calculate the total energy needed to break all the 
 > M2 5166 kJ 5166 kJ without working
 > scores 2
 > IGNORE sign of final
-> answer
 
 - **(1)** (3×158)+(12×391)
 - **(1)** 5166 kJ 5166 kJ without working
@@ -632,7 +625,6 @@ Use the data in the table to calculate the total energy released when all the bo
 > M2 5637kJ 5637 kJ without working
 > scores 2
 > IGNORE sign of final
-> answer
 
 - **(1)** (12×391)+945
 - **(1)** 5637kJ 5637 kJ without working
@@ -690,7 +682,6 @@ A sample of hydrazine is completely decomposed. This is the equation for the dec
 > (mol/dm3) scores 4
 > marks with or without
 > working
-> Total for question = 13
 
 - **(1)** amount of nitrogen gas = 1570÷24000 OR
 - **(1)** amount of ammonia = 0.0654×4 OR 0.2617 (mol) ALLOW M1×4

@@ -75,7 +75,6 @@ Describe a test for carbon dioxide.
 > limewater
 > REJECT addition of
 > extra reagents for both
-> marks
 
 - **(1)** bubble/pass/add the gas/carbon dioxide into
 - **(1)** (limewater) turns cloudy/milky ALLOW white
@@ -573,10 +572,10 @@ This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO
 
 > correct answer with or
 > without working scores 4
-> M1 (moles of TiO2 =) 20 × 106 OR 2.5 × 105 (mol) ACCEPT 250 000 (mol)
-> M2 (moles of Cl2 =) 2.5 × 105 x 2 OR 5.0 × 105 (mol) ACCEPT 500 000 (mol)
-> M3 (vol of Cl2 =) 5.0 × 105 × 24 OR 12 000 000 (dm3)
-> M4 1.2 × 107 (dm3) ALLOW ecf on M2 and
+> M1 (moles of TiO2 =) 20 × 10⁶ OR 2.5 × 10⁵ (mol) ACCEPT 250 000 (mol)
+> M2 (moles of Cl2 =) 2.5 × 10⁵ x 2 OR 5.0 × 10⁵ (mol) ACCEPT 500 000 (mol)
+> M3 (vol of Cl2 =) 5.0 × 10⁵ × 24 OR 12 000 000 (dm3)
+> M4 1.2 × 10⁷ (dm3) ALLOW ecf on M2 and
 > M3
 > 6 x 106 scores 3
 > 3 x 106 scores 3
@@ -584,10 +583,10 @@ This is the equation for the reaction in stage 1. TiO2 + 2Cl2 + C → TiCl4 + CO
 > 3 000 000 scores 2
 > 2.083 x 104 scores 3
 
-- **(1)** (moles of TiO2 =) 20 × 106 OR 2.5 × 105 (mol) ACCEPT 250 000 (mol)
-- **(1)** (moles of Cl2 =) 2.5 × 105 x 2 OR 5.0 × 105 (mol) ACCEPT 500 000 (mol)
-- **(1)** (vol of Cl2 =) 5.0 × 105 × 24 OR 12 000 000 (dm3)
-- **(1)** 1.2 × 107 (dm3) ALLOW ecf on M2 and
+- **(1)** (moles of TiO2 =) 20 × 10⁶ OR 2.5 × 10⁵ (mol) ACCEPT 250 000 (mol)
+- **(1)** (moles of Cl2 =) 2.5 × 10⁵ x 2 OR 5.0 × 10⁵ (mol) ACCEPT 500 000 (mol)
+- **(1)** (vol of Cl2 =) 5.0 × 10⁵ × 24 OR 12 000 000 (dm3)
+- **(1)** 1.2 × 10⁷ (dm3) ALLOW ecf on M2 and
 
 ### 6(b) [2]
 

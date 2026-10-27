@@ -531,6 +531,7 @@ The concentration of CH3COOH in vinegar can be found by titration with aqueous p
 > 1000
 > = 0.018
 > M2 conc(CH3COOH) = 0.018 x 1000 ALLOW ecf from M1
+> 25
 > = 0.72 (mol/dm 3) 0.72 (mol/dm3) without
 > working scores 2
 
@@ -591,7 +592,9 @@ State one difference between condensation polymerisation and addition polymerisa
 
 ### 6(e)(ii) [2]
 
-The repeat unit of a polyester is O O H H C C O C C O H H Give the displayed formula of each of the two monomers needed to form this polyester.
+The repeat unit of a polyester is Give the displayed formula of each of the two monomers needed to form this polyester.
+
+![polyester repeat unit — official paper figure (qp.pdf p.20)](assets/asset_6_e_ii_repeat-unit.png)
 
 
 **Mark scheme answer**

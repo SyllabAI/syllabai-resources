@@ -747,18 +747,18 @@ Calculate the volume, in dm3, of methane gas at rtp needed to produce 6.6 tonnes
 
 > correct answer with or
 > without working scores 4
-> M1 n(H2) = 6.6 × 106 ÷ 2 OR 3.3 × 106 (mol) ACCEPT 3 300 000
-> M2 n(CH4) = 3.3 × 106 ÷ 3 OR 1.1 × 106 (mol) ACCEPT 1 100 000
-> M3 vol(CH4) = 1.1 × 106 × 24 OR 26 400 000 (dm3) M2 × 24
-> M4 2.6 × 107 ACCEPT 2.64 × 107
+> M1 n(H2) = 6.6 × 10⁶ ÷ 2 OR 3.3 × 10⁶ (mol) ACCEPT 3 300 000
+> M2 n(CH4) = 3.3 × 10⁶ ÷ 3 OR 1.1 × 10⁶ (mol) ACCEPT 1 100 000
+> M3 vol(CH4) = 1.1 × 10⁶ × 24 OR 26 400 000 (dm3) M2 × 24
+> M4 2.6 × 10⁷ ACCEPT 2.64 × 10⁷
 > ALLOW ECF throughout
 > common answers:
-> 7.9(2) × 107 scores 3
-> 5.28 × 107 scores 3
-> 1.584 × 108 scores 2
+> 7.9(2) × 10⁷ scores 3
+> 5.28 × 10⁷ scores 3
+> 1.584 × 10⁸ scores 2
 
-- **(1)** n(H2) = 6.6 × 106 ÷ 2 OR 3.3 × 106 (mol) ACCEPT 3 300 000
-- **(1)** n(CH4) = 3.3 × 106 ÷ 3 OR 1.1 × 106 (mol) ACCEPT 1 100 000
-- **(1)** vol(CH4) = 1.1 × 106 × 24 OR 26 400 000 (dm3) M2 × 24
-- **(1)** 2.6 × 107 ACCEPT 2.64 × 107
+- **(1)** n(H2) = 6.6 × 10⁶ ÷ 2 OR 3.3 × 10⁶ (mol) ACCEPT 3 300 000
+- **(1)** n(CH4) = 3.3 × 10⁶ ÷ 3 OR 1.1 × 10⁶ (mol) ACCEPT 1 100 000
+- **(1)** vol(CH4) = 1.1 × 10⁶ × 24 OR 26 400 000 (dm3) M2 × 24
+- **(1)** 2.6 × 10⁷ ACCEPT 2.64 × 10⁷
 

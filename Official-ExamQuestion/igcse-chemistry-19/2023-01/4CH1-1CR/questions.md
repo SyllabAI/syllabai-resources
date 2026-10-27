@@ -367,10 +367,10 @@ Use information from the table to calculate the mean rate of reaction at 20 °C.
 
 > M1 1 OR 0.00641 ALLOW use of value
 > 156 from graph
-> M2 6.41 × 10−3 ALLOW 6.4 x 10-3
+> M2 6.41 × 10⁻³ ALLOW 6.4 x 10-3
 
 - **(1)** 1 OR 0.00641 ALLOW use of value
-- **(1)** 6.41 × 10−3 ALLOW 6.4 x 10-3
+- **(1)** 6.41 × 10⁻³ ALLOW 6.4 x 10-3
 
 ### 4(d) [3]
 

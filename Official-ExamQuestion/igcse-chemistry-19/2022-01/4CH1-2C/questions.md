@@ -101,7 +101,6 @@ Give the molecular formula of ethanol.
 > C2H6O IGNORE size of
 > numbers
 > REJECT C2H5OH
-> Total for question = 7
 
 - **(1)** C2H6O IGNORE size of
 
@@ -237,7 +236,6 @@ Name another pollutant gas that also forms acid rain.
 > sulfur dioxide ALLOW SO2
 > ALLOW other oxides of
 > nitrogen
-> Total for question = 8
 
 - **(1)** sulfur dioxide ALLOW SO2
 
@@ -335,7 +333,6 @@ Suggest why the student’s method is not suitable for determining the solubilit
 > anhydrous copper sulfate (hydrated) crystals
 > would decompose
 > M2 (hydrated) copper(II) sulfate would lose water
-> Total for question = 9
 
 - **(1)** Any one from
 
@@ -435,8 +432,6 @@ The teacher adds 0.150 g of lithium to an excess of water and collects the hydro
 > cm3 to 3 or more
 > significant figures,
 > without working scores
-> 4 marks.
-> Total for question = 11
 
 - **(1)** amount lithium = 0.150 ÷ 7 OR 0.0214 mol penalise 1 sig fig in M1
 - **(1)** amount hydrogen = 0.0107 mol ALLOW M1÷2
@@ -515,7 +510,6 @@ On the diagram, draw a curve to show the reaction profile for the same reaction 
 > curve starting from hydrogen peroxide level, below
 > the peak of the original curve, and ending at water
 > and oxygen level
-> Total for question = 8
 
 - **(1)** curve starting from hydrogen peroxide level, below
 
@@ -637,7 +631,6 @@ Explain why metals conduct electricity.
 > electrons in M1
 > 0 marks if reference to
 > ions moving
-> Total for question = 12
 
 - **(1)** delocalised electrons IGNORE sea of electrons
 - **(1)** are free to move (throughout the structure) M2 dep on mention of
@@ -775,7 +768,9 @@ The ethanoic acid produced in the reaction is completely neutralised by 22.75 cm
 
 ### 7(e) [2]
 
-The structures of two organic compounds are shown. H H H O O C C C H O C C O H H O O H H H H These compounds react together to form a polymer. Give the repeat unit of the polymer formed.
+The structures of two organic compounds are shown. These compounds react together to form a polymer. Give the repeat unit of the polymer formed.
+
+![structures of the two organic compounds (ethanedioic acid + ethane-1,2-diol) — official paper figure (qp.pdf p.26)](assets/asset_7_e_structures.png)
 
 
 **Mark scheme answer**
@@ -790,7 +785,6 @@ The structures of two organic compounds are shown. H H H O O C C C H O C C O H H
 > M2 -OH lost from the dicarboxylic acid and -H lost ALLOW -OH lost from
 > from the diol diol and -H lost from
 > dicarboxylic acid
-> Total for question = 15
 
 - **(1)** three carbons from the dicarboxylic acid and two
 - **(1)** -OH lost from the dicarboxylic acid and -H lost ALLOW -OH lost from

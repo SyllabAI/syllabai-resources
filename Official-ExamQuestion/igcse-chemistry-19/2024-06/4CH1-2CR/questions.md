@@ -283,6 +283,7 @@ Calculate the minimum mass of magnesium needed to react with 25.0 cm3 of 2.00 mo
 > M3 0.025 × 24 = 0.60 g/0.6 g ALLOW ecf M2 × 24
 > Answer of 0.60 g
 > without working scores
+> 3
 > Answer of 1.20 g with
 > working scores 2
 
@@ -673,7 +674,9 @@ Draw an energy level diagram for the reaction between ethene and steam. Label th
 
 ### 7(c)(i) [2]
 
-Complete the equation by adding the displayed formula of ester A. H O O H C C H H H O H + ⇌ + H H H C C O H H H ester A
+Complete the equation by adding the displayed formula of ester A.
+
+![esterification equation to complete (acid + alcohol <=> + ester A) — official paper figure (qp.pdf p.21)](assets/asset_7_c_i_equation.png)
 
 
 **Mark scheme answer**

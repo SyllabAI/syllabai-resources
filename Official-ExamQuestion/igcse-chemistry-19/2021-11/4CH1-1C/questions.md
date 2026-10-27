@@ -9,6 +9,8 @@
 
 Which substance contains single atoms of one element? A B C D
 
+![particle diagrams of substances A-D — official paper figure (qp.pdf p.4)](assets/asset_1_a_i_particles.png)
+
 
 **Mark scheme answer**
 
@@ -30,6 +32,8 @@ Which substance contains single atoms of one element? A B C D
 
 Which substance is a compound? A B C D
 
+![particle diagrams of substances A-D — official paper figure (qp.pdf p.4) — shared with 1(a)(i)](assets/asset_1_a_i_particles.png)
+
 
 **Mark scheme answer**
 
@@ -46,6 +50,8 @@ Which substance is a compound? A B C D
 ### 1(a)(iii) [1]
 
 Which substance could have the formula H2? A B C D
+
+![particle diagrams of substances A-D — official paper figure (qp.pdf p.4) — shared with 1(a)(i)](assets/asset_1_a_i_particles.png)
 
 
 **Mark scheme answer**
@@ -314,7 +320,6 @@ A sample of carbon contains atoms of mass number 12 and 13 The table shows the p
 > correct answer to 2
 > decimal places with or
 > without working scores
-> 2 marks.
 
 - **(1)** (98.930 × 12) + (1.070 × 13) ÷ 100
 - **(1)** 12.01 ALLOW 1 mark for
@@ -481,7 +486,9 @@ Give the letter of the compound that is a saturated hydrocarbon with the empiric
 
 ### 6(a)(iii) [1]
 
-Give the letter of the compound that reacts with bromine in the presence of ultraviolet radiation to form this structure. H H H H H C C C C H H Br H H
+Give the letter of the compound that reacts with bromine in the presence of ultraviolet radiation to form this structure.
+
+![structure formed with bromine + UV (2-bromobutane) — official paper figure (qp.pdf p.16)](assets/asset_6_a_iii_structure.png)
 
 
 **Mark scheme answer**
@@ -492,7 +499,9 @@ Give the letter of the compound that reacts with bromine in the presence of ultr
 
 ### 6(a)(iv) [1]
 
-Give the letter of the compound that forms an addition polymer with this repeat unit. CH3 CH3 C C H H
+Give the letter of the compound that forms an addition polymer with this repeat unit.
+
+![addition polymer repeat unit (poly(propene)) — official paper figure (qp.pdf p.17)](assets/asset_6_a_iv_repeat-unit.png)
 
 
 **Mark scheme answer**
@@ -658,6 +667,7 @@ Explain how increasing the pressure of gases increases the rate of reaction.
 > scores M2 and M3
 > any reference to
 > increasing energy max =
+> 1
 
 - **(1)** particles / molecules are closer together ACCEPT more particles
 - **(1)** therefore more collisions
@@ -922,7 +932,7 @@ Suggest why the mass of carbon dioxide produced is less than the calculated maxi
 
 A teacher uses this apparatus to separate a mixture of ethanol and water. B A HEAT
 
-**(b)** The mixture contains 15.5 cm3 of ethanol. 1.0 cm3 of ethanol has a mass of 0.79 g. One mole of ethanol contains 6.00 × 1023 molecules. [Mr of ethanol = 46]
+**(b)** The mixture contains 15.5 cm3 of ethanol. 1.0 cm3 of ethanol has a mass of 0.79 g. One mole of ethanol contains 6.00 × 10²³ molecules. [Mr of ethanol = 46]
 
 **(c)** After five minutes, the teacher collects a sample of colourless liquid in a new beaker.
 
@@ -997,13 +1007,13 @@ Calculate the number of molecules of ethanol in 15.5 cm3 of ethanol. number of m
 
 **Mark scheme answer**
 
-> answer from (b)(i) × 6 × 1023 ALLOW any number of
+> answer from (b)(i) × 6 × 10²³ ALLOW any number of
 > e.g. (0.266 × 6.0 x 1023 =) 1.60 x 1023 significant figures
 > except 1
 > ALLOW answer in
 > ordinary form
 
-- **(1)** answer from (b)(i) × 6 × 1023 ALLOW any number of
+- **(1)** answer from (b)(i) × 6 × 10²³ ALLOW any number of
 
 ### 10(c)(i) [2]
 
@@ -1036,7 +1046,6 @@ Describe a physical test to show if the colourless liquid is pure water.
 > M2 is 100°C
 > ALLOW melting/freezing
 > point is 0°C for both
-> marks
 
 - **(1)** measure boiling point
 - **(1)** is 100°C
@@ -1191,6 +1200,7 @@ A small piece of calcium is added to some dilute sulfuric acid in a beaker. One 
 > significant figures
 > except 1
 > M2 (moles of sulfuric acid required = 0.0370 × 3 =)
+> 2
 > 0.0556 moles (and there is more moles of sulfuric ALLOW 0.0555 if
 > acid) candidate has used
 > rounded value of 0.0370

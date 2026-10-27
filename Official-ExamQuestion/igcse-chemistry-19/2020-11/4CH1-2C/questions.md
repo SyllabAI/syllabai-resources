@@ -56,9 +56,6 @@ State what remains in the flask when the separation is complete.
 
 > salt
 > cler
-> Total for Q1 = 5
-> Notes Marks
-> Answer
 
 - **(1)** salt
 
@@ -138,7 +135,6 @@ State how the chromatogram suggests that the yellow food dye Y is less soluble i
 
 > spot from yellow food dye/Y does not move as far ORA
 > as spot from red food dye/R OWTTE exp
-> Total for Q2 = 7
 
 - **(1)** spot from yellow food dye/Y does not move as far ORA
 
@@ -227,7 +223,6 @@ The diagram shows the arrangement of the particles in a pure metal. Metals are o
 > IGNORE references to
 > strength/breaking of
 > forces/(metallic) bonds
-> Total for Q3 = 10
 
 - **(1)** (particles/ions/atoms are same size in a regular
 - **(1)** diagram of alloy structure showing minimum of
@@ -365,7 +360,6 @@ Esters have particular uses that depend on their properties. Give an example of 
 > eg in making soaps/ in
 > solvents (for
 > paints/varnishes)
-> Total for Q4 = 15
 
 - **(1)** (Property:) distinctive/sweet/fruity smell ALLOW volatile
 - **(1)** used in perfumes/flavourings ALLOW any correct use
@@ -518,7 +512,6 @@ The equation for the combustion of butadiene in excess oxygen is 2C4H6 + 11O2 �
 > an endothermic
 > reaction profile can
 > score M2 M3 M4 ECF
-> Total for Q5 = 15
 
 - **(1)** horizontal line below level of reactants with 8 CO2 + 6 H2O
 - **(1)** profile curve rising from reactants level to form “hump” and
@@ -663,7 +656,6 @@ The equation for the reaction in the titration is H2SO4 + 2KOH → K2SO4 + 2H2O 
 > divided by 1000 in (ii)
 > 31.25/31.3/31 scores 2
 > 62.5/63 scores 2
-> Total for Q6 = 11
 
 - **(3)** calculation with following steps
 
@@ -727,7 +719,6 @@ Predict the effect on the yield of CO(g) at equilibrium when the pressure is inc
 > Exp
 > M2 because equal numbers of moles/molecules (of M2 DEP M1 correct or
 > gas) on both sides missing
-> Total for Q7 = 7
 
 - **(1)** no effect (on yield) OWTTE
 - **(1)** because equal numbers of moles/molecules (of M2 DEP M1 correct or

@@ -85,7 +85,6 @@ Some universal indicator is added to sulfur dioxide. Explain the final colour of
 > ACCEPT the solution
 > formed contains
 > hydrogen ions
-> Total for question = 6
 
 - **(1)** (final colour) red/orange/yellow IGNORE any original
 - **(1)** an acidic solution/an acid/sulfurous acid is ALLOW sulfuric acid
@@ -162,7 +161,6 @@ Determine the number of atoms in the formula of Ca(HCO3)2
 **Mark scheme answer**
 
 > 11
-> Total for question = 8
 
 - **(1)** 11
 
@@ -276,7 +274,6 @@ A sample of lithium contains 7.60% 36Li and 92.4% 73Li Calculate the relative at
 > M2 692.4÷100 OR 6.924
 > M3 6.92 ALLOW ecf if use of 6
 > and 7 in calculation
-> Total for question = 8
 
 - **(1)** (7.60 × 6) + (92.4 × 7) ACCEPT (6 × 0.076) + (7
 - **(1)** 692.4÷100 OR 6.924
@@ -353,7 +350,6 @@ At the start of the experiment, the total volume of air in the apparatus is 138 
 > significant figures
 > 21.7 / 21.74 / 22 scores 2
 > 78.3 / 78.26 / 78 scores 1
-> Total for question = 8
 
 - **(1)** 138 – 108 OR 30 (cm3)
 - **(1)** ((30÷138) × 100 =) 21.7 ALLOW minimum 2
@@ -471,7 +467,6 @@ Explain which substance acts as an oxidising agent in this reaction.
 > iron ions / Fe3+ ions)
 > causes aluminium to be
 > oxidised
-> Total for question = 12
 
 - **(1)** iron(III) oxide (is the oxidising agent) ALLOW iron oxide / iron
 - **(1)** iron(III) oxide donates oxygen to aluminium ALLOW (iron(III) oxide /
@@ -546,7 +541,6 @@ A student investigates the decomposition of a solution of hydrogen peroxide at d
 
 > M1 steeper curve starting at the origin
 > M2 same volume of oxygen produced
-> Total for question = 10
 
 - **(1)** steeper curve starting at the origin
 - **(1)** same volume of oxygen produced
@@ -643,7 +637,6 @@ The teacher burns 30.0 g of heptane. This is the equation for the complete combu
 > M2 so mass of oxygen = 352 x 30 ÷ 100
 > M3 106 (g)
 > Answer of 9.6 (g) scores 2
-> Total for question = 11
 
 - **(3)** M1 (moles of heptane) = 30 ÷ 100 OR 0.3(0) Answer of 106 g OR 105.6
 
@@ -672,6 +665,7 @@ Explain why graphite conducts electricity.
 > electrons
 > Any mention of ions in
 > graphite scores 0 out of
+> 2
 
 - **(1)** graphite has delocalised electrons IGNORE sea of electrons
 - **(1)** that are able to flow throughout the structure ACCEPT are able to
@@ -711,7 +705,6 @@ Doctors use C60 fullerene to deliver medicines to certain parts of the body, so 
 > (the C60 molecule/it) is non-toxic
 > the medicine can fit inside (the C60
 > molecule)
-> Total for question = 5
 
 - **(1)** Any one from: ALLOW any acceptable
 
@@ -801,7 +794,6 @@ A student has four unlabelled beakers, each containing a colourless solution of 
 > M8 sodium sulfate / sulfate ions gives a white M8 dep on barium
 > precipitate chloride / barium nitrate
 > in M7
-> Total for question = 13
 
 - **(6)** Any 2 from M1, M2 and M3
 
@@ -869,7 +861,9 @@ The alkane pentadecane has the formula C15H32 Describe how propene can be produc
 
 ### 10(c)(i) [2]
 
-Complete the equation for the formation of poly(propene). H CH3 n C C → H H
+Complete the equation for the formation of poly(propene).
+
+![equation to complete: n propene -> poly(propene) — official paper figure (qp.pdf p.26)](assets/asset_10_c_i_equation.png)
 
 
 **Mark scheme answer**
@@ -934,7 +928,6 @@ Propene and compound X both have simple molecular structures. Explain why compou
 > M3 because the Mr / the surface area of the
 > molecule is higher
 > M4 because the molecule has more electrons
-> Total for question = 15
 
 - **(2)** M1 intermolecular forces in compound X are
 
@@ -1077,7 +1070,6 @@ The student repeats the experiment starting with a different volume of ethanoic 
 > +38.6 which scores 4
 > ALLOW any number of sig
 > figs
-> Total for question = 14
 
 - **(4)** M1 moles of NaHCO3 = 7.0 ÷ 84 OR 0.0833
 

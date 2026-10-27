@@ -226,7 +226,6 @@ A saturated solution of potassium chloride in 100 g of water is cooled from 80 Â
 > M2 dep on at least one
 > correct value from M1
 > correct answer scores 2
-> marks
 
 - **(1)** 47 - 40
 - **(1)** 7.0 (g) ALLOW ecf from M1
@@ -602,7 +601,7 @@ Explain the effects on rate of reaction and yield of products if the temperature
 
 ### 7(b)(ii) [1]
 
-Lowering the pressure would increase the yield of products. Give a reason why a lower pressure is not used. QUESTION 7 CONTINUES ON BACK PAGE
+Lowering the pressure would increase the yield of products. Give a reason why a lower pressure is not used.
 
 
 **Mark scheme answer**

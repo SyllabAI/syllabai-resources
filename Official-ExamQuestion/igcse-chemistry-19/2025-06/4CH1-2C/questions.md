@@ -326,7 +326,6 @@ Give a reason why this reaction is classified as oxidation.
 > lost
 > REJECT chlorine / Cl / Cl2
 > loses electrons
-> Total
 
 - **(1)** chloride (ions)/Cl— (ions) lose electron(s) ALLOW electron(s) are
 
@@ -509,7 +508,7 @@ The diagram shows the final burette reading. The initial burette reading is give
 
 ### 5(c)(i) [1]
 
-Place ticks (ü) in the table to show which results are concordant.
+Place ticks (✓) in the table to show which results are concordant.
 
 ![table — official paper figure (qp.pdf p.15) — shared with asset_5_b_table_stem](assets/asset_5_b_table_stem.png)
 
@@ -681,8 +680,8 @@ An excess of hydrogen reacts with 50.8 g of iodine. At equilibrium, the yield of
 > 100 as long as attempt to
 > calculate moles
 > M3 (volume of HI) = 0.32 × 24 000 OR 7 680 (cm3)
-> M4 7.68 × 103 / 7.7 × 103 (cm3) 3.84 × 103 /9.6 × 103
-> /1.92 × 103 scores 3
+> M4 7.68 × 10³ / 7.7 × 10³ (cm3) 3.84 × 10³ /9.6 × 10³
+> /1.92 × 10³ scores 3
 > 3840 / 9600 / 1920
 > scores 2
 > 1.5(36) x 104 scores 3

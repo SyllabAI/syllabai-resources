@@ -1,5 +1,44 @@
 # CHANGELOG — official_examq_extract.py (ADR-037 converter)
 
+## 0.29.0 — 2026-10-28 · the MS-grid parser tranche (F108): the Finding-5 box parser + the F88-queued converter-side grid strip + the F90 MS-side-aware bare-number rule
+
+Three legs on the MS answer grid, one version (the tranche the deep-audit filed as
+"MS-box parser tranche" and Finding 8 as "converter-side MS-grid parser"). Also
+repairs the F66-class clobber regression the law-5 baseline dry-run caught: the
+Task-21 merge had dropped the Task-19-r2 hunks (F92 tick sub, F93 footer word
+order, the F97 `_mp_only_fragments` helper and both call sites) from the v0.25.0
+blob — restored via three-way merge before the legs landed.
+
+- **Leg 0 — F90 (converter pass closes)**: `clean_lines(keep_bare_numerals=True)`
+  (now wired for 4ch1) keeps bare 1-2 digit lines whose column sits inside the
+  printed Answer/Notes cell region (`Answer_x - 8 <= col < Marks_x - 12`, and not
+  directly after a marker row) — the printed fraction denominators restore
+  (÷3 mean, ÷7/÷2 moles, ÷46 Mr, 'significant figures except 1'); marks digits
+  (8-12 cols left of the header 'Marks' x) and page numbers keep stripping.
+  The MS-LINK-OVERRIDES `not lines` law is preserved (entries trim leading/
+  trailing blanks; interior blanks survive for the grid parser).
+- **Leg 1 — F88 caveat closes**: `strip_ms_grid_furniture` ports the exporter's
+  F-W15-2 semantics byte-verbatim to the source (trailing furniture lines ≤4 +
+  the F88 mid-text classes: bare Total-family rows, header rows with ≥2
+  furniture tokens), applied to assembled solution/mark-point text AFTER
+  linkage/keying/M-splitting; refuses to empty a text (fail-closed). The
+  extraction now emits the serve-clean form; the exporter strip stays as the
+  redundant second line of defense.
+- **Leg 2 — Finding 5 closes (the MS-box parser)**: `restore_ms_answer_grids`
+  reconstructs the printed match-description answer grid from the layout
+  x-geometry (header 'Information <right header>' fixes the right column;
+  two-column lines start rows; left-only lines append descriptions; right-only
+  lines append answers; blank lines close rows) and re-emits a two-column
+  markdown table — verbatim tokens, rows reassembled, G2-D disclosed per part.
+  2021-06 1C 1(a) and 2023-06 1CR 4(a) serve readable grids (C110/C111).
+- **Canaries**: C109 `no_grid_furniture_lines` (the F88 mid-text universe at
+  source), C110/C111 `part_solution_md_contains` (grid pins) — both new check
+  types ship with their dispatch arms in the same commit (F104 rule 1).
+- **Census**: 54/54 slices re-run exit 0; 9 byte-equal modulo generated_utc;
+  the remainder delta-classifies to the disclosed known classes (MCQ positional
+  33, exponent 8, Task-20 strip patches 14) + the F90 content restorations.
+
+
 ## 0.28.0 — 2026-10-27 · F107: the 2023-06 4CH1-2CR image-answer repair + the 7(c)(ii) graded-value correction
 
 Post-#192 verification wave (converter unchanged, v0.25.0; hand-repair + ledger + canaries):
