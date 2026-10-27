@@ -26,7 +26,7 @@ at 300 dpi from the archive of record):
    consistent with the printed "REJECT -OH not displayed" note). Mode B
    correction with rendered-page evidence; correction_of_record disclosed in the
    ledger entry. Changes the SERVED solutionMd -> exporter disclosure census
-   required (2026-10-27-f107-ms-image-answer.json).
+   required (2026-10-27-wave28-f107-ms-image-answer.json).
 
 Exactly-once asserted edits; nothing else touched.
 """

@@ -13,7 +13,7 @@ Post-#192 verification wave (converter unchanged, v0.25.0; hand-repair + ledger 
 - **7(c)(ii) (Mode B graded-value correction)**: the served enrichment claimed
   'propanoic acid, CH₃CH₂COOH'; the printed MS image answer and the QP displayed formula
   are 2-methylpropanoic acid / methyl 2-methylpropanoate (branched). Corrected with
-  correction_of_record disclosure; exporter disclosure census 2026-10-27-f107-ms-image-answer.json.
+  correction_of_record disclosure; exporter disclosure census 2026-10-27-wave28-f107-ms-image-answer.json.
 - C99 assertion carries the F107 supersession note (the honest-empty state retires).
 
 ## 0.27.0 — 2026-10-27 · G9 aggregation law as code (F105) + the asset-byte guard (the F104 boundary fix) + benchmark v2 (F106)
